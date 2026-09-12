@@ -126,56 +126,65 @@ Write-Title '2/5  프로젝트를 GitHub에 올리기'
 $remoteUrl = 'https://github.com/' + $repository + '.git'
 $remoteHead = & git ls-remote --heads $remoteUrl refs/heads/main 2>$null
 if ($LASTEXITCODE -ne 0) { Stop-Friendly 'GitHub 저장소 내용을 확인하지 못했습니다.' }
-
+$projectAlreadyInstalled = $false
 if ($remoteHead) {
-    $canUseCurrent = $false
-    if (Test-Path -LiteralPath (Join-Path $ProjectRoot '.git')) {
-        $currentOrigin = & git remote get-url origin 2>$null
-        if ($LASTEXITCODE -eq 0 -and $currentOrigin -match [regex]::Escape($repository)) {
-            & git fetch origin main
-            if ($LASTEXITCODE -eq 0) {
-                & git merge-base --is-ancestor origin/main HEAD
+    & gh api ('repos/' + $repository + '/contents/indexer/main.py?ref=main') --silent *> $null
+    $projectAlreadyInstalled = ($LASTEXITCODE -eq 0)
+}
+
+if ($projectAlreadyInstalled) {
+    Write-Host '프로젝트가 이미 GitHub에 올라가 있어 2번을 자동으로 건너뜁니다.' -ForegroundColor Green
+} else {
+    if ($remoteHead) {
+        $canUseCurrent = $false
+        if (Test-Path -LiteralPath (Join-Path $ProjectRoot '.git')) {
+            $currentOrigin = & git remote get-url origin 2>$null
+            if ($LASTEXITCODE -eq 0 -and $currentOrigin -match [regex]::Escape($repository)) {
+                & git fetch origin main
                 if ($LASTEXITCODE -eq 0) {
-                    $canUseCurrent = $true
-                } else {
-                    & git merge-base --is-ancestor HEAD origin/main
+                    & git merge-base --is-ancestor origin/main HEAD
                     if ($LASTEXITCODE -eq 0) {
-                        & git pull --ff-only origin main
-                        $canUseCurrent = ($LASTEXITCODE -eq 0)
+                        $canUseCurrent = $true
+                    } else {
+                        & git merge-base --is-ancestor HEAD origin/main
+                        if ($LASTEXITCODE -eq 0) {
+                            & git pull --ff-only origin main
+                            $canUseCurrent = ($LASTEXITCODE -eq 0)
+                        }
                     }
                 }
             }
         }
-    }
-    if (-not $canUseCurrent) {
-        try {
-            $connectedResult = @(New-ConnectedWorkingCopy $ProjectRoot $remoteUrl)
-            $ProjectRoot = [string]$connectedResult[-1]
-            Set-Location -LiteralPath $ProjectRoot
-        } catch {
-            Stop-Friendly $_.Exception.Message
+        if (-not $canUseCurrent) {
+            try {
+                $connectedResult = @(New-ConnectedWorkingCopy $ProjectRoot $remoteUrl)
+                $ProjectRoot = [string]$connectedResult[-1]
+                Set-Location -LiteralPath $ProjectRoot
+            } catch {
+                Stop-Friendly $_.Exception.Message
+            }
         }
+    } elseif (-not (Test-Path -LiteralPath (Join-Path $ProjectRoot '.git'))) {
+        & git init -b main
+        if ($LASTEXITCODE -ne 0) { Stop-Friendly '로컬 Git 저장소를 만들지 못했습니다.' }
+        & git remote add origin $remoteUrl
     }
-} elseif (-not (Test-Path -LiteralPath (Join-Path $ProjectRoot '.git'))) {
-    & git init -b main
-    if ($LASTEXITCODE -ne 0) { Stop-Friendly '로컬 Git 저장소를 만들지 못했습니다.' }
-    & git remote add origin $remoteUrl
-}
-$origin = (& git remote get-url origin 2>$null)
-if (-not $origin) { & git remote add origin $remoteUrl }
-$login = (& gh api user --jq .login).Trim()
-if (-not $login) { $login = 'book-indexer-user' }
-& git config user.name $login
-& git config user.email ($login + '@users.noreply.github.com')
-& git add .
-& git diff --cached --quiet
-if ($LASTEXITCODE -ne 0) {
-    & git commit -m 'Install personal book knowledge base'
-    if ($LASTEXITCODE -ne 0) { Stop-Friendly '프로젝트 저장에 실패했습니다.' }
-}
-& git push -u origin main
-if ($LASTEXITCODE -ne 0) {
-    Stop-Friendly 'GitHub 업로드에 실패했습니다. 기존 파일은 변경되지 않았습니다.'
+    $origin = (& git remote get-url origin 2>$null)
+    if (-not $origin) { & git remote add origin $remoteUrl }
+    $login = (& gh api user --jq .login).Trim()
+    if (-not $login) { $login = 'book-indexer-user' }
+    & git config user.name $login
+    & git config user.email ($login + '@users.noreply.github.com')
+    & git add .
+    & git diff --cached --quiet
+    if ($LASTEXITCODE -ne 0) {
+        & git commit -m 'Install personal book knowledge base'
+        if ($LASTEXITCODE -ne 0) { Stop-Friendly '프로젝트 저장에 실패했습니다.' }
+    }
+    & git push -u origin main
+    if ($LASTEXITCODE -ne 0) {
+        Stop-Friendly 'GitHub 업로드에 실패했습니다. 기존 파일은 변경되지 않았습니다.'
+    }
 }
 
 Write-Title '3/5  Google Drive 읽기 권한 준비'

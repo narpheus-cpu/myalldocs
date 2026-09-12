@@ -43,3 +43,10 @@ def test_connected_copy_returns_only_one_string_path():
     assert "$copyMessages = & robocopy.exe" in source
     assert "Write-Output -NoEnumerate ([string]$target)" in source
     assert "$ProjectRoot = [string]$connectedResult[-1]" in source
+
+
+def test_existing_remote_install_skips_git_copy_and_push_step():
+    source = (ROOT / "setup" / "beginner-setup.ps1").read_text(encoding="utf-8-sig")
+    assert "/contents/indexer/main.py?ref=main" in source
+    assert "if ($projectAlreadyInstalled)" in source
+    assert "2번을 자동으로 건너뜁니다" in source
