@@ -34,3 +34,18 @@ def test_runtime_selector_requires_generate_content():
 def test_runtime_selector_rejects_deprecated_description():
     with pytest.raises(NoSupportedModel):
         select_model([model("gemini-9-flash", description="deprecated model")], POLICY)
+
+
+def test_runtime_selector_uses_explicit_free_model_order_and_accepts_stable_legacy_description():
+    policy = {
+        **POLICY,
+        "preferredModelOrder": ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite"],
+        "denyNameFragments": ["preview", "latest", "legacy"],
+        "denyDescriptionFragments": ["deprecated", "retired", "shut down"],
+    }
+    ranked = rank_models([
+        model("gemini-3.5-flash-lite"),
+        model("gemini-3.5-flash", description="stable legacy Flash model"),
+        model("gemini-3.8-flash"),
+    ], policy)
+    assert [item.name for item in ranked] == ["gemini-3.8-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite"]

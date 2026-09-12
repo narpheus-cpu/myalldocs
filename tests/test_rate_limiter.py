@@ -81,3 +81,16 @@ def test_retry_override_allows_one_probe_attempt():
     with pytest.raises(RateLimitPaused):
         limiter.call(fail, max_retries=0)
     assert len(calls) == 1
+
+
+def test_minimum_successful_request_interval_prevents_success_bursts():
+    waits = []
+    now = {"value": 100.0}
+    limiter = RateLimiter(
+        {"minimumSuccessfulRequestIntervalSeconds": 60, "safetyMargin": 1},
+        sleeper=waits.append,
+        clock=lambda: now["value"],
+    )
+    limiter.last_success_at = 44.0
+    limiter.before_request()
+    assert waits == [4.0]

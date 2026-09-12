@@ -132,6 +132,9 @@ class IndexPipeline:
             "apiFailedAttempts": self.gemini.rate_limiter.usage.failed_attempts,
             "attemptedModels": self.gemini.attempted_models,
             "modelSwitchCount": self.gemini.model_switch_count,
+            "modelCycle": self.gemini.model_cycle,
+            "maxModelCycles": self.gemini.max_model_cycles,
+            "modelCycleRestarts": self.gemini.model_cycle_restarts,
             "lastModelError": self.gemini.last_model_error,
             "invalidJsonResponses": self.gemini.invalid_json_responses,
             "inputTokens": self.gemini.rate_limiter.usage.input_tokens,
@@ -269,6 +272,7 @@ class IndexPipeline:
                 "webViewLink": book.webViewLink,
             },
             "model": {"name": self.gemini.model_name, "sdk": "google-genai", "selection": "runtime models.list policy"},
+            "chunking": self.settings.raw["chunking"],
             "versions": versions,
             "indexStatus": "COMPLETE",
             "indexedAt": _now(),
@@ -316,6 +320,9 @@ class IndexPipeline:
             "apiFailedAttempts": usage.failed_attempts,
             "attemptedModels": self.gemini.attempted_models,
             "modelSwitchCount": self.gemini.model_switch_count,
+            "modelCycle": self.gemini.model_cycle,
+            "maxModelCycles": self.gemini.max_model_cycles,
+            "modelCycleRestarts": self.gemini.model_cycle_restarts,
             "lastModelError": self.gemini.last_model_error,
             "invalidJsonResponses": self.gemini.invalid_json_responses,
             "inputTokens": usage.input_tokens,
@@ -342,6 +349,20 @@ class IndexPipeline:
         kind = str(event.get("event", ""))
         if kind == "MODEL_FALLBACK":
             self._emit_progress("MODEL_FALLBACK", str(event.get("message", "다음 무료 모델로 전환했습니다.")), force=True)
+            return
+        if kind == "MODEL_COOLDOWN":
+            self.gemini_event["statusCode"] = None
+            self.gemini_event["retryAttempt"] = None
+            self._emit_progress("MODEL_COOLDOWN", str(event.get("message", "무료 모델 쿨다운을 기다리고 있습니다.")), force=True)
+            return
+        if kind == "MODEL_CYCLE_RESTART":
+            self._emit_progress("MODEL_CYCLE_RESTART", str(event.get("message", "무료 모델 탐색을 다시 시작합니다.")), force=True)
+            return
+        if kind == "PACING":
+            self.gemini_event["statusCode"] = None
+            self.gemini_event["retryAttempt"] = None
+            delay = event.get("retryDelaySeconds", 0)
+            self._emit_progress("GEMINI_PACING", f"무료 호출 간격을 지키기 위해 {delay}초 기다립니다.", force=True)
             return
         if kind == "RETRY":
             status = event.get("statusCode", "-")

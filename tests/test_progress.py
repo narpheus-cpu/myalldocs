@@ -45,7 +45,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260913-library-list" in html
+    assert "js/app.js?v=20260913-monochrome-reader" in html
 
 
 def test_library_is_a_board_list_with_integrated_txt_download():
@@ -58,6 +58,22 @@ def test_library_is_a_board_list_with_integrated_txt_download():
     for phrase in ("downloadBook", "saveIntegratedText", "summary.json", "analysis.json", "timeline.json", "relationships.json", "chunks.json", "\\ufeff"):
         assert phrase in script
     assert "검색어를 입력하면 결과가 여기에 표시됩니다" in script
+
+
+def test_monochrome_reader_controls_and_drive_only_raw_chunk_popup():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    source_reader = (ROOT / "js" / "source-reader.js").read_text(encoding="utf-8")
+    styles = (ROOT / "assets" / "styles.css").read_text(encoding="utf-8")
+    for element_id in ("font-smaller", "font-larger", "line-tighter", "line-looser", "chunk-select", "chunk-dialog", "copy-chunk"):
+        assert f'id="{element_id}"' in html
+    for phrase in ("loadDriveChunks", "openSelectedChunk", "navigator.clipboard.writeText", "sourceChunks:new Map"):
+        assert phrase in script
+    assert "www.googleapis.com/drive/v3/files/" in source_reader
+    assert "Authorization: `Bearer ${accessToken}`" in source_reader
+    assert "text/plain" not in source_reader  # no source text is embedded in the public bundle
+    assert "Noto Serif" not in styles and "Georgia" not in styles
+    assert "#bd4a2f" not in styles.casefold() and "#24483b" not in styles.casefold()
 
 
 def test_relay_and_workflow_connect_saved_key_and_live_progress():
@@ -103,7 +119,7 @@ def test_monitor_distinguishes_service_pause_and_real_completion_progress():
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
     assert 'id="activity-log" class="activity-log"' in html
     assert "<ol id=\"activity-log\"" not in html
-    for phrase in ("PAUSED_SERVICE_UNAVAILABLE", "GEMINI_RETRY", "MODEL_FALLBACK", "apiRequestAttempts", "Gemini 호출 시도", "state.lastStatus", "saved.errors", "data/job-status.json?status="):
+    for phrase in ("PAUSED_SERVICE_UNAVAILABLE", "GEMINI_RETRY", "MODEL_FALLBACK", "MODEL_COOLDOWN", "MODEL_CYCLE_RESTART", "GEMINI_PACING", "apiRequestAttempts", "Gemini 호출 시도", "state.lastStatus", "saved.errors", "data/job-status.json?status="):
         assert phrase in script
     assert "resolved/total*100" in script
     assert "index/total*100" not in script

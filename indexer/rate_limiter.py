@@ -51,6 +51,7 @@ class RateLimiter:
         self.usage = Usage()
         self.request_times: deque[float] = deque()
         self.token_events: deque[tuple[float, int]] = deque()
+        self.last_success_at: float | None = None
         self.consecutive_retryable_failures = 0
 
     def before_request(self, estimated_input_tokens: int = 0) -> None:
@@ -61,6 +62,13 @@ class RateLimiter:
         if max_tokens and self.usage.input_tokens + self.usage.output_tokens + estimated_input_tokens > max_tokens:
             raise BudgetExceeded("per-run token budget reached")
         self._trim()
+        minimum_interval = float(self.config.get("minimumSuccessfulRequestIntervalSeconds", 0) or 0)
+        if minimum_interval and self.last_success_at is not None:
+            interval_wait = minimum_interval - (self.clock() - self.last_success_at)
+            if interval_wait > 0:
+                self._emit_event({"event": "PACING", "retryDelaySeconds": round(interval_wait, 2)})
+                self.sleep(interval_wait)
+                self._trim()
         margin = float(self.config.get("safetyMargin", 0.75))
         rpm = int(float(self.config.get("requestsPerMinute", 0) or 0) * margin)
         tpm = int(float(self.config.get("tokensPerMinute", 0) or 0) * margin)
@@ -81,6 +89,7 @@ class RateLimiter:
         self.usage.input_tokens += max(0, input_tokens)
         self.usage.output_tokens += max(0, output_tokens)
         self.token_events.append((now, total))
+        self.last_success_at = now
         self.consecutive_retryable_failures = 0
 
     def set_event_callback(self, callback: Callable[[dict[str, Any]], None] | None) -> None:

@@ -39,11 +39,11 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 - confidence가 낮거나 evidence가 충돌하면 인터넷 검색 없이 `NEEDS_METADATA_REVIEW`
 - 메타데이터 AI도 로컬 evidence 후보 중에서만 선택하며 외부 지식 사용 금지
 - `models.list()`로 실제 key에 노출된 모델을 조회한 뒤 공식 Free Tier 게시 목록·stable 정책을 모두 통과한 모델만 선택
-- preview/experimental/latest/deprecated/retired/legacy 이름 차단, 미발견 시 `NO_SUPPORTED_MODEL`
-- 사용자 설정 RPM/TPM/실행 예산, safety margin, `Retry-After`, 지수 backoff+jitter, circuit breaker
+- preview/experimental/latest/deprecated/retired 이름 차단, 미발견 시 `NO_SUPPORTED_MODEL` (공식 Stable 목록에서 ‘legacy 세대’라고 설명된 현재 모델은 이름만으로 오차단하지 않음)
+- 사용자 설정 RPM/TPM/실행 예산, 성공 호출 간 최소 간격, safety margin, `Retry-After`, 지수 backoff+jitter, circuit breaker
 - Gemini 무료 quota 또는 자체 실행 예산 중단 시 checkpoint와 `PAUSED_RATE_LIMIT`, 다음 실행에서 미완료 chunk부터 재개
-- 한 모델이 429에 막히면 런타임에서 확인된 다음 무료·Stable 모델을 순서대로 탐색하고, 모든 후보가 막힌 뒤에만 `PAUSED_RATE_LIMIT`
-- Gemini `503`은 quota로 오인하지 않고 재시도 후 다른 승인된 무료 모델로 최대 2회 전환, 모두 일시 장애면 `PAUSED_SERVICE_UNAVAILABLE`
+- 한 모델이 429/503에 막히면 딱 한 번 재시도한 뒤 다음 무료·Stable 모델로 즉시 전환
+- 모든 후보가 막히면 5분, 다음에는 10분 쿨다운 후 첫 모델부터 다시 순환하며, 설정된 3회 순환까지 실패했을 때만 checkpoint 일시정지
 - Gemini가 문법이 깨진 JSON을 반환하면 엄격한 JSON 지시로 자동 재요청하고 다음 무료 모델까지 시도
 - Drive 호출 quota-unit·다운로드 byte 자체 예산, Drive 403/429 시 추가 과금 없이 `PAUSED_RATE_LIMIT`
 - 인덱싱 화면에서 Gemini API Key를 교체해 Apps Script의 비공개 Script Properties에 저장하고 다음 실행부터 적용
@@ -53,10 +53,22 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 - 소설·학술·철학·역사·과학기술·에세이·실용·희곡·시·혼합 문집별 분석 profile
 - manifest의 `tabs`로 상세 메뉴를 동적 생성하는 Pages UI
 - 전체 도서는 게시판형 목록으로 표시하고, 책마다 manifest·전체 요약·구간별 요약·분석·연대기·관계를 합친 UTF-8 TXT 다운로드 제공
+- 상세 본문의 글자 크기·줄간격 조절, `1 / 17` 형태의 청크 선택, Google Drive에서 해당 청크 원문을 그때만 읽어 오는 팝업과 복사 버튼
 - GitHub Actions 데이터 commit, Actions Summary, Pages 배포
 - 선택 폴더의 모든 TXT/EPUB가 `COMPLETE`일 때만 Apps Script가 `narepheus@gmail.com`으로 완료 메일 발송
 - 빠른 중복 클릭은 브라우저와 Apps Script 잠금으로 차단하고, 대기 실행도 최신 `main`에서 완료 책을 확인해 재분석하지 않음
 - 인덱싱 결과 커밋 뒤 `Deploy GitHub Pages`가 명시적으로 실행되어 새 카탈로그가 사이트에 반영됨
+
+## 결과는 어디에 저장되나요?
+
+완료된 **요약·분석 결과는 Google Drive가 아니라 GitHub 저장소**에 저장됩니다.
+
+- 책 목록: `data/catalog.json`
+- 책별 결과: `data/books/<bookId>/manifest.json`, `summary.json`, `chunks.json`, `analysis.json`, `timeline.json`, `relationships.json`
+- 중간 재개 정보: `data/checkpoints/`
+- ‘통합 TXT’는 저장된 별도 파일이 아니라, 사이트에서 위 JSON들을 합쳐 사용자의 다운로드 폴더에 즉시 만들어 주는 파일입니다.
+
+Google Drive에는 사용자가 넣어 둔 원본 TXT/EPUB만 그대로 남습니다. 청크 원문 팝업도 원문을 GitHub에 복사하지 않고, 허용된 Google 계정으로 Drive 원본을 그 순간에만 읽어 브라우저 메모리에 청크를 만듭니다. 창을 닫거나 새로고침하면 그 원문 메모리는 사라집니다.
 
 ## 전체 흐름
 
@@ -329,9 +341,10 @@ data/books/{bookId}/relationships.json
 1. `google-genai`의 `client.models.list()`를 호출합니다.
 2. `generateContent`를 지원하는지 확인합니다.
 3. `config/model-policy.json`의 공식 Free Tier 게시 모델 정규식과 차단 단어를 적용합니다.
-4. Flash/Flash-Lite stable 형태를 우선순위대로 고릅니다. Paid-only 모델과 Pro/preview/experimental/latest alias는 선택하지 않습니다.
-5. 호출 시 unavailable이면 다음 허용 Free Tier 모델로 fallback합니다.
-6. 허용 모델이 하나도 없으면 API를 억지 호출하거나 Billing을 안내하지 않고 `NO_SUPPORTED_MODEL`로 끝냅니다.
+4. 현재 우선순위는 `3.8 Flash → 3.7 Flash → 3.6 Flash → 3.5 Flash → 2.5 Flash → 3.5 Flash-Lite → 3.1 Flash-Lite → 2.5 Flash-Lite`입니다. 이 목록은 코드가 아닌 `config/model-policy.json`에서 관리합니다.
+5. 이 중 실제 `models.list()`에 나타나고 `generateContent`를 지원하는 모델만 남깁니다. Paid-only 모델과 Pro/preview/experimental/latest alias는 선택하지 않습니다.
+6. 호출 시 unavailable이면 다음 허용 Free Tier 모델로 fallback합니다.
+7. 허용 모델이 하나도 없으면 API를 억지 호출하거나 Billing을 안내하지 않고 `NO_SUPPORTED_MODEL`로 끝냅니다.
 
 Google이 Free Tier 제공 모델을 바꾸면 공식 가격·모델 페이지를 모두 확인하고 `freeTierModelPatterns`만 갱신합니다. `models.list()`에 보인다는 사실만으로 무료라고 간주하지 않습니다.
 
@@ -342,15 +355,20 @@ Gemini 모델 API는 해당 key가 연결된 프로젝트의 Billing 상태 자�
 `config/indexer.json`의 숫자는 Google의 공식 고정 한도가 아니라 **이 저장소의 자체 무료 안전 예산**입니다.
 
 - `requestsPerMinute`, `tokensPerMinute`: 계정 한도 이하의 속도
+- `minimumSuccessfulRequestIntervalSeconds`: 한 번 성공한 모델을 계속 사용할 때 다음 호출 전 확보하는 최소 간격(기본 60초)
 - `maxRequestsPerRun`, `maxTokensPerRun`: 한 실행의 최대 소비
 - `maxBooksPerRun`, `maxChunksPerRun`: 하루/회차 작업량
 - `maxRuntimeMinutes`: Actions timeout보다 작은 값
 - `safetyMargin`: 설정 한도의 실제 사용 비율
-- `maxRetries`, backoff, circuit breaker: 반복 오류 때 안전 일시정지
+- `maxRetries`: 모델별 추가 시도 횟수이며 현재 `1`
+- `modelCycleCooldownSeconds`, `maxModelCyclesPerRequest`: 모든 무료 모델 실패 뒤 자동 대기와 재순환 횟수
+- backoff, circuit breaker: 반복 오류 때 안전 일시정지
 
-429의 `Retry-After`가 있으면 우선 따르고, 이후 지수 backoff와 jitter를 적용합니다. 첫 모델의 재시도를 소진하면 `models.list()`와 Free Tier·Stable 정책을 통과한 다음 모델을 순서대로 한 번씩 확인합니다. 사용 가능한 모델을 찾으면 그 모델로 계속 처리하고, 모든 허용 무료 모델이 429일 때만 `data/checkpoints/`에 진행을 저장하고 `PAUSED_RATE_LIMIT`로 종료합니다. 자체 `maxRequestsPerRun`·token·runtime 예산에 닿은 경우에는 비용 안전장치를 우회하지 않고 즉시 멈춥니다. 실패 호출도 실행 예산과 화면의 호출 시도 횟수에 포함합니다.
+429의 `Retry-After`가 있으면 우선 따르고, 이후 지수 backoff와 jitter를 적용합니다. 각 모델은 첫 실패 뒤 **한 번만 더 시도**하고, 또 실패하면 즉시 다음 모델로 갑니다. 모든 모델이 막히면 5분 대기 후 첫 모델부터 다시 확인하고, 다시 모두 막히면 10분 대기 후 세 번째 순환을 수행합니다. 세 순환 모두 실패한 경우에만 `data/checkpoints/`에 진행을 저장하고 `PAUSED_RATE_LIMIT`로 종료합니다. 자체 `maxRequestsPerRun`·token·runtime 예산에 닿은 경우에는 비용 안전장치를 우회하지 않고 즉시 멈춥니다. 실패 호출도 실행 예산과 화면의 호출 시도 횟수에 포함합니다.
 
-503은 무료 quota 소진이 아니라 Gemini 서비스의 일시 과부하 또는 사용 불가로 다룹니다. 먼저 같은 모델에서 backoff 재시도하고, 계속 503이면 `models.list()`와 Free Tier 정책을 이미 통과한 다음 모델로 전환합니다. `config/model-policy.json`의 `maxServiceFallbacks` 횟수만큼 전환해도 모두 실패하면 checkpoint를 보존한 채 `PAUSED_SERVICE_UNAVAILABLE`로 끝냅니다.
+503은 무료 quota 소진이 아니라 Gemini 서비스의 일시 과부하 또는 사용 불가로 다룹니다. 429와 마찬가지로 모델별 한 번 재시도, 다음 모델 전환, 전 모델 쿨다운 재순환을 수행합니다. 설정된 세 순환까지 서비스가 모두 응답하지 않을 때만 checkpoint를 보존한 채 `PAUSED_SERVICE_UNAVAILABLE`로 끝냅니다.
+
+Google 공식 문서는 RPD가 태평양 시간 자정에 초기화되며, 실제 RPM·TPM·RPD가 모델·프로젝트 상태에 따라 달라지고 보장된 고정값이 아니므로 AI Studio에서 현재 값을 확인하라고 안내합니다. 따라서 이 프로젝트는 특정 숫자를 Google의 영구 한도로 고정하지 않습니다. 대신 한 모델이 성공한 뒤 다음 호출까지 최소 60초를 두고, 분당 요청·토큰 제한, 실행당 요청·토큰 상한, `Retry-After`, 전 모델 쿨다운을 함께 적용합니다. 실패한 모델에서 다음 후보를 찾는 과정에는 이 성공 간격을 강제로 적용하지 않아 빠르게 넘어갑니다. AI Studio에 표시된 현재 한도가 더 낮다면 `config/indexer.json` 값을 낮춰야 합니다.
 
 Drive에도 별도 무료 안전 예산이 있습니다.
 

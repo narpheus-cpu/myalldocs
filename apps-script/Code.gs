@@ -78,6 +78,7 @@ function handleProgress_(body) {
     'currentChunk','totalChunks','complete','skipped','failed','metadataReview','processedChunks',
     'apiRequests','apiSuccessfulRequests','apiRequestAttempts','apiFailedAttempts','inputTokens','outputTokens','driveQuotaUnits','driveDownloadedBytes',
     'attemptedModels','modelSwitchCount','lastModelError',
+    'modelCycle','maxModelCycles','modelCycleRestarts',
     'invalidJsonResponses','lastError',
     'lastHttpStatus','retryAttempt','retryMaxAttempts','retryDelaySeconds','previousModel',
     'startedAt','updatedAt','finishedAt','allTargetsComplete'];

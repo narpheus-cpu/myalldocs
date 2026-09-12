@@ -22,6 +22,23 @@ def test_paid_only_or_unpublished_model_is_rejected_even_if_runtime_lists_it():
         rank_models([paid], policy)
 
 
+def test_current_stable_flash_lite_models_are_in_free_runtime_policy():
+    policy = Settings.load(ROOT).model_policy
+    models = [
+        SimpleNamespace(name="models/gemini-3.5-flash-lite", display_name="3.5 lite", supported_actions=["generateContent"], description="Stable"),
+        SimpleNamespace(name="models/gemini-3.1-flash-lite", display_name="3.1 lite", supported_actions=["generateContent"], description="Stable"),
+    ]
+    assert [item.name for item in rank_models(models, policy)] == ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite"]
+
+
+def test_free_model_policy_retries_once_and_has_bounded_cooldown_cycles():
+    settings = Settings.load(ROOT)
+    assert settings.model_policy["retriesPerModel"] == 1
+    assert settings.model_policy["maxModelCyclesPerRequest"] >= 2
+    assert settings.model_policy["modelCycleCooldownSeconds"] >= 60
+    assert settings.quota["minimumSuccessfulRequestIntervalSeconds"] >= 60
+
+
 def test_drive_quota_units_pause_before_crossing_budget():
     guard = DriveQuotaGuard({"maxQuotaUnitsPerRun": 100})
     guard.consume_units(90)

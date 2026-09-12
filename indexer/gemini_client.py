@@ -22,10 +22,14 @@ class GeminiClient:
         self._models = rank_models(self.client.models.list(), model_policy)
         self._model_index = 0
         self.selected: SelectedModel = self._models[0]
-        self._max_service_fallbacks = max(0, int(model_policy.get("maxServiceFallbacks", 2)))
+        self._retries_per_model = max(0, int(model_policy.get("retriesPerModel", 1)))
+        self._max_model_cycles = max(1, int(model_policy.get("maxModelCyclesPerRequest", 3)))
+        self._cycle_cooldown = max(0.0, float(model_policy.get("modelCycleCooldownSeconds", 300)))
+        self._cycle_cooldown_cap = max(self._cycle_cooldown, float(model_policy.get("modelCycleCooldownMaxSeconds", 900)))
+        self._model_cycle = 1
+        self.model_cycle_restarts = 0
         self._max_invalid_json_retries = max(0, int(model_policy.get("maxInvalidJsonRetries", 1)))
         self._max_invalid_json_fallbacks = max(0, int(model_policy.get("maxInvalidJsonFallbacks", 1)))
-        self._service_fallbacks = 0
         self.attempted_models = [self.selected.name]
         self.model_switch_count = 0
         self.last_model_error = ""
@@ -65,6 +69,50 @@ class GeminiClient:
         })
         return True
 
+    @property
+    def model_cycle(self) -> int:
+        return self._model_cycle
+
+    @property
+    def max_model_cycles(self) -> int:
+        return self._max_model_cycles
+
+    def _restart_model_cycle(self, reason: str) -> bool:
+        if self._model_cycle >= self._max_model_cycles:
+            return False
+        previous = self.model_name
+        delay = min(self._cycle_cooldown_cap, self._cycle_cooldown * (2 ** (self._model_cycle - 1)))
+        next_cycle = self._model_cycle + 1
+        self.last_model_error = reason[:300]
+        self._emit_event({
+            "event": "MODEL_COOLDOWN",
+            "model": previous,
+            "modelCycle": self._model_cycle,
+            "maxModelCycles": self._max_model_cycles,
+            "retryDelaySeconds": round(delay, 2),
+            "message": f"모든 무료 모델을 확인했습니다. {int(delay)}초 쿨다운 후 {next_cycle}번째 순환을 시작합니다.",
+        })
+        self.rate_limiter.sleep(delay)
+        self._model_index = 0
+        self.selected = self._models[0]
+        self._model_cycle = next_cycle
+        self.model_cycle_restarts += 1
+        self.model_switch_count += 1
+        self.attempted_models.append(self.model_name)
+        self.rate_limiter.reset_retry_state()
+        self._emit_event({
+            "event": "MODEL_CYCLE_RESTART",
+            "model": self.model_name,
+            "previousModel": previous,
+            "modelCycle": self._model_cycle,
+            "maxModelCycles": self._max_model_cycles,
+            "message": f"쿨다운이 끝나 {self.model_name}부터 무료 모델 탐색을 다시 시작합니다.",
+        })
+        return True
+
+    def _switch_or_restart(self, reason: str) -> bool:
+        return self._switch_model(reason) or self._restart_model_cycle(reason)
+
     def generate_json(self, prompt: str, schema: dict | None = None) -> Any:
         from google.genai import types
 
@@ -79,7 +127,6 @@ class GeminiClient:
         request_prompt = prompt
         invalid_json_retries = 0
         invalid_json_fallbacks = 0
-        rate_limit_probe_mode = False
         while True:
             def operation():
                 return self.client.models.generate_content(model=self.model_name, contents=request_prompt, config=config)
@@ -88,23 +135,21 @@ class GeminiClient:
                 response = self.rate_limiter.call(
                     operation,
                     estimated_input_tokens=max(1, len(request_prompt) // 4),
-                    max_retries=0 if rate_limit_probe_mode else None,
+                    max_retries=self._retries_per_model,
                 )
             except BudgetExceeded:
                 raise
             except RateLimitPaused as exc:
                 self.last_model_error = str(exc)[:300]
-                if not self._switch_model(str(exc)):
+                if not self._switch_or_restart(str(exc)):
                     tried = ", ".join(self.attempted_models)
-                    raise RateLimitPaused(f"모든 허용 무료 모델의 한도를 확인한 뒤 일시정지: {tried}") from exc
-                rate_limit_probe_mode = True
+                    raise RateLimitPaused(f"모든 허용 무료 모델을 {self._max_model_cycles}회 순환한 뒤 체크포인트 일시정지: {tried}") from exc
                 continue
             except ServiceUnavailablePaused as exc:
                 self.last_model_error = str(exc)[:300]
-                if self._service_fallbacks >= self._max_service_fallbacks or not self._switch_model(str(exc)):
+                if not self._switch_or_restart(str(exc)):
                     tried = ", ".join(self.attempted_models)
-                    raise ServiceUnavailablePaused(f"Gemini service unavailable after free-model fallback: {tried}") from exc
-                self._service_fallbacks += 1
+                    raise ServiceUnavailablePaused(f"모든 무료 모델을 {self._max_model_cycles}회 순환했지만 서비스가 응답하지 않아 체크포인트 일시정지: {tried}") from exc
                 continue
             except Exception as exc:
                 if not _model_unavailable(exc):
@@ -117,6 +162,7 @@ class GeminiClient:
                 int(getattr(usage, "prompt_token_count", 0) or 0),
                 int(getattr(usage, "candidates_token_count", 0) or 0),
             )
+            self._model_cycle = 1
             try:
                 return _json_from_text(response.text or "")
             except json.JSONDecodeError as exc:
@@ -176,4 +222,6 @@ def _model_unavailable(exc: Exception) -> bool:
     if callable(status):
         status = status()
     text = str(exc).casefold()
-    return str(status) in {"400", "404"} and "model" in text and any(word in text for word in ("not found", "unsupported", "unavailable"))
+    return str(status) in {"400", "404"} and "model" in text and any(
+        word in text for word in ("not found", "not_found", "unsupported", "unavailable", "no longer available")
+    )
