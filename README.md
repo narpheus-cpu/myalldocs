@@ -137,16 +137,19 @@ Picker는 브라우저에서 사용자가 폴더를 고르는 UI입니다. 서�
 
 1. **사용자 인증 정보 만들기 → API 키**를 선택합니다.
 2. 키 제한에서 **웹사이트**를 선택합니다.
-3. 허용 referrer에 `https://narpheus-cpu.github.io/myalldocs/*`를 넣습니다.
+3. 허용 referrer에 아래 두 주소를 모두 넣습니다.
+   - `https://narpheus-cpu.github.io/myalldocs/*`
+   - `https://docs.google.com/*` (Picker가 이 주소의 iframe에서 실행되므로 필수)
 4. API 제한은 **Google Picker API**로 제한합니다.
 
 브라우저용 Picker API key와 OAuth Client ID는 원래 브라우저에서 보이는 식별자입니다. 그래도 referrer/API 제한 없이 두면 안 됩니다.
 
-`config/public-config.js`의 네 placeholder를 채웁니다.
+`config/public-config.js`의 다섯 placeholder를 채웁니다. `googleCloudProjectNumber`에는 OAuth Client ID 앞부분이 아니라 Cloud Console의 **프로젝트 번호**를 입력합니다. 같은 프로젝트라면 보통 Client ID의 첫 숫자 묶음과 일치합니다.
 
 ```js
 window.BOOK_APP_CONFIG = {
   googleClientId: "발급한 OAuth Client ID",
+  googleCloudProjectNumber: "Google Cloud 프로젝트 번호",
   googlePickerApiKey: "브라우저 제한 API key",
   driveRootFolderId: "[book] 루트 폴더 ID",
   appsScriptWebAppUrl: "Apps Script 배포 뒤 받은 /exec URL"

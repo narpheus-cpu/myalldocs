@@ -40,6 +40,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
         assert phrase in script
     assert "pickerConfigurationIssues" in script
     assert "oauthConfigurationIssues" in script
+    assert ".setAppId(config.googleCloudProjectNumber)" in script
     assert "localStorage" not in script
     assert "sessionStorage" not in script
 
