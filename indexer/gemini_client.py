@@ -8,6 +8,10 @@ from indexer.model_selector import NoSupportedModel, SelectedModel, rank_models
 from indexer.rate_limiter import RateLimiter, ServiceUnavailablePaused
 
 
+class InvalidJsonResponse(ValueError):
+    pass
+
+
 class GeminiClient:
     def __init__(self, api_key: str, model_policy: dict, rate_limiter: RateLimiter) -> None:
         from google import genai
@@ -19,10 +23,13 @@ class GeminiClient:
         self._model_index = 0
         self.selected: SelectedModel = self._models[0]
         self._max_service_fallbacks = max(0, int(model_policy.get("maxServiceFallbacks", 2)))
+        self._max_invalid_json_retries = max(0, int(model_policy.get("maxInvalidJsonRetries", 1)))
+        self._max_invalid_json_fallbacks = max(0, int(model_policy.get("maxInvalidJsonFallbacks", 1)))
         self._service_fallbacks = 0
         self.attempted_models = [self.selected.name]
         self.model_switch_count = 0
         self.last_model_error = ""
+        self.invalid_json_responses = 0
         self._event_callback: Callable[[dict[str, Any]], None] | None = None
         self.rate_limiter.set_event_callback(self._on_rate_event)
 
@@ -69,37 +76,85 @@ class GeminiClient:
             config_kwargs["response_json_schema"] = schema
         config = types.GenerateContentConfig(**config_kwargs)
 
-        def operation():
-            return self.client.models.generate_content(model=self.model_name, contents=prompt, config=config)
-
+        request_prompt = prompt
+        invalid_json_retries = 0
+        invalid_json_fallbacks = 0
         while True:
+            def operation():
+                return self.client.models.generate_content(model=self.model_name, contents=request_prompt, config=config)
+
             try:
-                response = self.rate_limiter.call(operation, estimated_input_tokens=max(1, len(prompt) // 4))
-                break
+                response = self.rate_limiter.call(operation, estimated_input_tokens=max(1, len(request_prompt) // 4))
             except ServiceUnavailablePaused as exc:
                 self.last_model_error = str(exc)[:300]
                 if self._service_fallbacks >= self._max_service_fallbacks or not self._switch_model(str(exc)):
                     tried = ", ".join(self.attempted_models)
                     raise ServiceUnavailablePaused(f"Gemini service unavailable after free-model fallback: {tried}") from exc
                 self._service_fallbacks += 1
+                continue
             except Exception as exc:
                 if not _model_unavailable(exc):
                     raise
                 if not self._switch_model(str(exc)):
                     raise NoSupportedModel("NO_SUPPORTED_MODEL: every allowed runtime model was unavailable") from exc
-        usage = getattr(response, "usage_metadata", None)
-        self.rate_limiter.record(
-            int(getattr(usage, "prompt_token_count", 0) or 0),
-            int(getattr(usage, "candidates_token_count", 0) or 0),
-        )
-        data = _json_from_text(response.text or "")
-        return data
+                continue
+            usage = getattr(response, "usage_metadata", None)
+            self.rate_limiter.record(
+                int(getattr(usage, "prompt_token_count", 0) or 0),
+                int(getattr(usage, "candidates_token_count", 0) or 0),
+            )
+            try:
+                return _json_from_text(response.text or "")
+            except json.JSONDecodeError as exc:
+                self.invalid_json_responses += 1
+                error = f"invalid JSON response from {self.model_name}: line {exc.lineno}, column {exc.colno}"
+                self.last_model_error = error
+                if invalid_json_retries < self._max_invalid_json_retries:
+                    invalid_json_retries += 1
+                    request_prompt = _strict_json_retry_prompt(prompt)
+                    self._emit_event({
+                        "event": "INVALID_JSON_RETRY",
+                        "model": self.model_name,
+                        "attempt": invalid_json_retries,
+                        "maxAttempts": self._max_invalid_json_retries,
+                        "message": f"{self.model_name}의 JSON 문법 오류로 안전하게 다시 요청합니다.",
+                    })
+                    continue
+                if invalid_json_fallbacks < self._max_invalid_json_fallbacks and self._switch_model(error):
+                    invalid_json_fallbacks += 1
+                    invalid_json_retries = 0
+                    request_prompt = _strict_json_retry_prompt(prompt)
+                    continue
+                raise InvalidJsonResponse(error) from exc
 
 
 def _json_from_text(text: str) -> Any:
     cleaned = text.strip()
     cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", cleaned, flags=re.I | re.S)
-    return json.loads(cleaned)
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError as original:
+        starts = [position for position in (cleaned.find("{"), cleaned.find("[")) if position >= 0]
+        if not starts:
+            raise
+        start = min(starts)
+        closing = "}" if cleaned[start] == "{" else "]"
+        end = cleaned.rfind(closing)
+        if end <= start:
+            raise
+        try:
+            return json.loads(cleaned[start:end + 1])
+        except json.JSONDecodeError:
+            raise original
+
+
+def _strict_json_retry_prompt(prompt: str) -> str:
+    return (
+        prompt
+        + "\n\n이전 응답에는 JSON 문법 오류가 있었습니다. 원문 근거와 요구된 구조는 유지하되, "
+          "설명·마크다운 코드블록·주석 없이 JSON 파서가 읽을 수 있는 단 하나의 유효한 JSON 값만 출력하세요. "
+          "문자열 내부 큰따옴표와 줄바꿈을 올바르게 이스케이프하고 모든 쉼표·괄호를 확인하세요."
+    )
 
 
 def _model_unavailable(exc: Exception) -> bool:

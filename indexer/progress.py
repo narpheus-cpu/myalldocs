@@ -85,6 +85,7 @@ def _safe_status(status: dict[str, Any]) -> dict[str, Any]:
         "apiRequests", "apiSuccessfulRequests", "apiRequestAttempts", "apiFailedAttempts", "inputTokens", "outputTokens", "driveQuotaUnits",
         "driveDownloadedBytes", "startedAt", "finishedAt", "allTargetsComplete",
         "attemptedModels", "modelSwitchCount", "lastModelError",
+        "invalidJsonResponses", "lastError",
         "lastHttpStatus", "retryAttempt", "retryMaxAttempts", "retryDelaySeconds", "previousModel",
     }
     result = {key: value for key, value in status.items() if key in allowed}

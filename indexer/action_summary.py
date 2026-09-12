@@ -29,7 +29,10 @@ def main() -> None:
         f"| Drive 다운로드 bytes | {status.get('driveDownloadedBytes', 0)} |",
         f"| 모델 | {status.get('model', '-')} |",
         f"| 시도한 모델 | {' → '.join(status.get('attemptedModels', [])) or status.get('model', '-')} |",
+        f"| JSON 문법 오류 | {status.get('invalidJsonResponses', 0)} |",
     ]
+    if status.get("lastError"):
+        lines.extend(["", f"**마지막 오류:** {status['lastError']}"])
     output = "\n".join(lines) + "\n"
     summary_path = os.getenv("GITHUB_STEP_SUMMARY")
     if summary_path:

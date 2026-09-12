@@ -3,6 +3,8 @@
   "zeroCostMode": true,
   "requireFreeTierPublishedModel": true,
   "maxServiceFallbacks": 2,
+  "maxInvalidJsonRetries": 1,
+  "maxInvalidJsonFallbacks": 1,
   "allowNamePatterns": [
     "^gemini-"
   ],
