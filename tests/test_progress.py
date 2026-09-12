@@ -43,6 +43,8 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert ".setAppId(config.googleCloudProjectNumber)" in script
     assert "localStorage" not in script
     assert "sessionStorage" not in script
+    assert "public-config.js?v=" in html
+    assert "js/app.js?v=" in html
 
 
 def test_relay_and_workflow_connect_saved_key_and_live_progress():
