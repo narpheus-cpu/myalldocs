@@ -43,8 +43,15 @@ function Select-ServiceAccountFile {
 }
 
 function Invoke-Gh([string[]]$Arguments, [string]$FailureMessage) {
-    & gh @Arguments
-    if ($LASTEXITCODE -ne 0) { throw $FailureMessage }
+    $previousPreference = $ErrorActionPreference
+    $ErrorActionPreference = 'Continue'
+    try {
+        & gh @Arguments
+        $ghExitCode = $LASTEXITCODE
+    } finally {
+        $ErrorActionPreference = $previousPreference
+    }
+    if ($ghExitCode -ne 0) { throw $FailureMessage }
 }
 
 function New-ConnectedWorkingCopy([string]$SourceRoot, [string]$RemoteUrl) {
@@ -238,9 +245,28 @@ Invoke-Gh @('variable', 'set', 'DRIVE_ROOT_FOLDER_ID', '--body', $folderId, '--r
 Write-Host '비밀값은 GitHub Secrets로만 등록했습니다.' -ForegroundColor Green
 
 Write-Title '5/5  무료 Pages와 첫 인덱싱 시작'
-& gh api --method POST ('repos/' + $repository + '/pages') -f build_type=workflow *> $null
-& gh workflow run deploy-pages.yml --repo $repository
-if ($LASTEXITCODE -ne 0) { Write-Host 'Pages는 이미 설정되었거나 GitHub에서 한 번 확인이 필요할 수 있습니다.' -ForegroundColor Yellow }
+$previousPreference = $ErrorActionPreference
+$ErrorActionPreference = 'Continue'
+try {
+    & gh api ('repos/' + $repository + '/pages') --silent *> $null
+    $pagesReady = ($LASTEXITCODE -eq 0)
+    if (-not $pagesReady) {
+        & gh api --method POST ('repos/' + $repository + '/pages') -f build_type=workflow --silent *> $null
+        $pagesReady = ($LASTEXITCODE -eq 0)
+    }
+    & gh workflow run deploy-pages.yml --repo $repository 2>$null
+    $deployRequested = ($LASTEXITCODE -eq 0)
+} finally {
+    $ErrorActionPreference = $previousPreference
+}
+if ($pagesReady) {
+    Write-Host 'GitHub Pages 준비 완료' -ForegroundColor Green
+} else {
+    Write-Host 'Pages 상태는 GitHub에서 한 번 확인이 필요합니다. 인덱싱은 계속합니다.' -ForegroundColor Yellow
+}
+if (-not $deployRequested) {
+    Write-Host 'Pages 배포가 이미 실행 중일 수 있습니다. 인덱싱은 계속합니다.' -ForegroundColor Yellow
+}
 Invoke-Gh @('workflow', 'run', 'index-books.yml', '--repo', $repository, '-f', ('folder_id=' + $folderId), '-f', 'recursive=true', '-f', 'force_reindex=false', '-f', 'analysis_profile=') '첫 인덱싱 시작에 실패했습니다.'
 
 $repoUrl = 'https://github.com/' + $repository
