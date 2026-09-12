@@ -43,6 +43,9 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 - 사용자 설정 RPM/TPM/실행 예산, safety margin, `Retry-After`, 지수 backoff+jitter, circuit breaker
 - Gemini 무료 quota 또는 자체 실행 예산 중단 시 checkpoint와 `PAUSED_RATE_LIMIT`, 다음 실행에서 미완료 chunk부터 재개
 - Drive 호출 quota-unit·다운로드 byte 자체 예산, Drive 403/429 시 추가 과금 없이 `PAUSED_RATE_LIMIT`
+- 인덱싱 화면에서 Gemini API Key를 교체해 Apps Script의 비공개 Script Properties에 저장하고 다음 실행부터 적용
+- 현재 모델·책 파일명·파일/청크 순서·단계·요청/토큰·Drive 사용량을 5초 간격으로 보여 주는 인증된 실시간 모니터
+- Picker 설정 누락, Google SDK 로딩 실패, 인증 취소·시간초과를 화면에 명확히 표시
 - source 변경, schema/prompt/profile/parser 버전 변경 감지와 멱등 skip
 - 소설·학술·철학·역사·과학기술·에세이·실용·희곡·시·혼합 문집별 분석 profile
 - manifest의 `tabs`로 상세 메뉴를 동적 생성하는 Pages UI
@@ -193,6 +196,7 @@ Variables 탭에서 추가합니다.
 | 이름 | 값 |
 |---|---|
 | `DRIVE_ROOT_FOLDER_ID` | `[book]` 루트 folder ID |
+| `GEMINI_API_KEY` | 선택 사항. 인덱싱 화면에서 새 키를 저장하면 자동 생성/갱신됨 |
 
 이 변수는 보안 비밀이 아니라 선택 폴더가 허용 루트 아래인지 재검증하는 경계입니다.
 
@@ -218,12 +222,31 @@ Apps Script는 Gemini 분석을 하지 않습니다. 로그인한 본인의 폴�
 GitHub fine-grained token은 이 저장소 하나만 선택하고 Actions: Read and write 권한만 허용합니다. token을 `public-config.js`에 넣으면 안 됩니다.
 
 5. **Deploy → New deployment → Web app**을 선택합니다.
-6. Execute as는 본인, Who has access는 가능한 가장 좁은 범위(개인용이면 본인만)를 선택합니다.
+6. Execute as는 본인, Who has access는 **Anyone**을 선택합니다. GitHub Actions가 로그인 쿠키 없이 진행 상태와 완료 callback을 보내야 하기 때문입니다.
 7. 최초 권한 승인에서 Drive 읽기, 외부 요청, Gmail 발송을 검토하고 승인합니다.
 8. 배포 후 `/exec` URL을 `config/public-config.js`와 GitHub Secret `APPS_SCRIPT_CALLBACK_URL`에 입력합니다.
 9. Code.gs를 수정한 뒤에는 **Manage deployments → Edit → New version → Deploy**를 해야 실제 URL 코드가 갱신됩니다.
 
-브라우저의 교차 출처 로그인 정책 때문에 개인 전용 Apps Script `/exec` 호출이 차단되는 환경도 있습니다. 그 경우 endpoint 공개 범위를 넓히지 말고 아래의 **GitHub Actions에서 직접 실행하는 비상 경로**를 사용하세요. 이 제약은 실제 배포 계정으로 확인해야 합니다.
+웹 앱 URL 자체는 Pages 설정에 포함되어 공개되지만 기능이 공개되는 것은 아닙니다. 폴더 선택·실행·API Key 변경·상태 조회는 매 요청마다 Google access token의 이메일을 `AUTHORIZED_EMAIL`과 대조하고, workflow의 key 조회·진행 보고·완료 callback은 `CALLBACK_SECRET`을 검증합니다. callback secret은 절대 게시하지 마세요.
+
+### 인덱싱 화면의 API Key 변경
+
+1. 사이트의 **인덱싱 → Gemini API Key 변경**에 새 Free Tier key를 입력합니다.
+2. **안전하게 저장**을 누르고 본인 Google 계정으로 인증합니다.
+3. key는 Pages, 브라우저 저장소, GitHub 파일에 기록되지 않고 Apps Script의 비공개 `GEMINI_API_KEY` 속성으로 저장됩니다.
+4. 다음 workflow는 `indexer.runtime_secret` 단계에서 이 값을 받아 기존 GitHub Secret보다 우선 사용합니다. Apps Script에 새 key가 없거나 일시적으로 연결되지 않으면 기존 `GEMINI_API_KEY` Secret을 그대로 사용합니다.
+
+### 실시간 모니터
+
+인덱싱 화면에서 **Google 계정으로 연결**을 누르면 5초마다 다음 정보를 갱신합니다.
+
+- 실제 runtime에서 선택된 Gemini 모델
+- 현재 처리 중인 책 파일명과 전체 파일 순서
+- Drive 다운로드, 메타데이터 판정, 유형 분류, chunk 분석, 통합, 저장 단계
+- 현재/전체 chunk, 완료·건너뜀·실패·메타데이터 확인 필요 수
+- Gemini 요청 수와 입출력 token, Drive quota units와 다운로드 byte
+
+원문이나 API Key는 진행 상태에 포함하지 않습니다. 파일명처럼 개인 정보가 될 수 있는 항목은 Google access token으로 `AUTHORIZED_EMAIL`을 검증한 사용자에게만 반환합니다. 토큰은 메모리에만 두며 새로고침하면 사라집니다.
 
 ## 8. GitHub Pages 켜기
 
