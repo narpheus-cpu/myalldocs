@@ -172,7 +172,8 @@ function handleCallback_(body) {
     '시작: ' + (body.startedAt || ''), '완료: ' + (body.finishedAt || ''),
     'GitHub Pages: ' + (body.pagesUrl || '')
   ].join('\n');
-  GmailApp.sendEmail(recipient, subject, message);
+  // Use the narrow Apps Script mail-sending service; no mailbox read/write API.
+  MailApp.sendEmail(recipient, subject, message);
   return json_({ok: true, emailSent: true});
 }
 

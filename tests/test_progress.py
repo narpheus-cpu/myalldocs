@@ -49,6 +49,8 @@ def test_relay_and_workflow_connect_saved_key_and_live_progress():
     workflow = (ROOT / ".github" / "workflows" / "index-books.yml").read_text(encoding="utf-8")
     for phrase in ("update-api-key", "runtime-key", "handleProgress_", "oauth2/v3/userinfo", "LIVE_STATUS_JSON"):
         assert phrase in relay
+    assert "MailApp.sendEmail" in relay
+    assert "GmailApp" not in relay
     assert "python -m indexer.runtime_secret" in workflow
 
 
