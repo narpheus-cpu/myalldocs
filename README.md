@@ -42,6 +42,7 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 - preview/experimental/latest/deprecated/retired/legacy 이름 차단, 미발견 시 `NO_SUPPORTED_MODEL`
 - 사용자 설정 RPM/TPM/실행 예산, safety margin, `Retry-After`, 지수 backoff+jitter, circuit breaker
 - Gemini 무료 quota 또는 자체 실행 예산 중단 시 checkpoint와 `PAUSED_RATE_LIMIT`, 다음 실행에서 미완료 chunk부터 재개
+- 한 모델이 429에 막히면 런타임에서 확인된 다음 무료·Stable 모델을 순서대로 탐색하고, 모든 후보가 막힌 뒤에만 `PAUSED_RATE_LIMIT`
 - Gemini `503`은 quota로 오인하지 않고 재시도 후 다른 승인된 무료 모델로 최대 2회 전환, 모두 일시 장애면 `PAUSED_SERVICE_UNAVAILABLE`
 - Gemini가 문법이 깨진 JSON을 반환하면 엄격한 JSON 지시로 자동 재요청하고 다음 무료 모델까지 시도
 - Drive 호출 quota-unit·다운로드 byte 자체 예산, Drive 403/429 시 추가 과금 없이 `PAUSED_RATE_LIMIT`
@@ -342,9 +343,9 @@ Gemini 모델 API는 해당 key가 연결된 프로젝트의 Billing 상태 자�
 - `safetyMargin`: 설정 한도의 실제 사용 비율
 - `maxRetries`, backoff, circuit breaker: 반복 오류 때 안전 일시정지
 
-429의 `Retry-After`가 있으면 우선 따르고, 이후 지수 backoff와 jitter를 적용합니다. 429 재시도 한도나 자체 예산에 닿으면 `data/checkpoints/`에 진행을 저장하고 `PAUSED_RATE_LIMIT`로 정상 종료합니다. 완료 메일은 보내지 않습니다. 다음 무료 quota reset 뒤 수동 실행은 저장된 `chunkId` 이후부터 계속합니다. 실패 호출도 `maxRequestsPerRun`과 화면의 호출 시도 횟수에 포함하므로 0회로 잘못 보이지 않습니다.
+429의 `Retry-After`가 있으면 우선 따르고, 이후 지수 backoff와 jitter를 적용합니다. 첫 모델의 재시도를 소진하면 `models.list()`와 Free Tier·Stable 정책을 통과한 다음 모델을 순서대로 한 번씩 확인합니다. 사용 가능한 모델을 찾으면 그 모델로 계속 처리하고, 모든 허용 무료 모델이 429일 때만 `data/checkpoints/`에 진행을 저장하고 `PAUSED_RATE_LIMIT`로 종료합니다. 자체 `maxRequestsPerRun`·token·runtime 예산에 닿은 경우에는 비용 안전장치를 우회하지 않고 즉시 멈춥니다. 실패 호출도 실행 예산과 화면의 호출 시도 횟수에 포함합니다.
 
-503은 무료 quota 소진이 아니라 Gemini 서비스의 일시 과부하 또는 사용 불가로 다룹니다. 먼저 같은 모델에서 backoff 재시도하고, 계속 503이면 `models.list()`와 Free Tier 정책을 이미 통과한 다음 모델로 전환합니다. `config/model-policy.json`의 `maxServiceFallbacks` 횟수만큼 전환해도 모두 실패하면 checkpoint를 보존한 채 `PAUSED_SERVICE_UNAVAILABLE`로 끝냅니다. 모델을 바꿔 quota를 우회하는 동작은 429에는 적용하지 않습니다.
+503은 무료 quota 소진이 아니라 Gemini 서비스의 일시 과부하 또는 사용 불가로 다룹니다. 먼저 같은 모델에서 backoff 재시도하고, 계속 503이면 `models.list()`와 Free Tier 정책을 이미 통과한 다음 모델로 전환합니다. `config/model-policy.json`의 `maxServiceFallbacks` 횟수만큼 전환해도 모두 실패하면 checkpoint를 보존한 채 `PAUSED_SERVICE_UNAVAILABLE`로 끝냅니다.
 
 Drive에도 별도 무료 안전 예산이 있습니다.
 
@@ -371,7 +372,7 @@ python -m pip install -r requirements.txt
 python -m pytest -q
 ```
 
-테스트에는 임의 생성 TXT/EPUB만 들어 있습니다. UTF-8/CP949, EPUB spine/메타데이터, 5,000자 chunk, 충돌/override, Free Tier model filtering, 웹 검색 코드 부재, Gemini/Drive 예산, 429와 503 분리, 503 무료 모델 fallback, Retry-After/circuit breaker, 43→44 checkpoint 재개, profile fallback, catalog 멱등성, credential 문자열 부재를 검사합니다.
+테스트에는 임의 생성 TXT/EPUB만 들어 있습니다. UTF-8/CP949, EPUB spine/메타데이터, 5,000자 chunk, 충돌/override, Free Tier model filtering, 웹 검색 코드 부재, Gemini/Drive 예산, 429 전체 무료 모델 순차 탐색, 503 무료 모델 fallback, Retry-After/circuit breaker, 43→44 checkpoint 재개, profile fallback, catalog 멱등성, credential 문자열 부재를 검사합니다.
 
 로컬 Python이 패키지를 설치할 수 없는 제한 환경에서는 표준 라이브러리 전용 보조 실행도 가능합니다.
 
@@ -389,7 +390,7 @@ Gemini 공식 가격표와 모델 목록 양쪽에서 **Free Tier + stable + `ge
 
 ### `PAUSED_RATE_LIMIT`
 
-실패가 아니라 보존된 일시정지입니다. 무료 quota reset 뒤 같은 folder ID로 다시 실행합니다. Billing 연결, quota 구매·증액, key 회전은 하지 않고 `force_reindex`도 끕니다.
+실패가 아니라 보존된 일시정지입니다. 화면의 `시도한 모델`에 표시된 모든 허용 무료 모델이 429였거나 자체 무료 실행 예산에 도달했을 때만 나타납니다. 무료 quota reset 뒤 같은 folder ID로 다시 실행합니다. Billing 연결, quota 구매·증액, key 회전은 하지 않고 `force_reindex`도 끕니다.
 
 ### `PAUSED_SERVICE_UNAVAILABLE`
 

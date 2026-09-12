@@ -89,8 +89,8 @@ class RateLimiter:
     def reset_retry_state(self) -> None:
         self.consecutive_retryable_failures = 0
 
-    def call(self, operation: Callable[[], T], estimated_input_tokens: int = 0) -> T:
-        retries = int(self.config.get("maxRetries", 4))
+    def call(self, operation: Callable[[], T], estimated_input_tokens: int = 0, max_retries: int | None = None) -> T:
+        retries = int(self.config.get("maxRetries", 4)) if max_retries is None else max(0, int(max_retries))
         base = float(self.config.get("backoffBaseSeconds", 2))
         cap = float(self.config.get("backoffMaxSeconds", 60))
         breaker = int(self.config.get("circuitBreakerFailures", 5))
