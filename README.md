@@ -30,7 +30,7 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 
 ## 구현된 기능
 
-- Drive 폴더 재귀 탐색, TXT/EPUB만 선별, 원본 다운로드
+- Drive 폴더 재귀 탐색, TXT/EPUB만 선별, 원본 다운로드 (`…txt의 사본`처럼 확장자가 뒤로 밀린 복사본도 실제 MIME 형식으로 인식)
 - UTF-8/CP949 TXT 처리, EPUB OPF 메타데이터 및 spine 순서 본문 추출
 - 약 5,000자 문단 경계 chunk와 소량 overlap
 - 파일명 비신뢰 메타데이터 판정: OPF, 본문 표제부, 폴더, 파일명을 독립 evidence로 보관

@@ -121,8 +121,10 @@ function previewFolder_(folderId, recursive) {
 function countFolder_(folder, recursive, counts) {
   var files = folder.getFiles();
   while (files.hasNext()) {
-    var name = files.next().getName().toLowerCase();
-    if (name.endsWith('.txt') || name.endsWith('.epub')) counts.targetFiles++;
+    var file = files.next();
+    var name = file.getName().toLowerCase();
+    var mimeType = file.getMimeType();
+    if (mimeType === 'text/plain' || mimeType === 'application/epub+zip' || name.endsWith('.txt') || name.endsWith('.epub')) counts.targetFiles++;
   }
   if (!recursive) return;
   var folders = folder.getFolders();

@@ -13,7 +13,7 @@ from typing import Any
 from indexer.checkpoint import CheckpointStore, atomic_write_json
 from indexer.chunker import chunk_text
 from indexer.config import Settings
-from indexer.drive_client import DriveClient
+from indexer.drive_client import EPUB_MIME, DriveClient
 from indexer.drive_quota import DriveQuotaPaused
 from indexer.gemini_client import GeminiClient
 from indexer.metadata import collect_local_evidence, resolve_metadata
@@ -162,7 +162,7 @@ class IndexPipeline:
         change_key = book.md5Checksum or checksum
         if not force and existing and existing.get("source", {}).get("changeKey") == change_key and existing.get("versions") == versions and existing.get("indexStatus") == "COMPLETE":
             return "skipped"
-        parsed = parse_epub(raw) if book.name.casefold().endswith(".epub") else parse_txt(raw)
+        parsed = parse_epub(raw) if book.mimeType == EPUB_MIME or book.name.casefold().endswith(".epub") else parse_txt(raw)
         if not parsed.text.strip():
             raise ValueError("parsed book is empty")
 

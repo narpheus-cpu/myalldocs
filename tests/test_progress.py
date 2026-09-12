@@ -67,6 +67,7 @@ def test_relay_and_workflow_connect_saved_key_and_live_progress():
         assert phrase in relay
     assert "MailApp.sendEmail" in relay
     assert "GmailApp" not in relay
+    assert "mimeType === 'text/plain'" in relay
     assert "python -m indexer.runtime_secret" in workflow
 
 

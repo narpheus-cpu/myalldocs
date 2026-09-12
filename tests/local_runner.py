@@ -33,6 +33,7 @@ def main() -> int:
         "tests.test_model_selector", "tests.test_rate_limiter",
         "tests.test_gemini_client",
         "tests.test_callback",
+        "tests.test_drive_client",
         "tests.test_checkpoint_profiles_storage", "tests.test_security",
         "tests.test_zero_cost", "tests.test_beginner_setup", "tests.test_progress",
     ]

@@ -10,6 +10,18 @@ from indexer.drive_quota import DriveQuotaGuard, DriveQuotaPaused
 
 FOLDER_MIME = "application/vnd.google-apps.folder"
 EPUB_MIME = "application/epub+zip"
+TEXT_MIME = "text/plain"
+
+
+def _is_supported_book(item: dict) -> bool:
+    """Recognize books by Drive MIME type as well as their filename.
+
+    A copied Drive file can be named ``book.txt의 사본`` while retaining its
+    ``text/plain`` MIME type, so a suffix-only check loses valid text files.
+    """
+    mime_type = str(item.get("mimeType", ""))
+    name = str(item.get("name", "")).casefold()
+    return mime_type in {TEXT_MIME, EPUB_MIME} or name.endswith((".txt", ".epub"))
 
 
 class DriveClient:
@@ -57,7 +69,7 @@ class DriveClient:
             for item in response.get("files", []):
                 if item["mimeType"] == FOLDER_MIME and recursive:
                     yield from self.iter_books(item["id"], True, current_path)
-                elif item["mimeType"] == EPUB_MIME or item["name"].casefold().endswith((".txt", ".epub")):
+                elif _is_supported_book(item):
                     yield DriveBook(**item, folderPath=current_path)
             token = response.get("nextPageToken")
             if not token:
