@@ -54,6 +54,8 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 - manifest의 `tabs`로 상세 메뉴를 동적 생성하는 Pages UI
 - GitHub Actions 데이터 commit, Actions Summary, Pages 배포
 - 선택 폴더의 모든 TXT/EPUB가 `COMPLETE`일 때만 Apps Script가 `narepheus@gmail.com`으로 완료 메일 발송
+- 빠른 중복 클릭은 브라우저와 Apps Script 잠금으로 차단하고, 대기 실행도 최신 `main`에서 완료 책을 확인해 재분석하지 않음
+- 인덱싱 결과 커밋 뒤 `Deploy GitHub Pages`가 명시적으로 실행되어 새 카탈로그가 사이트에 반영됨
 
 ## 전체 흐름
 
@@ -426,6 +428,16 @@ Gemini가 드물게 쉼표·따옴표가 빠진 JSON을 보내면 같은 무료 
 workflow는 concurrency로 한 번에 하나만 인덱싱합니다. 사람이 동시에 `data/`를 고친 경우 Action의 rebase 단계가 실패할 수 있습니다. 변경을 main에 먼저 반영한 뒤 workflow를 다시 실행합니다. checkpoint가 남아 있으면 완료 chunk를 재호출하지 않습니다.
 
 ### 완료 메일이 오지 않음
+
+`Actions → Retry completion email → Run workflow`를 누르면 마지막 `COMPLETE` 결과의 메일만 다시 보낼 수 있습니다. 콜백은 Apps Script 응답의 `ok=true`와 `emailSent=true`를 모두 확인하므로, 메일 권한이나 배포 버전 문제를 더 이상 성공으로 숨기지 않습니다. 이 작업이 실패하면 표시된 오류에 따라 Apps Script에서 `MailApp` 권한을 다시 승인하고 **배포 관리 → 수정 → 새 버전 → 배포**를 수행하세요.
+
+### 완료됐는데 다시 같은 책을 분석함
+
+인덱싱 버튼을 여러 번 눌러도 새 실행은 하나만 접수합니다. 이미 대기열에 들어간 실행이 있더라도 작업 시작 시 최신 `main`의 manifest를 읽어 원본과 버전이 같은 `COMPLETE` 책은 `UNCHANGED`로 건너뜁니다. 강제 재처리가 필요할 때만 `force_reindex`를 켭니다.
+
+### 도서 탐색이 0권으로 남음
+
+`Index books`가 끝날 때마다 `Deploy GitHub Pages`가 별도로 실행됩니다. 이 배포가 초록색이 된 뒤 페이지를 새로고침하면 최신 `data/catalog.json`이 표시됩니다.
 
 `data/job-status.json`에서 `status=COMPLETE`, `allTargetsComplete=true`, `failed=0`인지 확인합니다. `PARTIAL`, `PAUSED_RATE_LIMIT`, `PAUSED_SERVICE_UNAVAILABLE`, `ERROR`에서는 설계상 메일을 보내지 않습니다. Apps Script 실행 기록과 Gmail send 권한도 확인합니다.
 

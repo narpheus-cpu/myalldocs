@@ -133,32 +133,47 @@ function countFolder_(folder, recursive, counts) {
 }
 
 function dispatchWorkflow_(body) {
-  var owner = requiredProperty_('GITHUB_OWNER');
-  var repo = requiredProperty_('GITHUB_REPO');
-  var token = requiredProperty_('GITHUB_TOKEN');
-  var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/index-books.yml/dispatches';
-  var payload = {
-    ref: 'main',
-    inputs: {
-      folder_id: String(body.folderId),
-      recursive: String(body.recursive !== false),
-      force_reindex: String(body.force === true),
-      analysis_profile: String(body.analysisProfile || '')
+  var lock = LockService.getScriptLock();
+  lock.waitLock(10000);
+  try {
+    var current = liveStatus_();
+    var active = current.status === 'QUEUED' || current.status === 'RUNNING';
+    var updated = Date.parse(current.updatedAt || '');
+    var fresh = !isNaN(updated) && (Date.now() - updated) < 22500000; // workflow timeout + margin
+    if (active && fresh) {
+      return {ok: true, alreadyRunning: true, message: '이미 인덱싱 작업이 실행 또는 대기 중입니다.'};
     }
-  };
-  var response = UrlFetchApp.fetch(url, {
-    method: 'post', contentType: 'application/json', payload: JSON.stringify(payload),
-    headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'},
-    muteHttpExceptions: true
-  });
-  var code = response.getResponseCode();
-  if (code !== 200 && code !== 204) throw new Error('GitHub workflow 요청 실패: HTTP ' + code);
-  PropertiesService.getScriptProperties().setProperty('LIVE_STATUS_JSON', JSON.stringify({
-    status: 'QUEUED', phase: 'QUEUED', message: 'GitHub Actions 실행을 요청했습니다.',
-    currentFileName: '', currentFileIndex: 0, totalFiles: 0, updatedAt: new Date().toISOString()
-  }));
-  var result = code === 200 ? JSON.parse(response.getContentText() || '{}') : {};
-  return {ok: true, runId: result.workflow_run_id || null, runUrl: result.html_url || null};
+
+    var owner = requiredProperty_('GITHUB_OWNER');
+    var repo = requiredProperty_('GITHUB_REPO');
+    var token = requiredProperty_('GITHUB_TOKEN');
+    var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/index-books.yml/dispatches';
+    var payload = {
+      ref: 'main',
+      inputs: {
+        folder_id: String(body.folderId),
+        recursive: String(body.recursive !== false),
+        force_reindex: String(body.force === true),
+        analysis_profile: String(body.analysisProfile || '')
+      }
+    };
+    var response = UrlFetchApp.fetch(url, {
+      method: 'post', contentType: 'application/json', payload: JSON.stringify(payload),
+      headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'},
+      muteHttpExceptions: true
+    });
+    var code = response.getResponseCode();
+    if (code !== 200 && code !== 204) throw new Error('GitHub workflow 요청 실패: HTTP ' + code);
+    PropertiesService.getScriptProperties().setProperty('LIVE_STATUS_JSON', JSON.stringify({
+      status: 'QUEUED', phase: 'QUEUED', message: 'GitHub Actions 실행을 요청했습니다.',
+      folderId: String(body.folderId), currentFileName: '', currentFileIndex: 0,
+      totalFiles: 0, updatedAt: new Date().toISOString()
+    }));
+    var result = code === 200 ? JSON.parse(response.getContentText() || '{}') : {};
+    return {ok: true, alreadyRunning: false, runId: result.workflow_run_id || null, runUrl: result.html_url || null};
+  } finally {
+    lock.releaseLock();
+  }
 }
 
 function handleCallback_(body) {

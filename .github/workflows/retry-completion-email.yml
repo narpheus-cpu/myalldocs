@@ -1,0 +1,24 @@
+name: Retry completion email
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    env:
+      APPS_SCRIPT_CALLBACK_URL: ${{ secrets.APPS_SCRIPT_CALLBACK_URL }}
+      APPS_SCRIPT_CALLBACK_SECRET: ${{ secrets.APPS_SCRIPT_CALLBACK_SECRET }}
+      GITHUB_PAGES_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Send the most recent completed job email
+        run: python -m indexer.notify
