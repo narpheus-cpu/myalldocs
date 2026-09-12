@@ -2,9 +2,74 @@
   "status": "ERROR",
   "folderId": "1w8ESxodFtotOniEvpD8m3FgcYasXNO5f",
   "folderName": "시험폴더2",
-  "totalFiles": 0,
-  "startedAt": "2026-09-12T18:14:09.379076+00:00",
+  "totalFiles": 7,
+  "startedAt": "2026-09-12T18:27:14.785543+00:00",
+  "message": "책 처리 오류: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
+  "lastError": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
+  "complete": 0,
+  "skipped": 0,
+  "failed": 7,
+  "metadataReview": 0,
+  "processedChunks": 3,
+  "currentFileIndex": 7,
+  "currentFileName": "은희경_타인에게 말걸기.txt의 사본",
+  "phase": "ERROR",
   "allTargetsComplete": false,
-  "message": "선택 폴더에 대상 TXT/EPUB가 없습니다.",
-  "finishedAt": "2026-09-12T18:14:17.579508+00:00"
+  "errors": [
+    {
+      "driveFileId": "1mU8aPzeuSx9IcgeBNFhlBukcmSx3CkW2",
+      "filename": "무라카미 하루키-바람의 노래를 들어라.txt의 사본",
+      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "driveFileId": "1GS_PuKo_ItYeE0Fe-Vrtzm49nl7_iTLp",
+      "filename": "무라카미 하루키-세계의 끝과 하드보일드 원더랜드 1(ocr).txt의 사본",
+      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "driveFileId": "1fWziIK87bsnIMesrXuM9DWk9fVJauXi0",
+      "filename": "무라카미 하루키-양을 쫓는 모험(ocr).txt의 사본",
+      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "driveFileId": "1luz77iETvd3z2omOHQlCKtFvEPp-cfvZ",
+      "filename": "무라카미 하루키-색채가 없는 다자키 쓰쿠루와 그가 순례를 떠난 해(ocr).txt의 사본",
+      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "driveFileId": "1-EUzfLe4ueGrr8GmumS7U487-9tGucAu",
+      "filename": "무라카미 하루키-세계의 끝과 하드보일드 원더랜드 2(ocr).txt의 사본",
+      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "driveFileId": "1DDEsTeKPmvg_CB26YgQVuTN49N8zUTnq",
+      "filename": "은희경-새의 선물.txt의 사본",
+      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+    },
+    {
+      "driveFileId": "1_zaNydwCMu60VGR-67WlMnPVOBs_81rg",
+      "filename": "은희경_타인에게 말걸기.txt의 사본",
+      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+    }
+  ],
+  "model": "gemini-2.5-flash",
+  "apiRequests": 33,
+  "apiSuccessfulRequests": 5,
+  "apiRequestAttempts": 33,
+  "apiFailedAttempts": 28,
+  "attemptedModels": [
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash",
+    "gemini-2.5-flash"
+  ],
+  "modelSwitchCount": 4,
+  "lastModelError": "Gemini free-tier rate limit: retries exhausted (429)",
+  "invalidJsonResponses": 0,
+  "inputTokens": 14195,
+  "outputTokens": 5576,
+  "driveQuotaUnits": 1515,
+  "driveDownloadedBytes": 3558319,
+  "finishedAt": "2026-09-12T18:33:41.611280+00:00"
 }
