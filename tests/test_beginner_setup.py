@@ -35,3 +35,11 @@ def test_setup_wizard_preserves_existing_remote_and_never_force_pushes():
     assert "git clone --branch main" in source
     assert "(Join-Path $SourceRoot 'data')" in source
     assert "--force" not in source
+
+
+def test_connected_copy_returns_only_one_string_path():
+    source = (ROOT / "setup" / "beginner-setup.ps1").read_text(encoding="utf-8-sig")
+    assert "$cloneMessages = & git clone" in source
+    assert "$copyMessages = & robocopy.exe" in source
+    assert "Write-Output -NoEnumerate ([string]$target)" in source
+    assert "$ProjectRoot = [string]$connectedResult[-1]" in source

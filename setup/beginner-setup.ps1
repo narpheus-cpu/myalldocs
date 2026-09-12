@@ -54,12 +54,14 @@ function New-ConnectedWorkingCopy([string]$SourceRoot, [string]$RemoteUrl) {
         $target = Join-Path $parent ('myalldocs-connected-' + (Get-Date -Format 'yyyyMMdd-HHmmss'))
     }
     Write-Host 'GitHub의 기존 파일을 먼저 안전한 새 폴더로 내려받습니다.' -ForegroundColor Yellow
-    & git clone --branch main --single-branch $RemoteUrl $target
-    if ($LASTEXITCODE -ne 0) { throw 'GitHub 기존 파일을 내려받지 못했습니다.' }
+    $cloneMessages = & git clone --branch main --single-branch $RemoteUrl $target 2>&1
+    $cloneExitCode = $LASTEXITCODE
+    $cloneMessages | ForEach-Object { Write-Host $_ }
+    if ($cloneExitCode -ne 0) { throw 'GitHub 기존 파일을 내려받지 못했습니다.' }
 
     # Existing indexed data and browser configuration belong to the user. Keep the
     # remote copies while overlaying application files from this installer.
-    & robocopy.exe $SourceRoot $target /E /XD `
+    $copyMessages = & robocopy.exe $SourceRoot $target /E /XD `
         (Join-Path $SourceRoot '.git') `
         (Join-Path $SourceRoot 'data') `
         (Join-Path $SourceRoot '.venv') `
@@ -67,8 +69,10 @@ function New-ConnectedWorkingCopy([string]$SourceRoot, [string]$RemoteUrl) {
         (Join-Path $SourceRoot '.runtime-tmp') `
         (Join-Path $SourceRoot '.test-tmp') `
         /XF (Join-Path $SourceRoot 'config\public-config.js') `
-        /NFL /NDL /NJH /NJS /NP
-    if ($LASTEXITCODE -gt 7) { throw '프로젝트 파일을 안전한 새 폴더로 복사하지 못했습니다.' }
+        /NFL /NDL /NJH /NJS /NP 2>&1
+    $copyExitCode = $LASTEXITCODE
+    $copyMessages | Where-Object { $_ -and $_.Trim() } | ForEach-Object { Write-Host $_ }
+    if ($copyExitCode -gt 7) { throw '프로젝트 파일을 안전한 새 폴더로 복사하지 못했습니다.' }
     if (-not (Test-Path -LiteralPath (Join-Path $target 'data'))) {
         Copy-Item -LiteralPath (Join-Path $SourceRoot 'data') -Destination (Join-Path $target 'data') -Recurse
     }
@@ -77,7 +81,7 @@ function New-ConnectedWorkingCopy([string]$SourceRoot, [string]$RemoteUrl) {
         Copy-Item -LiteralPath (Join-Path $SourceRoot 'config\public-config.js') -Destination $publicConfig
     }
     Write-Host ('기존 파일을 보존한 연결 폴더: ' + $target) -ForegroundColor Green
-    return $target
+    Write-Output -NoEnumerate ([string]$target)
 }
 
 Write-Title '서재 지도 초보자용 처음 설정'
@@ -145,7 +149,8 @@ if ($remoteHead) {
     }
     if (-not $canUseCurrent) {
         try {
-            $ProjectRoot = New-ConnectedWorkingCopy $ProjectRoot $remoteUrl
+            $connectedResult = @(New-ConnectedWorkingCopy $ProjectRoot $remoteUrl)
+            $ProjectRoot = [string]$connectedResult[-1]
             Set-Location -LiteralPath $ProjectRoot
         } catch {
             Stop-Friendly $_.Exception.Message
