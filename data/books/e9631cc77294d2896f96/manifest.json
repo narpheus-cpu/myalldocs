@@ -1,0 +1,121 @@
+{
+  "bookId": "e9631cc77294d2896f96",
+  "driveFileId": "1GS_PuKo_ItYeE0Fe-Vrtzm49nl7_iTLp",
+  "title": "세계의 끝과 하드보일드 원더랜드. 1",
+  "author": "무라카미 하루키 | 역자 김진욱",
+  "filename": "무라카미 하루키-세계의 끝과 하드보일드 원더랜드 1(ocr).txt의 사본",
+  "format": "txt",
+  "documentType": "fiction",
+  "genre": "소설",
+  "classification": {
+    "documentType": "fiction",
+    "genre": "소설",
+    "confidence": 1.0,
+    "reasons": [
+      "chunkId 69에서 역자가 본 작품을 명시적으로 '이 소설은 주연급 인물이나 조연급 인물만 있을 뿐', '이 소설의 테마인 세계관이나 인생관', '이와 같은 큰 규모, 깊은 뜻을 담은 소설이 속출하는 자극제가 되었으면'이라고 지칭하며 소설(fiction)임을 명시함.",
+      "chunkId 1의 목차 구성('하드보일드 원더랜드', '세계의 끝' 교차 챕터) 및 chunkId 35의 본문 서술('나'의 시점에서 '샤프링', '전환 수치', '녹음기 작동' 등을 다루는 스토리텔링)이 서사 문학(소설)의 특성을 나타냄."
+    ],
+    "uncertain": false,
+    "sourceChunkIds": [
+      1,
+      35,
+      69
+    ]
+  },
+  "analysisProfile": "fiction",
+  "tabs": [
+    {
+      "key": "summary",
+      "label": "전체 요약"
+    },
+    {
+      "key": "sections",
+      "label": "구간별 요약"
+    },
+    {
+      "key": "characters",
+      "label": "주요 등장인물"
+    },
+    {
+      "key": "relationships",
+      "label": "인물 관계 변화"
+    },
+    {
+      "key": "settings",
+      "label": "배경 변화"
+    },
+    {
+      "key": "conflicts",
+      "label": "갈등 변화"
+    },
+    {
+      "key": "plot",
+      "label": "사건·플롯"
+    },
+    {
+      "key": "themes",
+      "label": "주제·상징"
+    }
+  ],
+  "metadata": {
+    "title": "세계의 끝과 하드보일드 원더랜드. 1",
+    "author": "무라카미 하루키 | 역자 김진욱",
+    "confidence": 0.82,
+    "evidence": [
+      {
+        "source": "title_page",
+        "title": "세계의 끝과 하드보일드 원더랜드. 1",
+        "author": "무라카미 하루키 | 역자 김진욱",
+        "weight": 0.38,
+        "detail": "본문 앞부분의 표제부 후보"
+      },
+      {
+        "source": "folder",
+        "title": "시험폴더2",
+        "weight": 0.12,
+        "detail": "시험폴더2"
+      },
+      {
+        "source": "filename",
+        "title": "무라카미 하루키",
+        "author": "세계의 끝과 하드보일드 원더랜드 1(ocr)",
+        "weight": 0.08,
+        "detail": "무라카미 하루키-세계의 끝과 하드보일드 원더랜드 1(ocr).txt의 사본"
+      }
+    ],
+    "titleSource": "title_page",
+    "authorSource": "title_page",
+    "conflictDetected": false,
+    "metadataStatus": "confirmed",
+    "manualOverrideApplied": false
+  },
+  "source": {
+    "modifiedTime": "2026-01-03T12:17:34.988Z",
+    "md5Checksum": "80635220ba2e199853cc185b8c12f0af",
+    "sha256": "ba7c6f39f1239479104a30394d55654633db5080143e80dd88496363a8f3c79e",
+    "changeKey": "80635220ba2e199853cc185b8c12f0af",
+    "size": "666304",
+    "mimeType": "text/plain",
+    "folderPath": [
+      "시험폴더2"
+    ],
+    "webViewLink": "https://drive.google.com/file/d/1GS_PuKo_ItYeE0Fe-Vrtzm49nl7_iTLp/view?usp=drivesdk"
+  },
+  "model": {
+    "name": "gemini-3.5-flash-lite",
+    "sdk": "google-genai",
+    "selection": "runtime models.list policy"
+  },
+  "chunking": {
+    "targetCharacters": 5000,
+    "overlapCharacters": 250
+  },
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "indexStatus": "COMPLETE",
+  "indexedAt": "2026-09-12T22:57:23.005877+00:00"
+}
