@@ -44,6 +44,9 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          # A workflow_dispatch run can wait behind another run. Read the current
+          # branch head when it actually starts so completed books are skipped.
+          ref: ${{ github.ref_name }}
       - name: Enforce zero-cost standard-runner policy
         env:
           REPOSITORY_IS_PRIVATE: ${{ github.event.repository.private }}

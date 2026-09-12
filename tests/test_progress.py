@@ -45,6 +45,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
+    assert "js/app.js?v=20260913-deduplicate" in html
 
 
 def test_relay_and_workflow_connect_saved_key_and_live_progress():
@@ -55,6 +56,24 @@ def test_relay_and_workflow_connect_saved_key_and_live_progress():
     assert "MailApp.sendEmail" in relay
     assert "GmailApp" not in relay
     assert "python -m indexer.runtime_secret" in workflow
+
+
+def test_duplicate_dispatch_is_blocked_in_browser_relay_and_workflow_checkout_is_fresh():
+    relay = (ROOT / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    workflow = (ROOT / ".github" / "workflows" / "index-books.yml").read_text(encoding="utf-8")
+    assert "LockService.getScriptLock" in relay
+    assert "alreadyRunning: true" in relay
+    assert "state.dispatching" in script
+    assert "ref: ${{ github.ref_name }}" in workflow
+
+
+def test_index_completion_explicitly_triggers_pages_and_email_can_be_retried():
+    pages = (ROOT / ".github" / "workflows" / "deploy-pages.yml").read_text(encoding="utf-8")
+    retry = (ROOT / ".github" / "workflows" / "retry-completion-email.yml").read_text(encoding="utf-8")
+    assert 'workflows: ["Index books"]' in pages
+    assert "types: [completed]" in pages
+    assert "python -m indexer.notify" in retry
 
 
 def test_safe_status_excludes_unknown_fields():
