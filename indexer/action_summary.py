@@ -24,6 +24,8 @@ def main() -> None:
         f"| 처리 chunk | {status.get('processedChunks', 0)} |",
         f"| API 요청 | {status.get('apiRequests', 0)} |",
         f"| 입력/출력 token | {status.get('inputTokens', 0)} / {status.get('outputTokens', 0)} |",
+        f"| Drive quota units | {status.get('driveQuotaUnits', 0)} |",
+        f"| Drive 다운로드 bytes | {status.get('driveDownloadedBytes', 0)} |",
         f"| 모델 | {status.get('model', '-')} |",
     ]
     output = "\n".join(lines) + "\n"

@@ -11,8 +11,24 @@
   },
   "metadataResolution": {
     "confirmationThreshold": 0.75,
-    "webVerificationEnabled": false,
-    "webVerificationThreshold": 0.75
+    "internetVerification": "FORBIDDEN"
+  },
+  "zeroCostPolicy": {
+    "enabled": true,
+    "cloudBillingAllowed": false,
+    "paidGeminiTierAllowed": false,
+    "externalSearchAllowed": false,
+    "paidInfrastructureAllowed": false
+  },
+  "driveQuota": {
+    "maxQuotaUnitsPerRun": 50000,
+    "maxDownloadBytesPerRun": 536870912,
+    "pauseOn403Or429": true,
+    "unitCosts": {
+      "files.get": 5,
+      "files.list": 100,
+      "files.downloadChunk": 200
+    }
   },
   "quota": {
     "requestsPerMinute": 10,

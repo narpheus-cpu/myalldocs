@@ -14,8 +14,6 @@ class Evidence:
     author: str | None = None
     weight: float = 0.0
     detail: str | None = None
-    url: str | None = None
-    external: bool = False
 
     def to_dict(self) -> dict[str, Any]:
         return {k: v for k, v in asdict(self).items() if v is not None}
@@ -32,7 +30,6 @@ class MetadataResolution:
     conflictDetected: bool
     metadataStatus: MetadataStatus
     manualOverrideApplied: bool = False
-    webVerificationPerformed: bool = False
 
     def to_dict(self) -> dict[str, Any]:
         result = asdict(self)

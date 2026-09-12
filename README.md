@@ -2,6 +2,18 @@
 
 Google Drive의 TXT/EPUB 원본을 조금씩 분석해 GitHub의 구조화된 JSON으로 축적하고, GitHub Pages에서 검색·탐색하는 개인용 시스템입니다. 원본 파일은 Drive 밖으로 복제하지 않습니다. 분석 엔진은 GitHub Actions의 Python, 수동 실행 연결은 Google Picker와 Apps Script, 요약·분석은 현재 `google-genai` SDK를 사용합니다.
 
+## 절대 정책: 비용 0원
+
+이 프로젝트는 **Google AI Studio 무료 티어 Gemini API Key 한 개만 이미 가지고 있다**고 가정합니다. 다음 기능은 설정으로 켤 수도 없고 코드 경로도 제공하지 않습니다.
+
+- Google Cloud Billing 활성화 및 Gemini Paid Tier
+- Google Search Grounding, 유료 검색 API, 외부 검색 SaaS
+- GitHub larger runner, private 저장소의 유료 Actions 분, 유료 artifact/storage
+- 유료 DB·서버·벡터 DB·호스팅·모니터링 SaaS
+- quota 구매·증액·우회 또는 여러 key를 돌려 쓰는 방식
+
+저장소는 **public**으로 유지하고 standard `ubuntu-latest` runner만 사용해야 합니다. workflow는 private 저장소에서 실행을 거부합니다. Google Cloud Console이나 AI Studio가 Billing 연결을 요구하면 진행하지 말고 중단하세요.
+
 > 중요: GitHub Pages에 배포되는 `data/` 분석 결과는 인터넷에서 접근할 수 있습니다. 원문 파일은 올라가지 않지만 요약·인물·개념·논증 정보가 공개되어도 되는지 먼저 결정하세요. 비공개 분석이 필요하면 Pages 대신 인증된 별도 호스팅이 필요합니다.
 
 ## 구현된 기능
@@ -12,12 +24,13 @@ Google Drive의 TXT/EPUB 원본을 조금씩 분석해 GitHub의 구조화된 JS
 - 파일명 비신뢰 메타데이터 판정: OPF, 본문 표제부, 폴더, 파일명을 독립 evidence로 보관
 - `confirmed`, `inferred`, `NEEDS_METADATA_REVIEW`, confidence, conflict, source 기록
 - `data/metadata-overrides.json`의 수동 수정값을 재인덱싱보다 우선
-- 낮은 confidence 또는 evidence 충돌 때만 선택적으로 Google Search grounding 검증
-- 검색 결과는 `external: true`인 보조 evidence로 분리하고 원문 분석에는 넣지 않음
-- `models.list()`로 `generateContent` 지원 모델을 실행 때 탐색하고 stable 정책으로 선택
+- confidence가 낮거나 evidence가 충돌하면 인터넷 검색 없이 `NEEDS_METADATA_REVIEW`
+- 메타데이터 AI도 로컬 evidence 후보 중에서만 선택하며 외부 지식 사용 금지
+- `models.list()`로 실제 key에 노출된 모델을 조회한 뒤 공식 Free Tier 게시 목록·stable 정책을 모두 통과한 모델만 선택
 - preview/experimental/latest/deprecated/retired/legacy 이름 차단, 미발견 시 `NO_SUPPORTED_MODEL`
 - 사용자 설정 RPM/TPM/실행 예산, safety margin, `Retry-After`, 지수 backoff+jitter, circuit breaker
-- quota/실행 예산 중단 시 checkpoint와 `PAUSED_RATE_LIMIT`, 다음 실행에서 미완료 chunk부터 재개
+- Gemini 무료 quota 또는 자체 실행 예산 중단 시 checkpoint와 `PAUSED_RATE_LIMIT`, 다음 실행에서 미완료 chunk부터 재개
+- Drive 호출 quota-unit·다운로드 byte 자체 예산, Drive 403/429 시 추가 과금 없이 `PAUSED_RATE_LIMIT`
 - source 변경, schema/prompt/profile/parser 버전 변경 감지와 멱등 skip
 - 소설·학술·철학·역사·과학기술·에세이·실용·희곡·시·혼합 문집별 분석 profile
 - manifest의 `tabs`로 상세 메뉴를 동적 생성하는 Pages UI
@@ -48,6 +61,8 @@ Google Drive ─ TXT/EPUB ─ GitHub Actions/Python ─ Gemini API
 2. 도서가 있는 Google 계정
 3. Google Cloud 프로젝트 한 개
 4. Gemini API 키를 만들 수 있는 Google AI Studio/Cloud 환경
+
+결제수단이나 Cloud Billing account는 필요하지 않으며 연결하지 않습니다.
 
 ## 1. 저장소 연결 또는 clone
 
@@ -83,6 +98,8 @@ git push -u origin main
 5. 개인 Google 계정이면 보통 External을 선택하고 앱 이름/지원 이메일을 입력합니다.
 6. 테스트 상태라면 자신의 Google 계정을 Test users에 추가합니다.
 7. 필요한 scope는 `https://www.googleapis.com/auth/drive.readonly`입니다. 이 시스템은 원본을 수정하지 않습니다.
+
+이 과정에서 **Billing 계정 연결, 무료 체험 결제 등록, quota 구매**를 요구하는 화면이 나오면 중단합니다. Drive API와 Picker의 표준 무료 범위만 사용합니다.
 
 Google Workspace 조직 정책이 있는 계정은 관리자가 앱 또는 scope를 허용해야 할 수 있습니다.
 
@@ -140,7 +157,7 @@ Drive 폴더 URL이 `https://drive.google.com/drive/folders/ABC...`라면 `ABC..
 2. 과거에 노출했던 문자열은 재사용하지 않습니다.
 3. 모델 이름은 여기서 고르지 않습니다. 실행 시 API의 모델 목록과 `config/model-policy.json`을 대조합니다.
 
-무료 한도는 계정·모델·시점에 따라 달라질 수 있으므로 코드가 공식 고정 숫자로 간주하지 않습니다. 실제 계정 한도보다 보수적으로 `config/indexer.json`을 조정하세요.
+무료 한도는 계정·모델·시점에 따라 달라질 수 있으므로 코드가 공식 고정 숫자로 간주하지 않습니다. 실제 AI Studio Free Tier 한도보다 보수적으로 `config/indexer.json`을 조정하세요. Billing 연결을 통해 한도를 올리지 않습니다.
 
 ## 6. GitHub Secrets와 Variable
 
@@ -198,13 +215,14 @@ GitHub fine-grained token은 이 저장소 하나만 선택하고 Actions: Read 
 
 ## 8. GitHub Pages 켜기
 
-1. 저장소 **Settings → Pages**로 이동합니다.
-2. Build and deployment의 Source를 **GitHub Actions**로 바꿉니다.
-3. `main`에 push하면 `.github/workflows/deploy-pages.yml`이 정적 파일을 배포합니다.
-4. **Actions** 탭에서 `Deploy GitHub Pages`가 초록색인지 확인합니다.
-5. 주소는 일반적으로 `https://narpheus-cpu.github.io/myalldocs/`입니다.
+1. 저장소가 **Public**인지 확인합니다. private 저장소에서는 Actions workflow가 비용 안전을 위해 즉시 거부됩니다.
+2. 저장소 **Settings → Pages**로 이동합니다.
+3. Build and deployment의 Source를 **GitHub Actions**로 바꿉니다.
+4. `main`에 push하면 `.github/workflows/deploy-pages.yml`이 정적 파일을 배포합니다.
+5. **Actions** 탭에서 `Deploy GitHub Pages`가 초록색인지 확인합니다.
+6. 주소는 일반적으로 `https://narpheus-cpu.github.io/myalldocs/`입니다.
 
-Pages는 저장소가 private이어도 플랜/설정에 따라 사이트가 공개될 수 있으므로 실제 URL을 로그아웃 창에서 확인하세요.
+Public 저장소의 standard GitHub-hosted runner와 GitHub Pages 무료 사용만 전제로 합니다. larger runner를 만들거나 workflow의 `runs-on`을 larger runner label로 바꾸지 마세요.
 
 ## 9. 첫 실행
 
@@ -264,16 +282,18 @@ data/books/{bookId}/relationships.json
 
 1. `google-genai`의 `client.models.list()`를 호출합니다.
 2. `generateContent`를 지원하는지 확인합니다.
-3. `config/model-policy.json`의 허용 정규식과 차단 단어를 적용합니다.
-4. stable 형태를 우선순위대로 고릅니다.
-5. 호출 중 model unavailable이면 다음 실행에서 목록을 다시 확인합니다.
-6. 허용 모델이 하나도 없으면 API를 억지 호출하지 않고 `NO_SUPPORTED_MODEL`로 끝냅니다.
+3. `config/model-policy.json`의 공식 Free Tier 게시 모델 정규식과 차단 단어를 적용합니다.
+4. Flash/Flash-Lite stable 형태를 우선순위대로 고릅니다. Paid-only 모델과 Pro/preview/experimental/latest alias는 선택하지 않습니다.
+5. 호출 시 unavailable이면 다음 허용 Free Tier 모델로 fallback합니다.
+6. 허용 모델이 하나도 없으면 API를 억지 호출하거나 Billing을 안내하지 않고 `NO_SUPPORTED_MODEL`로 끝냅니다.
 
-Google이 naming/status metadata를 바꾸면 공식 모델 페이지를 확인하고 정책 파일만 갱신합니다. `latest`, preview, experimental alias를 기본 허용하지 마세요.
+Google이 Free Tier 제공 모델을 바꾸면 공식 가격·모델 페이지를 모두 확인하고 `freeTierModelPatterns`만 갱신합니다. `models.list()`에 보인다는 사실만으로 무료라고 간주하지 않습니다.
+
+Gemini 모델 API는 해당 key가 연결된 프로젝트의 Billing 상태 자체를 판정해 주지 않습니다. 따라서 **AI Studio 프로젝트 화면에서 Tier가 Free인 key만 Secret에 등록**해야 합니다. 코드 측에서는 Free Tier 공식 게시 목록과 런타임 가용성의 교집합만 허용하고, 목록이 낡거나 비어 있으면 `NO_SUPPORTED_MODEL`로 정지합니다.
 
 ## 12. quota와 장기 실행 조절
 
-`config/indexer.json`의 숫자는 Google의 공식 고정 한도가 아니라 **이 저장소의 자체 안전 예산**입니다.
+`config/indexer.json`의 숫자는 Google의 공식 고정 한도가 아니라 **이 저장소의 자체 무료 안전 예산**입니다.
 
 - `requestsPerMinute`, `tokensPerMinute`: 계정 한도 이하의 속도
 - `maxRequestsPerRun`, `maxTokensPerRun`: 한 실행의 최대 소비
@@ -282,19 +302,23 @@ Google이 naming/status metadata를 바꾸면 공식 모델 페이지를 확인�
 - `safetyMargin`: 설정 한도의 실제 사용 비율
 - `maxRetries`, backoff, circuit breaker: 반복 오류 때 안전 일시정지
 
-429의 `Retry-After`가 있으면 우선 따르고, 이후 지수 backoff와 jitter를 적용합니다. 재시도 한도나 자체 예산에 닿으면 `data/checkpoints/`에 진행을 저장하고 `PAUSED_RATE_LIMIT`로 정상 종료합니다. 완료 메일은 보내지 않습니다. 다음 수동 실행은 저장된 `chunkId` 이후부터 계속합니다.
+429의 `Retry-After`가 있으면 우선 따르고, 이후 지수 backoff와 jitter를 적용합니다. 재시도 한도나 자체 예산에 닿으면 `data/checkpoints/`에 진행을 저장하고 `PAUSED_RATE_LIMIT`로 정상 종료합니다. 완료 메일은 보내지 않습니다. 다음 무료 quota reset 뒤 수동 실행은 저장된 `chunkId` 이후부터 계속합니다.
 
-웹 검증은 기본 `false`입니다. 켜려면:
+Drive에도 별도 무료 안전 예산이 있습니다.
 
 ```json
-"metadataResolution": {
-  "confirmationThreshold": 0.75,
-  "webVerificationEnabled": true,
-  "webVerificationThreshold": 0.75
+"driveQuota": {
+  "maxQuotaUnitsPerRun": 50000,
+  "maxDownloadBytesPerRun": 536870912,
+  "pauseOn403Or429": true
 }
 ```
 
-이때도 모든 책을 검색하지 않습니다. 로컬 evidence가 임계값 미만이거나 충돌한 책만 Google Search grounding을 사용하고 URL을 외부 evidence로 기록합니다. 작품 요약·인물·논증 분석 prompt에는 웹 결과가 전달되지 않습니다.
+각 Drive `files.get`, `files.list`, 다운로드 요청의 quota unit을 보수적으로 누적합니다. 실행 예산을 넘기기 전에 멈추고, Drive가 quota 관련 403/429를 반환해도 quota 구매나 상향 요청을 하지 않습니다. 파일 크기를 알 수 없는 무제한 다운로드도 거부합니다. 이 값은 더 낮출 수 있지만 표준 무료 범위를 넘기기 위해 올려서는 안 됩니다.
+
+`unitCosts`는 2026-09-12 공식 Drive 한도 문서의 method별 값을 설정으로 옮긴 것입니다. Google이 값을 바꾸면 공식 문서를 확인해 설정만 갱신하며, 코드가 오래된 수치를 영구적인 무료 한도로 가정하지 않습니다.
+
+제목·저자 confidence가 낮거나 OPF/표제부가 충돌해도 웹 검색은 하지 않습니다. 로컬 evidence와 그 후보만 보는 Gemini 판정으로 확정할 수 없으면 `NEEDS_METADATA_REVIEW`로 남기고 `data/metadata-overrides.json`에서 사람이 수정합니다.
 
 ## 13. 테스트
 
@@ -305,7 +329,7 @@ python -m pip install -r requirements.txt
 python -m pytest -q
 ```
 
-테스트에는 임의 생성 TXT/EPUB만 들어 있습니다. UTF-8/CP949, EPUB spine/메타데이터, 5,000자 chunk, 충돌/override/web 조건, model filtering, 429/Retry-After/circuit breaker, 43→44 checkpoint 재개, profile fallback, catalog 멱등성, credential 문자열 부재를 검사합니다.
+테스트에는 임의 생성 TXT/EPUB만 들어 있습니다. UTF-8/CP949, EPUB spine/메타데이터, 5,000자 chunk, 충돌/override, Free Tier model filtering, 웹 검색 코드 부재, Gemini/Drive 예산, 429/Retry-After/circuit breaker, 43→44 checkpoint 재개, profile fallback, catalog 멱등성, credential 문자열 부재를 검사합니다.
 
 로컬 Python이 패키지를 설치할 수 없는 제한 환경에서는 표준 라이브러리 전용 보조 실행도 가능합니다.
 
@@ -319,11 +343,11 @@ python -m tests.local_runner
 
 ### `NO_SUPPORTED_MODEL`
 
-Gemini 공식 모델 목록에서 stable 및 `generateContent` 지원 여부를 확인한 뒤 `config/model-policy.json`을 수정합니다. 임시로 preview/latest를 허용하기보다 공식 stable 이름을 정책에 추가합니다.
+Gemini 공식 가격표와 모델 목록 양쪽에서 **Free Tier + stable + `generateContent`**를 확인한 뒤 `config/model-policy.json`을 수정합니다. 임시로 Paid Tier, Pro, preview/latest를 허용하지 않습니다.
 
 ### `PAUSED_RATE_LIMIT`
 
-실패가 아니라 보존된 일시정지입니다. 계정 quota reset 뒤 같은 folder ID로 다시 실행합니다. `force_reindex`는 끕니다.
+실패가 아니라 보존된 일시정지입니다. 무료 quota reset 뒤 같은 folder ID로 다시 실행합니다. Billing 연결, quota 구매·증액, key 회전은 하지 않고 `force_reindex`도 끕니다.
 
 ### 401/403
 
@@ -368,8 +392,12 @@ source checksum 또는 이 버전이 바뀌면 해당 책은 재인덱싱 대상
 ## 공식 사양 확인 링크
 
 - [Gemini API 모델 목록과 models.list](https://ai.google.dev/api/models)
+- [Gemini Developer API 가격과 Free Tier](https://ai.google.dev/gemini-api/docs/pricing)
+- [Gemini Free Tier rate limits](https://ai.google.dev/gemini-api/docs/rate-limits)
 - [Gemini generateContent와 구조화 JSON](https://ai.google.dev/api/generate-content)
 - [Google Drive API v3 files](https://developers.google.com/workspace/drive/api/reference/rest/v3/files)
+- [Google Drive API 사용 한도와 가격](https://developers.google.com/workspace/drive/api/guides/limits)
 - [Google Picker 표시 가이드](https://developers.google.com/workspace/drive/api/guides/picker)
 - [GitHub workflow_dispatch](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch)
 - [GitHub Pages custom workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+- [GitHub Actions billing과 public standard runner 무료 조건](https://docs.github.com/en/billing/concepts/product-billing/github-actions)

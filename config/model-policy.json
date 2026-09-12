@@ -1,13 +1,18 @@
 {
   "description": "Runtime policy only. Concrete available models are discovered with models.list().",
+  "zeroCostMode": true,
+  "requireFreeTierPublishedModel": true,
   "allowNamePatterns": [
-    "^gemini-[0-9]+(?:\\.[0-9]+)?-(?:flash|flash-lite|pro)(?:-[0-9]{3})?$"
+    "^gemini-"
+  ],
+  "freeTierModelPatterns": [
+    "^gemini-(?:3\\.8-flash|3\\.7-flash|3\\.6-flash|3\\.5-flash(?:-lite)?|3\\.1-flash-lite|2\\.5-flash(?:-lite)?)(?:-[0-9]{3})?$"
   ],
   "preferencePatterns": [
     "^gemini-[0-9]+(?:\\.[0-9]+)?-flash$",
     "^gemini-[0-9]+(?:\\.[0-9]+)?-flash-[0-9]{3}$",
     "^gemini-[0-9]+(?:\\.[0-9]+)?-flash-lite$",
-    "^gemini-[0-9]+(?:\\.[0-9]+)?-pro$"
+    "^gemini-[0-9]+(?:\\.[0-9]+)?-flash-lite-[0-9]{3}$"
   ],
   "denyNameFragments": [
     "preview",

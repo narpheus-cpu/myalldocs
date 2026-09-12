@@ -1,4 +1,4 @@
-from indexer.metadata import collect_local_evidence, needs_web_verification, resolve_metadata
+from indexer.metadata import collect_local_evidence, resolve_metadata
 from indexer.models import Evidence, ParsedBook
 
 
@@ -22,12 +22,7 @@ def test_manual_override_is_absolute_and_preserved():
     assert result.manualOverrideApplied and result.metadataStatus == "confirmed"
 
 
-def test_low_confidence_triggers_optional_web_only_when_enabled():
+def test_low_confidence_stays_in_manual_review():
     result = resolve_metadata([Evidence("filename", "파일 제목", None, .08)], .75)
-    assert needs_web_verification(result, True, .75)
-    assert not needs_web_verification(result, False, .75)
-
-
-def test_web_evidence_is_explicitly_external():
-    item = Evidence("web_verification", "제목", "저자", .1, url="https://example.test", external=True)
-    assert item.to_dict()["external"] is True and item.to_dict()["url"].startswith("https")
+    assert result.metadataStatus == "NEEDS_METADATA_REVIEW"
+    assert result.confidence < .75

@@ -19,6 +19,10 @@ def rank_models(models: Iterable[Any], policy: dict) -> list[SelectedModel]:
     candidates: list[tuple[int, int, int, str, str]] = []
     deny = tuple(value.casefold() for value in policy.get("denyNameFragments", []))
     allowed = [re.compile(p, re.I) for p in policy.get("allowNamePatterns", [r"^gemini-"])]
+    free_tier = [re.compile(p, re.I) for p in policy.get("freeTierModelPatterns", [])]
+    zero_cost = policy.get("zeroCostMode") is True
+    if zero_cost and (policy.get("requireFreeTierPublishedModel") is not True or not free_tier):
+        raise NoSupportedModel("NO_SUPPORTED_MODEL: zero-cost mode has no published Free Tier model policy")
     preferred = [re.compile(p, re.I) for p in policy.get("preferencePatterns", [])]
     for item in models:
         raw_name = str(getattr(item, "name", ""))
@@ -31,6 +35,8 @@ def rank_models(models: Iterable[Any], policy: dict) -> list[SelectedModel]:
         if any(fragment in lowered or fragment in description for fragment in deny):
             continue
         if not any(pattern.search(name) for pattern in allowed):
+            continue
+        if zero_cost and not any(pattern.fullmatch(name) for pattern in free_tier):
             continue
         rank = next((i for i, pattern in enumerate(preferred) if pattern.search(name)), len(preferred))
         version = re.search(r"gemini-(\d+)(?:\.(\d+))?", name, re.I)

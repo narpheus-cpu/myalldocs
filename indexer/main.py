@@ -26,8 +26,9 @@ def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     settings = Settings.load()
+    settings.assert_zero_cost()
     try:
-        drive = DriveClient(settings.secret("GOOGLE_SERVICE_ACCOUNT_JSON") or "")
+        drive = DriveClient(settings.secret("GOOGLE_SERVICE_ACCOUNT_JSON") or "", settings.raw.get("driveQuota", {}))
         limiter = RateLimiter(settings.quota)
         gemini = GeminiClient(settings.secret("GEMINI_API_KEY") or "", settings.model_policy, limiter)
     except NoSupportedModel as exc:

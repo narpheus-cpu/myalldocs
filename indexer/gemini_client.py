@@ -23,7 +23,7 @@ class GeminiClient:
     def model_name(self) -> str:
         return self.selected.name
 
-    def generate_json(self, prompt: str, schema: dict | None = None, use_search: bool = False) -> tuple[Any, list[dict]]:
+    def generate_json(self, prompt: str, schema: dict | None = None) -> Any:
         from google.genai import types
 
         config_kwargs: dict[str, Any] = {
@@ -32,8 +32,6 @@ class GeminiClient:
         }
         if schema:
             config_kwargs["response_json_schema"] = schema
-        if use_search:
-            config_kwargs["tools"] = [types.Tool(google_search=types.GoogleSearch())]
         config = types.GenerateContentConfig(**config_kwargs)
 
         def operation():
@@ -56,39 +54,13 @@ class GeminiClient:
             int(getattr(usage, "candidates_token_count", 0) or 0),
         )
         data = _json_from_text(response.text or "")
-        return data, _grounding_sources(response)
-
-    def verify_metadata_on_web(self, title: str, author: str, excerpt: str) -> list[dict]:
-        prompt = f"""Use Google Search only to verify this uncertain book metadata. Search conservatively for editions and namesakes.
-Return JSON with a `candidates` array. Each candidate: title, author, confidence (0..1), rationale.
-Do not summarize or supplement the book. Do not claim identity without corroboration.
-Local title candidate: {title}
-Local author candidate: {author}
-Short source excerpt: {excerpt[:1200]}
-"""
-        data, sources = self.generate_json(prompt, use_search=True)
-        candidates = data.get("candidates", []) if isinstance(data, dict) else []
-        for candidate in candidates:
-            candidate["groundingSources"] = sources
-        return candidates
+        return data
 
 
 def _json_from_text(text: str) -> Any:
     cleaned = text.strip()
     cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", cleaned, flags=re.I | re.S)
     return json.loads(cleaned)
-
-
-def _grounding_sources(response: Any) -> list[dict]:
-    found: list[dict] = []
-    for candidate in getattr(response, "candidates", None) or []:
-        meta = getattr(candidate, "grounding_metadata", None)
-        for chunk in getattr(meta, "grounding_chunks", None) or []:
-            web = getattr(chunk, "web", None)
-            uri = getattr(web, "uri", None)
-            if uri:
-                found.append({"title": getattr(web, "title", None), "url": uri})
-    return found
 
 
 def _model_unavailable(exc: Exception) -> bool:

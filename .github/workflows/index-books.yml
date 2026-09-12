@@ -44,10 +44,18 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0
+      - name: Enforce zero-cost standard-runner policy
+        env:
+          REPOSITORY_IS_PRIVATE: ${{ github.event.repository.private }}
+        shell: bash
+        run: |
+          if [[ "$REPOSITORY_IS_PRIVATE" != "false" ]]; then
+            echo "::error::Zero-cost mode refuses GitHub-hosted execution in a private repository. Keep this repository public or run locally."
+            exit 1
+          fi
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-          cache: pip
       - name: Install current supported SDKs
         run: python -m pip install -r requirements.txt
       - name: Run tests before indexing

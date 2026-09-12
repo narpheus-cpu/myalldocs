@@ -14,8 +14,9 @@ from indexer.checkpoint import CheckpointStore, atomic_write_json
 from indexer.chunker import chunk_text
 from indexer.config import Settings
 from indexer.drive_client import DriveClient
+from indexer.drive_quota import DriveQuotaPaused
 from indexer.gemini_client import GeminiClient
-from indexer.metadata import collect_local_evidence, needs_web_verification, resolve_metadata
+from indexer.metadata import collect_local_evidence, resolve_metadata
 from indexer.model_selector import NoSupportedModel
 from indexer.models import DriveBook, Evidence
 from indexer.parsers import parse_epub, parse_txt
@@ -65,7 +66,7 @@ class IndexPipeline:
                     manifest = self.storage.manifest(_book_id(book.id)) or {}
                     if manifest.get("metadata", {}).get("metadataStatus") == "NEEDS_METADATA_REVIEW":
                         counts["metadataReview"] += 1
-            except (RateLimitPaused, BudgetExceeded) as exc:
+            except (RateLimitPaused, BudgetExceeded, DriveQuotaPaused) as exc:
                 LOG.warning("Paused safely: %s", exc)
                 paused = True
                 status["message"] = str(exc)
@@ -96,6 +97,8 @@ class IndexPipeline:
             "apiRequests": self.gemini.rate_limiter.usage.requests,
             "inputTokens": self.gemini.rate_limiter.usage.input_tokens,
             "outputTokens": self.gemini.rate_limiter.usage.output_tokens,
+            "driveQuotaUnits": self.drive.quota.usage.quota_units,
+            "driveDownloadedBytes": self.drive.quota.usage.downloaded_bytes,
             "finishedAt": _now(),
         })
         self._save_job(status)
@@ -111,7 +114,8 @@ class IndexPipeline:
             return "skipped"
 
         LOG.info("DOWNLOAD %s", book.name)
-        raw = self.drive.download(book.id)
+        expected_size = int(book.size) if book.size is not None else None
+        raw = self.drive.download(book.id, expected_size)
         checksum = hashlib.sha256(raw).hexdigest()
         change_key = book.md5Checksum or checksum
         if not force and existing and existing.get("source", {}).get("changeKey") == change_key and existing.get("versions") == versions and existing.get("indexStatus") == "COMPLETE":
@@ -125,32 +129,16 @@ class IndexPipeline:
         threshold = float(self.settings.metadata.get("confirmationThreshold", 0.75))
         metadata = resolve_metadata(evidence, threshold, overrides)
         if not metadata.manualOverrideApplied and (metadata.metadataStatus == "NEEDS_METADATA_REVIEW" or metadata.conflictDetected):
-            ai_choice, _ = self.gemini.generate_json(resolve_local_metadata([item.to_dict() for item in evidence]))
+            ai_choice = self.gemini.generate_json(resolve_local_metadata([item.to_dict() for item in evidence]))
             if isinstance(ai_choice, dict):
                 title = _validated_candidate(ai_choice.get("title"), evidence, "title")
                 author = _validated_candidate(ai_choice.get("author"), evidence, "author")
                 if title or author:
                     evidence.append(Evidence(
                         "ai_local_resolution", title, author, 0.16,
-                        str(ai_choice.get("rationale", ""))[:500], external=False,
+                        str(ai_choice.get("rationale", ""))[:500],
                     ))
                     metadata = resolve_metadata(evidence, threshold, overrides)
-        web_enabled = bool(self.settings.metadata.get("webVerificationEnabled", False))
-        web_threshold = float(self.settings.metadata.get("webVerificationThreshold", 0.75))
-        if needs_web_verification(metadata, web_enabled, web_threshold):
-            candidates = self.gemini.verify_metadata_on_web(metadata.title, metadata.author, parsed.text)
-            for candidate in candidates[:3]:
-                sources = candidate.get("groundingSources") or []
-                evidence.append(Evidence(
-                    "web_verification",
-                    candidate.get("title"),
-                    candidate.get("author"),
-                    min(0.10, max(0.0, float(candidate.get("confidence", 0))) * 0.10),
-                    candidate.get("rationale"),
-                    sources[0].get("url") if sources else None,
-                    True,
-                ))
-            metadata = resolve_metadata(evidence, threshold, overrides, web_performed=True)
 
         chunks = chunk_text(
             parsed.text,
@@ -167,7 +155,7 @@ class IndexPipeline:
         excerpts = [{"chunkId": item["chunkId"], "text": item["text"][:2500]} for item in (chunks[:1] + chunks[len(chunks)//2:len(chunks)//2+1] + chunks[-1:])]
         classification = checkpoint.get("classification") if checkpoint_valid else None
         if not classification:
-            classification, _ = self.gemini.generate_json(classify_document(excerpts))
+            classification = self.gemini.generate_json(classify_document(excerpts))
         manual_profile = profile_override or overrides.get("documentType")
         profile_name, profile = choose_profile(classification, self.settings.profiles, manual_profile)
 
@@ -181,7 +169,7 @@ class IndexPipeline:
                 raise BudgetExceeded("maxChunksPerRun reached")
             self._check_runtime()
             try:
-                analysis, _ = self.gemini.generate_json(analyze_chunk(chunk, profile))
+                analysis = self.gemini.generate_json(analyze_chunk(chunk, profile))
             except (RateLimitPaused, NoSupportedModel):
                 self._save_checkpoint(book_id, checksum, versions, classification, analyses, len(chunks))
                 raise
@@ -200,10 +188,10 @@ class IndexPipeline:
             while len(level) > 20:
                 next_level: list[dict] = []
                 for offset in range(0, len(level), 20):
-                    item, _ = self.gemini.generate_json(synthesize(level[offset:offset + 20], profile, False))
+                    item = self.gemini.generate_json(synthesize(level[offset:offset + 20], profile, False))
                     next_level.append(item)
                 level = next_level
-            final_analysis, _ = self.gemini.generate_json(synthesize(level, profile, True))
+            final_analysis = self.gemini.generate_json(synthesize(level, profile, True))
         except (RateLimitPaused, NoSupportedModel):
             self._save_checkpoint(book_id, checksum, versions, classification, analyses, len(chunks))
             raise

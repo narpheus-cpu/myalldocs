@@ -44,3 +44,21 @@ class Settings:
     @property
     def quota(self) -> dict[str, Any]:
         return self.raw["quota"]
+
+    def assert_zero_cost(self) -> None:
+        policy = self.raw.get("zeroCostPolicy", {})
+        forbidden_flags = ("cloudBillingAllowed", "paidGeminiTierAllowed", "externalSearchAllowed", "paidInfrastructureAllowed")
+        if policy.get("enabled") is not True or any(policy.get(name) is not False for name in forbidden_flags):
+            raise RuntimeError("ZERO_COST_POLICY_VIOLATION: paid or externally billed features cannot be enabled")
+        if self.model_policy.get("zeroCostMode") is not True or self.model_policy.get("requireFreeTierPublishedModel") is not True:
+            raise RuntimeError("ZERO_COST_POLICY_VIOLATION: model policy must require published Free Tier models")
+        drive = self.raw.get("driveQuota", {})
+        if drive.get("pauseOn403Or429") is not True:
+            raise RuntimeError("ZERO_COST_POLICY_VIOLATION: Drive quota responses must pause the run")
+        for name in ("maxQuotaUnitsPerRun", "maxDownloadBytesPerRun"):
+            if int(drive.get(name, 0) or 0) <= 0:
+                raise RuntimeError(f"ZERO_COST_POLICY_VIOLATION: {name} must be a positive safety limit")
+        gemini = self.raw.get("quota", {})
+        for name in ("maxRequestsPerRun", "maxTokensPerRun", "maxBooksPerRun", "maxChunksPerRun", "maxRuntimeMinutes"):
+            if int(gemini.get(name, 0) or 0) <= 0:
+                raise RuntimeError(f"ZERO_COST_POLICY_VIOLATION: {name} must be a positive safety limit")

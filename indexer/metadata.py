@@ -13,7 +13,6 @@ SOURCE_WEIGHTS = {
     "title_page": 0.38,
     "folder": 0.12,
     "filename": 0.08,
-    "web_verification": 0.10,
     "ai_local_resolution": 0.16,
 }
 
@@ -69,13 +68,12 @@ def resolve_metadata(
     evidence: list[Evidence],
     threshold: float = 0.75,
     override: dict[str, Any] | None = None,
-    web_performed: bool = False,
 ) -> MetadataResolution:
     if override and (override.get("title") or override.get("author")):
         title = override.get("title") or _best(evidence, "title")[0] or "제목 미상"
         author = override.get("author") or _best(evidence, "author")[0] or "저자 미상"
         manual = Evidence("manual_override", title, author, 1.0, "재인덱싱에도 보존되는 사용자 수정")
-        return MetadataResolution(title, author, 1.0, [manual, *evidence], "manual_override", "manual_override", False, "confirmed", True, web_performed)
+        return MetadataResolution(title, author, 1.0, [manual, *evidence], "manual_override", "manual_override", False, "confirmed", True)
 
     title, title_source, title_score = _best(evidence, "title")
     author, author_source, author_score = _best(evidence, "author")
@@ -98,12 +96,7 @@ def resolve_metadata(
         conflict,
         status,
         False,
-        web_performed,
     )
-
-
-def needs_web_verification(result: MetadataResolution, enabled: bool, threshold: float) -> bool:
-    return enabled and (result.confidence < threshold or result.conflictDetected)
 
 
 def _best(evidence: list[Evidence], field: str) -> tuple[str | None, str | None, float]:
@@ -134,7 +127,6 @@ def _best(evidence: list[Evidence], field: str) -> tuple[str | None, str | None,
         reliability = max(reliability, 0.45)
     elif "filename" in sources[key]:
         reliability = max(reliability, 0.30)
-    reliability += sum(item.weight for item in evidence if item.source == "web_verification" and _norm(getattr(item, field)) == key)
     return value, source, min(1.0, reliability)
 
 
