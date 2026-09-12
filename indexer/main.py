@@ -10,6 +10,7 @@ from indexer.drive_client import DriveClient
 from indexer.gemini_client import GeminiClient
 from indexer.model_selector import NoSupportedModel
 from indexer.pipeline import IndexPipeline
+from indexer.progress import ProgressReporter
 from indexer.rate_limiter import RateLimiter
 
 
@@ -27,6 +28,7 @@ def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     settings = Settings.load()
     settings.assert_zero_cost()
+    progress = ProgressReporter.from_env()
     try:
         drive = DriveClient(settings.secret("GOOGLE_SERVICE_ACCOUNT_JSON") or "", settings.raw.get("driveQuota", {}))
         limiter = RateLimiter(settings.quota)
@@ -35,8 +37,9 @@ def main(argv: list[str] | None = None) -> int:
         logging.error("%s", exc)
         from indexer.checkpoint import atomic_write_json
         atomic_write_json(settings.root / "data" / "job-status.json", {"status": "NO_SUPPORTED_MODEL", "message": str(exc)})
+        progress.emit({"status": "NO_SUPPORTED_MODEL", "phase": "MODEL_SELECTION", "message": str(exc)}, force=True)
         return 2
-    status = IndexPipeline(settings, drive, gemini).run(args.folder_id, args.recursive, args.force, args.profile)
+    status = IndexPipeline(settings, drive, gemini, progress=progress).run(args.folder_id, args.recursive, args.force, args.profile)
     logging.info("Final status: %s", status["status"])
     return 0 if status["status"] in {"COMPLETE", "PAUSED_RATE_LIMIT"} else 1
 

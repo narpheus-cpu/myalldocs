@@ -21,6 +21,7 @@ from indexer.model_selector import NoSupportedModel
 from indexer.models import DriveBook, Evidence
 from indexer.parsers import parse_epub, parse_txt
 from indexer.profiles import choose_profile
+from indexer.progress import ProgressReporter
 from indexer.prompts import analyze_chunk, classify_document, resolve_local_metadata, synthesize
 from indexer.rate_limiter import BudgetExceeded, RateLimitPaused, RateLimiter
 from indexer.storage import RepositoryStorage
@@ -30,7 +31,7 @@ LOG = logging.getLogger("book-indexer")
 
 
 class IndexPipeline:
-    def __init__(self, settings: Settings, drive: DriveClient, gemini: GeminiClient, started_at: float | None = None) -> None:
+    def __init__(self, settings: Settings, drive: DriveClient, gemini: GeminiClient, started_at: float | None = None, progress: ProgressReporter | None = None) -> None:
         self.settings = settings
         self.drive = drive
         self.gemini = gemini
@@ -38,6 +39,11 @@ class IndexPipeline:
         self.checkpoints = CheckpointStore(settings.root / "data" / "checkpoints")
         self.started_at = started_at or time.time()
         self.chunks_this_run = 0
+        self.progress = progress or ProgressReporter()
+        self.live_status: dict[str, Any] = {}
+        self.current_file_name = ""
+        self.current_file_index = 0
+        self.total_files = 0
 
     def run(self, folder_id: str, recursive: bool = True, force: bool = False, profile_override: str | None = None) -> dict:
         configured_root = os.getenv("DRIVE_ROOT_FOLDER_ID")
@@ -47,14 +53,21 @@ class IndexPipeline:
         books = list(self.drive.iter_books(folder_id, recursive))
         max_books = int(self.settings.quota.get("maxBooksPerRun", 0) or 0)
         status = self._job("RUNNING", folder, len(books))
+        self.live_status = status
+        self.total_files = len(books)
+        self._emit_progress("DISCOVERY_COMPLETE", f"TXT/EPUB {len(books)}개를 찾았습니다.", force=True)
         if not books:
             status.update({"status": "ERROR", "allTargetsComplete": False, "message": "선택 폴더에 대상 TXT/EPUB가 없습니다.", "finishedAt": _now()})
             self._save_job(status)
+            self._emit_progress("DISCOVERY_COMPLETE", status["message"], force=True, status_override=status)
             return status
         counts = {"complete": 0, "skipped": 0, "failed": 0, "metadataReview": 0, "processedChunks": 0}
         errors: list[dict] = []
         paused = False
         for index, book in enumerate(books):
+            self.current_file_name = book.name
+            self.current_file_index = index + 1
+            self._emit_progress("STARTING_BOOK", "다음 책 처리를 시작합니다.", force=True)
             if max_books and counts["complete"] >= max_books:
                 paused = True
                 status["message"] = "사용자 설정 maxBooksPerRun에 도달하여 안전하게 일시정지했습니다."
@@ -75,15 +88,19 @@ class IndexPipeline:
                 status.update(counts)
                 status.update({"status": "NO_SUPPORTED_MODEL", "message": str(exc), "allTargetsComplete": False, "finishedAt": _now()})
                 self._save_job(status)
+                self._emit_progress("MODEL_SELECTION", str(exc), force=True, status_override=status)
                 return status
             except Exception as exc:  # one corrupt book must not destroy the run
                 LOG.exception("Failed to index %s", book.name)
                 counts["failed"] += 1
                 errors.append({"driveFileId": book.id, "filename": book.name, "error": str(exc)[:500]})
+                self._emit_progress("BOOK_ERROR", str(exc)[:300], force=True)
             counts["processedChunks"] = self.chunks_this_run
             status.update(counts)
             status["currentFileIndex"] = index + 1
+            status["currentFileName"] = book.name
             self._save_job(status)
+            self._emit_progress("BOOK_FINISHED", "책 처리가 끝났습니다.", force=True)
 
         counts["processedChunks"] = self.chunks_this_run
         all_complete = not paused and counts["failed"] == 0 and counts["complete"] + counts["skipped"] == len(books)
@@ -102,6 +119,7 @@ class IndexPipeline:
             "finishedAt": _now(),
         })
         self._save_job(status)
+        self._emit_progress(final_status, status.get("message", "작업이 끝났습니다."), force=True, status_override=status)
         return status
 
     def _process_book(self, book: DriveBook, force: bool, profile_override: str | None) -> str:
@@ -111,9 +129,11 @@ class IndexPipeline:
         source_hint = book.md5Checksum or f"{book.modifiedTime}:{book.size}"
         if not force and existing and existing.get("source", {}).get("changeKey") == source_hint and existing.get("versions") == versions and existing.get("indexStatus") == "COMPLETE":
             LOG.info("SKIP %s (unchanged)", book.name)
+            self._emit_progress("UNCHANGED", "변경되지 않은 책이라 건너뜁니다.", force=True)
             return "skipped"
 
         LOG.info("DOWNLOAD %s", book.name)
+        self._emit_progress("DOWNLOADING", "Google Drive에서 파일을 읽고 있습니다.", force=True)
         expected_size = int(book.size) if book.size is not None else None
         raw = self.drive.download(book.id, expected_size)
         checksum = hashlib.sha256(raw).hexdigest()
@@ -125,6 +145,7 @@ class IndexPipeline:
             raise ValueError("parsed book is empty")
 
         overrides = self.storage.overrides().get(book.id, {})
+        self._emit_progress("METADATA", "제목과 저자 근거를 확인하고 있습니다.", force=True)
         evidence = collect_local_evidence(parsed, book.name, book.folderPath)
         threshold = float(self.settings.metadata.get("confirmationThreshold", 0.75))
         metadata = resolve_metadata(evidence, threshold, overrides)
@@ -155,6 +176,7 @@ class IndexPipeline:
         excerpts = [{"chunkId": item["chunkId"], "text": item["text"][:2500]} for item in (chunks[:1] + chunks[len(chunks)//2:len(chunks)//2+1] + chunks[-1:])]
         classification = checkpoint.get("classification") if checkpoint_valid else None
         if not classification:
+            self._emit_progress("CLASSIFYING", "문서 유형과 분석 방식을 선택하고 있습니다.", 0, len(chunks), True)
             classification = self.gemini.generate_json(classify_document(excerpts))
         manual_profile = profile_override or overrides.get("documentType")
         profile_name, profile = choose_profile(classification, self.settings.profiles, manual_profile)
@@ -168,6 +190,7 @@ class IndexPipeline:
                 self._save_checkpoint(book_id, checksum, versions, classification, analyses, len(chunks))
                 raise BudgetExceeded("maxChunksPerRun reached")
             self._check_runtime()
+            self._emit_progress("ANALYZING_CHUNK", "원문 구간을 분석하고 있습니다.", int(chunk["chunkId"]), len(chunks))
             try:
                 analysis = self.gemini.generate_json(analyze_chunk(chunk, profile))
             except (RateLimitPaused, NoSupportedModel):
@@ -184,6 +207,7 @@ class IndexPipeline:
         analyses.sort(key=lambda item: int(item.get("chunkId", 0)))
         self._save_checkpoint(book_id, checksum, versions, classification, analyses, len(chunks))
         try:
+            self._emit_progress("SYNTHESIZING", "구간 분석을 책 전체 구조로 통합하고 있습니다.", len(chunks), len(chunks), True)
             level = analyses
             while len(level) > 20:
                 next_level: list[dict] = []
@@ -198,6 +222,7 @@ class IndexPipeline:
         if not isinstance(final_analysis, dict):
             raise ValueError("Gemini synthesis was not an object")
 
+        self._emit_progress("SAVING", "분석 결과를 저장하고 있습니다.", len(chunks), len(chunks), True)
         manifest = {
             "bookId": book_id,
             "driveFileId": book.id,
@@ -243,6 +268,37 @@ class IndexPipeline:
         })
         self.checkpoints.clear(book_id)
         return "complete"
+
+    def _emit_progress(
+        self,
+        phase: str,
+        message: str,
+        current_chunk: int | None = None,
+        total_chunks: int | None = None,
+        force: bool = False,
+        status_override: dict[str, Any] | None = None,
+    ) -> None:
+        base = dict(status_override or self.live_status)
+        usage = self.gemini.rate_limiter.usage
+        base.update({
+            "phase": phase,
+            "message": message,
+            "model": self.gemini.model_name,
+            "currentFileName": self.current_file_name,
+            "currentFileIndex": self.current_file_index,
+            "totalFiles": self.total_files,
+            "processedChunks": self.chunks_this_run,
+            "apiRequests": usage.requests,
+            "inputTokens": usage.input_tokens,
+            "outputTokens": usage.output_tokens,
+            "driveQuotaUnits": self.drive.quota.usage.quota_units,
+            "driveDownloadedBytes": self.drive.quota.usage.downloaded_bytes,
+        })
+        if current_chunk is not None:
+            base["currentChunk"] = current_chunk
+        if total_chunks is not None:
+            base["totalChunks"] = total_chunks
+        self.progress.emit(base, force=force)
 
     def _save_checkpoint(self, book_id: str, checksum: str, versions: dict, classification: dict, analyses: list[dict], total: int) -> None:
         self.checkpoints.save(book_id, {

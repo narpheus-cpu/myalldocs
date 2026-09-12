@@ -11,7 +11,11 @@ function doPost(e) {
   try {
     var body = JSON.parse((e.postData && e.postData.contents) || '{}');
     if (body.route === 'callback' || body.event === 'indexing-complete') return handleCallback_(body);
-    assertAuthorizedUser_();
+    if (body.route === 'progress') return handleProgress_(body);
+    if (body.route === 'runtime-key') return handleRuntimeKey_(body);
+    assertAuthorizedUser_(body);
+    if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_()});
+    if (body.route === 'update-api-key') return json_(updateApiKey_(body));
     assertFolderWithinRoot_(body.folderId);
     if (body.route === 'preview') return json_(previewFolder_(body.folderId, body.recursive !== false));
     if (body.route === 'dispatch') return json_(dispatchWorkflow_(body));
@@ -21,12 +25,74 @@ function doPost(e) {
   }
 }
 
-function assertAuthorizedUser_() {
+function assertAuthorizedUser_(body) {
   var expected = PropertiesService.getScriptProperties().getProperty('AUTHORIZED_EMAIL') || 'narepheus@gmail.com';
-  var actual = Session.getActiveUser().getEmail();
+  var actual = '';
+  var token = String((body && body.accessToken) || '');
+  if (token) {
+    var response = UrlFetchApp.fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+      headers: {Authorization: 'Bearer ' + token}, muteHttpExceptions: true
+    });
+    if (response.getResponseCode() === 200) {
+      actual = String(JSON.parse(response.getContentText() || '{}').email || '');
+    }
+  } else {
+    actual = Session.getActiveUser().getEmail();
+  }
   if (!actual || actual.toLowerCase() !== expected.toLowerCase()) {
     throw new Error('허용된 Google 계정으로 로그인한 경우에만 실행할 수 있습니다.');
   }
+}
+
+function assertCallbackSecret_(body) {
+  if (String(body.callbackSecret || '') !== requiredProperty_('CALLBACK_SECRET')) {
+    throw new Error('Invalid callback secret');
+  }
+}
+
+function updateApiKey_(body) {
+  var key = String(body.geminiApiKey || '').trim();
+  if (!/^[A-Za-z0-9_-]{20,200}$/.test(key)) throw new Error('Gemini API Key 형식이 올바르지 않습니다.');
+  PropertiesService.getScriptProperties().setProperties({
+    GEMINI_API_KEY: key, GEMINI_KEY_UPDATED_AT: new Date().toISOString()
+  });
+  return {ok: true, geminiKey: geminiKeyStatus_()};
+}
+
+function geminiKeyStatus_() {
+  var properties = PropertiesService.getScriptProperties();
+  var key = properties.getProperty('GEMINI_API_KEY') || '';
+  return {configured: Boolean(key), masked: key ? '••••' + key.slice(-4) : '', updatedAt: properties.getProperty('GEMINI_KEY_UPDATED_AT') || ''};
+}
+
+function handleRuntimeKey_(body) {
+  assertCallbackSecret_(body);
+  var key = PropertiesService.getScriptProperties().getProperty('GEMINI_API_KEY') || '';
+  return json_({ok: true, geminiApiKey: key});
+}
+
+function handleProgress_(body) {
+  assertCallbackSecret_(body);
+  var source = body.progress || {};
+  var names = ['status','phase','message','model','currentFileName','currentFileIndex','totalFiles',
+    'currentChunk','totalChunks','complete','skipped','failed','metadataReview','processedChunks',
+    'apiRequests','inputTokens','outputTokens','driveQuotaUnits','driveDownloadedBytes',
+    'startedAt','updatedAt','finishedAt','allTargetsComplete'];
+  var clean = {};
+  names.forEach(function(name) {
+    if (source[name] !== undefined && source[name] !== null) clean[name] = source[name];
+  });
+  clean.currentFileName = String(clean.currentFileName || '').slice(0, 300);
+  clean.message = String(clean.message || '').slice(0, 500);
+  clean.updatedAt = new Date().toISOString();
+  PropertiesService.getScriptProperties().setProperty('LIVE_STATUS_JSON', JSON.stringify(clean));
+  return json_({ok: true});
+}
+
+function liveStatus_() {
+  var raw = PropertiesService.getScriptProperties().getProperty('LIVE_STATUS_JSON');
+  if (!raw) return {status: 'NOT_INDEXED', phase: 'WAITING', message: '아직 실시간 작업 정보가 없습니다.'};
+  try { return JSON.parse(raw); } catch (error) { return {status: 'UNKNOWN', message: '저장된 상태를 읽지 못했습니다.'}; }
 }
 
 function assertFolderWithinRoot_(folderId) {
@@ -84,12 +150,17 @@ function dispatchWorkflow_(body) {
   });
   var code = response.getResponseCode();
   if (code !== 200 && code !== 204) throw new Error('GitHub workflow 요청 실패: HTTP ' + code);
+  PropertiesService.getScriptProperties().setProperty('LIVE_STATUS_JSON', JSON.stringify({
+    status: 'QUEUED', phase: 'QUEUED', message: 'GitHub Actions 실행을 요청했습니다.',
+    currentFileName: '', currentFileIndex: 0, totalFiles: 0, updatedAt: new Date().toISOString()
+  }));
   var result = code === 200 ? JSON.parse(response.getContentText() || '{}') : {};
   return {ok: true, runId: result.workflow_run_id || null, runUrl: result.html_url || null};
 }
 
 function handleCallback_(body) {
-  if (body.callbackSecret !== requiredProperty_('CALLBACK_SECRET')) throw new Error('Invalid callback secret');
+  assertCallbackSecret_(body);
+  handleProgress_({callbackSecret: body.callbackSecret, progress: body});
   if (body.status !== 'COMPLETE' || body.allTargetsComplete !== true) return json_({ok: true, emailSent: false});
   var recipient = PropertiesService.getScriptProperties().getProperty('COMPLETION_EMAIL') || 'narepheus@gmail.com';
   var subject = '[Book Indexer] 인덱싱 완료 - ' + (body.folderName || body.folderId || '선택 폴더');
