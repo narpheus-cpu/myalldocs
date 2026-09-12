@@ -5,7 +5,7 @@ import re
 from typing import Any, Callable
 
 from indexer.model_selector import NoSupportedModel, SelectedModel, rank_models
-from indexer.rate_limiter import RateLimiter, ServiceUnavailablePaused
+from indexer.rate_limiter import BudgetExceeded, RateLimitPaused, RateLimiter, ServiceUnavailablePaused
 
 
 class InvalidJsonResponse(ValueError):
@@ -79,12 +79,26 @@ class GeminiClient:
         request_prompt = prompt
         invalid_json_retries = 0
         invalid_json_fallbacks = 0
+        rate_limit_probe_mode = False
         while True:
             def operation():
                 return self.client.models.generate_content(model=self.model_name, contents=request_prompt, config=config)
 
             try:
-                response = self.rate_limiter.call(operation, estimated_input_tokens=max(1, len(request_prompt) // 4))
+                response = self.rate_limiter.call(
+                    operation,
+                    estimated_input_tokens=max(1, len(request_prompt) // 4),
+                    max_retries=0 if rate_limit_probe_mode else None,
+                )
+            except BudgetExceeded:
+                raise
+            except RateLimitPaused as exc:
+                self.last_model_error = str(exc)[:300]
+                if not self._switch_model(str(exc)):
+                    tried = ", ".join(self.attempted_models)
+                    raise RateLimitPaused(f"모든 허용 무료 모델의 한도를 확인한 뒤 일시정지: {tried}") from exc
+                rate_limit_probe_mode = True
+                continue
             except ServiceUnavailablePaused as exc:
                 self.last_model_error = str(exc)[:300]
                 if self._service_fallbacks >= self._max_service_fallbacks or not self._switch_model(str(exc)):

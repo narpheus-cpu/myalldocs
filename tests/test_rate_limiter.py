@@ -66,3 +66,18 @@ def test_429_stays_rate_limit_pause_without_model_service_classification():
         caught = exc
     assert caught is not None
     assert not isinstance(caught, ServiceUnavailablePaused)
+
+
+def test_retry_override_allows_one_probe_attempt():
+    calls = []
+    limiter = RateLimiter({"maxRetries": 4, "circuitBreakerFailures": 20, "safetyMargin": 1}, sleeper=lambda _: None)
+
+    def fail():
+        calls.append(1)
+        err = RuntimeError("429 RESOURCE_EXHAUSTED")
+        err.status_code = 429
+        raise err
+
+    with pytest.raises(RateLimitPaused):
+        limiter.call(fail, max_retries=0)
+    assert len(calls) == 1
