@@ -138,7 +138,7 @@ Picker는 브라우저에서 사용자가 폴더를 고르는 UI입니다. 서�
 1. **사용자 인증 정보 만들기 → API 키**를 선택합니다.
 2. 키 제한에서 **웹사이트**를 선택합니다.
 3. 허용 referrer에 아래 두 주소를 모두 넣습니다.
-   - `https://narpheus-cpu.github.io/myalldocs/*`
+   - `https://narpheus-cpu.github.io/*` (Picker가 도메인 루트의 relay/favicon 경로도 사용하므로 저장소 하위 경로만 넣지 않음)
    - `https://docs.google.com/*` (Picker가 이 주소의 iframe에서 실행되므로 필수)
 4. API 제한은 **Google Picker API**로 제한합니다.
 
