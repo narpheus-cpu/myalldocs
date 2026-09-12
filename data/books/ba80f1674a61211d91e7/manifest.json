@@ -1,0 +1,113 @@
+{
+  "bookId": "ba80f1674a61211d91e7",
+  "driveFileId": "18k0Bwiw6Cz9zL7v9cKrIMxZQlUIqMGlQ",
+  "title": "도서명 : 노인과 바다",
+  "author": "헤밍웨이 (이종한 옮김)`",
+  "filename": "헤밍웨이-노인과바다.txt",
+  "format": "txt",
+  "documentType": "fiction",
+  "genre": "소설",
+  "classification": {
+    "documentType": "fiction",
+    "genre": "소설",
+    "confidence": 0.95,
+    "reasons": [
+      "도서명이 '노인과 바다'로 명시되어 있으며, 멕시코만에서 고기잡이를 하는 노인 산티아고와 소년, 바다에서의 사투를 다룬 서사적 인물과 대화, 묘사가 중심을 이루고 있음 (chunkId: 1, 11, 21).",
+      "발췌문 전반에 걸쳐 노인의 독백, 내면 심리, 대화, 상황 묘사 등의 허구적 서사 문학 형식이 사용됨 (chunkId: 1, 11, 21).",
+      "권말에 '작품 해설'이 부록으로 포함되어 있으나 이는 본문 소설 텍스트에 부수된 해설임 (chunkId: 1, 21)."
+    ],
+    "uncertain": false
+  },
+  "analysisProfile": "fiction",
+  "tabs": [
+    {
+      "key": "summary",
+      "label": "전체 요약"
+    },
+    {
+      "key": "sections",
+      "label": "구간별 요약"
+    },
+    {
+      "key": "characters",
+      "label": "주요 등장인물"
+    },
+    {
+      "key": "relationships",
+      "label": "인물 관계 변화"
+    },
+    {
+      "key": "settings",
+      "label": "배경 변화"
+    },
+    {
+      "key": "conflicts",
+      "label": "갈등 변화"
+    },
+    {
+      "key": "plot",
+      "label": "사건·플롯"
+    },
+    {
+      "key": "themes",
+      "label": "주제·상징"
+    }
+  ],
+  "metadata": {
+    "title": "도서명 : 노인과 바다",
+    "author": "헤밍웨이 (이종한 옮김)`",
+    "confidence": 0.82,
+    "evidence": [
+      {
+        "source": "title_page",
+        "title": "도서명 : 노인과 바다",
+        "author": "헤밍웨이 (이종한 옮김)`",
+        "weight": 0.38,
+        "detail": "본문 앞부분의 표제부 후보"
+      },
+      {
+        "source": "folder",
+        "title": "시험폴더1",
+        "weight": 0.12,
+        "detail": "시험폴더1"
+      },
+      {
+        "source": "filename",
+        "title": "헤밍웨이",
+        "author": "노인과바다",
+        "weight": 0.08,
+        "detail": "헤밍웨이-노인과바다.txt"
+      }
+    ],
+    "titleSource": "title_page",
+    "authorSource": "title_page",
+    "conflictDetected": false,
+    "metadataStatus": "confirmed",
+    "manualOverrideApplied": false
+  },
+  "source": {
+    "modifiedTime": "2019-03-01T20:47:14.000Z",
+    "md5Checksum": "f41e45506d55d1a249cb36823d0e72b6",
+    "sha256": "10cc1bd8630125ba52d2ffe44635581890e15403360cfc0add6d469565d2471c",
+    "changeKey": "f41e45506d55d1a249cb36823d0e72b6",
+    "size": "149335",
+    "mimeType": "text/plain",
+    "folderPath": [
+      "시험폴더1"
+    ],
+    "webViewLink": "https://drive.google.com/file/d/18k0Bwiw6Cz9zL7v9cKrIMxZQlUIqMGlQ/view?usp=drivesdk"
+  },
+  "model": {
+    "name": "gemini-3.5-flash",
+    "sdk": "google-genai",
+    "selection": "runtime models.list policy"
+  },
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "indexStatus": "COMPLETE",
+  "indexedAt": "2026-09-12T17:15:36.085476+00:00"
+}
