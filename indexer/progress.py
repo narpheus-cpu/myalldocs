@@ -82,7 +82,7 @@ def _safe_status(status: dict[str, Any]) -> dict[str, Any]:
         "status", "phase", "message", "model", "currentFileName",
         "currentFileIndex", "totalFiles", "currentChunk", "totalChunks",
         "complete", "skipped", "failed", "metadataReview", "processedChunks",
-        "apiRequests", "apiRequestAttempts", "apiFailedAttempts", "inputTokens", "outputTokens", "driveQuotaUnits",
+        "apiRequests", "apiSuccessfulRequests", "apiRequestAttempts", "apiFailedAttempts", "inputTokens", "outputTokens", "driveQuotaUnits",
         "driveDownloadedBytes", "startedAt", "finishedAt", "allTargetsComplete",
         "attemptedModels", "modelSwitchCount", "lastModelError",
         "lastHttpStatus", "retryAttempt", "retryMaxAttempts", "retryDelaySeconds", "previousModel",
