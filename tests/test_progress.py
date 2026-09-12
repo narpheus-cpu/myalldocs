@@ -45,7 +45,19 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260913-deduplicate" in html
+    assert "js/app.js?v=20260913-library-list" in html
+
+
+def test_library_is_a_board_list_with_integrated_txt_download():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    assert "전체 도서 목록" in html
+    assert 'id="book-row-template"' in html
+    assert 'id="book-card-template"' not in html
+    assert "새로고침하거나 닫아도 계속됩니다" in html
+    for phrase in ("downloadBook", "saveIntegratedText", "summary.json", "analysis.json", "timeline.json", "relationships.json", "chunks.json", "\\ufeff"):
+        assert phrase in script
+    assert "검색어를 입력하면 결과가 여기에 표시됩니다" in script
 
 
 def test_relay_and_workflow_connect_saved_key_and_live_progress():
