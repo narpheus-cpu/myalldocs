@@ -58,6 +58,19 @@ def test_relay_and_workflow_connect_saved_key_and_live_progress():
 
 
 def test_safe_status_excludes_unknown_fields():
-    result = _safe_status({"status": "RUNNING", "apiKey": "never", "rawText": "never"})
+    result = _safe_status({"status": "RUNNING", "apiRequestAttempts": 3, "attemptedModels": ["gemini-free"], "apiKey": "never", "rawText": "never"})
     assert result["status"] == "RUNNING"
+    assert result["apiRequestAttempts"] == 3
+    assert result["attemptedModels"] == ["gemini-free"]
     assert "apiKey" not in result and "rawText" not in result
+
+
+def test_monitor_distinguishes_service_pause_and_real_completion_progress():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    assert 'id="activity-log" class="activity-log"' in html
+    assert "<ol id=\"activity-log\"" not in html
+    for phrase in ("PAUSED_SERVICE_UNAVAILABLE", "GEMINI_RETRY", "MODEL_FALLBACK", "apiRequestAttempts", "Gemini 호출 시도"):
+        assert phrase in script
+    assert "resolved/total*100" in script
+    assert "index/total*100" not in script

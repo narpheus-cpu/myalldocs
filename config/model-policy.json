@@ -2,6 +2,7 @@
   "description": "Runtime policy only. Concrete available models are discovered with models.list().",
   "zeroCostMode": true,
   "requireFreeTierPublishedModel": true,
+  "maxServiceFallbacks": 2,
   "allowNamePatterns": [
     "^gemini-"
   ],

@@ -23,7 +23,7 @@ from indexer.parsers import parse_epub, parse_txt
 from indexer.profiles import choose_profile
 from indexer.progress import ProgressReporter
 from indexer.prompts import analyze_chunk, classify_document, resolve_local_metadata, synthesize
-from indexer.rate_limiter import BudgetExceeded, RateLimitPaused, RateLimiter
+from indexer.rate_limiter import BudgetExceeded, RateLimitPaused, SafePause, ServiceUnavailablePaused
 from indexer.storage import RepositoryStorage
 
 
@@ -44,6 +44,8 @@ class IndexPipeline:
         self.current_file_name = ""
         self.current_file_index = 0
         self.total_files = 0
+        self.gemini_event: dict[str, Any] = {}
+        self.gemini.set_event_callback(self._on_gemini_event)
 
     def run(self, folder_id: str, recursive: bool = True, force: bool = False, profile_override: str | None = None) -> dict:
         configured_root = os.getenv("DRIVE_ROOT_FOLDER_ID")
@@ -63,13 +65,13 @@ class IndexPipeline:
             return status
         counts = {"complete": 0, "skipped": 0, "failed": 0, "metadataReview": 0, "processedChunks": 0}
         errors: list[dict] = []
-        paused = False
+        pause_status = ""
         for index, book in enumerate(books):
             self.current_file_name = book.name
             self.current_file_index = index + 1
             self._emit_progress("STARTING_BOOK", "다음 책 처리를 시작합니다.", force=True)
             if max_books and counts["complete"] >= max_books:
-                paused = True
+                pause_status = "PAUSED_RATE_LIMIT"
                 status["message"] = "사용자 설정 maxBooksPerRun에 도달하여 안전하게 일시정지했습니다."
                 break
             try:
@@ -79,9 +81,14 @@ class IndexPipeline:
                     manifest = self.storage.manifest(_book_id(book.id)) or {}
                     if manifest.get("metadata", {}).get("metadataStatus") == "NEEDS_METADATA_REVIEW":
                         counts["metadataReview"] += 1
+            except ServiceUnavailablePaused as exc:
+                LOG.warning("Paused for temporary Gemini service failure: %s", exc)
+                pause_status = "PAUSED_SERVICE_UNAVAILABLE"
+                status["message"] = str(exc)
+                break
             except (RateLimitPaused, BudgetExceeded, DriveQuotaPaused) as exc:
                 LOG.warning("Paused safely: %s", exc)
-                paused = True
+                pause_status = "PAUSED_RATE_LIMIT"
                 status["message"] = str(exc)
                 break
             except NoSupportedModel as exc:
@@ -103,8 +110,8 @@ class IndexPipeline:
             self._emit_progress("BOOK_FINISHED", "책 처리가 끝났습니다.", force=True)
 
         counts["processedChunks"] = self.chunks_this_run
-        all_complete = not paused and counts["failed"] == 0 and counts["complete"] + counts["skipped"] == len(books)
-        final_status = "COMPLETE" if all_complete else ("PAUSED_RATE_LIMIT" if paused else "ERROR")
+        all_complete = not pause_status and counts["failed"] == 0 and counts["complete"] + counts["skipped"] == len(books)
+        final_status = "COMPLETE" if all_complete else (pause_status or "ERROR")
         status.update(counts)
         status.update({
             "status": final_status,
@@ -112,6 +119,11 @@ class IndexPipeline:
             "errors": errors,
             "model": self.gemini.model_name,
             "apiRequests": self.gemini.rate_limiter.usage.requests,
+            "apiRequestAttempts": self.gemini.rate_limiter.usage.attempts,
+            "apiFailedAttempts": self.gemini.rate_limiter.usage.failed_attempts,
+            "attemptedModels": self.gemini.attempted_models,
+            "modelSwitchCount": self.gemini.model_switch_count,
+            "lastModelError": self.gemini.last_model_error,
             "inputTokens": self.gemini.rate_limiter.usage.input_tokens,
             "outputTokens": self.gemini.rate_limiter.usage.output_tokens,
             "driveQuotaUnits": self.drive.quota.usage.quota_units,
@@ -193,7 +205,7 @@ class IndexPipeline:
             self._emit_progress("ANALYZING_CHUNK", "원문 구간을 분석하고 있습니다.", int(chunk["chunkId"]), len(chunks))
             try:
                 analysis = self.gemini.generate_json(analyze_chunk(chunk, profile))
-            except (RateLimitPaused, NoSupportedModel):
+            except (SafePause, NoSupportedModel):
                 self._save_checkpoint(book_id, checksum, versions, classification, analyses, len(chunks))
                 raise
             if not isinstance(analysis, dict):
@@ -216,7 +228,7 @@ class IndexPipeline:
                     next_level.append(item)
                 level = next_level
             final_analysis = self.gemini.generate_json(synthesize(level, profile, True))
-        except (RateLimitPaused, NoSupportedModel):
+        except (SafePause, NoSupportedModel):
             self._save_checkpoint(book_id, checksum, versions, classification, analyses, len(chunks))
             raise
         if not isinstance(final_analysis, dict):
@@ -289,16 +301,42 @@ class IndexPipeline:
             "totalFiles": self.total_files,
             "processedChunks": self.chunks_this_run,
             "apiRequests": usage.requests,
+            "apiRequestAttempts": usage.attempts,
+            "apiFailedAttempts": usage.failed_attempts,
+            "attemptedModels": self.gemini.attempted_models,
+            "modelSwitchCount": self.gemini.model_switch_count,
+            "lastModelError": self.gemini.last_model_error,
             "inputTokens": usage.input_tokens,
             "outputTokens": usage.output_tokens,
             "driveQuotaUnits": self.drive.quota.usage.quota_units,
             "driveDownloadedBytes": self.drive.quota.usage.downloaded_bytes,
         })
+        if self.gemini_event:
+            base.update({
+                "lastHttpStatus": self.gemini_event.get("statusCode"),
+                "retryAttempt": self.gemini_event.get("attempt"),
+                "retryMaxAttempts": self.gemini_event.get("maxAttempts"),
+                "retryDelaySeconds": self.gemini_event.get("retryDelaySeconds"),
+                "previousModel": self.gemini_event.get("previousModel"),
+            })
         if current_chunk is not None:
             base["currentChunk"] = current_chunk
         if total_chunks is not None:
             base["totalChunks"] = total_chunks
         self.progress.emit(base, force=force)
+
+    def _on_gemini_event(self, event: dict[str, Any]) -> None:
+        self.gemini_event.update(event)
+        kind = str(event.get("event", ""))
+        if kind == "MODEL_FALLBACK":
+            self._emit_progress("MODEL_FALLBACK", str(event.get("message", "다음 무료 모델로 전환했습니다.")), force=True)
+            return
+        if kind == "RETRY":
+            status = event.get("statusCode", "-")
+            attempt = event.get("attempt", 0)
+            maximum = event.get("maxAttempts", 0)
+            delay = event.get("retryDelaySeconds", 0)
+            self._emit_progress("GEMINI_RETRY", f"Gemini HTTP {status} · 재시도 {attempt}/{maximum} · {delay}초 후 다시 시도", force=True)
 
     def _save_checkpoint(self, book_id: str, checksum: str, versions: dict, classification: dict, analyses: list[dict], total: int) -> None:
         self.checkpoints.save(book_id, {

@@ -41,7 +41,7 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     status = IndexPipeline(settings, drive, gemini, progress=progress).run(args.folder_id, args.recursive, args.force, args.profile)
     logging.info("Final status: %s", status["status"])
-    return 0 if status["status"] in {"COMPLETE", "PAUSED_RATE_LIMIT"} else 1
+    return 0 if status["status"] in {"COMPLETE", "PAUSED_RATE_LIMIT", "PAUSED_SERVICE_UNAVAILABLE"} else 1
 
 
 if __name__ == "__main__":
