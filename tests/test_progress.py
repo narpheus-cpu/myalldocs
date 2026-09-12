@@ -71,7 +71,7 @@ def test_monitor_distinguishes_service_pause_and_real_completion_progress():
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
     assert 'id="activity-log" class="activity-log"' in html
     assert "<ol id=\"activity-log\"" not in html
-    for phrase in ("PAUSED_SERVICE_UNAVAILABLE", "GEMINI_RETRY", "MODEL_FALLBACK", "apiRequestAttempts", "Gemini 호출 시도"):
+    for phrase in ("PAUSED_SERVICE_UNAVAILABLE", "GEMINI_RETRY", "MODEL_FALLBACK", "apiRequestAttempts", "Gemini 호출 시도", "state.lastStatus", "saved.errors", "data/job-status.json?status="):
         assert phrase in script
     assert "resolved/total*100" in script
     assert "index/total*100" not in script

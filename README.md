@@ -43,6 +43,7 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 - 사용자 설정 RPM/TPM/실행 예산, safety margin, `Retry-After`, 지수 backoff+jitter, circuit breaker
 - Gemini 무료 quota 또는 자체 실행 예산 중단 시 checkpoint와 `PAUSED_RATE_LIMIT`, 다음 실행에서 미완료 chunk부터 재개
 - Gemini `503`은 quota로 오인하지 않고 재시도 후 다른 승인된 무료 모델로 최대 2회 전환, 모두 일시 장애면 `PAUSED_SERVICE_UNAVAILABLE`
+- Gemini가 문법이 깨진 JSON을 반환하면 엄격한 JSON 지시로 자동 재요청하고 다음 무료 모델까지 시도
 - Drive 호출 quota-unit·다운로드 byte 자체 예산, Drive 403/429 시 추가 과금 없이 `PAUSED_RATE_LIMIT`
 - 인덱싱 화면에서 Gemini API Key를 교체해 Apps Script의 비공개 Script Properties에 저장하고 다음 실행부터 적용
 - 현재/이전/시도 모델·HTTP 상태·재시도 횟수와 대기·책 파일명·실제 완료율·파일/청크 순서·성공/실패 호출·토큰·Drive 사용량을 5초 간격으로 보여 주는 인증된 실시간 모니터
@@ -393,6 +394,10 @@ Gemini 공식 가격표와 모델 목록 양쪽에서 **Free Tier + stable + `ge
 ### `PAUSED_SERVICE_UNAVAILABLE`
 
 무료 한도 소진이 아니라 Gemini 서버가 일시적으로 응답할 수 없다는 뜻입니다. 프로그램은 backoff 재시도와 허용된 무료 모델 fallback을 먼저 마친 상태입니다. 결제하거나 키를 바꾸지 말고 잠시 뒤 같은 folder ID로 다시 실행하세요. 저장된 checkpoint부터 이어집니다.
+
+### `ERROR`와 JSON 문법 오류
+
+Gemini가 드물게 쉼표·따옴표가 빠진 JSON을 보내면 같은 무료 모델에 엄격한 JSON 형식으로 다시 요청하고, 계속 깨지면 다음 허용 무료 모델을 한 번 시도합니다. 그래도 복구되지 않으면 실제 오류 위치만 표시하고 응답 전문이나 원문은 로그에 남기지 않습니다. 이때도 마지막으로 성공한 청크까지 즉시 checkpoint에 저장되므로 다음 실행에서 해당 지점부터 이어집니다.
 
 ### 401/403
 

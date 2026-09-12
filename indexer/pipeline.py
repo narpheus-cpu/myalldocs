@@ -67,6 +67,7 @@ class IndexPipeline:
         errors: list[dict] = []
         pause_status = ""
         for index, book in enumerate(books):
+            book_error_message = ""
             self.current_file_name = book.name
             self.current_file_index = index + 1
             self._emit_progress("STARTING_BOOK", "다음 책 처리를 시작합니다.", force=True)
@@ -100,14 +101,20 @@ class IndexPipeline:
             except Exception as exc:  # one corrupt book must not destroy the run
                 LOG.exception("Failed to index %s", book.name)
                 counts["failed"] += 1
-                errors.append({"driveFileId": book.id, "filename": book.name, "error": str(exc)[:500]})
-                self._emit_progress("BOOK_ERROR", str(exc)[:300], force=True)
+                error_text = str(exc)[:500]
+                errors.append({"driveFileId": book.id, "filename": book.name, "error": error_text})
+                status["message"] = f"책 처리 오류: {error_text}"
+                status["lastError"] = error_text
+                book_error_message = status["message"]
             counts["processedChunks"] = self.chunks_this_run
             status.update(counts)
             status["currentFileIndex"] = index + 1
             status["currentFileName"] = book.name
             self._save_job(status)
-            self._emit_progress("BOOK_FINISHED", "책 처리가 끝났습니다.", force=True)
+            if book_error_message:
+                self._emit_progress("BOOK_ERROR", book_error_message, force=True)
+            else:
+                self._emit_progress("BOOK_FINISHED", "책 처리가 끝났습니다.", force=True)
 
         counts["processedChunks"] = self.chunks_this_run
         all_complete = not pause_status and counts["failed"] == 0 and counts["complete"] + counts["skipped"] == len(books)
@@ -115,6 +122,7 @@ class IndexPipeline:
         status.update(counts)
         status.update({
             "status": final_status,
+            "phase": final_status,
             "allTargetsComplete": all_complete,
             "errors": errors,
             "model": self.gemini.model_name,
@@ -125,6 +133,7 @@ class IndexPipeline:
             "attemptedModels": self.gemini.attempted_models,
             "modelSwitchCount": self.gemini.model_switch_count,
             "lastModelError": self.gemini.last_model_error,
+            "invalidJsonResponses": self.gemini.invalid_json_responses,
             "inputTokens": self.gemini.rate_limiter.usage.input_tokens,
             "outputTokens": self.gemini.rate_limiter.usage.output_tokens,
             "driveQuotaUnits": self.drive.quota.usage.quota_units,
@@ -206,7 +215,7 @@ class IndexPipeline:
             self._emit_progress("ANALYZING_CHUNK", "원문 구간을 분석하고 있습니다.", int(chunk["chunkId"]), len(chunks))
             try:
                 analysis = self.gemini.generate_json(analyze_chunk(chunk, profile))
-            except (SafePause, NoSupportedModel):
+            except Exception:
                 self._save_checkpoint(book_id, checksum, versions, classification, analyses, len(chunks))
                 raise
             if not isinstance(analysis, dict):
@@ -229,7 +238,7 @@ class IndexPipeline:
                     next_level.append(item)
                 level = next_level
             final_analysis = self.gemini.generate_json(synthesize(level, profile, True))
-        except (SafePause, NoSupportedModel):
+        except Exception:
             self._save_checkpoint(book_id, checksum, versions, classification, analyses, len(chunks))
             raise
         if not isinstance(final_analysis, dict):
@@ -308,6 +317,7 @@ class IndexPipeline:
             "attemptedModels": self.gemini.attempted_models,
             "modelSwitchCount": self.gemini.model_switch_count,
             "lastModelError": self.gemini.last_model_error,
+            "invalidJsonResponses": self.gemini.invalid_json_responses,
             "inputTokens": usage.input_tokens,
             "outputTokens": usage.output_tokens,
             "driveQuotaUnits": self.drive.quota.usage.quota_units,
@@ -339,6 +349,11 @@ class IndexPipeline:
             maximum = event.get("maxAttempts", 0)
             delay = event.get("retryDelaySeconds", 0)
             self._emit_progress("GEMINI_RETRY", f"Gemini HTTP {status} · 재시도 {attempt}/{maximum} · {delay}초 후 다시 시도", force=True)
+            return
+        if kind == "INVALID_JSON_RETRY":
+            self.gemini_event["statusCode"] = None
+            self.gemini_event["retryDelaySeconds"] = None
+            self._emit_progress("INVALID_JSON_RETRY", str(event.get("message", "JSON 응답 문법 오류를 자동 복구하고 있습니다.")), force=True)
 
     def _save_checkpoint(self, book_id: str, checksum: str, versions: dict, classification: dict, analyses: list[dict], total: int) -> None:
         self.checkpoints.save(book_id, {
