@@ -50,3 +50,10 @@ def test_existing_remote_install_skips_git_copy_and_push_step():
     assert "/contents/indexer/main.py?ref=main" in source
     assert "if ($projectAlreadyInstalled)" in source
     assert "2번을 자동으로 건너뜁니다" in source
+
+
+def test_pages_already_enabled_is_success_not_setup_failure():
+    source = (ROOT / "setup" / "beginner-setup.ps1").read_text(encoding="utf-8-sig")
+    assert "'/pages') --silent" in source
+    assert "if (-not $pagesReady)" in source
+    assert "GitHub Pages 준비 완료" in source
