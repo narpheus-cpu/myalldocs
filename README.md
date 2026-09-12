@@ -52,6 +52,7 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 - source 변경, schema/prompt/profile/parser 버전 변경 감지와 멱등 skip
 - 소설·학술·철학·역사·과학기술·에세이·실용·희곡·시·혼합 문집별 분석 profile
 - manifest의 `tabs`로 상세 메뉴를 동적 생성하는 Pages UI
+- 전체 도서는 게시판형 목록으로 표시하고, 책마다 manifest·전체 요약·구간별 요약·분석·연대기·관계를 합친 UTF-8 TXT 다운로드 제공
 - GitHub Actions 데이터 commit, Actions Summary, Pages 배포
 - 선택 폴더의 모든 TXT/EPUB가 `COMPLETE`일 때만 Apps Script가 `narepheus@gmail.com`으로 완료 메일 발송
 - 빠른 중복 클릭은 브라우저와 Apps Script 잠금으로 차단하고, 대기 실행도 최신 `main`에서 완료 책을 확인해 재분석하지 않음
@@ -266,6 +267,8 @@ GitHub fine-grained token은 이 저장소 하나만 선택하고 Actions: Read 
 6. 주소는 일반적으로 `https://narpheus-cpu.github.io/myalldocs/`입니다.
 
 Public 저장소의 standard GitHub-hosted runner와 GitHub Pages 무료 사용만 전제로 합니다. larger runner를 만들거나 workflow의 `runs-on`을 larger runner label로 바꾸지 마세요.
+
+웹페이지는 인덱싱을 실행하는 컴퓨터가 아니라 상태를 보여주는 화면입니다. 새로고침하거나 브라우저를 닫아도 GitHub Actions의 인덱싱은 계속되고, 다시 인덱싱 화면에서 모니터를 연결하면 최신 상태를 불러옵니다. **검색**은 검색어와 일치하는 책만 찾고, **전체 도서 목록**은 완료된 모든 책을 유형별로 확인하는 게시판입니다.
 
 ## 9. 첫 실행
 
