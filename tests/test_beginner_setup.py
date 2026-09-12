@@ -27,3 +27,11 @@ def test_setup_wizard_rejects_private_repository_and_starts_first_run():
     assert "if ($repoInfo.isPrivate)" in source
     assert "workflow', 'run', 'index-books.yml'" in source
     assert "folder_id=" in source
+
+
+def test_setup_wizard_preserves_existing_remote_and_never_force_pushes():
+    source = (ROOT / "setup" / "beginner-setup.ps1").read_text(encoding="utf-8-sig")
+    assert "New-ConnectedWorkingCopy" in source
+    assert "git clone --branch main" in source
+    assert "(Join-Path $SourceRoot 'data')" in source
+    assert "--force" not in source

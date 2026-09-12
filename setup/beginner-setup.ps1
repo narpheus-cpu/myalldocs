@@ -47,6 +47,39 @@ function Invoke-Gh([string[]]$Arguments, [string]$FailureMessage) {
     if ($LASTEXITCODE -ne 0) { throw $FailureMessage }
 }
 
+function New-ConnectedWorkingCopy([string]$SourceRoot, [string]$RemoteUrl) {
+    $parent = Split-Path -Parent $SourceRoot
+    $target = Join-Path $parent 'myalldocs-connected'
+    if (Test-Path -LiteralPath $target) {
+        $target = Join-Path $parent ('myalldocs-connected-' + (Get-Date -Format 'yyyyMMdd-HHmmss'))
+    }
+    Write-Host 'GitHub의 기존 파일을 먼저 안전한 새 폴더로 내려받습니다.' -ForegroundColor Yellow
+    & git clone --branch main --single-branch $RemoteUrl $target
+    if ($LASTEXITCODE -ne 0) { throw 'GitHub 기존 파일을 내려받지 못했습니다.' }
+
+    # Existing indexed data and browser configuration belong to the user. Keep the
+    # remote copies while overlaying application files from this installer.
+    & robocopy.exe $SourceRoot $target /E /XD `
+        (Join-Path $SourceRoot '.git') `
+        (Join-Path $SourceRoot 'data') `
+        (Join-Path $SourceRoot '.venv') `
+        (Join-Path $SourceRoot '.venv-run') `
+        (Join-Path $SourceRoot '.runtime-tmp') `
+        (Join-Path $SourceRoot '.test-tmp') `
+        /XF (Join-Path $SourceRoot 'config\public-config.js') `
+        /NFL /NDL /NJH /NJS /NP
+    if ($LASTEXITCODE -gt 7) { throw '프로젝트 파일을 안전한 새 폴더로 복사하지 못했습니다.' }
+    if (-not (Test-Path -LiteralPath (Join-Path $target 'data'))) {
+        Copy-Item -LiteralPath (Join-Path $SourceRoot 'data') -Destination (Join-Path $target 'data') -Recurse
+    }
+    $publicConfig = Join-Path $target 'config\public-config.js'
+    if (-not (Test-Path -LiteralPath $publicConfig)) {
+        Copy-Item -LiteralPath (Join-Path $SourceRoot 'config\public-config.js') -Destination $publicConfig
+    }
+    Write-Host ('기존 파일을 보존한 연결 폴더: ' + $target) -ForegroundColor Green
+    return $target
+}
+
 Write-Title '서재 지도 초보자용 처음 설정'
 Write-Host '이 창이 GitHub의 비밀값 등록과 첫 실행을 대신 처리합니다.'
 Write-Host 'API 키와 JSON 내용을 프로젝트 파일이나 로그에 복사하지 않습니다.'
@@ -86,13 +119,45 @@ if ($repoInfo.isPrivate) {
 Write-Host ('확인 완료: ' + $repoInfo.nameWithOwner + ' (Public)') -ForegroundColor Green
 
 Write-Title '2/5  프로젝트를 GitHub에 올리기'
-if (-not (Test-Path -LiteralPath (Join-Path $ProjectRoot '.git'))) {
+$remoteUrl = 'https://github.com/' + $repository + '.git'
+$remoteHead = & git ls-remote --heads $remoteUrl refs/heads/main 2>$null
+if ($LASTEXITCODE -ne 0) { Stop-Friendly 'GitHub 저장소 내용을 확인하지 못했습니다.' }
+
+if ($remoteHead) {
+    $canUseCurrent = $false
+    if (Test-Path -LiteralPath (Join-Path $ProjectRoot '.git')) {
+        $currentOrigin = & git remote get-url origin 2>$null
+        if ($LASTEXITCODE -eq 0 -and $currentOrigin -match [regex]::Escape($repository)) {
+            & git fetch origin main
+            if ($LASTEXITCODE -eq 0) {
+                & git merge-base --is-ancestor origin/main HEAD
+                if ($LASTEXITCODE -eq 0) {
+                    $canUseCurrent = $true
+                } else {
+                    & git merge-base --is-ancestor HEAD origin/main
+                    if ($LASTEXITCODE -eq 0) {
+                        & git pull --ff-only origin main
+                        $canUseCurrent = ($LASTEXITCODE -eq 0)
+                    }
+                }
+            }
+        }
+    }
+    if (-not $canUseCurrent) {
+        try {
+            $ProjectRoot = New-ConnectedWorkingCopy $ProjectRoot $remoteUrl
+            Set-Location -LiteralPath $ProjectRoot
+        } catch {
+            Stop-Friendly $_.Exception.Message
+        }
+    }
+} elseif (-not (Test-Path -LiteralPath (Join-Path $ProjectRoot '.git'))) {
     & git init -b main
     if ($LASTEXITCODE -ne 0) { Stop-Friendly '로컬 Git 저장소를 만들지 못했습니다.' }
-    & git remote add origin ('https://github.com/' + $repository + '.git')
+    & git remote add origin $remoteUrl
 }
 $origin = (& git remote get-url origin 2>$null)
-if (-not $origin) { & git remote add origin ('https://github.com/' + $repository + '.git') }
+if (-not $origin) { & git remote add origin $remoteUrl }
 $login = (& gh api user --jq .login).Trim()
 if (-not $login) { $login = 'book-indexer-user' }
 & git config user.name $login
@@ -105,7 +170,7 @@ if ($LASTEXITCODE -ne 0) {
 }
 & git push -u origin main
 if ($LASTEXITCODE -ne 0) {
-    Stop-Friendly 'GitHub 업로드에 실패했습니다. 원격 저장소에 다른 파일이 있다면 README의 도움말을 확인하세요.'
+    Stop-Friendly 'GitHub 업로드에 실패했습니다. 기존 파일은 변경되지 않았습니다.'
 }
 
 Write-Title '3/5  Google Drive 읽기 권한 준비'
