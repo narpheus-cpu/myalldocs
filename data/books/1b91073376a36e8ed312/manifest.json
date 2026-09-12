@@ -1,0 +1,122 @@
+{
+  "bookId": "1b91073376a36e8ed312",
+  "driveFileId": "1fWziIK87bsnIMesrXuM9DWk9fVJauXi0",
+  "title": "양을 쫓는 모험",
+  "author": "양을 쫓는 모험(ocr)",
+  "filename": "무라카미 하루키-양을 쫓는 모험(ocr).txt의 사본",
+  "format": "txt",
+  "documentType": "fiction",
+  "genre": "novel",
+  "classification": {
+    "documentType": "fiction",
+    "genre": "novel",
+    "confidence": 1.0,
+    "reasons": [
+      "원문의 목차와 본문 내용이 '양을 쫓는 모험'이라는 소설의 구성을 보여준다.",
+      "등장인물들의 대화, 서사적 사건(장례식, 영화관 방문 등)이 소설의 형식을 띤다.",
+      "판권 정보(지은이 무라카미 하루키, 펴낸곳 문학사상)를 통해 문학 도서(소설)임을 알 수 있다."
+    ],
+    "uncertain": false
+  },
+  "analysisProfile": "fiction",
+  "tabs": [
+    {
+      "key": "summary",
+      "label": "전체 요약"
+    },
+    {
+      "key": "sections",
+      "label": "구간별 요약"
+    },
+    {
+      "key": "characters",
+      "label": "주요 등장인물"
+    },
+    {
+      "key": "relationships",
+      "label": "인물 관계 변화"
+    },
+    {
+      "key": "settings",
+      "label": "배경 변화"
+    },
+    {
+      "key": "conflicts",
+      "label": "갈등 변화"
+    },
+    {
+      "key": "plot",
+      "label": "사건·플롯"
+    },
+    {
+      "key": "themes",
+      "label": "주제·상징"
+    }
+  ],
+  "metadata": {
+    "title": "양을 쫓는 모험",
+    "author": "양을 쫓는 모험(ocr)",
+    "confidence": 0.56,
+    "evidence": [
+      {
+        "source": "title_page",
+        "title": "양을 쫓는 모험",
+        "weight": 0.38,
+        "detail": "본문 앞부분의 표제부 후보"
+      },
+      {
+        "source": "folder",
+        "title": "시험폴더2",
+        "weight": 0.12,
+        "detail": "시험폴더2"
+      },
+      {
+        "source": "filename",
+        "title": "무라카미 하루키",
+        "author": "양을 쫓는 모험(ocr)",
+        "weight": 0.08,
+        "detail": "무라카미 하루키-양을 쫓는 모험(ocr).txt의 사본"
+      },
+      {
+        "source": "ai_local_resolution",
+        "title": "양을 쫓는 모험",
+        "weight": 0.16,
+        "detail": "title_page evidence에서 제목이 '양을 쫓는 모험'으로 확인되며, filename evidence에서 '무라카미 하루키'가 저자로, '양을 쫓는 모험(ocr)'이 제목으로 언급되어 두 정보를 종합하여 저자를 무라카미 하루키로 식별함."
+      }
+    ],
+    "titleSource": "title_page",
+    "authorSource": "filename",
+    "conflictDetected": false,
+    "metadataStatus": "NEEDS_METADATA_REVIEW",
+    "manualOverrideApplied": false
+  },
+  "source": {
+    "modifiedTime": "2026-01-03T12:17:34.988Z",
+    "md5Checksum": "535cc8dc9ba2c6a665549127f548d278",
+    "sha256": "2f1743c68ffb0e2c76ed0f0bc513c8cdc81a18fb4470f728e5c5cd06458eff91",
+    "changeKey": "535cc8dc9ba2c6a665549127f548d278",
+    "size": "459776",
+    "mimeType": "text/plain",
+    "folderPath": [
+      "시험폴더2"
+    ],
+    "webViewLink": "https://drive.google.com/file/d/1fWziIK87bsnIMesrXuM9DWk9fVJauXi0/view?usp=drivesdk"
+  },
+  "model": {
+    "name": "gemini-3.5-flash-lite",
+    "sdk": "google-genai",
+    "selection": "runtime models.list policy"
+  },
+  "chunking": {
+    "targetCharacters": 5000,
+    "overlapCharacters": 250
+  },
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "indexStatus": "COMPLETE",
+  "indexedAt": "2026-09-12T20:55:46.091391+00:00"
+}

@@ -1,0 +1,122 @@
+{
+  "bookId": "6ee39696de19ff7d87e1",
+  "driveFileId": "1mU8aPzeuSx9IcgeBNFhlBukcmSx3CkW2",
+  "title": "바람의 노래를 들어라",
+  "author": "바람의 노래를 들어라",
+  "filename": "무라카미 하루키-바람의 노래를 들어라.txt의 사본",
+  "format": "txt",
+  "documentType": "fiction",
+  "genre": "novel",
+  "classification": {
+    "documentType": "fiction",
+    "genre": "novel",
+    "confidence": 0.95,
+    "reasons": [
+      "작품 제목 '바람의 노래를 들어라'와 작가명 '무라카미 하루키'가 명시되어 있으며, 1인칭 서술자('나')의 독백 및 인물 간의 대화, 사건 전개 등 서사적 구조가 나타남 (chunkId: 1, 9, 16)",
+      "등장인물 간의 상세한 대화와 묘사(와인을 마시며 나누는 대화, 식사, 대학 생활 등)가 소설적 형식으로 기술됨 (chunkId: 9)",
+      "작품 말미에 '이 소설은 이러한 장소로부터 시작되었다'라고 명시적으로 소설임을 언급함 (chunkId: 16)"
+    ],
+    "uncertain": false
+  },
+  "analysisProfile": "fiction",
+  "tabs": [
+    {
+      "key": "summary",
+      "label": "전체 요약"
+    },
+    {
+      "key": "sections",
+      "label": "구간별 요약"
+    },
+    {
+      "key": "characters",
+      "label": "주요 등장인물"
+    },
+    {
+      "key": "relationships",
+      "label": "인물 관계 변화"
+    },
+    {
+      "key": "settings",
+      "label": "배경 변화"
+    },
+    {
+      "key": "conflicts",
+      "label": "갈등 변화"
+    },
+    {
+      "key": "plot",
+      "label": "사건·플롯"
+    },
+    {
+      "key": "themes",
+      "label": "주제·상징"
+    }
+  ],
+  "metadata": {
+    "title": "바람의 노래를 들어라",
+    "author": "바람의 노래를 들어라",
+    "confidence": 0.56,
+    "evidence": [
+      {
+        "source": "title_page",
+        "title": "바람의 노래를 들어라",
+        "weight": 0.38,
+        "detail": "본문 앞부분의 표제부 후보"
+      },
+      {
+        "source": "folder",
+        "title": "시험폴더2",
+        "weight": 0.12,
+        "detail": "시험폴더2"
+      },
+      {
+        "source": "filename",
+        "title": "무라카미 하루키",
+        "author": "바람의 노래를 들어라",
+        "weight": 0.08,
+        "detail": "무라카미 하루키-바람의 노래를 들어라.txt의 사본"
+      },
+      {
+        "source": "ai_local_resolution",
+        "title": "바람의 노래를 들어라",
+        "weight": 0.16,
+        "detail": "title_page evidence에서 제목이 '바람의 노래를 들어라'로 확인되고, filename evidence에서 '무라카미 하루키'가 저자로 명시되어 있다. 파일명에 저자와 제목이 반대로 적혀 있는 혼동이 있으나, 본문 표제부와 파일명을 조합하여 추출하였다."
+      }
+    ],
+    "titleSource": "title_page",
+    "authorSource": "filename",
+    "conflictDetected": false,
+    "metadataStatus": "NEEDS_METADATA_REVIEW",
+    "manualOverrideApplied": false
+  },
+  "source": {
+    "modifiedTime": "2026-01-03T12:17:34.988Z",
+    "md5Checksum": "e03fa00c0bca32e9703081eb589c4180",
+    "sha256": "ae381b21d05004ddf92a9da3546a2ee9bf6517efaff653fcb4562aad0c96391e",
+    "changeKey": "e03fa00c0bca32e9703081eb589c4180",
+    "size": "122784",
+    "mimeType": "text/plain",
+    "folderPath": [
+      "시험폴더2"
+    ],
+    "webViewLink": "https://drive.google.com/file/d/1mU8aPzeuSx9IcgeBNFhlBukcmSx3CkW2/view?usp=drivesdk"
+  },
+  "model": {
+    "name": "gemini-3.5-flash-lite",
+    "sdk": "google-genai",
+    "selection": "runtime models.list policy"
+  },
+  "chunking": {
+    "targetCharacters": 5000,
+    "overlapCharacters": 250
+  },
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "indexStatus": "COMPLETE",
+  "indexedAt": "2026-09-12T19:39:07.246408+00:00"
+}

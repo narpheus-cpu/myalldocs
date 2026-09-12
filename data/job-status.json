@@ -1,75 +1,59 @@
 {
-  "status": "ERROR",
+  "status": "PAUSED_RATE_LIMIT",
   "folderId": "1w8ESxodFtotOniEvpD8m3FgcYasXNO5f",
   "folderName": "시험폴더2",
   "totalFiles": 7,
-  "startedAt": "2026-09-12T18:34:05.840573+00:00",
-  "message": "책 처리 오류: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-  "lastError": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
-  "complete": 0,
+  "startedAt": "2026-09-12T19:22:20.995826+00:00",
+  "complete": 2,
   "skipped": 0,
-  "failed": 7,
-  "metadataReview": 0,
-  "processedChunks": 2,
-  "currentFileIndex": 7,
-  "currentFileName": "은희경_타인에게 말걸기.txt의 사본",
-  "phase": "ERROR",
+  "failed": 3,
+  "metadataReview": 2,
+  "processedChunks": 99,
+  "currentFileIndex": 5,
+  "currentFileName": "무라카미 하루키-세계의 끝과 하드보일드 원더랜드 2(ocr).txt의 사본",
+  "message": "per-run request budget reached",
+  "lastError": "EOF occurred in violation of protocol (_ssl.c:2427)",
+  "phase": "PAUSED_RATE_LIMIT",
   "allTargetsComplete": false,
   "errors": [
     {
-      "driveFileId": "1mU8aPzeuSx9IcgeBNFhlBukcmSx3CkW2",
-      "filename": "무라카미 하루키-바람의 노래를 들어라.txt의 사본",
-      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
-    },
-    {
       "driveFileId": "1GS_PuKo_ItYeE0Fe-Vrtzm49nl7_iTLp",
       "filename": "무라카미 하루키-세계의 끝과 하드보일드 원더랜드 1(ocr).txt의 사본",
-      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
-    },
-    {
-      "driveFileId": "1fWziIK87bsnIMesrXuM9DWk9fVJauXi0",
-      "filename": "무라카미 하루키-양을 쫓는 모험(ocr).txt의 사본",
-      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+      "error": "EOF occurred in violation of protocol (_ssl.c:2427)"
     },
     {
       "driveFileId": "1luz77iETvd3z2omOHQlCKtFvEPp-cfvZ",
       "filename": "무라카미 하루키-색채가 없는 다자키 쓰쿠루와 그가 순례를 떠난 해(ocr).txt의 사본",
-      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+      "error": "EOF occurred in violation of protocol (_ssl.c:2427)"
     },
     {
       "driveFileId": "1-EUzfLe4ueGrr8GmumS7U487-9tGucAu",
       "filename": "무라카미 하루키-세계의 끝과 하드보일드 원더랜드 2(ocr).txt의 사본",
-      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
-    },
-    {
-      "driveFileId": "1DDEsTeKPmvg_CB26YgQVuTN49N8zUTnq",
-      "filename": "은희경-새의 선물.txt의 사본",
-      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
-    },
-    {
-      "driveFileId": "1_zaNydwCMu60VGR-67WlMnPVOBs_81rg",
-      "filename": "은희경_타인에게 말걸기.txt의 사본",
-      "error": "404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}"
+      "error": "EOF occurred in violation of protocol (_ssl.c:2427)"
     }
   ],
-  "model": "gemini-2.5-flash",
-  "apiRequests": 24,
-  "apiSuccessfulRequests": 3,
-  "apiRequestAttempts": 24,
-  "apiFailedAttempts": 21,
+  "model": "gemini-3.5-flash-lite",
+  "apiRequests": 120,
+  "apiSuccessfulRequests": 111,
+  "apiRequestAttempts": 120,
+  "apiFailedAttempts": 9,
   "attemptedModels": [
     "gemini-3.8-flash",
     "gemini-3.7-flash",
     "gemini-3.6-flash",
     "gemini-3.5-flash",
-    "gemini-2.5-flash"
+    "gemini-2.5-flash",
+    "gemini-3.5-flash-lite"
   ],
-  "modelSwitchCount": 4,
-  "lastModelError": "Gemini free-tier rate limit: retries exhausted (429)",
-  "invalidJsonResponses": 0,
-  "inputTokens": 6977,
-  "outputTokens": 3766,
-  "driveQuotaUnits": 1515,
-  "driveDownloadedBytes": 3558319,
-  "finishedAt": "2026-09-12T18:40:36.063449+00:00"
+  "modelSwitchCount": 5,
+  "modelCycle": 1,
+  "maxModelCycles": 3,
+  "modelCycleRestarts": 0,
+  "lastModelError": "invalid JSON response from gemini-3.5-flash-lite: line 36, column 24",
+  "invalidJsonResponses": 3,
+  "inputTokens": 442804,
+  "outputTokens": 182388,
+  "driveQuotaUnits": 1315,
+  "driveDownloadedBytes": 2883193,
+  "finishedAt": "2026-09-12T21:30:51.203150+00:00"
 }
