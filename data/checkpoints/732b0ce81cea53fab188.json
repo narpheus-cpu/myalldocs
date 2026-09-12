@@ -1,0 +1,41 @@
+{
+  "status": "PARTIAL",
+  "sourceChecksum": "f51cec8e10c8528c96ec67019783107e8a4fdaf08be4ff17b2fd25ac792329e3",
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "classification": {
+    "documentType": "history_biography",
+    "genre": "예술가 전기 및 평전",
+    "confidence": 0.95,
+    "reasons": [
+      {
+        "sourceChunkIds": [
+          1
+        ],
+        "statement": "도서 제목이 '미로-추상과 기호의 장인'이며, 호안 푸니에트-미로와 글로리아 롤리비에르-라올라가 저술한 미술 총서(시공디스커버리총서 098) 서적으로 명시되어 있다."
+      },
+      {
+        "sourceChunkIds": [
+          9
+        ],
+        "statement": "1948년 파리로의 귀환, 1950년 대형벽화 제작, 1951년 구겐하임 미술관 주문, 1962년 및 1974년 파리 회고전 등 호안 미로의 연대기적 생애 행적과 작품 창작 과정, 예술적 발언을 서술하고 있다."
+      },
+      {
+        "sourceChunkIds": [
+          17
+        ],
+        "statement": "스페인 내전 시기(1937~1944년)의 연작, 1956년부터 1983년 사망까지의 마요르카 정착 생활, 그리고 사후 1986년 재단 설립 및 유증 과정 등 예술가의 삶과 유산에 대한 전기적·역사적 기록을 다루고 있다."
+      }
+    ],
+    "uncertain": false
+  },
+  "completedChunks": 0,
+  "totalChunks": 17,
+  "nextChunk": 1,
+  "chunkAnalyses": [],
+  "updatedAt": "2026-09-12T10:15:43.079468+00:00"
+}

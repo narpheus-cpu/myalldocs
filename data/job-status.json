@@ -1,4 +1,22 @@
 {
-  "status": "NOT_INDEXED",
-  "message": "아직 인덱싱 작업이 실행되지 않았습니다."
+  "status": "PAUSED_RATE_LIMIT",
+  "folderId": "0B5V5QxN740aYcGdReFJRTlV3WHc",
+  "folderName": "books",
+  "totalFiles": 12457,
+  "startedAt": "2026-09-12T10:14:48.696971+00:00",
+  "message": "rate limit retries exhausted (429)",
+  "complete": 0,
+  "skipped": 0,
+  "failed": 0,
+  "metadataReview": 0,
+  "processedChunks": 0,
+  "allTargetsComplete": false,
+  "errors": [],
+  "model": "gemini-3.8-flash",
+  "apiRequests": 2,
+  "inputTokens": 4067,
+  "outputTokens": 561,
+  "driveQuotaUnits": 23805,
+  "driveDownloadedBytes": 164410,
+  "finishedAt": "2026-09-12T10:15:43.080593+00:00"
 }
