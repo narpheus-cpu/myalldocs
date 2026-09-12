@@ -1,0 +1,23 @@
+{
+  "description": "Runtime policy only. Concrete available models are discovered with models.list().",
+  "allowNamePatterns": [
+    "^gemini-[0-9]+(?:\\.[0-9]+)?-(?:flash|flash-lite|pro)(?:-[0-9]{3})?$"
+  ],
+  "preferencePatterns": [
+    "^gemini-[0-9]+(?:\\.[0-9]+)?-flash$",
+    "^gemini-[0-9]+(?:\\.[0-9]+)?-flash-[0-9]{3}$",
+    "^gemini-[0-9]+(?:\\.[0-9]+)?-flash-lite$",
+    "^gemini-[0-9]+(?:\\.[0-9]+)?-pro$"
+  ],
+  "denyNameFragments": [
+    "preview",
+    "experimental",
+    "exp-",
+    "-exp",
+    "latest",
+    "deprecated",
+    "retired",
+    "legacy",
+    "vision"
+  ]
+}

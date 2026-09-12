@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "profiles": {
+    "fiction": {
+      "label": "소설",
+      "tabs": [
+        {"key": "summary", "label": "전체 요약"},
+        {"key": "sections", "label": "구간별 요약"},
+        {"key": "characters", "label": "주요 등장인물"},
+        {"key": "relationships", "label": "인물 관계 변화"},
+        {"key": "settings", "label": "배경 변화"},
+        {"key": "conflicts", "label": "갈등 변화"},
+        {"key": "plot", "label": "사건·플롯"},
+        {"key": "themes", "label": "주제·상징"}
+      ],
+      "dimensions": ["characters", "relationships", "settings", "conflicts", "plot", "themes", "symbols"]
+    },
+    "academic": {
+      "label": "학술서",
+      "tabs": [
+        {"key": "summary", "label": "전체 요약"}, {"key": "sections", "label": "구간별 요약"},
+        {"key": "concepts", "label": "주요 개념"}, {"key": "thesis", "label": "핵심 논지"},
+        {"key": "arguments", "label": "논증 구조"}, {"key": "methodology", "label": "방법론"},
+        {"key": "evidence", "label": "근거"}, {"key": "limitations", "label": "한계"}
+      ],
+      "dimensions": ["concepts", "thesis", "arguments", "methodology", "evidence", "limitations"]
+    },
+    "philosophy": {
+      "label": "철학서",
+      "tabs": [
+        {"key": "summary", "label": "전체 요약"}, {"key": "sections", "label": "구간별 요약"},
+        {"key": "concepts", "label": "주요 개념"}, {"key": "propositions", "label": "핵심 명제"},
+        {"key": "arguments", "label": "논증"}, {"key": "premises", "label": "전제"},
+        {"key": "objections", "label": "반론"}, {"key": "replies", "label": "재반론"}
+      ],
+      "dimensions": ["concepts", "propositions", "arguments", "premises", "objections", "replies"]
+    },
+    "history_biography": {
+      "label": "역사·전기",
+      "tabs": [
+        {"key": "summary", "label": "전체 요약"}, {"key": "sections", "label": "구간별 요약"},
+        {"key": "people", "label": "주요 인물"}, {"key": "events", "label": "주요 사건"},
+        {"key": "chronology", "label": "연대기"}, {"key": "causality", "label": "원인·결과"},
+        {"key": "factions", "label": "세력 관계"}
+      ],
+      "dimensions": ["people", "events", "chronology", "causality", "factions"]
+    },
+    "science_technical": {
+      "label": "과학·기술서",
+      "tabs": [
+        {"key": "summary", "label": "전체 요약"}, {"key": "sections", "label": "구간별 요약"},
+        {"key": "concepts", "label": "주요 개념"}, {"key": "principles", "label": "원리"},
+        {"key": "mechanisms", "label": "메커니즘"}, {"key": "methodology", "label": "방법론·실험"},
+        {"key": "formulas", "label": "공식"}, {"key": "dependencies", "label": "의존관계"},
+        {"key": "applications", "label": "적용"}, {"key": "limitations", "label": "한계"}
+      ],
+      "dimensions": ["concepts", "principles", "mechanisms", "methodology", "experiments", "formulas", "dependencies", "applications", "limitations"]
+    },
+    "essay_general_nonfiction": {
+      "label": "에세이·일반 논픽션",
+      "tabs": [
+        {"key": "summary", "label": "전체 요약"}, {"key": "sections", "label": "구간별 요약"},
+        {"key": "themes", "label": "주제"}, {"key": "claims", "label": "주장"},
+        {"key": "examples", "label": "사례"}, {"key": "perspective", "label": "관점 변화"},
+        {"key": "insights", "label": "통찰"}
+      ],
+      "dimensions": ["themes", "claims", "examples", "perspective", "insights"]
+    },
+    "practical_manual": {
+      "label": "실용서",
+      "tabs": [
+        {"key": "summary", "label": "전체 요약"}, {"key": "sections", "label": "구간별 요약"},
+        {"key": "principles", "label": "원칙"}, {"key": "procedures", "label": "절차"},
+        {"key": "checklists", "label": "체크리스트"}, {"key": "cautions", "label": "주의사항"},
+        {"key": "failureFactors", "label": "실패 요인"}
+      ],
+      "dimensions": ["principles", "procedures", "checklists", "cautions", "failureFactors"]
+    },
+    "drama": {
+      "label": "희곡",
+      "tabs": [
+        {"key": "summary", "label": "전체 요약"}, {"key": "sections", "label": "장면별 요약"},
+        {"key": "characters", "label": "인물"}, {"key": "scenes", "label": "장면 구성"},
+        {"key": "dialogue", "label": "대사와 극적 기능"}, {"key": "conflicts", "label": "극적 갈등"},
+        {"key": "stage", "label": "무대·연출 단서"}
+      ],
+      "dimensions": ["characters", "scenes", "dialogue", "conflicts", "stage", "themes"]
+    },
+    "poetry": {
+      "label": "시·시집",
+      "tabs": [
+        {"key": "summary", "label": "전체 개관"}, {"key": "sections", "label": "작품별·구간별"},
+        {"key": "speakers", "label": "화자"}, {"key": "imagery", "label": "이미지"},
+        {"key": "motifs", "label": "모티프"}, {"key": "form", "label": "형식·리듬"},
+        {"key": "themes", "label": "주제"}
+      ],
+      "dimensions": ["speakers", "imagery", "motifs", "form", "themes"]
+    },
+    "mixed_anthology": {
+      "label": "혼합 문집",
+      "tabs": [
+        {"key": "summary", "label": "전체 개관"}, {"key": "sections", "label": "수록작·구간"},
+        {"key": "composition", "label": "구성"}, {"key": "themes", "label": "공통 주제"},
+        {"key": "contrasts", "label": "작품 간 대비"}, {"key": "contributors", "label": "기여자"}
+      ],
+      "dimensions": ["composition", "themes", "contrasts", "contributors"]
+    },
+    "unknown": {
+      "label": "일반 문서",
+      "tabs": [
+        {"key": "summary", "label": "전체 요약"}, {"key": "sections", "label": "구간별 요약"},
+        {"key": "concepts", "label": "주요 항목"}, {"key": "structure", "label": "구조"},
+        {"key": "uncertainties", "label": "불확실성"}
+      ],
+      "dimensions": ["concepts", "structure", "uncertainties"]
+    }
+  }
+}

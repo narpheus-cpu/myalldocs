@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="Google Drive 원본과 연결된 개인 도서 지식베이스">
+  <title>서재 지도 · Personal Book Knowledge Base</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#search" aria-label="서재 지도 홈">
+      <span class="brand-mark">書</span>
+      <span><strong>서재 지도</strong><small>PERSONAL KNOWLEDGE BASE</small></span>
+    </a>
+    <nav aria-label="주 메뉴">
+      <a href="#search" data-nav="search">검색</a>
+      <a href="#browse" data-nav="browse">도서 탐색</a>
+      <a href="#indexing" data-nav="indexing">인덱싱</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="search-view" class="view hero-view">
+      <div class="hero-copy">
+        <p class="eyebrow">DRIVE TO KNOWLEDGE</p>
+        <h1>책을 찾는 데서 끝나지 않고,<br><em>맥락까지 다시 만나는 서재.</em></h1>
+        <p>원본은 Google Drive에 안전하게 두고, 여기서는 작품과 개념, 인물과 논증의 흐름을 빠르게 탐색합니다.</p>
+      </div>
+      <label class="searchbox">
+        <span aria-hidden="true">⌕</span>
+        <input id="search-input" type="search" autocomplete="off" placeholder="제목, 저자, 장르, 태그로 검색">
+        <kbd>/</kbd>
+      </label>
+      <div id="search-meta" class="search-meta" aria-live="polite"></div>
+      <div id="results" class="book-grid"></div>
+    </section>
+
+    <section id="browse-view" class="view" hidden>
+      <div class="section-heading"><div><p class="eyebrow">COLLECTION</p><h1>도서 탐색</h1></div><p id="browse-count"></p></div>
+      <div id="profile-filters" class="filters" aria-label="문서 유형 필터"></div>
+      <div id="browse-results" class="book-grid"></div>
+    </section>
+
+    <section id="detail-view" class="view" hidden>
+      <button id="detail-back" class="text-button" type="button">← 목록으로</button>
+      <div id="detail-header" class="detail-header"></div>
+      <div id="detail-tabs" class="tabs" role="tablist"></div>
+      <article id="detail-content" class="detail-content" aria-live="polite"></article>
+    </section>
+
+    <section id="indexing-view" class="view" hidden>
+      <div class="section-heading"><div><p class="eyebrow">CONTROL ROOM</p><h1>수동 인덱싱</h1></div></div>
+      <div class="admin-grid">
+        <div class="panel">
+          <span class="step">1</span><h2>Drive 폴더 선택</h2>
+          <p>[book] 아래에서 처리할 폴더를 고릅니다. 원본은 GitHub에 복사되지 않습니다.</p>
+          <button id="pick-folder" class="primary" type="button">Google Drive 폴더 선택</button>
+          <dl id="folder-info" class="facts"><div><dt>선택</dt><dd>아직 선택되지 않음</dd></div></dl>
+        </div>
+        <div class="panel">
+          <span class="step">2</span><h2>미리 확인하고 시작</h2>
+          <p>하위 폴더를 포함해 TXT/EPUB 수를 확인한 뒤 GitHub Actions를 시작합니다.</p>
+          <label class="check"><input id="recursive" type="checkbox" checked> 하위 폴더 포함</label>
+          <label class="check"><input id="force-reindex" type="checkbox"> 변경 없어도 다시 분석</label>
+          <div class="button-row"><button id="preview-index" type="button" disabled>대상 미리 보기</button><button id="start-index" class="primary" type="button" disabled>인덱싱 시작</button></div>
+          <p id="index-message" class="message" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="panel status-panel"><h2>최근 작업</h2><div id="job-status">불러오는 중…</div></div>
+    </section>
+  </main>
+
+  <template id="book-card-template">
+    <button class="book-card" type="button"><span class="format"></span><span class="book-type"></span><strong></strong><span class="author"></span><span class="tags"></span><span class="status"></span></button>
+  </template>
+  <script src="config/public-config.js"></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script src="https://apis.google.com/js/api.js" async defer></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "chunking": {
+    "targetCharacters": 5000,
+    "overlapCharacters": 250
+  },
+  "metadataResolution": {
+    "confirmationThreshold": 0.75,
+    "webVerificationEnabled": false,
+    "webVerificationThreshold": 0.75
+  },
+  "quota": {
+    "requestsPerMinute": 10,
+    "tokensPerMinute": 250000,
+    "maxRequestsPerRun": 120,
+    "maxTokensPerRun": 1000000,
+    "maxBooksPerRun": 3,
+    "maxChunksPerRun": 200,
+    "maxRuntimeMinutes": 300,
+    "safetyMargin": 0.75,
+    "maxRetries": 4,
+    "backoffBaseSeconds": 2,
+    "backoffMaxSeconds": 90,
+    "circuitBreakerFailures": 5
+  },
+  "checkpointIntervalChunks": 5,
+  "defaultProfile": "unknown",
+  "completionEmail": "narepheus@gmail.com"
+}

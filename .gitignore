@@ -1,0 +1,10 @@
+.venv/
+.venv-run/
+.runtime-tmp/
+.test-tmp/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+service-account*.json
+data/checkpoints/*.tmp

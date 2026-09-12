@@ -1,0 +1,92 @@
+name: Index books
+
+on:
+  workflow_dispatch:
+    inputs:
+      folder_id:
+        description: "Google Drive folder ID under the configured root"
+        required: true
+        type: string
+      recursive:
+        description: "Include subfolders"
+        required: true
+        default: true
+        type: boolean
+      force_reindex:
+        description: "Reindex even when source and versions are unchanged"
+        required: true
+        default: false
+        type: boolean
+      analysis_profile:
+        description: "Optional profile override (leave empty for automatic classification)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: book-indexer
+  cancel-in-progress: false
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      DRIVE_ROOT_FOLDER_ID: ${{ vars.DRIVE_ROOT_FOLDER_ID }}
+      APPS_SCRIPT_CALLBACK_URL: ${{ secrets.APPS_SCRIPT_CALLBACK_URL }}
+      APPS_SCRIPT_CALLBACK_SECRET: ${{ secrets.APPS_SCRIPT_CALLBACK_SECRET }}
+      GITHUB_PAGES_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install current supported SDKs
+        run: python -m pip install -r requirements.txt
+      - name: Run tests before indexing
+        run: python -m pytest -q
+      - name: Index or resume books
+        id: index
+        shell: bash
+        env:
+          INPUT_FOLDER_ID: ${{ inputs.folder_id }}
+          INPUT_RECURSIVE: ${{ inputs.recursive }}
+          INPUT_FORCE: ${{ inputs.force_reindex }}
+          INPUT_PROFILE: ${{ inputs.analysis_profile }}
+        run: |
+          set +e
+          args=(--folder-id "$INPUT_FOLDER_ID")
+          if [[ "$INPUT_RECURSIVE" == "false" ]]; then args+=(--no-recursive); fi
+          if [[ "$INPUT_FORCE" == "true" ]]; then args+=(--force); fi
+          if [[ -n "$INPUT_PROFILE" ]]; then args+=(--profile "$INPUT_PROFILE"); fi
+          python -m indexer.main "${args[@]}"
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+      - name: Commit durable results and checkpoints
+        shell: bash
+        run: |
+          git config user.name "book-indexer[bot]"
+          git config user.email "book-indexer[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No repository data changed."
+          else
+            git commit -m "chore(index): update book knowledge base"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+      - name: Write Actions summary
+        if: always()
+        run: python -m indexer.action_summary
+      - name: Send completion callback only after successful commit
+        if: steps.index.outputs.exit_code == '0'
+        run: python -m indexer.notify
+      - name: Preserve failure result
+        if: steps.index.outputs.exit_code != '0'
+        run: exit "${{ steps.index.outputs.exit_code }}"
