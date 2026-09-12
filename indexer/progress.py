@@ -82,8 +82,10 @@ def _safe_status(status: dict[str, Any]) -> dict[str, Any]:
         "status", "phase", "message", "model", "currentFileName",
         "currentFileIndex", "totalFiles", "currentChunk", "totalChunks",
         "complete", "skipped", "failed", "metadataReview", "processedChunks",
-        "apiRequests", "inputTokens", "outputTokens", "driveQuotaUnits",
+        "apiRequests", "apiRequestAttempts", "apiFailedAttempts", "inputTokens", "outputTokens", "driveQuotaUnits",
         "driveDownloadedBytes", "startedAt", "finishedAt", "allTargetsComplete",
+        "attemptedModels", "modelSwitchCount", "lastModelError",
+        "lastHttpStatus", "retryAttempt", "retryMaxAttempts", "retryDelaySeconds", "previousModel",
     }
     result = {key: value for key, value in status.items() if key in allowed}
     result["updatedAt"] = datetime.now(timezone.utc).isoformat()

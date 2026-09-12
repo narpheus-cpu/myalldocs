@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="dark light">
   <meta name="description" content="Google Drive 원본과 연결된 개인 도서 지식베이스">
   <title>서재 지도 · Personal Book Knowledge Base</title>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=20260913-status-fix">
 </head>
 <body>
   <header class="topbar">
@@ -90,7 +90,7 @@
         <div class="progress-track" aria-label="전체 파일 진행률"><span id="overall-progress"></span></div>
         <p id="progress-caption" class="progress-caption">상태를 불러오는 중…</p>
         <div id="job-status">불러오는 중…</div>
-        <div class="activity-wrap"><h3>최근 변화</h3><ol id="activity-log" class="activity-log"><li>모니터 연결 대기 중</li></ol></div>
+        <div class="activity-wrap"><h3>최근 변화</h3><ul id="activity-log" class="activity-log"><li>모니터 연결 대기 중</li></ul></div>
       </div>
     </section>
   </main>
@@ -101,6 +101,6 @@
   <script src="config/public-config.js?v=20260913-picker-fix"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260913-picker-fix"></script>
+  <script type="module" src="js/app.js?v=20260913-status-fix"></script>
 </body>
 </html>

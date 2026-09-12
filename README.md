@@ -42,9 +42,10 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 - preview/experimental/latest/deprecated/retired/legacy 이름 차단, 미발견 시 `NO_SUPPORTED_MODEL`
 - 사용자 설정 RPM/TPM/실행 예산, safety margin, `Retry-After`, 지수 backoff+jitter, circuit breaker
 - Gemini 무료 quota 또는 자체 실행 예산 중단 시 checkpoint와 `PAUSED_RATE_LIMIT`, 다음 실행에서 미완료 chunk부터 재개
+- Gemini `503`은 quota로 오인하지 않고 재시도 후 다른 승인된 무료 모델로 최대 2회 전환, 모두 일시 장애면 `PAUSED_SERVICE_UNAVAILABLE`
 - Drive 호출 quota-unit·다운로드 byte 자체 예산, Drive 403/429 시 추가 과금 없이 `PAUSED_RATE_LIMIT`
 - 인덱싱 화면에서 Gemini API Key를 교체해 Apps Script의 비공개 Script Properties에 저장하고 다음 실행부터 적용
-- 현재 모델·책 파일명·파일/청크 순서·단계·요청/토큰·Drive 사용량을 5초 간격으로 보여 주는 인증된 실시간 모니터
+- 현재/이전/시도 모델·HTTP 상태·재시도 횟수와 대기·책 파일명·실제 완료율·파일/청크 순서·성공/실패 호출·토큰·Drive 사용량을 5초 간격으로 보여 주는 인증된 실시간 모니터
 - Picker 설정 누락, Google SDK 로딩 실패, 인증 취소·시간초과를 화면에 명확히 표시
 - source 변경, schema/prompt/profile/parser 버전 변경 감지와 멱등 skip
 - 소설·학술·철학·역사·과학기술·에세이·실용·희곡·시·혼합 문집별 분석 profile
@@ -340,7 +341,9 @@ Gemini 모델 API는 해당 key가 연결된 프로젝트의 Billing 상태 자�
 - `safetyMargin`: 설정 한도의 실제 사용 비율
 - `maxRetries`, backoff, circuit breaker: 반복 오류 때 안전 일시정지
 
-429의 `Retry-After`가 있으면 우선 따르고, 이후 지수 backoff와 jitter를 적용합니다. 재시도 한도나 자체 예산에 닿으면 `data/checkpoints/`에 진행을 저장하고 `PAUSED_RATE_LIMIT`로 정상 종료합니다. 완료 메일은 보내지 않습니다. 다음 무료 quota reset 뒤 수동 실행은 저장된 `chunkId` 이후부터 계속합니다.
+429의 `Retry-After`가 있으면 우선 따르고, 이후 지수 backoff와 jitter를 적용합니다. 429 재시도 한도나 자체 예산에 닿으면 `data/checkpoints/`에 진행을 저장하고 `PAUSED_RATE_LIMIT`로 정상 종료합니다. 완료 메일은 보내지 않습니다. 다음 무료 quota reset 뒤 수동 실행은 저장된 `chunkId` 이후부터 계속합니다. 실패 호출도 `maxRequestsPerRun`과 화면의 호출 시도 횟수에 포함하므로 0회로 잘못 보이지 않습니다.
+
+503은 무료 quota 소진이 아니라 Gemini 서비스의 일시 과부하 또는 사용 불가로 다룹니다. 먼저 같은 모델에서 backoff 재시도하고, 계속 503이면 `models.list()`와 Free Tier 정책을 이미 통과한 다음 모델로 전환합니다. `config/model-policy.json`의 `maxServiceFallbacks` 횟수만큼 전환해도 모두 실패하면 checkpoint를 보존한 채 `PAUSED_SERVICE_UNAVAILABLE`로 끝냅니다. 모델을 바꿔 quota를 우회하는 동작은 429에는 적용하지 않습니다.
 
 Drive에도 별도 무료 안전 예산이 있습니다.
 
@@ -367,7 +370,7 @@ python -m pip install -r requirements.txt
 python -m pytest -q
 ```
 
-테스트에는 임의 생성 TXT/EPUB만 들어 있습니다. UTF-8/CP949, EPUB spine/메타데이터, 5,000자 chunk, 충돌/override, Free Tier model filtering, 웹 검색 코드 부재, Gemini/Drive 예산, 429/Retry-After/circuit breaker, 43→44 checkpoint 재개, profile fallback, catalog 멱등성, credential 문자열 부재를 검사합니다.
+테스트에는 임의 생성 TXT/EPUB만 들어 있습니다. UTF-8/CP949, EPUB spine/메타데이터, 5,000자 chunk, 충돌/override, Free Tier model filtering, 웹 검색 코드 부재, Gemini/Drive 예산, 429와 503 분리, 503 무료 모델 fallback, Retry-After/circuit breaker, 43→44 checkpoint 재개, profile fallback, catalog 멱등성, credential 문자열 부재를 검사합니다.
 
 로컬 Python이 패키지를 설치할 수 없는 제한 환경에서는 표준 라이브러리 전용 보조 실행도 가능합니다.
 
@@ -386,6 +389,10 @@ Gemini 공식 가격표와 모델 목록 양쪽에서 **Free Tier + stable + `ge
 ### `PAUSED_RATE_LIMIT`
 
 실패가 아니라 보존된 일시정지입니다. 무료 quota reset 뒤 같은 folder ID로 다시 실행합니다. Billing 연결, quota 구매·증액, key 회전은 하지 않고 `force_reindex`도 끕니다.
+
+### `PAUSED_SERVICE_UNAVAILABLE`
+
+무료 한도 소진이 아니라 Gemini 서버가 일시적으로 응답할 수 없다는 뜻입니다. 프로그램은 backoff 재시도와 허용된 무료 모델 fallback을 먼저 마친 상태입니다. 결제하거나 키를 바꾸지 말고 잠시 뒤 같은 folder ID로 다시 실행하세요. 저장된 checkpoint부터 이어집니다.
 
 ### 401/403
 
@@ -414,7 +421,7 @@ workflow는 concurrency로 한 번에 하나만 인덱싱합니다. 사람이 �
 
 ### 완료 메일이 오지 않음
 
-`data/job-status.json`에서 `status=COMPLETE`, `allTargetsComplete=true`, `failed=0`인지 확인합니다. `PARTIAL`, `PAUSED_RATE_LIMIT`, `ERROR`에서는 설계상 메일을 보내지 않습니다. Apps Script 실행 기록과 Gmail send 권한도 확인합니다.
+`data/job-status.json`에서 `status=COMPLETE`, `allTargetsComplete=true`, `failed=0`인지 확인합니다. `PARTIAL`, `PAUSED_RATE_LIMIT`, `PAUSED_SERVICE_UNAVAILABLE`, `ERROR`에서는 설계상 메일을 보내지 않습니다. Apps Script 실행 기록과 Gmail send 권한도 확인합니다.
 
 ## 15. 버전 변경과 재인덱싱
 
