@@ -23,7 +23,7 @@ def main() -> None:
         f"| 메타데이터 검토 필요 | {status.get('metadataReview', 0)} |",
         f"| 처리 chunk | {status.get('processedChunks', 0)} |",
         f"| API 호출 시도 | {status.get('apiRequestAttempts', status.get('apiRequests', 0))} |",
-        f"| API 성공/실패 | {status.get('apiRequests', 0)} / {status.get('apiFailedAttempts', 0)} |",
+        f"| API 성공/실패 | {status.get('apiSuccessfulRequests', 0)} / {status.get('apiFailedAttempts', 0)} |",
         f"| 입력/출력 token | {status.get('inputTokens', 0)} / {status.get('outputTokens', 0)} |",
         f"| Drive quota units | {status.get('driveQuotaUnits', 0)} |",
         f"| Drive 다운로드 bytes | {status.get('driveDownloadedBytes', 0)} |",

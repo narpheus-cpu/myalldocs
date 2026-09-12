@@ -58,9 +58,10 @@ def test_relay_and_workflow_connect_saved_key_and_live_progress():
 
 
 def test_safe_status_excludes_unknown_fields():
-    result = _safe_status({"status": "RUNNING", "apiRequestAttempts": 3, "attemptedModels": ["gemini-free"], "apiKey": "never", "rawText": "never"})
+    result = _safe_status({"status": "RUNNING", "apiRequestAttempts": 3, "apiSuccessfulRequests": 1, "attemptedModels": ["gemini-free"], "apiKey": "never", "rawText": "never"})
     assert result["status"] == "RUNNING"
     assert result["apiRequestAttempts"] == 3
+    assert result["apiSuccessfulRequests"] == 1
     assert result["attemptedModels"] == ["gemini-free"]
     assert "apiKey" not in result and "rawText" not in result
 

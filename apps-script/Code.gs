@@ -76,7 +76,7 @@ function handleProgress_(body) {
   var source = body.progress || {};
   var names = ['status','phase','message','model','currentFileName','currentFileIndex','totalFiles',
     'currentChunk','totalChunks','complete','skipped','failed','metadataReview','processedChunks',
-    'apiRequests','apiRequestAttempts','apiFailedAttempts','inputTokens','outputTokens','driveQuotaUnits','driveDownloadedBytes',
+    'apiRequests','apiSuccessfulRequests','apiRequestAttempts','apiFailedAttempts','inputTokens','outputTokens','driveQuotaUnits','driveDownloadedBytes',
     'attemptedModels','modelSwitchCount','lastModelError',
     'lastHttpStatus','retryAttempt','retryMaxAttempts','retryDelaySeconds','previousModel',
     'startedAt','updatedAt','finishedAt','allTargetsComplete'];
