@@ -1,22 +1,39 @@
 {
-  "status": "PAUSED_RATE_LIMIT",
+  "status": "ERROR",
   "folderId": "1H73Hsmjq5CFFUorAPnEEuV3rWatnx3_1",
   "folderName": "시험폴더1",
   "totalFiles": 1,
-  "startedAt": "2026-09-12T15:47:35.940877+00:00",
-  "message": "rate limit retries exhausted (503)",
+  "startedAt": "2026-09-12T16:17:59.340895+00:00",
   "complete": 0,
   "skipped": 0,
-  "failed": 0,
+  "failed": 1,
   "metadataReview": 0,
-  "processedChunks": 1,
+  "processedChunks": 18,
+  "currentFileIndex": 1,
+  "currentFileName": "헤밍웨이-노인과바다.txt",
   "allTargetsComplete": false,
-  "errors": [],
-  "model": "gemini-3.8-flash",
-  "apiRequests": 2,
-  "inputTokens": 8205,
-  "outputTokens": 2540,
+  "errors": [
+    {
+      "driveFileId": "18k0Bwiw6Cz9zL7v9cKrIMxZQlUIqMGlQ",
+      "filename": "헤밍웨이-노인과바다.txt",
+      "error": "Expecting ',' delimiter: line 33 column 20 (char 1345)"
+    }
+  ],
+  "model": "gemini-3.6-flash",
+  "apiRequests": 29,
+  "apiSuccessfulRequests": 19,
+  "apiRequestAttempts": 29,
+  "apiFailedAttempts": 10,
+  "attemptedModels": [
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
+    "gemini-3.6-flash"
+  ],
+  "modelSwitchCount": 2,
+  "lastModelError": "Gemini service temporarily unavailable: retries exhausted (503)",
+  "inputTokens": 56779,
+  "outputTokens": 29123,
   "driveQuotaUnits": 315,
   "driveDownloadedBytes": 149335,
-  "finishedAt": "2026-09-12T15:50:10.641519+00:00"
+  "finishedAt": "2026-09-12T16:31:36.174108+00:00"
 }
