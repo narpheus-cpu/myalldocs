@@ -1,0 +1,112 @@
+{
+  "bookId": "8681b5d12cced2e7b5d0",
+  "driveFileId": "1h0fRTsvJQN-9t2lroFuYYteHj4tkS6qw",
+  "title": "L-00212:::고대 그리스 세계",
+  "author": "저자 미상",
+  "filename": "시험.txt",
+  "format": "txt",
+  "documentType": "history_biography",
+  "genre": "역사",
+  "classification": {
+    "documentType": "history_biography",
+    "genre": "역사",
+    "confidence": 0.95,
+    "reasons": [
+      "고대 그리스, 에게해 문명, 스파르타, 아테네의 역사적 서술과 시대 구분(청동기시대, 상고기, 고전기 등)을 다루고 있다 (chunkId: 1, 3, 4).",
+      "그리스-페르시아 전쟁, 펠로폰네소스 전쟁 등 주요 역사적 사건과 정치 제도의 변천사를 객관적으로 서술하고 있다 (chunkId: 1, 3, 4)."
+    ],
+    "uncertain": false
+  },
+  "analysisProfile": "history_biography",
+  "tabs": [
+    {
+      "key": "summary",
+      "label": "전체 요약"
+    },
+    {
+      "key": "sections",
+      "label": "구간별 요약"
+    },
+    {
+      "key": "people",
+      "label": "주요 인물"
+    },
+    {
+      "key": "events",
+      "label": "주요 사건"
+    },
+    {
+      "key": "chronology",
+      "label": "연대기"
+    },
+    {
+      "key": "causality",
+      "label": "원인·결과"
+    },
+    {
+      "key": "factions",
+      "label": "세력 관계"
+    }
+  ],
+  "metadata": {
+    "title": "L-00212:::고대 그리스 세계",
+    "author": "저자 미상",
+    "confidence": 0.267,
+    "evidence": [
+      {
+        "source": "title_page",
+        "title": "L-00212:::고대 그리스 세계",
+        "weight": 0.38,
+        "detail": "본문 앞부분의 표제부 후보"
+      },
+      {
+        "source": "folder",
+        "title": "시험폴더3",
+        "weight": 0.12,
+        "detail": "시험폴더3"
+      },
+      {
+        "source": "filename",
+        "title": "시험",
+        "weight": 0.08,
+        "detail": "시험.txt"
+      },
+      {
+        "source": "ai_local_resolution",
+        "title": "L-00212:::고대 그리스 세계",
+        "weight": 0.16,
+        "detail": "제공된 정보 중 title_page의 가중치(0.38)가 가장 높으며 본문 표제부 후보이므로 이를 제목으로 선정했습니다. 파일명 및 폴더명은 지침상 우선순위가 낮으며 명칭이 달라 갈등(conflict)이 감지되었습니다. 저자 정보는 증거 항목에 존재하지 않아 null로 처리했습니다."
+      }
+    ],
+    "titleSource": "title_page",
+    "authorSource": "unknown",
+    "conflictDetected": false,
+    "metadataStatus": "NEEDS_METADATA_REVIEW",
+    "manualOverrideApplied": false
+  },
+  "source": {
+    "modifiedTime": "2026-09-12T17:40:19.000Z",
+    "md5Checksum": "ac9d4d35631b2ff6a000894352e81e13",
+    "sha256": "75ab7d8e3304e22347fcf82735c1702d514b06036e5a6d37025255e833f5cd76",
+    "changeKey": "ac9d4d35631b2ff6a000894352e81e13",
+    "size": "34666",
+    "mimeType": "text/plain",
+    "folderPath": [
+      "시험폴더3"
+    ],
+    "webViewLink": "https://drive.google.com/file/d/1h0fRTsvJQN-9t2lroFuYYteHj4tkS6qw/view?usp=drivesdk"
+  },
+  "model": {
+    "name": "gemini-3.5-flash",
+    "sdk": "google-genai",
+    "selection": "runtime models.list policy"
+  },
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "indexStatus": "COMPLETE",
+  "indexedAt": "2026-09-12T17:51:55.856946+00:00"
+}
