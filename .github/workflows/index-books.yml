@@ -59,6 +59,10 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
+      - name: Report workflow start to the indexing screen
+        env:
+          INPUT_FOLDER_ID: ${{ inputs.folder_id }}
+        run: python -m indexer.workflow_status start
       - name: Install current supported SDKs
         run: python -m pip install -r requirements.txt
       - name: Run tests before indexing
@@ -94,6 +98,11 @@ jobs:
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
+      - name: Report setup or test failure to the indexing screen
+        if: failure() && steps.index.outcome == 'skipped'
+        env:
+          INPUT_FOLDER_ID: ${{ inputs.folder_id }}
+        run: python -m indexer.workflow_status error
       - name: Write Actions summary
         if: always()
         run: python -m indexer.action_summary

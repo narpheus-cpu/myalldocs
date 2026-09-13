@@ -46,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260913-auth-before-dialog" in html
+    assert "js/app.js?v=20260913-tags-folder-summary" in html
 
 
 def test_library_is_a_board_list_with_integrated_txt_download():
@@ -68,7 +68,7 @@ def test_monochrome_reader_controls_and_drive_only_raw_chunk_popup():
     styles = (ROOT / "assets" / "styles.css").read_text(encoding="utf-8")
     for element_id in ("font-smaller", "font-larger", "line-tighter", "line-looser", "toggle-evidence", "chunk-select", "chunk-dialog", "copy-chunk"):
         assert f'id="{element_id}"' in html
-    for phrase in ("loadDriveChunks", "openSelectedChunk", "navigator.clipboard.writeText", "sourceChunks:new Map", "appendEvidence", "첫 번째"):
+    for phrase in ("loadDriveChunks", "openSelectedChunk", "navigator.clipboard.writeText", "sourceChunks:new Map", "appendEvidence", "sectionLabel"):
         assert phrase in script
     assert "www.googleapis.com/drive/v3/files/" in source_reader
     assert "Authorization: `Bearer ${accessToken}`" in source_reader
@@ -85,9 +85,12 @@ def test_report_renderer_hides_description_label_and_uses_korean_sections():
     prompts = (ROOT / "indexer" / "prompts.py").read_text(encoding="utf-8")
     assert 'if(k==="description"||k==="keyPoints"){appendValue' in script
     assert 'description:"설명"' not in script
-    assert '`${chunkId}. ${ordinal(chunkId)} 구간' in script
-    assert '`${index+1}. ${title||`${ordinal(sourceId)} 구간`}`' in script
+    assert '`${sectionLabel(chunkId)}' in script
+    assert 'function sectionLabel(value){return`제${Number(value).toLocaleString("ko-KR")}구간`}' in script
+    assert "열여섯 번째 구간" not in script
     assert "summaryLong은 반드시 다음과 같은 한국어 마크다운 개조식 요약보고서" in prompts
+    assert "여러 구간의 내용을 연관된 사건·논점·변화 단위로 재분류" in prompts
+    assert 'detailedSummary:data.summary?.summaryLong' in script
     assert "번호 제목과 하이픈 목록" in prompts
 
 
@@ -149,12 +152,14 @@ def test_metadata_editor_persists_manual_override_through_authorized_relay():
     html = (ROOT / "index.html").read_text(encoding="utf-8")
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
     relay = (ROOT / "apps-script" / "Code.gs").read_text(encoding="utf-8")
-    for element_id in ("metadata-dialog", "metadata-title", "metadata-author", "metadata-genre", "metadata-profile", "save-metadata"):
+    for element_id in ("metadata-dialog", "metadata-title", "metadata-author", "metadata-genre", "metadata-profile", "metadata-tags", "save-metadata"):
         assert f'id="{element_id}"' in html
     for phrase in ("작품 정보 편집", 'route:"update-metadata"', "applyMetadataOverride", "data/metadata-overrides.json"):
         assert phrase in script
     for phrase in ("updateMetadata_", "assertAuthorizedUser_", "assertFileWithinRoot_", "data/metadata-overrides.json", "document.byDriveFileId[driveFileId] = override"):
         assert phrase in relay
+    assert "normalizeTags_(raw.tags)" in relay
+    assert 'tags:uniqueTags($("#metadata-tags").value.split' in script
 
 
 def test_relay_and_workflow_connect_saved_key_and_live_progress():
@@ -166,6 +171,8 @@ def test_relay_and_workflow_connect_saved_key_and_live_progress():
     assert "GmailApp" not in relay
     assert "mimeType === 'text/plain'" in relay
     assert "python -m indexer.runtime_secret" in workflow
+    assert "python -m indexer.workflow_status start" in workflow
+    assert "python -m indexer.workflow_status error" in workflow
 
 
 def test_duplicate_dispatch_is_blocked_in_browser_relay_and_workflow_checkout_is_fresh():
@@ -187,12 +194,22 @@ def test_index_completion_explicitly_triggers_pages_and_email_can_be_retried():
 
 
 def test_safe_status_excludes_unknown_fields():
-    result = _safe_status({"status": "RUNNING", "apiRequestAttempts": 3, "apiSuccessfulRequests": 1, "attemptedModels": ["gemini-free"], "apiKey": "never", "rawText": "never"})
+    result = _safe_status({"status": "RUNNING", "folderId": "folder-1", "folderName": "책", "apiRequestAttempts": 3, "apiSuccessfulRequests": 1, "attemptedModels": ["gemini-free"], "apiKey": "never", "rawText": "never"})
     assert result["status"] == "RUNNING"
     assert result["apiRequestAttempts"] == 3
     assert result["apiSuccessfulRequests"] == 1
     assert result["attemptedModels"] == ["gemini-free"]
+    assert result["folderId"] == "folder-1" and result["folderName"] == "책"
     assert "apiKey" not in result and "rawText" not in result
+
+
+def test_current_folder_and_stale_queue_are_recovered_after_refresh():
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    relay = (ROOT / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    for phrase in ("syncFolderFromStatus", "setSelectedFolder", "reconcileQueuedStatus", "githubRepository", "folderName:state.selectedFolder.name"):
+        assert phrase in script or phrase in (ROOT / "config" / "public-config.js").read_text(encoding="utf-8")
+    for phrase in ("folderId","folderName","latestIndexRun_","previous[name]"):
+        assert phrase in relay
 
 
 def test_monitor_distinguishes_service_pause_and_real_completion_progress():

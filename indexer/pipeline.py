@@ -4,6 +4,7 @@ import hashlib
 import json
 import logging
 import os
+import re
 import time
 from dataclasses import asdict
 from datetime import datetime, timezone
@@ -35,7 +36,8 @@ GENRE_LABELS = {
     "history_biography": "역사·전기", "science": "과학",
     "science_technical": "과학·기술", "essay": "에세이",
     "essay_general_nonfiction": "에세이·일반 논픽션", "practical_manual": "실용",
-    "mixed_anthology": "혼합 문집", "unknown": "미분류",
+    "mixed_anthology": "혼합 문집", "growth_novel": "성장소설",
+    "cookbook": "요리", "cooking": "요리", "unknown": "미분류",
 }
 
 
@@ -192,7 +194,7 @@ class IndexPipeline:
         threshold = float(self.settings.metadata.get("confirmationThreshold", 0.75))
         metadata = resolve_metadata(evidence, threshold, overrides)
         if not metadata.manualOverrideApplied and (metadata.metadataStatus == "NEEDS_METADATA_REVIEW" or metadata.conflictDetected):
-            ai_choice = self.gemini.generate_json(resolve_local_metadata([item.to_dict() for item in evidence]))
+            ai_choice = self.gemini.generate_json(resolve_local_metadata([item.to_dict() for item in evidence]), expected_type=dict)
             if isinstance(ai_choice, dict):
                 title = _validated_candidate(ai_choice.get("title"), evidence, "title")
                 author = _validated_candidate(ai_choice.get("author"), evidence, "author")
@@ -219,7 +221,7 @@ class IndexPipeline:
         classification = checkpoint.get("classification") if checkpoint_valid else None
         if not classification:
             self._emit_progress("CLASSIFYING", "문서 유형과 분석 방식을 선택하고 있습니다.", 0, len(chunks), True)
-            classification = self.gemini.generate_json(classify_document(excerpts))
+            classification = self.gemini.generate_json(classify_document(excerpts), expected_type=dict)
         manual_profile = profile_override or overrides.get("documentType")
         profile_name, profile = choose_profile(classification, self.settings.profiles, manual_profile)
 
@@ -234,7 +236,7 @@ class IndexPipeline:
             self._check_runtime()
             self._emit_progress("ANALYZING_CHUNK", "원문 구간을 분석하고 있습니다.", int(chunk["chunkId"]), len(chunks))
             try:
-                analysis = self.gemini.generate_json(analyze_chunk(chunk, profile))
+                analysis = self.gemini.generate_json(analyze_chunk(chunk, profile), expected_type=dict)
             except Exception:
                 self._save_checkpoint(book_id, checksum, versions, classification, analyses, len(chunks))
                 raise
@@ -254,10 +256,10 @@ class IndexPipeline:
             while len(level) > 20:
                 next_level: list[dict] = []
                 for offset in range(0, len(level), 20):
-                    item = self.gemini.generate_json(synthesize(level[offset:offset + 20], profile, False))
+                    item = self.gemini.generate_json(synthesize(level[offset:offset + 20], profile, False), expected_type=dict)
                     next_level.append(item)
                 level = next_level
-            final_analysis = self.gemini.generate_json(synthesize(level, profile, True))
+            final_analysis = self.gemini.generate_json(synthesize(level, profile, True), expected_type=dict)
         except Exception:
             self._save_checkpoint(book_id, checksum, versions, classification, analyses, len(chunks))
             raise
@@ -265,6 +267,9 @@ class IndexPipeline:
             raise ValueError("Gemini synthesis was not an object")
 
         self._emit_progress("SAVING", "분석 결과를 저장하고 있습니다.", len(chunks), len(chunks), True)
+        content_genre = inferred_genre(classification, profile_name)
+        genre = korean_genre(overrides.get("genre"), profile_name) if overrides.get("genre") else content_genre
+        tags = catalog_tags(content_genre, book.folderPath, classification, final_analysis, overrides.get("tags") if "tags" in overrides else None)
         manifest = {
             "bookId": book_id,
             "driveFileId": book.id,
@@ -273,7 +278,9 @@ class IndexPipeline:
             "filename": book.name,
             "format": parsed.format,
             "documentType": profile_name,
-            "genre": korean_genre(classification.get("genre"), profile_name),
+            "genre": genre,
+            "contentGenre": content_genre,
+            "tags": tags,
             "classification": classification,
             "analysisProfile": profile_name,
             "tabs": profile["tabs"],
@@ -305,7 +312,7 @@ class IndexPipeline:
         })
         self.storage.update_catalog({
             "bookId": book_id, "driveFileId": book.id, "title": metadata.title, "author": metadata.author,
-            "documentType": profile_name, "genre": manifest["genre"], "tags": _catalog_tags(final_analysis),
+            "documentType": profile_name, "genre": manifest["genre"], "tags": tags,
             "format": parsed.format, "indexStatus": "COMPLETE", "metadataStatus": metadata.metadataStatus,
             "updatedAt": manifest["indexedAt"], "webViewLink": book.webViewLink,
         })
@@ -420,7 +427,55 @@ def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
-def _catalog_tags(final_analysis: dict) -> list[str]:
+def inferred_genre(classification: dict, document_type: str) -> str:
+    genre = korean_genre(classification.get("genre"), document_type)
+    if genre.casefold() in {"", "unknown", "미분류"} or not re.search(r"[가-힣]", genre):
+        genre = korean_genre(classification.get("documentType"), document_type)
+    if genre.casefold() in {"", "unknown", "미분류"} or not re.search(r"[가-힣]", genre):
+        genre = korean_genre(document_type, document_type)
+    return genre if genre.casefold() not in {"", "unknown", "미분류"} else "기타"
+
+
+def folder_tag(folder_path: list[str]) -> str:
+    if not folder_path:
+        return ""
+    value = re.sub(r"\d+", " ", str(folder_path[-1]))
+    value = re.sub(r"[\[\](){}<>#]+", " ", value)
+    value = re.sub(r"[_\-–—]+", " ", value)
+    value = re.sub(r"\s+", " ", value).strip(" .,·:;|/\\")
+    return value[:60] if any(character.isalpha() for character in value) else ""
+
+
+def catalog_tags(
+    genre: str,
+    folder_path: list[str],
+    classification: dict,
+    final_analysis: dict,
+    manual_tags: Any = None,
+) -> list[str]:
+    tags: list[str] = [genre]
+    parent = folder_tag(folder_path)
+    if parent:
+        tags.append(parent)
+    if isinstance(manual_tags, list):
+        tags.extend(manual_tags)
+    else:
+        tags.extend(classification.get("topicTags") or [])
+        tags.extend(_analysis_tags(final_analysis))
+    cleaned: list[str] = []
+    seen: set[str] = set()
+    for value in tags:
+        tag = re.sub(r"^#+", "", str(value or "")).strip()
+        tag = re.sub(r"\s+", " ", tag)[:60]
+        key = tag.casefold()
+        if not tag or not any(character.isalpha() for character in tag) or key in seen:
+            continue
+        seen.add(key)
+        cleaned.append(tag)
+    return cleaned[:20]
+
+
+def _analysis_tags(final_analysis: dict) -> list[str]:
     tags: list[str] = []
     for value in (final_analysis.get("analysis") or {}).values():
         if isinstance(value, list):
@@ -431,7 +486,7 @@ def _catalog_tags(final_analysis: dict) -> list[str]:
                     label = item.get("name") or item.get("title") or item.get("concept")
                     if label:
                         tags.append(str(label)[:60])
-    return list(dict.fromkeys(tags))[:20]
+    return tags
 
 
 def _validated_candidate(value: Any, evidence: list[Evidence], field: str) -> str | None:

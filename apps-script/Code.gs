@@ -76,7 +76,8 @@ function updateMetadata_(body) {
     title: String(raw.title || '').trim().slice(0, 300),
     author: String(raw.author || '').trim().slice(0, 300),
     genre: String(raw.genre || '').trim().slice(0, 100),
-    documentType: String(raw.documentType || 'unknown').trim()
+    documentType: String(raw.documentType || 'unknown').trim(),
+    tags: normalizeTags_(raw.tags)
   };
   if (!override.title) throw new Error('작품명을 입력하세요.');
   if (allowedProfiles.indexOf(override.documentType) < 0) throw new Error('지원하지 않는 문서 유형입니다.');
@@ -115,7 +116,7 @@ function handleRuntimeKey_(body) {
 function handleProgress_(body) {
   assertCallbackSecret_(body);
   var source = body.progress || {};
-  var names = ['status','phase','message','model','currentFileName','currentFileIndex','totalFiles',
+  var names = ['status','phase','message','model','folderId','folderName','runId','runUrl','currentFileName','currentFileIndex','totalFiles',
     'currentChunk','totalChunks','complete','skipped','failed','metadataReview','processedChunks',
     'apiRequests','apiSuccessfulRequests','apiRequestAttempts','apiFailedAttempts','inputTokens','outputTokens','driveQuotaUnits','driveDownloadedBytes',
     'attemptedModels','modelSwitchCount','lastModelError',
@@ -129,6 +130,10 @@ function handleProgress_(body) {
   });
   clean.currentFileName = String(clean.currentFileName || '').slice(0, 300);
   clean.message = String(clean.message || '').slice(0, 500);
+  var previous = liveStatus_();
+  ['folderId','folderName','runId','runUrl','startedAt'].forEach(function(name) {
+    if (!clean[name] && previous[name]) clean[name] = previous[name];
+  });
   clean.updatedAt = new Date().toISOString();
   PropertiesService.getScriptProperties().setProperty('LIVE_STATUS_JSON', JSON.stringify(clean));
   return json_({ok: true});
@@ -194,17 +199,23 @@ function dispatchWorkflow_(body) {
   var lock = LockService.getScriptLock();
   lock.waitLock(10000);
   try {
+    var owner = requiredProperty_('GITHUB_OWNER');
+    var repo = requiredProperty_('GITHUB_REPO');
+    var token = requiredProperty_('GITHUB_TOKEN');
     var current = liveStatus_();
     var active = current.status === 'QUEUED' || current.status === 'RUNNING';
     var updated = Date.parse(current.updatedAt || '');
     var fresh = !isNaN(updated) && (Date.now() - updated) < 22500000; // workflow timeout + margin
     if (active && fresh) {
-      return {ok: true, alreadyRunning: true, message: '이미 인덱싱 작업이 실행 또는 대기 중입니다.'};
+      if (Date.now() - updated < 120000) {
+        return {ok: true, alreadyRunning: true, message: '방금 요청한 인덱싱 작업이 시작되기를 기다리고 있습니다.'};
+      }
+      var latest = latestIndexRun_(owner, repo, token);
+      if (!latest || latest.status !== 'completed') {
+        return {ok: true, alreadyRunning: true, message: '이미 인덱싱 작업이 실행 또는 대기 중입니다.', runId: latest && latest.id || '', runUrl: latest && latest.html_url || ''};
+      }
     }
 
-    var owner = requiredProperty_('GITHUB_OWNER');
-    var repo = requiredProperty_('GITHUB_REPO');
-    var token = requiredProperty_('GITHUB_TOKEN');
     var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/index-books.yml/dispatches';
     var payload = {
       ref: 'main',
@@ -224,14 +235,40 @@ function dispatchWorkflow_(body) {
     if (code !== 200 && code !== 204) throw new Error('GitHub workflow 요청 실패: HTTP ' + code);
     PropertiesService.getScriptProperties().setProperty('LIVE_STATUS_JSON', JSON.stringify({
       status: 'QUEUED', phase: 'QUEUED', message: 'GitHub Actions 실행을 요청했습니다.',
-      folderId: String(body.folderId), currentFileName: '', currentFileIndex: 0,
+      folderId: String(body.folderId), folderName: String(body.folderName || ''), currentFileName: '', currentFileIndex: 0,
       totalFiles: 0, updatedAt: new Date().toISOString()
     }));
-    var result = code === 200 ? JSON.parse(response.getContentText() || '{}') : {};
-    return {ok: true, alreadyRunning: false, runId: result.workflow_run_id || null, runUrl: result.html_url || null};
+    Utilities.sleep(1200);
+    var result = code === 200 ? JSON.parse(response.getContentText() || '{}') : (latestIndexRun_(owner, repo, token) || {});
+    return {ok: true, alreadyRunning: false, runId: result.workflow_run_id || result.id || null, runUrl: result.html_url || null};
   } finally {
     lock.releaseLock();
   }
+}
+
+function latestIndexRun_(owner, repo, token) {
+  var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/index-books.yml/runs?event=workflow_dispatch&per_page=1';
+  var response = UrlFetchApp.fetch(url, {
+    headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'},
+    muteHttpExceptions: true
+  });
+  if (response.getResponseCode() !== 200) return null;
+  var runs = JSON.parse(response.getContentText() || '{}').workflow_runs || [];
+  return runs.length ? runs[0] : null;
+}
+
+function normalizeTags_(value) {
+  var raw = Array.isArray(value) ? value : String(value || '').split(/[,\n]/);
+  var seen = {};
+  var tags = [];
+  raw.forEach(function(item) {
+    var tag = String(item || '').replace(/^#+/, '').replace(/\s+/g, ' ').trim().slice(0, 60);
+    var key = tag.toLowerCase();
+    if (!tag || seen[key]) return;
+    seen[key] = true;
+    tags.push(tag);
+  });
+  return tags.slice(0, 20);
 }
 
 function handleCallback_(body) {

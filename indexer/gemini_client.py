@@ -12,6 +12,10 @@ class InvalidJsonResponse(ValueError):
     pass
 
 
+class UnexpectedJsonShape(ValueError):
+    pass
+
+
 class GeminiClient:
     def __init__(self, api_key: str, model_policy: dict, rate_limiter: RateLimiter) -> None:
         from google import genai
@@ -113,7 +117,7 @@ class GeminiClient:
     def _switch_or_restart(self, reason: str) -> bool:
         return self._switch_model(reason) or self._restart_model_cycle(reason)
 
-    def generate_json(self, prompt: str, schema: dict | None = None) -> Any:
+    def generate_json(self, prompt: str, schema: dict | None = None, expected_type: type | None = None) -> Any:
         from google.genai import types
 
         config_kwargs: dict[str, Any] = {
@@ -164,10 +168,17 @@ class GeminiClient:
             )
             self._model_cycle = 1
             try:
-                return _json_from_text(response.text or "")
-            except json.JSONDecodeError as exc:
+                parsed = _json_from_text(response.text or "")
+                if expected_type is not None and not isinstance(parsed, expected_type):
+                    raise UnexpectedJsonShape(f"expected {expected_type.__name__}")
+                return parsed
+            except (json.JSONDecodeError, UnexpectedJsonShape) as exc:
                 self.invalid_json_responses += 1
-                error = f"invalid JSON response from {self.model_name}: line {exc.lineno}, column {exc.colno}"
+                error = (
+                    f"invalid JSON response from {self.model_name}: line {exc.lineno}, column {exc.colno}"
+                    if isinstance(exc, json.JSONDecodeError)
+                    else f"invalid JSON structure from {self.model_name}: {exc}"
+                )
                 self.last_model_error = error
                 if invalid_json_retries < self._max_invalid_json_retries:
                     invalid_json_retries += 1
@@ -211,7 +222,7 @@ def _json_from_text(text: str) -> Any:
 def _strict_json_retry_prompt(prompt: str) -> str:
     return (
         prompt
-        + "\n\n이전 응답에는 JSON 문법 오류가 있었습니다. 원문 근거와 요구된 구조는 유지하되, "
+        + "\n\n이전 응답에는 JSON 문법 오류 또는 구조 오류가 있었습니다. 원문 근거와 요구된 구조는 유지하되, "
           "설명·마크다운 코드블록·주석 없이 JSON 파서가 읽을 수 있는 단 하나의 유효한 JSON 값만 출력하세요. "
           "문자열 내부 큰따옴표와 줄바꿈을 올바르게 이스케이프하고 모든 쉼표·괄호를 확인하세요."
     )

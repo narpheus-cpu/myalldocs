@@ -1,4 +1,5 @@
 window.BOOK_APP_CONFIG = {
+  githubRepository: "narpheus-cpu/myalldocs",
   googleClientId: "760876063086-k994v5pvjnlljjsuduminbqehn6puqmt.apps.googleusercontent.com",
   googleCloudProjectNumber: "760876063086",
   googlePickerApiKey: "AIzaSyAPPy4JBuBXsrG0WLDMmrX0Hr_pEXC3EJg",

@@ -2,7 +2,7 @@ import json
 
 from indexer.checkpoint import CheckpointStore
 from indexer.profiles import choose_profile
-from indexer.pipeline import korean_genre
+from indexer.pipeline import catalog_tags, folder_tag, inferred_genre, korean_genre
 from indexer.storage import RepositoryStorage
 
 
@@ -36,6 +36,20 @@ def test_genre_is_always_presented_in_korean():
     assert korean_genre("novel", "fiction") == "소설"
     assert korean_genre("", "history_biography") == "역사·전기"
     assert korean_genre("여행기", "unknown") == "여행기"
+
+
+def test_content_genre_and_numberless_parent_folder_are_mandatory_first_tags():
+    classification = {"documentType": "practical_manual", "genre": "요리", "topicTags": ["한식", "조리법"]}
+    genre = inferred_genre(classification, "practical_manual")
+    assert genre == "요리"
+    assert folder_tag(["book", "11 실용 종교 자기계발 르포 초자연 등"]) == "실용 종교 자기계발 르포 초자연 등"
+    tags = catalog_tags(genre, ["book", "11 실용 종교 자기계발 르포 초자연 등"], classification, {"analysis": {}})
+    assert tags[:4] == ["요리", "실용 종교 자기계발 르포 초자연 등", "한식", "조리법"]
+    assert all(not tag.isdigit() for tag in tags)
+
+
+def test_unknown_content_classification_still_gets_a_genre_tag():
+    assert inferred_genre({"documentType": "unknown", "genre": "미분류"}, "unknown") == "기타"
 
 
 def test_completed_manifest_is_found_by_source_content_not_metadata(tmp_path):

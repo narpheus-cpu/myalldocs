@@ -20,8 +20,10 @@ def classify_document(excerpts: list[dict]) -> str:
 아래 원문 발췌만으로 문서 유형을 분류하라.
 허용 유형: fiction, drama, poetry, academic, philosophy, history_biography,
 science_technical, essay_general_nonfiction, practical_manual, mixed_anthology, unknown.
-JSON 필드: documentType, genre, confidence(0..1), reasons(array), uncertain(boolean).
-genre 값은 novel 같은 영어 분류어가 아니라 '소설', '희곡', '역사'처럼 자연스러운 한국어로만 작성한다.
+JSON 필드: documentType, genre, topicTags(array), confidence(0..1), reasons(array), uncertain(boolean).
+genre는 반드시 원문 내용에서 추론한 구체적인 1차 장르 한 개를 자연스러운 한국어로 작성한다.
+genre를 빈 문자열, unknown, 미분류로 쓰지 말고, novel 같은 영어 분류어도 쓰지 않는다. 요리책이면 '요리'처럼 문서 유형보다 구체적인 내용 장르를 우선한다.
+topicTags에는 원문 내용에서 직접 도출한 주제·대상·형식 태그를 3~8개까지 한국어로 작성하고 숫자만으로 된 태그는 만들지 않는다.
 발췌:
 {json.dumps(excerpts, ensure_ascii=False)}"""
 
@@ -62,6 +64,9 @@ summaryLong은 반드시 다음과 같은 한국어 마크다운 개조식 요�
 2. 다음 핵심 사건이나 논점 제목
 - 구체적인 사실 또는 주장.
 번호 제목과 하이픈 목록을 사용하고, 긴 산문 문단으로 작성하지 않는다.
+summaryLong은 sections를 그대로 다시 나열하지 말고, 여러 구간의 내용을 연관된 사건·논점·변화 단위로 재분류하여 다시 요약한다.
+summaryShort보다 훨씬 풍부해야 하지만 sections 전체보다 분명히 짧아야 하며, 원문 구간 수와 일대일로 맞춘 목차를 만들지 않는다.
+summaryShort는 책 전체를 빠르게 파악할 수 있는 압축 요약이고, summaryLong은 그보다 풍부한 구조화 요약이며, sections는 각 원문 구간별 기록이라는 세 단계의 차이를 지킨다.
 sections의 각 항목도 title, summary 또는 bullets, sourceChunkIds를 사용하여 같은 순서와 위계를 보존한다.
 '설명', 'description', 'chunk ID' 같은 내부 항목명은 사람이 읽는 문장에 쓰지 않는다.
 구간 분석:

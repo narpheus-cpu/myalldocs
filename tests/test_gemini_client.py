@@ -230,6 +230,21 @@ def test_repeated_invalid_json_falls_back_to_next_free_model():
     assert client.model_switch_count == 1
 
 
+def test_wrong_json_shape_is_retried_before_pipeline_uses_it():
+    calls = []
+
+    def responder(model, contents, config):
+        calls.append(model)
+        text = '[{"wrong": true}]' if len(calls) == 1 else '{"ok": true}'
+        return SimpleNamespace(text=text, usage_metadata=None)
+
+    client = client_with_models(["gemini-a-flash"], responder)
+    with fake_genai_module():
+        assert client.generate_json("local source only", expected_type=dict) == {"ok": True}
+    assert calls == ["gemini-a-flash", "gemini-a-flash"]
+    assert client.invalid_json_responses == 1
+
+
 def test_invalid_json_error_never_includes_raw_model_output():
     raw = '{"private_original": "DO_NOT_LOG" "broken": true}'
 
