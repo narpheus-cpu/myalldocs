@@ -47,8 +47,8 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .filters button, .tabs button, .text-button, .panel button, .reading-controls button, .chunk-dialog button { padding: 9px 0; border: 0; border-bottom: 2px solid transparent; background: #fff; cursor: pointer; }
 .filters button:hover, .filters button.active, .tabs button:hover, .tabs button.active { border-bottom-color: #000; font-weight: 700; }
 .text-button { margin-bottom: 28px; }
-.primary, .download-book, .download-detail, .panel button.primary, .chunk-dialog button.primary { padding: 6px 10px; border: 1px solid #000; background: #fff; font-size: 12px; font-weight: 700; line-height: 1.2; }
-.primary:hover, .download-book:hover, .download-detail:hover { text-decoration: underline; }
+.primary, .download-detail, .panel button.primary, .chunk-dialog button.primary { padding: 6px 10px; border: 1px solid #000; background: #fff; font-size: 12px; font-weight: 700; line-height: 1.2; }
+.primary:hover, .download-detail:hover { text-decoration: underline; }
 
 .book-list-frame { background: #fff; }
 .book-list-head, .book-row { display: grid; grid-template-columns: minmax(260px, 2.6fr) minmax(110px, .8fr) minmax(105px, .7fr) minmax(100px, .6fr); align-items: center; gap: 16px; }
@@ -64,8 +64,9 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .book-type, .status { font-size: 12px; }
 .book-type { font-weight: 700; }
 .format { font-size: 10px; font-weight: 700; text-transform: uppercase; }
-.download-book, .download-detail { width: fit-content; justify-self: start; cursor: pointer; white-space: nowrap; }
-.download-book:disabled, .download-detail:disabled { opacity: .45; cursor: wait; }
+.download-detail { width: fit-content; justify-self: start; cursor: pointer; white-space: nowrap; }
+.download-detail:disabled { opacity: .45; cursor: wait; }
+.indexed-time { font-size: 11px; line-height: 1.45; white-space: normal; }
 .empty { grid-column: 1 / -1; padding: 48px 0; border-bottom: 1px solid #000; text-align: center; }
 
 .drive-library-toolbar, .drive-selection-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding: 13px 0; border-top: 1px solid #000; }
@@ -235,7 +236,8 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
   .book-row { grid-template-columns: 1fr auto; gap: 11px; }
   .book-title-button { grid-column: 1 / -1; }
   .book-row .status { grid-column: 1; }
-  .download-book { grid-column: 2; grid-row: 2; }
+  .indexed-time { grid-column: 2; grid-row: 2; text-align: right; }
+  .indexed-time::before { content: "인덱싱: "; font-weight: 700; }
   .drive-list-head { display: none; }
   .drive-file-row { grid-template-columns: 34px 1fr auto; gap: 10px; }
   .drive-file-title { grid-column: 2 / -1; }

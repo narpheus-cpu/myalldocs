@@ -74,7 +74,7 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 - 책 목록: `data/catalog.json`
 - 책별 결과: `data/books/<bookId>/manifest.json`, `summary.json`, `chunks.json`, `analysis.json`, `timeline.json`, `relationships.json`
 - 중간 재개 정보: `data/checkpoints/`
-- ‘통합 TXT’는 저장된 별도 파일이 아니라, 사이트에서 위 JSON들을 합쳐 사용자의 다운로드 폴더에 즉시 만들어 주는 파일입니다.
+- 도서 목록에는 각 결과의 인덱싱 일시가 표시됩니다. 통합 TXT가 필요하면 책 제목을 눌러 상세 화면의 `모든 분석 통합 TXT` 버튼을 사용합니다. 이 파일은 저장된 별도 파일이 아니라, 사이트에서 위 JSON들을 합쳐 사용자의 다운로드 폴더에 즉시 만들어 줍니다.
 
 Google Drive에는 사용자가 넣어 둔 원본 TXT/EPUB만 그대로 남습니다. 청크 원문 팝업도 원문을 GitHub에 복사하지 않고, 허용된 Google 계정으로 Drive 원본을 그 순간에만 읽어 브라우저 메모리에 청크를 만듭니다. 창을 닫거나 새로고침하면 그 원문 메모리는 사라집니다.
 

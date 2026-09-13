@@ -46,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260913-drive-library" in html
+    assert "js/app.js?v=20260913-indexed-time" in html
 
 
 def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
@@ -66,14 +66,17 @@ def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
     assert "selection_id:" in workflow and "--file-ids-json" in workflow
 
 
-def test_library_is_a_board_list_with_integrated_txt_download():
+def test_library_is_a_board_list_with_indexed_time():
     html = (ROOT / "index.html").read_text(encoding="utf-8")
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
     assert "전체 도서 목록" in html
     assert 'id="book-row-template"' in html
     assert 'id="book-card-template"' not in html
     assert "새로고침하거나 닫아도 계속됩니다" in html
-    for phrase in ("downloadBook", "saveIntegratedText", "summary.json", "analysis.json", "timeline.json", "relationships.json", "chunks.json", "\\ufeff"):
+    assert 'class="indexed-time"' in html
+    assert "인덱싱 일시" in html
+    assert "download-book" not in html and "downloadBook" not in script
+    for phrase in ("book.updatedAt||book.indexedAt", "saveIntegratedText", "summary.json", "analysis.json", "timeline.json", "relationships.json", "chunks.json", "\\ufeff"):
         assert phrase in script
     assert "검색어를 입력하면 결과가 여기에 표시됩니다" in script
 
@@ -102,6 +105,7 @@ def test_report_renderer_hides_description_label_and_uses_korean_sections():
     prompts = (ROOT / "indexer" / "prompts.py").read_text(encoding="utf-8")
     assert 'if(k==="description"||k==="keyPoints"){appendValue' in script
     assert 'description:"설명"' not in script
+    assert "기타 정보" not in script
     assert '`${sectionLabel(chunkId)}' in script
     assert 'function sectionLabel(value){return`제${Number(value).toLocaleString("ko-KR")}구간`}' in script
     assert "열여섯 번째 구간" not in script

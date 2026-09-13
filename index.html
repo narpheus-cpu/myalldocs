@@ -7,7 +7,7 @@
   <meta name="description" content="Google Drive 원본과 연결된 개인 도서 지식베이스">
   <title>서재 지도 · Personal Book Knowledge Base</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=20260913-drive-library">
+  <link rel="stylesheet" href="assets/styles.css?v=20260913-indexed-time">
 </head>
 <body>
   <header class="topbar">
@@ -37,14 +37,14 @@
       </label>
       <p class="page-guide"><strong>검색</strong>은 제목·저자·장르·태그로 원하는 책을 찾는 화면입니다. 검색어 없이 모든 책을 보려면 <a href="#browse">전체 도서 목록</a>을 이용하세요.</p>
       <div id="search-meta" class="search-meta" aria-live="polite"></div>
-      <div class="book-list-frame"><div class="book-list-head" aria-hidden="true"><span>도서</span><span>분류</span><span>상태</span><span>받기</span></div><div id="results" class="book-list" role="list"></div></div>
+      <div class="book-list-frame"><div class="book-list-head" aria-hidden="true"><span>도서</span><span>분류</span><span>상태</span><span>인덱싱 일시</span></div><div id="results" class="book-list" role="list"></div></div>
     </section>
 
     <section id="browse-view" class="view" hidden>
       <div class="section-heading"><div><p class="eyebrow">서재</p><h1>전체 도서 목록</h1></div><p id="browse-count"></p></div>
-      <p class="page-guide"><strong>전체 도서 목록</strong>은 인덱싱이 끝난 모든 책을 보여주는 게시판입니다. 제목을 누르면 분석 내용을 읽고, ‘통합 TXT’로 모든 생성 정보를 한 번에 받을 수 있습니다.</p>
+      <p class="page-guide"><strong>전체 도서 목록</strong>은 인덱싱이 끝난 모든 책을 보여주는 게시판입니다. 제목을 누르면 저장된 요약과 분석 내용을 읽을 수 있습니다.</p>
       <div id="profile-filters" class="filters" aria-label="문서 유형 필터"></div>
-      <div class="book-list-frame"><div class="book-list-head" aria-hidden="true"><span>도서</span><span>분류</span><span>상태</span><span>받기</span></div><div id="browse-results" class="book-list" role="list"></div></div>
+      <div class="book-list-frame"><div class="book-list-head" aria-hidden="true"><span>도서</span><span>분류</span><span>상태</span><span>인덱싱 일시</span></div><div id="browse-results" class="book-list" role="list"></div></div>
     </section>
 
     <section id="drive-view" class="view" hidden>
@@ -131,7 +131,7 @@
   </main>
 
   <template id="book-row-template">
-    <div class="book-row" role="listitem"><button class="book-title-button" type="button"><strong></strong><span class="author"></span><span class="tags"></span></button><span class="book-kind"><span class="book-type"></span><span class="format"></span></span><span class="status"></span><button class="download-book" type="button">통합 TXT</button></div>
+    <div class="book-row" role="listitem"><button class="book-title-button" type="button"><strong></strong><span class="author"></span><span class="tags"></span></button><span class="book-kind"><span class="book-type"></span><span class="format"></span></span><span class="status"></span><time class="indexed-time"></time></div>
   </template>
   <template id="drive-file-row-template">
     <div class="drive-file-row" role="listitem">
@@ -185,6 +185,6 @@
   <script src="config/public-config.js?v=20260913-picker-fix"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260913-drive-library"></script>
+  <script type="module" src="js/app.js?v=20260913-indexed-time"></script>
 </body>
 </html>
