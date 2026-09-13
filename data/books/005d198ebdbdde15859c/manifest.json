@@ -1,0 +1,139 @@
+{
+  "bookId": "005d198ebdbdde15859c",
+  "driveFileId": "1DDEsTeKPmvg_CB26YgQVuTN49N8zUTnq",
+  "title": "제목: 새의 선물",
+  "author": "은희경",
+  "filename": "은희경-새의 선물.txt의 사본",
+  "format": "txt",
+  "documentType": "fiction",
+  "genre": "성장소설",
+  "contentGenre": "성장소설",
+  "tags": [
+    "성장소설",
+    "시험폴더",
+    "진희 ('나')",
+    "이모 (전영옥)",
+    "할머니",
+    "허석",
+    "삼촌",
+    "외할머니 집 마당과 중앙 우물가",
+    "삼촌 방 다락방",
+    "마을 제방 길 및 과수원 밤길",
+    "유지공장 및 도청소재지 산부인과/폭설 고갯길",
+    "1995년 아파트 침실",
+    "자아의 이분화와 내적 극기 훈련 (내면적 갈등)",
+    "어른들의 위선과 진희의 위악적 징벌",
+    "성적 금기와 환상의 해체",
+    "애정과 배신으로 인한 소외감",
+    "쥐와 쥐의 꼬리 / 담장 위의 쥐",
+    "우물가",
+    "변소 똥통과 콘돔",
+    "다락방과 통속 소설"
+  ],
+  "classification": {
+    "documentType": "fiction",
+    "genre": "growth_novel",
+    "confidence": 1.0,
+    "reasons": [
+      "원문에 '은희경'의 소설 '새의 선물' 본문과 목차, 그리고 이에 대한 심사평 및 소설에 대한 분석(성장소설, 액자소설 형식, 작중 화자 등) 내용이 포함되어 있다.",
+      "오정희의 평문에서 '열두 살 여자아이가 화자로 되어 있는 이 소설'이라고 명시하고 있다."
+    ],
+    "uncertain": false
+  },
+  "analysisProfile": "fiction",
+  "tabs": [
+    {
+      "key": "summary",
+      "label": "전체 요약"
+    },
+    {
+      "key": "sections",
+      "label": "구간별 요약"
+    },
+    {
+      "key": "characters",
+      "label": "주요 등장인물"
+    },
+    {
+      "key": "relationships",
+      "label": "인물 관계 변화"
+    },
+    {
+      "key": "settings",
+      "label": "배경 변화"
+    },
+    {
+      "key": "conflicts",
+      "label": "갈등 변화"
+    },
+    {
+      "key": "plot",
+      "label": "사건·플롯"
+    },
+    {
+      "key": "themes",
+      "label": "주제·상징"
+    }
+  ],
+  "metadata": {
+    "title": "제목: 새의 선물",
+    "author": "은희경",
+    "confidence": 0.82,
+    "evidence": [
+      {
+        "source": "title_page",
+        "title": "제목: 새의 선물",
+        "author": "은희경",
+        "weight": 0.38,
+        "detail": "본문 앞부분의 표제부 후보"
+      },
+      {
+        "source": "folder",
+        "title": "시험폴더2",
+        "weight": 0.12,
+        "detail": "시험폴더2"
+      },
+      {
+        "source": "filename",
+        "title": "은희경",
+        "author": "새의 선물",
+        "weight": 0.08,
+        "detail": "은희경-새의 선물.txt의 사본"
+      }
+    ],
+    "titleSource": "title_page",
+    "authorSource": "title_page",
+    "conflictDetected": false,
+    "metadataStatus": "confirmed",
+    "manualOverrideApplied": false
+  },
+  "source": {
+    "modifiedTime": "2026-01-03T12:14:00.824Z",
+    "md5Checksum": "ebf166ce7126b0dae757879cac973d0a",
+    "sha256": "e103174d6ac15c0ca896242447bde2148bb888002f38f0a3088f6c6f07796b01",
+    "changeKey": "ebf166ce7126b0dae757879cac973d0a",
+    "size": "529093",
+    "mimeType": "text/plain",
+    "folderPath": [
+      "시험폴더2"
+    ],
+    "webViewLink": "https://drive.google.com/file/d/1DDEsTeKPmvg_CB26YgQVuTN49N8zUTnq/view?usp=drivesdk"
+  },
+  "model": {
+    "name": "gemini-3.6-flash",
+    "sdk": "google-genai",
+    "selection": "runtime models.list policy"
+  },
+  "chunking": {
+    "targetCharacters": 5000,
+    "overlapCharacters": 250
+  },
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "indexStatus": "COMPLETE",
+  "indexedAt": "2026-09-13T09:47:18.496963+00:00"
+}
