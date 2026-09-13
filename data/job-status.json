@@ -3,7 +3,7 @@
   "folderId": "1w8ESxodFtotOniEvpD8m3FgcYasXNO5f",
   "folderName": "시험폴더2",
   "totalFiles": 7,
-  "startedAt": "2026-09-13T09:55:38.554605+00:00",
+  "startedAt": "2026-09-13T11:01:18.139643+00:00",
   "complete": 0,
   "skipped": 5,
   "failed": 2,
@@ -28,10 +28,10 @@
     }
   ],
   "model": "gemini-3.5-flash-lite",
-  "apiRequests": 16,
+  "apiRequests": 15,
   "apiSuccessfulRequests": 10,
-  "apiRequestAttempts": 16,
-  "apiFailedAttempts": 6,
+  "apiRequestAttempts": 15,
+  "apiFailedAttempts": 5,
   "attemptedModels": [
     "gemini-3.8-flash",
     "gemini-3.7-flash",
@@ -47,8 +47,8 @@
   "lastModelError": "invalid JSON response from gemini-3.5-flash-lite: line 1, column 1",
   "invalidJsonResponses": 8,
   "inputTokens": 26916,
-  "outputTokens": 376,
+  "outputTokens": 343,
   "driveQuotaUnits": 515,
   "driveDownloadedBytes": 1102397,
-  "finishedAt": "2026-09-13T10:09:42.568067+00:00"
+  "finishedAt": "2026-09-13T11:14:50.275398+00:00"
 }
