@@ -3,49 +3,52 @@
   "folderId": "1w8ESxodFtotOniEvpD8m3FgcYasXNO5f",
   "folderName": "시험폴더2",
   "totalFiles": 7,
-  "startedAt": "2026-09-13T09:19:52.371791+00:00",
-  "complete": 1,
-  "skipped": 4,
+  "startedAt": "2026-09-13T09:55:38.554605+00:00",
+  "complete": 0,
+  "skipped": 5,
   "failed": 2,
   "metadataReview": 0,
-  "processedChunks": 4,
+  "processedChunks": 0,
   "currentFileIndex": 7,
   "currentFileName": "은희경_타인에게 말걸기.txt의 사본",
-  "message": "책 처리 오류: EOF occurred in violation of protocol (_ssl.c:2427)",
-  "lastError": "EOF occurred in violation of protocol (_ssl.c:2427)",
+  "message": "책 처리 오류: invalid JSON response from gemini-3.5-flash-lite: line 1, column 1",
+  "lastError": "invalid JSON response from gemini-3.5-flash-lite: line 1, column 1",
   "phase": "ERROR",
   "allTargetsComplete": false,
   "errors": [
     {
       "driveFileId": "1luz77iETvd3z2omOHQlCKtFvEPp-cfvZ",
       "filename": "무라카미 하루키-색채가 없는 다자키 쓰쿠루와 그가 순례를 떠난 해(ocr).txt의 사본",
-      "error": "invalid JSON response from gemini-3.7-flash: line 1, column 1"
+      "error": "invalid JSON response from gemini-3.5-flash: line 1, column 1"
     },
     {
       "driveFileId": "1_zaNydwCMu60VGR-67WlMnPVOBs_81rg",
       "filename": "은희경_타인에게 말걸기.txt의 사본",
-      "error": "EOF occurred in violation of protocol (_ssl.c:2427)"
+      "error": "invalid JSON response from gemini-3.5-flash-lite: line 1, column 1"
     }
   ],
-  "model": "gemini-3.6-flash",
-  "apiRequests": 17,
-  "apiSuccessfulRequests": 15,
-  "apiRequestAttempts": 17,
-  "apiFailedAttempts": 2,
+  "model": "gemini-3.5-flash-lite",
+  "apiRequests": 16,
+  "apiSuccessfulRequests": 10,
+  "apiRequestAttempts": 16,
+  "apiFailedAttempts": 6,
   "attemptedModels": [
     "gemini-3.8-flash",
     "gemini-3.7-flash",
-    "gemini-3.6-flash"
+    "gemini-3.6-flash",
+    "gemini-3.5-flash",
+    "gemini-2.5-flash",
+    "gemini-3.5-flash-lite"
   ],
-  "modelSwitchCount": 2,
+  "modelSwitchCount": 5,
   "modelCycle": 1,
   "maxModelCycles": 3,
   "modelCycleRestarts": 0,
-  "lastModelError": "invalid JSON structure from gemini-3.6-flash: expected dict",
-  "invalidJsonResponses": 5,
-  "inputTokens": 163628,
-  "outputTokens": 55665,
-  "driveQuotaUnits": 715,
-  "driveDownloadedBytes": 1631490,
-  "finishedAt": "2026-09-13T09:47:22.221224+00:00"
+  "lastModelError": "invalid JSON response from gemini-3.5-flash-lite: line 1, column 1",
+  "invalidJsonResponses": 8,
+  "inputTokens": 26916,
+  "outputTokens": 376,
+  "driveQuotaUnits": 515,
+  "driveDownloadedBytes": 1102397,
+  "finishedAt": "2026-09-13T10:09:42.568067+00:00"
 }
