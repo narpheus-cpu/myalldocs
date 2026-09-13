@@ -3,45 +3,40 @@
   "folderId": "1w8ESxodFtotOniEvpD8m3FgcYasXNO5f",
   "folderName": "시험폴더2",
   "totalFiles": 7,
-  "startedAt": "2026-09-13T03:51:44.489728+00:00",
-  "complete": 0,
+  "startedAt": "2026-09-13T07:29:46.914821+00:00",
+  "complete": 1,
   "skipped": 3,
-  "failed": 4,
+  "failed": 3,
   "metadataReview": 0,
-  "processedChunks": 21,
+  "processedChunks": 74,
   "currentFileIndex": 7,
   "currentFileName": "은희경_타인에게 말걸기.txt의 사본",
-  "message": "책 처리 오류: 'list' object has no attribute 'get'",
-  "lastError": "'list' object has no attribute 'get'",
+  "message": "책 처리 오류: invalid JSON response from gemini-3.1-flash-lite: line 1, column 1",
+  "lastError": "invalid JSON response from gemini-3.1-flash-lite: line 1, column 1",
   "phase": "ERROR",
   "allTargetsComplete": false,
   "errors": [
     {
       "driveFileId": "1luz77iETvd3z2omOHQlCKtFvEPp-cfvZ",
       "filename": "무라카미 하루키-색채가 없는 다자키 쓰쿠루와 그가 순례를 떠난 해(ocr).txt의 사본",
-      "error": "invalid JSON response from gemini-3.1-flash-lite: line 1, column 1"
-    },
-    {
-      "driveFileId": "1-EUzfLe4ueGrr8GmumS7U487-9tGucAu",
-      "filename": "무라카미 하루키-세계의 끝과 하드보일드 원더랜드 2(ocr).txt의 사본",
-      "error": "EOF occurred in violation of protocol (_ssl.c:2427)"
+      "error": "invalid JSON response from gemini-3.5-flash: line 1, column 1"
     },
     {
       "driveFileId": "1DDEsTeKPmvg_CB26YgQVuTN49N8zUTnq",
       "filename": "은희경-새의 선물.txt의 사본",
-      "error": "Gemini chunk analysis was not an object"
+      "error": "EOF occurred in violation of protocol (_ssl.c:2427)"
     },
     {
       "driveFileId": "1_zaNydwCMu60VGR-67WlMnPVOBs_81rg",
       "filename": "은희경_타인에게 말걸기.txt의 사본",
-      "error": "'list' object has no attribute 'get'"
+      "error": "invalid JSON response from gemini-3.1-flash-lite: line 1, column 1"
     }
   ],
   "model": "gemini-3.1-flash-lite",
-  "apiRequests": 42,
-  "apiSuccessfulRequests": 33,
-  "apiRequestAttempts": 42,
-  "apiFailedAttempts": 9,
+  "apiRequests": 101,
+  "apiSuccessfulRequests": 93,
+  "apiRequestAttempts": 101,
+  "apiFailedAttempts": 8,
   "attemptedModels": [
     "gemini-3.8-flash",
     "gemini-3.7-flash",
@@ -56,10 +51,10 @@
   "maxModelCycles": 3,
   "modelCycleRestarts": 0,
   "lastModelError": "invalid JSON response from gemini-3.1-flash-lite: line 1, column 1",
-  "invalidJsonResponses": 7,
-  "inputTokens": 102674,
-  "outputTokens": 29766,
+  "invalidJsonResponses": 10,
+  "inputTokens": 345583,
+  "outputTokens": 113444,
   "driveQuotaUnits": 915,
   "driveDownloadedBytes": 2309455,
-  "finishedAt": "2026-09-13T04:28:00.685116+00:00"
+  "finishedAt": "2026-09-13T09:17:21.827741+00:00"
 }

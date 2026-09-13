@@ -1,0 +1,150 @@
+{
+  "bookId": "ccb8056aa15ecc43bce7",
+  "driveFileId": "1-EUzfLe4ueGrr8GmumS7U487-9tGucAu",
+  "title": "세계의 끝과 하드보일드 원더랜드. 2",
+  "author": "무라카미 하루키 | 역자 김진욱",
+  "filename": "무라카미 하루키-세계의 끝과 하드보일드 원더랜드 2(ocr).txt의 사본",
+  "format": "txt",
+  "documentType": "fiction",
+  "genre": "장편소설",
+  "contentGenre": "장편소설",
+  "tags": [
+    "장편소설",
+    "시험폴더",
+    "세계의 끝",
+    "하드보일드 원더랜드",
+    "그림자",
+    "뇌 개조",
+    "탈출",
+    "무라카미 하루키",
+    "나 (주인공)",
+    "그녀 (소녀)",
+    "대령",
+    "노박사 (할아버지)"
+  ],
+  "classification": {
+    "documentType": "fiction",
+    "genre": "장편소설",
+    "topicTags": [
+      "세계의 끝",
+      "하드보일드 원더랜드",
+      "그림자",
+      "뇌 개조",
+      "탈출",
+      "무라카미 하루키"
+    ],
+    "confidence": 1.0,
+    "reasons": [
+      {
+        "text": "제시된 원문에서 무라카미 하루키 저자의 '세계의 끝과 하드보일드 원더랜드 2' 도서 정보와 목차가 명확히 드러납니다.",
+        "sourceChunkIds": [
+          1
+        ]
+      },
+      {
+        "text": "'나', '그녀', '그림자' 등의 인물이 등장하여 대화를 나누고, 뇌 개조 기술이나 가상의 도시인 '세계의 끝'을 배경으로 서사가 전개되는 전형적인 소설의 형태를 띠고 있습니다.",
+        "sourceChunkIds": [
+          34,
+          67
+        ]
+      }
+    ],
+    "uncertain": false
+  },
+  "analysisProfile": "fiction",
+  "tabs": [
+    {
+      "key": "summary",
+      "label": "전체 요약"
+    },
+    {
+      "key": "sections",
+      "label": "구간별 요약"
+    },
+    {
+      "key": "characters",
+      "label": "주요 등장인물"
+    },
+    {
+      "key": "relationships",
+      "label": "인물 관계 변화"
+    },
+    {
+      "key": "settings",
+      "label": "배경 변화"
+    },
+    {
+      "key": "conflicts",
+      "label": "갈등 변화"
+    },
+    {
+      "key": "plot",
+      "label": "사건·플롯"
+    },
+    {
+      "key": "themes",
+      "label": "주제·상징"
+    }
+  ],
+  "metadata": {
+    "title": "세계의 끝과 하드보일드 원더랜드. 2",
+    "author": "무라카미 하루키 | 역자 김진욱",
+    "confidence": 0.82,
+    "evidence": [
+      {
+        "source": "title_page",
+        "title": "세계의 끝과 하드보일드 원더랜드. 2",
+        "author": "무라카미 하루키 | 역자 김진욱",
+        "weight": 0.38,
+        "detail": "본문 앞부분의 표제부 후보"
+      },
+      {
+        "source": "folder",
+        "title": "시험폴더2",
+        "weight": 0.12,
+        "detail": "시험폴더2"
+      },
+      {
+        "source": "filename",
+        "title": "무라카미 하루키",
+        "author": "세계의 끝과 하드보일드 원더랜드 2(ocr)",
+        "weight": 0.08,
+        "detail": "무라카미 하루키-세계의 끝과 하드보일드 원더랜드 2(ocr).txt의 사본"
+      }
+    ],
+    "titleSource": "title_page",
+    "authorSource": "title_page",
+    "conflictDetected": false,
+    "metadataStatus": "confirmed",
+    "manualOverrideApplied": false
+  },
+  "source": {
+    "modifiedTime": "2026-01-03T12:17:34.988Z",
+    "md5Checksum": "224392896a238813d9237e3379f76c41",
+    "sha256": "daba4dd446381a9964cf49ad72f7e4d297d91cd984ae6a8f0ab7d2f7ab709fe8",
+    "changeKey": "224392896a238813d9237e3379f76c41",
+    "size": "677965",
+    "mimeType": "text/plain",
+    "folderPath": [
+      "시험폴더2"
+    ],
+    "webViewLink": "https://drive.google.com/file/d/1-EUzfLe4ueGrr8GmumS7U487-9tGucAu/view?usp=drivesdk"
+  },
+  "model": {
+    "name": "gemini-3.5-flash-lite",
+    "sdk": "google-genai",
+    "selection": "runtime models.list policy"
+  },
+  "chunking": {
+    "targetCharacters": 5000,
+    "overlapCharacters": 250
+  },
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "indexStatus": "COMPLETE",
+  "indexedAt": "2026-09-13T09:02:09.675705+00:00"
+}
