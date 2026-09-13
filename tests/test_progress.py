@@ -46,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260913-deduplicate-key-formats" in html
+    assert "js/app.js?v=20260913-auth-before-dialog" in html
 
 
 def test_library_is_a_board_list_with_integrated_txt_download():
@@ -105,6 +105,10 @@ def test_uncertainty_flag_is_hidden_and_prompt_formats_are_manageable():
     assert 'const separator = /[:：]\\s*$/.test(prompt) ? " " : ": ";' in formats
     assert "indexedDB.open" in formats
     assert "localStorage" not in formats and "sessionStorage" not in formats
+    open_chunk = script.index("async function openSelectedChunk")
+    copy_chunk = script.index("async function copyChunk")
+    source = script[open_chunk:copy_chunk]
+    assert source.index("await getAccessToken()") < source.index("dialog.showModal()")
 
 
 def test_completed_identical_source_is_skipped_independent_of_metadata_and_versions():

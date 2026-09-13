@@ -36,7 +36,29 @@ async function saveMetadata(){const manifest=state.currentBundle?.manifest,butto
 function adjustReader(kind,delta){if(kind==="font")state.readerFontSize=Math.max(13,Math.min(28,state.readerFontSize+delta));else state.readerLineHeight=Math.max(1.3,Math.min(2.5,Number((state.readerLineHeight+delta).toFixed(1))));updateReaderControls()}
 function updateReaderControls(){const content=$("#detail-content");content.style.setProperty("--reader-font-size",`${state.readerFontSize}px`);content.style.setProperty("--reader-line-height",String(state.readerLineHeight));$("#font-size-value").textContent=`${state.readerFontSize}px`;$("#line-height-value").textContent=state.readerLineHeight.toFixed(1)}
 function configureChunkControl(chunks){const select=$("#chunk-select");select.replaceChildren();const empty=document.createElement("option");empty.value="";empty.textContent=chunks.length?"구간 선택":"원문 구간 없음";select.append(empty);chunks.forEach((chunk,index)=>{const option=document.createElement("option");option.value=String(chunk.chunkId||index+1);option.textContent=`${ordinal(index+1)} 구간 · ${index+1} / ${chunks.length}`;select.append(option)});select.disabled=!chunks.length;$("#open-chunk").disabled=!chunks.length}
-async function openSelectedChunk(){const bundle=state.currentBundle,select=$("#chunk-select"),chunkId=Number(select.value);if(!bundle||!chunkId){alert("먼저 원문 구간을 선택하세요.");return}const dialog=$("#chunk-dialog"),status=$("#chunk-source-status"),source=$("#chunk-source-text"),savedChunks=bundle.chunks?.chunks||[],total=savedChunks.length;$("#chunk-dialog-title").textContent=`${ordinal(chunkId)} 구간 원문 · ${chunkId} / ${total}`;source.textContent="";status.textContent="Google Drive에서 원문을 안전하게 불러오는 중입니다…";if(!dialog.open)dialog.showModal();try{const manifest=bundle.manifest,chunking=manifest.chunking||{},cacheKey=`${manifest.driveFileId}:${manifest.source?.sha256||""}:${chunking.targetCharacters||5000}:${chunking.overlapCharacters??250}`;let chunks=state.sourceChunks.get(cacheKey);if(!chunks){const token=await getAccessToken();chunks=await loadDriveChunks(manifest,token,Number(chunking.targetCharacters||5000),Number(chunking.overlapCharacters??250));state.sourceChunks.set(cacheKey,chunks)}const chunk=chunks.find(item=>Number(item.chunkId)===chunkId);if(!chunk)throw new Error(`원문에서 ${ordinal(chunkId)} 구간을 다시 만들지 못했습니다.`);source.textContent=chunk.text;status.textContent=chunks.length===total?`${bundle.manifest.filename} · ${chunk.charCount.toLocaleString()}자 · 원문은 GitHub에 저장되지 않습니다.`:`${bundle.manifest.filename} · 현재 원문에서 ${chunks.length}개 구간을 확인했습니다. 저장된 분석 당시에는 ${total}개였습니다.`;source.focus()}catch(e){status.textContent=`원문을 불러오지 못했습니다: ${e.message}`}}
+async function openSelectedChunk(){
+  const bundle=state.currentBundle,select=$("#chunk-select"),chunkId=Number(select.value);
+  if(!bundle||!chunkId){alert("먼저 원문 구간을 선택하세요.");return}
+  const dialog=$("#chunk-dialog"),status=$("#chunk-source-status"),source=$("#chunk-source-text"),openButton=$("#open-chunk"),savedChunks=bundle.chunks?.chunks||[],total=savedChunks.length,originalButtonText=openButton.textContent;
+  openButton.disabled=true;openButton.textContent="로그인 확인 중…";
+  try{
+    const token=await getAccessToken();
+    $("#chunk-dialog-title").textContent=`${ordinal(chunkId)} 구간 원문 · ${chunkId} / ${total}`;
+    source.textContent="";status.textContent="Google Drive에서 원문을 안전하게 불러오는 중입니다…";
+    if(!dialog.open)dialog.showModal();
+    const manifest=bundle.manifest,chunking=manifest.chunking||{},cacheKey=`${manifest.driveFileId}:${manifest.source?.sha256||""}:${chunking.targetCharacters||5000}:${chunking.overlapCharacters??250}`;
+    let chunks=state.sourceChunks.get(cacheKey);
+    if(!chunks){chunks=await loadDriveChunks(manifest,token,Number(chunking.targetCharacters||5000),Number(chunking.overlapCharacters??250));state.sourceChunks.set(cacheKey,chunks)}
+    const chunk=chunks.find(item=>Number(item.chunkId)===chunkId);
+    if(!chunk)throw new Error(`원문에서 ${ordinal(chunkId)} 구간을 다시 만들지 못했습니다.`);
+    source.textContent=chunk.text;
+    status.textContent=chunks.length===total?`${bundle.manifest.filename} · ${chunk.charCount.toLocaleString()}자 · 원문은 GitHub에 저장되지 않습니다.`:`${bundle.manifest.filename} · 현재 원문에서 ${chunks.length}개 구간을 확인했습니다. 저장된 분석 당시에는 ${total}개였습니다.`;
+    source.focus()
+  }catch(e){
+    if(dialog.open)status.textContent=`원문을 불러오지 못했습니다: ${e.message}`;
+    else alert(`Google 로그인 후 원문을 열 수 있습니다: ${e.message}`)
+  }finally{openButton.disabled=false;openButton.textContent=originalButtonText}
+}
 async function copyChunk(){const text=$("#chunk-source-text").textContent,status=$("#chunk-source-status");if(!text){status.textContent="복사할 원문이 아직 없습니다.";return}const format=state.promptFormats.find(item=>item.id===state.selectedFormatId)||state.promptFormats[0],output=composeCopyText(format?.instruction||"",text);try{await navigator.clipboard.writeText(output);status.textContent=format?.instruction?`‘${format.name}’ 프롬프트와 원문을 함께 복사했습니다.`:"이 구간의 원문을 클립보드에 복사했습니다."}catch(e){status.textContent="브라우저가 복사를 막았습니다. 원문을 직접 선택해 복사하세요."}}
 function closeChunkDialog(){const dialog=$("#chunk-dialog");if(dialog.open)dialog.close()}
 function renderFormatSelect(){const select=$("#prompt-format-select");select.replaceChildren();state.promptFormats.forEach(format=>{const option=document.createElement("option");option.value=format.id;option.textContent=format.name;select.append(option)});if(!state.promptFormats.some(item=>item.id===state.selectedFormatId))state.selectedFormatId=state.promptFormats[0]?.id||"";select.value=state.selectedFormatId}
