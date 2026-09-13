@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="light">
   <meta name="description" content="Google Drive 원본과 연결된 개인 도서 지식베이스">
   <title>서재 지도 · Personal Book Knowledge Base</title>
-  <link rel="stylesheet" href="assets/styles.css?v=20260913-deduplicate-key-formats">
+  <link rel="stylesheet" href="assets/styles.css?v=20260913-format-copy-trigger">
 </head>
 <body>
   <header class="topbar">
@@ -120,11 +120,12 @@
       <div class="format-toolbar">
         <div class="format-quick-actions" aria-label="출력 형식 편집"><button id="quick-edit-format" type="button" title="선택한 형식 수정">✎ 수정</button><button id="quick-add-format" type="button" title="새 형식 추가">＋ 추가</button><button id="quick-delete-format" type="button" title="선택한 형식 삭제">− 삭제</button></div>
         <select id="prompt-format-select" aria-label="복사할 출력 형식"></select>
+        <button id="copy-chunk" class="primary copy-trigger" type="button">원문만 복사</button>
         <button id="manage-formats" type="button">≡ 순서 정렬</button>
       </div>
     </div>
-    <p class="copy-format-help">선택한 출력 형식의 프롬프트가 원문 앞에 붙습니다. ‘원문만 복사’를 선택하면 원문만 복사합니다.</p>
-    <div class="dialog-actions"><button id="copy-chunk" class="primary" type="button">선택한 형식으로 복사</button><button id="close-chunk-bottom" type="button">닫기</button></div>
+    <p class="copy-format-help">출력 형식을 선택한 뒤 바로 옆의 같은 이름 버튼을 누르세요. 선택한 프롬프트와 원문이 함께 복사됩니다.</p>
+    <div class="dialog-actions"><button id="close-chunk-bottom" type="button">닫기</button></div>
   </dialog>
   <dialog id="format-dialog" class="editor-dialog" aria-labelledby="format-dialog-title">
     <div class="dialog-header"><div><p class="eyebrow">복사 프롬프트</p><h2 id="format-dialog-title">출력 형식 관리</h2></div><button id="close-formats" class="icon-button" type="button" aria-label="닫기">×</button></div>
@@ -153,6 +154,6 @@
   <script src="config/public-config.js?v=20260913-picker-fix"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260913-auth-before-dialog"></script>
+  <script type="module" src="js/app.js?v=20260913-format-copy-trigger"></script>
 </body>
 </html>

@@ -95,7 +95,7 @@ def test_uncertainty_flag_is_hidden_and_prompt_formats_are_manageable():
     html = (ROOT / "index.html").read_text(encoding="utf-8")
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
     formats = (ROOT / "js" / "prompt-formats.js").read_text(encoding="utf-8")
-    for element_id in ("prompt-format-select", "manage-formats", "quick-edit-format", "quick-add-format", "quick-delete-format", "format-list", "edit-format", "add-format", "delete-format", "format-name", "format-instruction"):
+    for element_id in ("prompt-format-select", "copy-chunk", "manage-formats", "quick-edit-format", "quick-add-format", "quick-delete-format", "format-list", "edit-format", "add-format", "delete-format", "format-name", "format-instruction"):
         assert f'id="{element_id}"' in html
     for phrase in ("composeCopyText", "ondragstart", "ondrop", "draggedFormatId", "savePromptFormats"):
         assert phrase in script
@@ -103,6 +103,9 @@ def test_uncertainty_flag_is_hidden_and_prompt_formats_are_manageable():
     assert '["chunkId","charCount","position","title","uncertain"]' in script
     assert 'return prompt + separator + source' in formats
     assert 'const separator = /[:：]\\s*$/.test(prompt) ? " " : ": ";' in formats
+    assert 'updateCopyTrigger()' in script
+    assert 'button.textContent=name' in script
+    assert html.index('id="prompt-format-select"') < html.index('id="copy-chunk"') < html.index('id="manage-formats"')
     assert "indexedDB.open" in formats
     assert "localStorage" not in formats and "sessionStorage" not in formats
     open_chunk = script.index("async function openSelectedChunk")

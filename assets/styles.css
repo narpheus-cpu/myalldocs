@@ -165,9 +165,10 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .copy-format-row { display: grid; grid-template-columns: auto minmax(180px, 1fr); align-items: start; gap: 12px; padding: 14px 22px 0; }
 .copy-format-row label { font-size: 13px; font-weight: 700; }
 .copy-format-row select { min-width: 170px; padding: 7px 9px; border: 1px solid #000; background: #fff; font-size: 12px; }
-.format-toolbar { display: grid; grid-template-columns: auto minmax(170px, 1fr) auto; align-items: center; gap: 8px; }
+.format-toolbar { display: grid; grid-template-columns: auto minmax(170px, 1fr) minmax(110px, auto) auto; align-items: center; gap: 8px; }
 .format-quick-actions { display: flex; gap: 5px; }
 .format-quick-actions button, #manage-formats { padding: 6px 8px; border: 1px solid #000; background: #fff; font-size: 11px; white-space: nowrap; }
+.copy-trigger { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .copy-format-help { margin: 8px 22px 0; font-size: 11px; line-height: 1.5; }
 
 .editor-dialog { width: min(660px, calc(100% - 28px)); max-height: 88vh; margin: auto; padding: 0; overflow: auto; border: 2px solid #000; background: #fff; }
