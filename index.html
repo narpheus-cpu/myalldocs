@@ -7,7 +7,7 @@
   <meta name="description" content="Google Drive 원본과 연결된 개인 도서 지식베이스">
   <title>서재 지도 · Personal Book Knowledge Base</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=20260913-tags-folder-summary">
+  <link rel="stylesheet" href="assets/styles.css?v=20260913-drive-library">
 </head>
 <body>
   <header class="topbar">
@@ -18,6 +18,7 @@
     <nav aria-label="주 메뉴">
       <a href="#search" data-nav="search">검색</a>
       <a href="#browse" data-nav="browse">전체 도서 목록</a>
+      <a href="#drive" data-nav="drive">구글드라이브</a>
       <a href="#indexing" data-nav="indexing">인덱싱</a>
     </nav>
   </header>
@@ -44,6 +45,26 @@
       <p class="page-guide"><strong>전체 도서 목록</strong>은 인덱싱이 끝난 모든 책을 보여주는 게시판입니다. 제목을 누르면 분석 내용을 읽고, ‘통합 TXT’로 모든 생성 정보를 한 번에 받을 수 있습니다.</p>
       <div id="profile-filters" class="filters" aria-label="문서 유형 필터"></div>
       <div class="book-list-frame"><div class="book-list-head" aria-hidden="true"><span>도서</span><span>분류</span><span>상태</span><span>받기</span></div><div id="browse-results" class="book-list" role="list"></div></div>
+    </section>
+
+    <section id="drive-view" class="view" hidden>
+      <div class="section-heading"><div><p class="eyebrow">원문 서가</p><h1>구글드라이브</h1></div><p id="drive-file-count">폴더를 선택하세요</p></div>
+      <p class="page-guide">선택한 폴더의 TXT/EPUB 원문을 분석하지 않은 상태로 읽거나, 체크한 파일만 인덱싱할 수 있습니다. Google Docs는 목록에서 제외되며 원문은 GitHub에 저장되지 않습니다.</p>
+      <div class="drive-library-toolbar">
+        <button id="drive-pick-folder" class="primary" type="button">Google Drive 폴더 선택</button>
+        <button id="drive-refresh-files" type="button" disabled>목록 새로고침</button>
+        <span id="drive-folder-name">아직 선택되지 않음</span>
+      </div>
+      <p id="drive-library-message" class="message" aria-live="polite"></p>
+      <div class="drive-selection-bar">
+        <label><input id="drive-select-all" type="checkbox" disabled> 전체 선택</label>
+        <span id="drive-selected-count">0개 선택</span>
+        <button id="drive-index-selected" class="primary" type="button" disabled>선택 항목 인덱싱</button>
+      </div>
+      <div class="drive-list-frame">
+        <div class="drive-list-head" aria-hidden="true"><span>선택</span><span>원본 파일</span><span>형식</span><span>상태</span></div>
+        <div id="drive-file-list" class="drive-file-list" role="list"></div>
+      </div>
     </section>
 
     <section id="detail-view" class="view" hidden>
@@ -112,6 +133,14 @@
   <template id="book-row-template">
     <div class="book-row" role="listitem"><button class="book-title-button" type="button"><strong></strong><span class="author"></span><span class="tags"></span></button><span class="book-kind"><span class="book-type"></span><span class="format"></span></span><span class="status"></span><button class="download-book" type="button">통합 TXT</button></div>
   </template>
+  <template id="drive-file-row-template">
+    <div class="drive-file-row" role="listitem">
+      <label class="drive-file-check"><input type="checkbox"><span class="sr-only">선택</span></label>
+      <button class="drive-file-title" type="button"><strong></strong><span class="drive-file-path"></span><span class="drive-file-tag"></span></button>
+      <span class="drive-file-format"></span>
+      <span class="drive-file-status"></span>
+    </div>
+  </template>
   <dialog id="chunk-dialog" class="chunk-dialog" aria-labelledby="chunk-dialog-title">
     <div class="dialog-header"><div><p class="eyebrow">Google Drive 원문</p><h2 id="chunk-dialog-title">구간 원문</h2></div><button id="close-chunk" class="icon-button" type="button" aria-label="닫기">×</button></div>
     <p id="chunk-source-status" class="dialog-status" aria-live="polite"></p>
@@ -156,6 +185,6 @@
   <script src="config/public-config.js?v=20260913-picker-fix"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260913-tags-folder-summary"></script>
+  <script type="module" src="js/app.js?v=20260913-drive-library"></script>
 </body>
 </html>

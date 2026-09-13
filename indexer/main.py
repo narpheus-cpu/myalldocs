@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import os
 import sys
@@ -20,6 +21,7 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument("--recursive", action=argparse.BooleanOptionalAction, default=True)
     result.add_argument("--force", action="store_true")
     result.add_argument("--profile", default=None)
+    result.add_argument("--file-ids-json", default="", help="Optional JSON array of Drive file IDs selected in the web library")
     return result
 
 
@@ -39,7 +41,13 @@ def main(argv: list[str] | None = None) -> int:
         atomic_write_json(settings.root / "data" / "job-status.json", {"status": "NO_SUPPORTED_MODEL", "message": str(exc)})
         progress.emit({"status": "NO_SUPPORTED_MODEL", "phase": "MODEL_SELECTION", "message": str(exc)}, force=True)
         return 2
-    status = IndexPipeline(settings, drive, gemini, progress=progress).run(args.folder_id, args.recursive, args.force, args.profile)
+    selected_file_ids = None
+    if args.file_ids_json:
+        parsed_ids = json.loads(args.file_ids_json)
+        if not isinstance(parsed_ids, list) or not all(isinstance(item, str) and item for item in parsed_ids):
+            raise ValueError("--file-ids-json must be a JSON string array")
+        selected_file_ids = list(dict.fromkeys(parsed_ids))
+    status = IndexPipeline(settings, drive, gemini, progress=progress).run(args.folder_id, args.recursive, args.force, args.profile, selected_file_ids)
     logging.info("Final status: %s", status["status"])
     return 0 if status["status"] in {"COMPLETE", "PAUSED_RATE_LIMIT", "PAUSED_SERVICE_UNAVAILABLE"} else 1
 

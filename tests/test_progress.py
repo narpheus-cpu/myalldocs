@@ -46,7 +46,24 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260913-tags-folder-summary" in html
+    assert "js/app.js?v=20260913-drive-library" in html
+
+
+def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    drive_library = (ROOT / "js" / "drive-library.js").read_text(encoding="utf-8")
+    relay = (ROOT / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    workflow = (ROOT / ".github" / "workflows" / "index-books.yml").read_text(encoding="utf-8")
+    for element_id in ("drive-view", "drive-pick-folder", "drive-select-all", "drive-index-selected", "drive-file-list", "drive-file-row-template"):
+        assert f'id="{element_id}"' in html
+    for phrase in ("dispatchSelectedDriveFiles", 'route:"dispatch-selected"', "indexedBookForDriveFile", '"[인덱싱 완료]"', "showDriveFile", "showRawDriveChunk"):
+        assert phrase in script
+    assert 'item.mimeType === TEXT_MIME || item.mimeType === EPUB_MIME' in drive_library
+    assert "application/vnd.google-apps.document" not in drive_library
+    assert "folderNameTag" in drive_library and "replace(/\\d+/g" in drive_library
+    assert "INDEX_SELECTION_" in relay and "normalizeFileIds_" in relay
+    assert "selection_id:" in workflow and "--file-ids-json" in workflow
 
 
 def test_library_is_a_board_list_with_integrated_txt_download():

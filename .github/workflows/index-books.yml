@@ -21,6 +21,10 @@ on:
         description: "Optional profile override (leave empty for automatic classification)"
         required: false
         type: string
+      selection_id:
+        description: "Opaque Apps Script selection ID; empty means the entire folder"
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -68,6 +72,8 @@ jobs:
       - name: Run tests before indexing
         run: python -m pytest -q
       - name: Load API key saved from the indexing screen
+        env:
+          INPUT_SELECTION_ID: ${{ inputs.selection_id }}
         run: python -m indexer.runtime_secret
       - name: Index or resume books
         id: index
@@ -83,6 +89,7 @@ jobs:
           if [[ "$INPUT_RECURSIVE" == "false" ]]; then args+=(--no-recursive); fi
           if [[ "$INPUT_FORCE" == "true" ]]; then args+=(--force); fi
           if [[ -n "$INPUT_PROFILE" ]]; then args+=(--profile "$INPUT_PROFILE"); fi
+          if [[ -n "$SELECTED_FILE_IDS_JSON" ]]; then args+=(--file-ids-json "$SELECTED_FILE_IDS_JSON"); fi
           python -m indexer.main "${args[@]}"
           echo "exit_code=$?" >> "$GITHUB_OUTPUT"
       - name: Commit durable results and checkpoints

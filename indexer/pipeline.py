@@ -63,12 +63,18 @@ class IndexPipeline:
         self.gemini_event: dict[str, Any] = {}
         self.gemini.set_event_callback(self._on_gemini_event)
 
-    def run(self, folder_id: str, recursive: bool = True, force: bool = False, profile_override: str | None = None) -> dict:
+    def run(self, folder_id: str, recursive: bool = True, force: bool = False, profile_override: str | None = None, selected_file_ids: list[str] | None = None) -> dict:
         configured_root = os.getenv("DRIVE_ROOT_FOLDER_ID")
         if configured_root:
             self.drive.assert_descendant(folder_id, configured_root)
         folder = self.drive.folder_metadata(folder_id)
         books = list(self.drive.iter_books(folder_id, recursive))
+        if selected_file_ids is not None:
+            requested = set(selected_file_ids)
+            books = [book for book in books if book.id in requested]
+            missing = requested.difference(book.id for book in books)
+            if missing:
+                LOG.warning("Selected files not found under folder scope: %s", ",".join(sorted(missing)))
         max_books = int(self.settings.quota.get("maxBooksPerRun", 0) or 0)
         status = self._job("RUNNING", folder, len(books))
         self.live_status = status

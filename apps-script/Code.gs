@@ -20,6 +20,7 @@ function doPost(e) {
     assertFolderWithinRoot_(body.folderId);
     if (body.route === 'preview') return json_(previewFolder_(body.folderId, body.recursive !== false));
     if (body.route === 'dispatch') return json_(dispatchWorkflow_(body));
+    if (body.route === 'dispatch-selected') return json_(dispatchWorkflow_(body));
     throw new Error('Unknown route');
   } catch (error) {
     return json_({ok: false, error: String(error && error.message || error)});
@@ -110,7 +111,22 @@ function updateMetadata_(body) {
 function handleRuntimeKey_(body) {
   assertCallbackSecret_(body);
   var key = PropertiesService.getScriptProperties().getProperty('GEMINI_API_KEY') || '';
-  return json_({ok: true, geminiApiKey: key});
+  var selected = [];
+  var selectionId = String(body.selectionId || '');
+  if (selectionId) {
+    var raw = PropertiesService.getScriptProperties().getProperty('INDEX_SELECTION_' + selectionId);
+    if (raw) {
+      try {
+        var record = JSON.parse(raw);
+        if (record.fileIds) selected = record.fileIds;
+        else for (var index = 0; index < Number(record.chunks || 0); index++) {
+          var chunk = PropertiesService.getScriptProperties().getProperty('INDEX_SELECTION_' + selectionId + '_' + index);
+          selected = selected.concat(JSON.parse(chunk || '[]'));
+        }
+      } catch (error) { selected = []; }
+    }
+  }
+  return json_({ok: true, geminiApiKey: key, selectedFileIds: selected});
 }
 
 function handleProgress_(body) {
@@ -217,13 +233,23 @@ function dispatchWorkflow_(body) {
     }
 
     var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/index-books.yml/dispatches';
+    var selectionId = '';
+    if (body.route === 'dispatch-selected') {
+      var fileIds = normalizeFileIds_(body.fileIds);
+      if (!fileIds.length) throw new Error('인덱싱할 파일을 선택하세요.');
+      if (fileIds.length > 1000) throw new Error('한 번에 선택할 수 있는 파일은 최대 1,000개입니다.');
+      fileIds.forEach(assertFileWithinRoot_);
+      selectionId = Utilities.getUuid();
+      saveSelection_(selectionId, fileIds, String(body.folderId));
+    }
     var payload = {
       ref: 'main',
       inputs: {
         folder_id: String(body.folderId),
         recursive: String(body.recursive !== false),
         force_reindex: String(body.force === true),
-        analysis_profile: String(body.analysisProfile || '')
+        analysis_profile: String(body.analysisProfile || ''),
+        selection_id: selectionId
       }
     };
     var response = UrlFetchApp.fetch(url, {
@@ -269,6 +295,46 @@ function normalizeTags_(value) {
     tags.push(tag);
   });
   return tags.slice(0, 20);
+}
+
+function normalizeFileIds_(value) {
+  if (!Array.isArray(value)) return [];
+  var seen = {};
+  return value.map(function(item) { return String(item || '').trim(); }).filter(function(item) {
+    if (!/^[A-Za-z0-9_-]{10,200}$/.test(item) || seen[item]) return false;
+    seen[item] = true;
+    return true;
+  });
+}
+
+function saveSelection_(selectionId, fileIds, folderId) {
+  var properties = PropertiesService.getScriptProperties();
+  cleanupSelections_(properties);
+  var chunks = [];
+  for (var offset = 0; offset < fileIds.length; offset += 150) chunks.push(fileIds.slice(offset, offset + 150));
+  var values = {};
+  values['INDEX_SELECTION_' + selectionId] = JSON.stringify({chunks: chunks.length, folderId: folderId, createdAt: new Date().toISOString()});
+  chunks.forEach(function(chunk, index) {
+    values['INDEX_SELECTION_' + selectionId + '_' + index] = JSON.stringify(chunk);
+  });
+  properties.setProperties(values);
+}
+
+function cleanupSelections_(properties) {
+  var values = properties.getProperties();
+  var cutoff = Date.now() - (7 * 24 * 60 * 60 * 1000);
+  Object.keys(values).forEach(function(key) {
+    if (!/^INDEX_SELECTION_[A-Za-z0-9-]+$/.test(key)) return;
+    try {
+      var metadata = JSON.parse(values[key] || '{}');
+      if (!metadata.createdAt || new Date(metadata.createdAt).getTime() >= cutoff) return;
+      var chunks = Math.max(0, Number(metadata.chunks) || 0);
+      properties.deleteProperty(key);
+      for (var index = 0; index < chunks; index += 1) properties.deleteProperty(key + '_' + index);
+    } catch (error) {
+      properties.deleteProperty(key);
+    }
+  });
 }
 
 function handleCallback_(body) {
