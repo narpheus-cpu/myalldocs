@@ -166,9 +166,9 @@ class IndexPipeline:
         versions = self.settings.raw["versions"]
         existing = self.storage.manifest(book_id)
         source_hint = book.md5Checksum or f"{book.modifiedTime}:{book.size}"
-        if not force and existing and existing.get("source", {}).get("changeKey") == source_hint and existing.get("versions") == versions and existing.get("indexStatus") == "COMPLETE":
+        if not force and existing and existing.get("source", {}).get("changeKey") == source_hint and existing.get("indexStatus") == "COMPLETE":
             LOG.info("SKIP %s (unchanged)", book.name)
-            self._emit_progress("UNCHANGED", "변경되지 않은 책이라 건너뜁니다.", force=True)
+            self._emit_progress("UNCHANGED", "이미 완료된 동일 원문이라 건너뜁니다.", force=True)
             return "skipped"
 
         LOG.info("DOWNLOAD %s", book.name)
@@ -177,7 +177,10 @@ class IndexPipeline:
         raw = self.drive.download(book.id, expected_size)
         checksum = hashlib.sha256(raw).hexdigest()
         change_key = book.md5Checksum or checksum
-        if not force and existing and existing.get("source", {}).get("changeKey") == change_key and existing.get("versions") == versions and existing.get("indexStatus") == "COMPLETE":
+        completed_match = self.storage.completed_manifest_by_sha256(checksum) if not force else None
+        if completed_match:
+            LOG.info("SKIP %s (completed identical content: %s)", book.name, completed_match.get("bookId", "unknown"))
+            self._emit_progress("UNCHANGED", "작품명·작가명과 관계없이 이미 완료된 동일 원문이라 건너뜁니다.", force=True)
             return "skipped"
         parsed = parse_epub(raw) if book.mimeType == EPUB_MIME or book.name.casefold().endswith(".epub") else parse_txt(raw)
         if not parsed.text.strip():

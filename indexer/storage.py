@@ -27,6 +27,20 @@ class RepositoryStorage:
         with path.open("r", encoding="utf-8") as handle:
             return json.load(handle)
 
+    def completed_manifest_by_sha256(self, checksum: str) -> dict | None:
+        books = self.data / "books"
+        if not books.exists():
+            return None
+        for path in books.glob("*/manifest.json"):
+            try:
+                with path.open("r", encoding="utf-8") as handle:
+                    manifest = json.load(handle)
+            except (OSError, json.JSONDecodeError):
+                continue
+            if manifest.get("indexStatus") == "COMPLETE" and manifest.get("source", {}).get("sha256") == checksum:
+                return manifest
+        return None
+
     def save_book(self, book_id: str, files: dict[str, Any]) -> None:
         directory = self.data / "books" / book_id
         for name, value in files.items():

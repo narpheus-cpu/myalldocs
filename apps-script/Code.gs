@@ -53,7 +53,7 @@ function assertCallbackSecret_(body) {
 
 function updateApiKey_(body) {
   var key = String(body.geminiApiKey || '').trim();
-  if (!/^[A-Za-z0-9_-]{20,200}$/.test(key)) throw new Error('Gemini API Key 형식이 올바르지 않습니다.');
+  if (!/^[A-Za-z0-9._-]{20,300}$/.test(key)) throw new Error('Gemini API Key 형식이 올바르지 않습니다.');
   PropertiesService.getScriptProperties().setProperties({
     GEMINI_API_KEY: key, GEMINI_KEY_UPDATED_AT: new Date().toISOString()
   });

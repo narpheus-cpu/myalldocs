@@ -28,6 +28,7 @@ def test_progress_relay_throttles_non_forced_updates():
 
 def test_runtime_key_validation_rejects_newlines():
     assert KEY_PATTERN.fullmatch("A" * 30)
+    assert KEY_PATTERN.fullmatch("AQ." + "A" * 30)
     assert not KEY_PATTERN.fullmatch("A" * 30 + "\nINJECTED=value")
 
 
@@ -45,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260913-index-dashboard" in html
+    assert "js/app.js?v=20260913-deduplicate-key-formats" in html
 
 
 def test_library_is_a_board_list_with_integrated_txt_download():
@@ -94,7 +95,7 @@ def test_uncertainty_flag_is_hidden_and_prompt_formats_are_manageable():
     html = (ROOT / "index.html").read_text(encoding="utf-8")
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
     formats = (ROOT / "js" / "prompt-formats.js").read_text(encoding="utf-8")
-    for element_id in ("prompt-format-select", "manage-formats", "format-list", "edit-format", "add-format", "delete-format", "format-name", "format-instruction"):
+    for element_id in ("prompt-format-select", "manage-formats", "quick-edit-format", "quick-add-format", "quick-delete-format", "format-list", "edit-format", "add-format", "delete-format", "format-name", "format-instruction"):
         assert f'id="{element_id}"' in html
     for phrase in ("composeCopyText", "ondragstart", "ondrop", "draggedFormatId", "savePromptFormats"):
         assert phrase in script
@@ -104,6 +105,15 @@ def test_uncertainty_flag_is_hidden_and_prompt_formats_are_manageable():
     assert 'const separator = /[:：]\\s*$/.test(prompt) ? " " : ": ";' in formats
     assert "indexedDB.open" in formats
     assert "localStorage" not in formats and "sessionStorage" not in formats
+
+
+def test_completed_identical_source_is_skipped_independent_of_metadata_and_versions():
+    pipeline = (ROOT / "indexer" / "pipeline.py").read_text(encoding="utf-8")
+    storage = (ROOT / "indexer" / "storage.py").read_text(encoding="utf-8")
+    assert "completed_manifest_by_sha256(checksum)" in pipeline
+    assert "작품명·작가명과 관계없이 이미 완료된 동일 원문" in pipeline
+    assert 'existing.get("versions") == versions' not in pipeline
+    assert "manifest.get(\"source\", {}).get(\"sha256\") == checksum" in storage
 
 
 def test_indexing_dashboard_and_verified_key_status_are_clear():

@@ -36,3 +36,19 @@ def test_genre_is_always_presented_in_korean():
     assert korean_genre("novel", "fiction") == "소설"
     assert korean_genre("", "history_biography") == "역사·전기"
     assert korean_genre("여행기", "unknown") == "여행기"
+
+
+def test_completed_manifest_is_found_by_source_content_not_metadata(tmp_path):
+    manifest_dir = tmp_path / "data" / "books" / "old-id"
+    manifest_dir.mkdir(parents=True)
+    (manifest_dir / "manifest.json").write_text(json.dumps({
+        "bookId": "old-id",
+        "title": "사용자가 바꾼 작품명",
+        "author": "사용자가 바꾼 작가명",
+        "indexStatus": "COMPLETE",
+        "source": {"sha256": "same-source-hash"},
+    }, ensure_ascii=False), encoding="utf-8")
+    storage = RepositoryStorage(tmp_path)
+    found = storage.completed_manifest_by_sha256("same-source-hash")
+    assert found and found["bookId"] == "old-id"
+    assert storage.completed_manifest_by_sha256("different-source-hash") is None

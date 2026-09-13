@@ -230,7 +230,7 @@ Variables 탭에서 추가합니다.
 
 Apps Script는 Gemini 분석을 하지 않습니다. 로그인한 본인의 폴더 선택 요청을 GitHub Actions로 전달하고, 완전 완료 callback에만 Gmail을 보냅니다.
 
-> 기존 Apps Script를 이미 배포한 사용자는 `apps-script/Code.gs`를 다시 붙여넣고 **배포 → 배포 관리 → 수정 → 새 버전 → 배포**를 한 번 수행해야 `작품 정보 편집` 저장 기능이 활성화됩니다. 기존 `/exec` 주소는 그대로 사용합니다.
+> 기존 Apps Script를 이미 배포한 사용자는 `apps-script/Code.gs`를 다시 붙여넣고 **배포 → 배포 관리 → 수정 → 새 버전 → 배포**를 한 번 수행해야 작품 정보 편집과 `AQ.` 형식의 새 Gemini Auth Key 저장이 활성화됩니다. 기존 `/exec` 주소는 그대로 사용합니다.
 
 1. [script.google.com](https://script.google.com/)에서 새 프로젝트를 만듭니다.
 2. `apps-script/Code.gs` 내용을 기본 `Code.gs`에 붙여 넣습니다.

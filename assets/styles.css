@@ -162,9 +162,13 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .dialog-status { min-height: 24px; margin: 0; padding: 12px 22px 0; font-size: 13px; }
 .chunk-dialog pre { max-height: calc(88vh - 185px); margin: 10px 22px 0; padding: 18px 0; overflow: auto; border-top: 1px solid #000; border-bottom: 1px solid #000; background: #fff; font-family: inherit; font-size: 16px; line-height: 1.8; white-space: pre-wrap; overflow-wrap: anywhere; }
 .dialog-actions { display: flex; justify-content: flex-end; gap: 14px; padding: 14px 22px 20px; }
-.copy-format-row { display: grid; grid-template-columns: auto minmax(180px, 1fr); align-items: center; gap: 12px; padding: 14px 22px 0; }
+.copy-format-row { display: grid; grid-template-columns: auto minmax(180px, 1fr); align-items: start; gap: 12px; padding: 14px 22px 0; }
 .copy-format-row label { font-size: 13px; font-weight: 700; }
-.copy-format-row select { width: 100%; padding: 9px 10px; border: 1px solid #000; background: #fff; }
+.copy-format-row select { min-width: 170px; padding: 7px 9px; border: 1px solid #000; background: #fff; font-size: 12px; }
+.format-toolbar { display: grid; grid-template-columns: auto minmax(170px, 1fr) auto; align-items: center; gap: 8px; }
+.format-quick-actions { display: flex; gap: 5px; }
+.format-quick-actions button, #manage-formats { padding: 6px 8px; border: 1px solid #000; background: #fff; font-size: 11px; white-space: nowrap; }
+.copy-format-help { margin: 8px 22px 0; font-size: 11px; line-height: 1.5; }
 
 .editor-dialog { width: min(660px, calc(100% - 28px)); max-height: 88vh; margin: auto; padding: 0; overflow: auto; border: 2px solid #000; background: #fff; }
 .editor-dialog::backdrop { background: rgba(255, 255, 255, .94); }
@@ -210,6 +214,9 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
   .chunk-dialog pre { margin-right: 14px; margin-left: 14px; }
   .dialog-header, .dialog-actions { padding-right: 16px; padding-left: 16px; }
   .copy-format-row { grid-template-columns: 1fr; padding-right: 16px; padding-left: 16px; }
+  .format-toolbar { grid-template-columns: 1fr; }
+  .format-quick-actions { flex-wrap: wrap; }
+  .copy-format-help { margin-right: 16px; margin-left: 16px; }
   .format-list, .format-editor, .metadata-form { margin-right: 16px; margin-left: 16px; }
 }
 

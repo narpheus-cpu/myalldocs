@@ -6,7 +6,7 @@ import re
 import urllib.request
 
 
-KEY_PATTERN = re.compile(r"^[A-Za-z0-9_-]{20,200}$")
+KEY_PATTERN = re.compile(r"^[A-Za-z0-9._-]{20,300}$")
 
 
 def fetch_runtime_key(url: str, secret: str) -> str | None:
