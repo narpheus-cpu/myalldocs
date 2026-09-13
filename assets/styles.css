@@ -139,6 +139,26 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .dialog-status { min-height: 24px; margin: 0; padding: 12px 22px 0; font-size: 13px; }
 .chunk-dialog pre { max-height: calc(88vh - 185px); margin: 10px 22px 0; padding: 18px 0; overflow: auto; border-top: 1px solid #000; border-bottom: 1px solid #000; background: #fff; font-family: inherit; font-size: 16px; line-height: 1.8; white-space: pre-wrap; overflow-wrap: anywhere; }
 .dialog-actions { display: flex; justify-content: flex-end; gap: 14px; padding: 14px 22px 20px; }
+.copy-format-row { display: grid; grid-template-columns: auto minmax(180px, 1fr); align-items: center; gap: 12px; padding: 14px 22px 0; }
+.copy-format-row label { font-size: 13px; font-weight: 700; }
+.copy-format-row select { width: 100%; padding: 9px 10px; border: 1px solid #000; background: #fff; }
+
+.editor-dialog { width: min(660px, calc(100% - 28px)); max-height: 88vh; margin: auto; padding: 0; overflow: auto; border: 2px solid #000; background: #fff; }
+.editor-dialog::backdrop { background: rgba(255, 255, 255, .94); }
+.dialog-note { margin: 0; padding: 14px 22px; line-height: 1.6; }
+.format-list { margin: 0 22px; padding: 0; border-top: 1px solid #000; list-style: none; }
+.format-list li { display: grid; grid-template-columns: 1fr auto; align-items: center; min-height: 48px; border-bottom: 1px solid #000; background: #fff; }
+.format-list li.selected .format-name-button { font-weight: 800; text-decoration: underline; text-underline-offset: 4px; }
+.format-list li.dragging { outline: 2px solid #000; outline-offset: -2px; }
+.format-name-button { width: 100%; padding: 12px 0; border: 0; background: #fff; text-align: left; cursor: pointer; }
+.drag-handle { padding: 10px 5px 10px 22px; cursor: grab; font-size: 22px; line-height: 1; user-select: none; }
+.drag-handle:active { cursor: grabbing; }
+.format-editor, .metadata-form { display: grid; gap: 8px; margin: 20px 22px 0; padding-top: 18px; border-top: 2px solid #000; }
+.format-editor[hidden] { display: none; }
+.format-editor label, .metadata-form label { margin-top: 7px; font-size: 13px; font-weight: 700; }
+.format-editor input, .format-editor textarea, .metadata-form input, .metadata-form select { width: 100%; padding: 10px; border: 1px solid #000; background: #fff; resize: vertical; }
+.format-actions { border-top: 1px solid #000; flex-wrap: wrap; }
+.edit-metadata { padding: 9px 0; border: 0; border-bottom: 1px solid #000; background: #fff; cursor: pointer; }
 
 @media (max-width: 800px) {
   .topbar { align-items: flex-start; padding: 10px 12px; }
@@ -165,6 +185,8 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
   .download-book { grid-column: 2; grid-row: 2; }
   .chunk-dialog pre { margin-right: 14px; margin-left: 14px; }
   .dialog-header, .dialog-actions { padding-right: 16px; padding-left: 16px; }
+  .copy-format-row { grid-template-columns: 1fr; padding-right: 16px; padding-left: 16px; }
+  .format-list, .format-editor, .metadata-form { margin-right: 16px; margin-left: 16px; }
 }
 
 @media (max-width: 420px) {

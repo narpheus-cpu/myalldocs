@@ -16,6 +16,7 @@ function doPost(e) {
     assertAuthorizedUser_(body);
     if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_()});
     if (body.route === 'update-api-key') return json_(updateApiKey_(body));
+    if (body.route === 'update-metadata') return json_(updateMetadata_(body));
     assertFolderWithinRoot_(body.folderId);
     if (body.route === 'preview') return json_(previewFolder_(body.folderId, body.recursive !== false));
     if (body.route === 'dispatch') return json_(dispatchWorkflow_(body));
@@ -65,6 +66,46 @@ function geminiKeyStatus_() {
   return {configured: Boolean(key), masked: key ? '••••' + key.slice(-4) : '', updatedAt: properties.getProperty('GEMINI_KEY_UPDATED_AT') || ''};
 }
 
+function updateMetadata_(body) {
+  var driveFileId = String(body.driveFileId || '').trim();
+  if (!/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('원본 파일 ID가 올바르지 않습니다.');
+  assertFileWithinRoot_(driveFileId);
+  var raw = body.override || {};
+  var allowedProfiles = ['fiction','drama','poetry','academic','philosophy','history_biography','science_technical','essay_general_nonfiction','practical_manual','mixed_anthology','unknown'];
+  var override = {
+    title: String(raw.title || '').trim().slice(0, 300),
+    author: String(raw.author || '').trim().slice(0, 300),
+    genre: String(raw.genre || '').trim().slice(0, 100),
+    documentType: String(raw.documentType || 'unknown').trim()
+  };
+  if (!override.title) throw new Error('작품명을 입력하세요.');
+  if (allowedProfiles.indexOf(override.documentType) < 0) throw new Error('지원하지 않는 문서 유형입니다.');
+
+  var owner = requiredProperty_('GITHUB_OWNER');
+  var repo = requiredProperty_('GITHUB_REPO');
+  var token = requiredProperty_('GITHUB_TOKEN');
+  var path = 'data/metadata-overrides.json';
+  var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/contents/' + path;
+  var headers = {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'};
+  var currentResponse = UrlFetchApp.fetch(url + '?ref=main', {headers: headers, muteHttpExceptions: true});
+  if (currentResponse.getResponseCode() !== 200) throw new Error('기존 수동 수정값을 읽지 못했습니다: HTTP ' + currentResponse.getResponseCode());
+  var currentFile = JSON.parse(currentResponse.getContentText() || '{}');
+  var decoded = Utilities.newBlob(Utilities.base64Decode(String(currentFile.content || '').replace(/\s/g, ''))).getDataAsString('UTF-8');
+  var document = JSON.parse(decoded || '{}');
+  document.description = document.description || 'driveFileId별 수동 수정값. 이 파일은 자동 인덱싱이 덮어쓰지 않습니다.';
+  document.byDriveFileId = document.byDriveFileId || {};
+  document.byDriveFileId[driveFileId] = override;
+  var encoded = Utilities.base64Encode(Utilities.newBlob(JSON.stringify(document, null, 2) + '\n', 'application/json', 'metadata-overrides.json').getBytes());
+  var updateResponse = UrlFetchApp.fetch(url, {
+    method: 'put', contentType: 'application/json', headers: headers, muteHttpExceptions: true,
+    payload: JSON.stringify({message: 'Update manual book metadata', content: encoded, sha: currentFile.sha, branch: 'main'})
+  });
+  var code = updateResponse.getResponseCode();
+  if (code !== 200 && code !== 201) throw new Error('수동 수정값 저장에 실패했습니다: HTTP ' + code);
+  var result = JSON.parse(updateResponse.getContentText() || '{}');
+  return {ok: true, override: override, commitUrl: result.commit && result.commit.html_url || ''};
+}
+
 function handleRuntimeKey_(body) {
   assertCallbackSecret_(body);
   var key = PropertiesService.getScriptProperties().getProperty('GEMINI_API_KEY') || '';
@@ -111,6 +152,20 @@ function assertFolderWithinRoot_(folderId) {
     current = parents.hasNext() ? parents.next() : null;
   }
   throw new Error('선택한 폴더가 설정된 [book] 루트 아래에 없습니다.');
+}
+
+function assertFileWithinRoot_(fileId) {
+  var file = DriveApp.getFileById(fileId);
+  var parents = file.getParents();
+  while (parents.hasNext()) {
+    try {
+      assertFolderWithinRoot_(parents.next().getId());
+      return;
+    } catch (error) {
+      // A Drive file can have more than one parent; inspect every parent before rejecting it.
+    }
+  }
+  throw new Error('선택한 파일이 설정된 [book] 루트 아래에 없습니다.');
 }
 
 function previewFolder_(folderId, recursive) {

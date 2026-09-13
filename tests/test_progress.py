@@ -45,7 +45,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260913-minimal-report" in html
+    assert "js/app.js?v=20260913-editor-tools" in html
 
 
 def test_library_is_a_board_list_with_integrated_txt_download():
@@ -88,6 +88,34 @@ def test_report_renderer_hides_description_label_and_uses_korean_sections():
     assert '`${index+1}. ${title||`${ordinal(sourceId)} 구간`}`' in script
     assert "summaryLong은 반드시 다음과 같은 한국어 마크다운 개조식 요약보고서" in prompts
     assert "번호 제목과 하이픈 목록" in prompts
+
+
+def test_uncertainty_flag_is_hidden_and_prompt_formats_are_manageable():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    formats = (ROOT / "js" / "prompt-formats.js").read_text(encoding="utf-8")
+    for element_id in ("prompt-format-select", "manage-formats", "format-list", "edit-format", "add-format", "delete-format", "format-name", "format-instruction"):
+        assert f'id="{element_id}"' in html
+    for phrase in ("composeCopyText", "ondragstart", "ondrop", "draggedFormatId", "savePromptFormats"):
+        assert phrase in script
+    assert '["chunkId","charCount","position","uncertain"]' in script
+    assert '["chunkId","charCount","position","title","uncertain"]' in script
+    assert 'return prompt + separator + source' in formats
+    assert 'const separator = /[:：]\\s*$/.test(prompt) ? " " : ": ";' in formats
+    assert "indexedDB.open" in formats
+    assert "localStorage" not in formats and "sessionStorage" not in formats
+
+
+def test_metadata_editor_persists_manual_override_through_authorized_relay():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    relay = (ROOT / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    for element_id in ("metadata-dialog", "metadata-title", "metadata-author", "metadata-genre", "metadata-profile", "save-metadata"):
+        assert f'id="{element_id}"' in html
+    for phrase in ("작품 정보 편집", 'route:"update-metadata"', "applyMetadataOverride", "data/metadata-overrides.json"):
+        assert phrase in script
+    for phrase in ("updateMetadata_", "assertAuthorizedUser_", "assertFileWithinRoot_", "data/metadata-overrides.json", "document.byDriveFileId[driveFileId] = override"):
+        assert phrase in relay
 
 
 def test_relay_and_workflow_connect_saved_key_and_live_progress():
