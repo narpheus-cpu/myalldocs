@@ -45,7 +45,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260913-monochrome-reader" in html
+    assert "js/app.js?v=20260913-minimal-report" in html
 
 
 def test_library_is_a_board_list_with_integrated_txt_download():
@@ -65,15 +65,29 @@ def test_monochrome_reader_controls_and_drive_only_raw_chunk_popup():
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
     source_reader = (ROOT / "js" / "source-reader.js").read_text(encoding="utf-8")
     styles = (ROOT / "assets" / "styles.css").read_text(encoding="utf-8")
-    for element_id in ("font-smaller", "font-larger", "line-tighter", "line-looser", "chunk-select", "chunk-dialog", "copy-chunk"):
+    for element_id in ("font-smaller", "font-larger", "line-tighter", "line-looser", "toggle-evidence", "chunk-select", "chunk-dialog", "copy-chunk"):
         assert f'id="{element_id}"' in html
-    for phrase in ("loadDriveChunks", "openSelectedChunk", "navigator.clipboard.writeText", "sourceChunks:new Map"):
+    for phrase in ("loadDriveChunks", "openSelectedChunk", "navigator.clipboard.writeText", "sourceChunks:new Map", "appendEvidence", "첫 번째"):
         assert phrase in script
     assert "www.googleapis.com/drive/v3/files/" in source_reader
     assert "Authorization: `Bearer ${accessToken}`" in source_reader
     assert "text/plain" not in source_reader  # no source text is embedded in the public bundle
     assert "Noto Serif" not in styles and "Georgia" not in styles
     assert "#bd4a2f" not in styles.casefold() and "#24483b" not in styles.casefold()
+    assert ".detail-header {" in styles and "background: #fff" in styles
+    assert ".panel {" in styles
+    assert ".data-item" not in styles
+
+
+def test_report_renderer_hides_description_label_and_uses_korean_sections():
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    prompts = (ROOT / "indexer" / "prompts.py").read_text(encoding="utf-8")
+    assert 'if(k==="description"){appendValue' in script
+    assert 'description:"설명"' not in script
+    assert '`${chunkId}. ${ordinal(chunkId)} 구간' in script
+    assert '`${index+1}. ${title||`${ordinal(sourceId)} 구간`}`' in script
+    assert "summaryLong은 반드시 다음과 같은 한국어 마크다운 개조식 요약보고서" in prompts
+    assert "번호 제목과 하이픈 목록" in prompts
 
 
 def test_relay_and_workflow_connect_saved_key_and_live_progress():

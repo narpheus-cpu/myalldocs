@@ -9,6 +9,9 @@ SOURCE_RULES = """절대 규칙:
 - 원문에 없는 사실, 인물, 사건, 개념, 인용문을 만들지 않는다.
 - 사실 추출과 해석을 구분하고, 불확실하면 uncertain=true로 표시한다.
 - 모든 분석 항목에는 가능한 sourceChunkIds를 붙인다.
+- 독자에게 보이는 제목과 문장은 모두 자연스러운 한국어로 작성한다.
+- 사람이 읽는 내용에 JSON 필드명, chunk ID, sourceChunkIds 같은 내부 명칭을 노출하지 않는다.
+- description 필드는 데이터 구조상 사용할 수 있지만, 내용 앞에 '설명'이라는 항목명을 반복해서 쓰지 않는다.
 """
 
 
@@ -35,9 +38,10 @@ def analyze_chunk(chunk: dict, profile: dict) -> str:
     return f"""{SOURCE_RULES}
 분석 프로필: {json.dumps(profile, ensure_ascii=False)}
 다음 한 구간을 고밀도로 분석하라. 줄거리 나열에 그치지 말고 프로필 dimensions를 채운다.
+summary와 keyPoints는 짧고 구체적인 개조식 보고서 재료로 작성한다. 한 항목에는 한 가지 사실이나 해석만 담는다.
 JSON 필드: chunkId, summary, keyPoints(array), analysis(object; 각 key는 배열), uncertainties(array).
 각 분석 항목은 description과 sourceChunkIds=[{chunk['chunkId']}]를 포함한다.
-원문 구간 ID {chunk['chunkId']}:
+{chunk['chunkId']}번째 원문 구간:
 {chunk['text']}"""
 
 
@@ -49,5 +53,15 @@ def synthesize(partials: list[dict], profile: dict, final: bool) -> str:
 중복은 합치되 시간적 변화, 논증 흐름, 인과관계를 보존한다.
 JSON 필드: summaryShort, summaryLong, sections(array), analysis(object), relationships(array), timeline(array), uncertainties(array).
 모든 세부 항목의 sourceChunkIds를 합쳐 추적 가능하게 유지한다.
+summaryLong은 반드시 다음과 같은 한국어 마크다운 개조식 요약보고서로 작성한다.
+1. 핵심 사건이나 논점 제목
+- 구체적인 사실 또는 주장.
+- 다음 사실 또는 변화.
+  - 필요한 경우에만 하위 항목.
+2. 다음 핵심 사건이나 논점 제목
+- 구체적인 사실 또는 주장.
+번호 제목과 하이픈 목록을 사용하고, 긴 산문 문단으로 작성하지 않는다.
+sections의 각 항목도 title, summary 또는 bullets, sourceChunkIds를 사용하여 같은 순서와 위계를 보존한다.
+'설명', 'description', 'chunk ID' 같은 내부 항목명은 사람이 읽는 문장에 쓰지 않는다.
 구간 분석:
 {json.dumps(partials, ensure_ascii=False)}"""

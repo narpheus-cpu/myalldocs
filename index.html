@@ -6,7 +6,7 @@
   <meta name="color-scheme" content="light">
   <meta name="description" content="Google Drive 원본과 연결된 개인 도서 지식베이스">
   <title>서재 지도 · Personal Book Knowledge Base</title>
-  <link rel="stylesheet" href="assets/styles.css?v=20260913-monochrome-reader">
+  <link rel="stylesheet" href="assets/styles.css?v=20260913-minimal-report">
 </head>
 <body>
   <header class="topbar">
@@ -24,7 +24,7 @@
   <main>
     <section id="search-view" class="view hero-view">
       <div class="hero-copy">
-        <p class="eyebrow">DRIVE TO KNOWLEDGE</p>
+      <p class="eyebrow">개인 도서 지식 저장소</p>
         <h1>책을 찾는 데서 끝나지 않고,<br><em>맥락까지 다시 만나는 서재.</em></h1>
         <p>원본은 Google Drive에 안전하게 두고, 여기서는 작품과 개념, 인물과 논증의 흐름을 빠르게 탐색합니다.</p>
       </div>
@@ -39,7 +39,7 @@
     </section>
 
     <section id="browse-view" class="view" hidden>
-      <div class="section-heading"><div><p class="eyebrow">COLLECTION</p><h1>전체 도서 목록</h1></div><p id="browse-count"></p></div>
+      <div class="section-heading"><div><p class="eyebrow">서재</p><h1>전체 도서 목록</h1></div><p id="browse-count"></p></div>
       <p class="page-guide"><strong>전체 도서 목록</strong>은 인덱싱이 끝난 모든 책을 보여주는 게시판입니다. 제목을 누르면 분석 내용을 읽고, ‘통합 TXT’로 모든 생성 정보를 한 번에 받을 수 있습니다.</p>
       <div id="profile-filters" class="filters" aria-label="문서 유형 필터"></div>
       <div class="book-list-frame"><div class="book-list-head" aria-hidden="true"><span>도서</span><span>분류</span><span>상태</span><span>받기</span></div><div id="browse-results" class="book-list" role="list"></div></div>
@@ -52,13 +52,14 @@
       <div id="reading-controls" class="reading-controls" aria-label="본문 보기 설정">
         <div class="control-group"><span>글자 크기 조절</span><button id="font-smaller" type="button" aria-label="글자 작게">−</button><output id="font-size-value">17px</output><button id="font-larger" type="button" aria-label="글자 크게">＋</button></div>
         <div class="control-group"><span>줄간 조절</span><button id="line-tighter" type="button" aria-label="줄간 좁게">−</button><output id="line-height-value">1.8</output><button id="line-looser" type="button" aria-label="줄간 넓게">＋</button></div>
-        <div class="control-group chunk-control"><label for="chunk-select">청크 원문</label><select id="chunk-select" aria-label="원문 청크 일련번호"><option value="">선택</option></select><button id="open-chunk" type="button">원문 보기</button></div>
+        <label class="evidence-toggle"><input id="toggle-evidence" type="checkbox"> 근거 구간 보기</label>
+        <div class="control-group chunk-control"><label for="chunk-select">원문 구간</label><select id="chunk-select" aria-label="원문 구간 선택"><option value="">선택</option></select><button id="open-chunk" type="button">원문 보기</button></div>
       </div>
       <article id="detail-content" class="detail-content" aria-live="polite"></article>
     </section>
 
     <section id="indexing-view" class="view" hidden>
-      <div class="section-heading"><div><p class="eyebrow">CONTROL ROOM</p><h1>수동 인덱싱</h1></div></div>
+      <div class="section-heading"><div><p class="eyebrow">관리</p><h1>수동 인덱싱</h1></div></div>
       <div id="setup-alert" class="setup-alert" hidden role="alert"></div>
       <div class="admin-grid">
         <div class="panel">
@@ -93,7 +94,7 @@
         </div>
       </div>
       <div class="panel status-panel">
-        <div class="monitor-heading"><div><p class="eyebrow">LIVE STATUS</p><h2>실시간 인덱싱 상황</h2></div><span id="live-indicator" class="live-indicator">저장된 상태</span></div>
+        <div class="monitor-heading"><div><p class="eyebrow">실시간 상태</p><h2>실시간 인덱싱 상황</h2></div><span id="live-indicator" class="live-indicator">저장된 상태</span></div>
         <div class="progress-track" aria-label="전체 파일 진행률"><span id="overall-progress"></span></div>
         <p id="progress-caption" class="progress-caption">상태를 불러오는 중…</p>
         <div id="job-status">불러오는 중…</div>
@@ -106,7 +107,7 @@
     <div class="book-row" role="listitem"><button class="book-title-button" type="button"><strong></strong><span class="author"></span><span class="tags"></span></button><span class="book-kind"><span class="book-type"></span><span class="format"></span></span><span class="status"></span><button class="download-book" type="button">통합 TXT</button></div>
   </template>
   <dialog id="chunk-dialog" class="chunk-dialog" aria-labelledby="chunk-dialog-title">
-    <div class="dialog-header"><div><p class="eyebrow">GOOGLE DRIVE ORIGINAL</p><h2 id="chunk-dialog-title">청크 원문</h2></div><button id="close-chunk" class="icon-button" type="button" aria-label="닫기">×</button></div>
+    <div class="dialog-header"><div><p class="eyebrow">Google Drive 원문</p><h2 id="chunk-dialog-title">구간 원문</h2></div><button id="close-chunk" class="icon-button" type="button" aria-label="닫기">×</button></div>
     <p id="chunk-source-status" class="dialog-status" aria-live="polite"></p>
     <pre id="chunk-source-text" tabindex="0"></pre>
     <div class="dialog-actions"><button id="copy-chunk" class="primary" type="button">원문 복사</button><button id="close-chunk-bottom" type="button">닫기</button></div>
@@ -114,6 +115,6 @@
   <script src="config/public-config.js?v=20260913-picker-fix"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260913-monochrome-reader"></script>
+  <script type="module" src="js/app.js?v=20260913-minimal-report"></script>
 </body>
 </html>
