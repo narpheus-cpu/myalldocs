@@ -3,7 +3,7 @@
   "folderId": "1w8ESxodFtotOniEvpD8m3FgcYasXNO5f",
   "folderName": "시험폴더2",
   "totalFiles": 7,
-  "startedAt": "2026-09-13T11:01:18.139643+00:00",
+  "startedAt": "2026-09-13T11:29:07.579860+00:00",
   "complete": 0,
   "skipped": 5,
   "failed": 2,
@@ -11,8 +11,8 @@
   "processedChunks": 0,
   "currentFileIndex": 7,
   "currentFileName": "은희경_타인에게 말걸기.txt의 사본",
-  "message": "책 처리 오류: invalid JSON response from gemini-3.5-flash-lite: line 1, column 1",
-  "lastError": "invalid JSON response from gemini-3.5-flash-lite: line 1, column 1",
+  "message": "책 처리 오류: invalid JSON response from gemini-3.1-flash-lite: line 1, column 1",
+  "lastError": "invalid JSON response from gemini-3.1-flash-lite: line 1, column 1",
   "phase": "ERROR",
   "allTargetsComplete": false,
   "errors": [
@@ -24,31 +24,32 @@
     {
       "driveFileId": "1_zaNydwCMu60VGR-67WlMnPVOBs_81rg",
       "filename": "은희경_타인에게 말걸기.txt의 사본",
-      "error": "invalid JSON response from gemini-3.5-flash-lite: line 1, column 1"
+      "error": "invalid JSON response from gemini-3.1-flash-lite: line 1, column 1"
     }
   ],
-  "model": "gemini-3.5-flash-lite",
-  "apiRequests": 15,
+  "model": "gemini-3.1-flash-lite",
+  "apiRequests": 19,
   "apiSuccessfulRequests": 10,
-  "apiRequestAttempts": 15,
-  "apiFailedAttempts": 5,
+  "apiRequestAttempts": 19,
+  "apiFailedAttempts": 9,
   "attemptedModels": [
     "gemini-3.8-flash",
     "gemini-3.7-flash",
     "gemini-3.6-flash",
     "gemini-3.5-flash",
     "gemini-2.5-flash",
-    "gemini-3.5-flash-lite"
+    "gemini-3.5-flash-lite",
+    "gemini-3.1-flash-lite"
   ],
-  "modelSwitchCount": 5,
+  "modelSwitchCount": 6,
   "modelCycle": 1,
   "maxModelCycles": 3,
   "modelCycleRestarts": 0,
-  "lastModelError": "invalid JSON response from gemini-3.5-flash-lite: line 1, column 1",
+  "lastModelError": "invalid JSON response from gemini-3.1-flash-lite: line 1, column 1",
   "invalidJsonResponses": 8,
   "inputTokens": 26916,
-  "outputTokens": 343,
+  "outputTokens": 261,
   "driveQuotaUnits": 515,
   "driveDownloadedBytes": 1102397,
-  "finishedAt": "2026-09-13T11:14:50.275398+00:00"
+  "finishedAt": "2026-09-13T11:41:03.280077+00:00"
 }
