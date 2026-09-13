@@ -45,7 +45,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260913-editor-tools" in html
+    assert "js/app.js?v=20260913-index-dashboard" in html
 
 
 def test_library_is_a_board_list_with_integrated_txt_download():
@@ -82,7 +82,7 @@ def test_monochrome_reader_controls_and_drive_only_raw_chunk_popup():
 def test_report_renderer_hides_description_label_and_uses_korean_sections():
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
     prompts = (ROOT / "indexer" / "prompts.py").read_text(encoding="utf-8")
-    assert 'if(k==="description"){appendValue' in script
+    assert 'if(k==="description"||k==="keyPoints"){appendValue' in script
     assert 'description:"설명"' not in script
     assert '`${chunkId}. ${ordinal(chunkId)} 구간' in script
     assert '`${index+1}. ${title||`${ordinal(sourceId)} 구간`}`' in script
@@ -104,6 +104,28 @@ def test_uncertainty_flag_is_hidden_and_prompt_formats_are_manageable():
     assert 'const separator = /[:：]\\s*$/.test(prompt) ? " " : ": ";' in formats
     assert "indexedDB.open" in formats
     assert "localStorage" not in formats and "sessionStorage" not in formats
+
+
+def test_indexing_dashboard_and_verified_key_status_are_clear():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    styles = (ROOT / "assets" / "styles.css").read_text(encoding="utf-8")
+    for element_id in ("api-key-state", "api-key-mask", "api-key-updated", "api-key-use"):
+        assert f'id="{element_id}"' in html
+    for phrase in ("renderApiKeyStatus", "서버 저장을 확인했습니다", "다음 인덱싱부터 새 키 사용", "현재 작업", "모델 및 재시도", "처리 결과", "무료 사용량"):
+        assert phrase in script
+    for selector in (".dashboard-card", ".status-dashboard", ".status-group", ".key-verification"):
+        assert selector in styles
+
+
+def test_reader_uses_compact_actions_and_hides_key_points_heading():
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    styles = (ROOT / "assets" / "styles.css").read_text(encoding="utf-8")
+    assert 'k==="description"||k==="keyPoints"' in script
+    assert 'keyPoints:""' in script
+    assert ".detail-content h3 + h2" in styles
+    assert ".detail-actions a, .detail-actions button" in styles
+    assert "font-size: 11px" in styles
 
 
 def test_metadata_editor_persists_manual_override_through_authorized_relay():
@@ -161,7 +183,7 @@ def test_monitor_distinguishes_service_pause_and_real_completion_progress():
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
     assert 'id="activity-log" class="activity-log"' in html
     assert "<ol id=\"activity-log\"" not in html
-    for phrase in ("PAUSED_SERVICE_UNAVAILABLE", "GEMINI_RETRY", "MODEL_FALLBACK", "MODEL_COOLDOWN", "MODEL_CYCLE_RESTART", "GEMINI_PACING", "apiRequestAttempts", "Gemini 호출 시도", "state.lastStatus", "saved.errors", "data/job-status.json?status="):
+    for phrase in ("PAUSED_SERVICE_UNAVAILABLE", "GEMINI_RETRY", "MODEL_FALLBACK", "MODEL_COOLDOWN", "MODEL_CYCLE_RESTART", "GEMINI_PACING", "apiRequestAttempts", "Gemini 호출", "state.lastStatus", "saved.errors", "data/job-status.json?status="):
         assert phrase in script
     assert "resolved/total*100" in script
     assert "index/total*100" not in script

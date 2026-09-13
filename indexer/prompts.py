@@ -21,6 +21,7 @@ def classify_document(excerpts: list[dict]) -> str:
 허용 유형: fiction, drama, poetry, academic, philosophy, history_biography,
 science_technical, essay_general_nonfiction, practical_manual, mixed_anthology, unknown.
 JSON 필드: documentType, genre, confidence(0..1), reasons(array), uncertain(boolean).
+genre 값은 novel 같은 영어 분류어가 아니라 '소설', '희곡', '역사'처럼 자연스러운 한국어로만 작성한다.
 발췌:
 {json.dumps(excerpts, ensure_ascii=False)}"""
 

@@ -2,6 +2,7 @@ import json
 
 from indexer.checkpoint import CheckpointStore
 from indexer.profiles import choose_profile
+from indexer.pipeline import korean_genre
 from indexer.storage import RepositoryStorage
 
 
@@ -29,3 +30,9 @@ def test_catalog_update_is_idempotent(tmp_path):
 def test_override_loader_accepts_explicit_management_structure(tmp_path):
     data=tmp_path/"data";data.mkdir();(data/"metadata-overrides.json").write_text('{"byDriveFileId":{"id":{"title":"고침"}}}',encoding="utf-8")
     assert RepositoryStorage(tmp_path).overrides()["id"]["title"]=="고침"
+
+
+def test_genre_is_always_presented_in_korean():
+    assert korean_genre("novel", "fiction") == "소설"
+    assert korean_genre("", "history_biography") == "역사·전기"
+    assert korean_genre("여행기", "unknown") == "여행기"

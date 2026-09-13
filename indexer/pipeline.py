@@ -29,6 +29,20 @@ from indexer.storage import RepositoryStorage
 
 LOG = logging.getLogger("book-indexer")
 
+GENRE_LABELS = {
+    "novel": "소설", "fiction": "소설", "drama": "희곡", "poetry": "시·시집",
+    "academic": "학술", "philosophy": "철학", "history": "역사",
+    "history_biography": "역사·전기", "science": "과학",
+    "science_technical": "과학·기술", "essay": "에세이",
+    "essay_general_nonfiction": "에세이·일반 논픽션", "practical_manual": "실용",
+    "mixed_anthology": "혼합 문집", "unknown": "미분류",
+}
+
+
+def korean_genre(value: Any, document_type: str = "unknown") -> str:
+    text = str(value or "").strip()
+    return GENRE_LABELS.get(text.lower(), text or GENRE_LABELS.get(document_type, "미분류"))
+
 
 class IndexPipeline:
     def __init__(self, settings: Settings, drive: DriveClient, gemini: GeminiClient, started_at: float | None = None, progress: ProgressReporter | None = None) -> None:
@@ -256,7 +270,7 @@ class IndexPipeline:
             "filename": book.name,
             "format": parsed.format,
             "documentType": profile_name,
-            "genre": classification.get("genre", "unknown"),
+            "genre": korean_genre(classification.get("genre"), profile_name),
             "classification": classification,
             "analysisProfile": profile_name,
             "tabs": profile["tabs"],
