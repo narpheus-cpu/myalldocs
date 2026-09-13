@@ -377,10 +377,11 @@ Gemini 모델 API는 해당 key가 연결된 프로젝트의 Billing 상태 자�
 
 `config/indexer.json`의 숫자는 Google의 공식 고정 한도가 아니라 **이 저장소의 자체 무료 안전 예산**입니다.
 
-- `requestsPerMinute`, `tokensPerMinute`: 계정 한도 이하의 속도
-- `minimumSuccessfulRequestIntervalSeconds`: 한 번 성공한 모델을 계속 사용할 때 다음 호출 전 확보하는 최소 간격(기본 60초)
+- `requestsPerMinute`, `tokensPerMinute`: 계정 한도 이하의 속도. 하루 2권 목표 기본값은 분당 최대 2회와 분당 입력 100,000 token입니다.
+- `minimumSuccessfulRequestIntervalSeconds`: 한 번 성공한 모델을 계속 사용할 때 다음 호출 전 확보하는 최소 간격(하루 2권 목표 기본값 90초)
 - `maxRequestsPerRun`, `maxTokensPerRun`: 한 실행의 최대 소비
-- `maxBooksPerRun`, `maxChunksPerRun`: 하루/회차 작업량
+- `maxBooksPerRun`, `maxChunksPerRun`: 한 번의 실행에서 처리할 최대 작업량
+- `maxBooksPerDay`: 같은 날 여러 번 실행해도 새로 완료하는 책을 2권으로 제한합니다. Gemini RPD와 동일하게 미국 태평양 시간 자정에 새 날짜로 넘어갑니다. 이미 완료된 동일 원문은 이 제한과 관계없이 건너뜁니다.
 - `maxRuntimeMinutes`: Actions timeout보다 작은 값
 - `safetyMargin`: 설정 한도의 실제 사용 비율
 - `maxRetries`: 모델별 추가 시도 횟수이며 현재 `1`

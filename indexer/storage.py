@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from indexer.checkpoint import atomic_write_json
 
@@ -40,6 +42,35 @@ class RepositoryStorage:
             if manifest.get("indexStatus") == "COMPLETE" and manifest.get("source", {}).get("sha256") == checksum:
                 return manifest
         return None
+
+    def completed_count_for_quota_day(self, now: datetime | None = None) -> int:
+        """Count books completed in the current Gemini RPD day (Pacific time)."""
+        path = self.data / "catalog.json"
+        if not path.exists():
+            return 0
+        try:
+            with path.open("r", encoding="utf-8") as handle:
+                books = json.load(handle).get("books", [])
+        except (OSError, json.JSONDecodeError, AttributeError):
+            return 0
+        pacific = ZoneInfo("America/Los_Angeles")
+        target_day = (now or datetime.now(timezone.utc)).astimezone(pacific).date()
+        count = 0
+        for book in books:
+            if book.get("indexStatus") != "COMPLETE":
+                continue
+            value = str(book.get("updatedAt") or book.get("indexedAt") or "").strip()
+            if not value:
+                continue
+            try:
+                completed_at = datetime.fromisoformat(value.replace("Z", "+00:00"))
+                if completed_at.tzinfo is None:
+                    completed_at = completed_at.replace(tzinfo=timezone.utc)
+            except ValueError:
+                continue
+            if completed_at.astimezone(pacific).date() == target_day:
+                count += 1
+        return count
 
     def save_book(self, book_id: str, files: dict[str, Any]) -> None:
         directory = self.data / "books" / book_id

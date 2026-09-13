@@ -76,6 +76,8 @@ class IndexPipeline:
             if missing:
                 LOG.warning("Selected files not found under folder scope: %s", ",".join(sorted(missing)))
         max_books = int(self.settings.quota.get("maxBooksPerRun", 0) or 0)
+        max_books_per_day = int(self.settings.quota.get("maxBooksPerDay", 0) or 0)
+        completed_before_run = self.storage.completed_count_for_quota_day()
         status = self._job("RUNNING", folder, len(books))
         self.live_status = status
         self.total_files = len(books)
@@ -98,7 +100,8 @@ class IndexPipeline:
                 status["message"] = "사용자 설정 maxBooksPerRun에 도달하여 안전하게 일시정지했습니다."
                 break
             try:
-                outcome = self._process_book(book, force, profile_override)
+                daily_slot_available = not max_books_per_day or completed_before_run + counts["complete"] < max_books_per_day
+                outcome = self._process_book(book, force, profile_override, allow_new_completion=daily_slot_available)
                 counts[outcome] += 1
                 if outcome == "complete":
                     manifest = self.storage.manifest(_book_id(book.id)) or {}
@@ -169,7 +172,7 @@ class IndexPipeline:
         self._emit_progress(final_status, status.get("message", "작업이 끝났습니다."), force=True, status_override=status)
         return status
 
-    def _process_book(self, book: DriveBook, force: bool, profile_override: str | None) -> str:
+    def _process_book(self, book: DriveBook, force: bool, profile_override: str | None, allow_new_completion: bool = True) -> str:
         book_id = _book_id(book.id)
         versions = self.settings.raw["versions"]
         existing = self.storage.manifest(book_id)
@@ -193,6 +196,9 @@ class IndexPipeline:
         parsed = parse_epub(raw) if book.mimeType == EPUB_MIME or book.name.casefold().endswith(".epub") else parse_txt(raw)
         if not parsed.text.strip():
             raise ValueError("parsed book is empty")
+        if not allow_new_completion:
+            daily_limit = int(self.settings.quota.get("maxBooksPerDay", 0) or 0)
+            raise BudgetExceeded(f"하루 {daily_limit}권 완료 목표에 도달했습니다. 미국 태평양 시간 자정 이후 다시 이어서 처리합니다.")
 
         overrides = self.storage.overrides().get(book.id, {})
         self._emit_progress("METADATA", "제목과 저자 근거를 확인하고 있습니다.", force=True)

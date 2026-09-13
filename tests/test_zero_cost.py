@@ -12,7 +12,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def test_repository_configuration_enforces_zero_cost():
-    Settings.load(ROOT).assert_zero_cost()
+    settings = Settings.load(ROOT)
+    settings.assert_zero_cost()
+    assert settings.quota["maxBooksPerRun"] == 2
+    assert settings.quota["maxBooksPerDay"] == 2
+    assert settings.quota["minimumSuccessfulRequestIntervalSeconds"] >= 90
 
 
 def test_paid_only_or_unpublished_model_is_rejected_even_if_runtime_lists_it():
@@ -36,7 +40,7 @@ def test_free_model_policy_retries_once_and_has_bounded_cooldown_cycles():
     assert settings.model_policy["retriesPerModel"] == 1
     assert settings.model_policy["maxModelCyclesPerRequest"] >= 2
     assert settings.model_policy["modelCycleCooldownSeconds"] >= 60
-    assert settings.quota["minimumSuccessfulRequestIntervalSeconds"] >= 60
+    assert settings.quota["minimumSuccessfulRequestIntervalSeconds"] >= 90
 
 
 def test_drive_quota_units_pause_before_crossing_budget():

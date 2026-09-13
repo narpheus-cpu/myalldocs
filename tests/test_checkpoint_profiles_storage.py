@@ -1,4 +1,5 @@
 import json
+from datetime import datetime, timezone
 
 from indexer.checkpoint import CheckpointStore
 from indexer.profiles import choose_profile
@@ -66,3 +67,16 @@ def test_completed_manifest_is_found_by_source_content_not_metadata(tmp_path):
     found = storage.completed_manifest_by_sha256("same-source-hash")
     assert found and found["bookId"] == "old-id"
     assert storage.completed_manifest_by_sha256("different-source-hash") is None
+
+
+def test_daily_completion_count_uses_pacific_quota_day(tmp_path):
+    data = tmp_path / "data"
+    data.mkdir()
+    (data / "catalog.json").write_text(json.dumps({"books": [
+        {"bookId": "same-day", "indexStatus": "COMPLETE", "updatedAt": "2026-09-13T07:30:00+00:00"},
+        {"bookId": "previous-day", "indexStatus": "COMPLETE", "updatedAt": "2026-09-13T06:30:00+00:00"},
+        {"bookId": "failed", "indexStatus": "ERROR", "updatedAt": "2026-09-13T08:00:00+00:00"},
+    ]}), encoding="utf-8")
+    storage = RepositoryStorage(tmp_path)
+    now = datetime(2026, 9, 13, 12, 0, tzinfo=timezone.utc)
+    assert storage.completed_count_for_quota_day(now) == 1

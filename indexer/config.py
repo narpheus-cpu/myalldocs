@@ -59,6 +59,6 @@ class Settings:
             if int(drive.get(name, 0) or 0) <= 0:
                 raise RuntimeError(f"ZERO_COST_POLICY_VIOLATION: {name} must be a positive safety limit")
         gemini = self.raw.get("quota", {})
-        for name in ("maxRequestsPerRun", "maxTokensPerRun", "maxBooksPerRun", "maxChunksPerRun", "maxRuntimeMinutes"):
+        for name in ("maxRequestsPerRun", "maxTokensPerRun", "maxBooksPerRun", "maxBooksPerDay", "maxChunksPerRun", "maxRuntimeMinutes"):
             if int(gemini.get(name, 0) or 0) <= 0:
                 raise RuntimeError(f"ZERO_COST_POLICY_VIOLATION: {name} must be a positive safety limit")
