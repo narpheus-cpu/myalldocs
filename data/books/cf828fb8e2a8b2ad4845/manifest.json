@@ -1,0 +1,172 @@
+{
+  "bookId": "cf828fb8e2a8b2ad4845",
+  "driveFileId": "150A0PnXLvxnxZ8Kxjh5P0CWMR5gt8Tzu",
+  "title": "히가시노 게이고",
+  "author": "외사랑(epub)",
+  "filename": "히가시노 게이고-외사랑(epub).txt",
+  "format": "txt",
+  "documentType": "fiction",
+  "genre": "추리 소설",
+  "contentGenre": "추리 소설",
+  "tags": [
+    "추리 소설",
+    "시험폴더",
+    "히가시노 게이고",
+    "외사랑",
+    "미스터리",
+    "젠더",
+    "트랜스젠더",
+    "미식축구",
+    "니시와키 데쓰로",
+    "리사코",
+    "히우라 미쓰키",
+    "나카오 고스케",
+    "하야타 유키히로",
+    "데쓰로와 리사코의 부부 관계",
+    "데쓰로와 미쓰키의 관계",
+    "데쓰로와 하야타의 관계",
+    "자수 및 은폐와 진실 추구의 갈등",
+    "성별 정체성과 사회적 제약의 충돌",
+    "살인 고백과 은폐 공모",
+    "정체성 추적과 호적 교환의 실체"
+  ],
+  "classification": {
+    "documentType": "fiction",
+    "genre": "추리 소설",
+    "topicTags": [
+      "히가시노 게이고",
+      "외사랑",
+      "미스터리",
+      "젠더",
+      "트랜스젠더",
+      "미식축구"
+    ],
+    "confidence": 0.95,
+    "reasons": [
+      {
+        "reason": "작가 히가시노 게이고의 저작 목록, 옮긴이 소개, 본문 서사, 판권 정보 및 작품 해설이 포함된 도서 발췌문입니다.",
+        "sourceChunkIds": [
+          1,
+          38,
+          74
+        ]
+      },
+      {
+        "reason": "인물 간의 대화와 과거 럭비·미식축구 경기 회상, 인물의 행적 및 정체를 추적하는 소설 형태의 서사가 전개됩니다.",
+        "sourceChunkIds": [
+          1,
+          38
+        ]
+      },
+      {
+        "reason": "작품 해설에서 젠더 문제, 트랜스젠더, 미스터리적 반전과 진실을 다루는 소설임을 명시하고 있습니다.",
+        "sourceChunkIds": [
+          74
+        ]
+      }
+    ],
+    "uncertain": false
+  },
+  "analysisProfile": "fiction",
+  "tabs": [
+    {
+      "key": "summary",
+      "label": "전체 요약"
+    },
+    {
+      "key": "sections",
+      "label": "구간별 요약"
+    },
+    {
+      "key": "characters",
+      "label": "주요 등장인물"
+    },
+    {
+      "key": "relationships",
+      "label": "인물 관계 변화"
+    },
+    {
+      "key": "settings",
+      "label": "배경 변화"
+    },
+    {
+      "key": "conflicts",
+      "label": "갈등 변화"
+    },
+    {
+      "key": "plot",
+      "label": "사건·플롯"
+    },
+    {
+      "key": "themes",
+      "label": "주제·상징"
+    }
+  ],
+  "metadata": {
+    "title": "히가시노 게이고",
+    "author": "외사랑(epub)",
+    "confidence": 0.56,
+    "evidence": [
+      {
+        "source": "title_page",
+        "title": "히가시노 게이고",
+        "weight": 0.38,
+        "detail": "본문 앞부분의 표제부 후보"
+      },
+      {
+        "source": "folder",
+        "title": "시험폴더1",
+        "weight": 0.12,
+        "detail": "시험폴더1"
+      },
+      {
+        "source": "filename",
+        "title": "히가시노 게이고",
+        "author": "외사랑(epub)",
+        "weight": 0.08,
+        "detail": "히가시노 게이고-외사랑(epub).txt"
+      },
+      {
+        "source": "ai_local_resolution",
+        "title": "히가시노 게이고",
+        "author": "외사랑(epub)",
+        "weight": 0.16,
+        "detail": "본문 표제부와 파일명에서 공통으로 확인된 명칭을 제목으로 선택하고, 제시된 증거 중 유일하게 저자로 명시된 파일명의 기록을 저자로 반영했습니다. 폴더명과의 명칭 불일치 및 증거 간 상충이 확인되어 충돌 여부를 참으로 기록했습니다."
+      }
+    ],
+    "titleSource": "title_page",
+    "authorSource": "ai_local_resolution",
+    "conflictDetected": false,
+    "metadataStatus": "NEEDS_METADATA_REVIEW",
+    "manualOverrideApplied": false
+  },
+  "source": {
+    "modifiedTime": "2026-01-02T21:57:36.000Z",
+    "md5Checksum": "a981c07f9974696d7693ecadbf5dc2db",
+    "sha256": "a3868a19529fe0437ed41ddb603b55ba11ba5cc81d0eaa5fe86a1656e4eb69cc",
+    "changeKey": "a981c07f9974696d7693ecadbf5dc2db",
+    "size": "839438",
+    "mimeType": "text/plain",
+    "folderPath": [
+      "시험폴더1"
+    ],
+    "webViewLink": "https://drive.google.com/file/d/150A0PnXLvxnxZ8Kxjh5P0CWMR5gt8Tzu/view?usp=drivesdk"
+  },
+  "model": {
+    "name": "gemini-3.5-flash-lite",
+    "sdk": "google-genai",
+    "selection": "runtime models.list policy"
+  },
+  "chunking": {
+    "targetCharacters": 5000,
+    "overlapCharacters": 250
+  },
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "indexStatus": "COMPLETE",
+  "indexedAt": "2026-09-13T13:59:54.044247+00:00"
+}
