@@ -1,0 +1,164 @@
+{
+  "bookId": "ebdab726f6ee89e4a8aa",
+  "driveFileId": "1PfxRkig_eYeqqBpsbkuaJWZAmTzQfTq7",
+  "title": "매스커레이드 호텔",
+  "author": "매스커레이드 호텔(OCR)",
+  "filename": "히가시노 게이고-매스커레이드 호텔(OCR).txt",
+  "format": "txt",
+  "documentType": "fiction",
+  "genre": "추리소설",
+  "contentGenre": "추리소설",
+  "tags": [
+    "추리소설",
+    "추리 공포 미스터리 첩보",
+    "호텔",
+    "형사",
+    "호텔리어",
+    "가면",
+    "일본문학",
+    "야마기시 나오미",
+    "닛타 고스케",
+    "후지키 총지배인",
+    "노세",
+    "나가쿠라 마키 (가타기리 요코)",
+    "야마기시 나오미와 닛타 고스케",
+    "닛타와 노세",
+    "코르테시아도쿄 호텔",
+    "호텔 서비스 표준 대 경찰 수사 목적",
+    "진범의 복수극 및 살인 공모 대 경찰",
+    "위장 잠입 수사와 범행 예고 파악",
+    "투숙객 비밀 해소와 살인 공모 전모 규명",
+    "진범 체포와 사건 해결"
+  ],
+  "classification": {
+    "documentType": "fiction",
+    "genre": "추리소설",
+    "topicTags": [
+      "추리소설",
+      "호텔",
+      "형사",
+      "호텔리어",
+      "가면",
+      "일본문학"
+    ],
+    "confidence": 1.0,
+    "reasons": [
+      {
+        "reason": "원문에는 히가시노 게이고의 소설 '매스커레이드 호텔'의 인물인 야마기시 나오미와 형사 닛타 고스케가 등장하는 본문 서사 및 대화가 직접적으로 서술되어 있습니다.",
+        "sourceChunkIds": [
+          1,
+          33
+        ]
+      },
+      {
+        "reason": "작가 소개, 번역가 소개, 출판 관련 정보 및 작품 해설에서 본 작품이 추리소설이자 서스펜스 요소를 가진 장편 소설임이 명확히 언급되어 있습니다.",
+        "sourceChunkIds": [
+          1,
+          65
+        ]
+      }
+    ],
+    "uncertain": false
+  },
+  "analysisProfile": "fiction",
+  "tabs": [
+    {
+      "key": "summary",
+      "label": "전체 요약"
+    },
+    {
+      "key": "sections",
+      "label": "구간별 요약"
+    },
+    {
+      "key": "characters",
+      "label": "주요 등장인물"
+    },
+    {
+      "key": "relationships",
+      "label": "인물 관계 변화"
+    },
+    {
+      "key": "settings",
+      "label": "배경 변화"
+    },
+    {
+      "key": "conflicts",
+      "label": "갈등 변화"
+    },
+    {
+      "key": "plot",
+      "label": "사건·플롯"
+    },
+    {
+      "key": "themes",
+      "label": "주제·상징"
+    }
+  ],
+  "metadata": {
+    "title": "매스커레이드 호텔",
+    "author": "매스커레이드 호텔(OCR)",
+    "confidence": 0.56,
+    "evidence": [
+      {
+        "source": "title_page",
+        "title": "매스커레이드 호텔",
+        "weight": 0.38,
+        "detail": "본문 앞부분의 표제부 후보"
+      },
+      {
+        "source": "folder",
+        "title": "04 추리 공포 미스터리 첩보",
+        "weight": 0.12,
+        "detail": "04 추리 공포 미스터리 첩보"
+      },
+      {
+        "source": "filename",
+        "title": "히가시노 게이고",
+        "author": "매스커레이드 호텔(OCR)",
+        "weight": 0.08,
+        "detail": "히가시노 게이고-매스커레이드 호텔(OCR).txt"
+      },
+      {
+        "source": "ai_local_resolution",
+        "title": "매스커레이드 호텔",
+        "weight": 0.16,
+        "detail": "가장 우선순위가 높은 본문 표제부 정보에서 '매스커레이드 호텔'을 도서 제목으로 선정을 완료했습니다. 파일명 출처는 가중치가 낮고 내부 항목에 오류가 존재하지만, 제시된 정보 후보 중 '히가시노 게이고'를 저자로 판별하여 선택했습니다. 출처 간 제목 및 저자 항목 설정에 불일치가 존재합니다."
+      }
+    ],
+    "titleSource": "title_page",
+    "authorSource": "filename",
+    "conflictDetected": false,
+    "metadataStatus": "NEEDS_METADATA_REVIEW",
+    "manualOverrideApplied": false
+  },
+  "source": {
+    "modifiedTime": "2026-01-16T10:43:58.000Z",
+    "md5Checksum": "19e85c1203ffbd943739bc5c3ed173f7",
+    "sha256": "7b9476361929a2060f4ee0d2da400bffaab07adcdc2971bad613b5603c513b22",
+    "changeKey": "19e85c1203ffbd943739bc5c3ed173f7",
+    "size": "774042",
+    "mimeType": "text/plain",
+    "folderPath": [
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "webViewLink": "https://drive.google.com/file/d/1PfxRkig_eYeqqBpsbkuaJWZAmTzQfTq7/view?usp=drivesdk"
+  },
+  "model": {
+    "name": "gemini-3.5-flash-lite",
+    "sdk": "google-genai",
+    "selection": "runtime models.list policy"
+  },
+  "chunking": {
+    "targetCharacters": 5000,
+    "overlapCharacters": 250
+  },
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "indexStatus": "COMPLETE",
+  "indexedAt": "2026-09-14T10:14:02.834170+00:00"
+}
