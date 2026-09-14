@@ -1,0 +1,161 @@
+{
+  "bookId": "5a4bd7393b4ac1d3e735",
+  "driveFileId": "1Wu3EZwHirnH-2KUzlba4IVBoOjzGljNY",
+  "title": "1 가시노 게이고",
+  "author": "나미야 잡화점의 기적 (OCR)",
+  "filename": "히가시노 게이고-나미야 잡화점의 기적 (OCR).txt",
+  "format": "txt",
+  "documentType": "fiction",
+  "genre": "장편소설",
+  "contentGenre": "장편소설",
+  "tags": [
+    "장편소설",
+    "추리 공포 미스터리 첩보",
+    "고민상담",
+    "비틀스",
+    "편지",
+    "기적",
+    "일본소설",
+    "아쓰야",
+    "쇼타",
+    "고헤이",
+    "달 토끼",
+    "마쓰오카 가쓰로",
+    "삼인조와 고민 상담자들의 관계",
+    "가쓰로와 아버지의 관계",
+    "다카유키 부자의 관계",
+    "고스케와 부모의 관계",
+    "나미야 잡화점",
+    "환광원",
+    "꿈과 현실의 갈등",
+    "존재론적 불안과 도망"
+  ],
+  "classification": {
+    "documentType": "fiction",
+    "genre": "장편소설",
+    "topicTags": [
+      "고민상담",
+      "비틀스",
+      "편지",
+      "기적",
+      "일본소설"
+    ],
+    "confidence": 1.0,
+    "reasons": [
+      {
+        "text": "첫 번째 발췌문에서 작가 히가시노 게이고의 대표작이자 장편소설인 '나미야 잡화점의 기적'의 도서 정보와 목차가 명시되어 있습니다.",
+        "sourceChunkIds": [
+          1
+        ]
+      },
+      {
+        "text": "두 번째 발췌문에서는 소설의 등장인물인 고스케가 비틀스 음악 바에 들어가 편지를 쓰려는 구체적인 서사적 묘사가 진행됩니다.",
+        "sourceChunkIds": [
+          30
+        ]
+      },
+      {
+        "text": "세 번째 발췌문에는 역자의 '옮긴이의 말'과 책의 출판 판권 정보가 포함되어 있어 이 문헌이 소설 단행본의 일부임을 증명합니다.",
+        "sourceChunkIds": [
+          59
+        ]
+      }
+    ],
+    "uncertain": false
+  },
+  "analysisProfile": "fiction",
+  "tabs": [
+    {
+      "key": "summary",
+      "label": "전체 요약"
+    },
+    {
+      "key": "sections",
+      "label": "구간별 요약"
+    },
+    {
+      "key": "characters",
+      "label": "주요 등장인물"
+    },
+    {
+      "key": "relationships",
+      "label": "인물 관계 변화"
+    },
+    {
+      "key": "settings",
+      "label": "배경 변화"
+    },
+    {
+      "key": "conflicts",
+      "label": "갈등 변화"
+    },
+    {
+      "key": "plot",
+      "label": "사건·플롯"
+    },
+    {
+      "key": "themes",
+      "label": "주제·상징"
+    }
+  ],
+  "metadata": {
+    "title": "1 가시노 게이고",
+    "author": "나미야 잡화점의 기적 (OCR)",
+    "confidence": 0.56,
+    "evidence": [
+      {
+        "source": "title_page",
+        "title": "1 가시노 게이고",
+        "weight": 0.38,
+        "detail": "본문 앞부분의 표제부 후보"
+      },
+      {
+        "source": "folder",
+        "title": "04 추리 공포 미스터리 첩보",
+        "weight": 0.12,
+        "detail": "04 추리 공포 미스터리 첩보"
+      },
+      {
+        "source": "filename",
+        "title": "히가시노 게이고",
+        "author": "나미야 잡화점의 기적 (OCR)",
+        "weight": 0.08,
+        "detail": "히가시노 게이고-나미야 잡화점의 기적 (OCR).txt"
+      }
+    ],
+    "titleSource": "title_page",
+    "authorSource": "filename",
+    "conflictDetected": false,
+    "metadataStatus": "NEEDS_METADATA_REVIEW",
+    "manualOverrideApplied": false
+  },
+  "source": {
+    "modifiedTime": "2026-01-16T10:41:18.000Z",
+    "md5Checksum": "00e93e109d5eb4009e950f0173659e48",
+    "sha256": "b245897cc4a7d94e9015679311d8f2bccc9b2911fda1e42db33d711eb2601f40",
+    "changeKey": "00e93e109d5eb4009e950f0173659e48",
+    "size": "675815",
+    "mimeType": "text/plain",
+    "folderPath": [
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "webViewLink": "https://drive.google.com/file/d/1Wu3EZwHirnH-2KUzlba4IVBoOjzGljNY/view?usp=drivesdk"
+  },
+  "model": {
+    "name": "gemini-3.5-flash-lite",
+    "sdk": "google-genai",
+    "selection": "runtime models.list policy"
+  },
+  "chunking": {
+    "targetCharacters": 5000,
+    "overlapCharacters": 250
+  },
+  "versions": {
+    "indexSchema": 1,
+    "prompt": 1,
+    "analysisProfile": 1,
+    "parser": 1
+  },
+  "indexStatus": "COMPLETE",
+  "indexedAt": "2026-09-14T16:33:59.347795+00:00"
+}
