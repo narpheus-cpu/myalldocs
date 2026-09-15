@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마티스: 원색의 마술사",
+    "author": "그자비에 지라르",
+    "genre": "예술 / 미술 / 전기",
+    "tags": [
+      "앙리 마티스",
+      "야수파",
+      "원색의 마술사",
+      "현대미술",
+      "화가 전기"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 그자비에 지라르는 미술사와 앙리 마티스의 작품 세계에 대한 깊은 조명을 바탕으로 그의 생애와 예술적 변천사를 다룬 평전 저작을 집필하였다.",
+    "oneLineSummary": "20세기 현대 미술의 거장 앙리 마티스의 생애와 예술 세계, 그리고 그의 대표적인 작품들의 창작 과정을 입체적으로 조명한 평전이다.",
+    "overallSummary": "이 책은 앙리 마티스의 유년 시절과 법률학도에서 화가로 전향하게 된 계기부터 시작하여, 야수파 운동의 주역으로 활약하고 후기에 이르러 컷아웃(종이 오리기) 기법과 대형 벽화 작업에 몰두하기까지의 예술적 여정을 따라간다. 각 시기별 주요 작품의 탄생 배경과 작가의 내면적 고뇌, 예술관을 당시의 편지, 대화, 평론 등을 엮어 상세히 풀어낸다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "persons",
+      "items": [
+        {
+          "name": "앙리 마티스",
+          "role": "주인공 / 화가",
+          "description": "20세기 현대 미술의 거장이자 야수파의 대표적인 화가로, 색채의 마술사로 불린다."
+        },
+        {
+          "name": "그자비에 지라르",
+          "role": "저자",
+          "description": "마티스의 생애와 예술 세계를 집대성한 평전의 저자."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "1869년 탄생부터 말년까지의 생애 주기",
+        "places": [
+          "프랑스 르카토캉브레지",
+          "파리",
+          "니스"
+        ],
+        "socialContext": "19세기 말에서 20세기 중반에 걸친 유럽 현대 미술의 변혁기",
+        "historicalContext": "야수파 운동의 전개 및 현대 모더니즘 미술의 형성기"
+      },
+      "external": {
+        "historicalContext": "20세기 미술사에서 색채의 자율성과 표현주의적 화풍이 대두되던 시기",
+        "publicationContext": "마티스의 예술적 유산을 대중과 연구자들에게 알리기 위해 출간된 평전"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "artistic_evolution",
+        "title": "예술적 발전과 색채의 탐구",
+        "content": "마티스가 전통적 화법에서 벗어나 순수한 색채와 형태의 조화를 추구하며 야수파를 거쳐 독창적인 자신만의 예술 세계를 구축해 가는 과정을 다룬다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1F3Jlrx5GeaaqG4rltnCdAk-3xXIuCGbd",
+    "filename": "그자비에 지라르-마티스-원색의 마술사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.307Z",
+    "size": "140318",
+    "folderPath": [
+      "books",
+      "14 전기"
+    ],
+    "relativePath": "books/14 전기",
+    "webViewLink": "https://drive.google.com/file/d/1F3Jlrx5GeaaqG4rltnCdAk-3xXIuCGbd/view?usp=drivesdk",
+    "sourceSha256": "59087874fd83cdf3c70f033a2ec2fa15684d9703bc73ab22cb745af7aa42ffa2",
+    "textSha256": "d8b66531582ebfa56967c6c52d9bbe02b9c9ecf66cfef82817b34bfd7d3500ce",
+    "changeKey": "af0b640bcf2e7735acb671740d4c99f8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "46475af411c1c1122be8",
+    "workId": "46475af411c1c1122be8",
+    "driveFileId": "1F3Jlrx5GeaaqG4rltnCdAk-3xXIuCGbd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-15T18:56:01.761795+00:00",
+    "updatedAt": "2026-09-15T18:56:01.761804+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false
+  }
+}
