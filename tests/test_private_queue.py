@@ -100,7 +100,9 @@ def test_private_management_storage_enables_drive_api_and_rejects_personal_email
     assert "function setupPrivateStorage()" in relay
     assert "iam\\.gserviceaccount\\.com" in relay
     assert "일반 Gmail 주소는 사용할 수 없습니다" in relay
-    assert "function driveApiError_" in relay
+    assert "function driveAdvancedError_" in relay
+    assert "Drive.Files.create" in relay
+    assert "Drive.Permissions.create" in relay
 
 
 def test_private_upload_authentication_happens_before_file_picker():
