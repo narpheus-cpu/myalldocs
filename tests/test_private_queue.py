@@ -90,6 +90,15 @@ def test_private_upload_retries_transient_relay_failures_idempotently():
     assert "UPLOAD_FINISHED_" in relay
 
 
+def test_private_upload_authentication_happens_before_file_picker():
+    root = Path(__file__).resolve().parents[1]
+    script = (root / "js" / "app.js").read_text(encoding="utf-8")
+    assert 'onclick=()=>beginPrivateFileChoice("catalog-jsonl")' in script
+    assert 'onclick=()=>$("#catalog-jsonl-file").click()' not in script
+    assert 'e.type==="popup_failed_to_open"' in script
+    assert "Google 계정이 연결됐습니다. 업로드 버튼을 한 번 더 눌러" in script
+
+
 def test_completed_json_path_has_explicit_no_gemini_client():
     root = Path(__file__).resolve().parents[1]
     source = (root / "indexer" / "queue_worker.py").read_text(encoding="utf-8")
