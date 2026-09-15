@@ -8,7 +8,7 @@ from indexer.models import DriveBook
 from indexer.prior_knowledge import prior_knowledge_prompt, valid_prior_result
 from indexer.private_queue import parse_jsonl
 from indexer.queue_context import service_account_email
-from indexer.queue_worker import match_entries
+from indexer.queue_worker import match_entries, reconcile_completed_entries
 
 
 def test_jsonl_is_parsed_in_memory_and_requires_txt_or_epub():
@@ -160,6 +160,32 @@ def test_queue_lookup_retries_transient_apps_script_timeouts():
     source = (root / "indexer" / "queue_context.py").read_text(encoding="utf-8")
     assert "for attempt in range(2)" in source
     assert "timeout=60" in source
+
+
+def test_missing_public_result_is_requeued_after_runner_commit_failure(tmp_path):
+    entries = [{"status": "COMPLETE", "bookId": "a" * 20, "driveFileId": "drive-file-1"}]
+    assert reconcile_completed_entries(entries, {}, tmp_path) == 1
+    assert entries[0]["status"] == "MATCHED"
+    assert "bookId" not in entries[0]
+
+    book = tmp_path / "data" / "books" / ("a" * 20) / "book.json"
+    book.parent.mkdir(parents=True)
+    book.write_text("{}", encoding="utf-8")
+    entries[0].update({"status": "COMPLETE", "bookId": "a" * 20})
+    catalog = {"drive-file-1": {"bookId": "a" * 20}}
+    assert reconcile_completed_entries(entries, catalog, tmp_path) == 0
+
+
+def test_queue_result_commit_and_callback_are_recoverable_and_idempotent():
+    root = Path(__file__).resolve().parents[1]
+    workflow = (root / ".github" / "workflows" / "queue-worker.yml").read_text(encoding="utf-8")
+    callback = (root / "indexer" / "queue_context.py").read_text(encoding="utf-8")
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    assert "data/job-status.json" in workflow
+    assert "for attempt in range(3)" in callback
+    assert '"resultId": result_id' in callback
+    assert "QUEUE_RESULT_" in relay
+    assert "LockService.getScriptLock()" in relay
 
 
 def test_private_upload_authentication_happens_before_file_picker():

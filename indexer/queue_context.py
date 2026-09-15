@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
 import time
@@ -46,16 +47,30 @@ def fetch_queue_context(url: str, secret: str, worker_email: str = "") -> dict:
 
 
 def notify_queue_result(url: str, secret: str, manifest_id: str, status: str, summary: dict) -> None:
+    result_payload = {
+        "manifestId": manifest_id, "status": status, "summary": summary,
+    }
+    result_id = hashlib.sha256(json.dumps(result_payload, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()
     body = json.dumps({
         "route": "queue-result", "callbackSecret": secret, "manifestId": manifest_id,
         "status": status, "allTargetsComplete": summary.get("allTargetsComplete") is True,
-        "summary": summary,
+        "summary": summary, "resultId": result_id,
     }, ensure_ascii=False).encode("utf-8")
-    request = urllib.request.Request(url, data=body, headers={"Content-Type": "text/plain;charset=utf-8"}, method="POST")
-    with urllib.request.urlopen(request, timeout=20) as response:
-        value = json.loads(response.read().decode("utf-8"))
-    if not isinstance(value, dict) or value.get("ok") is not True:
-        raise RuntimeError("Apps Script가 대기열 결과를 저장하지 못했습니다.")
+    last_error: Exception | None = None
+    for attempt in range(3):
+        request = urllib.request.Request(url, data=body, headers={"Content-Type": "text/plain;charset=utf-8"}, method="POST")
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                value = json.loads(response.read().decode("utf-8"))
+            if isinstance(value, dict) and value.get("ok") is True:
+                return
+            detail = str(value.get("error") or "")[:300] if isinstance(value, dict) else "응답 형식 오류"
+            raise RuntimeError(f"Apps Script가 대기열 결과를 저장하지 못했습니다: {detail}")
+        except (TimeoutError, OSError, ValueError, RuntimeError) as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+    raise RuntimeError(f"Apps Script 대기열 결과 통지가 3회 실패했습니다: {last_error}")
 
 
 def main() -> int:

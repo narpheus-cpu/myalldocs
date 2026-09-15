@@ -72,7 +72,9 @@ jobs:
         run: |
           git config user.name "book-indexer[bot]"
           git config user.email "book-indexer[bot]@users.noreply.github.com"
-          git add data/catalog.json data/search-index.json data/books
+          # job-status.json is written by the worker too.  Leaving it unstaged
+          # makes `git pull --rebase` reject an otherwise valid result commit.
+          git add data/catalog.json data/search-index.json data/job-status.json data/books
           if git diff --cached --quiet; then
             echo "No public book data changed."
           else

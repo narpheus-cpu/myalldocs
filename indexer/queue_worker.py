@@ -109,6 +109,31 @@ def _catalog_by_drive(root: Path) -> dict[str, dict[str, Any]]:
     return {str(item.get("driveFileId")): item for item in values if item.get("driveFileId")}
 
 
+def reconcile_completed_entries(entries: list[dict[str, Any]], catalog: dict[str, dict[str, Any]], root: Path) -> int:
+    """Requeue items whose private checkpoint says COMPLETE but whose public result is absent.
+
+    A runner can disappear after saving the private checkpoint but before its Git
+    commit reaches the repository.  Treat the repository book plus catalog row as
+    the durable completion boundary so the next run repairs that split state.
+    """
+    repaired = 0
+    for item in entries:
+        if item.get("status") != "COMPLETE":
+            continue
+        book_id = str(item.get("bookId") or "")
+        drive_file_id = str(item.get("driveFileId") or "")
+        catalog_entry = catalog.get(drive_file_id, {})
+        book_exists = bool(re.fullmatch(r"[0-9a-f]{20}", book_id)) and (root / "data" / "books" / book_id / "book.json").is_file()
+        catalog_matches = str(catalog_entry.get("bookId") or "") == book_id
+        if book_exists and catalog_matches:
+            continue
+        item["status"] = "MATCHED"
+        item["reason"] = "이전 실행 결과가 GitHub에 반영되지 않아 자동으로 다시 처리합니다."
+        item.pop("bookId", None)
+        repaired += 1
+    return repaired
+
+
 class QueueWorker:
     def __init__(self, settings: Settings, source_drive: DriveClient, private_drive: PrivateQueueDrive, gemini: GeminiClient, progress: ProgressReporter) -> None:
         self.settings = settings
@@ -167,6 +192,11 @@ class QueueWorker:
             drive_books = list(self.source_drive.iter_books(root_id, True))
 
         queue_entries = state["entries"]
+        catalog = _catalog_by_drive(self.settings.root)
+        repaired = reconcile_completed_entries(queue_entries, catalog, self.settings.root)
+        if repaired:
+            state.update({"entries": queue_entries, "updatedAt": _now(), "recoveredMissingPublicResults": repaired})
+            self.private_drive.save_state(bundle, state)
         complete_before = sum(1 for item in queue_entries if item.get("status") in {"COMPLETE", "SKIPPED"})
         counts = {
             "complete": sum(1 for item in queue_entries if item.get("status") == "COMPLETE"),
@@ -179,7 +209,6 @@ class QueueWorker:
         max_books = int(self.settings.raw.get("queue", {}).get("maxBooksPerRun", 20) or 20)
         processed = 0
         pause = ""
-        catalog = _catalog_by_drive(self.settings.root)
         books_by_id = {book.id: book for book in drive_books}
 
         for index, item in enumerate(queue_entries):

@@ -242,8 +242,16 @@ function handleQueueResult_(body) {
   assertCallbackSecret_(body);
   var id = String(body.manifestId || '');
   var status = String(body.status || '');
+  var resultId = String(body.resultId || '');
+  if (!/^[0-9a-f]{64}$/.test(resultId)) throw new Error('대기열 결과 번호가 올바르지 않습니다.');
   var allTargetsComplete = status === 'COMPLETE' && body.allTargetsComplete === true;
+  var lock = LockService.getScriptLock();
+  lock.waitLock(15000);
+  try {
   var properties = PropertiesService.getScriptProperties();
+  var resultKey = 'QUEUE_RESULT_' + resultId;
+  var previous = properties.getProperty(resultKey);
+  if (previous) return JSON.parse(previous);
   if (allTargetsComplete || ['NEEDS_USER_REVIEW','NO_SUPPORTED_MODEL'].indexOf(status) >= 0) {
     properties.setProperty('PRIVATE_QUEUE_MANIFEST_IDS', JSON.stringify(queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').filter(function(item) { return item !== id; })));
     if (status !== 'COMPLETE') {
@@ -268,7 +276,12 @@ function handleQueueResult_(body) {
   if (continueNow) {
     try { dispatchQueueWorkflow_(); continued = true; } catch (error) { continued = false; }
   }
-  return json_({ok: true, continued: continued});
+  var response = {ok: true, continued: continued};
+  properties.setProperty(resultKey, JSON.stringify(response));
+  return json_(response);
+  } finally {
+    lock.releaseLock();
+  }
 }
 
 function queueAdmin_(options) {
