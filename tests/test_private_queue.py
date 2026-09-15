@@ -118,6 +118,9 @@ def test_private_management_storage_enables_drive_api_and_rejects_personal_email
     assert "function driveAdvancedError_" in relay
     assert "Drive.Files.create" in relay
     assert "Drive.Permissions.create" in relay
+    assert "driveEnsureEditor_(folder.id" in relay
+    assert "ensureQueueManifestAccess_(ids[0])" in relay
+    assert "Drive.Permissions.list" in relay
 
 
 def test_private_upload_authentication_happens_before_file_picker():

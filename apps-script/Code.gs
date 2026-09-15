@@ -67,6 +67,7 @@ function startPrivateUpload_(body) {
     var id = Utilities.getUuid();
     var parentId = ensureManagementFolderId_();
     var folder = driveCreateMetadata_({name: 'upload-' + id, mimeType: 'application/vnd.google-apps.folder', parents: [parentId]});
+    driveEnsureEditor_(folder.id, requiredProperty_('SERVICE_ACCOUNT_EMAIL').trim());
     var record = {id: id, kind: kind, filename: filename, size: size, partCount: partCount, folderId: folder.id, createdAt: new Date().toISOString()};
     properties.setProperty('UPLOAD_SESSION_' + id, JSON.stringify(record));
     var response = {ok: true, uploadId: id, partBytes: 131072};
@@ -170,7 +171,19 @@ function appendQueueManifest_(id) {
 function handlePrivateQueue_(body) {
   assertCallbackSecret_(body);
   var ids = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS');
+  if (ids.length) ensureQueueManifestAccess_(ids[0]);
   return json_({ok: true, manifestId: ids.length ? ids[0] : ''});
+}
+
+function ensureQueueManifestAccess_(manifestId) {
+  try {
+    var metadata = Drive.Files.get(String(manifestId), {fields: 'id,parents', supportsAllDrives: true});
+    (metadata.parents || []).forEach(function(parentId) {
+      driveEnsureEditor_(parentId, requiredProperty_('SERVICE_ACCOUNT_EMAIL').trim());
+    });
+  } catch (error) {
+    throw driveAdvancedError_('비공개 대기열을 서비스 계정과 공유하지 못했습니다', error);
+  }
 }
 
 function handleQueueResult_(body) {
@@ -588,6 +601,21 @@ function driveShareEditor_(fileId, email) {
     );
   } catch (error) {
     throw driveAdvancedError_('비공개 관리 폴더를 서비스 계정과 공유하지 못했습니다', error);
+  }
+}
+
+function driveEnsureEditor_(fileId, email) {
+  try {
+    var permissions = Drive.Permissions.list(String(fileId), {
+      fields: 'permissions(id,type,role,emailAddress)', supportsAllDrives: true
+    }).permissions || [];
+    var exists = permissions.some(function(permission) {
+      return String(permission.emailAddress || '').toLowerCase() === String(email || '').toLowerCase() &&
+        ['writer', 'owner', 'organizer', 'fileOrganizer'].indexOf(permission.role) >= 0;
+    });
+    if (!exists) driveShareEditor_(fileId, email);
+  } catch (error) {
+    throw driveAdvancedError_('비공개 관리 폴더 권한을 확인하지 못했습니다', error);
   }
 }
 
