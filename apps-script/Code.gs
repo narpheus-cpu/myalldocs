@@ -510,63 +510,62 @@ function dispatchQueueWorkflow_() {
   return {requested: true};
 }
 
-function driveHeaders_() {
-  return {Authorization: 'Bearer ' + ScriptApp.getOAuthToken()};
-}
-
-function driveApiError_(prefix, response) {
-  var code = response.getResponseCode();
-  var detail = '';
-  try {
-    var parsed = JSON.parse(response.getContentText() || '{}');
-    var apiError = parsed.error || {};
-    var reason = apiError.errors && apiError.errors[0] && apiError.errors[0].reason;
-    detail = [reason, apiError.message].filter(Boolean).join(' · ').slice(0, 500);
-  } catch (error) {}
-  return new Error(prefix + ': HTTP ' + code + (detail ? ' · ' + detail : ''));
+function driveAdvancedError_(prefix, error) {
+  var detail = String(error && error.message || error || '').replace(/\s+/g, ' ').trim().slice(0, 500);
+  return new Error(prefix + (detail ? ': ' + detail : ''));
 }
 
 function driveGetMetadata_(id) {
-  var url = 'https://www.googleapis.com/drive/v3/files/' + encodeURIComponent(id) + '?fields=id,name,mimeType,size&supportsAllDrives=true';
-  var response = UrlFetchApp.fetch(url, {headers: driveHeaders_(), muteHttpExceptions: true});
-  if (response.getResponseCode() !== 200) throw driveApiError_('비공개 관리 파일을 확인하지 못했습니다', response);
-  return JSON.parse(response.getContentText() || '{}');
+  try {
+    return Drive.Files.get(String(id), {fields: 'id,name,mimeType,size', supportsAllDrives: true});
+  } catch (error) {
+    throw driveAdvancedError_('비공개 관리 파일을 확인하지 못했습니다', error);
+  }
 }
 
 function driveListChildren_(parentId) {
   var q = "'" + String(parentId).replace(/'/g, "\\'") + "' in parents and trashed = false";
-  var url = 'https://www.googleapis.com/drive/v3/files?q=' + encodeURIComponent(q) + '&fields=files(id,name,size,mimeType)&pageSize=1000&supportsAllDrives=true&includeItemsFromAllDrives=true';
-  var response = UrlFetchApp.fetch(url, {headers: driveHeaders_(), muteHttpExceptions: true});
-  if (response.getResponseCode() !== 200) throw driveApiError_('비공개 업로드 조각을 확인하지 못했습니다', response);
-  return JSON.parse(response.getContentText() || '{}').files || [];
+  try {
+    var response = Drive.Files.list({
+      q: q,
+      fields: 'files(id,name,size,mimeType)',
+      pageSize: 1000,
+      supportsAllDrives: true,
+      includeItemsFromAllDrives: true
+    });
+    return response.files || [];
+  } catch (error) {
+    throw driveAdvancedError_('비공개 업로드 조각을 확인하지 못했습니다', error);
+  }
 }
 
 function driveCreateMetadata_(metadata) {
-  var response = UrlFetchApp.fetch('https://www.googleapis.com/drive/v3/files?fields=id,name&supportsAllDrives=true', {
-    method: 'post', contentType: 'application/json', payload: JSON.stringify(metadata), headers: driveHeaders_(), muteHttpExceptions: true
-  });
-  if (response.getResponseCode() !== 200) throw driveApiError_('비공개 관리 폴더를 만들지 못했습니다', response);
-  return JSON.parse(response.getContentText() || '{}');
+  try {
+    return Drive.Files.create(metadata, null, {fields: 'id,name', supportsAllDrives: true});
+  } catch (error) {
+    throw driveAdvancedError_('비공개 관리 폴더를 만들지 못했습니다', error);
+  }
 }
 
 function driveCreateFile_(metadata, bytes, mimeType) {
-  var boundary = 'bookmap_' + Utilities.getUuid().replace(/-/g, '');
-  var head = '--' + boundary + '\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n' + JSON.stringify(metadata) + '\r\n--' + boundary + '\r\nContent-Type: ' + mimeType + '\r\n\r\n';
-  var tail = '\r\n--' + boundary + '--';
-  var payload = Utilities.newBlob(head).getBytes().concat(bytes).concat(Utilities.newBlob(tail).getBytes());
-  var response = UrlFetchApp.fetch('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id,name,size&supportsAllDrives=true', {
-    method: 'post', contentType: 'multipart/related; boundary=' + boundary, payload: payload, headers: driveHeaders_(), muteHttpExceptions: true
-  });
-  if (response.getResponseCode() !== 200) throw driveApiError_('비공개 관리 파일을 저장하지 못했습니다', response);
-  return JSON.parse(response.getContentText() || '{}');
+  try {
+    var blob = Utilities.newBlob(bytes, mimeType, metadata.name || 'upload.bin');
+    return Drive.Files.create(metadata, blob, {fields: 'id,name,size', supportsAllDrives: true});
+  } catch (error) {
+    throw driveAdvancedError_('비공개 관리 파일을 저장하지 못했습니다', error);
+  }
 }
 
 function driveShareEditor_(fileId, email) {
-  var url = 'https://www.googleapis.com/drive/v3/files/' + encodeURIComponent(fileId) + '/permissions?supportsAllDrives=true&sendNotificationEmail=false';
-  var response = UrlFetchApp.fetch(url, {
-    method: 'post', contentType: 'application/json', payload: JSON.stringify({type: 'user', role: 'writer', emailAddress: email}), headers: driveHeaders_(), muteHttpExceptions: true
-  });
-  if (response.getResponseCode() !== 200) throw driveApiError_('비공개 관리 폴더를 서비스 계정과 공유하지 못했습니다', response);
+  try {
+    Drive.Permissions.create(
+      {type: 'user', role: 'writer', emailAddress: email},
+      String(fileId),
+      {supportsAllDrives: true, sendNotificationEmail: false, fields: 'id'}
+    );
+  } catch (error) {
+    throw driveAdvancedError_('비공개 관리 폴더를 서비스 계정과 공유하지 못했습니다', error);
+  }
 }
 
 function normalizeTags_(value) {
