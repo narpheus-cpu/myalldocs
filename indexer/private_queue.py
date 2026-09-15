@@ -1,7 +1,10 @@
 from __future__ import annotations
 
+import base64
+import gzip
 import io
 import json
+import time
 import urllib.request
 from dataclasses import dataclass
 from typing import Any
@@ -76,24 +79,35 @@ class PrivateQueueDrive:
     def save_state(self, bundle: QueueBundle, state: dict[str, Any]) -> None:
         if not self.callback_url or not self.callback_secret:
             raise RuntimeError("비공개 대기열 상태 저장 연결이 없습니다.")
+        compressed = gzip.compress(json.dumps(state, ensure_ascii=False).encode("utf-8"), compresslevel=6)
         body = json.dumps({
             "route": "queue-state",
             "callbackSecret": self.callback_secret,
             "manifestId": bundle.manifest_id,
-            "state": state,
+            "stateGzipBase64": base64.b64encode(compressed).decode("ascii"),
         }, ensure_ascii=False).encode("utf-8")
-        request = urllib.request.Request(
-            self.callback_url,
-            data=body,
-            headers={"Content-Type": "text/plain;charset=utf-8"},
-            method="POST",
-        )
-        with urllib.request.urlopen(request, timeout=30) as response:
-            value = json.loads(response.read().decode("utf-8"))
-        if not isinstance(value, dict) or value.get("ok") is not True:
-            detail = str(value.get("error") or "")[:300] if isinstance(value, dict) else "응답 형식 오류"
-            raise RuntimeError(f"Apps Script가 비공개 대기열 상태를 저장하지 못했습니다: {detail}")
-        bundle.state = state
+        value: Any = None
+        last_error: Exception | None = None
+        for attempt in range(2):
+            request = urllib.request.Request(
+                self.callback_url,
+                data=body,
+                headers={"Content-Type": "text/plain;charset=utf-8"},
+                method="POST",
+            )
+            try:
+                with urllib.request.urlopen(request, timeout=90) as response:
+                    value = json.loads(response.read().decode("utf-8"))
+                if isinstance(value, dict) and value.get("ok") is True:
+                    bundle.state = state
+                    return
+                detail = str(value.get("error") or "")[:300] if isinstance(value, dict) else "응답 형식 오류"
+                raise RuntimeError(f"Apps Script가 비공개 대기열 상태를 저장하지 못했습니다: {detail}")
+            except (TimeoutError, OSError) as exc:
+                last_error = exc
+                if attempt == 0:
+                    time.sleep(2)
+        raise RuntimeError(f"Apps Script 상태 저장 연결 시간이 초과되었습니다: {type(last_error).__name__}")
 
 
 def parse_jsonl(payload: bytes) -> list[dict[str, Any]]:

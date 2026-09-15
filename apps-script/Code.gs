@@ -210,6 +210,10 @@ function handleQueueState_(body) {
   var allowed = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').concat(queueIds_('PRIVATE_REVIEW_MANIFEST_IDS'));
   if (allowed.indexOf(id) < 0) throw new Error('등록되지 않은 대기열입니다.');
   var state = body.state;
+  if (body.stateGzipBase64) {
+    var zipped = Utilities.newBlob(Utilities.base64Decode(String(body.stateGzipBase64)));
+    state = JSON.parse(Utilities.ungzip(zipped).getDataAsString('UTF-8'));
+  }
   if (!state || typeof state !== 'object' || Array.isArray(state)) throw new Error('대기열 상태 형식이 올바르지 않습니다.');
   var encoded = JSON.stringify(state, null, 2);
   if (encoded.length > 10000000) throw new Error('대기열 상태가 너무 큽니다.');

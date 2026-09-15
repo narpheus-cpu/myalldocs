@@ -23,6 +23,9 @@ def test_private_queue_reads_shared_files_but_delegates_state_writes():
     source = (root / "indexer" / "private_queue.py").read_text(encoding="utf-8")
     assert '"https://www.googleapis.com/auth/drive.readonly"' in source
     assert '"route": "queue-state"' in source
+    assert '"stateGzipBase64"' in source
+    assert "gzip.compress" in source
+    assert "timeout=90" in source
     assert 'str(value.get("error") or "")[:300]' in source
     assert 'self.service.files().update' not in source
     assert 'self.service.files().create' not in source
@@ -139,6 +142,7 @@ def test_private_management_storage_enables_drive_api_and_rejects_personal_email
     assert "normalizeServiceAccountEmail_" in relay
     assert "body.route === 'queue-state'" in relay
     assert "function handleQueueState_(body)" in relay
+    assert "Utilities.ungzip" in relay
 
 
 def test_queue_worker_uses_the_service_account_identity_from_its_secret():
