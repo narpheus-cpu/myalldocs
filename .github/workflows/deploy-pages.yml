@@ -4,10 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  # Pushes made with the Index books workflow token do not create another push
-  # workflow run. This event guarantees that committed catalog changes deploy.
+  # Pushes made with a workflow token do not create another push workflow run.
+  # These events guarantee that every committed catalog change reaches Pages.
   workflow_run:
-    workflows: ["Index books"]
+    workflows: ["Index books", "Process private upload queue"]
     types: [completed]
 
 permissions:

@@ -209,7 +209,7 @@ def test_duplicate_dispatch_is_blocked_in_browser_relay_and_workflow_checkout_is
 def test_index_completion_explicitly_triggers_pages_and_email_can_be_retried():
     pages = (ROOT / ".github" / "workflows" / "deploy-pages.yml").read_text(encoding="utf-8")
     retry = (ROOT / ".github" / "workflows" / "retry-completion-email.yml").read_text(encoding="utf-8")
-    assert 'workflows: ["Index books"]' in pages
+    assert 'workflows: ["Index books", "Process private upload queue"]' in pages
     assert "types: [completed]" in pages
     assert "python -m indexer.notify" in retry
 
