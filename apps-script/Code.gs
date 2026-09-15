@@ -172,11 +172,15 @@ function appendQueueManifest_(id) {
 function handlePrivateQueue_(body) {
   assertCallbackSecret_(body);
   var properties = PropertiesService.getScriptProperties();
-  var serviceAccountEmail = normalizeServiceAccountEmail_(body.serviceAccountEmail || properties.getProperty('SERVICE_ACCOUNT_EMAIL'));
-  if (body.serviceAccountEmail) properties.setProperty('SERVICE_ACCOUNT_EMAIL', serviceAccountEmail);
-  driveEnsureEditor_(ensureManagementFolderId_(), serviceAccountEmail);
+  var incomingEmail = body.serviceAccountEmail ? normalizeServiceAccountEmail_(body.serviceAccountEmail) : '';
+  var storedEmail = String(properties.getProperty('SERVICE_ACCOUNT_EMAIL') || '').trim().toLowerCase();
+  var serviceAccountEmail = incomingEmail || normalizeServiceAccountEmail_(storedEmail);
   var ids = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS');
-  if (ids.length) ensureQueueManifestAccess_(ids[0], serviceAccountEmail);
+  if (incomingEmail && incomingEmail !== storedEmail) {
+    properties.setProperty('SERVICE_ACCOUNT_EMAIL', serviceAccountEmail);
+    driveEnsureEditor_(ensureManagementFolderId_(), serviceAccountEmail);
+    if (ids.length) ensureQueueManifestAccess_(ids[0], serviceAccountEmail);
+  }
   return json_({ok: true, manifestId: ids.length ? ids[0] : ''});
 }
 

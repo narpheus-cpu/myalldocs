@@ -140,6 +140,7 @@ def test_private_management_storage_enables_drive_api_and_rejects_personal_email
     assert "Drive.Permissions.list" in relay
     assert "body.serviceAccountEmail" in relay
     assert "normalizeServiceAccountEmail_" in relay
+    assert "incomingEmail !== storedEmail" in relay
     assert "body.route === 'queue-state'" in relay
     assert "function handleQueueState_(body)" in relay
     assert "Utilities.ungzip" in relay
@@ -150,6 +151,13 @@ def test_queue_worker_uses_the_service_account_identity_from_its_secret():
     assert service_account_email('{"client_email":"Worker@Project.iam.gserviceaccount.com"}') == "worker@project.iam.gserviceaccount.com"
     assert service_account_email('{"client_email":"ordinary@example.com"}') == ""
     assert service_account_email("not-json") == ""
+
+
+def test_queue_lookup_retries_transient_apps_script_timeouts():
+    root = Path(__file__).resolve().parents[1]
+    source = (root / "indexer" / "queue_context.py").read_text(encoding="utf-8")
+    assert "for attempt in range(2)" in source
+    assert "timeout=60" in source
 
 
 def test_private_upload_authentication_happens_before_file_picker():

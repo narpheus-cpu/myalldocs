@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import time
 import urllib.request
 
 
@@ -25,8 +26,19 @@ def fetch_queue_context(url: str, secret: str, worker_email: str = "") -> dict:
         "serviceAccountEmail": worker_email,
     }).encode("utf-8")
     request = urllib.request.Request(url, data=body, headers={"Content-Type": "text/plain;charset=utf-8"}, method="POST")
-    with urllib.request.urlopen(request, timeout=20) as response:
-        value = json.loads(response.read().decode("utf-8"))
+    value = None
+    last_error: Exception | None = None
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                value = json.loads(response.read().decode("utf-8"))
+            break
+        except (TimeoutError, OSError) as exc:
+            last_error = exc
+            if attempt == 0:
+                time.sleep(2)
+    if value is None:
+        raise RuntimeError(f"Apps Script 대기열 조회 시간이 초과되었습니다: {type(last_error).__name__}")
     if not isinstance(value, dict) or value.get("ok") is not True:
         raise RuntimeError("Apps Script가 비공개 대기열을 제공하지 못했습니다.")
     manifest_id = str(value.get("manifestId") or "")
