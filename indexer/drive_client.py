@@ -93,6 +93,10 @@ class DriveClient:
                 raise
         return handle.getvalue()
 
+    def file_metadata(self, file_id: str, fields: str = "id,name,mimeType,modifiedTime,md5Checksum,size,webViewLink,parents") -> dict:
+        request = self.service.files().get(fileId=file_id, fields=fields, supportsAllDrives=True)
+        return self._execute(request, "files.get")
+
     def _execute(self, request, operation: str):
         self.quota.consume_operation(operation)
         try:

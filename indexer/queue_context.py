@@ -1,0 +1,54 @@
+from __future__ import annotations
+
+import json
+import os
+import re
+import urllib.request
+
+
+ID_PATTERN = re.compile(r"^[A-Za-z0-9_-]{10,200}$")
+
+
+def fetch_queue_context(url: str, secret: str) -> dict:
+    if not url or not secret:
+        return {}
+    body = json.dumps({"route": "private-queue", "callbackSecret": secret}).encode("utf-8")
+    request = urllib.request.Request(url, data=body, headers={"Content-Type": "text/plain;charset=utf-8"}, method="POST")
+    with urllib.request.urlopen(request, timeout=20) as response:
+        value = json.loads(response.read().decode("utf-8"))
+    if not isinstance(value, dict) or value.get("ok") is not True:
+        raise RuntimeError("Apps Script가 비공개 대기열을 제공하지 못했습니다.")
+    manifest_id = str(value.get("manifestId") or "")
+    return {"manifestId": manifest_id if ID_PATTERN.fullmatch(manifest_id) else ""}
+
+
+def notify_queue_result(url: str, secret: str, manifest_id: str, status: str, summary: dict) -> None:
+    body = json.dumps({
+        "route": "queue-result", "callbackSecret": secret, "manifestId": manifest_id,
+        "status": status, "allTargetsComplete": summary.get("allTargetsComplete") is True,
+        "summary": summary,
+    }, ensure_ascii=False).encode("utf-8")
+    request = urllib.request.Request(url, data=body, headers={"Content-Type": "text/plain;charset=utf-8"}, method="POST")
+    with urllib.request.urlopen(request, timeout=20) as response:
+        value = json.loads(response.read().decode("utf-8"))
+    if not isinstance(value, dict) or value.get("ok") is not True:
+        raise RuntimeError("Apps Script가 대기열 결과를 저장하지 못했습니다.")
+
+
+def main() -> int:
+    try:
+        context = fetch_queue_context(os.getenv("APPS_SCRIPT_CALLBACK_URL", ""), os.getenv("APPS_SCRIPT_CALLBACK_SECRET", ""))
+    except Exception as exc:
+        print(f"Private queue lookup failed safely: {type(exc).__name__}")
+        return 1
+    destination = os.getenv("GITHUB_ENV", "")
+    if not destination:
+        raise RuntimeError("GITHUB_ENV is unavailable")
+    with open(destination, "a", encoding="utf-8") as handle:
+        handle.write(f"PRIVATE_QUEUE_MANIFEST_ID={context.get('manifestId', '')}\n")
+    print("Private queue is ready." if context.get("manifestId") else "Private queue is empty; no API request will be made.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

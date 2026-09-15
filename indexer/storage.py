@@ -7,6 +7,7 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 from indexer.checkpoint import atomic_write_json
+from indexer.canonical import normalize_canonical, write_search_index
 
 
 class RepositoryStorage:
@@ -28,6 +29,14 @@ class RepositoryStorage:
             return None
         with path.open("r", encoding="utf-8") as handle:
             return json.load(handle)
+
+    def canonical(self, book_id: str) -> dict | None:
+        path = self.data / "books" / book_id / "book.json"
+        if not path.exists():
+            return None
+        with path.open("r", encoding="utf-8") as handle:
+            value = json.load(handle)
+        return value if isinstance(value, dict) else None
 
     def completed_manifest_by_sha256(self, checksum: str) -> dict | None:
         books = self.data / "books"
@@ -76,6 +85,36 @@ class RepositoryStorage:
         directory = self.data / "books" / book_id
         for name, value in files.items():
             atomic_write_json(directory / name, value)
+
+    def save_canonical(self, value: dict[str, Any]) -> dict[str, Any]:
+        book = normalize_canonical(value)
+        book_id = book["system"]["libraryEntryId"]
+        if not book_id:
+            raise ValueError("canonical book ID is empty")
+        atomic_write_json(self.data / "books" / book_id / "book.json", book)
+        identity = book["identity"]
+        source = book["source"]
+        system = book["system"]
+        self.update_catalog({
+            "bookId": book_id,
+            "driveFileId": source["driveFileId"],
+            "title": identity["title"],
+            "author": identity["author"],
+            "documentType": identity["workProfile"]["primary"],
+            "genre": identity["genre"],
+            "tags": identity["tags"],
+            "format": source["format"],
+            "indexStatus": system["indexStatus"],
+            "metadataStatus": system["identityStatus"],
+            "generationSource": system["generation"]["source"],
+            "edited": system["edited"],
+            "createdAt": system["createdAt"],
+            "updatedAt": system["updatedAt"],
+            "webViewLink": source["webViewLink"],
+            "oneLineSummary": book["content"]["oneLineSummary"],
+        })
+        write_search_index(self.root)
+        return book
 
     def update_catalog(self, entry: dict) -> None:
         path = self.data / "catalog.json"

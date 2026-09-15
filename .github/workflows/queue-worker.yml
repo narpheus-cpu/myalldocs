@@ -1,0 +1,81 @@
+name: Process private upload queue
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Free-tier limits reset on Pacific time. Four quiet checks per day keep a
+    # paused queue moving without making a Gemini call when the queue is empty.
+    - cron: "20 0,6,12,18 * * *"
+      timezone: "America/Los_Angeles"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: book-indexer
+  cancel-in-progress: false
+
+jobs:
+  queue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      DRIVE_ROOT_FOLDER_ID: ${{ vars.DRIVE_ROOT_FOLDER_ID }}
+      APPS_SCRIPT_CALLBACK_URL: ${{ secrets.APPS_SCRIPT_CALLBACK_URL }}
+      APPS_SCRIPT_CALLBACK_SECRET: ${{ secrets.APPS_SCRIPT_CALLBACK_SECRET }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+      - name: Enforce zero-cost standard-runner policy
+        env:
+          REPOSITORY_IS_PRIVATE: ${{ github.event.repository.private }}
+        shell: bash
+        run: |
+          if [[ "$REPOSITORY_IS_PRIVATE" != "false" ]]; then
+            echo "::error::Zero-cost mode only permits the standard runner for this public repository."
+            exit 1
+          fi
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Install current supported SDKs
+        run: python -m pip install -r requirements.txt
+      - name: Run tests before processing
+        run: python -m pytest -q
+      - name: Load the next private queue item
+        run: python -m indexer.queue_context
+      - name: Load the current user-saved Gemini key
+        if: env.PRIVATE_QUEUE_MANIFEST_ID != ''
+        run: python -m indexer.runtime_secret
+      - name: Process or resume the private queue
+        id: queue
+        if: env.PRIVATE_QUEUE_MANIFEST_ID != ''
+        shell: bash
+        run: |
+          set +e
+          python -m indexer.queue_worker
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+      - name: Migrate legacy results and rebuild public indexes
+        if: env.PRIVATE_QUEUE_MANIFEST_ID != ''
+        run: python -m indexer.migrate_canonical
+      - name: Commit only public completed results
+        if: env.PRIVATE_QUEUE_MANIFEST_ID != ''
+        shell: bash
+        run: |
+          git config user.name "book-indexer[bot]"
+          git config user.email "book-indexer[bot]@users.noreply.github.com"
+          git add data/catalog.json data/search-index.json data/books
+          if git diff --cached --quiet; then
+            echo "No public book data changed."
+          else
+            git commit -m "chore(index): process private upload queue"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+      - name: Preserve unexpected worker failure
+        if: steps.queue.outputs.exit_code != '' && steps.queue.outputs.exit_code != '0'
+        run: exit "${{ steps.queue.outputs.exit_code }}"

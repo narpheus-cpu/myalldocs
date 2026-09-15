@@ -36,6 +36,7 @@ def main() -> int:
         "tests.test_drive_client",
         "tests.test_checkpoint_profiles_storage", "tests.test_security",
         "tests.test_zero_cost", "tests.test_beginner_setup", "tests.test_progress",
+        "tests.test_private_queue",
     ]
     passed = 0
     for module_name in modules:

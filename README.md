@@ -1,6 +1,8 @@
 # 서재 지도 — Google Drive 개인 도서 지식베이스
 
-Google Drive의 TXT/EPUB 원본을 조금씩 분석해 GitHub의 구조화된 JSON으로 축적하고, GitHub Pages에서 검색·탐색하는 개인용 시스템입니다. 원본 파일은 Drive 밖으로 복제하지 않습니다. 분석 엔진은 GitHub Actions의 Python, 수동 실행 연결은 Google Picker와 Apps Script, 요약·분석은 현재 `google-genai` SDK를 사용합니다.
+Google Drive의 TXT/EPUB 원본과 연결된 구조화된 도서 정보를 GitHub Pages에서 검색·열람하는 개인용 시스템입니다. 기존 원문 분석과 새 JSONL 기반 사전지식 인덱싱을 함께 지원합니다. 원문과 식별용 발췌문은 공개 GitHub에 저장하지 않습니다.
+
+> 2026-09-15 변경: 사이트의 기본 화면은 검색과 목록을 합친 **전체 도서 목록**입니다. 신규 자동 등록은 `[인덱싱] → [도서 목록 JSONL 업로드]`, 이미 완성된 결과는 별도의 `[완성 인덱싱 JSON 업로드]`를 사용합니다.
 
 ## 코딩을 전혀 모른다면 여기만 보세요
 
@@ -30,6 +32,12 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 
 ## 구현된 기능
 
+- 검색과 전체 목록을 한 화면으로 통합: 작품명·작가명·전체 분석 텍스트 검색, 장르·태그·작품 성격·생성 방식·수정 여부·날짜 필터, 6가지 정렬, 20권 단위 페이지 이동
+- JSONL 브라우저 업로드 → 비공개 Drive 관리 영역 저장 → 원본 1:1 매칭 → 해시 계산 → 기존 인덱싱과 동일한 무료 모델 대기열 자동 실행
+- 완성 canonical JSON 별도 업로드: Gemini 생성 호출 없이 스키마 검사와 Drive 연결 후 등록
+- `source_text_analysis`, `model_prior_knowledge`, `user_authored` 생성 출처 보존 및 상세 화면의 작은 한국어 배지
+- 크기 조절·드래그·한/두 쪽·실측 페이지 나누기·글자/줄간/문단/여백 조절·화살표 이동·해시 포함 문자 위치 저장 전자책 뷰어
+
 - Drive 폴더 재귀 탐색, TXT/EPUB만 선별, 원본 다운로드 (`…txt의 사본`처럼 확장자가 뒤로 밀린 복사본도 실제 MIME 형식으로 인식)
 - UTF-8/CP949 TXT 처리, EPUB OPF 메타데이터 및 spine 순서 본문 추출
 - 약 5,000자 문단 경계 chunk와 소량 overlap
@@ -47,8 +55,8 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 - Gemini가 문법이 깨진 JSON을 반환하면 엄격한 JSON 지시로 자동 재요청하고 다음 무료 모델까지 시도
 - Drive 호출 quota-unit·다운로드 byte 자체 예산, Drive 403/429 시 추가 과금 없이 `PAUSED_RATE_LIMIT`
 - 인덱싱 화면에서 Gemini API Key를 교체해 Apps Script의 비공개 Script Properties에 저장하고 다음 실행부터 적용
-- `구글드라이브` 탭에서 선택한 폴더의 TXT/EPUB 원본 목록을 불러오고, 약 5,000자 구간별로 원문 열람
-- 구글드라이브 목록에서 개별 또는 전체 선택한 미분석 파일만 인덱싱하고 완료 파일은 `[인덱싱 완료]`로 표시
+- `[인덱싱]` 화면에서 선택한 Drive 폴더의 TXT/EPUB 원본 목록을 불러오고, 약 5,000자 구간별로 원문 열람
+- Drive 원본 목록에서 개별 또는 전체 선택한 미분석 파일만 인덱싱하고 완료 파일은 `[인덱싱 완료]`로 표시
 - 현재/이전/시도 모델·HTTP 상태·재시도 횟수와 대기·책 파일명·실제 완료율·파일/청크 순서·성공/실패 호출·토큰·Drive 사용량을 5초 간격으로 보여 주는 인증된 실시간 모니터
 - Picker 설정 누락, Google SDK 로딩 실패, 인증 취소·시간초과를 화면에 명확히 표시
 - source 변경, schema/prompt/profile/parser 버전 변경 감지와 멱등 skip
@@ -69,10 +77,37 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 
 ## 결과는 어디에 저장되나요?
 
+| 데이터 | 저장 위치 | 공개 여부 |
+|---|---|---|
+| 기존/신규 완성 분석 | `data/books/<bookId>/book.json` | 공개 Pages |
+| 검색용 색인 | `data/search-index.json` | 공개 Pages |
+| 업로드 원본 JSONL·발췌문 | 내 Drive의 `서재지도_비공개_관리` | 비공개 |
+| 대기열 상태 | 같은 비공개 관리 폴더의 업로드별 하위 폴더 | 비공개 |
+| TXT/EPUB 원문 | 기존 `[book]` 폴더 | 비공개·읽기 전용 |
+
+비공개 관리 폴더는 최초 업로드 때 Apps Script가 자동 생성합니다. `[book]` 원본 폴더에는 쓰기·삭제 동작이 없습니다.
+
+브라우저 업로드는 파일당 100MB까지 받으며 256KB 조각으로 비공개 관리 폴더에 전송합니다. 큰 파일은 조각 수만큼 Apps Script 요청이 필요하므로 브라우저를 닫지 말고 업로드 완료 및 대기열 등록 메시지가 나타날 때까지 기다리세요. 등록이 끝난 뒤에는 페이지를 닫거나 새로고침해도 GitHub Actions가 백엔드에서 계속 처리합니다.
+
+### JSONL 입력의 최소 형태
+
+한 줄에 도서 하나인 JSON 객체를 둡니다. 사용자는 Drive 파일 ID나 해시를 입력하지 않습니다.
+
+```json
+{"filename":"노인과 바다.txt","relative_path":"소설/외국","excerpt_start":"식별용 앞부분","excerpt_middle":"식별용 중간","excerpt_late":"식별용 뒷부분"}
+```
+
+발췌문은 작품 식별에만 쓰이고 분석 근거로 쓰이지 않습니다. 작품 식별 또는 모델 지식이 불충분하면 내용을 만들지 않고 `NEEDS_METADATA_REVIEW`에 둡니다. 최초 `sectionSummaries`는 항상 빈 배열입니다. TXT와 EPUB를 지원하고 Google Docs는 지원하지 않습니다.
+
+### 완성 인덱싱 JSON
+
+형식은 [canonical-book.schema.json](config/canonical-book.schema.json)을 따릅니다. `identity.title`, `identity.author`, `identity.genre`, `identity.tags`, `identity.workProfile`, `content.oneLineSummary`, `content.overallSummary`가 필요합니다. 업로드 후 실제 Drive TXT/EPUB 하나와 일치해야 공개 목록에 들어가며, `NOT_FOUND`나 `AMBIGUOUS`는 비공개 관리 목록에만 남습니다.
+
 완료된 **요약·분석 결과는 Google Drive가 아니라 GitHub 저장소**에 저장됩니다.
 
 - 책 목록: `data/catalog.json`
-- 책별 결과: `data/books/<bookId>/manifest.json`, `summary.json`, `chunks.json`, `analysis.json`, `timeline.json`, `relationships.json`
+- 새 통합 결과: `data/books/<bookId>/book.json`
+- 기존 결과(자동 보존): 같은 책 폴더의 `manifest.json`, `summary.json`, `chunks.json`, `analysis.json`, `timeline.json`, `relationships.json`
 - 중간 재개 정보: `data/checkpoints/`
 - 도서 목록에는 각 결과의 인덱싱 일시가 표시됩니다. 통합 TXT가 필요하면 책 제목을 눌러 상세 화면의 `모든 분석 통합 TXT` 버튼을 사용합니다. 이 파일은 저장된 별도 파일이 아니라, 사이트에서 위 JSON들을 합쳐 사용자의 다운로드 폴더에 즉시 만들어 줍니다.
 
@@ -191,7 +226,8 @@ Drive 폴더 URL이 `https://drive.google.com/drive/folders/ABC...`라면 `ABC..
 3. 만든 서비스 계정의 **키 → 키 추가 → 새 키 만들기 → JSON**을 선택합니다.
 4. JSON 파일을 열어 `client_email`을 확인합니다.
 5. Google Drive의 `[book]` 루트 폴더를 그 `client_email`과 **뷰어** 권한으로 공유합니다.
-6. JSON 전체는 다음 단계에서 GitHub Secret에만 저장합니다. 저장소 파일로 복사하지 않습니다.
+6. `client_email` 값을 따로 복사해 둡니다. Apps Script의 `SERVICE_ACCOUNT_EMAIL` 속성에 넣으면 Apps Script가 직접 만든 비공개 관리 폴더에만 편집 권한을 자동 부여합니다.
+7. JSON 전체는 다음 단계에서 GitHub Secret에만 저장합니다. 저장소 파일로 복사하지 않습니다.
 
 조직 정책이 서비스 계정 key 생성을 금지하면, 향후 Workload Identity Federation adapter를 추가해야 합니다. 현재 구현의 기본 인증은 서비스 계정 JSON입니다.
 
@@ -225,7 +261,6 @@ Variables 탭에서 추가합니다.
 | 이름 | 값 |
 |---|---|
 | `DRIVE_ROOT_FOLDER_ID` | `[book]` 루트 folder ID |
-| `GEMINI_API_KEY` | 선택 사항. 인덱싱 화면에서 새 키를 저장하면 자동 생성/갱신됨 |
 
 이 변수는 보안 비밀이 아니라 선택 폴더가 허용 루트 아래인지 재검증하는 경계입니다.
 
@@ -249,12 +284,13 @@ Apps Script는 Gemini 분석을 하지 않습니다. 로그인한 본인의 폴�
 | `COMPLETION_EMAIL` | `narepheus@gmail.com` |
 | `AUTHORIZED_EMAIL` | 웹 UI를 사용할 본인 Google 이메일 |
 | `DRIVE_ROOT_FOLDER_ID` | `[book]` 루트 folder ID |
+| `SERVICE_ACCOUNT_EMAIL` | 서비스 계정 JSON의 `client_email` 값 |
 
 GitHub fine-grained token은 이 저장소 하나만 선택하고 Actions: Read and write 권한만 허용합니다. token을 `public-config.js`에 넣으면 안 됩니다.
 
 5. **Deploy → New deployment → Web app**을 선택합니다.
 6. Execute as는 본인, Who has access는 **Anyone**을 선택합니다. GitHub Actions가 로그인 쿠키 없이 진행 상태와 완료 callback을 보내야 하기 때문입니다.
-7. 최초 권한 승인에서 Drive 읽기, 외부 요청, Gmail 발송을 검토하고 승인합니다.
+7. 최초 권한 승인에서 Drive 원본 읽기, 이 앱이 만든 비공개 관리 파일 쓰기, 외부 요청, Gmail 발송을 검토하고 승인합니다.
 8. 배포 후 `/exec` URL을 `config/public-config.js`와 GitHub Secret `APPS_SCRIPT_CALLBACK_URL`에 입력합니다.
 9. Code.gs를 수정한 뒤에는 **Manage deployments → Edit → New version → Deploy**를 해야 실제 URL 코드가 갱신됩니다.
 
@@ -290,18 +326,14 @@ GitHub fine-grained token은 이 저장소 하나만 선택하고 Actions: Read 
 
 Public 저장소의 standard GitHub-hosted runner와 GitHub Pages 무료 사용만 전제로 합니다. larger runner를 만들거나 workflow의 `runs-on`을 larger runner label로 바꾸지 마세요.
 
-웹페이지는 인덱싱을 실행하는 컴퓨터가 아니라 상태를 보여주는 화면입니다. 새로고침하거나 브라우저를 닫아도 GitHub Actions의 인덱싱은 계속되고, 다시 인덱싱 화면에서 모니터를 연결하면 최신 상태를 불러옵니다. **검색**은 검색어와 일치하는 책만 찾고, **전체 도서 목록**은 완료된 모든 책을 유형별로 확인하는 게시판입니다.
+웹페이지는 인덱싱을 실행하는 컴퓨터가 아니라 상태를 보여주는 화면입니다. 새로고침하거나 브라우저를 닫아도 GitHub Actions의 인덱싱은 계속되고, 다시 인덱싱 화면에서 모니터를 연결하면 최신 상태를 불러옵니다. 사이트 첫 화면의 **전체 도서 목록** 안에 검색·필터·정렬이 통합되어 있습니다.
 
-### 구글드라이브 원문 서가와 선택 인덱싱
+### 기존 Drive 폴더 직접 인덱싱
 
-1. 상단의 **구글드라이브** 탭을 엽니다.
+1. 상단의 **인덱싱** 탭을 엽니다.
 2. **Google Drive 폴더 선택**을 눌러 `[book]` 아래의 폴더를 고릅니다.
-3. 선택한 폴더와 하위 폴더의 TXT/EPUB만 목록에 표시됩니다. Google Docs는 지원하지 않으며 목록에서 제외됩니다.
-4. 미분석 파일 제목을 누르면 원문을 약 5,000자 단위의 `제1구간`, `제2구간`으로 읽을 수 있습니다. 원문 전체는 브라우저 메모리에만 존재하고 GitHub에는 올라가지 않습니다.
-5. 체크박스로 파일을 고르거나 **전체 선택**을 누른 뒤 **선택 항목 인덱싱**을 누릅니다. 실제 Drive 파일 ID 목록은 Apps Script의 비공개 임시 작업에 저장되고 GitHub Actions에는 임의의 작업 ID만 전달됩니다.
-6. 완료된 동일 Drive 파일은 `[인덱싱 완료]`로 바뀌며, 제목을 누르면 전체 요약·구간별 분석 등 기존 완료 도서와 같은 화면이 열립니다.
-
-Drive 목록에서 보이는 태그는 원문 분석 태그가 아니라 해당 파일이 들어 있는 폴더명입니다. 숫자와 괄호 기호는 제거합니다. 예를 들어 `11 실용 종교 자기계발 르포 초자연 등` 폴더는 `#실용 종교 자기계발 르포 초자연 등`으로 표시됩니다. 완료 여부는 제목이나 작가명이 아니라 Drive 파일 ID로 판별하고, 실제 인덱싱 단계에서는 원문 SHA-256도 검사하므로 이름이 바뀌어도 같은 내용은 다시 분석하지 않습니다.
+3. 미리 보기로 TXT/EPUB 수를 확인한 뒤 폴더 인덱싱을 시작합니다. Google Docs는 지원하지 않습니다.
+4. 신규 대량 등록은 같은 화면 위쪽의 **도서 목록 JSONL 업로드**를 권장합니다. 완료 여부는 제목이나 작가명이 아니라 Drive 파일 ID와 실제 원문 SHA-256으로 판별하므로 이름이 바뀌어도 같은 내용은 다시 분석하지 않습니다.
 
 현재 실행 중인 폴더 ID와 이름도 상태와 함께 저장됩니다. 따라서 새로고침 뒤 모니터를 다시 연결하면 `Drive 폴더` 카드에 현재 작업 폴더가 복원됩니다. 폴더 이름이 상태에 아직 없으면 로그인된 Drive 읽기 권한으로 이름만 다시 확인합니다.
 
@@ -377,11 +409,12 @@ Gemini 모델 API는 해당 key가 연결된 프로젝트의 Billing 상태 자�
 
 `config/indexer.json`의 숫자는 Google의 공식 고정 한도가 아니라 **이 저장소의 자체 무료 안전 예산**입니다.
 
-- `requestsPerMinute`, `tokensPerMinute`: 계정 한도 이하의 속도. 하루 2권 목표 기본값은 분당 최대 2회와 분당 입력 100,000 token입니다.
-- `minimumSuccessfulRequestIntervalSeconds`: 한 번 성공한 모델을 계속 사용할 때 다음 호출 전 확보하는 최소 간격(하루 2권 목표 기본값 90초)
+- `requestsPerMinute`, `tokensPerMinute`: AI Studio에 표시되는 실제 계정 한도보다 낮게 잡는 자체 안전 상한입니다.
+- `minimumSuccessfulRequestIntervalSeconds`: 한 번 성공한 모델을 계속 사용할 때 다음 호출 전 확보하는 최소 간격(기본 90초)
 - `maxRequestsPerRun`, `maxTokensPerRun`: 한 실행의 최대 소비
 - `maxBooksPerRun`, `maxChunksPerRun`: 한 번의 실행에서 처리할 최대 작업량
-- `maxBooksPerDay`: 같은 날 여러 번 실행해도 새로 완료하는 책을 2권으로 제한합니다. Gemini RPD와 동일하게 미국 태평양 시간 자정에 새 날짜로 넘어갑니다. 이미 완료된 동일 원문은 이 제한과 관계없이 건너뜁니다.
+- `maxBooksPerDay: 0`: 하루 2권 고정 제한을 제거합니다. 회당 책·요청·토큰·실행시간 안전 예산과 실제 무료 rate limit은 그대로 지킵니다.
+- `queue.maxBooksPerRun`: JSONL 대기열의 예약 실행 한 번에 처리할 최대 책 수입니다. 남은 항목은 `queue-worker.yml`이 자동 재개하며 빈 대기열이면 Gemini를 호출하지 않습니다.
 - `maxRuntimeMinutes`: Actions timeout보다 작은 값
 - `safetyMargin`: 설정 한도의 실제 사용 비율
 - `maxRetries`: 모델별 추가 시도 횟수이며 현재 `1`

@@ -35,8 +35,8 @@
     "tokensPerMinute": 100000,
     "maxRequestsPerRun": 160,
     "maxTokensPerRun": 750000,
-    "maxBooksPerRun": 2,
-    "maxBooksPerDay": 2,
+    "maxBooksPerRun": 20,
+    "maxBooksPerDay": 0,
     "maxChunksPerRun": 150,
     "maxRuntimeMinutes": 300,
     "safetyMargin": 0.75,
@@ -45,6 +45,12 @@
     "backoffBaseSeconds": 2,
     "backoffMaxSeconds": 90,
     "circuitBreakerFailures": 5
+  },
+  "queue": {
+    "maxBooksPerRun": 20,
+    "identityThreshold": 0.82,
+    "uploadMaxBytes": 104857600,
+    "uploadPartBytes": 262144
   },
   "checkpointIntervalChunks": 5,
   "defaultProfile": "unknown",

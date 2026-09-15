@@ -7,18 +7,16 @@
   <meta name="description" content="Google Drive 원본과 연결된 개인 도서 지식베이스">
   <title>서재 지도 · Personal Book Knowledge Base</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=20260913-indexed-time">
+  <link rel="stylesheet" href="assets/styles.css?v=20260915-canonical-queue">
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#search" aria-label="서재 지도 홈">
+    <a class="brand" href="#library" aria-label="서재 지도 홈">
       <span class="brand-mark">書</span>
       <span><strong>서재 지도</strong><small>PERSONAL KNOWLEDGE BASE</small></span>
     </a>
     <nav aria-label="주 메뉴">
-      <a href="#search" data-nav="search">검색</a>
-      <a href="#browse" data-nav="browse">전체 도서 목록</a>
-      <a href="#drive" data-nav="drive">구글드라이브</a>
+      <a href="#library" data-nav="library">전체 도서 목록</a>
       <a href="#indexing" data-nav="indexing">인덱싱</a>
     </nav>
   </header>
@@ -27,17 +25,32 @@
     <section id="search-view" class="view hero-view">
       <div class="hero-copy">
       <p class="eyebrow">개인 도서 지식 저장소</p>
-        <h1>책을 찾는 데서 끝나지 않고,<br><em>맥락까지 다시 만나는 서재.</em></h1>
-        <p>원본은 Google Drive에 안전하게 두고, 여기서는 작품과 개념, 인물과 논증의 흐름을 빠르게 탐색합니다.</p>
+        <h1>전체 도서 목록</h1>
+        <p>완료되고 Google Drive 원본과 연결된 도서를 검색하고 정렬합니다.</p>
       </div>
       <label class="searchbox">
         <span aria-hidden="true">⌕</span>
-        <input id="search-input" type="search" autocomplete="off" placeholder="제목, 저자, 장르, 태그로 검색">
+        <input id="search-input" type="search" autocomplete="off" placeholder="작품명, 작가명 또는 전체 분석 내용 검색">
         <kbd>/</kbd>
       </label>
-      <p class="page-guide"><strong>검색</strong>은 제목·저자·장르·태그로 원하는 책을 찾는 화면입니다. 검색어 없이 모든 책을 보려면 <a href="#browse">전체 도서 목록</a>을 이용하세요.</p>
+      <details class="library-filters" open>
+        <summary>필터와 정렬</summary>
+        <div class="filter-grid">
+          <label>장르<select id="filter-genre"><option value="">전체</option></select></label>
+          <label>태그<select id="filter-tag"><option value="">전체</option></select></label>
+          <label>작품 성격<select id="filter-profile"><option value="">전체</option></select></label>
+          <label>생성 방식<select id="filter-provenance"><option value="">전체</option><option value="source_text_analysis">원문 분석</option><option value="model_prior_knowledge">AI 사전지식</option><option value="user_authored">사용자 작성</option></select></label>
+          <label>수정 여부<select id="filter-edited"><option value="">전체</option><option value="yes">수정됨</option><option value="no">수정 안 됨</option></select></label>
+          <label>날짜 기준<select id="filter-date-kind"><option value="created">생성일</option><option value="updated">수정일</option></select></label>
+          <label>시작일<input id="filter-date-from" type="date"></label>
+          <label>종료일<input id="filter-date-to" type="date"></label>
+          <label>정렬<select id="library-sort"><option value="title">가나다순</option><option value="author">작가명순</option><option value="created-asc">생성일시 오름차순</option><option value="created-desc">생성일시 내림차순</option><option value="updated-asc">수정일시 오름차순</option><option value="updated-desc">수정일시 내림차순</option></select></label>
+          <button id="reset-library-filters" type="button">조건 초기화</button>
+        </div>
+      </details>
       <div id="search-meta" class="search-meta" aria-live="polite"></div>
       <div class="book-list-frame"><div class="book-list-head" aria-hidden="true"><span>도서</span><span>분류</span><span>상태</span><span>인덱싱 일시</span></div><div id="results" class="book-list" role="list"></div></div>
+      <nav id="library-pagination" class="pagination" aria-label="도서 목록 페이지"></nav>
     </section>
 
     <section id="browse-view" class="view" hidden>
@@ -83,6 +96,27 @@
     <section id="indexing-view" class="view" hidden>
       <div class="section-heading indexing-heading"><div><p class="eyebrow">관리 대시보드</p><h1>도서 인덱싱</h1><p>폴더 선택부터 API 키, 실행 현황까지 한 화면에서 확인합니다.</p></div></div>
       <div id="setup-alert" class="setup-alert" hidden role="alert"></div>
+      <div class="upload-grid">
+        <section class="upload-card">
+          <p class="eyebrow">신규 자동 인덱싱</p>
+          <h2>도서 목록 JSONL 업로드</h2>
+          <p>JSONL을 비공개 Drive 관리 영역에 보관하고 원본과 연결한 뒤, 무료 Gemini 대기열을 자동으로 시작합니다.</p>
+          <input id="catalog-jsonl-file" class="sr-only" type="file" accept=".jsonl,application/x-ndjson">
+          <button id="upload-catalog-jsonl" class="primary" type="button">도서 목록 JSONL 업로드</button>
+        </section>
+        <section class="upload-card">
+          <p class="eyebrow">Gemini 호출 없음</p>
+          <h2>완성 인덱싱 JSON 업로드</h2>
+          <p>완성된 canonical JSON을 검사하고 Drive 원본과 연결된 경우에만 전체 도서 목록에 등록합니다.</p>
+          <input id="canonical-json-file" class="sr-only" type="file" accept=".json,application/json">
+          <button id="upload-canonical-json" class="primary" type="button">완성 인덱싱 JSON 업로드</button>
+        </section>
+      </div>
+      <p id="private-upload-message" class="message upload-message" aria-live="polite"></p>
+      <section class="queue-panel">
+        <div class="queue-heading"><div><p class="eyebrow">비공개 관리</p><h2>인덱싱 대기열</h2></div><div><label>상태 <select id="queue-filter"><option value="">전체</option><option>PENDING</option><option>MATCHING</option><option>NOT_FOUND</option><option>AMBIGUOUS</option><option>IDENTIFYING</option><option>NEEDS_METADATA_REVIEW</option><option>INDEXING</option><option>ERROR</option><option>PAUSED_RATE_LIMIT</option><option>COMPLETE</option><option>SKIPPED</option></select></label><button id="refresh-queue" type="button">새로고침</button></div></div>
+        <div id="queue-list" class="queue-list"><p class="empty">Google 계정으로 연결하면 비공개 대기열을 확인할 수 있습니다.</p></div>
+      </section>
       <div class="admin-grid dashboard-grid">
         <div class="panel dashboard-card">
           <div class="card-heading"><span class="step">1</span><h2>Drive 폴더</h2></div>
@@ -142,9 +176,18 @@
     </div>
   </template>
   <dialog id="chunk-dialog" class="chunk-dialog" aria-labelledby="chunk-dialog-title">
-    <div class="dialog-header"><div><p class="eyebrow">Google Drive 원문</p><h2 id="chunk-dialog-title">구간 원문</h2></div><button id="close-chunk" class="icon-button" type="button" aria-label="닫기">×</button></div>
+    <div id="reader-drag-handle" class="dialog-header reader-drag-handle"><div><p class="eyebrow">Google Drive 원문</p><h2 id="chunk-dialog-title">전자책 원문</h2></div><button id="close-chunk" class="icon-button" type="button" aria-label="닫기">×</button></div>
     <p id="chunk-source-status" class="dialog-status" aria-live="polite"></p>
-    <pre id="chunk-source-text" tabindex="0"></pre>
+    <div class="ebook-toolbar">
+      <label>구간 <select id="reader-chunk-select"></select></label>
+      <button id="reader-prev" type="button">← 이전</button><output id="reader-page">1 / 1</output><button id="reader-next" type="button">다음 →</button>
+      <label>화면 <select id="reader-columns"><option value="1">한 쪽</option><option value="2">두 쪽</option></select></label>
+      <label>글자 <input id="reader-font" type="range" min="13" max="28" step="1" value="17"></label>
+      <label>줄간 <input id="reader-line" type="range" min="1.3" max="2.5" step="0.1" value="1.8"></label>
+      <label>문단 <input id="reader-paragraph" type="range" min="0" max="2" step="0.1" value="0.8"></label>
+      <label>여백 <input id="reader-margin" type="range" min="12" max="72" step="4" value="32"></label>
+    </div>
+    <div id="chunk-source-text" class="ebook-pages" tabindex="0"></div>
     <div class="copy-format-row">
       <label for="prompt-format-select">출력 형식</label>
       <div class="format-toolbar">
@@ -154,7 +197,7 @@
         <button id="manage-formats" type="button">≡ 순서 정렬</button>
       </div>
     </div>
-    <p class="copy-format-help">출력 형식을 선택한 뒤 바로 옆의 같은 이름 버튼을 누르세요. 선택한 프롬프트와 원문이 함께 복사됩니다.</p>
+    <p class="copy-format-help">복사 대상은 현재 보이는 쪽이 아니라 선택된 약 5,000자 원문 구간 전체입니다.</p>
     <div class="dialog-actions"><button id="close-chunk-bottom" type="button">닫기</button></div>
   </dialog>
   <dialog id="format-dialog" class="editor-dialog" aria-labelledby="format-dialog-title">
@@ -185,6 +228,6 @@
   <script src="config/public-config.js?v=20260913-picker-fix"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260913-indexed-time"></script>
+  <script type="module" src="js/app.js?v=20260915-canonical-queue"></script>
 </body>
 </html>

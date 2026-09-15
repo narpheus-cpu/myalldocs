@@ -1,7 +1,7 @@
 /**
  * Personal Book Knowledge Base relay.
  * Script Properties required: GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO,
- * CALLBACK_SECRET, COMPLETION_EMAIL, DRIVE_ROOT_FOLDER_ID.
+ * CALLBACK_SECRET, COMPLETION_EMAIL, DRIVE_ROOT_FOLDER_ID, SERVICE_ACCOUNT_EMAIL.
  */
 function doGet() {
   return json_({ok: true, service: 'book-indexer-relay'});
@@ -13,10 +13,17 @@ function doPost(e) {
     if (body.route === 'callback' || body.event === 'indexing-complete') return handleCallback_(body);
     if (body.route === 'progress') return handleProgress_(body);
     if (body.route === 'runtime-key') return handleRuntimeKey_(body);
+    if (body.route === 'private-queue') return handlePrivateQueue_(body);
+    if (body.route === 'queue-result') return handleQueueResult_(body);
     assertAuthorizedUser_(body);
     if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_()});
     if (body.route === 'update-api-key') return json_(updateApiKey_(body));
     if (body.route === 'update-metadata') return json_(updateMetadata_(body));
+    if (body.route === 'upload-start') return json_(startPrivateUpload_(body));
+    if (body.route === 'upload-part') return json_(savePrivateUploadPart_(body));
+    if (body.route === 'upload-finish') return json_(finishPrivateUpload_(body));
+    if (body.route === 'queue-admin') return json_({ok: true, queue: queueAdmin_(body)});
+    if (body.route === 'queue-retry') return json_(retryQueue_(body));
     assertFolderWithinRoot_(body.folderId);
     if (body.route === 'preview') return json_(previewFolder_(body.folderId, body.recursive !== false));
     if (body.route === 'dispatch') return json_(dispatchWorkflow_(body));
@@ -25,6 +32,178 @@ function doPost(e) {
   } catch (error) {
     return json_({ok: false, error: String(error && error.message || error)});
   }
+}
+
+function startPrivateUpload_(body) {
+  var kind = String(body.kind || '');
+  if (['catalog-jsonl', 'canonical-json'].indexOf(kind) < 0) throw new Error('지원하지 않는 업로드 종류입니다.');
+  var filename = String(body.filename || '').trim().slice(0, 200);
+  var size = Math.max(0, Number(body.size) || 0);
+  var partCount = Math.max(1, Number(body.partCount) || 0);
+  if (!filename) throw new Error('파일명이 없습니다.');
+  if (size < 1 || size > 104857600) throw new Error('업로드 파일은 100MB 이하여야 합니다.');
+  if (partCount > 1000) throw new Error('업로드 조각이 너무 많습니다.');
+  if (kind === 'catalog-jsonl' && !/\.jsonl$/i.test(filename)) throw new Error('JSONL 파일을 선택하세요.');
+  if (kind === 'canonical-json' && !/\.json$/i.test(filename)) throw new Error('JSON 파일을 선택하세요.');
+  var id = Utilities.getUuid();
+  var parentId = ensureManagementFolderId_();
+  var folder = driveCreateMetadata_({name: 'upload-' + id, mimeType: 'application/vnd.google-apps.folder', parents: [parentId]});
+  var record = {id: id, kind: kind, filename: filename, size: size, partCount: partCount, folderId: folder.id, createdAt: new Date().toISOString()};
+  PropertiesService.getScriptProperties().setProperty('UPLOAD_SESSION_' + id, JSON.stringify(record));
+  return {ok: true, uploadId: id, partBytes: 262144};
+}
+
+function savePrivateUploadPart_(body) {
+  var record = privateUploadRecord_(body.uploadId);
+  var index = Number(body.index);
+  if (!Number.isInteger(index) || index < 0 || index >= record.partCount) throw new Error('업로드 조각 번호가 올바르지 않습니다.');
+  var encoded = String(body.base64 || '');
+  if (!encoded || encoded.length > 400000) throw new Error('업로드 조각 크기가 올바르지 않습니다.');
+  var bytes = Utilities.base64Decode(encoded);
+  if (bytes.length > 262144) throw new Error('업로드 조각은 256KB 이하여야 합니다.');
+  var name = 'part-' + String(index).padStart(6, '0') + '.bin';
+  var existing = driveListChildren_(record.folderId).filter(function(item) { return item.name === name; });
+  if (existing.length) return {ok: true, index: index, duplicate: true};
+  driveCreateFile_({name: name, parents: [record.folderId]}, bytes, 'application/octet-stream');
+  return {ok: true, index: index};
+}
+
+function finishPrivateUpload_(body) {
+  var lock = LockService.getScriptLock();
+  lock.waitLock(15000);
+  try {
+    var record = privateUploadRecord_(body.uploadId);
+    var parts = driveListChildren_(record.folderId).map(function(file) {
+      var match = /^part-(\d{6})\.bin$/.exec(file.name || '');
+      return match ? {index: Number(match[1]), fileId: file.id, size: Number(file.size || 0)} : null;
+    }).filter(Boolean).sort(function(a, b) { return a.index - b.index; });
+    if (parts.length !== record.partCount) throw new Error('업로드 조각이 모두 도착하지 않았습니다.');
+    for (var index = 0; index < parts.length; index++) if (parts[index].index !== index) throw new Error('업로드 조각 순서가 불완전합니다.');
+    var total = parts.reduce(function(sum, part) { return sum + part.size; }, 0);
+    if (total !== record.size) throw new Error('업로드 크기가 원본과 일치하지 않습니다.');
+    var initialState = driveCreateFile_({name: 'queue-state.json', parents: [record.folderId]}, Utilities.newBlob('{}').getBytes(), 'application/json');
+    var manifest = {
+      schemaVersion: 1, kind: record.kind, originalFilename: record.filename,
+      sourceRootFolderId: requiredProperty_('DRIVE_ROOT_FOLDER_ID'), sessionFolderId: record.folderId,
+      parts: parts, stateFileId: initialState.id, createdAt: record.createdAt
+    };
+    var manifestFile = driveCreateFile_({name: 'queue-manifest.json', parents: [record.folderId]}, Utilities.newBlob(JSON.stringify(manifest, null, 2)).getBytes(), 'application/json');
+    appendQueueManifest_(manifestFile.id);
+    PropertiesService.getScriptProperties().deleteProperty('UPLOAD_SESSION_' + record.id);
+    return {ok: true, queued: true, manifestId: manifestFile.id, dispatch: dispatchQueueWorkflow_()};
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function privateUploadRecord_(uploadId) {
+  var id = String(uploadId || '');
+  if (!/^[A-Za-z0-9-]{20,80}$/.test(id)) throw new Error('업로드 세션이 올바르지 않습니다.');
+  var raw = PropertiesService.getScriptProperties().getProperty('UPLOAD_SESSION_' + id);
+  if (!raw) throw new Error('업로드 세션이 만료되었거나 없습니다.');
+  return JSON.parse(raw);
+}
+
+function ensureManagementFolderId_() {
+  var properties = PropertiesService.getScriptProperties();
+  var id = properties.getProperty('PRIVATE_MANAGEMENT_FOLDER_ID') || '';
+  if (id) {
+    try { driveGetMetadata_(id); return id; } catch (error) { id = ''; }
+  }
+  var folder = driveCreateMetadata_({name: '서재지도_비공개_관리', mimeType: 'application/vnd.google-apps.folder'});
+  driveShareEditor_(folder.id, requiredProperty_('SERVICE_ACCOUNT_EMAIL'));
+  properties.setProperty('PRIVATE_MANAGEMENT_FOLDER_ID', folder.id);
+  return folder.id;
+}
+
+function queueIds_(name) {
+  try { return JSON.parse(PropertiesService.getScriptProperties().getProperty(name) || '[]'); }
+  catch (error) { return []; }
+}
+
+function appendQueueManifest_(id) {
+  var properties = PropertiesService.getScriptProperties();
+  var ids = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').filter(function(item) { return item !== id; });
+  ids.push(id);
+  properties.setProperty('PRIVATE_QUEUE_MANIFEST_IDS', JSON.stringify(ids.slice(-200)));
+}
+
+function handlePrivateQueue_(body) {
+  assertCallbackSecret_(body);
+  var ids = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS');
+  return json_({ok: true, manifestId: ids.length ? ids[0] : ''});
+}
+
+function handleQueueResult_(body) {
+  assertCallbackSecret_(body);
+  var id = String(body.manifestId || '');
+  var status = String(body.status || '');
+  var allTargetsComplete = status === 'COMPLETE' && body.allTargetsComplete === true;
+  var properties = PropertiesService.getScriptProperties();
+  if (allTargetsComplete || ['NEEDS_USER_REVIEW','NO_SUPPORTED_MODEL'].indexOf(status) >= 0) {
+    properties.setProperty('PRIVATE_QUEUE_MANIFEST_IDS', JSON.stringify(queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').filter(function(item) { return item !== id; })));
+    if (status !== 'COMPLETE') {
+      var reviews = queueIds_('PRIVATE_REVIEW_MANIFEST_IDS').filter(function(item) { return item !== id; });
+      reviews.push(id);
+      properties.setProperty('PRIVATE_REVIEW_MANIFEST_IDS', JSON.stringify(reviews.slice(-200)));
+    }
+  }
+  if (allTargetsComplete) {
+    var summary = body.summary || {};
+    var recipient = properties.getProperty('COMPLETION_EMAIL') || 'narepheus@gmail.com';
+    MailApp.sendEmail(recipient, '[서재지도] 업로드 대기열 처리 완료', [
+      '업로드 대기열의 모든 대상 처리가 끝났습니다.',
+      '전체: ' + (summary.totalFiles || 0),
+      '완료: ' + (summary.complete || 0),
+      '건너뜀: ' + (summary.skipped || 0),
+      '실패: ' + (summary.failed || 0)
+    ].join('\n'));
+  }
+  var continueNow = status === 'PAUSED_SAFETY_BUDGET' || ((allTargetsComplete || status === 'NEEDS_USER_REVIEW') && queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').length > 0);
+  var continued = false;
+  if (continueNow) {
+    try { dispatchQueueWorkflow_(); continued = true; } catch (error) { continued = false; }
+  }
+  return json_({ok: true, continued: continued});
+}
+
+function queueAdmin_(options) {
+  options = options || {};
+  var wanted = String(options.status || '');
+  var page = Math.max(1, Number(options.page) || 1);
+  var pageSize = Math.min(200, Math.max(20, Number(options.pageSize) || 200));
+  var seen = 0;
+  var ids = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').concat(queueIds_('PRIVATE_REVIEW_MANIFEST_IDS'));
+  ids = ids.filter(function(value, index, values) { return values.indexOf(value) === index; });
+  return ids.slice(-100).reverse().map(function(id) {
+    try {
+      var manifest = JSON.parse(DriveApp.getFileById(id).getBlob().getDataAsString('UTF-8'));
+      var entries = [];
+      if (manifest.stateFileId) {
+        var state = JSON.parse(DriveApp.getFileById(manifest.stateFileId).getBlob().getDataAsString('UTF-8'));
+        entries = (state.entries || []).filter(function(item) {
+          if (wanted && item.status !== wanted) return false;
+          var include = seen >= (page - 1) * pageSize && seen < page * pageSize;
+          seen++;
+          return include;
+        }).map(function(item) {
+          return {queueIndex: item.queueIndex, filename: String(item.filename || '').slice(0, 300), relativePath: String(item.relativePath || '').slice(0, 1000), status: item.status, reason: String(item.reason || '').slice(0, 300), bookId: item.bookId || ''};
+        });
+      }
+      return {manifestId: id, kind: manifest.kind, originalFilename: manifest.originalFilename, createdAt: manifest.createdAt, entries: entries};
+    } catch (error) {
+      return {manifestId: id, kind: 'unknown', originalFilename: '', entries: [], error: '관리 파일을 읽지 못했습니다.'};
+    }
+  });
+}
+
+function retryQueue_(body) {
+  var id = String(body.manifestId || '');
+  if (!/^[A-Za-z0-9_-]{10,200}$/.test(id)) throw new Error('대기열 ID가 올바르지 않습니다.');
+  DriveApp.getFileById(id);
+  PropertiesService.getScriptProperties().setProperty('PRIVATE_REVIEW_MANIFEST_IDS', JSON.stringify(queueIds_('PRIVATE_REVIEW_MANIFEST_IDS').filter(function(item) { return item !== id; })));
+  appendQueueManifest_(id);
+  return {ok: true, dispatch: dispatchQueueWorkflow_()};
 }
 
 function assertAuthorizedUser_(body) {
@@ -281,6 +460,70 @@ function latestIndexRun_(owner, repo, token) {
   if (response.getResponseCode() !== 200) return null;
   var runs = JSON.parse(response.getContentText() || '{}').workflow_runs || [];
   return runs.length ? runs[0] : null;
+}
+
+function dispatchQueueWorkflow_() {
+  var owner = requiredProperty_('GITHUB_OWNER');
+  var repo = requiredProperty_('GITHUB_REPO');
+  var token = requiredProperty_('GITHUB_TOKEN');
+  var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/queue-worker.yml/dispatches';
+  var response = UrlFetchApp.fetch(url, {
+    method: 'post', contentType: 'application/json', payload: JSON.stringify({ref: 'main'}),
+    headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'}, muteHttpExceptions: true
+  });
+  var code = response.getResponseCode();
+  if (code !== 200 && code !== 204) throw new Error('대기열 자동 실행 요청 실패: HTTP ' + code);
+  PropertiesService.getScriptProperties().setProperty('LIVE_STATUS_JSON', JSON.stringify({
+    status: 'QUEUED', phase: 'QUEUE_UPLOAD', message: '비공개 업로드 대기열을 등록하고 자동 처리를 요청했습니다.', updatedAt: new Date().toISOString()
+  }));
+  return {requested: true};
+}
+
+function driveHeaders_() {
+  return {Authorization: 'Bearer ' + ScriptApp.getOAuthToken()};
+}
+
+function driveGetMetadata_(id) {
+  var url = 'https://www.googleapis.com/drive/v3/files/' + encodeURIComponent(id) + '?fields=id,name,mimeType,size&supportsAllDrives=true';
+  var response = UrlFetchApp.fetch(url, {headers: driveHeaders_(), muteHttpExceptions: true});
+  if (response.getResponseCode() !== 200) throw new Error('비공개 관리 파일을 확인하지 못했습니다: HTTP ' + response.getResponseCode());
+  return JSON.parse(response.getContentText() || '{}');
+}
+
+function driveListChildren_(parentId) {
+  var q = "'" + String(parentId).replace(/'/g, "\\'") + "' in parents and trashed = false";
+  var url = 'https://www.googleapis.com/drive/v3/files?q=' + encodeURIComponent(q) + '&fields=files(id,name,size,mimeType)&pageSize=1000&supportsAllDrives=true&includeItemsFromAllDrives=true';
+  var response = UrlFetchApp.fetch(url, {headers: driveHeaders_(), muteHttpExceptions: true});
+  if (response.getResponseCode() !== 200) throw new Error('비공개 업로드 조각을 확인하지 못했습니다: HTTP ' + response.getResponseCode());
+  return JSON.parse(response.getContentText() || '{}').files || [];
+}
+
+function driveCreateMetadata_(metadata) {
+  var response = UrlFetchApp.fetch('https://www.googleapis.com/drive/v3/files?fields=id,name&supportsAllDrives=true', {
+    method: 'post', contentType: 'application/json', payload: JSON.stringify(metadata), headers: driveHeaders_(), muteHttpExceptions: true
+  });
+  if (response.getResponseCode() !== 200) throw new Error('비공개 관리 폴더를 만들지 못했습니다: HTTP ' + response.getResponseCode());
+  return JSON.parse(response.getContentText() || '{}');
+}
+
+function driveCreateFile_(metadata, bytes, mimeType) {
+  var boundary = 'bookmap_' + Utilities.getUuid().replace(/-/g, '');
+  var head = '--' + boundary + '\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n' + JSON.stringify(metadata) + '\r\n--' + boundary + '\r\nContent-Type: ' + mimeType + '\r\n\r\n';
+  var tail = '\r\n--' + boundary + '--';
+  var payload = Utilities.newBlob(head).getBytes().concat(bytes).concat(Utilities.newBlob(tail).getBytes());
+  var response = UrlFetchApp.fetch('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id,name,size&supportsAllDrives=true', {
+    method: 'post', contentType: 'multipart/related; boundary=' + boundary, payload: payload, headers: driveHeaders_(), muteHttpExceptions: true
+  });
+  if (response.getResponseCode() !== 200) throw new Error('비공개 관리 파일을 저장하지 못했습니다: HTTP ' + response.getResponseCode());
+  return JSON.parse(response.getContentText() || '{}');
+}
+
+function driveShareEditor_(fileId, email) {
+  var url = 'https://www.googleapis.com/drive/v3/files/' + encodeURIComponent(fileId) + '/permissions?supportsAllDrives=true&sendNotificationEmail=false';
+  var response = UrlFetchApp.fetch(url, {
+    method: 'post', contentType: 'application/json', payload: JSON.stringify({type: 'user', role: 'writer', emailAddress: email}), headers: driveHeaders_(), muteHttpExceptions: true
+  });
+  if (response.getResponseCode() !== 200) throw new Error('비공개 관리 폴더를 서비스 계정과 공유하지 못했습니다: HTTP ' + response.getResponseCode());
 }
 
 function normalizeTags_(value) {

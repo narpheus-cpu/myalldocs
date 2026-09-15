@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://narpheus-cpu.github.io/myalldocs/config/canonical-book.schema.json",
+  "title": "서재지도 완성 인덱싱 도서",
+  "type": "object",
+  "required": ["identity", "content"],
+  "properties": {
+    "schemaVersion": {"type": "integer", "minimum": 2},
+    "identity": {
+      "type": "object",
+      "required": ["title", "author", "genre", "tags", "workProfile"],
+      "properties": {
+        "title": {"type": "string", "minLength": 1, "maxLength": 300},
+        "author": {"type": "string", "minLength": 1, "maxLength": 300},
+        "genre": {"type": "string", "maxLength": 100},
+        "tags": {"type": "array", "items": {"type": "string", "maxLength": 60}, "maxItems": 30},
+        "workProfile": {
+          "type": "object",
+          "required": ["primary"],
+          "properties": {
+            "primary": {"enum": ["fiction", "drama", "poetry", "academic", "philosophy", "history_biography", "science_technical", "essay_general_nonfiction", "practical_manual", "mixed_anthology", "unknown"]},
+            "secondary": {"type": "array", "items": {"type": "string"}}
+          }
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "required": ["oneLineSummary", "overallSummary"],
+      "properties": {
+        "authorIntroduction": {"type": "string"},
+        "oneLineSummary": {"type": "string"},
+        "overallSummary": {"type": "string"},
+        "sectionSummaries": {"type": "array", "items": {"type": "object"}},
+        "keyEntities": {"type": "object"},
+        "setting": {"type": "object"},
+        "adaptiveAnalysis": {"type": "array", "items": {"type": "object"}, "maxItems": 30}
+      }
+    },
+    "source": {"type": "object"},
+    "system": {"type": "object"}
+  }
+}

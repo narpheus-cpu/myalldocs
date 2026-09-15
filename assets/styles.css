@@ -38,6 +38,15 @@ main { width: min(920px, calc(100% - 40px)); margin: auto; padding: 62px 0 100px
 .searchbox input { width: 100%; padding: 13px 0; border: 0; outline: 0; background: #fff; font-size: 17px; }
 kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .search-meta { min-height: 27px; margin: 8px 0 22px; }
+.library-filters { margin: 26px 0 18px; border-top: 1px solid #000; border-bottom: 1px solid #000; }
+.library-filters summary { padding: 12px 0; cursor: pointer; font-size: 13px; font-weight: 700; }
+.filter-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 13px 18px; padding: 4px 0 18px; }
+.filter-grid label { display: grid; gap: 5px; font-size: 11px; font-weight: 700; }
+.filter-grid select, .filter-grid input { width: 100%; min-width: 0; padding: 7px; border: 1px solid #000; background: #fff; font-size: 12px; }
+.filter-grid button, .pagination button { align-self: end; width: fit-content; padding: 7px 10px; border: 1px solid #000; background: #fff; font-size: 12px; cursor: pointer; }
+.pagination { display: flex; justify-content: center; gap: 7px; margin-top: 24px; }
+.pagination button[aria-current="page"] { color: #fff; background: #000; }
+.pagination button:disabled { opacity: .35; cursor: default; }
 .page-guide { margin: 0 0 28px; line-height: 1.7; }
 .page-guide a { color: #000; font-weight: 700; }
 
@@ -125,6 +134,21 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .evidence-link { padding: 2px 0 !important; border: 0 !important; background: #fff !important; text-decoration: underline; }
 
 .indexing-heading { align-items: start; margin-bottom: 22px; padding-bottom: 20px; border-bottom: 2px solid #000; }
+.upload-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 12px; }
+.upload-card { padding: 20px 0; border-top: 2px solid #000; border-bottom: 1px solid #000; }
+.upload-card h2 { margin: 5px 0 9px; font-size: 21px; }
+.upload-card p:not(.eyebrow) { min-height: 64px; font-size: 13px; line-height: 1.6; }
+.upload-message { min-height: 36px; margin-bottom: 30px; font-weight: 700; }
+.queue-panel { margin: 20px 0 42px; padding-top: 20px; border-top: 2px solid #000; }
+.queue-heading { display: flex; align-items: end; justify-content: space-between; gap: 18px; }
+.queue-heading h2 { margin: 4px 0 12px; }
+.queue-heading > div:last-child { display: flex; align-items: center; gap: 8px; padding-bottom: 10px; font-size: 11px; }
+.queue-heading select, .queue-heading button { padding: 6px 8px; border: 1px solid #000; background: #fff; font-size: 11px; }
+.queue-row { display: grid; grid-template-columns: 1fr auto; gap: 16px; padding: 12px 0; border-bottom: 1px solid #000; }
+.queue-row strong, .queue-row small { display: block; }
+.queue-row small { margin-top: 4px; font-size: 10px; overflow-wrap: anywhere; }
+.queue-reason { margin: 5px 0 0; font-size: 11px; }
+.queue-status { align-self: start; padding: 3px 5px; border: 1px solid #000; font-size: 9px; font-weight: 700; }
 .indexing-heading p:last-child { margin: 10px 0 0; line-height: 1.6; }
 .admin-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .secondary-grid { margin-top: 14px; }
@@ -175,17 +199,28 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .status-message { margin: 14px 0 0; padding: 11px 0; border-top: 1px solid #000; line-height: 1.6; }
 .run-link { display: inline-block; margin-top: 10px; color: #000; font-size: 12px; font-weight: 700; text-underline-offset: 3px; }
 .detail-tags { font-size: 12px; line-height: 1.6; }
+.provenance-badge { display: inline-block; margin-top: 5px; padding: 3px 6px; border: 1px solid #000; font-size: 10px; font-weight: 700; }
 .activity-wrap { margin-top: 32px; padding-top: 20px; border-top: 2px solid #000; }
 .activity-log { display: grid; gap: 7px; margin: 0; padding-left: 1.2em; font-size: 13px; }
 
-.chunk-dialog { width: min(860px, calc(100% - 28px)); max-height: min(88vh, 900px); margin: auto; padding: 0; overflow: hidden; border: 2px solid #000; color: #000; background: #fff; }
+.chunk-dialog { width: min(1120px, calc(100% - 28px)); height: min(90vh, 920px); min-width: min(560px, calc(100vw - 20px)); min-height: 520px; max-width: calc(100vw - 8px); max-height: calc(100vh - 8px); margin: auto; padding: 0; overflow: hidden; resize: both; border: 2px solid #000; color: #000; background: #fff; }
 .chunk-dialog::backdrop { background: rgba(255, 255, 255, .94); }
+.reader-drag-handle { cursor: move; touch-action: none; user-select: none; }
 .dialog-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; padding: 20px 22px 14px; border-bottom: 1px solid #000; }
 .dialog-header h2 { margin: 0; font-size: 24px; }
 .dialog-header .eyebrow { margin-bottom: 5px; }
 .icon-button { width: 36px; height: 36px; padding: 0 !important; border: 1px solid #000 !important; font-size: 25px; line-height: 1; }
 .dialog-status { min-height: 24px; margin: 0; padding: 12px 22px 0; font-size: 13px; }
-.chunk-dialog pre { max-height: calc(88vh - 185px); margin: 10px 22px 0; padding: 18px 0; overflow: auto; border-top: 1px solid #000; border-bottom: 1px solid #000; background: #fff; font-family: inherit; font-size: 16px; line-height: 1.8; white-space: pre-wrap; overflow-wrap: anywhere; }
+.ebook-toolbar { display: flex; align-items: center; gap: 8px 12px; padding: 8px 22px; border-bottom: 1px solid #000; overflow-x: auto; white-space: nowrap; }
+.ebook-toolbar label { display: flex; align-items: center; gap: 5px; font-size: 10px; font-weight: 700; }
+.ebook-toolbar select, .ebook-toolbar button { padding: 4px 6px; border: 1px solid #000; background: #fff; font-size: 10px; }
+.ebook-toolbar input[type="range"] { width: 74px; accent-color: #000; }
+.ebook-toolbar output { min-width: 52px; text-align: center; font-size: 10px; font-weight: 700; }
+.ebook-pages { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; height: calc(100% - 300px); min-height: 210px; margin: 10px 22px 0; overflow: hidden; border-top: 1px solid #000; border-bottom: 1px solid #000; background: #fff; }
+.ebook-pages:has(.ebook-page:only-child) { grid-template-columns: 1fr; }
+.ebook-page { height: 100%; overflow: hidden; background: #fff; white-space: pre-wrap; overflow-wrap: anywhere; }
+.ebook-page p { margin: 0 0 var(--paragraph-gap, .8em); }
+.ebook-measure { position: fixed; left: -100000px; top: 0; visibility: hidden; box-sizing: border-box; }
 .dialog-actions { display: flex; justify-content: flex-end; gap: 14px; padding: 14px 22px 20px; }
 .copy-format-row { display: grid; grid-template-columns: auto minmax(180px, 1fr); align-items: start; gap: 12px; padding: 14px 22px 0; }
 .copy-format-row label { font-size: 13px; font-weight: 700; }
@@ -220,7 +255,7 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
   main { width: min(calc(100% - 24px), 920px); padding-top: 38px; }
   .hero-copy h1 { font-size: 36px; }
   .section-heading { align-items: flex-start; flex-direction: column; }
-  .admin-grid { grid-template-columns: 1fr; gap: 32px; }
+  .admin-grid, .upload-grid, .filter-grid { grid-template-columns: 1fr; gap: 32px; }
   .detail-header { grid-template-columns: 1fr; }
   .detail-actions { align-items: flex-start; justify-content: flex-start; }
   .reading-controls { align-items: stretch; }
@@ -243,7 +278,9 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
   .drive-file-title { grid-column: 2 / -1; }
   .drive-file-format { grid-column: 2; }
   .drive-file-status { grid-column: 3; }
-  .chunk-dialog pre { margin-right: 14px; margin-left: 14px; }
+  .chunk-dialog { min-width: calc(100vw - 16px); width: calc(100vw - 16px); height: calc(100vh - 16px); resize: none; }
+  .ebook-pages { grid-template-columns: 1fr !important; height: calc(100% - 340px); margin-right: 14px; margin-left: 14px; }
+  .ebook-toolbar { padding-right: 14px; padding-left: 14px; }
   .dialog-header, .dialog-actions { padding-right: 16px; padding-left: 16px; }
   .copy-format-row { grid-template-columns: 1fr; padding-right: 16px; padding-left: 16px; }
   .format-toolbar { grid-template-columns: 1fr; }

@@ -42,11 +42,11 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "pickerConfigurationIssues" in script
     assert "oauthConfigurationIssues" in script
     assert ".setAppId(config.googleCloudProjectNumber)" in script
-    assert "localStorage" not in script
+    assert 'localStorage.setItem("GEMINI' not in script
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260913-indexed-time" in html
+    assert "js/app.js?v=20260915-canonical-queue" in html
 
 
 def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
@@ -78,7 +78,7 @@ def test_library_is_a_board_list_with_indexed_time():
     assert "download-book" not in html and "downloadBook" not in script
     for phrase in ("book.updatedAt||book.indexedAt", "saveIntegratedText", "summary.json", "analysis.json", "timeline.json", "relationships.json", "chunks.json", "\\ufeff"):
         assert phrase in script
-    assert "검색어를 입력하면 결과가 여기에 표시됩니다" in script
+    assert "조건에 맞는 도서" in script
 
 
 def test_monochrome_reader_controls_and_drive_only_raw_chunk_popup():

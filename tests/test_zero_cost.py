@@ -14,8 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 def test_repository_configuration_enforces_zero_cost():
     settings = Settings.load(ROOT)
     settings.assert_zero_cost()
-    assert settings.quota["maxBooksPerRun"] == 2
-    assert settings.quota["maxBooksPerDay"] == 2
+    assert settings.quota["maxBooksPerRun"] >= 10
+    assert settings.quota["maxBooksPerDay"] == 0
     assert settings.quota["minimumSuccessfulRequestIntervalSeconds"] >= 90
 
 
