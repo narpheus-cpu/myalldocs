@@ -23,6 +23,7 @@ def test_private_queue_reads_shared_files_but_delegates_state_writes():
     source = (root / "indexer" / "private_queue.py").read_text(encoding="utf-8")
     assert '"https://www.googleapis.com/auth/drive.readonly"' in source
     assert '"route": "queue-state"' in source
+    assert 'str(value.get("error") or "")[:300]' in source
     assert 'self.service.files().update' not in source
     assert 'self.service.files().create' not in source
     assert '"https://www.googleapis.com/auth/drive.file"' not in source

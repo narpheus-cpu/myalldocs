@@ -91,7 +91,8 @@ class PrivateQueueDrive:
         with urllib.request.urlopen(request, timeout=30) as response:
             value = json.loads(response.read().decode("utf-8"))
         if not isinstance(value, dict) or value.get("ok") is not True:
-            raise RuntimeError("Apps Script가 비공개 대기열 상태를 저장하지 못했습니다.")
+            detail = str(value.get("error") or "")[:300] if isinstance(value, dict) else "응답 형식 오류"
+            raise RuntimeError(f"Apps Script가 비공개 대기열 상태를 저장하지 못했습니다: {detail}")
         bundle.state = state
 
 
