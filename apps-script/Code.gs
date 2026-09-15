@@ -190,6 +190,10 @@ function normalizeServiceAccountEmail_(value) {
 function ensureQueueManifestAccess_(manifestId, serviceAccountEmail) {
   try {
     var metadata = Drive.Files.get(String(manifestId), {fields: 'id,parents', supportsAllDrives: true});
+    // Share the manifest itself as well as its session folder. The direct
+    // permission makes the item readable immediately while the folder
+    // permission covers the uploaded parts and state files created later.
+    driveEnsureEditor_(String(manifestId), serviceAccountEmail);
     (metadata.parents || []).forEach(function(parentId) {
       driveEnsureEditor_(parentId, serviceAccountEmail);
     });

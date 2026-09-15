@@ -120,7 +120,8 @@ def test_private_management_storage_enables_drive_api_and_rejects_personal_email
     assert "Drive.Files.create" in relay
     assert "Drive.Permissions.create" in relay
     assert "driveEnsureEditor_(folder.id" in relay
-    assert "ensureQueueManifestAccess_(ids[0])" in relay
+    assert "ensureQueueManifestAccess_(ids[0], serviceAccountEmail)" in relay
+    assert "driveEnsureEditor_(String(manifestId), serviceAccountEmail)" in relay
     assert "Drive.Permissions.list" in relay
     assert "body.serviceAccountEmail" in relay
     assert "normalizeServiceAccountEmail_" in relay
