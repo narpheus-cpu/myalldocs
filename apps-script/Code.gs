@@ -17,6 +17,7 @@ function doPost(e) {
     if (body.route === 'queue-result') return handleQueueResult_(body);
     assertAuthorizedUser_(body);
     if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_()});
+    if (body.route === 'upload-capabilities') return json_({ok: true, idempotentUploads: true, partBytes: 131072});
     if (body.route === 'update-api-key') return json_(updateApiKey_(body));
     if (body.route === 'update-metadata') return json_(updateMetadata_(body));
     if (body.route === 'upload-start') return json_(startPrivateUpload_(body));
