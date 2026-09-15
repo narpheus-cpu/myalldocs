@@ -17,8 +17,10 @@ class QueueBundle:
 class PrivateQueueDrive:
     """Read and update only files explicitly shared with the queue app.
 
-    Source books use DriveClient with drive.readonly. This separate client uses
-    drive.file and is never handed a source-book ID for mutation.
+    Apps Script creates the queue files, so drive.file alone cannot always
+    discover them. drive.readonly makes explicitly shared queue files visible;
+    drive.file remains the only write scope and this client is never handed a
+    source-book ID for mutation.
     """
 
     def __init__(self, service_account_json: str) -> None:
@@ -27,7 +29,11 @@ class PrivateQueueDrive:
 
         info = json.loads(service_account_json)
         credentials = service_account.Credentials.from_service_account_info(
-            info, scopes=["https://www.googleapis.com/auth/drive.file"]
+            info,
+            scopes=[
+                "https://www.googleapis.com/auth/drive.readonly",
+                "https://www.googleapis.com/auth/drive.file",
+            ],
         )
         self.service = build("drive", "v3", credentials=credentials, cache_discovery=False)
 

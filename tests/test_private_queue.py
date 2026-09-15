@@ -18,6 +18,14 @@ def test_jsonl_is_parsed_in_memory_and_requires_txt_or_epub():
         parse_jsonl(b'{"filename":"book.pdf"}\n')
 
 
+def test_private_queue_can_read_apps_script_created_shared_files():
+    root = Path(__file__).resolve().parents[1]
+    source = (root / "indexer" / "private_queue.py").read_text(encoding="utf-8")
+    assert '"https://www.googleapis.com/auth/drive.readonly"' in source
+    assert '"https://www.googleapis.com/auth/drive.file"' in source
+    assert '"https://www.googleapis.com/auth/drive"]' not in source
+
+
 def test_drive_matching_prefers_relative_path_and_marks_ambiguous_names():
     books = [
         DriveBook("a" * 12, "같은책.txt", "text/plain", folderPath=["book", "소설"]),
