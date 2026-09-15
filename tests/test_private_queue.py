@@ -83,8 +83,9 @@ def test_private_upload_retries_transient_relay_failures_idempotently():
     script = (root / "js" / "app.js").read_text(encoding="utf-8")
     relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
     assert "const partBytes=131072" in script
-    assert "maxAttempts=retryable?3:1" in script
+    assert "maxAttempts=retryable?5:1" in script
     assert 'route:"upload-capabilities"' in script
+    assert 'relayRequest({route:"upload-capabilities"},true,true)' in script
     assert "idempotentUploads: true" in relay
     assert "UPLOAD_REQUEST_" in relay
     assert "UPLOAD_FINISHED_" in relay
