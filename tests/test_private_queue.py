@@ -91,6 +91,18 @@ def test_private_upload_retries_transient_relay_failures_idempotently():
     assert "UPLOAD_FINISHED_" in relay
 
 
+def test_private_management_storage_enables_drive_api_and_rejects_personal_email():
+    root = Path(__file__).resolve().parents[1]
+    manifest = json.loads((root / "apps-script" / "appsscript.json").read_text(encoding="utf-8"))
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    services = manifest["dependencies"]["enabledAdvancedServices"]
+    assert {"userSymbol": "Drive", "version": "v3", "serviceId": "drive"} in services
+    assert "function setupPrivateStorage()" in relay
+    assert "iam\\.gserviceaccount\\.com" in relay
+    assert "일반 Gmail 주소는 사용할 수 없습니다" in relay
+    assert "function driveApiError_" in relay
+
+
 def test_private_upload_authentication_happens_before_file_picker():
     root = Path(__file__).resolve().parents[1]
     script = (root / "js" / "app.js").read_text(encoding="utf-8")

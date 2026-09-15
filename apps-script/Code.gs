@@ -7,6 +7,14 @@ function doGet() {
   return json_({ok: true, service: 'book-indexer-relay'});
 }
 
+/**
+ * Run once from the Apps Script editor after installation or a scope change.
+ * It requests the Drive write grant and verifies the private management folder.
+ */
+function setupPrivateStorage() {
+  return {ok: true, folderId: ensureManagementFolderId_()};
+}
+
 function doPost(e) {
   try {
     var body = JSON.parse((e.postData && e.postData.contents) || '{}');
@@ -125,12 +133,16 @@ function privateUploadRecord_(uploadId) {
 
 function ensureManagementFolderId_() {
   var properties = PropertiesService.getScriptProperties();
+  var serviceAccountEmail = requiredProperty_('SERVICE_ACCOUNT_EMAIL').trim();
+  if (!/^[^@\s]+@[^@\s]+\.iam\.gserviceaccount\.com$/i.test(serviceAccountEmail)) {
+    throw new Error('SERVICE_ACCOUNT_EMAIL에는 books 폴더에 공유된 서비스 계정의 client_email 주소를 입력하세요. 일반 Gmail 주소는 사용할 수 없습니다.');
+  }
   var id = properties.getProperty('PRIVATE_MANAGEMENT_FOLDER_ID') || '';
   if (id) {
     try { driveGetMetadata_(id); return id; } catch (error) { id = ''; }
   }
   var folder = driveCreateMetadata_({name: '서재지도_비공개_관리', mimeType: 'application/vnd.google-apps.folder'});
-  driveShareEditor_(folder.id, requiredProperty_('SERVICE_ACCOUNT_EMAIL'));
+  driveShareEditor_(folder.id, serviceAccountEmail);
   properties.setProperty('PRIVATE_MANAGEMENT_FOLDER_ID', folder.id);
   return folder.id;
 }
@@ -502,10 +514,22 @@ function driveHeaders_() {
   return {Authorization: 'Bearer ' + ScriptApp.getOAuthToken()};
 }
 
+function driveApiError_(prefix, response) {
+  var code = response.getResponseCode();
+  var detail = '';
+  try {
+    var parsed = JSON.parse(response.getContentText() || '{}');
+    var apiError = parsed.error || {};
+    var reason = apiError.errors && apiError.errors[0] && apiError.errors[0].reason;
+    detail = [reason, apiError.message].filter(Boolean).join(' · ').slice(0, 500);
+  } catch (error) {}
+  return new Error(prefix + ': HTTP ' + code + (detail ? ' · ' + detail : ''));
+}
+
 function driveGetMetadata_(id) {
   var url = 'https://www.googleapis.com/drive/v3/files/' + encodeURIComponent(id) + '?fields=id,name,mimeType,size&supportsAllDrives=true';
   var response = UrlFetchApp.fetch(url, {headers: driveHeaders_(), muteHttpExceptions: true});
-  if (response.getResponseCode() !== 200) throw new Error('비공개 관리 파일을 확인하지 못했습니다: HTTP ' + response.getResponseCode());
+  if (response.getResponseCode() !== 200) throw driveApiError_('비공개 관리 파일을 확인하지 못했습니다', response);
   return JSON.parse(response.getContentText() || '{}');
 }
 
@@ -513,7 +537,7 @@ function driveListChildren_(parentId) {
   var q = "'" + String(parentId).replace(/'/g, "\\'") + "' in parents and trashed = false";
   var url = 'https://www.googleapis.com/drive/v3/files?q=' + encodeURIComponent(q) + '&fields=files(id,name,size,mimeType)&pageSize=1000&supportsAllDrives=true&includeItemsFromAllDrives=true';
   var response = UrlFetchApp.fetch(url, {headers: driveHeaders_(), muteHttpExceptions: true});
-  if (response.getResponseCode() !== 200) throw new Error('비공개 업로드 조각을 확인하지 못했습니다: HTTP ' + response.getResponseCode());
+  if (response.getResponseCode() !== 200) throw driveApiError_('비공개 업로드 조각을 확인하지 못했습니다', response);
   return JSON.parse(response.getContentText() || '{}').files || [];
 }
 
@@ -521,7 +545,7 @@ function driveCreateMetadata_(metadata) {
   var response = UrlFetchApp.fetch('https://www.googleapis.com/drive/v3/files?fields=id,name&supportsAllDrives=true', {
     method: 'post', contentType: 'application/json', payload: JSON.stringify(metadata), headers: driveHeaders_(), muteHttpExceptions: true
   });
-  if (response.getResponseCode() !== 200) throw new Error('비공개 관리 폴더를 만들지 못했습니다: HTTP ' + response.getResponseCode());
+  if (response.getResponseCode() !== 200) throw driveApiError_('비공개 관리 폴더를 만들지 못했습니다', response);
   return JSON.parse(response.getContentText() || '{}');
 }
 
@@ -533,7 +557,7 @@ function driveCreateFile_(metadata, bytes, mimeType) {
   var response = UrlFetchApp.fetch('https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart&fields=id,name,size&supportsAllDrives=true', {
     method: 'post', contentType: 'multipart/related; boundary=' + boundary, payload: payload, headers: driveHeaders_(), muteHttpExceptions: true
   });
-  if (response.getResponseCode() !== 200) throw new Error('비공개 관리 파일을 저장하지 못했습니다: HTTP ' + response.getResponseCode());
+  if (response.getResponseCode() !== 200) throw driveApiError_('비공개 관리 파일을 저장하지 못했습니다', response);
   return JSON.parse(response.getContentText() || '{}');
 }
 
@@ -542,7 +566,7 @@ function driveShareEditor_(fileId, email) {
   var response = UrlFetchApp.fetch(url, {
     method: 'post', contentType: 'application/json', payload: JSON.stringify({type: 'user', role: 'writer', emailAddress: email}), headers: driveHeaders_(), muteHttpExceptions: true
   });
-  if (response.getResponseCode() !== 200) throw new Error('비공개 관리 폴더를 서비스 계정과 공유하지 못했습니다: HTTP ' + response.getResponseCode());
+  if (response.getResponseCode() !== 200) throw driveApiError_('비공개 관리 폴더를 서비스 계정과 공유하지 못했습니다', response);
 }
 
 function normalizeTags_(value) {
