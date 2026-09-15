@@ -35,22 +35,35 @@ function doPost(e) {
 }
 
 function startPrivateUpload_(body) {
-  var kind = String(body.kind || '');
-  if (['catalog-jsonl', 'canonical-json'].indexOf(kind) < 0) throw new Error('지원하지 않는 업로드 종류입니다.');
-  var filename = String(body.filename || '').trim().slice(0, 200);
-  var size = Math.max(0, Number(body.size) || 0);
-  var partCount = Math.max(1, Number(body.partCount) || 0);
-  if (!filename) throw new Error('파일명이 없습니다.');
-  if (size < 1 || size > 104857600) throw new Error('업로드 파일은 100MB 이하여야 합니다.');
-  if (partCount > 1000) throw new Error('업로드 조각이 너무 많습니다.');
-  if (kind === 'catalog-jsonl' && !/\.jsonl$/i.test(filename)) throw new Error('JSONL 파일을 선택하세요.');
-  if (kind === 'canonical-json' && !/\.json$/i.test(filename)) throw new Error('JSON 파일을 선택하세요.');
-  var id = Utilities.getUuid();
-  var parentId = ensureManagementFolderId_();
-  var folder = driveCreateMetadata_({name: 'upload-' + id, mimeType: 'application/vnd.google-apps.folder', parents: [parentId]});
-  var record = {id: id, kind: kind, filename: filename, size: size, partCount: partCount, folderId: folder.id, createdAt: new Date().toISOString()};
-  PropertiesService.getScriptProperties().setProperty('UPLOAD_SESSION_' + id, JSON.stringify(record));
-  return {ok: true, uploadId: id, partBytes: 262144};
+  var requestId = String(body.requestId || '');
+  if (!/^[A-Za-z0-9-]{12,100}$/.test(requestId)) throw new Error('업로드 요청 번호가 올바르지 않습니다.');
+  var lock = LockService.getScriptLock();
+  lock.waitLock(15000);
+  try {
+    var properties = PropertiesService.getScriptProperties();
+    var previous = properties.getProperty('UPLOAD_REQUEST_' + requestId);
+    if (previous) return JSON.parse(previous);
+    var kind = String(body.kind || '');
+    if (['catalog-jsonl', 'canonical-json'].indexOf(kind) < 0) throw new Error('지원하지 않는 업로드 종류입니다.');
+    var filename = String(body.filename || '').trim().slice(0, 200);
+    var size = Math.max(0, Number(body.size) || 0);
+    var partCount = Math.max(1, Number(body.partCount) || 0);
+    if (!filename) throw new Error('파일명이 없습니다.');
+    if (size < 1 || size > 104857600) throw new Error('업로드 파일은 100MB 이하여야 합니다.');
+    if (partCount > 1000) throw new Error('업로드 조각이 너무 많습니다.');
+    if (kind === 'catalog-jsonl' && !/\.jsonl$/i.test(filename)) throw new Error('JSONL 파일을 선택하세요.');
+    if (kind === 'canonical-json' && !/\.json$/i.test(filename)) throw new Error('JSON 파일을 선택하세요.');
+    var id = Utilities.getUuid();
+    var parentId = ensureManagementFolderId_();
+    var folder = driveCreateMetadata_({name: 'upload-' + id, mimeType: 'application/vnd.google-apps.folder', parents: [parentId]});
+    var record = {id: id, kind: kind, filename: filename, size: size, partCount: partCount, folderId: folder.id, createdAt: new Date().toISOString()};
+    properties.setProperty('UPLOAD_SESSION_' + id, JSON.stringify(record));
+    var response = {ok: true, uploadId: id, partBytes: 131072};
+    properties.setProperty('UPLOAD_REQUEST_' + requestId, JSON.stringify(response));
+    return response;
+  } finally {
+    lock.releaseLock();
+  }
 }
 
 function savePrivateUploadPart_(body) {
@@ -72,6 +85,9 @@ function finishPrivateUpload_(body) {
   var lock = LockService.getScriptLock();
   lock.waitLock(15000);
   try {
+    var completedKey = 'UPLOAD_FINISHED_' + String(body.uploadId || '');
+    var completed = PropertiesService.getScriptProperties().getProperty(completedKey);
+    if (completed) return JSON.parse(completed);
     var record = privateUploadRecord_(body.uploadId);
     var parts = driveListChildren_(record.folderId).map(function(file) {
       var match = /^part-(\d{6})\.bin$/.exec(file.name || '');
@@ -89,8 +105,10 @@ function finishPrivateUpload_(body) {
     };
     var manifestFile = driveCreateFile_({name: 'queue-manifest.json', parents: [record.folderId]}, Utilities.newBlob(JSON.stringify(manifest, null, 2)).getBytes(), 'application/json');
     appendQueueManifest_(manifestFile.id);
+    var response = {ok: true, queued: true, manifestId: manifestFile.id, dispatch: dispatchQueueWorkflow_()};
+    PropertiesService.getScriptProperties().setProperty(completedKey, JSON.stringify(response));
     PropertiesService.getScriptProperties().deleteProperty('UPLOAD_SESSION_' + record.id);
-    return {ok: true, queued: true, manifestId: manifestFile.id, dispatch: dispatchQueueWorkflow_()};
+    return response;
   } finally {
     lock.releaseLock();
   }

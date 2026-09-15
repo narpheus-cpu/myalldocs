@@ -78,6 +78,16 @@ def test_upload_ui_is_separate_and_drive_tab_is_removed_from_navigation():
     assert "upload-start" in script and "upload-part" in script and "upload-finish" in script
 
 
+def test_private_upload_retries_transient_relay_failures_idempotently():
+    root = Path(__file__).resolve().parents[1]
+    script = (root / "js" / "app.js").read_text(encoding="utf-8")
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    assert "const partBytes=131072" in script
+    assert "maxAttempts=retryable?3:1" in script
+    assert "UPLOAD_REQUEST_" in relay
+    assert "UPLOAD_FINISHED_" in relay
+
+
 def test_completed_json_path_has_explicit_no_gemini_client():
     root = Path(__file__).resolve().parents[1]
     source = (root / "indexer" / "queue_worker.py").read_text(encoding="utf-8")
