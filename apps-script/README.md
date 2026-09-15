@@ -7,7 +7,7 @@ Google의 보안 정책 때문에 **새 Apps Script 만들기, 권한 승인, �
 1. [Apps Script](https://script.google.com/)에서 **새 프로젝트**를 누릅니다.
 2. 화면의 `Code.gs` 내용을 모두 지우고 이 폴더의 `Code.gs` 내용을 붙여넣은 뒤 저장합니다.
 3. 왼쪽 **프로젝트 설정**에서 `appsscript.json` 표시를 켜고, 편집기에 나타난 파일 내용을 이 폴더의 `appsscript.json` 내용으로 바꿉니다. 이 설정은 기본 Apps Script Cloud 프로젝트에서 무료 Google Drive API 서비스를 자동 활성화합니다.
-4. 같은 프로젝트 설정 화면의 **스크립트 속성**에서 루트 README 7장 표의 값을 한 줄씩 추가합니다. 비밀값은 코드에 쓰지 않습니다.
+4. 같은 프로젝트 설정 화면의 **스크립트 속성**에서 루트 README 7장 표의 값을 한 줄씩 추가합니다. 비밀값은 코드에 쓰지 않습니다. `GITHUB_TOKEN`은 선택 사항입니다. 유효한 토큰이 없거나 만료되어도 업로드는 실패하지 않고, GitHub의 정기 실행이 보통 20분 이내에 대기열을 가져갑니다(스케줄 지연 가능).
 5. 오른쪽 위 **배포 → 새 배포 → 웹 앱**을 선택합니다. 실행 사용자는 본인, 액세스 사용자는 **Anyone**으로 둡니다. 실제 기능은 Google 로그인 이메일 또는 callback secret을 다시 검사합니다.
 6. Script Properties에 서비스 계정 JSON의 `client_email`을 `SERVICE_ACCOUNT_EMAIL`로 추가합니다. 반드시 `...iam.gserviceaccount.com`으로 끝나는 주소여야 하며 일반 Gmail 주소를 넣으면 안 됩니다.
 7. 함수 선택에서 `setupPrivateStorage`를 골라 **실행**하고, 권한 확인 화면에서 Drive 원본 읽기, 이 앱이 만든 비공개 관리 파일 쓰기, GitHub 요청, 완료 메일 발송 권한을 승인합니다. 실행 완료가 표시되면 `서재지도_비공개_관리` 폴더 생성과 서비스 계정 공유가 확인된 것입니다.

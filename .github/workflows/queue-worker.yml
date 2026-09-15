@@ -3,9 +3,9 @@ name: Process private upload queue
 on:
   workflow_dispatch:
   schedule:
-    # Free-tier limits reset on Pacific time. Four quiet checks per day keep a
-    # paused queue moving without making a Gemini call when the queue is empty.
-    - cron: "20 0,6,12,18 * * *"
+    # A persisted upload must not depend on an Apps Script GitHub token.
+    # Empty checks stop before dependency installation and make no Gemini call.
+    - cron: "*/20 * * * *"
       timezone: "America/Los_Angeles"
 
 permissions:
@@ -30,7 +30,10 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.ref_name }}
+      - name: Load the next private queue item
+        run: python -m indexer.queue_context
       - name: Enforce zero-cost standard-runner policy
+        if: env.PRIVATE_QUEUE_MANIFEST_ID != ''
         env:
           REPOSITORY_IS_PRIVATE: ${{ github.event.repository.private }}
         shell: bash
@@ -40,14 +43,15 @@ jobs:
             exit 1
           fi
       - uses: actions/setup-python@v7
+        if: env.PRIVATE_QUEUE_MANIFEST_ID != ''
         with:
           python-version: "3.12"
       - name: Install current supported SDKs
+        if: env.PRIVATE_QUEUE_MANIFEST_ID != ''
         run: python -m pip install -r requirements.txt
       - name: Run tests before processing
+        if: env.PRIVATE_QUEUE_MANIFEST_ID != ''
         run: python -m pytest -q
-      - name: Load the next private queue item
-        run: python -m indexer.queue_context
       - name: Load the current user-saved Gemini key
         if: env.PRIVATE_QUEUE_MANIFEST_ID != ''
         run: python -m indexer.runtime_secret

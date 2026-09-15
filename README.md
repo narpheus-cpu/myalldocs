@@ -279,7 +279,7 @@ Apps Script는 Gemini 분석을 하지 않습니다. 로그인한 본인의 폴�
 
 | 이름 | 값 |
 |---|---|
-| `GITHUB_TOKEN` | `narpheus-cpu/myalldocs` Actions workflow 실행 권한이 있는 fine-grained token |
+| `GITHUB_TOKEN` | **선택 사항.** 유효한 fine-grained token을 넣으면 대기열 등록 직후 실행합니다. 비어 있거나 잘못됐어도 업로드는 성공하며 정기 실행이 처리합니다. |
 | `GITHUB_OWNER` | `narpheus-cpu` |
 | `GITHUB_REPO` | `myalldocs` |
 | `CALLBACK_SECRET` | GitHub의 `APPS_SCRIPT_CALLBACK_SECRET`과 정확히 같은 값 |
@@ -288,7 +288,7 @@ Apps Script는 Gemini 분석을 하지 않습니다. 로그인한 본인의 폴�
 | `DRIVE_ROOT_FOLDER_ID` | `[book]` 루트 folder ID |
 | `SERVICE_ACCOUNT_EMAIL` | 서비스 계정 JSON의 `client_email` 값 |
 
-GitHub fine-grained token은 이 저장소 하나만 선택하고 Actions: Read and write 권한만 허용합니다. token을 `public-config.js`에 넣으면 안 됩니다.
+GitHub fine-grained token을 선택적으로 쓸 때는 이 저장소 하나만 선택하고 Actions: Read and write 권한만 허용합니다. token을 `public-config.js`에 넣으면 안 됩니다. 토큰을 만들기 어렵다면 `GITHUB_TOKEN`을 생략해도 됩니다. `queue-worker.yml`이 20분 간격으로 비공개 대기열 유무만 확인하고, 빈 대기열에서는 Gemini 호출과 패키지 설치를 하지 않습니다. GitHub 예약 실행은 혼잡도에 따라 늦어질 수 있습니다.
 
 5. **Deploy → New deployment → Web app**을 선택합니다.
 6. Execute as는 본인, Who has access는 **Anyone**을 선택합니다. GitHub Actions가 로그인 쿠키 없이 진행 상태와 완료 callback을 보내야 하기 때문입니다.

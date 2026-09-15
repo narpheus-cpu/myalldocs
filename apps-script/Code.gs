@@ -1,7 +1,9 @@
 /**
  * Personal Book Knowledge Base relay.
- * Script Properties required: GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO,
+ * Script Properties required: GITHUB_OWNER, GITHUB_REPO,
  * CALLBACK_SECRET, COMPLETION_EMAIL, DRIVE_ROOT_FOLDER_ID, SERVICE_ACCOUNT_EMAIL.
+ * GITHUB_TOKEN is optional. Without a valid token, the scheduled queue worker
+ * picks up persisted uploads instead of failing the upload.
  */
 function doGet() {
   return json_({ok: true, service: 'book-indexer-relay'});
@@ -98,7 +100,8 @@ function finishPrivateUpload_(body) {
     var completed = PropertiesService.getScriptProperties().getProperty(completedKey);
     if (completed) return JSON.parse(completed);
     var record = privateUploadRecord_(body.uploadId);
-    var parts = driveListChildren_(record.folderId).map(function(file) {
+    var children = driveListChildren_(record.folderId);
+    var parts = children.map(function(file) {
       var match = /^part-(\d{6})\.bin$/.exec(file.name || '');
       return match ? {index: Number(match[1]), fileId: file.id, size: Number(file.size || 0)} : null;
     }).filter(Boolean).sort(function(a, b) { return a.index - b.index; });
@@ -106,13 +109,18 @@ function finishPrivateUpload_(body) {
     for (var index = 0; index < parts.length; index++) if (parts[index].index !== index) throw new Error('업로드 조각 순서가 불완전합니다.');
     var total = parts.reduce(function(sum, part) { return sum + part.size; }, 0);
     if (total !== record.size) throw new Error('업로드 크기가 원본과 일치하지 않습니다.');
-    var initialState = driveCreateFile_({name: 'queue-state.json', parents: [record.folderId]}, Utilities.newBlob('{}').getBytes(), 'application/json');
-    var manifest = {
-      schemaVersion: 1, kind: record.kind, originalFilename: record.filename,
-      sourceRootFolderId: requiredProperty_('DRIVE_ROOT_FOLDER_ID'), sessionFolderId: record.folderId,
-      parts: parts, stateFileId: initialState.id, createdAt: record.createdAt
-    };
-    var manifestFile = driveCreateFile_({name: 'queue-manifest.json', parents: [record.folderId]}, Utilities.newBlob(JSON.stringify(manifest, null, 2)).getBytes(), 'application/json');
+    var existingManifest = children.filter(function(file) { return file.name === 'queue-manifest.json'; })[0];
+    var manifestFile = existingManifest;
+    if (!manifestFile) {
+      var initialState = children.filter(function(file) { return file.name === 'queue-state.json'; })[0] ||
+        driveCreateFile_({name: 'queue-state.json', parents: [record.folderId]}, Utilities.newBlob('{}').getBytes(), 'application/json');
+      var manifest = {
+        schemaVersion: 1, kind: record.kind, originalFilename: record.filename,
+        sourceRootFolderId: requiredProperty_('DRIVE_ROOT_FOLDER_ID'), sessionFolderId: record.folderId,
+        parts: parts, stateFileId: initialState.id, createdAt: record.createdAt
+      };
+      manifestFile = driveCreateFile_({name: 'queue-manifest.json', parents: [record.folderId]}, Utilities.newBlob(JSON.stringify(manifest, null, 2)).getBytes(), 'application/json');
+    }
     appendQueueManifest_(manifestFile.id);
     var response = {ok: true, queued: true, manifestId: manifestFile.id, dispatch: dispatchQueueWorkflow_()};
     PropertiesService.getScriptProperties().setProperty(completedKey, JSON.stringify(response));
@@ -496,18 +504,33 @@ function latestIndexRun_(owner, repo, token) {
 function dispatchQueueWorkflow_() {
   var owner = requiredProperty_('GITHUB_OWNER');
   var repo = requiredProperty_('GITHUB_REPO');
-  var token = requiredProperty_('GITHUB_TOKEN');
+  var properties = PropertiesService.getScriptProperties();
+  var token = String(properties.getProperty('GITHUB_TOKEN') || '').trim();
+  if (!token || token.indexOf('/') >= 0) return queueScheduledFallback_('missing_or_invalid_token');
   var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/queue-worker.yml/dispatches';
-  var response = UrlFetchApp.fetch(url, {
-    method: 'post', contentType: 'application/json', payload: JSON.stringify({ref: 'main'}),
-    headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'}, muteHttpExceptions: true
-  });
-  var code = response.getResponseCode();
-  if (code !== 200 && code !== 204) throw new Error('대기열 자동 실행 요청 실패: HTTP ' + code);
-  PropertiesService.getScriptProperties().setProperty('LIVE_STATUS_JSON', JSON.stringify({
-    status: 'QUEUED', phase: 'QUEUE_UPLOAD', message: '비공개 업로드 대기열을 등록하고 자동 처리를 요청했습니다.', updatedAt: new Date().toISOString()
+  try {
+    var response = UrlFetchApp.fetch(url, {
+      method: 'post', contentType: 'application/json', payload: JSON.stringify({ref: 'main'}),
+      headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'}, muteHttpExceptions: true
+    });
+    var code = response.getResponseCode();
+    if (code !== 200 && code !== 204) return queueScheduledFallback_('github_http_' + code);
+  } catch (error) {
+    return queueScheduledFallback_('github_request_unavailable');
+  }
+  properties.setProperty('LIVE_STATUS_JSON', JSON.stringify({
+    status: 'QUEUED', phase: 'QUEUE_UPLOAD', message: '비공개 업로드 대기열을 등록하고 즉시 자동 처리를 요청했습니다.', updatedAt: new Date().toISOString()
   }));
-  return {requested: true};
+  return {requested: true, scheduledFallback: false};
+}
+
+function queueScheduledFallback_(reason) {
+  PropertiesService.getScriptProperties().setProperty('LIVE_STATUS_JSON', JSON.stringify({
+    status: 'QUEUED', phase: 'QUEUE_UPLOAD',
+    message: '비공개 업로드 대기열에 등록했습니다. GitHub 인증 없이 정기 자동 실행을 기다립니다(보통 20분 이내, GitHub 사정에 따라 지연될 수 있음).',
+    updatedAt: new Date().toISOString()
+  }));
+  return {requested: false, scheduledFallback: true, reason: String(reason || 'scheduled')};
 }
 
 function driveAdvancedError_(prefix, error) {

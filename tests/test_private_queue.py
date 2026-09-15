@@ -89,6 +89,21 @@ def test_private_upload_retries_transient_relay_failures_idempotently():
     assert "idempotentUploads: true" in relay
     assert "UPLOAD_REQUEST_" in relay
     assert "UPLOAD_FINISHED_" in relay
+    assert "existingManifest" in relay
+    assert "file.name === 'queue-manifest.json'" in relay
+
+
+def test_queue_upload_survives_missing_or_rejected_github_token():
+    root = Path(__file__).resolve().parents[1]
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    workflow = (root / ".github" / "workflows" / "queue-worker.yml").read_text(encoding="utf-8")
+    assert "queueScheduledFallback_" in relay
+    assert "github_http_" in relay
+    assert "scheduledFallback: true" in relay
+    assert 'cron: "*/20 * * * *"' in workflow
+    assert workflow.index("Load the next private queue item") < workflow.index("Install current supported SDKs")
+    script = (root / "js" / "app.js").read_text(encoding="utf-8")
+    assert "finish.dispatch?.scheduledFallback" in script
 
 
 def test_private_management_storage_enables_drive_api_and_rejects_personal_email():
