@@ -232,9 +232,9 @@ function handleQueueState_(body) {
     );
     stateFileId = created.id;
     manifest.stateFileId = stateFileId;
-    manifestFile.setContent(JSON.stringify(manifest, null, 2));
+    driveUpdateFileContent_(id, JSON.stringify(manifest, null, 2), 'application/json');
   }
-  DriveApp.getFileById(stateFileId).setContent(encoded);
+  driveUpdateFileContent_(stateFileId, encoded, 'application/json');
   return json_({ok: true, stateFileId: stateFileId});
 }
 
@@ -641,6 +641,18 @@ function driveCreateFile_(metadata, bytes, mimeType) {
     return Drive.Files.create(metadata, blob, {fields: 'id,name,size', supportsAllDrives: true});
   } catch (error) {
     throw driveAdvancedError_('비공개 관리 파일을 저장하지 못했습니다', error);
+  }
+}
+
+function driveUpdateFileContent_(fileId, text, mimeType) {
+  try {
+    var blob = Utilities.newBlob(String(text || ''), mimeType || 'application/octet-stream');
+    return Drive.Files.update({}, String(fileId), blob, {
+      fields: 'id,size,modifiedTime',
+      supportsAllDrives: true
+    });
+  } catch (error) {
+    throw driveAdvancedError_('비공개 대기열 상태를 저장하지 못했습니다', error);
   }
 }
 

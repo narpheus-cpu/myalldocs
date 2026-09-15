@@ -145,6 +145,8 @@ def test_private_management_storage_enables_drive_api_and_rejects_personal_email
     assert "function handleQueueState_(body)" in relay
     assert "Utilities.ungzip" in relay
     assert "'application/gzip'" in relay
+    assert "Drive.Files.update" in relay
+    assert ".setContent(" not in relay
 
 
 def test_queue_worker_uses_the_service_account_identity_from_its_secret():
