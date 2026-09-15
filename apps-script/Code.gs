@@ -263,7 +263,7 @@ function handleQueueResult_(body) {
   if (allTargetsComplete) {
     var summary = body.summary || {};
     var recipient = properties.getProperty('COMPLETION_EMAIL') || 'narepheus@gmail.com';
-    MailApp.sendEmail(recipient, '[서재지도] 업로드 대기열 처리 완료', [
+    sendEmail_(recipient, '[서재지도] 업로드 대기열 처리 완료', [
       '업로드 대기열의 모든 대상 처리가 끝났습니다.',
       '전체: ' + (summary.totalFiles || 0),
       '완료: ' + (summary.complete || 0),
@@ -765,7 +765,7 @@ function handleCallback_(body) {
     'GitHub Pages: ' + (body.pagesUrl || '')
   ].join('\n');
   // Use the narrow Apps Script mail-sending service; no mailbox read/write API.
-  MailApp.sendEmail(recipient, subject, message);
+  sendEmail_(recipient, subject, message);
   return json_({ok: true, emailSent: true});
 }
 
@@ -777,4 +777,26 @@ function requiredProperty_(name) {
 
 function json_(value) {
   return ContentService.createTextOutput(JSON.stringify(value)).setMimeType(ContentService.MimeType.JSON);
+}
+
+function sendEmail_(recipient, subject, message) {
+  var encodedSubject = Utilities.base64Encode(String(subject || ''), Utilities.Charset.UTF_8);
+  var mime = [
+    'To: ' + String(recipient || ''),
+    'Subject: =?UTF-8?B?' + encodedSubject + '?=',
+    'MIME-Version: 1.0',
+    'Content-Type: text/plain; charset=UTF-8',
+    '',
+    String(message || '')
+  ].join('\r\n');
+  var raw = Utilities.base64EncodeWebSafe(mime, Utilities.Charset.UTF_8).replace(/=+$/, '');
+  var response = UrlFetchApp.fetch('https://gmail.googleapis.com/gmail/v1/users/me/messages/send', {
+    method: 'post',
+    contentType: 'application/json',
+    headers: {Authorization: 'Bearer ' + ScriptApp.getOAuthToken()},
+    payload: JSON.stringify({raw: raw}),
+    muteHttpExceptions: true
+  });
+  var code = response.getResponseCode();
+  if (code < 200 || code >= 300) throw new Error('완료 메일 전송 실패: HTTP ' + code);
 }
