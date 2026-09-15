@@ -18,11 +18,14 @@ def test_jsonl_is_parsed_in_memory_and_requires_txt_or_epub():
         parse_jsonl(b'{"filename":"book.pdf"}\n')
 
 
-def test_private_queue_can_read_apps_script_created_shared_files():
+def test_private_queue_reads_shared_files_but_delegates_state_writes():
     root = Path(__file__).resolve().parents[1]
     source = (root / "indexer" / "private_queue.py").read_text(encoding="utf-8")
     assert '"https://www.googleapis.com/auth/drive.readonly"' in source
-    assert '"https://www.googleapis.com/auth/drive.file"' in source
+    assert '"route": "queue-state"' in source
+    assert 'self.service.files().update' not in source
+    assert 'self.service.files().create' not in source
+    assert '"https://www.googleapis.com/auth/drive.file"' not in source
     assert '"https://www.googleapis.com/auth/drive"]' not in source
 
 
@@ -133,6 +136,8 @@ def test_private_management_storage_enables_drive_api_and_rejects_personal_email
     assert "Drive.Permissions.list" in relay
     assert "body.serviceAccountEmail" in relay
     assert "normalizeServiceAccountEmail_" in relay
+    assert "body.route === 'queue-state'" in relay
+    assert "function handleQueueState_(body)" in relay
 
 
 def test_queue_worker_uses_the_service_account_identity_from_its_secret():

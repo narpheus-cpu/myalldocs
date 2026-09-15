@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import io
 import json
+import urllib.request
 from dataclasses import dataclass
 from typing import Any
 
@@ -15,27 +16,26 @@ class QueueBundle:
 
 
 class PrivateQueueDrive:
-    """Read and update only files explicitly shared with the queue app.
+    """Read only files explicitly shared with the queue worker.
 
     Apps Script creates the queue files, so drive.file alone cannot always
-    discover them. drive.readonly makes explicitly shared queue files visible;
-    drive.file remains the only write scope and this client is never handed a
-    source-book ID for mutation.
+    discover them. drive.readonly makes explicitly shared queue files visible.
+    State writes go back through the authenticated Apps Script owner instead of
+    granting the worker broad Drive write access.
     """
 
-    def __init__(self, service_account_json: str) -> None:
+    def __init__(self, service_account_json: str, callback_url: str = "", callback_secret: str = "") -> None:
         from google.oauth2 import service_account
         from googleapiclient.discovery import build
 
         info = json.loads(service_account_json)
         credentials = service_account.Credentials.from_service_account_info(
             info,
-            scopes=[
-                "https://www.googleapis.com/auth/drive.readonly",
-                "https://www.googleapis.com/auth/drive.file",
-            ],
+            scopes=["https://www.googleapis.com/auth/drive.readonly"],
         )
         self.service = build("drive", "v3", credentials=credentials, cache_discovery=False)
+        self.callback_url = callback_url
+        self.callback_secret = callback_secret
 
     def download(self, file_id: str) -> bytes:
         from googleapiclient.http import MediaIoBaseDownload
@@ -50,24 +50,6 @@ class PrivateQueueDrive:
 
     def metadata(self, file_id: str, fields: str = "id,name,parents") -> dict[str, Any]:
         return self.service.files().get(fileId=file_id, fields=fields, supportsAllDrives=True).execute()
-
-    def create_json(self, parent_id: str, name: str, value: Any) -> str:
-        from googleapiclient.http import MediaIoBaseUpload
-
-        body = json.dumps(value, ensure_ascii=False, indent=2).encode("utf-8")
-        media = MediaIoBaseUpload(io.BytesIO(body), mimetype="application/json", resumable=False)
-        result = self.service.files().create(
-            body={"name": name, "parents": [parent_id], "mimeType": "application/json"},
-            media_body=media, fields="id", supportsAllDrives=True,
-        ).execute()
-        return str(result["id"])
-
-    def update_json(self, file_id: str, value: Any) -> None:
-        from googleapiclient.http import MediaIoBaseUpload
-
-        body = json.dumps(value, ensure_ascii=False, indent=2).encode("utf-8")
-        media = MediaIoBaseUpload(io.BytesIO(body), mimetype="application/json", resumable=False)
-        self.service.files().update(fileId=file_id, media_body=media, supportsAllDrives=True).execute()
 
     def manifest(self, manifest_id: str) -> dict[str, Any]:
         return _object(self.download(manifest_id), "대기열 안내 파일")
@@ -92,16 +74,24 @@ class PrivateQueueDrive:
         return QueueBundle(manifest_id, manifest, entries, state)
 
     def save_state(self, bundle: QueueBundle, state: dict[str, Any]) -> None:
-        state_file_id = str(bundle.manifest.get("stateFileId") or "")
-        if not state_file_id:
-            parent = str(bundle.manifest.get("sessionFolderId") or self.metadata(bundle.manifest_id).get("parents", [""])[0])
-            if not parent:
-                raise ValueError("비공개 대기열 폴더를 찾지 못했습니다.")
-            state_file_id = self.create_json(parent, "queue-state.json", state)
-            bundle.manifest["stateFileId"] = state_file_id
-            self.update_json(bundle.manifest_id, bundle.manifest)
-        else:
-            self.update_json(state_file_id, state)
+        if not self.callback_url or not self.callback_secret:
+            raise RuntimeError("비공개 대기열 상태 저장 연결이 없습니다.")
+        body = json.dumps({
+            "route": "queue-state",
+            "callbackSecret": self.callback_secret,
+            "manifestId": bundle.manifest_id,
+            "state": state,
+        }, ensure_ascii=False).encode("utf-8")
+        request = urllib.request.Request(
+            self.callback_url,
+            data=body,
+            headers={"Content-Type": "text/plain;charset=utf-8"},
+            method="POST",
+        )
+        with urllib.request.urlopen(request, timeout=30) as response:
+            value = json.loads(response.read().decode("utf-8"))
+        if not isinstance(value, dict) or value.get("ok") is not True:
+            raise RuntimeError("Apps Script가 비공개 대기열 상태를 저장하지 못했습니다.")
         bundle.state = state
 
 

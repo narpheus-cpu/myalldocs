@@ -361,9 +361,11 @@ def main() -> int:
     settings.assert_zero_cost()
     secret_json = settings.secret("GOOGLE_SERVICE_ACCOUNT_JSON") or ""
     progress = ProgressReporter.from_env()
+    callback_url = os.getenv("APPS_SCRIPT_CALLBACK_URL", "")
+    callback_secret = os.getenv("APPS_SCRIPT_CALLBACK_SECRET", "")
     try:
         drive = DriveClient(secret_json, settings.raw.get("driveQuota", {}))
-        private_drive = PrivateQueueDrive(secret_json)
+        private_drive = PrivateQueueDrive(secret_json, callback_url, callback_secret)
         bundle_kind = private_drive.manifest(manifest_id).get("kind")
         gemini = (
             GeminiClient(settings.secret("GEMINI_API_KEY") or "", settings.model_policy, RateLimiter(settings.quota))
@@ -375,8 +377,6 @@ def main() -> int:
         status = {"status": "NO_SUPPORTED_MODEL", "phase": "NO_SUPPORTED_MODEL", "message": str(exc), "allTargetsComplete": False, "finishedAt": _now()}
         atomic_write_json(settings.root / "data" / "job-status.json", status)
         progress.emit(status, force=True)
-    callback_url = os.getenv("APPS_SCRIPT_CALLBACK_URL", "")
-    callback_secret = os.getenv("APPS_SCRIPT_CALLBACK_SECRET", "")
     try:
         notify_queue_result(callback_url, callback_secret, manifest_id, status["status"], {
             **{key: status.get(key, 0) for key in ("complete", "skipped", "failed", "metadataReview", "totalFiles")},

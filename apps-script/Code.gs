@@ -24,6 +24,7 @@ function doPost(e) {
     if (body.route === 'progress') return handleProgress_(body);
     if (body.route === 'runtime-key') return handleRuntimeKey_(body);
     if (body.route === 'private-queue') return handlePrivateQueue_(body);
+    if (body.route === 'queue-state') return handleQueueState_(body);
     if (body.route === 'queue-result') return handleQueueResult_(body);
     assertAuthorizedUser_(body);
     if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_()});
@@ -200,6 +201,33 @@ function ensureQueueManifestAccess_(manifestId, serviceAccountEmail) {
   } catch (error) {
     throw driveAdvancedError_('비공개 대기열을 서비스 계정과 공유하지 못했습니다', error);
   }
+}
+
+function handleQueueState_(body) {
+  assertCallbackSecret_(body);
+  var id = String(body.manifestId || '');
+  if (!/^[A-Za-z0-9_-]{10,200}$/.test(id)) throw new Error('대기열 ID가 올바르지 않습니다.');
+  var allowed = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').concat(queueIds_('PRIVATE_REVIEW_MANIFEST_IDS'));
+  if (allowed.indexOf(id) < 0) throw new Error('등록되지 않은 대기열입니다.');
+  var state = body.state;
+  if (!state || typeof state !== 'object' || Array.isArray(state)) throw new Error('대기열 상태 형식이 올바르지 않습니다.');
+  var encoded = JSON.stringify(state, null, 2);
+  if (encoded.length > 10000000) throw new Error('대기열 상태가 너무 큽니다.');
+  var manifestFile = DriveApp.getFileById(id);
+  var manifest = JSON.parse(manifestFile.getBlob().getDataAsString('UTF-8'));
+  var stateFileId = String(manifest.stateFileId || '');
+  if (!stateFileId) {
+    var created = driveCreateFile_(
+      {name: 'queue-state.json', parents: [String(manifest.sessionFolderId || '')]},
+      Utilities.newBlob('{}').getBytes(),
+      'application/json'
+    );
+    stateFileId = created.id;
+    manifest.stateFileId = stateFileId;
+    manifestFile.setContent(JSON.stringify(manifest, null, 2));
+  }
+  DriveApp.getFileById(stateFileId).setContent(encoded);
+  return json_({ok: true, stateFileId: stateFileId});
 }
 
 function handleQueueResult_(body) {
