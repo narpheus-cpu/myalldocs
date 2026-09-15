@@ -7,6 +7,7 @@ from indexer.canonical import CanonicalValidationError, legacy_to_canonical, nor
 from indexer.models import DriveBook
 from indexer.prior_knowledge import prior_knowledge_prompt, valid_prior_result
 from indexer.private_queue import parse_jsonl
+from indexer.queue_context import service_account_email
 from indexer.queue_worker import match_entries
 
 
@@ -121,6 +122,14 @@ def test_private_management_storage_enables_drive_api_and_rejects_personal_email
     assert "driveEnsureEditor_(folder.id" in relay
     assert "ensureQueueManifestAccess_(ids[0])" in relay
     assert "Drive.Permissions.list" in relay
+    assert "body.serviceAccountEmail" in relay
+    assert "normalizeServiceAccountEmail_" in relay
+
+
+def test_queue_worker_uses_the_service_account_identity_from_its_secret():
+    assert service_account_email('{"client_email":"Worker@Project.iam.gserviceaccount.com"}') == "worker@project.iam.gserviceaccount.com"
+    assert service_account_email('{"client_email":"ordinary@example.com"}') == ""
+    assert service_account_email("not-json") == ""
 
 
 def test_private_upload_authentication_happens_before_file_picker():

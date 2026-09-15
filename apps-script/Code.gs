@@ -170,16 +170,28 @@ function appendQueueManifest_(id) {
 
 function handlePrivateQueue_(body) {
   assertCallbackSecret_(body);
+  var properties = PropertiesService.getScriptProperties();
+  var serviceAccountEmail = normalizeServiceAccountEmail_(body.serviceAccountEmail || properties.getProperty('SERVICE_ACCOUNT_EMAIL'));
+  if (body.serviceAccountEmail) properties.setProperty('SERVICE_ACCOUNT_EMAIL', serviceAccountEmail);
+  driveEnsureEditor_(ensureManagementFolderId_(), serviceAccountEmail);
   var ids = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS');
-  if (ids.length) ensureQueueManifestAccess_(ids[0]);
+  if (ids.length) ensureQueueManifestAccess_(ids[0], serviceAccountEmail);
   return json_({ok: true, manifestId: ids.length ? ids[0] : ''});
 }
 
-function ensureQueueManifestAccess_(manifestId) {
+function normalizeServiceAccountEmail_(value) {
+  var email = String(value || '').trim().toLowerCase();
+  if (!/^[^@\s]+@[^@\s]+\.iam\.gserviceaccount\.com$/i.test(email)) {
+    throw new Error('GitHub에 저장된 서비스 계정 정보가 올바르지 않습니다.');
+  }
+  return email;
+}
+
+function ensureQueueManifestAccess_(manifestId, serviceAccountEmail) {
   try {
     var metadata = Drive.Files.get(String(manifestId), {fields: 'id,parents', supportsAllDrives: true});
     (metadata.parents || []).forEach(function(parentId) {
-      driveEnsureEditor_(parentId, requiredProperty_('SERVICE_ACCOUNT_EMAIL').trim());
+      driveEnsureEditor_(parentId, serviceAccountEmail);
     });
   } catch (error) {
     throw driveAdvancedError_('비공개 대기열을 서비스 계정과 공유하지 못했습니다', error);

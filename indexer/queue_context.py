@@ -9,10 +9,21 @@ import urllib.request
 ID_PATTERN = re.compile(r"^[A-Za-z0-9_-]{10,200}$")
 
 
-def fetch_queue_context(url: str, secret: str) -> dict:
+def service_account_email(raw: str) -> str:
+    try:
+        email = str(json.loads(raw or "{}").get("client_email") or "").strip().lower()
+    except (TypeError, ValueError, json.JSONDecodeError):
+        return ""
+    return email if re.fullmatch(r"[^@\s]+@[^@\s]+\.iam\.gserviceaccount\.com", email) else ""
+
+
+def fetch_queue_context(url: str, secret: str, worker_email: str = "") -> dict:
     if not url or not secret:
         return {}
-    body = json.dumps({"route": "private-queue", "callbackSecret": secret}).encode("utf-8")
+    body = json.dumps({
+        "route": "private-queue", "callbackSecret": secret,
+        "serviceAccountEmail": worker_email,
+    }).encode("utf-8")
     request = urllib.request.Request(url, data=body, headers={"Content-Type": "text/plain;charset=utf-8"}, method="POST")
     with urllib.request.urlopen(request, timeout=20) as response:
         value = json.loads(response.read().decode("utf-8"))
@@ -37,7 +48,11 @@ def notify_queue_result(url: str, secret: str, manifest_id: str, status: str, su
 
 def main() -> int:
     try:
-        context = fetch_queue_context(os.getenv("APPS_SCRIPT_CALLBACK_URL", ""), os.getenv("APPS_SCRIPT_CALLBACK_SECRET", ""))
+        context = fetch_queue_context(
+            os.getenv("APPS_SCRIPT_CALLBACK_URL", ""),
+            os.getenv("APPS_SCRIPT_CALLBACK_SECRET", ""),
+            service_account_email(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON", "")),
+        )
     except Exception as exc:
         print(f"Private queue lookup failed safely: {type(exc).__name__}")
         return 1
