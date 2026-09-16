@@ -104,13 +104,23 @@ def match_entries(entries: list[dict[str, Any]], books: list[DriveBook], root_na
             author = _compact_identity(identity.get("author"))
             if len(title) >= 2:
                 title_candidates = [book for book in books if title in _compact_identity(Path(book.name).stem)]
+                title_segment_candidates = [
+                    book for book in title_candidates
+                    if title in _compact_identity(re.split(r"[_｜|]", Path(book.name).stem)[-1])
+                ]
                 author_candidates = [
                     book for book in title_candidates
                     if author and author in _compact_identity(" ".join([Path(book.name).stem, *book.folderPath]))
                 ]
-                candidates = author_candidates if len(author_candidates) == 1 else title_candidates
+                candidates = (
+                    title_segment_candidates if len(title_segment_candidates) == 1
+                    else (author_candidates if len(author_candidates) == 1 else title_candidates)
+                )
                 if candidates:
-                    match_basis = "title_author" if len(author_candidates) == 1 else "title"
+                    match_basis = (
+                        "title_segment" if len(title_segment_candidates) == 1
+                        else ("title_author" if len(author_candidates) == 1 else "title")
+                    )
         status = "MATCHED" if len(candidates) == 1 else ("NOT_FOUND" if not candidates else "AMBIGUOUS")
         selected = candidates[0] if len(candidates) == 1 else None
         display_name = filename or " · ".join(filter(None, [str(identity.get("title") or "").strip(), str(identity.get("author") or "").strip()]))
@@ -125,7 +135,7 @@ def match_entries(entries: list[dict[str, Any]], books: list[DriveBook], root_na
             "matchBasis": match_basis,
             "reason": (
                 "작품명·작가명으로 Drive 원본을 자동 연결했습니다."
-                if status == "MATCHED" and match_basis in {"title", "title_author"}
+                if status == "MATCHED" and match_basis in {"title", "title_author", "title_segment"}
                 else ("Drive에서 일치하는 원본 파일을 찾지 못했습니다." if status == "NOT_FOUND"
                       else ("Drive에 같은 후보가 여러 개 있어 자동 확정하지 않았습니다." if status == "AMBIGUOUS" else ""))
             ),

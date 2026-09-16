@@ -85,6 +85,18 @@ def test_completed_json_does_not_guess_when_title_matches_multiple_drive_files()
     assert matched[0]["driveFileId"] == ""
 
 
+def test_series_name_does_not_make_every_volume_a_title_match():
+    books = [
+        DriveBook("a" * 12, "존 스칼지-노인의전쟁 시리즈_마지막 행성(epub ocr).txt", "text/plain", folderPath=["book", "05 SF"]),
+        DriveBook("b" * 12, "존 스칼지-노인의전쟁 시리즈_유령여단(epub ocr).txt", "text/plain", folderPath=["book", "05 SF"]),
+        DriveBook("c" * 12, "존 스칼지-노인의전쟁 시리즈_노인의 전쟁(epub ocr).txt", "text/plain", folderPath=["book", "05 SF"]),
+    ]
+    matched = match_entries([{"identity": {"title": "노인의 전쟁", "author": "존 스칼지"}}], books, "book")
+    assert matched[0]["status"] == "MATCHED"
+    assert matched[0]["driveFileId"] == "c" * 12
+    assert matched[0]["matchBasis"] == "title_segment"
+
+
 def test_review_queue_is_rematched_after_matching_logic_or_drive_changes():
     books = [DriveBook("a" * 12, "존 스칼지_노인의 전쟁.txt", "text/plain", folderPath=["book", "SF"])]
     entries = [{"identity": {"title": "노인의 전쟁", "author": "존 스칼지"}}]
