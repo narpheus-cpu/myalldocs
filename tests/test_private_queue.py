@@ -264,6 +264,7 @@ def test_content_edit_uses_private_drive_and_actions_without_exposing_secrets():
     assert "permissions:\n  contents: write" in workflow
     assert "data/content-overrides.json" in workflow
     assert '"Apply indexed content edit"' in deploy
+    assert "stableContentJSON(override.content)===expected" in (root / "js" / "app.js").read_text(encoding="utf-8")
 
     _validate_public_content({"overallSummary": "공개 가능한 요약"})
     with pytest.raises(ValueError, match="원문 전문"):

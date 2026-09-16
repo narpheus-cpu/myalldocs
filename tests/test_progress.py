@@ -46,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260916-dynamic-editor6" in html
+    assert "js/app.js?v=20260916-dynamic-editor7" in html
 
 
 def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
