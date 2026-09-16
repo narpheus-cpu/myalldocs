@@ -5,6 +5,7 @@ import gzip
 import io
 import json
 import time
+import urllib.error
 import urllib.request
 from dataclasses import dataclass
 from typing import Any
@@ -131,7 +132,8 @@ class PrivateQueueDrive:
         }, ensure_ascii=False).encode("utf-8")
         value: Any = None
         last_error: Exception | None = None
-        for attempt in range(2):
+        max_attempts = 5
+        for attempt in range(max_attempts):
             request = urllib.request.Request(
                 self.callback_url,
                 data=body,
@@ -139,18 +141,24 @@ class PrivateQueueDrive:
                 method="POST",
             )
             try:
-                with urllib.request.urlopen(request, timeout=90) as response:
+                with urllib.request.urlopen(request, timeout=30) as response:
                     value = json.loads(response.read().decode("utf-8"))
                 if isinstance(value, dict) and value.get("ok") is True:
                     bundle.state = state
                     return
                 detail = str(value.get("error") or "")[:300] if isinstance(value, dict) else "응답 형식 오류"
                 raise RuntimeError(f"Apps Script가 비공개 대기열 상태를 저장하지 못했습니다: {detail}")
+            except urllib.error.HTTPError as exc:
+                try:
+                    detail = exc.read(500).decode("utf-8", errors="replace")
+                except Exception:
+                    detail = ""
+                last_error = RuntimeError(f"HTTP {exc.code}{': ' + detail if detail else ''}")
             except (TimeoutError, OSError) as exc:
                 last_error = exc
-                if attempt == 0:
-                    time.sleep(2)
-        raise RuntimeError(f"Apps Script 상태 저장 연결 시간이 초과되었습니다: {type(last_error).__name__}")
+            if attempt + 1 < max_attempts:
+                time.sleep(min(16, 2 ** (attempt + 1)))
+        raise RuntimeError(f"Apps Script 상태 저장 연결이 {max_attempts}회 실패했습니다: {last_error}")
 
 
 def parse_jsonl(payload: bytes) -> list[dict[str, Any]]:

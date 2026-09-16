@@ -43,7 +43,8 @@ def test_private_queue_reads_shared_files_but_delegates_state_writes():
     assert '"route": "queue-state"' in source
     assert '"stateGzipBase64"' in source
     assert "gzip.compress" in source
-    assert "timeout=90" in source
+    assert "timeout=30" in source
+    assert "max_attempts = 5" in source
     assert 'str(value.get("error") or "")[:300]' in source
     assert 'self.service.files().update' not in source
     assert 'self.service.files().create' not in source
@@ -164,6 +165,8 @@ def test_apps_script_requests_have_a_timeout_instead_of_hanging_forever():
     script = (root / "js" / "app.js").read_text(encoding="utf-8")
     assert "setTimeout(()=>controller.abort(),30000)" in script
     assert "Apps Script 응답 시간 초과" in script
+    assert "state.pollingLive||!state.accessToken" in script
+    assert "finally{state.pollingLive=false}" in script
 
 
 def test_review_queue_can_be_retried_after_matching_rules_change():
