@@ -166,6 +166,15 @@ def test_apps_script_requests_have_a_timeout_instead_of_hanging_forever():
     assert "Apps Script 응답 시간 초과" in script
 
 
+def test_review_queue_can_be_retried_after_matching_rules_change():
+    root = Path(__file__).resolve().parents[1]
+    script = (root / "js" / "app.js").read_text(encoding="utf-8")
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    assert 'retry.textContent="다시 자동 연결"' in script
+    assert 'route:"queue-retry",manifestId' in script
+    assert "function retryQueue_" in relay
+
+
 def test_private_upload_retries_transient_relay_failures_idempotently():
     root = Path(__file__).resolve().parents[1]
     script = (root / "js" / "app.js").read_text(encoding="utf-8")
