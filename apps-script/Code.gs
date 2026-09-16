@@ -33,6 +33,7 @@ function doPost(e) {
     if (body.route === 'update-github-token') return json_(updateGitHubToken_(body));
     if (body.route === 'retry-queue-dispatch') return json_({ok: true, dispatch: dispatchQueueWorkflow_()});
     if (body.route === 'update-metadata') return json_(updateMetadata_(body));
+    if (body.route === 'update-book-content') return json_(updateBookContent_(body));
     if (body.route === 'upload-start') return json_(startPrivateUpload_(body));
     if (body.route === 'upload-part') return json_(savePrivateUploadPart_(body));
     if (body.route === 'upload-finish') return json_(finishPrivateUpload_(body));
@@ -442,6 +443,54 @@ function updateMetadata_(body) {
   if (code !== 200 && code !== 201) throw new Error('수동 수정값 저장에 실패했습니다: HTTP ' + code);
   var result = JSON.parse(updateResponse.getContentText() || '{}');
   return {ok: true, override: override, commitUrl: result.commit && result.commit.html_url || ''};
+}
+
+function updateBookContent_(body) {
+  var driveFileId = String(body.driveFileId || '').trim();
+  if (!/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('원본 파일 ID가 올바르지 않습니다.');
+  assertFileWithinRoot_(driveFileId);
+  if (!body.content || typeof body.content !== 'object' || Array.isArray(body.content)) throw new Error('저장할 인덱싱 내용이 올바르지 않습니다.');
+  var content = JSON.parse(JSON.stringify(body.content));
+  validatePublicBookContent_(content, 0);
+  var serialized = JSON.stringify(content);
+  if (serialized.length > 1500000) throw new Error('편집 내용이 너무 큽니다. 150만 자 이하로 저장하세요.');
+
+  var owner = requiredProperty_('GITHUB_OWNER');
+  var repo = requiredProperty_('GITHUB_REPO');
+  var token = requiredProperty_('GITHUB_TOKEN');
+  var path = 'data/content-overrides.json';
+  var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/contents/' + path;
+  var headers = {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'};
+  var currentResponse = UrlFetchApp.fetch(url + '?ref=main', {headers: headers, muteHttpExceptions: true});
+  var currentFile = null;
+  var document = {schemaVersion: 1, description: 'driveFileId별 인덱싱 내용 수동 수정값. 자동 재인덱싱과 별도로 보존됩니다.', byDriveFileId: {}};
+  if (currentResponse.getResponseCode() === 200) {
+    currentFile = JSON.parse(currentResponse.getContentText() || '{}');
+    var decoded = Utilities.newBlob(Utilities.base64Decode(String(currentFile.content || '').replace(/\s/g, ''))).getDataAsString('UTF-8');
+    document = JSON.parse(decoded || '{}');
+    document.byDriveFileId = document.byDriveFileId || {};
+  } else if (currentResponse.getResponseCode() !== 404) {
+    throw new Error('기존 내용 수정값을 읽지 못했습니다: HTTP ' + currentResponse.getResponseCode());
+  }
+  var override = {content: content, updatedAt: new Date().toISOString()};
+  document.byDriveFileId[driveFileId] = override;
+  var encoded = Utilities.base64Encode(Utilities.newBlob(JSON.stringify(document, null, 2) + '\n', 'application/json', 'content-overrides.json').getBytes());
+  var payload = {message: 'Update indexed book content', content: encoded, branch: 'main'};
+  if (currentFile && currentFile.sha) payload.sha = currentFile.sha;
+  var updateResponse = UrlFetchApp.fetch(url, {method: 'put', contentType: 'application/json', headers: headers, muteHttpExceptions: true, payload: JSON.stringify(payload)});
+  var code = updateResponse.getResponseCode();
+  if (code !== 200 && code !== 201) throw new Error('인덱싱 내용 저장에 실패했습니다: HTTP ' + code);
+  var result = JSON.parse(updateResponse.getContentText() || '{}');
+  return {ok: true, override: override, commitUrl: result.commit && result.commit.html_url || ''};
+}
+
+function validatePublicBookContent_(value, depth) {
+  if (depth > 30) throw new Error('편집 내용의 구조가 너무 깊습니다.');
+  if (!value || typeof value !== 'object') return;
+  Object.keys(value).forEach(function(key) {
+    if (/^(?:source|raw|original|full)[_-]?text$/i.test(key)) throw new Error('원문 전문은 공개 저장소에 저장할 수 없습니다.');
+    validatePublicBookContent_(value[key], depth + 1);
+  });
 }
 
 function handleRuntimeKey_(body) {

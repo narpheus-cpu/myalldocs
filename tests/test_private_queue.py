@@ -81,6 +81,22 @@ def test_canonical_requires_drive_match_and_hash_is_stable():
     assert text_sha256("가  나\r\n다") == text_sha256("가 나\n다")
 
 
+def test_canonical_preserves_uploaded_custom_analysis_fields_and_titles():
+    raw = {
+        "identity": {"title": "제목", "author": "작가", "workProfile": {"primary": "fiction"}},
+        "content": {
+            "oneLineSummary": "한 줄",
+            "플롯구조분석": {"title": "플롯구조분석", "content": ["발단", "전개"]},
+            "adaptiveAnalysis": [{"key": "plotStructure", "title": "플롯구조분석", "content": {"단계": ["발단"]}}],
+        },
+        "source": {"driveFileId": "d" * 12, "filename": "책.txt"},
+        "system": {"driveFileId": "d" * 12, "driveMatchStatus": "MATCHED"},
+    }
+    book = normalize_canonical(raw)
+    assert book["content"]["플롯구조분석"]["title"] == "플롯구조분석"
+    assert book["content"]["adaptiveAnalysis"][0]["title"] == "플롯구조분석"
+
+
 def test_legacy_migration_preserves_source_provenance():
     book = legacy_to_canonical(
         {"bookId": "x", "driveFileId": "d" * 12, "title": "제목", "author": "작가", "indexStatus": "COMPLETE", "metadata": {"manualOverrideApplied": True}},

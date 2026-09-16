@@ -46,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260916-dispatch-auth2" in html
+    assert "js/app.js?v=20260916-dynamic-editor1" in html
 
 
 def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
@@ -167,6 +167,43 @@ def test_reader_uses_compact_actions_and_hides_key_points_heading():
     assert ".detail-content h3 + h2" in styles
     assert ".detail-actions a, .detail-actions button" in styles
     assert "font-size: 11px" in styles
+
+
+def test_detail_tabs_follow_canonical_json_and_all_indexed_content_is_editable():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    relay = (ROOT / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    canonical = (ROOT / "indexer" / "canonical.py").read_text(encoding="utf-8")
+    for phrase in ("canonicalTabDefinitions", "item.title||customLabel(item.key)", "adaptive:${index}", "content:${key}", "tabDefinitions"):
+        assert phrase in script
+    for phrase in ('contentEdit.id="edit-indexed-content"', 'contentSave.id="save-indexed-content"', 'route:"update-book-content"', "renderContentEditor", "content-overrides.json"):
+        assert phrase in script
+    assert "body.route === 'update-book-content'" in relay
+    assert "function updateBookContent_" in relay
+    assert "validatePublicBookContent_" in relay
+    assert "result[\"content\"][key] = deepcopy(value)" in canonical
+    assert (ROOT / "data" / "content-overrides.json").exists()
+
+
+def test_reader_has_whole_source_persistent_geometry_and_collapsible_controls():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    styles = (ROOT / "assets" / "styles.css").read_text(encoding="utf-8")
+    assert 'whole.textContent="원문 전체"' in script
+    assert 'all.textContent=chunks.length?"원문 전체"' in script
+    assert 'id="reader-toolbar-details"' in html and "<summary>구간·보기 설정</summary>" in html
+    assert "Google Drive 원문</p>" not in html
+    for phrase in ("saveReaderWindowGeometry", "applyReaderWindowSettings", "width:state.reader.width", "toolbarOpen:state.reader.toolbarOpen"):
+        assert phrase in script
+    assert ".chunk-dialog[open]" in styles
+    assert ".compact-actions" in styles
+
+
+def test_library_filters_and_detailed_summary_layout_persist_and_render_as_sections():
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    for phrase in ("bookmap_library_filters_v1", "persistLibraryFilters", "restoreLibraryFilters"):
+        assert phrase in script
+    assert '["summaryShort","summaryLong","detailedSummary","summary","authorIntroduction"]' in script
 
 
 def test_metadata_editor_persists_manual_override_through_authorized_relay():

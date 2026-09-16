@@ -167,6 +167,15 @@ def normalize_canonical(raw: dict[str, Any], *, require_drive_match: bool = True
             "edited": bool(system.get("edited") or False),
         },
     }
+    known_content_keys = {
+        "authorIntroduction", "author_introduction", "oneLineSummary", "one_line_summary",
+        "overallSummary", "overall_summary", "sectionSummaries", "section_summaries",
+        "keyEntities", "key_entities", "setting", "adaptiveAnalysis", "adaptive_analysis",
+    }
+    forbidden_content_keys = {"sourceText", "source_text", "rawText", "raw_text", "originalText", "original_text", "fullText", "full_text"}
+    for key, value in content.items():
+        if key not in known_content_keys and key not in forbidden_content_keys:
+            result["content"][key] = deepcopy(value)
     if not result["source"]["format"]:
         result["source"]["format"] = "epub" if result["source"]["filename"].casefold().endswith(".epub") else "txt"
     return result
