@@ -46,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260916-indexeddb-state1" in html
+    assert "js/app.js?v=20260916-indexeddb-state2" in html
 
 
 def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
@@ -233,9 +233,10 @@ def test_large_edits_and_small_preferences_use_indexeddb_with_legacy_cleanup():
 
 def test_reader_restores_last_chunk_and_page_after_refresh():
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
-    for phrase in ("loadReaderBookmark(manifest)", "bookmarkExists", "preferredOffset", "saveReaderBookmark()"):
+    for phrase in ("loadReaderBookmark(manifest)", "bookmarkExists", "preferredOffset", "saveReaderBookmark()", "pendingRestoreOffset"):
         assert phrase in script
     assert "openSelectedChunk(true)" in script
+    assert "state.reader.pendingRestoreOffset??state.reader.pages[state.reader.page]?.start??0" in script
 
 
 def test_library_selected_books_can_be_safely_hidden_without_deleting_drive_source():
