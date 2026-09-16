@@ -119,7 +119,7 @@ def test_queue_upload_survives_missing_or_rejected_github_token():
     assert 'cron: "*/20 * * * *"' in workflow
     assert workflow.index("Load the next private queue item") < workflow.index("Install current supported SDKs")
     script = (root / "js" / "app.js").read_text(encoding="utf-8")
-    assert "finish.dispatch?.scheduledFallback" in script
+    assert "dispatchFailureText(finish.dispatch)" in script
 
 
 def test_github_dispatch_token_is_verified_before_replacement_and_failures_are_visible():
