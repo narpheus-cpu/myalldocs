@@ -53,13 +53,14 @@ async function loadBookData(id){const base=`data/books/${encodeURIComponent(id)}
 function cloneJSON(value){return JSON.parse(JSON.stringify(value))}
 function meaningful(value){if(value==null)return false;if(typeof value==="string")return Boolean(value.trim());if(Array.isArray(value))return value.some(meaningful);if(typeof value==="object")return Object.values(value).some(meaningful);return true}
 function customLabel(key){return humanize(key)||String(key||"").replace(/[_-]+/g," ").replace(/([a-z0-9])([A-Z])/g,"$1 $2").trim()||"분석"}
+function adaptiveTabLabel(item,index){const title=String(item?.title||"").trim(),key=String(item?.key||"").trim();return title&&title.toLocaleLowerCase()!==key.toLocaleLowerCase()?title:customLabel(key)||`추가 분석 ${index+1}`}
 function canonicalTabDefinitions(content){
   const defs=[],reserved=new Set(["authorIntroduction","oneLineSummary","overallSummary","sectionSummaries","keyEntities","setting","adaptiveAnalysis"]);
   if(meaningful([content.authorIntroduction,content.oneLineSummary,content.overallSummary]))defs.push({key:"summary",label:"전체 요약",kind:"summary"});
   if(meaningful(content.sectionSummaries))defs.push({key:"sections",label:"구간별 요약",path:["sectionSummaries"]});
   if(meaningful(content.keyEntities?.items))defs.push({key:"keyEntities",label:customLabel("keyEntities"),path:["keyEntities"]});
   if(meaningful(content.setting))defs.push({key:"setting",label:customLabel("setting"),path:["setting"]});
-  (Array.isArray(content.adaptiveAnalysis)?content.adaptiveAnalysis:[]).forEach((item,index)=>{if(!item||!meaningful(item.content))return;defs.push({key:`adaptive:${index}`,label:String(item.title||customLabel(item.key)||`추가 분석 ${index+1}`),path:["adaptiveAnalysis",index],displayPath:["content"]})});
+  (Array.isArray(content.adaptiveAnalysis)?content.adaptiveAnalysis:[]).forEach((item,index)=>{if(!item||!meaningful(item.content))return;defs.push({key:`adaptive:${index}`,label:adaptiveTabLabel(item,index),path:["adaptiveAnalysis",index],displayPath:["content"]})});
   Object.entries(content).forEach(([key,value])=>{if(reserved.has(key)||!meaningful(value))return;const label=value&&typeof value==="object"&&!Array.isArray(value)&&value.title?String(value.title):customLabel(key);defs.push({key:`content:${key}`,label,path:[key],displayPath:value&&typeof value==="object"&&!Array.isArray(value)&&Object.prototype.hasOwnProperty.call(value,"content")?["content"]:[]})});
   return defs.length?defs:[{key:"summary",label:"전체 요약",kind:"summary"}]
 }

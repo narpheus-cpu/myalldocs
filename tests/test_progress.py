@@ -46,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260916-dynamic-editor1" in html
+    assert "js/app.js?v=20260916-dynamic-editor2" in html
 
 
 def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
@@ -174,7 +174,7 @@ def test_detail_tabs_follow_canonical_json_and_all_indexed_content_is_editable()
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
     relay = (ROOT / "apps-script" / "Code.gs").read_text(encoding="utf-8")
     canonical = (ROOT / "indexer" / "canonical.py").read_text(encoding="utf-8")
-    for phrase in ("canonicalTabDefinitions", "item.title||customLabel(item.key)", "adaptive:${index}", "content:${key}", "tabDefinitions"):
+    for phrase in ("canonicalTabDefinitions", "adaptiveTabLabel", "adaptive:${index}", "content:${key}", "tabDefinitions"):
         assert phrase in script
     for phrase in ('contentEdit.id="edit-indexed-content"', 'contentSave.id="save-indexed-content"', 'route:"update-book-content"', "renderContentEditor", "content-overrides.json"):
         assert phrase in script
