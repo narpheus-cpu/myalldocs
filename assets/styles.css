@@ -123,6 +123,7 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .detail-content h3 + h2 { display: block; margin-top: 1.8em; }
 .detail-content h4 { margin: 1.3em 0 .25em; font-size: 1em; }
 .detail-content p { margin: .35em 0 1em; }
+.detail-content .preserve-linebreaks { display: block; white-space: pre-wrap; overflow-wrap: anywhere; }
 .report-list { margin: .25em 0 .8em; padding-left: 1.35em; }
 .report-list .report-list { margin: .1em 0 .25em; }
 .report-item { margin: 0 0 .45em; padding: 0; }

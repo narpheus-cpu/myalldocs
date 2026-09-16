@@ -213,6 +213,14 @@ def test_reader_has_whole_source_persistent_geometry_and_collapsible_controls():
     for phrase in ("saveReaderWindowGeometry", "applyReaderWindowSettings", "width:state.reader.width", "toolbarOpen:state.reader.toolbarOpen"):
         assert phrase in script
     assert ".chunk-dialog[open]" in styles
+
+
+def test_edited_index_content_preserves_explicit_line_breaks_when_rendered():
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    styles = (ROOT / "assets" / "styles.css").read_text(encoding="utf-8")
+    assert 'if(text.includes("\\n")){appendText(root,depth>1?"span":"p",text,"preserve-linebreaks")' in script
+    assert ".detail-content .preserve-linebreaks" in styles
+    assert "white-space: pre-wrap" in styles
     assert ".compact-actions" in styles
 
 
