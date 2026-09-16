@@ -10,6 +10,50 @@ from dataclasses import dataclass
 from typing import Any
 
 
+class CanonicalUploadFormatError(ValueError):
+    """A completed-index upload cannot be decoded into book objects."""
+
+
+def parse_canonical_upload(payload: bytes) -> list[dict[str, Any]]:
+    """Accept a canonical object, an object array, or newline-delimited objects.
+
+    Some generators export several completed books as JSONL while still naming
+    the file ``.json``.  Treat that common representation as a multi-book upload
+    instead of letting ``json.loads`` abort the entire GitHub run.
+    """
+
+    text = payload.decode("utf-8-sig").strip()
+    if not text:
+        raise CanonicalUploadFormatError("완성 인덱싱 JSON 파일이 비어 있습니다.")
+    try:
+        parsed: Any = json.loads(text)
+    except json.JSONDecodeError as whole_error:
+        entries: list[dict[str, Any]] = []
+        lines = [(number, line.strip()) for number, line in enumerate(text.splitlines(), 1) if line.strip()]
+        if len(lines) < 2:
+            raise CanonicalUploadFormatError(
+                f"완성 인덱싱 JSON 문법 오류: {whole_error.lineno}행 {whole_error.colno}열"
+            ) from whole_error
+        for number, line in lines:
+            try:
+                value = json.loads(line)
+            except json.JSONDecodeError as line_error:
+                raise CanonicalUploadFormatError(
+                    f"완성 인덱싱 JSONL {number}번째 줄 문법 오류: {line_error.colno}열"
+                ) from line_error
+            if not isinstance(value, dict):
+                raise CanonicalUploadFormatError(f"완성 인덱싱 JSONL {number}번째 줄은 객체여야 합니다.")
+            entries.append(value)
+        return entries
+
+    entries = parsed if isinstance(parsed, list) else [parsed]
+    if not entries:
+        raise CanonicalUploadFormatError("완성 인덱싱 JSON에 도서 객체가 없습니다.")
+    if not all(isinstance(item, dict) for item in entries):
+        raise CanonicalUploadFormatError("완성 인덱싱 JSON은 객체, 객체 배열 또는 줄별 객체 형식이어야 합니다.")
+    return entries
+
+
 @dataclass
 class QueueBundle:
     manifest_id: str
@@ -68,10 +112,7 @@ class PrivateQueueDrive:
         if manifest["kind"] == "catalog-jsonl":
             entries = parse_jsonl(payload)
         else:
-            parsed = json.loads(payload.decode("utf-8-sig"))
-            entries = parsed if isinstance(parsed, list) else [parsed]
-            if not all(isinstance(item, dict) for item in entries):
-                raise ValueError("완성 인덱싱 JSON은 객체 또는 객체 배열이어야 합니다.")
+            entries = parse_canonical_upload(payload)
         state_file_id = str(manifest.get("stateFileId") or "")
         state = _object(self.download(state_file_id), "대기열 상태") if state_file_id else {}
         return QueueBundle(manifest_id, manifest, entries, state)

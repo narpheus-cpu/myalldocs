@@ -19,7 +19,7 @@ from indexer.gemini_client import GeminiClient
 from indexer.model_selector import NoSupportedModel
 from indexer.parsers import parse_epub, parse_txt
 from indexer.prior_knowledge import prior_knowledge_prompt, valid_prior_result
-from indexer.private_queue import PrivateQueueDrive, QueueBundle
+from indexer.private_queue import CanonicalUploadFormatError, PrivateQueueDrive, QueueBundle
 from indexer.progress import ProgressReporter
 from indexer.queue_context import notify_queue_result
 from indexer.rate_limiter import BudgetExceeded, RateLimitPaused, RateLimiter, ServiceUnavailablePaused
@@ -402,6 +402,13 @@ def main() -> int:
             else NoGeminiClient(settings.quota)
         )
         status = QueueWorker(settings, drive, private_drive, gemini, progress).run(manifest_id)
+    except CanonicalUploadFormatError as exc:
+        status = {
+            "status": "NEEDS_USER_REVIEW", "phase": "UPLOAD_FORMAT_ERROR",
+            "message": str(exc), "allTargetsComplete": False, "finishedAt": _now(),
+        }
+        atomic_write_json(settings.root / "data" / "job-status.json", status)
+        progress.emit(status, force=True)
     except NoSupportedModel as exc:
         status = {"status": "NO_SUPPORTED_MODEL", "phase": "NO_SUPPORTED_MODEL", "message": str(exc), "allTargetsComplete": False, "finishedAt": _now()}
         atomic_write_json(settings.root / "data" / "job-status.json", status)

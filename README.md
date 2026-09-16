@@ -103,7 +103,7 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 
 ### 완성 인덱싱 JSON
 
-형식은 [canonical-book.schema.json](config/canonical-book.schema.json)을 따릅니다. `identity.title`, `identity.author`, `identity.genre`, `identity.tags`, `identity.workProfile`, `content.oneLineSummary`, `content.overallSummary`가 필요합니다. 업로드 후 실제 Drive TXT/EPUB 하나와 일치해야 공개 목록에 들어가며, `NOT_FOUND`나 `AMBIGUOUS`는 비공개 관리 목록에만 남습니다.
+형식은 [canonical-book.schema.json](config/canonical-book.schema.json)을 따릅니다. 한 권짜리 JSON 객체, 여러 권을 담은 JSON 객체 배열, 또는 객체를 한 줄에 하나씩 적은 JSONL 내용을 `.json` 파일로 업로드할 수 있습니다. `identity.title`, `identity.author`, `identity.genre`, `identity.tags`, `identity.workProfile`, `content.oneLineSummary`, `content.overallSummary`가 필요합니다. 업로드 후 실제 Drive TXT/EPUB 하나와 일치해야 공개 목록에 들어가며, `NOT_FOUND`나 `AMBIGUOUS`는 비공개 관리 목록에만 남습니다. 파일 문법이 잘못된 경우 GitHub 실행 전체를 `RUN-FAILED`로 끝내지 않고, 대기열을 `NEEDS_USER_REVIEW`로 옮겨 정확한 행·열 오류를 표시합니다.
 
 완료된 **요약·분석 결과는 Google Drive가 아니라 GitHub 저장소**에 저장됩니다.
 

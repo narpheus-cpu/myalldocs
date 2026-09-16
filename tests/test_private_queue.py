@@ -6,7 +6,7 @@ import pytest
 from indexer.canonical import CanonicalValidationError, legacy_to_canonical, normalize_canonical, text_sha256
 from indexer.models import DriveBook
 from indexer.prior_knowledge import prior_knowledge_prompt, valid_prior_result
-from indexer.private_queue import parse_jsonl
+from indexer.private_queue import CanonicalUploadFormatError, parse_canonical_upload, parse_jsonl
 from indexer.queue_context import service_account_email
 from indexer.queue_worker import match_entries, reconcile_completed_entries
 
@@ -16,6 +16,22 @@ def test_jsonl_is_parsed_in_memory_and_requires_txt_or_epub():
     assert len(rows) == 2
     with pytest.raises(ValueError):
         parse_jsonl(b'{"filename":"book.pdf"}\n')
+
+
+def test_completed_upload_accepts_object_array_and_jsonl_even_with_json_filename():
+    first = {"identity": {"title": "첫 책", "author": "작가"}, "content": {"oneLineSummary": "한 줄", "overallSummary": "전체"}}
+    second = {"identity": {"title": "둘째 책", "author": "작가"}, "content": {"oneLineSummary": "한 줄", "overallSummary": "전체"}}
+
+    assert parse_canonical_upload(json.dumps(first, ensure_ascii=False).encode()) == [first]
+    assert parse_canonical_upload(json.dumps([first, second], ensure_ascii=False).encode()) == [first, second]
+    jsonl = "\n".join(json.dumps(item, ensure_ascii=False) for item in (first, second)).encode()
+    assert parse_canonical_upload(jsonl) == [first, second]
+
+
+def test_completed_upload_reports_the_bad_jsonl_line_without_crashing_the_runner():
+    payload = b'{"identity":{"title":"ok"}}\n{"identity":}\n'
+    with pytest.raises(CanonicalUploadFormatError, match="2번째 줄"):
+        parse_canonical_upload(payload)
 
 
 def test_private_queue_reads_shared_files_but_delegates_state_writes():
