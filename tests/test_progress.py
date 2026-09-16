@@ -46,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260916-reader-performance1" in html
+    assert "js/app.js?v=20260916-persistence-delete1" in html
 
 
 def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
@@ -214,7 +214,38 @@ def test_library_filters_and_detailed_summary_layout_persist_and_render_as_secti
         assert phrase in script
     for phrase in ("bookmap_detail_reader_settings_v1", "restoreDetailReaderSettings", "saveDetailReaderSettings"):
         assert phrase in script
+    assert script.index("restoreDetailReaderSettings();restoreLibraryFilters();updateReaderControls()") < script.index('fetchJSON("data/catalog.json")')
+    assert 'window.addEventListener("pageshow"' in script
     assert '["summaryShort","summaryLong","detailedSummary","summary","authorIntroduction"]' in script
+
+
+def test_reader_restores_last_chunk_and_page_after_refresh():
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    for phrase in ("loadReaderBookmark(manifest)", "bookmarkExists", "preferredOffset", "saveReaderBookmark()"):
+        assert phrase in script
+    assert "openSelectedChunk(true)" in script
+
+
+def test_library_selected_books_can_be_safely_hidden_without_deleting_drive_source():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    relay = (ROOT / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    for element_id in ("library-select-all", "delete-selected-books", "library-selected-count", "library-delete-message"):
+        assert f'id="{element_id}"' in html
+    for phrase in ("selectedLibraryBookIds", "deleteSelectedBooks", 'route:"delete-books"', "data/deleted-books.json", "bookmap_locally_deleted_books_v1", "saveLocallyDeletedDriveFileIds()"):
+        assert phrase in script
+    for phrase in ("body.route === 'delete-books'", "function deleteBooks_", "assertFileWithinRoot_(driveFileId)", "data/deleted-books.json"):
+        assert phrase in relay
+    assert (ROOT / "data" / "deleted-books.json").exists()
+
+
+def test_content_edits_are_immediate_locally_and_use_direct_commit_with_queue_fallback():
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    relay = (ROOT / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    for phrase in ("bookmap_pending_content_edits_v1", "savePendingContentEdits", "monitorBookContentSave", "이 브라우저에 저장됨"):
+        assert phrase in script
+    assert relay.index("updateBookContent_(body)") < relay.index("queueBookContentUpdate_(body)", relay.index("function handleBookContentUpdate_"))
+    assert "directFallback" in relay
 
 
 def test_metadata_editor_persists_manual_override_through_authorized_relay():
@@ -242,6 +273,8 @@ def test_relay_and_workflow_connect_saved_key_and_live_progress():
     assert "python -m indexer.runtime_secret" in workflow
     assert "python -m indexer.workflow_status start" in workflow
     assert "python -m indexer.workflow_status error" in workflow
+    assert "verifyGitHubContentsWrite_" in relay
+    assert "Contents: Read and write" in relay
 
 
 def test_duplicate_dispatch_is_blocked_in_browser_relay_and_workflow_checkout_is_fresh():

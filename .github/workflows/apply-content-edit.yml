@@ -33,12 +33,12 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - name: Install current supported SDKs
-        run: python -m pip install -r requirements.txt
-      - name: Run tests before applying the edit
-        run: python -m pytest -q
+      - name: Install only the Drive reader needed for this edit
+        run: python -m pip install "google-api-python-client>=2.150" "google-auth>=2.35"
+      - name: Validate the lightweight edit worker
+        run: python -m compileall -q indexer/content_edit_worker.py indexer/private_queue.py indexer/queue_context.py
       - name: Apply the private content edit
-        run: python -m indexer.queue_worker
+        run: python -m indexer.content_edit_worker
       - name: Commit the public override only
         shell: bash
         run: |

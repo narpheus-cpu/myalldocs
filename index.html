@@ -48,8 +48,14 @@
           <button id="reset-library-filters" type="button">조건 초기화</button>
         </div>
       </details>
+      <div class="library-selection-bar">
+        <label><input id="library-select-all" type="checkbox"> 현재 목록 전체 선택</label>
+        <span id="library-selected-count">0권 선택</span>
+        <button id="delete-selected-books" type="button" disabled>선택한 도서 삭제</button>
+        <span id="library-delete-message" class="message" aria-live="polite"></span>
+      </div>
       <div id="search-meta" class="search-meta" aria-live="polite"></div>
-      <div class="book-list-frame"><div class="book-list-head" aria-hidden="true"><span>도서</span><span>분류</span><span>상태</span><span>인덱싱 일시</span></div><div id="results" class="book-list" role="list"></div></div>
+      <div class="book-list-frame"><div class="book-list-head" aria-hidden="true"><span>선택</span><span>도서</span><span>분류</span><span>상태</span><span>인덱싱 일시</span></div><div id="results" class="book-list" role="list"></div></div>
       <nav id="library-pagination" class="pagination" aria-label="도서 목록 페이지"></nav>
     </section>
 
@@ -57,7 +63,7 @@
       <div class="section-heading"><div><p class="eyebrow">서재</p><h1>전체 도서 목록</h1></div><p id="browse-count"></p></div>
       <p class="page-guide"><strong>전체 도서 목록</strong>은 인덱싱이 끝난 모든 책을 보여주는 게시판입니다. 제목을 누르면 저장된 요약과 분석 내용을 읽을 수 있습니다.</p>
       <div id="profile-filters" class="filters" aria-label="문서 유형 필터"></div>
-      <div class="book-list-frame"><div class="book-list-head" aria-hidden="true"><span>도서</span><span>분류</span><span>상태</span><span>인덱싱 일시</span></div><div id="browse-results" class="book-list" role="list"></div></div>
+      <div class="book-list-frame"><div class="book-list-head no-selection" aria-hidden="true"><span>도서</span><span>분류</span><span>상태</span><span>인덱싱 일시</span></div><div id="browse-results" class="book-list" role="list"></div></div>
     </section>
 
     <section id="drive-view" class="view" hidden>
@@ -149,7 +155,7 @@
         </div>
         <div class="panel dashboard-card key-card">
           <div class="card-heading"><span class="step">4</span><h2>GitHub 즉시 실행</h2><span id="github-token-state" class="state-badge">확인 전</span></div>
-          <p>업로드 직후 자동 처리를 시작할 토큰을 검사하고 저장합니다. 실제 실행 요청이 성공한 경우에만 새 값으로 교체됩니다.</p>
+          <p>업로드 즉시 실행과 빠른 편집·삭제 저장을 검사합니다. 토큰에는 Actions 및 Contents의 Read and write 권한이 모두 필요합니다.</p>
           <label class="field-label" for="github-token">새 GitHub 토큰</label>
           <div class="secret-row"><input id="github-token" type="password" autocomplete="new-password" spellcheck="false" placeholder="github_pat_… 또는 ghp_…"><button id="toggle-github-token" type="button" aria-label="GitHub 토큰 보이기">보기</button></div>
           <div class="button-row"><button id="save-github-token" class="primary" type="button">검사 후 저장</button><button id="retry-queue-dispatch" type="button">대기열 지금 실행</button></div>
@@ -178,7 +184,7 @@
   </main>
 
   <template id="book-row-template">
-    <div class="book-row" role="listitem"><button class="book-title-button" type="button"><strong></strong><span class="author"></span><span class="tags"></span></button><span class="book-kind"><span class="book-type"></span><span class="format"></span></span><span class="status"></span><time class="indexed-time"></time></div>
+    <div class="book-row" role="listitem"><label class="book-select-cell"><input class="book-select" type="checkbox"><span class="sr-only">도서 선택</span></label><button class="book-title-button" type="button"><strong></strong><span class="author"></span><span class="tags"></span></button><span class="book-kind"><span class="book-type"></span><span class="format"></span></span><span class="status"></span><time class="indexed-time"></time></div>
   </template>
   <template id="drive-file-row-template">
     <div class="drive-file-row" role="listitem">
@@ -244,6 +250,6 @@
   <script src="config/public-config.js?v=20260916-relay-v8"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260916-reader-performance1"></script>
+  <script type="module" src="js/app.js?v=20260916-persistence-delete1"></script>
 </body>
 </html>

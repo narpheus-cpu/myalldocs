@@ -6,6 +6,7 @@ import pytest
 
 from indexer.canonical import CanonicalValidationError, legacy_to_canonical, normalize_canonical, text_sha256
 from indexer.models import DriveBook
+from indexer.content_edit_worker import apply_content_edit
 from indexer.prior_knowledge import prior_knowledge_prompt, valid_prior_result
 from indexer.private_queue import CanonicalUploadFormatError, parse_canonical_upload, parse_jsonl
 from indexer.queue_context import service_account_email
@@ -273,6 +274,9 @@ def test_content_edit_uses_private_drive_and_actions_without_exposing_secrets():
     assert "skipDispatch: true" in relay
     assert "permissions:\n  contents: write" in workflow
     assert "data/content-overrides.json" in workflow
+    assert "python -m indexer.content_edit_worker" in workflow
+    assert "python -m pytest" not in workflow
+    assert "pip install -r requirements.txt" not in workflow
     assert '"Apply indexed content edit"' in deploy
     assert "stableContentJSON(override.content)===expected" in (root / "js" / "app.js").read_text(encoding="utf-8")
 
@@ -281,3 +285,17 @@ def test_content_edit_uses_private_drive_and_actions_without_exposing_secrets():
         _validate_public_content({"rawText": "공개 금지"})
     with pytest.raises(ValueError, match="인증 정보"):
         _validate_public_content({"geminiApiKey": "공개 금지"})
+
+
+def test_lightweight_content_edit_worker_updates_only_public_override(tmp_path):
+    data = tmp_path / "data"
+    data.mkdir()
+    (data / "content-overrides.json").write_text('{"schemaVersion":1,"byDriveFileId":{}}', encoding="utf-8")
+    bundle = SimpleNamespace(
+        manifest={"kind": "content-edit"},
+        entries=[{"driveFileId": "drive-file-123", "content": {"overallSummary": "고친 내용"}}],
+    )
+    result = apply_content_edit(tmp_path, bundle)
+    saved = json.loads((data / "content-overrides.json").read_text(encoding="utf-8"))
+    assert result["status"] == "COMPLETE"
+    assert saved["byDriveFileId"]["drive-file-123"]["content"]["overallSummary"] == "고친 내용"

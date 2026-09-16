@@ -32,7 +32,9 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 
 ## 구현된 기능
 
-- 검색과 전체 목록을 한 화면으로 통합: 작품명·작가명·전체 분석 텍스트 검색, 장르·태그·작품 성격·생성 방식·수정 여부·날짜 필터, 6가지 정렬, 20권 단위 페이지 이동
+- 검색과 전체 목록을 한 화면으로 통합: 작품명·작가명·전체 분석 텍스트 검색, 장르·태그·작품 성격·생성 방식·수정 여부·날짜 필터, 6가지 정렬, 20권 단위 페이지 이동. 마지막 필터·정렬·페이지는 새로고침 뒤에도 유지
+- 전체 도서 목록의 체크박스와 `선택한 도서 삭제`: 목록 등록만 안전하게 숨기며 Google Drive 원문과 기존 분석 파일은 삭제하지 않음
+- 인덱싱 내용 편집은 먼저 현재 브라우저에 즉시 보존하고 GitHub에는 백그라운드 동기화. GitHub 직접 저장이 불가능한 토큰이면 기존 Actions 경로로 자동 전환
 - JSONL 브라우저 업로드 → 비공개 Drive 관리 영역 저장 → 원본 1:1 매칭 → 해시 계산 → 기존 인덱싱과 동일한 무료 모델 대기열 자동 실행
 - 완성 canonical JSON 별도 업로드: Gemini 생성 호출 없이 스키마 검사와 Drive 연결 후 등록
 - `source_text_analysis`, `model_prior_knowledge`, `user_authored` 생성 출처 보존 및 상세 화면의 작은 한국어 배지
@@ -270,7 +272,7 @@ Variables 탭에서 추가합니다.
 
 Apps Script는 Gemini 분석을 하지 않습니다. 로그인한 본인의 폴더 선택 요청을 GitHub Actions로 전달하고, 완전 완료 callback에만 Gmail을 보냅니다.
 
-> 기존 Apps Script를 이미 배포한 사용자는 `apps-script/Code.gs`를 다시 붙여넣고 **배포 → 배포 관리 → 수정 → 새 버전 → 배포**를 한 번 수행해야 작품 정보·태그 편집, 현재 작업 폴더 복원, 사전 단계 실패 감지가 활성화됩니다. 기존 `/exec` 주소는 그대로 사용합니다.
+> 기존 Apps Script를 이미 배포한 사용자는 `apps-script/Code.gs`를 다시 붙여넣고 **배포 → 배포 관리 → 수정 → 새 버전 → 배포**를 한 번 수행해야 작품 정보·태그 편집, 빠른 인덱싱 내용 저장, 선택 도서 삭제, 현재 작업 폴더 복원, 사전 단계 실패 감지가 활성화됩니다. 기존 `/exec` 주소는 그대로 사용합니다.
 
 1. [script.google.com](https://script.google.com/)에서 새 프로젝트를 만듭니다.
 2. `apps-script/Code.gs` 내용을 기본 `Code.gs`에 붙여 넣습니다.
@@ -279,7 +281,7 @@ Apps Script는 Gemini 분석을 하지 않습니다. 로그인한 본인의 폴�
 
 | 이름 | 값 |
 |---|---|
-| `GITHUB_TOKEN` | 대기열 등록 직후 실행할 fine-grained token. 처음에는 비워 두고, 사이트 **인덱싱 → GitHub 즉시 실행**에서 검사 후 저장하는 방식을 권장합니다. |
+| `GITHUB_TOKEN` | 대기열 등록 직후 실행하고 편집·삭제를 빠르게 저장할 fine-grained token. 처음에는 비워 두고, 사이트 **인덱싱 → GitHub 즉시 실행**에서 검사 후 저장하는 방식을 권장합니다. |
 | `GITHUB_OWNER` | `narpheus-cpu` |
 | `GITHUB_REPO` | `myalldocs` |
 | `CALLBACK_SECRET` | GitHub의 `APPS_SCRIPT_CALLBACK_SECRET`과 정확히 같은 값 |
@@ -288,7 +290,7 @@ Apps Script는 Gemini 분석을 하지 않습니다. 로그인한 본인의 폴�
 | `DRIVE_ROOT_FOLDER_ID` | `[book]` 루트 folder ID |
 | `SERVICE_ACCOUNT_EMAIL` | 서비스 계정 JSON의 `client_email` 값 |
 
-GitHub fine-grained token은 이 저장소 하나만 선택하고 Actions: Read and write 권한만 허용합니다. token을 `public-config.js`에 넣으면 안 됩니다. 사이트의 **인덱싱 → GitHub 즉시 실행**에서 **검사 후 저장**을 누르면 실제 `queue-worker.yml` 실행 요청이 성공한 경우에만 Apps Script의 기존 값을 교체합니다. 401·403·404이면 새 값은 저장하지 않고 원인을 화면에 표시합니다. 이후 **대기열 지금 실행**으로 이미 올라간 파일도 즉시 처리할 수 있습니다. 토큰이 없거나 GitHub가 일시적으로 응답하지 않아도 업로드 데이터는 사라지지 않으며, `queue-worker.yml`의 20분 간격 정기 실행이 안전망으로 남습니다.
+GitHub fine-grained token은 이 저장소 하나만 선택하고 **Actions: Read and write**, **Contents: Read and write** 권한을 허용합니다. Contents 권한은 인덱싱 내용의 빠른 저장과 선택 도서 삭제에 사용됩니다. token을 `public-config.js`에 넣으면 안 됩니다. 사이트의 **인덱싱 → GitHub 즉시 실행**에서 **검사 후 저장**을 누르면 실제 `queue-worker.yml` 실행 요청이 성공한 경우에만 Apps Script의 기존 값을 교체합니다. 401·403·404이면 새 값은 저장하지 않고 원인을 화면에 표시합니다. 이후 **대기열 지금 실행**으로 이미 올라간 파일도 즉시 처리할 수 있습니다. 토큰이 없거나 GitHub가 일시적으로 응답하지 않아도 업로드 데이터는 사라지지 않으며, `queue-worker.yml`의 20분 간격 정기 실행이 안전망으로 남습니다.
 
 5. **Deploy → New deployment → Web app**을 선택합니다.
 6. Execute as는 본인, Who has access는 **Anyone**을 선택합니다. GitHub Actions가 로그인 쿠키 없이 진행 상태와 완료 callback을 보내야 하기 때문입니다.

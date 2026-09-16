@@ -34,6 +34,7 @@ function doPost(e) {
     if (body.route === 'retry-queue-dispatch') return json_({ok: true, dispatch: dispatchQueueWorkflow_()});
     if (body.route === 'update-metadata') return json_(updateMetadata_(body));
     if (body.route === 'update-book-content') return json_(handleBookContentUpdate_(body));
+    if (body.route === 'delete-books') return json_(deleteBooks_(body));
     if (body.route === 'upload-start') return json_(startPrivateUpload_(body));
     if (body.route === 'upload-part') return json_(savePrivateUploadPart_(body));
     if (body.route === 'upload-finish') return json_(finishPrivateUpload_(body));
@@ -398,6 +399,14 @@ function githubDispatchStatus_() {
   };
 }
 
+function verifyGitHubContentsWrite_(owner, repo, token) {
+  var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo);
+  var response = UrlFetchApp.fetch(url, {headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'}, muteHttpExceptions: true});
+  if (response.getResponseCode() !== 200) throw new Error('GitHub 저장소 권한 확인 실패: HTTP ' + response.getResponseCode());
+  var info = JSON.parse(response.getContentText() || '{}');
+  if (!info.permissions || info.permissions.push !== true) throw new Error('GitHub 토큰에 Contents: Read and write 권한이 없습니다. 이 권한을 추가한 토큰을 입력하세요.');
+}
+
 function updateGitHubToken_(body) {
   var token = String(body.githubToken || '').trim();
   if (!githubTokenLooksValid_(token)) {
@@ -405,6 +414,7 @@ function updateGitHubToken_(body) {
   }
   var owner = requiredProperty_('GITHUB_OWNER');
   var repo = requiredProperty_('GITHUB_REPO');
+  verifyGitHubContentsWrite_(owner, repo, token);
   var result = requestQueueWorkflow_(owner, repo, token);
   if (!result.ok) throw new Error(githubDispatchFailureMessage_(result.code, result.reason));
   var now = new Date().toISOString();
@@ -499,14 +509,73 @@ function updateBookContent_(body) {
   return {ok: true, updatedAt: updatedAt, commitUrl: result.commit && result.commit.html_url || ''};
 }
 
+function deleteBooks_(body) {
+  var books = Array.isArray(body.books) ? body.books : [];
+  if (!books.length || books.length > 100) throw new Error('한 번에 삭제할 도서는 1권 이상 100권 이하여야 합니다.');
+  var normalized = books.map(function(item) {
+    var bookId = String(item && item.bookId || '').trim();
+    var driveFileId = String(item && item.driveFileId || '').trim();
+    if (!/^[A-Za-z0-9_-]{8,100}$/.test(bookId) || !/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('삭제할 도서 정보가 올바르지 않습니다.');
+    assertFileWithinRoot_(driveFileId);
+    return {bookId: bookId, driveFileId: driveFileId, title: String(item && item.title || '').trim().slice(0, 300)};
+  });
+  var lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    var owner = requiredProperty_('GITHUB_OWNER');
+    var repo = requiredProperty_('GITHUB_REPO');
+    var token = requiredProperty_('GITHUB_TOKEN');
+    var path = 'data/deleted-books.json';
+    var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/contents/' + path;
+    var headers = {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'};
+    var currentResponse = UrlFetchApp.fetch(url + '?ref=main', {headers: headers, muteHttpExceptions: true});
+    var currentFile = null;
+    var document = {schemaVersion: 1, description: '전체 도서 목록에서 숨긴 도서. Google Drive 원문과 분석 파일은 삭제하지 않습니다.', byDriveFileId: {}};
+    if (currentResponse.getResponseCode() === 200) {
+      currentFile = JSON.parse(currentResponse.getContentText() || '{}');
+      var decoded = Utilities.newBlob(Utilities.base64Decode(String(currentFile.content || '').replace(/\s/g, ''))).getDataAsString('UTF-8');
+      document = JSON.parse(decoded || '{}');
+      document.byDriveFileId = document.byDriveFileId || {};
+    } else if (currentResponse.getResponseCode() !== 404) {
+      throw new Error('기존 삭제 목록을 읽지 못했습니다: HTTP ' + currentResponse.getResponseCode());
+    }
+    var deletedAt = new Date().toISOString();
+    normalized.forEach(function(item) { document.byDriveFileId[item.driveFileId] = {bookId: item.bookId, title: item.title, deletedAt: deletedAt}; });
+    var encoded = Utilities.base64Encode(Utilities.newBlob(JSON.stringify(document, null, 2) + '\n', 'application/json', 'deleted-books.json').getBytes());
+    var payload = {message: 'Hide selected books from library', content: encoded, branch: 'main'};
+    if (currentFile && currentFile.sha) payload.sha = currentFile.sha;
+    var updateResponse = UrlFetchApp.fetch(url, {method: 'put', contentType: 'application/json', headers: headers, muteHttpExceptions: true, payload: JSON.stringify(payload)});
+    var code = updateResponse.getResponseCode();
+    if (code !== 200 && code !== 201) throw new Error('도서 삭제 목록 저장에 실패했습니다: HTTP ' + code);
+    return {ok: true, deleted: normalized, deletedAt: deletedAt};
+  } finally {
+    lock.releaseLock();
+  }
+}
+
 function handleBookContentUpdate_(body) {
   var requestId = String(body.requestId || '').trim();
   if (!/^[A-Za-z0-9-]{12,100}$/.test(requestId)) throw new Error('저장 요청 번호가 올바르지 않습니다.');
   var key = 'CONTENT_SAVE_STATUS';
   PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, status: 'RUNNING', updatedAt: new Date().toISOString()}));
+  var directError = '';
   try {
+    var lock = LockService.getScriptLock();
+    var locked = false;
+    try {
+      lock.waitLock(20000);
+      locked = true;
+      var direct = updateBookContent_(body);
+      PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, status: 'COMPLETE', updatedAt: direct.updatedAt || new Date().toISOString(), commitUrl: direct.commitUrl || ''}));
+      return {ok: true, direct: true, updatedAt: direct.updatedAt, commitUrl: direct.commitUrl || ''};
+    } catch (error) {
+      directError = String(error && error.message || error);
+    } finally {
+      if (locked) lock.releaseLock();
+    }
     var result = queueBookContentUpdate_(body);
-    PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, manifestId: result.manifestId || '', status: 'QUEUED', updatedAt: result.updatedAt || new Date().toISOString()}));
+    PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, manifestId: result.manifestId || '', status: 'QUEUED', updatedAt: result.updatedAt || new Date().toISOString(), directFallbackReason: directError.slice(0, 300)}));
+    result.directFallback = true;
     return result;
   } catch (error) {
     PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, status: 'ERROR', updatedAt: new Date().toISOString(), error: String(error && error.message || error)}));
