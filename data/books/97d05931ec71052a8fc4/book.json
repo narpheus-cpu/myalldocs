@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "희망의 끈",
+    "author": "히가시노 게이고",
+    "genre": "추리/미스터리 소설",
+    "tags": [
+      "가가 형사 시리즈",
+      "일본 소설",
+      "미스터리",
+      "가족애",
+      "휴먼이드라마"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 베스트셀러 작가로, 치밀한 트릭과 인간 내면에 대한 깊은 통찰이 돋보이는 수많은 미스터리 작품을 집필했다. 특히 '가가 형사 시리즈'와 '탐정 갈릴레오 시리즈'로 큰 사랑을 받고 있다.",
+    "oneLineSummary": "살인 사건을 수사하는 과정에서 드러나는 가족의 비밀과 아버지의 묵진한 사랑을 그린 가가 형사 시리즈 제11탄.",
+    "overallSummary": "카페를 운영하던 여성의 살인 사건을 수사하던 도중, 가가 형사의 사촌이자 형사인 마쓰미야 슈헤이가 자신의 친부와 관련된 숨겨진 혈연의 끈을 마주하게 된다. 사건 해결의 과정 속에서 인물들이 얽혀 있는 복잡한 인간관계와 각자의 삶을 지탱해 온 '희망의 끈'의 의미가 깊이 있게 드러난다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "가가 교이치로",
+          "role": "주인공 형사",
+          "description": "니혼바시 경찰서 소속의 형사로, 예리한 관찰력과 공감 능력으로 사건의 진실을 파헤친다."
+        },
+        {
+          "name": "마쓰미야 슈헤이",
+          "role": "형사",
+          "description": "가가의 사촌이자 경시청 수사1과 형사. 이번 사건을 통해 자신의 친부와 관련된 진실을 마주하게 된다."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "현대",
+        "places": [
+          "도쿄",
+          "우쓰노미야"
+        ],
+        "socialContext": "현대 일본 사회의 가족 해체 및 인간관계의 단절 속에서 남겨진 인연과 유대를 다룸",
+        "historicalContext": "2010년대 후반"
+      },
+      "external": {
+        "historicalContext": "저자 히가시노 게이고가 꾸준히 확장해온 가가 형사 시리즈의 세계관을 이어받은 작품",
+        "publicationContext": "2019년 일본에서 출간되었으며, 한국어판은 도서출판 재인에서 2022년에 출간됨"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "title": "가족과 인연",
+        "content": "이 작품은 단순한 범인 색출을 넘어 혈연으로 얽힌 인물들이 삶의 위기 속에서 어떻게 서로를 구원하고 희망을 찾아가는지 그 과정을 묵직하게 그려낸다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TKMe1Sjm7QYraAz1O5pjTIput1zSGE0w",
+    "filename": "히가시노 게이고-희망의 끈 (가가 형사 11) (히가시노 게이고) (Z-Library)(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:29.924Z",
+    "size": "609936",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1TKMe1Sjm7QYraAz1O5pjTIput1zSGE0w/view?usp=drivesdk",
+    "sourceSha256": "4103e0f0147b322851f5410c49176fbc83b01ae1cba03aaa60125de9222e73d6",
+    "textSha256": "8cef9fd3eaf6c733dba46ebbb23ccd5cd92837a1803b7ffe2e1832c083ce8743",
+    "changeKey": "c055214af578d22cffcb5b1006bc0587",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "97d05931ec71052a8fc4",
+    "workId": "97d05931ec71052a8fc4",
+    "driveFileId": "1TKMe1Sjm7QYraAz1O5pjTIput1zSGE0w",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T12:11:52.491301+00:00",
+    "updatedAt": "2026-09-16T12:11:52.491312+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T12:11:52.491430+00:00"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "화이트 러시",
+    "author": "히가시노 게이고",
+    "genre": "추리/미스터리 소설",
+    "tags": [
+      "설산 시리즈",
+      "스키장",
+      "생물병기",
+      "서스펜스",
+      "일본소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "suspense",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "지루할 틈 없는 전개와 탄탄한 트릭, 사회적 메시지를 결합한 작품으로 전 세계 독자들의 사랑을 받는 일본의 대표적인 베스트셀러 작가이다.",
+    "oneLineSummary": "스키장을 배경으로 불법 제조된 생물병기를 회수하기 위해 펼쳐지는 치열하고 긴박한 추격전.",
+    "overallSummary": "불법으로 연구되던 치명적인 바이러스(K-55)가 스키장에 분실되고, 이를 은비리에 회수하려는 연구소 관계자와 우연히 사건에 휘말리게 된 스키장 스키 패트롤 대원들의 쫓고 쫓기는 서스펜스를 그린 소설이다. 광활한 설산을 배경으로 코믹함과 긴장감이 교차하며 전개된다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "네즈",
+          "role": "스키 패트롤 대원",
+          "description": "우연한 계기로 생물병기 수색에 휘말리게 되는 인물로 뛰어난 스키 실력을 지니고 있다."
+        },
+        {
+          "name": "구리바야시",
+          "role": "연구소 직원",
+          "description": "사건의 빌단이 된 생물병기 분실과 관련된 인물이다."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "현대",
+        "places": [
+          "일본의 대형 스키장 및 설산"
+        ],
+        "socialContext": "스키 레저 문화와 비밀리에 진행되는 생물학 연구의 대립",
+        "historicalContext": "현대 일본 사회"
+      },
+      "external": {
+        "historicalContext": "2013년 일본 출간",
+        "publicationContext": "히가시노 게이고의 설산 배경 서스펜스 소설 시리즈 중 하나"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "background_and_setting",
+        "title": "설산 배경의 밀실감",
+        "content": "광활하지만 폐쇄적인 스키장이라는 공간적 특성을 활용하여 탈출과 추격의 긴장감을 극대화한다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nh3JpPH17h7CWTpKVZqMdfKYvcyVpsNC",
+    "filename": "히가시노 게이고-화이트 러시 (설산 시리즈 2)(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:29.885Z",
+    "size": "451264",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1nh3JpPH17h7CWTpKVZqMdfKYvcyVpsNC/view?usp=drivesdk",
+    "sourceSha256": "36cae06105cf781f672cd53d31917728d6284f71f68c827fc32dd63b214d39de",
+    "textSha256": "51f7174acf32d7d1a6ae01de00ca792804583a2b7b868157b717f6d2cf73f9c4",
+    "changeKey": "b778cd6fc7af3ec42113c322079dc751",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "60b04eaa2f042cd8796d",
+    "workId": "60b04eaa2f042cd8796d",
+    "driveFileId": "1nh3JpPH17h7CWTpKVZqMdfKYvcyVpsNC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T12:10:17.615762+00:00",
+    "updatedAt": "2026-09-16T12:10:17.615773+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T12:10:17.615865+00:00"
+    }
+  }
+}

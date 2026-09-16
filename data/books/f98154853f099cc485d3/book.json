@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오사카 소년 탐정단",
+    "author": "히가시노 게이고",
+    "genre": "추리소설",
+    "tags": [
+      "미스터리",
+      "학원물",
+      "소동극",
+      "일본소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오늘날의 일본을 대표하는 베스트셀러 작가로, 1985년 '방과후'로 데뷔한 이후 추리, 서스펜스, 휴먼 드라마 등 다양한 장르에서 수많은 히트작을 남겼다.",
+    "oneLineSummary": "오사카의 초등학교 교사 다케우치 시노부가 개성 만점의 제자들과 함께 주변에서 벌어지는 기이한 사건들을 해결해 나가는 유쾌한 미스터리 단편집.",
+    "overallSummary": "오사카의 한 초등학교를 배경으로, 미모의 열혈 교사 다케우치 시노부와 그녀가 담임을 맡은 6학년 5반 아이들이 얽히고설킨 사건들을 해결해 나가는 과정을 그린다. 크리스마스 케이크 속 흉기 발견 사건, 밀실 트릭이 숨겨진 베란다 추락 사건 등 일상 속에서 벌어지는 수많은 수수께끼를 초등학교 교사와 학생이라는 독특한 조합으로 풀어나간다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "다케우치 시노부",
+          "role": "주인공 / 초등학교 교사",
+          "israel": "오사카의 한 초등학교 6학년 5반 담임 교사로, 호기심이 많고 사건 해결에 적극적으로 뛰어드는 인물."
+        },
+        {
+          "name": "6학년 5반 아이들",
+          "role": "조력자 / 초등학생",
+          "israel": "시노부 선생님과 함께 사건의 단서를 포착하고 추리에 기여하는 개성 넘치는 학생들."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "1980년대 후반",
+        "places": [
+          "오사카",
+          "초등학교",
+          "미도리야마 하이츠"
+        ],
+        "socialContext": "평범한 일본의 도시 및 주거 지역을 배경으로 한 일상 속 미스터리",
+        "historicalContext": ""
+      },
+      "external": {
+        "historicalContext": "일본 버블 경제기 전후의 사회상을 반영",
+        "publicationContext": "1988년 고단샤에서 출간된 히가시노 게이고의 초기 단편 연작 소설집"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "plot_and_mystery",
+        "title": "사건과 트릭",
+        "content": "일상적인 공간과 소소한 사건 속에서 정교한 밀실 트릭과 예기치 못한 반전이 조화를 이루는 구조를 지닌다."
+      },
+      {
+        "key": "character_dynamics",
+        "title": "인물 관계의 특징",
+        "content": "엄격한 권위의 교육자와 학생 관계가 아니라, 함께 사건을 파헤치는 동반자적 관계를 통해 독특한 유머와 활력을 선사한다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nI0o8qthH8icFVSB7JCV0Ja7vBLBkUfq",
+    "filename": "히가시노 게이고-오사카 소년 탐정단 -- 히가시노 게이고 지음, 김난주 옮김(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:29.760Z",
+    "size": "397768",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1nI0o8qthH8icFVSB7JCV0Ja7vBLBkUfq/view?usp=drivesdk",
+    "sourceSha256": "b336ef818d215535c2dffc7ac84029b62640f089b4ab154d8315461bdfd1f320",
+    "textSha256": "81dbfccd6013c2db4332aec8bb386d83615574b40e4abb415cd1513a3d6e67d9",
+    "changeKey": "eedeaf0ac0bdd1147a511c5e5a262033",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f98154853f099cc485d3",
+    "workId": "f98154853f099cc485d3",
+    "driveFileId": "1nI0o8qthH8icFVSB7JCV0Ja7vBLBkUfq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T12:03:59.569068+00:00",
+    "updatedAt": "2026-09-16T12:03:59.569078+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T12:03:59.569173+00:00"
+    }
+  }
+}

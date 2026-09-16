@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "연애의 행방",
+    "author": "히가시노 게이고",
+    "genre": "일본 소설, 로맨스, 미스터리",
+    "tags": [
+      "설산 시리즈",
+      "스키장",
+      "연애소설",
+      "히가시노 게이고"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 베스트셀러 작가로, 치밀한 트릭과 반전이 돋보이는 추리소설뿐만 아니라 인간의 심리를 예리하게 포착하는 다양한 장르의 작품을 선보여 왔다.",
+    "oneLineSummary": "스키장을 배경으로 펼쳐지는 남녀들의 엇갈리는 연애 감정과 유쾌한 해프닝을 그린 히가시노 게이고 표 연애소설.",
+    "overallSummary": "스키장을 찾은 인물들이 각기 다른 연애의 목적과 오해, 숨겨진 감정들 속에서 벌이는 해프닝을 다룬 연작 형태의 소설로, 설산이라는 특수한 공간에서 벌어지는 남녀의 미묘한 심리 변화를 유쾌하고 흥미롭게 그려낸다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "쓰키무라",
+          "role": "주요 인물",
+          "description": "스키장에서 스키를 배우며 겪는 갈등과 주변 인물들과의 관계 속에서 이야기를 이끌어가는 인물."
+        },
+        {
+          "name": "데쓰로",
+          "role": "주요 인물",
+          "description": "스키 강습을 하며 인물들에게 조언과 질타를 건네는 인물."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "겨울",
+        "places": [
+          "스키장",
+          "설산 슬로프"
+        ],
+        "socialContext": "겨울 스포츠를 즐기는 스키장 이용객들의 문화",
+        "historicalContext": "현대 일본"
+      },
+      "external": {
+        "historicalContext": "현대 일본 사회",
+        "publicationContext": "히가시노 게이고의 스키장 배경 '설산 시리즈' 중 네 번째 작품이자 첫 본격 연애소설로 출간됨"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "title": "설산 배경의 로맨스와 심리 묘사",
+        "content": "추리 작가로 유명한 히가시노 게이고가 스키장이라는 한정된 공간을 배경으로 남녀 간의 엇갈리는 감정과 연애의 양상을 재치 있게 풀어낸 작품이다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Z5L-akWNZigCzOb8yevXYdMRgixiZ0Xd",
+    "filename": "히가시노 게이고-연애의 행방 (개정증보판) -- 히가시노 게이고(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:29.730Z",
+    "size": "440557",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1Z5L-akWNZigCzOb8yevXYdMRgixiZ0Xd/view?usp=drivesdk",
+    "sourceSha256": "a56ad34c8d389deb4d255fbef1592310defdded7dfb657f998738cd2d9972275",
+    "textSha256": "36dbb8abfd917aa3750f176235176e53d39f502f109a73fa4a7f65bb4ca06c84",
+    "changeKey": "8fc8948ce2bdcce1ee9b8f7067943247",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "745395141ec5308e4b40",
+    "workId": "745395141ec5308e4b40",
+    "driveFileId": "1Z5L-akWNZigCzOb8yevXYdMRgixiZ0Xd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T12:00:36.516107+00:00",
+    "updatedAt": "2026-09-16T12:00:36.516118+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T12:00:36.516211+00:00"
+    }
+  }
+}

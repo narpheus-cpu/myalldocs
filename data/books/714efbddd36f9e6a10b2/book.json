@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "탐정 클럽 그들은 늘 마지막에 온다",
+    "author": "히가시노 게이고",
+    "genre": "추리/미스터리 소설",
+    "tags": [
+      "히가시노 게이고",
+      "탐정물",
+      "단편소설집",
+      "미스터리",
+      "일본소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "히가시노 게이고는 1958년 일본 오사카 출신의 대표적인 소설가로, 1985년 《방과 후》로 제31회 난도카이토 신인상을 수상하며 데뷔했다. 이후 탄탄한 구성과 반전, 사회적 메시지를 담은 수많은 작품을 발표하며 전 세계적으로 큰 사랑을 받고 있다.",
+    "oneLineSummary": "표면적으로는 평범해 보이는 사건들 이면에 감춰진 진실을 파헤치는 독특한 탐정들의 활약을 그린 히가시노 게이고의 미스터리 단편집.",
+    "overallSummary": "《탐정 클럽 그들은 늘 마지막에 온다》는 다양한 인간 군상 속에서 벌어지는 미스터리한 사건들을 다룬 연작 단편 미스터리 소설이다. 사건의 진상을 밝히기 위해 등장하는 인물들은 기존의 전형적인 명탐정과 다른 독특한 면모를 보이며, 사건의 마지막 순간에 이르러 반전과 함께 진실이 드러나는 구조를 취하고 있다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "탐정 클럽",
+          "role": "중심 인물들",
+          "description": "사건의 이면에 숨겨진 진실을 밝혀내는 독특한 탐정 그룹 및 관련 인물들."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "현대",
+        "places": [
+          "일본"
+        ],
+        "socialContext": "현대 일본 사회의 인간관계, 가족 갈등, 범죄",
+        "historicalContext": "2000년대 이후 현대 사회"
+      },
+      "external": {
+        "historicalContext": "히가시노 게이고의 중기 작품 활동 시기에 창작됨",
+        "publicationContext": "일본에서 2005년에 출간된 원작을 바탕으로 한국에서 번역 출간됨"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "mystery_structure",
+        "title": "미스터리 구조와 반전",
+        "content": "작품은 일상적인 사건이나 인간관계의 갈등으로 시작해 예기치 못한 방향으로 전개되며, 마지막에 이르러 사건의 실체가 드러나는 구조를 통해 독자에게 지적 긴장감과 카타르시스를 제공합니다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sYMf22bnCnCWLO3-iWJ0EDdfHFRRcJ1d",
+    "filename": "히가시노 게이고-탐정 클럽 그들은 늘 마지막에 온다 히가시노 게이고 소설(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:29.810Z",
+    "size": "382608",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1sYMf22bnCnCWLO3-iWJ0EDdfHFRRcJ1d/view?usp=drivesdk",
+    "sourceSha256": "5ae7747e13ed257ff5e08c154fc40b2ece2fd3d0d7dcd44b1079b85c78c8b49a",
+    "textSha256": "128102cfb11ef02b9f6a392df7b2f521eb0469b41a89708c0469daa50505ae02",
+    "changeKey": "504e2af16814908dc60e8d5c8f1a87d1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "714efbddd36f9e6a10b2",
+    "workId": "714efbddd36f9e6a10b2",
+    "driveFileId": "1sYMf22bnCnCWLO3-iWJ0EDdfHFRRcJ1d",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T12:05:33.986764+00:00",
+    "updatedAt": "2026-09-16T12:05:33.986776+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T12:05:33.986888+00:00"
+    }
+  }
+}

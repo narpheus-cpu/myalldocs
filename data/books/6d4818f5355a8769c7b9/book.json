@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "히가시노 게이고의 무한도전",
+    "author": "히가시노 게이고",
+    "genre": "에세이",
+    "tags": [
+      "에세이",
+      "스포츠",
+      "스노보드",
+      "일본수필",
+      "유머"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "humor",
+        "sports"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 베스트셀러 작가로, 1985년 《방과 후》로 데뷔한 이후 추리소설뿐만 아니라 다양한 장르에서 대중성과 작품성을 겸비한 수많은 작품을 발표하였다.",
+    "oneLineSummary": "소설가 히가시노 게이고가 늦깎이로 스노보드에 입문하여 겪는 좌충우돌 도전기와 겨울 스포츠에 대한 열정을 유쾌하게 담아낸 에세이.",
+    "overallSummary": "이 책은 추리소설가 히가시노 게이고가 우연한 계기로 스노보드라는 겨울 스포츠에 매료되어 겪는 다양한 에피소드를 다루고 있다. 운동치에 가까운 몸치로서 겪는 기술 습득의 어려움, 장비 구입의 고뇌, 스키장을 찾아 전국을 누비는 여정 등을 특유의 자조적이고 위트 있는 문체로 그려낸다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "persons",
+      "items": [
+        {
+          "name": "히가시노 게이고",
+          "role": "저자",
+          "description": "스노보드에 무모하게 도전하여 온갖 고생과 재미를 겪는 작가 본인."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "2000년대 초반",
+        "places": [
+          "일본의 각종 스키장",
+          "갓산",
+          "스키장 산장"
+        ],
+        "socialContext": "일본 내 겨울 스포츠 및 스노보드 열풍 속에서 중년의 나이에 새로운 취미에 도전하는 문화",
+        "historicalContext": "저자가 잡지에 연재하던 시기 (2002년~2004년)"
+      },
+      "external": {
+        "historicalContext": "2000년대 초반 일본 잡지 연재물",
+        "publicationContext": "지츠교노니혼샤에서 연재된 후 단행본으로 출간되었으며, 한국에서는 소미미디어에서 번역 출간됨."
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "humor_and_self_deprecation",
+        "title": "유머와 자조적 서사",
+        "content": "작가는 자신의 부족한 운동 신경과 엉뚱한 실수를 숨기지 않고 드러내며, 독자들에게 큰 웃음과 공감을 유발한다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IIDo7Cwa4-PflwvGOkU8j3Cm6EsHGjBV",
+    "filename": "히가시노 게이고-히가시노 게이고의 무한도전 -- 게이고, 히가시노(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:29.973Z",
+    "size": "346861",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1IIDo7Cwa4-PflwvGOkU8j3Cm6EsHGjBV/view?usp=drivesdk",
+    "sourceSha256": "d11b75ec4f68f688292ad252d413d502f1f0d4059ce17a0c7e8b446b4ebffb57",
+    "textSha256": "8796e77876aa0a512714687e320fdff18d270e8246f3526f271f138c2a7dccbb",
+    "changeKey": "5b6a2ff4c1611f1a039af529b4ccf33a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6d4818f5355a8769c7b9",
+    "workId": "6d4818f5355a8769c7b9",
+    "driveFileId": "1IIDo7Cwa4-PflwvGOkU8j3Cm6EsHGjBV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T12:13:27.259243+00:00",
+    "updatedAt": "2026-09-16T12:13:27.259253+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T12:13:27.259365+00:00"
+    }
+  }
+}
