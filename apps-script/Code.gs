@@ -45,6 +45,7 @@ function doPost(e) {
     if (body.route === 'dispatch-selected') return json_(dispatchWorkflow_(body));
     throw new Error('Unknown route');
   } catch (error) {
+    console.error(JSON.stringify({route: body && body.route || '', error: String(error && error.stack || error)}));
     return json_({ok: false, error: String(error && error.message || error)});
   }
 }
@@ -472,7 +473,8 @@ function updateBookContent_(body) {
   } else if (currentResponse.getResponseCode() !== 404) {
     throw new Error('기존 내용 수정값을 읽지 못했습니다: HTTP ' + currentResponse.getResponseCode());
   }
-  var override = {content: content, updatedAt: new Date().toISOString()};
+  var updatedAt = new Date().toISOString();
+  var override = {content: content, updatedAt: updatedAt};
   document.byDriveFileId[driveFileId] = override;
   var encoded = Utilities.base64Encode(Utilities.newBlob(JSON.stringify(document, null, 2) + '\n', 'application/json', 'content-overrides.json').getBytes());
   var payload = {message: 'Update indexed book content', content: encoded, branch: 'main'};
@@ -481,7 +483,7 @@ function updateBookContent_(body) {
   var code = updateResponse.getResponseCode();
   if (code !== 200 && code !== 201) throw new Error('인덱싱 내용 저장에 실패했습니다: HTTP ' + code);
   var result = JSON.parse(updateResponse.getContentText() || '{}');
-  return {ok: true, override: override, commitUrl: result.commit && result.commit.html_url || ''};
+  return {ok: true, updatedAt: updatedAt, commitUrl: result.commit && result.commit.html_url || ''};
 }
 
 function validatePublicBookContent_(value, depth) {
