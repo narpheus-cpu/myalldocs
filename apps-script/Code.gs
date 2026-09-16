@@ -27,13 +27,13 @@ function doPost(e) {
     if (body.route === 'queue-state') return handleQueueState_(body);
     if (body.route === 'queue-result') return handleQueueResult_(body);
     assertAuthorizedUser_(body);
-    if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_(), githubDispatch: githubDispatchStatus_()});
+    if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_(), githubDispatch: githubDispatchStatus_(), contentSave: contentSaveStatus_()});
     if (body.route === 'upload-capabilities') return json_({ok: true, idempotentUploads: true, partBytes: 131072});
     if (body.route === 'update-api-key') return json_(updateApiKey_(body));
     if (body.route === 'update-github-token') return json_(updateGitHubToken_(body));
     if (body.route === 'retry-queue-dispatch') return json_({ok: true, dispatch: dispatchQueueWorkflow_()});
     if (body.route === 'update-metadata') return json_(updateMetadata_(body));
-    if (body.route === 'update-book-content') return json_(updateBookContent_(body));
+    if (body.route === 'update-book-content') return json_(handleBookContentUpdate_(body));
     if (body.route === 'upload-start') return json_(startPrivateUpload_(body));
     if (body.route === 'upload-part') return json_(savePrivateUploadPart_(body));
     if (body.route === 'upload-finish') return json_(finishPrivateUpload_(body));
@@ -484,6 +484,29 @@ function updateBookContent_(body) {
   if (code !== 200 && code !== 201) throw new Error('인덱싱 내용 저장에 실패했습니다: HTTP ' + code);
   var result = JSON.parse(updateResponse.getContentText() || '{}');
   return {ok: true, updatedAt: updatedAt, commitUrl: result.commit && result.commit.html_url || ''};
+}
+
+function handleBookContentUpdate_(body) {
+  var requestId = String(body.requestId || '').trim();
+  if (!/^[A-Za-z0-9-]{12,100}$/.test(requestId)) throw new Error('저장 요청 번호가 올바르지 않습니다.');
+  var key = 'CONTENT_SAVE_STATUS';
+  PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, status: 'RUNNING', updatedAt: new Date().toISOString()}));
+  try {
+    var result = updateBookContent_(body);
+    PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, status: 'COMPLETE', updatedAt: result.updatedAt || new Date().toISOString(), commitUrl: result.commitUrl || ''}));
+    return result;
+  } catch (error) {
+    PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, status: 'ERROR', updatedAt: new Date().toISOString(), error: String(error && error.message || error)}));
+    throw error;
+  }
+}
+
+function contentSaveStatus_() {
+  try {
+    return JSON.parse(PropertiesService.getScriptProperties().getProperty('CONTENT_SAVE_STATUS') || '{}');
+  } catch (error) {
+    return {};
+  }
 }
 
 function validatePublicBookContent_(value, depth) {
