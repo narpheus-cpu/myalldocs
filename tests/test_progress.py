@@ -193,6 +193,8 @@ def test_source_link_can_be_corrected_or_removed_without_reindexing():
         assert phrase in html
     for phrase in ('openPicker("source-link")', 'route:"update-source-link"', "waitForSourceLink", 'sourceMode:pending.mode'):
         assert phrase in script
+    for phrase in ("restoreSourceLinkDialog", "if(sourceMode)closeSourceLinkDialog()", 'e.type==="popup_closed"', "Google 로그인 응답을 받지 못했습니다"):
+        assert phrase in script
     for phrase in ("body.route === 'update-source-link'", "handleSourceLinkUpdate_", "apply-source-link.yml", "kind: 'source-link'"):
         assert phrase in relay
     assert "python -m indexer.source_link_worker" in workflow
