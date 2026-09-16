@@ -8,7 +8,7 @@ from indexer.models import DriveBook
 from indexer.prior_knowledge import prior_knowledge_prompt, valid_prior_result
 from indexer.private_queue import CanonicalUploadFormatError, parse_canonical_upload, parse_jsonl
 from indexer.queue_context import service_account_email
-from indexer.queue_worker import match_entries, reconcile_completed_entries
+from indexer.queue_worker import _validate_public_content, match_entries, reconcile_completed_entries
 
 
 def test_jsonl_is_parsed_in_memory_and_requires_txt_or_epub():
@@ -251,3 +251,22 @@ def test_completed_json_path_has_explicit_no_gemini_client():
     assert "class NoGeminiClient" in source
     assert 'if bundle_kind == "catalog-jsonl"' in source
     assert 'else NoGeminiClient(settings.quota)' in source
+
+
+def test_content_edit_uses_private_drive_and_actions_without_exposing_secrets():
+    root = Path(__file__).resolve().parents[1]
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    workflow = (root / ".github" / "workflows" / "apply-content-edit.yml").read_text(encoding="utf-8")
+    deploy = (root / ".github" / "workflows" / "deploy-pages.yml").read_text(encoding="utf-8")
+    assert "queueBookContentUpdate_(body)" in relay
+    assert "apply-content-edit.yml/dispatches" in relay
+    assert "skipDispatch: true" in relay
+    assert "permissions:\n  contents: write" in workflow
+    assert "data/content-overrides.json" in workflow
+    assert '"Apply indexed content edit"' in deploy
+
+    _validate_public_content({"overallSummary": "공개 가능한 요약"})
+    with pytest.raises(ValueError, match="원문 전문"):
+        _validate_public_content({"rawText": "공개 금지"})
+    with pytest.raises(ValueError, match="인증 정보"):
+        _validate_public_content({"geminiApiKey": "공개 금지"})

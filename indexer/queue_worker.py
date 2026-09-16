@@ -176,6 +176,8 @@ class QueueWorker:
 
     def run(self, manifest_id: str) -> dict[str, Any]:
         bundle = self.private_drive.load_bundle(manifest_id)
+        if bundle.manifest.get("kind") == "content-edit":
+            return self._apply_content_edit(bundle)
         root_id = str(bundle.manifest.get("sourceRootFolderId") or os.getenv("DRIVE_ROOT_FOLDER_ID") or "")
         if not root_id:
             raise ValueError("Drive 원본 루트 설정이 없습니다.")
@@ -290,6 +292,40 @@ class QueueWorker:
         self._emit(final, self.status["message"], True)
         return self.status
 
+    def _apply_content_edit(self, bundle: QueueBundle) -> dict[str, Any]:
+        entry = bundle.entries[0] if bundle.entries else {}
+        drive_file_id = str(entry.get("driveFileId") or "").strip()
+        content = entry.get("content")
+        if not re.fullmatch(r"[A-Za-z0-9_-]{10,200}", drive_file_id):
+            raise ValueError("원본 파일 ID가 올바르지 않습니다.")
+        if not isinstance(content, dict):
+            raise ValueError("저장할 인덱싱 내용이 올바르지 않습니다.")
+        _validate_public_content(content)
+        path = self.settings.root / "data" / "content-overrides.json"
+        try:
+            document = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+        except (OSError, json.JSONDecodeError) as exc:
+            raise ValueError("기존 인덱싱 내용 수정값을 읽지 못했습니다.") from exc
+        document.setdefault("schemaVersion", 1)
+        document.setdefault("description", "driveFileId별 인덱싱 내용 수동 수정값. 자동 재인덱싱과 별도로 보존됩니다.")
+        if not isinstance(document.get("byDriveFileId"), dict):
+            raise ValueError("기존 인덱싱 내용 수정값의 구조가 올바르지 않습니다.")
+        document["byDriveFileId"][drive_file_id] = {"content": content, "updatedAt": _now()}
+        atomic_write_json(path, document)
+        state = {
+            "schemaVersion": 1, "manifestId": bundle.manifest_id, "kind": "content-edit",
+            "entries": [{"filename": bundle.manifest.get("originalFilename", "content-edit.json"), "status": "COMPLETE", "driveFileId": drive_file_id}],
+            "createdAt": bundle.manifest.get("createdAt") or _now(), "updatedAt": _now(), "lastRunStatus": "COMPLETE",
+        }
+        self.private_drive.save_state(bundle, state)
+        self.status = {
+            "status": "COMPLETE", "phase": "COMPLETE", "message": "수정한 인덱싱 내용을 GitHub에 반영했습니다.",
+            "totalFiles": 1, "complete": 1, "skipped": 0, "failed": 0, "metadataReview": 0,
+            "allTargetsComplete": True, "startedAt": state["createdAt"], "finishedAt": _now(),
+        }
+        self._emit("COMPLETE", self.status["message"], True)
+        return self.status
+
     def _duplicate_hash(self, source_hash: str, normalized_text_hash: str) -> bool:
         for path in (self.settings.root / "data" / "books").glob("*/book.json"):
             try:
@@ -359,6 +395,21 @@ def _validate_completed_payload(raw: dict[str, Any]) -> None:
             raise ValueError("완성 인덱싱 JSON에 원문 또는 식별 발췌문을 포함할 수 없습니다.")
 
 
+def _validate_public_content(value: Any, depth: int = 0) -> None:
+    if depth > 30:
+        raise ValueError("편집 내용의 구조가 너무 깊습니다.")
+    if isinstance(value, dict):
+        for key, item in value.items():
+            if re.fullmatch(r"(?:source|raw|original|full)[_-]?text", str(key), re.IGNORECASE):
+                raise ValueError("원문 전문은 공개 저장소에 저장할 수 없습니다.")
+            if re.search(r"(?:api[_-]?key|secret|access[_-]?token|refresh[_-]?token|password)", str(key), re.IGNORECASE):
+                raise ValueError("API 키나 인증 정보는 공개 저장소에 저장할 수 없습니다.")
+            _validate_public_content(item, depth + 1)
+    elif isinstance(value, list):
+        for item in value:
+            _validate_public_content(item, depth + 1)
+
+
 def _public_identity(result: Any) -> dict[str, Any]:
     if not isinstance(result, dict) or not isinstance(result.get("identityDecision"), dict):
         return {}
@@ -413,10 +464,16 @@ def main() -> int:
         status = {"status": "NO_SUPPORTED_MODEL", "phase": "NO_SUPPORTED_MODEL", "message": str(exc), "allTargetsComplete": False, "finishedAt": _now()}
         atomic_write_json(settings.root / "data" / "job-status.json", status)
         progress.emit(status, force=True)
+    except Exception as exc:
+        LOG.exception("Private queue worker failed")
+        status = {"status": "ERROR", "phase": "ERROR", "message": str(exc), "allTargetsComplete": False, "finishedAt": _now()}
+        atomic_write_json(settings.root / "data" / "job-status.json", status)
+        progress.emit(status, force=True)
     try:
         notify_queue_result(callback_url, callback_secret, manifest_id, status["status"], {
             **{key: status.get(key, 0) for key in ("complete", "skipped", "failed", "metadataReview", "totalFiles")},
             "allTargetsComplete": status.get("allTargetsComplete") is True,
+            "message": status.get("message", ""),
         })
     except Exception as exc:
         LOG.warning("Queue result callback failed: %s", exc)

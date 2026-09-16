@@ -60,7 +60,7 @@ function startPrivateUpload_(body) {
     var previous = properties.getProperty('UPLOAD_REQUEST_' + requestId);
     if (previous) return JSON.parse(previous);
     var kind = String(body.kind || '');
-    if (['catalog-jsonl', 'canonical-json'].indexOf(kind) < 0) throw new Error('지원하지 않는 업로드 종류입니다.');
+    if (['catalog-jsonl', 'canonical-json', 'content-edit'].indexOf(kind) < 0) throw new Error('지원하지 않는 업로드 종류입니다.');
     var filename = String(body.filename || '').trim().slice(0, 200);
     var size = Math.max(0, Number(body.size) || 0);
     var partCount = Math.max(1, Number(body.partCount) || 0);
@@ -68,7 +68,7 @@ function startPrivateUpload_(body) {
     if (size < 1 || size > 104857600) throw new Error('업로드 파일은 100MB 이하여야 합니다.');
     if (partCount > 1000) throw new Error('업로드 조각이 너무 많습니다.');
     if (kind === 'catalog-jsonl' && !/\.jsonl$/i.test(filename)) throw new Error('JSONL 파일을 선택하세요.');
-    if (kind === 'canonical-json' && !/\.json$/i.test(filename)) throw new Error('JSON 파일을 선택하세요.');
+    if ((kind === 'canonical-json' || kind === 'content-edit') && !/\.json$/i.test(filename)) throw new Error('JSON 파일을 선택하세요.');
     var id = Utilities.getUuid();
     var parentId = ensureManagementFolderId_();
     var folder = driveCreateMetadata_({name: 'upload-' + id, mimeType: 'application/vnd.google-apps.folder', parents: [parentId]});
@@ -128,7 +128,7 @@ function finishPrivateUpload_(body) {
       manifestFile = driveCreateFile_({name: 'queue-manifest.json', parents: [record.folderId]}, Utilities.newBlob(JSON.stringify(manifest, null, 2)).getBytes(), 'application/json');
     }
     appendQueueManifest_(manifestFile.id);
-    var response = {ok: true, queued: true, manifestId: manifestFile.id, dispatch: dispatchQueueWorkflow_()};
+    var response = {ok: true, queued: true, manifestId: manifestFile.id, dispatch: body.skipDispatch === true ? {requested: false, deferred: true} : dispatchQueueWorkflow_()};
     PropertiesService.getScriptProperties().setProperty(completedKey, JSON.stringify(response));
     PropertiesService.getScriptProperties().deleteProperty('UPLOAD_SESSION_' + record.id);
     return response;
@@ -249,6 +249,8 @@ function handleQueueResult_(body) {
   var resultId = String(body.resultId || '');
   if (!/^[0-9a-f]{64}$/.test(resultId)) throw new Error('대기열 결과 번호가 올바르지 않습니다.');
   var allTargetsComplete = status === 'COMPLETE' && body.allTargetsComplete === true;
+  var manifestKind = '';
+  try { manifestKind = String(JSON.parse(DriveApp.getFileById(id).getBlob().getDataAsString('UTF-8')).kind || ''); } catch (ignored) {}
   var lock = LockService.getScriptLock();
   lock.waitLock(15000);
   try {
@@ -256,6 +258,17 @@ function handleQueueResult_(body) {
   var resultKey = 'QUEUE_RESULT_' + resultId;
   var previous = properties.getProperty(resultKey);
   if (previous) return JSON.parse(previous);
+  if (manifestKind === 'content-edit') {
+    var currentSave = contentSaveStatus_();
+    if (!currentSave.manifestId || currentSave.manifestId === id) {
+      properties.setProperty('CONTENT_SAVE_STATUS', JSON.stringify({
+        requestId: currentSave.requestId || '', manifestId: id,
+        status: allTargetsComplete ? 'COMPLETE' : (status === 'ERROR' ? 'ERROR' : status),
+        updatedAt: new Date().toISOString(),
+        error: status === 'ERROR' ? String((body.summary || {}).message || 'GitHub Actions가 편집 내용을 저장하지 못했습니다.') : ''
+      }));
+    }
+  }
   if (allTargetsComplete || ['NEEDS_USER_REVIEW','NO_SUPPORTED_MODEL'].indexOf(status) >= 0) {
     properties.setProperty('PRIVATE_QUEUE_MANIFEST_IDS', JSON.stringify(queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').filter(function(item) { return item !== id; })));
     if (status !== 'COMPLETE') {
@@ -264,7 +277,7 @@ function handleQueueResult_(body) {
       properties.setProperty('PRIVATE_REVIEW_MANIFEST_IDS', JSON.stringify(reviews.slice(-200)));
     }
   }
-  if (allTargetsComplete) {
+  if (allTargetsComplete && manifestKind !== 'content-edit') {
     var summary = body.summary || {};
     var recipient = properties.getProperty('COMPLETION_EMAIL') || 'narepheus@gmail.com';
     sendEmail_(recipient, '[서재지도] 업로드 대기열 처리 완료', [
@@ -275,7 +288,7 @@ function handleQueueResult_(body) {
       '실패: ' + (summary.failed || 0)
     ].join('\n'));
   }
-  var continueNow = status === 'PAUSED_SAFETY_BUDGET' || ((allTargetsComplete || status === 'NEEDS_USER_REVIEW') && queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').length > 0);
+  var continueNow = manifestKind !== 'content-edit' && (status === 'PAUSED_SAFETY_BUDGET' || ((allTargetsComplete || status === 'NEEDS_USER_REVIEW') && queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').length > 0));
   var continued = false;
   if (continueNow) {
     try { dispatchQueueWorkflow_(); continued = true; } catch (error) { continued = false; }
@@ -492,12 +505,54 @@ function handleBookContentUpdate_(body) {
   var key = 'CONTENT_SAVE_STATUS';
   PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, status: 'RUNNING', updatedAt: new Date().toISOString()}));
   try {
-    var result = updateBookContent_(body);
-    PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, status: 'COMPLETE', updatedAt: result.updatedAt || new Date().toISOString(), commitUrl: result.commitUrl || ''}));
+    var result = queueBookContentUpdate_(body);
+    PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, manifestId: result.manifestId || '', status: 'QUEUED', updatedAt: result.updatedAt || new Date().toISOString()}));
     return result;
   } catch (error) {
     PropertiesService.getScriptProperties().setProperty(key, JSON.stringify({requestId: requestId, status: 'ERROR', updatedAt: new Date().toISOString(), error: String(error && error.message || error)}));
     throw error;
+  }
+}
+
+function queueBookContentUpdate_(body) {
+  var driveFileId = String(body.driveFileId || '').trim();
+  if (!/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('원본 파일 ID가 올바르지 않습니다.');
+  assertFileWithinRoot_(driveFileId);
+  if (!body.content || typeof body.content !== 'object' || Array.isArray(body.content)) throw new Error('저장할 인덱싱 내용이 올바르지 않습니다.');
+  var content = JSON.parse(JSON.stringify(body.content));
+  validatePublicBookContent_(content, 0);
+  var requestId = String(body.requestId || '').trim();
+  var encoded = Utilities.newBlob(JSON.stringify({requestId: requestId, driveFileId: driveFileId, content: content}), 'application/json', 'content-edit.json').getBytes();
+  if (encoded.length > 1500000) throw new Error('편집 내용이 너무 큽니다. 150만 바이트 이하로 저장하세요.');
+  var partBytes = 131072;
+  var partCount = Math.max(1, Math.ceil(encoded.length / partBytes));
+  var started = startPrivateUpload_({requestId: requestId, kind: 'content-edit', filename: 'content-edit-' + requestId + '.json', size: encoded.length, partCount: partCount});
+  for (var index = 0; index < partCount; index++) {
+    savePrivateUploadPart_({uploadId: started.uploadId, index: index, base64: Utilities.base64Encode(encoded.slice(index * partBytes, Math.min(encoded.length, (index + 1) * partBytes)))});
+  }
+  var finished = finishPrivateUpload_({uploadId: started.uploadId, skipDispatch: true});
+  var dispatch = dispatchContentEditWorkflow_(finished.manifestId);
+  if (!dispatch.ok) throw new Error(githubDispatchFailureMessage_(dispatch.code, dispatch.reason));
+  return {ok: true, queued: true, manifestId: finished.manifestId, updatedAt: new Date().toISOString()};
+}
+
+function dispatchContentEditWorkflow_(manifestId) {
+  var owner = requiredProperty_('GITHUB_OWNER');
+  var repo = requiredProperty_('GITHUB_REPO');
+  var token = String(PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN') || '').trim();
+  if (!githubTokenLooksValid_(token)) return {ok: false, code: 0, reason: 'missing_or_invalid_token'};
+  var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/apply-content-edit.yml/dispatches';
+  try {
+    var response = UrlFetchApp.fetch(url, {
+      method: 'post', contentType: 'application/json',
+      payload: JSON.stringify({ref: 'main', inputs: {manifest_id: String(manifestId || '')}}),
+      headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'},
+      muteHttpExceptions: true
+    });
+    var code = response.getResponseCode();
+    return {ok: code === 200 || code === 204, code: code, reason: code === 200 || code === 204 ? '' : 'github_http_' + code};
+  } catch (error) {
+    return {ok: false, code: 0, reason: 'github_request_unavailable'};
   }
 }
 
@@ -514,6 +569,7 @@ function validatePublicBookContent_(value, depth) {
   if (!value || typeof value !== 'object') return;
   Object.keys(value).forEach(function(key) {
     if (/^(?:source|raw|original|full)[_-]?text$/i.test(key)) throw new Error('원문 전문은 공개 저장소에 저장할 수 없습니다.');
+    if (/(?:api[_-]?key|secret|access[_-]?token|refresh[_-]?token|password)/i.test(key)) throw new Error('API 키나 인증 정보는 공개 저장소에 저장할 수 없습니다.');
     validatePublicBookContent_(value[key], depth + 1);
   });
 }

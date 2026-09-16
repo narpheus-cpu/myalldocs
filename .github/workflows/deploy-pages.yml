@@ -7,7 +7,7 @@ on:
   # Pushes made with a workflow token do not create another push workflow run.
   # These events guarantee that every committed catalog change reaches Pages.
   workflow_run:
-    workflows: ["Index books", "Process private upload queue"]
+    workflows: ["Index books", "Process private upload queue", "Apply indexed content edit"]
     types: [completed]
 
 permissions:
