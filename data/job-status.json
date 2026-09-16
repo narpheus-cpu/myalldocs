@@ -1,15 +1,13 @@
 {
-  "status": "COMPLETE",
-  "phase": "COMPLETE",
-  "message": "수정한 인덱싱 내용을 GitHub에 반영했습니다.",
+  "status": "NEEDS_USER_REVIEW",
+  "phase": "NEEDS_USER_REVIEW",
+  "message": "자동으로 확정할 수 없는 1개 항목이 있어 사용자 확인을 기다립니다.",
   "totalFiles": 1,
-  "complete": 1,
+  "startedAt": "2026-09-16T07:16:29.744530+00:00",
+  "complete": 0,
   "skipped": 0,
   "failed": 0,
   "metadataReview": 0,
-  "allTargetsComplete": true,
-  "startedAt": "2026-09-16T05:43:34.319Z",
-  "finishedAt": "2026-09-16T05:44:03.190308+00:00",
   "model": "",
   "apiRequests": 0,
   "apiSuccessfulRequests": 0,
@@ -24,7 +22,9 @@
   "modelCycleRestarts": 0,
   "lastModelError": "",
   "invalidJsonResponses": 0,
-  "driveQuotaUnits": 0,
+  "driveQuotaUnits": 10390,
   "driveDownloadedBytes": 0,
-  "updatedAt": "2026-09-16T05:44:03.190335+00:00"
+  "updatedAt": "2026-09-16T07:16:40.853632+00:00",
+  "allTargetsComplete": false,
+  "finishedAt": "2026-09-16T07:16:34.723652+00:00"
 }
