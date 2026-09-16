@@ -112,15 +112,16 @@ def match_entries(entries: list[dict[str, Any]], books: list[DriveBook], root_na
                     book for book in title_candidates
                     if author and author in _compact_identity(" ".join([Path(book.name).stem, *book.folderPath]))
                 ]
-                candidates = (
-                    title_segment_candidates if len(title_segment_candidates) == 1
-                    else (author_candidates if len(author_candidates) == 1 else title_candidates)
-                )
-                if candidates:
-                    match_basis = (
-                        "title_segment" if len(title_segment_candidates) == 1
-                        else ("title_author" if len(author_candidates) == 1 else "title")
-                    )
+                if len(title_candidates) == 1:
+                    candidates = title_candidates
+                    match_basis = "title_author" if len(author_candidates) == 1 else "title"
+                elif len(title_segment_candidates) == 1:
+                    candidates = title_segment_candidates
+                    match_basis = "title_segment"
+                else:
+                    candidates = author_candidates if len(author_candidates) == 1 else title_candidates
+                    if candidates:
+                        match_basis = "title_author" if len(author_candidates) == 1 else "title"
         status = "MATCHED" if len(candidates) == 1 else ("NOT_FOUND" if not candidates else "AMBIGUOUS")
         selected = candidates[0] if len(candidates) == 1 else None
         display_name = filename or " · ".join(filter(None, [str(identity.get("title") or "").strip(), str(identity.get("author") or "").strip()]))
