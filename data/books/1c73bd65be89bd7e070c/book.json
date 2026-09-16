@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "명탐정의 규칙",
+    "author": "히가시노 게이고",
+    "genre": "추리소설, 패러디",
+    "tags": [
+      "미스터리",
+      "유머",
+      "메타픽션",
+      "본격추리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리",
+        "패러디"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대 일본을 대표하는 대중소설 작가로, 1985년 '방과후'로 데뷔한 이후 추리소설을 비롯해 다양한 장르에서 수많은 베스트셀러를 발표했다. 인간의 심리 묘사와 치밀한 반전, 사회적 메시지를 담은 작품으로 국내외에서 큰 사랑을 받고 있다.",
+    "oneLineSummary": "정형화된 본격 추리소설의 클리셰와 규칙을 유쾌하게 비틀고 풍자하는 연작 단편 소설집.",
+    "overallSummary": "이 책은 전통적인 본격 추리소설에 등장하는 비현실적인 규칙과 클리셰들(밀실 살인, 알리바이, 암호, 탐정의 대사 등)을 정면으로 해부하고 풍자한다. 명탐정 덴카이치 다이고로와 수사관 오가와라 반조라는 고정 캐릭터를 통해, 추리소설 작가들이 흔히 범하는 작위적인 설정과 독자들의 허를 찌르는 고전적 미스터리의 문법을 유머러스하게 폭로한다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "덴카이치 다이고로",
+          "role": "명탐정",
+          "description": "낡은 양복과 지팡이를 들고 사건을 해결하는 전형적인 본격 추리소설 속 명탐정 캐릭터."
+        },
+        {
+          "name": "오가와라 반조",
+          "role": "경감",
+          "description": "살인 사건 현장에 출동하지만 늘 명탐정에 가려 실적을 올리지 못하는 수사 1과 경감."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "가상 또는 현대의 추리소설 속 세계관",
+        "places": [
+          "밀실 살인 현장",
+          "고립된 별장"
+        ],
+        "socialContext": "클리셰로 가득한 고전적 본격 추리소설의 무대",
+        "historicalContext": "일본 추리소설계의 본격 미스터리 전통을 패러디하던 시기"
+      },
+      "external": {
+        "historicalContext": "1990년대 일본 미스터리계에 신본격 바람이 불던 시기의 작품",
+        "publicationContext": "고단샤를 통해 1996년 출간된 히가시노 게이고의 유쾌한 패러디 소설"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "meta_fiction",
+        "title": "메타픽션적 풍자",
+        "content": "작품 속 인물들이 자신들이 추리소설 속 세계에 살고 있음을 의식하거나 작가의 고충을 대변하는 독특한 장치를 통해 장르 자체를 해체하고 재구성한다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10Ku9dZkXy2M55eM2qdYZSEIiVQenEccz",
+    "filename": "히가시노 게이고-명탐정의 규칙 -- 히가시노 게이고(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.909Z",
+    "size": "431978",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/10Ku9dZkXy2M55eM2qdYZSEIiVQenEccz/view?usp=drivesdk",
+    "sourceSha256": "aececc5c87da425ca7c72030b38254bf97048ff469fe8ea289541c24b7347f4e",
+    "textSha256": "a00afcbde0078ceec7eb152d1d0c480b31e656124261a2effdec725df0fbec35",
+    "changeKey": "23f35ebc4a3b4d7ed6864185f0163a7e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1c73bd65be89bd7e070c",
+    "workId": "1c73bd65be89bd7e070c",
+    "driveFileId": "10Ku9dZkXy2M55eM2qdYZSEIiVQenEccz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T11:14:18.109532+00:00",
+    "updatedAt": "2026-09-16T11:14:18.109542+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T11:14:18.109625+00:00"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "방과 후",
+    "author": "히가시노 게이고",
+    "genre": "추리소설",
+    "tags": [
+      "미스터리",
+      "학교",
+      "밀실살인",
+      "반전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 베스트셀러 작가로, 1985년 본 작품으로 제31회 에도가와 란포 상을 수상하며 데뷔했다. 치밀한 트릭과 빠른 전개, 인간의 심리를 꿰뚫는 통찰력으로 명성이 높다.",
+    "oneLineSummary": "여고를 배경으로 체육 교사와 학생들이 얽힌 연속 살인 사건의 진실과 반전을 그린 히가시노 게이고의 데뷔작.",
+    "overallSummary": "고등학교 체육 교사이자 양궁부 고문인 마에시마는 최근 자신을 향한 살해 위협을 느낀다. 그러던 중 교내에서 체육 교사 무라하시가 독살당하는 사건이 발생하고, 이어 교장마저 연이어 살해당한다. 경찰 수사와 함께 마에시마 역시 학생들의 도움과 자체적인 추리로 사건의 진실에 다가가지만, 마지막 순간 상상하지 못한 충격적인 반전과 마주하게 된다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "마에시마",
+          "role": "주인공",
+          "description": "고등학교 체육 교사이자 양궁부 고문. 생명의 위협을 느끼며 사건의 진상을 쫓는다."
+        },
+        {
+          "name": "무라하시",
+          "role": "교사",
+          "description": "학교 내에서 독살당한 채 발견된 교사."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "1980년대",
+        "places": [
+          "고등학교",
+          "양궁부 부실"
+        ],
+        "socialContext": "입시 위주의 일본 고등학교 사회",
+        "historicalContext": "출판 당시의 일본 시대상"
+      },
+      "external": {
+        "historicalContext": "일본 추리소설계에 신예 작가의 등장을 알린 시기",
+        "publicationContext": "1985년 에도가와 란포 상 수상작"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "title": "주제 및 의미",
+        "content": "학교라는 밀폐된 공간과 양궁이라는 스포츠의 특성을 결합하여 인간 관계의 소통 부재와 편견이 낳는 파국을 섬세하게 그려냈다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1t3RkLqCcB9niGrnnhpS_RVuE2fFHX68c",
+    "filename": "히가시노 게이고-방과 후(데뷔작)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T13:58:52.000Z",
+    "size": "557548",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1t3RkLqCcB9niGrnnhpS_RVuE2fFHX68c/view?usp=drivesdk",
+    "sourceSha256": "3b2b28968fe57c19f186e25d4c63f0bb597cd6e8c566e20f2b07aaf8dae54acc",
+    "textSha256": "fbfe5ed8a0717a8d970483ee7db2c317ba17fd5c9b2f13f7bc7a90d0c595b9e9",
+    "changeKey": "bc8eb4f01ead58cede6a81c3a78c1473",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0a2817401beae35791d1",
+    "workId": "0a2817401beae35791d1",
+    "driveFileId": "1t3RkLqCcB9niGrnnhpS_RVuE2fFHX68c",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T11:20:37.986587+00:00",
+    "updatedAt": "2026-09-16T11:20:37.986597+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8235,
+      "updatedAt": "2026-09-16T11:20:37.986686+00:00"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "매스커레이드 나이트",
+    "author": "히가시노 게이고",
+    "genre": "일본 소설",
+    "tags": [
+      "추리",
+      "미스터리",
+      "호텔",
+      "경찰",
+      "연쇄살인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "미스터리",
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 베스트셀러 작가로, 이과적 지식을 바탕으로 한 기발한 트릭과 탄탄한 서사 구조가 돋보이는 다수의 미스터리 작품을 발표해왔다.",
+    "oneLineSummary": "호텔 코르테시아도쿄에서 열리는 새해맞이 카운트다운 파티를 배경으로, 가상의 살인 예고를 저지하기 위해 잠입 수사에 나선 형사 닛타 고스케와 호텔리어 야마기시 나오미의 활약을 그린 미스터리 소설.",
+    "overallSummary": "이즈미 하루나 살해 사건의 범인이 호텔 코르테시아도쿄의 카운트다운 파티에 가면을 쓰고 나타날 것이라는 익명 신고가 접수된다. 이에 따라 경시청 수사 1과 형사 닛타 고스케는 다시 한번 호텔리어로 위장하여 호텔 측과 협력하며 범인을 찾아내기 위한 잠입 수사를 시작한다. 수많은 투숙객들이 각양각색의 가면과 코스튬으로 얼굴을 가린 채 모여드는 혼란스러운 파티 속에서, 닛타와 야마기시 나오미는 철저한 서비스 정신과 날카로운 관찰력으로 범인의 실마리를 쫓아간다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "닛타 고스케",
+          "role": "주인공 / 경시청 형사",
+          "description": "사건 해결을 위해 호텔 코르테시아도쿄에 프론트 직원으로 위장 잠입하여 수사를 벌이는 형사."
+        },
+        {
+          "name": "야마기시 나오미",
+          "role": "주인공 / 호텔리어",
+          "description": "호텔 코르테시아도쿄의 우수한 프론트 오피스 직원으로, 닛타와 함께 호흡을 맞추며 투숙객들을 응대한다."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "연말 및 새해맞이 카운트다운 파티가 열리는 며칠간",
+        "places": [
+          "호텔 코르테시아도쿄"
+        ],
+        "socialContext": "다양한 비밀과 목적을 가진 투숙객들이 모이는 고급 호텔의 연말 풍경",
+        "historicalContext": "현대 일본 사회"
+      },
+      "external": {
+        "historicalContext": "현대 일본",
+        "publicationContext": "히가시노 게이고의 '매스커레이드' 시리즈 중 한 작품으로 2017년 일본에서 출간됨"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "plot_structure",
+        "title": "사건과 반전의 구조",
+        "content": "가면무도회라는 제한된 공간과 시간 속에서, 익명의 살인 예고를 막기 위한 형사와 호텔리어의 협업을 중심으로 긴장감 넘치는 수사 과정을 보여준다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IicHyAwkbWRIU2C20kzWYzuL5jbt2qvW",
+    "filename": "히가시노 게이고-매스커레이드 호텔(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.874Z",
+    "size": "775976",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1IicHyAwkbWRIU2C20kzWYzuL5jbt2qvW/view?usp=drivesdk",
+    "sourceSha256": "44f19ee142f28a0411da2f45bc2a0b8ea25b6269f3a25ae65e8df19d88be09e9",
+    "textSha256": "fb28e99b2c5680a10a44a6763e1b4ff4f5201e060e0570e5bdb1bfba3a6151a2",
+    "changeKey": "ed864e5a63e11eed72f072c55f76b75e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "af624f7d63810c0de2c1",
+    "workId": "af624f7d63810c0de2c1",
+    "driveFileId": "1IicHyAwkbWRIU2C20kzWYzuL5jbt2qvW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T11:12:43.298542+00:00",
+    "updatedAt": "2026-09-16T11:12:43.298552+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8718,
+      "updatedAt": "2026-09-16T11:12:43.298640+00:00"
+    }
+  }
+}

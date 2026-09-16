@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마구를",
+    "author": "히가시노 게이고",
+    "genre": "추리/미스터리 소설",
+    "tags": [
+      "일본소설",
+      "히가시노 게이고",
+      "추리",
+      "미스터리",
+      "야구소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오늘의 일본을 대표하는 추리소설 작가. 1985년 '방과후'로 데뷔한 이후 치밀한 트릭과 인간성에 대한 깊은 통찰이 담긴 수많은 작품을 발표하며 대중성과 문학성을 모두 인정받았다.",
+    "oneLineSummary": "고교 야구 에이스 투수의 '마구'와 관련된 의문의 투구에서 비롯된 살인 사건과 그 뒤에 숨겨진 비밀을 파헤치는 추리 소설.",
+    "overallSummary": "고교 야구 시합의 마지막 순간에 던져진 의문의 공, 이른바 '마구'를 중심으로 사건이 전개된다. 과거 야구부와 연관된 인물들에게 벌어지는 살인 사건과 폭파 미수, 납치 협박 등 다양한 사건이 복잡하게 얽히며, 형사들이 수사를 통해 진실에 접근해 나가는 과정을 그린다. 단순한 수수께끼 풀이를 넘어 등장인물들의 얽힌 인생 궤적과 비극적인 진실을 담아내고 있다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "스다 다케시는",
+          "role": "투수",
+          "description": "가이요 고등학교 야구부의 에이스로, 시합에서 의문의 '마구'를 던진 인물."
+        },
+        {
+          "name": "다카마",
+          "role": "형사",
+          "description": "사건의 진실과 '마구'의 비밀을 파헤치는 수사관."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "1964년 및 사건 발생 시점",
+        "places": [
+          "일본"
+        ],
+        "socialContext": "고등학교 야구 열기가 뜨거운 일본 사회와 그 이면에 감춰진 인간 군상의 갈등.",
+        "historicalContext": "1960년대 일본의 시대적 분위기."
+      },
+      "external": {
+        "historicalContext": "히가시노 게이고의 초기 작풍을 보여주는 작품으로 1988년에 발표되었다.",
+        "publicationContext": "고단샤를 통해 원서가 출간되었으며, 국내에는 도서출판 재인에서 번역 출간되었다."
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "mystery_structure",
+        "title": "퍼즐과 서스펜스의 융합",
+        "content": "두 건의 살인 사건뿐만 아니라 폭파 미수 및 납치 협박 사건을 유기적으로 엮어 독자에게 복합적인 추리의 재미를 선사한다."
+      },
+      {
+        "key": "thematic_depth",
+        "title": "인간에 대한 애정과 비극적 진실",
+        "content": "단순한 수수께끼 해결을 넘어, 혼자서 인생과 맞서 싸우다 간 이들의 애달픈 궤적을 통해 깊은 여운을 남긴다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1a_Diqel-rMrTQppB3TWpCOEqZQ7i6HZl",
+    "filename": "히가시노 게이고-마구 -- 히가시노 게이고(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.812Z",
+    "size": "476342",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1a_Diqel-rMrTQppB3TWpCOEqZQ7i6HZl/view?usp=drivesdk",
+    "sourceSha256": "354f3b9835c773711522ac176861e0edd80a32d14310a36517cf3f8b7f0a1482",
+    "textSha256": "fc012dd466a09987fff988baee6e4e8b8d8c3dbe7eaaa1c9f088c9d6d99822c8",
+    "changeKey": "c792253c03b731e4ed48eef601dbca21",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "988577bfe00ea46de20b",
+    "workId": "988577bfe00ea46de20b",
+    "driveFileId": "1a_Diqel-rMrTQppB3TWpCOEqZQ7i6HZl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T11:09:33.576960+00:00",
+    "updatedAt": "2026-09-16T11:09:33.576970+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T11:09:33.577057+00:00"
+    }
+  }
+}

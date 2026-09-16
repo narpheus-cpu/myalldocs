@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "방황하는 칼날",
+    "author": "히가시노 게이고",
+    "genre": "사회파 미스터리",
+    "tags": [
+      "복수",
+      "소년범죄",
+      "법의 사각지대",
+      "부성애"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "social_critique"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "히가시노 게이고는 일본을 대표하는 대중소설 작가로, 치밀한 트릭과 미스터리뿐만 아니라 현대 사회의 어두운 단면과 인간 군상을 예리하게 포착해내는 작품들을 다수 집필했다.",
+    "oneLineSummary": "딸을 잃은 아버지가 직접 살인범을 찾아 복수에 나서고, 그를 쫓는 경찰과 법의 실효성에 대한 딜레마를 그린 소설.",
+    "overallSummary": "평범한 소시민이었던 나가미네는 어느 날 딸을 무참히 잃고 만다. 범인들은 미성년자라는 이유로 법의 보호 뒤에 숨어 잔혹한 범죄를 저지르고도 죄의식을 느끼지 못한다. 절망과 분노에 휩싸인 나가미네는 직접 복수의 길을 떠나고, 경찰은 법 집행의 정의와 피해자 가족의 아픔 사이에서 갈등하며 그를 추적한다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "나가미네 소타로",
+          "role": "주인공",
+          "description": "딸을 잃고 복수에 나서는 평범한 아버지."
+        },
+        {
+          "name": "구스카키",
+          "role": "형사",
+          "description": "나가미네의 마음을 이해하면서도 법 집행과 체포를 위해 그를 쫓는 베테랑 형사."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "현대 일본",
+        "places": [
+          "도쿄",
+          "지방의 피서지 및 펜션 등"
+        ],
+        "socialContext": "소년범죄의 처벌과 인권 보호를 둘러싼 사회적 논란",
+        "historicalContext": "법의 한계와 사적 복소의 정당성에 대한 윤리적 질문이 대두되던 시기"
+      },
+      "external": {
+        "historicalContext": "2004년 일본에서 단행본으로 출간되었으며, 한국을 비롯한 여러 국가에서 영화 및 드라마로 리메이크됨",
+        "publicationContext": "사회적 메시지와 미스터리의 재미를 결합한 히가시노 게이고의 대표적 문제작 중 하나"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "title": "법의 보호와 사적 복소의 딜레마",
+        "content": "미성년자 범죄 보호 조항의 허점을 고발하고, 피해자 가족이 겪는 절대적 고통과 국가 형벌권의 한계를 날카롭게 파고든다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1n-nQfe2vM1aWnIXQzzBXqGq64ytJxQmj",
+    "filename": "히가시노 게이고-방황하는 칼날(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:29.511Z",
+    "size": "711647",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1n-nQfe2vM1aWnIXQzzBXqGq64ytJxQmj/view?usp=drivesdk",
+    "sourceSha256": "5133a20f769ac206675a4e3d3ffd420f9fe5c9b17a368951ecced5fbca811450",
+    "textSha256": "aa70296d6af811e0705c558682d098a103e240ca4ab50f4fbcc4614dfab553b4",
+    "changeKey": "b0de85040c49d071436aee17969b6112",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6f4548bb70b2e92ef57b",
+    "workId": "6f4548bb70b2e92ef57b",
+    "driveFileId": "1n-nQfe2vM1aWnIXQzzBXqGq64ytJxQmj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T11:22:36.424755+00:00",
+    "updatedAt": "2026-09-16T11:22:36.424765+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T11:22:36.424856+00:00"
+    }
+  }
+}

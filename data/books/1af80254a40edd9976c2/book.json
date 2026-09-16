@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무지개를 연주하는 소년",
+    "author": "히가시노 게이고",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "미스터리",
+      "드라마",
+      "히가시노 게이고"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 인기 작가로, 1985년 《방과후》로 데뷔한 이후 추리소설뿐만 아니라 휴머니즘, 판타지, 사회파 미스터리 등 다양한 장르에서 방대한 작품을 집필해왔다.",
+    "oneLineSummary": "빛과 소리를 연결하는 공감각적 재능을 가진 소년 미쓰루가 겪는 신비롭고도 씁쓸한 인간 군상의 이야기를 그린 소설.",
+    "overallSummary": "빛을 소리로, 소리를 색으로 느끼는 공감각적 재능을 지닌 소년 다나카 미쓰루는 자신이 연주하는 음악 '광악'을 통해 사람들을 매료시킨다. 그의 재능이 세상에 알려지면서 종교 단체, 기획사, 언론 등 다양한 사람들이 미쓰루를 이용하거나 자신들의 목적에 부합시키기 위해 접근한다. 소년의 특별한 능력과 이를 둘러싼 인간들의 욕망, 그리고 그로 인해 벌어지는 사건들을 밀도 있게 추적한다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "다나카 미쓰루",
+          "role": "주인공",
+          "description": "빛과 소리를 구별하고 연주하는 공감각적 재능을 가진 소년."
+        },
+        {
+          "name": "다카유키",
+          "role": "미쓰루의 아버지",
+          "description": "아들을 보호하려 애쓰지만 세상의 거센 욕망과 마주하게 되는 인물."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "현대 일본",
+        "places": [
+          "일본 R 지구 및 도심"
+        ],
+        "socialContext": "특정 재능을 상업적이나 종교적으로 이용하려는 현대 사회의 세태",
+        "historicalContext": "1990년대 일본 사회의 분위기 반영"
+      },
+      "external": {
+        "historicalContext": "일본 경제 거품붕괴 이후 사회적 불안과 새로운 문화적 현상이 교차하던 시기",
+        "publicationContext": "1994년 일본 고단샤에서 초판 출간"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "synesthesia_and_greed",
+        "title": "공감각적 재능과 인간의 욕망",
+        "content": "작품은 미쓰루의 순수한 예술적 재능인 '광악'이 어떻게 세속적 욕망과 부딪히고 변질되는지를 보여주며, 인간 군상의 이면을 날카롭게 포착한다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11I_ZhAX04kugnBGQPBgXvIqBPeTQ5aS2",
+    "filename": "히가시노 게이고-무지개를 연주하는 소년 -- 히가시노 게이고(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:29.454Z",
+    "size": "491258",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/11I_ZhAX04kugnBGQPBgXvIqBPeTQ5aS2/view?usp=drivesdk",
+    "sourceSha256": "26010a291775017ce60c6cd4a00e1035138e77921299cc757c04d9e3d70c6ddd",
+    "textSha256": "33a8c72727ce9b28c4c2e0d49e806566c0d92c73d91d4a36517e536eb6c2f0c1",
+    "changeKey": "fcb6682efdf03026622cf050e84e5459",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1af80254a40edd9976c2",
+    "workId": "1af80254a40edd9976c2",
+    "driveFileId": "11I_ZhAX04kugnBGQPBgXvIqBPeTQ5aS2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T11:17:27.982609+00:00",
+    "updatedAt": "2026-09-16T11:17:27.982618+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T11:17:27.982701+00:00"
+    }
+  }
+}

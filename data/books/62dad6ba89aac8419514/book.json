@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "매스커레이드 게임",
+    "author": "히가시노 게이고",
+    "genre": "추리/미스터리 소설",
+    "tags": [
+      "매스커레이드 시리즈",
+      "경찰소설",
+      "호텔 미스터리",
+      "히가시노 게이고"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 베스트셀러 작가로, 이과적 지식을 바탕으로 한 기발한 트릭과 반전이 돋보이는 본격 추리소설부터 사회파 미스터리까지 폭넓은 작품을 선보이며 전 세계적인 사랑을 받고 있습니다.",
+    "oneLineSummary": "도쿄 코르테시아 호텔에서 다시 벌어진 연쇄 살인 사건을 막기 위해 잠입 수사관 닛타 고스케와 호텔리어 야마기시 나오미가 다시 한번 호흡을 맞추는 미스터리 소설.",
+    "overallSummary": "호텔 코르테시아 도쿄에서 열리는 대규모 크리스마스 행사를 앞두고 새로운 살인 예고 사건이 발생한다. 형사 닛타 고스케는 다시 프런트 스태프로 위장해 호텔에 잠입하고, 완벽한 호텔리어 야마기시 나오미와 함께 투숙객들 사이에 숨겨진 비밀과 용의자들의 진짜 정체를 파헤치며 사건의 진실에 다가간다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "닛타 고스케",
+          "role": "주인공 / 형사",
+          "description": "사건 해결을 위해 호텔 코르테시아 도쿄에 프런트 스태프로 잠입하는 경시청 수사1과 형사."
+        },
+        {
+          "name": "야마기시 나오미",
+          "role": "주인공 / 호텔리어",
+          "description": "탁월한 관찰력과 서비스 정신을 가진 호텔 코르테시아 도쿄의 베테랑 프런트 매니저."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "크리스마스 시즌",
+        "places": [
+          "호텔 코르테시아 도쿄"
+        ],
+        "socialContext": "철저한 서비스 정신이 요구되는 고급 호텔 공간과 범죄 수사가 교차하는 특수한 환경",
+        "historicalContext": "현대 일본 사회"
+      },
+      "external": {
+        "historicalContext": "2022년 일본 출간",
+        "publicationContext": "히가시노 게이고의 인기 시리즈 '매스커레이드'의 네 번째 장편소설"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "character_dynamics",
+        "title": "형사와 호텔리어의 협업",
+        "content": "규칙과 안전을 중시하는 호텔리어 야마기시 나오미와 범인의 정체를 밝히기 위해 투숙객을 의심해야 하는 형사 닛타 고스케가 대립과 협력을 거듭하며 사건을 해결해 나가는 과정이 핵심 재미 요소입니다."
+      },
+      {
+        "key": "thematic_exploration",
+        "title": "가면 뒤의 진실",
+        "content": "다양한 이유로 가면(가면무도회의 매스커레이드처럼)을 쓰고 호텔을 찾는 투숙객들의 심리와 그 속에 감춰진 비밀을 통해 인간의 다양한 면모와 진정한 속죄 및 구원의 의미를 탐색합니다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UcyyK12gd-m7Q3g-KItn1Iy7sIcDsbCO",
+    "filename": "히가시노 게이고-매스커레이드 게임 (시리즈 4)(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.828Z",
+    "size": "612786",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1UcyyK12gd-m7Q3g-KItn1Iy7sIcDsbCO/view?usp=drivesdk",
+    "sourceSha256": "116e9e8d6c2bbe44d5e48039e200db1025a4ab3c29eb28369a1c237220b23f4b",
+    "textSha256": "f3d0cbb72c25d5e980999d53034200a5f27a3b30e0988e8aaba9906c121e89d0",
+    "changeKey": "f9d0f8ae7dc4713b1ac06d4cbf94b7c8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "62dad6ba89aac8419514",
+    "workId": "62dad6ba89aac8419514",
+    "driveFileId": "1UcyyK12gd-m7Q3g-KItn1Iy7sIcDsbCO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T11:11:08.527449+00:00",
+    "updatedAt": "2026-09-16T11:11:08.527459+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T11:11:08.527550+00:00"
+    }
+  }
+}

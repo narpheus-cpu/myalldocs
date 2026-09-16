@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "백야행",
+    "author": "히가시노 게이고",
+    "genre": "추리/미스터리 소설",
+    "tags": [
+      "일본소설",
+      "미스터리",
+      "범죄",
+      "히가시노게이고"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "히가시노 게이고는 오늘의 일본을 대표하는 베스트셀러 작가로, 치밀한 트릭과 인간의 내면을 파고드는 깊이 있는 심리 묘사로 잘 알려져 있다.",
+    "oneLineSummary": "살인 사건으로 얽히게 된 두 남녀의 비극적이고 기나긴 운명을 추적하는 미스터리 소설.",
+    "overallSummary": "어느 빌딩에서 발생한 살인 사건을 시작으로, 피해자의 아들과 용의자로 지목된 여인의 딸이 겪는 십수 년 간의 세월을 그린다. 형사 사사가키는 사건의 진실을 쫓아 집요하게 이들의 주변을 파고들고, 두 주인공은 태양이 없는 백야 속을 걷듯 어둡고 잔인한 운명 속에서 서로를 지키기 위해 발버둥 친다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "사사가키",
+          "role": "형사",
+          "description": "과거 발생한 살인 사건의 진실을 파헤치기 위해 집요하게 사건을 쫓는 베테랑 형사."
+        },
+        {
+          "name": "기리하라 료지",
+          "role": "주인공 (피해자의 아들)",
+          "description": "사건 당시 아버지의 죽음과 얽혀 있으며, 어두운 과거를 숨긴 채 살아가는 인물."
+        },
+        {
+          "name": "가라사와 유키호",
+          "role": "주인공",
+          "description": "료지와 마찬가지로 과거의 비극적인 사건과 깊이 연관되어 있는 미스터리한 여인."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "1970년대부터 1990년대까지의 장기간",
+        "places": [
+          "오사카",
+          "도쿄 등 일본 각지"
+        ],
+        "socialContext": "버블 경제 전후의 일본 사회와 그 이면에 숨겨진 어두운 인간 군상",
+        "historicalContext": "일본의 급격한 경제 변화 시기"
+      },
+      "external": {
+        "historicalContext": "1990년대 일본 미스터리 소설 부흥기",
+        "publicationContext": "1999년 일본 슈에이샤에서 출간되어 큰 화제를 모음"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "title": "빛과 어둠의 대비",
+        "content": "제목인 '백야행'이 상징하듯, 태양 아래를 떳떳하게 걸을 수 없는 두 남녀의 비극적인 삶과 그들이 품은 슬픈 유년기의 상처를 예리하게 조명한다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bVSb627UF1cNR_wHDwJvCPAtq5WJXG1K",
+    "filename": "히가시노 게이고-백야행 1(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.783Z",
+    "size": "700617",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1bVSb627UF1cNR_wHDwJvCPAtq5WJXG1K/view?usp=drivesdk",
+    "sourceSha256": "c624405b255d979ed69d543e12b111033756561991327ae1c62d38e56d32b8f1",
+    "textSha256": "57e612b06d305b27a9a52e1bcded74b1016331c6c7784524f48b1d2b95c58f7c",
+    "changeKey": "bf840daad4bb45c5986bbafd090be4ea",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4c9503bb6630c25466c2",
+    "workId": "4c9503bb6630c25466c2",
+    "driveFileId": "1bVSb627UF1cNR_wHDwJvCPAtq5WJXG1K",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T11:24:48.180515+00:00",
+    "updatedAt": "2026-09-16T11:24:48.180524+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.88,
+      "updatedAt": "2026-09-16T11:24:48.180610+00:00"
+    }
+  }
+}

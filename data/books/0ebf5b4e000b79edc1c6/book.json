@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "백은의 잭",
+    "author": "히가시노 게이고",
+    "genre": "추리/미스터리 소설",
+    "tags": [
+      "스키장",
+      "협박범",
+      "히가시노 게이고",
+      "일본소설",
+      "서스펜스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "suspense",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 베스트셀러 작가로, 치밀한 트릭과 사회적 메시지를 담은 미스터리 소설로 유명하다. 《방과 후》로 데뷔한 이후 《비밀》, 《용의자 X의 헌신》, 《나미야 잡화점의 기적》 등 수많은 히트작을 남겼다.",
+    "oneLineSummary": "대형 스키장을 무대로 폭탄 테러를 예고하며 거액의 몸값을 요구하는 범인과 이에 맞서는 스키장 직원들의 숨막히는 추적극.",
+    "overallSummary": "어느 대형 스키장에 스키장을 폭파하겠다는 협박과 함께 거액의 금원을 요구하는 협박 사건이 발생한다. 범인은 불특정 다수의 안전을 인질 삼아 스키장 관계자들을 조종하려 들고, 스키장의 안전을 지키고 고객들을 구하기 위해 네즈와 구라타 등 스키장 패트롤과 직원들이 나선다. 제한된 공간인 설원과 스키장이라는 특수한 배경 속에서, 눈치 채지 못하게 범인의 요구를 수행하면서도 동시에 범인의 정체를 밝혀내기 위한 치열한 심리전과 추적이 펼쳐진다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "characters",
+      "items": [
+        {
+          "name": "네즈",
+          "role": "스키장 패트롤",
+          "description": "스키장에 대한 애정이 남다르며, 사건 발생 후 범인의 정체를 쫓고 해결하기 위해 적극적으로 나서는 인물."
+        },
+        {
+          "name": "구라타 레이지",
+          "role": "스키장 관리자",
+          "description": "협박 사건에 대응하며 현장을 지휘하고 스키장의 안전을 확보하기 위해 고군분투하는 인물."
+        }
+      ]
+    },
+    "setting": {
+      "internal": {
+        "time": "현대",
+        "places": [
+          "대형 스키장",
+          "설원"
+        ],
+        "socialContext": "스키 시즌의 대형 리조트와 겨울 스포츠 환경",
+        "historicalContext": "현대 일본 사회"
+      },
+      "external": {
+        "historicalContext": "2010년 일본 초판 발행",
+        "publicationContext": "히가시노 게이고의 스키장 시리즈 중 하나로 출간된 서스펜스 미스터리 소설"
+      }
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "plot_structure",
+        "title": "공간적 제약을 활용한 서스펜스",
+        "content": "넓고 하얀 설원과 스키장이라는 폐쇄적이면서도 광활한 공간을 배경으로, 눈에 띄지 않게 범인을 추적해야 하는 긴박함이 작품 전반에 몰입감을 더한다."
+      }
+    ]
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1j_yHPgxe1X8THZxH9RK0eJ7YFiwnb5EW",
+    "filename": "히가시노 게이고-백은의 잭 -- 히가시노 게이고(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:29.528Z",
+    "size": "583958",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1j_yHPgxe1X8THZxH9RK0eJ7YFiwnb5EW/view?usp=drivesdk",
+    "sourceSha256": "c0f5f93bd1af401b6b91f10f084094b29a7bdff533cecefd0b89269065390b1f",
+    "textSha256": "fdf8b528ee2c9c2d6e8ed57f1b99217b1ffcb64807212f49d5a79626fce2de92",
+    "changeKey": "c37300a668d5ff1aa3d2ba37c60c0609",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0ebf5b4e000b79edc1c6",
+    "workId": "0ebf5b4e000b79edc1c6",
+    "driveFileId": "1j_yHPgxe1X8THZxH9RK0eJ7YFiwnb5EW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 1.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 2,
+    "createdAt": "2026-09-16T11:28:06.869350+00:00",
+    "updatedAt": "2026-09-16T11:28:06.869389+00:00",
+    "generation": {
+      "source": "model_prior_knowledge",
+      "model": "gemini-3.5-flash-lite"
+    },
+    "edited": false,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "filename",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-16T11:28:06.869485+00:00"
+    }
+  }
+}
