@@ -27,9 +27,11 @@ function doPost(e) {
     if (body.route === 'queue-state') return handleQueueState_(body);
     if (body.route === 'queue-result') return handleQueueResult_(body);
     assertAuthorizedUser_(body);
-    if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_()});
+    if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_(), githubDispatch: githubDispatchStatus_()});
     if (body.route === 'upload-capabilities') return json_({ok: true, idempotentUploads: true, partBytes: 131072});
     if (body.route === 'update-api-key') return json_(updateApiKey_(body));
+    if (body.route === 'update-github-token') return json_(updateGitHubToken_(body));
+    if (body.route === 'retry-queue-dispatch') return json_({ok: true, dispatch: dispatchQueueWorkflow_()});
     if (body.route === 'update-metadata') return json_(updateMetadata_(body));
     if (body.route === 'upload-start') return json_(startPrivateUpload_(body));
     if (body.route === 'upload-part') return json_(savePrivateUploadPart_(body));
@@ -363,6 +365,44 @@ function geminiKeyStatus_() {
   return {configured: Boolean(key), masked: key ? '••••' + key.slice(-4) : '', updatedAt: properties.getProperty('GEMINI_KEY_UPDATED_AT') || ''};
 }
 
+function githubTokenLooksValid_(token) {
+  return /^(github_pat_|ghp_|gho_|ghu_|ghs_|ghr_)[A-Za-z0-9_]{20,300}$/.test(String(token || '').trim());
+}
+
+function githubDispatchStatus_() {
+  var properties = PropertiesService.getScriptProperties();
+  var token = String(properties.getProperty('GITHUB_TOKEN') || '').trim();
+  return {
+    configured: Boolean(token),
+    formatValid: githubTokenLooksValid_(token),
+    masked: token ? '••••' + token.slice(-4) : '',
+    updatedAt: properties.getProperty('GITHUB_TOKEN_UPDATED_AT') || '',
+    verifiedAt: properties.getProperty('GITHUB_TOKEN_VERIFIED_AT') || '',
+    lastCode: Number(properties.getProperty('GITHUB_DISPATCH_LAST_CODE') || 0),
+    lastReason: properties.getProperty('GITHUB_DISPATCH_LAST_REASON') || ''
+  };
+}
+
+function updateGitHubToken_(body) {
+  var token = String(body.githubToken || '').trim();
+  if (!githubTokenLooksValid_(token)) {
+    throw new Error('GitHub 토큰 형식이 올바르지 않습니다. 복사할 때 앞뒤 공백이나 URL이 함께 들어가지 않았는지 확인하세요.');
+  }
+  var owner = requiredProperty_('GITHUB_OWNER');
+  var repo = requiredProperty_('GITHUB_REPO');
+  var result = requestQueueWorkflow_(owner, repo, token);
+  if (!result.ok) throw new Error(githubDispatchFailureMessage_(result.code, result.reason));
+  var now = new Date().toISOString();
+  PropertiesService.getScriptProperties().setProperties({
+    GITHUB_TOKEN: token,
+    GITHUB_TOKEN_UPDATED_AT: now,
+    GITHUB_TOKEN_VERIFIED_AT: now,
+    GITHUB_DISPATCH_LAST_CODE: String(result.code),
+    GITHUB_DISPATCH_LAST_REASON: ''
+  });
+  return {ok: true, githubDispatch: githubDispatchStatus_(), dispatch: {requested: true, scheduledFallback: false}};
+}
+
 function updateMetadata_(body) {
   var driveFileId = String(body.driveFileId || '').trim();
   if (!/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('원본 파일 ID가 올바르지 않습니다.');
@@ -584,7 +624,17 @@ function dispatchQueueWorkflow_() {
   var repo = requiredProperty_('GITHUB_REPO');
   var properties = PropertiesService.getScriptProperties();
   var token = String(properties.getProperty('GITHUB_TOKEN') || '').trim();
-  if (!token || token.indexOf('/') >= 0) return queueScheduledFallback_('missing_or_invalid_token');
+  if (!githubTokenLooksValid_(token)) return queueScheduledFallback_('missing_or_invalid_token', 0);
+  var result = requestQueueWorkflow_(owner, repo, token);
+  if (!result.ok) return queueScheduledFallback_(result.reason, result.code);
+  properties.setProperties({GITHUB_TOKEN_VERIFIED_AT: new Date().toISOString(), GITHUB_DISPATCH_LAST_CODE: String(result.code), GITHUB_DISPATCH_LAST_REASON: ''});
+  properties.setProperty('LIVE_STATUS_JSON', JSON.stringify({
+    status: 'QUEUED', phase: 'QUEUE_UPLOAD', message: '비공개 업로드 대기열을 등록하고 즉시 자동 처리를 요청했습니다.', updatedAt: new Date().toISOString()
+  }));
+  return {requested: true, scheduledFallback: false};
+}
+
+function requestQueueWorkflow_(owner, repo, token) {
   var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/queue-worker.yml/dispatches';
   try {
     var response = UrlFetchApp.fetch(url, {
@@ -592,23 +642,35 @@ function dispatchQueueWorkflow_() {
       headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'}, muteHttpExceptions: true
     });
     var code = response.getResponseCode();
-    if (code !== 200 && code !== 204) return queueScheduledFallback_('github_http_' + code);
+    return {ok: code === 200 || code === 204, code: code, reason: code === 200 || code === 204 ? '' : 'github_http_' + code};
   } catch (error) {
-    return queueScheduledFallback_('github_request_unavailable');
+    return {ok: false, code: 0, reason: 'github_request_unavailable'};
   }
-  properties.setProperty('LIVE_STATUS_JSON', JSON.stringify({
-    status: 'QUEUED', phase: 'QUEUE_UPLOAD', message: '비공개 업로드 대기열을 등록하고 즉시 자동 처리를 요청했습니다.', updatedAt: new Date().toISOString()
-  }));
-  return {requested: true, scheduledFallback: false};
 }
 
-function queueScheduledFallback_(reason) {
-  PropertiesService.getScriptProperties().setProperty('LIVE_STATUS_JSON', JSON.stringify({
+function githubDispatchFailureMessage_(code, reason) {
+  if (reason === 'missing_or_invalid_token') return 'GitHub 즉시 실행 토큰이 없거나 형식이 잘못되었습니다.';
+  if (Number(code) === 401) return 'GitHub 인증이 거부되었습니다(HTTP 401). 만료되었거나 잘못된 토큰입니다.';
+  if (Number(code) === 403) return 'GitHub 실행 권한이 없습니다(HTTP 403). 이 저장소의 Actions 쓰기 권한이 필요합니다.';
+  if (Number(code) === 404) return 'GitHub 저장소 또는 queue-worker.yml을 찾지 못했습니다(HTTP 404). 저장소 접근 범위를 확인하세요.';
+  if (Number(code) === 422) return 'GitHub가 main 브랜치 실행 요청을 거부했습니다(HTTP 422).';
+  if (reason === 'github_request_unavailable') return 'GitHub에 연결할 수 없습니다. 잠시 후 다시 시도하세요.';
+  return 'GitHub 즉시 실행 요청이 실패했습니다' + (code ? '(HTTP ' + code + ')' : '') + '.';
+}
+
+function queueScheduledFallback_(reason, code) {
+  var properties = PropertiesService.getScriptProperties();
+  var detail = githubDispatchFailureMessage_(code, reason);
+  properties.setProperties({
+    GITHUB_DISPATCH_LAST_CODE: String(Number(code) || 0),
+    GITHUB_DISPATCH_LAST_REASON: String(reason || 'scheduled'),
+    LIVE_STATUS_JSON: JSON.stringify({
     status: 'QUEUED', phase: 'QUEUE_UPLOAD',
-    message: '비공개 업로드 대기열에 등록했습니다. GitHub 인증 없이 정기 자동 실행을 기다립니다(보통 20분 이내, GitHub 사정에 따라 지연될 수 있음).',
+    message: '업로드는 안전하게 보관됐지만 즉시 실행에 실패했습니다. ' + detail + ' 정기 자동 실행은 계속 대기합니다.',
     updatedAt: new Date().toISOString()
-  }));
-  return {requested: false, scheduledFallback: true, reason: String(reason || 'scheduled')};
+    })
+  });
+  return {requested: false, scheduledFallback: true, reason: String(reason || 'scheduled'), code: Number(code) || 0, message: detail};
 }
 
 function driveAdvancedError_(prefix, error) {

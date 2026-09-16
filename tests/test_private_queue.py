@@ -122,6 +122,22 @@ def test_queue_upload_survives_missing_or_rejected_github_token():
     assert "finish.dispatch?.scheduledFallback" in script
 
 
+def test_github_dispatch_token_is_verified_before_replacement_and_failures_are_visible():
+    root = Path(__file__).resolve().parents[1]
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    script = (root / "js" / "app.js").read_text(encoding="utf-8")
+    html = (root / "index.html").read_text(encoding="utf-8")
+    assert "function updateGitHubToken_(body)" in relay
+    assert relay.index("var result = requestQueueWorkflow_") < relay.index("GITHUB_TOKEN: token")
+    assert "githubDispatchFailureMessage_" in relay
+    assert "GITHUB_DISPATCH_LAST_REASON" in relay
+    assert 'id="save-github-token"' in html
+    assert 'id="retry-queue-dispatch"' in html
+    assert "dispatchFailureText" in script
+    assert "기존 값은 바꾸지 않았습니다" in script
+    assert "정기 자동 실행을 기다립니다(보통 20분 이내).`" not in script
+
+
 def test_private_management_storage_enables_drive_api_and_rejects_personal_email():
     root = Path(__file__).resolve().parents[1]
     manifest = json.loads((root / "apps-script" / "appsscript.json").read_text(encoding="utf-8"))
