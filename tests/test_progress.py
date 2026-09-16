@@ -46,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260916-persistence-delete1" in html
+    assert "js/app.js?v=20260916-indexeddb-state1" in html
 
 
 def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
@@ -217,6 +217,18 @@ def test_library_filters_and_detailed_summary_layout_persist_and_render_as_secti
     assert script.index("restoreDetailReaderSettings();restoreLibraryFilters();updateReaderControls()") < script.index('fetchJSON("data/catalog.json")')
     assert 'window.addEventListener("pageshow"' in script
     assert '["summaryShort","summaryLong","detailedSummary","summary","authorIntroduction"]' in script
+
+
+def test_large_edits_and_small_preferences_use_indexeddb_with_legacy_cleanup():
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    storage = (ROOT / "js" / "browser-state.js").read_text(encoding="utf-8")
+    assert 'import {loadBrowserValues,removeBrowserValue,writeBrowserValue}' in script
+    assert "await initializeBrowserValues()" in script
+    assert 'if(key===PENDING_CONTENT_EDITS_KEY)localStorage.removeItem(key)' in script
+    assert "await persistLargeBrowserValue(PENDING_CONTENT_EDITS_KEY" in script
+    assert 'indexedDB.open(DB_NAME,DB_VERSION)' in storage
+    assert 'createObjectStore(STORE_NAME,{keyPath:"key"})' in storage
+    assert "writeQueues" in storage
 
 
 def test_reader_restores_last_chunk_and_page_after_refresh():
