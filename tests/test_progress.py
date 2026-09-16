@@ -46,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260916-dynamic-editor2" in html
+    assert "js/app.js?v=20260916-dynamic-editor6" in html
 
 
 def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
@@ -246,7 +246,7 @@ def test_duplicate_dispatch_is_blocked_in_browser_relay_and_workflow_checkout_is
 def test_index_completion_explicitly_triggers_pages_and_email_can_be_retried():
     pages = (ROOT / ".github" / "workflows" / "deploy-pages.yml").read_text(encoding="utf-8")
     retry = (ROOT / ".github" / "workflows" / "retry-completion-email.yml").read_text(encoding="utf-8")
-    assert 'workflows: ["Index books", "Process private upload queue"]' in pages
+    assert 'workflows: ["Index books", "Process private upload queue", "Apply indexed content edit"]' in pages
     assert "types: [completed]" in pages
     assert "python -m indexer.notify" in retry
 
