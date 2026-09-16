@@ -6,6 +6,7 @@ import logging
 import os
 import re
 import sys
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -62,6 +63,13 @@ def _norm(value: Any) -> str:
     return re.sub(r"[\s\\/]+", "/", str(value or "").strip()).strip("/").casefold()
 
 
+def _compact_identity(value: Any) -> str:
+    """Normalize a title/author for conservative Drive filename matching."""
+
+    normalized = unicodedata.normalize("NFKC", str(value or "")).casefold()
+    return re.sub(r"[^0-9a-z가-힣]+", "", normalized)
+
+
 def _relative_folder(path: list[str], root_name: str) -> str:
     parts = [str(item).strip() for item in path if str(item).strip()]
     if parts and _norm(parts[0]) == _norm(root_name):
@@ -79,23 +87,67 @@ def match_entries(entries: list[dict[str, Any]], books: list[DriveBook], root_na
     matched: list[dict[str, Any]] = []
     for index, entry in enumerate(entries):
         entry_source = entry.get("source") if isinstance(entry.get("source"), dict) else {}
+        entry_system = entry.get("system") if isinstance(entry.get("system"), dict) else {}
+        identity = entry.get("identity") if isinstance(entry.get("identity"), dict) else {}
         filename = str(entry.get("filename") or entry_source.get("filename") or "").strip()
         relative = str(entry.get("relative_path") or entry.get("relativePath") or entry_source.get("relativePath") or "").strip()
         relative = relative[:-len(filename)].rstrip("/\\") if filename and _norm(relative).endswith(_norm(filename)) else relative
-        exact = by_path.get(_norm("/".join(filter(None, [relative, filename]))), []) if relative else []
-        candidates = exact or by_filename.get(_norm(filename), [])
+        supplied_id = str(entry.get("driveFileId") or entry_source.get("driveFileId") or entry_system.get("driveFileId") or "").strip()
+        candidates = [book for book in books if book.id == supplied_id] if supplied_id else []
+        match_basis = "drive_file_id" if candidates else ""
+        if not candidates and filename:
+            exact = by_path.get(_norm("/".join(filter(None, [relative, filename]))), []) if relative else []
+            candidates = exact or by_filename.get(_norm(filename), [])
+            match_basis = "relative_path" if exact else ("filename" if candidates else "")
+        if not candidates and identity.get("title"):
+            title = _compact_identity(identity.get("title"))
+            author = _compact_identity(identity.get("author"))
+            if len(title) >= 2:
+                title_candidates = [book for book in books if title in _compact_identity(Path(book.name).stem)]
+                author_candidates = [
+                    book for book in title_candidates
+                    if author and author in _compact_identity(" ".join([Path(book.name).stem, *book.folderPath]))
+                ]
+                candidates = author_candidates if len(author_candidates) == 1 else title_candidates
+                if candidates:
+                    match_basis = "title_author" if len(author_candidates) == 1 else "title"
         status = "MATCHED" if len(candidates) == 1 else ("NOT_FOUND" if not candidates else "AMBIGUOUS")
         selected = candidates[0] if len(candidates) == 1 else None
+        display_name = filename or " · ".join(filter(None, [str(identity.get("title") or "").strip(), str(identity.get("author") or "").strip()]))
         matched.append({
             "queueIndex": index,
-            "filename": filename,
+            "filename": display_name,
             "relativePath": relative,
             "status": status,
             "driveFileId": selected.id if selected else "",
             "candidateCount": len(candidates),
             "folderPath": selected.folderPath if selected else [],
+            "matchBasis": match_basis,
+            "reason": (
+                "작품명·작가명으로 Drive 원본을 자동 연결했습니다."
+                if status == "MATCHED" and match_basis in {"title", "title_author"}
+                else ("Drive에서 일치하는 원본 파일을 찾지 못했습니다." if status == "NOT_FOUND"
+                      else ("Drive에 같은 후보가 여러 개 있어 자동 확정하지 않았습니다." if status == "AMBIGUOUS" else ""))
+            ),
         })
     return matched
+
+
+def refresh_unresolved_matches(
+    current: list[dict[str, Any]], entries: list[dict[str, Any]], books: list[DriveBook], root_name: str
+) -> int:
+    """Re-evaluate old NOT_FOUND/AMBIGUOUS rows after matching logic or Drive contents change."""
+
+    fresh = match_entries(entries, books, root_name)
+    changed = 0
+    for old, new in zip(current, fresh):
+        if old.get("status") not in {"NOT_FOUND", "AMBIGUOUS"}:
+            continue
+        if old != new:
+            old.clear()
+            old.update(new)
+            changed += 1
+    return changed
 
 
 def _catalog_by_drive(root: Path) -> dict[str, dict[str, Any]]:
@@ -194,6 +246,10 @@ class QueueWorker:
             drive_books = list(self.source_drive.iter_books(root_id, True))
 
         queue_entries = state["entries"]
+        rematched = refresh_unresolved_matches(queue_entries, bundle.entries, drive_books, str(root_meta.get("name") or ""))
+        if rematched:
+            state.update({"entries": queue_entries, "updatedAt": _now(), "rematchedEntries": rematched})
+            self.private_drive.save_state(bundle, state)
         catalog = _catalog_by_drive(self.settings.root)
         repaired = reconcile_completed_entries(queue_entries, catalog, self.settings.root)
         if repaired:

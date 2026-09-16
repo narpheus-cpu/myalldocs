@@ -10,7 +10,7 @@ from indexer.content_edit_worker import apply_content_edit
 from indexer.prior_knowledge import prior_knowledge_prompt, valid_prior_result
 from indexer.private_queue import CanonicalUploadFormatError, parse_canonical_upload, parse_jsonl
 from indexer.queue_context import service_account_email
-from indexer.queue_worker import QueueWorker, _validate_public_content, match_entries, reconcile_completed_entries
+from indexer.queue_worker import QueueWorker, _validate_public_content, match_entries, reconcile_completed_entries, refresh_unresolved_matches
 
 
 def test_jsonl_is_parsed_in_memory_and_requires_txt_or_epub():
@@ -60,6 +60,37 @@ def test_drive_matching_prefers_relative_path_and_marks_ambiguous_names():
     assert matched[0]["status"] == "MATCHED"
     assert matched[0]["driveFileId"] == "a" * 12
     assert matched[1]["status"] == "AMBIGUOUS"
+
+
+def test_completed_json_matches_unique_drive_original_by_title_and_author():
+    books = [
+        DriveBook("a" * 12, "존 스칼지 - 노인의 전쟁.txt", "text/plain", folderPath=["book", "SF"]),
+        DriveBook("b" * 12, "다른 작품.txt", "text/plain", folderPath=["book", "소설"]),
+    ]
+    matched = match_entries([{"identity": {"title": "노인의 전쟁", "author": "존 스칼지"}}], books, "book")
+    assert matched[0]["status"] == "MATCHED"
+    assert matched[0]["driveFileId"] == "a" * 12
+    assert matched[0]["matchBasis"] == "title_author"
+    assert matched[0]["filename"] == "노인의 전쟁 · 존 스칼지"
+
+
+def test_completed_json_does_not_guess_when_title_matches_multiple_drive_files():
+    books = [
+        DriveBook("a" * 12, "노인의 전쟁.txt", "text/plain", folderPath=["book", "판본1"]),
+        DriveBook("b" * 12, "노인의 전쟁.txt", "text/plain", folderPath=["book", "판본2"]),
+    ]
+    matched = match_entries([{"identity": {"title": "노인의 전쟁", "author": "존 스칼지"}}], books, "book")
+    assert matched[0]["status"] == "AMBIGUOUS"
+    assert matched[0]["driveFileId"] == ""
+
+
+def test_review_queue_is_rematched_after_matching_logic_or_drive_changes():
+    books = [DriveBook("a" * 12, "존 스칼지_노인의 전쟁.txt", "text/plain", folderPath=["book", "SF"])]
+    entries = [{"identity": {"title": "노인의 전쟁", "author": "존 스칼지"}}]
+    current = [{"queueIndex": 0, "filename": "", "status": "NOT_FOUND", "driveFileId": ""}]
+    assert refresh_unresolved_matches(current, entries, books, "book") == 1
+    assert current[0]["status"] == "MATCHED"
+    assert current[0]["driveFileId"] == "a" * 12
 
 
 def test_prior_knowledge_prompt_keeps_sections_empty_and_forbids_web():
@@ -126,6 +157,13 @@ def test_upload_ui_is_separate_and_drive_tab_is_removed_from_navigation():
     assert 'data-nav="search"' not in html
     assert 'data-nav="library"' in html
     assert "upload-start" in script and "upload-part" in script and "upload-finish" in script
+
+
+def test_apps_script_requests_have_a_timeout_instead_of_hanging_forever():
+    root = Path(__file__).resolve().parents[1]
+    script = (root / "js" / "app.js").read_text(encoding="utf-8")
+    assert "setTimeout(()=>controller.abort(),30000)" in script
+    assert "Apps Script 응답 시간 초과" in script
 
 
 def test_private_upload_retries_transient_relay_failures_idempotently():
