@@ -7,7 +7,7 @@
   <meta name="description" content="Google Drive 원본과 연결된 개인 도서 지식베이스">
   <title>서재 지도 · Personal Book Knowledge Base</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=20260915-canonical-queue">
+  <link rel="stylesheet" href="assets/styles.css?v=20260916-source-link1">
 </head>
 <body>
   <header class="topbar">
@@ -94,7 +94,7 @@
         <div class="control-group"><span>글자 크기 조절</span><button id="font-smaller" type="button" aria-label="글자 작게">−</button><output id="font-size-value">17px</output><button id="font-larger" type="button" aria-label="글자 크게">＋</button></div>
         <div class="control-group"><span>줄간 조절</span><button id="line-tighter" type="button" aria-label="줄간 좁게">−</button><output id="line-height-value">1.8</output><button id="line-looser" type="button" aria-label="줄간 넓게">＋</button></div>
         <label class="evidence-toggle"><input id="toggle-evidence" type="checkbox"> 근거 구간 보기</label>
-        <div class="control-group chunk-control"><select id="chunk-select" aria-label="현재 원문 구간" hidden><option value="">선택</option></select><button id="open-chunk" type="button">원문 보기</button></div>
+        <div class="control-group chunk-control"><select id="chunk-select" aria-label="현재 원문 구간" hidden><option value="">선택</option></select><button id="open-chunk" type="button">원문 보기</button><button id="edit-source-link" type="button" hidden>원문 연결 수정</button></div>
       </div>
       <article id="detail-content" class="detail-content" aria-live="polite"></article>
     </section>
@@ -247,9 +247,19 @@
     <p id="metadata-message" class="message" aria-live="polite"></p>
     <div class="dialog-actions"><button id="save-metadata" class="primary" type="button">저장</button><button id="cancel-metadata" type="button">취소</button></div>
   </dialog>
+  <dialog id="source-link-dialog" class="editor-dialog source-link-dialog" aria-labelledby="source-link-dialog-title">
+    <div class="dialog-header"><div><p class="eyebrow">Google Drive 원문</p><h2 id="source-link-dialog-title">원문 연결 수정</h2></div><button id="close-source-link" class="icon-button" type="button" aria-label="닫기">×</button></div>
+    <div class="source-link-body">
+      <dl class="source-link-summary"><div><dt>현재 연결</dt><dd id="current-source-link">확인 중</dd></div><div><dt>새 연결</dt><dd id="selected-source-link">선택 전</dd></div></dl>
+      <p>인덱싱 내용과 수동 편집값은 그대로 유지됩니다. TXT 또는 EPUB를 다시 선택하거나 원문 없음으로 바꿀 수 있습니다.</p>
+      <div class="button-row"><button id="choose-source-file" class="primary" type="button">Google Drive에서 원문 선택</button><button id="choose-no-source" type="button">원문 없음</button></div>
+      <p id="source-link-message" class="message" aria-live="polite"></p>
+    </div>
+    <div class="dialog-actions"><button id="save-source-link" class="primary" type="button">연결 저장</button><button id="cancel-source-link" type="button">취소</button></div>
+  </dialog>
   <script src="config/public-config.js?v=20260916-relay-v8"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260916-canonical-match3"></script>
+  <script type="module" src="js/app.js?v=20260916-source-link1"></script>
 </body>
 </html>

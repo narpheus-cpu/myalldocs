@@ -104,7 +104,7 @@ class PrivateQueueDrive:
 
     def load_bundle(self, manifest_id: str) -> QueueBundle:
         manifest = self.manifest(manifest_id)
-        if manifest.get("schemaVersion") != 1 or manifest.get("kind") not in {"catalog-jsonl", "canonical-json", "content-edit"}:
+        if manifest.get("schemaVersion") != 1 or manifest.get("kind") not in {"catalog-jsonl", "canonical-json", "content-edit", "source-link"}:
             raise ValueError("지원하지 않는 비공개 대기열 형식입니다.")
         parts = manifest.get("parts")
         if not isinstance(parts, list) or not parts:
@@ -112,8 +112,9 @@ class PrivateQueueDrive:
         payload = b"".join(self.download(str(item["fileId"])) for item in sorted(parts, key=lambda item: int(item.get("index", 0))))
         if manifest["kind"] == "catalog-jsonl":
             entries = parse_jsonl(payload)
-        elif manifest["kind"] == "content-edit":
-            entries = [_object(payload, "인덱싱 내용 편집 파일")]
+        elif manifest["kind"] in {"content-edit", "source-link"}:
+            label = "인덱싱 내용 편집 파일" if manifest["kind"] == "content-edit" else "원문 연결 수정 파일"
+            entries = [_object(payload, label)]
         else:
             entries = parse_canonical_upload(payload)
         state_file_id = str(manifest.get("stateFileId") or "")

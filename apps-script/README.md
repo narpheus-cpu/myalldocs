@@ -13,7 +13,7 @@ Google의 보안 정책 때문에 **새 Apps Script 만들기, 권한 승인, �
 7. 함수 선택에서 `setupPrivateStorage`를 골라 **실행**하고, 권한 확인 화면에서 Drive 원본 읽기, 이 앱이 만든 비공개 관리 파일 쓰기, GitHub 요청, 완료 메일 발송 권한을 승인합니다. 실행 완료가 표시되면 `서재지도_비공개_관리` 폴더 생성과 서비스 계정 공유가 확인된 것입니다.
 8. 마지막 `/exec` 주소를 복사해 루트 README 7장의 두 위치에 넣습니다.
 
-설정·배포 순서는 루트 [README.md](../README.md)의 7장을 따르세요. 이 폴더의 `Code.gs`와 `appsscript.json`에는 실제 token/secret을 넣지 않습니다. 모든 민감값은 Apps Script의 Script Properties에만 저장합니다. `Code.gs`를 갱신한 뒤에는 반드시 **배포 관리 → 수정 → 새 버전 → 배포**를 눌러야 JSONL 업로드·비공개 대기열·API Key 변경·실시간 모니터가 실제 `/exec` URL에 적용됩니다.
+설정·배포 순서는 루트 [README.md](../README.md)의 7장을 따르세요. 이 폴더의 `Code.gs`와 `appsscript.json`에는 실제 token/secret을 넣지 않습니다. 모든 민감값은 Apps Script의 Script Properties에만 저장합니다. `Code.gs`를 갱신한 뒤에는 반드시 **배포 관리 → 수정 → 새 버전 → 배포**를 눌러야 JSONL 업로드·비공개 대기열·API Key 변경·원문 연결 수정·실시간 모니터가 실제 `/exec` URL에 적용됩니다.
 
 relay는 세 가지 방어선을 둡니다.
 

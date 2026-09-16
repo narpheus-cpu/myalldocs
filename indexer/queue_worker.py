@@ -7,6 +7,7 @@ import os
 import re
 import sys
 import unicodedata
+from difflib import SequenceMatcher
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -77,6 +78,42 @@ def _relative_folder(path: list[str], root_name: str) -> str:
     return "/".join(parts)
 
 
+def _best_effort_candidate(
+    books: list[DriveBook], title: str, author: str, filename: str, root_name: str
+) -> tuple[DriveBook | None, float, int]:
+    """Pick one stable best candidate so completed uploads do not stop on ties.
+
+    The score is only a routing hint.  It is deliberately recorded for later
+    human correction and never treated as proof that the selected file is the
+    same edition.
+    """
+
+    if not books:
+        return None, 0.0, 0
+    compact_filename = _compact_identity(Path(filename).stem) if filename else ""
+    ranked: list[tuple[float, str, DriveBook]] = []
+    for book in books:
+        stem = _compact_identity(Path(book.name).stem)
+        segment = _compact_identity(re.split(r"[_｜|]", Path(book.name).stem)[-1])
+        combined = _compact_identity(" ".join([Path(book.name).stem, *book.folderPath]))
+        title_ratio = max(
+            SequenceMatcher(None, title, segment).ratio() if title else 0.0,
+            (SequenceMatcher(None, title, stem).ratio() * 0.92) if title else 0.0,
+            1.0 if title and title in segment else 0.0,
+        )
+        author_ratio = 0.0
+        if author:
+            author_ratio = 1.0 if author in combined else SequenceMatcher(None, author, stem).ratio() * 0.55
+        filename_ratio = SequenceMatcher(None, compact_filename, stem).ratio() if compact_filename else 0.0
+        score = max(title_ratio * 0.82 + author_ratio * 0.18, filename_ratio)
+        stable_key = _norm("/".join([_relative_folder(book.folderPath, root_name), book.name, book.id]))
+        ranked.append((score, stable_key, book))
+    ranked.sort(key=lambda item: (-item[0], item[1]))
+    best_score = ranked[0][0]
+    tied = sum(1 for score, _, _ in ranked if abs(score - best_score) < 0.000001)
+    return ranked[0][2], best_score, tied
+
+
 def match_entries(entries: list[dict[str, Any]], books: list[DriveBook], root_name: str) -> list[dict[str, Any]]:
     by_filename: dict[str, list[DriveBook]] = {}
     by_path: dict[str, list[DriveBook]] = {}
@@ -122,7 +159,20 @@ def match_entries(entries: list[dict[str, Any]], books: list[DriveBook], root_na
                     candidates = author_candidates if len(author_candidates) == 1 else title_candidates
                     if candidates:
                         match_basis = "title_author" if len(author_candidates) == 1 else "title"
-        status = "MATCHED" if len(candidates) == 1 else ("NOT_FOUND" if not candidates else "AMBIGUOUS")
+        candidate_count = len(candidates)
+        review_recommended = False
+        match_score = 1.0 if len(candidates) == 1 else 0.0
+        if len(candidates) != 1:
+            pool = candidates or books
+            title = _compact_identity(identity.get("title"))
+            author = _compact_identity(identity.get("author"))
+            selected, match_score, tied = _best_effort_candidate(pool, title, author, filename, root_name)
+            if selected:
+                candidates = [selected]
+                match_basis = "best_effort"
+                review_recommended = True
+                candidate_count = max(candidate_count, len(pool))
+        status = "MATCHED" if len(candidates) == 1 else "NOT_FOUND"
         selected = candidates[0] if len(candidates) == 1 else None
         display_name = filename or " · ".join(filter(None, [str(identity.get("title") or "").strip(), str(identity.get("author") or "").strip()]))
         matched.append({
@@ -131,10 +181,15 @@ def match_entries(entries: list[dict[str, Any]], books: list[DriveBook], root_na
             "relativePath": relative,
             "status": status,
             "driveFileId": selected.id if selected else "",
-            "candidateCount": len(candidates),
+            "candidateCount": candidate_count,
             "folderPath": selected.folderPath if selected else [],
             "matchBasis": match_basis,
+            "matchScore": round(match_score, 4),
+            "sourceReviewRecommended": review_recommended,
             "reason": (
+                "후보가 여러 개여서 가장 가능성 높은 원본을 자동 연결했습니다. 필요하면 도서 화면에서 원문 연결을 수정하세요."
+                if status == "MATCHED" and match_basis == "best_effort"
+                else
                 "작품명·작가명으로 Drive 원본을 자동 연결했습니다."
                 if status == "MATCHED" and match_basis in {"title", "title_author", "title_segment"}
                 else ("Drive에서 일치하는 원본 파일을 찾지 못했습니다." if status == "NOT_FOUND"
@@ -241,6 +296,8 @@ class QueueWorker:
         bundle = self.private_drive.load_bundle(manifest_id)
         if bundle.manifest.get("kind") == "content-edit":
             return self._apply_content_edit(bundle)
+        if bundle.manifest.get("kind") == "source-link":
+            return self._apply_source_link(bundle)
         root_id = str(bundle.manifest.get("sourceRootFolderId") or os.getenv("DRIVE_ROOT_FOLDER_ID") or "")
         if not root_id:
             raise ValueError("Drive 원본 루트 설정이 없습니다.")
@@ -327,6 +384,13 @@ class QueueWorker:
                         continue
                     item["status"] = "INDEXING"
                     canonical = self._generated(result, source, source_hash, normalized_text_hash)
+                canonical.setdefault("system", {})["sourceConnection"] = {
+                    "status": "auto",
+                    "reviewRecommended": bool(item.get("sourceReviewRecommended")),
+                    "matchBasis": str(item.get("matchBasis") or ""),
+                    "matchScore": float(item.get("matchScore") or 0),
+                    "updatedAt": _now(),
+                }
                 self.storage.save_canonical(canonical)
                 item.update({"status": "COMPLETE", "bookId": canonical["system"]["libraryEntryId"], "sourceSha256": source_hash, "textSha256": normalized_text_hash})
                 counts["complete"] += 1
@@ -361,9 +425,12 @@ class QueueWorker:
 
     def _apply_content_edit(self, bundle: QueueBundle) -> dict[str, Any]:
         entry = bundle.entries[0] if bundle.entries else {}
+        book_id = str(entry.get("bookId") or "").strip()
         drive_file_id = str(entry.get("driveFileId") or "").strip()
         content = entry.get("content")
-        if not re.fullmatch(r"[A-Za-z0-9_-]{10,200}", drive_file_id):
+        if not re.fullmatch(r"[A-Za-z0-9_-]{8,100}", book_id):
+            raise ValueError("도서 식별번호가 올바르지 않습니다.")
+        if drive_file_id and not re.fullmatch(r"[A-Za-z0-9_-]{10,200}", drive_file_id):
             raise ValueError("원본 파일 ID가 올바르지 않습니다.")
         if not isinstance(content, dict):
             raise ValueError("저장할 인덱싱 내용이 올바르지 않습니다.")
@@ -374,14 +441,21 @@ class QueueWorker:
         except (OSError, json.JSONDecodeError) as exc:
             raise ValueError("기존 인덱싱 내용 수정값을 읽지 못했습니다.") from exc
         document.setdefault("schemaVersion", 1)
-        document.setdefault("description", "driveFileId별 인덱싱 내용 수동 수정값. 자동 재인덱싱과 별도로 보존됩니다.")
+        document.setdefault("description", "도서별 인덱싱 내용 수동 수정값. 원문 연결을 바꿔도 보존됩니다.")
+        document.setdefault("byDriveFileId", {})
+        document.setdefault("byBookId", {})
         if not isinstance(document.get("byDriveFileId"), dict):
             raise ValueError("기존 인덱싱 내용 수정값의 구조가 올바르지 않습니다.")
-        document["byDriveFileId"][drive_file_id] = {"content": content, "updatedAt": _now()}
+        if not isinstance(document.get("byBookId"), dict):
+            raise ValueError("기존 도서별 수정값의 구조가 올바르지 않습니다.")
+        override = {"content": content, "updatedAt": _now()}
+        document["byBookId"][book_id] = override
+        if drive_file_id:
+            document["byDriveFileId"][drive_file_id] = override
         atomic_write_json(path, document)
         state = {
             "schemaVersion": 1, "manifestId": bundle.manifest_id, "kind": "content-edit",
-            "entries": [{"filename": bundle.manifest.get("originalFilename", "content-edit.json"), "status": "COMPLETE", "driveFileId": drive_file_id}],
+            "entries": [{"filename": bundle.manifest.get("originalFilename", "content-edit.json"), "status": "COMPLETE", "driveFileId": drive_file_id, "bookId": book_id}],
             "createdAt": bundle.manifest.get("createdAt") or _now(), "updatedAt": _now(), "lastRunStatus": "COMPLETE",
         }
         self.private_drive.save_state(bundle, state)
@@ -390,6 +464,24 @@ class QueueWorker:
             "totalFiles": 1, "complete": 1, "skipped": 0, "failed": 0, "metadataReview": 0,
             "allTargetsComplete": True, "startedAt": state["createdAt"], "finishedAt": _now(),
         }
+        self._emit("COMPLETE", self.status["message"], True)
+        return self.status
+
+    def _apply_source_link(self, bundle: QueueBundle) -> dict[str, Any]:
+        from indexer.source_link_worker import apply_source_link
+
+        summary = apply_source_link(self.settings.root, bundle)
+        state = {
+            "schemaVersion": 1, "manifestId": bundle.manifest_id, "kind": "source-link",
+            "entries": [{
+                "filename": bundle.manifest.get("originalFilename", "source-link.json"),
+                "status": "COMPLETE", "driveFileId": summary["driveFileId"], "bookId": summary["bookId"],
+            }],
+            "createdAt": bundle.manifest.get("createdAt") or summary["finishedAt"],
+            "updatedAt": summary["finishedAt"], "lastRunStatus": "COMPLETE",
+        }
+        self.private_drive.save_state(bundle, state)
+        self.status = {**summary, "startedAt": state["createdAt"]}
         self._emit("COMPLETE", self.status["message"], True)
         return self.status
 

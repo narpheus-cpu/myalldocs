@@ -184,6 +184,20 @@ def test_detail_tabs_follow_canonical_json_and_all_indexed_content_is_editable()
     assert (ROOT / "data" / "content-overrides.json").exists()
 
 
+def test_source_link_can_be_corrected_or_removed_without_reindexing():
+    html = (ROOT / "index.html").read_text(encoding="utf-8")
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    relay = (ROOT / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    workflow = (ROOT / ".github" / "workflows" / "apply-source-link.yml").read_text(encoding="utf-8")
+    for phrase in ('id="edit-source-link"', 'id="source-link-dialog"', 'id="choose-source-file"', 'id="choose-no-source"', 'id="save-source-link"'):
+        assert phrase in html
+    for phrase in ('openPicker("source-link")', 'route:"update-source-link"', "waitForSourceLink", 'sourceMode:pending.mode'):
+        assert phrase in script
+    for phrase in ("body.route === 'update-source-link'", "handleSourceLinkUpdate_", "apply-source-link.yml", "kind: 'source-link'"):
+        assert phrase in relay
+    assert "python -m indexer.source_link_worker" in workflow
+
+
 def test_reader_has_whole_source_persistent_geometry_and_collapsible_controls():
     html = (ROOT / "index.html").read_text(encoding="utf-8")
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")

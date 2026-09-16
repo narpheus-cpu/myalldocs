@@ -11,6 +11,8 @@ from indexer.prior_knowledge import prior_knowledge_prompt, valid_prior_result
 from indexer.private_queue import CanonicalUploadFormatError, parse_canonical_upload, parse_jsonl
 from indexer.queue_context import service_account_email
 from indexer.queue_worker import QueueWorker, _validate_public_content, match_entries, reconcile_completed_entries, refresh_unresolved_matches
+from indexer.source_link_worker import apply_source_link
+from indexer.storage import RepositoryStorage
 
 
 def test_jsonl_is_parsed_in_memory_and_requires_txt_or_epub():
@@ -52,7 +54,7 @@ def test_private_queue_reads_shared_files_but_delegates_state_writes():
     assert '"https://www.googleapis.com/auth/drive"]' not in source
 
 
-def test_drive_matching_prefers_relative_path_and_marks_ambiguous_names():
+def test_drive_matching_prefers_relative_path_and_auto_selects_duplicate_names():
     books = [
         DriveBook("a" * 12, "같은책.txt", "text/plain", folderPath=["book", "소설"]),
         DriveBook("b" * 12, "같은책.txt", "text/plain", folderPath=["book", "철학"]),
@@ -60,7 +62,9 @@ def test_drive_matching_prefers_relative_path_and_marks_ambiguous_names():
     matched = match_entries([{"filename": "같은책.txt", "relative_path": "소설"}, {"filename": "같은책.txt"}], books, "book")
     assert matched[0]["status"] == "MATCHED"
     assert matched[0]["driveFileId"] == "a" * 12
-    assert matched[1]["status"] == "AMBIGUOUS"
+    assert matched[1]["status"] == "MATCHED"
+    assert matched[1]["driveFileId"] == "a" * 12
+    assert matched[1]["sourceReviewRecommended"] is True
 
 
 def test_completed_json_matches_unique_drive_original_by_title_and_author():
@@ -75,14 +79,17 @@ def test_completed_json_matches_unique_drive_original_by_title_and_author():
     assert matched[0]["filename"] == "노인의 전쟁 · 존 스칼지"
 
 
-def test_completed_json_does_not_guess_when_title_matches_multiple_drive_files():
+def test_completed_json_chooses_one_stable_candidate_and_recommends_review():
     books = [
         DriveBook("a" * 12, "노인의 전쟁.txt", "text/plain", folderPath=["book", "판본1"]),
         DriveBook("b" * 12, "노인의 전쟁.txt", "text/plain", folderPath=["book", "판본2"]),
     ]
     matched = match_entries([{"identity": {"title": "노인의 전쟁", "author": "존 스칼지"}}], books, "book")
-    assert matched[0]["status"] == "AMBIGUOUS"
-    assert matched[0]["driveFileId"] == ""
+    assert matched[0]["status"] == "MATCHED"
+    assert matched[0]["driveFileId"] == "a" * 12
+    assert matched[0]["matchBasis"] == "best_effort"
+    assert matched[0]["sourceReviewRecommended"] is True
+    assert "원문 연결을 수정" in matched[0]["reason"]
 
 
 def test_series_name_does_not_make_every_volume_a_title_match():
@@ -104,6 +111,57 @@ def test_review_queue_is_rematched_after_matching_logic_or_drive_changes():
     assert refresh_unresolved_matches(current, entries, books, "book") == 1
     assert current[0]["status"] == "MATCHED"
     assert current[0]["driveFileId"] == "a" * 12
+
+
+def test_source_link_change_keeps_book_id_and_moves_manual_overrides(tmp_path):
+    old_id, new_id, book_id = "old-drive-file-123", "new-drive-file-456", "library-book-12345"
+    storage = RepositoryStorage(tmp_path)
+    storage.save_canonical({
+        "identity": {"title": "책", "author": "작가", "workProfile": {"primary": "fiction"}},
+        "content": {"oneLineSummary": "한 줄", "overallSummary": "전체"},
+        "source": {"driveFileId": old_id, "filename": "옛책.txt", "format": "txt"},
+        "system": {"libraryEntryId": book_id, "driveFileId": old_id, "driveMatchStatus": "MATCHED", "indexStatus": "COMPLETE"},
+    })
+    for filename, value in (
+        ("metadata-overrides.json", {"title": "고친 제목"}),
+        ("content-overrides.json", {"content": {"overallSummary": "고친 내용"}}),
+    ):
+        path = tmp_path / "data" / filename
+        path.write_text(json.dumps({"byDriveFileId": {old_id: value}}, ensure_ascii=False), encoding="utf-8")
+    bundle = SimpleNamespace(
+        manifest={"kind": "source-link"},
+        entries=[{"bookId": book_id, "sourceMode": "drive", "source": {
+            "driveFileId": new_id, "filename": "새책.txt", "mimeType": "text/plain", "webViewLink": "https://drive.example/new",
+        }}],
+    )
+    result = apply_source_link(tmp_path, bundle)
+    saved = json.loads((tmp_path / "data" / "books" / book_id / "book.json").read_text(encoding="utf-8"))
+    assert result["status"] == "COMPLETE"
+    assert saved["system"]["libraryEntryId"] == book_id
+    assert saved["system"]["driveMatchStatus"] == "MANUAL_MATCHED"
+    assert saved["source"]["driveFileId"] == new_id
+    for filename in ("metadata-overrides.json", "content-overrides.json"):
+        document = json.loads((tmp_path / "data" / filename).read_text(encoding="utf-8"))
+        assert book_id in document["byBookId"]
+        assert new_id in document["byDriveFileId"]
+        assert old_id not in document["byDriveFileId"]
+
+
+def test_source_link_can_be_explicitly_set_to_no_source(tmp_path):
+    drive_id, book_id = "drive-file-12345", "library-book-67890"
+    RepositoryStorage(tmp_path).save_canonical({
+        "identity": {"title": "책", "author": "작가", "workProfile": {"primary": "fiction"}},
+        "content": {"oneLineSummary": "한 줄", "overallSummary": "전체"},
+        "source": {"driveFileId": drive_id, "filename": "책.txt", "format": "txt"},
+        "system": {"libraryEntryId": book_id, "driveFileId": drive_id, "driveMatchStatus": "MATCHED", "indexStatus": "COMPLETE"},
+    })
+    bundle = SimpleNamespace(manifest={"kind": "source-link"}, entries=[{"bookId": book_id, "sourceMode": "none", "source": {}}])
+    apply_source_link(tmp_path, bundle)
+    saved = json.loads((tmp_path / "data" / "books" / book_id / "book.json").read_text(encoding="utf-8"))
+    assert saved["system"]["driveMatchStatus"] == "NO_SOURCE"
+    assert saved["system"]["libraryEntryId"] == book_id
+    assert saved["source"]["provider"] == "none"
+    assert saved["source"]["driveFileId"] == ""
 
 
 def test_prior_knowledge_prompt_keeps_sections_empty_and_forbids_web():
@@ -355,9 +413,10 @@ def test_lightweight_content_edit_worker_updates_only_public_override(tmp_path):
     (data / "content-overrides.json").write_text('{"schemaVersion":1,"byDriveFileId":{}}', encoding="utf-8")
     bundle = SimpleNamespace(
         manifest={"kind": "content-edit"},
-        entries=[{"driveFileId": "drive-file-123", "content": {"overallSummary": "고친 내용"}}],
+        entries=[{"bookId": "library-book-123", "driveFileId": "drive-file-123", "content": {"overallSummary": "고친 내용"}}],
     )
     result = apply_content_edit(tmp_path, bundle)
     saved = json.loads((data / "content-overrides.json").read_text(encoding="utf-8"))
     assert result["status"] == "COMPLETE"
     assert saved["byDriveFileId"]["drive-file-123"]["content"]["overallSummary"] == "고친 내용"
+    assert saved["byBookId"]["library-book-123"]["content"]["overallSummary"] == "고친 내용"

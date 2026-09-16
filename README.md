@@ -105,7 +105,9 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 
 ### 완성 인덱싱 JSON
 
-형식은 [canonical-book.schema.json](config/canonical-book.schema.json)을 따릅니다. 한 권짜리 JSON 객체, 여러 권을 담은 JSON 객체 배열, 또는 객체를 한 줄에 하나씩 적은 JSONL 내용을 `.json` 파일로 업로드할 수 있습니다. `identity.title`, `identity.author`, `identity.genre`, `identity.tags`, `identity.workProfile`, `content.oneLineSummary`, `content.overallSummary`가 필요합니다. 업로드 후 실제 Drive TXT/EPUB 하나와 일치해야 공개 목록에 들어가며, `NOT_FOUND`나 `AMBIGUOUS`는 비공개 관리 목록에만 남습니다. 파일 문법이 잘못된 경우 GitHub 실행 전체를 `RUN-FAILED`로 끝내지 않고, 대기열을 `NEEDS_USER_REVIEW`로 옮겨 정확한 행·열 오류를 표시합니다.
+형식은 [canonical-book.schema.json](config/canonical-book.schema.json)을 따릅니다. 한 권짜리 JSON 객체, 여러 권을 담은 JSON 객체 배열, 또는 객체를 한 줄에 하나씩 적은 JSONL 내용을 `.json` 파일로 업로드할 수 있습니다. `identity.title`, `identity.author`, `identity.genre`, `identity.tags`, `identity.workProfile`, `content.oneLineSummary`, `content.overallSummary`가 필요합니다. 업로드 후 제목·작가·파일명·폴더명을 비교해 가장 가능성 높은 Drive TXT/EPUB 하나를 자동 연결합니다. 후보가 여러 개여도 업로드를 멈추지 않고 일정한 정렬 규칙으로 하나를 선택한 뒤 `원문 자동 연결 · 검토 권장`으로 표시합니다. 파일 문법이 잘못됐거나 Drive에 대상 TXT/EPUB가 하나도 없을 때만 사용자 확인 상태로 남습니다.
+
+각 도서의 상세 화면에는 원문 보기 버튼 옆에 **원문 연결 수정**이 있습니다. 여기서 다른 TXT/EPUB를 직접 선택하거나 **원문 없음**으로 바꿀 수 있습니다. 원문 연결을 바꿔도 도서 주소, 완성된 분석, 작품 정보 수정값, 인덱싱 내용 편집값은 유지됩니다. 자동 연결은 편의를 위한 추정이며, 수동 선택값이 항상 우선합니다.
 
 완료된 **요약·분석 결과는 Google Drive가 아니라 GitHub 저장소**에 저장됩니다.
 
@@ -272,7 +274,7 @@ Variables 탭에서 추가합니다.
 
 Apps Script는 Gemini 분석을 하지 않습니다. 로그인한 본인의 폴더 선택 요청을 GitHub Actions로 전달하고, 완전 완료 callback에만 Gmail을 보냅니다.
 
-> 기존 Apps Script를 이미 배포한 사용자는 `apps-script/Code.gs`를 다시 붙여넣고 **배포 → 배포 관리 → 수정 → 새 버전 → 배포**를 한 번 수행해야 작품 정보·태그 편집, 빠른 인덱싱 내용 저장, 선택 도서 삭제, 현재 작업 폴더 복원, 사전 단계 실패 감지가 활성화됩니다. 기존 `/exec` 주소는 그대로 사용합니다.
+> 기존 Apps Script를 이미 배포한 사용자는 `apps-script/Code.gs`를 다시 붙여넣고 **배포 → 배포 관리 → 수정 → 새 버전 → 배포**를 한 번 수행해야 작품 정보·태그 편집, 빠른 인덱싱 내용 저장, **원문 연결 수정·원문 없음**, 선택 도서 삭제, 현재 작업 폴더 복원, 사전 단계 실패 감지가 활성화됩니다. 기존 `/exec` 주소는 그대로 사용합니다.
 
 1. [script.google.com](https://script.google.com/)에서 새 프로젝트를 만듭니다.
 2. `apps-script/Code.gs` 내용을 기본 `Code.gs`에 붙여 넣습니다.

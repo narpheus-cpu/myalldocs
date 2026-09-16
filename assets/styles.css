@@ -114,6 +114,8 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .detail-actions { display: flex; align-self: end; align-items: center; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
 .detail-actions a, .detail-actions button { padding: 5px 8px; border: 1px solid #000; background: #fff; color: #000; font-size: 11px; line-height: 1.2; text-decoration: none; cursor: pointer; }
 .detail-actions a:hover, .detail-actions button:hover { text-decoration: underline; }
+.source-connection-badge { display: inline-block; margin-left: 7px; padding: 2px 6px; border: 1px solid #000; font-size: 10px; line-height: 1.2; }
+.source-connection-badge.review { border-style: dashed; font-weight: 700; }
 .detail-content { --reader-font-size: 17px; --reader-line-height: 1.8; max-width: 780px; padding: 18px 0 0; background: #fff; font-size: var(--reader-font-size); line-height: var(--reader-line-height); }
 .detail-content h2 { margin: 2.4em 0 .45em; padding-top: .5em; border-top: 1px solid #000; font-size: 1.32em; line-height: 1.4; }
 .detail-content h2:first-child { margin-top: .5em; border-top: 0; }
@@ -257,6 +259,12 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .editor-dialog { width: min(660px, calc(100% - 28px)); max-height: 88vh; margin: auto; padding: 0; overflow: auto; border: 2px solid #000; background: #fff; }
 .editor-dialog::backdrop { background: rgba(255, 255, 255, .94); }
 .dialog-note { margin: 0; padding: 14px 22px; line-height: 1.6; }
+.source-link-body { padding: 18px 22px 4px; }
+.source-link-body > p { line-height: 1.65; }
+.source-link-summary { margin: 0 0 18px; border-top: 1px solid #000; }
+.source-link-summary > div { display: grid; grid-template-columns: 90px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px solid #ddd; }
+.source-link-summary dt { font-weight: 700; }
+.source-link-summary dd { margin: 0; overflow-wrap: anywhere; }
 .format-list { margin: 0 22px; padding: 0; border-top: 1px solid #000; list-style: none; }
 .format-list li { display: grid; grid-template-columns: 1fr auto; align-items: center; min-height: 48px; border-bottom: 1px solid #000; background: #fff; }
 .format-list li.selected .format-name-button { font-weight: 800; text-decoration: underline; text-underline-offset: 4px; }

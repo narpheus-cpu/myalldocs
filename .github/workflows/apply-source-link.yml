@@ -1,0 +1,53 @@
+name: Apply source link change
+
+on:
+  workflow_dispatch:
+    inputs:
+      manifest_id:
+        description: "Private Drive source-link manifest ID"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: book-indexer
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PRIVATE_QUEUE_MANIFEST_ID: ${{ inputs.manifest_id }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      APPS_SCRIPT_CALLBACK_URL: ${{ secrets.APPS_SCRIPT_CALLBACK_URL }}
+      APPS_SCRIPT_CALLBACK_SECRET: ${{ secrets.APPS_SCRIPT_CALLBACK_SECRET }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Install only the Drive reader needed for this edit
+        run: python -m pip install "google-api-python-client>=2.150" "google-auth>=2.35"
+      - name: Run project tests before changing the source link
+        run: python -m pytest -q
+      - name: Apply the private source link change
+        run: python -m indexer.source_link_worker
+      - name: Commit the source link change
+        shell: bash
+        run: |
+          git config user.name "book-indexer[bot]"
+          git config user.email "book-indexer[bot]@users.noreply.github.com"
+          git add data/books data/catalog.json data/search-index.json data/job-status.json data/metadata-overrides.json data/content-overrides.json
+          if git diff --cached --quiet; then
+            echo "No source link changed."
+          else
+            git commit -m "chore(source): update book original link"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi

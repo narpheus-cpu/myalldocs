@@ -34,6 +34,7 @@ function doPost(e) {
     if (body.route === 'retry-queue-dispatch') return json_({ok: true, dispatch: dispatchQueueWorkflow_()});
     if (body.route === 'update-metadata') return json_(updateMetadata_(body));
     if (body.route === 'update-book-content') return json_(handleBookContentUpdate_(body));
+    if (body.route === 'update-source-link') return json_(handleSourceLinkUpdate_(body));
     if (body.route === 'delete-books') return json_(deleteBooks_(body));
     if (body.route === 'upload-start') return json_(startPrivateUpload_(body));
     if (body.route === 'upload-part') return json_(savePrivateUploadPart_(body));
@@ -61,7 +62,7 @@ function startPrivateUpload_(body) {
     var previous = properties.getProperty('UPLOAD_REQUEST_' + requestId);
     if (previous) return JSON.parse(previous);
     var kind = String(body.kind || '');
-    if (['catalog-jsonl', 'canonical-json', 'content-edit'].indexOf(kind) < 0) throw new Error('지원하지 않는 업로드 종류입니다.');
+    if (['catalog-jsonl', 'canonical-json', 'content-edit', 'source-link'].indexOf(kind) < 0) throw new Error('지원하지 않는 업로드 종류입니다.');
     var filename = String(body.filename || '').trim().slice(0, 200);
     var size = Math.max(0, Number(body.size) || 0);
     var partCount = Math.max(1, Number(body.partCount) || 0);
@@ -69,7 +70,7 @@ function startPrivateUpload_(body) {
     if (size < 1 || size > 104857600) throw new Error('업로드 파일은 100MB 이하여야 합니다.');
     if (partCount > 1000) throw new Error('업로드 조각이 너무 많습니다.');
     if (kind === 'catalog-jsonl' && !/\.jsonl$/i.test(filename)) throw new Error('JSONL 파일을 선택하세요.');
-    if ((kind === 'canonical-json' || kind === 'content-edit') && !/\.json$/i.test(filename)) throw new Error('JSON 파일을 선택하세요.');
+    if ((kind === 'canonical-json' || kind === 'content-edit' || kind === 'source-link') && !/\.json$/i.test(filename)) throw new Error('JSON 파일을 선택하세요.');
     var id = Utilities.getUuid();
     var parentId = ensureManagementFolderId_();
     var folder = driveCreateMetadata_({name: 'upload-' + id, mimeType: 'application/vnd.google-apps.folder', parents: [parentId]});
@@ -430,8 +431,12 @@ function updateGitHubToken_(body) {
 
 function updateMetadata_(body) {
   var driveFileId = String(body.driveFileId || '').trim();
-  if (!/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('원본 파일 ID가 올바르지 않습니다.');
-  assertFileWithinRoot_(driveFileId);
+  var bookId = String(body.bookId || '').trim();
+  if (!/^[A-Za-z0-9_-]{8,100}$/.test(bookId)) throw new Error('도서 식별번호가 올바르지 않습니다.');
+  if (driveFileId) {
+    if (!/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('원본 파일 ID가 올바르지 않습니다.');
+    assertFileWithinRoot_(driveFileId);
+  }
   var raw = body.override || {};
   var allowedProfiles = ['fiction','drama','poetry','academic','philosophy','history_biography','science_technical','essay_general_nonfiction','practical_manual','mixed_anthology','unknown'];
   var override = {
@@ -457,7 +462,9 @@ function updateMetadata_(body) {
   var document = JSON.parse(decoded || '{}');
   document.description = document.description || 'driveFileId별 수동 수정값. 이 파일은 자동 인덱싱이 덮어쓰지 않습니다.';
   document.byDriveFileId = document.byDriveFileId || {};
-  document.byDriveFileId[driveFileId] = override;
+  document.byBookId = document.byBookId || {};
+  document.byBookId[bookId] = override;
+  if (driveFileId) document.byDriveFileId[driveFileId] = override;
   var encoded = Utilities.base64Encode(Utilities.newBlob(JSON.stringify(document, null, 2) + '\n', 'application/json', 'metadata-overrides.json').getBytes());
   var updateResponse = UrlFetchApp.fetch(url, {
     method: 'put', contentType: 'application/json', headers: headers, muteHttpExceptions: true,
@@ -471,8 +478,12 @@ function updateMetadata_(body) {
 
 function updateBookContent_(body) {
   var driveFileId = String(body.driveFileId || '').trim();
-  if (!/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('원본 파일 ID가 올바르지 않습니다.');
-  assertFileWithinRoot_(driveFileId);
+  var bookId = String(body.bookId || '').trim();
+  if (!/^[A-Za-z0-9_-]{8,100}$/.test(bookId)) throw new Error('도서 식별번호가 올바르지 않습니다.');
+  if (driveFileId) {
+    if (!/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('원본 파일 ID가 올바르지 않습니다.');
+    assertFileWithinRoot_(driveFileId);
+  }
   if (!body.content || typeof body.content !== 'object' || Array.isArray(body.content)) throw new Error('저장할 인덱싱 내용이 올바르지 않습니다.');
   var content = JSON.parse(JSON.stringify(body.content));
   validatePublicBookContent_(content, 0);
@@ -487,18 +498,20 @@ function updateBookContent_(body) {
   var headers = {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'};
   var currentResponse = UrlFetchApp.fetch(url + '?ref=main', {headers: headers, muteHttpExceptions: true});
   var currentFile = null;
-  var document = {schemaVersion: 1, description: 'driveFileId별 인덱싱 내용 수동 수정값. 자동 재인덱싱과 별도로 보존됩니다.', byDriveFileId: {}};
+  var document = {schemaVersion: 1, description: '도서별 인덱싱 내용 수동 수정값. 원문 연결을 바꿔도 보존됩니다.', byDriveFileId: {}, byBookId: {}};
   if (currentResponse.getResponseCode() === 200) {
     currentFile = JSON.parse(currentResponse.getContentText() || '{}');
     var decoded = Utilities.newBlob(Utilities.base64Decode(String(currentFile.content || '').replace(/\s/g, ''))).getDataAsString('UTF-8');
     document = JSON.parse(decoded || '{}');
     document.byDriveFileId = document.byDriveFileId || {};
+    document.byBookId = document.byBookId || {};
   } else if (currentResponse.getResponseCode() !== 404) {
     throw new Error('기존 내용 수정값을 읽지 못했습니다: HTTP ' + currentResponse.getResponseCode());
   }
   var updatedAt = new Date().toISOString();
   var override = {content: content, updatedAt: updatedAt};
-  document.byDriveFileId[driveFileId] = override;
+  document.byBookId[bookId] = override;
+  if (driveFileId) document.byDriveFileId[driveFileId] = override;
   var encoded = Utilities.base64Encode(Utilities.newBlob(JSON.stringify(document, null, 2) + '\n', 'application/json', 'content-overrides.json').getBytes());
   var payload = {message: 'Update indexed book content', content: encoded, branch: 'main'};
   if (currentFile && currentFile.sha) payload.sha = currentFile.sha;
@@ -585,13 +598,17 @@ function handleBookContentUpdate_(body) {
 
 function queueBookContentUpdate_(body) {
   var driveFileId = String(body.driveFileId || '').trim();
-  if (!/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('원본 파일 ID가 올바르지 않습니다.');
-  assertFileWithinRoot_(driveFileId);
+  var bookId = String(body.bookId || '').trim();
+  if (!/^[A-Za-z0-9_-]{8,100}$/.test(bookId)) throw new Error('도서 식별번호가 올바르지 않습니다.');
+  if (driveFileId) {
+    if (!/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('원본 파일 ID가 올바르지 않습니다.');
+    assertFileWithinRoot_(driveFileId);
+  }
   if (!body.content || typeof body.content !== 'object' || Array.isArray(body.content)) throw new Error('저장할 인덱싱 내용이 올바르지 않습니다.');
   var content = JSON.parse(JSON.stringify(body.content));
   validatePublicBookContent_(content, 0);
   var requestId = String(body.requestId || '').trim();
-  var encoded = Utilities.newBlob(JSON.stringify({requestId: requestId, driveFileId: driveFileId, content: content}), 'application/json', 'content-edit.json').getBytes();
+  var encoded = Utilities.newBlob(JSON.stringify({requestId: requestId, bookId: bookId, driveFileId: driveFileId, content: content}), 'application/json', 'content-edit.json').getBytes();
   if (encoded.length > 1500000) throw new Error('편집 내용이 너무 큽니다. 150만 바이트 이하로 저장하세요.');
   var partBytes = 131072;
   var partCount = Math.max(1, Math.ceil(encoded.length / partBytes));
@@ -611,6 +628,77 @@ function dispatchContentEditWorkflow_(manifestId) {
   var token = String(PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN') || '').trim();
   if (!githubTokenLooksValid_(token)) return {ok: false, code: 0, reason: 'missing_or_invalid_token'};
   var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/apply-content-edit.yml/dispatches';
+  try {
+    var response = UrlFetchApp.fetch(url, {
+      method: 'post', contentType: 'application/json',
+      payload: JSON.stringify({ref: 'main', inputs: {manifest_id: String(manifestId || '')}}),
+      headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'},
+      muteHttpExceptions: true
+    });
+    var code = response.getResponseCode();
+    return {ok: code === 200 || code === 204, code: code, reason: code === 200 || code === 204 ? '' : 'github_http_' + code};
+  } catch (error) {
+    return {ok: false, code: 0, reason: 'github_request_unavailable'};
+  }
+}
+
+function handleSourceLinkUpdate_(body) {
+  var requestId = String(body.requestId || '').trim();
+  var bookId = String(body.bookId || '').trim();
+  var mode = String(body.sourceMode || '').trim();
+  if (!/^[A-Za-z0-9-]{12,100}$/.test(requestId)) throw new Error('원문 연결 요청 번호가 올바르지 않습니다.');
+  if (!/^[A-Za-z0-9_-]{8,100}$/.test(bookId)) throw new Error('도서 식별번호가 올바르지 않습니다.');
+  if (mode !== 'drive' && mode !== 'none') throw new Error('원문 연결 방식을 선택하세요.');
+
+  var source = {};
+  if (mode === 'drive') {
+    var driveFileId = String(body.driveFileId || '').trim();
+    if (!/^[A-Za-z0-9_-]{10,200}$/.test(driveFileId)) throw new Error('선택한 원본 파일 ID가 올바르지 않습니다.');
+    assertFileWithinRoot_(driveFileId);
+    var metadata = Drive.Files.get(driveFileId, {
+      fields: 'id,name,mimeType,size,modifiedTime,webViewLink,parents', supportsAllDrives: true
+    });
+    var filename = String(metadata.name || '');
+    var mimeType = String(metadata.mimeType || '');
+    if (mimeType !== 'text/plain' && mimeType !== 'application/epub+zip' && !/\.(txt|epub)$/i.test(filename)) {
+      throw new Error('TXT 또는 EPUB 원본만 연결할 수 있습니다.');
+    }
+    source = {
+      driveFileId: driveFileId, filename: filename, mimeType: mimeType,
+      size: String(metadata.size || ''), modifiedTime: String(metadata.modifiedTime || ''),
+      webViewLink: String(metadata.webViewLink || ''), parents: metadata.parents || []
+    };
+  }
+
+  var value = {
+    requestId: requestId, bookId: bookId,
+    previousDriveFileId: String(body.previousDriveFileId || ''), sourceMode: mode, source: source
+  };
+  var encoded = Utilities.newBlob(JSON.stringify(value), 'application/json', 'source-link.json').getBytes();
+  var partBytes = 131072;
+  var partCount = Math.max(1, Math.ceil(encoded.length / partBytes));
+  var started = startPrivateUpload_({
+    requestId: requestId, kind: 'source-link', filename: 'source-link-' + requestId + '.json',
+    size: encoded.length, partCount: partCount
+  });
+  for (var index = 0; index < partCount; index++) {
+    savePrivateUploadPart_({
+      uploadId: started.uploadId, index: index,
+      base64: Utilities.base64Encode(encoded.slice(index * partBytes, Math.min(encoded.length, (index + 1) * partBytes)))
+    });
+  }
+  var finished = finishPrivateUpload_({uploadId: started.uploadId, skipDispatch: true});
+  var dispatch = dispatchSourceLinkWorkflow_(finished.manifestId);
+  if (!dispatch.ok) throw new Error(githubDispatchFailureMessage_(dispatch.code, dispatch.reason));
+  return {ok: true, queued: true, manifestId: finished.manifestId, requestId: requestId};
+}
+
+function dispatchSourceLinkWorkflow_(manifestId) {
+  var owner = requiredProperty_('GITHUB_OWNER');
+  var repo = requiredProperty_('GITHUB_REPO');
+  var token = String(PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN') || '').trim();
+  if (!githubTokenLooksValid_(token)) return {ok: false, code: 0, reason: 'missing_or_invalid_token'};
+  var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/apply-source-link.yml/dispatches';
   try {
     var response = UrlFetchApp.fetch(url, {
       method: 'post', contentType: 'application/json',

@@ -121,6 +121,8 @@ class RepositoryStorage:
             "createdAt": system["createdAt"],
             "updatedAt": system["updatedAt"],
             "webViewLink": source["webViewLink"],
+            "sourceConnectionStatus": system.get("sourceConnection", {}).get("status", "auto"),
+            "sourceReviewRecommended": bool(system.get("sourceConnection", {}).get("reviewRecommended")),
             "oneLineSummary": book["content"]["oneLineSummary"],
         })
         write_search_index(self.root)

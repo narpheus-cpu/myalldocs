@@ -13,6 +13,7 @@ from indexer.checkpoint import atomic_write_json
 
 CANONICAL_SCHEMA_VERSION = 2
 PROVENANCE_SOURCES = {"source_text_analysis", "model_prior_knowledge", "user_authored"}
+SOURCE_CONNECTION_STATUSES = {"MATCHED", "MANUAL_MATCHED", "NO_SOURCE"}
 WORK_PROFILES = {
     "fiction", "drama", "poetry", "academic", "philosophy", "history_biography",
     "science_technical", "essay_general_nonfiction", "practical_manual",
@@ -85,7 +86,9 @@ def normalize_canonical(raw: dict[str, Any], *, require_drive_match: bool = True
 
     drive_id = _string(system.get("driveFileId") or system.get("drive_file_id") or source.get("driveFileId") or source.get("drive_file_id") or raw.get("driveFileId"), 200)
     match_status = _string(system.get("driveMatchStatus") or system.get("drive_match_status"), 40) or ("MATCHED" if drive_id else "UNMATCHED")
-    if require_drive_match and (not drive_id or match_status != "MATCHED"):
+    if require_drive_match and match_status not in SOURCE_CONNECTION_STATUSES:
+        raise CanonicalValidationError("Google Drive 원본 연결이 완료되지 않았습니다.")
+    if require_drive_match and match_status != "NO_SOURCE" and not drive_id:
         raise CanonicalValidationError("Google Drive 원본 연결이 완료되지 않았습니다.")
 
     provenance = _string((system.get("generation") or {}).get("source") if isinstance(system.get("generation"), dict) else raw.get("provenance"), 60) or "user_authored"
@@ -133,7 +136,7 @@ def normalize_canonical(raw: dict[str, Any], *, require_drive_match: bool = True
             "adaptiveAnalysis": _list_of_dicts(content.get("adaptiveAnalysis") or content.get("adaptive_analysis") or raw.get("adaptiveAnalysis"), 30),
         },
         "source": {
-            "provider": "google-drive",
+            "provider": "none" if match_status == "NO_SOURCE" else "google-drive",
             "driveFileId": drive_id,
             "filename": _string(source.get("filename") or raw.get("filename"), 500),
             "format": _string(source.get("format") or raw.get("format"), 20).casefold(),
@@ -165,6 +168,14 @@ def normalize_canonical(raw: dict[str, Any], *, require_drive_match: bool = True
                 "model": _string(generation.get("model") or legacy_model, 200),
             },
             "edited": bool(system.get("edited") or False),
+            "sourceConnection": {
+                "status": _string((system.get("sourceConnection") or {}).get("status") if isinstance(system.get("sourceConnection"), dict) else "", 40)
+                    or ("none" if match_status == "NO_SOURCE" else ("manual" if match_status == "MANUAL_MATCHED" else "auto")),
+                "reviewRecommended": bool((system.get("sourceConnection") or {}).get("reviewRecommended") if isinstance(system.get("sourceConnection"), dict) else False),
+                "matchBasis": _string((system.get("sourceConnection") or {}).get("matchBasis") if isinstance(system.get("sourceConnection"), dict) else "", 80),
+                "matchScore": float((system.get("sourceConnection") or {}).get("matchScore") or 0) if isinstance(system.get("sourceConnection"), dict) else 0.0,
+                "updatedAt": _string((system.get("sourceConnection") or {}).get("updatedAt") if isinstance(system.get("sourceConnection"), dict) else "", 80) or updated,
+            },
         },
     }
     known_content_keys = {
@@ -176,7 +187,7 @@ def normalize_canonical(raw: dict[str, Any], *, require_drive_match: bool = True
     for key, value in content.items():
         if key not in known_content_keys and key not in forbidden_content_keys:
             result["content"][key] = deepcopy(value)
-    if not result["source"]["format"]:
+    if not result["source"]["format"] and match_status != "NO_SOURCE":
         result["source"]["format"] = "epub" if result["source"]["filename"].casefold().endswith(".epub") else "txt"
     return result
 
@@ -257,7 +268,7 @@ def write_search_index(root: Path) -> None:
             book = json.loads(path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             continue
-        if book.get("system", {}).get("indexStatus") != "COMPLETE" or book.get("system", {}).get("driveMatchStatus") != "MATCHED":
+        if book.get("system", {}).get("indexStatus") != "COMPLETE" or book.get("system", {}).get("driveMatchStatus") not in SOURCE_CONNECTION_STATUSES:
             continue
         items.append({"bookId": book.get("system", {}).get("libraryEntryId") or path.parent.name, "text": flatten_search_text({"identity": book.get("identity"), "content": book.get("content")})})
     atomic_write_json(root / "data" / "search-index.json", {"schemaVersion": 1, "books": items})

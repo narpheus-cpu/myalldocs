@@ -38,9 +38,12 @@ def apply_content_edit(root: Path, bundle: Any) -> dict[str, Any]:
     if bundle.manifest.get("kind") != "content-edit" or len(bundle.entries) != 1:
         raise ValueError("인덱싱 내용 편집 전용 대기열이 아닙니다.")
     entry = bundle.entries[0]
+    book_id = str(entry.get("bookId") or "").strip()
     drive_file_id = str(entry.get("driveFileId") or "").strip()
     content = entry.get("content")
-    if not re.fullmatch(r"[A-Za-z0-9_-]{10,200}", drive_file_id):
+    if not re.fullmatch(r"[A-Za-z0-9_-]{8,100}", book_id):
+        raise ValueError("도서 식별번호가 올바르지 않습니다.")
+    if drive_file_id and not re.fullmatch(r"[A-Za-z0-9_-]{10,200}", drive_file_id):
         raise ValueError("원본 파일 ID가 올바르지 않습니다.")
     if not isinstance(content, dict):
         raise ValueError("저장할 인덱싱 내용이 올바르지 않습니다.")
@@ -52,11 +55,18 @@ def apply_content_edit(root: Path, bundle: Any) -> dict[str, Any]:
     except (OSError, json.JSONDecodeError) as exc:
         raise ValueError("기존 인덱싱 내용 수정값을 읽지 못했습니다.") from exc
     document.setdefault("schemaVersion", 1)
-    document.setdefault("description", "driveFileId별 인덱싱 내용 수동 수정값. 자동 재인덱싱과 별도로 보존됩니다.")
+    document.setdefault("description", "도서별 인덱싱 내용 수동 수정값. 원문 연결을 바꿔도 보존됩니다.")
+    document.setdefault("byDriveFileId", {})
+    document.setdefault("byBookId", {})
     if not isinstance(document.get("byDriveFileId"), dict):
         raise ValueError("기존 인덱싱 내용 수정값의 구조가 올바르지 않습니다.")
+    if not isinstance(document.get("byBookId"), dict):
+        raise ValueError("기존 도서별 수정값의 구조가 올바르지 않습니다.")
     updated_at = _now()
-    document["byDriveFileId"][drive_file_id] = {"content": content, "updatedAt": updated_at}
+    override = {"content": content, "updatedAt": updated_at}
+    document["byBookId"][book_id] = override
+    if drive_file_id:
+        document["byDriveFileId"][drive_file_id] = override
     atomic_write_json(path, document)
     return {
         "status": "COMPLETE",
@@ -70,6 +80,7 @@ def apply_content_edit(root: Path, bundle: Any) -> dict[str, Any]:
         "allTargetsComplete": True,
         "finishedAt": updated_at,
         "driveFileId": drive_file_id,
+        "bookId": book_id,
     }
 
 
@@ -87,7 +98,7 @@ def main() -> int:
         "schemaVersion": 1,
         "manifestId": manifest_id,
         "kind": "content-edit",
-        "entries": [{"filename": bundle.manifest.get("originalFilename", "content-edit.json"), "status": "COMPLETE", "driveFileId": summary["driveFileId"]}],
+        "entries": [{"filename": bundle.manifest.get("originalFilename", "content-edit.json"), "status": "COMPLETE", "driveFileId": summary["driveFileId"], "bookId": summary["bookId"]}],
         "createdAt": bundle.manifest.get("createdAt") or summary["finishedAt"],
         "updatedAt": summary["finishedAt"],
         "lastRunStatus": "COMPLETE",
