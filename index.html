@@ -108,14 +108,14 @@
           <h2>도서 목록 JSONL 업로드</h2>
           <p>JSONL을 비공개 Drive 관리 영역에 보관하고 원본과 연결한 뒤, 무료 Gemini 대기열을 자동으로 시작합니다.</p>
           <input id="catalog-jsonl-file" class="sr-only" type="file" accept=".jsonl,application/x-ndjson">
-          <button id="upload-catalog-jsonl" class="primary" type="button">도서 목록 JSONL 업로드</button>
+          <div class="upload-actions"><button id="upload-catalog-jsonl" class="primary" type="button">도서 목록 JSONL 업로드</button><button id="catalog-jsonl-manual" class="manual-button" type="button">매뉴얼</button></div>
         </section>
         <section class="upload-card">
           <p class="eyebrow">Gemini 호출 없음</p>
           <h2>완성 인덱싱 JSON 업로드</h2>
           <p>완성된 canonical JSON을 검사하고 Drive 원본과 연결된 경우에만 전체 도서 목록에 등록합니다.</p>
           <input id="canonical-json-file" class="sr-only" type="file" accept=".json,application/json">
-          <button id="upload-canonical-json" class="primary" type="button">완성 인덱싱 JSON 업로드</button>
+          <div class="upload-actions"><button id="upload-canonical-json" class="primary" type="button">완성 인덱싱 JSON 업로드</button><button id="canonical-json-manual" class="manual-button" type="button">매뉴얼</button></div>
         </section>
       </div>
       <p id="private-upload-message" class="message upload-message" aria-live="polite"></p>
@@ -257,9 +257,73 @@
     </div>
     <div class="dialog-actions"><button id="save-source-link" class="primary" type="button">연결 저장</button><button id="cancel-source-link" type="button">취소</button></div>
   </dialog>
+  <dialog id="upload-manual-dialog" class="editor-dialog upload-manual-dialog" aria-labelledby="upload-manual-title">
+    <div class="dialog-header"><div><p class="eyebrow">처음 사용하는 분을 위한 안내</p><h2 id="upload-manual-title">업로드 매뉴얼</h2></div><button id="close-upload-manual" class="icon-button" type="button" aria-label="닫기">×</button></div>
+    <div class="upload-manual-body">
+      <section data-upload-manual="catalog-jsonl" hidden>
+        <p class="manual-purpose"><strong>이 버튼은 언제 쓰나요?</strong><span>Google Drive에 원본 TXT/EPUB가 있고, 이제 시스템이 Gemini로 요약과 분석을 새로 만들게 하려는 경우에 사용합니다.</span></p>
+        <div class="manual-choice"><strong>한눈에 구분</strong><span>분석 결과가 아직 없다 → <b>도서 목록 JSONL</b></span><span>분석 결과가 이미 완성됐다 → 완성 인덱싱 JSON</span></div>
+        <h3>업로드 전에 준비할 것</h3>
+        <ol class="manual-steps">
+          <li><strong>Drive 원본을 확인합니다.</strong><span>서재지도에서 사용하는 <code>[book]</code> 폴더 아래에 해당 책의 TXT 또는 EPUB가 있어야 합니다. Google Docs는 지원하지 않습니다.</span></li>
+          <li><strong>확장자가 <code>.jsonl</code>인 파일을 준비합니다.</strong><span>한 줄에 책 한 권을 적습니다. 여러 줄을 하나의 배열로 감싸거나 줄 끝에 쉼표를 붙이지 않습니다.</span></li>
+          <li><strong>각 줄에 파일명과 식별용 발췌문을 넣습니다.</strong><span>Drive 파일 ID나 해시는 입력하지 않아도 됩니다. 발췌문은 원본을 찾고 작품을 식별하는 데만 사용됩니다.</span></li>
+        </ol>
+        <p class="manual-label">한 권을 적는 가장 간단한 예</p>
+        <pre class="manual-code"><code>{"filename":"노인과 바다.txt","relative_path":"소설/외국","excerpt_start":"책 앞부분 일부","excerpt_middle":"책 중간 일부","excerpt_late":"책 뒷부분 일부"}</code></pre>
+        <h3>실제 업로드 순서</h3>
+        <ol class="manual-steps">
+          <li><strong>매뉴얼 창을 닫고 ‘도서 목록 JSONL 업로드’를 누릅니다.</strong><span>처음이라면 Google 로그인 창이 먼저 열립니다.</span></li>
+          <li><strong>‘Google 계정이 연결됐습니다’가 나오면 같은 버튼을 한 번 더 누릅니다.</strong><span>이번에는 파일 선택 창이 열립니다.</span></li>
+          <li><strong>준비한 <code>.jsonl</code> 파일을 선택합니다.</strong><span>‘업로드 완료 · 원본 연결과 즉시 자동 처리를 요청했습니다’가 나올 때까지 이 페이지를 닫지 마세요.</span></li>
+          <li><strong>인덱싱 대기열에서 진행 상태를 확인합니다.</strong><span><code>MATCHING</code>은 원본 찾기, <code>IDENTIFYING</code>은 작품 식별, <code>INDEXING</code>은 분석 중, <code>COMPLETE</code>는 완료입니다.</span></li>
+          <li><strong>완료 후 ‘전체 도서 목록’을 확인합니다.</strong><span>등록된 책을 열어 원문이 맞는지 확인하고, 틀렸다면 ‘원문 연결 수정’으로 바로잡을 수 있습니다.</span></li>
+        </ol>
+        <div class="manual-note"><strong>알아두세요</strong><ul><li>업로드 등록이 끝난 뒤에는 페이지를 새로고침하거나 닫아도 백엔드 처리는 계속됩니다.</li><li>같은 원문은 Drive 파일 ID와 내용 해시로 확인하여 중복 분석을 건너뜁니다.</li><li><code>PAUSED_RATE_LIMIT</code>은 무료 Gemini 한도 대기 상태이며 저장된 지점부터 다시 이어집니다.</li></ul></div>
+        <details class="manual-troubleshooting"><summary>문제가 생겼을 때</summary><ul><li><b>.jsonl 파일을 선택하세요</b> → 파일 이름 끝이 정확히 <code>.jsonl</code>인지 확인합니다.</li><li><b>NEEDS_METADATA_REVIEW</b> → 작품을 안전하게 확정하지 못한 상태입니다. 대기열의 해당 항목을 확인합니다.</li><li><b>즉시 실행 실패</b> → 아래 ‘GitHub 즉시 실행’에서 토큰을 검사·저장한 뒤 ‘대기열 지금 실행’을 누릅니다.</li></ul></details>
+      </section>
+      <section data-upload-manual="canonical-json" hidden>
+        <p class="manual-purpose"><strong>이 버튼은 언제 쓰나요?</strong><span>다른 AI나 사람이 작품명·작가·요약·구간별 요약·추가 분석까지 이미 완성한 경우, Gemini를 다시 호출하지 않고 서재지도에 등록할 때 사용합니다.</span></p>
+        <div class="manual-choice"><strong>한눈에 구분</strong><span>분석 결과가 아직 없다 → 도서 목록 JSONL</span><span>분석 결과가 이미 완성됐다 → <b>완성 인덱싱 JSON</b></span></div>
+        <h3>업로드 전에 준비할 것</h3>
+        <ol class="manual-steps">
+          <li><strong>Drive 원본을 확인합니다.</strong><span>원문 보기를 사용하려면 <code>[book]</code> 폴더 아래에 대응하는 TXT 또는 EPUB가 있어야 합니다. 없어도 나중에 ‘원문 없음’을 선택할 수 있습니다.</span></li>
+          <li><strong>확장자가 <code>.json</code>인 파일을 준비합니다.</strong><span>한 권짜리 JSON 객체, 여러 권을 담은 배열, 또는 한 줄에 한 객체인 JSONL 내용을 담을 수 있습니다. 파일 이름 끝은 반드시 <code>.json</code>이어야 합니다.</span></li>
+          <li><strong>필수 항목이 모두 있는지 확인합니다.</strong><span>작품명, 작가명, 장르, 태그, 작품 유형, 핵심 요약, 상세 요약이 필수입니다.</span></li>
+        </ol>
+        <p class="manual-label">필수 구조의 간단한 모양</p>
+        <pre class="manual-code"><code>{
+  "identity": {
+    "title": "작품명",
+    "author": "작가명",
+    "genre": "소설",
+    "tags": ["태그1", "태그2"],
+    "workProfile": {"primary": "fiction"}
+  },
+  "content": {
+    "oneLineSummary": "핵심 요약",
+    "overallSummary": "상세 요약",
+    "sectionSummaries": [],
+    "adaptiveAnalysis": []
+  }
+}</code></pre>
+        <h3>실제 업로드 순서</h3>
+        <ol class="manual-steps">
+          <li><strong>매뉴얼 창을 닫고 ‘완성 인덱싱 JSON 업로드’를 누릅니다.</strong><span>처음이라면 Google 로그인 창이 먼저 열립니다.</span></li>
+          <li><strong>‘Google 계정이 연결됐습니다’가 나오면 같은 버튼을 한 번 더 누릅니다.</strong><span>이번에는 파일 선택 창이 열립니다.</span></li>
+          <li><strong>완성된 <code>.json</code> 파일을 선택합니다.</strong><span>‘업로드 완료 · 원본 연결과 즉시 자동 처리를 요청했습니다’가 나올 때까지 이 페이지를 닫지 마세요.</span></li>
+          <li><strong>대기열에서 원본 연결과 등록 상태를 확인합니다.</strong><span>제목·작가·파일명·폴더명을 비교해 가장 가능성 높은 원문을 자동 연결합니다. 이 과정에서는 Gemini를 호출하지 않습니다.</span></li>
+          <li><strong>‘전체 도서 목록’에서 결과를 확인합니다.</strong><span>잘못 연결된 원문은 도서 화면의 ‘원문 연결 수정’에서 바꿀 수 있고, 인덱싱 내용은 그대로 유지됩니다.</span></li>
+        </ol>
+        <div class="manual-note"><strong>알아두세요</strong><ul><li>자동 연결 후보가 여러 개여도 등록을 멈추지 않고 가장 가능성 높은 원문을 우선 연결합니다.</li><li>API 키·GitHub 토큰·원문 전체를 완성 JSON 안에 넣지 마세요.</li><li>완성된 결과는 Google Drive가 아니라 GitHub의 도서 데이터에 저장되고 Pages 배포 후 목록에 나타납니다.</li></ul></div>
+        <details class="manual-troubleshooting"><summary>문제가 생겼을 때</summary><ul><li><b>.json 파일을 선택하세요</b> → 파일 이름 끝이 정확히 <code>.json</code>인지 확인합니다.</li><li><b>JSON 문법 오류</b> → 따옴표·쉼표·중괄호가 맞는지 확인하고 다시 업로드합니다.</li><li><b>NEEDS_USER_REVIEW</b> → Drive 원문을 확정하지 못한 상태입니다. 등록 후 ‘원문 연결 수정’으로 직접 선택할 수 있습니다.</li><li><b>RUN-FAILED 또는 즉시 실행 실패</b> → ‘GitHub 즉시 실행’의 토큰을 검사·저장하고 ‘대기열 지금 실행’을 누릅니다.</li></ul></details>
+      </section>
+    </div>
+    <div class="dialog-actions"><button id="done-upload-manual" class="primary" type="button">확인</button></div>
+  </dialog>
   <script src="config/public-config.js?v=20260916-relay-v8"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260916-source-link2"></script>
+  <script type="module" src="js/app.js?v=20260916-upload-manual1"></script>
 </body>
 </html>

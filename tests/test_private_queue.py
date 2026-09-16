@@ -230,6 +230,26 @@ def test_upload_ui_is_separate_and_drive_tab_is_removed_from_navigation():
     assert "upload-start" in script and "upload-part" in script and "upload-finish" in script
 
 
+def test_each_private_upload_has_an_easy_step_by_step_manual_dialog():
+    root = Path(__file__).resolve().parents[1]
+    html = (root / "index.html").read_text(encoding="utf-8")
+    script = (root / "js" / "app.js").read_text(encoding="utf-8")
+    styles = (root / "assets" / "styles.css").read_text(encoding="utf-8")
+    for phrase in (
+        'id="catalog-jsonl-manual"',
+        'id="canonical-json-manual"',
+        'id="upload-manual-dialog"',
+        'data-upload-manual="catalog-jsonl"',
+        'data-upload-manual="canonical-json"',
+        "실제 업로드 순서",
+        "문제가 생겼을 때",
+    ):
+        assert phrase in html
+    for phrase in ('openUploadManual("catalog-jsonl")', 'openUploadManual("canonical-json")', "closeUploadManual"):
+        assert phrase in script
+    assert ".upload-manual-dialog" in styles and ".manual-steps" in styles
+
+
 def test_apps_script_requests_have_a_timeout_instead_of_hanging_forever():
     root = Path(__file__).resolve().parents[1]
     script = (root / "js" / "app.js").read_text(encoding="utf-8")
