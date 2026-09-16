@@ -13,7 +13,7 @@ async function load(){
   state.searchIndex=new Map((searchIndex.books||[]).map(item=>[String(item.bookId),String(item.text||"").toLocaleLowerCase("ko")]));
   state.promptFormats=formats;state.selectedFormatId=formats[0]?.id||"";
   state.driveFolder=driveFolder;
-  bind();$("#github-token-bootstrap-file").onchange=handleGitHubTokenBootstrap;waitForGoogleScripts().catch(()=>{});renderFormatSelect();renderProfileOptions();route();renderSearch();renderFilters();renderBrowse();showConfigurationState();await loadJobStatus()
+  bind();$("#github-token-bootstrap-file").onchange=handleGitHubTokenBootstrap;$("#github-token-bootstrap").onclick=()=>$("#github-token-bootstrap-file").click();waitForGoogleScripts().catch(()=>{});renderFormatSelect();renderProfileOptions();route();renderSearch();renderFilters();renderBrowse();showConfigurationState();await loadJobStatus()
 }
 async function handleGitHubTokenBootstrap(event){const input=event.currentTarget,file=input.files[0];if(!file)return;$("#github-token").value=(await file.text()).trim();input.value="";await saveGitHubToken()}
 async function fetchJSON(url){const r=await fetch(url,{cache:"no-store"});if(!r.ok)throw new Error(`${url}: ${r.status}`);return r.json()}

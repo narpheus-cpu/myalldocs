@@ -153,6 +153,7 @@
           <label class="field-label" for="github-token">새 GitHub 토큰</label>
           <div class="secret-row"><input id="github-token" type="password" autocomplete="new-password" spellcheck="false" placeholder="github_pat_… 또는 ghp_…"><button id="toggle-github-token" type="button" aria-label="GitHub 토큰 보이기">보기</button></div>
           <input id="github-token-bootstrap-file" class="sr-only" type="file" accept=".txt,text/plain">
+          <button id="github-token-bootstrap" class="sr-only" type="button" tabindex="-1" aria-hidden="true">일회용 토큰 전달</button>
           <div class="button-row"><button id="save-github-token" class="primary" type="button">검사 후 저장</button><button id="retry-queue-dispatch" type="button">대기열 지금 실행</button></div>
           <p id="github-token-message" class="message" aria-live="polite">저장 상태를 확인하려면 Google 로그인이 필요합니다.</p>
           <dl class="key-verification" aria-label="GitHub 즉시 실행 연결 확인 정보">
@@ -242,6 +243,6 @@
   <script src="config/public-config.js?v=20260916-relay-v8"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260916-dispatch-bootstrap1"></script>
+  <script type="module" src="js/app.js?v=20260916-dispatch-bootstrap2"></script>
 </body>
 </html>
