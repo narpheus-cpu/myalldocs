@@ -1,13 +1,15 @@
 {
   "status": "COMPLETE",
   "phase": "COMPLETE",
-  "message": "비공개 대기열의 모든 도서가 처리되었습니다.",
+  "message": "수정한 인덱싱 내용을 GitHub에 반영했습니다.",
   "totalFiles": 1,
-  "startedAt": "2026-09-16T04:11:00.552980+00:00",
-  "complete": 0,
-  "skipped": 1,
+  "complete": 1,
+  "skipped": 0,
   "failed": 0,
   "metadataReview": 0,
+  "allTargetsComplete": true,
+  "startedAt": "2026-09-16T05:20:02.715Z",
+  "finishedAt": "2026-09-16T05:20:30.840845+00:00",
   "model": "",
   "apiRequests": 0,
   "apiSuccessfulRequests": 0,
@@ -22,11 +24,7 @@
   "modelCycleRestarts": 0,
   "lastModelError": "",
   "invalidJsonResponses": 0,
-  "driveQuotaUnits": 10390,
+  "driveQuotaUnits": 0,
   "driveDownloadedBytes": 0,
-  "updatedAt": "2026-09-16T04:11:09.525382+00:00",
-  "currentFileName": "히가시노 게이고-가면 산장 살인 사건 -- 히가시노 게이고(epub).txt",
-  "currentFileIndex": 1,
-  "allTargetsComplete": true,
-  "finishedAt": "2026-09-16T04:11:06.365106+00:00"
+  "updatedAt": "2026-09-16T05:20:30.840874+00:00"
 }
