@@ -50,6 +50,16 @@ class RepositoryStorage:
                 continue
             if manifest.get("indexStatus") == "COMPLETE" and manifest.get("source", {}).get("sha256") == checksum:
                 return manifest
+        for path in books.glob("*/book.json"):
+            try:
+                with path.open("r", encoding="utf-8") as handle:
+                    book = json.load(handle)
+            except (OSError, json.JSONDecodeError):
+                continue
+            source = book.get("source", {}) if isinstance(book, dict) else {}
+            system = book.get("system", {}) if isinstance(book, dict) else {}
+            if system.get("indexStatus") == "COMPLETE" and checksum in {source.get("sourceSha256"), source.get("textSha256")}:
+                return {"bookId": system.get("libraryEntryId", ""), "indexStatus": "COMPLETE", "source": {"sha256": checksum}}
         return None
 
     def completed_count_for_quota_day(self, now: datetime | None = None) -> int:

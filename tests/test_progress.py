@@ -46,7 +46,7 @@ def test_indexing_page_has_key_editor_monitor_and_visible_picker_errors():
     assert "sessionStorage" not in script
     assert "public-config.js?v=" in html
     assert "js/app.js?v=" in html
-    assert "js/app.js?v=20260916-dynamic-editor7" in html
+    assert "js/app.js?v=20260916-reader-performance1" in html
 
 
 def test_drive_library_lists_raw_files_and_dispatches_only_checked_items():
@@ -192,6 +192,8 @@ def test_reader_has_whole_source_persistent_geometry_and_collapsible_controls():
     assert 'whole.textContent="원문 전체"' in script
     assert 'all.textContent=chunks.length?"원문 전체"' in script
     assert 'id="reader-toolbar-details"' in html and "<summary>구간·보기 설정</summary>" in html
+    assert 'id="chunk-select" aria-label="현재 원문 구간" hidden' in html
+    assert '<label for="chunk-select">원문 구간</label>' not in html
     assert "Google Drive 원문</p>" not in html
     for phrase in ("saveReaderWindowGeometry", "applyReaderWindowSettings", "width:state.reader.width", "toolbarOpen:state.reader.toolbarOpen"):
         assert phrase in script
@@ -199,9 +201,18 @@ def test_reader_has_whole_source_persistent_geometry_and_collapsible_controls():
     assert ".compact-actions" in styles
 
 
+def test_full_source_pagination_yields_and_caches_instead_of_blocking_the_page():
+    script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
+    for phrase in ("async function paginateReader", "paginationToken", "paginationCache", "cacheReaderPages", "pages.length%8===0", "requestAnimationFrame"):
+        assert phrase in script
+    assert "high=text.length" not in script
+
+
 def test_library_filters_and_detailed_summary_layout_persist_and_render_as_sections():
     script = (ROOT / "js" / "app.js").read_text(encoding="utf-8")
-    for phrase in ("bookmap_library_filters_v1", "persistLibraryFilters", "restoreLibraryFilters"):
+    for phrase in ("bookmap_library_filters_v1", "persistLibraryFilters", "restoreLibraryFilters", "libraryTimestamp", "pagehide"):
+        assert phrase in script
+    for phrase in ("bookmap_detail_reader_settings_v1", "restoreDetailReaderSettings", "saveDetailReaderSettings"):
         assert phrase in script
     assert '["summaryShort","summaryLong","detailedSummary","summary","authorIntroduction"]' in script
 

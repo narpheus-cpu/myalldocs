@@ -334,6 +334,13 @@ class QueueWorker:
                 continue
             if source.get("sourceSha256") == source_hash or source.get("textSha256") == normalized_text_hash:
                 return True
+        for path in (self.settings.root / "data" / "books").glob("*/manifest.json"):
+            try:
+                source = json.loads(path.read_text(encoding="utf-8")).get("source", {})
+            except (OSError, json.JSONDecodeError):
+                continue
+            if source.get("sha256") == source_hash:
+                return True
         return False
 
     def _generated(self, result: dict[str, Any], source: DriveBook, source_hash: str, normalized_text_hash: str) -> dict[str, Any]:

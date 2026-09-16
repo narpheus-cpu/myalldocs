@@ -69,6 +69,17 @@ def test_completed_manifest_is_found_by_source_content_not_metadata(tmp_path):
     assert storage.completed_manifest_by_sha256("different-source-hash") is None
 
 
+def test_completed_manual_canonical_book_is_also_found_by_source_hash(tmp_path):
+    book_dir = tmp_path / "data" / "books" / "manual-id"
+    book_dir.mkdir(parents=True)
+    (book_dir / "book.json").write_text(json.dumps({
+        "source": {"sourceSha256": "manual-source-hash"},
+        "system": {"libraryEntryId": "manual-id", "indexStatus": "COMPLETE"},
+    }), encoding="utf-8")
+    found = RepositoryStorage(tmp_path).completed_manifest_by_sha256("manual-source-hash")
+    assert found and found["bookId"] == "manual-id"
+
+
 def test_daily_completion_count_uses_pacific_quota_day(tmp_path):
     data = tmp_path / "data"
     data.mkdir()

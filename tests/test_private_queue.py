@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from types import SimpleNamespace
 
 import pytest
 
@@ -8,7 +9,7 @@ from indexer.models import DriveBook
 from indexer.prior_knowledge import prior_knowledge_prompt, valid_prior_result
 from indexer.private_queue import CanonicalUploadFormatError, parse_canonical_upload, parse_jsonl
 from indexer.queue_context import service_account_email
-from indexer.queue_worker import _validate_public_content, match_entries, reconcile_completed_entries
+from indexer.queue_worker import QueueWorker, _validate_public_content, match_entries, reconcile_completed_entries
 
 
 def test_jsonl_is_parsed_in_memory_and_requires_txt_or_epub():
@@ -222,6 +223,15 @@ def test_missing_public_result_is_requeued_after_runner_commit_failure(tmp_path)
     entries[0].update({"status": "COMPLETE", "bookId": "a" * 20})
     catalog = {"drive-file-1": {"bookId": "a" * 20}}
     assert reconcile_completed_entries(entries, catalog, tmp_path) == 0
+
+
+def test_manual_upload_detects_legacy_automatic_source_hash(tmp_path):
+    manifest = tmp_path / "data" / "books" / "automatic-id" / "manifest.json"
+    manifest.parent.mkdir(parents=True)
+    manifest.write_text(json.dumps({"source": {"sha256": "same-source"}}), encoding="utf-8")
+    worker = object.__new__(QueueWorker)
+    worker.settings = SimpleNamespace(root=tmp_path)
+    assert worker._duplicate_hash("same-source", "different-text") is True
 
 
 def test_queue_result_commit_and_callback_are_recoverable_and_idempotent():
