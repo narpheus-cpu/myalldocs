@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "별",
+    "author": "알퐁스 도데",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "서정소설",
+      "순수",
+      "사랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "poetry"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알퐁스 도데는 프로방스 지방의 자연을 배경으로 한 서정적이고 아름다운 단편 소설들로 널리 알려져 있습니다.",
+    "oneLineSummary": "뤼르봉 산의 목동이 흠모하는 주인집 아가씨 스테파네트와 산 위에서 하룻밤을 보내며 나누는 순수한 사랑 이야기.",
+    "overallSummary": "뤼르봉 산에서 홀로 양을 치며 외롭게 살아가던 스무 살의 목동은 평소 깊이 동경하던 주인집의 아름다운 딸 스테파네트 아가씨가 식량을 배달하러 오자 넋을 잃습니다. 아가씨가 돌아가는 길에 강물에 빠질 뻔하여 산으로 되돌아오게 되고, 두 사람은 모닥불 가에서 밤을 지새웁니다. 목동은 아가씨에게 밤하늘의 별자리 이야기를 들려주고, 아가씨는 목동의 어깨에 기대어 순수하게 잠이 듭니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "별",
+        "summary": "목동의 외로운 산중 생활, 스테파네트 아가씨의 갑작스러운 방문과 고립, 그리고 밤하늘 아래에서 별들의 전설을 들려주며 아가씨를 지켜주는 목동의 순수한 밤을 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서정적 묘사",
+        "value": "밤하늘의 별자리와 프로방스 산중의 신비로운 밤 분위기를 극도로 서정적으로 시각화"
+      }
+    ],
+    "keyEntitiesText": "목동(주인공), 스테파네트(주인집 아가씨), 미아로(머슴)",
+    "settingText": "남프랑스 프로방스의 뤼르봉 산 목장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rh1A6JOwIY5uJQyi4fTOnXiLqr2E3x78",
+    "filename": "알퐁스도데-별 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.703Z",
+    "size": "19135",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1rh1A6JOwIY5uJQyi4fTOnXiLqr2E3x78/view?usp=drivesdk",
+    "sourceSha256": "15aa786cf4e47013794c0c0a90280256ab53a989690cc0fac7e4ded56c93b806",
+    "textSha256": "aeca1a4cfa2266c3ffe6e366e6c7165a40c312f088fc069abd275d7957159e53",
+    "changeKey": "8283f785340ef2a60d67884c11831d89",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "89f71d696dd5e36173be",
+    "workId": "89f71d696dd5e36173be",
+    "driveFileId": "1rh1A6JOwIY5uJQyi4fTOnXiLqr2E3x78",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:22:45.072260+00:00",
+    "updatedAt": "2026-09-19T18:22:45.072275+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:22:45.072354+00:00"
+    }
+  }
+}

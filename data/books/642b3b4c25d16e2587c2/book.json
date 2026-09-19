@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "야쿠비얀 빌딩",
+    "author": "알라 알아스와니",
+    "genre": "소설",
+    "tags": [
+      "이집트문학",
+      "카이로",
+      "인간군상",
+      "욕망"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알라 알아스와니의 대표작으로, 카이로의 한 빌딩을 통해 이집트 사회의 부패와 인간의 욕망을 생생하게 묘사했습니다.",
+    "oneLineSummary": "카이로의 유서 깊은 야쿠비얀 빌딩을 배경으로 펼쳐지는 다양한 인간 군상의 삶과 욕망.",
+    "overallSummary": "1934년 아르메니아 백만장자 하굽 야쿠비얀이 세운 야쿠비얀 빌딩을 배경으로 합니다. 몰락한 귀족이자 바람둥이인 자키 베 알두수키는 여성을 향한 끝없는 탐닉과 독특한 '여성학' 이론을 가지고 있으며, 사환 아바스카룬의 도움을 받아 새로운 애인 라밥과의 만남을 준비합니다. 빌딩의 화려한 과거와 현재의 쇠락이 교차하며 이집트 사회의 단면을 보여줍니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부",
+        "summary": "자키 베 알두수키의 아침 일과와 그의 화려한 여성 편력, 그리고 야쿠비얀 빌딩의 역사적 건립 배경과 거주자들의 변화를 소개합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "공간의 상징성",
+        "value": "야쿠비얀 빌딩은 이집트 근현대사의 영광과 몰락을 상징하는 축소판"
+      }
+    ],
+    "keyEntitiesText": "자키 베 알두수키, 아바스카룬(사환), 라밥(애인), 하굽 야쿠비얀(건물주)",
+    "settingText": "이집트 카이로의 술라이만 파샤 가에 위치한 야쿠비얀 빌딩"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1R990wYwX9kMWpknjB_zv9hBNxfzWEKoX",
+    "filename": "알라 알아스와니-야쿠비얀 빌딩(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:56:00.000Z",
+    "size": "654932",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1R990wYwX9kMWpknjB_zv9hBNxfzWEKoX/view?usp=drivesdk",
+    "sourceSha256": "9be4ed4fa1bee7584ed7077da92f890968eb82cb0eeca1c21ce97dfdf11d36e2",
+    "textSha256": "0aae19cd20136fc357c6163c73d25b4d128c7b84dc95bb2556809a5d6accaf34",
+    "changeKey": "29e3883eccea502e7f40c4ab473c5e24",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "642b3b4c25d16e2587c2",
+    "workId": "642b3b4c25d16e2587c2",
+    "driveFileId": "1R990wYwX9kMWpknjB_zv9hBNxfzWEKoX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:21:25.091612+00:00",
+    "updatedAt": "2026-09-19T18:21:25.091630+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:21:25.091717+00:00"
+    }
+  }
+}

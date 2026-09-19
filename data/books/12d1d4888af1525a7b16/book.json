@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "몬테크리스토 백작 I",
+    "author": "알렉상드르 뒤마",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "모험",
+      "복수",
+      "음모"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알렉상드르 뒤마는 19세기 프랑스의 대중 소설가로, 흥미진진한 역사 모험 소설로 전 세계적인 사랑을 받았습니다.",
+    "oneLineSummary": "젊은 선원 에드몽 당테스가 마르세유로 귀항하여 선장 임명을 앞두고 겪는 기쁨과 음모의 서두.",
+    "overallSummary": "1815년 2월, 선장 르클레르를 잃은 범선 파라옹 호가 일등 항해사 에드몽 당테스의 지휘 아래 마르세유 항으로 귀항합니다. 선주 모렐은 당테스의 정직함과 능력을 높이 평가하며 그를 차기 선장으로 임명할 것을 약속합니다. 당테스는 기쁨에 넘쳐 가난한 아버지와 약혼녀 메르세데스를 만나러 가지만, 그를 시기하는 회계담당 당글라르의 음험한 시선이 그를 뒤쫓습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "마르세유 도착 / 아버지와 아들",
+        "summary": "파라옹 호의 귀항과 당테스의 선장 임명 예고, 그리고 당테스가 5층 방에 사는 가난한 아버지를 찾아가 감격적인 재회를 나누는 장면을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 구도",
+        "value": "정직하고 순수한 당테스와 그를 시기하는 당글라르의 대립을 통한 비극적 전개 암시"
+      }
+    ],
+    "keyEntitiesText": "에드몽 당테스, 모렐(선주), 당글라르(회계담당), 메르세데스(약혼녀)",
+    "settingText": "프랑스 마르세유 항구 및 당테스 아버지의 가난한 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_Zwa6U9BGAiiLgLjj-K5CvaWDRFHikFg",
+    "filename": "알렉상드르 뒤마-몬테크리스토 백작(1-2)(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T08:06:08.000Z",
+    "size": "3717544",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1_Zwa6U9BGAiiLgLjj-K5CvaWDRFHikFg/view?usp=drivesdk",
+    "sourceSha256": "3829bc9eb965a1baa95c68dd3d5843635e5a6daacb1dae9448575e70e1ca87d1",
+    "textSha256": "fb70e3814de36862abec050a642e3ed2df0eae920fc0597a26a0675d85b8c460",
+    "changeKey": "1b05f2ce364152c2d2e6194a92ab3baf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "12d1d4888af1525a7b16",
+    "workId": "12d1d4888af1525a7b16",
+    "driveFileId": "1_Zwa6U9BGAiiLgLjj-K5CvaWDRFHikFg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:22:09.857449+00:00",
+    "updatedAt": "2026-09-19T18:22:09.857464+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5253,
+      "updatedAt": "2026-09-19T18:22:09.857547+00:00"
+    }
+  }
+}

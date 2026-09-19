@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이력서들",
+    "author": "알렉산더 클루게",
+    "genre": "소설",
+    "tags": [
+      "독일문학",
+      "전쟁",
+      "나치",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알렉산더 클루게는 독일의 소설가이자 영화감독으로, 다큐멘터리적 기법과 허구를 결합한 독창적인 서사 스타일을 구축했습니다.",
+    "oneLineSummary": "나치 군의관 루돌프 불랑제의 기괴한 임무와 전후 삶을 통해 전쟁의 참상과 역사의 아이러니를 고발하는 소설.",
+    "overallSummary": "루돌프 불랑제 중위는 제2차 세계대전 중 슈트라스부르크 제국대학의 히르트 교수의 제안에 따라 '유태계 공산주의 정치위원'의 두개골을 수집하는 특별 임무를 맡게 됩니다. 그는 동부전선에서 포로들을 분류하고 처형하는 비인도적인 업무를 수행하며, 전후에는 자신의 범죄에 대한 공소시효가 지난 후 마르크스주의자로 변신하여 무위의 삶을 살아갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "중위 불랑제",
+        "summary": "불랑제 중위가 유태인 두개골 확보 임무를 맡게 된 배경, 동부전선에서의 임무 수행 과정, 그리고 전후 쾰른에서 포장 인부로 일하며 인터뷰에 응하는 모습을 건조하게 서술합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사적 특징",
+        "value": "공식 문서와 인터뷰 형식을 차용한 다큐멘터리적 서사로 역사적 범죄를 냉정하게 조명"
+      }
+    ],
+    "keyEntitiesText": "루돌프 불랑제(중위), A. 히르트(해부학과 교수), 렌둘릭(상급대장)",
+    "settingText": "제2차 세계대전 당시의 동부전선 및 전후 독일 쾰른"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PLkXg_elTL9FyyfNggknB69u78l1qf6_",
+    "filename": "알렉산더 클루게-이력서들(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:58:22.000Z",
+    "size": "650281",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1PLkXg_elTL9FyyfNggknB69u78l1qf6_/view?usp=drivesdk",
+    "sourceSha256": "0f2e0f223fd125b406c23e1c6e4bfd9737c9c3991798f3fa4cab5df174897ed3",
+    "textSha256": "0c60b38f0d3ee52c6e4951f7b3e317740dd6de59ee0fa10cf3f30cf658eb9a6f",
+    "changeKey": "3f726c30148e26f6edeb27dc0d3f7c53",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e6cce54918def8fbefc6",
+    "workId": "e6cce54918def8fbefc6",
+    "driveFileId": "1PLkXg_elTL9FyyfNggknB69u78l1qf6_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:21:42.163716+00:00",
+    "updatedAt": "2026-09-19T18:21:42.163734+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:21:42.163828+00:00"
+    }
+  }
+}

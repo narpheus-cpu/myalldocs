@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시카고",
+    "author": "알라 알아스와니",
+    "genre": "소설",
+    "tags": [
+      "이집트문학",
+      "유학",
+      "문화충격",
+      "고독"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알라 알아스와니는 이집트의 치과의사이자 세계적인 베스트셀러 소설가로, 현대 이집트 사회의 모순을 날카롭게 고발해 왔습니다.",
+    "oneLineSummary": "이집트 탄타 출신의 샤이마가 미국 시카고로 유학을 오며 겪는 고독과 문화적 충격을 다룬 소설.",
+    "overallSummary": "시카고의 역사적 배경과 대화재 사건을 서두로 시작하여, 이집트 탄타에서 미혼으로 서른을 넘긴 우수한 인재 샤이마 무함마디가 미국 시카고 일리노이 대학교로 유학을 오게 된 배경을 설명합니다. 샤이마는 낯선 미국 땅에서 극심한 우울증과 고독을 겪지만, 꿈속에서 아버지를 만나 위로를 얻고 마음의 안정을 되찾습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "시카고의 역사와 대화재 사건을 소개한 후, 탄타 출신의 샤이마가 미국 유학을 결심하고 시카고에 도착해 겪는 고독과 불안, 그리고 꿈을 통한 극복 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문화적 갈등",
+        "value": "이슬람 전통 가치관과 미국 현대 대도시 문화의 충돌"
+      }
+    ],
+    "keyEntitiesText": "샤이마 무함마디, 무함마디 하미드(샤이마의 아버지), 존 라이트(시카고 상인)",
+    "settingText": "미국 시카고 및 이집트 탄타"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16NHXBn1YPVTgmfxR7Jx2zIWbAI8frT74",
+    "filename": "알라 알아스와니-시카고(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:54:48.000Z",
+    "size": "840659",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/16NHXBn1YPVTgmfxR7Jx2zIWbAI8frT74/view?usp=drivesdk",
+    "sourceSha256": "e47228045601f094c824d8af6d3ebb02ff8e62e95f6188d5b30f8376384006bf",
+    "textSha256": "4860ff34eb70fde94c2c5484c17a311f19409ef9e7d7ca5a2a2dc3ca2fb427af",
+    "changeKey": "2f89c15f0af81b588011827941cf5259",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "da4334515a31502e2f07",
+    "workId": "da4334515a31502e2f07",
+    "driveFileId": "16NHXBn1YPVTgmfxR7Jx2zIWbAI8frT74",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:21:16.393153+00:00",
+    "updatedAt": "2026-09-19T18:21:16.393169+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:21:16.393254+00:00"
+    }
+  }
+}

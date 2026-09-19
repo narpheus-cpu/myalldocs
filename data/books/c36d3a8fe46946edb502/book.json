@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지상의 양식",
+    "author": "앙드레 지드",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "산문시",
+      "해방",
+      "생명력"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "앙드레 지드는 아프리카 여행을 통해 기독교적 금욕주의에서 벗어나 생명의 찬란한 희열을 노래하는 이 책을 썼습니다.",
+    "oneLineSummary": "가상의 제자 나타나엘에게 기독교적 구속에서 벗어나 지상의 감각적 희열과 생명력을 온전히 향유할 것을 권하는 서정적 산문.",
+    "overallSummary": "지드가 결혼 직후 자신의 자유를 갈망하며 쓴 작품으로, 가상의 독자 '나타나엘'에게 보내는 편지 형식의 산문시입니다. 기독교적 도덕과 가정, 사회적 관습이라는 구속에서 벗어나 맨발로 대지를 딛고 지상의 모든 감각적 기쁨과 욕망을 온전히 향유할 것을 촉구하며, 궁극적으로는 이 책마저 던져버리고 스스로 해방될 것을 권합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1927년 판 머리말 / 제1장",
+        "summary": "작품의 집필 배경과 '헐벗음'의 옹호를 설명한 후, 나타나엘에게 도처에 존재하는 신을 발견하고 지상의 모든 피조물과 욕망을 사랑하며 열정적인 삶을 살아가라고 호소합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사상적 영향",
+        "value": "니체의 초인 사상과 괴테의 자연주의 영향을 받아 전후 세대에게 폭발적인 해방감을 선사함"
+      }
+    ],
+    "keyEntitiesText": "나타나엘(가상의 제자), 메날끄(지혜의 인도자)",
+    "settingText": "아프리카 및 지중해 연안의 자연"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12QouHJgLuWH_WfGZoG7jn-3P3UB3zyVp",
+    "filename": "앙드레 지드-지상의 양식 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.734Z",
+    "size": "237107",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/12QouHJgLuWH_WfGZoG7jn-3P3UB3zyVp/view?usp=drivesdk",
+    "sourceSha256": "9496990eda0bfd1a0339e40952a2a42d47dfabbcb84fad2d0ad7080fe41dc483",
+    "textSha256": "15ca212d910b21fe22e9907c791ef7f4803502b1eb7bfdc9268595753190e206",
+    "changeKey": "975c0a3688fc599fae81ea58d5b20533",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c36d3a8fe46946edb502",
+    "workId": "c36d3a8fe46946edb502",
+    "driveFileId": "12QouHJgLuWH_WfGZoG7jn-3P3UB3zyVp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:23:12.642545+00:00",
+    "updatedAt": "2026-09-19T18:23:12.642560+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:23:12.642643+00:00"
+    }
+  }
+}

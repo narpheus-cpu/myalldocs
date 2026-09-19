@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "엿보는 자",
+    "author": "알랭 로브그리예",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "누보로망",
+      "기하학적묘사",
+      "기억"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "unknown"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알랭 로브그리예는 프랑스 누보 로망(Nouveau Roman)의 기수로, 전통적인 서사를 배제하고 사물의 객관적 묘사에 집중한 작가입니다.",
+    "oneLineSummary": "시계 외판원 마티아스가 한 섬에 도착하여 사물들을 기하학적으로 관찰하며 겪는 파편화된 기억의 서사.",
+    "overallSummary": "배를 타고 고향 섬에 도착한 시계 외판원 마티아스는 부두의 경사면, 해조류, 돌에 새겨진 8자 모양의 기호 등 주변 사물들을 극도로 세밀하고 기하학적으로 관찰합니다. 그의 기억은 어린 시절의 노끈 수집, 비 오는 날 창가에서 갈매기를 그리던 추억 등과 겹치며 현실과 환상의 경계를 모호하게 만듭니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부",
+        "summary": "마티아스가 탄 배가 섬의 선착장에 도착하는 과정과 그가 부두의 지형, 해조류, 8자 모양의 기호 등을 세밀하게 관찰하는 모습을 담고 있습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 기법",
+        "value": "인간의 감정을 배제하고 사물의 형태와 원근법적 구도를 극대화한 누보 로망의 전형"
+      }
+    ],
+    "keyEntitiesText": "마티아스(시계 외판원, 주인공), 갈매기, 어린 계집아이",
+    "settingText": "바닷가 섬의 선착장 및 부두"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yA1RsqNKLsI5m0or4V4zMVKlZx779teh",
+    "filename": "알랭 로브그리예-엿보는 자(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:57:08.000Z",
+    "size": "554524",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1yA1RsqNKLsI5m0or4V4zMVKlZx779teh/view?usp=drivesdk",
+    "sourceSha256": "83a7d4e9fc03aac45fc7bdfe90730ded1342d740fad29179529e7364d461aec6",
+    "textSha256": "aaf103930107c2e4006af623ff94df734dfe24fd7c1ab3db668a7b4d35b8bbe1",
+    "changeKey": "cdec3bfe4f7c2102c84f4d757f95fddf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cd50f833315d7215f8b9",
+    "workId": "cd50f833315d7215f8b9",
+    "driveFileId": "1yA1RsqNKLsI5m0or4V4zMVKlZx779teh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:21:33.318328+00:00",
+    "updatedAt": "2026-09-19T18:21:33.318344+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:21:33.318427+00:00"
+    }
+  }
+}

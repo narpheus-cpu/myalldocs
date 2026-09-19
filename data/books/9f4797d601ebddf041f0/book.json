@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "꼬마 철학자",
+    "author": "알퐁스 도데",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "성장소설",
+      "자전적소설",
+      "유년시절"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알퐁스 도데는 남프랑스의 서정적인 풍경과 인간에 대한 따뜻한 애정을 섬세한 필치로 그려낸 프랑스의 대표 작가입니다.",
+    "oneLineSummary": "남프랑스 랑그도크에서 태어난 다니엘 에세트가 집안의 몰락을 겪으며 성장해가는 자전적 이야기.",
+    "overallSummary": "랑그도크의 비단 공장 집안에서 태어난 다니엘 에세트는 유약한 체질로 인해 집안에서 어머니의 교육을 받으며 자랍니다. 18xx년 혁명과 불행한 사건들로 공장이 파산하자, 다니엘은 텅 빈 공장 마당에서 '로빈슨 크루소' 놀이를 하며 고독을 달랩니다. 결국 공장이 팔리고 정든 고향을 떠나 리용으로 이주하게 되면서 그의 순수했던 유년 시절은 종말을 고합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "랑그도끄에서의 어린시절 / 꼬마 철학자 다니엘",
+        "summary": "다니엘의 출생과 집안의 점진적인 몰락 과정, 문지기 아들 루제와의 로빈슨 크루소 놀이, 그리고 고향을 떠나 리용으로 향하는 슬픈 이삿길을 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "자전적 요소",
+        "value": "작가 자신의 가난했던 유년 시절과 리용으로의 이주 경험을 바탕으로 한 성장 소설"
+      }
+    ],
+    "keyEntitiesText": "다니엘 에세트(꼬마 철학자), 에세트 씨(아버지), 자끄(형), 루제(문지기 아들)",
+    "settingText": "남프랑스 랑그도크 지방의 시골 마을 및 비단 공장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ilcV4XZopueiFpKMZsFvt0UPdxLVkHrT",
+    "filename": "알퐁스 도데- 꼬마 철학자 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.645Z",
+    "size": "694861",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1ilcV4XZopueiFpKMZsFvt0UPdxLVkHrT/view?usp=drivesdk",
+    "sourceSha256": "58a73bf028b2749da033655a1bcfcfe084cc01839f8d0815300d695587f2c195",
+    "textSha256": "a8efe5ea76a2690b22018142e980cd57340d46588558db118176a73eee644326",
+    "changeKey": "f52949d5f519f1d1cbc47d340d919183",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9f4797d601ebddf041f0",
+    "workId": "9f4797d601ebddf041f0",
+    "driveFileId": "1ilcV4XZopueiFpKMZsFvt0UPdxLVkHrT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:22:36.191809+00:00",
+    "updatedAt": "2026-09-19T18:22:36.191822+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:22:36.191902+00:00"
+    }
+  }
+}

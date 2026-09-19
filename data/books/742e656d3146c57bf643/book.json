@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "회색곰 왑의 삶",
+    "author": "어니스트 톰슨 시튼",
+    "genre": "소설",
+    "tags": [
+      "동물기",
+      "회색곰",
+      "왑",
+      "자연"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "어니스트 톰슨 시튼은 야생 동물의 삶을 인간의 관점이 아닌 동물의 시각에서 바라보며 생명의 존엄성을 일깨워준 작가입니다.",
+    "oneLineSummary": "어미와 형제들을 잃고 외톨이가 된 새끼 회색곰 왑이 온갖 역경을 딛고 고독한 회색곰으로 성장해가는 이야기.",
+    "overallSummary": "리틀 파이니 꼭대기에서 태어난 새끼 회색곰 왑은 어미 곰의 사랑 속에서 개미 사냥과 물고기 잡는 법을 배우며 행복하게 자라납니다. 그러나 목장주 피켓 대령의 총격으로 어미와 형제들을 모두 잃고, 자신도 뒷다리에 총상을 입은 채 홀로 살아남습니다. 왑은 다리를 절며 흑곰, 스라소니, 코요테 등 온갖 적들의 위협 속에서 고독하고 심술궂은 곰으로 성장해갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "왑의 어린 시절 1~4장",
+        "summary": "왑의 행복했던 유년 시절, 피켓 대령의 총격으로 인한 가족의 몰락, 홀로 남겨진 왑이 다친 다리를 이끌고 숲속에서 적들을 피해 생존해나가는 눈물겨운 과정을 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "생태적 관점",
+        "value": "인간의 무자비한 사냥이 야생 동물에게 미치는 파괴적 영향과 동물의 생존 투쟁을 생생히 고발"
+      }
+    ],
+    "keyEntitiesText": "왑(회색곰), 퍼즈(왑의 동생), 피켓 대령(목장주), 무니",
+    "settingText": "미국 서부의 리틀 파이니 및 그레이불 강 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xmO7ogz2gWMOO2juBL8rWhMdn9ZbKnWO",
+    "filename": "[학교]색욕의 학교a.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:16.825Z",
+    "size": "7443",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1xmO7ogz2gWMOO2juBL8rWhMdn9ZbKnWO/view?usp=drivesdk",
+    "sourceSha256": "f174543f72537211958f474151015b134cac684788f5b405448fb01343c0db7b",
+    "textSha256": "c8ffe641d04707e3410004c1eeb6fb57cae1df908995bc26c6bdc3ad4065b3f2",
+    "changeKey": "55313bb7d024ed552498008c6c0bd6ae",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "742e656d3146c57bf643",
+    "workId": "742e656d3146c57bf643",
+    "driveFileId": "1xmO7ogz2gWMOO2juBL8rWhMdn9ZbKnWO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:23:40.319536+00:00",
+    "updatedAt": "2026-09-19T18:23:40.319551+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.2343,
+      "updatedAt": "2026-09-19T18:23:40.319633+00:00"
+    }
+  }
+}

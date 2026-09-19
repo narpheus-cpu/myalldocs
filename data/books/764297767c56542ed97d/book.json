@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "알려지지 않은 아라비안 나이트",
+    "author": "미상",
+    "genre": "소설",
+    "tags": [
+      "아라비아설화",
+      "지혜",
+      "해학",
+      "관능"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아라비아의 구전 설화집인 아라비안 나이트 중 널리 알려지지 않은 관능적이고 기발한 이야기들을 모은 책입니다.",
+    "oneLineSummary": "향료 상인 무사크가 영리한 처녀의 꾀에 속아 원숭이와 결혼했다가 지혜를 깨닫고 진정한 사랑을 얻는 이야기.",
+    "overallSummary": "바그다드의 젊은 향료 상인 무사크는 가게 문기둥에 남존여비 사상의 글귀를 붙여 놓았다가, 이에 발끈한 재판관의 딸(실제로는 대장장이의 딸)에게 유혹당합니다. 처녀의 꾀에 속아 최고 판관의 원숭이 딸과 결혼하게 된 무사크는 전재산을 날릴 위기에 처하지만, 처녀가 알려준 지혜로운 해결책을 통해 위기를 벗어나고 결국 그녀와 결혼하여 행복한 삶을 누립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "원숭이 신부와의 첫날밤 / 아버지의 첩들을 농락한 젊은 아들",
+        "summary": "무사크가 원숭이 신부와 결혼했다가 처녀의 지혜로 위기를 탈출하는 이야기와, 대신의 젊은 아들이 아버지의 두 첩을 기발한 꾀로 유혹하여 사랑을 나누는 해학적인 에피소드를 담고 있습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "해학적 요소",
+        "value": "여성의 지혜가 남성의 오만을 꺾는 전통적인 구전 설화의 해학적 변주"
+      }
+    ],
+    "keyEntitiesText": "무사크(향료 상인), 대장장이의 딸(영리한 처녀), 판관장, 대신의 아들",
+    "settingText": "칼리프 알 마문 치하의 아라비아 바그다드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1I_e1EV90gtra6ngYsW3lL97hgfJAHzl1",
+    "filename": "알려지지 않은 아라비안 나이트.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.599Z",
+    "size": "523290",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1I_e1EV90gtra6ngYsW3lL97hgfJAHzl1/view?usp=drivesdk",
+    "sourceSha256": "ebd50f0bb077f1c72f31517576ee5c1d162792d4381bf28a9a5a5c54eff2cd03",
+    "textSha256": "eee3142a832aa3ec9f395779d0091c4e292926ee43c4e235acfd9274ceb165ab",
+    "changeKey": "00d4b70b4189906e1ec916a5e69d7abb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "764297767c56542ed97d",
+    "workId": "764297767c56542ed97d",
+    "driveFileId": "1I_e1EV90gtra6ngYsW3lL97hgfJAHzl1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:22:17.997346+00:00",
+    "updatedAt": "2026-09-19T18:22:17.997361+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:22:17.997443+00:00"
+    }
+  }
+}

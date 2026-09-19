@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "좁은 문, 전원 교향곡",
+    "author": "앙드레 지드",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "청교도주의",
+      "사랑",
+      "희생"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "앙드레 지드는 인간 내면의 도덕적 갈등과 종교적 위선을 탐구하여 1947년 노벨 문학상을 수상한 프랑스의 거장입니다.",
+    "oneLineSummary": "제롬과 외사촌 누이 알리사의 순결한 사랑과, 알리사 어머니의 부정한 행동으로 인한 가족의 비극적 배경.",
+    "overallSummary": "제롬은 매년 여름 르아브르 근교의 퐁괴즈마르에 있는 외삼촌 뷔콜랭의 집에서 사촌 누이 알리사와 동생들과 함께 공부하며 자랍니다. 알리사의 아름답고 이국적인 어머니 뤼실 뷔콜랭은 부정한 행동으로 집안에 발작과 불화를 가져옵니다. 어느 날 제롬은 어머니의 부정으로 인해 눈물 흘리는 알리사를 목격하고, 그녀를 평생 보호하고 사랑하겠다고 신 앞에 맹세합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "좁은 문 1장",
+        "summary": "제롬의 유년 시절과 퐁괴즈마르의 하얀 집 배경, 외숙모 뤼실 뷔콜랭의 이국적인 아름다움과 부정한 행동, 그리고 알리사의 눈물을 보고 제롬이 헌신적인 사랑을 결심하는 순간을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "도덕적 갈등",
+        "value": "지상의 인간적 사랑과 천상의 신성한 덕 사이에서 갈등하는 청교도적 영혼의 초상"
+      }
+    ],
+    "keyEntitiesText": "제롬(주인공), 알리사 뷔콜랭, 뤼실 뷔콜랭(외숙모), 뷔콜랭 씨(외삼촌)",
+    "settingText": "프랑스 노르망디 지방의 르아브르 근교 퐁괴즈마르"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ujIpsEeT4F2xB6j0NB53fJZd1HhXN6CR",
+    "filename": "앙드레 지드-좁은 문, 전원 교향곡(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:02:44.000Z",
+    "size": "500124",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1ujIpsEeT4F2xB6j0NB53fJZd1HhXN6CR/view?usp=drivesdk",
+    "sourceSha256": "131e5430600ce88db09fd0e0aeb89dc020f6c4d2868b8255b6db8eb53cf65c4d",
+    "textSha256": "44debf6d6cf65334575483a72bdb8680b65fab140ea79da8ba5f83c7db781c79",
+    "changeKey": "d08c5c9ce5a30a7395f7d9a1ad89331a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c88b65571c82fecd43db",
+    "workId": "c88b65571c82fecd43db",
+    "driveFileId": "1ujIpsEeT4F2xB6j0NB53fJZd1HhXN6CR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:23:02.851283+00:00",
+    "updatedAt": "2026-09-19T18:23:02.851299+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:23:02.851378+00:00"
+    }
+  }
+}

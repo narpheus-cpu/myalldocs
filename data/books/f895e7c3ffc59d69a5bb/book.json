@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "예브게니 오네긴",
+    "author": "알렉산드르 푸슈킨",
+    "genre": "소설",
+    "tags": [
+      "러시아문학",
+      "운문소설",
+      "우울증",
+      "사교계"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "poetry"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알렉산드르 푸슈킨은 러시아 근대 문학의 아버지로 불리는 시인이자 소설가로, 러시아어의 아름다움을 극대화한 작품들을 썼습니다.",
+    "oneLineSummary": "러시아 상류 사회의 권태와 우울증에 빠진 청년 예브게니 오네긴의 방황을 그린 운문 소설.",
+    "overallSummary": "상속을 받기 위해 병석의 숙부에게 향하는 청년 예브게니 오네긴의 독백으로 시작됩니다. 오네긴은 페테르부르크의 화려한 사교계에서 댄디로 자라나 프랑스어, 춤, 연애의 기술을 익혔으나, 이내 사교계의 소음과 환락에 깊은 권태와 우울증(스플린)을 느끼고 집 안에 틀어박혀 무위도식하게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 [우울증]",
+        "summary": "오네긴의 화려하지만 권태로운 하루 일과(무도회, 극장, 몸치장)를 묘사하며, 그가 상류 사회의 삶에 환멸을 느끼고 우울증에 빠져드는 과정을 시적 형식으로 서술합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식적 특징",
+        "value": "독창적인 '오네긴 연(Onegin stanza)' 형식을 사용한 러시아 최초의 운문 소설"
+      }
+    ],
+    "keyEntitiesText": "예브게니 오네긴, 폰비진, 이스토미나(발레리나), 차다예프",
+    "settingText": "19세기 초 러시아 페테르부르크의 상류 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19lT-H573BmC-gnLFBN1G6wTGxy-Yv8k1",
+    "filename": "알렉산드르 푸슈킨-예브게니 오네긴(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:59:24.000Z",
+    "size": "312183",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/19lT-H573BmC-gnLFBN1G6wTGxy-Yv8k1/view?usp=drivesdk",
+    "sourceSha256": "1cf7f1c7c982fc56a4ce8b5891b4b21946d11ce9e8df65b2d1d2f2f51332d67f",
+    "textSha256": "3231ac4d04142aaa80de45a3f57ee2fd67c7ad151414628ac9fbf4be600060d7",
+    "changeKey": "4fc969d627b8ea33e570a90b0dc38c60",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f895e7c3ffc59d69a5bb",
+    "workId": "f895e7c3ffc59d69a5bb",
+    "driveFileId": "19lT-H573BmC-gnLFBN1G6wTGxy-Yv8k1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:21:59.740602+00:00",
+    "updatedAt": "2026-09-19T18:21:59.740617+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:21:59.740701+00:00"
+    }
+  }
+}

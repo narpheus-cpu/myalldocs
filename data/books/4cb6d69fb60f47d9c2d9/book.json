@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아미엘 일기",
+    "author": "앙리 프레데릭 아미엘",
+    "genre": "철학",
+    "tags": [
+      "스위스문학",
+      "일기",
+      "성찰",
+      "고독"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "앙리 프레데릭 아미엘은 스위스의 철학자이자 시인으로, 사후에 출간된 방대한 일기를 통해 세계적인 명성을 얻었습니다.",
+    "oneLineSummary": "아미엘이 평생 동안 고독 속에서 기록한 내면의 성찰, 우주적 관조, 그리고 정신적 자유를 담은 일기.",
+    "overallSummary": "평생 독신으로 고독하게 살았던 제네바 대학의 철학 교수 아미엘이 1847년부터 죽기 직전까지 기록한 1만 5600페이지에 달하는 일기의 발췌본입니다. 그는 세속적인 욕망에서 벗어나 영혼의 평화와 순수함을 추구했으며, 문예 비평, 국민성 심리학, 우주적 몽상, 그리고 죽음에 직면한 인간의 존엄한 태도를 깊이 있는 산문으로 남겼습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인생에 대하여",
+        "summary": "아미엘의 생애와 일기의 건립 배경을 소개하고, 1846년 쿡스하펜에서 시작된 그의 여행 기록과 인생을 하나의 아름다운 신적인 시로 바라보는 그의 철학적 관조를 담고 있습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 가치",
+        "value": "자기 분석을 넘어 19세기 지식인의 고뇌와 실존적 고독을 극도로 섬세하게 묘사한 일기 문학의 걸작"
+      }
+    ],
+    "keyEntitiesText": "앙리 프레데릭 아미엘, 베르나르 부비에(편집자), 에드몽 세레르",
+    "settingText": "스위스 제네바 및 유럽 각지의 여행지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BWKZCjeUM6IWYQC1Uk1ndo_PIGhxbuDa",
+    "filename": "앙리 프레데릭 아미엘-아미엘 일기(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T20:33:32.000Z",
+    "size": "2689770",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1BWKZCjeUM6IWYQC1Uk1ndo_PIGhxbuDa/view?usp=drivesdk",
+    "sourceSha256": "90c0d3154fe86ae6404197b2764665515b3038e05a557519f7477696f4bc253f",
+    "textSha256": "98a5d0a0cd9c6a2dd9efca79f1e77cd19a808cdccf3578fb9079a002beef777e",
+    "changeKey": "31999e1af54c41d313fe3d12cc59af8b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4cb6d69fb60f47d9c2d9",
+    "workId": "4cb6d69fb60f47d9c2d9",
+    "driveFileId": "1BWKZCjeUM6IWYQC1Uk1ndo_PIGhxbuDa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:23:21.705628+00:00",
+    "updatedAt": "2026-09-19T18:23:21.705643+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:23:21.705724+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대위의 딸 (외) - 사람은 무엇으로 사는가",
+    "author": "레프 톨스토이",
+    "genre": "소설",
+    "tags": [
+      "러시아문학",
+      "인도주의",
+      "사랑",
+      "천사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "레프 톨스토이는 러시아의 대문호이자 사상가로, 기독교적 사랑과 인도주의를 바탕으로 한 수많은 명작을 남겼습니다.",
+    "oneLineSummary": "가난한 구두장이 세묜이 벌거벗은 천사 미하일을 구해주고 함께 살며 신의 사랑을 깨닫는 이야기.",
+    "overallSummary": "가난한 구두장이 세묜은 외투를 마련하러 갔다가 돈을 받지 못하고 돌아오는 길에 교회 담 밑에서 벌거벗은 채 얼어 죽어가던 청년 미하일을 발견합니다. 세묜은 그를 집으로 데려와 옷을 입히고 음식을 대접합니다. 미하일은 세묜의 집에서 구두 수선 기술을 배우며 뛰어난 솜씨로 집안을 일으키고, 인간의 삶을 지탱하는 신의 세 가지 진리를 깨달아갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사람은 무엇으로 사는가 1~6장",
+        "summary": "세묜이 미하일을 구출하여 집으로 데려오는 과정, 아내 마트료나와의 갈등과 화해, 미하일이 구두 수선공으로 일하며 부유한 신사의 구두를 주문받는 에피소드를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제 의식",
+        "value": "인간의 마음속에 있는 사랑과 신의 섭리에 대한 종교적 성찰"
+      }
+    ],
+    "keyEntitiesText": "세묜(구두장이), 마트료나(세묜의 아내), 미하일(천사)",
+    "settingText": "러시아의 어느 가난한 농가 및 구두 수선방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Rc_Lh_gSFMP-f2Go_q4Cj1oS8SXm1N89",
+    "filename": "톨스토이-사람은 무엇으로 사는가.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:41.147Z",
+    "size": "206241",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1Rc_Lh_gSFMP-f2Go_q4Cj1oS8SXm1N89/view?usp=drivesdk",
+    "sourceSha256": "25ed0b3b5e70ed137b695e35a751882350a955ec8e469e54b7ff02a021479af3",
+    "textSha256": "e87acc8a0388daffd44a3ebb5e255f12c8ebcc467e6770f128dd4ac7ff4f2076",
+    "changeKey": "5065a87a2ddef17ca2fef0d46911e4cd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1066ce1c95dfbcf8bd35",
+    "workId": "1066ce1c95dfbcf8bd35",
+    "driveFileId": "1Rc_Lh_gSFMP-f2Go_q4Cj1oS8SXm1N89",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:21:51.305223+00:00",
+    "updatedAt": "2026-09-19T18:21:51.305240+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.6051,
+      "updatedAt": "2026-09-19T18:21:51.305326+00:00"
+    }
+  }
+}

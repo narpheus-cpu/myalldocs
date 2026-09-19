@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "페스트, 이방인",
+    "author": "알베르 카뮈",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "실존주의",
+      "재앙",
+      "부조리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알베르 카뮈는 프랑스의 실존주의 소설가이자 철학자로, 부조리한 현실에 맞서는 인간의 연대와 반항을 그렸습니다.",
+    "oneLineSummary": "알제리의 도시 오랑에서 갑작스럽게 죽은 쥐들이 창궐하며 닥쳐올 페스트의 재앙을 예고하는 서두.",
+    "overallSummary": "평범하고 무미건조한 상업 도시 오랑을 배경으로 합니다. 어느 날 아침, 의사 베르나르 리외는 자신의 진찰실 계단에서 죽은 쥐를 발견하고, 이어 도시 전체에 수천 마리의 죽은 쥐들이 쏟아져 나오기 시작합니다. 시민들은 점차 불안에 휩싸이고, 리외는 아내를 요양소로 떠나보낸 후 신문기자 랑베르, 장 타루 등과 마주하며 다가올 거대한 재앙(페스트)을 직감합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "페스트 1장",
+        "summary": "오랑 시의 평범한 일상과 기후를 소개한 후, 4월 16일부터 시작된 죽은 쥐들의 창궐 과정과 의사 리외가 목격하는 도시의 점진적인 혼란을 기록합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징적 의미",
+        "value": "죽은 쥐들의 창궐은 인간의 힘으로 통제할 수 없는 부조리한 재앙의 시작을 상징"
+      }
+    ],
+    "keyEntitiesText": "베르나르 리외(의사), 미셸(수위), 레이몽 랑베르(기자), 장 타루",
+    "settingText": "194x년대 알제리 서북부의 해안 도시 오랑"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_9Dt1PXsrHzfBrDjPI-H3j8uvlrkW-o9",
+    "filename": "알베르 카뮈-페스트, 이방인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.621Z",
+    "size": "639148",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1_9Dt1PXsrHzfBrDjPI-H3j8uvlrkW-o9/view?usp=drivesdk",
+    "sourceSha256": "297859596c47584d09c14b9bd34292c159197eff2f4a501a7f8cd2fd8678193c",
+    "textSha256": "b306291990165c59d11f15bfb2c1564c7d548ecf81d25e2a1f0b45324729f1bb",
+    "changeKey": "afd9c5cbf4603e6caf38cd46c5d70481",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5008bc93b4a09fcfc4fe",
+    "workId": "5008bc93b4a09fcfc4fe",
+    "driveFileId": "1_9Dt1PXsrHzfBrDjPI-H3j8uvlrkW-o9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:22:26.707338+00:00",
+    "updatedAt": "2026-09-19T18:22:26.707353+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:22:26.707437+00:00"
+    }
+  }
+}
