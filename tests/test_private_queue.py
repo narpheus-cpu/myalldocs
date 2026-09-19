@@ -284,7 +284,10 @@ def test_terminal_private_queues_are_repaired_and_old_completed_rows_are_hidden(
     ):
         assert phrase in relay
     assert "currentQueueManifestId" in script
-    assert 'request.manifestId=state.currentQueueManifestId' in script
+    assert "queueListManifestId" in script
+    assert 'request.manifestId=state.queueListManifestId' in script
+    assert "if (['NEEDS_USER_REVIEW', 'NO_SUPPORTED_MODEL', 'ERROR'].indexOf(last) >= 0) return 'review'" in relay
+    assert "previousCanContinue && !savedResponse.continued" in relay
     assert 'progress.queueManifestId||progress.phase==="QUEUE_UPLOAD"?"queue-worker.yml":"index-books.yml"' in script
     assert "완료된 항목은 숨겼으며" in script
     assert '"currentFileIndex": len(queue_entries)' in worker

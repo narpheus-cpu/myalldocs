@@ -4,7 +4,7 @@ import {folderNameTag,listDriveBooks,loadDriveFolderPreference,saveDriveFolderPr
 import {loadBrowserValues,removeBrowserValue,writeBrowserValue} from "./browser-state.js";
 import {initJsonGenerator} from "./json-generator.js";
 
-const state={catalog:[],searchIndex:new Map(),libraryPage:1,profiles:new Map(),metadataOverrides:{},contentOverrides:{},pendingContentEdits:{},browserValues:new Map(),deletedDriveFileIds:new Set(),selectedLibraryBookIds:new Set(),currentLibraryPageBooks:[],selectedFolder:null,driveFolder:null,driveFiles:[],selectedDriveFileIds:new Set(),rawDriveFileId:"",rawDriveChunks:[],driveCatalogTimer:null,lastListHash:"library",accessToken:"",tokenExpiresAt:0,monitorTimer:null,pollingLive:false,lastActivityKey:"",lastStatus:null,dispatching:false,queueCheckAt:0,queueResolvedStatus:null,currentQueueManifestId:"",currentBundle:null,currentTabKey:"summary",currentTabDefinition:null,detailEditing:false,showEvidence:false,sourceChunks:new Map(),pendingSourceLink:null,readerFontSize:17,readerLineHeight:1.8,promptFormats:[],selectedFormatId:"",editingFormatId:"",draggedFormatId:"",queue:[],reader:{chunks:[],chunkId:1,text:"",pages:[],page:0,columns:1,font:17,line:1.8,paragraph:.8,margin:32,width:0,height:0,left:null,top:null,toolbarOpen:true,resizeTimer:null,geometryTimer:null,paginationToken:0,pendingRestoreOffset:null,paginationCache:new Map()}};
+const state={catalog:[],searchIndex:new Map(),libraryPage:1,profiles:new Map(),metadataOverrides:{},contentOverrides:{},pendingContentEdits:{},browserValues:new Map(),deletedDriveFileIds:new Set(),selectedLibraryBookIds:new Set(),currentLibraryPageBooks:[],selectedFolder:null,driveFolder:null,driveFiles:[],selectedDriveFileIds:new Set(),rawDriveFileId:"",rawDriveChunks:[],driveCatalogTimer:null,lastListHash:"library",accessToken:"",tokenExpiresAt:0,monitorTimer:null,pollingLive:false,lastActivityKey:"",lastStatus:null,dispatching:false,queueCheckAt:0,queueResolvedStatus:null,currentQueueManifestId:"",queueListManifestId:"",currentBundle:null,currentTabKey:"summary",currentTabDefinition:null,detailEditing:false,showEvidence:false,sourceChunks:new Map(),pendingSourceLink:null,readerFontSize:17,readerLineHeight:1.8,promptFormats:[],selectedFormatId:"",editingFormatId:"",draggedFormatId:"",queue:[],reader:{chunks:[],chunkId:1,text:"",pages:[],page:0,columns:1,font:17,line:1.8,paragraph:.8,margin:32,width:0,height:0,left:null,top:null,toolbarOpen:true,resizeTimer:null,geometryTimer:null,paginationToken:0,pendingRestoreOffset:null,paginationCache:new Map()}};
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],config=window.BOOK_APP_CONFIG||{};
 
 async function initializeBrowserValues(){
@@ -333,7 +333,7 @@ async function uploadPrivateFile(file,kind){
     }
     stage="대기열 등록";
     const finish=await relayRequest({route:"upload-finish",uploadId:start.uploadId,...(uploadToken?{uploadToken}:{})},!uploadToken,true);
-    state.currentQueueManifestId=String(finish.manifestId||"");state.lastStatus=null;state.lastActivityKey="";
+    state.queueListManifestId=String(finish.manifestId||"");state.lastStatus=null;state.lastActivityKey="";
     const failure=dispatchFailureText(finish.dispatch);
     output.textContent=failure?`${file.name} 업로드는 완료됐지만 즉시 실행에 실패했습니다: ${failure} 아래 ‘GitHub 즉시 실행’에서 새 토큰을 검사·저장한 뒤 ‘대기열 지금 실행’을 누르세요.`:`${file.name} 업로드 완료 · 이 파일만 현재 대기열에 표시하며 즉시 자동 처리를 요청했습니다.`;
     input.value="";startMonitoring();await refreshQueue();
@@ -345,13 +345,13 @@ async function refreshQueue(){
   const output=$("#queue-list");output.textContent="현재 업로드 대기열을 불러오는 중…";
   try{
     const request={route:"queue-admin",status:$("#queue-filter").value,page:1,pageSize:200};
-    if(state.currentQueueManifestId)request.manifestId=state.currentQueueManifestId;
+    if(state.queueListManifestId)request.manifestId=state.queueListManifestId;
     const data=await relayRequest(request,true,true),serverCurrent=String(data.currentManifestId||"");
-    if(!state.currentQueueManifestId&&serverCurrent)state.currentQueueManifestId=serverCurrent;
+    if(!state.queueListManifestId&&serverCurrent)state.queueListManifestId=serverCurrent;
     const queues=data.queue||[];
-    state.queue=state.currentQueueManifestId?queues.filter(queue=>queue.manifestId===state.currentQueueManifestId):queues;
-    if(!state.queue.length&&serverCurrent&&serverCurrent!==state.currentQueueManifestId){
-      state.currentQueueManifestId=serverCurrent;
+    state.queue=state.queueListManifestId?queues.filter(queue=>queue.manifestId===state.queueListManifestId):queues;
+    if(!state.queue.length&&serverCurrent&&serverCurrent!==state.queueListManifestId){
+      state.queueListManifestId=serverCurrent;
       return refreshQueue();
     }
     renderQueue();

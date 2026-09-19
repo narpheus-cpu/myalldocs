@@ -202,6 +202,12 @@ function queueDisposition_(snapshot) {
   var state = snapshot && snapshot.state || {};
   var entries = Array.isArray(state.entries) ? state.entries : [];
   var last = String(state.lastRunStatus || '');
+  // Older failed uploads can have no entry rows at all.  Their terminal
+  // lastRunStatus must be honored before the empty-state fallback, otherwise
+  // they stay at the head of the active queue forever and intercept every new
+  // upload.
+  if (['NEEDS_USER_REVIEW', 'NO_SUPPORTED_MODEL', 'ERROR'].indexOf(last) >= 0) return 'review';
+  if (last === 'COMPLETE') return 'complete';
   if (!entries.length) return 'active';
   var completed = entries.every(function(item) { return ['COMPLETE', 'SKIPPED'].indexOf(String(item.status || '')) >= 0; });
   if (completed || last === 'COMPLETE') return 'complete';
@@ -350,7 +356,24 @@ function handleQueueResult_(body) {
   // Repair queue placement even for an idempotent callback. Older deployments
   // could save the result marker while leaving a terminal manifest active.
   placeQueueResult_(properties, id, status, allTargetsComplete);
-  if (previous) return JSON.parse(previous);
+  if (previous) {
+    var savedResponse = JSON.parse(previous);
+    var previousTerminal = allTargetsComplete || ['NEEDS_USER_REVIEW', 'NO_SUPPORTED_MODEL', 'ERROR'].indexOf(status) >= 0;
+    var previousCanContinue = manifestKind !== 'content-edit' &&
+      (status === 'PAUSED_SAFETY_BUDGET' || previousTerminal) &&
+      queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').length > 0;
+    // A worker may repeat an already accepted result callback after a network
+    // timeout.  Queue placement is idempotent, but the older implementation
+    // returned here and could strand the next upload until the 20-minute cron.
+    if (previousCanContinue && !savedResponse.continued) {
+      try {
+        dispatchQueueWorkflow_();
+        savedResponse.continued = true;
+        properties.setProperty(resultKey, JSON.stringify(savedResponse));
+      } catch (ignored) {}
+    }
+    return json_(savedResponse);
+  }
   if (manifestKind === 'content-edit') {
     var currentSave = contentSaveStatus_();
     if (!currentSave.manifestId || currentSave.manifestId === id) {
