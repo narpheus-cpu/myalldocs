@@ -272,11 +272,15 @@ def test_private_upload_retries_transient_relay_failures_idempotently():
     root = Path(__file__).resolve().parents[1]
     script = (root / "js" / "app.js").read_text(encoding="utf-8")
     relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
-    assert "const partBytes=131072" in script
+    assert "Number(capabilities.partBytes)" in script
+    assert "Math.min(2097152" in script
+    assert "uploadToken" in script
     assert "maxAttempts=retryable?5:1" in script
     assert 'route:"upload-capabilities"' in script
     assert 'relayRequest({route:"upload-capabilities"},true,true)' in script
     assert "idempotentUploads: true" in relay
+    assert "uploadProtocolVersion: 2" in relay
+    assert "partBytes: 2097152" in relay
     assert "UPLOAD_REQUEST_" in relay
     assert "UPLOAD_FINISHED_" in relay
     assert "existingManifest" in relay
