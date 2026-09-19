@@ -263,7 +263,7 @@ def test_review_queue_can_be_retried_after_matching_rules_change():
     root = Path(__file__).resolve().parents[1]
     script = (root / "js" / "app.js").read_text(encoding="utf-8")
     relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
-    assert 'retry.textContent="다시 자동 연결"' in script
+    assert 'retry.textContent=item.status==="ERROR"?"다시 처리":"다시 자동 연결"' in script
     assert 'route:"queue-retry",manifestId' in script
     assert "function retryQueue_" in relay
 
