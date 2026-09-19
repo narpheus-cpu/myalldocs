@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "수호지 2: 강호의 일곱 영웅",
+    "author": "시내암 원저, 김홍신 평역",
+    "genre": "소설",
+    "tags": [
+      "중국소설",
+      "평역소설",
+      "고전소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic_novel",
+        "translation_adaptation"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시내암의 원작을 바탕으로 호걸들의 의리와 지략을 생생하게 살려낸 평역서입니다.",
+    "oneLineSummary": "조개를 중심으로 모인 호걸들이 생신강을 털고 관군의 추격을 피해 양산박의 새로운 주역으로 거듭나는 이야기.",
+    "overallSummary": "탁탑천왕 조개와 지다성 오용 등 일곱 호걸이 부패한 관리의 생신강(뇌물)을 탈취하는 거사를 성공시킨 후, 관군의 추격을 피해 양산박으로 들어가 기존의 속 좁은 두령 왕륜을 몰아내고 새로운 의적 집단으로 거듭나는 과정과 송강의 방랑 시작을 다룬 평역 소설의 두 번째 권입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "생신강 탈취 사건과 양산박의 두령 교체 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "지략과 무예가 결합된 흥미진진한 전개"
+      }
+    ],
+    "keyEntitiesText": "조개, 오용, 양지, 송강",
+    "settingText": "중국 산동성 양산박 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1m1_ZGpOf0Al9qGgBLM3IHJ6q3AzsWtkb",
+    "filename": "김홍신 수호지02(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T17:59:32.000Z",
+    "size": "573929",
+    "folderPath": [
+      "books",
+      "00 동서양 고전",
+      "김홍신 수호지"
+    ],
+    "relativePath": "books/00 동서양 고전/김홍신 수호지",
+    "webViewLink": "https://drive.google.com/file/d/1m1_ZGpOf0Al9qGgBLM3IHJ6q3AzsWtkb/view?usp=drivesdk",
+    "sourceSha256": "c8e846839ea1d19abf875783dec78638912d69e75e235af6b260f56324b8b635",
+    "textSha256": "fca92cba00beabeb7c7d7af6c0e585c7bc1d846e03ce1afe9400c1a5f1a02bab",
+    "changeKey": "7e94ef8ac85a5cc91127a02f64fa8fb5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a624edccea4002533e1b",
+    "workId": "a624edccea4002533e1b",
+    "driveFileId": "1m1_ZGpOf0Al9qGgBLM3IHJ6q3AzsWtkb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:04:54.746026+00:00",
+    "updatedAt": "2026-09-19T18:04:54.746041+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3265,
+      "updatedAt": "2026-09-19T18:04:54.746121+00:00"
+    }
+  }
+}

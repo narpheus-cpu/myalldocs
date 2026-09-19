@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사씨남정기",
+    "author": "김만중",
+    "genre": "소설",
+    "tags": [
+      "고전소설",
+      "가정소설",
+      "풍자소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic_novel",
+        "satire"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조선 후기의 문신이자 소설가로, 국문 문학의 가치를 높이 평가한 인물입니다.",
+    "oneLineSummary": "사씨 부인이 간악한 첩 교씨의 모함으로 쫓겨났다가 온갖 고초를 겪은 끝에 진실을 밝히고 복위하는 가정 소설.",
+    "overallSummary": "유한림의 정실부인 사씨가 아들을 낳지 못하자 가문의 대를 잇기 위해 교씨를 첩으로 들이지만, 간악한 교씨의 음모와 모함으로 사씨가 누명을 쓰고 남쪽으로 쫓겨나 방황하다가 결국 교씨의 악행이 드러나 사씨가 복위하고 가정이 평화를 되찾는 과정을 그린 고전 소설입니다. 숙종의 인현왕후 폐위를 풍자한 작품으로 알려져 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "사씨와 유한림의 결혼, 교씨의 간계와 사씨의 남정, 그리고 사씨의 복위를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "풍자",
+        "value": "숙종의 기사환국과 인현왕후 폐위 사건을 우회적으로 비판"
+      }
+    ],
+    "keyEntitiesText": "사씨, 유한림, 교씨, 두부인",
+    "settingText": "명나라 가정 연간의 중국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1016E1GSLI7KxNY_mtNG9W2typjwB-SD1",
+    "filename": "김만중-사씨남정기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.207Z",
+    "size": "204322",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1016E1GSLI7KxNY_mtNG9W2typjwB-SD1/view?usp=drivesdk",
+    "sourceSha256": "07bd14a8bfab2bd25631a58cddcf8ec5bcb2f87a313a2177420acc7007ac0b90",
+    "textSha256": "4ffb553219fc9f62f0b13e14e8df1eb5873a5cd1aafc4265a92b92ee044b15a3",
+    "changeKey": "6e74f79de9f991c402467b4b74709019",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "59adbbcaabc99248acc2",
+    "workId": "59adbbcaabc99248acc2",
+    "driveFileId": "1016E1GSLI7KxNY_mtNG9W2typjwB-SD1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:04:18.156887+00:00",
+    "updatedAt": "2026-09-19T18:04:18.156903+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:04:18.156983+00:00"
+    }
+  }
+}

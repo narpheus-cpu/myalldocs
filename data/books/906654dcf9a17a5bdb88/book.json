@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "김유정 단편선",
+    "author": "김유정",
+    "genre": "소설",
+    "tags": [
+      "한국소설",
+      "단편소설",
+      "해학소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_stories",
+        "humor"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "강원도 춘천 출생으로, 향토색 짙은 농촌 소설을 해학적으로 그려낸 소설가입니다.",
+    "oneLineSummary": "'봄봄', '동백꽃' 등 농촌 사회의 순박한 인물들과 삶의 애환을 해학적이고 독특한 어조로 그려낸 김유정의 대표 단편선.",
+    "overallSummary": "데릴사위와 장인 간의 갈등을 유쾌하게 그린 '봄봄', 사춘기 소년 소녀의 풋풋하고 해학적인 사랑을 담은 '동백꽃' 등 식민지 시대 한국 농촌의 척박한 현실 속에서도 피어나는 순박한 인간미와 웃음을 특유의 토속적인 언어와 해학으로 담아낸 단편 소설집입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "봄봄",
+        "summary": "키가 미처 자라지 않았다는 핑계로 성례를 미루는 장인과 나 사이의 갈등을 다룹니다."
+      },
+      {
+        "sectionTitle": "동백꽃",
+        "summary": "나에게 감자를 건네며 관심을 표하는 점순이와 나의 풋풋한 갈등을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "토속적 어휘와 뛰어난 해학성"
+      }
+    ],
+    "keyEntitiesText": "나, 점순이, 장인(봉필)",
+    "settingText": "강원도 산골 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1r6QIsNVkCdPZdX9m_UoYe7yB193K4ljX",
+    "filename": "김유정 단편선(블루프린트)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T11:19:06.000Z",
+    "size": "273086",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1r6QIsNVkCdPZdX9m_UoYe7yB193K4ljX/view?usp=drivesdk",
+    "sourceSha256": "e0eebef492b757ac1211997844cd47fa1ebe4d3d809e24af57d5b86ec2dadb97",
+    "textSha256": "bb8afabe689197bb054435dc68decc240ea97293930d90fc1857d8dd17caa505",
+    "changeKey": "479ad3b5e55a5ab74e19139718785784",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "906654dcf9a17a5bdb88",
+    "workId": "906654dcf9a17a5bdb88",
+    "driveFileId": "1r6QIsNVkCdPZdX9m_UoYe7yB193K4ljX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:04:36.239620+00:00",
+    "updatedAt": "2026-09-19T18:04:36.239635+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:04:36.239742+00:00"
+    }
+  }
+}

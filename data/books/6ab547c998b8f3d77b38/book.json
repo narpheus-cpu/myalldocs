@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "삼국사기",
+    "author": "김부식",
+    "genre": "역사",
+    "tags": [
+      "역사서",
+      "기전체",
+      "고대사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "korean_history",
+        "chronicle"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고려 시대의 문신, 학자이자 정치가로 유교적 사관에 기초하여 역사를 정리했습니다.",
+    "oneLineSummary": "신라, 고구려, 백제 삼국의 역사적 사실을 유교적 도덕 사관에 입각하여 기전체 형식으로 정리한 한국 최고의 정사.",
+    "overallSummary": "고려 인종의 명을 받아 김부식이 편찬한 역사서로, 신라, 고구려, 백제 삼국의 건국부터 멸망까지의 역사를 본기, 연표, 지, 열전의 기전체 형식으로 서술하였으며, 유교적 합리주의 사관에 기초하여 삼국의 역사를 체계적으로 정리한 한국 고대사 연구의 기본 사료입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "해설",
+        "summary": "삼국사기의 편찬 배경, 김부식의 사관, 그리고 판본의 역사에 대해 설명합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사관",
+        "value": "유교적 합리주의 및 도덕 사관"
+      }
+    ],
+    "keyEntitiesText": "김부식, 인종, 신라, 고구려, 백제",
+    "settingText": "고려 시대 편찬, 삼국 시대 대상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MzUKitGYY2ibNFN0ED8ItR0rYUVuuYeS",
+    "filename": "김부식-삼국사기(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T12:53:20.000Z",
+    "size": "2115686",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1MzUKitGYY2ibNFN0ED8ItR0rYUVuuYeS/view?usp=drivesdk",
+    "sourceSha256": "f2941a61f767955eb1fe6ee4d7cd22a6a796ad86608fcc1e56e8ed1274aac314",
+    "textSha256": "336b7259dea1513799ac6abe57e4f50f9c9a452bf17ce7d919ecf5a914224c40",
+    "changeKey": "ae49a2f8623e809fbe20e4e12db6b83e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6ab547c998b8f3d77b38",
+    "workId": "6ab547c998b8f3d77b38",
+    "driveFileId": "1MzUKitGYY2ibNFN0ED8ItR0rYUVuuYeS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:04:27.556010+00:00",
+    "updatedAt": "2026-09-19T18:04:27.556025+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:04:27.556111+00:00"
+    }
+  }
+}

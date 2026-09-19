@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "광염(狂炎) 소나타",
+    "author": "김동인",
+    "genre": "소설",
+    "tags": [
+      "한국소설",
+      "단편소설",
+      "예술지상주의"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic",
+        "aestheticism"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사실주의와 예술지상주의를 표방하며 한국 근대 단편소설의 기틀을 마련한 소설가입니다.",
+    "oneLineSummary": "범죄와 광기 속에서 예술적 영감을 얻어 명곡을 작곡하는 천재 음악가 백성수의 비극적 일대기를 그린 소설.",
+    "overallSummary": "예술지상주의적 경향이 짙은 작품으로, 방화와 살인 등 끔찍한 범죄를 저지를 때마다 폭발적인 예술적 영감을 얻어 '광염 소나타'를 작곡하는 천재 음악가 백성수의 광기와 파멸을 비평가 K의 시선으로 서술한 소설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "백성수의 광기 어린 작곡 과정과 그의 비극적 최후를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예술관",
+        "value": "예술을 위해 도덕을 희생할 수 있다는 탐미주의적 관점"
+      }
+    ],
+    "keyEntitiesText": "백성수, K씨, 어머니",
+    "settingText": "음침한 예배당과 음악가의 방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uWr5zAB7Z1Jxy6Gkr-xZUZ87T3IYeBe1",
+    "filename": "김동인-광염(狂炎) 소나타 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.149Z",
+    "size": "49037",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1uWr5zAB7Z1Jxy6Gkr-xZUZ87T3IYeBe1/view?usp=drivesdk",
+    "sourceSha256": "5e09540aa329ce0c9ecededc535839b2307a27f57a1be5a6c5f4accdd92d14ac",
+    "textSha256": "fc721c1dfbda36a124f074a86aa92573916d2cb0432ee99c15f8802643b658f0",
+    "changeKey": "21386f129e245748f1586c041f7c59c0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "93a9c34b6a04ef5e60b9",
+    "workId": "93a9c34b6a04ef5e60b9",
+    "driveFileId": "1uWr5zAB7Z1Jxy6Gkr-xZUZ87T3IYeBe1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:03:52.996702+00:00",
+    "updatedAt": "2026-09-19T18:03:52.996719+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:03:52.996803+00:00"
+    }
+  }
+}

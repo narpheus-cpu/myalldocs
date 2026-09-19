@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "백범일지",
+    "author": "김구",
+    "genre": "자서전",
+    "tags": [
+      "역사",
+      "자서전",
+      "독립운동"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "autobiography",
+        "independence_movement"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "대한민국 임시정부 주석을 지낸 독립운동가이자 정치가입니다.",
+    "oneLineSummary": "백범 김구가 상해와 중경 임시정부 시절 두 아들과 동포들에게 남긴 자서전이자 독립운동의 기록.",
+    "overallSummary": "백범 김구가 독립운동의 최전선에서 죽음을 각오하고 두 아들에게 유서 대신 남긴 상권과, 중일전쟁 이후 동포들에게 민족운동의 경륜을 전하고자 쓴 하권, 그리고 민족 국가의 철학을 담은 '나의 소원'으로 구성된 자서전입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "상권",
+        "summary": "김구의 어린 시절과 청년기, 그리고 구국 운동의 시작을 다룹니다."
+      },
+      {
+        "sectionTitle": "하권",
+        "summary": "임시정부 주석으로서의 활동과 독립운동의 전개를 기록합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "의의",
+        "value": "대한민국 임시정부의 역사와 독립정신 고취"
+      }
+    ],
+    "keyEntitiesText": "김구, 김인, 김신, 안창호",
+    "settingText": "한국, 중국 상해 및 중경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rUq5aRo0BMJsVmXgifZf-OelR8biEPnM",
+    "filename": "김구-백범일지(범우사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T12:41:46.000Z",
+    "size": "551183",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1rUq5aRo0BMJsVmXgifZf-OelR8biEPnM/view?usp=drivesdk",
+    "sourceSha256": "a53e56bcd1b03de783bb9bf566506b43ee0a82a9060c061f2b44e85b1fedb3cd",
+    "textSha256": "3def4d552f5634988087b85c64015956df1c04ba821ba15439e52243a99a0b27",
+    "changeKey": "5dbcf7b67acfa8d8960464e5f4e73f25",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "07dd4257a35e5f8bf71d",
+    "workId": "07dd4257a35e5f8bf71d",
+    "driveFileId": "1rUq5aRo0BMJsVmXgifZf-OelR8biEPnM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:03:08.725267+00:00",
+    "updatedAt": "2026-09-19T18:03:08.725282+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:03:08.725366+00:00"
+    }
+  }
+}

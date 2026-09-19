@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "붉은 산 - 어느 의사(醫師)의 수기(手記)",
+    "author": "김동인",
+    "genre": "소설",
+    "tags": [
+      "한국소설",
+      "단편소설",
+      "민족주의"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic",
+        "nationalism"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "예술지상주의와 사실주의를 넘나들며 다양한 주제의 단편소설을 남긴 작가입니다.",
+    "oneLineSummary": "만주 이주민촌에서 온갖 악행을 저지르던 '삵' 정익호가 동포의 죽음 앞에서 민족적 자각을 하며 희생하는 이야기.",
+    "overallSummary": "만주의 한 조선인 소작인 마을에서 온갖 행패를 부리며 미움을 받던 '삵' 정익호가, 중국인 지주에게 억울하게 매 맞아 죽은 송 첨지의 원수를 갚기 위해 지주의 집으로 쳐들어갔다가 치명상을 입고 죽어가면서 고국과 동포를 그리워하는 비장한 최후를 그린 소설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "정익호의 악행과 송 첨지의 죽음, 그리고 정익호의 복수와 최후를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "민족적 유대감과 동포애의 각성"
+      }
+    ],
+    "keyEntitiesText": "정익호(삵), 여(의사), 송 첨지",
+    "settingText": "만주의 광막한 벌판과 조선인 소작인 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XEOkBuOyHvCtTR9jFKsL6JAv1u3xVPiI",
+    "filename": "김동인-붉은 산-어느 의사(醫師)의 수기(手記) .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.196Z",
+    "size": "13232",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1XEOkBuOyHvCtTR9jFKsL6JAv1u3xVPiI/view?usp=drivesdk",
+    "sourceSha256": "0a85742d9a590f051ba99dc8ee9e6feaed0f667de4a85b46121edfa7ff4b197b",
+    "textSha256": "44ea624f291a76bd21b4ddf39a0775124343101284bcf79298388d6bd048227d",
+    "changeKey": "c23d63f82c154385be8a1095f58319f9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "12b630d3302153d861d1",
+    "workId": "12b630d3302153d861d1",
+    "driveFileId": "1XEOkBuOyHvCtTR9jFKsL6JAv1u3xVPiI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:04:09.674104+00:00",
+    "updatedAt": "2026-09-19T18:04:09.674118+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:04:09.674198+00:00"
+    }
+  }
+}

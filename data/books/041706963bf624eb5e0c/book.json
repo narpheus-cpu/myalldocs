@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "수호지 1: 천하를 떠도는 호걸들",
+    "author": "시내암 원저, 김홍신 평역",
+    "genre": "소설",
+    "tags": [
+      "중국소설",
+      "평역소설",
+      "고전소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic_novel",
+        "translation_adaptation"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가 김홍신이 평역하여 대중성을 높인 중국의 대표 고전 소설입니다.",
+    "oneLineSummary": "송나라 말기 부패한 권력에 맞서 양산박으로 모여드는 호걸들의 파란만장한 모험과 의리를 다룬 평역 소설.",
+    "overallSummary": "송나라 말기, 간신 고구의 횡포와 조정의 부패 속에서 억울하게 쫓기거나 세상의 불의에 저항하는 구문룡 사진, 화화상 노지심, 표자두 임충 등 영웅 호걸들이 각자의 사연을 안고 양산박이라는 의적의 소굴로 모여들기 시작하는 과정을 흥미진진하게 그린 평역 소설의 첫 번째 권입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "홍 태위의 복마지전 개방과 고구의 득세, 그리고 호걸들의 방랑 시작을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "의의",
+        "value": "부패한 권력에 대한 민초들의 저항과 카타르시스"
+      }
+    ],
+    "keyEntitiesText": "송강, 노지심, 사진, 임충, 고구",
+    "settingText": "중국 송나라 말기 대륙"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Jees6EmPah-EQhUebaiWyh0wczqIWgJN",
+    "filename": "김홍신 수호지01(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T17:57:42.000Z",
+    "size": "578340",
+    "folderPath": [
+      "books",
+      "00 동서양 고전",
+      "김홍신 수호지"
+    ],
+    "relativePath": "books/00 동서양 고전/김홍신 수호지",
+    "webViewLink": "https://drive.google.com/file/d/1Jees6EmPah-EQhUebaiWyh0wczqIWgJN/view?usp=drivesdk",
+    "sourceSha256": "2b4a30866442d6b2ae5aceec5092e903fb5ee6f9335f9cb8f74b689009d91ab5",
+    "textSha256": "cd648fd640f573c19dc743e336ff13b0b491a9489df94f0ee24d52390a704aa8",
+    "changeKey": "cedca86229da8df1f72628fd36014ec7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "041706963bf624eb5e0c",
+    "workId": "041706963bf624eb5e0c",
+    "driveFileId": "1Jees6EmPah-EQhUebaiWyh0wczqIWgJN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:04:45.297487+00:00",
+    "updatedAt": "2026-09-19T18:04:45.297502+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3016,
+      "updatedAt": "2026-09-19T18:04:45.297584+00:00"
+    }
+  }
+}

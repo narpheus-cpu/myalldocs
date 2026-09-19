@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "수호지 10: 유성 되어 스러지다",
+    "author": "시내암 원저, 김홍신 평역",
+    "genre": "소설",
+    "tags": [
+      "중국소설",
+      "평역소설",
+      "고전소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic_novel",
+        "translation_adaptation"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "양산박 108 영웅들의 장엄하고 비극적인 최후를 담은 평역 소설의 최종장입니다.",
+    "oneLineSummary": "강남의 반란군 방랍을 진압하는 과정에서 수많은 형제를 잃고, 결국 간신들의 음모로 비극적인 최후를 맞는 호걸들의 종장.",
+    "overallSummary": "강남의 참혹한 방랍 정벌 전투에서 장순, 노지심 등 수많은 형제들을 잃어가며 마침내 방랍을 생포해 난을 평정하지만, 개선 후 간신들의 시기와 음모로 인해 노준의와 송강, 이규 등이 독살당하며 108 호걸의 위대한 충의의 역사가 비극적으로 막을 내리는 수호지의 최종장입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "방랍 정벌 전투와 수많은 호걸들의 전사, 그리고 송강과 이규의 비극적 최후를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비극성",
+        "value": "국가에 헌신했으나 토사구팽당하는 영웅들의 비장한 최후"
+      }
+    ],
+    "keyEntitiesText": "송강, 노준의, 방랍, 장순, 노지심, 이규",
+    "settingText": "중국 강남 지방, 동경성, 요아와"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dCYg8oPpDYBsN3T02cjT5ygcUgdljpa9",
+    "filename": "김홍신 수호지10(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T18:14:22.000Z",
+    "size": "564865",
+    "folderPath": [
+      "books",
+      "00 동서양 고전",
+      "김홍신 수호지"
+    ],
+    "relativePath": "books/00 동서양 고전/김홍신 수호지",
+    "webViewLink": "https://drive.google.com/file/d/1dCYg8oPpDYBsN3T02cjT5ygcUgdljpa9/view?usp=drivesdk",
+    "sourceSha256": "e723ea79ae5a34edb49ac39142fe0c13d9ca275501d3873751f6d55f07ba876a",
+    "textSha256": "d9e563c8b6b27d2116d6598b80c4e45f284747b0d55ff958cc7db7d577c3700c",
+    "changeKey": "f7b31f132a53842cfe191f926967dba5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "eff0258c1bc83d02a2d9",
+    "workId": "eff0258c1bc83d02a2d9",
+    "driveFileId": "1dCYg8oPpDYBsN3T02cjT5ygcUgdljpa9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:06:07.210587+00:00",
+    "updatedAt": "2026-09-19T18:06:07.210602+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.37,
+      "updatedAt": "2026-09-19T18:06:07.210723+00:00"
+    }
+  }
+}

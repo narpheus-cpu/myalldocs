@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "기상도(氣象圖)",
+    "author": "김기림",
+    "genre": "시",
+    "tags": [
+      "현대시",
+      "모더니즘",
+      "장시"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": [
+        "modern_poetry",
+        "modernism"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 시인이자 문학평론가로, 모더니즘 시 운동을 주도하였습니다.",
+    "oneLineSummary": "문명 비판적 시각과 모더니즘 기법으로 현대 문명의 위기와 태풍의 추이를 감각적으로 묘사한 김기림의 대표 장시.",
+    "overallSummary": "'세계의 아침', '시민행렬', '태풍의 기침시간', '자최', '병든 풍경', '올배미의 주문', '쇠바퀴의 노래' 등 총 7부로 구성되어, 현대 문명의 붕괴와 위기를 태풍이라는 기상 변화에 빗대어 감각적이고 모더니즘적인 언어로 그려낸 장시입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세계의 아침",
+        "summary": "현대 문명의 아침 풍경을 감각적 이미지로 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "시각적 이미지와 문명 비판적 메시지의 결합"
+      }
+    ],
+    "keyEntitiesText": "태풍, 시민, 파우스트",
+    "settingText": "현대 도시와 바다"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Nrt84jH5T-GcRg8opu52p8CSknP2jD-J",
+    "filename": "김기림-기상도(氣象圖) .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.116Z",
+    "size": "22405",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1Nrt84jH5T-GcRg8opu52p8CSknP2jD-J/view?usp=drivesdk",
+    "sourceSha256": "8e1563e4bf72742911921ab2cf6278ede28476755e95e722ea8c4a0cb0d08b74",
+    "textSha256": "48bc56befcfe800ab0edee7184a42910df9fa10d275535d336c5b22aa0d0a7bb",
+    "changeKey": "5c1ad773908a2e14d74bdac6bf27a26d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e6fc963615562de1817a",
+    "workId": "e6fc963615562de1817a",
+    "driveFileId": "1Nrt84jH5T-GcRg8opu52p8CSknP2jD-J",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-19T18:03:32.162859+00:00",
+    "updatedAt": "2026-09-19T18:03:32.162874+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-19T18:03:32.162956+00:00"
+    }
+  }
+}
