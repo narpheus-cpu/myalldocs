@@ -2,6 +2,11 @@ name: Process private upload queue
 
 on:
   workflow_dispatch:
+    inputs:
+      manifest_id:
+        description: "Private Drive queue manifest id"
+        required: false
+        type: string
   schedule:
     # A persisted upload must not depend on an Apps Script GitHub token.
     # Empty checks stop before dependency installation and make no Gemini call.
@@ -25,6 +30,7 @@ jobs:
       DRIVE_ROOT_FOLDER_ID: ${{ vars.DRIVE_ROOT_FOLDER_ID }}
       APPS_SCRIPT_CALLBACK_URL: ${{ secrets.APPS_SCRIPT_CALLBACK_URL }}
       APPS_SCRIPT_CALLBACK_SECRET: ${{ secrets.APPS_SCRIPT_CALLBACK_SECRET }}
+      REQUESTED_PRIVATE_QUEUE_MANIFEST_ID: ${{ inputs.manifest_id }}
     steps:
       - uses: actions/checkout@v7
         with:

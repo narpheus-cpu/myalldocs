@@ -4,6 +4,7 @@ from __future__ import annotations
 import contextlib
 import importlib
 import inspect
+import re
 import sys
 import types
 import uuid
@@ -14,10 +15,12 @@ if "pytest" not in sys.modules:
     fake = types.ModuleType("pytest")
 
     @contextlib.contextmanager
-    def raises(expected):
+    def raises(expected, match=None):
         try:
             yield
-        except expected:
+        except expected as exc:
+            if match and not re.search(match, str(exc)):
+                raise AssertionError(f"Exception text did not match {match!r}: {exc}") from exc
             return
         raise AssertionError(f"Expected {expected.__name__}")
 

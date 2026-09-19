@@ -74,15 +74,22 @@ def notify_queue_result(url: str, secret: str, manifest_id: str, status: str, su
 
 
 def main() -> int:
-    try:
-        context = fetch_queue_context(
-            os.getenv("APPS_SCRIPT_CALLBACK_URL", ""),
-            os.getenv("APPS_SCRIPT_CALLBACK_SECRET", ""),
-            service_account_email(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON", "")),
-        )
-    except Exception as exc:
-        print(f"Private queue lookup failed safely: {type(exc).__name__}")
-        return 1
+    requested = str(os.getenv("REQUESTED_PRIVATE_QUEUE_MANIFEST_ID") or "").strip()
+    if requested and not ID_PATTERN.fullmatch(requested):
+        raise RuntimeError("Requested private queue manifest id is invalid")
+    if requested:
+        context = {"manifestId": requested}
+        print("Private queue manifest was supplied by the upload dispatch.")
+    else:
+        try:
+            context = fetch_queue_context(
+                os.getenv("APPS_SCRIPT_CALLBACK_URL", ""),
+                os.getenv("APPS_SCRIPT_CALLBACK_SECRET", ""),
+                service_account_email(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON", "")),
+            )
+        except Exception as exc:
+            print(f"Private queue lookup failed safely: {type(exc).__name__}")
+            return 1
     destination = os.getenv("GITHUB_ENV", "")
     if not destination:
         raise RuntimeError("GITHUB_ENV is unavailable")

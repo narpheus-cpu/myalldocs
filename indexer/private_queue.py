@@ -4,6 +4,7 @@ import base64
 import gzip
 import io
 import json
+import logging
 import time
 import urllib.error
 import urllib.request
@@ -13,6 +14,9 @@ from typing import Any
 
 class CanonicalUploadFormatError(ValueError):
     """A completed-index upload cannot be decoded into book objects."""
+
+
+LOG = logging.getLogger("book-indexer.private-queue")
 
 
 def parse_canonical_upload(payload: bytes) -> list[dict[str, Any]]:
@@ -64,12 +68,16 @@ class QueueBundle:
 
 
 class PrivateQueueDrive:
-    """Read only files explicitly shared with the queue worker.
+    """Read queue files and persist checkpoints directly through Drive.
 
-    Apps Script creates the queue files, so drive.file alone cannot always
-    discover them. drive.readonly makes explicitly shared queue files visible.
-    State writes go back through the authenticated Apps Script owner instead of
-    granting the worker broad Drive write access.
+    Apps Script creates a private session folder and grants this isolated
+    service account editor access to it.  Writing ``queue-state.json`` through
+    Drive avoids making every checkpoint depend on an Apps Script web-app cold
+    start.  OAuth scopes never override Drive ACLs: the worker can only modify
+    items that were explicitly shared with the service-account identity.
+
+    The old Apps Script state route remains as a migration fallback for upload
+    sessions created before the editor permission was repaired.
     """
 
     def __init__(self, service_account_json: str, callback_url: str = "", callback_secret: str = "") -> None:
@@ -79,7 +87,7 @@ class PrivateQueueDrive:
         info = json.loads(service_account_json)
         credentials = service_account.Credentials.from_service_account_info(
             info,
-            scopes=["https://www.googleapis.com/auth/drive.readonly"],
+            scopes=["https://www.googleapis.com/auth/drive"],
         )
         self.service = build("drive", "v3", credentials=credentials, cache_discovery=False)
         self.callback_url = callback_url
@@ -122,8 +130,68 @@ class PrivateQueueDrive:
         return QueueBundle(manifest_id, manifest, entries, state)
 
     def save_state(self, bundle: QueueBundle, state: dict[str, Any]) -> None:
-        if not self.callback_url or not self.callback_secret:
-            raise RuntimeError("비공개 대기열 상태 저장 연결이 없습니다.")
+        state_file_id = str(bundle.manifest.get("stateFileId") or "")
+        if not state_file_id:
+            raise RuntimeError("비공개 대기열 상태 파일이 없습니다.")
+        encoded = json.dumps(state, ensure_ascii=False, indent=2).encode("utf-8")
+        last_error: Exception | None = None
+        for attempt in range(5):
+            try:
+                self._update_state_file(state_file_id, encoded)
+                bundle.state = state
+                return
+            except Exception as exc:
+                last_error = exc
+                # A media upload can reach Drive even when its HTTP response is
+                # lost.  Read-after-write verification turns that uncertainty
+                # into an idempotent success instead of duplicating work.
+                if self._state_matches(state_file_id, state):
+                    bundle.state = state
+                    return
+                if attempt < 4:
+                    time.sleep(min(16, 2 ** (attempt + 1)))
+
+        # Compatibility only: old sessions may not yet grant the worker write
+        # access.  New sessions normally never pass through Apps Script here.
+        if self.callback_url and self.callback_secret:
+            try:
+                self._save_state_via_apps_script(bundle, state)
+                bundle.state = state
+                return
+            except Exception as exc:
+                last_error = exc
+        raise RuntimeError(f"Drive 대기열 상태 저장이 5회 실패했습니다: {last_error}")
+
+    def _update_state_file(self, state_file_id: str, encoded: bytes) -> None:
+        from googleapiclient.http import MediaIoBaseUpload
+
+        media = MediaIoBaseUpload(
+            io.BytesIO(encoded),
+            mimetype="application/json",
+            chunksize=1024 * 1024,
+            resumable=len(encoded) > 5 * 1024 * 1024,
+        )
+        request = self.service.files().update(
+            fileId=state_file_id,
+            media_body=media,
+            fields="id,size,modifiedTime",
+            supportsAllDrives=True,
+        )
+        if not media.resumable():
+            request.execute(num_retries=0)
+            return
+        response = None
+        while response is None:
+            _, response = request.next_chunk(num_retries=0)
+
+    def _state_matches(self, state_file_id: str, expected: dict[str, Any]) -> bool:
+        try:
+            return _object(self.download(state_file_id), "대기열 상태") == expected
+        except Exception as exc:
+            LOG.warning("Checkpoint verification skipped: %s", type(exc).__name__)
+            return False
+
+    def _save_state_via_apps_script(self, bundle: QueueBundle, state: dict[str, Any]) -> None:
         compressed = gzip.compress(json.dumps(state, ensure_ascii=False).encode("utf-8"), compresslevel=6)
         body = json.dumps({
             "route": "queue-state",
@@ -133,7 +201,7 @@ class PrivateQueueDrive:
         }, ensure_ascii=False).encode("utf-8")
         value: Any = None
         last_error: Exception | None = None
-        max_attempts = 5
+        max_attempts = 2
         for attempt in range(max_attempts):
             request = urllib.request.Request(
                 self.callback_url,
@@ -142,10 +210,9 @@ class PrivateQueueDrive:
                 method="POST",
             )
             try:
-                with urllib.request.urlopen(request, timeout=30) as response:
+                with urllib.request.urlopen(request, timeout=60) as response:
                     value = json.loads(response.read().decode("utf-8"))
                 if isinstance(value, dict) and value.get("ok") is True:
-                    bundle.state = state
                     return
                 detail = str(value.get("error") or "")[:300] if isinstance(value, dict) else "응답 형식 오류"
                 raise RuntimeError(f"Apps Script가 비공개 대기열 상태를 저장하지 못했습니다: {detail}")
@@ -159,7 +226,7 @@ class PrivateQueueDrive:
                 last_error = exc
             if attempt + 1 < max_attempts:
                 time.sleep(min(16, 2 ** (attempt + 1)))
-        raise RuntimeError(f"Apps Script 상태 저장 연결이 {max_attempts}회 실패했습니다: {last_error}")
+        raise RuntimeError(f"Apps Script 예비 상태 저장이 {max_attempts}회 실패했습니다: {last_error}")
 
 
 def parse_jsonl(payload: bytes) -> list[dict[str, Any]]:

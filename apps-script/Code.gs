@@ -140,7 +140,7 @@ function finishPrivateUpload_(body) {
       manifestFile = driveCreateFile_({name: 'queue-manifest.json', parents: [record.folderId]}, Utilities.newBlob(JSON.stringify(manifest, null, 2)).getBytes(), 'application/json');
     }
     appendQueueManifest_(manifestFile.id);
-    var response = {ok: true, queued: true, manifestId: manifestFile.id, dispatch: body.skipDispatch === true ? {requested: false, deferred: true} : dispatchQueueWorkflow_()};
+    var response = {ok: true, queued: true, manifestId: manifestFile.id, dispatch: body.skipDispatch === true ? {requested: false, deferred: true} : dispatchQueueWorkflow_(manifestFile.id)};
     PropertiesService.getScriptProperties().setProperty(completedKey, JSON.stringify(response));
     PropertiesService.getScriptProperties().deleteProperty('UPLOAD_SESSION_' + record.id);
     return response;
@@ -472,7 +472,7 @@ function retryQueue_(body) {
   }
   PropertiesService.getScriptProperties().setProperty('PRIVATE_REVIEW_MANIFEST_IDS', JSON.stringify(queueIds_('PRIVATE_REVIEW_MANIFEST_IDS').filter(function(item) { return item !== id; })));
   appendQueueManifest_(id);
-  return {ok: true, dispatch: dispatchQueueWorkflow_()};
+  return {ok: true, dispatch: dispatchQueueWorkflow_(id)};
 }
 
 function assertAuthorizedUser_(body) {
@@ -1039,16 +1039,20 @@ function latestIndexRun_(owner, repo, token) {
   return runs.length ? runs[0] : null;
 }
 
-function dispatchQueueWorkflow_() {
+function dispatchQueueWorkflow_(preferredManifestId) {
   var owner = requiredProperty_('GITHUB_OWNER');
   var repo = requiredProperty_('GITHUB_REPO');
   var properties = PropertiesService.getScriptProperties();
   var token = String(properties.getProperty('GITHUB_TOKEN') || '').trim();
   if (!githubTokenLooksValid_(token)) return queueScheduledFallback_('missing_or_invalid_token', 0);
-  var result = requestQueueWorkflow_(owner, repo, token);
+  // The upload that just finished already knows its manifest id. Passing it to
+  // Actions avoids a slow web-app round trip that previously scanned every
+  // historical queue before the worker could even start.
+  var active = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS');
+  var preferred = String(preferredManifestId || '');
+  var nextManifestId = preferred && active.indexOf(preferred) >= 0 ? preferred : (active.length ? active[0] : '');
+  var result = requestQueueWorkflow_(owner, repo, token, nextManifestId);
   if (!result.ok) return queueScheduledFallback_(result.reason, result.code);
-  var lists = repairQueueLists_();
-  var nextManifestId = lists.active.length ? lists.active[0] : '';
   var nextKind = '';
   var nextFilename = '';
   if (nextManifestId) {
@@ -1068,11 +1072,11 @@ function dispatchQueueWorkflow_() {
   return {requested: true, scheduledFallback: false};
 }
 
-function requestQueueWorkflow_(owner, repo, token) {
+function requestQueueWorkflow_(owner, repo, token, manifestId) {
   var url = 'https://api.github.com/repos/' + encodeURIComponent(owner) + '/' + encodeURIComponent(repo) + '/actions/workflows/queue-worker.yml/dispatches';
   try {
     var response = UrlFetchApp.fetch(url, {
-      method: 'post', contentType: 'application/json', payload: JSON.stringify({ref: 'main'}),
+      method: 'post', contentType: 'application/json', payload: JSON.stringify({ref: 'main', inputs: {manifest_id: String(manifestId || '')}}),
       headers: {Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2026-03-10'}, muteHttpExceptions: true
     });
     var code = response.getResponseCode();

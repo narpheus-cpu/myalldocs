@@ -8,7 +8,7 @@ from indexer.canonical import CanonicalValidationError, legacy_to_canonical, nor
 from indexer.models import DriveBook
 from indexer.content_edit_worker import apply_content_edit
 from indexer.prior_knowledge import prior_knowledge_prompt, valid_prior_result
-from indexer.private_queue import CanonicalUploadFormatError, parse_canonical_upload, parse_jsonl
+from indexer.private_queue import CanonicalUploadFormatError, PrivateQueueDrive, QueueBundle, parse_canonical_upload, parse_jsonl
 from indexer.queue_context import service_account_email
 from indexer.queue_worker import QueueWorker, _validate_public_content, match_entries, reconcile_completed_entries, refresh_unresolved_matches
 from indexer.source_link_worker import apply_source_link
@@ -38,20 +38,37 @@ def test_completed_upload_reports_the_bad_jsonl_line_without_crashing_the_runner
         parse_canonical_upload(payload)
 
 
-def test_private_queue_reads_shared_files_but_delegates_state_writes():
+def test_private_queue_writes_checkpoints_directly_and_keeps_relay_fallback():
     root = Path(__file__).resolve().parents[1]
     source = (root / "indexer" / "private_queue.py").read_text(encoding="utf-8")
-    assert '"https://www.googleapis.com/auth/drive.readonly"' in source
+    assert '"https://www.googleapis.com/auth/drive"' in source
+    assert "MediaIoBaseUpload" in source
+    assert "self.service.files().update" in source
+    assert "_state_matches" in source
     assert '"route": "queue-state"' in source
     assert '"stateGzipBase64"' in source
     assert "gzip.compress" in source
-    assert "timeout=30" in source
-    assert "max_attempts = 5" in source
+    assert "timeout=60" in source
+    assert "max_attempts = 2" in source
     assert 'str(value.get("error") or "")[:300]' in source
-    assert 'self.service.files().update' not in source
     assert 'self.service.files().create' not in source
-    assert '"https://www.googleapis.com/auth/drive.file"' not in source
-    assert '"https://www.googleapis.com/auth/drive"]' not in source
+
+
+def test_direct_checkpoint_save_updates_bundle_without_apps_script():
+    drive = object.__new__(PrivateQueueDrive)
+    drive.callback_url = "https://script.invalid/exec"
+    drive.callback_secret = "secret"
+    writes = []
+    drive._update_state_file = lambda file_id, payload: writes.append((file_id, json.loads(payload)))
+    drive._state_matches = lambda *_args: False
+    drive._save_state_via_apps_script = lambda *_args: (_ for _ in ()).throw(AssertionError("relay should not be used"))
+    bundle = QueueBundle("manifest-id", {"stateFileId": "state-file-id"}, [], {})
+    state = {"schemaVersion": 1, "entries": [{"status": "MATCHED"}]}
+
+    drive.save_state(bundle, state)
+
+    assert writes == [("state-file-id", state)]
+    assert bundle.state == state
 
 
 def test_drive_matching_prefers_relative_path_and_auto_selects_duplicate_names():
@@ -380,6 +397,17 @@ def test_queue_lookup_retries_transient_apps_script_timeouts():
     source = (root / "indexer" / "queue_context.py").read_text(encoding="utf-8")
     assert "for attempt in range(2)" in source
     assert "timeout=60" in source
+
+
+def test_immediate_queue_dispatch_passes_manifest_without_relay_lookup():
+    root = Path(__file__).resolve().parents[1]
+    workflow = (root / ".github" / "workflows" / "queue-worker.yml").read_text(encoding="utf-8")
+    context = (root / "indexer" / "queue_context.py").read_text(encoding="utf-8")
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    assert "REQUESTED_PRIVATE_QUEUE_MANIFEST_ID" in workflow
+    assert "REQUESTED_PRIVATE_QUEUE_MANIFEST_ID" in context
+    assert "dispatchQueueWorkflow_(manifestFile.id)" in relay
+    assert "inputs: {manifest_id: String(manifestId || '')}" in relay
 
 
 def test_missing_public_result_is_requeued_after_runner_commit_failure(tmp_path):
