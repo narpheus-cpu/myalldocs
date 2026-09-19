@@ -79,7 +79,8 @@ class ProgressReporter:
 
 def _safe_status(status: dict[str, Any]) -> dict[str, Any]:
     allowed = {
-        "status", "phase", "message", "model", "folderId", "folderName", "runId", "runUrl", "currentFileName",
+        "status", "phase", "message", "model", "folderId", "folderName", "runId", "runUrl",
+        "queueManifestId", "queueKind", "uploadFilename", "currentFileName",
         "currentFileIndex", "totalFiles", "currentChunk", "totalChunks",
         "complete", "skipped", "failed", "metadataReview", "processedChunks",
         "apiRequests", "apiSuccessfulRequests", "apiRequestAttempts", "apiFailedAttempts", "inputTokens", "outputTokens", "driveQuotaUnits",

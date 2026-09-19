@@ -294,6 +294,11 @@ class QueueWorker:
 
     def run(self, manifest_id: str) -> dict[str, Any]:
         bundle = self.private_drive.load_bundle(manifest_id)
+        queue_context = {
+            "queueManifestId": manifest_id,
+            "queueKind": str(bundle.manifest.get("kind") or ""),
+            "uploadFilename": str(bundle.manifest.get("originalFilename") or ""),
+        }
         if bundle.manifest.get("kind") == "content-edit":
             return self._apply_content_edit(bundle)
         if bundle.manifest.get("kind") == "source-link":
@@ -305,7 +310,7 @@ class QueueWorker:
         root_meta = self.source_drive.folder_metadata(root_id)
         state = bundle.state if isinstance(bundle.state, dict) else {}
         if not isinstance(state.get("entries"), list) or len(state["entries"]) != len(bundle.entries):
-            self.status = {"status": "RUNNING", "phase": "MATCHING", "message": "Drive 원본 목록을 한 번만 확인하고 있습니다.", "totalFiles": len(bundle.entries), "startedAt": _now()}
+            self.status = {"status": "RUNNING", "phase": "MATCHING", "message": "Drive 원본 목록을 한 번만 확인하고 있습니다.", "totalFiles": len(bundle.entries), "startedAt": _now(), **queue_context}
             self._emit("MATCHING", self.status["message"], True)
             drive_books = list(self.source_drive.iter_books(root_id, True))
             state = {"schemaVersion": 1, "manifestId": manifest_id, "kind": bundle.manifest["kind"], "entries": match_entries(bundle.entries, drive_books, str(root_meta.get("name") or "")), "createdAt": _now(), "updatedAt": _now()}
@@ -330,7 +335,7 @@ class QueueWorker:
             "failed": sum(1 for item in queue_entries if item.get("status") == "ERROR"),
             "metadataReview": sum(1 for item in queue_entries if item.get("status") == "NEEDS_METADATA_REVIEW"),
         }
-        self.status = {"status": "RUNNING", "phase": "QUEUE_READY", "message": "비공개 대기열을 이어서 처리합니다.", "totalFiles": len(queue_entries), "startedAt": state.get("createdAt") or _now(), **counts}
+        self.status = {"status": "RUNNING", "phase": "QUEUE_READY", "message": "비공개 대기열을 이어서 처리합니다.", "totalFiles": len(queue_entries), "startedAt": state.get("createdAt") or _now(), **queue_context, **counts}
         self._emit("QUEUE_READY", self.status["message"], True)
         max_books = int(self.settings.raw.get("queue", {}).get("maxBooksPerRun", 20) or 20)
         processed = 0
@@ -417,6 +422,8 @@ class QueueWorker:
         terminal_review = unresolved and all(item.get("status") in {"NOT_FOUND", "AMBIGUOUS", "NEEDS_METADATA_REVIEW", "ERROR"} for item in unresolved)
         final = pause or ("COMPLETE" if not unresolved else ("NEEDS_USER_REVIEW" if terminal_review else "PAUSED_SAFETY_BUDGET"))
         self.status.update(counts)
+        if final in {"COMPLETE", "NEEDS_USER_REVIEW"}:
+            self.status.update({"currentFileIndex": len(queue_entries), "currentFileName": ""})
         self.status.update({"status": final, "phase": final, "allTargetsComplete": not unresolved, "finishedAt": _now(), "message": _final_message(final, len(unresolved), complete_before, counts)})
         state.update({"entries": queue_entries, "updatedAt": _now(), "lastRunStatus": final})
         self.private_drive.save_state(bundle, state)
@@ -587,7 +594,7 @@ def _final_message(status: str, unresolved: int, complete_before: int, counts: d
     if status == "COMPLETE":
         return "비공개 대기열의 모든 도서가 처리되었습니다."
     if status == "NEEDS_USER_REVIEW":
-        return f"자동으로 확정할 수 없는 {unresolved}개 항목이 있어 사용자 확인을 기다립니다."
+        return f"처리가 끝나지 않은 {unresolved}개 항목만 확인 목록에 남겼습니다. 완료된 이전 항목은 숨겼습니다."
     if status == "PAUSED_SAFETY_BUDGET":
         return "이번 실행의 무료 안전 예산만큼 처리했습니다. 남은 대기열은 예약 실행에서 자동으로 이어집니다."
     if status == "PAUSED_RATE_LIMIT":
@@ -623,16 +630,17 @@ def main() -> int:
         status = {
             "status": "NEEDS_USER_REVIEW", "phase": "UPLOAD_FORMAT_ERROR",
             "message": str(exc), "allTargetsComplete": False, "finishedAt": _now(),
+            "queueManifestId": manifest_id,
         }
         atomic_write_json(settings.root / "data" / "job-status.json", status)
         progress.emit(status, force=True)
     except NoSupportedModel as exc:
-        status = {"status": "NO_SUPPORTED_MODEL", "phase": "NO_SUPPORTED_MODEL", "message": str(exc), "allTargetsComplete": False, "finishedAt": _now()}
+        status = {"status": "NO_SUPPORTED_MODEL", "phase": "NO_SUPPORTED_MODEL", "message": str(exc), "allTargetsComplete": False, "finishedAt": _now(), "queueManifestId": manifest_id}
         atomic_write_json(settings.root / "data" / "job-status.json", status)
         progress.emit(status, force=True)
     except Exception as exc:
         LOG.exception("Private queue worker failed")
-        status = {"status": "ERROR", "phase": "ERROR", "message": str(exc), "allTargetsComplete": False, "finishedAt": _now()}
+        status = {"status": "ERROR", "phase": "ERROR", "message": str(exc), "allTargetsComplete": False, "finishedAt": _now(), "queueManifestId": manifest_id}
         atomic_write_json(settings.root / "data" / "job-status.json", status)
         progress.emit(status, force=True)
     try:

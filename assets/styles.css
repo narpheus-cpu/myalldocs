@@ -157,6 +157,10 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 .queue-heading > div:last-child { display: flex; align-items: center; gap: 8px; padding-bottom: 10px; font-size: 11px; }
 .queue-heading select, .queue-heading button { padding: 6px 8px; border: 1px solid #000; background: #fff; font-size: 11px; }
 .queue-row { display: grid; grid-template-columns: 1fr auto; gap: 16px; padding: 12px 0; border-bottom: 1px solid #000; }
+.queue-batch + .queue-batch { margin-top: 24px; }
+.queue-batch-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding-bottom: 8px; border-bottom: 2px solid #000; }
+.queue-batch-heading strong, .queue-batch-heading small { overflow-wrap: anywhere; }
+.queue-batch-heading small { flex: none; font-size: 10px; }
 .queue-row strong, .queue-row small { display: block; }
 .queue-row small { margin-top: 4px; font-size: 10px; overflow-wrap: anywhere; }
 .queue-reason { margin: 5px 0 0; font-size: 11px; }

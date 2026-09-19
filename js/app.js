@@ -4,7 +4,7 @@ import {folderNameTag,listDriveBooks,loadDriveFolderPreference,saveDriveFolderPr
 import {loadBrowserValues,removeBrowserValue,writeBrowserValue} from "./browser-state.js";
 import {initJsonGenerator} from "./json-generator.js";
 
-const state={catalog:[],searchIndex:new Map(),libraryPage:1,profiles:new Map(),metadataOverrides:{},contentOverrides:{},pendingContentEdits:{},browserValues:new Map(),deletedDriveFileIds:new Set(),selectedLibraryBookIds:new Set(),currentLibraryPageBooks:[],selectedFolder:null,driveFolder:null,driveFiles:[],selectedDriveFileIds:new Set(),rawDriveFileId:"",rawDriveChunks:[],driveCatalogTimer:null,lastListHash:"library",accessToken:"",tokenExpiresAt:0,monitorTimer:null,pollingLive:false,lastActivityKey:"",lastStatus:null,dispatching:false,queueCheckAt:0,queueResolvedStatus:null,currentBundle:null,currentTabKey:"summary",currentTabDefinition:null,detailEditing:false,showEvidence:false,sourceChunks:new Map(),pendingSourceLink:null,readerFontSize:17,readerLineHeight:1.8,promptFormats:[],selectedFormatId:"",editingFormatId:"",draggedFormatId:"",queue:[],reader:{chunks:[],chunkId:1,text:"",pages:[],page:0,columns:1,font:17,line:1.8,paragraph:.8,margin:32,width:0,height:0,left:null,top:null,toolbarOpen:true,resizeTimer:null,geometryTimer:null,paginationToken:0,pendingRestoreOffset:null,paginationCache:new Map()}};
+const state={catalog:[],searchIndex:new Map(),libraryPage:1,profiles:new Map(),metadataOverrides:{},contentOverrides:{},pendingContentEdits:{},browserValues:new Map(),deletedDriveFileIds:new Set(),selectedLibraryBookIds:new Set(),currentLibraryPageBooks:[],selectedFolder:null,driveFolder:null,driveFiles:[],selectedDriveFileIds:new Set(),rawDriveFileId:"",rawDriveChunks:[],driveCatalogTimer:null,lastListHash:"library",accessToken:"",tokenExpiresAt:0,monitorTimer:null,pollingLive:false,lastActivityKey:"",lastStatus:null,dispatching:false,queueCheckAt:0,queueResolvedStatus:null,currentQueueManifestId:"",currentBundle:null,currentTabKey:"summary",currentTabDefinition:null,detailEditing:false,showEvidence:false,sourceChunks:new Map(),pendingSourceLink:null,readerFontSize:17,readerLineHeight:1.8,promptFormats:[],selectedFormatId:"",editingFormatId:"",draggedFormatId:"",queue:[],reader:{chunks:[],chunkId:1,text:"",pages:[],page:0,columns:1,font:17,line:1.8,paragraph:.8,margin:32,width:0,height:0,left:null,top:null,toolbarOpen:true,resizeTimer:null,geometryTimer:null,paginationToken:0,pendingRestoreOffset:null,paginationCache:new Map()}};
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],config=window.BOOK_APP_CONFIG||{};
 
 async function initializeBrowserValues(){
@@ -308,10 +308,81 @@ function openUploadManual(kind){const dialog=$("#upload-manual-dialog"),title=$(
 function closeUploadManual(){const dialog=$("#upload-manual-dialog");if(dialog.open)dialog.close()}
 function beginPrivateFileChoice(kind){const output=$("#private-upload-message"),button=$(kind==="catalog-jsonl"?"#upload-catalog-jsonl":"#upload-canonical-json"),input=$(kind==="catalog-jsonl"?"#catalog-jsonl-file":"#canonical-json-file");if(hasFreshAccessToken()){input.click();return}button.disabled=true;output.textContent="Google 계정 연결이 먼저 필요합니다. 로그인 창을 확인하세요.";getAccessToken(true).then(()=>{output.textContent="Google 계정이 연결됐습니다. 업로드 버튼을 한 번 더 눌러 파일을 선택하세요.";button.focus()}).catch(error=>{output.textContent=`Google 연결 실패: ${error.message}`}).finally(()=>{button.disabled=false})}
 function dispatchFailureText(dispatch){if(!dispatch?.scheduledFallback)return"";return dispatch.message||({missing_or_invalid_token:"GitHub 즉시 실행 토큰이 없거나 형식이 잘못되었습니다.",github_http_401:"GitHub 토큰이 만료되었거나 잘못되었습니다(HTTP 401).",github_http_403:"GitHub Actions 쓰기 권한이 없습니다(HTTP 403).",github_http_404:"저장소 접근 범위 또는 실행 파일을 찾지 못했습니다(HTTP 404).",github_request_unavailable:"GitHub에 일시적으로 연결할 수 없습니다."}[dispatch.reason]||`GitHub 즉시 실행 실패${dispatch.code?` (HTTP ${dispatch.code})`:""}.`)}
-async function uploadPrivateFile(file,kind){const output=$("#private-upload-message"),button=$(kind==="catalog-jsonl"?"#upload-catalog-jsonl":"#upload-canonical-json"),input=$(kind==="catalog-jsonl"?"#catalog-jsonl-file":"#canonical-json-file");if(!file)return;if(!hasFreshAccessToken()){input.value="";output.textContent="Google 연결이 만료되었습니다. 업로드 버튼을 다시 눌러 연결하세요.";return}const expected=kind==="catalog-jsonl"?/\.jsonl$/i:/\.json$/i;if(!expected.test(file.name)){output.textContent=kind==="catalog-jsonl"?".jsonl 파일을 선택하세요.":".json 파일을 선택하세요.";input.value="";return}const requestId=globalThis.crypto?.randomUUID?.()||`${Date.now()}-${Math.random().toString(36).slice(2)}`;let stage="업로드 준비";button.disabled=true;output.textContent=`${file.name} · 비공개 업로드를 준비하는 중…`;try{const capabilities=await relayRequest({route:"upload-capabilities"},true,true);if(capabilities.idempotentUploads!==true)throw new Error("Apps Script 최신 배포를 확인하지 못했습니다. 잠시 후 다시 시도하세요.");const partBytes=Math.max(131072,Math.min(2097152,Number(capabilities.partBytes)||131072)),partCount=Math.max(1,Math.ceil(file.size/partBytes)),partDelayMs=Math.max(0,Math.min(3000,Number(capabilities.partDelayMs)||0));const start=await relayRequest({route:"upload-start",requestId,kind,filename:file.name,size:file.size,partCount},true,true);if(Number(start.partBytes)&&Number(start.partBytes)<partBytes)throw new Error("Apps Script 업로드 조각 설정이 서로 다릅니다. 최신 버전으로 다시 배포하세요.");const uploadToken=String(start.uploadToken||"");if(Number(capabilities.uploadProtocolVersion)>=2&&!uploadToken)throw new Error("Apps Script 업로드 세션 인증값을 받지 못했습니다.");for(let index=0;index<partCount;index++){stage=`${index+1}/${partCount}번째 조각 전송`;const bytes=new Uint8Array(await file.slice(index*partBytes,Math.min(file.size,(index+1)*partBytes)).arrayBuffer()),base64=bytesToBase64(bytes);await relayRequest({route:"upload-part",uploadId:start.uploadId,...(uploadToken?{uploadToken}:{}),index,base64},!uploadToken,true);output.textContent=`${file.name} · 비공개 업로드 ${index+1}/${partCount} (${Math.round((index+1)/partCount*100)}%)`;if(partDelayMs&&index+1<partCount)await new Promise(resolve=>setTimeout(resolve,partDelayMs))}stage="대기열 등록";const finish=await relayRequest({route:"upload-finish",uploadId:start.uploadId,...(uploadToken?{uploadToken}:{})},!uploadToken,true);const failure=dispatchFailureText(finish.dispatch);output.textContent=failure?`${file.name} 업로드는 완료됐지만 즉시 실행에 실패했습니다: ${failure} 아래 ‘GitHub 즉시 실행’에서 새 토큰을 검사·저장한 뒤 ‘대기열 지금 실행’을 누르세요.`:`${file.name} 업로드 완료 · 원본 연결과 즉시 자동 처리를 요청했습니다.`;input.value="";startMonitoring();await refreshQueue()}catch(error){output.textContent=`업로드 실패 (${stage}): ${error.message}`}finally{button.disabled=false}}
+async function uploadPrivateFile(file,kind){
+  const output=$("#private-upload-message"),button=$(kind==="catalog-jsonl"?"#upload-catalog-jsonl":"#upload-canonical-json"),input=$(kind==="catalog-jsonl"?"#catalog-jsonl-file":"#canonical-json-file");
+  if(!file)return;
+  if(!hasFreshAccessToken()){input.value="";output.textContent="Google 연결이 만료되었습니다. 업로드 버튼을 다시 눌러 연결하세요.";return}
+  const expected=kind==="catalog-jsonl"?/\.jsonl$/i:/\.json$/i;
+  if(!expected.test(file.name)){output.textContent=kind==="catalog-jsonl"?".jsonl 파일을 선택하세요.":".json 파일을 선택하세요.";input.value="";return}
+  const requestId=globalThis.crypto?.randomUUID?.()||`${Date.now()}-${Math.random().toString(36).slice(2)}`;
+  let stage="업로드 준비";button.disabled=true;output.textContent=`${file.name} · 비공개 업로드를 준비하는 중…`;
+  try{
+    const capabilities=await relayRequest({route:"upload-capabilities"},true,true);
+    if(capabilities.idempotentUploads!==true)throw new Error("Apps Script 최신 배포를 확인하지 못했습니다. 잠시 후 다시 시도하세요.");
+    const partBytes=Math.max(131072,Math.min(2097152,Number(capabilities.partBytes)||131072)),partCount=Math.max(1,Math.ceil(file.size/partBytes)),partDelayMs=Math.max(0,Math.min(3000,Number(capabilities.partDelayMs)||0));
+    const start=await relayRequest({route:"upload-start",requestId,kind,filename:file.name,size:file.size,partCount},true,true);
+    if(Number(start.partBytes)&&Number(start.partBytes)<partBytes)throw new Error("Apps Script 업로드 조각 설정이 서로 다릅니다. 최신 버전으로 다시 배포하세요.");
+    const uploadToken=String(start.uploadToken||"");
+    if(Number(capabilities.uploadProtocolVersion)>=2&&!uploadToken)throw new Error("Apps Script 업로드 세션 인증값을 받지 못했습니다.");
+    for(let index=0;index<partCount;index++){
+      stage=`${index+1}/${partCount}번째 조각 전송`;
+      const bytes=new Uint8Array(await file.slice(index*partBytes,Math.min(file.size,(index+1)*partBytes)).arrayBuffer()),base64=bytesToBase64(bytes);
+      await relayRequest({route:"upload-part",uploadId:start.uploadId,...(uploadToken?{uploadToken}:{}),index,base64},!uploadToken,true);
+      output.textContent=`${file.name} · 비공개 업로드 ${index+1}/${partCount} (${Math.round((index+1)/partCount*100)}%)`;
+      if(partDelayMs&&index+1<partCount)await new Promise(resolve=>setTimeout(resolve,partDelayMs));
+    }
+    stage="대기열 등록";
+    const finish=await relayRequest({route:"upload-finish",uploadId:start.uploadId,...(uploadToken?{uploadToken}:{})},!uploadToken,true);
+    state.currentQueueManifestId=String(finish.manifestId||"");state.lastStatus=null;state.lastActivityKey="";
+    const failure=dispatchFailureText(finish.dispatch);
+    output.textContent=failure?`${file.name} 업로드는 완료됐지만 즉시 실행에 실패했습니다: ${failure} 아래 ‘GitHub 즉시 실행’에서 새 토큰을 검사·저장한 뒤 ‘대기열 지금 실행’을 누르세요.`:`${file.name} 업로드 완료 · 이 파일만 현재 대기열에 표시하며 즉시 자동 처리를 요청했습니다.`;
+    input.value="";startMonitoring();await refreshQueue();
+  }catch(error){output.textContent=`업로드 실패 (${stage}): ${error.message}`}
+  finally{button.disabled=false}
+}
 function bytesToBase64(bytes){let output="";const block=0x8000;for(let index=0;index<bytes.length;index+=block)output+=String.fromCharCode(...bytes.subarray(index,index+block));return btoa(output)}
-async function refreshQueue(){const output=$("#queue-list");output.textContent="비공개 대기열을 불러오는 중…";try{const data=await relayRequest({route:"queue-admin",status:$("#queue-filter").value,page:1,pageSize:200},true,true);state.queue=data.queue||[];renderQueue()}catch(error){output.textContent=`대기열을 불러오지 못했습니다: ${error.message}`}}
-function renderQueue(){const root=$("#queue-list"),filter=$("#queue-filter").value,rows=state.queue.flatMap(queue=>(queue.entries||[]).map(item=>({...item,manifestId:queue.manifestId,kind:queue.kind,uploadedFile:queue.originalFilename,createdAt:queue.createdAt}))).filter(item=>!filter||item.status===filter);root.replaceChildren();if(!rows.length){appendText(root,"p",state.queue.length?"선택한 상태의 항목이 없습니다.":"등록된 비공개 대기열이 없습니다.","empty");return}const table=document.createElement("div");table.className="queue-table";rows.forEach(item=>{const row=document.createElement("article");row.className="queue-row";const main=document.createElement("div");appendText(main,"strong",item.filename||"파일명 없음");appendText(main,"small",[item.relativePath,item.uploadedFile].filter(Boolean).join(" · "));const badge=appendText(row,"span",item.status||"PENDING","queue-status");badge.dataset.status=item.status||"PENDING";if(item.reason)appendText(main,"p",item.reason,"queue-reason");if(["NOT_FOUND","AMBIGUOUS","NEEDS_METADATA_REVIEW","ERROR"].includes(item.status)){const retry=document.createElement("button");retry.type="button";retry.className="compact-button";retry.textContent="다시 자동 연결";retry.onclick=()=>retryReviewQueue(item.manifestId,retry);main.append(retry)}row.append(main,badge);table.append(row)});root.append(table)}
+async function refreshQueue(){
+  const output=$("#queue-list");output.textContent="현재 업로드 대기열을 불러오는 중…";
+  try{
+    const request={route:"queue-admin",status:$("#queue-filter").value,page:1,pageSize:200};
+    if(state.currentQueueManifestId)request.manifestId=state.currentQueueManifestId;
+    const data=await relayRequest(request,true,true),serverCurrent=String(data.currentManifestId||"");
+    if(!state.currentQueueManifestId&&serverCurrent)state.currentQueueManifestId=serverCurrent;
+    const queues=data.queue||[];
+    state.queue=state.currentQueueManifestId?queues.filter(queue=>queue.manifestId===state.currentQueueManifestId):queues;
+    if(!state.queue.length&&serverCurrent&&serverCurrent!==state.currentQueueManifestId){
+      state.currentQueueManifestId=serverCurrent;
+      return refreshQueue();
+    }
+    renderQueue();
+  }catch(error){output.textContent=`대기열을 불러오지 못했습니다: ${error.message}`}
+}
+function renderQueue(){
+  const root=$("#queue-list"),filter=$("#queue-filter").value;
+  root.replaceChildren();
+  if(!state.queue.length){appendText(root,"p","현재 표시할 업로드 대기열이 없습니다.","empty");return}
+  state.queue.forEach(queue=>{
+    const section=document.createElement("section");section.className="queue-batch";
+    const heading=document.createElement("div");heading.className="queue-batch-heading";
+    appendText(heading,"strong",queue.originalFilename||"업로드 파일");
+    appendText(heading,"small",queue.scope==="review"?"확인이 필요한 항목만 표시":"현재 처리 대기열");
+    section.append(heading);
+    const rows=(queue.entries||[]).filter(item=>!filter||item.status===filter);
+    if(!rows.length){appendText(section,"p",queue.scope==="active"?"파일 목록을 준비하고 있습니다.":"완료된 항목은 숨겼으며, 현재 선택한 상태의 항목은 없습니다.","empty");root.append(section);return}
+    const table=document.createElement("div");table.className="queue-table";
+    rows.forEach(item=>{
+      const row=document.createElement("article");row.className="queue-row";
+      const main=document.createElement("div");appendText(main,"strong",item.filename||"파일명 확인 중");appendText(main,"small",item.relativePath||"");
+      const badge=appendText(row,"span",item.status||"PENDING","queue-status");badge.dataset.status=item.status||"PENDING";
+      if(item.reason)appendText(main,"p",item.reason,"queue-reason");
+      if(["NOT_FOUND","AMBIGUOUS","NEEDS_METADATA_REVIEW","ERROR"].includes(item.status)){
+        const retry=document.createElement("button");retry.type="button";retry.className="compact-button";retry.textContent=item.status==="ERROR"?"다시 처리":"다시 자동 연결";retry.onclick=()=>retryReviewQueue(queue.manifestId,retry);main.append(retry)
+      }
+      row.append(main,badge);table.append(row)
+    });
+    section.append(table);root.append(section)
+  })
+}
 async function retryReviewQueue(manifestId,button){const output=$("#private-upload-message");button.disabled=true;output.textContent="사용자 확인 대기 항목을 새 연결 규칙으로 다시 확인하는 중…";try{const data=await relayRequest({route:"queue-retry",manifestId},true,true);const failure=dispatchFailureText(data.dispatch);if(failure)throw new Error(failure);output.textContent="다시 연결 요청을 보냈습니다. 처리 상황은 아래 실시간 화면에서 자동으로 갱신됩니다.";startMonitoring();await refreshQueue()}catch(error){output.textContent=`다시 연결 실패: ${error.message}`;button.disabled=false}}
 async function relay(route){if(!state.selectedFolder){message("먼저 Google Drive 폴더를 선택하세요.");return}if(route==="dispatch"&&state.dispatching){message("인덱싱 요청을 이미 전달하고 있습니다.");return}const start=$("#start-index");if(route==="dispatch"){state.dispatching=true;start.disabled=true}message(route==="preview"?"대상을 확인하는 중…":"GitHub Actions를 요청하는 중…");try{const data=await relayRequest({route,folderId:state.selectedFolder.id,folderName:state.selectedFolder.name,recursive:$("#recursive").checked,force:$("#force-reindex").checked});message(route==="preview"?`대상 TXT/EPUB ${data.targetFiles}개 · 하위 폴더 ${data.folders}개`:data.alreadyRunning?(data.message||"이미 인덱싱 작업이 실행 또는 대기 중입니다."):`작업 요청 완료 · GitHub 실행 ID ${data.runId||"확인 중"}`);if(route==="dispatch")startMonitoring()}catch(e){message(`요청 실패: ${e.message}`)}finally{if(route==="dispatch"){state.dispatching=false;start.disabled=false}}}
 async function saveApiKey(){const input=$("#gemini-key"),key=input.value.trim(),output=$("#api-key-message");if(!/^[A-Za-z0-9._-]{20,300}$/.test(key)){output.textContent="올바른 Gemini API Key를 입력하세요.";return}$("#save-api-key").disabled=true;$("#api-key-state").textContent="저장 중";$("#api-key-state").className="state-badge pending";output.textContent="Google 계정을 확인하고 안전하게 저장하는 중…";try{const data=await relayRequest({route:"update-api-key",geminiApiKey:key});input.value="";input.type="password";$("#toggle-key").textContent="보기";renderApiKeyStatus(data.geminiKey,true);output.textContent="서버 저장을 확인했습니다. GitHub 기본 Secret 대신 이 키를 다음 인덱싱부터 사용합니다."}catch(e){$("#api-key-state").textContent="저장 실패";$("#api-key-state").className="state-badge error";output.textContent=`저장 실패: ${e.message}`}finally{$("#save-api-key").disabled=false}}
@@ -324,12 +395,31 @@ async function connectMonitor(){const output=$("#monitor-connection");output.tex
 async function loadJobStatus(){try{const saved=await fetchJSON("data/job-status.json");await syncFolderFromStatus(saved);renderJobStatus(saved,false)}catch(e){$("#job-status").textContent="저장된 작업 상태를 불러오지 못했습니다."}}
 function startMonitoring(){if(state.monitorTimer)clearInterval(state.monitorTimer);pollLiveStatus();state.monitorTimer=setInterval(pollLiveStatus,5000)}
 async function pollLiveStatus(){if(state.pollingLive||!state.accessToken||location.hash.slice(1).split("/")[0]!=="indexing")return;state.pollingLive=true;try{const data=await relayRequest({route:"status"},true,true);let progress=await reconcileQueuedStatus(data.progress||{});await syncFolderFromStatus(progress);if(["COMPLETE","ERROR","PAUSED_RATE_LIMIT","PAUSED_SERVICE_UNAVAILABLE","NO_SUPPORTED_MODEL"].includes(progress.status)){try{const saved=await fetchJSON(`data/job-status.json?status=${Date.now()}`),sameRun=saved.startedAt&&progress.startedAt?saved.startedAt===progress.startedAt:saved.status===progress.status&&saved.currentFileName===progress.currentFileName;if(sameRun){if(!saved.lastError&&Array.isArray(saved.errors)&&saved.errors[0]?.error)saved.lastError=saved.errors[0].error;if(!saved.message&&saved.lastError)saved.message=`책 처리 오류: ${saved.lastError}`;const liveUpdatedAt=progress.updatedAt;progress={...progress,...saved,...(liveUpdatedAt?{updatedAt:liveUpdatedAt}:{})}}}catch(e){console.warn("저장된 상세 상태 병합 생략",e)}}renderJobStatus(progress,true);const key=data.geminiKey||{};renderApiKeyStatus(key);$("#api-key-message").textContent=key.configured?"Apps Script 서버에서 저장된 키를 확인했습니다.":"Apps Script에 별도 키가 없어 GitHub 기본 Secret을 사용합니다.";renderGitHubDispatchStatus(data.githubDispatch||{});$("#github-token-message").textContent=data.githubDispatch?.verifiedAt?"Apps Script 서버의 GitHub 즉시 실행 연결을 확인했습니다.":"GitHub 즉시 실행 토큰을 검사·저장해야 업로드 직후 바로 처리됩니다.";$("#monitor-connection").textContent="연결됨 · 이전 요청 완료 후 자동 갱신"}catch(e){$("#monitor-connection").textContent=`실시간 갱신 실패: ${e.message}`}finally{state.pollingLive=false}}
-async function reconcileQueuedStatus(progress){if(progress.status!=="QUEUED"){state.queueResolvedStatus=null;return progress}const updated=Date.parse(progress.updatedAt||"");if(!updated||Date.now()-updated<60000||!config.githubRepository)return progress;if(state.queueResolvedStatus)return{...progress,...state.queueResolvedStatus};if(Date.now()-state.queueCheckAt<30000)return progress;state.queueCheckAt=Date.now();try{const response=await fetch(`https://api.github.com/repos/${config.githubRepository}/actions/workflows/index-books.yml/runs?event=workflow_dispatch&per_page=1`,{cache:"no-store"});if(!response.ok)return progress;const run=(await response.json()).workflow_runs?.[0];if(!run||Date.parse(run.created_at)<updated-120000)return progress;const common={runId:String(run.id||""),runUrl:run.html_url||""};if(run.status==="in_progress")state.queueResolvedStatus={...common,status:"RUNNING",phase:"PREPARING",message:"GitHub 실행기가 시작되어 설정과 테스트를 확인하고 있습니다."};else if(run.status==="completed")state.queueResolvedStatus={...common,status:"ERROR",phase:"ERROR",lastError:`GitHub 사전 단계 ${run.conclusion||"실패"}`,message:"GitHub 작업은 종료됐지만 인덱싱이 시작되지 않았습니다. 준비 또는 사전 테스트 단계의 오류입니다."};return state.queueResolvedStatus?{...progress,...state.queueResolvedStatus}:progress}catch(error){console.warn("GitHub 대기 상태 확인 생략",error);return progress}}
-const phaseLabels={WAITING:"대기",QUEUED:"실행 대기",QUEUE_UPLOAD:"비공개 업로드 대기",QUEUE_READY:"대기열 준비",MATCHING:"Drive 원본 연결",IDENTIFYING:"작품 식별·AI 사전지식 인덱싱",NEEDS_USER_REVIEW:"사용자 확인 필요",PAUSED_SAFETY_BUDGET:"안전 예산 일시정지",PREPARING:"실행 환경 준비",DISCOVERY_COMPLETE:"파일 목록 확인",STARTING_BOOK:"책 처리 시작",UNCHANGED:"변경 없음",DOWNLOADING:"Drive 다운로드",METADATA:"제목·저자 판별",CLASSIFYING:"문서 유형 분류",ANALYZING_CHUNK:"원문 구간 분석",SYNTHESIZING:"전체 분석 통합",SAVING:"결과 저장",BOOK_FINISHED:"책 처리 완료",BOOK_ERROR:"책 처리 오류",GEMINI_RETRY:"Gemini 일시 오류 재시도",GEMINI_PACING:"무료 호출 간격 조절",INVALID_JSON_RETRY:"JSON 응답 자동 복구",MODEL_FALLBACK:"다음 무료 모델로 전환",MODEL_COOLDOWN:"전 모델 쿨다운",MODEL_CYCLE_RESTART:"무료 모델 다시 탐색",COMPLETE:"전체 완료",ERROR:"처리 오류",PAUSED_RATE_LIMIT:"무료 한도 일시정지",PAUSED_SERVICE_UNAVAILABLE:"Gemini 서비스 일시정지",NO_SUPPORTED_MODEL:"지원 모델 없음"};
+async function reconcileQueuedStatus(progress){
+  if(progress.status!=="QUEUED"){state.queueResolvedStatus=null;return progress}
+  const updated=Date.parse(progress.updatedAt||"");
+  if(!updated||Date.now()-updated<60000||!config.githubRepository)return progress;
+  if(state.queueResolvedStatus)return{...progress,...state.queueResolvedStatus};
+  if(Date.now()-state.queueCheckAt<30000)return progress;
+  state.queueCheckAt=Date.now();
+  try{
+    const workflow=progress.queueManifestId||progress.phase==="QUEUE_UPLOAD"?"queue-worker.yml":"index-books.yml";
+    const response=await fetch(`https://api.github.com/repos/${config.githubRepository}/actions/workflows/${workflow}/runs?event=workflow_dispatch&per_page=1`,{cache:"no-store"});
+    if(!response.ok)return progress;
+    const run=(await response.json()).workflow_runs?.[0];
+    if(!run||Date.parse(run.created_at)<updated-120000)return progress;
+    const common={runId:String(run.id||""),runUrl:run.html_url||""};
+    if(run.status==="in_progress")state.queueResolvedStatus={...common,status:"RUNNING",phase:"PREPARING",message:"GitHub 실행기가 시작되어 설정과 테스트를 확인하고 있습니다."};
+    else if(run.status==="completed")state.queueResolvedStatus={...common,status:"ERROR",phase:"ERROR",lastError:`GitHub 사전 단계 ${run.conclusion||"실패"}`,message:"GitHub 작업은 종료됐지만 처리가 시작되지 않았습니다. 준비 또는 사전 테스트 단계의 오류입니다."};
+    return state.queueResolvedStatus?{...progress,...state.queueResolvedStatus}:progress
+  }catch(error){console.warn("GitHub 대기 상태 확인 생략",error);return progress}
+}
+const phaseLabels={WAITING:"대기",QUEUED:"실행 대기",QUEUE_UPLOAD:"비공개 업로드 대기",QUEUE_READY:"대기열 준비",MATCHING:"Drive 원본 연결",IDENTIFYING:"작품 식별·AI 사전지식 인덱싱",UPLOAD_FORMAT_ERROR:"업로드 파일 확인 필요",NEEDS_USER_REVIEW:"사용자 확인 필요",PAUSED_SAFETY_BUDGET:"안전 예산 일시정지",PREPARING:"실행 환경 준비",DISCOVERY_COMPLETE:"파일 목록 확인",STARTING_BOOK:"책 처리 시작",UNCHANGED:"변경 없음",DOWNLOADING:"Drive 다운로드",METADATA:"제목·저자 판별",CLASSIFYING:"문서 유형 분류",ANALYZING_CHUNK:"원문 구간 분석",SYNTHESIZING:"전체 분석 통합",SAVING:"결과 저장",BOOK_FINISHED:"책 처리 완료",BOOK_ERROR:"책 처리 오류",GEMINI_RETRY:"Gemini 일시 오류 재시도",GEMINI_PACING:"무료 호출 간격 조절",INVALID_JSON_RETRY:"JSON 응답 자동 복구",MODEL_FALLBACK:"다음 무료 모델로 전환",MODEL_COOLDOWN:"전 모델 쿨다운",MODEL_CYCLE_RESTART:"무료 모델 다시 탐색",COMPLETE:"전체 완료",ERROR:"처리 오류",PAUSED_RATE_LIMIT:"무료 한도 일시정지",PAUSED_SERVICE_UNAVAILABLE:"Gemini 서비스 일시정지",NO_SUPPORTED_MODEL:"지원 모델 없음"};
 function renderJobStatus(incoming,live){
   const derivedError=incoming.lastError||(Array.isArray(incoming.errors)&&incoming.errors[0]?.error)||"";
   if(derivedError)incoming={...incoming,lastError:derivedError,...(!incoming.message?{message:`책 처리 오류: ${derivedError}`}:{})};
-  if(incoming.status==="QUEUED"||(incoming.startedAt&&state.lastStatus?.startedAt&&incoming.startedAt!==state.lastStatus.startedAt))state.lastStatus=null;
+  if(incoming.status==="QUEUED"||(incoming.queueManifestId&&state.lastStatus?.queueManifestId&&incoming.queueManifestId!==state.lastStatus.queueManifestId)||(incoming.startedAt&&state.lastStatus?.startedAt&&incoming.startedAt!==state.lastStatus.startedAt))state.lastStatus=null;
+  if(incoming.queueManifestId)state.currentQueueManifestId=String(incoming.queueManifestId);
   state.lastStatus={...(state.lastStatus||{}),...incoming};
   const s=state.lastStatus,root=$("#job-status");root.replaceChildren();
   const total=Number(s.totalFiles||0),index=Number(s.currentFileIndex||0),resolved=Number(s.complete||0)+Number(s.skipped||0),percent=total?Math.min(100,resolved/total*100):0;
@@ -338,7 +428,7 @@ function renderJobStatus(incoming,live){
   const indicator=$("#live-indicator");indicator.textContent=live?"실시간 · 5초 갱신":"저장된 상태";indicator.classList.toggle("live",live);
   const attempts=s.apiRequestAttempts??s.apiRequests??0,success=s.apiSuccessfulRequests??"정보 없음",failed=s.apiFailedAttempts??"정보 없음",models=Array.isArray(s.attemptedModels)?s.attemptedModels.join(" → "):(s.model||"아직 선택 전"),retry=s.retryAttempt?`${s.retryAttempt} / ${s.retryMaxAttempts||"-"}`:"-",delay=s.retryDelaySeconds!=null?`${s.retryDelaySeconds}초`:"-",cycle=s.maxModelCycles?`${s.modelCycle||1} / ${s.maxModelCycles}`:(s.modelCycle||1);
   const groups=[
-    ["현재 작업",[["상태",s.status||"-"],["현재 단계",phaseLabels[s.phase]||s.phase||"-"],["현재 파일",s.currentFileName||"-"],["파일 순서",total?`${index} / ${total}`:"-"],["현재 구간",s.totalChunks?`${s.currentChunk||0} / ${s.totalChunks}`:"-"],["마지막 갱신",formatTime(s.updatedAt||s.finishedAt)]]],
+    ["현재 작업",[["상태",s.status||"-"],["현재 단계",phaseLabels[s.phase]||s.phase||"-"],["업로드 파일",s.uploadFilename||"-"],["현재 파일",s.currentFileName||"-"],["파일 순서",total?`${index} / ${total}`:"-"],["현재 구간",s.totalChunks?`${s.currentChunk||0} / ${s.totalChunks}`:"-"],["마지막 갱신",formatTime(s.updatedAt||s.finishedAt)]]],
     ["모델 및 재시도",[["선택 모델",s.model||"아직 선택 전"],["이전 모델",s.previousModel||"-"],["시도한 모델",models],["모델 전환",s.modelSwitchCount??0],["모델 순환",cycle],["순환 재시작",s.modelCycleRestarts??0],["최근 HTTP",s.lastHttpStatus||"-"],["재시도 횟수",retry],["대기 시간",delay]]],
     ["처리 결과",[["완료",s.complete??0],["건너뜀",s.skipped??0],["실패",s.failed??0],["메타 확인 필요",s.metadataReview??0],["JSON 문법 오류",s.invalidJsonResponses??0]]],
     ["무료 사용량",[["Gemini 호출",attempts],["성공 응답",success],["실패 시도",failed],["입력 토큰",Number(s.inputTokens||0).toLocaleString()],["출력 토큰",Number(s.outputTokens||0).toLocaleString()],["Drive 사용량",s.driveQuotaUnits??0],["Drive 다운로드",formatBytes(s.driveDownloadedBytes)]]]

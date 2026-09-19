@@ -268,6 +268,29 @@ def test_review_queue_can_be_retried_after_matching_rules_change():
     assert "function retryQueue_" in relay
 
 
+def test_terminal_private_queues_are_repaired_and_old_completed_rows_are_hidden():
+    root = Path(__file__).resolve().parents[1]
+    script = (root / "js" / "app.js").read_text(encoding="utf-8")
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    worker = (root / "indexer" / "queue_worker.py").read_text(encoding="utf-8")
+    for phrase in (
+        "function repairQueueLists_()",
+        "function queueDisposition_",
+        "function placeQueueResult_",
+        "CURRENT_QUEUE_MANIFEST_ID",
+        "['NEEDS_USER_REVIEW', 'NO_SUPPORTED_MODEL', 'ERROR']",
+        "reviewMap[id] && ['COMPLETE', 'SKIPPED']",
+        "item.status = item.driveFileId ? 'MATCHED' : 'NOT_FOUND'",
+    ):
+        assert phrase in relay
+    assert "currentQueueManifestId" in script
+    assert 'request.manifestId=state.currentQueueManifestId' in script
+    assert 'progress.queueManifestId||progress.phase==="QUEUE_UPLOAD"?"queue-worker.yml":"index-books.yml"' in script
+    assert "완료된 항목은 숨겼으며" in script
+    assert '"currentFileIndex": len(queue_entries)' in worker
+    assert '"queueManifestId": manifest_id' in worker
+
+
 def test_private_upload_retries_transient_relay_failures_idempotently():
     root = Path(__file__).resolve().parents[1]
     script = (root / "js" / "app.js").read_text(encoding="utf-8")

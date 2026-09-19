@@ -45,7 +45,10 @@ function doPost(e) {
     if (body.route === 'upload-start') return json_(startPrivateUpload_(body));
     if (body.route === 'upload-part') return json_(savePrivateUploadPart_(body));
     if (body.route === 'upload-finish') return json_(finishPrivateUpload_(body));
-    if (body.route === 'queue-admin') return json_({ok: true, queue: queueAdmin_(body)});
+    if (body.route === 'queue-admin') {
+      var queue = queueAdmin_(body);
+      return json_({ok: true, queue: queue, currentManifestId: queueViewManifestId_()});
+    }
     if (body.route === 'queue-retry') return json_(retryQueue_(body));
     assertFolderWithinRoot_(body.folderId);
     if (body.route === 'preview') return json_(previewFolder_(body.folderId, body.recursive !== false));
@@ -182,6 +185,78 @@ function appendQueueManifest_(id) {
   var ids = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').filter(function(item) { return item !== id; });
   ids.push(id);
   properties.setProperty('PRIVATE_QUEUE_MANIFEST_IDS', JSON.stringify(ids.slice(-200)));
+  properties.setProperty('LATEST_QUEUE_MANIFEST_ID', String(id));
+}
+
+function queueManifestSnapshot_(id) {
+  var manifest = JSON.parse(DriveApp.getFileById(String(id)).getBlob().getDataAsString('UTF-8'));
+  var state = {};
+  if (manifest.stateFileId) {
+    try { state = JSON.parse(DriveApp.getFileById(String(manifest.stateFileId)).getBlob().getDataAsString('UTF-8')); }
+    catch (ignored) { state = {}; }
+  }
+  return {manifest: manifest, state: state};
+}
+
+function queueDisposition_(snapshot) {
+  var state = snapshot && snapshot.state || {};
+  var entries = Array.isArray(state.entries) ? state.entries : [];
+  var last = String(state.lastRunStatus || '');
+  if (!entries.length) return 'active';
+  var completed = entries.every(function(item) { return ['COMPLETE', 'SKIPPED'].indexOf(String(item.status || '')) >= 0; });
+  if (completed || last === 'COMPLETE') return 'complete';
+  var terminal = entries.every(function(item) {
+    return ['COMPLETE', 'SKIPPED', 'NOT_FOUND', 'AMBIGUOUS', 'NEEDS_METADATA_REVIEW', 'ERROR'].indexOf(String(item.status || '')) >= 0;
+  });
+  if (terminal || ['NEEDS_USER_REVIEW', 'NO_SUPPORTED_MODEL', 'ERROR'].indexOf(last) >= 0) return 'review';
+  return 'active';
+}
+
+function repairQueueLists_() {
+  var properties = PropertiesService.getScriptProperties();
+  var active = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').filter(function(value, index, values) { return values.indexOf(value) === index; });
+  var reviews = queueIds_('PRIVATE_REVIEW_MANIFEST_IDS').filter(function(value, index, values) { return values.indexOf(value) === index; });
+  var kept = [];
+  active.forEach(function(id) {
+    try {
+      var disposition = queueDisposition_(queueManifestSnapshot_(id));
+      if (disposition === 'active') kept.push(id);
+      else if (disposition === 'review' && reviews.indexOf(id) < 0) reviews.push(id);
+    } catch (error) {
+      // A temporary Drive read failure must never discard a private upload.
+      kept.push(id);
+    }
+  });
+  reviews = reviews.filter(function(id) { return kept.indexOf(id) < 0; }).slice(-200);
+  properties.setProperty('PRIVATE_QUEUE_MANIFEST_IDS', JSON.stringify(kept.slice(-200)));
+  properties.setProperty('PRIVATE_REVIEW_MANIFEST_IDS', JSON.stringify(reviews));
+  var current = String(properties.getProperty('CURRENT_QUEUE_MANIFEST_ID') || '');
+  if (current && kept.indexOf(current) < 0) properties.deleteProperty('CURRENT_QUEUE_MANIFEST_ID');
+  return {active: kept.slice(-200), review: reviews};
+}
+
+function placeQueueResult_(properties, id, status, allTargetsComplete) {
+  var active = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').filter(function(item) { return item !== id; });
+  var reviews = queueIds_('PRIVATE_REVIEW_MANIFEST_IDS').filter(function(item) { return item !== id; });
+  var terminalReview = ['NEEDS_USER_REVIEW', 'NO_SUPPORTED_MODEL', 'ERROR'].indexOf(status) >= 0;
+  if (!allTargetsComplete && !terminalReview) active.push(id);
+  if (terminalReview) reviews.push(id);
+  properties.setProperty('PRIVATE_QUEUE_MANIFEST_IDS', JSON.stringify(active.filter(function(value, index, values) { return values.indexOf(value) === index; }).slice(-200)));
+  properties.setProperty('PRIVATE_REVIEW_MANIFEST_IDS', JSON.stringify(reviews.filter(function(value, index, values) { return values.indexOf(value) === index; }).slice(-200)));
+  if (String(properties.getProperty('CURRENT_QUEUE_MANIFEST_ID') || '') === id && (allTargetsComplete || terminalReview)) {
+    properties.deleteProperty('CURRENT_QUEUE_MANIFEST_ID');
+  }
+}
+
+function queueViewManifestId_() {
+  var properties = PropertiesService.getScriptProperties();
+  var active = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS');
+  var reviews = queueIds_('PRIVATE_REVIEW_MANIFEST_IDS');
+  var current = String(properties.getProperty('CURRENT_QUEUE_MANIFEST_ID') || '');
+  if (current && active.indexOf(current) >= 0) return current;
+  var latest = String(properties.getProperty('LATEST_QUEUE_MANIFEST_ID') || '');
+  if (latest && active.concat(reviews).indexOf(latest) >= 0) return latest;
+  return active.length ? active[0] : (reviews.length ? reviews[reviews.length - 1] : '');
 }
 
 function handlePrivateQueue_(body) {
@@ -190,13 +265,17 @@ function handlePrivateQueue_(body) {
   var incomingEmail = body.serviceAccountEmail ? normalizeServiceAccountEmail_(body.serviceAccountEmail) : '';
   var storedEmail = String(properties.getProperty('SERVICE_ACCOUNT_EMAIL') || '').trim().toLowerCase();
   var serviceAccountEmail = incomingEmail || normalizeServiceAccountEmail_(storedEmail);
-  var ids = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS');
+  var queueLists = repairQueueLists_();
+  var ids = queueLists.active;
   if (incomingEmail && incomingEmail !== storedEmail) {
     properties.setProperty('SERVICE_ACCOUNT_EMAIL', serviceAccountEmail);
     driveEnsureEditor_(ensureManagementFolderId_(), serviceAccountEmail);
     if (ids.length) ensureQueueManifestAccess_(ids[0], serviceAccountEmail);
   }
-  return json_({ok: true, manifestId: ids.length ? ids[0] : ''});
+  var manifestId = ids.length ? ids[0] : '';
+  if (manifestId) properties.setProperty('CURRENT_QUEUE_MANIFEST_ID', manifestId);
+  else properties.deleteProperty('CURRENT_QUEUE_MANIFEST_ID');
+  return json_({ok: true, manifestId: manifestId});
 }
 
 function normalizeServiceAccountEmail_(value) {
@@ -268,6 +347,9 @@ function handleQueueResult_(body) {
   var properties = PropertiesService.getScriptProperties();
   var resultKey = 'QUEUE_RESULT_' + resultId;
   var previous = properties.getProperty(resultKey);
+  // Repair queue placement even for an idempotent callback. Older deployments
+  // could save the result marker while leaving a terminal manifest active.
+  placeQueueResult_(properties, id, status, allTargetsComplete);
   if (previous) return JSON.parse(previous);
   if (manifestKind === 'content-edit') {
     var currentSave = contentSaveStatus_();
@@ -278,14 +360,6 @@ function handleQueueResult_(body) {
         updatedAt: new Date().toISOString(),
         error: status === 'ERROR' ? String((body.summary || {}).message || 'GitHub Actions가 편집 내용을 저장하지 못했습니다.') : ''
       }));
-    }
-  }
-  if (allTargetsComplete || ['NEEDS_USER_REVIEW','NO_SUPPORTED_MODEL'].indexOf(status) >= 0) {
-    properties.setProperty('PRIVATE_QUEUE_MANIFEST_IDS', JSON.stringify(queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').filter(function(item) { return item !== id; })));
-    if (status !== 'COMPLETE') {
-      var reviews = queueIds_('PRIVATE_REVIEW_MANIFEST_IDS').filter(function(item) { return item !== id; });
-      reviews.push(id);
-      properties.setProperty('PRIVATE_REVIEW_MANIFEST_IDS', JSON.stringify(reviews.slice(-200)));
     }
   }
   if (allTargetsComplete && manifestKind !== 'content-edit') {
@@ -299,7 +373,8 @@ function handleQueueResult_(body) {
       '실패: ' + (summary.failed || 0)
     ].join('\n'));
   }
-  var continueNow = manifestKind !== 'content-edit' && (status === 'PAUSED_SAFETY_BUDGET' || ((allTargetsComplete || status === 'NEEDS_USER_REVIEW') && queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').length > 0));
+  var terminalForQueue = allTargetsComplete || ['NEEDS_USER_REVIEW', 'NO_SUPPORTED_MODEL', 'ERROR'].indexOf(status) >= 0;
+  var continueNow = manifestKind !== 'content-edit' && (status === 'PAUSED_SAFETY_BUDGET' || (terminalForQueue && queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').length > 0));
   var continued = false;
   if (continueNow) {
     try { dispatchQueueWorkflow_(); continued = true; } catch (error) { continued = false; }
@@ -315,19 +390,30 @@ function handleQueueResult_(body) {
 function queueAdmin_(options) {
   options = options || {};
   var wanted = String(options.status || '');
+  var selectedId = String(options.manifestId || '');
+  if (selectedId && !/^[A-Za-z0-9_-]{10,200}$/.test(selectedId)) throw new Error('대기열 ID가 올바르지 않습니다.');
   var page = Math.max(1, Number(options.page) || 1);
   var pageSize = Math.min(200, Math.max(20, Number(options.pageSize) || 200));
   var seen = 0;
-  var ids = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').concat(queueIds_('PRIVATE_REVIEW_MANIFEST_IDS'));
-  ids = ids.filter(function(value, index, values) { return values.indexOf(value) === index; });
-  return ids.slice(-100).reverse().map(function(id) {
+  var lists = repairQueueLists_();
+  var activeMap = {};
+  var reviewMap = {};
+  lists.active.forEach(function(id) { activeMap[id] = true; });
+  lists.review.forEach(function(id) { reviewMap[id] = true; });
+  var ids = lists.active.slice().reverse().concat(lists.review.slice().reverse()).filter(function(value, index, values) { return values.indexOf(value) === index; });
+  if (selectedId) ids = ids.indexOf(selectedId) >= 0 ? [selectedId] : [];
+  return ids.slice(0, 100).map(function(id) {
     try {
-      var manifest = JSON.parse(DriveApp.getFileById(id).getBlob().getDataAsString('UTF-8'));
+      var snapshot = queueManifestSnapshot_(id);
+      var manifest = snapshot.manifest;
+      var state = snapshot.state;
       var entries = [];
-      if (manifest.stateFileId) {
-        var state = JSON.parse(DriveApp.getFileById(manifest.stateFileId).getBlob().getDataAsString('UTF-8'));
+      if (manifest.stateFileId && Array.isArray(state.entries)) {
         entries = (state.entries || []).filter(function(item) {
           if (wanted && item.status !== wanted) return false;
+          // Review history can contain dozens of already completed rows. The
+          // default view shows only rows that still need an action.
+          if (!wanted && reviewMap[id] && ['COMPLETE', 'SKIPPED'].indexOf(String(item.status || '')) >= 0) return false;
           var include = seen >= (page - 1) * pageSize && seen < page * pageSize;
           seen++;
           return include;
@@ -335,7 +421,11 @@ function queueAdmin_(options) {
           return {queueIndex: item.queueIndex, filename: String(item.filename || '').slice(0, 300), relativePath: String(item.relativePath || '').slice(0, 1000), status: item.status, reason: String(item.reason || '').slice(0, 300), bookId: item.bookId || ''};
         });
       }
-      return {manifestId: id, kind: manifest.kind, originalFilename: manifest.originalFilename, createdAt: manifest.createdAt, entries: entries};
+      return {
+        manifestId: id, kind: manifest.kind, originalFilename: manifest.originalFilename,
+        createdAt: manifest.createdAt, scope: activeMap[id] ? 'active' : 'review',
+        lastRunStatus: String(state.lastRunStatus || ''), entries: entries
+      };
     } catch (error) {
       return {manifestId: id, kind: 'unknown', originalFilename: '', entries: [], error: '관리 파일을 읽지 못했습니다.'};
     }
@@ -345,7 +435,18 @@ function queueAdmin_(options) {
 function retryQueue_(body) {
   var id = String(body.manifestId || '');
   if (!/^[A-Za-z0-9_-]{10,200}$/.test(id)) throw new Error('대기열 ID가 올바르지 않습니다.');
-  DriveApp.getFileById(id);
+  var snapshot = queueManifestSnapshot_(id);
+  var state = snapshot.state || {};
+  if (Array.isArray(state.entries)) {
+    state.entries.forEach(function(item) {
+      if (['ERROR', 'NEEDS_METADATA_REVIEW'].indexOf(String(item.status || '')) < 0) return;
+      item.status = item.driveFileId ? 'MATCHED' : 'NOT_FOUND';
+      item.reason = '사용자가 다시 처리를 요청했습니다.';
+    });
+    state.lastRunStatus = '';
+    state.updatedAt = new Date().toISOString();
+    if (snapshot.manifest.stateFileId) driveUpdateFileContent_(snapshot.manifest.stateFileId, JSON.stringify(state, null, 2), 'application/json');
+  }
   PropertiesService.getScriptProperties().setProperty('PRIVATE_REVIEW_MANIFEST_IDS', JSON.stringify(queueIds_('PRIVATE_REVIEW_MANIFEST_IDS').filter(function(item) { return item !== id; })));
   appendQueueManifest_(id);
   return {ok: true, dispatch: dispatchQueueWorkflow_()};
@@ -764,7 +865,7 @@ function handleRuntimeKey_(body) {
 function handleProgress_(body) {
   assertCallbackSecret_(body);
   var source = body.progress || {};
-  var names = ['status','phase','message','model','folderId','folderName','runId','runUrl','currentFileName','currentFileIndex','totalFiles',
+  var names = ['status','phase','message','model','folderId','folderName','runId','runUrl','queueManifestId','queueKind','uploadFilename','currentFileName','currentFileIndex','totalFiles',
     'currentChunk','totalChunks','complete','skipped','failed','metadataReview','processedChunks',
     'apiRequests','apiSuccessfulRequests','apiRequestAttempts','apiFailedAttempts','inputTokens','outputTokens','driveQuotaUnits','driveDownloadedBytes',
     'attemptedModels','modelSwitchCount','lastModelError',
@@ -923,9 +1024,23 @@ function dispatchQueueWorkflow_() {
   if (!githubTokenLooksValid_(token)) return queueScheduledFallback_('missing_or_invalid_token', 0);
   var result = requestQueueWorkflow_(owner, repo, token);
   if (!result.ok) return queueScheduledFallback_(result.reason, result.code);
+  var lists = repairQueueLists_();
+  var nextManifestId = lists.active.length ? lists.active[0] : '';
+  var nextKind = '';
+  var nextFilename = '';
+  if (nextManifestId) {
+    try {
+      var nextManifest = queueManifestSnapshot_(nextManifestId).manifest;
+      nextKind = String(nextManifest.kind || '');
+      nextFilename = String(nextManifest.originalFilename || '');
+    } catch (ignored) {}
+  }
   properties.setProperties({GITHUB_TOKEN_VERIFIED_AT: new Date().toISOString(), GITHUB_DISPATCH_LAST_CODE: String(result.code), GITHUB_DISPATCH_LAST_REASON: ''});
   properties.setProperty('LIVE_STATUS_JSON', JSON.stringify({
-    status: 'QUEUED', phase: 'QUEUE_UPLOAD', message: '비공개 업로드 대기열을 등록하고 즉시 자동 처리를 요청했습니다.', updatedAt: new Date().toISOString()
+    status: 'QUEUED', phase: 'QUEUE_UPLOAD', message: nextFilename ? nextFilename + ' 처리를 요청했습니다.' : '비공개 업로드 대기열을 등록하고 즉시 자동 처리를 요청했습니다.',
+    queueManifestId: nextManifestId, queueKind: nextKind, uploadFilename: nextFilename,
+    currentFileName: '', currentFileIndex: 0, totalFiles: 0, complete: 0, skipped: 0, failed: 0, metadataReview: 0,
+    updatedAt: new Date().toISOString()
   }));
   return {requested: true, scheduledFallback: false};
 }
@@ -957,12 +1072,25 @@ function githubDispatchFailureMessage_(code, reason) {
 function queueScheduledFallback_(reason, code) {
   var properties = PropertiesService.getScriptProperties();
   var detail = githubDispatchFailureMessage_(code, reason);
+  var lists = repairQueueLists_();
+  var nextManifestId = lists.active.length ? lists.active[0] : '';
+  var nextKind = '';
+  var nextFilename = '';
+  if (nextManifestId) {
+    try {
+      var nextManifest = queueManifestSnapshot_(nextManifestId).manifest;
+      nextKind = String(nextManifest.kind || '');
+      nextFilename = String(nextManifest.originalFilename || '');
+    } catch (ignored) {}
+  }
   properties.setProperties({
     GITHUB_DISPATCH_LAST_CODE: String(Number(code) || 0),
     GITHUB_DISPATCH_LAST_REASON: String(reason || 'scheduled'),
     LIVE_STATUS_JSON: JSON.stringify({
     status: 'QUEUED', phase: 'QUEUE_UPLOAD',
     message: '업로드는 안전하게 보관됐지만 즉시 실행에 실패했습니다. ' + detail + ' 정기 자동 실행은 계속 대기합니다.',
+    queueManifestId: nextManifestId, queueKind: nextKind, uploadFilename: nextFilename,
+    currentFileName: '', currentFileIndex: 0, totalFiles: 0, complete: 0, skipped: 0, failed: 0, metadataReview: 0,
     updatedAt: new Date().toISOString()
     })
   });

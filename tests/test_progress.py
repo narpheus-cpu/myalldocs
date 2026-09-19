@@ -332,12 +332,14 @@ def test_index_completion_explicitly_triggers_pages_and_email_can_be_retried():
 
 
 def test_safe_status_excludes_unknown_fields():
-    result = _safe_status({"status": "RUNNING", "folderId": "folder-1", "folderName": "책", "apiRequestAttempts": 3, "apiSuccessfulRequests": 1, "attemptedModels": ["gemini-free"], "apiKey": "never", "rawText": "never"})
+    result = _safe_status({"status": "RUNNING", "folderId": "folder-1", "folderName": "책", "queueManifestId": "manifest-12345", "queueKind": "canonical-json", "uploadFilename": "완성.json", "apiRequestAttempts": 3, "apiSuccessfulRequests": 1, "attemptedModels": ["gemini-free"], "apiKey": "never", "rawText": "never"})
     assert result["status"] == "RUNNING"
     assert result["apiRequestAttempts"] == 3
     assert result["apiSuccessfulRequests"] == 1
     assert result["attemptedModels"] == ["gemini-free"]
     assert result["folderId"] == "folder-1" and result["folderName"] == "책"
+    assert result["queueManifestId"] == "manifest-12345"
+    assert result["queueKind"] == "canonical-json" and result["uploadFilename"] == "완성.json"
     assert "apiKey" not in result and "rawText" not in result
 
 
