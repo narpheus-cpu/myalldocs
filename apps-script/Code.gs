@@ -26,9 +26,15 @@ function doPost(e) {
     if (body.route === 'private-queue') return handlePrivateQueue_(body);
     if (body.route === 'queue-state') return handleQueueState_(body);
     if (body.route === 'queue-result') return handleQueueResult_(body);
+    // A private upload is authorized once at upload-start.  Requiring a
+    // userinfo lookup for every binary part made larger uploads depend on
+    // dozens of back-to-back Apps Script executions.  Protocol v2 uses the
+    // unguessable per-session token for subsequent parts and finish calls.
+    if (body.route === 'upload-part' && body.uploadToken) return json_(savePrivateUploadPart_(body));
+    if (body.route === 'upload-finish' && body.uploadToken) return json_(finishPrivateUpload_(body));
     assertAuthorizedUser_(body);
     if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_(), githubDispatch: githubDispatchStatus_(), contentSave: contentSaveStatus_()});
-    if (body.route === 'upload-capabilities') return json_({ok: true, idempotentUploads: true, partBytes: 131072});
+    if (body.route === 'upload-capabilities') return json_({ok: true, idempotentUploads: true, uploadProtocolVersion: 2, partBytes: 2097152, partDelayMs: 400});
     if (body.route === 'update-api-key') return json_(updateApiKey_(body));
     if (body.route === 'update-github-token') return json_(updateGitHubToken_(body));
     if (body.route === 'retry-queue-dispatch') return json_({ok: true, dispatch: dispatchQueueWorkflow_()});
@@ -75,9 +81,10 @@ function startPrivateUpload_(body) {
     var parentId = ensureManagementFolderId_();
     var folder = driveCreateMetadata_({name: 'upload-' + id, mimeType: 'application/vnd.google-apps.folder', parents: [parentId]});
     driveEnsureEditor_(folder.id, requiredProperty_('SERVICE_ACCOUNT_EMAIL').trim());
-    var record = {id: id, kind: kind, filename: filename, size: size, partCount: partCount, folderId: folder.id, createdAt: new Date().toISOString()};
+    var uploadToken = Utilities.getUuid() + Utilities.getUuid();
+    var record = {id: id, uploadToken: uploadToken, kind: kind, filename: filename, size: size, partCount: partCount, folderId: folder.id, createdAt: new Date().toISOString()};
     properties.setProperty('UPLOAD_SESSION_' + id, JSON.stringify(record));
-    var response = {ok: true, uploadId: id, partBytes: 131072};
+    var response = {ok: true, uploadId: id, uploadToken: uploadToken, partBytes: 2097152};
     properties.setProperty('UPLOAD_REQUEST_' + requestId, JSON.stringify(response));
     return response;
   } finally {
@@ -86,13 +93,13 @@ function startPrivateUpload_(body) {
 }
 
 function savePrivateUploadPart_(body) {
-  var record = privateUploadRecord_(body.uploadId);
+  var record = privateUploadRecord_(body.uploadId, body.uploadToken);
   var index = Number(body.index);
   if (!Number.isInteger(index) || index < 0 || index >= record.partCount) throw new Error('업로드 조각 번호가 올바르지 않습니다.');
   var encoded = String(body.base64 || '');
-  if (!encoded || encoded.length > 400000) throw new Error('업로드 조각 크기가 올바르지 않습니다.');
+  if (!encoded || encoded.length > 3000000) throw new Error('업로드 조각 크기가 올바르지 않습니다.');
   var bytes = Utilities.base64Decode(encoded);
-  if (bytes.length > 262144) throw new Error('업로드 조각은 256KB 이하여야 합니다.');
+  if (bytes.length > 2097152) throw new Error('업로드 조각은 2MB 이하여야 합니다.');
   var name = 'part-' + String(index).padStart(6, '0') + '.bin';
   var existing = driveListChildren_(record.folderId).filter(function(item) { return item.name === name; });
   if (existing.length) return {ok: true, index: index, duplicate: true};
@@ -107,7 +114,7 @@ function finishPrivateUpload_(body) {
     var completedKey = 'UPLOAD_FINISHED_' + String(body.uploadId || '');
     var completed = PropertiesService.getScriptProperties().getProperty(completedKey);
     if (completed) return JSON.parse(completed);
-    var record = privateUploadRecord_(body.uploadId);
+    var record = privateUploadRecord_(body.uploadId, body.uploadToken);
     var children = driveListChildren_(record.folderId);
     var parts = children.map(function(file) {
       var match = /^part-(\d{6})\.bin$/.exec(file.name || '');
@@ -139,12 +146,14 @@ function finishPrivateUpload_(body) {
   }
 }
 
-function privateUploadRecord_(uploadId) {
+function privateUploadRecord_(uploadId, uploadToken) {
   var id = String(uploadId || '');
   if (!/^[A-Za-z0-9-]{20,80}$/.test(id)) throw new Error('업로드 세션이 올바르지 않습니다.');
   var raw = PropertiesService.getScriptProperties().getProperty('UPLOAD_SESSION_' + id);
   if (!raw) throw new Error('업로드 세션이 만료되었거나 없습니다.');
-  return JSON.parse(raw);
+  var record = JSON.parse(raw);
+  if (record.uploadToken && String(uploadToken || '') !== String(record.uploadToken)) throw new Error('업로드 세션 인증값이 올바르지 않습니다.');
+  return record;
 }
 
 function ensureManagementFolderId_() {
@@ -614,9 +623,9 @@ function queueBookContentUpdate_(body) {
   var partCount = Math.max(1, Math.ceil(encoded.length / partBytes));
   var started = startPrivateUpload_({requestId: requestId, kind: 'content-edit', filename: 'content-edit-' + requestId + '.json', size: encoded.length, partCount: partCount});
   for (var index = 0; index < partCount; index++) {
-    savePrivateUploadPart_({uploadId: started.uploadId, index: index, base64: Utilities.base64Encode(encoded.slice(index * partBytes, Math.min(encoded.length, (index + 1) * partBytes)))});
+    savePrivateUploadPart_({uploadId: started.uploadId, uploadToken: started.uploadToken, index: index, base64: Utilities.base64Encode(encoded.slice(index * partBytes, Math.min(encoded.length, (index + 1) * partBytes)))});
   }
-  var finished = finishPrivateUpload_({uploadId: started.uploadId, skipDispatch: true});
+  var finished = finishPrivateUpload_({uploadId: started.uploadId, uploadToken: started.uploadToken, skipDispatch: true});
   var dispatch = dispatchContentEditWorkflow_(finished.manifestId);
   if (!dispatch.ok) throw new Error(githubDispatchFailureMessage_(dispatch.code, dispatch.reason));
   return {ok: true, queued: true, manifestId: finished.manifestId, updatedAt: new Date().toISOString()};
@@ -683,11 +692,11 @@ function handleSourceLinkUpdate_(body) {
   });
   for (var index = 0; index < partCount; index++) {
     savePrivateUploadPart_({
-      uploadId: started.uploadId, index: index,
+      uploadId: started.uploadId, uploadToken: started.uploadToken, index: index,
       base64: Utilities.base64Encode(encoded.slice(index * partBytes, Math.min(encoded.length, (index + 1) * partBytes)))
     });
   }
-  var finished = finishPrivateUpload_({uploadId: started.uploadId, skipDispatch: true});
+  var finished = finishPrivateUpload_({uploadId: started.uploadId, uploadToken: started.uploadToken, skipDispatch: true});
   var dispatch = dispatchSourceLinkWorkflow_(finished.manifestId);
   if (!dispatch.ok) throw new Error(githubDispatchFailureMessage_(dispatch.code, dispatch.reason));
   return {ok: true, queued: true, manifestId: finished.manifestId, requestId: requestId};

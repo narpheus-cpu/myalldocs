@@ -7,7 +7,7 @@
   <meta name="description" content="Google Drive 원본과 연결된 개인 도서 지식베이스">
   <title>서재 지도 · Personal Book Knowledge Base</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=20260916-linebreak1">
+  <link rel="stylesheet" href="assets/styles.css?v=20260916-json-generator1">
 </head>
 <body>
   <header class="topbar">
@@ -18,6 +18,7 @@
     <nav aria-label="주 메뉴">
       <a href="#library" data-nav="library">전체 도서 목록</a>
       <a href="#indexing" data-nav="indexing">인덱싱</a>
+      <a href="#json-generator" data-nav="json-generator">JSON 생성기</a>
     </nav>
   </header>
 
@@ -97,6 +98,52 @@
         <div class="control-group chunk-control"><select id="chunk-select" aria-label="현재 원문 구간" hidden><option value="">선택</option></select><button id="open-chunk" type="button">원문 보기</button><button id="edit-source-link" type="button" hidden>원문 연결 수정</button></div>
       </div>
       <article id="detail-content" class="detail-content" aria-live="polite"></article>
+    </section>
+
+    <section id="json-generator-view" class="view json-generator-view" hidden>
+      <div class="section-heading">
+        <div><p class="eyebrow">브라우저 안에서만 처리</p><h1>JSONL 생성기</h1><p>TXT·EPUB 원문의 앞·중간·뒤를 발췌하여 도서 목록 업로드용 JSONL을 만듭니다.</p></div>
+      </div>
+      <p class="page-guide"><strong>원문은 외부로 전송되지 않습니다.</strong> 선택한 파일은 이 브라우저에서만 읽으며, 완성된 JSONL을 직접 내려받습니다.</p>
+
+      <section class="generator-step">
+        <div class="generator-step-heading"><span>1</span><div><h2>도서 선택</h2><p>원하는 파일만 고르거나, 하위 폴더까지 포함해 폴더 전체를 고릅니다.</p></div></div>
+        <div class="generator-actions">
+          <label class="generator-file-button primary">파일 선택<input id="jsonl-file-input" type="file" multiple accept=".txt,.epub,text/plain,application/epub+zip"></label>
+          <label class="generator-file-button">폴더 선택<input id="jsonl-folder-input" type="file" webkitdirectory directory multiple accept=".txt,.epub,text/plain,application/epub+zip"></label>
+          <button id="jsonl-reset" type="button">초기화</button>
+        </div>
+        <div class="generator-choice-help"><p><strong>파일 선택</strong><span>TXT·EPUB를 여러 개 골라 처리합니다.</span></p><p><strong>폴더 선택</strong><span>선택한 폴더와 모든 하위 폴더의 TXT·EPUB를 처리하고 폴더 경로도 기록합니다.</span></p></div>
+        <dl class="generator-facts">
+          <div><dt>선택 방식</dt><dd id="jsonl-selection-mode">-</dd></div><div><dt>선택된 도서</dt><dd id="jsonl-file-count">0개</dd></div><div><dt>TXT</dt><dd id="jsonl-txt-count">0개</dd></div><div><dt>EPUB</dt><dd id="jsonl-epub-count">0개</dd></div><div><dt>선택 루트</dt><dd id="jsonl-root-name">-</dd></div><div><dt>총 파일 크기</dt><dd id="jsonl-total-size">-</dd></div>
+        </dl>
+      </section>
+
+      <section class="generator-step">
+        <div class="generator-step-heading"><span>2</span><div><h2>발췌 설정</h2><p>각 책에서 식별에 사용할 앞·중간·뒤 분량을 정합니다.</p></div></div>
+        <div class="generator-settings">
+          <label>각 발췌 길이 <input id="jsonl-excerpt-length" type="number" min="200" max="10000" step="100" value="1500"> 자</label>
+          <label><input id="jsonl-extended-fields" type="checkbox" checked> 파일명 분해·전체 글자 수 포함</label>
+        </div>
+        <p class="generator-note">TXT는 UTF-8을 먼저 확인한 뒤 CP949/EUC-KR로 읽습니다. EPUB는 내부 OPF의 읽기 순서에 따라 본문을 추출합니다.</p>
+      </section>
+
+      <section class="generator-step">
+        <div class="generator-step-heading"><span>3</span><div><h2>JSONL 만들기</h2><p>선택한 책을 차례로 읽고 다운로드할 파일을 만듭니다.</p></div></div>
+        <div class="generator-actions"><button id="jsonl-build" class="primary" type="button" disabled>JSONL 만들기</button><button id="jsonl-cancel" type="button" disabled>중지</button><button id="jsonl-download" type="button" disabled>JSONL 다운로드</button></div>
+        <div class="generator-prompt-row">
+          <span>출력 형식</span><button id="jsonl-prompt-select" class="generator-prompt-select" type="button" aria-expanded="false">출력 형식 없음</button><div id="jsonl-prompt-list" class="generator-prompt-list" hidden></div>
+          <button id="jsonl-copy-prompt" type="button">프롬프트 복사</button><button id="jsonl-edit-prompt" type="button">✎ 수정</button><button id="jsonl-add-prompt" type="button">＋ 추가</button><button id="jsonl-delete-prompt" type="button">− 삭제</button>
+        </div>
+        <progress id="jsonl-progress" value="0" max="1"></progress>
+        <p id="jsonl-status" class="generator-status" aria-live="polite">파일 또는 폴더를 선택하세요.</p>
+      </section>
+
+      <section class="generator-step">
+        <div class="generator-step-heading"><span>4</span><div><h2>결과 확인</h2><p>미리보기에는 처음 5권, 아래 목록에는 최근 200건을 표시합니다.</p></div></div>
+        <label class="sr-only" for="jsonl-preview">JSONL 결과 미리보기</label><textarea id="jsonl-preview" class="generator-preview" readonly placeholder="생성 결과가 여기에 표시됩니다."></textarea>
+        <div class="generator-table-wrap"><table class="generator-table"><thead><tr><th>파일</th><th>종류</th><th>문자 수</th><th>인코딩·방식</th><th>결과</th></tr></thead><tbody id="jsonl-result-table"></tbody></table></div>
+      </section>
     </section>
 
     <section id="indexing-view" class="view" hidden>
@@ -266,7 +313,7 @@
         <h3>업로드 전에 준비할 것</h3>
         <ol class="manual-steps">
           <li><strong>Drive 원본을 확인합니다.</strong><span>서재지도에서 사용하는 <code>[book]</code> 폴더 아래에 해당 책의 TXT 또는 EPUB가 있어야 합니다. Google Docs는 지원하지 않습니다.</span></li>
-          <li><strong>확장자가 <code>.jsonl</code>인 파일을 준비합니다.(서재지도 JSONL 생성기 이용)</strong><span>한 줄에 책 한 권을 적습니다. 여러 줄을 하나의 배열로 감싸거나 줄 끝에 쉼표를 붙이지 않습니다.</span></li>
+          <li><strong>확장자가 <code>.jsonl</code>인 파일을 준비합니다.(<a href="#json-generator">서재지도 JSONL 생성기</a> 이용)</strong><span>한 줄에 책 한 권을 적습니다. 여러 줄을 하나의 배열로 감싸거나 줄 끝에 쉼표를 붙이지 않습니다.</span></li>
           <li><strong>각 줄에 파일명과 식별용 발췌문을 넣습니다.</strong><span>Drive 파일 ID나 해시는 입력하지 않아도 됩니다. 발췌문은 원본을 찾고 작품을 식별하는 데만 사용됩니다.</span></li>
         </ol>
         <p class="manual-label">한 권을 적는 가장 간단한 예</p>
@@ -324,6 +371,6 @@
   <script src="config/public-config.js?v=20260916-relay-v8"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260916-linebreak1"></script>
+  <script type="module" src="js/app.js?v=20260916-json-generator1"></script>
 </body>
 </html>

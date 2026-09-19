@@ -362,3 +362,66 @@ kbd { padding: 3px 7px; border: 1px solid #000; background: #fff; }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
+
+/* JSONL 생성기 */
+.json-generator-view { max-width: 920px; }
+.generator-step { padding: 30px 0 34px; border-top: 2px solid #000; }
+.generator-step:last-child { border-bottom: 1px solid #000; }
+.generator-step-heading { display: grid; grid-template-columns: 32px 1fr; gap: 14px; align-items: start; margin-bottom: 22px; }
+.generator-step-heading > span { display: grid; width: 28px; height: 28px; place-items: center; border: 1px solid #000; border-radius: 50%; font-size: 12px; font-weight: 800; }
+.generator-step-heading h2 { margin: 0; font-size: 21px; }
+.generator-step-heading p { margin: 6px 0 0; font-size: 13px; line-height: 1.65; }
+.generator-actions { display: flex; gap: 9px; align-items: center; flex-wrap: wrap; }
+.generator-actions button, .generator-file-button, .generator-prompt-row button { padding: 7px 10px; border: 1px solid #000; background: #fff; color: #000; font-size: 12px; font-weight: 700; line-height: 1.2; cursor: pointer; }
+.generator-actions button:hover, .generator-file-button:hover, .generator-prompt-row button:hover { text-decoration: underline; text-underline-offset: 3px; }
+.generator-actions button:disabled { opacity: .35; cursor: default; text-decoration: none; }
+.generator-file-button { display: inline-block; }
+.generator-file-button input { position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0; pointer-events: none; }
+.generator-choice-help { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 18px 0; }
+.generator-choice-help p { display: grid; gap: 5px; margin: 0; padding-top: 12px; border-top: 1px solid #000; font-size: 12px; line-height: 1.55; }
+.generator-choice-help span { font-weight: 400; }
+.generator-facts { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); margin: 24px 0 0; border-top: 1px solid #000; }
+.generator-facts div { padding: 12px 8px 10px 0; border-bottom: 1px solid #000; }
+.generator-facts dt { margin-bottom: 5px; font-size: 10px; }
+.generator-facts dd { margin: 0; overflow-wrap: anywhere; font-size: 13px; font-weight: 800; }
+.generator-settings { display: flex; gap: 24px; align-items: center; flex-wrap: wrap; }
+.generator-settings label { font-size: 13px; font-weight: 700; }
+.generator-settings input[type="number"] { width: 92px; margin: 0 5px; padding: 7px; border: 1px solid #000; background: #fff; }
+.generator-note { margin: 18px 0 0; padding: 12px 0; border-top: 1px solid #000; border-bottom: 1px solid #000; font-size: 12px; line-height: 1.65; }
+.generator-prompt-row { position: relative; display: flex; gap: 7px; align-items: center; flex-wrap: wrap; margin-top: 18px; }
+.generator-prompt-row > span { margin-right: 3px; font-size: 12px; font-weight: 800; }
+.generator-prompt-row .generator-prompt-select { min-width: 210px; text-align: left; }
+.generator-prompt-list { position: absolute; z-index: 12; top: calc(100% + 5px); left: 72px; width: min(360px,calc(100vw - 48px)); border: 1px solid #000; background: #fff; box-shadow: 6px 6px 0 #000; }
+.generator-prompt-list[hidden] { display: none; }
+.generator-prompt-option { display: grid !important; grid-template-columns: 1fr auto; width: 100%; min-height: 41px; align-items: center; border: 0 !important; border-bottom: 1px solid #000 !important; text-align: left; }
+.generator-prompt-option:last-child { border-bottom: 0 !important; }
+.generator-prompt-option.selected span { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.generator-prompt-option b { padding-left: 18px; cursor: grab; font-size: 19px; }
+.generator-prompt-option.dragging { opacity: .45; }
+.json-generator-view progress { width: 100%; height: 8px; margin: 24px 0 8px; border: 1px solid #000; border-radius: 0; background: #fff; accent-color: #000; }
+.json-generator-view progress::-webkit-progress-bar { background: #fff; }
+.json-generator-view progress::-webkit-progress-value { background: #000; }
+.json-generator-view progress::-moz-progress-bar { background: #000; }
+.generator-status { min-height: 22px; margin: 7px 0 0; font-size: 12px; font-weight: 700; }
+.generator-preview { width: 100%; min-height: 230px; padding: 14px; border: 1px solid #000; background: #fff; color: #000; font: 12px/1.6 Consolas,"Malgun Gothic",monospace; resize: vertical; }
+.generator-table-wrap { overflow-x: auto; margin-top: 22px; }
+.generator-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.generator-table th, .generator-table td { padding: 10px 8px; border-bottom: 1px solid #000; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+.generator-table th { border-bottom-width: 2px; font-weight: 800; white-space: nowrap; }
+.generator-table th:first-child { width: 40%; }
+.generator-success { font-weight: 800; }
+.generator-error { text-decoration: underline; text-decoration-style: wavy; }
+.generator-prompt-dialog { width: min(600px,calc(100% - 24px)); }
+.generator-prompt-form { display: grid; gap: 18px; padding: 22px; }
+.generator-prompt-form label { display: grid; gap: 7px; font-size: 13px; font-weight: 800; }
+.generator-prompt-form input, .generator-prompt-form textarea { width: 100%; padding: 10px; border: 1px solid #000; background: #fff; resize: vertical; }
+
+@media (max-width: 620px) {
+  .generator-choice-help { grid-template-columns: 1fr; gap: 12px; }
+  .generator-facts { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .generator-prompt-row { align-items: stretch; }
+  .generator-prompt-row > span { flex-basis: 100%; }
+  .generator-prompt-row .generator-prompt-select { width: 100%; }
+  .generator-prompt-list { right: 0; left: 0; width: 100%; }
+  .generator-table { min-width: 680px; }
+}
