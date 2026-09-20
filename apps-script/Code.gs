@@ -33,10 +33,13 @@ function doPost(e) {
     if (body.route === 'upload-part' && body.uploadToken) return json_(savePrivateUploadPart_(body));
     if (body.route === 'upload-finish' && body.uploadToken) return json_(finishPrivateUpload_(body));
     assertAuthorizedUser_(body);
-    if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_(), githubDispatch: githubDispatchStatus_(), contentSave: contentSaveStatus_()});
+    if (body.route === 'status') return json_({ok: true, progress: liveStatus_(), geminiKey: geminiKeyStatus_(), githubDispatch: githubDispatchStatus_(), contentSave: contentSaveStatus_(), canonicalImport: canonicalImportStatus_()});
     if (body.route === 'upload-capabilities') return json_({ok: true, idempotentUploads: true, uploadProtocolVersion: 2, partBytes: 2097152, partDelayMs: 400});
     if (body.route === 'update-api-key') return json_(updateApiKey_(body));
     if (body.route === 'update-github-token') return json_(updateGitHubToken_(body));
+    if (body.route === 'configure-canonical-import') return json_(configureCanonicalImport_(body));
+    if (body.route === 'run-canonical-import') return json_(runCanonicalImportNow_());
+    if (body.route === 'disable-canonical-import') return json_(disableCanonicalImport_());
     if (body.route === 'retry-queue-dispatch') return json_({ok: true, dispatch: dispatchQueueWorkflow_()});
     if (body.route === 'update-metadata') return json_(updateMetadata_(body));
     if (body.route === 'update-book-content') return json_(handleBookContentUpdate_(body));
@@ -147,6 +150,254 @@ function finishPrivateUpload_(body) {
   } finally {
     lock.releaseLock();
   }
+}
+
+/**
+ * Connect one Drive folder as the inbox for completed canonical JSON files.
+ * The browser only sends the selected folder id. Files stay in Drive and are
+ * copied server-side into the existing private queue, so page refreshes and
+ * browser upload timeouts cannot interrupt the import.
+ */
+function configureCanonicalImport_(body) {
+  var folderId = String(body.folderId || '').trim();
+  if (!/^[A-Za-z0-9_-]{10,200}$/.test(folderId)) throw new Error('자동 가져오기 폴더가 올바르지 않습니다.');
+  var metadata = Drive.Files.get(folderId, {fields: 'id,name,mimeType', supportsAllDrives: true});
+  if (String(metadata.mimeType || '') !== 'application/vnd.google-apps.folder') throw new Error('Google Drive 폴더를 선택하세요.');
+  var properties = PropertiesService.getScriptProperties();
+  properties.setProperties({
+    CANONICAL_IMPORT_FOLDER_ID: folderId,
+    CANONICAL_IMPORT_FOLDER_NAME: String(metadata.name || body.folderName || 'books-json').slice(0, 300),
+    CANONICAL_IMPORT_ENABLED_AT: new Date().toISOString()
+  });
+  var dispatch = requestCanonicalImportScan_();
+  return {
+    ok: true, canonicalImport: canonicalImportStatus_(),
+    scan: {queued: 0, message: '폴더를 연결했습니다. 백엔드에서 새 JSON 확인을 요청했습니다.'},
+    dispatch: dispatch
+  };
+}
+
+function runCanonicalImportNow_() {
+  if (!canonicalImportStatus_().enabled) throw new Error('먼저 books-json 폴더를 연결하세요.');
+  return {
+    ok: true, canonicalImport: canonicalImportStatus_(),
+    scan: {queued: 0, message: '백엔드에 새 JSON 확인을 요청했습니다.'},
+    dispatch: requestCanonicalImportScan_()
+  };
+}
+
+function requestCanonicalImportScan_() {
+  var owner = requiredProperty_('GITHUB_OWNER');
+  var repo = requiredProperty_('GITHUB_REPO');
+  var token = String(PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN') || '').trim();
+  if (!githubTokenLooksValid_(token)) return {requested: false, scheduledFallback: true, reason: 'missing_or_invalid_token', code: 0, message: githubDispatchFailureMessage_(0, 'missing_or_invalid_token')};
+  // An empty manifest id deliberately makes queue_context call private-queue,
+  // where the Drive folder scan runs outside the browser request.
+  var result = requestQueueWorkflow_(owner, repo, token, '');
+  if (!result.ok) return {requested: false, scheduledFallback: true, reason: result.reason, code: result.code, message: githubDispatchFailureMessage_(result.code, result.reason)};
+  return {requested: true, scheduledFallback: false};
+}
+
+function disableCanonicalImport_() {
+  var properties = PropertiesService.getScriptProperties();
+  properties.deleteProperty('CANONICAL_IMPORT_FOLDER_ID');
+  properties.deleteProperty('CANONICAL_IMPORT_FOLDER_NAME');
+  properties.deleteProperty('CANONICAL_IMPORT_ENABLED_AT');
+  return {ok: true, canonicalImport: canonicalImportStatus_()};
+}
+
+function canonicalImportStatus_() {
+  var properties = PropertiesService.getScriptProperties();
+  var folderId = String(properties.getProperty('CANONICAL_IMPORT_FOLDER_ID') || '');
+  var last = {};
+  try { last = JSON.parse(properties.getProperty('CANONICAL_IMPORT_LAST_RESULT') || '{}'); }
+  catch (ignored) { last = {}; }
+  return {
+    enabled: Boolean(folderId),
+    folderId: folderId,
+    folderName: String(properties.getProperty('CANONICAL_IMPORT_FOLDER_NAME') || ''),
+    enabledAt: String(properties.getProperty('CANONICAL_IMPORT_ENABLED_AT') || ''),
+    intervalMinutes: 20,
+    lastScanAt: String(last.scannedAt || ''),
+    lastScanned: Number(last.scanned || 0),
+    lastQueued: Number(last.queued || 0),
+    lastSkipped: Number(last.skipped || 0),
+    lastErrors: Number(last.errors || 0),
+    lastMessage: String(last.message || '')
+  };
+}
+
+function publicCanonicalImportResult_(result) {
+  return {
+    scannedAt: result.scannedAt, scanned: result.scanned, queued: result.queued,
+    skipped: result.skipped, errors: result.errors, message: result.message
+  };
+}
+
+function discoverCanonicalImportFolder_() {
+  var response = Drive.Files.list({
+    q: "name = 'books-json' and mimeType = 'application/vnd.google-apps.folder' and trashed = false",
+    fields: 'files(id,name)', pageSize: 3, orderBy: 'createdTime asc', spaces: 'drive'
+  });
+  var folders = response.files || [];
+  if (folders.length !== 1) return '';
+  var properties = PropertiesService.getScriptProperties();
+  properties.setProperties({
+    CANONICAL_IMPORT_FOLDER_ID: String(folders[0].id),
+    CANONICAL_IMPORT_FOLDER_NAME: String(folders[0].name || 'books-json'),
+    CANONICAL_IMPORT_ENABLED_AT: new Date().toISOString()
+  });
+  return String(folders[0].id);
+}
+
+function importCanonicalFolder_(options) {
+  options = options || {};
+  var limit = Math.min(20, Math.max(1, Number(options.limit) || 20));
+  var lock = LockService.getScriptLock();
+  lock.waitLock(20000);
+  try {
+    var properties = PropertiesService.getScriptProperties();
+    var folderId = String(properties.getProperty('CANONICAL_IMPORT_FOLDER_ID') || '') || discoverCanonicalImportFolder_();
+    if (!folderId) {
+      var missing = {
+        scannedAt: new Date().toISOString(), scanned: 0, queued: 0, skipped: 0, errors: 0,
+        queuedManifestIds: [], message: '이름이 books-json인 폴더가 하나만 있어야 자동으로 연결됩니다. 인덱싱 화면에서 폴더를 직접 선택할 수도 있습니다.'
+      };
+      properties.setProperty('CANONICAL_IMPORT_LAST_RESULT', JSON.stringify(publicCanonicalImportResult_(missing)));
+      return missing;
+    }
+    var folder = Drive.Files.get(folderId, {fields: 'id,name,mimeType', supportsAllDrives: true});
+    if (String(folder.mimeType || '') !== 'application/vnd.google-apps.folder') throw new Error('저장된 books-json 폴더를 찾을 수 없습니다.');
+    properties.setProperty('CANONICAL_IMPORT_FOLDER_NAME', String(folder.name || 'books-json'));
+
+    var history = loadCanonicalImportHistory_();
+    var files = listCanonicalJsonFiles_(folderId);
+    var result = {scannedAt: new Date().toISOString(), scanned: files.length, queued: 0, skipped: 0, errors: 0, queuedManifestIds: [], message: ''};
+    for (var index = 0; index < files.length && result.queued < limit; index++) {
+      var file = files[index];
+      var fingerprint = canonicalImportFingerprint_(file);
+      var previous = history.byFileId[String(file.id)] || null;
+      var sameChecksum = file.md5Checksum && history.byChecksum[String(file.md5Checksum)] || null;
+      if ((previous && previous.fingerprint === fingerprint) || sameChecksum) {
+        result.skipped++;
+        if (!previous) history.byFileId[String(file.id)] = {
+          fingerprint: fingerprint, manifestId: sameChecksum.manifestId || '', filename: String(file.name || ''),
+          importedAt: sameChecksum.importedAt || result.scannedAt, duplicateOf: sameChecksum.driveFileId || ''
+        };
+        continue;
+      }
+      if (Number(file.size || 0) > 104857600) {
+        result.errors++;
+        continue;
+      }
+      try {
+        var manifestId = createCanonicalQueueFromDriveFile_(folderId, file, fingerprint);
+        var record = {
+          driveFileId: String(file.id), fingerprint: fingerprint, manifestId: manifestId,
+          filename: String(file.name || ''), size: Number(file.size || 0), modifiedTime: String(file.modifiedTime || ''),
+          importedAt: result.scannedAt
+        };
+        history.byFileId[String(file.id)] = record;
+        if (file.md5Checksum) history.byChecksum[String(file.md5Checksum)] = record;
+        saveCanonicalImportHistory_(history);
+        result.queued++;
+        result.queuedManifestIds.push(manifestId);
+      } catch (error) {
+        result.errors++;
+        console.error('books-json import failed for ' + String(file.name || file.id) + ': ' + String(error && error.stack || error));
+      }
+    }
+    if (result.skipped) saveCanonicalImportHistory_(history);
+    result.message = result.queued ? result.queued + '개 JSON을 새 대기열에 등록했습니다.' :
+      (result.errors ? '일부 JSON을 등록하지 못했습니다. 최근 결과를 확인하세요.' : '새 JSON이 없습니다. 이미 등록한 파일은 건너뛰었습니다.');
+    properties.setProperty('CANONICAL_IMPORT_LAST_RESULT', JSON.stringify(publicCanonicalImportResult_(result)));
+    return result;
+  } catch (error) {
+    var failure = {
+      scannedAt: new Date().toISOString(), scanned: 0, queued: 0, skipped: 0, errors: 1,
+      queuedManifestIds: [], message: String(error && error.message || error).slice(0, 500)
+    };
+    PropertiesService.getScriptProperties().setProperty('CANONICAL_IMPORT_LAST_RESULT', JSON.stringify(publicCanonicalImportResult_(failure)));
+    return failure;
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function listCanonicalJsonFiles_(folderId) {
+  var files = [];
+  var pageToken = '';
+  do {
+    var options = {
+      q: "'" + String(folderId).replace(/'/g, "\\'") + "' in parents and trashed = false",
+      fields: 'nextPageToken,files(id,name,size,mimeType,modifiedTime,createdTime,md5Checksum)',
+      pageSize: 200, orderBy: 'createdTime asc,name', spaces: 'drive', supportsAllDrives: true, includeItemsFromAllDrives: true
+    };
+    if (pageToken) options.pageToken = pageToken;
+    var response = Drive.Files.list(options);
+    (response.files || []).forEach(function(file) {
+      if (String(file.mimeType || '') === 'application/vnd.google-apps.folder') return;
+      if (String(file.mimeType || '') === 'application/json' || /\.json$/i.test(String(file.name || ''))) files.push(file);
+    });
+    pageToken = String(response.nextPageToken || '');
+  } while (pageToken && files.length < 5000);
+  return files.slice(0, 5000);
+}
+
+function canonicalImportFingerprint_(file) {
+  return file.md5Checksum ? 'md5:' + String(file.md5Checksum) :
+    ['drive', String(file.id || ''), String(file.modifiedTime || ''), String(file.size || 0)].join(':');
+}
+
+function createCanonicalQueueFromDriveFile_(sourceFolderId, sourceFile, fingerprint) {
+  var parentId = ensureManagementFolderId_();
+  var session = driveCreateMetadata_({name: 'auto-json-' + Utilities.getUuid(), mimeType: 'application/vnd.google-apps.folder', parents: [parentId]});
+  driveEnsureEditor_(session.id, requiredProperty_('SERVICE_ACCOUNT_EMAIL').trim());
+  var part = driveCopyFile_(sourceFile.id, {name: 'part-000000.bin', parents: [session.id]});
+  var initialState = driveCreateFile_({name: 'queue-state.json', parents: [session.id]}, Utilities.newBlob('{}').getBytes(), 'application/json');
+  var createdAt = new Date().toISOString();
+  var manifest = {
+    schemaVersion: 1, kind: 'canonical-json', originalFilename: String(sourceFile.name || 'book.json'),
+    sourceRootFolderId: requiredProperty_('DRIVE_ROOT_FOLDER_ID'), sessionFolderId: session.id,
+    parts: [{index: 0, fileId: part.id, size: Number(part.size || sourceFile.size || 0)}],
+    stateFileId: initialState.id, createdAt: createdAt,
+    automaticImport: {folderId: String(sourceFolderId), driveFileId: String(sourceFile.id), fingerprint: fingerprint}
+  };
+  var manifestFile = driveCreateFile_({name: 'queue-manifest.json', parents: [session.id]}, Utilities.newBlob(JSON.stringify(manifest, null, 2)).getBytes(), 'application/json');
+  appendQueueManifest_(manifestFile.id);
+  return manifestFile.id;
+}
+
+function canonicalImportHistoryFile_() {
+  var properties = PropertiesService.getScriptProperties();
+  var fileId = String(properties.getProperty('CANONICAL_IMPORT_HISTORY_FILE_ID') || '');
+  if (fileId) {
+    try { Drive.Files.get(fileId, {fields: 'id', supportsAllDrives: true}); return fileId; }
+    catch (ignored) { fileId = ''; }
+  }
+  var parentId = ensureManagementFolderId_();
+  var existing = driveListChildren_(parentId).filter(function(file) { return file.name === 'books-json-import-history.json'; })[0];
+  if (existing) fileId = String(existing.id);
+  else fileId = String(driveCreateFile_({name: 'books-json-import-history.json', parents: [parentId]}, Utilities.newBlob('{"schemaVersion":1,"byFileId":{},"byChecksum":{}}').getBytes(), 'application/json').id);
+  properties.setProperty('CANONICAL_IMPORT_HISTORY_FILE_ID', fileId);
+  return fileId;
+}
+
+function loadCanonicalImportHistory_() {
+  try {
+    var value = JSON.parse(DriveApp.getFileById(canonicalImportHistoryFile_()).getBlob().getDataAsString('UTF-8') || '{}');
+    value.byFileId = value.byFileId && typeof value.byFileId === 'object' ? value.byFileId : {};
+    value.byChecksum = value.byChecksum && typeof value.byChecksum === 'object' ? value.byChecksum : {};
+    return value;
+  } catch (error) {
+    throw driveAdvancedError_('books-json 중복 기록을 읽지 못했습니다', error);
+  }
+}
+
+function saveCanonicalImportHistory_(history) {
+  history.schemaVersion = 1;
+  history.updatedAt = new Date().toISOString();
+  driveUpdateFileContent_(canonicalImportHistoryFile_(), JSON.stringify(history, null, 2), 'application/json');
 }
 
 function privateUploadRecord_(uploadId, uploadToken) {
@@ -271,11 +522,16 @@ function handlePrivateQueue_(body) {
   var incomingEmail = body.serviceAccountEmail ? normalizeServiceAccountEmail_(body.serviceAccountEmail) : '';
   var storedEmail = String(properties.getProperty('SERVICE_ACCOUNT_EMAIL') || '').trim().toLowerCase();
   var serviceAccountEmail = incomingEmail || normalizeServiceAccountEmail_(storedEmail);
-  var queueLists = repairQueueLists_();
-  var ids = queueLists.active;
   if (incomingEmail && incomingEmail !== storedEmail) {
     properties.setProperty('SERVICE_ACCOUNT_EMAIL', serviceAccountEmail);
     driveEnsureEditor_(ensureManagementFolderId_(), serviceAccountEmail);
+  }
+  // Scheduled queue checks also scan the connected books-json inbox. Direct
+  // uploads pass their manifest id straight to Actions and avoid this scan.
+  importCanonicalFolder_({limit: 10});
+  var queueLists = repairQueueLists_();
+  var ids = queueLists.active;
+  if (incomingEmail && incomingEmail !== storedEmail) {
     if (ids.length) ensureQueueManifestAccess_(ids[0], serviceAccountEmail);
   }
   var manifestId = ids.length ? ids[0] : '';
@@ -1167,6 +1423,16 @@ function driveCreateFile_(metadata, bytes, mimeType) {
     return Drive.Files.create(metadata, blob, {fields: 'id,name,size', supportsAllDrives: true});
   } catch (error) {
     throw driveAdvancedError_('비공개 관리 파일을 저장하지 못했습니다', error);
+  }
+}
+
+function driveCopyFile_(sourceFileId, metadata) {
+  try {
+    return Drive.Files.copy(metadata, String(sourceFileId), {
+      fields: 'id,name,size,modifiedTime', supportsAllDrives: true
+    });
+  } catch (error) {
+    throw driveAdvancedError_('books-json 파일을 비공개 대기열로 복사하지 못했습니다', error);
   }
 }
 

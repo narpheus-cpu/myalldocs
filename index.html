@@ -7,7 +7,7 @@
   <meta name="description" content="Google Drive 원본과 연결된 개인 도서 지식베이스">
   <title>서재 지도 · Personal Book Knowledge Base</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=20260916-json-generator1">
+  <link rel="stylesheet" href="assets/styles.css?v=20260920-books-json1">
 </head>
 <body>
   <header class="topbar">
@@ -163,6 +163,13 @@
           <p>완성된 canonical JSON을 검사하고 Drive 원본과 연결된 경우에만 전체 도서 목록에 등록합니다.</p>
           <input id="canonical-json-file" class="sr-only" type="file" accept=".json,application/json">
           <div class="upload-actions"><button id="upload-canonical-json" class="primary" type="button">완성 인덱싱 JSON 업로드</button><button id="canonical-json-manual" class="manual-button" type="button">매뉴얼</button></div>
+          <div class="auto-import-panel">
+            <h3>Drive 자동 가져오기</h3>
+            <p><b>books-json</b> 폴더의 새 JSON을 약 20분마다 확인해 차례로 등록합니다. 이미 등록한 동일 파일과 동일 내용은 건너뜁니다.</p>
+            <div class="upload-actions"><button id="pick-canonical-folder" type="button">books-json 폴더 연결</button><button id="run-canonical-import" type="button" disabled>지금 확인</button><button id="disable-canonical-import" type="button" disabled>자동 가져오기 끄기</button></div>
+            <dl class="auto-import-status"><div><dt>연결 폴더</dt><dd id="canonical-import-folder">확인 전</dd></div><div><dt>최근 확인</dt><dd id="canonical-import-last">확인 전</dd></div><div><dt>최근 결과</dt><dd id="canonical-import-result">확인 전</dd></div></dl>
+            <p id="canonical-import-message" class="message" aria-live="polite">Google 계정으로 연결하면 상태를 확인할 수 있습니다.</p>
+          </div>
         </section>
       </div>
       <p id="private-upload-message" class="message upload-message" aria-live="polite"></p>
@@ -362,6 +369,13 @@
           <li><strong>대기열에서 원본 연결과 등록 상태를 확인합니다.</strong><span>제목·작가·파일명·폴더명을 비교해 가장 가능성 높은 원문을 자동 연결합니다. 이 과정에서는 Gemini를 호출하지 않습니다.</span></li>
           <li><strong>‘전체 도서 목록’에서 결과를 확인합니다.</strong><span>잘못 연결된 원문은 도서 화면의 ‘원문 연결 수정’에서 바꿀 수 있고, 인덱싱 내용은 그대로 유지됩니다.</span></li>
         </ol>
+        <h3>books-json 폴더에서 자동으로 가져오기</h3>
+        <ol class="manual-steps">
+          <li><strong>Google Drive의 <code>books-json</code> 폴더에 완성 JSON을 넣습니다.</strong><span>원본 파일은 이 폴더에 그대로 남고 이동되거나 삭제되지 않습니다.</span></li>
+          <li><strong>매뉴얼을 닫고 ‘books-json 폴더 연결’을 누릅니다.</strong><span>해당 폴더를 한 번 선택하면 설정이 서버에 보존됩니다.</span></li>
+          <li><strong>연결 뒤에는 기다리기만 하면 됩니다.</strong><span>페이지를 닫아도 약 20분마다 새 JSON을 확인해 순서대로 대기열에 넣습니다. 바로 확인하려면 ‘지금 확인’을 누릅니다.</span></li>
+          <li><strong>이미 등록한 파일은 자동으로 건너뜁니다.</strong><span>같은 Drive 파일의 같은 버전과 내용이 같은 복사본은 다시 대기열에 넣지 않습니다.</span></li>
+        </ol>
         <div class="manual-note"><strong>알아두세요</strong><ul><li>자동 연결 후보가 여러 개여도 등록을 멈추지 않고 가장 가능성 높은 원문을 우선 연결합니다.</li><li>API 키·GitHub 토큰·원문 전체를 완성 JSON 안에 넣지 마세요.</li><li>완성된 결과는 Google Drive가 아니라 GitHub의 도서 데이터에 저장되고 Pages 배포 후 목록에 나타납니다.</li></ul></div>
         <details class="manual-troubleshooting"><summary>문제가 생겼을 때</summary><ul><li><b>.json 파일을 선택하세요</b> → 파일 이름 끝이 정확히 <code>.json</code>인지 확인합니다.</li><li><b>JSON 문법 오류</b> → 따옴표·쉼표·중괄호가 맞는지 확인하고 다시 업로드합니다.</li><li><b>NEEDS_USER_REVIEW</b> → Drive 원문을 확정하지 못한 상태입니다. 등록 후 ‘원문 연결 수정’으로 직접 선택할 수 있습니다.</li><li><b>RUN-FAILED 또는 즉시 실행 실패</b> → ‘GitHub 즉시 실행’의 토큰을 검사·저장하고 ‘대기열 지금 실행’을 누릅니다.</li></ul></details>
       </section>
@@ -371,6 +385,6 @@
   <script src="config/public-config.js?v=20260916-relay-v8"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260916-json-generator1"></script>
+  <script type="module" src="js/app.js?v=20260920-books-json1"></script>
 </body>
 </html>

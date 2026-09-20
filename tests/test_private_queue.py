@@ -410,6 +410,62 @@ def test_immediate_queue_dispatch_passes_manifest_without_relay_lookup():
     assert "inputs: {manifest_id: String(manifestId || '')}" in relay
 
 
+def test_books_json_folder_is_imported_server_side_and_duplicates_are_skipped():
+    root = Path(__file__).resolve().parents[1]
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    script = (root / "js" / "app.js").read_text(encoding="utf-8")
+    html = (root / "index.html").read_text(encoding="utf-8")
+    workflow = (root / ".github" / "workflows" / "queue-worker.yml").read_text(encoding="utf-8")
+
+    for phrase in (
+        'id="pick-canonical-folder"',
+        'id="run-canonical-import"',
+        'id="disable-canonical-import"',
+        'id="canonical-import-folder"',
+        "약 20분마다 확인",
+    ):
+        assert phrase in html
+    for phrase in (
+        'openPicker("canonical-import")',
+        'route:"configure-canonical-import"',
+        'route:"run-canonical-import"',
+        'route:"disable-canonical-import"',
+        "renderCanonicalImportStatus",
+    ):
+        assert phrase in script
+    for phrase in (
+        "function importCanonicalFolder_",
+        "function createCanonicalQueueFromDriveFile_",
+        "function canonicalImportFingerprint_",
+        "CANONICAL_IMPORT_HISTORY_FILE_ID",
+        "books-json-import-history.json",
+        "history.byFileId",
+        "history.byChecksum",
+        "Drive.Files.copy",
+        "automaticImport",
+    ):
+        assert phrase in relay
+    assert "importCanonicalFolder_({limit: 10})" in relay
+    assert relay.index("importCanonicalFolder_({limit: 10});", relay.index("function handlePrivateQueue_")) < relay.index("repairQueueLists_();", relay.index("function handlePrivateQueue_"))
+    assert "requestCanonicalImportScan_" in relay
+    assert "requestQueueWorkflow_(owner, repo, token, '')" in relay
+    configure = relay[relay.index("function configureCanonicalImport_"):relay.index("function runCanonicalImportNow_")]
+    assert "importCanonicalFolder_" not in configure
+    assert "requestCanonicalImportScan_" in configure
+    assert 'cron: "*/20 * * * *"' in workflow
+
+
+def test_books_json_import_keeps_source_files_and_uses_private_queue_copy():
+    root = Path(__file__).resolve().parents[1]
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    importer = relay[relay.index("function importCanonicalFolder_"):relay.index("function privateUploadRecord_")]
+    assert "Drive.Files.copy" not in importer  # copy is wrapped to normalize errors
+    assert "driveCopyFile_(sourceFile.id" in importer
+    assert "setTrashed" not in importer
+    assert "Drive.Files.delete" not in importer
+    assert "104857600" in importer
+
+
 def test_missing_public_result_is_requeued_after_runner_commit_failure(tmp_path):
     entries = [{"status": "COMPLETE", "bookId": "a" * 20, "driveFileId": "drive-file-1"}]
     assert reconcile_completed_entries(entries, {}, tmp_path) == 1
