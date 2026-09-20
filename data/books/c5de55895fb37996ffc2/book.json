@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로르카 시 선집",
+    "author": "페데리코 가르시아 로르카",
+    "genre": "시",
+    "tags": [
+      "스페인시",
+      "안달루시아",
+      "서정시",
+      "로르카"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스페인의 천재 시인이자 극작가로, 안달루시아의 민속 정서와 초현실주의적 감각을 결합한 독창적인 시 세계를 펼쳤으나 스페인 내전 중 비극적으로 생을 마감했습니다.",
+    "oneLineSummary": "스페인의 거장 로르카가 안달루시아의 자연, 민요, 집시의 정서, 그리고 현대 문명에서의 고독과 죽음을 노래한 시들을 모은 선집.",
+    "overallSummary": "로르카의 초기 시들을 중심으로, 남풍과 북풍의 대비를 노래한 '풍향계', 별을 보았다는 이유로 동료들에게 처형당하는 개미와 이를 지켜보는 달팽이의 우화를 담은 '모험가 달팽이의 체험담', 가을의 우수와 상실감을 노래한 '가을 노래', '봄의 노래', '매미야!' 등의 시가 수록되어 있습니다. 자연의 순수함과 인간의 비극적 운명, 죽음의 정서가 서정적이고 상징적인 언어로 펼쳐집니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 시 모음 - 풍향계",
+        "summary": "남풍과 북풍의 대비를 통해 지나가 버린 시간과 상실된 기회를 노래하는 서정시입니다."
+      },
+      {
+        "sectionTitle": "제1부 시 모음 - 모험가 달팽이의 체험담",
+        "summary": "오솔길을 여행하는 달팽이가 개구리들과 개미들을 만나며 겪는 우화를 통해 영생과 별(이상)에 대한 갈망, 그리고 현실의 잔혹함을 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 모티브",
+        "value": "자연물에 투영된 인간의 실존적 고독과 죽음의 정서"
+      }
+    ],
+    "keyEntitiesText": "시인(화자), 달팽이, 개구리들, 개미들, 매미",
+    "settingText": "스페인 안달루시아, 그라나다의 자연과 오솔길."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zFdLrC9Tk8sKZmQzrjwBZaZNA9oVTXSF",
+    "filename": "로르카 시 선집(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T17:59:10.000Z",
+    "size": "218665",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1zFdLrC9Tk8sKZmQzrjwBZaZNA9oVTXSF/view?usp=drivesdk",
+    "sourceSha256": "a88bd172707baae70e4916cde35db6f025b774e85b9defcae64112ffd4cf00c9",
+    "textSha256": "9e2fb3b8bfcf6f818a2d725774126a659739b1a862c662ae01c5d24edb6e3d70",
+    "changeKey": "c87fd61a62ff1b2bf864cce108f6926e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c5de55895fb37996ffc2",
+    "workId": "c5de55895fb37996ffc2",
+    "driveFileId": "1zFdLrC9Tk8sKZmQzrjwBZaZNA9oVTXSF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:19:20.736335+00:00",
+    "updatedAt": "2026-09-20T00:19:20.736350+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:19:20.736456+00:00"
+    }
+  }
+}

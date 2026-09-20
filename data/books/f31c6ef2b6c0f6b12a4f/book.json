@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "전쟁과 평화 중",
+    "author": "레프 톨스토이",
+    "genre": "소설",
+    "tags": [
+      "러시아문학",
+      "대하소설",
+      "사랑",
+      "자연의갱생"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "시골 영지에서 은둔하던 안드레이 공작이 봄의 참나무와 나타샤를 통해 삶의 생기와 사랑의 가능성을 되찾고 페테르부르크로 떠나기로 결심하는 이야기.",
+    "overallSummary": "1809년 봄, 아내를 잃고 시골 영지 보구차로보에서 은둔하며 개혁을 추진하던 안드레이 공작은 랴잔 영지 일로 로스토프 백작의 오트라드노예 저택을 방문합니다. 그곳에서 생기발랄한 소녀 나타샤 로스토바를 만나고, 밤중에 그녀의 목소리를 들으며 깊은 감동을 받습니다. 돌아오는 길에 잎이 무성해진 늙은 참나무를 보며 안드레이는 자신의 삶이 아직 끝나지 않았음을 깨닫고, 다시 사회적 활동과 사랑을 시작하기 위해 페테르부르크로 떠나기로 결심합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제2권 제3부 1",
+        "summary": "안드레이 공작이 시골 영지에서 조용히 개혁을 실행하며 살아가던 중, 숲속에서 잎이 나지 않은 늙은 참나무를 보며 자신의 삶도 끝났다고 생각하는 과정을 다룹니다."
+      },
+      {
+        "sectionTitle": "제2권 제3부 2",
+        "summary": "오트라드노예 저택에서 나타샤를 만나고 밤중에 그녀의 맑은 영혼을 접한 후, 돌아오는 길에 푸르게 변한 참나무를 보며 삶의 희망을 되찾는 과정을 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징적 매개체",
+        "value": "늙은 참나무의 변화를 통한 안드레이 공작의 내면적 부활과 갱생"
+      }
+    ],
+    "keyEntitiesText": "안드레이 니콜라예비치 볼콘스키 공작, 나타샤 로스토바, 소냐, 일리야 안드레예비치 로스토프 백작, 마리야 공작 영애",
+    "settingText": "러시아의 시골 영지 보구차로보, 오트라드노예 저택, 자작나무 숲."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yzrqI_3GoEtc2s62R-MDJd0J56V0urKU",
+    "filename": "레프 톨스토이-전쟁과 평화-중(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T17:51:40.000Z",
+    "size": "1525665",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1yzrqI_3GoEtc2s62R-MDJd0J56V0urKU/view?usp=drivesdk",
+    "sourceSha256": "2b57d0569d333cc549b8c4d96d8bc51d065da65aad45ec5e8ecbf9d809f40edd",
+    "textSha256": "9c637ea1c39b6d6917a2b6676ce882f2b6fec0116a763bde76a5c8a0439c5323",
+    "changeKey": "bbdc25544249efddd20e11da0218245f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f31c6ef2b6c0f6b12a4f",
+    "workId": "f31c6ef2b6c0f6b12a4f",
+    "driveFileId": "1yzrqI_3GoEtc2s62R-MDJd0J56V0urKU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:19:01.128215+00:00",
+    "updatedAt": "2026-09-20T00:19:01.128230+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:19:01.128345+00:00"
+    }
+  }
+}

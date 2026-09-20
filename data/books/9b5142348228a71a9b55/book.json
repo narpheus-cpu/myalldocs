@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신사 트리스트럼 섄디의 인생과 생각 이야기",
+    "author": "로렌스 스턴",
+    "genre": "소설",
+    "tags": [
+      "영국소설",
+      "풍자소설",
+      "의식의흐름",
+      "유머"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "18세기 영국의 소설가이자 성직자로, 전통적인 소설 형식을 파괴하고 탈선과 풍자를 극대화한 독창적인 문학 세계를 구축했습니다.",
+    "oneLineSummary": "주인공 트리스트럼 섄디가 자신의 탄생 이전 잉태 순간부터 시작하여, 아버지와 삼촌의 기이한 성격과 빗나간 연상 작용으로 얽힌 집안의 역사를 서술하는 소설.",
+    "overallSummary": "트리스트럼 섄디는 자신의 불행이 잉태되던 순간 어머니의 엉뚱한 질문으로 인해 생동적 기가 뒤엉킨 데서 시작되었다고 주장합니다. 극단적인 규칙성의 노예인 아버지 월터 섄디와 온화하고 기이한 토비 삼촌, 그리고 이웃의 산파 면허 이야기 등을 장황하고 엉뚱한 탈선과 유머를 통해 서술하며, 인간의 생각과 편견, 그리고 삶의 불확정성을 풍자합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1권 제1장~제3장",
+        "summary": "트리스트럼이 자신의 잉태 순간에 일어난 어머니의 엉뚱한 질문과 그로 인해 자신의 생동적 기가 뒤엉켜 평생의 불행이 시작되었다고 주장하는 엉뚱한 서두를 다룹니다."
+      },
+      {
+        "sectionTitle": "제1권 제4장~제8장",
+        "summary": "자신의 탄생 배경과 아버지의 규칙적인 습관(시계 태엽 감기), 그리고 마을의 산파와 목사 부부의 일화를 장황한 탈선과 함께 서술합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 기법",
+        "value": "의식의 흐름 기법과 탈선(digression)을 극대화한 포스트모던적 서사 구조"
+      }
+    ],
+    "keyEntitiesText": "트리스트럼 섄디, 월터 섄디(아버지), 토비 삼촌, 어머니, 디디우스, 쿠나스트로키우스",
+    "settingText": "18세기 영국의 어느 시골 마을과 섄디 가문의 저택."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1N18kdJgJzIByYZPvlF7SjBcidtglABlH",
+    "filename": "로렌스 스턴-신사 트리스트럼 섄디의 인생과 생각 이야기(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T17:57:20.000Z",
+    "size": "1625384",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1N18kdJgJzIByYZPvlF7SjBcidtglABlH/view?usp=drivesdk",
+    "sourceSha256": "162b812e11b89f013173c5f527bc52c3c96ed888dfa288d49fa2bc9c9d558905",
+    "textSha256": "530bd6c0800c2942c618eee2027e83e2493292952067ab50824cd051b9bbe83e",
+    "changeKey": "86f12611e164d2533d433f64e356bb00",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9b5142348228a71a9b55",
+    "workId": "9b5142348228a71a9b55",
+    "driveFileId": "1N18kdJgJzIByYZPvlF7SjBcidtglABlH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:19:15.049794+00:00",
+    "updatedAt": "2026-09-20T00:19:15.049809+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:19:15.049902+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "장 크리스토프 1",
+    "author": "로맹 롤랑",
+    "genre": "소설",
+    "tags": [
+      "프랑스소설",
+      "성장소설",
+      "음악가",
+      "로맹롤랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 소설가이자 평화주의 사상가로, 대하소설 '장 크리스토프'를 통해 인류애와 예술적 투쟁을 그려 노벨문학상을 수상했습니다.",
+    "oneLineSummary": "음악가 집안에서 태어난 천재 음악가 장 크리스토프의 탄생과 가난하고 불우한 유년 시절의 서막을 다룬 성장 소설.",
+    "overallSummary": "비 내리는 어두운 낮, 전 궁정 음악 지휘자인 할아버지 장 미셸과 상냥하지만 가난한 어머니 루이자, 그리고 술에 절어 방탕한 아버지 멜키오르가 지켜보는 가운데 아기 장 크리스토프가 태어납니다. 아기는 세상의 낯선 빛과 소리에 공포를 느끼며 울음을 터뜨립니다. 할아버지는 아기의 못생긴 외모 속에서 정직하고 훌륭한 예술가가 될 가능성을 기대하고, 어머니는 가난과 남편의 방탕함 속에서 슬픔과 두려움을 견디며 아기를 사랑으로 돌봅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "새벽 1",
+        "summary": "비 내리는 어두운 방에서 아기 장 크리스토프가 태어나 세상의 낯선 감각에 공포를 느끼며 울고, 할아버지 장 미셸과 어머니 루이자가 아기의 탄생과 앞날, 그리고 방탕한 아버지 멜키오르에 대해 근심하는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예술가적 자질",
+        "value": "세상의 소리와 음악(사원의 종소리)에 반응하며 안정을 찾는 아기의 본능적 묘사"
+      }
+    ],
+    "keyEntitiesText": "장 크리스토프, 장 미셸(할아버지), 루이자(어머니), 멜키오르(아버지)",
+    "settingText": "독일 라인 강변의 어느 작은 도시, 크라프트 가문의 가난한 집."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1D0yb5jdDaFPMlV8epQ4ATExrW_nDQIwb",
+    "filename": "로맹 롤랑-장 크리스토프 1(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T12:50:20.000Z",
+    "size": "2353493",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1D0yb5jdDaFPMlV8epQ4ATExrW_nDQIwb/view?usp=drivesdk",
+    "sourceSha256": "b9527a975cdf9eec4f9a2a9002e19e2fd53bf1efeb96b2f9636ff4fb91f6b840",
+    "textSha256": "475c1b126b61ef7a190122c3160419526b94377ecef3af63aaf94a196fa92ac8",
+    "changeKey": "626c7bdf74c657d430637da0563c3c1d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "15eac3383712d808523e",
+    "workId": "15eac3383712d808523e",
+    "driveFileId": "1D0yb5jdDaFPMlV8epQ4ATExrW_nDQIwb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:19:26.980610+00:00",
+    "updatedAt": "2026-09-20T00:19:26.980626+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:19:26.980732+00:00"
+    }
+  }
+}

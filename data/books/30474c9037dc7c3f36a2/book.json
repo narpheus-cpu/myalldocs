@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "왕이 되려던 사나이",
+    "author": "러디어드 키플링",
+    "genre": "소설",
+    "tags": [
+      "영국소설",
+      "모험소설",
+      "제국주의",
+      "키플링"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 소설가이자 시인으로, 인도에서의 경험을 바탕으로 한 모험 소설과 정글북 등으로 노벨문학상을 수상했습니다.",
+    "oneLineSummary": "인도에서 만난 두 명의 대담한 영국인 부랑자가 카피리스탄이라는 미지의 땅으로 가 스스로 왕이 되려는 야망을 품는 이야기.",
+    "overallSummary": "신문기자인 화자는 기차 여행 중과 신문사 사무실에서 대담하고 거구인 두 부랑자 다니엘 드래보트와 피치 카라한을 만납니다. 이들은 인도에서의 삶에 한계를 느끼고, 아무도 가보지 못한 아프가니스탄 북부의 카피리스탄으로 가서 원주민들을 군사적으로 훈련시키고 스스로 왕이 되겠다는 황당하고도 거대한 계획을 세웁니다. 이들은 화자에게 지도와 자료를 요청하며 계약을 맺고 모험을 떠납니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "화자가 기차 여행 중 이등석에서 붉은 수염의 사내를 만나 동료에게 전갈을 전해달라는 기묘한 부탁을 받는 과정을 다룹니다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "신문사 사무실에서 일하는 화자에게 두 사내(드래보트와 카라한)가 찾아와 카피리스탄의 왕이 되겠다는 대담한 계획을 털어놓습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제 의식",
+        "value": "제국주의적 야망과 모험심의 허무한 결말을 예고하는 서막"
+      }
+    ],
+    "keyEntitiesText": "화자(기자), 다니엘 드래보트, 피치 카라한",
+    "settingText": "19세기 후반의 인도와 신문사 사무실."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uWQ_C9qlaJrd6dZ4G7lSlIRbBwLwMVAH",
+    "filename": "러디어드 키플링-왕이 되려던 사나이(블루프린트)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T12:25:58.000Z",
+    "size": "105641",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1uWQ_C9qlaJrd6dZ4G7lSlIRbBwLwMVAH/view?usp=drivesdk",
+    "sourceSha256": "54f4ace4f8432a37994613110abd5cbde81d8f748de0106cd8b80c1c927d7fb0",
+    "textSha256": "11901cc93872d1a3649e94dc125572c2c63931b3b11c74cf1d30308cc8b19408",
+    "changeKey": "a3580ae27a45adaf768c0cc7f969fbde",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "30474c9037dc7c3f36a2",
+    "workId": "30474c9037dc7c3f36a2",
+    "driveFileId": "1uWQ_C9qlaJrd6dZ4G7lSlIRbBwLwMVAH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:18:42.719164+00:00",
+    "updatedAt": "2026-09-20T00:18:42.719179+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:18:42.719286+00:00"
+    }
+  }
+}

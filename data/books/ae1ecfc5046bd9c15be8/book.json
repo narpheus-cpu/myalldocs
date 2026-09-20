@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아메리카의 나치 문학",
+    "author": "로베르토 볼라뇨",
+    "genre": "소설",
+    "tags": [
+      "칠레문학",
+      "가상전기",
+      "정치풍자",
+      "볼라뇨"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "칠레 출신의 세계적인 소설가이자 시인으로, 라틴 아메리카 현대 문학의 가장 독창적인 목소리로 평가받으며 문학과 삶의 비극을 탐구했습니다.",
+    "oneLineSummary": "아메리카 대륙에서 활동한 가상의 극우·나치 성향 문인들의 삶과 작품을 백과사전식 전기로 위장하여 문학의 허영과 정치적 광기를 풍자한 소설.",
+    "overallSummary": "볼라뇨는 아메리카 대륙의 가상 나치 문인들의 전기를 서술합니다. 부에노스아이레스 상류 사회의 시인이자 살롱의 여주인인 에델미라 톰슨 데 멘딜루세는 부유한 농장주와 결혼한 후 극우 성향의 출판사와 잡지를 운영합니다. 그녀는 유럽에서 히틀러를 만나 감화를 받고, 에드거 앨런 포의 에세이에 영감을 받아 아술 농장에 완벽한 '포의 방'을 재현하는 기행을 벌입니다. 이 가상 전기들을 통해 문학적 허영심과 파시즘의 기묘한 결합을 냉소적으로 폭로합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "멘딜루세가 - 에델미라 톰슨 데 멘딜루세",
+        "summary": "아르헨티나의 부유한 여성 시인 에델미라가 극우 성향의 문학 활동을 펼치고, 유럽에서 히틀러를 만나 감화받은 후 아술 농장에 포의 방을 재현하는 기행을 벌인 가상 전기를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 장치",
+        "value": "실존 인물과 가상 인물을 교묘히 섞어 백과사전식 전기로 서술하는 메타픽션 기법"
+      }
+    ],
+    "keyEntitiesText": "E델미라 톰슨 데 멘딜루세, 세바스티안 멘딜루세, 알도 카로소네, 아돌프 히틀러, 아틸리오 프랑케티, 후안 멘딜루세",
+    "settingText": "아르헨티나 부에노스아이레스, 아술 농장, 독일 베를린."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wLo_cyaI1Z3B25VCW0kNDP3GyoI5PZo-",
+    "filename": "로베르토 볼라뇨-아메리카의 나치 문학(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:03:14.000Z",
+    "size": "458263",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1wLo_cyaI1Z3B25VCW0kNDP3GyoI5PZo-/view?usp=drivesdk",
+    "sourceSha256": "ae967f2e2722a8651ea3b4b811312ba1f675e42b1f47433da6f8ef554e6252b5",
+    "textSha256": "479f53170649e6735ceb84ee21156701763740d86196d6a5459073e133324aac",
+    "changeKey": "8bcf99c8330fb118e22ca8b7c84a9f5b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ae1ecfc5046bd9c15be8",
+    "workId": "ae1ecfc5046bd9c15be8",
+    "driveFileId": "1wLo_cyaI1Z3B25VCW0kNDP3GyoI5PZo-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:19:45.297301+00:00",
+    "updatedAt": "2026-09-20T00:19:45.297317+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:19:45.297426+00:00"
+    }
+  }
+}

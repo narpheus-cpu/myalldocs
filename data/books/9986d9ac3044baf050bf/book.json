@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "장 크리스토프 2",
+    "author": "로맹 롤랑",
+    "genre": "소설",
+    "tags": [
+      "프랑스소설",
+      "성장소설",
+      "가문역사",
+      "남매"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "프랑스 중부의 오래된 가문 자넹 집안의 역사와, 서로 다른 성격의 남매 앙투아네트와 올리비에의 유년 시절을 다룬 이야기.",
+    "overallSummary": "프랑스 중부의 소도시에 정착해 살아온 자넹 가문의 역사와 인물들이 소개됩니다. 명랑하고 교권 반대주의자인 아버지 앙투안 자넹과 엄격하고 신앙심 깊은 어머니 뤼시 드 빌리에 사이에서 태어난 남매 앙투아네트와 올리비에는 대조적인 성격을 지녔습니다. 누이 앙투아네트는 활발하고 현실적이며 아름답게 자라나고, 동생 올리비에는 병약하고 감수성이 예민하여 세상의 소란을 피해 자신만의 상상과 몽상 속에서 외롭게 살아갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "앙투아네트",
+        "summary": "프랑스 중부 소도시에 살아온 자넹 가문의 내력과, 명랑한 아버지 앙투안과 엄격한 어머니 뤼시의 성격, 그리고 대조적인 남매 앙투아네트와 올리비에의 평화롭고도 외로운 유년 시절을 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "성격적 대비",
+        "value": "현실적이고 생기 넘치는 앙투아네트와, 병약하고 내면의 몽상에 침잠하는 올리비에의 대비"
+      }
+    ],
+    "keyEntitiesText": "앙투아네트 자넹, 올리비에 자넹, 앙투안 자넹(아버지), 뤼시 드 빌리에(어머니), 어거스틴 자넹(할아버지)",
+    "settingText": "프랑스 중부의 단조롭고 평화로운 소도시와 자넹 가문의 저택, 시골 영지."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1npdx6LJpi8I1S4rWHCIgqsCgDBO2yqRD",
+    "filename": "로맹 롤랑-장 크리스토프 2(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T12:55:16.000Z",
+    "size": "2276867",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1npdx6LJpi8I1S4rWHCIgqsCgDBO2yqRD/view?usp=drivesdk",
+    "sourceSha256": "e6b3fe8ed428a013fb398c94ae1beb82e801d7d77769739d6ffb2756da11ff3b",
+    "textSha256": "d5fe9274d9de52f5df8e19d0caa98f9be994a4dd0136f81db1ca0e9cdd53fbd5",
+    "changeKey": "1e8ea1e99688aa48cbd56bcdaa866343",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9986d9ac3044baf050bf",
+    "workId": "9986d9ac3044baf050bf",
+    "driveFileId": "1npdx6LJpi8I1S4rWHCIgqsCgDBO2yqRD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:19:33.583058+00:00",
+    "updatedAt": "2026-09-20T00:19:33.583074+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:19:33.583181+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "페테르부르크에서 모스크바로의 여행",
+    "author": "A. N. 라디셰프",
+    "genre": "소설",
+    "tags": [
+      "러시아문학",
+      "사회비판",
+      "농노제고발",
+      "계몽주의"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "18세기 러시아의 혁명적 사상가이자 문필가로, 러시아 농노제의 참상을 고발하여 유배를 당했습니다.",
+    "oneLineSummary": "페테르부르크에서 모스크바로 여행하는 화자가 각 역참에서 만나는 사람들과의 대화를 통해 러시아 농노제의 참상과 사회적 모순을 폭로하는 여정.",
+    "overallSummary": "화자는 페테르부르크를 출발하여 소피아, 토스나, 류바니, 추도보 등의 역참을 거치며 여행합니다. 여정 속에서 귀족의 혈통을 자랑하는 구식 관리, 일요일에도 쉬지 못하고 지주의 밭을 갈아야 하는 비참한 농노, 그리고 자신의 하인을 함부로 대했던 스스로의 행동에 대한 반성 등을 통해 러시아 사회의 불평등과 농노제의 잔혹함을 고발하고 인도주의적 성찰을 촉구합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "출발 및 소피아",
+        "summary": "도시를 벗어나 여행을 시작한 화자가 소피아 역참에서 불친절한 역참지기를 만나며 겪는 일화와 인간의 조급함에 대한 성찰을 다룹니다."
+      },
+      {
+        "sectionTitle": "토스나 및 류바니",
+        "summary": "토스나에서 귀족 족보를 연구하는 서기를 만나고, 류바니에서는 일요일에도 쉬지 못하고 일하는 농노와의 대화를 통해 농노제의 모순을 깨닫습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 의의",
+        "value": "러시아 최초의 본격적인 반농노제 사회비판 문학"
+      }
+    ],
+    "keyEntitiesText": "화자, 역참지기, 인사관리국 서기, 밭 가는 농부, 페트루시카(하인), 체(친구)",
+    "settingText": "페테르부르크에서 모스크바로 이어지는 러시아의 도로와 역참들."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10Tq_JxZnPmCkwpvV_wo1m027tJfKW2I8",
+    "filename": "라디셰프-페테르부르크에서 모스크바로의 여행(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T17:38:28.000Z",
+    "size": "538486",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/10Tq_JxZnPmCkwpvV_wo1m027tJfKW2I8/view?usp=drivesdk",
+    "sourceSha256": "ab7ba123bce9e784414c1e9bb9faeb7993f9a9451f1d66ea1b114904ea56176c",
+    "textSha256": "cd9db1ff9b993ded06b10eac73f39a0cf34e0fb4844ea8777fb5e3872f37811a",
+    "changeKey": "c4b1b69af6325a6bbec8d3b0846c34ab",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f08d4a45339e999c5508",
+    "workId": "f08d4a45339e999c5508",
+    "driveFileId": "10Tq_JxZnPmCkwpvV_wo1m027tJfKW2I8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:18:25.405872+00:00",
+    "updatedAt": "2026-09-20T00:18:25.405889+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:18:25.406006+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "처음 읽는 월든",
+    "author": "헨리 데이비드 소로",
+    "genre": "에세이",
+    "tags": [
+      "자연주의",
+      "환경주의",
+      "자급자족",
+      "소박한삶"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 사상가이자 문학가로, 자연주의적 삶을 실천하고 시민불복종 운동의 기틀을 마련한 인물입니다.",
+    "oneLineSummary": "헨리 데이비드 소로가 월든 호숫가 숲속에서 자급자족하며 자연과 조화를 이루는 소박한 삶을 실천하고 기록한 에세이.",
+    "overallSummary": "소로는 문명 사회의 복잡함과 물질적 탐욕에서 벗어나, 월든 호숫가에 스스로 오두막을 짓고 소박하게 살아가는 실험을 감행합니다. 그는 옷, 주택, 음식 등 인간 생활의 필수 요소를 최소화하고 자연과 교감하며 진정한 자유와 삶의 본질을 탐구합니다. 이 책은 인간 중심주의를 비판하고 자연과의 공존을 강조하는 녹색 사상의 고전입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "숲에서의 생활",
+        "summary": "인간이 물질적 소유와 빚의 굴레에서 벗어나 자연 속에서 소박하게 살아갈 때 얻을 수 있는 진정한 자유에 대해 논합니다."
+      },
+      {
+        "sectionTitle": "월든 호숫가 오두막집 짓기",
+        "summary": "소로가 직접 도끼를 들고 숲으로 들어가 저렴한 비용으로 오두막을 짓고 자급자족하는 구체적인 과정을 비용 내역과 함께 설명합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 사상",
+        "value": "자발적 빈곤과 자연과의 조화로운 공존"
+      }
+    ],
+    "keyEntitiesText": "헨리 데이비드 소로, 월든 호수, 콩코드",
+    "settingText": "미국 매사추세츠주 콩코드의 월든 호숫가 숲속."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Bwbr2SjFw6geu5AYqLqYitbaCzfiWfZw",
+    "filename": "헨리 데이빗 소로우-월든.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:42.121Z",
+    "size": "1236567",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1Bwbr2SjFw6geu5AYqLqYitbaCzfiWfZw/view?usp=drivesdk",
+    "sourceSha256": "5a926647cdf767007a2961f4385fdd731cfd881d5289926bd822d9d7d53cb6f5",
+    "textSha256": "06130c3d8b7e866e0bebc3ac0e9f319bffd7e6b089eae66bbd0b79daa89da15b",
+    "changeKey": "162aa950e49096e67d62b75534bf33cd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "21dfb47e334809f11fc8",
+    "workId": "21dfb47e334809f11fc8",
+    "driveFileId": "1Bwbr2SjFw6geu5AYqLqYitbaCzfiWfZw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:18:18.851695+00:00",
+    "updatedAt": "2026-09-20T00:18:18.851710+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.271,
+      "updatedAt": "2026-09-20T00:18:18.851800+00:00"
+    }
+  }
+}

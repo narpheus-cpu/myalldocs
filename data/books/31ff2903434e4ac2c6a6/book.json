@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "전쟁과 평화 하",
+    "author": "레프 톨스토이",
+    "genre": "소설",
+    "tags": [
+      "러시아문학",
+      "대하소설",
+      "역사철학",
+      "쿠투조프"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "1812년 나폴레옹의 러시아 침공과 보로디노 전투 이후, 모스크바 철수라는 역사적 결단을 내려야 했던 총사령관 쿠투조프와 러시아군의 고뇌를 다룬 이야기.",
+    "overallSummary": "톨스토이는 역사의 운동 법칙이 소수 영웅의 의지가 아닌 민중의 무한소의 자의지 총합에 의해 움직인다고 논증합니다. 1812년 보로디노 전투 이후, 러시아군은 엄청난 손실로 인해 프랑스군을 막아낼 물리적 가능성이 없음을 깨닫습니다. 필리 회의에서 총사령관 쿠투조프는 장군들의 엇갈리는 제안 속에서 조국을 구하기 위해 모스크바를 버리고 퇴각한다는 비장하고 불가피한 결정을 내립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제3권 제3부 1",
+        "summary": "역사의 운동 법칙을 수학의 미적분 개념에 비유하여 설명하고, 개별 영웅이 아닌 민중의 자의지 총합이 역사를 움직인다는 역사 철학을 제시합니다."
+      },
+      {
+        "sectionTitle": "제3권 제3부 2",
+        "summary": "보로디노 전투 이후 러시아군의 불가피한 퇴각 과정과, 필리 회의에서 모스크바를 버리기로 결정하는 쿠투조프 총사령관의 고뇌와 결단을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사관",
+        "value": "영웅주의 사관을 배격하고 민중의 총합적 의지를 중시하는 민중사관"
+      }
+    ],
+    "keyEntitiesText": "미하일 일라리오노비치 쿠투조프, 나폴레옹 보나파르트, 예르몰로프, 라스톱친 백작",
+    "settingText": "1812년 러시아의 보로디노 전장, 필리, 모스크바 근교."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AbhtG_ATL1V260vz4g6F9PSwCRqIDr0b",
+    "filename": "레프 톨스토이-전쟁과 평화-하(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T17:54:20.000Z",
+    "size": "1452183",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1AbhtG_ATL1V260vz4g6F9PSwCRqIDr0b/view?usp=drivesdk",
+    "sourceSha256": "5665758547e939f741cb7ed64913f1b523d57a4db5bfd90b22ba889900f1dd33",
+    "textSha256": "a2e9cdb7756e74308b2fe2bad2f48d23cd2829fbc62d2f263edcd49ba3f15e9e",
+    "changeKey": "9d44f30230ab8caa7cee81f93320333a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "31ff2903434e4ac2c6a6",
+    "workId": "31ff2903434e4ac2c6a6",
+    "driveFileId": "1AbhtG_ATL1V260vz4g6F9PSwCRqIDr0b",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:19:07.322288+00:00",
+    "updatedAt": "2026-09-20T00:19:07.322303+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:19:07.322417+00:00"
+    }
+  }
+}

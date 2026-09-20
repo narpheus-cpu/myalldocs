@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지옥에서 보낸 한 철",
+    "author": "아르튀르 랭보",
+    "genre": "시",
+    "tags": [
+      "프랑스시",
+      "상징주의",
+      "방황",
+      "예술적고백"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 천재 시인으로, 기성 도덕과 질서에 반항하며 감각의 착란을 통해 새로운 시적 언어를 탐구했습니다.",
+    "oneLineSummary": "시인 랭보가 자신의 방황, 고통, 종교와 도덕에 대한 반항, 그리고 예술적 환멸을 강렬하고 상징적인 언어로 고백한 산문시집.",
+    "overallSummary": "시인이 자신의 나쁜 혈통(골족의 선조)과 악덕, 나태를 고백하며 기독교적 도덕과 근대 과학, 문명에 대해 격렬하게 반항합니다. 지옥의 밤을 통과하며 겪는 환각과 고통, 굶주림, 그리고 영원에 대한 갈망을 시적 환상과 궤변을 통해 묘사합니다. 결국 시인은 기성 질서와 환상에서 벗어나 이성을 되찾고 현실의 삶을 수용하려는 고통스러운 이별을 고합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서시 및 나쁜 혈통",
+        "summary": "시인이 자신의 불행과 악마적 유혹을 고백하고, 골족 선조로부터 물려받은 나쁜 혈통과 기독교 문명에 대한 반항심을 토로합니다."
+      },
+      {
+        "sectionTitle": "지옥의 밤 및 굶주림",
+        "summary": "지옥의 고통 속에서 겪는 환각과 갈증, 그리고 영원에 대한 갈망과 시적 환멸을 노래합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시적 경향",
+        "value": "상징주의와 초현실주의의 선구적 텍스트"
+      }
+    ],
+    "keyEntitiesText": "시인(화자), 사탄, 예수, 골족 선조",
+    "settingText": "시인의 내면세계와 프랑스 서쪽 해변."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1s-rNRA71EkAKmv6u-kgLZ9Y1BtVAl34g",
+    "filename": "아르튀르 랭보-지옥에서 보낸 한 철 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.540Z",
+    "size": "41058",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1s-rNRA71EkAKmv6u-kgLZ9Y1BtVAl34g/view?usp=drivesdk",
+    "sourceSha256": "6860e5d101a16a31b9788a2a35528b572d94019096c6372abbd0b4e98de48821",
+    "textSha256": "dd05adc3518f454706d58021931641a9e2678a79ca85bf58d8e5b8821b7a5616",
+    "changeKey": "7c47de10cf159421309237170a5eecfe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "61fde79c18cf7360f1ba",
+    "workId": "61fde79c18cf7360f1ba",
+    "driveFileId": "1s-rNRA71EkAKmv6u-kgLZ9Y1BtVAl34g",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:18:37.449245+00:00",
+    "updatedAt": "2026-09-20T00:18:37.449260+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:18:37.449368+00:00"
+    }
+  }
+}

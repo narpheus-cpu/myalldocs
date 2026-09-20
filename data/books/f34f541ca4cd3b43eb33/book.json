@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "벤허",
+    "author": "루 월리스",
+    "genre": "소설",
+    "tags": [
+      "역사소설",
+      "기독교소설",
+      "동방박사",
+      "메시아"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 군인이자 정치가, 소설가로, 예수 그리스도의 생애를 배경으로 한 웅장한 역사 소설 '벤허'를 집필하여 세계적인 명성을 얻었습니다.",
+    "oneLineSummary": "기원 전후 예수 그리스도의 탄생 시기를 배경으로, 사막을 건너 베들레헴으로 향하는 세 명의 동방박사의 여정과 메시아의 탄생을 다룬 역사 소설의 서막.",
+    "overallSummary": "소설은 주인공 '벤허'의 이름에 얽힌 성서적 의미와 예루살렘 지도를 소개하며 시작됩니다. 제1권에서는 아라비아 사막을 가로질러 흰 단봉낙타를 타고 묵묵히 동쪽으로 향하는 이집트인 발타자르의 여정이 묘사됩니다. 그는 신비로운 인도에 따라 사막 한가운데에 텐트를 치고, 자신과 함께 메시아를 경배하기 위해 찾아올 다른 두 명의 동방박사(가스파르, 멜키오르)를 경건하게 기다립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1권 1. 사막과 낙타",
+        "summary": "이집트인 발타자르가 흰 단봉낙타를 타고 아라비아 사막을 묵묵히 횡단하는 장엄한 여정을 묘사합니다."
+      },
+      {
+        "sectionTitle": "제1권 2. 세 명의 여행자",
+        "summary": "사막 한가운데에 멈춰 선 발타자르가 텐트를 치고 식사를 준비하며, 자신과 함께 메시아를 경배할 다른 두 명의 동방박사를 경건하게 기다리는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "종교적 상징",
+        "value": "사막의 고독 속에서 메시아의 탄생을 예비하는 동방박사의 경건한 믿음"
+      }
+    ],
+    "keyEntitiesText": "발타자르(이집트인 동방박사), 가스파르, 멜키오르, 벤허",
+    "settingText": "기원 전후의 아라비아 사막, 주블레 산 기슭, 예루살렘과 베들레헴."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hqIvWGOP95LUw2viMsl1bXtsn0mxv0lE",
+    "filename": "루 월리스-벤허-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:38:12.000Z",
+    "size": "1694969",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1hqIvWGOP95LUw2viMsl1bXtsn0mxv0lE/view?usp=drivesdk",
+    "sourceSha256": "fd79604fe5ee81ff8d4f9410cb1534cd06d8abf00d54fbd1a895fb6852405dc3",
+    "textSha256": "95546cd2347678afcc5af7b3ad4bde3a2eafdc41380dfab74292953ede710755",
+    "changeKey": "7eddd5d700a3719f35fdf22a3cf395cf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f34f541ca4cd3b43eb33",
+    "workId": "f34f541ca4cd3b43eb33",
+    "driveFileId": "1hqIvWGOP95LUw2viMsl1bXtsn0mxv0lE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:19:51.674781+00:00",
+    "updatedAt": "2026-09-20T00:19:51.674798+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:19:51.674909+00:00"
+    }
+  }
+}
