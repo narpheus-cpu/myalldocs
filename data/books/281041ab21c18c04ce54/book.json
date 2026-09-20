@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "관자요록 (상)",
+    "author": "나채훈 편저",
+    "genre": "역사 / 고전 / 철학",
+    "tags": [
+      "관포지교",
+      "제나라",
+      "춘추시대",
+      "관중",
+      "포숙아"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "philosophy",
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인천 출생으로 서울대 행정대학원을 졸업하고 다양한 역사 저서를 집필한 저술가.",
+    "oneLineSummary": "춘추시대 제나라를 배경으로 관중과 포숙아의 깊은 우정과 제환공을 패자로 만들기까지의 역사적 과정을 다룬 책.",
+    "overallSummary": "주나라의 쇠퇴와 춘추시대의 서막을 배경으로, 제나라의 명재상 관중과 그의 절친한 벗 포숙아의 전설적인 우정(관포지교)을 다룬다. 가난한 시절부터 서로를 깊이 이해했던 두 사람은 제나라의 왕위 계승 분쟁에서 서로 다른 공자를 보좌하게 된다. 결국 제환공이 즉위한 후, 포숙아는 자신보다 뛰어난 관중을 재상으로 적극 추천한다. 관중은 제환공을 보좌하여 강력한 경제 정책과 개혁을 통해 제나라를 춘추시대 첫 번째 패권국으로 성장시킨다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "관중, 포숙아, 제환공, 포사, 주유왕",
+    "settingText": "중국 춘추시대 제나라 및 주나라 왕실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13Wiyy6CHFmuOrS4m4J0sEAYAOhvif7JE",
+    "filename": "나채훈 편저-관자요록(管子要錄) (상) .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.317Z",
+    "size": "597732",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/13Wiyy6CHFmuOrS4m4J0sEAYAOhvif7JE/view?usp=drivesdk",
+    "sourceSha256": "2cc8defdf5ca81d4ec36e3d693ca43a9a4a25df7af853b18d3c15782416eb624",
+    "textSha256": "28ef3dd951fd630fb909efa4fc0876e9dd281d57ebe37540c2bc49d9742a6e57",
+    "changeKey": "679764ea4804dbfdcbc4737f98f4b732",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "281041ab21c18c04ce54",
+    "workId": "281041ab21c18c04ce54",
+    "driveFileId": "13Wiyy6CHFmuOrS4m4J0sEAYAOhvif7JE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:11:44.768259+00:00",
+    "updatedAt": "2026-09-20T00:11:44.768277+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:11:44.768378+00:00"
+    }
+  }
+}

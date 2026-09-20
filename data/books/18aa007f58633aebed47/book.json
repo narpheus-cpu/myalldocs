@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신곡 (지옥편)",
+    "author": "단테 알리기에리",
+    "genre": "시 / 대서사시",
+    "tags": [
+      "지옥",
+      "베르길리우스",
+      "베아트리체",
+      "죄와 벌",
+      "이탈리아 문학"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": [
+        "philosophy",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이탈리아 최고의 시인이자 예언자적 작가로, 중세 문학의 정점이자 르네상스의 선구자.",
+    "oneLineSummary": "인생의 중반에 길을 잃은 단테가 고대 로마의 시인 베르길리우스의 안내를 받아 지옥의 참상을 목격하는 영적 여정의 시작.",
+    "overallSummary": "서른다섯 살의 단테는 어두운 숲속에서 길을 잃고 헤매다 표범, 사자, 암이리 등 세 마리의 야수에게 가로막혀 절망한다. 이때 그의 앞에 고대 로마의 위대한 시인 베르길리우스의 영혼이 나타나 그를 구원하고 지옥과 연옥을 안내하겠다고 제안한다. 단테는 자신의 자격에 대해 의문을 품고 주저하지만, 천국에 있는 베아트리체가 자신을 구하기 위해 베르길리우스를 보냈다는 사실을 알고 용기를 얻어 지옥의 문을 통과하며 본격적인 피안의 여행을 시작한다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "단테, 베르길리우스, 베아트리체, 카론",
+    "settingText": "어두운 숲과 지옥의 입구, 아케론 강"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1A6uI-Rn2duAkSQOE9CzfTc-DbbApoc3Z",
+    "filename": "단테-신곡.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.451Z",
+    "size": "664605",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1A6uI-Rn2duAkSQOE9CzfTc-DbbApoc3Z/view?usp=drivesdk",
+    "sourceSha256": "bcf0842a2166f358e1d36e44541bd912ad086e3bba589c444e2bf1eb6fa2c625",
+    "textSha256": "3d12f10296919fe8facb67f18b2da3538b161440625045a94f418d5ac14764fe",
+    "changeKey": "5239e232c17f3738a6f5edbf7e5f8b51",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "18aa007f58633aebed47",
+    "workId": "18aa007f58633aebed47",
+    "driveFileId": "1A6uI-Rn2duAkSQOE9CzfTc-DbbApoc3Z",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:12:27.104644+00:00",
+    "updatedAt": "2026-09-20T00:12:27.104661+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4004,
+      "updatedAt": "2026-09-20T00:12:27.104815+00:00"
+    }
+  }
+}

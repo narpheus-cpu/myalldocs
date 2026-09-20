@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "경희",
+    "author": "나혜석",
+    "genre": "소설 / 근대소설",
+    "tags": [
+      "신여성",
+      "여성해방",
+      "자아실현",
+      "가부장제 비판",
+      "한국 근대문학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 최초의 여성 서양화가이자 작가로, 근대 여성 해방 운동의 선구자.",
+    "oneLineSummary": "일본 유학을 마치고 돌아온 신여성 경희가 가부장적인 사회적 편견과 결혼 강요에 맞서 자아를 발견하고 주체적인 삶을 다짐하는 이야기.",
+    "overallSummary": "도쿄 유학 중 방학을 맞아 귀국한 경희는 집안일과 바느질, 김치 담그기 등 여성의 가사 노동에도 능숙한 모습을 보이지만, 주변 사람들로부터 '여자가 공부해서 무엇하느냐, 어서 시집이나 가라'는 끊임없는 참견과 결혼 강요를 받는다. 경희는 가부장적이고 전근대적인 여성관에 회의를 느끼며, 단순한 가사 노동이나 출산의 도구로 살아가는 삶을 거부하고 배움을 통해 주체적인 인간으로서 자아를 실현하고자 고뇌하고 결단한다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "경희, 김 부인(경희의 어머니), 사돈 마님, 시월이(하녀)",
+    "settingText": "일제강점기 한국의 어느 전통적인 가부장적 가정"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xOFmx-PdKd5Cq7DiyP5rMgdG-C0K0b3r",
+    "filename": "나혜석-경희 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.363Z",
+    "size": "66733",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1xOFmx-PdKd5Cq7DiyP5rMgdG-C0K0b3r/view?usp=drivesdk",
+    "sourceSha256": "fc688577cbc2c6a872141619b22a734c9b009410972175b95aba3a3a185e0b73",
+    "textSha256": "0e6441cd7c2e6f4e8a55a129b84352489c9f30f199b52c826a70125bc4431b1c",
+    "changeKey": "7ab6150256f7ca2149713cc4e5e80fd6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3dee8ecdfb6b33c20d6b",
+    "workId": "3dee8ecdfb6b33c20d6b",
+    "driveFileId": "1xOFmx-PdKd5Cq7DiyP5rMgdG-C0K0b3r",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-20T00:11:56.678631+00:00",
+    "updatedAt": "2026-09-20T00:11:56.678656+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-20T00:11:56.678803+00:00"
+    }
+  }
+}
