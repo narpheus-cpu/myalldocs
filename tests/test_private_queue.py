@@ -337,7 +337,7 @@ def test_queue_upload_survives_missing_or_rejected_github_token():
     assert "queueScheduledFallback_" in relay
     assert "github_http_" in relay
     assert "scheduledFallback: true" in relay
-    assert 'cron: "*/20 * * * *"' in workflow
+    assert 'cron: "7,37 * * * *"' in workflow
     assert workflow.index("Load the next private queue item") < workflow.index("Install current supported SDKs")
     script = (root / "js" / "app.js").read_text(encoding="utf-8")
     assert "dispatchFailureText(finish.dispatch)" in script
@@ -422,7 +422,7 @@ def test_books_json_folder_is_imported_server_side_and_duplicates_are_skipped():
         'id="run-canonical-import"',
         'id="disable-canonical-import"',
         'id="canonical-import-folder"',
-        "약 20분마다 확인",
+        "약 15분마다 확인",
     ):
         assert phrase in html
     for phrase in (
@@ -452,7 +452,31 @@ def test_books_json_folder_is_imported_server_side_and_duplicates_are_skipped():
     configure = relay[relay.index("function configureCanonicalImport_"):relay.index("function runCanonicalImportNow_")]
     assert "importCanonicalFolder_" not in configure
     assert "requestCanonicalImportScan_" in configure
-    assert 'cron: "*/20 * * * *"' in workflow
+    assert 'cron: "7,37 * * * *"' in workflow
+
+
+def test_books_json_import_has_apps_script_clock_trigger_and_github_backup():
+    root = Path(__file__).resolve().parents[1]
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    manifest = json.loads((root / "apps-script" / "appsscript.json").read_text(encoding="utf-8"))
+    workflow = (root / ".github" / "workflows" / "queue-worker.yml").read_text(encoding="utf-8")
+    html = (root / "index.html").read_text(encoding="utf-8")
+    script = (root / "js" / "app.js").read_text(encoding="utf-8")
+
+    for phrase in (
+        "function installCanonicalImportAutomation()",
+        "function ensureCanonicalImportTrigger_()",
+        "function scheduledCanonicalImportTick_()",
+        ".timeBased().everyMinutes(15).create()",
+        "CANONICAL_IMPORT_TRIGGER_LAST_STATUS",
+        "importCanonicalFolder_({limit: 10})",
+        "dispatchQueueWorkflow_(preferred)",
+    ):
+        assert phrase in relay
+    assert "https://www.googleapis.com/auth/script.scriptapp" in manifest["oauthScopes"]
+    assert 'cron: "7,37 * * * *"' in workflow
+    assert 'id="canonical-import-trigger"' in html
+    assert "작동 중 · 약" in script
 
 
 def test_books_json_import_keeps_source_files_and_uses_private_queue_copy():

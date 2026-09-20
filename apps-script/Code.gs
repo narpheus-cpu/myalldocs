@@ -17,6 +17,20 @@ function setupPrivateStorage() {
   return {ok: true, folderId: ensureManagementFolderId_()};
 }
 
+/**
+ * Run once from the Apps Script editor after deployment. This installs the
+ * free 15-minute clock trigger, finds the single books-json folder, and starts
+ * the first background scan immediately. GitHub's schedule remains a backup.
+ */
+function installCanonicalImportAutomation() {
+  var properties = PropertiesService.getScriptProperties();
+  var folderId = String(properties.getProperty('CANONICAL_IMPORT_FOLDER_ID') || '') || discoverCanonicalImportFolder_();
+  if (!folderId) throw new Error('이름이 books-json인 폴더가 하나만 있어야 합니다. 인덱싱 화면에서 폴더를 직접 선택할 수도 있습니다.');
+  var trigger = ensureCanonicalImportTrigger_();
+  var run = scheduledCanonicalImportTick_();
+  return {ok: true, trigger: trigger, run: run, canonicalImport: canonicalImportStatus_()};
+}
+
 function doPost(e) {
   try {
     var body = JSON.parse((e.postData && e.postData.contents) || '{}');
@@ -169,6 +183,7 @@ function configureCanonicalImport_(body) {
     CANONICAL_IMPORT_FOLDER_NAME: String(metadata.name || body.folderName || 'books-json').slice(0, 300),
     CANONICAL_IMPORT_ENABLED_AT: new Date().toISOString()
   });
+  ensureCanonicalImportTrigger_();
   var dispatch = requestCanonicalImportScan_();
   return {
     ok: true, canonicalImport: canonicalImportStatus_(),
@@ -200,6 +215,7 @@ function requestCanonicalImportScan_() {
 
 function disableCanonicalImport_() {
   var properties = PropertiesService.getScriptProperties();
+  removeCanonicalImportTriggers_();
   properties.deleteProperty('CANONICAL_IMPORT_FOLDER_ID');
   properties.deleteProperty('CANONICAL_IMPORT_FOLDER_NAME');
   properties.deleteProperty('CANONICAL_IMPORT_ENABLED_AT');
@@ -217,7 +233,12 @@ function canonicalImportStatus_() {
     folderId: folderId,
     folderName: String(properties.getProperty('CANONICAL_IMPORT_FOLDER_NAME') || ''),
     enabledAt: String(properties.getProperty('CANONICAL_IMPORT_ENABLED_AT') || ''),
-    intervalMinutes: 20,
+    intervalMinutes: 15,
+    triggerInstalled: properties.getProperty('CANONICAL_IMPORT_TRIGGER_INSTALLED') === 'true',
+    triggerInstalledAt: String(properties.getProperty('CANONICAL_IMPORT_TRIGGER_INSTALLED_AT') || ''),
+    lastTriggerAt: String(properties.getProperty('CANONICAL_IMPORT_TRIGGER_LAST_AT') || ''),
+    lastTriggerStatus: String(properties.getProperty('CANONICAL_IMPORT_TRIGGER_LAST_STATUS') || ''),
+    lastTriggerMessage: String(properties.getProperty('CANONICAL_IMPORT_TRIGGER_LAST_MESSAGE') || ''),
     lastScanAt: String(last.scannedAt || ''),
     lastScanned: Number(last.scanned || 0),
     lastQueued: Number(last.queued || 0),
@@ -225,6 +246,76 @@ function canonicalImportStatus_() {
     lastErrors: Number(last.errors || 0),
     lastMessage: String(last.message || '')
   };
+}
+
+function ensureCanonicalImportTrigger_() {
+  var handler = 'scheduledCanonicalImportTick_';
+  var matching = ScriptApp.getProjectTriggers().filter(function(trigger) {
+    return trigger.getHandlerFunction() === handler;
+  });
+  var kept = matching.shift();
+  matching.forEach(function(trigger) { ScriptApp.deleteTrigger(trigger); });
+  if (!kept) kept = ScriptApp.newTrigger(handler).timeBased().everyMinutes(15).create();
+  var installedAt = new Date().toISOString();
+  PropertiesService.getScriptProperties().setProperties({
+    CANONICAL_IMPORT_TRIGGER_INSTALLED: 'true',
+    CANONICAL_IMPORT_TRIGGER_INSTALLED_AT: installedAt,
+    CANONICAL_IMPORT_TRIGGER_UID: String(kept.getUniqueId() || '')
+  });
+  return {installed: true, intervalMinutes: 15, installedAt: installedAt};
+}
+
+function removeCanonicalImportTriggers_() {
+  ScriptApp.getProjectTriggers().forEach(function(trigger) {
+    if (trigger.getHandlerFunction() === 'scheduledCanonicalImportTick_') ScriptApp.deleteTrigger(trigger);
+  });
+  var properties = PropertiesService.getScriptProperties();
+  properties.deleteProperty('CANONICAL_IMPORT_TRIGGER_INSTALLED');
+  properties.deleteProperty('CANONICAL_IMPORT_TRIGGER_INSTALLED_AT');
+  properties.deleteProperty('CANONICAL_IMPORT_TRIGGER_UID');
+}
+
+/**
+ * Primary, no-billing scheduler. It scans Drive itself instead of waiting for
+ * GitHub's best-effort cron, then asks the existing free standard runner to
+ * process the first queued item. The importer lock prevents overlapping scans.
+ */
+function scheduledCanonicalImportTick_() {
+  var properties = PropertiesService.getScriptProperties();
+  var startedAt = new Date().toISOString();
+  properties.setProperties({
+    CANONICAL_IMPORT_TRIGGER_LAST_AT: startedAt,
+    CANONICAL_IMPORT_TRIGGER_LAST_STATUS: 'RUNNING',
+    CANONICAL_IMPORT_TRIGGER_LAST_MESSAGE: 'books-json 폴더를 확인하는 중입니다.'
+  });
+  try {
+    var scan = importCanonicalFolder_({limit: 10});
+    var active = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS');
+    var dispatch = {requested: false, scheduledFallback: false, reason: active.length ? 'already_running_or_queued' : 'empty_queue'};
+    var live = liveStatus_();
+    var updated = Date.parse(live.updatedAt || '');
+    var busy = ['QUEUED', 'RUNNING'].indexOf(String(live.status || '')) >= 0 &&
+      !isNaN(updated) && (Date.now() - updated) < 22500000;
+    if (active.length && !busy) {
+      var preferred = scan.queuedManifestIds && scan.queuedManifestIds.length ? scan.queuedManifestIds[0] : active[0];
+      dispatch = dispatchQueueWorkflow_(preferred);
+    }
+    var status = scan.errors ? 'WARNING' : 'SUCCESS';
+    var message = scan.message || (active.length ? '등록된 대기열을 확인했습니다.' : '새 JSON이 없습니다.');
+    if (busy && active.length) message += ' 기존 대기열이 실행 중이므로 완료 후 차례로 이어집니다.';
+    properties.setProperties({
+      CANONICAL_IMPORT_TRIGGER_LAST_STATUS: status,
+      CANONICAL_IMPORT_TRIGGER_LAST_MESSAGE: message
+    });
+    return {ok: !scan.errors, scan: publicCanonicalImportResult_(scan), dispatch: dispatch, busy: busy};
+  } catch (error) {
+    var detail = String(error && error.message || error).slice(0, 500);
+    properties.setProperties({
+      CANONICAL_IMPORT_TRIGGER_LAST_STATUS: 'ERROR',
+      CANONICAL_IMPORT_TRIGGER_LAST_MESSAGE: detail
+    });
+    throw error;
+  }
 }
 
 function publicCanonicalImportResult_(result) {

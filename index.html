@@ -7,7 +7,7 @@
   <meta name="description" content="Google Drive 원본과 연결된 개인 도서 지식베이스">
   <title>서재 지도 · Personal Book Knowledge Base</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css?v=20260920-books-json1">
+  <link rel="stylesheet" href="assets/styles.css?v=20260920-scheduler1">
 </head>
 <body>
   <header class="topbar">
@@ -165,9 +165,9 @@
           <div class="upload-actions"><button id="upload-canonical-json" class="primary" type="button">완성 인덱싱 JSON 업로드</button><button id="canonical-json-manual" class="manual-button" type="button">매뉴얼</button></div>
           <div class="auto-import-panel">
             <h3>Drive 자동 가져오기</h3>
-            <p><b>books-json</b> 폴더의 새 JSON을 약 20분마다 확인해 차례로 등록합니다. 이미 등록한 동일 파일과 동일 내용은 건너뜁니다.</p>
+            <p><b>books-json</b> 폴더의 새 JSON을 Apps Script가 약 15분마다 확인해 차례로 등록합니다. GitHub 예약 실행도 보조 안전망으로 동작하며, 이미 등록한 동일 파일과 동일 내용은 건너뜁니다.</p>
             <div class="upload-actions"><button id="pick-canonical-folder" type="button">books-json 폴더 연결</button><button id="run-canonical-import" type="button" disabled>지금 확인</button><button id="disable-canonical-import" type="button" disabled>자동 가져오기 끄기</button></div>
-            <dl class="auto-import-status"><div><dt>연결 폴더</dt><dd id="canonical-import-folder">확인 전</dd></div><div><dt>최근 확인</dt><dd id="canonical-import-last">확인 전</dd></div><div><dt>최근 결과</dt><dd id="canonical-import-result">확인 전</dd></div></dl>
+            <dl class="auto-import-status"><div><dt>연결 폴더</dt><dd id="canonical-import-folder">확인 전</dd></div><div><dt>자동 실행</dt><dd id="canonical-import-trigger">확인 전</dd></div><div><dt>최근 확인</dt><dd id="canonical-import-last">확인 전</dd></div><div><dt>최근 결과</dt><dd id="canonical-import-result">확인 전</dd></div></dl>
             <p id="canonical-import-message" class="message" aria-live="polite">Google 계정으로 연결하면 상태를 확인할 수 있습니다.</p>
           </div>
         </section>
@@ -385,6 +385,6 @@
   <script src="config/public-config.js?v=20260916-relay-v8"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260920-books-json1"></script>
+  <script type="module" src="js/app.js?v=20260920-scheduler1"></script>
 </body>
 </html>

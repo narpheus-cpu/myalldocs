@@ -8,9 +8,9 @@ on:
         required: false
         type: string
   schedule:
-    # A persisted upload must not depend on an Apps Script GitHub token.
-    # Empty checks stop before dependency installation and make no Gemini call.
-    - cron: "*/20 * * * *"
+    # Backup for the Apps Script 15-minute trigger. Off-hour minutes reduce the
+    # chance that GitHub drops a scheduled event during peak load.
+    - cron: "7,37 * * * *"
       timezone: "America/Los_Angeles"
 
 permissions:
