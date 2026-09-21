@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지하철",
+    "author": "아사다 지로",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "장편소설",
+      "타임슬립",
+      "가족사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아사다 지로는 섬세한 인간 심리와 감동적인 서사로 사랑받는 일본 작가이다.",
+    "oneLineSummary": "동창회에 참석했다가 과거로 통하는 공간을 마주하며 가족의 비극과 과거를 돌아보는 남자의 이야기이다.",
+    "overallSummary": "영업직으로 일하며 고단한 삶을 사는 주인공 신지가 동창회 후 지하철역에서 과거의 은사를 만나고 형의 기일과 과거의 비극적인 가족사를 떠올리는 성찰 과정을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "지하철과 어릴 적 기억",
+        "summary": "어린 시절 개통된 지하철에 대한 선명한 기억과 당시 집안의 모순된 분위기를 되새긴다."
+      },
+      {
+        "sectionTitle": "동창회와 은사와의 만남",
+        "summary": "동창회 후 역 플랫폼에서 옛 서예 교사를 만나 대화를 나누며 현실의 고단함을 느낀다."
+      },
+      {
+        "sectionTitle": "형의 기일과 영안실의 기억",
+        "summary": "지하철 사고로 세상을 떠났던 형의 기일을 깨닫고 과거 영안실에서의 참담했던 기억을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 모티브",
+        "value": "지하철 공간을 통한 과거 기억의 환원과 가족사의 비극"
+      }
+    ],
+    "keyEntitiesText": "고누마 신지, 노히라 선생님(노페이), 형, 동생 게이조, 아버지",
+    "settingText": "도쿄 지하철역 플랫폼 및 과거 어린 시절의 대저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ebKDveiOe02gCZEVPjCZA5J_AVS-5HP6",
+    "filename": "아사다 지로-지하철(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T01:18:40.000Z",
+    "size": "411136",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ebKDveiOe02gCZEVPjCZA5J_AVS-5HP6/view?usp=drivesdk",
+    "sourceSha256": "561aed4f3581ae5b16ca4e94666abeede182c09d70e9070478208d3acf0d194a",
+    "textSha256": "e5daf46b510ee9d562203c9170292f92b0b87da94f5689edeff9604cbb938708",
+    "changeKey": "0a6e421b8de8b6362fb5ded4af163104",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2eaffd6320075c4dfea8",
+    "workId": "2eaffd6320075c4dfea8",
+    "driveFileId": "1ebKDveiOe02gCZEVPjCZA5J_AVS-5HP6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:15:09.017816+00:00",
+    "updatedAt": "2026-09-21T22:15:09.017831+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:15:09.017924+00:00"
+    }
+  }
+}

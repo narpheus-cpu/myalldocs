@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한낮인데 어두운 방",
+    "author": "에쿠니 가오리",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "불온소설",
+      "관계",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "에쿠니 가오리는 일상의 조용한 균열과 인물들의 정서를 감각적으로 포착하는 작가이다.",
+    "oneLineSummary": "한낮에도 어두운 방에 모여드는 국적이 다른 이들의 조용하고 수상쩍은 일상을 담은 작품이다.",
+    "overallSummary": "어두운 아파트 방에 사는 미국인 존스 씨와 이탈리아인 도예가 나탈리, 그리고 근처 단독주택의 미야코 씨 등 각기 다른 배경과 비밀을 지닌 인물들의 잔잔하면서도 기묘한 일상과 관계를 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "어두운 방의 방문객",
+        "summary": "존스 씨의 어두운 방에서 나탈리와 나누는 일상적이고 친밀한 대화와 각자의 생활."
+      },
+      {
+        "sectionTitle": "미야코 씨의 일상",
+        "summary": "언덕 위 집에 사는 주부 미야코 씨의 완벽주의적인 청소 습관과 남편 히로시와의 고요한 라이프스타일."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "고요함 속에 감춰진 고독과 타인과의 매혹적인 거리감"
+      }
+    ],
+    "keyEntitiesText": "존스 씨, 나탈리, 사와이 미야코, 히로시",
+    "settingText": "도쿄의 좁은 아파트 및 근처 단독주택가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UhTbILvmL67OaKWMIuPLS88SbHN_qEdC",
+    "filename": "에쿠니 가오리-한낮인데 어두운 방-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-05T13:13:06.000Z",
+    "size": "295741",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1UhTbILvmL67OaKWMIuPLS88SbHN_qEdC/view?usp=drivesdk",
+    "sourceSha256": "cd664a8d93ac9f4c12568266a93dfac112731cc4935eddbebe836ffdde83c38d",
+    "textSha256": "fb274dacd6ec83ae084ba12ef7ce8a635ef3005c0c4bf882b94e4e0289d13ec2",
+    "changeKey": "4601c235650ddd65e04ad470104af053",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "67f9d30dd19c98776ccb",
+    "workId": "67f9d30dd19c98776ccb",
+    "driveFileId": "1UhTbILvmL67OaKWMIuPLS88SbHN_qEdC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:19:33.793069+00:00",
+    "updatedAt": "2026-09-21T22:19:33.793086+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:19:33.793175+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "화이트",
+    "author": "와카마츠 에토오",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "비주얼노벨",
+      "화이트 앨범",
+      "연애"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "와카마츠 에토오는 청춘의 연애와 갈등을 서정적으로 그려내는 작가이다.",
+    "oneLineSummary": "가수로 데뷔하게 된 연인과의 관계 변화와 이로 인해 느끼는 청년의 불안과 애정을 다룬 소설이다.",
+    "overallSummary": "대학생 하지메가 가수로 데뷔하여 스타로 떠오르는 연인 유키와의 시간적·마음적 거리를 느끼는 동시에, 주변 대학 친구들과의 관계 속에서 서툴게 성장해가는 청춘 연애 스토리이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "유키의 데뷔 소식",
+        "summary": "하지메의 방을 찾은 연인 유키가 오가타 프로덕션에서 가수로 데뷔한다는 소식을 전한다."
+      },
+      {
+        "sectionTitle": "캠퍼스에서의 친구들",
+        "summary": "대학 교정에서 오래된 친구 하루카, 아키라, 선배 미사키 등을 만나 유쾌한 일상을 보낸다."
+      },
+      {
+        "sectionTitle": "지하철역에서의 뜻밖의 만남",
+        "summary": "혼잡한 지하철역에서 떨어진 정기권을 주워 준 여고생과의 우연한 만남."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 동인",
+        "value": "연인의 성공에 따른 거리감과 청춘의 고독"
+      }
+    ],
+    "keyEntitiesText": "하지메, 모리카와 유키, 카와지마 하루카, 나나세 아키라, 사와쿠라 미사키",
+    "settingText": "1990년대 일본의 캠퍼스, 자취방 및 찻집 에코즈"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kr112H2V2TcG7bW3iDqgcFt5F_2V8kPD",
+    "filename": "와카마츠 에토오-화이트.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.226Z",
+    "size": "1492677",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1kr112H2V2TcG7bW3iDqgcFt5F_2V8kPD/view?usp=drivesdk",
+    "sourceSha256": "6fc28ecff7038c413c85dae1007ed0315aa2210a95fc673f6774b0b2fcfdb136",
+    "textSha256": "5cbd3e657d0aca4643388bd3e16a0b93f829bf51f2ad59dc63201868bb560f9f",
+    "changeKey": "949338679425cd4c3327572d19e969c3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d2730dcf7840d8623244",
+    "workId": "d2730dcf7840d8623244",
+    "driveFileId": "1kr112H2V2TcG7bW3iDqgcFt5F_2V8kPD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:20:46.162305+00:00",
+    "updatedAt": "2026-09-21T22:20:46.162322+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:20:46.162414+00:00"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "꿀벌과 천둥",
+    "author": "온다 리쿠",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "음악",
+      "피아노",
+      "콩쿠르"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "온다 리쿠는 치밀한 구도와 독창적인 세계관으로 다수의 문학상을 수상한 일본의 대표 작가이다.",
+    "oneLineSummary": "국제 피아노 콩쿠르를 배경으로 천재적인 재능을 가진 젊은 음악가들의 피나는 노력과 대결을 다룬다.",
+    "overallSummary": "요시가에 국제 피아노 콩쿠르 오디션에 참가한 각양각색의 젊은 피아니스트들과 이들의 연주를 심사하는 심사위원들의 긴장감 넘치는 음악적 열정과 천재성에 대한 갈망을 생생하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "파리 오디션 현장",
+        "summary": "심사위원 사가 미에코 일행이 지루한 오디션 속에서 참된 스타성과 새로운 재능을 기다린다."
+      },
+      {
+        "sectionTitle": "음악가들의 고뇌",
+        "summary": "피아니스트들이 거치는 가혹한 훈련 과정과 예술의 전당에 서기 위한 필사적인 노력을 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예술적 표현",
+        "value": "피아노 연주의 음색과 콩쿠르 무대의 중압감을 감각적 문장으로 묘사"
+      }
+    ],
+    "keyEntitiesText": "사가 미에코, 알랭 시몽, 세르게이 스미노프, 가자마 진, 에이덴 아야, 마사루, 다카시마 아카시",
+    "settingText": "파리의 오디션 홀 및 일본 요시가에 국제 피아노 콩쿠르 무대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Lc5bH-RBUEb0T5rp_3MUxbjEAFZB2jRe",
+    "filename": "온다 리쿠-꿀벌과 천둥(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.196Z",
+    "size": "974234",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Lc5bH-RBUEb0T5rp_3MUxbjEAFZB2jRe/view?usp=drivesdk",
+    "sourceSha256": "9dcecd255629366cde10e78612a4d17df78d96f0ab7bbf54f30d30e69f3e44b8",
+    "textSha256": "aaf77c7c31d0f03cf9978be4e09579d4c4135a884c19a7495c612615f0d053d7",
+    "changeKey": "523ebcfcb38b1c5f9a8139923b0358b3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e5f2da88579223ad4f46",
+    "workId": "e5f2da88579223ad4f46",
+    "driveFileId": "1Lc5bH-RBUEb0T5rp_3MUxbjEAFZB2jRe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:20:38.146140+00:00",
+    "updatedAt": "2026-09-21T22:20:38.146156+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:20:38.146247+00:00"
+    }
+  }
+}

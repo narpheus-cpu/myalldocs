@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사자왕 알렉산드로스",
+    "author": "아토다 다카시",
+    "genre": "소설",
+    "tags": [
+      "역사소설",
+      "알렉산더",
+      "그리스",
+      "아리스토텔레스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아토다 다카시는 위트와 풍부한 교양을 바탕으로 역사 및 단편 소설을 활발히 쓴 일본 작가이다.",
+    "oneLineSummary": "세계를 제패한 알렉산드로스 대왕의 소년 시절과 스승 아리스토텔레스와의 역사적 만남을 다룬 소설이다.",
+    "overallSummary": "마케도니아의 소년 왕자 알렉산드로스가 미에자 학사에서 철학자 아리스토텔레스를 스승으로 맞이하여 자존심을 건 대화를 나누고, 스승의 가르침과 기개를 배우며 장차 세계의 패권을 쥐기 위한 영웅의 기상을 키워가는 과정을 담았다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "베르미온의 신비한 징조",
+        "summary": "마케도니아의 귀족 소년 헤페스티온이 신비한 빛을 목격하며 미래의 암시를 느낀다."
+      },
+      {
+        "sectionTitle": "아리스토텔레스와의 첫 만남",
+        "summary": "왕자 알렉산드로스가 애마 부세팔로스와 함께 스승 아리스토텔레스를 마주하고 자존심 대결을 펼친다."
+      },
+      {
+        "sectionTitle": "그리스의 정세와 패권론",
+        "summary": "쇠퇴한 아테네 등 그리스 제국의 병폐와 마케도니아가 가져야 할 웅대한 기개에 대해 스승과 담론을 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 의미",
+        "value": "고대 그리스 쇠퇴기와 마케도니아의 부흥, 헬레니즘 사상의 싹"
+      }
+    ],
+    "keyEntitiesText": "알렉산드로스, 아리스토텔레스, 헤페스티온, 부세팔로스, 필리포스 2세",
+    "settingText": "고대 마케도니아의 미에자 학사 및 베르미온 구릉 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11oAjLRgHcXL512-fl0jlE66YXw6b9dF5",
+    "filename": "아토다 다카시-사자왕 알렉산드로스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.849Z",
+    "size": "705753",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/11oAjLRgHcXL512-fl0jlE66YXw6b9dF5/view?usp=drivesdk",
+    "sourceSha256": "ebf1bd14de776e88e16dceb4502f77f4b5659563af311fec54e26391abed6e6c",
+    "textSha256": "adb99bfba3e1e45d9b2735b779ef27b8b56a80f2aee3b9c24b7947d4af404c96",
+    "changeKey": "d1107994eeaee523051dbe3bcf075879",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "65248b9c49dbcc3aa74a",
+    "workId": "65248b9c49dbcc3aa74a",
+    "driveFileId": "11oAjLRgHcXL512-fl0jlE66YXw6b9dF5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:17:17.486582+00:00",
+    "updatedAt": "2026-09-21T22:17:17.486599+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:17:17.486691+00:00"
+    }
+  }
+}

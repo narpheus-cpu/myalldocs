@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "철도원",
+    "author": "아사다 지로",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "단편소설",
+      "철도원",
+      "폐선"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아사다 지로는 일본의 서정적이고 감동적인 소설을 다수 집필한 대표 작가이다.",
+    "oneLineSummary": "폐선을 앞둔 시골 간이역에서 평생 직업에 헌신한 늙은 역장과 그에게 찾아온 환영의 이야기이다.",
+    "overallSummary": "호로마이 역의 늙은 역장 오토마츠가 폐선을 앞두고 정년 퇴직을 맞이하는 가운데, 오랜 동료의 방문과 신비로운 소녀의 등장으로 지나온 삶과 잃어버린 딸에 대한 추억을 되새기는 이야기를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "호로마이 선의 마지막 열차",
+        "summary": "퇴직을 앞둔 역장 오토마츠를 찾아온 동료 센지가 쇠락해가는 호로마이 선 열차를 타고 도착한다."
+      },
+      {
+        "sectionTitle": "철도원의 삶과 회상",
+        "summary": "두 늙은 철도원이 함께 술을 마시며 과거의 번영했던 탄광 마을과 어릴 적 세상을 떠난 오토마츠의 딸 유키코를 회상한다."
+      },
+      {
+        "sectionTitle": "밤에 찾아온 어린 손님",
+        "summary": "눈 내리는 밤 역으로 찾아온 어린 소녀를 맞이하며 오토마츠는 깊은 감회와 서글픔에 젖는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "장인 정신, 직업적 소명 의식과 가족에 대한 그리움"
+      }
+    ],
+    "keyEntitiesText": "사토 오토마츠, 센지, 히데오, 유키코",
+    "settingText": "홋카이도의 눈 내리는 시골 종착역 호로마이 역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13oIMYrsNnKhUXZx3Ooc0rcT3w5QrGl_q",
+    "filename": "아사다 지로-철도원(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.743Z",
+    "size": "320298",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/13oIMYrsNnKhUXZx3Ooc0rcT3w5QrGl_q/view?usp=drivesdk",
+    "sourceSha256": "3d9ce08ac704bf9fe3a48f4f852d33396046235594a65d3d944b2b040241f771",
+    "textSha256": "a930b0cf76a3b36d5436303ff04d49c0e9522ab6381fdc8231700d0d9050af9b",
+    "changeKey": "1c6b000153d1a1672b5cc277a1cda51e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "33cb76c5a9eb5681447e",
+    "workId": "33cb76c5a9eb5681447e",
+    "driveFileId": "13oIMYrsNnKhUXZx3Ooc0rcT3w5QrGl_q",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:15:45.550186+00:00",
+    "updatedAt": "2026-09-21T22:15:45.550203+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:15:45.550295+00:00"
+    }
+  }
+}

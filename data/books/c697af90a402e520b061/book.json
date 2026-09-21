@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "후지미 교향악단",
+    "author": "아키즈키 코오",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "BL",
+      "클래식",
+      "오케스트라"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아키즈키 코오는 음악과 남성 간의 섬세한 정서를 다룬 소설 시리즈로 이름을 알린 작가이다.",
+    "oneLineSummary": "아마추어 오케스트라에 카리스마 넘치는 새 지휘자가 취임하면서 벌어지는 갈등과 변화를 그린 이야기이다.",
+    "overallSummary": "시민 오케스트라의 콘서트마스터인 유우키가 동경예대 출신의 유학파 지휘자 토우노인을 맞아 그의 거만하고 엄격한 지휘 방식에 반감을 느끼면서도 그의 실력에 압도당하는 과정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "새 지휘자의 등장",
+        "summary": "이시다의 소개로 2번가 교향악단에 키가 크고 거만한 토우노인이 새 상임지휘자로 온다."
+      },
+      {
+        "sectionTitle": "첫 합주와 갈등",
+        "summary": "연주 도중 엄격하게 지적하며 독단적인 지휘 방식을 내세우는 토우노인 때문에 단원들이 긴장하고 반발한다."
+      },
+      {
+        "sectionTitle": "연습 후의 후일담",
+        "summary": "연습이 끝난 후 찻집 모짜르트에서 카와지마 등 단원들과 함께 새 지휘자에 대한 솔직한 평과 느낀 점을 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "음악적 요소",
+        "value": "아이네 클라이네 나하트 뮤직 합주, 오케스트라 단원 간의 규율"
+      }
+    ],
+    "keyEntitiesText": "모리무라 유우키, 토우노인 케이, 이시다, 카와지마 나쯔꼬",
+    "settingText": "후지미 시의 시민 센터 연습실 및 찻집 모짜르트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_67jLIIgJdDNKxwgrF-uwxHkSlf1Hu7S",
+    "filename": "아키즈 키코오-후지미 교향악단.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.781Z",
+    "size": "2008558",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1_67jLIIgJdDNKxwgrF-uwxHkSlf1Hu7S/view?usp=drivesdk",
+    "sourceSha256": "1ef40529096e047783ff8759d4b285bbd73e62088b5a5e81f2f17db13318c206",
+    "textSha256": "ca9ce02eb246737c4b9630cb9c304b10ed2ec9501b381298100e13f576a66ab6",
+    "changeKey": "de69a77df5614ddb22c5ad2c5599d539",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c697af90a402e520b061",
+    "workId": "c697af90a402e520b061",
+    "driveFileId": "1_67jLIIgJdDNKxwgrF-uwxHkSlf1Hu7S",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:17:01.285754+00:00",
+    "updatedAt": "2026-09-21T22:17:01.285771+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:17:01.285864+00:00"
+    }
+  }
+}

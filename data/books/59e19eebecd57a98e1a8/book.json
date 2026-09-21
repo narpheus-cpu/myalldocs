@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "장미도둑",
+    "author": "아사다 지로",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "단편소설",
+      "구조조정",
+      "온천마을"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아사다 지로는 감성적인 서사와 인간애를 그리는 일본의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "구조조정으로 직장을 잃은 남성이 지방 온천마을에서 자신의 삶과 타인의 처지를 되돌아보는 이야기이다.",
+    "overallSummary": "사진부장으로 근무하다 정리해고를 당한 주인공 기타무라가 충동적으로 지방 온천 도시로 떠나 온천가의 쇠락한 풍경과 마주하며 자신의 현실과 삶을 성찰하는 내용을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "온천가의 쇠락",
+        "summary": "기타무라가 경마장에서 돈을 잃은 뒤 온천 여관에 묵으며 온천마을의 몰락과 여관 종업원의 고충을 듣는다."
+      },
+      {
+        "sectionTitle": "정리해고의 기억",
+        "summary": "출판사 사진부장에서 퇴직하게 된 과정과 가족들에게 해고 소식을 전했던 당시의 괴로움을 회상한다."
+      },
+      {
+        "sectionTitle": "스트립 극장에서의 만남",
+        "summary": "한산한 극장에서 한물간 무희 및 노인과 대화하며 자신의 본업이었던 사진 촬영을 매개로 교감한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "불황기 현대인의 상실감과 인간적인 교감"
+      }
+    ],
+    "keyEntitiesText": "기타무라, 다카노, 무희 하나조노 릴리, 조명사 닷짱",
+    "settingText": "불경기로 몰락한 지방 온천 도시의 허름한 여관 및 스트립 극장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Qmpa-X0ri8VOlol1NS5CAStGQ_lIVe0w",
+    "filename": "아사다 지로-장미도둑(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T01:16:38.000Z",
+    "size": "401684",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Qmpa-X0ri8VOlol1NS5CAStGQ_lIVe0w/view?usp=drivesdk",
+    "sourceSha256": "10c8abde342965862309f634cc49b6c6bf6d47a109f8ff73a324a4a2e8fd0608",
+    "textSha256": "f4e02d23290b266ce57ab49db1838e013979e1207a9f0aee5ddfeff75a933699",
+    "changeKey": "7a24d13d1ca6c0a8ac269db168be64b9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "59e19eebecd57a98e1a8",
+    "workId": "59e19eebecd57a98e1a8",
+    "driveFileId": "1Qmpa-X0ri8VOlol1NS5CAStGQ_lIVe0w",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:14:29.609844+00:00",
+    "updatedAt": "2026-09-21T22:14:29.609860+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:14:29.610039+00:00"
+    }
+  }
+}

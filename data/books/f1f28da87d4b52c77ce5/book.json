@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도마뱀",
+    "author": "요시모토 바나나",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "단편소설",
+      "치유",
+      "구원"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "요시모토 바나나는 현대인의 고독과 내면의 상처를 치유하는 감성적인 소설로 세계적 팬덤을 가진 작가이다.",
+    "oneLineSummary": "트라우마를 지닌 두 청춘이 서로의 상처를 보듬으며 치유와 사랑을 찾아가는 이야기이다.",
+    "overallSummary": "자폐아 상담사인 '나'와 허벅지에 도마뱀 문신이 있고 기공 치유 능력을 가진 여자친구 '도마뱀'이 서로의 숨겨진 과거 상처와 트라우마를 털어놓으며 깊은 공감과 구원을 이루어가는 과정을 그린 단편이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "도마뱀과의 밤",
+        "summary": "새벽에 찾아온 도마뱀이 피곤함을 털어내며 어린 시절 시력을 잃었던 과거를 고백한다."
+      },
+      {
+        "sectionTitle": "첫 만남과 끌림",
+        "summary": "스포츠 클럽 에어로빅 강사였던 도마뱀을 처음 만나 그녀의 신비로운 매력과 치유 능력에 끌렸던 기억."
+      },
+      {
+        "sectionTitle": "비밀의 고백과 수용",
+        "summary": "도마뱀이 어릴 적 겪은 참극과 신비한 경험에 대해 털어놓자 '나'는 이를 온전히 품어준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "치유 메커니즘",
+        "value": "상처 입은 영혼 간의 체온과 공감을 통한 마음의 구원"
+      }
+    ],
+    "keyEntitiesText": "나(카운슬러), 도마뱀(기공 치유사)",
+    "settingText": "도쿄의 자취방, 스포츠 클럽, 치유원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WXFQ0alkwxIGdg-Rk1begZ8XVG2njYXw",
+    "filename": "요시모토 바나나-도마뱀.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.332Z",
+    "size": "41560",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1WXFQ0alkwxIGdg-Rk1begZ8XVG2njYXw/view?usp=drivesdk",
+    "sourceSha256": "7db790dbbc444265c0fa9376bc387cfed7ad25491ad51a78071bd4a1875b9147",
+    "textSha256": "b8c1b50de625a287665a15a529ff3f49631c4136f5a320ca8db8df3c0bb638dd",
+    "changeKey": "ca18932fcacf79feec045cc63834cfba",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f1f28da87d4b52c77ce5",
+    "workId": "f1f28da87d4b52c77ce5",
+    "driveFileId": "1WXFQ0alkwxIGdg-Rk1begZ8XVG2njYXw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:21:04.304474+00:00",
+    "updatedAt": "2026-09-21T22:21:04.304492+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:21:04.304586+00:00"
+    }
+  }
+}

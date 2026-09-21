@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무코다 이발소",
+    "author": "오쿠다 히데오",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "귀촌",
+      "시골마을",
+      "가업승계"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오쿠다 히데오는 위트 넘치는 유머와 현실적인 사회 문제 의식을 결합하는 인기 작가이다.",
+    "oneLineSummary": "쇠락해가는 탄광 마을의 이발소에 아들이 귀향하여 가업을 잇겠다고 선언하며 벌어지는 이야기이다.",
+    "overallSummary": "홋카이도 시골 마을 도마자와에서 이발소를 운영하는 야스히코에게 도시 회사원인 아들 가즈마사가 고향으로 돌아와 가업을 잇고 카페를 열겠다고 선언하자, 아버지가 느끼는 걱정과 지역 사회의 반응을 유머러스하게 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아들의 귀향 선언",
+        "summary": "가즈마사가 고향 마을의 소멸을 막겠다며 직장을 그만두고 이발소를 잇겠다고 고백한다."
+      },
+      {
+        "sectionTitle": "동네 친구들과의 술자리",
+        "summary": "단골 술집에서 불알친구 및 여주인과 함께 아들의 귀향과 마을 재건에 대해 논쟁한다."
+      },
+      {
+        "sectionTitle": "파견 관료 사사키의 방문",
+        "summary": "면사무소 파견 관료 사사키가 손님으로 찾아와 마을 재건과 행정 통합에 관한 의견을 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 주제",
+        "value": "고령화, 지방 소멸, 청년 귀촌과 가업 승계 갈등"
+      }
+    ],
+    "keyEntitiesText": "무코다 야스히코, 가즈마사, 교코, 다니구치 슈이치, 사사키",
+    "settingText": "홋카이도의 쇠락한 옛 탄광 마을 도마자와"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1w26HnBZa_4l9H_GX0ZBo8ltvcmqNWcMK",
+    "filename": "오쿠다 히데오-무코다 이발소(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.177Z",
+    "size": "280457",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1w26HnBZa_4l9H_GX0ZBo8ltvcmqNWcMK/view?usp=drivesdk",
+    "sourceSha256": "8ee378ce1c4503c37201d45cedd716f4bf321872e6c6007d56d6924cbf0dc5e4",
+    "textSha256": "710b4df76acbb3629221606bb6097724eada9bad118442e8f2036a35cb00391e",
+    "changeKey": "c9f5d65c93203c47eccb068cdea4fb11",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b73a64fd391f678ce55a",
+    "workId": "b73a64fd391f678ce55a",
+    "driveFileId": "1w26HnBZa_4l9H_GX0ZBo8ltvcmqNWcMK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:20:25.249974+00:00",
+    "updatedAt": "2026-09-21T22:20:25.249991+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:20:25.250083+00:00"
+    }
+  }
+}

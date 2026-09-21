@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "실락원",
+    "author": "와타나베 준이치",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "실락원",
+      "불륜",
+      "탐닉"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "와타나베 준이치는 중년 남녀의 지고의 정념과 죽음을 다룬 작품으로 큰 사회적 반향을 일으킨 작가이다.",
+    "oneLineSummary": "한직으로 밀려난 중년 남성과 정숙한 유부녀가 도피적인 애정에 빠져드는 과정을 그린 대표작이다.",
+    "overallSummary": "출판사 조사실로 좌천된 쉰세 살의 구키가 문화센터 서예 강사인 린코를 만나 유부녀인 그녀와 깊은 탐닉에 빠져들며, 현실의 좌절을 극복하고자 지고의 정념으로 빠져드는 심리적·육체적 여정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "가마쿠라 호텔에서의 정사",
+        "summary": "시치리가하마 바닷가 호텔에서 린코와 정사를 나눈 뒤 지는 노을을 바라보며 나눈 대화."
+      },
+      {
+        "sectionTitle": "좌천과 린코와의 만남",
+        "summary": "일년 전 편집부장에서 좌천된 구키가 친구의 소개로 서예 강사 린코를 만난 계기를 회상한다."
+      },
+      {
+        "sectionTitle": "호텔 레스토랑에서의 저녁",
+        "summary": "어둠이 내린 레스토랑에서 저녁을 먹으며 서로의 가정과 비밀에 대해 조심스럽게 탐색한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "사회적 실락(좌천)과 육체적·정신적 쾌락의 구원"
+      }
+    ],
+    "keyEntitiesText": "구키, 마츠바라 린코, 기누가와",
+    "settingText": "가마쿠라 시치리가하마의 호텔 및 도쿄"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gmANX6MxhJkKVQW1jD7SwGaBGqcwfluM",
+    "filename": "와타나베 준이치-실락원.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.296Z",
+    "size": "623502",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1gmANX6MxhJkKVQW1jD7SwGaBGqcwfluM/view?usp=drivesdk",
+    "sourceSha256": "6545a5e5af9bbd70c8f3690597df3de5631ebaba5eeb5dd14ca1bb3d1e5fba55",
+    "textSha256": "733955107a65ea56fa57b28745c0b609b37076526fa6c77da47d78902bac44f5",
+    "changeKey": "13e283bc0f526d7b2128e12123bf8981",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3077142b2fe20fe8691a",
+    "workId": "3077142b2fe20fe8691a",
+    "driveFileId": "1gmANX6MxhJkKVQW1jD7SwGaBGqcwfluM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:20:58.863870+00:00",
+    "updatedAt": "2026-09-21T22:20:58.863887+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:20:58.863981+00:00"
+    }
+  }
+}

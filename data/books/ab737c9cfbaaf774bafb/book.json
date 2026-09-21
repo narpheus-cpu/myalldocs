@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "기묘한 러브레터",
+    "author": "야도노 카호루",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "미스터리",
+      "서간체",
+      "반전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "야도노 카호루는 독특한 구성과 치밀한 복선, 예상치 못한 반전으로 주목받는 작가이다.",
+    "oneLineSummary": "SNS 메시지를 통해 과거의 연인과 소통하며 드러나는 숨겨진 진실과 미스터리를 담은 서간체 소설이다.",
+    "overallSummary": "주인공 미즈타니가 페이스북에서 옛 연인 미호코의 흔적을 발견하고 메시지를 보내면서 시작된다. 과거 결혼식 날 갑자기 사라졌던 그녀와의 과거 추억과 비밀이 주고받는 메시지 속에 교차하며 충격적인 진실로 이어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "SNS에서 발견한 이름",
+        "summary": "미즈타니가 페이스북에서 28년 전 사라진 미호코의 사진을 확증하고 첫 메시지를 보낸다."
+      },
+      {
+        "sectionTitle": "근황과 지나간 기억의 회상",
+        "summary": "건강 이상과 과거 연극부 시절의 아련한 추억, 그리고 결혼식 날 파혼되었던 사건을 되새긴다."
+      },
+      {
+        "sectionTitle": "답장과 밝혀지는 이면",
+        "summary": "오랜 침묵 끝에 미호코로부터 답장이 도착하고 두 사람 사이에 얽힌 과거의 오해와 진실이 조금씩 드러난다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 기법",
+        "value": "서간체(메시지) 형식을 활용한 심리전과 반전 구조"
+      }
+    ],
+    "keyEntitiesText": "미즈타니 가즈마, 유키 미호코(다시로 미호코)",
+    "settingText": "현대의 페이스북 메시지 교환 및 과거 대학 연극부 시절"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yf0tU47b-75muBqFjK6KQpw6dOalrQe7",
+    "filename": "야도노 카호루-기묘한 러브레터(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.872Z",
+    "size": "176342",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1yf0tU47b-75muBqFjK6KQpw6dOalrQe7/view?usp=drivesdk",
+    "sourceSha256": "9e6502c80ab6fb08bbf737df3d9f401a677681e55496968d05dde9cfe5d3f741",
+    "textSha256": "8e442143e18aa30fa2ae25c8ae054b1e532670c3a81a917c97c2775e58bb15c6",
+    "changeKey": "38e840b872fa0d2d753f5c80ecb52d5a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ab737c9cfbaaf774bafb",
+    "workId": "ab737c9cfbaaf774bafb",
+    "driveFileId": "1yf0tU47b-75muBqFjK6KQpw6dOalrQe7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:17:30.712842+00:00",
+    "updatedAt": "2026-09-21T22:17:30.712860+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:17:30.712951+00:00"
+    }
+  }
+}

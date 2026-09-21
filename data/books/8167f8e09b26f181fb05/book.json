@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대망",
+    "author": "야마오카 소하치",
+    "genre": "소설",
+    "tags": [
+      "역사소설",
+      "대망",
+      "도쿠가와 이에야스",
+      "전국시대"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "야마오카 소하치는 일본 전국시대의 인물들을 대서사시로 풀어낸 대표적인 역사소설가이다.",
+    "oneLineSummary": "도쿠가와 이에야스의 탄생 전후 전국시대 영주 간의 정략결혼과 생존 대립을 그린 대하 역사소설이다.",
+    "overallSummary": "마츠다이라 가문의 젊은 성주 히로타다가 정략상 적대 세력인 미즈노 가문의 딸 오다이를 정실로 맞이해야 하는 정세와 결단, 그리고 난세 속에서 가문을 보존하기 위해 치열한 모략과 인내를 거듭하는 인물들의 심리를 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "히로타다의 고뇌",
+        "summary": "젊은 성주 히로타다가 정략 혼담에 분노하며 가문을 위해 참아야 하는 현실 앞에 번민한다."
+      },
+      {
+        "sectionTitle": "케요인의 설득과 결단",
+        "summary": "계모 케요인이 난세에서 살아남기 위한 가문 간의 결합의 필요성을 설득하고 중신들이 동의한다."
+      },
+      {
+        "sectionTitle": "카리야 성의 오다이",
+        "summary": "아버지 미즈노 타다마사와 오다이가 시집을 앞두고 난세의 정략과 진실한 사랑에 대한 대화를 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대관",
+        "value": "전국시대 영주들의 사활을 건 정략결혼과 인내의 처세술"
+      }
+    ],
+    "keyEntitiesText": "마츠다이라 히로타다, 오히사, 케요인, 미즈노 타다마사, 오다이",
+    "settingText": "16세기 일본 전국시대 오카자키 성 및 카리야 성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NFluRyx04IBceCgzIySuTe2j0Nxl5A8u",
+    "filename": "야마오카 소하치-대망(완).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.888Z",
+    "size": "11588557",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1NFluRyx04IBceCgzIySuTe2j0Nxl5A8u/view?usp=drivesdk",
+    "sourceSha256": "b92685a8da8ba92736b24adf53912279d6b859a366e98eede70cc6e108e5eaa2",
+    "textSha256": "b2daf4db823065ffa8b71da3b9fbb73391677376da689cef1a26b96d12019285",
+    "changeKey": "83c5d7d31630ef0f1ea2c11a7cc7dd2d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8167f8e09b26f181fb05",
+    "workId": "8167f8e09b26f181fb05",
+    "driveFileId": "1NFluRyx04IBceCgzIySuTe2j0Nxl5A8u",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:18:32.157926+00:00",
+    "updatedAt": "2026-09-21T22:18:32.157943+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:18:32.158039+00:00"
+    }
+  }
+}

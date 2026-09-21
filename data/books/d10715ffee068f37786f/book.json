@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불륜",
+    "author": "와타나베 준이치",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "불륜",
+      "로맨스",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "와타나베 준이치는 성숙한 남녀의 관능과 심리를 날카롭게 포착하는 대중소설의 거장이다.",
+    "oneLineSummary": "중년의 건축가와 유부녀의 관능적이고 위태로운 열정을 섬세하게 담아낸 소설이다.",
+    "overallSummary": "중년의 건축가 이오리와 유부녀 카스미가 비밀스러운 만남을 이어가며 느끼는 관능적인 기쁨, 서로에 대한 미묘한 질투, 그리고 일상의 찰나에 찾아오는 허무와 열정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "눈 내린 아침의 모닝콜",
+        "summary": "카스미의 모닝콜을 받으며 전날 밤의 밀회와 그녀가 가져온 하얀 와비스케 꽃을 되새긴다."
+      },
+      {
+        "sectionTitle": "마티스론과 카스미의 존재",
+        "summary": "서재에서 마티스 회화론 원고를 쓰며 카스미의 풍성하고 고요한 매력을 겹쳐 본다."
+      },
+      {
+        "sectionTitle": "잊고 간 머리핀",
+        "summary": "세면대에 머리핀을 두고 간 카스미의 전화를 받으며 두 사람의 밀회 약속을 다시 확인한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "미학적 상징",
+        "value": "하얀 와비스케 꽃, 마티스의 화풍과 여성의 관능"
+      }
+    ],
+    "keyEntitiesText": "이오리, 다카무라 카스미, 파출부 토미코",
+    "settingText": "도쿄의 남향 아파트 및 미술관, 하라주쿠 사무실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12zAehN40qyr2qFuqu_yTNiXGPewX30vE",
+    "filename": "와타나베 준이치-불륜.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.271Z",
+    "size": "636460",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/12zAehN40qyr2qFuqu_yTNiXGPewX30vE/view?usp=drivesdk",
+    "sourceSha256": "c09267707ca1c9b742da58d08c71f9d0175dcef91e35c598494d01ceb11dbb31",
+    "textSha256": "783b64df425764e02e0ac658fc8cfd258e7b89ed627d532ea27689a6754d3d41",
+    "changeKey": "12414a0f4c67770400fdc6506859928c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d10715ffee068f37786f",
+    "workId": "d10715ffee068f37786f",
+    "driveFileId": "12zAehN40qyr2qFuqu_yTNiXGPewX30vE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:20:52.915678+00:00",
+    "updatedAt": "2026-09-21T22:20:52.915695+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:20:52.915785+00:00"
+    }
+  }
+}

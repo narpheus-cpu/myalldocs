@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "활동사진의 여자",
+    "author": "아사다 지로",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "청춘소설",
+      "영화",
+      "교토대"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아사다 지로는 인간미 넘치는 인물 묘사와 흥미진진한 스토리텔링을 선보이는 소설가이다.",
+    "oneLineSummary": "교토에서 대학 생활을 시작한 주인공이 영화를 매개로 독특한 친구와 인연을 맺어가는 청춘 이야기이다.",
+    "overallSummary": "교토대에 입학하여 낯선 환경에 적응하지 못하던 타향 출신 주인공 미타니가 낡은 영화관에서 총명한 의대생 세이케를 만나 친분을 쌓고 영화 촬영소 아르바이트 제안을 받으며 새로운 청춘을 맞이하는 과정이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "극장에서의 우연한 만남",
+        "summary": "교토의 낡은 극장에서 도쿄 출신 미타니가 교토대 의대생 세이케를 만나 대화를 시작한다."
+      },
+      {
+        "sectionTitle": "촬영소 아르바이트 제안",
+        "summary": "영화에 대한 열정을 공유하며 찻집에서 대화를 나누고 세이케로부터 우즈마사 촬영소 아르바이트를 제안받는다."
+      },
+      {
+        "sectionTitle": "하숙집의 생활과 유키 사나에",
+        "summary": "요시다 산 기슭의 하숙집에 정착한 과정과 옆방에 사는 선배 유키 사나에와의 어색한 첫 인사를 기억한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대 배경",
+        "value": "1960년대 학생 운동과 영화 산업의 변천기"
+      }
+    ],
+    "keyEntitiesText": "미타니 카오루, 세이케 타다아키, 유키 사나에, 하숙집 아주머니",
+    "settingText": "1960년대 교토, 시죠카와하라쵸의 극장 및 요시다 산 부근 하숙집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14GAs8S5JzNAoZTjsJd_NtYkyC0V6dd7I",
+    "filename": "아사다 지로-활동사진의 여자(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T01:23:04.000Z",
+    "size": "448521",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/14GAs8S5JzNAoZTjsJd_NtYkyC0V6dd7I/view?usp=drivesdk",
+    "sourceSha256": "531ece3b0d636c9ddae948547e35d8f2930af99feced86b125cb97e80dd15754",
+    "textSha256": "0a73869c65a94534127e500140264fde70eb28f61f9976afff1565ddbc9a18b9",
+    "changeKey": "6504ad7d004abe6ea316b12a0b46bc8c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "45755f05ca7c6372eaae",
+    "workId": "45755f05ca7c6372eaae",
+    "driveFileId": "14GAs8S5JzNAoZTjsJd_NtYkyC0V6dd7I",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:16:38.248349+00:00",
+    "updatedAt": "2026-09-21T22:16:38.248366+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:16:38.248515+00:00"
+    }
+  }
+}

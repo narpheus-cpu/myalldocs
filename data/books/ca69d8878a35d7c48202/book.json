@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "반짝반짝 빛나는",
+    "author": "에쿠니 가오리",
+    "genre": "소설",
+    "tags": [
+      "일본소설",
+      "로맨스",
+      "사랑",
+      "결혼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "에쿠니 가오리는 섬세하고 감각적인 문체로 남녀 간의 기묘하고도 투명한 사랑을 그리는 소설가이다.",
+    "oneLineSummary": "알코올 중독 여의사와 동성애자 의사의 특별하고 다정한 결합과 일상을 그린 소설이다.",
+    "overallSummary": "정서적으로 불안정한 쇼코와 동성애자인 남편 무츠키가 서로의 결점을 인정하고 받아들이며, 남편의 애인 곤까지 포함하여 독특하지만 온화한 가족 관계를 이루어 살아가는 감성적인 이야기이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "물을 안다",
+        "summary": "쇼코와 무츠키의 독특한 결혼 생활과 밤마다 나누는 소소하고 따뜻한 일상 대화."
+      },
+      {
+        "sectionTitle": "파란 귀신",
+        "summary": "남편 무츠키의 연인인 곤에 대한 이야기와 시댁과의 관계, 그리고 일상의 유쾌한 파동."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "관계의 형태",
+        "value": "사회적 관습을 벗어난 새로운 형태의 감정적 연대와 상호 존중"
+      }
+    ],
+    "keyEntitiesText": "쇼코, 무츠키, 곤, 쇼코의 시아버지",
+    "settingText": "현대 도쿄의 아늑하고 평온한 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1A1sLDHgCXxMdkG1FGMiiyajKgy-OxpeP",
+    "filename": "에쿠니 가오리-반짝반짝 빛나는-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-05T13:11:32.000Z",
+    "size": "239418",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1A1sLDHgCXxMdkG1FGMiiyajKgy-OxpeP/view?usp=drivesdk",
+    "sourceSha256": "43a76d62b5159146f1c34a921f96f4b7dcc2a8d1ca2fec177cd9d3fb735f4d66",
+    "textSha256": "5304fb3c24acc7c4e703747905023b4ce29c25918a393bc450e02b46011b1e67",
+    "changeKey": "922e72c4192a0977040878b8f650433e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ca69d8878a35d7c48202",
+    "workId": "ca69d8878a35d7c48202",
+    "driveFileId": "1A1sLDHgCXxMdkG1FGMiiyajKgy-OxpeP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:18:52.319074+00:00",
+    "updatedAt": "2026-09-21T22:18:52.319089+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:18:52.319181+00:00"
+    }
+  }
+}
