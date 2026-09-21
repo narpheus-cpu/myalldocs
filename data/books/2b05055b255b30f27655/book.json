@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "알기 쉬운 철학의 세계",
+    "author": "조정옥",
+    "genre": "철학",
+    "tags": [
+      "철학입문",
+      "가치론",
+      "인식론",
+      "존재론",
+      "실존철학"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "철학박사 조정옥은 대학에서 철학을 가르치며 대중과 대학생들이 철학을 삶에 적용하고 쉽게 이해할 수 있도록 돕는 쉬운 철학 저술 활동에 힘쓰고 있습니다.",
+    "oneLineSummary": "난해한 철학 이론을 일상적 삶의 문제와 연결하여 가치론을 중심으로 쉽고 흥미롭게 풀어낸 철학 개론서입니다.",
+    "overallSummary": "이 책은 철학이 어렵고 건조하다는 편견을 깨고, 철학을 '진리에 대한 사랑'이자 삶의 의미를 찾는 실천적 활동으로 소개합니다. 저자는 전통적인 철학 개론서들이 인식론과 존재론을 앞세우는 것과 달리, 인간 삶의 방향을 인도하는 '가치론'과 '윤리학'을 중심에 둡니다. 가치론, 윤리학, 예술철학, 인식론, 존재론, 실존철학, 철학적 인간학, 해석학, 응용윤리, 종교철학, 역사철학, 심리철학, 여성철학 등 철학의 전 분야를 저자의 체험과 사유를 버무려 친근하게 설명합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "철학의 즐거움은 자기 실현의 욕구에서 비롯되며, 대학생과 대중이 요구하는 삶에 유용한 철학을 제공하기 위해 가치론을 중심으로 책을 구성했음을 밝힙니다."
+      },
+      {
+        "sectionTitle": "1장 철학이란 무엇인가",
+        "summary": "철학의 난해함과 개성적 주관성을 설명하고, 철학이 다른 학문들과 달리 근본적인 전제에 의문을 던지는 학문임을 밝히며, 인간은 본래적으로 질문하는 철학적 동물임을 역설합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학의 중심축",
+        "value": "인식론이나 존재론보다 '어떻게 살 것인가'를 다루는 '가치론'이 철학의 본질적 중심이라고 주장함"
+      },
+      {
+        "key": "철학적 방법론",
+        "value": "직관(직접적 깨달음)과 분석(논리적 추론)을 통한 사유 실험을 유일한 탐구 방법으로 삼음"
+      }
+    ],
+    "keyEntitiesText": "조정옥, 소크라테스, 플라톤, 칸트, 헤겔, 아리스토텔레스",
+    "settingText": "현대 한국의 대학 강의실 및 일상적 삶의 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16bDKd3lJVEmhkAXFttPDcW1TuuouUCuN",
+    "filename": "조정옥-알기 쉬운 철학의 세계.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:30.689Z",
+    "size": "391977",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/16bDKd3lJVEmhkAXFttPDcW1TuuouUCuN/view?usp=drivesdk",
+    "sourceSha256": "dbd41fa61c9afb61f13aefe3220e831cdfce67abe0bee2090edf4b96c7590957",
+    "textSha256": "69c22c07acdeca8365b1e4564d18af021d6b456eebdbbfc8a5f69ec51277f19d",
+    "changeKey": "05c8a93eb77f3b896abae2560c49bb75",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2b05055b255b30f27655",
+    "workId": "2b05055b255b30f27655",
+    "driveFileId": "16bDKd3lJVEmhkAXFttPDcW1TuuouUCuN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:15:15.967920+00:00",
+    "updatedAt": "2026-09-21T16:15:15.967936+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:15:15.968029+00:00"
+    }
+  }
+}
