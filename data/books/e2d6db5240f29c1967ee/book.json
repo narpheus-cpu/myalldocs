@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "당신, 거기 있어줄래요?",
+    "author": "기욤 뮈소",
+    "genre": "소설",
+    "tags": [
+      "시간여행",
+      "환상소설",
+      "후회",
+      "사랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시간과 공간을 초월한 기적 같은 사랑 이야기를 주로 선보이는 인기 작가.",
+    "oneLineSummary": "과거로 돌아갈 수 있는 신비로운 알약 열 개를 손에 넣은 남자가 30년 전의 자신을 만나 과거를 바꾸려 하는 이야기.",
+    "overallSummary": "캄보디아에서 노인에게 받은 신비로운 알약으로 30년 전의 젊은 자신과 마주하게 된 외과의사 엘리엇이 죽은 연인 일리나를 살리기 위해 벌이는 시간 여행을 그렸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 1장",
+        "summary": "캄보디아의 오지 마을에서의 구호 활동과 샌프란시스코 공항에서 30년 전의 자신과 조우하는 엘리엇."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "시간 여행과 나비 효과를 통한 운명 개척"
+      }
+    ],
+    "keyEntitiesText": "엘리엇 쿠퍼, 일리나, 앤지, 매트",
+    "settingText": "캄보디아 북동쪽 고원지대 및 미국 샌프란시스코"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zn46lgOPJtPN67HSlETKzEFC6O3GGXKq",
+    "filename": "기욤 뮈소-당신, 거기 있어줄래요-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-06-28T13:51:40.000Z",
+    "size": "499302",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1zn46lgOPJtPN67HSlETKzEFC6O3GGXKq/view?usp=drivesdk",
+    "sourceSha256": "965c9d817523f05d0a102a2f0ca03abbbba8c28730155f112dc1d77d01b2aba0",
+    "textSha256": "ca943909eb2b35472153a7f49b45c1bdaab4c691e8d32d1169c45703799cc347",
+    "changeKey": "8a74e5bcd157de0efcd9f24688947204",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e2d6db5240f29c1967ee",
+    "workId": "e2d6db5240f29c1967ee",
+    "driveFileId": "1zn46lgOPJtPN67HSlETKzEFC6O3GGXKq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:50:18.471778+00:00",
+    "updatedAt": "2026-09-21T22:50:18.471792+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:50:18.471871+00:00"
+    }
+  }
+}

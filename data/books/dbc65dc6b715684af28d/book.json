@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑하기 때문에",
+    "author": "기욤 뮈소",
+    "genre": "소설",
+    "tags": [
+      "뉴욕",
+      "크리스마스",
+      "미스터리",
+      "가족애"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스",
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독자의 마음을 뒤흔드는 반전과 감동을 선사하는 프랑스 베스트셀러 작가.",
+    "oneLineSummary": "크리스마스 저녁의 뉴욕, 잃어버린 딸을 찾아 헤매는 부부의 기적 같은 이야기.",
+    "overallSummary": "과거 쇼핑몰에서 딸을 잃어버린 비극으로 인해 가정이 파탄 난 부부가 뉴욕에서 우연히 재회하고 서로의 진실을 마주하게 되는 과정을 그렸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 이야기가 시작되던 날 밤",
+        "summary": "눈 내리는 크리스마스 저녁, 모건도서관에서의 바이올린 연주회와 강도 사건에 휘말린 니콜의 상황."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 소재",
+        "value": "상실의 아픔과 기억의 재구성"
+      }
+    ],
+    "keyEntitiesText": "마크 해서웨이, 니콜 해서웨이, 라일라, 에릭, 수잔 킹스턴",
+    "settingText": "미국 뉴욕 맨해튼 및 브루클린"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-VCHuvSisnGvj8oko1hUMwKU0LaPjpnx",
+    "filename": "기욤 뮈소-사랑하기 때문에(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:37:00.000Z",
+    "size": "467834",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1-VCHuvSisnGvj8oko1hUMwKU0LaPjpnx/view?usp=drivesdk",
+    "sourceSha256": "139c644de4a59104baabf093744ce405cb7180f4e4dc507bbb17bae0a40497a6",
+    "textSha256": "c507d4cd27b2d17c99617e4de0347df571db029535e5c4803b473215fa59cccd",
+    "changeKey": "c7c23bff8323e64d83b7c467cfd15d0f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dbc65dc6b715684af28d",
+    "workId": "dbc65dc6b715684af28d",
+    "driveFileId": "1-VCHuvSisnGvj8oko1hUMwKU0LaPjpnx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:50:36.895673+00:00",
+    "updatedAt": "2026-09-21T22:50:36.895688+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:50:36.895768+00:00"
+    }
+  }
+}

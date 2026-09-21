@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "종이여자",
+    "author": "기욤 뮈소",
+    "genre": "소설",
+    "tags": [
+      "판타지",
+      "로맨스",
+      "로스앤젤레스",
+      "베스트셀러"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현실과 상상의 경계를 넘나드는 독창적인 로맨스를 창조하는 프랑스 소설가.",
+    "oneLineSummary": "슬럼프에 빠진 유명 소설가와 그의 소설 속에서 걸어 나온 여주인공의 기적 같은 사랑 이야기.",
+    "overallSummary": "실연의 상처로 글을 쓰지 못하는 천재 작가 톰 보이드의 앞에 어느 날 자신이 쓴 소설 초고 속 여주인공 빌리가 진짜로 나타나면서 벌어지는 일들을 그렸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "언론과 대중의 뜨거운 관심을 받는 작가 톰 보이드의 성공과 추락, 그리고 독자들의 편지 내용 소개."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "소설 속 인물의 현실화와 메타픽션적 요소"
+      }
+    ],
+    "keyEntitiesText": "톰 보이드, 빌리, 오로르 발랑꾸르, 밀로 롬바르도",
+    "settingText": "미국 로스앤젤레스 및 뉴욕"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YhtpQoQcF7RpKQA9iyoKSu_4JhGyJjPx",
+    "filename": "기욤 뮈소-종이여자(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:38:36.000Z",
+    "size": "747452",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1YhtpQoQcF7RpKQA9iyoKSu_4JhGyJjPx/view?usp=drivesdk",
+    "sourceSha256": "2421d6c4d1232204af95b5a9d1e9c8e280fc3ee677e73b9d6237f04eb4c4b27f",
+    "textSha256": "ce0a90ee314cefbb17a15f2e2cc36c72dddafadfcdf0fd6918a78c4529ac17d8",
+    "changeKey": "56dbb87e0338198e34822e663a0d80d9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "51b5c121d9579b0f3a1c",
+    "workId": "51b5c121d9579b0f3a1c",
+    "driveFileId": "1YhtpQoQcF7RpKQA9iyoKSu_4JhGyJjPx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:50:49.543802+00:00",
+    "updatedAt": "2026-09-21T22:50:49.543816+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:50:49.543897+00:00"
+    }
+  }
+}

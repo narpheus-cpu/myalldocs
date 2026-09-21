@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그녀와 함께 읽는 오르부아르",
+    "author": "피에르 르메트르",
+    "genre": "소설",
+    "tags": [
+      "공쿠르상",
+      "제1차 세계대전",
+      "사기극",
+      "프랑스문학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사소설",
+        "케이퍼무비"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "55세에 뒤늦게 소설을 쓰기 시작해 공쿠르상을 수상하며 대중성과 문학성을 모두 인정받은 프랑스 작가.",
+    "oneLineSummary": "제1차 세계 대전 직후의 프랑스를 배경으로, 전쟁에 상처 입은 두 젊은이가 부패한 기성세대를 상대로 벌이는 대사기극.",
+    "overallSummary": "참혹한 전쟁이 끝난 후 버려진 제대군인들의 비참한 현실 속에서, 얼굴을 잃은 에두아르와 알베르가 전사자 추모 기념비 판매 사기를 통해 세상에 복수하는 과정을 그렸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장~3장 개요",
+        "summary": "대학살 직후의 혼란스러운 전후 사회상, 가면을 쓴 에두아르와 알베르의 사기극 모의 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 배경",
+        "value": "전후 자본주의의 위선과 국가의 방관 속 생존 투쟁"
+      }
+    ],
+    "keyEntitiesText": "에두아르, 알베르 마야르",
+    "settingText": "제1차 세계 대전 직후의 프랑스 파리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1o-m2B1cU1pM5Oyjr07u0c5kbmc62kPIZ",
+    "filename": "그녀와 함께 읽는 오르부아르-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T11:15:10.000Z",
+    "size": "72441",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1o-m2B1cU1pM5Oyjr07u0c5kbmc62kPIZ/view?usp=drivesdk",
+    "sourceSha256": "e683cac65cbd9223a1fc6156b1969450b2683d1a4210e4eb34ce210f0e2c4086",
+    "textSha256": "61ed0c0ba3f8accc354712c58379dd9972030e930c869fc1892c6d3040dbc9f8",
+    "changeKey": "40448b5aed24e8bc686c49be0c689cbe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1f2ab90290bfbdf77e1e",
+    "workId": "1f2ab90290bfbdf77e1e",
+    "driveFileId": "1o-m2B1cU1pM5Oyjr07u0c5kbmc62kPIZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:49:53.392804+00:00",
+    "updatedAt": "2026-09-21T22:49:53.392818+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:49:53.392898+00:00"
+    }
+  }
+}

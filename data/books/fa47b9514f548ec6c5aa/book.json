@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나를 찾아줘",
+    "author": "길리언 플린",
+    "genre": "소설",
+    "tags": [
+      "심리스릴러",
+      "결혼",
+      "실종",
+      "베스트셀러"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "미스터리",
+        "범죄"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간 내면의 가장 어두운 면을 날카롭게 파헤치는 천재 심리 스릴러 작가.",
+    "oneLineSummary": "결혼기념일 아침에 감쪽같이 사라진 아내와 살인범으로 몰린 남편의 진실 공방을 그린 심리 스릴러.",
+    "overallSummary": "미주리 주의 작은 마을로 이주해 온 닉과 에이미 부부. 결혼 5주년 기념일 아침 에이미가 흔적도 없이 실종되고, 경찰 수사가 진행될수록 남편 닉이 유력한 용의자로 지목되면서 두 사람 사이의 섬뜩한 실체가 드러난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 남자. 여자를 잃다",
+        "summary": "에이미가 사라진 결혼기념일 아침, 닉 던이 느끼는 당혹감과 뉴욕에서의 과거 생활, 그리고 고향 미주리 주로 내려오게 된 배경."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 구조",
+        "value": "남편의 현재 시점과 아들의 일기장을 통한 교차 서사"
+      }
+    ],
+    "keyEntitiesText": "닉 던, 에이미 던, 마고 던",
+    "settingText": "미국 미주리주 노스 카르타고 및 뉴욕"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1k9yACQKseLJXxNW88BUYC3b6jxdCM3P_",
+    "filename": "길리언 플린-나를 찾아줘-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T09:12:50.000Z",
+    "size": "1107599",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1k9yACQKseLJXxNW88BUYC3b6jxdCM3P_/view?usp=drivesdk",
+    "sourceSha256": "c50249bc4e825e4739c4f454dd9e849b1e9067e3770965f6224e23f6993791bd",
+    "textSha256": "da1ef046912f3ac517160705767cbb697049e18cf15b6dab37e9e9278e7ce12f",
+    "changeKey": "1b5460a07305c5a58aeddefc26ba506f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fa47b9514f548ec6c5aa",
+    "workId": "fa47b9514f548ec6c5aa",
+    "driveFileId": "1k9yACQKseLJXxNW88BUYC3b6jxdCM3P_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:51:08.649819+00:00",
+    "updatedAt": "2026-09-21T22:51:08.649834+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:51:08.649913+00:00"
+    }
+  }
+}

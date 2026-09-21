@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 언제나 옳다",
+    "author": "길리언 플린",
+    "genre": "소설",
+    "tags": [
+      "에드거상",
+      "단편소설",
+      "심리스릴러",
+      "성인물"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "스릴러",
+        "느와르"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "날카롭고 강렬한 심리 묘사로 세계적인 명성을 얻은 미국의 스릴러 작가.",
+    "oneLineSummary": "손목 터널 증후군으로 불법 유사 성매매 업소에서의 '손일'을 그만두게 된 전직 여성 노동자의 기묘한 고백.",
+    "overallSummary": "어릴 적 엄마와 함께 구걸하던 삶에서 벗어나 도시에서 '손일(남성의 자위행위 보조)' 전문 서비스를 해오던 주인공이 손목 부상으로 인해 다른 일(점성술과 심리 상담)을 맡게 되면서 벌어지는 독특한 범죄 심리 단편.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "자신의 독특한 직업 이력과 어린 시절 구걸하던 기억, 그리고 점쟁이 행세를 하며 손님들을 상대하는 일상의 고백."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 방식",
+        "value": "냉소적이고 거침없는 1인칭 주인공 시점의 독백"
+      }
+    ],
+    "keyEntitiesText": "주인공(나), 샤델, 엄마, 비베카(제니퍼), 마이크 오들리, 수전 버크",
+    "settingText": "미국 도시의 불법 유사 성매매 업소 '성스러운 손'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10YLNFpGoOUXGEgQVKVCTqlkjRBtZd_iq",
+    "filename": "길리언 플린-나는 언제나 옳다(단편)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T09:10:08.000Z",
+    "size": "107677",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/10YLNFpGoOUXGEgQVKVCTqlkjRBtZd_iq/view?usp=drivesdk",
+    "sourceSha256": "ba03e6f0cd4f179ce4fa9f424788ea09e4fce008ba94170a243419a3660d026d",
+    "textSha256": "6ea098bff83b75bad4c07e282d7a368c0f97e439c25e4aa30d682651f615da66",
+    "changeKey": "7d0584193f7af9f90da76788160c4f87",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "95c095b65b54e188bc14",
+    "workId": "95c095b65b54e188bc14",
+    "driveFileId": "10YLNFpGoOUXGEgQVKVCTqlkjRBtZd_iq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:51:02.467873+00:00",
+    "updatedAt": "2026-09-21T22:51:02.467887+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:51:02.467970+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑을 찾아 돌아오다",
+    "author": "기욤 뮈소",
+    "genre": "소설",
+    "tags": [
+      "타임슬립",
+      "운명",
+      "인생의 선택",
+      "뉴욕"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간의 삶과 시간에 대한 독창적인 상상력을 소설로 풀어내는 프랑스 대표 작가.",
+    "oneLineSummary": "인생을 되돌리고 싶었던 한 남자가 과거로 돌아가 두 번의 기회를 얻게 되면서 벌어지는 이야기.",
+    "overallSummary": "성공을 위해 모든 것을 버리고 도망쳤던 과거의 선택을 바로잡기 위해 시간의 문을 두드리는 남자의 비극적이면서도 감동적인 여정.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "타임스퀘어에서의 과거 회상과 현재의 공허함을 대비시키며 시작되는 운명적인 삶의 고백."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "과거의 선택과 현재를 이루는 가치의 충돌"
+      }
+    ],
+    "keyEntitiesText": "에단 휘태커, 마리사, 지미, 셀린",
+    "settingText": "미국 뉴욕 맨해튼"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17wJ4KOP9jo8aVfX6ciD0k4yIe2Q4IH_T",
+    "filename": "기욤 뮈소-사랑을 찾아 돌아오다(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:35:56.000Z",
+    "size": "580730",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/17wJ4KOP9jo8aVfX6ciD0k4yIe2Q4IH_T/view?usp=drivesdk",
+    "sourceSha256": "5b5c9d62340833558b51bd14242b022a88f37c94b81fa4e380ff4d9b26875c7c",
+    "textSha256": "811e7e8f0ad73999dc4e85416a9cef73d682fcc36451bca3d868ce986092b4fc",
+    "changeKey": "f0fe735dad50d3cee13796154171de0a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a80526914b0217666b31",
+    "workId": "a80526914b0217666b31",
+    "driveFileId": "17wJ4KOP9jo8aVfX6ciD0k4yIe2Q4IH_T",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:50:31.091721+00:00",
+    "updatedAt": "2026-09-21T22:50:31.091733+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:50:31.091813+00:00"
+    }
+  }
+}

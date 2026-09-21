@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오페라의 유령",
+    "author": "가스통 르루",
+    "genre": "추리소설",
+    "tags": [
+      "프랑스문학",
+      "미스터리",
+      "파리 오페라 극장",
+      "로맨틱 미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "미스터리",
+        "추리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 당대 최고 추리소설 작가이자 저널리스트로, 기사체 문장과 치밀한 구성의 소설을 발표했다.",
+    "oneLineSummary": "파리 오페라 극장의 지하에 숨어 살며 프리마돈나를 짝사랑한 비운의 천재 음악가와 그를 둘러싼 미스터리한 사건들을 그린 소설이다.",
+    "overallSummary": "파리 오페라 극장에서 벌어지는 기괴한 유령 소동과 크리스틴 납치 사건을 통해, 가면 뒤에 숨겨진 잔인하고도 애절한 사랑 이야기를 추리적 기법으로 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "작가가 오페라의 유령이 실제 인물이었음을 증명하기 위해 관련 증거와 기록들을 추적하는 과정."
+      },
+      {
+        "sectionTitle": "제1장 유령인가?",
+        "summary": "오페라 극장 발레 단원들이 분장실에 모여 유령을 목격했다며 두려움에 떨며 이야기를 나누는 장면."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "로맨틱 미스터리와 치밀한 추리적 요소의 결합"
+      }
+    ],
+    "keyEntitiesText": "오페라의 유령, 크리스틴 다에, 샤니 드 라울 자작, 페르시아인, 조제프 뷔케",
+    "settingText": "19세기 말 파리 국립 오페라 극장(오페라 하우스)의 지상과 지하 미로"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16KqOXHnLDQXGcWLcKSyQjNqkxWMfqdKs",
+    "filename": "가스통 르루-오페라의 유령.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:10.216Z",
+    "size": "533383",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/16KqOXHnLDQXGcWLcKSyQjNqkxWMfqdKs/view?usp=drivesdk",
+    "sourceSha256": "b27cfcab8a94f8513749773b9c788424700c1b4a2da1ce49980f8c6c633c698e",
+    "textSha256": "03d2ea9ca83fe132c6791c006bd93779e9af0bbb521bf2a35e1e1151d0ca2af6",
+    "changeKey": "579bb9b30fb2a407764536a6e5721a94",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ea92ecf995a0c06bf5ee",
+    "workId": "ea92ecf995a0c06bf5ee",
+    "driveFileId": "16KqOXHnLDQXGcWLcKSyQjNqkxWMfqdKs",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:49:35.552498+00:00",
+    "updatedAt": "2026-09-21T22:49:35.552513+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:49:35.552636+00:00"
+    }
+  }
+}

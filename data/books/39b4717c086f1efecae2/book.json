@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "샤인",
+    "author": "길리언 헬프갓 외",
+    "genre": "소설",
+    "tags": [
+      "실화",
+      "천재 피아니스트",
+      "음악",
+      "영화 원작"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "예술_대중문화",
+        "기타"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영화 「샤인」의 실제 주인공 데이빗 헬프갓의 아내 길리언 헬프갓 등이 공동 저술한 실화 바탕의 소설.",
+    "oneLineSummary": "음악에 대한 집착과 아버지의 콤플렉스로 정신분열을 앓던 천재 피아니스트 데이빗이 점성술사 여인을 만나 빛을 되찾는 이야기.",
+    "overallSummary": "과도한 압박과 정신적 질환으로 연주 무대를 떠나있던 천재 피아니스트 데이빗 헬프갓이 우연히 퍼스의 술집에서 연주를 시작하고, 운명의 여인 길리언을 만나 상처를 극복하고 삶의 빛을 회복해 가는 감동적인 실화.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 도마지 - 제1장 첫만남",
+        "summary": "퍼스에 도착한 길리언이 수영장에서 방금 나온 괴짜 데이빗 헬프갓을 처음 만나고 그의 피아노 연주에 매료되는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "실화 바탕의 전기 소설이자 음악적 치유를 다룬 휴먼 드라마"
+      }
+    ],
+    "keyEntitiesText": "데이빗 헬프갓, 길리언 헬프갓, 크리스 레이놀즈 박사",
+    "settingText": "호주 퍼스 및 시드니"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11GHYQyqo2TmzxO23TRJrGSYsnLItJmMB",
+    "filename": "길리언 헬프갓 외-샤인 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:10.352Z",
+    "size": "626913",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/11GHYQyqo2TmzxO23TRJrGSYsnLItJmMB/view?usp=drivesdk",
+    "sourceSha256": "9fb53e6d550f5416f3bb25128287738050bd97779a309bcf5037f93348f7cd5a",
+    "textSha256": "2ddf5aa67907c93e5fb8069fd6b5d8eb838b8e3618fec7e05b952e416483b244",
+    "changeKey": "144cfa20ff92722b7133e85372e5d405",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "39b4717c086f1efecae2",
+    "workId": "39b4717c086f1efecae2",
+    "driveFileId": "11GHYQyqo2TmzxO23TRJrGSYsnLItJmMB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:51:14.802447+00:00",
+    "updatedAt": "2026-09-21T22:51:14.802462+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:51:14.802543+00:00"
+    }
+  }
+}

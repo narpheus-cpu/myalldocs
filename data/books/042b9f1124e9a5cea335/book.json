@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "샤인 (중복)",
+    "author": "길리언 헬프갓",
+    "genre": "소설",
+    "tags": [
+      "실화",
+      "천재 피아니스트",
+      "영화 원작"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "예술_대중문화",
+        "기타"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "비운의 천재 피아니스트 데이빗 헬프갓의 삶과 사랑을 기록한 저자.",
+    "oneLineSummary": "정신적 시련을 겪은 천재 피아니스트가 사랑을 통해 구원받는 실화 소설.",
+    "overallSummary": "아버지의 압박과 정신분열로 세상과 단절되었던 데이빗이 음악과 길리언과의 사랑을 통해 다시 세상 밖으로 나와 눈부신 연주를 들려주기까지의 여정.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 도마지 - 제1장 첫만남",
+        "summary": "퍼스에서 길리언이 크리스의 소개로 데이빗 헬프갓을 처음 만나고 그의 순수한 영혼과 연주에 빠져드는 순간."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "음악을 통한 치유와 조건 없는 사랑"
+      }
+    ],
+    "keyEntitiesText": "데이빗 헬프갓, 길리언 헬프갓, 크리스 레이놀즈 박사",
+    "settingText": "호주 퍼스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qCF-BK4OPIQmGWc7D1-n9-PzuoudvH7s",
+    "filename": "문샤인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:43.453Z",
+    "size": "1549509",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1qCF-BK4OPIQmGWc7D1-n9-PzuoudvH7s/view?usp=drivesdk",
+    "sourceSha256": "80657fe975e7eb30ace2d2daf58178bdc5b8727f97333ffb637f0a85dfcea081",
+    "textSha256": "1233c2579d56c99fd9aef6780cc69db16e566074f94912691b4207f4ace29b82",
+    "changeKey": "bc103ffd06f5720ceb2f361083f919f6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "042b9f1124e9a5cea335",
+    "workId": "042b9f1124e9a5cea335",
+    "driveFileId": "1qCF-BK4OPIQmGWc7D1-n9-PzuoudvH7s",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:51:20.455653+00:00",
+    "updatedAt": "2026-09-21T22:51:20.455667+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4686,
+      "updatedAt": "2026-09-21T22:51:20.455749+00:00"
+    }
+  }
+}

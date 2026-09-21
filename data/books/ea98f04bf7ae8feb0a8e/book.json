@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천사의 부름",
+    "author": "기욤 뮈소",
+    "genre": "소설",
+    "tags": [
+      "미스터리",
+      "뉴욕",
+      "파리",
+      "휴대폰 분실"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "스릴러",
+        "범죄"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "빠른 속도감과 치밀한 구성으로 대중을 매료시키는 프랑스 베스트셀러 작가.",
+    "oneLineSummary": "공항에서 우연히 휴대폰이 바뀌면서 전혀 상관없던 남녀가 과거의 숨겨진 거대한 비밀을 파헤치게 되는 이야기.",
+    "overallSummary": "JFK 공항에서 부딪히며 휴대폰이 바뀐 전직 경정 조나단과 플로리스트 매들린이 서로의 사생활을 알게 되고, 과거 미해결된 끔찍한 사건의 진실을 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 1부",
+        "summary": "현대인의 필수품인 휴대폰에 대한 단상과 뉴욕 JFK 공항에서 휴대폰이 바뀐 매들린과 조나단의 에피소드."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건 발단",
+        "value": "사소한 물건(휴대폰) 교환으로 시작된 거대한 미스터리"
+      }
+    ],
+    "keyEntitiesText": "매들린, 조나단 랑프뢰르, 라파엘, 찰리, 줄리앤",
+    "settingText": "미국 뉴욕 및 프랑스 파리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19cZoU0hUxnAbKwn0zIwvgQlL2ap7ZfXu",
+    "filename": "기욤 뮈소-천사의 부름(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:40:10.000Z",
+    "size": "699118",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/19cZoU0hUxnAbKwn0zIwvgQlL2ap7ZfXu/view?usp=drivesdk",
+    "sourceSha256": "bb6b259fa8e0643b4fbfe51b9935a512251173967d4d6c239350228965537557",
+    "textSha256": "67794beae1a11ee0e6a883ad6f3169874769a2f40fb00f1d63d3e786fe7b76f9",
+    "changeKey": "876cdd005463666e380f93527a7cb756",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ea98f04bf7ae8feb0a8e",
+    "workId": "ea98f04bf7ae8feb0a8e",
+    "driveFileId": "19cZoU0hUxnAbKwn0zIwvgQlL2ap7ZfXu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:50:55.564963+00:00",
+    "updatedAt": "2026-09-21T22:50:55.564978+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:50:55.565056+00:00"
+    }
+  }
+}

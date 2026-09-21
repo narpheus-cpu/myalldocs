@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "구해줘",
+    "author": "기욤 뮈소",
+    "genre": "소설",
+    "tags": [
+      "프랑스소설",
+      "로맨스",
+      "운명",
+      "뉴욕"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "스릴러",
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전 세계 독자들을 사로잡은 프랑스의 대표적인 대중 작가로, 빠른 전개와 반전이 특징이다.",
+    "oneLineSummary": "뉴욕을 배경으로 무명 배우 줄리에트와 비운의 의사 샘이 운명적으로 만나 사랑과 죽음의 위기를 극복해 나가는 이야기.",
+    "overallSummary": "뉴욕에서 꿈이 좌절된 불법 체류자 줄리에트와 아내를 잃고 절망에 빠진 의사 샘이 우연히 만나 서로의 상처를 치유하고 다가올 운명에 맞서는 과정을 그렸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~2장",
+        "summary": "뉴욕의 폭설 속에서 각자의 고단한 하루를 시작하는 줄리에트와 샘 갤러웨이의 일상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 구조",
+        "value": "교차 서사를 통한 두 주인공의 운명적 결합 과정"
+      }
+    ],
+    "keyEntitiesText": "줄리에트 보몽, 샘 갤러웨이, 장 카미유, 페데리카",
+    "settingText": "눈 내리는 미국 뉴욕 맨해튼과 브루클린"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10vso7abwl5QI-94uTfNTlE0bO9g5fN7o",
+    "filename": "기욤 뮈소-구해줘-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-06-28T13:21:00.000Z",
+    "size": "658950",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/10vso7abwl5QI-94uTfNTlE0bO9g5fN7o/view?usp=drivesdk",
+    "sourceSha256": "788a4c22c9faeb62aff3021531effbc68b8366857cacd59666fb38715c367730",
+    "textSha256": "06242c5503e390d98f970217e2e83d1e702b860230795e036733772d10f3b124",
+    "changeKey": "ddd58fcb71a8f9a36d6904f90a41972a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e70c3f2882105f245b4b",
+    "workId": "e70c3f2882105f245b4b",
+    "driveFileId": "10vso7abwl5QI-94uTfNTlE0bO9g5fN7o",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:49:59.431682+00:00",
+    "updatedAt": "2026-09-21T22:49:59.431697+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:49:59.431774+00:00"
+    }
+  }
+}
