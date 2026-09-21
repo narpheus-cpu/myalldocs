@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "폭력교실",
+    "author": "吉田知子",
+    "genre": "성인 학원물",
+    "tags": [
+      "학교",
+      "폭력",
+      "성인",
+      "교사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "학원물",
+        "성인"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "吉田知子가 작성한 성인 학원물 소설입니다.",
+    "oneLineSummary": "송림학교에 부임한 미혜 선생이 학교 내의 폭력과 성적인 일탈을 목격하고 겪는 이야기입니다.",
+    "overallSummary": "송림학교에 부임한 미혜 선생은 학교의 호화로운 시설 뒤에 숨겨진 학생들의 폭력과 성적인 타락을 목격합니다. 그녀는 자신의 무술 실력으로 학생들의 위협에 맞서며 학교의 실체를 파악해 나갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "도착과 부임",
+        "summary": "미혜가 송림학교에 부임하며 겪는 첫인상과 교장, 체육 주임과의 만남을 다룹니다."
+      },
+      {
+        "sectionTitle": "교실의 실태",
+        "summary": "미혜가 3학년 교실에서 학생들이 벌이는 성적인 폭력을 목격하고 제지하는 과정을 그립니다."
+      },
+      {
+        "sectionTitle": "갈등과 대립",
+        "summary": "학생들의 위협에 미혜가 무술 실력으로 대응하며 학교의 어두운 관습을 알아갑니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "학교 내 폭력, 성적 타락, 교사의 고군분투"
+      }
+    ],
+    "keyEntitiesText": "미혜(교사), 김용호(교장), 임경배(체육 주임), 리노(학생)",
+    "settingText": "산속에 위치한 호화로운 기숙학교인 송림학교를 배경으로 합니다."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tfwhQP8hlZaNLnA4CKcHsfiNv7R-PIr2",
+    "filename": "[학교]폭력교실.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:18.121Z",
+    "size": "124143",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1tfwhQP8hlZaNLnA4CKcHsfiNv7R-PIr2/view?usp=drivesdk",
+    "sourceSha256": "ddf0f08019c91be05d45858c202d0ae7d688b5542683fa0f6c2aacccb3c4d8ad",
+    "textSha256": "11d0b311536b2b6a3d7f17cf032bb002da99c19eceaf8c779b526f685a251443",
+    "changeKey": "5c6e3dbbefdb78cb07970a512a85a854",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "10deee397a3712021e0c",
+    "workId": "10deee397a3712021e0c",
+    "driveFileId": "1tfwhQP8hlZaNLnA4CKcHsfiNv7R-PIr2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:15:30.828900+00:00",
+    "updatedAt": "2026-09-21T14:15:30.828914+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:15:30.829011+00:00"
+    }
+  }
+}
