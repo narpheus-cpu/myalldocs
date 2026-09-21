@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "월희 알퀘이드 루트",
+    "author": "ameba0",
+    "genre": "비주얼노벨 소설",
+    "tags": [
+      "월희",
+      "알퀘이드",
+      "토노시키"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "ameba0",
+    "oneLineSummary": "사고로 죽음의 선을 보게 된 소년 토노 시키의 이야기를 다룬 비주얼노벨 소설.",
+    "overallSummary": "어린 시절 큰 사고로 죽을 고비를 넘긴 토노 시키는 모든 것의 '죽음의 선'이 보이는 능력을 얻게 된다. 아오사키 아오코를 만나 안경을 선물 받고 평온한 일상을 보내던 그는 고등학교 2학년이 되어 본가인 토노가로 돌아가게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "병원에서 깨어난 시키가 사물의 '선'을 보게 되고 아오코를 만나 안경을 받기까지의 과거 회상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "원작",
+        "value": "동인 게임 '월희'"
+      }
+    ],
+    "keyEntitiesText": "토노 시키, 아오사키 아오코, 아키하, 이누이 아리히코",
+    "settingText": "병원, 학교, 들판"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dt7lpYWI1-PV7PD6-8b_buPR3bH4zPsY",
+    "filename": "월희 알퀘이드 루트.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.922Z",
+    "size": "720233",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1dt7lpYWI1-PV7PD6-8b_buPR3bH4zPsY/view?usp=drivesdk",
+    "sourceSha256": "4ce2440568572e86b329180e56d87d791bef5f90ca88f7b9f48a9752f5fc0dcc",
+    "textSha256": "af414eace84db0c4a1873a6bb4aa47208a30ee5451d2624ea559272bdae7ff12",
+    "changeKey": "1ef849055dc6268ae6f291b0bc570c55",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8d444eedc3b42d5e99d5",
+    "workId": "8d444eedc3b42d5e99d5",
+    "driveFileId": "1dt7lpYWI1-PV7PD6-8b_buPR3bH4zPsY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:30:31.010321+00:00",
+    "updatedAt": "2026-09-21T14:30:31.010337+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:30:31.010437+00:00"
+    }
+  }
+}

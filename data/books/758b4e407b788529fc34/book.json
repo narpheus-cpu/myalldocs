@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "국화꽃 향기 2권",
+    "author": "김하인",
+    "genre": "소설",
+    "tags": [
+      "사랑",
+      "슬픈사랑",
+      "국화꽃",
+      "시한부"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김하인은 경북 상주에서 태어나 신춘문예에 당선되었으며 잡지사 기자, 방송작가 등으로 활동한 소설가이다.",
+    "oneLineSummary": "승우와 미주의 애틋하고 슬픈 사랑을 그린 소설이다.",
+    "overallSummary": "영화 같은 사랑을 나누는 승우와 미주. 미주는 자신의 죽음을 예감하고 승우를 떠날 준비를 하며 슬픈 사랑의 이중주를 이어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "작가의 말",
+        "summary": "작가가 이 글을 쓰며 느꼈던 삶의 절절함과 그리움에 대한 소회."
+      },
+      {
+        "sectionTitle": "폐교",
+        "summary": "미주가 영화사를 정리하고 승우와 함께 강원도 폐교에 있는 지인들을 찾아가는 여정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소설분위기",
+        "value": "슬프고 감성적인 분위기"
+      }
+    ],
+    "keyEntitiesText": "승우, 미주, 주철, 경희",
+    "settingText": "서울, 강원도 양양 손양면 상운리 폐교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QQREw_pqg13BR23rTjp9uy9BZmTA03PS",
+    "filename": "김하인-국화꽃 향기 2권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.753Z",
+    "size": "260220",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1QQREw_pqg13BR23rTjp9uy9BZmTA03PS/view?usp=drivesdk",
+    "sourceSha256": "b2bae0c663e0fc167f4ec3d35c3b17c6286ccb9c476dbd76eddc4a75efd821ef",
+    "textSha256": "7d729f448791f3bc81fb6810af3b5fe064b9b7557364cf4a14ec3901f7873e68",
+    "changeKey": "c7a0cab90c9e9c2f68a0afb6b2d338c6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "758b4e407b788529fc34",
+    "workId": "758b4e407b788529fc34",
+    "driveFileId": "1QQREw_pqg13BR23rTjp9uy9BZmTA03PS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:29:31.634191+00:00",
+    "updatedAt": "2026-09-21T14:29:31.634207+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:29:31.634385+00:00"
+    }
+  }
+}

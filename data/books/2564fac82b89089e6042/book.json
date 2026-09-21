@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소나기",
+    "author": "황순원 원작, 이현철 개작",
+    "genre": "소설",
+    "tags": [
+      "소나기",
+      "황순원",
+      "첫사랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황순원 원작, 이현철 개작",
+    "oneLineSummary": "황순원의 '소나기'를 현대적 배경으로 재해석하여 시골 아가씨 미애와 서울 부잣집 청년 우석의 풋풋한 사랑을 그린 소설.",
+    "overallSummary": "시골 동사무소에서 일하는 아가씨 미애는 출퇴근길에 흙탕물 길에 주차된 고급 승용차와 별장에 머무는 부잣집 도련님 우석을 알게 된다. 비오는 날 우연히 얽히게 된 두 사람은 서로에게 설레는 감정을 느끼고 가까워진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "소나 내리는 시골 길에서 진흙탕에 구두가 빠진 미애와 이를 도와주는 별장 청년 우석의 만남, 그리고 두 사람이 읍내를 가거나 햄을 나누는 등 풋풋한 교감을 나누는 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "원작",
+        "value": "황순원의 단편소설 '소나기' 패러디 및 각색"
+      }
+    ],
+    "keyEntitiesText": "김미애, 정우석, 미애의 아버지, 어머니, 주사",
+    "settingText": "시골 동사무소, 논길, 별장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-tH1RE5Fa4TF5gjS2IbcyZRa9B0TEs_F",
+    "filename": "이현철-소나기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.126Z",
+    "size": "32026",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1-tH1RE5Fa4TF5gjS2IbcyZRa9B0TEs_F/view?usp=drivesdk",
+    "sourceSha256": "2e8ad6979007dc4bada9c76745226147ef402d5595a21c64cc4f128f161acb0f",
+    "textSha256": "53ca5e17e2b5011f2a120f78e08a34e0f072407c78afac218a3466c6a52b3376",
+    "changeKey": "b664c05593885ede7438d1be0e41250b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2564fac82b89089e6042",
+    "workId": "2564fac82b89089e6042",
+    "driveFileId": "1-tH1RE5Fa4TF5gjS2IbcyZRa9B0TEs_F",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:31:36.289111+00:00",
+    "updatedAt": "2026-09-21T14:31:36.289125+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:31:36.289205+00:00"
+    }
+  }
+}

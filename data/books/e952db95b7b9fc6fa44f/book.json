@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "백수의 사랑 이야기",
+    "author": "이현철",
+    "genre": "코믹 소설",
+    "tags": [
+      "백수",
+      "만화방",
+      "로맨틱코미디"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "코미디",
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이현철",
+    "oneLineSummary": "만화방 아가씨를 짝사랑하는 어느 백수 청년의 엉뚱하고 유쾌한 일상.",
+    "overallSummary": "단골로 다니던 만화방에 새로 온 예쁜 아가씨를 짝사랑하게 된 백수 청년. 만화방 아가씨와 백수 청년의 시점이 교차되며 서로를 오해하고 엉뚱한 상상을 하면서 벌어지는 귀여운 로맨틱 코미디.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "만화방 주인이 바뀐 뒤 새로 온 아가씨를 경계하면서도 점차 호감을 느끼는 백수와, 그런 백수를 이상하게 여기며 묘한 감정을 쌓아가는 만화방 아가씨의 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술방식",
+        "value": "백수와 아가씨의 일기를 교차 서술"
+      }
+    ],
+    "keyEntitiesText": "백수, 만화방 아가씨, 삼촌, 친구들",
+    "settingText": "만화방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lhSA71sFhPuQq4QyQEFKPORBTvL_kJNu",
+    "filename": "이현철-백수의 사랑 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.097Z",
+    "size": "284426",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1lhSA71sFhPuQq4QyQEFKPORBTvL_kJNu/view?usp=drivesdk",
+    "sourceSha256": "eff33e6d2e8ea843d1e93f78154c6a1d32351024863c527d711c925fd3106f92",
+    "textSha256": "709b624ce9748d14f5c6009af6a5cb9163c804734cbc9cac2d9b1c5fce3ad823",
+    "changeKey": "952fd619655f6a8817117dda361f6dec",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e952db95b7b9fc6fa44f",
+    "workId": "e952db95b7b9fc6fa44f",
+    "driveFileId": "1lhSA71sFhPuQq4QyQEFKPORBTvL_kJNu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:31:23.089799+00:00",
+    "updatedAt": "2026-09-21T14:31:23.089814+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:31:23.089912+00:00"
+    }
+  }
+}

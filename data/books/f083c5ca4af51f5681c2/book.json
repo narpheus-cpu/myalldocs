@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유혹적이다",
+    "author": "분실물",
+    "genre": "로맨스 소설",
+    "tags": [
+      "유혹",
+      "계약",
+      "로맨스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "분실물 (lemonsang51@hanmail.net)",
+    "oneLineSummary": "살아남기 위해 새엄마의 남자를 유혹한 19세 소녀 휴원의 이야기.",
+    "overallSummary": "아버지가 돌아가신 지 한 달도 되지 않아 새엄마가 새아버지를 데리고 들어오자, 집에서 쫓겨날 위기에 처한 19세 휴원은 새엄마의 동거인이자 작곡가인 28세 강은권을 찾아가 무작정 유혹해 하룻밤을 보낸다. 이후 학교와 집을 오가며 은권과 미묘한 관계를 이어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1-3",
+        "summary": "휴원은 집에서 살아남기 위해 은권을 유혹해 관계를 맺고, 학교에서는 소문난 '걸레'로 불리며 불량스러운 남학생 최휘강과 엮이기도 한다. 은권은 학교까지 찾아와 휴원을 흔들어 놓는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "파격적이고 긴장감 넘치는 전개"
+      }
+    ],
+    "keyEntitiesText": "이휴원, 강은권, 최휘강, 이주영",
+    "settingText": "집, 학교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nfwWiukRD2BxBVlbijkV3V3tA9UPZJIQ",
+    "filename": "유혹적이다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.051Z",
+    "size": "869531",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1nfwWiukRD2BxBVlbijkV3V3tA9UPZJIQ/view?usp=drivesdk",
+    "sourceSha256": "58c20071d13b686fc62ac7fe249307bc377b3497ecf706fe8683ef5a0a5bbb35",
+    "textSha256": "df7b3263fb80d2101d99c6c5b5d9585e1caacd1f35e6d3b7e3eaa9ee19df5500",
+    "changeKey": "e5213340cee9ffc61295ecd619eeb97a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f083c5ca4af51f5681c2",
+    "workId": "f083c5ca4af51f5681c2",
+    "driveFileId": "1nfwWiukRD2BxBVlbijkV3V3tA9UPZJIQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:30:05.931107+00:00",
+    "updatedAt": "2026-09-21T14:30:05.931122+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:30:05.931223+00:00"
+    }
+  }
+}

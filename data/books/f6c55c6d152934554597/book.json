@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "연하가 뭐 어때",
+    "author": "김미진",
+    "genre": "소설",
+    "tags": [
+      "연하남",
+      "캠퍼스",
+      "로맨스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김미진 (bayy)",
+    "oneLineSummary": "공항에서 우연히 만난 연상연하 부부의 과거 대학 시절 인연을 그린 소설.",
+    "overallSummary": "공항에서 베낭여행을 떠나는 신혼부부 은정과 연하 남편 철수의 모습이 그려지고, 과거 1993년 대학 시절 철수와 친한 약대생 누나 정희, 그리고 철수와 얽히게 되는 은정의 사연이 회상된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1회-2회",
+        "summary": "공항에서 만난 연상연하 신혼부부의 에피소드에 이어, 1993년 대학생 철수가 자취를 시작하며 동아리 누나 정희와 얽히고 홍은정과 만나게 되는 과거가 전개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성",
+        "value": "현재와 과거를 오가는 액자식 구성"
+      }
+    ],
+    "keyEntitiesText": "철수, 은정, 정희, 수연",
+    "settingText": "공항, 대학교 캠퍼스, 자취방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UP6tptztWUA-WFipceNh-2T1LsyFPBRM",
+    "filename": "연하가 뭐 어때.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.878Z",
+    "size": "1062564",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1UP6tptztWUA-WFipceNh-2T1LsyFPBRM/view?usp=drivesdk",
+    "sourceSha256": "0a71c286869cac59cec97ee89d983246688b8ecb165358c47b576ed78773dbdb",
+    "textSha256": "b863de854eeb572c63740bb1c2b07b04d28793af02b199a99309527590812465",
+    "changeKey": "b27c55669f41acebf8929087f1c3a227",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f6c55c6d152934554597",
+    "workId": "f6c55c6d152934554597",
+    "driveFileId": "1UP6tptztWUA-WFipceNh-2T1LsyFPBRM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:30:18.441728+00:00",
+    "updatedAt": "2026-09-21T14:30:18.441744+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-21T14:30:18.441842+00:00"
+    }
+  }
+}

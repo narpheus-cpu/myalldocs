@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "백수일기",
+    "author": "이현철",
+    "genre": "코믹 소설",
+    "tags": [
+      "백수",
+      "일기",
+      "코미디"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "코미디"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이현철",
+    "oneLineSummary": "취업을 못한 백수 청년의 유쾌하고 짠내 나는 일상 속 에피소드.",
+    "overallSummary": "대학 졸업 후 백수가 된 주인공이 집안에서 구박을 받으며 짤짤이를 하고, 동네를 뛰어다니고, 지리산 여행을 가거나 만우절 거짓말을 하는 등 백수로서 겪는 처절하고 웃긴 일상을 그린 일기 형식의 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1-5",
+        "summary": "백수가 된 이후 늦잠 자는 법을 터득하고, 초등학생들과 짤짤이를 하거나 친구 집을 전전하고, 가족들과 겪는 소소하고 유쾌한 해프닝들."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "날짜별 일기 형식"
+      }
+    ],
+    "keyEntitiesText": "나(백수), 아버지, 어머니, 누나, 백수 친구",
+    "settingText": "집, 놀이터, 자취방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YNSwN4r8iZjFVdAnx8xupOS3E3fden22",
+    "filename": "이현철-백수일기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.112Z",
+    "size": "92702",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1YNSwN4r8iZjFVdAnx8xupOS3E3fden22/view?usp=drivesdk",
+    "sourceSha256": "126d0d6c9969659641ba05afcac16b3cc858d0ec084cf17f52ff82e409cb9ad3",
+    "textSha256": "a37dd1a14a2fd1402cc5d85adf4910a03e03f3b5ad32b336fae57845d06c673c",
+    "changeKey": "6955fdd5c6301baf1dadc99f655a6260",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ac6a18f8ee759d31146a",
+    "workId": "ac6a18f8ee759d31146a",
+    "driveFileId": "1YNSwN4r8iZjFVdAnx8xupOS3E3fden22",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:31:29.612314+00:00",
+    "updatedAt": "2026-09-21T14:31:29.612329+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:31:29.612426+00:00"
+    }
+  }
+}

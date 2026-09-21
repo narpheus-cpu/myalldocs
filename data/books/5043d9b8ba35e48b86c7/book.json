@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "러브써치 펌",
+    "author": "애플그린",
+    "genre": "로맨스 소설",
+    "tags": [
+      "헤드헌터",
+      "오피스물",
+      "로맨틱코미디"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애플그린 (casino92@hanmail.net)",
+    "oneLineSummary": "까칠한 본부장 재원과 털털한 헤드헌터 헤라의 티격태격 인연을 그린 로맨스 소설.",
+    "overallSummary": "디지털 & 미디어 사업본부장 정재원은 할아버지의 명으로 정보통신 사업부의 브레인 유출을 막는 일을 맡게 된다. 휴가 첫날 언니의 꽃집에 불려 나간 헤라는 우연히 가게를 찾은 재원의 고가 노트북을 망가뜨리게 되고, 두 사람은 첫 만남부터 팽팽하게 부딪친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1-4",
+        "summary": "재원은 사촌형 정원의 귀뜸으로 할아버지의 의중을 파악하고 조사를 지시한다. 한편 휴가를 맞은 헤라는 언니의 꽃집에서 재원의 노트북을 망가뜨려 배상 문제로 얽히게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "관계성",
+        "value": "혐관에서 시작되는 로맨스"
+      }
+    ],
+    "keyEntitiesText": "정재원, 진헤라, 헤림, 정원",
+    "settingText": "서울, 꽃집, 회사 사무실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JUWLT4XRdXtCBI3tEV0j5NP2sSzQw3yW",
+    "filename": "러브써치펌.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.797Z",
+    "size": "874441",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1JUWLT4XRdXtCBI3tEV0j5NP2sSzQw3yW/view?usp=drivesdk",
+    "sourceSha256": "db2cd9b2e722d527db67b1c24dd6f5270cce50189248f5be852d30fb1ef74ff7",
+    "textSha256": "3c373d58f278146671d35aa050ec6ef1ec13728c0092b3ccbc1242e71dd50db7",
+    "changeKey": "60dc5ecff0bc6dc6efe556cdf5f6c8f1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5043d9b8ba35e48b86c7",
+    "workId": "5043d9b8ba35e48b86c7",
+    "driveFileId": "1JUWLT4XRdXtCBI3tEV0j5NP2sSzQw3yW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:29:53.311357+00:00",
+    "updatedAt": "2026-09-21T14:29:53.311373+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:29:53.311464+00:00"
+    }
+  }
+}

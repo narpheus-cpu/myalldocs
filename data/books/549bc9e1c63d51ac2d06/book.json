@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "발렌타인데이 코메디",
+    "author": "이현철",
+    "genre": "코믹 소설",
+    "tags": [
+      "발렌타인데이",
+      "솔로",
+      "코미디"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "코미디",
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이현철",
+    "oneLineSummary": "발렌타인데이를 맞아 외로움을 타며 허세 부리는 노처녀와 백수 남자의 웃픈 하루.",
+    "overallSummary": "도도하고 고고한 척하지만 외로운 30세 노처녀 여주인공과, 초콜릿을 받지 못해 처량하게 하루를 보내는 백수 회사원 송대리의 시점이 교차되며 발렌타인데이에 벌어지는 유쾌하고 씁쓸한 일상을 그린 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "발렌타인데이 아침, 각자 집에서 코피를 터뜨리거나 라면을 끓여 먹으며 외롭게 하루를 시작한 두 남녀는 우연히 같은 아파트에 살며 얽히고설킨 하루를 보낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "남녀 주인공의 시점이 교차되는 옴니버스식 구성"
+      }
+    ],
+    "keyEntitiesText": "송대리, 여주인공(30세 노처녀), 최혜지, 실장",
+    "settingText": "아파트, 회사, 대학로"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kojf1KmZ2740-EPfuHoYerA6cwXJGu-5",
+    "filename": "이현철-발렌타인데이 코메디.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.088Z",
+    "size": "33014",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1kojf1KmZ2740-EPfuHoYerA6cwXJGu-5/view?usp=drivesdk",
+    "sourceSha256": "8d4068fd0ef8aa4e9321361abd6d8c53416e1f13cbf325dfb86407679939027c",
+    "textSha256": "afe877e8d46fc561859c89690ae006546f01435c85e48f07441993eb8e46de96",
+    "changeKey": "42c26545a41cc98db12c51b6a6b70fed",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "549bc9e1c63d51ac2d06",
+    "workId": "549bc9e1c63d51ac2d06",
+    "driveFileId": "1kojf1KmZ2740-EPfuHoYerA6cwXJGu-5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:31:15.870724+00:00",
+    "updatedAt": "2026-09-21T14:31:15.870739+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:31:15.870837+00:00"
+    }
+  }
+}

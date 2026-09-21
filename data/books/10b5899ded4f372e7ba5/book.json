@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "만우절 사랑 확인하기",
+    "author": "이현철",
+    "genre": "코믹 소설",
+    "tags": [
+      "만우절",
+      "거짓말",
+      "커플"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "코미디",
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이현철 (hicheol@netsgo.com)",
+    "oneLineSummary": "만우절에 다른 여자와 바람났다는 거짓말을 했다가 여자친구에게 호되게 혼난 남자의 이야기.",
+    "overallSummary": "사귄 지 4년 된 여자친구 혜경이와의 관계가 무뎌진 것을 느낀 철수는 만우절을 맞아 '다른 여자가 생겼다'는 장난 섞인 거짓말을 한다. 하지만 혜경이는 진심으로 받아들이고 눈물을 흘리며 충격을 받고, 한강 다리까지 뛰어가는 소동이 벌어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "만우절 밤 혜경이를 찾아간 철수는 다른 여자와 잤다고 거짓말을 하고, 혜경이가 크게 절망하자 당황하여 해명하려다 경찰서까지 끌려가는 해프닝을 겪는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "만우절 장난으로 인한 커플의 해프닝"
+      }
+    ],
+    "keyEntitiesText": "철수, 혜경, 혜미, 철수의 아버지",
+    "settingText": "서초동 아파트, 반포대교, 경찰서"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zQkHuwzA5tTRBF8T6o64XcNaroeyb4HF",
+    "filename": "이현철-만우절 사랑 확인하기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.076Z",
+    "size": "22569",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1zQkHuwzA5tTRBF8T6o64XcNaroeyb4HF/view?usp=drivesdk",
+    "sourceSha256": "a978f0a7c2e0cbcc0b531df4a9f1e8044b6227203ada7d869110607a09fd9af9",
+    "textSha256": "8e836133c0372bab689bffe2705d48f55796fda602701321750fbe7fd4ec4b95",
+    "changeKey": "b499b5c1a2bb39876f36c6c50be3215d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "10b5899ded4f372e7ba5",
+    "workId": "10b5899ded4f372e7ba5",
+    "driveFileId": "1zQkHuwzA5tTRBF8T6o64XcNaroeyb4HF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:31:09.177560+00:00",
+    "updatedAt": "2026-09-21T14:31:09.177576+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:31:09.177674+00:00"
+    }
+  }
+}

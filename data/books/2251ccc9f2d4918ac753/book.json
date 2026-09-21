@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "엽기적인 그녀",
+    "author": "김호식",
+    "genre": "소설",
+    "tags": [
+      "엽기적인그녀",
+      "코믹로맨스",
+      "대학생"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스",
+        "코미디"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김호식",
+    "oneLineSummary": "지하철에서 만난 터프하고 엉뚱한 그녀와 평범한 대학생 견우의 좌충우돌 연애담.",
+    "overallSummary": "신림동에서 친구들과 놀고 인천행 지하철을 탄 견우는 술에 취해 대머리 아저씨 머리에 구토를 하고 자신을 '자기'라 부르는 엉뚱하고 터프한 아가씨와 엮이게 된다. 이후 그녀와 여관에 갔다가 연락이 닿아 매일같이 고생스러운 만남을 이어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 - 인연 / 학교 / 석촌호수",
+        "summary": "지하철 구토 사건으로 시작된 두 사람의 인연. 터프한 그녀의 기행 때문에 견우는 학교에서 왕따가 되는 등 온갖 고생을 겪는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적특징",
+        "value": "인터넷 소설 원작의 코믹 로맨스"
+      }
+    ],
+    "keyEntitiesText": "견우, 그녀",
+    "settingText": "서울, 부평, 지하철, 대학교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10tFsgtoKQ0g6yXIUEMOWb1jibeI-3kRN",
+    "filename": "엽기적인 그녀 (원작).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.905Z",
+    "size": "229958",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/10tFsgtoKQ0g6yXIUEMOWb1jibeI-3kRN/view?usp=drivesdk",
+    "sourceSha256": "198843aacf9bd3509698f68a91f62102ebdb9b72ca11810c311009caaa4fcde4",
+    "textSha256": "e098a38890f4b87574823263fb33e5121432960073654901c64b7db88e899850",
+    "changeKey": "0817e06f6332fbfbb95ac942fc649983",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2251ccc9f2d4918ac753",
+    "workId": "2251ccc9f2d4918ac753",
+    "driveFileId": "10tFsgtoKQ0g6yXIUEMOWb1jibeI-3kRN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:30:24.310258+00:00",
+    "updatedAt": "2026-09-21T14:30:24.310274+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:30:24.310377+00:00"
+    }
+  }
+}

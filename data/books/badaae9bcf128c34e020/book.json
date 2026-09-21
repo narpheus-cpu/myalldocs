@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "월희 코하쿠 루트",
+    "author": "아라라, kwonv2",
+    "genre": "비주얼노벨 소설",
+    "tags": [
+      "월희",
+      "코하쿠",
+      "토노가"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아라라, kwonv2 (레이스넷)",
+    "oneLineSummary": "토노가로 돌아온 시키가 코하쿠 및 히스이 자매와 얽힌 과거의 기억을 떠올리는 이야기.",
+    "overallSummary": "토노 저택으로 돌아온 시키는 메이드인 코하쿠와 히스이를 만나고, 어린 시절 저택에서 함께 놀았던 쌍둥이 소녀들과의 기억과 하얀 리본에 얽힌 약속을 떠올린다. 엄격한 아키하와 함께 저택에서의 생활을 이어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "반전충동 I",
+        "summary": "저택으로 돌아오는 길에 과거 어린 시절 쌍둥이 소녀들과 함께 놀았던 기억을 회상하며, 가방 속 하얀 리본의 의미를 되새긴다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "원작",
+        "value": "동인 게임 '월희' 코하쿠 루트 번역"
+      }
+    ],
+    "keyEntitiesText": "토노 시키, 코하쿠, 히스이, 토노 아키하",
+    "settingText": "토노가 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16caFwP7fZC-VI5rJaZpDaNwKxe3WgWHq",
+    "filename": "월희_코하쿠.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.008Z",
+    "size": "449508",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/16caFwP7fZC-VI5rJaZpDaNwKxe3WgWHq/view?usp=drivesdk",
+    "sourceSha256": "9cce787c8515e10b481d7d864d93851635e142c20a0295961e4f64314d55655c",
+    "textSha256": "f6d5769a527b498c3795d421cbd3ad731c21e227dd200d265c986e93bf7d48df",
+    "changeKey": "70781fee1661971480b5cb4fa653bed3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "badaae9bcf128c34e020",
+    "workId": "badaae9bcf128c34e020",
+    "driveFileId": "16caFwP7fZC-VI5rJaZpDaNwKxe3WgWHq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:30:53.064682+00:00",
+    "updatedAt": "2026-09-21T14:30:53.064697+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.6287,
+      "updatedAt": "2026-09-21T14:30:53.064785+00:00"
+    }
+  }
+}

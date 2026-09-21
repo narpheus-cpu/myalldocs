@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "월희 시엘 루트",
+    "author": "아라라",
+    "genre": "비주얼노벨 소설",
+    "tags": [
+      "월희",
+      "시엘",
+      "토노시키"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아라라 (레이스넷 동인게임 번역게시판)",
+    "oneLineSummary": "토노 시키가 본가로 돌아간 후 시엘 선배와 얽히며 벌어지는 이야기.",
+    "overallSummary": "8년간 아리마가에서 지내던 토노 시키는 본가인 토노가로 돌아오게 된다. 등굣길에 학교 안뜰에서 울타리를 고치고 있는 이상한 상급생 시엘 선배를 만나고, 연속 흡혈귀 살인사건이 일어나는 일상 속에서 점차 사건에 휘말려 들어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "아리마가를 떠나 학교로 등교한 시키는 울타리를 고치던 시엘 선배를 돕고, 이후 학교에서 점심을 함께 먹으며 시엘과 가까워진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "원작",
+        "value": "동인 게임 '월희' 시엘 루트 번역"
+      }
+    ],
+    "keyEntitiesText": "토노 시키, 시엘, 이누이 아리히코, 유미즈카 사츠키, 케이코",
+    "settingText": "아리마가 저택, 학교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GJSMoXuFcWGpFib7OffdhWx6wy5pn4oh",
+    "filename": "월희_시엘.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.942Z",
+    "size": "736359",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1GJSMoXuFcWGpFib7OffdhWx6wy5pn4oh/view?usp=drivesdk",
+    "sourceSha256": "4e4ed1f4e6460a060dff5bc0762cfc1771d7550c8e2ad514c1e6332e41fd63f8",
+    "textSha256": "20228b1b28876cae5ef6cb9c41259daa5283c2de9adbc5bd289899f29ff0e00a",
+    "changeKey": "da0b1c27c8ad99b3583c1fcce00928bc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9401ee23dd949b523077",
+    "workId": "9401ee23dd949b523077",
+    "driveFileId": "1GJSMoXuFcWGpFib7OffdhWx6wy5pn4oh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:30:38.473803+00:00",
+    "updatedAt": "2026-09-21T14:30:38.473819+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.6035,
+      "updatedAt": "2026-09-21T14:30:38.473922+00:00"
+    }
+  }
+}
