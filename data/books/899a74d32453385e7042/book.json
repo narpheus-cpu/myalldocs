@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사전 이야기2",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "사전",
+      "삽화",
+      "일러스트",
+      "책"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "독서",
+        "잡학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "사전 속에 수록된 독특하고 흥미로운 삽화들에 대한 관찰과 감상.",
+    "overallSummary": "사전에 뜻을 전달하기 위해 첨부된 삽화들의 재미있는 분위기를 관찰한다. '정자(pergola)'를 설명하는 그림 속 남녀의 묘한 분위기부터 최신 옥스퍼드 도해 영일 사전에 등장하는 디스코와 나이트클럽 도해의 독특한 일러스트 풍을 유쾌하게 소개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사전 속 삽화의 묘미",
+        "summary": "단어의 뜻을 명확히 하려고 들어간 사전 삽화 속에서 묘한 로맨틱한 분위기나 독특한 감성을 찾아내며 즐거워한다."
+      },
+      {
+        "sectionTitle": "도해 사전에 나타난 현대적 일러스트",
+        "summary": "옥스퍼드 도해 영일 사전의 나이트클럽 편 등에 등장하는 현대적이고 개성 있는 일러스트들의 풍경을 유머러스하게 해설한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "사전과 일러스트 삽화"
+      }
+    ],
+    "keyEntitiesText": "이토이 시게사토, JOCHEN SCHMIDT",
+    "settingText": "서점, 책상 위"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1StGlDqpQshnQzkYz09zGyCztfSBupd4Y",
+    "filename": "사전 이야기2.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.561Z",
+    "size": "1891",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1StGlDqpQshnQzkYz09zGyCztfSBupd4Y/view?usp=drivesdk",
+    "sourceSha256": "1d5eeb7cfc21d278bfe945079946bf5e76448a5cf9330f0bc501e96590a7a0df",
+    "textSha256": "e24bfcd3561c01458fd77947513f55e60278589065e3d5df05e0efc465f7b000",
+    "changeKey": "ad28c9c543ac965698817c3dd01313d4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "899a74d32453385e7042",
+    "workId": "899a74d32453385e7042",
+    "driveFileId": "1StGlDqpQshnQzkYz09zGyCztfSBupd4Y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:15:22.704951+00:00",
+    "updatedAt": "2026-09-21T20:15:22.704969+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:15:22.705067+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "삼십년",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "야구",
+      "야쿠르트 스왈로즈",
+      "진구 구장",
+      "우승"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "스포츠",
+        "응원"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "야쿠르트 스왈로즈 야구팀의 팬으로서 진구 구장에서 보낸 추억과 삼십 년에 한 번 우승하는 팀을 응원하는 즐거움.",
+    "overallSummary": "도쿄 진구 야구장을 홈으로 쓰는 야쿠르트 스왈로즈의 열렬한 팬으로서 녹음이 우거진 진구 구장의 매력을 예찬한다. 1978년 팀이 우승했을 당시 근처에 살며 매일 야구장에 출근했던 행복한 기억을 떠올리며, 삼십 년에 한 번 우승하는 팀 덕분에 단 한 번의 우승으로도 십 년을 즐길 수 있음에 감사한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "진구 구장과 야쿠르트",
+        "summary": "녹음이 우거지고 안정감 있는 진구 야구장의 매력을 칭찬하고, 거인팀(쿄진)에 대한 라이벌 의식을 드러낸다."
+      },
+      {
+        "sectionTitle": "1978년의 우승과 추억",
+        "summary": "진구 구장 근처 센다가야에 살며 매일 경기를 보러 갔던 1978년의 감격스러운 우승 순간들을 회상하며 오랜 팬으로서의 소회를 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "야구 팀에 대한 애정과 팬으로서의 삶"
+      }
+    ],
+    "keyEntitiesText": "야쿠르트 스왈로즈, 진구 구장, 후나다, 힐튼, 마쓰오카",
+    "settingText": "진구 야구장, 센다가야"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yESjvAgJMhfv-4OPIvooV1kepU7NxFjX",
+    "filename": "삼십년.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.597Z",
+    "size": "1865",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1yESjvAgJMhfv-4OPIvooV1kepU7NxFjX/view?usp=drivesdk",
+    "sourceSha256": "471916d4b42f91cfe1285ed3fef2274e7d1fb52edbfbe0b3320eb566bfd8cc46",
+    "textSha256": "1d14656e209abb3479ef5e9c5d96592ebdfb3417b75094a78339a4e04b77ee1a",
+    "changeKey": "b8c45a34389f050bdb456041144ea169",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8afb4a502804b7aeb032",
+    "workId": "8afb4a502804b7aeb032",
+    "driveFileId": "1yESjvAgJMhfv-4OPIvooV1kepU7NxFjX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:15:51.300193+00:00",
+    "updatedAt": "2026-09-21T20:15:51.300208+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:15:51.300311+00:00"
+    }
+  }
+}

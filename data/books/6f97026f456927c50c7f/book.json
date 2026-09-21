@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "브람스",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "클래식",
+      "콘서트",
+      "박수",
+      "매너",
+      "식사 매너"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문화",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "클래식 콘서트의 박수 매너와 서양 요리의 테이블 매너에 대한 소소한 단상.",
+    "overallSummary": "클래식 연주 도중이나 악장 사이에 박수를 치는 매너에 대한 의문에서 출발하여, 옛 브람스 시대의 자유로운 연주 관행을 살펴보고, 복잡하고 영문을 알 수 없는 서양 요리의 테이블 매너에 대한 저자 자신의 소신과 경험을 유쾌하게 풀어낸 에세이.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "브람스와 박수 매너",
+        "summary": "콘서트 도중 박수를 치는 해프닝을 통해 악장 간 박수 금지 매너의 기원을 궁금해하며, 1885년 브람스 교향곡 4번 초연 당시의 자유로웠던 풍경을 회상한다."
+      },
+      {
+        "sectionTitle": "테이블 매너에 대한 생각",
+        "summary": "서양 요리의 복잡하고 불합리한 테이블 매너에 의문을 품고, 자신만의 편안한 방식으로 식사하는 소소한 즐거움을 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "클래식 음악과 식사 매너"
+      },
+      {
+        "key": "어조",
+        "value": "가볍고 유머러스함"
+      }
+    ],
+    "keyEntitiesText": "브람스, 마이닌겐 공작",
+    "settingText": "클래식 콘서트 홀, 프랑스 요리 식당"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1mIfD0tyzVhGfn6nDGA-ODplPxUcc8ibP",
+    "filename": "브람스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.467Z",
+    "size": "1898",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1mIfD0tyzVhGfn6nDGA-ODplPxUcc8ibP/view?usp=drivesdk",
+    "sourceSha256": "29770481735752069fc5e9d1fcf9ef2f515000f36b39e4d29babd26f4fdea532",
+    "textSha256": "57c3f5b11765d5d3638051dd8d4749905e75c840ba0010a5837633222eb45e87",
+    "changeKey": "a080b4b41f4f6dbe927ecfdc8f1b7b57",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6f97026f456927c50c7f",
+    "workId": "6f97026f456927c50c7f",
+    "driveFileId": "1mIfD0tyzVhGfn6nDGA-ODplPxUcc8ibP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:13:09.102785+00:00",
+    "updatedAt": "2026-09-21T20:13:09.102801+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:13:09.102995+00:00"
+    }
+  }
+}

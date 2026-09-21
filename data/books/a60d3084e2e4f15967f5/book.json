@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비평을 향유하는 방법",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "비평",
+      "작가",
+      "신조",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문학",
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "작가는 비평을 비평하지 않아야 한다는 저자만의 확고한 신조와 비평을 대하는 태도.",
+    "overallSummary": "세상 다양한 직업과 사람들이 지닌 개별적 신조를 언급하며, 작가로서 글을 쓰며 체득한 자신만의 신조인 '작가는 비평이나 비평가를 비평해서는 안 된다'는 원칙을 설명한다. 나쁘거나 빗나간 비평에 일일이 대응하기보다 무시하고 각자의 일을 하며 살아가는 것이 지혜임을 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "직업적 신조와 작가의 원칙",
+        "summary": "사람들마다 각자의 신조가 있듯, 저자 역시 필부로서 지켜온 철칙인 '작가는 비평을 비평해서는 안 된다'는 신조를 소개한다."
+      },
+      {
+        "sectionTitle": "비평을 향유하는 시간",
+        "summary": "과거 데뷔 시절의 비평 스크랩을 우연히 발견하고 오랜 시간이 지난 뒤 따뜻한 기분으로 읽어보듯, 비평은 나중에 여유를 두고 향유하는 것이 좋다고 말한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "작가와 비평가의 관계"
+      },
+      {
+        "key": "교훈",
+        "value": "남의 비평이나 평가에 일일이 상처받지 않고 각자의 일을 묵묵히 하는 태도의 중요성"
+      }
+    ],
+    "keyEntitiesText": "스칼렛 오하라, 도스토옙스키",
+    "settingText": "집, 이삿짐 정리 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13ckqb_SgVonjzdREYJ4Aux-2zV-FI6ql",
+    "filename": "비평을 향유하는 방법.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.495Z",
+    "size": "4570",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/13ckqb_SgVonjzdREYJ4Aux-2zV-FI6ql/view?usp=drivesdk",
+    "sourceSha256": "13fc7b035b4d86df4117b2f7aecc634c52299e781da5cfb1a14897c5ff37a82b",
+    "textSha256": "c0253fc947f0cf393e2040af7a8469c34102ad6af4bbf688d2ea1e38cfe38cef",
+    "changeKey": "b65780dc3f972c82c4b7d49d6ff6ea83",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a60d3084e2e4f15967f5",
+    "workId": "a60d3084e2e4f15967f5",
+    "driveFileId": "13ckqb_SgVonjzdREYJ4Aux-2zV-FI6ql",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:13:42.922845+00:00",
+    "updatedAt": "2026-09-21T20:13:42.922862+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:13:42.922967+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세면기",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "세면기",
+      "멍한 상태",
+      "건망증",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "자조",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "혼자 있을 때 목욕탕 세면기 앞에서 유독 의식이 공백 상태에 빠지곤 하는 멍한 버릇에 대한 고백.",
+    "overallSummary": "학창 시절부터 종종 멍하니 생각에 빠진다는 소리를 들었던 저자가, 나이를 먹은 지금도 혼자 있을 때면 특히 목욕탕 세면기 앞에서 의식이 완전히 멍해져 칫솔에 샴푸를 짜거나 수염도 안 깎고 폼을 씻어내는 등의 엉뚱한 짓을 저지르는 건망증 섞인 일상을 털어놓는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세면기 앞에서의 의식 공백",
+        "summary": "혼자 있을 때면 의식이 멍해져 빗에 치약을 묻히거나 칫솔에 샴푸를 묻히는 등 목욕탕 세면기 앞에서 자주 저지르는 실수들을 고백한다."
+      },
+      {
+        "sectionTitle": "소설가라는 면죄부",
+        "summary": "이러한 덜렁거림과 비사회적 행위가 망령난 노인의 모습 같아 걱정하면서도, 소설가라는 직업 덕분에 예술활동의 부산물로 너그럽게 웃어넘긴다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "일상 속 멍한 순간들과 건망증에 대한 자조적 유머"
+      }
+    ],
+    "keyEntitiesText": "목욕탕 세면기",
+    "settingText": "욕실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-t5XyGgb1PjCKofELss-XwCDiGGnYgYk",
+    "filename": "세면기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.696Z",
+    "size": "1939",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1-t5XyGgb1PjCKofELss-XwCDiGGnYgYk/view?usp=drivesdk",
+    "sourceSha256": "3dc1b2c9b3dd926f5ecc30727ad879c23eeed6a0f329b47c786a0048d196597f",
+    "textSha256": "6d7161733c32172868237ee20367528d5f3139c55832d32986a45baf26dd4a46",
+    "changeKey": "6112ed7ced9a5e08f6db29c1c6897283",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e20e3dac97ae606c63c1",
+    "workId": "e20e3dac97ae606c63c1",
+    "driveFileId": "1-t5XyGgb1PjCKofELss-XwCDiGGnYgYk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:16:36.966265+00:00",
+    "updatedAt": "2026-09-21T20:16:36.966282+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:16:36.966381+00:00"
+    }
+  }
+}

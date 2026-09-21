@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "산세도 서점에서 생각한 일",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "서점",
+      "산세도",
+      "작가",
+      "책"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "출판",
+        "소상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "산세도 서점에서 자신의 책을 사는 독자를 우연히 목격하고 느낀 미묘한 심경.",
+    "overallSummary": "산세도 서점에서 계산대에서 자신의 책을 사는 여자를 우연히 목격하고 느낀 신기함과 묘한 서글픔을 전한다. 누군가 책을 사주는 것은 기쁜 일이지만, 그 광경을 바라보는 작가의 심경은 마치 자신의 누드 사진이 실린 잡지가 팔리는 것을 보는 여자의 심경과 비슷하다고 비유한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서점에서 자기 책이 팔리는 광경을 보다",
+        "summary": "산세도 서점에서 우연히 자신의 책을 구매하는 독자를 발견하고, 베스트셀러의 징표라는 출판사 사람의 말을 떠올린다."
+      },
+      {
+        "sectionTitle": "묘한 서글픔과 비유",
+        "summary": "책이 팔리는 것은 기쁘면서도 한편으로는 묘한 서글픔이 남으며, 이는 누드 사진이 팔리는 것을 지켜보는 것과 비슷한 감정이라고 털어놓는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "작가로서 책이 팔릴 때 느끼는 이중적 감정"
+      }
+    ],
+    "keyEntitiesText": "산세도 서점",
+    "settingText": "산세도 서점 계산대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lWsCQL8yDFjnWJL_7DJNolwEbslBulp7",
+    "filename": "산세도 서점에서 생각한 일.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.584Z",
+    "size": "1780",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1lWsCQL8yDFjnWJL_7DJNolwEbslBulp7/view?usp=drivesdk",
+    "sourceSha256": "9f314e4dfdfb3c2ebccca3a0b9fe9fb444b9ecf15a5695ed24bbdb2a8875e51a",
+    "textSha256": "ffc9d843c653945ea41809307227e525d45d7553c70bafcc1c4657e12a529e3e",
+    "changeKey": "ae2307a9325050e37a36ccec15cfacbc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3b3523dd29de0b5f5964",
+    "workId": "3b3523dd29de0b5f5964",
+    "driveFileId": "1lWsCQL8yDFjnWJL_7DJNolwEbslBulp7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:15:37.964072+00:00",
+    "updatedAt": "2026-09-21T20:15:37.964089+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:15:37.964238+00:00"
+    }
+  }
+}

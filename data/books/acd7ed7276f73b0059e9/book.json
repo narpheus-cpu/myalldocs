@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사인회 소감",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "사인회",
+      "작가",
+      "서점",
+      "헌책방"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "출판",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "사인회를 하지 않는 이유와 다른 작가들의 사인회 현장을 관찰하며 느낀 단상.",
+    "overallSummary": "귀찮고 부끄럽다는 이유로 한 번도 사인회를 해본 적이 없는 저자가 백화점 서점에서 목격한 한산한 작가의 사인회 풍경을 회상하며, 사인회가 지닌 씁쓸한 면모와 헌책방에서 젊은 세대 작가의 사인이 '낙서' 취급을 받는 현실을 유쾌하게 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사인회를 하지 않는 이유",
+        "summary": "귀찮음과 부끄러움 때문에 사인회를 열지 않으며, 찾아오는 팬이 없을 때의 거북스러운 상황을 피하고 싶어 하는 마음을 밝힌다."
+      },
+      {
+        "sectionTitle": "서점에서의 목격담과 헌책방의 현실",
+        "summary": "시부야의 백화점 서점에서 사람이 없어 쓸쓸해하던 모 작가의 사인회 풍경을 떠올리고, 헌책방에서 젊은 작가의 사인이 낙서 취급을 받는다고 눙친다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "작가로서 바라본 사인회의 이면"
+      }
+    ],
+    "keyEntitiesText": "무라카미 류, 다케미야 케이코, 엔도 슈사쿠, 카이코 켄",
+    "settingText": "시부야 세이부 백화점 서적 매장, 헌책방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IZ0MAEfna7uSu8x5Xuc08blpFcWrztNA",
+    "filename": "사인회 소감.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.552Z",
+    "size": "2170",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1IZ0MAEfna7uSu8x5Xuc08blpFcWrztNA/view?usp=drivesdk",
+    "sourceSha256": "139609e073777be3781f54f2d9a32ae607c209689583727b338310be041aa863",
+    "textSha256": "5aa7976b336019b1949eb22ef64e1281de4e579b453663222d847cc0b59ed390",
+    "changeKey": "1357b5240d7bf2b2b7f36ff2869bca49",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "acd7ed7276f73b0059e9",
+    "workId": "acd7ed7276f73b0059e9",
+    "driveFileId": "1IZ0MAEfna7uSu8x5Xuc08blpFcWrztNA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:15:04.114452+00:00",
+    "updatedAt": "2026-09-21T20:15:04.114468+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:15:04.114567+00:00"
+    }
+  }
+}

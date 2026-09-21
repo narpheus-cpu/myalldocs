@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셔츠",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "셔츠",
+      "트레이닝 셔츠",
+      "영화",
+      "대학"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "대중문화",
+        "의류"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "60년대 미국 영화 속 컷 오프 트레이닝 셔츠에 대한 기억과 대학 로고가 박힌 티셔츠에 대한 단상.",
+    "overallSummary": "60년대 미국 영화에 자주 등장하는 소매를 잘라낸 트레이닝 셔츠를 따라 했다가 일본의 기후에 맞지 않아 후회했던 일화를 소개한다. 현재 와세다 출신임에도 무관한 일본대학의 로고가 박힌 트레이닝 셔츠를 입고 글을 쓰는 이유와, 셔츠에 적힌 엉뚱하고 기괴한 영어 문구들을 유쾌하게 관찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "영화 속 컷 오프 트레이닝 셔츠",
+        "summary": "미국 영화 속 소매를 자른 트레이닝 셔츠의 멋을 동경해 따라 해보았으나 일본 기후와 맞지 않아 실패했던 경험을 떠올린다."
+      },
+      {
+        "sectionTitle": "대학 셔츠와 엉뚱한 영어 문구들",
+        "summary": "모교 대신 인연이 없는 일본대학 로고가 박힌 편안한 셔츠를 입고 작업하며, 거리에 엉뚱하게 적힌 영어 문구들을 보며 느끼는 묘한 소회를 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "의류와 일상에서 발견하는 소소한 유머"
+      }
+    ],
+    "keyEntitiesText": "일본대학, 와세다대학",
+    "settingText": "작업실 서재"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VR-3Apt2lsAcMA23lX3Fkp-6vJFeLLuG",
+    "filename": "셔츠.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.710Z",
+    "size": "2102",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1VR-3Apt2lsAcMA23lX3Fkp-6vJFeLLuG/view?usp=drivesdk",
+    "sourceSha256": "c69bd1ade2437747e692cface2e27699873411629671288698a49f9275ac1eaa",
+    "textSha256": "894634dab623ee39fd8c9aabd63cf5e45a6455591b6f2ed1e2bbacadae3b286a",
+    "changeKey": "58dc1c1714835426c37a09817434d48e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1b979621df0920d03fbf",
+    "workId": "1b979621df0920d03fbf",
+    "driveFileId": "1VR-3Apt2lsAcMA23lX3Fkp-6vJFeLLuG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:16:43.625826+00:00",
+    "updatedAt": "2026-09-21T20:16:43.625840+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:16:43.625939+00:00"
+    }
+  }
+}

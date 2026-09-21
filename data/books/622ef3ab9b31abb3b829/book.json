@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "생일",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "생일",
+      "나이",
+      "우울함",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상",
+        "회한"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "나이가 들수록 재미없고 우울해지는 생일에 대한 소소한 에피소드.",
+    "overallSummary": "나이가 들면 발렌타인 데이뿐만 아니라 생일마저도 아무런 재미나 감동이 없는 날이 된다고 털어놓는다. 아내와 주고받는 선물은 결국 같은 지갑에서 나오는 것임을 깨닫고 혼자 긴자와 니혼바시를 찾아가 조용히 축하하려다 백화점 휴일로 실패하고 폭식했던 웃픈 일화를 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "김 빠진 생일 선물",
+        "summary": "나이가 들면서 생일 선물을 받아도 결국 생활비 구멍 메우기에 불과하다는 현실을 깨닫고 감동이 사라졌음을 토로한다."
+      },
+      {
+        "sectionTitle": "니혼바시 백화점 외출 소동",
+        "summary": "혼자 조용히 생일을 보내려 니혼바시 다카시마야 백화점을 찾았으나 정기 휴일이라 허탕을 치고, 결국 화김에 초밥을 폭식했던 에피소드를 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "나이 듦에 따라 퇴색하는 생일의 의미"
+      }
+    ],
+    "keyEntitiesText": "긴자, 다카시마야 백화점",
+    "settingText": "긴자, 니혼바시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1r4P-BFNItNC71iZt5TGMmrp785lX0omu",
+    "filename": "생일.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.633Z",
+    "size": "1816",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1r4P-BFNItNC71iZt5TGMmrp785lX0omu/view?usp=drivesdk",
+    "sourceSha256": "6a89fa441e0e09026f8a5bd3f378d36635a2e33d5696fe1021e33058f6652f34",
+    "textSha256": "8a6be60e8176260c2d5900d521ac14bca4eccfb5f32c3e27176af86dc703508e",
+    "changeKey": "a8d148cf8fea2873c049384c11b05879",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "622ef3ab9b31abb3b829",
+    "workId": "622ef3ab9b31abb3b829",
+    "driveFileId": "1r4P-BFNItNC71iZt5TGMmrp785lX0omu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:16:01.455073+00:00",
+    "updatedAt": "2026-09-21T20:16:01.455088+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:16:01.455219+00:00"
+    }
+  }
+}

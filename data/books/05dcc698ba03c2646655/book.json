@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서른 두 살의 데이 트리퍼",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "서른두 살",
+      "열여덟 살",
+      "데이 트리퍼",
+      "비틀즈",
+      "나이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "청춘",
+        "회상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "서른두 살의 저자와 열여덟 살 소녀의 한 달에 한 번 있는 데이트와 삶에 대한 단상.",
+    "overallSummary": "아내가 있는 서른두 살의 저자와 여섯 명의 남자 친구가 있는 열여덟 살 소녀가 한 달에 한 번 만나 나누는 대화를 그린다. 젊음의 싱그러움과 특유의 따분함을 지닌 소녀와 대화하며, 다시 열여덟 살로 돌아가고 싶냐는 질문에 현재의 삶이 더 충실하다며 단호히 거절하는 모습을 담담하게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서른두 살과 열여덟 살의 만남",
+        "summary": "한 달에 한 번 일요일에 만나는 열여덟 살 소녀와의 대화를 통해 젊음과 나이 듦에 대한 차이를 유쾌하게 조명한다."
+      },
+      {
+        "sectionTitle": "지나간 청춘과 현재의 만족",
+        "summary": "다시 열여덟 살로 돌아가겠냐는 질문에 이미 한 번으로 충분하다며 지금 이대로의 삶에 만족하는 자신의 심경을 비틀즈의 노래와 기차 여행에 빗대어 표현한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 장치",
+        "value": "비틀즈의 노래와 기차 창밖 풍경을 은유로 활용"
+      }
+    ],
+    "keyEntitiesText": "비틀즈, 데이 트리퍼",
+    "settingText": "요코하마 항구가 보이는 카페"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LF6KKEQ9O5FyBDCQGxuG_icX0nm3QIzt",
+    "filename": "서른 두 살의 데이 트리퍼.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.646Z",
+    "size": "5528",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1LF6KKEQ9O5FyBDCQGxuG_icX0nm3QIzt/view?usp=drivesdk",
+    "sourceSha256": "ed544a5845bf275f73430d05024a6cec9abcf09d7d116c2b3400fa4557c19b20",
+    "textSha256": "2a0e695545c84c0d979be1f7c45e3d47b7e98ce7bb7eb8d8460d0ceb7fdda1bd",
+    "changeKey": "0ccdb5c76591e6ad7ff66fe115a0b1ff",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "05dcc698ba03c2646655",
+    "workId": "05dcc698ba03c2646655",
+    "driveFileId": "1LF6KKEQ9O5FyBDCQGxuG_icX0nm3QIzt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:16:08.560351+00:00",
+    "updatedAt": "2026-09-21T20:16:08.560368+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:16:08.560472+00:00"
+    }
+  }
+}

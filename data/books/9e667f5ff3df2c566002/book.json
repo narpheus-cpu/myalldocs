@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비프 커틀릿에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "음식",
+      "비프 커틀릿",
+      "비엔나 슈니체르",
+      "요리"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "음식",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "비엔나 슈니체르와 비프 커틀릿에 얽힌 맛과 요리법에 대한 단상.",
+    "overallSummary": "도쿄에서 맛보기 힘든 비프 커틀릿의 차선책으로 즐겨 먹는 비엔나 슈니체르의 엄격한 조리 규칙과 맛을 소개하고, 섬세한 규칙 없이 단순하게 튀겨내어 맛있게 즐길 수 있는 비프 커틀릿의 매력을 예찬한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "비엔나 슈니체르의 규칙",
+        "summary": "송아지 고기를 얇게 두들겨 튀겨내고 레몬, 안초비, 올리브, 케파 등을 얹고 버터를 끼얹어 누들과 함께 먹어야 비로소 참된 비엔나 슈니체르가 된다고 설명한다."
+      },
+      {
+        "sectionTitle": "단순하고 맛있는 비프 커틀릿",
+        "summary": "비프 커틀릿은 까다로운 규칙 없이 적당한 쇠고기를 돈가스처럼 튀겨내기만 해도 소금간의 스파게티와 크레송 샐러드를 곁들이면 매우 훌륭한 음식이 된다고 극찬한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "음식에 대한 미식적 취향"
+      }
+    ],
+    "keyEntitiesText": "비엔나 슈니체르, 비프 커틀릿",
+    "settingText": "식당"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OM-Mv78_v6pw-9Hsrq74AmjuQj7aTLlM",
+    "filename": "비프 커틀릿에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.507Z",
+    "size": "1502",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1OM-Mv78_v6pw-9Hsrq74AmjuQj7aTLlM/view?usp=drivesdk",
+    "sourceSha256": "b1449554bb351e1be85cfa7588ddf12eae5723c5f669e5f64543d6e71a3d0127",
+    "textSha256": "a8fead1954f5b1cd15709ee0bbbd8a5e1a697afb389ae0d52fb75a5fb5142e8b",
+    "changeKey": "9e1301cc5debe34432229a19fd3dd329",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9e667f5ff3df2c566002",
+    "workId": "9e667f5ff3df2c566002",
+    "driveFileId": "1OM-Mv78_v6pw-9Hsrq74AmjuQj7aTLlM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:14:12.216902+00:00",
+    "updatedAt": "2026-09-21T20:14:12.216918+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:14:12.217019+00:00"
+    }
+  }
+}

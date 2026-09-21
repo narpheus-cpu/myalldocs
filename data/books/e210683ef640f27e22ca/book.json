@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "설날은 즐거워",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "설날",
+      "도쿄",
+      "산책",
+      "떡국",
+      "음식"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상",
+        "여행"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "설날의 의미에 대한 회의에서 출발해 도쿄 중심부의 고요한 풍경과 떡국의 즐거움을 예찬하는 에세이.",
+    "overallSummary": "1월 1일이 새해의 시작이라는 점에 회의를 품던 저자가, 막상 설날이 되면 아내와 함께 맛있는 설 음식과 떡국을 만들고 도쿄의 한복판을 조용히 산책하며 느끼는 행복을 그려낸다. 시끄러운 텔레비전 소음과 자동차가 줄어든 고요한 설날 아침의 상쾌함을 찬미한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "설날에 대한 회의와 음식의 즐거움",
+        "summary": "설날의 당위성에 의문을 품으면서도, 정성이 담긴 설 음식과 다양한 재료가 들어간 떡국을 즐기는 소소한 기쁨을 전한다."
+      },
+      {
+        "sectionTitle": "설날 아침 도쿄 산책",
+        "summary": "자동차가 줄어들고 스모그가 없는 고요한 도쿄 중심부를 산책하며 만나는 신사와 거리의 상쾌한 풍경을 극찬한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "도시의 고요함을 즐기는 설날 산책과 미식"
+      }
+    ],
+    "keyEntitiesText": "센다가야, 아카사카, 힐튼 호텔",
+    "settingText": "도쿄, 센다가야, 아카사카"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1h2vXFm1BlqbEqwShY6DCUzil0MsL5I1W",
+    "filename": "설날은 즐거워.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.666Z",
+    "size": "6030",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1h2vXFm1BlqbEqwShY6DCUzil0MsL5I1W/view?usp=drivesdk",
+    "sourceSha256": "72563032c4594c05abd670d0491cccffce63e8f374c3e1e11cf9cc0013c0cdb2",
+    "textSha256": "7fdb39be19f369c22ad4ebd07726a2b3b25a149429e17d106949180a9c7d1a1c",
+    "changeKey": "9c9e85d7ad477a03239c3d4680e8aed5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e210683ef640f27e22ca",
+    "workId": "e210683ef640f27e22ca",
+    "driveFileId": "1h2vXFm1BlqbEqwShY6DCUzil0MsL5I1W",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:16:24.754625+00:00",
+    "updatedAt": "2026-09-21T20:16:24.754642+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:16:24.754741+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "상처받지 않기 위해서",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "나이",
+      "상처",
+      "감수성",
+      "인생"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "성찰",
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "나이를 먹어감에 따라 정신적으로 상처 입는 능력이 감퇴하고 터프해지는 현상에 대한 성찰.",
+    "overallSummary": "사십대 후반에 접어든 저자가 나이가 들면서 성적 능력뿐만 아니라 정신적으로 '상처 입는 능력'도 함께 감퇴한다는 사실을 고찰한다. 젊은 날의 과도한 예민함과 고뇌에서 벗어나 점차 뻔뻔스러워지고 현실을 담담히 받아들이게 되는 과정이 곧 삶의 터프함을 배우는 훈련임을 유쾌하고 진솔하게 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "상처 입는 능력의 감퇴",
+        "summary": "젊은 날에는 사소한 일에도 쉽게 하늘이 무너진 듯 상처를 입었으나, 나이가 들면서 그러한 감수성과 상처 입는 능력이 점차 줄어들고 편해짐을 느낀다."
+      },
+      {
+        "sectionTitle": "뻔뻔스러움과 의식적 훈련",
+        "summary": "가혹한 세상에서 살아남기 위해 겪은 경험들이 나이브한 감수성을 마모시켜 뻔뻔하고 터프하게 만들었으며, 상처받지 않으려는 태도는 삶의 노련함이라고 말한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "나이가 들며 얻게 되는 정신적 무뎌짐과 삶의 지혜"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 피터의 법칙",
+    "settingText": "일상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FjRz0o05Z_NL9AlC2hQX-r_p3JzJBfEY",
+    "filename": "상처받지 않기 위해서 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.607Z",
+    "size": "4239",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1FjRz0o05Z_NL9AlC2hQX-r_p3JzJBfEY/view?usp=drivesdk",
+    "sourceSha256": "4554102c2a0fe3f14b94fe46dd159887142941b95d10d20ff7444f28b44ebc76",
+    "textSha256": "bba9cb8972f85eaaff14a7e33b45cb429e230b009f39ba233bc9c11a6a0b19ae",
+    "changeKey": "b5b57d150022a8b5d289761fae4c3186",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ce231a85d83f4632309f",
+    "workId": "ce231a85d83f4632309f",
+    "driveFileId": "1FjRz0o05Z_NL9AlC2hQX-r_p3JzJBfEY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:15:56.447473+00:00",
+    "updatedAt": "2026-09-21T20:15:56.447490+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:15:56.447588+00:00"
+    }
+  }
+}
