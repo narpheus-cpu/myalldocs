@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이기적 유전자",
+    "author": "리처드 도킨스",
+    "genre": "과학",
+    "tags": [
+      "유전자",
+      "진화론",
+      "사회생물학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "옥스퍼드 대학교 동물행동학 연구 그룹 리더.",
+    "oneLineSummary": "인간은 유전자를 보존하기 위해 맹목적으로 프로그램된 생존 기계라는 유전자 중심의 진화론을 다룬 책.",
+    "overallSummary": "진화의 주체를 개체가 아닌 유전자로 보고, 모든 생명 현상을 유전자의 자기복제 전략으로 설명한다. 이타적 행동조차도 유전자의 이기적 보존을 위한 전략임을 논증한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "자기 복제자",
+        "summary": "생명의 기원과 자기 복제자의 탄생을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 논지",
+        "value": "생명체는 유전자의 생존 기계이다."
+      }
+    ],
+    "keyEntitiesText": "리처드 도킨스, 유전자, 자기 복제자",
+    "settingText": "현대 진화생물학의 패러다임 전환기."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EJnbFuiqa902X4Pj0VRyBtQX9FwxjuMf",
+    "filename": "리처드 도킨스-이기적 유전자(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.056Z",
+    "size": "1191528",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1EJnbFuiqa902X4Pj0VRyBtQX9FwxjuMf/view?usp=drivesdk",
+    "sourceSha256": "8c48d4c4275fcd86bf59fcdf91ad19ec078e0f61fd2e09d08b4a471476322a83",
+    "textSha256": "dbe9a6f8a63820c8e4a8b3f9bcd1b4e8493fe4aa9383633bfd55618f408f154b",
+    "changeKey": "97da50a4f183f79e1b2e5e38fdfb655a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1ea4bd60242dc2601629",
+    "workId": "1ea4bd60242dc2601629",
+    "driveFileId": "1EJnbFuiqa902X4Pj0VRyBtQX9FwxjuMf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:29:39.922146+00:00",
+    "updatedAt": "2026-09-21T18:29:39.922163+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:29:39.922272+00:00"
+    }
+  }
+}

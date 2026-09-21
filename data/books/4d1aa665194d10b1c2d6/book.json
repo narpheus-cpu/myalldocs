@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "과학의 끝은 어디인가",
+    "author": "리처드 모리스",
+    "genre": "과학",
+    "tags": [
+      "물리학",
+      "우주론",
+      "과학의 한계"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학 저술가.",
+    "oneLineSummary": "현대 물리학과 우주론의 최전선에서 과학이 도달할 수 있는 한계와 형이상학적 영역을 탐구하는 책.",
+    "overallSummary": "물리학과 우주론의 최신 이론들을 소개하며, 과학이 어디까지 설명할 수 있는지, 그리고 과학의 끝은 어디인지를 철학적이고 형이상학적인 관점에서 고찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "물리학과 우주론의 오늘",
+        "summary": "물질의 본질과 빅뱅 우주론 등 현대 물리학의 기초를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 논지",
+        "value": "과학은 형이상학적 영역과 맞닿아 있으며 그 끝을 탐구한다."
+      }
+    ],
+    "keyEntitiesText": "리처드 모리스, 스티븐 호킹",
+    "settingText": "현대 물리학과 우주론의 발전기."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vHkO_wCQ65apJBpdG892KjqcP1VAU_zO",
+    "filename": "리처드 모리스-과학의 끝은 어디인가.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.210Z",
+    "size": "293803",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1vHkO_wCQ65apJBpdG892KjqcP1VAU_zO/view?usp=drivesdk",
+    "sourceSha256": "37a1f312bf88b3581f1871a331008909d48a6993eeb4c019fc2f13050eb204dc",
+    "textSha256": "11cc2d49aa3d4fe69fbe8f1431013d7b1a2dbd42586aecad2b270250a3acfa32",
+    "changeKey": "fca510521bd382d2cdedae24dc79d376",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4d1aa665194d10b1c2d6",
+    "workId": "4d1aa665194d10b1c2d6",
+    "driveFileId": "1vHkO_wCQ65apJBpdG892KjqcP1VAU_zO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:30:12.964055+00:00",
+    "updatedAt": "2026-09-21T18:30:12.964071+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:30:12.964173+00:00"
+    }
+  }
+}

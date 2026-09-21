@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무지개를 풀며",
+    "author": "리처드 도킨스",
+    "genre": "과학",
+    "tags": [
+      "과학의 경이로움",
+      "시적 과학",
+      "진화론"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "옥스퍼드 대학교 과학의 대중적 이해 석좌교수.",
+    "oneLineSummary": "과학은 신비주의를 파괴하는 것이 아니라 오히려 세상의 경이로움을 더 깊이 이해하게 해주는 시적 영감의 원천임을 역설하는 책.",
+    "overallSummary": "과학적 설명이 무지개의 아름다움을 해친다는 낭만주의적 시각을 반박한다. 과학은 우주의 본질을 이해하게 함으로써 인간에게 더 큰 경이로움을 선사하며, 미신이나 초자연적 현상보다 질서 정연한 우주가 훨씬 아름답다고 주장한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "익숙함이라는 마취제",
+        "summary": "우리가 살아있다는 사실 자체가 천문학적 확률의 기적임을 강조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 논지",
+        "value": "과학적 이해는 세상의 신비를 없애는 것이 아니라 더 깊은 경이로움을 제공한다."
+      }
+    ],
+    "keyEntitiesText": "리처드 도킨스, 존 키츠, 아이작 뉴턴",
+    "settingText": "과학과 인문학의 통섭이 강조되는 현대."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1O18WTu8TYdS2SF-8nwmb5pQi33wqK7rX",
+    "filename": "리처드 도킨스-무지개를 풀며(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T22:01:40.000Z",
+    "size": "707360",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1O18WTu8TYdS2SF-8nwmb5pQi33wqK7rX/view?usp=drivesdk",
+    "sourceSha256": "0470cd5ee528f87cd76c97e832a90a550ebd73bab1655465fcd1941bb0e39c2f",
+    "textSha256": "bbe40b5a2dcb6875b72648d60be4b983cd616c30462e5d2825fdebf747c9f90c",
+    "changeKey": "5303e17621f8fd23c97cd963a343bab2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "83c50f25dbe3f0593509",
+    "workId": "83c50f25dbe3f0593509",
+    "driveFileId": "1O18WTu8TYdS2SF-8nwmb5pQi33wqK7rX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:29:33.431772+00:00",
+    "updatedAt": "2026-09-21T18:29:33.431814+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:29:33.431910+00:00"
+    }
+  }
+}

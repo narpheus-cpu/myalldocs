@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지상 최대의 쇼",
+    "author": "리처드 도킨스",
+    "genre": "과학",
+    "tags": [
+      "진화론",
+      "증거",
+      "자연선택"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "옥스퍼드 대학교 석좌교수이자 세계적인 과학 저술가.",
+    "oneLineSummary": "진화가 단순한 이론이 아니라 명백한 사실임을 보여주는 방대한 증거들을 제시하는 책.",
+    "overallSummary": "진화론을 부정하는 사람들에게 진화가 사실임을 입증하기 위해 고생물학, 분자생물학 등 다양한 분야의 증거를 제시한다. 진화는 자연선택에 의한 경이로운 과정임을 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그저 하나의 이론?",
+        "summary": "과학적 이론과 사실의 차이를 설명하며 진화론의 위상을 정립한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 논지",
+        "value": "진화는 이론이 아니라 명백한 사실이다."
+      }
+    ],
+    "keyEntitiesText": "리처드 도킨스, 찰스 다윈",
+    "settingText": "진화론에 대한 대중적 이해가 부족한 현대 사회."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vhKjPErUhSMPnVvXIjV_8283lGl46Ntr",
+    "filename": "리처드 도킨스-지상 최대의 쇼(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T22:06:26.000Z",
+    "size": "1099474",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1vhKjPErUhSMPnVvXIjV_8283lGl46Ntr/view?usp=drivesdk",
+    "sourceSha256": "844cdbcaaddf71bb0bb5e630f44c6a68b776a5f4041004fd8937aea15c1443b0",
+    "textSha256": "9ee342d92bb5e0c8060bd5bfb6c4798adc8bc3cf974ca5c07663261529400f33",
+    "changeKey": "6edad4b230ddd1dff543b2f913a1b18a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "950c403c5c5e96298930",
+    "workId": "950c403c5c5e96298930",
+    "driveFileId": "1vhKjPErUhSMPnVvXIjV_8283lGl46Ntr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:29:50.079015+00:00",
+    "updatedAt": "2026-09-21T18:29:50.079031+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:29:50.079131+00:00"
+    }
+  }
+}

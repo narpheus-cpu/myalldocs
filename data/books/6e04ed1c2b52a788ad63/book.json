@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "칼 세이건의 코스모스 쉽게 읽기",
+    "author": "마이클 피펜",
+    "genre": "과학",
+    "tags": [
+      "우주",
+      "코스모스",
+      "칼 세이건"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학 저술가.",
+    "oneLineSummary": "칼 세이건의 명저 '코스모스'를 쉽게 풀이하여 우주와 인간의 관계를 탐구하는 책.",
+    "overallSummary": "우주의 광대함과 그 속에서 인간의 위치, 생명과 우주의 상호작용 등을 칼 세이건의 관점에서 쉽게 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "코스모스와의 조우",
+        "summary": "우주의 광대함과 인간의 탐구 정신을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 논지",
+        "value": "인간은 우주의 일부이며 우주를 이해함으로써 존재의 의미를 찾는다."
+      }
+    ],
+    "keyEntitiesText": "칼 세이건, 마이클 피펜",
+    "settingText": "우주론의 대중적 이해."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oFJRg9xsuP5zHaw2Jh0orZywpLSkXNDS",
+    "filename": "마이클 피펜-칼 세이건의 코스모스 쉽게 읽기(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:28:20.000Z",
+    "size": "171777",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1oFJRg9xsuP5zHaw2Jh0orZywpLSkXNDS/view?usp=drivesdk",
+    "sourceSha256": "920633a9fffeee1201af1072b125b4a3d0050db8bbeed0ba330e4cbb887feea4",
+    "textSha256": "5681f11f68956cd29dbf2fcb2f7b0c122dc1d278751d61732b3f9fb57f8255bd",
+    "changeKey": "9f30af2d9cb3e67e71ea0b01cb8f026d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6e04ed1c2b52a788ad63",
+    "workId": "6e04ed1c2b52a788ad63",
+    "driveFileId": "1oFJRg9xsuP5zHaw2Jh0orZywpLSkXNDS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:30:21.423238+00:00",
+    "updatedAt": "2026-09-21T18:30:21.423253+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:30:21.423376+00:00"
+    }
+  }
+}

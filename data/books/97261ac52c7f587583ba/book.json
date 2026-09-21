@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "리처드 도킨스의 진화론 강의",
+    "author": "리처드 도킨스",
+    "genre": "과학",
+    "tags": [
+      "진화론",
+      "자연선택",
+      "생명의 신비"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "옥스퍼드 대학교 석좌교수이자 과학 저술가.",
+    "oneLineSummary": "생명체의 복잡한 구조가 어떻게 진화했는지를 합리적 추론으로 밝혀내는 진화론 해설서.",
+    "overallSummary": "생명체가 설계된 것처럼 보이는 이유를 돌연변이와 자연선택으로 설명한다. 눈, 날개 등 복잡한 기관의 진화 과정을 단계별로 추적하며 생명의 신비를 걷어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "생명체가 설계되었다는 환상은 어디에서 왔을까?",
+        "summary": "설계된 것처럼 보이는 생명체의 기원을 자연선택으로 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 논지",
+        "value": "복잡한 생명체는 자연선택의 결과물이다."
+      }
+    ],
+    "keyEntitiesText": "리처드 도킨스",
+    "settingText": "현대 진화생물학."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1It-9rtYMGB8PnNa1OSvvkBkgqhf3Bu9o",
+    "filename": "리처드 도킨스의 진화론 강의(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T05:08:38.000Z",
+    "size": "758621",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1It-9rtYMGB8PnNa1OSvvkBkgqhf3Bu9o/view?usp=drivesdk",
+    "sourceSha256": "5787be4c300e77793682759806e94f23046d8e3ff076eb3b2d05d5ec7c811e44",
+    "textSha256": "f2f37fa640bb38ac8d56f59b918bd0c786b49bb1fce644f07da8279094360813",
+    "changeKey": "88d861afefab99123abe9108afae1985",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "97261ac52c7f587583ba",
+    "workId": "97261ac52c7f587583ba",
+    "driveFileId": "1It-9rtYMGB8PnNa1OSvvkBkgqhf3Bu9o",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:29:56.948687+00:00",
+    "updatedAt": "2026-09-21T18:29:56.948702+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:29:56.948850+00:00"
+    }
+  }
+}

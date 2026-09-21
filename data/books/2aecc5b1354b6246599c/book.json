@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "말로 물을 끓인 사람",
+    "author": "김학수",
+    "genre": "과학사",
+    "tags": [
+      "열역학",
+      "과학사",
+      "과학자"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학 저술가.",
+    "oneLineSummary": "프랑스 혁명 전후의 과학자들의 삶과 열역학의 발전을 다룬 과학사 책.",
+    "overallSummary": "열과 관련된 과학적 발견을 이룬 과학자들의 삶과 그들의 업적을 소설처럼 풀어낸다. 라부아지에, 카루노 등 과학자들의 이야기를 통해 열역학의 역사를 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "열과 사람들",
+        "summary": "열과 관련된 과학자들의 삶과 업적을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 논지",
+        "value": "과학은 과학자들의 삶과 시대적 배경 속에서 발전한다."
+      }
+    ],
+    "keyEntitiesText": "라부아지에, 카루노",
+    "settingText": "프랑스 혁명 전후의 과학계."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1N3fbevMolpENTnwFrEqu4A4pWIWGFSLU",
+    "filename": "말로 물을 끓인 사람.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.265Z",
+    "size": "770165",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1N3fbevMolpENTnwFrEqu4A4pWIWGFSLU/view?usp=drivesdk",
+    "sourceSha256": "fec83f3085eba37d41b5c4239c81a8bfa12b89e446c4f9756b42fc837b06ee88",
+    "textSha256": "b983c8a36d0b25c81b1a35db9bd2a57aad9e1b4e5504a749088e4fea016842b8",
+    "changeKey": "8ea2581c287a5ec6f33dabc6a0eae3bd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2aecc5b1354b6246599c",
+    "workId": "2aecc5b1354b6246599c",
+    "driveFileId": "1N3fbevMolpENTnwFrEqu4A4pWIWGFSLU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:30:39.278213+00:00",
+    "updatedAt": "2026-09-21T18:30:39.278229+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:30:39.278335+00:00"
+    }
+  }
+}
