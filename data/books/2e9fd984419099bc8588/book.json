@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "풍운천하",
+    "author": "금강",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "마교",
+      "신주팔대마존",
+      "금강"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자는 금강이다.",
+    "oneLineSummary": "사라졌던 마교와 신주팔대마존이 기련산에서 다시 모이며 벌어지는 가공할 음모.",
+    "overallSummary": "어느 날 홀연히 사라졌던 마교와 백 년 전 자취를 감추었던 신주팔대마존이 기련산의 천마지비를 찾아 모여들고, 이들을 한데 모은 거대한 음모와 대폭발이 일어난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 I~IV",
+        "summary": "마교의 잠적과 정사양대지비, 그리고 신주팔대마존이 기련산에 모여드는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체특징",
+        "value": "과장과 신괴적 성향을 띤 혁신적 무협"
+      }
+    ],
+    "keyEntitiesText": "독심환영마후 신도효, 천마요희 희령봉, 지옥흑마왕, 천마존, 절대독조 종리후, 만수마군 곽동양",
+    "settingText": "청해성과 감숙성의 경계에 위치한 기련산 응수계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Es9ttO-97aFsH9vOE4fZ2OYZt9tgXUkc",
+    "filename": "풍운천하(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.580Z",
+    "size": "831004",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1Es9ttO-97aFsH9vOE4fZ2OYZt9tgXUkc/view?usp=drivesdk",
+    "sourceSha256": "a3edfe6ab0fe5447245989e2c0380db9d7df3c3b170e56642c0497985a8bb8b3",
+    "textSha256": "c3b1dd9cc1e9fea12cb99acf689b3b8b4f2ace01e5cc76c3d5c8b470540eb6a8",
+    "changeKey": "0be2ab08bef2352af6c8a0843e06337f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e9fd984419099bc8588",
+    "workId": "2e9fd984419099bc8588",
+    "driveFileId": "1Es9ttO-97aFsH9vOE4fZ2OYZt9tgXUkc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:59:50.902168+00:00",
+    "updatedAt": "2026-09-21T13:59:50.902183+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:59:50.902273+00:00"
+    }
+  }
+}

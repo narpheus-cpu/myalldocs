@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "악인지로",
+    "author": "하성민",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "악인",
+      "장두이",
+      "하성민"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자는 하성민이며, 용대운의 지도 아래 집필되었다.",
+    "oneLineSummary": "거짓말을 잘하고 잔꾀가 많은 희대의 악인 장두이의 기막힌 이야기.",
+    "overallSummary": "스스로 악인이라 여기는 주인공 장두이가 옥표국을 떠나 강호에서 겪는 배신과 음모, 그리고 살아남기 위한 여정을 1인칭 시점으로 그려낸 무협 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 및 제1장",
+        "summary": "금창의 옥표국을 떠나는 장두이와 종운설의 과거 인연 및 오빠 종대호와의 관계."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시점",
+        "value": "1인칭 주인공 시점"
+      }
+    ],
+    "keyEntitiesText": "장두이(언무쌍), 설해, 종운설, 종대호",
+    "settingText": "감숙성 금창, 옥표국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ScXQTNkOHzMN6ejGFLVHhN2Z4_pMbAG_",
+    "filename": "하성민-악인지로(惡人之路).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.600Z",
+    "size": "1866538",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1ScXQTNkOHzMN6ejGFLVHhN2Z4_pMbAG_/view?usp=drivesdk",
+    "sourceSha256": "2b287f2dfa5ce106373f2d362474fb850d299610426dfcc803f8e9eed272501d",
+    "textSha256": "79c664b3c070e3ef5c4762e9537daefad7ede90b623885a19d9b9dfd1775328f",
+    "changeKey": "2b13927307e9cbc30afde24a43a9502d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "96e0662f2fc7f5337d0c",
+    "workId": "96e0662f2fc7f5337d0c",
+    "driveFileId": "1ScXQTNkOHzMN6ejGFLVHhN2Z4_pMbAG_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:59:56.683946+00:00",
+    "updatedAt": "2026-09-21T13:59:56.683962+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:59:56.684058+00:00"
+    }
+  }
+}

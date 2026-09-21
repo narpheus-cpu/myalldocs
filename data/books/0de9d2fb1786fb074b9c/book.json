@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "혈존무적",
+    "author": "김하준",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "혈존",
+      "혈천마궁",
+      "천무삼성"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자는 김하준이다.",
+    "oneLineSummary": "고금제일마인 혈존이 제자와 백도의 배신으로 죽음을 맞이하는 꿈과 그 내력.",
+    "overallSummary": "혈천마궁의 궁주이자 고금제일마인 혈존이 백도의 천무삼성과 대결을 벌이고, 제자의 배신으로 심장을 뽑히며 죽음을 맞이하는 반복되는 생생한 꿈의 기억을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "혈존 탄생(1~2)",
+        "summary": "천무삼성과 대결하는 혈존의 과거 기억, 쌍영마공의 비밀, 그리고 제자의 배신으로 심장이 뽑히는 최후."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사방식",
+        "value": "꿈을 통한 전생의 기억 회상"
+      }
+    ],
+    "keyEntitiesText": "혈존, 혜경성승, 현무도선, 무적장왕 모용도기, 첫째 제자",
+    "settingText": "태산"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eoKlPJUf4pT9VfMohcaJLhyxupCL33VH",
+    "filename": "혈존무적(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.776Z",
+    "size": "2245281",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1eoKlPJUf4pT9VfMohcaJLhyxupCL33VH/view?usp=drivesdk",
+    "sourceSha256": "d3910f6cd0ba9d1da4907240fcacc69dd130255f76409060f326f8bd779925a4",
+    "textSha256": "f66fb183fd3e75b82fdc23c64b0be06f14bf3f5c2e3aa230252a64fd5ae12c73",
+    "changeKey": "34aad642e03606385b03f09fc3a67053",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0de9d2fb1786fb074b9c",
+    "workId": "0de9d2fb1786fb074b9c",
+    "driveFileId": "1eoKlPJUf4pT9VfMohcaJLhyxupCL33VH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:00:31.710941+00:00",
+    "updatedAt": "2026-09-21T14:00:31.710959+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:00:31.711061+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "혼행기",
+    "author": "미상",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "차력",
+      "사마송",
+      "장백산"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "차력과 합기, 그리고 기묘한 무공의 세계를 다룬 연재 무협 소설.",
+    "overallSummary": "무술의 요체인 차력과 합기를 바탕으로, 사마송의 차력서와 차음술 등 기운을 빌어 쓰는 비법과 장백산에서 만난 기연 등을 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서(序) 및 제1장",
+        "summary": "차력과 합기의 개념 설명, 들이닥친 화마 속에서 피난하는 소녀, 그리고 장백산 폭설 속에서 엄황이 기인들을 만나는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요소재",
+        "value": "차력, 무공 비법"
+      }
+    ],
+    "keyEntitiesText": "사마송, 사마진웅, 엄황, 하지량",
+    "settingText": "장백산"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1S21hVWYVaRj5vjcDyhGkaOcOkWYHnNk7",
+    "filename": "혼행기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.818Z",
+    "size": "1213547",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1S21hVWYVaRj5vjcDyhGkaOcOkWYHnNk7/view?usp=drivesdk",
+    "sourceSha256": "c853b890c8c96e1cbc2d981adadfbb5dfe4edf48599702a66c1c3a360920602b",
+    "textSha256": "b0bfd70fd55f3a7acac3afa30185f0c3a5c7c88328f1e4ea6880b0b3d20e64e3",
+    "changeKey": "9ffef87ef3810afea3985e869a570980",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0e5f2615297cdd9ccb87",
+    "workId": "0e5f2615297cdd9ccb87",
+    "driveFileId": "1S21hVWYVaRj5vjcDyhGkaOcOkWYHnNk7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:00:38.618383+00:00",
+    "updatedAt": "2026-09-21T14:00:38.618399+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:00:38.618553+00:00"
+    }
+  }
+}

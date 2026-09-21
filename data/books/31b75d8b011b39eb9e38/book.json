@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아라비안나이트",
+    "author": "미상",
+    "genre": "academic",
+    "tags": [
+      "아라비안나이트",
+      "바그다드",
+      "단편",
+      "고전소설"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "고전",
+        "단편소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "바그다드를 배경으로 펼쳐지는 지혜와 재치에 관한 아라비안 나이트 풍의 이야기들.",
+    "overallSummary": "바그다드의 젊은 향료장상 무사크가 재판관의 영리한 딸에게 유혹당해 원숭이와 결혼할 뻔한 사연과, 대신이 늙어 들인 두 명의 첩을 젊은 아들이 농락한 유쾌하고 해트한 이야기들을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "원숭이 신부와의 첫날밤",
+        "summary": "향료장수 무사크가 재판관의 딸인 영리한 처녀에게 속아 원숭이와 결혼식을 올릴 뻔하다가 재치를 발휘해 재산을 지켜낸 이야기."
+      },
+      {
+        "sectionTitle": "아버지의 첩들을 농락한 젊은 아들",
+        "summary": "나이든 대신이 두 명의 아내를 들였으나 영리한 젊은 아들이 아버지의 여행용 신발 핑계를 대어 두 처와 모두 잠자리를 함께 한 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "액자식 구성의 민담 및 우화"
+      }
+    ],
+    "keyEntitiesText": "무사크, 알 마문, 판관장, 대신, 젊은 아들",
+    "settingText": "바그다드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_3g07EFPen83O8hmXhA05ryEK9x7b3qu",
+    "filename": "리처드 버턴-아라비안나이트(범우사)(1-10권)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T10:46:28.000Z",
+    "size": "9122651",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1_3g07EFPen83O8hmXhA05ryEK9x7b3qu/view?usp=drivesdk",
+    "sourceSha256": "50f261439cded08cc452d01952e6f46914634f1a65ef0746f601e56f6e3e131d",
+    "textSha256": "962e0b8aa9d8203657dbd30ecfe26b49f7831f6c2f522d9c3a4127041b4f19c8",
+    "changeKey": "d523e37c531d6830e9bec2a1ef55a748",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "31b75d8b011b39eb9e38",
+    "workId": "31b75d8b011b39eb9e38",
+    "driveFileId": "1_3g07EFPen83O8hmXhA05ryEK9x7b3qu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:02:27.579440+00:00",
+    "updatedAt": "2026-09-21T14:02:27.579456+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-21T14:02:27.579607+00:00"
+    }
+  }
+}

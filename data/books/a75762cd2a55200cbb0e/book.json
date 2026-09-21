@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모음02",
+    "author": "미상",
+    "genre": "fiction",
+    "tags": [
+      "성인",
+      "단편",
+      "웹소설",
+      "직장인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인",
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "이글스사 입사 신입사원 다미와 사장 제임스 장, 그리고 친구 재범을 둘러싼 애욕의 현대 소설.",
+    "overallSummary": "빼어난 미모의 신입사원 백다미가 이글스사에 입사하면서 사장 제임스 장의 은밀한 감시와 관찰 대상이 되고, 애인 현수와 친구 재범 사이에서 미묘한 애정과 질투의 감정이 얽혀든다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1부 및 애욕",
+        "summary": "신입사원 영주와 다미의 입사 미팅, 탈의실 몰래카메라를 지켜보는 제임스 장, 그리고 다미의 남자친구 현수와 재범 사이의 갈등."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요소재",
+        "value": "직장 내 감시, 삼각관계, 성인 로맨스"
+      }
+    ],
+    "keyEntitiesText": "제임스 장, 백다미, 박민우, 이영주, 재범, 현수",
+    "settingText": "이글스사 사무실, 나이트클럽, 오피스텔"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YOqSgiRETumXRLls4VKWY1imunu5gH7C",
+    "filename": "[sora]모음02.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:12.240Z",
+    "size": "2045211",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1YOqSgiRETumXRLls4VKWY1imunu5gH7C/view?usp=drivesdk",
+    "sourceSha256": "ef70c8e7de9ec88a3e5d4cfea80d2833f7a31bfc18868993b195e27d4fa8182f",
+    "textSha256": "32eb13652c5183a74d790d84a6a2d465fa1de097183f1fc624d399e192e76193",
+    "changeKey": "dc87ef3e2cf188259084145e05a6c9fb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a75762cd2a55200cbb0e",
+    "workId": "a75762cd2a55200cbb0e",
+    "driveFileId": "1YOqSgiRETumXRLls4VKWY1imunu5gH7C",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:02:41.582986+00:00",
+    "updatedAt": "2026-09-21T14:02:41.583003+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-21T14:02:41.583108+00:00"
+    }
+  }
+}

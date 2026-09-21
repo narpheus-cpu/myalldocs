@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "풍운대전기",
+    "author": "미상",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "모조",
+      "사기",
+      "악양"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "만품예헌의 모조의 천재 아삼과 구두쇠 주인 금곽을 둘러싼 이야기.",
+    "overallSummary": "악양의 골동품상 만품예헌에서 모조품을 능숙하게 만들어내는 소년 아삼과 구두쇠 주인 금곽의 이야기로 시작되며, 불우한 환경에서 자란 아삼이 공상과 영악한 계교를 통해 삶을 헤쳐나가는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 서장",
+        "summary": "구마혈전의 전설과 암흑계의 십악에 대한 서사."
+      },
+      {
+        "sectionTitle": "제 일장",
+        "summary": "악양의 골동품상 만품예헌의 구두쇠 주인 금곽과 모조의 천재 아삼의 만남과 사건."
+      },
+      {
+        "sectionTitle": "제 이장",
+        "summary": "아삼의 공상과 점원 오송과의 만남, 그리고 도자기 복제에 관한 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요소재",
+        "value": "골동품 모조, 사기, 무협"
+      }
+    ],
+    "keyEntitiesText": "금곽, 아삼, 오송, 진노인",
+    "settingText": "중원 오대호 동정호가 가의 고도 악양, 만품예헌"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19SKhiAC52Cuk-lM6egOaDpCrjvGMFcLj",
+    "filename": "풍운대전기(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.536Z",
+    "size": "889279",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/19SKhiAC52Cuk-lM6egOaDpCrjvGMFcLj/view?usp=drivesdk",
+    "sourceSha256": "1a3ea03866ddd70d2bcdb503fda20b520e0fac2e5d221534f16f00e5011b991d",
+    "textSha256": "054da11e6efeed41ea6f45c5cc8ec332f722625b4027b7bf200d1fc5955034b8",
+    "changeKey": "f8d56017696944ad7009c1970c16b5a8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3e4ce4bdea092c242d8b",
+    "workId": "3e4ce4bdea092c242d8b",
+    "driveFileId": "19SKhiAC52Cuk-lM6egOaDpCrjvGMFcLj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:59:37.171741+00:00",
+    "updatedAt": "2026-09-21T13:59:37.171759+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:59:37.171968+00:00"
+    }
+  }
+}

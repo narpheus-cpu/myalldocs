@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하오대문",
+    "author": "미상",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "하오밀문",
+      "동창제독",
+      "살인루"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "동창제독 암살을 둘러싼 살인루와 하오밀문, 그리고 와선곡의 혈투.",
+    "overallSummary": "동창제독 암살을 모의하는 과정에서 살인루가 동원되고, 남천악과 와선곡에서 가문의 무공을 숨긴 정예들과 동창제독 사이의 치열한 음모와 싸움이 벌어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문 내용",
+        "summary": "살인루와 태웅의 계략, 당가려의 암기 실력, 그리고 와선곡에서 동창제독을 노린 네 가문 자식들의 비극적인 결말."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요소재",
+        "value": "암살, 독, 무공의 대결"
+      }
+    ],
+    "keyEntitiesText": "태웅, 야혼, 당가려, 귀살, 남궁성, 악운보, 고명지",
+    "settingText": "와선곡, 계곡"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PAj4PyuOGadxTezvJe28lzYc6rX_H4To",
+    "filename": "하오대문 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.652Z",
+    "size": "221507",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1PAj4PyuOGadxTezvJe28lzYc6rX_H4To/view?usp=drivesdk",
+    "sourceSha256": "0bd4e5810d05883135824e3c88af764af2fc0f3e89c66fbb0a5879a182b70950",
+    "textSha256": "f8cd4b3593062c7a718412898fbf962d0c5cedebe5ddd16263617f253851b688",
+    "changeKey": "17cc05c5c1244d2562ab8de8e8ce4d88",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e5a0f08cd6e2a0b49398",
+    "workId": "e5a0f08cd6e2a0b49398",
+    "driveFileId": "1PAj4PyuOGadxTezvJe28lzYc6rX_H4To",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:00:03.765006+00:00",
+    "updatedAt": "2026-09-21T14:00:03.765024+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:00:03.765127+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "해천풍운월",
+    "author": "금강",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "바다",
+      "해왕지해",
+      "금강"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자는 금강이다.",
+    "oneLineSummary": "바다의 정기를 받고 태어난 소년의 일대기를 그린 환상적 무협 소설.",
+    "overallSummary": "폭풍우 치는 악마지해 속에서 태어난 소년이 신비로운 섬에서 이수들과 자라나고, 해중제일귀의 신분인 취벽공주 연하영이 그곳에 표류해 오며 벌어지는 신비로운 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 및 제1장",
+        "summary": "거대한 폭풍우와 난파선 속에서 아이의 탄생, 그리고 신비로운 섬에서 성장한 소년과 표류해 온 연하영의 만남."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "성향",
+        "value": "신괴적 성향과 문장의 아름다움 추구"
+      }
+    ],
+    "keyEntitiesText": "등랑, 소백, 연하영(취벽공주)",
+    "settingText": "해왕지해, 신비의 섬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Emw2w_x0Rxn1hZBNQQkyHWDRGFcJttJL",
+    "filename": "해천풍운월(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.673Z",
+    "size": "906230",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1Emw2w_x0Rxn1hZBNQQkyHWDRGFcJttJL/view?usp=drivesdk",
+    "sourceSha256": "7dfda15d265da9c41e445053c36236750b7c5f69d852c21120d8fb8666e4eba0",
+    "textSha256": "807a5e870a6c227139035e995dbf933e1aafdd36927f49a24b7d561a9b0fddc2",
+    "changeKey": "e49582ff1fc792545cc1db77a5b22dc9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f40eaf4da3a06cb80ab9",
+    "workId": "f40eaf4da3a06cb80ab9",
+    "driveFileId": "1Emw2w_x0Rxn1hZBNQQkyHWDRGFcJttJL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:00:11.174985+00:00",
+    "updatedAt": "2026-09-21T14:00:11.175001+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:00:11.175096+00:00"
+    }
+  }
+}

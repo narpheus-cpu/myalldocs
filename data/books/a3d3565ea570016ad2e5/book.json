@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "황제의 검",
+    "author": "임삼열",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "건문제",
+      "태산",
+      "임삼열"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자는 임삼열이다.",
+    "oneLineSummary": "숙부 영락제에게 왕위를 빼앗긴 건문제가 태산에서 기인들을 만나 천마로 재탄생하는 이야기.",
+    "overallSummary": "연왕 주태(영락제)와의 전쟁에서 패한 건문제 윤문이 태산 비하봉의 망죽애에 숨어살던 선황의 비밀호위 환노와 의노를 찾아가고, 그들의 대법과 수술을 통해 전설의 천마로 새롭게 태어나는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~2장",
+        "summary": "건문제 윤문의 도망과 태산 도달, 환노와 의노와의 만남, 그리고 윤문의 용모와 기억, 체질을 바꾸어 천마로 화신시키는 대수술."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 배경",
+        "value": "명나라 정난의 변(건문제와 영락제)"
+      }
+    ],
+    "keyEntitiesText": "건문제 윤문, 주원장, 영락제 주태, 환노, 의노",
+    "settingText": "남경, 태산 비하봉, 동굴 석실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18qLaNK0-So288lhyLMR3fkOqbAqV7bPb",
+    "filename": "황제의 검.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:12.046Z",
+    "size": "5988563",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/18qLaNK0-So288lhyLMR3fkOqbAqV7bPb/view?usp=drivesdk",
+    "sourceSha256": "1414852ffe7fb93332b0a0ecb590277d93b24675d05cf37fa0a5703bd541b339",
+    "textSha256": "8fd2080a0caa4d84a8bba1106c5f813a3203f25623e38f08ac0f4cafdf027447",
+    "changeKey": "f93e16bcc8e9c5620d0cab9368e0a8f6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a3d3565ea570016ad2e5",
+    "workId": "a3d3565ea570016ad2e5",
+    "driveFileId": "18qLaNK0-So288lhyLMR3fkOqbAqV7bPb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:01:59.384194+00:00",
+    "updatedAt": "2026-09-21T14:01:59.384209+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:01:59.384297+00:00"
+    }
+  }
+}

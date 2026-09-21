@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모음01",
+    "author": "미상",
+    "genre": "fiction",
+    "tags": [
+      "성인",
+      "단편",
+      "웹소설",
+      "현대"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인",
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "대학교수 수아가 배란기의 욕구와 지하철 성추행 경험으로 인해 갈등하는 현대 소설.",
+    "overallSummary": "대학교수 수아는 남편과의 섹스리스 결혼 생활과 배란기의 성적 욕구 속에서 괴로워하다가, 출근길 지하철에서 겪은 대담한 성추행 사건으로 인해 억눌려 있던 본능적 쾌락과 분노를 동시에 느끼게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "상편",
+        "summary": "강의실 창가에서 사내의 시선을 느낀 수아의 과거 유학 시절 기억, 남편과의 섹스리스 결혼 생활, 그리고 출근길 지하철에서 겪은 지하철 성추행 사건."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요소재",
+        "value": "배란기, 성적 욕망, 지하철 성추행"
+      }
+    ],
+    "keyEntitiesText": "수아, 김동혁, 박 조교, 남편",
+    "settingText": "대학교 연구실, 지하철"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10K54ang_OF8aG_eh5ATQZQh9DnY1-kWm",
+    "filename": "[sora]모음01.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:12.226Z",
+    "size": "518715",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/10K54ang_OF8aG_eh5ATQZQh9DnY1-kWm/view?usp=drivesdk",
+    "sourceSha256": "033412c471b5d6a195ca8b92f08661415e2974d2ae089aefe22c65ac92b65b2b",
+    "textSha256": "e680801d9e0914fc9891bcb4170c29b98c1269345e91766bcc6a0c7ae907a0ac",
+    "changeKey": "af7d17694aaa0aa6f4051a26c23df5c5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "daa098d6573f31acf0f6",
+    "workId": "daa098d6573f31acf0f6",
+    "driveFileId": "10K54ang_OF8aG_eh5ATQZQh9DnY1-kWm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:02:34.995470+00:00",
+    "updatedAt": "2026-09-21T14:02:34.995532+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-21T14:02:34.995643+00:00"
+    }
+  }
+}
