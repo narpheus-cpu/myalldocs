@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "탤컴하우스",
+    "author": "무라카미 하루키",
+    "genre": "초단편 소설",
+    "tags": [
+      "탤컴파우더",
+      "동질감",
+      "신체",
+      "비유"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "flash_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "세상에 자신과 탤컴파우더만 남겨진 듯한 기묘한 동질감을 느끼는 화자의 독백.",
+    "overallSummary": "어쩌다 화자는 세상에 남겨진 것이 자신과 탤컴파우더뿐이라는 기분이 들 때가 있다. 물론 마음이 통하는 것은 아니지만, 똑같은 여자와 자봤다거나, 똑같은 성병을 옮았다거나, 페니스 사이즈가 완전히 똑같다거나, 세무서 환급금이 같다거나 하는 소의 고통 체험을 통한 제2의 천성 같은 뭔가가 존재한다. 헤어브러시나 치약에서는 전혀 느끼지 못하는 이 기묘한 친밀감은 오직 탤컴파우더뿐이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "탤컴파우더와 자신 사이에 존재하는 기이하고 유머러스한 공감대와 동질감에 대한 고찰."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품의 특징",
+        "value": "사소하고 엉뚱한 사물(탤컴파우더)에 자신을 투사하여 독특한 유머를 자아내는 초단편."
+      }
+    ],
+    "keyEntitiesText": "화자, 탤컴파우더",
+    "settingText": "일상적 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XtrVDxftuZ6iCSuz6XpvJL7u4uw3UG92",
+    "filename": "탤컴하우스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.077Z",
+    "size": "830",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1XtrVDxftuZ6iCSuz6XpvJL7u4uw3UG92/view?usp=drivesdk",
+    "sourceSha256": "8cece1eb5ca710a79a214fc2a3c861bc211305d97418988692e63a5ca5784567",
+    "textSha256": "91e4427158ae380a4199329487abc93f23214b78b2adf76488a876ba1ae89d42",
+    "changeKey": "962d10dd08974089d6bc809a608e8adb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6ad3911b606c861ca605",
+    "workId": "6ad3911b606c861ca605",
+    "driveFileId": "1XtrVDxftuZ6iCSuz6XpvJL7u4uw3UG92",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:30:44.111138+00:00",
+    "updatedAt": "2026-09-21T19:30:44.111150+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:30:44.111240+00:00"
+    }
+  }
+}

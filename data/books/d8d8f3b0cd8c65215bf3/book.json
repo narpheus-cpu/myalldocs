@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "좀비",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "꿈",
+      "묘지",
+      "결혼",
+      "공포"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "결혼을 앞둔 연인이 묘지 옆 길을 걷다 겪는 섬뜩한 악몽과 불안을 그린 이야기.",
+    "overallSummary": "한밤중 안개가 낀 묘지 옆 길을 걸으며 남녀가 이야기를 나눈다. 남자는 갑자기 여자의 안짱걸음, 귓속의 점, 액취, 더러운 옷차림 등을 신랄하게 지적하며 모욕적인 말을 퍼붓는다. 여자가 화를 내며 이유를 묻자 남자는 자신은 그녀의 살을 먹기 위해 함께 있었다며 얼굴의 피부를 스스로 벗겨내어 좀비 같은 살덩이로 변해 그녀를 쫓는다. 공포에 질려 도망치던 여자가 비명을 지르며 깨어나 보니, 그것은 호수 근처 호텔 침대에서 꾼 악몽이었다. 하지만 불안한 여운이 남는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "묘지 옆을 걷다 남자의 잔인한 매도와 좀비로 변하는 모습을 겪은 후 악몽에서 깨어남."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 요소",
+        "value": "결혼을 앞둔 연인 사이에 내재된 무의식적인 불안과 상대방에 대한 가혹한 평가가 공포스러운 악몽으로 형상화됨."
+      }
+    ],
+    "keyEntitiesText": "여자, 남자",
+    "settingText": "한밤중의 묘지 옆 길, 호수 근처 호텔 침대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11dndjgZ1wvQBn92Q3MJQ1HwucoQHCHQT",
+    "filename": "좀비.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.934Z",
+    "size": "5995",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/11dndjgZ1wvQBn92Q3MJQ1HwucoQHCHQT/view?usp=drivesdk",
+    "sourceSha256": "072fda9374f37659884ce259f34ff23f852db7efca046aba28b26ce3ad55b566",
+    "textSha256": "51cb31981f792f24144bc26390abb131953bfedc97db2dc5ac727525a6a64c40",
+    "changeKey": "1cb9cc8929f6640ace32e5fa62ce5786",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d8d8f3b0cd8c65215bf3",
+    "workId": "d8d8f3b0cd8c65215bf3",
+    "driveFileId": "11dndjgZ1wvQBn92Q3MJQ1HwucoQHCHQT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:29:35.932719+00:00",
+    "updatedAt": "2026-09-21T19:29:35.932734+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:29:35.932842+00:00"
+    }
+  }
+}

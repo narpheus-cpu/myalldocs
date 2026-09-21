@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "택시탄 흡혈귀",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "택시",
+      "흡혈귀",
+      "빗길",
+      "대화"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "교통사고로 막힌 빗속의 택시 안에서 운전사와 흡혈귀의 존재에 대해 기묘한 대화를 나누는 이야기.",
+    "overallSummary": "나쁜 일이 겹친 날, 화자는 금연 3일째의 짜증을 안고 밀리는 택시 안에서 시간을 보낸다. 그때 택시 운전사가 갑자기 흡혈귀가 정말 있다고 생각하냐고 묻는다. 유령의 존재는 믿지만 흡혈귀는 믿지 않는다는 화자와의 철학적(?)인 티격태격 대화 끝에, 운전사는 자신이 바로 흡혈귀라고 고백한다. 밤중에 일할 수 있고 여러 사람을 만나며 기성의 개념에 사로잡히고 싶지 않아 택시 운전사가 되었다는 그는 진짜로 피를 빨고 싶다는 소망을 내비친다. 목적지에 도착해 헤어진 후, 화자는 여자친구에게 전화해 네리마 번호판의 검은 택시는 타지 말라고 경고한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "밀리는 택시 안에서 운전사와 흡혈귀의 실존 여부에 대해 대화를 나누다 운전사가 자신이 흡혈귀라고 고백하는 기이한 일화."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "일상의 공간(택시)에 불쑥 찾아오는 초현실적이고 기이한 존재를 통한 일상의 낯설게 하기."
+      }
+    ],
+    "keyEntitiesText": "화자, 택시 운전사(흡혈귀), 여자친구",
+    "settingText": "비 내리는 밤, 정체된 도로 위의 택시 안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NaYqjlfcQFP4crmPSilkmLTV_Xs8h3i2",
+    "filename": "택시 탄 흡혈귀.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.066Z",
+    "size": "7568",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1NaYqjlfcQFP4crmPSilkmLTV_Xs8h3i2/view?usp=drivesdk",
+    "sourceSha256": "eacbefee60eaa435cab240106fd7a1fd24d6f2eb681397753325189b572717d8",
+    "textSha256": "373122b0a8f259641d9c1de4ae5b2738e2bf90846218e756466088844f221a3c",
+    "changeKey": "c051b52fd35a52c8117f4aaec267d9f5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c6b9a28063bb6ad8602b",
+    "workId": "c6b9a28063bb6ad8602b",
+    "driveFileId": "1NaYqjlfcQFP4crmPSilkmLTV_Xs8h3i2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:30:37.100760+00:00",
+    "updatedAt": "2026-09-21T19:30:37.100777+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:30:37.100882+00:00"
+    }
+  }
+}

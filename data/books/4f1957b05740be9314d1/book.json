@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "치즈케이크 모양을 한 나의 가난",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "가난",
+      "삼각 지대",
+      "철로",
+      "신혼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "두 철로 사이에 끼인 기이한 삼각형 모양의 집에서 아내와 고양이와 함께 보냈던 극도의 가난하지만 소중했던 신혼 시절의 기억.",
+    "overallSummary": "1973년 혹은 1974년 무렵, 나와 그녀는 치즈케이크를 12등분한 모양처럼 끝이 뾰족하고 가느다란 삼각형 모양의 땅, 일명 '삼각 지대'에 있는 단독 주택에서 살았다. 국철과 민영 철도 두 선로 사이에 낀 그 집은 지나가는 열차 소음 때문에 엄청나게 시끄럽고 밤낮으로 화물열차가 지나갔지만, 집세가 싸서 기네스북에 오를 만큼 가난했던 우리 부부에게는 안성맞춤이었다. 스토브도 없이 서로를 껴안고 겨울을 견디고, 철도 파업으로 조용한 봄날을 즐겼던 그곳에서의 2년은 가난하지만 풋풋한 젊은 날의 소중한 기억으로 남는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "두 철로 사이에 위치한 삼각형 모양의 시끄럽고 싼 집에서 아내, 고양이와 함께 2년 동안 보낸 가난하지만 행복했던 신혼 시절을 회상함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "젊은 날의 극심한 가난 속에서도 빛나던 삶의 순수함과 공간에 얽힌 아련한 추억."
+      }
+    ],
+    "keyEntitiesText": "화자, 아내, 고양이, 대머리 복덕방 주인",
+    "settingText": "삼각 지대라 불리는 철로 사이의 단독 주택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SH9Kp4yRCLJwT8y0QDXd4VxoRKleCv6z",
+    "filename": "치즈케이크 모양을 한 나의 가난.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.986Z",
+    "size": "7115",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1SH9Kp4yRCLJwT8y0QDXd4VxoRKleCv6z/view?usp=drivesdk",
+    "sourceSha256": "a66cc1047029226e1f218dbd13de71a37d67e2032269af10f4507fce0bf4de6f",
+    "textSha256": "e02705e7c58807e318cbc1ed6567e36e24a58572780694e39b53fb8a2a827753",
+    "changeKey": "9460cbff78716b257dbb90c635032764",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4f1957b05740be9314d1",
+    "workId": "4f1957b05740be9314d1",
+    "driveFileId": "1SH9Kp4yRCLJwT8y0QDXd4VxoRKleCv6z",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:30:00.914956+00:00",
+    "updatedAt": "2026-09-21T19:30:00.914971+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:30:00.915077+00:00"
+    }
+  }
+}

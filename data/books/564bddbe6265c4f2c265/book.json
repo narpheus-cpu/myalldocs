@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "월간 강치 문예",
+    "author": "무라카미 하루키",
+    "genre": "초현실주의 소설",
+    "tags": [
+      "강치",
+      "바다",
+      "일상",
+      "마작"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "humor"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 현대 소설가.",
+    "oneLineSummary": "바다에서 인간처럼 살아가는 평범한 강치 가족의 일상을 그린 초현실적인 이야기.",
+    "overallSummary": "주인공은 바다에 사는 평범한 강치로, 아침에 일어나 헤엄을 치고 전갱이와 다시마를 채취하며 하루를 시작한다. 갈매기와 대화를 나누고, 낮잠을 자고 집으로 돌아와 아내와 아들의 일상을 마주한다. 아들의 성적표를 확인하고 저녁 식사 후에는 <<강치 문예>> 관계자와 마작을 하러 나가는 등, 인간과 다를 바 없는 강치의 평화롭고 소소한 일상을 유쾌하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "강치인 주인공의 아침 수영과 갈매기와의 만남, 낮잠과 가족과의 저녁 식사, 그리고 마작 모임으로 이어지는 일상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품의 분위기",
+        "value": "인간의 일상을 동물(강치)의 세계에 그대로 투사하여 기발한 유머와 친근함을 자아냄."
+      }
+    ],
+    "keyEntitiesText": "주인공 강치, 갈매기, 아내, 아들, 나카야마(월간 강치 문예 관계자)",
+    "settingText": "바다와 빙산이 있는 강치들의 거주지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12MfdIfQNVswlCwUFCmwAIym3m9UhiK8x",
+    "filename": "월간 강치 문예.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.872Z",
+    "size": "2041",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/12MfdIfQNVswlCwUFCmwAIym3m9UhiK8x/view?usp=drivesdk",
+    "sourceSha256": "46d5420f7f96a6e033df508b268c763663695d66a0b66255e995b606114295a1",
+    "textSha256": "25d30ed2ee0314e49d76c8a6fae8f7fb4ec8453aa2811e5f341baceee71cf6f7",
+    "changeKey": "cf4b3da541ff908f563498eb3c7aaab1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "564bddbe6265c4f2c265",
+    "workId": "564bddbe6265c4f2c265",
+    "driveFileId": "12MfdIfQNVswlCwUFCmwAIym3m9UhiK8x",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:29:03.676328+00:00",
+    "updatedAt": "2026-09-21T19:29:03.676345+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:29:03.676507+00:00"
+    }
+  }
+}

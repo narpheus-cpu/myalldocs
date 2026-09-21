@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "침묵",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "복싱",
+      "고독",
+      "학교",
+      "증오"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "공항에서 비행기를 기다리며 복싱 경력을 가진 온화한 인물 오사와 씨가 털어놓는 중고등학생 시절의 어두운 폭력과 증오의 기억.",
+    "overallSummary": "니가타행 비행기를 기다리는 공항 레스토랑에서, 화자는 평소 온화한 오사와 씨에게 왜 복싱을 오래 했는지, 사람을 때려본 적이 있는지 묻는다. 오사와 씨는 침묵 끝에 중학교 2학년 때 영어 시험 1등을 한 자신에게 커닝 소문을 퍼뜨린 교내 인기인이자 머리가 좋지만 천박한 아오키라는 아이를 주먹으로 때렸던 일화를 털어놓는다. 복싱을 통해 내면의 고독과 깊이를 배웠던 그는 아오키를 때린 것을 후회하면서도 그를 여전히 혐오했다. 고등학교 진학 후에도 아오키와의 앙금은 이어졌고, 한 학생의 자살 사건 이후 반 분위기가 묘하게 돌아가는 속에서 그가 겪었던 불안과 공포의 기억이 이어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "공항에서 오사와 씨가 화자에게 중학생 시절 복싱을 시작하게 된 계기와, 앙심을 품었던 급우 아오키를 때렸던 과거의 사건을 고백함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "인간 내면의 깊은 고독, 그리고 이유 없는 악의와 폭력이 남기는 지울 수 없는 상처."
+      }
+    ],
+    "keyEntitiesText": "화자, 오사와 씨, 아오키, 마쓰모토",
+    "settingText": "공항 레스토랑, 과거의 중고등학교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1foa8d1QBVBzllvg_gzZNddaoZZYrKnRy",
+    "filename": "침묵.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.995Z",
+    "size": "36854",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1foa8d1QBVBzllvg_gzZNddaoZZYrKnRy/view?usp=drivesdk",
+    "sourceSha256": "401550b59aa7450ffc29e89293c6dadc819cbfe2b85eef9cc5d0e41950f4c565",
+    "textSha256": "6813d49873772905bcfe9af4883db189a1ef8ab7a901b609780a027885718600",
+    "changeKey": "4fbd013a0ccacd1306a274449d9f9f05",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4fb3e7a1fdde418056ca",
+    "workId": "4fb3e7a1fdde418056ca",
+    "driveFileId": "1foa8d1QBVBzllvg_gzZNddaoZZYrKnRy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:30:07.120147+00:00",
+    "updatedAt": "2026-09-21T19:30:07.120162+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:30:07.120269+00:00"
+    }
+  }
+}

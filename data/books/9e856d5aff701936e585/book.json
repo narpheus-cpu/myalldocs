@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "퀴즈쇼",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "퀴즈쇼",
+      "왕",
+      "부조리",
+      "상품"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "부조리하고 강압적인 퀴즈쇼에 참가해 엉뚱한 정답을 맞추고 예상치 못한 상품을 받게 되는 이야기.",
+    "overallSummary": "어느 섬의 '왕실 방송국' 퀴즈쇼에 참가한 화자는 터무니없고 맹목적인 질문들에 얼떨결에 대답하며 계속 정답 처리를 받아 10계단을 올라간다. 검은 돼지, 왕의 세 딸 중 가장 아름다운 사람(120kg의 장녀), 날씨 좋은 날 우는 개구리의 날씨 등 논리도 이유도 없는 질문들에 답하다 보니 결국 우승을 차지한다. 지난주에는 검은 돼지나 흰색 카누를 상품으로 받았지만, 이번 주의 상품은 바로 몸무게 120킬로그램의 왕의 장녀였다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "부조리한 퀴즈쇼에서 연달아 정답을 맞추며 1위를 차지한 화자가 왕의 장녀를 상품으로 받게 되는 상황."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "전체주의적이거나 부조리한 권력 구조와 그 안에서 영문도 모른 채 휩쓸리는 개인의 무력감."
+      }
+    ],
+    "keyEntitiesText": "화자(5번 출연자), 사회자, 왕, 왕의 장녀",
+    "settingText": "왕실 방송국 퀴즈쇼 경연장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iS6k6n2wgser5kDOHw3mrA99aa7HFOoS",
+    "filename": "퀴즈쇼.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.056Z",
+    "size": "2901",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1iS6k6n2wgser5kDOHw3mrA99aa7HFOoS/view?usp=drivesdk",
+    "sourceSha256": "d2a95dca4b10fd69033788cf286160ef53efa0791ff8de711a6a725b5fad40b2",
+    "textSha256": "ce004183784d529746fc53d4ec9b10fd08c77daaadf069cb925e0ec1863230a5",
+    "changeKey": "4e5b5108b4bbcf7a1c21135923eccafb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9e856d5aff701936e585",
+    "workId": "9e856d5aff701936e585",
+    "driveFileId": "1iS6k6n2wgser5kDOHw3mrA99aa7HFOoS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:30:31.373574+00:00",
+    "updatedAt": "2026-09-21T19:30:31.373587+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:30:31.373691+00:00"
+    }
+  }
+}

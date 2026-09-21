@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "트럼프",
+    "author": "무라카미 하루키",
+    "genre": "초현실주의 소설",
+    "tags": [
+      "바다거북",
+      "훌리오 이글레시아스",
+      "트럼프",
+      "섬"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "humor"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "훌리오 이글레시아스의 레코드로 바다거북을 물리치던 두 사람이 레코드가 닳아 없어진 후 겪게 되는 기이한 결말.",
+    "overallSummary": "바다거북의 공격으로부터 집을 지키기 위해 매일 밤 훌리오 이글레시아스의 '비긴 더 비긴' 레코드를 틀어야 했던 나와 그녀는 레코드가 닳아빠지자 절망에 빠진다. 낮잠을 자며 밤의 습격을 준비하는 바다거북을 보며 이제 끝장이라고 각오하고 마지막 저녁 식사를 마친다. 마침내 거북이가 찾아와 문을 열고 들어오는데, 모기향도 훌리오의 노래도 없는 것을 확인한 거북이가 꺼낸 것은 다름 아닌 트럼프 한 벌이었다. 그날 이후 세 사람은 매일 밤 트럼프를 치며 놀게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "훌리오 음악으로 바다거북을 막던 주인공들이 레코드가 닳은 후 거북이의 습격을 받지만, 예상외로 거북이가 가져온 트럼프를 함께 치며 지내게 되는 초현실적 상황."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품의 특징",
+        "value": "위기 상황이 터무니없고 유머러스한 해법(바다거북과 트럼프 치기)으로 해결되는 부조리극적 상상력."
+      }
+    ],
+    "keyEntitiesText": "나, 그녀, 바다거북",
+    "settingText": "바닷가의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FYIIl_IwRok2c8Sl69gE8v0pLe7lC_O9",
+    "filename": "트럼프.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.099Z",
+    "size": "1767",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1FYIIl_IwRok2c8Sl69gE8v0pLe7lC_O9/view?usp=drivesdk",
+    "sourceSha256": "a58fdbfd96a34c79892aea9442e532513cff70e95159d1cf14e0da1d32132a2c",
+    "textSha256": "93842c8463fb34af6e8a6a17f43f6a0c3faae24b556a612ef76b630c8464c139",
+    "changeKey": "a81dd978dc9fc915d89e7594e6ab7588",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8d7a51fa9e1d479044a6",
+    "workId": "8d7a51fa9e1d479044a6",
+    "driveFileId": "1FYIIl_IwRok2c8Sl69gE8v0pLe7lC_O9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:30:56.014084+00:00",
+    "updatedAt": "2026-09-21T19:30:56.014100+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:30:56.014207+00:00"
+    }
+  }
+}

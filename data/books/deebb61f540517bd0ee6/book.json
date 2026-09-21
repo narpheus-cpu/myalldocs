@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오후의 마지막 잔디밭",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "잔디깎기",
+      "회상",
+      "여름",
+      "젊음"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 세계적인 소설가로, 일상의 소소한 풍경과 깊은 내면의 세계를 독특한 문체로 그려냄.",
+    "oneLineSummary": "14~15년 전 여름, 잔디깎기 아르바이트를 하며 겪었던 기억과 단편적인 상념들을 회상하는 이야기.",
+    "overallSummary": "화자는 14~15년 전 열여덟 살 혹은 열아홉 살 무렵에 했던 잔디깎기 아르바이트 시절을 떠올린다. 당시 애인과의 결별, 쓸데없는 돈, 꼼꼼하게 정원을 손질하던 일화, 그리고 마지막 날 방문했던 어느 널찍한 저택의 쉰 살 전후의 부인과의 만남 등을 덤덤하면서도 감성적인조조로 회상한다. 기억은 소설과 비슷하며 축 늘어진 새끼 고양이들처럼 불안정하고 애매모호하지만, 그럼에도 삶의 한 조각으로 남겨진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "공립 중학교 앞을 지나며 14~15년 전 잔디깎기를 하던 시절과 기억의 모호함에 대해 생각함."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "애인에게 이별 편지를 받고 잔디깎기 아르바이트를 그만두기로 결심하며 여름날의 풍경을 회상함."
+      },
+      {
+        "sectionTitle": "3",
+        "summary": "요미우리 랜드 근처의 저택을 방문해 중년 부인의 정원 잔디를 깎으며 겪은 일들을 떠올림."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기억의 성격",
+        "value": "기억은 소설과 비슷하게 문맥이 흔들리고 불안정하지만 삶을 구성하는 영구 기계와 같다."
+      },
+      {
+        "key": "주요 상징",
+        "value": "잔디와 잔디깎기는 화자의 젊은 날의 단조롭고도 묵묵한 일상을 상징한다."
+      }
+    ],
+    "keyEntitiesText": "화자, 애인, 잔디깎기 회사 사장, 요미우리 랜드 근처 저택의 부인",
+    "settingText": "14~15년 전의 여름, 도쿄 근교(오다큐선 교도역, 세타가야 등), 잔디깎기 아르바이트 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qAI_VZNH3iMdHapvHh5kFxvjCyWvR1Sv",
+    "filename": "무라카미 하루키-오후의 마지막 잔디밭(단편집).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.239Z",
+    "size": "172462",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "단편집"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/단편집",
+    "webViewLink": "https://drive.google.com/file/d/1qAI_VZNH3iMdHapvHh5kFxvjCyWvR1Sv/view?usp=drivesdk",
+    "sourceSha256": "1f2a555f9ad17673203d991ccf3e97b045f9625fab2c6eae857bce07094b7006",
+    "textSha256": "e6f7330d6c8403dd721c4f014e8ec095beafe358b42a4bbba46f9d83194e2bc6",
+    "changeKey": "a78a695900d0da7adfeebe72f4b022f2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "deebb61f540517bd0ee6",
+    "workId": "deebb61f540517bd0ee6",
+    "driveFileId": "1qAI_VZNH3iMdHapvHh5kFxvjCyWvR1Sv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:28:56.783534+00:00",
+    "updatedAt": "2026-09-21T19:28:56.783547+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:28:56.783732+00:00"
+    }
+  }
+}

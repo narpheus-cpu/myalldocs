@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "창",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "편지",
+      "아르바이트",
+      "펜 마스터",
+      "햄버그 스테이크"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "대학 휴학 시절 편지 첨삭 지도 아르바이트를 하며 한 여성 회원과 겪었던 교류와 추억을 회상하는 이야기.",
+    "overallSummary": "스물두 살 무렵, 학비가 끊겨 생활비를 벌어야 했던 화자는 '펜 소사이어티'라는 회사에서 회원들의 편지를 첨삭 지도하는 '펜 마스터' 아르바이트를 한다. 대부분 연상인 회원들 중 한 서른두 살의 주부 회원과 편지를 주고받으며 교감한다. 아르바이트를 그만두게 되면서 그녀의 초대,로 그녀의 맨션에 방문해 직접 만든 맛있는 햄버그 스테이크를 대접받고 삶과 글에 대한 대화를 나눈다. 10년이 지난 후에도 전철 창문을 통해 그 시절의 창문들을 떠올리며 인생의 알 수 없음과 아련함을 되새긴다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "편지 첨삭 아르바이트 시절의 경험, 회원들과의 소통, 그리고 마지막에 한 여성 회원의 집에 초대받아 햄버그 스테이크를 먹었던 기억을 회상함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "글과 편지를 통한 영혼의 교감, 그리고 지나간 인연에 대한 그리움과 리얼리티에 대한 성찰."
+      }
+    ],
+    "keyEntitiesText": "화자, 햄버그 스테이크를 만든 여성 회원",
+    "settingText": "도쿄, 펜 소사이어티 회사, 여성 회원의 맨션"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1S32_mg-UGix6mw-rgJF5QnCJFgHu4UIm",
+    "filename": "창.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.976Z",
+    "size": "12909",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1S32_mg-UGix6mw-rgJF5QnCJFgHu4UIm/view?usp=drivesdk",
+    "sourceSha256": "df677ea997ee4d7e6b6665e325776355de8c43af259c904316c85b20cf3021e3",
+    "textSha256": "6cff2b079c60a94f52a6763fa253f36511f9eb89e954feaf3378fc4a073d6f7b",
+    "changeKey": "66829c4f9d1a5a124f66e776e7c0ef2e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1d1a32ba61a3bae92676",
+    "workId": "1d1a32ba61a3bae92676",
+    "driveFileId": "1S32_mg-UGix6mw-rgJF5QnCJFgHu4UIm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:29:55.445438+00:00",
+    "updatedAt": "2026-09-21T19:29:55.445452+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:29:55.445543+00:00"
+    }
+  }
+}

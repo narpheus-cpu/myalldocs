@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일곱 번째 남자",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "태풍",
+      "파도",
+      "트라우마",
+      "친구"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "어린 시절 거대한 파도에 친구를 잃은 트라우마를 평생 안고 살아가던 남자가 오랜 세월이 지나 그 상처를 마주하는 이야기.",
+    "overallSummary": "한밤중에 모인 사람들 앞에서 50대 중반의 남자가 자신의 과거 이야기를 털어놓는다. 그는 10살 때 살던 바닷가 마을에서 10년 만의 대형 태풍의 '눈' 속에서 친구 K와 함께 해변에 나갔다가, 갑자기 밀려온 생명력을 가진 거대한 파도에 마주한다. 공포에 질려 혼자 도망친 화자는 결국 K를 파도 속에서 잃게 되고, 파도의 머릿속에서 자신을 향해 웃던 K의 환영을 보며 깊은 죄책감과 트라우마에 사로잡힌다. 오랜 세월이 흘러 고향 바다를 다시 찾은 그는 비로소 그 아픔을 치유하고 과거와 화해하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "한밤중 모임에서 일곱 번째 남자가 10살 때 겪은 거대한 파도와 친구 K의 죽음에 관한 기억을 회상함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징적 의미",
+        "value": "거대한 파도는 인생에서 예고 없이 찾아오는 두려운 운명이나 극복하기 힘든 트라우마를 상징함."
+      }
+    ],
+    "keyEntitiesText": "일곱 번째 남자, K, K의 강아지, 화자의 아버지",
+    "settingText": "S현의 바닷가 마을, 태풍이 지나간 해변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zcZehe1C7KqM1NcZijYPDq7W4w1SYR5s",
+    "filename": "일곱 번째 남자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.901Z",
+    "size": "30843",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1zcZehe1C7KqM1NcZijYPDq7W4w1SYR5s/view?usp=drivesdk",
+    "sourceSha256": "b7394a9bf000a16d164d8bddb1158a60e6a4c043d7521ffc171b652631f2f6e2",
+    "textSha256": "5e5e25d0c89a5a15dc83c62e8904ff1dacd8d7adcb24bf4a5b1c4a785c5ac77d",
+    "changeKey": "beb7d3ba0af1bee86eb2f3594fac908b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e4342577eb67deb5e4ae",
+    "workId": "e4342577eb67deb5e4ae",
+    "driveFileId": "1zcZehe1C7KqM1NcZijYPDq7W4w1SYR5s",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:29:18.392853+00:00",
+    "updatedAt": "2026-09-21T19:29:18.392870+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:29:18.392981+00:00"
+    }
+  }
+}

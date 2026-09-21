@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "캥거루 통신",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "백화점",
+      "불만 처리",
+      "카세트 테이프",
+      "캥거루"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "백화점 상품 관리과 직원인 남자가 레코드 교환을 거절당한 고객의 불만 편지에 답장하기 위해 카세트 테이프를 녹음하며 벌어지는 이야기.",
+    "overallSummary": "스물여섯 살로 백화점 상품 관리과에 근무하는 화자는 휴일에 동물원에서 캥거루를 본 후, 레코드를 잘못 샀다며 교환해 달라는 불만 편지를 보낸 한 여성 고객에게 편지를 쓰기로 결심한다. 상업 관습상 교환은 불가능하지만, 그녀의 독특하고 매혹적인 불만 편지에 깊은 인상을 받은 그는 글 대신 카세트 테이프에 직접 목소리를 담아 '캥거루 통신'이라는 이름으로 메시지를 전하려 한다. 불완전한 소통과 캥거루, 이집트의 모래 사내 등에 대한 엉뚱하고도 솔직한 수다를 통해 그녀에게 다가가려 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "백화점 불만 처리 담당인 주인공이 동물원에서 캥거루를 본 계기로, 독특한 불만 편지를 보낸 여성 고객에게 카세트 테이프(캥거루 통신)로 솔직한 마음을 털어놓음."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식적 특징",
+        "value": "일방적인 편지가 아닌 카세트 테이프 형식을 빌려 독자(고객)에게 직접 말을 건네는 독특한 서사 구조."
+      }
+    ],
+    "keyEntitiesText": "화자(상품 관리과 직원), 여성 고객, 캥거루",
+    "settingText": "동물원, 백화점 상품 관리과, 녹음실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1h0Cz9JLTW_2FoaW5v83KpA7y9VIdCIOR",
+    "filename": "캥거루 통신.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.036Z",
+    "size": "26318",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1h0Cz9JLTW_2FoaW5v83KpA7y9VIdCIOR/view?usp=drivesdk",
+    "sourceSha256": "77849793721b6dff42981087f1402b7d641815aeadcd532c3ee1b34ed52722f5",
+    "textSha256": "35590790f213007c8d5ee6a167143239d69d95b43ef1c19f2040e29ea0857230",
+    "changeKey": "cc6b9c7b588c5e886c4a24ea122f05fa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c279525e99b225c53b93",
+    "workId": "c279525e99b225c53b93",
+    "driveFileId": "1h0Cz9JLTW_2FoaW5v83KpA7y9VIdCIOR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:30:19.622677+00:00",
+    "updatedAt": "2026-09-21T19:30:19.622693+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:30:19.622803+00:00"
+    }
+  }
+}

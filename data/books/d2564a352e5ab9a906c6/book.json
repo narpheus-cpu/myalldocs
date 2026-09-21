@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잊혀진 왕국",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "친구",
+      "대학 시절",
+      "호텔 풀장",
+      "기억"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "대학 시절 완벽했던 친구 Q씨를 우연히 10년 만에 재회하며 겪은 일화와 소회를 담은 이야기.",
+    "overallSummary": "화자는 대학 시절 이웃에 살며 거의 흠잡을 데 없이 완벽했던 친구 Q씨를 회상한다. 핸섬하고 성격도 좋으며 운동, 공부, 음악 등 모든 면에서 우수했던 Q씨와는 대학 시절을 끝으로 멀어졌다. 10년 뒤 아카사카의 호텔 풀장에서 우연히 Q씨를 다시 보게 된 화자는, 연예계 스캔들과 관련된 일로 동행한 여인에게 콜라를 얼굴에 세게 맞고 당황하는 Q씨의 모습을 목격한다. 완벽해 보이던 인간의 삶 속에서도 피할 수 없는 엇갈림과 허전함을 느끼며, 아프리카의 '잊혀진 왕국' 기사를 떠올린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "완벽했던 대학 시절 친구 Q씨의 모습과 10년 뒤 호텔 풀장에서 우연히 그가 여인에게 콜라 테러를 당하는 장면을 목격한 회상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "완벽해 보이는 타인의 삶 이면에 존재하는 균열과 세월의 흐름에 따른 인물의 변화."
+      }
+    ],
+    "keyEntitiesText": "화자, Q씨, Q씨의 동행 여인",
+    "settingText": "대학 시절 아파트, 아카사카 호텔 풀장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1aIzmpH81_GeeibQEN2MPQ_bm_iOw-R1g",
+    "filename": "잊혀진 왕국.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.912Z",
+    "size": "8205",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1aIzmpH81_GeeibQEN2MPQ_bm_iOw-R1g/view?usp=drivesdk",
+    "sourceSha256": "e569707f487443dcbb5e7385de6bb2fe1f6c0439c4f092c74beb1f5af6240b12",
+    "textSha256": "72f69fd7940672588628492121a2c786c6af8820ae95c86a9a012e42ad5c3430",
+    "changeKey": "41da253e5339b79b40899ed4762e40eb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d2564a352e5ab9a906c6",
+    "workId": "d2564a352e5ab9a906c6",
+    "driveFileId": "1aIzmpH81_GeeibQEN2MPQ_bm_iOw-R1g",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:29:24.135362+00:00",
+    "updatedAt": "2026-09-21T19:29:24.135420+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:29:24.135525+00:00"
+    }
+  }
+}

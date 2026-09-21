@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "커피컵",
+    "author": "무라카미 하루키",
+    "genre": "초단편 소설",
+    "tags": [
+      "커피잔",
+      "이별",
+      "공허함",
+      "식사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "flash_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "여자를 택시에 태워 보낸 뒤 홀로 남겨진 방에서 느끼는 공허함을 소박한 식사로 채우는 순간을 그린 초단편.",
+    "overallSummary": "인생에서 가장 안타까울 때는 여자를 택시에 태워 돌려보낸 뒤 한 시간 동안이다. 침대와 테이블 위에 남은 체온과 커피잔의 흔적 속에서 수족관 밑바닥에 있는 듯한 공허함을 느낀다. 그러나 곧 배가 고파져 낫토, 계란, 된장국, 전갱이 말린 것, 왜김치, 말린 김 등으로 든든하게 식사를 하고 나면 어쩐지 허전했던 기분이 싹 가시게 된다. 참으로 묘한 일이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "여자를 돌려보낸 뒤의 허전함을 소박하고 맛있는 식사로 채우는 일상의 묘사."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "이별 뒤의 막연한 공허함과, 일상의 소박한 행위(식사)를 통한 치유."
+      }
+    ],
+    "keyEntitiesText": "화자, 여자",
+    "settingText": "여자가 떠난 뒤의 방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DPKXXFDP1N2mzro-sYgtmXvdmIHJEZxM",
+    "filename": "커피컵.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.046Z",
+    "size": "793",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1DPKXXFDP1N2mzro-sYgtmXvdmIHJEZxM/view?usp=drivesdk",
+    "sourceSha256": "3a735ab32640e815998b0db55eeb0ac3a20adc49b5ed1f29296266bf9ae67564",
+    "textSha256": "74d7dd0f7038c01805dde0439800682352f9f4dd052fe877e8abc422d5c62cc9",
+    "changeKey": "6e1b728d1482ca2a0f0aa51e06d807fe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "638679ae45b2a0e9fcae",
+    "workId": "638679ae45b2a0e9fcae",
+    "driveFileId": "1DPKXXFDP1N2mzro-sYgtmXvdmIHJEZxM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:30:25.539312+00:00",
+    "updatedAt": "2026-09-21T19:30:25.539327+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:30:25.539476+00:00"
+    }
+  }
+}

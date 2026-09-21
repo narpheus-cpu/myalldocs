@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "토니 타키타니",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "토니 타키타니",
+      "고독",
+      "옷",
+      "상실"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "본질적으로 깊은 고독을 안고 살아가던 일러스트레이터 토니 타키타니가 아내의 죽음과 옷을 통해 상실을 겪는 이야기.",
+    "overallSummary": "이목구비가 뚜렷하고 이름 때문에 혼혈아 오해를 받았던 토니 타키타니는 재즈 트럼본 연주자 아버지 밑에서 자라며 타고난 정밀한 묘사력으로 인기 일러스트레이터가 된다. 평생 외로움을 느끼지 못하며 살던 그는 우연히 만난 옷을 사랑하는 매력적인 아가씨와 결혼하며 평온한 행복을 찾는다. 하지만 아내의 지나친 쇼핑(옷에 대한 집착)을 걱정하던 중, 아내가 교통사고로 갑작스럽게 세상을 떠난다. 아내의 부재로 다시 찾아온 극심한 고독을 견디지 못한 그는 아내의 옷을 완벽하게 소화해 줄 아르바이트생을 구하고, 결국 그 옷들을 모두 처분하며 다시 원래의 고독 속으로 돌아간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "토니 타키타니의 성장 배경, 일러스트레이터로서의 성공, 아내와의 만남과 행복, 그리고 아내의 죽음 이후 남겨진 옷들과 함께 찾아온 깊은 상실감."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "인간 존재의 근원적인 고독과 사랑하는 사람을 잃은 뒤 찾아오는 공허함과 상실의 무게."
+      }
+    ],
+    "keyEntitiesText": "토니 타키타니, 다니자키 세이사부로(아버지), 아내, 아르바이트생 여성",
+    "settingText": "도쿄, 토니 타키타니의 집과 사무실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1J0WrWT-VL5aRtf7CaJvrBQnAHnaw-yDm",
+    "filename": "토니 타키타니.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.088Z",
+    "size": "34893",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1J0WrWT-VL5aRtf7CaJvrBQnAHnaw-yDm/view?usp=drivesdk",
+    "sourceSha256": "ae2a3871e6100c5b6e26c8209f7abfc9336893c2e48054d370242800681db189",
+    "textSha256": "5c657fd38eddef6754bb440a4b1c64b249aed5a3dd48e6a559a32cd0ec13aa90",
+    "changeKey": "3ee7ae871cf1a6c80d07337f3aa21503",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9c9d9eec16408b40774c",
+    "workId": "9c9d9eec16408b40774c",
+    "driveFileId": "1J0WrWT-VL5aRtf7CaJvrBQnAHnaw-yDm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:30:49.929161+00:00",
+    "updatedAt": "2026-09-21T19:30:49.929175+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:30:49.929281+00:00"
+    }
+  }
+}
