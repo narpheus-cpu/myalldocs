@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대통령의 글쓰기",
+    "author": "강원국",
+    "genre": "에세이",
+    "tags": [
+      "글쓰기",
+      "대통령",
+      "김대중",
+      "노무현",
+      "소통"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 강원국은 김대중, 노무현 대통령 시절 청와대 연설비서실에서 근무하며 대통령의 말과 글을 보좌했다.",
+    "oneLineSummary": "김대중, 노무현 두 대통령 밑에서 연설비서관으로 일하며 배운, 사람을 움직이고 마음을 훔치는 글쓰기 비법을 담은 에세이다.",
+    "overallSummary": "이 책은 청와대 연설비서실에서 8년 동안 두 명의 대통령을 보좌했던 저자가 대통령들의 글쓰기 철학과 실전 노하우를 생생하게 증언한다. 자료 수집, 얼개 짜기, 첫머리 쓰기, 퇴고에 이르기까지 글쓰기의 전 과정을 두 대통령의 실제 일화와 함께 풀어낸다. 화려한 미문이나 기교 대신 진정성과 명료함, 철저한 준비와 치열한 고민이 담긴 글이야말로 독자의 마음을 움직인다는 교훈을 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 비서실로 내려온 '폭탄' ~ 4장 '인민'이란 표현이 어때서요?",
+        "summary": "글쓰기가 두려운 이유와 노무현 대통령의 글쓰기 지침, 독자와의 교감의 중요성을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "실전적 리더십 글쓰기",
+        "value": "대통령들의 실제 수정 원고와 일화를 바탕으로 설득력 있는 글쓰기 원칙을 도출함."
+      }
+    ],
+    "keyEntitiesText": "강원국, 김대중, 노무현, 이병완, 고도원, 박선숙",
+    "settingText": "대한민국 청와대 및 인수위원회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bIZvcpyZFGUbTxZ57c1u0ALW984JGco3",
+    "filename": "강원국-대통령의 글쓰기(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:53:42.000Z",
+    "size": "448127",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1bIZvcpyZFGUbTxZ57c1u0ALW984JGco3/view?usp=drivesdk",
+    "sourceSha256": "2eb07f9cad3bfaa1e4b8552b1eab3a5a1b186615db1187e260611c5c08cf8085",
+    "textSha256": "42ae1589a6ecabf9669db381a2d75ab83b4bcebee142d3564f1311eae02ebed8",
+    "changeKey": "acd0c46e129675f896947eb313033f2f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2dd4c3afd1f07ed33682",
+    "workId": "2dd4c3afd1f07ed33682",
+    "driveFileId": "1bIZvcpyZFGUbTxZ57c1u0ALW984JGco3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:02:48.597004+00:00",
+    "updatedAt": "2026-09-21T19:02:48.597022+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:02:48.597130+00:00"
+    }
+  }
+}

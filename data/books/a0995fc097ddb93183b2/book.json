@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "현대미술 강의",
+    "author": "조주연",
+    "genre": "미술이론",
+    "tags": [
+      "현대미술",
+      "미학",
+      "모더니즘",
+      "아방가르드"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 조주연은 서양 현대 미술의 기원과 전개를 미학적 관점에서 연구하고 강의해 온 학자이다.",
+    "oneLineSummary": "낭만주의에서 모더니즘, 아방가르드를 거쳐 포스트모더니즘에 이르기까지 서양 현대미술의 역사를 기호학과 미학적 관점에서 체계적으로 해설한다.",
+    "overallSummary": "이 책은 우주 달력의 0.4초에 불과할 정도로 짧지만 강렬했던 현대 미술 200년의 역사를 추적한다. 구석기 시대의 재현 원리에서 출발하여, 낭만주의를 거쳐 현대의 순수 미술과 아방가르드의 반예술 운동이 어떻게 전개되었는지를 미학적 층위에서 분석한다. 모더니즘의 자기지시적 기호와 아방가르드의 담론적 기호 개념을 통해 현대 미술이 미술의 개념과 실제를 어떻게 송두리째 변화시켰는지 밝히고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 서론",
+        "summary": "우주 달력의 비유를 통해 현대 미술의 짧고 격렬한 역사를 조망하고, 모던과 모더니티의 개념사를 분석하여 근대 미술과 현대 미술을 명확히 구분한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기호학적 접근",
+        "value": "낭만주의, 모더니즘, 아방가르드의 미술을 각각 이탈의 기호, 순수한 기호, 담론적 기호로 분석함."
+      }
+    ],
+    "keyEntitiesText": "조주연, 피에트 몬드리안, 앙드레 바쟁, 칼 세이건, 한스 로베르트 야우스, 스탕달, 에두아르 마네",
+    "settingText": "19세기 초부터 현대에 이르는 유럽과 미국의 미술계 및 미학적 담론 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MLXaVI6YLlynmAfstu-euHk6xxU5BB1T",
+    "filename": "조주연-현대미술 강의(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T06:33:28.000Z",
+    "size": "741586",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1MLXaVI6YLlynmAfstu-euHk6xxU5BB1T/view?usp=drivesdk",
+    "sourceSha256": "601fb6410c10d3c855bd73dc30e98aafb5a087f5743cfb22900e5072e32f82c4",
+    "textSha256": "7099dfaef9bc9e8d4c2299795ef8cd4cb49cef4e6d71620739a83f74dbab22ea",
+    "changeKey": "b6958be501d29e92402b0412e26757e4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a0995fc097ddb93183b2",
+    "workId": "a0995fc097ddb93183b2",
+    "driveFileId": "1MLXaVI6YLlynmAfstu-euHk6xxU5BB1T",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:00:07.566353+00:00",
+    "updatedAt": "2026-09-21T19:00:07.566369+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:00:07.566463+00:00"
+    }
+  }
+}

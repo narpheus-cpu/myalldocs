@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "전설 속의 거장",
+    "author": "조희창",
+    "genre": "음악평론",
+    "tags": [
+      "클래식",
+      "음악가",
+      "지휘자",
+      "연주자"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 조희창은 월간 《객석》 기자 등을 거치며 클래식 음악 분야의 글을 써온 음악 평론가이다.",
+    "oneLineSummary": "두 번의 세계 대전이라는 격동의 시대를 살아가며 독보적인 예술적 성취를 이룬 20세기 전설적인 클래식 거장들의 삶과 음악을 조명한다.",
+    "overallSummary": "이 책은 토스카니니, 푸르트뱅글러, 카라얀, 번스타인, 카잘스 등 20세기를 매혹시킨 클래식 음악의 천재 스물세 명의 생애와 음악 세계를 다룬다. 전쟁과 궁핍이라는 고단한 시대적 배경 속에서 그들이 어떻게 예술혼을 불태웠는지 생생하게 보여준다. 저자는 단순한 일대기를 넘어 음악가들의 인간적 결함, 타협 없는 예술적 완벽주의, 그리고 시대와 불화하면서도 지켜낸 예술의 본질을 깊이 있게 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아르투로 토스카니니",
+        "summary": "이탈리아 출신의 열혈한이자 타협을 거부한 완벽주의 지휘자 토스카니니의 생애와 오페라 개혁, 음악적 업적을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 대조 기법",
+        "value": "토스카니니와 푸르트뱅글러 등 대조적인 성향의 거장들을 비교하여 음악적 차이를 부각함."
+      }
+    ],
+    "keyEntitiesText": "조희창, 아르투로 토스카니니, 브루노 발터, 빌헬름 푸르트뱅글러, 헤르베르트 폰 카라얀, 레너드 번스타인, 파블로 카잘스",
+    "settingText": "2세기 전반 양차 세계대전을 거친 유럽과 미국의 음악 무대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1S53y27YPxM32PPsoVBT8azaHkaiYc0Mv",
+    "filename": "조희창-전설 속의 거장(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T07:47:38.000Z",
+    "size": "684787",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1S53y27YPxM32PPsoVBT8azaHkaiYc0Mv/view?usp=drivesdk",
+    "sourceSha256": "662a8a4664b2eb2a1134a7e605177e743a7bcc4b73e040f6e55f43b9cc7a6314",
+    "textSha256": "3465fcee6f786225c10b569f62b66a04aac358971a68d6d47365bd5dc73b5ebb",
+    "changeKey": "096ce1f0dc399389f93fe6d2c32f8098",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "725413950f870cfa9e9b",
+    "workId": "725413950f870cfa9e9b",
+    "driveFileId": "1S53y27YPxM32PPsoVBT8azaHkaiYc0Mv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:00:34.217950+00:00",
+    "updatedAt": "2026-09-21T19:00:34.217964+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:00:34.218055+00:00"
+    }
+  }
+}

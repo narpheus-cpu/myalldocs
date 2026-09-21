@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시대를 훔친 미술",
+    "author": "최정은",
+    "genre": "미술사",
+    "tags": [
+      "역사",
+      "미술사",
+      "명화",
+      "인문학"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 최정은은 인류의 역사와 삶의 흔적이 담긴 미술 작품을 통해 시대의 의미를 읽어내는 글을 쓰고 있다.",
+    "oneLineSummary": "중세부터 현대까지 거대 역사와 형식주의를 넘어 시대의 숨결과 인간의 자취를 담아낸 명화들을 인문학적 시선으로 풀어낸다.",
+    "overallSummary": "이 책은 랭부르 형제의 기도서부터 펠릭스 누스바움의 자화상에 이르기까지 역사적 전환점마다 탄생한 명화들을 통해 인간사의 깊은 의미를 탐구한다. 르네상스, 종교개혁, 절대왕정, 프랑스대혁명, 산업혁명, 양차 세계대전 등 격변의 시대를 살아간 사람들이 남긴 흔적을 미술 작품을 통해 생생하게 복원한다. 예술이 단순한 시각적 유희를 넘어 인류의 꿈과 욕망, 고통과 저항을 전승하는 '밈(Meme)'의 매체임을 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "일러두기 및 서론",
+        "summary": "역사 속에서 인간이 찾아낸 의미와 자취로서의 예술사의 중요성을 강조하며, '세계의 살'을 다루는 미술의 역할을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문화사회학적 접근",
+        "value": "미술 작품과 시대적 사건을 연결하고, '밈' 개념을 통해 예술의 역사적 전승을 설명함."
+      }
+    ],
+    "keyEntitiesText": "최정은, 랭부르 형제, 레오나르도 다빈치, 미켈란젤로, 렘브란트, 파블로 피카소",
+    "settingText": "중세부터 20세기까지 유럽과 세계의 역사적 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wNgMM6pOqyyV5QsXXZ7mIfBcc0qvdbi5",
+    "filename": "최정은-시대를 훔친 미술(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T05:21:18.000Z",
+    "size": "600821",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1wNgMM6pOqyyV5QsXXZ7mIfBcc0qvdbi5/view?usp=drivesdk",
+    "sourceSha256": "278f8215c8dd987bdd4fc4d5917476164e6033110e0ad4273d3a9d50c1e74958",
+    "textSha256": "07a985ebbf28684a229c142ef7670aeef67e9b159edf2a82daaad74029ac5297",
+    "changeKey": "4e3e312330ff7fac404bf961b3e63f72",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f1cd70b1b34a288e02c8",
+    "workId": "f1cd70b1b34a288e02c8",
+    "driveFileId": "1wNgMM6pOqyyV5QsXXZ7mIfBcc0qvdbi5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:01:20.720101+00:00",
+    "updatedAt": "2026-09-21T19:01:20.720115+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:01:20.720224+00:00"
+    }
+  }
+}
