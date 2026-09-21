@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "독로무한",
+    "author": "권천",
+    "genre": "무협",
+    "tags": [
+      "천독문",
+      "독공",
+      "십만대산",
+      "귀로"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권천 작가는 독창적인 설정과 무협 세계관을 선보이는 작가이다.",
+    "oneLineSummary": "천독문에 입문해 십만대산에서 독공 수련을 마친 몽뇌산이 독문으로 귀환하는 길에 벌어지는 기행.",
+    "overallSummary": "만만하다는 이유로 천독문에 입문한 엉뚱한 소년 몽뇌산이 5년간의 독공과 십만대산 수련을 마치고 귀환하던 중, 독초 황자초를 추적하다 산적과 화복 귀공자를 만나게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 입문",
+        "summary": "소년 몽뇌산이 엉뚱한 이유로 천독문 노인에게 입문하여 독공 수련을 시작하게 된다."
+      },
+      {
+        "sectionTitle": "제1장 귀로",
+        "summary": "5년 후 수련을 마치고 귀환길에 오른 몽뇌산이 길눈이 어두워 절강성으로 잘못 들어서며 독초 황자초를 추적한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 특징",
+        "value": "독초 자선절영초 및 황자초 수집과 독공"
+      }
+    ],
+    "keyEntitiesText": "몽뇌산, 천독문 노사부, 장봉황",
+    "settingText": "절강성 운주부 홍운산 관도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YXPpsGstQUuQ0NKz-xdYk2dTwBpDA9Ys",
+    "filename": "독로무한(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.974Z",
+    "size": "1246729",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1YXPpsGstQUuQ0NKz-xdYk2dTwBpDA9Ys/view?usp=drivesdk",
+    "sourceSha256": "58c409d4cc8911ea008b62609503292987ada0ac3682cf11c49ed6bdc861fbc1",
+    "textSha256": "ef3ea08e250dc7c4b18aee5eb458313b6148988b8b386ab84c2ba9461bb76753",
+    "changeKey": "65c616e794c0bfebcf2e93f1f236cc79",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1c124ee04496fe8645a1",
+    "workId": "1c124ee04496fe8645a1",
+    "driveFileId": "1YXPpsGstQUuQ0NKz-xdYk2dTwBpDA9Ys",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:36:03.566685+00:00",
+    "updatedAt": "2026-09-21T13:36:03.566701+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:36:03.566807+00:00"
+    }
+  }
+}

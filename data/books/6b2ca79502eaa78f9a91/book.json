@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마교전왕",
+    "author": "사마달",
+    "genre": "무협",
+    "tags": [
+      "삼황산",
+      "북해",
+      "마풍",
+      "갑자생"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사마달 작가는 특유의 비장함과 압도적인 마도 세계관을 그리는 저명한 무협 작가이다.",
+    "oneLineSummary": "북해 빙성의 대마종이 자신의 숙적 점쾌를 확인하고 갑자생의 운명을 타고날 아기를 지우기 위해 음모를 꾸미는 마교 서사.",
+    "overallSummary": "삼황산 천운봉의 절경과 비석의 전율스런 비문, 그리고 북해 포극마인산 빙성에서 대마종이 점괘를 통해 미래의 천룡 같은 숙적의 탄생을 알고 마풍으로 비극을 일으키려 하는 과정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 & 제1장 1",
+        "summary": "삼황산 천운봉의 천오관불애와 비석의 전설, 그리고 북해 빙성에서 대마종이 효패 점괘로 숙적의 탄생을 확인하고 저주를 계획한다."
+      },
+      {
+        "sectionTitle": "제1장 2~4",
+        "summary": "지상제일쾌 성혼과 게으르고 느린 만노의 상반된 캐릭터 및 성혼이 폭살쾌도 전충을 일초에 베어버린 사건."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 설정",
+        "value": "효패 점괘와 갑자생 숙적 말살 음모"
+      }
+    ],
+    "keyEntitiesText": "대마종, 성혼, 만노, 전충",
+    "settingText": "삼황산 천운봉 및 북해 포극마인산 빙성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qxc_9sa62rQ8d1x23ZHEIDEq7sNpQ8nb",
+    "filename": "마교전왕 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:04.404Z",
+    "size": "698610",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1qxc_9sa62rQ8d1x23ZHEIDEq7sNpQ8nb/view?usp=drivesdk",
+    "sourceSha256": "2b7a790cefd2d9f17e518747f28f3812163e70d0b53e88302270e805c0b3dfee",
+    "textSha256": "402c5db8c2116d316f5c5c32a7e5cfe2d71b5b4851fa5512878df5e33779736f",
+    "changeKey": "4339dae04bd601f49ae6cea9eba89ce4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6b2ca79502eaa78f9a91",
+    "workId": "6b2ca79502eaa78f9a91",
+    "driveFileId": "1qxc_9sa62rQ8d1x23ZHEIDEq7sNpQ8nb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:37:31.912059+00:00",
+    "updatedAt": "2026-09-21T13:37:31.912074+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:37:31.912166+00:00"
+    }
+  }
+}

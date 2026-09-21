@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "독보건곤",
+    "author": "용대운",
+    "genre": "무협",
+    "tags": [
+      "복수",
+      "무쌍류",
+      "장백산",
+      "호랑이 사냥"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "용대운 작가는 90년대 창작 무협의 중흥을 이끈 선두주자로 선굵은 복수극과 실전 무예 묘사로 유명하다.",
+    "oneLineSummary": "비정한 웃음과 서슬 푸른 살기를 품은 노독행이 무쌍류의 후계자가 되어 펼치는 복수의 여정.",
+    "overallSummary": "피칠갑을 한 채 죽어가다 독고무정에 의해 무쌍류 후계자로 거듭난 사내가, 장백산의 전설적인 백호 백왕을 상대로 사투를 벌여 가죽을 얻고 생존하는 과정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 & 제1장 1",
+        "summary": "독고무정이 처참한 상처를 입은 사내를 구하며 무쌍류 후계자로 삼고, 사내가 장백산의 매서운 추위 속에서 전설의 백호 백왕을 추적한다."
+      },
+      {
+        "sectionTitle": "제1장 2",
+        "summary": "사내가 목숨을 걸고 거대한 백호 백왕과의 사투 끝에 승리하여 가죽을 벗겨 마을로 내려온다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "전투 방식",
+        "value": "실전 무예 및 처절한 야성적 사투"
+      }
+    ],
+    "keyEntitiesText": "독고무정, 백왕(전설의 백호)",
+    "settingText": "매서운 추위가 몰아치는 장백산 노호령 및 백석촌"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HannNbUjFMsk70IIVAfm-2GLQeNlQBGi",
+    "filename": "독보건곤(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:04.047Z",
+    "size": "1451278",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1HannNbUjFMsk70IIVAfm-2GLQeNlQBGi/view?usp=drivesdk",
+    "sourceSha256": "900c31eadd5a24af41540baa1b0fd31ff6e4d0de94f99ba7976c54f8246a492f",
+    "textSha256": "4cdf2196288c3d40047e3ea97fd3337a0a3a4efc3c9c0df173ac48274156c70c",
+    "changeKey": "7006c3db68565f623d120dc35cfc8dec",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8086592530fdadf02209",
+    "workId": "8086592530fdadf02209",
+    "driveFileId": "1HannNbUjFMsk70IIVAfm-2GLQeNlQBGi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:36:24.955214+00:00",
+    "updatedAt": "2026-09-21T13:36:24.955229+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:36:24.955335+00:00"
+    }
+  }
+}

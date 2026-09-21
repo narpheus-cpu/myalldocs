@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뇌신",
+    "author": "대천성",
+    "genre": "무협",
+    "tags": [
+      "차원이동",
+      "전류",
+      "천산"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "퓨전무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "대천성 작가는 퓨전 무협 및 장르 소설을 집필하는 작가이다.",
+    "oneLineSummary": "손끝에서 스파크를 일으키는 특이능력자 한강원이 차원이동을 통해 무림 천산으로 넘어가 생존해나가는 이야기.",
+    "overallSummary": "현대에서 손가락 스파크 능력과 싸움 실력으로 학교 짱을 하던 한강원이 돌풍에 휘말려 무림의 천산에 떨어진 후, 맹수 흑각호와 목숨을 건 혈전을 벌이고 영물을 먹으며 변화를 겪는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 나는 강원",
+        "summary": "현대에서 소희와의 일상 중 강풍을 만나 이세계의 울창한 숲에 불시착한다."
+      },
+      {
+        "sectionTitle": "2장 생존",
+        "summary": "숲에서 호랑이 영물 흑각호를 만나 목숨을 건 사투 끝에 물리치고 흑각호의 영물을 섭취한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특수 능력",
+        "value": "손가락 생체 전류 및 스파크 발산"
+      }
+    ],
+    "keyEntitiesText": "한강원, 염소희, 규리예, 뇌수불, 단우영",
+    "settingText": "현대의 한국 학교/도장 및 무림의 곤륜산/천산 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fAEvPepimH87HOMq_63J6QwQUxb-mhvA",
+    "filename": "뇌신(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.740Z",
+    "size": "2576246",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1fAEvPepimH87HOMq_63J6QwQUxb-mhvA/view?usp=drivesdk",
+    "sourceSha256": "0cdf48512f2e4f1ce77d06bbb10a3265be6d0007eff2c8bbc3e327b683b08f7e",
+    "textSha256": "aa8a0ef2e21d6232d04d7af63a2f7de729540c0d358bc6be20dc620949ad95c2",
+    "changeKey": "f253880613135a02f099ad00ac43b34d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f511531e119169d2b80c",
+    "workId": "f511531e119169d2b80c",
+    "driveFileId": "1fAEvPepimH87HOMq_63J6QwQUxb-mhvA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:35:38.482326+00:00",
+    "updatedAt": "2026-09-21T13:35:38.482342+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:35:38.482448+00:00"
+    }
+  }
+}

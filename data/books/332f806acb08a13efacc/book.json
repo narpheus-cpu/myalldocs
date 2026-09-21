@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동천",
+    "author": "조재윤",
+    "genre": "무협",
+    "tags": [
+      "황룡세가",
+      "동천",
+      "암흑마교",
+      "천마삼해"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조재윤 작가는 매력적인 인물과 긴장감 넘치는 전개의 무협 소설을 집필하는 작가이다.",
+    "oneLineSummary": "황룡세가에서 줏어와 자란 아이 동천이 무림의 거대한 은원과 마교의 비밀 비급 천마삼해에 얽히게 되는 시작.",
+    "overallSummary": "황룡세가 가주에게 발견되어 자란 동천의 어린 시절 이야기와 함께, 암흑마교 동남당주 만추가 천마삼해 비급을 품고 추격을 받다가 동천과 마주치는 사건을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 서장/만남",
+        "summary": "황룡세가에서 자란 동천의 어린 시절과 세가 아이들과의 사소한 다툼 회상."
+      },
+      {
+        "sectionTitle": "만추와 추격전",
+        "summary": "암흑마교의 동남당주 만추가 천마삼해를 품고 부교주 사비혼의 추격을 피해 도망치다 동천을 만난다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 비급",
+        "value": "천마삼해(天魔三海)"
+      }
+    ],
+    "keyEntitiesText": "동천, 황룡굉, 황룡미미, 춘천, 하천, 추연, 만추, 사비혼",
+    "settingText": "황룡세가 인근 마을 산길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1siyMc3NrcoPqW35J0UZQRieXShRi7BKl",
+    "filename": "동천(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:04.211Z",
+    "size": "5623639",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1siyMc3NrcoPqW35J0UZQRieXShRi7BKl/view?usp=drivesdk",
+    "sourceSha256": "f07b4fa5ac1d4c35b1ebd6e49b99b9aea52583042b83b85a0ef53c58b05b61cb",
+    "textSha256": "7c4b11fe1629e53abae65f81df83fd782e852bf1f7a4cde71613414fa6c18c72",
+    "changeKey": "9d9ab687ec3d49fb1ece468657c4dd95",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "332f806acb08a13efacc",
+    "workId": "332f806acb08a13efacc",
+    "driveFileId": "1siyMc3NrcoPqW35J0UZQRieXShRi7BKl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:37:03.886555+00:00",
+    "updatedAt": "2026-09-21T13:37:03.886572+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:37:03.886673+00:00"
+    }
+  }
+}

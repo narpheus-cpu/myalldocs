@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대형 설서린",
+    "author": "설봉",
+    "genre": "무협",
+    "tags": [
+      "적분",
+      "파락호",
+      "홍루"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "설봉 작가는 치밀한 구성과 깊이 있는 인물 묘사로 저명한 무협 작가이다.",
+    "oneLineSummary": "어린 시절의 분노와 상처를 안고 살아가는 파락호들의 밑바닥 삶과 은원 관계를 그린 무협 소설.",
+    "overallSummary": "어린 시절의 억울한 폭력 경험을 계기로 무도와 싸움에 집착하게 된 주인공의 과거 회상과, 영은촌 파락호들과 기루 요락의 기녀들이 얽히면서 벌어지는 어두운 은원 관계를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서",
+        "summary": "어린 시절 불의의 폭력에 억울하게 맞고 이에 반발하여 주먹을 키우다가 겪게 된 비극적 운명의 계기를 회상한다."
+      },
+      {
+        "sectionTitle": "제1장 죽은 빛이 되살아나",
+        "summary": "헛간에 모여 투전을 즐기는 거한 형영과 독사 등 파락호들의 일상과 기루 요락에서의 갈등 상황이 펼쳐진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 분위기",
+        "value": "비장함과 하층민 파락호의 생존 서사"
+      }
+    ],
+    "keyEntitiesText": "형영, 독사, 대물, 요빙, 설향",
+    "settingText": "영은촌 파락호 거처 및 기루 요락"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jbyfIKJupujXHF4Bc1FWCKRcxDDwnZin",
+    "filename": "대형 설서린 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.818Z",
+    "size": "2858648",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1jbyfIKJupujXHF4Bc1FWCKRcxDDwnZin/view?usp=drivesdk",
+    "sourceSha256": "b4e4c8918952544efb6d5c22dac8d4871b241e3598ba874403fbccd45edd4609",
+    "textSha256": "6c18510fb318c503f886393cbc7d779eeddeea3637afc6bc767b246c61bb5edb",
+    "changeKey": "ab2180493f842e4aa1d97e6177c0c48f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6f27c8aaf72df4410062",
+    "workId": "6f27c8aaf72df4410062",
+    "driveFileId": "1jbyfIKJupujXHF4Bc1FWCKRcxDDwnZin",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:35:50.569778+00:00",
+    "updatedAt": "2026-09-21T13:35:50.569792+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:35:50.569882+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "남해삼십육검",
+    "author": "홍파",
+    "genre": "무협",
+    "tags": [
+      "해남도",
+      "해남파",
+      "검객",
+      "귀향"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "홍파 작가는 전통 무협 소설을 집필하는 작가이다.",
+    "oneLineSummary": "주인공 적엽명이 강호를 떠돌다 고향 해남도와 과거의 인연으로 복귀하며 벌어지는 이야기.",
+    "overallSummary": "가문의 비극적인 출생의 비밀을 안고 살아가던 주인공이 수년 간의 강호 기행 후 고향인 해남도로 돌아와 유소청 등 과거의 인연들을 재회하고 변해버린 해남도의 정세를 마주한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서(序) - 비해 및 확인",
+        "summary": "주인공의 어린 시절 가문 내에서의 입지와 출생에 관한 비밀이 밝혀지며 상처를 입게 된다."
+      },
+      {
+        "sectionTitle": "제1장 귀향",
+        "summary": "오랜 세월이 흘러 고향 포구에서 주인공 적엽명과 옛 인연 유소청이 재회하여 해남도의 달라진 정세에 대해 대화를 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 무공",
+        "value": "남해삼십육검, 파랑검법"
+      }
+    ],
+    "keyEntitiesText": "적엽명(비건), 유소청, 유질, 한혁, 한광",
+    "settingText": "중원 최남단 해안소 및 해남도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1unwyDwJtK_kcA8CR6v0odaLCpqhr1YSF",
+    "filename": "남해삼십육검(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.566Z",
+    "size": "1299993",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1unwyDwJtK_kcA8CR6v0odaLCpqhr1YSF/view?usp=drivesdk",
+    "sourceSha256": "90e1f956e292fab10da42039474b4efe2eb31b3b60163c983a48420fe6c69166",
+    "textSha256": "6f94eb3a1017aa384608b08de9b1440804d579b537ecaf7212a5cad032f82e96",
+    "changeKey": "f085bbcc808dfc58a81e010f4c01daf4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0d79a46aa89881e6b6b1",
+    "workId": "0d79a46aa89881e6b6b1",
+    "driveFileId": "1unwyDwJtK_kcA8CR6v0odaLCpqhr1YSF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:35:05.240270+00:00",
+    "updatedAt": "2026-09-21T13:35:05.240286+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:35:05.240486+00:00"
+    }
+  }
+}

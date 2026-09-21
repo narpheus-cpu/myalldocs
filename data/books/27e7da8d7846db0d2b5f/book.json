@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대마인열전",
+    "author": "이은성",
+    "genre": "무협",
+    "tags": [
+      "평범한주인공",
+      "식기상인",
+      "강호출도"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이은성 작가는 무협 및 판타지 장르에서 다양한 소설을 집필해온 작가이다.",
+    "oneLineSummary": "평범한 서른두 살 식기 상인 초파가 노인의 말에 끌려 절세 마공을 배우고 강호로 나서게 되는 좌충우돌 성장기.",
+    "overallSummary": "저잣거리에서 소소하게 식기 상점을 운영하던 초파가 자신의 잠재력을 알아봐 준 기이한 노인의 권유로 하오신문을 찾아 강호에 입문하기로 결심하며 벌어지는 가족과의 이별과 강호 기행.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 1화",
+        "summary": "서른두 살 식기 상인 초파가 더운 날씨 속에서 장사를 하며 강호에 출도하라는 노인의 말을 되새긴다."
+      },
+      {
+        "sectionTitle": "2화",
+        "summary": "하오신문 문도를 기다리다 지친 초파가 친구 대장장이 상개를 찾아가 작별 인사를 나누고 강호로 출발할 결심을 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공 직업",
+        "value": "식기 상점 주인"
+      }
+    ],
+    "keyEntitiesText": "초파, 초파의 어머니 및 아내, 상개",
+    "settingText": "중원의 상점가 저잣거리 및 상천성 인근"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1W9sm1zjsoMeYCW_M24BIStxIS_vaKBul",
+    "filename": "대마인열전(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.794Z",
+    "size": "800100",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1W9sm1zjsoMeYCW_M24BIStxIS_vaKBul/view?usp=drivesdk",
+    "sourceSha256": "a4225e71b0279324ae3735e750a96134b1f66eea140a85ccd2ec2c60970819a0",
+    "textSha256": "08534d889b22d32e62ef7ed638bc901005018d2ab754e995ecb3d5437ee11208",
+    "changeKey": "5a54cb339ccd13fd05feff3505d38e68",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "27e7da8d7846db0d2b5f",
+    "workId": "27e7da8d7846db0d2b5f",
+    "driveFileId": "1W9sm1zjsoMeYCW_M24BIStxIS_vaKBul",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:35:44.608900+00:00",
+    "updatedAt": "2026-09-21T13:35:44.608954+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:35:44.609069+00:00"
+    }
+  }
+}

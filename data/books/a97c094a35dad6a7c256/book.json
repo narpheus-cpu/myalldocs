@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "등선협로",
+    "author": "운곡",
+    "genre": "무협",
+    "tags": [
+      "서기영",
+      "무격",
+      "용호방",
+      "교호"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "운곡 작가는 밑바닥 인물의 처절한 생존과 신기(神氣)를 지닌 인물의 운명을 다루는 무협 작가이다.",
+    "oneLineSummary": "무당 에미의 자식으로 마을에서 천대받던 서기영이 친구의 죽음을 계기로 신기가 깨어나 용호방 건달 교호와 사투를 벌이는 이야기.",
+    "overallSummary": "신기 있는 어머니와 주정뱅이 아버지 밑에서 온갖 모멸과 매질을 참아내며 살던 서기영이, 유일한 친구 청우가 용호방 건달에게 죽자 신기가 올라 칼을 들고 용호방 무리 및 교호와 목숨을 건 혈전을 치른다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 (01~03)",
+        "summary": "서기영의 비극적인 가족사와 마을에서의 천대, 그리고 빚을 받으러 온 용호방 무리에게 친구 청우가 죽임을 당하자 기영이 폭주한다."
+      },
+      {
+        "sectionTitle": "1장 (04~05)",
+        "summary": "용호방 고수 교호가 기영을 제압하려 하지만, 기영이 예지력과 신기를 발휘해 목숨을 건 반격으로 교호를 넘어뜨린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공 특징",
+        "value": "상대의 다음 동작을 예측하는 신기(神氣)"
+      }
+    ],
+    "keyEntitiesText": "서기영, 청우, 교호, 노충",
+    "settingText": "조강현 산아래 마을 및 용호방 거점 인근"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-uWeHW5xJXj16eltSxB4_GxbGpYH0cfz",
+    "filename": "등선협로 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:04.344Z",
+    "size": "1918385",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1-uWeHW5xJXj16eltSxB4_GxbGpYH0cfz/view?usp=drivesdk",
+    "sourceSha256": "7b46e756545cd458f022b13879dfd5c21c6b26ff75230957ee6628bcec7afba7",
+    "textSha256": "2247177db6e57e737808fea85920eb2232ec3ff2ae8923b8df26c3483b7fbcc0",
+    "changeKey": "f0c4fad7eed35fb86ce89d41be8b84ec",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a97c094a35dad6a7c256",
+    "workId": "a97c094a35dad6a7c256",
+    "driveFileId": "1-uWeHW5xJXj16eltSxB4_GxbGpYH0cfz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:37:18.565244+00:00",
+    "updatedAt": "2026-09-21T13:37:18.565258+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:37:18.565345+00:00"
+    }
+  }
+}

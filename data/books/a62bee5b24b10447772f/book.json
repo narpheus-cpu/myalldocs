@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "두령",
+    "author": "제영철",
+    "genre": "무협",
+    "tags": [
+      "연우촌",
+      "백사풍",
+      "사막",
+      "두령"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "제영철 작가는 진정한 리더십과 우두머리의 길을 주제로 흥미로운 무협 소설을 그린다.",
+    "oneLineSummary": "부모를 잃고 실어증에 걸렸던 천호가 세월이 흘러 사막의 잔혹한 도적 백사풍의 참극 현장에 마주하게 되는 이야기.",
+    "overallSummary": "시골 마을 연우촌에서 고수들의 싸움에 부모를 잃은 천호가 황노인의 보살핌 속에 자란 뒤 세상을 떠나, 사막에서 백사풍의 습격을 받은 대상인 진충 부녀의 위기 현장에 나타난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 & 1장 1~2",
+        "summary": "원숭이 우두머리의 교훈, 연우촌에서 천호의 부모가 고수들의 싸움에 휩쓸려 참변을 당하고 황노인에게 거둬진다."
+      },
+      {
+        "sectionTitle": "1장 3",
+        "summary": "대상인 진충과 딸 소혜가 사막의 살인 도적 백사풍에게 포위당해 몰살 위기에 처했을 때 언덕 위에서 인영이 등장한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "우두머리(두령)의 자격과 진정한 리더십"
+      }
+    ],
+    "keyEntitiesText": "천호, 일삼, 황노인, 진충, 진소혜, 전백, 백사풍",
+    "settingText": "연우촌 산골 마을 및 대사막 모래언덕"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VWdnYDwcQvMUmUBqV-7_Wm8CaAHroDuw",
+    "filename": "두령(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:04.316Z",
+    "size": "1268560",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1VWdnYDwcQvMUmUBqV-7_Wm8CaAHroDuw/view?usp=drivesdk",
+    "sourceSha256": "9834c82c88e265e77b4cb4f3cec19fedf38df2899d2bfc89364129b0e062f946",
+    "textSha256": "14b4883a651b70c4de71a2f6797f70414ceb2eb11048f0cae662fd51167eb92c",
+    "changeKey": "1ff66633c82ff78d6aff8eff6e5ba89b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a62bee5b24b10447772f",
+    "workId": "a62bee5b24b10447772f",
+    "driveFileId": "1VWdnYDwcQvMUmUBqV-7_Wm8CaAHroDuw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:37:11.992804+00:00",
+    "updatedAt": "2026-09-21T13:37:11.992818+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:37:11.992904+00:00"
+    }
+  }
+}

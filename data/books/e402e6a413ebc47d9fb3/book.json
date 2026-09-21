@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "녹림투왕",
+    "author": "초우",
+    "genre": "무협",
+    "tags": [
+      "녹림",
+      "출사",
+      "검선"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "초우 작가는 다수의 인기를 얻은 무협 소설을 쓴 대표적인 무협 작가이다.",
+    "oneLineSummary": "가난한 산골 마을과 식구들을 살리기 위해 녹림 영웅을 꿈꾸며 세상에 나선 관표의 호쾌한 모험담.",
+    "overallSummary": "수유촌의 굶주리는 가족과 마을 사람들의 기대를 안고 도끼 한 자루를 든 채 강호로 나온 관표가, 내상을 입은 무당파 장로 검선 이청천을 만나 첫 녹림 영웅행을 펼치는 과정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서(序)",
+        "summary": "가난한 마을 수유촌에서 관표가 식솔들과 주민들의 배웅을 받으며 세상 밖으로 출사한다."
+      },
+      {
+        "sectionTitle": "검선, 관표를 만나다",
+        "summary": "중상을 입고 이동 중이던 무당파 장로 검선 이청천이 관표를 만나 녹림 산적으로 오해받고 수난을 겪는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 병기",
+        "value": "박달나무 목부(도끼)"
+      }
+    ],
+    "keyEntitiesText": "관표, 관복, 심씨, 조공, 이청천(검선)",
+    "settingText": "섬서성 장안 및 서남간선 도로 주변 산지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DV5_p080uXtwjMehlZK2le1RFIvupB7f",
+    "filename": "녹림투왕(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.668Z",
+    "size": "2772672",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1DV5_p080uXtwjMehlZK2le1RFIvupB7f/view?usp=drivesdk",
+    "sourceSha256": "981ffcc6a419aea4eb4ef5cc1ae094630102c9d834bc2fe207ec1e445533f0ad",
+    "textSha256": "f3a08047525e7b11feffef68ae52e486bc438af67273c3d76a04b0a81a9348db",
+    "changeKey": "e119c4c85797bd5de769c2af58733072",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e402e6a413ebc47d9fb3",
+    "workId": "e402e6a413ebc47d9fb3",
+    "driveFileId": "1DV5_p080uXtwjMehlZK2le1RFIvupB7f",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:35:31.468403+00:00",
+    "updatedAt": "2026-09-21T13:35:31.468417+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:35:31.468507+00:00"
+    }
+  }
+}
