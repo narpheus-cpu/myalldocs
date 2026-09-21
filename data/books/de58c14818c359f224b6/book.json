@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "네버웨어",
+    "author": "닐 게이먼",
+    "genre": "판타지 소설",
+    "tags": [
+      "도시판타지",
+      "런던",
+      "런던빌로우",
+      "모험",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "닐 게이먼은 환상문학과 그래픽 노블 분야에서 세계적 명성을 얻은 영국의 대표적 판타지 작가이다.",
+    "oneLineSummary": "평범한 청년 리처드 메이휴가 런던의 숨겨진 지하 세계인 '런던 빌로우'에 얽히며 겪는 기묘한 도시 판타지.",
+    "overallSummary": "스코틀랜드를 떠나 런던에 정착한 평범한 직장인 리처드 메이휴는 완벽주의 약혼녀 제시카와 평탄한 일상을 보낸다. 한편 세상 밑 지하 세계에서는 알 수 없는 위협을 피해 도망치는 소녀가 있고, 잔혹한 암살자 크룹과 밴더마 콤비가 그녀를 추적한다. 지상의 런던과 지하의 미지의 세계가 교차하며 긴장감이 고조된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "런던으로 떠나기 전날 밤, 리처드는 술집 밖에서 만난 노파로부터 '문(Door)을 조심하라'는 기묘한 예언을 듣고 지하철 노선도가 그려진 우산을 건넨다."
+      },
+      {
+        "sectionTitle": "본문 전개",
+        "summary": "런던에서 3년간 직장 생활을 하며 제시카와 사귀던 리처드의 일상과, 지하 세계에서 도망치는 소녀 및 그녀를 쫓는 크룹과 밴더마의 살기 어린 추적이 교차된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "도시 판타지의 공간성",
+        "value": "실제 런던의 지하철역 이름과 지명들을 환상적인 지하 세계의 지리와 사건으로 치환하는 독창적 상상력을 선보임."
+      }
+    ],
+    "keyEntitiesText": "리처드 메이휴, 제시카(약혼녀), 도어(지하의 소녀), 크룹, 밴더마, 로스",
+    "settingText": "영국 런던의 지상 세계(London Above)와 숨겨진 지하 세계(London Below)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1T7WO1IOn57BuNG413n61-nd4Uu6FziTs",
+    "filename": "닐 게이먼-네버웨어(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:10.793Z",
+    "size": "700545",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1T7WO1IOn57BuNG413n61-nd4Uu6FziTs/view?usp=drivesdk",
+    "sourceSha256": "eaabc9ab279cfa83f151738c93468fd7d327e8a46e4e7272f66b203ed889080f",
+    "textSha256": "a37f1a47a4bb8864d36e50538d9d4b1bdad292b48589727451d08c23a55c6d32",
+    "changeKey": "a8e65f227a8aa919915c316febc3d925",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "de58c14818c359f224b6",
+    "workId": "de58c14818c359f224b6",
+    "driveFileId": "1T7WO1IOn57BuNG413n61-nd4Uu6FziTs",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:59:21.639302+00:00",
+    "updatedAt": "2026-09-21T22:59:21.639317+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:59:21.639408+00:00"
+    }
+  }
+}

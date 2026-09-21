@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "노리의 끝없는 이야기",
+    "author": "니콜슨 베이커",
+    "genre": "소설",
+    "tags": [
+      "소녀",
+      "상상력",
+      "성장",
+      "일상",
+      "영국"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "니콜슨 베이커는 일상의 세밀한 디테일과 내면 심리를 독창적으로 포착해내는 미국의 현대 소설가이다.",
+    "oneLineSummary": "영국으로 이사 온 아홉 살 미국 소녀 노리의 풍부한 상상력과 일상 관찰을 담은 소설.",
+    "overallSummary": "가족과 함께 영국의 유서 깊은 도시 스렐로 이사 온 아홉 살 소녀 엘리너 윈즐로(노리)는 그림 그리기와 이야기 짓기를 좋아한다. 거대한 스렐 성당의 역사와 딱정벌레 이야기, 욕실에서 나타난 커다란 거미 사건, 그리고 어린 남동생 리틀가이의 올빼미 공포증 등 일상의 사소한 경험들을 자신만의 기발하고 따뜻한 상상력으로 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "노리가 좋아하는 것들 ~ 딱정벌레 이야기",
+        "summary": "종이 재단사를 꿈꾸는 노리의 인형 디자인과 스렐 성당의 목조 들보를 갉아먹는 '임종을 알리는 딱정벌레'를 소재로 노리가 지어낸 동화 같은 이야기가 소개된다."
+      },
+      {
+        "sectionTitle": "리틀가이는 올빼미가 무서워",
+        "summary": "학교의 역사와 남동생 리틀가이의 독특한 언어 습관, 그리고 올빼미를 무서워하는 남동생을 둘러싼 가족의 따뜻한 일상이 묘사된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "유년의 상상력과 미시적 서사",
+        "value": "아이의 순수한 시선에서 포착되는 언어의 유희, 사물과 곤충에 대한 독창적 사유와 따뜻한 가족애를 미세하게 관찰함."
+      }
+    ],
+    "keyEntitiesText": "노리(엘리너 윈즐로), 리틀가이(프랭크, 남동생), 노리의 부모님, 파멜라 셰이버즈",
+    "settingText": "영국의 고도(古都) 스렐 시, 스렐 주니어 스쿨"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SXaCOKRhJl_cMLuiwpNazXr713KEhw3j",
+    "filename": "니콜슨 베이커-노리의 끝없는 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:10.775Z",
+    "size": "317881",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1SXaCOKRhJl_cMLuiwpNazXr713KEhw3j/view?usp=drivesdk",
+    "sourceSha256": "2b513d7d65ce6003e6e67886528c6f37efad3867086b84c285845d675a926b7d",
+    "textSha256": "8c5a7c8df6c6cb6d5ca810902821c5f45412a86310d9c73c3d0e082468053742",
+    "changeKey": "c29254fc0cd5d2ce62414b3aa7ddad19",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7eff45acc5eb045e2c9f",
+    "workId": "7eff45acc5eb045e2c9f",
+    "driveFileId": "1SXaCOKRhJl_cMLuiwpNazXr713KEhw3j",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:59:15.564850+00:00",
+    "updatedAt": "2026-09-21T22:59:15.564866+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:59:15.564980+00:00"
+    }
+  }
+}

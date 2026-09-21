@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대실 해밋 단편선 (배신의 거미줄)",
+    "author": "대실 해밋",
+    "genre": "추리/하드보일드",
+    "tags": [
+      "하드보일드",
+      "사립탐정",
+      "콘티넨털옵",
+      "살인사건",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "대실 해밋(1894~1961)은 전직 핑커턴 탐정 출신으로 하드보일드 추리소설의 전형을 확립한 미국의 거장 작가이다.",
+    "oneLineSummary": "외과의사의 의문스러운 죽음과 살인 누명을 쓴 아내의 결백을 밝히려는 사립탐정의 치밀한 미행과 수사.",
+    "overallSummary": "저명한 외과의사 에스텝 박사가 의문의 권총 자살(혹은 타살)로 사망하고, 그의 두 번째 부인이 살인 혐의로 체포된다. 변호사 밴스 리치먼드의 의뢰를 받은 콘티넨털 탐정사무소의 탐정은 유산을 노리고 나타난 본처 에드나 파이프의 행적을 추적하고 몽고메리 호텔과 라구나 가를 오가며 배후의 음모를 파헤치기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "배신의 거미줄 1~2",
+        "summary": "변호사 리치먼드가 에스텝 박사의 사망과 두 번째 부인의 체포 상황을 설명하며 탐정에게 결백을 입증해 줄 편지를 찾아달라고 의뢰한다."
+      },
+      {
+        "sectionTitle": "배신의 거미줄 3~4",
+        "summary": "탐정이 몽고메리 호텔에 묵는 첫 번째 부인을 미행하여 쇼핑가와 라구나 가 아파트를 추적하고, 사기꾼 제이콥 레드위치와의 연관성을 발견한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "하드보일드 미행 수사 기법",
+        "value": "감정에 치우치지 않고 객관적 사실과 엄격한 미행 원칙에 기반하여 사건의 실체를 추적하는 고전적 탐정 서사를 보여줌."
+      }
+    ],
+    "keyEntitiesText": "나(콘티넨털 옵 탐정), 밴스 리치먼드(변호사), 에스텝 박사, 두 번째 에스텝 부인, 에드나 파이프(첫 번째 부인), 제이콥 레드위치",
+    "settingText": "미국 샌프란시스코의 파인 가, 몽고메리 호텔, 라구나 가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WTV0uLiCbuyGuXmn-mjUp3uBg96xds1O",
+    "filename": "대실 해밋-말타의 매(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.046Z",
+    "size": "527043",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1WTV0uLiCbuyGuXmn-mjUp3uBg96xds1O/view?usp=drivesdk",
+    "sourceSha256": "fab2b6d847823080e62931755953647f7bf687a4458eccc15bf97ca30ae5dac6",
+    "textSha256": "3c9497ffbb689a1c71e2dc62e65792b6883c482fd0bf324aeab8c5eab5c671bd",
+    "changeKey": "13ffa0848956530e67c695380376c4ce",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "52014f5b0948221d1743",
+    "workId": "52014f5b0948221d1743",
+    "driveFileId": "1WTV0uLiCbuyGuXmn-mjUp3uBg96xds1O",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:00:02.037881+00:00",
+    "updatedAt": "2026-09-21T23:00:02.037897+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5217,
+      "updatedAt": "2026-09-21T23:00:02.038031+00:00"
+    }
+  }
+}

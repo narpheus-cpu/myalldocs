@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "북유럽 신화",
+    "author": "닐 게이먼",
+    "genre": "신화/판타지",
+    "tags": [
+      "북유럽신화",
+      "오딘",
+      "토르",
+      "로키",
+      "라그나로크"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "닐 게이먼은 고대 신화와 전설을 현대적 감각의 생생한 이야기로 재구성하는 데 탁월한 이야기꾼이다.",
+    "oneLineSummary": "오딘, 토르, 로키를 중심으로 펼쳐지는 태초의 창조부터 라그나로크까지의 북유럽 신화 재화집.",
+    "overallSummary": "태초의 심연 긴눙가가프와 얼음의 니플헤임, 불의 무스펠에서 거인 이미르와 암소 아우둠라가 탄생한다. 오딘과 그의 형제들은 이미르를 처치해 그의 몸으로 세상 미드가르드를 창조하고 통나무에 생명을 불어넣어 최초의 인간 아스크와 엠블라를 만든다. 매력적이고 불완전한 신들의 장대한 연대기가 펼쳐진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "작가의 말 & 주인공들",
+        "summary": "작가가 북유럽 신화에 매료된 계기와 최고신 오딘, 천둥의 신 토르, 교활하고 복잡한 신 로키의 성격 및 특징을 소개한다."
+      },
+      {
+        "sectionTitle": "세상이 시작되기 전, 그리고 그 이후",
+        "summary": "불과 안개 속에서 태어난 거인 이미르를 오딘 형제들이 죽이고 그의 살과 뼈로 세상을 빚어낸 뒤, 해변의 통나무로 최초의 남녀를 창조하는 태초의 이야기를 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "신화의 현대적 재해석",
+        "value": "고대 에다의 시와 산문 전통을 바탕으로 불완전하고 개성 넘치는 신들의 서사를 유머러스하면서도 비장하게 재구성함."
+      }
+    ],
+    "keyEntitiesText": "오딘, 토르, 로키, 이미르, 아우둠라, 부리, 보르, 빌리, 베",
+    "settingText": "태초의 긴눙가가프, 니플헤임, 무스펠, 아스가르드, 미드가르드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PSs9mYUirtqzz45_om5VgDtx8d3P4VX5",
+    "filename": "닐 게이먼-북유럽신화(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:10.820Z",
+    "size": "300468",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1PSs9mYUirtqzz45_om5VgDtx8d3P4VX5/view?usp=drivesdk",
+    "sourceSha256": "15328234ebab4da1cb70bcc6b36f207f2eb2db68c47ee40233f5d575b121e443",
+    "textSha256": "7ac75d123c45960009489958c383f4c9c93259a184b9030352adf6a391fdf2de",
+    "changeKey": "a9cbc65ca93c0b3999555aeadf65c504",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d910822c0d4aaff231e4",
+    "workId": "d910822c0d4aaff231e4",
+    "driveFileId": "1PSs9mYUirtqzz45_om5VgDtx8d3P4VX5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:59:27.517279+00:00",
+    "updatedAt": "2026-09-21T22:59:27.517295+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:59:27.517402+00:00"
+    }
+  }
+}

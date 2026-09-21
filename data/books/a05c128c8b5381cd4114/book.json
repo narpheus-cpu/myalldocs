@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "샤인",
+    "author": "길리언 헬프갓, 알리사 탄스카야",
+    "genre": "전기/에세이",
+    "tags": [
+      "데이빗 헬프갓",
+      "피아니스트",
+      "음악",
+      "사랑",
+      "치유"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "길리언 헬프갓은 점성학자이자 천재 피아니스트 데이빗 헬프갓의 아내이며, 알리사 탄스카야와 함께 이 책을 저술했다.",
+    "oneLineSummary": "정신질환을 앓던 천재 피아니스트 데이빗 헬프갓과 길리언의 운명적인 만남과 사랑을 다룬 이야기.",
+    "overallSummary": "퍼스에 방문한 길리언은 의사 크리스의 소개로 피아니스트 데이빗 헬프갓을 만난다. 60년대 음악 신동이었으나 신경쇠약으로 오랫동안 잊혔던 데이빗은 와인바 리카도에서 놀라운 피아노 연주를 선보이며 사람들을 매료시킨다. 길리언은 데이빗의 순수함과 열정에 깊이 이끌리고, 두 사람은 서로에게 특별한 존재가 되어 교감을 나누기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1부 도마지 - 제 1장 첫만남",
+        "summary": "퍼스에 도착한 길리언은 크리스의 집에서 수영을 마치고 나온 데이빗을 처음 만나고, 그날 저녁 리카도 와인바에서 그의 압도적인 피아노 연주를 들으며 깊은 감동을 받는다."
+      },
+      {
+        "sectionTitle": "제 2장 발견",
+        "summary": "길리언의 과거 삶과 점성학 공부 과정이 소개되며, 시드니로 돌아간 후에도 데이빗과 편지를 주고받으며 그를 깊이 사랑하고 있음을 깨닫는 과정이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "음악적 구원",
+        "value": "정신적 고통 속에서도 라흐마니노프 협주곡 3번 등을 완벽히 연주해내며 음악과 사랑을 통해 세상과 소통하는 인물의 모습을 조명함."
+      }
+    ],
+    "keyEntitiesText": "길리언(화자), 데이빗 헬프갓(피아니스트), 크리스 레이놀즈 박사(의사), 일리아노(길리언의 친구)",
+    "settingText": "1980년대 오스트레일리아 퍼스와 시드니, 와인바 리카도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "127c-rijZ_UAPi0adr3RoVMOEZXXQnEJ2",
+    "filename": "길리언 헬프갓, 알리사 탄스카야-샤인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:10.375Z",
+    "size": "450574",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/127c-rijZ_UAPi0adr3RoVMOEZXXQnEJ2/view?usp=drivesdk",
+    "sourceSha256": "152f7079b29ec4cee137e3b96e76c4e642c3df70f4f98ed1450fb377559a1954",
+    "textSha256": "7c2def4f538c0947843373e75eb65fe5788c337149bd3f7d607abaf24778987b",
+    "changeKey": "06817bba143099f7ce0dd041e951d541",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a05c128c8b5381cd4114",
+    "workId": "a05c128c8b5381cd4114",
+    "driveFileId": "127c-rijZ_UAPi0adr3RoVMOEZXXQnEJ2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:58:37.877904+00:00",
+    "updatedAt": "2026-09-21T22:58:37.877919+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:58:37.878165+00:00"
+    }
+  }
+}

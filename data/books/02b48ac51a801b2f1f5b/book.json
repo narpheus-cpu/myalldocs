@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스타더스트",
+    "author": "닐 게이먼",
+    "genre": "판타지 소설",
+    "tags": [
+      "판타지",
+      "월마을",
+      "요정마을",
+      "오월제",
+      "별똥별"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "닐 게이먼은 신화적 모티프와 동화적 감성을 결합해 독창적인 판타지 세계를 창조하는 영국의 대표 작가이다.",
+    "oneLineSummary": "인간 세계와 요정 세계를 가르는 '월' 마을에서 9년마다 열리는 신비한 장날에 벌어지는 환상적인 이야기.",
+    "overallSummary": "화강암 성벽으로 요정의 영역과 경계를 이루는 영국의 '월' 마을에서는 9년에 한 번 오월제 장터가 열려 외지인과 이국적 존재들이 모여든다. 열여덟 살 청년 던스턴 쏜은 성벽 문을 지키는 보초를 서다가 여관에서 신비한 신사를 만나 자신의 오두막을 숙소로 빌려주고 마법 같은 일에 발을 들이게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 9년마다 찾아오는 신기한 월 마을 행사",
+        "summary": "인간 세상과 마법 세계를 가르는 성벽 문이 열리는 9년 만의 오월제를 앞두고 월 마을에 수많은 이방인들이 몰려들며 벌어지는 활기찬 소동과 던스턴 쏜의 하룻밤 모험이 시작된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "경계의 환상성",
+        "value": "일상적이고 현실적인 시골 마을과 마법이 공존하는 경계(성벽)를 통해 환상 문학의 낭만적 분위기를 조성함."
+      }
+    ],
+    "keyEntitiesText": "던스턴 쏜, 데이지 헴스톡, 브리짓 콤프리, 토미 포리스터, 알룸 베이, 브로미오스",
+    "settingText": "19세기 빅토리아 시대 영국, 요정 세계와 맞닿은 성벽 마을 '월(Wall)'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eZ5ndnXLT0x3Z-t6Vkg_PJ9mVbMgeSO1",
+    "filename": "닐 게이먼-스타더스트(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:10.838Z",
+    "size": "475532",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1eZ5ndnXLT0x3Z-t6Vkg_PJ9mVbMgeSO1/view?usp=drivesdk",
+    "sourceSha256": "0d4049241e5e3233d59761482bf68746481fca896b8be22b561e9fb08ff437f6",
+    "textSha256": "892a91ba2c3e7130effa0d640d910581e159f8ab5ca0bca20e97ffbb652d94e6",
+    "changeKey": "359777e786b41f9f5b23baa2c00b18ba",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "02b48ac51a801b2f1f5b",
+    "workId": "02b48ac51a801b2f1f5b",
+    "driveFileId": "1eZ5ndnXLT0x3Z-t6Vkg_PJ9mVbMgeSO1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:59:33.471322+00:00",
+    "updatedAt": "2026-09-21T22:59:33.471335+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:59:33.471441+00:00"
+    }
+  }
+}

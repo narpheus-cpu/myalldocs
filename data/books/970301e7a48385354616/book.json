@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "왼손잡이",
+    "author": "니콜라이 레스코프",
+    "genre": "소설",
+    "tags": [
+      "러시아문학",
+      "풍자",
+      "장인",
+      "강철벼룩",
+      "왼손잡이"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "니콜라이 레스코프(1831~1895)는 러시아 민중의 삶과 독특한 구어체 언어유희(스카스 양식)를 탁월하게 구사한 대표적 작가이다.",
+    "oneLineSummary": "영국 장인들이 만든 정교한 강철 벼룩에 맞서는 러시아 툴라 장인들과 왼손잡이의 기상천외한 솜씨를 그린 풍자 소설.",
+    "overallSummary": "알렉산드르 1세는 영국 방문 중 춤추는 정교한 초소형 강철 벼룩을 보고 감탄하여 거액을 주고 구입한다. 카자크 출신 플라토프 장군은 러시아 장인들의 기술이 뒤지지 않는다고 주장하고, 후대 니콜라이 1세 때 툴라의 무기 장인들에게 벼룩을 넘겨 더 뛰어난 솜씨를 보여줄 것을 명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~2장",
+        "summary": "빈 회의 후 유럽을 순방하던 알렉산드르 황제는 영국의 무기 전시장에서 피스톨을 보고 감탄하나, 플라토프가 방아쇠에 적힌 툴라 장인 이반 모스크빈의 이름을 밝혀내 영국인들을 당황케 한다."
+      },
+      {
+        "sectionTitle": "3~5장",
+        "summary": "영국 장인들이 춤추는 강철 벼룩을 헌정하자 황제는 매료되어 거액을 주고 사들인다. 이후 니콜라이 1세 때 플라토프가 툴라 장인들에게 이를 전하며 영국 장인을 능가할 기술을 보여줄 것을 요청한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "민중적 스카스(Skaz) 기법",
+        "value": "민간 구전 설화의 어투와 기발한 언어유희를 활용해 서구 기술만 맹종하는 지배층과 탁월한 러시아 민중 장인의 현실을 풍자함."
+      }
+    ],
+    "keyEntitiesText": "알렉산드르 1세, 니콜라이 1세, 플라토프(돈 카자크 장군), 툴라 무기 장인들",
+    "settingText": "19세기 초 나폴레옹 전쟁 직후의 영국 런던 및 러시아 상트페테르부르크, 툴라"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BmPDI1nmUQoG7wWcKIeLl4N5CZBnvjLw",
+    "filename": "니콜라이 레스코프-왼손잡이(세계문학전집 22) .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:10.755Z",
+    "size": "427119",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1BmPDI1nmUQoG7wWcKIeLl4N5CZBnvjLw/view?usp=drivesdk",
+    "sourceSha256": "496e0412777f9e1a0ced1a50ed83599060a28191406918b1467ec8078d022524",
+    "textSha256": "44190234695b5868cffba4334cb8a1db5d63cfeb6049a91e7ef383694e6b056a",
+    "changeKey": "52b419053e517a8164621c75c236848f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "970301e7a48385354616",
+    "workId": "970301e7a48385354616",
+    "driveFileId": "1BmPDI1nmUQoG7wWcKIeLl4N5CZBnvjLw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:59:09.466184+00:00",
+    "updatedAt": "2026-09-21T22:59:09.466199+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:59:09.466291+00:00"
+    }
+  }
+}

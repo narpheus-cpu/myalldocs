@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나의 라임 오렌지 나무",
+    "author": "J. M. 바스콘셀로스",
+    "genre": "성장소설",
+    "tags": [
+      "성장소설",
+      "브라질문학",
+      "제제",
+      "가족",
+      "우정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "주제 마우루 지 바스콘셀로스(1920~1984)는 브라질 리우데자네이루 출신의 대표적인 작가로, 불우한 어린 시절을 딛고 자전적 소설 '나의 라임 오렌지 나무'로 세계적인 명성을 얻었다.",
+    "oneLineSummary": "가난한 환경 속에서 조숙한 감수성과 상상력을 지닌 소년 제제의 가슴 아프고 아름다운 성장기.",
+    "overallSummary": "가난한 집안에서 장난꾸러기로 구박받는 다섯 살 꼬마 제제는 스스로 글을 깨우칠 정도로 영리한 아이다. 형 또또까와 함께 길을 걷고 이사 갈 집을 둘러보며 집안의 어려운 형편을 체감하고, 지혜로운 에드문드 아저씨에게 글 읽는 능력을 선보이며 장난감 망아지를 선물받는다. 어린 나이에 상상과 현실 사이에서 슬픔과 성장을 마주하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 1. 철드는 소년",
+        "summary": "제제는 또또까 형과 길 건너는 법을 배우고, 스스로 글을 읽는 비결을 신비롭게 여기며 에드문드 아저씨에게 글을 읽어 보여 망아지 장난감을 얻는다."
+      },
+      {
+        "sectionTitle": "제1부 2. 바로 그 라임오렌지나무",
+        "summary": "가족들의 역할과 어린 동생 루이스를 돌보며 뒤뜰에서 유럽 놀이, 동물원 놀이를 하는 제제의 일상과 상상 세계가 펼쳐진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "조숙함과 슬픔",
+        "value": "어린 나이에 글을 깨우치고 세상의 가난과 슬픔을 일찍 알아가는 아이의 내면적 성장을 섬세하게 포착함."
+      }
+    ],
+    "keyEntitiesText": "제제(주인공 소년), 또또까(형), 에드문드 아저씨, 잔디라/글로리아/랄라(누나들), 루이스(남동생)",
+    "settingText": "브라질 리우데자네이루 방구 시 근교의 가난한 가정"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jiszMbyufB-GpoFC2eX6h5iauNLgbXYa",
+    "filename": "나의 라임 오렌지 나무(J. M. 바스콘셀로스 지음／박동원 옮김.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:10.414Z",
+    "size": "301085",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1jiszMbyufB-GpoFC2eX6h5iauNLgbXYa/view?usp=drivesdk",
+    "sourceSha256": "562f4cd9d6eb495ce2977a70de5ec6ea7cfbafcc175c8f4bcbf4fd75754e9f9b",
+    "textSha256": "c17fd43beb795ae9808aeb5927e98560e0c59700ac4d41501d557ed36f951a0a",
+    "changeKey": "3fff25dc7dc093e4cf3c0f23f6bede52",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fb8b6165c211d1bbce78",
+    "workId": "fb8b6165c211d1bbce78",
+    "driveFileId": "1jiszMbyufB-GpoFC2eX6h5iauNLgbXYa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:58:44.208506+00:00",
+    "updatedAt": "2026-09-21T22:58:44.208522+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:58:44.208632+00:00"
+    }
+  }
+}

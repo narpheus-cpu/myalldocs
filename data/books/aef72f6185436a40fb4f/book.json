@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "몰타의 매",
+    "author": "대실 해밋",
+    "genre": "추리/하드보일드",
+    "tags": [
+      "하드보일드",
+      "샘스페이드",
+      "미스터리",
+      "명작",
+      "사립탐정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "대실 해밋(1894~1961)은 핑커턴 탐정 경험을 토대로 하드보일드 소설의 장르적 완성도를 끌어올린 미국 문학의 거장이다.",
+    "oneLineSummary": "의문의 여인에게서 의뢰를 받은 직후 동업자가 살해당하면서 미궁 속 범죄와 음모에 휘말리는 탐정 샘 스페이드의 이야기.",
+    "overallSummary": "샌프란시스코의 사립탐정 사무소에 미모의 원덜리 양이 찾아와 여동생을 유괴범 플로이드 서스비로부터 구해달라고 부탁한다. 거액의 수임료를 받고 직접 미행에 나선 동료 탐정 마일스 아처가 밤안개 속 골목에서 총격을 받고 즉사하자, 스페이드는 경찰의 의심과 미스터리한 배후를 마주하며 진실을 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 스페이드와 아처",
+        "summary": "금발의 악마 같은 인상의 탐정 샘 스페이드와 동료 아처가 원덜리 양으로부터 서스비를 미행해 달라는 의뢰를 접수한다."
+      },
+      {
+        "sectionTitle": "2. 안개 속의 죽음",
+        "summary": "심야에 걸려온 전화를 받고 버릿 거리 골목으로 출동한 스페이드는 총을 맞고 굴러떨어져 사망한 아처의 시신을 확인한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "하드보일드 리얼리즘",
+        "value": "군더더기 없는 건조한 문체와 담배를 마는 등의 세밀한 행동 묘사를 통해 하드보일드 문학의 정수를 구현함."
+      }
+    ],
+    "keyEntitiesText": "새뮤얼 스페이드, 마일스 아처, 원덜리 양, 에피 페린, 플로이드 서스비, 톰 폴하우스",
+    "settingText": "1920년대 미국 샌프란시스코의 도심과 부시 거리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ljULLkiMrLc_LHvArmX5YxbLmeY0rtIl",
+    "filename": "대실 해밋-몰타의 매 열린책들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.067Z",
+    "size": "522680",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ljULLkiMrLc_LHvArmX5YxbLmeY0rtIl/view?usp=drivesdk",
+    "sourceSha256": "6a5f64e7e6322ad3a0819d84eb6b8819bd4c81ce3602eeb6479f5e893f440778",
+    "textSha256": "6dab56ee19f7042e704b11d5541611be043a7fbf132b94428b79f528fc4d5f43",
+    "changeKey": "07cc9ccec44e859ade31a6a1fffae666",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aef72f6185436a40fb4f",
+    "workId": "aef72f6185436a40fb4f",
+    "driveFileId": "1ljULLkiMrLc_LHvArmX5YxbLmeY0rtIl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:00:09.875144+00:00",
+    "updatedAt": "2026-09-21T23:00:09.875160+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:00:09.875264+00:00"
+    }
+  }
+}
