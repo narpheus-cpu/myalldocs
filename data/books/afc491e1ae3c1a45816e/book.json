@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "원앙도",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "김용",
+      "원앙도",
+      "주위신",
+      "태악사협"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 무협 소설의 대가 김용의 단편 중편 대표작 중 하나입니다.",
+    "oneLineSummary": "천하무적의 비밀이 숨겨진 원앙도를 호송하는 주위신과 이를 노리는 태악사협 및 강호 인물들의 해학적 소동.",
+    "overallSummary": "위신표국의 총표두 주위신은 천섬총독 유어의로부터 '천하무적의 비밀'이 감춰진 원앙도를 비밀리에 북경으로 호송하는 임무를 맡는다. 도중에 자신들을 '태악사협'이라 칭하는 어설픈 도적 4인방과 마주쳐 곤욕을 치르고, 이어 임옥룡과 임비연 부부의 기이한 다툼이 얽히며 사건이 전개된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1편",
+        "summary": "주위신이 총독에게 원앙도를 받아 호송하다가 태악사협을 만나 거짓 피신하고 왕 염상이 화살에 맞는 소동."
+      },
+      {
+        "sectionTitle": "2편",
+        "summary": "태악사협이 숲에 숨어있다 임옥룡과 임비연 부부의 탄궁 싸움에 휘말려 골탕 먹는 유쾌한 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징적 요소",
+        "value": "거창한 별호에 비해 어설픈 실력을 가진 태악사협 중심의 김용 특유의 풍자와 유머"
+      }
+    ],
+    "keyEntitiesText": "주위신, 유어의, 소요자, 상장풍, 화검영, 개일명(태악사협), 임옥룡, 임비연",
+    "settingText": "서안에서 북경으로 향하는 소나무 숲 및 관도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZIv49NCQx3dUQl0EnK4Apa0NkQIeBfQk",
+    "filename": "김용-원앙도.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.079Z",
+    "size": "112887",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1ZIv49NCQx3dUQl0EnK4Apa0NkQIeBfQk/view?usp=drivesdk",
+    "sourceSha256": "63271762425e27394448eee56d44829a102e62b53bf228a16a7ee175545b6929",
+    "textSha256": "5c673a8a7faf5606d32790b834cf2f560fc439cb5401c228b56d09fb12b36f20",
+    "changeKey": "c08dbb293e47bd52739555818697813a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "afc491e1ae3c1a45816e",
+    "workId": "afc491e1ae3c1a45816e",
+    "driveFileId": "1ZIv49NCQx3dUQl0EnK4Apa0NkQIeBfQk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:46:01.102251+00:00",
+    "updatedAt": "2026-09-21T13:46:01.102268+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:46:01.102347+00:00"
+    }
+  }
+}

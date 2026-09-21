@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "위대한후예",
+    "author": "금강",
+    "genre": "무협",
+    "tags": [
+      "금강",
+      "대고구려",
+      "대한수호신문",
+      "곽천수",
+      "귀왕혈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography",
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무협 대가 금강의 한민족의 역사적 기상과 대환 수호신문의 웅장한 기개를 그려낸 무협 소설입니다.",
+    "oneLineSummary": "고조선과 고구려의 역사적 정통성을 이은 대한 수호신문과 명초 금릉의 대장군 곽천수 가문 및 귀왕혈의 얽힌 운명.",
+    "overallSummary": "한민족의 태고 배달과 대고구려의 역사적 정통성을 배경으로 한 수호신문이 백두산 장군봉에서 비밀리에 대업을 다짐한다. 한편, 명나라 건국 초 금릉에서는 건문제의 삭번 정책과 제왕들의 대립 속에서 대장군 곽천수와 그의 말괄량이 딸 곽부용의 평화로운 일상 뒤로 앙천사독과 귀왕혈의 암살 음모가 드리워진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 역사시대 및 대환 수호신문",
+        "summary": "한민족의 찬란한 대고구려 역사 개관과 백두산 장군봉에서 신문 장문인과 제자의 대화."
+      },
+      {
+        "sectionTitle": "제1장 멸문지화",
+        "summary": "귀왕혈의 앙천사독이 곽천수 대장군 암살 청부를 받는 장면과 금릉 곽 장군부의 정경 및 곽부용과의 대화."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 배경",
+        "value": "단군조선-고구려-발해로 이어지는 한민족 사관과 명초 주원장 사후 건문제 시절의 정국"
+      }
+    ],
+    "keyEntitiesText": "호국(백의인), 백발노인, 앙천사독, 곽천수 대장군, 곽부용",
+    "settingText": "백두산 장군봉, 명나라 초기의 도읍 금릉(응천부) 장군부"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1p-REb5esO3Lp2iI5dID_mc8UbjdPnlp1",
+    "filename": "위대한후예(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.296Z",
+    "size": "2312728",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1p-REb5esO3Lp2iI5dID_mc8UbjdPnlp1/view?usp=drivesdk",
+    "sourceSha256": "3c827b8bc62b28f92f95a970011fe8d0005dd9079d593f19314214a33504c864",
+    "textSha256": "34e5810e423043e9b5302482a8fa85c6cf74606c516de22b31ed69f8aae590ab",
+    "changeKey": "1ba97401e3255d00451c4d94c79f896d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "30de6053973b2684412c",
+    "workId": "30de6053973b2684412c",
+    "driveFileId": "1p-REb5esO3Lp2iI5dID_mc8UbjdPnlp1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:46:15.950507+00:00",
+    "updatedAt": "2026-09-21T13:46:15.950524+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:46:15.950605+00:00"
+    }
+  }
+}

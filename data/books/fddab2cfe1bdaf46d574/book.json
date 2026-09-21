@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유검록",
+    "author": "권천",
+    "genre": "무협",
+    "tags": [
+      "권천",
+      "유검록",
+      "백무결",
+      "황룡",
+      "사마령"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권천 작가의 깊이 있는 문체와 캐릭터 간의 비극적 인연을 그려낸 무협 소설입니다.",
+    "oneLineSummary": "십대고수 백무결과 황룡 사이의 비극적 치정 소문과, 형의 죽음 후 검을 잡게 된 허약한 소년 사마령의 성장.",
+    "overallSummary": "옥선랑 백무결이 무적대협 황룡의 아내 산화선자를 범하고 그녀가 자살했다는 소문으로 강호가 충격에 빠진다. 한편 형산 온현의 사마가에서는 큰아들 사마광이 도적에게 죽자 허약한 둘째 사마령이 강제로 검을 잡게 되고, 친구 철무진, 소봉과 함께 시련에 직면하며 새로운 길을 도모한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서(序)",
+        "summary": "산화선자의 자살과 유서, 이로 인한 백무결과 황룡 간의 대결 구도 형성."
+      },
+      {
+        "sectionTitle": "제1장 강호출사",
+        "summary": "형 사마광의 죽음으로 검을 잡은 사마령의 고련과 친구 철무진, 소봉, 아삼에 얽힌 사건과 떠남의 결의."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사적 대비",
+        "value": "강호 십대고수들의 거창한 은원과 온현 소년들의 가슴 저린 성장기 대비"
+      }
+    ],
+    "keyEntitiesText": "백무결, 황룡, 산화선자, 사마고, 사마령, 철무진, 소봉, 아삼",
+    "settingText": "호남성 형산 온현 및 산자락 움막"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14PNbjEEGk5_whOsvxWtM6tePwkTU-ugC",
+    "filename": "유검록(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.338Z",
+    "size": "783885",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/14PNbjEEGk5_whOsvxWtM6tePwkTU-ugC/view?usp=drivesdk",
+    "sourceSha256": "dc2434c313fff3f0c2163505448d1b27c4097d94e2e43fcdf19dc9fd52b1f23c",
+    "textSha256": "d9ffa4e0ddd6297d98538bf340d48095e73264c319a937f316e936f993d9cb9f",
+    "changeKey": "2fb22fbab274934ff663674d3d757f22",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fddab2cfe1bdaf46d574",
+    "workId": "fddab2cfe1bdaf46d574",
+    "driveFileId": "14PNbjEEGk5_whOsvxWtM6tePwkTU-ugC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:46:23.045614+00:00",
+    "updatedAt": "2026-09-21T13:46:23.045631+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:46:23.045707+00:00"
+    }
+  }
+}

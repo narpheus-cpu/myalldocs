@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사나운 새벽 1",
+    "author": "윤석진",
+    "genre": "판타지",
+    "tags": [
+      "사나운새벽",
+      "이수영",
+      "윤석진",
+      "흑마법사",
+      "용병"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "윤석진(필명 이수영) 작가의 어두우면서도 깊이 있는 정통 판타지 장편 소설입니다.",
+    "oneLineSummary": "정체를 숨긴 흑마법사 주인공이 모닥불 가에서 토르가 및 어설픈 귀족 초보 용병들을 만나 대화하는 야숙 풍경.",
+    "overallSummary": "벨버리든 왕국 내전이 끝난 후, 정체를 가린 흑마법사 주인공은 야숙 중 참전 용병 출신 토르가를 만난다. 이어 귀족 가문 출신의 어설픈 초보 용병 3인방(데일런트, 메디사, 유세린)이 합류하자 토르가는 그들의 어설픔을 지적하고, 흑마법사의 마신 계약과 이름에 대한 금기를 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 Chapter 1",
+        "summary": "모닥불 가에서 흑마법사 주인공과 용병 토르가, 그리고 초보 용병 3인방이 나누는 대화와 흑마법사의 내력 설명."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관 설정",
+        "value": "18년간의 벨버리든 왕국 내전의 역사와 흑마법사-마신 간 계약의 금기 규칙"
+      }
+    ],
+    "keyEntitiesText": "주인공(흑마법사), 토르가 센텀, 데일런트 화라, 메디사 힐로, 유세린 데글로",
+    "settingText": "벨루가 산맥 근처 밤의 모닥불 야영지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1u-MrwQ0Ukz0z47lEIkqeu5O02NfeDX_R",
+    "filename": "이수영-사나운 새벽 01(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:03:06.000Z",
+    "size": "449059",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1u-MrwQ0Ukz0z47lEIkqeu5O02NfeDX_R/view?usp=drivesdk",
+    "sourceSha256": "bd16e9c76c59a4c7db9a3f6df9cfcac91a131d7dd11b62a695770c1d392d3b42",
+    "textSha256": "d77adb40020950582ca13719a742c1ecaf10f3d8f318eefb350ac67813c187d0",
+    "changeKey": "69617dde1a5b7eebf70e4b01bd4e3737",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9e446176d789767ffdec",
+    "workId": "9e446176d789767ffdec",
+    "driveFileId": "1u-MrwQ0Ukz0z47lEIkqeu5O02NfeDX_R",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:46:39.137604+00:00",
+    "updatedAt": "2026-09-21T13:46:39.137620+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4278,
+      "updatedAt": "2026-09-21T13:46:39.137698+00:00"
+    }
+  }
+}

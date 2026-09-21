@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "용천무",
+    "author": "사마달",
+    "genre": "무협",
+    "tags": [
+      "사마달",
+      "미인혈",
+      "냉검상",
+      "관외"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무협 소설계의 대표적 작가 사마달의 호쾌하고 강렬한 무협 작품입니다.",
+    "oneLineSummary": "천 년 동안 백골 사이에서 잠들어 있던 전설의 보도 미인혈을 품은 냉검상이 관외에 등장하며 벌어지는 혈사.",
+    "overallSummary": "천 년의 세월 동안 백골 사이에서 전설로 잠들어 있던 도(刀) 미인혈을 얻은 사내 냉검상이 관외에 나타난다. 명기 조향을 정복하고 관외 객잔에서 악명 높은 곽삼을 일검에 베어버린 냉검상은 미타현의 거상 악노야를 찾아가 그가 고용한 대막사검 철무독과 대립한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 미인혈",
+        "summary": "천 년간 숨겨져 있던 미인의 나신이 그려진 검 미인혈의 내력과 냉검상의 등장."
+      },
+      {
+        "sectionTitle": "제1장 미라파샤 - 불을 먹는 지옥의 독수리",
+        "summary": "조향과의 만남, 포융객잔에서의 곽삼 처단, 미타현 악노야 저택에서의 철무독과의 대치."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "무기 설정",
+        "value": "도신에 핏빛 절세미인의 나신이 그려진 거북 등껍질 칼집의 미인혈"
+      }
+    ],
+    "keyEntitiesText": "냉검상, 미인혈, 조향, 곽삼, 애화, 악노야, 철무독",
+    "settingText": "관외 지방 포융객잔 및 미타현 거상의 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BDUIISo-X-n6CKCnQF3jk4SucMn0S24_",
+    "filename": "용천무(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.191Z",
+    "size": "1078923",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1BDUIISo-X-n6CKCnQF3jk4SucMn0S24_/view?usp=drivesdk",
+    "sourceSha256": "3d4e1dd377507a6abf27cedbf2735aba7b4029eb6343f60314e2c238423f9b0b",
+    "textSha256": "ec2fcd93abb61d724a26b6f8e58ab97c0c39d5ceae1ba4ee227b178b665f0f95",
+    "changeKey": "adb291917fc954b70e2c82cae6c26ecb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fd63e6fdffa816b14e34",
+    "workId": "fd63e6fdffa816b14e34",
+    "driveFileId": "1BDUIISo-X-n6CKCnQF3jk4SucMn0S24_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:45:43.357551+00:00",
+    "updatedAt": "2026-09-21T13:45:43.357575+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:45:43.357744+00:00"
+    }
+  }
+}

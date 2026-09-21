@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "월영마검",
+    "author": "이수경",
+    "genre": "무협",
+    "tags": [
+      "월영마검",
+      "곽옥령",
+      "자서보전",
+      "아소정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "봄비 내리는 서재에서 독자들에게 청량제가 되기를 바라며 집필한 이수경 작가의 무협 소설입니다.",
+    "oneLineSummary": "무림지화 곽옥령이 존재하지도 않는 자서보전을 노리고 아소정으로 몰려든 수많은 강호 고수들에 맞서는 혈전.",
+    "overallSummary": "은거 중인 절세고수 무림지화 곽옥령에게 비급 '자서보전'이 있다는 거짓 소문이 퍼진다. 이에 천영문, 사혼곡 흑살단, 중원칠괴, 소림사 장로들까지 쏟아져 나와 아소정을 둘러싸고 공격해 온다. 곽옥령은 월영마검을 뽑아들고 절대 무공으로 적들을 베어 넘기며 음모의 실체를 파헤치려 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 차도살인지계 - 1 & 2",
+        "summary": "능이령에 살수가 집결하고 아소정의 곽옥령이 백운협, 흑살단, 중원칠괴를 월영마검 일초로 제압하는 혈전."
+      },
+      {
+        "sectionTitle": "제1장 차도살인지계 - 3",
+        "summary": "아소정에 쳐들어온 흑살단 살수들을 처단한 후 소림사 계율원 지광대사 일행과 맞서는 곽옥령."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "전투 묘사",
+        "value": "월영마검의 찬란한 백광과 일검필살의 쾌속한 검기 전개"
+      }
+    ],
+    "keyEntitiesText": "곽옥령, 백운협, 중원칠괴, 지광대사, 월영마검, 아소정",
+    "settingText": "진강현 동흥촌 부주산 기슭 아소정(죽림정사)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13glkFJDiDaPaO_pKWkF4W1BnDOmDfRDG",
+    "filename": "월영마검(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.276Z",
+    "size": "745114",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/13glkFJDiDaPaO_pKWkF4W1BnDOmDfRDG/view?usp=drivesdk",
+    "sourceSha256": "ee90d3a121663e750153b69ee9f2134fa395cfa5ddd415b8a70c9787c29d4eb2",
+    "textSha256": "0df49ca8e464a244598f7035a35f88d75cb1360d69e51e2c9fd0ee6234fe39ee",
+    "changeKey": "1c24d08bd68c0b7463357a0a4ee6829a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b624d037a9da5436a049",
+    "workId": "b624d037a9da5436a049",
+    "driveFileId": "13glkFJDiDaPaO_pKWkF4W1BnDOmDfRDG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T13:46:08.685332+00:00",
+    "updatedAt": "2026-09-21T13:46:08.685351+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T13:46:08.685428+00:00"
+    }
+  }
+}
