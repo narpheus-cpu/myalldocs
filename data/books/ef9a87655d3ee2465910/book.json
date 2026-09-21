@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무라카미 하루키-직업으로서의 소설가",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "소설가",
+      "작가론",
+      "글쓰기",
+      "자전적"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문학론",
+        "자전적"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "등단 이후 최초로 자신의 글쓰기 현장과 소설가라는 직업에 대한 진솔한 생각을 풀어낸 자전적 에세이.",
+    "overallSummary": "어떻게 소설가가 되었는지, 오리지낼리티란 무엇인지, 장편소설을 쓸 때 시간을 내 편으로 만드는 법 등 소설가로 살아오며 체득한 문학적 소신과 경험을 진솔하고 강력한 어조로 들려준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소설가는 포용적인 인종인가",
+        "summary": "소설이라는 장르가 누구에게나 열려 있는 '프로레슬링 링'과 같아서 다른 분야의 진입에 비교적 포용적이라는 주장."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "성격",
+        "value": "작가의 첫 본격적인 작가론 및 문학적 자서전"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 마르셀 프루스트, 제임스 조이스",
+    "settingText": "일본"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LrULG6twfIg3QZRiGsO6vWPpgJZrRxVz",
+    "filename": "무라카미 하루키-직업으로서의 소설가(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.114Z",
+    "size": "303449",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필",
+      "수필집"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필/수필집",
+    "webViewLink": "https://drive.google.com/file/d/1LrULG6twfIg3QZRiGsO6vWPpgJZrRxVz/view?usp=drivesdk",
+    "sourceSha256": "7befd8f4acb5d5dc34e345e5c116e10b73c46ba267a3415866cf7eaeb4c2b443",
+    "textSha256": "85295139242daa965dec4ff984782d84946f5773f4f9a1d1a5e70e36dcdf730a",
+    "changeKey": "a059bbf2fb65cad4fe5adee585c18feb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ef9a87655d3ee2465910",
+    "workId": "ef9a87655d3ee2465910",
+    "driveFileId": "1LrULG6twfIg3QZRiGsO6vWPpgJZrRxVz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:30:04.713411+00:00",
+    "updatedAt": "2026-09-21T20:30:04.713427+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:30:04.713529+00:00"
+    }
+  }
+}

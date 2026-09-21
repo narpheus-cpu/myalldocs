@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무라카미 하루키 수필 모음",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "커티삭",
+      "커피",
+      "코끼리",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "회고",
+        "일상사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "위스키, 커피, 코끼리 소멸 등 일상의 소소한 대상들에 대한 기억과 단상들.",
+    "overallSummary": "커티삭이라는 술의 이름에 대한 생각, 사춘기 시절 소도시의 찻집에서 마셨던 커피와 재즈에 대한 추억, 그리고 시에서 운영하던 늙은 코끼리가 돌연 소멸했던 기묘한 사건을 추적하는 내용을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "커티삭",
+        "summary": "술 이름의 울림에 대한 단상."
+      },
+      {
+        "sectionTitle": "커피를 마시는 어떤 방법에 대하여",
+        "summary": "사춘기 시절 비 내리는 항구 도시 찻집에서의 커피와 재즈에 대한 기억."
+      },
+      {
+        "sectionTitle": "코끼리의 소멸",
+        "summary": "도심 속 사육소에서 늙은 코끼리와 사육사가 족쇄를 남긴 채 흔적 없이 사라진 의문의 사건."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "일상의 사물과 미스터리한 사회적 사건의 결합"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 와타나베 노보루",
+    "settingText": "일본의 소도시, 도쿄 근교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BKKww3BhU3l5pL8VQ6GwvxqBhULPQjCl",
+    "filename": "무라카미 하루키 수필 모음.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.803Z",
+    "size": "681006",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필",
+      "수필집"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필/수필집",
+    "webViewLink": "https://drive.google.com/file/d/1BKKww3BhU3l5pL8VQ6GwvxqBhULPQjCl/view?usp=drivesdk",
+    "sourceSha256": "b984e073cef7d2692ce3f8566681274d83fc1beefc65cac5a2a780e827718678",
+    "textSha256": "6d0aafc50a34e84b61c6a5935b510d187faecd30fae81e054330184de4d1c032",
+    "changeKey": "ce28a2376cd234ced20eccd4bfc50d67",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8d1cd3eb3c64a06aaaf6",
+    "workId": "8d1cd3eb3c64a06aaaf6",
+    "driveFileId": "1BKKww3BhU3l5pL8VQ6GwvxqBhULPQjCl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:29:11.808821+00:00",
+    "updatedAt": "2026-09-21T20:29:11.808836+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:29:11.808946+00:00"
+    }
+  }
+}

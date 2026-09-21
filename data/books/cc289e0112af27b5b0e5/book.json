@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소설가의 유명도에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "유명도",
+      "작가",
+      "일상",
+      "익명성"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "자전적",
+        "유머"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "소설가로서 일상에서 겪는 대중의 인지도와 유명세에 대한 단상.",
+    "overallSummary": "바 카운터에서 우연히 자신에 대한 엉뚱한 화제로 이어지는 소문을 듣거나, 거리와 야구장에서 독자유저를 만나는 일화들을 통해 소설가라는 직업이 가지는 기묘한 유명도를 고찰한다. TV에 출연하지 않는 이유와 길거리에서 아는 척을 당했던 경험들을 솔직하고 유쾌하게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "우연히 들은 소문",
+        "summary": "재즈클럽에서 엉뚱하게 자신의 이름으로 화제가 바뀐 에세이와 길거리에서 모르는 이에게 말을 들었던 기억들."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "대중적 노출과 유명세에 대한 소설가의 거리두기"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 신교지 기미에, 안자이 미즈마루",
+    "settingText": "일본, 바, 야구장, 전철 안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1O0ybiZ0J6JsIKJGxZ2GDHrfIjNjyB-Bo",
+    "filename": "소설가의 유명도에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.731Z",
+    "size": "4928",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1O0ybiZ0J6JsIKJGxZ2GDHrfIjNjyB-Bo/view?usp=drivesdk",
+    "sourceSha256": "2a72ca44a2144fdbc3e05f157dfe35a1ff44beb4431ae8555630ff9643c4ecd9",
+    "textSha256": "bd306401093deb480eecd8bf7cccd2ff65c130b8f8637445cc1f8c83821d520f",
+    "changeKey": "9dd9c9a83bda7ee0a33c0b7df3fb231a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cc289e0112af27b5b0e5",
+    "workId": "cc289e0112af27b5b0e5",
+    "driveFileId": "1O0ybiZ0J6JsIKJGxZ2GDHrfIjNjyB-Bo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:28:47.412384+00:00",
+    "updatedAt": "2026-09-21T20:28:47.412401+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:28:47.412531+00:00"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "송충이 이야기",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "송충이",
+      "후나바시",
+      "살충제",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "유머",
+        "자연"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "초여름마다 벚나무 가로수에서 대량으로 발생하는 송충이들로 인해 겪는 곤혹스러운 경험.",
+    "overallSummary": "후나바시시의 허술한 행정 때문에 예고 없이 살충 작업이 이루어져 아침마다 온 동네가 송충이 투성이가 되는 패닉 영화 같은 일상을 유쾌하면서도 징그럽게 묘사한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "송충이의 습격",
+        "summary": "예고 없는 살충 작업으로 인해 집 주변과 길바닥이 송충이로 가득 차게 된 황당한 경험."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "일상에서 마주치는 엉뚱하고 곤혹스러운 자연현상"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 후나바시시",
+    "settingText": "후나바시시의 주택가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pY5CcKpQLZScIImlU_o5NNOqT67JKeXc",
+    "filename": "송충이 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.753Z",
+    "size": "1795",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1pY5CcKpQLZScIImlU_o5NNOqT67JKeXc/view?usp=drivesdk",
+    "sourceSha256": "5100ddc32e23a0b2fad834df6639baf53dc5cddca0de7f4ec8dd6cdbf6500949",
+    "textSha256": "46600dbad033d3acc0cb6f9ae7a1ccf926fc22d5775211d8cb186c33ef9d0bcd",
+    "changeKey": "06eae8dafc539f7063a3635383cb0376",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "578e28a7a2a358debb7b",
+    "workId": "578e28a7a2a358debb7b",
+    "driveFileId": "1pY5CcKpQLZScIImlU_o5NNOqT67JKeXc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:28:59.921642+00:00",
+    "updatedAt": "2026-09-21T20:28:59.921659+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:28:59.921776+00:00"
+    }
+  }
+}

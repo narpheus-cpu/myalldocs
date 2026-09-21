@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무라카미 하루키-그러나 즐겁게 살고 싶다",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "자유업",
+      "연필",
+      "영화",
+      "양복"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "자전적",
+        "유머"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "자유업으로 살아가며 겪는 일상의 소소한 에피소드와 영화, 학용품에 대한 단상.",
+    "overallSummary": "보너스 시즌마다 은행에서 겪는 직업 오해 소동, F 연필에 얽힌 기묘한 이미지 연상, 영화관을 드나드는 영화 중독증, 그리고 생애 첫 양복부터 한 벌의 양복만 남기까지의 변천사 등을 유머러스하게 풀어낸 에세이집.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "자유업은 즐겁다",
+        "summary": "프리랜서(문필업)로 살아가며 은행 창구 등에서 직업을 설명하느라 겪는 해프닝."
+      },
+      {
+        "sectionTitle": "세일러복을 입은 여학생 같은 연필",
+        "summary": "F 연필을 세일러복을 입은 여학생에 비유하게 되면서 겪는 엉뚱한 상상의 전개."
+      },
+      {
+        "sectionTitle": "영화 중독증",
+        "summary": "장편소설 탈고 후 찾아오는 평온한 시기에 닥치는 대로 영화관을 찾는 취미."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "일상의 사소한 자극을 유머로 승화시키는 글쓰기"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 안자이 미즈마루, 스즈키 지카라",
+    "settingText": "일본, 도쿄, 교외 전원도시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TdMaPOE6Hwuh2skFb8e86y6JksBs6gbJ",
+    "filename": "무라카미 하루키-그러나 즐겁게 살고싶다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.842Z",
+    "size": "341359",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필",
+      "수필집"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필/수필집",
+    "webViewLink": "https://drive.google.com/file/d/1TdMaPOE6Hwuh2skFb8e86y6JksBs6gbJ/view?usp=drivesdk",
+    "sourceSha256": "efd42e324ad34ee2d88a4c137af06e026fc42ff3274a5a44d515f0ac377d9e1f",
+    "textSha256": "2ab14fa2eb29961eb6024106fbaf4d1ceea889da4b79995de0e641a33cd3d75e",
+    "changeKey": "f2f53e6e05b82657585b53802aa62851",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f6b589649095c5061eb3",
+    "workId": "f6b589649095c5061eb3",
+    "driveFileId": "1TdMaPOE6Hwuh2skFb8e86y6JksBs6gbJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:29:23.838068+00:00",
+    "updatedAt": "2026-09-21T20:29:23.838084+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:29:23.838192+00:00"
+    }
+  }
+}

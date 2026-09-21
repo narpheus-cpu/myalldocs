@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무라카미 하루키-먼 북소리",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "유럽",
+      "여행",
+      "로마",
+      "아테네"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "여행기",
+        "회고록"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "3년 동안 이탈리아, 그리스 등 남유럽을 떠돌며 체류한 기록을 담은 여행 에세이.",
+    "overallSummary": "일본을 떠나 로마에 베이스 캠프를 차리고 아테네와 여러 섬들을 여행하며 겪은 일상을 가감 없이 기록했다. 머릿속을 맴도는 두 마리 벌 '조르조'와 '카를로'로 비유되는 극심한 피폐함과 외지 생활의 고충, 그리고 그 속에서 찾아내는 소소한 평화와 통찰을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "로마의 입국과 피폐",
+        "summary": "장기 여행의 시작점인 로마에 도착해 지친 심신과 머릿속을 맴도는 벌들에 대한 묘사."
+      },
+      {
+        "sectionTitle": "아테네와 전셋집",
+        "summary": "아테네를 방문해 발렌티나를 만나 섬의 전셋집을 소개받는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "타국에서의 낯선 일상과 내면의 심리적 변화"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 조르조, 카를로, 발렌티나",
+    "settingText": "이탈리아 로마, 그리스 아테네"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UlK8JiIu7ref4Mo-S1WguO6Yy1Llr51f",
+    "filename": "무라카미 하루키-먼 북소리.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.875Z",
+    "size": "600828",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필",
+      "수필집"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필/수필집",
+    "webViewLink": "https://drive.google.com/file/d/1UlK8JiIu7ref4Mo-S1WguO6Yy1Llr51f/view?usp=drivesdk",
+    "sourceSha256": "4bc18a4cace94d4a918236bbc14718f88abecca9c43489d41fc13eaa1de40e78",
+    "textSha256": "bdde5e755d0ca32431ba6dce1985ad1dd9e75045c1269e9a8d256b1f9e7818cd",
+    "changeKey": "b8771e2599267bf81dcd9de29b15fca1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "88f5204b864073d4dfd0",
+    "workId": "88f5204b864073d4dfd0",
+    "driveFileId": "1UlK8JiIu7ref4Mo-S1WguO6Yy1Llr51f",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:29:42.109877+00:00",
+    "updatedAt": "2026-09-21T20:29:42.109892+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:29:42.109998+00:00"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소확행",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "소확행",
+      "행복",
+      "일상",
+      "취미"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "미학",
+        "일상사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "서랍 가득 개켜진 속옷을 볼 때처럼 작지만 확고한 행복을 찾는 이야기.",
+    "overallSummary": "백화점에서 마음에 드는 언더팬츠를 고르고 골라 대여섯 장씩 사 모으는 소소한 취미와, 새로 산 보송보송한 면 런닝셔츠를 입을 때 느끼는 감정을 통해 작가 자신만의 '작지만 확고한 행복(소확행)'의 개념을 정의한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소확행의 발견",
+        "summary": "팬츠를 모으고 런닝셔츠를 입는 일상적인 순간에서 느끼는 작고 확실한 행복."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심개념",
+        "value": "소확행 (작지만 확고한 행복)"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키",
+    "settingText": "일상의 공간, 백화점"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15tmEmwhGLmKZ7IxymsRNIXrr4Dp8H6xM",
+    "filename": "소확행.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.741Z",
+    "size": "1637",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/15tmEmwhGLmKZ7IxymsRNIXrr4Dp8H6xM/view?usp=drivesdk",
+    "sourceSha256": "376e2998da2ecb2c7ef95703361c9c6b2f00ce116a5c6a107fcd62b4ee1b9f11",
+    "textSha256": "0999ae65b83ce04e625c245ed357b005e8053fd2cc2b297a11b7067e4954ebe6",
+    "changeKey": "6a9f35d675bf75d472cbc798301598d9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cf0c3687d89694740735",
+    "workId": "cf0c3687d89694740735",
+    "driveFileId": "15tmEmwhGLmKZ7IxymsRNIXrr4Dp8H6xM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:28:53.710014+00:00",
+    "updatedAt": "2026-09-21T20:28:53.710028+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:28:53.710116+00:00"
+    }
+  }
+}

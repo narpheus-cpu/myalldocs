@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "술에 관하여 2",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "술",
+      "맥주",
+      "위스키",
+      "와인"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "주도",
+        "일상사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "나이가 들면서 맥주에서 위스키와 와인으로 변해가는 술 취향과 음주에 대한 회고.",
+    "overallSummary": "젊은 시절에는 맥주와 싸구려 정종을 마시며 곤욕을 치렀으나, 튼튼한 위를 바탕으로 나이가 들면서 위스키와 포도주를 즐기게 된 주도(酒道)의 변화를 유쾌하게 풀어낸다. 한 달에 한 번 빈 병을 버릴 때 이웃 아줌마에게 듣는 놀림 등 소소한 일상이 담겨 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "맥주에서 다른 술로",
+        "summary": "젊은 시절의 과음과 정종의 추억, 나이가 들면서 위스키와 와인을 즐기게 된 주량의 변화."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "세월의 흐름에 따른 기호 식품(술)과 신체의 변화"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 아라시야마 코자부로, 안자이 미즈마루",
+    "settingText": "일본 도쿄, 자택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HKpv6bVa-azmuLRorEEAWBIhAB5z_QS_",
+    "filename": "술에 관하여 2.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.022Z",
+    "size": "5249",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1HKpv6bVa-azmuLRorEEAWBIhAB5z_QS_/view?usp=drivesdk",
+    "sourceSha256": "99377c937aca4cce825e99841e303e796ce03271237a094dac9ab41d795363cc",
+    "textSha256": "2f56bad89037c93ac48c135f327bd77e51bd07391bea7a72e3aa532c17bed5ea",
+    "changeKey": "ef33f73fbdb3a8cefb1a56adf26dd45e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6a8223f9fc607f2a77f1",
+    "workId": "6a8223f9fc607f2a77f1",
+    "driveFileId": "1HKpv6bVa-azmuLRorEEAWBIhAB5z_QS_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:30:24.668382+00:00",
+    "updatedAt": "2026-09-21T20:30:24.668398+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:30:24.668499+00:00"
+    }
+  }
+}

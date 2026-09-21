@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무라카미 하루키-달리기를 말할 내가 하고 싶은 이야기",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "달리기",
+      "마라톤",
+      "회고록",
+      "신체"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "자전적",
+        "스포츠"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "오랫동안 달리기를 계속해온 소설가의 신체적·정신적 경험과 달리기에 대한 회고록.",
+    "overallSummary": "하와이 카우아이 섬과 보스턴 등지에서 매일 꾸준히 달리기를 지속하며 느낀 점들을 진솔하게 풀어낸다. 마라톤을 통해 얻은 경험칙과 소설 창작의 공통점을 연결시키며, 나이가 들어감에 따라 체력의 한계를 마주하고 극복해 나가는 과정을 가감 없이 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "선택 사항으로서의 고통",
+        "summary": "달리기를 통해 스스로 선택한 고통과 그 의미를 돌아보며 이 책을 쓰게 된 동기."
+      },
+      {
+        "sectionTitle": "하와이의 일상과 달리기",
+        "summary": "하와이 카우아이 섬에서 매일 거르지 않고 일정한 거리를 달리는 루틴과 생각들."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심철학",
+        "value": "아픔은 피할 수 없지만 고통은 선택하기에 달렸다 (Pain is inevitable, Suffering is optional)"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 서머셋 몸",
+    "settingText": "하와이 카우아이 섬, 보스턴, 도쿄"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19XAG_IQo9KVUNq5qIZlwELumcXscJo9-",
+    "filename": "무라카미 하루키-달리기를 말할 내가 하고 싶은 이야기(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:03.917Z",
+    "size": "256232",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필",
+      "수필집"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필/수필집",
+    "webViewLink": "https://drive.google.com/file/d/19XAG_IQo9KVUNq5qIZlwELumcXscJo9-/view?usp=drivesdk",
+    "sourceSha256": "dbeb86783d3e5d8ae962b9b8cc97ffab61b040d136af6e5d8feb68a5141005be",
+    "textSha256": "adb064a51eaa9d71624e2d893456074c95e8f04e2034147a52e4b1af4c600a06",
+    "changeKey": "a2ea6753492f225139ac7956fa5b5e6f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "78f9b82178594ad24e86",
+    "workId": "78f9b82178594ad24e86",
+    "driveFileId": "19XAG_IQo9KVUNq5qIZlwELumcXscJo9-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:29:29.830486+00:00",
+    "updatedAt": "2026-09-21T20:29:29.830500+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:29:29.830623+00:00"
+    }
+  }
+}

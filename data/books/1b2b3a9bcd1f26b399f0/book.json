@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무라카미 하루키-슬픈 외국어",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "미국",
+      "프린스턴",
+      "외국어",
+      "보스턴마라톤"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문화비평",
+        "체류기"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "미국 뉴저지주 프린스턴 대학 체류 시절과 보스턴 마라톤 참가 등 미국 생활의 기록.",
+    "overallSummary": "미국 프린스턴 대학에서 객원 연구원으로 지내며 겪었던 일들, 걸프전쟁과 반일 감정의 소용돌이 속에서 느낀 문화적 이질감, 그리고 보스턴 마라톤에 참가해 달릴 때의 소회 등을 진솔하고 날카로운 시선으로 담아냈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프린스턴에서의 삶",
+        "summary": "프린스턴 대학에 체류하게 된 계기와 걸프전쟁 당시 미국의 사회적 분위기."
+      },
+      {
+        "sectionTitle": "보스턴 마라톤을 뛰면서",
+        "summary": "보스턴 마라톤 대회에 참가하여 겪은 고통과 당시 대두되던 미국 내 반일 감정에 대한 단상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "미국 사회의 이면과 이국땅에서 느끼는 문화적 단상"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, F. 스콧 피츠제럴드, 앤디 루니",
+    "settingText": "미국 뉴저지주 프린스턴, 보스턴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15FvoiBJ4x7oWBlTmvuFXTZ4QGdMpyTBk",
+    "filename": "무라카미 하루키-슬픈 외국어.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.929Z",
+    "size": "153717",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필",
+      "수필집"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필/수필집",
+    "webViewLink": "https://drive.google.com/file/d/15FvoiBJ4x7oWBlTmvuFXTZ4QGdMpyTBk/view?usp=drivesdk",
+    "sourceSha256": "83980c05854f8586ed18f06441ae3bf7ad1a2fe44edfc02913d31ee669e72afc",
+    "textSha256": "32178d948df13a28357ca4de9c1998859d9be0799494e08a47773fddd93fcdcc",
+    "changeKey": "0eb8468910ef3b3f069ef2adda70f88b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1b2b3a9bcd1f26b399f0",
+    "workId": "1b2b3a9bcd1f26b399f0",
+    "driveFileId": "15FvoiBJ4x7oWBlTmvuFXTZ4QGdMpyTBk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:29:50.593675+00:00",
+    "updatedAt": "2026-09-21T20:29:50.593689+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:29:50.593797+00:00"
+    }
+  }
+}

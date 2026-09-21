@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소문",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "소문",
+      "일상",
+      "에세이",
+      "미국"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "유머",
+        "일상사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "일상 속에서 접하는 다양한 해가 없는 소문과 황당한 유언비어들에 대한 단상.",
+    "overallSummary": "저자는 교우 관계가 좁음에도 불구하고 자신을 둘러싼 황당한 소문들이 들려오는 일화를 소개하며 이야기를 시작한다. 이후 펭귄 북스의 《RUMOR》라는 책을 바탕으로 미국에 유포된 각종 소문(아인슈타인의 뇌, 존 딜린저의 페니스, 맥도날드 햄버거 성분 등)의 진위 여부를 흥미롭게 해설한다. 근거 없는 소문이 개인과 기업에 미치는 영향과 엉뚱한 오해들을 유쾌하게 풀어내고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나에 대한 소문",
+        "summary": "자신과 무관한 BMW 구입설이나 튀긴 두부 과식설 등 황당한 소문들을 접한 일화."
+      },
+      {
+        "sectionTitle": "미국의 소문들",
+        "summary": "미국의 소문 해설서 《RUMOR》를 통해 아인슈타인의 뇌 보존이나 맥도날드 유언비어 등 흥미로운 소문들의 진실을 파헤침."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "소문의 허구성에서 오는 일상의 재미와 씁쓸함"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 안자이 미즈마루, 존 딜린저, 아인슈타인, 휴 헤프너, 토마스 핀천, J.D. 샐린저",
+    "settingText": "일본 및 미국, 일상적인 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Jf2KXN1vhqPq6wxFiMigRc5dudLHq3vw",
+    "filename": "소문.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.721Z",
+    "size": "4905",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1Jf2KXN1vhqPq6wxFiMigRc5dudLHq3vw/view?usp=drivesdk",
+    "sourceSha256": "b983f437843eda8000351b2936e76cab7efcab59dcea3eac4b43d7b9d1235a4a",
+    "textSha256": "5436bec865306e6b0712dbfc1d3eab953bd5b5255f58dc80b55c25c895eb3f15",
+    "changeKey": "355eb5b8db05c1cb4d6972b6b3742523",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0de33c0fe29019b4f724",
+    "workId": "0de33c0fe29019b4f724",
+    "driveFileId": "1Jf2KXN1vhqPq6wxFiMigRc5dudLHq3vw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:28:40.811238+00:00",
+    "updatedAt": "2026-09-21T20:28:40.811252+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:28:40.811433+00:00"
+    }
+  }
+}

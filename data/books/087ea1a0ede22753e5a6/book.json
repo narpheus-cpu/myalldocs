@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "송충이 항아리의 비극",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "송충이",
+      "형벌",
+      "상상",
+      "공포"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "상상력",
+        "블랙유머"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "세상에서 가장 무섭고 끔찍한 가상의 형벌인 '송충이 항아리'에 대한 상상.",
+    "overallSummary": "깊고 미끄러운 항아리에 수만 마리의 송충이를 채워 넣고 죄수를 떨어뜨려 질식사시키는 끔찍한 가상의 형벌을 매우 구체적이고 디테일하게 상상하여 블랙유머러스하게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "송충이 항아리의 구조와 실행",
+        "summary": "3만 마리의 송충이가 가득 찬 항아리에 죄수를 떨어뜨리는 끔찍한 형벌의 묘사."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "기발하고 그로테스크한 상상력"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키",
+    "settingText": "가상의 형벌 장소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VpvYUHANm47G6K9PyAZKIBeMcEu-WCqj",
+    "filename": "송충이 항아리의 비극.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.770Z",
+    "size": "1748",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1VpvYUHANm47G6K9PyAZKIBeMcEu-WCqj/view?usp=drivesdk",
+    "sourceSha256": "5c042d58cf18afdf203cf329d41b9284df74b1d67e01e3d18766fec2b6915fcf",
+    "textSha256": "1cc17ef706e65f7c6b1a0148f3b20c1a892ab54c8f66afe6c7d40e84e01cc993",
+    "changeKey": "d86afbd22c0353e99d4441566ff08313",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "087ea1a0ede22753e5a6",
+    "workId": "087ea1a0ede22753e5a6",
+    "driveFileId": "1VpvYUHANm47G6K9PyAZKIBeMcEu-WCqj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:29:05.694920+00:00",
+    "updatedAt": "2026-09-21T20:29:05.694935+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:29:05.695029+00:00"
+    }
+  }
+}

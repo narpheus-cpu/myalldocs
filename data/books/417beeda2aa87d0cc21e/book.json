@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무라카미 하루키-거리와 그 불확실한 벽",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "벽",
+      "거리",
+      "도서관",
+      "그림자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "환상문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가.",
+    "oneLineSummary": "높은 벽에 둘러싸인 신비로운 거리와 그곳의 도서관에서 벌어지는 환상적인 이야기.",
+    "overallSummary": "18세 여름에 만난 소녀가 들려준 높은 벽에 둘러싸인 거리에 대한 기억을 품고, 오랜 시간이 흘러 실제로 그 벽으로 둘러싸인 거리에 찾아가 예언자로서 도서관의 '오래된 꿈'을 정리하는 주인공의 환상적인 여정을 그린 소설이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "거리에 대한 기억",
+        "summary": "소녀가 들려준 벽에 둘러싸인 거리와 도서관에 대한 이야기."
+      },
+      {
+        "sectionTitle": "거리의 진입과 도서관",
+        "summary": "실제로 벽의 거리에 들어가 문지기를 만나고 도서관에서 오래된 꿈을 다루게 되는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 특징",
+        "value": "현실과 환상을 오가는 독특한 세계관과 상실감"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 문지기, 소녀",
+    "settingText": "벽에 둘러싸인 가상의 거리, 도서관"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fyCxV1oBNnQj-6qknnTkULETdkvm4lQ6",
+    "filename": "무라카미 하루키-거리와 그 불확실한 벽.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.828Z",
+    "size": "93372",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필",
+      "수필집"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필/수필집",
+    "webViewLink": "https://drive.google.com/file/d/1fyCxV1oBNnQj-6qknnTkULETdkvm4lQ6/view?usp=drivesdk",
+    "sourceSha256": "9b1fce439ce074a0af1224fc197a27f6cd667016b9e3b755dacf531a5d9484cc",
+    "textSha256": "c5e91ea1bdc346c61f2e0d78566c4be76afb6126064edf83b20708806775aed3",
+    "changeKey": "cafe71db496d0870112d229eb38c6fd5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "417beeda2aa87d0cc21e",
+    "workId": "417beeda2aa87d0cc21e",
+    "driveFileId": "1fyCxV1oBNnQj-6qknnTkULETdkvm4lQ6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:29:17.837448+00:00",
+    "updatedAt": "2026-09-21T20:29:17.837463+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:29:17.837572+00:00"
+    }
+  }
+}
