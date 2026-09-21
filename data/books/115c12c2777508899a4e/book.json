@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "가족 시네마",
+    "author": "유미리",
+    "genre": "소설",
+    "tags": [
+      "가족 시네마",
+      "가족의 붕괴",
+      "증오",
+      "영화 촬영",
+      "유미리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "사회",
+        "드라마"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "유미리는 일본 가나가와현 출신의 재일동포 작가로, 희곡과 소설을 넘나들며 가족과 삶과 죽음을 테마로 한 작품들을 발표해 아쿠타가와상을 수상했습니다.",
+    "oneLineSummary": "별거한 지 20년 만에 모인 가족들이 다큐멘터리도 픽션도 아닌 가족 영화를 촬영하며 드러나는 곪아 터진 증오와 갈등을 그린 소설입니다.",
+    "overallSummary": "주인공 모토미의 생일날, 20년 동안 별거하며 뿔뿔이 흩어져 살던 아버지, 어머니, 남동생, 여동생이 불쑥 찾아와 감독 가타야마와 함께 가족을 주제로 한 영화 촬영을 시작한다. 성인 비디오와 단막극에 출연했던 여동생 요코의 주도로 시작된 이 기괴한 촬영 현장에서 가족들은 오랜 세월 서로에게 품어온 증오와 짜증, 그리고 억눌린 감정들을 여과 없이 드러낸다. 급기야 모토미의 직장 동료인 이케까지 현장에 끌어들이며 허울뿐인 가족의 실상을 적나라하게 폭로한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "갑작스러운 가족의 방문",
+        "summary": "오랜 시간 떨어져 지내던 가족들이 영화 촬영을 핑계로 모토미의 집에 들이닥치고, 모토미는 곤혹스러움과 분노를 느낍니다."
+      },
+      {
+        "sectionTitle": "기괴한 영화 촬영",
+        "summary": "감독 가타야마의 지휘 아래 가족들은 20년 만의 재회를 연기하며 각자의 왜곡된 과거와 서로를 향한 증오를 드러냅니다."
+      },
+      {
+        "sectionTitle": "이케의 난입",
+        "summary": "모토미의 직장 동료 이케가 집에 찾아왔다가 가족들의 성화에 못 이겨 영화 촬영에 휘말리게 됩니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "가족 해체",
+        "value": "현대 사회에서 가족이라는 이름이 지닌 허구성괴 서로를 향한 파괴적인 증오를 예리하게 포착했습니다."
+      }
+    ],
+    "keyEntitiesText": "모토미, 요코, 아버지, 어머니, 남동생, 가타야마 감독, 이케",
+    "settingText": "모토미의 아파트, 도쿄"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-0Opa94PoLiMEul2MI0HDZ2TYUZXilBi",
+    "filename": "유미리-가족 시네마.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.396Z",
+    "size": "224599",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1-0Opa94PoLiMEul2MI0HDZ2TYUZXilBi/view?usp=drivesdk",
+    "sourceSha256": "c1bd1fa33fc18246d6f65bbeb1ff05598ce6e98b4bc847af64104456daab11ef",
+    "textSha256": "127516fa81d46dafab1e2bc28af4ac6bf2fd17b2edfd7babb40af37a53e3d53d",
+    "changeKey": "fde698c890565f52262ea31fac97e2a2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "115c12c2777508899a4e",
+    "workId": "115c12c2777508899a4e",
+    "driveFileId": "1-0Opa94PoLiMEul2MI0HDZ2TYUZXilBi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:29:38.409926+00:00",
+    "updatedAt": "2026-09-21T22:29:38.409942+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:29:38.410063+00:00"
+    }
+  }
+}

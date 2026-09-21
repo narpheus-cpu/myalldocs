@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인간 동물원",
+    "author": "츠츠이 야스다카",
+    "genre": "소설",
+    "tags": [
+      "인간 동물원",
+      "츠츠이 야스다카",
+      "단편집",
+      "조건반사",
+      "풍자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "풍자",
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "츠츠이 야스다카는 일본의 전설적인 SF·풍자 작가로, 기발한 상상력과 신랄한 유머로 현대 사회의 부조리를 고발합니다.",
+    "oneLineSummary": "교통사고로 개와 말, 돼지의 장기를 이식받은 대중작가가 동물적 본능과 조건반사에 시달리며 매스컴의 먹잇감이 되는 이야기입니다.",
+    "overallSummary": "대중작가 겐모치 다이스케는 고속도로 대형 사고로 사경을 헤매다 극적으로 살아난다. 하지만 의사들은 급한 대로 개(심장), 말(간), 돼지(위장)의 장기를 그의 몸에 이식했고, 본인의 동의도 없이 이를 학계에 보고한다. 퇴원 후 다이스케는 매스컴의 집요한 사생활 침해와 시선에 시달리는 한편, 몸속에 심어진 동물들의 장기 때문에 낯선 조건반사와 본능적 충동(쓰레기 더미를 탐하거나 전봇대에 오줌을 누고 싶어 하는 등)에 휩싸인다. 과학의 진보와 매스컴의 폭력을 신랄하게 풍자한 소설이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "충격적인 이식 수술",
+        "summary": "교통사고로 살아난 작가 겐모치 다이스케는 자신의 몸에 동물들의 장기가 이식되었다는 사실을 알고 절망합니다."
+      },
+      {
+        "sectionTitle": "매스컴의 공세",
+        "summary": "의학계와 언론은 다이스케를 호기심 어린 실험 대상이자 악인으로 낙인찍고, 사생활을 낱낱이 파헤치며 조롱합니다."
+      },
+      {
+        "sectionTitle": "동물적 본능과 조건반사",
+        "summary": "다이스케는 개와 말, 돼지의 장기가 일으키는 기괴한 조건반사와 충동을 억누르려 애쓰지만 결국 동물적 본능에 굴복하고 맙니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "블랙 유머",
+        "value": "과학 만능주의와 인간 존엄성 상실, 그리고 무책임한 매스컴의 폭력을 그로테스크한 유머로 비판합니다."
+      }
+    ],
+    "keyEntitiesText": "겐모치 다이스케, 아내, 두목 의사",
+    "settingText": "병원, 자택, 주택가 골목"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FEg43oH1r1IKM6XpYFN92MDqGHBd76lb",
+    "filename": "츠츠이 야스다카-인간 동물원.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.624Z",
+    "size": "235672",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1FEg43oH1r1IKM6XpYFN92MDqGHBd76lb/view?usp=drivesdk",
+    "sourceSha256": "4c2b845f6fee91ce1e634156d66533ed0a865fea703109f9da573adae5b3f899",
+    "textSha256": "fab33d4ef94cae248e9ee7cec4095a651e17022947afe94bd54c8a63fbb11669",
+    "changeKey": "ee744312d248c1c7ad5e21eee1f098d9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fa9f47e6789a7530e959",
+    "workId": "fa9f47e6789a7530e959",
+    "driveFileId": "1FEg43oH1r1IKM6XpYFN92MDqGHBd76lb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:33:05.748832+00:00",
+    "updatedAt": "2026-09-21T22:33:05.748848+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:33:05.748973+00:00"
+    }
+  }
+}

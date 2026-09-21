@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "키친",
+    "author": "요시모토 바나나",
+    "genre": "소설",
+    "tags": [
+      "키친",
+      "고독",
+      "상실",
+      "치유",
+      "부엌"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성장",
+        "위로"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "요시모토 바나나는 현대 일본 문학을 대표하는 작가로, 일상적인 소재를 통해 인간의 고독과 상실을 따뜻하게 위로하는 작품들을 집필했습니다.",
+    "oneLineSummary": "부모를 모두 여의고 홀로 남은 여대생이 부엌이라는 공간과 타인의 온정을 통해 슬픔을 극복하고 홀로서기에 이르는 이야기입니다.",
+    "overallSummary": "유일한 가족이었던 할머니마저 세상을 떠나 천애고아가 된 사쿠라이 미카게는 부엌에서 잠들 정도로 깊은 고독에 빠진다. 그러던 중 할머니가 다니던 꽃집의 아르바이트생 다나베 유이치와 그의 어머니 에리코(사실은 트랜스젠더 아버지)의 도움으로 그들의 집에 신세를 지게 된다. 기묘하지만 따뜻한 가족 형태를 지닌 이들과 함께 지내며 미카게는 삶의 절망을 이겨내고 정신적인 홀로서기와 평온을 찾아간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "부엌과 고독",
+        "summary": "할머니의 죽음으로 세상에 홀로 남겨진 미카게는 냉장고 옆 부엌이라는 공간에서 안정을 찾으며 슬픔을 견뎌냅니다."
+      },
+      {
+        "sectionTitle": "다나베 가족과의 만남",
+        "summary": "장례식에서 알게 된 유이치의 제안으로 미카게는 그들의 집에 들어가 살게 되고, 독특하고 아름다운 미인의 어머니 에리코를 만나게 됩니다."
+      },
+      {
+        "sectionTitle": "비밀과 유대",
+        "summary": "에리코가 사실은 트랜스젠더 아버지라는 놀라운 사실을 알게 되지만, 이들의 따뜻한 배려와 맛있는 음식을 통해 미카게는 외로움을 달래고 새로운 희망을 품습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "공간의 상징성",
+        "value": "부엌은 주인공에게 고독을 달래고 삶의 위안을 얻는 가장 편안하고 구원적인 장소로 기능합니다."
+      }
+    ],
+    "keyEntitiesText": "사쿠라이 미카게, 다나베 유이치, 에리코 (유이치의 아버지), 할머니",
+    "settingText": "도쿄의 아파트, 부엌"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cT2Qv9XhtBW5dkvk3zOM-x9Ot4X9QiVK",
+    "filename": "요시모토 바나나-키친 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.369Z",
+    "size": "163585",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1cT2Qv9XhtBW5dkvk3zOM-x9Ot4X9QiVK/view?usp=drivesdk",
+    "sourceSha256": "84c997883c656ad5b8a09291dd2aa205f106d7cd25b6244f96fed9d09892ce22",
+    "textSha256": "22a09ce908e0e0b5e3c69838463c2604df271c2f52a6176c7c172fcb4c56ac88",
+    "changeKey": "fa226bbcdfcb2e98346f7e6e68a83b20",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5cc62523a7ff2a9a7473",
+    "workId": "5cc62523a7ff2a9a7473",
+    "driveFileId": "1cT2Qv9XhtBW5dkvk3zOM-x9Ot4X9QiVK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:29:30.943691+00:00",
+    "updatedAt": "2026-09-21T22:29:30.943710+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:29:30.943921+00:00"
+    }
+  }
+}

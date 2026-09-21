@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "골드 러시",
+    "author": "유미리",
+    "genre": "소설",
+    "tags": [
+      "골드 러시",
+      "유미리",
+      "소년",
+      "환락가",
+      "폭력"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "사회",
+        "느와르"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "유미리는 일본 문단에서 활약하는 재일동포 출신의 작가로, 현대 사회의 어두운 단면과 인간의 폭력성을 강렬한 필치로 그려냅니다.",
+    "oneLineSummary": "요코하마 환락가 코가네초를 배경으로 마약 거래에 연루되고 잔혹한 범죄를 방관하는 소년의 황폐한 내면을 그린 소설입니다.",
+    "overallSummary": "열네 살 소년 카즈는 아버지에게 선물받은 로렉스 시계를 차고 요코하마의 환락가 코가네초의 어둠 속을 걸어 마약을 구입하러 간다. 붕괴된 가정 환경 속에서 자란 소년은 환락가의 퇴폐적인 분위기와 늙은 창녀 료코 등을 무감각하게 바라본다. 과거 친구들과 함께 여고생을 폭행하고 성폭행했던 잔인한 기억이 소년의 머릿속을 맴돌며, 인간의 폭력성과 윤리적 마비 상태를 적나라하게 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "코가네초의 소년",
+        "summary": "열네 살 소년 카즈는 환락가 골목을 지나 마약을 밀매하는 '토치카' 빌딩으로 향합니다."
+      },
+      {
+        "sectionTitle": "환락가의 풍경과 기억",
+        "summary": "퇴폐적인 거리의 창녀 료코와의 만남을 통해 과거 비극적인 소문과 자신의 황폐한 유년기를 떠올립니다."
+      },
+      {
+        "sectionTitle": "끔찍한 폭력의 기억",
+        "summary": "친구들과 함께 여고생을 집단으로 성폭행했던 과거의 사건을 떠올리며 감각이 무뎌진 자신의 내면을 마주합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "폭력과 소외",
+        "value": "비정상적인 가정과 어두운 도시 환경 속에서 도덕성을 상실해가는 소년의 심리를 냉혹하게 묘사했습니다."
+      }
+    ],
+    "keyEntitiesText": "카즈, 료코, 래디, 다쿠야, 키요시",
+    "settingText": "요코하마 코가네초 환락가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14XRlpFJytMQgUnPuu7KCMkuHYN26KcDK",
+    "filename": "유미리-골드러시.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.424Z",
+    "size": "453805",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/14XRlpFJytMQgUnPuu7KCMkuHYN26KcDK/view?usp=drivesdk",
+    "sourceSha256": "20ab9600c2cdf202f8f20597f4ec1234ec7f3afeed818c47c296a374c22558d7",
+    "textSha256": "28a7f3e90514fd714f592e85e3ac97579105ceaa937081ded901d4dc1aad8a53",
+    "changeKey": "91e367eef3328886dcf5f87df8655729",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a35a8907bc27775b9d34",
+    "workId": "a35a8907bc27775b9d34",
+    "driveFileId": "14XRlpFJytMQgUnPuu7KCMkuHYN26KcDK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:29:45.352031+00:00",
+    "updatedAt": "2026-09-21T22:29:45.352049+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:29:45.352170+00:00"
+    }
+  }
+}

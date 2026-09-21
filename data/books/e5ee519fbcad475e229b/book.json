@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "풀하우스",
+    "author": "유미리",
+    "genre": "소설",
+    "tags": [
+      "풀하우스",
+      "유미리",
+      "가족 해체",
+      "새집",
+      "비렁뱅이"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "사회"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "유미리는 일본 문학계에서 주목받는 재일동포 작가로, 불우한 유년기와 가족의 해체를 다룬 자전적 소설들로 널리 알려져 있습니다.",
+    "oneLineSummary": "붕괴된 가족을 모으기 위해 아버지가 지은 새 집에 자식들은 냉담하고, 결국 그 집을 낯선 비렁뱅이 일가가 차지하게 되는 소설입니다.",
+    "overallSummary": "어머니가 집을 나간 뒤 16년 동안 흩어져 살던 가족을 다시 모으기 위해 아버지는 오랜 경비와 계획 끝에 요코하마 부근에 대단한 이층집을 짓는다. 하지만 자식들인 모토미와 요코는 아버지에 대한 원망과 냉담함으로 새 집에 흥미를 느끼지 못하고, 아버지의 기대와 달리 이 새 집은 결국 아버지가 데려온 오갈 데 없는 비렁뱅이 일가가 차지하고 만다. 가족이라는 허울 좋은 공동체의 붕괴를 쓸쓸하게 그려낸 작품이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "새 집과의 조우",
+        "summary": "아버지가 끈질긴 집념으로 지은 새 집에 모토미와 요코 자매가 이끌려 가지만, 도료 냄새 가득한 집에는 냉기만 감돕니다."
+      },
+      {
+        "sectionTitle": "아버지의 집념과 가족의 냉담",
+        "summary": "과거 도박에 빠져 가족을 돌보지 않았던 아버지의 빚과 억지로 지은 집의 모습 속에서 자매는 도무지 안정을 느끼지 못합니다."
+      },
+      {
+        "sectionTitle": "집의 귀속",
+        "summary": "가족의 재결합이라는 아버지의 환상과 달리, 새 집은 결국 오갈 데 없는 이들이 차지하게 되며 가족의 해체를 확정 짓습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "가족의 허구성",
+        "value": "물리적인 집을 지어도 회복될 수 없는 가족 간의 단절과 소통의 부재를 냉정하게 보여줍니다."
+      }
+    ],
+    "keyEntitiesText": "모토미, 요코, 아버지",
+    "settingText": "요코하마, 고호쿠 뉴타운"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AvynfqSiD-b6V7ahpUcy5UIwLuiLY36u",
+    "filename": "유미리-풀하우스(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T03:03:20.000Z",
+    "size": "269302",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1AvynfqSiD-b6V7ahpUcy5UIwLuiLY36u/view?usp=drivesdk",
+    "sourceSha256": "e5ad792ddaef5baf159b0f0c494d80f9aa04ee3f90310b8f7cd35d172b3fa2d0",
+    "textSha256": "fe95e5cb9ea8e4bea79e08261f03af938042748b5ea766abb320e2b492b36822",
+    "changeKey": "ce652b6665ee84c7b9d37928ca6a0377",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e5ee519fbcad475e229b",
+    "workId": "e5ee519fbcad475e229b",
+    "driveFileId": "1AvynfqSiD-b6V7ahpUcy5UIwLuiLY36u",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:29:52.654676+00:00",
+    "updatedAt": "2026-09-21T22:29:52.654691+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:29:52.654808+00:00"
+    }
+  }
+}

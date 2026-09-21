@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "샤일록의 아이들",
+    "author": "이케이도 준",
+    "genre": "소설",
+    "tags": [
+      "샤일록의 아이들",
+      "이케이도 준",
+      "은행",
+      "지점",
+      "직장인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "경제",
+        "미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이케이도 준은 일본을 대표하는 경제·기업 소설 거장으로, 은행을 배경으로 한 치밀한 심리 묘사와 카타르시스 넘치는 작품들로 유명합니다.",
+    "oneLineSummary": "평범한 동네 은행 지점에서 벌어지는 엉뚱한 사건과 인간 군상의 욕망을 그린 직장인 소설입니다.",
+    "overallSummary": "도쿄제일은행 나가하라 지점은 오타구 주택가에 위치한 유서 깊은 소규모 지점으로, 부지점장 후루카와 가즈오를 비롯해 다양한 인물들이 일하고 있다. 고졸 출신으로 지점장이라는 목표를 향해 치열하게 달려온 후루카와는 실적 부진에 초조해한다. 그러던 중 젊은 직원 고야마와의 갈등과 폭행 사건이 벌어지고, 은행이라는 거대한 조직 속에서 평범하게 살아가는 톱니바퀴 같은 직장인들의 민낯과 숨겨진 진실들이 수면 위로 드러나기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나가하라 지점의 일상",
+        "summary": "도쿄제일은행 나가하라 지점의 부지점장 후루카와는 출세와 실적에 대한 집착을 품고 평소와 다름없는 하루를 시작합니다."
+      },
+      {
+        "sectionTitle": "투신 판매와 갈등",
+        "summary": "본점의 지시에 따른 투자신탁 판매 실적을 두고 융자과 직원들과 부지점장 사이에 긴장감이 고조됩니다."
+      },
+      {
+        "sectionTitle": "고야마의 반발과 폭발",
+        "summary": "목표의 의미에 대해 의문을 품고 반항하는 신입사원 고야마와 억눌린 분노를 참지 못한 후루카와 사이에 폭행 사건이 벌어집니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "조직과 개인",
+        "value": "거대 은행 조직이라는 톱니바퀴 속에서 상처받고 갈등하는 평범한 은행원들의 심리를 현실적으로 파헤쳤습니다."
+      }
+    ],
+    "keyEntitiesText": "후루카와 가즈오, 구조 가오루, 고야마 도오루, 마쓰오카 겐조",
+    "settingText": "도쿄제일은행 나가하라 지점"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RmgLJLRvLFJFhxyqgSy2fp-L0Jqla2Te",
+    "filename": "이케이도 준-샤일록의 아이들(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.604Z",
+    "size": "481688",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1RmgLJLRvLFJFhxyqgSy2fp-L0Jqla2Te/view?usp=drivesdk",
+    "sourceSha256": "16c25882ddfb36d7b12cb9da51126c1a4f1d0c5911ca61a619603b566d97ee4a",
+    "textSha256": "efc2407fe98c554fd91c1039e336a849fa37d36bc8dab64d446654d4d6438ced",
+    "changeKey": "671db75d5e891f1296dd232a4c1efd74",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8c07cda913e48d979a08",
+    "workId": "8c07cda913e48d979a08",
+    "driveFileId": "1RmgLJLRvLFJFhxyqgSy2fp-L0Jqla2Te",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:32:53.692454+00:00",
+    "updatedAt": "2026-09-21T22:32:53.692469+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:32:53.692567+00:00"
+    }
+  }
+}

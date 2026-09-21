@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "러브레터",
+    "author": "이와이 슌지",
+    "genre": "소설",
+    "tags": [
+      "러브레터",
+      "이와이 슌지",
+      "첫사랑",
+      "추억",
+      "편지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스",
+        "멜로"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이와이 슌지는 일본의 영화감독이자 소설가로, 서정적이고 감성적인 연출과 문체로 전 세계 독자와 관객에게 깊은 울림을 줍니다.",
+    "oneLineSummary": "세상을 떠난 연인에게 보낸 편지에서 우연히 답장이 오면서 시작되는 아련한 첫사랑과 그리움의 이야기입니다.",
+    "overallSummary": "후지이 이츠키가 사고로 세상을 떠난 지 3주기, 그의 연인 와타나베 히로코는 그리움을 달래기 위해 중학교 졸업 앨범에 적힌 그의 옛 주소로 편지를 보낸다. 놀랍게도 그곳에는 동명이인의 여자 후지이 이츠키가 살고 있었고, 두 사람 사이에 편지가 오가면서 죽은 이츠키의 학창 시절 숨겨진 첫사랑의 비밀이 서서히 밝혀진다. 떠나보낸 사랑을 추억하고 새롭게 마음을 치유해 나가는 감성적인 멜로 소설이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "기다릴 수 없는 편지",
+        "summary": "히로코는 이츠키의 3주기 기일에 그의 옛 주소로 도달할 리 없는 그리움의 편지를 보냅니다."
+      },
+      {
+        "sectionTitle": "뜻밖의 답장",
+        "summary": "오타루에 사는 동명이인의 여성 후지이 이츠키가 그 편지를 받게 되고, 두 사람은 편지를 주고받으며 소통을 시작합니다."
+      },
+      {
+        "sectionTitle": "학창 시절의 추억",
+        "summary": "편지를 통해 죽은 이츠키와 동명이인 이츠키가 공유했던 중학교 시절의 풋풋하고 아련한 기억들이 되살아납니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "편지의 매개체",
+        "value": "이승과 저승, 그리고 과거와 현재를 잇는 편지를 통해 아련한 그리움과 치유의 과정을 섬세하게 그려냈습니다."
+      }
+    ],
+    "keyEntitiesText": "와타나베 히로코, 후지이 이츠키 (남), 후지이 이츠키 (여), 야스요",
+    "settingText": "고베, 오타루"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Lv74oexvzO038V9MUzS_MpCzmY7jQR0E",
+    "filename": "이와이 슌지-러브레터.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.568Z",
+    "size": "164732",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Lv74oexvzO038V9MUzS_MpCzmY7jQR0E/view?usp=drivesdk",
+    "sourceSha256": "b0555c21dc8ef0d37f3d17b3511352388fbef4fa7888cc0abaff2f43f443b3d2",
+    "textSha256": "73c00dfde24ae4cdc6673ebdb45a21ec054beff74d6a7df65218f986c2437cd7",
+    "changeKey": "2f427d9bb859bfd85bdab0b0f4714cee",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "12c00c4809da1a0cf4ae",
+    "workId": "12c00c4809da1a0cf4ae",
+    "driveFileId": "1Lv74oexvzO038V9MUzS_MpCzmY7jQR0E",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:31:51.314243+00:00",
+    "updatedAt": "2026-09-21T22:31:51.314258+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:31:51.314421+00:00"
+    }
+  }
+}
