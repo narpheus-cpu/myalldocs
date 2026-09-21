@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한 권으로 읽는 중국 고전 수호지",
+    "author": "장개충",
+    "genre": "고전소설",
+    "tags": [
+      "중국고전",
+      "수호지",
+      "양산박",
+      "108호걸"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "편저자 장개충은 중국의 명작 고전을 쉽고 흥미롭게 편저하여 널리 알리고 있다.",
+    "oneLineSummary": "북송 말 부패한 관료에 맞서 양산박에 모여든 108 두령과 영웅 노달의 호탕한 의기 작패를 그린 소설.",
+    "overallSummary": "송나라 인종 및 휘종 대 간신 고구의 폭정으로 어지러워진 세상에서 노달(노지심), 사진, 왕진 등 뜻있는 호걸들이 불의에 맞서고 양산박에 결집하여 부패한 관직에 대항하는 의로운 여정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 해제",
+        "summary": "수호지의 성립 배경과 양산박 108 두령의 봉기와 조정 귀순, 방랍 토벌 및 쇠락의 전 과정을 요약한다."
+      },
+      {
+        "sectionTitle": "천하호걸 노달",
+        "summary": "고구의 원한을 피해 달아난 금군교두 왕진과 구문룡 사진, 노달의 만남 및 김씨 부녀를 구하기 위한 노달의 분노를 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품적 의의",
+        "value": "민초들의 한풀이와 부패 관료에 대한 정당한 반항을 담은 중국 4대 기서"
+      }
+    ],
+    "keyEntitiesText": "노달(노지심), 사진(구문룡), 왕진, 고구, 이충, 김씨 노인, 취련",
+    "settingText": "북송 시대 중국, 위주, 사가촌, 양산박"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15zvxl8wE-KaqG3ok0tHeRen8t73OyYIe",
+    "filename": "장개충-한 권으로 읽는 중국 고전 수호지(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T01:01:28.000Z",
+    "size": "813825",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/15zvxl8wE-KaqG3ok0tHeRen8t73OyYIe/view?usp=drivesdk",
+    "sourceSha256": "86f351089b01e8bc21bc803c51f98579b5570c1fc04194d1495c8b9a1de64e8d",
+    "textSha256": "99f47fa9f16414e3fbd061072ebf957a65f91270bff35c5152041b6dd992290e",
+    "changeKey": "3f56b435712d219c57e8d20e478ff4a2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dd078dca9cafd6c79314",
+    "workId": "dd078dca9cafd6c79314",
+    "driveFileId": "15zvxl8wE-KaqG3ok0tHeRen8t73OyYIe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:26:46.995441+00:00",
+    "updatedAt": "2026-09-21T17:26:46.995455+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:26:46.995538+00:00"
+    }
+  }
+}

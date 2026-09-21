@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "걸리버 여행기",
+    "author": "조너선 스위프트",
+    "genre": "풍자소설",
+    "tags": [
+      "조너선스위프트",
+      "걸리버여행기",
+      "릴리퍼트",
+      "소인국",
+      "풍자문학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "18세기 영미 문학을 대표하는 풍자 작가로 시인이자 정치가, 풍자적인 산문가로 널리 알려졌다.",
+    "oneLineSummary": "의사 걸리버가 항해 중 난파되어 소인국 릴리퍼트에 도달하여 겪는 기이한 경험과 인간 사회에 대한 날카로운 풍자.",
+    "overallSummary": "레뮤엘 걸리버가 앤틸롭호를 타고 항해하다 난파되어 키 15센티미터의 소인들이 사는 릴리퍼트에 도착, 결박당한 채 소인들의 사회와 정치를 관찰하며 벌어지는 기상천외한 모험과 더불어 인간 사회의 악과 어리석음을 풍자한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "걸리버 씨 편지 및 발행인 글",
+        "summary": "걸리버가 서적 출판의 오류와 인간(야후) 사회에 대한 불만을 토로하고, 발행인 심슨이 걸리버의 정직함을 증언한다."
+      },
+      {
+        "sectionTitle": "1부 릴리퍼트로의 항해 1장",
+        "summary": "걸리버의 출생 및 항해 과정, 난파 후 릴리퍼트 해안에 도착하여 몸이 결박된 채 소인들과 첫 만남을 갖는 모험."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "풍자 기법",
+        "value": "소인국의 정쟁과 예법을 통해 당대 영국 조정과 정당 정치, 인간의 오만을 신랄하게 풍자"
+      }
+    ],
+    "keyEntitiesText": "레뮤엘 걸리버, 리처드 심슨, 제임스 베이츠, 릴리퍼트 주민들",
+    "settingText": "17세기 말~18세기 초 남대양 환상의 소인국 릴리퍼트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YCY2_qlSMpv_-z1Rq_MDwzrrX66wvgRf",
+    "filename": "조너선 스위프트-걸리버 여행기(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:43:40.000Z",
+    "size": "769336",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1YCY2_qlSMpv_-z1Rq_MDwzrrX66wvgRf/view?usp=drivesdk",
+    "sourceSha256": "3aa8866ead36d79775aa23f71988806a0730ec5698f3dde4afcf5cb01cf07339",
+    "textSha256": "86fc390635e8357274c8ab2be9315860fcdab94db20ab435456f2aa15b1af657",
+    "changeKey": "71de8fedf838af997c98d573378968fc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "68cafc842428f3ecd69a",
+    "workId": "68cafc842428f3ecd69a",
+    "driveFileId": "1YCY2_qlSMpv_-z1Rq_MDwzrrX66wvgRf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:28:02.462440+00:00",
+    "updatedAt": "2026-09-21T17:28:02.462454+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:28:02.462536+00:00"
+    }
+  }
+}

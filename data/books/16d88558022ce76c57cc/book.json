@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍루몽 01",
+    "author": "조설근, 고악",
+    "genre": "고전소설",
+    "tags": [
+      "홍루몽",
+      "조설근",
+      "중국고전",
+      "대관원",
+      "가보옥",
+      "임대옥"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조설근은 청나라의 위대한 소설가로 몰락한 귀족 가문의 경험을 바탕으로 중국 최고 소설 홍루몽을 창작했다.",
+    "oneLineSummary": "가보옥과 임대옥의 사랑, 그리고 금릉 가씨 가문의 흥망성쇠를 다룬 중국 문학 최고의 대하 고전 소설.",
+    "overallSummary": "여와보천 신화에서 남은 영석의 설화로부터 시작하여 금릉의 귀족 가문인 가씨 집안의 대관원 영화와 가보옥, 임대옥, 설보채 간의 애정 비극 및 귀족 사회의 섬세한 인간 군상을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "추천의 글 및 발간에 부쳐",
+        "summary": "서경호 교수의 추천사와 번역가 안의운의 홍루몽 번역 경위, 판본 및 작품의 문학적 가치 해설."
+      },
+      {
+        "sectionTitle": "목차 및 수록 구성",
+        "summary": "제1회부터 제10회까지의 주요 사건 제목과登場人物 사전, 가부/대관원 평면도 소개."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 위상",
+        "value": "'홍학(紅學)'이라는 독자적 학문 영역을 구축한 중국 고전 소설의 최고 봉우리"
+      }
+    ],
+    "keyEntitiesText": "가보옥, 임대옥, 설보채, 조설근, 고악, 안의운, 서경호",
+    "settingText": "청나라 시대 중국 금릉(가상의 수도 및 가씨 가문의 영국부·대관원)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17PAzr1pdQRHvMjqQpYOLxuR7W7yl_vHX",
+    "filename": "조설근 외-홍루몽 01(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T21:00:34.000Z",
+    "size": "534890",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/17PAzr1pdQRHvMjqQpYOLxuR7W7yl_vHX/view?usp=drivesdk",
+    "sourceSha256": "aca64e8006b9a2dfc1069ec41d844aaacdb83e632a201870e1325ff88468e6a5",
+    "textSha256": "c2bd21caf240f20f96fb76bae9dcbdadb0e3b82adedd031515cfb53462e2dbcf",
+    "changeKey": "6cb759b0944c9e48ac96e6f5fe0de987",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "16d88558022ce76c57cc",
+    "workId": "16d88558022ce76c57cc",
+    "driveFileId": "17PAzr1pdQRHvMjqQpYOLxuR7W7yl_vHX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:28:24.486932+00:00",
+    "updatedAt": "2026-09-21T17:28:24.486947+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8483,
+      "updatedAt": "2026-09-21T17:28:24.487053+00:00"
+    }
+  }
+}

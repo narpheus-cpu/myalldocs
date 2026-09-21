@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한 권으로 읽는 중국 고전 손자병법",
+    "author": "장개충",
+    "genre": "고전소설",
+    "tags": [
+      "중국고전",
+      "병법",
+      "손자병법",
+      "춘추전국시대"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "편저자 장개충은 중국 고전을 현대 독자들이 읽기 쉽게 편저하여 소개하는 저술가이다.",
+    "oneLineSummary": "춘추전국시대 영웅들의 치열한 두뇌 싸움과 손자병법의 병법 지혜를 다룬 고전 소설.",
+    "overallSummary": "요순시대의 덕치와 하나라 걸왕의 주지육림 등 중국 고대 역사적 배경에서 출발하여, 오자서와 손무의 만남, 굴묘편시, 손빈과 방연의 대결 등 춘추전국시대 영웅들의 전쟁론과 처세의 지혜를 소설 형식으로 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서, 요순의 덕치",
+        "summary": "요 임금과 순 임금의 태평성대 덕치와 우 임금의 치수 공적 및 하 왕조 개국의 역사를 서술한다."
+      },
+      {
+        "sectionTitle": "주지육림",
+        "summary": "하나라 걸왕이 미녀 말희에게 혹하여 주지육림을 만들고 폭정을 일삼아 충신을 죽이고 나라를 몰락으로 이끄는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "싸우지 않고 이기는 최상의 병법과 국가 경영 및 인사의 지혜"
+      }
+    ],
+    "keyEntitiesText": "요 임금, 순 임금, 우 임금, 걸왕, 말희, 관용봉, 탕왕, 오자서, 손무, 손빈, 방연",
+    "settingText": "고대 중국 (요순시대, 하 왕조, 춘추전국시대)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KWs2klSDCRIcIYDom3_M4xfFL0JdH-_c",
+    "filename": "장개충-한 권으로 읽는 중국 고전 손자병법(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T00:59:44.000Z",
+    "size": "600859",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1KWs2klSDCRIcIYDom3_M4xfFL0JdH-_c/view?usp=drivesdk",
+    "sourceSha256": "85a54242fb4b20eb3ef3705a135cb6f72f31cf6df84a1354265fcb0b5ac601ed",
+    "textSha256": "98157d0ff0b87d7234647b581146612f22357db278087758e9925550939ff0d0",
+    "changeKey": "1aef6c32091086fac53d66d7fe50807f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cf919353d27abda03464",
+    "workId": "cf919353d27abda03464",
+    "driveFileId": "1KWs2klSDCRIcIYDom3_M4xfFL0JdH-_c",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:26:40.428432+00:00",
+    "updatedAt": "2026-09-21T17:26:40.428447+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:26:40.428607+00:00"
+    }
+  }
+}

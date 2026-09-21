@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "노생거 사원",
+    "author": "제인 오스틴",
+    "genre": "영국소설",
+    "tags": [
+      "제인오스틴",
+      "노생거사원",
+      "고딕소설패러디",
+      "캐서린몰랜드",
+      "영국문학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "19세기 영국을 대표하는 여성 소설가로, 예리한 관찰력과 재치 있는 풍자로 일상과 인간 심리를 그렸다.",
+    "oneLineSummary": "전형적인 여주인공 요소가 없는 순진한 시골 아가씨 캐서린 몰랜드가 사교계 바쓰에서 겪는 성장의 이야기.",
+    "overallSummary": "특별한 재능도 미모도 없던 시골 목사의 딸 캐서린 몰랜드가 열일곱 살에 앨런 부부와 함께 휴양지 바쓰로 떠나 사교계에 진출하고, 위트 있는 신사 헨리 틸니를 만나며 고딕 소설적 환상에서 벗어나 진정한 세상을 배워나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "여주인공의 전형적 조건과 거리가 먼 캐서린 몰랜드의 평범한 집안 배경, 외모, 성장 과정을 재치 있게 소개한다."
+      },
+      {
+        "sectionTitle": "2장~3장",
+        "summary": "앨런 부인과 바쓰에 도착하여 어퍼/로어 무도회장에서 사람 치임 끝에 훤칠한 신사 틸니를 만나 유쾌한 대화를 나누는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 기법",
+        "value": "당대 유행하던 고딕 로맨스 소설의 상투적 문법에 대한 기발한 풍자와 패러디"
+      }
+    ],
+    "keyEntitiesText": "캐서린 몰랜드, 몰랜드 부부, 앨런 부부, 헨리 틸니",
+    "settingText": "18~19세기 영국 시골 마을 풀러튼 및 휴양 도시 바쓰(Bath)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PWh4zBy3__78x4eEZ0dM_IoGnb2vt3ro",
+    "filename": "제인 오스틴-노생거 사원(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:39:14.000Z",
+    "size": "511707",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1PWh4zBy3__78x4eEZ0dM_IoGnb2vt3ro/view?usp=drivesdk",
+    "sourceSha256": "76f03151947f53586d041881e5a7b727f9fe0afe03720edfda6d959e9b19b46f",
+    "textSha256": "1ea99327a357bbba3ec90db79921611da61d24b42e7f1471d17f00c0c96014b5",
+    "changeKey": "4d311001f3b18217b3e4c32d58257093",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4be42d262623e66f00d4",
+    "workId": "4be42d262623e66f00d4",
+    "driveFileId": "1PWh4zBy3__78x4eEZ0dM_IoGnb2vt3ro",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:27:22.486221+00:00",
+    "updatedAt": "2026-09-21T17:27:22.486236+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:27:22.486319+00:00"
+    }
+  }
+}

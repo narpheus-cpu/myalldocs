@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "율리시스 I",
+    "author": "제임스 조이스",
+    "genre": "모더니즘소설",
+    "tags": [
+      "제임스조이스",
+      "율리시스",
+      "스티븐디댈러스",
+      "벅멀리건",
+      "의식의흐름"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아일랜드 출신의 세계적인 모더니즘 작가로 의식의 흐름 기법과 언어적 실험으로 소설의 지평을 넓혔다.",
+    "oneLineSummary": "1904년 6월 16일 더블린, 스티븐 디댈러스와 벅 멀리건의 마텔로 탑에서의 하루 아침 대화와 지적 방황.",
+    "overallSummary": "호메로스의 《오디세이아》를 현대 더블린의 하루로 패러디 및 재구성한 모더니즘 거작. 1장 텔레마코스에서는 마텔로 탑에서 벅 멀리건과 스티븐, 영국인 헤인즈가 나누는 종교, 어머니의 죽음, 예술과 아일랜드에 관한 지적 대화가 펼쳐진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "에피소드 1 텔레마코스 (1)",
+        "summary": "마텔로 탑 꼭대기에서 벅 멀리건이 성직자 흉내를 내며 스티븐 디댈러스와 면도하며 주고받는 해학적·지적 대화."
+      },
+      {
+        "sectionTitle": "에피소드 1 텔레마코스 (2)",
+        "summary": "어머니의 임종 때 기도를 거절한 스티븐의 내면적 죄책감과 벅 멀리건의 상처 주는 언사, 헤인즈와의 어색한 동거 상황."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 기법",
+        "value": "의식의 흐름(stream of consciousness), 호메로스 신화의 현대적 상응 및 풍부한 교양적 패러디"
+      }
+    ],
+    "keyEntitiesText": "스티븐 디댈러스, 벅 멀리건, 헤인즈, 스티븐의 어머니",
+    "settingText": "1904년 6월 16일 오전 8시, 아일랜드 더블린 교외 샌디코브의 마텔로 탑"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tTcGYi2xB15KeLMC43-QWPL9Z1ooSoaG",
+    "filename": "제임스 조이스-율리시스(1-2권)(동서문화사)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T12:46:50.000Z",
+    "size": "2882014",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1tTcGYi2xB15KeLMC43-QWPL9Z1ooSoaG/view?usp=drivesdk",
+    "sourceSha256": "075c2f2606062cbbc55aaed96505a5503b33b30a920a7c34c28c0efdb79847ff",
+    "textSha256": "5bf5369cd06fcea3e028db0f4ebe3cccd2656b210b6d9635f52aaf71be3e746c",
+    "changeKey": "ea4442e6f1bc41aff23023795bae23fb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "30a4b6f1a29114ca3fca",
+    "workId": "30a4b6f1a29114ca3fca",
+    "driveFileId": "1tTcGYi2xB15KeLMC43-QWPL9Z1ooSoaG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:27:46.369789+00:00",
+    "updatedAt": "2026-09-21T17:27:46.369804+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3987,
+      "updatedAt": "2026-09-21T17:27:46.369886+00:00"
+    }
+  }
+}

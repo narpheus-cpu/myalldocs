@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍루몽 11",
+    "author": "조설근, 고악",
+    "genre": "고전소설",
+    "tags": [
+      "홍루몽",
+      "왕희봉",
+      "진씨유령",
+      "대관원",
+      "가련",
+      "홍루몽101회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "청나라 대문호 조설근과 고악이 완성한 고전 명작으로, 가씨 가문의 환영과 쇠락을 치밀하게 묘사했다.",
+    "oneLineSummary": "왕희봉이 밤중에 대관원에서 진씨의 유령을 만나 기절하고, 오빠 왕인의 비행으로 가련과 갈등을 겪는 이야기.",
+    "overallSummary": "제101회를 위주로 하여, 밤중에 대관원을 지나던 왕희봉이 죽은 진씨의 유령 환영을 만나 경악하고 병석에 눕게 되며, 오빠 왕인의 몰상식한 비행과 탄핵 사건으로 가련과 신랄한 대립을 벌이는 가문의 쇠락 조짐을 담는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제101회 (1)",
+        "summary": "달밤에 대관원을 지나다 커다란 개와 죽은 진씨의 유령 환영을 만나 헛소리를 하며 쓰러지는 왕희봉."
+      },
+      {
+        "sectionTitle": "제101회 (2)",
+        "summary": "희봉의 병석과 가련과의 말다툼, 오빠 왕인의 염치없는 부의금 챙기기와 관금 축재 탄핵 사건으로 인한 집안의 불화."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "복선 및 분위기",
+        "value": "대관원의 으스스한 유령 출현과 집안 핵심 인물 희봉의 몰락을 통해 가문의 파멸을 암시"
+      }
+    ],
+    "keyEntitiesText": "왕희봉, 가련, 진씨(유령), 소홍, 풍아, 왕인, 평아",
+    "settingText": "청나라 가씨 가문 대관원 및 영국부 희봉의 처소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14Oecp3xLvWl7q7yhkrAYTuthaavDJd40",
+    "filename": "조설근 외-홍루몽 011(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T21:03:10.000Z",
+    "size": "424028",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/14Oecp3xLvWl7q7yhkrAYTuthaavDJd40/view?usp=drivesdk",
+    "sourceSha256": "e707ee4d93eb8c3a5f732584302a30546122e3973bd8ad1a558a57f4ce76ea6d",
+    "textSha256": "32d323479059860537c9812bdd21992980e3cbbe28533b467fb989fafefcde74",
+    "changeKey": "aaa6232b4b076d8b09199bff8667b007",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9dcf01714acded52d3f2",
+    "workId": "9dcf01714acded52d3f2",
+    "driveFileId": "14Oecp3xLvWl7q7yhkrAYTuthaavDJd40",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:28:49.883406+00:00",
+    "updatedAt": "2026-09-21T17:28:49.883421+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3997,
+      "updatedAt": "2026-09-21T17:28:49.883499+00:00"
+    }
+  }
+}

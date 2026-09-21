@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나면 죽고, 죽으면 태어난다",
+    "author": "장자",
+    "genre": "동양철학",
+    "tags": [
+      "장자",
+      "노장사상",
+      "도가",
+      "무위자연",
+      "제물론"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "장자(장주)는 중국 전국 시대의 대사상가로 노자와 함께 도가 사상의 정수를 이룩한 인물이다.",
+    "oneLineSummary": "현상계의 변화와 상대적 분별을 넘어 무위자연과 절대 자유의 경지인 도(道)를 체득하라는 장자의 철학서.",
+    "overallSummary": "장자의 생애와 전국 시대의 혼란한 배경을 바탕으로, 만물의 생성과 소멸, 시비와 차별을 넘어선 만물제동, 인위적 지혜를 버리고 도 및 자연과 하나가 되어 누리는 절대적 자유인 진인(眞人)의 경지를 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "장자의 생애와 시대 배경",
+        "summary": "전국 시대 극심한 혼란 속에서 몽 땅의 칠원리로 살며 재상 스카우트 제의를 거절하고 초연히 산 장자의 삶을 조명한다."
+      },
+      {
+        "sectionTitle": "장자의 사상",
+        "summary": "만물의 근원인 '도', 상대적 판단의 한계, 차별이 없는 자연 그대로의 이상적 인간상인 '진인'의 개념을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사상적 특징",
+        "value": "자연 순응과 무위자연, 집착 해방을 통한 절대적 정신 자유 추구"
+      }
+    ],
+    "keyEntitiesText": "장자(장주), 노자, 초위왕, 혜자(혜시), 공자, 곽상",
+    "settingText": "중국 전국 시대 중기, 송나라 몽 땅"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TvSWhSMOuhBtcBw14upn3jVxYwIY_0Aj",
+    "filename": "장자-나면 죽고, 죽으면 태어난다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.593Z",
+    "size": "518606",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1TvSWhSMOuhBtcBw14upn3jVxYwIY_0Aj/view?usp=drivesdk",
+    "sourceSha256": "6570c5718a91001476c14ff5619d06b0ba913b073fd9759ed71ee61f6b20490d",
+    "textSha256": "16e99d4ded09c4d67712732c5d6ad3995383cd971cec615d73cd40e78a4078d7",
+    "changeKey": "dfa907fc582834f9f062b3fa097808d2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8efcf5ebc6f2d56160c5",
+    "workId": "8efcf5ebc6f2d56160c5",
+    "driveFileId": "1TvSWhSMOuhBtcBw14upn3jVxYwIY_0Aj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:27:01.440144+00:00",
+    "updatedAt": "2026-09-21T17:27:01.440157+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:27:01.440245+00:00"
+    }
+  }
+}

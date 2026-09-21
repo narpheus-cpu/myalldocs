@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한 권으로 읽는 중국 고전 초한지",
+    "author": "장개충",
+    "genre": "고전소설",
+    "tags": [
+      "중국고전",
+      "초한지",
+      "진시황",
+      "장량",
+      "항우",
+      "유방"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "편저자 장개충은 춘추전국시대 및 초한 시기의 영웅 서사를 현대적 감각으로 재구성했다.",
+    "oneLineSummary": "진시황의 가혹한 천하 통일과 분서갱유 속에서 장량과 창해공의 암살 시도를 비롯한 영웅들의 대결을 그린 역사 소설.",
+    "overallSummary": "진시황의 통일과 만리장성 축조, 분서갱유의 폭정 속에서 한나라 충신 장량이 창해공 여홍을 만나 박랑사에서 철퇴로 진시황 암살을 시도하는 대목과 황석공으로부터 무경서책을 얻는 과정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 개요",
+        "summary": "항우와 유방의 영웅적 기개와 인재 등용의 차이, 초한지의 역사적 교량 역할을 설명한다."
+      },
+      {
+        "sectionTitle": "진시황의 죽음",
+        "summary": "진시황의 가혹한 통치와 아방궁 축조, 장량과 창해공 여홍의 박랑사 암살 시도 실패 및 황석공과의 만남을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 교훈",
+        "value": "민심을 얻고 인재를 적재적소에 활용하는 자가 천하를 얻는다는 역사의 교훈"
+      }
+    ],
+    "keyEntitiesText": "진시황, 이사, 부소, 장량(자방), 창해공 여홍, 황석공, 항백",
+    "settingText": "진나라 초기 및 전국시대 말기, 박랑사, 하비"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ygt2Psq8062RcZ917EcmeW20z9R1kZzK",
+    "filename": "장개충-한 권으로 읽는 중국 고전 초한지(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T01:03:22.000Z",
+    "size": "906540",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1ygt2Psq8062RcZ917EcmeW20z9R1kZzK/view?usp=drivesdk",
+    "sourceSha256": "610b47b8c2d793ec7d2a9bd61ee45c4e1fc8996cc6bb503a14761c93fe470fad",
+    "textSha256": "a882ca99a4eb119abcffb95958d8790bf58e2d31759abff59291f10d6775703c",
+    "changeKey": "83962f34b2752e0e901c25b711c9966a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2acd3336c6be2a94d9b7",
+    "workId": "2acd3336c6be2a94d9b7",
+    "driveFileId": "1ygt2Psq8062RcZ917EcmeW20z9R1kZzK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:26:53.966993+00:00",
+    "updatedAt": "2026-09-21T17:26:53.967031+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:26:53.967118+00:00"
+    }
+  }
+}

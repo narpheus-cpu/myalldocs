@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "데카메론",
+    "author": "조반니 보카치오",
+    "genre": "고전소설",
+    "tags": [
+      "데카메론",
+      "보카치오",
+      "흑사병",
+      "피렌체",
+      "이탈리아문학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이탈리아 르네상스 시대를 대표하는 소설가이자 시인으로 흑사병 참상 속 100가지 이야기를 엮어낸 거장이다.",
+    "oneLineSummary": "1348년 피렌체의 무서운 흑사병 참상 속에서 남녀 10명이 교외로 피신하여 펼치는 100가지 인간 세태 이야기.",
+    "overallSummary": "1348년 대페스트(흑사병)가 피렌체를 습격하여 사회적 질서와 도덕이 무너지고 수많은 사람들이 죽어갈 때, 젊은 남녀 10명이 교외의 산장으로 피신하여 10일 동안 나누는 다채로운 위안과 인간 욕망, 애정의 이야기들을 시작하는 서막이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "사랑의 고뇌를 경험한 사람으로서 슬픔과 우울에 빠진 여인들에게 위안과 기쁨을 주기 위해 책을 쓴 취지를 밝힌다."
+      },
+      {
+        "sectionTitle": "첫째 날 도입부",
+        "summary": "1348년 피렌체를 몰살로 몰고 간 흑사병의 무서운 증상과 전염력, 법도와 정이 사라진 도심의 비참한 참상을 생생히 기록한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대적 의의",
+        "value": "중세적 신 중심 세계관에서 벗어나 인간 본연의 욕망과 현실적 삶을 긍정하는 르네상스 인문주의의 시작"
+      }
+    ],
+    "keyEntitiesText": "조반니 보카치오, 팜피네아, 피렌체 시민들",
+    "settingText": "1348년 흑사병이 창궐한 이탈리아 피렌체 및 교외 산장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ss-mSRvaTVqo4t5irwmAEz0AcvlL2yrS",
+    "filename": "조반니 보카치오-데카메론(동서문화사)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-06T12:30:00.000Z",
+    "size": "2068593",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1ss-mSRvaTVqo4t5irwmAEz0AcvlL2yrS/view?usp=drivesdk",
+    "sourceSha256": "20f97ca76621aea6b70e7e39ac5a268d640abc97e61f9152efa4c0477bc50783",
+    "textSha256": "c1cadad06f752223b8aefe335ce149a4f04887c107874938805795c1b5aecbb6",
+    "changeKey": "0fa75824aa75487bf9fe4e9e83b13fd6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0ddc026195f729ec9c38",
+    "workId": "0ddc026195f729ec9c38",
+    "driveFileId": "1ss-mSRvaTVqo4t5irwmAEz0AcvlL2yrS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:28:12.262952+00:00",
+    "updatedAt": "2026-09-21T17:28:12.262967+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:28:12.263073+00:00"
+    }
+  }
+}

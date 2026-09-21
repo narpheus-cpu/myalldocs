@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍루몽 10",
+    "author": "조설근, 고악",
+    "genre": "고전소설",
+    "tags": [
+      "홍루몽",
+      "조설근",
+      "보섬",
+      "금계",
+      "설과",
+      "홍루몽91회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조설근 원작, 고악 속편의 중국 대하소설로 가씨 가문과 주변 인물들의 인과응보를 그린 작품이다.",
+    "oneLineSummary": "설반의 옥사 속에서 음탕한 보섬과 금계의 유혹 시도와 설과의 절제, 보채의 병환과 가문의 혼사 논의.",
+    "overallSummary": "제91회를 중심 내용으로 하여, 설반의 옥사 이후 기회를 틈타 설과를 유혹하려는 보섬과 금계의 음모, 이에 휘말리지 않으려는 설과의 태도, 그리고 오빠의 일로 병이 난 설보채와 가문의 혼사 논의가 전개된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제91회 (1)",
+        "summary": "보섬과 금계가 유혹의 손길을 뻗치나 밤중에 문을 잠그고 단호히 거절하는 설과의 모습."
+      },
+      {
+        "sectionTitle": "제91회 (2)",
+        "summary": "금계와 보섬의 지속적인 계책, 설반의 옥사 악화 소식과 보채의 병환, 그리고 가정과 왕부인의 보옥-보채 혼담 교환."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 심리",
+        "value": "귀족 가문의 쇠락 속에서 드러나는 밑바닥 인간 군상들의 욕망과 음모, 그리고 유교적 절개의 대립"
+      }
+    ],
+    "keyEntitiesText": "가보옥, 임대옥, 설보채, 설과, 금계, 보섬, 설부인, 왕부인, 가정",
+    "settingText": "청나라 가씨 가문 영국부 및 설씨 댁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1i1rOTtcc7E15eKPVXO0QkVNp4Dq_UXsr",
+    "filename": "조설근 외-홍루몽 010(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T21:01:54.000Z",
+    "size": "429129",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1i1rOTtcc7E15eKPVXO0QkVNp4Dq_UXsr/view?usp=drivesdk",
+    "sourceSha256": "8b2bf5076ef7b813994fbdf49015e1c561a2780a0511678cac3f4e59aff20a33",
+    "textSha256": "2747df7e53ec94a05372d5d36bbc35cfd3316264d43bb627fb876bdc62459756",
+    "changeKey": "9a754f58cdc0d291a4680a00eba443ce",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3ca7d901a1ba8848d93d",
+    "workId": "3ca7d901a1ba8848d93d",
+    "driveFileId": "1i1rOTtcc7E15eKPVXO0QkVNp4Dq_UXsr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:28:41.575373+00:00",
+    "updatedAt": "2026-09-21T17:28:41.575388+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3997,
+      "updatedAt": "2026-09-21T17:28:41.575467+00:00"
+    }
+  }
+}
