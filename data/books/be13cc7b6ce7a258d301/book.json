@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마을과 그 불확실한 벽",
+    "author": "무라카미 하루키",
+    "genre": "중편소설",
+    "tags": [
+      "벽",
+      "일각수",
+      "도서관",
+      "오래된 꿈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "환상 문학",
+        "우화 소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현실과 상상의 경계를 가르는 거대한 상징적 세계를 축조하여 인간의 내면과 자아를 탐구하는 소설가.",
+    "oneLineSummary": "높은 벽으로 둘러싸여 일각수가 서식하고 오래된 꿈을 읽는 기묘한 마을과 그곳을 향한 주인공의 여정.",
+    "overallSummary": "말의 죽음과 내면의 시체 냄새에 대한 상념으로 시작하여, 열여덟 살 시절 소녀가 알려준 높은 벽에 둘러싸인 신비로운 거리를 회상한다. 그 거리는 외뿔 달린 황금빛 짐승들이 살아가며 문지기가 엄격히 통제하는 곳으로, 주인공은 도서관에서 책 대신 계란형의 오래된 꿈을 정리하는 예언자로서 머물며 완전무결한 벽의 실체와 마주한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "말의 죽음과 소녀가 말한 거리",
+        "summary": "언어의 소멸과 내면의 죽음 냄새를 이야기하고, 18세 여름 석양 속에서 소녀가 들려주었던 벽에 둘러싸인 도서관의 마을을 회고한다."
+      },
+      {
+        "sectionTitle": "황금빛 짐승들과 완전한 벽",
+        "summary": "피리 소리에 맞춰 이동하는 금색 일각수들의 엄밀한 질서와 아무도 흠집 낼 수 없는 완벽한 벽, 그리고 도서관에 보관된 오래된 꿈의 존재를 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "자아와 무의식의 상징 체계",
+        "value": "완벽하고 영원한 벽과 그 안의 도서관, 오래된 꿈, 일각수를 통해 현실의 상처를 벗어나 무의식의 영역으로 침잠하는 인간 정신의 풍경을 구현함"
+      }
+    ],
+    "keyEntitiesText": "나(예언자), 너(소녀), 문지기, 일각수(외뿔 짐승)",
+    "settingText": "높은 벽으로 격리된 환상 속의 거리, 도서관, 그리고 망루"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uvD_TXFN3f91EZGJk7dBFsgnVmRwVCz0",
+    "filename": "무라카미 하루키-마을과 그 불확실한 벽.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.612Z",
+    "size": "96260",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키",
+    "webViewLink": "https://drive.google.com/file/d/1uvD_TXFN3f91EZGJk7dBFsgnVmRwVCz0/view?usp=drivesdk",
+    "sourceSha256": "ab3f52ea1d3991b8d2e6934d0c15ecc69caba0b12109a076b04edae8094f4baf",
+    "textSha256": "c8229cb7b173597909d9c2ebcf30cc725cb9769b98d30f37a33e47f6026d6b41",
+    "changeKey": "3635b30a471724ad18c2838466b159ef",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "be13cc7b6ce7a258d301",
+    "workId": "be13cc7b6ce7a258d301",
+    "driveFileId": "1uvD_TXFN3f91EZGJk7dBFsgnVmRwVCz0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:45:30.241788+00:00",
+    "updatedAt": "2026-09-21T19:45:30.241803+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:45:30.241903+00:00"
+    }
+  }
+}

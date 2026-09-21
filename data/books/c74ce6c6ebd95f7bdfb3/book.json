@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "TV 피플",
+    "author": "무라카미하루키",
+    "genre": "단편소설집",
+    "tags": [
+      "비일상",
+      "환상",
+      "소외",
+      "기묘함"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "초현실주의 소설",
+        "단편 문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일상의 이면에 잠재된 기묘한 균열과 초현실적인 현상을 건조하면서도 긴장감 넘치는 문체로 형상화하는 소설가.",
+    "oneLineSummary": "나른한 일요일 저녁 불쑥 찾아와 정체불명의 텔레비전을 설치하고 사라진 작은 존재들로 인해 균열을 겪는 일상.",
+    "overallSummary": "역자 서문을 통해 소설의 환상성과 가교적 의미를 짚은 후 본문이 이어진다. 화자가 혼자 머물던 일요일 저녁, 실물보다 약 20~30퍼센트 균일하게 축소된 세 명의 TV 피플이 무단으로 들어와 사이드보드 위의 물건들을 치우고 컬러텔레비전을 두고 간다. 화자는 저항하지 못한 채 무력감을 느끼고, 귀가한 아내조차 그 변화를 전혀 인식하지 못하며 일상의 기이한 뒤틀림이 심화된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "역자 서문 및 일요일의 침입",
+        "summary": "일상 속으로 침입하는 비일상의 실험을 다룬 작품 배경을 해설하고, 화자의 방에 작은 TV 피플들이 나타나 텔레비전을 설치하는 과정을 묘사한다."
+      },
+      {
+        "sectionTitle": "무시당한 존재와 묵인된 변화",
+        "summary": "TV 피플에게 철저히 배제당한 화자의 심리적 무력감과, 밤에 돌아온 아내가 방안의 커다란 변화를 전혀 언급하지 않는 기이한 침묵을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "미디어의 침투와 주체성의 박탈",
+        "value": "소통의 단절 속에서 가정 내로 침입한 텔레비전과 작은 인간들을 통해 현대인이 느끼는 무력감과 현실 왜곡을 상징적으로 표현함"
+      }
+    ],
+    "keyEntitiesText": "화자(나), TV 피플(세 명의 왜소한 침입자), 아내",
+    "settingText": "조용한 일요일 저녁 도심의 좁은 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ol2uS4czZORwUWXKx3nTYa20bZft5UWf",
+    "filename": "무라카미 하루키-TV 피플.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.428Z",
+    "size": "195308",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키",
+    "webViewLink": "https://drive.google.com/file/d/1ol2uS4czZORwUWXKx3nTYa20bZft5UWf/view?usp=drivesdk",
+    "sourceSha256": "40d1c3feba704814ebf58a278346f46d88a90f6d09f2346cf9a2417c901031f3",
+    "textSha256": "cdd3b6c527064d23539d61a53e28f93a0307e44dd1b05aa2adc5b9cde08b5326",
+    "changeKey": "e8aebca9f375bcc23d01b89d1a790c40",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c74ce6c6ebd95f7bdfb3",
+    "workId": "c74ce6c6ebd95f7bdfb3",
+    "driveFileId": "1ol2uS4czZORwUWXKx3nTYa20bZft5UWf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:45:01.804574+00:00",
+    "updatedAt": "2026-09-21T19:45:01.804589+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:45:01.804695+00:00"
+    }
+  }
+}

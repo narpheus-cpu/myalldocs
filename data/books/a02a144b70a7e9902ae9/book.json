@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무라카미 하루키 단편 걸작선",
+    "author": "무라카미 하루키",
+    "genre": "단편소설집",
+    "tags": [
+      "단편집",
+      "도시문학",
+      "일상",
+      "상실"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "단편소설",
+        "현대문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대인의 고독과 내면세계를 특유의 문체와 감각적인 언어로 포착해 국제적인 명성을 얻은 일본의 대표 소설가.",
+    "oneLineSummary": "작가의 초기 대표 단편들과 함께 여동생의 약혼자를 둘러싼 남매간의 갈등을 담은 '패밀리 어페어' 등을 수록한 단편집.",
+    "overallSummary": "작가의 다양한 단편 목록과 작가 소개, 그리고 수록작 중 하나인 '패밀리 어페어'의 도입부가 실려 있다. '패밀리 어페어'는 한집에 살며 자유분방하게 지내던 남매가 여동생의 약혼자 등장으로 인해 서로의 가치관과 생활 방식의 괴리를 겪으며 벌어지는 갈등과 미묘한 심리를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "단편집 개요 및 작가 소개",
+        "summary": "작가의 문학적 궤적과 주요 수상 경력, 현대 사회의 고독을 짚어내는 문학적 특성을 설명하고 수록 목록을 제시한다."
+      },
+      {
+        "sectionTitle": "패밀리 어페어",
+        "summary": "함께 살던 오빠와 여동생이 일상적인 외식 자리에서 벌이는 다툼을 시작으로 여동생의 약혼자와 결혼 문제를 둘러싼 가치관 차이를 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "가족 관계의 재편과 균열",
+        "value": "친밀했던 남매의 일상에 타인이 개입하면서 드러나는 건전함과 자유분방함의 충돌을 경쾌한 대화 속에 포착함"
+      }
+    ],
+    "keyEntitiesText": "화자(오빠), 여동생, 여동생의 약혼자(컴퓨터 엔지니어)",
+    "settingText": "1980년대 도쿄의 아파트 및 도심 거리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-ZD_lgnbFtmYRkvJDg0ZJfYXakKQoTxv",
+    "filename": "무라카미 하루키-단편걸작선.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.203Z",
+    "size": "447629",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "단편집"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/단편집",
+    "webViewLink": "https://drive.google.com/file/d/1-ZD_lgnbFtmYRkvJDg0ZJfYXakKQoTxv/view?usp=drivesdk",
+    "sourceSha256": "589910ee77a84483a64a2f1d3ec6eeac47936bec9ead222ffbb207cab9b8dc0a",
+    "textSha256": "ec7653e13021c69e62daeff57c7aa058cd98465a05761f79a7f5b812b0726d87",
+    "changeKey": "22643c502cdecd21780f51d5b2cdd1b8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a02a144b70a7e9902ae9",
+    "workId": "a02a144b70a7e9902ae9",
+    "driveFileId": "1-ZD_lgnbFtmYRkvJDg0ZJfYXakKQoTxv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:44:15.910508+00:00",
+    "updatedAt": "2026-09-21T19:44:15.910526+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:44:15.910718+00:00"
+    }
+  }
+}
