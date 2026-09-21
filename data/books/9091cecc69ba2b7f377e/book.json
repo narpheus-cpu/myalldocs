@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나보다 나를 더 사랑하는 사람들",
+    "author": "사만타 글렌, 메리 페사레시",
+    "genre": "에세이",
+    "tags": [
+      "가족",
+      "사랑",
+      "감동",
+      "관계"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "family",
+        "relationships"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 자유기고가들로, 가족 간의 소중한 순간들을 모아 책으로 엮었다.",
+    "oneLineSummary": "가족이라는 이름으로 엮어가는 따뜻한 사랑과 감동적인 이야기 모음집이다.",
+    "overallSummary": "삶의 고비마다 곁을 지켜준 가족들의 사랑과 희생, 그리고 그 속에서 피어나는 따뜻한 감동을 담은 에세이들로 구성되어 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "대신할 수 없는 것",
+        "summary": "어린 시절의 실수와 그를 감싸 안아준 어머니의 사랑을 통해 가족의 소중함을 일깨운다."
+      },
+      {
+        "sectionTitle": "인생이라는 퍼즐의 마지막 조각",
+        "summary": "이민 생활의 고단함 속에서 서로를 지탱해 주는 부부의 사랑을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심가치",
+        "value": "가족애, 위로, 공감"
+      },
+      {
+        "key": "주요테마",
+        "value": "가족사의 감동적인 장면들"
+      }
+    ],
+    "keyEntitiesText": "사만타 글렌, 메리 페사레시, 박수현(역자)",
+    "settingText": "가족이 함께하는 일상과 삶의 가파른 길목들."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vmJLN4DJqY9uzqNX7dAFPm8hJtHPalLu",
+    "filename": "사만타 글렌, 메리 페사레시-나보다 나를 더 사랑하는 사람들 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:36.809Z",
+    "size": "302407",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1vmJLN4DJqY9uzqNX7dAFPm8hJtHPalLu/view?usp=drivesdk",
+    "sourceSha256": "b581d5197370643306385da119e0346e4ddaf90c6525de2ee37e3aa30362f8e0",
+    "textSha256": "664fff69111bc1988380d6bf248b5b30bbc26e65655e56e07b2de4fa528ff4d6",
+    "changeKey": "408c103c57a04de9778511f19b17f8bb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9091cecc69ba2b7f377e",
+    "workId": "9091cecc69ba2b7f377e",
+    "driveFileId": "1vmJLN4DJqY9uzqNX7dAFPm8hJtHPalLu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:17:42.135577+00:00",
+    "updatedAt": "2026-09-21T17:17:42.135595+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:17:42.135696+00:00"
+    }
+  }
+}

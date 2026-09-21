@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여자가 궁금해 하는 125가지 의학상식",
+    "author": "사라 브루어",
+    "genre": "건강/의학",
+    "tags": [
+      "여성건강",
+      "의학상식",
+      "질병",
+      "상담"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "medicine",
+        "health"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국 런던에서 활동하는 의사이자 의학저술가이다.",
+    "oneLineSummary": "여성의 일생 동안 겪는 다양한 건강 고민과 의학적 궁금증을 125가지로 정리했다.",
+    "overallSummary": "섹스, 월경, 임신, 폐경, 유방암 등 여성의 생애 주기별 건강 문제에 대해 의학적 지식을 바탕으로 명쾌한 해답과 조언을 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "섹스",
+        "summary": "순결, 오르가슴, 성병 등 여성의 성 건강에 관한 궁금증을 해결한다."
+      },
+      {
+        "sectionTitle": "임신",
+        "summary": "임신 준비, 진단, 유산, 분만 등 임신 전반에 관한 의학적 정보를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성방식",
+        "value": "Q&A 형식"
+      },
+      {
+        "key": "주요분야",
+        "value": "부인과, 내과, 정신과"
+      }
+    ],
+    "keyEntitiesText": "사라 브루어, 장윤석(역자)",
+    "settingText": "여성들이 일상에서 겪는 건강 고민과 진료실."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VlNkuN6JcRMMTLDkVgLbqG30gKf0qwRx",
+    "filename": "사라 브루어-여자가 궁금해 하는 125가지 의학상식 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:36.792Z",
+    "size": "311427",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1VlNkuN6JcRMMTLDkVgLbqG30gKf0qwRx/view?usp=drivesdk",
+    "sourceSha256": "1cd7496b722731aa4ee3bb5e160169898440d38ce017c903d2f560231e65be93",
+    "textSha256": "504349b4fe8cf4984935ba49b85ca99f6ab492444589fef700c2856065a92913",
+    "changeKey": "ac3ec21bda0ac02826ff057431fcb27f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "992ed09fc8c47880dcd2",
+    "workId": "992ed09fc8c47880dcd2",
+    "driveFileId": "1VlNkuN6JcRMMTLDkVgLbqG30gKf0qwRx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:17:11.448426+00:00",
+    "updatedAt": "2026-09-21T17:17:11.448444+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:17:11.448545+00:00"
+    }
+  }
+}
