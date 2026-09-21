@@ -19,15 +19,15 @@ function setupPrivateStorage() {
 
 /**
  * Run once from the Apps Script editor after deployment. This installs the
- * free 15-minute clock trigger, finds the single books-json folder, and starts
- * the first background scan immediately. GitHub's schedule remains a backup.
+ * free 15-minute clock trigger, finds the single books-json folder, and queues
+ * the first scan shortly afterward. GitHub's schedule remains a backup.
  */
 function installCanonicalImportAutomation() {
   var properties = PropertiesService.getScriptProperties();
   var folderId = String(properties.getProperty('CANONICAL_IMPORT_FOLDER_ID') || '') || discoverCanonicalImportFolder_();
   if (!folderId) throw new Error('이름이 books-json인 폴더가 하나만 있어야 합니다. 인덱싱 화면에서 폴더를 직접 선택할 수도 있습니다.');
   var trigger = ensureCanonicalImportTrigger_();
-  var run = scheduledCanonicalImportTick_();
+  var run = requestCanonicalImportScan_();
   return {ok: true, trigger: trigger, run: run, canonicalImport: canonicalImportStatus_()};
 }
 
@@ -202,15 +202,19 @@ function runCanonicalImportNow_() {
 }
 
 function requestCanonicalImportScan_() {
-  var owner = requiredProperty_('GITHUB_OWNER');
-  var repo = requiredProperty_('GITHUB_REPO');
-  var token = String(PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN') || '').trim();
-  if (!githubTokenLooksValid_(token)) return {requested: false, scheduledFallback: true, reason: 'missing_or_invalid_token', code: 0, message: githubDispatchFailureMessage_(0, 'missing_or_invalid_token')};
-  // An empty manifest id deliberately makes queue_context call private-queue,
-  // where the Drive folder scan runs outside the browser request.
-  var result = requestQueueWorkflow_(owner, repo, token, '');
-  if (!result.ok) return {requested: false, scheduledFallback: true, reason: result.reason, code: result.code, message: githubDispatchFailureMessage_(result.code, result.reason)};
-  return {requested: true, scheduledFallback: false};
+  var handler = 'scheduledCanonicalImportSoon_';
+  var existing = ScriptApp.getProjectTriggers().filter(function(trigger) {
+    return trigger.getHandlerFunction() === handler;
+  });
+  if (!existing.length) ScriptApp.newTrigger(handler).timeBased().after(60000).create();
+  return {requested: true, scheduledFallback: false, message: '약 1분 안에 백엔드에서 새 JSON을 확인합니다.'};
+}
+
+function scheduledCanonicalImportSoon_() {
+  ScriptApp.getProjectTriggers().forEach(function(trigger) {
+    if (trigger.getHandlerFunction() === 'scheduledCanonicalImportSoon_') ScriptApp.deleteTrigger(trigger);
+  });
+  return scheduledCanonicalImportTick_();
 }
 
 function disableCanonicalImport_() {
@@ -267,7 +271,7 @@ function ensureCanonicalImportTrigger_() {
 
 function removeCanonicalImportTriggers_() {
   ScriptApp.getProjectTriggers().forEach(function(trigger) {
-    if (trigger.getHandlerFunction() === 'scheduledCanonicalImportTick_') ScriptApp.deleteTrigger(trigger);
+    if (['scheduledCanonicalImportTick_', 'scheduledCanonicalImportSoon_'].indexOf(trigger.getHandlerFunction()) >= 0) ScriptApp.deleteTrigger(trigger);
   });
   var properties = PropertiesService.getScriptProperties();
   properties.deleteProperty('CANONICAL_IMPORT_TRIGGER_INSTALLED');
@@ -289,8 +293,8 @@ function scheduledCanonicalImportTick_() {
     CANONICAL_IMPORT_TRIGGER_LAST_MESSAGE: 'books-json 폴더를 확인하는 중입니다.'
   });
   try {
-    var scan = importCanonicalFolder_({limit: 10});
-    var active = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS');
+    var scan = importCanonicalFolder_({limit: 5});
+    var active = repairQueueHead_();
     var dispatch = {requested: false, scheduledFallback: false, reason: active.length ? 'already_running_or_queued' : 'empty_queue'};
     var live = liveStatus_();
     var updated = Date.parse(live.updatedAt || '');
@@ -583,6 +587,30 @@ function repairQueueLists_() {
   return {active: kept.slice(-200), review: reviews};
 }
 
+// Check only the queue head in time-sensitive web requests. Scanning every
+// historical manifest made scheduled Actions wait for the web app until its
+// 60-second network timeout and then fail without processing any book.
+function repairQueueHead_() {
+  var properties = PropertiesService.getScriptProperties();
+  var active = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS');
+  var reviews = queueIds_('PRIVATE_REVIEW_MANIFEST_IDS');
+  var changed = false;
+  for (var checked = 0; checked < 5 && active.length; checked++) {
+    var disposition;
+    try { disposition = queueDisposition_(queueManifestSnapshot_(active[0])); }
+    catch (error) { break; }
+    if (disposition === 'active') break;
+    var id = active.shift();
+    if (disposition === 'review' && reviews.indexOf(id) < 0) reviews.push(id);
+    changed = true;
+  }
+  if (changed) {
+    properties.setProperty('PRIVATE_QUEUE_MANIFEST_IDS', JSON.stringify(active));
+    properties.setProperty('PRIVATE_REVIEW_MANIFEST_IDS', JSON.stringify(reviews.slice(-200)));
+  }
+  return active;
+}
+
 function placeQueueResult_(properties, id, status, allTargetsComplete) {
   var active = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS').filter(function(item) { return item !== id; });
   var reviews = queueIds_('PRIVATE_REVIEW_MANIFEST_IDS').filter(function(item) { return item !== id; });
@@ -617,11 +645,9 @@ function handlePrivateQueue_(body) {
     properties.setProperty('SERVICE_ACCOUNT_EMAIL', serviceAccountEmail);
     driveEnsureEditor_(ensureManagementFolderId_(), serviceAccountEmail);
   }
-  // Scheduled queue checks also scan the connected books-json inbox. Direct
-  // uploads pass their manifest id straight to Actions and avoid this scan.
-  importCanonicalFolder_({limit: 10});
-  var queueLists = repairQueueLists_();
-  var ids = queueLists.active;
+  // The clock trigger imports Drive files separately. Keep this callback
+  // quick: GitHub's scheduler must never wait through a full Drive scan.
+  var ids = repairQueueHead_();
   if (incomingEmail && incomingEmail !== storedEmail) {
     if (ids.length) ensureQueueManifestAccess_(ids[0], serviceAccountEmail);
   }

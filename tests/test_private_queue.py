@@ -445,10 +445,12 @@ def test_books_json_folder_is_imported_server_side_and_duplicates_are_skipped():
         "automaticImport",
     ):
         assert phrase in relay
-    assert "importCanonicalFolder_({limit: 10})" in relay
-    assert relay.index("importCanonicalFolder_({limit: 10});", relay.index("function handlePrivateQueue_")) < relay.index("repairQueueLists_();", relay.index("function handlePrivateQueue_"))
+    assert "importCanonicalFolder_({limit: 5})" in relay
+    queue_callback = relay[relay.index("function handlePrivateQueue_"):relay.index("function normalizeServiceAccountEmail_")]
+    assert "importCanonicalFolder_" not in queue_callback
+    assert "repairQueueHead_()" in queue_callback
     assert "requestCanonicalImportScan_" in relay
-    assert "requestQueueWorkflow_(owner, repo, token, '')" in relay
+    assert "ScriptApp.newTrigger(handler).timeBased().after(60000).create()" in relay
     configure = relay[relay.index("function configureCanonicalImport_"):relay.index("function runCanonicalImportNow_")]
     assert "importCanonicalFolder_" not in configure
     assert "requestCanonicalImportScan_" in configure
@@ -469,7 +471,8 @@ def test_books_json_import_has_apps_script_clock_trigger_and_github_backup():
         "function scheduledCanonicalImportTick_()",
         ".timeBased().everyMinutes(15).create()",
         "CANONICAL_IMPORT_TRIGGER_LAST_STATUS",
-        "importCanonicalFolder_({limit: 10})",
+        "importCanonicalFolder_({limit: 5})",
+        "function scheduledCanonicalImportSoon_()",
         "dispatchQueueWorkflow_(preferred)",
     ):
         assert phrase in relay
