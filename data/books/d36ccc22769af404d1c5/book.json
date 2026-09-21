@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일곱 마리 고양이가 들려주는 삶의 지혜",
+    "author": "조 쿠더트",
+    "genre": "에세이",
+    "tags": [
+      "고양이",
+      "삶",
+      "지혜",
+      "에세이",
+      "동물"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "극작가이자 작가. 뉴저지 전원에서 고양이들과 함께 살며 삶의 지혜를 관찰함.",
+    "oneLineSummary": "일곱 마리 고양이와의 동거를 통해 얻은 삶의 태도와 지혜를 담은 에세이.",
+    "overallSummary": "저자는 자신의 삶 속에 들어온 일곱 마리 고양이들을 관찰하며, 그들이 가진 독립심, 몰입, 여유, 관계 맺기 등의 태도에서 인간이 배워야 할 삶의 지혜를 발견한다. 고양이의 기품과 단순함 속에서 인생을 풍요롭게 만드는 법을 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고양이들의 지혜",
+        "summary": "비티, 파피, 체스터 등 각 고양이의 개성을 통해 배우는 삶의 태도."
+      },
+      {
+        "sectionTitle": "삶의 성찰",
+        "summary": "고양이의 단순하고 당당한 삶을 통해 인간의 복잡한 고민을 해결하는 법."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 가치",
+        "value": "자기 삶에 대한 책임과 당당함"
+      },
+      {
+        "key": "문체",
+        "value": "따뜻하고 서정적인 관찰 에세이"
+      }
+    ],
+    "keyEntitiesText": "조 쿠더트, 비티, 파피, 체스터, 삭시, 트롯, 스위트 윌리엄, 케이트",
+    "settingText": "뉴저지 주의 전원주택."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13KZZ_p0t6X2PxO98OFBcIJojW4FZbqVX",
+    "filename": "조 쿠더트-일곱 마리 고양이가 들려주는 삶의 지혜 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:43.098Z",
+    "size": "309489",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/13KZZ_p0t6X2PxO98OFBcIJojW4FZbqVX/view?usp=drivesdk",
+    "sourceSha256": "a7835bc1dc2a4eb38083c076bb74d52c8042568f1ac21acb85e2a9c265474849",
+    "textSha256": "d55fb2409d125593aba5970ee76f65f45e160fcb92e285722db67020b8bbf6ed",
+    "changeKey": "93c9f6453c22e25c85dff41bf4b6a290",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d36ccc22769af404d1c5",
+    "workId": "d36ccc22769af404d1c5",
+    "driveFileId": "13KZZ_p0t6X2PxO98OFBcIJojW4FZbqVX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:00:36.892510+00:00",
+    "updatedAt": "2026-09-21T18:00:36.892527+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:00:36.892630+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잠들 때 하나씩 들려주는 이야기",
+    "author": "보물섬 엮음 (정주연 외 29명)",
+    "genre": "동화",
+    "tags": [
+      "전래동화",
+      "어린이",
+      "잠자리동화",
+      "이야기"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "보물섬 엮음, 정주연 외 29명의 작가가 참여한 어린이용 동화 모음집.",
+    "oneLineSummary": "아이들이 잠들기 전 편안하게 들을 수 있는 짧고 교훈적인 전래 및 창작 동화 모음집.",
+    "overallSummary": "이 책은 '작은 집', '은혜 갚은 생쥐', '세상에서 가장 커다란 고양이' 등 아이들의 상상력을 자극하고 따뜻한 교훈을 주는 다양한 동화들을 수록하고 있다. 동물들의 이야기, 마법사의 제자, 전래 동요 등 다채로운 소재를 통해 아이들에게 정서적 안정과 재미를 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "동물 이야기",
+        "summary": "작은 집을 공유하는 동물들, 꼬리를 갖게 된 동물들의 유래 등 동물들을 의인화한 이야기들."
+      },
+      {
+        "sectionTitle": "교훈과 마법",
+        "summary": "은혜를 갚는 생쥐, 마법사의 제자 등 권선징악과 지혜를 담은 이야기들."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "대상 독자",
+        "value": "유아 및 초등 저학년"
+      },
+      {
+        "key": "주요 테마",
+        "value": "우정, 은혜, 호기심, 교훈"
+      }
+    ],
+    "keyEntitiesText": "생쥐, 개구리, 토끼, 여우, 곰, 사자 임금, 마법사, 아기코끼리, 악어",
+    "settingText": "숲속, 옛날 마을, 궁궐 등 동화적이고 환상적인 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_v80waRX0YJz6M30RrKCSjDgJotk1dg3",
+    "filename": "정주연 외-잠들때 하나씩 들려주는 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:42.986Z",
+    "size": "78526",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1_v80waRX0YJz6M30RrKCSjDgJotk1dg3/view?usp=drivesdk",
+    "sourceSha256": "e246b36ca4f12db04c2c3efdafaad5a89cc57a7c825e54eb794bc1fec0995a5b",
+    "textSha256": "327271224b072b4bbb7520be43ae3f02af201f83aaf507f2f2bdc25b50ea2e45",
+    "changeKey": "bc27ee85b4ed7cb57e7f61811c420471",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "19781cdb37606c9d34ba",
+    "workId": "19781cdb37606c9d34ba",
+    "driveFileId": "1_v80waRX0YJz6M30RrKCSjDgJotk1dg3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:59:47.004463+00:00",
+    "updatedAt": "2026-09-21T17:59:47.004480+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:59:47.004584+00:00"
+    }
+  }
+}

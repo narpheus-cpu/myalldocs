@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그대 뒷모습",
+    "author": "정채봉",
+    "genre": "성인동화",
+    "tags": [
+      "에세이",
+      "성인동화",
+      "감성",
+      "그리움",
+      "삶"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1946년 전남 승주 출생. 동아일보 신춘문예로 등단한 아동문학가이자 교육자. '성인동화'라는 장르를 개척함.",
+    "oneLineSummary": "일상 속에서 발견하는 소박한 아름다움과 그리움을 담은 정채봉의 성인동화 에세이.",
+    "overallSummary": "저자는 일상에서 마주치는 풀꽃, 뒷모습, 자연의 풍경 등을 통해 현대인이 잊고 사는 순수한 감성과 그리움의 가치를 일깨운다. 가식적인 앞모습이 아닌 진실한 뒷모습에서 발견하는 삶의 의미를 서정적인 문체로 그려내고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "꽃뫼에서",
+        "summary": "풀꽃과 자연을 통해 일상의 소중함과 순수한 동심을 회복하는 이야기."
+      },
+      {
+        "sectionTitle": "그리운 사람들",
+        "summary": "주변의 평범한 이웃과 가족을 통해 느끼는 사랑과 행복의 가치."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체 특징",
+        "value": "서정적이고 깊은 울림이 있는 문체"
+      },
+      {
+        "key": "주요 메시지",
+        "value": "가식 없는 진실한 삶의 아름다움"
+      }
+    ],
+    "keyEntitiesText": "정채봉, 꽃뫼마을, 풀꽃",
+    "settingText": "꽃뫼마을이라는 정겨운 시골 풍경과 일상의 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Y0NLMZekadup2Kj_mdu3Yrsr4TGXuvWA",
+    "filename": "정채봉-그대 뒷모습 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:42.999Z",
+    "size": "311736",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1Y0NLMZekadup2Kj_mdu3Yrsr4TGXuvWA/view?usp=drivesdk",
+    "sourceSha256": "864a27c84d71e89b5f5c6f5f3595f5e6a3ab3e009b2ee3f0bb5daf0439dd4e52",
+    "textSha256": "6633bc2b3fd1baade74483143155613332236fa19596d81104488af613f97ea9",
+    "changeKey": "dd6306cdd0d2a8393ace818d510e582e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2c7cc7679838899c15c9",
+    "workId": "2c7cc7679838899c15c9",
+    "driveFileId": "1Y0NLMZekadup2Kj_mdu3Yrsr4TGXuvWA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:59:52.950169+00:00",
+    "updatedAt": "2026-09-21T17:59:52.950185+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:59:52.950287+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "예수 이야기",
+    "author": "조반니 파피니",
+    "genre": "종교/전기",
+    "tags": [
+      "예수",
+      "전기",
+      "종교",
+      "회심",
+      "문학"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이탈리아의 대표 지성인이자 언론인. 무신론자에서 가톨릭으로 회심한 후 집필함.",
+    "oneLineSummary": "무신론자였던 작가가 가톨릭으로 회심한 후 쓴 예수 그리스도의 생애와 인간적 고뇌를 담은 평전.",
+    "overallSummary": "이 책은 예수 그리스도의 생애를 주제별로 재구성하여, 신성한 존재로서의 예수가 아닌 인간적 고뇌와 사랑을 실천한 인물로서의 예수를 조명한다. 작가 자신의 회심 경험이 녹아 있어, 종교적 신념을 넘어 인간 예수에 대한 깊은 통찰을 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "예수의 생애",
+        "summary": "탄생부터 죽음까지 예수의 행적을 문학적이고 철학적인 시각으로 재해석."
+      },
+      {
+        "sectionTitle": "인간 예수",
+        "summary": "신성 뒤에 가려진 인간적 고뇌와 사랑의 실천을 강조."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "집필 배경",
+        "value": "작가의 무신론에서 가톨릭으로의 회심"
+      },
+      {
+        "key": "문학적 특징",
+        "value": "풍부한 지식과 서정적이고 단단한 문체"
+      }
+    ],
+    "keyEntitiesText": "예수 그리스도, 조반니 파피니",
+    "settingText": "고대 팔레스타인 지역."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jaEe_naK12SArXqkEDNDjqHBxrJREfDH",
+    "filename": "조반니 파피니-(무신론자를 위한) 예수 이야기(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T01:50:40.000Z",
+    "size": "1011050",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1jaEe_naK12SArXqkEDNDjqHBxrJREfDH/view?usp=drivesdk",
+    "sourceSha256": "5110131ca2ecb2b7ff3b3ae6d91c96a3a928595b5ec4c350c1ff54619649ef9a",
+    "textSha256": "031af07039927d43e6218bd76f81ca7c7472c8cd4b0c53afdc2115a5a87770d2",
+    "changeKey": "1707ff1ed67e3d9f5104052708b0c164",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "74d650fb9e5229ee65ff",
+    "workId": "74d650fb9e5229ee65ff",
+    "driveFileId": "1jaEe_naK12SArXqkEDNDjqHBxrJREfDH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:01:02.561081+00:00",
+    "updatedAt": "2026-09-21T18:01:02.561098+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:01:02.561202+00:00"
+    }
+  }
+}
