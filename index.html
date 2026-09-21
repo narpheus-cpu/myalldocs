@@ -53,6 +53,7 @@
         <label><input id="library-select-all" type="checkbox"> 현재 목록 전체 선택</label>
         <span id="library-selected-count">0권 선택</span>
         <button id="delete-selected-books" type="button" disabled>선택한 도서 삭제</button>
+        <button id="download-library-csv" type="button" title="필터와 페이지에 관계없이 등록된 전체 도서 목록을 CSV로 저장합니다">전체 도서 목록 CSV 받기</button>
         <span id="library-delete-message" class="message" aria-live="polite"></span>
       </div>
       <div id="search-meta" class="search-meta" aria-live="polite"></div>
@@ -385,6 +386,6 @@
   <script src="config/public-config.js?v=20260916-relay-v8"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script src="https://apis.google.com/js/api.js" async defer></script>
-  <script type="module" src="js/app.js?v=20260920-scheduler1"></script>
+  <script type="module" src="js/app.js?v=20260921-catalog-export1"></script>
 </body>
 </html>

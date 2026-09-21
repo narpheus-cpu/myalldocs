@@ -127,6 +127,10 @@ Google의 보안상 사용자가 직접 해야 하는 일은 로그인, Drive AP
 
 완료된 **요약·분석 결과는 Google Drive가 아니라 GitHub 저장소**에 저장됩니다.
 
+#### 전체 도서 목록 내려받기
+
+**전체 도서 목록 → 전체 도서 목록 CSV 받기**를 누르면 등록된 모든 도서의 제목·저자·장르·태그·생성/수정 일시와 원본 연결 정보를 한 파일로 받을 수 있습니다. 검색 조건이나 현재 페이지와 관계없이 전체 목록을 내려받으며, 목록에서 삭제한 도서는 제외됩니다. CSV는 Excel에서 한글이 보이도록 UTF-8 형식으로 저장됩니다. 이 파일은 목록 확인용이며 책의 원문이나 요약 전문은 포함하지 않습니다.
+
 - 책 목록: `data/catalog.json`
 - 새 통합 결과: `data/books/<bookId>/book.json`
 - 기존 결과(자동 보존): 같은 책 폴더의 `manifest.json`, `summary.json`, `chunks.json`, `analysis.json`, `timeline.json`, `relationships.json`
