@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "앵커맨",
+    "author": "로버트 골드버그, 제럴드 제이 골드버그",
+    "genre": "언론/기록",
+    "tags": [
+      "앵커",
+      "미디어",
+      "뉴스",
+      "방송"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "사회",
+        "언론"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "로버트 골드버그와 제럴드 제이 골드버그가 공저하고 박성범이 번역했다.",
+    "oneLineSummary": "미국 방송 뉴스를 이끄는 전설적인 앵커들의 세계와 치열한 언론 현장을 조명한 책이다.",
+    "overallSummary": "댄 래더, 톰 브로커, 피터 제닝스 등 미국 최고의 뉴스 앵커들이 어떻게 정상에 올랐으며, 거대한 역사적 사건(샌프란시스코 지진, 동유럽 혁명 등)의 현장에서 어떻게 뉴스를 취재하고 보도하는지 생생하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 샌프란시스코: 지진",
+        "summary": "1989년 샌프란시스코 지진 발생 당시 피터 제닝스와 ABC 뉴스 팀이 현장을 누비며 특종을 보도하는 과정을 그린다."
+      },
+      {
+        "sectionTitle": "언론계의 경쟁",
+        "summary": "네트워크 방송사 간의 시청률 전쟁과 앵커들의 치열한 직업 정신을 보여준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "언론인 평전 및 미디어 역사"
+      }
+    ],
+    "keyEntitiesText": "댄 래더, 톰 브로커, 피터 제닝스, 룬 알럿지, 박성범",
+    "settingText": "미국 뉴스 보도국 및 주요 사건 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10SeqZcgbfiT9xDy2AuJdWoLjPteNTdse",
+    "filename": "로버트 골드버그-보도 뉴스의 마술사 앵커맨 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:35.127Z",
+    "size": "915024",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/10SeqZcgbfiT9xDy2AuJdWoLjPteNTdse/view?usp=drivesdk",
+    "sourceSha256": "1cf766a9cbbea7e02b1f5c1b1dfabf981ef693b1ed7259c57d6438fce5b1a3ec",
+    "textSha256": "020b7029a6abc6a0102bbc4e38a09a215fab020892822098b862b4719916b2b4",
+    "changeKey": "3c70c7410c5787bd2c91443f766a908e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "55259a2bf0a15924e020",
+    "workId": "55259a2bf0a15924e020",
+    "driveFileId": "10SeqZcgbfiT9xDy2AuJdWoLjPteNTdse",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:46:02.784118+00:00",
+    "updatedAt": "2026-09-21T16:46:02.784134+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8608,
+      "updatedAt": "2026-09-21T16:46:02.784210+00:00"
+    }
+  }
+}

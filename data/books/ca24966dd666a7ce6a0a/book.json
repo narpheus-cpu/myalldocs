@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "못생긴 나무가 산을 지킨다",
+    "author": "고도원",
+    "genre": "에세이/어록",
+    "tags": [
+      "어록",
+      "인생",
+      "사랑",
+      "긍정"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "자기계발",
+        "수필"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "연세대를 졸업하고 중앙일보 기자, 청와대 연설담당 비서관을 거쳐 '고도원의 아침편지'를 운영하는 고도원이 엮었다.",
+    "oneLineSummary": "삶에 깊은 울림을 주는 명문장과 저자의 묵상을 12달의 테마로 엮은 어록집이다.",
+    "overallSummary": "1월의 사랑부터 12월의 자기존경까지, 매월 삶의 가치관을 세워주는 12가지 테마에 맞춰 고전과 시, 에세이에서 발췌한 주옥같은 구절들을 소개한다. 저자의 따뜻한 해설이 더해져 독자에게 위로와 성찰의 시간을 선사한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1월에는 사랑",
+        "summary": "침묵, 헤세의 시, 고난의 선물, 에릭 프롬의 사랑의 기술 등을 통해 사랑의 의미를 되새긴다."
+      },
+      {
+        "sectionTitle": "2월에는 긍정적 태도",
+        "summary": "죽음의 자각, 미소, 쓸데없는 걱정 줄이기 등 긍정적 사고의 힘을 강조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성",
+        "value": "월별 테마별 어록 및 묵상"
+      }
+    ],
+    "keyEntitiesText": "고도원, 마더 데레사, 헤세, 에릭 프롬",
+    "settingText": "일상 속 마음의 성찰 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Njk1TJErURKdwjMueuE40l2yUkLZNsRx",
+    "filename": "고도원-못생긴 나무가 산을 지킨다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:32.851Z",
+    "size": "194805",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1Njk1TJErURKdwjMueuE40l2yUkLZNsRx/view?usp=drivesdk",
+    "sourceSha256": "39a869b5702721ec139c9f83b7afcbc070cde8efbe45995f0c3162afe50268ae",
+    "textSha256": "f80f53ec4a64f37db68aaf36602ec84594de1f9b934476a1b0117f439ae28758",
+    "changeKey": "cf302cb5ca56113b58d6e7a2360277f2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ca24966dd666a7ce6a0a",
+    "workId": "ca24966dd666a7ce6a0a",
+    "driveFileId": "1Njk1TJErURKdwjMueuE40l2yUkLZNsRx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:45:44.101355+00:00",
+    "updatedAt": "2026-09-21T16:45:44.101372+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:45:44.101450+00:00"
+    }
+  }
+}

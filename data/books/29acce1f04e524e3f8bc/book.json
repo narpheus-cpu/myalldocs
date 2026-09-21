@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세상에서 가장 쉬운 회계학",
+    "author": "구보 유키야",
+    "genre": "경제/경영",
+    "tags": [
+      "회계",
+      "경영",
+      "비즈니스",
+      "매출총이익"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "경제",
+        "경영"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전직 국세조사관이자 회계 전문가인 구보 유키야가 지었고 안해은이 옮겼다.",
+    "oneLineSummary": "복잡한 용어를 배제하고 스토리텔링 형식을 통해 회계의 본질과 실무 지식을 가장 쉽게 설명한다.",
+    "overallSummary": "가계부의 원리에서 출발하여 기업 회계의 목적을 알기 쉽게 풀어낸다. 매출액의 함정에서 벗어나 매출총이익의 중요성을 깨닫게 하고, 제도회계(재무회계, 세무회계)와 비제도회계(관리회계)의 흐름을 직장인의 실제 업무 사례를 통해 친절하게 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "가계부에 회계의 본질이 있다",
+        "summary": "돈의 입출 상황을 파악하고 목표를 달성하는 회계의 기본 개념을 설명한다."
+      },
+      {
+        "sectionTitle": "매출총이익을 먼저 따져라",
+        "summary": "영업 사원 사토 하지메의 실무 사례를 통해 매출액보다 매출총이익이 중요함을 강조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "차변, 대변 등의 어려운 용어 없는 스토리텔링 회계 입문서"
+      }
+    ],
+    "keyEntitiesText": "구보 유키야, 안해은, 사토 하지메, 다나카",
+    "settingText": "주식회사 아트상회 및 비즈니스 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "168buKmpFG3sR-xmneZMXNu8Xgi1Ph2ZP",
+    "filename": "구보 유키야-세상에서 가장 쉬운 회계학(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T12:22:30.000Z",
+    "size": "230441",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/168buKmpFG3sR-xmneZMXNu8Xgi1Ph2ZP/view?usp=drivesdk",
+    "sourceSha256": "013796fbb8222be401899b4fbf010bd3219d1430a2b7a79cf317a0b7ce6bafef",
+    "textSha256": "3cdf83b42618b2d1561b2953a91fad4cfcf2f56826535deec66dc780df72606f",
+    "changeKey": "b26f1da3f4a5e74b1fcfc04b5d9106a6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "29acce1f04e524e3f8bc",
+    "workId": "29acce1f04e524e3f8bc",
+    "driveFileId": "168buKmpFG3sR-xmneZMXNu8Xgi1Ph2ZP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:46:49.150468+00:00",
+    "updatedAt": "2026-09-21T16:46:49.150478+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:46:49.150545+00:00"
+    }
+  }
+}
