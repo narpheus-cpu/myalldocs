@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "재미있는 생활과학 이야기 50",
+    "author": "박기성",
+    "genre": "과학/교양",
+    "tags": [
+      "생활과학",
+      "카오스이론",
+      "적외선",
+      "레이저",
+      "첨단기술"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 박기성은 충북 청주 출생으로 중도일보 경제과학부 기자로 재직했다.",
+    "oneLineSummary": "현대인의 일상 속에서 쉽게 접할 수 있는 50가지 첨단 과학기술과 자연 현상을 쉽고 흥미롭게 풀어낸 교양서이다.",
+    "overallSummary": "이 책은 에어컨과 선풍기에 적용된 카오스 이론, 리모컨과 물리치료에 쓰이는 적외선, 의료 및 통신의 레이저, 로봇산업, 컴퓨터와 우주과학에 이르기까지 일상과 밀접한 50가지 과학 테마를 다룬다. 신문 기자 출신인 저자의 날카로운 시선과 풍부한 취재를 바탕으로, 다소 난해할 수 있는 과학적 원리와 최신 기술을 독자들이 이해하기 쉽도록 일상의 사례와 연결하여 설명한다. 과학의 대중화에 기여하며 첨단 과학이 우리의 삶을 어떻게 향상시키는지 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 생활과 과학",
+        "summary": "카오스 이론, 적외선, 레이저, 로봇산업, 홀로그래피, 초전도체 등 일상 가전과 첨단 기술의 원리를 설명한다."
+      },
+      {
+        "sectionTitle": "제2장 컴퓨터와 생활 ~ 제5장 우주과학",
+        "summary": "컴퓨터 바이러스, 유전자 치료, 기상이변, 혜성과 블랙홀 등 컴퓨터, 의학, 지구 및 우주과학 전반의 50가지 주제를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "저술 방식",
+        "value": "신문 연재 기사를 바탕으로 일반인과 청소년이 이해하기 쉽도록 스토리텔링 형식으로 구성."
+      },
+      {
+        "key": "주요 사례",
+        "value": "가전제품의 카오스 바람, 리모컨의 근적외선, 레이저 수술과 쇼 등."
+      }
+    ],
+    "keyEntitiesText": "박기성, 채연석, 메이만, 타운즈, 바소프, 페이겔스, 하오 배린",
+    "settingText": "대덕연구단지의 과학자들과 언론 현장을 바탕으로 한 일상 속 과학의 세계."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Eh_kRnm2TFCuMOO3rPZi59QzOM7AKHVm",
+    "filename": "재미있는 생활과학 이야기 50.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.339Z",
+    "size": "406612",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1Eh_kRnm2TFCuMOO3rPZi59QzOM7AKHVm/view?usp=drivesdk",
+    "sourceSha256": "7b1dbc64ccb85d9b3c12510f5eea47c09685d52b313f045251e0b086bde69aaa",
+    "textSha256": "fbb02c5a921f54f031bc051982f40e9782849716fb19e099863a5467bceba80a",
+    "changeKey": "2e97b8a7c7c5fef4f436be94d4aa2801",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1d4e86ea128ff54dc105",
+    "workId": "1d4e86ea128ff54dc105",
+    "driveFileId": "1Eh_kRnm2TFCuMOO3rPZi59QzOM7AKHVm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:45:37.361180+00:00",
+    "updatedAt": "2026-09-21T18:45:37.361186+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:45:37.361241+00:00"
+    }
+  }
+}

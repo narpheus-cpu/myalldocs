@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인체해부학 (I)",
+    "author": "권흥식",
+    "genre": "의학/해부학",
+    "tags": [
+      "인체해부학",
+      "계통해부학",
+      "해부학 용어",
+      "골학",
+      "근학"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 권흥식은 의학박사이다.",
+    "oneLineSummary": "인체의 구조와 형태를 체계적으로 이해하기 위한 계통해부학의 기초 지식을 다룬다.",
+    "overallSummary": "이 책은 인체해부학의 범위와 역사, 해부학적 용어, 인체의 개요를 시작으로 골학, 인대학, 근학, 맥관학, 내장학, 신경학, 감각기학에 이르는 인체의 구조를 계통별로 상세히 해설한다. 히포크라테스와 갈레누스를 거쳐 베살리우스와 하비에 이르는 해부학의 역사적 발전 과정을 정리하고, 해부학적 자세와 방향 및 체부 형태를 나타내는 정확한 전문 용어들을 규정하여 의학도들이 인체의 육안적 구조를 과학적으로 학습할 수 있도록 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 해부학 개론",
+        "summary": "해부학의 범위, 역사(히포크라테스부터 20세기까지), 중요한 해부학적 용어(방향 및 형태 술어), 인체의 개요를 설명한다."
+      },
+      {
+        "sectionTitle": "제2장 발생과 성장 ~ 제9장 감각기학",
+        "summary": "태아기 발생부터 뼈, 관절, 근육, 혈관, 내장, 신경, 감각기에 이르기까지 인체의 각 계통별 구조를 상세히 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "학습 방법",
+        "value": "구조와 기능이 연관된 계통(System)에 따른 '계통해부학' 중심."
+      },
+      {
+        "key": "용어 체계",
+        "value": "국제 해부학명(P.N.A., B.N.A.)과 방향 표시 술어(시상면, 전두면, 내측, 외측 등)의 엄격한 정의."
+      }
+    ],
+    "keyEntitiesText": "권흥식, 히포크라테스, 아리스토텔레스, 헤로필로스, 갈레누스, 레오나르도 다 빈치, 안드레아스 베살리우스, 윌리엄 하비, 로버트 훅",
+    "settingText": "의과대학 및 보건계 학과에서 인체 구조를 학습하는 교육 현장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_8L8_MBW923s_tx_cxaif_5mQIeUABal",
+    "filename": "인체해부학 (I).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.277Z",
+    "size": "1180389",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1_8L8_MBW923s_tx_cxaif_5mQIeUABal/view?usp=drivesdk",
+    "sourceSha256": "0f2339de386693fe23ab408acd02c23d31c6525e4a723725de0b5df0e814c143",
+    "textSha256": "4cdc03631c8fdeb1a1184cb31ec32251183c30ff3d8ffc9c6063ec9815a4cbfd",
+    "changeKey": "56a86f61d9829bae20bac89627f8647f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a63b36d43e602e51624e",
+    "workId": "a63b36d43e602e51624e",
+    "driveFileId": "1_8L8_MBW923s_tx_cxaif_5mQIeUABal",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:45:18.260116+00:00",
+    "updatedAt": "2026-09-21T18:45:18.260121+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:45:18.260180+00:00"
+    }
+  }
+}

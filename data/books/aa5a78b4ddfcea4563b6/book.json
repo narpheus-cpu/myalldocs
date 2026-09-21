@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지구를 지키는 환경과학",
+    "author": "과학세대",
+    "genre": "환경과학/교양",
+    "tags": [
+      "오존층 파괴",
+      "프레온가스(CFC)",
+      "대기오염",
+      "온실효과",
+      "환경과학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학세대는 과학의 대중화와 올바른 지식 보급을 목표로 활동하는 출판 연구모임이다.",
+    "oneLineSummary": "지구가 직면한 오존층 파괴, 대기 오염, 기후 변화 등의 환경 위기를 과학적 원리로 진단하고 해결 방안을 모색한다.",
+    "overallSummary": "이 책은 오존층의 형성과 파괴(프레온 가스/CFC), 스모그와 산성비 등의 대기 오염, 온실 효과와 지구 온난화, 화학 물질 오염(미나마타 병), 쓰레기 처리 및 플라스틱 공해, 해양 및 수질 오염에 이르기까지 전 지구적 환경 문제를 과학적 시각에서 총망라한다. 인류가 초래한 환경 파괴의 심각성을 고발하는 동시에, 오존층 복구 노력, 바이오매스·지열·풍력·태양 에너지 등 청정 에너지 개발, 생물학적 폐수 처리 및 청정 기술 등 위기를 극복하기 위한 첨단 과학기술의 대안을 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 오존층에 뚫린 구멍",
+        "summary": "오존층의 역할과 남극의 오존 구멍 발견, 프레온 가스(CFC)에 의한 오존 파괴 메커니즘과 예상되는 피해를 다룬다."
+      },
+      {
+        "sectionTitle": "제2장 대기 오염 ~ 제8장 청정 기술",
+        "summary": "스모그, 지구 온난화와 대체 에너지, 화학 물질 오염, 쓰레기 재활용, 수질·해양 오염의 정화 기술 및 청정 기술의 연구 현황을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "과학적 원리",
+        "value": "CFC가 성층권에서 자외선에 의해 분해되어 염소 원자를 만들고, 이 염소 원자가 오존(O3)을 연쇄적으로 파괴함."
+      },
+      {
+        "key": "해결 방향",
+        "value": "프레온 가스 대체품 개발, 오존층 복구 노력, 태양열·풍력 등 청정 에너지 및 친환경 기술 도입."
+      }
+    ],
+    "keyEntitiesText": "토마스 미즐리, 과학세대",
+    "settingText": "환경 파괴의 위기에 직면한 지구촌과 이를 구명하려는 과학 연구실 및 국제 사회."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-QbzgZiEyEAKnZgdvtlayZ5wcqiMyDNb",
+    "filename": "지구를 지키는 환경과학.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.439Z",
+    "size": "215437",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1-QbzgZiEyEAKnZgdvtlayZ5wcqiMyDNb/view?usp=drivesdk",
+    "sourceSha256": "2250cfbd86979435574c169cbf5e91a6fb62bdd7cb179d3fd12bcb80aa6ee18f",
+    "textSha256": "dcc7d9be1f3b5af332189485d8caff8945e29424d228b6d565fd7af8413e9791",
+    "changeKey": "9f67d6649ac31e7988b5b67f01c6003e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aa5a78b4ddfcea4563b6",
+    "workId": "aa5a78b4ddfcea4563b6",
+    "driveFileId": "1-QbzgZiEyEAKnZgdvtlayZ5wcqiMyDNb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:46:42.565503+00:00",
+    "updatedAt": "2026-09-21T18:46:42.565508+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:46:42.565563+00:00"
+    }
+  }
+}
