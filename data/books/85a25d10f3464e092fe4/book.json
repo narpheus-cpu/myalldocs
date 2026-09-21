@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "돈키호테 특별 해설집",
+    "author": "안영옥",
+    "genre": "academic",
+    "tags": [
+      "해설집",
+      "돈키호테",
+      "세르반테스",
+      "스페인역사",
+      "문학비평"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고려대학교 스페인어문학과 교수로, 5년간의 고증과 답사를 거쳐 완벽한 한국어판 『돈키호테』를 번역해 낸 학자입니다.",
+    "oneLineSummary": "돈키호테 번역가 안영옥 교수가 들려주는 세르반테스의 삶과 작품의 시대적 배경에 대한 강연록입니다.",
+    "overallSummary": "16-17세기 스페인의 종교 재판과 순혈주의 등 억압적인 사회 분위기 속에서 개종 유대인이었던 세르반테스가 어떻게 『돈키호테』라는 불후의 명작을 탄생시켰는지 깊이 있게 분석합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "돈키호테, 인류의 바이블이 된 문학적 유산",
+        "summary": "단순한 괴짜의 소동극을 넘어 현실과 이상의 불일치 속에서 인간의 존엄성을 지키려는 이상주의자의 투쟁을 재조명합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비평적 시각",
+        "value": "당대의 검열과 억압 속에서 작가가 텍스트 이면에 숨겨둔 사회 비판적 메시지와 문학적 혁신을 예리하게 짚어냅니다."
+      }
+    ],
+    "keyEntitiesText": "안영옥, 세르반테스, 펠리페 2세, 종교 재판소",
+    "settingText": "스페인 마드리드 및 라만차 지역의 역사적 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14e4UG-BFdy2hGYQj6gJKrGGWWNyCykHN",
+    "filename": "세르반테스-돈키호테 특별해설집(열린책들)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T12:48:00.000Z",
+    "size": "69950",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/14e4UG-BFdy2hGYQj6gJKrGGWWNyCykHN/view?usp=drivesdk",
+    "sourceSha256": "24dbd5393bbf972b20ea95f5b9e4628a668f9803c4e036deddca45a92274073d",
+    "textSha256": "965133d7fa40da0fb31c0b7fcb15513c7e5cd1ff69c07020d2f1d04e3a46c9a9",
+    "changeKey": "37dc07ae44ab8a83753ee8f10ef9dce5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "85a25d10f3464e092fe4",
+    "workId": "85a25d10f3464e092fe4",
+    "driveFileId": "14e4UG-BFdy2hGYQj6gJKrGGWWNyCykHN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:50:56.439568+00:00",
+    "updatedAt": "2026-09-21T16:50:56.439577+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:50:56.439645+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "호밀밭의 파수꾼",
+    "author": "J.D. 샐린저",
+    "genre": "fiction",
+    "tags": [
+      "성장소설",
+      "미국소설",
+      "방황",
+      "청소년",
+      "홀든콜필드"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1919년 뉴욕 출생의 미국 작가로, 제2차 세계대전에 참전한 경험이 있으며 이 자전적 소설로 세계적인 명성을 얻었습니다.",
+    "oneLineSummary": "위선적인 성인 사회에 환멸을 느끼고 방황하는 소년 홀든 콜필드의 독백을 담은 성장 소설입니다.",
+    "overallSummary": "펜시 고등학교에서 퇴학당한 홀든 콜필드가 뉴욕을 헤매며 겪는 며칠간의 방황을 통해 기성세대의 위선과 청소년기의 고독, 순수함에 대한 갈망을 독백 형식으로 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장",
+        "summary": "홀든 콜필드가 펜시 고등학교에서 퇴학당한 후 역사 선생인 스펜서 선생을 찾아가기 전까지의 상황을 설명합니다."
+      },
+      {
+        "sectionTitle": "제 2장",
+        "summary": "독감에 걸린 스펜서 선생을 만나 낙제와 퇴학에 대한 훈계를 들으며 홀든이 느끼는 지루함과 성인 사회에 대한 환멸을 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징성",
+        "value": "'호밀밭의 파수꾼'은 때 묻지 않은 아이들이 절벽으로 떨어지지 않도록 지켜주는 순수함의 수호자를 상징합니다."
+      }
+    ],
+    "keyEntitiesText": "홀든 콜필드, 스펜서 선생, 피비, D.B.",
+    "settingText": "미국 펜실베이니아의 펜시 고등학교 및 뉴욕 시내"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1X77QBU2Box3iv2kFvcGiTzZf2inDuJDi",
+    "filename": "J.D.샐린저-호밀밭의 파수꾼.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:10.122Z",
+    "size": "378934",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1X77QBU2Box3iv2kFvcGiTzZf2inDuJDi/view?usp=drivesdk",
+    "sourceSha256": "080f43c670f1c2700bfadb63232f53311868e594723fa4e27a36bd51bb2a22a6",
+    "textSha256": "f2675c14d8258b11d20b2d3246589642501c36359b62d6f6451efab3d0d1af59",
+    "changeKey": "19bdadd9296869cef7ffe9a031cc6dfe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9f00305f22241766850d",
+    "workId": "9f00305f22241766850d",
+    "driveFileId": "1X77QBU2Box3iv2kFvcGiTzZf2inDuJDi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:49:20.738138+00:00",
+    "updatedAt": "2026-09-21T16:49:20.738148+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:49:20.738222+00:00"
+    }
+  }
+}

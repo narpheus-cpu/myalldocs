@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어린 왕자",
+    "author": "앙투안 드 생떽쥐베리 (번역 김인정)",
+    "genre": "fiction",
+    "tags": [
+      "동화",
+      "어린왕자",
+      "생텍쥐페리",
+      "철학",
+      "우정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 비행사이자 작가로, 제2차 세계대전 중 실종되기 전까지 시적이고 환상적인 작품들을 남겼습니다.",
+    "oneLineSummary": "사막에 불시착한 비행사가 다른 별에서 온 어린 왕자를 만나며 삶의 참된 의미를 깨닫는 동화입니다.",
+    "overallSummary": "사하라 사막에 불시착한 조종사가 소혹성 B-612에서 온 어린 왕자를 만나 그의 여행담을 들으며, 어른들의 물질주의적 태도를 반성하고 관계의 소중함과 길들임의 의미를 배웁니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "보아뱀과 사막",
+        "summary": "여섯 살 때 그린 보아뱀 그림을 이해하지 못하는 어른들에 대한 실망과 사하라 사막에 불시착하여 어린 왕자를 만나는 과정을 그립니다."
+      },
+      {
+        "sectionTitle": "바오밥나무와 일몰",
+        "summary": "어린 왕자의 별에 자라는 위험한 바오밥나무를 제거하는 일의 중요성과 그가 슬플 때 즐겨 보던 일몰에 대해 이야기합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 메시지",
+        "value": "가장 중요한 것은 눈에 보이지 않으며, 마음으로 보아야만 진실을 볼 수 있다는 교훈을 전합니다."
+      }
+    ],
+    "keyEntitiesText": "나(조종사), 어린 왕자, 장미, 여우",
+    "settingText": "사하라 사막 및 소혹성 B-612"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bVdg4_MPYxgJdLDHCytT9B5WXgelHS7O",
+    "filename": "생떽쥐페리-어린왕자(블루프린트)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T12:01:56.000Z",
+    "size": "107700",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1bVdg4_MPYxgJdLDHCytT9B5WXgelHS7O/view?usp=drivesdk",
+    "sourceSha256": "a9b68f8ef7ed36be7fa6e9b9068ef8c3d79673e3ae3e730509ae2a396740647f",
+    "textSha256": "dd956bb95a815cf83fa78eaf35540c3f77e037720c6213ed7014d4d8280d5400",
+    "changeKey": "8fe55311f1282b2d4950590aab7be1df",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e131df19d83b09707957",
+    "workId": "e131df19d83b09707957",
+    "driveFileId": "1bVdg4_MPYxgJdLDHCytT9B5WXgelHS7O",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:49:34.167304+00:00",
+    "updatedAt": "2026-09-21T16:49:34.167314+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8426,
+      "updatedAt": "2026-09-21T16:49:34.167397+00:00"
+    }
+  }
+}

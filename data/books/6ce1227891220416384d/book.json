@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "돈키호테 1",
+    "author": "미겔 데 세르반테스 사아베드라 (번역 안영옥)",
+    "genre": "fiction",
+    "tags": [
+      "근대소설",
+      "돈키호테",
+      "세르반테스",
+      "산초판사",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스페인 문학의 거장으로, 감옥살이 중에 구상한 『돈키호테』를 통해 세계 문학사에 영원한 이정표를 세웠습니다.",
+    "oneLineSummary": "라만차의 이달고 알론소 키하노가 돈키호테라는 이름으로 편력 기사의 길을 나서는 전편 이야기입니다.",
+    "overallSummary": "기사 소설을 너무 읽어 정신을 잃은 주인공이 스스로 기사가 되어 풍차를 거인으로 착각해 돌진하는 등, 종자 산초 판사와 함께 겪는 황당하고도 철학적인 첫 번째와 두 번째 모험을 담고 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "작가가 감옥에서 탄생시킨 이 책에 대해 겸손하면서도 위트 있게 독자에게 건네는 인사와 집필 의도를 밝힙니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 의의",
+        "value": "기사 소설의 허구성을 풍자하는 동시에 인간의 이상과 현실의 괴리를 깊이 있게 성찰한 최초의 근대 소설입니다."
+      }
+    ],
+    "keyEntitiesText": "돈키호테, 산초 판사, 둘시네아, 로시난테",
+    "settingText": "스페인 라만차 지방의 황량한 들판"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hbIzJcv7giU62MLWvPpxR5pJwaK13CRn",
+    "filename": "세르반테스-돈키호테1(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:44:42.000Z",
+    "size": "1441493",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1hbIzJcv7giU62MLWvPpxR5pJwaK13CRn/view?usp=drivesdk",
+    "sourceSha256": "5c01c90fd6689a20fcca7125dc5ae4a86ef36d529336e80a2330588bbc402fa5",
+    "textSha256": "8b2472f198df46da16b46c98e99290c5b2b5f65885805dc54ce25148551d02ea",
+    "changeKey": "066dad6c1e8c8353f28a9b5e746091ef",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6ce1227891220416384d",
+    "workId": "6ce1227891220416384d",
+    "driveFileId": "1hbIzJcv7giU62MLWvPpxR5pJwaK13CRn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:50:39.182327+00:00",
+    "updatedAt": "2026-09-21T16:50:39.182336+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8519,
+      "updatedAt": "2026-09-21T16:50:39.182406+00:00"
+    }
+  }
+}

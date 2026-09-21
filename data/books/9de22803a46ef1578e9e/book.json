@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한여름밤의 꿈 등",
+    "author": "윌리엄 셰익스피어 (번역 신상웅)",
+    "genre": "drama",
+    "tags": [
+      "셰익스피어",
+      "희곡",
+      "한여름밤의꿈",
+      "베니스의상인",
+      "말괄량이길들이기"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "poetry"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간 사회의 희비극적 본질을 꿰뚫어 보고 시대를 초월한 언어의 마술을 보여준 극작가입니다.",
+    "oneLineSummary": "셰익스피어의 낭만 희극과 비극들을 모은 대표 희곡 선집입니다.",
+    "overallSummary": "요정들의 장난과 엇갈린 연인들의 사랑을 그린 '한여름밤의 꿈'을 비롯하여 '베니스의 상인', '말괄량이 길들이기' 등 인간 본성과 사랑, 사회적 갈등을 위트 있게 풀어낸 명작 희곡들을 수록하고 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한여름밤의 꿈 1막 1장",
+        "summary": "아테네 공작 티시어스의 결혼식 준비와, 아버지의 강요를 피해 숲으로 도망치기로 결심하는 허미어와 라이샌더의 사랑 이야기를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "희극적 요소",
+        "value": "사랑의 엇갈림과 요정들의 초자연적인 개입을 통해 인간 이성의 한계와 사랑의 맹목성을 유쾌하게 풍자합니다."
+      }
+    ],
+    "keyEntitiesText": "티시어스, 허미어, 라이샌더, 디미트리어스, 헬레나",
+    "settingText": "고대 아테네 및 근교의 신비로운 요정의 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GJ_eUUs4UAq3FH9l6ykHm-lS_BdKgZpG",
+    "filename": "셰익스피어-한여름밤의 꿈 등(동서문화사)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T12:20:30.000Z",
+    "size": "1376135",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1GJ_eUUs4UAq3FH9l6ykHm-lS_BdKgZpG/view?usp=drivesdk",
+    "sourceSha256": "2070da9af706401b81b589ffbd20da390bec60e04819516fd39bb9cc945f9131",
+    "textSha256": "f6ce1dfc77cc8da6ec41e3c957aa1fb17db7d303e3dd9346b09ac3bf2590b620",
+    "changeKey": "9516cfb7f13ef6f394c79ad22ea08cc2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9de22803a46ef1578e9e",
+    "workId": "9de22803a46ef1578e9e",
+    "driveFileId": "1GJ_eUUs4UAq3FH9l6ykHm-lS_BdKgZpG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:51:11.517903+00:00",
+    "updatedAt": "2026-09-21T16:51:11.517915+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:51:11.518017+00:00"
+    }
+  }
+}

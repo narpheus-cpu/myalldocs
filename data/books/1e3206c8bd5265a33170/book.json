@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "리어 왕 · 맥베스",
+    "author": "윌리엄 셰익스피어 (번역 이미영)",
+    "genre": "drama",
+    "tags": [
+      "셰익스피어",
+      "4대비극",
+      "리어왕",
+      "맥베스",
+      "희곡"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "poetry"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국이 낳은 세계 최고의 극작가이자 시인으로, 인간 내면의 심연과 비극적 결함을 탁월하게 묘사했습니다.",
+    "oneLineSummary": "인간의 어리석은 오만과 권력욕이 불러온 파멸을 그린 셰익스피어의 대표 비극 희곡집입니다.",
+    "overallSummary": "세 딸의 아첨에 속아 막내딸을 버리고 비극적 종말을 맞는 리어 왕의 이야기와, 마녀의 예언과 권력욕에 눈이 멀어 왕을 살해하고 스스로 파멸해 가는 맥베스의 비극을 담고 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "리어 왕 1막 1장",
+        "summary": "리어 왕이 세 딸에게 자신을 얼마나 사랑하는지 말하게 하여 영토를 나누어 주려다, 진실만을 말하는 막내 코딜리아를 추방하고 아첨하는 두 딸에게 권력을 넘겨주는 비극의 시작을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비극적 결함",
+        "value": "리어 왕의 눈먼 오만과 아첨에 대한 갈망이 어떻게 천륜을 저버리고 파멸로 이어지는지 극적으로 보여줍니다."
+      }
+    ],
+    "keyEntitiesText": "리어 왕, 코딜리아, 고너릴, 리건, 켄트 백작, 글로스터",
+    "settingText": "고대 브리튼 왕국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pFwSgMS_7N-XvyFkxC0R9d4RF6K0DoPA",
+    "filename": "셰익스피어-리어왕&맥베스(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:42:18.000Z",
+    "size": "395666",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1pFwSgMS_7N-XvyFkxC0R9d4RF6K0DoPA/view?usp=drivesdk",
+    "sourceSha256": "8674f6c5db899e348d4eafc67f7cc2a49570bb0966a307208e611cc536f44205",
+    "textSha256": "28765444fac4e59cd12e94e7a196c9cdeeb6316532542d428f920d3d6f726de6",
+    "changeKey": "957ad97fd98bc76816fa9dc10a8bbd7b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1e3206c8bd5265a33170",
+    "workId": "1e3206c8bd5265a33170",
+    "driveFileId": "1pFwSgMS_7N-XvyFkxC0R9d4RF6K0DoPA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:51:04.742684+00:00",
+    "updatedAt": "2026-09-21T16:51:04.742693+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:51:04.742763+00:00"
+    }
+  }
+}

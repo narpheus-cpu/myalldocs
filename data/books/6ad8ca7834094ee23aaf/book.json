@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "삼국유사(하)",
+    "author": "일연 (편저 박남일)",
+    "genre": "history_biography",
+    "tags": [
+      "삼국유사",
+      "일연",
+      "고려",
+      "역사",
+      "설화"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중앙대학교 문예창작학과를 졸업하고 다양한 역사 교양 도서를 집필한 박남일 작가가 편저하였습니다.",
+    "oneLineSummary": "고려 시대 승려 일연이 저술한 삼국유사의 하권 내용을 소설 형식으로 풀어낸 역사 도서입니다.",
+    "overallSummary": "최씨 무신정권의 몰락과 삼별초의 항쟁 등 역사적 격변기를 배경으로 일연 스님의 행적과 삼국유사 집필 과정을 소설 형식으로 풀어낸 역사 교양 도서입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "최씨 무신정권의 끝",
+        "summary": "김인준을 비롯한 삼별초 장수들이 최의와 거성원발을 제거하고 최씨 무신정권을 종식시키는 거사를 단행합니다."
+      },
+      {
+        "sectionTitle": "왕의 부름을 받고",
+        "summary": "원종 임금의 부름을 받아 강화도 선월사에 머물던 일연은 백성들과 함께하기 위해 시골로 내려갈 결심을 굳힙니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 의의",
+        "value": "무신정권 붕괴와 몽골 침략기라는 시대적 아픔 속에서 민족적 자긍심을 고취하기 위한 삼국유사의 집필 배경을 보여줍니다."
+      }
+    ],
+    "keyEntitiesText": "일연, 김인준, 최의, 원종, 원오국사 왕영",
+    "settingText": "고려 시대 강화도 및 경상도 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IZv5ql3XR4cpVaqdUaph7aoFvGrnmOx_",
+    "filename": "삼국유사(하).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.245Z",
+    "size": "178465",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1IZv5ql3XR4cpVaqdUaph7aoFvGrnmOx_/view?usp=drivesdk",
+    "sourceSha256": "217ec3cb6fb7dd2255467e41b651eaebfcefdf06b633a5aeb7155f2885c6c698",
+    "textSha256": "cd95a524225b679490d64409ba7ca9702224404e34eb638291377d37af67d685",
+    "changeKey": "c532ec5602b551faeab128f609b77a6d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6ad8ca7834094ee23aaf",
+    "workId": "6ad8ca7834094ee23aaf",
+    "driveFileId": "1IZv5ql3XR4cpVaqdUaph7aoFvGrnmOx_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:49:06.881560+00:00",
+    "updatedAt": "2026-09-21T16:49:06.881573+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:49:06.881714+00:00"
+    }
+  }
+}

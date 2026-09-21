@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "조플로야",
+    "author": "샬럿 대커 (번역 박재영)",
+    "genre": "fiction",
+    "tags": [
+      "고딕소설",
+      "영국소설",
+      "여성욕망",
+      "조플로야",
+      "빅토리아"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "unknown"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "19세기 초 런던에서 활동한 여성 작가로, 여성의 억압된 욕망과 도전을 강렬한 고딕 양식으로 표현했습니다.",
+    "oneLineSummary": "15세기 베네치아를 배경으로 인간의 격정적인 욕망과 파멸을 그린 고딕 소설입니다.",
+    "overallSummary": "베네치아 귀족 가문의 빅토리아가 가문의 몰락과 개인적 욕망 속에서 악마적 인물 조플로야의 유혹에 빠져 파멸해 가는 과정을 어둡고 강렬한 필치로 묘사합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장",
+        "summary": "라우리나와 로레다니 후작의 성급한 결혼과 그들의 자녀인 빅토리아, 레오나르도의 성격적 결함 및 조기 교육의 실패를 다룹니다."
+      },
+      {
+        "sectionTitle": "제 2장",
+        "summary": "독일 귀족 아돌프 백작의 사악한 성품과 그가 로레다니 가문의 행복을 파괴하기 위해 후작 부인 라우리나를 유혹하는 과정을 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 특징",
+        "value": "당대 여성 작가로서는 이례적으로 여성의 성적 욕망과 주체적 악행을 전면에 내세운 고딕 소설의 수작입니다."
+      }
+    ],
+    "keyEntitiesText": "빅토리아, 라우리나, 아돌프 백작, 조플로야",
+    "settingText": "15세기 말 이탈리아 베네치아의 귀족 궁정"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1e-7CQC1-QpuhU76dwB74J68ZAMXrMego",
+    "filename": "샬럿 대커-조플로야(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:39:04.000Z",
+    "size": "748332",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1e-7CQC1-QpuhU76dwB74J68ZAMXrMego/view?usp=drivesdk",
+    "sourceSha256": "686122124b62df6946109e4c67712866b3204c2fc2ec03dd2c895067907c13d7",
+    "textSha256": "cf71ab92cf63eddd89a729b4c58cfab192b0eee5a1a91264be0d02b52f133012",
+    "changeKey": "98fed8c18706126484c83bf8b703bd60",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a20998dfcae32d8ded02",
+    "workId": "a20998dfcae32d8ded02",
+    "driveFileId": "1e-7CQC1-QpuhU76dwB74J68ZAMXrMego",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:49:41.749769+00:00",
+    "updatedAt": "2026-09-21T16:49:41.749779+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:49:41.749856+00:00"
+    }
+  }
+}

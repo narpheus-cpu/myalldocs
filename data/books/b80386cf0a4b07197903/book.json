@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제인 에어 (상)",
+    "author": "샤로트 브론테",
+    "genre": "fiction",
+    "tags": [
+      "고전소설",
+      "제인에어",
+      "성장",
+      "로맨스",
+      "영국문학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "필명 '커러 벨'로 활동하며 당대 사회적 관습에 도전하는 강렬한 여성 캐릭터를 창조해 낸 영국의 소설가입니다.",
+    "oneLineSummary": "불우한 환경 속에서도 굴하지 않고 자신의 운명을 개척해 나가는 제인의 성장과 사랑 이야기입니다.",
+    "overallSummary": "게이츠헤드 저택에서의 불우한 어린 시절과 붉은 방 사건, 그리고 로우드 학교로의 전학을 거치며 제인이 겪는 내면의 상처와 성장을 다룬 고전 명작의 상권입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 ~ 2장",
+        "summary": "존 리드의 괴롭힘에 맞서 싸운 제인이 벌로 외삼촌이 사망했던 붉은 방에 갇혀 공포에 떨다 기절하는 사건을 다룹니다."
+      },
+      {
+        "sectionTitle": "3장 ~ 4장",
+        "summary": "약제사 로이드 씨의 권유로 로우드 학교로 가기로 결정되고, 엄격한 브로클허스트 목사를 만나 위선적인 훈계를 듣게 됩니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "성장 모티브",
+        "value": "학대와 억압 속에서도 굴복하지 않고 내면의 자아를 지키려는 고아 소녀의 강인한 의지를 묘사합니다."
+      }
+    ],
+    "keyEntitiesText": "제인 에어, 리드 부인, 로이드 씨, 브로클허스트 목사",
+    "settingText": "영국 요크셔의 게이츠헤드 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yy35v8rJQXdHZ23CYvKC8anpe3g3e2I3",
+    "filename": "샬롯 브론테-제인 에어.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.372Z",
+    "size": "475584",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1yy35v8rJQXdHZ23CYvKC8anpe3g3e2I3/view?usp=drivesdk",
+    "sourceSha256": "75a7d57b4ca502b9568eea1d823ade3ed8e82f865afae74eaac1e4f118c0b32e",
+    "textSha256": "475f3f964efc4bf2e900e6a4a1b62b786c2a8f9765608439d7bd22e77467fd78",
+    "changeKey": "4b54923b03ef33d0d9a5e9a50e2826b5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b80386cf0a4b07197903",
+    "workId": "b80386cf0a4b07197903",
+    "driveFileId": "1yy35v8rJQXdHZ23CYvKC8anpe3g3e2I3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:49:56.458910+00:00",
+    "updatedAt": "2026-09-21T16:49:56.458923+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5082,
+      "updatedAt": "2026-09-21T16:49:56.459029+00:00"
+    }
+  }
+}

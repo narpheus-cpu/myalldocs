@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나를 찾아 떠나는 여행 1",
+    "author": "쌩 떽쥐베리 (엮은이 이상각)",
+    "genre": "essay_general_nonfiction",
+    "tags": [
+      "에세이",
+      "비행",
+      "인생",
+      "철학",
+      "생텍쥐페리"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 비행사이자 소설가로, 비행 체험을 바탕으로 인간 실존과 연대감을 탐구한 행동주의 작가입니다.",
+    "oneLineSummary": "비행사로서의 체험을 바탕으로 인간의 실존과 연민, 삶의 진실을 성찰하는 에세이입니다.",
+    "overallSummary": "사막과 비행이라는 극한의 고독 속에서 저자가 깨달은 인간에 대한 연민, 지배자의 책임감, 그리고 삶과 시간의 본질적인 의미를 철학적이고 시적인 문체로 풀어냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "연민",
+        "summary": "거지들에게 베푼 무가치한 동정과 전사들의 죽음을 통해 진정한 연민과 죽음의 본질에 대해 성찰합니다."
+      },
+      {
+        "sectionTitle": "아버지와의 대화",
+        "summary": "아버지가 가르쳐 준 생명의 진실과 인간이 끊임없이 성장하고 완성되어 가는 존재임을 깨닫는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학적 주제",
+        "value": "인간은 고정된 존재가 아니라 끊임없이 이루어지고 있는 나무와 같은 존재임을 강조합니다."
+      }
+    ],
+    "keyEntitiesText": "나(지배자), 아버지, 베르베르인",
+    "settingText": "황량한 남부 사막과 제국의 영토"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Rg5_SGbJQVnOuTrlZXLkINiU_iXSOe1N",
+    "filename": "쌩 떽쥐베리-나를 찾아 떠나는 여행 1.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.361Z",
+    "size": "309817",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Rg5_SGbJQVnOuTrlZXLkINiU_iXSOe1N/view?usp=drivesdk",
+    "sourceSha256": "a927f48d4369732db6bd376fca5b255183313677869a56bb3e3a82e4f196cbb3",
+    "textSha256": "cb2b67648fcb7344f04bd441c2b1cdf0fc3a5eb51a88cd3d4d128f64d22cf439",
+    "changeKey": "cc01ff68c8838b55f5f6d696ce1a4d1f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ae686fe5a0617bc163fd",
+    "workId": "ae686fe5a0617bc163fd",
+    "driveFileId": "1Rg5_SGbJQVnOuTrlZXLkINiU_iXSOe1N",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:49:27.990107+00:00",
+    "updatedAt": "2026-09-21T16:49:27.990119+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:49:27.990196+00:00"
+    }
+  }
+}

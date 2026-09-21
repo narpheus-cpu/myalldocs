@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인간의 굴레",
+    "author": "서머싯 몸 (번역 조용만)",
+    "genre": "fiction",
+    "tags": [
+      "성장소설",
+      "자전적소설",
+      "필립캐리",
+      "인생",
+      "굴레"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "자신의 불우한 유년 시절과 의사로서의 경험을 바탕으로 인간의 한계와 자유를 탐구한 영국의 거장 작가입니다.",
+    "oneLineSummary": "선천적 장애를 가진 고아 필립 캐리가 삶의 고통과 사랑의 굴레를 벗어나 자아를 발견하는 자전적 소설입니다.",
+    "overallSummary": "절름발이 고아 필립 캐리가 엄격한 숙부 밑에서 자라나 하이델베르크, 파리, 런던을 거치며 의학, 예술, 그리고 파괴적인 사랑(밀드레드)을 경험하고 마침내 삶의 무의미함 속에서 진정한 자유와 행복을 깨닫는 과정을 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 ~ 3장",
+        "summary": "어머니를 여의고 절름발이 고아가 된 필립 캐리가 유모 엠마와 헤어져 블랙스테이블의 목사인 큰아버지 윌리엄 캐리의 집으로 가게 되는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "자전적 요소",
+        "value": "작가 자신의 말더듬이 장애와 고아로서의 외로움이 주인공 필립의 절름발이 장애와 고뇌에 투영되어 있습니다."
+      }
+    ],
+    "keyEntitiesText": "필립 캐리, 윌리엄 캐리, 엠마, 밀드레드",
+    "settingText": "영국 블랙스테이블 목사관 및 런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oQy4iUVOeCNGIpuYw9yCxHbJj_swsvTx",
+    "filename": "서머싯 몸-인간의 굴레(동서문화사)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T12:10:36.000Z",
+    "size": "2013618",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1oQy4iUVOeCNGIpuYw9yCxHbJj_swsvTx/view?usp=drivesdk",
+    "sourceSha256": "a20dd957e121a0cf526ebfbec9d16cf59cc483f2c1b0e79ea4d144b98e20505f",
+    "textSha256": "f6aaf63c368182ed72c09a9054c07184a9fe4190defd5cda9a42524cf9ef71aa",
+    "changeKey": "d240288509ab36cc60abffa71d728661",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bba98e35b9e3fe7fef11",
+    "workId": "bba98e35b9e3fe7fef11",
+    "driveFileId": "1oQy4iUVOeCNGIpuYw9yCxHbJj_swsvTx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:50:10.207028+00:00",
+    "updatedAt": "2026-09-21T16:50:10.207037+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:50:10.207114+00:00"
+    }
+  }
+}

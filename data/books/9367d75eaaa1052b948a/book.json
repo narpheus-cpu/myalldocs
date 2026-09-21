@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제인 에어 (을유세계문학전집)",
+    "author": "샬럿 브론테 (번역 조애리)",
+    "genre": "fiction",
+    "tags": [
+      "영국소설",
+      "성장소설",
+      "여성주체",
+      "제인에어",
+      "로체스터"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "19세기 영국의 대표적인 여성 작가로, 여성의 독립적인 주체성과 내면의 열정을 섬세하게 묘사한 거장입니다.",
+    "oneLineSummary": "고아로 태어나 온갖 역경을 극복하고 독립적인 주체로 성장하는 제인 에어의 삶을 그린 소설입니다.",
+    "overallSummary": "외숙모의 학대와 로우드 학교의 고난을 이겨내고 손필드 저택의 가정교사가 된 제인 에어가 로체스터와의 사랑, 그리고 도덕적 갈등을 거치며 진정한 자아와 행복을 찾아가는 여정입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장",
+        "summary": "게이츠헤드 저택에서 사촌 존 리드의 폭력에 시달리던 제인이 반항하다가 붉은 방에 갇히게 되는 사건을 다룹니다."
+      },
+      {
+        "sectionTitle": "제 2장",
+        "summary": "외삼촌이 사망한 음산한 붉은 방에 갇힌 제인이 공포 속에서 환영을 보고 발작을 일으키며 쓰러지는 과정을 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "여성주의적 관점",
+        "value": "가부장적 억압과 신분적 한계에 타협하지 않고 자신의 존엄성을 지켜내는 여성의 성장 과정을 보여줍니다."
+      }
+    ],
+    "keyEntitiesText": "제인 에어, 존 리드, 리드 부인, 베시",
+    "settingText": "19세기 영국 게이츠헤드 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zOl46Y1qs2ltBTYmxVGh4mc7--gPanVn",
+    "filename": "샬럿 브론테-제인 에어(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:41:18.000Z",
+    "size": "1348304",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1zOl46Y1qs2ltBTYmxVGh4mc7--gPanVn/view?usp=drivesdk",
+    "sourceSha256": "d0ef9eb42fb4b26cc39be84d063c251059897432543bb56de766b9583edadd43",
+    "textSha256": "24ef1d153020dbd4a81a6a2ee77b37284aa93d85dae58ddb540a90649a5d48bb",
+    "changeKey": "ddf1fd57b115d355b0519d6fb9015ff3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9367d75eaaa1052b948a",
+    "workId": "9367d75eaaa1052b948a",
+    "driveFileId": "1zOl46Y1qs2ltBTYmxVGh4mc7--gPanVn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:49:48.589258+00:00",
+    "updatedAt": "2026-09-21T16:49:48.589267+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:49:48.589340+00:00"
+    }
+  }
+}
