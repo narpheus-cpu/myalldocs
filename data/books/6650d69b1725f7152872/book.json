@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "딜레마 사전",
+    "author": "안젤라 애커만, 베카 푸글리시",
+    "genre": "창작 가이드 / 작법서",
+    "tags": [
+      "작법서",
+      "갈등",
+      "딜레마",
+      "플롯",
+      "캐릭터 성숙"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "안젤라 애커만과 베카 푸글리시는 캐릭터의 내적·외적 성장을 유도하는 서사 요소를 체계화하여 안내하는 작법서 저자들이다.",
+    "oneLineSummary": "등장인물을 시험에 들게 하고 성장을 끌어내는 다양한 내외적 갈등과 딜레마 유형을 체계적으로 분류한 가이드북이다.",
+    "overallSummary": "이야기의 동력인 갈등, 선택, 결과(3C) 체계를 다루며, 캐릭터와 자아·사회·타인·자연·테크놀로지 등과의 충돌 양상을 분석한다. 관계상의 갈등, 실수, 도덕적 딜레마, 의무와 책임, 시간 압박 등 다채로운 시나리오를 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "캐릭터를 만드는 건 갈등이다",
+        "summary": "안전한 환경에서 독자가 갈등을 만끽하도록 이끄는 심리와, 캐릭터가 갈등을 통해 진정한 자아를 발견하고 성장하는 인물호 과정을 설명한다."
+      },
+      {
+        "sectionTitle": "플롯과 갈등의 조합 및 6가지 내러티브 플롯",
+        "summary": "서구 문화권의 주요 플롯 유형과 다양한 갈등 구도를 조합하여 이야기를 독창적이고 생동감 있게 발전시키는 구체적 방안을 안내한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 구조(3C)",
+        "value": "갈등(Conflict), 선택(Choice), 결과(Consequence)의 연쇄를 통한 캐릭터 및 플롯 진화"
+      }
+    ],
+    "keyEntitiesText": "안젤라 애커만, 베카 푸글리시, 심너울(추천사 저자)",
+    "settingText": "등장인물이 도덕적·실제적 선택을 내리게 되는 갈등 상황 전반"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17hhSskkJ6DxT5GM5m9x6CZhSrX_WRE8Y",
+    "filename": "작가를 위한 사전-딜레마 사전(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T00:38:22.000Z",
+    "size": "876569",
+    "folderPath": [
+      "books",
+      "글쓰기 작법서"
+    ],
+    "relativePath": "books/글쓰기 작법서",
+    "webViewLink": "https://drive.google.com/file/d/17hhSskkJ6DxT5GM5m9x6CZhSrX_WRE8Y/view?usp=drivesdk",
+    "sourceSha256": "623dacc6622700f299dd2408488c2682f071f7c0ccb1acfcb5fdb95d8e2eda6c",
+    "textSha256": "6234332264c66ca6cdc33ea23c406e43142240602df74e7a6d1481519ababc6b",
+    "changeKey": "beaaa1d913a5346a4e54829003e42b1f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6650d69b1725f7152872",
+    "workId": "6650d69b1725f7152872",
+    "driveFileId": "17hhSskkJ6DxT5GM5m9x6CZhSrX_WRE8Y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:14:40.535201+00:00",
+    "updatedAt": "2026-09-21T19:14:40.535218+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:14:40.535328+00:00"
+    }
+  }
+}

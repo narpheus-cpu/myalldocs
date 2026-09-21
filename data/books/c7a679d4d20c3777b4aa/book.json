@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고야-황금과 피의 화가",
+    "author": "자닌 바티클",
+    "genre": "전기 / 미술사 / 역사",
+    "tags": [
+      "고야",
+      "궁정화가",
+      "에스파냐 미술",
+      "계몽주의",
+      "로스 카프리초스"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "자닌 바티클은 파리 루브르 박물관 명예 수석 큐레이터로 에스파냐 미술사와 고야 연구의 권위자이다.",
+    "oneLineSummary": "에스파냐 궁정화가로서의 성공과 계몽주의 지식인들과의 교유, 그리고 전쟁의 비극과 사회적 부조리를 날카롭게 비판한 거장 프란시스코 고야의 일대기이다.",
+    "overallSummary": "아라곤 사라고사 출신의 프란시스코 고야가 궁정 태피스트리 밑그림 작업과 프레스코화 제작을 거쳐 카를로스 4세의 왕실 궁정화가로 출세하는 과정을 그린다. 동시에 '일루스트라도스(계몽주의 지식인)' 그룹과의 교유를 통해 에스파냐 사회의 현실과 전쟁의 참상을 비판적인 판화와 어두운 화풍으로 담아낸 역작들을 분석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 아라곤 사람, 프란시스코 고야",
+        "summary": "사라고사에서의 어린 시절, 산 페르난도 아카데미 낙방과 로마 유학, 처남 바이에우와의 만남 및 첫 프레스코화 성공 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "제2장 '일루스트라도스' 시대의 에스파냐",
+        "summary": "태피스트리 밑그림 제작, 벨라스케스 작품의 에칭화 작업, 계몽주의 지식인(호베야노스, 캄포마네스)과의 교류 및 사라고사 대성당 돔 작업을 둘러싼 바이에우와의 갈등을 담았다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "고야 회화의 이중성",
+        "value": "화려한 궁정화가로서의 정통 회화 vs 계몽주의 영향과 사회 부조리·전쟁 참상을 폭로한 비판적 판화 및 어두운 회화"
+      }
+    ],
+    "keyEntitiesText": "프란시스코 고야, 자닌 바티클, 프란시스코 바이에우, 호베야노스, 카를로스 3세/4세, 벨라스케스",
+    "settingText": "18~19세기 초 에스파냐(사라고사, 마드리드 왕궁, 에스코리알 궁전)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Is2zvrwbEDbec3CWWZS6_CZXNbcmbJ3T",
+    "filename": "고야-황금과 피의 화가 [시공디스커버리총서 055].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.716Z",
+    "size": "173621",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1Is2zvrwbEDbec3CWWZS6_CZXNbcmbJ3T/view?usp=drivesdk",
+    "sourceSha256": "1c9d9567f78ac2ed4463782c37f1828f802c89b39dcde3390d5d511bfff95026",
+    "textSha256": "35037b4de1372c18dffcec7eaceab155cf4b47d7c08fb5d8aacf12d2c1c1afac",
+    "changeKey": "a8dcb3a2bd5a0af5092f208e746ee646",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c7a679d4d20c3777b4aa",
+    "workId": "c7a679d4d20c3777b4aa",
+    "driveFileId": "1Is2zvrwbEDbec3CWWZS6_CZXNbcmbJ3T",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:16:05.157729+00:00",
+    "updatedAt": "2026-09-21T19:16:05.157747+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:16:05.157901+00:00"
+    }
+  }
+}

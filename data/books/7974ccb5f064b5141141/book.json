@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고갱-고귀한 야만인",
+    "author": "프랑수아즈 카생",
+    "genre": "전기 / 미술사 / 역사",
+    "tags": [
+      "고갱",
+      "인상주의",
+      "상징주의",
+      "타히티",
+      "원시주의"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑수아즈 카생은 오르세 미술관 감독 및 국립미술관 행정 감독관을 역임한 프랑스의 대표적인 미술사학자이다.",
+    "oneLineSummary": "증권 거래인에서 출발해 브르타뉴 퐁타방과 마르티니크, 타히티를 거치며 원시적 파라다이스를 열정적으로 화폭에 담아낸 폴 고갱의 삶과 예술 세계를 그린 전기이다.",
+    "overallSummary": "페루에서의 어린 시절, 증권거래인 생활, 피사로와 드가의 영향을 받은 인상파 입문, 그리고 문명 세계를 떠나 브르타뉴 퐁타방, 마르티니크, 타히티로 이어지는 방랑 속에서 독창적인 화풍(원시주의 및 상징주의)과 도예 작품을 창조해낸 폴 고갱의 일대기를 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 화가의 길",
+        "summary": "외할머니 플로라 트리스탄의 혈통과 페루에서의 유년 시절, 주식거래인으로서 서서히 미술 수집과 화가의 길로 들어서는 초기 과정을 조명한다."
+      },
+      {
+        "sectionTitle": "제2장 브르타뉴와 열대를 처음 만나다",
+        "summary": "1886년 퐁타방 글로아네크 여관에서의 체류, 도자기 제작 시도, 그리고 파나마와 마르티니크 섬으로 떠나 이국적 원시주의 화풍의 기틀을 마련한 여정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "고갱 예술의 진화",
+        "value": "인상주의 수용 -> 브르타뉴 퐁타방 학파 형성 및 도예 작업 -> 마르티니크·타히티 이국적 원시주의 개척"
+      }
+    ],
+    "keyEntitiesText": "폴 고갱, 프랑수아즈 카생, 카미유 피사로, 에드가 드가, 샤를 라발, 메테(아내)",
+    "settingText": "19세기 말 파리, 브르타뉴 퐁타방, 마르티니크, 타히티"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YPmdBqcPtmUpt57O3VcjI8AsrlTOWnNr",
+    "filename": "고갱-고귀한 야만인 [시공디스커버리총서 030].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.705Z",
+    "size": "251957",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1YPmdBqcPtmUpt57O3VcjI8AsrlTOWnNr/view?usp=drivesdk",
+    "sourceSha256": "4140038fab030db0435eb15590e29584b6274fa2e72a2d8b3788edb437c0f41d",
+    "textSha256": "8fb77cc5f18a94d12f1570cd42a83c99f6b23ba632cf5c639ddd9383f04c177a",
+    "changeKey": "66d73b14258c76bec97fab60caecf266",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7974ccb5f064b5141141",
+    "workId": "7974ccb5f064b5141141",
+    "driveFileId": "1YPmdBqcPtmUpt57O3VcjI8AsrlTOWnNr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:15:58.717713+00:00",
+    "updatedAt": "2026-09-21T19:15:58.717729+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:15:58.717896+00:00"
+    }
+  }
+}

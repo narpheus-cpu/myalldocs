@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "교황의 역사-도시에서 세계로",
+    "author": "프란체스코 키오바로, 제라르 베시에르",
+    "genre": "역사 / 종교사",
+    "tags": [
+      "교황사",
+      "기독교",
+      "성 베드로",
+      "로마 교회",
+      "교황 수위권"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프란체스코 키오바로는 교회사 및 철학 박사이며, 제라르 베시에르는 신학 및 성서주석학을 공부한 저술가이다.",
+    "oneLineSummary": "초대 사도 베드로의 은유에서 시작해 로마 교회의 수위권 확립과 세속 권력과의 갈등을 거쳐 세계적 제도로 발전해 온 교황제의 역사를 탐구한 책이다.",
+    "overallSummary": "예수의 부활 이후 예루살렘과 로마에서 기독교 공동체가 형성되는 과정, 사도 베드로와 바울로의 순교, 2~3세기 그노시스파 이단에 맞선 사도 전통의 수호, 그리고 콘스탄티누스의 밀라노 칙령 이후 영원한 로마의 중심이자 교황 수위권을 확립해 나간 서구 최고(最古)의 제도인 교황제의 변천사를 밝힌다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 예수, 베드로, 그리고 교황",
+        "summary": "초대 기독교 공동체의 탄생과 바울로·베드로의 역할, 그노시스파 위기 극복 및 베드로의 사도 전통을 계승한 로마 교회의 정통성 형성을 다룬다."
+      },
+      {
+        "sectionTitle": "제2장 로마의 공인",
+        "summary": "밀라노 칙령 이후 콘스탄티누스 황제의 기독교 공인, 라테라노 성당 건립, 다마수스 및 대교황 레오 1세, 젤라시우스 1세에 의한 교황 수위권과 영적 권력 이론의 확립을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "교황 수위권의 발전 과정",
+        "value": "사도 베드로의 반석 전승 -> 로마 교회의 이단 극복 정통성 -> 밀라노 칙령 후 로마 중심성 확립 -> 레오 1세/젤라시우스 1세의 영적 수위권 법제화"
+      }
+    ],
+    "keyEntitiesText": "프란체스코 키오바로, 제라르 베시에르, 성 베드로, 바울로, 콘스탄티누스 대제, 레오 1세, 젤라시우스 1세",
+    "settingText": "1~6세기 로마 제국, 로마 대성당(라테라노), 콘스탄티노플, 니케아/칼케돈 공의회 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19uO5KhOJi8-rwatsfDHzafS-mNvoVQ_K",
+    "filename": "교황의 역사-도시에서 세계로 [시공디스커버리총서 064].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.731Z",
+    "size": "191089",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/19uO5KhOJi8-rwatsfDHzafS-mNvoVQ_K/view?usp=drivesdk",
+    "sourceSha256": "86013d90d558f0ebf4e10440f5c89cc47c5e855b4e7f2480e395738ebf3fb3eb",
+    "textSha256": "44b5a3fcb1a8d30f375a1737fdddab663769a996556c68ded7853c49b8c972ac",
+    "changeKey": "275d5c234b625423db115474993c16bc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6976b86ca7c215391933",
+    "workId": "6976b86ca7c215391933",
+    "driveFileId": "19uO5KhOJi8-rwatsfDHzafS-mNvoVQ_K",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:16:12.364068+00:00",
+    "updatedAt": "2026-09-21T19:16:12.364082+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:16:12.364179+00:00"
+    }
+  }
+}

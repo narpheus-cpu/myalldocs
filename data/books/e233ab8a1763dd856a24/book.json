@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "갈릴레오-불경한 천문학자의 이야기",
+    "author": "장-피에르 모리",
+    "genre": "전기 / 역사 / 과학",
+    "tags": [
+      "갈릴레오",
+      "천문학",
+      "망원경",
+      "코페르니쿠스",
+      "지동설"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "science_technical",
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "장-피에르 모리는 파리7대학 물리학 강사로 과학사의 대중화에 기여해 온 물리학자이자 저술가이다.",
+    "oneLineSummary": "망원경을 통해 우주의 신비를 관측하고 코페르니쿠스의 지동설을 증명하며 현대 과학의 기틀을 마련한 갈릴레오 갈릴레이의 삶과 투쟁을 다룬 전기이다.",
+    "overallSummary": "파두아 대학 교수였던 갈릴레오 갈릴레이가 베네치아 병기창 등에서 실험적 경험주의를 쌓고, 망원경을 개량 제작하여 달의 산, 목성의 위성, 은하수의 별들을 관측해 낸 과정을 다룬다. 전통적 천문학과 교회의 교리에 맞서 지동설의 객관적 증거를 제시한 그의 사상적 여정이 펼쳐진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 호기심 많은 교수 & 제2장 코페르니쿠스주의자 갈릴레오",
+        "summary": "아리스토텔레스적 학설에 의문을 품고 관찰과 경험을 강조하던 갈릴레오가 네덜란드 망원경 소식을 접하고 스스로 성능이 우수한 망원경을 제작하는 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "제3장 하늘의 소식",
+        "summary": "30배율 망원경으로 달의 표면 구조(산과 크레이터), 지구조 현상, 오리온자리 및 은하수의 별들, 목성의 4개 위성을 최초로 발견하고 《별들의 소식》을 출판한 성과를 담았다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "과학 혁명 관측 성과",
+        "value": "망원경을 통한 달의 크레이터 관측(천체 완벽성 신화 파괴), 목성의 위성 발견(지동설의 결정적 증거)"
+      }
+    ],
+    "keyEntitiesText": "갈릴레오 갈릴레이, 장-피에르 모리, 케플러, 코페르니쿠스, 사르피, 모로시니",
+    "settingText": "17세기 초 베네치아 공화국, 파두아 대학, 피렌체, 밤하늘 천체"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "110AsuSHEArLHIO648M1WhwbiONAENxkF",
+    "filename": "갈릴레오-불경한 천문학자의 이야기 [시공디스커버리총서 095].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.679Z",
+    "size": "139632",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/110AsuSHEArLHIO648M1WhwbiONAENxkF/view?usp=drivesdk",
+    "sourceSha256": "e6e57720d1db4815a303e001565203a8b2891ea02cf479bd3cc4f62e196cfbac",
+    "textSha256": "2291121b5264388831e829ce0ce9019b4435d81e426c884db8be9b214c7baf12",
+    "changeKey": "5efc2188e0109640aa685f6ca4a83a89",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e233ab8a1763dd856a24",
+    "workId": "e233ab8a1763dd856a24",
+    "driveFileId": "110AsuSHEArLHIO648M1WhwbiONAENxkF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:15:46.680094+00:00",
+    "updatedAt": "2026-09-21T19:15:46.680109+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:15:46.680204+00:00"
+    }
+  }
+}

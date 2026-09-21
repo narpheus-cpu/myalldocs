@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "NOW WRITE 장르 글쓰기 1: SF·판타지·공포",
+    "author": "낸시 크레스 외 (엮은이: 로리 램슨)",
+    "genre": "작법서 / 장르 소설 창작론",
+    "tags": [
+      "작법서",
+      "SF",
+      "판타지",
+      "공포",
+      "세계관 구축"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "낸시 크레스를 비롯하여 휴고상, 네뷸러상, 브램 스토커상 등을 수상한 대표 장르 소설 작가들이 참여했다.",
+    "oneLineSummary": "SF, 판타지, 공포 장르의 독창적인 착상 발상법부터 특유의 세계관 구축과 괴물·영웅 인물 설정까지를 아우르는 작법 가이드북이다.",
+    "overallSummary": "장르의 희미해진 경계 속에서 독창적인 아이디어를 발상하고, 과학적 진실성이나 환상적 규칙에 기반한 독자적 세계관을 신뢰성 있게 구축하는 노하우와 실전 프롬프트를 안내한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "멋진 착상은 어디에서 오는 걸까? (스티븐 사우스)",
+        "summary": "이종의 사진/아이디어를 교차하여 참신한 장르적 설정과 핵심 갈등 질문을 추출해내는 5단계 연습법을 제시한다."
+      },
+      {
+        "sectionTitle": "가장 먼저 장르 선택을 (줄 셀보)",
+        "summary": "SF(과학적 개연성), 판타지(초자연적 세계 규칙), 공포의 기본 서사 구조와 보조 장르(모험, 액션, 성장 등) 혼합 전략을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관 구축과 장르 혼합",
+        "value": "중심 장르의 규칙성 확보 및 보조 장르를 통한 캐릭터 감정 핵 강화"
+      }
+    ],
+    "keyEntitiesText": "낸시 크레스, 로리 램슨, 스티븐 사우스, 줄 셀보",
+    "settingText": "우주선, 가상 환상 세계, 초자연적 공포 공간 등 SF/판타지/공포 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OjTCrOsF6t2LJpzxry9AGUjxWdGj9vQT",
+    "filename": "장르글쓰기1 SF판타지공포(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.901Z",
+    "size": "700790",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1OjTCrOsF6t2LJpzxry9AGUjxWdGj9vQT/view?usp=drivesdk",
+    "sourceSha256": "1f561643ea2cfdf3054ee01bc25b971dbdbecf9c4e7b156966af28057796bfe1",
+    "textSha256": "f666b7f27cd1af862cf436e013d07779cdf0deda9176e8985a88e71864549533",
+    "changeKey": "be139a33a8a0e54058cff8193a2b7c8a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "63d1140e5ab1c86e69fa",
+    "workId": "63d1140e5ab1c86e69fa",
+    "driveFileId": "1OjTCrOsF6t2LJpzxry9AGUjxWdGj9vQT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:14:58.450334+00:00",
+    "updatedAt": "2026-09-21T19:14:58.450350+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5762,
+      "updatedAt": "2026-09-21T19:14:58.450455+00:00"
+    }
+  }
+}
