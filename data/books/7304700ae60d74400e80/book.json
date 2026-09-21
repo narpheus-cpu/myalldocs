@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "풋내기들",
+    "author": "레이먼드 카버",
+    "genre": "소설",
+    "tags": [
+      "미니멀리즘",
+      "단편소설",
+      "무삭제본",
+      "상실"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "realism",
+        "minimalism",
+        "short_stories"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 체호프라 불리는 레이먼드 카버의 무삭제 오리지널 원고를 복원한 단편 소설집입니다.",
+    "oneLineSummary": "편집자에 의해 축소되기 전, 레이먼드 카버가 집필한 오리지널 단편 소설들의 온전한 형태를 담은 소설집입니다.",
+    "overallSummary": "마당 세일을 하는 중년 남자의 집 진입로에서 술을 마시고 춤을 추는 젊은 연인의 이야기 '춤추지 않을래?', 양손이 없는 사진사와의 만남을 통해 상실감을 공유하는 남자의 이야기 '뷰파인더' 등 카버 특유의 고독과 상실, 소통을 다룬 원본 단편들입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "춤추지 않을래?",
+        "summary": "가구를 마당에 내놓고 파는 중년 남자와 가구를 사러 온 젊은 남녀가 함께 술을 마시고 춤을 추며 묘한 감정을 나누는 이야기입니다."
+      },
+      {
+        "sectionTitle": "뷰파인더",
+        "summary": "양손이 없는 사진사가 집 사진을 찍어 팔러 오고, 주인공이 지붕 위에 올라가 돌을 던지는 기묘한 순간을 사진으로 남기는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "고든 리시의 편집을 거치기 전 카버의 오리지널 텍스트 복원"
+      }
+    ],
+    "keyEntitiesText": "맥스, 잭, 여자애, 양손 없는 사진사, 나",
+    "settingText": "미국의 평범한 주택가 마당, 지붕 위"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rDkTuIlaBUNwh7AAwEunxROE5QkQZEHD",
+    "filename": "레이먼드 카버-풋내기들(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.655Z",
+    "size": "596870",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1rDkTuIlaBUNwh7AAwEunxROE5QkQZEHD/view?usp=drivesdk",
+    "sourceSha256": "0ea6a4b1356982712cc35cc9f507012a0b6f447c70d7a8bf773a504b7eeb2d3b",
+    "textSha256": "95b6a769a7d3d27cd1bc8f0c95a1d3b2984322d6e13dbbc0e86a5b4d06e7bf0b",
+    "changeKey": "c42c97a867d9d505ceffc98c1143d87d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7304700ae60d74400e80",
+    "workId": "7304700ae60d74400e80",
+    "driveFileId": "1rDkTuIlaBUNwh7AAwEunxROE5QkQZEHD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:29:42.055110+00:00",
+    "updatedAt": "2026-09-21T23:29:42.055122+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:29:42.055220+00:00"
+    }
+  }
+}

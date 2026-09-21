@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지킬 박사와 하이드 씨의 기이한 사례",
+    "author": "로버트 루이스 스티븐슨",
+    "genre": "고딕 소설",
+    "tags": [
+      "고딕소설",
+      "미스터리",
+      "이중성",
+      "클래식"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "gothic",
+        "mystery",
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스코틀랜드 출신의 소설가이자 시인으로, 인간 내면의 이중성을 탐구한 명작들을 남겼습니다.",
+    "oneLineSummary": "런던의 변호사 어터슨이 친구 지킬 박사의 기이한 유언장과 사악한 인물 하이드 씨의 정체를 추적하는 미스터리 소설입니다.",
+    "overallSummary": "변호사 어터슨은 친척 엔필드로부터 하이드라는 인물의 악행을 듣고, 친구 지킬 박사가 하이드에게 전 재산을 상속한다는 기이한 유언장에 의문을 품습니다. 어터슨은 지킬 박사의 오랜 친구인 래니언 박사를 찾아가 조언을 구하며 하이드의 정체를 밝히기 위해 추적을 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "어떤 문에 대한 이야기",
+        "summary": "어터슨과 엔필드가 산책 중 기묘한 문을 보고, 엔필드가 하이드가 아이를 짓밟고 수표를 받아낸 사건을 들려주는 이야기입니다."
+      },
+      {
+        "sectionTitle": "하이드 씨를 찾아서",
+        "summary": "어터슨이 지킬 박사의 유언장을 검토하고, 래니언 박사를 찾아가 하이드에 대해 묻지만 소득 없이 돌아와 하이드의 얼굴을 보기 위해 집착하는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 테마",
+        "value": "인간 내면의 선과 악, 이중성"
+      }
+    ],
+    "keyEntitiesText": "어터슨, 리처드 엔필드, 에드워드 하이드, 헨리 지킬, 래니언 박사",
+    "settingText": "19세기 후반의 음산하고 안개 낀 영국 런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YvYnucBbF_V-3DC3z4BECIYgy1drRcRk",
+    "filename": "로버트 루이스 스티븐슨-지킬 박사와 하이드씨, 존 니컬슨(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:02:10.000Z",
+    "size": "445993",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1YvYnucBbF_V-3DC3z4BECIYgy1drRcRk/view?usp=drivesdk",
+    "sourceSha256": "efac06b375e31413ee5f6ae6e318a1c3d8108871fc74ab587fac1125c947956f",
+    "textSha256": "802f64a0dda2a135b4d1776c3ad76b031d99f84893b6c980b6ac3bf3ead05f9c",
+    "changeKey": "864a505afa807676cb4ddc4f30b9f415",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e7771fd08b8fd65e5a7b",
+    "workId": "e7771fd08b8fd65e5a7b",
+    "driveFileId": "1YvYnucBbF_V-3DC3z4BECIYgy1drRcRk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:30:38.057346+00:00",
+    "updatedAt": "2026-09-21T23:30:38.057357+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4585,
+      "updatedAt": "2026-09-21T23:30:38.057466+00:00"
+    }
+  }
+}

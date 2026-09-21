@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "메스",
+    "author": "로빈 쿡",
+    "genre": "의학 스릴러",
+    "tags": [
+      "의학스릴러",
+      "태아연구",
+      "인간실험",
+      "음모"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "medical",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 의사이자 소설가로, 최신 의학 지식과 윤리적 문제를 결합한 '의학 스릴러' 장르를 개척한 거장입니다.",
+    "oneLineSummary": "제약회사의 음모와 비윤리적인 태아 조직 연구, 그리고 마취 하에 낙태 및 불임 수술을 받는 환자 캔디의 비극을 다룬 의학 스릴러 소설입니다.",
+    "overallSummary": "1974년 미국의 태아 연구 금지 조치 법안 통과를 다룬 프롤로그로 시작하여, 1984년 줄리안 클리닉에서 닥터 폴리와 닥터 번햄에게 낙태 및 불임 수술을 받는 캔디의 이야기, 그리고 수술 후 태아 표본을 비밀리에 운송하는 음모를 다룹니다. 한편, 의대생 아담 숀버그는 내과 실습 중 환자 발표를 앞두고 불안해하며 아내 제니퍼와의 미래를 꿈꿉니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "1974년 태아 연구 금지 법안 통과 기사와 1984년 캔디의 경막외마취 및 낙태/불임 수술 과정, 그리고 닥터 폴리가 태아 표본을 비밀 실험실에서 드라이아이스 상자에 담아 제트기로 운송하는 이야기입니다."
+      },
+      {
+        "sectionTitle": "1장",
+        "summary": "의대생 아담 숀버그가 아침에 깨어나 아내 제니퍼를 바라보고, 내과 과장 테이어 노튼 앞에서의 환자 발표를 앞두고 불안해하는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "의학적 소재",
+        "value": "태아 조직 연구 및 비윤리적 인간 실험"
+      }
+    ],
+    "keyEntitiesText": "아담 숀버그, 제니퍼, 캔디, 닥터 스테픈 번햄, 닥터 로렌스 폴리, 테이어 노튼, 데이빗 커크패트릭",
+    "settingText": "1974~1984년의 미국 뉴욕, 줄리안 클리닉, 홉슨 대학병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uaj_p8eerFc3jeS6aHi-FghaB_LZxet7",
+    "filename": "로빈쿡-메스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.851Z",
+    "size": "447628",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1uaj_p8eerFc3jeS6aHi-FghaB_LZxet7/view?usp=drivesdk",
+    "sourceSha256": "9c7e32f3980b74e2c7d7f3fb33ad8c2dffdd1e5793e8eda902f2606e382e0dfb",
+    "textSha256": "49744643c66c993f67c52c1fde35c809808343b1a911d0a1085a23796f1f707b",
+    "changeKey": "983cbbb70e50e5a4e30f722738f4c564",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b90b8a929b345f88cae0",
+    "workId": "b90b8a929b345f88cae0",
+    "driveFileId": "1uaj_p8eerFc3jeS6aHi-FghaB_LZxet7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:31:03.542189+00:00",
+    "updatedAt": "2026-09-21T23:31:03.542199+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:31:03.542287+00:00"
+    }
+  }
+}

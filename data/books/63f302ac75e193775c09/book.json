@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "브레인",
+    "author": "로빈 쿡",
+    "genre": "의학 스릴러",
+    "tags": [
+      "의학스릴러",
+      "뇌연구",
+      "인간실험",
+      "진료기록"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "medical",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "보스턴에 거주하며 의사로 활동하는 틈틈이 『혼수상태』, 『열병』 등 수많은 베스트셀러를 집필한 의학 스릴러의 거장입니다.",
+    "oneLineSummary": "뇌 신경과학 연구를 위해 환자들의 동의 없이 비윤리적인 인간 실험을 자행하는 대학병원의 음모와, 자신의 진료기록을 찾으려는 여대생 캐더린의 갈등을 다룬 의학 스릴러입니다.",
+    "overallSummary": "작가는 의학 연구를 위해 환자들에게 암세포나 오염된 혈청을 주사하는 등 비윤리적인 인간 실험이 자행되어 온 현실을 고발합니다. 소설은 홉슨 대학병원에서 산부인과 진료를 받던 여대생 캐더린 콜린스가 자신의 진료기록 사본을 요구하며 병원 직원 및 레지던트 하퍼와 갈등을 겪고, 기묘한 현기증과 폐쇄공포증 속에서 음모의 실체에 다가가는 이야기를 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "작가의 말",
+        "summary": "인간을 대상으로 한 비윤리적 실험 사례들을 폭로하고 뇌 신경과학 분야의 도덕적 현안을 경고하는 서문입니다."
+      },
+      {
+        "sectionTitle": "1장: 3월 7일",
+        "summary": "여대생 캐더린 콜린스가 홉슨 대학병원에 들어서며 느끼는 공포와 혐오감, 그리고 산부인과 접수계 엘렌 코헨, 주임 간호사 미즈 블랙먼, 레지던트 하퍼와 갈등을 겪으며 진료기록 사본을 받아내는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비윤리적 실험 대상",
+        "value": "환자의 동의 없는 뇌 신경과학 실험"
+      }
+    ],
+    "keyEntitiesText": "캐더린 콜린스, 엘렌 코헨, 미즈 블랙먼, 데이비드 하퍼, 윌슨 박사",
+    "settingText": "미국 뉴욕, 홉슨 대학병원 산부인과 외래 대기실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lnkRmhMYgQWn-1s6vAHk1T3iWIF4eN8H",
+    "filename": "로빈쿡-브레인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.905Z",
+    "size": "355761",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1lnkRmhMYgQWn-1s6vAHk1T3iWIF4eN8H/view?usp=drivesdk",
+    "sourceSha256": "07a4b8d2e263d3e0949986261d4db99698aa536d7c099bd94a1ba90b3d9fc160",
+    "textSha256": "e0af2027bc86087a7691cf627da8f0750625c7e2d0ee92a78c1aa19f91fb7dba",
+    "changeKey": "8ad52a013052a196d8bff6200f3a286b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "63f302ac75e193775c09",
+    "workId": "63f302ac75e193775c09",
+    "driveFileId": "1lnkRmhMYgQWn-1s6vAHk1T3iWIF4eN8H",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:31:15.851983+00:00",
+    "updatedAt": "2026-09-21T23:31:15.851993+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:31:15.852097+00:00"
+    }
+  }
+}

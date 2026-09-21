@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "태양의 황금 사과 외 31 편",
+    "author": "레이 브래드버리",
+    "genre": "SF 소설",
+    "tags": [
+      "SF",
+      "단편소설",
+      "환상문학",
+      "고독"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "SF",
+        "fantasy",
+        "short_stories"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "20세기 SF 문학의 거장으로, 서정적인 문체와 시적 감수성으로 '단편의 제왕'이라 불리며 디스토피아적 미래와 인간 본연에 대한 깊은 성찰을 담아냈습니다.",
+    "oneLineSummary": "안개고동 소리를 동족의 목소리로 착각하고 찾아온 심해 괴물의 고독과 슬픔을 그린 단편 소설입니다.",
+    "overallSummary": "외딴 등대에서 안개고동을 울리며 배들을 안내하는 주인공 조니와 맥던이, 안개고동 소리를 동족의 부름으로 착각하고 1년에 한 번씩 찾아오는 심해 괴물을 마주하고, 괴물이 마침내 등대를 파괴하고 고독 속으로 돌아가는 이야기를 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "안개고동",
+        "summary": "맥던과 조니가 지키는 외딴 등대에 안개고동 소리를 듣고 찾아온 심해 괴물이 등대를 파괴하고 고독하게 심연으로 돌아가는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 모티브",
+        "value": "안개고동 소리와 심해 괴물의 고독"
+      }
+    ],
+    "keyEntitiesText": "조니, 맥던, 심해 괴물, 등대",
+    "settingText": "육지에서 멀리 떨어진 차가운 바다 위의 외딴 등대, 11월 밤"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15QAZxwIfiQ1EuhGoW-2EnJOiGuj_7bsT",
+    "filename": "전민희-태양의 탑 3(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:50.655Z",
+    "size": "373644",
+    "folderPath": [
+      "books",
+      "06 한국 판타지",
+      "전민희"
+    ],
+    "relativePath": "books/06 한국 판타지/전민희",
+    "webViewLink": "https://drive.google.com/file/d/15QAZxwIfiQ1EuhGoW-2EnJOiGuj_7bsT/view?usp=drivesdk",
+    "sourceSha256": "8330e461445d0928298cc84168c8828117fbc8863cc9f858520397a8d1166c9e",
+    "textSha256": "38d47fab462d546fb504c7bf6bb1602c9bb6ba0247a99951f15b7b118a629419",
+    "changeKey": "bf82b7e0ef9d84f4324b2545f4cc67ab",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7c7bd833d1d801d837ea",
+    "workId": "7c7bd833d1d801d837ea",
+    "driveFileId": "15QAZxwIfiQ1EuhGoW-2EnJOiGuj_7bsT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:29:17.744234+00:00",
+    "updatedAt": "2026-09-21T23:29:17.744243+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.2982,
+      "updatedAt": "2026-09-21T23:29:17.744391+00:00"
+    }
+  }
+}

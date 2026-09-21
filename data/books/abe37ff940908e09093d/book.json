@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대빙하의 시대",
+    "author": "로버트 실버버그",
+    "genre": "SF 소설",
+    "tags": [
+      "SF",
+      "포스트아포칼립스",
+      "빙하기",
+      "지하도시"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "post-apocalyptic",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 저명한 SF 소설가로, 휴고상과 네뷸러상을 다수 수상하며 장르 문학의 발전에 크게 기여했습니다.",
+    "oneLineSummary": "제5 빙하기를 맞아 지하도시 뉴욕에 격리되어 살아가던 인류가 지상으로 나와 다른 도시인 런던과의 교류를 시도하는 모험 SF 소설입니다.",
+    "overallSummary": "27세기 제5 빙하기로 인해 지하도시 뉴욕에 갇혀 살던 짐 번즈와 그의 아버지 번즈 박사 일행은 비밀리에 무선기를 수리해 런던과의 교신에 성공합니다. 그러나 런던의 교신자가 의문의 죽음을 맞이하고 시 당국에 의해 반역죄로 체포되면서, 이들은 지상 빙원을 횡단해 런던으로 향하는 대모험을 계획하게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "[1] 빙하의 도시",
+        "summary": "지하도시 뉴욕의 구조와 번즈 박사 일행이 비밀 무선 교신을 통해 런던의 노엘 헌트와 연락하지만 교신이 끊어지는 이야기입니다."
+      },
+      {
+        "sectionTitle": "[2] 반역자의 형벌",
+        "summary": "비밀 교신이 발각되어 번즈 박사와 짐, 테드, 데이브가 시 당국 경찰에게 반역죄로 체포되어 지하 깊은 곳의 제어지구로 연행되는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관",
+        "value": "빙하기로 인해 지하에 격리된 인류와 지상으로의 탈출 열망"
+      }
+    ],
+    "keyEntitiesText": "짐 번즈, 레이먼드 번즈 박사, 테드 캬리슨, 데이브 앨리스, 노엘 헌트, 칼 볼링",
+    "settingText": "27세기 제5 빙하기의 지하도시 뉴욕 (레벨 C, 레벨 M)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cZJsiD50kBDiwgB5UmkhHzIZ-KvFdG2a",
+    "filename": "로버트 실버버그-대빙하의 시대 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.763Z",
+    "size": "246276",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1cZJsiD50kBDiwgB5UmkhHzIZ-KvFdG2a/view?usp=drivesdk",
+    "sourceSha256": "29fef647a24f6beb47dd23dca52af68f040f4a42db932943b28b50bd2aa456f3",
+    "textSha256": "4cb4c6cff2433e5799491e232c945fbc1fafe6e4683688f9c06602eb597def79",
+    "changeKey": "8250a5f928e8923b2e9caca138ce8349",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "abe37ff940908e09093d",
+    "workId": "abe37ff940908e09093d",
+    "driveFileId": "1cZJsiD50kBDiwgB5UmkhHzIZ-KvFdG2a",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:30:44.651604+00:00",
+    "updatedAt": "2026-09-21T23:30:44.651613+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:30:44.651766+00:00"
+    }
+  }
+}

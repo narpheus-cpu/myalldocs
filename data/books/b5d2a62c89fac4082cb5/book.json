@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바이러스",
+    "author": "로빈 쿡",
+    "genre": "의학 스릴러",
+    "tags": [
+      "의학스릴러",
+      "에볼라",
+      "자이레",
+      "강도사건"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "medical",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "콜롬비아 의대를 졸업하고 하버드에서 수학한 의사 출신의 세계적인 의학 스릴러 작가입니다.",
+    "oneLineSummary": "1976년 아프리카 자이레에서 발생한 치명적인 에볼라 바이러스의 창궐과, 현재 로스앤젤레스에서 의문의 강도를 당한 후 바이러스에 감염되는 안과 의사 리히터의 이야기를 다룬 의학 스릴러입니다.",
+    "overallSummary": "1976년 자이레 얌부쿠 미션 병원에서 미국인 대학생 존 노다이크의 사망을 시작으로 에볼라 바이러스가 창궐하여 병원 직원과 주민들이 몰살당하는 비극이 일어납니다. 현재 로스앤젤레스에서는 리히터 클리닉의 안과 의사 루돌프 리히터가 차고에서 의문의 강도를 당해 지갑과 시계를 빼앗긴 후, 기묘한 바이러스 감염 증세를 보이기 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: 자이레, 아프리카, 1976년",
+        "summary": "대학생 존 노다이크가 얌부쿠 병원에서 주사를 맞은 후 에볼라 바이러스로 사망하고, 보건 국장 루가사와 부샤드가 병원의 참상을 목격하며 킨샤샤로 환자를 공수하고 에볼라 바이러스가 명명되는 과정입니다."
+      },
+      {
+        "sectionTitle": "로스앤젤레스, 캘리포니아, 현재 1월 14일",
+        "summary": "안과 의사 루돌프 리히터가 병원 광고 회의를 마치고 퇴근하던 중 차고에서 정장 차림의 괴한들에게 습격당해 강도를 당하고, 이후 몸에 이상 증세를 느끼기 시작하는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "바이러스 종류",
+        "value": "에볼라 바이러스 (Ebola Virus)"
+      }
+    ],
+    "keyEntitiesText": "존 노다이크, 루가사 국장, 부샤드, 루돌프 리히터, 윌리엄 리히터, 나바르",
+    "settingText": "1976년 아프리카 자이레 얌부쿠 및 현재의 미국 로스앤젤레스 리히터 클리닉"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10v4oQ-A6gjsgKvmF1zh1lzjo-FDOWuY9",
+    "filename": "로빈쿡-바이러스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.882Z",
+    "size": "517236",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/10v4oQ-A6gjsgKvmF1zh1lzjo-FDOWuY9/view?usp=drivesdk",
+    "sourceSha256": "b5c60523b94492ef110ce4e2b1bd80dd492ec212c9356e9aef696e069ef8e55b",
+    "textSha256": "50480ac37b5f9bef2696f6fc09cec44e086797b1a5065ffa9b88ba91f0bb6912",
+    "changeKey": "777b47ca0ccc4353dbed4a6dee086722",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b5d2a62c89fac4082cb5",
+    "workId": "b5d2a62c89fac4082cb5",
+    "driveFileId": "10v4oQ-A6gjsgKvmF1zh1lzjo-FDOWuY9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:31:09.874366+00:00",
+    "updatedAt": "2026-09-21T23:31:09.874380+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:31:09.874494+00:00"
+    }
+  }
+}

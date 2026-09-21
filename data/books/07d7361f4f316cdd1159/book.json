@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모넬라",
+    "author": "로렌조 코델리",
+    "genre": "소설",
+    "tags": [
+      "이탈리아소설",
+      "에로티시즘",
+      "로맨스",
+      "성적긴장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "erotica",
+        "romance",
+        "coming_of_age"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이탈리아의 영화 평론가이자 작가로, 틴토 브라스 감독의 영화 '모넬라'의 원작 또는 관련 소설을 집필했습니다.",
+    "oneLineSummary": "성숙한 육체와 도발적인 매력을 지닌 열아홉 살 소녀 로라와 그녀의 보수적인 약혼자 타마소 사이의 갈등과 성적 긴장감을 그린 소설입니다.",
+    "overallSummary": "뛰어난 미모와 도발적인 성격으로 온 동네 남성들의 시선을 사로잡는 로라가 약혼자 타마소의 소심하고 보수적인 태도에 애가 타서 유혹을 시도하고, 친구들과 함께 성에 눈을 뜨며 겪는 발랄하고 관능적인 이야기입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "로라의 자위와 약혼자 타마소와의 창고에서의 격정적인 애무, 그리고 제빵사의 방해로 인한 갈등을 다룹니다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "로라의 성장 배경, 친구들(그라시아, 델피, 클로드)과의 '섹스 데이' 모임 및 성적 유희, 타마소와의 첫 만남 회상을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 갈등",
+        "value": "로라의 도발적인 성적 욕망과 타마소의 보수적인 순결주의 간의 충돌"
+      }
+    ],
+    "keyEntitiesText": "로라, 타마소, 넬라, 토니, 그라시아, 델피, 클로드",
+    "settingText": "이탈리아의 어느 평화롭고 보수적인 시골 마을, 제과점, 클로드의 초호화 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ur_4Eg0z5Eq_lvqjmbsVyGDh4vVwb4Eq",
+    "filename": "로렌조 코델리-모넬라.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.714Z",
+    "size": "236129",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ur_4Eg0z5Eq_lvqjmbsVyGDh4vVwb4Eq/view?usp=drivesdk",
+    "sourceSha256": "a8eff985c07f3ae31b1515ee59e50588a6878a2a8e924bb795bb662aa897711f",
+    "textSha256": "fc09381f30364f7eb1baf9eeeecefe1442fdb1b252b07e7027433ebe5ddcc409",
+    "changeKey": "7ed3cb3c90ab23439b8fec308f0676aa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "07d7361f4f316cdd1159",
+    "workId": "07d7361f4f316cdd1159",
+    "driveFileId": "1ur_4Eg0z5Eq_lvqjmbsVyGDh4vVwb4Eq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:30:20.491188+00:00",
+    "updatedAt": "2026-09-21T23:30:20.491198+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:30:20.491304+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "(속) 사랑을 위해 죽다",
+    "author": "레이몬 장",
+    "genre": "소설",
+    "tags": [
+      "프랑스소설",
+      "68혁명",
+      "비극적사랑",
+      "사회갈등"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama",
+        "epistolary",
+        "social_issue"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 작가로, 사회적 갈등과 인간의 감정을 냉철하고 객관적인 시각으로 묘사합니다.",
+    "oneLineSummary": "제자와의 사랑으로 인해 사회적 지탄을 받고 비극적인 결말을 맞이한 여교사 가브리엘 뤼씨에의 사건을 다룬 소설입니다.",
+    "overallSummary": "서른두 살의 문학 교사 가브리엘 뤼씨에와 그녀의 열일곱 살 제자 크리스티앙의 사랑, 그리고 이를 미성년자 유괴죄로 처벌하려는 보수적인 법과 사회적 권위에 맞서다 비극적으로 생을 마감한 가브리엘의 이야기를 기사문, 서간문, 고백 등의 형식으로 재구성합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 기사문",
+        "summary": "렉스 프레스, 파리 마치 등 언론 기사를 통해 가브리엘 뤼씨에 사건의 비극적 결말과 사회적 모순을 조명합니다."
+      },
+      {
+        "sectionTitle": "크리스티앙의 고백",
+        "summary": "제자 크리스티앙의 시점에서 가브리엘과의 만남, 자유에 대한 자각, 혁명적 분위기 속에서의 사랑을 고백합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건의 배경",
+        "value": "프랑스 68혁명과 가부장적 권위주의의 충돌"
+      }
+    ],
+    "keyEntitiesText": "가브리엘 뤼씨에, 크리스티앙, 알베르 노 부인, 테스튀 검사",
+    "settingText": "1968년 5월 혁명 전후의 프랑스 마르세유"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1egjmLED08GRwm02dhiEnbplwmE_sGOQn",
+    "filename": "레이몬 장-(속) 사랑을 위해 죽다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.678Z",
+    "size": "361987",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1egjmLED08GRwm02dhiEnbplwmE_sGOQn/view?usp=drivesdk",
+    "sourceSha256": "32c0b12de4c9ed6e7f668760aab8744dd3c12fb40b897f90597ef2ed53e4a581",
+    "textSha256": "09e9d0602e3b6cf7a2566654ade2bb57f8be264a196268b39d96db5c7213e00e",
+    "changeKey": "4c0904bf260555461923565685aea269",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9bafc91fa33b88b25159",
+    "workId": "9bafc91fa33b88b25159",
+    "driveFileId": "1egjmLED08GRwm02dhiEnbplwmE_sGOQn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:30:07.607936+00:00",
+    "updatedAt": "2026-09-21T23:30:07.607950+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:30:07.608061+00:00"
+    }
+  }
+}

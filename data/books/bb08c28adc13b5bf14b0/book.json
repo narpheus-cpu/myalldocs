@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제발 조용히 좀 해요",
+    "author": "레이먼드 카버",
+    "genre": "소설",
+    "tags": [
+      "미니멀리즘",
+      "단편소설",
+      "소외",
+      "일탈"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "realism",
+        "minimalism",
+        "short_stories"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 단편소설 작가로, 일상적인 삶의 단면을 극도로 절제된 문체로 그려내는 미니멀리즘의 대가입니다.",
+    "oneLineSummary": "일상 속 평범한 인물들이 겪는 소외, 소통의 부재, 그리고 미묘한 심리적 변화를 담아낸 단편 소설집입니다.",
+    "overallSummary": "식당 웨이트리스인 주인공이 거구의 뚱보 손님을 대접하며 겪는 기묘한 감정의 변화를 다룬 '뚱보'와, 이웃집의 여행 기간 동안 그들의 아파트를 돌보며 기묘한 일탈을 시도하는 부부의 이야기인 '이웃 사람들'을 포함한 단편들입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "뚱보",
+        "summary": "식당에서 엄청난 대식가인 뚱보 손님을 서빙하며 묘한 유대감과 일상의 변화를 예감하는 웨이트리스의 이야기입니다."
+      },
+      {
+        "sectionTitle": "이웃 사람들",
+        "summary": "이웃인 스톤 부부의 집을 돌보며 그들의 옷을 입어보는 등 기묘한 집착과 일탈에 빠져드는 빌과 알린 부부의 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "일상의 권태와 타인의 삶에 대한 기묘한 동경 및 일탈"
+      }
+    ],
+    "keyEntitiesText": "루디, 리타, 뚱보 손님, 빌 밀러, 알린 밀러, 짐 스톤, 해리엇 스톤",
+    "settingText": "미국의 평범한 중산층/노동자 가정, 식당, 아파트 복도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DZPiK2uqPmCCohPl7y-1A22A9gNXj-3G",
+    "filename": "레이먼드 카버-제발 조용히 좀 해요(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.635Z",
+    "size": "558885",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1DZPiK2uqPmCCohPl7y-1A22A9gNXj-3G/view?usp=drivesdk",
+    "sourceSha256": "777927917818c8b82cbef925cc8d5dc7f1c946ff62282d3ee4ce85edc8f851ea",
+    "textSha256": "be6646904c5ed3a39f03fad40494d3e914c3ec9defedf6e14c74ee786291f54f",
+    "changeKey": "2ccc3492d0f21e45e1fd3edb0076058f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bb08c28adc13b5bf14b0",
+    "workId": "bb08c28adc13b5bf14b0",
+    "driveFileId": "1DZPiK2uqPmCCohPl7y-1A22A9gNXj-3G",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:29:35.924932+00:00",
+    "updatedAt": "2026-09-21T23:29:35.924942+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:29:35.925047+00:00"
+    }
+  }
+}

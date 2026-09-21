@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "메디슨 카운티의 다리",
+    "author": "로버트 제임스 월러",
+    "genre": "로맨스 소설",
+    "tags": [
+      "로맨스",
+      "매디슨카운티",
+      "사진작가",
+      "나흘간의사랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 아이오와 출신의 작가이자 경제학 박사로, 사진과 음악 등 다방면에 재능을 가졌으며 전 세계적인 베스트셀러 작가입니다.",
+    "oneLineSummary": "평범한 가정주부 프란체스카와 내셔널 지오그래픽의 사진작가 로버트 킨케이드가 매디슨 카운티에서 만나 나눈 나흘간의 짧고 강렬한 사랑 이야기입니다.",
+    "overallSummary": "작가는 프란체스카의 자녀들인 마이클과 캐롤린으로부터 어머니의 일기와 편지를 전달받아 소설을 집필하게 됩니다. 1965년 여름, 남편과 아이들이 박람회로 집을 비운 사이, 매디슨 카운티의 지붕 있는 다리를 촬영하러 온 사진작가 로버트 킨케이드와 프란체스카가 만나 평생을 지배할 나흘간의 사랑을 나누는 이야기입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "시작에 앞서",
+        "summary": "작가가 프란체스카의 자녀들을 만나 일기와 자료를 건네받고 소설을 쓰기로 결심하고 조사하는 과정을 다룬 서문입니다."
+      },
+      {
+        "sectionTitle": "로버트 킨케이드",
+        "summary": "1965년 8월, 사진작가 로버트 킨케이드가 시보레 트럭을 몰고 벨링햄을 떠나 매디슨 카운티로 향하는 여정과 그의 고독한 내면을 묘사한 장입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 상징",
+        "value": "매디슨 카운티의 지붕 있는 다리 (로즈먼 다리)"
+      }
+    ],
+    "keyEntitiesText": "로버트 킨케이드, 프란체스카 존슨, 마이클 존슨, 캐롤린, 매리언",
+    "settingText": "1965년 8월의 미국 아이오와 주 매디슨 카운티 및 워싱턴 주 벨링햄"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YCWdijCgOUAA62v4P3SeHmhTfTra-t9J",
+    "filename": "로버트 제임스 월러-메디슨 카운티의 다리 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.780Z",
+    "size": "290135",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1YCWdijCgOUAA62v4P3SeHmhTfTra-t9J/view?usp=drivesdk",
+    "sourceSha256": "1b490ddc1d784ebff913bbc66bd67a5413e112d962c38cd8b81c65f8d4bccb6b",
+    "textSha256": "9bdbab5e72a92334bf20bf09959bb00ad07fc9f6feca4e6aac831366a25be989",
+    "changeKey": "d4eeb9adcd0a67b125d3b5d09d96fee1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b9148e4ca797a88d5744",
+    "workId": "b9148e4ca797a88d5744",
+    "driveFileId": "1YCWdijCgOUAA62v4P3SeHmhTfTra-t9J",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:30:51.053744+00:00",
+    "updatedAt": "2026-09-21T23:30:51.053755+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:30:51.053851+00:00"
+    }
+  }
+}

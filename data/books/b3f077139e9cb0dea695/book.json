@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "기나긴 이별",
+    "author": "레이먼드 챈들러",
+    "genre": "하드보일드 추리 소설",
+    "tags": [
+      "하드보일드",
+      "추리소설",
+      "필립 말로",
+      "우정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "hardboiled",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 추리 작가이자 하드보일드 탐정 소설의 대가로, 비정하고 간결한 문체와 전설적인 탐정 캐릭터 필립 말로 시리즈로 유명합니다.",
+    "oneLineSummary": "사설탐정 필립 말로가 우연히 만난 백발의 남자 테리 레녹스와 우정을 나누며 그의 아내 살인 사건에 휘말리는 하드보일드 추리 소설입니다.",
+    "overallSummary": "필립 말로는 술에 취한 테리 레녹스를 도와준 것을 계기로 친구가 됩니다. 어느 날 레녹스가 아내의 살해 소식을 전하며 다급하게 도움을 요청하고, 말로는 그를 도우며 사건의 진실을 파헤치게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "필립 말로가 댄서스 클럽 앞에서 만취한 테리 레녹스를 만나 도와주고 그의 예의 바른 태도에 이끌려 집으로 데려다주는 이야기입니다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "추수감사절 이후 길거리에서 부랑자 몰골을 한 테리를 다시 구해주고 라스베이거스로 떠나도록 돕는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "탐정 캐릭터",
+        "value": "필립 말로 (냉소적이지만 의리 있는 사설탐정)"
+      }
+    ],
+    "keyEntitiesText": "필립 말로, 테리 레녹스, 실비아 레녹스, 댄서스 클럽",
+    "settingText": "로스앤젤레스, 로럴 캐니언, 할리우드 대로"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gH1q6JLzW5jzQJKdqOsMMlc0pmCR-n6B",
+    "filename": "레이먼드 챈들러-기나긴 이별 -- 레이먼드 챈들러 Raymond Chandler 열린책들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.558Z",
+    "size": "931296",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1gH1q6JLzW5jzQJKdqOsMMlc0pmCR-n6B/view?usp=drivesdk",
+    "sourceSha256": "9e4f84a4d1c731821403a31e38834cc3d00dcc35d30270963a0b208813b20366",
+    "textSha256": "92028fb0211d2ef6eabcd165369ee4a24dc822f293ea6ee3eaea6e600b4c01e2",
+    "changeKey": "a38425dc78476a264cd6358371457a05",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b3f077139e9cb0dea695",
+    "workId": "b3f077139e9cb0dea695",
+    "driveFileId": "1gH1q6JLzW5jzQJKdqOsMMlc0pmCR-n6B",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:29:23.784086+00:00",
+    "updatedAt": "2026-09-21T23:29:23.784095+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:29:23.784204+00:00"
+    }
+  }
+}
