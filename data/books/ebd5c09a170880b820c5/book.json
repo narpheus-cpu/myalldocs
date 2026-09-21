@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지도와 사진으로 보는 제2차 세계대전",
+    "author": "A.J.P. 테일러",
+    "genre": "역사",
+    "tags": [
+      "제2차 세계대전",
+      "역사",
+      "지도",
+      "전쟁"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "군사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "A.J.P. 테일러는 제2차 세계대전을 편견 없이 분석한 저명한 역사학자이다.",
+    "oneLineSummary": "지도와 사진을 활용하여 제2차 세계대전의 전개 과정을 입체적으로 서술한 역사서이다.",
+    "overallSummary": "이 책은 제2차 세계대전의 발발부터 종결까지의 과정을 지도와 사진을 곁들여 상세히 설명한다. 유럽, 북아프리카, 태평양 등 각 전역의 상황을 유기적으로 연결하여 전쟁의 전체상을 조망하며, 특정 국가의 입장에 치우치지 않고 객관적인 역사적 관점을 유지한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "전쟁의 시작",
+        "summary": "1939년 폴란드 침공을 기점으로 전쟁이 발발하는 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "전환점",
+        "summary": "1942년 스탈린그라드 전투 등 전쟁의 판도가 바뀌는 주요 사건을 설명한다."
+      },
+      {
+        "sectionTitle": "전쟁의 종결",
+        "summary": "1945년 연합국의 승리와 전쟁의 종결 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 방식",
+        "value": "지도와 사진을 활용한 시각적 역사 서술"
+      },
+      {
+        "key": "역사적 관점",
+        "value": "객관적이고 중립적인 전쟁사 조망"
+      }
+    ],
+    "keyEntitiesText": "A.J.P. 테일러, 히틀러, 무솔리니, 루스벨트",
+    "settingText": "1939년~1945년 전 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16mKZF1RfpiC3LcLwV42PI0O9FjzQfcip",
+    "filename": "리처드 오버리-지도와 사진으로 보는 제2차 세계대전(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T05:59:42.000Z",
+    "size": "722772",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/16mKZF1RfpiC3LcLwV42PI0O9FjzQfcip/view?usp=drivesdk",
+    "sourceSha256": "5256b1db1c4fee5acb13ec91cd3ecdb6be2875f1c149ca4825f75b8d6d1ec976",
+    "textSha256": "6e03639e4f4a609acde90a86147dbf61cca9f6cda337de3750f7d5f702f5bedb",
+    "changeKey": "1a9d95ba8aa53e24cadde1ecfea364b5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ebd5c09a170880b820c5",
+    "workId": "ebd5c09a170880b820c5",
+    "driveFileId": "16mKZF1RfpiC3LcLwV42PI0O9FjzQfcip",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:03:12.746627+00:00",
+    "updatedAt": "2026-09-21T15:03:12.746645+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:03:12.746743+00:00"
+    }
+  }
+}

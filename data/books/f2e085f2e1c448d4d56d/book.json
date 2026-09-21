@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "책과 혁명",
+    "author": "로버트 단턴",
+    "genre": "역사",
+    "tags": [
+      "프랑스혁명",
+      "금서",
+      "책의 역사",
+      "계몽주의"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "문화사",
+        "사회사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "로버트 단턴은 옥스퍼드대학교에서 박사학위를 받았으며, 금서의 사회사와 문화사를 연구하는 저명한 역사가이다.",
+    "oneLineSummary": "프랑스혁명 이전의 금서 유통과 독서 문화를 통해 혁명의 지적 기원을 추적한 책이다.",
+    "overallSummary": "이 책은 18세기 프랑스에서 유통된 금서들의 사회적, 문화적 맥락을 복원한다. 단턴은 단순히 책의 내용을 분석하는 것을 넘어, 책이 어떻게 생산, 유통, 소비되었는지, 그리고 그것이 당시 여론 형성과 혁명적 담론에 어떤 영향을 미쳤는지를 서적상과 독자의 관점에서 생생하게 재구성한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "금지된 문학과 문학시장",
+        "summary": "외투 밑의 철학과 베스트셀러를 통해 당시 금서 시장의 실태를 다룬다."
+      },
+      {
+        "sectionTitle": "주요 작품",
+        "summary": "철학적 포르노그래피, 이상향의 공상, 정치적 욕설 등 금서의 주요 장르를 분석한다."
+      },
+      {
+        "sectionTitle": "책이 혁명을 일으키는가?",
+        "summary": "책의 유통망과 독자의 반응, 여론 형성을 통해 책과 혁명의 관계를 논증한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "연구 방법론",
+        "value": "서지학적 정보와 고문서를 활용한 사회문화사적 접근"
+      },
+      {
+        "key": "핵심 주장",
+        "value": "책은 사건을 기록하는 수동적 매체일 뿐만 아니라 사건을 만드는 요인이기도 하다."
+      }
+    ],
+    "keyEntitiesText": "로버트 단턴, 디드로, 뇌샤텔출판사, 프랑스혁명기 독자들",
+    "settingText": "18세기 프랑스혁명 이전의 앙시앵 레짐 시기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iGuq6fs9-NegwrqEcVYLHmG8-fDO3QZq",
+    "filename": "로버트 단턴-책과 혁명(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T21:30:12.000Z",
+    "size": "1220083",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1iGuq6fs9-NegwrqEcVYLHmG8-fDO3QZq/view?usp=drivesdk",
+    "sourceSha256": "3d75a26793444e07d3d9be5cf6a8c6705b4be758fcd3f10ae120d79ad0875b3f",
+    "textSha256": "ef12b6e59cebed1c0ab2f2bcf6592cf0a7cdc4f631e55c7f62722d9908b6e512",
+    "changeKey": "eb2e4472bf4fed43b6c3d9f23536f1e9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f2e085f2e1c448d4d56d",
+    "workId": "f2e085f2e1c448d4d56d",
+    "driveFileId": "1iGuq6fs9-NegwrqEcVYLHmG8-fDO3QZq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:59:57.126314+00:00",
+    "updatedAt": "2026-09-21T14:59:57.126332+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:59:57.126528+00:00"
+    }
+  }
+}

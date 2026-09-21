@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "샌델을 읽다",
+    "author": "리디북스 콘텐츠팀",
+    "genre": "철학",
+    "tags": [
+      "마이클 샌델",
+      "정의",
+      "철학",
+      "공동체주의"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "리디북스 콘텐츠팀이 마이클 샌델의 철학을 대중에게 쉽게 소개하기 위해 집필했다.",
+    "oneLineSummary": "마이클 샌델의 철학적 사유와 그가 한국 사회에 미친 영향력을 분석한 입문서이다.",
+    "overallSummary": "이 책은 마이클 샌델의 철학적 배경과 그의 저서들이 한국 사회에서 일으킨 열풍을 분석한다. 샌델의 핵심 사상인 '정의'와 '공동체'의 가치를 설명하며, 그가 왜 전 세계적으로 '도덕의 록스타'라 불리는지, 그리고 우리가 왜 지금 샌델을 읽어야 하는지를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "샌델, 그 뜨거운 이름",
+        "summary": "마이클 샌델의 학문적 성취와 대중적 인기의 원인을 분석한다."
+      },
+      {
+        "sectionTitle": "정의란 과연 무엇인가?",
+        "summary": "샌델의 대표작 '정의란 무엇인가'가 한국 사회에 미친 영향과 정의 담론을 다룬다."
+      },
+      {
+        "sectionTitle": "철학계의 록스타, 샌델",
+        "summary": "샌델의 강연 스타일과 철학적 사유의 대중적 매력을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 가치",
+        "value": "공동체주의, 도덕적 숙고"
+      },
+      {
+        "key": "사회적 현상",
+        "value": "한국 사회의 '공정'과 '정의'에 대한 열망"
+      }
+    ],
+    "keyEntitiesText": "마이클 샌델, 존 롤스, 장 자크 루소, 프리드리히 니체",
+    "settingText": "21세기 한국 사회의 정의 담론"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1V7svXG8W8Bep5qtwevjispAyyxD0oS4j",
+    "filename": "리디-샌델을 읽다(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T21:49:16.000Z",
+    "size": "71296",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1V7svXG8W8Bep5qtwevjispAyyxD0oS4j/view?usp=drivesdk",
+    "sourceSha256": "e6997d207f8e7db4be373634e1678ae18cbdf48477e69e7a716866b8931e29b0",
+    "textSha256": "6ee9ecef9145be56bee3bc6cda549ad8aa5d94d4edc5b1ec437e439652abf951",
+    "changeKey": "17cd5b09de792005344f7610950d109f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aa9b8cc12320d3d51387",
+    "workId": "aa9b8cc12320d3d51387",
+    "driveFileId": "1V7svXG8W8Bep5qtwevjispAyyxD0oS4j",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:00:57.753674+00:00",
+    "updatedAt": "2026-09-21T15:00:57.753691+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:00:57.753792+00:00"
+    }
+  }
+}

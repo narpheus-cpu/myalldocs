@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "삼십육계",
+    "author": "마서휘 외",
+    "genre": "소설",
+    "tags": [
+      "삼십육계",
+      "병법",
+      "처세",
+      "지략"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "처세술"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "마서휘 외 여러 필진이 중국의 병법서인 삼십육계를 소설 형식으로 재구성했다.",
+    "oneLineSummary": "중국 병법 삼십육계를 소설로 재구성하여 현대인의 삶에 적용할 수 있는 지략과 처세술을 제시한다.",
+    "overallSummary": "이 책은 중국의 고전 병법인 삼십육계를 역사적 사건과 인물들의 이야기로 풀어낸 소설이다. 각 계책이 가진 의미를 현대적 상황에 맞게 해석하여, 경쟁 사회에서 살아남기 위한 전략과 지혜를 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "승전계",
+        "summary": "자신의 힘이 우세할 때 사용하는 계책들을 다룬다."
+      },
+      {
+        "sectionTitle": "절정기계",
+        "summary": "천하를 지배하기 위한 고도의 지략과 계책을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 가치",
+        "value": "생존 전략, 임기응변, 지략"
+      },
+      {
+        "key": "구성 방식",
+        "value": "역사적 사건을 바탕으로 한 소설적 재구성"
+      }
+    ],
+    "keyEntitiesText": "여불위, 이인, 조희",
+    "settingText": "중국 전국시대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14vHVFNpJSvucarTozHEFegS4zTLpuCTF",
+    "filename": "마서휘 외-삼십육계(1~36)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T23:06:30.000Z",
+    "size": "21900159",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/14vHVFNpJSvucarTozHEFegS4zTLpuCTF/view?usp=drivesdk",
+    "sourceSha256": "07c4c2563e28d4713316e1f90a02db05735518e0b877da1d991d8627d20adf5f",
+    "textSha256": "1ff3928de9c1acd6424a604c4d111a14231ad660d634caaad819b4c2dd2deaca",
+    "changeKey": "385451a5591369ac660cbc4ac136ecb2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "53b3a3ec9981b68e1885",
+    "workId": "53b3a3ec9981b68e1885",
+    "driveFileId": "14vHVFNpJSvucarTozHEFegS4zTLpuCTF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:05:51.677171+00:00",
+    "updatedAt": "2026-09-21T15:05:51.677188+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:05:51.677278+00:00"
+    }
+  }
+}

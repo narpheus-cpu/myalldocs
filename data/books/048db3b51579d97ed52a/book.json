@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동방견문록",
+    "author": "마르코 폴로",
+    "genre": "여행기",
+    "tags": [
+      "여행",
+      "원나라",
+      "쿠빌라이 칸",
+      "견문록"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "여행기"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "마르코 폴로는 베네치아의 상인으로, 원나라를 방문하여 동방의 문물을 유럽에 소개했다.",
+    "oneLineSummary": "마르코 폴로가 원나라를 여행하며 보고 들은 동방의 문물과 풍습을 기록한 여행기이다.",
+    "overallSummary": "이 책은 마르코 폴로가 아버지, 삼촌과 함께 실크로드를 거쳐 원나라에 도착해 쿠빌라이 칸을 알현하고 17년간 머물며 겪은 견문을 담고 있다. 당시 동양의 화려한 문명과 풍습을 유럽에 알린 중요한 사료로 평가받는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "폴로 형제, 대칸의 궁정으로",
+        "summary": "폴로 형제가 원나라로 향하는 여정과 대칸과의 만남을 다룬다."
+      },
+      {
+        "sectionTitle": "마르코, 대칸의 사절이 되어",
+        "summary": "마르코 폴로가 대칸의 신임을 얻어 사절로 활동하며 견문을 넓히는 과정을 기록한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 가치",
+        "value": "중세 유럽인들에게 동양 문명을 알린 최초의 본격적인 여행기"
+      },
+      {
+        "key": "기록 방식",
+        "value": "구술 기록(루스티첼로가 기록)"
+      }
+    ],
+    "keyEntitiesText": "마르코 폴로, 쿠빌라이 칸, 루스티첼로",
+    "settingText": "13세기 원나라 및 실크로드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11aDGdBzFhpS7j-niFOzPP-Nn2BM0dYcP",
+    "filename": "마르코폴로-동방견문록(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T22:11:06.000Z",
+    "size": "1116554",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/11aDGdBzFhpS7j-niFOzPP-Nn2BM0dYcP/view?usp=drivesdk",
+    "sourceSha256": "95780f850dfc56f123c075339c7cd5a0093c0ea883290355bee14dd50918e595",
+    "textSha256": "fd164a98f67d850972fd82951ef72dc1c05e798776d7bcd1c724f661b1c13415",
+    "changeKey": "8acf61f4971e86aa8f476ecfe3b93d6d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "048db3b51579d97ed52a",
+    "workId": "048db3b51579d97ed52a",
+    "driveFileId": "11aDGdBzFhpS7j-niFOzPP-Nn2BM0dYcP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:04:36.770876+00:00",
+    "updatedAt": "2026-09-21T15:04:36.770894+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:04:36.770990+00:00"
+    }
+  }
+}
