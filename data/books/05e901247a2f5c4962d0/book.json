@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "럼 커피와 오뎅",
+    "author": "무라카미",
+    "genre": "에세이",
+    "tags": [
+      "럼 커피",
+      "오뎅",
+      "겨울",
+      "존 어빙",
+      "안자이 미즈마루"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "음식",
+        "추억"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "겨울철 별미인 럼 커피와 오뎅에 얽힌 개인적인 추억과 단상을 담은 에세이.",
+    "overallSummary": "겨울에 어울리는 럼 커피와 오뎅에 대한 작가의 개인적인 선호를 밝히며, 오스트리아나 독일에서 마셨던 럼 커피의 맛과 일본에서 혼자 오뎅을 먹는 즐거움, 그리고 오뎅을 먹는 정통적인 방법에 대한 의문을 유머러스하게 서술하고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "럼 커피의 추억",
+        "summary": "존 어빙의 소설을 번역하며 럼 커피에 관심을 갖게 되었고, 겨울철 유럽에서 마신 럼 커피의 훌륭한 맛을 회상한다."
+      },
+      {
+        "sectionTitle": "오뎅과 혼술의 즐거움",
+        "summary": "아내의 오뎅 혐오로 인해 혼자 오뎅집에서 술을 마시는 일상을 전하며, 오뎅을 먹는 올바른 매너에 대한 의문을 제기한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "럼 커피, 오뎅"
+      },
+      {
+        "key": "언급된 도서",
+        "value": "존 어빙의 <곰을 풀어 놓다>"
+      }
+    ],
+    "keyEntitiesText": "무라카미, 안자이 미즈마루, 존 어빙, 오스트리아, 독일, 동경, 에노시마",
+    "settingText": "겨울철, 일본 동경 및 유럽(오스트리아, 독일)의 카페와 오뎅집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18p_kNYSDsYljyZDCX6A_eFk9IT2ozfms",
+    "filename": "럼 커피와 오뎅.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.169Z",
+    "size": "4766",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/18p_kNYSDsYljyZDCX6A_eFk9IT2ozfms/view?usp=drivesdk",
+    "sourceSha256": "e3be3f46fcb2e6ad7e988791f0da6f7d144c158d2ff7be28b05d412f76d00d3c",
+    "textSha256": "a863bafd1387d329b3911621f638119cca54ee9518c7b6f74171f85241d55285",
+    "changeKey": "9872e4a3a8c9104b7b67542dafc61992",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "05e901247a2f5c4962d0",
+    "workId": "05e901247a2f5c4962d0",
+    "driveFileId": "18p_kNYSDsYljyZDCX6A_eFk9IT2ozfms",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:05:20.552196+00:00",
+    "updatedAt": "2026-09-21T20:05:20.552213+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:05:20.552416+00:00"
+    }
+  }
+}
