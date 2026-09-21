@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "왜 나는 이발관을 좋아하는가",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "이발관",
+      "단골집",
+      "센다가야",
+      "취향",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "먼 이동 거리를 무릅쓰고 센다가야 단골 이발관을 고집하는 이유와 바람직한 이발관의 조건.",
+    "overallSummary": "미용실 대신 옛 이발관을 애호하는 작가는 이사를 간 후에도 1~2시간씩 걸려 센다가야의 단골 이발관을 찾아간다. 머리 모양을 일일이 설명할 필요 없는 편안함, 수다스럽지 않은 분위기, 정겨운 라디오 프로그램 등 자신이 생각하는 이발관의 바람직한 조건들을 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "미용실 피하는 이유와 이발관 애호",
+        "summary": "미용실의 어색함 대신 편안하고 조용한 동네 이발관을 내내 애용하는 취향을 이야기한다."
+      },
+      {
+        "sectionTitle": "센다가야 단골집과 바람직한 이발관의 조건",
+        "summary": "멀리 이사해서도 센다가야 이발관을 고집하는 사연과 자주 바뀌지 않는 이발사 등 좋은 이발관의 조건 3가지를 든다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "바람직한 이발관 조건",
+        "value": "1. 이발사가 바뀌지 않음 2. 수다스럽지 않음 3. 정겨운 라디오 방송"
+      }
+    ],
+    "keyEntitiesText": "작가, 이발사 아저씨",
+    "settingText": "센다가야 단골 이발관, 오다큐선 로맨스 카"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1H8mQ7rS3ZwULwzgnHamJfK9q_WZzp1w-",
+    "filename": "왜 나는 이발관을 좋아하는가.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.567Z",
+    "size": "5231",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1H8mQ7rS3ZwULwzgnHamJfK9q_WZzp1w-/view?usp=drivesdk",
+    "sourceSha256": "a4cce648b473f0abe13a9351de4f1d540d9a782487d99f72fd11d790ffcaa6f1",
+    "textSha256": "74dc739656cb5e9c3e24e115af2703c56bdae7e0416553a6280983792a8d3684",
+    "changeKey": "05986d51a2793509d4fdf37f29158b3c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "be48a8dfe37af282dab2",
+    "workId": "be48a8dfe37af282dab2",
+    "driveFileId": "1H8mQ7rS3ZwULwzgnHamJfK9q_WZzp1w-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:00:15.418909+00:00",
+    "updatedAt": "2026-09-21T21:00:15.418925+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:00:15.419018+00:00"
+    }
+  }
+}

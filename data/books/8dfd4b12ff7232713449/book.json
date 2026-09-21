@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "연필깎이",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "연필깎이",
+      "와타나베노보루",
+      "수도수리공",
+      "일상",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "수도 수리공이자 수집가인 와타나베 노보루와 오래된 연필깎이를 최신식으로 교환한 우연한 행운담.",
+    "overallSummary": "부엌 식탁에서 일하던 중 개수대 배수 파이프 수리를 하러 온 와타나베 노보루를 만난다. 그가 연필깎이 수집가임을 알게 되고, 작가의 20년 된 1963년형 맥스 PSD 연필깎이를 노보루가 소지한 최신식 새 연필깎이와 교환하게 된 유쾌한 일화를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "수도 수리공의 시선",
+        "summary": "배수 파이프를 수리하러 온 와타나베 노보루가 식탁 위의 녹슨 수동 연필깎이에 남다른 관심을 보인다."
+      },
+      {
+        "sectionTitle": "연필깎이의 물물교환",
+        "summary": "희귀한 1963년형 맥스 PSD 연필깎이를 노보루가 가진 최신식 새 연필깎이와 물물교환하고 만족해한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 사물",
+        "value": "1963년형 맥스 PSD 연필깎이"
+      }
+    ],
+    "keyEntitiesText": "작가, 와타나베 노보루(수도 수리공)",
+    "settingText": "집 부엌 식탁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QqXI_XE6HBhoy56OGqMn2ziHp48zpipc",
+    "filename": "연필깍이.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.494Z",
+    "size": "1738",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1QqXI_XE6HBhoy56OGqMn2ziHp48zpipc/view?usp=drivesdk",
+    "sourceSha256": "807c0effaa2412beb4015c52d6ecb0316a51e3ff7f726a9897775da2005ad7fe",
+    "textSha256": "c1fa8ab2ade8e8a2ae1e73eb50f934f55f629de5f939fbcd21304f72e190430d",
+    "changeKey": "10b90728ae404d55e372693e93bf9b9b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8dfd4b12ff7232713449",
+    "workId": "8dfd4b12ff7232713449",
+    "driveFileId": "1QqXI_XE6HBhoy56OGqMn2ziHp48zpipc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:59:44.266262+00:00",
+    "updatedAt": "2026-09-21T20:59:44.266279+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.795,
+      "updatedAt": "2026-09-21T20:59:44.266374+00:00"
+    }
+  }
+}

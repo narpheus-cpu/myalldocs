@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "워크맨을 위한 레퀴엠",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "워크맨",
+      "레퀴엠",
+      "달리기",
+      "기술진보",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "매일 달리기를 함께해 준 첫 워크맨의 노고를 기리고 기술 진보의 필요성을 묻는 레퀴엠 성격의 에세이.",
+    "overallSummary": "4년 동안 아침 달리기 현장에서 땀과 비를 맞으며 함께 뛴 첫 워크맨의 노고에 고마움을 전한다. 신형 워크맨의 놀라운 기술 발전 속도를 언급하며 꼭 필요한 이상의 진보가 이어지는 것은 아닌지 짚어보고, 은퇴한 소니 워크맨 WM II에 정중한 작별을 고한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "달리기 동반자 워크맨의 은퇴",
+        "summary": "4년간 가혹한 환경 속에서 달리기를 함께해 준 초대 워크맨에게 공양하는 마음을 적는다."
+      },
+      {
+        "sectionTitle": "진보의 속도와 기기에 보낼 레퀴엠",
+        "summary": "인간보다 빠르게 진보하는 기계의 신속함과 진보의 필요성을 사유하며 은퇴 기기의 안식을 빈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "오랫동안 정들었던 전자제품에 보내는 헌사이자 진혼곡"
+      }
+    ],
+    "keyEntitiesText": "작가, 소니 워크맨 WM II",
+    "settingText": "달리기 코스, 오디오 가게"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hDcc1Lw_D-sP0SYBSYSzUgsKNqTbcTxz",
+    "filename": "워크맨을 위한 레퀴엠.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.625Z",
+    "size": "1667",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1hDcc1Lw_D-sP0SYBSYSzUgsKNqTbcTxz/view?usp=drivesdk",
+    "sourceSha256": "6d9eb70a2846919592db84dc5447e76be15e7368a5cdb2bdc4100db24f66631c",
+    "textSha256": "a0ada9fa69efc26c2ca4e37aa88c4b71260484cde2644dad583caf4a09e67062",
+    "changeKey": "ab7b769118cb9fe1f378448df8d7d07f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c792ed57b7f930297a42",
+    "workId": "c792ed57b7f930297a42",
+    "driveFileId": "1hDcc1Lw_D-sP0SYBSYSzUgsKNqTbcTxz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:00:34.251499+00:00",
+    "updatedAt": "2026-09-21T21:00:34.251516+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:00:34.251628+00:00"
+    }
+  }
+}

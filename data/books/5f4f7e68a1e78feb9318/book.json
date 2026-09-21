@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영화관에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "영화관",
+      "B급영화",
+      "젊은사자들",
+      "시네마딕트",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "소설 집필 후 공백기에 영화관을 드나들며 사유한 B급 영화 감상의 묘미와 시네마딕트적 경험.",
+    "overallSummary": "장편소설 탈고 후 출간 전 휴식기에 영화관을 집중적으로 찾았던 일상을 전한다. 영화관 어둠 속에서 머리를 비우는 평온함과 학원 분쟁 시절 영화관을 전전하던 기억, 그리고 존 밀리어스의 <젊은 사자들> 같은 B급·C급 영화를 스스로 재미를 찾아가며 관람하는 독특한 시각을 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "집필 후 공백기와 영화관 순례",
+        "summary": "소설 완결 후 출간을 기다리며 집중적으로 영화관을 찾아 헐리우드 영화들을 즐긴 휴식기를 적는다."
+      },
+      {
+        "sectionTitle": "B급 영화의 묘미와 시네마딕트",
+        "summary": "과거 영화에 몰두했던 중독적 시기와 <젊은 사자들>처럼 나름의 가치를 발견하며 보는 B급 영화 감상의 매력을 논한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "영화관 관람론",
+        "value": "스스로 좋은 요소를 찾아내며 집중해 관람하는 B급·C급 영화 감상의 가치"
+      }
+    ],
+    "keyEntitiesText": "작가, 아내, 트루먼 캐포티, 존 밀리어스(감독)",
+    "settingText": "영화관, 자택 툇마루"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MYl3Fg_A64ppjnwvdXq4TohH2M4gcLkV",
+    "filename": "영화관에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.515Z",
+    "size": "5138",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1MYl3Fg_A64ppjnwvdXq4TohH2M4gcLkV/view?usp=drivesdk",
+    "sourceSha256": "a995889915d0cae9391d5079ae3706a4e83e7305d8e969fbde945f7dc530a280",
+    "textSha256": "7ec8a7b9546dd354c1e14e84d0a9ea3860314f3ee03d0b36bfe2aedf907fc4c0",
+    "changeKey": "a2aa1fb0c68c67af4b5c8177c3e54583",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5f4f7e68a1e78feb9318",
+    "workId": "5f4f7e68a1e78feb9318",
+    "driveFileId": "1MYl3Fg_A64ppjnwvdXq4TohH2M4gcLkV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:59:50.943942+00:00",
+    "updatedAt": "2026-09-21T20:59:50.943959+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:59:50.944055+00:00"
+    }
+  }
+}

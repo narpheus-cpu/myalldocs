@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여행지에서 영화를 보는 일에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "여행",
+      "영화관",
+      "삿포로",
+      "구마모토",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "낯선 여행지의 영화관에서 영화를 관람하며 느끼는 서글프고 깊은 몰입감과 과거 큐슈 여행의 기억.",
+    "overallSummary": "삿포로 여행 중 영화관을 잇달아 방문한 일상을 전하며, 낯선 지역의 영화관이 주는 특유의 서글픈 즐거움을 설명한다. 18세 수험생 시절 큐슈 구마모토 여행에서 영화를 보고 나와 길거리에서 기묘한 제안을 받았던 에피소드를 돌아본다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "삿포로에서의 영화 감상 일상",
+        "summary": "삿포로 여행 중 맥주와 위스키를 즐기며 여러 극장을 순회하며 영화를 관람한 경험을 전한다."
+      },
+      {
+        "sectionTitle": "18세 큐슈 여행과 수상한 기억",
+        "summary": "수험생 시절 큐슈 구마모토 극장에서 영화를 본 후 저렴한 제안을 받았던 이상한 추억을 적는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "여행 패턴",
+        "value": "낯선 도시를 방문했을 때 습관적으로 영화관을 찾아 영화를 관람함"
+      }
+    ],
+    "keyEntitiesText": "작가, 구마모토의 여자",
+    "settingText": "삿포로, 큐슈 구마모토 영화관"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1I7tb0fqsq05BCpN_rdRYyFfXrjpFv5Yc",
+    "filename": "여행지에서 영화를 보는 일에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.483Z",
+    "size": "1870",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1I7tb0fqsq05BCpN_rdRYyFfXrjpFv5Yc/view?usp=drivesdk",
+    "sourceSha256": "b4ac896e9bccd37fb3a823a6ebf0cfa6a7e3c779a435b30dcc9b5daad90aa33a",
+    "textSha256": "527d005736842afc3366b1624a1b0bcdc2fdf1d4919ee82cd1bc394e09f0a92d",
+    "changeKey": "71c56e5a3ddb5631f014adbba8216b1c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "021c8dae6107d800619e",
+    "workId": "021c8dae6107d800619e",
+    "driveFileId": "1I7tb0fqsq05BCpN_rdRYyFfXrjpFv5Yc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:59:38.241097+00:00",
+    "updatedAt": "2026-09-21T20:59:38.241113+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:59:38.241208+00:00"
+    }
+  }
+}

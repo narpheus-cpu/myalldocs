@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "워크맨",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "워크맨",
+      "달리기",
+      "기술진보",
+      "소니",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "4년간 아침 달리기를 함께해 준 워크맨의 은퇴와 새 워크맨을 사며 느낀 기술 진보에 관한 소회.",
+    "overallSummary": "매일 아침 달릴 때 팔에 묶고 사용하던 첫 워크맨이 4년 만에 고장 나자 새 모델을 구매한다. 훨씬 작고 기능이 좋아진 기계의 신속한 기술 진보에 감탄하면서도, 한편으로는 과도한 진보의 필요성에 의문을 제기하며 구형 워크맨 WM II에 안식을 기원한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "4년 간 헌신한 첫 워크맨",
+        "summary": "달리기 시 땀과 비를 견디며 고생해 준 첫 워크맨에 대한 감사와 공양의 마음을 적는다."
+      },
+      {
+        "sectionTitle": "새 워크맨과 기술 진보의 의미",
+        "summary": "훨씬 작아지고 기능이 진보한 새 워크맨에 감탄하며 끊임없는 진보에 대해 자문해 본다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 사물",
+        "value": "소니 워크맨 WM II"
+      }
+    ],
+    "keyEntitiesText": "작가, 소니 워크맨 WM II",
+    "settingText": "달리기 코스, 오디오 가게"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wBl49SVjrZrNv_mgNVKvuJs8tM3mIb9A",
+    "filename": "워크맨.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.612Z",
+    "size": "1662",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1wBl49SVjrZrNv_mgNVKvuJs8tM3mIb9A/view?usp=drivesdk",
+    "sourceSha256": "bc86e4fcf0025495e6cee1f3f657b1080d600337f0a6ae184bc08cfc6b0bf7df",
+    "textSha256": "80f8c49e0461bf20e0f1657a81f102c4d28d05044bb449b26805b1cf981c12a8",
+    "changeKey": "2b696f3b29948ae58cd2e5e09f1ba8b9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a4305799f95aca3a09e1",
+    "workId": "a4305799f95aca3a09e1",
+    "driveFileId": "1wBl49SVjrZrNv_mgNVKvuJs8tM3mIb9A",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:00:28.828078+00:00",
+    "updatedAt": "2026-09-21T21:00:28.828095+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:00:28.828190+00:00"
+    }
+  }
+}

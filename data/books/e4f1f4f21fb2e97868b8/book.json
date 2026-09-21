@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어찌하여 사람들은 책을 읽지 않게 되었는가",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "독서",
+      "출판",
+      "미디어",
+      "사회현상",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 현대 소설가이자 에세이스트이다.",
+    "oneLineSummary": "자신의 독서량 감소 체험을 바탕으로 현대 사회에서 독서 미디어가 지닌 위치 변화를 분석한 글.",
+    "overallSummary": "글쟁이가 된 후 책방 발길을 끊고 독서량이 감소한 작가 자신의 경험을 고백하며, 독서 이외의 다양한 여가 활동과 미디어가 늘어남에 따라 현대인들의 독서 시간이 줄어든 사회적 현상을 객관적으로 짚어본다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책방 나들이와 독서량의 감소",
+        "summary": "작가로서 책방에 가기 어색해진 사정과 집안의 책 더미, 독서 시간이 대폭 줄어든 개인적 상황을 밝힌다."
+      },
+      {
+        "sectionTitle": "미디어의 다변화와 독서의 신화 종식",
+        "summary": "다양한 여가 활동과 미디어의 등장으로 독서가 독점적 신화 미디어에서 수많은 선택지 중 하나로 변했음을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 원인 분석",
+        "value": "여가 활동의 다양화와 독서의 유일한 미디어 지위 상실"
+      }
+    ],
+    "keyEntitiesText": "무라카미(작가), 출판 관계자, 젊은이들",
+    "settingText": "현대 사회, 책방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yV_Ntiu2jDKtZlbUGiNYVZROoXAiZYdq",
+    "filename": "어찌하여 사람들은 책을 읽지 않게 되었는가..txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.331Z",
+    "size": "4489",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1yV_Ntiu2jDKtZlbUGiNYVZROoXAiZYdq/view?usp=drivesdk",
+    "sourceSha256": "2366093d6cd9fdf72631145c621ff5246dd6eb0547b957810641652ba255628b",
+    "textSha256": "5371f7197ff83b09341d16dd754b633157442290966d4cdf0bad3cabe6ebf8c5",
+    "changeKey": "ec8d35bc0aacabdd694e9db543931138",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e4f1f4f21fb2e97868b8",
+    "workId": "e4f1f4f21fb2e97868b8",
+    "driveFileId": "1yV_Ntiu2jDKtZlbUGiNYVZROoXAiZYdq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:58:57.707106+00:00",
+    "updatedAt": "2026-09-21T20:58:57.707123+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:58:57.707217+00:00"
+    }
+  }
+}

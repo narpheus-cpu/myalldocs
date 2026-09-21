@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여름에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "여름",
+      "어슐라르귄",
+      "계절",
+      "인생",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 대표적 소설가이다.",
+    "oneLineSummary": "여름에 대한 깊은 애정과 어슐라 K. 르귄의 SF 소설을 엮어 인생의 계절 순환을 사유한 글.",
+    "overallSummary": "여름 계절을 무척 좋아하는 작가는 1년이 지구의 60년과 같은 SF 소설 속 혹성의 긴 계절 체계를 소개한다. 그 계절 변화에 맞추어 태어나고 나이 들어 노년에 다시 여름을 맞이하며 행복하게 삶을 마치고 싶다는 소망을 팝송과 함께 솔직하게 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "여름 선호와 SF 소설속 혹성",
+        "summary": "여름을 좋아하는 취향과 르귄의 <변경의 혹성> 속 15년씩 지속되는 계절 시스템을 예로 든다."
+      },
+      {
+        "sectionTitle": "인생의 계절적 순환과 희망",
+        "summary": "혹성에서 태어난다면 여름에 시작하여 노년에 다시 여름을 맞이하며 죽어가고 싶다는 소망을 말한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인용 작품",
+        "value": "어슐라 K. 르귄의 SF 소설 <변경의 혹성>"
+      }
+    ],
+    "keyEntitiesText": "작가, 어슐라 K. 르귄, 프랭크 시나트라",
+    "settingText": "여름날 오후"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10AGGWtB88oLWBHvtakRIv3l5l6B3--2s",
+    "filename": "여름에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.441Z",
+    "size": "1799",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/10AGGWtB88oLWBHvtakRIv3l5l6B3--2s/view?usp=drivesdk",
+    "sourceSha256": "d4808af6dd48da7d76d6b9c930917dfc60e4fd5e6d928b191068f94c75c10f94",
+    "textSha256": "50721eb9d1e23c50365d1947bb293bb2e23101d572b560fc37fce42747d4e128",
+    "changeKey": "d489866e7bf65a8c198513e18f50a320",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0aea0087c71498b2abe7",
+    "workId": "0aea0087c71498b2abe7",
+    "driveFileId": "10AGGWtB88oLWBHvtakRIv3l5l6B3--2s",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:59:21.311407+00:00",
+    "updatedAt": "2026-09-21T20:59:21.311424+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:59:21.311520+00:00"
+    }
+  }
+}

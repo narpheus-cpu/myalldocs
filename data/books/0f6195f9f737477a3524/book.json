@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여자에게 친절을 베푸는 일에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "친절",
+      "여학생",
+      "추억",
+      "실수",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "여성에게 생색내지 않고 친절을 베푸는 일의 난이도와 학창 시절 전철에서 일어난 난감했던 경험담.",
+    "overallSummary": "상대방에게 친절하다는 말을 듣지 않으면서 자연스럽게 친절을 베푸는 테크닉이 어렵다고 이야기한다. 17세 시절 한큐 전철역에서 여학생의 문에 낀 종이 봉투를 빼주려다 찢어버리고 도망쳤던 부끄럽고 미안한 추억을 회상한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "친절을 베푸는 일의 어려움",
+        "summary": "단순한 친절보다 친절하다는 평가를 유발하지 않고 자연스럽게 행동하는 테크닉이 힘듦을 토로한다."
+      },
+      {
+        "sectionTitle": "17세 시절 한큐 전차에서의 실수",
+        "summary": "아시야가와역에서 여학생의 봉투를 당겨주다 찢어버린 실수를 고백하며 뒤늦은 사과를 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 일화",
+        "value": "여학생의 전차 문에 낀 봉투를 도와주려다 찢어버린 과거의 실수"
+      }
+    ],
+    "keyEntitiesText": "작가, 코난 여자고등학교 여학생",
+    "settingText": "한큐 아시야가와역 전철"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10AzztuaOSemxrlKpcu5sLg3ubLxCusYk",
+    "filename": "여자에게 친절을 베푸는 일에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.471Z",
+    "size": "1645",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/10AzztuaOSemxrlKpcu5sLg3ubLxCusYk/view?usp=drivesdk",
+    "sourceSha256": "54080595a2d7a0a28b0d9f0166781f395a6d31fc9792dc8966beb767a180dc76",
+    "textSha256": "60b3a3fbba799847a7a62c9e7b181d7c9687a39ef142a9076c3bd72498720c16",
+    "changeKey": "032a18928e8520a8f499b87b81a5c4e9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0f6195f9f737477a3524",
+    "workId": "0f6195f9f737477a3524",
+    "driveFileId": "10AzztuaOSemxrlKpcu5sLg3ubLxCusYk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:59:32.195357+00:00",
+    "updatedAt": "2026-09-21T20:59:32.195375+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:59:32.195481+00:00"
+    }
+  }
+}

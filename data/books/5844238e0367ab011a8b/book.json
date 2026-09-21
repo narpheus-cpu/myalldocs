@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영화의 자막 문제",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "자막",
+      "더빙",
+      "영화",
+      "뉴른베르그재판",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "영화 자막과 더빙의 정보량 차이 및 <뉴른베르그 재판> 더빙판 관람을 통해 살펴본 전달 매체의 특성.",
+    "overallSummary": "자막이 가진 정보량의 한계에도 불구하고 영화의 이미지를 유지하기 위해 자막을 선호하는 작가의 관점을 적는다. 스탠리 크레이머 감독의 요청으로 더빙 상영된 <뉴른베르그 재판>의 사례를 통해 음성 언어와 문자 배열 간의 정보 전달 질적 차이를 분석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "자막의 정보량과 더빙에 대한 선호",
+        "summary": "자막의 축소된 정보량과 더빙이 가진 영화 이미지 훼손 문제에 대해 언급한다."
+      },
+      {
+        "sectionTitle": "<뉴른베르그 재판> 더빙판 경험",
+        "summary": "스탠리 크레이머 감독의 요구로 제작된 더빙판을 본 경험과 음성·문자 정보의 질적 차이를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "매체 분석",
+        "value": "입으로 전달되는 음성 정보와 문자로 전달되는 정보의 구조적 차이"
+      }
+    ],
+    "keyEntitiesText": "작가, 스탠리 크레이머(감독)",
+    "settingText": "영화관"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VloSLilGh2KrZor5xB_blRhCtcRlH4J4",
+    "filename": "영화의 자막 문제.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.535Z",
+    "size": "1650",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1VloSLilGh2KrZor5xB_blRhCtcRlH4J4/view?usp=drivesdk",
+    "sourceSha256": "12a29615e533bc542b69d1bc27487055f2ade531d3ddd1d64f92d7a5b211b489",
+    "textSha256": "66306007c4d273376e12c6d2a019d42caf39993891572e460d92923ecacc54ff",
+    "changeKey": "1069cd4eae398850b998a3603f3c05af",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5844238e0367ab011a8b",
+    "workId": "5844238e0367ab011a8b",
+    "driveFileId": "1VloSLilGh2KrZor5xB_blRhCtcRlH4J4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:59:56.596618+00:00",
+    "updatedAt": "2026-09-21T20:59:56.596634+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:59:56.596726+00:00"
+    }
+  }
+}

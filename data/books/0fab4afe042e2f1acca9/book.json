@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오오모리 카즈키에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "오오모리카즈키",
+      "영화감독",
+      "바람의노래를들어라",
+      "격려",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "소설 <바람의 노래를 들어라>를 영화화한 오오모리 카즈키 감독의 슬럼프와 근황을 전하며 격려를 부탁하는 글.",
+    "overallSummary": "자신의 첫 소설을 영화화한 영화감독이자 중학교 후배인 오오모리 카즈키를 소개한다. 기획 취소로 슬럼프에 빠져 아시야 해안가를 배회하는 그를 안타까워하며, 좋은 사람인 오오모리 감독에게 응원의 편지를 보내줄 것을 독자들에게 당부한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "영화감독 오오모리 카즈키와의 인연",
+        "summary": "중학교 후배이자 소설 영화화를 맡았던 오오모리 카즈키 감독의 인품과 아시야에서의 근황을 소개한다."
+      },
+      {
+        "sectionTitle": "슬럼프에 빠진 후배를 향한 격려 요청",
+        "summary": "기획 수포로 슬럼프에 빠진 오오모리 감독에게 독자들이 격려 편지를 보내줄 것을 다정하게 부탁한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "대상 인물",
+        "value": "소설 '바람의 노래를 들어라'의 영화 감독 오오모리 카즈키"
+      }
+    ],
+    "keyEntitiesText": "작가, 오오모리 카즈키(영화감독), 하세가와 카즈히코(영화감독)",
+    "settingText": "효고현 아시야시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "163rTFDa5jYXaYM3NgcrukS7wZP7DbJs7",
+    "filename": "오오모리 카즈키에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.557Z",
+    "size": "1970",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/163rTFDa5jYXaYM3NgcrukS7wZP7DbJs7/view?usp=drivesdk",
+    "sourceSha256": "40d206d72bbe1d0d85dafef6df9cd7cbc4ccf55cb880649412f989e7dc7aa348",
+    "textSha256": "05dcb50fbbfcc2328e467793144ded40711f4af06116a22086a67fa7b62c00b1",
+    "changeKey": "3ab3a5279bcde4c4ec72f4c6e0bdff97",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0fab4afe042e2f1acca9",
+    "workId": "0fab4afe042e2f1acca9",
+    "driveFileId": "163rTFDa5jYXaYM3NgcrukS7wZP7DbJs7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:00:08.984242+00:00",
+    "updatedAt": "2026-09-21T21:00:08.984260+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:00:08.984355+00:00"
+    }
+  }
+}

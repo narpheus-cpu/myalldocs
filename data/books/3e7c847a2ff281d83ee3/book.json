@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여름",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "여름",
+      "여행",
+      "사인의길",
+      "전설",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "젊은 시절 도보 여행에서 들은 사인의 길 전설을 회상하며 여름과 죽음, 도시에 대해 사유한 수필.",
+    "overallSummary": "학생 시절 도보 여행 중 산중 노인에게서 죽은 혼이 지나가는 사인의 길 전설을 들었던 기억을 되살린다. 한여름에도 서늘한 기운을 느낀다는 이야기를 떠올리며, 현대 도시에서 죽은 이들의 혼은 어디로 가는지 생각하고 지하철 어둠을 바라보는 잔잔한 사유를 적는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "도보 여행과 사인의 길 전설",
+        "summary": "산중 노인으로부터 죽은 자의 혼이 명부로 향하는 '사인의 길'과 한여름의 서늘함에 대한 이야기를 듣는다."
+      },
+      {
+        "sectionTitle": "도시의 혼과 여름날의 어둠",
+        "summary": "도시에서 죽음을 맞이한 혼들의 행방에 의문을 표하며 지하철 어둠을 바라보는 시적 소회를 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 모티브",
+        "value": "죽은 자의 혼이 지나가는 신성한 길인 '사인의 길'"
+      }
+    ],
+    "keyEntitiesText": "작가, 산중 노인",
+    "settingText": "산중 여행지, 지하철 차창 어둠"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cx8r4juCHaLr6mbYZ7wj91EsUsMh2Jut",
+    "filename": "여름.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.426Z",
+    "size": "1876",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1cx8r4juCHaLr6mbYZ7wj91EsUsMh2Jut/view?usp=drivesdk",
+    "sourceSha256": "8878d641fc23ce120f7a1938da8da499c68215f95b74b3feb7215f45379c5370",
+    "textSha256": "f4c0c906a0b83c572bc49a47d172910723ac638caabfd29d501eee3a5b325048",
+    "changeKey": "d5e8d05986714f6c9db20d0e6968f509",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3e7c847a2ff281d83ee3",
+    "workId": "3e7c847a2ff281d83ee3",
+    "driveFileId": "1cx8r4juCHaLr6mbYZ7wj91EsUsMh2Jut",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:59:15.956037+00:00",
+    "updatedAt": "2026-09-21T20:59:15.956058+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:59:15.956150+00:00"
+    }
+  }
+}

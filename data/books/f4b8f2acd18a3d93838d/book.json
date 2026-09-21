@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "원숭이",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "지하철",
+      "착각",
+      "원숭이",
+      "상상력",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "지하철에서 맞은편 두 여성을 모녀로 착각한 경험에서 출발한 기발하고 엉뚱한 상상 이야기.",
+    "overallSummary": "지하철 맞은편에 꼭 닮아 앉아 있는 두 여성을 보고 모녀라고 확신했으나 남남이었음을 알게 된다. 자신의 지레짐작과 착각을 인정하면서도, 실은 어미 원숭이에게 유괴되어 헤어진 모녀가 서로를 알아보지 못하는 것은 아닐까 하는 유쾌한 소설적 상상을 펼친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "지하철에서의 모녀 착각 사건",
+        "summary": "지하철 맞은편의 꼭 닮은 두 여성을 보고 당연히 모녀지간이라 확신했으나 남남임을 알게 된다."
+      },
+      {
+        "sectionTitle": "원숭이 유괴에 대한 허구적 상상",
+        "summary": "어린 시절 원숭이에게 유괴당해 서로를 알아보지 못하게 된 모녀라는 픽션적 이야기를 만들어낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상상력 전개",
+        "value": "일상의 사소한 착각을 바탕으로 소설적 허구 이야기를 확장하는 방식"
+      }
+    ],
+    "keyEntitiesText": "작가, 지하철의 두 여성, 어미 원숭이",
+    "settingText": "지하철 전동차 내부, 아카사카 미쯔케 역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Nw5mRt8KEE707XoGuVd0txPU9Sjkhs-3",
+    "filename": "원숭이.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.646Z",
+    "size": "1755",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1Nw5mRt8KEE707XoGuVd0txPU9Sjkhs-3/view?usp=drivesdk",
+    "sourceSha256": "1ffaf31e8e5cac98be7881e29c593c2af1fafb8a0e7fabea297b70fa71c8d6e0",
+    "textSha256": "ee7b72c86734f071bb2dc3436e92b547cafb539de711b12b6d366105d142f322",
+    "changeKey": "0015f48e6800bea9d0367a1e3979842b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f4b8f2acd18a3d93838d",
+    "workId": "f4b8f2acd18a3d93838d",
+    "driveFileId": "1Nw5mRt8KEE707XoGuVd0txPU9Sjkhs-3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:00:41.715272+00:00",
+    "updatedAt": "2026-09-21T21:00:41.715292+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:00:41.715387+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여고생",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "여고생",
+      "지각",
+      "호텔",
+      "관찰",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "호텔 창밖으로 보이는 여자고등학교의 등교 풍경과 담을 넘는 지각생 여고생의 유쾌한 모습을 담은 에세이.",
+    "overallSummary": "과거 지각 상습범이었으나 가게를 운영하며 시간에 엄격해진 작가가 시내 호텔 창가에서 여자고등학교 정문을 내려다보며 쓴 글이다. 등교 문이 닫힌 후 담을 넘고 교실로 시치미 떼고 들어가는 용감한 여고생의 모습을 보며 박수를 보내는 유쾌한 순간을 기록한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "시간관념과 과거의 지각 버릇",
+        "summary": "학생 시절 지각 상습범이었으나 사회에 나와 시간에 엄격해진 작가의 변화를 적는다."
+      },
+      {
+        "sectionTitle": "호텔 창가에서 본 등교 풍경",
+        "summary": "호텔 창 아래로 내려다보이는 여고의 정문 닫힌 후 담을 넘어 등교하는 용감한 여고생의 기지를 관찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "관찰 대상",
+        "value": "지각에 굴하지 않고 담을 넘어 교실로 향하는 용감한 여고생"
+      }
+    ],
+    "keyEntitiesText": "작가, 여고생들, 지도 선생",
+    "settingText": "시내 호텔 4층 창가, 여자고등학교 정문 부근"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1efi6wm3uE6LkgHPqIsTJkSSqztpQKGMh",
+    "filename": "여고생.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.379Z",
+    "size": "2090",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1efi6wm3uE6LkgHPqIsTJkSSqztpQKGMh/view?usp=drivesdk",
+    "sourceSha256": "7888f95e12a6ddbd227dc78fa34d0bc8c6ab1561e65f7f352b66bd29bf12f431",
+    "textSha256": "6425ab2b041dbd6609f257c942e1ef71c5c125c2e2b14e22a115cea4739e1ef3",
+    "changeKey": "e4fea47f5aaa7b1506de7510e4495c92",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b2e0deb773e4040274b2",
+    "workId": "b2e0deb773e4040274b2",
+    "driveFileId": "1efi6wm3uE6LkgHPqIsTJkSSqztpQKGMh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:59:09.693344+00:00",
+    "updatedAt": "2026-09-21T20:59:09.693361+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:59:09.693466+00:00"
+    }
+  }
+}

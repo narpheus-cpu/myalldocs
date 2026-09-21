@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "언더록에 철학이 있을까",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "언더록",
+      "위스키",
+      "철학",
+      "일상",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이자 에세이스트이다.",
+    "oneLineSummary": "카페 카운터에서 언더록을 다루며 깨달은, 사소한 일의 지속을 통해 형성되는 인생 철학을 담은 글.",
+    "overallSummary": "학창 시절 영어 참고서의 예문에서 인상 깊게 본 서머셋 모옴의 구절을 인용하며, 카페를 운영하며 8년간 언더록을 만들던 기억을 회상한다. 얼음의 크기와 비율을 맞추며 터득한 사소한 노하우와 철학이 결국 삶에서 요긴한 가치를 지니게 됨을 말한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "영어 예문과 지속의 철학",
+        "summary": "영문 참고서의 서머셋 모옴 예문을 좋아하며 사소한 반복에서 철학이 태어난다는 구절에 감동했던 기억을 전한다."
+      },
+      {
+        "sectionTitle": "언더록 만들기와 생활 속 철학",
+        "summary": "8년간 카페에서 얼음의 크기와 배합을 조율하며 언더록을 만들던 경험을 통해 체득한 생활 철학을 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 교훈",
+        "value": "사소한 행동의 꾸준한 반복을 통해 얻어지는 고유한 인생 철학"
+      }
+    ],
+    "keyEntitiesText": "무라카미(작가), 서머셋 모옴",
+    "settingText": "카페 카운터"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13NZdPU4E0VXKb8fboP1cQrVxTHbexv6s",
+    "filename": "언더록에 철학이 있을까.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.343Z",
+    "size": "1916",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/13NZdPU4E0VXKb8fboP1cQrVxTHbexv6s/view?usp=drivesdk",
+    "sourceSha256": "39e08b88f7c9c3ad04ea726c46c0578caca93e1f29f7c69936ef79bc541eff6c",
+    "textSha256": "f46fc2d9aa7e751a33c9a5c08c368e2998f9bce7e82350baaf9ee0b4221f51c2",
+    "changeKey": "c2c42c22d192dc6e42ba422b29c0426c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aff7697b83ca3bd1c935",
+    "workId": "aff7697b83ca3bd1c935",
+    "driveFileId": "13NZdPU4E0VXKb8fboP1cQrVxTHbexv6s",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:59:03.692932+00:00",
+    "updatedAt": "2026-09-21T20:59:03.692949+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:59:03.693047+00:00"
+    }
+  }
+}

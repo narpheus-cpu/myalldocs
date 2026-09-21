@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이발소에서 어깨 결림에 대해 생각한다",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "수필",
+      "이발소",
+      "어깨결림",
+      "일상",
+      "무라카미하루키"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 대표적인 현대 소설가이자 에세이스트이다.",
+    "oneLineSummary": "이발소 마사지 경험을 바탕으로 어깨 결림 체질과 타인을 기쁘게 하는 프로의 재능에 대해 사유한 수필.",
+    "overallSummary": "작가는 이발소에서 머리를 감은 후 받는 마사지가 어깨가 결리지 않는 자신에게는 고역이었다고 회상한다. 어깨 결림을 겪지 않는 자신과 바둑 기사 등 타인의 어깨 결림을 비교하며, 소설가라는 직업과 타인에게 순수한 기쁨을 주는 재능의 본질에 관해 깊이 있게 고찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이발소의 용어와 마사지의 고역",
+        "summary": "방송 금지 용어 이야기와 함께 어깨가 결리지 않는 체질 때문에 이발소 마사지를 참고 받아온 고충을 전한다."
+      },
+      {
+        "sectionTitle": "바둑 기사와의 비교와 재능의 경향",
+        "summary": "어깨가 딱딱하게 굳는 바둑 기사와 소설가를 비교하며 타인에게 기쁨을 주고 프로가 되는 재능의 경향에 대해 사유한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "타인에게 기쁨을 주는 일과 프로페셔널의 재능에 대한 고찰"
+      }
+    ],
+    "keyEntitiesText": "무라카미(작가), 이발소 아저씨, 아내, 부모님, 바둑 기사",
+    "settingText": "이발소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1B8LvG_66N5Krmm45eLk-j4CQQihjpZ3A",
+    "filename": "어깨결림.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.320Z",
+    "size": "7084",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1B8LvG_66N5Krmm45eLk-j4CQQihjpZ3A/view?usp=drivesdk",
+    "sourceSha256": "f531f130ab6687cfceda42b9b72ace34c8441c827c8438dfe858cab3967a0892",
+    "textSha256": "a7a15cbd0a9b070bc85843604726d9a51bd49778bab0ef123d5e8e01093dd228",
+    "changeKey": "abcc7bbde75a7cdda6d5344449fc45e8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f2dd54617371dba31d8a",
+    "workId": "f2dd54617371dba31d8a",
+    "driveFileId": "1B8LvG_66N5Krmm45eLk-j4CQQihjpZ3A",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:58:52.160789+00:00",
+    "updatedAt": "2026-09-21T20:58:52.160806+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.508,
+      "updatedAt": "2026-09-21T20:58:52.161053+00:00"
+    }
+  }
+}

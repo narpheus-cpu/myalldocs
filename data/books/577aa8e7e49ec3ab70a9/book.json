@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "외상책 사기에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "외상",
+      "책방",
+      "세계문학전집",
+      "독서",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 소설가이다.",
+    "oneLineSummary": "어린 시절 책방에서 외상으로 책을 샀던 사치스러운 추억과 그것이 형성한 외국 문학 중심의 독서 취향.",
+    "overallSummary": "어린 시절 동네 책방에서 외상으로 올바른 책을 살 수 있었던 사치스러운 경험을 되새긴다. 집으로 배달되던 <세계문학전집>과 <세계의 역사>를 독파하며 형성된 외국 문학 위주의 독서 취향과 인생의 인연에 대해 사유한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "유년 시절의 책 외상 구매 경험",
+        "summary": "부모님의 허락 덕분에 동네 책방에서 외상으로 책을 사서 읽었던 특별한 추억을 적는다."
+      },
+      {
+        "sectionTitle": "<세계문학전집>과 독서 취향의 형성",
+        "summary": "매달 배달되던 세계문학전집을 읽으며 외국 문학 중심의 취향이 자리 잡게 된 과정을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "독서 이력",
+        "value": "가와데쇼보의 세계문학전집과 중앙공론사의 세계의 역사를 통한 문학적 형성"
+      }
+    ],
+    "keyEntitiesText": "작가, 아버지",
+    "settingText": "어린 시절 동네 책방 (1960년대 전반)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oxkxXSadJd-_wvtnSe3CECxIw9UObLZg",
+    "filename": "외상적 사기에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.601Z",
+    "size": "1933",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1oxkxXSadJd-_wvtnSe3CECxIw9UObLZg/view?usp=drivesdk",
+    "sourceSha256": "bbb728961d920cff154df36cca24c467704d6b52f1adf7b14a5eabe47e603447",
+    "textSha256": "2f678784c80502e5fa62b184ca2f193afe51ca55bdfb8a22b89506a6d771ba49",
+    "changeKey": "e5dadeac1108ecfbc9970592ae1edcd8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "577aa8e7e49ec3ab70a9",
+    "workId": "577aa8e7e49ec3ab70a9",
+    "driveFileId": "1oxkxXSadJd-_wvtnSe3CECxIw9UObLZg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:00:20.456047+00:00",
+    "updatedAt": "2026-09-21T21:00:20.456063+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.9089,
+      "updatedAt": "2026-09-21T21:00:20.456162+00:00"
+    }
+  }
+}
