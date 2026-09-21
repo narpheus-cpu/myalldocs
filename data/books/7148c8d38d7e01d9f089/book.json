@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "상실의 시대",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "상실",
+      "청춘",
+      "사랑",
+      "죽음"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "장편 소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가.",
+    "oneLineSummary": "죽음과 상실을 겪으며 성장하는 청년의 사랑과 방황.",
+    "overallSummary": "죽음과 상실을 겪으며 성장하는 청년의 사랑과 방황을 다룬다. 나오코와 미도리 사이에서 갈등하며 삶과 죽음의 의미를 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "상실과 성장",
+        "summary": "죽음과 상실을 겪으며 성장하는 청년의 사랑과 방황."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "상실과 성장, 그리고 사랑"
+      }
+    ],
+    "keyEntitiesText": "나, 나오코, 미도리",
+    "settingText": "일본."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1J6rvbr1OiyCLHTE07AMyBeLQiNmcFlx_",
+    "filename": "무라카미 하루키-상실의 시대(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T20:15:54.000Z",
+    "size": "923266",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1J6rvbr1OiyCLHTE07AMyBeLQiNmcFlx_/view?usp=drivesdk",
+    "sourceSha256": "05daaa19d3f4f067c1ac34a9328eda27e3e70313295ff2fd7391fb6741f5f5df",
+    "textSha256": "faace40ddcdc4cd45f99fb05a72895e04923b4fe30f496ecd9c43c82ae22df94",
+    "changeKey": "c429f645892709643186e034f4faa1a6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7148c8d38d7e01d9f089",
+    "workId": "7148c8d38d7e01d9f089",
+    "driveFileId": "1J6rvbr1OiyCLHTE07AMyBeLQiNmcFlx_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:47:11.003724+00:00",
+    "updatedAt": "2026-09-21T21:47:11.003742+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:47:11.003856+00:00"
+    }
+  }
+}

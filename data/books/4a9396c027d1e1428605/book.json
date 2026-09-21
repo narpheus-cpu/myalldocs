@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "훌리오 이글레시아스",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "훌리오 이글레시아스",
+      "바다거북",
+      "모기향",
+      "상상력"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "허구적 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "바다거북의 습격이라는 비현실적인 상황 속에서 훌리오 이글레시아스를 언급하는 짧은 글.",
+    "overallSummary": "바다거북의 습격으로 모기향을 빼앗긴 절박한 상황에서, 바다거북이 싫어할 만한 것으로 훌리오 이글레시아스를 제안하는 허구적이고 유머러스한 상황을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "바다거북과의 대치",
+        "summary": "바다거북의 습격이라는 비현실적인 상황에서 훌리오 이글레시아스를 언급하며 대화를 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "현실과 허구가 뒤섞인 초현실적 에세이"
+      }
+    ],
+    "keyEntitiesText": "훌리오 이글레시아스, 바다거북",
+    "settingText": "바다거북이 습격하는 가상의 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17A7BISpgqPTvlDGj3eaFy-WH4ldJyemV",
+    "filename": "훌리오 이글레시아스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.335Z",
+    "size": "998",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/17A7BISpgqPTvlDGj3eaFy-WH4ldJyemV/view?usp=drivesdk",
+    "sourceSha256": "ec7b7b4b7aba963bafef42335384c29fec801ffff30f53f52eaec60f48fcc6a3",
+    "textSha256": "1949a3a12ec2fb6d2386fb1c0f509a4d69ffce64432398ae9b3f51c7ea2416d1",
+    "changeKey": "ebce1087958123513cb8587a58f4c5c1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4a9396c027d1e1428605",
+    "workId": "4a9396c027d1e1428605",
+    "driveFileId": "17A7BISpgqPTvlDGj3eaFy-WH4ldJyemV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:44:46.245246+00:00",
+    "updatedAt": "2026-09-21T21:44:46.245264+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:44:46.245343+00:00"
+    }
+  }
+}

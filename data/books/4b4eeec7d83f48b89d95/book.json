@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "황야의 7인 문제",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "영화",
+      "리얼리즘",
+      "언어",
+      "헐리우드"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "영화 비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "영화 <황야의 7인>을 통해 영화 속 언어와 리얼리즘에 대해 논하는 에세이.",
+    "overallSummary": "영화 <황야의 7인>에서 멕시코인들이 영어로 대화하는 설정의 부자연스러움을 지적하며, 영화 속 리얼리즘과 언어 사용에 대한 저자의 생각을 밝힌다. 헐리우드 영화의 변화와 리얼리즘을 추구하는 과정의 불편함에 대해 논한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "영화 속 언어 설정의 문제",
+        "summary": "<황야의 7인>에서 멕시코인들이 영어로 대화하는 설정의 어색함을 비판한다."
+      },
+      {
+        "sectionTitle": "리얼리즘의 불편함",
+        "summary": "영화에서 리얼리즘을 추구하는 것이 때로는 관객에게 불편함을 줄 수 있음을 언급한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "영화적 리얼리즘과 언어적 관습"
+      }
+    ],
+    "keyEntitiesText": "구로자와 아키라, 존 스터지스, 율 브린너, 스티브 맥킨, 제임스 코번, 로버트 본",
+    "settingText": "영화 속 멕시코 시골 마을."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eYy3k7GcpvE8xzD1anf3odoqHT7KJqkr",
+    "filename": "황야의 7인 문제.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.292Z",
+    "size": "1903",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1eYy3k7GcpvE8xzD1anf3odoqHT7KJqkr/view?usp=drivesdk",
+    "sourceSha256": "0ecde478812447ee80b7d82e0ceb408245dd6e5eb9659a2f8085afb1ed775e99",
+    "textSha256": "7ff04d3c7647d7a6520e127401937b50271c1eeae178c9e77d8aeae9d8f742a5",
+    "changeKey": "0fdf732749c0a8221f144e584745644e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4b4eeec7d83f48b89d95",
+    "workId": "4b4eeec7d83f48b89d95",
+    "driveFileId": "1eYy3k7GcpvE8xzD1anf3odoqHT7KJqkr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:44:31.127637+00:00",
+    "updatedAt": "2026-09-21T21:44:31.127654+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:44:31.127733+00:00"
+    }
+  }
+}

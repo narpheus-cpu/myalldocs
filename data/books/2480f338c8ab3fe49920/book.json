@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "회사라는 이름이 붙어 있는 곳",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "회사",
+      "직장 생활",
+      "일상",
+      "관찰"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "회사 생활을 경험해 본 적 없는 저자가 바라본 회사와 직장인들의 모습.",
+    "overallSummary": "평생 회사를 다녀본 적 없는 저자가 친구의 사무실을 방문하며 느낀 회사라는 공간과 직장인들의 분주함에 대한 관찰기이다. 회사 생활의 구체적인 의미를 이해하지 못하는 저자의 시선을 통해, 회사라는 공간이 가진 복잡함과 일상적인 노동의 차이를 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "회사에 대한 낯선 시선",
+        "summary": "회사 생활을 해본 적 없는 저자가 친구의 사무실을 보며 느끼는 낯설음과 이해할 수 없는 분주함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "회사라는 공간에 대한 외부자의 관찰"
+      }
+    ],
+    "keyEntitiesText": "저자, 저자의 친구",
+    "settingText": "광고 대리점 사무실."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11z4dtPjGbBD_dx4tHqFEXRbtRHaoYeMI",
+    "filename": "회사라는 이름이 붙어 있는 곳.TXT",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.303Z",
+    "size": "2080",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/11z4dtPjGbBD_dx4tHqFEXRbtRHaoYeMI/view?usp=drivesdk",
+    "sourceSha256": "f7b08dc4798fe18b304d512d119c652a092ee4931080ac0f4da6003a646e2a2b",
+    "textSha256": "e8625d2aa6b1084a2eae353519effc268d20b67a1a460bd8ef58c7e3878589af",
+    "changeKey": "e23dcef10b1af0a40c2d61470e9fabd6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2480f338c8ab3fe49920",
+    "workId": "2480f338c8ab3fe49920",
+    "driveFileId": "11z4dtPjGbBD_dx4tHqFEXRbtRHaoYeMI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:44:38.800691+00:00",
+    "updatedAt": "2026-09-21T21:44:38.800708+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:44:38.800831+00:00"
+    }
+  }
+}

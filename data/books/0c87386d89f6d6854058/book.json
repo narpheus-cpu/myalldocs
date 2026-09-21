@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "호놀룰루 영화관",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "영화 비평",
+      "하와이",
+      "여행",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "영화 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "하와이에서 휴양하며 관람한 다양한 영화들에 대한 감상과 일상을 담은 에세이.",
+    "overallSummary": "저자가 하와이 호놀룰루에서 한 달간 휴양하며 관람한 영화들(<코쿤>, <라이프 포스>, <에메랄드 포리스트>, <레드 소냐>, <페일 라이더>, <람보 2>, <실버래드>, <구니스> 등)에 대한 솔직한 비평과 하와이에서의 일상을 기록한 글이다. 영화의 완성도와 흥행, 그리고 당시 미국의 사회적 분위기에 대한 저자의 시각이 드러난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "호놀룰루 영화관(1)",
+        "summary": "하와이에서 관람한 <코쿤>, <라이프 포스>, <에메랄드 포리스트>, <레드 소냐>에 대한 비평."
+      },
+      {
+        "sectionTitle": "호놀룰루 영화관(2)",
+        "summary": "<페일 라이더>, <람보 2>, <실버래드>, <구니스>에 대한 비평과 하와이에서의 서핑 도전기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "영화 비평 스타일",
+        "value": "주관적이고 솔직하며, 영화의 완성도뿐만 아니라 사회적 맥락까지 고려한 비평."
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 론 하워드, 토비 후퍼, 존 부어맨, 클린트 이스트우드, 실베스터 스탤론",
+    "settingText": "미국 하와이 호놀룰루."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1q88wZOUndWi1uQzCc0XLyW_4ZPNV3eFD",
+    "filename": "호놀룰루 영화관.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.271Z",
+    "size": "14069",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1q88wZOUndWi1uQzCc0XLyW_4ZPNV3eFD/view?usp=drivesdk",
+    "sourceSha256": "f6d28c47cd81c0f3fe1919e09a34a6d373acc9391c74374ea7290db3bbd06e9e",
+    "textSha256": "293bb1c51de741d868b2bfc225d7f8571687bb5485b82a4372a9e83de730b308",
+    "changeKey": "a79211b88399e41332f521bedd0fbaf5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0c87386d89f6d6854058",
+    "workId": "0c87386d89f6d6854058",
+    "driveFileId": "1q88wZOUndWi1uQzCc0XLyW_4ZPNV3eFD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:44:17.733651+00:00",
+    "updatedAt": "2026-09-21T21:44:17.733670+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:44:17.733787+00:00"
+    }
+  }
+}

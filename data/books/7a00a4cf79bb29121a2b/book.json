@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도시와 그 불확실한 벽",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "도시",
+      "벽",
+      "상상력",
+      "상실"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "장편 소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가.",
+    "oneLineSummary": "높은 벽으로 둘러싸인 기묘한 도시와 그곳을 찾아가는 주인공의 이야기.",
+    "overallSummary": "높은 벽으로 둘러싸인 기묘한 도시와 그곳에 살고 있는 진짜 너를 찾아가는 주인공의 여정을 다룬다. 현실과 상상의 경계를 넘나들며 상실과 그리움을 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "벽으로 둘러싸인 도시",
+        "summary": "높은 벽으로 둘러싸인 기묘한 도시의 모습과 그곳을 찾아가는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "상실과 그리움, 그리고 상상의 세계"
+      }
+    ],
+    "keyEntitiesText": "나, 너, 문지기",
+    "settingText": "벽으로 둘러싸인 도시."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xwp5uNXzDHVdYMDazVNG6tgkX44_61L6",
+    "filename": "무라카미 하루키-도시와 그 불확실한 벽(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:03.933Z",
+    "size": "1021364",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "장편소설"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/장편소설",
+    "webViewLink": "https://drive.google.com/file/d/1xwp5uNXzDHVdYMDazVNG6tgkX44_61L6/view?usp=drivesdk",
+    "sourceSha256": "e31c27a4a14e84ed7146299d460878e70cc732a75f83e0e98d4854d7a33d8dbe",
+    "textSha256": "32c6d0b05d2295aa36db2a861cd6c15b91bf12dfec01a9ade86ea8baccefa1ac",
+    "changeKey": "247ed58c5a7ef8002acac5b5f542cebd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7a00a4cf79bb29121a2b",
+    "workId": "7a00a4cf79bb29121a2b",
+    "driveFileId": "1xwp5uNXzDHVdYMDazVNG6tgkX44_61L6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:46:18.512111+00:00",
+    "updatedAt": "2026-09-21T21:46:18.512129+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:46:18.512204+00:00"
+    }
+  }
+}

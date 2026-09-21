@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "현기증",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "고소공포증",
+      "여행",
+      "공포",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "심리 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트로, 일상적인 소재를 통해 인간의 내면과 심리를 독특한 시각으로 풀어내는 작가이다.",
+    "oneLineSummary": "고소공포증을 가진 저자가 높은 곳에 대한 공포와 그 의미를 고찰하는 에세이.",
+    "overallSummary": "저자는 자신의 고소공포증을 소재로 하여, 인공적인 높은 곳에서 느끼는 공포와 자연적인 높은 곳에서 느끼는 공포의 차이를 분석한다. 또한 공포심이 인간에게 필요한 정신적 보호막일 수 있다는 철학적 사유를 덧붙이며, 고소공포증이라는 개인적 경험을 통해 인간의 공포에 대한 문화론적 접근을 시도한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고소공포증과 공포의 성질",
+        "summary": "저자는 자신의 고소공포증 경험을 이야기하며, 인공적인 높은 곳에 대한 공포가 더 크다는 점을 지적하고 공포의 질적 차이를 설명한다."
+      },
+      {
+        "sectionTitle": "공포의 의미",
+        "summary": "공포심은 인간에게 필요한 재산이며, 정신적 보호막으로서의 역할을 한다는 저자의 견해를 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "고소공포증을 통해 본 인간의 심리와 공포의 본질"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 사사카 마키, 성 슈테판 사원",
+    "settingText": "빈의 성 슈테판 사원, 쾰른 대성당 등 세계 각지의 높은 건축물."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WB71YUjNKlMIFku2kflFXpoGxfrAcA1H",
+    "filename": "현기증.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.259Z",
+    "size": "4480",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1WB71YUjNKlMIFku2kflFXpoGxfrAcA1H/view?usp=drivesdk",
+    "sourceSha256": "51be133e0f94e4b2c103542cf58e59c113f139686a51bf5c2056a9afc5207a93",
+    "textSha256": "6b7f515f8d2e9c7836ee0202e2b828df7c5061b8a712e6ed5ed0a1467975c45c",
+    "changeKey": "1b6c8bc6cf483520f0b6f02d8def9087",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e42053766db82945418f",
+    "workId": "e42053766db82945418f",
+    "driveFileId": "1WB71YUjNKlMIFku2kflFXpoGxfrAcA1H",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:44:01.357452+00:00",
+    "updatedAt": "2026-09-21T21:44:01.357470+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:44:01.357627+00:00"
+    }
+  }
+}
