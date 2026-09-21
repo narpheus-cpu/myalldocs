@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "생의 한가운데",
+    "author": "루이제 린저",
+    "genre": "소설",
+    "tags": [
+      "독일문학",
+      "니나",
+      "생의의미",
+      "자유"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 작가이자 심리학 전공자로 인간과 사회에 대한 깊은 통찰을 담은 작품을 씀.",
+    "oneLineSummary": "관습에 얽매이지 않고 치열하게 자신의 삶을 살아간 여성 니나의 이야기.",
+    "overallSummary": "자유롭고 열정적이지만 비극적인 삶을 살아간 여성 니나의 행적을 언니와의 재회와 과거 기록을 통해 되짚어보며 생의 진정한 의미를 탐구함.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 재회의 기쁨 ~ 2. 생의 의미",
+        "summary": "오랜만에 만난 동생 니나의 방황과 그녀가 남긴 일기 및 편지를 통해 과거를 회상함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "실존적 자유, 삶의 의미 탐구"
+      }
+    ],
+    "keyEntitiesText": "니나, 언니(나), 알렉산더, 슈타인 박사",
+    "settingText": "독일 및 유럽 각지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_SNbFFth7dhe36RSblpnZt6w-lgtcG7t",
+    "filename": "루이제 린저-생의 한가운데.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.142Z",
+    "size": "358601",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1_SNbFFth7dhe36RSblpnZt6w-lgtcG7t/view?usp=drivesdk",
+    "sourceSha256": "1ab709c291d1f812ffec4deeb16da9ede7ae133a938aa79b688090a4e10ea816",
+    "textSha256": "8bc0c01f74a0e09d233255b6ccd43997c2ce8fabf18f8ced9a4a9984b69e4c2d",
+    "changeKey": "e1b43aae76840de030b0447e90ecc0b3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2a4d435f9d6a0a9eaf6b",
+    "workId": "2a4d435f9d6a0a9eaf6b",
+    "driveFileId": "1_SNbFFth7dhe36RSblpnZt6w-lgtcG7t",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:45:02.802530+00:00",
+    "updatedAt": "2026-09-21T23:45:02.802547+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:45:02.802632+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "갈매기의 꿈",
+    "author": "리차드 바크",
+    "genre": "소설",
+    "tags": [
+      "갈매기",
+      "자유",
+      "비행",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 작가이자 파일럿으로 비행을 소재로 한 철학적 우화 소설을 집필함.",
+    "oneLineSummary": "먹고사는 문제를 넘어 더 높은 차원의 비행과 자유를 갈망하는 갈매기 조나단의 이야기.",
+    "overallSummary": "무리의 규칙을 거부하고 비행의 한계를 뛰어넘기 위해 끊임없이 연습하는 갈매기 조나단 리빙스턴의 도전과 깨달음을 그린 우화.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1부",
+        "summary": "먹이 찾기보다 나는 것을 사랑하여 무리에서 추방당하면서도 비행 연습을 계속하는 조나단."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "철학적 우화, 성장소설"
+      }
+    ],
+    "keyEntitiesText": "조나단 리빙스턴 시걸",
+    "settingText": "바다와 해변, 창공"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FXqiHrBBgmwClH_OaQbN5zHg9dFRpcpq",
+    "filename": "리차드 바크-갈매기의 꿈.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.634Z",
+    "size": "82039",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1FXqiHrBBgmwClH_OaQbN5zHg9dFRpcpq/view?usp=drivesdk",
+    "sourceSha256": "5decfb63d7aa844712517d2603681d393a7f2d60f3510e19795cbdeebc63dbcb",
+    "textSha256": "a8988003a05de6825d921bd1ad154f45ff3883ab649e5ba4080c5a1f7cbd561d",
+    "changeKey": "7844f66246624b1752ce8deab19b7676",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c6d731302e670594807a",
+    "workId": "c6d731302e670594807a",
+    "driveFileId": "1FXqiHrBBgmwClH_OaQbN5zHg9dFRpcpq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:46:18.297242+00:00",
+    "updatedAt": "2026-09-21T23:46:18.297260+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:46:18.297346+00:00"
+    }
+  }
+}

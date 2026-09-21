@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "중국 현대 단편선",
+    "author": "루쉰 외",
+    "genre": "단편소설집",
+    "tags": [
+      "중국문학",
+      "단편선",
+      "근현대",
+      "사실주의"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "academic",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "루쉰을 비롯한 중국 현대 문단을 대표하는 여러 작가들의 작품 모음.",
+    "oneLineSummary": "중국 현대 문학의 흐름을 보여주는 대표 단편소설 모음집.",
+    "overallSummary": "청말부터 70년대까지 중국 대륙과 대만의 주요 작가들의 단편소설을 엮어 당시 사회상과 의식을 반영함.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 및 루쉰 작가 세계",
+        "summary": "중국 현대 단편소설 선집의 기획 의도와 대표 작가 루쉰의 생애 및 작품 세계 소개."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성",
+        "value": "다양한 작가의 단편소설과 작가 연보 포함"
+      }
+    ],
+    "keyEntitiesText": "루쉰, 바진, 샤오쭌, 예성타오",
+    "settingText": "근현대 중국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1L68JObz11RL9pABHPJdZRksNv0SehGWI",
+    "filename": "루쉰 (외)-중국 현대 단편선 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.579Z",
+    "size": "982713",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1L68JObz11RL9pABHPJdZRksNv0SehGWI/view?usp=drivesdk",
+    "sourceSha256": "c1988a9e08ea3b0998323a32a9b6031f0fd3fd9ae818f6c0ef92539f2e2fd1e8",
+    "textSha256": "454a517420c38e22c0941b15e6fb32f9e7738719a386dfc89cbd74f9add8c6f1",
+    "changeKey": "38196f59fbed6441db06a7fcbf1e4a40",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8e33682853a71ba81012",
+    "workId": "8e33682853a71ba81012",
+    "driveFileId": "1L68JObz11RL9pABHPJdZRksNv0SehGWI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:44:49.984208+00:00",
+    "updatedAt": "2026-09-21T23:44:49.984224+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:44:49.984307+00:00"
+    }
+  }
+}

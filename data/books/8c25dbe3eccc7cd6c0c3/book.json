@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "깜둥이 소년",
+    "author": "리차드 라이트",
+    "genre": "자전소설",
+    "tags": [
+      "인종차별",
+      "흑인",
+      "미국남부",
+      "자전적"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 남부 출신의 흑인 작가로 흑인의 삶과 차별을 고발한 대표적 작가.",
+    "oneLineSummary": "미국 남부의 가난과 폭력, 인종차별 속에서 성장한 소년의 뼈아픈 자전적 고백.",
+    "overallSummary": "어린 시절 우발적으로 집에 불을 지른 사건부터 시작해, 극심한 빈곤과 백인 사회의 억압, 가족 내의 엄격한 규율 속에서 생존과 자각을 향해 나아가는 소년의 유년기를 그림.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장",
+        "summary": "호기심으로 커튼에 불을 질러 집을 태울 뻔하고 굴뚝 속에 숨었던 어린 시절의 기억."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "성격",
+        "value": "작가 본인의 유년기를 다룬 자전적 소설"
+      }
+    ],
+    "keyEntitiesText": "리차드, 어머니, 아버지, 외할머니",
+    "settingText": "미국 남부 미시시피 및 멤피스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dI0QjRc4cohh_7WIt98-k5exwKh9Gt6i",
+    "filename": "리처드 라이트-깜둥이 소년 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.643Z",
+    "size": "731280",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1dI0QjRc4cohh_7WIt98-k5exwKh9Gt6i/view?usp=drivesdk",
+    "sourceSha256": "f6e62fe1ed4ca91b917d6ebcf4dd7d58f62a89dfcbd66c896918f5f0c5c3281a",
+    "textSha256": "d292de7946245500b4d96ea0c263950b882bdfb2c36e073e7227d858510ab330",
+    "changeKey": "75fa3791d083bf371b35e0ee7e115ef6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8c25dbe3eccc7cd6c0c3",
+    "workId": "8c25dbe3eccc7cd6c0c3",
+    "driveFileId": "1dI0QjRc4cohh_7WIt98-k5exwKh9Gt6i",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:46:24.835408+00:00",
+    "updatedAt": "2026-09-21T23:46:24.835446+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:46:24.835531+00:00"
+    }
+  }
+}

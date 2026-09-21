@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스핑크스(상)",
+    "author": "로빈 쿡",
+    "genre": "소설",
+    "tags": [
+      "이집트",
+      "투탄카멘",
+      "도굴",
+      "고고학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "로빈 쿡은 외과 의사로 플로리다에 살고 있으며, <스핑크스>는 이집트학에 대한 평생의 열정이 낳은 대표작이다.",
+    "oneLineSummary": "고대 이집트 투탄카멘의 무덤 도굴 사건과 그로 인해 벌어지는 미스터리한 이야기.",
+    "overallSummary": "BC 1301년 이메니라는 석공이 투탄카멘의 무덤을 도굴하면서 벌어지는 사건과, 1922년 하워드 카터의 발굴 현장으로 이어지는 고고학적 미스터리를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "석공 이메니가 공범들과 함께 투탄카멘의 무덤을 도굴하고 보물을 훔쳐 달아나며, 이후 고문 끝에 네네프타에게 영감을 주게 되는 사건."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "고대 이집트, 무덤 도굴, 미라, 파라오"
+      }
+    ],
+    "keyEntitiesText": "이메니, 케메스, 아매시스, 네네프타, 하워드 카터, 투탄카멘",
+    "settingText": "고대 이집트 테베의 네크로폴리스 및 1922년 발굴 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1O2jvllwuxkfnFNFJC5x9ph60IsQD8eSb",
+    "filename": "로빈쿡-스핑크스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.953Z",
+    "size": "535409",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1O2jvllwuxkfnFNFJC5x9ph60IsQD8eSb/view?usp=drivesdk",
+    "sourceSha256": "8a2945baf17514e84168cff5b86efe2b4f4812356a21781d3fd54f80b72a863b",
+    "textSha256": "69233babc8ce5e211020e0cad1047e652c1ebafab229f1a1ae8b4cef0bf32808",
+    "changeKey": "1155563771d9052123cc03bb8085241f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7cc3762d835865ae7a8f",
+    "workId": "7cc3762d835865ae7a8f",
+    "driveFileId": "1O2jvllwuxkfnFNFJC5x9ph60IsQD8eSb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:44:17.062936+00:00",
+    "updatedAt": "2026-09-21T23:44:17.062955+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7267,
+      "updatedAt": "2026-09-21T23:44:17.063127+00:00"
+    }
+  }
+}

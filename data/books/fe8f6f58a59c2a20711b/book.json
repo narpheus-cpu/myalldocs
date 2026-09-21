@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유리 반지",
+    "author": "루이제 린저",
+    "genre": "소설",
+    "tags": [
+      "성장소설",
+      "수도원",
+      "유년기",
+      "기억"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "young_adult"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 대표 작가로 인간의 내면을 섬세하게 포착함.",
+    "oneLineSummary": "전쟁 시기에 수도원에서 보낸 유년 시절과 내면의 성장을 다룬 소설.",
+    "overallSummary": "아버지가 전쟁에 나간 뒤 어머니와 함께 성 게오르그 수도원으로 거처를 옮긴 어린 소녀가 평화로운 수도원에서 겪는 다양한 경험과 내면의 성장을 그림.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "성 게오르그 수도원 ~ 밤에 피는 백합",
+        "summary": "전쟁을 피해 성 게오르그 수도원에 도착한 어린 소녀가 웅장하고 신비로운 수도원 구석구석을 탐험하며 느낀 인상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시점",
+        "value": "유년 시절을 회상하는 1인칭 시점"
+      }
+    ],
+    "keyEntitiesText": "소녀(나), 어머니, 큰아버지 휄릭스, 카롤리느 아주머니",
+    "settingText": "독일의 성 게오르그 수도원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1aC1BIZNgaz-Q1unlJN75q-kF_gBa-qGc",
+    "filename": "루이제 린저-유리 반지.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.209Z",
+    "size": "339705",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1aC1BIZNgaz-Q1unlJN75q-kF_gBa-qGc/view?usp=drivesdk",
+    "sourceSha256": "cca40fb313bbf77fcb3fa2032998ccc630cf5a9217600ded44fe7bd7345b4a93",
+    "textSha256": "0fa64ac52c7b3baea9ff50f6a3531a04ef74a22f86df1c2fdb513ae333f18e49",
+    "changeKey": "4f776e8ae4dfbb26425d6475c58b1192",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fe8f6f58a59c2a20711b",
+    "workId": "fe8f6f58a59c2a20711b",
+    "driveFileId": "1aC1BIZNgaz-Q1unlJN75q-kF_gBa-qGc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:45:16.591877+00:00",
+    "updatedAt": "2026-09-21T23:45:16.591895+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:45:16.591977+00:00"
+    }
+  }
+}

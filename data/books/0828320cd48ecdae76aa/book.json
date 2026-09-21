@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "당신의 손길이 닿기 전에",
+    "author": "리사 윈게이트",
+    "genre": "소설",
+    "tags": [
+      "과거",
+      "실종",
+      "비밀",
+      "가족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 베스트셀러 작가로 역사적 사건을 바탕으로 한 소설을 씀.",
+    "oneLineSummary": "과거의 어두운 비밀과 현재의 삶이 얽히며 드러나는 감동적인 이야기.",
+    "overallSummary": "정치인 집안의 딸 에이버리가 요양원에서 만난 노부인의 손길을 통해 과거의 숨겨진 비극과 가족의 비밀을 마주하게 되는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이야기의 시작 ~ 2장",
+        "summary": "1939년 볼티모어의 비극적 출산과 현재 사우스캐롤라이나에서 정치 활동 중인 에이버리의 시선."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구조",
+        "value": "과거와 현재를 교차하는 서사"
+      }
+    ],
+    "keyEntitiesText": "에이버리 스태포드, 퀴니, 펀, 레슬리",
+    "settingText": "미국 사우스캐롤라이나 에이컨 및 과거의 미시시피"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11wqFbV_NAqEeUpLQiXtVHnMF9SoTwqEY",
+    "filename": "리사 윈게이트-당신의 손길이 닿기 전에(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T21:52:22.000Z",
+    "size": "856331",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/11wqFbV_NAqEeUpLQiXtVHnMF9SoTwqEY/view?usp=drivesdk",
+    "sourceSha256": "e63378464f3616bdecade1b5adc42cf3d99705901220a2f0ecd0da0598f39357",
+    "textSha256": "6dfa119f49b4818eaa3e595e62498ad27bea5ee2143627376db284bc2a6ad208",
+    "changeKey": "600cd36e31196b59d0b22f9d03cdb3fa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0828320cd48ecdae76aa",
+    "workId": "0828320cd48ecdae76aa",
+    "driveFileId": "11wqFbV_NAqEeUpLQiXtVHnMF9SoTwqEY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:46:10.522366+00:00",
+    "updatedAt": "2026-09-21T23:46:10.522383+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:46:10.522522+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아Q정전",
+    "author": "루쉰",
+    "genre": "소설",
+    "tags": [
+      "루쉰",
+      "풍자",
+      "중국고전",
+      "정신승리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "dramatization",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국의 대문호이자 사상가로 중국 현대 문학의 아버지로 불림.",
+    "oneLineSummary": "정신승리법을 통해 시대의 모순을 풍자하는 중국 현대 소설의 명작.",
+    "overallSummary": "신해혁명 전후의 시대를 배경으로 비참한 현실 속에서도 헛된 자존심과 정신승리로 버티는 하층민 아Q의 삶을 통해 당시 중국 민중의 병폐를 고발함.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "외침 자서 및 광인일기, 아Q정전",
+        "summary": "저자의 문학적 배경을 담은 자서와 함께 중국 현대 문학의 효시가 되는 작품들 수록."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "정신승리법, 민중의 무지와 각성 촉구"
+      }
+    ],
+    "keyEntitiesText": "아Q, 루쉰, 진씬이",
+    "settingText": "중국 웨좡 및 사오싱 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cf8_vc-QNY1Nx8Qb2v-51Le5QIqtHEHU",
+    "filename": "루쉰-아Q정전 - 열린책들 세계문학 162 열린책들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.111Z",
+    "size": "511994",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1cf8_vc-QNY1Nx8Qb2v-51Le5QIqtHEHU/view?usp=drivesdk",
+    "sourceSha256": "b5b968a68f779bbafb8e02bb4e1fb30ad0d06e6760fa0212b015751e8f42fe9f",
+    "textSha256": "e94ba40ea9bb5be06377d24e7acb84e579e28da58e031e6f2f6e72306885f9ff",
+    "changeKey": "45bb8043811c01d9810208b7dc7aafa1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "121128d59e2acf0c6d7c",
+    "workId": "121128d59e2acf0c6d7c",
+    "driveFileId": "1cf8_vc-QNY1Nx8Qb2v-51Le5QIqtHEHU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:44:56.100918+00:00",
+    "updatedAt": "2026-09-21T23:44:56.100936+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:44:56.101028+00:00"
+    }
+  }
+}

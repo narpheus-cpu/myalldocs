@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시스터",
+    "author": "로저먼드 럽튼",
+    "genre": "소설",
+    "tags": [
+      "스릴러",
+      "자매",
+      "실종",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 심리 스릴러 작가로 전 세계 독자들의 사랑을 받음.",
+    "oneLineSummary": "사라진 동생 테스를 찾기 위해 진실을 파헤치는 언니 비어트리스의 이야기.",
+    "overallSummary": "어느 날 갑자기 실종된 자유분방한 동생 테스를 찾기 위해 런던으로 돌아온 비어트리스가 경찰과 언론의 압박 속에서 사건의 진실을 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "일요일 저녁 ~ 월요일 오후",
+        "summary": "테스의 실종 소식을 듣고 뉴욕에서 런던으로 돌아와 경찰 조사를 받는 비어트리스의 회고."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "동생에게 보내는 편지 형식의 서사"
+      }
+    ],
+    "keyEntitiesText": "비어트리스, 테스, 라이트 씨, 핀버러 경사, 토드",
+    "settingText": "미국 뉴욕 및 영국 런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ouVIooZQWZ68CUMvMFaFO4SiMt89etD0",
+    "filename": "로저먼드 럽튼-시스터-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:30:44.000Z",
+    "size": "804895",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ouVIooZQWZ68CUMvMFaFO4SiMt89etD0/view?usp=drivesdk",
+    "sourceSha256": "b1eb4c2333600f4ced508cb6a1778ba97cb9912a285007f168fb9ab125f1ae85",
+    "textSha256": "ce24904de6a11a18bae993729719d4220cfa330352af48b0050f0a5ae323bb3c",
+    "changeKey": "899b0a171a2bbf97cf70d3e7f17a37ba",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "74e546db43cdac676bcc",
+    "workId": "74e546db43cdac676bcc",
+    "driveFileId": "1ouVIooZQWZ68CUMvMFaFO4SiMt89etD0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:44:42.177579+00:00",
+    "updatedAt": "2026-09-21T23:44:42.177595+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:44:42.177681+00:00"
+    }
+  }
+}

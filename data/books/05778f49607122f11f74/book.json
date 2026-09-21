@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "달과 놀던 아이",
+    "author": "뤼시엥 뒤발",
+    "genre": "수필/회고록",
+    "tags": [
+      "알코올중독",
+      "치유",
+      "회고",
+      "성찰"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알코올중독을 극복하고 과거를 성찰하는 저자.",
+    "oneLineSummary": "알코올중독의 깊은 나락에서 벗어나 구원의 길을 찾은 한 사람의 고백.",
+    "overallSummary": "밤길을 운전하며 제노바로 향하는 여정 속에서, 평화로웠던 유년 시절과 알코올중독에 빠져들었던 내리막길, 그리고 이를 극복해 낸 오르막길의 과정을 진솔하게 고백함.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "길 ~ 내리막길",
+        "summary": "제노바로 향하는 밤길의 풍경과 어린 시절의 고독, 그리고 알코올중독에 빠지게 된 계기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "장거리 운전 중의 독백과 회고"
+      }
+    ],
+    "keyEntitiesText": "뤼시엥, 프랑수아즈, 노댕 신부, 어머니, 아버지",
+    "settingText": "프랑스 메츠에서 이탈리아 제노바로 향하는 야간 도로"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lJyp5selq1s526gt5T3HyITxfkwiLNtW",
+    "filename": "뤼시엥 뒤발-달과 놀던 아이 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.600Z",
+    "size": "327745",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1lJyp5selq1s526gt5T3HyITxfkwiLNtW/view?usp=drivesdk",
+    "sourceSha256": "88bfa06fb84e7f490206a68757a109bf4b0a4fcf0021b932ddbe86b04902f895",
+    "textSha256": "526479d2e6d565eea64cd40283c38160dea27445c995c296721a99c812357aa7",
+    "changeKey": "11ae52c7b1ed98c841cf5cedc8c38639",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "05778f49607122f11f74",
+    "workId": "05778f49607122f11f74",
+    "driveFileId": "1lJyp5selq1s526gt5T3HyITxfkwiLNtW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:45:29.389709+00:00",
+    "updatedAt": "2026-09-21T23:45:29.389726+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:45:29.389806+00:00"
+    }
+  }
+}

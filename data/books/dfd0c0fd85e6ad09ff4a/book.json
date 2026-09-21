@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "운명을 넘어서 그대에게",
+    "author": "루이제 린저",
+    "genre": "소설",
+    "tags": [
+      "루이제린저",
+      "수녀",
+      "운명",
+      "반파시스트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일 바이에른 출신의 작가로 평화와 인간성을 위한 글을 씀.",
+    "oneLineSummary": "전쟁의 혼란 속에서 자신만의 운명과 신앙을 찾아가는 한 여성의 이야기.",
+    "overallSummary": "제2차 세계대전 당시 반파시스트 저항과 방황을 거쳐 수녀가 된 안젤리나의 삶을 동료 수녀인 기울리아의 시선으로 아버지에게 전하는 보고서 형식의 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1 ~ 3장",
+        "summary": "수녀원에 남은 딸 안젤리나를 이해하지 못하는 아들에게 보내는 편지를 통해 안젤리나의 과거 여정을 회상함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "편지 및 보고서 형식의 서사"
+      }
+    ],
+    "keyEntitiesText": "안젤리나, 기울리아, 안젤리나의 아버지, 원장 수녀",
+    "settingText": "제2차 세계대전 당시의 이탈리아"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZBYWg7hUD7es_il7_zsIXyIteRrsfIp_",
+    "filename": "루이제 린저-운명을 넘어서 그대에게 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.178Z",
+    "size": "208895",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ZBYWg7hUD7es_il7_zsIXyIteRrsfIp_/view?usp=drivesdk",
+    "sourceSha256": "acbeb0c7765280a34f5b4f35d271289d87ff1a18a6a26b2fcc24d31ca8f9eafd",
+    "textSha256": "4f88ebe19cfb5ebe18c81421fdb08c1f8dd54b72f4b52f5f54709bbcae407d8c",
+    "changeKey": "c360e39b65d800cd05f76f1b4dccb5d4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dfd0c0fd85e6ad09ff4a",
+    "workId": "dfd0c0fd85e6ad09ff4a",
+    "driveFileId": "1ZBYWg7hUD7es_il7_zsIXyIteRrsfIp_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:45:10.663924+00:00",
+    "updatedAt": "2026-09-21T23:45:10.663939+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:45:10.664023+00:00"
+    }
+  }
+}

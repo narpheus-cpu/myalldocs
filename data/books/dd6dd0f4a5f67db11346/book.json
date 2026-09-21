@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "전도서에 바치는 장미",
+    "author": "로저 젤라즈니",
+    "genre": "SF 소설",
+    "tags": [
+      "SF",
+      "화성",
+      "행성 개조",
+      "사랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "sci_fi",
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 SF 및 환상 문학 작가로 네뷸러상을 여러 차례 수상함.",
+    "oneLineSummary": "황폐화된 행성을 개조하고 새로운 삶의 터전을 만들려는 이들의 여정.",
+    "overallSummary": "독특한 신체적 조건을 가진 주인공 쟈리 다크가 연인 샌저 바라티와 함께 행성을 구매하고 개조하여 자신들만의 세계를 만들어가는 SF 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "쟈리 다크가 재산을 모아 행성을 개조하고, 샌저와 함께 새로운 세계에서 살아가는 과정과 과거의 기억."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "시적이고 철학적인 SF 문체"
+      }
+    ],
+    "keyEntitiesText": "쟈리 다크, 샌저 바라티, 제너럴 광업 주식회사",
+    "settingText": "미래의 우주 공간, 개조되는 행성 알료날"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cesRTWlrxMBdz1KkrT7FNcMJELC8VE7f",
+    "filename": "로저 젤라즈니-전도서에 바치는 장미(열린책들 세계문학 11).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.037Z",
+    "size": "765888",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1cesRTWlrxMBdz1KkrT7FNcMJELC8VE7f/view?usp=drivesdk",
+    "sourceSha256": "4b597299ee57fe43fe48f3856eaea2a3d046ad5e67e88197c8b291cdb1b80730",
+    "textSha256": "478e22b78268e385b60d016c758d109129d2e72f28947e30b8814aa112667fe8",
+    "changeKey": "6b8b36c7ea861af11fd98b38b0240daf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dd6dd0f4a5f67db11346",
+    "workId": "dd6dd0f4a5f67db11346",
+    "driveFileId": "1cesRTWlrxMBdz1KkrT7FNcMJELC8VE7f",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:44:35.995771+00:00",
+    "updatedAt": "2026-09-21T23:44:35.995787+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:44:35.995871+00:00"
+    }
+  }
+}

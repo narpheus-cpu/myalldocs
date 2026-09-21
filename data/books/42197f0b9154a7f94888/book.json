@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "결혼소동",
+    "author": "리 마이클스",
+    "genre": "소설",
+    "tags": [
+      "로맨스",
+      "사내연애",
+      "로맨틱코미디"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "할리퀸 로맨스 소설 작가.",
+    "oneLineSummary": "컴퓨터 회사 사장과 업무과장 사이에서 벌어지는 유쾌하고 로맨틱한 사랑 이야기.",
+    "overallSummary": "천재적이지만 엉뚱한 소프트웨어 회사 사장 카일과 깐깐한 업무과장 제시카가 겪는 재정적 위기와 사내 로맨스를 그림.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장",
+        "summary": "톨숍 소프트웨어 회사의 재정난과 엉뚱한 사장 카일, 그리고 제시카의 일상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "로맨틱 코미디"
+      }
+    ],
+    "keyEntitiesText": "제시카 베닝턴, 카일 선더스, 트레버 맥킨타일, 랜디",
+    "settingText": "미국 캔자스시티의 낡은 사무실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JwHT7moDk8weoEuCTHogBMhmwE5ybqM2",
+    "filename": "리 마이클스-결혼소동 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.615Z",
+    "size": "297030",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1JwHT7moDk8weoEuCTHogBMhmwE5ybqM2/view?usp=drivesdk",
+    "sourceSha256": "49f295ad921e5774bf01b2e8ac9a506d4b401fc7e784edf24dac9bc450c688e1",
+    "textSha256": "96b0db4eccad22259bde4d60462220b714dcd1f0f9bdad38979d36ee1f6bb761",
+    "changeKey": "711a4e1b4f6c94315ccbc2df1953676c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "42197f0b9154a7f94888",
+    "workId": "42197f0b9154a7f94888",
+    "driveFileId": "1JwHT7moDk8weoEuCTHogBMhmwE5ybqM2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:46:04.316360+00:00",
+    "updatedAt": "2026-09-21T23:46:04.316376+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:46:04.316504+00:00"
+    }
+  }
+}

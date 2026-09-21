@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "물고기는 존재하지 않는다",
+    "author": "룰루 밀러",
+    "genre": "논픽션",
+    "tags": [
+      "과학",
+      "혼돈",
+      "분류학",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "science_technical",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 과학 전문 기자이자 피버디상 수상자.",
+    "oneLineSummary": "혼돈의 세계에서 질서를 세우려 했던 한 과학자의 삶과 진실에 관한 에세이.",
+    "overallSummary": "생명의 분류에 집착했던 과학자 데이비드 스타 조던의 일대기를 통해 삶의 혼돈과 질서, 그리고 '물고기'라는 범주에 대한 고정관념을 깨부수는 과학적 모험담.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 1장",
+        "summary": "지진 속에서도 물고기에 이름표를 꿰매던 데이비드 스타 조던의 일화와 저자의 의문."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "회고록, 전기, 과학 에세이의 융합"
+      }
+    ],
+    "keyEntitiesText": "데이비드 스타 조던, 룰루 밀러, 훌다",
+    "settingText": "미국 및 전 세계 자연사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jc0nHT6K8X85kWjN5flutJvtQR7vDQAz",
+    "filename": "룰루 밀러-물고기는 존재하지 않는다-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-06-29T12:53:54.000Z",
+    "size": "468719",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1jc0nHT6K8X85kWjN5flutJvtQR7vDQAz/view?usp=drivesdk",
+    "sourceSha256": "786b18541689d849d1224b35afc47ec634a12d3ed39aaf81324f1cd4b3498091",
+    "textSha256": "d0a4f5321cd5c8d7df5200d3ece2d5ec0dd25d56742d7d13849bc8f49c3842ff",
+    "changeKey": "1fcbeb4bbee32f3f063d3c4ff2f0fa9a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c5601453440bc22c8757",
+    "workId": "c5601453440bc22c8757",
+    "driveFileId": "1jc0nHT6K8X85kWjN5flutJvtQR7vDQAz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:45:23.120712+00:00",
+    "updatedAt": "2026-09-21T23:45:23.120728+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:45:23.120810+00:00"
+    }
+  }
+}

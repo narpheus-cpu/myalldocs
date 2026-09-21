@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "기억전달자",
+    "author": "로이스 로리",
+    "genre": "소설",
+    "tags": [
+      "디스토피아",
+      "기억",
+      "사회",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "dystopia",
+        "young_adult"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 아동문학 작가로 대표작으로 <기억전달자> 등이 있음.",
+    "oneLineSummary": "모든 감정과 색채가 통제된 사회에서 살아가는 소년 조너스의 이야기.",
+    "overallSummary": "갈등과 고통이 없는 완벽한 사회에서 살던 조너스가 '기억 전달자'로 지정되어 인간의 진짜 감정과 기억을 배우며 사회의 진실을 깨닫는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1-2장",
+        "summary": "12월의 기념식을 앞두고 불안과 기대를 느끼는 조너스와 가족들의 저녁 식사 및 고백 의식."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "선택의 자유, 감정의 가치, 통제 사회"
+      }
+    ],
+    "keyEntitiesText": "조너스, 릴리, 아버지, 어머니, 기억 보유자",
+    "settingText": "감정과 색채가 통제된 미래의 평화로운 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1teoEAbYqszuj-ZgTLjTsvUW3mY0bs2Tx",
+    "filename": "로이스 로리-기억전달자(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.009Z",
+    "size": "355133",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1teoEAbYqszuj-ZgTLjTsvUW3mY0bs2Tx/view?usp=drivesdk",
+    "sourceSha256": "13397d1d6fbeafbbef4e49b640552e51059f31bea2672bfd591aa119cfc2992f",
+    "textSha256": "54b6da181f90cbceb930c8544bf588328886cd248d43f1bffab4ff0d6b080eec",
+    "changeKey": "4177302f2cb6247cfe3e0221dcc2cb17",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a674940dab9dde7b9818",
+    "workId": "a674940dab9dde7b9818",
+    "driveFileId": "1teoEAbYqszuj-ZgTLjTsvUW3mY0bs2Tx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:44:29.566396+00:00",
+    "updatedAt": "2026-09-21T23:44:29.566438+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:44:29.566527+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "클레오파트라 2 - 파라오의 사랑",
+    "author": "마가렛 죠지",
+    "genre": "역사소설",
+    "tags": [
+      "클레오파트라",
+      "이집트",
+      "로마",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 역사소설가로 철저한 고증을 바탕으로 거대한 역사적 인물의 일대기를 집필함.",
+    "oneLineSummary": "이집트의 여왕 클레오파트라의 파란만장한 삶과 로마와의 관계를 다룬 대하 역사소설.",
+    "overallSummary": "알렉산드리아를 떠나 로마로 향하는 여정과 카이사르와의 관계, 그리고 해적과의 조우 등 클레오파트라의 극적인 삶을 1인칭 시점으로 생생하게 그려냄.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세 번째 두루마리 (21장)",
+        "summary": "알렉산드리아를 떠나 로마로 향하는 배 위에서의 항해와 시칠리아 해협 근처에서 해적을 만나는 위기 상황."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시점",
+        "value": "주인공 클레오파트라의 1인칭 시점"
+      }
+    ],
+    "keyEntitiesText": "클레오파트라, 카이사리온, 차르미안, 프톨레마이오스 14세",
+    "settingText": "고대 이집트 및 지중해 해상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rAbt2MLWNXJoCK0dcemZbW9zBfNh_Nhj",
+    "filename": "마가렛 죠지-클레오파트라 2-파라오의 사랑 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.710Z",
+    "size": "799132",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1rAbt2MLWNXJoCK0dcemZbW9zBfNh_Nhj/view?usp=drivesdk",
+    "sourceSha256": "8ca503f6bc67fef3ce5f53caa29d7e97c7c428b7fe1348e3505ddd93985c6655",
+    "textSha256": "53aff39832a3315037d8c2ea5d8ef2c1fb0fb8919fea6fd8e87a71e195942113",
+    "changeKey": "2dfd800dad8d29d7e2915b529db6e63c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1820faf6922273a4102e",
+    "workId": "1820faf6922273a4102e",
+    "driveFileId": "1rAbt2MLWNXJoCK0dcemZbW9zBfNh_Nhj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:46:38.959720+00:00",
+    "updatedAt": "2026-09-21T23:46:38.959737+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:46:38.959823+00:00"
+    }
+  }
+}

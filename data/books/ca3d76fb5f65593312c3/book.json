@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "암센터",
+    "author": "로빈 쿡",
+    "genre": "소설",
+    "tags": [
+      "의학",
+      "암",
+      "병원",
+      "서스펜스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "medical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "의사 출신의 작가로 의학 스릴러 소설을 주로 집필함.",
+    "oneLineSummary": "병원과 의학계의 숨겨진 이면을 다룬 메디컬 스릴러 소설.",
+    "overallSummary": "대학생 헬렌 캐벗과 하워드 페이스 등 여러 인물들이 갑작스러운 암 진단과 병원 내에서 겪는 미스터리하고 긴박한 상황들을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "오프닝",
+        "summary": "헬렌 캐벗이 가벼운 수술 후 원인을 알 수 없는 두통과 함께 말기 암 진단을 받게 되는 과정과 병원에서의 일상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "메디컬 스릴러"
+      }
+    ],
+    "keyEntitiesText": "헬렌 캐벗, 하워드 페이스, 루이스 마틴, 피터 콜버트, 숀 머피",
+    "settingText": "미국 보스턴의 종합병원 및 암 센터"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KtZUkBjAl3SlvW3wg3_UmoHfJXSv6P7H",
+    "filename": "로빈쿡-암센터.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.975Z",
+    "size": "764324",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1KtZUkBjAl3SlvW3wg3_UmoHfJXSv6P7H/view?usp=drivesdk",
+    "sourceSha256": "d9ab7ec5c9375975ada23c4770049b75547be1d3017397e7482e81f140a984e2",
+    "textSha256": "c569e29aa8fabab76d2cee1287c9a96a0232fa39b498da954e9aaebf2abe1acb",
+    "changeKey": "8f533247a975949942365d1ca233be73",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ca3d76fb5f65593312c3",
+    "workId": "ca3d76fb5f65593312c3",
+    "driveFileId": "1KtZUkBjAl3SlvW3wg3_UmoHfJXSv6P7H",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:44:23.365032+00:00",
+    "updatedAt": "2026-09-21T23:44:23.365047+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:44:23.365130+00:00"
+    }
+  }
+}
