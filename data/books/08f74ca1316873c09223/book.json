@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하룻밤에 읽는 유럽사",
+    "author": "윤승준",
+    "genre": "역사/인문",
+    "tags": [
+      "유럽사",
+      "역사",
+      "유럽연합",
+      "문화사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "윤승준은 서양사 및 유럽사를 연구하고 대중에게 알리기 위해 힘써온 역사학자이다.",
+    "oneLineSummary": "유럽의 지리, 역사, 문화를 대중적 시각에서 간결하고 입체적으로 해설한 역동적인 유럽사 입문서.",
+    "overallSummary": "고대 그리스, 로마부터 현대 유럽연합(EU)에 이르기까지 유럽의 역사적 가변성과 민족 유입, 문화적 다양성을 짚어보며 유럽사를 이해하는 필수적인 틀을 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 개정증보판 의의",
+        "summary": "개정증보판 출간 배경과 과학 혁명, 사회주의 등 추가된 주제 및 유럽사 이해의 필요성을 강조한다."
+      },
+      {
+        "sectionTitle": "제1장 유럽 역사의 여명",
+        "summary": "유럽의 지리적/문화적 정체성과 다민족 유입, 공통의 문화 기반 및 선사 시대와 에게 문명의 개막을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 사관",
+        "value": "다양성과 공통 기반의 융합을 통한 대중적 역사 서술"
+      }
+    ],
+    "keyEntitiesText": "네안데르탈인, 크로마뇽인, 미케네 문명, 유럽연합(EU)",
+    "settingText": "고대부터 현대에 이르는 유럽 대륙 전역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1h_eEz76-i-Xx_3kHc0ewwjf1QJGGVQFg",
+    "filename": "윤승준-하룻밤에 읽는 유럽사(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T22:28:42.000Z",
+    "size": "740422",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1h_eEz76-i-Xx_3kHc0ewwjf1QJGGVQFg/view?usp=drivesdk",
+    "sourceSha256": "c99fc8e8d7266e570646cf87e7f5bb9ec67965addca226c42ffc518c0138eb59",
+    "textSha256": "0fe413f0d1517edb713614d767eda2e8f26de060129252896862f9a93cd222be",
+    "changeKey": "ba69c2a62ecdb1e7def9753f8876bf08",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "08f74ca1316873c09223",
+    "workId": "08f74ca1316873c09223",
+    "driveFileId": "1h_eEz76-i-Xx_3kHc0ewwjf1QJGGVQFg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:59:32.299371+00:00",
+    "updatedAt": "2026-09-21T15:59:32.299391+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:59:32.299592+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "철학 노트",
+    "author": "이기상",
+    "genre": "철학/인문",
+    "tags": [
+      "철학",
+      "존재론",
+      "인식론",
+      "언어론",
+      "생활세계"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이기상은 가톨릭대 신학부와 독일 뮌헨 예수회 철학대를 거쳐 한국외대 철학과 교수로 재직한 하이데거 전문 철학자이다.",
+    "oneLineSummary": "일상에서의 삶과 물음에서 출발하여 고대부터 현대에 이르는 철학의 패러다임과 근본 과제를 쉽고 깊이 있게 정리한다.",
+    "overallSummary": "철학이란 삶에 대한 반성이자 존재에 대한 물음임을 밝히고, 실체·주체·매체로 이행한 철학사의 패러다임 변화와 과학, 예술, 종교, 영성과의 관계를 종합적으로 입문 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 인간과 우주 그리고 철학",
+        "summary": "삶과 철학의 연관성, 물음의 포괄성과 적중성, 존재 해석을 둘러싼 거인들의 싸움을 설명한다."
+      },
+      {
+        "sectionTitle": "제2~10장 철학사 패러다임과 삶",
+        "summary": "플라톤, 데카르트, 칸트, 비트겐슈타인, 하이데거를 거치는 존재론적·인식론적·언어론적 전환을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학의 패러다임",
+        "value": "존재론적(실체) -> 인식론적(주체) -> 언어론적(매체) 패러다임의 변천"
+      }
+    ],
+    "keyEntitiesText": "마르크스, 헤겔, 하이데거, 플라톤, 비트겐슈타인",
+    "settingText": "동서양 철학사 및 현대 사회의 생활세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1c5aKSB4-mX3z2UxAW6aUj4CG6nYXbutp",
+    "filename": "이기상-철학노트(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T03:30:58.000Z",
+    "size": "664327",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1c5aKSB4-mX3z2UxAW6aUj4CG6nYXbutp/view?usp=drivesdk",
+    "sourceSha256": "80008464512d676c67fe6e3a4b7811754b5106eb88dec0485182bed307285709",
+    "textSha256": "76eb946a9584631c78d9c6809164ed202dfef4eebbce7cc37702079d1bc52bd1",
+    "changeKey": "d36096e3c87b385bb92a0bc0c87c731b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1c18490e79701247563a",
+    "workId": "1c18490e79701247563a",
+    "driveFileId": "1c5aKSB4-mX3z2UxAW6aUj4CG6nYXbutp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:00:20.787800+00:00",
+    "updatedAt": "2026-09-21T16:00:20.787817+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:00:20.787927+00:00"
+    }
+  }
+}

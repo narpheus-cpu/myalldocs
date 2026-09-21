@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이슈로 본 한국현대사",
+    "author": "이동현",
+    "genre": "역사/정치",
+    "tags": [
+      "한국현대사",
+      "분단",
+      "김구",
+      "박정희",
+      "핵개발"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이동현은 중앙일보 및 월간중앙 등에서 현대사 전문기자로 활동하며 현장 취재와 자료 발굴에 힘써온 언론인이다.",
+    "oneLineSummary": "한반도 분단, 백범 김구 암살, 박정희 정권의 극비 핵개발, 서울올림픽 비화 등 한국 현대사의 굵직한 이슈들을 관객의 시선에서 발로 뛰며 파헤친다.",
+    "overallSummary": "미·소의 정치적 셈법과 일본의 음모로 시작된 분단의 원인, 미군정과 백범 김구의 마찰 및 안두희 암살 배후, 박정희 정권의 극비 핵개발 프로젝트와 재벌과의 관계 등 굴곡진 현대사의 숨은 진실을 발굴 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 및 주요 이슈",
+        "summary": "관객의 입장에서 사실에 충실하게 쓴 취재 기록임을 밝히고 분단 책임과 김구 암살, 핵개발 등 핵심 현대사 주제를 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "취재 및 사료",
+        "value": "현장 증언, 극비 문서 발굴, 인터뷰를 바탕으로 재구성한 현대사 비사"
+      }
+    ],
+    "keyEntitiesText": "김구, 이승만, 박정희, 안두희, 스탈린, 트루먼",
+    "settingText": "1945년 해방 정국부터 1970~80년대 한국 근현대사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FtceE-wVEdl1eKdOxW2op3ezVWnW_9-J",
+    "filename": "이동현-이슈로 본 한국현대사(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T03:44:34.000Z",
+    "size": "525911",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1FtceE-wVEdl1eKdOxW2op3ezVWnW_9-J/view?usp=drivesdk",
+    "sourceSha256": "600afe702dc2029c13f20f47d8ddada018b0010b9c51b3c46f59acc80537830d",
+    "textSha256": "d49fa3197577a89c0829753eab6d4c72b8ae0788feebd9031abdbfb46b4425ae",
+    "changeKey": "a7393478a50006b42ad76504342a139c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4f5b463dd7d91892b95d",
+    "workId": "4f5b463dd7d91892b95d",
+    "driveFileId": "1FtceE-wVEdl1eKdOxW2op3ezVWnW_9-J",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:01:01.929512+00:00",
+    "updatedAt": "2026-09-21T16:01:01.929528+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:01:01.929631+00:00"
+    }
+  }
+}

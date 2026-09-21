@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "게임, 게이머, 플레이",
+    "author": "이상우",
+    "genre": "문화/미디어",
+    "tags": [
+      "게임",
+      "게임학",
+      "게이머",
+      "미디어",
+      "인문학"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이상우는 게임평론가이자 중앙대학교에서 문화예술경영 및 미디어 비평을 연구하고 가르치는 학자이다.",
+    "oneLineSummary": "이미지와 텍스트의 융합 과정으로서 컴퓨터게임의 진화 역사와 플레이어의 주관적 경험을 인문학적 시각에서 탐구한다.",
+    "overallSummary": "퐁, 스페이스 인베이더, 팩맨, 마리오 등 아케이드 이미지 게임과 D&D, 어드벤처 등 PC 텍스트 게임의 발전을 거시적으로 짚으며 법칙과 규칙, 서사, 게이머의 주체적 플레이 경험을 종합적으로 비평한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1 게임, 이미지와 텍스트의 술래잡기 놀이",
+        "summary": "게임 역사의 거시적 패턴, 이미지 중심 아케이드 게임과 텍스트 중심 PC 게임의 진화 과정을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "게임 비평 방법론",
+        "value": "이미지-텍스트의 융합, 법칙과 규칙, 게이머의 주관적 경험에 기반한 인문학적 게임학"
+      }
+    ],
+    "keyEntitiesText": "퐁(PONG), 스페이스 인베이더, 팩맨, 마리오, D&D, 어드벤처",
+    "settingText": "1950년대 초기 컴퓨터 실험부터 현대 게임 문화 및 미디어 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TiR3ILUUlPywBhEI4zBXPnZ9gFYJ6CU6",
+    "filename": "이상우-게임, 게이머, 플레이(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T22:45:40.000Z",
+    "size": "600726",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1TiR3ILUUlPywBhEI4zBXPnZ9gFYJ6CU6/view?usp=drivesdk",
+    "sourceSha256": "7abbcde0f9dd1739071ff53c9f5aa8d4c574122861bef4dc57662bddcd0a999b",
+    "textSha256": "9be717dad9d4373105fbe3a417b031fc8b85707d945a47ccb0a1ad64a4fe68f6",
+    "changeKey": "c959729c29c78b48a2d6dc62745f0210",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "611e8c43285253768d70",
+    "workId": "611e8c43285253768d70",
+    "driveFileId": "1TiR3ILUUlPywBhEI4zBXPnZ9gFYJ6CU6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:01:29.869892+00:00",
+    "updatedAt": "2026-09-21T16:01:29.869908+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:01:29.870011+00:00"
+    }
+  }
+}

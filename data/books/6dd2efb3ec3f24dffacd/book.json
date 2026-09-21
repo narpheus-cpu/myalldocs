@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "조선 왕을 말하다",
+    "author": "이덕일",
+    "genre": "역사/인문",
+    "tags": [
+      "조선국왕",
+      "태종",
+      "세조",
+      "권력",
+      "역사평설"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이덕일은 역사재단 한가람역사문화연구소 소장으로 다수의 입체적 역사평설서를 저술한 역사학자이다.",
+    "oneLineSummary": "사관들의 당파적·성리학적 가치관을 거르고 사료에 입각하여 조선 국왕들의 리더십과 실제 행적을 재평가한다.",
+    "overallSummary": "역사는 현재학이자 미래학이라는 관점에서, 태종 이방원처럼 국가의 기틀을 잡기 위해 스스로 악역을 자처하고 정몽주 제거, 왕자의 난, 사병 혁파, 공신·외척 숙청을 단행한 군주들의 정치적 결단을 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "저자의 글: 역사는 현재학이자 미래학이다",
+        "summary": "조선 사관들의 성리학적·당파적 틀을 벗어나 1차 사료를 기반으로 왕들의 행적을 바라볼 것을 제안한다."
+      },
+      {
+        "sectionTitle": "1부 악역을 자처한 임금들: 태종과 세조",
+        "summary": "정몽주 살해, 제1·2차 왕자의 난, 사병 혁파 및 공신 숙청 등 태종 이방원의 강권 정치를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "군주학 시각",
+        "value": "성리학적 명분론을 넘어 신생 국가의 반석을 다지기 위해 악역을 자처한 정치적 결단"
+      }
+    ],
+    "keyEntitiesText": "태종(이방원), 이성계, 정몽주, 정도전, 세종",
+    "settingText": "14세기 말~15세기 초 조선 개국 및 기틀 확립기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QnXWIrNJ98CVBoeJwI9SfP8ULcKX-nhj",
+    "filename": "이덕일-조선 왕을 말하다(1-2권)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T22:39:26.000Z",
+    "size": "1281433",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1QnXWIrNJ98CVBoeJwI9SfP8ULcKX-nhj/view?usp=drivesdk",
+    "sourceSha256": "46be238b174db6f7fcdb5100ccea42b0a1c4bc950ab631359b618926053a31f1",
+    "textSha256": "c0057f24aebb354f8eb87ccf84e8842731aba1c8fabdf02a717be398d51c9627",
+    "changeKey": "a5e5221d02fa74643c9a6baba4ee898c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6dd2efb3ec3f24dffacd",
+    "workId": "6dd2efb3ec3f24dffacd",
+    "driveFileId": "1QnXWIrNJ98CVBoeJwI9SfP8ULcKX-nhj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:00:56.768043+00:00",
+    "updatedAt": "2026-09-21T16:00:56.768060+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:00:56.768172+00:00"
+    }
+  }
+}

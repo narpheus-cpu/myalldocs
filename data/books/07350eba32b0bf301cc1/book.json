@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "철학과 역사의 만남",
+    "author": "이만적",
+    "genre": "철학/역사",
+    "tags": [
+      "동양철학",
+      "서양철학",
+      "역사",
+      "제자백가",
+      "성리학"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이만적(본명 이만적)은 역사와 인문학의 대중적 계몽을 위해 강연과 저술 활동을 펼치는 교육자이자 저술가이다.",
+    "oneLineSummary": "철학과 역사는 상호 불가분의 관계라는 명제 아래 동서양의 대표적 철학 사상과 역사적 사건의 만남을 통섭적으로 풀어낸다.",
+    "overallSummary": "제자백가와 춘추전국시대, 장자와 불교, 성리학과 송·조선 역사, 그리고 그리스·로마 철학부터 근대 합리론·경험론, 칸트, 마르크스, 실존주의에 이르기까지 철학과 역사의 상호작용을 통합 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 및 동양철학과 동양사",
+        "summary": "철학과 역사의 불분리성을 강조하고 제자백가, 유불도 공존, 조선 성리학의 전개를 다룬다."
+      },
+      {
+        "sectionTitle": "서양철학과 서양사",
+        "summary": "그리스 철학, 스토아 학파, 기독교, 근대 주체 철학, 공리주의, 사회주의, 실존주의의 역사를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "통섭적 시각",
+        "value": "역사적 배경이 철학적 사상을 낳고 철학적 사상이 역사의 물줄기를 바꾸는 상호작용 고찰"
+      }
+    ],
+    "keyEntitiesText": "공자, 맹자, 이황, 이이, 소크라테스, 칸트, 마르크스",
+    "settingText": "고대부터 현대에 이르는 동양(중국/한국) 및 서양 역사 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dpYlG4J02TL0TASOGLvZ6TriEp2_qd1l",
+    "filename": "이만적-철학과 역사의 만남(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T03:49:12.000Z",
+    "size": "582449",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1dpYlG4J02TL0TASOGLvZ6TriEp2_qd1l/view?usp=drivesdk",
+    "sourceSha256": "62e9bc0d225e5781ae67be6323881619ddf07427ed699adf0fb64ae54fd87f3c",
+    "textSha256": "1fb3521474078682418682d0cea01017c864368d99aef752475a8edb3f95ca9a",
+    "changeKey": "98381adf1f6273d4eec91564a3d23657",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "07350eba32b0bf301cc1",
+    "workId": "07350eba32b0bf301cc1",
+    "driveFileId": "1dpYlG4J02TL0TASOGLvZ6TriEp2_qd1l",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:01:14.940486+00:00",
+    "updatedAt": "2026-09-21T16:01:14.940503+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:01:14.940609+00:00"
+    }
+  }
+}

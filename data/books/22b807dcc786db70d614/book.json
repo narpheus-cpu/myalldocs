@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "노자를 웃긴 남자",
+    "author": "이경숙",
+    "genre": "인문/철학",
+    "tags": [
+      "노자",
+      "도덕경",
+      "도올비판",
+      "동양철학"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이경숙은 천리안 등에서 활동하며 역사를 비롯해 불교, 철학, 기 등의 분야에서 폭넓은 대중 글쓰기를 해온 저술가이다.",
+    "oneLineSummary": "기존 학계와 도올 김용옥의 도덕경 오역을 직설적이고 파격적인 문체로 비판하며 노자의 본뜻을 밝힌다.",
+    "overallSummary": "도덕경 제1장의 '도가도 비상도', '명가명 비상명' 등 주요 구절을 세밀히 한자 문법과 논리에 맞춰 재해석함으로써 도덕경이 신비주의적 수행서가 아닌 현실적 정치철학서임을 주장한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 도가도 비상도",
+        "summary": "기존 번역의 모순과 오역을 비판하며 도라는 이름의 상대성과 오묘함의 본질을 논리적으로 풀이한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "해석적 관점",
+        "value": "도덕경을 신비주의 철학이 아닌 실용적 정치·처세학으로 재해석"
+      }
+    ],
+    "keyEntitiesText": "노자, 도올(김용옥), 왕필, 도덕경",
+    "settingText": "고대 중국 춘추전국시대 및 현대 한국 학계/대중 매체"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17zs8ZMpgGWqESVjo05Of4c-1FjxsJ-ao",
+    "filename": "이경숙-노자를 웃긴 남자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.410Z",
+    "size": "406213",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/17zs8ZMpgGWqESVjo05Of4c-1FjxsJ-ao/view?usp=drivesdk",
+    "sourceSha256": "845a4a3775898214698f32d2a575514953541204aa72e62a99cf96fbfbf84432",
+    "textSha256": "a336f356608082434f3df886806661e3c10c731005b03f96ea143925ea05c871",
+    "changeKey": "6bfc6698356b15bc853c1cba0378d82b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "22b807dcc786db70d614",
+    "workId": "22b807dcc786db70d614",
+    "driveFileId": "17zs8ZMpgGWqESVjo05Of4c-1FjxsJ-ao",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:00:06.400576+00:00",
+    "updatedAt": "2026-09-21T16:00:06.400591+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:00:06.400704+00:00"
+    }
+  }
+}

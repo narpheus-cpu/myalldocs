@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아테네인, 스파르타인",
+    "author": "윤진",
+    "genre": "역사/교양",
+    "tags": [
+      "아테네",
+      "스파르타",
+      "고대그리스",
+      "폴리스"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "윤진은 고대 그리스 사상사 및 서양 고대사를 연구하는 역사학자이다.",
+    "oneLineSummary": "서구 문명의 기반인 고대 그리스의 대표적 두 폴리스 아테네와 스파르타의 문화, 사회, 종교, 제도를 대비·분석한다.",
+    "overallSummary": "아테네의 민주정과 문화적 창조성, 스파르타의 엄격한 국가주의와 공교육 체계를 수호신(아테나, 아르테미스), 축제, 운동경기 등을 통해 입체적으로 비교 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고대 문명의 두 중심지",
+        "summary": "아테네와 스파르타의 지리, 방언, 시민의 연대의식 및 문화적 차이를 대조하여 설명한다."
+      },
+      {
+        "sectionTitle": "수호신과 종교/축제/운동경기",
+        "summary": "아테나와 아르테미스 여신, 판아테나이아 및 스파르타 축제, 올림픽 등 그리스 문화의 특징을 정리한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비교 요소",
+        "value": "아테네의 자율적·문화적 민주정 대 스파르타의 엄격한 공교육·국가주의"
+      }
+    ],
+    "keyEntitiesText": "아테네, 스파르타, 아테나 여신, 아르테미스 여신, 제우스",
+    "settingText": "기원전 5세기~4세기 고대 그리스 펠로폰네소스 및 아티카 반도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lNFPpVGk_O2EqY2UORmlZVmWAyNmGydx",
+    "filename": "윤진-아테네인, 스파르타인 [살림지식총서](ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.383Z",
+    "size": "94987",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1lNFPpVGk_O2EqY2UORmlZVmWAyNmGydx/view?usp=drivesdk",
+    "sourceSha256": "4bfc1f91a14390bfac3447cdf132aa2838bb2505506aad2f4ec7e2c92bb4c601",
+    "textSha256": "8229e14fd6510cc6c997a82537e503aaa0729470f0cf53c1c44706eb553cefc7",
+    "changeKey": "b678b15cc8cab6424a0bd1a7e8aa54cf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "34a64caab906e9d62934",
+    "workId": "34a64caab906e9d62934",
+    "driveFileId": "1lNFPpVGk_O2EqY2UORmlZVmWAyNmGydx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:59:51.411237+00:00",
+    "updatedAt": "2026-09-21T15:59:51.411251+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:59:51.411423+00:00"
+    }
+  }
+}
