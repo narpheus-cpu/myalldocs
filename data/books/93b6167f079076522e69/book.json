@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아우렐리우스 명상록",
+    "author": "M. 아우렐리우스",
+    "genre": "철학",
+    "tags": [
+      "스토아철학",
+      "명상록",
+      "로마황제",
+      "인생론",
+      "자연의이법"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "로마 제16대 황제이자 5현제의 마지막 황제. 스토아 철학자로 다뉴브 강변 진중에서 사망함.",
+    "oneLineSummary": "로마 황제이자 스토아 철학자인 마르쿠스 아우렐리우스가 인생과 운명, 이성과 성찰에 대해 남긴 사색록.",
+    "overallSummary": "스승과 친지들로부터 배운 검소함, 인내, 우정과 정의 등 도덕적 덕목을 되짚고, 인생의 덧없음 속에서 대자연의 이성과 의지에 따라 자기통제와 품위를 지키며 살아가는 삶의 지혜를 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 배움에 대하여",
+        "summary": "어머니, 스승 아폴로니우스, 섹스투스, 형 세베루스, 막시무스, 부친 및 신들로부터 배운 절제, 인내, 친절, 철학적 단호함과 신들에 대한 감사를 고찰한다."
+      },
+      {
+        "sectionTitle": "제2장 인생에 대하여",
+        "summary": "인간 상호 협력의 필요성, 이성을 존중하는 순수한 마음, 육체와 운명의 찰나성에 대비되는 철학의 이끌림에 대해 사색한다."
+      },
+      {
+        "sectionTitle": "제3장 운명에 대하여",
+        "summary": "시간의 소멸과 통찰력 유지의 필요성, 자연스러운 만물의 아름다움, 공익을 위한 목적의식과 운명의 수용에 대해 강조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 철학 사상",
+        "value": "스토아 철학, 이성과 대자연의 법칙에 순응하는 삶, 금욕과 자기 통제"
+      }
+    ],
+    "keyEntitiesText": "M. 아우렐리우스, 안토니우스 피우스, 아폴로니우스, 섹스투스, 알렉산더, 카룰루스, 세베루스, 막시무스, 그라누아 강, 구아디족",
+    "settingText": "고대 로마 제국, 그라누아 강 기슭의 구아디족 마을 진영"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uo-n8m1MWdAdBehVRvE9KZkv8cGs5Z3h",
+    "filename": "아우렐리우스 명상록.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:28.384Z",
+    "size": "115243",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1uo-n8m1MWdAdBehVRvE9KZkv8cGs5Z3h/view?usp=drivesdk",
+    "sourceSha256": "179ab232ff31ac9c5740a7ebfffe04239bdb7b7981c62336ed6d9ce954434efd",
+    "textSha256": "09f97bb450f270bc023e2616648fc937099c7eb85c8037a3df34455a58c925cd",
+    "changeKey": "cdc24bfd4e4a9806f8ce1c204a4c1585",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "93b6167f079076522e69",
+    "workId": "93b6167f079076522e69",
+    "driveFileId": "1uo-n8m1MWdAdBehVRvE9KZkv8cGs5Z3h",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:44:50.553691+00:00",
+    "updatedAt": "2026-09-21T15:44:50.553707+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:44:50.553917+00:00"
+    }
+  }
+}

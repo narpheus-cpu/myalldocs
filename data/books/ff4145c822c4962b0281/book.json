@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "위대한 사상가",
+    "author": "인생학교",
+    "genre": "철학",
+    "tags": [
+      "인생학교",
+      "감성지능",
+      "사상가",
+      "실용철학",
+      "정전"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알랭 드 보통이 설립한 글로벌 조직 '인생학교(The School of Life)' 팀으로 세상의 감성 지능을 고양하기 위한 문화·학술 콘텐츠를 창작함.",
+    "oneLineSummary": "철학, 정치, 사회학, 정신의학, 미학, 문학 분야 위대한 사상가들의 통찰을 통해 현대 삶의 문제들을 해결하는 감성 지능 안내서.",
+    "overallSummary": "플라톤부터 프루스트까지 동서양 사상가들의 정전을 엮어 남녀관계, 성, 일, 교육, 종교, 문화, 미디어, 소비, 자본주의 영역에서 삶을 향상시키는 실용적 지혜와 감성 지능을 안내한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한국어판 서문 & 서문",
+        "summary": "인생학교의 목표(감성 지능 고양)와 9가지 삶의 영역별 접근법, 그리고 삶의 유용성을 기준으로 한 사상가 선집(정전)의 취지를 설명한다."
+      },
+      {
+        "sectionTitle": "목차",
+        "summary": "철학, 정치 이론, 동양철학, 사회학, 정신의학, 미학과 건축, 문학 등 7개 분야 주요 사상가 목록을 수록한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기획 의도",
+        "value": "감성 지능(Emotional Intelligence) 고양 및 추상적 사상의 일상적·실용적 응용"
+      }
+    ],
+    "keyEntitiesText": "알랭 드 보통, 인생학교(The School of Life), 김한영, 플라톤, 공자, 프로이트, 마르크스, 존 볼비",
+    "settingText": "동서양 사상사 전반 및 현대인의 일상 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VNYMGDzqPt8iwnajyHMz7HB0qqOisAUH",
+    "filename": "알랭 드 보통(The school of life)-위대한 사상가(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T20:11:30.000Z",
+    "size": "760265",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1VNYMGDzqPt8iwnajyHMz7HB0qqOisAUH/view?usp=drivesdk",
+    "sourceSha256": "bdfc7906bdc2d7c05002a17c95cbfa7df052ad48bb465e52bf5ca92d34204eb1",
+    "textSha256": "afc697d15845c1bce6c26d0aa48946cf5c4b139e28a2e88fcd13ba4dad643e03",
+    "changeKey": "83445752758c92ab62dbc10ec9ca1ca2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ff4145c822c4962b0281",
+    "workId": "ff4145c822c4962b0281",
+    "driveFileId": "1VNYMGDzqPt8iwnajyHMz7HB0qqOisAUH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:47:15.382525+00:00",
+    "updatedAt": "2026-09-21T15:47:15.382541+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-21T15:47:15.382657+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "캐릭터 직업 사전",
+    "author": "안젤라 애커만",
+    "genre": "창작 기법",
+    "tags": [
+      "직업선택",
+      "동기유발",
+      "매슬로",
+      "트라우마",
+      "스토리텔링"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세계 작가 지망생들에게 구체적인 창작 디테일을 제공하는 작가용 사전 시리즈의 저자들.",
+    "oneLineSummary": "캐릭터의 직업 선택 뒤에 숨은 동기, 욕구, 트라우마를 분석하고 이를 서사적 추진력으로 활용하게 돕는 캐릭터 설계 사전.",
+    "overallSummary": "직업이 단순한 배경이 아니라 매슬로의 5단계 욕구 및 과거의 상처(트라우마)와 연계되어 캐릭터의 성격과 서사 호(arc)를 완성하는 핵심 요소임을 설명하고, 수십 가지 직업별 입체적 정보를 수록한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 동기 분석",
+        "summary": "직업 선택의 동기인 매슬로의 기본적 욕구 5단계와 낫지 않은 상처(트라우마)가 캐릭터 직업에 미치는 영향을 다룬다."
+      },
+      {
+        "sectionTitle": "직업 사전 본문",
+        "summary": "가석방담당자부터 현상금 사냥꾼까지 수십 가지 직업의 주요 업무, 서사적 갈등, 관련 동기 등을 상세히 수록한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "캐릭터 설계 분석",
+        "value": "매슬로 욕구 5단계 및 상처(트라우마)와 직업 선택 간의 동기적 연계성 분석"
+      }
+    ],
+    "keyEntitiesText": "안젤라 애커만, 베카 푸글리시, 김보영, 매슬로, 윌(굿 윌 헌팅)",
+    "settingText": "허구적 인물의 직업적 환경 및 서사 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1U7yLqRtR4a00Q1EyEUzklfdnzeGUpkqJ",
+    "filename": "안젤라 애커만-캐릭터 직업 사전(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T01:42:32.000Z",
+    "size": "869994",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1U7yLqRtR4a00Q1EyEUzklfdnzeGUpkqJ/view?usp=drivesdk",
+    "sourceSha256": "64323d3ec897f3725f27fa567ca90668c1a69fd23f1c6ada45b80465e6d38a15",
+    "textSha256": "bff33351bb7370e7f039f675e684c8e73cd401c695bfcf655fcc96173e6629e2",
+    "changeKey": "dc40bbf8544386d9ed140e6bc922ff8a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "98f8033fb3273a719514",
+    "workId": "98f8033fb3273a719514",
+    "driveFileId": "1U7yLqRtR4a00Q1EyEUzklfdnzeGUpkqJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:46:18.977855+00:00",
+    "updatedAt": "2026-09-21T15:46:18.977872+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:46:18.977981+00:00"
+    }
+  }
+}

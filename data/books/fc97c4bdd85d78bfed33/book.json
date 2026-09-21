@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "상식밖의 세계사",
+    "author": "안효상",
+    "genre": "역사",
+    "tags": [
+      "세계사",
+      "교양역사",
+      "역사관",
+      "숨은이야기",
+      "문화사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대 서양사학과 졸업 후 출판 편집과 기획 및 번역 일을 하며 역사에 대한 대중적 재미와 관점을 제공하는 글을 씀.",
+    "oneLineSummary": "바벨탑부터 근현대사까지 역사적 사실 이면에 숨겨진 통설과 다른 이야기들을 쉽고 흥미롭게 파헤친 대중 역사 교양서.",
+    "overallSummary": "기존 교과서의 딱딱한 연대기적 틀에서 벗어나 바벨탑의 유적 지구라트, 함무라비 법전의 보복주의, 이집트 미라의 신분적 차별, 알파벳의 페니키아 기원, 살라미스 해전 등 67가지 주요 사건의 색다른 측면과 맥락을 알기 쉽게 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책머리에",
+        "summary": "역사에 대한 딱딱함과 강박관념을 넘어 알려지지 않은 이면을 제시하여 독자만의 역사관을 세우도록 돕는다."
+      },
+      {
+        "sectionTitle": "주요 에피소드 (1~6)",
+        "summary": "바벨탑(지구라트), 함무라비 법전, 이집트 미라의 자격, 페니키아의 알파벳 창제, 살라미스 해전과 아테네 민주주의의 변화를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사 서술 특징",
+        "value": "단순 연대기 암기를 탈피하고 고정관념을 깨는 사건 이면의 사회·경제적 맥락과 역사관 제시"
+      }
+    ],
+    "keyEntitiesText": "안효상, 드 모르간, 함무라비 왕, 오시리스, 페니키아인, 크세르크세스, 테미스토클레스, 페리클레스",
+    "settingText": "고대 오리엔트, 이집트, 그리스, 로마부터 근현대 세계 각지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ysb6VFGc22tdFidtep49rqnPA3D6fS4r",
+    "filename": "안효상-상식밖의 세계사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:28.420Z",
+    "size": "361937",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1ysb6VFGc22tdFidtep49rqnPA3D6fS4r/view?usp=drivesdk",
+    "sourceSha256": "1d7ae416d9b1bee582bef6eedea67dc62a3d49286d1771083758feda83869c81",
+    "textSha256": "18302b01f8397fd7a612ffd303fe3e08929ee80e69fd7584661375a709fdfe2c",
+    "changeKey": "b54b279125579ad1bdf711a6a73556c2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fc97c4bdd85d78bfed33",
+    "workId": "fc97c4bdd85d78bfed33",
+    "driveFileId": "1ysb6VFGc22tdFidtep49rqnPA3D6fS4r",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:46:32.375545+00:00",
+    "updatedAt": "2026-09-21T15:46:32.375561+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:46:32.375670+00:00"
+    }
+  }
+}

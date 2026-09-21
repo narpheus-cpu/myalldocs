@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "중세의 사람들",
+    "author": "아일린 파워",
+    "genre": "역사",
+    "tags": [
+      "중세사",
+      "사회사",
+      "경제사",
+      "보통사람들",
+      "미시사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 대표적인 중세사·경제사 연구자로, 런던경제대학 교수 및 경제사학회 설립에 참여하며 평범한 대중의 역사를 대중적이고 아름다운 필치로 정립함.",
+    "oneLineSummary": "왕과 전쟁 위주의 역사에서 벗어나 샤를마뉴 시대 농부부터 상인, 수녀원장 등 중세 평범한 사람들의 삶과 사회·경제적 일상을 생생하게 복원한 미시사 고전.",
+    "overallSummary": "기존 역사학이 무시했던 일반 대중의 일상과 경제적 활동을 중심으로 농부 보도, 마르코 폴로, 수녀원장 에글런타인, 가부장의 아내, 양모 상인 등의 입체적 생애를 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "옮긴이 말 및 해설",
+        "summary": "아일린 파워의 생애, 런던경제대학 및 경제사학회에서의 업적, 비교 사회사와 역사의 부엌(일상)을 조명한 학문적 의의를 설명한다."
+      },
+      {
+        "sectionTitle": "목차 구성",
+        "summary": "로마 제국 쇠퇴기 인물부터 농부 보도, 마르코 폴로, 수녀원장, 파리 가정주부, 양모상인 베트슨과 페이콕의 이야기로 구성된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사학적 의의",
+        "value": "위인·정치 중심에서 벗어나 보통 사람들의 일상과 경제 활동을 사료로 복원한 비교 사회사"
+      }
+    ],
+    "keyEntitiesText": "아일린 파워, 이종인, 보도, 마르코 폴로, 마담 에글런타인, 토마스 베트슨, 토마스 페이콕, 런던경제대학, R.H. 토니",
+    "settingText": "중세 유럽 (샤를마뉴 시대 영지, 13~15세기 영국 및 프랑스 파리)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YgdCQ2teBtIXRYd9jKZJv_UMseH-KZ8C",
+    "filename": "아일린 파워-중세의 사람들(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T20:01:02.000Z",
+    "size": "582582",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1YgdCQ2teBtIXRYd9jKZJv_UMseH-KZ8C/view?usp=drivesdk",
+    "sourceSha256": "ff6de7c3d389ac1acd6b25f4ed96a85e897053f64eb0b3e8eee8677457548403",
+    "textSha256": "fada6f838bc0ea5557ff13ba8d89809fb24cf7ca2c9180728efa892783724faf",
+    "changeKey": "8ee81e597c98e57fd86ffe6a3e1816f2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3e22c105540fe432ae03",
+    "workId": "3e22c105540fe432ae03",
+    "driveFileId": "1YgdCQ2teBtIXRYd9jKZJv_UMseH-KZ8C",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:44:57.795640+00:00",
+    "updatedAt": "2026-09-21T15:44:57.795655+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:44:57.795754+00:00"
+    }
+  }
+}

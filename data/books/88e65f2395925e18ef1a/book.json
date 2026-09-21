@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아틀라스 한국사",
+    "author": "김성환",
+    "genre": "역사",
+    "tags": [
+      "한국사",
+      "역사지도",
+      "아틀라스",
+      "통사",
+      "지리"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "편집인 김성환을 비롯하여 송호정 한국교원대 교수 및 분야별 필진, 정보공학연구소가 협력하여 한국사 지도를 입체적으로 기획·제작함.",
+    "oneLineSummary": "고대부터 근현대까지 한국사의 시간적 흐름과 공간적 영역 변화를 정밀한 지도와 본문으로 입체 결합한 역사 지도 아틀라스.",
+    "overallSummary": "문헌 중심의 한계를 넘어 지도를 통해 고조선, 삼국, 남북국, 고려, 조선, 근현대에 이르는 각 시대의 정세, 영토 확장, 전쟁, 교역, 문화 및 인구 변동을 입체적으로 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 고대",
+        "summary": "한국인의 기원, 석기·청동기 시대, 고조선 건국과 한과의 전쟁, 삼국의 성립과 발전, 대외 교류를 다룬다."
+      },
+      {
+        "sectionTitle": "2~5장 요약",
+        "summary": "남북국 시대의 통일신라와 발해, 고려의 민족통일과 대외 항쟁, 조선의 건국과 제도·문화, 근대의 개항과 열강 침탈 및 독립운동까지 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시각 자료 특성",
+        "value": "펼친 두 면 구성으로 텍스트 서술과 정밀 등고선/음영기복 지도를 유기적으로 입체 결합"
+      }
+    ],
+    "keyEntitiesText": "김성환, 송호정, 고조선, 고구려, 백제, 신라, 가야, 발해, 고려, 조선, 사계절출판사",
+    "settingText": "한반도 및 만주 일대 (BC 50만 년 ~ 현대)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15kDfeVHfSXphlsa9x20J7nMyVkOEDlPs",
+    "filename": "아틀라스 한국사(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T01:26:46.000Z",
+    "size": "642557",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/15kDfeVHfSXphlsa9x20J7nMyVkOEDlPs/view?usp=drivesdk",
+    "sourceSha256": "8c305c4f9fd1863413b7511e41a74bca1543cd51946461084bc7b75a988e994e",
+    "textSha256": "f3b7a173e746206ae73c87c29cc4f376b67a3d96ab46e483aa4522f017e800a4",
+    "changeKey": "fad6116585c836ee18261bacbd62a598",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "88e65f2395925e18ef1a",
+    "workId": "88e65f2395925e18ef1a",
+    "driveFileId": "15kDfeVHfSXphlsa9x20J7nMyVkOEDlPs",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:45:12.765821+00:00",
+    "updatedAt": "2026-09-21T15:45:12.765837+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:45:12.765940+00:00"
+    }
+  }
+}

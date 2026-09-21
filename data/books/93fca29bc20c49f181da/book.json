@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "트라우마 사전",
+    "author": "안젤라 애커만",
+    "genre": "창작 기법",
+    "tags": [
+      "트라우마",
+      "감정적상처",
+      "잘못된믿음",
+      "인물호",
+      "작법서"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인물의 내면과 심리적 상처를 입체적으로 형상화하는 작가용 가이드북을 다수 저술한 창작 코치들.",
+    "oneLineSummary": "캐릭터가 입은 감정적 상처(트라우마)와 그로 인한 잘못된 믿음이 성격, 동기, 인물 호(arc)에 미치는 영향을 분석한 심리 작법 사전.",
+    "overallSummary": "이야기의 인간적 맥락과 거울 역할을 해설하고, 과거의 감정적 상처가 '잘못된 믿음(The Lie)'과 제한적 신념을 형성해 인물의 행동과 변화를 이끄는 과정을 분석하며 구체적 상처 범주들을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 총론",
+        "summary": "이야기의 맥락적 가치, 감정적 상처의 정의, 잘못된 믿음(The Lie), 인물 호 및 행동을 통한 상처 표출법을 해설한다."
+      },
+      {
+        "sectionTitle": "상처 카테고리",
+        "summary": "배신, 범죄 피해, 사회적 고통, 실수/실패, 유년기 상처, 재사 사건, 자아 문제 등 다양한 트라우마 사례를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 구조 메커니즘",
+        "value": "감정적 상처 -> 잘못된 믿음(The Lie) 도출 -> 제한적 신념 -> 극복 과정을 통한 인물 호(Arc) 완성"
+      }
+    ],
+    "keyEntitiesText": "안젤라 애커만, 베카 푸글리시, 듀나, 히치콕, 폴",
+    "settingText": "캐릭터의 과거 배경(Backstory) 및 내면 정서 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TQbTCJjC65FPyxzUoY8QTDXQ0QpfQjMT",
+    "filename": "안젤라 애커만-트라우마 사전(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T01:47:04.000Z",
+    "size": "824380",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1TQbTCJjC65FPyxzUoY8QTDXQ0QpfQjMT/view?usp=drivesdk",
+    "sourceSha256": "e446a5feb98543878f011e7032f6870bc945a346654ca9b5c779591736b2e4bb",
+    "textSha256": "dab8bbc1455e055058cc9b959821efc746fa89f673b96a4ccf73042e08383dd6",
+    "changeKey": "f156790b9f9253e0e353ee9e70f85e85",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "93fca29bc20c49f181da",
+    "workId": "93fca29bc20c49f181da",
+    "driveFileId": "1TQbTCJjC65FPyxzUoY8QTDXQ0QpfQjMT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:46:25.680245+00:00",
+    "updatedAt": "2026-09-21T15:46:25.680262+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:46:25.680372+00:00"
+    }
+  }
+}

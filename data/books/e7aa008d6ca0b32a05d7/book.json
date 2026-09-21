@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "디테일 사전-시골편",
+    "author": "안젤라 애커만",
+    "genre": "창작 기법",
+    "tags": [
+      "작법서",
+      "시골배경",
+      "갈등전달",
+      "분위기조성",
+      "자연지형"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "베스트셀러 창작 가이드 저자들로, 배경 및 캐릭터 감정 사전을 통해 작가들에게 실질적인 스토리텔링 도구를 제공함.",
+    "oneLineSummary": "시골과 자연 배경을 통해 서사적 갈등을 전달하고 분위기와 인물의 정서적 유대를 연출하는 작가용 배경 설정 사전.",
+    "overallSummary": "물리적 장애물, 과거 고통의 반영, 주변 인물과의 충돌, 가족 갈등 연출, 날씨와 계절의 비유 등 자연 및 시골 배경이 가진 서사적 긴장감과 분위기 연출법을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "배경을 통한 갈등 전달(물리적 장애물, 과거의 반영, 주변인, 가족 문제)과 날씨/계절을 이용한 분위기 조성 기법을 설명한다."
+      },
+      {
+        "sectionTitle": "본문 카테고리",
+        "summary": "시골 풍경, 자연지형, 주거 공간, 학교 등 구체적인 장소별 감각 디테일과 인물 리스트를 제시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 기법",
+        "value": "자연/시골 배경을 활용한 물리적 장애물 생성 및 인물 과거 트라우마의 외부적 반영"
+      }
+    ],
+    "keyEntitiesText": "안젤라 애커만, 베카 푸글리시, 곽재식, 톨킨(반지의 제왕/호빗), 람보, 브리애너, 마크",
+    "settingText": "시골 및 자연 환경 (농장, 동굴, 숲, 대저택, 학교, 캠핑장 등)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1emYfTnZC94DAbxS0bug5pRIFYbMalo-0",
+    "filename": "안젤라 애커만-디테일 사전-시골편(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T01:34:56.000Z",
+    "size": "782917",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1emYfTnZC94DAbxS0bug5pRIFYbMalo-0/view?usp=drivesdk",
+    "sourceSha256": "c21af98c882b5915e2070ffeb4af962574f4d37b5ffe83a6e74f40413016195b",
+    "textSha256": "1a7c6c6ff70fac35f315b3f9437f76b98c07a31ccd70f2a699302c1ea444c5c1",
+    "changeKey": "8942903b7ff98a8257d2319384de4426",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e7aa008d6ca0b32a05d7",
+    "workId": "e7aa008d6ca0b32a05d7",
+    "driveFileId": "1emYfTnZC94DAbxS0bug5pRIFYbMalo-0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:45:43.637891+00:00",
+    "updatedAt": "2026-09-21T15:45:43.637906+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:45:43.638001+00:00"
+    }
+  }
+}

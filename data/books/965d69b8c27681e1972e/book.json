@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일의 기쁨과 슬픔",
+    "author": "알랭 드 보통",
+    "genre": "에세이",
+    "tags": [
+      "노동",
+      "직업",
+      "물류",
+      "항만",
+      "전문화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일상의 세밀한 현장을 철학적 시선으로 관찰하고 기록하는 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "물류, 항만, 공장 등 현대 노동 현장의 정교한 과정을 직접 관찰하며 우리가 일을 하는 이유와 의미를 탐구한 에세이.",
+    "overallSummary": "현대 산업사회를 지탱하는 화물선 입항, 항만 물류, 공장 생산 등 보이지 않는 직업 세계의 현장을 직접 누비며, 세분화된 전문성과 노동이 가진 감정적·인문학적 의미를 조망한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I. 화물선 관찰하기",
+        "summary": "런던 템스 강 하류 틸베리 항구로 입항하는 화물선 '바다의 여신' 호와 물류 현장, 전문화된 기계, 그리고 배를 관찰하는 마니아들의 열정을 묘사하며 노동의 경이로움을 파악한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "탐구 대상",
+        "value": "현대 산업 물류(항만, 화물선, 전문 기계) 현장과 일의 세분화 및 감정적 의미 조명"
+      }
+    ],
+    "keyEntitiesText": "알랭 드 보통, 정영목, 월트 휘트먼, 카날레토, 조토",
+    "settingText": "영국 런던 템스 강 하류, 틸베리 컨테이너 터미널 및 산업 공장 지대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KoMwKm26261u9L_3Fo3gMDysPxRpz8FF",
+    "filename": "알랭 드 보통-일의 기쁨과 슬픔(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T20:18:06.000Z",
+    "size": "425349",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1KoMwKm26261u9L_3Fo3gMDysPxRpz8FF/view?usp=drivesdk",
+    "sourceSha256": "39c0767ff87f496e8530d8115cbf26f311d044509d83f481221f648cdc16d2fd",
+    "textSha256": "5784d64daf8c8e55d00c1d3a4ddbc0a9d1155c1a41d3377c272926e399bfccb3",
+    "changeKey": "19b315a0d7ac5a5ba3c5b0da7117540f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "965d69b8c27681e1972e",
+    "workId": "965d69b8c27681e1972e",
+    "driveFileId": "1KoMwKm26261u9L_3Fo3gMDysPxRpz8FF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:47:24.845545+00:00",
+    "updatedAt": "2026-09-21T15:47:24.845561+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:47:24.845654+00:00"
+    }
+  }
+}

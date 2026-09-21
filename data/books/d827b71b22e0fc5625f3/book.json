@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "중세의 여인들",
+    "author": "아일린 파워",
+    "genre": "역사",
+    "tags": [
+      "중세사",
+      "여성사",
+      "기사도",
+      "수녀원",
+      "사회사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 중세사학자로 아날학파적 시각과 여성 역사 연구를 결합해 중세 여성의 사회적·경제적 지위를 개척함.",
+    "oneLineSummary": "교회의 이념적 관념과 현실 사회 사이에서 남성의 동반자로서 활약했던 중세 여성들의 일상과 지위를 다각도로 조명한 여성사 연구서.",
+    "overallSummary": "이브와 마리아라는 양극단적 교회의 관념을 넘어, 귀족, 도시 및 농촌의 일하는 여성, 수녀원 여인들이 실제로 담당했던 경제적·사회적 동반자로서의 삶과 교육적 실상을 살펴본다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 중세의 여성관",
+        "summary": "교회의 남존여비 및 이브/마리아라는 양극단 관념과 기사도·궁정연애의 현실도피적 성격을 규명하고 실제 여성 지위의 균형성을 다룬다."
+      },
+      {
+        "sectionTitle": "2~5장 주요 내용",
+        "summary": "귀족과 중산층, 도시와 농촌의 일하는 여성들의 노동과 역할, 여성 교육의 실태 및 경제·사회적 공동체로서의 수녀원을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "여성사적 관점",
+        "value": "이념적 억압(이브)이나 환상적 숭배(마리아)가 아닌, 남성과 호각을 이루며 일상 경제를 담당한 동반자로서의 여성 재조명"
+      }
+    ],
+    "keyEntitiesText": "아일린 파워, 이종인, C.V. 랑글루아, 마르크 블로흐, R.H. 토니, M.M. 포스탄, 제프리 초서",
+    "settingText": "중세 유럽 (13~15세기 영국, 프랑스, 네덜란드 등 도시 및 농촌)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nuFSwLmZZTd9YgrxBGJ4A2i9CKvY0R2u",
+    "filename": "아일린 파워-중세의 여인들(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T20:01:48.000Z",
+    "size": "237647",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1nuFSwLmZZTd9YgrxBGJ4A2i9CKvY0R2u/view?usp=drivesdk",
+    "sourceSha256": "cf539fef3131f4620d85fc1ed5a1f28fe45109940da690d4cdb09043215219e1",
+    "textSha256": "35cd1f577fd27ee9e0d0808371d152c312de6ee63f509b9d04b4ff095a4df03e",
+    "changeKey": "aa820ee81f622c39337fcfaf07f7ed8a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d827b71b22e0fc5625f3",
+    "workId": "d827b71b22e0fc5625f3",
+    "driveFileId": "1nuFSwLmZZTd9YgrxBGJ4A2i9CKvY0R2u",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:45:04.300278+00:00",
+    "updatedAt": "2026-09-21T15:45:04.300294+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:45:04.300407+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "빚으로 지은 집",
+    "author": "아티프 미안",
+    "genre": "경제학",
+    "tags": [
+      "가계부채",
+      "금융위기",
+      "거시경제",
+      "대침체",
+      "레버드로스"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아티프 미안(프린스턴대 교수)과 아미르 수피(시카고대 교수)는 부채와 거시경제의 상호작용 분석 분야의 세계적 전문가들임.",
+    "oneLineSummary": "2008년 대침체와 경제 불황의 근본 원인이 과다한 가계 부채에 있음을 실증 미시 데이터와 레버드 로스 이론으로 규명한 저서.",
+    "overallSummary": "가계 부채 급증이 총수요와 소비 지출 급감으로 이어져 장기 불황과 자산 타격을 초래함을 실증 데이터로 증명하고, 위험을 공유하는 채무 계약 재조정 등 금융 혁신의 필요성을 제안한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한국어판 서문",
+        "summary": "유럽 및 동아시아 위기와 한국의 높은 가계 부채 상황을 지적하며 가계 부채 의존 성장의 위험성을 경고한다."
+      },
+      {
+        "sectionTitle": "1장 보헤미아의 스캔들",
+        "summary": "2008년 대침체와 1929년 대공황 전후의 가계 부채 급증 및 소비 지출 급감 패턴, OECD 및 국제적 데이터와의 상관관계를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 경제 이론",
+        "value": "레버드 로스(Levered losses) 이론 및 가계 부채 중심의 총수요 위축 메커니즘"
+      }
+    ],
+    "keyEntitiesText": "아티프 미안, 아미르 수피, 박기영, 모나코 코치 코퍼레이션, 셜록 홈즈, OECD, IMF",
+    "settingText": "미국(인디애나 주 엘크하트 등) 및 글로벌 경제, 2008년 대침체 및 1920~30년대 대공황기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dWWR6rm5-xdaK7JSfZGI1iRcl65dYtj2",
+    "filename": "아티프 미안-빚으로 지은 집(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T20:03:20.000Z",
+    "size": "546080",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1dWWR6rm5-xdaK7JSfZGI1iRcl65dYtj2/view?usp=drivesdk",
+    "sourceSha256": "aa4b932b6841f2abeb9cd6d6ad8b34dd7e39fba9e03872bf471aa73206b7655a",
+    "textSha256": "ce63b78bd42bff3e419feee4320e6f70a3100a2cd807dc96b269a8fba2ad4e8e",
+    "changeKey": "f0c0b27810fa4974c4c0d4027c15f56a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1a212576479dcdaa8aa3",
+    "workId": "1a212576479dcdaa8aa3",
+    "driveFileId": "1dWWR6rm5-xdaK7JSfZGI1iRcl65dYtj2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:45:19.519967+00:00",
+    "updatedAt": "2026-09-21T15:45:19.519981+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:45:19.520149+00:00"
+    }
+  }
+}

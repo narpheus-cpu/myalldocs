@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뉴스의 시대",
+    "author": "알랭 드 보통",
+    "genre": "철학",
+    "tags": [
+      "뉴스",
+      "미디어비평",
+      "현대사회",
+      "지루함",
+      "공포"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스위스 출신 작가이자 일상의 철학자로 소설과 에세이를 넘나들며 현대 사회의 심리적·철학적 문제들을 다룸.",
+    "oneLineSummary": "현대인의 삶을 지배하는 뉴스의 작동 방식과 비극, 공포, 지루함의 메커니즘을 파헤치고 자의식적인 뉴스 수용법을 제시한 책.",
+    "overallSummary": "종교를 대체하여 권력을 쥔 뉴스가 어떻게 대중의 불안과 소외, 현실 감각을 조종하는지 분석하고, 파편화된 정보 뒤에 숨은 맥락과 지루함을 넘어서는 새로운 수용 태도를 모색한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서론 (1~6)",
+        "summary": "뉴스의 현대적 지배력, 종교의 자리를 대체한 유사 종교적 속성, 공포와 위안의 메커니즘을 규명한다."
+      },
+      {
+        "sectionTitle": "지루함과 당혹스러움",
+        "summary": "파편화된 진지한 정치/정책 기사가 지루함을 유발하는 원인을 분석하고 큰 범주의 맥락 제시(서가에 배치하기) 필요성을 역설한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "미디어 비평 관점",
+        "value": "뉴스의 유사 종교적 권력성 규명 및 정보 파편화가 초래하는 지루함/불안 해독"
+      }
+    ],
+    "keyEntitiesText": "알랭 드 보통, 최민우, 헤겔, 카레닌, 티치아노",
+    "settingText": "현대 미디어 사회 (영국 및 글로벌 인터넷/방송 환경)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AMGoEIBRVOB26l8yuwHiMaep1SKM8FPa",
+    "filename": "알랭 드 보통-뉴스의 시대(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T20:13:22.000Z",
+    "size": "341291",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1AMGoEIBRVOB26l8yuwHiMaep1SKM8FPa/view?usp=drivesdk",
+    "sourceSha256": "7996947707b3edfbf5579d272a14c54397e0e4b55d1fba72d7dd6fd2a504c46c",
+    "textSha256": "648829591a126715378ac0d4fd93539afbd113dcf8629cbb0c9a23a26fe64187",
+    "changeKey": "d396d961c1f441ecf1b6f66c4f144f56",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "20032933ee543856c733",
+    "workId": "20032933ee543856c733",
+    "driveFileId": "1AMGoEIBRVOB26l8yuwHiMaep1SKM8FPa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:46:46.324229+00:00",
+    "updatedAt": "2026-09-21T15:46:46.324246+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:46:46.324356+00:00"
+    }
+  }
+}
