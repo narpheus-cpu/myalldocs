@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한국의 욕설백과",
+    "author": "정태륭",
+    "genre": "교양/문화",
+    "tags": [
+      "욕설",
+      "어원",
+      "해학",
+      "속담",
+      "한국문화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문화",
+        "언어"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정태륭은 전국을 누비며 취재한 3,000여 항목의 욕설을 모아 내용별로 분류하고 어원과 뜻을 풀이하였다.",
+    "oneLineSummary": "우리 조상들의 질펀한 해학이 묻어 있는 욕설부터 현대의 은어, 비어, 속어까지 그 어원과 뜻을 풀이한 백과사전이다.",
+    "overallSummary": "이 책은 한국의 욕설을 내용별(성 관련 욕설, 성별 또는 직분 관련 욕설, 동식물 관련 욕설 등)로 분류하여 그 어원과 뜻을 상세히 풀이한 모음집이다. 조상들의 해학이 담긴 전통 욕설부터 젊은이들이 쓰는 은어와 비어까지 폭넓게 다루고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 성 관련 욕설",
+        "summary": "남녀 간의 정분과 사랑, 바람기 및 성적인 행위와 관련된 다양한 속속들이 표현과 욕설을 어원 및 유래와 함께 풀이한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분류 방식",
+        "value": "내용별 분류(성, 성별, 동식물, 사물 등)"
+      },
+      {
+        "key": "자료 규모",
+        "value": "3,000여 항목의 욕설 및 비어 수록"
+      }
+    ],
+    "keyEntitiesText": "저자 정태륭, 출판사 한국문원",
+    "settingText": "한국 전역의 전통적 언어생활과 민속 문화"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Vpyx4GvwgPIZ-a1DO2pV1ZEpd-OD4i3g",
+    "filename": "한국의 욕설백과.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:45.168Z",
+    "size": "469270",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1Vpyx4GvwgPIZ-a1DO2pV1ZEpd-OD4i3g/view?usp=drivesdk",
+    "sourceSha256": "e2f0a93f9493cc62173c4d71e52e54c57fa11b6483d88600e887f26fa892446e",
+    "textSha256": "60841a163a13ecd338f3e28d9d521979297885ff0f5ce7c8a4418e7ef6941a28",
+    "changeKey": "7e5e0eda679526e9e04dac663e59e740",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b60bb9b52e2844de7f0f",
+    "workId": "b60bb9b52e2844de7f0f",
+    "driveFileId": "1Vpyx4GvwgPIZ-a1DO2pV1ZEpd-OD4i3g",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:14:33.578535+00:00",
+    "updatedAt": "2026-09-21T18:14:33.578552+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T18:14:33.578744+00:00"
+    }
+  }
+}
