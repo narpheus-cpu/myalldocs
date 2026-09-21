@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "김진명-고구려 6권(ocr).txt",
+    "author": "김진명",
+    "genre": "역사소설",
+    "tags": [
+      "고구려",
+      "역사",
+      "전쟁",
+      "민란"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 대표적인 역사 및 미스터리 소설가로 널리 알려진 작가이다.",
+    "oneLineSummary": "중원의 혼란스러운 정세 속에서 고구려와 한민족의 역사를 조명하는 역사 소설의 한 장면이다.",
+    "overallSummary": "한족과 이민족이 얽힌 중원의 복잡한 정세 속에서 사안과 선비들의 시론, 그리고 고구려의 태왕 고구부와 관련된 역사적 단서들이 다뤄진다. 또한 백성들이 겪는 유교적 예법의 억압과 민란의 발생을 통해 당대 사회의 모순과 민중의 아픔을 생생하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "정자의 선비들",
+        "summary": "유서 깊은 정자에 모인 선비들과 사안, 왕헌지가 시국과 한의 바다에 대해 논한다."
+      },
+      {
+        "sectionTitle": "고구부의 이름",
+        "summary": "손작이 고구려의 태왕 고구부와 송씨의 유래에 관한 비밀스러운 이야기를 꺼낸다."
+      },
+      {
+        "sectionTitle": "민란의 발생",
+        "summary": "가난으로 제사를 올리지 못해 억울하게 매를 맞아 죽은 사내의 일로 인해 고을에 민란이 발생한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대적 배경",
+        "value": "위진남북조 시대 혹은 그 무렵의 혼란스러운 중원과 한반도 주변 정세"
+      },
+      {
+        "key": "주제",
+        "value": "역사의 흐름, 민중의 삶, 그리고 한민족의 정체성"
+      }
+    ],
+    "keyEntitiesText": "왕헌지, 사안, 손작, 고구부, 태수, 선비들과 고을 백성들",
+    "settingText": "중원 장강 이북 및 한족과 이민족이 대립하고 얽히는 혼란스러운 시대적 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19bZcqVUFvYm25F3OlmzvtpSnmg5uZaU6",
+    "filename": "김진명-고구려 6권(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:46.248Z",
+    "size": "325008",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/19bZcqVUFvYm25F3OlmzvtpSnmg5uZaU6/view?usp=drivesdk",
+    "sourceSha256": "0f9675c769d3ebfdfa4016fda6d464f75c5d9be425cae709774f7279c13b39af",
+    "textSha256": "8f6bb93e8dcaa63c46d9032086a111ba572d9ffee63d37889d5d3bdf44e91e31",
+    "changeKey": "53b7403ded32479e3343d588e422b807",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "77a387a145c7de6adde9",
+    "workId": "77a387a145c7de6adde9",
+    "driveFileId": "19bZcqVUFvYm25F3OlmzvtpSnmg5uZaU6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T18:03:34.822033+00:00",
+    "updatedAt": "2026-09-21T18:03:34.822049+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.9016,
+      "updatedAt": "2026-09-21T18:03:34.822245+00:00"
+    }
+  }
+}
