@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살아 있는 느낌을 위해",
+    "author": "D. H. 로렌스 외",
+    "genre": "수필/에세이",
+    "tags": [
+      "수필집",
+      "명언",
+      "철학",
+      "문학"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "D. H. 로렌스를 비롯한 여러 명사들과 작가들의 글을 모은 에세이 선집이다.",
+    "oneLineSummary": "다양한 작가들의 통찰과 교훈을 담은 수필 및 단상 모음집이다.",
+    "overallSummary": "이 책은 이드리스 샤, 윌리엄 헤슬릿 등 여러 저명한 사상가와 작가들의 글을 엮어 인간 삶, 고독, 대화, 자연 등에 대한 깊은 통찰을 제공한다. 일상 속에서 삶의 의미를 돌아보게 만드는 교훈적인 내용들로 구성되어 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "낙타를 다루는 방법",
+        "summary": "이드리스 샤의 사상을 담은 교훈적인 수피 우화와 이야기들을 소개한다."
+      },
+      {
+        "sectionTitle": "고독, 그 자체를 위한 고독",
+        "summary": "윌리엄 헤슬릿이 자연 속에서 온전한 자유와 고독을 누리는 즐거움을 예찬한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "단편 에세이 및 우화 모음"
+      },
+      {
+        "key": "주요 주제",
+        "value": "인생의 지혜, 고독, 자유, 교훈"
+      }
+    ],
+    "keyEntitiesText": "이드리스 샤, 윌리엄 헤슬릿, 루미, 하이다르",
+    "settingText": "다양한 시대와 문화적 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1z6NzkTHTtdCUZ5U4zLJc9jftS_DpKbUd",
+    "filename": "D. H. 로렌스 외-살아있는 느낌을 위해.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:32.150Z",
+    "size": "444640",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1z6NzkTHTtdCUZ5U4zLJc9jftS_DpKbUd/view?usp=drivesdk",
+    "sourceSha256": "7858f03b7ab2947dae41aeb963aaf8bf672fa88da4673cf68ef2b2f01015bb3a",
+    "textSha256": "463ab2c712a810c6ccef300af5a8d6c61e84e9371d43f8d70110fc838e0867fe",
+    "changeKey": "c74616a3aad600a379077980726ad6dd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "065e4d33f21c736bda43",
+    "workId": "065e4d33f21c736bda43",
+    "driveFileId": "1z6NzkTHTtdCUZ5U4zLJc9jftS_DpKbUd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T16:59:37.924344+00:00",
+    "updatedAt": "2026-09-21T16:59:37.924361+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T16:59:37.924474+00:00"
+    }
+  }
+}
