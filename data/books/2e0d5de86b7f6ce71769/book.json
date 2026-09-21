@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고깔구이의 성쇄",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "고깔과자",
+      "설명회",
+      "까마귀"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 유쾌한 상상력이 담긴 에세이.",
+    "oneLineSummary": "우연히 '고깔 과자' 신제품 모집에 응모했다가 겪게 되는 기괴한 소동을 다룬다.",
+    "overallSummary": "과자에 관심이 많아 꼬깔 과자 신제품 모집 설명회에 갔다가 전통을 고집하는 거대 까마귀들과 꼬깔 제과의 기괴한 내막을 접하고 발을 빼는 이야기다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "설명회 참석부터 과자 개발, 그리고 진짜 꼬깔 과자만을 먹는 거대 까마귀들을 만난 경험을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상금",
+        "value": "2백만 엔"
+      }
+    ],
+    "keyEntitiesText": "전무, 꼬깔 까마귀, 안경 낀 여자",
+    "settingText": "꼬깔 제과 회사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "126t3Vfz8-OxJvh8_60LAew26qdMbJJiC",
+    "filename": "고깔구이의 성쇄.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.777Z",
+    "size": "6848",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/126t3Vfz8-OxJvh8_60LAew26qdMbJJiC/view?usp=drivesdk",
+    "sourceSha256": "b6c29dae8059239401c7b6fcc15d6e7553c98aa39d12e60602992e00581a68fc",
+    "textSha256": "b58b3388aafbd07d3610d417cc61b4b15176b342c4075f00958a09d5cdd4e809",
+    "changeKey": "db193f833c036199ed878898877f8d33",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e0d5de86b7f6ce71769",
+    "workId": "2e0d5de86b7f6ce71769",
+    "driveFileId": "126t3Vfz8-OxJvh8_60LAew26qdMbJJiC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:52:08.083588+00:00",
+    "updatedAt": "2026-09-21T19:52:08.083606+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:52:08.083701+00:00"
+    }
+  }
+}

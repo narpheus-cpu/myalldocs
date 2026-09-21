@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "교훈적인 이야기",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "교훈",
+      "편집자",
+      "재즈",
+      "쯔레즈레구사"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 에세이.",
+    "oneLineSummary": "문학이나 일상 속에서 발견되는 교훈의 성격과 편집자의 일화를 유쾌하게 분석한다.",
+    "overallSummary": "문학 작품 속 교훈의 의미를 짚어보고, 전위 재즈 배속 재생 실수로 평론가와 얽힌 한 편집자의 일화를 케이스 스터디 형식으로 분석하여 다양한 교훈을 도출한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "독후감 교훈 일화와 전위 재즈 평론가 일화를 통해 삶의 다양한 교훈들을 이끌어낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "편집자의 재즈 일화"
+      }
+    ],
+    "keyEntitiesText": "편집자, 재즈 평론가",
+    "settingText": "일상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qIkR9mk8zLgTi7gM3H2ZTgo7eRTXI98d",
+    "filename": "교훈적인 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.846Z",
+    "size": "4824",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1qIkR9mk8zLgTi7gM3H2ZTgo7eRTXI98d/view?usp=drivesdk",
+    "sourceSha256": "966f0e5bfc5774c9e12b3c4ae93c82d120d41c4d794f252db0902ddb8850cef3",
+    "textSha256": "2c10403d9486285d801d12c4816aee36d2cb093aa0ab7a93a538122d079feabe",
+    "changeKey": "ee2c1a8f1f4c67c4afc9b3e3b1895f10",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5371223559a706072daf",
+    "workId": "5371223559a706072daf",
+    "driveFileId": "1qIkR9mk8zLgTi7gM3H2ZTgo7eRTXI98d",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:53:07.546429+00:00",
+    "updatedAt": "2026-09-21T19:53:07.546446+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:53:07.546557+00:00"
+    }
+  }
+}

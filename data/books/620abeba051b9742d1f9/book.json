@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "건강",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "건강",
+      "재능",
+      "좌우명",
+      "통증"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 건강에 대한 에세이.",
+    "oneLineSummary": "'첫째가 건강, 둘째는 재능'이라는 좌우명을 바탕으로 신체적 건강과 공감각에 대해 고찰한다.",
+    "overallSummary": "병치레가 없고 숙취도 잘 모르는 건강 체질인 저자가, 타인의 육체적 고통에 대한 상상력의 한계와 건강의 중요성에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "건강을 최우선으로 여기는 이유와 숙취나 변비 등을 이해하지 못하는 일상의 단상을 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "좌우명",
+        "value": "첫째가 건강, 둘째는 재능"
+      }
+    ],
+    "keyEntitiesText": "저자, 아내",
+    "settingText": "일상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BhPHZ30AVJHvsS4fwUZ5_C2JlqS9vpvy",
+    "filename": "건강.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.727Z",
+    "size": "4813",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1BhPHZ30AVJHvsS4fwUZ5_C2JlqS9vpvy/view?usp=drivesdk",
+    "sourceSha256": "2f9e3fd22032527709c395b64f48a60c490e605f7734db99e5118d1284bb7670",
+    "textSha256": "1bb322c7af131f96130208c335d2a692af27fcf5630d2e9e863b0a8d22b70a6e",
+    "changeKey": "6004c7966be3e8f031b4633485682122",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "620abeba051b9742d1f9",
+    "workId": "620abeba051b9742d1f9",
+    "driveFileId": "1BhPHZ30AVJHvsS4fwUZ5_C2JlqS9vpvy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:50:55.377997+00:00",
+    "updatedAt": "2026-09-21T19:50:55.378015+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:50:55.378102+00:00"
+    }
+  }
+}

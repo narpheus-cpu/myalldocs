@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고양이의 죽음에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "고양이",
+      "죽음",
+      "기린",
+      "장례"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 에세이.",
+    "oneLineSummary": "키우던 고양이의 죽음과 그동안 함께했던 고양이들의 기억을 회상한다.",
+    "overallSummary": "무라카미 류에게서 데려왔던 고양이 '기린'의 갑작스러운 죽음과 화장 과정, 그리고 지난 15년간 거쳐간 여러 고양이들의 목록을 정리한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "방광염으로 죽은 고양이 기린의 장례식과 역대 반려묘들의 이름을 회고한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "반려묘목록",
+        "value": "기린, 푸치, 선댄스, 얼룩이, 스코티 등"
+      }
+    ],
+    "keyEntitiesText": "기린, 뮤즈, 무라카미 류",
+    "settingText": "저자의 집, 동물병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17a_-KG50goS0eh75SvCFLNZwMDeNM-c9",
+    "filename": "고양이의 죽음에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.805Z",
+    "size": "4096",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/17a_-KG50goS0eh75SvCFLNZwMDeNM-c9/view?usp=drivesdk",
+    "sourceSha256": "5c9d2eb14b094691c5fe23e891cc474f5daa588ba8372b863e068bfb4b75f5c5",
+    "textSha256": "68aaa1d98a1bc0075a766e717e47a7fa9048a05d5c52bcda536a3201f44cc106",
+    "changeKey": "9ea6fe7b461fbc4c71aa4cd2851d2ca9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fae5beb8934233bc706d",
+    "workId": "fae5beb8934233bc706d",
+    "driveFileId": "17a_-KG50goS0eh75SvCFLNZwMDeNM-c9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:52:27.165823+00:00",
+    "updatedAt": "2026-09-21T19:52:27.165840+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:52:27.165929+00:00"
+    }
+  }
+}

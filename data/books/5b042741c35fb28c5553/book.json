@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바람의 노래를 들어라",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "데뷔작",
+      "청춘",
+      "1970년",
+      "맥주",
+      "문장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "novel",
+        "coming_of_age"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 대표적인 소설가로 본 도서는 그의 데뷔작이다.",
+    "oneLineSummary": "완벽한 문장이 존재하지 않는 세계에서 1970년 여름을 보낸 청춘의 기록이다.",
+    "overallSummary": "대학 시절 8년간의 글쓰기에 대한 단상과 1970년 8월 8일부터 26일까지 쥐와 함께 보낸 여름날의 일들을 회상 형식으로 그려낸 소설이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1-7",
+        "summary": "완벽한 문장에 대한 생각과 데릭 허트필드에 대한 회고, 그리고 쥐와의 만남과 대화들이 파편적으로 펼쳐진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시작일",
+        "value": "1970년 8월 8일"
+      },
+      {
+        "key": "종료일",
+        "value": "1970년 8월 26일"
+      }
+    ],
+    "keyEntitiesText": "나, 쥐, 제이, 데릭 허트필드",
+    "settingText": "1970년 8월의 어느 바닷가 마을, 제이스 바"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ewMYRK0LT7QjQgVZJpsxLdGzDXHWeLht",
+    "filename": "무라카미 하루키-바람의 노래를 들어라.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.625Z",
+    "size": "122855",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키",
+    "webViewLink": "https://drive.google.com/file/d/1ewMYRK0LT7QjQgVZJpsxLdGzDXHWeLht/view?usp=drivesdk",
+    "sourceSha256": "57ff1c77af229123379192762476c7a650e7a930988f031a6c7e56cc06de035d",
+    "textSha256": "d6da9062e5fa3d94b4807e13f694486200d7ab83d9e6423e5524dd32af090e12",
+    "changeKey": "33e79523c0cf34181d733680431e4044",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5b042741c35fb28c5553",
+    "workId": "5b042741c35fb28c5553",
+    "driveFileId": "1ewMYRK0LT7QjQgVZJpsxLdGzDXHWeLht",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:48:04.216345+00:00",
+    "updatedAt": "2026-09-21T19:48:04.216361+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:48:04.216587+00:00"
+    }
+  }
+}

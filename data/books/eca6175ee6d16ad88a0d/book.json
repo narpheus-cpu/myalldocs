@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "금연이 취미",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "금연",
+      "취미",
+      "노하우",
+      "스티븐 킹"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 금연에 관한 에세이.",
+    "oneLineSummary": "의지보다는 효율적인 노하우가 중요하다는 자신만의 독특한 금연 철학을 밝힌다.",
+    "overallSummary": "스티븐 킹의 단편 소설을 언급하며 시작하여, 헤비스모커였던 저자가 장편소설 집필 주기에 맞춰 담를 끊으며 터득한 세 가지 금연 노하우를 유쾌하게 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "금연 회사의 허구성과 함께 일을 쉬기, 남을 걸고 넘어지기, 먹고 싶은 만큼 먹기라는 세 가지 금연 노하우를 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "금연노하우3가지",
+        "value": "일 안 하기, 타인 걸고 넘어지기, 좋아하는 음식 먹기"
+      }
+    ],
+    "keyEntitiesText": "스티븐 킹, 편집자",
+    "settingText": "일상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1V3zJCKvPAMSTQjzs4i7Dcl9FMcxjQIgk",
+    "filename": "금연이 취미.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.888Z",
+    "size": "4995",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1V3zJCKvPAMSTQjzs4i7Dcl9FMcxjQIgk/view?usp=drivesdk",
+    "sourceSha256": "496a05d16897715524559992f893f7a311a27079bdd379a7cd3a09a72ca9f69c",
+    "textSha256": "ff50060926fcf98c48d2918bfd7b1f7503eef9b8ca89353726e4113a75325c65",
+    "changeKey": "2727474455ebab6b0a4d55ddd3905277",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "eca6175ee6d16ad88a0d",
+    "workId": "eca6175ee6d16ad88a0d",
+    "driveFileId": "1V3zJCKvPAMSTQjzs4i7Dcl9FMcxjQIgk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:54:39.034146+00:00",
+    "updatedAt": "2026-09-21T19:54:39.034164+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:54:39.034255+00:00"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그리스에 있어서의 정보의 존재 양식",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "그리스",
+      "정보",
+      "카페",
+      "토론"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay",
+        "travel"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 여행 에세이.",
+    "oneLineSummary": "카페에 모여 토론으로 정보를 나누는 독특한 그리스의 소통 방식을 소개한다.",
+    "overallSummary": "책방이 드문 그리스에서 사람들이 카페에 모여 끝없이 토론하며 여론을 형성하는 모습과, 오랜 과거의 역사적 사건을 여전히 생생하게 기억하는 그들의 태도를 관찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "그리스의 정보 전달 방식과 과거 전쟁의 상처를 기억하는 사람들의 모습을 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "국가",
+        "value": "그리스"
+      }
+    ],
+    "keyEntitiesText": "그리스인 할아버지",
+    "settingText": "그리스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1aPU-7pyoiPVgwqRR7grUuucmAUkQSrhp",
+    "filename": "그리스에 있어서의 정보의 존재 양식.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.866Z",
+    "size": "1869",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1aPU-7pyoiPVgwqRR7grUuucmAUkQSrhp/view?usp=drivesdk",
+    "sourceSha256": "5b7c412e7da15402fb9a5a720c776e5deb42a7297486b12a0a6a11aca903b99c",
+    "textSha256": "fd70f39f3085b46d11df169a1e2d3515f90c65edf9dc0d8131a8ef20f7222b28",
+    "changeKey": "522e6debddcd22a29016eb4dd88d16a9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4196e8d910f0e9da4741",
+    "workId": "4196e8d910f0e9da4741",
+    "driveFileId": "1aPU-7pyoiPVgwqRR7grUuucmAUkQSrhp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:54:01.160163+00:00",
+    "updatedAt": "2026-09-21T19:54:01.160180+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:54:01.160268+00:00"
+    }
+  }
+}

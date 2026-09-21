@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "굿 하우스 키핑",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "주부",
+      "가사",
+      "심플 라이프",
+      "결혼"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 주부 경험담 에세이.",
+    "oneLineSummary": "결혼 초기 약 반년 동안 전업주부(주부)로서 보냈던 멋진 시절을 회상한다.",
+    "overallSummary": "가난했지만 심플했던 결혼 초기, 아내가 출근한 뒤 집안일을 맡아 하며 보냈던 반년 동안의 '주부' 생활을 돌아보며 주부적 속성과 역할에 대해 고찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "아침 청소, 빨래, 장보기 등 가난하지만 평온했던 전업주부 시절의 일상을 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기간",
+        "value": "약 반년"
+      }
+    ],
+    "keyEntitiesText": "저자, 아내",
+    "settingText": "신혼 시절의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VlWMP8y6Bp9ubmkezxj3q1YkthtfgnNz",
+    "filename": "굿 하우스 키핑.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.855Z",
+    "size": "4611",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1VlWMP8y6Bp9ubmkezxj3q1YkthtfgnNz/view?usp=drivesdk",
+    "sourceSha256": "34469ad1f4d57c82922004a373799c4fc52fe6c79eb339faa48ed332f25c95ab",
+    "textSha256": "297d0988093965d6a199f74dceb1d77d41ce2f041b14c0ceae6d80522e8cdc7b",
+    "changeKey": "12e7bf006609a7e9bf76e310d4742374",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1bc56907a7a28fe801ff",
+    "workId": "1bc56907a7a28fe801ff",
+    "driveFileId": "1VlWMP8y6Bp9ubmkezxj3q1YkthtfgnNz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:53:26.166659+00:00",
+    "updatedAt": "2026-09-21T19:53:26.166677+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:53:26.166769+00:00"
+    }
+  }
+}

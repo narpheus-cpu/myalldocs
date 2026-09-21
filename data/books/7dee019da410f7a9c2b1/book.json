@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개미에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "개미",
+      "관찰",
+      "영화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 동물 관찰 에세이.",
+    "oneLineSummary": "개미의 위대함과 동시에 집단행동이 주는 섬뜩함을 관찰한 글이다.",
+    "overallSummary": "개미가 흙을 멀리 내다 버리는 영리함에 감탄하면서도, 말없이 집단으로 행동하는 모습과 거대 개미 영화를 떠올리며 공포심을 느낀다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "개미에 관하여 (1)-(2)",
+        "summary": "개미의 흙 나르기 습관에서 오는 위대함과, 이면의 무서움 및 거대 곤충 영화에 대한 기억을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "개미의 행동 양식"
+      }
+    ],
+    "keyEntitiesText": "개미",
+    "settingText": "버스 정류장 발치, 영화"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1c5ekCp4REfPR9iF2pz5mUWsfKZVjnl-y",
+    "filename": "개미에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.715Z",
+    "size": "3436",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1c5ekCp4REfPR9iF2pz5mUWsfKZVjnl-y/view?usp=drivesdk",
+    "sourceSha256": "dc82c1df3e07ca5f7f3bae3988048de824a66a88761625047502c3b1d8c8f05d",
+    "textSha256": "2b5f0a44dfedf77f07ca92750c89847879b7a9f2d0bc9a531eb0c60e84008705",
+    "changeKey": "4e7a5b94c45fec27e08539b3aa4c5bff",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7dee019da410f7a9c2b1",
+    "workId": "7dee019da410f7a9c2b1",
+    "driveFileId": "1c5ekCp4REfPR9iF2pz5mUWsfKZVjnl-y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:50:21.303755+00:00",
+    "updatedAt": "2026-09-21T19:50:21.303772+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:50:21.303860+00:00"
+    }
+  }
+}

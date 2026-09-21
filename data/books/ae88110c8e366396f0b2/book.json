@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "검푸른색 양복",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "양복",
+      "패션",
+      "VAN",
+      "옷장"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 패션과 양복에 관한 에세이.",
+    "oneLineSummary": "인생의 몇 벌 안 되는 양복과 옷에 대한 소회를 담은 글이다.",
+    "overallSummary": "열여덟 살 때 맞춘 첫 양복부터 문예지 수상식 때 산 싼 양복까지 자신의 양복 변천사를 돌아보며 옷에 대한 귀찮음과 단상을 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "헤링본 양복, 올리브 그린 수트 등 과거에 입었던 양복들과 양복에 대한 단상을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요브랜드",
+        "value": "VAN, 폴 스튜어트, 브룩스 브러더스"
+      }
+    ],
+    "keyEntitiesText": "찰스 랩슨",
+    "settingText": "일상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1v5d8P1l2CHxqX2GtsTm8XUoFUUZqEji6",
+    "filename": "검푸른색 양복.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.736Z",
+    "size": "5391",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1v5d8P1l2CHxqX2GtsTm8XUoFUUZqEji6/view?usp=drivesdk",
+    "sourceSha256": "ad476e0455d5fea3997616f3dc345be9c7736e2c1b38502873f44a063f9e382e",
+    "textSha256": "fa70541cc2f743e064b7c2d904bdd58099bb091611113a9a38bae5335e6a2ff9",
+    "changeKey": "fcd0ea1dc1cd3cce6a4d83a1d5cb33a0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ae88110c8e366396f0b2",
+    "workId": "ae88110c8e366396f0b2",
+    "driveFileId": "1v5d8P1l2CHxqX2GtsTm8XUoFUUZqEji6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:51:31.276277+00:00",
+    "updatedAt": "2026-09-21T19:51:31.276295+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:51:31.276387+00:00"
+    }
+  }
+}

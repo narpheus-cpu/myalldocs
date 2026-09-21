@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "UFO.TXT",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "UFO",
+      "예술가",
+      "흥미"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 에세이.",
+    "oneLineSummary": "UFO에 특별한 흥미가 없는 소설가의 일상적 단상이다.",
+    "overallSummary": "UFO나 유령에 흥미가 없지만 주변의 강요로 인해 '예술방면 활동가'라는 독특한 정의를 내리게 된 경험을 유머러스하게 담았다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "UFO를 보지 못한 소설가로서 겪는 소소한 귀찮음과 '예술방면 활동가'라는 개념을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심개념",
+        "value": "예술방면 활동가"
+      }
+    ],
+    "keyEntitiesText": "저자, 지인들",
+    "settingText": "일상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xIHuuTESOxm4tKvab6KCnZInzBpbimVo",
+    "filename": "UFO.TXT",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.694Z",
+    "size": "2046",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1xIHuuTESOxm4tKvab6KCnZInzBpbimVo/view?usp=drivesdk",
+    "sourceSha256": "8c5bf5840a58b7872c194d689343998fc21f2f860e9e7699816a5357ba3d4c15",
+    "textSha256": "e2ce51b8f091357515631bac7de4c66e60d8d0999ab2e788287b6be530052c93",
+    "changeKey": "1b42f2eea236268f422fbad964569ba8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "334d275ba471ac9adc84",
+    "workId": "334d275ba471ac9adc84",
+    "driveFileId": "1xIHuuTESOxm4tKvab6KCnZInzBpbimVo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:49:09.613913+00:00",
+    "updatedAt": "2026-09-21T19:49:09.613930+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7267,
+      "updatedAt": "2026-09-21T19:49:09.614021+00:00"
+    }
+  }
+}

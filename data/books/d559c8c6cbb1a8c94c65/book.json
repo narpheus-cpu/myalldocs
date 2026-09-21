@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고쿠분지 이야기",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "고쿠분지",
+      "재즈찻집",
+      "창업",
+      "1974년"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 과거 회고 에세이.",
+    "oneLineSummary": "취직 대신 고쿠분지에 재즈 찻집을 열었던 1974년의 기억을 풀어놓는다.",
+    "overallSummary": "처가에서 나와 고쿠분지에 재즈 찻집을 차리게 된 경위와 당시의 자금 상황, 그리고 오늘날의 각박해진 창업 환경에 대한 단상을 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "1974년 500만 엔으로 고쿠분지에 재즈 찻집을 차렸던 경험과 시대를 비교한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "창업연도",
+        "value": "1974년"
+      },
+      {
+        "key": "가게이름",
+        "value": "피터 캣"
+      }
+    ],
+    "keyEntitiesText": "저자, 아내",
+    "settingText": "고쿠분지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RlO9HBGk4KvNhsLXVbNXpLhb-OPikT_k",
+    "filename": "고쿠분지 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.815Z",
+    "size": "2078",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1RlO9HBGk4KvNhsLXVbNXpLhb-OPikT_k/view?usp=drivesdk",
+    "sourceSha256": "72ec34b11a1d7b5b3e692937f61455a75947e3b769215bf0c98c10147b806dd2",
+    "textSha256": "e56035ddb2424538ae0424045eee6699788d51cbfbd888040e6ea7ee6c074b3c",
+    "changeKey": "98550b15e3ce595eccc88c3259d7f5b1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d559c8c6cbb1a8c94c65",
+    "workId": "d559c8c6cbb1a8c94c65",
+    "driveFileId": "1RlO9HBGk4KvNhsLXVbNXpLhb-OPikT_k",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:52:34.977122+00:00",
+    "updatedAt": "2026-09-21T19:52:34.977138+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:52:34.977227+00:00"
+    }
+  }
+}

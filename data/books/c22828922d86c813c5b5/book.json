@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "간지럽히기와 손가락 자르기",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "영화",
+      "고문",
+      "서부극"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "film_critique",
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 영화 관련 에세이.",
+    "oneLineSummary": "영화 속 다양한 고문 장면에 대한 감상을 유쾌하고도 살벌하게 풀어낸다.",
+    "overallSummary": "서부극의 유쾌한 간지럽히기 고문부터 영화 속 잔인한 손가락 절단 장면까지 다양한 영화적 고문 신을 비교하며 소회를 밝힌다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "간지럽히기 고문과 샤키즈 머신 등 영화 속 고문 장면들을 비교한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소개된영화",
+        "value": "샤키즈 머신, 더 야쿠자"
+      }
+    ],
+    "keyEntitiesText": "샤키 형사, 버트 레이놀즈",
+    "settingText": "영화 속 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1A04zg-nYLKG9y5EMCBehLDhUX8Qnop96",
+    "filename": "간지럽히기와 손가락 자르기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.704Z",
+    "size": "1768",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1A04zg-nYLKG9y5EMCBehLDhUX8Qnop96/view?usp=drivesdk",
+    "sourceSha256": "7b87bf2b743b7792f4b6b0e720f81bff97b91b61f9efbe6b0a7bc649540ed765",
+    "textSha256": "da086c2b97fe46a8125ac73b7aec8fdbfafc56a268601a822f199b5d6698269c",
+    "changeKey": "29274556907744656e4633d6fa5d3e69",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c22828922d86c813c5b5",
+    "workId": "c22828922d86c813c5b5",
+    "driveFileId": "1A04zg-nYLKG9y5EMCBehLDhUX8Qnop96",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:49:44.381199+00:00",
+    "updatedAt": "2026-09-21T19:49:44.381216+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:49:44.381306+00:00"
+    }
+  }
+}

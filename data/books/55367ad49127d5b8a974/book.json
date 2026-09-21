@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "13일의 불멸일",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "점",
+      "운수",
+      "이사",
+      "소신"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 에세이.",
+    "oneLineSummary": "점이나 운세 같은 미신에 얽매이지 않고 자신의 소신대로 나아가는 삶의 태도를 다룬다.",
+    "overallSummary": "점이나 이사 방향 등의 미신을 믿지 않고 저돌적으로 밀고 나가는 저자의 성격과 일화를 유쾌하게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "점, 결혼, 이사 등에서 남들의 경고를 무시하고 자신의 의지대로 행동했던 경험을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "미신에 대한 태도"
+      }
+    ],
+    "keyEntitiesText": "저자, 지기, 어머니",
+    "settingText": "일상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1a3hr6KKceqp0AxbeFOdoN63KkJaHZEZO",
+    "filename": "13일의 불멸일.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.683Z",
+    "size": "4595",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1a3hr6KKceqp0AxbeFOdoN63KkJaHZEZO/view?usp=drivesdk",
+    "sourceSha256": "ea13587a441aab9092a6d74d17ab72545f01292482666c84b89e234a97c400e6",
+    "textSha256": "3d3bc66efa3c9714dc5e14c0eae5c4c7b7bb22fec9f6bcb8cc7f88622fa1f0d3",
+    "changeKey": "f158c78e7432446c70ed3fa4fc1dbe5a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "55367ad49127d5b8a974",
+    "workId": "55367ad49127d5b8a974",
+    "driveFileId": "1a3hr6KKceqp0AxbeFOdoN63KkJaHZEZO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:48:35.613846+00:00",
+    "updatedAt": "2026-09-21T19:48:35.613863+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:48:35.613955+00:00"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그리스의 식당에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "그리스",
+      "식당",
+      "요리",
+      "음식"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "essay",
+        "travel"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키의 여행 및 음식 에세이.",
+    "oneLineSummary": "파리가 꼬여도 맛이 훌륭한 그리스 대중 식당의 매력을 찬미한다.",
+    "overallSummary": "그리스 음식에 대한 오해를 풀며, 일류 호텔 레스토랑보다 파리가 끓는 대중 식당이나 해안가의 생선 요리가 훨씬 맛있고 저렴하다는 여행 경험을 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "그리스 요리의 맛, 파리가 많은 대중 식당의 매력, 해산물 요리의 훌륭함을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "대표요리",
+        "value": "무사카, 도미 구이, 로브스터"
+      }
+    ],
+    "keyEntitiesText": "저자",
+    "settingText": "그리스의 식당들"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12MVkxV5_Zy8cxpF8Skrc2r4Vs8bfnP_Z",
+    "filename": "그리스의 식당에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.877Z",
+    "size": "1773",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/12MVkxV5_Zy8cxpF8Skrc2r4Vs8bfnP_Z/view?usp=drivesdk",
+    "sourceSha256": "761bbd9e406cc60afe7b49fc77248ce6bb6b2624d851e4a68016a653f9b9a0d1",
+    "textSha256": "1242aaa070dc32156d1a49efd071b8584084ba0bbf73aa0bc29e7c11c7bf3b00",
+    "changeKey": "62d47b6b99251bf6585af786fff54c3b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e2abf404fd07b7527c85",
+    "workId": "e2abf404fd07b7527c85",
+    "driveFileId": "12MVkxV5_Zy8cxpF8Skrc2r4Vs8bfnP_Z",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:54:24.730145+00:00",
+    "updatedAt": "2026-09-21T19:54:24.730162+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:54:24.730249+00:00"
+    }
+  }
+}
