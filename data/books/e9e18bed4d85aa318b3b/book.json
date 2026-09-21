@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그리스 사유의 기원",
+    "author": "김재홍",
+    "genre": "철학",
+    "tags": [
+      "그리스",
+      "철학",
+      "사상",
+      "신화"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "고대철학",
+        "사상사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "가톨릭대학교 인간학 연구소 전임연구원이자 서양고대철학 전공자.",
+    "oneLineSummary": "고대 그리스의 신화적 사고에서 이성적 사고로의 이행 과정을 통해 그리스 철학의 기원을 탐구한 책.",
+    "overallSummary": "그리스 철학의 시원인 '뮈토스에서 로고스로'의 전환 과정을 다룬다. 호메로스와 헤시오도스의 신화적 세계관이 어떻게 이성적 사유로 발전했는지, 그리고 폴리스의 형성과 역사적 배경이 철학의 발생에 어떤 영향을 미쳤는지 분석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그리스 사유의 배경",
+        "summary": "그리스 문명의 역사적 전개와 폴리스의 형성 과정을 고찰."
+      },
+      {
+        "sectionTitle": "신화에서 철학으로",
+        "summary": "뮈토스적 사고와 로고스적 사고의 관계, 철학의 발생 근거를 탐구."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 관점",
+        "value": "신화적 사고와 이성적 사고의 연속성과 전환"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "그리스 철학의 기원과 합리적 사유의 발생"
+      }
+    ],
+    "keyEntitiesText": "탈레스, 호메로스, 헤시오도스, 아리스토텔레스",
+    "settingText": "고대 그리스."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-3_Ai1xN2RYY1CqTZq0ZAlLBQKOikSoU",
+    "filename": "살림지식총서-그리스 사유의 기원(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:38:58.000Z",
+    "size": "151800",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1-3_Ai1xN2RYY1CqTZq0ZAlLBQKOikSoU/view?usp=drivesdk",
+    "sourceSha256": "0fc0c7ebbfed64e305b301c78754b64e9b048bd6baa811277302e2fed2a1b7a0",
+    "textSha256": "ae59d0fdcbbe83f671b44f9612a9a465453ea1ba4be604b6912c54c04f9680a4",
+    "changeKey": "30dee923d81991239455149fd61c7f5d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e9e18bed4d85aa318b3b",
+    "workId": "e9e18bed4d85aa318b3b",
+    "driveFileId": "1-3_Ai1xN2RYY1CqTZq0ZAlLBQKOikSoU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:17:12.081234+00:00",
+    "updatedAt": "2026-09-21T15:17:12.081252+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:17:12.081354+00:00"
+    }
+  }
+}

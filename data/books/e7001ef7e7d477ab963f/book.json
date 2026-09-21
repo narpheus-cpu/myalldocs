@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사기 1",
+    "author": "사마천",
+    "genre": "역사",
+    "tags": [
+      "사기",
+      "열전",
+      "인물",
+      "평역"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "인물전",
+        "평역"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한나라 무제 시대의 태사령으로, 궁형의 치욕을 딛고 중국 최초의 기전체 통사 '사기'를 집필한 역사가.",
+    "oneLineSummary": "사마천의 '사기' 열전 중 주요 인물들의 삶을 평역하여 인물들의 행적과 지혜를 담은 책.",
+    "overallSummary": "사마천의 '사기' 열전 1권을 평역한 책으로, 백이, 관중, 노자, 손자 등 춘추 전국 시대의 주요 인물들의 전기를 다룬다. 인물들의 삶을 통해 당시의 정치, 사상, 전략 등을 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "주요 인물 열전",
+        "summary": "백이, 관중, 노자, 손자 등 춘추 전국 시대 인물들의 삶과 사상을 기록."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 방식",
+        "value": "인물별 전기를 통한 역사적 행적과 사상적 배경 분석"
+      }
+    ],
+    "keyEntitiesText": "백이, 관중, 노자, 한비자, 손자, 오기, 오자서",
+    "settingText": "춘추 전국 시대의 혼란기."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Ph2UpDu2CY07Zld5_DdHNPLhZv1Q73mq",
+    "filename": "사마천의 완역, 김병총 평역-사기 1 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.916Z",
+    "size": "552851",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1Ph2UpDu2CY07Zld5_DdHNPLhZv1Q73mq/view?usp=drivesdk",
+    "sourceSha256": "f96c468ec4669a489f8455cad47235e90aa23ec34c72da6dc53e6ebb67fd3a12",
+    "textSha256": "6ada67530f85772dd875ef44f6773b90679b4e4319c51ae591a840842a826b8b",
+    "changeKey": "69d73a2a62da700b4a20a024a81b1653",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e7001ef7e7d477ab963f",
+    "workId": "e7001ef7e7d477ab963f",
+    "driveFileId": "1Ph2UpDu2CY07Zld5_DdHNPLhZv1Q73mq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:15:23.618088+00:00",
+    "updatedAt": "2026-09-21T15:15:23.618105+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:15:23.618295+00:00"
+    }
+  }
+}

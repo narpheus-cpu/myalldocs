@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "두 얼굴을 가진 하나님",
+    "author": "김형인",
+    "genre": "역사",
+    "tags": [
+      "미국사",
+      "노예제",
+      "성서",
+      "종교"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "종교사",
+        "미국사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 뉴멕시코 대학에서 노예제도를 주제로 박사학위를 받은 역사학자.",
+    "oneLineSummary": "성서적 해석을 통해 미국 노예제도의 찬반 논리와 그 이면의 종교적 양면성을 분석한 역사 연구서.",
+    "overallSummary": "19세기 미국 노예제도를 둘러싼 찬반 논쟁에서 성서가 어떻게 양측의 전거로 사용되었는지 분석한다. 종교가 착취와 지배를 정당화하는 도구로 쓰인 동시에 폐지론의 근거로도 사용된 야누스적 얼굴을 보여주며, 노예제도의 역사적 맥락과 종교적 해석을 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "성서와 노예제",
+        "summary": "노예제 찬반 양측이 성서의 구절을 어떻게 인용하고 해석했는지 분석."
+      },
+      {
+        "sectionTitle": "역사적 맥락",
+        "summary": "미국 노예제도의 시작과 운반 과정, 그리고 경제적 배경을 다룸."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 관점",
+        "value": "종교의 양면성(야누스적 얼굴)을 통한 노예제 분석"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "성서적 텍스트의 해석과 사회적 갈등"
+      }
+    ],
+    "keyEntitiesText": "미국 노예, 노예제 폐지론자, 노예제 옹호론자",
+    "settingText": "19세기 미국 노예제 시대."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ylO1f1I_NsX8em5M9L7VPeIrsrLyCOal",
+    "filename": "살림지식총서-두 얼굴을 가진 하나님-성서로 보는 미국 노예제(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:45:10.000Z",
+    "size": "148989",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1ylO1f1I_NsX8em5M9L7VPeIrsrLyCOal/view?usp=drivesdk",
+    "sourceSha256": "47451f5d3fea1b01e3d552c0d848f90d48ef5a8d9142c05e70b3f16426d2998a",
+    "textSha256": "0299f5753c769d632a3d44475960f37ad016bc1cdf1a518ea3995fdf5eb45221",
+    "changeKey": "d4b9de458d5583bf1ca4b69d9442ba99",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d3ef7545485ce20b0f0a",
+    "workId": "d3ef7545485ce20b0f0a",
+    "driveFileId": "1ylO1f1I_NsX8em5M9L7VPeIrsrLyCOal",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:15:52.426501+00:00",
+    "updatedAt": "2026-09-21T15:15:52.426517+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:15:52.426621+00:00"
+    }
+  }
+}

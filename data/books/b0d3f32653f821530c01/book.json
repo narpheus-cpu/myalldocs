@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그리스의 시인들",
+    "author": "김헌",
+    "genre": "문학",
+    "tags": [
+      "그리스",
+      "시인",
+      "서사시",
+      "서정시"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": [
+        "문학사",
+        "고전"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대학교 서양고전학 전공자이자 고전학자.",
+    "oneLineSummary": "고대 그리스의 주요 시인들과 그들의 작품을 통해 그리스 문학의 정신적 토양을 탐구한 책.",
+    "overallSummary": "호메로스, 헤시오도스, 파르메니데스 등 서사시인들과 아르킬로코스, 사포, 핀다로스 등 서정시인들을 소개한다. 그리스 시인들이 신과 더불어 누리던 자유와 환희, 그리고 서구 문명의 기원이 된 그리스 정신을 문학적으로 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서사시의 시대",
+        "summary": "호메로스, 헤시오도스, 파르메니데스를 통해 서사시의 전통과 신화적 세계관을 다룸."
+      },
+      {
+        "sectionTitle": "서정시의 시대",
+        "summary": "아르킬로코스, 사포, 핀다로스를 통해 개인의 감정과 새로운 가치를 노래한 서정시를 다룸."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 관점",
+        "value": "신화와 인간의 관계를 통한 그리스 정신의 탐구"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "그리스 시인들의 노래에 담긴 자유와 환희"
+      }
+    ],
+    "keyEntitiesText": "호메로스, 헤시오도스, 파르메니데스, 아르킬로코스, 사포, 핀다로스",
+    "settingText": "고대 그리스."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15byM53hjisBVSfbTrplUE-_3UGKOddj0",
+    "filename": "살림지식총서-고대 그리스의 시인들(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:36:06.000Z",
+    "size": "140754",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/15byM53hjisBVSfbTrplUE-_3UGKOddj0/view?usp=drivesdk",
+    "sourceSha256": "eaf5dfc6bc74e2efb1baf98eb8b928f4050fa95150e946f91e98d5c3510f24ca",
+    "textSha256": "50465008a1a12f86d257190a9d427362c1a72c17c149a91b6d4a06ec69d71143",
+    "changeKey": "f3cc2a9193cffb2a84683384be61c7af",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b0d3f32653f821530c01",
+    "workId": "b0d3f32653f821530c01",
+    "driveFileId": "15byM53hjisBVSfbTrplUE-_3UGKOddj0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:16:10.702404+00:00",
+    "updatedAt": "2026-09-21T15:16:10.702421+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:16:10.702532+00:00"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사기 서",
+    "author": "사마천",
+    "genre": "역사",
+    "tags": [
+      "사기",
+      "팔서",
+      "제도사",
+      "사마천"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "제도사",
+        "정치철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한나라 무제 시대의 태사령으로, 궁형의 치욕을 딛고 중국 최초의 기전체 통사 '사기'를 집필한 역사가.",
+    "oneLineSummary": "고대 중국의 예악, 제도, 경제, 천문 등 전장제도를 통해 사마천의 정치 철학과 이상을 서술한 여덟 편의 기록.",
+    "overallSummary": "사마천의 '사기' 중 '팔서'에 해당하는 여덟 편을 완역한 책으로, 예서, 악서, 율서, 역서, 천관서, 봉선서, 하거서, 평준서로 구성되어 있다. 각 편은 짝을 이루어 이상적인 정치 질서, 전쟁과 정치 현실, 변혁과 개혁, 민생과 경제 문제를 다루며, 사마천의 황로 도가 사상과 현실 비판적 시각을 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "예서와 악서",
+        "summary": "이상적인 정치 질서 확립을 위한 예악의 가치와 정치적 기능을 다룸."
+      },
+      {
+        "sectionTitle": "율서와 역서",
+        "summary": "전쟁에 대한 비판적 시각과 역법 개혁을 통한 통치 철학을 논함."
+      },
+      {
+        "sectionTitle": "천관서와 봉선서",
+        "summary": "천문과 제사를 통해 변혁과 개혁의 문제를 짚어냄."
+      },
+      {
+        "sectionTitle": "하거서와 평준서",
+        "summary": "치수와 경제 정책을 통한 민생 문제와 국가 경영을 다룸."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사상적 기반",
+        "value": "황로 도가 사상 및 무위이치 정치관"
+      },
+      {
+        "key": "집필 의도",
+        "value": "전장제도 기록을 통한 이상적 통치 모델 제시 및 당대 현실 비판"
+      }
+    ],
+    "keyEntitiesText": "사마천, 한 무제, 황제, 하상주 삼대",
+    "settingText": "한나라 무제 시대의 중앙 집권화 과정과 그에 따른 사회적 모순이 배경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RU0fzx5w1FZ4o8IRE-T6ZoBReJqV0oea",
+    "filename": "사마천-사기 서(김원중 역)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T01:50:22.000Z",
+    "size": "643838",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1RU0fzx5w1FZ4o8IRE-T6ZoBReJqV0oea/view?usp=drivesdk",
+    "sourceSha256": "cf0281a31f42bd890a3850a74d44046377e9fbf6e42b25ccf0ee02d683575d3a",
+    "textSha256": "ae60224b9e600122525c56f8a8191a9affd870ae805b83f7a9559af0a3a9672d",
+    "changeKey": "0a9290e8d1e09c842d88f5fc7bbc0212",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "eb1bad19a747d8fa5a2f",
+    "workId": "eb1bad19a747d8fa5a2f",
+    "driveFileId": "1RU0fzx5w1FZ4o8IRE-T6ZoBReJqV0oea",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:14:47.161028+00:00",
+    "updatedAt": "2026-09-21T15:14:47.161044+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:14:47.161299+00:00"
+    }
+  }
+}

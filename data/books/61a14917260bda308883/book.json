@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "참으로 곧은 길은 굽어보이는 법이다",
+    "author": "사마천",
+    "genre": "역사",
+    "tags": [
+      "사기",
+      "인물",
+      "처세",
+      "지혜"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "처세술",
+        "인물평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한나라 무제 시대의 태사령으로, 궁형의 치욕을 딛고 중국 최초의 기전체 통사 '사기'를 집필한 역사가.",
+    "oneLineSummary": "사마천의 '사기'에 등장하는 주요 인물들의 삶을 통해 난세를 헤쳐 나가는 지혜와 처세를 다룬 평역서.",
+    "overallSummary": "사마천의 '사기' 속 인물들을 중심으로 그들의 삶과 선택, 성공과 실패를 현대적 시각에서 재해석한 책이다. 강태공, 진시황, 여태후, 한신 등 다양한 인물들의 일화를 통해 난세에 필요한 처세와 통찰력을 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인물별 처세",
+        "summary": "강태공, 진나라 목공, 안영 등 인물들의 일화를 통해 지혜와 처세술을 설명."
+      },
+      {
+        "sectionTitle": "현대적 교훈",
+        "summary": "역사적 인물들의 삶을 통해 오늘날 우리 삶의 방향과 통찰력을 반추함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 방식",
+        "value": "인물별 일화를 통한 현대적 처세와 리더십 해석"
+      },
+      {
+        "key": "핵심 메시지",
+        "value": "난세에 살아남는 자의 생존법과 통찰력의 중요성"
+      }
+    ],
+    "keyEntitiesText": "강태공, 진 목공, 안영, 섭정, 진승, 오광, 여태후, 진평, 숙손통",
+    "settingText": "춘추 전국 시대부터 한나라 초기까지의 격동기."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nFUm6GhgDcE2_nFM0JP2hxrhJvcG0pSS",
+    "filename": "사마천-참으로 곧은 길은 굽어보이는 법이다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.903Z",
+    "size": "303902",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1nFUm6GhgDcE2_nFM0JP2hxrhJvcG0pSS/view?usp=drivesdk",
+    "sourceSha256": "7e4de41617a034bc9b41d90076a72cbb1349487d39c12fb166737f54f1bfd84f",
+    "textSha256": "cf4e2ce34ee7d19aab0d160faa8fc8a8528578a92845d3242cfe8a5d7c686894",
+    "changeKey": "e5d0f7a302d77e8d574a664d7b18f783",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "61a14917260bda308883",
+    "workId": "61a14917260bda308883",
+    "driveFileId": "1nFUm6GhgDcE2_nFM0JP2hxrhJvcG0pSS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:15:16.803361+00:00",
+    "updatedAt": "2026-09-21T15:15:16.803376+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:15:16.803487+00:00"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사상, 역사, 논쟁의 세계로 초대 - 한국철학",
+    "author": "한국철학사상연구회",
+    "genre": "철학",
+    "tags": [
+      "한국철학",
+      "사상사",
+      "논쟁",
+      "철학사"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "한국사",
+        "사상사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국철학을 연구하는 소장 연구자들의 모임인 한국철학사상연구회.",
+    "oneLineSummary": "고대부터 현대까지 한국 철학의 사상, 역사, 논쟁을 체계적으로 정리한 철학사 입문서.",
+    "overallSummary": "한국 철학의 흐름을 사상별, 시대별, 논쟁별로 나누어 서술한 책이다. 유교, 불교, 도교 등 전통 철학의 수용과 발전, 근현대 서양 철학의 유입과 갈등, 그리고 한국 철학사의 주요 논쟁들을 다루며 한국 철학의 주체적 정립을 모색한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사상별 한국 철학",
+        "summary": "유학, 신유학, 실학, 불교, 도교의 한국적 수용과 발전."
+      },
+      {
+        "sectionTitle": "시대별 한국 철학",
+        "summary": "고대부터 현대까지 시대적 흐름에 따른 철학 사상의 변천."
+      },
+      {
+        "sectionTitle": "논쟁별 한국 철학",
+        "summary": "사칠 논쟁, 인심도심 논쟁 등 한국 철학사의 주요 논쟁 정리."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "연구 방법",
+        "value": "사상별, 시대별, 논쟁별 다각적 접근"
+      },
+      {
+        "key": "핵심 가치",
+        "value": "한국 철학의 주체적 정립과 현실 문제 해결을 위한 철학적 탐구"
+      }
+    ],
+    "keyEntitiesText": "지눌, 성철, 퇴계 이황, 율곡 이이, 다산 정약용",
+    "settingText": "고대부터 현대까지의 한국 역사."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pBK7mfHIcpgUBdbg4Jql5aJm2bHTCCdr",
+    "filename": "사상, 역사, 논쟁의 세계로 초대-한국철학.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.977Z",
+    "size": "964837",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1pBK7mfHIcpgUBdbg4Jql5aJm2bHTCCdr/view?usp=drivesdk",
+    "sourceSha256": "b9cf7095f2b45789555f21f18f41b3340069460e459578d05d77fd82f8d8f443",
+    "textSha256": "e55fd79799a96e93c93c3f362cca16bde81de141931e1660874a185ed0f603a2",
+    "changeKey": "0f0d515f7cf443131d8de88fb42ca530",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "48a6a63cf810dd2fe27d",
+    "workId": "48a6a63cf810dd2fe27d",
+    "driveFileId": "1pBK7mfHIcpgUBdbg4Jql5aJm2bHTCCdr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:15:45.336942+00:00",
+    "updatedAt": "2026-09-21T15:15:45.336958+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:15:45.337075+00:00"
+    }
+  }
+}

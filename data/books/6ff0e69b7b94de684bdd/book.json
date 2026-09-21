@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사기 본기",
+    "author": "사마천",
+    "genre": "역사",
+    "tags": [
+      "사기",
+      "본기",
+      "제왕",
+      "중국사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "제왕사",
+        "통사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한나라 무제 시대의 태사령으로, 궁형의 치욕을 딛고 중국 최초의 기전체 통사 '사기'를 집필한 역사가.",
+    "oneLineSummary": "오제부터 한 무제까지 중국 고대 제왕들의 사적을 연대순으로 기록한 사기 본기 12편.",
+    "overallSummary": "사마천의 '사기' 중 제왕들의 역사를 다룬 '본기' 12편을 완역한 책이다. 전설 속 오제부터 한 무제에 이르기까지의 역사를 인물별 연대순으로 엮어, 중국 고대사의 흐름과 제왕들의 통치 철학, 그리고 사마천의 냉철한 역사 평가를 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "상고사",
+        "summary": "오제, 하, 은, 주 본기를 통해 신화와 전설을 역사화하여 재조명."
+      },
+      {
+        "sectionTitle": "근고사 및 금세사",
+        "summary": "진, 진시황, 항우, 고조, 여태후 등 실권자들의 사적을 통해 역사의 변천과 전환을 서술."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사관",
+        "value": "전통과 변화를 역사의 기본 틀로 보며 천인 관계를 역사의 주축으로 설정"
+      },
+      {
+        "key": "서술 파격",
+        "value": "황제가 아닌 항우나 실권자 여태후를 본기에 포함하여 현실적 역사관을 드러냄"
+      }
+    ],
+    "keyEntitiesText": "황제, 우임금, 진시황, 항우, 유방, 여태후, 한 무제",
+    "settingText": "중국 고대 신화 시대부터 한나라 통일 제국 성립기까지."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qfXzFz5SAKBLxQ2cCKiwms8KAPo-FmGM",
+    "filename": "사마천-사기본기(김원중 역)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T01:57:48.000Z",
+    "size": "855542",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1qfXzFz5SAKBLxQ2cCKiwms8KAPo-FmGM/view?usp=drivesdk",
+    "sourceSha256": "61c1a42f47ac3469fca5d4808c978a9ad8c6106ad26ab359cac74dd8c9377ba7",
+    "textSha256": "47146234435f4c9c5a8f2423d0523effb95fea005a9050414b5e07e6a7e10c09",
+    "changeKey": "3b0738a11ff27dea72a0bf9215e78aa3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6ff0e69b7b94de684bdd",
+    "workId": "6ff0e69b7b94de684bdd",
+    "driveFileId": "1qfXzFz5SAKBLxQ2cCKiwms8KAPo-FmGM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:15:01.918644+00:00",
+    "updatedAt": "2026-09-21T15:15:01.918659+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:15:01.918753+00:00"
+    }
+  }
+}

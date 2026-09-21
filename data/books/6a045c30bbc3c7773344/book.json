@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사기 4",
+    "author": "사마천",
+    "genre": "역사",
+    "tags": [
+      "사기",
+      "열전",
+      "인물",
+      "평역"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "인물전",
+        "평역"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한나라 무제 시대의 태사령으로, 궁형의 치욕을 딛고 중국 최초의 기전체 통사 '사기'를 집필한 역사가.",
+    "oneLineSummary": "사마천의 '사기' 열전 중 주요 인물들의 삶을 평역하여 인물들의 행적과 지혜를 담은 책.",
+    "overallSummary": "사마천의 '사기' 열전 4권을 평역한 책으로, 편작, 이광, 흉노, 위청, 곽거병, 사마상여 등 한나라 시대 인물들의 전기를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "주요 인물 열전",
+        "summary": "편작, 이광, 흉노, 위청, 곽거병, 사마상여 등 한나라 시대 인물들의 삶과 행적을 기록."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 방식",
+        "value": "인물별 전기를 통한 역사적 행적과 사상적 배경 분석"
+      }
+    ],
+    "keyEntitiesText": "편작, 이광, 위청, 곽거병, 사마상여",
+    "settingText": "한나라 시대."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1m-qgiCNsN97vk_1y3s0uQ0yeN1saaP9p",
+    "filename": "사마천의 완역, 김병총 평역-사기 4 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.956Z",
+    "size": "564227",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1m-qgiCNsN97vk_1y3s0uQ0yeN1saaP9p/view?usp=drivesdk",
+    "sourceSha256": "80e5a454908ab7aaea9f98f042ceb02c1953762b67874c3c90033d9116d627e2",
+    "textSha256": "bc57ac0527aaafc1a04dbe5ec15eaa834f06d1120a44f2007ce65f2728c6379e",
+    "changeKey": "8eedcf07d794de7d51e4e706b5a47667",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6a045c30bbc3c7773344",
+    "workId": "6a045c30bbc3c7773344",
+    "driveFileId": "1m-qgiCNsN97vk_1y3s0uQ0yeN1saaP9p",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:15:37.273298+00:00",
+    "updatedAt": "2026-09-21T15:15:37.273316+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:15:37.273422+00:00"
+    }
+  }
+}

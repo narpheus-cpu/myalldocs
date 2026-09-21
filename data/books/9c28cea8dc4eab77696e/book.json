@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그리스와 로마",
+    "author": "김덕수",
+    "genre": "역사",
+    "tags": [
+      "그리스",
+      "로마",
+      "문명",
+      "비교사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "문명사",
+        "비교사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대학교 역사교육과 교수이자 로마사 전공자.",
+    "oneLineSummary": "고대 지중해 문명의 라이벌인 그리스와 로마의 역사와 문화를 비교하여 서양 문명을 이해하는 책.",
+    "overallSummary": "그리스와 로마의 문명적 공통점과 차이점을 비교한다. 아테네의 민주주의와 로마의 공화정, 두 문명의 예술과 종교, 그리고 서양 문명에 끼친 유산을 다루며 지중해 세계의 영원한 라이벌인 두 문명의 성격을 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그리스와 로마의 비교",
+        "summary": "두 문명의 역사적 배경과 정치, 문화적 차이를 비교 분석."
+      },
+      {
+        "sectionTitle": "서양 문명의 유산",
+        "summary": "그리스와 로마가 현대 서양 문명에 남긴 유산과 그 의미를 고찰."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 관점",
+        "value": "두 문명의 비교를 통한 서양 고대 문명의 성격 규명"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "그리스와 로마의 라이벌 관계와 문명적 유산"
+      }
+    ],
+    "keyEntitiesText": "페리클레스, 아우구스투스, 플라톤, 바울",
+    "settingText": "고대 지중해 세계."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MBW1sn49kpVh-QvHlMG5ZsVoLUGOMhyA",
+    "filename": "살림지식총서-그리스와 로마(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:39:26.000Z",
+    "size": "144200",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1MBW1sn49kpVh-QvHlMG5ZsVoLUGOMhyA/view?usp=drivesdk",
+    "sourceSha256": "74c021dae6e07c38f561e1b5cea0d4a37a805fd8ffa17f31063b4ba9f79037e1",
+    "textSha256": "3ea24708c7b3d82287e818b5a07d2e1ea6d7ff383aab1e5d717061285d392b73",
+    "changeKey": "498e2c04b86701fa207e8d9734e8572f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9c28cea8dc4eab77696e",
+    "workId": "9c28cea8dc4eab77696e",
+    "driveFileId": "1MBW1sn49kpVh-QvHlMG5ZsVoLUGOMhyA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:17:39.969870+00:00",
+    "updatedAt": "2026-09-21T15:17:39.969885+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:17:39.969994+00:00"
+    }
+  }
+}

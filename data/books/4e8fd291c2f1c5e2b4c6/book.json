@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사기 열전 합본",
+    "author": "사마천",
+    "genre": "역사",
+    "tags": [
+      "사기",
+      "열전",
+      "인물",
+      "인간학"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "인물전",
+        "인간학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한나라 무제 시대의 태사령으로, 궁형의 치욕을 딛고 중국 최초의 기전체 통사 '사기'를 집필한 역사가.",
+    "oneLineSummary": "춘추 전국 시대부터 한나라까지 격동의 시대를 살다 간 다양한 인물들의 삶과 지혜를 기록한 70편의 열전.",
+    "overallSummary": "사마천의 '사기' 중 인물들의 전기를 다룬 '열전' 70편을 완역한 책이다. 제왕이나 제후를 보좌한 인물, 사상가, 전략가, 자객, 상인 등 신분을 초월한 인물들의 삶을 통해 인간 본질을 탐구하고 시대의 파란만장한 역사를 생생하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인물군상",
+        "summary": "사상가, 전략가, 자객, 상인 등 다양한 인물들의 삶을 통해 처세와 통찰을 제시."
+      },
+      {
+        "sectionTitle": "역사적 가치",
+        "summary": "기전체 서술의 정수로, 인간의 본질을 파헤친 인간학의 보고."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 방식",
+        "value": "인물의 특징을 제시하는 전기적 서술과 사마천의 포폄"
+      },
+      {
+        "key": "주요 주제",
+        "value": "발분 의식, 천도시비론, 인간의 지조와 소신"
+      }
+    ],
+    "keyEntitiesText": "백이, 숙제, 관중, 안영, 한신, 사마상여, 이릉",
+    "settingText": "춘추 전국 시대의 혼란기와 한나라 건국기."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13GZe8MNaSzF-RYSz3zKKxGTFnHZe3HU2",
+    "filename": "사마천-사기열전 합본(민음사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T02:04:28.000Z",
+    "size": "2718913",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/13GZe8MNaSzF-RYSz3zKKxGTFnHZe3HU2/view?usp=drivesdk",
+    "sourceSha256": "c0cc16b8ebd1cd1e19224172a7ad966d75d453c876ed8b38e1243f1127d43272",
+    "textSha256": "7e25911d41e5de289095aeab668919618eed3811617237db2b615e64239dff3c",
+    "changeKey": "99763238df1b35d0fd2ed733cd89b33d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4e8fd291c2f1c5e2b4c6",
+    "workId": "4e8fd291c2f1c5e2b4c6",
+    "driveFileId": "13GZe8MNaSzF-RYSz3zKKxGTFnHZe3HU2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:15:10.041617+00:00",
+    "updatedAt": "2026-09-21T15:15:10.041633+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:15:10.041744+00:00"
+    }
+  }
+}

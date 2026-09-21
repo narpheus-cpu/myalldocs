@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사기 세가",
+    "author": "사마천",
+    "genre": "역사",
+    "tags": [
+      "사기",
+      "세가",
+      "제후",
+      "역사서"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "제후사",
+        "인물전"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한나라 무제 시대의 태사령으로, 궁형의 치욕을 딛고 중국 최초의 기전체 통사 '사기'를 집필한 역사가.",
+    "oneLineSummary": "춘추 전국 시대부터 한나라에 이르는 제후들의 역사를 통해 통치자의 도리와 처세의 지혜를 기록한 30편의 세가.",
+    "overallSummary": "사마천의 '사기' 중 제후들의 역사를 다룬 '세가' 30편을 완역한 책이다. 본기와 열전 사이에서 매개 역할을 하며, 제후국들의 흥망성쇠와 그들을 보좌한 인물들의 행적을 통해 통치자가 지녀야 할 이상적 본보기와 처세의 중요성을 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세가의 구성",
+        "summary": "춘추 전국 시대 제후국과 한나라 제후왕 및 공신들의 사적을 시대순으로 배열."
+      },
+      {
+        "sectionTitle": "역사적 의미",
+        "summary": "제후들의 가계와 역사를 통해 위로는 군주를 모시고 아래로는 백성을 다스리는 지침을 제시."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사관",
+        "value": "천도보다는 인도와 세도를 중시하는 인간 중심의 역사관"
+      },
+      {
+        "key": "서술 특징",
+        "value": "인물의 언행과 행적을 사건 중심으로 서술하고 사마천의 독창적 의견(태사공왈)을 덧붙임"
+      }
+    ],
+    "keyEntitiesText": "오태백, 강태공, 공자, 진섭, 유방, 장량, 소하",
+    "settingText": "춘추 전국 시대의 분열과 한나라의 중앙 집권화 과정."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sLURUNNNn6Vm1xAjZdTVAebetZLVwQvn",
+    "filename": "사마천-사기 세가(김원중 역)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T01:55:04.000Z",
+    "size": "1591154",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1sLURUNNNn6Vm1xAjZdTVAebetZLVwQvn/view?usp=drivesdk",
+    "sourceSha256": "52336b950179f9d1c8f7cd24bcbb51ff5503d8a4405c7f21ebc116fb926a1ca9",
+    "textSha256": "38e7592d8e371e262abcae4984582d51650fa779ea3e4adaf71c79633e3daeb8",
+    "changeKey": "79cf24da0aea629a44c57fca40e39c4c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aa2c0524be05284c92ba",
+    "workId": "aa2c0524be05284c92ba",
+    "driveFileId": "1sLURUNNNn6Vm1xAjZdTVAebetZLVwQvn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:14:55.157877+00:00",
+    "updatedAt": "2026-09-21T15:14:55.157894+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:14:55.157992+00:00"
+    }
+  }
+}

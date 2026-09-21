@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사기 2",
+    "author": "사마천",
+    "genre": "역사",
+    "tags": [
+      "사기",
+      "열전",
+      "인물",
+      "평역"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "인물전",
+        "평역"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한나라 무제 시대의 태사령으로, 궁형의 치욕을 딛고 중국 최초의 기전체 통사 '사기'를 집필한 역사가.",
+    "oneLineSummary": "사마천의 '사기' 열전 중 주요 인물들의 삶을 평역하여 인물들의 행적과 지혜를 담은 책.",
+    "overallSummary": "사마천의 '사기' 열전 2권을 평역한 책으로, 평원군, 위공자, 춘신군 등 전국 사군자와 자객, 이사 등 전국 시대 말기 인물들의 전기를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "주요 인물 열전",
+        "summary": "평원군, 위공자, 춘신군, 자객, 이사 등 전국 시대 말기 인물들의 삶과 행적을 기록."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 방식",
+        "value": "인물별 전기를 통한 역사적 행적과 사상적 배경 분석"
+      }
+    ],
+    "keyEntitiesText": "평원군, 위공자, 춘신군, 범수, 악의, 염파, 인상여, 자객, 이사",
+    "settingText": "전국 시대 말기부터 진나라 통일기."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kQKdSCnQoOc4AmoBiyos_PWkUAAlTKse",
+    "filename": "사마천의 완역, 김병총 평역-사기 2 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.936Z",
+    "size": "514117",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1kQKdSCnQoOc4AmoBiyos_PWkUAAlTKse/view?usp=drivesdk",
+    "sourceSha256": "86a8a802d40bb9494f8a867af15d48cc4de2da1d49a2b387c760f4c564691368",
+    "textSha256": "218fe6bef22c7b58454ec5576919b029f33afc904620ccc501016ebdb962e669",
+    "changeKey": "39cf4d459df29b9ee8b2f964dec66283",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2997f097aad680f0184e",
+    "workId": "2997f097aad680f0184e",
+    "driveFileId": "1kQKdSCnQoOc4AmoBiyos_PWkUAAlTKse",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T15:15:30.547439+00:00",
+    "updatedAt": "2026-09-21T15:15:30.547460+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T15:15:30.547553+00:00"
+    }
+  }
+}
