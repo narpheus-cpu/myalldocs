@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "빵가게 습격",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "배고픔",
+      "빵가게",
+      "습격",
+      "바그너",
+      "저주"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "극심한 배고픔을 해결하기 위해 빵가게를 습격한 두 남자가 주인과 바그너 음악을 듣는 대가로 빵을 얻는 이야기.",
+    "overallSummary": "극심한 배고픔에 시달리던 화자와 친구는 빵가게를 습격하기로 한다. 빵가게 주인은 바그너 음악을 끝까지 듣는 대가로 빵을 주겠다고 제안하고, 둘은 이를 받아들여 빵을 배불리 먹는다. 이 사건 이후 그들의 허무는 사라진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "배고픔",
+        "summary": "화자와 친구는 극심한 배고픔을 해결하기 위해 빵가게를 습격하기로 한다."
+      },
+      {
+        "sectionTitle": "주인의 제안",
+        "summary": "빵가게 주인은 바그너 음악을 듣는 대가로 빵을 주겠다고 제안한다."
+      },
+      {
+        "sectionTitle": "빵을 먹다",
+        "summary": "둘은 주인의 제안을 받아들여 바그너 음악을 들으며 빵을 배불리 먹는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "허무, 배고픔, 예술의 힘"
+      }
+    ],
+    "keyEntitiesText": "화자, 친구, 빵가게 주인",
+    "settingText": "빵가게"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Uq4RI9xkgoiNJpVGHF0k8f3EAHdCIoDt",
+    "filename": "빵가게 습격.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.695Z",
+    "size": "6687",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1Uq4RI9xkgoiNJpVGHF0k8f3EAHdCIoDt/view?usp=drivesdk",
+    "sourceSha256": "8ace636899a23ac44b0ca8a9881b4424f25bc23967a6a530b66590226c619bf8",
+    "textSha256": "cd859577dd52c0f628184d69fa04112af2722234a3889b666dcb2b81fe821288",
+    "changeKey": "1d67901ba206e6813d23f37ea2691535",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "503474e3706f008f249c",
+    "workId": "503474e3706f008f249c",
+    "driveFileId": "1Uq4RI9xkgoiNJpVGHF0k8f3EAHdCIoDt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:18:36.527389+00:00",
+    "updatedAt": "2026-09-21T19:18:36.527404+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:18:36.527494+00:00"
+    }
+  }
+}

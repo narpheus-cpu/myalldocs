@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "만년필",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "만년필",
+      "맞춤",
+      "척추",
+      "글쓰기"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "척추뼈에 딱 맞는 만년필을 만들어주는 기묘한 가게를 찾아간 남자의 이야기.",
+    "overallSummary": "화자는 친구의 소개로 '만년필 맞춤' 가게를 찾아간다. 주인은 거대한 새 같은 풍채를 지녔으며, 화자의 신체 치수와 척추뼈를 꼼꼼히 살핀다. 주인은 인간이 척추뼈로 글을 쓴다고 믿으며, 화자의 척추에 딱 맞는 만년필을 제작해준다. 화자는 그 만년필을 통해 꿈처럼 몸에 배어드는 문장을 쓰고 싶어 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "만년필 가게",
+        "summary": "화자는 친구의 소개로 허름한 만년필 맞춤 가게를 방문한다."
+      },
+      {
+        "sectionTitle": "신체 측정",
+        "summary": "주인은 화자의 신체와 척추를 꼼꼼히 측정하며, 척추에 맞는 만년필을 만들겠다고 한다."
+      },
+      {
+        "sectionTitle": "완성",
+        "summary": "석 달 후, 화자는 몸에 쏙 스며드는 만년필을 받게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징",
+        "value": "만년필은 글쓰기의 본질과 신체적 연결을 상징함"
+      }
+    ],
+    "keyEntitiesText": "화자, 만년필 가게 주인",
+    "settingText": "허름한 상점가의 만년필 가게"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15NOm6NhVV7UBXGYZAo3xxNjitLII_7-K",
+    "filename": "만년필.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.601Z",
+    "size": "1649",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/15NOm6NhVV7UBXGYZAo3xxNjitLII_7-K/view?usp=drivesdk",
+    "sourceSha256": "b47d0b51d654d13afb05bf20801b4f62e183d8bd0ccb22a671b4c3bca86845ec",
+    "textSha256": "04da684df9285b85aa6362cf19a390b2add1b3d35d64e79b6cb6214e41a3def5",
+    "changeKey": "b6a03ac041e3390f0433ce3fe86f29b3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5d092395241a54cb3a97",
+    "workId": "5d092395241a54cb3a97",
+    "driveFileId": "15NOm6NhVV7UBXGYZAo3xxNjitLII_7-K",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:18:00.193239+00:00",
+    "updatedAt": "2026-09-21T19:18:00.193254+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:18:00.193373+00:00"
+    }
+  }
+}

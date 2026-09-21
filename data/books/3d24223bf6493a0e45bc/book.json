@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "블루베리 아이스크림",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "아이스크림",
+      "새벽",
+      "환상",
+      "폭력"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "환상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "새벽에 블루베리 아이스크림을 사러 떠난 남자가 겪는 기묘하고 폭력적인 여정.",
+    "overallSummary": "새벽 두 시, 여자가 블루베리 아이스크림을 먹고 싶다고 하자 화자는 아이스크림을 사러 나선다. 택시를 타고 도착한 낡은 빌딩에서 여러 문을 통과하며 기묘한 상황들을 겪는다. 결국 17번 문 안에서 중년 남자들과 개미핥기를 만난 화자는 그들을 때려 죽이고 아이스크림을 얻어 새벽 다섯 시에 집에 돌아온다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "출발",
+        "summary": "여자의 부탁으로 블루베리 아이스크림을 사러 나선다."
+      },
+      {
+        "sectionTitle": "기묘한 빌딩",
+        "summary": "낡은 빌딩 안에서 여러 문을 통과하며 기묘한 상황을 겪는다."
+      },
+      {
+        "sectionTitle": "아이스크림 획득",
+        "summary": "17번 문 안에서 중년 남자들과 개미핥기를 죽이고 아이스크림을 얻어 돌아온다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "꿈과 현실이 뒤섞인 환상적인 전개"
+      }
+    ],
+    "keyEntitiesText": "화자, 여자, 중년 남자들, 개미핥기",
+    "settingText": "새벽의 도시, 기묘한 빌딩"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YWrkgYzt_MS7Sk7lbnxdpf0h-Oyo_Ln2",
+    "filename": "블루베리 아이스크림.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.630Z",
+    "size": "3081",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1YWrkgYzt_MS7Sk7lbnxdpf0h-Oyo_Ln2/view?usp=drivesdk",
+    "sourceSha256": "a0ec706c63602b0949b3e7f43d32a54cd1a20b9666b8956dfa543ccd39924f1d",
+    "textSha256": "9f69744e4d1edde53dd47b5f77490fb04e2a84bd4a56a6f3e8671e6882d614e5",
+    "changeKey": "8f752d53b926e6c1f81550fd0f2e6ebe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3d24223bf6493a0e45bc",
+    "workId": "3d24223bf6493a0e45bc",
+    "driveFileId": "1YWrkgYzt_MS7Sk7lbnxdpf0h-Oyo_Ln2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:18:18.949902+00:00",
+    "updatedAt": "2026-09-21T19:18:18.949916+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:18:18.950002+00:00"
+    }
+  }
+}

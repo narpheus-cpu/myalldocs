@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오니온수프",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "섹스",
+      "수프",
+      "양파",
+      "새벽"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "새벽에 섹스를 마친 후 느끼는 감각적인 이야기.",
+    "overallSummary": "화자는 여자와 섹스를 한다. 두 번째 섹스는 매우 멋졌다. 새벽 한 시, 섹스를 마친 후 화자는 담배를 피우고, 옆방에서 사자가 끓이는 오니온 수프 냄새를 맡는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "섹스",
+        "summary": "화자는 여자와 섹스를 한다."
+      },
+      {
+        "sectionTitle": "새벽",
+        "summary": "섹스를 마친 후 화자는 담배를 피우고 오니온 수프 냄새를 맡는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "감각적"
+      }
+    ],
+    "keyEntitiesText": "화자, 여자",
+    "settingText": "침실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xpbfLRb5wlY_CRnqz0GtI9IwTHhEcpTG",
+    "filename": "오니온수프.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.829Z",
+    "size": "738",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1xpbfLRb5wlY_CRnqz0GtI9IwTHhEcpTG/view?usp=drivesdk",
+    "sourceSha256": "a74565b3d4b4bcae975be7f8cf7c7f2aef72c99e4aeed552f2e591cd1d09f0b0",
+    "textSha256": "dd45a504e312de943512bb8b3dc768f7f93d5517f269225b9922a5caf6f68a06",
+    "changeKey": "a3d4c1a7f6cffbd09ab246ac67639fe1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a540bffcfb60ec4db2a7",
+    "workId": "a540bffcfb60ec4db2a7",
+    "driveFileId": "1xpbfLRb5wlY_CRnqz0GtI9IwTHhEcpTG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:19:39.242686+00:00",
+    "updatedAt": "2026-09-21T19:19:39.242702+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:19:39.242784+00:00"
+    }
+  }
+}

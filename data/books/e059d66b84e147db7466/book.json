@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "얼음사나이",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "얼음사나이",
+      "결혼",
+      "남극",
+      "고독",
+      "과거"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "얼음사나이와 결혼한 여자가 겪는 기묘한 결혼 생활과 남극 여행.",
+    "overallSummary": "화자는 얼음사나이와 결혼한다. 얼음사나이는 과거를 보전하는 존재이며, 화자는 그를 사랑한다. 둘은 남극으로 여행을 떠나고, 그곳에서 얼음사나이는 변해간다. 화자는 고독을 느끼며 남편이 예전의 남편이 아님을 깨닫는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "만남과 결혼",
+        "summary": "화자는 얼음사나이와 만나 결혼한다."
+      },
+      {
+        "sectionTitle": "결혼 생활",
+        "summary": "둘은 조용히 행복하게 살지만, 화자는 반복되는 일상에 고독을 느낀다."
+      },
+      {
+        "sectionTitle": "남극 여행",
+        "summary": "둘은 남극으로 여행을 떠나고, 그곳에서 얼음사나이는 변해간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "고독, 변화, 관계의 허무함"
+      }
+    ],
+    "keyEntitiesText": "화자, 얼음사나이",
+    "settingText": "스키장, 남극"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rD50Zkc191RvcCLxMDKc0xjVHcL9kQvs",
+    "filename": "얼음사나이.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.787Z",
+    "size": "22222",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1rD50Zkc191RvcCLxMDKc0xjVHcL9kQvs/view?usp=drivesdk",
+    "sourceSha256": "b1c74bf022c57532930b3128a1429098d2be32381ae886bef18da0c5bd6b6d8f",
+    "textSha256": "2ed33f85a25e03ecfe2167262bf2cd744ade35de9099124a25b7b41ec4af0564",
+    "changeKey": "bbb3f3fb6a0ecab46f275849a8117f18",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e059d66b84e147db7466",
+    "workId": "e059d66b84e147db7466",
+    "driveFileId": "1rD50Zkc191RvcCLxMDKc0xjVHcL9kQvs",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:19:27.929250+00:00",
+    "updatedAt": "2026-09-21T19:19:27.929294+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:19:27.929383+00:00"
+    }
+  }
+}

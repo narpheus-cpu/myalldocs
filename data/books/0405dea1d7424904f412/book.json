@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비오는 날의 여인",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "비",
+      "화장품 판매원",
+      "죽음",
+      "꿈",
+      "고독"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "심리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "비 오는 날 찾아온 화장품 판매원과 죽음에 대한 상념, 그리고 기묘한 꿈에 대한 이야기.",
+    "overallSummary": "비 오는 날, 화자는 집을 찾아온 화장품 판매원을 무시한다. 화자는 죽음에 대해 생각하며 죽은 시늉을 해보기도 한다. 며칠 전 꾼 기묘한 흰 뱀 꿈이 화자를 괴롭히고, 화자는 과거 물리 교사의 죽음과 썩은 사과 등을 떠올리며 고독과 혼란을 느낀다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "화장품 판매원",
+        "summary": "비 오는 날 찾아온 화장품 판매원을 화자는 무시한다."
+      },
+      {
+        "sectionTitle": "죽음에 대한 상념",
+        "summary": "화자는 죽음에 대해 생각하며 죽은 시늉을 해본다."
+      },
+      {
+        "sectionTitle": "기묘한 꿈",
+        "summary": "화자는 며칠 전 꾼 흰 뱀 꿈과 과거의 기억들로 인해 혼란을 느낀다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "죽음, 고독, 꿈의 의미"
+      }
+    ],
+    "keyEntitiesText": "화자, 화장품 판매원",
+    "settingText": "비 오는 날의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yLGSO7s9qJQKoKpUonZ1exCAIMC1sGXi",
+    "filename": "비오는 날의 여인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.683Z",
+    "size": "10220",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1yLGSO7s9qJQKoKpUonZ1exCAIMC1sGXi/view?usp=drivesdk",
+    "sourceSha256": "301fc7cf44e9ba96097c463f5222dc5ef8849ddaa483442a4f935dd64287ab2d",
+    "textSha256": "702aa3c3d260774571946e13758d171a4c2d98f9cad18af0a3f6b125a28187c1",
+    "changeKey": "ee26fc371166708424d667910fc61ce5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0405dea1d7424904f412",
+    "workId": "0405dea1d7424904f412",
+    "driveFileId": "1yLGSO7s9qJQKoKpUonZ1exCAIMC1sGXi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:18:31.608763+00:00",
+    "updatedAt": "2026-09-21T19:18:31.608778+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:18:31.608867+00:00"
+    }
+  }
+}

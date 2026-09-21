@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "빵가게 재습격",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "배고픔",
+      "빵가게",
+      "재습격",
+      "맥도날드",
+      "저주"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "과거의 빵가게 습격 사건을 회상한 부부가 다시 배고픔을 느끼고 맥도날드를 습격하는 이야기.",
+    "overallSummary": "신혼인 화자와 아내는 새벽에 극심한 공복감을 느끼고, 과거 화자가 겪었던 빵가게 습격 사건을 이야기한다. 아내는 그 사건이 화자에게 저주를 남겼다고 말하며, 저주를 풀기 위해 지금 당장 빵가게를 다시 습격하자고 한다. 결국 둘은 맥도날드를 습격한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "새벽의 공복",
+        "summary": "신혼인 화자와 아내는 새벽에 극심한 공복감을 느낀다."
+      },
+      {
+        "sectionTitle": "과거의 회상",
+        "summary": "화자는 과거 빵가게 습격 사건을 아내에게 이야기한다."
+      },
+      {
+        "sectionTitle": "맥도날드 습격",
+        "summary": "아내는 저주를 풀기 위해 맥도날드를 습격하자고 하고, 둘은 이를 실행한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "저주, 반복, 욕망"
+      }
+    ],
+    "keyEntitiesText": "화자, 아내",
+    "settingText": "새벽의 도시, 맥도날드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1aLYH_z2cov7F9d_1LCmPxAi26wHABTtO",
+    "filename": "빵가게 재습격.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.706Z",
+    "size": "27373",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1aLYH_z2cov7F9d_1LCmPxAi26wHABTtO/view?usp=drivesdk",
+    "sourceSha256": "d338eea899e858ea5b9d092f1f6c232d9447e8fc7c1788ed9d45f56fc76eb54d",
+    "textSha256": "d31ce310921c80ecbb762964ac728273a6ba50b9c7887c53b2eab85d1e9bf732",
+    "changeKey": "4526caabf15b7e8b2794c979b8947e88",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6ba9bb5282fe6e097d9f",
+    "workId": "6ba9bb5282fe6e097d9f",
+    "driveFileId": "1aLYH_z2cov7F9d_1LCmPxAi26wHABTtO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:18:42.529758+00:00",
+    "updatedAt": "2026-09-21T19:18:42.529773+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:18:42.529863+00:00"
+    }
+  }
+}

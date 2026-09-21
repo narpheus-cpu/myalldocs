@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스웨터",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "스웨터",
+      "겨울",
+      "애인",
+      "기억",
+      "바다거북"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "회상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "과거 애인과 함께 보낸 겨울밤과 스웨터 무리들에 대한 회상.",
+    "overallSummary": "화자는 19살 때 애인과 함께 보낸 겨울밤을 회상한다. 그들은 함께 진토닉을 마시고 섹스를 했다. 아침에 창밖으로 형형색색의 스웨터 무리들이 춤추듯 지나가는 것을 보았다. 화자는 그 풍경을 기억하지만 애인의 얼굴은 잊었다. 이후 바다거북의 습격에 대한 기묘한 이야기가 이어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "겨울밤의 기억",
+        "summary": "화자는 19살 때 애인과 보낸 겨울밤을 회상한다."
+      },
+      {
+        "sectionTitle": "스웨터 무리",
+        "summary": "아침에 창밖으로 형형색색의 스웨터 무리들이 지나가는 것을 본다."
+      },
+      {
+        "sectionTitle": "바다거북",
+        "summary": "바다거북의 습격에 대한 기묘한 이야기가 이어진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "기억의 파편, 상실"
+      }
+    ],
+    "keyEntitiesText": "화자, 애인",
+    "settingText": "코엔지의 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YqNOMN3DwUXYHTUdZXTaoOMNJV3DRBVv",
+    "filename": "스웨터.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.727Z",
+    "size": "2741",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1YqNOMN3DwUXYHTUdZXTaoOMNJV3DRBVv/view?usp=drivesdk",
+    "sourceSha256": "db39db988725228436075d8736f96accd9b7864fb3ffbe022bfd794f5166be2f",
+    "textSha256": "588a117e0328842cd374ae6bbe5d21b8973f919b18285fe7890b0cfb4bd391a0",
+    "changeKey": "3c82f0603bf3cf4f9e0372c4707af664",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e06d4e8b8b4dd855deb4",
+    "workId": "e06d4e8b8b4dd855deb4",
+    "driveFileId": "1YqNOMN3DwUXYHTUdZXTaoOMNJV3DRBVv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:18:54.942624+00:00",
+    "updatedAt": "2026-09-21T19:18:54.942638+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:18:54.942727+00:00"
+    }
+  }
+}

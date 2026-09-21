@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스파게티 공장의 비밀",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "서재",
+      "스파게티",
+      "양사나이",
+      "쌍둥이",
+      "글쓰기"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "자신의 서재를 '스파게티 공장'이라 부르는 화자와 그 주변 인물들의 일상.",
+    "overallSummary": "화자는 자신의 서재를 '스파게티 공장'이라 부른다. 양사나이와 쌍둥이 소녀들이 화자의 글쓰기를 방해하거나 돕는다. 화자는 그들을 내쫓고 글쓰기에 집중한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "스파게티 공장",
+        "summary": "화자는 자신의 서재를 스파게티 공장이라 부른다."
+      },
+      {
+        "sectionTitle": "방해꾼들",
+        "summary": "양사나이와 쌍둥이 소녀들이 화자의 글쓰기를 방해하거나 돕는다."
+      },
+      {
+        "sectionTitle": "글쓰기",
+        "summary": "화자는 그들을 내쫓고 글쓰기에 집중한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "일상적이고 기묘함"
+      }
+    ],
+    "keyEntitiesText": "화자, 양사나이, 쌍둥이 소녀",
+    "settingText": "화자의 서재"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wyXFBKY7GGDshB7rzGaPH5QUUS-fFhIp",
+    "filename": "스파게티 공장의 비밀.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.738Z",
+    "size": "1338",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1wyXFBKY7GGDshB7rzGaPH5QUUS-fFhIp/view?usp=drivesdk",
+    "sourceSha256": "328123b6cc0293b8f86f2af3a54d64bad2e7189af7822a98a3da7a28231cb2f2",
+    "textSha256": "0fc91856420a410c2f36b4c04553a3cbb437f65b72b36766c8e82a81eac34ed3",
+    "changeKey": "330afdca77b21a2f8753e3e7957394cd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "083b0a3f7a171a3e331e",
+    "workId": "083b0a3f7a171a3e331e",
+    "driveFileId": "1wyXFBKY7GGDshB7rzGaPH5QUUS-fFhIp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:19:00.054841+00:00",
+    "updatedAt": "2026-09-21T19:19:00.054857+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:19:00.054944+00:00"
+    }
+  }
+}

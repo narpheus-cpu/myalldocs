@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어시스턴트",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "어시스턴트",
+      "선생님",
+      "규칙",
+      "직업"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "어시스턴트가 지켜야 할 기묘한 규칙들에 대한 이야기.",
+    "overallSummary": "어시스턴트는 선생님의 만두를 먹어서는 안 되고, 미녀 손님을 막아서는 안 되며, 재탕 차를 마셔야 하는 등 기묘한 규칙들이 있다. 화자는 이러한 이유로 어시스턴트가 될 생각을 버린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "규칙들",
+        "summary": "어시스턴트가 지켜야 할 기묘한 규칙들이 나열된다."
+      },
+      {
+        "sectionTitle": "결심",
+        "summary": "화자는 이러한 이유로 어시스턴트가 될 생각을 버린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "풍자적"
+      }
+    ],
+    "keyEntitiesText": "화자, 선생님",
+    "settingText": "사무실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dRZCrxdMBT-gCG6Ss0rKlaGJf2drFnea",
+    "filename": "어시스턴트.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.777Z",
+    "size": "641",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1dRZCrxdMBT-gCG6Ss0rKlaGJf2drFnea/view?usp=drivesdk",
+    "sourceSha256": "3f361342ea0c3cf0c179041fed63786c9345cc47d3f5d2bb3d615a9a94df0d5f",
+    "textSha256": "2cc94bb7cecce4e416ce471465543d274df134427ee32c99b276d1481e8ccb01",
+    "changeKey": "18bae19171b9850504dc69d8a1b78ba2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c9324934bc60b914e058",
+    "workId": "c9324934bc60b914e058",
+    "driveFileId": "1dRZCrxdMBT-gCG6Ss0rKlaGJf2drFnea",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:19:21.146365+00:00",
+    "updatedAt": "2026-09-21T19:19:21.146380+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:19:21.146463+00:00"
+    }
+  }
+}

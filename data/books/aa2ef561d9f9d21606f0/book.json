@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "양사나이의 크리스마스",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "양사나이",
+      "크리스마스",
+      "음악",
+      "저주",
+      "구멍"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "크리스마스 음악을 작곡해야 하는 양사나이가 저주를 풀기 위해 겪는 기묘한 모험.",
+    "overallSummary": "양사나이는 크리스마스 음악을 작곡해야 하지만 저주에 걸려 작곡을 하지 못한다. 양박사는 저주를 풀기 위해 구멍에 떨어져야 한다고 말한다. 양사나이는 구멍에 떨어져 기묘한 세계로 들어가고, 바다 까마귀 부인을 만나 저주를 풀기 위한 여정을 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "음악 작곡",
+        "summary": "양사나이는 크리스마스 음악을 작곡해야 하지만 저주에 걸려 작곡을 하지 못한다."
+      },
+      {
+        "sectionTitle": "저주",
+        "summary": "양박사는 저주를 풀기 위해 구멍에 떨어져야 한다고 말한다."
+      },
+      {
+        "sectionTitle": "모험",
+        "summary": "양사나이는 구멍에 떨어져 기묘한 세계로 들어가고, 바다 까마귀 부인을 만나 저주를 풀기 위한 여정을 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "판타지"
+      }
+    ],
+    "keyEntitiesText": "양사나이, 양박사, 쌍둥이 소녀, 바다 까마귀 부인",
+    "settingText": "기묘한 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WKWK0pqLSs-Tru1rupK6sksl78oQFeZD",
+    "filename": "양사나이의 크리스마스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.757Z",
+    "size": "30021",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1WKWK0pqLSs-Tru1rupK6sksl78oQFeZD/view?usp=drivesdk",
+    "sourceSha256": "47503c340b289b226eb8db199d76ac10dde4da292adad534dd248eccd78ca9d4",
+    "textSha256": "dc9f4543f6c61b361a4eb30c4675049b649237a05e262d1b4252e3b30a06558b",
+    "changeKey": "05ef427f96ccaaa9a8810e1cd4f597bc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aa2ef561d9f9d21606f0",
+    "workId": "aa2ef561d9f9d21606f0",
+    "driveFileId": "1WKWK0pqLSs-Tru1rupK6sksl78oQFeZD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:19:09.972362+00:00",
+    "updatedAt": "2026-09-21T19:19:09.972378+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:19:09.972466+00:00"
+    }
+  }
+}

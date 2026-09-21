@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사우스베이 스트래트",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "사우스베이",
+      "탐정",
+      "협박",
+      "총격전",
+      "경찰"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "하드보일드"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "사우스베이에서 실종된 여자를 찾던 사립 탐정이 겪는 위험한 사건.",
+    "overallSummary": "사립 탐정인 화자는 사우스베이에서 실종된 여자를 찾으러 간다. 그곳에서 화자는 협박 사건에 휘말리고, 총격전을 겪는다. 결국 이 모든 것이 함정이었음을 알게 되고, 경찰의 도움으로 사건을 마무리한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사우스베이 도착",
+        "summary": "화자는 실종된 여자를 찾기 위해 사우스베이에 도착한다."
+      },
+      {
+        "sectionTitle": "함정과 총격전",
+        "summary": "화자는 협박 사건에 휘말려 총격전을 겪는다."
+      },
+      {
+        "sectionTitle": "사건 마무리",
+        "summary": "화자는 이 모든 것이 함정이었음을 알게 되고, 경찰의 도움으로 사건을 마무리한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "하드보일드 탐정물"
+      }
+    ],
+    "keyEntitiesText": "화자, 여자, 오보니언 경위",
+    "settingText": "사우스베이"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XmqzVvK1Xo6qsxegKwT2EjZrRasxicW7",
+    "filename": "사우스베이 스트래트.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.716Z",
+    "size": "7894",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1XmqzVvK1Xo6qsxegKwT2EjZrRasxicW7/view?usp=drivesdk",
+    "sourceSha256": "05b86c3772155b87701ad6c66c633a14ce4b0f2ede6089dbf203747cfd455acc",
+    "textSha256": "488af0208077270104c52029080d91f6a610e3c08ec726439e9b31096fd62233",
+    "changeKey": "c7d476be6fbdaeda18494f99842d4abb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3786a23599b1328164c0",
+    "workId": "3786a23599b1328164c0",
+    "driveFileId": "1XmqzVvK1Xo6qsxegKwT2EjZrRasxicW7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:18:49.112552+00:00",
+    "updatedAt": "2026-09-21T19:18:49.112567+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:18:49.112655+00:00"
+    }
+  }
+}

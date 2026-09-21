@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "엘리트",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "엘리트",
+      "선",
+      "데이트",
+      "벤츠",
+      "셰익스피어"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "엘리트와 선을 본 화자의 이야기.",
+    "overallSummary": "화자는 동경대 출신의 엘리트와 선을 본다. 그는 벤츠를 타고 다니며 셰익스피어를 좋아하는 우아한 인물이다. 화자는 그와 데이트를 하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "선",
+        "summary": "화자는 동경대 출신의 엘리트와 선을 본다."
+      },
+      {
+        "sectionTitle": "데이트",
+        "summary": "그는 우아한 인물이며, 화자와 데이트를 하게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "일상적"
+      }
+    ],
+    "keyEntitiesText": "화자, 엘리트",
+    "settingText": "공원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14QprLcBBVyQNcZSgLQVktk-D7F8TLIPN",
+    "filename": "엘리트.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.814Z",
+    "size": "1164",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/14QprLcBBVyQNcZSgLQVktk-D7F8TLIPN/view?usp=drivesdk",
+    "sourceSha256": "20eb4dd9ea34b00b6915ed6ea3f0106938346c64b1a2b55724b85500123ed132",
+    "textSha256": "3037319eb321a1567f7608d7293ce0a5cc0a301d95388c15c573a88ab004f250",
+    "changeKey": "321c1ee73358f3cde21c994108963777",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e2421ce58267332bb892",
+    "workId": "e2421ce58267332bb892",
+    "driveFileId": "14QprLcBBVyQNcZSgLQVktk-D7F8TLIPN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:19:33.330814+00:00",
+    "updatedAt": "2026-09-21T19:19:33.330829+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:19:33.330911+00:00"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스파케티의 해에",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "1971년",
+      "스파게티",
+      "고독",
+      "기억",
+      "전화"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "회상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "1971년, 스파게티를 삶으며 고독하게 보낸 한 남자의 이야기.",
+    "overallSummary": "1971년은 화자에게 '스파게티의 해'였다. 화자는 혼자서 스파게티를 삶고 먹으며 고독한 나날을 보낸다. 어느 날, 옛 연인의 전화를 받지만 화자는 스파게티를 삶고 있다는 핑계로 도움을 거절한다. 화자는 그 시절의 고독을 회상한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "스파게티의 해",
+        "summary": "1971년, 화자는 혼자서 스파게티를 삶으며 고독한 나날을 보낸다."
+      },
+      {
+        "sectionTitle": "전화",
+        "summary": "옛 연인의 전화를 받지만 화자는 스파게티를 삶고 있다는 핑계로 도움을 거절한다."
+      },
+      {
+        "sectionTitle": "회상",
+        "summary": "화자는 그 시절의 고독을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "고독, 단절, 기억"
+      }
+    ],
+    "keyEntitiesText": "화자, 옛 연인",
+    "settingText": "화자의 단칸방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RYf08C1zS5XdtLRwBaFE_33iG7sIY0g-",
+    "filename": "스파케티의 해에.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.747Z",
+    "size": "9543",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1RYf08C1zS5XdtLRwBaFE_33iG7sIY0g-/view?usp=drivesdk",
+    "sourceSha256": "b27a1698f6b05f7fd98f645e4e649d5b3a3a661dacac3e76570e94e8cc5a736a",
+    "textSha256": "0f3677129f9d5d2450b390478f72214baad0fef36556be5e077c563b34a7c146",
+    "changeKey": "ce69c1e60cefe21a87d5ce0253e25e8c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "923a585384a1ed95a1df",
+    "workId": "923a585384a1ed95a1df",
+    "driveFileId": "1RYf08C1zS5XdtLRwBaFE_33iG7sIY0g-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:19:04.779383+00:00",
+    "updatedAt": "2026-09-21T19:19:04.779398+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:19:04.779486+00:00"
+    }
+  }
+}

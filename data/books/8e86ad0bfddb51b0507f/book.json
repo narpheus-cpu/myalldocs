@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비 피하기",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "비",
+      "레스토랑",
+      "인터뷰",
+      "과거",
+      "고독"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편",
+        "회상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가로, 일상 속의 비일상적인 소재를 담담하고 감각적인 문체로 풀어내는 것으로 유명하다.",
+    "oneLineSummary": "비 오는 날 레스토랑에서 우연히 만난 옛 인터뷰어와 나누는 고독과 과거에 대한 이야기.",
+    "overallSummary": "화자는 비를 피하기 위해 들어간 레스토랑에서 5년 전 자신을 인터뷰했던 여자를 만난다. 그녀는 회사를 그만두고 애인과 헤어진 후, 고독을 견디지 못해 돈을 받고 남자들과 잠자리를 가졌던 경험을 화자에게 털어놓는다. 화자는 그녀의 이야기를 담담히 듣는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "비 오는 날의 레스토랑",
+        "summary": "화자는 비를 피하기 위해 들어간 레스토랑에서 옛 인터뷰어를 만난다."
+      },
+      {
+        "sectionTitle": "그녀의 고백",
+        "summary": "그녀는 회사를 그만두고 애인과 헤어진 후 겪은 고독과 돈을 받고 남자들과 잠자리를 가졌던 경험을 이야기한다."
+      },
+      {
+        "sectionTitle": "대화의 끝",
+        "summary": "화자는 그녀의 이야기를 담담히 듣고 위스키를 마신다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "현대인의 고독, 관계의 허무함"
+      }
+    ],
+    "keyEntitiesText": "화자, 여자(옛 인터뷰어)",
+    "settingText": "비 오는 날의 레스토랑"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1m1rpUUGl8igasdOW5ejYRfPkZG1ihw3l",
+    "filename": "비 피하기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.673Z",
+    "size": "22547",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1m1rpUUGl8igasdOW5ejYRfPkZG1ihw3l/view?usp=drivesdk",
+    "sourceSha256": "cad203bd51fc8ce6a5c3ac86f9afdf425879e6265280b0aab42778e49db771eb",
+    "textSha256": "68ee17869884440ae0f401debd099837faa684b86938b1dcb43fadd48d91ab78",
+    "changeKey": "e18ef9092c56856773b030e93d3bb91c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8e86ad0bfddb51b0507f",
+    "workId": "8e86ad0bfddb51b0507f",
+    "driveFileId": "1m1rpUUGl8igasdOW5ejYRfPkZG1ihw3l",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T19:18:25.943310+00:00",
+    "updatedAt": "2026-09-21T19:18:25.943323+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T19:18:25.943414+00:00"
+    }
+  }
+}
