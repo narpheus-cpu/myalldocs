@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "야쿠자에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "야쿠자",
+      "열차",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "야쿠자와 겪은 일화와 그들에 대한 생각을 담은 에세이.",
+    "overallSummary": "고등학교 시절 야간 열차에서 야쿠자와 동석했던 일화와 일상에서 마주치는 야쿠자들에 대한 저자의 생각을 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "열차에서의 일화",
+        "summary": "야간 열차에서 야쿠자와 동석하며 겪은 당혹스러운 경험을 이야기한다."
+      },
+      {
+        "sectionTitle": "일상의 야쿠자",
+        "summary": "일상에서 마주치는 야쿠자들에 대한 저자의 생각을 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "일상 속의 불편한 존재들."
+      }
+    ],
+    "keyEntitiesText": "유무라 테루히코, 가타오카 요시오",
+    "settingText": "야간 열차, 풀장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1c4Oy9_4ZnnmfMfytcyAz5fL4--08Gdi0",
+    "filename": "야쿠자에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.292Z",
+    "size": "1962",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1c4Oy9_4ZnnmfMfytcyAz5fL4--08Gdi0/view?usp=drivesdk",
+    "sourceSha256": "52c112165990fa290ec6d5d89887df6422031bc2216a6f324bf5d5783b1bb53b",
+    "textSha256": "fd61a233432dabaccd09a6fdb0e680bc9e57d23abfcb19c469dce7a64f6453db",
+    "changeKey": "5d982baeabc73fa4b6c8a87ae67d571c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "348ef5435af95b7bc329",
+    "workId": "348ef5435af95b7bc329",
+    "driveFileId": "1c4Oy9_4ZnnmfMfytcyAz5fL4--08Gdi0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:46:23.342606+00:00",
+    "updatedAt": "2026-09-21T20:46:23.342621+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:46:23.342724+00:00"
+    }
+  }
+}

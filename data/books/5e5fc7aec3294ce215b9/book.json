@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "야마구치 시모다마루 군 이야기",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "야마구치 마사히로",
+      "펜네임",
+      "이름"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "지인 야마구치 마사히로에게 펜네임을 지어준 에피소드.",
+    "overallSummary": "과거 아르바이트생이었던 야마구치 마사히로가 펜네임을 지어달라고 찾아온 에피소드를 통해, 이름에 대한 저자의 독특한 취향을 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "야마구치 마사히로",
+        "summary": "지인 야마구치 마사히로에 대한 저자의 인상을 이야기한다."
+      },
+      {
+        "sectionTitle": "펜네임 제안",
+        "summary": "야마구치에게 엉뚱한 펜네임을 제안하며 벌어지는 일을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "이름과 취향."
+      }
+    ],
+    "keyEntitiesText": "야마구치 마사히로, 안자이 미즈마루",
+    "settingText": "저자의 집."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rAOMOkNWFOEy91WDF9_yMNX3qyns9NUN",
+    "filename": "야마구치 시모다마루 군 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.267Z",
+    "size": "4321",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1rAOMOkNWFOEy91WDF9_yMNX3qyns9NUN/view?usp=drivesdk",
+    "sourceSha256": "f858f0b2997fd90f832f68ce3b031a48d0db1a80b451fb7bfe25baefef155f3e",
+    "textSha256": "4f9c0152b5e09913014de5e1b3ca48d61a022f66996ef2a5a94ed5358c84cb7e",
+    "changeKey": "aaca0303c8667d2ef054755a3c60d7e4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5e5fc7aec3294ce215b9",
+    "workId": "5e5fc7aec3294ce215b9",
+    "driveFileId": "1rAOMOkNWFOEy91WDF9_yMNX3qyns9NUN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:46:08.628977+00:00",
+    "updatedAt": "2026-09-21T20:46:08.628994+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:46:08.629103+00:00"
+    }
+  }
+}

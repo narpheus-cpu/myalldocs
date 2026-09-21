@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신구 게임",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "신구",
+      "문화",
+      "리스트"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문화 비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "세상의 사물을 신(新)과 구(舊)로 나누는 게임에 대한 에세이.",
+    "overallSummary": "세상의 다양한 것들을 '뒤쳐졌다'와 '앞서간다' 혹은 '신'과 '구'로 나누는 리스트를 통해, 이러한 구분이 게임으로서 가지는 재미와 개인적인 취향을 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "신구 리스트",
+        "summary": "미국 잡지 <인터뷰>의 리스트를 소개하고 신구 구분의 재미를 설명한다."
+      },
+      {
+        "sectionTitle": "개인적인 리스트",
+        "summary": "저자만의 주관적인 신구 리스트를 작성하며 자신만의 취향을 드러낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심",
+        "value": "주관적인 취향의 재발견."
+      }
+    ],
+    "keyEntitiesText": "앤디 워홀, 와타나베 카즈히로",
+    "settingText": "뉴욕, 일본."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1C0RZWGUFU_X-heNHsidB2htw4d5jEwqd",
+    "filename": "신구 게임.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.133Z",
+    "size": "4613",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1C0RZWGUFU_X-heNHsidB2htw4d5jEwqd/view?usp=drivesdk",
+    "sourceSha256": "fb271c1dd59b443d421904eb4d4b60ff41797307a367c0b5764abd6493c0ce6c",
+    "textSha256": "721b8e37593e1f9bec122a6e2be397f418659b879eb03897e3189b76a602fb04",
+    "changeKey": "bfe1eff595b963229babb95c9897ff03",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0c4d3f1ba2d414743297",
+    "workId": "0c4d3f1ba2d414743297",
+    "driveFileId": "1C0RZWGUFU_X-heNHsidB2htw4d5jEwqd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:44:31.462800+00:00",
+    "updatedAt": "2026-09-21T20:44:31.462816+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:44:31.462919+00:00"
+    }
+  }
+}

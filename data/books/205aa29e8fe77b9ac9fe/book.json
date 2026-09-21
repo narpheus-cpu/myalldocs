@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "약어에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "약어",
+      "언어",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "언어 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "일상 속 약어 사용에 대한 저자의 생각과 에피소드를 담은 에세이.",
+    "overallSummary": "일상에서 무분별하게 사용되는 약어들에 대한 저자의 불만과 그에 얽힌 에피소드, 그리고 영화 속 약어들에 대해 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "약어 읽기",
+        "summary": "BOAC나 UFO 같은 약어를 잘못 읽는 것에 대한 저자의 불만을 이야기한다."
+      },
+      {
+        "sectionTitle": "영화 속 약어",
+        "summary": "영화 <아메리칸 그래피티> 등에 등장하는 약어들을 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "언어 습관에 대한 고찰."
+      }
+    ],
+    "keyEntitiesText": "BOAC, UFO, FEN",
+    "settingText": "일상의 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1T6YkGSJ5Xcu5qAlxApGDDGARvnKxEhbb",
+    "filename": "약어에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.303Z",
+    "size": "3112",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1T6YkGSJ5Xcu5qAlxApGDDGARvnKxEhbb/view?usp=drivesdk",
+    "sourceSha256": "a8e4b4480720d3a7edb5951e20aa9450c323df89c806eb60f57f35f7d65f4301",
+    "textSha256": "d8d50b29f2bc1e0c5902b301e3e511d74cf8909ab206a1ab88c75dd4ce5785ad",
+    "changeKey": "dc54fceeb759c82816d689bbbf290b8d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "205aa29e8fe77b9ac9fe",
+    "workId": "205aa29e8fe77b9ac9fe",
+    "driveFileId": "1T6YkGSJ5Xcu5qAlxApGDDGARvnKxEhbb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:46:29.150596+00:00",
+    "updatedAt": "2026-09-21T20:46:29.150611+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:46:29.150715+00:00"
+    }
+  }
+}

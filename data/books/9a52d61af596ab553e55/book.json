@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "야쿠르트 스왈로즈에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "야쿠르트 스왈로즈",
+      "야구",
+      "응원"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "스포츠 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "야쿠르트 스왈로즈를 응원하는 이유와 그에 대한 애정을 담은 에세이.",
+    "overallSummary": "야쿠르트 스왈로즈를 응원하게 된 계기와 그 팀을 응원하며 겪은 패배의 경험들, 그리고 그 과정에서 얻은 패배에 대한 관대함을 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "야쿠르트 팬",
+        "summary": "야쿠르트 스왈로즈를 응원하게 된 배경을 설명한다."
+      },
+      {
+        "sectionTitle": "패배에 대한 관대함",
+        "summary": "야쿠르트의 패배를 겪으며 얻은 삶의 태도를 이야기한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "스포츠와 삶의 태도."
+      }
+    ],
+    "keyEntitiesText": "야쿠르트 스왈로즈, 쿄진, 마츠오카",
+    "settingText": "진구 구장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RsB8KWZsCGWmz-Lw6VbRJNLP9nYT_bHH",
+    "filename": "야쿠르트 스왈로즈에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.279Z",
+    "size": "4764",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1RsB8KWZsCGWmz-Lw6VbRJNLP9nYT_bHH/view?usp=drivesdk",
+    "sourceSha256": "befed4c33b5c4ce643ac1d45f2deac3a417248cb0e6d8c1ca5254bac2998f857",
+    "textSha256": "f425cc21259f6853c170906c5f37ef8419d5aa0eef761c510ff13b214f5de31a",
+    "changeKey": "9b1d03823646fa50c7a261baa78d33ff",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9a52d61af596ab553e55",
+    "workId": "9a52d61af596ab553e55",
+    "driveFileId": "1RsB8KWZsCGWmz-Lw6VbRJNLP9nYT_bHH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:46:15.766076+00:00",
+    "updatedAt": "2026-09-21T20:46:15.766090+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:46:15.766212+00:00"
+    }
+  }
+}

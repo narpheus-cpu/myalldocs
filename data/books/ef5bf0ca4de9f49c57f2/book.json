@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "쉐이빙",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "쉐이빙 폼",
+      "일상",
+      "습관"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "쉐이빙 폼을 사는 사소한 습관을 통해 일상을 다르게 바라보는 에세이.",
+    "overallSummary": "택시 요금을 내기 위해 잔돈을 만드는 과정에서 쉐이빙 폼을 사게 된 저자가, 그 사소한 습관이 일상을 어떻게 다르게 보이게 하는지 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "쉐이빙 폼과 일상",
+        "summary": "쉐이빙 폼을 사는 이유와 그것을 들고 다닐 때의 기분을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징물",
+        "value": "쉐이빙 폼은 일상의 환기를 가져오는 작은 도구."
+      }
+    ],
+    "keyEntitiesText": "질레트(트로피칼 코코넛)",
+    "settingText": "택시 안, 바, 호텔 목욕탕."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KuI6cFrD7kyDfDoQInKCdEaoEL6wzd-Y",
+    "filename": "쉐이빙.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.069Z",
+    "size": "1777",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1KuI6cFrD7kyDfDoQInKCdEaoEL6wzd-Y/view?usp=drivesdk",
+    "sourceSha256": "e1857e4a5c13182df932fec3e5e7a488d9e7f70aee5acdf2b8910f33a1de38f7",
+    "textSha256": "cb447985052c8597ae307cf8a7d66d4802ae3f5929c2291c19b39523ad34cb74",
+    "changeKey": "165b1ab0ebcb25015def6bbe4decbac5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ef5bf0ca4de9f49c57f2",
+    "workId": "ef5bf0ca4de9f49c57f2",
+    "driveFileId": "1KuI6cFrD7kyDfDoQInKCdEaoEL6wzd-Y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:43:59.993184+00:00",
+    "updatedAt": "2026-09-21T20:43:59.993201+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:43:59.993318+00:00"
+    }
+  }
+}

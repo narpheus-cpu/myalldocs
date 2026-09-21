@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시계",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "시계",
+      "인생",
+      "시간"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "시계가 늘어나는 과정을 통해 인생의 변화를 성찰하는 에세이.",
+    "overallSummary": "과거 시계가 없던 시절과 현재 시계가 16개나 있는 생활을 비교하며, 인생이란 시계가 증가하는 과정이 아닌가 하는 개인적인 성찰을 담았다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "시계가 없던 시절",
+        "summary": "결혼 초기 시계 없이 살았던 가난하지만 자유로웠던 시절을 회상한다."
+      },
+      {
+        "sectionTitle": "시계의 소굴",
+        "summary": "현재 집에 시계가 늘어난 상황과 그에 대한 감상을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "시간과 인생의 관계에 대한 성찰."
+      }
+    ],
+    "keyEntitiesText": "필립 K. 딕크",
+    "settingText": "저자의 집."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1h-aC7C0wP3AgHvBJH8KqfPDNsKRnph4A",
+    "filename": "시계.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.093Z",
+    "size": "1775",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1h-aC7C0wP3AgHvBJH8KqfPDNsKRnph4A/view?usp=drivesdk",
+    "sourceSha256": "b0ae02be2d88ead05f0d93ddcefd1f28b1e816457136dcc10b18c3f11c3ab4bf",
+    "textSha256": "77844b2e66707b0d84de7072ff1e27b19720fc68ea16c58f30ec8edd7764024d",
+    "changeKey": "edd815679462f279046722d1b5152e70",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "32c2ab1e8c07934ee6a2",
+    "workId": "32c2ab1e8c07934ee6a2",
+    "driveFileId": "1h-aC7C0wP3AgHvBJH8KqfPDNsKRnph4A",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:44:11.279817+00:00",
+    "updatedAt": "2026-09-21T20:44:11.279839+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:44:11.279930+00:00"
+    }
+  }
+}

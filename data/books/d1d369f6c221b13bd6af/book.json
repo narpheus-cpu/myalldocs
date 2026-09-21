@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "식당칸과 맥주",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "열차",
+      "식당칸",
+      "맥주"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "여행 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "열차 식당칸에서 마시는 맥주와 그 독특한 분위기에 대한 에세이.",
+    "overallSummary": "열차 식당칸이 가진 고아한 분위기와 그곳에서 아침부터 맥주를 마시는 행위가 주는 특별한 느낌을 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "식당칸의 분위기",
+        "summary": "열차 식당칸만이 가진 독특한 잠정적 분위기를 설명한다."
+      },
+      {
+        "sectionTitle": "아침 맥주",
+        "summary": "하코다테에서 삿포로로 가는 열차 안에서 맥주를 마시는 경험을 이야기한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "잠시 동안의 제도."
+      }
+    ],
+    "keyEntitiesText": "하코다테, 삿포로",
+    "settingText": "특급 열차 식당칸."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xINhJboRZYVTD3T9MphtOWooWjm-Ic2r",
+    "filename": "식당칸과 맥주.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.103Z",
+    "size": "1583",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1xINhJboRZYVTD3T9MphtOWooWjm-Ic2r/view?usp=drivesdk",
+    "sourceSha256": "87e494c862a4253ca7e8da039abce5dc3b928e9b203c0c4b938ad580ba1e066c",
+    "textSha256": "d5bec0fb3fd569ff56bb30954a96a98a35504a2d68630faf2ccdae1277f09747",
+    "changeKey": "64141adc7ce3e17c2e985b82b40c8210",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d1d369f6c221b13bd6af",
+    "workId": "d1d369f6c221b13bd6af",
+    "driveFileId": "1xINhJboRZYVTD3T9MphtOWooWjm-Ic2r",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:44:16.716905+00:00",
+    "updatedAt": "2026-09-21T20:44:16.716920+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:44:16.717015+00:00"
+    }
+  }
+}

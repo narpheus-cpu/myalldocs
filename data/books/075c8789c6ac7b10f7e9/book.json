@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아르바이트에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "아르바이트",
+      "물가",
+      "질"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "학생 시절 아르바이트와 물가, 그리고 질의 중요성에 대한 에세이.",
+    "overallSummary": "학생 시절의 아르바이트 급료와 물가를 회상하며, 수치적인 풍요보다 중요한 것은 삶의 질이라는 점을 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "학생 시절의 아르바이트",
+        "summary": "과거 아르바이트 급료와 물가를 비교하며 생활의 변화를 이야기한다."
+      },
+      {
+        "sectionTitle": "질의 문제",
+        "summary": "수나 양보다 질이 중요하다는 저자의 철학을 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "양보다 질."
+      }
+    ],
+    "keyEntitiesText": "다케무라 켄이치, 다나카 가쿠에",
+    "settingText": "과거의 일상."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uKPk7F3nsfwukrDdwwPEzeqz4sdzjltP",
+    "filename": "아르바이트에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.224Z",
+    "size": "1949",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1uKPk7F3nsfwukrDdwwPEzeqz4sdzjltP/view?usp=drivesdk",
+    "sourceSha256": "61f75ae68dac0087520338d925f738ac04fade96e91282abf7f98c4b73683c07",
+    "textSha256": "92550190545ace489eff8a1280a0d7c4ce04f4921a83813870ba3747aa5fc20c",
+    "changeKey": "b677c6f70d0deb37913b4a3e1771b8c2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "075c8789c6ac7b10f7e9",
+    "workId": "075c8789c6ac7b10f7e9",
+    "driveFileId": "1uKPk7F3nsfwukrDdwwPEzeqz4sdzjltP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:45:36.612270+00:00",
+    "updatedAt": "2026-09-21T20:45:36.612285+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:45:36.612388+00:00"
+    }
+  }
+}

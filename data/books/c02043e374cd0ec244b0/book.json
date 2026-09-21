@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "실수",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "실수",
+      "번역",
+      "소설"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "직업 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "글쓰기와 번역 과정에서 겪는 실수들에 대한 에세이.",
+    "overallSummary": "인간은 누구나 실수를 하며, 글쟁이로서 겪는 번역 실수나 사실 오인에 대해 솔직하게 고백하고 그것을 대하는 저자의 태도를 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "번역 실수",
+        "summary": "번역 과정에서 저지른 구체적인 실수들을 고백한다."
+      },
+      {
+        "sectionTitle": "소설 속의 실수",
+        "summary": "소설 속의 사실 오인을 대하는 저자의 유머러스한 태도를 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "실수를 대하는 태도."
+      }
+    ],
+    "keyEntitiesText": "모리시타, 오카무라",
+    "settingText": "작가의 작업실."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AoS6trTHz6RbFI6Xt4zHQikeTtJrGBET",
+    "filename": "실수.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.169Z",
+    "size": "4778",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1AoS6trTHz6RbFI6Xt4zHQikeTtJrGBET/view?usp=drivesdk",
+    "sourceSha256": "6d07e6d4c34b427bc0bb2f8c36504b54e291585f0cb610c03d4aca3dbf1b5d2d",
+    "textSha256": "29d9b1e419acfc9083491e00dee098abb6f81822ff292a5eb4bf146b0e7b36a8",
+    "changeKey": "f8bb11e17a15664988f3c956399b7c1b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c02043e374cd0ec244b0",
+    "workId": "c02043e374cd0ec244b0",
+    "driveFileId": "1AoS6trTHz6RbFI6Xt4zHQikeTtJrGBET",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:45:17.901626+00:00",
+    "updatedAt": "2026-09-21T20:45:17.901640+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:45:17.901726+00:00"
+    }
+  }
+}

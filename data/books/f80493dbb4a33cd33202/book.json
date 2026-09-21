@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "쓰레기",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "시대",
+      "농담",
+      "성찰"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "사회 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "쓰레기 같은 시대에 세상을 농담으로 받아들이는 태도에 대한 에세이.",
+    "overallSummary": "미국 청년 오엔과의 대화를 통해 세상을 '농담으로 생각하고 보면 재미있다'는 시점으로 바라보는 방식과, 쓰레기 같은 시대에 필요한 삶의 태도를 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "농담으로 보는 세상",
+        "summary": "세상의 사건들을 농담으로 받아들이는 시각을 설명한다."
+      },
+      {
+        "sectionTitle": "쓰레기 같은 시대",
+        "summary": "현대 사회를 살아가는 효율적인 삶의 방식을 제안한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "현대 사회를 대하는 태도."
+      }
+    ],
+    "keyEntitiesText": "오엔, 칼 마르크스, 미우라 카즈요시",
+    "settingText": "일상의 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1avetm8GQbncyfnJPI5rBWGjZxFbMfpnV",
+    "filename": "쓰레기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.194Z",
+    "size": "3756",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1avetm8GQbncyfnJPI5rBWGjZxFbMfpnV/view?usp=drivesdk",
+    "sourceSha256": "b81b05418041d8c7ccb4dfd31e595c0fec8de78e0115dd04232d9b60bed0423d",
+    "textSha256": "b6775e2c51266db2b90de513a89a86b55c88a25920feed1afca1798348aa4ab2",
+    "changeKey": "284e40d8e117104b49f3d3de50a56bb6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f80493dbb4a33cd33202",
+    "workId": "f80493dbb4a33cd33202",
+    "driveFileId": "1avetm8GQbncyfnJPI5rBWGjZxFbMfpnV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:45:30.745396+00:00",
+    "updatedAt": "2026-09-21T20:45:30.745410+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:45:30.745496+00:00"
+    }
+  }
+}

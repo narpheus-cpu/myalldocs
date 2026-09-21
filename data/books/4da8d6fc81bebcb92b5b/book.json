@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아주 옛날에 고쿠분지에 있었던 재즈 카페을 위한 광고",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "재즈 카페",
+      "광고",
+      "고쿠분지"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "회상 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "과거 운영했던 재즈 카페를 위한 가상의 광고 에세이.",
+    "overallSummary": "저자가 과거 고쿠분지에서 운영했던 재즈 카페의 특징과 분위기를 광고 형식으로 유머러스하게 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "가게의 특징",
+        "summary": "냉방 문제, 음악 볼륨 등 가게의 솔직한 단점들을 광고한다."
+      },
+      {
+        "sectionTitle": "가게 주인의 미래",
+        "summary": "가게 주인이 나중에 소설가가 될 것임을 암시하며 이야기를 마무리한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "광고 형식의 에세이."
+      }
+    ],
+    "keyEntitiesText": "존 콜트레인, 스탄 게츠, 키스 자렛",
+    "settingText": "고쿠분지의 재즈 카페."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MJHy6GhRrSjmZQXdBMPQ5BWn4iyybHFa",
+    "filename": "아주 옛날에 고쿠분지에 있었던 재즈 카페을 위한 광고.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.238Z",
+    "size": "2140",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1MJHy6GhRrSjmZQXdBMPQ5BWn4iyybHFa/view?usp=drivesdk",
+    "sourceSha256": "fa8fba52b1b4194b5436e575db29eabb14445d281868e84d5ed005d3ca388263",
+    "textSha256": "563f98be4888cb7c675c0f935da8bcd093be238d1deab6dd6315164c39d7d262",
+    "changeKey": "dde9f7d1608ef17451dd55a7d5e441c4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4da8d6fc81bebcb92b5b",
+    "workId": "4da8d6fc81bebcb92b5b",
+    "driveFileId": "1MJHy6GhRrSjmZQXdBMPQ5BWn4iyybHFa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:45:44.698002+00:00",
+    "updatedAt": "2026-09-21T20:45:44.698017+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:45:44.698119+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스니커",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "스니커",
+      "역사",
+      "허구"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "스니커의 유래에 대한 허구적 상상과 스니커에 대한 애정을 담은 에세이.",
+    "overallSummary": "스니커라는 명칭의 유래와 발명가에 대한 허구적인 이야기를 지어내어 스니커에 대한 저자의 애정을 유머러스하게 표현한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "스니커의 유래",
+        "summary": "스니커의 어원과 발명가에 대한 가상의 이야기를 서술한다."
+      },
+      {
+        "sectionTitle": "스니커에 대한 애정",
+        "summary": "저자가 스니커를 즐겨 신는 이유와 그에 대한 개인적인 감상을 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "글의 성격",
+        "value": "허구와 사실이 섞인 유머러스한 에세이."
+      }
+    ],
+    "keyEntitiesText": "제임스 P 브래들리, 에디슨, 라이트 형제",
+    "settingText": "1872년 보스톤, 1982년 현재."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1j-a3hc993RMeBNa8PvLZBGXCFIBJ6yWn",
+    "filename": "스니커.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.081Z",
+    "size": "2676",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1j-a3hc993RMeBNa8PvLZBGXCFIBJ6yWn/view?usp=drivesdk",
+    "sourceSha256": "f14f58a100c3a81ccf4698361192186f7952e91d395d1794057e1fb3777ca501",
+    "textSha256": "d19bce8522a3472fa072c5695e3a173d42095dc29d3d118ba518974e5503d806",
+    "changeKey": "aac9188e9e1c4c06d975c172cda3fc6d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "acfe038e2e7d2aa5d465",
+    "workId": "acfe038e2e7d2aa5d465",
+    "driveFileId": "1j-a3hc993RMeBNa8PvLZBGXCFIBJ6yWn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:44:05.717894+00:00",
+    "updatedAt": "2026-09-21T20:44:05.717910+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:44:05.718018+00:00"
+    }
+  }
+}

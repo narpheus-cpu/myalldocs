@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "술에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "술",
+      "혼술",
+      "일상",
+      "바텐더"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트로, 일상적인 소재를 독특한 시각으로 풀어내는 글을 쓴다.",
+    "oneLineSummary": "혼자 술을 마시는 습관과 그에 얽힌 소소한 일상과 생각을 담은 에세이.",
+    "overallSummary": "저자가 혼자 술을 마시는 이유와 방식, 그리고 술집에서 겪은 경험들을 담담하고 유머러스하게 서술한다. 혼자 마시는 술이 주는 편안함과 바텐더로서의 경험, 그리고 술자리에서 겪는 난처한 상황들을 통해 저자의 일상적인 면모를 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "혼술의 미학",
+        "summary": "저자가 혼자 술을 마시는 이유와 그 과정에서 느끼는 감정을 설명한다."
+      },
+      {
+        "sectionTitle": "바에서의 경험",
+        "summary": "바텐더 경험을 바탕으로 손님으로서의 태도와 술집에서 겪는 에피소드를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "술의 의미",
+        "value": "긴장을 풀고 혼자만의 시간을 보내는 수단."
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 필립 말로, 험프리 보가트, 안자이 미즈마루",
+    "settingText": "지방 도시의 바, 호텔 바 등 일상적인 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "193yDBgPuO_DdzckI7ducxhS5ErZDRf71",
+    "filename": "무민 파파와 점성술에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.322Z",
+    "size": "2110",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/193yDBgPuO_DdzckI7ducxhS5ErZDRf71/view?usp=drivesdk",
+    "sourceSha256": "34795c09cd534d489cb296a1467c25cf94daee8d1d9e94c66ccc9c4e154724b8",
+    "textSha256": "83b98de7a8c6c6951b77fc2f695d60163fcde0367ebeb16de91f7ef58702e58f",
+    "changeKey": "3024248dc01c39fb8b50c4c2f2d3ddfb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8a3a8c751380a88e736b",
+    "workId": "8a3a8c751380a88e736b",
+    "driveFileId": "193yDBgPuO_DdzckI7ducxhS5ErZDRf71",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:43:52.900785+00:00",
+    "updatedAt": "2026-09-21T20:43:52.900800+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:43:52.901000+00:00"
+    }
+  }
+}

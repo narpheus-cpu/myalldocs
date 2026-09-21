@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "식자공 비화",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "마감",
+      "원고",
+      "편집자"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "직업 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "글쓰기 마감과 편집자, 식자공에 대한 생각을 담은 에세이.",
+    "overallSummary": "마감(데드라인)에 대한 작가와 편집자의 입장, 그리고 원고가 늦어질 때 고생하는 식자공에 대한 미안한 마음을 유머러스하게 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "마감의 압박",
+        "summary": "마감날짜를 대하는 작가들의 태도와 편집자와의 관계를 설명한다."
+      },
+      {
+        "sectionTitle": "식자공에 대한 망상",
+        "summary": "원고가 늦어질 때 고생할 식자공과 그 가족을 상상하며 마감을 지키려는 노력을 이야기한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "직업적 책임감과 상상력."
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키",
+    "settingText": "작가의 작업실, 인쇄소."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1szRqM59DiPugAjgeqprkEu1FMSQKoSWO",
+    "filename": "식자공 비화.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.114Z",
+    "size": "4650",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1szRqM59DiPugAjgeqprkEu1FMSQKoSWO/view?usp=drivesdk",
+    "sourceSha256": "d6877bfac5e6b5694f53862402b2b0b913f4b5216d68016e02163cbda414a714",
+    "textSha256": "f112f941f7d1b5029142ab04dccdc25a2fc3ae8ca0942a8fdd213b45cb27e090",
+    "changeKey": "de9d9d0be310a963c71c1174af11306d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1dc3f851d0a5bb203b0a",
+    "workId": "1dc3f851d0a5bb203b0a",
+    "driveFileId": "1szRqM59DiPugAjgeqprkEu1FMSQKoSWO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:44:23.961034+00:00",
+    "updatedAt": "2026-09-21T20:44:23.961050+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:44:23.961207+00:00"
+    }
+  }
+}

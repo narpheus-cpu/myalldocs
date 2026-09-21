@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "쌍둥이",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "쌍둥이",
+      "축제",
+      "관심"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문화 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "쌍둥이에 대한 관심과 쌍둥이 마을 축제에 대한 에세이.",
+    "overallSummary": "쌍둥이에 대한 저자의 오랜 관심을 바탕으로 미국의 쌍둥이 마을 축제와 쌍둥이 커플(더블즈)에 대한 흥미로운 이야기를 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "쌍둥이 마을",
+        "summary": "미국 클리블랜드의 쌍둥이 마을과 축제를 소개한다."
+      },
+      {
+        "sectionTitle": "더블즈",
+        "summary": "쌍둥이끼리 결혼한 커플인 더블즈에 대한 호기심을 이야기한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "쌍둥이라는 존재에 대한 호기심."
+      }
+    ],
+    "keyEntitiesText": "모제스 윌콕스, 아론 윌콕스",
+    "settingText": "미국 클리블랜드."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1v1TqTAJJu5pEGHc0SPYyb5cvAfpvExp8",
+    "filename": "쌍둥이.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.182Z",
+    "size": "1988",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1v1TqTAJJu5pEGHc0SPYyb5cvAfpvExp8/view?usp=drivesdk",
+    "sourceSha256": "2006529c2b1e1f528a5f4e19cd5299ffb81fb409ae52fd75321959313b568a3d",
+    "textSha256": "fa169efca10e355c67f639b7285374069bf364cbed6f306c5426e5cbef354e8f",
+    "changeKey": "1977e6ba4734bd04a7454bd2383aa05c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "58ee203bb3f7a5273911",
+    "workId": "58ee203bb3f7a5273911",
+    "driveFileId": "1v1TqTAJJu5pEGHc0SPYyb5cvAfpvExp8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:45:24.703745+00:00",
+    "updatedAt": "2026-09-21T20:45:24.703769+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:45:24.703873+00:00"
+    }
+  }
+}

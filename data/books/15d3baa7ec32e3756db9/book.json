@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신문을 읽지 않음에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "신문",
+      "정보",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 소설가이자 에세이스트.",
+    "oneLineSummary": "신문을 읽지 않는 생활의 편안함에 대한 에세이.",
+    "overallSummary": "신문을 읽지 않아도 일상에 큰 지장이 없으며, 오히려 정보와 담을 쌓는 생활이 주는 편안함과 진정한 정보의 의미에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "신문 없는 생활",
+        "summary": "외국 체류 시 신문을 읽지 않는 생활의 편안함을 서술한다."
+      },
+      {
+        "sectionTitle": "진정한 정보",
+        "summary": "신문 정보보다 피부로 느끼는 정보의 중요성을 강조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "정보 과잉 시대의 태도."
+      }
+    ],
+    "keyEntitiesText": "그리스, 독일",
+    "settingText": "유럽 각국."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1P9Kio8P6odtrBIAGHdXpo3FwBpz5LMUR",
+    "filename": "신문을 읽지 않음에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.158Z",
+    "size": "1627",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1P9Kio8P6odtrBIAGHdXpo3FwBpz5LMUR/view?usp=drivesdk",
+    "sourceSha256": "0cb218bef66a32e4cb179b096294bd0db055ae25de3a9eae8bb6106d18448689",
+    "textSha256": "0a0fb26b56ec1b55e74e79588ffe505ee52689d69ed1c847c069cfbb3d0b9e8e",
+    "changeKey": "bbc34b40b25dd533ef5cb26ec53db5d5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "15d3baa7ec32e3756db9",
+    "workId": "15d3baa7ec32e3756db9",
+    "driveFileId": "1P9Kio8P6odtrBIAGHdXpo3FwBpz5LMUR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:45:02.645561+00:00",
+    "updatedAt": "2026-09-21T20:45:02.645574+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:45:02.645676+00:00"
+    }
+  }
+}
