@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "자본론 공부",
+    "author": "김수행",
+    "genre": "경제학/마르크스주의",
+    "tags": [
+      "자본론",
+      "마르크스",
+      "잉여가치",
+      "자본주의비판",
+      "김수행",
+      "계급투쟁"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김수행(1942~2015)은 한국의 대표적인 마르크스 경제학자로 서울대학교 경제학부 교수, 성공회대 석좌교수를 역임했으며, 카를 마르크스의 자본론 3권 전체를 한국어로 최초 완역했다.",
+    "oneLineSummary": "마르크스의 자본론 1~3권의 방대한 이론 구조와 자본주의 비판을 시민의 눈높이에 맞춰 쉽고 명쾌하게 해설한 경제학 강좌록이다.",
+    "overallSummary": "이 책은 혜화동 벙커원에서 진행된 10회 강좌를 바탕으로 정리되었다. 마르크스의 유물사관과 자본론의 성립 배경, 상품과 가치, 노동력의 상품화와 잉여가치 착취 구조(1권), 자본의 유통과 재생산 모형(2권), 평균이윤율 형성과 상업이윤·이자·지대의 분배 및 자본주의적 공황(3권)을 해설하고, 세월호 참사 등 현대 자본주의의 폐해를 극복할 미래 사회의 대안적 사유를 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 자본론/마르크스/엥겔스 소개",
+        "summary": "강의 개설 배경, 자본론 1~3권의 구성과 부제, 그리고 마르크스와 엥겔스의 생애와 사상을 개괄한다."
+      },
+      {
+        "sectionTitle": "제1장 자본주의 사회는 사라지지 않을까?",
+        "summary": "역사적 변동성 진리, 계급과 계급투쟁의 정의, 생산수단 소유에 따른 사회적 생산관계의 구분을 설명한다."
+      },
+      {
+        "sectionTitle": "제2장 ~ 제10장 자본론 1~3권 핵심 해설",
+        "summary": "가치와 잉여가치, 노동일과 절대적/상대적 잉여가치, 자본 축적, 유통과 재생산, 평균이윤율과 공황 이론을 상세히 풀이한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "해설 특징",
+        "value": "어려운 자본론 개념을 우리 글과 쉬운 언어로 풀어내고 자본주의 비판과 미래 사회 이행 전망을 제시함"
+      }
+    ],
+    "keyEntitiesText": "김수행, 카를 마르크스, 프리드리히 엥겔스, 예니 폰 베스트팔렌",
+    "settingText": "19세기 영국 산업자본주의 현장 및 현대 한국 자본주의 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gu5IpoCCN4ULEm3UKkUSgGlg1l6JDEMT",
+    "filename": "김수행-자본론 공부(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T13:14:34.000Z",
+    "size": "471400",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1gu5IpoCCN4ULEm3UKkUSgGlg1l6JDEMT/view?usp=drivesdk",
+    "sourceSha256": "2428e5a823cc866a6344227462f5fc964c352157c8a321d54b56465194714b26",
+    "textSha256": "edac3241947f7d2c613c641c0590ed6df4b0425dafbc25182d44f2271df1a7f7",
+    "changeKey": "b01fb6d5ddf1672530e4eb5d988dcbf9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "13ca47a1787b9bef3333",
+    "workId": "13ca47a1787b9bef3333",
+    "driveFileId": "1gu5IpoCCN4ULEm3UKkUSgGlg1l6JDEMT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:46:13.131460+00:00",
+    "updatedAt": "2026-09-21T14:46:13.131475+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:46:13.131597+00:00"
+    }
+  }
+}

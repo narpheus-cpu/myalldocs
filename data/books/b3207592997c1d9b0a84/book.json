@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "탈무드",
+    "author": "김상구 엮음",
+    "genre": "종교/유태지혜",
+    "tags": [
+      "탈무드",
+      "유태인",
+      "지혜",
+      "힐레루",
+      "아키바",
+      "격언"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "편역자 김상구는 탈무드의 방대한 바다에서 현대인에게 유익한 유태인의 지혜와 우화, 랍비들의 가르침을 정선하여 편찬하였다.",
+    "oneLineSummary": "5천 년 유태 민족의 정신적 지주이자 삶의 지혜의 보고인 탈무드의 역사와 핵심 우화, 존경받는 랍비들의 언행, 주제별 격언을 소개한다.",
+    "overallSummary": "이 책은 굴뚝 청소하는 두 아이의 비유로 탈무드식 지혜와 사고 방식의 본질을 열어 보인다. 기원전 500년부터 천년 동안 구전되어 편찬된 바빌로니아 탈무드의 생성사를 설명하고, 랍비 힐레루의 인내와 황금률, 벤 자카이의 예루살렘 탈출과 학교 건립, 아키바의 학문 열정과 순교 등 3대 랍비의 일화를 전달한다. 이어 돈, 마음, 교육, 언어, 교제 등 삶의 지혜가 담긴 유태 격언을 모았다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "<1> 탈무드란?",
+        "summary": "굴뚝 청소 비유를 통해 탈무드 사고법을 설명하고, 20권 12,000페이지에 달하는 탈무드의 정의와 역사, 전승 과정을 해설한다."
+      },
+      {
+        "sectionTitle": "<2> 세 사람의 랍비",
+        "summary": "황금률과 인내의 랍비 힐레루, 유태 전통을 지킨 벤 자카이, 학문과 민족을 위해 순교한 랍비 아키바의 생애와 명언을 서술한다."
+      },
+      {
+        "sectionTitle": "<3>~<15> 편역자의 말 및 유태인의 격언",
+        "summary": "탈무드의 신체 부위별 비유와 돈, 마음의 양식, 교육, 언어, 인간관계, 삶의 지혜에 관한 정선된 격언들을 담았다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성적 특징",
+        "value": "탈무드의 개념 해설, 대표 랍비 3인의 전기 일화, 주제별 유태 지혜 격언집으로 구성"
+      }
+    ],
+    "keyEntitiesText": "김상구, 랍비 힐레루, 랍비 요한나 벤 자카이, 랍비 아키바",
+    "settingText": "고대 이스라엘, 바빌로니아 및 전 세계에 흩어진 디아스포라 유태인 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_yIP5QcUl1aZKbzr7diYr0XWJI1EtdxF",
+    "filename": "김상구 엮음-탈무드 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.609Z",
+    "size": "477213",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1_yIP5QcUl1aZKbzr7diYr0XWJI1EtdxF/view?usp=drivesdk",
+    "sourceSha256": "bc7155a5c28c9e68ad745fb45d5de892d75bc0cd4ed3653c772c3fc7e5d5d0ad",
+    "textSha256": "4033dc6717f176eb895505c84f88149cac2392ecc2ee8eb21f4c4d30f631a7b7",
+    "changeKey": "02274b1fb13a5474aaf4bb18ad0bdd28",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b3207592997c1d9b0a84",
+    "workId": "b3207592997c1d9b0a84",
+    "driveFileId": "1_yIP5QcUl1aZKbzr7diYr0XWJI1EtdxF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:45:33.894472+00:00",
+    "updatedAt": "2026-09-21T14:45:33.894492+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:45:33.894588+00:00"
+    }
+  }
+}

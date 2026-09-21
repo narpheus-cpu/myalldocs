@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "다시 시작하는 나비",
+    "author": "김정란",
+    "genre": "시",
+    "tags": [
+      "김정란",
+      "시집",
+      "나비",
+      "상처",
+      "존재",
+      "서정시"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1953년 서울 출생. 시인이자 문학평론가, 대학교수. 치열한 시적 언어와 지성으로 존재의 결핍과 비상을 노래해왔다.",
+    "oneLineSummary": "상처받은 영혼의 아픔, 고독, 존재의 결핍과 이를 극복하려는 내면적 비상을 '나비'의 이미지와 치열한 시적 언어로 노래한 시집이다.",
+    "overallSummary": "이 시집은 시인 김정란의 초기 대표 시편들을 모은 책이다. '당신의 어깨', '쓸쓸한 몇 편의 사랑 노래', '죽은 엄마에 의한 엄마의 교정', '나비의 꿈', '이 시대에 살기', 'TV의 말놀이를 주제로 한 몇 개의 성찰' 등의 작품을 수록했다. 생의 아픔과 가난, 엄마의 죽음, 시 시대의 어색함과 매몰에 맞서, 가벼운 날갯짓으로 다시 시작하려는 '나비'의 서정적이고 단호한 비상을 담아낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "자서 및 주요 서정 시편",
+        "summary": "삶에 대한 사랑과 아픔의 기록을 밝힌 자서와 <당신의 어깨>, <쓸쓸한 몇 편의 사랑 노래>, <죽은 엄마에 의한 엄마의 교정>, <나비의 꿈> 등 사랑과 실존의 시를 수록한다."
+      },
+      {
+        "sectionTitle": "사회적 성찰 및 언어 탐구 시편",
+        "summary": "<이 시대에 살기>, <TV의 말놀이를 주제로 한 몇 개의 성찰>, <엄마 버리기, 또는 뒤집기> 등을 통해 시대의 추함, 언어의 각질, 존재의 진실을 시적으로 포착한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시적 모티프",
+        "value": "'나비'의 날갯짓을 통한 존재론적 결핍 극복, 섬세하면서도 단호한 내면 비상의 서정"
+      }
+    ],
+    "keyEntitiesText": "김정란, 김보화, 최병서, 김현",
+    "settingText": "시인의 내면적 고독과 1980년대 후반 한국 사회의 풍경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jYtQ3s3j5eS6tagq363mRe5viFaCDqax",
+    "filename": "김정란-다시 시작하는 나비(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T17:45:16.000Z",
+    "size": "105520",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1jYtQ3s3j5eS6tagq363mRe5viFaCDqax/view?usp=drivesdk",
+    "sourceSha256": "d064c768d609750a4c72f6fe4b21a81d516591854982076cd1b023fc083a4259",
+    "textSha256": "0f8a42ed605a2db9acb9d92f213b66a224d6579eaa13c9e68fd79f8635c862f0",
+    "changeKey": "4043151190dfa371002aea74abd530fa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7038bcc7139b9b1f589d",
+    "workId": "7038bcc7139b9b1f589d",
+    "driveFileId": "1jYtQ3s3j5eS6tagq363mRe5viFaCDqax",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:46:47.289911+00:00",
+    "updatedAt": "2026-09-21T14:46:47.289926+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:46:47.290037+00:00"
+    }
+  }
+}

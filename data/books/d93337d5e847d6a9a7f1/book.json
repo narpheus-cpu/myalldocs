@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "김대식의 인간 vs 기계",
+    "author": "김대식",
+    "genre": "교양과학/인공지능",
+    "tags": [
+      "인공지능",
+      "알파고",
+      "딥러닝",
+      "이세돌",
+      "4차산업혁명",
+      "뇌과학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "카이스트 전기 및 전자공학부 교수. 독일 막스-플랑크 뇌과학연구소에서 박사학위를 받았으며 인공지능, 뇌공학 분야의 대표적 연구자이자 독서가, 칼럼니스트이다.",
+    "oneLineSummary": "이세돌과 알파고의 역사적 바둑 대국을 계기로 딥러닝과 인공지능의 메커니즘, 기술적 한계, 그리고 4차 산업혁명 시대의 인류의 미래를 진단한다.",
+    "overallSummary": "이 책은 2016년 이세돌과 알파고의 바둑 대결을 출발점으로 기계학습의 발전사를 조명한다. 퍼셉트론과 오차역전파법, 제프리 힌튼의 딥러닝 혁신을 해설하고, 전통적 인공지능이 겪은 모라벡의 역설과 비정형 데이터 처리의 어려움을 분석한다. 기계가 지적 노동을 대체하는 4차 산업혁명 시대에 인간사회가 유토피아와 디스토피아의 갈림길에서 어떻게 미래를 준비해야 하는지 경고와 제언을 건넨다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: 어려운 천국과 쉬운 지옥",
+        "summary": "알파고의 승리가 가져온 충격을 바탕으로 딥러닝과 직관의 개념, 그리고 인공지능 시대의 역사적 전환점을 설명한다."
+      },
+      {
+        "sectionTitle": "How it's possible",
+        "summary": "전통적 인공지능과 모라벡의 역설, 다르파 로봇 챌린지와 자율성 확보 문제를 다루며 지능 구현의 어려움을 검토한다."
+      },
+      {
+        "sectionTitle": "인공지능이 어려운 이유",
+        "summary": "강아지와 고양이 구분 난제, 빅데이터와 비정형 데이터 분석의 한계, 언어적 설명 불가능성 등의 원인을 해부한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기술적 분석",
+        "value": "다층 퍼셉트론, 오차역전파, 딥러닝 pre-training, 강화학습 등 AI 핵심 작동 원리 해설"
+      }
+    ],
+    "keyEntitiesText": "김대식, 이세돌, 알파고, 데미스 하사비스, 프랭크 로젠블라트, 제프리 힌튼, 보스턴 다이내믹스",
+    "settingText": "2016년 서울 이세돌-알파고 대국 현장 및 4차 산업혁명의 기술 문명사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15b3xDHJYTDrBAGyYcSLNOlPJpZE8fiNp",
+    "filename": "김대식-김대식의 인간 vs 기계 -- 김대식(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.569Z",
+    "size": "258506",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/15b3xDHJYTDrBAGyYcSLNOlPJpZE8fiNp/view?usp=drivesdk",
+    "sourceSha256": "7f6b7b4fe4475e1874db64539beaf8a61e724aab25dd9d3f32e0a88a154ad6d9",
+    "textSha256": "4828f0179096e702e1dfaac5530fdf0c9508f7eda488208ea38852bae3ff960b",
+    "changeKey": "2e7d11fe6a371f774ea0c38a3c43c2e4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d93337d5e847d6a9a7f1",
+    "workId": "d93337d5e847d6a9a7f1",
+    "driveFileId": "15b3xDHJYTDrBAGyYcSLNOlPJpZE8fiNp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T14:45:07.108477+00:00",
+    "updatedAt": "2026-09-21T14:45:07.108491+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T14:45:07.108589+00:00"
+    }
+  }
+}
