@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한신 사이 키드",
+    "author": "무라카미 하루키",
+    "genre": "Eseey",
+    "tags": [
+      "한신간",
+      "아시야",
+      "고향",
+      "친구"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "memoir",
+        "daily_life"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "효고현 아시야의 평범한 주택가에서 십대를 보낸 저자가 '한신간' 출신으로서 느끼는 향수와 세태.",
+    "overallSummary": "고향이 어디인지 명확히 말하기 어려워 '한신간'이라고 부르길 좋아하는 저자는, 화려한 아시야가 아닌 평범한 주택가에서 보낸 학창 시절을 회상한다. 도쿄로 갔던 한신간 출신 친구들이 나이가 들어 다시 고향으로 돌아가는 현상과 그들의 느긋한 기질을 유머러스하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한신 사이 키드",
+        "summary": "한신간(아시야)에서 보낸 십대 시절의 기억과, 도쿄를 떠나 고향으로 돌아가는 친구들의 느긋한 성향에 대한 단상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "고향에 대한 기억과 지역적 정체성"
+      }
+    ],
+    "keyEntitiesText": "저자, 고등학교 시절 친구, 안자이 미즈마루",
+    "settingText": "효고현 니시노미야시 슈쿠가와, 아시야시 및 도쿄"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_Eg7VIolE-zVzyLxwgpWImjYMKPxUPUi",
+    "filename": "한신 사이 키드.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.247Z",
+    "size": "4559",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1_Eg7VIolE-zVzyLxwgpWImjYMKPxUPUi/view?usp=drivesdk",
+    "sourceSha256": "1201dc0ffeca6afe5a239765dc5a62ea7e1da45755ac6e8fec110c78416e2593",
+    "textSha256": "3908f9e7ede35dc73996c672a4af6440700d7c871f97f2d9cb1321c466dd154b",
+    "changeKey": "820d74d9cd80cfd7c32d37351513a47e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9f6d9d5b556fcc8756d3",
+    "workId": "9f6d9d5b556fcc8756d3",
+    "driveFileId": "1_Eg7VIolE-zVzyLxwgpWImjYMKPxUPUi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:30:39.226052+00:00",
+    "updatedAt": "2026-09-21T21:30:39.226067+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:30:39.226170+00:00"
+    }
+  }
+}

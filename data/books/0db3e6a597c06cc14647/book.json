@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "페리 보트",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "페리",
+      "치쿠라",
+      "시라하마",
+      "여행"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "travel",
+        "daily_life"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "치쿠라에서 시라하마를 거쳐 페리를 타고 도쿄만을 건너는 독특하고 즐거운 산책과 여행의 기록.",
+    "overallSummary": "치쿠라에서 시라하마까지 걷고, 버스와 국철을 거쳐 하마카나야에서 페리 보트를 타고 도쿄만을 건너 미우라 반도로 향하는 여정을 그린다. 치바에서 가나가와로 직접 이어지는 기묘한 이동 경로 속에서 맥주를 마시며 느끼는 소소한 여행의 즐거움을 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "페리 보트",
+        "summary": "치쿠라와 시라하마 산책, 그리고 하마카나야에서 페리를 타고 도쿄만을 건너는 여정의 감흥."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "색다른 경로의 여행과 일상의 해방감"
+      }
+    ],
+    "keyEntitiesText": "저자",
+    "settingText": "치쿠라, 시라하마, 다테야마, 하마카나야 및 동경만 페리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DzUUcA5u8EeqCUk8n3NjxgTBXYTpx5sg",
+    "filename": "페리 보트.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.189Z",
+    "size": "1714",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1DzUUcA5u8EeqCUk8n3NjxgTBXYTpx5sg/view?usp=drivesdk",
+    "sourceSha256": "e99b4fb756b70f3071fc65de14e930e91428ba8288da24559b35a95b96e25188",
+    "textSha256": "6c639b3503be5f4a2bf3837c24cc5a56f88fa4cff3cd659abd0818a46239f724",
+    "changeKey": "f097e30dc820417a7fd648623ef8baf6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0db3e6a597c06cc14647",
+    "workId": "0db3e6a597c06cc14647",
+    "driveFileId": "1DzUUcA5u8EeqCUk8n3NjxgTBXYTpx5sg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:30:02.368547+00:00",
+    "updatedAt": "2026-09-21T21:30:02.368562+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:30:02.368657+00:00"
+    }
+  }
+}

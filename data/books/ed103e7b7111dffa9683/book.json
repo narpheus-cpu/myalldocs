@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "타임머신",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "타임머신",
+      "코타츠",
+      "와타나베 노보루"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "surrealism",
+        "humor"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 현대 소설가.",
+    "oneLineSummary": "오래된 전기 코타츠를 타임머신이라 우기며 신형과 교환해 간 수리공의 이야기.",
+    "overallSummary": "저녁 무렵 찾아온 수도 수리공 와타나베 노보루가 집에 구형 타임머신이 있다는 말을 듣고 찾아온다. 저자는 먹다 만 귤껍질이 놓인 구형 전기 코타츠를 타임머신이라고 보여주고, 사내와 교환하며 일어나는 엉뚱한 상황을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "타임머신",
+        "summary": "전기 코타츠를 타임머신으로 여기고 신형과 교환해 가는 와타나베 노보루와의 기묘한 조우."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "narrative_style",
+        "value": "초현실적 유머와 일상의 결합"
+      }
+    ],
+    "keyEntitiesText": "저자, 와타나베 노보루",
+    "settingText": "저자의 방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FMYQ9aY0QSyhhh_3X1TbmlBcyU_KuLaI",
+    "filename": "타임머신.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.081Z",
+    "size": "1797",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1FMYQ9aY0QSyhhh_3X1TbmlBcyU_KuLaI/view?usp=drivesdk",
+    "sourceSha256": "6c77f03293f7bc324a23684cc3762bc6beb0a84dfb2a2252834e1a3b7ff5bf28",
+    "textSha256": "b615470903cabd9a883183e56c51bf5e7ccc970310e79452f7b427d1c90bdf8b",
+    "changeKey": "fb887d903e11c1e206e48419badb0426",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ed103e7b7111dffa9683",
+    "workId": "ed103e7b7111dffa9683",
+    "driveFileId": "1FMYQ9aY0QSyhhh_3X1TbmlBcyU_KuLaI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:29:30.632353+00:00",
+    "updatedAt": "2026-09-21T21:29:30.632370+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:29:30.632482+00:00"
+    }
+  }
+}

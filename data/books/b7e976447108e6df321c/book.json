@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "취미로 듣는 음악",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "음악",
+      "취미",
+      "레코드",
+      "클래식"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "music",
+        "memoir"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 음악 애호가.",
+    "oneLineSummary": "학창 시절부터 두서없이 모아 들었던 레코드와 음악에 얽힌 기억을 통해 취미의 의미를 되돌아보는 에세이.",
+    "overallSummary": "소설을 쓰면서 독서가 일이 되어버린 저자에게 음악은 여전히 순수한 취미로 남아 있다. 어릴 적 가이드북 없이 바겐세일 레코드를 마구 사들이며 형성된 독특한 음악적 취향과 감수성의 노화에 대처하는 자세를 유쾌하게 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "취미로 듣는 음악",
+        "summary": "음악을 취미로 지키려는 노력과, 학창 시절 무작정 모았던 레코드들이 자신만의 표준 연주가 된 사연, 그리고 음악을 대하는 태도를 회상함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "음악적 취향의 형성 과정과 기억"
+      }
+    ],
+    "keyEntitiesText": "글렌 굴드, 박 하우스, 줄리어드 현악 사중주단, 비엔나 콘체르토 하우스 현악 사중주단",
+    "settingText": "저자의 어린 시절부터 현재까지의 음악 감상 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1alYjqjnnZ_pqr4J05D_rGKeK_6fO2E25",
+    "filename": "취미로 듣는 음악.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.008Z",
+    "size": "4700",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1alYjqjnnZ_pqr4J05D_rGKeK_6fO2E25/view?usp=drivesdk",
+    "sourceSha256": "33a61349244e90db65e109539d12519123dfa2fcd8a4b01ebe9f2151dd91df15",
+    "textSha256": "6a49d3deb446e5d919c04f2b4b375649fda15dc80f57494adc47c4430e508b10",
+    "changeKey": "8063a3c39bb97da365b9945fdf264640",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b7e976447108e6df321c",
+    "workId": "b7e976447108e6df321c",
+    "driveFileId": "1alYjqjnnZ_pqr4J05D_rGKeK_6fO2E25",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:28:49.113408+00:00",
+    "updatedAt": "2026-09-21T21:28:49.113430+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:28:49.113524+00:00"
+    }
+  }
+}

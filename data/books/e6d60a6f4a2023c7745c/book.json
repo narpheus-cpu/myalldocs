@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "체중 증감에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "체중계",
+      "다이어트",
+      "일상",
+      "고양이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "humor",
+        "daily_life"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "우연히 선물 받은 체중계를 통해 일상 속 체중의 미묘한 변화와 다이어트에 대해 유쾌하게 풀어낸 에세이.",
+    "overallSummary": "오랫동안 사지 않고 버티다가 선물로 받게 된 체중계를 통해 인간의 체중이 하룻동안 얼마나 다양하게 변하는지 관찰하고, 다이어트와 체중에 얽힌 소소한 경험을 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "체중 증감에 대하여",
+        "summary": "체중계를 선물 받은 것을 계기로 하루 사이에도 변하는 체중의 변화와 고양이들의 체중, 그리고 가벼운 다이어트 경험을 유쾌하게 서술함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "일상 속 호기심과 체중 변화에 대한 관찰"
+      }
+    ],
+    "keyEntitiesText": "저자, 고양이 ⓐ, 고양이 ⓑ",
+    "settingText": "저자의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1B3Qgh0YWOgRE4XCb4xp3ygd8AVGfCWJT",
+    "filename": "체중 증감에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.998Z",
+    "size": "1722",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1B3Qgh0YWOgRE4XCb4xp3ygd8AVGfCWJT/view?usp=drivesdk",
+    "sourceSha256": "10e7cc9ddff4f09adc47faeb5a9b87f02d7ed8fbe5f90aeb2ab34f1156a0d0d4",
+    "textSha256": "b886c861048e22bfbd3ff69de8223dd3ea0f4dc3f1026b67df10cedcb8841709",
+    "changeKey": "623c5a53a5dcd308efd7868fe888c59e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e6d60a6f4a2023c7745c",
+    "workId": "e6d60a6f4a2023c7745c",
+    "driveFileId": "1B3Qgh0YWOgRE4XCb4xp3ygd8AVGfCWJT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:28:42.853606+00:00",
+    "updatedAt": "2026-09-21T21:28:42.853622+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:28:42.853717+00:00"
+    }
+  }
+}

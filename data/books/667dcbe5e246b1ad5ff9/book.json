@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "패밀리 어페어",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "여동생",
+      "약혼자",
+      "일요일",
+      "가족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "daily_life",
+        "humor"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 현대 소설가.",
+    "oneLineSummary": "여동생의 결혼과 마음에 들지 않는 약혼자를 두고 벌어지는 어느 일요일의 소란스러운 하루.",
+    "overallSummary": "여동생과 함께 살며 각자의 삶에 간섭하지 않던 저자는, 여동생이 컴퓨터 엔지니어인 약혼자와 교제하기 시작한 이후 자신을 비난하기 시작하자 낙담한다. 맛없는 스파게티 집에서의 다툼, 즉흥적인 드라이브와 데이트, 그리고 여동생의 약혼자 집 방문에 이르기까지 꼬여버린 일요일의 일상을 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "패밀리 어페어",
+        "summary": "여동생의 결혼 소동과 편협한 성격으로 인한 갈등, 그리고 꼬여버린 일요일 하루 동안의 에피소드."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "narrative_style",
+        "value": "일상의 세세한 묘사와 유머러스한 심리 묘사"
+      }
+    ],
+    "keyEntitiesText": "저자, 여동생, 여동생의 약혼자(컴퓨터 엔지니어), 디스코장에서 만난 여대생",
+    "settingText": "도쿄, 요코하마 해변, 메구로의 약혼자 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OZhs9o_X789AZNHavT6ube4trNPdN0WR",
+    "filename": "패밀리 어페어.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.126Z",
+    "size": "48954",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1OZhs9o_X789AZNHavT6ube4trNPdN0WR/view?usp=drivesdk",
+    "sourceSha256": "1b38bdca83befc0883fa4927d9fc131a2fd2dafc750784fb15ecdc96038dc8d3",
+    "textSha256": "07077bb65e0391db8268b5ef54130ce96105c4e6a0fe9a96503cc9e741ba4583",
+    "changeKey": "8c64fa417f1c8187730749ffaad5d1d6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "667dcbe5e246b1ad5ff9",
+    "workId": "667dcbe5e246b1ad5ff9",
+    "driveFileId": "1OZhs9o_X789AZNHavT6ube4trNPdN0WR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:29:56.240044+00:00",
+    "updatedAt": "2026-09-21T21:29:56.240059+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:29:56.240156+00:00"
+    }
+  }
+}

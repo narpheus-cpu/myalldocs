@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하루키 동맹",
+    "author": "무라카미 하루키",
+    "genre": "Eseey",
+    "tags": [
+      "하루키",
+      "나카노구",
+      "동맹",
+      "초콜릿"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "humor",
+        "daily_life"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "'하루키 구함'이라는 기묘한 벽보와 짓밟힌 초콜릿을 두고 벌이는 엉뚱한 상상의 나래.",
+    "overallSummary": "나카노구에서 발견된 '하루키 구함'이라는 벽보와 발렌타인 데이 다음 날 길에 짓밟혀 있던 대형 하트 초콜릿을 단서 삼아, 온갖 기발하고 엉뚱한 가설과 상상을 펼치며 일상의 소소한 수수께끼를 유쾌하게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "하루키 동맹",
+        "summary": "'하루키 구함' 벽보와 길거리에 짓밟힌 초콜릿을 주제로 펼치는 엉뚱하고 유쾌한 상상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "일상의 사소한 단서에서 출발하는 기발한 상상력"
+      }
+    ],
+    "keyEntitiesText": "저자, 편집자, 아내",
+    "settingText": "도쿄 나카노구 및 센다가야 하토모리 신사 근처"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KgM2k5lVLgvCubjVaVCvYUCVJ1YaIrZ_",
+    "filename": "하루키 동맹.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.226Z",
+    "size": "4144",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1KgM2k5lVLgvCubjVaVCvYUCVJ1YaIrZ_/view?usp=drivesdk",
+    "sourceSha256": "74426084a39a11a8dba2b087cb3faafbe30edb527adaa12d1b82efe91ef6bc7a",
+    "textSha256": "90b4e052c31555213e292b62035e16114f18831b3cd345f8e0476fe431b242fa",
+    "changeKey": "86a4a2e39467df3bc6385ffba8818220",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ed0d561393410f0fdc12",
+    "workId": "ed0d561393410f0fdc12",
+    "driveFileId": "1KgM2k5lVLgvCubjVaVCvYUCVJ1YaIrZ_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:30:26.586411+00:00",
+    "updatedAt": "2026-09-21T21:30:26.586426+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:30:26.586530+00:00"
+    }
+  }
+}

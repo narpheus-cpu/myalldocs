@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "학습에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "학습",
+      "교육",
+      "대학",
+      "경험"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "memoir",
+        "education"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "학교 교육보다는 사회생활과 일상적인 관찰을 통해 배우기를 좋아했던 저자의 학습에 대한 단상.",
+    "overallSummary": "세상에는 가르치기를 좋아하는 사람과 배우기를 좋아하는 사람이 있으며 자신은 후자라고 말한다. 학창 시절에는 공부를 멀리하고 놀기 바빴으나, 사회인이 된 이후 일터에서 사람들을 관찰하고 이야기를 들으며 얻은 학습 체험이 훗날 소설 쓰기에 큰 도움이 되었다고 회상한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "학습에 대하여",
+        "summary": "가르치는 것보다 배우는 것을 좋아하는 성향과, 학교보다는 사회와 일상 속에서 타인을 관찰하며 얻은 진정한 학습 경험에 대한 회상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "제도권 교육과 실제 삶의 경험에 대한 고찰"
+      }
+    ],
+    "keyEntitiesText": "저자, 안자이 미즈마루",
+    "settingText": "학창 시절의 학교와 사회생활의 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1o_yXYbrLj8vr-mt3hqdMJusflNbIhjZZ",
+    "filename": "학습에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.237Z",
+    "size": "4674",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1o_yXYbrLj8vr-mt3hqdMJusflNbIhjZZ/view?usp=drivesdk",
+    "sourceSha256": "8a77449bb856576528011494325066e418db69ba564688bee203a2a06b93833d",
+    "textSha256": "9243858cd37f3e4aec38eb93d2aed9dcf7fee47bb19dc23883c892c296cc7d4a",
+    "changeKey": "c1b302c1e84852a1ae95d6bb478cf1c9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9fc7a4d2131fd2f75a4a",
+    "workId": "9fc7a4d2131fd2f75a4a",
+    "driveFileId": "1o_yXYbrLj8vr-mt3hqdMJusflNbIhjZZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:30:33.500247+00:00",
+    "updatedAt": "2026-09-21T21:30:33.500263+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:30:33.500410+00:00"
+    }
+  }
+}

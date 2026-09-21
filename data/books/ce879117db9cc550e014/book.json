@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "치쿠라에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "치쿠라",
+      "바다",
+      "여행",
+      "보소"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "travel",
+        "daily_life"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "화려한 관광지 대신 소박하고 리얼한 바다가 있는 남쪽 보소의 치쿠라를 향한 애정을 담은 에세이.",
+    "overallSummary": "고베에서 자라 바다를 좋아하는 저자가 지나치게 세련된 쇼난이나 요코하마 대신, 사람 그림자도 드물고 바다 자체의 리얼리티가 살아 있는 남쪽 보소의 치쿠라를 방문하며 느낀 소회를 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "치쿠라에 관하여",
+        "summary": "화려한 해안가와 달리 소박하고 조용한 남쪽 보소의 치쿠라 해변에서 진정한 바다의 매력을 느끼는 에피소드."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "소박한 여행지와 생활 감각으로서의 바다"
+      }
+    ],
+    "keyEntitiesText": "저자, 안자이 미즈마루",
+    "settingText": "남쪽 보소 치쿠라 해안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nt5zuMfV_JKAYNoIL73N7pl0-AjWW8GG",
+    "filename": "치쿠라에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.017Z",
+    "size": "1751",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1nt5zuMfV_JKAYNoIL73N7pl0-AjWW8GG/view?usp=drivesdk",
+    "sourceSha256": "41a22673143104bc60cfa026b04c539a6a6e166aef251cbcb6c50dc227014986",
+    "textSha256": "c4b9b81682f77ad74a6e052dec23868e6debb52bf70771894069788b324261d3",
+    "changeKey": "169d4d0a3e4c606d8939554f167cd33c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ce879117db9cc550e014",
+    "workId": "ce879117db9cc550e014",
+    "driveFileId": "1nt5zuMfV_JKAYNoIL73N7pl0-AjWW8GG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:28:55.062113+00:00",
+    "updatedAt": "2026-09-21T21:28:55.062130+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:28:55.062243+00:00"
+    }
+  }
+}

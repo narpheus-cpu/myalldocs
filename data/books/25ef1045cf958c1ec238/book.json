@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "편식에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "편식",
+      "음식",
+      "문화",
+      "개고기"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "food",
+        "culture"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "개인의 편식과 문화적 음식 습관의 불합리함을 유머러스하게 고찰한 에세이.",
+    "overallSummary": "쇠고기와 굴 외에는 고기와 조개류를 먹지 못하고 중화요리를 거부하는 저자의 편식을 통해 음식 호불호의 기준이 운명과 같음을 말한다. 나아가 개고기 식용을 둘러싼 문화적 논란과 비교하며 식습관과 야만에 대한 개념을 유쾌하게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "편식에 대하여 (1, 2, 3)",
+        "summary": "개인의 편식 성향과 그 수수께끼, 그리고 개 식용을 둘러싼 문화적 차이와 야만의 개념에 대한 고찰."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "식습관의 불합리성과 문화적 편견에 대한 유쾌한 성찰"
+      }
+    ],
+    "keyEntitiesText": "저자, 빅토리아 여왕",
+    "settingText": "일상의 공간 및 세계 여러 나라"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Rhw-jAfbnvg2vvBvFNaB15w3NxMuCwx2",
+    "filename": "편식에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.205Z",
+    "size": "5221",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1Rhw-jAfbnvg2vvBvFNaB15w3NxMuCwx2/view?usp=drivesdk",
+    "sourceSha256": "d58c2f6268fae3eddfbf0d1f041b9f748cd3aa24dc2d824e72b2b8c9f2c778d7",
+    "textSha256": "03c5907203a0a6ee99ff4936b23a4bb954a6985d16fe527b66f58959ac1939e9",
+    "changeKey": "7963e50c1d748bc9693152ada3afcecc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "25ef1045cf958c1ec238",
+    "workId": "25ef1045cf958c1ec238",
+    "driveFileId": "1Rhw-jAfbnvg2vvBvFNaB15w3NxMuCwx2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:30:08.732449+00:00",
+    "updatedAt": "2026-09-21T21:30:08.732469+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:30:08.732558+00:00"
+    }
+  }
+}

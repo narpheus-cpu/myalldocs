@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "캐쉬",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "쇼핑",
+      "부띠끄",
+      "남녀",
+      "여행"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "humor",
+        "daily_life"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "여성들의 쇼핑을 따라다니며 느낀 남성들의 서먹함과 외국 부띠끄의 배려에 대한 유쾌한 불평.",
+    "overallSummary": "아내나 애인의 쇼핑에 동행해 부띠끄에서 곤혹스럽게 시간을 보내야 하는 남자의 심정을 대변하며, 동경의 옷가게와 달리 동반자에게 친절하게 대처하는 해외 부띠끄들의 일화를 통해 남성들의 입장을 항변한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "캐쉬",
+        "summary": "여성들의 옷 고르기 집념에 압도당하는 남성들의 곤란한 처지와 외국 쇼핑몰의 세심한 배려를 비교하며 남성의 입장을 유쾌하게 전함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "일상의 소소한 불편함과 문화적 차이"
+      }
+    ],
+    "keyEntitiesText": "저자, 아내",
+    "settingText": "다이칸야마, 시부야, 아오야마, 하라주쿠 및 샌프란시스코, 호놀룰루의 부띠끄"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19KqyUPTXR1EkJJLe0dFd19WSXwNkZfxy",
+    "filename": "캐쉬.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.043Z",
+    "size": "2125",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/19KqyUPTXR1EkJJLe0dFd19WSXwNkZfxy/view?usp=drivesdk",
+    "sourceSha256": "72313a55e66be55ae680e99486812e50d81a40ed3abb61d3882536d868e3c3db",
+    "textSha256": "6efd0b931e7f719488d16728631d0e57640102425caafe6f7e97263f54ede966",
+    "changeKey": "02b15a50cc7ed3706d655851e6370506",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d236b6ef5062e38864bb",
+    "workId": "d236b6ef5062e38864bb",
+    "driveFileId": "19KqyUPTXR1EkJJLe0dFd19WSXwNkZfxy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:29:07.284567+00:00",
+    "updatedAt": "2026-09-21T21:29:07.284584+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:29:07.284697+00:00"
+    }
+  }
+}

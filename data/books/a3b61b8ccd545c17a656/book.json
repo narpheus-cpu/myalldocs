@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "택시를 탄 남자",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "화랑",
+      "택시를탄남자",
+      "뉴욕",
+      "기억"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "surrealism",
+        "memory"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 현대 소설가.",
+    "oneLineSummary": "과거 뉴욕 유학 시절 구입했던 한 장의 평범한 그림과 그 속에 담긴 남자에 얽힌 기묘한 인연.",
+    "overallSummary": "화랑 탐방 기사를 쓰던 저자는 아오야마의 한 화랑에서 온화한 여주인으로부터 과거 뉴욕에서 무명의 체코슬로바키아 화가에게 샀던 '택시를 탄 남자'라는 그림에 얽힌 이야기를 듣는다. 삶의 상실과 범용함을 상징하던 그 그림을 불태웠던 그녀는 수년 후 아테네의 택시에서 그 그림 속 남자와 똑같은 인물을 마주치게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "택시를 탄 남자",
+        "summary": "화랑 여주인에게서 뉴욕 시절 샀던 '택시를 탄 남자'라는 그림의 사연과, 수년 뒤 아테네의 택시에서 그 남자를 실제로 만나게 된 기묘한 경험을 전해 듣는 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "narrative_style",
+        "value": "액자식 구성과 현실과 비현실이 교차하는 미스터리한 분위기"
+      }
+    ],
+    "keyEntitiesText": "화랑 여주인(도시코), 카메라맨, 체코인 화가, 택시를 탄 남자",
+    "settingText": "도쿄 아오야마의 화랑, 과거 뉴욕 그리니치 빌리지, 아테네"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QCJD4MKrgFiuT5Fqh4p4GX-cAKg706Rg",
+    "filename": "택시를 탄 남자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.105Z",
+    "size": "23819",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1QCJD4MKrgFiuT5Fqh4p4GX-cAKg706Rg/view?usp=drivesdk",
+    "sourceSha256": "b72a54cea1792f9ae3e264c1603f4bdc28fe66cb0f0c9f89232030a6d9643c1e",
+    "textSha256": "0a36785482d86f1cea5266fc6d70966de925e1825fc3112974cbdff34a97a3ac",
+    "changeKey": "9e0ba42b0458dd1ce90a2675183ff44c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a3b61b8ccd545c17a656",
+    "workId": "a3b61b8ccd545c17a656",
+    "driveFileId": "1QCJD4MKrgFiuT5Fqh4p4GX-cAKg706Rg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:29:43.088088+00:00",
+    "updatedAt": "2026-09-21T21:29:43.088104+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:29:43.088213+00:00"
+    }
+  }
+}

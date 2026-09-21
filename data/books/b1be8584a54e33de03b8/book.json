@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "택시 운전사",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "택시",
+      "운전사",
+      "민속음악",
+      "동경"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "daily_life",
+        "music"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "택시 안에서 이란의 민속 음악과 불경을 트는 독특한 운전사를 만난 일화.",
+    "overallSummary": "아오야마에서 탄 택시에서 흘러나오는 기괴한 음악에 대해 운전사와 대화를 나누며, 상업주의에 물든 대중음악을 거부하고 세계 각국의 민속음악이나 불경을 트는 그의 독특한 취향을 통해 와일드해진 동경의 단면을 포착한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "택시 운전사",
+        "summary": "택시 안에서 이란 민속음악을 들려주는 운전사와 대화를 나누며 느낀 소회."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "도시 속 특이한 인물과의 조우와 세태 관찰"
+      }
+    ],
+    "keyEntitiesText": "저자, 택시 운전사",
+    "settingText": "동경 아오야마를 달리는 택시 안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VpZkexgoF-9dCj5e6jxZSXEELQSh7FC8",
+    "filename": "택시 운전사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.093Z",
+    "size": "1468",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1VpZkexgoF-9dCj5e6jxZSXEELQSh7FC8/view?usp=drivesdk",
+    "sourceSha256": "d79e146026e493f40eeb472ecd83982ccdb74f12c39f84982d48d5013b742906",
+    "textSha256": "afb811751582d4865c54e7a77fabff611c3d5b034af993f97c91c5956c5ece0d",
+    "changeKey": "2cd6c613d2bbbafbe669eab49451a710",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b1be8584a54e33de03b8",
+    "workId": "b1be8584a54e33de03b8",
+    "driveFileId": "1VpZkexgoF-9dCj5e6jxZSXEELQSh7FC8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:29:36.847264+00:00",
+    "updatedAt": "2026-09-21T21:29:36.847325+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:29:36.847438+00:00"
+    }
+  }
+}

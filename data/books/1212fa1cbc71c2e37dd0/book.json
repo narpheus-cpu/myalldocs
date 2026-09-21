@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "커티삭",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "위스키",
+      "커티삭",
+      "말의울림"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "drink",
+        "poetic_essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "위스키 이름인 '커티삭'을 반복해 읊조리며 느기는 실체 없는 말의 울림에 대한 짧은 단상.",
+    "overallSummary": "초록색 병에 담긴 영국산 위스키 커티삭이라는 이름이 반복해서 읊조려질 때 실체를 잃고 꿈의 꼬리처럼 말의 울림으로만 남게 되는 순간을 짧고 감각적으로 포착한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "커티삭",
+        "summary": "위스키 이름인 커티삭을 읊조릴 때 느껴지는 언어의 묘한 감각을 표현함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "언어와 사물의 감각적 유희"
+      }
+    ],
+    "keyEntitiesText": "저자",
+    "settingText": "일상의 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1368srjt5Lto00WyKB6c5tn5hNIpGFXov",
+    "filename": "커티삭.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.053Z",
+    "size": "345",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1368srjt5Lto00WyKB6c5tn5hNIpGFXov/view?usp=drivesdk",
+    "sourceSha256": "e58ad90d71d0f2f2233223a7c3786ce9477dccedbe6cf82e9908172c15eb9679",
+    "textSha256": "18bb1100ba9a1a1ca23bfd23a16fbf0e7001fa7944aad26eb8279a6106f73c8a",
+    "changeKey": "f4c14acc3ac6cc182a2864f63a611177",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1212fa1cbc71c2e37dd0",
+    "workId": "1212fa1cbc71c2e37dd0",
+    "driveFileId": "1368srjt5Lto00WyKB6c5tn5hNIpGFXov",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:29:13.403621+00:00",
+    "updatedAt": "2026-09-21T21:29:13.403637+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:29:13.403743+00:00"
+    }
+  }
+}

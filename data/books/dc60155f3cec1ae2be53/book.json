@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "토끼정 주인",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "토끼정",
+      "고로케",
+      "단골집",
+      "주인"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "food",
+        "daily_life"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 소설가이자 에세이스트.",
+    "oneLineSummary": "수수께끼 같은 주인이 운영하는 조용한 식당 '토끼정'의 예술품 같은 고로케 정식에 대한 찬가.",
+    "overallSummary": "간판도 없고 조용히 영업하는 작은 단골 식당 '토끼정'을 소개하며, 묵묵히 일하는 수수께끼 같은 주인과 그가 만들어내는 뛰어난 맛의 고로케 정식, 보리밥, 그리고 소박한 일상의 즐거움을 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "토끼정 주인",
+        "summary": "작고 조용한 단골 식당 '토끼정'의 특색 있는 메뉴와 묵묵한 주인의 모습, 그리고 맛있는 식사가 주는 행복."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "essay_theme",
+        "value": "음식에 대한 예찬과 숨은 맛집 탐방"
+      }
+    ],
+    "keyEntitiesText": "저자, 토끼정 주인, 주인 부인과 딸",
+    "settingText": "저자 집 근처의 작은 주택가에 위치한 식당 '토끼정'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1U2LxqZ78u16qRr7NDmMwRsFPb_d1SrBQ",
+    "filename": "토끼정 주인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.113Z",
+    "size": "4987",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1U2LxqZ78u16qRr7NDmMwRsFPb_d1SrBQ/view?usp=drivesdk",
+    "sourceSha256": "86ed474dd348faa69c1688aabdebe6bcf5ad8ee411809768c7042b8ec7de7c8b",
+    "textSha256": "0f6107cb256a25f9bbae586a9b09644659f8e73f6fc4fa9596fd881fb0620464",
+    "changeKey": "a7b940ed2da95ee71f9991f715701140",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dc60155f3cec1ae2be53",
+    "workId": "dc60155f3cec1ae2be53",
+    "driveFileId": "1U2LxqZ78u16qRr7NDmMwRsFPb_d1SrBQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:29:49.375605+00:00",
+    "updatedAt": "2026-09-21T21:29:49.375620+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:29:49.375730+00:00"
+    }
+  }
+}
