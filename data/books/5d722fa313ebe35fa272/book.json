@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "빙점 1",
+    "author": "미우라 아야코",
+    "genre": "소설",
+    "tags": [
+      "빙점",
+      "미우라 아야코",
+      "기독교문학",
+      "원죄"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "현대소설",
+        "일본소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미우라 아야코는 기독교적 사랑과 인간의 원죄를 깊이 있게 다룬 일본의 대표적인 작가이다.",
+    "oneLineSummary": "딸을 잃은 아버지가 범인의 아이를 입양해 기르며 인간의 차가운 복수와 용서를 그린 소설.",
+    "overallSummary": "어린 딸 루리코를 잃은 쓰지구치 게이조는 복수심으로 범인의 아이를 입양해 '요코'라는 이름을 붙이고 아내 나쓰에에게 기르게 한다. 이 사실을 모른 채 요코를 키우던 나쓰에는 불륜과 갈등에 빠지고, 가정은 서서히 파멸로 향한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 적",
+        "summary": "무더운 여름날, 쓰지구치 병원장 저택에서 나쓰에와 안과의사 무라이가 나누는 은밀한 만남과 가정의 균열."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "인간 내면의 원죄와 용서의 가능성"
+      }
+    ],
+    "keyEntitiesText": "쓰지구치 게이조, 나쓰에, 무라이 야쓰오, 루리코, 요코",
+    "settingText": "홋카이도 아사히카와 시."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FWtxFE_J5f-B_Rp4mOKxkFwZbTZlZITD",
+    "filename": "미우라 아야코-빙점.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.601Z",
+    "size": "766625",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1FWtxFE_J5f-B_Rp4mOKxkFwZbTZlZITD/view?usp=drivesdk",
+    "sourceSha256": "137bf5e91dda8583993f195447f71a2b5aaadd146d5dd28cc627ac18b4200568",
+    "textSha256": "6a67cc9c449f4e78504cc677caf9d7a489c37a0d0aa1b4810bb7eebd6e931c71",
+    "changeKey": "8620d74220e67c0a2a751d366f6c3e77",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5d722fa313ebe35fa272",
+    "workId": "5d722fa313ebe35fa272",
+    "driveFileId": "1FWtxFE_J5f-B_Rp4mOKxkFwZbTZlZITD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:59:44.084272+00:00",
+    "updatedAt": "2026-09-21T21:59:44.084288+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4782,
+      "updatedAt": "2026-09-21T21:59:44.084396+00:00"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스즈메의 문단속",
+    "author": "신카이 마코토",
+    "genre": "소설",
+    "tags": [
+      "스즈메의 문단속",
+      "신카이 마코토",
+      "애니메이션소설",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "일본소설",
+        "모험"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "신카이 마코토는 아름다운 영상미와 섬세한 감정선의 애니메이션으로 세계적인 명성을 얻은 감독이자 작가이다.",
+    "oneLineSummary": "재앙을 부르는 '문'을 닫기 위해 전국을 여행하는 소녀 스즈메의 모험.",
+    "overallSummary": "규슈의 조용한 마을에 사는 소녀 스즈메는 폐허 속에서 의자로 변해버린 청년 소타를 만나 재앙을 막기 위해 일본 각지의 '문'을 닫으러 나서는 여정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "꿈과 일상, 그리고 문과의 만남",
+        "summary": "어린 시절의 아련한 꿈과 이모 타마키와의 평화로운 일상, 그리고 등굣길에 우연히 만난 신비로운 청년과 폐허 속의 하얀 문."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "원작",
+        "value": "동명의 극장용 애니메이션 영화 노벨라이즈"
+      }
+    ],
+    "keyEntitiesText": "이와토 스즈메, 무나카타 소타, 타마키 이모, 아야",
+    "settingText": "규슈의 해안 마을과 일본 전역의 폐허들."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wzXjkdqkY9RrNtS9moTFdGnYMOyj8anB",
+    "filename": "신카이 마코토-스즈메의 문단속-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-06T12:52:06.000Z",
+    "size": "412769",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1wzXjkdqkY9RrNtS9moTFdGnYMOyj8anB/view?usp=drivesdk",
+    "sourceSha256": "c05136d11facb3bd6f4b1154a173b52e2b14c4d5c4dd94acfd70634d54f75bc4",
+    "textSha256": "4f2badcc00e3f6f3841f2895ad0b1019b7e45654b0c413a4e61f8c0c8da3194a",
+    "changeKey": "c89303ce9186203968075196d5673c8d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c4636fcb33250d9f4ff3",
+    "workId": "c4636fcb33250d9f4ff3",
+    "driveFileId": "1wzXjkdqkY9RrNtS9moTFdGnYMOyj8anB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:00:11.874848+00:00",
+    "updatedAt": "2026-09-21T22:00:11.874862+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:00:11.874971+00:00"
+    }
+  }
+}

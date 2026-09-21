@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "리허설",
+    "author": "무라카미 류",
+    "genre": "소설",
+    "tags": [
+      "리허설",
+      "무라카미 류",
+      "일본소설",
+      "일탈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "현대소설",
+        "일본소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 류는 인간의 본능과 현대 사회의 병폐를 날카롭게 그려내는 일본의 소설가이자 영화감독이다.",
+    "oneLineSummary": "포주이자 디렉터인 겐지와 주변 인물들이 벌이는 비정상적이고도 일상적인 일탈의 기록.",
+    "overallSummary": "다양한 어둠의 세계와 연관된 주인공 겐지가 여성들과의 관계, 그리고 현대 사회의 황폐한 단면을 냉소적이고 차가운 시선으로 마주하는 이야기를 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 리허설",
+        "summary": "변호사의 의뢰로 미와코가 처한 위험한 상황에 개입하게 된 겐지의 냉철한 모습과 과거의 기억."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "현대 일본 사회의 병리적 현상과 인간의 소외"
+      }
+    ],
+    "keyEntitiesText": "겐지, 미와코, 변호사, 키 큰 사내",
+    "settingText": "도쿄 아카사카와 나카사카바 시의 호텔 및 아파트."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12ndebQpffvnPsfLR6DoDLdcdw0Yoa-oy",
+    "filename": "무라카미 류-리허설.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:03.721Z",
+    "size": "359222",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/12ndebQpffvnPsfLR6DoDLdcdw0Yoa-oy/view?usp=drivesdk",
+    "sourceSha256": "a4f4b731630bbbca526f1b3c42424fd9ed1e25e7b5fc0e00bda9234562640391",
+    "textSha256": "71db0868b5196e74147ab798d2649c36b66a5ebaf25b617c475ab3dee3cba59e",
+    "changeKey": "86edf59a01aa59f38931473dbd35fe07",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e32d48d590b917ef2dd1",
+    "workId": "e32d48d590b917ef2dd1",
+    "driveFileId": "12ndebQpffvnPsfLR6DoDLdcdw0Yoa-oy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:59:05.838448+00:00",
+    "updatedAt": "2026-09-21T21:59:05.838464+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:59:05.838570+00:00"
+    }
+  }
+}

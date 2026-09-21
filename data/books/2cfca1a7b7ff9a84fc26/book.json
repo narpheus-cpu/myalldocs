@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "미래",
+    "author": "미나토 가나에",
+    "genre": "소설",
+    "tags": [
+      "미래",
+      "미나토 가나에",
+      "미스터리",
+      "성장소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "미스터리",
+        "일본소설",
+        "드라마"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미나토 가나에는 밀리언셀러를 다수 배출한 일본의 유명 미스터리 작가이다.",
+    "oneLineSummary": "갑작스러운 아빠의 죽음을 겪은 열 살 소녀 아키코에게 20년 후의 미래에서 편지가 도착하면서 벌어지는 이야기.",
+    "overallSummary": "아빠를 잃고 무기력한 엄마와 살아가던 아키코는 미래의 자신으로부터 편지를 받는다. 편지를 통해 슬픔을 견뎌내며 성장하는 한편, 주변의 비밀과 마주하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 도입부",
+        "summary": "고속버스에 오르는 긴장된 순간과 20년 후의 나로부터 온 편지의 내용."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "슬픔의 극복과 진정한 어른에 대한 성찰"
+      }
+    ],
+    "keyEntitiesText": "아키코, 파파, 엄마, 미노리, 시노미야 마이코",
+    "settingText": "일본의 한 도시와 맨션, 초등학교."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16cmqRZG8_hHWL2ZnsNPaZlikvS1yDXKd",
+    "filename": "미나토 가나에-미래(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.508Z",
+    "size": "671311",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/16cmqRZG8_hHWL2ZnsNPaZlikvS1yDXKd/view?usp=drivesdk",
+    "sourceSha256": "f6f8693f38dad657d53c21935aaff222bf73221bfc502cccce8c0dffab1984c9",
+    "textSha256": "5dff42e61dbf1f886289f09b4dcee1e42b9c6845becbad183b816faddb6f7355",
+    "changeKey": "433eeac58e254978b69ed7e1f907aac6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2cfca1a7b7ff9a84fc26",
+    "workId": "2cfca1a7b7ff9a84fc26",
+    "driveFileId": "16cmqRZG8_hHWL2ZnsNPaZlikvS1yDXKd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:59:25.447146+00:00",
+    "updatedAt": "2026-09-21T21:59:25.447162+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:59:25.447330+00:00"
+    }
+  }
+}

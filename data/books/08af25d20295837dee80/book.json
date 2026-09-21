@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "애프터다크",
+    "author": "무라카미 하루키",
+    "genre": "소설",
+    "tags": [
+      "애프터다크",
+      "무라카미 하루키",
+      "심야",
+      "도시"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "현대소설",
+        "일본소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키는 일본의 저명한 소설가이다.",
+    "oneLineSummary": "어느 자정부터 새벽까지 도쿄의 밤거리에서 벌어지는 낯선 인물들의 만남과 시간의 흐름.",
+    "overallSummary": "자정을 넘긴 심야의 패밀리레스토랑 '데니스'를 배경으로, 책을 읽는 여대생 마리와 우연히 합석하게 된 트롬본 연주자 다카하시, 그리고 언니 에리의 수수께끼 같은 잠을 중심으로 도시의 밤 풍경을 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "PM 11:56",
+        "summary": "새벽으로 향하는 거대한 생물 같은 도쿄의 풍경과 패밀리레스토랑에서 홀로 책을 읽는 마리, 그리고 다카하시의 만남."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시점",
+        "value": "카메라의 시선처럼 움직이는 독특한 연출"
+      }
+    ],
+    "keyEntitiesText": "마리, 다카하시, 에리, 웨이트리스",
+    "settingText": "자정이 넘은 심야의 도쿄 번화가와 패밀리레스토랑 '데니스'."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "104u5WIXcbfY0kSAxD_BFNw5Sks_jI5Iv",
+    "filename": "무라카미 하루키-애프터다크(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.079Z",
+    "size": "223217",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "장편소설"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/장편소설",
+    "webViewLink": "https://drive.google.com/file/d/104u5WIXcbfY0kSAxD_BFNw5Sks_jI5Iv/view?usp=drivesdk",
+    "sourceSha256": "a06a74378a82049a62b716749a7b135673c6246ef5206a35e31652530b3b7991",
+    "textSha256": "e52b87fb09650b758ff0eec36978a0930addae081af0fbd1730fada86c63a724",
+    "changeKey": "9e4c12de3142909988c054e9cda8de14",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "08af25d20295837dee80",
+    "workId": "08af25d20295837dee80",
+    "driveFileId": "104u5WIXcbfY0kSAxD_BFNw5Sks_jI5Iv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:58:55.433826+00:00",
+    "updatedAt": "2026-09-21T21:58:55.433843+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:58:55.433951+00:00"
+    }
+  }
+}

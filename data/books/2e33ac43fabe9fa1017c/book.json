@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "꽃밥",
+    "author": "슈카와 미나토",
+    "genre": "소설",
+    "tags": [
+      "꽃밥",
+      "슈카와 미나토",
+      "나오키상",
+      "노스탤지어"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편소설",
+        "일본소설",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "슈카와 미나토는 아날로그적 향수와 환상적인 요소를 결합한 작품으로 유명한 일본의 소설가이다.",
+    "oneLineSummary": "가족의 아픈 기억과 어린 시절의 향수가 서린 오사카를 배경으로 한 감동적인 단편소설.",
+    "overallSummary": "아버지를 잃고 어머니와 여동생 후미코와 함께 살아가는 도시키의 시점을 통해, 어느 날 갑자기 변해버린 여동생 후미코와 기묘한 사건들을 추억하며 쇼와 시대의 풍경을 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~4장",
+        "summary": "후미코의 탄생과 어린 시절, 열병을 앓은 후 기이하게 변해버린 모습, 그리고 수첩에 적힌 낯선 이름들과 교토 실종 소동."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "수상 내역",
+        "value": "제133회 나오키상 수상작"
+      }
+    ],
+    "keyEntitiesText": "도시키, 후미코, 엄마, 아빠, 시게타 기요미",
+    "settingText": "쇼와 시대 일본 오사카."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pnbvfT_IIHjIEGxh9iY2IkkZHsIZf265",
+    "filename": "슈카와 미나토-꽃밥(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.653Z",
+    "size": "396247",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1pnbvfT_IIHjIEGxh9iY2IkkZHsIZf265/view?usp=drivesdk",
+    "sourceSha256": "41db80fb381f7c70a08df26ef2721e1c929433c9594807af6a0f79f8d0932f61",
+    "textSha256": "58fb9cdd04d6e79772f6f86009dd21dea50963b5f4c7bcd85ddb28a6a40a8146",
+    "changeKey": "79a650f2c8f66a692e123f774a71ae66",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e33ac43fabe9fa1017c",
+    "workId": "2e33ac43fabe9fa1017c",
+    "driveFileId": "1pnbvfT_IIHjIEGxh9iY2IkkZHsIZf265",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:59:56.575276+00:00",
+    "updatedAt": "2026-09-21T21:59:56.575293+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:59:56.575403+00:00"
+    }
+  }
+}

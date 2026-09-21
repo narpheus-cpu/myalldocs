@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "클레오파트라 1",
+    "author": "미야오 토미코 (저자 표기 김남주)",
+    "genre": "역사소설",
+    "tags": [
+      "클레오파트라",
+      "이집트",
+      "역사",
+      "왕조"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "역사소설",
+        "외국소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "역사적 인물의 삶과 시대를 깊이 있게 그려내는 소설가.",
+    "oneLineSummary": "운명의 소용돌이 속에서 이집트의 여왕으로 성장하는 어린 클레오파트라의 이야기.",
+    "overallSummary": "프톨레마이오스 왕조의 혼란스러운 정세 속에서, 어린 클레오파트라는 부왕의 망명과 언니 베레니케의 반역 음모 등 위기를 겪으며 테베의 신전으로 비밀스러운 참배를 떠난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "새벽 어둠을 뚫고 테베의 신전으로 향하는 클레오파트라의 행차와 왕가의 불안한 정치적 상황."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대적 배경",
+        "value": "기원전 55년경 프톨레마이오스 왕조말기"
+      }
+    ],
+    "keyEntitiesText": "클레오파트라 7세, 타쿠하에트, 베레니케, 프톨레마이오스 12세, 아폴로도로스",
+    "settingText": "고대 이집트 알렉산드리아 왕궁과 테베."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ieMzospWvdue0dNscGxtRvvSQLxj0cVF",
+    "filename": "콜린 매컬로-안토니우스와 클레오파트라(1-3권 세트).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.207Z",
+    "size": "1957015",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "콜린 매컬로-카이사르 등"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/콜린 매컬로-카이사르 등",
+    "webViewLink": "https://drive.google.com/file/d/1ieMzospWvdue0dNscGxtRvvSQLxj0cVF/view?usp=drivesdk",
+    "sourceSha256": "2bcc7e125588e89d720510cfa99565e1c12c037383bb80cd1d7ea40991110bc7",
+    "textSha256": "6b080b38b0edf3a341514e03a55ea0b7c86f658d47bd57200a914683146820cc",
+    "changeKey": "67a1b0e38787ab0999f5089e4c53b531",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c928c0d41c7e464a7fc8",
+    "workId": "c928c0d41c7e464a7fc8",
+    "driveFileId": "1ieMzospWvdue0dNscGxtRvvSQLxj0cVF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:59:38.684916+00:00",
+    "updatedAt": "2026-09-21T21:59:38.684931+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:59:38.685020+00:00"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "겨울이 지나간 세계",
+    "author": "아사다 지로",
+    "genre": "소설",
+    "tags": [
+      "겨울이 지나간 세계",
+      "아사다 지로",
+      "정년퇴직",
+      "인생소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "현대소설",
+        "일본소설",
+        "드라마"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아사다 지로는 인간의 삶과 훈훈한 감동을 깊이 있게 그려내는 일본의 국민 작가이다.",
+    "oneLineSummary": "성공한 대기업 사장이 정년퇴직 후 쓰러진 오랜 친구의 병문안을 가며 지나온 삶을 돌아보는 이야기.",
+    "overallSummary": "대기업 사장인 홋타 노리오에게는 성공이라는 화려한 명함 뒤로 잊고 지낸 옛 친구 다케와키 마사카즈가 있다. 다케와키가 정년퇴직 직후 지하철에서 쓰러졌다는 소식을 듣고 병문안을 향하면서, 두 사람의 엇갈린 인생과 삶의 의미를 차분하게 회상한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 정년퇴직",
+        "summary": "함박눈이 내리는 날 저녁, 사장인 홋타가 전속 기사와 함께 쓰러진 동기 다케와키가 입원한 나카노의 병원으로 향하는 여정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "성공과 은퇴, 그리고 인간관계의 회한"
+      }
+    ],
+    "keyEntitiesText": "홋타 노리오, 다케와키 마사카즈, 사이토 (운전기사), 세쓰코",
+    "settingText": "눈 내리는 도쿄와 나카노의 낡은 병원."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GvcIsSBzycN_L22EiexeFsNNTRPBaKTG",
+    "filename": "아사다 지로-겨울이 지나간 세계(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.685Z",
+    "size": "547909",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1GvcIsSBzycN_L22EiexeFsNNTRPBaKTG/view?usp=drivesdk",
+    "sourceSha256": "23a9efbb3c25ce1caeb5b10704ea0ee5cfc6bf6963f9eff45a2200c9242e3cce",
+    "textSha256": "0a9a40d048d09411f062a75aa694c1146c7a796673e926b996a2a8e5a3488084",
+    "changeKey": "4071c71b1d5d441a317f2706dc0ff20f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "06d90eaa9e11efafb496",
+    "workId": "06d90eaa9e11efafb496",
+    "driveFileId": "1GvcIsSBzycN_L22EiexeFsNNTRPBaKTG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:00:20.075072+00:00",
+    "updatedAt": "2026-09-21T22:00:20.075088+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:00:20.075240+00:00"
+    }
+  }
+}

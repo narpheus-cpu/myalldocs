@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "금각사",
+    "author": "미시마 유키오",
+    "genre": "소설",
+    "tags": [
+      "금각사",
+      "미시마 유키오",
+      "일본문학",
+      "고전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "순문학",
+        "일본소설",
+        "철학소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미시마 유키오는 20세기 일본 문학을 대표하는 세계적인 작가이다.",
+    "oneLineSummary": "말더듬이 승려 미조구치가 아름다움의 극치인 금각에 매료되어 이를 방화하기까지의 내면을 그린 소설.",
+    "overallSummary": "선천적인 말더듬 증세와 외모 열등감에 시달리던 소년 미조구치는 아버지를 통해 금각의 환상을 품고 승려가 된다. 세상의 모든 추함과 대비되는 절대적인 아름다움인 금각에 집착하던 그는 마침내 파괴를 통해 그 아름다움과 영원히 결합하고자 방화를 저지른다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "마이즈루의 곶에서 태어난 소년 시절의 기억, 말더듬으로 인한 열등감, 그리고 우이코와의 비극적 사건."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "모티브",
+        "value": "실제 발생했던 교토 금각사 방화 사건을 바탕으로 함"
+      }
+    ],
+    "keyEntitiesText": "미조구치, 아버지, 우이코, 헌병",
+    "settingText": "일본 마이즈루 곶과 교토."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19lmSPLQAFgOhK6uyNiYWOKXZhRK48hTF",
+    "filename": "미시마 유키오-금각사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.816Z",
+    "size": "546559",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/19lmSPLQAFgOhK6uyNiYWOKXZhRK48hTF/view?usp=drivesdk",
+    "sourceSha256": "10496d41f2eb088ff522feaf27c7395076c108015ea218007b8996e8ebce7e19",
+    "textSha256": "b5645a7ad9e164f42615962182f888c85db8e19d48eaa1a56bb52463909e5bf9",
+    "changeKey": "dbd6a5a9f6aaf666870a15d9d011df32",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c0ead0385056c029a73b",
+    "workId": "c0ead0385056c029a73b",
+    "driveFileId": "19lmSPLQAFgOhK6uyNiYWOKXZhRK48hTF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:59:32.863802+00:00",
+    "updatedAt": "2026-09-21T21:59:32.863818+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:59:32.863923+00:00"
+    }
+  }
+}

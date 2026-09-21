@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "너의 췌장을 먹고 싶어",
+    "author": "스미노 요루",
+    "genre": "소설",
+    "tags": [
+      "너의 췌장을 먹고 싶어",
+      "스미노 요루",
+      "청춘소설",
+      "로맨스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "청춘소설",
+        "일본소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스미노 요루는 웹 연재 소설로 데뷔하여 큰 인기를 끌며 등단한 일본의 신예 작가이다.",
+    "oneLineSummary": "췌장 불치병에 걸린 여고생과 그녀의 비밀을 알게 된 남학생의 애틋한 청춘 이야기.",
+    "overallSummary": "우연히 병원 로비에서 야마우치 사쿠라의 일기장인 '공병문고'를 주운 '나'는 그녀가 췌장암으로 시한부 인생을 살고 있다는 사실을 알게 된다. 성격이 정반대인 두 사람은 남은 시간을 함께 보내며 서로에게 깊은 영향을 주고받는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "오프닝 및 회상",
+        "summary": "사쿠라의 장례식 날, 방에 틀어박혀 그녀가 빌려준 책을 읽으며 과거 도서실에서의 대화를 회상하는 '나'."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인기 요인",
+        "value": "발랄한 여주인공과 무뚝뚝한 남주인공의 조화 및 반전 있는 결말"
+      }
+    ],
+    "keyEntitiesText": "'나', 야마우치 사쿠라",
+    "settingText": "일본의 고등학교와 도서실."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YNEm73RYylYfIZKKEY8-vuanr7k7CLFV",
+    "filename": "스미노 요루-너의 췌장을 먹고 싶어(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.671Z",
+    "size": "322968",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1YNEm73RYylYfIZKKEY8-vuanr7k7CLFV/view?usp=drivesdk",
+    "sourceSha256": "405dfe1e4af982a4760e162ba47da083104e74794574c0f02fa780236b9a9058",
+    "textSha256": "c85b23a0aae1d17db50bde5a59ebdb8b90d1458c2b62343c869e53ba3303382e",
+    "changeKey": "54b29b4e91b1267a844e76be52dc1111",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "12ed6108bfc6df99d759",
+    "workId": "12ed6108bfc6df99d759",
+    "driveFileId": "1YNEm73RYylYfIZKKEY8-vuanr7k7CLFV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:00:04.624715+00:00",
+    "updatedAt": "2026-09-21T22:00:04.624730+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:00:04.624823+00:00"
+    }
+  }
+}

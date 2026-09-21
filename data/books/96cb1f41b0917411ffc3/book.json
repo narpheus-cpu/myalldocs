@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "은빛 비",
+    "author": "아사다 지로",
+    "genre": "소설",
+    "tags": [
+      "은빛 비",
+      "아사다 지로",
+      "단편집",
+      "인간애"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편소설",
+        "일본소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아사다 지로는 섬세한 문체와 따뜻한 휴머니즘으로 사랑받는 일본의 대표 작가이다.",
+    "oneLineSummary": "성공한 삶 속에서 과거의 추억과 잊지 못할 사랑을 가슴에 품고 살아가는 여인의 이야기를 담은 소설.",
+    "overallSummary": "부유한 남편의 사랑과 미모, 가족의 평화 속에서 부족함 없는 삶을 누리는 마흔셋의 히사코. 하지만 크리스마스 이브에 남편과 함께 오모테산도로 나선 그녀는 이십 년 전 파리에서 겪었던 준이치로와의 아픈 기억과 비밀을 고백하며 흔들린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~3장",
+        "summary": "목욕탕에서 자신의 모습을 보며 세월의 흐름을 느끼는 히사코와 오모테산도로 향하는 크리스마스 이브의 풍경, 그리고 남편에게 털어놓는 과거의 비밀."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "인간의 내면 깊은 곳에 자리한 기억과 죄의식을 섬세하게 포착"
+      }
+    ],
+    "keyEntitiesText": "시마자키 히사코, 남편, 어머니, 오노 준이치로",
+    "settingText": "도쿄 미나미아오야마와 오모테산도, 과거의 파리."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "178jbU51SPj2bvcjrIXa62v-fQbvtLU0f",
+    "filename": "아사다 지로-은빛비(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:08.709Z",
+    "size": "322008",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/178jbU51SPj2bvcjrIXa62v-fQbvtLU0f/view?usp=drivesdk",
+    "sourceSha256": "6c94df68450e1c8b4122d6cf7919a5b22e24807346060260dd3137911c21bde1",
+    "textSha256": "22a0638321da7427b813dbe4f1e764a9535f1ffc511d68018f4286dbc6426d7b",
+    "changeKey": "27f7225d1ca134d692c9c39944d6f887",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "96cb1f41b0917411ffc3",
+    "workId": "96cb1f41b0917411ffc3",
+    "driveFileId": "178jbU51SPj2bvcjrIXa62v-fQbvtLU0f",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:00:26.425058+00:00",
+    "updatedAt": "2026-09-21T22:00:26.425073+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:00:26.425211+00:00"
+    }
+  }
+}
