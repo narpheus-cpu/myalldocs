@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지도",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "지도 그리기",
+      "공간 감각",
+      "가공의 마을",
+      "안자이 미즈마루"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "창작 비하인드"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "원고 청탁은 거절해도 지도 그리기 요청은 신나서 꼼꼼하게 그리는 독특한 취향의 작가.",
+    "oneLineSummary": "지도 그리기를 무척 좋아하는 작가가 서툰 지도의 요소를 분석하고, 지도를 잘 그리는 사람에 대한 호감과 가공의 지도를 바탕으로 소설을 썼던 경험을 담은 에세이.",
+    "overallSummary": "작가는 길 안내 지도를 세세하고 공들여 그리는 것을 매우 좋아한다. 서툰 지도의 3대 요소(균형 엉망, 불확실한 기억, 주요 포인트 누락)를 지적하며, '지도그리기 교실'이 생기기를 제안할 정도로 지도의 중요성을 강조한다. 지도를 멋지게 그리는 여성에게 호감을 느끼며, 과거 가공의 마을 지도를 직접 그려 이를 바탕으로 소설 '세계의 끝과 하드보일드 원더랜드'를 집필했던 즐거운 경험을 회상한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "지도 그리기의 즐거움과 서툰 지도의 특징",
+        "summary": "지도를 꼼꼼히 그리는 취미를 밝히고, 도로 비율이나 표적물이 엉망인 서툰 지도의 문제점을 분석한다."
+      },
+      {
+        "sectionTitle": "지도와 호감, 그리고 소설 창작",
+        "summary": "지도를 잘 그리는 사람에게 느끼는 호감과, 가공의 지도를 그려 소설 '세계의 끝과 하드보일드 원더랜드'를 썼던 경험을 이야기한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "관련 소설",
+        "value": "세계의 끝과 하드보일드 원더랜드 (국내 번역명: 일각수의 꿈)"
+      },
+      {
+        "key": "서툰 지도의 3대 요소",
+        "value": "균형 불일치, 불확실한 기억, 주요 포인트 누락"
+      }
+    ],
+    "keyEntitiesText": "나(작가), 안자이 미즈마루, 콜롬부스",
+    "settingText": "작가의 작업실 및 창작 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Y2usSHx72PTTRgGENGvNCCODX-IfUrhO",
+    "filename": "지도.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.913Z",
+    "size": "2187",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1Y2usSHx72PTTRgGENGvNCCODX-IfUrhO/view?usp=drivesdk",
+    "sourceSha256": "1680a80a2bd41070180156e47279d2512b8c529258a99db6bad1aeaad5066a8a",
+    "textSha256": "944fe3b4a087b121996a45f43ec5b07886c605cc1327cf79bc89401b169024a2",
+    "changeKey": "4c5d33f24db847b0005a5d06b066eca9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6b4485bb5f41b60ee646",
+    "workId": "6b4485bb5f41b60ee646",
+    "driveFileId": "1Y2usSHx72PTTRgGENGvNCCODX-IfUrhO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:15:20.802900+00:00",
+    "updatedAt": "2026-09-21T21:15:20.802916+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:15:20.803033+00:00"
+    }
+  }
+}

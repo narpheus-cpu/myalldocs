@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인터뷰에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "인터뷰",
+      "플레이 보이",
+      "소설가",
+      "질문과 답변"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "문학/미디어 비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "수많은 인터뷰를 경험하며 질문자와 답변자 양쪽의 입장을 깊이 이해하는 소설가.",
+    "oneLineSummary": "미국 '플레이 보이'지의 인터뷰 방식을 바탕으로 좋은 인터뷰의 조건과 일본 인터뷰의 문제점, 그리고 소설가로서 인터뷰에 임하는 태도를 밝힌 에세이.",
+    "overallSummary": "작가는 과거 좋아했던 미국 '플레이 보이'지의 인터뷰 방침(사전 조사, 호의와 도발의 비율, 간결한 질문 등)을 소개하며 좋은 인터뷰의 요건을 설명한다. 반면 일본 인터뷰는 질문자가 준비된 프로그램에만 집착하고 사전 조사가 부족한 경향이 있다고 지적한다. 소설가로서 자신은 자기 방어 능력이 뛰어나 본심을 쉽게 털어놓지 않으며, 자주 받는 세 가지 질문(기상 시간, 필기구, 아내와의 만남)의 무용함에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "플레이 보이 인터뷰의 방침",
+        "summary": "철저한 사전 조사, 70%의 호의와 30%의 도발, 임기응변적 대처가 좋은 인터뷰를 만든다."
+      },
+      {
+        "sectionTitle": "일본 인터뷰의 문제점과 작가의 방어",
+        "summary": "일본 인터뷰어들은 준비된 질문에만 집착하여 스릴이 없으며, 작가 자신은 방어적으로 인터뷰에 임한다고 밝힌다."
+      },
+      {
+        "sectionTitle": "자주 받는 질문들",
+        "summary": "기상 시간, 필기구, 아내와의 만남 등 매번 반복되는 무의미한 질문들에 대해 언급한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "좋은 인터뷰의 3대 요소",
+        "value": "면밀한 사전 조사, 적절한 긴장감 유지, 프로그램에 얽매이지 않는 임기응변"
+      }
+    ],
+    "keyEntitiesText": "나(작가), 카트 보네거트, 멜 부룩스, 플레이 보이(잡지)",
+    "settingText": "일본 출판 및 미디어 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VNLgBrhYOBJTYih5tcxoQtGzraWwtKSv",
+    "filename": "인터뷰에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.726Z",
+    "size": "4518",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1VNLgBrhYOBJTYih5tcxoQtGzraWwtKSv/view?usp=drivesdk",
+    "sourceSha256": "a991f9590d79cb5748b5eb8d47e121d3aee55e39329fdf780a70dc76c6f5ba92",
+    "textSha256": "699cc4cf7020e7f83fe7f5e37f0bb8f5ac6d26ea22ad609efc96e24a44c29e2e",
+    "changeKey": "1316706e72ecb6f3f4defad00ae05a6d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "92a7f478b5247dc401de",
+    "workId": "92a7f478b5247dc401de",
+    "driveFileId": "1VNLgBrhYOBJTYih5tcxoQtGzraWwtKSv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:14:06.069892+00:00",
+    "updatedAt": "2026-09-21T21:14:06.069908+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:14:06.070017+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지갑",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "지갑",
+      "나이 듦",
+      "친구",
+      "사진",
+      "독신과 기혼"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "친구들의 지갑 속 사진을 보며 나이 듦과 인생의 서로 다른 궤적을 실감하는 작가.",
+    "oneLineSummary": "지갑 속에 젊은 애인의 사진을 넣고 다니는 독신 친구와 자녀의 사진을 넣고 다니는 기혼 친구를 보며 나이 듦을 실감하는 에세이.",
+    "overallSummary": "작가는 오랜만에 만난 동갑내기 독신 친구가 지갑에서 18세 젊은 애인의 사진을 보여주며 행복해하는 모습과, 다른 친구들이 자녀의 사진을 보여주는 모습을 대비한다. 이를 통해 자신도 나이를 먹어 아저씨가 되어가고 있음을 실감한다. 회사에 다니지 않고 자녀도 없는 자신은 나이 감각이 무뎌지기 쉬운데, 지갑 속에 아무의 사진도(심지어 아내의 사진도) 넣고 다니지 않는 자신의 처지를 돌아본다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "친구들의 지갑 속 사진",
+        "summary": "18세 애인의 사진을 품은 독신 친구와 자녀 사진을 품은 기혼 친구의 모습을 통해 나이 듦을 실감한다."
+      },
+      {
+        "sectionTitle": "작가의 지갑과 나이 감각",
+        "summary": "자녀가 없고 회사에 다니지 않아 나이 감각이 무뎌진 자신을 돌아보며, 지갑에 아무 사진도 넣지 않는 처지를 생각한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "지갑 속 사진의 의미",
+        "value": "개인의 행복과 인생의 단계(독신 vs 기혼)를 보여주는 상징물"
+      }
+    ],
+    "keyEntitiesText": "나(작가), 독신 친구, 기혼 친구, 아내(마누라)",
+    "settingText": "일본의 어느 술자리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vtKhhZeYC0CkhTkeqvoVXW2hYw3N-Wmr",
+    "filename": "지갑.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.899Z",
+    "size": "1845",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1vtKhhZeYC0CkhTkeqvoVXW2hYw3N-Wmr/view?usp=drivesdk",
+    "sourceSha256": "f367b534833e9cebf21fd7e87052442f7f27757c4f129b208d6eed9b9a4811f8",
+    "textSha256": "b86e3b267c35aeea3357489329ca610f46d11454bcde3f5c880a67e6db2fbe09",
+    "changeKey": "f38d717d6aaecd83f9c95cf508656d5b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3debc0f6280a267dc8e9",
+    "workId": "3debc0f6280a267dc8e9",
+    "driveFileId": "1vtKhhZeYC0CkhTkeqvoVXW2hYw3N-Wmr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:15:15.357302+00:00",
+    "updatedAt": "2026-09-21T21:15:15.357318+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:15:15.357483+00:00"
+    }
+  }
+}

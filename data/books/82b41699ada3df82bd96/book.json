@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "진술서에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "경찰서",
+      "진술서",
+      "폴 뉴먼",
+      "작문 능력"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "유머"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "경찰서에서 진술서를 쓰며 담당 형사의 외모와 치졸한 작문 능력에 주목한 작가.",
+    "oneLineSummary": "과거 경찰서에 연루되어 진술서를 쓸 때, 배우 폴 뉴먼을 닮은 형사의 한심한 문장력 때문에 겪은 굴욕적이고 독특한 경험을 담은 에세이.",
+    "overallSummary": "작가는 과거 경찰서에 끌려가 진술서를 작성했던 독특한 경험을 회상한다. 자신을 담당한 형사는 배우 폴 뉴먼을 닮았고 하얀 버튼다운 셔츠를 입어 이국적인 분위기를 풍겼다. 그러나 형사의 작문 능력은 매우 치졸하여 문법과 묘사가 엉망이었다. 가장 굴욕적이었던 것은 형사가 연필로 쓴 한심한 초고를 볼펜으로 그대로 덧쓰고, 형사가 연필 자국을 지워 자필 진술서처럼 꾸미는 과정이었다. 작가는 경찰에 연루되어 좋을 것이 없다는 교훈을 남긴다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "폴 뉴먼을 닮은 형사",
+        "summary": "경찰서에서 만난 담당 형사가 폴 뉴먼을 닮아 사우스 브론쿠스 같은 독특한 분위기를 느꼈다."
+      },
+      {
+        "sectionTitle": "진술서 작성의 굴욕",
+        "summary": "형사의 치졸한 문장을 그대로 볼펜으로 받아 적고 연필 자국을 지우는 눈가림식 진술서 작성 과정에 굴욕을 느꼈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형사의 외모 특징",
+        "value": "폴 뉴먼을 닮았으며 VAN 재킷풍의 하얀 버튼다운 셔츠를 입음"
+      },
+      {
+        "key": "진술서 작성 방식",
+        "value": "경찰관이 연필로 쓴 초고를 진술자가 볼펜으로 덧쓰고 연필 선을 지우는 방식"
+      }
+    ],
+    "keyEntitiesText": "나(작가), 형사(폴 뉴먼 닮은 사내), 안자이 미즈마루",
+    "settingText": "일본의 어느 경찰서 조사실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LQYAaE71tq08PUqgy5uzucrJ4NqAKtoh",
+    "filename": "진술서에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.942Z",
+    "size": "1604",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1LQYAaE71tq08PUqgy5uzucrJ4NqAKtoh/view?usp=drivesdk",
+    "sourceSha256": "26ec6a17f2f0f16e873ba157dba42565cfb1e5ba1c6a9a55c5a4bc3b1850e357",
+    "textSha256": "50263de2b0e5d2d42c82a26524b3921d16a04c5eac20f2ade0a7d82677245861",
+    "changeKey": "c031fc2f262c8b3868a5a93a715caf56",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "82b41699ada3df82bd96",
+    "workId": "82b41699ada3df82bd96",
+    "driveFileId": "1LQYAaE71tq08PUqgy5uzucrJ4NqAKtoh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:15:32.912990+00:00",
+    "updatedAt": "2026-09-21T21:15:32.913004+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:15:32.913108+00:00"
+    }
+  }
+}

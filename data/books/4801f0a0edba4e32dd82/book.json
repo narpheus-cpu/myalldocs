@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "자유업의 문제점에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "자유업",
+      "소설가",
+      "은행",
+      "보너스",
+      "교외 생활"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "일상 풍자"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "교외에 살며 자유업(저술업)이라는 직업 때문에 겪는 일상의 오해와 곤란함을 유머러스하게 묘사하는 소설가.",
+    "oneLineSummary": "교외 주택가에 살면서 '자유업'이라는 직업적 특성 때문에 은행 창구나 동네 주민들 사이에서 겪는 오해와 곤란함을 다룬 에세이.",
+    "overallSummary": "작가는 도심을 떠나 교외 중소도시에 살면서 자유업(저술업)에 대한 사람들의 이해 부족으로 겪는 곤란함을 토로한다. 특히 보너스 시즌에 은행에 가면 직원이 보너스 예금을 권유하며 직업을 묻는데, '자유업'이나 '문필업'이라는 답변이 '목수'나 '분필업'으로 오해받기 일쑤다. 또한, 낮 시간에 샐러리맨이 없는 교외 주택가를 배회하다가 주민들의 의심쩍은 눈총을 받는 등 자유업자로서 겪는 일상의 애환을 유머러스하게 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "은행에서의 직업 오해",
+        "summary": "보너스 시즌 은행에서 직업을 설명하는 과정에서 '자유업'이 목수로, '문필업'이 분필업으로 오해받는 황당한 경험을 소개한다."
+      },
+      {
+        "sectionTitle": "교외 주택가에서의 시선",
+        "summary": "아침 시간 샐러리맨들이 사라진 교외 주택가에서 대낮에 돌아다니며 주민들과 슈퍼마켓에서 따가운 눈총을 받는 애환을 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "오해받은 직업명",
+        "value": "목수, 분필(分筆)업"
+      },
+      {
+        "key": "추천 거주지",
+        "value": "자유업자는 도쿄 미나토구 주변 도심에 사는 것이 무난함"
+      }
+    ],
+    "keyEntitiesText": "나(작가), 쿄와은행 기타나라시노지점",
+    "settingText": "일본 치바현 나라시노 등 교외 주택 도시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KcdB2mJhGA3YJQROOPeCHNE2VV83d_ji",
+    "filename": "자유업의 문제점에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.803Z",
+    "size": "5009",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1KcdB2mJhGA3YJQROOPeCHNE2VV83d_ji/view?usp=drivesdk",
+    "sourceSha256": "4ba74e6b946c5880b6c21221005d38592dab1ccf67169bb7f85bbd0ffb2d0a2e",
+    "textSha256": "1a4419c3d24c886ca94a4538ee2e32f63eac535a58b5a8af24ba1c9d9432585e",
+    "changeKey": "e92cc95f101a206ade779a4c0b7cf8d8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4801f0a0edba4e32dd82",
+    "workId": "4801f0a0edba4e32dd82",
+    "driveFileId": "1KcdB2mJhGA3YJQROOPeCHNE2VV83d_ji",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:14:29.847209+00:00",
+    "updatedAt": "2026-09-21T21:14:29.847224+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:14:29.847389+00:00"
+    }
+  }
+}

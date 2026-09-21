@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잡지를 즐기는 법",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "잡지",
+      "폐간",
+      "관서 지방",
+      "플레이 가이드 저널",
+      "TV CF"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "대중문화 비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "잡지의 범람 속에서 폐간된 잡지에 대한 애정과 관서 지방 정보지의 독특함을 즐기는 작가.",
+    "oneLineSummary": "수많은 잡지 중 자신이 즐겨 읽었던 폐간된 잡지들을 회상하고, 관서 지방 정보지와 TV 광고 비평을 즐기는 독특한 잡지 독서법을 소개하는 에세이.",
+    "overallSummary": "작가는 잡지가 범람하는 시대에 선택의 어려움을 느끼며, 오히려 '좋은 잡지란 폐간된 잡지'라는 말에 공감한다. 자신이 즐겁게 일했던 잡지들('해피 엔드 통신', '우미', 'TODAY')이 폐간된 것에 아쉬움을 표한다. 현재는 도쿄에 살면서도 관서 지방의 독특한 정서가 담긴 정보지 '플레이 가이드 저널'을 읽거나, 보지도 않는 TV CF의 텍스트 소개('광고 비평')를 읽으며 상상하는 독특한 방식으로 잡지를 즐기고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "폐간된 잡지들에 대한 애정",
+        "summary": "글쟁이로서 즐겁게 일했던 잡지들이 쉽게 폐간되는 운명을 아쉬워하며 폐간된 잡지의 가치를 논한다."
+      },
+      {
+        "sectionTitle": "관서 지방 정보지의 매력",
+        "summary": "도쿄에 살면서 관서 지방 정보지 '플레이 가이드 저널'을 통해 관서인들의 독특한 문화와 정서를 엿보는 재미를 설명한다."
+      },
+      {
+        "sectionTitle": "보지 않는 TV CF 상상하기",
+        "summary": "'광고 비평'에 실린 TV CF 대본을 읽으며 실제 광고 영상을 기이하게 상상하는 취미를 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "즐겨 읽는 잡지",
+        "value": "플레이 가이드 저널, 광고 비평"
+      },
+      {
+        "key": "언급된 광고",
+        "value": "이리 김 (이토 시로 출연)"
+      }
+    ],
+    "keyEntitiesText": "나(작가), 카가 야마히로, 이토 시로, 미네 노보루, 플레이 가이드 저널, 광고 비평, 해피 엔드 통신, 우미, TODAY",
+    "settingText": "일본 도쿄 및 관서 지방 문화 비교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HuxPD9cUJKXTnH2pLCRlYKq9hvMocNS_",
+    "filename": "잡지를 즐기는 법.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.817Z",
+    "size": "4815",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1HuxPD9cUJKXTnH2pLCRlYKq9hvMocNS_/view?usp=drivesdk",
+    "sourceSha256": "fa568b14085411fda27a76a68da415764d2bcef24320f72cb50aec5c15f915f0",
+    "textSha256": "f3b365b3c4d51fad53ae6fdb0dd0d4f955e0973d8c43610a69b932d39cd53b82",
+    "changeKey": "12a61fa395427e665ccd6460262a4491",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a30008a3fe86604e207e",
+    "workId": "a30008a3fe86604e207e",
+    "driveFileId": "1HuxPD9cUJKXTnH2pLCRlYKq9hvMocNS_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:14:35.479126+00:00",
+    "updatedAt": "2026-09-21T21:14:35.479141+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:14:35.479249+00:00"
+    }
+  }
+}

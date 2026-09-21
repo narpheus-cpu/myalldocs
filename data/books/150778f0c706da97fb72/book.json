@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "전철표",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "전철표",
+      "분실",
+      "귀에 넣기",
+      "일상의 수수께끼"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "유머"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "어린 시절부터 전철표를 자주 잃어버려 개찰구 앞에서 곤란을 겪는 작가.",
+    "oneLineSummary": "전철표를 습관적으로 분실하는 작가가 이를 방지하기 위해 표를 접어 귀에 넣는 기발한 방법을 고안했다가 겪은 해프닝과 분실 대처법을 담은 에세이.",
+    "overallSummary": "작가는 목적지에 도착하면 항상 전철표를 잃어버려 개찰구 앞에서 주머니를 뒤집는 비참한 경험을 반복한다. 표를 잃어버리지 않기 위해 일정한 주머니나 지갑에 넣는 방법은 바지 종류의 다양성 등으로 실패한다. 결국 표를 접어 귓구멍 속에 넣는 '전철표 귀에 넣기' 방법을 발명해 실행하지만, 주변의 이상한 시선과 차장의 지적으로 포기한다. 현재는 무심의 경지로 전철을 타며, 분실 시 손해를 줄이기 위해 기본 요금 표만 사는 방식을 취한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "전철표 분실의 숙명",
+        "summary": "개찰구 앞에서 항상 전철표를 잃어버려 주머니를 뒤집는 창피한 상황을 겪는다."
+      },
+      {
+        "sectionTitle": "보관 장소의 딜레마",
+        "summary": "일정한 주머니나 지갑에 표를 보관하려 해도 복장의 변화와 번거로움 때문에 실패한다."
+      },
+      {
+        "sectionTitle": "귀에 넣기 발명과 포기",
+        "summary": "표를 접어 귀에 넣는 방법을 고안해 실행했으나, 타인의 시선과 차장의 제지로 결국 포기한다."
+      },
+      {
+        "sectionTitle": "무심의 경지와 대처법",
+        "summary": "표 분실을 숙명으로 받아들이고, 기본 요금 표만 구입해 도착지에서 정산하는 경제적 대처법을 사용한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "귀에 넣는 방법",
+        "value": "국철표를 가로로 두 번, 세로로 한 번 접어 잉크가 묻지 않게 뒤집어서 귀에 넣음"
+      },
+      {
+        "key": "최종 대처법",
+        "value": "기본 요금 표만 구입 후 목적지에서 추가 요금 정산"
+      }
+    ],
+    "keyEntitiesText": "나(작가)",
+    "settingText": "일본의 전철 및 역 개찰구"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uk2RcD2xPM4OoNKSBUm-0-gqmBtJT5c9",
+    "filename": "전철표.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.846Z",
+    "size": "6930",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1uk2RcD2xPM4OoNKSBUm-0-gqmBtJT5c9/view?usp=drivesdk",
+    "sourceSha256": "7c4ffee7cc62adea760d0f6d953fbce5254af0201b3d7f23cec3dff83f852910",
+    "textSha256": "1c431d4aa44ed265138c850715c735a691f837544edd2557711a02b48c6eae28",
+    "changeKey": "c4e81a69563d09770a895cb165b734b7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "150778f0c706da97fb72",
+    "workId": "150778f0c706da97fb72",
+    "driveFileId": "1uk2RcD2xPM4OoNKSBUm-0-gqmBtJT5c9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:14:48.450514+00:00",
+    "updatedAt": "2026-09-21T21:14:48.450528+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:14:48.450634+00:00"
+    }
+  }
+}

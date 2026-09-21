@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이탈리아제 자동차는 즐겁다",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "자동차",
+      "이탈리아",
+      "로마",
+      "란치아 델타",
+      "운전"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "자동차 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "로마에서 운전을 배우고 이탈리아제 자동차의 독특한 매력에 빠진 작가.",
+    "oneLineSummary": "로마에서 운전면허를 따고 이탈리아제 자동차 '란치아 델타'를 타며 겪은 독특한 운전 경험과 이탈리아 차의 매력을 소개하는 에세이.",
+    "overallSummary": "작가는 로마에서 초보 운전 시절을 보내며 로마인들의 운전 룰(표정 교감)을 익혔다. 도쿄로 돌아와 무표정한 운전에 공포를 느끼기도 했다. 로마에서 구입한 '란치아 델타 1600GT'는 잦은 고장과 소음, 무거운 핸들 등 단점이 많았지만, 생기발랄한 표정과 운전하는 재미가 있어 인생 최고의 차로 기억한다. 결국 일본에서 감당하지 못해 팔았으나, 또다시 이탈리아제 차를 구입하며 그 즐거움을 이어가고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "로마에서의 운전과 룰",
+        "summary": "로마에서 운전을 배우며 상대 운전자의 표정과 제스처를 통해 소통하는 독특한 룰을 터득했다."
+      },
+      {
+        "sectionTitle": "란치아 델타와의 추억",
+        "summary": "디자인에 반해 산 란치아 델타 1600GT의 수많은 결함에도 불구하고, 표정이 있고 운전이 즐거웠던 최고의 차로 기억한다."
+      },
+      {
+        "sectionTitle": "이탈리아 차를 다시 사다",
+        "summary": "일본으로 가져온 란치아 델타를 결국 처분했으나, 이탈리아 차의 매력을 잊지 못해 다시 구매했다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소유했던 차량",
+        "value": "란치아 델타 1600GT (Lancia Delta 1600GT)"
+      },
+      {
+        "key": "이탈리아 운전의 특징",
+        "value": "운전자 간의 표정과 눈빛, 자동차의 제스처를 통한 소통"
+      }
+    ],
+    "keyEntitiesText": "나(작가), 아내, 아널드 슈워제네거, 지우자로, 란치아 델타 1600GT, 로마, 도쿄",
+    "settingText": "이탈리아 로마 및 일본 도쿄"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ngu8g7sud_bvV4sjpaTvpL_-AXMmhXMb",
+    "filename": "이탈리아제 자동차는 즐겁다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.691Z",
+    "size": "4120",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1ngu8g7sud_bvV4sjpaTvpL_-AXMmhXMb/view?usp=drivesdk",
+    "sourceSha256": "aa440551be9fed28e97118730ce4986a7306542959e779f3d91a0179d90ad27d",
+    "textSha256": "36b527f75bee3fa8059f0acaf789fa95fbac17d87d82048d6bcd649bd25814cf",
+    "changeKey": "bd797fdf0fe95c43ea29e21c2f4b0d2f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9c51fcda1b96c476bfe0",
+    "workId": "9c51fcda1b96c476bfe0",
+    "driveFileId": "1ngu8g7sud_bvV4sjpaTvpL_-AXMmhXMb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:13:53.989830+00:00",
+    "updatedAt": "2026-09-21T21:13:53.989845+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:13:53.989970+00:00"
+    }
+  }
+}

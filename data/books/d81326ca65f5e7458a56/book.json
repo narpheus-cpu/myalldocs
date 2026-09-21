@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지하철 긴자선의 어둠",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "지하철 긴자선",
+      "도쿄",
+      "정전",
+      "도시인의 태도"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "도시 관찰"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "지방에서 도쿄로 올라와 지하철 긴자선의 순간 정전 현상과 도쿄인들의 무덤덤한 반응에 큰 인상을 받은 작가.",
+    "oneLineSummary": "도쿄 지하철 긴자선이 역 도착 직전 순간적으로 정전되는 현상에 놀랐던 초보 도쿄 거주 시절의 경험과 도시인들의 냉정함에 대한 단상.",
+    "overallSummary": "작가는 도쿄에 처음 올라왔을 때 지하철 긴자선이 역 도착 직전 1~2초간 소등되어 차내가 암흑이 되는 현상을 겪고 사고인 줄 알고 크게 놀랐다. 그러나 다른 승객들이 전혀 동요하지 않고 태연한 모습을 보며 도쿄 사람들의 터프함과 냉정함에 감탄했다. 이후 그것이 일상적인 일임을 알게 되었고, 친구가 농담으로 '정전될 때 눈이 빛나는 사람은 히비야 고등학교 학생'이라고 했던 거짓말에 속았던 순진한 청년 시절을 회상한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "긴자선의 순간 정전과 첫 경험",
+        "summary": "역 도착 직전 차내가 깜깜해지는 긴자선의 특징에 놀랐으나, 승객들의 무덤덤한 반응에 더 큰 충격을 받았다."
+      },
+      {
+        "sectionTitle": "순진했던 청년 시절의 일화",
+        "summary": "정전 시 눈이 빛나는 학생들에 대한 친구의 거짓말에 속았던 순진했던 과거를 떠올린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "긴자선의 특징",
+        "value": "역 도착 직전 일시적으로 전등이 꺼져 차내가 암흑이 됨"
+      },
+      {
+        "key": "작가의 소회",
+        "value": "도쿄 사람들의 냉정함에 대한 감탄과 자신의 순진했던 청년 시절 회상"
+      }
+    ],
+    "keyEntitiesText": "나(작가), 친구, 히비야 고등학교, 지하철 긴자선",
+    "settingText": "일본 도쿄, 지하철 긴자선 차내"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zNKaWq3tpAflnsyvDacz-UMX0Wo15oAr",
+    "filename": "지하철 긴자선의 어둠.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.927Z",
+    "size": "1688",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1zNKaWq3tpAflnsyvDacz-UMX0Wo15oAr/view?usp=drivesdk",
+    "sourceSha256": "d023d85a9c8e7305745f21e7339a9a7467c8e6fb1c84026d484068c82a1a18c7",
+    "textSha256": "87f1460a0595a99422bbf6ab6feeb7c26c18d12e6c1e4233afb9b478432ac0cc",
+    "changeKey": "217edeecab91709770a91efcd04e6a0e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d81326ca65f5e7458a56",
+    "workId": "d81326ca65f5e7458a56",
+    "driveFileId": "1zNKaWq3tpAflnsyvDacz-UMX0Wo15oAr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:15:26.710887+00:00",
+    "updatedAt": "2026-09-21T21:15:26.710903+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:15:26.711019+00:00"
+    }
+  }
+}

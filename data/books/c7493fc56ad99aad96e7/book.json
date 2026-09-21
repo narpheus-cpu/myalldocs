@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "중년이란 무엇인가(탈모와 비만)",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "중년",
+      "탈모",
+      "비만",
+      "다이어트",
+      "체질"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "건강/에이징"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서른여섯 살 중년에 접어들어 탈모와 비만이라는 신체적 변화를 겪고 이를 극복하기 위해 노력하는 작가.",
+    "oneLineSummary": "중년 초기에 접어든 작가가 겪은 탈모의 스트레스와 극복 과정, 그리고 가만히 있어도 살이 찌는 비만 현상과 다이어트의 어려움을 다룬 에세이.",
+    "overallSummary": "작가는 서른여섯 살 중년이 되어 겪는 신체 변화를 두 가지 주제로 다룬다. 첫째, 과거 스트레스로 인해 겪었던 심각한 탈모 경험과 전업 작가가 되어 규칙적인 생활을 통해 모발이 회복된 과정을 이야기하며 타인의 잔혹한 시선을 꼬집는다. 둘째, 조금만 방심해도 살이 찐다는 비만의 고충을 토로하며, 66킬로그램에서 59킬로그램으로 감량한 경험을 바탕으로 만인에게 맞는 다이어트법은 없으며 자신의 체질에 맞는 방법을 찾아야 한다고 조언한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "탈모에 대하여",
+        "summary": "과거 사업 스트레스로 탈모를 겪었으나 전업 작가 전향 후 규칙적인 생활(운동, 식사, 수면)을 통해 머리숱이 회복된 경험을 밝힌다."
+      },
+      {
+        "sectionTitle": "비만에 대하여",
+        "summary": "중년이 되어 쉽게 살이 찌는 체질적 변화를 겪고 7kg을 감량한 일화를 소개하며, 유전적 요인과 다이어트의 어려움을 논한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작가의 신체 스펙",
+        "value": "키 168cm, 감량 후 체중 59kg"
+      },
+      {
+        "key": "탈모 회복의 원인",
+        "value": "교외 거주, 타인과의 접촉 감소, 규칙적인 생활, 매일 운동 등"
+      }
+    ],
+    "keyEntitiesText": "나(작가), 아내(마누라), 안자이 미즈마루, 마츠모토 세이초",
+    "settingText": "현대 일본, 작가의 일상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KraiMWpJHMUqHCmjKfTcX-8dIj91Yunl",
+    "filename": "중년이란 무엇인가(탈모와 비만).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.886Z",
+    "size": "9268",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1KraiMWpJHMUqHCmjKfTcX-8dIj91Yunl/view?usp=drivesdk",
+    "sourceSha256": "284b60c14b4e8ded1ff37c5cfe9896c09e2020d71eb615c83317398a40aea65a",
+    "textSha256": "295ca89d58c067be32b705251fee65a0b4a8bda75ae16fab83df2872c668d25c",
+    "changeKey": "50fa5a074e847d06a0be14ebe1bafa06",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c7493fc56ad99aad96e7",
+    "workId": "c7493fc56ad99aad96e7",
+    "driveFileId": "1KraiMWpJHMUqHCmjKfTcX-8dIj91Yunl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:15:09.456149+00:00",
+    "updatedAt": "2026-09-21T21:15:09.456164+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:15:09.456281+00:00"
+    }
+  }
+}

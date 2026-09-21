@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일기, 혹은 그런 류에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "일기",
+      "일지",
+      "라이프 업무 일지",
+      "부부",
+      "초현실"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "감정이나 심리 묘사 없이 사실만을 기록하는 '일지'를 쓰는 소설가.",
+    "oneLineSummary": "정초가 아닌 뜬금없는 날에 시작하는 일기의 지속성을 논하며, 자신의 건조한 '일지' 기록 습관과 아내의 초현실적인 일기 작성 이유를 소개하는 에세이.",
+    "overallSummary": "작가는 정초보다 평범한 날에 시작하는 일기가 더 오래간다고 말하며, 자신은 심리 묘사 없이 기상 시간, 날씨, 식사, 작업량 등 사실만 기록하는 '일지'를 쓴다고 밝힌다. '라이프' 사의 '업무 일지'를 사용하는 작가는 과거의 결점을 발견하는 일기의 효용을 언급한다. 한편, 아내는 미래의 소송에 대비한다는 초현실적인 이유로 매일 상세한 일기를 녹색 잉크로 기록하고 있어 가정이 초현실적으로 느껴진다고 고백한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "일기를 시작하는 시기",
+        "summary": "정초의 이벤트성에 기댄 일기보다 평범한 날에 문득 시작한 일기가 더 오래 지속된다."
+      },
+      {
+        "sectionTitle": "작가의 건조한 일지",
+        "summary": "감정 배제 후 사실만 기록하는 '일지'를 '라이프 업무 일지'에 작성하며, 소설가의 평범한 하루를 보여준다."
+      },
+      {
+        "sectionTitle": "아내의 초현실적인 일기",
+        "summary": "혹시 모를 소송에 대비해 매일 상세한 일기를 쓰는 아내를 보며 가정의 초현실성을 느낀다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사용하는 일기장",
+        "value": "라이프(Life) 사의 '업무 일지', 마루니 사의 일기장"
+      },
+      {
+        "key": "아내의 일기 작성 목적",
+        "value": "미래의 소송 발생 시 증거로 활용하기 위함"
+      }
+    ],
+    "keyEntitiesText": "나(작가), 아내(마누라), 미우라 모모에, 미우라 카즈요시, 야쿠시마루 히로코, 라이프 업무 일지, 마루니",
+    "settingText": "작가의 집, 치바현 나라시노 시절 언급"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vWPSBBD4TtquYeg7xCt4YDy8uwV4CtnS",
+    "filename": "일기, 혹은 그런 류에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.757Z",
+    "size": "4264",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1vWPSBBD4TtquYeg7xCt4YDy8uwV4CtnS/view?usp=drivesdk",
+    "sourceSha256": "fc68cd5d34e69f42fa1355e697faa752cd18f9685d29679a051270e3caf1a150",
+    "textSha256": "a07685aab1dcdb256a6ad5e7cb6b7e6c1584c22d30ab44c6198745a646592e9b",
+    "changeKey": "93f7b299ebd21074e37593e5c456ea73",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "06164ad0c5bf2ca342cb",
+    "workId": "06164ad0c5bf2ca342cb",
+    "driveFileId": "1vWPSBBD4TtquYeg7xCt4YDy8uwV4CtnS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:14:17.459759+00:00",
+    "updatedAt": "2026-09-21T21:14:17.459776+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:14:17.459897+00:00"
+    }
+  }
+}

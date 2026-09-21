@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이혼에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "이혼",
+      "인간관계",
+      "관혼상제",
+      "대화의 곤란함"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "사회 풍자"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일상의 미묘한 상황과 인간관계의 곤란함을 예리하고 유머러스하게 포착하는 작가.",
+    "oneLineSummary": "주변에서 이혼한 사람들을 만났을 때 적절한 위로나 인사를 건네기 어려운 곤란함과 이혼에 대한 사회적 예절의 필요성을 다룬 에세이.",
+    "overallSummary": "작가는 최근 주변에서 이혼한 사람들을 연달아 만나며 처신에 곤란함을 느낀다. 결혼, 출산, 장례식과 달리 이혼은 상대방에게 건넬 편리하고 적절한 인사말이 없어 대화가 어색해지기 쉽다. 이혼이 흔해진 만큼 '관혼상제 예절' 책에 이혼이란 항목이 추가되어 적절한 예절을 안내해 주기를 제안한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이혼 소식을 들었을 때의 난처함",
+        "summary": "안부를 묻다가 이혼 소식을 듣게 되면 적절한 대답을 찾지 못해 대화가 황망해진다."
+      },
+      {
+        "sectionTitle": "이혼 예절의 필요성",
+        "summary": "이혼은 결혼이나 장례식처럼 정형화된 인사말이 없으므로, 관혼상제 예절에 이혼 항목이 필요하다고 생각한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 논지",
+        "value": "이혼한 사람에게 건넬 적절한 사회적 인사말의 부재와 그로 인한 대화의 어색함"
+      }
+    ],
+    "keyEntitiesText": "나(작가)",
+    "settingText": "현대 일본 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qK8Z4S9BTGnaM1oEoxgPh_VhOfjQjTJv",
+    "filename": "이혼에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:07.711Z",
+    "size": "1641",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1qK8Z4S9BTGnaM1oEoxgPh_VhOfjQjTJv/view?usp=drivesdk",
+    "sourceSha256": "b8d5782b3a5b00f09e986fb14c744dfc8c5df5ff3072c6cb236748afdd5c8904",
+    "textSha256": "42a4e3b2cd00510f6554784d3d1407a57accfe39bfb34a5b00f7cda4ebfe3eaf",
+    "changeKey": "eee9d8b38062ee5935a49a1b31fe4db6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c1423596408fa9b6ea5c",
+    "workId": "c1423596408fa9b6ea5c",
+    "driveFileId": "1qK8Z4S9BTGnaM1oEoxgPh_VhOfjQjTJv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T21:14:00.279107+00:00",
+    "updatedAt": "2026-09-21T21:14:00.279122+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T21:14:00.279220+00:00"
+    }
+  }
+}
