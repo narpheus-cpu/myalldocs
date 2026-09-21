@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "라플라스의 마녀",
+    "author": "히가시노 게이고",
+    "genre": "미스터리/SF 소설",
+    "tags": [
+      "토네이도",
+      "경호원",
+      "수리학연구소",
+      "자연현상",
+      "서스펜스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "토네이도로 어머니를 잃은 소녀 마도카의 비극과 훗날 독립행정법인 수리학 연구소와 연계되어 특별 경호 임무를 맡게 되는 전직 경찰 다케오의 이야기.",
+    "overallSummary": "초등학생 우하라 마도카는 홋카이도 외갓집에 갔다가 갑작스러운 거대 토네이도를 만나 어머니 미나를 잃고 홀로 살아남는다. 시간이 흐른 뒤, 부당하게 퇴직한 전직 경찰관 다케오 도오루는 과거 인연이 있던 기리미야 레이로부터 독립행정법인 수리학 연구소와 관련된 극비 경호 의뢰를 제안받고 면접을 보게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "홋카이도 외가를 방문했던 어린 마도카와 어머니 미나가 갑작스런 토네이도에 휩쓸려 건물이 파괴되고 어머니가 사망하는 비극."
+      },
+      {
+        "sectionTitle": "제1장",
+        "summary": "퇴직 후 구직 중이던 전직 경찰 다케오가 기리미야 레이의 연락을 받고 가이메이 대학 및 수리학 연구소로 가 새로운 경호 의뢰 면접을 받는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "설정 및 모티프",
+        "value": "예측 불가능한 자연재해(토네이도)의 비극과 고도의 수리학·물리학적 연구소 환경을 연결하여 초자연적 추리 미스터리의 기반을 형성함."
+      }
+    ],
+    "keyEntitiesText": "우하라 마도카, 미나, 젠타로, 유미코, 다케오 도오루, 기리미야 레이",
+    "settingText": "홋카이도의 작은 도시 및 도쿄 가이메이 대학·수리학 연구소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cLBeOa0gHZCd-8RxbKLfqgj_qB6a5faM",
+    "filename": "히가시노 게이고-라플라스의 마녀(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.752Z",
+    "size": "801032",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1cLBeOa0gHZCd-8RxbKLfqgj_qB6a5faM/view?usp=drivesdk",
+    "sourceSha256": "cadd90c718f52f9a4e68e314c2a8d48e8d2eaa0758f76c088d803defffe92cd3",
+    "textSha256": "f5b3a844527bec96e662b6950c2a2b4088fb002aced252f0a91cb7ba97884ba3",
+    "changeKey": "fb17d9e6d4c8c34cf9d8a3cc4f0859d0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "78068f1856edd9f51fe4",
+    "workId": "78068f1856edd9f51fe4",
+    "driveFileId": "1cLBeOa0gHZCd-8RxbKLfqgj_qB6a5faM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:44:39.962457+00:00",
+    "updatedAt": "2026-09-21T22:44:39.962474+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:44:39.962579+00:00"
+    }
+  }
+}

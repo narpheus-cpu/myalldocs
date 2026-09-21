@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아름다운 흉기",
+    "author": "히가시노 게이고",
+    "genre": "추리/서스펜스 소설",
+    "tags": [
+      "도핑",
+      "스포츠닥터",
+      "살인",
+      "타란툴라",
+      "복수극"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "과거의 도핑 자료를 없애려다 스포츠 닥터를 우발적으로 살해한 전직 국가대표 선수들과 그를 아버지처럼 따르던 개조된 육상 선수의 복수극.",
+    "overallSummary": "전직 메달리스트이자 스포츠 스타들인 히우라 유스케, 사쿠라 쇼코, 니와 준야, 안조 다쿠마는 자신들의 도핑 기록을 회수하기 위해 스포츠 닥터 센도 고레노리의 별장에 침입한다. 그러나 센도가 권총과 스턴 건으로 저항하자 몸싸움 끝에 쇼코가 총을 쏘아 그를 사살한다. 센도가 비밀리에 육성해온 괴물 같은 신체능력의 육상 선수 '타란툴라'가 센도의 죽음을 알게 되면서 비정한 복수가 시작된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 한밤의 살인사건",
+        "summary": "센도의 지도 아래 훈련받는 여전사 타란툴라의 모습과, 도핑 데이터를 없애려 침입한 4명의 전직 선수들이 센도를 살해하고 자료를 수색하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "테마와 인과율",
+        "value": "명예를 지키기 위해 살인까지 저지른 스포츠 영웅들의 이면과 약물·기계로 길러진 '아름다운 흉기' 타란툴라의 복수라는 대립을 긴박하게 묘사함."
+      }
+    ],
+    "keyEntitiesText": "타란툴라, 센도 고레노리, 히우라 유스케, 사쿠라 쇼코, 니와 준야, 안조 다쿠마",
+    "settingText": "센도 고레노리의 외딴 호화 별장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1p-tGs-zWVYaEXz5tp0hkV0qSrGdchRqv",
+    "filename": "히가시노 게이고-아름다운 흉기(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.900Z",
+    "size": "311255",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1p-tGs-zWVYaEXz5tp0hkV0qSrGdchRqv/view?usp=drivesdk",
+    "sourceSha256": "01835212adb2b21ca0603a6e529c571f9e181a24fd3e03acad7cd240e99c1443",
+    "textSha256": "5051e6b640f3bc96a43ee5970b2eb010472c30928a739554ab6768f638fbcac3",
+    "changeKey": "a6457eb9f003f2b0d10691d68d213b9c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ff7a670bfcca34c3867f",
+    "workId": "ff7a670bfcca34c3867f",
+    "driveFileId": "1p-tGs-zWVYaEXz5tp0hkV0qSrGdchRqv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:45:05.005149+00:00",
+    "updatedAt": "2026-09-21T22:45:05.005167+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:45:05.005269+00:00"
+    }
+  }
+}

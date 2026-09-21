@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "숙명",
+    "author": "히가시노 게이고",
+    "genre": "소설",
+    "tags": [
+      "숙명",
+      "벽돌병원",
+      "식도암",
+      "임종",
+      "운명적인연"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "어린 시절 벽돌병원에서 만난 신비한 여인의 죽음과 훗날 대기업 우류 가문의 후계자 아키히코와 결혼한 미사코의 얽힌 운명.",
+    "overallSummary": "유사쿠는 유년 시절 '벽돌병원'에 입원해 있던 사나에라는 순수한 여인과 교류하지만 그녀가 창문에서 떨어져 죽고 경찰관이던 아버지가 이를 비밀스럽게 조사한다. 한편 평범한 출신의 미사코는 대기업 UR전산의 우류 나오아키 전무의 비서로 일하다 그의 장남이자 의사인 아키히코의 청혼을 받아 결혼한다. 세월이 흘러 시아버지 나오아키가 식도암으로 숨을 거두며 아키히코에게 미안하다는 마지막 유언을 남긴다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "유년 시절 프롤로그",
+        "summary": "유사쿠가 벽돌병원에서 사나에와 시간을 보내다 그녀의 죽음을 겪고, 한 귀공자 소년과 마주쳐 강렬한 인상을 받는 이야기."
+      },
+      {
+        "sectionTitle": "제1장 실 1",
+        "summary": "식도암에 걸린 시아버지 우류 나오아키의 임종을 지켜보는 미사코와 아키히코와의 과거 만남 및 청혼 회상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "숙명의 대립 구도",
+        "value": "어린 시절부터 이어진 낯선 소년과의 숙명적 대치 감정과 대기업 가문의 감춰진 비밀이 얽혀 향후 필연적인 갈등을 예고함."
+      }
+    ],
+    "keyEntitiesText": "와쿠라 유사쿠, 사나에, 고지(유사쿠 아버지), 에지마 미사코, 우류 나오아키, 우류 아키히코, 아야코, 히로마사, 소노코",
+    "settingText": "벽돌병원 및 UR전산 본사, 도와의대 부속병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ADevcgx2O0Xyqy0Tgf2bcu-sJj5ehCsm",
+    "filename": "히가시노 게이고-숙명(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.877Z",
+    "size": "529969",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ADevcgx2O0Xyqy0Tgf2bcu-sJj5ehCsm/view?usp=drivesdk",
+    "sourceSha256": "c3ee9ed953d86efc2805f76a55d616591dddd9c7a361a67c36ad1a450c342a1f",
+    "textSha256": "dd869c676dcdf5f35f37356dad622fffe5e5c8f761c76ddf0acddfa2d127a9fb",
+    "changeKey": "25fa19dad50b185e65f49d8fdb39c0a1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d2d783089754d041f1e5",
+    "workId": "d2d783089754d041f1e5",
+    "driveFileId": "1ADevcgx2O0Xyqy0Tgf2bcu-sJj5ehCsm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:44:57.249104+00:00",
+    "updatedAt": "2026-09-21T22:44:57.249121+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:44:57.249229+00:00"
+    }
+  }
+}

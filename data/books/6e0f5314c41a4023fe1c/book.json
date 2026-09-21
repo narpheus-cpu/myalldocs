@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비밀 1",
+    "author": "히가시노 게이고",
+    "genre": "소설",
+    "tags": [
+      "영혼교환",
+      "스키버스사고",
+      "가족비극",
+      "부부",
+      "기적"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "fantasy",
+        "family_drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "야간 근무를 마치고 귀가한 헤이스케가 아내와 딸이 탄 스키 버스 추락 참사 소식을 접하고 병원으로 달려가는 비극의 시작.",
+    "overallSummary": "자동차 부품 공장 반장으로 성실하게 일하는 헤이스케는 야간근무를 마치고 귀가해 텔레비전을 켰다가 나가노 시가 고원행 스키 버스 전복 참사 뉴스를 본다. 처가 친척 장례식과 스키 여행을 위해 그 버스를 탔던 아내 나오코와 초등학교 6학년 딸 모나미가 심각한 중상을 입고 나가노 중앙병원으로 후송된다. 병원으로 달려간 헤이스케 앞에서 나오코는 마지막 숨을 거두며 딸의 손을 잡는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "믿을 수 없는 현실 1",
+        "summary": "헤이스케가 퇴근 후 스모 결과를 보려다 아내와 딸이 탑승한 스키 버스의 절벽 추락 속보를 접하고 공포에 빠지는 과정."
+      },
+      {
+        "sectionTitle": "믿을 수 없는 현실 2",
+        "summary": "나가노 중앙병원에 도착한 헤이스케가 의사로부터 모녀의 절망적인 상태를 듣고, 숨을 거두기 직전의 나오코를 모나미 곁으로 데려가는 장면."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "극적 전환점",
+        "value": "평범한 중년 남성의 안락한 일상이 불의의 참사로 무너지는 과정을 치밀하고 사실적인 시선으로 그려내며 기묘한 영혼 전이의 서막을 엶."
+      }
+    ],
+    "keyEntitiesText": "스기타 헤이스케, 스기타 나오코, 스기타 모나미, 요코(처형), 사부로(장인), 안자이 의사",
+    "settingText": "1985년 3월, 도쿄 헤이스케의 자택 및 나가노 시 중앙병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NVU9Bug8wfGc55et62hIf9d4Al7suMie",
+    "filename": "조완선-외규장각 도서의 비밀 1(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-05T13:21:02.000Z",
+    "size": "455968",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1NVU9Bug8wfGc55et62hIf9d4Al7suMie/view?usp=drivesdk",
+    "sourceSha256": "908789bbdf0dde92d016bf8fae69427af50f4ad43a6a96f545a061c45e7a2f6e",
+    "textSha256": "46d1a5691ca805b19a2770705e229d3f4af01ed96edece55c904ef05a54c84f2",
+    "changeKey": "1a544e9d4e8522afbf38e0552466aa9d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6e0f5314c41a4023fe1c",
+    "workId": "6e0f5314c41a4023fe1c",
+    "driveFileId": "1NVU9Bug8wfGc55et62hIf9d4Al7suMie",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:44:52.142425+00:00",
+    "updatedAt": "2026-09-21T22:44:52.142442+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-21T22:44:52.142545+00:00"
+    }
+  }
+}

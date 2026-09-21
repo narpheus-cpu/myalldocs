@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "겨울 이야기 (WINTER STORY)",
+    "author": "하라 히데노리",
+    "genre": "소설",
+    "tags": [
+      "재수생",
+      "청춘",
+      "입시",
+      "로맨스",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "coming_of_age",
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "만화 및 소설 원작자로 청춘의 성장과 감성을 다루는 데 능숙한 작가.",
+    "oneLineSummary": "삼류 대학까지 모조리 낙방한 재수생 조종범이 학원에서 우연히 만난 여학생 김하영에게 반해 무작정 서울대반에 들어가며 겪는 청춘기.",
+    "overallSummary": "지망하던 대학과 마지막 수단이었던 가지대학마저 모두 떨어져 낙담한 조종범은 노량진의 글나래학원에 재수 접수를 하러 간다. 그곳에서 빼어난 미모의 김하영을 보고 홀린 듯 따라가 덜컥 서울대반에 수강 신청을 하게 된다. 어려운 강의에 좌절하면서도 하영과 라면을 먹고 함께 서울대를 견학하며 엮여 들어가는 재수 생활의 애환과 청춘의 설렘을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1화 함께 재수하고 싶은 아이, 발견했다",
+        "summary": "가지대학 불합격 통보를 받은 종범이 노량진 글나래학원에서 김하영을 보고 충동적으로 서울대반에 접수하며 겪는 첫 만남."
+      },
+      {
+        "sectionTitle": "제 2화 1/2의 행복을 찾아서",
+        "summary": "어려운 수업 진도를 따라가지 못해 절망하던 종범이 하영과 함께 식사를 하고 서울대 캠퍼스로 향하며 싹트는 감정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 관계",
+        "value": "입시 실패로 자존감이 떨어진 주인공이 우연히 마주친 이상형의 여학생을 동기로 삼아 입시 현실에 부딪히는 청춘 성장 드라마의 전형을 보여줌."
+      }
+    ],
+    "keyEntitiesText": "조종범, 김하영, 기범(동생), 윤정, 용남, 남휘",
+    "settingText": "노량진 학원가, 국철 및 지하철, 서울 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Oh64M6Ft5wHUrLu9tPvVqMhaHFs8vgFJ",
+    "filename": "하라 히데노리-겨울이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.652Z",
+    "size": "583109",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Oh64M6Ft5wHUrLu9tPvVqMhaHFs8vgFJ/view?usp=drivesdk",
+    "sourceSha256": "6a07872c48cdbc653fd5920807b34a007e20b533d1f10070d4c0775c4260cbd0",
+    "textSha256": "f3beb3a9fd9b82c01f857a2048743cd44c1e7408cc6d9a75c965eb5dbccec65a",
+    "changeKey": "39edaa856db50e78fe6e80f1b4b47452",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b850f45ad1749cd3c379",
+    "workId": "b850f45ad1749cd3c379",
+    "driveFileId": "1Oh64M6Ft5wHUrLu9tPvVqMhaHFs8vgFJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:44:09.240595+00:00",
+    "updatedAt": "2026-09-21T22:44:09.240613+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4837,
+      "updatedAt": "2026-09-21T22:44:09.240813+00:00"
+    }
+  }
+}

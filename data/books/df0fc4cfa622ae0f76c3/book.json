@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일식(日蝕)",
+    "author": "히라노 게이치로",
+    "genre": "역사/철학 소설",
+    "tags": [
+      "중세유럽",
+      "도미니크회",
+      "토마스주의",
+      "이교철학",
+      "연금술"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy",
+        "historical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "15세기 말 파리에서 신학을 공부하던 도미니크회 수사가 이교 철학서와 연금술사를 찾아 남프랑스로 떠나며 겪는 사상적 편력.",
+    "overallSummary": "1482년 파리 대학에서 토마스주의 신학을 수학하던 주인공 수사는 우연히 손에 넣은 피치노의 라틴어 번역본 『헤르메스 선집』의 완본을 찾아 리옹으로 향한다. 당대 번성하던 유명론과 이단에 맞서 이교 철학을 기독교 신학으로 통합·극복하겠다는 이상을 품은 그는 리옹 주교를 만나 비엔 교구 인근 개간촌에서 은밀히 연금술을 연구하는 인물을 소개받고 그곳으로 향한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "도입부 및 고백 서약",
+        "summary": "화자가 거짓 없이 오직 진실만을 기록하겠다고 신 앞에 서약하며, 파리 대학 시절과 학문적 고민, 리옹 여행의 동기를 밝힌다."
+      },
+      {
+        "sectionTitle": "리옹에서의 여정과 연금술사 소개",
+        "summary": "리옹에 도착해 사목 의무를 수행하던 중 주교를 알현하여 피렌체 행에 관한 조언과 근처 마을의 연금술사에 관한 정보를 얻고 길을 떠나는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "지성사적 배경",
+        "value": "중세 말 르네상스 태동기 토마스주의와 유명론의 충돌, 헤르메스주의와 연금술 등 이교 철학의 수용과 갈등을 고풍스럽고 사변적인 필치로 탐구함."
+      }
+    ],
+    "keyEntitiesText": "나(수도사), 마르실리오 피치노, 성 토마스, 리옹 주교",
+    "settingText": "1482년 프랑스 파리, 리옹 및 남프랑스 비엔 교구 개간촌 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Z9GFwQ0eNJC0vvyY6vresuBehVInNjAj",
+    "filename": "히라노 게이치로-일식(日蝕).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:09.936Z",
+    "size": "431351",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Z9GFwQ0eNJC0vvyY6vresuBehVInNjAj/view?usp=drivesdk",
+    "sourceSha256": "8074c72135e0b724200efe531d6d9b5b5c27c997cd85759fbdb275d6873a0dd4",
+    "textSha256": "76645aadd965d86f2c4e46552a22c747136faad13fd57d36dbdb5459d78c5118",
+    "changeKey": "11396f6aee3d869e8268125b394df6c9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "df0fc4cfa622ae0f76c3",
+    "workId": "df0fc4cfa622ae0f76c3",
+    "driveFileId": "1Z9GFwQ0eNJC0vvyY6vresuBehVInNjAj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T22:45:17.573764+00:00",
+    "updatedAt": "2026-09-21T22:45:17.573782+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T22:45:17.573883+00:00"
+    }
+  }
+}
