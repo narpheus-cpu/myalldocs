@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "난중일기",
+    "author": "이순신",
+    "genre": "역사/일기",
+    "tags": [
+      "임진왜란",
+      "이순신",
+      "전란일기",
+      "애국",
+      "조선사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "역사",
+        "자서전_일기"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조선 중기의 명장으로 임진왜란 당시 수군을 이끌고 나라를 구한 충무공 이순신 장군이다.",
+    "oneLineSummary": "임진왜란 발발 직전부터 전쟁 중 전사하기 직전까지 이순신 장군이 직접 기록한 거룩한 전란의 기록이다.",
+    "overallSummary": "이 책은 충무공 이순신이 임진왜란 7년 동안 진중에서 쓴 일기로, 전쟁의 참혹함과 장군의 고뇌, 군무 수행의 세세한 과정이 고스란히 담겨 있다. 1592년(임진년) 1월부터 시작되는 기록에는 동헌에서의 공무 집행, 훈련, 무기 정비, 거북선 건조와 시험 발사, 부하들의 기강 확립, 어머니에 대한 효심, 그리고 왜구 침입에 대비하는 긴박한 준비 상황이 날짜별로 꼼꼼히 기록되어 있다. 난국을 헤쳐나간 한 영웅의 인간적 면모와 철저한 준비성을 보여주는 역사적 대고전이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "임진년 1월 ~ 2월",
+        "summary": "여수 본영에서 별방군 점검, 해자 보수, 쇠사슬 설치, 각 포구 순찰 및 전선 정비 등 전쟁 준비에 진력하는 모습을 보여준다."
+      },
+      {
+        "sectionTitle": "임진년 3월 ~ 4월",
+        "summary": "거북선 대포 시험 발사, 순찰사와의 회동, 류성룡이 보낸 '증손전수방략' 독서, 그리고 왜적 침입 소식을 급히 장계로 올리는 긴박한 상황을 담았다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사료적 가치",
+        "value": "임진왜란 초기 조선 수군의 준비 상태와 이순신의 리더십을 증명하는 최고급 역사 기록"
+      },
+      {
+        "key": "인간적 면모",
+        "value": "엄격한 군율 집행 속에서도 어머니를 향한 지극한 효심과 부하를 아끼는 마음 공존"
+      }
+    ],
+    "keyEntitiesText": "이순신, 여필, 봉, 회, 이경신, 류성룡, 이광, 원균, 박홍, 사담 후세인(참고 언급 없음, 텍스트 기준 이순신, 이억기, 배흥립, 권준, 정걸)",
+    "settingText": "임진왜란 직전과 발발 당시의 조선 전라도 수영 및 남해안 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KVIPY7yKj6rxhxGKZW-LI6dHLUpE014W",
+    "filename": "이순신-난중일기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.028Z",
+    "size": "531176",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1KVIPY7yKj6rxhxGKZW-LI6dHLUpE014W/view?usp=drivesdk",
+    "sourceSha256": "cf2c37c3ce7057e88f726db5a4a32eac9c616b94503663448dfce9efce3e8c75",
+    "textSha256": "7434a29af9535125d6180f69af69ba7e79f2318e8153c09a165a8118d34e75fe",
+    "changeKey": "576340106892a5c283e5afe0df6f69f8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cbc90e922a77f7cdf266",
+    "workId": "cbc90e922a77f7cdf266",
+    "driveFileId": "1KVIPY7yKj6rxhxGKZW-LI6dHLUpE014W",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:46:36.425248+00:00",
+    "updatedAt": "2026-09-21T17:46:36.425265+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:46:36.425345+00:00"
+    }
+  }
+}

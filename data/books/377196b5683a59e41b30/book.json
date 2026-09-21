@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "약이 되는 약 이야기",
+    "author": "이미영",
+    "genre": "건강/의학",
+    "tags": [
+      "약",
+      "부작용",
+      "건강상식",
+      "복용법",
+      "의약정보"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "실용서",
+        "건강"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "약사로서 일반인들이 의약품에 대한 올바른 지식을 갖도록 안내하는 저술가이다.",
+    "oneLineSummary": "약의 정의와 일생, 부작용의 비밀을 파헤치고 올바른 약 복용법을 알려주는 실용적인 의약 상식서이다.",
+    "overallSummary": "이 책은 일상생활에서 흔히 사용하는 약에 대한 잘못된 상식을 바로잡고, 약의 올바른 사용법을 알리기 위해 쓰였다. 약은 질병을 치료하는 조력자이지만 동시에 '독'이라는 전제하에, 약이 몸속에서 거치는 경로(약의 일생)와 부작용의 원인을 상세히 설명한다. 감기약, 위장약, 피부약, 항생제, 진통제 등 증상별 의약품의 특성과 올바른 복용 원칙을 제시하여 소비자가 스스로 건강을 지킬 수 있도록 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 약, 이것만은 알고 먹읍시다",
+        "summary": "약의 역사와 정의, 약이 체내에서 대사되는 과정(약의 일생), 부작용의 원인과 올바른 복용법을 다룬다."
+      },
+      {
+        "sectionTitle": "제2부 증상별 약 이야기",
+        "summary": "감기약, 위장약, 피부약, 항생제, 진통제, 영양제, 임신과 약 등 일상적 증상에 따른 약의 올바른 사용법을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 원칙",
+        "value": "모든 약은 독이다라는 인식과 주체적인 신체 건강 관리"
+      },
+      {
+        "key": "실용성",
+        "value": "민간속설과 잘못된 오남용 사례를 과학적 지식으로 교정"
+      }
+    ],
+    "keyEntitiesText": "이미영, 헉슬리, 플레밍",
+    "settingText": "자가치료와 정보 과잉의 현대 보건 의료 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JSDXTI7zzgzZylwp8Pz2OonPvoNT8wuP",
+    "filename": "이미영-약이 되는 약 이야기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:40.926Z",
+    "size": "493995",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1JSDXTI7zzgzZylwp8Pz2OonPvoNT8wuP/view?usp=drivesdk",
+    "sourceSha256": "e81adb3105c0d07ba80e50c3c50ca0cebf2aef55c2ce9573de7fa03e7451f32e",
+    "textSha256": "0cc66a6bad292ed7240bbbdfd1352643cd8756d031b2f5ecba5b808832fe107a",
+    "changeKey": "5975a8da3be59016f80e4cc13d5c2015",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "377196b5683a59e41b30",
+    "workId": "377196b5683a59e41b30",
+    "driveFileId": "1JSDXTI7zzgzZylwp8Pz2OonPvoNT8wuP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T17:45:42.565886+00:00",
+    "updatedAt": "2026-09-21T17:45:42.565903+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T17:45:42.565981+00:00"
+    }
+  }
+}
