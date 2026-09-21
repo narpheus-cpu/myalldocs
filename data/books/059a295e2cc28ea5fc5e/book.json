@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "람세스 제5권 제왕의 길",
+    "author": "크리스티앙 자크",
+    "genre": "역사 소설",
+    "tags": [
+      "람세스 대왕",
+      "우리테슈프",
+      "라이아",
+      "라메세움",
+      "이제트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "크리스티앙 자크는 파라오 람세스 2세의 생애를 5권의 대작으로 완결지은 저명한 작가이다.",
+    "oneLineSummary": "즉위 33년 차를 맞은 람세스 대왕이 사랑하는 이들을 여읜 슬픔 속에서도 제국의 평화와 라메세움을 수호하는 마지막 서사이다.",
+    "overallSummary": "이집트-히타이트 평화조약 후 석방된 히타이트 전 총사령관 우리테슈프가 시리아 상인 라이아와 음모를 꾸민다. 사랑하는 어머니 투야와 왕비 네페르타리를 잃은 람세스 대왕은 쉰 살의 나이에도 새 왕비 이제트와 함께 라메세움을 지키며 제국을 단단히 이끌어 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "세라마나 대장이 감금되어 있던 히타이트 전 총사령관 우리테슈프에게 석방을 통보하고, 우리테슈프는 시리아 상인 라이아와 만나 람세스에 대한 복수를 결의한다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "람세스 대왕이 라메세움 신전에서 새벽 제의를 올린 뒤, 사랑했던 이들의 추억을 딛고 새 왕비 이제트와 함께 각국 대사들을 접견한다."
+      },
+      {
+        "sectionTitle": "3장",
+        "summary": "개인비서 아메니가 국정 전반의 완벽함을 보고하지만, 람세스는 히타이트 대사의 지난친 아첨 뒤에 숨은 의도를 의심한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "제왕의 고독과 성숙",
+        "value": "네페르타리, 투야 등 소중한 인물들의 죽음 이후에도 파라오로서의 사명을 완수하는 통치자의 서사"
+      }
+    ],
+    "keyEntitiesText": "람세스 대왕, 세라마나, 우리테슈프, 라이아, 이제트, 아샤, 아메니",
+    "settingText": "피-람세스 별장 및 거리, 테베 라메세움(영원의 신전), 피-람세스 궁전 접견실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11qQDReIg2eszJmAcV8uOeWmX0JRpjXI-",
+    "filename": "람세스 제5권 제왕의 길.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.461Z",
+    "size": "605265",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "람세스"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/람세스",
+    "webViewLink": "https://drive.google.com/file/d/11qQDReIg2eszJmAcV8uOeWmX0JRpjXI-/view?usp=drivesdk",
+    "sourceSha256": "7ec91aa487c98200f7e6ba88c95281a77358129dd51bea8f1aaa7338963f566a",
+    "textSha256": "3a1dc487455ce3256477d8c3be678202389ee90254364ffc34e1d7e700410ad0",
+    "changeKey": "fc23f70576094a70e1c5b89385622fcf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "059a295e2cc28ea5fc5e",
+    "workId": "059a295e2cc28ea5fc5e",
+    "driveFileId": "11qQDReIg2eszJmAcV8uOeWmX0JRpjXI-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:15:18.331772+00:00",
+    "updatedAt": "2026-09-21T23:15:18.331789+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:15:18.331869+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "랭스턴 휴스 단편선",
+    "author": "랭스턴 휴스",
+    "genre": "단편 소설집",
+    "tags": [
+      "할렘 르네상스",
+      "달빛 아래의 몸뚱이들",
+      "누누마",
+      "포르토리코",
+      "눈부신 그 사람"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "poetry"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "랭스턴 휴스는 1920년대 할렘 르네상스를 이끈 대표적 흑인 문학 작가로 시, 소설, 극작 등 다양한 분야에서 민중의 삶을 그렸다.",
+    "oneLineSummary": "서아프리카 정박선 선원들의 원초적 욕망과 갈등, 아프리카 소녀 누누마를 둘러싼 비극적 혈투 등을 그린 단편집이다.",
+    "overallSummary": "<달빛 아래의 몸뚱이들>에서 서아프리카 해안에 정박한 화물선 웨스트일래너호의 18세 청년과 동료 포르토리코가 아름다운 아프리카 소녀 누누마를 동시에 사랑하게 되어 칼부림 사건을 벌인다. <눈부신 그 사람> 등 인종과 열정, 하층민의 삶을 다룬 여러 단편이 수록되어 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "달빛 아래의 몸뚱이들",
+        "summary": "서아프리카 해안 열병 지대 정박선에서 일하던 18세 청년과 동료 포르토리코가 아프리카 소녀 누누마에게 매료되어 갈등하다가 결국 포르토리코의 칼에 청년이 상처를 입는다."
+      },
+      {
+        "sectionTitle": "눈부신 그 사람",
+        "summary": "화물선에 탑승한 선교사 딸인 어린 소녀가 선원 에릭 긴트를 짝사랑하며 일기장에 적어 내려간 진솔한 유년기 감정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "이국적 정서와 욕망",
+        "value": "아프리카 해안의 달빛 풍경 속에서 펼쳐지는 젊은 선원들의 원초적 욕망과 인종적 정체성 탐구"
+      }
+    ],
+    "keyEntitiesText": "화자(18세 청년), 포르토리코, 누누마, 에릭 긴트, 선교사 딸",
+    "settingText": "서아프리카 정박 화물선 웨스트일래너호, 해안가 야자수 원주민 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11ss5-pM1aYtE9r645UeirC_pkwdYkKA-",
+    "filename": "랭스턴 휴스 단편선(현대문학 단편선)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T17:40:12.000Z",
+    "size": "714080",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/11ss5-pM1aYtE9r645UeirC_pkwdYkKA-/view?usp=drivesdk",
+    "sourceSha256": "104947e086c6e069e5f8eb9238908880a1a818096b3eb2a35df224eb040d4df3",
+    "textSha256": "9c1cfc9ae3f0c429eca5d144c1695284dd34ebad69caf2dfcc317f7bb22a170d",
+    "changeKey": "fef0e73e8f485efacf07499aacb586bb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3220eb25d37ef4244db0",
+    "workId": "3220eb25d37ef4244db0",
+    "driveFileId": "11ss5-pM1aYtE9r645UeirC_pkwdYkKA-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:15:25.163162+00:00",
+    "updatedAt": "2026-09-21T23:15:25.163180+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:15:25.163272+00:00"
+    }
+  }
+}

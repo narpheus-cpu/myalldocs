@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "람세스 제3권 카데슈 전투",
+    "author": "크리스티앙 자크",
+    "genre": "역사 소설",
+    "tags": [
+      "람세스",
+      "피-람세스",
+      "히타이트",
+      "사자마을",
+      "카데슈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "크리스티앙 자크는 고대 이집트의 거대한 전쟁과 정치를 생생하게 복원해내는 이집트학 학자 출신 소설가이다.",
+    "oneLineSummary": "히타이트 군에 의한 국경 '사자마을' 학살 사건 이후 람세스가 피-람세스를 군사 기지화하며 전쟁에 대비하는 이야기이다.",
+    "overallSummary": "시리아 국경의 '사자마을'이 히타이트 군대의 기습으로 전멸당하자 파발꾼 다니오는 공포 속에 피신한다. 스물여섯 살의 파라오 람세스는 새로운 수도 피-람세스의 무기 공장과 병영을 점검하며, 히타이트 제국과의 피할 수 없는 대전쟁(카데슈 전투)을 선포하고 결의를 다진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "파발꾼 다니오가 '사자마을'로 가던 중 비석과 스핑크스가 파괴되고 마을 주민 및 병사 전체가 히타이트 군에 참혹하게 학살당한 현장을 목격한다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "새 수도 피-람세스에서 람세스 대왕이 무기 공장을 시찰하여 전차와 청동 무기 제조를 점검하고 병사들에게 국가 수호의 당위성을 강조한다."
+      },
+      {
+        "sectionTitle": "3장",
+        "summary": "람세스가 대접견실에서 신하들과 백성들에게 사자마을의 학살 소식을 알리며 국가 비상사태와 전투 대비를 선언한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "국가적 위기와 결전",
+        "value": "히타이트의 도발과 잔혹한 학살에 맞서 국가 제국 수호를 위해 대규모 군사력을 집중시키는 과정"
+      }
+    ],
+    "keyEntitiesText": "다니오, 람세스, 무와탈리스, 네페르타리, 셰나르, 아샤, 모세",
+    "settingText": "시리아 남부 국경 사자마을, 이집트 수도 피-람세스 무기 공장 및 궁전 대접견실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1P8TId8Rf6v8-1NXMczk3ClBPTztH3G-v",
+    "filename": "람세스 제3권 카데슈 전투.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.408Z",
+    "size": "726527",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "람세스"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/람세스",
+    "webViewLink": "https://drive.google.com/file/d/1P8TId8Rf6v8-1NXMczk3ClBPTztH3G-v/view?usp=drivesdk",
+    "sourceSha256": "3e3cb8b7c6b1b8ffa0725bcefdf1f0558a8557f7698841878a546e1dc28df6a5",
+    "textSha256": "940741b3f0a67de45e52fb2b3a7cdd31b78884a3b5335b516bbce2c06737fcba",
+    "changeKey": "2a36801b5526bb635c2931c54e128b63",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "243cc9eb255459bbf83b",
+    "workId": "243cc9eb255459bbf83b",
+    "driveFileId": "1P8TId8Rf6v8-1NXMczk3ClBPTztH3G-v",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:15:06.254317+00:00",
+    "updatedAt": "2026-09-21T23:15:06.254335+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:15:06.254454+00:00"
+    }
+  }
+}

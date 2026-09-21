@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스웨덴 기사",
+    "author": "레오 페루츠",
+    "genre": "환상/역사 소설",
+    "tags": [
+      "스웨덴 기사",
+      "크리스티안 폰 토르네펠트",
+      "도둑",
+      "신분 교체",
+      "폴타바 전투"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "레오 페루츠는 역사적 모험과 환상적 복선을 유기적으로 결합하여 독창적인 운명극을 구사하는 독일어권 문학의 거장이다.",
+    "oneLineSummary": "18세기 초 탈영한 스웨덴 귀족과 떠돌이 도둑이 눈길을 동행하며 신분이 뒤바뀌어 가는 운명적 서사이다.",
+    "overallSummary": "마리아 크리스티네의 회고록을 통해 '스웨덴 기사'라 불린 크리스티안 폰 토르네펠트의 실종과 폴타바 전투의 전사 소식이 전해진다. 1701년 겨울 교수형을 피한 도둑과 탈영 귀족 토르네펠트가 굶주림과 추위 속에 눈 덮인 슐레지엔 길을 걸으며 신분과 운명이 뒤얽히는 이야기가 시작된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "마리아 크리스티네 폰 블로메의 유고를 바탕으로, 스웨덴 군에 입대하여 폴타바 전투에서 전사했다는 아버지 '스웨덴 기사'가 어릴 적 한밤중에 자신을 찾아오곤 했던 기이한 기억을 소개한다."
+      },
+      {
+        "sectionTitle": "1장 도둑",
+        "summary": "1701년 한겨울, 교수형을 피한 떠돌이 도둑과 탈영한 스웨덴 귀족 청년 크리스티안 폰 토르네펠트가 추위와 굶주림 속에서 눈 덮인 슐레지엔 들판을 함께 걸어간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "운명과 신분 교체",
+        "value": "대북방 전쟁 시기를 배경으로 한 귀족과 도둑의 신분 교체 및 운명의 절묘한 교차"
+      }
+    ],
+    "keyEntitiesText": "스웨덴 기사(크리스티안 폰 토르네펠트), 마리아 크리스티네 폰 블로메, 도둑, 칼 12세",
+    "settingText": "18세기 초 슐레지엔 및 폴란드 지역, 눈 덮인 숲과 농장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GwwuLgTohoxhEpztSN4hynqTAF2pDhEe",
+    "filename": "레오 페루츠-스웨덴 기사  열린책들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.537Z",
+    "size": "535212",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1GwwuLgTohoxhEpztSN4hynqTAF2pDhEe/view?usp=drivesdk",
+    "sourceSha256": "309719a871061b2f3dc10de7f7806ebd6e80421df11ff27e7249f80f55f606e1",
+    "textSha256": "1535a3019029b129c3b692e2b7646ce3f724309ef034ea34771fdf18a3234eb4",
+    "changeKey": "5ca6a19e7fb7f88b4bd3466d0da0c31b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3076b31ebab8be85aede",
+    "workId": "3076b31ebab8be85aede",
+    "driveFileId": "1GwwuLgTohoxhEpztSN4hynqTAF2pDhEe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:15:45.231898+00:00",
+    "updatedAt": "2026-09-21T23:15:45.231915+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:15:45.231993+00:00"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑할 때와 죽을 때",
+    "author": "레마르크",
+    "genre": "전쟁 소설",
+    "tags": [
+      "제2차 세계대전",
+      "독소전쟁",
+      "그레버",
+      "라이케",
+      "슈타인브레너",
+      "소련 전선"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "에리히 마리아 레마르크는 <서부 전선 이상 없다>, <개선문> 등을 통해 전쟁의 참상과 인간 존엄성을 고발한 세계적 작가이다.",
+    "oneLineSummary": "제2차 세계대전 혹한의 소련 전선에서 독일군 병사 그레버가 겪는 참혹한 전쟁의 실상과 죽음을 그린 소설이다.",
+    "overallSummary": "소련 대평원의 해빙기 속에서 눈이 녹아내리며 12월과 1월 전투에서 사살된 전사자들의 시체가 드러난다. 독일군 병사 그레버와 전우들은 라이케 소위의 시신을 발굴해 매장하고, 소련군 포로들을 동원해 무덤을 파게 하는 등 참혹한 전쟁 전선의 비극과 비인간성을 목격한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "소련 전선에서 해빙과 함께 시체들이 나타나고, 그레버와 전우들이 라이케 소위의 시신을 발굴해 매장하는 한편 소련군 포로 노인에게 무덤을 파게 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "반전 의식",
+        "value": "눈속에서 부패해 드러나는 시체들과 포로 학대 등 제2차 세계대전 독소전쟁 전선의 비참함과 나치 의식에 대한 비판"
+      }
+    ],
+    "keyEntitiesText": "그레버, 슈타인브레너, 뮤케 특무상사, 라에 중위, 임메르만, 라이케 소위, 소련군 포로 노인",
+    "settingText": "제2차 세계대전 당시 소련 대평원 파괴된 마을 및 교회 근처 전선"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Z9MqmWlLj6BFs4OyNJTRcnBsXTY-jtOB",
+    "filename": "레마르크-사랑할 때와 죽을 때(전쟁소설).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.487Z",
+    "size": "483560",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Z9MqmWlLj6BFs4OyNJTRcnBsXTY-jtOB/view?usp=drivesdk",
+    "sourceSha256": "e1d50e40892e3c933ad3486425d0fed1e6aa2ac461537f2f9a1607a6fa2f3311",
+    "textSha256": "22d48df44b62ebfd311f01936e211b0407489b53e59248bd2be2fe74e61fa435",
+    "changeKey": "5129e73897b27065a8741dd2877d68dd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c593bfad1fdf4254f9f3",
+    "workId": "c593bfad1fdf4254f9f3",
+    "driveFileId": "1Z9MqmWlLj6BFs4OyNJTRcnBsXTY-jtOB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:15:30.956917+00:00",
+    "updatedAt": "2026-09-21T23:15:30.956937+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:15:30.957024+00:00"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영원의 시간에 서서",
+    "author": "라게를뢰프",
+    "genre": "고전 소설",
+    "tags": [
+      "잉그마르손",
+      "잉그마르",
+      "브리타",
+      "베리스코그",
+      "신앙"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "셀마 라게를뢰프는 스웨덴 민속과 신앙적 고찰을 바탕으로 노벨 문학상을 수상한 세계적인 소설가이다.",
+    "oneLineSummary": "농부 잉그마르가 비극적인 과거와 도덕적 결단 사이에서 조상들의 가르침을 따라 진정한 삶을 찾아가는 이야기이다.",
+    "overallSummary": "잉그마르손 농장의 젊은 농부 잉그마르는 약혼녀 브리타가 결혼 미루기에 반발해 영아를 살해하고 3년 형을 받은 비극으로 괴로워한다. 밭을 갈며 조상 및 아버지와의 상상 대화를 통해 신앙과 정직의 도리를 깨달은 그는 출감할 브리타를 거두고 집을 페인트칠하기로 결심한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 선조의 도움 - 잉그마르손 집안",
+        "summary": "잉그마르가 밭을 갈며 돌아가신 아버지와 가문의 조상들을 떠올려 고백을 나누고, 브리타의 형무소 출감 후 그녀를 책임지기로 마음먹은 뒤 지나가던 칠쟁이 노인을 만나 집을 빨간 페인트로 칠하기로 결심한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "도덕적 신앙관",
+        "value": "하나님 앞에서의 떳떳함, 인간적 죄책감의 극복과 책임을 다하려는 전통 농부 가문의 윤리의식"
+      }
+    ],
+    "keyEntitiesText": "잉그마르 잉그마르손, 위대한 잉그마르(아버지), 브리타, 마르타(어머니), 베리스코그 상원의원",
+    "settingText": "스웨덴 농촌 마을의 잉그마르 농장 및 밭"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qDML784OKHEKthhmzXGj_hmVkzjoMXcl",
+    "filename": "라게를뢰프-영원의 시간에 서서.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.329Z",
+    "size": "363891",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1qDML784OKHEKthhmzXGj_hmVkzjoMXcl/view?usp=drivesdk",
+    "sourceSha256": "fb5f56e311aed92ece15b0c27f52ee2c383d8ef287199d2abaeac93cacb08c0e",
+    "textSha256": "a0d1aaf9596f8a2be6628d436d16d710a59af97e055b8db2703d2be809415866",
+    "changeKey": "ac957d8e2aa4ff8892006dc8647cc88b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7c0d3ee3669cfa95d77a",
+    "workId": "7c0d3ee3669cfa95d77a",
+    "driveFileId": "1qDML784OKHEKthhmzXGj_hmVkzjoMXcl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:14:46.242168+00:00",
+    "updatedAt": "2026-09-21T23:14:46.242187+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:14:46.242270+00:00"
+    }
+  }
+}

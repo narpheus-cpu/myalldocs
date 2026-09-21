@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "올림포스",
+    "author": "댄 시먼스",
+    "genre": "SF/전쟁 소설",
+    "tags": [
+      "트로이 전쟁",
+      "헬렌",
+      "메넬라오스",
+      "아킬레스",
+      "파리스 장례식"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "댄 시먼스는 고전 문학과 SF를 유기적으로 결합하여 독창적인 장르적 스케일을 선보이는 작가이다.",
+    "oneLineSummary": "파리스의 죽음 이후 트로이와 아카이아, 신들과 모라벡이 교차하는 트로이 전쟁의 비극적 현장을 다룬 SF 소설이다.",
+    "overallSummary": "파리스 왕자가 아폴로와의 일대일 결투에서 사망한 뒤 트로이의 헬렌은 슬픔에 잠기고, 아카이아의 영웅 메넬라오스는 파리스의 화장 장례식에 참석하여 헬렌을 살해할 기회를 노린다. 아킬레스와 아가멤논, 헥토르 등이 얽힌 복잡한 증오와 신들에 맞선 전장이 서사시적으로 펼쳐진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "하나",
+        "summary": "파리스가 죽은 뒤 헬렌이 공습경보와 함께 깨어나 파리스의 장례식을 준비하며 신들과 기계 존재 모라벡이 뒤엉킨 도시의 연기를 바라본다."
+      },
+      {
+        "sectionTitle": "둘",
+        "summary": "메넬라오스가 파리스 장례식장에 참석하여 정면 전망대의 헬렌을 암살하려는 분노를 되새기며, 과거 아킬레스에게 제압당했던 굴욕과 아가멤논과의 관계를 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르 재해석",
+        "value": "호머의 일리아드를 양자 변위, 모라벡 기계인간, 올림포스의 신들이라는 SF 기술적 요소로 재구성함"
+      }
+    ],
+    "keyEntitiesText": "헬렌, 파리스, 메넬라오스, 아킬레스, 아가멤논, 헥토르, 호켄베리, 모라벡",
+    "settingText": "고대 트로이(일리움) 중앙 광장, 제우스 사원 전망대, 신들의 전차가 오가는 하늘"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12y5E-QdpBH507P8jHa-pHVIkvXLr8NPw",
+    "filename": "댄 시먼스-올림포스(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.180Z",
+    "size": "1573372",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/12y5E-QdpBH507P8jHa-pHVIkvXLr8NPw/view?usp=drivesdk",
+    "sourceSha256": "f95ed82e56cd3ee1e126b8d28f3101a094e298d1acccc04cc8a303ce23c0e3e8",
+    "textSha256": "93a221b2586a8ad090254a950b1dda0ead72f104224b95a9ed308870e2b747c8",
+    "changeKey": "49582ee54b80ab8fcb6f429a5198019e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dc7635166c0536341ef5",
+    "workId": "dc7635166c0536341ef5",
+    "driveFileId": "12y5E-QdpBH507P8jHa-pHVIkvXLr8NPw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:14:08.783528+00:00",
+    "updatedAt": "2026-09-21T23:14:08.783544+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:14:08.783623+00:00"
+    }
+  }
+}

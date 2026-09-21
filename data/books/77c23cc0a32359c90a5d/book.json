@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "람세스 제2권 영원의 신전",
+    "author": "크리스티앙 자크",
+    "genre": "역사 소설",
+    "tags": [
+      "람세스 2세",
+      "세티 1세 승하",
+      "네페르타리",
+      "셰나르",
+      "메넬라오스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "크리스티앙 자크는 고대 이집트를 유기적 서사로 재현해 전 세계 독자들을 사로잡은 프랑스의 역사 소설가이다.",
+    "oneLineSummary": "세티 1세 승하 후 사막에서 사자와 재회한 스물세 살 람세스가 파라오로서의 운명을 받아들이고 권력 음모에 맞선다.",
+    "overallSummary": "세티 1세의 죽음으로 파라오의 짐을 지게 된 스물세 살 람세스는 사막에서 거대한 사자 '학살자'와 교감하며 왕으로서의 길을 결의한다. 형 셰나르와 그리스의 메넬라오스가 왕위를 노리고 음모를 꾸미는 가운데, 람세스는 아내 네페르타리와 어머니 투야의 지지 속에 이집트를 수호하고자 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "세티 1세 사후 고독과 중책에 괴로워하던 스물세 살 람세스가 사막에서 자신이 구해줬던 사자 '학살자'와 마주쳐 우정을 확인하고 파라오의 길을 받아들인다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "국상 기간 중 투야 왕비와 네페르타리가 정국을 논하고, 친구 모세가 람세스를 찾아와 형 셰나르의 권력 야욕과 위협을 경고한다."
+      },
+      {
+        "sectionTitle": "3장",
+        "summary": "외무대신 메바의 저택에서 셰나르가 트로이 전쟁의 영웅 메넬라오스와 결탁하여 람세스를 몰아내고 권력을 잡을 음모를 구상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정치적 암투",
+        "value": "세티 1세 사후 왕위 승계를 둘러싼 람세스 수호 세력 대 셰나르 및 외세(메넬라오스) 결탁 음모 간의 대립"
+      }
+    ],
+    "keyEntitiesText": "람세스, 네페르타리, 투야 왕비, 모세, 셰나르, 메넬라오스, 메바, 세라마나",
+    "settingText": "고대 이집트 멤피스 궁전, 사막, 외무대신 메바의 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Rj3XeYYa3z35duF8cPyOSK2ES1b5xFHo",
+    "filename": "람세스 제2권 영원의 신전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.382Z",
+    "size": "737965",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "람세스"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/람세스",
+    "webViewLink": "https://drive.google.com/file/d/1Rj3XeYYa3z35duF8cPyOSK2ES1b5xFHo/view?usp=drivesdk",
+    "sourceSha256": "75d178d07827692fcbbeb286b3a39da3ae37c7c3ea346645f1899513e61dbc36",
+    "textSha256": "d3d65e507ac2eda2b21e5fcbc81355dbcba8e498235421088195aa24fd5909d4",
+    "changeKey": "b0693d249fc5df53df2a1a4b740b6ca4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "77c23cc0a32359c90a5d",
+    "workId": "77c23cc0a32359c90a5d",
+    "driveFileId": "1Rj3XeYYa3z35duF8cPyOSK2ES1b5xFHo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:15:00.750503+00:00",
+    "updatedAt": "2026-09-21T23:15:00.750522+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:15:00.750610+00:00"
+    }
+  }
+}

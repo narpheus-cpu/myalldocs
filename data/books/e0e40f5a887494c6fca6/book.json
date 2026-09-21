@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일리움",
+    "author": "댄 시먼스",
+    "genre": "SF/신화 소설",
+    "tags": [
+      "호켄베리",
+      "일리움",
+      "아킬레스",
+      "아가멤논",
+      "데이먼",
+      "에이다"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "댄 시먼스는 <해페리온>, <일리움> 등으로 문학성을 인정받은 SF 소설가이다.",
+    "oneLineSummary": "트로이 전쟁 현장에 관찰자로 부활한 학자 호켄베리와 지구 후기 인류 인물들의 삶이 대치되는 SF 서사이다.",
+    "overallSummary": "재탄생한 학자 토머스 호켄베리 박사는 신들과 뮤즈의 노예가 되어 트로이 전쟁을 직접 관찰하고 보고하는 관찰자(스콜릭) 역할을 수행한다. 한편 미래 지구의 후기 인류 데이먼은 팩스 기술을 이용해 아르디스 홀의 사촌 에이다를 찾아가며 인류의 비극과 고대 신화가 교차한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "호켄베리 박사가 부활 후 9년 간 신들의 노예로 트로이 전쟁을 관찰해온 환멸감을 털어놓으며 일리움 평원의 아가멤논 막사로 향한다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "후기 인류 데이먼 우어가 팩스를 이용해 아르디스 홀에 도착하고, 사촌 에이다와의 옛 기억을 떠올리며 저택으로 들어선다."
+      },
+      {
+        "sectionTitle": "3장",
+        "summary": "비아스로 변신한 호켄베리가 사제 크리세의 딸 문제로 예언자 칼카스의 폭로와 아가멤논, 아킬레스의 격렬한 언쟁 현장을 지켜본다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "다층적 서사 구조",
+        "value": "고대 서사시 <일리아드>의 역사적 사건과 미래 후기 인류의 나태한 삶을 수평적으로 대조하는 서사"
+      }
+    ],
+    "keyEntitiesText": "토머스 호켄베리, 아킬레스, 아가멤논, 데이먼 우어, 에이다, 칼카스",
+    "settingText": "일리움 평원 그리스군 야영지, 지구 아르디스 언덕 및 아르디스 홀"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GCxVMLwo5DVzVLZdbfp54cV30kCS83vE",
+    "filename": "댄 시먼스-일리움(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.228Z",
+    "size": "1285035",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1GCxVMLwo5DVzVLZdbfp54cV30kCS83vE/view?usp=drivesdk",
+    "sourceSha256": "10b72d6c7f31c57c8034a71c61c6ebcc2708ff23e85d8333e851edaab251ab6a",
+    "textSha256": "fc7ae637de90c333bf01aabfb09fe6b2db4b07ee34637572e7f3f253d3707671",
+    "changeKey": "ecd099fb692d65e1f2ee4960dcef04b6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e0e40f5a887494c6fca6",
+    "workId": "e0e40f5a887494c6fca6",
+    "driveFileId": "1GCxVMLwo5DVzVLZdbfp54cV30kCS83vE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:14:14.827619+00:00",
+    "updatedAt": "2026-09-21T23:14:14.827638+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:14:14.827732+00:00"
+    }
+  }
+}

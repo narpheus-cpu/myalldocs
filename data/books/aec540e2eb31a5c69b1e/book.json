@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "람세스 제1권 빛의 아들",
+    "author": "크리스티앙 자크",
+    "genre": "역사 소설",
+    "tags": [
+      "람세스",
+      "세티 1세",
+      "야생 황소",
+      "파라오",
+      "이집트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "크리스티앙 자크는 고대 이집트 역사에 대한 해박한 지식과 통찰을 바탕으로 <람세스> 연작을 집필한 이집트학 학자이자 소설가이다.",
+    "oneLineSummary": "부왕 세티 1세의 엄격한 가르침 속에서 야생 황소와 맞서는 시련을 거치며 젊은 람세스가 파라오로 성숙해가는 과정을 다룬다.",
+    "overallSummary": "열네 살의 람세스 왕자는 부왕 세티 1세에 의해 들판으로 이끌려 거대한 야생 황소와 맨몸으로 대면하는 사투를 벌인다. 공포를 극복하는 법을 배운 람세스는 어린 시절의 머릿단을 잘라내고 파라오의 후계자가 되기 위한 혹독한 교육과 시련의 길로 들어선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "이집트를 67년간 다스린 최고 권력자 람세스 2세의 거대한 삶과 소설적 재현의 의미를 소개한다."
+      },
+      {
+        "sectionTitle": "1장",
+        "summary": "세티 1세가 열네 살 람세스를 야생 황소의 영역으로 데려가 공포와 싸우게 하고, 람세스가 미끄러져 위기를 맞자 직접 황소를 제압한 뒤 왕자의 머릿단을 잘라 성년을 선포한다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "개인교사 사리가 사라진 람세스를 찾아다니다가 마침내 만난 왕자의 부쩍 성숙해지고 위엄 넘치는 모습에 놀란다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "통치자 입문식",
+        "value": "야생 동물(황소)과의 목숨을 건 맞대결을 통해 공포를 제압하고 왕재로서의 기상을 입증받는 통과의례"
+      }
+    ],
+    "keyEntitiesText": "람세스, 세티 1세, 사리, 투야 왕비, 셰나르",
+    "settingText": "고대 이집트 나일강 가 갈대밭 늪지대, 왕궁 마구간 및 공부방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WiW2vr5Kclgpynhu0zEShRvWc72wM25B",
+    "filename": "람세스 제1권 빛의 아들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.353Z",
+    "size": "800733",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "람세스"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/람세스",
+    "webViewLink": "https://drive.google.com/file/d/1WiW2vr5Kclgpynhu0zEShRvWc72wM25B/view?usp=drivesdk",
+    "sourceSha256": "94d889a7694fdb981c15de4fe8604ce16b52c3a66ce451344c4c649f789098ce",
+    "textSha256": "d543fc90e6f071cc0e3f70c7c49e96d5e0cb691626ad06727097884f125498e0",
+    "changeKey": "a50861ee9cc30c1469f689d74faf019b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aec540e2eb31a5c69b1e",
+    "workId": "aec540e2eb31a5c69b1e",
+    "driveFileId": "1WiW2vr5Kclgpynhu0zEShRvWc72wM25B",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:14:52.881681+00:00",
+    "updatedAt": "2026-09-21T23:14:52.881697+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:14:52.881770+00:00"
+    }
+  }
+}

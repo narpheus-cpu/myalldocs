@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "가재가 노래하는 곳",
+    "author": "델리아 오언스",
+    "genre": "현대 소설/성장 소설",
+    "tags": [
+      "카야",
+      "습지",
+      "조디",
+      "체이스 앤드루스",
+      "고립"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "델리아 오언스는 야생동물학자 출신의 작가로, 노스캐롤라이나 습지를 배경으로 한 데뷔 소설 <가재가 노래하는 곳>으로 세계적인 호평을 받았다.",
+    "oneLineSummary": "노스캐롤라이나 습지에 홀로 남겨진 소녀 카야의 고독한 성장과 습지에서 발생한 의문사를 교차시킨 소설이다.",
+    "overallSummary": "1952년 엄마가 파란 가방을 들고 떠난 뒤 가족들이 하나둘 떠나고 홀로 판잣집에 남겨진 여섯 살 소녀 카야는 자연 속에서 생존법을 익힌다. 오빠 조디와의 추억과 습지 생명체들을 벗 삼아 자란 카야의 서사와, 1969년 체이스 앤드루스의 시체가 습지 늪에서 발견되는 의문사 사건이 교차 전개된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 (1969년)",
+        "summary": "1969년 습지 늪에서 체이스 앤드루스의 시체가 발견되고 마을 소년들이 그의 청재킷을 찾아낸다."
+      },
+      {
+        "sectionTitle": "1장 엄마 (1952년)",
+        "summary": "여섯 살 카야가 엄마가 외출용 악어가죽 구두를 신고 여행 가방을 든 채 길을 따라 떠나는 마지막 모습을 바라보며 슬픔을 느낀다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "자연주의적 테마",
+        "value": "생태학적 관찰력으로 묘사된 습지의 리듬과 고립된 인간의 원초적 생존 본능"
+      }
+    ],
+    "keyEntitiesText": "카야(캐서린 다니엘 클라크), 엄마, 조디, 체이스 앤드루스, 아버지",
+    "settingText": "1950~1960년대 노스캐롤라이나주 아우터뱅크스 해안 습지대 판잣집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14b585kFvL4Wp92RfYZyoDv4XWnSwa_qo",
+    "filename": "델리아 오언스-가재가 노래하는 곳(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T15:41:56.000Z",
+    "size": "767610",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/14b585kFvL4Wp92RfYZyoDv4XWnSwa_qo/view?usp=drivesdk",
+    "sourceSha256": "938670c660962830b817e99a301cede2d749eae6a1988042b3d983e76a59129f",
+    "textSha256": "cf58931507ee9c402f09107ef504e6ee032d61189aed549f0b771d5ea7cd6906",
+    "changeKey": "cfdbf8d6f8050fa2a4806a7a1bc1e52a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "107e23d27648ec82323a",
+    "workId": "107e23d27648ec82323a",
+    "driveFileId": "14b585kFvL4Wp92RfYZyoDv4XWnSwa_qo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:14:39.690526+00:00",
+    "updatedAt": "2026-09-21T23:14:39.690545+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:14:39.690631+00:00"
+    }
+  }
+}

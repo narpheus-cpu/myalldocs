@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 오늘 한 남자를 만났다",
+    "author": "레베카 라이먼",
+    "genre": "로맨스/역사 소설",
+    "tags": [
+      "인도",
+      "올리비아",
+      "자이 라벤던",
+      "브리짓트 이모",
+      "에스텔",
+      "캘커타"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "레베카 라이먼은 인도를 배경으로 신분과 운명을 뛰어넘는 강렬한 로맨스를 그려내 독서계를 사로잡은 여성 작가이다.",
+    "oneLineSummary": "19세기 영국 지배 하의 인도 캘커타를 무대로 미국 출신 올리비아와 혼혈 청년 자이 라벤던의 운명적 사랑이 시작된다.",
+    "overallSummary": "미국 태생의 젊은 여성 올리비아는 캘커타의 이모 브리짓트 템플우드 부인 집에서 지내며 영국 식민지 귀족 사회의 엄격한 규범에 답답함을 느낀다. 올리비아가 승마 중 도랑에 떨어지는 낙마 사고를 겪고 이모와 갈등하는 가운데, 혼혈 청년 자이 라벤던과의 비극적이고 아름다운 운명적 만남이 예고된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "역자 서문",
+        "summary": "소설의 원제(Olivia and Jai)와 1800년대 후반 인도를 무대로 한 올리비아와 혼혈 청년 자이 라벤던의 비극적 사랑 이야기 및 작품적 가치를 소개한다."
+      },
+      {
+        "sectionTitle": "1장 어둠속의 운명",
+        "summary": "캘커타의 무더위 속에서 올리비아가 말을 타다 도랑에 떨어지는 사고를 겪고 이모 브리짓트 부인과 갈등하며, 식민지 귀족 가문의 엄격함과 올리비아의 자유분방한 의지가 대립한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "신분 및 문화적 갈등",
+        "value": "영국 식민지 귀족 사회의 배타적 규범과 자유로운 미개척 정신을 지닌 여성 간의 대립, 이국적 인도 환경"
+      }
+    ],
+    "keyEntitiesText": "올리비아, 자이 라벤던, 브리짓트 템플우드 부인, 에스텔, 죠수아 경, 프레디 버커스트",
+    "settingText": "19세기 후반 영국 지배 하의 인도 캘커타, 템플우드 가의 방갈로 및 정원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uFy2GQPCndqT4qo8nQPI3RW2XsoqWZrY",
+    "filename": "레베카 라이먼-나는 오늘 한 남자를 만났다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.509Z",
+    "size": "727357",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1uFy2GQPCndqT4qo8nQPI3RW2XsoqWZrY/view?usp=drivesdk",
+    "sourceSha256": "67f35fc0d8ba597ba73dfa215d199e5fb9f0f1c8de0183a9557d6ef720969a94",
+    "textSha256": "4de0bb9bc9cc40e3b498e3f1c6e3dc81fa4d92563eb822a0cb9536d79cf1dd63",
+    "changeKey": "0aae89fcfb02423fbcc1f9e04570bbcc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3d70fa561302e874cc02",
+    "workId": "3d70fa561302e874cc02",
+    "driveFileId": "1uFy2GQPCndqT4qo8nQPI3RW2XsoqWZrY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:15:39.239195+00:00",
+    "updatedAt": "2026-09-21T23:15:39.239213+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:15:39.239294+00:00"
+    }
+  }
+}

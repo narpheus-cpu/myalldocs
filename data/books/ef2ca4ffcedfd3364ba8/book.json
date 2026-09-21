@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "빅 픽처",
+    "author": "더글라스 케네디",
+    "genre": "현대 소설/스릴러",
+    "tags": [
+      "벤저민 브래드포드",
+      "베스",
+      "사진가",
+      "뉴크로이든",
+      "갈등"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "더글라스 케네디는 인간의 내면적 욕망과 좌절을 예리하게 파헤치는 미국의 베스트셀러 소설가이다.",
+    "oneLineSummary": "성공한 변호사이지만 사진가의 꿈을 접은 벤저민이 부부간의 냉전과 무기력한 일상 속에서 직면한 분노와 갈등을 그린다.",
+    "overallSummary": "변호사인 벤저민 브래드포드는 수면 장애가 있는 아기 조시와 차갑게 식어버린 아내 베스와의 관계 속에서 좌절감을 느낀다. 그는 사진에 대한 오랜 열정과 수만 달러 상당의 카메라 장비가 보관된 지하실 암실을 유일한 피난처로 삼으며 격렬한 운동으로 내면의 분노를 삭인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "새벽 조시의 울음으로 시작된 하루 동안 벤저민은 과거 연인이었던 기자의 보도를 보며 씁쓸해하고, 아내 베스와의 냉전, 지하실 암실 및 카메라 수집에 대한 집착을 보여준다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "뉴크로이든에서 통근 열차를 타고 그랜드센트럴 역으로 출근하며, 변호사 유니폼을 입은 자신의 삶과 아버지에 대한 반목을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 갈등",
+        "value": "겉으로는 완벽한 중산층 변호사의 삶과 내면의 사진가적 욕망 및 가족 불화 간의 극심한 갭"
+      }
+    ],
+    "keyEntitiesText": "벤저민(벤) 브래드포드, 베스, 애덤, 조시, 케이트 브라이머, 잭 메일",
+    "settingText": "뉴욕 근교 뉴크로이든 컨스티튜션크레센트의 주택, 지하실 암실, 출근 통근 열차"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kw73ZUus2R1hATzFi_BrIu-GYFymbiAu",
+    "filename": "더글라스 케네디-빅픽처-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T11:54:10.000Z",
+    "size": "753571",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1kw73ZUus2R1hATzFi_BrIu-GYFymbiAu/view?usp=drivesdk",
+    "sourceSha256": "8e0aea175759895c66f785c6e65ac4e33ba2060daed9d07035a77271d4de9f57",
+    "textSha256": "31cf141955a3e2984b1fc3f12f8184dfe434c512d0d2db71a41a6d33b670684e",
+    "changeKey": "1c89715dde86d8c7627669f9eb5f43be",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ef2ca4ffcedfd3364ba8",
+    "workId": "ef2ca4ffcedfd3364ba8",
+    "driveFileId": "1kw73ZUus2R1hATzFi_BrIu-GYFymbiAu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:14:21.434874+00:00",
+    "updatedAt": "2026-09-21T23:14:21.434891+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:14:21.434976+00:00"
+    }
+  }
+}

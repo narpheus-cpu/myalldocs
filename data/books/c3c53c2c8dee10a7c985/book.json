@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도인 1권",
+    "author": "덩 밍다오",
+    "genre": "소설/구도 소설",
+    "tags": [
+      "관 사이훙",
+      "타이산",
+      "도교",
+      "자운궁",
+      "북두무"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "덩 밍다오는 동양의 도교 사상과 구도자의 삶을 현대적 소설 기법으로 소개해 온 작가이다.",
+    "oneLineSummary": "무사 가문의 소년 관 사이훙이 가족과 함께 타이산 순례를 떠나 도교의 신비로운 의식과 만나는 구도 이야기이다.",
+    "overallSummary": "1929년, 산시성의 부유한 무사 가문 출신 호기심 많은 소년 관 사이훙이 할아버지, 할머니, 고모와 함께 타이산 자운궁 축제에 참가한다. 사이훙은 축제 마당의 다양한 구경거리와 먹거리에 매료되는 한편, 북두무 의식과 신전의 옥황상제 참배를 통해 도교적 신비 세계에 입문하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 타이산의 축제",
+        "summary": "1929년 관 사이훙이 가문 식구들과 타이산 7천 돌계단을 올라 자운궁 축제에 도착하고, 사찰 마당에서 마술사, 장사들의 공연과 음식에 열중한다."
+      },
+      {
+        "sectionTitle": "2. 우연한 만남",
+        "summary": "우주와 인간을 합치시키는 신성한 북두무 의식 중 원 안에 뛰어들어 장난치다 고모에게 제지당한 사이훙이 내실로 들어가 옥황상제와 황후, 벽운공주 상에 참배한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문화적 상징성",
+        "value": "북두칠성의 성주들을 부르는 북두무, 음양 기호와 5원소 공물 등 도교 신앙의 의식 묘사"
+      }
+    ],
+    "keyEntitiesText": "관 사이훙, 관 주인(할아버지), 마 쓰싱(할머니), 관 메이홍(고모), 주지스님, 옥황상제",
+    "settingText": "1929년 중국 산둥성 타이산, 자운궁 도관"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XshOzkmF5OUcm3YeeRMWyXoWjfzGNXf5",
+    "filename": "덩 밍다오-도인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.264Z",
+    "size": "745086",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1XshOzkmF5OUcm3YeeRMWyXoWjfzGNXf5/view?usp=drivesdk",
+    "sourceSha256": "cd524852d4a0ddc024f2ca03fa608a5f8c0e2b872786c10ae2c4f7e8b11f588a",
+    "textSha256": "6f0d796d03d4a0606fda7f0694f5057953d3132598238cdbeeebec0bfc0cbc88",
+    "changeKey": "1a5e4dc4aa92075de9157f0888966203",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c3c53c2c8dee10a7c985",
+    "workId": "c3c53c2c8dee10a7c985",
+    "driveFileId": "1XshOzkmF5OUcm3YeeRMWyXoWjfzGNXf5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:14:27.515272+00:00",
+    "updatedAt": "2026-09-21T23:14:27.515291+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.508,
+      "updatedAt": "2026-09-21T23:14:27.515420+00:00"
+    }
+  }
+}

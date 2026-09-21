@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "다 빈치 코드",
+    "author": "댄 브라운",
+    "genre": "추리/미스터리 소설",
+    "tags": [
+      "루브르 박물관",
+      "시온 수도회",
+      "로버트 랭던",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "댄 브라운은 <천사와 악마>, <다 빈치 코드> 등으로 전 세계적인 신드롬을 일으킨 미국의 스릴러 소설 작가이다.",
+    "oneLineSummary": "루브르 박물관장의 암살 사건으로 시작되어 예술작품 속에 숨겨진 고대의 암호와 비밀을 파헤쳐 나가는 미스터리 소설이다.",
+    "overallSummary": "루브르 박물관의 자크 소니에르 관장이 의문의 살인마에게 총상을 입고 죽어가면서 암호를 남긴다. 하버드대 기호학 교수 로버트 랭던은 사건 당일 소니에르를 만나기로 했던 인연으로 사법경찰국의 수사 협조 요청을 받게 되고, 소니에르가 남긴 기묘한 기호와 암호를 풀며 역사 속에 숨겨진 거대한 비밀 단체의 진실에 접근한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "루브르 박물관장 자크 소니에르가 거대한 체구의 백피증 괴한에게 총상을 입고, 지식의 사슬을 지키기 위해 죽기 직전 자신만의 암호를 남긴다."
+      },
+      {
+        "sectionTitle": "1장",
+        "summary": "파리 리츠 호텔에서 자고 있던 로버트 랭던 교수가 프랑스 사법경찰국 제롬 콜레 부관의 방문을 받고, 소니에르 관장의 살해 현장 폴라로이드 사진을 확인한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 모티프",
+        "value": "레오나르도 다 빈치의 작품에 숨겨진 종교 기호와 암호문 해석"
+      }
+    ],
+    "keyEntitiesText": "로버트 랭던, 자크 소니에르, 제롬 콜레 부관, 시온 수도회, 오푸스 데이, 루브르 박물관",
+    "settingText": "프랑스 파리 루브르 박물관 및 리츠 파리 호텔, 2000년대 초반"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1a0LFmrzoxMGYC9Olv8N2XQF2kBV6G1j9",
+    "filename": "댄 브라운-다 빈치 코드 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:11.090Z",
+    "size": "1115171",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1a0LFmrzoxMGYC9Olv8N2XQF2kBV6G1j9/view?usp=drivesdk",
+    "sourceSha256": "19e3f98662ae49b988de17581550be1511f49e34d3ff8a9c4dddee5dd6970cd3",
+    "textSha256": "e982d7e5b2a1ec435e00aab0d2f352dd76d28383ab8c91f597964e98962b55d7",
+    "changeKey": "7a4ea8331d7a6959e95ecf127f43fe4c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4bf4cedc061c6960623f",
+    "workId": "4bf4cedc061c6960623f",
+    "driveFileId": "1a0LFmrzoxMGYC9Olv8N2XQF2kBV6G1j9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:14:00.463459+00:00",
+    "updatedAt": "2026-09-21T23:14:00.463479+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:14:00.463654+00:00"
+    }
+  }
+}
