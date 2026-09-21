@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내가 만난 유명인",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "유명인",
+      "회고",
+      "신주쿠"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "회고록"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "저자가 과거에 우연히 마주쳤던 유명인들에 대한 회고.",
+    "overallSummary": "저자는 눈이 나빠 유명인을 잘 알아보지 못하지만, 아내의 도움이나 우연한 계기로 마주쳤던 후지 케이코, 요시유키 쥰노스케, 야마구치 마사히로 등 유명인들과의 에피소드를 담담하게 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "유명인을 못 알아보는 이유",
+        "summary": "시력이 나쁘고 주변 상황에 부주의하여 유명인을 잘 알아보지 못한다."
+      },
+      {
+        "sectionTitle": "후지 케이코",
+        "summary": "레코드 가게 아르바이트 시절 만난 후지 케이코에 대한 인상."
+      },
+      {
+        "sectionTitle": "요시유키 쥰노스케",
+        "summary": "외경스러운 존재인 요시유키 쥰노스케와의 술자리 경험."
+      },
+      {
+        "sectionTitle": "야마구치 마사히로",
+        "summary": "과거 아르바이트생이었던 야마구치 마사히로의 근황을 통해 본 유명함의 양식."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "유명함에 대한 저자의 거리감"
+      }
+    ],
+    "keyEntitiesText": "저자, 아내, 후지 케이코, 요시유키 쥰노스케, 야마구치 마사히로",
+    "settingText": "신주쿠"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RiiJxtTQht9CVtVrgfK_y_gNwZ7Baq_I",
+    "filename": "내가 만난 유명인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.958Z",
+    "size": "7573",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1RiiJxtTQht9CVtVrgfK_y_gNwZ7Baq_I/view?usp=drivesdk",
+    "sourceSha256": "b1694cd4819b454e9de5cb3c04b9e4f16ea11af97de301392e2a097622a65912",
+    "textSha256": "42eb029d91e41304919ce8a6c0892ca69fb20b6969dc7b83d7c181c866b453c1",
+    "changeKey": "e4e3d6674b00ffc158861dbebc11ac30",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "595e97f63e020e15b98f",
+    "workId": "595e97f63e020e15b98f",
+    "driveFileId": "1RiiJxtTQht9CVtVrgfK_y_gNwZ7Baq_I",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:00:44.651781+00:00",
+    "updatedAt": "2026-09-21T20:00:44.651795+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:00:44.651887+00:00"
+    }
+  }
+}

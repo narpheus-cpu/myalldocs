@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "더플 코트에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "더플 코트",
+      "유행",
+      "패션"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "오랫동안 더플 코트를 입어온 저자의 패션과 유행에 대한 단상.",
+    "overallSummary": "저자는 13년 동안 같은 더플 코트를 입어왔는데, 최근 다시 유행하게 된 이유를 잡지 기사를 통해 확인하고 패션 유행의 순환에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "더플 코트와 나",
+        "summary": "13년 동안 더플 코트를 고집해온 저자의 경험."
+      },
+      {
+        "sectionTitle": "유행의 이유",
+        "summary": "더플 코트가 다시 유행하는 이유에 대한 잡지 기사의 분석."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "일상적이고 담담함"
+      }
+    ],
+    "keyEntitiesText": "저자",
+    "settingText": "일본"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pIsU-w-YO0-7dPIubqNA-6CadyAmdVjL",
+    "filename": "더플 코트에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.041Z",
+    "size": "1778",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1pIsU-w-YO0-7dPIubqNA-6CadyAmdVjL/view?usp=drivesdk",
+    "sourceSha256": "e63a5b68f68b21a5b4a9d6a4e2181571cc2ee62757b873a94eca3e66a96bfc60",
+    "textSha256": "6799ee80f24b0c83df610d84afb58bf338984ce12676e4c594f10f344b8c2a0f",
+    "changeKey": "845aa03a96825695e9643491340f485b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2df95fd6e3fa78fc229d",
+    "workId": "2df95fd6e3fa78fc229d",
+    "driveFileId": "1pIsU-w-YO0-7dPIubqNA-6CadyAmdVjL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:01:42.081402+00:00",
+    "updatedAt": "2026-09-21T20:01:42.081426+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:01:42.081529+00:00"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "두부에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "두부",
+      "안자이 미즈마루",
+      "식생활"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "두부를 좋아하는 저자의 식생활과 두부 가게에 대한 단상.",
+    "overallSummary": "저자는 열광적인 두부 팬으로서 두부를 맛있게 먹는 방법과 두부 가게가 사라져가는 현실에 대해 이야기한다. 또한 삽화가 안자이 미즈마루를 당황하게 하기 위한 시도들을 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "안자이 미즈마루와 단순성",
+        "summary": "삽화가 안자이 미즈마루를 당황하게 하려는 시도와 두부의 단순함."
+      },
+      {
+        "sectionTitle": "두부 팬의 식생활",
+        "summary": "두부를 주식처럼 먹는 저자의 식생활과 두부 가게에 대한 애정."
+      },
+      {
+        "sectionTitle": "사라지는 두부 가게",
+        "summary": "제대로 된 두부 가게가 사라져가는 현실과 두부에 대한 추억."
+      },
+      {
+        "sectionTitle": "가상의 두부 에피소드",
+        "summary": "정사를 나눈 후 먹는 두부라는 가상의 상황에 대한 상상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "일상적이고 유머러스함"
+      }
+    ],
+    "keyEntitiesText": "저자, 안자이 미즈마루",
+    "settingText": "신주쿠, 나카노, 교토"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HgD-Qx5ZSoDcq-VtCcvcrq-WZyEft3YR",
+    "filename": "두부에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.087Z",
+    "size": "6843",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1HgD-Qx5ZSoDcq-VtCcvcrq-WZyEft3YR/view?usp=drivesdk",
+    "sourceSha256": "00a5b1eaffcc1fea7c4f5e09d76ba6c6aedb1fb07f3bae08ff119dc1a5e56625",
+    "textSha256": "df8c5be60f5f490b0a4efea281e82f2f9eb4324bcd03cbd930a1fa52ab9f9110",
+    "changeKey": "976ade710a64164c1d73e348e69831ab",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c2eb08ba2dcfca9fdbcb",
+    "workId": "c2eb08ba2dcfca9fdbcb",
+    "driveFileId": "1HgD-Qx5ZSoDcq-VtCcvcrq-WZyEft3YR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:02:08.543081+00:00",
+    "updatedAt": "2026-09-21T20:02:08.543096+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:02:08.543204+00:00"
+    }
+  }
+}

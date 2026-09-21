@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "달 밤의 행진",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "괄태충",
+      "송충이",
+      "형벌"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "유머",
+        "공포"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "괄태충의 행렬과 송충이 항아리 형벌에 대한 기괴한 상상.",
+    "overallSummary": "저자는 아내가 목격했다는 거대한 괄태충의 행렬 이야기를 전하며, 세상에서 가장 무서운 형벌로 '송충이 항아리'를 상상하여 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "괄태충의 행렬",
+        "summary": "아내가 목격한 거대한 괄태충의 행렬에 대한 이야기."
+      },
+      {
+        "sectionTitle": "송충이 항아리의 비극",
+        "summary": "송충이로 가득 찬 항아리에 죄수를 넣는 끔찍한 형벌에 대한 상상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "기괴하고 유머러스함"
+      }
+    ],
+    "keyEntitiesText": "저자, 아내",
+    "settingText": "오차노미즈"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YjAJ3oqQQtg73dM5NeDYRm2jBEskc9IH",
+    "filename": "달 밤의 행진.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.012Z",
+    "size": "3490",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1YjAJ3oqQQtg73dM5NeDYRm2jBEskc9IH/view?usp=drivesdk",
+    "sourceSha256": "71083c3d08d21371b2e77cc8c22ad0dbee8e38fef52e4361ac6c72d25a80b0a3",
+    "textSha256": "247d9676f30b03fbbf4617352a8ac7083980df49f325bc612b134f25172843c8",
+    "changeKey": "5b3debc7d2efe8116262a896f826ed54",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "26aede717ef659161cf4",
+    "workId": "26aede717ef659161cf4",
+    "driveFileId": "1YjAJ3oqQQtg73dM5NeDYRm2jBEskc9IH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:01:21.712440+00:00",
+    "updatedAt": "2026-09-21T20:01:21.712456+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:01:21.712561+00:00"
+    }
+  }
+}

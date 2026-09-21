@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대담에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "대담",
+      "일본",
+      "미국",
+      "잡지"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문화비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "일본 잡지에 대담이 많은 이유와 그 형식에 대한 저자의 분석.",
+    "overallSummary": "저자는 미국 잡지에는 거의 없는 대담 형식이 일본 잡지에서 폭발적으로 유행하는 이유를 일본인의 대화 방식과 국민성에서 찾는다. 또한 대담의 낮은 개런티와 식사 대접, 그리고 맞선과 유사한 분위기에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "대담의 문화적 차이",
+        "summary": "미국과 일본의 대화 방식 차이로 본 대담 형식의 유행."
+      },
+      {
+        "sectionTitle": "대담의 현실",
+        "summary": "대담의 낮은 개런티와 식사 대접, 맞선과 유사한 분위기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석",
+        "value": "일본 문화에 대한 저자의 냉소적이고 분석적인 시각"
+      }
+    ],
+    "keyEntitiesText": "저자, 시이나 마코토",
+    "settingText": "일본"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CL4wcO6AhKdSyLv1dCeE5eRP6HBh-Rh9",
+    "filename": "대담에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.022Z",
+    "size": "3585",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1CL4wcO6AhKdSyLv1dCeE5eRP6HBh-Rh9/view?usp=drivesdk",
+    "sourceSha256": "7a9a911f46e9b9d6461a8e985e829622e8cfaa28cbf1184c27be7b0b20f68776",
+    "textSha256": "babc1f2634ec04455910394bd76c32c736c9a9b6ba2210b3b2993a8f8aa5a766",
+    "changeKey": "1a9c043e89f8ed3053871f0b18259bbd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bc7f7b8ec9a57fffa44c",
+    "workId": "bc7f7b8ec9a57fffa44c",
+    "driveFileId": "1CL4wcO6AhKdSyLv1dCeE5eRP6HBh-Rh9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:01:28.846439+00:00",
+    "updatedAt": "2026-09-21T20:01:28.846454+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:01:28.846558+00:00"
+    }
+  }
+}

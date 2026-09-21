@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 무엇에든 이름 붙이기는 좋아한다.",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "이름",
+      "가게",
+      "재즈클럽"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "회고록"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가이자 에세이스트.",
+    "oneLineSummary": "사물이나 가게에 이름을 붙이는 것에 대한 저자의 단상.",
+    "overallSummary": "저자는 새로 생기는 가게나 잡지에 이름을 붙이는 것을 좋아하지만, 실제 부탁을 받으면 어렵다고 느낀다. 과거 술집을 경영할 때의 경험과 워싱턴 DC의 재즈 클럽 'ONE STEP DOWN'의 사례를 통해 이름과 실제의 관계에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이름 붙이기의 즐거움",
+        "summary": "가게나 잡지에 이름을 붙이는 것은 즐겁지만 실제 부탁을 받으면 어렵다."
+      },
+      {
+        "sectionTitle": "ONE STEP DOWN",
+        "summary": "워싱턴 DC의 재즈 클럽 'ONE STEP DOWN'의 이름 유래와 그곳에서의 경험을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "경쾌하고 일상적인 어조"
+      }
+    ],
+    "keyEntitiesText": "저자, 마크 머피",
+    "settingText": "워싱턴 DC"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KYW1Mm6NKR1Gr2_BfID3FoTM0uOQVg7v",
+    "filename": "나는 무엇에든 이름 붙이기는 좋아한다.TXT",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.908Z",
+    "size": "2013",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1KYW1Mm6NKR1Gr2_BfID3FoTM0uOQVg7v/view?usp=drivesdk",
+    "sourceSha256": "b7cabbea8edcfcfefcaf6fa9bfb0ffbd840b048a58d46efb82372a7bc4af9366",
+    "textSha256": "31a8e19aca469c570fa6db437684ec07fca13617b64a4f3b8ee865db0f6e8629",
+    "changeKey": "e5adae86fabd1d681b790da090dd5284",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a0e40063131a76d9c11e",
+    "workId": "a0e40063131a76d9c11e",
+    "driveFileId": "1KYW1Mm6NKR1Gr2_BfID3FoTM0uOQVg7v",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:00:06.024070+00:00",
+    "updatedAt": "2026-09-21T20:00:06.024084+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:00:06.024288+00:00"
+    }
+  }
+}

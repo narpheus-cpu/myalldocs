@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도마뱀 이야기",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "도마뱀",
+      "고양이",
+      "꼬리"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "고양이에게 꼬리를 잘리는 도마뱀의 애처로운 운명에 대한 이야기.",
+    "overallSummary": "저자는 집 고양이들이 도마뱀을 괴롭히는 모습을 보며, 꼬리를 끊고 달아나야만 살아남는 도마뱀의 애처로운 천성과 꼬리를 잃은 후 동료들에게 학대받는 도마뱀의 현실에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고양이와 도마뱀",
+        "summary": "고양이들이 도마뱀의 꼬리를 끊으며 장난치는 모습."
+      },
+      {
+        "sectionTitle": "도마뱀의 고통",
+        "summary": "꼬리를 잃은 도마뱀이 동료들에게 학대받는다는 사실을 알고 느끼는 연민."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "연민과 성찰"
+      }
+    ],
+    "keyEntitiesText": "저자, 고양이들, 도마뱀",
+    "settingText": "저자의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Nj95_5knuN7BnJBzRCE3y6Fv1v5GKfOl",
+    "filename": "도마뱀 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.052Z",
+    "size": "1728",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1Nj95_5knuN7BnJBzRCE3y6Fv1v5GKfOl/view?usp=drivesdk",
+    "sourceSha256": "e33d4f9f2a10ed3a790d223bb75dcdfafe0c428ffa557b3b58521f70a447bb8d",
+    "textSha256": "7f1932ce491689bccab14b64aec3f5d21dba7fefb7cc4746f1bc02ab794432fa",
+    "changeKey": "a2e0d5e95d9dc9e64a19ea019c22b3da",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3fa9d2d1334283406ca3",
+    "workId": "3fa9d2d1334283406ca3",
+    "driveFileId": "1Nj95_5knuN7BnJBzRCE3y6Fv1v5GKfOl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:01:48.569000+00:00",
+    "updatedAt": "2026-09-21T20:01:48.569015+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:01:48.569125+00:00"
+    }
+  }
+}

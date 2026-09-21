@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "독서용 비행기",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "독서",
+      "비행기",
+      "책"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "독서기"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "이동 중에 책을 많이 읽게 된 저자의 독서 목록과 감상.",
+    "overallSummary": "저자는 비행기나 전철을 탈 기회가 많아지면서 책을 많이 읽게 되었다. 존 어빙, 닥터 로, 핀천 등의 작품을 읽은 감상과 아내의 독서 취향, 그리고 자신에 관한 평론집을 읽은 소회를 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "비행기 안의 독서",
+        "summary": "이동 중에 읽은 다양한 소설들에 대한 감상."
+      },
+      {
+        "sectionTitle": "아내의 독서와 나의 독서",
+        "summary": "아내와 저자의 서로 다른 독서 영역과 책이 늘어나는 일상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "지적이고 일상적임"
+      }
+    ],
+    "keyEntitiesText": "저자, 아내, 존 어빙, 닥터 로, 핀천",
+    "settingText": "비행기 안, 일본"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14gJHOEg5BHDXF5cgx5JAe9oYDkKyCWO3",
+    "filename": "독서용 비행기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.064Z",
+    "size": "4717",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/14gJHOEg5BHDXF5cgx5JAe9oYDkKyCWO3/view?usp=drivesdk",
+    "sourceSha256": "f95fcf74050346c9857ab7e6b564f9ad04ec293e33592210d9d13d9d4264096b",
+    "textSha256": "ada6a69b04ed3422f8028bb8f61f4a0d17ab0ad63ae8a5614ea3db8afe6f0798",
+    "changeKey": "87c0844020e3b9c9541742e3a2413873",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4669de4a5b37a5cbf2ff",
+    "workId": "4669de4a5b37a5cbf2ff",
+    "driveFileId": "14gJHOEg5BHDXF5cgx5JAe9oYDkKyCWO3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:01:56.271101+00:00",
+    "updatedAt": "2026-09-21T20:01:56.271117+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:01:56.271221+00:00"
+    }
+  }
+}

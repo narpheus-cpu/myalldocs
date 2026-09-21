@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "더티 해리의 문제",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "영화",
+      "자막",
+      "번역",
+      "더티 해리"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "영화비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "영화 자막 번역의 어려움과 '더티 해리'의 대사 번역에 대한 고민.",
+    "overallSummary": "저자는 영화 자막 번역이 글자 수 제한으로 인해 하이쿠나 카피라이팅처럼 어렵다고 말하며, 영화 '더티 해리 4'의 유명한 대사 'go ahead, make my day'를 어떻게 번역할지에 대해 고민한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "자막 번역의 고충",
+        "summary": "글자 수 제한으로 인한 영화 자막 번역의 어려움."
+      },
+      {
+        "sectionTitle": "더티 해리의 대사",
+        "summary": "'go ahead, make my day'의 적절한 번역에 대한 고민."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석",
+        "value": "번역의 묘미와 어려움에 대한 고찰"
+      }
+    ],
+    "keyEntitiesText": "저자, 클린트 이스트우드",
+    "settingText": "호놀룰루"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IGTbAxHp_Nz20k9j6PKK6KtV5BjomYqd",
+    "filename": "더티 해리의 문제.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.032Z",
+    "size": "1784",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1IGTbAxHp_Nz20k9j6PKK6KtV5BjomYqd/view?usp=drivesdk",
+    "sourceSha256": "5db1c598906d8fc98036dac6aaae42d3e5da7c6f75b259f3dee5d38dbfa81e7d",
+    "textSha256": "26f4b779ed1d63b151347dfbc1bd987133349ace407c5614f7930c5d635c2e44",
+    "changeKey": "c7ab87d44c4a4c639777796fe5b93a7f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "90829ddbd855c9258b44",
+    "workId": "90829ddbd855c9258b44",
+    "driveFileId": "1IGTbAxHp_Nz20k9j6PKK6KtV5BjomYqd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:01:35.492633+00:00",
+    "updatedAt": "2026-09-21T20:01:35.492647+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:01:35.492735+00:00"
+    }
+  }
+}

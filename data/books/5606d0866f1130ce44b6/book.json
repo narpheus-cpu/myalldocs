@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "독수리는 토지를 소유하는가?",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "헌책방",
+      "레코드",
+      "제목"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "칸다의 헌책방에서 겪은 에피소드와 책 제목 번역에 대한 단상.",
+    "overallSummary": "저자는 칸다의 헌책방을 즐겨 찾는데, 그곳의 뒤죽박죽인 진열 방식과 주인이 직접 붙이는 엉뚱한 일본어 제목에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "칸다의 헌책방",
+        "summary": "정상적인 가격으로 귀한 책을 찾을 수 있는 칸다의 헌책방에 대한 애정."
+      },
+      {
+        "sectionTitle": "엉뚱한 제목",
+        "summary": "주인이 붙인 엉뚱한 일본어 제목에 대한 유머러스한 비판."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "유머러스함"
+      }
+    ],
+    "keyEntitiesText": "저자, 헌책방 주인",
+    "settingText": "칸다"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yLmTiwRF8sCSEkxM5yjq4vo7GcsHK67m",
+    "filename": "독수리는 토지를 소유하는가.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.074Z",
+    "size": "1991",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1yLmTiwRF8sCSEkxM5yjq4vo7GcsHK67m/view?usp=drivesdk",
+    "sourceSha256": "8f7c60c28af57641568fb4382a6897b4d7e70693295de6fdf96f3e360ae65c05",
+    "textSha256": "bdf64aba3c22e3117855093023f95e22bd9abb6600702c4722e266f399818448",
+    "changeKey": "40ff02ae03c2d363d6c66e08002e2ee5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5606d0866f1130ce44b6",
+    "workId": "5606d0866f1130ce44b6",
+    "driveFileId": "1yLmTiwRF8sCSEkxM5yjq4vo7GcsHK67m",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:02:02.499563+00:00",
+    "updatedAt": "2026-09-21T20:02:02.499580+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:02:02.499680+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "랑겔한스 섬의 오후",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "봄",
+      "중학교",
+      "생물수업",
+      "랑겔한스 섬"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "회고록"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "중학교 시절 봄날 오후의 따스한 기억에 대한 회상.",
+    "overallSummary": "저자는 중학교 시절 생물 수업 시간에 교과서를 가지러 집에 다녀오던 봄날 오후의 따스한 기억을 회상하며, 그날 느꼈던 봄의 정취를 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "봄날의 기억",
+        "summary": "중학교 시절 생물 수업 시간에 교과서를 가지러 가던 봄날 오후의 기억."
+      },
+      {
+        "sectionTitle": "봄의 정취",
+        "summary": "강변에서 느꼈던 따스한 봄의 정취와 랑겔한스 섬에 대한 기억."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "서정적이고 따스함"
+      }
+    ],
+    "keyEntitiesText": "저자",
+    "settingText": "중학교, 강변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16QFKoh3JubUxlPujKTHK1uWjmXNQYuZg",
+    "filename": "랑겔한스 섬의 오후.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.158Z",
+    "size": "1793",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/16QFKoh3JubUxlPujKTHK1uWjmXNQYuZg/view?usp=drivesdk",
+    "sourceSha256": "f3293eae534c39a47805bee57e23d589a56956a32b13ea263a2148aa15c9b96a",
+    "textSha256": "d0f363546957ea2b8839b8b5cb30aa77c23358f4c9b9b20683951bf6e817847c",
+    "changeKey": "4f1638090e962911f6ec74c930872ff9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ab842c4619c17ae818eb",
+    "workId": "ab842c4619c17ae818eb",
+    "driveFileId": "16QFKoh3JubUxlPujKTHK1uWjmXNQYuZg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:03:26.521889+00:00",
+    "updatedAt": "2026-09-21T20:03:26.521905+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:03:26.522049+00:00"
+    }
+  }
+}

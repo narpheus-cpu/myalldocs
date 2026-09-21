@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "또 다시 진구구장에 관하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "진구구장",
+      "야구",
+      "서글픔"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "일상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "비 오는 날 진구구장에서 야구를 관전하며 느낀 서글픔.",
+    "overallSummary": "저자는 비 오는 날 진구구장에서 편집자와 함께 야구를 관전하며 느꼈던 서글픔과 주변 관객의 비매너에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서글픈 야구 관전",
+        "summary": "비 오는 날 진구구장에서 야구를 보며 느낀 서글픔."
+      },
+      {
+        "sectionTitle": "주변 관객의 비매너",
+        "summary": "선수를 조롱하는 주변 관객의 비매너적인 행동."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "서글프고 냉소적임"
+      }
+    ],
+    "keyEntitiesText": "저자, 편집자",
+    "settingText": "진구구장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11xsOcj1nrqbi8MDE0tfn29_udYyIGEzG",
+    "filename": "또 다시 진구구장에 관하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.147Z",
+    "size": "1686",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/11xsOcj1nrqbi8MDE0tfn29_udYyIGEzG/view?usp=drivesdk",
+    "sourceSha256": "ed95e0dd1f5cedc22e4e971d93e5eb05c5966902cf709ef79c2ce1616971dbd2",
+    "textSha256": "63a8cdfcca9de67774fd2ea0fce0e1783e61b19ba9fa729c97885f18cfbb6438",
+    "changeKey": "93dc68e373359b263fafc835026cf8bd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "244be5d5c05f957f263a",
+    "workId": "244be5d5c05f957f263a",
+    "driveFileId": "11xsOcj1nrqbi8MDE0tfn29_udYyIGEzG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:02:49.758693+00:00",
+    "updatedAt": "2026-09-21T20:02:49.758709+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:02:49.758819+00:00"
+    }
+  }
+}

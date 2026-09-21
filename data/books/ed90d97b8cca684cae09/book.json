@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뉴욕탄광의비극",
+    "author": "무라카미 하루키",
+    "genre": "단편소설",
+    "tags": [
+      "죽음",
+      "태풍",
+      "장례식",
+      "동물원"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "심리",
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "주변 사람들의 연이은 죽음을 겪으며 삶과 죽음에 대해 고찰하는 이야기.",
+    "overallSummary": "태풍이 올 때 동물원에 가는 기묘한 습관을 가진 친구를 둔 화자는, 스물여덟 살 무렵 주변 친구들이 연이어 죽음을 맞이하는 상황을 겪는다. 장례식에 참석하며 삶의 허무와 죽음의 일상성을 느끼고, 친구와 함께 샴페인을 마시며 이야기를 나눈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "태풍과 동물원",
+        "summary": "태풍이 올 때 동물원에 가는 친구의 기묘한 습관과 그의 평범한 일상."
+      },
+      {
+        "sectionTitle": "연이은 죽음",
+        "summary": "스물여덟 살 무렵, 주변 친구들이 자살, 사고 등으로 연이어 죽음을 맞이한다."
+      },
+      {
+        "sectionTitle": "파티와 대화",
+        "summary": "연말 파티에서 만난 여성과의 대화, 그리고 친구와 함께 죽음에 대해 이야기하며 샴페인을 마신다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "죽음의 일상성과 삶의 허무"
+      }
+    ],
+    "keyEntitiesText": "화자, 친구, 죽은 친구들, 파티에서 만난 여성",
+    "settingText": "도시, 동물원, 친구의 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CkephdN1R9goeutr7Ao-zRrxiAMPG1tA",
+    "filename": "뉴욕 탄광의 비극.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.499Z",
+    "size": "19752",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "단편소설",
+      "초단편"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/단편소설/초단편",
+    "webViewLink": "https://drive.google.com/file/d/1CkephdN1R9goeutr7Ao-zRrxiAMPG1tA/view?usp=drivesdk",
+    "sourceSha256": "ee01b3ae02a5dee2facb564a799954dcb31326fb1aeee2474391b7a9733e5898",
+    "textSha256": "7b457c5784299cfc60cc9387f6b8d051c666c5d507ba05525fa8d7f77a7d9850",
+    "changeKey": "e490ffe9aba5c75cc5fadc3daa67d01b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ed90d97b8cca684cae09",
+    "workId": "ed90d97b8cca684cae09",
+    "driveFileId": "1CkephdN1R9goeutr7Ao-zRrxiAMPG1tA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:01:07.704261+00:00",
+    "updatedAt": "2026-09-21T20:01:07.704276+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:01:07.704383+00:00"
+    }
+  }
+}

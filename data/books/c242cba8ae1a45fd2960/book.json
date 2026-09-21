@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뉴스",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "뉴스",
+      "동음이의어",
+      "라디오"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "유머"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "라디오 뉴스에서 잘못 알아듣기 쉬운 동음이의어에 대한 유머러스한 단상.",
+    "overallSummary": "저자는 택시에서 라디오 뉴스를 듣다가 동음이의어로 인해 발생하는 황당한 오해와 아나운서의 실수에서 느끼는 소소한 즐거움에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "뉴스 속의 오해",
+        "summary": "니쿠즈레(살점 떨어짐/짐 무너짐)나 시간급/차관급 등 동음이의어로 인한 오해."
+      },
+      {
+        "sectionTitle": "아나운서의 실수",
+        "summary": "시보를 틀린 아나운서의 에피소드를 통해 느끼는 즐거움."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "가볍고 유머러스함"
+      }
+    ],
+    "keyEntitiesText": "저자, 택시 운전수, 아나운서",
+    "settingText": "택시 안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KSoZZycsf0tlZocd8UF1cJelTQ3rUZiR",
+    "filename": "뉴스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:05.968Z",
+    "size": "1836",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1KSoZZycsf0tlZocd8UF1cJelTQ3rUZiR/view?usp=drivesdk",
+    "sourceSha256": "2870226c8d9ce60474aec3cea56b8131d70ef2b379478a814d770ca9aec36dce",
+    "textSha256": "5e0d8bd3a0aae1a351f5a8920240ba1f4a889d09f8436daac99f78fb34292342",
+    "changeKey": "1a334022731c5a861cb4a2758ee2c6cb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c242cba8ae1a45fd2960",
+    "workId": "c242cba8ae1a45fd2960",
+    "driveFileId": "1KSoZZycsf0tlZocd8UF1cJelTQ3rUZiR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:01:01.007844+00:00",
+    "updatedAt": "2026-09-21T20:01:01.007861+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:01:01.007982+00:00"
+    }
+  }
+}

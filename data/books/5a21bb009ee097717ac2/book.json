@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "또 다시 비엔나 슈니체르에 대하여",
+    "author": "무라카미 하루키",
+    "genre": "에세이",
+    "tags": [
+      "비엔나 슈니체르",
+      "음식",
+      "빈"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "음식"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가.",
+    "oneLineSummary": "빈에서 먹은 비엔나 슈니체르에 대한 실망과 음식에 대한 단상.",
+    "overallSummary": "저자는 빈에 가서 비엔나 슈니체르를 먹었으나 실망했고, 오히려 동경에서 먹는 것이 더 맛있다고 느낀다. 또한 빈에서 맛있는 헝가리안 그라슈에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "빈에서의 실망",
+        "summary": "빈에서 먹은 비엔나 슈니체르가 기대에 미치지 못한 경험."
+      },
+      {
+        "sectionTitle": "헝가리안 그라슈",
+        "summary": "빈에서 의외로 맛있게 먹은 헝가리안 그라슈에 대한 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "음식에 대한 솔직한 감상"
+      }
+    ],
+    "keyEntitiesText": "저자",
+    "settingText": "빈"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1m-1j4EJvAEzteMLyH51Qnhs6hMRUGqHb",
+    "filename": "또 다시 비엔나 슈니체르에 대하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:06.126Z",
+    "size": "1784",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "수필"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/수필",
+    "webViewLink": "https://drive.google.com/file/d/1m-1j4EJvAEzteMLyH51Qnhs6hMRUGqHb/view?usp=drivesdk",
+    "sourceSha256": "f50f3e8ed6feb132ea92457eb26a8d869a512d1b827ae461f94d39d984486288",
+    "textSha256": "e4b083a3256cc6a87666dec96933fbee2b4277f24a9f16bb3ae06b31383bef23",
+    "changeKey": "0c8f31cb2c022557a3ada64356a6a87d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5a21bb009ee097717ac2",
+    "workId": "5a21bb009ee097717ac2",
+    "driveFileId": "1m-1j4EJvAEzteMLyH51Qnhs6hMRUGqHb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T20:02:26.884129+00:00",
+    "updatedAt": "2026-09-21T20:02:26.884142+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T20:02:26.884231+00:00"
+    }
+  }
+}
