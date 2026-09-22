@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고백록",
+    "author": "아우구스티누스",
+    "genre": "기독교 고전 자서전",
+    "tags": [
+      "고백록",
+      "아우구스티누스",
+      "회심",
+      "기도"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아우구스티누스는 고대 교회의 위대한 교부이자 철학자로, 방황하던 청년 시절을 거쳐 기독교 진리에 귀속된 영성가이다.",
+    "oneLineSummary": "하느님의 은총과 인도하심 아래 자신의 유년기와 방황을 거쳐 회심에 이르는 과정을 신께 바치는 고백이다.",
+    "overallSummary": "하느님의 위대하심을 찬양하며 자신의 유년 시절과 소년 시절의 무지와 죄를 솔직하게 고백한다. 인간의 마음은 하느님 안에서 안식을 얻기 전에는 평안할 수 없다는 진리를 깊은 영성적 언어로 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장: 하느님의 위대하심을 찬양하다",
+        "summary": "하느님의 위대하심과 전능하심을 찬양하며 인간이 하느님을 찾고 부르는 믿음의 근원을 고찰한다."
+      },
+      {
+        "sectionTitle": "제 6장~제 8장: 유년시절과 언어 습득",
+        "summary": "자신의 유년기와 갓난아이 시절의 연약함, 그리고 어른들의 모방과 스스로의 능력으로 언어를 배워나간 과정을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 형식",
+        "value": "신과의 일대일 대화 형식으로 자신의 내면을 철저히 해부하는 영적 자서전"
+      }
+    ],
+    "keyEntitiesText": "아우구스티누스, 암브로시우스",
+    "settingText": "로마 제국 및 북아프리카"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_glxcmq9uvpVJivKbWdVT63dbrVesksF",
+    "filename": "아우구스티누스-고백록(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T19:54:46.000Z",
+    "size": "1331711",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1_glxcmq9uvpVJivKbWdVT63dbrVesksF/view?usp=drivesdk",
+    "sourceSha256": "324a27b180a21f1517c421bc7a8c7e3f4030211c6e489a8f19a458f53acfe78a",
+    "textSha256": "4dda6d6b1fb36de3c62aa7a05679bb1cacefb646b15a26315efaa96a5b6d218c",
+    "changeKey": "733853f2145080a477e1503439731ceb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4f903c174d67968feb2c",
+    "workId": "4f903c174d67968feb2c",
+    "driveFileId": "1_glxcmq9uvpVJivKbWdVT63dbrVesksF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:00:37.287534+00:00",
+    "updatedAt": "2026-09-22T21:00:37.287550+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:00:37.287653+00:00"
+    }
+  }
+}

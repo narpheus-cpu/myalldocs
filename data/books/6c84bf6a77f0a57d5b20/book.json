@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "정확한 사랑의 실험",
+    "author": "신형철",
+    "genre": "영화 평론집",
+    "tags": [
+      "영화 비평",
+      "스토리 텔링",
+      "정확한 사랑"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "신형철은 문학평론가로서 영화 주간지 <씨네21>에 연재한 글들을 묶어 문학적 시선으로 영화 속 서사와 인간을 해석해냈다.",
+    "oneLineSummary": "영화라는 활동서사를 문학평론가의 섬세한 시선으로 읽어내며 인간 존재의 결여와 사랑의 논리를 탐구한다.",
+    "overallSummary": "<씨네21>에 연재한 영화 에세이를 묶은 책으로, <러스트 앤 본>, <조제, 호랑이 그리고 물고기들> 등의 작품을 통해 타인의 사랑에 응답하는 조건인 '내면의 결여'를 정밀하게 분석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나의 없음을 당신에게 줄게요",
+        "summary": "스피노자의 사랑의 논리를 바탕으로 <러스트 앤 본>과 <조제, 호랑이 그리고 물고기들>을 비교 분석하며 사랑과 결여의 구조를 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비평 방식",
+        "value": "문학평론가의 시각으로 영화의 서사와 인물의 심리적 구조를 밀도 있게 독해"
+      }
+    ],
+    "keyEntitiesText": "신형철, 스피노자, 자크 오디아르, 이누도 잇신",
+    "settingText": "영화 속 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1e6VwlBKZ5z1w8yWyybd8W8afn7y29BFx",
+    "filename": "신형철-정확한 사랑의 실험(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T19:33:58.000Z",
+    "size": "443847",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1e6VwlBKZ5z1w8yWyybd8W8afn7y29BFx/view?usp=drivesdk",
+    "sourceSha256": "0468508eb110ceaea16f3aa8e512ad7a5effaed259baf5df85876fc8f1690078",
+    "textSha256": "1ee67d7eac741f4f3acb771eef23bb52c610441b0bf183fdf49ef4137fd65215",
+    "changeKey": "9a4b75e01a0777a66068fec4215b8993",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6c84bf6a77f0a57d5b20",
+    "workId": "6c84bf6a77f0a57d5b20",
+    "driveFileId": "1e6VwlBKZ5z1w8yWyybd8W8afn7y29BFx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:59:24.629357+00:00",
+    "updatedAt": "2026-09-22T20:59:24.629372+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:59:24.629476+00:00"
+    }
+  }
+}

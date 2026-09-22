@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시학",
+    "author": "아리스토텔레스 (승영조 역)",
+    "genre": "고대 문예 이론",
+    "tags": [
+      "시학",
+      "미메시스",
+      "비극",
+      "카타르시스"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아리스토텔레스는 시의 본성과 미메시스의 원리를 통찰한 고대 그리스의 철학자이며, 번역자 승영조는 문학평론가이자 번역가이다.",
+    "oneLineSummary": "시와 예술의 본질인 미메시스와 비극의 구조를 명쾌하게 해설한 서구 문예 비평의 바이블이다.",
+    "overallSummary": "서사시, 비극, 희극 등 다양한 시예술의 기원과 종류, 플롯(뮈토스)의 중요성, 비극이 주는 카타르시스의 효과를 철학적이고 체계적으로 분석하여 문학 이론의 기초를 세운 명저이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장~제 3장",
+        "summary": "시의 여러 종류와 미메시스의 수단, 대상, 방식에 따른 예술의 차이를 구분한다."
+      },
+      {
+        "sectionTitle": "제 4장",
+        "summary": "인간의 본성에 내재한 재현의 본능과 쾌감 등 시가 생겨난 원인과 발전을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "미메시스(재현), 뮈토스(플롯), 카타르시스(정화)"
+      }
+    ],
+    "keyEntitiesText": "아리스토텔레스, 호메로스, 소포클레스, 승영조",
+    "settingText": "고대 그리스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HqYAo75acG2OlnZdnGsrFzY-6i7o3F1f",
+    "filename": "아리스토텔레스-시학(승영조 역)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T19:44:36.000Z",
+    "size": "319560",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1HqYAo75acG2OlnZdnGsrFzY-6i7o3F1f/view?usp=drivesdk",
+    "sourceSha256": "9fe9cbad2d9bdb185e039ce3be2f74f6c95fa15ddc5daa58b0073496a11fd9c8",
+    "textSha256": "e2a822c6e97029ceeb28cb546b6a3de8d8e82b7dccf8437c0757bb1f280b728f",
+    "changeKey": "c39a18a62f776276ba6b7c9eabb22f5f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fc0b26c0262d95124f58",
+    "workId": "fc0b26c0262d95124f58",
+    "driveFileId": "1HqYAo75acG2OlnZdnGsrFzY-6i7o3F1f",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:00:13.561053+00:00",
+    "updatedAt": "2026-09-22T21:00:13.561069+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:00:13.561158+00:00"
+    }
+  }
+}

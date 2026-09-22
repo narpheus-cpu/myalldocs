@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "몰락의 에티카",
+    "author": "신형철",
+    "genre": "문학 평론집",
+    "tags": [
+      "문학 평론",
+      "에티카",
+      "소설과 시"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "신형철은 서울대학교 국어국문학과를 졸업하고 문학동네로 등단하여 예리하고 매혹적인 주관성의 비평을 선보여온 평론가이다.",
+    "oneLineSummary": "성공을 찬미하는 세계에 맞서 몰락을 선택한 자들의 윤리적 진실을 문학을 통해 추적하는 평론집이다.",
+    "overallSummary": "소설의 윤리와 시의 전위를 화두 삼아 김영하, 박민규, 김경주 등 당대 주요 작가들의 작품을 분석하고, 문학이란 무엇인가라는 질문에 '몰락의 에티카'라는 독창적인 개념으로 응답한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: 몰락의 에티카",
+        "summary": "문학의 근원적 물음과 말과 행동의 심연을 대면하는 시인과 소설가의 모험을 윤리학적 관점에서 해명한다."
+      },
+      {
+        "sectionTitle": "제1부 만유인력의 서사학",
+        "summary": "김영하, 강영숙, 박민규 등의 장편소설을 통해 소설과 현실의 긴장 관계를 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "성공의 윤리가 아닌 진실의 윤리로서의 '몰락의 에티카'"
+      }
+    ],
+    "keyEntitiesText": "신형철, 김영하, 강영숙, 박민규, 김훈, 강정, 김경주, 가라타니 고진",
+    "settingText": "한국 현대 문학의 장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1E-IpQB3bkAml5c-smSID7Rp57JEy2zFG",
+    "filename": "신형철-몰락의 에티카(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T00:47:10.000Z",
+    "size": "1496556",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1E-IpQB3bkAml5c-smSID7Rp57JEy2zFG/view?usp=drivesdk",
+    "sourceSha256": "0a16fe799a487a66d442ac111b7309dd1e1ea9ffa65f9cbffe147c6e8f6d3005",
+    "textSha256": "327f90c90ffb2e1feccab51957ba9326aa3fe94f8afdf9b93fdea4c7198558c3",
+    "changeKey": "8a89940f333bb0957e985c07e32214ab",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "45b61cc7adecea051aa4",
+    "workId": "45b61cc7adecea051aa4",
+    "driveFileId": "1E-IpQB3bkAml5c-smSID7Rp57JEy2zFG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:59:16.380109+00:00",
+    "updatedAt": "2026-09-22T20:59:16.380124+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:59:16.380214+00:00"
+    }
+  }
+}

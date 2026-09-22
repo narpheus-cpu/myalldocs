@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "강의: 나의 동양고전 독법",
+    "author": "신영복",
+    "genre": "동양고전 인문학",
+    "tags": [
+      "동양고전",
+      "관계론",
+      "인문학 강의"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "신영복은 성공회대학교 교수이자 사회과학 및 동양고전 강의를 통해 독보적인 인문학적 성찰을 전파한 사상가이다.",
+    "oneLineSummary": "오래된 동양고전을 현대의 당면 과제와 '관계론'의 화두로 재해석하는 인문학 강의록이다.",
+    "overallSummary": "성공회대학교의 고전 강독 강의를 정리한 책으로, 춘추전국시대의 제자백가 사상과 다양한 동양고전을 존재론이 아닌 '관계론'적 패러다임으로 읽어내며 현재와 미래를 모색한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나와 동양고전과의 인연",
+        "summary": "저자가 감옥 생활과 노촌 이구영 선생과의 만남을 통해 동양고전에 깊이 빠져들게 된 배경을 회고한다."
+      },
+      {
+        "sectionTitle": "화두와 오래된 미래",
+        "summary": "변혁기의 거대 담론인 춘추전국시대의 사상을 통해 현대 자본주의의 무한 경쟁을 비판하고 '관계론'을 화두로 제시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "존재론적 패러다임에서 관계론적 패러다임으로의 전환을 통한 문명론적 성찰"
+      }
+    ],
+    "keyEntitiesText": "신영복, 이구영, 제자백가, 헬레나 노르베리 호지",
+    "settingText": "성공회대학교 강의실 및 옥중 생활"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_TYTaUQ1CQ_PTbCBLvIVD_x1fHt8CSev",
+    "filename": "신영복-강의-나의 동양고전 독법(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T19:31:18.000Z",
+    "size": "908653",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1_TYTaUQ1CQ_PTbCBLvIVD_x1fHt8CSev/view?usp=drivesdk",
+    "sourceSha256": "7d0d4bf5b5c02b5e36ce8bf7bd04fd6faee4ecaf83e507e1a5d472521136a6a4",
+    "textSha256": "ce7cac668640157c10bc447c08795148f13ac097f2325f1f0da4c9528b3bf95c",
+    "changeKey": "a3e3a6f66c8c606ef4f48d335c4ac800",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "500d131a846a6a0195a6",
+    "workId": "500d131a846a6a0195a6",
+    "driveFileId": "1_TYTaUQ1CQ_PTbCBLvIVD_x1fHt8CSev",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:58:48.505483+00:00",
+    "updatedAt": "2026-09-22T20:58:48.505499+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:58:48.505606+00:00"
+    }
+  }
+}

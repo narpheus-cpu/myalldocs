@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아랍문화의 이해",
+    "author": "공일주",
+    "genre": "지역학 문화 연구",
+    "tags": [
+      "아랍문화",
+      "이슬람",
+      "중동"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "공일주는 이슬람연구소 책임연구원이자 아랍어와 이슬람 문화 연구자로 현지 답사와 학문적 연구를 바탕으로 이 책을 집필했다.",
+    "oneLineSummary": "언어, 종교, 생활양식을 통해 아랍인의 사고방식과 이슬람 문화를 객관적으로 이해한다.",
+    "overallSummary": "우리가 흔히 오해하기 쉬운 아랍 문화와 이슬람의 세계관을 문화와 언어, 생활양식, 가정과 사회, 예술과 과학 등의 주제를 통해 편견 없이 조명하며 중동 지역에 대한 입체적 시각을 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 문화와 언어",
+        "summary": "문화와 문명의 개념을 정의하고, 종교와 문화의 매개체로서 아랍어의 특성과 이중구조를 고찰한다."
+      },
+      {
+        "sectionTitle": "제 2 장 이슬람의 생활양식",
+        "summary": "신과 인간, 인간과 인간, 인간과 자연의 관계 속에서 이슬람이 삶의 총체적 방식임을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 관점",
+        "value": "서구 중심적 편견을 배제하고 아랍인의 정신구조와 이슬람 신정론을 바탕으로 문화 해석"
+      }
+    ],
+    "keyEntitiesText": "공일주, 무함마드",
+    "settingText": "중동 및 아랍 이슬람 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ABEX8Iz6RmB-bwvvK7HdDm4vEmJmjS_7",
+    "filename": "아랍문화의 이해.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:28.323Z",
+    "size": "694766",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1ABEX8Iz6RmB-bwvvK7HdDm4vEmJmjS_7/view?usp=drivesdk",
+    "sourceSha256": "85028f58e4b20977bcb346f7faf1a30d1a5376c88d004a577c38866a8d6fa96e",
+    "textSha256": "18ef7e8f174afd9e673361671bb8278aa16d388c16b696d4b14816fcf0799aae",
+    "changeKey": "951e5f5a92ed805d2fce13c39b63d6f3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5bc091875e6f2fe98bdf",
+    "workId": "5bc091875e6f2fe98bdf",
+    "driveFileId": "1ABEX8Iz6RmB-bwvvK7HdDm4vEmJmjS_7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:59:59.568868+00:00",
+    "updatedAt": "2026-09-22T20:59:59.568883+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:59:59.568973+00:00"
+    }
+  }
+}

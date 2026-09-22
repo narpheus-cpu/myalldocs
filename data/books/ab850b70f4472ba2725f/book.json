@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신봉승의 조선사 나들이 1",
+    "author": "신봉승",
+    "genre": "역사 에세이",
+    "tags": [
+      "조선사",
+      "역사 산책",
+      "조선왕조실록"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "신봉승은 1933년 강릉 출생으로 경희대 국문과를 졸업하고 시나리오 작가, 드라마 작가, 대하소설 작가로 활동하며 한국역사문학연구소를 개설해 사료를 분석하고 집필 활동을 해왔다.",
+    "oneLineSummary": "조선왕조실록과 역사적 인물들을 에세이 형식으로 조명하여 지혜로운 삶의 방식을 성찰한다.",
+    "overallSummary": "이 책은 조선왕조실록, 사마천의 사기 등 역사적 기록과 인물들의 삶을 통해 과거의 역사가 오늘날 우리에게 어떤 채찍과 길잡이가 되는지를 에세이 형태로 엮어낸 역사 산책서이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "여섯 사람의 대통령",
+        "summary": "한국 현대사의 대통령들이 겪은 불행과 과오를 통해 역사의 교훈과 지혜를 되짚어 본다."
+      },
+      {
+        "sectionTitle": "채찍으로 읽는 역사, 길잡이로 읽는 역사",
+        "summary": "조선왕조실록의 편찬 과정과 선비 정신, 사마천의 사기 등 역사 기록이 지닌 가치와 의미를 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "학술적 접근보다 에세이 형식으로 조선사의 뒷이야기를 다루어 대중의 역사 이해를 돕는다."
+      }
+    ],
+    "keyEntitiesText": "신봉승, 세종, 태종, 연산군, 사마천, 헤로도토스, 간디",
+    "settingText": "조선 시대 왕실과 조정, 그리고 한국 현대 정치 상황"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nGYi-KN_LQAK8bX0fF9HW--BJ7BDgt-0",
+    "filename": "신본승-신봉승의 조선사 나들이.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:28.223Z",
+    "size": "360332",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1nGYi-KN_LQAK8bX0fF9HW--BJ7BDgt-0/view?usp=drivesdk",
+    "sourceSha256": "b2cdd89c9cd4a92b60d8386a0b2557700f1adebfb24d43f64d69d4738bb21e96",
+    "textSha256": "1ea5ffbbcdaadc0c3be102acf61767c22dc4b3adc99eff4a5aed2372ac9edd89",
+    "changeKey": "ec4eb3270a4517106233affd9e9c30a9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ab850b70f4472ba2725f",
+    "workId": "ab850b70f4472ba2725f",
+    "driveFileId": "1nGYi-KN_LQAK8bX0fF9HW--BJ7BDgt-0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:58:40.617836+00:00",
+    "updatedAt": "2026-09-22T20:58:40.617853+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8633,
+      "updatedAt": "2026-09-22T20:58:40.618056+00:00"
+    }
+  }
+}
