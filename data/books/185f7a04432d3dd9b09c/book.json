@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "장미의 이름 읽기",
+    "author": "강유원",
+    "genre": "문학 비평",
+    "tags": [
+      "장미의이름",
+      "움베르토에코",
+      "기호학",
+      "중세역사"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "강유원은 서양 중세사 및 철학적 텍스트 해석에 깊은 관심을 가지고 연구와 저술을 진행해 온 인문학자이다.",
+    "oneLineSummary": "움베르토 에코의 소설 《장미의 이름》을 기호학적·합리적 관점에서 분석하여 텍스트 해석의 한계와 중세 역사적 배경을 해명한 비평서이다.",
+    "overallSummary": "이 책은 움베르토 에코의 대표작 《장미의 이름》을 텍스트 읽기의 방법론을 통해 분석한다. 소설의 배경이 되는 1327년의 역사적 상황(교황청의 아비뇽 유수, 황제 루드비히 4세와의 대립, 청빈 논쟁과 이단 운동)을 상세히 설명하고, 소설 속 기호와 상징들을 해독한다. 저자는 포스트모던적 자의적 해석을 경계하며, 기표와 기의의 결합, 저자의 의도, 독자의 태도 사이의 긴장을 다루는 기호학적이고 합리적인 텍스트 해석을 옹호한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "기호(기표와 기의), 의미화, 텍스트의 정의를 규정하고, 자의적 해석을 넘어선 합리적 텍스트 읽기의 필요성을 설명한다."
+      },
+      {
+        "sectionTitle": "역사적 배경 분석",
+        "summary": "소설의 무대인 1327년 11월 말의 시대적 상황, 아비뇽 교황청과 신성로마제국의 대립, 프란체스코회의 청빈 사상과 교회의 세속화 갈등을 해설한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기호학적 분석 개념",
+        "value": "기표(signifier, 물질적 수단)와 기의(signified, 담긴 의미)의 결합을 통한 의미화 과정 및 해석의 한계 설정"
+      }
+    ],
+    "keyEntitiesText": "강유원, 움베르토 에코, 호르헤 보르헤스, 단테, 클레오멘스 5세, 루드비히 4세, 미켈레",
+    "settingText": "1327년 11월 말, 중세 유럽의 한 산중 수도원 및 아비뇽 교황청 시기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1afx2Ha2TRdQ3BLFqpfOeGvzIXXHsZ-KZ",
+    "filename": "강유원-장미의 이름 읽기(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T17:05:06.000Z",
+    "size": "249814",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1afx2Ha2TRdQ3BLFqpfOeGvzIXXHsZ-KZ/view?usp=drivesdk",
+    "sourceSha256": "6391345e5a7c23f03350b26ea6f4239d807550518262f37d16c300d4fac3df7b",
+    "textSha256": "917fb07f0d90cf49cedb96f3032752f55806e68d459a834de5366680240784b1",
+    "changeKey": "b58ced427a5677e4c1c9e12281c30b5d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "185f7a04432d3dd9b09c",
+    "workId": "185f7a04432d3dd9b09c",
+    "driveFileId": "1afx2Ha2TRdQ3BLFqpfOeGvzIXXHsZ-KZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:26:29.521935+00:00",
+    "updatedAt": "2026-09-22T17:26:29.521950+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:26:29.522050+00:00"
+    }
+  }
+}

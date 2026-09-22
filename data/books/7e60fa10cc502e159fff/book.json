@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "주체는 죽었는가",
+    "author": "강영안",
+    "genre": "철학",
+    "tags": [
+      "현대철학",
+      "주체비판",
+      "포스트모더니즘",
+      "데카르트"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "강영안은 서강대학교 철학과 교수로 재직하며 칸트 철학과 현대 유럽 철학, 타자 윤리학 등을 깊이 있게 연구해 온 철학자이다.",
+    "oneLineSummary": "데카르트 이후 근대 철학의 중심이었던 '주체' 개념이 현대 철학과 포스트모더니즘에서 어떻게 비판받고 해체되었는지 추적한 철학 연구서이다.",
+    "overallSummary": "이 책은 현대 철학의 가장 뜨거운 화두인 '주체의 죽음'과 포스트모던 경향을 다룬다. 데카르트의 코기토에서 출발하여 독일 관념론(셸링, 헤겔)을 거쳐 절대화된 주체 개념이 키에르케고어, 니체, 라캉, 레비나스, 하이데거, 포퍼, 폴라니 등에 의해 어떻게 비판되고 재구성되는지 분석한다. 주체 비판의 역사적 흐름을 짚어보고, 형이상학 이후 시대의 인간의 미래와 윤리적 개방성을 모색한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서론 및 제1~2장 현대 철학과 주체",
+        "summary": "포스트모던 성격과 객관주의·주관주의 비판, 데카르트 코기토의 현대성과 자아 분열 현상을 다룬다."
+      },
+      {
+        "sectionTitle": "제3~4장 독일 관념론과 그 이후",
+        "summary": "셸링의 절대 자아 개념과 독일 관념론 이후 키에르케고어의 실존적 주체, 니체의 주체 비판을 비교한다."
+      },
+      {
+        "sectionTitle": "제5~8장 현대적 해체와 대안",
+        "summary": "라캉의 무의식과 욕망 주체, 레비나스의 타자 중심 주체, 포퍼와 폴라니의 인식론, 그리고 하이데거의 탈윤리적 사유와 휴머니즘 극복을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주체 비판의 두 갈래",
+        "value": "니체와 하이데거로 이어지는 형이상학적 주체 해체 노선과, 라캉의 정신분석학 및 포퍼의 주체 없는 인식론 등의 과학적·구조적 비판 노선"
+      }
+    ],
+    "keyEntitiesText": "강영안, 데카르트, 칸트, 셸링, 헤겔, 키에르케고어, 니체, 라캉, 레비나스, 하이데거, 포퍼, 폴라니, 푸코, 데리다",
+    "settingText": "근대에서 현대(포스트모던)에 이르는 유럽 철학 사조"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eRX31yqEuIfm6gfmiHS1yDw-Ez5uICaH",
+    "filename": "강영안-주체는 죽었는가(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:48:48.000Z",
+    "size": "605147",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1eRX31yqEuIfm6gfmiHS1yDw-Ez5uICaH/view?usp=drivesdk",
+    "sourceSha256": "6c302db8c16d3eed7f7f8f93fd813fbfa6df6be59e9f0eb2b060261a195163aa",
+    "textSha256": "eee5370b6da06ff5084c5f348dc783c834bd531bad7b49915f7e5381a39cd983",
+    "changeKey": "752fec8e396e11c9cf3bda6475f56ef7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7e60fa10cc502e159fff",
+    "workId": "7e60fa10cc502e159fff",
+    "driveFileId": "1eRX31yqEuIfm6gfmiHS1yDw-Ez5uICaH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:26:01.947208+00:00",
+    "updatedAt": "2026-09-22T17:26:01.947225+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:26:01.947310+00:00"
+    }
+  }
+}

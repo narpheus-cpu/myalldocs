@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "논리시작 오류끝 3 - 지혜편",
+    "author": "강영계",
+    "genre": "논리학",
+    "tags": [
+      "논리",
+      "오류론",
+      "합리적사고",
+      "추론"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "강영계는 서울대 철학과와 독일 뷔르츠부르크대학을 졸업한 철학박사로, 건국대 철학과 교수로 재직했다.",
+    "oneLineSummary": "올바른 생각의 방법과 논리적 추론의 기초를 다지고, 일상과 학문에서 범하기 쉬운 다양한 오류들을 체계적으로 정리한 논리학 교양서이다.",
+    "overallSummary": "이 책은 논리적으로 생각하고 표현하는 방법을 다루는 '논리 시리즈'의 제3권으로, 생각하는 방법, 논리학의 정의, 개념의 외연과 내포, 올바르게 정의 내리기 등을 설명한다. 특히 연역추리와 귀납추리의 기초 위에서 사람들이 범하기 쉬운 형식적·비형식적 오류(언어 및 자료에 의한 오류)들을 다양한 예시와 함께 상세히 분석하여 합리적 사고를 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "하나. 어떻게 생각할 것인가",
+        "summary": "플라톤의 동굴의 비유와 베이컨의 사대 우상설을 통해 편견을 극복하고 올바르게 생각하는 방법을 설명한다."
+      },
+      {
+        "sectionTitle": "둘. 왜 논리가 필요한가 & 셋. 올바르게 정의내리기",
+        "summary": "논리적 명제와 추리, 추론의 타당성을 다루고, 개념의 외연과 내포를 바탕으로 올바른 정의의 규칙을 제시한다."
+      },
+      {
+        "sectionTitle": "넷~여섯. 오류론",
+        "summary": "오류의 정의와 종류, 연역추리의 형식적 오류 및 언어·자료에 의한 비형식적 오류들을 체계적으로 분류하여 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "베이컨의 4대 우상",
+        "value": "종족의 우상(인간 중심적 편견), 동굴의 우상(개인적 편견), 시장의 우상(언어적 편견), 극장의 우상(권위적 편견)"
+      }
+    ],
+    "keyEntitiesText": "강영계, 플라톤, 베이컨, 계용묵(백치 아다다)",
+    "settingText": "합리적 사고가 요구되는 현대 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12WlcjXUQv2I5lhlHuFMrlcMkBqkXon8Z",
+    "filename": "강영계-논리시작 오류끝 3-지혜편 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.599Z",
+    "size": "211762",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/12WlcjXUQv2I5lhlHuFMrlcMkBqkXon8Z/view?usp=drivesdk",
+    "sourceSha256": "e14e57b3e13a35b6b9f15a504621b4c46158ce90562c142403251a8c208d05ad",
+    "textSha256": "8706b2e3a87eecd8cbed8624923981dd65f3247faa4794a15914baccac9b1c56",
+    "changeKey": "0eca9548fdf529ff0fbfa03e319f07b4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2084c148b055e969831a",
+    "workId": "2084c148b055e969831a",
+    "driveFileId": "12WlcjXUQv2I5lhlHuFMrlcMkBqkXon8Z",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:25:43.479700+00:00",
+    "updatedAt": "2026-09-22T17:25:43.479716+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:25:43.479798+00:00"
+    }
+  }
+}

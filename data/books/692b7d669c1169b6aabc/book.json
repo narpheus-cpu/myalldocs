@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "철학에 이르는 길",
+    "author": "강영계",
+    "genre": "철학 입문",
+    "tags": [
+      "철학입문",
+      "인식론",
+      "윤리학",
+      "실존주의"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "강영계는 건국대학교 철학과 교수로 재직하며 서양 철학의 주요 고전들을 번역하고 대중적인 철학 입문서를 저술해 왔다.",
+    "oneLineSummary": "일상적인 사고방식을 철학적인 사고방식을 통해 지양하고, 삶과 세계의 근원을 스스로 구성할 수 있도록 안내하는 철학 입문서이다.",
+    "overallSummary": "이 책은 철학에 대한 대중적인 오해와 편견을 바로잡고, 철학의 본질과 다양한 분야를 소개한다. 인식론(우리는 무엇을 어떻게 아는가), 윤리학(행복과 양심), 언어철학(말의 뜻), 미학(아름다움과 예술), 종교철학(신의 존재), 그리고 현대 사회의 갈등과 고뇌, 죽음의 문제 등을 다루며 독자가 주체적으로 삶을 성찰하고 세계를 구성해 나갈 수 있도록 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1~3장 철학의 기초",
+        "summary": "철학에 대한 그릇된 생각(미신 등)을 비판하고, 지혜에 대한 사랑으로서의 철학의 분야들과 논리적 생각의 필요성을 설명한다."
+      },
+      {
+        "sectionTitle": "제4~6장 인식, 윤리, 언어",
+        "summary": "감각과 이성을 통한 앎의 구성, 행복과 중용의 미덕, 그리고 언어와 대화의 역할을 탐구한다."
+      },
+      {
+        "sectionTitle": "제7~11장 미, 종교, 실존",
+        "summary": "예술적 아름다움, 종교와 신의 존재 증명, 현대의 갈등 극복, 고뇌와 죽음의 의미, 그리고 주체로서의 인간과 자유를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학의 목적",
+        "value": "일정한 답을 제시하는 것이 아니라, 자신과 대상의 관계 안에서 스스로의 삶과 세계를 체계적·근원적으로 구성하는 것"
+      }
+    ],
+    "keyEntitiesText": "강영계, 소크라테스, 토마스 아퀴나스, 하버마스, 니체, 칸트",
+    "settingText": "현대 사회의 비합리성과 실존적 고뇌"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eVf16XlL8NhQGnUNyNC5UWaPhxsL5Zeb",
+    "filename": "강영계-철학에 이르는 길 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.629Z",
+    "size": "489497",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1eVf16XlL8NhQGnUNyNC5UWaPhxsL5Zeb/view?usp=drivesdk",
+    "sourceSha256": "68bdcf1d875c8564e5c8c711efc8d0210991cac9af0631e658e064ea58a7a940",
+    "textSha256": "849ce04da5f9f3b255aa6dd2ef5541d7d0aea6f4a6ff8bf89e04c72532b3301d",
+    "changeKey": "4ca7eb41bde987c196843e1e96f0cb21",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "692b7d669c1169b6aabc",
+    "workId": "692b7d669c1169b6aabc",
+    "driveFileId": "1eVf16XlL8NhQGnUNyNC5UWaPhxsL5Zeb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:25:55.337023+00:00",
+    "updatedAt": "2026-09-22T17:25:55.337055+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:25:55.337144+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "감정 독재",
+    "author": "강준만",
+    "genre": "심리학",
+    "tags": [
+      "감정독재",
+      "행동경제학",
+      "심리편향",
+      "소통"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "강준만은 전북대학교 신문방송학과 교수로 재직 중이며, 정치, 사회, 언론, 문화 등 전방위적인 저술 활동을 펼치는 대한민국 대표 지식인이다.",
+    "oneLineSummary": "인간이 이성보다 감정에 지배받는 '합리화하는 존재'임을 밝히고, 일상과 사회 현상을 설명하는 50가지 심리·행동 이론을 정리한 교양서이다.",
+    "overallSummary": "이 책은 인간이 합리적 존재가 아니라 감정의 지배를 받으며 사후에 이를 합리화하는 존재라는 전제에서 출발한다. 행동경제학과 심리학의 다양한 이론들을 동원하여, 왜 대학 입시 제도가 정권마다 자주 바뀌는지(행동 편향), 왜 스포츠 심판들이 결정적 순간에 휘슬을 불지 않는지(부작위 편향) 등 일상적이고 사회적인 의문 50가지에 대해 명쾌한 답을 제시한다. 감정 독재 체제하에서 타협하고 소통하는 법을 모색한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "이성은 결론을 낳지만 감정은 행동을 낳는다는 점을 짚으며, 인간이 '감정 동물'임을 인정하는 것이 소통의 출발점임을 역설한다."
+      },
+      {
+        "sectionTitle": "01 행동 편향",
+        "summary": "아무런 소용이 없거나 오히려 해가 되더라도 가만히 있는 것보다 무언가 행동을 취하는 것을 선호하는 인간의 성향을 대입 제도 변경 사례로 설명한다."
+      },
+      {
+        "sectionTitle": "02 부작위 편향",
+        "summary": "행동을 해서 발생하는 손실보다 행동하지 않아서 발생하는 손실에 덜 민감한 현상을 스포츠 심판의 판정 및 제약회사의 신약 개발 사례로 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "행동 편향과 부작위 편향의 대비",
+        "value": "행동 편향은 무조건 행동하려는 성향을, 부작위 편향은 책임을 피하기 위해 행동을 보류(방관)하려는 성향을 나타냄"
+      }
+    ],
+    "keyEntitiesText": "강준만, 데이비드 흄, 소스타인 베블런, 대니얼 카너먼, 이주호, 전일수, 이병규",
+    "settingText": "현대 한국 사회의 정치, 교육, 스포츠 및 일상 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cR6JI7QzwvAL5nNNdillsfRbnBPZdrfY",
+    "filename": "강준만-감정 독재 -- 강준만(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.666Z",
+    "size": "529898",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1cR6JI7QzwvAL5nNNdillsfRbnBPZdrfY/view?usp=drivesdk",
+    "sourceSha256": "f9a5321e7c9465a4fb55e624b6a4f67c4d81943aba9427f264e6e3d647cacfaf",
+    "textSha256": "99f00ffded7fadc4a63c13b221a0c9e773f9c587e7cda00d56d97b726a6b8970",
+    "changeKey": "04490fbe60a52b93f39c13b170609d17",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1e4751a8094cc9d0cd41",
+    "workId": "1e4751a8094cc9d0cd41",
+    "driveFileId": "1cR6JI7QzwvAL5nNNdillsfRbnBPZdrfY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:26:41.752476+00:00",
+    "updatedAt": "2026-09-22T17:26:41.752494+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:26:41.752576+00:00"
+    }
+  }
+}
