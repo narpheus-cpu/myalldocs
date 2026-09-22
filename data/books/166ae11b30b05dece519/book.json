@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-순자",
+    "author": "윤무학",
+    "genre": "인문_철학",
+    "tags": [
+      "순자",
+      "유교",
+      "성악설",
+      "예의",
+      "고전"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "동방대학원대학교 교수이며 철학박사학위를 받았다.",
+    "oneLineSummary": "전국시대 혼란기를 살피며 예악과 인위적 교화를 강조한 유가 철학자 순자의 사상을 종횡으로 해설한다.",
+    "overallSummary": "이 책은 맹자와 함께 선진 유가의 거봉으로 꼽히는 순자의 철학과 생애를 고전 독법의 원리와 함께 풀어낸다. 고전을 종횡으로 읽는 법과 성현의 눈높이를 설명하고, 공자의 고뇌와 맹자의 혁명론을 거쳐 순자의 사상적 특징에 접근한다. 성악설의 진정한 의미와 천인분피(天人分彼), 예법을 통한 사회 질서 확립을 강조한 순자 철학의 현대적 의의를 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고전의 이해",
+        "summary": "고전을 종횡으로 읽는 방법과 성현의 정치적·윤리적 눈높이, 그리고 고전 속 핵심 개념들의 다양성을 설명한다."
+      },
+      {
+        "sectionTitle": "공자의 고뇌와 삶",
+        "summary": "공자의 학습과 정명론, 그리고 맹자의 혁명론과 민본주의적 군주론의 전개 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "순자의 이해",
+        "summary": "전국시대 직하학궁에서 활동한 순자의 생애, 철학의 방법론인 합일과 비판, 그리고 맹자의 성선설과 대비되는 순자 사상의 특성을 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사상적 비교",
+        "value": "공자, 맹자, 순자의 유교 사상 연속성과 차이점 분석"
+      }
+    ],
+    "keyEntitiesText": "윤무학, 주자, 퇴계, 장자, 혜시, 공자, 자공, 맹자, 순자, 제선왕, 걸왕, 주왕",
+    "settingText": "중국 춘추전국시대 및 제나라 직하학궁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xbiOANnLbSL3pziel1BU0byUhR3SV-nH",
+    "filename": "살림지식총서-순자(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:05:36.000Z",
+    "size": "165821",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1xbiOANnLbSL3pziel1BU0byUhR3SV-nH/view?usp=drivesdk",
+    "sourceSha256": "7a8256749e1c92302aa756da6234b607c433194d8d1837deaa742d8e266b615d",
+    "textSha256": "f56c4d27152dde3831286cd7f908485f40156db39194d48afeea90faf29f141a",
+    "changeKey": "d09882a6b658193d900ce76c1e23f8b4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "166ae11b30b05dece519",
+    "workId": "166ae11b30b05dece519",
+    "driveFileId": "1xbiOANnLbSL3pziel1BU0byUhR3SV-nH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:51:35.181053+00:00",
+    "updatedAt": "2026-09-22T19:51:35.181066+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:51:35.181159+00:00"
+    }
+  }
+}

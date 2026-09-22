@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-버지니아 울프",
+    "author": "김희정",
+    "genre": "문학_비평",
+    "tags": [
+      "버지니아 울프",
+      "모더니즘",
+      "페미니즘",
+      "의식의 흐름"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "literature",
+        "feminism"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울시립대학교 교양과정부 강의전담교수이며 버지니아 울프 전공으로 박사학위를 받았다.",
+    "oneLineSummary": "모더니즘 기법과 페미니즘적 통찰로 인간 내면을 탐구한 작가 버지니아 울프의 삶과 문학을 해설한다.",
+    "overallSummary": "이 책은 20세기 최고의 모더니스트이자 여성 작가인 버지니아 울프의 문학 세계를 조명한다. 전통적 사실주의를 거부하고 의식의 흐름 기법을 통해 여성의 내면과 일상을 포착해낸 그녀의 혁신성을 분석하며, 모더니즘과 페미니즘이 융합된 그녀의 급진적 세계관을 현대적 관점에서 재평가한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "지금 왜 울프를 읽는가",
+        "summary": "울프를 둘러싼 상반된 이미지들과 난해함 속에서도 그녀의 작품을 읽어야 하는 이유를 모더니즘과 페미니즘의 관점에서 설명한다."
+      },
+      {
+        "sectionTitle": "살아남은 여성 예술가의 초상",
+        "summary": "울프의 가족사와 성장 배경, 신경쇠약과 정신질환 등 그녀의 삶과 작품의 연관성을 전기적 사실을 바탕으로 탐색한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학 기법",
+        "value": "의식의 흐름 기법과 여성적 글쓰기의 특성 분석"
+      }
+    ],
+    "keyEntitiesText": "김희정, 버지니아 울프, 레슬리 스티븐, 줄리아 덕워스, 퀜틴 벨, 허마이오니 리, 캐롤린 하일브런",
+    "settingText": "19~20세기 영국 런던 및 블룸즈베리 그룹의 활동 무대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oPX23Tt2v4TU6ZOrPbDnnP5NpX0SApGr",
+    "filename": "살림지식총서-버지니아 울프(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:57:08.000Z",
+    "size": "146161",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1oPX23Tt2v4TU6ZOrPbDnnP5NpX0SApGr/view?usp=drivesdk",
+    "sourceSha256": "887dc7b788a5ceb6ed4432eb176b95fb157ad9ae1775c97542bbb057eb0472ec",
+    "textSha256": "8fd3cc6fc8eb1324357d4269064b914467d379977f2f4da97a9741ffc260ed19",
+    "changeKey": "3661a3cfaef10452dfcb111bc1ad8519",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "459146e9b0dfa6b98f83",
+    "workId": "459146e9b0dfa6b98f83",
+    "driveFileId": "1oPX23Tt2v4TU6ZOrPbDnnP5NpX0SApGr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:49:55.011317+00:00",
+    "updatedAt": "2026-09-22T19:49:55.011330+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:49:55.011421+00:00"
+    }
+  }
+}

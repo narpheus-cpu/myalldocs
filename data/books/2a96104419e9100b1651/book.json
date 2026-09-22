@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-보들레르",
+    "author": "건수",
+    "genre": "예술_인물",
+    "tags": [
+      "보들레르",
+      "악의 꽃",
+      "현대시",
+      "프랑스문학"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "poetry",
+        "literature"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "충남대학교 불어불문학과 교수이며 프랑스 현대시 연구로 문학박사 학위를 받았다.",
+    "oneLineSummary": "서양 현대시의 시원을 연 저주받은 천재 시인 샤를르 보들레르의 생애와 문학세계를 탐구한다.",
+    "overallSummary": "이 책은「악의 꽃」으로 서양 현대시의 물꼬를 튼 시인 샤를르 보들레르의 굴곡진 생애와 예술적 궤적을 좇는다. 유산 상속과 금치산 선고, 인도양 항해, 마약과 방탕한 생활, 그리고 잔느 뒤발 등 여인들과의 사랑 속에서 형성된 그의 현대성과 당디즘을 입체적으로 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가면서",
+        "summary": "보들레르가 현대시사에서 차지하는 의의를 밝히고 그의 삶과 작품 세계를 소개한다."
+      },
+      {
+        "sectionTitle": "출생에서 청소년기까지(1821~1839)",
+        "summary": "유복한 가정 환경과 부친의 죽음, 계부 오픽과의 갈등, 루이 르그랑 고등학교 시절의 반항적 기질과 문학적 자질의 싹틈을 다룬다."
+      },
+      {
+        "sectionTitle": "두 개의 사건, 인도양 항해와 금치산선고(1840~1844)",
+        "summary": "방탕한 생활을 멀리하기 위한 인도양 항해와 성년이 되어 유산을 탕진한 후 내린 모친의 금치산선고 과정을 서술한다."
+      },
+      {
+        "sectionTitle": "문학청년기의 사랑과 모색(1845~1856)",
+        "summary": "미술평론 활동, 자살 시도, 에드거 앨런 포와의 조우, 잔느 뒤발과의 동거, 당디즘의 형성을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시의 성격",
+        "value": "현대성과 당디즘, 악의 꽃 산출 배경"
+      }
+    ],
+    "keyEntitiesText": "샤를르 보들레르, 이건수, 피슈아, 오픽 중령, 잔느 뒤발, 에드거 앨런 포, 들라크르와, 고티에",
+    "settingText": "19세기 프랑스 파리, 리용 및 인도양의 섬들"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1E-o3vxJ5wt8H1-9tnFciutFOgX6yP6EQ",
+    "filename": "살림지식총서-보들레르(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:58:40.000Z",
+    "size": "127563",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1E-o3vxJ5wt8H1-9tnFciutFOgX6yP6EQ/view?usp=drivesdk",
+    "sourceSha256": "137ad780a06688c431d7d564e8a2e499701c48406134336b4bfb93bf2a9764d4",
+    "textSha256": "580c75c315635163bdea457c41070190a5bacaa05d631647514e67288b557ca2",
+    "changeKey": "1d02fa529e502736e91fb894f78ea170",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2a96104419e9100b1651",
+    "workId": "2a96104419e9100b1651",
+    "driveFileId": "1E-o3vxJ5wt8H1-9tnFciutFOgX6yP6EQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:50:12.135900+00:00",
+    "updatedAt": "2026-09-22T19:50:12.135915+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:50:12.136029+00:00"
+    }
+  }
+}

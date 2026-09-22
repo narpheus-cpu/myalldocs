@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-수도원의 역사",
+    "author": "최형걸",
+    "genre": "역사_종교",
+    "tags": [
+      "수도원",
+      "수도자",
+      "기독교",
+      "금욕",
+      "영성"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "religion_myth"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "천안대학교 기독신학대학원 강사이며 독일 마르버그 대학교에서 석사학위를 받았다.",
+    "oneLineSummary": "세상을 등지고 신성에 참여하고자 했던 수도자와 기독교 수도원의 역사적 기원과 발전 과정을 살핀다.",
+    "overallSummary": "이 책은 인간의 근원적 불안과 모자람을 채우기 위해 신을 찾고 세상을 포기한 이들, 즉 수도자들과 그들이 모여 사는 수도원의 역사를 다룬다. 기독교 성서적 배경 속에서 예수를 따르는 삶과 종말론적 신앙을 고찰하고, 초기 기독교의 금욕주의와 헬라 문화의 전통이 만나 동방교회에서 광야 금욕과 수도원 제도로 발전해 간 과정을 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "수도자, 신성에 참여하고 싶었던 사람들",
+        "summary": "인간의 본능적 불안과 모자람을 극복하기 위해 절대자를 찾고 세상과 긴장관계를 유지하는 수도자의 실존적 의미를 정의한다."
+      },
+      {
+        "sectionTitle": "수도원의 처음, 빛은 동방에서",
+        "summary": "기독교의 성서적 배경(구약과 신약의 구원관, 예수의 삶)을 살피고, 금욕적 삶이 초기 기독교의 순교 개념과 결합해 수도원으로 발전한 형태를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 고찰",
+        "value": "헬라 금욕 전통과 기독교 신앙의 융합을 통한 수도원 기원 분석"
+      }
+    ],
+    "keyEntitiesText": "최형걸, 예수, 위클리프, 유세비우스",
+    "settingText": "고대 중동 지역, 이집트 및 소아시아의 광야와 수도원 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1F2RVH7KkKk8js5-yioql3QtT2WWkyplA",
+    "filename": "살림지식총서-수도원의 역사(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:05:08.000Z",
+    "size": "160127",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1F2RVH7KkKk8js5-yioql3QtT2WWkyplA/view?usp=drivesdk",
+    "sourceSha256": "ef4600098f77acee29f7ab8e93f318d5d4cbf803f742dbe37e1e48f2b21c122a",
+    "textSha256": "584139387af8b878f8c5529862612487e22971980bcc34adeb22bf1a81242e0d",
+    "changeKey": "a68080740a243524c3a53d6bef199c7d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3736573aeea6bfe3fb9f",
+    "workId": "3736573aeea6bfe3fb9f",
+    "driveFileId": "1F2RVH7KkKk8js5-yioql3QtT2WWkyplA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:51:24.238190+00:00",
+    "updatedAt": "2026-09-22T19:51:24.238234+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:51:24.238330+00:00"
+    }
+  }
+}

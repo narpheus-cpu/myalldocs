@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-소크라테스를 알라",
+    "author": "장영란",
+    "genre": "인문_철학",
+    "tags": [
+      "소크라테스",
+      "플라톤",
+      "철학",
+      "지혜",
+      "변론"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국외국어대학교 철학과 강사이자 그리스 철학 전공으로 박사학위를 받았다.",
+    "oneLineSummary": "서구 철학의 정신인 소크라테스의 실제 삶과 철학적 의미를 플라톤의 원전을 통해 탐구한다.",
+    "overallSummary": "이 책은 인류 역사상 가장 유명한 철학자 소크라테스의 진면모를 찾아가는 여정을 그린다. 철학(philosophia)과 지혜(sophia), 사랑(philia)의 개념적 의미를 살피고, 플라톤의「소크라테스의 변론」과「크리톤」을 중심으로 그의 생애, 외모, 성격, 그리고 아테네 법정에서의 재판과 죽음을 생생하게 복원하여 철학하는 삶의 본질을 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "철학이란 무엇인가?",
+        "summary": "철학의 어원적 의미와 진리에 대한 사랑(에로스)의 성격을 밝히고, 왜 인간이 철학을 해야 하는지 그 실존적 이유를 설명한다."
+      },
+      {
+        "sectionTitle": "소크라테스의 생애 - 아주 이상한 사람 소크라테스",
+        "summary": "플라톤과 크세노폰 등의 기록을 바탕으로 소크라테스의 출신, 독특한 외모, 크산티페와의 관계, 그리고 강인한 정신력과 용기를 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "텍스트 접근",
+        "value": "플라톤의 초기 대화편 원전을 중심로 한 소크라테스 재구성"
+      }
+    ],
+    "keyEntitiesText": "장영란, 소크라테스, 플라톤, 크세노폰, 아리스토파네스, 아리스토텔레스, 크산티페, 알키비아데스",
+    "settingText": "고대 그리스 아테네 및 아고라 광장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JtXybYaeajOG8-Y-vyty8kPBouCYZ4e2",
+    "filename": "살림지식총서-소크라테스를 알라(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:04:42.000Z",
+    "size": "145877",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1JtXybYaeajOG8-Y-vyty8kPBouCYZ4e2/view?usp=drivesdk",
+    "sourceSha256": "b1e72fc84f36d3787a0b981ac344dc73bcdeda8e31f499f8c76edca12c4025cd",
+    "textSha256": "da4b8b67c06f7b74bb42f84b27927f93ba55d15d59553069f546ea62c71c2b9a",
+    "changeKey": "dcff188ba7ff227b3a674d60bfc402f4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "885c30513e6069894461",
+    "workId": "885c30513e6069894461",
+    "driveFileId": "1JtXybYaeajOG8-Y-vyty8kPBouCYZ4e2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:51:17.352718+00:00",
+    "updatedAt": "2026-09-22T19:51:17.352732+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:51:17.352823+00:00"
+    }
+  }
+}

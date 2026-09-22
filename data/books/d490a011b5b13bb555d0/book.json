@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-백석",
+    "author": "이숭원",
+    "genre": "문학_시",
+    "tags": [
+      "백석",
+      "한국시",
+      "갈매나무",
+      "사슴"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "poetry",
+        "literature"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울여자대학교 국어국문학과 교수이자 문학평론가이다.",
+    "oneLineSummary": "북방 정서와 토속적 방언으로 한국 현대시의 지평을 넓힌 시인 백석의 삶과 문학을 조명한다.",
+    "overallSummary": "이 책은 한국시가 낳은 가장 아름다운 시인으로 평가받는 백석의 생애와 작품 세계를 다룬다. 평안도 방언을 바탕으로 한 토속적 세계와 눌변의 미학을 분석하며, 시인의 굴곡 많은 삶과 이루지 못한 사랑, 그리고 월북 이후 북한에서의 삶과 말년을 객관적으로 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "백석과의 만남",
+        "summary": "저자가 대학 시절「한국문학사」를 통해 백석을 접하고 그의 시에 매료된 과정과 연구를 시작하게 된 계기를 회고한다."
+      },
+      {
+        "sectionTitle": "시인의 생애",
+        "summary": "평안북도 정주에서의 출생부터 오산학교, 청산학원 유학, 기자와 교사 생활, 만주 유랑과 북한에서의 말년까지의 궤적을 그린다."
+      },
+      {
+        "sectionTitle": "사랑과 그리움의 시",
+        "summary": "박경련에 대한 짝사랑과 김자야와의 만남 등 시인의 실제 삶이 작품 속에 투영된 양상을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시의 특징",
+        "value": "방언 기반의 토속적 세계와 눌변의 미학"
+      }
+    ],
+    "keyEntitiesText": "백석, 이숭원, 김현, 김윤식, 방응모, 조만식, 김자야, 박경련, 허준, 신현중",
+    "settingText": "일제강점기 평안북도 정주, 서울, 함흥, 만주 및 분단 이후의 북한 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xbGqCLhEaeTyB0KWadxTvhrWqqLzFKwK",
+    "filename": "살림지식총서-백석(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:56:12.000Z",
+    "size": "157389",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1xbGqCLhEaeTyB0KWadxTvhrWqqLzFKwK/view?usp=drivesdk",
+    "sourceSha256": "bf6b3300662dbead1f67d6142714cb815b161998ba6974446fafee6a018ed9cd",
+    "textSha256": "5e5b7802355eb1cbdec5abe3db07cab8add05a45173cfe05bfdccc4090f6f0c0",
+    "changeKey": "92480ff993ad841e4430f5d13b9cac7d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d490a011b5b13bb555d0",
+    "workId": "d490a011b5b13bb555d0",
+    "driveFileId": "1xbGqCLhEaeTyB0KWadxTvhrWqqLzFKwK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:49:40.869491+00:00",
+    "updatedAt": "2026-09-22T19:49:40.869505+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:49:40.869615+00:00"
+    }
+  }
+}

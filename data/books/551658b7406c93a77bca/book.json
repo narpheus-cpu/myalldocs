@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-아테네인, 스파르타인",
+    "author": "윤진",
+    "genre": "역사_문화",
+    "tags": [
+      "아테네",
+      "스파르타",
+      "그리스",
+      "민주정",
+      "폴리스"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "politics",
+        "culture"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "충북대학교 사학과 교수이며 역사학 박사학위를 받았다.",
+    "oneLineSummary": "고대 그리스의 두 중심 폴리스인 아테네와 스파르타의 대조적인 삶과 문화를 비교 조명한다.",
+    "overallSummary": "이 책은 서구 문화의 뿌리인 고대 그리스의 대표적 두 도시국가 아테네와 스파르타를 대비하여 그들의 정치, 교육, 종교, 문화적 특징을 분석한다. 아테네의 민주정과 눈부신 예술적 성취, 자유로운 분위기에 견주어, 스파르타의 가혹한 공교육, 국가에 대한 절대적 충성, 소박한 생활 방식을 비교하며 고대 폴리스의 삶의 방식을 입체적으로 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고대 문명의 두 중심지",
+        "summary": "아테네와 스파르타의 지리적 배경, 언어적 차이, 그리고 아테네의 문화적 창조성과 스파르타의 국가 중심 공교육 모델의 의의를 개괄한다."
+      },
+      {
+        "sectionTitle": "수호신과 종교",
+        "summary": "두 나라의 상징적 여신인 아테네의 수호신 아테나와 스파르타의 아르테미스 숭배 양상, 그리고 판아테나이아 축제를 비롯한 주요 축제들을 비교한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비교 역사",
+        "value": "아테네(자유와 문화)와 스파르타(통제와 충성)의 이원적 모델 대비"
+      }
+    ],
+    "keyEntitiesText": "윤진, 험프리 미첼, 플라톤, 페리클레스, 아리스토파네스, 아테나, 포세이돈, 아르테미스",
+    "settingText": "고대 그리스 아티카 반도 및 펠로폰네소스 반도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Jr4k0UW88hQQtj3aPh_m-VZgiwFV4Scl",
+    "filename": "살림지식총서-아테네인, 스파르타인(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:06:32.000Z",
+    "size": "142148",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1Jr4k0UW88hQQtj3aPh_m-VZgiwFV4Scl/view?usp=drivesdk",
+    "sourceSha256": "86f708e72b304e4914c3ad7e63b7ac039ce1be84a5421fda202d1d083aa2602a",
+    "textSha256": "433218e1f48ee1967c172729fe5b62ad86dcf02d73ba3e77d1d14302141cd5b3",
+    "changeKey": "4ff85185e59d67644ef08b56b4aa1370",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "551658b7406c93a77bca",
+    "workId": "551658b7406c93a77bca",
+    "driveFileId": "1Jr4k0UW88hQQtj3aPh_m-VZgiwFV4Scl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:51:41.544587+00:00",
+    "updatedAt": "2026-09-22T19:51:41.544602+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:51:41.544715+00:00"
+    }
+  }
+}

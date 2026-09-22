@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-법원이야기",
+    "author": "오호택",
+    "genre": "사회_법",
+    "tags": [
+      "법원",
+      "재판",
+      "사법제도",
+      "한국법사"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "국립한경대학교 법학부 교수이며 헌법학박사학위를 받았다.",
+    "oneLineSummary": "일반인에게 낯선 법과 재판, 그리고 법원의 역사와 역할을 친숙하게 소개한다.",
+    "overallSummary": "이 책은 우리 삶과 밀접하지만 멀게만 느껴지는 법원과 재판 제도의 본질을 알기 쉽게 풀어낸다. 뇌물과 사회 구조의 관계를 시작으로 한국 전통 시대부터 일제강점기, 미군정기를 거쳐 현대에 이르기까지 사법 제도의 변천사를 살피고, 법원의 종류와 구성, 재판의 특성을 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "법원은 뭐 하는 곳인가",
+        "summary": "법 집행의 문제점과 뇌물 수수 풍토를 구조적 관점에서 짚어보고, 법과 사법부의 필요성을 역설한다."
+      },
+      {
+        "sectionTitle": "법원은 어떻게 변해 왔나",
+        "summary": "삼국시대와 고려, 조선 시대의 전통적 재판 제도부터 갑오개혁과 을미개혁을 거친 근대사법의 도입 및 현대에 이르기까지의 변천 과정을 정리한다."
+      },
+      {
+        "sectionTitle": "법원은 어떻게 구성되고 어떤 일을 하나",
+        "summary": "재판의 요건과 특성, 3심제에 따른 법원의 종류와 조직 구성, 대법원 청사의 변천사를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정보 전달",
+        "value": "역사적 사실과 구체적 판례를 통한 법 제도 이해"
+      }
+    ],
+    "keyEntitiesText": "오호택, 홉스, 변사또, 장영실, 정근철, 프랭클린 루스벨트",
+    "settingText": "고대부터 현대에 이르기까지의 한국 역사적 공간 및 법원 청사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pVmbPInBbaOyfAna25vrpGYv6roNiKDd",
+    "filename": "살림지식총서-법원이야기(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:57:34.000Z",
+    "size": "155202",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1pVmbPInBbaOyfAna25vrpGYv6roNiKDd/view?usp=drivesdk",
+    "sourceSha256": "62da0a05587bbf46331e292fd13b142167726e065ef0ec4bbce4e5c0cb808947",
+    "textSha256": "adfdb49563ef364eb7cbd992879b84419bb1d215644e67b9d6ed8ad7cc6ccc4b",
+    "changeKey": "c56cc68db7f9883acb46c282188574e7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fe95be5ec208de978db4",
+    "workId": "fe95be5ec208de978db4",
+    "driveFileId": "1pVmbPInBbaOyfAna25vrpGYv6roNiKDd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:50:04.150043+00:00",
+    "updatedAt": "2026-09-22T19:50:04.150056+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:50:04.150147+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-성, 그 억압과 진보의 역사",
+    "author": "윤가현",
+    "genre": "사회_문화",
+    "tags": [
+      "성",
+      "섹스",
+      "젠더",
+      "성 혁명",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "psychology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전남대학교 심리학과 교수이며 심리학 박사학위를 받았다.",
+    "oneLineSummary": "고대부터 현대까지 성(性)의 개념과 억압, 그리고 개방의 역사를 심리학적·역사적 관점에서 조명한다.",
+    "overallSummary": "이 책은 인간의 성적 욕망과 표현이 역사 속에서 어떻게 억압되고 진보해 왔는지를 추적한다. 고대 그리스 신화 속 아리스토파네스의 양성체 이야기를 통해 '섹스'의 어원을 밝히고, 종족보존과 쾌락추구라는 성적 상호작용의 두 기능을 중심으로 고대 로마부터 기독교 청교도 시대, 현대의 성 혁명에 이르는 변화를 살핀다. 또한 섹스와 젠더의 차이를 통해 성 정체성과 가치관을 고찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "성의 개념",
+        "summary": "그리스 신화의 아리스토파네스 이야기를 통해 섹스의 어원을 살피고, 성행위의 기능(종족보존과 쾌락추구)과 역사적 기준 변화를 다룬다."
+      },
+      {
+        "sectionTitle": "성 혁명과 진화",
+        "summary": "기독교 문화권의 성적 규범 변천, 섹스 단어의 의미 확장, 젠더 개념의 등장과 페미니즘적 맥락을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "학제적 접근",
+        "value": "신화, 역사, 심리학을 통한 성 의식의 변천사 분석"
+      }
+    ],
+    "keyEntitiesText": "윤가현, 아리스토파네스, 플라톤, 존 위클리프, 존 머니",
+    "settingText": "고대 그리스부터 현대에 이르기까지의 서구 및 한국 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WLpCVITPqDiU9IkJ2TlW2DIVRiWr2WQD",
+    "filename": "살림지식총서-성, 그 억압과 진보의 역사(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:03:46.000Z",
+    "size": "149468",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1WLpCVITPqDiU9IkJ2TlW2DIVRiWr2WQD/view?usp=drivesdk",
+    "sourceSha256": "d854c4af58610919bddef89b673f025fcc3e559efa555fc0e24aeeb649a24b53",
+    "textSha256": "423f2a64ef8ffb9043960f1581bf406b694c732d93d495022c92381ca49ec107",
+    "changeKey": "a149a378a61db049aa0f15c972ed9b41",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ce26860440cf8db3cfaa",
+    "workId": "ce26860440cf8db3cfaa",
+    "driveFileId": "1WLpCVITPqDiU9IkJ2TlW2DIVRiWr2WQD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:51:02.335075+00:00",
+    "updatedAt": "2026-09-22T19:51:02.335091+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:51:02.335243+00:00"
+    }
+  }
+}

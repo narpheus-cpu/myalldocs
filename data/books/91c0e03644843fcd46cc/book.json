@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-뱀파이어 연대기",
+    "author": "한혜원",
+    "genre": "문화_예술",
+    "tags": [
+      "뱀파이어",
+      "드라큘라",
+      "호러",
+      "대중문화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "media",
+        "culture"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "계원조형예술대학교 교양학부 교수이며 디지털 스토리텔링 등을 연구한다.",
+    "oneLineSummary": "설화에서 소설, 영화, 게임에 이르기까지 시대에 따라 진화해온 뱀파이어 이야기의 문화사적 의미를 탐구한다.",
+    "overallSummary": "이 책은 산 자와 죽음의 경계에 선 뱀파이어라는 캐릭터가 인류 역사 속에서 어떻게 변모해 왔는지를 추적한다. 중세의 공포의 대상에서 근대의 소설, 현대의 영화와 게임에 이르기까지 매체의 변화에 따라 뱀파이어가 대중의 욕망과 두려움을 담아내는 그릇으로 진화해 온 과정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "삶과 죽음의 경계에 선 뱀파이어",
+        "summary": "인류 역사와 함께해 온 뱀파이어가 시대와 매체에 따라 어떻게 소비되고 변형되어 왔는지 개괄한다."
+      },
+      {
+        "sectionTitle": "뱀파이어의 비상(飛翔)",
+        "summary": "무르나우와 헤어조그의 독일식 노스페라투, 유니버셜과 해머의 드라큘라 영화들을 통해 스크린 속 뱀파이어의 변천사를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "매체 분석",
+        "value": "설화에서 문학, 영화, 게임으로의 확장 양상 고찰"
+      }
+    ],
+    "keyEntitiesText": "한혜원, 앤 라이스, 브람 스토커, 프리드리히 빌헬름 무르나우, 베르너 헤어조그, 벨라 루고시, 크리스토퍼 리, 팀 버튼",
+    "settingText": "중세 유럽부터 현대의 멀티미디어 시대에 이르는 가상과 현실의 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zem_bZTRlzWQes6VYPCa2b-RXPVHlCQ0",
+    "filename": "살림지식총서-뱀파이어 연대기(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:56:42.000Z",
+    "size": "150216",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1zem_bZTRlzWQes6VYPCa2b-RXPVHlCQ0/view?usp=drivesdk",
+    "sourceSha256": "cc6290758563411c5a396ad0bb9de0e09448069d39e25d51c2b597840fd186d3",
+    "textSha256": "cb4c30009a7cdbfcb437787ed38c690eae0f216e8e1c5e76837f6a229338f227",
+    "changeKey": "4d28ca61da5a16bf571659d13e93c70f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "91c0e03644843fcd46cc",
+    "workId": "91c0e03644843fcd46cc",
+    "driveFileId": "1zem_bZTRlzWQes6VYPCa2b-RXPVHlCQ0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:49:48.100608+00:00",
+    "updatedAt": "2026-09-22T19:49:48.100623+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:49:48.100730+00:00"
+    }
+  }
+}
