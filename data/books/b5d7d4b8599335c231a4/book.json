@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서양 철학사",
+    "author": "스털링 P. 램프레히트",
+    "genre": "철학사",
+    "tags": [
+      "서양철학사",
+      "철학",
+      "사상사"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스털링 P. 램프레히트는 미국의 철학자이자 컬럼비아 대학 교수로서 서양 철학의 역사와 전통을 깊이 있게 연구했다.",
+    "oneLineSummary": "고대 그리스부터 현대에 이르기까지 서구 문명을 형성해 온 철학적 전통과 사상의 흐름을 알기 쉽게 풀어낸 명저.",
+    "overallSummary": "이 책은 단순히 과거 철학자들의 이론을 박물관 유물처럼 나열하는 대신, 현재 우리의 정신적 상황을 이해하기 위한 예비적 과정으로서 철학사를 조명한다. 원전에 충실하면서도 사상의 연속성과 연관성에 주목하여 희랍 철학, 기독교 철학, 근세 및 현대 철학의 거대한 맥락을 짚어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리글",
+        "summary": "철학사 연구의 목적이 단순히 과거를 아는 데 있는 것이 아니라 지적 전통을 이해하고 현재의 위치를 확인하는 데 있음을 역설한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "전통의 이해",
+        "value": "과거의 사상을 현대적 관점에서 소화하여 연속성 있는 철학의 흐름으로 제시"
+      }
+    ],
+    "keyEntitiesText": "스털링 P. 램프레히트, 플라톤, 아리스토텔레스, 아우구스티누스, 데카르트, 칸트, 헤겔",
+    "settingText": "서양 사상사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Q9HSFYoNtn6ZynY97qRvoQWGG1Eb0Y_0",
+    "filename": "렘프레히트-서양철학사(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T19:33:14.000Z",
+    "size": "1941366",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1Q9HSFYoNtn6ZynY97qRvoQWGG1Eb0Y_0/view?usp=drivesdk",
+    "sourceSha256": "ad28613fa16c3307b0d73db2d261cabfac7fa1a0de776241480b1bafe7e4a07e",
+    "textSha256": "061a3f46fcc3524c4f763085c6e8b96395c1bfcbd4c6efb9054e4e501bb9f9e3",
+    "changeKey": "af7600801f94fd81154942dedd9a8aa8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b5d7d4b8599335c231a4",
+    "workId": "b5d7d4b8599335c231a4",
+    "driveFileId": "1Q9HSFYoNtn6ZynY97qRvoQWGG1Eb0Y_0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:29:46.700400+00:00",
+    "updatedAt": "2026-09-22T18:29:46.700416+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.856,
+      "updatedAt": "2026-09-22T18:29:46.700514+00:00"
+    }
+  }
+}

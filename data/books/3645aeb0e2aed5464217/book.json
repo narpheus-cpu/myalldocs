@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사람이 알아야 할 모든 것 교양",
+    "author": "디트리히 슈바니츠",
+    "genre": "인문교양",
+    "tags": [
+      "교양",
+      "유럽문명",
+      "인문학"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "디트리히 슈바니츠는 독일의 영문학자이자 함부르크 대학 교수로서 대중을 위한 교양 도서를 집필했다.",
+    "oneLineSummary": "유럽 문명의 핵심인 역사, 문학, 미술, 철학 등 교양의 모든 것을 유쾌하고 통찰력 있게 담아낸 안내서이다.",
+    "overallSummary": "이 책은 지식과 정보의 바다에서 길을 잃은 현대인들에게 유럽 문명의 뼈대를 이루는 필수 지식을 압축하여 제공한다. 그리스 신화와 성서에서 시작해 중세, 근세, 현대에 이르는 방대한 역사와 예술, 철학의 흐름을 조망하고, 진정한 교양이 무엇인지 되짚어본다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 지식",
+        "summary": "유럽 문명의 뿌리인 그리스와 성서, 중세부터 근현대 역사에 이르는 방대한 지식을 정리한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "교양의 정의",
+        "value": "암기식 지식이 아닌 사회를 결속시키는 도덕적 구속력과 의사소통 형식"
+      }
+    ],
+    "keyEntitiesText": "디트리히 슈바니츠, 괴테, 카를 대제, 나폴레옹, 히틀러",
+    "settingText": "유럽"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xhY6YBLTgSpVLFdrcbvvsIJvuk19g0rw",
+    "filename": "디트리히 슈바니츠-사람이 알아야 할 모든 것 교양(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T19:22:22.000Z",
+    "size": "1736452",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1xhY6YBLTgSpVLFdrcbvvsIJvuk19g0rw/view?usp=drivesdk",
+    "sourceSha256": "5bbfed972870f8bd9498423f69ba673343321a9453b5df1e406ceae3e08a7f44",
+    "textSha256": "ba25539cac9740a3db92e0e0c81c9d354cf342eadd2f6a6bccfb5da8fd8dedb2",
+    "changeKey": "f37976d32fa45b1126f11b2566551963",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3645aeb0e2aed5464217",
+    "workId": "3645aeb0e2aed5464217",
+    "driveFileId": "1xhY6YBLTgSpVLFdrcbvvsIJvuk19g0rw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:28:56.251090+00:00",
+    "updatedAt": "2026-09-22T18:28:56.251103+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:28:56.251209+00:00"
+    }
+  }
+}

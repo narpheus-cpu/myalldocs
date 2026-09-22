@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동주 열국지 6",
+    "author": "김구용",
+    "genre": "역사소설",
+    "tags": [
+      "춘추전국시대",
+      "동주열국지",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김구용은 중국 고전 역사 소설인 '동주열국지'를 우리말로 옮겨 춘추전국시대의 역사를 전파했다.",
+    "oneLineSummary": "제나라를 포위하는 제후들의 연합군과 오왕 부차에게 바쳐진 미인 서시의 이야기가 펼쳐진다.",
+    "overallSummary": "진평공과 제후들이 제나라를 침공하여 임치성을 포위하고, 정나라의 위기로 인해 회군하는 과정이 그려진다. 또한 월왕 구천이 미인 서시를 오왕 부차에게 바쳐 오나라를 방심하게 만드는 계략이 시작된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제나라를 에워싸는 제후들",
+        "summary": "진나라를 비롯한 열두 나라 제후들이 연합하여 제나라를 침공하고, 제영공과 고후 등이 이에 맞서 성을 지킨다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "미인계",
+        "value": "오나라를 무너뜨리기 위해 투입된 서시와 월나라의 복수극"
+      }
+    ],
+    "keyEntitiesText": "순언, 진평공, 제영공, 고후, 사광, 월왕 구천, 서시, 오왕 부차",
+    "settingText": "춘추전국시대 제나라, 진나라, 오나라, 월나라"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bg3i8ToJbSCErsX4SFJcmydZzcl6nJGE",
+    "filename": "동주 열국지06(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T19:03:32.000Z",
+    "size": "593205",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "동주 열국지"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/동주 열국지",
+    "webViewLink": "https://drive.google.com/file/d/1bg3i8ToJbSCErsX4SFJcmydZzcl6nJGE/view?usp=drivesdk",
+    "sourceSha256": "cb823192a991503475a51440bbc85a52dd25b8adcb1971ff9925c077468de2d6",
+    "textSha256": "cd2a67cc0853de872e57bc72efa7d214365406d9267b1cb5fac15fe68d1b2059",
+    "changeKey": "1a3cf6d067a6a8f565a2968d80f744f0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d6036de6a507b68d57bb",
+    "workId": "d6036de6a507b68d57bb",
+    "driveFileId": "1bg3i8ToJbSCErsX4SFJcmydZzcl6nJGE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:28:10.059977+00:00",
+    "updatedAt": "2026-09-22T18:28:10.060029+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.615,
+      "updatedAt": "2026-09-22T18:28:10.060141+00:00"
+    }
+  }
+}

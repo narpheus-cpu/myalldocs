@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동주 열국지 8",
+    "author": "김구용",
+    "genre": "역사소설",
+    "tags": [
+      "춘추전국시대",
+      "동주열국지",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김구용은 '동주열국지' 번역으로 중국 고대 역사와 철학의 흐름을 국내 독자들에게 전달했다.",
+    "oneLineSummary": "전국시대로 접어들며 월나라의 복수와 오나라의 멸망, 그리고 각국 군웅들의 활약이 펼쳐진다.",
+    "overallSummary": "월왕 구천은 서시를 오나라에 바쳐 부차를 방심하게 만들고, 오자서의 거듭된 간언은 무시된다. 오나라와 월나라의 대결 속에서 오자서의 비극적 최후와 전국시대로의 전환기가 그려진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "미인 서시를 바치는 구천",
+        "summary": "월왕 구천은 서시와 정단을 오왕 부차에게 바쳐 오나라의 국력을 소모시키고, 오자서는 이를 극력 반대한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "춘추시대의 종말",
+        "value": "오월동주와 패권국의 교체 과정"
+      }
+    ],
+    "keyEntitiesText": "월왕 구천, 서시, 오왕 부차, 오자서, 범여, 백비",
+    "settingText": "춘추전국시대 오나라와 월나라"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JgPzwzwTLsaIqQVPN7RZDd3kCy3obg-F",
+    "filename": "동주 열국지08(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T19:09:10.000Z",
+    "size": "610769",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "동주 열국지"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/동주 열국지",
+    "webViewLink": "https://drive.google.com/file/d/1JgPzwzwTLsaIqQVPN7RZDd3kCy3obg-F/view?usp=drivesdk",
+    "sourceSha256": "57d55fea086d644e25bc8fcfc27b67e9f8d3d0e3b8d6b65c8a449282ea96b6ea",
+    "textSha256": "7f238c6e71b79929ec374e50bc9396bd25463b4771e82701bfc8a8346ed8219b",
+    "changeKey": "6fe0f7c42105cf9bb8d9c4eae0d2e081",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ad2afabbd1c72c9327f0",
+    "workId": "ad2afabbd1c72c9327f0",
+    "driveFileId": "1JgPzwzwTLsaIqQVPN7RZDd3kCy3obg-F",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:28:24.256679+00:00",
+    "updatedAt": "2026-09-22T18:28:24.256692+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.615,
+      "updatedAt": "2026-09-22T18:28:24.256775+00:00"
+    }
+  }
+}

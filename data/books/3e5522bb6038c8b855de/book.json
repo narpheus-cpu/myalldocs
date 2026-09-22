@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동주 열국지 7",
+    "author": "김구용",
+    "genre": "역사소설",
+    "tags": [
+      "춘추전국시대",
+      "동주열국지",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김구용은 '동주열국지' 번역을 통해 춘추전국시대의 복잡한 정세와 인물들의 흥망성쇠를 그렸다.",
+    "oneLineSummary": "오자서가 초나라에 대한 복수를 다짐하며 오나라로 향하고, 송나라와 정나라를 거치는 파란만장한 여정이 그려진다.",
+    "overallSummary": "초평왕의 모함으로 아버지와 형을 잃은 오자서는 복수를 위해 초나라를 탈출한다. 도망치는 과정에서 신포서와 만나고, 송나라를 거쳐 정나라로 망명하며 복수의 기회를 엿본다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "오자서, 초를 원수로 삼다",
+        "summary": "오사는 아들 오상과 함께 억울하게 죽임을 당하고, 오자서는 초나라를 멸망시키겠다는 맹세를 품고 국경을 탈출한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "복수극",
+        "value": "가족의 원수를 갚기 위해 모든 것을 버리고 떠나는 오자서의 비장한 결의"
+      }
+    ],
+    "keyEntitiesText": "오자서, 오사, 오상, 초평왕, 비무극, 신포서, 송원공, 정정공",
+    "settingText": "춘추전국시대 초나라, 송나라, 정나라"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ElIv-oxB7WeXSValz23NLvJfPEnFQdB9",
+    "filename": "동주 열국지07(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T19:06:20.000Z",
+    "size": "586804",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "동주 열국지"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/동주 열국지",
+    "webViewLink": "https://drive.google.com/file/d/1ElIv-oxB7WeXSValz23NLvJfPEnFQdB9/view?usp=drivesdk",
+    "sourceSha256": "1f3b0ae7437822393ec1c402bdd0d6d375bfd6f1822b42cd033cb7479018e198",
+    "textSha256": "857548268eed1cca1f5399d2eb13944892cc0b2a6f0adfe8436d114339d6fb3a",
+    "changeKey": "b9f7f3235b7dbb4b77b07d22bc854903",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3e5522bb6038c8b855de",
+    "workId": "3e5522bb6038c8b855de",
+    "driveFileId": "1ElIv-oxB7WeXSValz23NLvJfPEnFQdB9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:28:17.117754+00:00",
+    "updatedAt": "2026-09-22T18:28:17.117768+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.615,
+      "updatedAt": "2026-09-22T18:28:17.117854+00:00"
+    }
+  }
+}

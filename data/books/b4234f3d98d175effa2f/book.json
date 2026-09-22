@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동주 열국지 9",
+    "author": "김구용",
+    "genre": "역사소설",
+    "tags": [
+      "춘추전국시대",
+      "동주열국지",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김구용은 방대한 분량의 '동주열국지'를 번역하여 전국시대의 외교와 모략의 세계를 소개했다.",
+    "oneLineSummary": "소진의 합종책과 장의의 연횡책이 맞부딪히며 전국시대의 외교전이 본격적으로 시작된다.",
+    "overallSummary": "비천한 처지에서 고생하던 소진은 '태공음부편'을 연구하여 깨달음을 얻고, 육국을 규합해 진나라에 대항하는 합종책을 성사시킨다. 한편 장의는 진나라를 위해 활약하며 전국시대의 판도를 흔든다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소진의 합종",
+        "summary": "좌절을 겪었던 소진이 와신상담 끝에 천하를 돌며 육국 제후들을 설득해 진나라에 맞서는 합종맹약을 맺는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "합종연횡",
+        "value": "천하를 뒤흔든 유세객들의 외교 전략과 책략"
+      }
+    ],
+    "keyEntitiesText": "소진, 장의, 주현왕, 연문공, 조숙후, 공손 연",
+    "settingText": "전국시대 주나라, 진나라, 연나라, 조나라"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kNurQ2knZ1nrtZ1-0chSZ5ea_FAaJbRR",
+    "filename": "동주 열국지09(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T19:12:16.000Z",
+    "size": "618703",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "동주 열국지"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/동주 열국지",
+    "webViewLink": "https://drive.google.com/file/d/1kNurQ2knZ1nrtZ1-0chSZ5ea_FAaJbRR/view?usp=drivesdk",
+    "sourceSha256": "604f835a8a554afebb7628504e971e61ff959287ff6673721a2b01ee2922bee8",
+    "textSha256": "6672c3c2708d547dd1c10b036a52b8f9063931ef090f089a85755d9b5316b9c1",
+    "changeKey": "934c2abfffd4b4d7c9eda769737ff9cf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b4234f3d98d175effa2f",
+    "workId": "b4234f3d98d175effa2f",
+    "driveFileId": "1kNurQ2knZ1nrtZ1-0chSZ5ea_FAaJbRR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:28:31.327643+00:00",
+    "updatedAt": "2026-09-22T18:28:31.327658+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.615,
+      "updatedAt": "2026-09-22T18:28:31.327753+00:00"
+    }
+  }
+}
