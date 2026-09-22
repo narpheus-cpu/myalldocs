@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "돌 속의 거미",
+    "author": "아사구레 미쓰후미",
+    "genre": "미스터리 소설",
+    "tags": [
+      "다치바나 세이이치",
+      "청각과민증",
+      "악기수리공",
+      "소리나는 돌",
+      "교통사고"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "심리미스터리",
+        "현대소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "마당에서 기묘하게 소리 나는 돌을 주운 악기 수리공 다치바나가 교통사고를 당한 후 모든 소리가 귓속을 파고드는 기괴한 청각 이상 증세를 겪는 이야기이다.",
+    "overallSummary": "어쿠스틱 악기 수리공인 다치바나 세이이치는 방음이 잘 되는 작업실 겸 거처를 구하기 위해 스기나미구의 미니맨션을 찾았다가, 안마당 화단에서 바람에 흔들리면 바스락거리는 기묘한 인형 모양의 돌을 발견한다. 방 계약을 위해 돌을 챙겨 길을 건너던 중 뺑소니 차에 치이는 사고를 겪는다. 병원에서 깨어난 그는 뇌와 신체에는 큰 이상이 없다는 진단을 받지만, 모기 날갯소리부터 에어컨 바람, 온갖 생활 소음이 귓속을 고통스럽게 파고드는 극심한 청각 과민 증상에 시달리며 퇴원하여 새 방으로 이사를 진행한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소리",
+        "summary": "교통사고 후 병실에서 깨어난 다치바나는 모기 날갯소리와 에어컨 소음, 심장 박동 등 모든 소리가 물리적 실체처럼 귓속을 파고드는 극심한 고통을 겪는다. 전날 새 방 마당에서 주운 소리 나는 기묘한 돌과 차에 치였던 순간을 기억해 내고, 병원 검사 후 퇴원하여 극심한 소음의 공포 속에서 새 거처로 이사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "청각적 묘사",
+        "value": "소리를 단순한 청각 신호가 아닌 압력과 질감, 물리적 부피를 가진 공포의 대상으로 묘사."
+      },
+      {
+        "key": "핵심 상징",
+        "value": "바람에 바스락 소리를 내는 인형 모양의 기묘한 돌과 호겐이야기의 '돌 속의 거미' 은유."
+      }
+    ],
+    "keyEntitiesText": "다치바나 세이이치(악기 수리공), 부동산 중개인, 이비인후과 의사",
+    "settingText": "도쿄 스기나미구 간선도로변 미니맨션 및 병원 검사실, 역 앞 상가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19gygcF-C4DHFqpPwemdlOmVQe79PXlNF",
+    "filename": "아사구레 미쓰후미-돌 속의 거미(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.632Z",
+    "size": "565999",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/19gygcF-C4DHFqpPwemdlOmVQe79PXlNF/view?usp=drivesdk",
+    "sourceSha256": "21f503ddc74d826e7d690e7180e29ab94d18fbd2e1bd7b59ea4c8c20737bf12b",
+    "textSha256": "57730378e650217f7e01f4a70da9b34bbf15366d446bda47c72422319fcd3902",
+    "changeKey": "cdee498af78bf9b49424a997a7c995f2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4e57a0e577f7ef94d4cd",
+    "workId": "4e57a0e577f7ef94d4cd",
+    "driveFileId": "19gygcF-C4DHFqpPwemdlOmVQe79PXlNF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:59:07.483070+00:00",
+    "updatedAt": "2026-09-22T05:59:07.483082+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:59:07.483191+00:00"
+    }
+  }
+}
