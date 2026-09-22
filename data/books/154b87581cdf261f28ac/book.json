@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "풀잎관 (The Grass Crown)",
+    "author": "콜린 매컬로",
+    "genre": "역사소설",
+    "tags": [
+      "로마 공화정",
+      "가이우스 마리우스",
+      "술라",
+      "정치 갈등"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical",
+        "political"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "콜린 매컬로는 오스트레일리아 출신의 세계적인 베스트셀러 작가로, 신경정신과 연구원 출신이라는 독특한 이력을 지니고 있으며 로마의 일인자 연작 등을 집필했습니다.",
+    "oneLineSummary": "뇌졸중 이후 변해가는 가이우스 마리우스와 법무관 선거에서 낙선한 술라의 대화 및 달마티카를 둘러싼 갈등을 다룹니다.",
+    "overallSummary": "뇌졸중의 흔적이 남은 가이우스 마리우스와 그의 아내 율리아, 그리고 법무관 선거에서 낙선한 술라와 루푸스가 모여 로마의 정치적 상황을 논합니다. 술라는 스카우루스의 어린 아내 달마티카와의 치명적인 이끌림으로 인해 겪는 곤경을 아우렐리아에게 털어놓으며 괴로워합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "마리우스와 술라, 루푸스가 모여 메텔루스 누미디쿠스의 귀환과 마리우스의 페시노스 참배 계획을 논하고, 술라의 법무관 선거 낙선 원인이 된 스카우루스의 아내 달마티카와의 복잡한 관계를 아우렐리아와의 대화를 통해 밝힙니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 갈등",
+        "value": "술라의 법무관 선거 낙선과 스카우루스의 아내 달마티카와의 감정적 얽힘 및 정치적 긴장"
+      }
+    ],
+    "keyEntitiesText": "가이우스 마리우스, 루키우스 코르넬리우스 술라, 푸블리우스 루틸리우스 루푸스, 아우렐리아, 카이킬리아 메텔라 달마티카, 마르쿠스 아이밀리우스 스카우루스, 로마",
+    "settingText": "고대 로마 공화정 말기, 마리우스의 식당 및 수부라 지구의 아우렐리아 작업실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OuEmNPYPD_wkGKkbfnmCeIZ7BALtvwWB",
+    "filename": "The Gamer Part [完].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.611Z",
+    "size": "2412693",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1OuEmNPYPD_wkGKkbfnmCeIZ7BALtvwWB/view?usp=drivesdk",
+    "sourceSha256": "e186aa9811b5529471e9308886b65dd3f5e123b084272bd6ae9e0a9efea6949f",
+    "textSha256": "74745be04f2f432e386d303e89e4a0e0cc5f2bbd4e3b0651deea15637d376aa6",
+    "changeKey": "90b997130316afd4856a397f38550853",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "154b87581cdf261f28ac",
+    "workId": "154b87581cdf261f28ac",
+    "driveFileId": "1OuEmNPYPD_wkGKkbfnmCeIZ7BALtvwWB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:58:44.296742+00:00",
+    "updatedAt": "2026-09-22T02:58:44.296762+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.41,
+      "updatedAt": "2026-09-22T02:58:44.296967+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "보석상자",
+    "author": "크루이로프",
+    "genre": "우화",
+    "tags": [
+      "우화",
+      "러시아 문학",
+      "풍자",
+      "교훈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fable",
+        "satire"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이반 안드레비치 크루이로프는 예리한 관찰력과 민주주의적인 정신을 바탕으로 귀족계급의 위선과 사회적 부조리를 날카롭게 풍자한 러시아의 위대한 우화작가입니다.",
+    "oneLineSummary": "동물과 인간 사회의 어리석음, 위선, 부정부패를 날카롭게 풍자한 우화 모음집입니다.",
+    "overallSummary": "사자의 교육, 뱀과 중상모략자, 보석상자, 물고기의 춤, 신분이 높은 사람, 사자, 금화, 거짓말쟁이, 사냥을 한 토끼, 문필가와 도둑 등 다양한 우화를 통해 인간의 어리석은 지식 자랑, 위선적인 귀족들의 착취, 부정부패를 일삼는 관리들, 그리고 사회에 해악을 끼치는 거짓말과 문필가들의 죄를 날카롭게 풍자합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사자의 교육 외 우화들",
+        "summary": "독수리에게 제왕학을 배운 사자 왕자가 쓸모없는 새들의 습성만 배워온 이야기, 지옥에서 뱀보다 더 존경받는 중상모략자 이야기, 복잡하게 생각하다 보석상자를 열지 못한 기계 전문가 이야기 등을 통해 인간의 어리석음과 위선을 풍자합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "풍자의 대상",
+        "value": "귀족 계급의 위선, 전제 정치의 부정부패, 지식인의 해악 및 인간의 허풍과 어리석음"
+      }
+    ],
+    "keyEntitiesText": "사자, 독수리, 뱀, 중상모략자, 기계에 도통한 양반, 농부, 페르시아 총독, 문필가, 도둑, 메가이라",
+    "settingText": "숲속 왕국, 지옥, 고대 페르시아 등 우화적 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14VCfnqzYzOuQgXX8_q-9sIGTZYbhyFO2",
+    "filename": "크루이로프-보석상자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.650Z",
+    "size": "154429",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/14VCfnqzYzOuQgXX8_q-9sIGTZYbhyFO2/view?usp=drivesdk",
+    "sourceSha256": "a537ed82acd59ee543590f8b0aa232bacd563eac401190464bcb72c167ed82b5",
+    "textSha256": "07863e7c3c0127890d88336ae74a75b58b1f101446a34f10ed2cd0f26b1530b1",
+    "changeKey": "0ea8f638153324d6a7d0436a855cf192",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c067f93b8371bf208e42",
+    "workId": "c067f93b8371bf208e42",
+    "driveFileId": "14VCfnqzYzOuQgXX8_q-9sIGTZYbhyFO2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:59:04.694276+00:00",
+    "updatedAt": "2026-09-22T02:59:04.694294+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:59:04.694395+00:00"
+    }
+  }
+}

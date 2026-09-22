@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "맡겨진 소녀",
+    "author": "클레어 키건",
+    "genre": "소설",
+    "tags": [
+      "아일랜드 소설",
+      "위탁 아동",
+      "가족",
+      "다정함"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "coming_of_age",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "클레어 키건은 아일랜드 출신의 소설가로, 정밀하고 서정적인 문체를 통해 유년의 고독과 인간의 원형적 감정을 깊이 있게 다루는 작가입니다.",
+    "oneLineSummary": "가난하고 애정 없는 대가족을 떠나 먼 친척 부부에게 임시로 맡겨진 한 소녀가 처음으로 마주하는 다정하고 찬란한 여름날의 이야기입니다.",
+    "overallSummary": "일요일 아침, 아빠는 나를 엄마의 고향인 웩스퍼드의 킨셀라 부부 집에 맡깁니다. 가난하고 바쁜 친정집과 달리 킨셀라 부부의 집은 깨끗하고 여유가 넘칩니다. 아빠가 제대로 된 작별인사도 없이 떠난 후, 아주머니는 나를 따뜻한 물에 목욕시키고 옷을 갈아입혀 줍니다. 아주머니와 함께 우물에 가서 차갑고 깨끗한 물을 마시며, 나는 비밀과 부끄러움이 없는 이 집에서 평온함을 느낍니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "아빠는 나를 웩스퍼드의 킨셀라 부부 집에 데려다주고, 건초와 농사 이야기를 나눈 뒤 내 짐도 내려놓지 않은 채 서둘러 차를 몰고 떠나버립니다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "아주머니는 나를 따뜻한 물에 목욕시키고 깨끗한 옷으로 갈아입힌 뒤, 함께 우물에 가서 시원한 물을 마시며 이 집에는 비밀과 부끄러운 일이 없음을 알려줍니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정서적 변화",
+        "value": "비밀과 부끄러움이 없는 킨셀라 부부의 집에서 차갑고 깨끗한 우물물을 마시며 소녀가 느끼는 정서적 해방감"
+      }
+    ],
+    "keyEntitiesText": "나(소녀), 킨셀라 아주머니(에드나), 킨셀라 아저씨, 아빠(댄), 엄마(메리), 웩스퍼드",
+    "settingText": "뜨거운 여름날의 아일랜드 웩스퍼드 시골 농장, 고요하고 깨끗한 우물과 초원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ow5qLsVncALd8rV6DcPhhdhxBrwEIBwW",
+    "filename": "클레어 키건-맡겨진 소녀(영화 말없는 소녀 원작)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-06-17T03:36:42.000Z",
+    "size": "104235",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ow5qLsVncALd8rV6DcPhhdhxBrwEIBwW/view?usp=drivesdk",
+    "sourceSha256": "24c5bc275a36095e03758e3e84c9e3150f08cd001908178fe1008678f435f47e",
+    "textSha256": "838297cc44b7edc3d53125a847e7c74cc83e1542f506a96120a5d445506082da",
+    "changeKey": "2640bb3fc81d53c5376b9e79d1d3ee9d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "277dbd6da74eb19eb171",
+    "workId": "277dbd6da74eb19eb171",
+    "driveFileId": "1ow5qLsVncALd8rV6DcPhhdhxBrwEIBwW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:59:32.119174+00:00",
+    "updatedAt": "2026-09-22T02:59:32.119192+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:59:32.119296+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나의 왼발",
+    "author": "크리스티 브라운",
+    "genre": "자서전",
+    "tags": [
+      "뇌성마비",
+      "장애 극복",
+      "어머니",
+      "예술"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "autobiography",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1932년 아일랜드 더블린 출생으로, 선천성 뇌성마비를 극복하고 화가, 시인, 소설가로서 명성을 떨친 인물입니다.",
+    "oneLineSummary": "뇌성마비 장애를 안고 태어난 크리스티 브라운이 어머니의 헌신적인 믿음 속에서 왼발로 글자 'A'를 쓰며 세상과 소통하기 시작한 이야기입니다.",
+    "overallSummary": "크리스티 브라운은 태어날 때부터 심한 뇌성마비 증세를 보여 의사들로부터 정신박약아라는 판정을 받습니다. 그러나 그의 어머니는 아들의 지능을 믿고 포기하지 않으며 가족의 일원으로 대합니다. 다섯 살이 되던 겨울날, 크리스티는 우연히 누이의 노란 분필을 왼발로 쥐고 마룻바닥에 글자 'A'를 써내려감으로써 정신적 해방과 새로운 소통의 길을 열게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장. 글자 A",
+        "summary": "뇌성마비로 신체를 자유롭게 놀리지 못하던 다섯 살의 크리스티가 가족들이 모인 부엌에서 왼발로 누이의 노란 분필을 빼앗아 마룻바닥에 글자 'A'를 쓰는 데 성공하며 기적적인 소통의 시작을 알립니다."
+      },
+      {
+        "sectionTitle": "제2장. 어--머--니",
+        "summary": "글자 'A'를 쓴 이후, 어머니는 크리스티에게 알파벳 전체를 가르치기 시작하고, 크리스티는 자신의 이름 이니셜인 C.B.와 정식 성명을 쓰는 법을 배우며 읽기에 대한 열망을 키워갑니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "극복의 순간",
+        "value": "다섯 살 때 왼발가락으로 노란 분필을 쥐고 마룻바닥에 글자 'A'를 써내려간 기적적인 사건"
+      }
+    ],
+    "keyEntitiesText": "크리스티 브라운, 어머니, 아버지, 모나, 패디, 로턴다 병원, 더블린",
+    "settingText": "1932년 이후 아일랜드 더블린, 대가족이 모여 사는 가난하지만 따뜻한 가정 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JnqY_k8C6bZKwPXWM5IW6zKaZJCmPgb9",
+    "filename": "크리스티 브라운-나의 왼발.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.704Z",
+    "size": "260001",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1JnqY_k8C6bZKwPXWM5IW6zKaZJCmPgb9/view?usp=drivesdk",
+    "sourceSha256": "911d24514b86d4b4d12b2397241d10bc565c985f1de2a480aaec70b5441b491e",
+    "textSha256": "f3ba1e3af867956b6cafa836f78d947afa0be22e7107d3af8f52e0c5ba3778e3",
+    "changeKey": "686f532cc42dcb1b24af6f7ad6387c7c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a56d17305b5b2b2aca10",
+    "workId": "a56d17305b5b2b2aca10",
+    "driveFileId": "1JnqY_k8C6bZKwPXWM5IW6zKaZJCmPgb9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:59:17.362284+00:00",
+    "updatedAt": "2026-09-22T02:59:17.362304+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:59:17.362399+00:00"
+    }
+  }
+}

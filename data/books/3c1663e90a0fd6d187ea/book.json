@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "솔로몬의 노래",
+    "author": "토니 모리슨",
+    "genre": "소설",
+    "tags": [
+      "흑인 문학",
+      "정체성",
+      "가족사",
+      "노벨문학상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "african_american",
+        "magical_realism"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "토니 모리슨은 최초의 흑인 여성 노벨문학상 수상자로, 미국 사회 내의 흑인 문제와 여성 문제를 시적이고 날카로운 시선으로 그려낸 거장입니다.",
+    "oneLineSummary": "흑인 외무원 스미스 씨의 비행 소동과 함께 태어난 마콘 데드 3세를 중심으로 흑인 가문의 역사와 정체성을 찾아가는 이야기입니다.",
+    "overallSummary": "1931년 2월, 노스캐롤라이나 생명보험회사의 외무원 로버트 스미스가 자선병원 지붕에서 푸른 날개를 달고 비행을 시도하다 추락사합니다. 이 소동 속에서 흑인 의사의 딸 루스는 아들 마콘 데드 3세(밀크맨)를 출산합니다. 아기는 자라면서 인간이 날 수 없다는 사실에 절망하고, 아버지 마콘 데드의 아내에 대한 증오와 가문의 차가운 정적 속에서 외롭게 성장합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 숨어서 듣는 노래",
+        "summary": "보험 외무원 스미스 씨가 병원 지붕에서 뛰어내리는 비행 소동을 벌이고, 그 현장에서 루스가 진통을 느껴 자선병원 최초의 흑인 아기인 마콘 데드 3세를 출산하는 과정과 가문의 차가운 분위기를 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징적 모티브",
+        "value": "하늘을 날아 고향으로 돌아간다는 '슈거맨'의 노래와 비행을 통해 표현되는 자유와 정체성의 탐색"
+      }
+    ],
+    "keyEntitiesText": "마콘 데드 3세, 마콘 데드, 루스, 레나, 코린시안스, 로버트 스미스, 낫 닥터 가, 자선병원",
+    "settingText": "미국 미시간주 슈피리어 호수 인근 도시의 낫 닥터 가(메인스 애버뉴), 인종 차별과 소외가 존재하는 흑인 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-iXr9U4YigIq7RxQCnrwN5VPxjBjCcpH",
+    "filename": "토니 모리슨-솔로몬의 노래(최초의 흑인여성 노벨문학상 수상자).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.916Z",
+    "size": "291665",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1-iXr9U4YigIq7RxQCnrwN5VPxjBjCcpH/view?usp=drivesdk",
+    "sourceSha256": "9c788c63c9bf9972929f29f2b356bde87584334777c3215b0bf96fa1beffbb55",
+    "textSha256": "0247060f361a8778d2ae17459079219cb4e895aab7bac8d65da4404855131709",
+    "changeKey": "60beb26ef3d8086ba1d8d4ea72dc7e75",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3c1663e90a0fd6d187ea",
+    "workId": "3c1663e90a0fd6d187ea",
+    "driveFileId": "1-iXr9U4YigIq7RxQCnrwN5VPxjBjCcpH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:59:55.355180+00:00",
+    "updatedAt": "2026-09-22T02:59:55.355197+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:59:55.355292+00:00"
+    }
+  }
+}

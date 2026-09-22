@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "가시나무 새",
+    "author": "콜린 매컬로",
+    "genre": "소설",
+    "tags": [
+      "가족사",
+      "뉴질랜드",
+      "성장",
+      "상실"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "family_saga",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1938년 호주 출생의 작가로 예일 대학 신경과 연구원으로 근무하다 작가로 변신하여 가시나무새로 베스트셀러 작가가 되었습니다.",
+    "oneLineSummary": "네 번째 생일을 맞은 매기 클레어리가 선물받은 인형을 두고 오빠들과 갈등을 겪고 큰오빠 프랭크에게 위로받는 이야기입니다.",
+    "overallSummary": "매기는 네 번째 생일에 분홍빛 비단 옷을 입은 인형 아그네스를 선물받지만 오빠들의 장난으로 인형이 망가지고 대머리가 드러나 공포에 휩싸입니다. 큰오빠 프랭크는 매기를 따뜻하게 위로하며 인형을 고쳐주기로 약속하고, 묵묵히 일만 하는 어머니 휘오나와 가족들의 뉴질랜드 생활이 묘사됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "매기의 네 번째 생일날 선물받은 인형 아그네스가 오빠들의 장난으로 망가지고 머리카락이 빠져 흉측한 내부가 드러나자 매기는 비명을 지르며 공포에 떨고, 큰오빠 프랭크가 그녀를 위로하며 인형을 고쳐주겠다고 약속합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징적 소재",
+        "value": "매기의 생일 선물인 인형 아그네스와 그 대머리 구멍을 통한 유년기의 공포와 상실감"
+      }
+    ],
+    "keyEntitiesText": "매기 클레어리, 프랭크, 잭, 휴이, 휘오나 클레어리, 패드라익 클레어리, 아그네스(인형), 뉴질랜드",
+    "settingText": "1915년 12월 8일, 뉴질랜드의 푸르고 화산 활동이 있는 초원 지대와 클레어리 가문의 단층 목조 주택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1g3qTKVtOh-8q1ZNHADjZSOOqq0wiETUU",
+    "filename": "콜린 맥컬로-가시나무 새.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.528Z",
+    "size": "1277269",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "콜린 매컬로-카이사르 등"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/콜린 매컬로-카이사르 등",
+    "webViewLink": "https://drive.google.com/file/d/1g3qTKVtOh-8q1ZNHADjZSOOqq0wiETUU/view?usp=drivesdk",
+    "sourceSha256": "31b552c5050fa0d445bf7d25a015637ff06daaa7d791112c9edd9ebc48d9188d",
+    "textSha256": "8ae16ff46af575510938a34863ae922059944184bfd180b9dd2277f8f922bd4e",
+    "changeKey": "dde29dce8217b7eb13b71174992afbea",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4f6253c80ebd7ed6fb60",
+    "workId": "4f6253c80ebd7ed6fb60",
+    "driveFileId": "1g3qTKVtOh-8q1ZNHADjZSOOqq0wiETUU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:58:51.003682+00:00",
+    "updatedAt": "2026-09-22T02:58:51.003699+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:58:51.003804+00:00"
+    }
+  }
+}

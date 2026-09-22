@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "별이 내려다본다",
+    "author": "A.J 크로닌",
+    "genre": "소설",
+    "tags": [
+      "광산 파업",
+      "빈곤",
+      "가족",
+      "생존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "social_drama",
+        "realism"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "A.J 크로닌은 영국의 소설가로 사회적 현실과 인간의 고뇌를 깊이 있게 다룬 작품들을 발표했습니다.",
+    "oneLineSummary": "넵튠 탄광의 석 달째 계속되는 파업 속에서 극심한 추위와 빈곤에 시달리는 광부 가족의 비참한 일상을 그립니다.",
+    "overallSummary": "북해의 매서운 바람이 부는 겨울, 넵튠 탄광의 파업이 석 달째 이어지며 마사네 가족은 굶주림과 추위에 시달립니다. 마사는 임신한 몸으로 먹을 것을 구하러 시내로 나가 빵을 얻어오고, 남편 로버트와 세 아들(샘, 휴이, 데이빗)은 난롯가에 모여 생존을 도모합니다. 데이빗은 친구 조의 집을 방문해 탄량 검사원 찰리 가울런을 만납니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "마사는 추운 새벽에 일어나 얼어붙은 수도와 분탄가루로 불을 피우는 고역을 치른 후, 시내로 나가 빵집 아들 댄에게서 빵 한 덩이를 얻어와 굶주린 가족들에게 나누어 줍니다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "막내 데이빗은 황량한 탄광촌 풍경을 지나 친구 조의 집을 방문하고, 지저분하지만 음식이 풍족한 조의 집에서 탄량 검사원 찰리 가울런과 대화를 나눕니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 배경",
+        "value": "탄광 파업으로 인한 광부 가문의 극심한 빈곤과 지역 사회의 냉대 및 갈등"
+      }
+    ],
+    "keyEntitiesText": "마사, 로버트, 샘, 휴이, 데이빗, 찰리 가울런, 조, 넵튠 17호 탄광, 슬리스케일",
+    "settingText": "북해 연안의 탄광 도시 슬리스케일, 지독한 겨울 추위와 파업이 지속되는 사회적 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qUkiVreWOcKUfev9uT0oKCG5wETbTF0H",
+    "filename": "크로닌-별이 내려다본다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.578Z",
+    "size": "1243349",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1qUkiVreWOcKUfev9uT0oKCG5wETbTF0H/view?usp=drivesdk",
+    "sourceSha256": "d424029009fdde027a7507274e9acffc45fc227aa18c82bd1c41575f838c347c",
+    "textSha256": "319d3267b8099aa853780473d14369d64c6b4fd16b979b231fe7c9dee5a7f5eb",
+    "changeKey": "9067fa3e150e84790f256e16bd0c4d5f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "da5d842a505a183899b2",
+    "workId": "da5d842a505a183899b2",
+    "driveFileId": "1qUkiVreWOcKUfev9uT0oKCG5wETbTF0H",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:58:57.456874+00:00",
+    "updatedAt": "2026-09-22T02:58:57.456893+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:58:57.457016+00:00"
+    }
+  }
+}
