@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하나, 둘, 내 구두에 버클을 달아라",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "푸아로",
+      "추리소설",
+      "치과의사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티는 일상적인 소재를 치밀한 추리 미스터리로 바꾸는 재능이 탁월하다.",
+    "oneLineSummary": "치과 치료를 받기 위해 병원을 찾은 에르퀼 푸아로가 그곳에서 기이한 사건들의 연쇄와 마주친다.",
+    "overallSummary": "평소 치과를 무서워하면서도 정기 검진을 위해 퀸 샬럿 가의 치과의사 헨리 몰리를 찾아간 푸아로는 치료를 무사히 마치고 나온다. 그러나 바로 그날 오후, 몰리 의사가 자신의 진료실에서 변사체로 발견되면서 평화로워 보이던 병원은 거대한 미스터리에 휩싸인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "하나, 둘, 내 구두에 버클을 달아라",
+        "summary": "아침 식사 시간의 일상적인 풍경과 함께 몰리 의사와 주변 인물들의 고민이 그려지고, 푸아로는 치과를 방문해 치료를 받는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "모티브",
+        "value": "영국 전통 동요와 연쇄적인 죽음"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 헨리 몰리, 몰리 양, 앨리스테어 블런트",
+    "settingText": "런던 퀸 샬럿 가의 치과 병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "176OW-E0vFGRfuKtWeGFQXLOJGZiCIOb0",
+    "filename": "애거서 크리스티-하나, 둘, 내 구두에 버클을 달아라(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.698Z",
+    "size": "422144",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/176OW-E0vFGRfuKtWeGFQXLOJGZiCIOb0/view?usp=drivesdk",
+    "sourceSha256": "c459337571afb98e6166c32fb577c362b5a38e0f243b45d16341b8d98204bfd7",
+    "textSha256": "2075af2cf4e8ae30be88c97ee90e7293dcadc15e8ed1dc432f66bf3e172e5f2a",
+    "changeKey": "43abc329a196196d989ee7e8c9ab2b72",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c24e029867b519fe08fb",
+    "workId": "c24e029867b519fe08fb",
+    "driveFileId": "176OW-E0vFGRfuKtWeGFQXLOJGZiCIOb0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:15:14.041730+00:00",
+    "updatedAt": "2026-09-22T07:15:14.041744+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:15:14.041843+00:00"
+    }
+  }
+}

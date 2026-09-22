@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "푸아로의 크리스마스",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "푸아로",
+      "크리스마스",
+      "밀실 살인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티는 클래식 추리소설의 정형을 완성한 작가이다.",
+    "oneLineSummary": "크리스마스를 맞아 모인 가족들이 지켜보는 가운데 괴팍한 노부자(富者)가 밀실에서 잔인하게 살해당한다.",
+    "overallSummary": "남아프리카에서 영국으로 건너온 스티븐은 런던의 우중충한 날씨 속에서 복잡한 감정을 느끼며 기차에 오른다. 한편, 괴팍하고 부유한 노인 시미언 리가 크리스마스에 가족들을 저택으로 불러 모으지만, 그날 밤 방 안에서 비명과 함께 끔찍한 밀실 살인 사건이 벌어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "12월 22일 - I",
+        "summary": "스티븐은 런던에 도착해 복잡한 심경을 품고 기차에 오른다."
+      },
+      {
+        "sectionTitle": "12월 22일 - II, III",
+        "summary": "기차 안에서 매력적인 스페인 여성 필라르를 만나고, 고스턴 홀에서는 가족들이 모여 크리스마스 계획을 의논한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "전통적인 크리스마스 밀실 살인 미스터리"
+      }
+    ],
+    "keyEntitiesText": "스티븐 파, 필라르 에스트라바도스, 앨프리드 리, 리디아 리",
+    "settingText": "런던과 고스턴 홀 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Wl6uWyIicOgd4Xohql-gWW7xf9ArDPhh",
+    "filename": "애거서 크리스티-푸아로의 크리스마스(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.652Z",
+    "size": "491161",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1Wl6uWyIicOgd4Xohql-gWW7xf9ArDPhh/view?usp=drivesdk",
+    "sourceSha256": "6dba18fc9622dfcec6007821f1a711eccbbcc2b99fad8b7328b575a3b6395521",
+    "textSha256": "f57a47b3fee9cd764495b5d96d42ec63c9fccd7e02b038446b743a7db51b0b63",
+    "changeKey": "b38300715c8db18080be551629ae4b4b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "940fbe7bc48978f218a9",
+    "workId": "940fbe7bc48978f218a9",
+    "driveFileId": "1Wl6uWyIicOgd4Xohql-gWW7xf9ArDPhh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:15:01.007673+00:00",
+    "updatedAt": "2026-09-22T07:15:01.007688+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:15:01.007794+00:00"
+    }
+  }
+}

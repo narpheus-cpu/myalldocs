@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "테이블 위의 카드",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "푸아로",
+      "추리소설",
+      "브리지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티는 독창적인 트릭과 심리적 추리를 결합한 작품을 많이 선보였다.",
+    "oneLineSummary": "범죄를 저지르고도 잡히지 않은 살인마들을 모아놓은 기이한 만찬 자리에서 살인 사건이 벌어진다.",
+    "overallSummary": "범죄의 예술성을 신봉하는 괴짜 셰이터나는 법의 심판을 피해간 네 명의 살인범과 에르퀼 푸아로, 배틀 총경 등을 저녁 식사에 초대한다. 브리지 게임이 진행되는 동안 주인 셰이터나가 실제로 살해당하고, 푸아로는 네 명의 용의자를 상대로 심리 추리를 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "셰이터나",
+        "summary": "푸아로는 길거리에서 묘한 매력을 풍기는 셰이터나를 만나고 그의 만찬에 초대받는다."
+      },
+      {
+        "sectionTitle": "셰이터나의 만찬",
+        "summary": "다양한 분야의 인물들과 탐정들이 셰이터나의 아파트에 모여 저녁 식사를 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "방식",
+        "value": "심리적 추리와 브리지 게임"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 셰이터나, 배틀 총경, 레이스 대령, 올리버 부인",
+    "settingText": "웨섹스 하우스와 셰이터나의 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13Dmsh4Gefz3ADAhv5mXuYZfCd87538Wn",
+    "filename": "애거서 크리스티-테이블 위의 카드(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.595Z",
+    "size": "469769",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/13Dmsh4Gefz3ADAhv5mXuYZfCd87538Wn/view?usp=drivesdk",
+    "sourceSha256": "ee69197fed44943b8e07bba61c1e89207632a7ed08898d2b908d37151034f4d0",
+    "textSha256": "bf24b48fbc036f50d0a3cb3135c90fa4e5ff65b386475ce7dc2f6be2dd2c9e96",
+    "changeKey": "658b840ba42301f01ba069501444a7c8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "782927e7ba6359ed42ac",
+    "workId": "782927e7ba6359ed42ac",
+    "driveFileId": "13Dmsh4Gefz3ADAhv5mXuYZfCd87538Wn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:14:42.511118+00:00",
+    "updatedAt": "2026-09-22T07:14:42.511134+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:14:42.511281+00:00"
+    }
+  }
+}

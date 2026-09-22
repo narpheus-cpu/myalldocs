@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "히코리 디코리 독",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "푸아로",
+      "추리소설",
+      "기숙사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티는 다양한 세대와 계층의 인물들을 통해 추리의 재미를 극대화한다.",
+    "oneLineSummary": "유능한 비서 레몬 양의 타자 실수로 고민하던 에르퀼 푸아로가 그녀 언니의 하숙집에서 벌어진 기이한 도난 사건에 관심을 갖게 된다.",
+    "overallSummary": "평소 실수가 전혀 없던 비서 레몬 양이 타자 업무에서 연달아 실수를 저지르자 에르퀼 푸아로는 크게 놀란다. 알고 보니 레몬 양은 싱가포르에서 돌아와 하숙집을 관리하고 있는 언니의 걱정 때문에 심난했던 것이다. 하숙집에서 벌어지는 도난품들은 하나같이 엉뚱하고 기괴한 물건들뿐이어서 푸아로의 호기심을 자극한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "푸아로는 완벽한 비서 레몬 양이 타자 문서에 실수를 저지른 것을 발견하고 의아해한다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "레몬 양은 언니가 관리하는 하숙집에서 벌어지고 있는 엉뚱하고 기괴한 도난 사건들을 푸아로에게 털어놓는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "기괴하고 가치 없는 물건들의 연쇄 도난"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 레몬 양, 허버드 부인",
+    "settingText": "런던의 푸아로 아파트와 히코리 가의 하숙집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BCGIVWiln6Yn2a-mLw4zNoeiK3lH7wGn",
+    "filename": "애거서 크리스티-히코리 디코리 독(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.761Z",
+    "size": "452423",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1BCGIVWiln6Yn2a-mLw4zNoeiK3lH7wGn/view?usp=drivesdk",
+    "sourceSha256": "68ff93512f29c476a86fbee94acadf23a558fec1692a7f03710486a457fc762e",
+    "textSha256": "4e7f1d84a8b0dfe4897536e2b99348d3d1345f310e4b0cd84661c8afb7adcacc",
+    "changeKey": "7811066a8ba6f7bcc124be49b8160605",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7f978577863f54562214",
+    "workId": "7f978577863f54562214",
+    "driveFileId": "1BCGIVWiln6Yn2a-mLw4zNoeiK3lH7wGn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:15:34.724259+00:00",
+    "updatedAt": "2026-09-22T07:15:34.724274+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:15:34.724381+00:00"
+    }
+  }
+}

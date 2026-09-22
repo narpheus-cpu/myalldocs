@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "침니스의 비밀",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "애거서 크리스티",
+      "모험",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티는 뛰어난 플롯과 반전으로 유명한 추리소설 작가이다.",
+    "oneLineSummary": "아프리카에서 가이드로 일하던 앤터니 케이드가 친구로부터 1000파운드가 걸린 비밀 원고 전달 임무를 맡게 된다.",
+    "overallSummary": "아프리카에서 관광객을 안내하며 살아가던 앤터니 케이드는 옛친구 지미 맥그러스를 우연히 만난다. 지미는 과거에 목숨을 구해 준 스틸프티치 백작의 회고록을 런던의 출판사에 전달해 주면 1000파운드를 주겠다는 제안을 하고, 앤터니는 이를 수락하며 새로운 모험에 휘말리게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "앤터니 케이드가 새 일을 맡다",
+        "summary": "관광객들을 이끌던 앤터니 케이드는 우연히 옛친구 지미를 만나고, 지미로부터 백작의 회고록을 수금해 달라는 제안을 받는다."
+      },
+      {
+        "sectionTitle": "곤경에 빠진 여인",
+        "summary": "두 사람은 임무와 관련된 이야기를 나누며 여행과 여권 수속 등의 계획을 세운다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "정치 스릴러 및 모험 소설"
+      }
+    ],
+    "keyEntitiesText": "앤터니 케이드, 지미 맥그러스, 스틸프티치 백작",
+    "settingText": "아프리카 불라와요"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1C7MLB-mHdNH941C3ZhCbtLSPMiJRD0XY",
+    "filename": "애거서 크리스티-침니스의 비밀(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.481Z",
+    "size": "630408",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1C7MLB-mHdNH941C3ZhCbtLSPMiJRD0XY/view?usp=drivesdk",
+    "sourceSha256": "de578c3b516a1840e0be6ecc2d25efaf0b41af204828be9d173111f861dd003a",
+    "textSha256": "f235569afb20f3eda5a7a5493b1c21252907e4020a6fe9fb631bc888ffa3867c",
+    "changeKey": "b50bdec18d142dfada41ff1235e1a5d0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8d154c13fa0189326557",
+    "workId": "8d154c13fa0189326557",
+    "driveFileId": "1C7MLB-mHdNH941C3ZhCbtLSPMiJRD0XY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:14:13.060039+00:00",
+    "updatedAt": "2026-09-22T07:14:13.060053+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:14:13.060149+00:00"
+    }
+  }
+}

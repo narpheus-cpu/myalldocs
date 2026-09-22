@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "주머니 속의 호밀",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "미스터리",
+      "추리소설",
+      "독살"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티는 90여 권의 책을 집필한 추리소설의 여왕이다.",
+    "oneLineSummary": "금융업 회사의 사장이 사무실에서 의문의 독살을 당하고 주머니에서 호밀이 발견된다.",
+    "overallSummary": "금융업을 하는 렉스 포티스큐가 사무실에서 차를 마신 뒤 갑자기 발작을 일으켜 사망한다. 부검 결과 독살로 밝혀지고, 그의 주머니 속에서 뜻밖에도 곡식인 호밀이 발견되면서 기이한 연쇄 살인의 서막이 오른다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "타이피스트실과 비서의 일상적인 모습 속에서 포티스큐 씨가 차를 마시고 발작을 일으켜 쓰러진다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "병원에서 사망 소식이 전해지고, 닐 경위가 사건 수사에 착수하며 주머니 속의 호밀을 발견한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "모티브",
+        "value": "동요에 얽힌 연쇄 살인"
+      }
+    ],
+    "keyEntitiesText": "닐 경위, 그리피스 양, 아이린 그로브너, 렉스 포티스큐",
+    "settingText": "런던 금융 회사 사무실과 주목 오두막집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1M1wWH3fgjRTbbGsJiE3CX8Q9kzHfycth",
+    "filename": "애거서 크리스티-주머니 속의 호밀(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.425Z",
+    "size": "413922",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1M1wWH3fgjRTbbGsJiE3CX8Q9kzHfycth/view?usp=drivesdk",
+    "sourceSha256": "0a8ea628f89ddd918793718c32fe1e262349f81344d1d1166a3f83ba15ff0fdf",
+    "textSha256": "2dbe8d5a3fea90f9d863255d9c15b4f106358b5d67d4d277c0a18d0e4f9587ed",
+    "changeKey": "5a3cecf48182c8ee57e3bbc06634be4e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bf6bed8242d6a949e277",
+    "workId": "bf6bed8242d6a949e277",
+    "driveFileId": "1M1wWH3fgjRTbbGsJiE3CX8Q9kzHfycth",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:13:54.021278+00:00",
+    "updatedAt": "2026-09-22T07:13:54.021292+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:13:54.021379+00:00"
+    }
+  }
+}

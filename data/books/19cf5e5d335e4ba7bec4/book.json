@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "죽은 자의 어리석음",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "푸아로",
+      "추리",
+      "올리버 부인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티는 수많은 명탐정 캐릭터를 탄생시킨 추리소설의 대가이다.",
+    "oneLineSummary": "추리 작가 올리버 부인의 다급한 연락을 받고 에르퀼 푸아로가 시골 저택의 축제 현장으로 향한다.",
+    "overallSummary": "추리 소설가 아리아드네 올리버 부인은 데번 주의 나스 저택에서 열릴 '살인 추적' 행사를 기획하던 중 무언가 잘못 돌아가고 있다는 불길한 직관에 사로잡혀 에르퀼 푸아로를 급히 초대한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "레몬 양이 받은 올리버 부인의 다급한 전화로 푸아로는 데번 주로 향하는 기차에 오른다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "푸아로는 나스 저택에 도착해 올리버 부인을 만나고, 그녀가 느끼는 불길한 예감과 행사의 내막을 듣는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "작가 올리버 부인의 등장과 직관"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 아리아드네 올리버, 레몬 양, 스터브스 경",
+    "settingText": "나스컴의 나스 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CdbYeSi_k0sTZo-BFcRx2gkWdWDa7ltL",
+    "filename": "애거서 크리스티-죽은 자의 어리석음(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.442Z",
+    "size": "430085",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1CdbYeSi_k0sTZo-BFcRx2gkWdWDa7ltL/view?usp=drivesdk",
+    "sourceSha256": "7f9cdcba5c3e41a1f4648a7668362f224b79957e843b287ba792fe18398a2ac2",
+    "textSha256": "33b4352eeb9fb08fd16c029a78ff359e8723ccb2e2a02d03cb962c45c303cb65",
+    "changeKey": "5b4eab0ca962149e86e98e0874e71e98",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "19cf5e5d335e4ba7bec4",
+    "workId": "19cf5e5d335e4ba7bec4",
+    "driveFileId": "1CdbYeSi_k0sTZo-BFcRx2gkWdWDa7ltL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:14:01.145549+00:00",
+    "updatedAt": "2026-09-22T07:14:01.145564+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:14:01.145660+00:00"
+    }
+  }
+}

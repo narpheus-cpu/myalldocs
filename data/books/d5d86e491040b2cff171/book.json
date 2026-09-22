@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "커튼",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "푸아로",
+      "추리소설",
+      "마지막 사건"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티는 추리소설 역사상 가장 위대한 탐정인 푸아로의 마지막을 이 작품에서 그려 냈다.",
+    "oneLineSummary": "백발이 성성해진 헤이스팅스가 에르퀼 푸아로의 부름을 받고 옛 추억이 서린 스타일스 저택으로 향한다.",
+    "overallSummary": "나이가 들어 몸이 쇠약해진 에르퀼 푸아로는 헤이스팅스를 스타일스 저택으로 불러들인다. 과거 범죄가 시작되었던 그 장소에서 푸아로는 직접 움직이지 못하는 몸으로 헤이스팅스의 도움을 받아 또 다른 위험한 범죄를 막으려 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "헤이스팅스는 옛 추억을 떠올리며 스타일스 저택으로 가는 기차 안에서 푸아로의 편지를 회상한다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "스타일스 저택에 도착한 헤이스팅스는 휠체어에 의지한 채 늙어 버린 푸아로와 재회한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "의의",
+        "value": "푸아로 시리즈의 최종편"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 아서 헤이스팅스, 주디스, 러트렐 부부",
+    "settingText": "에섹스 스타일스 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10IH98bOoQpVyPpEjhVO8EcgxjvhMcypY",
+    "filename": "애거서 크리스티-커튼(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.519Z",
+    "size": "504212",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/10IH98bOoQpVyPpEjhVO8EcgxjvhMcypY/view?usp=drivesdk",
+    "sourceSha256": "7826f6748449d7f937cc650e8ccac84cf6886d94520d0ab183b41cb06a2067a9",
+    "textSha256": "a3a9407cd8e96589ebd2deb0967f8a49b439dddd2b50491b2bde459c61f99c64",
+    "changeKey": "f638a74f35c21815c1f0df7a618d078b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d5d86e491040b2cff171",
+    "workId": "d5d86e491040b2cff171",
+    "driveFileId": "10IH98bOoQpVyPpEjhVO8EcgxjvhMcypY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:14:25.906409+00:00",
+    "updatedAt": "2026-09-22T07:14:25.906425+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:14:25.906534+00:00"
+    }
+  }
+}

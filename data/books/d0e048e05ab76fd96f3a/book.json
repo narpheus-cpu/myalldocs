@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "프랑크푸르트행 승객",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "애거서 크리스티",
+      "모험",
+      "정치"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티는 다양한 장르의 스릴러와 모험 소설도 성공적으로 집필했다.",
+    "oneLineSummary": "비행기 안개로 프랑크푸르트에 발이 묶인 외교관 스퍼퍼드 나이 경이 정체불명의 여인으로부터 위험한 제안을 받는다.",
+    "overallSummary": "말레이시아 회의를 마치고 런던으로 돌아가던 외교관 스태퍼드 나이 경은 제네바의 짙은 안개 때문에 프랑크푸르트에 임시 착륙한다. 환승 라운지에서 자신을 죽이려는 이들로부터 도망치고 있다는 낯선 여인과 마주치고, 그녀는 자신의 망토와 여권을 빌려 달라는 기이한 부탁을 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I",
+        "summary": "스태퍼드 나이 경은 비행기 안에서 잠을 깨고 프랑크푸르트 공항으로 향한다."
+      },
+      {
+        "sectionTitle": "II",
+        "summary": "환승 라운지에서 스태퍼드 경은 자신의 누이와 똑 닮은 묘한 여인을 만나고 위험한 제안을 듣는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "정치 음모와 국제 스릴러"
+      }
+    ],
+    "keyEntitiesText": "스태퍼드 나이 경, 패멀라",
+    "settingText": "프랑크푸르트 공항 환승 라운지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18bOBhJW26V56-IpEIGWvPlSqiyuj86Mb",
+    "filename": "애거서 크리스티-프랑크푸르트행 승객(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.670Z",
+    "size": "554238",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/18bOBhJW26V56-IpEIGWvPlSqiyuj86Mb/view?usp=drivesdk",
+    "sourceSha256": "54b580ed348f31c6c5a351bc71d403f211be6bd7ae63657fdad5ad21d5e405fd",
+    "textSha256": "370cb896fa3f16d84f12dfda023790ce3b8380d5ad9f2985c9e2f16ed8cd8043",
+    "changeKey": "60250f18f29622f321780345c36e1aeb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d0e048e05ab76fd96f3a",
+    "workId": "d0e048e05ab76fd96f3a",
+    "driveFileId": "18bOBhJW26V56-IpEIGWvPlSqiyuj86Mb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:15:06.954435+00:00",
+    "updatedAt": "2026-09-22T07:15:06.954450+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:15:06.954558+00:00"
+    }
+  }
+}

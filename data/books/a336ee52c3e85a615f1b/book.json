@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "운명의 문",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "추리",
+      "미스터리",
+      "토미와 터펜스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티는 20세기 최고의 추리소설 작가로 꼽히며 수많은 대표작과 탐정 캐릭터를 창조했다.",
+    "oneLineSummary": "토미와 터펜스 부부가 은퇴 후 새로 이사한 집에서 오래된 책들을 정리하다가 의문의 단서들을 발견한다.",
+    "overallSummary": "토미와 터펜스 부부는 꿈에 그리던 새 집에 이사해 함께 남겨진 책들을 정리하기 시작한다. 터펜스는 옛날 책들을 읽으며 어린 시절의 추억에 잠기는데, 그중 로버트 루이스 스티븐슨의 소설 『검은 화살』 속에서 붉은 잉크로 밑줄이 그어져 있는 수상한 단어들을 발견하고 의문을 품게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "토미와 터펜스는 집을 사면서 두고 간 대량의 오래된 책들을 정리하며 티격태격한다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "터펜스는 스티븐슨의 책을 읽다가 특정 단어들에 밑줄이 그어져 있는 기이한 흔적을 발견한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "오래된 책과 숨겨진 암호"
+      }
+    ],
+    "keyEntitiesText": "토미, 터펜스, 앨버트",
+    "settingText": "월계수 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QKXE56xiF6DU7nWYSrSB2KVprTmmNHPn",
+    "filename": "애거서 크리스티-운명의 문(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.375Z",
+    "size": "535595",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1QKXE56xiF6DU7nWYSrSB2KVprTmmNHPn/view?usp=drivesdk",
+    "sourceSha256": "60107990a65a39e7dee8fa5d2d3337814c5aae0f748ef57dd4cc9222f5d1a065",
+    "textSha256": "779b2bce6e676f42903f0eec7db7e65d4b076c690fa6cdf10dac44174c6368a5",
+    "changeKey": "ecfa7d5908cbefa44547cb959dcb1b10",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a336ee52c3e85a615f1b",
+    "workId": "a336ee52c3e85a615f1b",
+    "driveFileId": "1QKXE56xiF6DU7nWYSrSB2KVprTmmNHPn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:13:33.598467+00:00",
+    "updatedAt": "2026-09-22T07:13:33.598482+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:13:33.598684+00:00"
+    }
+  }
+}
