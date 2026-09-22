@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "야광충 1부 제3권",
+    "author": "좌백",
+    "genre": "무협",
+    "tags": [
+      "좌백",
+      "야광충",
+      "케레이트",
+      "혈문룡"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action",
+        "history"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "입체적인 인물 설정과 탄탄한 스토리로 사랑받는 좌백의 대표작 완결권.",
+    "oneLineSummary": "몽고고원의 정세 변화와 북해에서 은거 중인 고수를 찾아간 흑룡사의 행보를 그린 소설.",
+    "overallSummary": "몽고 뭉흐하이로흥에서 케레이트 족이 벤야시리 군에 의해 멸망하고, 혈문룡과 흑룡사 잔류 무리들이 복수를 위해 북해의 원도살 십일랑을 찾아간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제17장 5월 2일",
+        "summary": "뭉흐하이로흥에서 벤야시리 군과 아루타이에 의해 케레이트 족이 완전히 도륙당함."
+      },
+      {
+        "sectionTitle": "북해의 초입",
+        "summary": "고란고성에서의 참패 이후 벤야시리에게 복수하기 위해 원도살 십일랑을 찾아나선 혈문룡과 흑룡사 무리."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "야광충 1부 3권"
+      }
+    ],
+    "keyEntitiesText": "아루타이, 벤야시리, 혈문룡, 조훼, 복군무",
+    "settingText": "뭉흐하이로흥, 북해"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DiKTiMB3bUBj3sqPV-QtqzLJtxqwT2ep",
+    "filename": "좌백-야광충 1부 제3권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:09.999Z",
+    "size": "351552",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1DiKTiMB3bUBj3sqPV-QtqzLJtxqwT2ep/view?usp=drivesdk",
+    "sourceSha256": "07427be1ac4bded5e205e724756363fe1ccedc47110c1d242e8b13289f4029b1",
+    "textSha256": "9288041d7037b0017b79297a4cfcae45ebd163d2daa20fd48e9000de290e87ff",
+    "changeKey": "5d29e9436653a9def242607b80808153",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7a3b8bacc3a089b0f826",
+    "workId": "7a3b8bacc3a089b0f826",
+    "driveFileId": "1DiKTiMB3bUBj3sqPV-QtqzLJtxqwT2ep",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:09:07.491485+00:00",
+    "updatedAt": "2026-09-22T16:09:07.491501+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:09:07.491607+00:00"
+    }
+  }
+}

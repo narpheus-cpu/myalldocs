@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "금전표",
+    "author": "좌백",
+    "genre": "무협",
+    "tags": [
+      "좌백",
+      "금전표",
+      "용유진",
+      "표사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 창작 무협소설의 혁신을 이끈 작가 좌백의 표사 이야기 연작.",
+    "oneLineSummary": "비룡표국의 표사 용유진이 어린 남매의 의뢰를 받아 표행을 떠나며 벌어지는 이야기.",
+    "overallSummary": "과거의 아픔을 지닌 채 홀로 비룡표국을 운영하는 용유진이 비 오는 날 찾아온 어린 남매의 간절한 청부를 받아들이고 여행을 준비하는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "백만금을 옮기기 위한 질문과 좋은 표사를 구하라는 대답."
+      },
+      {
+        "sectionTitle": "제1장 용유진, 표행을 떠나다",
+        "summary": "비룡표국의 용유진이 남매의 청부를 받고 여행 준비를 마친 뒤 표행을 떠나는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "표사 이야기 연작 두 번째 작품"
+      }
+    ],
+    "keyEntitiesText": "용유진, 비룡",
+    "settingText": "비룡표국 폐가, 거령장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vRQ3l7QTu5N95osz8D-LPQ0gK615OQiq",
+    "filename": "좌백-금전표(金錢표).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:09.417Z",
+    "size": "1354188",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1vRQ3l7QTu5N95osz8D-LPQ0gK615OQiq/view?usp=drivesdk",
+    "sourceSha256": "0ddfe05a51679abef33a2190e6c5f5bfca14aaa747dfd98b40a56e7be4608ec6",
+    "textSha256": "33f438012bf65011e9282b8c06a4b11b125ec7e5721a8207058df857d083684d",
+    "changeKey": "619f450e3ebef2b8dc52985ed72efd94",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "111f5d77d485eb2d36ff",
+    "workId": "111f5d77d485eb2d36ff",
+    "driveFileId": "1vRQ3l7QTu5N95osz8D-LPQ0gK615OQiq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:08:15.841497+00:00",
+    "updatedAt": "2026-09-22T16:08:15.841512+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:08:15.841617+00:00"
+    }
+  }
+}

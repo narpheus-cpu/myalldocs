@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "묵향20 - 묵향의 귀환",
+    "author": "전동조",
+    "genre": "무협",
+    "tags": [
+      "묵향",
+      "양양성",
+      "수라도제"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전동조 작가의 묵향 시리즈 20권.",
+    "oneLineSummary": "양양성에 홀로 입성한 묵향과 그를 제거하려는 정파 고수들의 음모를 다룬 소설.",
+    "overallSummary": "양양성에 단신으로 도착한 묵향의 소식을 접한 정파의 수장들과 옥대진 등은 그를 제거할 음모를 꾸미고, 묵향은 만통음제와 재회한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "양양성의 밤",
+        "summary": "양양성에 도착한 묵향이 만통음제를 찾고, 정파 고수들은 마교 교주인 그를 제거할 계획을 세운다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈명",
+        "value": "묵향 20권"
+      }
+    ],
+    "keyEntitiesText": "묵향, 수라도제, 만통음제, 황룡무제, 옥대진",
+    "settingText": "양양성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KUVZpYShRhNsXTymoR-0sO0u6KxnsM9e",
+    "filename": "전동조-묵향20-묵향의 귀환  전동조-.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.984Z",
+    "size": "463928",
+    "folderPath": [
+      "books",
+      "08 무협",
+      "전동조-묵향"
+    ],
+    "relativePath": "books/08 무협/전동조-묵향",
+    "webViewLink": "https://drive.google.com/file/d/1KUVZpYShRhNsXTymoR-0sO0u6KxnsM9e/view?usp=drivesdk",
+    "sourceSha256": "d3d21ef81eb78e0dc3825d4a68a7b60202862c6a82ae261d16f07fea20809a15",
+    "textSha256": "137875a7c41c42a6de1ef36ef12e46cf857359342bc782642f04c892a9ee5144",
+    "changeKey": "baf64b1d85680ccd123d8701d8e9ee50",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6bd3f99364d707f38042",
+    "workId": "6bd3f99364d707f38042",
+    "driveFileId": "1KUVZpYShRhNsXTymoR-0sO0u6KxnsM9e",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:04:08.756517+00:00",
+    "updatedAt": "2026-09-22T16:04:08.756533+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:04:08.756633+00:00"
+    }
+  }
+}

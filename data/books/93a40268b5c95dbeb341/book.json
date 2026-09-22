@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "절대지존",
+    "author": "금강",
+    "genre": "무협",
+    "tags": [
+      "금강",
+      "절대지존",
+      "황실",
+      "주서붕"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "political_intrigue",
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정통무협의 대가 금강 작가의 대표작으로 황실을 무협에 끌어들여 성공한 작품.",
+    "oneLineSummary": "황실의 넷째 왕자 주서붕이 지존마환을 얻고 무림의 음모를 파헤치는 이야기.",
+    "overallSummary": "무림사대중보의 전설과 함께 황실 내부의 권력 암투 속에서 책만 읽던 셋째 왕자 주서붕이 기묘한 사건들에 휘말리며 천하를 구하는 서막을 연다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "무림사대중보(월하미인도, 지존마환, 천상신륜, 왕자지검)에 대한 전설."
+      },
+      {
+        "sectionTitle": "제1장 황실의 암운",
+        "summary": "황제의 병환과 자금성 내 황자들 간의 미묘한 권력 갈등."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "황실과 무협의 결합"
+      }
+    ],
+    "keyEntitiesText": "주서붕, 주서호, 주서웅, 융경제, 공선대사",
+    "settingText": "자금성 건청궁, 황사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dKAHwV4fWNu_oqChOtXGPMbcvFLC2PaO",
+    "filename": "절대지존(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:09.255Z",
+    "size": "1021098",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1dKAHwV4fWNu_oqChOtXGPMbcvFLC2PaO/view?usp=drivesdk",
+    "sourceSha256": "d87aaf7d77a1e23e6fd093b2d7fba149c15f99bb60a0d78a45cd7b894f993d32",
+    "textSha256": "4154e015f643bf9cc7ff72ded199c266560c23d4af703a9e2925ab4864b6b17c",
+    "changeKey": "c9f7947db8e2d0e9ad235905dc754674",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "93a40268b5c95dbeb341",
+    "workId": "93a40268b5c95dbeb341",
+    "driveFileId": "1dKAHwV4fWNu_oqChOtXGPMbcvFLC2PaO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:05:45.429012+00:00",
+    "updatedAt": "2026-09-22T16:05:45.429028+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:05:45.429137+00:00"
+    }
+  }
+}

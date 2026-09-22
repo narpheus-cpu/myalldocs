@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "절대천사",
+    "author": "미상",
+    "genre": "무협",
+    "tags": [
+      "절대천사",
+      "남궁천승",
+      "천마구련"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인기 무협 작가의 작품.",
+    "oneLineSummary": "마도천하를 종식시키고 천라대제가 된 남궁천승과 그의 심복 사마흔의 이야기.",
+    "overallSummary": "아홉 개의 마문이 동맹을 맺었던 마도천하시대를 종식시키고 천하제일의 거인이 된 남궁천승과 천라대천의 비밀친위대 수석장령 사마흔의 활약을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "마도천하의 도래와 이를 종식시킨 천라대제 남궁천승의 등극 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "절대천사 제1권"
+      }
+    ],
+    "keyEntitiesText": "사마흔, 남궁천승, 백운芝, 적용소유",
+    "settingText": "서천목산 천라대천"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12jf2WGDF_GspKgPd_x-hGscVUMwK5eJ1",
+    "filename": "절대천사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:09.286Z",
+    "size": "715569",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/12jf2WGDF_GspKgPd_x-hGscVUMwK5eJ1/view?usp=drivesdk",
+    "sourceSha256": "077d01a77ac00d979579e4d308732b50e8ded82af4f7ad1b1bdef653049d9fec",
+    "textSha256": "a28a076cb37bd861ceec6324f062ad48679b3339a21ffa69d772965b7340df5d",
+    "changeKey": "10af956d48c1b4f4b1c76ec39e483021",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "12deffbcf9cb3ab41d4a",
+    "workId": "12deffbcf9cb3ab41d4a",
+    "driveFileId": "12jf2WGDF_GspKgPd_x-hGscVUMwK5eJ1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:06:00.419605+00:00",
+    "updatedAt": "2026-09-22T16:06:00.419619+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:06:00.419704+00:00"
+    }
+  }
+}

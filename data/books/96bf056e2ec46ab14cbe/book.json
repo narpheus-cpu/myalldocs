@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "묵향21 - 교주의 딸",
+    "author": "전동조",
+    "genre": "무협",
+    "tags": [
+      "묵향",
+      "아르티어스",
+      "드래곤"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전동조 작가의 대표 무협 소설 묵향 시리즈 21권.",
+    "oneLineSummary": "잠에서 깨어난 아르티어스의 행적과 송나라의 정세 변화를 그린 소설.",
+    "overallSummary": "마교 연공실에서 깨어난 골드 드래곤 아르티어스는 무공을 익히기 위해 고민하고, 송나라에서는 민란과 금나라의 위협 속에서 재상 진회가 움직인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "깨어나는 드래곤",
+        "summary": "오랜 잠에서 깨어난 아르티어스가 인간으로 변신해 수석장로를 당황하게 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈명",
+        "value": "묵향 21권"
+      }
+    ],
+    "keyEntitiesText": "아르티어스, 북궁뇌, 진회, 초류빈",
+    "settingText": "마교 연공실 및 송나라"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18BvXW7lIxeFbCAezK4GhxGPhGP2XcSFY",
+    "filename": "전동조-묵향21-교주의 딸  전동조-.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:09.000Z",
+    "size": "495780",
+    "folderPath": [
+      "books",
+      "08 무협",
+      "전동조-묵향"
+    ],
+    "relativePath": "books/08 무협/전동조-묵향",
+    "webViewLink": "https://drive.google.com/file/d/18BvXW7lIxeFbCAezK4GhxGPhGP2XcSFY/view?usp=drivesdk",
+    "sourceSha256": "8fb448f602c3f7123965c202de4dc27e31c07fe58ce180814bf9f9a8952a5415",
+    "textSha256": "3f212189aea615e5235a5fbcd7354961f1448028bdd530d028374c2d9b0a7a25",
+    "changeKey": "e34adbd746b3a3abb7e22c36638b54bc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "96bf056e2ec46ab14cbe",
+    "workId": "96bf056e2ec46ab14cbe",
+    "driveFileId": "18BvXW7lIxeFbCAezK4GhxGPhGP2XcSFY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:04:19.155979+00:00",
+    "updatedAt": "2026-09-22T16:04:19.155995+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:04:19.156096+00:00"
+    }
+  }
+}

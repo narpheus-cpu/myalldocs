@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "야광충 1부 제1권",
+    "author": "좌백",
+    "genre": "무협",
+    "tags": [
+      "좌백",
+      "야광충",
+      "설선생",
+      "귀주성"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 무협의 새로운 지평을 연 작가 좌백의 독창적인 작품.",
+    "oneLineSummary": "귀주성 귀양부를 배경으로 사기 행각을 벌이는 유생 설선생의 여정과 음산한 장례행렬의 등장.",
+    "overallSummary": "겨울비가 내리는 귀주성 귀양부에서 통인의 급행표를 가로채며 사기를 치는 설선생이 기묘한 묘족의 장례행렬을 목격하고 호기심을 품는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 1409년 1월 5일, 귀주성",
+        "summary": "귀주성 귀양부에서 통인 마원을 속이고 문서를 가로챈 설선생의 사기 행각."
+      },
+      {
+        "sectionTitle": "제2장 그날 밤, 열래객잔",
+        "summary": "열래객잔에서 비를 피하며 묘족의 음산한 장례행렬을 목격하는 설선생."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "야광충 1부 1권"
+      }
+    ],
+    "keyEntitiesText": "설선생, 마원, 가괴자",
+    "settingText": "귀주성 귀양부, 열래객잔"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10CP80J3kmuRBCmkxWgnoYokfY4VwH5Py",
+    "filename": "좌백-야광충 1부 제1권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:09.490Z",
+    "size": "349333",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/10CP80J3kmuRBCmkxWgnoYokfY4VwH5Py/view?usp=drivesdk",
+    "sourceSha256": "032161f0c85156eec677c8d25a72a84bb82eb9b7b9f85b033b8da4be0107c67d",
+    "textSha256": "6a6816d202a4e2ce54cc0df7980e5ad8f682a7bfa3c07ab9fbde8c5e889171d9",
+    "changeKey": "a4ac4b9c5e8a8ce170b6b8b6f840331c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7793594b95b1780136ca",
+    "workId": "7793594b95b1780136ca",
+    "driveFileId": "10CP80J3kmuRBCmkxWgnoYokfY4VwH5Py",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:08:49.301165+00:00",
+    "updatedAt": "2026-09-22T16:08:49.301182+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:08:49.301288+00:00"
+    }
+  }
+}

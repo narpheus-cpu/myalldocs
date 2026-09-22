@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "상견환",
+    "author": "종린",
+    "genre": "무협",
+    "tags": [
+      "종린",
+      "상견환",
+      "초풍비",
+      "초란"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "종린 작가의 감성적인 무협 소설.",
+    "oneLineSummary": "떠나버린 연인 초란을 찾아 작얼산을 떠나는 사나이 초풍비의 여정을 그린 소설.",
+    "overallSummary": "10년 동안 은거했던 작얼산을 떠나 사랑하는 연인 초란을 찾기 위해 다시 반검을 뽑아 들고 강호로 나서는 초풍비의 애절한 사연을 담았다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "연인 초란이 떠난 후 짐을 꾸려 그녀를 찾아 강호로 떠나는 초풍비의 심경."
+      },
+      {
+        "sectionTitle": "제1장",
+        "summary": "작얼산을 떠나는 초풍비와 흑룡채 산적들의 지루한 비 오는 날의 일상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "애틋한 로맨스적 정서가 담긴 무협"
+      }
+    ],
+    "keyEntitiesText": "초풍비, 초란, 장노, 좌명, 막주",
+    "settingText": "작얼산 초막 및 관도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18DqvacS55sMVCc_bRc6u_YiBjyCWQg6u",
+    "filename": "종린-상견환.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:09.394Z",
+    "size": "843808",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/18DqvacS55sMVCc_bRc6u_YiBjyCWQg6u/view?usp=drivesdk",
+    "sourceSha256": "a019a22496909a37e20cbdb1eff3aca6dc3bdbf76002919ee40bc7ed72e0a478",
+    "textSha256": "f9c2cd396646ad7c2d151a859ba67e9dd53e3fbed2f2c37d9c7822a08a8b9653",
+    "changeKey": "12865a644a210f17918e6041ab692b97",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "93807754a602118f98f1",
+    "workId": "93807754a602118f98f1",
+    "driveFileId": "18DqvacS55sMVCc_bRc6u_YiBjyCWQg6u",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:07:38.074842+00:00",
+    "updatedAt": "2026-09-22T16:07:38.074858+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:07:38.074967+00:00"
+    }
+  }
+}

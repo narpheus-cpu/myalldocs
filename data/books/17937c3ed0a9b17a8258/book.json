@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "절대무적",
+    "author": "검궁인",
+    "genre": "무협",
+    "tags": [
+      "절대무적",
+      "유정생",
+      "서문세가"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action",
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "검궁인 작가의 인기 무협 소설.",
+    "oneLineSummary": "산적 아버지의 마지막 소원을 이루기 위해 서문세가를 찾아간 소년 유정생의 이야기.",
+    "overallSummary": "산적 아버지 밑에서 자란 유정생은 아버지가 죽어가는 과정에서 어머니를 닮은 서문세가의 딸과 결혼해 달라는 마지막 소원을 듣고 서문세가로 향한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "산적 아버지와 함께 살던 유정생이 아버지가 죽어가자 서문세가로 향해 청혼 소동을 벌인다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "독특한 서사와 코믹하면서도 애절한 도입부"
+      }
+    ],
+    "keyEntitiesText": "유정생, 서문일도, 서문중중, 서문유하",
+    "settingText": "산골 오두막 및 서문세가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19WHLk4SmSVluhGD0uTLo_3eiQJ0feWqr",
+    "filename": "절대무적 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:09.178Z",
+    "size": "2472802",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/19WHLk4SmSVluhGD0uTLo_3eiQJ0feWqr/view?usp=drivesdk",
+    "sourceSha256": "52005c63de55c4281268c4478695ed14eb8b7d443da1e5fea84d006d13acf9ae",
+    "textSha256": "f978fd56b5626a1a2e014d2e520cdaf10fde5256d082c17f97b741a1c89bbc9a",
+    "changeKey": "2abbea785aafb8fa5ce342b230c98e8e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "17937c3ed0a9b17a8258",
+    "workId": "17937c3ed0a9b17a8258",
+    "driveFileId": "19WHLk4SmSVluhGD0uTLo_3eiQJ0feWqr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:05:11.221799+00:00",
+    "updatedAt": "2026-09-22T16:05:11.221814+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:05:11.221909+00:00"
+    }
+  }
+}

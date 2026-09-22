@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "만인동",
+    "author": "좌백",
+    "genre": "무협",
+    "tags": [
+      "좌백",
+      "만인동",
+      "추맹",
+      "임동현"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "기존의 정형화된 무협 규칙을 창조적으로 극복해 온 작가 좌백의 대표작.",
+    "oneLineSummary": "천대산 공사 중 우연히 발견된 의문의 동굴과 임동현 채하원에서 벌어진 소동을 다룬 소설.",
+    "overallSummary": "천대산 누각 공사 현장에서 일꾼 추맹이 우연히 의문의 동굴을 발견하고, 임동현의 주루 채하원에서는 흑의사내가 백호단원들의 뼈를 부러뜨리는 소동이 벌어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "천대산 공사 현장에서 일꾼 추맹이 우연히 비밀스러운 동굴을 발견함."
+      },
+      {
+        "sectionTitle": "제1장",
+        "summary": "임동현 채하원에서 백호단원들을 제압한 흑의사내의 기행과 점소이 아대의 시선."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "만인동 제1권"
+      }
+    ],
+    "keyEntitiesText": "추맹, 아대, 계립, 모대충",
+    "settingText": "섬서성 천대산, 임동현 채하원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vYd79_Uo0rZcfkRXsyijc3-dH5hs4LyU",
+    "filename": "좌백-만인동(萬忍洞).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:09.449Z",
+    "size": "1748121",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1vYd79_Uo0rZcfkRXsyijc3-dH5hs4LyU/view?usp=drivesdk",
+    "sourceSha256": "f9196d56f12e27061b2dd1270a569e84c981c20d85ff0627ab01db85bb7d6689",
+    "textSha256": "0eda86b9cecd1357e8a65d8153d45892f2ef6c38996c8c13dd8f973cfdf2bd6c",
+    "changeKey": "fae6fe80400aa7f89f1d352106577d33",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d63daa9e4c5ccc6bbe64",
+    "workId": "d63daa9e4c5ccc6bbe64",
+    "driveFileId": "1vYd79_Uo0rZcfkRXsyijc3-dH5hs4LyU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:08:38.363011+00:00",
+    "updatedAt": "2026-09-22T16:08:38.363026+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:08:38.363132+00:00"
+    }
+  }
+}

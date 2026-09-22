@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "전왕전기(무협) 01권",
+    "author": "김운(우각)",
+    "genre": "무협",
+    "tags": [
+      "전왕전기",
+      "우각",
+      "단사유"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "우각(김운) 작가의 대표 무협 소설.",
+    "oneLineSummary": "요녕성과 궁가촌을 배경으로 펼쳐지는 단사유의 서사.",
+    "overallSummary": "혈루평의 청동흑룡상 사건과 궁가촌에서 살아가는 소년 단사유의 평화롭지만 비범한 일상을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 및 궁가촌",
+        "summary": "혈루평의 비무와 미스터리한 노인, 그리고 궁가촌의 단사유와 주변 인물들의 소개."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "전왕전기 1권"
+      }
+    ],
+    "keyEntitiesText": "홍무규, 단사유, 궁무애, 궁적산",
+    "settingText": "요녕성, 궁가촌"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fRDKq_GCl81EGHTgNtEIAwfeVCkf9S2X",
+    "filename": "전왕전기(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:09.020Z",
+    "size": "3602605",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1fRDKq_GCl81EGHTgNtEIAwfeVCkf9S2X/view?usp=drivesdk",
+    "sourceSha256": "2665f5cc13bdef10dbdff51d37baea536e0f50ec650e0e1815e47e34a523be4f",
+    "textSha256": "f4bd6ecd0493fcf8861205a573a7611f09167fd2ce70b98f470d0abc0992b7da",
+    "changeKey": "3944c3602f06535ad0c74d42d1c4673b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2d439fd7960693cddabe",
+    "workId": "2d439fd7960693cddabe",
+    "driveFileId": "1fRDKq_GCl81EGHTgNtEIAwfeVCkf9S2X",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:04:45.656974+00:00",
+    "updatedAt": "2026-09-22T16:04:45.656988+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.656,
+      "updatedAt": "2026-09-22T16:04:45.657074+00:00"
+    }
+  }
+}

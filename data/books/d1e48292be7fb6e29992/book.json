@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제왕천하(무협)",
+    "author": "금강",
+    "genre": "무협",
+    "tags": [
+      "금강",
+      "제왕천하",
+      "황실",
+      "주천운"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "political_intrigue",
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정통무협의 대가 금강 작가의 작품으로 황실과 무협의 조화를 다룬다.",
+    "oneLineSummary": "황실을 위해 문(文)의 길로 들어선 찻째 황자 주천운이 삼대천음의 전설과 음모에 휘말리는 이야기.",
+    "overallSummary": "무림삼대천음의 전설과 문창, 무곡 양대령성의 기묘한 탄생 설화를 바탕으로 황실과 무림의 거대한 음모 속에서 호국지존으로 성장하는 주천운의 서사.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서",
+        "summary": "무림삼대천음(자미천소, 혈천마경, 현천고금)의 전설과 두 황자의 탄생."
+      },
+      {
+        "sectionTitle": "1장",
+        "summary": "자금성을 배경으로 오황야 대혜왕 주천운의 모습과 황실의 미묘한 정세."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "황실 중심의 정통 무협"
+      }
+    ],
+    "keyEntitiesText": "주천운, 주성운, 주천운, 제독태감, 경운공주 주소영",
+    "settingText": "자금성, 단심정"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1A-jaGTEF6L6W0aRD0hlP5ZkZ0ScxXggF",
+    "filename": "제왕천하(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:09.368Z",
+    "size": "805103",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1A-jaGTEF6L6W0aRD0hlP5ZkZ0ScxXggF/view?usp=drivesdk",
+    "sourceSha256": "8a614baf25614ca487ca9cd9591a6850afb9774e567367ff9050a1215c8772e8",
+    "textSha256": "400de476e84d5cfd3f0f20257634ecec1030d6362116ee981986e3a37a6f2ad4",
+    "changeKey": "e796c560c0feb2dc382b23804b701066",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d1e48292be7fb6e29992",
+    "workId": "d1e48292be7fb6e29992",
+    "driveFileId": "1A-jaGTEF6L6W0aRD0hlP5ZkZ0ScxXggF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:07:02.112650+00:00",
+    "updatedAt": "2026-09-22T16:07:02.112664+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:07:02.112781+00:00"
+    }
+  }
+}
