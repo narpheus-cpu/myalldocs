@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천애명월도 01",
+    "author": "고룡",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "고룡",
+      "천애명월도"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고룡",
+    "oneLineSummary": "비 내리는 황폐한 절간에서 소림의 복호나한 원명과 백의의 소녀 사연주가 벌이는 치열한 대결을 다룬 무협 소설.",
+    "overallSummary": "비 오는 날 관음묘라는 폐사지에서 소림의 고승 복호나한 원명이 사연주라는 정체불명의 아름다운 소녀와 만나 독에 중독되고 사투를 벌이는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "第一章 옷을 벗은 여인",
+        "summary": "폭우를 피해 황폐한 절간으로 들어간 복호나한 원명과 백의의 소녀 사연주의 만남과 긴장감 넘치는 상황을 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "무협 미스터리"
+      }
+    ],
+    "keyEntitiesText": "복호나한 원명, 사연주",
+    "settingText": "황폐한 관음묘"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12KGS9Eo4Ibz55I00ePQMEnjqrHg4GQDl",
+    "filename": "고룡-천애명월도 01.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.816Z",
+    "size": "497864",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/12KGS9Eo4Ibz55I00ePQMEnjqrHg4GQDl/view?usp=drivesdk",
+    "sourceSha256": "accb0b31e5ba31f90a697234b3cfda360c51e7681f3d31adb635b378962ecfa3",
+    "textSha256": "cae56ed9b21536d7669e0e38d30bb26f0b00b641921eaffd2d90bbd7f77cf3e1",
+    "changeKey": "350693afa40b4c5a9521ba4d2553af85",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "467b7dab10de94c0b51b",
+    "workId": "467b7dab10de94c0b51b",
+    "driveFileId": "12KGS9Eo4Ibz55I00ePQMEnjqrHg4GQDl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:50:05.579515+00:00",
+    "updatedAt": "2026-09-22T14:50:05.579530+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:50:05.579607+00:00"
+    }
+  }
+}

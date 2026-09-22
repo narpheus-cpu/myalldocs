@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "곤룡유기",
+    "author": "이소",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "곤룡유기",
+      "해경거인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이소",
+    "oneLineSummary": "대해를 건너 해경거인을 찾아 나선 천마표국 국주 위지무외와 상충의 여정을 그린 무협 소설.",
+    "overallSummary": "천마표국의 위기와 타개를 위해 우가형제의 배를 타고 동해의 섬으로 향한 위지무외와 상충이 폐허가 된 장원과 곤이라는 청년을 만나며 벌어지는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 해경거인(海鯨鉅人)",
+        "summary": "우가형제의 배를 타고 대해를 건너 해경거인의 섬에 도착한 위지무외와 상충이 불타버린 인가와 무덤, 그리고 곤이라는 청년을 만나는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "정통 무협"
+      }
+    ],
+    "keyEntitiesText": "상충, 우대, 우이, 위지무외, 곤",
+    "settingText": "망망대해, 해경거인의 섬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-0-tjAHqj9invwswsZ3I4wEVA3N_ExFm",
+    "filename": "곤룡유기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.871Z",
+    "size": "1782484",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1-0-tjAHqj9invwswsZ3I4wEVA3N_ExFm/view?usp=drivesdk",
+    "sourceSha256": "acc9d525138dde2f7ba53bd6a77f31d5110abcbf735032cbbc664b37a26d1ed1",
+    "textSha256": "1044a09f9259f0de6db569e7c17296ffa413ebad8c1a1e061b211ea5d36011d7",
+    "changeKey": "d4af1eb47c9dcd38181b9225040bba0e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4961355b360ae0190d37",
+    "workId": "4961355b360ae0190d37",
+    "driveFileId": "1-0-tjAHqj9invwswsZ3I4wEVA3N_ExFm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:50:31.648341+00:00",
+    "updatedAt": "2026-09-22T14:50:31.648356+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:50:31.648436+00:00"
+    }
+  }
+}

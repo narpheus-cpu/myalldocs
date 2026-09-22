@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고검영웅",
+    "author": "홍파",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "고검영웅",
+      "홍파"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "홍파",
+    "oneLineSummary": "몰락한 대천문과 신월천벽을 배경으로 천룡신월 한백과 팔대무공만능인간의 활약을 그린 무협 소설.",
+    "overallSummary": "대천문의 몰락과 사황천의 대두 속에서 무공을 모르나 지혜를 가진 천룡신월 한백과 팔대무공만능인간들이 평화를 지키기 위해 움직이는 이야기를 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "序章",
+        "summary": "대천문의 몰락과 사황천의 탄생, 그리고 천룡신월 한백과 팔대무공만능인간들의 내력을 소개한다."
+      },
+      {
+        "sectionTitle": "제 1 장 개 같은 인간",
+        "summary": "폐쇄된 대천문 안에서 바보 행세를 하며 살아가는 미소년 대공자의 처절한 삶과 주변의 폭력을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "정통 무협"
+      }
+    ],
+    "keyEntitiesText": "한백, 몽우인, 냉월성, 엽풍, 춘앵",
+    "settingText": "대천문, 신월천벽, 운남성 대평원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Ywm0_ITgR8dYA4N0QXB355rPQUMwyky_",
+    "filename": "고검영웅.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.585Z",
+    "size": "619926",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1Ywm0_ITgR8dYA4N0QXB355rPQUMwyky_/view?usp=drivesdk",
+    "sourceSha256": "793b019d3953850b4941f717ed648ee9f8dc1b2a15aeb3d18284b0cdb430589b",
+    "textSha256": "e53f6c3a081a88a080264d2c3132b4be00eb2334a57278e735ecc096ee7f78d9",
+    "changeKey": "e4195c9fc395b2205c74b99c69fd2f58",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "adfd6347d59ccfe9fb08",
+    "workId": "adfd6347d59ccfe9fb08",
+    "driveFileId": "1Ywm0_ITgR8dYA4N0QXB355rPQUMwyky_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:49:26.870417+00:00",
+    "updatedAt": "2026-09-22T14:49:26.870433+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:49:26.870517+00:00"
+    }
+  }
+}

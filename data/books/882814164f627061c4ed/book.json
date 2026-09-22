@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "절대쌍교",
+    "author": "고룡",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "고룡",
+      "절대쌍교"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고룡",
+    "oneLineSummary": "풍류공자 강풍과 연남천, 그리고 십이성상의 습격과 이화궁의 비밀을 다룬 고룡의 대표 무협 소설.",
+    "overallSummary": "천하제일 미남자 강풍과 신검 연남천의 우정, 그리고 도망치는 강풍 부부를 쫓는 십이성상과 이화궁의 검은 매화꽃 일화를 그린 작품.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "연인들의 도피",
+        "summary": "황원을 가로질러 달리는 강풍의 마차와 이를 가로막는 십이성상, 그리고 이화궁의 흑옥매화로 인해 도망치는 도적들의 이야기를 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "정통 무협"
+      }
+    ],
+    "keyEntitiesText": "강풍, 연남천, 계관, 흑면군",
+    "settingText": "자갈투성이의 황원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ilfZZxCUnJv4kpRvPDYQtULWhrGZeyOE",
+    "filename": "고룡-절대쌍교(絶代雙驕).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.751Z",
+    "size": "3536690",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1ilfZZxCUnJv4kpRvPDYQtULWhrGZeyOE/view?usp=drivesdk",
+    "sourceSha256": "ea8f7c2e35cec14a7e5fa910611c8aa36aa4f45ea1f4f8c93d31245b9e907d33",
+    "textSha256": "79431407037fe0c0c7f938c4cdcff24942cb9593afbfe201d3fd892fb3df33e3",
+    "changeKey": "31b611d540ee764e2869b5e9b104eafc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "882814164f627061c4ed",
+    "workId": "882814164f627061c4ed",
+    "driveFileId": "1ilfZZxCUnJv4kpRvPDYQtULWhrGZeyOE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:49:58.490612+00:00",
+    "updatedAt": "2026-09-22T14:49:58.490628+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:49:58.490709+00:00"
+    }
+  }
+}

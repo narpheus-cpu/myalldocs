@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무림외사",
+    "author": "고룡",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "고룡",
+      "무림외사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고룡",
+    "oneLineSummary": "혹독한 눈보라 속을 뚫고 인의장을 찾아온 초라한 소년과 무림 고수들의 이야기를 다룬 고룡의 무협 소설.",
+    "overallSummary": "눈보라 치는 평원을 지나 인의장에 도착한 준수하고 초라한 소년이 악적들의 시신을 넘기고 은자를 받아 챙기며 벌어지는 기이하고 미스터리한 사건들을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이상한 소년",
+        "summary": "혹독한 추위 속에서 시신을 실은 말과 함께 인의장에 도착한 초라한 소년과 장원 안의 칠대고수 및 세 노인의 정황을 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "무협 미스터리"
+      }
+    ],
+    "keyEntitiesText": "초라한 소년, 냉삼, 뢰추황, 세 노인",
+    "settingText": "개봉성 밖 인의장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1d7_C9J6YsX8yKDjWzSndjog8r_g5b_H3",
+    "filename": "고룡-무림외사(武林外史).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.698Z",
+    "size": "3387938",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1d7_C9J6YsX8yKDjWzSndjog8r_g5b_H3/view?usp=drivesdk",
+    "sourceSha256": "c256fe9082401c148cdfa0699248e53a31979201ef31a5906c6aee4601c40358",
+    "textSha256": "7a26c56bdc8bcd21512840c6fb6c5d989f4f3dcd186ce76decbca7654f3b39c2",
+    "changeKey": "fb3cb82438b1aba27c52f34f7b77a379",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "508c491f2c2252e6400a",
+    "workId": "508c491f2c2252e6400a",
+    "driveFileId": "1d7_C9J6YsX8yKDjWzSndjog8r_g5b_H3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:49:51.442179+00:00",
+    "updatedAt": "2026-09-22T14:49:51.442195+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:49:51.442274+00:00"
+    }
+  }
+}

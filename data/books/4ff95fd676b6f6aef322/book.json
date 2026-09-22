@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천애명월도 05",
+    "author": "고룡",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "고룡",
+      "천애명월도"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고룡",
+    "oneLineSummary": "노부인과 능천우의 관계, 그리고 백발 노파와의 난투를 그린 무협 소설.",
+    "overallSummary": "노부인과의 대화 속에서 과거의 진상과 출생의 비밀에 접근하는 능천우, 그리고 백발 노파가 난입해 벌이는 혼란스러운 싸움을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "第一章 동굴 속의 사투",
+        "summary": "노부인과 능천우의 대화 도중 백발 노파가 난입하여 무차별적인 싸움을 벌이고 출생의 비밀에 대한 의문이 깊어지는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "정통 무협"
+      }
+    ],
+    "keyEntitiesText": "능천우, 노부인, 백발 노파, 심목군",
+    "settingText": "비밀 동굴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QC_IGp0hNdvPWfXcpJuoXZ6_Hl-hvaoI",
+    "filename": "고룡-천애명월도 05.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.856Z",
+    "size": "462618",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1QC_IGp0hNdvPWfXcpJuoXZ6_Hl-hvaoI/view?usp=drivesdk",
+    "sourceSha256": "b4a2803cbbc31bb3bcf67c50fe8d317ad9d2194d767538c20009d7853be81214",
+    "textSha256": "55990dd26393e3b41c4ddfc4181aa514b7dfd072e7dfed32873e14d3b3825fa7",
+    "changeKey": "3f7057c411ed1b9f325bfd93d14c6c34",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4ff95fd676b6f6aef322",
+    "workId": "4ff95fd676b6f6aef322",
+    "driveFileId": "1QC_IGp0hNdvPWfXcpJuoXZ6_Hl-hvaoI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:50:22.847031+00:00",
+    "updatedAt": "2026-09-22T14:50:22.847045+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:50:22.847145+00:00"
+    }
+  }
+}

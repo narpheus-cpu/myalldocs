@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "겁난유세",
+    "author": "金翅鳥",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "겁난유세",
+      "금시조"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "金翅鳥",
+    "oneLineSummary": "무혼지겁이라는 대규모 혈난과 그 시대를 살아가는 강호인들의 이야기를 다룬 무협 소설.",
+    "overallSummary": "무혼지겁이라 불리는 과거의 혈겁과 현재를 오가며, 철담마도 황무와 흑령방주 고황을 비롯한 인물들의 음모와 사건을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 序",
+        "summary": "무혼지겁과 광무혼에 대한 설명 및 이 소설의 시간적 구성 차별화에 대해 서술한다."
+      },
+      {
+        "sectionTitle": "1. 총관 황무와 흑령방주 고황",
+        "summary": "춘추서원의 총관 황무와 흑령방주 고황의 주변에서 벌어지는 일들을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "정통 무협"
+      }
+    ],
+    "keyEntitiesText": "황무, 고황, 최오, 만박",
+    "settingText": "춘추서원, 흑령방, 호연도방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11sQwnXpitmarsq3CF8ZyRrhxsWXpipFf",
+    "filename": "겁난유세(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.558Z",
+    "size": "843031",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/11sQwnXpitmarsq3CF8ZyRrhxsWXpipFf/view?usp=drivesdk",
+    "sourceSha256": "108346fbc455346a50a5ab28e022af958127d067e715de7a002ec362f1d6eba7",
+    "textSha256": "c3321c2598c92a38c5bffae5e65f2f51b9195fd7715e4c2977818f8faa5d0ae4",
+    "changeKey": "d524b1311a1f65bd24312713b4b07138",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bfb7e9086709fce306cf",
+    "workId": "bfb7e9086709fce306cf",
+    "driveFileId": "11sQwnXpitmarsq3CF8ZyRrhxsWXpipFf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:49:13.522955+00:00",
+    "updatedAt": "2026-09-22T14:49:13.522971+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:49:13.523053+00:00"
+    }
+  }
+}

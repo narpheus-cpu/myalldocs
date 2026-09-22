@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "광오천하 제1권",
+    "author": "금시조",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "금시조",
+      "광오천하"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금시조",
+    "oneLineSummary": "마을이 불타는 참화 속에서 한 아이를 선택한 중년 문사의 이야기와 소림사 산문에서 술을 마시며 시비를 거는 초화평의 에피소드.",
+    "overallSummary": "폭우와 화염 속에서 한 마을을 도살하고 아기를 거두어간 중년 문사의 과거와, 수십 년 뒤 소림사 산문 앞에서 매화주를 마시며 승려 요광과 옥신각신하는 초화평의 기이한 행동을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 타오름",
+        "summary": "불타는 마을과 아기를 거두어가는 정체불명의 중년 문사의 잔혹한 참화를 묘사한다."
+      },
+      {
+        "sectionTitle": "제1장 오늘 -- 구슬피 움.",
+        "summary": "소림사 산문 앞에서 매화주를 마시며 요광 스님을 당황하게 만드는 청년 초화평의 엉뚱한 행동을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "정통 무협"
+      }
+    ],
+    "keyEntitiesText": "초화평, 요광, 요득, 현수, 호웅대",
+    "settingText": "소림사 산문, 비룡폭"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wWe5CCA07k3o9NkUujs_p36jv8CWbFWP",
+    "filename": "광오천하(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.005Z",
+    "size": "751476",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1wWe5CCA07k3o9NkUujs_p36jv8CWbFWP/view?usp=drivesdk",
+    "sourceSha256": "3395fb42612b492d2c8e33fff53b1f4073e0f2c2a7b4bf4324961b75e2059bc9",
+    "textSha256": "eb3d5d20945d0b5145157cb60609e387025428718e7355b4836b74b478e47bf7",
+    "changeKey": "cf5a16802159cce7dc5af16ec4fc7087",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0baf5d4a90a45c13b88a",
+    "workId": "0baf5d4a90a45c13b88a",
+    "driveFileId": "1wWe5CCA07k3o9NkUujs_p36jv8CWbFWP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:51:02.975359+00:00",
+    "updatedAt": "2026-09-22T14:51:02.975374+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5046,
+      "updatedAt": "2026-09-22T14:51:02.975457+00:00"
+    }
+  }
+}

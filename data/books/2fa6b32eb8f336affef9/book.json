@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "구주강호",
+    "author": "검궁인",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "검궁인",
+      "구주강호"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "검궁인",
+    "oneLineSummary": "왜구 토벌 전쟁에서 반역자로 몰려 은발의 죄인이 된 청년 유천기의 비극적 운명과 항주의 백화장을 그린 정통 무협 소설.",
+    "overallSummary": "동해의 숭녕도에서 은발의 은둔 생활을 하게 된 유천기의 기구한 과거와, 항주 백화장에서 유천기를 기다리며 슬픔을 간직한 기녀 옥사향의 이야기를 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 상심인",
+        "summary": "동해 숭녕도 절벽가에서 백발이 된 채 고향을 그리워하는 청년 유천기와 세 노인의 만남, 그리고 그의 비극적인 과거 사연을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "정통 무협"
+      }
+    ],
+    "keyEntitiesText": "유천기, 천장노인, 일진자, 고독서생, 옥사향",
+    "settingText": "동해 숭녕도, 항주 백화장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1adTB-mWoHcf5_plGviBZpTusoXdqOwuJ",
+    "filename": "구주강호 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.338Z",
+    "size": "1762150",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1adTB-mWoHcf5_plGviBZpTusoXdqOwuJ/view?usp=drivesdk",
+    "sourceSha256": "23bde828a09089c326d5d82475af45938e8c483286e630dc2648902a4b63adf0",
+    "textSha256": "c9f58f0cfcaae7afb61278c32bf23c65a589304116c77346e30d1ec1cd9d24a0",
+    "changeKey": "e34c4d7087abb027304975dc57e03123",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2fa6b32eb8f336affef9",
+    "workId": "2fa6b32eb8f336affef9",
+    "driveFileId": "1adTB-mWoHcf5_plGviBZpTusoXdqOwuJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:51:50.060141+00:00",
+    "updatedAt": "2026-09-22T14:51:50.060157+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:51:50.060237+00:00"
+    }
+  }
+}

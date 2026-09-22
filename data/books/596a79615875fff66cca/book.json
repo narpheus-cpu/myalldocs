@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "광세경혼",
+    "author": "금강",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "금강",
+      "광세경혼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금강",
+    "oneLineSummary": "만가생불로 불리는 인심맹상 남궁룡의 성심산장에 닥친 비극과 산공기독의 음모를 그린 무협 소설.",
+    "overallSummary": "중양절을 맞아 평화롭던 성심산장에 총관 송호원의 산공기독 중독과 표일수사 한운비의 배신, 그리고 오왕 중 모왕의 습격으로 산장이 파괴되는 비극을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "序章",
+        "summary": "황산 천도봉의 성심산장과 인심맹상 남궁룡의 인자한 성품, 그리고 그에게 다가오는 거대한 음모와 산장의 참화를 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "정통 무협"
+      }
+    ],
+    "keyEntitiesText": "남궁룡, 송호원, 한운비, 모왕",
+    "settingText": "황산 천도봉 성심산장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MY1KZ3vpzae57jFGi2s0D_iCWO-tSw8r",
+    "filename": "광세경혼(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.943Z",
+    "size": "907424",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1MY1KZ3vpzae57jFGi2s0D_iCWO-tSw8r/view?usp=drivesdk",
+    "sourceSha256": "bf8f8477aacdeae65a0ceb1e1c7134c0e17bb8b58145eaea9376a773b8103cb0",
+    "textSha256": "62f7b1977fac66082f36f5471cd1faac0a786791a4dd93d576755dadfe78a6ab",
+    "changeKey": "7a006f0e40203de00351ce5768068344",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "596a79615875fff66cca",
+    "workId": "596a79615875fff66cca",
+    "driveFileId": "1MY1KZ3vpzae57jFGi2s0D_iCWO-tSw8r",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:50:48.364700+00:00",
+    "updatedAt": "2026-09-22T14:50:48.364715+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:50:48.364794+00:00"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "곤륜삼성",
+    "author": "백상",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "곤륜삼성",
+      "구파일방"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "백상",
+    "oneLineSummary": "청우를 타고 방황하며 엉뚱한 시를 읊는 금몽추와 곤륜삼성의 기이한 일상을 그린 무협 소설.",
+    "overallSummary": "굼뜬 청우 궁구가를 타고 다니며 엉뚱한 시를 읊는 금몽추가 자신의 처소에서 천로, 화로, 의로 등 세 사람과 나누는 대화와 강호 출도를 준비하는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "청우를 타고 기이한 시를 읊으며 방황하는 금몽추의 모습을 유쾌하게 묘사한다."
+      },
+      {
+        "sectionTitle": "제1장 삼성요(三聖 )",
+        "summary": "처소로 돌아온 금몽추가 천로, 화로, 의로와 만나 궁구가의 말썽에 대해 대화를 나누고 강호 출도를 앞두는 이야기를 담고 있다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "코믹 무협"
+      }
+    ],
+    "keyEntitiesText": "금몽추, 궁구가, 화로, 천로, 의로",
+    "settingText": "푸른 호숫가, 삼성요"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RS_Kw3d2zLb9l7IkEtdT4oKlL01zmqgm",
+    "filename": "곤륜삼성 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.912Z",
+    "size": "1238750",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1RS_Kw3d2zLb9l7IkEtdT4oKlL01zmqgm/view?usp=drivesdk",
+    "sourceSha256": "2fb01aa7a8ecf43fac1026e1b09ea004ce1e2763609ba89313ed97c6cbf47808",
+    "textSha256": "78a982d63d5074cb69f6a58090da42093d57368b9c63fd674afe28917cd3fcfd",
+    "changeKey": "97a46ce0800dc0c7babe0ec6e98118ef",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4905e42b4aee43d58641",
+    "workId": "4905e42b4aee43d58641",
+    "driveFileId": "1RS_Kw3d2zLb9l7IkEtdT4oKlL01zmqgm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:50:38.600862+00:00",
+    "updatedAt": "2026-09-22T14:50:38.600878+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:50:38.600958+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "광풍무",
+    "author": "서",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "광풍무",
+      "생시",
+      "강시"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서",
+    "oneLineSummary": "동생들에 의해 금강불괴의 생시(生屍)가 되어 깨어난 백산(소령)과 상문 문주 구양중의 만남을 그린 무협 소설.",
+    "overallSummary": "죽으려고 발악해도 동생들의 조작으로 인해 죽을 수 없는 금강불괴의 생시가 된 백산이 지하 지하실을 나와 불망애에서 마교 상문의 추격을 받는 구양중을 우연히 만나 겪는 에피소드.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서",
+        "summary": "죽을 준비가 되었다는 신호와 함께 자살을 시도하는 인물의 독백을 담았다."
+      },
+      {
+        "sectionTitle": "내 몸은 강시 였다",
+        "summary": "동생들에 의해 금강불괴의 생시로 다시 태어난 백산이 자살을 시도하다 실패하고, 불망애에서 상문의 추격을 받는 구양중과 설련을 만나 벌어지는 해프닝을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "판타지 무협"
+      }
+    ],
+    "keyEntitiesText": "백산(소령), 모사, 구양중, 설련",
+    "settingText": "지하 밀실, 불망애"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1emh9hlh_J9V4TvQSgszTCtaHNBZqWtOP",
+    "filename": "광풍무(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.196Z",
+    "size": "2798229",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1emh9hlh_J9V4TvQSgszTCtaHNBZqWtOP/view?usp=drivesdk",
+    "sourceSha256": "912c8b1d3fb66602ac425a802a327f40c6f26679c98cdb4deb6f5dfce37289c1",
+    "textSha256": "5632a7ddea76f1e42d7cf8432c0eb1a7f55d46313ad40951d0d12fc579294a2c",
+    "changeKey": "791145b15bdbde67fc4acfbaf3b71cb2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "989711e9765d6eceb6c9",
+    "workId": "989711e9765d6eceb6c9",
+    "driveFileId": "1emh9hlh_J9V4TvQSgszTCtaHNBZqWtOP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:51:26.358510+00:00",
+    "updatedAt": "2026-09-22T14:51:26.358525+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:51:26.358608+00:00"
+    }
+  }
+}

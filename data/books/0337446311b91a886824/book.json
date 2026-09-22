@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천애명월도 02",
+    "author": "고룡",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "고룡",
+      "천애명월도"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고룡",
+    "oneLineSummary": "임웅의 섭혼대법에 맞서는 능천우와 영남오독의 관계, 그리고 뇌강의 암표 호송 문제를 다룬 무협 소설.",
+    "overallSummary": "능천우가 임웅과의 심리적·내공적 대결을 통해 섭혼대법을 극복하고, 정보운을 만나 암표 호송에 관한 부탁을 받으며 겪는 사연들을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "第一章 정의 그물",
+        "summary": "임웅의 섭혼대법을 이겨내려는 능천우의 내면 갈등과 임웅의 자멸, 그리고 정보운과의 재회를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "정통 무협"
+      }
+    ],
+    "keyEntitiesText": "능천우, 임웅, 나영영, 정보운, 뇌강",
+    "settingText": "암표 호송 길목"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gCr_v7c3N4_Az2X-xRBYP0OxlwYDpKwq",
+    "filename": "고룡-천애명월도 02.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.833Z",
+    "size": "479093",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1gCr_v7c3N4_Az2X-xRBYP0OxlwYDpKwq/view?usp=drivesdk",
+    "sourceSha256": "8ba7ddd2a8a317ef45069e966715d695ff69b09e5a311e1b4686952c539d16b9",
+    "textSha256": "45396903a7ec2a3e48e44b40b1263b33cce1243db6203473b1551a5cd544c537",
+    "changeKey": "7b341509677fe8d873576c4b05ffec1b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0337446311b91a886824",
+    "workId": "0337446311b91a886824",
+    "driveFileId": "1gCr_v7c3N4_Az2X-xRBYP0OxlwYDpKwq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:50:11.817894+00:00",
+    "updatedAt": "2026-09-22T14:50:11.817910+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:50:11.817991+00:00"
+    }
+  }
+}

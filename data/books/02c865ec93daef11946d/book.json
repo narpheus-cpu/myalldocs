@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "명검풍류",
+    "author": "고룡",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "고룡",
+      "명검풍류"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고룡",
+    "oneLineSummary": "요산노인 유방학의 비극과 그의 아들 유패옥이 겪는 음모와 무림의 풍파를 그린 고룡의 무협 소설.",
+    "overallSummary": "평화롭던 요산노인 유방학의 집에 의문의 편지와 자객들이 들이닥치고, 유방학이 독에 당해 사망한 후 아들 유패옥이 진상을 밝히기 위해 겪는 사건들을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장. 예고없이 닥쳐온 재앙",
+        "summary": "유방학에게 전달된 의문의 편지와 흑합자의 죽음, 그리고 정체불명의 자객들의 습격과 유방학의 최후를 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "무협 탐정"
+      }
+    ],
+    "keyEntitiesText": "유방학, 유패옥, 흑합자, 경삼 청년",
+    "settingText": "요산노인의 정원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gQobK0V3Ab4EjUlCdLsFWJrSFhgWsEb6",
+    "filename": "고룡-명검풍류(名劍風流).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.643Z",
+    "size": "2852660",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1gQobK0V3Ab4EjUlCdLsFWJrSFhgWsEb6/view?usp=drivesdk",
+    "sourceSha256": "58659ee49be5f16aee0347d6533959ee3891012df69682011c2802e3c2d734a5",
+    "textSha256": "f3d280e15996fc1828921e213b73bc19bef46f08a53ab783e9bb6e1a9499d50c",
+    "changeKey": "8b035707eb16aa231c04c339ce431765",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "02c865ec93daef11946d",
+    "workId": "02c865ec93daef11946d",
+    "driveFileId": "1gQobK0V3Ab4EjUlCdLsFWJrSFhgWsEb6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:49:44.967659+00:00",
+    "updatedAt": "2026-09-22T14:49:44.967673+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:49:44.967754+00:00"
+    }
+  }
+}

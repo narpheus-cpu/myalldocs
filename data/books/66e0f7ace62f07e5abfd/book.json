@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "광풍가",
+    "author": "금강",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "금강",
+      "광풍가"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금강",
+    "oneLineSummary": "혈랑 떼의 습격으로 어머니를 잃은 백산이 아버지와 함께 추랑객으로 살아가며 마령호 사냥에 도전하는 무협 소설.",
+    "overallSummary": "붉은 늑대 무리에게 화전민 마을이 유린당하고 어머니를 잃은 백산이, 아버지와 함께 복수의 꿈을 품고 뇌산에서 거대한 마령호에 맞서 함정 사냥을 벌이는 이야기를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 부자(父子)의 꿈",
+        "summary": "혈랑 떼에게 마을과 어머니를 잃은 어린 백산과 아버지가 추랑객으로 살아가는 과거의 비극을 회상한다."
+      },
+      {
+        "sectionTitle": "제2장 아들의 꿈",
+        "summary": "아버지를 잃은 백산이 묵림에서 거대한 백호(마령호)를 잡기 위해 철저한 함정 사냥을 준비하고 실행하는 과정을 그린다."
+      },
+      {
+        "sectionTitle": "제3장 새로운 꿈",
+        "summary": "마령호와의 폭발 속에서 살아남아 우뢰봉의 동굴 속 연못에서 깨어난 백산과 그를 구한 흉터 노인의 만남을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "정통 무협"
+      }
+    ],
+    "keyEntitiesText": "백산, 아버지, 마령호, 노인",
+    "settingText": "칠성리, 뇌산 묵림, 우뢰봉 동굴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iWmMmrExrCoBOCDpBvxWLKXvq1_4sI7G",
+    "filename": "광풍가(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.094Z",
+    "size": "3218483",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1iWmMmrExrCoBOCDpBvxWLKXvq1_4sI7G/view?usp=drivesdk",
+    "sourceSha256": "26a5439b2e442274c93f9e2c98072affe7d2d0f3f4c3bd242c975ea6b6a87667",
+    "textSha256": "8d56d48e0e0d69af99c2e9e265bac2d9e13978fe2e2d14940d286564bf2d3458",
+    "changeKey": "0a9238c0b2d9264bca3a11e3786166a9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "66e0f7ace62f07e5abfd",
+    "workId": "66e0f7ace62f07e5abfd",
+    "driveFileId": "1iWmMmrExrCoBOCDpBvxWLKXvq1_4sI7G",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:51:11.821205+00:00",
+    "updatedAt": "2026-09-22T14:51:11.821220+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-22T14:51:11.821300+00:00"
+    }
+  }
+}

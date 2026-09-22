@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "검왕본기 제1권 (전3권)",
+    "author": "천중행",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "검왕본기",
+      "협객"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "천중행",
+    "oneLineSummary": "팔십 년 만에 중원으로 돌아오는 고검제 염붕전과 금릉의 명옥방에서 벌어지는 기이한 소동을 다룬 무협 소설.",
+    "overallSummary": "고독한 신(神)과 야수 같은 중년인, 그리고 팔십 년 만에 적와마루에서 중원으로 돌아오는 고검제 염붕전의 이야기와 금릉의 명옥방에서 공녀들과 소년이 겪는 소동을 그리고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서(序) 神의 大殿",
+        "summary": "신과 야수 같은 두 인물이 나부신궁의 홍옥구정 및 팔십 년 만에 중원으로 귀환하는 고검제 염붕전을 언급하며 대화를 나눈다."
+      },
+      {
+        "sectionTitle": "제일장 絶代者... 歸還",
+        "summary": "팔십 년 만에 중원으로 귀환하는 고검제 염붕전과 그를 추적해 온 장미신타 제해생의 만남, 그리고 금릉의 명옥방에서 벌어지는 소동을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "전통 무협"
+      }
+    ],
+    "keyEntitiesText": "고검제 염붕전, 장미신타 제해생, 상유화, 소년",
+    "settingText": "촉벽곤령, 금릉 명옥방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13a-HC4ZXcgShRCMookWwfJbqFPTQyr8v",
+    "filename": "검왕본기(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.508Z",
+    "size": "818945",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/13a-HC4ZXcgShRCMookWwfJbqFPTQyr8v/view?usp=drivesdk",
+    "sourceSha256": "c0ef15e8c2ba6e6b09cc173e949840cb683b5ca8ef3a6f0548abfc27078745cf",
+    "textSha256": "0ae3a747b4ac8a9dcf22646a785ed6a4f0e993e1b16901ddf9f43793774fdd42",
+    "changeKey": "688cacc466be90a0955bd67da9bbf018",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "24e5b78668f6a62716af",
+    "workId": "24e5b78668f6a62716af",
+    "driveFileId": "13a-HC4ZXcgShRCMookWwfJbqFPTQyr8v",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:49:03.434971+00:00",
+    "updatedAt": "2026-09-22T14:49:03.434986+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.41,
+      "updatedAt": "2026-09-22T14:49:03.435175+00:00"
+    }
+  }
+}

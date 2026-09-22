@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "괴선",
+    "author": "임준욱",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "임준욱",
+      "괴선",
+      "성장물"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "임준욱",
+    "oneLineSummary": "곤륜의 소년 현운이 반선 어르신과 함께 독안괴선을 찾아가며 벌어지는 임준욱 작가의 성장 무협 소설.",
+    "overallSummary": "사천 당가타 근처 장강의 모래 턱에 은거하는 전설적인 독안괴선을 찾아간 곤륜 제자 현운과 노도인의 만남, 그리고 괴선에 대한 전설과 과거의 회상을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "사천 당가타 장강변에서 노도인과 함께 독안괴선을 찾아가는 곤륜 제자 현운의 여정과 독안괴선에 대한 무림 비사를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "성장 무협"
+      }
+    ],
+    "keyEntitiesText": "현운, 반선(노도인), 독안괴선, 태을진인",
+    "settingText": "사천 당가타 장강 모래 턱"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WDk1a5iG-qU0loAXfDzIZDdoF8d1tbiK",
+    "filename": "괴선 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.288Z",
+    "size": "2127853",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1WDk1a5iG-qU0loAXfDzIZDdoF8d1tbiK/view?usp=drivesdk",
+    "sourceSha256": "61099b6c8de85aa521b0cb9f52604c043b5ef6c5d07f25c6d3477706c69dd1aa",
+    "textSha256": "d86f04960292e1ca23d46831fb737a49de46397d9dcbda5d22cc3064d11d4df4",
+    "changeKey": "f1f408c9bf1bc0f49c01092aaf04aeea",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2db35f8c79107fa98aa5",
+    "workId": "2db35f8c79107fa98aa5",
+    "driveFileId": "1WDk1a5iG-qU0loAXfDzIZDdoF8d1tbiK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:51:40.448416+00:00",
+    "updatedAt": "2026-09-22T14:51:40.448431+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:51:40.448511+00:00"
+    }
+  }
+}
