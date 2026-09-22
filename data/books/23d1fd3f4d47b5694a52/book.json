@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑받지 못한 여자",
+    "author": "넬레 노이하우스",
+    "genre": "추리/미스터리",
+    "tags": [
+      "독일소설",
+      "피아 키르히호프",
+      "올리버 폰 보덴슈타인",
+      "연쇄살인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "타우누스 시리즈로 전 세계 독자들의 사랑을 받는 독일의 대표 미스터리 작가.",
+    "oneLineSummary": "유력 인사의 의문의 자살과 젊은 여성의 추락사가 이어지면서 호프하임 경찰서의 피아와 보덴슈타인이 수사에 나선다.",
+    "overallSummary": "일요일 아침, 포도밭에서 요아힘 하르덴바흐 부장검사가 사냥총으로 자살한 시체로 발견된다. 이어 아첼 산 전망대 아래에서 20대 중반의 아름다운 여성이 추락사한 채 발견되고, 그녀가 포르셰 차량의 주인 이자벨 케르스트너라는 사실이 밝혀진다. 자살로 위장된 타살의 흔적들이 발견되면서 피아와 보덴슈타인은 두 사건 사이의 연관성을 파헤치기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫 번째 사건: 부장검사의 자살",
+        "summary": "피아는 아침 휴일에 포도밭에서 하르덴바흐 부장검사의 변사체를 발견하고 보덴슈타인 반장을 부른다."
+      },
+      {
+        "sectionTitle": "두 번째 사건: 전망대 추락사",
+        "summary": "하르덴바흐 사건 현장을 수습하던 중 아첼 산 전망대 아래에서 젊은 여성의 시체가 추가로 발견된다."
+      },
+      {
+        "sectionTitle": "신원 확인",
+        "summary": "추락사한 여성의 주머니에서 발견된 소지품을 통해 그녀가 수의사인 미하엘 케르스트너의 아내 이자벨이라는 사실이 밝혀진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시점",
+        "value": "3인칭 전지적 작가 시점"
+      },
+      {
+        "key": "주요 테마",
+        "value": "권력층의 비밀과 치정, 연쇄적 죽음의 수수께끼"
+      }
+    ],
+    "keyEntitiesText": "피아 키르히호프, 올리버 폰 보덴슈타인, 요아힘 하르덴바흐, 이자벨 케르스트너, 코지마 폰 보덴슈타인",
+    "settingText": "독일 타우누스 산맥 일대와 호흐하임, 루퍼츠하인"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "104RB_3t1DGMee1YKpVzKTKGE1g3n-WJG",
+    "filename": "넬레 노이하우스-사랑받지 못한 여자-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T09:16:52.000Z",
+    "size": "626704",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/104RB_3t1DGMee1YKpVzKTKGE1g3n-WJG/view?usp=drivesdk",
+    "sourceSha256": "fb93e7f96c39d13f7bc136c01e2ff40650a424e7b81cb953a5c081fec81f8182",
+    "textSha256": "26988ecda40b284a461339ec6ccb7d6768816d46b74d83f926e5b94d3f9c33da",
+    "changeKey": "f87bee15c4a59a20983ef6064396147d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "23d1fd3f4d47b5694a52",
+    "workId": "23d1fd3f4d47b5694a52",
+    "driveFileId": "104RB_3t1DGMee1YKpVzKTKGE1g3n-WJG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:14:02.319937+00:00",
+    "updatedAt": "2026-09-22T04:14:02.319953+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:14:02.320063+00:00"
+    }
+  }
+}

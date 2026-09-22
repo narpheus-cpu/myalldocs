@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "메이드",
+    "author": "니타 프로스",
+    "genre": "추리/미스터리",
+    "tags": [
+      "미국소설",
+      "호텔메이드",
+      "미스터리",
+      "베스트셀러"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "cozy_mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오랫동안 출판 편집자로 일하다가 첫 작품인 《메이드》로 전 세계적인 주목을 받은 작가.",
+    "oneLineSummary": "고급 호텔의 성실한 메이드 몰리가 단골 투숙객의 의문의 죽음으로 인해 용의선상에 오르게 되는 이야기.",
+    "overallSummary": "리전시 그랜드 호텔의 메이드로 일하는 몰리는 남들과 소통하는 방식이 조금 서툴지만 청소를 천직으로 여기며 성실하게 살아간다. 할머니가 돌아가신 후 홀로 지내던 어느 날, 그녀는 호텔의 유명한 단골 투숙객인 부유한 사업가 블랙 씨가 객실 침대에서 싸늘한 시체로 발견된 것을 목격한다. 사회적 규칙에 서툰 몰리는 순식간에 살인 사건의 주요 용의자로 몰리며 위기에 처한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 & 월요일",
+        "summary": "호텔 메이드로서의 삶과 철저한 청소 철학, 그리고 할머니의 죽음 이후 홀로 출근하는 몰리의 일상이 그려진다."
+      },
+      {
+        "sectionTitle": "사건 발생",
+        "summary": "펜트하우스 객실을 청소하러 들어간 몰리는 유명 사업가 찰스 블랙이 침대에서 죽어 있는 것을 발견한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공 특징",
+        "value": "사회적 소통이 서툴고 규칙과 청결을 유독 중요시하는 호텔 메이드"
+      },
+      {
+        "key": "서술 방식",
+        "value": "1인칭 주인공 시점으로 독특한 관점의 심리 묘사"
+      }
+    ],
+    "keyEntitiesText": "몰리, 찰스 블랙, 지젤 블랙, 알렉산더 스노우",
+    "settingText": "오성급 부티크 호텔 '리전시 그랜드'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CT7MY2TnE7HxmxlNUWIxjDQ6-mWca-KQ",
+    "filename": "니타 프로스-메이드(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:22:56.000Z",
+    "size": "628495",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1CT7MY2TnE7HxmxlNUWIxjDQ6-mWca-KQ/view?usp=drivesdk",
+    "sourceSha256": "1f7228646152f73e086bc378c490205d87a8ff3f8a4a972125b2511cbc98f6d1",
+    "textSha256": "6c2f30b964921d1eceea78a135a408e04c6c4acd216d351cbc3d20de3b034856",
+    "changeKey": "a6bf99bb9609989f26e54131f0c8ecbd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f9f49c9424d34d3672e5",
+    "workId": "f9f49c9424d34d3672e5",
+    "driveFileId": "1CT7MY2TnE7HxmxlNUWIxjDQ6-mWca-KQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:14:49.322464+00:00",
+    "updatedAt": "2026-09-22T04:14:49.322478+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:14:49.322626+00:00"
+    }
+  }
+}

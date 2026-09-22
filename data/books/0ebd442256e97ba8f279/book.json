@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로스트 심벌 2",
+    "author": "댄 브라운",
+    "genre": "미스터리/스릴러",
+    "tags": [
+      "미국소설",
+      "로버트 랭던",
+      "마방진",
+      "비밀"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "역사적 기호와 과학을 결합한 지적 스릴러의 대가.",
+    "oneLineSummary": "알브레히트 뒤러의 마방진을 단서로 피라미드 암호를 해독하며 오빠를 구하려는 캐서린과 랭던의 추리.",
+    "overallSummary": "피터 솔로몬의 여동생이자 과학자인 캐서린과 로버트 랭던은 피라미드에 새겨진 암호를 풀기 위해 애쓴다. 알브레히트 뒤러의 판화 《멜랑콜리아 I》에 등장하는 마방진을 열쇠로 삼아 암호를 재배열한 두 사람은 그 속에서 라틴어 구절인 '여오바 산크투스 우누스(하나의 참된 신)'를 도출해낸다. 그러나 이것이 단순한 종교적 은유인지 실제 위치를 나타내는 것인지 혼란에 빠진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "암호 해독의 과정",
+        "summary": "랭던과 캐서린은 뒤러의 마방진 원리를 이용해 피라미드의 암호를 라틴어 문장으로 변환하는 데 성공한다."
+      },
+      {
+        "sectionTitle": "벨라미의 행방",
+        "summary": "워런 벨라미는 이노우에 사토에게 붙잡혀 성소와 관련된 심문을 받으며 진실에 다가간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "해독 단서",
+        "value": "알브레히트 뒤러의 마방진과 언어학적 연금술"
+      },
+      {
+        "key": "주요 테마",
+        "value": "과학과 종교, 고대의 지혜와 인간의 지성"
+      }
+    ],
+    "keyEntitiesText": "로버트 랭던, 캐서린 솔로몬, 워런 벨라미, 이노우에 사토, 말라크",
+    "settingText": "미국 워싱턴 D.C. 의회 도서관 및 지하 연구실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bz9L1sK6dvpR73Pt4J7LDoWo55UPxUKw",
+    "filename": "댄 브라운-로스트 심벌 2(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T18:41:22.000Z",
+    "size": "672565",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1bz9L1sK6dvpR73Pt4J7LDoWo55UPxUKw/view?usp=drivesdk",
+    "sourceSha256": "1d7574f305cde534937ce5408773e3ec74fb032fffdba681422f821ea3d512d6",
+    "textSha256": "11004123ce6b309a1c39ef54cfc5e7eae5036d153b1c49cf94d91ab160bca899",
+    "changeKey": "ff3b9cb5a0cb9eb8292fa33fbfb933d4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0ebd442256e97ba8f279",
+    "workId": "0ebd442256e97ba8f279",
+    "driveFileId": "1bz9L1sK6dvpR73Pt4J7LDoWo55UPxUKw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:15:02.450797+00:00",
+    "updatedAt": "2026-09-22T04:15:02.450812+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:15:02.450920+00:00"
+    }
+  }
+}

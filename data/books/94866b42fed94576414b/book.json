@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "더 좀비스",
+    "author": "존 조지프 애덤스 엮음 (스티븐 킹 외)",
+    "genre": "호러/앤솔러지",
+    "tags": [
+      "좀비소설",
+      "단편소설집",
+      "앤솔러지",
+      "스티븐 킹"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "다양한 SF 및 판타지 앤솔러지를 엮어낸 편집자이자 작가.",
+    "oneLineSummary": "세계 최고 작가들이 참여하여 좀비의 다양한 면모를 그린 최고의 좀비 단편 앤솔러지.",
+    "overallSummary": "조지 A. 로메로의 영화에서 영감을 받은 전통적 좀비부터 첨단 과학의 테크노 좀비, 부두교 좀비까지 다양한 스타일의 좀비 소설을 집대성한 앤솔러지이다. 스티븐 킹을 비롯한 당대 최고의 호러 및 SF 작가들이 참여하여 인간의 원초적 공포와 사회적 은유를 담아낸 다채로운 작품들을 선보인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문:좀비 마니아를 위한 지구상에 남은 마지막 인간의 뇌",
+        "summary": "편집자 존조지프 애덤스가 좀비 소설의 매력과 이 책에 수록된 작품들의 선정 기준을 설명한다."
+      },
+      {
+        "sectionTitle": "가정분만 (스티븐 킹)",
+        "summary": "세상의 종말과 좀비들이 창궐하는 비극적 상황 속에서 임산부 매디 페이스가 겪는 고립과 공포를 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "책의 성격",
+        "value": "다양한 작가들의 시각으로 재해석한 좀비 문학 모음집"
+      },
+      {
+        "key": "핵심 테마",
+        "value": "원초적 포식자에 대한 공포와 인간성 상실의 은유"
+      }
+    ],
+    "keyEntitiesText": "매디 페이스, 잭 페이스, 조지 설리번",
+    "settingText": "미국 메인주 리틀 톨 아일랜드 및 가상의 종말 이후 세상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CnO90eTe-CG9ZGixV_EAC9ZbswZ5TtnW",
+    "filename": "더 좀비스(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.594Z",
+    "size": "1249866",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1CnO90eTe-CG9ZGixV_EAC9ZbswZ5TtnW/view?usp=drivesdk",
+    "sourceSha256": "20faa6efe75de4b3b71318906cbee26dd1d47eb17e393834def9e33e1cf528da",
+    "textSha256": "78269937a8c8e8d0e8d6b2100d3b04a8ba6b0f93862c048dddeb8e17046443c9",
+    "changeKey": "308226069d9d38a3416859921408e664",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "94866b42fed94576414b",
+    "workId": "94866b42fed94576414b",
+    "driveFileId": "1CnO90eTe-CG9ZGixV_EAC9ZbswZ5TtnW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:15:09.920721+00:00",
+    "updatedAt": "2026-09-22T04:15:09.920736+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8294,
+      "updatedAt": "2026-09-22T04:15:09.920853+00:00"
+    }
+  }
+}

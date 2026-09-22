@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "낯선 시간 속으로 제1권",
+    "author": "니시무라 주코",
+    "genre": "추리/미스터리",
+    "tags": [
+      "일본소설",
+      "경찰소설",
+      "음모",
+      "도망자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영화화되며 큰 사랑을 받은 일본의 대표적 추리문학 거장.",
+    "oneLineSummary": "살인 누명을 쓰고 도망자가 된 형사 니시나가 거대한 음모의 진실을 파헤치는 이야기.",
+    "overallSummary": "경시청 수사 1과 형사 니시나 소스케는 어느 날 밤 귀가 도중 불량배들에게 습격당해 정신을 잃는다. 깨어난 곳은 낯선 고급 맨션이었고, 그곳에는 파자마 차림의 우라늄 광업사 사장 히라이 고이치가 총에 맞아 죽어 있었다. 자신의 권총이 흉기로 사용되어 살인범으로 지명수배된 니시나는 경찰의 체포를 피해 도주하며 자신에게 누명을 씌운 의문의 조직을 추적하기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 유괴된 형사",
+        "summary": "니시나는 퇴근길에 습격당해 정신을 잃었다가 깨어나고, 그곳에서 피살된 사장 히라이의 시체와 자신의 권총을 발견한다."
+      },
+      {
+        "sectionTitle": "제 2 장 유령의 정체",
+        "summary": "니시나가 살해 용의자로 지명수배되면서 경찰의 포위망을 피해 도망치며 과거의 기억과 사건의 실마리를 더듬는다."
+      },
+      {
+        "sectionTitle": "제 3 장 백골 계곡",
+        "summary": "니시나의 과거와 어머니가 겪었던 비극적인 역사, 그리고 북쪽 바다에 얽힌 기억이 드러난다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공 신분",
+        "value": "경시청 수사 1과 형사에서 살인 누명을 쓴 도망자"
+      },
+      {
+        "key": "핵심 동기",
+        "value": "누명을 씌운 암흑 조직에 대한 복수와 진실 규명"
+      }
+    ],
+    "keyEntitiesText": "니시나 소스케, 히라이 고이치, 유키에 치사, 다부치 기미오",
+    "settingText": "일본 도쿄 및 홋카이도 오호츠크해 연안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1S16uvCxl7vIEL-gbvN6UI49_C-xm2Lrv",
+    "filename": "니시무라 쥬꼬-낮선시간 속으로 1 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.520Z",
+    "size": "320422",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1S16uvCxl7vIEL-gbvN6UI49_C-xm2Lrv/view?usp=drivesdk",
+    "sourceSha256": "a661b569e28cd604fe51552a208574170a9dad526c54b88f1b1395b280fd827a",
+    "textSha256": "0b3caa85a0f156d0b17dda167d2806e8a27a2446ffdfdd15ad7d72fbbbf746b8",
+    "changeKey": "a1a61e5268ee96662c01631d4216b037",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2fa9dd9457fbdb6db612",
+    "workId": "2fa9dd9457fbdb6db612",
+    "driveFileId": "1S16uvCxl7vIEL-gbvN6UI49_C-xm2Lrv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:14:29.018439+00:00",
+    "updatedAt": "2026-09-22T04:14:29.018453+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5179,
+      "updatedAt": "2026-09-22T04:14:29.018562+00:00"
+    }
+  }
+}

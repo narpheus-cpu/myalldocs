@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일본살인여행",
+    "author": "니시무라 교타로",
+    "genre": "추리/미스터리",
+    "tags": [
+      "일본소설",
+      "도와다코",
+      "여행미스터리",
+      "복수"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 사회파 및 여행 미스터리의 거장.",
+    "oneLineSummary": "언니의 복수를 위해 도와다코로 떠나 살인을 저지른 여대생과 그 진실을 파헤치는 형사와 변호사의 이야기.",
+    "overallSummary": "대학생 이세키 유키는 언니 아키코를 죽음으로 몰아넣은 화가 지망생 후루키 야스오를 살해하기 위해 아오모리를 거쳐 도와다코 호수로 향한다. 유키는 후루키를 칼로 찔러 살해한 뒤 경찰에 자수하고, 변호사이자 대학 선배인 나카무라에게 편지를 보내 범행의 동기와 진실을 알린다. 한편 경시청의 도쓰가와 경감은 3월에 발생했던 언니의 자동차 사고가 사실은 위장된 살인이었음을 알게 되면서 사건의 실마리를 쫓는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "이세키 유키가 언니의 원수인 후루키 야스오를 죽이기 위해 아오모리와 도와다코로 향하며 나카무라 변호사에게 보낸 편지 내용이 공개된다."
+      },
+      {
+        "sectionTitle": "제 1 장 도와다코에서",
+        "summary": "도와다코 호수 근처 오피스텔에서 후루키 야스오가 살해된 채 발견되고, 범인으로 자수한 이세키 유키가 체포된다."
+      },
+      {
+        "sectionTitle": "제 2 장 오이라세에서",
+        "summary": "경찰과 변호사 나카무라는 유키의 범행 동기와 과거 언니의 죽음 사이에 얽힌 진실을 조사하기 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건 핵심",
+        "value": "과거 교통사고로 위장된 살인과 피해자 동생의 복수 살인"
+      },
+      {
+        "key": "배경",
+        "value": "아름다운 도와다코 호수를 배경으로 한 여행 미스터리"
+      }
+    ],
+    "keyEntitiesText": "이세키 유키, 후루키 야스오, 이세키 아키코, 나카무라, 도쓰가와 경감, 가이타 경감",
+    "settingText": "일본 아오모리현 도와다코 호수 및 오이라세 계류, 도쿄"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1y2y3mJ5SRNsYGp9qSdvzejRYO-VVXUPS",
+    "filename": "니시무라 쿄타로-일본살인여행.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.552Z",
+    "size": "252961",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1y2y3mJ5SRNsYGp9qSdvzejRYO-VVXUPS/view?usp=drivesdk",
+    "sourceSha256": "74457f776a07f2c09283368accba405b9a280c39c8ec2d41deed67cdac5e7bda",
+    "textSha256": "53a28806d598d7e3a1af179a687827f16b09333ff73fb8176b99276071c8890f",
+    "changeKey": "bac34dbacc62843ffe928583289af389",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "28cba724fe31fb9a6f25",
+    "workId": "28cba724fe31fb9a6f25",
+    "driveFileId": "1y2y3mJ5SRNsYGp9qSdvzejRYO-VVXUPS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:14:41.978282+00:00",
+    "updatedAt": "2026-09-22T04:14:41.978296+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:14:41.978404+00:00"
+    }
+  }
+}

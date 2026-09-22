@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로스트 심벌 1",
+    "author": "댄 브라운",
+    "genre": "미스터리/스릴러",
+    "tags": [
+      "미국소설",
+      "로버트 랭던",
+      "프리메이슨",
+      "워싱턴 D.C."
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "치밀한 조사와 빠른 전개로 세계적 베스트셀러를 탄생시킨 스릴러 작가.",
+    "oneLineSummary": "워싱턴 D.C.를 배경으로 프리메이슨의 고대 비밀과 멘토의 납치 사건을 추적하는 로버트 랭던의 활약상.",
+    "overallSummary": "하버드대 기호학 교수 로버트 랭던은 멘토인 피터 솔로몬의 급작스러운 초청으로 워싱턴 D.C.의 미합중국 국회의사당을 방문한다. 그러나 그곳에서 기다리고 있던 것은 피터 솔로몬의 잘린 손목과 프리메이슨의 고대 비밀을 풀라는 협박이었다. 랭던은 CIA 보안실과 맞서며 프리메이슨의 숨겨진 성소와 인류의 비밀을 찾아 목숨을 건 추적을 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "비밀스러운 신전에서 프리메이슨 최고 계급의 입회 의식이 거행된다."
+      },
+      {
+        "sectionTitle": "제1장 ~ 제2장",
+        "summary": "로버트 랭던이 전용기를 타고 워싱턴에 도착하고, 의사당에서 멘토 피터 솔로몬의 실종 및 납치와 관련된 충격적인 흔적과 마주한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 소재",
+        "value": "프리메이슨, 노에틱사이언스, 고대의 비밀 지도"
+      },
+      {
+        "key": "배경 특성",
+        "value": "미국의 수도 워싱턴 D.C.의 건축물과 기념물에 숨겨진 기호들"
+      }
+    ],
+    "keyEntitiesText": "로버트 랭던, 피터 솔로몬, 캐서린 솔로몬, 말라크, 이노우에 사토",
+    "settingText": "미국 워싱턴 D.C. (국회의사당, 하우스 오브 템플 등)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HPmpn7vRm3FrWgfWCISfzPqzCaCG-yjv",
+    "filename": "댄 브라운-로스트 심벌 1(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T18:38:20.000Z",
+    "size": "706427",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1HPmpn7vRm3FrWgfWCISfzPqzCaCG-yjv/view?usp=drivesdk",
+    "sourceSha256": "91ece15af1dda05c870b4400d06ab5c9f3b7b279747037c14b933aea7691b9cb",
+    "textSha256": "7517343a97f397b61e938220c513a25b47f6bf037df50a8858e238c42eba58bf",
+    "changeKey": "1cb3008f2a8149ab4b6d9b1fc23ef3d7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "44cb6eb6a5ad16584683",
+    "workId": "44cb6eb6a5ad16584683",
+    "driveFileId": "1HPmpn7vRm3FrWgfWCISfzPqzCaCG-yjv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:14:56.188071+00:00",
+    "updatedAt": "2026-09-22T04:14:56.188086+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:14:56.188195+00:00"
+    }
+  }
+}

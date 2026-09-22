@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "붉은 집 살인사건",
+    "author": "도진기",
+    "genre": "추리/미스터리",
+    "tags": [
+      "한국소설",
+      "미스터리",
+      "추리소설",
+      "어둠의 변호사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "법조계 출신의 전문적인 지식과 치밀한 트릭으로 한국 추리문학을 이끄는 대표 작가.",
+    "oneLineSummary": "우면산 아래 붉은 저택을 찾아간 '어둠의 변호사' 고진이 가족 간의 상속과 기묘한 과거의 살인 비밀을 마주하는 이야기.",
+    "overallSummary": "전직 판사이자 법정 밖에서 은밀하게 사건을 해결하는 '어둠의 변호사' 고진은 남광자라는 여성의 의뢰를 받아 우면산 아래 고즈넉한 붉은 벽돌 저택을 방문한다. 그 집에는 의뢰인의 오빠이자 대학교수인 남성룡과 의붓오빠인 예비역 장성 서태황의 가족들이 함께 살고 있다. 과거 발생했던 참혹한 살인 사건과 복잡한 상속 문제, 그리고 녹음된 유언의 비밀이 얽혀 있는 저택에서 고진은 숨겨진 진실을 파헤치기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "붉은 집 방문",
+        "summary": "고진은 황사 낀 날씨를 뚫고 우면산 아래에 위치한 남광자의 붉은 저택을 찾아가 그녀와 상담을 나눈다."
+      },
+      {
+        "sectionTitle": "가족사의 비밀",
+        "summary": "남광자는 의붓아버지 서판곤에 의해 살해당한 어머니의 비극과 현재 재산 상속 문제, 그리고 아래층에 사는 서태황 가족의 이야기를 들려준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "탐정 캐릭터",
+        "value": "법정 밖의 해결사인 '어둠의 변호사' 고진"
+      },
+      {
+        "key": "미스터리 요소",
+        "value": "기묘한 동거 가문, 과거의 살인사건, 유언 녹음의 비밀"
+      }
+    ],
+    "keyEntitiesText": "고진, 남광자, 남성룡, 서태황, 서판곤",
+    "settingText": "대한민국 서울 우면산 인근의 붉은 벽돌 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17kHhqm3IDzxlIwEckowUDZckRxYKnqvH",
+    "filename": "도진기-붉은 집 살인사건-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T09:23:58.000Z",
+    "size": "557324",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/17kHhqm3IDzxlIwEckowUDZckRxYKnqvH/view?usp=drivesdk",
+    "sourceSha256": "ea5313085a0e0f6d7ba53788409bb6951b6253c742a6c3c57e94fc14dc9e582f",
+    "textSha256": "cad4b201687405afc53d146f01e8a56e30c094c7d2b5882eec86ede727516a99",
+    "changeKey": "e80e733597722b8791c7b19da47a80d7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4720cce9c95d5f0345ad",
+    "workId": "4720cce9c95d5f0345ad",
+    "driveFileId": "17kHhqm3IDzxlIwEckowUDZckRxYKnqvH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:15:30.962627+00:00",
+    "updatedAt": "2026-09-22T04:15:30.962642+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:15:30.962751+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모든 것을 기억하는 남자",
+    "author": "데이비드 발다치",
+    "genre": "추리/스릴러",
+    "tags": [
+      "미국소설",
+      "과잉기억증후군",
+      "미스터리",
+      "에이머스 데커"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전 세계 수천만 부의 판매고를 올리며 법정 및 정치 스릴러를 선도하는 세계적 범죄소설가.",
+    "oneLineSummary": "가족을 잃은 참혹한 비극과 모든 것을 기억하는 과잉기억증후군을 지닌 사립탐정 에이머스 데커의 추적.",
+    "overallSummary": "전직 프로미식축구 선수이자 경찰이었던 에이머스 데커는 경기 중 당한 부상으로 모든 것을 잊지 못하는 '과잉기억증후군'을 얻게 된다. 어느 날 밤, 잠복근무를 마치고 돌아온 그는 집에서 아내 캐시, 딸 몰리, 처남 조니가 잔인하게 살해당한 참혹한 현장을 발견한다. 범인을 찾지 못한 채 15개월이 흐르고, 밑바닥 노숙 생활을 청산한 뒤 사립탐정으로 살아가던 그에게 어느 날 뜻밖의 방문객이 찾아오며 새로운 국면을 맞이한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "비극의 밤",
+        "summary": "근무를 마치고 집으로 돌아온 에이머스 데커는 처남 조니, 아내 캐시, 딸 몰리가 참혹하게 살해된 현장을 목격하고 절망한다."
+      },
+      {
+        "sectionTitle": "추락과 재기",
+        "summary": "범인을 잡지 못한 채 모든 것을 잃고 노숙자로 전락했던 데커는 간신히 삶을 추스르고 사립탐정으로 살아가기 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공의 특이점",
+        "value": "사고로 인한 과잉기억증후군으로 모든 것을 완벽하게 기억함"
+      },
+      {
+        "key": "핵심 테마",
+        "value": "지워지지 않는 기억의 고통과 가족 살인 사건의 미스터리"
+      }
+    ],
+    "keyEntitiesText": "에이머스 데커, 캐시 데커, 몰리 데커, 조니 색스, 메릴 호킨스",
+    "settingText": "미국 오하이오주 벌링턴 및 주변 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HVg0hKDs7BwqpeBkmhtuIr9Qjmrx-hjb",
+    "filename": "데이비드 발다치-모든 것을 기억하는 남자-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T09:19:28.000Z",
+    "size": "786375",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1HVg0hKDs7BwqpeBkmhtuIr9Qjmrx-hjb/view?usp=drivesdk",
+    "sourceSha256": "82ab11ecaca7db8aee484ac5e4f864e4a5b4ec2db1ad9bac12bbb2587ef8aee8",
+    "textSha256": "6c70e8e1d4499f1e73bb632d83a2cbe0769915530e62ebf7062b34489a6bfa3b",
+    "changeKey": "25ef78f4853ad67a80c7b0a73693d6fa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1f351fb9df646eac185a",
+    "workId": "1f351fb9df646eac185a",
+    "driveFileId": "1HVg0hKDs7BwqpeBkmhtuIr9Qjmrx-hjb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:15:18.050703+00:00",
+    "updatedAt": "2026-09-22T04:15:18.050718+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:15:18.050824+00:00"
+    }
+  }
+}

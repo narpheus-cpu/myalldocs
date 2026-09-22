@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "파리의 밤은 깊어",
+    "author": "노엘 칼레프",
+    "genre": "범죄/스릴러",
+    "tags": [
+      "프랑스소설",
+      "서스펜스",
+      "파리",
+      "폭탄"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "불가리아 출신의 프랑스 시나리오 작가이자 소설가로 서스펜스 스릴러의 거장.",
+    "oneLineSummary": "축구공 속에 폭탄이 숨겨진 채 파리로 향하는 남자의 하루 동안 벌어지는 긴장감 넘치는 스릴러.",
+    "overallSummary": "마르세유에서 파리로 향하는 기차 안, 뚱뚱한 상인은 축구공을 든 무뚝뚝한 젊은 남자를 만난다. 남자는 어딘가 극도로 긴장해 있으며, 그가 든 축구공 안에는 폭탄이 숨겨져 있다. 일상적인 사람들의 삶과 폭탄을 운반하는 남자의 긴장된 행각이 교차되면서 하루 동안의 아슬아슬한 서스펜스가 전개된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "마르세유를 떠나 파리로 향하는 열차 안에서 뚱뚱한 상인은 축구공을 꼭 쥔 무뚝뚝한 청년 바스티앙을 관찰한다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "파리에 도착한 바스티앙은 연인 자클린을 만나고, 자신을 둘러싼 위험한 상황과 심부름에 대해 고백한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성 특징",
+        "value": "단 하루 동안의 제한된 시간 속에서 진행되는 실시간 서스펜스"
+      },
+      {
+        "key": "핵심 소도구",
+        "value": "폭탄이 숨겨진 축구공"
+      }
+    ],
+    "keyEntitiesText": "바스티앙, 자클린, 베르나르, 클로드",
+    "settingText": "프랑스 마르세유행 열차 안 및 파리 시내 (리용 역, 카페 등)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Ayu3BaAyiTD6CjCc9X7nVoyQkGA0aM8S",
+    "filename": "노엘 칼레프-파리의 밤은 깊어.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.449Z",
+    "size": "331293",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1Ayu3BaAyiTD6CjCc9X7nVoyQkGA0aM8S/view?usp=drivesdk",
+    "sourceSha256": "d7326aaf3d0da8ce5590a573f1b2cfe797ce82368b133fd4b5b589c83552cf9b",
+    "textSha256": "4060c80b95a6e42a606bba0aab35f446502ed1c5cd1792e6fe10d9f1beee40ad",
+    "changeKey": "b4f2095f8b01299d1d664744a537c140",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "65d816dd52ef89ae57bd",
+    "workId": "65d816dd52ef89ae57bd",
+    "driveFileId": "1Ayu3BaAyiTD6CjCc9X7nVoyQkGA0aM8S",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:14:15.281065+00:00",
+    "updatedAt": "2026-09-22T04:14:15.281078+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:14:15.281181+00:00"
+    }
+  }
+}

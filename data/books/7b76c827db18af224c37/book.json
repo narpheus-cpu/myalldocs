@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "백설공주에게 죽음을",
+    "author": "넬레 노이하우스",
+    "genre": "추리/미스터리",
+    "tags": [
+      "독일소설",
+      "살인사건",
+      "피아 키르히호프",
+      "타우누스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 베스트셀러 작가로 타우누스 시리즈로 유명합니다.",
+    "oneLineSummary": "10년 전 살인 누명을 쓰고 복역했던 토비아스가 고향으로 돌아오고, 때마침 마을 인근에서 백골 유골이 발견되면서 벌어지는 이야기.",
+    "overallSummary": "토비아스는 10년 전 두 명의 여고생을 살해했다는 누명을 쓰고 복역하다가 출소해 고향 알텐하인으로 돌아온다. 과거의 사건으로 인해 마을 사람들의 냉대와 멸시가 이어지는 가운데, 폐비행장 지하 탱크에서 백골 유골이 발견되고 강력계 형사 피아와 보덴슈타인이 수사에 착수하면서 10년 전 사건의 진실이 서서히 드러나기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "출소와 귀향",
+        "summary": "토비아스는 10년간의 수감 생활을 마치고 출소해 옛 친구 나디야의 차를 타고 고향 알텐하인으로 돌아온다."
+      },
+      {
+        "sectionTitle": "유골 발견",
+        "summary": "에슈본의 폐쇄된 군 비행장 철거 현장에서 지하 기름 탱크 속 여성 유골이 발견되어 헤닝 키르히호프와 형사 피아가 현장에 출동한다."
+      },
+      {
+        "sectionTitle": "황폐해진 고향",
+        "summary": "토비아스는 아버지의 레스토랑 '황금 수탉'을 찾아가지만 폐업 상태로 방치되어 있었고, 부모님은 이미 이혼하고 흩어진 상태임을 알게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시점",
+        "value": "전지적 작가 시점 및 다중 시점"
+      },
+      {
+        "key": "핵심 수수께끼",
+        "value": "10년 전 살인 사건의 진실과 폐비행장 유골의 정체"
+      }
+    ],
+    "keyEntitiesText": "토비아스 자토리우스, 피아 키르히호프, 헤닝 키르히호프, 나디야 폰 브레도프, 하르트무트 자토리우스",
+    "settingText": "독일 타우누스 지역의 소도시 알텐하인 및 에슈본"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qO9TBjAQeBy-fljiwetG9rH8zqHkIxxv",
+    "filename": "넬레 노이하우스-백설공주에게 죽음을-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T11:41:36.000Z",
+    "size": "982195",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1qO9TBjAQeBy-fljiwetG9rH8zqHkIxxv/view?usp=drivesdk",
+    "sourceSha256": "585c5bd69ad868f5bfe515d8d3f305a0b8c8220b495e34210447227bccc9a7a6",
+    "textSha256": "7e44f7c95d131d8a1a4c165e2df20d1c6e8a275fbdb0f4c6103ca2ba4c3d855c",
+    "changeKey": "ea671e32f3fa2c0fbda8990d85ec1e2e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7b76c827db18af224c37",
+    "workId": "7b76c827db18af224c37",
+    "driveFileId": "1qO9TBjAQeBy-fljiwetG9rH8zqHkIxxv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:13:56.063796+00:00",
+    "updatedAt": "2026-09-22T04:13:56.063812+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:13:56.064012+00:00"
+    }
+  }
+}
