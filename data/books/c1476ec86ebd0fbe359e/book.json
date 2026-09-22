@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무적불패혼",
+    "author": "금시조",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "비정",
+      "소림",
+      "수련법"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금시조 작가의 무협 소설",
+    "oneLineSummary": "극한의 수련법을 시험하는 흑제와 백제, 그리고 그 속에서 희생되는 무사들의 이야기.",
+    "overallSummary": "흑백의 대립 속에서 인간의 힘을 극한까지 끌어내는 수련법을 시험하기 위해 부하들을 싸우게 만드는 흑제와 백제의 잔혹한 실험, 그리고 소림사의 기묘한 아이를 둘러싼 미스터리를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "흑의 무사들과 백의 무사들의 처절한 전투와 유일한 생존자 시관호의 최후."
+      },
+      {
+        "sectionTitle": "제1장 소림의 기묘한 아이",
+        "summary": "소림사에서 목격한 기이한 소년과 그를 둘러싼 비밀에 대한 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요소재",
+        "value": "수련법, 소림사, 비정무정"
+      }
+    ],
+    "keyEntitiesText": "시관호, 흑제, 백제, 두사량, 사달평",
+    "settingText": "전장, 소림사, 번창루"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-oJfHbjACz7Mk4aqHuo-uG7mNesYF2ly",
+    "filename": "무적불패혼(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:05.320Z",
+    "size": "821651",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1-oJfHbjACz7Mk4aqHuo-uG7mNesYF2ly/view?usp=drivesdk",
+    "sourceSha256": "cff21109b8bc7b82084e3f212e614b27a16201a5883531095d9e42bcf260d91c",
+    "textSha256": "b89ff09a4623a8474b908ecca1b94845494cee9273ba3a9babcb8fa507a7f669",
+    "changeKey": "f1fad9c4a8833967d10e92650d176cab",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c1476ec86ebd0fbe359e",
+    "workId": "c1476ec86ebd0fbe359e",
+    "driveFileId": "1-oJfHbjACz7Mk4aqHuo-uG7mNesYF2ly",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:35:31.464483+00:00",
+    "updatedAt": "2026-09-22T15:35:31.464500+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:35:31.464576+00:00"
+    }
+  }
+}

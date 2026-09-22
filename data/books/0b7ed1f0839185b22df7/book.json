@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비연사애",
+    "author": "박찬규",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "정마대전",
+      "고루혈교",
+      "법문"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "박찬규 작가의 무협 소설",
+    "oneLineSummary": "정파와 마도, 그리고 사파의 암투 속에서 소년 승려 법문이 겪게 되는 기이한 만남.",
+    "overallSummary": "구대문파와 칠패천이 대립하는 무림, 그 이면에서 세상을 노리는 사파의 존재 속에서 소림사의 소년 승려 법문이 대광사로 서찰을 전하고 돌아오는 길에 천 년 묵은 지네(비천오공)와 8백 년 전의 고인 태극자의 유산을 만나며 겪는 기이한 인연을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 정(正)과 마(魔), 그리고 사(邪)",
+        "summary": "구대문파와 칠패천, 그리고 고루혈교와 환사문 등 정·마·사의 세력 구도 설명."
+      },
+      {
+        "sectionTitle": "2. 기이한 만남",
+        "summary": "금붕신군 부녀가 지켜보는 가운데 소년 승려 법문이 1천 년 묵은 비천오공과 대화하고 태극자의 유산인 태극무경을 얻게 되는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요소재",
+        "value": "태극무경, 공청석유, 비천오공"
+      }
+    ],
+    "keyEntitiesText": "법문, 사군악, 사예설, 비천오공, 태극자",
+    "settingText": "나가촌 뒷산 동굴, 금붕문"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OGFPJMG_PI85B2KENeYyyyuB77qhjYdc",
+    "filename": "비연사애.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:06.589Z",
+    "size": "1245120",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1OGFPJMG_PI85B2KENeYyyyuB77qhjYdc/view?usp=drivesdk",
+    "sourceSha256": "35781e4cb750154e65b370a6cbfcd4285dcb27e01ff839b5d6b276565282d078",
+    "textSha256": "7e40aae785808286dcc42d8c6d22bc4af7fedc492e84cbc38a086c45c4019c14",
+    "changeKey": "481825f9b33412d2a5460870aee96c4e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0b7ed1f0839185b22df7",
+    "workId": "0b7ed1f0839185b22df7",
+    "driveFileId": "1OGFPJMG_PI85B2KENeYyyyuB77qhjYdc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:38:07.222055+00:00",
+    "updatedAt": "2026-09-22T15:38:07.222074+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:38:07.222167+00:00"
+    }
+  }
+}
