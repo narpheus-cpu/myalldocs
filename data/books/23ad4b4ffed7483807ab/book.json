@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "칸트",
+    "author": "F. 코플스턴",
+    "genre": "철학",
+    "tags": [
+      "칸트",
+      "코플스턴",
+      "순수이성비판",
+      "실천이성비판",
+      "판단력비판"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프레더릭 C. 코플스턴(Frederick C. Copleston, 1907~1994)은 영국의 철학자이자 예수회 신부로, 철학사 전체를 담은 9권의 명저 『철학사』를 저술했다.",
+    "oneLineSummary": "임마누엘 칸트의 생애와 전비판기 사상, 인식론·윤리학·미학을 아우르는 비판철학 체계를 명료하게 해설한 철학서이다.",
+    "overallSummary": "이 책은 코플스턴의 『철학사』 제6권 중 칸트 편을 완역한 것으로, 칸트의 질서정연한 생애와 전비판기 저작, 순수이성비판에서의 선천적 종합판단과 코페르니쿠스적 전환, 범주와 도식론, 사변적 우주론/신 증명 비판, 실천이성비판의 정언명령과 자유·신 요청, 그리고 판단력비판의 미학과 목적론을 입체적으로 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 생애와 저작",
+        "summary": "쾨니히스베르크에서의 삶, 마르틴 크누첸 교수와 뉴턴 물리학의 영향, 전비판기 과학 연구 및 1770년 이후 비판철학 출간 과정을 서술한다."
+      },
+      {
+        "sectionTitle": "2~4장 과학적 인식과 형이상학 비판",
+        "summary": "공간·시간의 선험적 감성론, 범주 적용의 정당성, 순수이성의 이율배반 및 사변적 신 증명의 불가능성을 다룬다."
+      },
+      {
+        "sectionTitle": "5~6장 도덕, 종교, 미학과 목적론",
+        "summary": "선의지와 정언명령, 자유 및 신의 요청, 미적 판단력과 목적론적 판단의 매개적 기능을 해설한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학사적 위상",
+        "value": "경험과학의 보편타당성을 정초하는 동시에 형이상학적 한계를 설정하여 도덕과 종교 영역을 확보함"
+      }
+    ],
+    "keyEntitiesText": "F. 코플스턴, 임재진, 임마누엘 칸트, 마르틴 크누첸, 볼프, 뉴턴, 라이프니쯔",
+    "settingText": "18세기 독일 프러시아 쾨니히스베르크"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IoS0TZzKZft91whvpqv5WxHEXjJMP-lT",
+    "filename": "코플스턴-칸트(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T09:02:20.000Z",
+    "size": "683228",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1IoS0TZzKZft91whvpqv5WxHEXjJMP-lT/view?usp=drivesdk",
+    "sourceSha256": "eeaaeec26a7602616951b7c0a530f4edfbb47bcb27d9ffaa9b3cb47b1d9ba0ae",
+    "textSha256": "b310dc95a77b55357cfe4d6522d02eadad405137b8f25df9249ded7b9df0b12b",
+    "changeKey": "6310e41eeecf07f81df75b4388ab2c5e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "23ad4b4ffed7483807ab",
+    "workId": "23ad4b4ffed7483807ab",
+    "driveFileId": "1IoS0TZzKZft91whvpqv5WxHEXjJMP-lT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:15:14.446298+00:00",
+    "updatedAt": "2026-09-22T23:15:14.446316+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8766,
+      "updatedAt": "2026-09-22T23:15:14.446414+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유토피아",
+    "author": "토마스 모어",
+    "genre": "소설",
+    "tags": [
+      "유토피아",
+      "토마스모어",
+      "이상사회",
+      "사유재산폐지",
+      "인문주의"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy",
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "토마스 모어(Thomas More, 1478~1535)는 영국의 정치가이자 인문주의자로 대법관을 지냈으며, 사유재산 없는 이상사회인 『유토피아』를 집필했다.",
+    "oneLineSummary": "16세기 영국의 사회 모순과 부패를 비판하고 사유재산이 없는 평등하고 자율적인 이상 사회 '유토피아'를 그린 사회철학 소설이다.",
+    "overallSummary": "이 책은 대화체 형식을 통해 당시 영국의 정치적 부조리와 사회적 모순을 파헤친다. 제1권에서는 탐험가 라파엘과 모어의 대화를 통해 도둑이 들끓는 원인인 빈부격차, 인클로저 운동, 무모한 전쟁 정책을 비판한다. 제2권에서는 사유재산이 폐지되고 공동 생산·분배가 이뤄지는 '유토피아 섬'의 정치, 경제, 사회 제도를 묘사한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1권 모순으로 가득 찬 현실 사회",
+        "summary": "앤트워프에서 라파엘과의 만남, 왕과 관료의 부패 비판, 도둑 형벌 제도 비판 및 사유재산 폐지 주장을 담았다."
+      },
+      {
+        "sectionTitle": "제2권 유토피아 섬의 모습",
+        "summary": "사유재산이 없는 평등 소유 제도, 6시간 노동, 자율적 도덕성 아래 운영되는 유토피아 섬의 지형과 풍속을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 사상",
+        "value": "사유 재산 제도가 존재하는 한 정의롭고 행복한 사회는 불가능하다는 통찰"
+      }
+    ],
+    "keyEntitiesText": "토마스 모어, 정순미, 피터 자일스, 라파엘 히드로다에우스, 존 모턴, 헨리 8세",
+    "settingText": "16세기 근대 초 영국의 현실 및 가상의 유토피아 섬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1opJYfMNCCwn3YwgfefGBvD_wjZ_T8gAP",
+    "filename": "토마스 모어-유토피아(풀빛)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T20:39:56.000Z",
+    "size": "331529",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1opJYfMNCCwn3YwgfefGBvD_wjZ_T8gAP/view?usp=drivesdk",
+    "sourceSha256": "e3b8762591a3ec2bb5b24fee01b64cfc6078505697bd0c16819a7bdc0e23df52",
+    "textSha256": "1462d596645817280d2d78b27eca0b93dccffdb98699d50042215797cb49e3c4",
+    "changeKey": "413438dc17979bd40ce25b10ddba2322",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "92a9df92a13dc8bb9d45",
+    "workId": "92a9df92a13dc8bb9d45",
+    "driveFileId": "1opJYfMNCCwn3YwgfefGBvD_wjZ_T8gAP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:15:53.903787+00:00",
+    "updatedAt": "2026-09-22T23:15:53.903804+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:15:53.903900+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인문학의 즐거움",
+    "author": "커트 스펠마이어",
+    "genre": "인문학",
+    "tags": [
+      "인문학의즐거움",
+      "커트스펠마이어",
+      "프로페셔널리즘",
+      "시민사회",
+      "교육비판"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "커트 스펠마이어(Kurt Spellmeyer)는 미국 러트거스대학교 영문학과 교수이자 작문 프로그램 디렉터로, 인문학과 삶의 결합을 연구해왔다.",
+    "oneLineSummary": "상아탑 속에 고립된 대학 인문학의 전문주의를 비판하고 시민사회의 삶으로 돌아가는 인문학의 변혁을 촉구하는 책이다.",
+    "overallSummary": "이 책은 19세기 남북전쟁 이후 출현한 '프로페셔널리즘 문화'로 인해 인문학이 대학 내 전문 학과로 격리되고 시민사회와 분리된 역사적 과정을 파헤친다. 학계 내 보수파와 좌파의 무의미한 '문화전쟁'을 비판하고, 인문학이 대중의 실제 삶, 예술적 공감, 영혼을 섬기는 '살아있는 기술(Arts of Living)'로 재탄생해야 한다고 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 1. 인문학을 바깥세상으로",
+        "summary": "프로페셔널리즘의 출현과 고전학·수사학의 시듦, 대학 예산 증대 속에서 인문학의 침체 및 학생들의 외면 현상을 분석한다."
+      },
+      {
+        "sectionTitle": "문화전쟁 비판",
+        "summary": "앨런 블룸 등 보수주의자들과 학계 급진 좌파 간의 대립이 인문학의 고립을 가속화했음을 지적한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비판적 지점",
+        "value": "전문화·학과화된 인문학이 대중과 시민사회의 삶에서 소외된 현실 비판"
+      }
+    ],
+    "keyEntitiesText": "커트 스펠마이어, 정연희, 리처드 밀러, 바바라 서트먼, 앨런 블룸, 자크 바전, 해럴드 블룸",
+    "settingText": "19세기 남북전쟁 이후부터 21세기 초까지의 미국 대학 및 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15q1oZlTisWppT0lIijNG9Pq8XjC7XZmn",
+    "filename": "커트 스펠마이어-인문학의 즐거움(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T20:31:14.000Z",
+    "size": "1177880",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/15q1oZlTisWppT0lIijNG9Pq8XjC7XZmn/view?usp=drivesdk",
+    "sourceSha256": "38fe841783fea467ed6b50275c2dde02ea9b85841bf12772ef9a1a07b881292a",
+    "textSha256": "eb4e3149558beaf4d4c5fccc670602871c97ca82f40ac820600718b7196e645a",
+    "changeKey": "4824a57189a0234f380296f3d2457c28",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fa871f0749f137d91028",
+    "workId": "fa871f0749f137d91028",
+    "driveFileId": "15q1oZlTisWppT0lIijNG9Pq8XjC7XZmn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:15:06.648578+00:00",
+    "updatedAt": "2026-09-22T23:15:06.648594+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:15:06.648683+00:00"
+    }
+  }
+}

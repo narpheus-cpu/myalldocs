@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "샤를마뉴 황제의 전설",
+    "author": "토마스 불핀치",
+    "genre": "소설",
+    "tags": [
+      "샤를마뉴황제의전설",
+      "토마스불핀치",
+      "기사도",
+      "오르란도",
+      "로랑",
+      "12용사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "토마스 불핀치(Thomas Bulfinch, 1796~1867)는 미국의 작가로 신화와 중세 영웅 전설을 대중적으로 정리하여 편찬했다.",
+    "oneLineSummary": "중세 유럽 샤를마뉴 황제와 그의 12용사(팔라딘)들이 이교도에 맞서 벌이는 용맹과 기사도의 영웅 전설 모음집이다.",
+    "overallSummary": "이 책은 역사적 사실(찰스 마르텔의 투르 전투, 샤를마뉴의 스페인 원정과 론세스벨리 참사)과 중세 로망스 작가들의 공상적 전설을 결합하여 기술한다. 샤를마뉴 황제와 그의 신하인 12용사(오르란도, 리날도, 오기에르 등)의 탄생, 거인 페라구스와의 결투, 사라센군과의 치열한 전투, 그리고 기사도 정신을 생생히 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서론",
+        "summary": "마호멧의 이슬람 확장, 찰스 마르텔의 투르 전투, 샤를마뉴 황제의 성 베드로 성당 대관식 및 론세스벨리 계곡 참사의 역사적 배경을 서술한다."
+      },
+      {
+        "sectionTitle": "1. 샤를마뉴 황제의 12용사들",
+        "summary": "오르란도(로랑)의 불우한 출생과 성장, 거인 페라구스와의 결투 및 치명적 약점을 찔러 승리하는 모험을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 가치",
+        "value": "역사적 기사도 전설을 유려한 설화체로 재구성한 중세 영웅 서사의 정수"
+      }
+    ],
+    "keyEntitiesText": "토마스 불핀치, 이성규, 샤를마뉴(찰스 대제), 찰스 마르텔, 오르란도(로랑), 페라구스, 투르핀 대주교",
+    "settingText": "8세기 중세 유럽(프랑스, 스페인, 로마, 론세스벨리 계곡)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FfiqIE9AN0ZMUcGTN5vUcJ-dRWlzR1ZW",
+    "filename": "토마스 불핀치-샤를마뉴 황제의 전설.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:31.028Z",
+    "size": "414510",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1FfiqIE9AN0ZMUcGTN5vUcJ-dRWlzR1ZW/view?usp=drivesdk",
+    "sourceSha256": "c92c840fee2be1a192dfd26392ed20a009d433165b4828f9e81605ad74ff2d5f",
+    "textSha256": "dbaa51984dc750ef73dd6b1525994a654faa22bfda9118473e0614d51b3f3d17",
+    "changeKey": "165af7ba89a41124871d70fdbf62c7e4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "243cf94ff5a1c967400e",
+    "workId": "243cf94ff5a1c967400e",
+    "driveFileId": "1FfiqIE9AN0ZMUcGTN5vUcJ-dRWlzR1ZW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:16:00.117024+00:00",
+    "updatedAt": "2026-09-22T23:16:00.117041+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:16:00.117180+00:00"
+    }
+  }
+}

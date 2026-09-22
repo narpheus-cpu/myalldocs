@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이슬람의 눈으로 본 세계사",
+    "author": "타밈 안사리",
+    "genre": "역사",
+    "tags": [
+      "이슬람의눈으로본세계사",
+      "타밈안사리",
+      "이슬람역사",
+      "칼리프",
+      "중간세계"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "타밈 안사리(Tamim Ansary)는 아프가니스탄 출신의 미국 작가이자 교과서 편집자로, 이슬람 문명사의 대중적 서술에 기여해왔다.",
+    "oneLineSummary": "서구 중심적 세계사 틀에서 벗어나 예언자 무함마드부터 현대에 이르기까지 이슬람 문명의 시각으로 재구성한 세계사이다.",
+    "overallSummary": "아프가니스탄 출신 저자가 이슬람 내부의 시각에서 세계사를 재구성한다. 무함마드의 히즈라, 메디나 공동체, 칼리프조의 성립과 분열, 우마이야·아바스 왕조의 번영, 튀르크와 몽골의 침입, 오스만·사파비·무굴 제국의 부흥, 그리고 서구 제국주의 도래와 근대 이슬람 개혁 및 현대 근본주의 출현에 이르는 역사적 흐름을 생생히 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한국어판 서문 & 저자 서문",
+        "summary": "서구 중심 교과서 시각 비판, '아랍의 봄' 등 현 시국에 대한 역사적 맥락 이해의 필요성을 강조한다."
+      },
+      {
+        "sectionTitle": "1장~17장 세계사 전개",
+        "summary": "중간세계의 탄생부터 히즈라, 이슬람의 성장, 서구의 서진, 개혁 운동 및 세속 근대주의와 근대성의 위기를 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시각적 전환",
+        "value": "서구 서사와 평행하게 존재하는 이슬람 문명의 대안적 세계사 내러티브 제시"
+      }
+    ],
+    "keyEntitiesText": "타밈 안사리, 류현정, 무함마드, 아널드 토인비, 사이이드 자말루딘 알 아프가니, 오사마 빈 라덴",
+    "settingText": "7세기 아라비아반도부터 현대 중동 및 이슬람 세계 전역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MMq80zbMCd64UNMEhhAtm30T3vrb3ZD1",
+    "filename": "타밈 안사리-이슬람의 눈으로 본 세계사(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T09:08:02.000Z",
+    "size": "1182904",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1MMq80zbMCd64UNMEhhAtm30T3vrb3ZD1/view?usp=drivesdk",
+    "sourceSha256": "2184901d6e87577c6abd1209494b54a67e7f0aa429ee9670283582e184365110",
+    "textSha256": "8f16014aa287e0b4fd19cbcb0f5c83047e5ad987b55f99ca65adf6f2b3ddaa81",
+    "changeKey": "6ebf893be33c8fe3512fd81ed1107300",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bd803df66542a4d1805b",
+    "workId": "bd803df66542a4d1805b",
+    "driveFileId": "1MMq80zbMCd64UNMEhhAtm30T3vrb3ZD1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:15:46.797758+00:00",
+    "updatedAt": "2026-09-22T23:15:46.797775+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:15:46.797867+00:00"
+    }
+  }
+}

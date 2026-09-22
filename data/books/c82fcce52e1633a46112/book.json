@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "철학학교",
+    "author": "카를 야스퍼스",
+    "genre": "철학",
+    "tags": [
+      "철학",
+      "야스퍼스",
+      "실존철학",
+      "철학학교",
+      "우주와생명"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "카를 야스퍼스(Karl Theodor Jaspers, 1883~1969)는 독일의 대표적인 실존철학자이자 정신의학자로, 한계상황과 실존적 사유를 정립했다.",
+    "oneLineSummary": "과학적 인식의 한계선에서 드러나는 우주와 생명, 인간 실존의 근원적 신비를 사유하는 철학 강좌이다.",
+    "overallSummary": "이 책은 바이에른 방송 TV 대학의 강연 내용을 바탕으로 한 철학 입문서이다. 상대성이론 입증(1919년)과 원자폭탄 투하(1945년) 등 과학의 거대한 진보가 가져온 새로운 우주상과 물질관을 분석하며, 무생물과 생명 사이의 단절 및 과학으로 설명할 수 없는 근원적 실존과 존재의 놀라움을 사유한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리글",
+        "summary": "TV 강연의 취지와 단순 지식 전달을 넘어 실존의 근거로 비약하는 '철학적 사유'의 필요성을 설명한다."
+      },
+      {
+        "sectionTitle": "I 우주와 생명",
+        "summary": "1919년 일식 관측과 1945년 원자폭탄 사건이 초래한 우주·물질관의 변화, 생명의 신비 및 과학적 인식의 한계를 다룬다."
+      },
+      {
+        "sectionTitle": "자연과학에 의해 성립된 정신적 상황",
+        "summary": "보편타당한 세계상의 파괴와 세계의 탈주술화 속에서 단순한 지식을 넘어 실존의 의의를 묻는 철학적 과제를 제시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "실존적 관점",
+        "value": "과학적 지식의 한계점에서 존재의 신비를 경험하고 인격적 실존을 자각함"
+      }
+    ],
+    "keyEntitiesText": "카를 야스퍼스, 전양범, 아인슈타인, 칸트",
+    "settingText": "20세기 중반(1919년, 1945년 이후) 과학기술 문명 시대 및 독일·바젤"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XBpSpbIGjm7DPx8M5EWsNoLFsrkktoYc",
+    "filename": "카를 야스퍼스-철학학교, 비극론 등(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T20:05:18.000Z",
+    "size": "1418485",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1XBpSpbIGjm7DPx8M5EWsNoLFsrkktoYc/view?usp=drivesdk",
+    "sourceSha256": "4457262ae27c53b3084ec5580e12e51f26c46a1566567dc4b93d2c1baa6ec781",
+    "textSha256": "9c279a19da1ec12e74921d28c25a3b27d2b1d6634fcb51867d04b03d0308cb6b",
+    "changeKey": "c1ea7b96e21c387aca6d1fbd5f1f7161",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c82fcce52e1633a46112",
+    "workId": "c82fcce52e1633a46112",
+    "driveFileId": "1XBpSpbIGjm7DPx8M5EWsNoLFsrkktoYc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:14:29.174346+00:00",
+    "updatedAt": "2026-09-22T23:14:29.174363+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:14:29.174460+00:00"
+    }
+  }
+}

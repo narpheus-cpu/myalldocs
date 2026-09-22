@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "경제학·철학초고",
+    "author": "칼 마르크스",
+    "genre": "사회학",
+    "tags": [
+      "칼마르크스",
+      "경제학철학초고",
+      "소외노동",
+      "자본주의비판",
+      "포이어바흐"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "칼 마르크스(Karl Heinrich Marx, 1818~1883)는 독일의 철학자, 경제학자, 사회주의 혁명가로 변증법적 유물론과 과학적 사회주의를 창시했다.",
+    "oneLineSummary": "자본주의 경제학 구조를 비판하고 노동자의 생존 전락과 노동 소외 현상을 철학적으로 파헤친 마르크스의 초기 유고이다.",
+    "overallSummary": "이 책은 자본가와 노동자 간의 적대적 투쟁 속에서 임금이 최저 생계비 수준으로 결정되는 구조를 다룬다. 자본의 집적과 분업이 진행됨에 따라 노동자가 기계로 전락하고 자신의 생산물 및 인간성으로부터 소외되는 과정을 규명하며, 포이어바흐의 인간학적 비판을 흡수하여 헤겔 변증법과 정치경제학을 철학적으로 재비판한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "법학·정치·경제학 비판 계획과 포이어바흐 철학의 혁명적 의미, 비판적 신학자들에 대한 반박을 서술한다."
+      },
+      {
+        "sectionTitle": "제1장 노동임금",
+        "summary": "자본가와 노동자 간의 불평등한 경쟁, 최저 임금 규정, 부의 증대 상태에서도 노동자가 겪는 과로와 소외를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 비판 개념",
+        "value": "소외 노동(Alienated Labor), 노동의 상품화, 자본 집적과 기계화"
+      }
+    ],
+    "keyEntitiesText": "칼 마르크스, 김문현, 포이어바흐, 헤겔, 애덤 스미스, 바이틀링, 엥겔스",
+    "settingText": "19세기 중반 산업혁명기 유럽의 자본주의 사회 및 사상사적 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PsdCpH9E7Gj7OrW3evVlwGSNppoZHQKa",
+    "filename": "칼 마르크스-경제학철학초고, 자본론, 공산당선언,철학의 빈곤(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T20:23:20.000Z",
+    "size": "1823001",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1PsdCpH9E7Gj7OrW3evVlwGSNppoZHQKa/view?usp=drivesdk",
+    "sourceSha256": "80736111101ab024248eb9eb3d9d8b900befd166801b875a4b6ad908a0d1559f",
+    "textSha256": "70c704e12a4dd041f27f90d49f6c8110c70c7e4c5b8ca22a9affa7eed4ce6609",
+    "changeKey": "c09032e8e656fdce2df9605b865eb2f9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "859032a4e1eac3a73542",
+    "workId": "859032a4e1eac3a73542",
+    "driveFileId": "1PsdCpH9E7Gj7OrW3evVlwGSNppoZHQKa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:14:42.740819+00:00",
+    "updatedAt": "2026-09-22T23:14:42.740840+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:14:42.740950+00:00"
+    }
+  }
+}

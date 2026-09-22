@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "전쟁론",
+    "author": "클라우제비츠",
+    "genre": "군사학",
+    "tags": [
+      "전쟁론",
+      "클라우제비츠",
+      "군사학",
+      "전략",
+      "정치적수단"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "history_biography",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "카를 폰 클라우제비츠(Karl von Clausewitz, 1780~1831)는 프로이센의 장군이자 군사 사상가로, 군사 이론의 고전인 『전쟁론』을 집필했다.",
+    "oneLineSummary": "전쟁의 본질과 전략, 방어와 공격, 그리고 전쟁은 다른 수단에 의한 정치의 계속이라는 원리를 밝힌 군사학의 고전이다.",
+    "overallSummary": "클라우제비츠 사후 아내 마리 폰 클라우제비츠에 의해 간행된 유저이다. 전쟁을 '적의 완전한 타도를 목적으로 하는 전쟁'과 '국경 부근 적 영토를 빼앗는 전쟁'으로 분류하고, '전쟁은 다른 수단에 의해 계속되는 정치의 연장'이라는 관점 아래 방어, 공격, 전투, 전쟁 계획의 체계적 분석을 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리글 및 방침",
+        "summary": "아내 마리의 간행 배경 설명과 저자의 집필 방침(두 유형의 전쟁 및 정치적 수단으로서의 전쟁)을 밝힌다."
+      },
+      {
+        "sectionTitle": "전쟁론 개요",
+        "summary": "전쟁의 본질, 이론, 전략, 전투, 군사력, 방어와 공격, 전쟁 계획(제1편~제8편)의 전체 체계를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "군사 철학 명제",
+        "value": "전쟁은 독립된 현상이 아닌 정치적 수단이 확장된 형태이다."
+      }
+    ],
+    "keyEntitiesText": "클라우제비츠, 마리 폰 클라우제비츠, 허문순, 샤른호르스트, 그나이제나우",
+    "settingText": "19세기 초 나폴레옹 전쟁기 프로이센 및 유럽"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "119FtDs1jfLrQvXt3IlS3QO6EsKlGbk-O",
+    "filename": "클라우제비츠-전쟁론(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T20:38:24.000Z",
+    "size": "2412114",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/119FtDs1jfLrQvXt3IlS3QO6EsKlGbk-O/view?usp=drivesdk",
+    "sourceSha256": "5ac1c7aad4a871034b9d01c470b915f6f3a78c9a964e482bffe65a39dc8c7158",
+    "textSha256": "a487057ba186136d7b8a697f79034b8f4b2e9d3aad72a0eb97041271135b120d",
+    "changeKey": "df6a91a36a06712226cd4219d8664636",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b7958a5425b23c00df0e",
+    "workId": "b7958a5425b23c00df0e",
+    "driveFileId": "119FtDs1jfLrQvXt3IlS3QO6EsKlGbk-O",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:15:36.629937+00:00",
+    "updatedAt": "2026-09-22T23:15:36.629953+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:15:36.630041+00:00"
+    }
+  }
+}
