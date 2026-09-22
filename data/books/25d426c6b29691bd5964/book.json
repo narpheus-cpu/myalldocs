@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "묵향03 - 혼돈의 장",
+    "author": "전동조",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "묵향",
+      "설무지",
+      "흑룡문"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "정치/전략"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무협과 판타지를 넘나들며 시공간을 초월하는 새로운 타입의 소설을 쓰는 전동조 작가의 대표작입니다.",
+    "oneLineSummary": "기억을 되찾은 묵향이 천랑대와 염왕대를 수습하여 흑룡문을 접수하고, 모사 설무지를 군사로 영입하는 이야기입니다.",
+    "overallSummary": "기억을 되찾은 묵향이 천랑대와 염왕대를 수습하여 흑룡문을 접수하고, 세력을 효과적으로 이끌기 위해 칠야산에 은거하던 뛰어난 모사 설무지를 군사로 영입하며 세력을 확장하는 과정을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "날개를 펴는 묵향",
+        "summary": "기억을 되찾은 묵향이 천랑대와 염왕대를 수습하고 흑룡문을 접수합니다."
+      },
+      {
+        "sectionTitle": "뛰어난 모사를 얻다",
+        "summary": "묵향이 칠야산에서 설무지를 만나 그를 군사로 영입합니다."
+      },
+      {
+        "sectionTitle": "안내자",
+        "summary": "묵향이 관군에게 쫓기는 흑풍단을 구하기 위해 감숙성 무산으로 향합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "영입 인물",
+        "value": "설무지 (군사)"
+      }
+    ],
+    "keyEntitiesText": "묵향, 설무지, 천리독행, 염왕적자, 갈파",
+    "settingText": "흑룡문, 칠야산, 감숙성 무산"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-qNlGQOZCzksg0EBaKHDRYVHL4E9alzj",
+    "filename": "전동조-묵향03-혼돈의 장.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.635Z",
+    "size": "603319",
+    "folderPath": [
+      "books",
+      "08 무협",
+      "전동조-묵향"
+    ],
+    "relativePath": "books/08 무협/전동조-묵향",
+    "webViewLink": "https://drive.google.com/file/d/1-qNlGQOZCzksg0EBaKHDRYVHL4E9alzj/view?usp=drivesdk",
+    "sourceSha256": "d79dd6cd155a66bf4dbbb652a71734f8e2b39eb22fff65b08cf956056be47f1c",
+    "textSha256": "b16a73bcacf4d44e707ec03f806dc7ee7e030db282d430eb068e2774062b9d21",
+    "changeKey": "90f191a0379a38bc5ba623dc12340672",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "25d426c6b29691bd5964",
+    "workId": "25d426c6b29691bd5964",
+    "driveFileId": "1-qNlGQOZCzksg0EBaKHDRYVHL4E9alzj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:59:22.163572+00:00",
+    "updatedAt": "2026-09-22T15:59:22.163589+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:59:22.163704+00:00"
+    }
+  }
+}

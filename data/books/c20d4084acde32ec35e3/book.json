@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "묵향13 - [외전] 마도 전쟁의 서막",
+    "author": "전동조",
+    "genre": "판타지 소설",
+    "tags": [
+      "판타지",
+      "다크",
+      "아르티어스",
+      "미네르바"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "전쟁"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무협과 판타지를 넘나들며 시공간을 초월하는 새로운 타입의 소설을 쓰는 전동조 작가의 대표작입니다.",
+    "oneLineSummary": "마나가 봉인된 채 감금된 다크를 코린트로 이송하려는 미네르바의 계획과, 아르티어스가 아들을 찾아 미란으로 향하는 이야기입니다.",
+    "overallSummary": "마나가 봉인된 채 감금된 다크를 코린트로 이송하려는 미네르바의 계획과, 아르티어스가 아들을 찾기 위해 토지에르를 다그쳐 미란으로 향하는 과정을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "여신의 신탁",
+        "summary": "미네르바가 마나가 봉인된 다크를 코린트로 이송하려는 계획을 세웁니다."
+      },
+      {
+        "sectionTitle": "사악한 미소를 짓는 아들",
+        "summary": "아르티어스가 토지에르를 다그쳐 다크가 있는 미란으로 향합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "다크의 상태",
+        "value": "마나 봉인 및 감금 상태"
+      }
+    ],
+    "keyEntitiesText": "다크, 아르티어스, 미네르바, 토지에르, 지오그네",
+    "settingText": "크루마 제국, 미란 국가 연합"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RO3VC6RTn0slxmNLR_O-1cxHrV67f3n0",
+    "filename": "전동조-묵향13- 외전- 마도 전쟁의 서막.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.831Z",
+    "size": "440838",
+    "folderPath": [
+      "books",
+      "08 무협",
+      "전동조-묵향"
+    ],
+    "relativePath": "books/08 무협/전동조-묵향",
+    "webViewLink": "https://drive.google.com/file/d/1RO3VC6RTn0slxmNLR_O-1cxHrV67f3n0/view?usp=drivesdk",
+    "sourceSha256": "c9241094bf17ca28158b0ce73cd8863ec863df430237bc14eed219bc23f58769",
+    "textSha256": "962195cf3dc732e50ce8a619b7bea25ef6053e25e9a1555a5384e313643fe181",
+    "changeKey": "e8143a0267a555337968a30f61edcece",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c20d4084acde32ec35e3",
+    "workId": "c20d4084acde32ec35e3",
+    "driveFileId": "1RO3VC6RTn0slxmNLR_O-1cxHrV67f3n0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:00:37.278880+00:00",
+    "updatedAt": "2026-09-22T16:00:37.278897+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:00:37.278987+00:00"
+    }
+  }
+}

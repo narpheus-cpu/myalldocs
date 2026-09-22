@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "묵향04 - 복수의 장",
+    "author": "전동조",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "묵향",
+      "옥청학",
+      "설무지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "복수극"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무협과 판타지를 넘나들며 시공간을 초월하는 새로운 타입의 소설을 쓰는 전동조 작가의 대표작입니다.",
+    "oneLineSummary": "무림맹주 옥청학의 실종으로 정파가 분열된 가운데, 묵향이 설무지와 함께 무림 고수들을 포섭하고 복수를 준비하는 이야기입니다.",
+    "overallSummary": "무림맹주 무극검황 옥청학의 실종으로 정파가 분열된 가운데, 묵향이 설무지와 함께 불계불황 등 무림의 고수들을 포섭하고 복수를 준비하며 내당에 침입한 자객을 대비하는 과정을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "심장을 찌른 칼",
+        "summary": "무림맹주 옥청학의 실종으로 정파가 분열되고, 묵향이 설무지와 함께 고수들을 포섭하며 내당에 침입한 자객을 대비합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정세 변화",
+        "value": "무림맹주의 실종과 정파의 분열"
+      }
+    ],
+    "keyEntitiesText": "묵향, 설무지, 옥청학, 불계불황, 지오그네",
+    "settingText": "무림맹, 묵향의 내당"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iK2PtE7o115cWYVFDe8vsp6Ocut3JvKb",
+    "filename": "전동조-묵향04-복수의 장.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.657Z",
+    "size": "433777",
+    "folderPath": [
+      "books",
+      "08 무협",
+      "전동조-묵향"
+    ],
+    "relativePath": "books/08 무협/전동조-묵향",
+    "webViewLink": "https://drive.google.com/file/d/1iK2PtE7o115cWYVFDe8vsp6Ocut3JvKb/view?usp=drivesdk",
+    "sourceSha256": "fd6796152cff99dbeaaf4fc1fb2858fbca32e673634dc95653871e977afdfea0",
+    "textSha256": "747451524e8432c30946a99f318250ba8753308f9bd15655a52f4216aa6a0ebf",
+    "changeKey": "b4bba98aedfd32251d28f64eb4a65ec1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8ca2b88ec62b386b446e",
+    "workId": "8ca2b88ec62b386b446e",
+    "driveFileId": "1iK2PtE7o115cWYVFDe8vsp6Ocut3JvKb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:59:28.461020+00:00",
+    "updatedAt": "2026-09-22T15:59:28.461036+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:59:28.461143+00:00"
+    }
+  }
+}

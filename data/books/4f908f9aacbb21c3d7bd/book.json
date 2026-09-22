@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일인무적 1권",
+    "author": "류진",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "성장기",
+      "남궁세가",
+      "능하운"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전작 무한투 이후 7개월 만에 성장기를 소재로 심혈을 기울여 집필한 류진 작가의 무협 소설입니다.",
+    "oneLineSummary": "남궁세가 가주의 생일잔치에서 벌어진 의문의 살인사건과 모장촌의 소년 능하운의 무림 입문기를 다룹니다.",
+    "overallSummary": "남궁세가 가주 남궁호현의 생일잔치에서 의문의 살인사건이 발생한 후, 모장촌의 영특한 소년 능하운이 무림인 왕곽과 시비가 붙어 대결을 벌이며 무공을 드러내는 이야기입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "남궁세가 가주 남궁호현의 생일잔치 중 의문의 살인이 발생하고 한 달 후 군소방파들이 멸문합니다."
+      },
+      {
+        "sectionTitle": "제1장 숙질",
+        "summary": "모장촌의 소년 능하운이 맹씨 형제에게 쫓기다 용투평에서 무림인 왕곽과 시비가 붙어 대결을 벌입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 갈등",
+        "value": "능하운과 무림인 왕곽의 대결"
+      }
+    ],
+    "keyEntitiesText": "능하운, 남궁호현, 왕곽, 맹공보, 맹창곤, 남궁세가",
+    "settingText": "무림, 모장촌, 괄략산 용투평"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZQgDSKI2kTPWNfTpJStKx9sUN30PjkYl",
+    "filename": "일인무적 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.451Z",
+    "size": "1292091",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1ZQgDSKI2kTPWNfTpJStKx9sUN30PjkYl/view?usp=drivesdk",
+    "sourceSha256": "88cb85f9c31870cf6caccbc11035d42b0f19c5f2c5d3e4d598a84047794232f0",
+    "textSha256": "60e8be25115581ff10ddbd92ead75c822eb5d1142808895c9a7b06e42d6dfd92",
+    "changeKey": "dfb5ab6d9c60114b828f738910ccf3d9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4f908f9aacbb21c3d7bd",
+    "workId": "4f908f9aacbb21c3d7bd",
+    "driveFileId": "1ZQgDSKI2kTPWNfTpJStKx9sUN30PjkYl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:58:40.064355+00:00",
+    "updatedAt": "2026-09-22T15:58:40.064372+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.656,
+      "updatedAt": "2026-09-22T15:58:40.064654+00:00"
+    }
+  }
+}

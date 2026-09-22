@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잔월",
+    "author": "권천",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "잔월색살",
+      "곽자림",
+      "초가장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "처형된 잔월색살과 닮은 차력사 곽자림이 겪는 기이한 기억과 초가장에 침입한 괴한의 이야기를 다룹니다.",
+    "overallSummary": "파미르고원에서 정주오룡에게 처형된 잔월색살의 수급이 대천무맹에 걸린 지 일 년 후, 그와 닮은 차력사 곽자림이 동정호 악양에서 활동하며 겪는 기이한 기억과 초가장에 침입한 검은 그림자의 이야기를 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "파미르고원에서 정주오룡이 잔월색살을 처단하고 그의 수급을 거둡니다."
+      },
+      {
+        "sectionTitle": "제1장 일 년 후",
+        "summary": "대천무맹에 걸린 잔월색살의 수급과 닮은 차력사 곽자림이 동료 왕우와 활동하며 도박장에서 기이한 기억을 떠올리고, 초가장에 괴한이 침입합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 미스터리",
+        "value": "곽자림과 잔월색살의 외모적 유사성과 곽자림의 잃어버린 기억"
+      }
+    ],
+    "keyEntitiesText": "곽자림, 잔월색살, 왕우, 정주오룡, 초가장",
+    "settingText": "파미르고원, 동정호 악양, 초가장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wwCNcAawQoBU9W2ahQjlgV3UwCvdYbRi",
+    "filename": "잔월(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.521Z",
+    "size": "843421",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1wwCNcAawQoBU9W2ahQjlgV3UwCvdYbRi/view?usp=drivesdk",
+    "sourceSha256": "eea1895672e9976c9c5b3a106dd9176a2c39df6bd896da3b8c094ae7dc5e618a",
+    "textSha256": "4fb6806c382deae103ad4430a9a90a0e008b0e44fdf73d631e9a65ff74fbc08f",
+    "changeKey": "06b1f2260ee2afcf89afabbd9c188b99",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cb06861e6579cb21b615",
+    "workId": "cb06861e6579cb21b615",
+    "driveFileId": "1wwCNcAawQoBU9W2ahQjlgV3UwCvdYbRi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:58:52.941764+00:00",
+    "updatedAt": "2026-09-22T15:58:52.941779+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:58:52.941896+00:00"
+    }
+  }
+}

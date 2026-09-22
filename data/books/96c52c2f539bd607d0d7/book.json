@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "묵향07 - [외전] 드래곤의 아들",
+    "author": "전동조",
+    "genre": "판타지 소설",
+    "tags": [
+      "판타지",
+      "다크",
+      "아르티어스",
+      "용언마법"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "가족"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무협과 판타지를 넘나들며 시공간을 초월하는 새로운 타입의 소설을 쓰는 전동조 작가의 대표작입니다.",
+    "oneLineSummary": "골드 드래곤 아르티어스가 저주로 여자가 된 다크를 돌보며 용언 마법을 전수하고 아들로 삼는 이야기입니다.",
+    "overallSummary": "골드 드래곤 아르티어스가 저주로 여자가 된 다크를 돌보며 요리와 가사를 가르치고, 그녀에게 인간용으로 개조한 용언 마법을 전수하며 아들로 삼아 유대를 쌓아가는 과정을 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "다크의 변신, 사랑스런(?) 여자 되기",
+        "summary": "아르티어스가 다크에게 요리와 가사를 가르치며 정을 쌓아갑니다."
+      },
+      {
+        "sectionTitle": "아르티어스의 아들",
+        "summary": "아르티어스가 다크에게 용언 마법을 가르치고, 기억을 되찾은 다크를 아들로 삼습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "전수 무공/마법",
+        "value": "인간용 용언 마법"
+      }
+    ],
+    "keyEntitiesText": "다크, 아르티어스, 나이아드, 카렐",
+    "settingText": "아르티어스의 드래곤 레어"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HOBax-Fii5gHzzJ7K7KPqjUCzTNlmHaD",
+    "filename": "전동조-묵향07- 외전- 드래곤의 아들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.708Z",
+    "size": "520014",
+    "folderPath": [
+      "books",
+      "08 무협",
+      "전동조-묵향"
+    ],
+    "relativePath": "books/08 무협/전동조-묵향",
+    "webViewLink": "https://drive.google.com/file/d/1HOBax-Fii5gHzzJ7K7KPqjUCzTNlmHaD/view?usp=drivesdk",
+    "sourceSha256": "a2086c62dc165ebe2ac23c9e34edb3559b74e0536c244bca95a33fccc2e80573",
+    "textSha256": "5725af1b8a686d5115d8a1d11efc3ca7c08dcfbedecd3043d3c6db23ec870825",
+    "changeKey": "abab9aa636795afaadf9a4ac520e398e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "96c52c2f539bd607d0d7",
+    "workId": "96c52c2f539bd607d0d7",
+    "driveFileId": "1HOBax-Fii5gHzzJ7K7KPqjUCzTNlmHaD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:59:51.117058+00:00",
+    "updatedAt": "2026-09-22T15:59:51.117072+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:59:51.117182+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "묵향06 - [외전] 다크, 나이아드의 힘을 얻다",
+    "author": "전동조",
+    "genre": "판타지 소설",
+    "tags": [
+      "판타지",
+      "다크",
+      "나이아드",
+      "알카사스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "마법"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무협과 판타지를 넘나들며 시공간을 초월하는 새로운 타입의 소설을 쓰는 전동조 작가의 대표작입니다.",
+    "oneLineSummary": "코린트 제국의 추격을 피해 알카사스 마도 왕국에 도착한 시드미안 일행과 다크가 흑마법과 정령왕 나이아드에 대해 조사하는 이야기입니다.",
+    "overallSummary": "코린트 제국의 추격을 피해 알카사스 마도 왕국에 도착한 시드미안 일행과 다크가 흑마법과 마왕 크로네티오에 대해 조사하고, 정령왕 나이아드와의 인연을 맺으며 저주를 풀 방법을 모색하는 과정을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "마도사에 관한 정보",
+        "summary": "알카사스 원로회의 움직임과 시드미안 일행이 마법사 길드에서 흑마법과 마왕 크로네티오에 대해 조사합니다."
+      },
+      {
+        "sectionTitle": "달갑지 않은 방문객",
+        "summary": "코린트 제국의 궁정 마법사 지오네 일행이 찾아와 시드미안 일행을 압박하고 지휘권을 요구합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "조사 대상",
+        "value": "마왕 크로네티오와 흑마법"
+      }
+    ],
+    "keyEntitiesText": "다크, 시드미안, 지오네, 나이아드, 토지에르",
+    "settingText": "알카사스 마도 왕국, 미네온"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FkLgqVdqXOKYtuGDWBJihvhwfltb5jBu",
+    "filename": "전동조-묵향06- 외전- 다크, 나이아드의 힘을 얻다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.687Z",
+    "size": "458209",
+    "folderPath": [
+      "books",
+      "08 무협",
+      "전동조-묵향"
+    ],
+    "relativePath": "books/08 무협/전동조-묵향",
+    "webViewLink": "https://drive.google.com/file/d/1FkLgqVdqXOKYtuGDWBJihvhwfltb5jBu/view?usp=drivesdk",
+    "sourceSha256": "d0e4dbca7cf1c21f60afe88b8daaae0447d993d4c01ec770dced1a4e9b985647",
+    "textSha256": "070455c221504c77b04d20416a8ac320c1782809ff2b2345abe407471f825b21",
+    "changeKey": "28548c34d2daef857c89d3bceb0fcc4f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3c9cdf831d7b1118dd12",
+    "workId": "3c9cdf831d7b1118dd12",
+    "driveFileId": "1FkLgqVdqXOKYtuGDWBJihvhwfltb5jBu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:59:43.441562+00:00",
+    "updatedAt": "2026-09-22T15:59:43.441577+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:59:43.441687+00:00"
+    }
+  }
+}

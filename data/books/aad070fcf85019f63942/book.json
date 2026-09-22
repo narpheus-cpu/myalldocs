@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "묵향16 - 오! 북극성",
+    "author": "전동조",
+    "genre": "판타지 소설",
+    "tags": [
+      "판타지",
+      "묵향",
+      "아르티어스",
+      "차원이동"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "이계진입"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무협과 판타지를 넘나들며 시공간을 초월하는 새로운 타입의 소설을 쓰는 전동조 작가의 대표작입니다.",
+    "oneLineSummary": "차원이동 마법의 오류로 둥루젠의 황량한 벌판에 떨어진 묵향과 아르티어스가 미개한 촌락민들을 만나 신으로 대접받는 이야기입니다.",
+    "overallSummary": "차원이동 마법의 오류로 둥루젠의 황량한 벌판에 떨어진 묵향과 아르티어스가 미개한 촌락민들을 만나 신으로 대접받으며 그들의 천막에서 음식을 대접받는 과정을 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "털이 숭숭 난 다리",
+        "summary": "차원이동 오류로 둥루젠에 떨어진 묵향과 아르티어스가 옷 문제로 다투고 미개한 촌락민들을 만납니다."
+      },
+      {
+        "sectionTitle": "신을 사칭한 사기행각",
+        "summary": "아르티어스가 마법으로 신을 사칭하여 촌락민들에게 신으로 대접받으며 천막에서 음식을 대접받습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "차원이동 결과",
+        "value": "둥루젠의 미개한 부족 영토로 이동"
+      }
+    ],
+    "keyEntitiesText": "묵향, 아르티어스, 둥루젠 촌락민",
+    "settingText": "둥루젠의 황량한 벌판, 이동식 천막"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18sfXp0VKNDYt0WL3CsUaxLuFqekSy5rf",
+    "filename": "전동조-묵향16-오! 북극성.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.880Z",
+    "size": "497599",
+    "folderPath": [
+      "books",
+      "08 무협",
+      "전동조-묵향"
+    ],
+    "relativePath": "books/08 무협/전동조-묵향",
+    "webViewLink": "https://drive.google.com/file/d/18sfXp0VKNDYt0WL3CsUaxLuFqekSy5rf/view?usp=drivesdk",
+    "sourceSha256": "394ad92a109525a1c870422cb211cad200b3d381644c898083b1a0a6d2cb4737",
+    "textSha256": "218b5b3612b1e2d66edf491f9b12485a14efcb5f4f65f2186660373ed9e34386",
+    "changeKey": "7b962d8eabaa8c7896c8fa91f1fa7e65",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aad070fcf85019f63942",
+    "workId": "aad070fcf85019f63942",
+    "driveFileId": "18sfXp0VKNDYt0WL3CsUaxLuFqekSy5rf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:00:57.282480+00:00",
+    "updatedAt": "2026-09-22T16:00:57.282495+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:00:57.282589+00:00"
+    }
+  }
+}

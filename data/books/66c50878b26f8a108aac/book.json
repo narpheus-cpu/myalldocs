@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "장한백설",
+    "author": "권천",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "비마표국",
+      "태행검파",
+      "황산삼귀"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "복수극"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "비마표국의 진국충이 황산파의 습격을 받아 유삼길 국주를 잃고 태행검파의 고수들과 함께 적들에 맞서는 이야기입니다.",
+    "overallSummary": "태행산에 아이를 데려다 키운 청년의 이야기로 시작하여, 비마표국의 진국충이 황산파의 습격을 받아 유삼길 국주를 잃고 태행검파의 궁조생, 조추수와 함께 황산삼귀 및 막두철에 맞서 싸우는 과정을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "한 청년이 다섯 살 가량의 아이 수아를 데리고 태행산으로 들어갑니다."
+      },
+      {
+        "sectionTitle": "제1장 사마가 발흥하니",
+        "summary": "비마표국의 진국충이 황산파의 습격을 받아 유삼길 국주를 잃고 태행검파의 궁조생, 조추수와 함께 황산삼귀 및 막두철에 맞서 싸웁니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 구도",
+        "value": "비마표국 및 태행검파 대 황산파의 대결"
+      }
+    ],
+    "keyEntitiesText": "진국충, 유삼길, 궁조생, 조추수, 막두철, 황산삼귀",
+    "settingText": "태행산, 오대산 망해봉 기슭"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XyqxBBmC092jQmzWS_9w4gs9rMFddsL-",
+    "filename": "장한백설(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.567Z",
+    "size": "835333",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1XyqxBBmC092jQmzWS_9w4gs9rMFddsL-/view?usp=drivesdk",
+    "sourceSha256": "11e87114dab160aedcf62e8cb5a30d0a07b6e2adf7fa74aecb0349715b147abe",
+    "textSha256": "1328e86c8e903bda8ca037cf99d5a42fd5ba4989961087a197c1f7065ff7e047",
+    "changeKey": "7e85bb8da432bad165a2d280014d245f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "66c50878b26f8a108aac",
+    "workId": "66c50878b26f8a108aac",
+    "driveFileId": "1XyqxBBmC092jQmzWS_9w4gs9rMFddsL-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:59:00.066690+00:00",
+    "updatedAt": "2026-09-22T15:59:00.066708+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:59:00.066820+00:00"
+    }
+  }
+}

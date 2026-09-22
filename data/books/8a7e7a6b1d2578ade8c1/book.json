@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "묵향12 - [외전] 다크의 위기",
+    "author": "전동조",
+    "genre": "판타지 소설",
+    "tags": [
+      "판타지",
+      "다크",
+      "미네르바",
+      "제국전쟁"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "전쟁"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무협과 판타지를 넘나들며 시공간을 초월하는 새로운 타입의 소설을 쓰는 전동조 작가의 대표작입니다.",
+    "oneLineSummary": "코린트의 기습으로 크라레스가 큰 피해를 입은 가운데, 다크가 내부 첩자의 존재를 의심하고 미네르바가 음모를 꾸미는 이야기입니다.",
+    "overallSummary": "제2차 제국 전쟁 초반 코린트의 기습으로 크라레스가 큰 피해를 입은 가운데, 다크가 내부 첩자의 존재를 의심하고 크루마의 미네르바가 이 틈을 타 미란을 공격하려는 음모를 꾸미는 과정을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고양이 옆에 있는 첩자",
+        "summary": "코린트의 기습으로 크라레스가 피해를 입고 다크가 내부 첩자를 의심하는 가운데, 미네르바가 미란을 공격하려는 음모를 꾸밉니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "전쟁의 서막",
+        "value": "제2차 제국 전쟁의 발발과 크라레스의 위기"
+      }
+    ],
+    "keyEntitiesText": "다크, 미네르바, 프로이엔, 세린, 이블리스",
+    "settingText": "크라레스 제국 황궁, 크루마 제국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CLo3IHGDqdbhICIbbm9knY37TaqjrtOb",
+    "filename": "전동조-묵향12- 외전- 다크의 위기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.815Z",
+    "size": "424168",
+    "folderPath": [
+      "books",
+      "08 무협",
+      "전동조-묵향"
+    ],
+    "relativePath": "books/08 무협/전동조-묵향",
+    "webViewLink": "https://drive.google.com/file/d/1CLo3IHGDqdbhICIbbm9knY37TaqjrtOb/view?usp=drivesdk",
+    "sourceSha256": "4c4ba87d8b4364fa1b4375ff98cc55d24f3337cfe378f5cf098427822560a8cd",
+    "textSha256": "222cd69d980bc5658820e17d2b9e2431f6fba69f49dea904bc205a87aa94b1a1",
+    "changeKey": "beb03ccb71fc08a8ddd017bcfd527c2f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8a7e7a6b1d2578ade8c1",
+    "workId": "8a7e7a6b1d2578ade8c1",
+    "driveFileId": "1CLo3IHGDqdbhICIbbm9knY37TaqjrtOb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:00:29.653198+00:00",
+    "updatedAt": "2026-09-22T16:00:29.653215+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:00:29.653319+00:00"
+    }
+  }
+}

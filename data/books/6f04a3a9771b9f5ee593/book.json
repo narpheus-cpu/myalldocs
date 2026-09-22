@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "묵향01 - 마교의 장",
+    "author": "전동조",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "묵향",
+      "마교",
+      "아수혈교"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무협과 판타지를 넘나들며 시공간을 초월하는 새로운 타입의 소설을 쓰는 전동조 작가의 대표작입니다.",
+    "oneLineSummary": "마교에서 자라나 무공의 극의를 추구하는 묵향의 탄생과 마교가 아수혈교에 대비해 정예 고수를 육성하려는 음모를 다룹니다.",
+    "overallSummary": "정파와 사파, 마교의 무공 체계를 설명하고, 마교 교주 한중길과 장로들이 아수혈교의 발흥에 대비하여 3,000명의 아이들을 납치해 정예 고수로 키우기로 모의하는 마교의 음모를 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "정파의 화경, 현경, 생사경과 마교의 극마, 탈마 경지 등 무공 체계를 설명합니다."
+      },
+      {
+        "sectionTitle": "운명의 시작",
+        "summary": "마교 교주 한중길과 장로들이 아수혈교에 대비해 아이들을 납치하여 정예 고수로 키우기로 결의합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "무공 경지",
+        "value": "화경, 현경, 생사경, 극마, 탈마"
+      }
+    ],
+    "keyEntitiesText": "묵향, 한중길, 혁무상, 소무면, 아수혈교",
+    "settingText": "중원 무림, 마교 총타"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qEULsaTxQlyZHl9ddFadDS6eh3Eh1l-5",
+    "filename": "전동조-묵향01-마교의 장.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.594Z",
+    "size": "684002",
+    "folderPath": [
+      "books",
+      "08 무협",
+      "전동조-묵향"
+    ],
+    "relativePath": "books/08 무협/전동조-묵향",
+    "webViewLink": "https://drive.google.com/file/d/1qEULsaTxQlyZHl9ddFadDS6eh3Eh1l-5/view?usp=drivesdk",
+    "sourceSha256": "9e3a883bdbad949f2c3a5b6949f0107b97e745a1ba29087fbe653d2636bca160",
+    "textSha256": "6059687852c5344411eaae71750c3ed5b88ea44abfc7c841b19396b2e03c962e",
+    "changeKey": "02ddea21af7cfbe77a14b5bda3c6b940",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6f04a3a9771b9f5ee593",
+    "workId": "6f04a3a9771b9f5ee593",
+    "driveFileId": "1qEULsaTxQlyZHl9ddFadDS6eh3Eh1l-5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:59:07.967157+00:00",
+    "updatedAt": "2026-09-22T15:59:07.967171+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:59:07.967265+00:00"
+    }
+  }
+}

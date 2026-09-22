@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "묵향14 - [외전] 부활하는 다크",
+    "author": "전동조",
+    "genre": "판타지 소설",
+    "tags": [
+      "판타지",
+      "다크",
+      "제임스",
+      "드로아교단"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "마법"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무협과 판타지를 넘나들며 시공간을 초월하는 새로운 타입의 소설을 쓰는 전동조 작가의 대표작입니다.",
+    "oneLineSummary": "조직적으로 무장한 몬스터들의 배후를 조사하는 용병 대장과, 감금된 다크가 두통 치료를 위해 무녀가 될 위기에 처하는 이야기입니다.",
+    "overallSummary": "알카사스 영토에서 조직적으로 무장하여 군대를 공격하는 몬스터들의 배후를 조사하는 용병 대장과, 감금된 다크가 정신계 마법의 부작용인 두통을 치료받기 위해 드로아 교단의 무녀가 될 위기에 처하는 과정을 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "몬스터에게 배후가 있다?",
+        "summary": "용병 대장이 무장한 몬스터들의 배후를 조사하고 토지에르의 개입을 의심합니다."
+      },
+      {
+        "sectionTitle": "제임스의 이상적인 기사상",
+        "summary": "제임스가 다크의 기사도에 감탄하며 그녀에게 드로아 교단의 무녀가 되어 두통을 치료받을 것을 권합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 요소",
+        "value": "다크의 무녀 등록 제안과 거절"
+      }
+    ],
+    "keyEntitiesText": "다크, 제임스, 카마엘, 토지에르, 카르토",
+    "settingText": "알카사스 영토, 드로아 교단"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eaIQkVqXDk4nEzO_TZttmOv1OAXgk6xj",
+    "filename": "전동조-묵향14- 외전- 부활하는 다크.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:08.846Z",
+    "size": "429839",
+    "folderPath": [
+      "books",
+      "08 무협",
+      "전동조-묵향"
+    ],
+    "relativePath": "books/08 무협/전동조-묵향",
+    "webViewLink": "https://drive.google.com/file/d/1eaIQkVqXDk4nEzO_TZttmOv1OAXgk6xj/view?usp=drivesdk",
+    "sourceSha256": "a0a2446bcda43c240304992ce7ccae5c1b7585dfe4bca581b2ba4662bb470c0e",
+    "textSha256": "a6a00cdc137b242ee688cd46691dc748a604d0ef53c8f593e732caf39b904c79",
+    "changeKey": "6c93894b8ce7ad89b3f0e797de14c89a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "577027523cbffebe3fb4",
+    "workId": "577027523cbffebe3fb4",
+    "driveFileId": "1eaIQkVqXDk4nEzO_TZttmOv1OAXgk6xj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:00:45.044559+00:00",
+    "updatedAt": "2026-09-22T16:00:45.044574+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:00:45.044665+00:00"
+    }
+  }
+}
