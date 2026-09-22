@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "성년수업",
+    "author": "마키무라 료",
+    "genre": "성인 소설",
+    "tags": [
+      "성년수업",
+      "새어머니",
+      "친구 엄마",
+      "성적 각성",
+      "과외"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인물",
+        "하렘"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "마키무라 료는 일본의 성인 소설 작가로 다양한 '특별 수업' 시리즈를 집필했습니다.",
+    "oneLineSummary": "초등학교 6학년 때 만난 아름다운 새어머니와 중학생 시절 해수욕장에서 만난 친구 엄마를 통해 성의 세계에 눈뜨는 소년의 이야기.",
+    "overallSummary": "어릴 적 어머니를 여의고 할머니 밑에서 자란 건우는 해외 출장이 잦은 아버지 덕분에 14살 연상의 아름다운 새어머니 최은수를 맞이한다. 젊고 기품 있는 새어머니를 따르며 행복한 가정을 꾸리던 건우는, 중학교 2학년 여름방학 경포대 해수욕장 인솔로 따라온 친구 성일의 엄마 진주아줌마와 물속에서 은밀한 접촉을 가지며 생애 첫 사정을 경험한다. 이후 진주아줌마의 집을 드나들며 본격적인 성적 교육을 받게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아름다운 새어머니와의 만남",
+        "summary": "해외를 누비는 아버지로 인해 혼자 자라던 건우는 젊고 아름다운 새어머니 은수를 만나 가족의 따뜻함과 동시에 이성적인 매력을 느낀다."
+      },
+      {
+        "sectionTitle": "경포대 바닷가의 비밀",
+        "summary": "중학교 2학년 여름방학, 해수욕장에서 친구 엄마인 진주아줌마의 부탁을 들어주다 물속에서 과감한 신체 접촉을 겪고 인생 첫 사정을 경험한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르 특징",
+        "value": "연상의 여성(새어머니, 친구 엄마)들과의 성적 경험을 다룬 일본식 성인 소설"
+      },
+      {
+        "key": "서사 구조",
+        "value": "소년에서 성인으로 성장하는 일련의 단계별 '수업' 형식"
+      }
+    ],
+    "keyEntitiesText": "건우, 최은수(새어머니), 진주아줌마, 성일",
+    "settingText": "건우의 집, 경포대 해수욕장, 성일이네 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1P1JWhHKfeWdBsTuYLoi0dWat9HrJyLJS",
+    "filename": "성년수업완결.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:20.343Z",
+    "size": "215813",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1P1JWhHKfeWdBsTuYLoi0dWat9HrJyLJS/view?usp=drivesdk",
+    "sourceSha256": "c36a210dfa10e081f1b7a748240ff644c5a4ed5872206f7ba0fb1f63af2c9b5f",
+    "textSha256": "9e8ee41ad2dbc2b06f496dc8a45776957cdc16eb51a4fa1131b6718821248f0c",
+    "changeKey": "772fe1631fa0f37e7d4198e645526448",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c3689b0eb7e70149e9ce",
+    "workId": "c3689b0eb7e70149e9ce",
+    "driveFileId": "1P1JWhHKfeWdBsTuYLoi0dWat9HrJyLJS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:00:25.015308+00:00",
+    "updatedAt": "2026-09-22T17:00:25.015323+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:00:25.015441+00:00"
+    }
+  }
+}

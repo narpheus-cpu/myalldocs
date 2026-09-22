@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비밀의 수첩",
+    "author": "GUN",
+    "genre": "성인 소설",
+    "tags": [
+      "비밀의 수첩",
+      "작가",
+      "근친상간",
+      "실화 바탕",
+      "모자상간"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인물",
+        "메타픽션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인터넷 성인 커뮤니티 '야문'에서 활동하는 작가 건(GUN).",
+    "oneLineSummary": "야설 소재를 구하던 작가 건이 독자로부터 접수한 어머니와의 충격적인 근친상간 경험담을 풀어놓는 이야기.",
+    "overallSummary": "야설 소재 고갈로 고통받던 작가 건은 인터넷에 파격적인 경험담을 공모하고, 한 남성으로부터 직접 만나 비밀스러운 이야기를 듣게 된다. 공장 사고로 아버지를 잃고 어머니와 단칸방에서 살아온 철우는 홀어머니의 알몸을 우연히 훔쳐보게 된 후 걷잡을 수 없는 욕망에 사로잡힌다. 결국 술에 취해 잠든 어머니를 상대로 금기를 깨고 관계를 맺게 된 철우의 충격적인 사연이 전개된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "작가의 고뇌와 제보자",
+        "summary": "소재 부족에 시달리던 작가 건은 인터넷을 통해 익명의 제보자를 만나고, 그로부터 충격적인 근친상간 이야기를 전해 듣는다."
+      },
+      {
+        "sectionTitle": "철우의 고백: 어머니의 알몸",
+        "summary": "어린 시절 아버지를 잃고 어머니와 살던 철우는 고등학생이 되어 우연히 어머니의 목욕 모습을 훔쳐보게 되고, 이로 인해 심각한 집착과 성적 욕망에 빠진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "액자식 구성",
+        "value": "작가와 제보자의 만남 속에 철우의 과거 고백이 삽입됨"
+      },
+      {
+        "key": "주제",
+        "value": "금기시되는 모자상간의 심리와 과정"
+      }
+    ],
+    "keyEntitiesText": "작가 건, 박철우, 철우 엄마",
+    "settingText": "서울의 한 카페, 철우의 단칸 셋방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16i1FkhEf_zeS4igYZxS6j0Yn67swBPmr",
+    "filename": "비밀의 수첩.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:20.258Z",
+    "size": "663084",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/16i1FkhEf_zeS4igYZxS6j0Yn67swBPmr/view?usp=drivesdk",
+    "sourceSha256": "3a65e5674a28c2eb1752a7dddbc5a25751a2a7ddfcb1f360b758e843fec092dc",
+    "textSha256": "675f8aa7b3033cf3879c1afb425c84ef283e7389cbee5599b271b758c2383bfa",
+    "changeKey": "b57604962288ad5a76619bf64dcb40ab",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7c72bb8fd3f78d1f1e91",
+    "workId": "7c72bb8fd3f78d1f1e91",
+    "driveFileId": "16i1FkhEf_zeS4igYZxS6j0Yn67swBPmr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:59:32.586651+00:00",
+    "updatedAt": "2026-09-22T16:59:32.586667+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:59:32.586783+00:00"
+    }
+  }
+}

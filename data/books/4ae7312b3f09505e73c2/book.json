@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "애정비사",
+    "author": "XTC6660",
+    "genre": "캠퍼스 로맨스/성인 소설",
+    "tags": [
+      "대학생",
+      "자취방",
+      "선배 누나",
+      "캠퍼스 비리",
+      "비밀"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스",
+        "성인물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "하이텔 성인 플라자에서 활동하던 네티즌 'XTC6660'의 웹소설입니다.",
+    "oneLineSummary": "대학 자취방에서 친구 희창이로부터 과 선배인 박선영 누나와 관련된 충격적인 하룻밤 이야기를 듣게 되는 주인공의 이야기.",
+    "overallSummary": "지방의 한 대학교 자취방에서 빈둥거리던 주인공 창희에게 초등학교 동창이자 부잣집 오렌지족으로 변모한 친구 희창이가 찾아온다. 희창이는 과에서 얌전하고 인기가 많던 선영 선배와 전날 밤 술을 마시고 여관에서 함께 잤다는 충격적인 사실을 털어놓는다. 선영이 누나가 술에 취해 난감한 행동을 벌였던 에피소드와 함께, 희창이가 그날 밤 겪었던 은밀한 비리에 대해 호기심 어린 대화가 이어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "희창이의 방문과 충격적인 고백",
+        "summary": "수업도 빼먹고 자취방에 찾아온 친구 희창이는 전날 과 선배인 박선영과 외박을 했다며 그녀의 숨겨진 비리와 하룻밤 이야기를 꺼낸다."
+      },
+      {
+        "sectionTitle": "선영 선배의 만취 에피소드",
+        "summary": "술을 잘 못 마신다던 선영이 호프집에서 엄청난 양의 술을 마시고 만취해 까페에서 신발을 벗어던지고 뻗어버린 황당한 사연이 소개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 형식",
+        "value": "친구 간의 대화와 회상을 통한 액자식 구성"
+      },
+      {
+        "key": "인물 설정",
+        "value": "샌님 같은 주인공과 자유분방한 부잣집 친구의 대비"
+      }
+    ],
+    "keyEntitiesText": "창희(나), 희창(짱), 박선영",
+    "settingText": "경기도 남쪽 지방 분교 대학가 자취방, 호프집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MWOV5wTyhY-G6EHA1tsmqLeLaybEr6BN",
+    "filename": "애정비사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:20.451Z",
+    "size": "1152973",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1MWOV5wTyhY-G6EHA1tsmqLeLaybEr6BN/view?usp=drivesdk",
+    "sourceSha256": "0b1ac8c5d713404c44d9cac4a154eb018de647cb43dda9ffcf8262972f35108e",
+    "textSha256": "f0f760d04f8631e0165a2f70b11ebf2771cc35d606c4cf6f3a5262fd345bf959",
+    "changeKey": "3d2903ab3cb0df0957147ba79e5e0709",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4ae7312b3f09505e73c2",
+    "workId": "4ae7312b3f09505e73c2",
+    "driveFileId": "1MWOV5wTyhY-G6EHA1tsmqLeLaybEr6BN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:01:53.652203+00:00",
+    "updatedAt": "2026-09-22T17:01:53.652220+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:01:53.652357+00:00"
+    }
+  }
+}
