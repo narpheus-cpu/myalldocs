@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "[장르]군마무",
+    "author": "와룡강",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "복수",
+      "전쟁"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "와룡강",
+    "oneLineSummary": "군마의 시대를 기다리는 사자천존 종리혁의 무협 이야기.",
+    "overallSummary": "군마의 시대를 기다리는 사자천존 종리혁이 마도를 깨치며 천하를 질타하는 무협 소설입니다. 마도와 정파의 대립, 그리고 주인공의 강인한 무공을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "군마의 시대와 사자천존의 전설에 대한 서술."
+      },
+      {
+        "sectionTitle": "제 1장",
+        "summary": "병서보검협에서 소년 종리자강이 겪는 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "무협, 복수, 전쟁"
+      }
+    ],
+    "keyEntitiesText": "종리혁, 종리자강, 진산",
+    "settingText": "병서보검협"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EqQEVGs7-Yta2bSC-7Ay2Q7n6Z3RzshJ",
+    "filename": "[장르]와룡강-군마무.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:16.194Z",
+    "size": "624788",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1EqQEVGs7-Yta2bSC-7Ay2Q7n6Z3RzshJ/view?usp=drivesdk",
+    "sourceSha256": "b98f752d311abcb154ecb5879af537fda9f1f7c93fdef9459f8debcff1fbcec0",
+    "textSha256": "ac4bfc99863ec624a2ea4abb1451a62c95e4fe629e34dde12f46c62b16aa5bf1",
+    "changeKey": "3da32a8751c86488b76b0304e21728c0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "536482e80a8c44a8b96c",
+    "workId": "536482e80a8c44a8b96c",
+    "driveFileId": "1EqQEVGs7-Yta2bSC-7Ay2Q7n6Z3RzshJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:45:19.574211+00:00",
+    "updatedAt": "2026-09-22T16:45:19.574282+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8108,
+      "updatedAt": "2026-09-22T16:45:19.574379+00:00"
+    }
+  }
+}

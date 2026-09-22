@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "[장르]검왕가 합본",
+    "author": "getup",
+    "genre": "무협 야설",
+    "tags": [
+      "무협",
+      "능욕",
+      "근친"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인",
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "getup",
+    "oneLineSummary": "무협 세계관에서 벌어지는 여고수들의 능욕과 성적 관계.",
+    "overallSummary": "단목세가의 후기지수 단목기가 마공을 통해 여고수들을 제압하고 성적으로 능욕하는 내용을 담은 무협 야설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "적목안",
+        "summary": "단목기가 보타신니, 남해신니 등 여고수들을 제압하고 성적으로 능욕하는 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "무협, 능욕, 마공"
+      }
+    ],
+    "keyEntitiesText": "단목기, 보타신니, 남해신니, 하후대부인, 하후연령, 조구, 조영, 조웅, 조원",
+    "settingText": "단목세가, 운남성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1K3yXwCqTXXG9fkTSn02qiICHGmK_F_yw",
+    "filename": "[장르]검왕가 합본.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:15.993Z",
+    "size": "820492",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1K3yXwCqTXXG9fkTSn02qiICHGmK_F_yw/view?usp=drivesdk",
+    "sourceSha256": "b72627a1d1c1798c15a7bf1484968d64df07a87c4ff52a612d6deeb11509a7dd",
+    "textSha256": "69ea63e63eea67a9a6db5ac295977bf92614197f14b083d7a25ed3b035fc7fbf",
+    "changeKey": "0a80559776cb888b1693ccd3b66f6205",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2821fb9c926550accaf3",
+    "workId": "2821fb9c926550accaf3",
+    "driveFileId": "1K3yXwCqTXXG9fkTSn02qiICHGmK_F_yw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:44:35.954180+00:00",
+    "updatedAt": "2026-09-22T16:44:35.954196+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:44:35.954334+00:00"
+    }
+  }
+}

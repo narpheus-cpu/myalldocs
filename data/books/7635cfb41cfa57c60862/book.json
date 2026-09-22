@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "[장르]신조협려외전",
+    "author": "람월, 흔연",
+    "genre": "무협 야설",
+    "tags": [
+      "무협",
+      "능욕",
+      "근친"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인",
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "람월, 흔연",
+    "oneLineSummary": "신조협려 등장인물들을 소재로 한 성적 능욕 이야기.",
+    "overallSummary": "김용의 신조협려 등장인물들을 소재로 하여, 부모의 정사 장면을 훔쳐보던 자녀들이 근친상간을 벌이는 등 자극적인 내용을 담은 무협 야설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장",
+        "summary": "곽정과 황용의 정사 장면을 훔쳐보던 곽부와 대소무 형제가 근친상간을 벌이는 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "무협, 근친상간, 능욕"
+      }
+    ],
+    "keyEntitiesText": "곽정, 황용, 곽부, 무돈유, 무수문",
+    "settingText": "곽정의 침실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "161U0csnRhRPD-KFr-OXfdAvM26VZQmWo",
+    "filename": "[장르]신조협려외전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:16.157Z",
+    "size": "140004",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/161U0csnRhRPD-KFr-OXfdAvM26VZQmWo/view?usp=drivesdk",
+    "sourceSha256": "8e7a7abc17c7c23c8942671a6067a4632a36eafbe1d0ea4f190fc60d33074374",
+    "textSha256": "b51af8dc469ad23cd1f271eda3372e322ad2ebbaa1543f0c1c9c02607cb8de2c",
+    "changeKey": "8c563cfb6e2f11e098b59e5cef79a99d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7635cfb41cfa57c60862",
+    "workId": "7635cfb41cfa57c60862",
+    "driveFileId": "161U0csnRhRPD-KFr-OXfdAvM26VZQmWo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:45:12.146126+00:00",
+    "updatedAt": "2026-09-22T16:45:12.146142+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:45:12.146309+00:00"
+    }
+  }
+}

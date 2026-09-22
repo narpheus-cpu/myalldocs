@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "[장르]천명",
+    "author": "killbang",
+    "genre": "무협 야설",
+    "tags": [
+      "무협",
+      "근친",
+      "복수"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인",
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "killbang",
+    "oneLineSummary": "절대자가 되기 위한 담천명의 복수와 모자상간 이야기.",
+    "overallSummary": "담천명이 원수들에게 복수하고 절대자가 되기까지의 과정을 그린 무협 야설입니다. 어머니 철소연과의 근친상간 내용이 포함되어 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "담천명의 가족이 십천에게 습격당하는 이야기."
+      },
+      {
+        "sectionTitle": "제 이 막",
+        "summary": "생불곡으로 떨어진 담천명이 어머니 철소연에게 무공을 배우며 관계를 맺는 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "무협, 근친상간, 복수"
+      }
+    ],
+    "keyEntitiesText": "담천명, 담군명, 철소연, 신비마황",
+    "settingText": "생불곡"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vUFmVBAki5H2gF1kXkyGhPldrU7004Ip",
+    "filename": "[장르]천명.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:16.250Z",
+    "size": "91331",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1vUFmVBAki5H2gF1kXkyGhPldrU7004Ip/view?usp=drivesdk",
+    "sourceSha256": "d4cfaf8da43583cbb32f1ed741f0136a9cca3913eb2ede78b7b139c5a5ad7c70",
+    "textSha256": "63d39f05a4f5ce9e37a9b6ca32a765d5b310cb4fd93bb5501e28a37204866043",
+    "changeKey": "1ca811f827e55d8ea749abdb48f99e82",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "acd1c9d24640aaa9ead7",
+    "workId": "acd1c9d24640aaa9ead7",
+    "driveFileId": "1vUFmVBAki5H2gF1kXkyGhPldrU7004Ip",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:45:28.034955+00:00",
+    "updatedAt": "2026-09-22T16:45:28.034971+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:45:28.035077+00:00"
+    }
+  }
+}
