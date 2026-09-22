@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-논어",
+    "author": "윤홍식",
+    "genre": "동양철학",
+    "tags": [
+      "논어",
+      "공자",
+      "양심",
+      "동양철학",
+      "유교"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "연세대학교 사학과 및 대학원 철학과를 졸업하고 홍익학당을 열어 동서양 정신철학을 강의하고 저술활동을 하는 인물입니다.",
+    "oneLineSummary": "물질문명의 위기 속에서 인간의 양심을 계발하고 보편적 도덕률을 세우기 위해 공자의 가르침이 담긴 논어를 읽어야 함을 역설한다.",
+    "overallSummary": "물질만능주의로 인해 양심이 땅에 떨어진 현대 사회에서 동양의 군자 정신과 보편적 도덕률인 자연법을 회복해야 한다고 주장합니다. 이를 위해 공자의 생애, 그의 동이족 기원과 인(仁) 사상, 학문을 즐겼던 태도 등을 분석하며 양심 계발의 비법이 담긴 고전 '논어'의 가치를 재조명합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가며",
+        "summary": "물질문명과 정신문명의 대비를 통해 보편적 도덕률로서의 양심과 자연법의 필요성을 제기하고 논어를 읽어야 하는 이유를 설명합니다."
+      },
+      {
+        "sectionTitle": "공자는 누구인가?",
+        "summary": "공자의 탄생과 생애, 노자에게 배운 일화, 양심정치 추구 및 동이족(은나라, 고조선)과의 연관성과 인(仁) 사상의 유래를 다룹니다."
+      },
+      {
+        "sectionTitle": "공자가 즐기던 학문",
+        "summary": "공자가 평생 학문을 즐기고 진리를 남과 공유하려 했던 태도와 동방 고대문화(홍산문화, 홍범)를 밝히고자 했던 학문적 계보를 설명합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 사상",
+        "value": "양심(道心)과 인(仁)의 회복"
+      },
+      {
+        "key": "역사적 관점",
+        "value": "공자의 동이족 기원설 및 고조선(구이)과의 사상적 연계"
+      }
+    ],
+    "keyEntitiesText": "공자, 노자, 윤홍식, 홍익학당, 은나라, 고조선, 주나라",
+    "settingText": "현대 물질만능주의 사회 및 기원전 6세기 중국 춘추전국시대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IgP6oSNT0hM4HsyqBGVBsDQD2JKUMRa9",
+    "filename": "살림지식총서-논어(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:42:46.000Z",
+    "size": "144622",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1IgP6oSNT0hM4HsyqBGVBsDQD2JKUMRa9/view?usp=drivesdk",
+    "sourceSha256": "1fe864f80d9b7e1705d83fcff1d4320cf34de78e9ee2402a1fd85f3dd0b83023",
+    "textSha256": "32f16774ace752b2ef217a8f7992e0fa76c61aed17e68655982d223f3a0c5d6d",
+    "changeKey": "9eff23e729228dbd38f5c6ba0c159ce6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3da0b8897d4d99b4fb0c",
+    "workId": "3da0b8897d4d99b4fb0c",
+    "driveFileId": "1IgP6oSNT0hM4HsyqBGVBsDQD2JKUMRa9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:44:18.775487+00:00",
+    "updatedAt": "2026-09-22T19:44:18.775503+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:44:18.775718+00:00"
+    }
+  }
+}
