@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "슬픈 사이프러스",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "법정",
+      "살인",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 법정 추리 소설입니다.",
+    "oneLineSummary": "살인 혐의로 기소된 엘리너 칼라일의 사건을 다룹니다.",
+    "overallSummary": "메리 제라드를 살해한 혐의로 기소된 엘리너 칼라일의 재판과 그 진실을 파헤치는 과정입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "법정",
+        "summary": "엘리너 칼라일이 살인 혐의로 재판을 받습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "법정 드라마 형식"
+      }
+    ],
+    "keyEntitiesText": "엘리너 칼라일, 메리 제라드, 에르퀼 푸아로",
+    "settingText": "영국 법정"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AIhwkyUtTlmsYAJrHt7fo064JZQHNBEU",
+    "filename": "애거서 크리스티-슬픈 사이프러스(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.047Z",
+    "size": "420324",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1AIhwkyUtTlmsYAJrHt7fo064JZQHNBEU/view?usp=drivesdk",
+    "sourceSha256": "d07ada808516abfc3629fab26f954ad75712b139a0cdb7b19c33654f8e884776",
+    "textSha256": "da9c9f339259d24345ac7f0175ad346ed8d99e2c511c79e26b7ca1240b329966",
+    "changeKey": "0630037a06652594944ad23d471945b0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e9681d642bab0af174e9",
+    "workId": "e9681d642bab0af174e9",
+    "driveFileId": "1AIhwkyUtTlmsYAJrHt7fo064JZQHNBEU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:59:54.604925+00:00",
+    "updatedAt": "2026-09-22T06:59:54.604941+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:59:54.605067+00:00"
+    }
+  }
+}

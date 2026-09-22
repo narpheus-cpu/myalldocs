@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오리엔트 특급 살인",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "푸아로",
+      "기차",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "에르퀼 푸아로 시리즈의 최고 걸작입니다.",
+    "oneLineSummary": "오리엔트 특급 열차 안에서 벌어진 살인 사건을 푸아로가 해결합니다.",
+    "overallSummary": "폭설로 멈춘 오리엔트 특급 열차 안에서 살인 사건이 발생하고 푸아로가 범인을 찾아냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "타우루스 특급의 중요한 손님",
+        "summary": "푸아로가 타우루스 특급을 타고 이스탄불로 향합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "밀실 살인 사건"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 메리 더벤햄, 아르버스넛 대령",
+    "settingText": "오리엔트 특급 열차"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nH8gwsy-huxa8tvkRQ9jA8Z-gi190ooW",
+    "filename": "애거서 크리스티-오리엔트 특급 살인(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.335Z",
+    "size": "442133",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1nH8gwsy-huxa8tvkRQ9jA8Z-gi190ooW/view?usp=drivesdk",
+    "sourceSha256": "f6f762fd8d90824e0c9c90b5cf5718cc282b89457aefb607aa7b56232f1ccc9c",
+    "textSha256": "9a38888d00d9b3305cd45b4ff841da58db229e0e41e26fdef2d4b2e64249cbf6",
+    "changeKey": "c55a0ea73ea0e485c096b84567b86ae7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "78c764c5674989e17083",
+    "workId": "78c764c5674989e17083",
+    "driveFileId": "1nH8gwsy-huxa8tvkRQ9jA8Z-gi190ooW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:00:51.382615+00:00",
+    "updatedAt": "2026-09-22T07:00:51.382631+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:00:51.382723+00:00"
+    }
+  }
+}

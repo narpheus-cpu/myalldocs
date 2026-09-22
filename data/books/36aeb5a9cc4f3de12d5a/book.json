@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "열세 가지 수수께끼",
+    "author": "애거서 크리스티",
+    "genre": "단편집",
+    "tags": [
+      "미스 마플",
+      "수수께끼",
+      "단편"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_stories",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미스 마플이 등장하는 단편집입니다.",
+    "oneLineSummary": "화요일 밤 모임에서 사람들이 내놓는 수수께끼를 마플 양이 해결합니다.",
+    "overallSummary": "화요일 밤 모임에 모인 사람들이 각자 알고 있는 미스터리를 이야기하고 마플 양이 이를 해결하는 형식입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "화요일 밤 모임",
+        "summary": "사람들이 모여 풀리지 않는 수수께끼를 이야기하기 시작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "탐정",
+        "value": "미스 마플"
+      }
+    ],
+    "keyEntitiesText": "미스 마플, 레이먼드 웨스트, 헨리 클리서링 경",
+    "settingText": "마플 양의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1C-_DfmJdWRMK5P-n-f39yava4hhfjHp5",
+    "filename": "애거서 크리스티-열세 가지 수수께끼(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.242Z",
+    "size": "481140",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1C-_DfmJdWRMK5P-n-f39yava4hhfjHp5/view?usp=drivesdk",
+    "sourceSha256": "57f6e82f4b7cf6cdc0d0ca05c1a0fe4c5102fa5530969e40fbd992f95db49248",
+    "textSha256": "79532922c49c193f4dd93d5463152ec5bee275c4f0d1bf9b2b8bedb3c10060cc",
+    "changeKey": "06c1b61b7a9dea7a61650ee325177873",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "36aeb5a9cc4f3de12d5a",
+    "workId": "36aeb5a9cc4f3de12d5a",
+    "driveFileId": "1C-_DfmJdWRMK5P-n-f39yava4hhfjHp5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:00:45.695664+00:00",
+    "updatedAt": "2026-09-22T07:00:45.695681+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:00:45.695771+00:00"
+    }
+  }
+}

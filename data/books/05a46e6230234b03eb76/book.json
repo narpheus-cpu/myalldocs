@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세 번째 여인",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "푸아로",
+      "살인",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "에르퀼 푸아로가 등장하는 추리 소설입니다.",
+    "oneLineSummary": "살인을 저질렀을지도 모른다는 여자의 고백으로 시작되는 사건입니다.",
+    "overallSummary": "자신이 살인을 저질렀을지도 모른다고 고백한 여자의 사건을 푸아로가 해결합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "방문객",
+        "summary": "한 젊은 여자가 푸아로를 찾아와 살인을 저질렀을지도 모른다고 고백합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "탐정",
+        "value": "에르퀼 푸아로"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 조지, 올리버 부인",
+    "settingText": "런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nb2ijLlGp4I36tTxc48QRpQCV8Et5cif",
+    "filename": "애거서 크리스티-세 번째 여인(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.967Z",
+    "size": "570319",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1nb2ijLlGp4I36tTxc48QRpQCV8Et5cif/view?usp=drivesdk",
+    "sourceSha256": "65b9eee20e7dad17da6b032e97645aea3cb637b1ab83c59a9eb806773878f865",
+    "textSha256": "2e2b4385327dab415e2e9d97a574a11dda99df3a008f58c2eff4b17d4e3f3902",
+    "changeKey": "6064656c48de70d9ff9f2c1fccced9a4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "05a46e6230234b03eb76",
+    "workId": "05a46e6230234b03eb76",
+    "driveFileId": "1nb2ijLlGp4I36tTxc48QRpQCV8Et5cif",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:59:35.259047+00:00",
+    "updatedAt": "2026-09-22T06:59:35.259063+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:59:35.259158+00:00"
+    }
+  }
+}

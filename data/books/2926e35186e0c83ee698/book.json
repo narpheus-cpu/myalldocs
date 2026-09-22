@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "엄지손가락의 아픔",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "토미와 터펜스",
+      "미스터리",
+      "노인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "토미와 터펜스 부부가 등장하는 작품입니다.",
+    "oneLineSummary": "에이다 이모의 양로원에서 벌어지는 미스터리를 해결합니다.",
+    "overallSummary": "토미와 터펜스 부부가 에이다 이모가 머무는 양로원에서 벌어지는 기묘한 사건을 조사합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사고",
+        "summary": "토미와 터펜스 부부가 에이다 이모의 문제를 고민합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "탐정",
+        "value": "토미와 터펜스 부부"
+      }
+    ],
+    "keyEntitiesText": "토미 베레스퍼드, 터펜스 베레스퍼드, 에이다 이모",
+    "settingText": "양지바른 언덕 양로원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1w6pn3DZ0Z-f1qY4wGRpxBFfRmGjLnDf3",
+    "filename": "애거서 크리스티-엄지손가락의 아픔(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.182Z",
+    "size": "517997",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1w6pn3DZ0Z-f1qY4wGRpxBFfRmGjLnDf3/view?usp=drivesdk",
+    "sourceSha256": "c633d3195b9286a42e74a968ed540f019c9c14dc71845d92983f02e2520e7fe3",
+    "textSha256": "f83601eb965bed5126d3a2564350525f40146bf81866ee915014ade1d494897b",
+    "changeKey": "c819bd07bb975733ea0bba25f972db30",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2926e35186e0c83ee698",
+    "workId": "2926e35186e0c83ee698",
+    "driveFileId": "1w6pn3DZ0Z-f1qY4wGRpxBFfRmGjLnDf3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:00:27.206655+00:00",
+    "updatedAt": "2026-09-22T07:00:27.206672+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:00:27.206765+00:00"
+    }
+  }
+}

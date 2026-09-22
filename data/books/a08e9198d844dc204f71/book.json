@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세븐 다이얼스 미스터리",
+    "author": "애거서 크리스티",
+    "genre": "스릴러",
+    "tags": [
+      "비밀결사",
+      "스릴러",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 초기 스릴러 작품입니다.",
+    "oneLineSummary": "침니스 저택에서 벌어지는 비밀 결사와 살인 사건을 다룹니다.",
+    "overallSummary": "침니스 저택에서 일어난 의문의 죽음과 그 뒤에 숨겨진 비밀 결사 세븐 다이얼스의 정체를 밝히는 이야기입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "침니스 저택의 사건",
+        "summary": "지미 세시저가 침니스 저택에서 벌어진 사건에 휘말립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "고전 스릴러"
+      }
+    ],
+    "keyEntitiesText": "지미 세시저, 트레드웰, 레이디 쿠트",
+    "settingText": "침니스 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sqtejyxbOOYOzzQAf7i98OzIAIsCHSQM",
+    "filename": "애거서 크리스티-세븐 다이얼스 미스터리(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.987Z",
+    "size": "498086",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1sqtejyxbOOYOzzQAf7i98OzIAIsCHSQM/view?usp=drivesdk",
+    "sourceSha256": "d100a89ac9fa66bfde927b6d9fefb71dfd5715e1ccc4770137fe21dcca40fc10",
+    "textSha256": "08f205b6c005bd860a3f286773b5cccad3bff2e18fe52ccd9486550bbf8b0cfe",
+    "changeKey": "8c43c49eafad4d059733f694ad113dc0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a08e9198d844dc204f71",
+    "workId": "a08e9198d844dc204f71",
+    "driveFileId": "1sqtejyxbOOYOzzQAf7i98OzIAIsCHSQM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:59:41.320278+00:00",
+    "updatedAt": "2026-09-22T06:59:41.320294+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:59:41.320389+00:00"
+    }
+  }
+}

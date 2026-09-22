@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "엔드하우스의 비극",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "푸아로",
+      "살인 미수",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "에르퀼 푸아로가 등장하는 미스터리 소설입니다.",
+    "oneLineSummary": "닉 버클리를 노리는 살인 미수 사건을 푸아로가 해결합니다.",
+    "overallSummary": "닉 버클리에게 벌어지는 살인 미수 사건을 푸아로가 조사하며 진실을 밝혀냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머제스틱 호텔",
+        "summary": "푸아로와 헤이스팅스가 머제스틱 호텔에서 닉 버클리를 만납니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "탐정",
+        "value": "에르퀼 푸아로"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 닉 버클리, 헤이스팅스",
+    "settingText": "세인트루"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16nuZpdCiVyKkbsDa430Peyx8ZEfgXlDV",
+    "filename": "애거서 크리스티-엔드하우스의 비극(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.226Z",
+    "size": "393750",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/16nuZpdCiVyKkbsDa430Peyx8ZEfgXlDV/view?usp=drivesdk",
+    "sourceSha256": "615205e2113978def3926d7e5b586d97092791fe0fe0fc8ab1bf114144a130a7",
+    "textSha256": "24262f03a50239660881bd31300d18bdecebbfabe02781045d0de1854c0cc927",
+    "changeKey": "5f8c93318676bf423b0fd6d6d7009d4d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a4eb2b9d03e6461d9be0",
+    "workId": "a4eb2b9d03e6461d9be0",
+    "driveFileId": "16nuZpdCiVyKkbsDa430Peyx8ZEfgXlDV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:00:39.303465+00:00",
+    "updatedAt": "2026-09-22T07:00:39.303482+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:00:39.303576+00:00"
+    }
+  }
+}

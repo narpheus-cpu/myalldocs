@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "빛나는 청산가리",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "미스터리",
+      "가족",
+      "유산",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 추리 소설 작가로, 전 세계적으로 가장 많이 팔린 소설을 쓴 작가 중 한 명입니다.",
+    "oneLineSummary": "언니의 죽음 이후 유산을 둘러싼 의문과 숨겨진 진실을 파헤치는 이야기입니다.",
+    "overallSummary": "로즈메리의 자살로 여겨졌던 죽음 뒤에 숨겨진 진실을 동생 아이리스가 파헤치며, 가족 간의 갈등과 유산 상속 문제를 다룬 심리 추리물입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "과거의 기억",
+        "summary": "아이리스는 언니 로즈메리의 죽음을 회상하며 과거를 되짚어봅니다."
+      },
+      {
+        "sectionTitle": "편지의 발견",
+        "summary": "로즈메리가 죽기 전 쓴 편지를 발견하며 자살 동기에 의문을 품게 됩니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "추리 요소",
+        "value": "유언장과 편지를 통한 동기 추적"
+      }
+    ],
+    "keyEntitiesText": "아이리스 말, 로즈메리, 조지 바턴, 폴 베넷",
+    "settingText": "영국 엘바스턴 스퀘어의 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OttQ6W9avUgkYxOff0pkhZQZipiLFNB-",
+    "filename": "애거서 크리스티-빛나는 청산가리(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.878Z",
+    "size": "514057",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1OttQ6W9avUgkYxOff0pkhZQZipiLFNB-/view?usp=drivesdk",
+    "sourceSha256": "3ce309cfeab9d9587857e3b020145000fe232882aa3f780176f21c53df63fee3",
+    "textSha256": "1f701a5a5ee189d7900e01173e9762596343aae0f08945a0037f42d59f0fc2e5",
+    "changeKey": "b35bead6789ff3b1e98b78b745d4c14d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a92af1901ae2b693e9cf",
+    "workId": "a92af1901ae2b693e9cf",
+    "driveFileId": "1OttQ6W9avUgkYxOff0pkhZQZipiLFNB-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:59:07.966234+00:00",
+    "updatedAt": "2026-09-22T06:59:07.966251+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:59:07.966434+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "빛이 있는 동안",
+    "author": "애거서 크리스티",
+    "genre": "단편집",
+    "tags": [
+      "단편",
+      "미스터리",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_stories"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "추리의 여왕이라 불리는 애거서 크리스티의 단편집입니다.",
+    "oneLineSummary": "다양한 미스터리와 심리적 긴장감을 담은 아홉 편의 단편 모음집입니다.",
+    "overallSummary": "푸아로가 등장하는 작품부터 초자연적인 정취가 깃든 작품까지, 작가 특유의 스타일이 돋보이는 단편들을 수록했습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "꿈의 집",
+        "summary": "존 시그레이브의 불만족스러운 삶과 꿈, 그리고 죽음에 관한 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "심리 소설과 초자연적 요소의 결합"
+      }
+    ],
+    "keyEntitiesText": "존 시그레이브, 메이지 웨터맨, 앨러그라 케어",
+    "settingText": "19세기 영국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16m6GFF5FTwlypn_Ue_k529_O0-Q_jO2h",
+    "filename": "애거서 크리스티-빛이 있는 동안(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.897Z",
+    "size": "398541",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/16m6GFF5FTwlypn_Ue_k529_O0-Q_jO2h/view?usp=drivesdk",
+    "sourceSha256": "bb63a81f7abb27b76259b87e0fe4e545e30e04a2323dd061fcab7ba06adf0e0d",
+    "textSha256": "2f42a50729da0ec70f530fcfe0b7963bf75993403db5dc701a12b174f51a7a6f",
+    "changeKey": "f860c07cd75e7b9e790f8d0b5dad41d6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "903baa7322622c0c0db9",
+    "workId": "903baa7322622c0c0db9",
+    "driveFileId": "16m6GFF5FTwlypn_Ue_k529_O0-Q_jO2h",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:59:14.115398+00:00",
+    "updatedAt": "2026-09-22T06:59:14.115414+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:59:14.115511+00:00"
+    }
+  }
+}

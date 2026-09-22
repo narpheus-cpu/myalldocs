@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "왜 에번스를 부르지 않았지?",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "미스터리",
+      "모험",
+      "유언"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 모험 미스터리 소설입니다.",
+    "oneLineSummary": "죽어가는 남자가 남긴 마지막 질문의 의미를 파헤치는 이야기입니다.",
+    "overallSummary": "벼랑에서 떨어진 남자가 남긴 마지막 질문을 들은 보비 존스가 그 의미를 찾아 나섭니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사고",
+        "summary": "보비 존스가 골프를 치다 벼랑에서 떨어진 남자를 발견합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 소재",
+        "value": "마지막 유언"
+      }
+    ],
+    "keyEntitiesText": "보비 존스, 토머스 박사, 에번스",
+    "settingText": "마치볼트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RYboJgyvRJFeyNndg38fEonjQa8yJvvP",
+    "filename": "애거서 크리스티-왜 에번스를 부르지 않았지_(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.357Z",
+    "size": "482705",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1RYboJgyvRJFeyNndg38fEonjQa8yJvvP/view?usp=drivesdk",
+    "sourceSha256": "aa929fa725b9d46cd3f38a6dcd4b07700490e17a3f12ae37187f518cde23881a",
+    "textSha256": "99db7270b1cae46c440ab1c89a9491c40608492b2585dea5373351d42a875b8d",
+    "changeKey": "9e888b5de25f7d8b00ef76d753d18dfe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3a49c7b13743d1ce7bb8",
+    "workId": "3a49c7b13743d1ce7bb8",
+    "driveFileId": "1RYboJgyvRJFeyNndg38fEonjQa8yJvvP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:00:57.449185+00:00",
+    "updatedAt": "2026-09-22T07:00:57.449201+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:00:57.449297+00:00"
+    }
+  }
+}

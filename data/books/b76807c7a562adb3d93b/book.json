@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스타일스 저택의 괴사건",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "푸아로",
+      "데뷔작",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 데뷔작이자 푸아로가 처음 등장하는 작품입니다.",
+    "oneLineSummary": "스타일스 저택에서 벌어진 독살 사건을 푸아로가 해결합니다.",
+    "overallSummary": "스타일스 저택의 여주인이 독살당하자 푸아로가 사건의 진상을 밝혀냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "스타일스 저택으로",
+        "summary": "헤이스팅스가 친구 존의 초대로 스타일스 저택에 머물게 됩니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "의의",
+        "value": "푸아로의 첫 등장"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 헤이스팅스, 존 캐번디시",
+    "settingText": "스타일스 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1a7LuTQsv3TSwR-g2IRdp2-GOFNsWgku4",
+    "filename": "애거서 크리스티-스타일스 저택의 괴사건(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.029Z",
+    "size": "470012",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1a7LuTQsv3TSwR-g2IRdp2-GOFNsWgku4/view?usp=drivesdk",
+    "sourceSha256": "4ded69188d84596239135ea194a54f50c793510ce2ad0755c60a98612e72fbef",
+    "textSha256": "507f46cd15633067831e7156772add8b372ecfefd015d4f2fc0c2b72ef6290c4",
+    "changeKey": "c5bc6aaf389602e4c8504876d058e85f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b76807c7a562adb3d93b",
+    "workId": "b76807c7a562adb3d93b",
+    "driveFileId": "1a7LuTQsv3TSwR-g2IRdp2-GOFNsWgku4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:59:47.159895+00:00",
+    "updatedAt": "2026-09-22T06:59:47.159912+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:59:47.160033+00:00"
+    }
+  }
+}

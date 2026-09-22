@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서재의 시체",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "미스 마플",
+      "서재",
+      "시체"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 미스 마플 시리즈입니다.",
+    "oneLineSummary": "밴트리 대령의 서재에서 발견된 시체의 정체를 밝히는 이야기입니다.",
+    "overallSummary": "밴트리 대령의 서재에서 낯선 여자의 시체가 발견되자 미스 마플이 사건을 해결합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서재의 시체 발견",
+        "summary": "밴트리 부인이 서재에서 시체를 발견하고 미스 마플에게 도움을 청합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "고전적인 서재 살인 사건"
+      }
+    ],
+    "keyEntitiesText": "미스 마플, 밴트리 부인, 밴트리 대령",
+    "settingText": "가싱턴 홀"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OgAl_dr0WEAjLe6WOgp01GGMlslF9_8t",
+    "filename": "애거서 크리스티-서재의 시체(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.949Z",
+    "size": "408184",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1OgAl_dr0WEAjLe6WOgp01GGMlslF9_8t/view?usp=drivesdk",
+    "sourceSha256": "656b49466f5478469b4fac3f4fb90a28a641b34118996e1a77f2bf601508c633",
+    "textSha256": "9285e42ed6daae795edcc4d6d4389d3617f81e07fce68a57bf78513eff91c19b",
+    "changeKey": "96dc577f2cb5cddd251de8cff5e2576b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1174c50cb92854bc054b",
+    "workId": "1174c50cb92854bc054b",
+    "driveFileId": "1OgAl_dr0WEAjLe6WOgp01GGMlslF9_8t",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:59:28.786477+00:00",
+    "updatedAt": "2026-09-22T06:59:28.786493+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:59:28.786590+00:00"
+    }
+  }
+}

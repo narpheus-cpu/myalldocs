@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신비의 사나이 할리 퀸",
+    "author": "애거서 크리스티",
+    "genre": "단편집",
+    "tags": [
+      "할리 퀸",
+      "미스터리",
+      "단편"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_stories",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "신비로운 인물 할리 퀸이 등장하는 단편집입니다.",
+    "oneLineSummary": "신비로운 사나이 할리 퀸이 사건을 해결하는 이야기들입니다.",
+    "overallSummary": "새터스웨이트 씨와 함께 사건의 진실을 파헤치는 신비로운 인물 할리 퀸의 이야기입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "퀸의 방문",
+        "summary": "새터스웨이트 씨가 할리 퀸을 만나 사건을 해결합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "탐정",
+        "value": "할리 퀸"
+      }
+    ],
+    "keyEntitiesText": "할리 퀸, 새터스웨이트 씨",
+    "settingText": "영국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11V8BUnMk7PfCM_ol2TUia6br08kTHYuj",
+    "filename": "애거서 크리스티-신비의 사나이 할리 퀸(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.121Z",
+    "size": "641005",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/11V8BUnMk7PfCM_ol2TUia6br08kTHYuj/view?usp=drivesdk",
+    "sourceSha256": "5fda28ca32a0e8836858cb475fc6d3e30c819d47ad83f2f225272f8f3d958e76",
+    "textSha256": "aaf9ddfba6575f84d2037968feb55ba0c996591e57937cadfde59db921efdf50",
+    "changeKey": "9b5ddf56d6dab6ff7abbdf9aa63b0dae",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8cb54e4c03576604d2ce",
+    "workId": "8cb54e4c03576604d2ce",
+    "driveFileId": "11V8BUnMk7PfCM_ol2TUia6br08kTHYuj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:00:13.829964+00:00",
+    "updatedAt": "2026-09-22T07:00:13.829979+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:00:13.830112+00:00"
+    }
+  }
+}

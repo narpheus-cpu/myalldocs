@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살인은 쉽다",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "미스터리",
+      "연쇄살인",
+      "탐정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 추리 소설 작가 애거서 크리스티의 작품입니다.",
+    "oneLineSummary": "시골 마을에서 벌어지는 연쇄 살인 사건을 해결하는 이야기입니다.",
+    "overallSummary": "기차에서 만난 노부인으로부터 마을의 연쇄 살인에 대해 듣게 된 루크 피츠윌리엄이 사건의 진상을 파헤칩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "여행 중의 만남",
+        "summary": "루크는 기차에서 핀커튼 부인을 만나 마을의 살인 사건에 대해 듣습니다."
+      },
+      {
+        "sectionTitle": "부고",
+        "summary": "핀커튼 부인이 사고로 죽었다는 소식을 듣고 루크는 사건을 조사하기 시작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 소재",
+        "value": "연쇄 살인과 목격자의 증언"
+      }
+    ],
+    "keyEntitiesText": "루크 피츠윌리엄, 핀커튼 부인, 지미 로리머",
+    "settingText": "영국 위치우드 언더 애쉬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Zl-s7Ypf9ML1rtg6g-DToQqE4JDVwy0c",
+    "filename": "애거서 크리스티-살인은 쉽다(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.911Z",
+    "size": "452765",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1Zl-s7Ypf9ML1rtg6g-DToQqE4JDVwy0c/view?usp=drivesdk",
+    "sourceSha256": "31d94992f9f36bd3096af44c96cd52d46384d25927059c74a2de6e82ed933a96",
+    "textSha256": "ed005f4fe3afc9768a8954d2dc2488a48d51ea4809e5a3e3d37ca35d354379a7",
+    "changeKey": "473ad4cccc3296b503873eb63b3ad348",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "45982462f550c4f98b3b",
+    "workId": "45982462f550c4f98b3b",
+    "driveFileId": "1Zl-s7Ypf9ML1rtg6g-DToQqE4JDVwy0c",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:59:20.569529+00:00",
+    "updatedAt": "2026-09-22T06:59:20.569545+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:59:20.569643+00:00"
+    }
+  }
+}

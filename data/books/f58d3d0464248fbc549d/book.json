@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시태퍼드 미스터리",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "눈",
+      "살인",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 고립된 마을 살인 사건입니다.",
+    "oneLineSummary": "눈에 파묻힌 마을에서 벌어지는 살인 사건을 다룹니다.",
+    "overallSummary": "폭설로 고립된 시태퍼드 마을에서 살인 사건이 발생하고 이를 해결하는 과정입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "폭설",
+        "summary": "폭설로 마을이 고립되고 살인 사건이 발생합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "환경",
+        "value": "폭설로 인한 고립"
+      }
+    ],
+    "keyEntitiesText": "버너비 소령, 윌렛 부인, 트리벨리언 대령",
+    "settingText": "시태퍼드 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "106XHwwiIC3vrf1J8RsjG5PyrKb5YzsGl",
+    "filename": "애거서 크리스티-시태퍼드 미스터리(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.088Z",
+    "size": "496094",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/106XHwwiIC3vrf1J8RsjG5PyrKb5YzsGl/view?usp=drivesdk",
+    "sourceSha256": "af4e9afbc670d05793055383a21a77ca9c5d87ff77c8bfb331afe942065d3d5b",
+    "textSha256": "b7de88a86e958a363930ec3de414373a0482f9bd3ef77fc5caae6bf11db78eae",
+    "changeKey": "03ddd4f760c7ad785343faec962951de",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f58d3d0464248fbc549d",
+    "workId": "f58d3d0464248fbc549d",
+    "driveFileId": "106XHwwiIC3vrf1J8RsjG5PyrKb5YzsGl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:00:06.743214+00:00",
+    "updatedAt": "2026-09-22T07:00:06.743231+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:00:06.743323+00:00"
+    }
+  }
+}

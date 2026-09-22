@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "창백한 말",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "독살",
+      "미스터리",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 독특한 미스터리 소설입니다.",
+    "oneLineSummary": "독살 사건과 관련된 기묘한 저택의 비밀을 파헤칩니다.",
+    "overallSummary": "창백한 말이라 불리는 저택과 관련된 독살 사건의 진실을 마크 이스터브룩이 밝혀냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "마크 이스터브룩의 이야기",
+        "summary": "마크 이스터브룩이 사건의 시작을 서술합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 소재",
+        "value": "독살과 심리적 미스터리"
+      }
+    ],
+    "keyEntitiesText": "마크 이스터브룩, 고먼 신부, 토마시나 터커튼",
+    "settingText": "첼시 및 창백한 말 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qYhblmQE2S7hMLONG4rIu2OlqN4-1_ax",
+    "filename": "애거서 크리스티-애거서크리스티전집19[창백한 말](황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.143Z",
+    "size": "501309",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1qYhblmQE2S7hMLONG4rIu2OlqN4-1_ax/view?usp=drivesdk",
+    "sourceSha256": "88ca5d926263082aafb7d05f84444c197b22cb60a7de23232f11088f72e0fd9c",
+    "textSha256": "c7d91f34964edacc794e9f138f8785820f1690ddad7939ff3a02c44415691342",
+    "changeKey": "2678ecca35a3121e91afab66930eec56",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "095602a890a993295037",
+    "workId": "095602a890a993295037",
+    "driveFileId": "1qYhblmQE2S7hMLONG4rIu2OlqN4-1_ax",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:00:20.038201+00:00",
+    "updatedAt": "2026-09-22T07:00:20.038218+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:00:20.038308+00:00"
+    }
+  }
+}

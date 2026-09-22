@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에지웨어 경의 죽음",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "푸아로",
+      "살인",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "에르퀼 푸아로가 등장하는 추리 소설입니다.",
+    "oneLineSummary": "에지웨어 경의 죽음과 관련된 사건을 푸아로가 해결합니다.",
+    "overallSummary": "에지웨어 경이 살해당하자 푸아로가 사건의 진상을 밝혀냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "연극적인 파티",
+        "summary": "칼로타 애덤스의 연극 공연과 사건의 시작을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "탐정",
+        "value": "에르퀼 푸아로"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 에지웨어 경, 제인 윌킨슨",
+    "settingText": "런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pcL8O5BBN7mY43HaTVdnHD9SIdPTiCwa",
+    "filename": "애거서 크리스티-에지웨어 경의 죽음(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.200Z",
+    "size": "515399",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1pcL8O5BBN7mY43HaTVdnHD9SIdPTiCwa/view?usp=drivesdk",
+    "sourceSha256": "f831e45ff53afa5e25d09bf4b1e010a02d2d5e8e6ba9b4372599468060d38d3f",
+    "textSha256": "38aa54a180e309a4f2e16d49a4995f9b40e657dad3be273ebc688d5c605b35f2",
+    "changeKey": "b43c553d976c8e95d54be4e46f51ebf7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0049eccb0b80271b40fd",
+    "workId": "0049eccb0b80271b40fd",
+    "driveFileId": "1pcL8O5BBN7mY43HaTVdnHD9SIdPTiCwa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:00:33.523328+00:00",
+    "updatedAt": "2026-09-22T07:00:33.523344+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:00:33.523437+00:00"
+    }
+  }
+}
