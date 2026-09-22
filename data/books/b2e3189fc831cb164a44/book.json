@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그루터기 외",
+    "author": "윌리암 J 버넷트",
+    "genre": "소설",
+    "tags": [
+      "인디언 전설",
+      "단편",
+      "동화적 교훈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "folk_tale",
+        "allegory"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "윌리암 J 버넷트는 인간의 삶과 도덕적 교훈을 담은 다양한 단편소설을 집필한 작가이다.",
+    "oneLineSummary": "인디언 신화와 소년들의 일상을 통해 진실함과 정직함의 가치를 전하는 단편 모음.",
+    "overallSummary": "보이지 않는 강한 바람의 전설과 마음씨 착한 막내딸의 이야기, 어머니가 만든 모자를 자랑스럽게 여기는 소년 언더스의 모험, 그리고 렘이라는 소년의 고난과 성실함을 다룬 이야기들을 통해 진정한 가치와 정직의 중요성을 일깨운다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그루터기",
+        "summary": "투명 인간 능력을 지닌 전사와 거짓말을 일삼는 언니들 사이에서 진실만을 말해 그와 결혼하게 된 추장의 막내딸 이야기."
+      },
+      {
+        "sectionTitle": "어머니가 만든 모자",
+        "summary": "어머니가 손수 만들어준 빨간 모자를 세상 그 무엇과도 바꾸지 않으려는 소년 언더스의 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "moral",
+        "value": "정직함과 순수한 마음이 가져다주는 보상과 행복"
+      }
+    ],
+    "keyEntitiesText": "눈에 보이지 않는 강한 바람, 추장의 막내딸, 언더스, 렘 워렌",
+    "settingText": "대서양 해변의 인디언 마을 및 평화로운 시골 산골 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1mszNccZUwI9B4DwtFXihR4cnC4D2Q6KT",
+    "filename": "윌리암 J 버넷트-그루터기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.675Z",
+    "size": "225173",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1mszNccZUwI9B4DwtFXihR4cnC4D2Q6KT/view?usp=drivesdk",
+    "sourceSha256": "580e03b23f67b5ddfe97f9c1ba6a4bae3668c5cf5115fbc7581d99df75ed5384",
+    "textSha256": "c9ed59600ec56767a061e3ff81cb7a5417dcdce8a86f67c151fb807ab93d78ad",
+    "changeKey": "6ad8b018c037800d1e164b8efb178c7b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b2e3189fc831cb164a44",
+    "workId": "b2e3189fc831cb164a44",
+    "driveFileId": "1mszNccZUwI9B4DwtFXihR4cnC4D2Q6KT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:38:58.593950+00:00",
+    "updatedAt": "2026-09-22T01:38:58.593968+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.59,
+      "updatedAt": "2026-09-22T01:38:58.594045+00:00"
+    }
+  }
+}

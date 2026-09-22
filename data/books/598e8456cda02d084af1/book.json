@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잠수복과 나비",
+    "author": "장 도미니크 보비",
+    "genre": "에세이/산문",
+    "tags": [
+      "회고록",
+      "로크드인 신드롬",
+      "불굴의 의지",
+      "베스트셀러"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "memoir",
+        "inspirational"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "장 도미니크 보비는 저명한 저널리스트이자 엘르지 편집장으로 활약하다 갑작스런 뇌졸중으로 전신 마비가 된 후 이 불멸의 수기를 남겼다.",
+    "oneLineSummary": "갑작스러운 뇌졸중으로 전신이 마비된 저자가 오직 왼쪽 눈꺼풀의 깜박임만으로 써 내려간 감동적인 영혼의 기록.",
+    "overallSummary": "화려한 저널리스트로 살아가던 저자는 갑작스러운 뇌졸중으로 쓰러져 온몸이 갇히는 '로크드 인 신드롬' 진단을 받는다. 잠수복처럼 짓누르는 육체의 감옥 속에서 그는 오직 왼쪽 눈꺼풀을 20만 번 이상 깜박이며 가족과 추억, 삶의 소중함을 나비처럼 자유로운 상상력으로 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책 머리에",
+        "summary": "새벽의 병실 풍경 속에서 잠수복 같은 갑갑한 육체의 고통을 느끼며, 자유로운 나비처럼 상상의 나래를 펴는 저자의 다짐."
+      },
+      {
+        "sectionTitle": "바퀴 의자와 알파벳",
+        "summary": "바퀴 의자에 처음 앉으며 느낀 충격과 절망, 그리고 유일한 의사소통 수단인 알파벳표를 통해 글을 완성해가는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "significance",
+        "value": "신체적 감금 속에서도 정신의 자유와 삶의 환희를 증명하는 문학적 승리"
+      }
+    ],
+    "keyEntitiesText": "장 도미니크 보비, 테오필, 셀레스트, 브리지트",
+    "settingText": "프랑스 베르크 해양병원 병실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YIcuTKy0ui8QD_aYk7Q48oqLaUYjYAcW",
+    "filename": "장 도미니크 보비-잠수복과 나비.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.968Z",
+    "size": "116840",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1YIcuTKy0ui8QD_aYk7Q48oqLaUYjYAcW/view?usp=drivesdk",
+    "sourceSha256": "f98ec28cc50230aba50a915efab8064071e6a52029a702f84ffa2a754f71257a",
+    "textSha256": "2a8349229c954392c2541472cd97249ff95f3d7e6032494139101e6c9418f817",
+    "changeKey": "6cf41802c12c2d75322c682b13e82cbf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "598e8456cda02d084af1",
+    "workId": "598e8456cda02d084af1",
+    "driveFileId": "1YIcuTKy0ui8QD_aYk7Q48oqLaUYjYAcW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:42:33.005224+00:00",
+    "updatedAt": "2026-09-22T01:42:33.005243+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:42:33.005322+00:00"
+    }
+  }
+}

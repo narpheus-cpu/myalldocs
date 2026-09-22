@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "윔피 키드 1: 학교생활 일기",
+    "author": "제프 키니",
+    "genre": "소설",
+    "tags": [
+      "어린이 소설",
+      "학교생활",
+      "일기",
+      "성장기"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "humor",
+        "children_YA"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "제프 키니는 전 세계 어린이들에게 큰 사랑을 받는 작가이자 일러스트레이터로 '윔피 키드' 시리즈를 통해 유쾌한 학창 시절을 그려낸다.",
+    "oneLineSummary": "중학교에 진학한 평범하고 엉뚱한 소년 그레그가 겪는 좌충우돌 학교생활과 일상을 담은 기록.",
+    "overallSummary": "형의 장난과 부모님의 잔소리, 학교에서의 인기 순위 경쟁 속에서 하루하루를 버텨나가는 그레그는 나중에 부자가 되고 유명해질 것을 대비해 툴툴거리면서도 일기장을 채워간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "개학 첫날과 학교생활",
+        "summary": "중학교에 입학한 그레그가 자리 배치에 신경 쓰며 겪는 시행착오와 학교 내 인기 순위의 냉혹한 현실을 고백한다."
+      },
+      {
+        "sectionTitle": "치즈 터치와 형의 장난",
+        "summary": "농구 코트에 방치된 곰 피어난 치즈를 둘러싼 공포의 '치즈 터치' 놀이와 로드릭 형의 짓궂은 장난에 속아 넘어간 일화가 소개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "format",
+        "value": "손글씨 형태의 텍스트와 만화 일러스트가 결합된 독특한 일기 형식"
+      }
+    ],
+    "keyEntitiesText": "그레그 헤플리, 롤리, 로드릭 형, 매니",
+    "settingText": "미국의 평범한 중학교와 그레그의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nBYn2853d7VEPKYItnJRzx144sXSib82",
+    "filename": "[학교]기타-.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:16.547Z",
+    "size": "5465267",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1nBYn2853d7VEPKYItnJRzx144sXSib82/view?usp=drivesdk",
+    "sourceSha256": "f0b5a02c38064db6494611daf0eadc2e14052d7d1230dca3061a57f3544cee1e",
+    "textSha256": "e784b38d39534b95baf86a4804f81b5f184f440107bba477324063ad83b15f93",
+    "changeKey": "746e5d8e5cea946363fbcc8a5a81b004",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4f87a65d1d523b2ccf47",
+    "workId": "4f87a65d1d523b2ccf47",
+    "driveFileId": "1nBYn2853d7VEPKYItnJRzx144sXSib82",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:39:26.030865+00:00",
+    "updatedAt": "2026-09-22T01:39:26.030883+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.328,
+      "updatedAt": "2026-09-22T01:39:26.030962+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "삼십세",
+    "author": "잉게보르크 바하만",
+    "genre": "소설",
+    "tags": [
+      "오스트리아",
+      "실존주의",
+      "30세",
+      "자아탐구"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophical",
+        "psychological"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "잉게보르크 바하만은 전후 독일어권 문단에서 언어와 철학의 깊이를 담은 작품으로 독보적인 위치를 차지한 오스트리아 작가이다.",
+    "oneLineSummary": "서른 살 문턱에 이르러 지금까지의 삶과 가능성이 무너지는 것을 경험하며 진정한 자아를 찾아나서는 한 남자의 이야기.",
+    "overallSummary": "주인공은 서른 살 생일을 맞이하기까지 무수한 가능성을 품고 유희처럼 살아왔던 자신의 삶이 거대한 함정이었음을 깨닫는다. 로마로 도피하여 과거의 인물인 몰과 엘레나를 재회하며 타인의 시선과 거짓 친구들의 그물망 속에서 질식해가는 자아를 마주하고, 새로운 인식과 비상을 위한 고통스러운 통과의례를 겪는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "삼십세 본문",
+        "summary": "서른 살을 맞아 문득 찾아온 허탈감과 기억의 그물을 던져 과거의 가능성을 되짚어보는 주인공의 실존적 고뇌."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "청년기의 환상이 깨지고 마주하게 되는 30세의 실존적 위기와 자아 성찰"
+      }
+    ],
+    "keyEntitiesText": "주인공 남성, 몰, 엘레나",
+    "settingText": "오스트리아 및 이탈리아 로마"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Mss96QPT0pL390sVNe2YGM0n_HuhEzO7",
+    "filename": "잉게보르크 바하만-삼십세.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.924Z",
+    "size": "338787",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Mss96QPT0pL390sVNe2YGM0n_HuhEzO7/view?usp=drivesdk",
+    "sourceSha256": "0154709ed63d4e57a20213dd4992e7a24694a64e81b38b07ef701a6123f6ccd9",
+    "textSha256": "6d424597f86cd45d58c30bdb1622e97b1230df15d1ed5638a33c02531a4b10a1",
+    "changeKey": "02f4dcc1cda75272e6e2fe84c16f1bab",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c0963d67616baa8e01e0",
+    "workId": "c0963d67616baa8e01e0",
+    "driveFileId": "1Mss96QPT0pL390sVNe2YGM0n_HuhEzO7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:41:11.871167+00:00",
+    "updatedAt": "2026-09-22T01:41:11.871185+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:41:11.871262+00:00"
+    }
+  }
+}

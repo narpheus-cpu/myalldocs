@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계명작산책 전집",
+    "author": "이문열",
+    "genre": "에세이/산문",
+    "tags": [
+      "세계문학",
+      "단편소설",
+      "문학론",
+      "독서"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "literary_criticism",
+        "anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이문열은 한국을 대표하는 소설가로, 깊은 사유와 탁월한 서사 능력을 바탕으로 문학과 인간에 대한 탐구를 이어왔다.",
+    "oneLineSummary": "세계 명작 단편들을 전범으로 삼아 소설의 본질과 창작의 의미를 고찰하는 문학 산책.",
+    "overallSummary": "저자는 소설 창작과 연구에 있어 전범이 될 만한 세계 명작 단편들의 필요성을 역설하며, 오랜 독서 체험과 대학 강의 경험을 바탕으로 엄선한 세계 각국의 단편 소설들과 그에 대한 단상을 엮어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "좋은 소설을 쓰기 위해 전범이 될 만한 단편선집의 필요성을 느끼고, 세계 명작 단편들을 주제별로 엮어내게 된 배경을 밝힌다."
+      },
+      {
+        "sectionTitle": "르네 (F. R. 샤토브리앙)",
+        "summary": "인디언들 사이에서 우울한 삶을 살아가는 유럽 청년 르네가 자신의 과거와 내면의 슬픔을 털어놓는 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "purpose",
+        "value": "문학 지망생과 독자들에게 훌륭한 단편소설의 전범을 제시하고 해설함"
+      }
+    ],
+    "keyEntitiesText": "이문열, 샥타스, 수엘 신부, 르네",
+    "settingText": "루이지애나 광야 및 세계 각국의 문학적 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1aqSaM6w_AbcAS4EoOIMBiYxu2R2dHBhZ",
+    "filename": "이문열-세계명작산책 전집.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.705Z",
+    "size": "2582382",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1aqSaM6w_AbcAS4EoOIMBiYxu2R2dHBhZ/view?usp=drivesdk",
+    "sourceSha256": "87f093ed10ce102eb3bb03afdadebf4ff9a4bbbb3d38ab6417e6440a52a9ee78",
+    "textSha256": "18d26b211d60efa540035e7d82824e8f9d0956ec36fd0d2c3f8e19ef82951959",
+    "changeKey": "1afeb39715a38fc9a1584588bf166258",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b1a1edd05ce330069267",
+    "workId": "b1a1edd05ce330069267",
+    "driveFileId": "1aqSaM6w_AbcAS4EoOIMBiYxu2R2dHBhZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:39:43.914574+00:00",
+    "updatedAt": "2026-09-22T01:39:43.914592+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:39:43.914679+00:00"
+    }
+  }
+}

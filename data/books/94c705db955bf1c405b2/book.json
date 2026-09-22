@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에밀리에게 바치는 한 송이 장미 외",
+    "author": "윌리엄 포크너",
+    "genre": "소설",
+    "tags": [
+      "노벨문학상",
+      "미국 남부",
+      "그로테스크",
+      "단편"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "gothic",
+        "southern_literature"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "윌리엄 포크너는 20세기 미국 문학의 거인으로, 요크나파토파를 무대로 인간 존재의 근원과 남부의 역사를 탐구해 노벨문학상을 받았다.",
+    "oneLineSummary": "은둔하며 살아온 기괴한 몰락 가문의 여인 에밀리의 죽음 뒤에 숨겨진 충격적인 비밀을 다룬 소설.",
+    "overallSummary": "제퍼슨 마을의 오랜 전통이자 명문 가문의 마지막 후예인 에밀리 그리어슨 양이 세상을 떠나자 마을 사람들이 장례식에 참석한다. 세금 면제 문제부터 집 안에서 풍기던 의문의 냄새, 그리고 북부 출신 청년과의 비극적인 연애사까지 그녀의 삶을 둘러싼 비밀이 드러난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I",
+        "summary": "에밀리 양의 장례식에 참석한 마을 사람들이 오래된 저택을 방문하고, 시 정부가 부과한 세금 납부를 완강히 거부하는 에밀리의 모습이 그려진다."
+      },
+      {
+        "sectionTitle": "II-IV",
+        "summary": "과거 그녀의 집에서 풍기던 악취로 인해 남성들이 몰래 석회를 뿌렸던 사건과, 북부인 호머 배런과의 스캔들, 그리고 비소를 구입했던 일화가 회상된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "motif",
+        "value": "봉건적 과거와 근대화의 충돌, 그리고 인간의 비뚤어진 집착"
+      }
+    ],
+    "keyEntitiesText": "에밀리 그리어슨, 사토리스 대령, 호머 배런, 흑인 하인 토베",
+    "settingText": "미국 남부의 오래된 전통이 남아 있는 가상 도시 제퍼슨"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18vfob_RC2cpw0tSalpARDYChhY_72TuZ",
+    "filename": "피에르 쌍소-느리게 산다는 것의 의미 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:44.854Z",
+    "size": "28063",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/18vfob_RC2cpw0tSalpARDYChhY_72TuZ/view?usp=drivesdk",
+    "sourceSha256": "5c4919cbd4e3a98f61016bcaaa2aff55c9275f7ce4261d90776659895048917c",
+    "textSha256": "3a973672475415f62bcbfe442e069df971d60841096c6d48ce94e953bc7c523b",
+    "changeKey": "adac3f9df225b174d7c9142272be258c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "94c705db955bf1c405b2",
+    "workId": "94c705db955bf1c405b2",
+    "driveFileId": "18vfob_RC2cpw0tSalpARDYChhY_72TuZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:39:19.446238+00:00",
+    "updatedAt": "2026-09-22T01:39:19.446256+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.2922,
+      "updatedAt": "2026-09-22T01:39:19.446337+00:00"
+    }
+  }
+}

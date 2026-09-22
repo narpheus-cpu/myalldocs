@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "윔피 키드 2: 형제의 전쟁",
+    "author": "제프 키니",
+    "genre": "소설",
+    "tags": [
+      "어린이 소설",
+      "형제 갈등",
+      "일기",
+      "학교생활"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "humor",
+        "children_YA"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "제프 키니는 유쾌한 유머와 현실적인 아이들의 심리 묘사로 세계적인 베스트셀러 '윔피 키드' 시리즈를 집필했다.",
+    "oneLineSummary": "형 로드릭과의 끊이지 않는 갈등과 비밀을 중심으로 펼쳐지는 그레그의 폭소 만발 학교생활 일기.",
+    "overallSummary": "여름방학의 악몽 같은 수영부 기억을 뒤로하고 새 학기를 맞이한 그레그는 여전히 '치즈 터치'의 공포에서 벗어나지 못한다. 특히 형 로드릭이 자신의 수치스러운 비밀을 알고 협박하자, 이에 맞서 형의 약점을 캐내기 위한 반격을 준비한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "새 학기의 시작과 치즈 터치",
+        "summary": "여름방학이 끝나고 학교로 돌아온 그레그는 여전히 자신을 따라다니는 '치즈 터치'를 피하기 위해 안감힘을 쓴다."
+      },
+      {
+        "sectionTitle": "형제의 은밀한 거래",
+        "summary": "설거지 당번을 피하려는 로드릭과의 갈등 속에서, 그레그는 형의 흑역사가 담긴 초등학교 시절 졸업사진을 빌미로 주도권을 잡으려 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "tone",
+        "value": "현실적인 형제간의 티격태격하는 모습이 유머러스하게 드러남"
+      }
+    ],
+    "keyEntitiesText": "그레그 헤플리, 로드릭 형, 롤리, 엄마",
+    "settingText": "중학교 및 그레그의 가정집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1O-fTrK6omCNv6yE45QnyiCk4oG9unZBD",
+    "filename": "윔피키드 한국어판 2권(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T21:50:36.000Z",
+    "size": "141469",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1O-fTrK6omCNv6yE45QnyiCk4oG9unZBD/view?usp=drivesdk",
+    "sourceSha256": "006e0a22ed6192be86226d0f15a1a79983c89e3990a917a2a96ba7fee9a78b8d",
+    "textSha256": "088d195f377aea7c71ff767ef2f214718e6bae9b20c4d15e7a838fe165373f36",
+    "changeKey": "118f15ad24552ee8b87e574f6c007fcc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "346aa7c805dba2d4d800",
+    "workId": "346aa7c805dba2d4d800",
+    "driveFileId": "1O-fTrK6omCNv6yE45QnyiCk4oG9unZBD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:39:31.653245+00:00",
+    "updatedAt": "2026-09-22T01:39:31.653263+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3131,
+      "updatedAt": "2026-09-22T01:39:31.653344+00:00"
+    }
+  }
+}

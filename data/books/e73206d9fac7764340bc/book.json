@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오직 사랑만을 위하여 1",
+    "author": "이바나 트럼프",
+    "genre": "소설",
+    "tags": [
+      "로맨스",
+      "뉴욕",
+      "상류사회",
+      "결혼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance",
+        "contemporary"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이바나 트럼프는 열정적이고 역동적인 삶의 경험을 바탕으로 매력적인 인물들과 로맨스를 그려낸 여류작가이다.",
+    "oneLineSummary": "화려한 뉴욕 상류사회를 배경으로 성공한 사업가 아담과 매력적인 카트링카의 사랑과 갈등을 그린 소설.",
+    "overallSummary": "뉴욕과 유럽을 오가는 상류층 인물들의 화려한 삶 속에서, 카트링카는 친구들과의 모임을 즐기며 성공한 사업가 아담과의 결혼 생활을 시작한다. 언론의 가십과 사브리나의 악의적인 칼럼 속에서도 그녀는 자신의 자존감을 지키려 애쓴다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "CHAPTER 1",
+        "summary": "카트링카가 친구들과 레스토랑에서 점심을 먹으며 사브리나의 가십 칼럼에 대해 이야기하던 중 남편 아담이 등장한다."
+      },
+      {
+        "sectionTitle": "CHAPTER 2",
+        "summary": "레스토랑을 나와 친구들과 작별 인사를 나누고 프라하 호텔과 뉴욕의 일상을 마주하는 카트링카의 모습이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "setting",
+        "value": "뉴욕 상류층의 화려한 라이프스타일과 매스컴의 이면을 사실적으로 묘사"
+      }
+    ],
+    "keyEntitiesText": "카트링카, 아담 그래엄, 데이지, 즈즈카, 사브리나",
+    "settingText": "미국 뉴욕의 고급 레스토랑 및 호텔, 상류사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eKa8lKcEKSm8954tuhSP-0zwZV2oyCpa",
+    "filename": "이바나 트럼프-오직 사랑만을 위하여 1 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.770Z",
+    "size": "472643",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1eKa8lKcEKSm8954tuhSP-0zwZV2oyCpa/view?usp=drivesdk",
+    "sourceSha256": "0ba81fc13f65cb94592b5e4445031ae94705724c018d6d944a31cb7675caa450",
+    "textSha256": "5c2efeb5940bab90a6751d15a322e9155305c05760eff4412bc04edf18436d83",
+    "changeKey": "f429da390490a6bc1a753ae9adee00d1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e73206d9fac7764340bc",
+    "workId": "e73206d9fac7764340bc",
+    "driveFileId": "1eKa8lKcEKSm8954tuhSP-0zwZV2oyCpa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:39:54.141488+00:00",
+    "updatedAt": "2026-09-22T01:39:54.141507+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:39:54.141593+00:00"
+    }
+  }
+}

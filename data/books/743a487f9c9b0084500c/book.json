@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "작가란 무엇인가 1",
+    "author": "파리 리뷰 편집부",
+    "genre": "에세이/산문",
+    "tags": [
+      "인터뷰",
+      "문학",
+      "소설가",
+      "파리 리뷰"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "literary_criticism",
+        "interview"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "『파리 리뷰』는 세계적인 문예지로, 당대 최고의 작가들을 심층 인터뷰하여 문학적 육성과 창작의 비밀을 전해왔다.",
+    "oneLineSummary": "세계적인 거장 소설가들이 직접 밝히는 글쓰기의 기술과 작가로서의 삶에 대한 심층 인터뷰 모음.",
+    "overallSummary": "김연수의 추천사를 시작으로 움베르토 에코를 비롯한 세계적인 작가들이 파리 리뷰 편집부와 나눈 인터뷰를 엮었다. 데뷔의 불꽃이 꺼진 뒤에도 매일 작업장으로 나서는 시계 기술자들처럼 실패를 거듭하며 소설을 써 내려가는 작가들의 진솔한 육성을 담았다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "움베르토 에코 인터뷰",
+        "summary": "밀라노의 서재에서 기호학자이자 소설가인 움베르토 에코가 자신의 유년 시절, 독서 편력, 그리고 소설 창작 과정에 대해 이야기한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "value",
+        "value": "실제 작가들의 육성을 통해 창작의 실무와 태도를 생생하게 전달"
+      }
+    ],
+    "keyEntitiesText": "움베르토 에코, 라일라 아잠 잔가네, 마리오 안드레오세",
+    "settingText": "이탈리아 밀라노의 에코 아파트 및 서재"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RWEk93aJi1CVIy-k6ppSquKkGSEJgT9V",
+    "filename": "작가란 무엇인가 1(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.939Z",
+    "size": "803396",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1RWEk93aJi1CVIy-k6ppSquKkGSEJgT9V/view?usp=drivesdk",
+    "sourceSha256": "d3e54802a7f8df96d5043fe2db968a30d7192cf690305d5f2aa334fdf0b81218",
+    "textSha256": "4a01ec8b7978aa407c8c86a51b14378e0db94550ede590dc13c6bb4fc49ee88c",
+    "changeKey": "eb0d25f098f6eba4b9beb3a818e80c61",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "743a487f9c9b0084500c",
+    "workId": "743a487f9c9b0084500c",
+    "driveFileId": "1RWEk93aJi1CVIy-k6ppSquKkGSEJgT9V",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:41:45.744809+00:00",
+    "updatedAt": "2026-09-22T01:41:45.744829+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:41:45.744913+00:00"
+    }
+  }
+}

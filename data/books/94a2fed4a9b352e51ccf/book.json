@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "파리 대왕",
+    "author": "윌리엄 제랄드 골딩",
+    "genre": "소설",
+    "tags": [
+      "노벨문학상",
+      "무인도",
+      "인간본성",
+      "디스토피아"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophical",
+        "allegory"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "윌리엄 제랄드 골딩은 현대인의 조건과 인간 본성의 양면성을 신비스럽게 조명하여 1983년 노벨문학상을 수상했다.",
+    "oneLineSummary": "무인도에 표류한 소년들이 극한의 상황에서 문명이 무너지고 야만성과 폭력성에 지배당하는 과정을 그린 소설.",
+    "overallSummary": "비행기 추락으로 어른 없이 무인도에 남겨진 소년들은 처음에는 소라를 이용해 규칙을 만들고 질서를 유지하려 하지만, 점차 공포와 본능에 휩싸이며 파벌로 갈라져 야만적인 폭력과 살인으로 치닫게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 소라의 소리",
+        "summary": "금발 소년 랠프와 뚱뚱한 소년 새끼돼지가 무인도에서 만나 해변을 탐색하고, 바닷가에서 소라를 발견해 다른 아이들을 부를 도구로 삼는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "인간 내면에 내재된 본원적 야만성과 문명의 취약성"
+      }
+    ],
+    "keyEntitiesText": "랠프, 새끼돼지, 조종사",
+    "settingText": "문명의 손길이 닿지 않는 열대 산호섬과 무인도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OOe2C3mWcvOXNDdCAAFfWqyHvaZeUowV",
+    "filename": "윌리엄 제랄드 골딩-파리대왕 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.085Z",
+    "size": "482202",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1OOe2C3mWcvOXNDdCAAFfWqyHvaZeUowV/view?usp=drivesdk",
+    "sourceSha256": "d0a592f7e666c50e0fa005652ddb08512b4e84d50462fcc4cd36a648cb799c70",
+    "textSha256": "73eac9eb782cf02b12897ad18122b729f6e5a55a00491a6a1df537f2d6b3dd4f",
+    "changeKey": "4e1e17e093c6a6778e8362526875900c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "94a2fed4a9b352e51ccf",
+    "workId": "94a2fed4a9b352e51ccf",
+    "driveFileId": "1OOe2C3mWcvOXNDdCAAFfWqyHvaZeUowV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:39:04.828874+00:00",
+    "updatedAt": "2026-09-22T01:39:04.828893+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:39:04.828968+00:00"
+    }
+  }
+}

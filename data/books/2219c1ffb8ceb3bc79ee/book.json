@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "포레스트 검프 (제1권)",
+    "author": "윈스턴 그룸",
+    "genre": "소설",
+    "tags": [
+      "바보",
+      "미식축구",
+      "성장",
+      "미국 소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "bildungsroman",
+        "humor"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "윈스턴 그룸은 미국 남부 출신의 작가로, 인간의 삶과 역사를 독특한 시각으로 그려낸 작품들을 집필했다.",
+    "oneLineSummary": "아이큐 70의 바보로 태어난 포레스트 검프가 우연과 순수함을 통해 파란만장한 삶을 헤쳐 나가는 이야기.",
+    "overallSummary": "태어날 때부터 아이큐 70의 저능아로 놀림받으며 자란 포레스트 검프는 비록 세상의 편견과 장애 속에서 살아가지만, 특유의 순수함과 신체적 우연을 통해 미식축구 선수로 발탁되는 등 예상치 못한 기회를 얻으며 자신만의 독특한 삶을 개척해 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "주인공 포레스트가 자신의 바보로서의 삶과 어린 시절, 아버지를 잃은 사고, 그리고 특이한 학교 생활을 회상한다."
+      },
+      {
+        "sectionTitle": "미식축구 선수 발탁",
+        "summary": "큰 키와 체격을 갖추게 된 포레스트가 고등학교 미식축구 코치의 눈에 띄어 선수로 스카우트되고 새로운 인생의 전기를 맞이한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "narrativeStyle",
+        "value": "1인칭 주인공 시점으로 화자의 어눌하면서도 솔직한 내레이션이 돋보인다."
+      }
+    ],
+    "keyEntitiesText": "포레스트 검프, 엄마, 제니 커란, 웰러스 코치",
+    "settingText": "미국 남부 지방, 공립학교 및 바보들을 위한 특수학교, 미식축구 경기장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yyrZCB50fdQsYuUbMbIK9srhrBxN05eX",
+    "filename": "윈스턴 그룸-포레스트 검프.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.630Z",
+    "size": "387113",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1yyrZCB50fdQsYuUbMbIK9srhrBxN05eX/view?usp=drivesdk",
+    "sourceSha256": "9972627b1c55ab9bb52a5b6cda03a6887dfa71f5315dab987541fd8d4f4d20c2",
+    "textSha256": "211e1d6fa97b1940140d804119f842a2d87cbd67a377481dcf46e0020842875e",
+    "changeKey": "f42f1f92d506d25e1bc05fefcd0dbf68",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2219c1ffb8ceb3bc79ee",
+    "workId": "2219c1ffb8ceb3bc79ee",
+    "driveFileId": "1yyrZCB50fdQsYuUbMbIK9srhrBxN05eX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:38:23.148360+00:00",
+    "updatedAt": "2026-09-22T01:38:23.148420+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.672,
+      "updatedAt": "2026-09-22T01:38:23.148609+00:00"
+    }
+  }
+}

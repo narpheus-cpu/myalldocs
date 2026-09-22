@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동시에",
+    "author": "잉게보르크 바하만",
+    "genre": "소설",
+    "tags": [
+      "오스트리아",
+      "단편선",
+      "실존주의",
+      "언어철학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophical",
+        "modernist"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "잉게보르크 바하만은 오스트리아 출신의 시인이자 소설가로, 비트겐슈타인의 언어철학을 바탕으로 인간 존재의 실존적 부조리를 파헤쳤다.",
+    "oneLineSummary": "사랑의 부재와 언어의 한계 속에서 진정한 인식과 비상을 갈구하는 현대인의 내면을 그린 단편 소설집.",
+    "overallSummary": "빈 출신의 인물들이 겪는 사랑의 허망함, 지식의 허구성, 그리고 오스트리아라는 실향의 의식을 바탕으로 인간 관계의 위선을 날카롭게 해부한다. 찰나적인 공유만을 허용하는 시한부 사랑과 일상 속 소외를 철학적 깊이로 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "동시에",
+        "summary": "이탈리아 남부 파에스툼으로 향하는 차 안에서 짧은 시한부 사랑의 한계를 느끼며 침묵하는 두 남녀의 여정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "philosophy",
+        "value": "실존철학과 신긍정주의에 기반한 지성과 감성, 언어의 이원론적 탐구"
+      }
+    ],
+    "keyEntitiesText": "나드야, 프랑켈 씨, 베아트릭스, 미란다",
+    "settingText": "오스트리아 빈 및 이탈리아의 여러 도시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17CdCqwqgteX9cY5bIN7Q7RmynF1nsaJT",
+    "filename": "잉게보르크 바하만-동시에.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.901Z",
+    "size": "383681",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/17CdCqwqgteX9cY5bIN7Q7RmynF1nsaJT/view?usp=drivesdk",
+    "sourceSha256": "726972c23c59b0413201569996636c12ddbef5d132e37294b06daec52ee77484",
+    "textSha256": "bb33078e5837a64d415fdd5a11271526c81226a17f0c024e8d5e288ad01c67e6",
+    "changeKey": "8e31c0a1c89c71efca2ed8b21926428a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "58507a66dad4a55c8983",
+    "workId": "58507a66dad4a55c8983",
+    "driveFileId": "17CdCqwqgteX9cY5bIN7Q7RmynF1nsaJT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:40:55.825177+00:00",
+    "updatedAt": "2026-09-22T01:40:55.825197+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:40:55.825284+00:00"
+    }
+  }
+}

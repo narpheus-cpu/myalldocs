@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "속죄",
+    "author": "이언 매큐언",
+    "genre": "소설",
+    "tags": [
+      "부커상 후보",
+      "영화 원작",
+      "기억",
+      "죄의식"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical",
+        "psychological"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이언 매큐언은 영국의 대표적인 지성파 작가로, 치밀한 구성과 우아한 문체로 인간 본성과 죄의식을 탐구한다.",
+    "oneLineSummary": "어린 시절의 사소한 오해와 거짓말로 비극적인 운명을 초래한 한 소녀가 평생 동안 짊어지는 속죄의 여정.",
+    "overallSummary": "1930년대 영국의 유서 깊은 저택, 상상력 풍부한 어린 소녀 브라이어니는 언니 세실리아와 가정부 아들 로비 사이의 미묘한 감정을 오해하고 거짓 증언을 한다. 이로 인해 로비는 감옥에 가고 전쟁에 휘말리며 연인의 삶은 파탄 난다. 성장이 된 브라이어니는 글쓰기를 통해 그들의 파괴된 삶을 되돌리고 진정한 속죄를 구하고자 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부",
+        "summary": "여름날 저택에 모인 가족들과 사촌들, 그리고 브라이어니가 작성한 희곡 '아라벨라의 시련'과 오해의 싹이 트는 과정이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "상상력의 오용이 가져오는 파국과 예술을 통한 속죄의 가능성"
+      }
+    ],
+    "keyEntitiesText": "브라이어니 탤리스, 세실리아 탤리스, 로비 터너, 롤라",
+    "settingText": "1930년대 영국 탤리스가 가문의 대저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18k5LuKkmCOgAg8_TpFmeVqNPLHtNh0zM",
+    "filename": "이언 매큐언-속죄(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.850Z",
+    "size": "1004426",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/18k5LuKkmCOgAg8_TpFmeVqNPLHtNh0zM/view?usp=drivesdk",
+    "sourceSha256": "3881d5a1bc463eeaa9f98f92ff7e04b0865cc7c33db1fe3c72d8f6502339c22a",
+    "textSha256": "7109b9ae98d58d8845c1d0298b1d8d41a70b14056c5333ac37736e2b0008b89b",
+    "changeKey": "d91cea45f757dec4c1baeb58b379f62c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dcd692832b06c2900ccb",
+    "workId": "dcd692832b06c2900ccb",
+    "driveFileId": "18k5LuKkmCOgAg8_TpFmeVqNPLHtNh0zM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:40:12.380356+00:00",
+    "updatedAt": "2026-09-22T01:40:12.380374+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:40:12.380479+00:00"
+    }
+  }
+}

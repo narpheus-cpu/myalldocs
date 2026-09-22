@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "칠드런 액트",
+    "author": "이언 매큐언",
+    "genre": "소설",
+    "tags": [
+      "법정 소설",
+      "아동법",
+      "종교",
+      "윤리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophical",
+        "legal_drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이언 매큐언은 인간의 복잡한 도덕적 딜레마와 법적 판결의 이면을 날카로운 지성으로 그려내는 영국의 거장 작가이다.",
+    "oneLineSummary": "종교적 신념 때문에 수혈을 거부하는 백혈병 소년의 생명을 구하기 위해 판사가 내린 중대한 법적 결단의 이야기.",
+    "overallSummary": "고등법원 가정부 판사 피오나 메이는 남편의 갑작스러운 이혼 요구로 혼란스러운 가운데, 백혈병에 걸렸으나 여호와의 증인 신념 때문에 수혈 치료를 거부하는 17세 소년 애덤의 생사를 가를 판결을 맡게 된다. 아이의 복지를 최우선으로 하는 아동법에 따라 소년을 직접 면담한 피오나는 판결을 내리지만, 이후 소년과의 예기치 못한 교감은 두 사람의 운명에 깊은 파장을 남긴다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "일요일 저녁 남편 잭과의 불쾌한 이혼 대화로 충격을 받은 피오나가 유대인 부부의 교육권 소송 판결문을 다듬으며 고뇌하는 일상이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "법과 도덕, 그리고 종교적 신념과 개인의 생명 간의 딜레마"
+      }
+    ],
+    "keyEntitiesText": "피오나 메이, 잭, 주디스 번스타인",
+    "settingText": "런던의 고등법원 및 피오나의 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WkgLhLAZiOKgPZzZuYmcm35TLZ9qF4G-",
+    "filename": "이언 맥큐언-칠드런 액트-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-05T14:01:08.000Z",
+    "size": "420072",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1WkgLhLAZiOKgPZzZuYmcm35TLZ9qF4G-/view?usp=drivesdk",
+    "sourceSha256": "7beeb3525d1d468a29724075df84b6c128f60acda2510e0059cf89380ae7e2fa",
+    "textSha256": "a652edd9a9ca819ef5c9fc00c6738913150920a0acba5d803837456054e525ac",
+    "changeKey": "4e2ae7acce8d890f4c367d1a06d392a7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fc5feb3c996b2c0a23d7",
+    "workId": "fc5feb3c996b2c0a23d7",
+    "driveFileId": "1WkgLhLAZiOKgPZzZuYmcm35TLZ9qF4G-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:40:35.604101+00:00",
+    "updatedAt": "2026-09-22T01:40:35.604120+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:40:35.604199+00:00"
+    }
+  }
+}
