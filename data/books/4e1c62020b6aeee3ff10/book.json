@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천살전기",
+    "author": "김고은",
+    "genre": "무협 판타지",
+    "tags": [
+      "무협",
+      "천살지기",
+      "검객",
+      "영체"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 김고은(필명 미친도깨비)의 무협 판타지 소설입니다.",
+    "oneLineSummary": "사악한 천살지기를 지닌 유진룡이 수정의 탑에서 검령과 목숨을 건 대결을 벌이는 이야기입니다.",
+    "overallSummary": "귀여운 외모 속에 저주받은 천살지기를 품고 살아가는 유진룡은 수정의 탑 상층부로 들어가 무시무시한 살기를 내뿜는 검령과 맞서게 됩니다. 자신의 사악한 기운을 풀어내어 검령을 제압하고 치열한 대결 끝에 승리한 유진룡은 금의 수정을 얻고 스승과의 과거를 추억합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1회",
+        "summary": "수정의 탑을 오른 유진룡은 60평방미터 방 안에서 강대하고 사악한 기운을 내뿜는 제단 위 장검과 검령을 마주합니다."
+      },
+      {
+        "sectionTitle": "2회",
+        "summary": "유진룡은 억누르고 있던 천살지기의 빗장을 풀어 진정한 살기를 내뿜으며 검령과 정면 대결에 돌입합니다."
+      },
+      {
+        "sectionTitle": "3회",
+        "summary": "살을 주고 뼈를 취하는 수평 베기로 검령을 소멸시킨 유진룡은 금의 수정을 습득하고 세상을 떠난 사부와의 수련 시절을 회상합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 무공/기운",
+        "value": "천살지기(天殺之氣) 및 검기와 보법의 결합"
+      }
+    ],
+    "keyEntitiesText": "유진룡(주인공), 검령(장검의 영체), 공검자(언급되는 인물)",
+    "settingText": "수정의 탑 옥상 제단, 동서양 양식이 융합된 무협 세계관"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1b4bPF3MczKTwEnugqAC2i3KG6WVquHOp",
+    "filename": "천살전기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:51.524Z",
+    "size": "1412583",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1b4bPF3MczKTwEnugqAC2i3KG6WVquHOp/view?usp=drivesdk",
+    "sourceSha256": "1ed15f71ebb48fcd32565d024b99922f984c962e6a5e44bd66060874895dc087",
+    "textSha256": "b06c9795a873e8440325bf23f7d8ce8ff3c225deb0c9b237ce153b5f42495e3e",
+    "changeKey": "a4689631fbafe892a6a5ba961c9bf12b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4e1c62020b6aeee3ff10",
+    "workId": "4e1c62020b6aeee3ff10",
+    "driveFileId": "1b4bPF3MczKTwEnugqAC2i3KG6WVquHOp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:07:28.582461+00:00",
+    "updatedAt": "2026-09-22T13:07:28.582476+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:07:28.582578+00:00"
+    }
+  }
+}

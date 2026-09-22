@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "쿠베린",
+    "author": "이수영",
+    "genre": "판타지 소설",
+    "tags": [
+      "묘인족",
+      "쿠베린",
+      "엘프",
+      "의뢰"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 이수영의 대표적인 판타지 소설 시리즈입니다.",
+    "oneLineSummary": "묘인족의 왕 쿠베린이 누이동생을 찾아달라는 엘프 소년 카산의 의뢰를 받아들이는 이야기입니다.",
+    "overallSummary": "항구도시 엘리야의 선술집 사슴집에서 마미의 귀염을 받으며 한가롭게 지내던 묘인족의 왕 쿠베린은 자신을 찾아온 로브 차림의 엘프 카산과 만납니다. 사냥꾼에게 납치되어 노예로 팔려간 쌍둥이 동생 달리아나를 찾아달라는 카산의 부탁과 보석 스카이 롬을 받고, 정보상 군터를 찾아가 조사를 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1화: 엘프의 구출 (1)",
+        "summary": "마미의 술집에서 뒹굴던 쿠베린은 행패 부리는 손님을 창밖으로 던져버린 후 자신을 찾아온 귀족 엘프 카산으로부터 동생 구출 의뢰를 받습니다."
+      },
+      {
+        "sectionTitle": "1화: 엘프의 구출 (2)",
+        "summary": "쿠베린은 카산의 몸에서 달리아나의 향기를 각인한 후 작부 마리아를 지나 정보상 군터를 찾아가 노예상 정보를 수집합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공 종족 특성",
+        "value": "묘인족(수인)의 예민한 후각, 송곳니, 민첩함과 압도적인 전투력"
+      }
+    ],
+    "keyEntitiesText": "쿠베린(묘인족의 왕), 카산(귀족 엘프), 마미(술집 주인), 마리아(작부), 군터(정보상)",
+    "settingText": "항구도시 엘리야의 사슴집 선술집 및 작부집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1D-T7W-IpUfYgM78bjRFY-1P15ihuzaxy",
+    "filename": "쿠베린(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:52.171Z",
+    "size": "3053976",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1D-T7W-IpUfYgM78bjRFY-1P15ihuzaxy/view?usp=drivesdk",
+    "sourceSha256": "850c39e835c04ffde37e08724a0e1ec65dcd05a3ee9eb5045da669e66bcedb7d",
+    "textSha256": "332b2da50c336367558aa331619d9444885f3383aef4e9db15583037b2a6e8a9",
+    "changeKey": "626eb6fec5937532a0f04260bd7e0d0b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "918ad0765846171060ab",
+    "workId": "918ad0765846171060ab",
+    "driveFileId": "1D-T7W-IpUfYgM78bjRFY-1P15ihuzaxy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:08:52.972245+00:00",
+    "updatedAt": "2026-09-22T13:08:52.972261+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-22T13:08:52.972363+00:00"
+    }
+  }
+}

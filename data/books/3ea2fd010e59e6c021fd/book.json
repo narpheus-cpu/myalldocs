@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "카르발키아 대전기",
+    "author": "김경언",
+    "genre": "SF 판타지",
+    "tags": [
+      "스페이스오페라",
+      "우주전쟁",
+      "사관생도",
+      "포로"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "sf",
+        "military"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 김경언의 SF 스페이스 오페라 소설입니다.",
+    "oneLineSummary": "우주연합 사관학교를 탈출하려던 아사 한이 레게토니아군에 여객선이 습격당하자 승객들을 구하고 포로가 되는 이야기입니다.",
+    "overallSummary": "인간의 우주연합과 외계 종족 레게토니아 간의 100년 전쟁 속에서, 우주연합 사관생도 아사 한은 조종사 실격 후 탈영하듯 고향행 여객선에 탑승합니다. 그러나 레게토니아 전투기의 기습을 받자 승객들을 탈출선으로 피신시킨 뒤 홀로 유인 작전을 펼치다 포로로 잡히게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "카르발키아 대전의 개요와 주인공 아사 한이 친구 자크의 부상을 유발하고 사관학교를 뛰어쳐나오는 과정이 설명됩니다."
+      },
+      {
+        "sectionTitle": "모험의 시작",
+        "summary": "고향 '한' 별로 향하는 DKS 여행선에서 레게토니아 군의 기습을 받자, 아사 한은 비상정으로 승객들을 피신시키고 홀로 유인하다 포로로 잡힙니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관 설정",
+        "value": "지구인의 우주 확장과 외계 종족 레게토니아 간의 100년 우주 전쟁"
+      }
+    ],
+    "keyEntitiesText": "아사 한(주인공/사관생도), 자크(사관생도 친구), 트루겔트라(레게토니아 거인 장수)",
+    "settingText": "우주연합력 3080년, 플로네 성운 인근 우주 공간 및 레게토니아 전함"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1mGFP1YmA3c4iL6RtJOS8_eJ_jKtT0lf-",
+    "filename": "카르발키아 대전기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:51.839Z",
+    "size": "2045475",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1mGFP1YmA3c4iL6RtJOS8_eJ_jKtT0lf-/view?usp=drivesdk",
+    "sourceSha256": "a374614ecac07f984a107f4a9e5fc8f47701d6f97c2c4c50c16520c7cb1a0155",
+    "textSha256": "fc75929846c73f4447cf0a4df234c9cff58aa91db0b6a8b04ecdc4e427588b43",
+    "changeKey": "1eb0f196198f300f6b9c9b7c984103cb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3ea2fd010e59e6c021fd",
+    "workId": "3ea2fd010e59e6c021fd",
+    "driveFileId": "1mGFP1YmA3c4iL6RtJOS8_eJ_jKtT0lf-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:08:23.260569+00:00",
+    "updatedAt": "2026-09-22T13:08:23.260583+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:08:23.260685+00:00"
+    }
+  }
+}

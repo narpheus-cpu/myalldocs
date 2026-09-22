@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "크루세이더",
+    "author": "진아름",
+    "genre": "판타지 소설",
+    "tags": [
+      "마검",
+      "크루세이더",
+      "양치기",
+      "맹약"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 진아름의 판타지 소설 크루세이더입니다.",
+    "oneLineSummary": "동굴에 갇혀 있던 마검 크루세이더가 양치기 세드릭을 만나 그의 몸을 차지하고 세상 밖으로 나아가는 이야기입니다.",
+    "overallSummary": "천 년 동안 동굴 속에 갇혀 있던 자아를 가진 마검 크루세이더는 잃어버린 양을 찾으러 들어온 양치기 세드릭 유라시스를 만납니다. 짝사랑하는 소녀의 시집으로 자포자기해 있던 세드릭은 위험을 무릅쓰고 마검과 맹약의 의식을 치르고, 크루세이더는 그의 정신을 잠재우고 육체를 차지하여 세상으로 나아갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "동굴 속에 박혀 피와 파괴를 갈망하던 마검 크루세이더가 양치기 세드릭의 발소리를 듣고 그를 유혹합니다."
+      },
+      {
+        "sectionTitle": "1장: 눈뜸 (1)",
+        "summary": "세드릭과의 맹약의 의식을 통해 그의 소박한 기억과 유라시스의 육체를 차지한 크루세이더가 귀찮은 양떼를 뒤로하고 전장인 블랙록으로 향합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "마검 설정",
+        "value": "자아를 지닌 마검, 맹약 실패자의 육체를 차지하는 정신 지배 능력"
+      }
+    ],
+    "keyEntitiesText": "크루세이더(마검/주인공), 세드릭 유라시스(양치기/꼭두각시 육체), 리스(세드릭의 소꿉친구)",
+    "settingText": "어두운 동굴 및 알테르 대공국 전선의 변경도시 블랙록"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_UqAxg4iXgroXvVr_dJrbouaclju4zHr",
+    "filename": "크루세이더.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:52.233Z",
+    "size": "1098064",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1_UqAxg4iXgroXvVr_dJrbouaclju4zHr/view?usp=drivesdk",
+    "sourceSha256": "09ce6e2be1d4b5bbfea231c2024ea6f63040e4469960cacc62d470c254439789",
+    "textSha256": "e00b6dcadf9e9f16e0dc9b57817ff05c12f86ab64ffe940f368a0d74d0f408b0",
+    "changeKey": "7e975716c88ed6f434be00de4268fc45",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5024e400e466dccb7087",
+    "workId": "5024e400e466dccb7087",
+    "driveFileId": "1_UqAxg4iXgroXvVr_dJrbouaclju4zHr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:09:01.073327+00:00",
+    "updatedAt": "2026-09-22T13:09:01.073342+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:09:01.073442+00:00"
+    }
+  }
+}
