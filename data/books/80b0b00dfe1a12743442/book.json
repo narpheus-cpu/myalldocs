@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "장하준의 Shall We?",
+    "author": "장하준",
+    "genre": "에세이/인터뷰",
+    "tags": [
+      "장하준",
+      "경제학",
+      "인터뷰",
+      "에세이",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "케임브리지대학 경제학과 교수.",
+    "oneLineSummary": "경제학자 장하준의 일상과 생각, 경제학에 대한 철학을 담은 스페셜북.",
+    "overallSummary": "저자의 인터뷰, 칼럼, 일상적인 모습 등을 통해 경제학자로서의 고민과 인간적인 면모를 보여준다. 경제학이 대중과 소통해야 한다는 저자의 열망과 경제학적 시각을 칵테일처럼 섞어 즐기라는 제안을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "장하준을 만나다",
+        "summary": "저자의 일상과 서재, 생각 등을 인터뷰 형식으로 담았다."
+      },
+      {
+        "sectionTitle": "장하준의 시선",
+        "summary": "경제학에 대한 저자의 철학과 칼럼들을 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "저자의 인간적인 면모와 경제학 철학을 대중적으로 풀어냄"
+      }
+    ],
+    "keyEntitiesText": "장하준",
+    "settingText": "케임브리지대학 및 저자의 일상적 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GjPL0AiZFPpIMvtOgPTaEka-OPJqMktk",
+    "filename": "장하준의 Shall We(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T01:13:48.000Z",
+    "size": "177430",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1GjPL0AiZFPpIMvtOgPTaEka-OPJqMktk/view?usp=drivesdk",
+    "sourceSha256": "038a742140dbd5d56148fc6bb98896ad8f35c59088119fa6bce0d33a6fa720a6",
+    "textSha256": "757d3d4f94a0e3b3910630f41121c0943c20fe32a7e7e26d7dc483feb6740c2f",
+    "changeKey": "ad3c6f842bc969b93d8d81f043d075a9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "80b0b00dfe1a12743442",
+    "workId": "80b0b00dfe1a12743442",
+    "driveFileId": "1GjPL0AiZFPpIMvtOgPTaEka-OPJqMktk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:33:24.827958+00:00",
+    "updatedAt": "2026-09-22T22:33:24.827975+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:33:24.828064+00:00"
+    }
+  }
+}

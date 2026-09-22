@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사회계약론",
+    "author": "장 자크 루소",
+    "genre": "정치철학",
+    "tags": [
+      "사회계약",
+      "자유",
+      "평등",
+      "민주주의",
+      "주권"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "18세기 프랑스의 위대한 사상가이자 철학자.",
+    "oneLineSummary": "인간의 자유와 평등을 보장하기 위한 정당한 정치적 사회질서의 원칙을 제시한 고전.",
+    "overallSummary": "루소는 인간이 자유로운 존재로 태어났음에도 사회 속에서 쇠사슬에 얽매여 있음을 지적하며, 이를 정당화할 수 있는 사회계약의 원리를 탐구한다. 가장 강한 자의 힘이 아닌, 구성원들의 합의와 일반의지에 기초한 주권과 법률의 정당성을 역설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1편",
+        "summary": "가족을 최초의 사회 모델로 보고, 힘이 아닌 약속에 기초한 정당한 권위의 필요성을 논한다."
+      },
+      {
+        "sectionTitle": "제2편",
+        "summary": "주권의 양도 불가능성과 일반의지의 개념을 통해 국가의 주권이 인민에게 있음을 밝힌다."
+      },
+      {
+        "sectionTitle": "제3편",
+        "summary": "정부의 형태와 입법권, 행정권의 관계를 다루며 최선의 정부 형태를 고찰한다."
+      },
+      {
+        "sectionTitle": "제4편",
+        "summary": "일반의지의 불변성과 투표, 선거 등 국가를 유지하기 위한 제도적 장치를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "일반의지(General Will), 사회계약, 주권재민"
+      }
+    ],
+    "keyEntitiesText": "장 자크 루소, 그로티우스, 홉즈, 아리스토텔레스, 칼리굴라",
+    "settingText": "18세기 절대왕정 시대의 유럽, 시민혁명의 사상적 기반이 된 시대적 배경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10Bzfavl1i3i8Rp65IipEoKiLoeDGJkRA",
+    "filename": "장 자크 루소-사회계약론.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.840Z",
+    "size": "544049",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/10Bzfavl1i3i8Rp65IipEoKiLoeDGJkRA/view?usp=drivesdk",
+    "sourceSha256": "aa3f3898cda3db6f45c9cd954d45e24fda1d8c7b1ca7a03a913c3b8790e6f9d9",
+    "textSha256": "5486344dc80e9ff363c84f83893705a94ef07c1a6d76ec03de5a0d036cf16d5b",
+    "changeKey": "a342291a65be4c79d1694556cd0804b2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "45f925c5c5ddf76e612c",
+    "workId": "45f925c5c5ddf76e612c",
+    "driveFileId": "10Bzfavl1i3i8Rp65IipEoKiLoeDGJkRA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:32:16.918656+00:00",
+    "updatedAt": "2026-09-22T22:32:16.918672+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:32:16.918760+00:00"
+    }
+  }
+}

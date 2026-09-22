@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "장르 글쓰기: 미스터리",
+    "author": "셰리 엘리스 (엮은이)",
+    "genre": "작법서",
+    "tags": [
+      "미스터리",
+      "글쓰기",
+      "작법",
+      "범죄소설",
+      "인터뷰"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "문학계에서 활동한 편집자이자 작가들의 인터뷰어.",
+    "oneLineSummary": "미스터리 소설 작법을 위한 실전 연습과 전문가들의 조언을 담은 가이드북.",
+    "overallSummary": "미스터리 소설을 쓰기 위한 인물 묘사, 플롯 구성, 자료 조사, 정보 통제 등의 기법을 다룬다. 다양한 작가들의 경험과 실전 연습 문제를 통해 독자가 직접 미스터리 소설을 창작할 수 있도록 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "자료 조사와 플롯",
+        "summary": "범죄 수사 자료 조사법과 스릴러 플롯 구성의 실수를 다룬다."
+      },
+      {
+        "sectionTitle": "인물과 관계",
+        "summary": "탐정 주인공과 악당을 만드는 법, 인물 관계의 깊이를 다룬다."
+      },
+      {
+        "sectionTitle": "문체와 퇴고",
+        "summary": "시점 활용법, 대화 쓰기, 퇴고의 중요성을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성 방식",
+        "value": "전문가들의 에세이와 단계별 실전 연습 문제로 구성됨"
+      }
+    ],
+    "keyEntitiesText": "셰리 엘리스, 스티븐 제이 슈워츠, 앤드리아 캠벨, 헨리 창",
+    "settingText": "미스터리 소설 창작을 위한 이론적, 실무적 환경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZepCkOLI-Pw4Gcl2PaYw-6YXn_u0OKim",
+    "filename": "장르글쓰기-미스터리(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T05:00:40.000Z",
+    "size": "735427",
+    "folderPath": [
+      "books",
+      "글쓰기 작법서"
+    ],
+    "relativePath": "books/글쓰기 작법서",
+    "webViewLink": "https://drive.google.com/file/d/1ZepCkOLI-Pw4Gcl2PaYw-6YXn_u0OKim/view?usp=drivesdk",
+    "sourceSha256": "97630849b6f4d3a6a36bd60ff1fb3ae7b504b4291274cc853aa84aa5a99cd86f",
+    "textSha256": "2c91c675ae01eebe14267192556344c2c1e39c2eb19a87eae27192d1a3a3a110",
+    "changeKey": "6ed7e8f4dce9ab850eba1298c8539867",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "00d53fb5d18943f8c4c7",
+    "workId": "00d53fb5d18943f8c4c7",
+    "driveFileId": "1ZepCkOLI-Pw4Gcl2PaYw-6YXn_u0OKim",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:32:44.939097+00:00",
+    "updatedAt": "2026-09-22T22:32:44.939114+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:32:44.939238+00:00"
+    }
+  }
+}

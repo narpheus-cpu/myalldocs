@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어제까지의 세계",
+    "author": "재레드 다이아몬드",
+    "genre": "인문/인류학",
+    "tags": [
+      "전통사회",
+      "인류학",
+      "현대사회",
+      "문화",
+      "인류"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "UCLA 지리학 교수이자 문화인류학자.",
+    "oneLineSummary": "전통 사회의 삶의 방식을 통해 현대 사회가 배울 점을 탐구하는 인류학적 보고서.",
+    "overallSummary": "전통 사회의 양육, 노인 대우, 위험 대처, 분쟁 해결 방식 등을 현대 사회와 비교한다. 전통 사회의 지혜를 통해 현대 사회의 문제점을 되돌아보고 더 나은 삶의 방식을 모색한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "평화와 전쟁",
+        "summary": "전통 사회의 분쟁 해결 방식과 전쟁의 성격을 다룬다."
+      },
+      {
+        "sectionTitle": "어린아이와 노인",
+        "summary": "전통 사회의 양육법과 노인 대우 방식을 현대와 비교한다."
+      },
+      {
+        "sectionTitle": "위험과 대처",
+        "summary": "전통 사회의 위험 대처 방식과 건강 관리법을 논한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 메시지",
+        "value": "전통 사회의 지혜를 통해 현대 사회의 문제점을 해결할 수 있는 통찰을 얻을 수 있다."
+      }
+    ],
+    "keyEntitiesText": "재레드 다이아몬드, 뉴기니 부족",
+    "settingText": "전통적인 소규모 사회와 현대 산업 사회."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1l6BF-u6H_9BhtXQ9uQGb-S6Z_Woxhtrb",
+    "filename": "재레드 다이아몬드-어제까지의 세계(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T01:20:02.000Z",
+    "size": "1444599",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1l6BF-u6H_9BhtXQ9uQGb-S6Z_Woxhtrb/view?usp=drivesdk",
+    "sourceSha256": "8ba64662ea500f7490a2d2663377980b41e2c794d5afff3b4d33e1c8410e2fea",
+    "textSha256": "a409d3860798ee0011ccd70ab7e38a839256cf60bb9d663e18c34f11744d8e64",
+    "changeKey": "8ec2cdfb8b4041b0c5c87a29ecb8f295",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a2c150c2ed51cd756145",
+    "workId": "a2c150c2ed51cd756145",
+    "driveFileId": "1l6BF-u6H_9BhtXQ9uQGb-S6Z_Woxhtrb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:33:37.070610+00:00",
+    "updatedAt": "2026-09-22T22:33:37.070625+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:33:37.070713+00:00"
+    }
+  }
+}

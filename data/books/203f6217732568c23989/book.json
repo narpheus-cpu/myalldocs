@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "장하준의 경제학 강의",
+    "author": "장하준",
+    "genre": "경제학",
+    "tags": [
+      "경제학",
+      "입문서",
+      "자본주의",
+      "경제이론",
+      "교과서"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "케임브리지대학 경제학과 교수.",
+    "oneLineSummary": "경제학의 다양한 시각과 현실 경제를 이해하기 쉽게 설명한 새로운 경제학 입문서.",
+    "overallSummary": "경제학의 다양한 학파와 이론을 소개하고, 생산, 금융, 불평등, 노동 등 경제의 핵심 주제를 현실적인 데이터와 함께 설명한다. 경제학이 과학이 아닌 정치적 논쟁임을 강조하며 비판적 사고를 독려한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "경제학에 익숙해지기",
+        "summary": "경제학의 정의, 자본주의의 역사, 다양한 경제학파를 소개한다."
+      },
+      {
+        "sectionTitle": "경제학 사용하기",
+        "summary": "생산, 금융, 불평등, 노동, 정부 역할 등 경제의 핵심 주제를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 메시지",
+        "value": "경제학은 정치적 논쟁이며, 다양한 시각으로 현실을 바라봐야 한다."
+      }
+    ],
+    "keyEntitiesText": "장하준, 애덤 스미스, 케인스, 마르크스",
+    "settingText": "현대 세계 경제의 전반적인 상황."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rA1yX1MkZOxMqsCx_KrROXkJZI2pLcLX",
+    "filename": "장하준-경제학 강의(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T01:12:50.000Z",
+    "size": "828218",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1rA1yX1MkZOxMqsCx_KrROXkJZI2pLcLX/view?usp=drivesdk",
+    "sourceSha256": "8779bfa827b6852041e3c51714c38a199f683cf7292adf27c54ee14935b713b5",
+    "textSha256": "f28aa5cfc2907e257824569d86271086d5a07b7f5524693611d9f43686851d9a",
+    "changeKey": "b25cf6a75f5d318257c95b1f912576c7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "203f6217732568c23989",
+    "workId": "203f6217732568c23989",
+    "driveFileId": "1rA1yX1MkZOxMqsCx_KrROXkJZI2pLcLX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:33:11.819682+00:00",
+    "updatedAt": "2026-09-22T22:33:11.819699+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7267,
+      "updatedAt": "2026-09-22T22:33:11.819791+00:00"
+    }
+  }
+}

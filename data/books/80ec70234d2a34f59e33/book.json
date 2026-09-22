@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "총, 균, 쇠",
+    "author": "재레드 다이아몬드",
+    "genre": "인문/역사",
+    "tags": [
+      "인류사",
+      "문명",
+      "지리",
+      "환경",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "UCLA 지리학 교수이자 문화인류학자.",
+    "oneLineSummary": "인류 문명의 발전 속도가 대륙마다 달랐던 이유를 지리적, 환경적 요인으로 분석한 명저.",
+    "overallSummary": "인류 역사의 불평등이 인종적 차이가 아닌 환경적 차이에서 비롯되었음을 밝힌다. 농업의 시작, 가축화, 병원균, 문자, 기술 발전 등이 지리적 요인에 의해 어떻게 결정되었는지 분석하여 인류사의 거대한 흐름을 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "식량 생산의 기원",
+        "summary": "농업과 가축화가 문명 발전에 미친 영향을 다룬다."
+      },
+      {
+        "sectionTitle": "식량에서 총, 균, 쇠로",
+        "summary": "식량 생산이 어떻게 병원균, 문자, 기술 발전으로 이어졌는지 설명한다."
+      },
+      {
+        "sectionTitle": "대륙별 분석",
+        "summary": "각 대륙의 지리적 환경이 문명 발전에 미친 차이를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주장",
+        "value": "문명의 불평등은 인종적 차이가 아닌 지리적, 환경적 요인에 의한 결과이다."
+      }
+    ],
+    "keyEntitiesText": "재레드 다이아몬드, 아타우알파, 피사로",
+    "settingText": "지난 1만 3,000년 동안의 전 지구적 인류사."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lYy-DzZpo_FS_7srqh6kIwssNjfhMidg",
+    "filename": "재레드 다이아몬드-총, 균, 쇠 -- (epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.976Z",
+    "size": "1345800",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1lYy-DzZpo_FS_7srqh6kIwssNjfhMidg/view?usp=drivesdk",
+    "sourceSha256": "01d7bd52834a1154dc53dd102376e5ff0da67c97eab42589b1226c429bb6d394",
+    "textSha256": "4d7ed48c964eb45324c8f899d23683d935a838ea4d7524771df51922340c345c",
+    "changeKey": "b7a54d0ed48ca876853fbfa6af6125f2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "80ec70234d2a34f59e33",
+    "workId": "80ec70234d2a34f59e33",
+    "driveFileId": "1lYy-DzZpo_FS_7srqh6kIwssNjfhMidg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:33:43.364395+00:00",
+    "updatedAt": "2026-09-22T22:33:43.364411+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:33:43.364497+00:00"
+    }
+  }
+}

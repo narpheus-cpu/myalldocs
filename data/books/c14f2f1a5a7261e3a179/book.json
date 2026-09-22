@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "책, 이게 뭐라고",
+    "author": "장강명",
+    "genre": "에세이",
+    "tags": [
+      "독서",
+      "글쓰기",
+      "작가",
+      "팟캐스트",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 소설가이자 기자 출신 작가.",
+    "oneLineSummary": "책을 읽고 쓰는 작가의 일상과 독서에 대한 단상을 담은 에세이.",
+    "overallSummary": "저자가 독서 팟캐스트를 진행하며 겪은 경험과 책을 읽고 쓰는 인간으로서의 고민을 담았다. 작가로서의 삶, 독서의 의미, 그리고 계속해서 읽고 쓰는 행위의 가치를 솔직하고 담백하게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "말하는 작가의 탄생",
+        "summary": "팟캐스트 진행자가 된 계기와 작가로서의 일상을 소개한다."
+      },
+      {
+        "sectionTitle": "책을 읽는 일, 책에 대해 말하는 일",
+        "summary": "독서와 대화에 대한 작가의 생각과 경험을 다룬다."
+      },
+      {
+        "sectionTitle": "말하기-듣기의 세계에서 만난 작가들",
+        "summary": "팟캐스트를 통해 만난 다양한 작가들과의 에피소드를 담았다."
+      },
+      {
+        "sectionTitle": "그럼에도 계속 읽고 쓴다는 것",
+        "summary": "작가로서의 고뇌와 독서의 지속성에 대한 성찰을 보여준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "기자 출신다운 간결하고 사실적인 문체"
+      }
+    ],
+    "keyEntitiesText": "장강명, 요조, 김관, 박한선",
+    "settingText": "2010년대 한국의 출판 및 팟캐스트 시장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZWTSo5HeNDcz1aEzl5MnmBcAy4x988eP",
+    "filename": "장강명-책 이게 뭐라고(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.869Z",
+    "size": "395268",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1ZWTSo5HeNDcz1aEzl5MnmBcAy4x988eP/view?usp=drivesdk",
+    "sourceSha256": "8784825619643bd384336aab8f344df8ee51e54ae33a5a1d4282eb5f2a8cdd5a",
+    "textSha256": "df4f075ffa9458b7b9e121f6d4dbc3532aa3d0b0df08e1c24653448d8ed1a1e5",
+    "changeKey": "8904a6cef78e2ba40e9aa603225d47c9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c14f2f1a5a7261e3a179",
+    "workId": "c14f2f1a5a7261e3a179",
+    "driveFileId": "1ZWTSo5HeNDcz1aEzl5MnmBcAy4x988eP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:32:30.530158+00:00",
+    "updatedAt": "2026-09-22T22:32:30.530210+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:32:30.530312+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무엇을 선택할 것인가",
+    "author": "장하준, 정승일, 이종태",
+    "genre": "경제/사회",
+    "tags": [
+      "한국경제",
+      "복지국가",
+      "자유주의",
+      "경제민주화",
+      "재벌개혁"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "경제학자 장하준, 정승일과 기자 이종태의 대담집.",
+    "oneLineSummary": "한국 경제의 현실을 진단하고 복지국가라는 대안을 제시하는 대담집.",
+    "overallSummary": "자유주의와 신자유주의의 한계를 지적하며, 한국 경제가 나아가야 할 방향으로 복지국가를 제시한다. 재벌 개혁, FTA, 노동 문제 등을 다루며 경제 민주화와 복지국가의 필요성을 역설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "금융 위기와 자유주의",
+        "summary": "금융 위기의 원인을 자유 시장 맹신에서 찾고 자유주의를 경계해야 함을 논한다."
+      },
+      {
+        "sectionTitle": "재벌 개혁과 복지국가",
+        "summary": "재벌 개혁의 방향과 복지국가가 경제 성장의 선순환을 이룰 수 있음을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주장",
+        "value": "신자유주의적 자유 시장 정책을 경계하고 복지국가를 통해 경제 성장을 도모해야 한다."
+      }
+    ],
+    "keyEntitiesText": "장하준, 정승일, 이종태, 박정희, 노무현, 이명박",
+    "settingText": "2012년 대선을 앞둔 한국의 경제적, 정치적 상황."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1f2b1JRVNKTA2yn-hVfjAI4s1N-nh3fSl",
+    "filename": "장하준 외-무엇을 선택할 것인가(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T05:20:34.000Z",
+    "size": "820646",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1f2b1JRVNKTA2yn-hVfjAI4s1N-nh3fSl/view?usp=drivesdk",
+    "sourceSha256": "378f5c10b5329d4476209ff4f400286fb808ea60970730b92c2307c5f988137a",
+    "textSha256": "66d943ff60c2155691fe29b16d10d9ec1280ce376fd1c0b9b1da78ef8200544f",
+    "changeKey": "fc0d64ddc1e269d8681dbfd0ec40f67b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f577d2286caf84008be8",
+    "workId": "f577d2286caf84008be8",
+    "driveFileId": "1f2b1JRVNKTA2yn-hVfjAI4s1N-nh3fSl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:32:58.469581+00:00",
+    "updatedAt": "2026-09-22T22:32:58.469597+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:32:58.469689+00:00"
+    }
+  }
+}
