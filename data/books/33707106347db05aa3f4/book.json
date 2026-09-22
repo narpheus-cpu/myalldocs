@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비운의 주드",
+    "author": "토마스 하디",
+    "genre": "소설",
+    "tags": [
+      "비극",
+      "영문학",
+      "결혼제도"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "비극소설",
+        "고전"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 위대한 소설가이자 시인으로 인간의 운명과 비극을 주로 다루었다.",
+    "oneLineSummary": "엄격한 사회적 인습과 결혼 제도의 모순 속에서 좌절하는 인간의 비극적 삶을 그린 작품이다.",
+    "overallSummary": "대학에서 학문을 배우고자 하는 꿈을 가졌으나 가난과 인습에 가로막힌 주드와 수 브라이드헤드의 비극적인 삶과 사랑을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 메리그린에서",
+        "summary": "어린 소년 주드가 지식에 대한 갈망을 품고 스승인 필로트슨의 떠남을 아쉬워하는 내용."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "결혼 제도와 사회적 인습에 대한 비판"
+      }
+    ],
+    "keyEntitiesText": "주드 폴리, 필로트슨, 드루실라 폴리, 수 브라이드헤드",
+    "settingText": "영국 남서부 웨섹스의 구릉지대와 메리그린 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HgweYVWUzIGIUVkKbrGab8UTudYFY9V1",
+    "filename": "토마스 하디-비운의 주드.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.951Z",
+    "size": "775729",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1HgweYVWUzIGIUVkKbrGab8UTudYFY9V1/view?usp=drivesdk",
+    "sourceSha256": "caa6205a400beba134fa2f6ef92c477540d342ebb91bb97eda6b1c62f40554ea",
+    "textSha256": "23ab981bf2151f1f18126b16dccdfe6db73510df3f9680ba5ead3b4c75bf56ea",
+    "changeKey": "de7d7c2ce39003a3f0fc0ba5ad580347",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "33707106347db05aa3f4",
+    "workId": "33707106347db05aa3f4",
+    "driveFileId": "1HgweYVWUzIGIUVkKbrGab8UTudYFY9V1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:14:05.331824+00:00",
+    "updatedAt": "2026-09-22T03:14:05.331841+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:14:05.331948+00:00"
+    }
+  }
+}

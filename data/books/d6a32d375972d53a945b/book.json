@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내 영혼이 따뜻했던 날들",
+    "author": "포리스트 카터",
+    "genre": "소설",
+    "tags": [
+      "자전적소설",
+      "인디언",
+      "성장소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "자전적소설",
+        "성장"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 작가로 체로키 인디언의 혈통을 이어받아 자연과 인간의 조화를 그린 작품을 남겼다.",
+    "oneLineSummary": "고아가 된 인디언 소년이 산속에서 조부모와 함께 살며 체로키의 지혜를 배우는 감동적인 자전적 소설.",
+    "overallSummary": "다섯 살에 부모를 잃고 체로키족 할아버지, 할머니에게 맡겨진 '작은 나무'가 자연의 이치와 사랑, 이웃과의 공감을 배우며 성장하는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "내 이름은 작은 나무",
+        "summary": "부모를 여의고 친척들의 틈에서 할아버지의 손을 잡고 산속 오두막으로 찾아가게 되는 소년의 이야기."
+      },
+      {
+        "sectionTitle": "자연의 이치",
+        "summary": "할아버지와 함께 산을 오르며 자연의 순리와 생태계의 섭리를 체득하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "자연과의 조화와 인디언의 전통적 지혜"
+      }
+    ],
+    "keyEntitiesText": "작은 나무, 할아버지(웨일즈), 할머니, 모드",
+    "settingText": "미국 동부 애팔래치아 산맥의 체로키 산속 오두막"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yPh9rfmojkKRFv7Nx2k1y-k_O5pdgCIq",
+    "filename": "포리스트 카터-내 영혼이 따뜻했던 날들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.238Z",
+    "size": "406916",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1yPh9rfmojkKRFv7Nx2k1y-k_O5pdgCIq/view?usp=drivesdk",
+    "sourceSha256": "02b15b8d63cd2930bd11950c7f8897f0a54d65c55af6f127fbb9ff6d8b3609f4",
+    "textSha256": "bfa97dcfb2f27031381d11d046f99604afc63d57103c9e276bfc44a0703cce3d",
+    "changeKey": "838d4af0a9a2a19af08d2ec18d83706c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d6a32d375972d53a945b",
+    "workId": "d6a32d375972d53a945b",
+    "driveFileId": "1yPh9rfmojkKRFv7Nx2k1y-k_O5pdgCIq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:15:38.941738+00:00",
+    "updatedAt": "2026-09-22T03:15:38.941753+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:15:38.941888+00:00"
+    }
+  }
+}

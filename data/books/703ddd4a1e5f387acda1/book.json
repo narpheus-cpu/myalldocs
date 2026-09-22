@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "성난 군중으로부터 멀리",
+    "author": "토마스 하디",
+    "genre": "소설",
+    "tags": [
+      "영문학",
+      "고전소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스",
+        "목가소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 대표적인 소설가로 빅토리아 시대 농촌의 삶을 배경으로 비극과 인간의 운명을 다루었다.",
+    "oneLineSummary": "독립적이고 아름다운 여인과 그녀를 사랑하는 남성들의 이야기를 그린 소설이다.",
+    "overallSummary": "가브리엘 오크의 묵묵한 사랑과 배움의 여정을 통해 인간의 삶과 자연의 순리를 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 농부오크의 용모",
+        "summary": "성실한 농부 가브리엘 오크의 성품과 외모, 그리고 우연히 마차 위의 아름다운 여인을 목격하는 장면."
+      },
+      {
+        "sectionTitle": "2. 밤",
+        "summary": "노콤 언덕에서 양떼를 돌보는 가브리엘 오크의 밤풍경과 고요한 사색."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "배경",
+        "value": "19세기 영국의 전원 지역"
+      }
+    ],
+    "keyEntitiesText": "가브리엘 오크, 배스세바 에버딘",
+    "settingText": "노콤 언덕, 웨섹스의 농촌 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nD2WD_kAuhCMnBB0ppk_lY-FT2TJZsgz",
+    "filename": "토머스 하디-성난 군중으로부터 멀리(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.992Z",
+    "size": "762901",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1nD2WD_kAuhCMnBB0ppk_lY-FT2TJZsgz/view?usp=drivesdk",
+    "sourceSha256": "03ad3bac9e960d88c89b5ebdf196e287a677d4a632c132b1fcb30529e2e6b3b9",
+    "textSha256": "24fd1b7540f4eb060604626a3abf1cf1738e2f93beb7b3ccd921a85ca0e64670",
+    "changeKey": "43acda9323cf8ed5a632209469abb4b4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "703ddd4a1e5f387acda1",
+    "workId": "703ddd4a1e5f387acda1",
+    "driveFileId": "1nD2WD_kAuhCMnBB0ppk_lY-FT2TJZsgz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:14:19.000862+00:00",
+    "updatedAt": "2026-09-22T03:14:19.000876+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8544,
+      "updatedAt": "2026-09-22T03:14:19.000963+00:00"
+    }
+  }
+}

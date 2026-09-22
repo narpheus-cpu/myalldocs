@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "콘트라베이스",
+    "author": "파트리크 쥐스킨트",
+    "genre": "희곡",
+    "tags": [
+      "모노드라마",
+      "희곡",
+      "음악"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "모노드라마",
+        "희곡"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 소설가이자 극작가로 깊이 있는 내면 묘사가 특징이다.",
+    "oneLineSummary": "오케스트라에서 콘트라베이스를 연주하는 한 남자의 고뇌와 삶을 담은 1인극 모노드라마.",
+    "overallSummary": "오케스트라의 기초를 떠받치지만 주목받지 못하는 콘트라베이스의 역할에 빗대어, 평범한 소시민의 소외감과 짝사랑의 아픔을 위트 있게 토로한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "콘트라베이스",
+        "summary": "방 안에서 맥주를 마시며 콘트라베이스라는 악기의 중요성과 자신의 삶에 대해 열변을 토하는 연주자의 독백."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "남성 1인극 모노드라마"
+      }
+    ],
+    "keyEntitiesText": "콘트라베이스 연주자, 세라(소프라노)",
+    "settingText": "연주자의 방 안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hDkjr1dvNf0H1IBFHGym4fwxIUS3NJcV",
+    "filename": "파트리크 쥐스킨트-콘트라베이스 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.190Z",
+    "size": "139372",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1hDkjr1dvNf0H1IBFHGym4fwxIUS3NJcV/view?usp=drivesdk",
+    "sourceSha256": "787b96f6075a85e245a9793d9af582c7b9890d300246864f0a0d1dd257a1ade9",
+    "textSha256": "099e76d8e25a928ce3abeb316f86aaaba0de53da0c05d2baacd441059a7b04b6",
+    "changeKey": "01d3f30ff6ad9136d80ae3ce4d9ce76b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9969e297e8a1f035a36a",
+    "workId": "9969e297e8a1f035a36a",
+    "driveFileId": "1hDkjr1dvNf0H1IBFHGym4fwxIUS3NJcV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:15:19.985046+00:00",
+    "updatedAt": "2026-09-22T03:15:19.985060+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:15:19.985161+00:00"
+    }
+  }
+}

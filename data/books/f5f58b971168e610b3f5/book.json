@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내 여자친구의 남자친구",
+    "author": "파스칼",
+    "genre": "소설",
+    "tags": [
+      "청소년소설",
+      "성장소설",
+      "로맨스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "청소년",
+        "로맨틱코미디"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "청소년들의 일상과 감정을 유머러스하게 그려내는 소설가.",
+    "oneLineSummary": "열여섯 살 소녀의 일상과 여름 캠프를 앞둔 고민들을 유쾌하게 그려낸 소설이다.",
+    "overallSummary": "까칠한 여동생과의 갈등, 남자친구와의 관계, 여름 캠프 아르바이트를 앞둔 기대와 걱정 등을 발랄한 1인칭 시점으로 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "열여섯 살 생일을 맞이한 주인공의 깜짝파티와 여름 캠프 아르바이트를 떠나기 전의 준비 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "발랄하고 솔직한 1인칭 청소년 시점"
+      }
+    ],
+    "keyEntitiesText": "주인공 소녀, 니나, 스테피, 토드",
+    "settingText": "도시의 가정집과 여름 캠프장 모하프"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gtaExeuty_xxsLPk-A1-R9Dr8vfAEOxg",
+    "filename": "파스칼-내 여자친구의 남자친구.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.089Z",
+    "size": "282538",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1gtaExeuty_xxsLPk-A1-R9Dr8vfAEOxg/view?usp=drivesdk",
+    "sourceSha256": "5f6717c0165b7ec49e9263bc4d78e29d45795a684132e1682fe73cf20295e4e7",
+    "textSha256": "a3f9f492e39facd491b2837961c84175d74d68ebef4eeaf7f8545c779ee7e20c",
+    "changeKey": "09cf6fb041fd7f040b4fb268ec91b518",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f5f58b971168e610b3f5",
+    "workId": "f5f58b971168e610b3f5",
+    "driveFileId": "1gtaExeuty_xxsLPk-A1-R9Dr8vfAEOxg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:14:48.037763+00:00",
+    "updatedAt": "2026-09-22T03:14:48.037777+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:14:48.037865+00:00"
+    }
+  }
+}

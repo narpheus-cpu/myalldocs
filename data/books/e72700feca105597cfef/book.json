@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "새 기계를 만드는 사람들",
+    "author": "트레이시 키더",
+    "genre": "논픽션",
+    "tags": [
+      "기술",
+      "컴퓨터",
+      "개발"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "논픽션",
+        "기술사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 저널리스트이자 논픽션 작가로 치밀한 취재를 바탕으로 글을 쓴다.",
+    "oneLineSummary": "새로운 컴퓨터 기계를 개발하기 위해 치열하게 일하는 엔지니어들의 이야기를 다룬 논픽션이다.",
+    "overallSummary": "데이터 제너럴사에서 새로운 미니컴퓨터를 개발하는 프로젝트에 참여한 젊은 기술자들의 열정과 고뇌를 생생하게 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "폭풍우 속의 진짜 사나이",
+        "summary": "항해 중 폭풍우 속에서도 에너지를 잃지 않는 탐 웨스트의 독특한 인물 묘사."
+      },
+      {
+        "sectionTitle": "1장 돈 많이 버는 비법",
+        "summary": "매사추세츠주 고속도로 주변의 첨단 기업들의 풍경과 컴퓨터 산업의 발전 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "컴퓨터 개발 현장의 생생한 실화 바탕 논픽션"
+      }
+    ],
+    "keyEntitiesText": "탐 웨스트, 데이터 제너럴",
+    "settingText": "미국 매사추세츠주 웨스트보로"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sqTKtuRLj2DDUXoniInuvLoeqO-S2349",
+    "filename": "트레이시 키더-새 기계를 만드는 사람들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.051Z",
+    "size": "678706",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1sqTKtuRLj2DDUXoniInuvLoeqO-S2349/view?usp=drivesdk",
+    "sourceSha256": "b317fb4f63690a025100d1c5bea20ab50a258ab4d9ba8ccad72c8fa8f9f47e5d",
+    "textSha256": "3ddf4fea68f9d85f79f9bcb7e7715a4780769e69249bef7d4eb22f54fdbdd7ca",
+    "changeKey": "1ae4d311a3081917245ebfda12857871",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e72700feca105597cfef",
+    "workId": "e72700feca105597cfef",
+    "driveFileId": "1sqTKtuRLj2DDUXoniInuvLoeqO-S2349",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:14:33.592792+00:00",
+    "updatedAt": "2026-09-22T03:14:33.592808+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:14:33.592911+00:00"
+    }
+  }
+}

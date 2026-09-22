@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비둘기",
+    "author": "파트리크 쥐스킨트",
+    "genre": "소설",
+    "tags": [
+      "독일소설",
+      "현대문학",
+      "심리소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "중편소설",
+        "부조리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 은둔 작가로 인간의 내면을 예리하고 위트 있게 그려낸다.",
+    "oneLineSummary": "평화롭고 단조로운 삶을 살아가던 경비원 조나단 노엘이 문앞에 나타난 비둘기 한 마리로 인해 겪는 극심한 혼란을 그린 소설.",
+    "overallSummary": "예측 불가능한 사건을 극도로 혐오하며 자신만의 작은 방에서 평화를 누리던 조나단이 아침에 우연히 비둘기를 마주치면서 삶의 안정이 무너지는 공포를 경험한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "비둘기 사건이 터지기 전 조나단의 과거 삶과 파리에서의 은둔적 생활, 그리고 비둘기로 인한 충격과 공포."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "일상의 질서가 깨질 때 찾아오는 현대인의 실존적 불안"
+      }
+    ],
+    "keyEntitiesText": "조나단 노엘, 라살르 부인",
+    "settingText": "프랑스 파리 플랑슈 가의 작은 방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1g-B2dTJKZvT6NI2w9F3DV63V82eY3C6T",
+    "filename": "파트리크 쥐스킨트- 비둘기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.123Z",
+    "size": "116458",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1g-B2dTJKZvT6NI2w9F3DV63V82eY3C6T/view?usp=drivesdk",
+    "sourceSha256": "1ac6ee8b5609088a3c41e1ef9c9d36102044a42c85fadd7c49426bea37ec7aa4",
+    "textSha256": "ea6b608adba38c67124edb75c95e384d95368953c4de3433e0419b16c083e0a5",
+    "changeKey": "75a1b3ad38625bd9d6f75ce0d855f299",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3864121eecd9b59b9e3d",
+    "workId": "3864121eecd9b59b9e3d",
+    "driveFileId": "1g-B2dTJKZvT6NI2w9F3DV63V82eY3C6T",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:15:00.234138+00:00",
+    "updatedAt": "2026-09-22T03:15:00.234152+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:15:00.234257+00:00"
+    }
+  }
+}

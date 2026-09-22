@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "좀머 씨 이야기",
+    "author": "파트리크 쥐스킨트",
+    "genre": "소설",
+    "tags": [
+      "독일소설",
+      "성장소설",
+      "우화"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "우화",
+        "성장"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 대표적인 소설가로 독특한 상상력과 인간에 대한 통찰을 보여준다.",
+    "oneLineSummary": "텅 빈 배낭을 메고 끊없이 걷는 수수께끼 같은 좀머 씨의 기이한 인생을 소년의 시선으로 그린 소설.",
+    "overallSummary": "현대 사회의 고독과 상처를 안고 끊임없이 걷는 좀머 씨의 행로를 한 소년의 회상을 통해 서정적이고 감동적으로 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "좀머 씨 이야기",
+        "summary": "나무 타기를 좋아하던 소년 시절의 기억과 함께 동네를 쉬지 않고 걸어 다니던 좀머 씨에 대한 회상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "현대인의 고독과 세상으로부터의 도피"
+      }
+    ],
+    "keyEntitiesText": "좀머 씨, 나(소년), 슈탕엘마이어",
+    "settingText": "독일의 호숫가 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CcaOsgVjMTdkdPPiONQVBb4J1nxjfGdt",
+    "filename": "파트리크 쥐스킨트-좀머 씨 이야기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.177Z",
+    "size": "142390",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1CcaOsgVjMTdkdPPiONQVBb4J1nxjfGdt/view?usp=drivesdk",
+    "sourceSha256": "13b8edb41f32e7a627116ce0aab3199e1de462b81317ce9561826e8a307d457d",
+    "textSha256": "c72d93f1885167859c2741fadd59f5df9db5cdd4529351e33491834c0df19477",
+    "changeKey": "e3a1085a7db6676e8e0a1bfe9fd2b418",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "373e89bed4b76d47e049",
+    "workId": "373e89bed4b76d47e049",
+    "driveFileId": "1CcaOsgVjMTdkdPPiONQVBb4J1nxjfGdt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:15:13.793811+00:00",
+    "updatedAt": "2026-09-22T03:15:13.793826+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:15:13.793925+00:00"
+    }
+  }
+}

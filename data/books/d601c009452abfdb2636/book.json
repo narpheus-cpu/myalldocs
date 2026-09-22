@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "왜 쓰는가",
+    "author": "폴 오스터",
+    "genre": "에세이",
+    "tags": [
+      "에세이",
+      "글쓰기",
+      "작가"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "자전적",
+        "에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 저명한 소설가로 독창적인 이야기와 성찰이 담긴 글을 발표해왔다.",
+    "oneLineSummary": "글을 쓰게 된 동기와 작가로서의 삶과 생각이 담긴 자전적 에세이집.",
+    "overallSummary": "작가 폴 오스터가 어린 시절 야구 선수를 만나 사인받지 못한 일화 등 글쓰기를 시작하게 된 계기와 사회적·정치적 참여에 대한 단상을 진솔하게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "뉴욕 주의 질의에 대한 답변",
+        "summary": "뉴욕이라는 도시와 연관된 어린 시절의 기억과 일화."
+      },
+      {
+        "sectionTitle": "왜 쓰는가",
+        "summary": "작가가 문학의 길로 들어서게 된 자전적 동기와 경험담."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "작가 자신의 내면과 문학적 뿌리를 솔직하게 고백한 에세이"
+      }
+    ],
+    "keyEntitiesText": "폴 오스터",
+    "settingText": "미국 뉴욕"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UytQ5YvUH3JvxbDhYf9FrtJMNh-5BB9O",
+    "filename": "폴 오스터-왜 쓰는가(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T09:30:48.000Z",
+    "size": "58616",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1UytQ5YvUH3JvxbDhYf9FrtJMNh-5BB9O/view?usp=drivesdk",
+    "sourceSha256": "6ce731b549e21f4905ba45a169d872387ed7aafdccfe153167b1549f0154a7be",
+    "textSha256": "32a11883d8e717ef1631abd6aac3f5543bff687ffb4d8ef032c7462f141ccbcd",
+    "changeKey": "68cd1de70ac540f1007c6f2741de0105",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d601c009452abfdb2636",
+    "workId": "d601c009452abfdb2636",
+    "driveFileId": "1UytQ5YvUH3JvxbDhYf9FrtJMNh-5BB9O",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:15:53.732484+00:00",
+    "updatedAt": "2026-09-22T03:15:53.732499+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:15:53.732606+00:00"
+    }
+  }
+}

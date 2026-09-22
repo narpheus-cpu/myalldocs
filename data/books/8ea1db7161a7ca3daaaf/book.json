@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "향수 - 어느 살인자의 이야기",
+    "author": "파트리크 쥐스킨트",
+    "genre": "소설",
+    "tags": [
+      "독일소설",
+      "베스트셀러",
+      "천재"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "스릴러",
+        "심리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 은둔 작가로 냄새라는 독특한 소재를 통해 인간의 욕망을 그려냈다.",
+    "oneLineSummary": "천재적인 후각을 가졌으나 체취가 없는 살인마 그르누이가 지상 최고의 향수를 만들기 위해 벌이는 기상천외한 이야기.",
+    "overallSummary": "18세기 프랑스를 배경으로 냄새에 관한 절대적인 재능을 타고난 장 바티스트 그르누이가 인간의 향기를 채집하기 위해 연쇄 살인을 저지르는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부",
+        "summary": "악취가 진동하는 18세기 파리에서 태어난 그르누이의 출생과 냄새에 대한 비범한 천재성의 발현."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "냄새와 후각이라는 감각적 세계"
+      }
+    ],
+    "keyEntitiesText": "장 바티스트 그르누이, 테리에 신부, 잔느 뷔시",
+    "settingText": "18세기 프랑스 파리와 그라스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sJCTxzUimgxfQkNmjO1qah6dIQhdvuoG",
+    "filename": "파트리크 쥐스킨트-향수-어느 살인자의 이야기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.204Z",
+    "size": "602684",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1sJCTxzUimgxfQkNmjO1qah6dIQhdvuoG/view?usp=drivesdk",
+    "sourceSha256": "df6f14f926d503201b6f5276e72a346171982529531c8370b00d1b440a472441",
+    "textSha256": "ff751f650f9d0b63439937aff204bcecdc134b23fc6e8483d8d41060a39ded1a",
+    "changeKey": "74d15538f1e3ffb1c2055ebfb27010c9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8ea1db7161a7ca3daaaf",
+    "workId": "8ea1db7161a7ca3daaaf",
+    "driveFileId": "1sJCTxzUimgxfQkNmjO1qah6dIQhdvuoG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:15:26.301020+00:00",
+    "updatedAt": "2026-09-22T03:15:26.301038+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:15:26.301144+00:00"
+    }
+  }
+}

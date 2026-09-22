@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "연금술사",
+    "author": "파울로 코엘료",
+    "genre": "소설",
+    "tags": [
+      "철학",
+      "자아찾기",
+      "우화"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "철학소설",
+        "성장"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "브라질 출신의 세계적인 작가로 영혼을 울리는 상징적인 우화 소설로 유명하다.",
+    "oneLineSummary": "보물을 찾아 떠나는 양치기 소년의 여정을 통해 '자아의 신화'를 찾아가는 과정을 그린 소설.",
+    "overallSummary": "산티아고라는 청년 양치기가 꿈에서 이집트 피라미드의 보물을 예견하고, 이를 찾아나서는 모험 속에서 우주의 언어와 진정한 사랑을 깨닫는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서",
+        "summary": "오스카 와일드의 나르키소스 이야기를 변형하여 호수의 시선을 통해 자아성찰의 의미를 전달."
+      },
+      {
+        "sectionTitle": "1부",
+        "summary": "양치기 산티아고가 버려진 교회에서 반복되는 꿈을 꾸고, 집시 노파를 찾아가 해몽을 듣는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "자아의 신화와 만물과 통하는 우주의 언어"
+      }
+    ],
+    "keyEntitiesText": "산티아고, 집시 노파, 상인의 딸",
+    "settingText": "스페인 안달루시아 지방과 타리파"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WpKlMMeXuYEORMIIQyyrzj0mhYcaILJs",
+    "filename": "파울로 코엘료-연금술사(Alchemist).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.107Z",
+    "size": "300372",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1WpKlMMeXuYEORMIIQyyrzj0mhYcaILJs/view?usp=drivesdk",
+    "sourceSha256": "95bcfbc8c50e8de6d8caeabb7232307aff4d6c1de4f274dc79b98f3913b918f3",
+    "textSha256": "550465771dc9d663a4feffddb137f9af9c9956d2aeb327b75e811aba020ccde0",
+    "changeKey": "f76ef6d3461909b2371fb5bc89327d22",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f81860dabdacd07d15b5",
+    "workId": "f81860dabdacd07d15b5",
+    "driveFileId": "1WpKlMMeXuYEORMIIQyyrzj0mhYcaILJs",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:14:54.228237+00:00",
+    "updatedAt": "2026-09-22T03:14:54.228253+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:14:54.228398+00:00"
+    }
+  }
+}

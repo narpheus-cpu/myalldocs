@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "작은이의 소망이야기",
+    "author": "토머스 하디 외",
+    "genre": "소설",
+    "tags": [
+      "단편소설",
+      "영국소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "토머스 하디를 비롯한 작가들의 소설을 묶은 작품집이다.",
+    "oneLineSummary": "소박한 소망을 품고 살아가는 평범한 사람들의 삶과 애환을 그린 이야기이다.",
+    "overallSummary": "어머니와 아들의 관계, 과거의 사랑과 그리움 등 소박한 이들의 일상과 내면의 소망을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "어머니와 아들",
+        "summary": "과거의 아픈 인연을 뒤로하고 목사의 아내가 되었으나 아들과의 거리감 속에서 고독을 느끼는 소피의 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "평범한 인물의 소망과 쓸쓸한 삶"
+      }
+    ],
+    "keyEntitiesText": "소피, 샘 홉슨, 렌돌프, 트와이코트 씨",
+    "settingText": "영국 웨스트 석세스의 올드 블리컴과 런던 변두리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zLDb4ZhNnj-mbMZwrUa3Lj0eLoKWBj52",
+    "filename": "토머스 하디 외-작은이의 소망이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.976Z",
+    "size": "223878",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1zLDb4ZhNnj-mbMZwrUa3Lj0eLoKWBj52/view?usp=drivesdk",
+    "sourceSha256": "0d311e065448ec35329fade8a45c9093aafd2fdc67f36e33630c94c9306a9c3a",
+    "textSha256": "c29bc9b7ae7c545fc1ab9d43557eaf38afc49abbe7e0b5e8bee5ac87334d83c4",
+    "changeKey": "8130733b723486eb369d72ea023cf256",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c3f73934d3684d5718f4",
+    "workId": "c3f73934d3684d5718f4",
+    "driveFileId": "1zLDb4ZhNnj-mbMZwrUa3Lj0eLoKWBj52",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:14:12.007573+00:00",
+    "updatedAt": "2026-09-22T03:14:12.007588+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:14:12.007672+00:00"
+    }
+  }
+}

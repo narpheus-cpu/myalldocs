@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어느 작가의 오후",
+    "author": "페터 한트케",
+    "genre": "소설",
+    "tags": [
+      "오스트리아문학",
+      "중편소설",
+      "산책"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "중편소설",
+        "에세이풍"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오스트리아 출신의 세계적인 작가로 현대 독일어권 문학의 거장이다.",
+    "oneLineSummary": "12월의 어느 오후, 작가가 산책길에서 마주한 외부 세계와 감정의 흐름을 그린 소설.",
+    "overallSummary": "사건 없이 첫눈이 내리는 겨울 오후에 작가가 산책하며 관찰하는 사물과 풍경, 그리고 글쓰기에 대한 사유를 섬세하게 포착한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "언어와 글쓰기에 대한 사색을 하며 책상에서 일어나 집 밖으로 나설 준비를 하는 작가의 모습."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "정원을 지나 도시의 거리로 산책을 나가며 주변의 사물과 사람들을 관찰하는 작가의 내면 묘사."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "사건 중심이 아닌 정확한 관찰과 시적 사유 중심의 서사"
+      }
+    ],
+    "keyEntitiesText": "작가",
+    "settingText": "12월의 도시와 작가의 집 주변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LLci4ba7jOEtCXG8X4vMNwxAg4sPuAVK",
+    "filename": "페터 한트케-어느 작가의 오후 페터 한트케 중편소설.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.225Z",
+    "size": "165919",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1LLci4ba7jOEtCXG8X4vMNwxAg4sPuAVK/view?usp=drivesdk",
+    "sourceSha256": "6d6d55c606de878fecb862403847b323deedd1edbbfcdbe212a180c0ef1a9301",
+    "textSha256": "bf384d974f78455ec4530d4e4c86637182eab65676ccbced14030bc61d2fdac6",
+    "changeKey": "ebcca5314888bc80b3ddc62ad2855d2c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "faaac5cd7824b9132770",
+    "workId": "faaac5cd7824b9132770",
+    "driveFileId": "1LLci4ba7jOEtCXG8X4vMNwxAg4sPuAVK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:15:32.762051+00:00",
+    "updatedAt": "2026-09-22T03:15:32.762068+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:15:32.762179+00:00"
+    }
+  }
+}

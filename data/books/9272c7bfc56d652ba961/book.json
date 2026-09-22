@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고독의 발명",
+    "author": "폴 오스터",
+    "genre": "에세이",
+    "tags": [
+      "자전적에세이",
+      "기억",
+      "아버지"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "회고록",
+        "자전적"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 소설가이자 시인으로 우연과 고독을 주제로 한 독창적인 작품 세계를 지니고 있다.",
+    "oneLineSummary": "갑작스러운 아버지의 죽음 이후 그의 삶을 추적하고 기억을 복원하는 자전적 에세이.",
+    "overallSummary": "감정을 드러내지 않고 보이지 않는 삶을 살다간 아버지의 죽음을 맞이한 작가가 그가 남긴 유품과 기억을 통해 아버지의 실체와 인간의 고독을 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "보이지 않는 남자의 초상화",
+        "summary": "아버지의 갑작스러운 사망 소식과 그가 남긴 흔적 없는 삶, 그리고 거대한 유품 정리를 통해 아버지를 이해하려는 시도."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "회고와 기억의 복원을 결합한 자전적 논픽션"
+      }
+    ],
+    "keyEntitiesText": "아버지, 다니엘, 폴 오스터",
+    "settingText": "미국 뉴저지와 뉴욕"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1twHEyma2EKKw_K8QT18FJ3dOyBTjm87h",
+    "filename": "폴 오스터-고독의 발명(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T09:29:58.000Z",
+    "size": "483361",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1twHEyma2EKKw_K8QT18FJ3dOyBTjm87h/view?usp=drivesdk",
+    "sourceSha256": "5108547333c733580037fc0fc539bffb717c655c5e2da071ff24b0fe9f9c70f8",
+    "textSha256": "40fa33541745f103c62887507556c168798890c3c2859906ae7508183023e8f0",
+    "changeKey": "f5e8c9e3d49d0e9ef35f2b2d989a6e36",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9272c7bfc56d652ba961",
+    "workId": "9272c7bfc56d652ba961",
+    "driveFileId": "1twHEyma2EKKw_K8QT18FJ3dOyBTjm87h",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:15:46.717967+00:00",
+    "updatedAt": "2026-09-22T03:15:46.717982+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:15:46.718069+00:00"
+    }
+  }
+}
