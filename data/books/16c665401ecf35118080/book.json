@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사이킥",
+    "author": "천령",
+    "genre": "판타지",
+    "tags": [
+      "초능력",
+      "천신계",
+      "아카데미",
+      "몬스터"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "현대판타지",
+        "아카데미물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "천령",
+    "oneLineSummary": "천신계의 령(靈)이었던 존재가 기억을 봉인당한 채 2048년 지구에 환생하여 초능력 학교에 얽히게 되는 이야기.",
+    "overallSummary": "태초의 혼돈 속에서 태어난 령(靈)들 중 가장 강대한 존재였던 천령은 성령의 음모로 기억과 힘이 봉인된 채 인간으로 환생한다. 2048년 지구에 떨어진 유성과 바이러스, 그리고 백신으로 인해 인류에게 초능력이 발현되고 몬스터가 출몰하는 혼란 속에서, 주인공은 기억을 잃은 채 알몸으로 깨어나 백광현 할아버지를 만난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "태초의 에너지 충돌에서 탄생한 정신적 생명체들이 생존을 위해 투쟁하고 강해진 끝에 '령(靈)'으로 진화한 유래가 밝혀진다. 이후 천신계에서 성령의 배신으로 천령이 기억과 힘이 봉인된 채 차원의 틈새로 추방당한다."
+      },
+      {
+        "sectionTitle": "제 1장. 부활. 그리고…",
+        "summary": "2048년 지구에 유성과 바이러스, 백신 사태가 터지며 초능력자들과 몬스터의 시대가 열린다. 50년 후, 기억을 잃은 채 부활한 주인공은 백광현 할아버지의 간호를 받다가 양아치들을 만나고 초능력 경찰과 대치한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 설정",
+        "value": "태초의 령(靈)이 인간으로 환생, 초능력 백신 부작용으로 인한 초능력자 탄생"
+      },
+      {
+        "key": "주요 배경",
+        "value": "초능력자 교육시설 '사이킥 아카데미'"
+      }
+    ],
+    "keyEntitiesText": "천령(주인공), 성령, 백광현",
+    "settingText": "천신계, 2048년 이후의 지구(대한민국 서울)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1p5LZLhe74-wzHWoxfve4kt-5VTt1-9V9",
+    "filename": "사이킥(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:44.500Z",
+    "size": "1769042",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1p5LZLhe74-wzHWoxfve4kt-5VTt1-9V9/view?usp=drivesdk",
+    "sourceSha256": "29d5ed83f12c05275866cb901835ffcb9aecf58f8fc372b0ac5f2abab29c4567",
+    "textSha256": "fd4f30abac2ca30d7de5c7892e061caa562ba206ebd5bc0f465535ffee986d30",
+    "changeKey": "e5ecc299a64a17f2bd3b156d167bf025",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "16c665401ecf35118080",
+    "workId": "16c665401ecf35118080",
+    "driveFileId": "1p5LZLhe74-wzHWoxfve4kt-5VTt1-9V9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:16:42.956765+00:00",
+    "updatedAt": "2026-09-22T12:16:42.956778+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-22T12:16:42.956887+00:00"
+    }
+  }
+}

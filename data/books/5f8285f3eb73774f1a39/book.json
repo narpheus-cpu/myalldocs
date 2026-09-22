@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "본국검법",
+    "author": "- AN -",
+    "genre": "판타지",
+    "tags": [
+      "무협",
+      "검객",
+      "일본",
+      "조선"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "역사판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "일본 최고의 검객 하나기리가 폭풍우 치는 해변에서 기억을 잃은 조선 소년 준을 구출하며 벌어지는 이야기.",
+    "overallSummary": "일본국 최고 검술가 중 한 명이자 냉혹한 비정함의 화신인 '삼검신' 하나기리는 에찌젠 해변에서 사슬낫을 쓰는 기노시따를 단숨에 베어버린다. 그 후 폭풍우가 지나간 바닷가에서 죽어가는 조선 소년 준을 발견하고, 평소의 냉혹함과 달리 그를 살려낸다. 깨어난 준은 자신이 누구인지 기억하지 못하는 기억상실 상태임을 깨닫고 혼란에 빠진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 화 꽃을 자르는 새",
+        "summary": "일본 최고의 검객이자 '하나기리'로 불리는 냉혹한 검객이 에찌젠 해변에서 기노시따와의 결투에서 승리한다. 이후 해변에서 죽어가던 조선 소년 준을 발견하고 구출한다."
+      },
+      {
+        "sectionTitle": "제 2 화 습격자들",
+        "summary": "여관에서 깨어난 준은 자신이 누구인지, 왜 이곳에 왔는지 기억하지 못함을 깨닫고 절망한다. 하나기리는 차가운 태도 속에서도 기억을 잃은 준을 향한 알 수 없는 책임감을 느낀다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 인물",
+        "value": "하나기리(꽃을 자른다는 삼검신 중 한 명), 준(기억을 잃은 조선 소년)"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "실전된 진정한 검법(본국검법)과 기억을 잃은 소년의 운명"
+      }
+    ],
+    "keyEntitiesText": "하나기리(도리), 준(성준), 기노시따",
+    "settingText": "일본 에찌젠 해변, 유끼미찌 여관"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Hs5xkzBM2hoAx3siumDGOyMDxu9d0MjL",
+    "filename": "본국검법(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:44.139Z",
+    "size": "2825093",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1Hs5xkzBM2hoAx3siumDGOyMDxu9d0MjL/view?usp=drivesdk",
+    "sourceSha256": "9d364078fb5f7f5e33c8dec4694d89635657a94a172c1ed80446595e4672205f",
+    "textSha256": "4263e952418a3a32de77e20c390f166ca5b03f2ad9cd92f338a548b7ec427c47",
+    "changeKey": "4c72e49c15e4452de1265350a92d9e16",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5f8285f3eb73774f1a39",
+    "workId": "5f8285f3eb73774f1a39",
+    "driveFileId": "1Hs5xkzBM2hoAx3siumDGOyMDxu9d0MjL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:16:06.166946+00:00",
+    "updatedAt": "2026-09-22T12:16:06.167002+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:16:06.167116+00:00"
+    }
+  }
+}

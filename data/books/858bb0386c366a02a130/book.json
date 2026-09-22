@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사이케델리아",
+    "author": "이상규 (sakali)",
+    "genre": "판타지",
+    "tags": [
+      "환상대륙",
+      "차원이동",
+      "엘프",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "차원이동물",
+        "환타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "지루한 학교생활을 하던 고등학생 권강한이 붉은 구슬을 주운 뒤 의문의 공간을 통해 환상대륙으로 이동하는 이야기.",
+    "overallSummary": "보충수업에 지친 고등학생 권강한은 하굣길에 붉은 구슬을 줍는 순간 세상이 멈춰버리는 현상을 겪는다. 이지러진 공간 속 암흑 통로로 이끌려 들어간 그는 정신을 차려보니 울창한 숲속에 떨어져 있음을 알게 된다. 숲을 헤매다 엘프의 마을에 도달한 그는 하이엘프 아세트 이소아밀을 만나 치료를 받고, 자신의 눈이 나쁜 것과 새로운 옷으로 갈아입혀진 사실을 깨닫는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "#1 믿을 수 없는 일",
+        "summary": "고등학생 권강한은 지루한 보충수업과 학교 주변의 냄새에 지쳐 하교하다가 붉은 빛을 내뿜는 구슬을 줍는다. 순간 세상이 멈추고 공간이 이지러지며 나타난 암흑 통로 속으로 빨려 들어간다."
+      },
+      {
+        "sectionTitle": "#2~4 엘프의 마을",
+        "summary": "정신을 차린 강한은 울창한 숲속을 헤매다 엘프 마을에 도달해 쓰러진다. 하이엘프 아세트 이소아밀의 치료를 받고 깨어난 그는 과일을 대접받고, 자신이 엘프의 마을에 와 있다는 사실과 마주한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공",
+        "value": "권강한(본명), 니트(아세트가 지어준 이름, 기억상실증으로 위장)"
+      },
+      {
+        "key": "주요 종족",
+        "value": "하이엘프"
+      }
+    ],
+    "keyEntitiesText": "권강한(니트), 아세트 이소아밀",
+    "settingText": "한국의 고등학교 일상, 환상대륙 카르본 컴파운드(엘프 마을)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14a0z75GlQ3S-pKo_WIa6Dwbzv_mVPoUP",
+    "filename": "사이케델리아(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:44.370Z",
+    "size": "3831905",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/14a0z75GlQ3S-pKo_WIa6Dwbzv_mVPoUP/view?usp=drivesdk",
+    "sourceSha256": "6c7c6d8a943690de040eda4006b158a7230101d258095e76741f5b1fb1bcc63e",
+    "textSha256": "b89d714eaa8c5e7edccb6c9482099f24bb7c68a2f5de0ac74a9fc5bd5a109dbf",
+    "changeKey": "cf9a4315bde5294092979e584d35709a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "858bb0386c366a02a130",
+    "workId": "858bb0386c366a02a130",
+    "driveFileId": "14a0z75GlQ3S-pKo_WIa6Dwbzv_mVPoUP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:16:27.868586+00:00",
+    "updatedAt": "2026-09-22T12:16:27.868597+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:16:27.868703+00:00"
+    }
+  }
+}

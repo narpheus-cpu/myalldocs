@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불멸의 기사",
+    "author": "유민수 (darkspwn)",
+    "genre": "판타지",
+    "tags": [
+      "기사",
+      "성도",
+      "판타지",
+      "전쟁"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "지스카드 가문의 후계자이자 '흡혈 자작'으로 불리는 얀이 기사 서품식을 위해 성도 카라얀으로 향하는 이야기.",
+    "overallSummary": "거친 전쟁과 살육 속에서 명예를 지키기 위해 검을 휘둘러 온 얀은 13년의 훈련 끝에 기사 서품을 받기 위해 성도 카라얀의 빌라스틴 성당으로 향한다. 사람들은 그를 '흡혈 자작'이라 부르며 두려워하고 혐오하지만, 얀은 아버지의 명예와 국왕과의 거래를 위해 가면으로 얼굴을 가린 채 성당에 입성한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "전쟁터에서 명예라는 이름 아래 도망치는 사람들을 무참히 학살하며 살육에 익숙해져 가는 얀의 잔혹한 현실이 그려진다."
+      },
+      {
+        "sectionTitle": "Ⅰ. 성도(聖都) 카라얀",
+        "summary": "성도 카라얀의 빌라스틴 성당으로 향하는 길에 얀은 친구 버트 랭카스터를 만난다. 사람들은 얀을 '흡혈 자작'이라 부르며 두려워하고, 얀은 국왕과의 거래와 기사 서품을 위해 성당 안으로 들어간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 인물",
+        "value": "얀(지스카드 가문의 후계자, 검은 가면을 쓴 기사 후보생)"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "기사의 명예와 그 이면에 숨겨진 잔혹한 폭력성"
+      }
+    ],
+    "keyEntitiesText": "얀, 버트 랭카스터, 안스바흐 지스카드, 이노센트 추기경, 카라얀",
+    "settingText": "성도 카라얀, 빌라스틴 성당"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bJXGqjbcUG0C4esOvo3glVz6byvQf0Gk",
+    "filename": "불멸의 기사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:44.209Z",
+    "size": "3122915",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1bJXGqjbcUG0C4esOvo3glVz6byvQf0Gk/view?usp=drivesdk",
+    "sourceSha256": "c5abcc612abfe5fc2e8927a1cffc094f3928400bc512bc241e234a07080a52dd",
+    "textSha256": "5019d1f47c70d7d485ec6bd59cdf9300c1e17e6d9ecbd73de3b2d9801bd01c81",
+    "changeKey": "7673115b73923c47c70c943a9ffdcc23",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d10c06823d76363286bd",
+    "workId": "d10c06823d76363286bd",
+    "driveFileId": "1bJXGqjbcUG0C4esOvo3glVz6byvQf0Gk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:16:13.561372+00:00",
+    "updatedAt": "2026-09-22T12:16:13.561388+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:16:13.561479+00:00"
+    }
+  }
+}

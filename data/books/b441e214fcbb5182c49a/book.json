@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "보스, 학교가다",
+    "author": "정우[挺羽]",
+    "genre": "판타지",
+    "tags": [
+      "조폭",
+      "학원물",
+      "액션",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "학원물",
+        "액션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "대한민국 최대 폭력조직 칠성회의 16세 보스 백천이 유언에 따라 고등학교에 입학하며 벌어지는 이야기.",
+    "overallSummary": "대한민국 최대 폭력조직 칠성회의 보스 백두정이 사망하고, 7년 동안 자취를 감추었던 후계자 백천이 장례식장에 나타난다. 백천은 뛰어난 무술 실력과 압도적인 카리스마로 조직 간부들을 제압하며 보스 자리에 오르지만, 돌아가신 아버지의 유언이자 어머니 한소영의 무서운 폭주 압박 때문에 고등학교에 입학하여 평범한(?) 학교생활을 시작하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1 - 1 보스(boss) 입학하다!!",
+        "summary": "칠성회 보스 백두정의 장례식에 7년 만에 나타난 아들 백천은 입구에서 조직원들을 제압하고 빈소에 들어선다. 이후 간부들의 기선을 제압하며 보스 승계식을 치른 백천은 아버지의 유언장에 따라 칠성고등학교에 입학하게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 인물",
+        "value": "백천(칠성회 5대 보스, 16세), 한소영(어머니), 백두정(선대 보스)"
+      },
+      {
+        "key": "핵심 설정",
+        "value": "조폭 보스가 고등학교에 강제 입학하여 벌어지는 에피소드"
+      }
+    ],
+    "keyEntitiesText": "백천, 백두정, 한소영, 강상찬, 장도철, 유백헌, 박철호",
+    "settingText": "대한민국 서울, 칠성병원, 칠성고등학교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fBPjVyfDdL8aCkBGZgpMFP4hdXTzn2zE",
+    "filename": "보스, 학교가다(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:44.042Z",
+    "size": "1506611",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1fBPjVyfDdL8aCkBGZgpMFP4hdXTzn2zE/view?usp=drivesdk",
+    "sourceSha256": "99e567aa9b14aa0cd1bb42c1a5c64b22c640d86ca1790ad8640eacd38cde5ad3",
+    "textSha256": "637fc6eb3ac80be788fc7edbae8de1314df123bb6b81f6f5b9dc93ce35d624f0",
+    "changeKey": "c01d8b3d617e5e41d0dd3eb92540281b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b441e214fcbb5182c49a",
+    "workId": "b441e214fcbb5182c49a",
+    "driveFileId": "1fBPjVyfDdL8aCkBGZgpMFP4hdXTzn2zE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:15:35.974847+00:00",
+    "updatedAt": "2026-09-22T12:15:35.974861+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:15:35.975077+00:00"
+    }
+  }
+}
