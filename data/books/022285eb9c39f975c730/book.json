@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "웃음이 묻어나는 편지",
+    "author": "MBC 라디오본부 엮음",
+    "genre": "유머/에세이",
+    "tags": [
+      "라디오 사연",
+      "웃음",
+      "추억",
+      "생활 유머",
+      "군대 이야기"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "유머",
+        "대중문화"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "MBC 라디오의 인기 방송 프로그램에서 청취자들이 보내온 재치 있고 폭소 만발한 사연들을 엮어낸 제작진입니다.",
+    "oneLineSummary": "일상 속에서 벌어진 기막힌 해프닝과 배꼽 잡는 사연들을 통해 유쾌한 웃음을 선사하는 에세이집입니다.",
+    "overallSummary": "목욕탕 때밀이의 굴욕, 군대 훈련소 종교 행사 소동, 학창시절 잉크 테러 해프닝 등 평범한 사람들이 살아가는 동안 겪은 웃기고도 감동적인 일상 속 에피소드들을 생생한 입담으로 풀어냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "하나. 추억이라는 이름의 웃음여행",
+        "summary": "목욕탕 파수꾼의 살벌한 때밀이 경험, 논산훈련소 종교 행사 대소동, 학창시절 잉크와 간장 해프닝 등을 담았습니다."
+      },
+      {
+        "sectionTitle": "둘. 생활속에 피어나는 웃음안개 ~ 셋. 사랑으로 풀어내는 웃음보따리",
+        "summary": "일상의 소소한 착오와 가족, 연인 사이에서 벌어진 유쾌한 소동들을 엮었습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적특징",
+        "value": "라디오 청취자들의 실제 사연을 구수한 입담으로 재구성한 생활 유머집"
+      },
+      {
+        "key": "주제",
+        "value": "고단한 삶 속에서 웃음과 해학으로 피어나는 인간미"
+      }
+    ],
+    "keyEntitiesText": "이종환, 최유라, 김좌진",
+    "settingText": "1970~90년대 대한민국 군대, 학교, 목욕탕 등의 일상 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XZds7X6cIECsYhvNlgpt19Gbmz9LCmzX",
+    "filename": "MBC 라디오본부 엮음-웃음이 묻어나는 편지 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:32.324Z",
+    "size": "484461",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1XZds7X6cIECsYhvNlgpt19Gbmz9LCmzX/view?usp=drivesdk",
+    "sourceSha256": "621ba28e5b84af06cf5e1fbfe8035376ef7761504eb10bad67cd7f8cc37e12c5",
+    "textSha256": "8f6904d62ee52a9338d47586e7e4561359e2b8915a67f26c89ce3e26429ba590",
+    "changeKey": "8e92a691cb69f689d875895aed174954",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "022285eb9c39f975c730",
+    "workId": "022285eb9c39f975c730",
+    "driveFileId": "1XZds7X6cIECsYhvNlgpt19Gbmz9LCmzX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:49:10.715385+00:00",
+    "updatedAt": "2026-09-22T23:49:10.715399+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:49:10.715498+00:00"
+    }
+  }
+}

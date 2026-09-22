@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "5.18 특파원 리포트",
+    "author": "한국기자협회 외",
+    "genre": "역사/르포",
+    "tags": [
+      "5.18 광주민주화운동",
+      "외신 기자",
+      "신군부",
+      "언론인",
+      "민주주의"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "르포",
+        "현대사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국기자협회, 무등일보, 시민연대모임이 1980년 5월 광주의 진실을 세계와 국내에 알린 기자들의 증언을 엮어 출간했습니다.",
+    "oneLineSummary": "1980년 5월 광주의 참혹한 진실을 목숨 걸고 취재하여 전 세계에 알린 내·외신 기자들의 생생한 기록입니다.",
+    "overallSummary": "신군부의 엄혹한 언론 통제 속에서도 광주로 잠입해 계엄군의 무자비한 학살과 시민군의 저항을 목격하고 보도했던 기자들의 회고록으로, 역사적 진실과 저널리즘의 사명감을 일깨워줍니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 신 군부의 만행을 전세계로 타전하다",
+        "summary": "AP통신 기자와 뉴욕타임스 기자 등이 총탄을 피해 광주로 잠입해 참상을 취재하고 외부로 기사를 송고했던 긴박한 경험을 증언합니다."
+      },
+      {
+        "sectionTitle": "2부 취재수첩에 묻어둔 광주의 진실",
+        "summary": "광주 현장에서 겪은 인간적 고뇌와 핏빛 아픔, 역사적 아이러니에 대한 소회를 담았습니다."
+      },
+      {
+        "sectionTitle": "3부 광주 5월 민중항쟁 관련 일지",
+        "summary": "5.18 당시의 주요 일지와 사건 전개를 기록했습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적의의",
+        "value": "신군부의 은폐 시도에 맞서 광주의 진실을 국내외에 폭로한 결정적 기록"
+      },
+      {
+        "key": "기자정신",
+        "value": "위험을 무릅쓴 현장 취재와 객관적 진실 보도의 중요성"
+      }
+    ],
+    "keyEntitiesText": "전두환, 김대중, 박정희, 최규하, 심재훈, 로빈 모이어, 필립 퐁스, 박관현, 표정두, 조성만, 박래전",
+    "settingText": "1980년 5월 전라남도 광주 및 서울"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17BZNAGklK2aW6hIYAC2vmbvbI4cT9yxe",
+    "filename": "5.18 특파원 리포트.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:32.076Z",
+    "size": "472926",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/17BZNAGklK2aW6hIYAC2vmbvbI4cT9yxe/view?usp=drivesdk",
+    "sourceSha256": "ad2b964d81f15d490cc622a0073c917c6b04a701df07adfdd6ae5a7a882335e0",
+    "textSha256": "af7c582c91e1edde005b46571df244d036f9781c9b4ad1907262fb1b6e40112f",
+    "changeKey": "5f782102961d34daa333b4f3e549b8b7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e63428cefd29d3e5a205",
+    "workId": "e63428cefd29d3e5a205",
+    "driveFileId": "17BZNAGklK2aW6hIYAC2vmbvbI4cT9yxe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:48:12.161438+00:00",
+    "updatedAt": "2026-09-22T23:48:12.161452+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:48:12.161552+00:00"
+    }
+  }
+}
