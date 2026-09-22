@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "해리포터와 불사조기사단 3",
+    "author": "조앤 K 롤링",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "호그와트",
+      "엄브릿지",
+      "교육 법령"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "young_adult"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조앤 K 롤링은 영국의 유명 판타지 소설가이다.",
+    "oneLineSummary": "엄브릿지가 교육 법령 24조를 공포하여 모든 학생 조직을 금지하고 해리의 학교생활을 압박한다.",
+    "overallSummary": "호그와트에 돌아온 해리는 엄브릿지와 마법부의 억압적인 통제에 직면한다. 특히 교육 법령 24조가 공포되어 학생들의 모든 모임과 클럽 활동이 금지되면서, 해리가 주도하던 어둠의 마법 방어술 모임이 위기를 맞는다. 한편 다친 헤드위그가 해리에게 날아오는 등 불안한 사건들이 이어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "교육 법령 24조",
+        "summary": "엄브릿지 장학사가 공포한 교육 법령 24조로 인해 3인 이상의 정기적인 학생 모임과 조직이 전면 금지된다. 해리와 친구들은 이 포고령이 자신들의 모임을 겨냥한 것임을 깨닫고 분노하며 대책을 고민한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 요소",
+        "value": "마법부의 권력이 학교 내부까지 침투하여 학생들의 자율성을 억압하는 갈등 구조."
+      }
+    ],
+    "keyEntitiesText": "해리 포터, 론 위즐리, 헤르미온느 그레인저, 돌로레스 엄브릿지, 헤드위그, 맥고나걸 교수",
+    "settingText": "호그와트 마법학교, 그리핀도르 휴게실, 대연회장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pomEopBwpHDgHbfe-n3NxxUeaqEihgyP",
+    "filename": "조앤 K 롤링-해리포터와 불사조기사단 3(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T06:44:36.000Z",
+    "size": "437441",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1pomEopBwpHDgHbfe-n3NxxUeaqEihgyP/view?usp=drivesdk",
+    "sourceSha256": "72f5e0ef519cfdd8b2de7f70f98872fca3348276bb92e09d9124fc35a2238ca4",
+    "textSha256": "86d24b6bcabe43b2f455f1a3429f0fc1e62ec4657600d97674e57f8600b3a1e7",
+    "changeKey": "1c6b5f644ca2f85118460e90b8ffe00a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3981992afde59bf43ac3",
+    "workId": "3981992afde59bf43ac3",
+    "driveFileId": "1pomEopBwpHDgHbfe-n3NxxUeaqEihgyP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:14:08.949454+00:00",
+    "updatedAt": "2026-09-22T14:14:08.949470+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:14:08.949627+00:00"
+    }
+  }
+}

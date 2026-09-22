@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "해리포터와 혼혈왕자 3",
+    "author": "조앤 K 롤링",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "덤블도어",
+      "펜시브",
+      "슬러그혼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "young_adult"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조앤 K 롤링은 영국의 대표적인 판타지 작가이다.",
+    "oneLineSummary": "크리스마스 휴가를 마치고 학교로 돌아온 해리가 덤블도어와 함께 슬러그혼의 기억에 대해 논의한다.",
+    "overallSummary": "위즐리 집에서의 방학을 마치고 플루 가루를 통해 호그와트로 돌아온 해리는 덤블도어 교장의 개인 수업에 참석한다. 덤블도어와 해리는 톰 리들(볼드모트)의 과거와 관련된 슬러그혼의 숨겨진 기억을 확보하기 위한 대책을 나눈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "슬러그혼의 기억",
+        "summary": "크리스마스 휴가를 마치고 호그와트에 돌아온 해리는 덤블도어 교장의 방에서 펜시브를 통한 수업을 재개한다. 두 사람은 볼드모트의 과거를 밝혀줄 슬러그혼의 진짜 기억을 얻어내는 방법에 대해 대화한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 미스터리",
+        "value": "볼드모트의 약점을 파헤치기 위해 과거의 기억을 추적하는 탐구 과정."
+      }
+    ],
+    "keyEntitiesText": "해리 포터, 알버스 덤블도어, 론 위즐리, 지니 위즐리, 위즐리 부인, 루퍼스 스크림저",
+    "settingText": "위즐리 부엌, 덤블도어의 교장실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eS_8A5VXDEVNndwxG0X4pD6miLsAZvGE",
+    "filename": "조앤 K 롤링-해리포터와 혼혈왕자 3(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T07:05:46.000Z",
+    "size": "395449",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1eS_8A5VXDEVNndwxG0X4pD6miLsAZvGE/view?usp=drivesdk",
+    "sourceSha256": "df1269a1208f521785869f9e9999dca751824709fe21bc57d277e6c16009fc22",
+    "textSha256": "cc6b7a592ce136b4ca3d17fd465c36c3af14cbaa100f9d7d87a2cb42789f8406",
+    "changeKey": "36400efc407c84b98d21409de5099a67",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "89104ee5e460545891bb",
+    "workId": "89104ee5e460545891bb",
+    "driveFileId": "1eS_8A5VXDEVNndwxG0X4pD6miLsAZvGE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:15:17.483821+00:00",
+    "updatedAt": "2026-09-22T14:15:17.483837+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:15:17.483940+00:00"
+    }
+  }
+}

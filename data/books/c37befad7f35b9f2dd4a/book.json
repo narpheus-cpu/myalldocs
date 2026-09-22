@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "해리포터와 불사조기사단 4",
+    "author": "조앤 K 롤링",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "스네이프",
+      "오클러먼시",
+      "시리우스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "young_adult"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조앤 K 롤링은 '해리 포터' 시리즈로 전 세계적인 명성을 얻은 작가이다.",
+    "oneLineSummary": "스네이프가 해리에게 정신 방어술인 오클러먼시를 가르치라는 덤블도어의 지시를 전달한다.",
+    "overallSummary": "크리스마스 휴가가 끝나갈 무렵, 스네이프가 그리몰드 광장 12번지를 찾아와 덤블도어의 지시라며 해리에게 오클러먼시를 가르치겠다고 통보한다. 시리우스와 스네이프는 또다시 팽팽한 신경전을 벌이고, 해리는 복잡한 심정으로 다시 호그와트로 향한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "오클러먼시",
+        "summary": "스네이프가 해리를 찾아와 볼드모트의 침투를 막기 위한 정신 방어술인 오클러먼시를 개인지도하겠다고 밝힌다. 시리우스와 스네이프는 과거의 악연으로 또다시 충돌하고, 해리는 우울한 마음을 안고 호그와트로 돌아간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 관계",
+        "value": "시리우스와 스네이프의 오랜 적대 관계와 해리가 겪어야 하는 이중적 스트레스."
+      }
+    ],
+    "keyEntitiesText": "해리 포터, 세베루스 스네이프, 시리우스 블랙, 알버스 덤블도어, 위즐리 부부",
+    "settingText": "그리몰드 광장 12번지 부엌, 구조 버스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CQbQ9vHwcGsK9Er8WWDUfmfzLxKYN1xt",
+    "filename": "조앤 K 롤링-해리포터와 불사조기사단 4(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T06:47:06.000Z",
+    "size": "485053",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1CQbQ9vHwcGsK9Er8WWDUfmfzLxKYN1xt/view?usp=drivesdk",
+    "sourceSha256": "873596ff70dee750873254db7af0b5e594bb9f00c972927fc8e25b260b65a874",
+    "textSha256": "7407414666fa2a5a7759235189730defd94134771747db3c983b651c87b30c93",
+    "changeKey": "e5772be53bc6afb412bd03dd64a3a49c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c37befad7f35b9f2dd4a",
+    "workId": "c37befad7f35b9f2dd4a",
+    "driveFileId": "1CQbQ9vHwcGsK9Er8WWDUfmfzLxKYN1xt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:14:16.090867+00:00",
+    "updatedAt": "2026-09-22T14:14:16.090883+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:14:16.090990+00:00"
+    }
+  }
+}
