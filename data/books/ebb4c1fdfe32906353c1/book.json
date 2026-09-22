@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "암흑제국의 패리어드",
+    "author": "이수영",
+    "genre": "판타지",
+    "tags": [
+      "정통 판타지",
+      "용",
+      "황궁",
+      "영지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "서사 판타지",
+        "영웅담"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "치밀한 세계관과 깊이 있는 인물 묘사로 한국 정통 판타지 문학을 대표하는 작가 이수영입니다.",
+    "oneLineSummary": "바람술사 이안과 레드 드래곤 사이에서 태어난 딸 패리어드를 둘러싼 황실의 정치적 암투와 모험을 다룹니다.",
+    "overallSummary": "귀환왕 이안의 오랜 동료 가드온은 이안이 황제에게 얹혀살며 딸 패리어드의 미래나 영지 상속을 전혀 대비하지 않는 태도를 답답해합니다. 가드온 자신은 마법사 시란과 옛 동료들의 도움을 받아 동토의 황무지를 비옥한 영지로 일구어낸 경험이 있기 때문입니다. 한편 용의 피를 이어받아 5세의 나이에도 비범한 미모와 능력을 지닌 패리어드는 아버지 이안, 어머니 커크와 함께 황실 무도회에 참석하며 황궁 사람들의 복잡한 시선과 마주합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 1. 가드온의 이야기",
+        "summary": "가드온이 무계획한 이안의 처세를 비판하며, 자신이 척박한 황무지 영지를 받아 마법사 시란 및 동료들과 함께 성공적으로 개척했던 과정을 회상합니다."
+      },
+      {
+        "sectionTitle": "1. 슬란 황궁 (패리어드 이야기)",
+        "summary": "용의 아이로 불리는 다섯 살 패리어드가 아버지 이안, 어머니 커크와 함께 황제의 득남을 축하하는 황궁 무도회로 향하며 가족들과 대화를 나눕니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시점 교차",
+        "value": "정치적 현실주의자인 가드온의 1인칭 고뇌와 천진난만하면서도 신비로운 아이 패리어드의 시선을 교차시켜 영웅 서사의 뒤편에 놓인 일상성과 긴장을 입체화합니다."
+      }
+    ],
+    "keyEntitiesText": "가드온, 이안, 커크, 패리어드, 슬렌, 시란, 쿠조, 애드리, 스탠",
+    "settingText": "슬란 제국의 북별궁 및 얼어붙은 황무지 개척 영지, 눈 덮인 슬란 황궁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-uqcCV84g61UKLVgx5CdHb-K3_13-cAp",
+    "filename": "암흑제국의 패리어드.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:47.512Z",
+    "size": "1384428",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1-uqcCV84g61UKLVgx5CdHb-K3_13-cAp/view?usp=drivesdk",
+    "sourceSha256": "0e055743b4f77160baeed6994ddec44825b60751fa4ec4643ccb34b0ccd6fefd",
+    "textSha256": "789f7eaf2c5ea7429026b689597a2c4ec8d31b5d1138b4b9e650fb201d5583f2",
+    "changeKey": "c238be4ee2e928b025b555d885d3733c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ebb4c1fdfe32906353c1",
+    "workId": "ebb4c1fdfe32906353c1",
+    "driveFileId": "1-uqcCV84g61UKLVgx5CdHb-K3_13-cAp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:30:45.291169+00:00",
+    "updatedAt": "2026-09-22T12:30:45.291184+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:30:45.291276+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시너즈",
+    "author": "라스탈",
+    "genre": "판타지",
+    "tags": [
+      "차원이동",
+      "빙의",
+      "TS",
+      "기사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "차원이동 판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "통신 연재를 통해 판타지 소설을 집필한 작가입니다.",
+    "oneLineSummary": "현대 여고생 세인이 이세계 제국의 용맹한 남성 장군 세슈르 로이엘드의 몸으로 깨어나며 시작되는 이야기입니다.",
+    "overallSummary": "현실의 입시와 진로 고민에 지친 여고생 세인은 다른 세상으로 벗어나기를 꿈꾸다 뒷산에서 발을 헛디디며 의식을 잃습니다. 눈을 뜬 그녀는 제국 디 펠로단의 최고 명장인 19세 흑기사 세슈르 로이엘드의 몸에 깃들어 있었습니다. 남성이 된 충격과 주변 인물들의 의심 어린 시선 속에서 세인은 자신의 정체를 숨기며 황궁 방문과 새로운 운명을 맞이할 준비를 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "0. 프롤로그 & 1. 운명의 뒤바뀜",
+        "summary": "고3 진로 문제로 방황하던 세인은 남학생 창호와 시간을 보낸 뒤 산에 올랐다가 사고를 겪으며 차원을 넘어가게 됩니다."
+      },
+      {
+        "sectionTitle": "2. 흑기사 로이엘드",
+        "summary": "독화살을 맞고 쓰러져 있던 제국의 장군 세슈르의 몸에서 깨어난 세인은 자신이 남성이 되었다는 사실에 경악하고, 방문한 제1황자 레인과 후작을 상대합니다."
+      },
+      {
+        "sectionTitle": "3. 낮선 세계로의 첫걸음 - (1)",
+        "summary": "1주일 동안 주변 환경을 파악하며 적응하던 세슈르(세인)는 황궁으로 입궐하라는 아버지의 명령을 받고 긴장 속에서 준비합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제 의식",
+        "value": "현실 도피를 원하던 주인공이 전혀 다른 성별과 막중한 책임을 지닌 영웅의 신분으로 전이되어 겪는 내적 갈등과 정체성 혼란을 중점적으로 다룹니다."
+      }
+    ],
+    "keyEntitiesText": "세인(세슈르 로이엘드), 창호, 로이엘드 후작, 레인 디 펠로단, 레이엘 디 펠로단, 켈튼",
+    "settingText": "현대 한국의 도시 및 1000년 역사를 지닌 판타지 국가 디 펠로단 제국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1o6W3zuoxN0L5KxsHViN6JL7x-Pk6l6qo",
+    "filename": "시너즈 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:46.596Z",
+    "size": "1573372",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1o6W3zuoxN0L5KxsHViN6JL7x-Pk6l6qo/view?usp=drivesdk",
+    "sourceSha256": "aebd91016d8e60ffdf1d8ec4499c98e2a5804f7f43ef7b1396b835d89367bd13",
+    "textSha256": "3a02197ae92a119e4a557746bacc09a0859296e0185c2794aa93b4815720e47a",
+    "changeKey": "c7fcc547a5d59ee1ef844495f4471e11",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5246ebfa8b2b953a921f",
+    "workId": "5246ebfa8b2b953a921f",
+    "driveFileId": "1o6W3zuoxN0L5KxsHViN6JL7x-Pk6l6qo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:28:55.914394+00:00",
+    "updatedAt": "2026-09-22T12:28:55.914410+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:28:55.914507+00:00"
+    }
+  }
+}

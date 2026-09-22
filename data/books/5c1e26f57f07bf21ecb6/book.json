@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "슬레이어즈 - INTENT",
+    "author": "ELFJINI",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "패러디",
+      "모험",
+      "마법"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "패러디",
+        "모험 판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "통신 연재란에서 필명 ELFJINI 혹은 다루핀으로 활동한 작가입니다.",
+    "oneLineSummary": "리나와 동료들이 신탁과 의문의 편지에 이끌려 카타드 산맥으로 향하며 벌어지는 모험을 다룹니다.",
+    "overallSummary": "어느 사제와 웨이트리스의 대화로 시작하여, 용족의 편지를 받은 피리아가 리나와 가우리를 찾아오며 이야기가 전개됩니다. 리나의 언니가 전한 전언과 카타드 산맥에 관한 소문을 듣고 합류한 제르가디스, 정의의 편지를 받고 찾아온 아멜리아까지 모이게 됩니다. 일행은 각자 받은 단서들이 고대 마법서와 마족의 위협으로 연결되어 있음을 짐작하고 카타드 산맥으로 길을 떠납니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "연재전에 & 1화",
+        "summary": "작가 후기와 함께 의문의 대화가 펼쳐지고, 피리아가 산채를 소탕하던 리나와 가우리를 찾아와 카타드 산맥으로 가라는 전언을 전합니다."
+      },
+      {
+        "sectionTitle": "2화",
+        "summary": "카타드 산맥의 마법서 소문을 쫓던 제르가디스와 정의의 사도로서 부름을 받은 아멜리아가 차례로 리나 일행에 합류합니다."
+      },
+      {
+        "sectionTitle": "3화",
+        "summary": "마족 측의 은밀한 움직임이 드러나는 가운데, 일행은 모여든 단서를 종합하며 사건의 중심지인 카타드 산맥을 향해 전진하기 시작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 구조",
+        "value": "개별적인 이유로 모인 인물들이 공통된 목적지인 카타드 산맥을 향해 하나의 팀으로 재결속되는 로드 무비 형태를 띱니다."
+      }
+    ],
+    "keyEntitiesText": "리나 인버스, 가우리, 피리아, 제르가디스, 아멜리아, 필립오넬",
+    "settingText": "카타드 산맥 부근의 마을과 숲길, 마법과 마족이 실재하는 판타지 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_Ufu-DcCkzygXXA_r5i4ICGbDVWTG6Zh",
+    "filename": "슬레이어즈(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:46.543Z",
+    "size": "2462784",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1_Ufu-DcCkzygXXA_r5i4ICGbDVWTG6Zh/view?usp=drivesdk",
+    "sourceSha256": "d4f196224f18c5762d0b4741ad3d7786cd6479700e3387caddce42263c6b9bd1",
+    "textSha256": "bb9bd9228cbf93a3ce52ae838974bc7c05bc682d653c88f78321e3e4cde4c3e2",
+    "changeKey": "eb8298b158406a5fa5e707623baf90f3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5c1e26f57f07bf21ecb6",
+    "workId": "5c1e26f57f07bf21ecb6",
+    "driveFileId": "1_Ufu-DcCkzygXXA_r5i4ICGbDVWTG6Zh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:28:46.820714+00:00",
+    "updatedAt": "2026-09-22T12:28:46.820731+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4316,
+      "updatedAt": "2026-09-22T12:28:46.820939+00:00"
+    }
+  }
+}

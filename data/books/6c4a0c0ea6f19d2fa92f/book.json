@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신 홍길동전 rm",
+    "author": "신승화",
+    "genre": "퓨전 판타지",
+    "tags": [
+      "홍길동",
+      "청룡",
+      "도술",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "퓨전 무협",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "통신상에서 ID mike203, 필명 R 지우스 등으로 활동한 판타지 작가입니다.",
+    "oneLineSummary": "관직을 버리고 떠난 홍길동이 스승의 조언에 따라 동쪽 바다를 건너다 청룡을 만나고 미지의 세계로 나아가는 모험담입니다.",
+    "overallSummary": "스물한 살에 벼슬을 버리고 떠난 홍길동은 백두산 산신령인 스승으로부터 천기와 관련된 인연을 찾으라는 지시를 받고 조각배를 타고 동쪽으로 향합니다. 폭풍우 속에서 유년기의 서자 차별과 아버지와의 이별을 회상하던 길동은 동방의 수호신 청룡을 만나 그 힘을 몸에 흡수하는 기이한 꿈을 꿉니다. 외딴 섬의 모래사장에서 깨어난 그는 자신의 도력이 크게 줄어들고 태극 목걸이가 생긴 것을 확인하며 새로운 시련에 직면합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "배를 타고 동쪽 바다로 나아간 길동이 어린 시절의 설움과 부친과의 이별을 회상한 뒤, 동방 수호신 청룡과 만나 힘을 계승받는 시련을 겪습니다."
+      },
+      {
+        "sectionTitle": "1. 새로운 인연속으로...",
+        "summary": "무인도 해변에서 깨어난 길동이 백두산 스승과의 대화를 떠올리고, 도력이 대폭 줄어든 자신의 몸 상태와 청룡의 봉인에 대해 의문을 품습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "고전의 재해석",
+        "value": "전통 설화 속 인물인 홍길동의 도술적 면모와 사방신 신화를 결합하여 현대적인 퓨전 모험 판타지로 재구성했습니다."
+      }
+    ],
+    "keyEntitiesText": "홍길동, 백두산 산신령(스승), 홍 판서, 청룡",
+    "settingText": "조선 시대 한양 및 백두산, 폭풍 치는 동쪽 바다와 정체불명의 외딴 섬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CNpZeaScHm1LY5aNQP7cpQobWky5VeQN",
+    "filename": "신 홍길동전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:46.682Z",
+    "size": "1224771",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1CNpZeaScHm1LY5aNQP7cpQobWky5VeQN/view?usp=drivesdk",
+    "sourceSha256": "123a4d4b83245fc2cde357ce07e4533e3cf24d1cb29cd84bcaf5e56022ef356c",
+    "textSha256": "70e9431c7b0e468d57deea4276cc690870f489ba012cb0b0809b610ff9e9bd1d",
+    "changeKey": "58d06484499e7663dc6876b54aa60e0d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6c4a0c0ea6f19d2fa92f",
+    "workId": "6c4a0c0ea6f19d2fa92f",
+    "driveFileId": "1CNpZeaScHm1LY5aNQP7cpQobWky5VeQN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:29:09.744921+00:00",
+    "updatedAt": "2026-09-22T12:29:09.744936+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7081,
+      "updatedAt": "2026-09-22T12:29:09.745088+00:00"
+    }
+  }
+}

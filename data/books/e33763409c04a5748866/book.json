@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아리우스 전기 1부 [뇌화의 불]",
+    "author": "초우",
+    "genre": "판타지",
+    "tags": [
+      "신화",
+      "기사",
+      "배신",
+      "결투"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통 판타지",
+        "로맨스 판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "양수종, 필명 초우로 활동하며 정통 무협과 판타지 장르에서 굵직한 서사를 선보인 작가입니다.",
+    "oneLineSummary": "출신 차별로 기사 아카데미에서 배제되고 연인마저 빼앗긴 청년 아리우스가 마주하는 비극적 운명의 시작을 다룹니다.",
+    "overallSummary": "태초 신들의 분쟁과 드래곤, 인간의 기원을 다룬 창세 신화에 이어, 뮤란 제국의 수도 뮤를 배경으로 이야기가 펼쳐집니다. 뛰어난 검술 재능에도 불구하고 떠돌이 기사의 양자이자 동방계라는 이유로 아카데미 입학이 부당하게 취소된 아리우스는 오랜 연인이었던 키에라를 기다립니다. 그러나 키에라는 명문 귀족이자 아리우스의 라이벌인 알 에도우를 선택하고, 결투를 앞둔 아리우스에게 찾아와 알에게 져달라는 가혹한 부탁을 남깁니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 : 프롤로그",
+        "summary": "우주의 창조와 신들의 대전, 천신계와 마신계의 분리, 드래곤 황제 아르곤의 폭정과 몰락, 아틀란 대륙과 뮤란 제국의 역사를 서술합니다."
+      },
+      {
+        "sectionTitle": "제 2 장 : 사랑은 구름처럼 흩어지고",
+        "summary": "출신 차별로 아카데미에서 탈락했던 아리우스가 연인 키에라의 배신과 약혼 통보를 받고 절망 속에서 결투를 준비하던 중, 패배해 달라는 청을 듣고 충격을 받습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 양상",
+        "value": "신분제 사회의 견고한 기득권 카르텔에 희생당하는 개인의 좌절과 가장 믿었던 연인의 현실적 배신을 대비시켜 비장미를 부각합니다."
+      }
+    ],
+    "keyEntitiesText": "비슈뉴, 오딘, 루시퍼, 카눔, 아리우스, 키에라, 알 에도우, 테니 에도우",
+    "settingText": "신화적 우주(비슈뉴계, 데이폰계, 브라만계) 및 아틀란 대륙 뮤란 제국의 수도 뮤"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JvO8LQF3k4im_qtzscGQUzropZC2PyUy",
+    "filename": "아리우스 전기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:47.052Z",
+    "size": "2203076",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1JvO8LQF3k4im_qtzscGQUzropZC2PyUy/view?usp=drivesdk",
+    "sourceSha256": "5c4c04f967bc2535de1dad76e29683e24b4990e60d5067e15ca974c1308c294e",
+    "textSha256": "08e2fc7e519d862851b572d2ddf0fc689eeb94f2352c193d12ce0838005a3263",
+    "changeKey": "f1c46d419bbe1c4b45947c331ab23eb4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e33763409c04a5748866",
+    "workId": "e33763409c04a5748866",
+    "driveFileId": "1JvO8LQF3k4im_qtzscGQUzropZC2PyUy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:30:06.736458+00:00",
+    "updatedAt": "2026-09-22T12:30:06.736472+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5714,
+      "updatedAt": "2026-09-22T12:30:06.736567+00:00"
+    }
+  }
+}

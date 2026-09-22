@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아린 이야기",
+    "author": "LODEMP",
+    "genre": "판타지",
+    "tags": [
+      "환생",
+      "드래곤",
+      "해츨링",
+      "코믹"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "착각계",
+        "성장 판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "통신상에서 ID LODEMP로 활동하며 유쾌한 성장 판타지를 연재한 작가입니다.",
+    "oneLineSummary": "수험 스트레스와 새엄마와의 갈등에 시달리던 여고생이 악마와의 계약으로 이세계의 레드 드래곤 해츨링으로 다시 태어납니다.",
+    "overallSummary": "고3 수험 생활과 새엄마의 극심한 간섭으로 극도의 스트레스를 받던 주인공은 작은 악마 케로베르스를 만나 내기를 벌입니다. 아파트에서 뛰어내려 다친 후, 영혼을 넘기는 대신 드래곤이 되고 싶다는 엉뚱한 소원을 빌어 다른 차원의 미부화 드래곤 알 속으로 환생합니다. 알을 깨고 나온 주인공은 거대한 엄마 레드 드래곤을 마주하고 생 오크 고기를 먹으며 자신이 진짜 해츨링이 되었음을 깨닫고 우스꽝스러운 적응기를 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "새엄마와의 불화로 괴로워하던 여고생이 악마와 계약을 맺고 다른 차원의 드래곤으로 다시 태어나기로 합의합니다."
+      },
+      {
+        "sectionTitle": "제1화 아린 태어나다",
+        "summary": "알을 깨고 레드 드래곤 해츨링으로 부화한 주인공이 거대한 엄마 드래곤과 조우하고, 오크 고기를 먹으며 서툴게 첫날을 보냅니다."
+      },
+      {
+        "sectionTitle": "제2화 이름을 받다",
+        "summary": "풀밭 위에서 잠에서 깬 주인공이 몸을 굴리며 거대한 엄마 드래곤을 깨우고 대화를 시작하는 장면을 담습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시점과 톤",
+        "value": "인간 고등학생 시절의 가벼운 심리 독백을 위엄 있는 최강 종족 드래곤의 신체적 한계와 결합시켜 유쾌한 유머와 일상성을 연출합니다."
+      }
+    ],
+    "keyEntitiesText": "주인공(아린), 새엄마, 악마 케로베르스, 엄마 레드 드래곤",
+    "settingText": "현대 한국의 아파트·병원 및 이세계 산맥의 드래곤 레어 동굴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EoRdc8kaNlJR1JXS5Gqr5Kb9nqBBiaGr",
+    "filename": "아린 이야기(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:47.102Z",
+    "size": "4108575",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1EoRdc8kaNlJR1JXS5Gqr5Kb9nqBBiaGr/view?usp=drivesdk",
+    "sourceSha256": "f127c23e05e281090cdb802de8e6008b3b3de25a67f97c8bd5ee3076cf4b1213",
+    "textSha256": "8d6f813ff00c5534201b6c4b761b37061565df65b52a307bf2f7711af676fb36",
+    "changeKey": "bfe8129d6b319ee2558ea85e8ba2246c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c6bcd07e63c3ac29507a",
+    "workId": "c6bcd07e63c3ac29507a",
+    "driveFileId": "1EoRdc8kaNlJR1JXS5Gqr5Kb9nqBBiaGr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:30:14.004129+00:00",
+    "updatedAt": "2026-09-22T12:30:14.004145+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:30:14.004271+00:00"
+    }
+  }
+}

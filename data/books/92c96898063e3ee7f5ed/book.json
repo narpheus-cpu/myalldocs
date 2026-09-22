@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아르카디아 대륙기행",
+    "author": "어름화살",
+    "genre": "게임 판타지",
+    "tags": [
+      "가상현실",
+      "길드전",
+      "용병",
+      "PvP"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "게임 판타지",
+        "액션 판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "온라인 연재를 통해 게임 판타지 소설을 집필한 작가입니다.",
+    "oneLineSummary": "실연의 상처를 안고 새 게임에 접속한 주인공 얀이 대규모 광산 쟁탈 길드전에서 뛰어난 검술로 활약하는 이야기입니다.",
+    "overallSummary": "현실에서 실연을 겪은 주인공 현수는 옛 게임 캐릭터를 지우고 새로운 가상현실 게임 아르카디아에 접속하여 '얀'으로 활동합니다. 스바시에 동쪽 평원에서는 철광석 광산 소유권을 둘러싸고 헤로이 길드와 붉은 전사단 간에 3만 명 규모의 대형 길드전이 벌어집니다. 헤로이 측 용병으로 참전한 얀은 우측 날개 언덕에서 노련한 검술로 적들을 막아내며 전선의 핵심으로 부상하고, 상대 정예 지휘관인 소드 익스퍼트 질시언과 맞대결을 펼치게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 & 1화",
+        "summary": "이별의 아픔으로 과거를 정리한 현수가 새 게임에 접속하고, 대규모 길드전 한복판에서 마법과 화살 세례를 버텨내는 얀의 모습이 펼쳐집니다."
+      },
+      {
+        "sectionTitle": "2화",
+        "summary": "광산 개발권 시비로 촉발된 헤로이 길드와 붉은 전사단의 길드전 규칙이 소개되며, 얀은 전선 외곽에서 차분하게 적들을 격파합니다."
+      },
+      {
+        "sectionTitle": "3화",
+        "summary": "붉은 전사단의 조직적인 전술 속에서도 얀이 지키는 언덕이 함락되지 않자, 제9용병단장 질시언이 친위대를 이끌고 얀에게 도전합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "전투 묘사",
+        "value": "대규모 군단 단위의 전략적 진형 운용과 주인공 개인의 정교하고 감각적인 백병전 검술 묘사를 교차 배치하여 입체적인 전장감을 형성합니다."
+      }
+    ],
+    "keyEntitiesText": "얀(현수), 질시언, 붉은 포효, 붉은 갈기",
+    "settingText": "가상현실 게임 아르카디아 내 스바시에 동쪽 평원 격전지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QoHs_L8zOpqfjgPU0ycfeXKFq_9nRoWD",
+    "filename": "아르카디아 대륙기행(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:47.001Z",
+    "size": "2050602",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1QoHs_L8zOpqfjgPU0ycfeXKFq_9nRoWD/view?usp=drivesdk",
+    "sourceSha256": "941775637b9bba4fcc5cd84c61efcfda1c0c3836a6737dd675716162d685e83f",
+    "textSha256": "0e236590adf5f82ac5270f5f9b9e0dfe84745a65f68e9c57336bdc2bd9a54b2c",
+    "changeKey": "f239d833ece2ecfe8f5f74120eff4d03",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "92c96898063e3ee7f5ed",
+    "workId": "92c96898063e3ee7f5ed",
+    "driveFileId": "1QoHs_L8zOpqfjgPU0ycfeXKFq_9nRoWD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:29:58.987314+00:00",
+    "updatedAt": "2026-09-22T12:29:58.987329+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:29:58.987426+00:00"
+    }
+  }
+}

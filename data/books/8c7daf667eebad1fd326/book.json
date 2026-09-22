@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아듀스",
+    "author": "헌터",
+    "genre": "판타지",
+    "tags": [
+      "영지물",
+      "전략",
+      "기사",
+      "내정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "전략 판타지",
+        "가상역사 판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시뮬레이션 동호회 글터란 담당간사 헌터(ZSSIMUL4)로 활동한 전략 판타지 작가입니다.",
+    "oneLineSummary": "황폐화된 최전방 영지 가베스를 하사받은 청년 기사 레오너가 진심 어린 선정과 인재 등용으로 영지를 재건해 나가는 이야기입니다.",
+    "overallSummary": "스팍스 왕국 국위대 소속의 유능한 기사 레오너는 적국의 침공과 이전 영주의 폭정으로 피폐해진 변경 영지 가베스의 영주로 임명됩니다. 실상은 왕실과 유력 가문들이 떠넘긴 위험한 자리였으나, 레오너는 절망하지 않고 부임하자마자 군량을 방출하고 세금을 감면합니다. 충직한 재정관 가넬과 강직한 수비대장 헤클라의 신뢰를 얻은 그는 농업 육성과 위생 개선에 힘쓰고, 옛 부하 마법사 나메스카까지 합류시키며 부흥의 기틀을 닦습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 가베스 영주 레오너 (수도 편)",
+        "summary": "국왕 모드로부터 가베스 영주 임명장을 받은 레오너는 업무부 관리로부터 가베스가 버려진 계륵 같은 땅이라는 내막을 전해 듣습니다."
+      },
+      {
+        "sectionTitle": "1장 가베스 영주 레오너 (가베스 부임 편)",
+        "summary": "황폐한 가베스에 도착한 레오너는 식량을 풀고 세율을 낮춰 민심을 얻고, 내정관 가넬과 수비대장 헤클라의 충성을 이끌어내며 영지 개혁에 착수합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "영지 경영 서사",
+        "value": "전쟁과 수탈로 무너진 가상 영지의 행정, 재정, 농업, 군사 요소를 구체적이고 현실적인 정책 전환 과정을 통해 재건해 나가는 전략적 묘미를 보입니다."
+      }
+    ],
+    "keyEntitiesText": "레오너, 모드왕, 가넬, 헤클라, 나메스카",
+    "settingText": "어스 대륙 스팍스 왕국의 수도 순트슈발 및 국경 분쟁 지역 가베스 영지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1k-QY4cJuEKz-_jZVxFp5LUGvfqeRuoEn",
+    "filename": "아듀스(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:46.939Z",
+    "size": "1434012",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1k-QY4cJuEKz-_jZVxFp5LUGvfqeRuoEn/view?usp=drivesdk",
+    "sourceSha256": "184d0e4de9a6368a465664ec5aab084d2c750199c436bd1792f1bf736f98bae2",
+    "textSha256": "1395c55e7a738f2f8f27041aa6f05fb4b933991c50952a340e1045584ecf47f4",
+    "changeKey": "b6df3021ef9d962e8122662f878e9ab8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8c7daf667eebad1fd326",
+    "workId": "8c7daf667eebad1fd326",
+    "driveFileId": "1k-QY4cJuEKz-_jZVxFp5LUGvfqeRuoEn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:29:51.446775+00:00",
+    "updatedAt": "2026-09-22T12:29:51.446792+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:29:51.446902+00:00"
+    }
+  }
+}
