@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비숍 살인 사건",
+    "author": "S. S. 밴 다인",
+    "genre": "추리 소설",
+    "tags": [
+      "파일로 밴스",
+      "고전 추리",
+      "연쇄 살인",
+      "마더 구스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "S. S. 밴 다인은 미국의 베스트셀러 추리 소설 작가로, 본명은 윌러드 헌팅턴 라이트이며 탐정 파일로 밴스 시리즈로 명성을 얻었다.",
+    "oneLineSummary": "전래 동요 마더 구스의 가사를 모티브로 삼아 뉴욕에서 벌어지는 기괴한 연쇄 살인 사건을 명탐정 파일로 밴스가 해결하는 이야기다.",
+    "overallSummary": "뉴욕에서 마더 구스 동요의 내용과 기이하게 일치하는 연쇄 살인 사건이 발생한다. 피해자들의 이름이나 사망 방식이 동요 속 코크 로빈의 죽음을 연상시키며 공포를 자아내고, 비공식 수사관인 지적인 파일로 밴스가 지방 검사 매컴과 함께 복잡한 암호와 같은 사건의 진실을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "화창한 4월의 어느 날, 뉴욕 지방 검사 매컴으로부터 기괴한 살인 사건에 대한 연락을 받은 파일로 밴스가 사건에 흥미를 느끼며 개입하기 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "범죄 모티브",
+        "value": "마더 구스의 전래 동요 가사를 모방한 연쇄 살인"
+      },
+      {
+        "key": "탐정 캐릭터",
+        "value": "지적이고 냉소적이며 예술적·학문적 소양을 갖춘 비공식 탐정 파일로 밴스"
+      }
+    ],
+    "keyEntitiesText": "파일로 밴스, 존 F. X. 매컴, 어니스트 히스, 버트런드 딜러드, 조셉 코크레인 로빈",
+    "settingText": "1920년대 미국 뉴욕"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12VQHv9vCk62wRITyNQhHsCFplM1n4byL",
+    "filename": "밴 다인-비숍 살인 사건 -열린책들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.554Z",
+    "size": "728977",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/12VQHv9vCk62wRITyNQhHsCFplM1n4byL/view?usp=drivesdk",
+    "sourceSha256": "158bbd04ba8de200d99936e6674e69d27b6018c22636c8096199b993861e6ea1",
+    "textSha256": "dad7cdc6c63be9764bb6545d00423ad3313bdfb24462c370da00e800eaa892f3",
+    "changeKey": "f0d141ed0aad76cb2753aab905523d8b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ddc5eb68ae543af26205",
+    "workId": "ddc5eb68ae543af26205",
+    "driveFileId": "12VQHv9vCk62wRITyNQhHsCFplM1n4byL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:17:43.339962+00:00",
+    "updatedAt": "2026-09-22T00:17:43.339977+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:17:43.340156+00:00"
+    }
+  }
+}

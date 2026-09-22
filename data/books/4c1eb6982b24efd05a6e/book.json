@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여행의 책",
+    "author": "베르나르 베르베르",
+    "genre": "에세이 / 명상",
+    "tags": [
+      "상상력",
+      "정신적 비상",
+      "안내서",
+      "자아성찰"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 유명 작가로 과학적 상상력과 철학적 주제를 결합한 소설과 에세이로 유명하다.",
+    "oneLineSummary": "독자에게 일상의 근심을 내려놓고 상상력을 통해 내면과 우주로 정신적 여행을 떠나도록 안내하는 책이다.",
+    "overallSummary": "이 책은 독자에게 말을 건네는 독특한 형식의 안내서이다. 물리적인 짐을 싸는 대신 마음의 속박을 풀고 조용한 공간에서 책의 목소리에 온전히 귀를 기울임으로써, 독자 자신이 여행의 주인공이 되어 정신적 비상과 새로운 지각을 경험하도록 이끈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인사말 / 우리의 계약",
+        "summary": "살아 있는 책인 저자가 독자에게 친근하게 말을 건네며, 꿈을 꾸게 해주는 대가로 일상의 근심을 잊고 자신에게 온전히 의지하겠다는 계약을 제안한다."
+      },
+      {
+        "sectionTitle": "그대의 이륙장소 / 그대의 자리 / 그대의 속박에서 벗어나라",
+        "summary": "여행을 시작하기 위해 조용하고 편안한 장소를 찾고, 몸을 짓누르는 모든 장신구와 속박을 벗어던지며 마음을 차분히 이완하는 방법을 안내한다."
+      },
+      {
+        "sectionTitle": "공기의 세계 / 순방",
+        "summary": "정신이 육체를 벗어나 하늘 높이 날아올라 구름 위를 누비고 대양과 고래의 노래를 만나는 환상적인 비행 과정을 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 방식",
+        "value": "독자에게 직접 말을 건네는 2인칭 대화체"
+      },
+      {
+        "key": "목적",
+        "value": "상상력과 내면 성찰을 통한 일상으로부터의 해방"
+      }
+    ],
+    "keyEntitiesText": "여행의 책, 독자",
+    "settingText": "독자가 책을 읽고 있는 현실의 공간 및 상상 속의 하늘과 대양"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12Q-jh4qQKx5IIzhRsaCa2oJ2jfeqOdDz",
+    "filename": "베르나르 베르베르-여행의 책.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.640Z",
+    "size": "101626",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/12Q-jh4qQKx5IIzhRsaCa2oJ2jfeqOdDz/view?usp=drivesdk",
+    "sourceSha256": "d9c6a67ffc7ec3fbf456f43a21d22f1ce9915641d5c776077fe5b3dd667eaacf",
+    "textSha256": "ed91e5e4ed1a8aa01bb1c64f4e289a93c33c9305894a06f8f2be569cfb32332c",
+    "changeKey": "ebea7c4aceedaf1a10371682c24a37cd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4c1eb6982b24efd05a6e",
+    "workId": "4c1eb6982b24efd05a6e",
+    "driveFileId": "12Q-jh4qQKx5IIzhRsaCa2oJ2jfeqOdDz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:17:56.779037+00:00",
+    "updatedAt": "2026-09-22T00:17:56.779052+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:17:56.779168+00:00"
+    }
+  }
+}

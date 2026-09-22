@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개미 2부 (2): 개미의 날",
+    "author": "베르나르 베르베르",
+    "genre": "과학 소설",
+    "tags": [
+      "원정군",
+      "손가락들",
+      "퀴즈",
+      "메리에스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간과 개미의 평행 세계를 독창적인 시각으로 그려낸 프랑스의 대표 작가 베르나르 베르베르의 소설이다.",
+    "oneLineSummary": "인간(손가락들)을 응징하기 위해 출발한 개미 원정군의 행군과, TV 퀴즈를 통해 수수께끼를 풀고 개미들의 습격 공포를 겪는 형사 멜리에스의 이야기가 펼쳐진다.",
+    "overallSummary": "개미들은 파괴된 도시의 원수를 갚고 손가락들을 응징하기 위해 대규모 원정군을 결성해 진격한다. 한편 형사 자크 멜리에스는 TV 퀴즈 프로그램의 힌트를 통해 살인 사건과 관련된 난해한 수수께끼를 풀어내지만, 곧이어 자신의 집으로 들이닥친 개미 떼의 습격에 혼비백산하여 도망친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "원정군의 출발",
+        "summary": "손가락들에 대한 복수와 응징을 다짐하며 103683호의 인도 아래 대규모 개미 원정군이 대장정에 나선다."
+      },
+      {
+        "sectionTitle": "심야의 방문객들",
+        "summary": "멜리에스가 TV 퀴즈쇼를 시청하며 사건의 실마리를 풀지만, 잠든 사이에 집으로 침입한 개미 무리의 습격을 받고 경악한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 모티프",
+        "value": "인간의 문명적 사고방식과 곤충의 본능적·집단적 행동 양식의 대조"
+      }
+    ],
+    "keyEntitiesText": "103683호, 9호, 자크 멜리에스, 라미레 부인",
+    "settingText": "숲속의 행군로 및 멜리에스의 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XtWApT_SHcNpfAa7C9p1Y7D9WYehWiwB",
+    "filename": "베르나르 베르베르-개미 2부 2.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.726Z",
+    "size": "202253",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/1XtWApT_SHcNpfAa7C9p1Y7D9WYehWiwB/view?usp=drivesdk",
+    "sourceSha256": "47e9636c8898e0990953b8435c70a297f9bfca74a0e5d62c2ce72234812ec66e",
+    "textSha256": "1c625d0fc9deca7c2d3007fcf1063a623438897a59c6914064de6aaf8ce7c463",
+    "changeKey": "bdb216b22cfa13720ddae16c65a7711f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3eaade21f940d42db824",
+    "workId": "3eaade21f940d42db824",
+    "driveFileId": "1XtWApT_SHcNpfAa7C9p1Y7D9WYehWiwB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:18:24.784202+00:00",
+    "updatedAt": "2026-09-22T00:18:24.784216+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5527,
+      "updatedAt": "2026-09-22T00:18:24.784311+00:00"
+    }
+  }
+}

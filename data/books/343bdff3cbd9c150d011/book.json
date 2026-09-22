@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비밀의 화원",
+    "author": "버넷",
+    "genre": "아동 문학",
+    "tags": [
+      "성장소설",
+      "클레이븐 저택",
+      "자연",
+      "치유"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프란시스 호디슨 버넷은 영국의 소설가로 아동 문학 분야에서 명작들을 남겼다.",
+    "oneLineSummary": "인도에서 부모를 잃고 영국의 음침한 저택으로 온 고집불통 소녀 메어리가 비밀의 화원을 가꾸며 마음의 상처를 치유하고 밝게 변해가는 이야기다.",
+    "overallSummary": "콜레라로 부모를 잃은 메어리는 영국 황량한 벌판에 위치한 클레이븐 아저씨의 커다란 저택으로 보내진다. 까칠하고 버릇없던 메어리는 하녀 마르사와 그의 동생 디콘을 만나고, 오랫동안 닫혀 있던 비밀의 화원을 발견하면서 자연 속에서 생명의 신비와 우정을 배우고 마음의 문을 열게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 외톨이가 된 메어리",
+        "summary": "인도에서 부모를 잃은 메어리가 고양이 패티를 안고 미스르스웨트에 있는 클레이븐 저택으로 향하는 과정과 저택에서의 첫날을 그린다."
+      },
+      {
+        "sectionTitle": "2. 이상한 하녀",
+        "summary": "저택의 하녀 마르사를 만나고, 스스로 아무것도 하려 하지 않던 메어리가 마르사의 당찬 태도와 그의 동생 디콘의 동물 이야기들을 들으며 조금씩 흥미와 변화를 겪는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "자연을 통한 심리적 치유와 성장의 기쁨"
+      }
+    ],
+    "keyEntitiesText": "메어리, 메드로크 부인, 마르사, 디콘, 패티",
+    "settingText": "인도 및 영국의 황량한 벌판과 미스르스웨트 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cPBPqOoZH5nqi8wwZcIILrsNJfK7yONX",
+    "filename": "버넷-비밀의 화원.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.624Z",
+    "size": "222121",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1cPBPqOoZH5nqi8wwZcIILrsNJfK7yONX/view?usp=drivesdk",
+    "sourceSha256": "3c0e8627b98f0073dbab4fb3c08a213fc39926e68c4db590733fe2d53a857ecd",
+    "textSha256": "6e139ed99d79962987a96e38d50971051f934a34af37c76d28062ed7e9c7f089",
+    "changeKey": "d140a300259c4855d1bb2c3082481145",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "343bdff3cbd9c150d011",
+    "workId": "343bdff3cbd9c150d011",
+    "driveFileId": "1cPBPqOoZH5nqi8wwZcIILrsNJfK7yONX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:17:49.823265+00:00",
+    "updatedAt": "2026-09-22T00:17:49.823278+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:17:49.823370+00:00"
+    }
+  }
+}

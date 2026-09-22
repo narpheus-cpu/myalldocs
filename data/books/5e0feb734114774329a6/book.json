@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개미 1부 (1)",
+    "author": "베르나르 베르베르",
+    "genre": "과학 소설",
+    "tags": [
+      "개미",
+      "벨로캉",
+      "에드몽 웰즈",
+      "조나탕"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 천재 작가로 곤충학적 지식을 바탕으로 인간과 개미의 세계를 교차시키는 독창적인 작품을 썼다.",
+    "oneLineSummary": "에드몽 삼촌의 유산을 상속받아 오래된 지하 지하실로 이사한 조나탕 가족의 이야기와 1억 년의 역사를 지닌 개미 세계의 경이로운 생태가 교차되어 전개된다.",
+    "overallSummary": "자물쇠 용역회사에서 해고당한 조나탕은 유산으로 받은 파리의 오래된 지하 가옥으로 가족과 함께 이사한다. 한편, 자연 속에서는 거대한 개미 도시 벨로캉의 개미들이 겨울잠에서 깨어나 삶을 시작하고, 에드몽 웰즈의 '상대적이며 절대적인 지식의 백과사전'을 통해 인간과 개미를 바라보는 새로운 시각이 제시된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "작가의 말",
+        "summary": "작가는 독자들에게 발밑의 세상을 관찰하고 개미를 이해함으로써 인간 중심적 사고에서 벗어날 것을 권유한다."
+      },
+      {
+        "sectionTitle": "제1장 일깨우는 자",
+        "summary": "직장에서 해고된 조나탕이 가족과 함께 에드몽 삼촌의 유산인 지하 가옥으로 이사하고, 벨로캉의 개미들이 긴 겨울잠에서 깨어나 활동을 재개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 기법",
+        "value": "인간의 대서사와 개미의 미시적 생태를 교차 서술"
+      },
+      {
+        "key": "핵심 사상",
+        "value": "다른 식으로 생각하기, 자연과 미물에 대한 관점 확장"
+      }
+    ],
+    "keyEntitiesText": "조나탕 웰즈, 뤼시, 니콜라, 에드몽 웰즈, 벨로캉, 103683호 개미",
+    "settingText": "프랑스 파리의 지하 가옥 및 숲속 개미 도시 벨로캉"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nqEEUBXbAw8E_kv6WY4IXZdJ7dz4t_pg",
+    "filename": "베르나르 베르베르-개미 1부 1.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.653Z",
+    "size": "379106",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/1nqEEUBXbAw8E_kv6WY4IXZdJ7dz4t_pg/view?usp=drivesdk",
+    "sourceSha256": "8b3c74263b54b102cfe1fd9d4b641a211857a1d367b3ede1f9e3bcebfbb171f3",
+    "textSha256": "f4a8228c70368f3927d0f945259df0a4090efcf6f0f923adc32ffcd1149d426a",
+    "changeKey": "823a9fa673af12bfc269b5d2130701b4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5e0feb734114774329a6",
+    "workId": "5e0feb734114774329a6",
+    "driveFileId": "1nqEEUBXbAw8E_kv6WY4IXZdJ7dz4t_pg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:18:04.993443+00:00",
+    "updatedAt": "2026-09-22T00:18:04.993458+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:18:04.993569+00:00"
+    }
+  }
+}

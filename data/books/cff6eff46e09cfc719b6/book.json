@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개미혁명 1",
+    "author": "베르나르 베르베르",
+    "genre": "과학 소설",
+    "tags": [
+      "개미혁명",
+      "쥘리",
+      "불개미",
+      "퐁텐블로"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 유명 작가로, 인간과 개미의 세계를 넘나드는 독창적인 서사로 유명하다.",
+    "oneLineSummary": "퐁텐블로 숲에서 추락 사고를 겪은 소녀 쥘리와, 거대한 바람과 먹이사슬 속에서 살아남으려는 늙은 불개미의 모험을 그린 소설이다.",
+    "overallSummary": "19세 소녀 쥘리는 아버지를 따라 퐁텐블로 숲을 산책하다가 낭떠러지로 추락해 뱀굴과 땅굴을 헤매게 된다. 그 과정에서 암호 자물쇠가 채워진 수상한 가방을 발견한다. 한편 숲속의 늙은 불개미는 먹이를 구하다가 바람에 휩쓸려 위기를 겪고, 숲의 치열한 먹이사슬 속에서 생존을 위한 여정을 이어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "숲속 산보 / 새로운 길",
+        "summary": "쥘리가 숲에서 발을 딛지 못하고 낭떠러지로 굴러떨어져 뱀굴과 땅굴을 거치는 과정을 묘사한다."
+      },
+      {
+        "sectionTitle": "어떤 경이로운 만남",
+        "summary": "지하 땅굴에서 암호 가방을 발견하고 집에 돌아온 쥘리가 상처를 치료하며 가방의 비밀을 궁금해한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "인간과 곤충의 병행 성장, 자연 속의 우연과 필연"
+      }
+    ],
+    "keyEntitiesText": "쥘리 팽송, 가스통, 아킬레스, 늙은 불개미",
+    "settingText": "프랑스 퐁텐블로 숲 및 쥘리의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bbdfPLGTrEaOtlGuV7kibZoTgiOT_tK2",
+    "filename": "베르나르 베르베르-개미혁명 1.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.785Z",
+    "size": "358575",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/1bbdfPLGTrEaOtlGuV7kibZoTgiOT_tK2/view?usp=drivesdk",
+    "sourceSha256": "cff59f691926719315909784dbb2b90133963f298e6d59f0ece057051fc2966f",
+    "textSha256": "1354cfa6de6c0c6f0bf097dad4323c3a650e991d1a9632d7d8e3d1d33e2f4bb4",
+    "changeKey": "ebb61e555597a7490f45a964116a9f96",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cff6eff46e09cfc719b6",
+    "workId": "cff6eff46e09cfc719b6",
+    "driveFileId": "1bbdfPLGTrEaOtlGuV7kibZoTgiOT_tK2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:18:43.316942+00:00",
+    "updatedAt": "2026-09-22T00:18:43.316958+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:18:43.317071+00:00"
+    }
+  }
+}

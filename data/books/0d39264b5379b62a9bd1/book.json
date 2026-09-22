@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개미혁명 3",
+    "author": "베르나르 베르베르",
+    "genre": "과학 소설",
+    "tags": [
+      "개미혁명",
+      "마키아벨",
+      "학교 봉쇄",
+      "신앙 갈등"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간 중심적 세계관을 타파하고 새로운 시각을 제시하는 SF 작가 베르나르 베르베르의 장편소설이다.",
+    "oneLineSummary": "학교를 봉쇄한 경찰에 맞서는 학생들의 농성과, 손가락 숭배를 둘러싸고 분열과 재건을 겪는 개미 사회의 혁명이 절정으로 치닫는다.",
+    "overallSummary": "막시밀리엥은 인공지능 컴퓨터 '마키아벨'의 조언에 따라 점거된 학교의 전기와 수도를 끊으며 압박을 가하고, 쥘리와 친구들은 자급자족하며 연대를 다진다. 개미 세계에서는 신을 믿는 개미 무리와 103호의 열린 도시 개념이 충돌하며 새로운 문명적 격변을 맞이한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "마키아벨은 아름다움을 이해하지 못했다",
+        "summary": "막시밀리엥이 컴퓨터 마키아벨과 대화를 나누며 학교 봉쇄 전술을 강화하고 아름다움이라는 개념에 대해 고찰한다."
+      },
+      {
+        "sectionTitle": "신을 믿는 개미들 / 대양 한가운데에 있는 섬",
+        "summary": "벨로캉이 재건되는 과정에서 손가락 숭배 신자들이 세력을 확장하고, 103호는 여러 종의 개미가 어우러지는 열린 도시를 구상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학적 주제",
+        "value": "기술과 인공지능의 한계, 유토피아 건설의 이상과 현실"
+      }
+    ],
+    "keyEntitiesText": "막시밀리엥, 마키아벨(컴퓨터), 쥘리, 103호, 23호",
+    "settingText": "퐁텐블로 고등학교 및 새 벨로캉"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15dFyCyZR2_RtQlJX_HzcRGDkUznodTNc",
+    "filename": "베르나르 베르베르-개미혁명 3.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.818Z",
+    "size": "379233",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/15dFyCyZR2_RtQlJX_HzcRGDkUznodTNc/view?usp=drivesdk",
+    "sourceSha256": "29e202b001d84810f64ed1e1ed223791345247848f551cfe315fbeb5b19620e6",
+    "textSha256": "560f161cf45f25f92f2a777eb8dc38061e1801af9b989abe82d6e5e749f7628a",
+    "changeKey": "35965eae3d92e3ffc63e35c147dfb3fd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0d39264b5379b62a9bd1",
+    "workId": "0d39264b5379b62a9bd1",
+    "driveFileId": "15dFyCyZR2_RtQlJX_HzcRGDkUznodTNc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:18:56.376050+00:00",
+    "updatedAt": "2026-09-22T00:18:56.376065+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:18:56.376176+00:00"
+    }
+  }
+}

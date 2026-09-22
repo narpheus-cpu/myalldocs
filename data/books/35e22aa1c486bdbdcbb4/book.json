@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개미 1부 (2)",
+    "author": "베르나르 베르베르",
+    "genre": "과학 소설",
+    "tags": [
+      "개미",
+      "벨로캉",
+      "탐험",
+      "달팽이"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 작가 베르나르 베르베르의 대표작으로 인간과 개미의 평행 세계를 그린 소설이다.",
+    "oneLineSummary": "개미들이 새로운 도시 터를 찾아 모험을 떠나고, 달팽이와의 조우 및 곤충 세계의 생태를 탐구하는 한편 조나탕은 에드몽 삼촌의 유언이 담긴 편지를 찾는다.",
+    "overallSummary": "여왕개미 56호는 새로운 도시에 터를 잡으려다 거북을 만나 포기하고 다른 장소를 물색한다. 탐험에 나선 개미들은 달팽이들의 교미와 사투를 벌이며 경험을 넓혀간다. 한편 조나탕은 오귀스타 할머니를 찾아가 에드몽 삼촌이 남긴 비밀스러운 편지에 대한 이야기를 듣는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제3장 세 편의 오디세이아",
+        "summary": "새로운 도시를 세우기 위해 이동하는 여왕개미 56호와 탐험에 나선 병정개미들이 달팽이를 만나 겪는 일련의 모험을 그린다."
+      },
+      {
+        "sectionTitle": "오귀스타 할머니와의 만남",
+        "summary": "조나탕이 할머니를 방문하여 에드몽 삼촌이 남긴 유언의 편지에 관한 단서를 얻는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "생태 묘사",
+        "value": "개미들의 이동, 지하 터널 역사, 달팽이의 생식과 습성 등 상세한 자연과학적 묘사"
+      }
+    ],
+    "keyEntitiesText": "56호(클리푸니), 103683호, 4000호, 조나탕, 오귀스타 할머니",
+    "settingText": "숲속의 곤충 세계 및 파리의 오래된 주택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eZf2mmsu0w8CTDsyJkbJAtWGRqPM-4vS",
+    "filename": "베르나르 베르베르-개미 1부 2.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.673Z",
+    "size": "175485",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/1eZf2mmsu0w8CTDsyJkbJAtWGRqPM-4vS/view?usp=drivesdk",
+    "sourceSha256": "bdce00681d39f5abd6090be2e87d03212311f8be1ffa3d8c532a9261a73d0d70",
+    "textSha256": "0fbe0c930bc3bf82d9a833e6e64ea20e3c83cd4ab59a454b6ba3055b2e16d500",
+    "changeKey": "e47d9533cc0e9c2b5467d26a885c254e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "35e22aa1c486bdbdcbb4",
+    "workId": "35e22aa1c486bdbdcbb4",
+    "driveFileId": "1eZf2mmsu0w8CTDsyJkbJAtWGRqPM-4vS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:18:11.373031+00:00",
+    "updatedAt": "2026-09-22T00:18:11.373046+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:18:11.373143+00:00"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "상대적이며 절대적인 지식의 백과사전",
+    "author": "베르나르 베르베르",
+    "genre": "백과사전 / 에세이",
+    "tags": [
+      "백과사전",
+      "에드몽 웰즈",
+      "개미",
+      "과학 에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic",
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학적 호기심과 철학적 사유를 바탕으로 독창적인 저작을 선보여 온 프랑스의 작가이다.",
+    "oneLineSummary": "저자가 어린 시절부터 수집해 온 과학, 역사, 철학, 자연의 신비에 관한 지식들을 흥미롭게 엮어낸 백과사전식 에세이다.",
+    "overallSummary": "이 책은 소설 《개미》 속 가상의 인물 에드몽 웰즈가 저술한 것으로 설정된 에세이 모음이다. 각막의 빛 처리 과정부터 기생충 간충의 놀라운 생태, 개미산, 아르헨티나 개미의 침략사까지 자연과학과 인문학을 넘나드는 다양한 지식들을 통해 독자에게 고정관념을 깨고 세상을 다른 눈으로 바라볼 수 있는 생각할 거리를 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "생각할 거리를 제공하는 장(場)",
+        "summary": "작가가 어린 시절 정원에서 개미를 발견한 경험과 함께 이 백과사전을 집필하게 된 동기와 의도를 밝힌다."
+      },
+      {
+        "sectionTitle": "각막으로 빛살이 들어오면 ~ 아르헨티나 개미",
+        "summary": "시각의 생리학적 원리, 식당에서의 성냥개비 게임, 양의 간에 기생하는 간충의 놀라운 행동 조종 메커니즘, 개미의 신체 기능과 아르헨티나 개미의 확산 과정을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "사전식 항목 배열을 통한 과학·철학 에세이"
+      },
+      {
+        "key": "목적",
+        "value": "독자의 호기심 자극 및 인간 중심적 시각의 탈피"
+      }
+    ],
+    "keyEntitiesText": "에드몽 웰즈, 기욤 아르토, 간충, 아르헨티나 개미",
+    "settingText": "자연과 인간의 지식이 만나는 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xdeq_yYm9Xc1VsyVvM_OPF1-G0F-Mb-q",
+    "filename": "베르나르 베르베르-상대적이며 절대적인 지식의 백과사전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.959Z",
+    "size": "335326",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/1xdeq_yYm9Xc1VsyVvM_OPF1-G0F-Mb-q/view?usp=drivesdk",
+    "sourceSha256": "70293513cfde30aff6c08bef2827c6c2bfc709bc9d2df8230dbfc78e42ed0025",
+    "textSha256": "42c4f7de676e325135cc0f2faf6ed890e1168b46783176f33df841809812ebbd",
+    "changeKey": "e1740e9dd22b5167f7dde0581ca0086b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a7bfd4e919be639fd03c",
+    "workId": "a7bfd4e919be639fd03c",
+    "driveFileId": "1xdeq_yYm9Xc1VsyVvM_OPF1-G0F-Mb-q",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:19:31.710875+00:00",
+    "updatedAt": "2026-09-22T00:19:31.710891+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:19:31.711018+00:00"
+    }
+  }
+}

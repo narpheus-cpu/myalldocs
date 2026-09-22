@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개미혁명 2",
+    "author": "베르나르 베르베르",
+    "genre": "과학 소설",
+    "tags": [
+      "개미혁명",
+      "쥘리",
+      "벨로캉",
+      "학교 점거"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간과 개미의 상호작용을 심도 있게 그린 프랑스의 대표 작가 베르나르 베르베르의 소설이다.",
+    "oneLineSummary": "암호 가방의 비밀을 풀고 학교로 돌아간 쥘리가 친구들과 함께 저항 운동을 펼치고, 개미 세계에서는 종교와 기술이 비약적으로 발전한다.",
+    "overallSummary": "쥘리는 청각을 이용해 '1 + 1 = 3'이라는 등식의 암호 가방을 열고, 학교로 돌아가 시위와 점거 농성에 가담하며 친구들과 강한 연대를 형성한다. 한편 재건된 새 벨로캉에서는 손가락들을 신으로 숭배하는 종교 세력이 힘을 얻고 다양한 기술 혁신과 사회적 갈등이 빚어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "과거를 일소하자 / 벨로캉으로 가는 길",
+        "summary": "쥘리가 어머니와의 갈등을 뒤로하고 학교로 가며, 개미들은 손가락들에 대한 지식과 길을 찾아 나선다."
+      },
+      {
+        "sectionTitle": "대양 한가운데에 있는 섬 / 저녁의 작은 전투",
+        "summary": "학교가 경찰에 포위된 채 농성하는 학생들의 자급자족 투쟁과, 새 벨로캉에서 종교적 신앙을 둘러싼 개미들 간의 갈등을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 은유",
+        "value": "인간 학생들의 저항 운동과 개미 사회의 종교·정치적 갈등의 유사성 부각"
+      }
+    ],
+    "keyEntitiesText": "쥘리 팽송, 막시밀리엥, 103호, 23호, 일곱 난쟁이",
+    "settingText": "퐁텐블로 고등학교 및 새 벨로캉 도시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13xmSrXwu5kR06bvI9aZKWFGPqby_NgpN",
+    "filename": "베르나르 베르베르-개미혁명 2.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.803Z",
+    "size": "385523",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/13xmSrXwu5kR06bvI9aZKWFGPqby_NgpN/view?usp=drivesdk",
+    "sourceSha256": "ba1ff78f27d0f93f06e8b17b7f169d5b8061534eca19e26eaa754141a3e77328",
+    "textSha256": "92104e9b0e950a6d65703cc5b403114aa58efdd8565351b3584966461a656608",
+    "changeKey": "787e182b1442049863ac7a797c86e2e9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "54c7390aa2083c2b6ca5",
+    "workId": "54c7390aa2083c2b6ca5",
+    "driveFileId": "13xmSrXwu5kR06bvI9aZKWFGPqby_NgpN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:18:50.220090+00:00",
+    "updatedAt": "2026-09-22T00:18:50.220105+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:18:50.220207+00:00"
+    }
+  }
+}

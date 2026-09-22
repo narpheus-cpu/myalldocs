@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개미혁명 (통합본)",
+    "author": "베르나르 베르베르",
+    "genre": "과학 소설",
+    "tags": [
+      "개미혁명",
+      "쥘리",
+      "봉쇄",
+      "혁명"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 천재 작가 베르나르 베르베르의 대표적인 SF 대작이다.",
+    "oneLineSummary": "인간 사회의 변혁을 꿈꾸며 학교를 점거한 소녀 쥘리와, 손가락(인간)들을 신으로 모시며 새로운 체제를 구축하려는 개미들의 혁명을 그린 소설이다.",
+    "overallSummary": "퐁텐블로 숲에서 우연히 수상한 가방을 발견한 소녀 쥘리는 학교로 돌아와 친구들과 함께 기성세대에 저항하는 점거 농성과 혁명을 시작한다. 한편, 개미 세계에서도 인간(손가락)들을 신으로 숭배하는 신흥 종교가 대두되고, 개미들은 종족 간의 갈등을 극복하며 새로운 형태의 열린 사회와 문명을 건설해 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "숲속 산보와 추락",
+        "summary": "쥘리가 숲에서 낭떠러지로 떨어져 미지의 암호 가방을 발견하는 도입부."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "인간 혁명과 개미 혁명의 평행 이론, 자연과 문명의 대립 극복"
+      }
+    ],
+    "keyEntitiesText": "쥘리 팽송, 막시밀리엥, 103호, 23호",
+    "settingText": "퐁텐블로 숲 및 고등학교, 개미 도시 벨로캉"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zLgKnRK1gmm8c4VfFppaER_EfG64rwWJ",
+    "filename": "베르나르 베르베르-개미혁명.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.836Z",
+    "size": "1085082",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/1zLgKnRK1gmm8c4VfFppaER_EfG64rwWJ/view?usp=drivesdk",
+    "sourceSha256": "616c7ad5a18a238f3216903f81755c3ce9ac4b280531f3febd081fbc9f606c69",
+    "textSha256": "fbe74d326d2b64f651295d9c819f84afbc09dca69daca71054b3c8f2a559215f",
+    "changeKey": "4ff56cc985bcb855c44a075c8afdea80",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dabdbe845ba85e40cdf6",
+    "workId": "dabdbe845ba85e40cdf6",
+    "driveFileId": "1zLgKnRK1gmm8c4VfFppaER_EfG64rwWJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:19:04.658931+00:00",
+    "updatedAt": "2026-09-22T00:19:04.658947+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5253,
+      "updatedAt": "2026-09-22T00:19:04.659054+00:00"
+    }
+  }
+}
