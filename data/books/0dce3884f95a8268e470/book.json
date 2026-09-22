@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바람의 열두 방향",
+    "author": "어슐러 K. 르 귄",
+    "genre": "단편집",
+    "tags": [
+      "SF",
+      "판타지",
+      "단편선",
+      "사변소설",
+      "회고전"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "판타지와 SF 문학을 문학적 예술의 경지로 끌어올린 미국의 세계적 작가로 수많은 걸작을 발표했다.",
+    "oneLineSummary": "작가 데뷔 초기 10여 년간 집필한 대표 중단편들을 통해 그의 사상적 궤적과 상상력의 발전을 집대성했다.",
+    "overallSummary": "작가가 10여 년간 발표한 주요 SF 및 판타지 단편 17편을 연대순으로 엮은 선집이다. 초기 대표작의 모태가 된 '샘레이의 목걸이'를 비롯하여 '오멜라스를 떠나는 사람들', '혁명 전날' 등 인간 존재와 사회, 낭만주의와 신화적 세계관을 아우르는 다채로운 이야기들을 수록하고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "작품들이 집필된 배경과 장편소설과의 유기적 연관성, 낭만주의에서 성숙한 문체로의 변화 과정을 설명한다."
+      },
+      {
+        "sectionTitle": "샘레이의 목걸이",
+        "summary": "포말하우트 II 행성의 앤기어 귀족 샘레이가 가문의 잃어버린 보물인 목걸이를 찾아 피이아족 마을로 향하는 여정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "창작 배경 연계",
+        "value": "수록 단편 중 '샘레이의 목걸이'는 르 귄의 첫 장편소설인 '로캐넌의 세계'의 씨앗이 된 작품임."
+      }
+    ],
+    "keyEntitiesText": "로캐넌, 샘레이, 두르할, 두로사, 할드레, 케소",
+    "settingText": "포말하우트 II 행성의 할란 요새 및 키리옌 골짜기 등 가상 외계 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wudbPGZBrFxhaBtJosLuK-RuASoBJ0F2",
+    "filename": "어슐러 K 르귄-바람의 열두 방향(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T02:31:04.000Z",
+    "size": "812501",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1wudbPGZBrFxhaBtJosLuK-RuASoBJ0F2/view?usp=drivesdk",
+    "sourceSha256": "86bcaa56fcf3d66d461d672c095e757654b8047b11addcc6bfc25ed4c14f8685",
+    "textSha256": "9941939d3c9092ef77e96e45d683cdf202ba309060f63731bad61dd717ec0914",
+    "changeKey": "ffaa37cfe462b89b4a3e5b64101dcf20",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0dce3884f95a8268e470",
+    "workId": "0dce3884f95a8268e470",
+    "driveFileId": "1wudbPGZBrFxhaBtJosLuK-RuASoBJ0F2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:29:16.120119+00:00",
+    "updatedAt": "2026-09-22T01:29:16.120135+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:29:16.120233+00:00"
+    }
+  }
+}

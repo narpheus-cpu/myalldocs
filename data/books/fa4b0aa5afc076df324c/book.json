@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천사의 손수건",
+    "author": "어윈 쇼",
+    "genre": "장편소설",
+    "tags": [
+      "미스터리",
+      "협박전화",
+      "뉴욕",
+      "위기",
+      "노년"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "서스펜스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간의 심리와 현대 사회의 불안을 정교하게 묘사하는 미국의 저명한 소설가이자 극작가이다.",
+    "oneLineSummary": "한밤중에 걸려온 의문의 협박 전화 한 통으로 인해 평온하던 노신사의 일상이 불길한 의혹 속으로 빠져든다.",
+    "overallSummary": "맨해튼에 거주하는 문예 대행업자 로저 데이몬은 아내가 집을 비운 새벽 의문의 인물 잘로프스키로부터 생사가 걸렸다는 협박 전화를 받는다. 장난으로 치부하려 하지만 불안감을 떨치지 못하고, 일요일 아침 도시를 배회하며 과거의 인연들과 사업 관계를 되짚어보며 다가오는 위협의 실체를 고민한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 이상한 전화",
+        "summary": "새벽 세 시 반, 데이몬이 잘로프스키라는 남자로부터 만나자는 협박 전화를 받고 당황하며 두려움에 사로잡힌다."
+      },
+      {
+        "sectionTitle": "제2장 다섯 시간의 망각",
+        "summary": "잠에서 깬 데이몬이 거실을 점검하고 아침 신문을 사러 나갔다 오며 직장 동료와 성공한 베스트셀러 작가를 떠올린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 긴장감",
+        "value": "정체불명의 위협을 계기로 평온했던 일상 이면에 숨겨진 노년의 불안과 고립감이 증폭되는 구조."
+      }
+    ],
+    "keyEntitiesText": "로저 데이몬, 실라, 잘로프스키, 올리버 가브리엘슨, 제네비브 돌저",
+    "settingText": "미국 뉴욕 맨해튼 웨스트 10번가 및 인근 거리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1A5S9tOiixCPj4nlI-QjnewZVrb8xPH39",
+    "filename": "어윈 쇼-천사의 손수건.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.027Z",
+    "size": "545377",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1A5S9tOiixCPj4nlI-QjnewZVrb8xPH39/view?usp=drivesdk",
+    "sourceSha256": "45407469526c4f737eb164ba86c13dbc5702bd23655bb566dafd83a431667883",
+    "textSha256": "34e65a36768c0e4eb51b18f671848cfb5263795c63370098f1ea5ac94cb7e4e0",
+    "changeKey": "7c295367b007622f874df5e73c662493",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fa4b0aa5afc076df324c",
+    "workId": "fa4b0aa5afc076df324c",
+    "driveFileId": "1A5S9tOiixCPj4nlI-QjnewZVrb8xPH39",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:29:22.410572+00:00",
+    "updatedAt": "2026-09-22T01:29:22.410589+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:29:22.410685+00:00"
+    }
+  }
+}

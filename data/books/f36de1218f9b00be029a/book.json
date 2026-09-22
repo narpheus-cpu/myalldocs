@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "자기 앞의 생",
+    "author": "에밀 아자르",
+    "genre": "장편소설",
+    "tags": [
+      "모모",
+      "로자아줌마",
+      "벨빌",
+      "사랑",
+      "생존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "로맹 가리가 가명으로 발표하여 공쿠르 상을 두 번째 수상한 현대 프랑스 문학의 독보적 걸작이다.",
+    "oneLineSummary": "파리 벨빌의 낡은 아파트에서 유태인 전직 창녀 로자 아줌마와 아랍인 고아 소년 모모가 나누는 조건 없는 사랑을 그린다.",
+    "overallSummary": "엘리베이터도 없는 7층 건물에서 창녀들의 아이들을 돌보며 살아가는 늙고 병든 유태인 로자 아줌마와 그녀의 품에서 자라는 아랍 소년 모모의 이야기이다. 모모는 양육비 때문에 맡겨졌다는 사실을 알고 방황하기도 하지만, 점차 쇠약해져 가는 로자 아줌마를 바라보며 인간에게 사랑이 얼마나 필수적인지를 깨달아 간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "모모가 7층을 오르내리는 로자 아줌마의 힘겨운 삶과 하밀 할아버지에게 사랑 없이 살 수 있는지 묻던 어린 시절을 회상한다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "아이들이 북적대는 탁아소의 일상과 늙고 병든 로자 아줌마의 두려움, 모모가 어른들의 관심을 끌기 위해 벌인 행동들이 서술된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "존재론적 질문",
+        "value": "소외된 이민자 및 사회적 밑바닥 인생들을 통해 '사람은 사랑 없이도 살 수 있는가'라는 근원적 물음을 제기."
+      }
+    ],
+    "keyEntitiesText": "모모(모하메드), 로자 아줌마, 하밀 할아버지, 롤라 아줌마, 바나니아, 모세",
+    "settingText": "프랑스 파리의 빈민가 벨빌 지역의 낡은 건물"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VKOx8uQJmqFzGKf8fsQ0xAGbqrgJ2vDs",
+    "filename": "에밀 아자르-자기 앞의 생(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:20:32.000Z",
+    "size": "492510",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1VKOx8uQJmqFzGKf8fsQ0xAGbqrgJ2vDs/view?usp=drivesdk",
+    "sourceSha256": "e0d5df23bb4373a03f8017580648fbedd2a2356cc7c98950a8f0335ed58becd7",
+    "textSha256": "258e55f3ef538bd3c18ebae14428b91619010e003d50d1e3f561dd6026cd05ac",
+    "changeKey": "c6683bbbf060f599d11374999cda87fb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f36de1218f9b00be029a",
+    "workId": "f36de1218f9b00be029a",
+    "driveFileId": "1VKOx8uQJmqFzGKf8fsQ0xAGbqrgJ2vDs",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:30:00.186394+00:00",
+    "updatedAt": "2026-09-22T01:30:00.186410+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:30:00.186506+00:00"
+    }
+  }
+}

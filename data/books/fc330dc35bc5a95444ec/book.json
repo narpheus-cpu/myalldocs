@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시라노",
+    "author": "에드몽 로스탕",
+    "genre": "희곡",
+    "tags": [
+      "운문희곡",
+      "시라노",
+      "검객",
+      "짝사랑",
+      "가스코뉴"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "고전문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1868년 프랑스 마르세유 출생으로 5막 운문 희곡 '시라노'를 통해 세계적 명성을 얻은 극작가이다.",
+    "oneLineSummary": "기형적으로 큰 코 때문에 사랑을 고백하지 못하는 호방한 검객 시라노와 그를 둘러싼 낭만적 비극이 펼쳐진다.",
+    "overallSummary": "17세기 파리를 배경으로 뛰어난 검술과 시적 재능을 지녔으나 거대한 코에 대한 콤플렉스로 사촌 록산을 향한 연정을 숨기는 시라노의 이야기이다. 부르고뉴 극장에서의 소동으로 막이 오르며, 록산을 짝사랑하는 미청년 크리스티앙과 권력자 드 기슈 백작 등이 얽히며 비극적 사랑의 서막이 열린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1막 제1장",
+        "summary": "부르고뉴 극장 홀에 모여든 관객들과 귀족들이 연극 개막을 기다리며 소란을 피운다."
+      },
+      {
+        "sectionTitle": "제1막 제2장",
+        "summary": "크리스티앙과 리니에르가 등장하여 록산에 대해 이야기하고, 라그노와 르 브레가 시라노의 비범한 성격을 설명한다."
+      },
+      {
+        "sectionTitle": "제1막 제3장",
+        "summary": "드 기슈 백작 무리가 나타나고, 크리스티앙은 소매치기로부터 리니에르를 암살하려는 음모가 있다는 경고를 듣는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "극적 대조",
+        "value": "외모는 볼품없으나 뛰어난 영혼과 언변을 지닌 시라노와 수려한 외모를 지녔으나 말재주가 없는 크리스티앙의 대비."
+      }
+    ],
+    "keyEntitiesText": "시라노 드 베르주라크, 크리스티앙, 록산, 드 기슈 백작, 라그노, 르 브레, 리니에르",
+    "settingText": "1640년 프랑스 파리 부르고뉴 성관 극장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1c4FHsrJdASt2yVgRqa50asZ8_Fq584K1",
+    "filename": "에드몽 로스탕-시라노 -열린책들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.049Z",
+    "size": "309437",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1c4FHsrJdASt2yVgRqa50asZ8_Fq584K1/view?usp=drivesdk",
+    "sourceSha256": "dc26982750b83110bc9a0ed4fb0b57326860ab0ea95e5a889ac33901dd70388a",
+    "textSha256": "3929b312fb9c3efd378c91486e2a6f0ab42a3cfe5eba2a2eef767da661b79c64",
+    "changeKey": "d87d03dfbfec2d81b77155cb60f14441",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fc330dc35bc5a95444ec",
+    "workId": "fc330dc35bc5a95444ec",
+    "driveFileId": "1c4FHsrJdASt2yVgRqa50asZ8_Fq584K1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:29:28.562538+00:00",
+    "updatedAt": "2026-09-22T01:29:28.562554+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:29:28.562655+00:00"
+    }
+  }
+}

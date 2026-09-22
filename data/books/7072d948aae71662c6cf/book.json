@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "누구를 위하여 종은 울리나 하",
+    "author": "어니스트 헤밍웨이",
+    "genre": "장편소설",
+    "tags": [
+      "스페인내전",
+      "죽음의예감",
+      "동굴",
+      "사랑",
+      "파르티잔"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "전쟁문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스페인 내전 종군 경험을 바탕으로 행동과 연대 의식을 소설에 구현한 미국의 대표 소설가이다.",
+    "oneLineSummary": "다리 폭파 작전을 앞둔 밤, 동굴 안에서 전우들과 죽음과 운명에 대한 설전을 벌이며 조던은 사랑과 사명을 되새긴다.",
+    "overallSummary": "산속 동굴에서 로버트 조던과 마리아, 필라르, 파블로 등 게릴라들은 죽음의 징조와 예감에 대해 논쟁을 벌인다. 필라르는 과거 투우사들의 일화를 들며 죽음의 냄새를 감지할 수 있다고 주장하고, 이성적인 조던은 이를 미신으로 치부한다. 밤이 깊어 눈보라가 멈춘 뒤 조던은 침낭 속에서 마리아를 기다리며 각오를 다진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "19장",
+        "summary": "마리아와 조던의 대화로 시작하여 필라르가 주장하는 죽음의 징후와 냄새에 대해 대원들과 조던이 열띤 토론을 벌인다."
+      },
+      {
+        "sectionTitle": "20장",
+        "summary": "눈이 갠 겨울밤, 조던이 솔가지로 잠자리를 마련하고 마리아와의 만남을 기다리며 임무 수행의 긴장을 다스린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제적 갈등",
+        "value": "집시적 신비주의와 운명론에 맞서는 조던의 냉철한 이성과 현실주의적 신념."
+      }
+    ],
+    "keyEntitiesText": "로버트 조던, 마리아, 필라르, 파블로, 페르난도, 라파엘, 안셀모, 카슈킨",
+    "settingText": "스페인 산악 지대의 게릴라 은신 동굴과 눈 덮인 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dK0zTJElbZSgn_GR-ge8__yyBNSHP1sl",
+    "filename": "어니스트 헤밍웨이-누구를 위하여 종은 울리나 (하) - 열린책들 세계문학 206 -- 어니스트 헤밍웨이 -- 20932962115 -- 372a15c635b6111f961c6415ed6b2b93 -- Anna’s Archive.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.897Z",
+    "size": "663433",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "어니스트 헤밍웨이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/어니스트 헤밍웨이",
+    "webViewLink": "https://drive.google.com/file/d/1dK0zTJElbZSgn_GR-ge8__yyBNSHP1sl/view?usp=drivesdk",
+    "sourceSha256": "b719f52e3a62ed8bb8b53bf9a34f3d8ef7d3e5dacf14d9b30838ac1ad08b6e10",
+    "textSha256": "db73b1ead63a986811fae015dda839bec1fb75e33561b4d7a030079e535483ee",
+    "changeKey": "25dad0d6479cff603cbb604cdab26927",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7072d948aae71662c6cf",
+    "workId": "7072d948aae71662c6cf",
+    "driveFileId": "1dK0zTJElbZSgn_GR-ge8__yyBNSHP1sl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:28:57.913256+00:00",
+    "updatedAt": "2026-09-22T01:28:57.913272+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:28:57.913374+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "둥지를 떠나는 새",
+    "author": "엘 햄너 쥬니어",
+    "genre": "소설",
+    "tags": [
+      "성장소설",
+      "추수감사절",
+      "사냥",
+      "스펜서일가",
+      "가족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "전원소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 버지니아 시골 마을의 가족애와 소년의 성장기를 따뜻하고 서정적인 문체로 풀어내는 작가이다.",
+    "oneLineSummary": "추수감사절을 맞아 모인 대가족 틈에서 열다섯 살 소년 클레이보이가 성인의 관문인 사슴 사냥에 나서고자 결의를 다진다.",
+    "overallSummary": "추수감사절 전야, 버지니아 블루릿지 산기슭 스펜서 가문에 아홉 형제들이 모여든다. 맏손자 클레이보이는 도시에서 온 버질 삼촌으로부터 사냥칼을 선물받고, 이튿날 새벽 어른들과 함께 사슴 사냥에 나설 꿈에 부푼다. 어머니의 과잉보호를 벗어나 당당한 스펜서 가문의 일원으로 인정받고자 하는 소년의 성장 욕망이 펼쳐진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "추수감사절 전날 삼촌들과 친척들이 모여 음식을 나누고, 클레이보이가 버질 삼촌에게 사냥칼을 받으며 흰 사슴 전설을 듣는다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "사냥 당일 새벽 몰래 일어난 클레이보이가 긴장감 속에 아침을 준비하는 어른들과 함께 사냥 출정을 준비한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "통과의례적 모티프",
+        "value": "위험과 모험이 도사린 야생 사냥에 참여함으로써 소년기에서 성인 남성의 세계로 진입하려는 통과의례를 묘사."
+      }
+    ],
+    "keyEntitiesText": "클레이보이, 클레이 스펜서, 올리비아, 버질 삼촌, 엘리자베드 할머니, 지벌론 할아버지",
+    "settingText": "미국 버지니아주 블루릿지 산골 뉴 도미니언 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ixniydS_GRIiO6atEPuQiYv5ONyLRvlt",
+    "filename": "엘 햄너 쥬니어-둥지를 떠나는 새 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.292Z",
+    "size": "534510",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ixniydS_GRIiO6atEPuQiYv5ONyLRvlt/view?usp=drivesdk",
+    "sourceSha256": "e742f9039aeeccdb11ff241d787458afcffaaccabfd3190e8da977c91c23d5f7",
+    "textSha256": "6b125417a0791621746f75904cf4a20c50f0f273065300438ae501d257359626",
+    "changeKey": "7735af9cb3ef7d761f2b6d1195f8ee05",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a93dab24411387e5c4e8",
+    "workId": "a93dab24411387e5c4e8",
+    "driveFileId": "1ixniydS_GRIiO6atEPuQiYv5ONyLRvlt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:30:18.615911+00:00",
+    "updatedAt": "2026-09-22T01:30:18.615928+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:30:18.616024+00:00"
+    }
+  }
+}

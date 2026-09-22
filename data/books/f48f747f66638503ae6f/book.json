@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어른을 위한 잔혹동화",
+    "author": "국수경",
+    "genre": "창작동화",
+    "tags": [
+      "잔혹동화",
+      "패러디",
+      "인간본성",
+      "욕망",
+      "교훈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고전 명작동화를 어른의 시각에서 비틀어 인간의 악의와 세속적 욕망을 탐구하는 동화 엮음 작가이다.",
+    "oneLineSummary": "익히 알려진 명작 동화들의 이면에 도사린 인간의 사악함, 이기심, 뒤틀린 사랑의 본질을 폭로한다.",
+    "overallSummary": "고전 동화와 신화를 냉소적으로 재해석한 창작동화집이다. '백설공주'에서는 계모의 간계와 어리석은 공주의 비극적 전락 및 현실 안주를, '피로 물들인 드레스'에서는 벙어리 소녀의 희생적 사랑을 외면하고 파멸하는 청년의 헛된 욕망을 통해 세상의 냉혹한 현실과 인간 본성을 해부한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 백설공주",
+        "summary": "공주가 계모의 계략에 속아 피부가 망가지고, 왕자는 계모와 결탁하며 공주는 난장이 집에서 억척스럽게 살아가는 이야기."
+      },
+      {
+        "sectionTitle": "2. 피로 물들인 드레스",
+        "summary": "스승 딸의 환심을 사려는 청년을 위해 벙어리 소녀가 목숨 바쳐 드레스를 만들지만 결국 거절당하고 버려지는 비극."
+      },
+      {
+        "sectionTitle": "3. 인어공주",
+        "summary": "바다 깊은 곳 인어왕의 막내 공주가 지상 세계에 대한 동경과 호기심을 키워가는 이야기의 도입부."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "풍자적 메시지",
+        "value": "동화적 환상을 걷어내고 인간의 맹목적인 이기심과 외모 집착, 냉정한 현실 법칙을 잔혹하게 고발함."
+      }
+    ],
+    "keyEntitiesText": "백설공주, 새 왕비, 난장이들, 이웃나라 왕자, 아테네 청년, 벙어리 소녀, 아테나 여신, 인어공주",
+    "settingText": "환상적인 중세 유럽의 왕국, 고대 그리스 아테네, 깊은 바다 왕국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ttwBmG8ws4VtbZ3ZO96S0ah8c3Gg3_vB",
+    "filename": "어른을 위한 잔혹동화.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.973Z",
+    "size": "207065",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ttwBmG8ws4VtbZ3ZO96S0ah8c3Gg3_vB/view?usp=drivesdk",
+    "sourceSha256": "ecf3f1c013118d4c89dcc6754d5cc450c96f5010db55026ea9e11b68f323b862",
+    "textSha256": "78aeee7b4c85ad9aaef916d429a2f730eb50d8ca9b8311925bb5b1a152524730",
+    "changeKey": "5b6c55bc07dfc23028aec8c5794de77a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f48f747f66638503ae6f",
+    "workId": "f48f747f66638503ae6f",
+    "driveFileId": "1ttwBmG8ws4VtbZ3ZO96S0ah8c3Gg3_vB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:29:04.557615+00:00",
+    "updatedAt": "2026-09-22T01:29:04.557632+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:29:04.557734+00:00"
+    }
+  }
+}

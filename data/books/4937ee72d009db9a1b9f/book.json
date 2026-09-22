@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무기여, 잘 있거라(상)",
+    "author": "어네스트 헤밍웨이",
+    "genre": "소설",
+    "tags": [
+      "전쟁",
+      "제1차세계대전",
+      "이탈리아전선",
+      "간호사",
+      "사랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "전쟁문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1899년 미국 일리노이주 오크파크 출생으로 기자를 거쳐 소설가로 활동했으며 노벨문학상과 퓰리처상을 수상했다.",
+    "oneLineSummary": "제1차 세계대전 이탈리아 전선에 자원입대한 미국인 중위 헨리가 겪는 전쟁의 실상과 간호사 캐서린과의 만남을 그린다.",
+    "overallSummary": "미국인 청년 프레더릭 헨리는 이탈리아 군의 의무대 장교로 참전하여 고리치아 전선에서 부대원들과 지낸다. 그는 겨울 휴가를 다녀온 뒤 전선으로 복귀해 친구 리날디와 군목 신부 등을 다시 만나고, 영국인 간호사 캐서린 바클리와 교류를 시작하며 전쟁의 포화 속에서 일상을 이어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1편 1장",
+        "summary": "늦여름부터 겨울까지 비와 진흙 속에서 군대의 이동과 포격, 콜레라 유행 등 전선의 삭막한 풍경을 묘사한다."
+      },
+      {
+        "sectionTitle": "제1편 2장",
+        "summary": "고리치아 점령 후 장교들의 식사 자리에서 군목 신부를 둘러싼 가벼운 농담과 휴가 계획이 오간다."
+      },
+      {
+        "sectionTitle": "제1편 3장",
+        "summary": "휴가를 마치고 복귀한 헨리가 친구 리날디와 재회하고 신부와 대화하며 방황했던 마음을 털어놓는다."
+      },
+      {
+        "sectionTitle": "제1편 4장",
+        "summary": "아침 포격 소리에 잠을 깬 헨리가 차고로 내려가 구급차 상태를 점검하며 전선 근무를 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "등장인물 관계",
+        "value": "의무대 장교 헨리와 의사 리날디는 절친한 동료이며 캐서린 바클리와의 관계가 시작되는 배경을 이룬다."
+      }
+    ],
+    "keyEntitiesText": "프레더릭 헨리, 캐서린 바클리, 리날디 중위, 군목 신부, 헬렌 퍼거슨, 이탈리아 국왕",
+    "settingText": "제1차 세계대전 시기 북부 이탈리아 전선 및 고리치아 인근 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18sAAq0UfKmpKgAN3EkPm6HKEZ1NS7Bpc",
+    "filename": "어네스트 헤밍웨이-무기여, 잘 있거라.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.832Z",
+    "size": "445503",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "어니스트 헤밍웨이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/어니스트 헤밍웨이",
+    "webViewLink": "https://drive.google.com/file/d/18sAAq0UfKmpKgAN3EkPm6HKEZ1NS7Bpc/view?usp=drivesdk",
+    "sourceSha256": "24d6238af5136c94d64b0707ad658cf160be7fb104b6553957b7a028619da131",
+    "textSha256": "81d260d8d482e37828156556cca6cc292d8200e6ff5a12499dcb68e38accbae8",
+    "changeKey": "bfb37159935ae2bf5c16947e4151d07a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4937ee72d009db9a1b9f",
+    "workId": "4937ee72d009db9a1b9f",
+    "driveFileId": "18sAAq0UfKmpKgAN3EkPm6HKEZ1NS7Bpc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:28:38.644387+00:00",
+    "updatedAt": "2026-09-22T01:28:38.644403+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.6791,
+      "updatedAt": "2026-09-22T01:28:38.644591+00:00"
+    }
+  }
+}

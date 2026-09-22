@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "트레인스포팅",
+    "author": "어빈 웰시",
+    "genre": "소설",
+    "tags": [
+      "마약",
+      "스코틀랜드",
+      "에든버러",
+      "청춘",
+      "일탈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "사회비판"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스코틀랜드 출신 작가로 뒷골목 하위문화와 약물 중독, 청년들의 방황을 생생하고 날카로운 필치로 그려냈다.",
+    "oneLineSummary": "에든버러 뒷골목 청년들이 기성 사회의 질서를 거부한 채 마약과 폭력, 방황 속에서 삶을 버텨낸다.",
+    "overallSummary": "스코틀랜드 에든버러를 배경으로 주인공 마크 렌튼과 식보이, 스퍼드, 벡비 등 사회 주변부 청년들의 파괴적인 일상을 다룬다. 기성세대가 강요하는 안정된 삶을 거부하고 헤로인에 빠져들며 겪는 처절한 금단증상, 범죄, 우정의 균열, 그리고 자기 파멸적 저항을 사실적으로 묘사한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "추천 및 역자의 말",
+        "summary": "작품이 지닌 사회 비판적 성격과 20세기 청년 문화에 미친 영향력, 스코틀랜드 방언의 특성을 해설한다."
+      },
+      {
+        "sectionTitle": "제1장 1. 헤로인 보이스와 장 클로드 반담과 수녀원장",
+        "summary": "렌튼과 식보이가 금단증상에 시달리며 마약을 구하기 위해 실랑이를 벌이고 택시를 잡아타는 소동을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회문화적 배경",
+        "value": "도시 산업의 쇠퇴와 실업, 주류 사회로부터 소외된 청년 세대의 분노와 마약 하위문화를 사실적으로 포착."
+      }
+    ],
+    "keyEntitiesText": "마크 렌튼, 식보이(사이먼), 스퍼드, 프랭크 벡비, 조니 스원(수녀원장)",
+    "settingText": "1980~90년대 스코틀랜드 에든버러 리스 지역 및 빈민가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18ZsHoNXU7kn2-HF-4r-Dc208SwMLfw2Y",
+    "filename": "어빈 웰시-트레인스포팅.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.984Z",
+    "size": "561158",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/18ZsHoNXU7kn2-HF-4r-Dc208SwMLfw2Y/view?usp=drivesdk",
+    "sourceSha256": "0cddc1fdd9d706c11593dc49b1e3f25427fb720ed0919c79c2b80f76c5448c21",
+    "textSha256": "9c78c62c84d73afbfaba08bff02cf6edb843fe3edb5cd92ec4d8ed2d45edb3a2",
+    "changeKey": "58547b105268614ef6ecb8eb61d5442b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4ddc0522634fca728475",
+    "workId": "4ddc0522634fca728475",
+    "driveFileId": "18ZsHoNXU7kn2-HF-4r-Dc208SwMLfw2Y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:29:10.105746+00:00",
+    "updatedAt": "2026-09-22T01:29:10.105763+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:29:10.105861+00:00"
+    }
+  }
+}

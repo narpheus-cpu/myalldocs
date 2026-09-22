@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "노인과 바다",
+    "author": "어니스트 헤밍웨이",
+    "genre": "중편소설",
+    "tags": [
+      "바다",
+      "노인",
+      "어부",
+      "불패",
+      "자연"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "해양문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1899년 출생으로 하드보일드 문체를 확립하고 퓰리처상과 노벨문학상을 수상한 20세기 미국의 대표적 소설가이다.",
+    "oneLineSummary": "84일 동안 물고기를 잡지 못한 늙은 어부 산티아고가 소년 마놀린의 격려를 받으며 새로운 출어를 준비한다.",
+    "overallSummary": "쿠바 걸프 해류에서 홀로 고기를 잡는 노인 산티아고는 84일 연속 공치며 불운의 어부 취급을 받는다. 그를 따르는 어린 소년 마놀린은 부모의 반대로 다른 배를 타면서도 노인의 식사와 낚시 도구를 챙겨주며 변함없는 애정과 존경을 보낸다. 산티아고는 다음 날 85일째 출어를 앞두고 사자 꿈을 꾸며 결의를 다진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문 전반부",
+        "summary": "산티아고의 수척하지만 불패의 눈빛과 소년 마놀린과의 신뢰 관계, 야구와 사자 꿈에 대한 대화 및 다음 날 출어를 준비하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 상징",
+        "value": "노인이 꾸는 아프리카 해변의 어린 사자 꿈은 젊음과 순수한 생명력, 불굴의 의지를 상징한다."
+      }
+    ],
+    "keyEntitiesText": "산티아고, 마놀린, 마르틴, 조 디마지오",
+    "settingText": "쿠바 아바나 인근 어촌 마을과 걸프 해류 연안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10RXDNa9n_e3SVHs6WfaDzWv5OrTfO-y0",
+    "filename": "어니스트 헤밍웨이-노인과 바다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.747Z",
+    "size": "207814",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/10RXDNa9n_e3SVHs6WfaDzWv5OrTfO-y0/view?usp=drivesdk",
+    "sourceSha256": "411c4087742fb10dcd54ff2868a46b3b90da726cd22f26271c7887e5faafa4a9",
+    "textSha256": "b22052bc6ca1d7babdc080b6b7212fab22a9b5c2e5dd084af5466e774796e2d3",
+    "changeKey": "d175a2e01fdbbdfe4e882b6060ea2d72",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0a10ac8ff90f774d61ac",
+    "workId": "0a10ac8ff90f774d61ac",
+    "driveFileId": "10RXDNa9n_e3SVHs6WfaDzWv5OrTfO-y0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:28:51.554471+00:00",
+    "updatedAt": "2026-09-22T01:28:51.554487+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:28:51.554583+00:00"
+    }
+  }
+}
