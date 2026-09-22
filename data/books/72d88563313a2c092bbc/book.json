@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살인자의 쇼핑몰",
+    "author": "강지영",
+    "genre": "스릴러",
+    "tags": [
+      "쇼핑몰",
+      "살인자",
+      "가족",
+      "스릴러"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "스릴러"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "경기도 파주에서 활동하는 소설가.",
+    "oneLineSummary": "삼촌이 운영하던 의문의 쇼핑몰을 물려받은 조카가 겪는 위험한 사건들을 다룬다.",
+    "overallSummary": "부모를 잃고 삼촌 밑에서 자란 정지안이 삼촌의 죽음 이후 그가 운영하던 의문의 쇼핑몰을 물려받으며 벌어지는 이야기이다. 삼촌의 과거와 쇼핑몰의 정체가 드러나며 지안은 생존을 위한 사투를 벌인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "정지안이 삼촌의 죽음 이후 쇼핑몰을 물려받고, 그곳을 노리는 자들과 맞서며 삼촌의 비밀을 파헤친다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "의문의 쇼핑몰, 삼촌의 과거."
+      }
+    ],
+    "keyEntitiesText": "정지안, 삼촌, 정민",
+    "settingText": "한국의 한 아파트 및 쇼핑몰."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NosWl10IA1TnaahuFPgeGlgfVRilczL7",
+    "filename": "강지영-살인자의 쇼핑몰(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:11:38.000Z",
+    "size": "209809",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1NosWl10IA1TnaahuFPgeGlgfVRilczL7/view?usp=drivesdk",
+    "sourceSha256": "5fc3ad9c9c01f2f12c4d979f34da7deea5a5b7428d4c832499e24b17d1df1998",
+    "textSha256": "496fb4cbc741999398cf884c826fe381b0027084ceca5ca5989434705f9d38c2",
+    "changeKey": "8d17c8d594fcd5a09431cfb6c0d2dd88",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "72d88563313a2c092bbc",
+    "workId": "72d88563313a2c092bbc",
+    "driveFileId": "1NosWl10IA1TnaahuFPgeGlgfVRilczL7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:44:57.698347+00:00",
+    "updatedAt": "2026-09-22T03:44:57.698353+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:44:57.698413+00:00"
+    }
+  }
+}

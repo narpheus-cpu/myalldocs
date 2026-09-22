@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비밀의 문",
+    "author": "김래성",
+    "genre": "추리 소설",
+    "tags": [
+      "추리",
+      "살인",
+      "비밀",
+      "한국소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 추리 소설의 선구자.",
+    "oneLineSummary": "살인 사건과 그 속에 숨겨진 비밀의 문을 찾아가는 추리 소설이다.",
+    "overallSummary": "살인 사건을 중심으로 그 배후에 숨겨진 비밀의 문을 찾아가는 과정을 그린다. 추리 소설의 형식을 빌려 인간의 욕망과 범죄의 진실을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "살인 사건을 수사하며 범인의 정체와 사건의 진실을 밝혀낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "고전적 추리 소설."
+      }
+    ],
+    "keyEntitiesText": "강세훈 박사, 영채, 윤정호",
+    "settingText": "한국."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1slmq2AaYf3QBdmUrczTbFQiWIqGQaF-Y",
+    "filename": "김래성-비밀의 문 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.969Z",
+    "size": "273978",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1slmq2AaYf3QBdmUrczTbFQiWIqGQaF-Y/view?usp=drivesdk",
+    "sourceSha256": "51a09a1ed8db3c5d096eacd34abbebfe5a40260e67ff8b195d3d6a0b4ac8e054",
+    "textSha256": "e809a8b56e6475acfefa22e4a71a6e850709e5a3d90275b79b67ce04bed813d0",
+    "changeKey": "9823085e46bf550e261c27ba57e1b41f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5d79a73c194cb295598d",
+    "workId": "5d79a73c194cb295598d",
+    "driveFileId": "1slmq2AaYf3QBdmUrczTbFQiWIqGQaF-Y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:45:48.922233+00:00",
+    "updatedAt": "2026-09-22T03:45:48.922247+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:45:48.922333+00:00"
+    }
+  }
+}

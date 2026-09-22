@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나무 잎새는 떨어진다",
+    "author": "게 그리쉰, 아 노르멜",
+    "genre": "첩보 소설",
+    "tags": [
+      "첩보",
+      "에스토니아",
+      "소련",
+      "냉전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "첩보"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소련 작가들이 쓴 첩보 소설로, 에스토니아의 반소련 활동을 다룬다.",
+    "oneLineSummary": "소련에 강제 편입된 에스토니아에서 활동하는 반소련 첩보 요원들의 잠입과 체포 과정을 다룬다.",
+    "overallSummary": "제2차 세계대전 이후 소련에 강제 편입된 에스토니아에서 스웨덴의 지원을 받아 반소련 활동을 하는 첩보 요원들의 이야기이다. 쑤지, 윌리, 요나쓰 등 요원들의 잠입과 국가안전기관의 추적, 그리고 비극적인 결말을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "요원들이 에스토니아에 잠입하여 임무를 수행하려 하지만, 국가안전기관의 추적으로 인해 하나둘씩 체포된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 배경",
+        "value": "냉전 시대 에스토니아의 소련 편입과 반소련 활동."
+      }
+    ],
+    "keyEntitiesText": "쑤지, 윌리, 요나쓰, 오쎄뜨로브 대좌",
+    "settingText": "에스토니아, 스웨덴."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hpDBtegnx_0d2x9-IVTTFyWssmzL6gll",
+    "filename": "게 그리쉰, 아 노르멜-나무 잎새는 떨어진다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.834Z",
+    "size": "326606",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1hpDBtegnx_0d2x9-IVTTFyWssmzL6gll/view?usp=drivesdk",
+    "sourceSha256": "583910eaf4945f8456cb973b18b0ab75df71af425790d56d56cd40b2c18c6f53",
+    "textSha256": "9392a558360584dc720831f16cb1c351111221abbe21b87acf8dc3c0d42ae350",
+    "changeKey": "86523fd670b71ce94bdb3d1e5ff84715",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9b7614e703ecad1b5e37",
+    "workId": "9b7614e703ecad1b5e37",
+    "driveFileId": "1hpDBtegnx_0d2x9-IVTTFyWssmzL6gll",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:45:11.719017+00:00",
+    "updatedAt": "2026-09-22T03:45:11.719033+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:45:11.719105+00:00"
+    }
+  }
+}

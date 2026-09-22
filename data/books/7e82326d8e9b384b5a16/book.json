@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아메리칸",
+    "author": "헨리 제임스",
+    "genre": "고전 소설",
+    "tags": [
+      "미국인",
+      "유럽",
+      "문화 충돌",
+      "사랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 출신의 소설가이자 비평가로, 미국인과 유럽인의 문화적 차이를 다룬 작품들로 유명하다.",
+    "oneLineSummary": "유럽을 여행하는 미국인 사업가 크리스토퍼 뉴만이 프랑스 귀족 사회와 겪는 문화적 충돌과 사랑을 다룬 소설이다.",
+    "overallSummary": "자수성가한 미국인 사업가 크리스토퍼 뉴만이 유럽 여행 중 프랑스 귀족 가문의 여인과 사랑에 빠지지만, 신분과 문화적 차이로 인해 겪는 갈등과 좌절을 그린다. 미국적 가치관과 유럽 귀족 사회의 폐쇄성이 대조를 이룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "루브르 박물관에서 그림을 감상하던 크리스토퍼 뉴만이 복제 화가 노에미 니오슈를 만나 그림을 구입하고 불어를 배우기로 한다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "뉴만은 박물관에서 새로운 인물들을 관찰하며 자신의 유럽 여행과 예술 후원에 대한 열정을 키워간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "미국적 실용주의와 유럽 귀족주의의 충돌."
+      }
+    ],
+    "keyEntitiesText": "크리스토퍼 뉴만, 노에미 니오슈, 니오슈 씨",
+    "settingText": "1868년 파리, 루브르 박물관."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1R6PJk0Kw1NKap0Ilsv_WCeOtlsK3py1x",
+    "filename": "헨리 제임스-아메리칸 = The American.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.698Z",
+    "size": "1018561",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1R6PJk0Kw1NKap0Ilsv_WCeOtlsK3py1x/view?usp=drivesdk",
+    "sourceSha256": "81229c3a1449ead36b29ec0e07f300103395512207f7f4bcf77b6eb8b5cd0e57",
+    "textSha256": "8dd9c097353e02c0e7a2cb48d254056eae77cf8628ef89e8f1be970dce8abfc3",
+    "changeKey": "63897a1eaa34cc1bd0a1c9675244f015",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7e82326d8e9b384b5a16",
+    "workId": "7e82326d8e9b384b5a16",
+    "driveFileId": "1R6PJk0Kw1NKap0Ilsv_WCeOtlsK3py1x",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:44:23.731662+00:00",
+    "updatedAt": "2026-09-22T03:44:23.731672+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:44:23.731740+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "보이지 않는 손",
+    "author": "강형원",
+    "genre": "추리 소설",
+    "tags": [
+      "증권",
+      "살인",
+      "추리",
+      "경제"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "변호사이자 추리소설 작가.",
+    "oneLineSummary": "증권 시장을 배경으로 벌어지는 연쇄 살인 사건과 그 배후를 추적하는 이야기이다.",
+    "overallSummary": "증권 시장의 과열과 투기 속에서 벌어지는 연쇄 살인 사건을 다룬다. 주인공이 사건의 실마리를 찾아가며 증권 시장의 보이지 않는 손과 범인의 정체를 밝혀낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "증권 투자 클럽 회원들 사이에서 벌어지는 살인 사건을 추적하며 사건의 진상을 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "증권 시장, 연쇄 살인."
+      }
+    ],
+    "keyEntitiesText": "정승규, 이영후, 고수진, 팽만복(형사)",
+    "settingText": "서울 증권가."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KhRPOPeTfkcV_DxKIsfvatJBi-GMwQC4",
+    "filename": "강형원-보이지 않는 손 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.808Z",
+    "size": "501003",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1KhRPOPeTfkcV_DxKIsfvatJBi-GMwQC4/view?usp=drivesdk",
+    "sourceSha256": "c1177da38771e49138b97ad6bdf9ec73936541c4665b02fcad76a717802d1a33",
+    "textSha256": "1792f76e8b7207f18b9675d90669a05d92b19e4502330e0678a025f56c897dea",
+    "changeKey": "25d63a4d6f059368645c617c7338608c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d58cbf90d54b89acbdd8",
+    "workId": "d58cbf90d54b89acbdd8",
+    "driveFileId": "1KhRPOPeTfkcV_DxKIsfvatJBi-GMwQC4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:45:05.226881+00:00",
+    "updatedAt": "2026-09-22T03:45:05.226898+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:45:05.226968+00:00"
+    }
+  }
+}

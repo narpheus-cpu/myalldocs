@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "베드룸 살인",
+    "author": "기쿠무라 이다루",
+    "genre": "추리 소설",
+    "tags": [
+      "살인",
+      "침실",
+      "추리",
+      "일본소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 추리 소설가.",
+    "oneLineSummary": "침실에서 벌어진 살인 사건과 그 주변 인물들의 비밀을 다룬 추리 소설이다.",
+    "overallSummary": "침실에서 발생한 살인 사건을 중심으로, 피해자와 가해자 사이의 얽힌 관계와 비밀을 추적한다. 사건의 진실을 밝혀가는 과정에서 인간의 욕망과 비극을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "침실 살인 사건을 수사하며 범인의 정체와 사건의 동기를 밝혀낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "침실 살인, 가족의 비밀."
+      }
+    ],
+    "keyEntitiesText": "세토미찌오, 데루미, 가쓰라",
+    "settingText": "일본."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eT3gvJlnCKEq3M6WC7u06Wh4U3HuzXbX",
+    "filename": "기쿠무라이다루- 베드룸살인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.872Z",
+    "size": "224520",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1eT3gvJlnCKEq3M6WC7u06Wh4U3HuzXbX/view?usp=drivesdk",
+    "sourceSha256": "010797f4716c110ff14477b7d5bd33835753689ae4c250484603ff2aa8bc1aa8",
+    "textSha256": "03309fe4bc41d6de897042bcecfa2a92f825e0cfeeb63cd4f93096f4aa1d355b",
+    "changeKey": "ab83da7f693bc35a6b2115f79450da19",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "843e557f22b1d801d86f",
+    "workId": "843e557f22b1d801d86f",
+    "driveFileId": "1eT3gvJlnCKEq3M6WC7u06Wh4U3HuzXbX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:45:30.232684+00:00",
+    "updatedAt": "2026-09-22T03:45:30.232697+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:45:30.232766+00:00"
+    }
+  }
+}

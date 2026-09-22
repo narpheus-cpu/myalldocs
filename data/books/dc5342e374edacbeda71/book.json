@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "목사와 빨간모자",
+    "author": "김동선",
+    "genre": "범죄 소설",
+    "tags": [
+      "범죄",
+      "도피",
+      "복수",
+      "한국소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "범죄"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 소설가.",
+    "oneLineSummary": "범죄 세계의 인물들이 겪는 도피와 복수, 그리고 그들의 비극적인 삶을 다룬 소설이다.",
+    "overallSummary": "범죄 세계에 몸담았던 인물들이 겪는 도피 생활과 복수극을 다룬다. 목사와 빨간모자라는 상징적인 인물들을 중심으로 그들의 과거와 현재, 그리고 비극적인 운명을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "범죄자들이 도피 생활을 하며 겪는 갈등과 복수, 그리고 그들의 삶을 추적한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "범죄, 도피, 복수."
+      }
+    ],
+    "keyEntitiesText": "김호장, 김차곤, 이홍식",
+    "settingText": "한국."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1v6dqxfytQY_ZpERPvql-6L3BDx4-csjt",
+    "filename": "김동선-목사와 빨간모자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.937Z",
+    "size": "1066697",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1v6dqxfytQY_ZpERPvql-6L3BDx4-csjt/view?usp=drivesdk",
+    "sourceSha256": "7e89bef915b55a24e5273f70aec8b0e034d3f6100e2f3ddd7540fea545dddc4d",
+    "textSha256": "2ca26a0bd020dd7859a4b87f5b571f2cff3308a3b909282f9a709624e337da8e",
+    "changeKey": "f1cf60bb275e92ef3e673af6d37ef908",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dc5342e374edacbeda71",
+    "workId": "dc5342e374edacbeda71",
+    "driveFileId": "1v6dqxfytQY_ZpERPvql-6L3BDx4-csjt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:45:42.222026+00:00",
+    "updatedAt": "2026-09-22T03:45:42.222037+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:45:42.222103+00:00"
+    }
+  }
+}
