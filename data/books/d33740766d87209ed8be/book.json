@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 어떻게 너를 잃었는가",
+    "author": "제니 블랙허스트",
+    "genre": "스릴러",
+    "tags": [
+      "심리 스릴러",
+      "범죄",
+      "과거의 비밀",
+      "스토킹"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "미스터리",
+        "심리물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "제니 블랙허스트는 영국의 스릴러 작가로, 인간 심리의 어두운 면을 파고드는 작품으로 유명하다.",
+    "oneLineSummary": "아들을 죽였다는 죄책감에 시달리는 수전 웹스터가 자신의 과거를 아는 누군가의 협박을 받으며 벌어지는 심리 스릴러.",
+    "overallSummary": "산후 우울증으로 아들을 죽였다는 끔찍한 기억을 안고 이름을 바꾸어 새 삶을 살던 엠마(수전)에게 어느 날 아들의 사진이 배달된다. 이는 단순한 장난이 아니라 그녀의 과거를 알고 있는 누군가의 치밀한 심리전의 시작이었고, 그녀는 자신의 과거와 현재를 위협하는 정체불명의 인물과 맞서게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "과거의 그림자",
+        "summary": "수전 웹스터는 아들을 죽인 죄책감 속에서 엠마 카트라이트라는 이름으로 신분을 세탁하고 조용한 마을에서 살아가려 한다."
+      },
+      {
+        "sectionTitle": "의문의 사진",
+        "summary": "어느 날 현관 앞에 딜런의 사진이 놓여 있고, 누군가 자신의 본명을 알고 있다는 사실에 엠마는 극심한 공포를 느낀다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 갈등",
+        "value": "자신의 범죄에 대한 죄책감과 현재의 삶을 지키려는 욕구 사이의 충돌."
+      }
+    ],
+    "keyEntitiesText": "수전 웹스터(엠마 카트라이트), 캐시(친구), 마크(전남편), 딜런(아들)",
+    "settingText": "영국 슈롭셔 주 러들로의 조용한 마을."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zCs0yL9u0LExyzKsf0fYKA6fzBJnSX7Y",
+    "filename": "제니 블랙허스트-나는 어떻게 너를 잃었는가(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T01:34:06.000Z",
+    "size": "697342",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1zCs0yL9u0LExyzKsf0fYKA6fzBJnSX7Y/view?usp=drivesdk",
+    "sourceSha256": "69b45339ef8788ee76dd50e4d37e08822306478b4fcab18f0cba4f8f56024db9",
+    "textSha256": "63b39b45de6a12ab9552b9807acd964fd96ce4f110a358fa82d6b0b6153cf20f",
+    "changeKey": "9ebb5f2435c63798be049209fd72d9e1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d33740766d87209ed8be",
+    "workId": "d33740766d87209ed8be",
+    "driveFileId": "1zCs0yL9u0LExyzKsf0fYKA6fzBJnSX7Y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:13:45.963293+00:00",
+    "updatedAt": "2026-09-22T08:13:45.963309+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:13:45.963521+00:00"
+    }
+  }
+}

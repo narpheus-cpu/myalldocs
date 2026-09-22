@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "죽음을 부르는 개",
+    "author": "조르주 심농",
+    "genre": "추리소설",
+    "tags": [
+      "메그레 반장",
+      "프랑스",
+      "연쇄살인",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전 추리",
+        "심리 수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농은 메그레 반장 시리즈로 유명한 벨기에 출신의 세계적인 추리 소설 작가이다.",
+    "oneLineSummary": "콩카르노에서 발생한 의문의 총격 사건과 독살 시도를 메그레 반장이 해결하는 이야기.",
+    "overallSummary": "프랑스 콩카르노에서 술 도매상 모스타강이 총격을 당하는 사건이 발생한다. 메그레 반장은 사건 현장을 배회하는 기분 나쁜 누런 개와 마을 사람들의 심리를 파고들며 사건의 진상을 밝혀낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "항구의 괴사건",
+        "summary": "모스타강이 총격을 당하고, 마을에는 정체불명의 누런 개가 나타나 사람들을 불안하게 한다."
+      },
+      {
+        "sectionTitle": "독살 시도",
+        "summary": "메그레 반장이 수사를 시작하자, 마을 사람들을 대상으로 한 독살 시도가 발생한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "수사 방식",
+        "value": "범인의 심리와 마을의 분위기를 관찰하여 사건을 해결함."
+      }
+    ],
+    "keyEntitiesText": "메그레 반장, 모스타강, 르포므레, 미쉬, 엠마",
+    "settingText": "프랑스 브레타뉴 반도의 항구 도시 콩카르노."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nkU2sJMj011pc1zsGENlka35dNuLFGoz",
+    "filename": "조르주 시몬-죽음을 부르는 개.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.824Z",
+    "size": "154777",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1nkU2sJMj011pc1zsGENlka35dNuLFGoz/view?usp=drivesdk",
+    "sourceSha256": "f77d2c74ef6b1cca98c3a2aa584e71e963d16044d5ca6e3837b20a3d2e6ff36f",
+    "textSha256": "0696fd0cf19a798e58e4064e103c40e6a1dbd6736390d185132c9557d2b24d63",
+    "changeKey": "78acd334844f4213961024804d9aa707",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7cd38f5aaf1c2b176544",
+    "workId": "7cd38f5aaf1c2b176544",
+    "driveFileId": "1nkU2sJMj011pc1zsGENlka35dNuLFGoz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:14:10.414173+00:00",
+    "updatedAt": "2026-09-22T08:14:10.414189+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:14:10.414309+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "3인칭 관찰자 시점",
+    "author": "조경아",
+    "genre": "미스터리",
+    "tags": [
+      "연쇄살인범",
+      "사제",
+      "인간 본성",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "심리 미스터리",
+        "사회파"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조경아는 인간 본성의 악을 탐구하는 신예 작가로, 이 작품으로 세계문학상을 수상했다.",
+    "oneLineSummary": "연쇄살인범의 아들이라는 낙인을 안고 사제가 된 남자가 겪는 인간 본성과 악에 대한 성찰.",
+    "overallSummary": "연쇄살인범의 아들이라는 사실을 숨기고 사제가 된 남자의 삶을 통해, 인간에게 깃든 악의 근원과 사회적 편견, 그리고 구원에 대한 질문을 던지는 심리 미스터리.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "낙인찍힌 삶",
+        "summary": "연쇄살인범의 아들이라는 사실이 밝혀질까 두려워하며 사제로서의 삶을 살아가는 주인공의 심리적 갈등."
+      },
+      {
+        "sectionTitle": "악의 성찰",
+        "summary": "주변에서 벌어지는 사건들을 통해 주인공은 자신의 내면에 있는 악과 마주하게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제 의식",
+        "value": "악은 유전되는가, 아니면 환경에 의해 만들어지는가에 대한 철학적 질문."
+      }
+    ],
+    "keyEntitiesText": "디모테오 신부(주인공), 베드로 신부, 요셉, 마 교수",
+    "settingText": "심해성당과 그 주변 마을."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13ct2nYCuj4Te5zOBQoTJvzqFp8NymYV-",
+    "filename": "조경아-3인칭 관찰자 시점-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T09:32:44.000Z",
+    "size": "355826",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/13ct2nYCuj4Te5zOBQoTJvzqFp8NymYV-/view?usp=drivesdk",
+    "sourceSha256": "c4f33f65557cf189cd4d0dea8c28a672d8c4b63910b41bae79c0b835351808b8",
+    "textSha256": "baef73ea43c53b3d7112fbb64bc64bfb7922b6d900eb3ebe8f296341427ce953",
+    "changeKey": "d6437285021ac6ce3511d7549916c79b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bb3de49296da0d21eef8",
+    "workId": "bb3de49296da0d21eef8",
+    "driveFileId": "13ct2nYCuj4Te5zOBQoTJvzqFp8NymYV-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:14:02.559420+00:00",
+    "updatedAt": "2026-09-22T08:14:02.559442+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:14:02.559562+00:00"
+    }
+  }
+}

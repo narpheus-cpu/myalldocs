@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "교차로의 밤",
+    "author": "조르주 심농",
+    "genre": "추리소설",
+    "tags": [
+      "메그레 반장",
+      "살인",
+      "교차로",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전 추리",
+        "심리 수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농의 메그레 반장 시리즈 여섯 번째 작품.",
+    "oneLineSummary": "교차로에서 벌어진 살인 사건을 해결하는 메그레 반장의 수사.",
+    "overallSummary": "교차로에서 살인 사건이 발생한다. 메그레 반장은 교차로를 지나는 사람들과 그 주변의 비밀을 파헤치며 사건을 해결한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "교차로의 살인",
+        "summary": "교차로에서 살인 사건이 발생하고 메그레 반장이 수사를 시작한다."
+      },
+      {
+        "sectionTitle": "비밀의 추적",
+        "summary": "메그레는 교차로 주변의 비밀을 파헤치며 범인을 추적한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 통찰",
+        "value": "교차로라는 공간적 특성을 활용한 심리 수사."
+      }
+    ],
+    "keyEntitiesText": "메그레 반장, 카를 안데르센",
+    "settingText": "프랑스 교차로."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eaAZwZG83CUiOlgMnENtv5qNByEgma2d",
+    "filename": "조르주 심농-메그레시리즈 06 교차로의 밤(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:48:32.000Z",
+    "size": "277496",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1eaAZwZG83CUiOlgMnENtv5qNByEgma2d/view?usp=drivesdk",
+    "sourceSha256": "0a7f36bd8391172fc5fcb03ba20aa9340e02b918a2ddf0bbd1f32666d4deef10",
+    "textSha256": "4229916d6888cb58f8c4626133ac3011da1c80e1bf6990c580e91cca68fe6d04",
+    "changeKey": "879a08b3bf853d37350ec2dd37311764",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9d7092ebc134be92c4af",
+    "workId": "9d7092ebc134be92c4af",
+    "driveFileId": "1eaAZwZG83CUiOlgMnENtv5qNByEgma2d",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:14:46.829178+00:00",
+    "updatedAt": "2026-09-22T08:14:46.829199+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:14:46.829293+00:00"
+    }
+  }
+}

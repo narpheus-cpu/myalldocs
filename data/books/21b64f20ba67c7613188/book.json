@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "게물랭의 댄서",
+    "author": "조르주 심농",
+    "genre": "추리소설",
+    "tags": [
+      "메그레 반장",
+      "댄서",
+      "살인",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전 추리",
+        "심리 수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농의 메그레 반장 시리즈 열 번째 작품.",
+    "oneLineSummary": "게물랭의 댄서와 관련된 살인 사건을 해결하는 메그레 반장의 수사.",
+    "overallSummary": "게물랭의 댄서와 관련된 살인 사건이 발생한다. 메그레 반장은 댄서들의 삶과 그 주변의 비밀을 파헤치며 사건을 해결한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "게물랭의 댄서",
+        "summary": "게물랭의 댄서와 관련된 살인 사건이 발생한다."
+      },
+      {
+        "sectionTitle": "심리 수사",
+        "summary": "메그레는 댄서들의 삶과 그 주변의 비밀을 분석하여 범인을 추적한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 통찰",
+        "value": "댄서들의 삶과 그 주변의 비밀을 다룸."
+      }
+    ],
+    "keyEntitiesText": "메그레 반장, 아델",
+    "settingText": "프랑스 파리."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1irGfG_vrXyJ9QZe4_n5zxTQr5_556nat",
+    "filename": "조르주 심농-메그레시리즈 10 게물랭의 댄서(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:51:44.000Z",
+    "size": "316662",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1irGfG_vrXyJ9QZe4_n5zxTQr5_556nat/view?usp=drivesdk",
+    "sourceSha256": "b1677320737699b0eb2ff0407ff01d8c582573bbc3fcc6053aab5cbcf0012809",
+    "textSha256": "b3db79eb37f2656fc79d172bdb4d2da3a9a4d9f03147e8f0d1750bedaf9201ce",
+    "changeKey": "4cc4c111579e0566e6f791795781b34c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "21b64f20ba67c7613188",
+    "workId": "21b64f20ba67c7613188",
+    "driveFileId": "1irGfG_vrXyJ9QZe4_n5zxTQr5_556nat",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:15:10.502368+00:00",
+    "updatedAt": "2026-09-22T08:15:10.502384+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:15:10.502495+00:00"
+    }
+  }
+}

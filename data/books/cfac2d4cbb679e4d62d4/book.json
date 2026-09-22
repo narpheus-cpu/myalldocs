@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "수상한 라트비아인",
+    "author": "조르주 심농",
+    "genre": "추리소설",
+    "tags": [
+      "메그레 반장",
+      "국제 범죄",
+      "위조",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전 추리",
+        "심리 수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농의 메그레 반장 시리즈 첫 번째 작품.",
+    "oneLineSummary": "라트비아인 피에트르를 추적하는 메그레 반장의 국제 범죄 수사기.",
+    "overallSummary": "국제형사경찰기구의 통보를 받은 메그레 반장은 라트비아인 피에트르를 추적한다. 열차 안에서 발견된 시체와 위조 여권 등 복잡하게 얽힌 사건의 실체를 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "피에트르 추적",
+        "summary": "메그레 반장은 국제적인 범죄자 피에트르를 추적하기 시작한다."
+      },
+      {
+        "sectionTitle": "열차 안의 시체",
+        "summary": "열차 화장실에서 시체가 발견되고, 메그레는 이것이 피에트르와 관련이 있음을 직감한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "수사 방식",
+        "value": "국제적 공조와 인상착의 분석을 통한 추적."
+      }
+    ],
+    "keyEntitiesText": "메그레 반장, 피에트르(라트비아인), 르루아 형사",
+    "settingText": "파리, 유럽 횡단 열차."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QRt4UMex2YQVeFb_c0SsQcRHXUgT2iwc",
+    "filename": "조르주 심농-메그레시리즈 01 수상한 라트비아인(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:44:36.000Z",
+    "size": "344852",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1QRt4UMex2YQVeFb_c0SsQcRHXUgT2iwc/view?usp=drivesdk",
+    "sourceSha256": "d23be3b4a4a044990ba0b5aa0caa9ec5ebf48a38f40739505e13be3b9988a640",
+    "textSha256": "bed65a4381dbdb52541f967c73edba1bea7397e87b7dd7abf0bf4f808c1bc3c5",
+    "changeKey": "f5d960307f7bc9caa79c4ec42e942252",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cfac2d4cbb679e4d62d4",
+    "workId": "cfac2d4cbb679e4d62d4",
+    "driveFileId": "1QRt4UMex2YQVeFb_c0SsQcRHXUgT2iwc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:14:16.062648+00:00",
+    "updatedAt": "2026-09-22T08:14:16.062664+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:14:16.062773+00:00"
+    }
+  }
+}

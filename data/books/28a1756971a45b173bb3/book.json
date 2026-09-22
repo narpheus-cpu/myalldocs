@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "라 프로비당스호의 마부",
+    "author": "조르주 심농",
+    "genre": "추리소설",
+    "tags": [
+      "메그레 반장",
+      "운하",
+      "살인",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전 추리",
+        "심리 수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농의 메그레 반장 시리즈 네 번째 작품.",
+    "oneLineSummary": "운하에서 발견된 시체를 둘러싼 메그레 반장의 수사.",
+    "overallSummary": "운하의 수문 근처에서 시체가 발견된다. 메그레 반장은 운하를 오가는 배들과 마부들의 삶을 관찰하며 사건의 실마리를 찾아 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "운하의 시체",
+        "summary": "운하 수문에서 시체가 발견되고 메그레 반장이 수사를 시작한다."
+      },
+      {
+        "sectionTitle": "운하의 삶",
+        "summary": "메그레는 운하를 오가는 사람들의 삶을 관찰하며 범인을 추적한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 통찰",
+        "value": "폐쇄적인 운하 사회의 인간 관계와 비밀을 다룸."
+      }
+    ],
+    "keyEntitiesText": "메그레 반장, 라 프로비당스호 선원들",
+    "settingText": "프랑스 운하."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ky5Cz4Z_X7jahpfw5YGRUk9Ldy8VV0S8",
+    "filename": "조르주 심농-메그레시리즈 04 라 프로비당스호의 마부(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:46:58.000Z",
+    "size": "265550",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1ky5Cz4Z_X7jahpfw5YGRUk9Ldy8VV0S8/view?usp=drivesdk",
+    "sourceSha256": "7108bf565a1e172626faf4b74195e6112cc25650cb2f2a1d0ea40fd4abf76664",
+    "textSha256": "7f730154ea8005f7b17d36da89c54d3ada8198022280a141ca39b210a5e581c5",
+    "changeKey": "2e6cd48e4696117a22495f27abb49f95",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "28a1756971a45b173bb3",
+    "workId": "28a1756971a45b173bb3",
+    "driveFileId": "1ky5Cz4Z_X7jahpfw5YGRUk9Ldy8VV0S8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:14:34.102990+00:00",
+    "updatedAt": "2026-09-22T08:14:34.103005+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:14:34.103166+00:00"
+    }
+  }
+}

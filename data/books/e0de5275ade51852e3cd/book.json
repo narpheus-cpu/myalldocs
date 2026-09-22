@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "생폴리앵에 지다",
+    "author": "조르주 심농",
+    "genre": "추리소설",
+    "tags": [
+      "메그레 반장",
+      "살인",
+      "과거의 죄",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전 추리",
+        "심리 수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농의 메그레 반장 시리즈 세 번째 작품.",
+    "oneLineSummary": "과거의 살인 사건과 연결된 현재의 살인 사건을 해결하는 메그레 반장의 수사.",
+    "overallSummary": "과거의 살인 사건이 현재의 살인 사건으로 이어지는 과정을 메그레 반장이 추적한다. 생폴리앵이라는 장소와 연결된 과거의 죄가 현재의 인물들을 파멸로 이끈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "과거의 죄",
+        "summary": "과거에 벌어진 살인 사건이 현재의 살인 사건과 연결되어 있음을 메그레가 발견한다."
+      },
+      {
+        "sectionTitle": "생폴리앵의 비밀",
+        "summary": "메그레는 생폴리앵과 관련된 인물들의 과거를 조사하며 사건의 진상을 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 통찰",
+        "value": "과거의 죄가 현재에 미치는 영향과 인간의 죄책감을 다룸."
+      }
+    ],
+    "keyEntitiesText": "메그레 반장, 생폴리앵",
+    "settingText": "프랑스."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bjnL7yXQpABVEdOVTnrabH1XKQCebrGu",
+    "filename": "조르주 심농-메그레시리즈 03 생폴리앵에 지다(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:46:14.000Z",
+    "size": "275464",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1bjnL7yXQpABVEdOVTnrabH1XKQCebrGu/view?usp=drivesdk",
+    "sourceSha256": "124f2afb3a17d309bc517986815764afaae44a289795082437382e38069300d6",
+    "textSha256": "6fa3487174de0d6f24c8bf14debc8f17bb3a0a5cdcddcebbc55b1f2b127a156b",
+    "changeKey": "f83430ff06010313d9130d90bf3383f5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e0de5275ade51852e3cd",
+    "workId": "e0de5275ade51852e3cd",
+    "driveFileId": "1bjnL7yXQpABVEdOVTnrabH1XKQCebrGu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:14:29.054416+00:00",
+    "updatedAt": "2026-09-22T08:14:29.054433+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:14:29.054544+00:00"
+    }
+  }
+}

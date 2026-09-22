@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "생피아크르 사건",
+    "author": "조르주 심농",
+    "genre": "추리소설",
+    "tags": [
+      "메그레 반장",
+      "생피아크르",
+      "살인",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전 추리",
+        "심리 수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농의 메그레 반장 시리즈 열세 번째 작품.",
+    "oneLineSummary": "생피아크르에서 벌어진 살인 사건을 해결하는 메그레 반장의 수사.",
+    "overallSummary": "생피아크르에서 살인 사건이 발생한다. 메그레 반장은 자신의 고향이기도 한 생피아크르의 비밀을 파헤치며 사건을 해결한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "생피아크르 사건",
+        "summary": "생피아크르에서 살인 사건이 발생한다."
+      },
+      {
+        "sectionTitle": "심리 수사",
+        "summary": "메그레는 자신의 고향인 생피아크르의 비밀을 분석하여 범인을 추적한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 통찰",
+        "value": "고향의 비밀과 인간의 죄책감을 다룸."
+      }
+    ],
+    "keyEntitiesText": "메그레 반장, 생피아크르 백작 부인",
+    "settingText": "프랑스 생피아크르."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1aateW_Ug-CJg-55USoIMUHmdNbaYlGBg",
+    "filename": "조르주 심농-메그레시리즈 13 생피아크르 사건(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:54:10.000Z",
+    "size": "297065",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1aateW_Ug-CJg-55USoIMUHmdNbaYlGBg/view?usp=drivesdk",
+    "sourceSha256": "96322f8b56a36a29db2e1eb5f3cb3f8c4aa8dab1152c7e517d8d033f2b25cb8b",
+    "textSha256": "29a8be9921cd0ad471b8b5add9c9de00155016ed49a86836ec3843ce724ac68d",
+    "changeKey": "123be7754404aacaffc8419e485cc383",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9f4c8517fc9646cbf0a8",
+    "workId": "9f4c8517fc9646cbf0a8",
+    "driveFileId": "1aateW_Ug-CJg-55USoIMUHmdNbaYlGBg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:15:34.391017+00:00",
+    "updatedAt": "2026-09-22T08:15:34.391031+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:15:34.391194+00:00"
+    }
+  }
+}

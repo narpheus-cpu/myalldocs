@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "타인의 목",
+    "author": "조르주 심농",
+    "genre": "추리소설",
+    "tags": [
+      "메그레 반장",
+      "살인",
+      "심리",
+      "범죄"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전 추리",
+        "심리 수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농의 메그레 반장 시리즈 아홉 번째 작품.",
+    "oneLineSummary": "타인의 목소리와 살인 사건을 해결하는 메그레 반장의 수사.",
+    "overallSummary": "타인의 목소리와 관련된 살인 사건이 발생한다. 메그레 반장은 범인의 심리와 타인의 목소리를 이용한 범죄를 파헤치며 사건을 해결한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "타인의 목",
+        "summary": "타인의 목소리와 관련된 살인 사건이 발생한다."
+      },
+      {
+        "sectionTitle": "심리 수사",
+        "summary": "메그레는 범인의 심리와 타인의 목소리를 이용한 범죄를 분석하여 범인을 추적한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 통찰",
+        "value": "타인의 목소리를 이용한 범죄와 인간의 심리를 다룸."
+      }
+    ],
+    "keyEntitiesText": "메그레 반장, 조제프 외르탱",
+    "settingText": "프랑스 파리."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-2zMrav4cf5aOksMUaFoiInfgAFNK3xg",
+    "filename": "조르주 심농-메그레시리즈 09 타인의 목(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:50:52.000Z",
+    "size": "283505",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1-2zMrav4cf5aOksMUaFoiInfgAFNK3xg/view?usp=drivesdk",
+    "sourceSha256": "e1cc94c013e4f0f5ff3d622b2fb2d6fb89f7cb1ac481d19ad59fe37eb58fb1e5",
+    "textSha256": "ecfe888f6198ed5aeb005e1012b084afd57b82a8240f59abfae8cf961c90fe37",
+    "changeKey": "93cee90ef6d4887546dae84a8d1b8d2d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4d772b8c495a761c7ef8",
+    "workId": "4d772b8c495a761c7ef8",
+    "driveFileId": "1-2zMrav4cf5aOksMUaFoiInfgAFNK3xg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:15:04.299252+00:00",
+    "updatedAt": "2026-09-22T08:15:04.299269+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:15:04.299384+00:00"
+    }
+  }
+}

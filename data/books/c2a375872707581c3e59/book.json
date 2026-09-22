@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "센 강의 춤집에서",
+    "author": "조르주 심농",
+    "genre": "추리소설",
+    "tags": [
+      "메그레 반장",
+      "춤집",
+      "살인",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전 추리",
+        "심리 수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농의 메그레 반장 시리즈 열한 번째 작품.",
+    "oneLineSummary": "센 강의 춤집에서 벌어진 살인 사건을 해결하는 메그레 반장의 수사.",
+    "overallSummary": "센 강의 춤집에서 살인 사건이 발생한다. 메그레 반장은 춤집을 오가는 사람들과 그 주변의 비밀을 파헤치며 사건을 해결한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "센 강의 춤집",
+        "summary": "센 강의 춤집에서 살인 사건이 발생한다."
+      },
+      {
+        "sectionTitle": "심리 수사",
+        "summary": "메그레는 춤집을 오가는 사람들과 그 주변의 비밀을 분석하여 범인을 추적한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 통찰",
+        "value": "춤집이라는 공간적 특성을 활용한 심리 수사."
+      }
+    ],
+    "keyEntitiesText": "메그레 반장, 바소",
+    "settingText": "프랑스 파리 센 강변."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1k4GlIZYaIyDD_ldy0ps6j1iueIRMLTYv",
+    "filename": "조르주 심농-메그레시리즈 11 센 강의 춤집에서(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:52:34.000Z",
+    "size": "297565",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1k4GlIZYaIyDD_ldy0ps6j1iueIRMLTYv/view?usp=drivesdk",
+    "sourceSha256": "d7928aa2e3108df0e970c3542b7aba02075c207366ececa8d371a081970befb1",
+    "textSha256": "6e1ff143757aa7352ee272850eb80d5664e3d0cabeec9c260487d85e93040c0b",
+    "changeKey": "283e244c277cba3d2de933d048bff984",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c2a375872707581c3e59",
+    "workId": "c2a375872707581c3e59",
+    "driveFileId": "1k4GlIZYaIyDD_ldy0ps6j1iueIRMLTYv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:15:17.862097+00:00",
+    "updatedAt": "2026-09-22T08:15:17.862112+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:15:17.862213+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "누런 개",
+    "author": "조르주 심농",
+    "genre": "추리소설",
+    "tags": [
+      "메그레 반장",
+      "연쇄살인",
+      "독살",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전 추리",
+        "심리 수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농의 메그레 반장 시리즈 다섯 번째 작품.",
+    "oneLineSummary": "누런 개가 나타난 마을에서 벌어지는 연쇄 살인 사건을 해결하는 메그레 반장.",
+    "overallSummary": "마을에 나타난 누런 개와 함께 연쇄 살인 사건이 발생한다. 메그레 반장은 마을 사람들의 심리를 파고들며 사건의 진상을 밝혀낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "누런 개의 등장",
+        "summary": "마을에 누런 개가 나타나고 연쇄 살인 사건이 발생한다."
+      },
+      {
+        "sectionTitle": "심리 수사",
+        "summary": "메그레 반장은 마을 사람들의 심리를 분석하여 범인을 추적한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 통찰",
+        "value": "마을의 폐쇄적인 분위기와 인간의 심리를 다룸."
+      }
+    ],
+    "keyEntitiesText": "메그레 반장, 누런 개",
+    "settingText": "프랑스 마을."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KQXFER80yiK6kBdSb-8_EGiVtVD5bBZ5",
+    "filename": "조르주 심농-메그레시리즈 05 누런 개(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:47:46.000Z",
+    "size": "306673",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1KQXFER80yiK6kBdSb-8_EGiVtVD5bBZ5/view?usp=drivesdk",
+    "sourceSha256": "89bbf5367b70b9710da5204c3d0922399b661d5bee55008a85ad72bf403a6885",
+    "textSha256": "7483361334240fa26561d246191dade9016f152200118a11ffa2c9b5ee4023a0",
+    "changeKey": "b1d2e3715995b204ec51753494442bd8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2fdb355d97fee0943ae8",
+    "workId": "2fdb355d97fee0943ae8",
+    "driveFileId": "1KQXFER80yiK6kBdSb-8_EGiVtVD5bBZ5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:14:40.762562+00:00",
+    "updatedAt": "2026-09-22T08:14:40.762578+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:14:40.762686+00:00"
+    }
+  }
+}

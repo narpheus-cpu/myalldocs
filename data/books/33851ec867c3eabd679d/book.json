@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "창가의 그림자",
+    "author": "조르주 심농",
+    "genre": "추리소설",
+    "tags": [
+      "메그레 반장",
+      "그림자",
+      "살인",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "고전 추리",
+        "심리 수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농의 메그레 반장 시리즈 열두 번째 작품.",
+    "oneLineSummary": "창가의 그림자와 관련된 살인 사건을 해결하는 메그레 반장의 수사.",
+    "overallSummary": "창가의 그림자와 관련된 살인 사건이 발생한다. 메그레 반장은 그림자 속에 숨겨진 비밀을 파헤치며 사건을 해결한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "창가의 그림자",
+        "summary": "창가의 그림자와 관련된 살인 사건이 발생한다."
+      },
+      {
+        "sectionTitle": "심리 수사",
+        "summary": "메그레는 그림자 속에 숨겨진 비밀을 분석하여 범인을 추적한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 통찰",
+        "value": "그림자 속에 숨겨진 인간의 비밀을 다룸."
+      }
+    ],
+    "keyEntitiesText": "메그레 반장, 쿠셰",
+    "settingText": "프랑스 파리 보주 광장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10vpxL4MAgcLyt0l6Vubk1aPjUG0gisoP",
+    "filename": "조르주 심농-메그레시리즈 12 창가의 그림자(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:53:22.000Z",
+    "size": "272232",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/10vpxL4MAgcLyt0l6Vubk1aPjUG0gisoP/view?usp=drivesdk",
+    "sourceSha256": "faf7d35d9e007aa814355785f38b8afbd34d7f6048957af913adccc719755d9a",
+    "textSha256": "ea2bf78c4eb06b1ca60dda5bb5350fde00a1d14d26d1801c08d45b5c9e3bea9e",
+    "changeKey": "76edbfaa6778884df830793157849bd5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "33851ec867c3eabd679d",
+    "workId": "33851ec867c3eabd679d",
+    "driveFileId": "10vpxL4MAgcLyt0l6Vubk1aPjUG0gisoP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:15:28.508012+00:00",
+    "updatedAt": "2026-09-22T08:15:28.508028+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:15:28.508189+00:00"
+    }
+  }
+}
