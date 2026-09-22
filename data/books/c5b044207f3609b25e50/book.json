@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한눈에 읽는 현대철학",
+    "author": "남경태",
+    "genre": "철학/현대철학",
+    "tags": [
+      "현대철학",
+      "마르크스",
+      "잉여가치",
+      "남경태",
+      "이성해체"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인문학 제 분야를 종횡무진 가로지르며 명쾌한 철학적 시각을 제공한 저술가.",
+    "oneLineSummary": "현대 사상가 31명의 핵심 키워드를 중심으로 현대 지성계의 흐름과 좌표를 밝혀주는 교통 안내서.",
+    "overallSummary": "근대 이성주의의 위기와 언어 중심적 전회를 배경으로, 마르크스의 잉여가치론 등 현대 사상가들의 핵심 개념을 대중이 이해하기 쉽게 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말: 현대사상의 길눈 얻기",
+        "summary": "이성의 위기와 언어 중심적 전회 속에서 현대 사상가들의 동시대성과 키워드를 파악하는 의미를 설명한다."
+      },
+      {
+        "sectionTitle": "잉여가치: 이윤을 낳는 거위 (카를 마르크스)",
+        "summary": "상품의 사용가치와 교환가치, 노동시간 척도 및 자본주의 이윤의 원천인 잉여가치 개념을 정밀히 해설한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "conceptExposition",
+        "value": "핵심 키워드를 중심으로 복잡한 현대 철학적 담론을 직관적이고 쉬운 비유로 해석함."
+      }
+    ],
+    "keyEntitiesText": "카를 마르크스, 데카르트, 남경태, 잉여가치, 사용가치, 교환가치",
+    "settingText": "19세기 말 이후 20세기 현대 지성사 및 자본주의 사회 구조"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SV7C6lLms9896IaoPY7CaUB5DM_UAvSx",
+    "filename": "남경태-한눈에 읽는 현대철학(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.851Z",
+    "size": "601856",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1SV7C6lLms9896IaoPY7CaUB5DM_UAvSx/view?usp=drivesdk",
+    "sourceSha256": "30365d0ae1bfd00cd719988202020adf3a0b60474abfbafafc8b31f06a8ac8c7",
+    "textSha256": "f3ff535a866d55370ca1f57cf3c763c61e6c62c3e08cf59da8ad8faff4076eb5",
+    "changeKey": "2db00ecca6d029232fc3cff9b845868c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c5b044207f3609b25e50",
+    "workId": "c5b044207f3609b25e50",
+    "driveFileId": "1SV7C6lLms9896IaoPY7CaUB5DM_UAvSx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:14:37.355307+00:00",
+    "updatedAt": "2026-09-22T18:14:37.355329+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:14:37.355439+00:00"
+    }
+  }
+}

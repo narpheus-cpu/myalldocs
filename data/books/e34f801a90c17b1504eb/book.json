@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "종횡무진 역사",
+    "author": "남경태",
+    "genre": "역사/통사",
+    "tags": [
+      "한국사",
+      "동양사",
+      "서양사",
+      "종횡무진",
+      "남경태"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국사, 동양사, 서양사를 통합적 사관으로 서술하며 지식의 융합을 선보인 인문학자.",
+    "oneLineSummary": "동양 문명과 서양 문명의 역사적 전개 및 하드웨어 구조를 넘나들며 비교 평가한 거시 역사서.",
+    "overallSummary": "동양과 서양의 역사적 발흥, 문명적 주도권의 이동 과정, 역사에서의 시간·공간적 연속성과 단절성을 비교 분석하여 세계 문명의 흐름을 짚어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 & 프롤로그",
+        "summary": "동서양 역사를 대등하게 비교·평가하기 위한 관점과 두 메이저 문명의 성격을 제시한다."
+      },
+      {
+        "sectionTitle": "1부 탄생: 역사의 시공간",
+        "summary": "역사의 시공간적 의미와 푸코의 담론 체계, 시간에 따른 가변성과 연속성을 논한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "comparativeMethod",
+        "value": "동양사와 서양사를 독립적으로 취급하지 않고 구체적 하드웨어와 구조를 중심으로 유기적으로 접목함."
+      }
+    ],
+    "keyEntitiesText": "남경태, 푸코, 레닌, 동양 문명, 서양 문명",
+    "settingText": "인류 문명의 탄생부터 현대 글로벌 융합 문명에 이르는 전 세계사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gPp3ZuCCeRskprY4WLMQVInkar8HjCGA",
+    "filename": "남경태-종횡무진 역사(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T13:53:48.000Z",
+    "size": "1366286",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1gPp3ZuCCeRskprY4WLMQVInkar8HjCGA/view?usp=drivesdk",
+    "sourceSha256": "56367d24c16451d2c65e807f3d6d5fadaf6ba5e2e10d1da9bcb7e77032125a18",
+    "textSha256": "5ebe39161a718de8f717a5269029ff0ed9cd82f258a43b266e5dc579fee562e9",
+    "changeKey": "0bf5d9fb8e62adfcea47e66b9b0bc8a0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e34f801a90c17b1504eb",
+    "workId": "e34f801a90c17b1504eb",
+    "driveFileId": "1gPp3ZuCCeRskprY4WLMQVInkar8HjCGA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:14:23.871642+00:00",
+    "updatedAt": "2026-09-22T18:14:23.871657+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:14:23.871766+00:00"
+    }
+  }
+}

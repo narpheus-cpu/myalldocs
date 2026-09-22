@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "난중일기 번역보",
+    "author": "이순신",
+    "genre": "역사/일기",
+    "tags": [
+      "이순신",
+      "임진왜란",
+      "조선수군",
+      "난중일기",
+      "역사일기"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조선 중기의 무신으로 임진왜란 당시 삼도수군통제사로 활약하며 나라를 구한 충무공 이순신 장군.",
+    "oneLineSummary": "임진왜란 7년 동안 충무공 이순신 장군이 진중에서 직접 기록한 나라 사랑과 전쟁의 기록.",
+    "overallSummary": "임진왜란 당시 이순신 장군이 작성한 일기로, 전쟁 상황에서의 방비 태세, 군사 점검, 왜적에 대한 경계, 부모와 가족에 대한 효심 및 애국심이 생생하게 기록되어 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "임진년 (1592년) 1월~4월",
+        "summary": "1592년 초 전라좌수사로서 각 포구의 방비 상태를 점검하고 무기 및 거북선과 쇠사슬 방어책을 정비하며 전쟁에 대비하는 과정이 기록되어 있다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "historicalValue",
+        "value": "임진왜란 당시 조선 수군의 군사적 준비 상황과 이순신의 충의 사상을 직접 보여주는 사료적 가치가 높은 기탄없는 일기."
+      }
+    ],
+    "keyEntitiesText": "이순신, 권준, 배흥립, 어영담, 류성룡, 진남관, 여도, 발포, 사도, 방답",
+    "settingText": "1592년 조선 전라좌수영 및 남해안 관방 진지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JQ9KlUr0E2uQUvjPqafyHXilUrvV34hP",
+    "filename": "난중일기(亂中日記) 번역보.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.809Z",
+    "size": "763561",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1JQ9KlUr0E2uQUvjPqafyHXilUrvV34hP/view?usp=drivesdk",
+    "sourceSha256": "e24c6aace0b7f1c1e74fa2c5bedd3b39f0430adbd67c764351e74d1dbffe7509",
+    "textSha256": "ec2eb0c2f673654fd350e99b242e82e0467b6523244b6cafb2ffae841bc9e8c0",
+    "changeKey": "a08aeaa9fb2408ca09642ff919a62309",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8eaa837f04b0d9b1ab54",
+    "workId": "8eaa837f04b0d9b1ab54",
+    "driveFileId": "1JQ9KlUr0E2uQUvjPqafyHXilUrvV34hP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:14:01.333655+00:00",
+    "updatedAt": "2026-09-22T18:14:01.333671+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:14:01.333871+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개념어 사전",
+    "author": "남경태",
+    "genre": "인문/사전",
+    "tags": [
+      "개념어",
+      "인문학",
+      "남경태",
+      "철학사전",
+      "지식사전"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대학교 사회학과를 졸업하고 역사, 철학 등 다양한 인문학 저술과 번역에 힘쓴 저술가이자 번역가.",
+    "oneLineSummary": "철학, 역사, 사회 제반의 중요 개념어들을 남경태 특유의 재치와 맥락적 시각으로 풀이한 개념 해설서.",
+    "overallSummary": "저자 남경태가 세상과 끝없이 소통하며 지식의 맥락과 구조를 기발한 언어로 정리한 개념 해설 사전으로, 저자의 출간 연보 및 그를 추모하는 글들이 함께 수록되어 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "저자 소개 및 출간 연보",
+        "summary": "남경태 저자의 생애, 저서 및 번역서 연보, 그리고 편집자 김학원의 추모글을 다룬다."
+      },
+      {
+        "sectionTitle": "개념어 풀이 서문",
+        "summary": "단순한 정보 나열을 넘어 개념의 파생 과정과 맥락을 밝히는 사전적 집필 의도를 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "lexicographicalStyle",
+        "value": "단순한 기호적 정의를 넘어 개념 간의 연관성과 사유의 맥락을 살려낸 개인 저작 형태의 독창적 인문 사전."
+      }
+    ],
+    "keyEntitiesText": "남경태, 김학원, 휴머니스트, 개념어 사전, 종횡무진",
+    "settingText": "현대 한국 인문학 출판 및 지식 대중화 흐름"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PRCtr5y_FLUrmdOdvStsb--9GZF5TR-I",
+    "filename": "남경태-개념어 사전 -- 남경태(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.826Z",
+    "size": "234863",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1PRCtr5y_FLUrmdOdvStsb--9GZF5TR-I/view?usp=drivesdk",
+    "sourceSha256": "4a1088f78ad5df242cf444b83663f420ca8f8f5997eb40d94a698469dfe05aa3",
+    "textSha256": "7284848ff1cd8aebdefe6033b556d35503f6a85cfe6f83a98b7dbdd6fa4c68ca",
+    "changeKey": "115f197068c54f7ed38679828f2119d9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cc2d1550525c72a29e49",
+    "workId": "cc2d1550525c72a29e49",
+    "driveFileId": "1PRCtr5y_FLUrmdOdvStsb--9GZF5TR-I",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:14:09.634179+00:00",
+    "updatedAt": "2026-09-22T18:14:09.634194+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:14:09.634307+00:00"
+    }
+  }
+}

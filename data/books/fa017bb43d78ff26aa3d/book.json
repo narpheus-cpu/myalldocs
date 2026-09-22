@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "철학 - 혼자 공부하는 이들을 위한 최소한의 지식",
+    "author": "남경태",
+    "genre": "철학/입문",
+    "tags": [
+      "서양철학사",
+      "남경태",
+      "세계론",
+      "인간론",
+      "인식론"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "어려운 철학과 역사를 대중의 눈높이에 맞춰 유쾌하고 쉽게 풀어낸 저술가.",
+    "oneLineSummary": "문명의 출범부터 현대 철학까지 서양 지성사의 발전을 삼단계 사유 구조로 꿰어낸 철학 입문서.",
+    "overallSummary": "현실의 역사와 사유의 역사를 연결하여 자연철학(세계론), 종교와 윤리(인간론), 본격적 인식론 및 현대 철학에 이르는 서양철학사의 거시적 진법을 체계적으로 안내한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "현실의 역사와 사유의 역사 간 대응성과 일관성을 설명하고 철학사의 범위를 정의한다."
+      },
+      {
+        "sectionTitle": "프롤로그: 철학사의 세 줄기",
+        "summary": "철학사를 세계론, 인간론, 인식론의 논리적 3단계 구도로 나누어 안내한다."
+      },
+      {
+        "sectionTitle": "1장 세계의 근원을 찾아서",
+        "summary": "메소포타미아 문명과 길가메시 서사시, 그리고 이오니아 고대 자연철학자들의 사유를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "pedagogicalFramework",
+        "value": "시대별 단순 나열이 아닌 세계론, 인간론, 인식론의 논리적 문제의식 단계에 따른 구조적 체계화."
+      }
+    ],
+    "keyEntitiesText": "탈레스, 길가메시, 플라톤, 마르크스, 남경태",
+    "settingText": "고대 메소포타미아 및 그리스 이오니아부터 현대 지성계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nCQGEYtQSg_DzhVSfC769VOaGBGiapVc",
+    "filename": "남경태-철학-혼자 공부하는 이들을 위한 최소한의 지식(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T18:25:16.000Z",
+    "size": "1326232",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1nCQGEYtQSg_DzhVSfC769VOaGBGiapVc/view?usp=drivesdk",
+    "sourceSha256": "b3a5236d1d51a5a023572ba92a97d6f4725cc5f9f61c5f9ffc07687cb97b3b0d",
+    "textSha256": "f179ae3684c0e98f5b68333f7931d5e1353c4408b3c5c3e94de5c65fbfc7ef2c",
+    "changeKey": "b1553f68030b760e63e87751f5770134",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fa017bb43d78ff26aa3d",
+    "workId": "fa017bb43d78ff26aa3d",
+    "driveFileId": "1nCQGEYtQSg_DzhVSfC769VOaGBGiapVc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:14:30.181105+00:00",
+    "updatedAt": "2026-09-22T18:14:30.181120+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:14:30.181236+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "니체 전집 3 - 유고(1870~1873)",
+    "author": "프리드리히 니체",
+    "genre": "철학/유고",
+    "tags": [
+      "니체",
+      "디오니소스적세계관",
+      "그리스비극",
+      "진리와거짓",
+      "유고"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "바젤 대학 교수를 지내며 철학적 수사학 및 비극적 사유를 탐구한 사상가.",
+    "oneLineSummary": "디오니소스적 세계관, 그리스 비극, 교육기관의 미래, 비도덕적 의미의 진리와 거짓을 다룬 초기 유고집.",
+    "overallSummary": "그리스 음악 드라마의 본질, 소크라테스에 의한 비극의 해체, 교육기관의 비판적 전망, 그리고 개념과 은유에 기반한 진리의 비도덕적 성격을 다룬 유고 논문 모음집이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그리스 비극에 관한 공개강연",
+        "summary": "그리스 비극이 종합 예술로서 발흥했던 구조와 현대 오페라의 왜곡을 비교한다."
+      },
+      {
+        "sectionTitle": "비도덕적 의미에서의 진리와 거짓에 관하여",
+        "summary": "인간의 진리가 구체적 은유와 환상, 약속된 습관에 불과함을 해체적으로 논한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "epistemologicalCritique",
+        "value": "인간의 언어와 진리가 관습화된 은유와 비유에 불과하다는 비도덕적·해체적 인식론 개척."
+      }
+    ],
+    "keyEntitiesText": "프리드리히 니체, 아이스킬로스, 소포클레스, 소크라테스, 에우리피데스",
+    "settingText": "1870년~1873년 스위스 바젤 및 초기 니체 철학 형성기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1I9xSPhr3lcPoyT2sn14bHhLktoAYxfFL",
+    "filename": "니체 전집 3-유고1870~1873)(책세상)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T14:21:40.000Z",
+    "size": "905785",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1I9xSPhr3lcPoyT2sn14bHhLktoAYxfFL/view?usp=drivesdk",
+    "sourceSha256": "f6c05d17f4954392bb4cc0f55809c39a3e16395673a1db556d5c620ffb4b2f91",
+    "textSha256": "afbe24657e678567b0324822c83d32fa145f519d04769a70c7bd7da90455021f",
+    "changeKey": "36d143ff6ea7a96284565c4ea22bf62b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d108a9ac355388fe304d",
+    "workId": "d108a9ac355388fe304d",
+    "driveFileId": "1I9xSPhr3lcPoyT2sn14bHhLktoAYxfFL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:15:37.443526+00:00",
+    "updatedAt": "2026-09-22T18:15:37.443545+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:15:37.443667+00:00"
+    }
+  }
+}

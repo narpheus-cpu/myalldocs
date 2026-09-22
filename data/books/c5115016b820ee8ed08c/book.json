@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세상물정의 사회학",
+    "author": "노명우",
+    "genre": "사회학/교양",
+    "tags": [
+      "사회학",
+      "세상물정",
+      "일상",
+      "노명우",
+      "좋은삶"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "베를린 자유대학교에서 사회학 박사를 받고 아주대학교 사회학과 교수로 재직 중인 사회학자.",
+    "oneLineSummary": "평범한 사람들의 세속적 일상과 리얼리티에 사회학적 통찰을 결합하여 좋은 삶의 공격·방어 기술을 모색하는 사회학 에세이.",
+    "overallSummary": "소비주의와 처세술의 타락 속에서 세속을 살아가는 사람들의 일상 경험을 바탕으로, 사회학 이론을 씨실과 날실 삼아 세속 리얼리티에 대면하고 좋은 삶을 성찰하도록 이끈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 & 프롤로그",
+        "summary": "사회학의 세속적 회귀와 처세술 개념의 복원, 세속 리얼리티 직시를 통한 좋은 삶의 탐구를 논한다."
+      },
+      {
+        "sectionTitle": "1부 세속이라는 리얼리티 - 상식",
+        "summary": "상식 존중의 함정과 상식의 배반, 양식의 딜레마를 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "sociologicalAutobiography",
+        "value": "학술적 고립을 탈피하여 세속의 생생한 일상 대화를 사회학적 비판 자산으로 연결하는 자전적 사회학."
+      }
+    ],
+    "keyEntitiesText": "노명우, 슈뢰딩거, 그람시, 신영복, 사계절출판사",
+    "settingText": "현대 한국 대도시 일상공간(지하철, 버스, 카페, 대부도 등)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TZJcgK3152m0O6RYTyBwEpxj9yPQ3hHP",
+    "filename": "노명우-세상 물정의 사회학(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T13:59:40.000Z",
+    "size": "497357",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1TZJcgK3152m0O6RYTyBwEpxj9yPQ3hHP/view?usp=drivesdk",
+    "sourceSha256": "5d56be9a05ab5b0da79b6c107107b18774ced0ecb02a39b43bf41c2eb003bdf8",
+    "textSha256": "c22d3bfdce969596b10c424af7f1768915041c77259c133f60edb119cce8f1be",
+    "changeKey": "44562b2a34397c359eca6d2cf7f7602f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c5115016b820ee8ed08c",
+    "workId": "c5115016b820ee8ed08c",
+    "driveFileId": "1TZJcgK3152m0O6RYTyBwEpxj9yPQ3hHP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:15:00.957980+00:00",
+    "updatedAt": "2026-09-22T18:15:00.957995+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:15:00.958088+00:00"
+    }
+  }
+}
