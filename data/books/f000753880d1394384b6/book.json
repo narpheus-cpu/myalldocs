@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신을 받으라",
+    "author": "박해로",
+    "genre": "장편소설",
+    "tags": [
+      "역사소설",
+      "오컬트",
+      "공포",
+      "무속"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사공포소설",
+        "오컬트"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 전통 무속신앙에 독창적인 상상력을 더한 스타일리시한 소설을 선보이는 작가이다.",
+    "oneLineSummary": "천주학 죄인으로 몰려 처형당한 장일손의 끔찍한 저주와 그에 휘말린 백정 석발의 이야기.",
+    "overallSummary": "1876년 섭주에서 천주쟁이로 몰려 참형을 당한 장일손은 처형 직전 자신을 처형한 관원들과 망나니 석발에게 끔찍한 저주를 퍼붓고, 처형 이후 석발은 환각과 공포 속에서 미쳐간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "1876년 섭주, 장일손이 억울하게 천주학 죄인으로 몰려 처형당하며 사또와 망나니 석발에게 무서운 저주를 남긴다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "역사 오컬트 공포"
+      },
+      {
+        "key": "주제",
+        "value": "원한, 저주, 운명적인 복수"
+      }
+    ],
+    "keyEntitiesText": "장일손, 김광신, 석발",
+    "settingText": "1876년 조선 시대 섭주 동헌 및 도축장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gmRz4840XjOMdVGWHPc0WXVH7XYNWoMc",
+    "filename": "박해로-신을 받으라(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.672Z",
+    "size": "600617",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "박해로"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/박해로",
+    "webViewLink": "https://drive.google.com/file/d/1gmRz4840XjOMdVGWHPc0WXVH7XYNWoMc/view?usp=drivesdk",
+    "sourceSha256": "8edd5e524d885db048585c2f059b9b4c4b06a5cafe6ac3954de62db9da7e43a3",
+    "textSha256": "cbe30045300a7882f84565bb9570d439418bbacb447f0add7ea35ac8dd913074",
+    "changeKey": "65fcb4615517cffd8c448befb3127455",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f000753880d1394384b6",
+    "workId": "f000753880d1394384b6",
+    "driveFileId": "1gmRz4840XjOMdVGWHPc0WXVH7XYNWoMc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:59:25.157934+00:00",
+    "updatedAt": "2026-09-22T04:59:25.157948+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:59:25.158107+00:00"
+    }
+  }
+}

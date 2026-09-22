@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "벤슨 살인 사건",
+    "author": "밴 다인",
+    "genre": "추리소설",
+    "tags": [
+      "고전추리",
+      "파일로밴스",
+      "미스터리",
+      "법정추리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설",
+        "고전미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 작가이자 미술평론가로, 철저한 논리와 지적인 탐정 파일로 밴스를 창조하여 고전 추리문학의 발전에 기여했다.",
+    "oneLineSummary": "저명한 인사 앨빈 벤슨의 살인 사건을 해결하는 지적인 탐정 파일로 밴스의 첫 번째 사건.",
+    "overallSummary": "뉴욕을 떠들썩하게 만든 앨빈 H. 벤슨의 살인 사건을 배경으로, 지적이고 오만하지만 뛰어난 분석력을 가진 파일로 밴스가 경찰과 지방검사국이 해결하지 못한 미스터리를 독창적인 심리학적 연역법으로 풀어낸 파일로 밴스 시리즈의 첫 작품이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 ~ 제13장",
+        "summary": "예술품 수집과 논의를 하던 파일로 밴스와 밴 다인은 앨빈 벤슨의 살인 사건 소식을 접하고, 사건 현장과 용의자들을 분석하며 진범을 찾아 나간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "고전 추리소설"
+      },
+      {
+        "key": "주제",
+        "value": "지적 추리, 범죄 심리, 연역법"
+      }
+    ],
+    "keyEntitiesText": "파일로 밴스, 밴 다인, 앨빈 H. 벤슨, 존 F. X. 매컴",
+    "settingText": "미국 뉴욕 시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NU6cjR6IEQPrEEbuT-8xU_iktrHPDGuq",
+    "filename": "밴 다인-벤슨 살인 사건.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.812Z",
+    "size": "487611",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1NU6cjR6IEQPrEEbuT-8xU_iktrHPDGuq/view?usp=drivesdk",
+    "sourceSha256": "c1a6c1459413c3b346a444a408e49f13bec92019201a5efb9d66d67a3a0482f0",
+    "textSha256": "19bfd08fbef66ffdf33c523a0946b52c8bbde64bb193e9157def12d28123d6a2",
+    "changeKey": "885595f3f368545fdb863fb7d65a34d6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9ccdebfb459c48e331ae",
+    "workId": "9ccdebfb459c48e331ae",
+    "driveFileId": "1NU6cjR6IEQPrEEbuT-8xU_iktrHPDGuq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:00:13.914185+00:00",
+    "updatedAt": "2026-09-22T05:00:13.914201+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:00:13.914311+00:00"
+    }
+  }
+}

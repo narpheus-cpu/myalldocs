@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "더 비하인드",
+    "author": "박희종",
+    "genre": "장편소설",
+    "tags": [
+      "스릴러",
+      "오피스",
+      "직장인",
+      "익명커뮤니티"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "오피스스릴러",
+        "미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대 직장인의 심리와 사내 은밀한 이면을 날카롭게 포착해 스릴러로 풀어내는 작가이다.",
+    "oneLineSummary": "직장인 익명 커뮤니티 앱 '비하인드'에서 사소한 절도 행각이 폭로되면서 벌어지는 오피스 스릴러.",
+    "overallSummary": "대기업 과장인 주인공은 사내 복지용 우유를 가방에 넣고 퇴근한 일로 인해, 현직자 전용 익명 앱 '비하인드'에서 사내 찌질이로 몰려 신상이 털릴 위기에 처하고 결국 대표실까지 불려가는 공포스러운 상황을 마주한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 / 우유 1 리터 / 쏘 / 대표",
+        "summary": "취업 준비생 여자 친구와 직장인 남자의 대화로 시작해, 주인공이 카페테리아에서 우유를 훔친 일이 익명 앱 '비하인드'에 폭로되면서 사내에서 공포와 긴장감에 휩싸이는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "오피스 스릴러"
+      },
+      {
+        "key": "주제",
+        "value": "익명 커뮤니티의 폭력성, 직장인의 불안과 공포"
+      }
+    ],
+    "keyEntitiesText": "오 과장, 김 대리, 대표, 정 비서",
+    "settingText": "대기업 사무실 및 대표실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14erFqQAqnjTPcE5YS1OASzKJDthD2hbO",
+    "filename": "박희종-더 비하인드-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T09:30:02.000Z",
+    "size": "398742",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/14erFqQAqnjTPcE5YS1OASzKJDthD2hbO/view?usp=drivesdk",
+    "sourceSha256": "645c6c6db0b6f5350dcda314d24278e8fb34ec4a7fce2e4f345081b438eec692",
+    "textSha256": "34757357af6941d54eaa6f8a3dab30be471ac695d5f093a70f0432edbaf31183",
+    "changeKey": "2e611282317b190b31f0d4bdcd41df2b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "67ce7508905087b7cdd9",
+    "workId": "67ce7508905087b7cdd9",
+    "driveFileId": "14erFqQAqnjTPcE5YS1OASzKJDthD2hbO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:59:39.064954+00:00",
+    "updatedAt": "2026-09-22T04:59:39.064970+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:59:39.065123+00:00"
+    }
+  }
+}

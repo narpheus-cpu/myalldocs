@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "낙원의 저쪽",
+    "author": "백휴",
+    "genre": "장편추리소설",
+    "tags": [
+      "추리",
+      "심리",
+      "프로이트",
+      "성심리학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설",
+        "심리미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서강대학교 철학과를 졸업하고 연세대학교 철학과 대학원을 수료한 추리작가협회 회원이다.",
+    "oneLineSummary": "프로이트의 성심리학을 바탕으로 인간의 억압된 욕망과 광기를 파헤치는 심리 추리소설.",
+    "overallSummary": "대구에 정신병원을 개원한 정신과 의사가 프로이트의 성심리학을 바탕으로 환자들과 주변 인물들의 왜곡된 성적 욕망과 편집증, 억압된 심리를 분석해 나가는 과정을 그린 장편추리소설이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 사랑",
+        "summary": "주인공 정신과 의사가 대구에 '로이드 정신병원'을 개원하고, 독특한 성향의 직원들을 채용하며 환자들의 심리를 분석하는 일화들이 전개된다."
+      },
+      {
+        "sectionTitle": "제2부 죽음",
+        "summary": "인간 내면의 광기와 어두운 욕망이 극단적인 사건으로 치닫는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "심리 추리소설"
+      },
+      {
+        "key": "주제",
+        "value": "프로이트 심리학, 성적 억압, 인간의 광기"
+      }
+    ],
+    "keyEntitiesText": "나, 도희, 안효숙",
+    "settingText": "대한민국 대구"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1u98NDjzxfzVY-nkLChoOib4ooN5FzsnX",
+    "filename": "백휴-낙원의 저쪽.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.742Z",
+    "size": "769645",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1u98NDjzxfzVY-nkLChoOib4ooN5FzsnX/view?usp=drivesdk",
+    "sourceSha256": "d67ed524864560bc4533fb19d08abd244cc59cb8f23d0a7a939b2f55aa9c0d5c",
+    "textSha256": "01928c6fd2dfe3c41a0d31f1961e217253a4854680ce87b9a32d0faed680ed3e",
+    "changeKey": "74465422d035974cef2e9e0231481b9e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7c6db6f67ef5c0deb010",
+    "workId": "7c6db6f67ef5c0deb010",
+    "driveFileId": "1u98NDjzxfzVY-nkLChoOib4ooN5FzsnX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:59:52.324687+00:00",
+    "updatedAt": "2026-09-22T04:59:52.324702+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:59:52.324817+00:00"
+    }
+  }
+}

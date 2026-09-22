@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모든 살인은 증거를 남긴다",
+    "author": "브라이언 이니스",
+    "genre": "교양과학",
+    "tags": [
+      "법의학",
+      "과학수사",
+      "범죄",
+      "논픽션"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "법의학",
+        "범죄과학수사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "범죄 역사와 법의학 분야에 정통한 저술가이다.",
+    "oneLineSummary": "범죄 현장의 사소한 단서와 법의학적 증거를 통해 미스터리를 파헤치는 과학수사의 모든 것.",
+    "overallSummary": "모든 범죄는 흔적을 남긴다는 원칙 아래, 지문, DNA, 혈흔, 탄도학, 곤충학 등 다양한 법의학적 기법과 실제 사건들을 통해 과학수사가 어떻게 완벽한 범죄를 밝혀내는지 보여주는 교양 법의학 서적이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "Chapter 1_ 증거 수집",
+        "summary": "범죄 현장의 보존과 증거 수집의 중요성, 에드몽 로카르의 '모든 범죄는 흔적을 남긴다'는 원칙을 다양한 실제 사건과 함께 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "법의학 논픽션"
+      },
+      {
+        "key": "주제",
+        "value": "과학수사, 법의학, 범죄 증거 분석"
+      }
+    ],
+    "keyEntitiesText": "에드몽 로카르, O. J. 심슨, 말콤 페어리",
+    "settingText": "세계 각국의 범죄 현장 및 법의학 연구소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Bqvc9fppOGNo0RTmM4xHNp9-4vlyzXdl",
+    "filename": "브라이언 이니스-모든 살인은 증거를 남긴다(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T01:14:34.000Z",
+    "size": "660321",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1Bqvc9fppOGNo0RTmM4xHNp9-4vlyzXdl/view?usp=drivesdk",
+    "sourceSha256": "928d9793ee90c41363d7db0956dbf27d819860c57646b295f9c223f39aafc51d",
+    "textSha256": "404c19c36b1a3561c331517bd4940ee7f65fdd07995283957688e84bca50e237",
+    "changeKey": "62ad658365b19ad7cfeab18f84209b33",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "42c4cb0995bcf687bc07",
+    "workId": "42c4cb0995bcf687bc07",
+    "driveFileId": "1Bqvc9fppOGNo0RTmM4xHNp9-4vlyzXdl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:00:21.733163+00:00",
+    "updatedAt": "2026-09-22T05:00:21.733179+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:00:21.733285+00:00"
+    }
+  }
+}

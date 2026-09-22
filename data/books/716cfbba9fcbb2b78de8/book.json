@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계 호러 단편 100선",
+    "author": "브램 스토커 외",
+    "genre": "단편소설집",
+    "tags": [
+      "호러",
+      "공포",
+      "고딕소설",
+      "단편선"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "호러소설",
+        "고딕앤솔러지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간의 어두운 감정과 내면을 탐구해온 정통 문단 및 장르 호러 작가 100명의 작품을 엮은 편저자이다.",
+    "oneLineSummary": "고딕 호러부터 유령 소설까지 공포 문학의 역사를 일견할 수 있는 세계 정통 호러 단편 모음집.",
+    "overallSummary": "18세기 고딕 소설의 전통부터 현대에 이르기까지 인간 내면의 공포와 어두운 감정을 다룬 세계 명작 호러 단편들을 엄선하여 수록한 방대한 앤솔러지이다. 브램 스토커의 「수스스커」 등을 비롯한 고전적 공포의 진수를 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 수스스커",
+        "summary": "고호러 문학의 역사와 의의를 설명하는 서문과 함께, 신혼여행 중 돌멩이로 새끼 고양이를 죽인 후 어미 고양이의 무서운 복수와 집요한 추격에 시달리는 엘리아스 허치슨의 이야기를 담은 브램 스토커의 단편이 수록되어 있다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "고딕 호러 앤솔러지"
+      },
+      {
+        "key": "주제",
+        "value": "공포, 복수, 고딕 전통"
+      }
+    ],
+    "keyEntitiesText": "엘리아스 P. 허치슨, 아멜리아",
+    "settingText": "독일 뉘른베르크"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nSvkjUIGiePhQ83sC32QzZWefOP9twIN",
+    "filename": "세계 호러단편 100선(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.867Z",
+    "size": "1166894",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1nSvkjUIGiePhQ83sC32QzZWefOP9twIN/view?usp=drivesdk",
+    "sourceSha256": "1356a54842e289334c5529b54ef3d2db2c7effd83f5f15486c5d1a39561e0743",
+    "textSha256": "cbc4ed9ced909f13cde80a590d8978819391d82b92c6ff3584161a34e00b960c",
+    "changeKey": "4f23ac8df146055063d499c0e0928300",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "716cfbba9fcbb2b78de8",
+    "workId": "716cfbba9fcbb2b78de8",
+    "driveFileId": "1nSvkjUIGiePhQ83sC32QzZWefOP9twIN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:00:41.266304+00:00",
+    "updatedAt": "2026-09-22T05:00:41.266318+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:00:41.266425+00:00"
+    }
+  }
+}

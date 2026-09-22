@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그린가의 살인사건",
+    "author": "밴 다인",
+    "genre": "추리소설",
+    "tags": [
+      "고전추리",
+      "파일로밴스",
+      "미스터리",
+      "명탐정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설",
+        "고전미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 버지니아주 출신의 미술평론가이자 작가로, 명탐정 파일로 밴스 시리즈로 유명한 고전 추리소설의 거장이다.",
+    "oneLineSummary": "기이하고 잔혹한 그린 가문의 연속 살인 사건을 해결하는 명탐정 파일로 밴스의 활약상.",
+    "overallSummary": "뉴욕의 부유하지만 기이한 그린 가문에서 벌어진 연쇄 살인 사건을 다룬 고전 추리소설로, 경찰이 손을 들 버린 난해한 사건을 심리학과 예술에 조예가 깊은 명탐정 파일로 밴스가 독창적인 연역법으로 해결해 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "그린 가문에서 벌어진 미스터리한 살인 사건과 이에 관여하게 된 파일로 밴스의 분석 과정이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "고전 추리소설"
+      },
+      {
+        "key": "주제",
+        "value": "연쇄 살인, 심리학적 추리, 연역적 탐정"
+      }
+    ],
+    "keyEntitiesText": "파일로 밴스, 밴 다인",
+    "settingText": "미국 뉴욕"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yzI1av7e1HDqTl4eycIFAp7-9e1bL_FP",
+    "filename": "밴 다인-그린가의 살인사건.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.785Z",
+    "size": "45197",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1yzI1av7e1HDqTl4eycIFAp7-9e1bL_FP/view?usp=drivesdk",
+    "sourceSha256": "6e81cfcca0709b3bf28c3916c1ac1a2a13d5e369d30889a731edeb341b023048",
+    "textSha256": "2d8a6d27e5d7ea2a892e3a82b7393ba9683c2337158d60b7969115ba71d8d29a",
+    "changeKey": "05afd28dcfa1afb94767fd3514c25290",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b4aa9529801d0f986779",
+    "workId": "b4aa9529801d0f986779",
+    "driveFileId": "1yzI1av7e1HDqTl4eycIFAp7-9e1bL_FP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:00:07.171516+00:00",
+    "updatedAt": "2026-09-22T05:00:07.171531+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:00:07.171642+00:00"
+    }
+  }
+}

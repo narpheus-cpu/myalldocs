@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여자 곱하기 남자",
+    "author": "백휴",
+    "genre": "장편소설",
+    "tags": [
+      "추리",
+      "페미니즘",
+      "미스터리",
+      "성대결"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설",
+        "미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서강대학교 철학과를 졸업하고 연세대학교 대학원에서 철학을 수료한 추리작가이다.",
+    "oneLineSummary": "결혼을 앞둔 에로물 감독의 살해 사건과 그를 둘러싼 여성 단체의 비밀을 파헤치는 미스터리.",
+    "overallSummary": "결혼식을 이틀 앞둔 에로 영화감독 윤병두가 비밀 아파트에서 살해당하고, 그의 약혼녀 은영이 용의자로 지목된다. 사건의 실마리를 찾기 위해 여성지 기자 혜빈이 페미니즘 단체 '사포의 딸들'에 잠입하여 진실을 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "결혼을 앞둔 은영은 윤병두의 외도를 암시하는 의문의 전화를 받고 공릉동 아파트로 찾아가 결박당한 병두를 발견하고 결별을 선언한다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "병두가 살해당하고 은영이 범인으로 체포된 가운데, 기자 혜빈은 은영의 무죄를 입증하기 위해 주변 인물과 여성 단체를 취재한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "페미니즘 미스터리 추리소설"
+      },
+      {
+        "key": "주제",
+        "value": "남녀 관계, 권력과 억압, 페미니즘"
+      }
+    ],
+    "keyEntitiesText": "은영, 윤병두, 조혜빈, 권옥희, 손동표",
+    "settingText": "대한민국 서울 및 공릉동"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xzlPLiZrhUrnddWX4rPSEVsLAX5EOCXe",
+    "filename": "백휴-여자 곱하기 남자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.770Z",
+    "size": "265947",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1xzlPLiZrhUrnddWX4rPSEVsLAX5EOCXe/view?usp=drivesdk",
+    "sourceSha256": "4aef10c236fa30ea93b4d27eb093eaf802fd437ebd612de2f9fea7dbdcf3c6a5",
+    "textSha256": "712e1100ba2abc8035937df43d2933629818f6c80674f5821121fcce0bb296f2",
+    "changeKey": "88498392c3c289a4d6509272a812de83",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1528b1d707091978e720",
+    "workId": "1528b1d707091978e720",
+    "driveFileId": "1xzlPLiZrhUrnddWX4rPSEVsLAX5EOCXe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:59:58.847852+00:00",
+    "updatedAt": "2026-09-22T04:59:58.847868+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:59:58.847985+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "화차",
+    "author": "미야베 미유키",
+    "genre": "장편소설",
+    "tags": [
+      "미스터리",
+      "추리",
+      "실종",
+      "사회파미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "미스터리",
+        "추리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1960년 일본 도쿄에서 태어나 다양한 장르에서 왕성한 활동을 펼치고 있는 일본의 대표 작가이다.",
+    "oneLineSummary": "휴직 중인 형사 혼마가 사라진 약혼녀의 행방을 추적하며 드러나는 잔혹한 현대 사회의 진실.",
+    "overallSummary": "결혼을 앞두고 사라진 여인 세키네 쇼코를 찾아달라는 조카의 부탁을 받은 휴직 중인 형사 혼마 슌스케가 그녀의 과거와 신분을 파헤쳐 가는 과정을 그린 사회파 미스터리 소설이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "부상으로 휴직 중인 전직 형사 혼마 슌스케는 조카 구리사카 가즈야로부터 사라진 약혼녀 세키네 쇼코를 찾아달라는 부탁을 받는다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "혼마는 쇼코의 흔적을 쫓기 시작하고, 그녀가 남긴 빚과 신원 미상의 비밀들을 하나씩 발견한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "사회파 미스터리"
+      },
+      {
+        "key": "주제",
+        "value": "신용사회, 개인의 파멸, 현대 사회의 부조리"
+      }
+    ],
+    "keyEntitiesText": "혼마 슌스케, 구리사카 가즈야, 세키네 쇼코, 지즈코, 사토루",
+    "settingText": "일본 도쿄 및 가쓰시카구 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1b4GZocvD10wpFPG_dnVWbXajM0M1-5WM",
+    "filename": "미야베 미유키-화차(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.560Z",
+    "size": "858527",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1b4GZocvD10wpFPG_dnVWbXajM0M1-5WM/view?usp=drivesdk",
+    "sourceSha256": "026559e5ed44f6179de91353efa2956998b65abd57e1688c32cdfd0bd37520d1",
+    "textSha256": "d76a3b1d77545d022858de455858512fe42e23fd639cd7648c23e36e0411b7a5",
+    "changeKey": "9c4d09099cc6bfc76efebdbdb1164ae2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c70abb181fb24f8e824f",
+    "workId": "c70abb181fb24f8e824f",
+    "driveFileId": "1b4GZocvD10wpFPG_dnVWbXajM0M1-5WM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:59:00.440687+00:00",
+    "updatedAt": "2026-09-22T04:59:00.440703+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:59:00.440819+00:00"
+    }
+  }
+}

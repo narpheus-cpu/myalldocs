@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "죽음의 게임 1",
+    "author": "셜리 콘란",
+    "genre": "장편소설",
+    "tags": [
+      "모험",
+      "서바이벌",
+      "스릴러",
+      "정글"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "서바이벌스릴러",
+        "모험소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "런던 출신으로 편집자를 거쳐 전 세계적인 베스트셀러 작가로 활약하고 있는 소설가이다.",
+    "oneLineSummary": "뉴기니 섬의 미탐사 지역으로 탐험을 떠났다 조난당한 인류학자 청년과 일행의 생존을 건 사투.",
+    "overallSummary": "미국의 유복한 집안 출신 인류학자 청년이 원시 부족의 비밀스러운 의식을 연구하기 위해 조수인 여성 카메라맨과 함께 뉴기니 남서안 파우이 섬의 미탐사 지역으로 밀항하다 폭풍으로 배가 전복된다. 간신히 해안에 도착하지만, 그들을 기다리는 것은 원주민들의 잔인한 공격과 험난한 정글의 공포이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 / 제 3 부 악몽의 바캉스",
+        "summary": "폭풍 속에서 배가 전복되어 겨우 살아남은 인류학자 청년과 카메라맨이 파우이 섬의 해안에 상륙하지만, 원주민의 작살 공격을 받고 정글 속으로 도망치다 위기에 처한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "서바이벌 어드벤처 스릴러"
+      },
+      {
+        "key": "주제",
+        "value": "생존, 원시 문화, 인간의 본능"
+      }
+    ],
+    "keyEntitiesText": "아서 그레이엄, 바나 그레이엄, 해리 스코트, 러키 장군",
+    "settingText": "뉴기니 남서안 파우이 섬 및 정글"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Ht716B_QGOnU6GruEOcceuilLb0c5A1Y",
+    "filename": "셜리 콘란-죽음의 게임 1 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.902Z",
+    "size": "590637",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1Ht716B_QGOnU6GruEOcceuilLb0c5A1Y/view?usp=drivesdk",
+    "sourceSha256": "62cab4ab8b7a791763151431f4afea9a03e6637a3e4074e2f9aa25c3d36f672e",
+    "textSha256": "6f770ef3d0c7b3810212f5adc6e21b9784b0a3556e63a44a4d19f327ded96edd",
+    "changeKey": "be794d5defd168d978c183c95ac26984",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "887c4b390bded15b890e",
+    "workId": "887c4b390bded15b890e",
+    "driveFileId": "1Ht716B_QGOnU6GruEOcceuilLb0c5A1Y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:00:49.297255+00:00",
+    "updatedAt": "2026-09-22T05:00:49.297272+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:00:49.297380+00:00"
+    }
+  }
+}

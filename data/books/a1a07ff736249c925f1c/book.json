@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "섭주",
+    "author": "박해로",
+    "genre": "장편소설",
+    "tags": [
+      "공포",
+      "범죄",
+      "오컬트",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "공포소설",
+        "미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 전통 무속과 고딕 공포소설의 결합을 시도하며 독창적인 작품 세계를 구축한 작가이다.",
+    "oneLineSummary": "출소 후 우연히 거액의 조의금을 훔친 최영우가 겪는 기괴하고 끔찍한 저주와 환각의 이야기.",
+    "overallSummary": "5년 복역을 마치고 출소한 최영우는 경북 다흥의 병원 장례식장에서 사망한 접수자의 조의금을 훔쳐 달아난다. 흉가에 돈을 숨긴 그는 정체 모를 극심한 몸살과 소머리 귀신의 환각에 시달리며 파멸해 간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 발굴",
+        "summary": "최영우는 다흥의 공사 현장 인근에서 우연히 장례식장 조의금을 훔치고, 사람들의 눈을 피해 쓰러져가는 흉가에 돈을 숨긴 뒤 정체 모를 고통에 시달린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "공포 스릴러"
+      },
+      {
+        "key": "주제",
+        "value": "범죄의 대가, 죄책감, 환각과 저주"
+      }
+    ],
+    "keyEntitiesText": "최영우",
+    "settingText": "경상북도 다흥, 섭주"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19px18FTYYOxHoRIXUTrhhZSHzUcKuFjT",
+    "filename": "박해로-섭주(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.653Z",
+    "size": "562051",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "박해로"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/박해로",
+    "webViewLink": "https://drive.google.com/file/d/19px18FTYYOxHoRIXUTrhhZSHzUcKuFjT/view?usp=drivesdk",
+    "sourceSha256": "a1e41b8854f6cc8b24ec836cc86b6373973bc6f91425a4a14efe54073281b535",
+    "textSha256": "efc25fb6fb8c2e02b414f0c5c116c05405b0d6f4f2c5546bbbbed52b2818b909",
+    "changeKey": "dc9f4bca0eae9cc51bb4ab8483417aed",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a1a07ff736249c925f1c",
+    "workId": "a1a07ff736249c925f1c",
+    "driveFileId": "19px18FTYYOxHoRIXUTrhhZSHzUcKuFjT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:59:18.889749+00:00",
+    "updatedAt": "2026-09-22T04:59:18.889764+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:59:18.889863+00:00"
+    }
+  }
+}

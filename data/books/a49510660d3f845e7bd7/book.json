@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 살인자를 사냥한다",
+    "author": "배리 리가",
+    "genre": "장편소설",
+    "tags": [
+      "스릴러",
+      "범죄",
+      "연쇄살인",
+      "청소년"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "범죄스릴러",
+        "청소년소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "흥미진진한 심리 묘사와 긴장감 넘치는 스토리텔링으로 주목받는 작가이다.",
+    "oneLineSummary": "희대의 연쇄 살인마를 아버지로 둔 소년 재즈가 마을에서 벌어진 새로운 살인 사건을 마주하는 이야기.",
+    "overallSummary": "미국을 뒤흔든 연쇄 살인마 빌리 덴트의 아들 재즈는 아버지로부터 살인의 심리와 방법을 배우며 자랐다. 평화로운 마을 로보스 노드에서 잔혹한 시체가 발견되자, 재즈는 자신의 내면에 흐르는 살인자의 피와 아버지의 그늘에서 벗어나기 위해 사건에 관심을 갖게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~",
+        "summary": "마을 외곽 들판에서 벌어진 살인 현장을 몰래 지켜보던 재즈는 현장에 남겨진 절단된 손가락을 발견하고, 자신이 가진 살인마에 대한 지식으로 사건을 바라보게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "범죄 심리 스릴러"
+      },
+      {
+        "key": "주제",
+        "value": "선과 악의 경계, 부모의 그늘, 정체성"
+      }
+    ],
+    "keyEntitiesText": "재스퍼 덴트(재즈), 빌리 덴트, G. 윌리엄 태너",
+    "settingText": "미국 로보스 노드 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11TNBWjaWSnAQaRV4AOmn-M4GE9qBDtEf",
+    "filename": "배리 리가-나는 살인자를 사냥한다-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T11:57:26.000Z",
+    "size": "702932",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/11TNBWjaWSnAQaRV4AOmn-M4GE9qBDtEf/view?usp=drivesdk",
+    "sourceSha256": "bea0ba61592d8a7a6652b37969aac8d9fb633b2325393b40da6054380a12490b",
+    "textSha256": "b3642dbc855d36ab27bc90e3a6ba015f7642b131525224920e5c1d6e7cea191b",
+    "changeKey": "48c53333a525666cda4f0b38fe0f981e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a49510660d3f845e7bd7",
+    "workId": "a49510660d3f845e7bd7",
+    "driveFileId": "11TNBWjaWSnAQaRV4AOmn-M4GE9qBDtEf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:59:45.312438+00:00",
+    "updatedAt": "2026-09-22T04:59:45.312454+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:59:45.312564+00:00"
+    }
+  }
+}

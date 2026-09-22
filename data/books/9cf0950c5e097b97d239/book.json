@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "올빼미 눈의 여자",
+    "author": "박해로",
+    "genre": "장편소설",
+    "tags": [
+      "오컬트",
+      "공포",
+      "공무원",
+      "스릴러"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "공포소설",
+        "심리스릴러"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 무속신앙에 독창적인 상상력을 결합한 공포소설을 연이어 선보이고 있는 작가이다.",
+    "oneLineSummary": "민원 업무에 지친 공무원 기성이 연수원에서 옛 동료 준오를 만나며 겪는 기이하고 악몽 같은 이야기.",
+    "overallSummary": "악성 민원인들로 인해 스트레스와 공포에 시달리던 공무원 한기성은 경북 섭주에서 열리는 일주일간의 연수원에 입소한다. 그곳에서 옛 동료 장준오를 우연히 재회하고, 술자리와 노래방을 거치며 기이한 사건과 마주하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "9월 12일 ~ 17일",
+        "summary": "민원 업무에 시달리던 한기성은 섭주 연수원으로 향하고, 그곳에서 트라우마를 가진 옛 동료 장준오를 만나 함께 술을 마시며 기이한 밤을 보낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "오컬트 심리스릴러"
+      },
+      {
+        "key": "주제",
+        "value": "직장인의 스트레스, 트라우마, 악몽과 현실의 경계"
+      }
+    ],
+    "keyEntitiesText": "한기성, 장준오",
+    "settingText": "경상북도 섭주 연수원 및 시내"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ISIH3fp5xOYy6rC78sm6kwOSuaW7KIPJ",
+    "filename": "박해로-올빼미 눈의 여자(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.700Z",
+    "size": "423422",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "박해로"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/박해로",
+    "webViewLink": "https://drive.google.com/file/d/1ISIH3fp5xOYy6rC78sm6kwOSuaW7KIPJ/view?usp=drivesdk",
+    "sourceSha256": "8a528139b7bbfb349e024745b414df859fa24eefce20a0a4aba744da3ef013c6",
+    "textSha256": "c1181347488c4e1987995230814ec2560b3fcd0c11d1f6fd99993a2e3aede612",
+    "changeKey": "26939fe7393205555e6c8605b26ed542",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9cf0950c5e097b97d239",
+    "workId": "9cf0950c5e097b97d239",
+    "driveFileId": "1ISIH3fp5xOYy6rC78sm6kwOSuaW7KIPJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:59:32.119992+00:00",
+    "updatedAt": "2026-09-22T04:59:32.120009+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:59:32.120166+00:00"
+    }
+  }
+}

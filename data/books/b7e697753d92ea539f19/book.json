@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살",
+    "author": "박해로",
+    "genre": "장편소설",
+    "tags": [
+      "공포",
+      "무속",
+      "저주",
+      "오컬트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "공포소설",
+        "오컬트"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 전통 무속신앙을 바탕으로 독창적인 공포 문학을 집필하는 작가이다.",
+    "oneLineSummary": "어머니를 없애기 위해 무속의 저주를 의뢰한 청년 조윤식의 기이하고 끔찍한 이야기.",
+    "overallSummary": "다흥의 한 상갓집에 나타난 조윤식은 비밀리에 무당에게 양어머니를 죽여달라는 저주를 의뢰하고, 그 대가로 끔찍한 대가를 치르게 되는 과정을 그린 오컬트 공포소설이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "황복만 선생의 어머니 장례식에 조윤식이 나타나고, 교직원들은 그에 대한 흉흉한 소문들을 나눈다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "윤식은 장례식장을 빠져나와 차 안에서 무당이 가르쳐준 기이한 의식을 행하며 저주를 완성하려 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "무속 공포소설"
+      },
+      {
+        "key": "주제",
+        "value": "저주, 인간의 광기, 무속신앙"
+      }
+    ],
+    "keyEntitiesText": "조윤식, 황복만, 적산법사, 오현철, 교무주임",
+    "settingText": "경상북도 북부 가상의 도시 다흥"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "121IuCz2yLj7zuaqr33vFlq4H4qGuHah_",
+    "filename": "박해로-살(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.627Z",
+    "size": "674271",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "박해로"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/박해로",
+    "webViewLink": "https://drive.google.com/file/d/121IuCz2yLj7zuaqr33vFlq4H4qGuHah_/view?usp=drivesdk",
+    "sourceSha256": "584e17372e184a46b5550da8b50535049b62d430dbc47e91eeefc87a2f62f7b1",
+    "textSha256": "aa6a5e775374bab66eefcc4274c1bfad06047d60ffb31c625b9af781569e16d5",
+    "changeKey": "90df073a2f1213d5b372e2be5fe6c767",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b7e697753d92ea539f19",
+    "workId": "b7e697753d92ea539f19",
+    "driveFileId": "121IuCz2yLj7zuaqr33vFlq4H4qGuHah_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:59:13.105071+00:00",
+    "updatedAt": "2026-09-22T04:59:13.105088+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:59:13.105204+00:00"
+    }
+  }
+}

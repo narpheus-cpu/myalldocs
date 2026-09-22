@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "죽음의 게임 2",
+    "author": "셜리 콘란",
+    "genre": "장편소설",
+    "tags": [
+      "모험",
+      "서바이벌",
+      "스릴러",
+      "쿠데타"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "서바이벌스릴러",
+        "모험소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세계적인 베스트셀러 《레이스》 등으로 유명한 런던 태생의 소설가이다.",
+    "oneLineSummary": "파우이 섬에서 쿠데타가 발발한 가운데, 광산 채굴권을 둘러싼 음모와 생존을 위한 투쟁.",
+    "overallSummary": "파우이 섬에서 군부 쿠데타가 일어나 대통령이 실각하고 섬 전체가 혼란에 빠진다. 오스트레일리아 지사장 해리는 쿠데타 소식을 접하고 섬에 체재 중인 넥서스 광업 회사 사장과 임원진을 구출하기 위해 비행기를 수배하며 긴급 구조 작전에 나선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "쿠데타",
+        "summary": "파우이 섬에서 군사 쿠데타가 발생해 통신이 끊기고 오베 대통령이 사망하자, 해리는 미국 시민인 회사 임원들을 구출하기 위해 발 빠르게 움직인다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "정치 스릴러 및 서바이벌 어드벤처"
+      },
+      {
+        "key": "주제",
+        "value": "쿠데타, 기업의 이권, 구출 작전"
+      }
+    ],
+    "keyEntitiesText": "해리 스코트, 아서 그레이엄, 러키 장군, 제리 피어스, 패트",
+    "settingText": "오스트레일리아 시드니 및 파우이 섬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1e8zfbs8Tk5s1rsTZejNjZrkLjcaNc7u4",
+    "filename": "셜리 콘란-죽음의 게임 2 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.930Z",
+    "size": "574363",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1e8zfbs8Tk5s1rsTZejNjZrkLjcaNc7u4/view?usp=drivesdk",
+    "sourceSha256": "927b012d6c6888b9c2a8d13786a17a7afe5bc7888426aba70728caa27645d08f",
+    "textSha256": "93f1f30839a1e1d7925dd493ff6d02be7ae297385e6d3857a2f1b19da0769f40",
+    "changeKey": "44b1a8bc0aa56974f104f9f0df521d10",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "64268cbf0d1d074c276e",
+    "workId": "64268cbf0d1d074c276e",
+    "driveFileId": "1e8zfbs8Tk5s1rsTZejNjZrkLjcaNc7u4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:00:56.352273+00:00",
+    "updatedAt": "2026-09-22T05:00:56.352289+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:00:56.352397+00:00"
+    }
+  }
+}
