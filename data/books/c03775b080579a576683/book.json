@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "교정보는 로봇 (아이작 아시모프 단편선)",
+    "author": "아이작 아시모프",
+    "genre": "SF 단편소설",
+    "tags": [
+      "교정보는 로봇",
+      "EZ-27호",
+      "유에스 로봇사",
+      "노스이스턴 대학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "robot_sf",
+        "courtroom_drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아이작 아시모프는 로봇 공학의 세계관을 바탕으로 인간 사회의 법적, 윤리적 갈등을 유쾌하게 풀어내는 SF 작가이다.",
+    "oneLineSummary": "대학에 임대된 교정 로봇을 둘러싼 비공개 재판을 통해 로봇의 사회적 수용 과정을 그린 이야기이다.",
+    "overallSummary": "유에스 로봇사가 대학에 임대한 교정용 로봇 EZ-27호(이지)의 도입 과정을 둘러싸고 열린 비공개 법정 재판 기록이다. 굿펠로우 교수와 하트 원장 등 대학 인사들이 래닝 박사의 설득으로 로봇을 받아들이게 된 경위와, 지구상에서 로봇 사용을 허가받기 위한 유에스 로봇사의 전략적 시도가 증언을 통해 밝혀진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "교정보는 로봇 본문",
+        "summary": "쉐인 판사의 주재 아래 배심원 없이 비공개로 진행되는 재판에서 굿펠로우 교수와 하트 원장이 증인으로 출석해 이지와의 첫 만남과 대학 이사회의 결정 과정을 증언한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기술 수용의 갈등",
+        "value": "새로운 기술(로봇)이 사회와 학계에 도입될 때 발생하는 법적 규제와 대중적 거부감 극복 과정을 다룬다."
+      }
+    ],
+    "keyEntitiesText": "할로위 쉐인 판사, 바나바스 H. 굿펠로우, 알프레드 래닝, 수잔 캘빈, 프랜시스 J. 하트",
+    "settingText": "지구의 비공개 법정 및 노스이스턴 대학."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "167H55Hq33381JKlnTBzKkysZKcd8TcZf",
+    "filename": "욕구불만-아이작 아시모프 단편선.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:31.606Z",
+    "size": "195750",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/167H55Hq33381JKlnTBzKkysZKcd8TcZf/view?usp=drivesdk",
+    "sourceSha256": "0aa0507b1a7206cce90269fba265917580f4af7dc067a6b7df16aca574707022",
+    "textSha256": "86fe75139ee9857967c92076ff29b53294e5da89da883f01d43d7f37dbb22a08",
+    "changeKey": "bc4d29f7dcfef2f76bf66e39d658d569",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c03775b080579a576683",
+    "workId": "c03775b080579a576683",
+    "driveFileId": "167H55Hq33381JKlnTBzKkysZKcd8TcZf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:20:08.497854+00:00",
+    "updatedAt": "2026-09-22T10:20:08.497869+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7267,
+      "updatedAt": "2026-09-22T10:20:08.497975+00:00"
+    }
+  }
+}

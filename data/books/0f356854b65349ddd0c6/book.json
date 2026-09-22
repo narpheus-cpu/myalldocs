@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "SF 명예의 전당 1",
+    "author": "아이작 아시모프 외",
+    "genre": "SF 단편소설집",
+    "tags": [
+      "SF 명예의 전당",
+      "미국과학소설작가협회",
+      "존 캠벨",
+      "황혼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "anthology",
+        "classic_sf"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국과학소설작가협회(SFWA) 소속 작가들이 직접 투표로 선정하고 역대 최고의 SF 단편들을 엮은 권위 있는 선집이다.",
+    "oneLineSummary": "SFWA 작가들이 직접 엄선한 현대 과학소설의 기념비적인 명작 단편들을 모은 작품집이다.",
+    "overallSummary": "미국과학소설작가협회(SFWA) 회원들이 1964년 이전에 발표된 수많은 과학소설 중에서 최고를 투표로 선정하여 엮은 명예의 전당 첫 번째 단편선이다. 서문에서는 선정 과정과 기준을 상세히 밝히고 있으며, 수록작 중 하나인 존 캠벨의 「황혼」 등을 통해 인간성, 기계, 그리고 미래의 쓸쓸한 풍경을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 황혼(존 캠벨)",
+        "summary": "로버트 실버버그의 편집자 서문을 통해 SF 명예의 전당 선집의 탄생 배경과 투표 과정을 설명하고, 700만 년 미래의 기계만 남은 쓸쓸한 지구를 방문한 남자의 이야기를 다룬 존 캠벨의 「황혼」이 수록된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 정통성",
+        "value": "현대 과학소설의 기틀을 다진 역사적 작품들을 작가들의 직접 투표로 선별하여 수록했다."
+      }
+    ],
+    "keyEntitiesText": "로버트 실버버그, 짐 벤델, 아레스 센 켄린, 존 캠벨",
+    "settingText": "미래의 시공간 및 700만 년 뒤의 황폐한 지구 도시."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Xp7GucOK4VblU8rOhPJjvVc6FlGePk-d",
+    "filename": "아이작 아시모프 외-SF 명예의 전당 1(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T14:05:36.000Z",
+    "size": "866758",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1Xp7GucOK4VblU8rOhPJjvVc6FlGePk-d/view?usp=drivesdk",
+    "sourceSha256": "af65268dbd74fa8a3d805832ffc8d9d5a6e0179aa3438bab5251583bca286d95",
+    "textSha256": "3019335d4c79a6aadf1454800ab85cefd1b42c9975e7eac5d63e6cebe7885e97",
+    "changeKey": "5b12b93626dd1ddf28cc91ee24767ac6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0f356854b65349ddd0c6",
+    "workId": "0f356854b65349ddd0c6",
+    "driveFileId": "1Xp7GucOK4VblU8rOhPJjvVc6FlGePk-d",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:19:23.444686+00:00",
+    "updatedAt": "2026-09-22T10:19:23.444702+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:19:23.444809+00:00"
+    }
+  }
+}

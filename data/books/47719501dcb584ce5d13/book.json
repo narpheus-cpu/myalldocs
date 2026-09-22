@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "헝거 게임",
+    "author": "수잔 콜린스",
+    "genre": "디스토피아 SF",
+    "tags": [
+      "헝거 게임",
+      "캣니스",
+      "조공인",
+      "판엠"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "dystopian",
+        "survival"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "수잔 콜린스는 잔혹한 생존 게임과 인간성의 회복을 그린 디스토피아 소설의 대가이다.",
+    "oneLineSummary": "동생 대신 헝거 게임의 조공인으로 자원한 캣니스가 죽음의 생존 게임에 뛰어드는 이야기이다.",
+    "overallSummary": "독재 국가 판엠에서 체제를 유지하기 위해 매년 각 구역에서 소년 소녀를 한 명씩 뽑아 서로 죽이게 하는 생존 게임 '헝거 게임'이 열린다. 주인공 캣니스의 어린 동생 프림이 뽑히자, 캣니스는 동생을 대신해 조공인으로 자원하여 훈련을 받고 죽음의 경기장에 입장한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "PART 1. 조공인",
+        "summary": "추첨일 아침 12번 구역의 가난한 삶 속에서 숲으로 밀렵을 나가 게일을 만나고, 추첨식에서 동생 프림의 이름이 불리자 캣니스가 대신 자원하는 과정이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서바이벌 게임",
+        "value": "국가가 오락과 통제의 수단으로 청소년들을 희생시키는 잔혹한 디스토피아 시스템을 고발한다."
+      }
+    ],
+    "keyEntitiesText": "캣니스 에버딘, 프림로즈 에버딘, 게일 호손, 피타 멜라크, 에피 트링켓",
+    "settingText": "가난과 통제가 지배하는 12번 구역 및 판엠의 수도 캐피톨."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13OMUi6A5wusV9e-dkp2oynWXDnRRth90",
+    "filename": "수잔 콜린스-헝거게임-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T06:16:36.000Z",
+    "size": "729696",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/13OMUi6A5wusV9e-dkp2oynWXDnRRth90/view?usp=drivesdk",
+    "sourceSha256": "1f4b9bc27611576cdac652ef9e9ac324732640063581dc7247e6921c3c1c89df",
+    "textSha256": "df7a66a8a115fcb27552c75338049e4ba8305ba91c55611ec4af2b75d4275cb2",
+    "changeKey": "58f72abdc5e1e078b480e0987a6c289d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "47719501dcb584ce5d13",
+    "workId": "47719501dcb584ce5d13",
+    "driveFileId": "13OMUi6A5wusV9e-dkp2oynWXDnRRth90",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:19:03.023773+00:00",
+    "updatedAt": "2026-09-22T10:19:03.023788+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:19:03.023897+00:00"
+    }
+  }
+}

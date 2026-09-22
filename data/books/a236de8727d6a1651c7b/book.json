@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "노래하는 종",
+    "author": "아이작 아시모프",
+    "genre": "SF 단편소설",
+    "tags": [
+      "노래하는 종",
+      "루이스 페이튼",
+      "달",
+      "살인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery_sf",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아이작 아시모프는 추리소설과 SF를 절묘하게 결합하는 뛰어난 역량을 지닌 거장이다.",
+    "oneLineSummary": "철저한 알리바이를 바탕으로 달에서 보석을 훔치고 동업자를 살해한 범인의 치밀한 범죄와 그 반전이다.",
+    "overallSummary": "범죄 은폐와 알리바이를 철저히 계산하는 루이스 페이튼은 장물아비 컨웰로부터 달에 감춰진 귀중한 보물인 '노래하는 종'의 비밀을 알게 된다. 페이튼은 매년 8월이면 외부와 완벽히 차단되는 산속의 피난처에 머무는 전통적인 알리바이를 이용해, 컨웰과 함께 우주선을 타고 달로 건너가 노래하는 종을 손에 넣은 뒤 컨웰을 살해하고 지구로 돌아온다. 완전범죄를 확신하며 경찰의 심층 심리검사마저 비웃던 그에게 수사관이 찾아온다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "노래하는 종",
+        "summary": "루이스 페이튼이 컨웰과 함께 달로 가서 노래하는 종을 채굴한 뒤 컨웰을 살해하고 철저한 알리바이를 바탕으로 지구로 돌아와 안심하지만, 곧이어 형사가 찾아와 살인 사건을 언급하며 긴장감이 고조된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "완전범죄의 함정",
+        "value": "철저한 알리바이를 설계한 범죄자가 의외의 허점이나 수사망에 걸려드는 SF 추리 구조를 보여준다."
+      }
+    ],
+    "keyEntitiesText": "루이스 페이튼, 알버트 컨웰, H. 세튼 더벤포드, 웬델 아스 박사",
+    "settingText": "지구의 산속 은신처 및 달의 티코 크레이터 주변."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nhjA6GkHF4ne039QDdQ6paJXlKxPmjEW",
+    "filename": "아이작 아시모프-노래하는 종 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:31.373Z",
+    "size": "43402",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1nhjA6GkHF4ne039QDdQ6paJXlKxPmjEW/view?usp=drivesdk",
+    "sourceSha256": "9891a157bbd6fe471b50ed4f8936de2ce1bec69d677c0535ffa2e0e37eee5fe2",
+    "textSha256": "63ab254d152a0b54ac69c742c5ca61b65419862e39321ec3a1082f6ddd176593",
+    "changeKey": "7dfa5d6509fcc7c21b57fca1a2ff409a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a236de8727d6a1651c7b",
+    "workId": "a236de8727d6a1651c7b",
+    "driveFileId": "1nhjA6GkHF4ne039QDdQ6paJXlKxPmjEW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:19:52.667007+00:00",
+    "updatedAt": "2026-09-22T10:19:52.667023+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:19:52.667126+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "노예 로봇",
+    "author": "아이작 아시모프",
+    "genre": "SF 단편소설",
+    "tags": [
+      "로봇",
+      "유에스 로봇사",
+      "로봇 3원칙",
+      "교정 로봇"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "robot_sf",
+        "courtroom_drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아이작 아시모프는 로봇 3원칙을 창안하고 현대 SF 문학의 황금기를 이끈 전설적인 작가이다.",
+    "oneLineSummary": "대학에 교정용 로봇을 대여하면서 벌어지는 법적 공방과 로봇에 대한 인간의 인식 변화를 다룬 이야기이다.",
+    "overallSummary": "유에스 로봇사가 대학에 교정 및 문서 작업을 수행할 수 있는 양자두뇌 로봇 EZ-27호(이지)를 임대하면서 벌어지는 일들을 비공개 재판의 증언과 회상을 통해 추적한다. 로봇의 안전성과 3원칙에 대한 신뢰를 바탕으로 지식 노동 분야에 로봇을 도입하려는 시도와 그 과정의 갈등을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "노예 로봇 1~5",
+        "summary": "굿펠로우 교수가 래닝 박사의 설득으로 교정 로봇 EZ-27호를 창고에 받아들이고, 책을 완벽하게 교정하는 능력을 목격한 뒤 대학 이사회에 안건을 상정하는 과정이 재판 증언을 통해 밝혀진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "로봇 3원칙",
+        "value": "인간의 안전과 복종을 규율하는 3원칙이 로봇 도입과 법적 공방의 핵심 논리로 작용한다."
+      }
+    ],
+    "keyEntitiesText": "할로위 쉐인 판사, 바나바스 H. 굿펠로우, 알프레드 래닝, 수잔 캘빈, 프랜시스 J. 하트, 이지(EZ-27호)",
+    "settingText": "지구, 유에스 로봇사 및 노스이스턴 대학."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Viw_3oepLCPbOqv5OXf4MZ9toKPdwLfI",
+    "filename": "아시모프 단편선-노예 로봇.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:31.342Z",
+    "size": "212659",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1Viw_3oepLCPbOqv5OXf4MZ9toKPdwLfI/view?usp=drivesdk",
+    "sourceSha256": "c7dde852dc33a5fbb08de2fd0b1ba0a8ced94081697883677f90ddebd552c104",
+    "textSha256": "a9e9d68e3b806d4267a13361d3241f552c4c7d588002e6e96e0f3bfb363d8142",
+    "changeKey": "5c1e8a621486cdc6b357cd358f603260",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ae963ddcf8a015787460",
+    "workId": "ae963ddcf8a015787460",
+    "driveFileId": "1Viw_3oepLCPbOqv5OXf4MZ9toKPdwLfI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:19:16.864823+00:00",
+    "updatedAt": "2026-09-22T10:19:16.864839+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:19:16.864942+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "타이버 1권",
+    "author": "아서 C. 클라크, 데이브 브림",
+    "genre": "SF 소설",
+    "tags": [
+      "타이버",
+      "우주 탐사",
+      "화성",
+      "센타우루스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "hard_sf",
+        "space_exploration"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아서 C. 클라크는 과학적 사실에 입각한 정교한 상상력으로 현대 SF 문학의 기틀을 다진 거장이다.",
+    "oneLineSummary": "화성에서 자란 역사학자 클리오가 센타우루스를 향한 인류 최초의 유인 탐사선에 오르며 벌어지는 이야기이다.",
+    "overallSummary": "지구와 화성을 잇는 미래를 배경으로, 화성 출신의 역사학자 클리오 트리고린이 센타우루스로 향하는 거대한 유인 우주선 '테네시티 호'의 탐사대에 합류하여 우주로 떠나는 과정과 인류의 우주 이주 역사를 되짚어보는 서사를 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 인사이크러피디어의 비밀",
+        "summary": "화성 출신의 역사학자 클리오가 가족들과 작별 인사를 나누고 거대한 탐사선 테네시티 호에 탑승하여 센타우루스를 향한 장대한 항해를 시작하는 과정과 가문의 역사를 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "우주 항해의 비전",
+        "value": "실제 과학자들의 방대한 자문과 고증을 바탕으로 미래의 성간 탐사와 우주 물리학적 가능성을 현실감 있게 그려낸다."
+      }
+    ],
+    "keyEntitiesText": "클리오 트리고린, 사네토모 가와무라, 올샤브스키, 제이슨 삼촌, 올가 숙모, 크리스 테렌스",
+    "settingText": "지구 궤도상의 거대한 우주선 테네시티 호 및 화성 코롤레브 분화구."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XIOPLgqOpckiVR1KVwS3-Nh52Onx_mkL",
+    "filename": "아서 클라크-타이버.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:31.076Z",
+    "size": "1119705",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1XIOPLgqOpckiVR1KVwS3-Nh52Onx_mkL/view?usp=drivesdk",
+    "sourceSha256": "213171c856ab9dd620d92ded8004ccd4e8bf1edcdd6bf34fb7cbb280a842501c",
+    "textSha256": "c3f75c933dd805c5ac5a472172cca2278844b2098f956113121bffbf26e25947",
+    "changeKey": "95515195d2797fbe07d0fa0c7988c429",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5cf147a6062c2ba357bd",
+    "workId": "5cf147a6062c2ba357bd",
+    "driveFileId": "1XIOPLgqOpckiVR1KVwS3-Nh52Onx_mkL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:19:09.906513+00:00",
+    "updatedAt": "2026-09-22T10:19:09.906527+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.441,
+      "updatedAt": "2026-09-22T10:19:09.906616+00:00"
+    }
+  }
+}

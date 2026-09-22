@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "파운데이션 1",
+    "author": "아이작 아시모프",
+    "genre": "SF 소설",
+    "tags": [
+      "파운데이션",
+      "해리 셀던",
+      "가알 도닉",
+      "심리역사학",
+      "트랜터"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "space_opera",
+        "social_sf"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아이작 아시모프는 거대한 은하 제국의 흥망성쇠를 다룬 '파운데이션' 시리즈로 SF 문학의 정점을 찍은 거장이다.",
+    "oneLineSummary": "은하 제국의 몰락을 예견한 수학자 해리 셀던의 초청을 받아 수도성 트랜터에 도착한 청년 가알 도닉의 이야기이다.",
+    "overallSummary": "수만 개의 행성을 거느린 거대한 은하 제국의 수도 트랜터에 시골 행성 출신의 젊은 수학자 가알 도닉이 도착한다. 그는 위대한 수학자 해리 셀던의 심리역사학 프로젝트에 참여하기 위해 초청받아 온 것이며, 트랜터의 거대한 도시 인프라를 목격하고 제국의 붕괴와 다가올 암흑기를 구원하기 위한 셀던의 거대한 계획에 발을 들여놓게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 심리역사학자 (1~4장)",
+        "summary": "시낵스 출신의 청년 가알 도닉이 초공간 도약을 거쳐 은하 제국의 수도 트랜터에 도착하고, 공항에서 호텔과 전망대를 거쳐 마침내 해리 셀던을 직접 만나게 되는 과정이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리역사학",
+        "value": "대규모 인구 집단의 통계적 행동 양식을 통해 미래의 거대한 역사의 흐름을 예측하는 혁신적 개념을 도입했다."
+      }
+    ],
+    "keyEntitiesText": "가알 도닉, 해리 셀던, 제릴",
+    "settingText": "은하 제국의 수도성이자 온통 도시로 뒤덮인 행성 트랜터."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PI7zZhu_6NnftjqKAhP36hVVjuErTg7b",
+    "filename": "아이작 아시모프-파운데이션 전집(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T11:13:44.000Z",
+    "size": "5948648",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1PI7zZhu_6NnftjqKAhP36hVVjuErTg7b/view?usp=drivesdk",
+    "sourceSha256": "9052f84d40422d4559872340954d74980b59d9a26a9ec27a257811c28652aba0",
+    "textSha256": "bb4d43b05177b160befef373971d8fbc8dafba4da957249060884901f472298d",
+    "changeKey": "a70f4da3a4949b4076b09854e7e84a10",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "86cf32ea7045feb67a83",
+    "workId": "86cf32ea7045feb67a83",
+    "driveFileId": "1PI7zZhu_6NnftjqKAhP36hVVjuErTg7b",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:20:16.418431+00:00",
+    "updatedAt": "2026-09-22T10:20:16.418448+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4837,
+      "updatedAt": "2026-09-22T10:20:16.418541+00:00"
+    }
+  }
+}

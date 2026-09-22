@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "SF 명예의 전당 4",
+    "author": "존 W. 캠벨 주니어 외",
+    "genre": "SF 중편소설집",
+    "tags": [
+      "거기 누구냐?",
+      "존 W. 캠벨 주니어",
+      "남극 기지",
+      "괴물"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "anthology",
+        "horror_sf"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 SF작가협회 소속 작가들이 엄선한 SF 중편 명작들을 수록한 명예의 전당 시리즈 네 번째 권이다.",
+    "oneLineSummary": "남극 빙하 속에서 발굴된 정체불명의 외계 생명체로 인해 공포에 휩싸이는 기지 대원들의 이야기이다.",
+    "overallSummary": "SFWA 작가들의 투표로 선정된 중편 걸작선을 담고 있으며, 존 W. 캠벨 주니어의 전설적인 SF 호러 중편 「거기 누구냐?」가 수록되어 있다. 남극의 남자극 지점 빙하 속에서 발견된 우주선과 그 안에 얼어붙어 있던 외계 생명체를 기지로 가져온 후, 그것이 어떤 생물이든 완벽하게 모방할 수 있는 끔찍한 괴물임이 밝혀지며 대원들이 서로를 불신하고 사투를 벌이는 긴장감을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 거기 누구냐? (존 W. 캠벨 주니어)",
+        "summary": "중편 선집의 선정 과정을 다룬 서문에 이어, 남극 탐사 대원들이 빙하 속에서 수백만 년 전 추락한 우주선과 승무원이었던 외계 사체를 발굴해 기지로 가져온 뒤 벌어지는 공포스러운 상황을 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형태 변환 공포",
+        "value": "타인의 모습으로 완벽하게 위장하는 외계 생명체를 통해 극도의 심리적 서스펜스와 불신을 유발한다."
+      }
+    ],
+    "keyEntitiesText": "개리, 맥크리디, 노리스, 블레어, 카퍼 박사, 키너",
+    "settingText": "남극 대륙의 얼어붙은 극지 탐사 기지."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ut0w2dg49HWGAFeZnq2Hiq-UktUVupkp",
+    "filename": "아이작 아시모프 외-SF 명예의 전당 4(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T14:18:54.000Z",
+    "size": "945287",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1ut0w2dg49HWGAFeZnq2Hiq-UktUVupkp/view?usp=drivesdk",
+    "sourceSha256": "635e70ab57408184d05e4e57c2784c64f4342b4a903e6fbf937d6b6a4069967e",
+    "textSha256": "9da647f9d2a684d6a962dd76199b7fa2d41bf9bee2f488c1665cfa288615b7b3",
+    "changeKey": "d8f5e5e2ba2f57a937db1bc8aec173f3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8068cbb86eb7f22626a4",
+    "workId": "8068cbb86eb7f22626a4",
+    "driveFileId": "1ut0w2dg49HWGAFeZnq2Hiq-UktUVupkp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:19:45.853460+00:00",
+    "updatedAt": "2026-09-22T10:19:45.853475+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:19:45.853580+00:00"
+    }
+  }
+}
