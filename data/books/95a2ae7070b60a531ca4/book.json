@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사마르칸트의 마법 목걸이",
+    "author": "조나단 스트라우드",
+    "genre": "판타지 / 영 어덜트",
+    "tags": [
+      "마법사",
+      "요괴",
+      "나타니엘",
+      "바티미어스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 판타지 소설가로 바티미어스 삼부작으로 세계적인 명성을 얻었습니다.",
+    "oneLineSummary": "어린 마법사 수련생 나타니엘이 중급 요괴 바티미어스를 소환해 엘리트 마법사에게 복수하기 위한 음모에 휘말린다.",
+    "overallSummary": "마법사들이 지배하는 현대 영국 런던, 12세의 자존심 강한 수련생 나타니엘은 자신을 모욕한 오만한 엘리트 마법사 사이먼 러브레이스에게 복수하기 위해 5,010년 살 베테랑 요괴 바티미어스를 소환합니다. 바티미어스에게 러브레이스의 저택에서 '사마르칸트의 마법 목걸이'를 훔쳐 오라고 명령하지만, 그 배후에 숨겨진 거대한 음모를 마주하게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "마법사 견습생에게 물려 나온 이들 및 지하터널",
+        "summary": "나타니엘이 펜타클을 그려 바티미어스를 소환해 계약을 맺고, 바티미어스가 러브레이스의 저택 방어막을 뚫고 잠입하기 위해 두더지로 변신해 지하로 파고든다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "독창적인 나레이션",
+        "value": "냉소적이고 유머러스한 요괴 바티미어스의 1인칭 각주와 본문 서술을 통해 판타지 세계에 생동감과 풍자를 더함."
+      }
+    ],
+    "keyEntitiesText": "나타니엘, 바티미어스, 사이먼 러브레이스, 아서 언더우드",
+    "settingText": "마법사들이 통치하는 현대의 영국 런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gElpAHLY5F1GxhpBQG_EXLAsV5eWiOFf",
+    "filename": "조나단 스트라우드-사마르칸트의 마법 목걸이 1-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T13:27:20.000Z",
+    "size": "525693",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1gElpAHLY5F1GxhpBQG_EXLAsV5eWiOFf/view?usp=drivesdk",
+    "sourceSha256": "a76e542715158c217beaae8af27c9dffa2525860f95fbb46233a5468758bcd45",
+    "textSha256": "627d8f9d0a7164ebd941bd0d1b45d52c827065af4d64b1c17037fada4d0c5192",
+    "changeKey": "c27c80266b61eed97024db101bdabf7d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "95a2ae7070b60a531ca4",
+    "workId": "95a2ae7070b60a531ca4",
+    "driveFileId": "1gElpAHLY5F1GxhpBQG_EXLAsV5eWiOFf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:01:02.684024+00:00",
+    "updatedAt": "2026-09-22T14:01:02.684039+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:01:02.684127+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "호드의 탄생",
+    "author": "크리스티 골든",
+    "genre": "판타지 / 게임 소설",
+    "tags": [
+      "워크래프트",
+      "에레다르",
+      "벨렌",
+      "살게라스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "tie_in"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "유명 게임 IP를 바탕으로 깊이 있는 판타지 소설을 집필하는 작가입니다.",
+    "oneLineSummary": "에레다르의 지도자 벨렌이 살게라스의 거부할 수 없는 제안 속에서 종족의 타락과 미래의 재앙을 예견한다.",
+    "overallSummary": "평화롭던 에레다르의 세 지도자 벨렌, 킬제덴, 아키몬드 앞에 사악한 거물 살게라스가 나타나 무한한 힘과 지식을 약속합니다. 킬제덴과 아키몬드는 이에 매료되지만, 벨렌은 수정을 통해 이들이 악마로 변해버릴 끔찍한 미래의 환영을 보고 탈출을 결심합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "살게라스의 제안을 받아들이려는 킬제덴과 아키몬드와 달리, 벨렌은 아타말 수정을 통해 만아리로 타락하는 에레다르의 미래를 목격하고 절망하며 구원의 길을 찾는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "타락과 선택",
+        "value": "권력과 지식의 유혹 앞에 놓인 지도자들의 갈등과 종족의 운명을 가르는 비극적 선택을 생생하게 그림."
+      }
+    ],
+    "keyEntitiesText": "벨렌, 킬제덴, 아키몬드, 살게라스, 크우레(나루)",
+    "settingText": "고대 에레다르의 행성 아르거스와 신성한 사원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1d1wsj5d8Tr59lqcQ2Q41BsNhRKvVIdwo",
+    "filename": "워크래프트-호드의 탄생.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:54.989Z",
+    "size": "482750",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1d1wsj5d8Tr59lqcQ2Q41BsNhRKvVIdwo/view?usp=drivesdk",
+    "sourceSha256": "a0b6dbedd7b1debe62f6f1c41ad21fe30072a91633a4d75160d9a09a6e1db153",
+    "textSha256": "b7782f37093a5b3e3e0485cbdaca2c1d6487687093eac72541df5705a3afb0e1",
+    "changeKey": "1b097bfe4401cfd8758b9537b7965cc1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "492c4732567c213c811a",
+    "workId": "492c4732567c213c811a",
+    "driveFileId": "1d1wsj5d8Tr59lqcQ2Q41BsNhRKvVIdwo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:59:48.872932+00:00",
+    "updatedAt": "2026-09-22T13:59:48.872948+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:59:48.873062+00:00"
+    }
+  }
+}

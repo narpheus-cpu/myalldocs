@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시간의 방랑자",
+    "author": "월리엄 코츠윙클",
+    "genre": "현대 소설 / 판타지",
+    "tags": [
+      "할리우드",
+      "배우",
+      "불안",
+      "성공"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama",
+        "psychological"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 소설가로 환상적이고 독창적인 작품들을 많이 집필했습니다.",
+    "oneLineSummary": "할리우드의 성공한 영화배우 데이빗 카스피안이 화려한 파티 속에서 나이듦과 실패에 대한 깊은 불안에 사로잡힌다.",
+    "overallSummary": "캘리포니아의 호화로운 저택에서 열린 가든 파티의 풍경 속에서, 주인공 데이빗 카스피안은 젊은 신인들의 거센 도전과 자신의 늙어가는 육체, 그리고 관객들의 시선에 대한 강박적인 불안감을 느낍니다. 에이전트와 제작자들의 속물적인 대화 속에서 자신의 입지와 과거의 기억을 돌아봅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 운명의 파티",
+        "summary": "데이빗 카스피안은 자신의 저택에서 열린 파티에서 에이전트 마일론 피쉬와 영화계 인사들을 만나며, 배우로서 겪는 나이듦과 인기에 대한 불안과 회의감을 느낀다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "현대인의 소외와 불안",
+        "value": "화려한 대중문화 이면에 숨겨진 스타의 심리적 고립감과 시간의 흐름에 대한 공포를 현실감 있게 묘사함."
+      }
+    ],
+    "keyEntitiesText": "데이빗 카스피안, 마일론 피쉬, 캐롤 카스피안, 에드 클레스웰",
+    "settingText": "미국 캘리포니아 할리우드 근교의 호화로운 저택과 정원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CPpR8HW_SZPoroXgwStgyZ9snX88lZAt",
+    "filename": "월리엄 코츠윙클-시간의 방랑자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:55.011Z",
+    "size": "481654",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1CPpR8HW_SZPoroXgwStgyZ9snX88lZAt/view?usp=drivesdk",
+    "sourceSha256": "532d1ed755ff948228e2fce9ae723bf1027ebc3c042a5093d8b80e00bb7251b2",
+    "textSha256": "70cb2cfe0adc8d4621167bc059f81ddd594114d0de3aa0e3b56300a7d00d6dfe",
+    "changeKey": "c4e8d9c8054e8791ba50b1416bd308c1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "82fd0b86b26f022cb8cd",
+    "workId": "82fd0b86b26f022cb8cd",
+    "driveFileId": "1CPpR8HW_SZPoroXgwStgyZ9snX88lZAt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:59:54.732287+00:00",
+    "updatedAt": "2026-09-22T13:59:54.732303+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:59:54.732393+00:00"
+    }
+  }
+}
