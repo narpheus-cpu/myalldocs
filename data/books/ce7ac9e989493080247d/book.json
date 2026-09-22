@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "올리버 트위스트",
+    "author": "찰스 디킨스",
+    "genre": "고전 소설",
+    "tags": [
+      "고아",
+      "런던 빈민가",
+      "범죄",
+      "사회 풍자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "찰스 디킨스는 19세기 영국의 사회 부조리와 빈민들의 참상을 생생하게 고발한 영문학의 거장이다.",
+    "oneLineSummary": "비참한 구빈원에서 태어난 고아 소년 올리버 트위스트가 온갖 역경과 범죄 소굴을 거쳐 진정한 정체를 찾아가는 이야기.",
+    "overallSummary": "어느 지방의 구빈원에서 어머니가 사망한 채 태어난 올리버 트위스트는 가혹한 학대와 굶주림 속에서 자라난다. 장례업자에게 팔려갔다가 도망쳐 런던으로 향한 올리버는 페이긴이 소유한 소매치기 소년 소굴에 발을 들이게 된다. 도둑질에 가담하게 되지만 본성이 순수한 올리버는 젠틀맨들의 도움으로 구원받고, 결국 자신의 출생의 비밀과 함께 행복을 되찾는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "저자 서문",
+        "summary": "1841년 제3판 서문에서 디킨스는 범죄자와 하류층을 소설의 소재로 삼은 이유가 로맨스가 아닌 ‘현실의 진실’과 ‘도덕적 교훈’을 전달하기 위함이라고 역설한다."
+      },
+      {
+        "sectionTitle": "1장",
+        "summary": "올리버 트위스트가 비참한 구빈원에서 태어나는 과정과 어머니가 출산 직후 사망하는 비극적인 상황이 묘사된다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "고아 농장으로 보내진 올리버가 턱없이 부족한 식량과 학대 속에서 자라나며 교구의 짐으로 전락하는 과정이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "구빈원, 고아, 소매치기 집단, 범죄"
+      },
+      {
+        "key": "주제",
+        "value": "비참한 현실 속에서도 빛나는 선의 승리와 사회 부조리 고발"
+      }
+    ],
+    "keyEntitiesText": "올리버 트위스트, 교구 의사, 구빈원 노파, 펠릭스, 페이긴, 사익스, 낸시",
+    "settingText": "19세기 영국의 어느 지방 구빈원과 런던의 빈민가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LvZpx-JSR97tKDM6L2QE7o0vyH7nP4VV",
+    "filename": "찰스 디킨스-올리버 트위스트 - 현대지성 클래식 29(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.524Z",
+    "size": "1084414",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1LvZpx-JSR97tKDM6L2QE7o0vyH7nP4VV/view?usp=drivesdk",
+    "sourceSha256": "61539faac9a8883e3243a150ecd52e07616c8616299f98e8514b175434980b14",
+    "textSha256": "8415f4bef0b52ec006b2a5219c59befe5ee67802f749120a173b81267e8d696d",
+    "changeKey": "4703fe0e1b69d8d49e3c574cb449eb30",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ce7ac9e989493080247d",
+    "workId": "ce7ac9e989493080247d",
+    "driveFileId": "1LvZpx-JSR97tKDM6L2QE7o0vyH7nP4VV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:29:29.407907+00:00",
+    "updatedAt": "2026-09-22T02:29:29.407923+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:29:29.408036+00:00"
+    }
+  }
+}

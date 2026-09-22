@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "슬픈 사랑의 이름",
+    "author": "주드 데브루",
+    "genre": "로맨스 소설",
+    "tags": [
+      "인디언 습격",
+      "포로",
+      "사랑",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance",
+        "historical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "주드 데브루는 대중적인 인기를 얻은 소설가이다.",
+    "oneLineSummary": "인디언 습격으로 가족을 잃고 포로가 된 리넷이 맥이라는 남자를 만나 겪는 시련과 사랑의 이야기.",
+    "overallSummary": "켄터키 숲속에서 평화롭게 지내던 마을이 인디언들의 갑작스러운 습격을 받아 대량 학살이 벌어지고, 리넷은 아이들과 함께 포로로 끌려간다. 혹독한 행군과 학대 속에서도 리넷은 꿋꿋하게 버텨내고, 그 과정에서 스와니족 피를 이어받은 미스터리한 남자 데본 맥컬리스터(맥)를 만나 서로 의지하며 위기를 극복해 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장",
+        "summary": "켄터키 벌판에서 평화로운 시간을 보내던 마을이 인디언들의 습격을 받아 파괴되고, 리넷은 어머니를 잃은 채 아이들과 함께 포로로 끌려간다. 혹독한 행군 끝에 인디언 캠프에 도착한 리넷은 학대를 당하고, 그곳에서 파란 눈의 남자 맥을 만나 위로를 받는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "인디언 습격, 포로 생존, 로맨스"
+      },
+      {
+        "key": "주제",
+        "value": "가혹한 운명 속에서 피어나는 사랑과 인간의 용기"
+      }
+    ],
+    "keyEntitiesText": "리넷, 미란다 테일러, 왓슨부인, 엘렌, 루디 제임스, 얼리, 패시, 맥(데본 맥컬리스터), 크레이지 베어",
+    "settingText": "19세기 미국 켄터키 숲속과 인디언 캠프"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LRTj9k6a0LDy_uf5b1HfSvWBCQgrVgMj",
+    "filename": "주드 데브루-슬픈 사랑의 이름.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.343Z",
+    "size": "308850",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1LRTj9k6a0LDy_uf5b1HfSvWBCQgrVgMj/view?usp=drivesdk",
+    "sourceSha256": "096d6394973e703b7e3fcaef39cfe8a714d554b3b191f1761c1cc2d170684457",
+    "textSha256": "250a0240515c6530560d0da7d3dc37c4d1b6e6778f909ecb9e9dbce0b45f69df",
+    "changeKey": "a4d270af31e005f0a3238eee16c6b048",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "72043cd3748aecd6af74",
+    "workId": "72043cd3748aecd6af74",
+    "driveFileId": "1LRTj9k6a0LDy_uf5b1HfSvWBCQgrVgMj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:28:40.100900+00:00",
+    "updatedAt": "2026-09-22T02:28:40.100917+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:28:40.101097+00:00"
+    }
+  }
+}

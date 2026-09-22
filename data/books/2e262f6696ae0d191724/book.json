@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인도의 사랑 1",
+    "author": "카트린 클레망",
+    "genre": "역사 소설",
+    "tags": [
+      "인도 독립",
+      "마하트마 간디",
+      "영국 부왕",
+      "사랑과 역사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "카트린 클레망은 프랑스의 철학자이자 소설가로, 역사와 문화적 배경이 담긴 깊이 있는 소설을 집필한다.",
+    "oneLineSummary": "인도의 독립 운동과 마하트마 간디의 비폭력 투쟁, 그리고 영국의 지배 속에서 펼쳐지는 격동의 역사적 기록.",
+    "overallSummary": "1922년 인도, 마하트마 간디가 이끄는 시민 불복종 운동이 고조되는 가운데 차우리 차우라에서 폭력적인 유혈 사태가 발생한다. 비폭력 원칙이 깨진 것에 충격을 받은 간디는 투쟁을 전격 중단하고 단식을 선언한다. 한편, 델리의 영국령 인도 부왕 레딩 경은 런던의 압력과 인도 민족주의자들의 거센 저항 사이에서 고심한다. 왕세자의 인도 방문과 맞물려 루이스 마운트배튼 경과 에드워너 애슐리 양의 약혼 소식이 전해지는 등, 격동하는 인도의 운명 속에서 개인들의 사랑과 정치적 격변이 교차한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "1922년 2월, 바르돌리 지구를 중심으로 한 간디의 비폭력 시위 도중 고라크뿌르 근교에서 충돌이 일어나 경관들이 살해되는 참사가 발생한다. 간디는 이 폭력 사태에 책임을 느끼며 투쟁 지침을 철회하고 단식을 선언한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "인도 독립 운동, 비폭력 불복종, 영국 식민 통치"
+      },
+      {
+        "key": "주제",
+        "value": "역사의 거대한 소용돌이 속에서 부딪히는 신념과 사랑"
+      }
+    ],
+    "keyEntitiesText": "마하트마 간디, 레딩 경, 수석 비서, 에드워너 애슐리, 루이스 마운트배튼(디키), 에드워드 왕자(데이비드)",
+    "settingText": "1922년 인도 델리 및 바르돌리 지구"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HT_LgD_cfWlj79LYazC5D1ibxLX1DShQ",
+    "filename": "카트린 클레망-인도의 사랑.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.783Z",
+    "size": "942175",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1HT_LgD_cfWlj79LYazC5D1ibxLX1DShQ/view?usp=drivesdk",
+    "sourceSha256": "c62ba3ebd7d44f6d21cfed70f07b59dc33eef322f2fca645bb0f88af90726bd3",
+    "textSha256": "dcdfe4762eb9b1f1b096cae93a4782089df59658c25bd6632f913ca9fd5802a9",
+    "changeKey": "ee31229fc8e52043041dd37e77e446d9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e262f6696ae0d191724",
+    "workId": "2e262f6696ae0d191724",
+    "driveFileId": "1HT_LgD_cfWlj79LYazC5D1ibxLX1DShQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:30:30.458863+00:00",
+    "updatedAt": "2026-09-22T02:30:30.458880+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.6624,
+      "updatedAt": "2026-09-22T02:30:30.458958+00:00"
+    }
+  }
+}

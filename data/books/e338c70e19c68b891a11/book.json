@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여자의 세월",
+    "author": "주디 블룸",
+    "genre": "현대 소설",
+    "tags": [
+      "이혼",
+      "중년의 삶",
+      "자녀 양육",
+      "새로운 시작"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama",
+        "contemporary"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 인기 여류작가 주디 블룸은 현실감 있는 묘사로 독자들의 공감을 얻는 소설을 집필한다.",
+    "oneLineSummary": "이혼 후 볼더에서 새로운 삶과 자녀와의 관계를 다져가는 마고의 일상과 감정의 여정을 그린 소설.",
+    "overallSummary": "남편과 이혼하고 볼더에 정착한 마고는 태양열 주택 설계 회사에 다니며 자립적인 삶을 살아간다. 충동적인 애정 행각으로 공허함을 느끼던 그녀는 새로운 삶의 방식을 모색하고, 여름방학을 마치고 돌아온 아이들과의 갈등과 소통을 통해 진정한 엄마이자 성숙한 여성으로 거듭나고자 노력한다. 이웃인 앤드루와의 기묘한 만남이 그녀의 일상에 작은 파문을 일으킨다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장",
+        "summary": "이혼녀 마고는 늦은 밤 뜨거운 거품 목욕을 즐기던 중 이웃집 남자 앤드루 브로더와 우연히 만나게 되고, 그의 엉뚱한 행동에 당황하면서도 흥미를 느낀다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "이혼, 중년 여성의 심리, 가족 갈등"
+      },
+      {
+        "key": "주제",
+        "value": "삶의 방황을 극복하고 자아와 가족을 찾아가는 과정"
+      }
+    ],
+    "keyEntitiesText": "마고, 앤드루 브로더, 비비(프랜신), 클레어, 미셀, 스튜어트, 프레디, 레너드, 마이클 벤슨, 에릭",
+    "settingText": "미국 콜로라도주 볼더, 8월의 늦더위가 감도는 주택가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12Y94Aql-A2T25IgXybQDipUphZd6DwYH",
+    "filename": "주디 블룸-여자의 세월.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.362Z",
+    "size": "428176",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/12Y94Aql-A2T25IgXybQDipUphZd6DwYH/view?usp=drivesdk",
+    "sourceSha256": "85acc4b521b5dace3ce6e36a05803aa0ef4eec7d50fe4aeaaf93f6a624410f8d",
+    "textSha256": "7ae8b0fdf7f4f50119a3bdc2f2bb896aafdbbdd9f9de8592519ca420f9b22245",
+    "changeKey": "3083155b67fb695a98e82bfd8a670115",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e338c70e19c68b891a11",
+    "workId": "e338c70e19c68b891a11",
+    "driveFileId": "12Y94Aql-A2T25IgXybQDipUphZd6DwYH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:28:46.479508+00:00",
+    "updatedAt": "2026-09-22T02:28:46.479526+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:28:46.479607+00:00"
+    }
+  }
+}

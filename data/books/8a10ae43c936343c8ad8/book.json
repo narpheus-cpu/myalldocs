@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "콜드 마운틴의 사랑",
+    "author": "찰스 프레지어",
+    "genre": "역사 소설",
+    "tags": [
+      "남북전쟁",
+      "탈영병",
+      "오디세이",
+      "고향"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "찰스 프레지어는 미국의 역사와 대지의 정신을 서정적이면서도 장엄한 필치로 그려내는 소설가이다.",
+    "oneLineSummary": "남북전쟁 중 부상을 입고 탈영하여 고향 콜드 마운틴으로 걸어서 돌아가는 인만의 기나긴 여정을 그린 소설.",
+    "overallSummary": "남군으로 참전해 프레디스버그와 피터스버그 등 참혹한 전투를 겪은 인만은 목에 심각한 부상을 입고 야전병원에 수용된다. 전쟁의 참혹함과 인간의 야만성에 지친 그는 탈영을 결심하고, 오직 고향 콜드 마운틴에 있는 연인을 향해 수백 마일의 길을 홀로 걷기 시작한다. 도중에 만나는 수많은 무고한 희생자들과 자연의 풍경은 미국판 오디세이를 방불케 하며, 사라져 가는 전통적인 삶의 정신을 일깨워준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1 상처받은 영혼",
+        "summary": "병원 침대에 누워 파리를 쫓으며 회상에 잠긴 인만은, 창밖에서 땅콩을 삶는 맹인 노인과 대화를 나누며 프레디스버그 전투의 끔찍했던 기억을 떠올린다. 장군들의 오만과 병사들의 광기가 빚어낸 전쟁의 참상을 목격한 그는 결국 고향으로 향하는 험난한 발걸음을 떼기 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "남북전쟁, 탈영병의 여정, 참혹한 전투"
+      },
+      {
+        "key": "주제",
+        "value": "전쟁의 무의미함과 대지의 정신으로 돌아가는 인간의 귀향"
+      }
+    ],
+    "keyEntitiesText": "인만, 리 장군, 롱스트리트 장군, 길 담벼락 맹인 노인",
+    "settingText": "남북전쟁 당시의 미국 남부 전선 및 콜드 마운틴으로 이어지는 길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lzjYqbxol66qyA1zyg4i6hfFtO6T1UEA",
+    "filename": "찰스 프레이저-콜드 마운틴의 사랑.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.552Z",
+    "size": "388077",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1lzjYqbxol66qyA1zyg4i6hfFtO6T1UEA/view?usp=drivesdk",
+    "sourceSha256": "fcda8c6dfb34369ea2219c703b8d1e03679e3705173af3f9ec7438f97c330cc3",
+    "textSha256": "d2abcbc733e5cd7a0928973d563a8a5066f59e394d857747f8ff821eff135554",
+    "changeKey": "a6863f86363164422165382ebc0f940c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8a10ae43c936343c8ad8",
+    "workId": "8a10ae43c936343c8ad8",
+    "driveFileId": "1lzjYqbxol66qyA1zyg4i6hfFtO6T1UEA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:29:41.122214+00:00",
+    "updatedAt": "2026-09-22T02:29:41.122230+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:29:41.122304+00:00"
+    }
+  }
+}

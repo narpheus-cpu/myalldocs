@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아웃 오브 아프리카",
+    "author": "카렌 블릭센",
+    "genre": "자서전적 에세이/소설",
+    "tags": [
+      "아프리카",
+      "케냐",
+      "커피 농장",
+      "자연과 인간"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "카렌 블릭센(필명 아이작 디네센)은 덴마크 출신의 작가로, 케냐에서의 17년 삶을 바탕으로 이 명작을 남겼다.",
+    "oneLineSummary": "덴마크 귀 출신 작가가 아프리카 케냐의 은공 언덕 기슭에서 커피 농장을 운영하며 겪은 감동적인 체험과 사색.",
+    "overallSummary": "저자는 적도가 지나는 케냐 해발 1천8백 미터 고지대에 위치한 은공 언덕 기슭에서 커피 농장을 경영한다. 아프리카의 드넓은 초원과 장엄한 풍경, 독특한 공기 속에서 그녀는 키쿠유족 소작인들과 소통하고, 소말리족 하인 파라와 깊은 신뢰를 쌓으며 아프리카의 원주민과 자연에 매료된다. 커피 농사 실패와 이별 등 시련을 겪으면서도 아프리카 대륙 그 자체가 지닌 생명력과 영혼을 시적이면서도 담담한 필치로 기록하고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1 카만테와 룰루 - 은공 농장",
+        "summary": "은공 언덕 기슭에 위치한 커피 농장의 지리적 환경과 독특한 공기, 은공 산의 장엄한 풍경을 묘사한다. 이어 커피 재배의 기나긴 과정과 농장 주변의 소작지, 그리고 나이로비 도시와 소말리족 거주지의 풍경을 생생하게 그려낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "아프리카 대자연, 커피 농장 경영, 원주민들과의 교류"
+      },
+      {
+        "key": "주제",
+        "value": "이문명과의 조우 속에서 발견하는 인간애와 대지의 영혼"
+      }
+    ],
+    "keyEntitiesText": "카만테, 룰루, 파라 아덴, 사이드, 레딩 경",
+    "settingText": "아프리카 케냐 은공 언덕 기슭의 농장 및 나이로비"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kipvQTRbcqz_Z-wR5iKZYlhqhECK8HeX",
+    "filename": "카렌 블릭센-아웃 오브 아프리카 - 열린책들 세계문학 087 -열린책들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.631Z",
+    "size": "778009",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1kipvQTRbcqz_Z-wR5iKZYlhqhECK8HeX/view?usp=drivesdk",
+    "sourceSha256": "2221677b64ad67dcec3d02a8c142d4a8b1082c8a4e4f6c8099911bfbadb67fda",
+    "textSha256": "e86d39771796a090575bca8667df4c41707d55407c31c927d79cdb108fe72ef1",
+    "changeKey": "900a0813ee5427bd44f32d150e0b7a86",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d72850acb5f78e6845f8",
+    "workId": "d72850acb5f78e6845f8",
+    "driveFileId": "1kipvQTRbcqz_Z-wR5iKZYlhqhECK8HeX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:29:57.317665+00:00",
+    "updatedAt": "2026-09-22T02:29:57.317682+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:29:57.317764+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "눈먼 자들의 도시",
+    "author": "주제 사라마구",
+    "genre": "철학적 소설",
+    "tags": [
+      "실명",
+      "재난",
+      "인간성",
+      "사회붕괴"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "노벨문학상 수상 작가 주제 사라마구는 독창적인 문체와 깊은 철학적 통찰로 인간 본성을 탐구한다.",
+    "oneLineSummary": "이유를 알 수 없는 ‘백색 실명’ 전염병으로 사회가 붕괴되는 극한 상황 속에서 인간성을 지키려는 사람들의 이야기.",
+    "overallSummary": "평화로운 도시의 한 도로에서 차를 타고 있던 남자가 갑자기 앞이 보이지 않는 ‘눈이 먼 상태’에 빠진다. 검은 어둠이 아니라 우유처럼 하얗고 환한 빛으로 가득 찬 실명은 마치 전염병처럼 주변 사람들에게 빠르게 퍼져나간다. 정부는 감염자들을 격리시키지만, 수용소 안은 통제 불능의 무법천지가 되고 인간은 본능과 공포 앞에 무너져 내린다. 그 혼란 속에서 유일하게 시력을 잃지 않은 안과 의사의 아내가 남몰래 남편과 사람들을 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "초반부 요약",
+        "summary": "교통 신호등 앞에서 갑자기 앞이 하얗게 멀어버린 운전자가 생기고, 그를 도와준 남자를 시작으로 도시 전체에 기이한 백색 실명 전염병이 창궐한다. 정부는 환자들을 격리 수용소에 가두고, 그곳에서 벌어지는 극한의 혼란과 공포가 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "원인 불명의 실명, 전염병, 사회적 재난"
+      },
+      {
+        "key": "주제",
+        "value": "극한의 상황 속에서 드러나는 인간의 본성과 존엄성"
+      }
+    ],
+    "keyEntitiesText": "눈이 먼 남자, 의사의 아내, 운전을 도와준 남자, 안과 전문의",
+    "settingText": "이유를 알 수 없는 백색 실명 전염병이 퍼진 도시와 격리 수용소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bgIptMKOhxI_irmJtJ3cDKUgo4VsKCM1",
+    "filename": "주제 사라마구-눈먼 자들의 도시(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T08:04:44.000Z",
+    "size": "849035",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1bgIptMKOhxI_irmJtJ3cDKUgo4VsKCM1/view?usp=drivesdk",
+    "sourceSha256": "d958cf907fccf22229ed9cd5264e79cca9cb91af0eaf0d77cf57bb3dea9de60b",
+    "textSha256": "9e6967d0b7792cf051cfa0949e61bb180b3ce8070fc85a78e34b855bccebb898",
+    "changeKey": "29ac5518c5fc51cb1dae7b934e736da5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "33d9ee65b0733994574a",
+    "workId": "33d9ee65b0733994574a",
+    "driveFileId": "1bgIptMKOhxI_irmJtJ3cDKUgo4VsKCM1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:29:16.170486+00:00",
+    "updatedAt": "2026-09-22T02:29:16.170503+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:29:16.170580+00:00"
+    }
+  }
+}

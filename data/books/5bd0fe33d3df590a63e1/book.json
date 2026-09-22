@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "예언자",
+    "author": "카릴 지브란",
+    "genre": "철학시/명상록",
+    "tags": [
+      "예언자",
+      "사랑",
+      "결혼",
+      "인간의 삶"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "poetry",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "카릴 지브란은 레바논 출신의 시인이자 화가로, 동서양의 영혼을 아우르는 깊은 철학적 글을 썼다.",
+    "oneLineSummary": "올펄레즈 시를 떠나기 전 예언자 알무스타파가 사람들의 물음에 답하며 삶의 진실과 지혜를 들려주는 이야기.",
+    "overallSummary": "선택받은 예언자 알무스타파는 고향으로 돌아갈 배를 기다리며 12년 동안 올펄레즈 시에 머물러 있었다. 마침내 배가 도착하자 도시의 사람들과 원로, 사제들이 모여 그에게 떠나지 말라고 애원한다. 예언녀 알미트라의 청에 따라, 알무스타파는 사랑, 결혼, 아이들, 베풂, 일, 기쁨과 슬픔 등 인간 삶의 근본적인 주제들에 대해 깊은 가르침을 전하고 바다를 향해 떠난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 배가 오다",
+        "summary": "12년 동안 올펄레즈 시에 머물던 알무스타파가 안개 속에서 자신을 고향으로 데려갈 배가 오는 것을 보고 감회에 젖는다. 사람들과 예언녀 알미트라가 모여 그에게 진실을 말해달라고 청한다."
+      },
+      {
+        "sectionTitle": "2. 사랑에 대하여 ~ 8. 기쁨과 슬픔에 대하여",
+        "summary": "사랑의 고통과 성숙, 독립성을 지키는 결혼, 소유할 수 없는 아이들, 조건 없는 베풂, 생명의 먹고 마심, 사랑으로 하는 노동, 그리고 기쁨과 슬픔의 불가분한 관계에 대한 깊은 철학적 가르침이 이어진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "예언자의 이별, 인간 삶의 보편적 주제에 대한 문답"
+      },
+      {
+        "key": "주제",
+        "value": "사랑, 자유, 노동, 고통 등 인간 존재에 대한 영적 깨달음"
+      }
+    ],
+    "keyEntitiesText": "알무스타파, 알미트라",
+    "settingText": "바닷가의 가상의 도시 올펄레즈 및 신전 광장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sZEfyTh9OhUCvu2extezLg4ir8RA5SJI",
+    "filename": "칼릴 지브란-예언자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.933Z",
+    "size": "93690",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1sZEfyTh9OhUCvu2extezLg4ir8RA5SJI/view?usp=drivesdk",
+    "sourceSha256": "d5c0d570254bd80639da13a0e80c89e55a429cab9f69a86e19097c255959e808",
+    "textSha256": "d351d709fa07d1b58dde2ff5b7de878cccef433540c4de01546d420663b8c236",
+    "changeKey": "be2750cb51b84b76c046e04af5ef946f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5bd0fe33d3df590a63e1",
+    "workId": "5bd0fe33d3df590a63e1",
+    "driveFileId": "1sZEfyTh9OhUCvu2extezLg4ir8RA5SJI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:30:03.572438+00:00",
+    "updatedAt": "2026-09-22T02:30:03.572456+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:30:03.572536+00:00"
+    }
+  }
+}

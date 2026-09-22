@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "금발의 여인",
+    "author": "카터 브라운",
+    "genre": "추리/미스터리 소설",
+    "tags": [
+      "경위",
+      "살인 사건",
+      "폭탄 테러",
+      "방송 인터뷰"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "카터 브라운(앨런 제프리 예이츠)은 호주와 미국을 무대로 수많은 하드보일드 미스터리 소설을 집필한 작가이다.",
+    "oneLineSummary": "실종된 여배우의 TV 인터뷰 방송을 앞두고 협박 사건과 아파트 폭발 테러를 해결하려는 알 윌러 경위의 이야기.",
+    "overallSummary": "지방 보안관 사무실의 알 윌러 경위는 3년 전 리 매닝의 자살 사건과 연루되어 실종되었던 여배우 조지아 브라운이 유명 진행자 폴라 레이드의 TV 쇼를 통해 진실을 밝히기 위해 파인 시에 도착했다는 소식을 듣는다. 보안관의 지시로 폴라 레이드와 그녀의 주변을 경호하게 된 윌러는 호텔을 방문해 관계자들을 만나고, 조지아 브라운이 머무는 아파트를 찾아간다. 그러나 그곳에서 문을 두드리는 순간 부저와 연동된 폭탄이 터져 아파트가 날아가는 테러가 발생한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "알 윌러 경위는 레이버스 보안관으로부터 실종된 여배우 조지아 브라운의 인터뷰 방송을 앞둔 폴라 레이드 쇼와 관련된 경호 임무를 지시받는다. 호텔을 찾아가 비서 제니스와 폴라 레이드를 만난 윌러는 조지아 브라운의 아파트를 찾아갔다가 부저를 누르는 순간 폭탄 테러를 당한다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "폭파된 아파트 현장에서 머피 박사와 맥도날드가 조사에 나서고, 피해자가 금발 여성임을 확인하며 사건의 긴장감이 고조된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "실종된 여배우, 방송국 인터뷰, 폭탄 테러"
+      },
+      {
+        "key": "주제",
+        "value": "비밀을 폭로하려는 자와 이를 막으려는 테러 간의 대결"
+      }
+    ],
+    "keyEntitiesText": "알 윌러 경위, 레이버스 보안관, 에너벨 잭슨, 제니스 조겐스, 폴라 레이드, 조지아 브라운, 노만 코우츠, 머피 박사, 맥도날드",
+    "settingText": "미국 파인 시의 호텔 및 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JQ1dG6M65kvoG4IMQwX5gRqyXB2gLSDl",
+    "filename": "카터 브라운-금발의 여인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.769Z",
+    "size": "191820",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1JQ1dG6M65kvoG4IMQwX5gRqyXB2gLSDl/view?usp=drivesdk",
+    "sourceSha256": "346b54eb481c2a1dc57783cfbe1eb39e17051e59132e0fbaef317751bac40f20",
+    "textSha256": "1d70a26701399d5128159e823e69e78e2bc2ec281c16d7e13cc4e51feb193057",
+    "changeKey": "5a972c646e2a2d459b01e8a304d6a120",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dcef2069e50528a5810f",
+    "workId": "dcef2069e50528a5810f",
+    "driveFileId": "1JQ1dG6M65kvoG4IMQwX5gRqyXB2gLSDl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:30:24.167037+00:00",
+    "updatedAt": "2026-09-22T02:30:24.167054+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:30:24.167136+00:00"
+    }
+  }
+}
