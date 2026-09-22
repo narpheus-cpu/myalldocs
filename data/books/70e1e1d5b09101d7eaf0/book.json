@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계를 움직인 12인의 천재들",
+    "author": "이원용",
+    "genre": "전기 / 인물사",
+    "tags": [
+      "에밀 졸라",
+      "드레퓌스 사건",
+      "자연주의",
+      "실험 소설",
+      "인도주의"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "문학 비평",
+        "인물 전기"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세계 역사에 큰 족적을 남긴 인물들의 삶과 사상을 대중의 눈높이에 맞춰 소개하는 편저자.",
+    "oneLineSummary": "프랑스의 대문호이자 인도주의 전사인 에밀 졸라의 고난 가득한 청년 시절, 문학적 성공, 그리고 드레퓌스 사건을 통해 보여준 정의로운 투쟁을 다룬다.",
+    "overallSummary": "가난과 굶주림 속에서도 독학으로 학식을 쌓아 자연주의 문학의 대표 주자로 우뚝 선 에밀 졸라의 일대기를 조명한다. 졸라가 주창한 '과학적 자연주의'와 '실험 소설'의 문학 이론을 설명하고, 유대인이라는 이유로 누명을 쓴 드레퓌스 대위를 구하기 위해 자신의 명예와 재산을 걸고 군부의 부정을 고발한 '나는 탄핵한다' 선언의 역사적 의미와 인도주의적 가치를 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "행동하는 지성 졸라: 가난과 독학의 시절",
+        "summary": "대학 입학 실패와 극심한 가난 속에서도 위고와 발자크를 탐독하며 독학으로 문학적 기초를 다진 졸라의 청년기를 서술한다."
+      },
+      {
+        "sectionTitle": "문단에서의 화려한 싸움 & 작가로서 성공하다",
+        "summary": "출판사 서기에서 기자로 발탁되어 자연주의 문학의 중견으로 성장하고, '루공 마카르 총서' 계약을 통해 안정적인 집필 환경을 확보한 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "나는 탄핵한다 & 과학적 자연주의와 실험 소설 제창",
+        "summary": "드레퓌스 사건의 진실을 밝히기 위해 군부를 고발한 투쟁과, 과학적 관찰 및 실험을 소설에 도입한 졸라의 독창적인 문학관을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "졸라의 문학 이론",
+        "value": "유전과 환경의 영향을 시험관 속 물질처럼 과학적으로 해부하는 '실험 소설' 이론"
+      }
+    ],
+    "keyEntitiesText": "에밀 졸라, 드레퓌스, 아나톨 프랑스, 파카르 소령, 프랑스 군부, 영국",
+    "settingText": "반유대주의 감정과 군부의 권력 남용으로 국론이 분열되었던 19세기 후반(1890년대)의 프랑스 제3공화국 사회."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_Vw3chIywp86is6jmYNReztoQJCh0OiD",
+    "filename": "이원용-세계를 움직인 12인의 천재들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.547Z",
+    "size": "412666",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1_Vw3chIywp86is6jmYNReztoQJCh0OiD/view?usp=drivesdk",
+    "sourceSha256": "3a9437f38df53794780e8c37165aa88977a52eda5e5e04388a2a68b925bb84a2",
+    "textSha256": "0e3c0a86888ec4fc0e74e158bc2e83068a60f2df18f0f359a0b783e320899839",
+    "changeKey": "52cf44d92bb7ec5d14a461cb441dfe46",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "70e1e1d5b09101d7eaf0",
+    "workId": "70e1e1d5b09101d7eaf0",
+    "driveFileId": "1_Vw3chIywp86is6jmYNReztoQJCh0OiD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:17:01.480494+00:00",
+    "updatedAt": "2026-09-22T22:17:01.480510+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:17:01.480592+00:00"
+    }
+  }
+}

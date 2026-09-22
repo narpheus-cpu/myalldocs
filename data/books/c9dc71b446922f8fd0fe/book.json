@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사라진 직업의 역사",
+    "author": "이승원",
+    "genre": "역사 / 사회문화사",
+    "tags": [
+      "사라진 직업",
+      "근대 조선",
+      "전화교환수",
+      "변사",
+      "인력거꾼"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "사회문화사",
+        "근대성",
+        "일상사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한양대학교 비교역사문화연구소 HK연구교수이자 근대 전환기 조선인들의 기행문과 일상 자료를 연구해 온 국문학 박사.",
+    "oneLineSummary": "근대 초기 조선에 등장했다가 사라진 직업들의 역사를 통해 근대성의 일상적 풍경과 평범한 사람들의 삶의 흔적을 재조명한다.",
+    "overallSummary": "단발령과 공중위생 개혁 등 개화기 및 식민지 시기 조선의 급격한 사회 변화 속에서 명멸해 간 직업들을 추적한다. 전화교환수, 변사, 기생, 전기수, 유모, 인력거꾼, 여차장, 물장수, 약장수 등의 생성과 소멸 과정을 통해 영화, 도시, 통신, 교통, 위생 등 근대적 일상과 욕망의 배치가 어떻게 형성되었는지 역사적 거울로서 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 & 프롤로그",
+        "summary": "저자의 개인적 이력과 함께 1927년 잡지 '별건곤'에 소개된 진기한 직업들을 통해 직업의 변화가 지닌 근대성적 의미를 설명한다."
+      },
+      {
+        "sectionTitle": "소리의 네트워커, 전화교환수",
+        "summary": "의친왕의 로맨스와 우체국 사무원들의 전화 연애 일화를 통해 최첨단 미디어인 전화의 도입과 전화교환수라는 신종 직업의 탄생 및 문화적 충격을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 대상 직업",
+        "value": "전화교환수, 변사, 기생, 전기수, 유모, 인력거꾼, 여차장, 물장수, 약장수"
+      }
+    ],
+    "keyEntitiesText": "이승원, 의친왕, 홍정순, 박대양, 민영환, 창덕궁, 별건곤",
+    "settingText": "19세기 말 개항기부터 일제강점기(1920~30년대)에 이르는 근대 전환기 조선의 도시와 일상 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wbWt5rThx1zN4Q8OH7Y8geTub9hhG8Sh",
+    "filename": "이승원-사라진 직업의 역사(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T22:58:34.000Z",
+    "size": "484988",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1wbWt5rThx1zN4Q8OH7Y8geTub9hhG8Sh/view?usp=drivesdk",
+    "sourceSha256": "44ded09256e0aceab883683d3ca83888047711cd6bc86cd428617366e567b8f0",
+    "textSha256": "c5a99abe03767f09e2327e88839d14977feb3e0b31fcbc31af98e357c9a57581",
+    "changeKey": "62d05eb7b67c11c2ff47fe60b7bc6aa1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c9dc71b446922f8fd0fe",
+    "workId": "c9dc71b446922f8fd0fe",
+    "driveFileId": "1wbWt5rThx1zN4Q8OH7Y8geTub9hhG8Sh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:16:06.294574+00:00",
+    "updatedAt": "2026-09-22T22:16:06.294591+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:16:06.294668+00:00"
+    }
+  }
+}
