@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불과 피 1",
+    "author": "조지 R. R. 마틴",
+    "genre": "판타지",
+    "tags": [
+      "불과 피",
+      "타르가르옌",
+      "아에곤의 정복",
+      "웨스테로스"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "epic_fantasy",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세계적인 베스트셀러 '얼음과 불의 노래' 시리즈의 작가.",
+    "oneLineSummary": "타르가르옌 가문의 아에곤이 드래곤들을 이끌고 웨스테로스 정복을 시작한다.",
+    "overallSummary": "발리리아의 파멸에서 살아남은 타르가르옌 가문이 드래곤스톤을 거쳐 웨스테로스 대륙 정복에 나서고, 아에곤과 누이들이 일곱 왕국을 상대로 전쟁을 벌이며 왕국을 통일해 가는 역사를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아에곤의 정복",
+        "summary": "타르가르옌 가문의 아에곤이 드래곤들을 이끌고 웨스테로스에 상륙하여 정복 전쟁을 일으키고 왕국을 통일해 가는 과정"
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "format",
+        "value": "가상의 역사를 실제 역사서처럼 기록한 연대기적 서술 방식"
+      }
+    ],
+    "keyEntitiesText": "아에곤 타르가르옌, 비세니아, 라에니스, 오리스 바라테온, 발레리온, 아르길락, 검은 하렌",
+    "settingText": "드래곤스톤, 킹스랜딩, 하렌홀, 스톰스엔드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "116AD5UFdUXkcXAlvo9jojpf32BTVxXog",
+    "filename": "이상문-불멸과 소멸 1 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.143Z",
+    "size": "534157",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/116AD5UFdUXkcXAlvo9jojpf32BTVxXog/view?usp=drivesdk",
+    "sourceSha256": "b170c6d48fd0cf1cd89faf106b2f4cd639507229d4b41724341f1508e369e8fa",
+    "textSha256": "b97968cd17930805dd495e339ccbdc18f6d6fbdfd1d741a8ae6b1a2a61152799",
+    "changeKey": "541015bae7330f1c40fda3f1504ceed9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e0d912098d7006700de2",
+    "workId": "e0d912098d7006700de2",
+    "driveFileId": "116AD5UFdUXkcXAlvo9jojpf32BTVxXog",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:33:00.783005+00:00",
+    "updatedAt": "2026-09-22T14:33:00.783022+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3785,
+      "updatedAt": "2026-09-22T14:33:00.783129+00:00"
+    }
+  }
+}

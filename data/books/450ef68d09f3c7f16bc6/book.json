@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "얼음과 불의 노래 제4부 까마귀의 향연",
+    "author": "조지 R.R. 마틴",
+    "genre": "판타지",
+    "tags": [
+      "까마귀의 향연",
+      "페이트",
+      "올드타운",
+      "연금술사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "epic_fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "방대한 세계관과 뛰어난 필력을 지닌 판타지 작가.",
+    "oneLineSummary": "올드타운의 수련생 페이트가 여관에서 친구들과 드래곤에 대한 이야기를 나눈다.",
+    "overallSummary": "올드타운의 여관 '깃과 잔'에서 페이트는 수련생 친구들과 함께 세상 너머의 드래곤 부활 소식과 전설에 대해 토론하며, 연금술사와의 만남을 떠올린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "올드타운의 수련생 페이트가 여관에서 친구들과 드래곤에 대해 토론하며 연금술사를 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "setting",
+        "value": "전쟁의 직접적인 영향에서 벗어난 학문의 도시 올드타운"
+      }
+    ],
+    "keyEntitiesText": "페이트, 몰랜더, 알레라스, 아르멘, 룬, 레오",
+    "settingText": "올드타운, 깃과 잔 여관"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UbTjIDEEnWATjCG5zmz2tj03uwHqWqEU",
+    "filename": "조지.R.R.마틴-얼음과 불의 노래 - 제4부 까마귀의 향연(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:55.237Z",
+    "size": "1779865",
+    "folderPath": [
+      "books",
+      "07 외국 판타지",
+      "조지.R.R.마틴-얼음과 불의 노래",
+      "ocr"
+    ],
+    "relativePath": "books/07 외국 판타지/조지.R.R.마틴-얼음과 불의 노래/ocr",
+    "webViewLink": "https://drive.google.com/file/d/1UbTjIDEEnWATjCG5zmz2tj03uwHqWqEU/view?usp=drivesdk",
+    "sourceSha256": "39e2a4b41f36d11ba33995cea425d91819b02235764261f87f6759c5280168ed",
+    "textSha256": "cfbb8fb22bfc3d8b1457bdc1c2775f98292c33e179f71036d1b1535f62ef6fdb",
+    "changeKey": "5e58b9c964ed4777964df277ed0f7fa6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "450ef68d09f3c7f16bc6",
+    "workId": "450ef68d09f3c7f16bc6",
+    "driveFileId": "1UbTjIDEEnWATjCG5zmz2tj03uwHqWqEU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:31:22.635920+00:00",
+    "updatedAt": "2026-09-22T14:31:22.635937+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:31:22.636055+00:00"
+    }
+  }
+}
