@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "폴 오스터의 뉴욕 통신",
+    "author": "폴 오스터",
+    "genre": "에세이/평론",
+    "tags": [
+      "에세이",
+      "예술",
+      "문학평론",
+      "작가",
+      "카프카"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문학비평",
+        "예술론"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시인, 소설가, 에세이스트로 폭넓은 문학적 성취를 이룬 작가.",
+    "oneLineSummary": "굶주림과 결핍의 미학, 그리고 문학적 거장들의 세계를 탐구한 깊이 있는 에세이와 평론 모음.",
+    "overallSummary": "크누트 함순의 『굶주림』과 프란츠 카프카의 단식 예술가 등을 통해 문학과 신체의 관계, 예술가의 고독과 타락을 예리하게 분석한다. 문학의 본질과 창작의 고통에 대한 폴 오스터의 철학적 사유를 엿볼 수 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "굶주림의 예술",
+        "summary": "크누트 함순의 소설 『굶주림』을 분석하며, 결핍과 물리적 극한이 예술 창작과 인간 의식에 미치는 영향을 고찰한 에세이."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비평적 시각",
+        "value": "예술을 단순한 표현이 아닌 작가의 생활과 신체가 하나로 치환되는 결핍과 욕망의 과정으로 파악함."
+      }
+    ],
+    "keyEntitiesText": "폴 오스터, 크누트 함순, 프란츠 카프카, 새뮤얼 베케트",
+    "settingText": "문학적 사유의 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FfdYIty90xJiJ1fKkPkzvvkLNWjElhJs",
+    "filename": "폴 오스터의 뉴욕 통신(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T09:33:26.000Z",
+    "size": "658342",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1FfdYIty90xJiJ1fKkPkzvvkLNWjElhJs/view?usp=drivesdk",
+    "sourceSha256": "656a404cf56f7ef238ff32751bf8beaa442b898ec103d90c17c537f1075037be",
+    "textSha256": "9c16d8d5e63c728fa792d32f6e3e2868b2ba8e49ef34d1c48dacc1e52a1f8c3d",
+    "changeKey": "6a5380096860a21a456542d816372e67",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bbc1c828f2e906e32976",
+    "workId": "bbc1c828f2e906e32976",
+    "driveFileId": "1FfdYIty90xJiJ1fKkPkzvvkLNWjElhJs",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:29:26.392615+00:00",
+    "updatedAt": "2026-09-22T03:29:26.392632+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:29:26.392737+00:00"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "앵무새 죽이기",
+    "author": "하퍼 리",
+    "genre": "장편소설",
+    "tags": [
+      "인종차별",
+      "정의",
+      "소외",
+      "성장소설",
+      "퓰리처상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성장소설",
+        "법정소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이 한 권의 소설로 퓰리처상을 수상하며 세계적인 명성을 얻은 미국의 작가.",
+    "oneLineSummary": "1930년대 미국 남부 마을에서 인종적 편견과 부당한 소외에 맞서는 변호사 아버지와 순수한 아이들의 성장 기록.",
+    "overallSummary": "미국 남부 앨라배마 주의 작은 마을 메이컴. 변호사인 아버지 애티커스의 양육 아래 자라는 당찬 소녀 스카웃과 오빠 젬의 눈을 통해, 백인 여성 폭행 누명을 쓴 흑인 청년 톰 로빈슨의 재판과 은둔자 부 래들리에 대한 편견을 극복해 가는 과정을 그린다. 해를 끼치지 않는 '앵무새'를 죽여서는 안 된다는 교훈을 통해 참된 양심과 인간애를 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 메이컴의 수수께끼",
+        "summary": "주인공 스카웃이 젬 오빠의 팔 부상 사건을 회상하며, 자신들의 가문 배경과 나른하고 평화로웠던 메이컴 마을의 풍경, 그리고 신비로운 이웃 래들리 집안의 이야기를 풀어놓는 도입부."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징성",
+        "value": "'앵무새(머킹버드)'는 세상의 무관심과 편견 속에서 해를 끼치지 않고 순수하게 살아가는 소외된 이웃의 기쁨과 양심을 상징함."
+      }
+    ],
+    "keyEntitiesText": "스카웃(진 루이스 핀치), 젬 핀치, 애티커스 핀치, 칼퍼니아, 딜(찰스 베이커 해리스), 부 래들리",
+    "settingText": "1930년대 미국 남부 앨라배마주 메이컴 마을."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rME6LAxvwXS-ODnvdAQMiqOdVqOnE0gg",
+    "filename": "하퍼 리-앵무새 죽이기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.608Z",
+    "size": "729467",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1rME6LAxvwXS-ODnvdAQMiqOdVqOnE0gg/view?usp=drivesdk",
+    "sourceSha256": "ba51da12692bf32d59f7b0d9b0d910ed5d86a1650b2185fd8bd152f2cb5ab12d",
+    "textSha256": "916ecd35422161c355f778a6e31ea9a8db07f591c8f37c796cf96f6368947e52",
+    "changeKey": "e90925fe14c57723b00d426348888a5d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b70070bf0f94a18d127a",
+    "workId": "b70070bf0f94a18d127a",
+    "driveFileId": "1rME6LAxvwXS-ODnvdAQMiqOdVqOnE0gg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:30:33.099066+00:00",
+    "updatedAt": "2026-09-22T03:30:33.099080+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:30:33.099171+00:00"
+    }
+  }
+}

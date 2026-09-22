@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한밤중 톰의 정원에서",
+    "author": "필라스 피어스",
+    "genre": "아동 판타지 소설",
+    "tags": [
+      "시간여행",
+      "정원",
+      "판타지",
+      "여름방학",
+      "고전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "어린이 문학의 고전으로 꼽히는 아름답고 환상적인 세계를 창조한 영국의 작가.",
+    "oneLineSummary": "홍역을 피해 이모네 집으로 보내진 소년 톰이 한밤중에 시계가 열세 시를 칠 때 마법 같은 정원으로 시간 여행을 떠나는 이야기.",
+    "overallSummary": "동생 피터가 홍역에 걸려 이모네 다세대 주택으로 방학을 보내러 가게 된 톰. 뜰도 없는 답답한 집에서 불면증에 시달리던 그는 어느 밤 괘종시계가 '열세 시'를 치는 기이한 소리를 듣고 뒷문으로 나가 숨겨진 아름다운 정원을 발견한다. 그곳에서 과거의 소녀 해시를 만나며 시간과 존재의 신비를 겪게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 피신 ~ 3. 달빛 따라",
+        "summary": "동생의 홍역 때문에 이모네 삭살한 다세대 주택으로 쫓기듯 오게 된 톰이 답답한 밤을 보내다 시계가 열세 시를 치는 소리를 듣고 비밀스러운 뒷문으로 탈출하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "환상 문학적 요소",
+        "value": "현실과 과거의 시간이 시계의 종소리를 매개로 교차하며 유년기의 고독과 시간의 본질을 아름답게 동화적으로 그려냄."
+      }
+    ],
+    "keyEntitiesText": "톰 롱, 피터, 앨런 이모부, 그웬 이모, 바돌로메 할머니",
+    "settingText": "영국 캐슬포드의 오래된 다세대 주택과 시간의 경계에 놓인 비밀스러운 정원."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17r_M_ufU9ja7SMETDoR83BjKM8paQHaQ",
+    "filename": "필라스 피어스-한밤중 톰의 정원에서.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.589Z",
+    "size": "252859",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/17r_M_ufU9ja7SMETDoR83BjKM8paQHaQ/view?usp=drivesdk",
+    "sourceSha256": "a42f83cd2df33fdd6e784025388411a56e3af8b9a98f7b75f1decccc1c25ed8c",
+    "textSha256": "4a92143a362c893e3d80a889a6bedb70a7c24171c41db39e6d9f3ae25a362a4f",
+    "changeKey": "958ddd46e360d1b7542cc856be80c794",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f54711a6bb6b78034921",
+    "workId": "f54711a6bb6b78034921",
+    "driveFileId": "17r_M_ufU9ja7SMETDoR83BjKM8paQHaQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:30:26.904568+00:00",
+    "updatedAt": "2026-09-22T03:30:26.904585+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:30:26.904680+00:00"
+    }
+  }
+}

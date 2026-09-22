@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "타자기를 치켜세움",
+    "author": "폴 오스터",
+    "genre": "에세이",
+    "tags": [
+      "타자기",
+      "예술가",
+      "회고",
+      "에세이",
+      "물건"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "회고록",
+        "예술"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도회적 감수성과 우연의 미학을 담은 독창적인 문학 세계를 구축한 세계적인 작가이자 에세이스트.",
+    "oneLineSummary": "오랫동안 함께해온 낡은 타자기와 그 물체에 얽힌 기억을 화가 샘 메서의 그림과 함께 담아낸 에세이.",
+    "overallSummary": "작가 폴 오스터가 30년 가까이 사용해 온 올림피아 포터블 타자기에 대한 애정과 회고를 담은 산문이다. 화가 샘 메서가 그려낸 타자기 그림들과 함께, 디지털 시대에 아날로그적 도구가 지니는 의미와 물건에 깃든 시간의 무게를 잔잔하게 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "타자기와의 만남",
+        "summary": "파산 상태였던 시절 친구에게서 30달러를 주고 구입한 올림피아 타자기와의 첫 만남과 그 기계와 함께 보낸 반평생에 대한 회고."
+      },
+      {
+        "sectionTitle": "샘 메서의 그림",
+        "summary": "화가 샘 메서가 폴 오스터의 집에 찾아와 타자기를 관찰하고 그림과 스케치, 사진을 통해 생명 없는 물체에 개성을 부여하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재의 상징성",
+        "value": "단순한 기계를 넘어 작가의 과거와 미래를 함께하는 유일한 동반자이자 20세기 호모 스크립토루스의 유물로 묘사됨."
+      }
+    ],
+    "keyEntitiesText": "폴 오스터, 샘 메서, 올림피아 포터블 타자기",
+    "settingText": "미국 뉴욕, 브루클린, 코네티컷 등 작가가 거주하며 집필했던 공간들."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RlzmW-bpcbSil83L3c2uTAVHr-eJH1cQ",
+    "filename": "폴 오스터-타자기를 치켜세움(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T09:34:06.000Z",
+    "size": "21363",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1RlzmW-bpcbSil83L3c2uTAVHr-eJH1cQ/view?usp=drivesdk",
+    "sourceSha256": "d904f11ef04cbc11f30e728ce32c45d69697a4f4ac11213828f9d59a52145ab2",
+    "textSha256": "f6c8f49768c1c1b87fc5e167c122cfb6ce75375320ff5c362087acab8b5a1809",
+    "changeKey": "f067fd0066828a15dada60b307454819",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3a0cb9871745aebc4d24",
+    "workId": "3a0cb9871745aebc4d24",
+    "driveFileId": "1RlzmW-bpcbSil83L3c2uTAVHr-eJH1cQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:28:35.417882+00:00",
+    "updatedAt": "2026-09-22T03:28:35.417898+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:28:35.418099+00:00"
+    }
+  }
+}

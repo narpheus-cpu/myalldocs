@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내면보고서",
+    "author": "폴 오스터",
+    "genre": "자전적 회고록",
+    "tags": [
+      "회고록",
+      "유년기",
+      "기억",
+      "성장",
+      "자전적"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "에세이",
+        "회고"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도회적 감수성과 깊은 성찰을 보여주는 미국의 대표 작가.",
+    "oneLineSummary": "유년 시절부터 열두 살까지의 기억과 내면세계를 탐색하는 자전적 회고록.",
+    "overallSummary": "어린 시절 세상을 향해 품었던 애니미즘적 시선과 사물에 대한 경외, 기독교적 공포, 영화와 책을 통한 첫 번째 충격들을 섬세하게 복원해 나간다. 육체적 자아의 경험을 넘어 누구나 공감할 수 있는 인간의 기원을 찾아가는 기록이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "초기의 애니미즘",
+        "summary": "가장 작은 물체조차 생명력을 지니고 있다고 믿었던 어린 시절의 세계관."
+      },
+      {
+        "sectionTitle": "영화와 우주 전쟁",
+        "summary": "여섯 살 무렵 영화관에서 접한 「우주 전쟁」을 통해 받은 충격과 세상의 불공평함에 대한 초기 인식."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 특징",
+        "value": "2인칭 대명사('당신')를 사용하여 독자와 자신의 유년 시절 기억을 친밀하고 객관적으로 탐색함."
+      }
+    ],
+    "keyEntitiesText": "폴 오스터, 프레드 아저씨, 샌더스 박사",
+    "settingText": "20세기 중반의 미국 뉴저지와 교외 지역."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Rmc4OwYiLWD7f_2MvXlz96TO-2cCpaFv",
+    "filename": "폴 오스터-내면보고서(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.287Z",
+    "size": "347995",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "폴 오스터"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/폴 오스터",
+    "webViewLink": "https://drive.google.com/file/d/1Rmc4OwYiLWD7f_2MvXlz96TO-2cCpaFv/view?usp=drivesdk",
+    "sourceSha256": "23970a2912c5ad436f8e89d46576aaf385790bd01c25b179d625aa91320a2d0a",
+    "textSha256": "930a200492068176be516a8e8f5d8c4cada62f0f3c4fbb1ac2a81b7608857c86",
+    "changeKey": "795eeb9a57d12e142e68b4bb991f0352",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9ab8f4635c2556635eab",
+    "workId": "9ab8f4635c2556635eab",
+    "driveFileId": "1Rmc4OwYiLWD7f_2MvXlz96TO-2cCpaFv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:28:47.895880+00:00",
+    "updatedAt": "2026-09-22T03:28:47.895895+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:28:47.895991+00:00"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우연의 음악",
+    "author": "폴 오스터",
+    "genre": "장편소설",
+    "tags": [
+      "우연",
+      "도박",
+      "자유",
+      "부조리",
+      "실존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "철학소설",
+        "서스펜스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독창적인 서사와 철학적 깊이를 지닌 소설로 전 세계 독자의 사랑을 받는 작가.",
+    "oneLineSummary": "뜻밖의 유산을 상속받고 방황하던 한 남자가 도박사를 만나 겪게 되는 부조리하고 서스펜스 넘치는 이야기.",
+    "overallSummary": "소방관이었던 나쉬가 갑작스러운 아버지의 유산으로 거금을 손에 쥐고 미국 전역을 정처 없이 방황하다 젊은 도박사 잭 포지를 만나 벌이는 운명적 사건들을 다룬다. 삶의 통제력을 상실한 인간이 거대한 우연과 부조리한 권력 앞에 직면하는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 - 방황과 유산",
+        "summary": "갑작스러운 아버지의 죽음과 유산 상속, 그리고 딸과의 이별 이후 통제 불능의 질주를 계속하는 나쉬의 내면."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 모티브",
+        "value": "목적 없는 방황과 자유, 그리고 피할 수 없는 우연의 지배력."
+      }
+    ],
+    "keyEntitiesText": "나쉬, 잭 포지, 테레사, 줄리엣",
+    "settingText": "미국 보스턴, 미네소타, 그리고 황량한 서부의 고속도로들."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FXwpsGvxx7sxVY1LOiOzmKjiyG5MSS_h",
+    "filename": "폴 오스터-우연의 음악(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.385Z",
+    "size": "565612",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "폴 오스터"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/폴 오스터",
+    "webViewLink": "https://drive.google.com/file/d/1FXwpsGvxx7sxVY1LOiOzmKjiyG5MSS_h/view?usp=drivesdk",
+    "sourceSha256": "3e029fe95664ced5e7bf4cac85501f5dfff313869fe2407399e1a1ce81a2945c",
+    "textSha256": "a04334e938238addb7be70e4ee64afc175a41438ac9bd6de6c58db153ce85ffa",
+    "changeKey": "0c57e1728c1f0bde55cba127986b8466",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "02879bde43f18dc5b247",
+    "workId": "02879bde43f18dc5b247",
+    "driveFileId": "1FXwpsGvxx7sxVY1LOiOzmKjiyG5MSS_h",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:29:08.621447+00:00",
+    "updatedAt": "2026-09-22T03:29:08.621464+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:29:08.621570+00:00"
+    }
+  }
+}

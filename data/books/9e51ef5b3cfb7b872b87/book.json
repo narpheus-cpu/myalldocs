@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "달의 궁전 (OCR 중복 버전)",
+    "author": "폴 오스터",
+    "genre": "장편소설",
+    "tags": [
+      "성장소설",
+      "우연",
+      "고독",
+      "미국"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "모험",
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "우연의 미학과 탄탄한 서사로 널리 알려진 미국 소설가.",
+    "oneLineSummary": "인간이 달 위를 처음 걸었던 그해 여름, 인생의 극한을 경험한 젊은이의 여정을 그린 소설.",
+    "overallSummary": "고아로 자라 대학 시절을 거쳐 무일푼의 노숙자 신세로 전락하기까지, 마르코 포그가 겪는 극적인 상실과 만남의 기록. 휠체어에 의지한 노인과의 만남과 아버지의 발견 등 삶의 뿌리를 찾아가는 과정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 - 상상적 가구와 삶의 시작",
+        "summary": "1965년 뉴욕으로 온 마르코 포그가 외삼촌이 남긴 1천 권의 책과 상자들로 가구를 대신하며 살아가던 시절의 회고."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "인간의 기억과 정체성을 찾아가는 자전적 어조의 1인칭 소설."
+      }
+    ],
+    "keyEntitiesText": "마르코 포그, 빅터 포그, 에밀리 포그",
+    "settingText": "미국 뉴욕 및 시카고."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kXocc75lO8WRCI0P1SKS3ZF47LsXVV09",
+    "filename": "폴오스터-달의궁전(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.422Z",
+    "size": "865871",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "폴 오스터"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/폴 오스터",
+    "webViewLink": "https://drive.google.com/file/d/1kXocc75lO8WRCI0P1SKS3ZF47LsXVV09/view?usp=drivesdk",
+    "sourceSha256": "81778f202e8912a7f6662e1535dfa60c4901868172f8068e08ed342c0a1d11ab",
+    "textSha256": "4b1b40cb7148a5e5867f30e1ef342cd622cef8065b9f0ba254a7b58e8f614776",
+    "changeKey": "f4d0330d70a76693a43e7c5bb732a2e1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9e51ef5b3cfb7b872b87",
+    "workId": "9e51ef5b3cfb7b872b87",
+    "driveFileId": "1kXocc75lO8WRCI0P1SKS3ZF47LsXVV09",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:29:20.391733+00:00",
+    "updatedAt": "2026-09-22T03:29:20.391749+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7018,
+      "updatedAt": "2026-09-22T03:29:20.391837+00:00"
+    }
+  }
+}

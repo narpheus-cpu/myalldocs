@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세잔느를 찾아서",
+    "author": "피터 메일",
+    "genre": "에세이/여행소설",
+    "tags": [
+      "프로방스",
+      "세잔느",
+      "예술",
+      "미술",
+      "여행"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "여행기",
+        "예술에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스 프로방스의 아름다운 일상을 유머러스하고 매력적인 문체로 그려내는 베스트셀러 작가.",
+    "oneLineSummary": "화가 폴 세잔느의 자취와 사라진 그림을 찾아 프로방스의 햇살 속으로 떠나는 유쾌한 여정.",
+    "overallSummary": "뉴욕의 화려한 사교계와 잡지사 편집장 카밀라의 의뢰로, 사진작가 앙드레가 프랑스 남부 프로방스를 누비며 세잔느의 흔적과 행방이 묘연한 그의 그림을 찾아 나서는 이야기. 프로방스의 맛과 멋, 예술가들의 발자취가 유쾌하게 어우러진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 앙드레와 카밀라",
+        "summary": "뉴욕의 세련된 잡지사 사무실에서 화려한 사교계를 주도하는 편집장 카밀라와 사진작가 앙드레의 만남, 그리고 리비에라로의 파견 준비."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "예술적 탐색과 미식, 여행의 즐거움이 결합된 경쾌하고 세련된 논픽션 에세이."
+      }
+    ],
+    "keyEntitiesText": "앙드레 켈리, 카밀라 제임슨 포터, 노엘, 오스팔로프 공주",
+    "settingText": "미국 뉴욕 및 프랑스 남부 프로방스, 리비에라."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cSf-K8n23M0cquImrXhqljeo5tWPY8Uc",
+    "filename": "피터 메일-세잔느를 찾아서.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.545Z",
+    "size": "433523",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1cSf-K8n23M0cquImrXhqljeo5tWPY8Uc/view?usp=drivesdk",
+    "sourceSha256": "89ae8c6f64f1d4eaf177a2ed4aeae4a2a72f2998a073c2f917bba3aed42a7806",
+    "textSha256": "c65c39694c515048e23c670a4079b7581cc1d783e77faece2904cbc12ec859b2",
+    "changeKey": "b66abea074b5cde0302239b5d9f631cb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0964a3802d657b34e199",
+    "workId": "0964a3802d657b34e199",
+    "driveFileId": "1cSf-K8n23M0cquImrXhqljeo5tWPY8Uc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:30:15.132415+00:00",
+    "updatedAt": "2026-09-22T03:30:15.132431+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:30:15.132531+00:00"
+    }
+  }
+}

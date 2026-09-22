@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오르부아르",
+    "author": "피에르 르메트르",
+    "genre": "장편소설",
+    "tags": [
+      "제1차세계대전",
+      "사기극",
+      "공쿠르상",
+      "전후",
+      "프랑스소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사소설",
+        "범죄소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "늦은 나이에 소설을 쓰기 시작해 발표하는 작품마다 문학상을 수상하며 명성을 얻은 프랑스의 거장.",
+    "oneLineSummary": "제1차 세계 대전 직후의 프랑스를 배경으로, 전쟁 상처를 입은 두 젊은이가 벌이는 기상천외한 대사기극.",
+    "overallSummary": "종전을 목전에 둔 참혹한 전선에서 부조리하게 부상을 입은 알베르와 천재적인 재능을 지닌 화가 에두아르. 전쟁이 끝난 후 이 부패하고 비열한 사회에서 버림받은 두 청년이 국가를 상대로 전사자 유골 안장 사업이라는 거대한 사기극을 펼치는 통쾌하고도 씁쓸한 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 - 1918년 11월",
+        "summary": "휴전이 임박했음에도 마지막 공공연한 살육을 감행하려는 장교 프라델과 이에 휘말려 참호 속에서 생매장 위기에 처한 알베르의 절체절명 순간."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소설적 매력",
+        "value": "역사적 비극을 바탕으로 아이러니, 풍자, 서스펜스를 결합하여 전후 사회의 위선을 신랄하게 고발함."
+      }
+    ],
+    "keyEntitiesText": "알베르 마야르, 에두아르 페리쿠르, 도네프라델 중위",
+    "settingText": "1918년 11월 제1차 세계 대전 참호 및 전후의 프랑스 파리."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15KreEcDJFzrX7vFloHwZnqUj7jQPqbS2",
+    "filename": "피에르 르메트르-오르부아르(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T22:30:58.000Z",
+    "size": "1145719",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/15KreEcDJFzrX7vFloHwZnqUj7jQPqbS2/view?usp=drivesdk",
+    "sourceSha256": "cce9d076dea0ea96187278be9c89a1f2311962d76e1a41ac1c0769615efddc64",
+    "textSha256": "d6a67a869cac378e61d1ad0db8e2ddb911f9ee850381f963c423d3a766ea6617",
+    "changeKey": "46fdc67880f2f887af2103d0f91bbee6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d6bac35c6f0448bbd759",
+    "workId": "d6bac35c6f0448bbd759",
+    "driveFileId": "15KreEcDJFzrX7vFloHwZnqUj7jQPqbS2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:29:54.877310+00:00",
+    "updatedAt": "2026-09-22T03:29:54.877326+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:29:54.877438+00:00"
+    }
+  }
+}

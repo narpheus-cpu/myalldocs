@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "콰이강의 다리",
+    "author": "피에르 부울",
+    "genre": "장편소설",
+    "tags": [
+      "제2차세계대전",
+      "포로수용소",
+      "영국군",
+      "일본군",
+      "군인정신"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "전쟁소설",
+        "심리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간 심리의 모순과 아이러니를 지적인 서사로 풀어내는 프랑스의 소설가.",
+    "oneLineSummary": "제2차 세계 대전 중 버마의 포로수용소를 배경으로 영국군 대령과 일본군 사령관이 벌이는 집념과 대립.",
+    "overallSummary": "버마와 태국을 잇는 철도 건설을 위해 콰이강 수용소에 수용된 연합군 포로들과 일본군 사이의 갈등을 그린다. 형식과 규율, 명예에 집착하는 영국군 니콜슨 대령이 역설적으로 적의 철도 건설을 도맡아 완벽한 다리를 건설하려 하는 집념을 통해 군인 정신과 속물성의 경계를 예리하게 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 - 항복과 수용소의 갈등",
+        "summary": "싱가포르 함락 후 항복한 니콜슨 대령이 엄격한 군인 규율과 자존심을 내세우며 일본군 사령관 사이또 대좌와 충돌하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "동서양의 문화적 차이 이면에 도사린 인간의 허영, 의무감, 그리고 광기 어린 집착의 아이러니."
+      }
+    ],
+    "keyEntitiesText": "니콜슨 대령, 사이또 대좌, 클립튼 군의관, 야마시다 장군",
+    "settingText": "제2차 세계 대전 당시 버마와 태국의 정글 속 콰이강 수용소."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wR3bGvKBpV-T930b7iiNc493F0hX9D_1",
+    "filename": "피에르 부울-콰이강의 다리.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.510Z",
+    "size": "256711",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1wR3bGvKBpV-T930b7iiNc493F0hX9D_1/view?usp=drivesdk",
+    "sourceSha256": "752fb7bcc4582518ff52d4d951c13e3ef06332101d80f73024c02159b38284f4",
+    "textSha256": "c328f0b9817f04771de0d896de9dc7b4112a006524af87ef6e8313e12127458b",
+    "changeKey": "9e2927321f453f4b7127c8fee029b6d2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bc5451b39ce6edf24dbc",
+    "workId": "bc5451b39ce6edf24dbc",
+    "driveFileId": "1wR3bGvKBpV-T930b7iiNc493F0hX9D_1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:30:00.822638+00:00",
+    "updatedAt": "2026-09-22T03:30:00.822654+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:30:00.822748+00:00"
+    }
+  }
+}

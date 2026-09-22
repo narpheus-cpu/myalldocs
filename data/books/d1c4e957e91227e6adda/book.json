@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뉴욕 3부작",
+    "author": "폴 오스터",
+    "genre": "추리소설/연작소설",
+    "tags": [
+      "뉴욕",
+      "탐정",
+      "정체성",
+      "실존주의",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "미스터리",
+        "철학소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사실주의와 신비주의를 결합하여 독창적인 문학 세계를 구축한 미국 작가.",
+    "oneLineSummary": "추리 소설의 형식을 차용하여 정체성과 고독의 문제를 파고드는 기묘하고 매혹적인 연작 소설.",
+    "overallSummary": "잘못 걸려 온 한 통의 전화로 시작되는 첫 번째 이야기 「유리의 도시」를 중심으로, 감시하는 자와 감시당하는 자의 심리적 도치와 자아의 분열을 그린다. 작가는 전통적인 추리 소설의 관습을 파괴하며 인간 존재의 실존적 미스터리를 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "유리의 도시 - 잘못 걸려 온 전화",
+        "summary": "추리소설 작가인 퀸에게 폴 오스터라는 탐정을 찾는 의문의 전화가 걸려오고, 그는 호기심에 그 역할을 수락하며 기묘한 사건에 휘말린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식적 특징",
+        "value": "탐정 소설의 외관을 띠면서도 범인의 색출보다 자아의 상실과 정체성 탐색에 초점을 맞춤."
+      }
+    ],
+    "keyEntitiesText": "퀸, 윌리엄 윌슨, 맥스 워크, 폴 오스터",
+    "settingText": "미국 뉴욕의 복잡한 미로와 같은 도시 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1c4wSQCMUwwIu-yXFXGD-qYVQqkWAnf7w",
+    "filename": "폴 오스터-뉴욕 3부작.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.306Z",
+    "size": "869341",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "폴 오스터"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/폴 오스터",
+    "webViewLink": "https://drive.google.com/file/d/1c4wSQCMUwwIu-yXFXGD-qYVQqkWAnf7w/view?usp=drivesdk",
+    "sourceSha256": "83a25fd8b08ac9a71b26d6735dbf92d0e568649ac613b3b840809abe40e4ebb7",
+    "textSha256": "6675a3875011526341dfd89e8e0d3cb09d569ce286a9c989cc077d05ac332955",
+    "changeKey": "2facc7b2d8d9d3bc2790c43e502fa1b4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d1c4e957e91227e6adda",
+    "workId": "d1c4e957e91227e6adda",
+    "driveFileId": "1c4wSQCMUwwIu-yXFXGD-qYVQqkWAnf7w",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:28:55.104127+00:00",
+    "updatedAt": "2026-09-22T03:28:55.104142+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:28:55.104292+00:00"
+    }
+  }
+}
