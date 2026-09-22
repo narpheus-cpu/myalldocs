@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-한비자",
+    "author": "윤찬원",
+    "genre": "동양철학",
+    "tags": [
+      "한비자",
+      "법치주의",
+      "중국 고대사",
+      "종법 질서",
+      "살림지식총서"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "정치철학",
+        "동양사상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1954년 전북 남원 출생. 서울대학교에서 중국철학으로 학부와 석사, 박사를 졸업했다. 1987년부터 인천대학교에 재직 중이다.",
+    "oneLineSummary": "중국 고대 법가 사상가 한비자의 법치주의 정신을 현대적 관점에서 재조명하고 법의 공평성을 고찰한다.",
+    "overallSummary": "한국 현대사의 파행적 법 운용에 대한 반성에서 출발하여 한비자의 법사상을 탐구한다. 중국 고대 은·주 시대의 종법 질서와 '예와 형'의 이중 구도, 춘추전국시대의 사회적 변화에 따른 성문법의 탄생 과정을 짚어보고, 한비자가 종합한 객관적이고 비인격적인 법치주의의 정착을 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가며",
+        "summary": "한국 현대사(박정희, 전두환 정권)의 군사문화적 법 운용을 비판하고, 한비자의 법치주의와 마키아벨리즘의 차이, 그리고 진시황과 유방의 역사적 사례를 통해 법의 진정한 의미를 고찰한다."
+      },
+      {
+        "sectionTitle": "중국 법의 출발점과 사회·문화적 분위기",
+        "summary": "천명 질서와 종법 질서, '예'와 '형벌'의 이중 구도를 설명하고, 서주의 몰락과 춘추전국시대의 도래로 인해 '예'에서 '법'으로 이행하는 사회적 배경을 다룬다."
+      },
+      {
+        "sectionTitle": "중국식 법의 정착",
+        "summary": "기원전 6세기 자산의 형서 제정 등 성문법의 탄생과 이에 대한 전통주의자들의 논쟁, 그리고 한비자가 정의한 공시된 법률로서의 '법'의 정착 과정을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "법가와 마키아벨리즘의 비교",
+        "value": "마키아벨리가 정치술(Political Art)에 치중한 반면, 한비자는 법이라는 객관적이고 비인격적인 제도와 공평한 법 적용을 강조함"
+      }
+    ],
+    "keyEntitiesText": "한비자, 진시황, 유방, 사마천, 자산, 숙향, 등석, 공자, 포사, 주나라, 진나라",
+    "settingText": "중국 고대 주나라의 종법 사회 및 춘추전국시대의 급격한 사회 변동기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xKhtf9GyRMsah5-dAk385Ds-pJyu9oym",
+    "filename": "살림지식총서-한비자(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:29:28.000Z",
+    "size": "146524",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1xKhtf9GyRMsah5-dAk385Ds-pJyu9oym/view?usp=drivesdk",
+    "sourceSha256": "f44cf6d3fe02b1c77d1a8790259c4b6d72cf9e0c8dc09cb34ad571fbe7c99f45",
+    "textSha256": "e97f5cfdc175f1bff9224750c6b950953db2e8a94fb8e2cdefc717ec3f85ce07",
+    "changeKey": "83ead0ce176070f561f5b438915911a1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6c113217999b139103ab",
+    "workId": "6c113217999b139103ab",
+    "driveFileId": "1xKhtf9GyRMsah5-dAk385Ds-pJyu9oym",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:17:17.451343+00:00",
+    "updatedAt": "2026-09-22T20:17:17.451361+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:17:17.451460+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-프란츠 카프카",
+    "author": "편영수",
+    "genre": "전기/문학비평",
+    "tags": [
+      "프란츠 카프카",
+      "실존주의",
+      "문학비평",
+      "프라하",
+      "살림지식총서"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "문학가 평전",
+        "문학 비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현재 전주대학교 교수로 재직중이다. 서울대학교 독어독문학과를 졸업하고 같은 학교에서 문학박사 학위를 받았다. 저서로는 『카프카 문학의 이해』 등이 있음.",
+    "oneLineSummary": "프란츠 카프카의 삶과 가계, 그리고 그의 난해하고 독창적인 문학 세계를 깊이 있게 조명한다.",
+    "overallSummary": "카프카의 아웃사이더적 존재 방식과 글쓰기에 대한 집착을 다룬다. 그의 문학이 지닌 난해함의 원인인 '미끄러지는 역설'과 꿈의 기법, 동물의 상징성을 분석하고, 그의 가계와 유년 시절의 '발코니 체험'을 통해 형성된 아버지 헤르만 카프카와의 갈등 및 권력 관계를 고찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "카프카와 문학",
+        "summary": "카프카의 아웃사이더적 삶과 문학에 대한 헌신, 그의 문학이 지닌 예언자적 임무와 진실 추구, 그리고 난해한 문학 구조와 꿈의 기법, 동물의 등장을 설명한다."
+      },
+      {
+        "sectionTitle": "고독한 원의 고독한 중심",
+        "summary": "카프카의 부계와 모계(뢰비 가문)의 가계 배경, 유년 시절 부모의 부재 속에서 겪은 외로움, 그리고 아버지 헤르만 카프카의 독선과 '발코니 체험'이 카프카에게 미친 심리적 영향을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "카프카 문학의 해석사",
+        "value": "브로트의 종교적 해석, 카이저의 심리학적(오이디푸스 콤플렉스) 해석, 실존주의적 해석, 사회학적 해석 등 시대별 다양한 관점의 변천"
+      }
+    ],
+    "keyEntitiesText": "프란츠 카프카, 헤르만 카프카, 율리 뢰비, 알프레드 뢰비, 지크프리트, 막스 브로트, 프라하",
+    "settingText": "19세기 말에서 20세기 초, 오스트리아-헝가리 제국 치하의 프라하와 유대인 사회적 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yq6eT1BcueZC1H6RuBW72tEtpLH4YZNy",
+    "filename": "살림지식총서-프란츠 카프카(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:26:40.000Z",
+    "size": "148569",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1yq6eT1BcueZC1H6RuBW72tEtpLH4YZNy/view?usp=drivesdk",
+    "sourceSha256": "a348766c9176c1b50e09c74862f99d6d41308e6f6154e4dad78432379d458cfd",
+    "textSha256": "ea3bb486ede29e21d9b1a90d35c908b0db84276a4464c3e38414f98516663e92",
+    "changeKey": "2eb218bc1a9b0a6d064e6ea57cb8ca63",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "88bb016c5b62affe362a",
+    "workId": "88bb016c5b62affe362a",
+    "driveFileId": "1yq6eT1BcueZC1H6RuBW72tEtpLH4YZNy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:16:17.469452+00:00",
+    "updatedAt": "2026-09-22T20:16:17.469471+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:16:17.469574+00:00"
+    }
+  }
+}

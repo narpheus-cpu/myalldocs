@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-플라톤의 교육",
+    "author": "장영란",
+    "genre": "철학",
+    "tags": [
+      "플라톤",
+      "동굴의 비유",
+      "교육론",
+      "이데아",
+      "살림지식총서"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "교육철학",
+        "그리스 철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현 한국외국어대학교 철학과 강사. 한국외국어대학교에서 그리스철학으로 박사학위를 받았고, 철학과 신화, 문화와 관련된 활발한 저술 활동을 하고 있다.",
+    "oneLineSummary": "플라톤의 '동굴의 비유'와 '티마이오스'의 우주론을 바탕으로 그의 철학적 교육관과 영혼의 변화 과정을 설명한다.",
+    "overallSummary": "플라톤이 제시한 교육의 본질을 탐구한다. '국가'에 등장하는 동굴의 비유 5단계를 통해 무지로부터 진리(좋음의 이데아)로 나아가는 교육의 단계를 분석하고, '티마이오스'의 우주 창조 신화를 통해 이성이 필연을 설득하는 조화로운 세계관과 인간 영혼의 본성을 고찰하여 진정한 교육의 목적을 밝힌다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "플라톤의 동굴의 비유와 교육론",
+        "summary": "앎에 대한 인간의 욕구와 대화의 중요성을 짚어보고, 플라톤 교육론의 핵심인 '동굴의 비유' 5단계(어둠, 수인, 전향, 태양, 귀환)를 개관한다."
+      },
+      {
+        "sectionTitle": "세계와 교육목적",
+        "summary": "『티마이오스』에 나타난 데미우르고스의 세계 창조 과정, 세계 영혼의 설정, 이성과 필연의 협동, 시간과 공간의 개념을 통해 플라톤의 이원적 세계관과 교육의 궁극적 목적을 설명한다."
+      },
+      {
+        "sectionTitle": "인간과 교육원리",
+        "summary": "인간 영혼의 본성과 이성이 기개와 욕망을 통제하여 조화를 이루는 자아 지배의 원리를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "동굴의 비유 5단계",
+        "value": "1. 동굴 안의 어둠(무지), 2. 동굴 안의 수인(편견), 3. 전향(인식의 전환), 4. 동굴 밖의 태양(좋음의 이데아 인식), 5. 동굴 안으로의 귀환(실천적 지혜)"
+      }
+    ],
+    "keyEntitiesText": "플라톤, 소크라테스, 아리스토텔레스, 데미우르고스, 좋음의 이데아, 세계 영혼, 티마이오스, 국가",
+    "settingText": "고대 그리스 아테네의 철학적·사회적 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uptlAnMMTfvvFsAIDE65tEJ5uuQfTjxf",
+    "filename": "살림지식총서-플라톤의 교육(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:28:00.000Z",
+    "size": "149336",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1uptlAnMMTfvvFsAIDE65tEJ5uuQfTjxf/view?usp=drivesdk",
+    "sourceSha256": "5f3f6b40e4a8c6af2851f61937d592bdb60ec6653cc616e061fc0a828deed1bd",
+    "textSha256": "04e29bdd3df0b23843fe87ca0e04b17b32c89045570abd13c53b420b7e2b69ff",
+    "changeKey": "5d30ec3da345b60aab24e27bd2da5b50",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b0a2fad9c22c70e1c112",
+    "workId": "b0a2fad9c22c70e1c112",
+    "driveFileId": "1uptlAnMMTfvvFsAIDE65tEJ5uuQfTjxf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:17:10.826836+00:00",
+    "updatedAt": "2026-09-22T20:17:10.826854+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:17:10.826954+00:00"
+    }
+  }
+}

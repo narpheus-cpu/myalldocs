@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서영채-인문학 개념 정원",
+    "author": "서영채",
+    "genre": "인문학",
+    "tags": [
+      "인문학",
+      "언어학적 전회",
+      "은유와 환유",
+      "기호학",
+      "정신분석학"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "인문학 교양",
+        "철학/문학 이론"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "언어학, 정신분석학, 철학 등 인문학의 핵심 개념들을 원전의 맥락과 함께 쉽고 매력적으로 풀어낸 에세이이다.",
+    "overallSummary": "저자가 대학 시절 '장자'의 구절을 오독했던 유머러스한 경험을 시작으로, 인문학의 매력을 소개한다. 20세기 지성사의 '언어학적 전회'를 이끈 소쉬르, 야콥슨, 퍼스의 언어 및 기호 이론을 다루며, 은유와 환유의 개념쌍, 언어의 여섯 가지 기능, 화용론, 그리고 기호의 세 가지 종류(도상, 지표, 상징)를 명쾌하게 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책머리에",
+        "summary": "장자의 '양생주' 구절에 얽힌 오독의 유머와 배움에 대한 열정, 그리고 이 책을 집필하게 된 동기와 인문학의 매력을 밝힌다."
+      },
+      {
+        "sectionTitle": "은유와 환유",
+        "summary": "야콥슨의 선택과 결합의 축, 실어증 연구를 바탕으로 구심력의 은유와 원심력의 환유가 지닌 언어적·사유적 특성을 대조하여 설명한다."
+      },
+      {
+        "sectionTitle": "언어의 여섯 가지 기능, 메타언어, 화용론",
+        "summary": "야콥슨이 분류한 언어의 여섯 가지 요소와 기능, 메타언어의 개념, 그리고 기호와 사용자 간의 맥락에 주목하는 화용론적 사고를 다룬다."
+      },
+      {
+        "sectionTitle": "기호의 세 가지 종류",
+        "summary": "퍼스의 기호 분류법에 따라 형태적 유사성의 '도상', 인과 관계의 '지표', 사회적 약속에 의한 '상징'의 특성을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "은유와 환유의 사유 방식",
+        "value": "은유는 중심을 향해 집중하는 구심적 사유(서정시, 낭만주의)를, 환유는 정해진 중심 없이 유동하는 원심적 사유(산문, 사실주의, 탈구조주의)를 대변함"
+      }
+    ],
+    "keyEntitiesText": "서영채, 장자, 소쉬르, 야콥슨, 퍼스, 프로이트, 라캉, 로티, 니체",
+    "settingText": "20세기 중엽 이후의 현대 인문학과 언어학적 전회의 지적 흐름"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15BcIOlRIXBChMhJjTfa9pfY6vKbJ2PQ2",
+    "filename": "서영채-인문학 개념 정원(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:32:46.000Z",
+    "size": "371201",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/15BcIOlRIXBChMhJjTfa9pfY6vKbJ2PQ2/view?usp=drivesdk",
+    "sourceSha256": "03ef6b0b8bcf9c2b99ef03ae63573c671050463acd253b0026724fdbb02cdb4a",
+    "textSha256": "3d252f41f767c9d659b2036c2276f95de83a7e33887245e8f6750a28831a5529",
+    "changeKey": "1a32d1baac2839f22fd5438b1449325b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "60ea59d2c494c14302ce",
+    "workId": "60ea59d2c494c14302ce",
+    "driveFileId": "15BcIOlRIXBChMhJjTfa9pfY6vKbJ2PQ2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:17:56.378563+00:00",
+    "updatedAt": "2026-09-22T20:17:56.378581+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:17:56.378687+00:00"
+    }
+  }
+}
