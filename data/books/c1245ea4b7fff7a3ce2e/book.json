@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "정치사상사",
+    "author": "앨런 라이언",
+    "genre": "정치학/역사",
+    "tags": [
+      "정치사상",
+      "민주주의",
+      "시민권",
+      "자유"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "앨런 라이언은 서양 정치사상 및 정치이론 분야의 세계적인 권위자이자 석학으로, 옥스퍼드 대학교와 프린스턴 대학교 교수를 지냈다.",
+    "oneLineSummary": "헤로도토스부터 현대에 이르는 서양 정치사상의 흐름을 통해 민주주의, 시민권, 자유의 개념을 고찰한다.",
+    "overallSummary": "이 방대한 책은 헤로도토스부터 현대에 이르기까지 서양 정치사상의 흐름을 서술한다. 아테네의 직접민주주의와 로마의 법적·제도적 자유의 차이를 비교하고, 엘리트와 대중의 관계, 근대 국가의 탄생과 산업·기술 혁명이 정치에 미친 영향 등을 깊이 있게 고찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서론 정치를 생각하며",
+        "summary": "아테네와 로마의 시민권 및 자유 개념의 차이, 엘리트 지배와 대중 참여의 긴장 관계, 그리고 산업혁명 이후 기술 발전이 정치 체제에 가져온 변화를 개관한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 비교",
+        "value": "아테네식 직접민주주의(정치적 평등) vs 로마식 법적 자유(시민권)"
+      },
+      {
+        "key": "현대적 난제",
+        "value": "조직화된 이해관계에 맞선 개인의 보호와 엘리트 민주주의"
+      }
+    ],
+    "keyEntitiesText": "앨런 라이언, 헤로도토스, 플라톤, 아리스토텔레스, 마키아벨리, 루소, 토크빌, 콩스탕, 남경태, 이광일",
+    "settingText": "고대 그리스·로마부터 근대 및 현대 서구 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TCilHYAh53xkesIrCQZZ1bpl6QX8L1xf",
+    "filename": "앨런 라이언-정치사상사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:28.622Z",
+    "size": "3053524",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1TCilHYAh53xkesIrCQZZ1bpl6QX8L1xf/view?usp=drivesdk",
+    "sourceSha256": "f66fd099c4a286db624003188aba0e836f97a245199fb1f07fca7fb3b32e54e8",
+    "textSha256": "ecd9437612b2cf78a78836e5e10651fc4dff4ecbaaa8bb8af291da3352831ebc",
+    "changeKey": "d8b2e225fd10b8d51b17ae08f0ada6d8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c1245ea4b7fff7a3ce2e",
+    "workId": "c1245ea4b7fff7a3ce2e",
+    "driveFileId": "1TCilHYAh53xkesIrCQZZ1bpl6QX8L1xf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:14:44.720559+00:00",
+    "updatedAt": "2026-09-22T21:14:44.720574+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:14:44.720678+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시시포스 신화",
+    "author": "알베르 카뮈",
+    "genre": "철학 에세이",
+    "tags": [
+      "실존주의",
+      "부조리",
+      "반항",
+      "시시포스"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알베르 카뮈는 20세기 프랑스의 지성이자 소설가, 극작가로, 부조리와 반항을 철저하게 몸으로 배우며 실존을 고민한 휴머니스트이다.",
+    "oneLineSummary": "인간 실존의 근원적 상황인 부조리를 회피하지 않고 명철한 의식으로 직면하며 반항하는 삶의 태도를 제시한다.",
+    "overallSummary": "이 책은 인간 실존이 처한 기묘한 상황인 '부조리'와 그에 따른 '자살'의 문제를 다룬 철학적 에세이이다. 삶이 살아갈 가치가 있는가라는 질문에서 출발하여, 부조리를 회피하거나 희망으로 기만하지 않고 명철한 의식으로 직면하며 반항하는 삶의 태도를 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "부조리와 자살",
+        "summary": "참으로 진지한 철학적 문제인 자살을 통해 삶의 의미와 부조리의 감정, 그리고 부조리와 자살 사이의 관계를 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "부조리(Absurd), 반항(Rebellion), 자살(Suicide)"
+      },
+      {
+        "key": "상징적 인물",
+        "value": "시시포스"
+      }
+    ],
+    "keyEntitiesText": "알베르 카뮈, 시시포스, 키릴로프, 페레그리노스, 쥘 르키에, 쇼펜하우어, 니체",
+    "settingText": "제2차 세계대전 시기, 현대 실존적 상황"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HOW9ln5ugF8AD-sDmOkQ1ZItQPT420Q3",
+    "filename": "알베르 카뮈-시시포스 신화-부조리에 관한 시론(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T01:51:22.000Z",
+    "size": "370085",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1HOW9ln5ugF8AD-sDmOkQ1ZItQPT420Q3/view?usp=drivesdk",
+    "sourceSha256": "48500b085f7ca496da99084be43dc2e8db8b3fdf50163370a800d397dc01eb2f",
+    "textSha256": "88fa4c54c0246cf31923d66b7f3bb284b1c16494f0ff20c483b95a0e7042ef3e",
+    "changeKey": "30a915e1734d36489cdc1e363a2015a1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "12d904f895a6c635bd0f",
+    "workId": "12d904f895a6c635bd0f",
+    "driveFileId": "1HOW9ln5ugF8AD-sDmOkQ1ZItQPT420Q3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:14:11.934565+00:00",
+    "updatedAt": "2026-09-22T21:14:11.934580+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:14:11.934682+00:00"
+    }
+  }
+}

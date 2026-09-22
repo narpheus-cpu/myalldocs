@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "해적의 역사",
+    "author": "앵거스 컨스텀",
+    "genre": "역사",
+    "tags": [
+      "해적",
+      "바르바리 해적",
+      "버커니어",
+      "해적의 황금시대"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "앵거스 컨스텀은 런던 타워의 무기 큐레이터를 역임했고, 플로리다 주 키웨스트에 있는 멜 피셔 해양박물관의 수석 큐레이터로 활동한 해양사 전문가이다.",
+    "oneLineSummary": "고대부터 현대에 이르는 전 세계 해적의 역사를 다루며, 대중문화 속 낭만화된 이미지 이면의 잔인한 실상을 밝힌다.",
+    "overallSummary": "이 책은 고대 지중해부터 중세, 바르바리 해적, 스페인 대해의 버커니어, 해적의 황금시대, 인도양 및 극동의 해적, 그리고 현대의 해적에 이르기까지 전 세계 해적의 역사를 다룬다. 대중문화 속 낭만화된 해적의 이미지 이면에 숨겨진 잔인한 범죄와 만행, 질병 등 해적들의 실제 삶과 역사를 생생하게 밝힌다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "서인도제도를 중심으로 활동한 해적들의 실상과 그들의 민주적 전통, 그리고 낭만적 영웅 이미지 이면의 잔인한 실태를 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "해적의 황금시대",
+        "value": "1700년대 초반"
+      },
+      {
+        "key": "해적의 실제 삶",
+        "value": "낭만적 영웅이 아닌 배신, 난파, 절망, 질병, 만행으로 가득 찬 비열하고 잔인한 삶"
+      }
+    ],
+    "keyEntitiesText": "앵거스 컨스텀, 데이비드 코딩리, 블랙비어드(에드워드 티치), 바르톨로뮤 로버츠, 캘리코 잭, 메리 리드, 앤 보니, 헨리 모건, 프랜시스 드레이크, 키드 선장",
+    "settingText": "고대부터 현대에 이르는 전 세계 바다 (카리브 해, 지중해, 인도양, 남중국해 등)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OzZjQmDi6sLuV2rI1EshqktG1R3YR8zN",
+    "filename": "앵거스 컨스텀-해적의 역사(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T02:23:16.000Z",
+    "size": "506196",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1OzZjQmDi6sLuV2rI1EshqktG1R3YR8zN/view?usp=drivesdk",
+    "sourceSha256": "511c9960a2d160d5f69e06c539cf3e13631796285e02f1d4c8f9f84e02a79370",
+    "textSha256": "b04eb39006b643f2e0a7e03fa37f9663a41b9dd58ecc07d46a5f87f93f44da63",
+    "changeKey": "ee4a59bde17417dbda5092584a27523e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5a1d6869816aad98715a",
+    "workId": "5a1d6869816aad98715a",
+    "driveFileId": "1OzZjQmDi6sLuV2rI1EshqktG1R3YR8zN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:15:10.212671+00:00",
+    "updatedAt": "2026-09-22T21:15:10.212686+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:15:10.212785+00:00"
+    }
+  }
+}

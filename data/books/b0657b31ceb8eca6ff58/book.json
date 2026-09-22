@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "20세기 그 인물사 (신분의 기록)",
+    "author": "알랭 주베르",
+    "genre": "역사/사진 비평",
+    "tags": [
+      "역사",
+      "사진 조작",
+      "전체주의",
+      "선전"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알랭 주베르는 프랑스 파리를 중심으로 저널리스트, 영화제작사, 사진연구가로 활동하고 있다.",
+    "oneLineSummary": "20세기 역사 속에서 사진이 어떻게 조작되고 변조되어 정치적 선전과 독재 권력 유지에 이용되었는지를 추적한다.",
+    "overallSummary": "이 책은 20세기의 각 시기에 걸쳐 사진이 어떻게 조작되고 변조되어 정치적 효과를 얻었는가를 보여준다. 레닌, 스탈린, 흐루시초프, 모택동, 김일성, 카스트로 등 현대사 주요 인물들의 사진 조작 사례(삭제, 덧칠, 트리밍 등)를 통해 전체주의와 공산주의 국가에서 행해진 정보 왜곡의 실태를 폭로한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서론",
+        "summary": "사진의 현실 재현이라는 환상 이면에 숨겨진 조작과 변조의 역사, 그리고 전체주의 권력의 정보 왜곡 메커니즘을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 기법",
+        "value": "재수정, 덧칠, 삭제, 트리밍, 말소"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "정치적 목적을 위한 사진 정보의 조작과 역사 왜곡"
+      }
+    ],
+    "keyEntitiesText": "알랭 주베르, 레닌, 스탈린, 트로츠키, 카메네프, 모택동, 김일성, 카스트로, 두브체크, 조지 오웰",
+    "settingText": "20세기 전체주의 및 공산주의 국가, 민주주의 국가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lMMoTSohY2rT5wC7hsugkWi7oRRORJat",
+    "filename": "알랭 주베르-20세기 그 인물사(신분의 기록).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:28.511Z",
+    "size": "288152",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1lMMoTSohY2rT5wC7hsugkWi7oRRORJat/view?usp=drivesdk",
+    "sourceSha256": "a7bd4af74985e8d0839daad474f3cd1418001c2448f29ce47812da5a5eb980c8",
+    "textSha256": "d262910cc60d77180b0de7cfc571f9cf243693eb34bc3b20108395c7c9411327",
+    "changeKey": "b038c47d95b0ae2c93a0d91505e7596c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b0657b31ceb8eca6ff58",
+    "workId": "b0657b31ceb8eca6ff58",
+    "driveFileId": "1lMMoTSohY2rT5wC7hsugkWi7oRRORJat",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:13:59.113106+00:00",
+    "updatedAt": "2026-09-22T21:13:59.113157+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:13:59.113264+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "국부론",
+    "author": "애덤 스미스",
+    "genre": "경제학/사회과학",
+    "tags": [
+      "경제학",
+      "분업",
+      "노동 생산력",
+      "자본주의"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애덤 스미스는 스코틀랜드 출신의 도덕철학자이자 경제학자로, 현대 경제학의 아버지로 불린다.",
+    "oneLineSummary": "국가의 부의 성질과 원인을 분석하며, 노동 생산력 향상의 근본 원인으로 분업을 제시한다.",
+    "overallSummary": "이 책은 국가의 부의 성질과 원인을 분석한 경제학의 고전이다. 노동 생산력을 향상시키는 근본 원인으로 '분업(Division of Labor)'을 제시하며, 핀 제조업의 사례를 통해 분업이 가져오는 숙련도 향상, 시간 절약, 기계 발명 등의 효과를 구체적으로 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장 분업에 대하여",
+        "summary": "핀 제조업의 구체적인 사례를 통해 분업이 노동 생산력을 비약적으로 향상시키는 세 가지 요인(숙련도 향상, 시간 절약, 기계 발명)을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "분업(Division of Labor), 노동 생산력, 자본 축적"
+      },
+      {
+        "key": "대표적 사례",
+        "value": "18가지 공정으로 분할된 핀 제조업"
+      }
+    ],
+    "keyEntitiesText": "애덤 스미스",
+    "settingText": "18세기 영국 및 유럽, 자본주의 태동기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TolmN5LA_qE4rrZ2BUDEU_Daa1aVIHCM",
+    "filename": "애덤 스미스-국부론(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T20:39:28.000Z",
+    "size": "3028282",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1TolmN5LA_qE4rrZ2BUDEU_Daa1aVIHCM/view?usp=drivesdk",
+    "sourceSha256": "f503b3c247b206e09bbaec89d34b2ec14cfa8654e674a22c92ef6e01b69f6525",
+    "textSha256": "cff291699a669e938d295780f860fbacd4635c8c6b17e15c50644f38124277ad",
+    "changeKey": "726214d3064d1ec480bd2ca4f74ae6c4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "772fe1bfe0bcbd56e89f",
+    "workId": "772fe1bfe0bcbd56e89f",
+    "driveFileId": "1TolmN5LA_qE4rrZ2BUDEU_Daa1aVIHCM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:14:25.262799+00:00",
+    "updatedAt": "2026-09-22T21:14:25.262813+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:14:25.262917+00:00"
+    }
+  }
+}
