@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "분노의 포도",
+    "author": "존 스타인벡",
+    "genre": "소설",
+    "tags": [
+      "대공황",
+      "오클라호마",
+      "이주",
+      "소작농"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대문호이자 퓰리처상 수상 작가.",
+    "oneLineSummary": "대공황 시기 기계화와 가뭄으로 고향에서 쫓겨나 캘리포니아로 향하는 오클라호마 소작농 가족의 비극적 여정.",
+    "overallSummary": "먼지 폭풍과 불도저에 밀려 터전을 잃은 조우드 일가가 낡은 트럭에 몸을 실고 희망을 찾아 캘리포니아로 이동하며 겪는 인간적 고난과 연대를 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "오클라호마 벌판을 덮친 지독한 가뭄과 먼지 폭풍, 그리고 말라 죽어가는 옥수수밭의 황량한 풍경."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "출소하여 고향으로 향하던 톰 조우드가 길가 식당 앞에서 트럭 운전사를 만나 편승하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 시선",
+        "value": "자본주의와 대공황이 파괴한 농민들의 삶을 사실주의적 시각으로 고발함."
+      }
+    ],
+    "keyEntitiesText": "톰 조우드, 톰 조우드 노인, 트럭 운전사",
+    "settingText": "1930년대 미국 오클라호마 및 고속도로."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dmjGc9WcshxOntHJqoM5w4eFD3VIvgcS",
+    "filename": "존 스타인벡-분노의 포도.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.278Z",
+    "size": "1081348",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1dmjGc9WcshxOntHJqoM5w4eFD3VIvgcS/view?usp=drivesdk",
+    "sourceSha256": "7b0037aed906ab94401c724769ee1eaba760094de342f3016d09cd9f2dc94801",
+    "textSha256": "52bd86da79c8e9bdaa1d9f11b7b1ea7c057a8138f41890a62b457ad5c4528677",
+    "changeKey": "867ea5213bb302f3ba09884cc7181a3e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0ffa749574fdd42cac53",
+    "workId": "0ffa749574fdd42cac53",
+    "driveFileId": "1dmjGc9WcshxOntHJqoM5w4eFD3VIvgcS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:15:48.330896+00:00",
+    "updatedAt": "2026-09-22T02:15:48.330912+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:15:48.331025+00:00"
+    }
+  }
+}

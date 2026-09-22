@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "더 라스트 레터",
+    "author": "조조 모예스",
+    "genre": "소설",
+    "tags": [
+      "런던",
+      "기억상실",
+      "비밀",
+      "로맨스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 유명 소설가.",
+    "oneLineSummary": "교통사고로 기억을 잃은 제니퍼가 우연히 발견한 의문의 연애편지를 통해 과거의 진실을 추적하는 이야기.",
+    "overallSummary": "냉담한 남편과 완벽해 보이는 삶 속에서 기억을 잃은 제니퍼가 발견한 비밀스러운 'B'의 편지들은 그녀의 숨겨진 과거와 사랑을 일깨운다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "6",
+        "summary": "새로운 일과와 남편 로런스의 반응, 그리고 과거의 편지들을 통해 자신의 정체성을 찾아가려는 제니퍼의 여정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 요소",
+        "value": "기억 상실과 은밀한 편지를 통한 내면의 갈등과 진실 탐색."
+      }
+    ],
+    "keyEntitiesText": "제니퍼 스털링, 로런스 스털링, 모이라, B",
+    "settingText": "1960년 12월 런던."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ycm_ncax30ZCsR647jHfeR7MXk2w7YOy",
+    "filename": "조조 모예스-더 라스트 레터(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.927Z",
+    "size": "549175",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "조지 모예스"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/조지 모예스",
+    "webViewLink": "https://drive.google.com/file/d/1ycm_ncax30ZCsR647jHfeR7MXk2w7YOy/view?usp=drivesdk",
+    "sourceSha256": "bd01bcae52d392c4f410bb028467fe44211da0a4efa54d38cf2e656714b8f456",
+    "textSha256": "5a706b0b8a2141c812492de5a2cc5a65a8e48fd1bb4dc0552a0ca33ce44016de",
+    "changeKey": "4ac7b1f1d2fe9e97d5309542cccc41c7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d32685e57d39e93a3aa5",
+    "workId": "d32685e57d39e93a3aa5",
+    "driveFileId": "1ycm_ncax30ZCsR647jHfeR7MXk2w7YOy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:14:11.830036+00:00",
+    "updatedAt": "2026-09-22T02:14:11.830052+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:14:11.830211+00:00"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "조지 오웰 산문선",
+    "author": "조지 오웰",
+    "genre": "에세이",
+    "tags": [
+      "사회비판",
+      "글쓰기",
+      "전체주의"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "politics"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "20세기 영문학의 독보적인 작가이자 저널리스트.",
+    "oneLineSummary": "냉철한 통찰과 사회적 책임의식을 담아낸 조지 오웰의 대표적인 에세이 모음집.",
+    "overallSummary": "글쓰기의 동기와 정치적 목적을 다룬 대표작 '나는 왜 쓰는가'와 버마에서의 제국주의적 경험을 고발하는 '교수형' 등 명산문들을 수록.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나는 왜 쓰는가",
+        "summary": "자신의 유년기와 글쓰기의 네 가지 동기(자기만족, 미학적 열정, 역사적 충동, 정치적 목적)에 대한 고백."
+      },
+      {
+        "sectionTitle": "교수형",
+        "summary": "버마의 감옥에서 사형 집행을 지켜보며 생명의 존엄성과 제국주의의 폭력성을 깨달은 경험."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "창유리처럼 투명하고 정확한 사실 전달을 지향하는 산문 스타일."
+      }
+    ],
+    "keyEntitiesText": "조지 오웰, 프랜시스, 사형수",
+    "settingText": "영국 및 버마."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SfJCUNP3Hp7QXl7xvLSS3QnjV8ITjHlS",
+    "filename": "조지 오웰 산문선 열린책들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.111Z",
+    "size": "710122",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1SfJCUNP3Hp7QXl7xvLSS3QnjV8ITjHlS/view?usp=drivesdk",
+    "sourceSha256": "64e2e77677b5b9c0db0729e46821b7c66f1d465f9c9a8d467d2a2c57cbb23ce0",
+    "textSha256": "bcdd2e42567e13d30bf99f709ccf91cd4f6d21066498e45c15ad3e8c96100998",
+    "changeKey": "3ae27f4663159a2f2b05c2571cfaa228",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "16fbc4234244e666efde",
+    "workId": "16fbc4234244e666efde",
+    "driveFileId": "1SfJCUNP3Hp7QXl7xvLSS3QnjV8ITjHlS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:15:03.348176+00:00",
+    "updatedAt": "2026-09-22T02:15:03.348196+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:15:03.348292+00:00"
+    }
+  }
+}

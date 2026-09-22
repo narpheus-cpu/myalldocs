@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신부님 우리 신부님",
+    "author": "조반니 과레스키",
+    "genre": "소설",
+    "tags": [
+      "이탈리아",
+      "전후사회",
+      "풍자",
+      "시골마을"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "humor",
+        "satire"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이탈리아 폰따넬레 출신의 신문기자이자 소설가로, 유머 넘치는 문체와 사실적인 풍자로 유명하다.",
+    "oneLineSummary": "전후 이탈리아의 조용한 시골 마을을 배경으로 신부 돈 까밀로와 공산당 읍장 뻬뽀네가 벌이는 유쾌하고 감동적인 이야기.",
+    "overallSummary": "냉전 이데올로기와 가톨릭, 공산주의의 대립을 일상적이고 유머러스한 시각으로 풀어낸 작품으로, 인간 사회의 다양한 단면을 따뜻하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫번째 이야기",
+        "summary": "어린 시절 막내 동생의 병을 고치기 위해 아버지가 신부와 다이나마이트를 들고 대치했던 일화."
+      },
+      {
+        "sectionTitle": "두번째 이야기",
+        "summary": "시골 마을에 찾아온 도시 기계공들과 마을 사람들 사이의 촌스럽고도 소소한 갈등."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "풍자성",
+        "value": "냉전 시대의 이념 대립을 소박한 시골 마을의 에피소드로 치환하여 풍자함."
+      }
+    ],
+    "keyEntitiesText": "돈 까밀로 신부, 뻬뽀네 읍장, 키코, 나레이터의 아버지",
+    "settingText": "1946년 12월부터 1947년 12월까지의 이탈리아 뽀 강 평야의 조그마한 시골 마을."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1K8SixDNCIn4adk5UikEzAOHg-EZdMldW",
+    "filename": "조반니 과레스키-신부님 우리 신부님.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.380Z",
+    "size": "217568",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1K8SixDNCIn4adk5UikEzAOHg-EZdMldW/view?usp=drivesdk",
+    "sourceSha256": "7a43d41177bbaece050fed67c179891de98e8c37489e5ee8b982804ddb2bb4f7",
+    "textSha256": "9937f9198ec3d17cf44dbbaf4a8f693550720d5c218cfd8561a57d8d1b75397f",
+    "changeKey": "5e67b3fef045a794b2f013174c4c8d6b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5fd6bcac9bd2b99f67fe",
+    "workId": "5fd6bcac9bd2b99f67fe",
+    "driveFileId": "1K8SixDNCIn4adk5UikEzAOHg-EZdMldW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:13:48.565772+00:00",
+    "updatedAt": "2026-09-22T02:13:48.565787+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:13:48.565965+00:00"
+    }
+  }
+}

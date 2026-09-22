@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "붉은 아침의 노래",
+    "author": "조안나 린지",
+    "genre": "로맨스 소설",
+    "tags": [
+      "서부",
+      "텍사스",
+      "가문갈등",
+      "로맨스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 로맨스 소설 거장.",
+    "oneLineSummary": "1892년 텍사스를 배경으로 광활한 목장을 둘러싼 갈등과 두 남녀의 운명적인 만남.",
+    "overallSummary": "스트래튼 목장의 상속과 경영을 둘러싼 가족 간의 갈등 속에서 당찬 딸 케이시와 길을 잃은 도시 남자 데미안의 이야기가 펼쳐진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "플레처의 죽음 이후 바엠 목장 상속과 경영권을 두고 아버지 챈도스와 팽팽하게 맞서는 케이시."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "베란다에서 과거 가족의 역사와 인디언 포로 시절의 상처를 떠올리는 케이시와 소투스의 대화."
+      },
+      {
+        "sectionTitle": "3장",
+        "summary": "서부 여행 중 강도를 만나 길을 잃고 헤매다 케이시의 캠프에 다다르게 되는 데미안."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "배경 묘사",
+        "value": "서부 개척 시대의 거친 자연환경과 가문의 비극적인 과거사가 교차됨."
+      }
+    ],
+    "keyEntitiesText": "케이시 스트래튼, 챈도스 스트래튼, 데미안 루트리지, 소투스",
+    "settingText": "1892년 미국 텍사스의 광활한 스트래튼 목장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16EUHaaIa733TCNolSLcubnO98Hex5DMD",
+    "filename": "조안나 린지-붉은 아침의 노래.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.413Z",
+    "size": "413996",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/16EUHaaIa733TCNolSLcubnO98Hex5DMD/view?usp=drivesdk",
+    "sourceSha256": "e46093b58301772437f26d1b2473d3b15f714b3bbdd4ff02052b10fa9fc995b7",
+    "textSha256": "fa5b4558c1888b4907510bfbd2726c29f9ba1b0417b1d1b741c0dd1fb065e05f",
+    "changeKey": "e814e68fd569481c89984c018abf19c8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b243bffa69d5605e6855",
+    "workId": "b243bffa69d5605e6855",
+    "driveFileId": "16EUHaaIa733TCNolSLcubnO98Hex5DMD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:13:58.643416+00:00",
+    "updatedAt": "2026-09-22T02:13:58.643433+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:13:58.643544+00:00"
+    }
+  }
+}

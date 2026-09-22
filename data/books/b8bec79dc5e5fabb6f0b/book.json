@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "피그말리온",
+    "author": "조지 버나드 쇼",
+    "genre": "희곡",
+    "tags": [
+      "음성학",
+      "신분제도",
+      "풍자"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "satire"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아일랜드 출신의 극작가이자 비평가로 노벨 문학상 수상자.",
+    "oneLineSummary": "음성학자 히긴스가 거리의 꽃 파는 소녀 일라이자를 훈련해 상류층 숙녀로 탈바꿈시키는 희곡.",
+    "overallSummary": "영국의 언어와 신분 제도의 허위성을 신랄하게 풍자하며, 인간 변화의 가능성과 존엄성을 유머러스하게 그려낸 대표작.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "영어 철자와 음성학의 중요성, 그리고 이 작품이 지닌 교육적·사회적 의미에 대한 저자의 설명."
+      },
+      {
+        "sectionTitle": "제1막",
+        "summary": "비가 내리는 런던 코번트 가든에서 우연히 만난 상류층 사람들과 음성학자, 그리고 억척스러운 사투리를 쓰는 꽃 파는 소녀."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "사회적 풍자를 담은 문제극이자 로맨스 구조를 빌린 희곡."
+      }
+    ],
+    "keyEntitiesText": "히긴스 교수, 일라이자 둘리틀, 피커링 대령, 힐 부인과 자녀들",
+    "settingText": "19세기 말~20세기 초 런던."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Y_SRN8F2KMERy3ojFLNC7i-AW1U8d0rI",
+    "filename": "조지 버나드 쇼-피그말리온 열린책들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.062Z",
+    "size": "314116",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Y_SRN8F2KMERy3ojFLNC7i-AW1U8d0rI/view?usp=drivesdk",
+    "sourceSha256": "ea96d0db55eeb33c67427b7ba6f4c990a38e6d039b695bf33c6c2f1be0840723",
+    "textSha256": "34fd9bd0c44d85d3a96abbbbc01eafc7ac842ebe9912d1356e9b1c56978488d5",
+    "changeKey": "832cecbde44fd4e5c4792f33b3188353",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b8bec79dc5e5fabb6f0b",
+    "workId": "b8bec79dc5e5fabb6f0b",
+    "driveFileId": "1Y_SRN8F2KMERy3ojFLNC7i-AW1U8d0rI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:14:49.889690+00:00",
+    "updatedAt": "2026-09-22T02:14:49.889707+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:14:49.889821+00:00"
+    }
+  }
+}

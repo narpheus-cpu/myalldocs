@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "허니문 인 파리",
+    "author": "조조 모예스",
+    "genre": "소설",
+    "tags": [
+      "파리",
+      "신혼여행",
+      "결혼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "감성적인 로맨스를 주로 쓰는 영국 작가.",
+    "oneLineSummary": "파리로 신혼여행을 떠난 현대의 리브와 과거의 소피, 두 여인의 엇갈린 결혼 생활을 그린 소설.",
+    "overallSummary": "일과 성공에 집착하는 남편 때문에 망가진 신혼여행에 실망하는 리브와, 가난하지만 예술가 남편과 결혼한 소피의 이야기가 시대를 넘어 교차한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문 도입",
+        "summary": "에펠 탑 아래에서 홀로 비를 맞으며 최악의 신혼여행을 실감하는 리브의 모습."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성",
+        "value": "과거와 현재의 두 여성 서사가 평행하게 전개되며 결혼의 의미를 조명함."
+      }
+    ],
+    "keyEntitiesText": "리브 할스톤, 데이비드, 소피, 에두아르 르페브르",
+    "settingText": "프랑스 파리."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18qWauVfWR52zQHVV2Jo0k23GdsVm7TiX",
+    "filename": "조조 모예스-허니문 인 파리(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.026Z",
+    "size": "113871",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "조지 모예스"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/조지 모예스",
+    "webViewLink": "https://drive.google.com/file/d/18qWauVfWR52zQHVV2Jo0k23GdsVm7TiX/view?usp=drivesdk",
+    "sourceSha256": "82dc305edccce9b91b3dfe70fffd84a1590c91492789d42282d3e423d4680ab8",
+    "textSha256": "71e0630ebff44efc08d62146efcdef0b32059f7d2098858ce1d1c24eb514116f",
+    "changeKey": "e9cb9bd99e87769a1d199f9d1764baf5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dc9d18190da8d1c627f1",
+    "workId": "dc9d18190da8d1c627f1",
+    "driveFileId": "18qWauVfWR52zQHVV2Jo0k23GdsVm7TiX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:14:37.525751+00:00",
+    "updatedAt": "2026-09-22T02:14:37.525767+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:14:37.525856+00:00"
+    }
+  }
+}

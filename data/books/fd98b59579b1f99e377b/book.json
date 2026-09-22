@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "원 플러스 원",
+    "author": "조조 모예스",
+    "genre": "소설",
+    "tags": [
+      "가족",
+      "싱글맘",
+      "여행"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "contemporary_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대인의 삶과 관계를 따뜻하게 그려내는 작가.",
+    "oneLineSummary": "고단한 삶을 살아가는 싱글맘 제스와 뜻밖의 인물들이 만나 함께 여행을 떠나며 벌어지는 기적 같은 이야기.",
+    "overallSummary": "청소 일을 하며 두 아이를 키우는 싱글맘 제스가 수학적 천재 재능을 가진 딸 탠지의 기회를 위해 고군분투하는 일상을 유쾌하고 감동적으로 담아낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "내부자 거래 혐의로 위기에 처한 에드 니콜스의 상황."
+      },
+      {
+        "sectionTitle": "1",
+        "summary": "청소부로 일하며 남의 비밀을 알게 되는 제스의 고된 삶과 딸 니키의 방황."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "탠지의 수학적 재능을 알아본 교사로부터 명문 사립학교 장학금 면접 제안을 받는 제스."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 관계",
+        "value": "사회적 약자인 싱글맘 가구와 전혀 어울릴 것 같지 않은 남자의 우연한 결합."
+      }
+    ],
+    "keyEntitiesText": "제스 토머스, 탠지, 니키, 에드 니콜스, 나탈리",
+    "settingText": "영국 해변의 어느 마을."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zr_2lw8UgP156bS2nT_TP7xRfUXaH87y",
+    "filename": "조조 모예스-원플러스원-가족이라는 기적(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.004Z",
+    "size": "615885",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "조지 모예스"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/조지 모예스",
+    "webViewLink": "https://drive.google.com/file/d/1zr_2lw8UgP156bS2nT_TP7xRfUXaH87y/view?usp=drivesdk",
+    "sourceSha256": "f0ea904a4bec4a6caf99fb3a3d76b629a322fbe21125cbf7d117303bad9d6ede",
+    "textSha256": "4fb55e333e8e48f29911fb768270169ebbad125cd83da840dc38a2fbd9834cfe",
+    "changeKey": "b2c1a3c0b785c37b7edfce184791e6a1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fd98b59579b1f99e377b",
+    "workId": "fd98b59579b1f99e377b",
+    "driveFileId": "1zr_2lw8UgP156bS2nT_TP7xRfUXaH87y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:14:31.813213+00:00",
+    "updatedAt": "2026-09-22T02:14:31.813236+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:14:31.813342+00:00"
+    }
+  }
+}

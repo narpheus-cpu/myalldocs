@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "호스 댄서",
+    "author": "조조 모예스",
+    "genre": "소설",
+    "tags": [
+      "승마",
+      "말",
+      "프랑스",
+      "영국"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "다양한 배경과 깊이 있는 인물 묘사로 유명한 소설가.",
+    "oneLineSummary": "프랑스의 전통 승마학교 카드르 누아르를 배경으로 펼쳐지는 젊은 기수 앙리와 플로렌스의 사랑과 열정.",
+    "overallSummary": "1960년대 소뮈르를 배경으로, 엄격한 전통과 규율 속에서 명예를 지키려는 기수 앙리와 영국의 평범한 아가씨 플로렌스의 운명적인 사랑을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "카루젤 축제를 앞두고 긴장한 앙리와 그를 찾아온 플로렌스의 애틋한 재회, 그리고 동료의 질투와 시련."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "전통적인 승마 예술과 인간의 열정이 결합된 독특한 배경."
+      }
+    ],
+    "keyEntitiesText": "앙리 라샤펠, 플로렌스 제이콥스, 디디에 피카르",
+    "settingText": "1960년 프랑스 소뮈르 승마학교."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Xt8IwMOlmn4jd6yKVOG7WWSmkOIqIqsF",
+    "filename": "조조 모예스-호스 댄서(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.037Z",
+    "size": "847854",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "조지 모예스"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/조지 모예스",
+    "webViewLink": "https://drive.google.com/file/d/1Xt8IwMOlmn4jd6yKVOG7WWSmkOIqIqsF/view?usp=drivesdk",
+    "sourceSha256": "baac48b6802021c5559c4e112ac485555dadaed9d5794bfcf01f206d095345d9",
+    "textSha256": "0743f8c11251b00944976f271757710835e49d271e2fb267c2c3355622eb3145",
+    "changeKey": "d004385443479e42dab4cb12807f69cd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f73c4a69fc8dcc0d640e",
+    "workId": "f73c4a69fc8dcc0d640e",
+    "driveFileId": "1Xt8IwMOlmn4jd6yKVOG7WWSmkOIqIqsF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:14:43.663678+00:00",
+    "updatedAt": "2026-09-22T02:14:43.663695+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:14:43.663805+00:00"
+    }
+  }
+}

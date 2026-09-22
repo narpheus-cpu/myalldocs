@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "작가는 어떻게 읽는가",
+    "author": "조지 손더스",
+    "genre": "에세이",
+    "tags": [
+      "문학",
+      "독서",
+      "러시아소설",
+      "창작법"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 소설가이자 시러큐스대학 교수.",
+    "oneLineSummary": "위대한 19세기 러시아 단편 소설을 통해 글쓰기와 읽기의 본질을 탐구하는 문학 수업 에세이.",
+    "overallSummary": "체호프, 톨스토이 등 러시아 작가들의 명작을 한 줄씩 분석하며 독자와 작가가 문학을 통해 세상을 읽어내는 방식을 깊이 있게 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "시작한다",
+        "summary": "시러큐스대학에서의 수업 경험과 러시아 단편 소설이 지닌 저항적, 도덕적 가치에 대한 고찰."
+      },
+      {
+        "sectionTitle": "마차에서",
+        "summary": "안톤 체호프의 단편을 한 장씩 따라가며 독자의 호기심과 서사의 물리적 작동 방식을 분석."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "접근법",
+        "value": "학문적이기보다는 실용적이고 전략적인 독서 및 작법 가이드."
+      }
+    ],
+    "keyEntitiesText": "조지 손더스, 안톤 체호프, 마리야 바실리예브나",
+    "settingText": "대학 강의실 및 문학적 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bfANK6K4pu7J6FYsLjhnG30djr4ioHCy",
+    "filename": "조지 손더스-작가는 어떻게 읽는가(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.082Z",
+    "size": "1036101",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1bfANK6K4pu7J6FYsLjhnG30djr4ioHCy/view?usp=drivesdk",
+    "sourceSha256": "af493bd61dc67c5b1bd69ab5cb06b48da01a51afc2d108eda049b27d03bd7a98",
+    "textSha256": "203e3ba967aa8f26e7702ec5b47c55ebe4da6779ce0ac97e2ea3025ad0745b6d",
+    "changeKey": "16ff91f310b95694cca89683dbd9f485",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9e2066cd44f1fb2352ed",
+    "workId": "9e2066cd44f1fb2352ed",
+    "driveFileId": "1bfANK6K4pu7J6FYsLjhnG30djr4ioHCy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:14:56.526715+00:00",
+    "updatedAt": "2026-09-22T02:14:56.526732+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:14:56.526839+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "당신이 남겨두고 간 소녀",
+    "author": "조조 모예스",
+    "genre": "소설",
+    "tags": [
+      "프랑스",
+      "1차세계대전",
+      "점령지",
+      "예술"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 베스트셀러 작가로 감동적인 로맨스와 드라마를 주로 씀.",
+    "oneLineSummary": "1차 세계대전 중 독일군 점령지 프랑스 생페론에서 초상화를 지키기 위해 고군분투하는 젊은 여성 소피의 이야기.",
+    "overallSummary": "독일군의 가혹한 점령 통치 아래서 가족을 지키고 남편이 그려준 초상화를 사수하려는 소피의 용기 있는 삶을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "식량 부족과 독일군의 위협 속에서 남동생이 숨겨둔 돼지를 지키기 위해 독일 사령관과 대담하게 맞서는 소피."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "돼지 소동이 마을에 퍼지고, 시장과 주민들이 점령 하의 고단한 삶 속에서도 작은 위안을 얻는 모습."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "전쟁의 참혹함 속에서도 피어나는 인간의 존엄성과 예술의 가치."
+      }
+    ],
+    "keyEntitiesText": "소피, 엘렌, 아우렐리앙, 독일 사령관, 에두아르",
+    "settingText": "1916년 10월 프랑스 생페론."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wMPdfP-U2v_HAsKxcjRcQ2rDL7Xc8o-e",
+    "filename": "조조 모예스-당신이 남겨두고 간 소녀(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.884Z",
+    "size": "638307",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "조지 모예스"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/조지 모예스",
+    "webViewLink": "https://drive.google.com/file/d/1wMPdfP-U2v_HAsKxcjRcQ2rDL7Xc8o-e/view?usp=drivesdk",
+    "sourceSha256": "26888beacb37a5994388245d9bc3bef0d8b315730d34f7be87991292be295840",
+    "textSha256": "80df4d9053118e8a3b90fc1e2ee72ba03ddfdc8d2e914c167d79eef21a11ddff",
+    "changeKey": "bba2a0b07b4c2a4139f2d75f6c1ff562",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "abb7fde764d8cb89b18e",
+    "workId": "abb7fde764d8cb89b18e",
+    "driveFileId": "1wMPdfP-U2v_HAsKxcjRcQ2rDL7Xc8o-e",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:14:05.307645+00:00",
+    "updatedAt": "2026-09-22T02:14:05.307659+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:14:05.307757+00:00"
+    }
+  }
+}

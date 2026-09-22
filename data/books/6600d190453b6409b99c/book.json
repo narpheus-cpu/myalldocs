@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스틸 미",
+    "author": "조조 모예스",
+    "genre": "소설",
+    "tags": [
+      "뉴욕",
+      "새출발",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미 비포 유의 후속작을 쓴 인기 작가.",
+    "oneLineSummary": "모든 것을 뒤로하고 뉴욕으로 떠난 루이자 클라크의 새로운 도전과 성장을 그린 이야기.",
+    "overallSummary": "윌과의 아픔을 딛고 뉴욕의 상류층 가정에서 새로운 일을 시작한 루이자가 낯선 환경과 부딪치며 진짜 자신을 찾아가는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "뉴욕 공항에 도착해 출입국 심사를 거치고 네이선의 마중을 받아 맨해튼으로 향하는 루이자의 설레는 첫걸음."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "주체적인 삶을 찾아가는 여성의 홀로서기와 적응기."
+      }
+    ],
+    "keyEntitiesText": "루이자 클라크, 네이선, 아쇽, 일라리아",
+    "settingText": "미국 뉴욕 맨해튼."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16144NNF0T7NccHg3D8GZEXx0odzbhJmo",
+    "filename": "조조 모예스-스틸 미(2019)(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.978Z",
+    "size": "910503",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "조지 모예스"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/조지 모예스",
+    "webViewLink": "https://drive.google.com/file/d/16144NNF0T7NccHg3D8GZEXx0odzbhJmo/view?usp=drivesdk",
+    "sourceSha256": "db6860f0b7176165ef8e3718861475a197f77c3489ceca67e6959f19ef18b7ce",
+    "textSha256": "6f7e9e53ca7810ddb9a9242801655bc5c270dea2fe6fccb910404a6d2ae1cbef",
+    "changeKey": "c4633cd46833a0f0379f891bb164adef",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6600d190453b6409b99c",
+    "workId": "6600d190453b6409b99c",
+    "driveFileId": "16144NNF0T7NccHg3D8GZEXx0odzbhJmo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:14:25.658357+00:00",
+    "updatedAt": "2026-09-22T02:14:25.658371+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:14:25.658465+00:00"
+    }
+  }
+}

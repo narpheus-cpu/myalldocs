@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "거리의 변호사",
+    "author": "존 그리샴",
+    "genre": "소설",
+    "tags": [
+      "법정소설",
+      "워싱턴",
+      "인질극",
+      "노숙자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 베스트셀러 법정 스릴러 작가.",
+    "oneLineSummary": "대형 로펌 변호사들이 다이너마이트를 장착한 노숙자에게 인질로 잡히며 벌어지는 긴장감 넘치는 법정 스릴러.",
+    "overallSummary": "워싱턴의 거대 로펌에서 일하던 마이클은 어느 날 폭탄을 찬 노숙자 '형씨'에게 인질로 잡히고, 로펌의 은폐된 비밀과 노숙자들의 참혹한 삶을 마주하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "로펌 사무실에 난입해 변호사들을 인질로 잡고 다이너마이트를 꺼내 든 의문의 노숙자."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "인질극이 지속되는 동안 로펌의 소득 기록과 세금 서류를 요구하며 변호사들을 압박하는 인질범."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "거대 자본주의 법무 법인의 위선과 사회적 약자의 비극."
+      }
+    ],
+    "keyEntitiesText": "마이클 브록, 형씨, 래프터, 마담 드비어, 루돌프",
+    "settingText": "미국 워싱턴 D.C. 드레이크 & 스위니 법률 회사."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VM65MDr6796YPdZ-u4I2toBOh2UnZoL9",
+    "filename": "존 그리샴-거리의 변호사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.137Z",
+    "size": "581926",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1VM65MDr6796YPdZ-u4I2toBOh2UnZoL9/view?usp=drivesdk",
+    "sourceSha256": "41c91aa068dd4268504dfe4a954479ce6d12b01cd800f62260feeb42384b383c",
+    "textSha256": "885fb7412984fdc165bf018e311282ccfbe4ba57114aa76645d2316055dd6548",
+    "changeKey": "f17bb3677a974268ec01fd37e0765c67",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "60eb9f161811796182a7",
+    "workId": "60eb9f161811796182a7",
+    "driveFileId": "1VM65MDr6796YPdZ-u4I2toBOh2UnZoL9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:15:12.625488+00:00",
+    "updatedAt": "2026-09-22T02:15:12.625502+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:15:12.625596+00:00"
+    }
+  }
+}
