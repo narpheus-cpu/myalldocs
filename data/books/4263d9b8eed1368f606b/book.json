@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내 이름은 빨강 2",
+    "author": "오르한 파묵",
+    "genre": "역사미스터리 소설",
+    "tags": [
+      "오스만제국",
+      "이스탄불",
+      "세밀화",
+      "사랑",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설",
+        "심리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "터키 이스탄불 출신의 대표적 현대 소설가로 동양과 서양의 문화적 갈등을 형이상학적 미스터리로 승화시켰으며 노벨 문학상을 수상했다.",
+    "oneLineSummary": "살해된 아버지의 죽음을 숨긴 채 카라와 서둘러 결혼한 셰큐레의 내면 갈등과 집안을 둘러싼 긴박한 밤의 소동을 그린 소설.",
+    "overallSummary": "외삼촌 에니시테가 살해당한 사실을 은폐한 상태에서 셰큐레는 아이들을 지키고 생존하기 위해 카라와 서둘러 혼례를 치른다. 두 아들(셰브켓, 오르한)과 하녀 하이리예와의 복잡한 관계 속에서 첫날밤을 맞이하지만, 셰큐레는 살인범을 잡을 때까지 동침하지 않겠다고 선언한다. 밤중에 에니시테의 시신이 발견되며 아이들이 비명을 지르고, 집 밖에서는 전남편의 동생 하산이 찾아와 이혼과 결혼의 정당성을 따지며 카라와 말다툼을 벌이는 등 비극적 긴장이 극대화된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "34. 나는, 셰큐레",
+        "summary": "하객들이 떠난 후 카라를 새아버지로 세운 셰큐레가 2층에 숨겨진 아버지의 시체, 훔쳐간 마지막 그림의 행방, 하산의 밤샘 위협과 시체 발각으로 인한 일대 혼란을 독백한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리 묘사",
+        "value": "자녀 양육권 수호, 욕망과 죄책감 사이에서 갈등하는 여성 셰큐레의 현실적이고 주체적인 내면"
+      },
+      {
+        "key": "극적 긴장",
+        "value": "화실에 놓인 비밀 삽화와 위층의 부패해가는 시체, 대문 밖 하산의 협박이 얽힌 삼중의 서스펜스"
+      }
+    ],
+    "keyEntitiesText": "셰큐레, 카라, 에니시테 에펜디, 셰브켓, 오르한, 하이리예, 하산",
+    "settingText": "눈 덮인 겨울밤 이스탄불의 에니시테 저택 안팎"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1V4SSRu0IRYRUjSyugHcIaD_Ia_sTYTl-",
+    "filename": "오르한 파묵-내 이름은 빨강 2 -- 오르한 파묵 -- 2021 -- 민음사(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.357Z",
+    "size": "665946",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1V4SSRu0IRYRUjSyugHcIaD_Ia_sTYTl-/view?usp=drivesdk",
+    "sourceSha256": "c116f609330868b2d97219dcc1a8514401026d3c75b900b31d1b7350826284d7",
+    "textSha256": "fde6b4739e5d8f84a33d79b2eb072d038b52ca9ca9c304d4cdcabd9a3e745bba",
+    "changeKey": "bd80eb2f00caee63c9e68cbc801ccb1a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4263d9b8eed1368f606b",
+    "workId": "4263d9b8eed1368f606b",
+    "driveFileId": "1V4SSRu0IRYRUjSyugHcIaD_Ia_sTYTl-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:34:53.890576+00:00",
+    "updatedAt": "2026-09-22T01:34:53.890591+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:34:53.890760+00:00"
+    }
+  }
+}

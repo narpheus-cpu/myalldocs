@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "푸코의 진자 2-1",
+    "author": "움베르토 에코",
+    "genre": "지적미스터리 소설",
+    "tags": [
+      "카발라",
+      "용기폭발",
+      "정보탐정",
+      "리아",
+      "회전당구"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "철학소설",
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이탈리아의 대표 지성이자 소설가. 중세 신비주의와 현대 대중문화를 기호학적 통찰로 결합하였다.",
+    "oneLineSummary": "브라질에서 귀국한 까소봉이 정보 탐정으로 자리 잡으며 리아와 사랑에 빠지고, 벨보의 유년기 파일과 현대의 소외를 반추하는 과정.",
+    "overallSummary": "카발라의 '용기 폭발' 개념처럼 브라질 체류 후 30대가 되어 돌아온 조국 이탈리아는 테러와 환멸로 무너져 있었다. 술집 필라데에서 벨보는 회전 당구를 치는 매혹적인 여인 로렌짜 펠레그리니에게 사로잡혀 관능적 글을 남긴다. 까소봉은 도서관 정보와 인맥을 활용해 학술적 조사를 대행해 주는 '문화 연구 탐정'으로 독립하고, 도서관에서 지적이고 건강한 생명력을 지닌 여성 리아를 만나 연인이 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "34장",
+        "summary": "카발라의 우주적 파국 '용기 폭발'을 반추하며, 정치적 열기가 식고 극좌 테러와 오락기로 물든 밀라노로 돌아온 까소봉의 혼란과 벨보의 '회전 당구' 텍스트를 소개한다."
+      },
+      {
+        "sectionTitle": "35장",
+        "summary": "원고 검토와 문헌 추적을 대행하는 '학문 사립 탐정'으로 자리 잡은 까소봉이 도서관에서 당찬 여성 리아를 만나 사랑을 시작하는 과정을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "대비적 여성상",
+        "value": "치명적이고 신비화된 환상의 여인 로렌짜 대(對) 구체적이고 현실적 지혜를 대변하는 건강한 여성 리아"
+      },
+      {
+        "key": "정보의 본질",
+        "value": "체계화된 이론이 붕괴한 후 잡다한 사실들의 연관 고리를 조작하는 '정보 브로커' 시대의 도래"
+      }
+    ],
+    "keyEntitiesText": "까소봉, 야코포 벨보, 디오탈레비, 리아, 로렌짜 펠레그리니",
+    "settingText": "1970년대 말~1980년대 초 이탈리아 밀라노"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18yWxDGkLS53V0mQIN4gn1FsoNV15Hvns",
+    "filename": "움베르토 에토-푸코의진자2-1.TXT",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.569Z",
+    "size": "201594",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "움베르토 에코"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/움베르토 에코",
+    "webViewLink": "https://drive.google.com/file/d/18yWxDGkLS53V0mQIN4gn1FsoNV15Hvns/view?usp=drivesdk",
+    "sourceSha256": "b031485e2ff8ec1b77d6225056e11fccdfcc00f2fd2890d43a16d9023513229b",
+    "textSha256": "e00ca7ed8dbf517fba656faf8dd2ce322fd8b448323a80716edb39897e876106",
+    "changeKey": "baa263c8c876c2cdda62c177d0c5af8c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "50de5bcd8a1cb95a695f",
+    "workId": "50de5bcd8a1cb95a695f",
+    "driveFileId": "18yWxDGkLS53V0mQIN4gn1FsoNV15Hvns",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:35:54.139139+00:00",
+    "updatedAt": "2026-09-22T01:35:54.139155+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:35:54.139264+00:00"
+    }
+  }
+}

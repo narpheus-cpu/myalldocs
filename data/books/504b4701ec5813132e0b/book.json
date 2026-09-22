@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "푸코의 진자 1-2",
+    "author": "움베르토 에코",
+    "genre": "지적미스터리 소설",
+    "tags": [
+      "성당기사단",
+      "비밀결사",
+      "십자군",
+      "베르나르",
+      "밀라노"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사소설",
+        "지적미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이탈리아의 세계적 기호학자이자 소설가. 방대한 지식과 유머를 결합하여 문학의 새로운 장을 열었다.",
+    "oneLineSummary": "술집 필라데에서 세 친구가 성당 기사단의 기원과 엄격한 금기 규약, 그리고 이들에게 덧씌워진 역사적 배교 혐의를 흥미진진하게 재해석하는 장면.",
+    "overallSummary": "밀라노의 술집 필라데에서 까소봉, 야코포 벨보, 디오탈레비는 술잔을 기울이며 가라몬드 출판사와의 회동 후기를 나눈다. 까소봉은 1118년 위그 드 파양의 9명 기사로 출발한 성당 기사단의 성립 과정, 조직의 천재 생 베르나르가 부여한 금욕적 규약들(불결함의 유지, 여성 기피, 엄격한 식사 규칙), 낯선 사막 환경에서 비롯된 전우애와 남색 의혹, 그리고 훗날 종교재판에서 조작된 배교 혐의의 메커니즘을 유쾌하고 날카롭게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "13장",
+        "summary": "정치적 열기와 환멸이 뒤섞인 술집 필라데에서 성당 기사단의 역사적 기원, 생 베르나르의 극단적 계율, 종교재판의 왜곡된 자백 과정을 해학적으로 토론한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 탈신화화",
+        "value": "신비화된 성당 기사단의 전설을 인간적인 좌절, 외인부대적 일상, 억압된 본능의 딜레마로 해체"
+      },
+      {
+        "key": "시대 배경",
+        "value": "1968년 혁명 이후 70년대 이탈리아의 정치적 혼란과 환멸이 투영된 술집 풍경"
+      }
+    ],
+    "keyEntitiesText": "까소봉, 야코포 벨보, 디오탈레비, 생 베르나르, 위그 드 파양, 가라몬드",
+    "settingText": "1970~1980년대 이탈리아 밀라노의 술집 필라데"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10aGfi9q7IL3SRyDvbp9t8z4F8Lzt5KON",
+    "filename": "움베르토 에토-푸코의진자1-2.TXT",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.532Z",
+    "size": "201447",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "움베르토 에코"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/움베르토 에코",
+    "webViewLink": "https://drive.google.com/file/d/10aGfi9q7IL3SRyDvbp9t8z4F8Lzt5KON/view?usp=drivesdk",
+    "sourceSha256": "d1d5b8fe9416ec77d0c9c6b1b7934de7ce8235308efb67b2a6ecd29dd5c14ebb",
+    "textSha256": "b0811e7277c5a93e8f8264a0326cd6875b582dee61be826e955793f53531cd2e",
+    "changeKey": "d03d332ad41e5d8542007de0f97d12a6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "504b4701ec5813132e0b",
+    "workId": "504b4701ec5813132e0b",
+    "driveFileId": "10aGfi9q7IL3SRyDvbp9t8z4F8Lzt5KON",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:35:40.979008+00:00",
+    "updatedAt": "2026-09-22T01:35:40.979024+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:35:40.979141+00:00"
+    }
+  }
+}
