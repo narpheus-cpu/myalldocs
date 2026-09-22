@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "곰브리치 세계사",
+    "author": "에른스트 곰브리치",
+    "genre": "역사 / 청소년",
+    "tags": [
+      "세계사",
+      "예술사",
+      "선사 시대",
+      "청소년 교양",
+      "역사 이야기"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "교양역사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "빈 대학에서 박사 학위를 받은 예술사학자로, 어린이나 일반 독자도 쉽게 이해할 수 있는 탁월한 역사 서술 능력을 지녔다.",
+    "oneLineSummary": "선사 시대부터 현대까지 인류의 발자취를 부담 없는 입담과 따뜻한 시선으로 풀어낸 청소년을 위한 세계사이다.",
+    "overallSummary": "복잡한 연도나 암기식 지식에서 벗어나, 인류의 거대한 여정을 한 편의 매력적인 이야기처럼 들려준다. 바닥 없는 우물 같은 기억과 과거의 시간 속으로 독자를 이끌며, 인류가 어떻게 도구를 발명하고 문명을 일궜는지 생생하게 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 옛날 옛적에 ~ 2장 역사상 가장 위대한 발명가들",
+        "summary": "우주와 지구의 탄생, 기억의 우물, 그리고 인류의 조상인 원시인들의 삶과 도구 발명 과정을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "독자에게 직접 말을 건네는 듯한 친근하고 구체적인 구어체"
+      }
+    ],
+    "keyEntitiesText": "에른스트 곰브리치, 발터 노이라트, 일제 헬러, 레오니 곰브리치",
+    "settingText": "선사 시대부터 현대에 이르는 지구촌"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14aGN8SJFQq8dxTQvfYDnOO2snV52Bouj",
+    "filename": "에른스트 곰브리치-곰브리치 세계사(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T21:08:08.000Z",
+    "size": "671340",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/14aGN8SJFQq8dxTQvfYDnOO2snV52Bouj/view?usp=drivesdk",
+    "sourceSha256": "d8be24a3d5816be89832ed9f3dd06280623161f8551ba1e22722e2b770f1fdb4",
+    "textSha256": "27b3d70ce9ca247903982e4b8f5bcaa53516df88cc90055f23466c9fd04dd544",
+    "changeKey": "cd8c7caddb56b9b4f39be457d82dab8f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "82959105622ae6d672e8",
+    "workId": "82959105622ae6d672e8",
+    "driveFileId": "14aGN8SJFQq8dxTQvfYDnOO2snV52Bouj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:30:03.168763+00:00",
+    "updatedAt": "2026-09-22T21:30:03.168779+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:30:03.168884+00:00"
+    }
+  }
+}

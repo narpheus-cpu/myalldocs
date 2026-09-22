@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소크라테스 익스프레스",
+    "author": "에릭 와이너",
+    "genre": "철학 / 여행 에세이",
+    "tags": [
+      "철학자",
+      "지혜",
+      "기차 여행",
+      "일상의 철학",
+      "실용적 지혜"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세계를 누비며 삶의 깊은 질문에 답을 구하는 저널리스트이자 작가이다.",
+    "oneLineSummary": "기차 창가에 앉아 고대부터 현대까지 위대한 철학자들의 삶과 사상을 찾아 떠나는 유쾌하고 실용적인 지혜의 여정이다.",
+    "overallSummary": "정보만 넘쳐나고 지혜는 메말라버린 현대 사회에서, 침대에서 일어나는 법부터 나이 드는 법까지 삶의 온갖 '어떻게'를 철학자들의 눈으로 탐색한다. 소크라테스, 마르쿠스 아우렐리우스, 쇼펜하우어 등 열네 명의 실용적 철학자들을 소환해 일상을 고양시키는 시적 지혜를 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가는 말 ~ 1부 새벽 (마르쿠스 아우렐리우스처럼 침대에서 나오는 법)",
+        "summary": "정보와 지혜의 차이를 논하며, 기차 여행 속에서 위대한 사상가들의 실용적 철학을 만나기 위한 여정을 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "기차 여행과 철학적 사색의 결합"
+      }
+    ],
+    "keyEntitiesText": "에릭 와이너, 마르쿠스 아우렐리우스, 윌 듀런트, 알베르 카뮈, 데이비드 흄",
+    "settingText": "기차 안, 세계 각국의 철학적 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rnzd4o2zsacy3MvVwadTXq0tXMrlskt6",
+    "filename": "에릭 와이너-소크라테스 익스프레스(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.012Z",
+    "size": "766777",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1rnzd4o2zsacy3MvVwadTXq0tXMrlskt6/view?usp=drivesdk",
+    "sourceSha256": "914a790f3c7b3539367b1a296af795e4efa9e8e30db60e96ed2c42894f0d7aa1",
+    "textSha256": "73359353a8f56cabff8a04e4cb9088e0fb6df33c1440f805d3a336886675955b",
+    "changeKey": "902aa00f407f408ea555848c5c11cd04",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "30e4f1d497c144ed2fa2",
+    "workId": "30e4f1d497c144ed2fa2",
+    "driveFileId": "1rnzd4o2zsacy3MvVwadTXq0tXMrlskt6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:30:32.151016+00:00",
+    "updatedAt": "2026-09-22T21:30:32.151032+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:30:32.151140+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "학교 속의 문맹자들",
+    "author": "엄훈",
+    "genre": "교육 / 사회",
+    "tags": [
+      "문해력",
+      "읽기 부진",
+      "공교육",
+      "실행 연구",
+      "기능적 문맹"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "교육학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대학교 사범대학 국어교육과를 졸업하고 청주교육대학교에서 예비 교사들을 가르치며 실행 연구를 수행하고 있다.",
+    "oneLineSummary": "문자를 해독하면서도 의미를 이해하지 못하는 학교 속 문맹자들의 실태를 고발하고 공교육의 책임을 촉구한다.",
+    "overallSummary": "유네스코 통계가 감추고 있는 한국 성인 및 학생들의 실질적 비문해율(기능적 문맹) 문제를 파헤친다. 중학교 교실에서 만난 읽기 부진 학생들의 사례를 통해 형식적 해독 능력이 곧 문해력과 같다는 고정관념을 깨고, 교육 현장의 근본적인 변화를 요구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "펴내는 글 및 프롤로그",
+        "summary": "위그든 씨의 이야기를 통해 발견한 읽기 부진 학생(창우)의 사례와 한국 문맹률 통계의 허구성을 비판적으로 검토한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "연구 방법",
+        "value": "현장 교사의 시각에서 진행된 실행 연구(Action Research)"
+      }
+    ],
+    "keyEntitiesText": "엄훈, 창우, 최제만, 김종서, 윌리엄",
+    "settingText": "한국의 공립 중학교 및 초등학교 교실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FaXHT9kMYitPgdHaabigwshCgGNURUtJ",
+    "filename": "엄훈-학교 속의 문맹자들(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T20:55:28.000Z",
+    "size": "745656",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1FaXHT9kMYitPgdHaabigwshCgGNURUtJ/view?usp=drivesdk",
+    "sourceSha256": "42847ad86c3ea09cd4b49b35fb45cf23e8bc0aea9315426467cf106f3c840937",
+    "textSha256": "b327ed8ef61ca4856b62bf4f1940012ad646bc0e56f98b8cf0a473bd08c4add9",
+    "changeKey": "c3c0419b17c288532ae9525c282c10df",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ef14126ac35326e2de79",
+    "workId": "ef14126ac35326e2de79",
+    "driveFileId": "1FaXHT9kMYitPgdHaabigwshCgGNURUtJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:29:09.739579+00:00",
+    "updatedAt": "2026-09-22T21:29:09.739595+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:29:09.739704+00:00"
+    }
+  }
+}

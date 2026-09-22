@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "풍속의 역사",
+    "author": "에두아르트 푹스",
+    "genre": "역사 / 사회사",
+    "tags": [
+      "풍속사",
+      "성풍속",
+      "사회경제사",
+      "모랄",
+      "일부일처제"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "사회사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "민중의 눈과 글을 통해 각 시대의 풍속과 상하구조를 분석한 유럽의 대표적인 문화사학자이다.",
+    "oneLineSummary": "사유재산과 경제 관계가 성 모랄과 결혼 제도의 형태를 어떻게 결정해 왔는지 방대한 민중 자료를 통해 증명한다.",
+    "overallSummary": "인류의 복장, 연애, 결혼, 매춘 등의 풍속이 성과 경제적 관계에 의해 지배되어 왔음을 보여준다. 일부일처제의 허구성, 간통과 매춘의 구조적 필연성, 그리고 시대별 성 모랄의 변화를 다채로운 사례와 함께 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 모랄의 기원과 본질",
+        "summary": "사유재산제에 기초한 일부일처제의 본질과 그에 따른 부수적 현상들을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "민중의 미술, 노래, 속담을 활용한 살아 있는 역사 서술"
+      }
+    ],
+    "keyEntitiesText": "에두아르트 푹스, 모간",
+    "settingText": "유럽 역사 전반"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18BJPdW6-378E08t7KSnmBmTeUgKDWxej",
+    "filename": "에두아르트 푹스-풍속의 역사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:28.934Z",
+    "size": "493827",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/18BJPdW6-378E08t7KSnmBmTeUgKDWxej/view?usp=drivesdk",
+    "sourceSha256": "455a823b3ba3b8cbeb5f4d142d8694ec4d75abae3bf63887f6eba8a278d9c466",
+    "textSha256": "7a975db1f69c261405bb5511507c0798c42b71a120026108264271b582203e19",
+    "changeKey": "0d8d39a6ffadf76532107a94fdd0a708",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fa7536ca23e6f38eb928",
+    "workId": "fa7536ca23e6f38eb928",
+    "driveFileId": "18BJPdW6-378E08t7KSnmBmTeUgKDWxej",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:29:23.007877+00:00",
+    "updatedAt": "2026-09-22T21:29:23.007893+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:29:23.007995+00:00"
+    }
+  }
+}
