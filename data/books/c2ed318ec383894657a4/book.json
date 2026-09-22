@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "드래곤 라자 02",
+    "author": "이영도",
+    "genre": "판타지",
+    "tags": [
+      "드래곤",
+      "라자",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이영도 작가의 드래곤 라자 2권입니다.",
+    "oneLineSummary": "후치 일행의 모험과 50명의 꼬마들, 대마법사 펠레일과의 이야기입니다.",
+    "overallSummary": "후치 일행이 모험을 계속하며 50명의 꼬마들과 대마법사 펠레일을 만나 겪는 사건들을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제3부 50명의 꼬마들과 대마법사 펠레일",
+        "summary": "후치 일행이 꼬마들과 대마법사 펠레일을 만나 모험을 이어갑니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "하이 판타지, 서사 판타지"
+      }
+    ],
+    "keyEntitiesText": "후치 네드발, 펠레일(대마법사)",
+    "settingText": "가상의 판타지 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1brxb0kHt7_CA4lpgs1PqFrPtyIfelWEI",
+    "filename": "이영도-드래곤 라자 02(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:13:20.000Z",
+    "size": "612676",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1brxb0kHt7_CA4lpgs1PqFrPtyIfelWEI/view?usp=drivesdk",
+    "sourceSha256": "1082f50bd7670006892044e0f0e2a8b791adc36df7c928375b5da82ee0404651",
+    "textSha256": "2a6999bdebb55f0ad563e8f0deb88eb31514acb51cea1e508a65e51518731d4b",
+    "changeKey": "1ac0fc8e8add6ca5f1d647614222ae21",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c2ed318ec383894657a4",
+    "workId": "c2ed318ec383894657a4",
+    "driveFileId": "1brxb0kHt7_CA4lpgs1PqFrPtyIfelWEI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:39:06.385453+00:00",
+    "updatedAt": "2026-09-22T12:39:06.385468+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:39:06.385563+00:00"
+    }
+  }
+}

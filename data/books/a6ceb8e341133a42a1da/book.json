@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "드래곤 라자 04",
+    "author": "이영도",
+    "genre": "판타지",
+    "tags": [
+      "드래곤",
+      "라자",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이영도 작가의 드래곤 라자 4권입니다.",
+    "oneLineSummary": "후치 일행의 모험과 항구의 소녀를 다룹니다.",
+    "overallSummary": "후치 일행이 모험을 계속하며 항구의 소녀와 얽힌 사건들을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제7부 항구의 소녀",
+        "summary": "후치 일행이 항구의 소녀와 얽힌 사건들을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "하이 판타지, 서사 판타지"
+      }
+    ],
+    "keyEntitiesText": "후치 네드발",
+    "settingText": "가상의 판타지 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-cjx0KfvLVL7caoJ7zxLdsgikOkhtdNL",
+    "filename": "이영도-드래곤 라자 04(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:16:50.000Z",
+    "size": "627342",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1-cjx0KfvLVL7caoJ7zxLdsgikOkhtdNL/view?usp=drivesdk",
+    "sourceSha256": "0af42eccd16512994ac9e6fe7924288ee65135f808c08d38a3cea095da52c682",
+    "textSha256": "3a8d6cbc4dcbc818870796270c8b1105e29162f04939690731564165d4bd34cb",
+    "changeKey": "3bb9bbe01416b35db5cbd2390a8efd8c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a6ceb8e341133a42a1da",
+    "workId": "a6ceb8e341133a42a1da",
+    "driveFileId": "1-cjx0KfvLVL7caoJ7zxLdsgikOkhtdNL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:39:19.875052+00:00",
+    "updatedAt": "2026-09-22T12:39:19.875068+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:39:19.875166+00:00"
+    }
+  }
+}

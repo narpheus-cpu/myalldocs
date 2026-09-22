@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "2차 한국전쟁 2권",
+    "author": "윤민혁",
+    "genre": "대체역사/밀리터리",
+    "tags": [
+      "전쟁",
+      "대체역사",
+      "밀리터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "대체역사",
+        "밀리터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "윤민혁 작가의 밀리터리 대체역사 소설 2권입니다.",
+    "oneLineSummary": "제2차 한국전쟁 중 김포반도에서 벌어지는 전투를 다룹니다.",
+    "overallSummary": "김포반도에서 벌어진 화학 공격 이후의 혼란과 TF 125의 전투 과정을 상세히 묘사합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "김포반도 전투",
+        "summary": "화학 공격 이후의 상황과 TF 125의 진격 및 전투를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "밀리터리, 대체역사, 사실적 묘사"
+      }
+    ],
+    "keyEntitiesText": "권경준(병장), 김철진(중대장)",
+    "settingText": "전쟁 중인 김포반도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_CnrE5PvFFPAKvrfQWhjiVx4b_orhOF7",
+    "filename": "윤민혁2차 한국전쟁 02.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:48.750Z",
+    "size": "565210",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1_CnrE5PvFFPAKvrfQWhjiVx4b_orhOF7/view?usp=drivesdk",
+    "sourceSha256": "607fec5f45cc8fa8c900884c42466d528a865af040f093a8e52f5ae5ee9bfc98",
+    "textSha256": "4138bef9671b4549ea775e25841b5bc343cf5dbbfe006055b61c0c198ba9449e",
+    "changeKey": "4c66164eca56c582485c72bd4fd9510d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5f92bac43ed31a9478f2",
+    "workId": "5f92bac43ed31a9478f2",
+    "driveFileId": "1_CnrE5PvFFPAKvrfQWhjiVx4b_orhOF7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:38:06.131155+00:00",
+    "updatedAt": "2026-09-22T12:38:06.131171+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7842,
+      "updatedAt": "2026-09-22T12:38:06.131275+00:00"
+    }
+  }
+}

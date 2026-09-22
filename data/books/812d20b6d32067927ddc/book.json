@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유체이동",
+    "author": "이종호",
+    "genre": "판타지",
+    "tags": [
+      "꿈",
+      "공포",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "공포"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이종호 작가의 판타지 소설입니다.",
+    "oneLineSummary": "불길한 꿈을 꾼 후 현실에서 비극적인 사건을 겪는 영현의 이야기입니다.",
+    "overallSummary": "결혼을 앞둔 영현이 장모에게 살해당하는 불길한 꿈을 꾼 후, 현실에서 시나리오 작가로서의 좌절과 결혼 준비 과정에서의 비극적인 사고를 겪게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 비극의 서곡",
+        "summary": "영현이 불길한 꿈을 꾸고, 시나리오 작가로서 좌절을 겪은 뒤 결혼 준비 중 사고가 발생합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "심리적 공포, 비극"
+      }
+    ],
+    "keyEntitiesText": "영현(작가), 여진(약혼녀), 장모",
+    "settingText": "현대 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13frDAtQrtZhdhHfIayvnIl1G9D04BW-3",
+    "filename": "유체이동.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:48.708Z",
+    "size": "542440",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/13frDAtQrtZhdhHfIayvnIl1G9D04BW-3/view?usp=drivesdk",
+    "sourceSha256": "570f0f246be982dcc9032ff63a42316cb161598ab64b686a167208d825b46c4b",
+    "textSha256": "9c5a72ac98a9fa81ae0917464fc9307827fc3994f87c7227a159c0e679bcaf80",
+    "changeKey": "cc00a2cefc32ab5fa9e8731309ab223a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "812d20b6d32067927ddc",
+    "workId": "812d20b6d32067927ddc",
+    "driveFileId": "13frDAtQrtZhdhHfIayvnIl1G9D04BW-3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:37:53.749738+00:00",
+    "updatedAt": "2026-09-22T12:37:53.749753+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:37:53.749905+00:00"
+    }
+  }
+}

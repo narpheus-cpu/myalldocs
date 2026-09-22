@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "은령",
+    "author": "프레야",
+    "genre": "판타지",
+    "tags": [
+      "마한",
+      "복수",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "역사판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프레야 작가의 판타지 소설입니다.",
+    "oneLineSummary": "마한의 마지막 후예 류우의 복수와 운명을 다룬 이야기입니다.",
+    "overallSummary": "백제 온조에게 멸망한 마한의 마지막 후예 류우가 복수를 다짐하며 겪는 운명적인 이야기입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 운명",
+        "summary": "마한의 멸망과 류우의 탈출, 복수를 위한 여정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "역사 판타지, 복수극"
+      }
+    ],
+    "keyEntitiesText": "류우(마한의 후예), 주근(장군), 온조(백제 왕)",
+    "settingText": "고대 한반도(마한, 백제)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1t5EVQeOH4SsGm9xQWRfKwJ4cr3KuW7qV",
+    "filename": "은령.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:48.811Z",
+    "size": "434467",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1t5EVQeOH4SsGm9xQWRfKwJ4cr3KuW7qV/view?usp=drivesdk",
+    "sourceSha256": "e3ece463af8486efed1110ddfcbccdec676be2d746c386fee437bdb5ce91eccf",
+    "textSha256": "421045cb93f56dab0a97aa2452d588e51b66bc38d567e5cee445352160a5cfd6",
+    "changeKey": "b7b748c4a0350df0bb887ca1507596a9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9a8cc664a02e12da623b",
+    "workId": "9a8cc664a02e12da623b",
+    "driveFileId": "1t5EVQeOH4SsGm9xQWRfKwJ4cr3KuW7qV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:38:25.442214+00:00",
+    "updatedAt": "2026-09-22T12:38:25.442230+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-22T12:38:25.442336+00:00"
+    }
+  }
+}

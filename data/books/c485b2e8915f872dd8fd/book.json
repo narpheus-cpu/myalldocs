@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "드래곤 라자 01",
+    "author": "이영도",
+    "genre": "판타지",
+    "tags": [
+      "드래곤",
+      "라자",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이영도 작가는 한국 판타지 문학의 거장입니다.",
+    "oneLineSummary": "후치 네드발이 드래곤 라자로서 겪는 모험 이야기입니다.",
+    "overallSummary": "후치 네드발이 드래곤 라자로서 드래곤 캇셀프라임과 함께 아무르타트를 물리치기 위한 여정을 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 태양을 향해 달리는 말",
+        "summary": "후치와 일행이 드래곤 라자로서의 여정을 시작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "하이 판타지, 서사 판타지"
+      }
+    ],
+    "keyEntitiesText": "후치 네드발, 캇셀프라임(드래곤), 제미니",
+    "settingText": "가상의 판타지 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GW6uPDqJvHzJRDLPKZArXfEt1PORm4en",
+    "filename": "이영도-드래곤 라자 01(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:11:38.000Z",
+    "size": "639034",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1GW6uPDqJvHzJRDLPKZArXfEt1PORm4en/view?usp=drivesdk",
+    "sourceSha256": "79b16a847b6245f27e202d5b5c346e95328b0fc8dc097e0be61000811149546d",
+    "textSha256": "76877cf773e3694a1da95ad9539e262c0414492dcaf2843fe4b60a3b5d4c9668",
+    "changeKey": "1c08e24c00fee7a256706c1b4476e75e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c485b2e8915f872dd8fd",
+    "workId": "c485b2e8915f872dd8fd",
+    "driveFileId": "1GW6uPDqJvHzJRDLPKZArXfEt1PORm4en",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:39:00.060163+00:00",
+    "updatedAt": "2026-09-22T12:39:00.060178+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:39:00.060268+00:00"
+    }
+  }
+}

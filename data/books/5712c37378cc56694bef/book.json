@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "위저드리",
+    "author": "이영섭",
+    "genre": "판타지",
+    "tags": [
+      "모험",
+      "용병",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이영섭(필명 이원) 작가의 판타지 소설입니다.",
+    "oneLineSummary": "쫓기는 두 소녀와 용병 룩이 함께하는 모험 이야기입니다.",
+    "overallSummary": "가족을 잃고 쫓기는 제드와 레나 남매가 용병 룩을 만나 브리이로 향하며 겪는 모험과 성장을 다룹니다. 제드는 자신의 정체를 숨긴 채 룩과 동행하며 원수를 갚을 기회를 노립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "제드와 레나가 산적을 만나고 용병 룩의 도움을 받아 일행이 됩니다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "제드가 룩에게 자신의 정체와 마법 반지에 대해 털어놓습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "마법 반지, 용병단"
+      }
+    ],
+    "keyEntitiesText": "제드(제나 메이), 레나(안나), 룩 브리스벨드(용병)",
+    "settingText": "중세풍의 가상 판타지 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14UTb8U32h6LCeMVpaDayFsA0QDfNPLqq",
+    "filename": "위저드리.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:48.525Z",
+    "size": "2035828",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/14UTb8U32h6LCeMVpaDayFsA0QDfNPLqq/view?usp=drivesdk",
+    "sourceSha256": "ecd47be123fc5620b0dfc1dbe10d175b3f9e3b0a19545e42871d986eecb6778d",
+    "textSha256": "54b1efa56bc4a8e28d4248a549200fb8198c04055585332440fa002a7b04708d",
+    "changeKey": "dcc44df9e67961a56def471ea6e32a9e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5712c37378cc56694bef",
+    "workId": "5712c37378cc56694bef",
+    "driveFileId": "14UTb8U32h6LCeMVpaDayFsA0QDfNPLqq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:37:26.921645+00:00",
+    "updatedAt": "2026-09-22T12:37:26.921659+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:37:26.921760+00:00"
+    }
+  }
+}

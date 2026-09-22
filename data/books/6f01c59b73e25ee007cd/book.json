@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "위칼레인",
+    "author": "서문다미",
+    "genre": "판타지",
+    "tags": [
+      "도둑",
+      "운명",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서문다미 작가의 판타지 소설입니다.",
+    "oneLineSummary": "도둑 제비가 운명의 갈림길에서 겪는 사건들을 다룬 이야기입니다.",
+    "overallSummary": "도둑인 제비가 영주관의 밀서를 훔치는 의뢰를 수행하다가 로얄가드 로셀리트 그란쥬와 얽히게 되고, 이후 운명이 뒤바뀌는 사건을 겪게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "제비가 영주관 밀서 절도 의뢰를 받고 카르에게 정보를 얻습니다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "영주관에 잠입한 제비가 로셀리트에게 제압당하고 정체가 탄로 날 위기에 처합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 테마",
+        "value": "운명, 선택, 도둑"
+      }
+    ],
+    "keyEntitiesText": "제비(도둑), 카르(점쟁이/정보상), 로셀리트 그란쥬(로얄가드)",
+    "settingText": "상업도시 페이샨, 에인샤텔 왕국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1V8Dk-_PyqD0sK8dfEbN-2ZSwEOWn2sQ6",
+    "filename": "위칼레인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:48.584Z",
+    "size": "1448374",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1V8Dk-_PyqD0sK8dfEbN-2ZSwEOWn2sQ6/view?usp=drivesdk",
+    "sourceSha256": "e3cc82903d24b87835c56a723091d5df2786ac7f613264d6a1e2a7a1fd25ae87",
+    "textSha256": "a6863301c6b65ed62e7bec5bb5e18f8f863e467a8169c5c058f7f45635b881d7",
+    "changeKey": "ea1d92a0092cd1beef95154d88d54da6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6f01c59b73e25ee007cd",
+    "workId": "6f01c59b73e25ee007cd",
+    "driveFileId": "1V8Dk-_PyqD0sK8dfEbN-2ZSwEOWn2sQ6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:37:33.113356+00:00",
+    "updatedAt": "2026-09-22T12:37:33.113373+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:37:33.113483+00:00"
+    }
+  }
+}
