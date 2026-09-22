@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그림자를 찾아서",
+    "author": "이희진",
+    "genre": "SF",
+    "tags": [
+      "시간여행",
+      "디스토피아",
+      "SF소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "주인공 재인이 복잡하고 까다로운 절차를 거쳐 어린 시절로의 시간여행을 준비하는 이야기",
+    "overallSummary": "주인공 재인은 패러다이스 관광을 통해 시간여행을 알아보다가 엄격한 규정과 제약, 그리고 에스코트 동반 의무를 겪게 된다. 다양한 기행 상품들을 살펴보며 흥미를 잃어가던 중, 어린 시절의 생일 사진을 보고 자신의 유년기인 과거로 가기로 결심한다. 온갖 신원조회와 잔고증명, 동의서 작성 등의 까다로운 절차를 거쳐 마침내 에스코트 서진혁을 만나 면담하고 통제실을 거쳐 시간여행 장비가 있는 곳으로 이동한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그림자를 찾아서 1",
+        "summary": "재인은 패러다이스 관광에 12세기 유럽 시간여행을 문의하지만 인종 및 민족 집단 제한 규정으로 거절당하고, 대신 다양한 패키지 상품들을 살펴보다가 자신의 유년기로 가기로 결심한다."
+      },
+      {
+        "sectionTitle": "그림자를 찾아서 2",
+        "summary": "시간여행을 위한 까다로운 신청 절차와 비용 문제를 해결한 재인은 전담 에스코트인 서진혁을 만나 면담을 거치고, 통제실로 이동하여 본격적인 시간여행 준비를 마친다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "시간여행, 에스코트, 미래 관광 상품"
+      }
+    ],
+    "keyEntitiesText": "재인, 서진혁, 패러다이스 관광",
+    "settingText": "시간여행이 일반화된 미래 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "190ryfoQauPlNtl6Pc-EJRzhPeMJrtVtb",
+    "filename": "이희진-그림자를 찾아서.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.318Z",
+    "size": "56577",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/190ryfoQauPlNtl6Pc-EJRzhPeMJrtVtb/view?usp=drivesdk",
+    "sourceSha256": "026f1268ebcc32d02fb138ef4026c2a2920cebfd974c603f7468ed04548a1ebd",
+    "textSha256": "4fec81359e1526386ef41b4ff5fd088139a62ad56650d0bdbb7faa35247af24b",
+    "changeKey": "7ad977343ccbe0b23a15fe4e9fab1bfa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e1b680ade3ab7d1d0eb8",
+    "workId": "e1b680ade3ab7d1d0eb8",
+    "driveFileId": "190ryfoQauPlNtl6Pc-EJRzhPeMJrtVtb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:32:08.073218+00:00",
+    "updatedAt": "2026-09-22T10:32:08.073235+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:32:08.073479+00:00"
+    }
+  }
+}

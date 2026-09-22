@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "휴먼 디비전 1",
+    "author": "존 스칼지",
+    "genre": "SF",
+    "tags": [
+      "노인의전쟁",
+      "휴먼디비전",
+      "SF",
+      "우주외교"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 SF 작가",
+    "oneLineSummary": "외교 임무를 띠고 도약하던 전함 폴크 호가 정체불명의 공격을 받는 이야기",
+    "overallSummary": "개척연맹 외교관 새러 베어 대사와 보좌관 브래드 로버츠는 전함 폴크 호를 타고 은하계를 가로지르는 도약 비행에 오른다. 함교에서 도약의 순간을 지켜본 직후, 폴크 호는 정체 모를 우주선의 무자비한 공격을 받고 심각한 손상을 입는다. 바스타 함장의 지시에 따라 새러와 브래드는 탈출정에 올리지만, 곧 치명적인 위기에 직면한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "파트 1 (일부)",
+        "summary": "새러 베어 대사는 폴크 호의 도약 비행에 동참하여 함교를 방문하고, 도약이 성공한 직후 의문의 적들에게 습격을 받아 탈출정으로 긴급 대피한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "노인의 전쟁 시리즈 세계관 기반 소설"
+      }
+    ],
+    "keyEntitiesText": "새러 베어, 브래드 로버츠, 바스타 함장, 에반스 중위",
+    "settingText": "우주선 폴크 호"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RMcwJkxCzkKrPTb9kl_xUjILYYJGIYgl",
+    "filename": "존 스칼지-노인의전쟁 시리즈_휴먼디비전1(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T22:49:10.000Z",
+    "size": "544790",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1RMcwJkxCzkKrPTb9kl_xUjILYYJGIYgl/view?usp=drivesdk",
+    "sourceSha256": "51608dd963e6dc88477a570a300c3114dcf929b44c31911de780c398fe51971b",
+    "textSha256": "a74b443ead3d7c3c4dd6cb9c24edc4b7d8d056ba64a06541087338822d04be42",
+    "changeKey": "146941df0a88bb3220fb22ffe9e08929",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "09ec38389494f99cb3a5",
+    "workId": "09ec38389494f99cb3a5",
+    "driveFileId": "1RMcwJkxCzkKrPTb9kl_xUjILYYJGIYgl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:33:03.315109+00:00",
+    "updatedAt": "2026-09-22T10:33:03.315126+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:33:03.315211+00:00"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스카이라크호",
+    "author": "에드워드 스미스",
+    "genre": "SF",
+    "tags": [
+      "스카이라크호",
+      "SF",
+      "우주모험",
+      "원자에너지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 SF 작가",
+    "oneLineSummary": "금속 X의 실험으로 엄청난 원자 에너지를 발견한 과학자 시튼의 모험",
+    "overallSummary": "젊은 과학자 시튼은 우연히 금속 X의 액체와 구리 증기 탱크, 전기가 결합하여 물질을 완전히 에너지로 바꾸는 무서운 힘을 발생시킨다는 사실을 발견한다. 친구이자 억만장자 스포츠맨인 크레인과 함께 연구소를 차리고 우주선을 만들 계획을 세우지만, 그의 비밀을 눈치챈 음흉한 과학자 듀켄과 세계 철강 회사는 그 비밀을 가로채기 위해 음모를 꾸민다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "날아간 증기 탱크",
+        "summary": "시튼은 금속 X와 전기 실험 도중 증기 탱크가 무서운 속도로 날아가 버리는 기이한 현상을 목격한다."
+      },
+      {
+        "sectionTitle": "시튼 남매와 크레인",
+        "summary": "시튼의 과거와 누이동생 도로시, 그리고 라이벌이자 친구인 억만장자 크레인과의 우정이 그려진다."
+      },
+      {
+        "sectionTitle": "금속 X를 입수하다",
+        "summary": "시튼은 금속 안마기의 진동을 통해 실험에 성공하고, 크레인과 함께 공장을 세울 준비를 한다."
+      },
+      {
+        "sectionTitle": "눈치챈 듀켄",
+        "summary": "동료 연구원인 듀켄은 시튼의 발견이 원자력을 끌어내는 비밀임을 눈치채고 브루킹즈와 손을 잡고 음모를 꾸민다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "스페이스 오페라의 고전"
+      }
+    ],
+    "keyEntitiesText": "시튼, 도로시, 크레인, 듀켄, 브루킹즈",
+    "settingText": "미국 코네티컷, 워싱턴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LbtThIK4a5__jnhIuhhTKWRyRNGrWp3d",
+    "filename": "E. E. 스미스-스카이라크호(The Skylark Of Space).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.563Z",
+    "size": "87342",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1LbtThIK4a5__jnhIuhhTKWRyRNGrWp3d/view?usp=drivesdk",
+    "sourceSha256": "dab2424047b67420cd7ca4163b1220e60d8c8631b2e6cadc80e84a14251f9ef7",
+    "textSha256": "da6e2a15fff7d4a5e9a8398bc436cc84407d6effeb06f6afba7128f9d4cce2a9",
+    "changeKey": "412c702da3276a571b442a71ad9bcc9c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3ed4cfe9c051523eca87",
+    "workId": "3ed4cfe9c051523eca87",
+    "driveFileId": "1LbtThIK4a5__jnhIuhhTKWRyRNGrWp3d",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:33:23.335046+00:00",
+    "updatedAt": "2026-09-22T10:33:23.335064+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:33:23.335164+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "미래에서 온 편지",
+    "author": "전병주",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "디스토피아",
+      "시간여행",
+      "미래"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "오염된 미래의 연구원 경준이 과거의 흔적과 고문서를 추적하며 벌어지는 이야기",
+    "overallSummary": "2040년대 잿빛 도시와 환경오염으로 황폐해진 미래. 중앙환경개변연구소의 경준은 환경 실태를 점검하기 위해 폐허가 된 서울과 북부 지역을 둘러본다. 과거 1920년대의 예언적 고문서와 관련된 비밀을 파헤치려 하며, 과거와 현재가 묘하게 교차하는 속에서 일상의 답답함과 미래의 암울한 현실을 마주한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "오염된 메가시티와 1920년대 고문서의 예언적 성격에 대해 다룬다."
+      },
+      {
+        "sectionTitle": "1장: 잃어버린 기억",
+        "summary": "1999년의 한 장면과 2041년의 경준이 폐허가 된 서울과 픽 스타디움을 탐사하는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "음울하고 황폐한 디스토피아적 분위기"
+      }
+    ],
+    "keyEntitiesText": "경준, 형민, 큐리오, 혜리",
+    "settingText": "환경오염으로 황폐해진 미래의 메가시티 및 과거의 서울"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DmF-Yy0QZslcx6SNZR12eAhfAZ0ODjyx",
+    "filename": "전병주-미래에서 온 편지 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.334Z",
+    "size": "680660",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1DmF-Yy0QZslcx6SNZR12eAhfAZ0ODjyx/view?usp=drivesdk",
+    "sourceSha256": "6f08336996b180de74b6fce7aec2966f06209c491f4c9c57d735f460ef60bda1",
+    "textSha256": "4eea08e9bfd36ef1b7def610350b977b2733e589404b98ecc98c3123db03dc03",
+    "changeKey": "775c31188fa49a3f483f3433320e911c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "546f67c18f1d42ed5867",
+    "workId": "546f67c18f1d42ed5867",
+    "driveFileId": "1DmF-Yy0QZslcx6SNZR12eAhfAZ0ODjyx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:32:15.208993+00:00",
+    "updatedAt": "2026-09-22T10:32:15.209010+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:32:15.209097+00:00"
+    }
+  }
+}

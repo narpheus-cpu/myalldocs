@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "타임머신",
+    "author": "H. G. 웰즈",
+    "genre": "SF",
+    "tags": [
+      "타임머신",
+      "H.G.웰즈",
+      "시간여행",
+      "SF고전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 소설가이자 SF의 거장",
+    "oneLineSummary": "시간 여행가가 4차원 타임머신을 발명해 80만 년 후의 미래 세계를 방문한 이야기",
+    "overallSummary": "시간 여행가는 친구들을 모아놓고 시간도 공간의 네 번째 차원에 불과하다는 4차원 기하학 이론을 설명하며 타임머신을 선보인다. 작은 모형 실험을 성공시킨 그는 마침내 진짜 타임머신을 완성하여 80만 2천 7백 1년이라는 아득한 미래의 세계로 시간 여행을 떠난다. 그곳에서 지상에는 평화롭지만 나약한 엘로이족과 지하에는 잔인한 몰록족으로 갈라져 퇴화한 인류의 미래를 목격한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "믿겨지지 않는 일",
+        "summary": "시간 여행가는 친구들 앞에서 시간도 공간의 차원과 마찬가지라는 4차원 이론을 펼치며 작은 모형 타임머신이 사라지는 실험을 보여준다."
+      },
+      {
+        "sectionTitle": "다리를 저는 시간 여행가",
+        "summary": "친구들은 그의 주장을 반신반의하면서도 기묘한 실험 결과에 놀라움을 금치 못한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "고전 SF, 시간 여행 소설"
+      }
+    ],
+    "keyEntitiesText": "시간 여행가, 필비, 심리학자, 의사, 위너",
+    "settingText": "영국 런던의 저택, 80만 년 후의 미래 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12uaf9pxZlJwB4ogz0Gip04g3Y19CkJxG",
+    "filename": "H. G. 웰즈-타임머신(The Time Machine).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.645Z",
+    "size": "196878",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/12uaf9pxZlJwB4ogz0Gip04g3Y19CkJxG/view?usp=drivesdk",
+    "sourceSha256": "d8df60b59cf6c819f06d8d0d80c28e7f0e9a761fa69a0df200e743b0d246b83b",
+    "textSha256": "b1c7b4358e871d5ad115849b69f77b2afca65e6ceee0ee24f6c6ee1bb9634163",
+    "changeKey": "d42266963492d88d28d001d10ef6e575",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c0de43bfcbf279444368",
+    "workId": "c0de43bfcbf279444368",
+    "driveFileId": "12uaf9pxZlJwB4ogz0Gip04g3Y19CkJxG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:33:52.151477+00:00",
+    "updatedAt": "2026-09-22T10:33:52.151492+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:33:52.151581+00:00"
+    }
+  }
+}

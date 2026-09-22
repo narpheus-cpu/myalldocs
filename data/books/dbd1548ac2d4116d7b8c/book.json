@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지저 탐험",
+    "author": "쥘 베른",
+    "genre": "모험소설",
+    "tags": [
+      "쥘베른",
+      "지저탐험",
+      "모험",
+      "고전SF"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 소설가이자 SF의 선구자",
+    "oneLineSummary": "오래된 암호문을 해독한 지질학 교수와 조수가 지구의 중심을 향해 모험을 떠나는 이야기",
+    "overallSummary": "독일 함부르크의 지질학 교수 리이덴브로크와 그의 조수이자 조카인 악셀은 우연히 고서적 속에서 16세기 과학자 아르네 사크누셈이 남긴 암호문을 발견한다. 암호를 해독한 결과 스네펠스 산의 분화구를 통해 지구의 중심까지 내려갈 수 있다는 사실을 알게 되고, 교수와 악셀은 위험을 무릅쓰고 아이슬란드로 대담한 지저 탐험을 떠난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "수수께끼의 암호",
+        "summary": "리이덴브로크 교수는 고서적 속에서 룬 문자로 된 의문의 양피지 암호를 발견하고 해독에 매달린다."
+      },
+      {
+        "sectionTitle": "아름다운 소녀",
+        "summary": "교수가 암호에 몰두한 사이 악셀은 연인 그로이벤을 떠올리고, 교수는 암호를 풀 열쇠를 찾기 위해 고민한다."
+      },
+      {
+        "sectionTitle": "아, 알았다!",
+        "summary": "악셀은 우연히 암호문이 오른쪽에서 왼쪽으로 거꾸로 쓰인 라틴어임을 깨닫고 지구 중심에 도달할 수 있는 비법을 알아낸다."
+      },
+      {
+        "sectionTitle": "이제는 떠나자",
+        "summary": "암호의 비밀을 알게 된 교수는 즉시 아이슬란드의 스네펠스로 떠날 채비를 서두르고, 악셀은 위험한 탐험을 말리려다 실패한다."
+      },
+      {
+        "sectionTitle": "그로이벤의 꾸지람",
+        "summary": "그로이벤은 악셀의 겁먹은 태도를 꾸짖으며 훌륭한 탐험이 될 것이라 격려하고, 악셀은 결국 동행을 결심한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "고전 SF, 모험 소설"
+      }
+    ],
+    "keyEntitiesText": "리이덴브로크 교수, 악셀, 그로이벤, 아르네 사크누셈, 마르타 할멈",
+    "settingText": "독일 함부르크 및 아이슬란드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14QT7dpKY8IXXXeoWXWaYLzMMvpti_zUk",
+    "filename": "쥘 베른-지저탐험(Voyage Au Centre De La Terre).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.310Z",
+    "size": "85435",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/14QT7dpKY8IXXXeoWXWaYLzMMvpti_zUk/view?usp=drivesdk",
+    "sourceSha256": "9b08e619ec3e2e890c019c208df47bce7678b6c678a2793150a1183de4347ec5",
+    "textSha256": "a375824eededca29f5800ab7a279f2f6c9f9859472ec136de71f98f737a8058e",
+    "changeKey": "6bfecb99509040411f2b41363d6f62cc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dbd1548ac2d4116d7b8c",
+    "workId": "dbd1548ac2d4116d7b8c",
+    "driveFileId": "14QT7dpKY8IXXXeoWXWaYLzMMvpti_zUk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:33:16.765606+00:00",
+    "updatedAt": "2026-09-22T10:33:16.765623+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:33:16.765722+00:00"
+    }
+  }
+}

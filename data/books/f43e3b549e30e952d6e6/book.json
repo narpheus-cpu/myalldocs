@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "익스팬스: 칼리반의 전쟁 1",
+    "author": "제임스 S. A. 코리",
+    "genre": "SF",
+    "tags": [
+      "우주",
+      "SF",
+      "전쟁",
+      "익스팬스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "다니엘 에이브러햄과 타이 프랭크의 공동 필명",
+    "oneLineSummary": "가니메데를 배경으로 벌어지는 미스터리한 사건과 초인적인 존재의 등장",
+    "overallSummary": "목성의 위성 가니메데에서 평화롭게 지내던 어린 소녀 메이는 스트릭랜드 박사에게 이끌려 이상한 연구실로 향하고, 그곳에서 기이하게 변형된 인간의 모습을 목격한다. 한편, 화성 해병대 이등중사 바비 드레이퍼는 온실 돔 주변을 순찰하던 중 지구 해병대와의 긴장 속에서 예기치 않은 총격과 위협을 감지한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: 메이",
+        "summary": "어린 소녀 메이는 엄마를 만난다는 기대감에 스트릭랜드 박사를 따라나섰다가 비밀스러운 연구실에서 기괴한 인간 생명체를 마주한다."
+      },
+      {
+        "sectionTitle": "1. 바비",
+        "summary": "가니메데의 온실 돔을 경비하던 화성 해병대 바비 드레이퍼는 지구 군과의 대치 상황 속에서 긴급 경보와 함께 설명할 수 없는 비상 상황을 맞이한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "익스팬스 시리즈 제2권"
+      }
+    ],
+    "keyEntitiesText": "메이, 스트릭랜드 박사, 바비 드레이퍼, 힐먼",
+    "settingText": "목성 위성 가니메데"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15GR55iU6XjGR5UzOYi7KtC0ZOW9xzRP5",
+    "filename": "제임스 코리-칼리반의 전쟁 1-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T13:24:16.000Z",
+    "size": "690616",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/15GR55iU6XjGR5UzOYi7KtC0ZOW9xzRP5/view?usp=drivesdk",
+    "sourceSha256": "2b950bf738f063b3caa7cbaf99d6d3dff0030e25baf0eade5d3b26cb8e0f8e5a",
+    "textSha256": "6143ab82e9d0037c9f3d0003dc7ef8980baf2127fe63b773c299aa7f29489966",
+    "changeKey": "2e513807885f8d6027572957cc88e4fa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f43e3b549e30e952d6e6",
+    "workId": "f43e3b549e30e952d6e6",
+    "driveFileId": "15GR55iU6XjGR5UzOYi7KtC0ZOW9xzRP5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:32:33.762404+00:00",
+    "updatedAt": "2026-09-22T10:32:33.762422+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4754,
+      "updatedAt": "2026-09-22T10:32:33.762513+00:00"
+    }
+  }
+}

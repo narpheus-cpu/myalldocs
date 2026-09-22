@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "익스팬스: 깨어난 괴물 1",
+    "author": "제임스 S. A. 코리",
+    "genre": "SF",
+    "tags": [
+      "우주",
+      "SF",
+      "미스터리",
+      "익스팬스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "다니엘 에이브러햄과 타이 프랭크의 공동 필명",
+    "oneLineSummary": "태양계를 배경으로 실종된 인물과 거대한 음모를 파헤치는 우주 SF 소설",
+    "overallSummary": "스코풀라이 호가 나포되고 창고에 갇혀 고통받던 줄리 마오는 극적으로 탈출하지만 엔진실에서 기이한 유기체와 맞닥뜨린다. 한편, 엡스타인 드라이브의 발명으로 인류가 태양계 전역으로 진출한 미래, 얼음 운반선 캔터베리 호의 부선장 짐 홀던은 평화로운 업무 중 예상치 못한 상황과 마주하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: 줄리",
+        "summary": "나포된 우주선 창고에 갇혀 고문과 고립을 견뎌낸 줄리 마오는 마침내 탈출해 엔진실에서 끔찍하고 기이한 유기체를 발견한다."
+      },
+      {
+        "sectionTitle": "1. 홀던",
+        "summary": "엡스타인 드라이브 이후 인류가 태양계로 진출한 시대, 캔터베리 호의 부선장 짐 홀던은 우주선 내의 일상과 승무원들의 업무를 수행한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "익스팬스 시리즈 제1권"
+      }
+    ],
+    "keyEntitiesText": "줄리 마오, 짐 홀던, 나오미 나가타, 에이모스 버튼",
+    "settingText": "태양계, 소행성대, 우주선 캔터베리 호"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iqMo3XnIG8VHFE5KTNomXrgso3XLegnv",
+    "filename": "제임스 코리-익스팬스_깨어난 괴물 1-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T13:21:56.000Z",
+    "size": "689293",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1iqMo3XnIG8VHFE5KTNomXrgso3XLegnv/view?usp=drivesdk",
+    "sourceSha256": "be8ab4a5a471f3a7888e2c4cdafeb2292ac806dabebf298ad0f6b2ea9dba6db2",
+    "textSha256": "0608c86bd04df3a396934f164e366f58ec263008855718edf262114ee90bec75",
+    "changeKey": "5faa7af82f90a8ba92605ebb1835dbb5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a724824261acc4722c15",
+    "workId": "a724824261acc4722c15",
+    "driveFileId": "1iqMo3XnIG8VHFE5KTNomXrgso3XLegnv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:32:26.913497+00:00",
+    "updatedAt": "2026-09-22T10:32:26.913515+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:32:26.913604+00:00"
+    }
+  }
+}

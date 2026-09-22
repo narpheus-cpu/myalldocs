@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "타임 퀼트",
+    "author": "James F. David",
+    "genre": "SF",
+    "tags": [
+      "시간여행",
+      "미스터리",
+      "예언"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "기이한 현상과 예언을 마주한 이들이 다가오는 재앙에 직면하는 이야기",
+    "overallSummary": "사슴 사냥을 떠난 청년들이 옥수수 우박이라는 기이한 현상을 겪고, 대학원생 케니는 고대 예언과 시뮬레이션을 통해 인류에게 닥칠 거대한 재앙을 예감한다. 한편 론과 가족들은 범선을 타고 항해를 준비하며 평화로운 시간을 보내려 하고, 테리와 엘렌은 오레곤 동굴 관광에 나서는 등 평범한 일상 속에서 미묘한 긴장감이 감돌기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 : 옥수수 우박",
+        "summary": "사냥을 떠난 청년들이 하늘에서 내리는 기이한 옥수수 우박을 경험한다."
+      },
+      {
+        "sectionTitle": "1. 기숙사",
+        "summary": "케니는 조라스트러스의 예언 자료와 시뮬레이션을 통해 다가올 재앙을 확신하며 기숙사를 떠나 필쳐 박사 등 동료들을 만난다."
+      },
+      {
+        "sectionTitle": "2. 앙트르프르네호",
+        "summary": "론은 범선 앙트르프르네호에서 카르멘 및 아이들과 함께 항해를 시작하며 가족 간의 유대를 다지려 한다."
+      },
+      {
+        "sectionTitle": "3. 어둠 속의 총",
+        "summary": "테리와 엘렌은 오레곤 동굴 관광에 참여하고, 케니는 그곳에서 누나를 만나 예언의 증거를 전하려 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심소재",
+        "value": "옥수수 우박, 고대 예언, 동굴 관광"
+      }
+    ],
+    "keyEntitiesText": "케니, 필쳐 박사, 론, 카르멘, 테리, 엘렌",
+    "settingText": "오레곤, 플로리다 등 미국 각지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yuQAV7cwP15Ety-I81GAC9S39wSrc50f",
+    "filename": "제임스 데이비드-타임 퀼트.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.392Z",
+    "size": "845223",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1yuQAV7cwP15Ety-I81GAC9S39wSrc50f/view?usp=drivesdk",
+    "sourceSha256": "26c2d2630f99413b0168afba1571a6f11aa6874c646e7192a9fc71cece56b31a",
+    "textSha256": "31ab47ed6f0800bd8d0a6b4f0affc271bb70eb49c08bf4b89de706a6f06d22d7",
+    "changeKey": "fd4726a96b6dd314197761464d13197d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6c4aa78e397452f99627",
+    "workId": "6c4aa78e397452f99627",
+    "driveFileId": "1yuQAV7cwP15Ety-I81GAC9S39wSrc50f",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:32:20.986952+00:00",
+    "updatedAt": "2026-09-22T10:32:20.986968+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:32:20.987058+00:00"
+    }
+  }
+}

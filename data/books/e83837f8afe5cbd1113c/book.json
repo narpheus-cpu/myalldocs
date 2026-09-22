@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우주전쟁",
+    "author": "H. G. 웰즈",
+    "genre": "SF",
+    "tags": [
+      "우주전쟁",
+      "H.G.웰즈",
+      "SF고전",
+      "화성인침공"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 소설가이자 SF의 거장",
+    "oneLineSummary": "자원이 고갈된 화성인들이 지구를 침공하여 인류와 벌이는 치열한 전쟁",
+    "overallSummary": "화성은 지보다 먼저 식어버려 생명체가 살아가기 힘든 환경이 되었고, 화성인들은 따뜻하고 물이 풍부한 지구를 탐시하며 오랜 세월 침공을 준비해왔다. 마침내 화성에서 거대한 실린더 형태의 로켓들이 지구로 발사되어 런던 근교 워킹 들판에 떨어진다. 뚜껑이 열리면서 징그러운 촉수를 가진 화성인들이 나타나 파괴적인 열선과 무기를 앞세워 지구를 초토화하기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "지구를 노리는 화성인",
+        "summary": "화성의 환경 악화와 멸망 위기에 처한 화성인들이 더 우수한 환경의 지구를 관찰하며 침공 계획을 세운다."
+      },
+      {
+        "sectionTitle": "지구에 떨어진 별똥별",
+        "summary": "새벽녘 윈체스터 상공에 초록빛 불빛이 지나치고, 천문학자 오글비는 호셀 들판에 떨어진 거대한 둥근 통을 발견한다."
+      },
+      {
+        "sectionTitle": "떨어진 로켓",
+        "summary": "들판에 모여든 구경꾼들과 오글비가 지켜보는 가운데 둥근 통의 뚜껑이 열리고, 뱀 같은 촉수와 빛나는 눈을 가진 징그러운 화성인이 기어 나온다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "고전 SF, 외계인 침공 소설"
+      }
+    ],
+    "keyEntitiesText": "오글비, 핸더슨, 스텐트",
+    "settingText": "영국 런던 근교 워킹 들판"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1o9J1h8fjQjnku8JWMFxRDOvbYlFQYJDT",
+    "filename": "H. G. 웰즈-우주전쟁(The War of the Worlds).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.633Z",
+    "size": "186435",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1o9J1h8fjQjnku8JWMFxRDOvbYlFQYJDT/view?usp=drivesdk",
+    "sourceSha256": "1d88befea2f938ef517ec2748c9de572ac3fceff3f7f1e509b0620c88d390a5a",
+    "textSha256": "fc48253c6f8303b60b8b2054211a587b875dc0e8b23be410d3efcb803948cc21",
+    "changeKey": "51a112c0aa811d2c4605782e8b3a0290",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e83837f8afe5cbd1113c",
+    "workId": "e83837f8afe5cbd1113c",
+    "driveFileId": "1o9J1h8fjQjnku8JWMFxRDOvbYlFQYJDT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:33:46.647684+00:00",
+    "updatedAt": "2026-09-22T10:33:46.647701+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:33:46.647792+00:00"
+    }
+  }
+}

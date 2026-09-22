@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마지막 행성",
+    "author": "존 스칼지",
+    "genre": "SF",
+    "tags": [
+      "노인의전쟁",
+      "SF",
+      "개척행성",
+      "우주"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 SF 작가",
+    "oneLineSummary": "개척 행성 허클베리에서 민정관으로 평화로운 삶을 살아가려는 존 페리의 이야기",
+    "overallSummary": "지구를 떠나 강화된 신체로 전투를 치렀던 존 페리는 이제 여든여덟 살의 나이로 개척 행성 허클베리의 뉴고아 마을에서 아내 제인, 양딸 조이와 함께 평화로운 정착 생활을 하고 있다. 마을 민정관으로서 주민들의 사소한 갈등을 중재하며 살아가지만, 개척지의 삶은 언제나 예상치 못한 소동들로 가득하다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 1부",
+        "summary": "존 페리는 허클베리 행성에서의 삶을 회상하며, 마을 민정관으로서 첸겔페트 형제의 염소 교배 문제 같은 사소하지만 골치 아픈 민원을 해결한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "노인의 전쟁 시리즈 제3권"
+      }
+    ],
+    "keyEntitiesText": "존 페리, 사비트리 군투팔리, 제인 세이건, 첸겔페트 형제",
+    "settingText": "개척 행성 허클베리, 뉴고아 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Q9dbSXO02yxNdVZn-VXxPb5DgXL7Bd8G",
+    "filename": "존 스칼지-노인의전쟁 시리즈_마지막 행성(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T22:43:56.000Z",
+    "size": "663935",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1Q9dbSXO02yxNdVZn-VXxPb5DgXL7Bd8G/view?usp=drivesdk",
+    "sourceSha256": "d5e76313f9f1911f80b8a99ae03142a0d294d3a263e7d83b8d48e2315ba3c698",
+    "textSha256": "8af9ec9e83736c2dee8fead944b8e6945220d161d4bfdb18e0cd480c86c84ac7",
+    "changeKey": "692ba018167d0fc9d9a2a85cd02fbb3a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "841c64f9883cfc6616c5",
+    "workId": "841c64f9883cfc6616c5",
+    "driveFileId": "1Q9dbSXO02yxNdVZn-VXxPb5DgXL7Bd8G",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:32:42.064736+00:00",
+    "updatedAt": "2026-09-22T10:32:42.064754+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:32:42.064840+00:00"
+    }
+  }
+}

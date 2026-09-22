@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유령여단",
+    "author": "존 스칼지",
+    "genre": "SF",
+    "tags": [
+      "노인의전쟁",
+      "유령여단",
+      "SF",
+      "우주"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 SF 작가",
+    "oneLineSummary": "우주개척방위군의 군사 기지에서 외계의 갑작스러운 공격을 마주한 과학자 카이넨의 이야기",
+    "overallSummary": "죽은 단주기 혜성의 궤도를 떠돌던 작은 바위 하나가 어느 추운 개척 행성의 군사 기지로 떨어지면서 강력한 지진과 함께 기지가 공격받기 시작한다. 구조지질학 연구실에서 일하던 카이넨은 갑작스러운 비상사태 속에서 조수 샤란과 헤어지고, 기지 사령관인 아텐 란트의 안내를 받아 지하 선로를 통해 탈출을 시도한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "파트 1 (일부)",
+        "summary": "우주에서 날아온 운석의 충돌로 군사 기지에 비상 경보가 울리고, 카이넨은 에네샤인 사령관 아텐 란트의 안내에 따라 안전한 곳으로 대피하기 위해 이동한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "노인의 전쟁 시리즈 제2권"
+      }
+    ],
+    "keyEntitiesText": "카이넨, 샤란, 아텐 란트",
+    "settingText": "우주개척방위군 소속의 어느 추운 외계 군사 기지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ITKS4gMzLmYGf3R5a-k5jYh81YJbVYy-",
+    "filename": "존 스칼지-노인의전쟁 시리즈_유령여단(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T22:45:42.000Z",
+    "size": "661814",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1ITKS4gMzLmYGf3R5a-k5jYh81YJbVYy-/view?usp=drivesdk",
+    "sourceSha256": "1697e9e4cd9959df867abce6094ddbfef93c2a06ffc1e697245e33ff6982a455",
+    "textSha256": "c31e9b38bd7bbd87872f5dd1cc51aff52222a6df079abf7c0a5429e06a7517b6",
+    "changeKey": "e07400a05d8a92f15a3c19aa8623ab9a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1dcb2b48464059587790",
+    "workId": "1dcb2b48464059587790",
+    "driveFileId": "1ITKS4gMzLmYGf3R5a-k5jYh81YJbVYy-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:32:50.889044+00:00",
+    "updatedAt": "2026-09-22T10:32:50.889060+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:32:50.889147+00:00"
+    }
+  }
+}

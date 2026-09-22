@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "조이 이야기",
+    "author": "존 스칼지",
+    "genre": "SF",
+    "tags": [
+      "노인의전쟁",
+      "조이야기",
+      "SF",
+      "외전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 SF 작가",
+    "oneLineSummary": "새로운 개척 행성 로아노크에 도착한 10대 소녀 조이의 시선으로 그린 이야기",
+    "overallSummary": "존 페리와 제인 세이건의 양딸이자 샤를 부탱의 딸인 열일곱 살 소녀 조이는 마침내 인류의 새로운 고향이 될 초록색과 파란색의 아름다운 행성 로아노크에 도착한다. 정착민들과 함께 감격적인 순간을 자축하고 남자 친구 엔조와 첫 키스를 나누는 등 부모와 친구들 사이에서 새로운 삶의 설렘을 만끽하지만, 승무원들의 엇갈린 대화를 우연히 엿듣고 불안감을 느낀다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 파트 1 (일부)",
+        "summary": "마젤란 호가 새로운 개척 행성 로아노크에 도약하여 도착하고, 조이는 정착민들과 함께 기뻐하며 엔조와 데이트를 즐기던 중 우연히 승무원들의 심상치 않은 대화를 엿듣게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "노인의 전쟁 시리즈 외전 (마지막 행성의 평행 소설)"
+      }
+    ],
+    "keyEntitiesText": "조이, 엔조, 그레첸, 매그디, 존 페리, 제인 세이건",
+    "settingText": "우주선 마젤란 호 및 개척 행성 로아노크"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ocR9zOXnt_QpTHWzdAlkU5SRcnzCd18j",
+    "filename": "존 스칼지-노인의전쟁 시리즈_조이 이야기(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T22:47:40.000Z",
+    "size": "715368",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1ocR9zOXnt_QpTHWzdAlkU5SRcnzCd18j/view?usp=drivesdk",
+    "sourceSha256": "ae33ea19f389ffca8d4d17bc396c4f1bb80b7252b20c59f5b00d0a6fa1ac1de7",
+    "textSha256": "4d79edbbca01d07c3675141295c364479878820b211139cdbe73a565bb2ea179",
+    "changeKey": "aa9ce048ad15180ca0010e917480a378",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "776f2aba3fbaee2a7c5c",
+    "workId": "776f2aba3fbaee2a7c5c",
+    "driveFileId": "1ocR9zOXnt_QpTHWzdAlkU5SRcnzCd18j",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:32:56.946706+00:00",
+    "updatedAt": "2026-09-22T10:32:56.946723+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:32:56.946810+00:00"
+    }
+  }
+}

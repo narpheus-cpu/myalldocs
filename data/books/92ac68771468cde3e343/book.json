@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "별을 쫓는 사람들",
+    "author": "E. E. 에반스",
+    "genre": "SF",
+    "tags": [
+      "별을쫓는사람들",
+      "우주모험",
+      "SF",
+      "행성탐사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 SF 작가",
+    "oneLineSummary": "우주 탐사 도중 아버지가 부상을 입자, 가족들이 힘을 합쳐 미지의 행성에 착륙하는 이야기",
+    "overallSummary": "우주 개척자인 테드 가버와 가족들이 타고 있던 우주정 '스타 로버'가 작은 운석과 충돌하여 아버지가 머리를 다치고 다리가 부러지는 중상을 입는다. 어머니와 형 잭, 그리고 16세 소년 존은 당황하지만 서로를 격려하며 침착하게 우주정의 항로를 유지하고, 마침내 미지의 태양계 속 살 수 있는 행성을 찾아내어 무사히 착륙한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아빠의 부상",
+        "summary": "우주정이 운석에 부딪쳐 구멍이 뚫리고 아버지가 머리와 다리를 다치는 사고가 발생하자, 16세 소년 존은 응급 수리를 마치고 가족들을 진정시킨다."
+      },
+      {
+        "sectionTitle": "행성착륙",
+        "summary": "존과 가족들은 수면 학습기와 아버지가 가르쳐준 지식을 바탕으로 미지의 행성계에 접근하여 인류가 살 수 있는 훌륭한 행성을 발견하고 무사히 착륙한다."
+      },
+      {
+        "sectionTitle": "공포의 낚시",
+        "summary": "존과 잭은 행성의 숲과 시냇물을 탐사하며 낚시와 사냥을 통해 새로운 환경에 적응해 나간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "가족의 협력과 미지의 행성 개척"
+      }
+    ],
+    "keyEntitiesText": "존, 잭, 테드 가버 (아버지), 어머니",
+    "settingText": "우주정 스타 로버, 미지의 가버 태양계 행성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HDGWPIF1T3Pp9-tcx7uP61Vlzn3FFViE",
+    "filename": "E. E. 에반스-별을 쫓는 사람들(Planet Mappers).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.588Z",
+    "size": "82531",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1HDGWPIF1T3Pp9-tcx7uP61Vlzn3FFViE/view?usp=drivesdk",
+    "sourceSha256": "142b8ae76c0cbd0919925cfdd6340412f0502f516d89a39eaa99381f61ca6027",
+    "textSha256": "c1b8b80fe239cc64f6be1d92fe8b6e432221060c26e083b2658d7cfde73beb9b",
+    "changeKey": "7c335a2a225ad1d7fa2a450f9a376c4a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "92ac68771468cde3e343",
+    "workId": "92ac68771468cde3e343",
+    "driveFileId": "1HDGWPIF1T3Pp9-tcx7uP61Vlzn3FFViE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:33:35.145008+00:00",
+    "updatedAt": "2026-09-22T10:33:35.145024+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:33:35.145119+00:00"
+    }
+  }
+}

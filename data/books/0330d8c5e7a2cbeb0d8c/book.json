@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "절대 0도의 수수께끼",
+    "author": "E. S. 가드너",
+    "genre": "추리소설",
+    "tags": [
+      "추리",
+      "미스터리",
+      "탐정",
+      "유괴사건"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 추리 작가 (페리 메이슨 시리즈의 저자)",
+    "oneLineSummary": "억만장자 유괴 사건과 절대 0도의 비밀을 파헤치는 명탐정 시드 로드니의 활약",
+    "overallSummary": "로스앤젤레스에서 억만장자 덴저 필더가 유괴되는 괴이한 사건이 발생한다. 범인은 경찰 본부의 핸더 총경에게 편지를 보내 50만 달러의 몸값을 요구하고, 은행장 솔로몬은 지불을 거절한다. 핑커튼 탐정소의 명탐정 시드 로드니는 천재 과학자 크롬이 범인일 가능성을 제기하고, 경찰과 기자들이 사건의 진실을 쫓아 그랜트 가의 창고로 수색에 나선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "괴이한 유괴 사건",
+        "summary": "억만장자 덴저 필더의 비서 샘즈가 경찰 본부에 찾아와 필더의 유괴 협박 편지를 전달한다."
+      },
+      {
+        "sectionTitle": "대답은 '아니오'",
+        "summary": "은행장 솔로몬이 나타나 예금액을 초과하는 몸값 지불을 단호하게 거절한다."
+      },
+      {
+        "sectionTitle": "총경 허풍 떨다",
+        "summary": "핸더 총경이 기자들에게 24시간 이내 범인 체포를 공언하고, 로드니는 용의자로 과학자 앨버트 크롬을 지목한다."
+      },
+      {
+        "sectionTitle": "그랜트 가의 창고",
+        "summary": "로드니와 총경 등 수색대는 크롬이 실험실로 빌렸던 그랜트 가의 창고로 들이닥쳐 엘리베이터 안에서 최근의 흔적을 발견한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "정통 추리 및 탐정 소설"
+      }
+    ],
+    "keyEntitiesText": "덴저 필더, 핸더 총경, 샘즈, 앨버트 크롬, 시드 로드니, 아서 솔로몬, 루비 기자",
+    "settingText": "로스앤젤레스 경찰 본부, 그랜트 가 창고"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1O4j6wDwo_0la8HLR2CysCSPudW_N0q-O",
+    "filename": "E.S.가드너-절대 0도의 수수께끼 (The Human Zero).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.598Z",
+    "size": "131694",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1O4j6wDwo_0la8HLR2CysCSPudW_N0q-O/view?usp=drivesdk",
+    "sourceSha256": "e8b38b0e45a33a7e8060803e7f0ffdab0b9f9bad9baade99a5b5231a5f4c740c",
+    "textSha256": "dd75ff6189e1fa9d6c6096da1eb832100fd7e9b7eb7202ebbe242d5b08df3d74",
+    "changeKey": "a67d5c8176beada0d56ca4ea02a55eab",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0330d8c5e7a2cbeb0d8c",
+    "workId": "0330d8c5e7a2cbeb0d8c",
+    "driveFileId": "1O4j6wDwo_0la8HLR2CysCSPudW_N0q-O",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:33:40.548672+00:00",
+    "updatedAt": "2026-09-22T10:33:40.548689+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:33:40.548784+00:00"
+    }
+  }
+}
