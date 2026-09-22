@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동주 열국지 2",
+    "author": "풍몽룡",
+    "genre": "소설 / 역사소설",
+    "tags": [
+      "열국지",
+      "춘추전국시대",
+      "제양공",
+      "문강",
+      "노장공"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "역자 김구용은 방대한 '동주 열국지' 완역을 통해 춘추전국시대의 복잡한 인간 군상과 정치를 생생하게 전달했다.",
+    "oneLineSummary": "제나라 양공의 음탕한 소행과 여동생 문강과의 근친상간, 그리고 위나라의 왕위 다툼에 개입하여 주나라 왕군을 무찌르는 제후들의 약육강식 투쟁을 다룬 역사 소설.",
+    "overallSummary": "제나라 양공이 여동생 문강과의 음행을 지속하며 노나라 장공을 사위로 삼아 회유하고, 이웃 기나라를 멸망시키는 한편, 위나라의 망명한 위후 삭을 복위시키기 위해 5국 연합군을 결성하여 주나라 천자의 군사(자돌)를 전멸시키는 등 제후들의 권력 투쟁과 도덕적 타락을 묘사한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "귀신을 만난 제양공",
+        "summary": "제양공이 기나라를 멸망시키고 노장공과 정혼하여 관계를 다지는 과정, 위나라의 내란에 개입하여 주나라 천자가 보낸 자돌의 군대를 무찌르고 위후 삭을 복위시키는 대외 정벌 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 교훈",
+        "value": "천자의 권위가 땅에 떨어지고 제후들이 힘의 논리(약육강식)에 따라 동맹과 정벌을 일삼는 춘추시대의 정치적 현실을 보여줌"
+      }
+    ],
+    "keyEntitiesText": "제양공, 문강, 노장공, 위후 삭, 자돌, 숙희, 영계",
+    "settingText": "고대 중국 춘추시대의 제나라, 노나라, 위나라 및 주나라 왕실 영토"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1mcfuWjNO7IzZaOa8agKNWn-kb0eSXUGC",
+    "filename": "동주 열국지02(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T18:51:44.000Z",
+    "size": "632679",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "동주 열국지"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/동주 열국지",
+    "webViewLink": "https://drive.google.com/file/d/1mcfuWjNO7IzZaOa8agKNWn-kb0eSXUGC/view?usp=drivesdk",
+    "sourceSha256": "e5995dc7c75dc10f3eaf667d485f93d4218ef31997ac0bb5f9c2e97fcb2e32c2",
+    "textSha256": "2a82313df01b573e79712c48b86bb3cd58737775028ab0ba434f5ff724883f5d",
+    "changeKey": "ac16c6a9b1b105955335c81236910a96",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b67804a988283bdea238",
+    "workId": "b67804a988283bdea238",
+    "driveFileId": "1mcfuWjNO7IzZaOa8agKNWn-kb0eSXUGC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:25:52.500995+00:00",
+    "updatedAt": "2026-09-22T18:25:52.501011+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.615,
+      "updatedAt": "2026-09-22T18:25:52.501117+00:00"
+    }
+  }
+}

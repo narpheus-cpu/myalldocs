@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "상식 밖의 경제학",
+    "author": "댄 애리얼리",
+    "genre": "경제학 / 심리학",
+    "tags": [
+      "행동경제학",
+      "비합리성",
+      "의사결정",
+      "인지적 제약",
+      "소비자 심리"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "practical_manual",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "행동경제학계의 대표 주자로, 젊은 시절 전신 화상을 입고 병원에서 보낸 고통스러운 치료 경험을 계기로 인간 행동의 동기와 비합리적 의사결정 과정을 연구하기 시작했다.",
+    "oneLineSummary": "인간이 합리적이라는 전통 경제학의 가정을 깨고, 일상에서 반복되는 체계적이고 예측 가능한 비합리적 행동 패턴을 실험을 통해 증명한 행동경제학의 고전.",
+    "overallSummary": "저자가 화상 병동에서 겪은 치료 방식에 대한 의문에서 출발하여 학문적 연구로 발전시킨 과정을 소개하고, 스마트폰과 디지털 환경 속에서 마케터들의 설계에 휘둘리는 현대인들의 인지적 제약과 비이성적 소비, 지불의 고통 등을 분석하며 더 나은 의사결정을 돕는 도구의 필요성을 역설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한국어판 출간 10주년 기념 서문",
+        "summary": "출간 이후 10년간 스마트폰 보급 등 디지털 환경 변화가 인지적 제약과 비이성적 지출에 미친 영향을 분석하고 인지도구의 필요성을 제안한다."
+      },
+      {
+        "sectionTitle": "머리말",
+        "summary": "저자의 화상 사고 경험과 병동 간호사들의 잘못된 선입견(붕대 제거 방식)에 대한 실험적 검증 과정을 통해 인간의 예측 가능한 비합리성을 연구하게 된 동기를 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "행동경제학적 통찰",
+        "value": "인간의 비합리성은 무작위적인 실수가 아니라 특정한 상황에서 체계적이고 반복적으로 나타나므로 예측 및 교정이 가능함"
+      }
+    ],
+    "keyEntitiesText": "댄 애리얼리, 신지웅, 하난 프렌크, 론 웨이스버그, 에티",
+    "settingText": "현대의 디지털 소비 환경 및 저자가 치료받았던 화상 병동"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-I_MZ60-ai0psM2GZcUX26j8Tce0j93K",
+    "filename": "댄 애리얼리-상식밖의 경제학(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.008Z",
+    "size": "462998",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1-I_MZ60-ai0psM2GZcUX26j8Tce0j93K/view?usp=drivesdk",
+    "sourceSha256": "d1b3c1c807282ebcc363164cf8b7849fc448c698d1263a5d552bfb19de18f4d8",
+    "textSha256": "f18a0ec179e8705a0a33bee04f985828bb1341a66826fec230ba3ab4593a9690",
+    "changeKey": "85f5b657d14d75eca5a5cf6c730a7fd2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4ee253b14b5b66ecf099",
+    "workId": "4ee253b14b5b66ecf099",
+    "driveFileId": "1-I_MZ60-ai0psM2GZcUX26j8Tce0j93K",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:22:45.070971+00:00",
+    "updatedAt": "2026-09-22T18:22:45.070986+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:22:45.071098+00:00"
+    }
+  }
+}

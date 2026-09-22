@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대학, 중용",
+    "author": "주희",
+    "genre": "철학 / 동양고전",
+    "tags": [
+      "대학",
+      "중용",
+      "주희",
+      "성리학",
+      "사서장구"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "주희(주자)는 남송 시대의 사상가로, 성리학의 기틀을 마련하고 사서(대학, 중용, 논어, 맹자) 체제를 완성하여 조선을 비롯한 동아시아 지식인 사회에 막대한 영향을 끼쳤다.",
+    "oneLineSummary": "송대 주희가 성리학적 관점에서 재해석하고 장절을 나누어 정립한 유교 윤리와 형이상학의 핵심 입문서인 '대학'과 '중용'.",
+    "overallSummary": "본래 예기의 일부분이었던 '대학'과 '중용'이 수당대 불교·도교에 대응하는 유학의 이론적 기제로 부각된 배경을 설명하고, 주희가 도통론에 근거하여 증자와 자사를 저자로 규정하며 사서 체제를 완성한 과정과 그 구성 체제를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "옮긴이의 말 및 해제",
+        "summary": "대학과 중용의 성립 시기, 저자 논란, 사상사적 배경 및 주희, 왕수인, 정약용의 상이한 해석적 관점을 비교 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "학술적 가치",
+        "value": "개인의 수양(수기)에서 천하 평정(치인)으로 나아가는 도덕 실천 체계(대학)와 천인합일의 형이상학적 원리(중용)를 제공함"
+      }
+    ],
+    "keyEntitiesText": "주희, 공자, 증자, 자사, 맹자, 왕수인, 정약용",
+    "settingText": "남송 시대 및 조선 유학자들의 학문적 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11XseRI0q47WnLOHMvhWnJsOaTdykf76j",
+    "filename": "대학, 중용-주희 엮음.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.999Z",
+    "size": "216274",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/11XseRI0q47WnLOHMvhWnJsOaTdykf76j/view?usp=drivesdk",
+    "sourceSha256": "a2e4ca2eb8d9d71aeb2387cef107c6efc186caf3e31ad1e0e59383d490699b86",
+    "textSha256": "086aa74adca06265aa48358994f909bb028db1b9d74414b36d813b794bd68dc4",
+    "changeKey": "461914194d869da7f1cae76838acdd54",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8a3a2d0d319e967d3d5f",
+    "workId": "8a3a2d0d319e967d3d5f",
+    "driveFileId": "11XseRI0q47WnLOHMvhWnJsOaTdykf76j",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:21:34.399023+00:00",
+    "updatedAt": "2026-09-22T18:21:34.399039+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:21:34.399132+00:00"
+    }
+  }
+}

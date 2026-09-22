@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마사 이야기",
+    "author": "니콜로 마키아벨리",
+    "genre": "역사 / 정치학",
+    "tags": [
+      "마키아벨리",
+      "로마사",
+      "공화정",
+      "제국주의",
+      "정치철학"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이탈리아의 사상가이자 정치가인 니콜로 마키아벨리.",
+    "oneLineSummary": "로마 공화정의 역사와 제국 팽창의 원인을 분석하며 군사적 자질과 정치 구조의 관계를 조명한 역사 정치 평론.",
+    "overallSummary": "로마가 대제국으로 성장할 수 있었던 원인을 군사적 가치관, 지도자층의 경쟁 구조, 전쟁을 통한 경제적 이익(노예제 및 영토 확장), 그리고 독특한 동맹 관계와 정당한 전쟁 명분 등 로마 사회의 특성에서 찾아 분석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "로마란 무엇인가",
+        "summary": "로마의 탄생과 제국 성립 요인, 그리고 흥망론에 대한 역사적 논의를 소개한다."
+      },
+      {
+        "sectionTitle": "로마의 군사적 자질과 가치관",
+        "summary": "로마 지도자층이 출세와 가문의 번영을 위해 전쟁터에서 군사적 재능을 증명해야 했던 사회적 구조를 설명한다."
+      },
+      {
+        "sectionTitle": "로마 전쟁이 가져오는 것",
+        "summary": "전쟁을 통한 전리품, 토지 분배, 노예 노동력 확보가 로마 경제 구조와 평민의 불만 해소에 미친 영향을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정치적 분석",
+        "value": "로마의 팽창은 단순한 침략이 아니라 내부의 군사적 가치관과 경제적 노예제 구조가 맞물려 발생한 필연적 결과임"
+      }
+    ],
+    "keyEntitiesText": "마키아벨리, 로마, 카르타고, 마케도니아, 평민, 귀족",
+    "settingText": "고대 로마 공화정 및 지중해 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ejz2sopP8kb_9utOhxgw1vZTubnxTZSK",
+    "filename": "니콜로 마키아벨리-로마사 이야기(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T15:10:28.000Z",
+    "size": "1508371",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1ejz2sopP8kb_9utOhxgw1vZTubnxTZSK/view?usp=drivesdk",
+    "sourceSha256": "b296d540e30190594dc9b6f04bb6a41fdafcd215bb85d06ffbf050ae6d5bb3ec",
+    "textSha256": "807e968e37c73ef9f66126c100d6afd8d906b5cadc4eea1c0f4707a0df782dc7",
+    "changeKey": "c248a473b645ce3731c88d24778d6a76",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "436f635d02203ad208cb",
+    "workId": "436f635d02203ad208cb",
+    "driveFileId": "1ejz2sopP8kb_9utOhxgw1vZTubnxTZSK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:19:14.798448+00:00",
+    "updatedAt": "2026-09-22T18:19:14.798506+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:19:14.798632+00:00"
+    }
+  }
+}

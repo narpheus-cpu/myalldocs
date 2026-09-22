@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "정복의 법칙",
+    "author": "데이비드 데이",
+    "genre": "역사 / 정치학",
+    "tags": [
+      "정복",
+      "영토",
+      "식민주의",
+      "소유권",
+      "역사 서사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 데이비드 데이는 역사학자로, 아일랜드 더블린 대학교 등에서 강의했으며 인구 이동과 영토 소유권의 역사적 과정을 연구해왔다.",
+    "oneLineSummary": "한 사회가 다른 사회의 영토를 정복하고 약탈한 뒤, 법률, 지도 제작, 이름 붙이기, 역사 왜곡 등을 통해 그 땅에 대한 소유권을 정당화해 나가는 과정을 분석한 역사서.",
+    "overallSummary": "인류의 역사를 끊임없는 인구 이동과 영토 정복의 역사로 규정하고, 스페인의 아스텍 정복과 영국의 오스트레일리아 정착 사례 등을 통해 침략자들이 피정복민을 몰아내고 자신들의 지배를 확고히 하기 위해 사용하는 다층적인 정복의 법칙들을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가는 말",
+        "summary": "저자가 아일랜드와 그리스에서 겪은 개인적 경험을 통해 '한 사회가 어떻게 타인의 땅을 자기 것으로 만드는가'라는 역사적 의문을 품게 된 계기를 설명한다."
+      },
+      {
+        "sectionTitle": "서장",
+        "summary": "1519년 코르테스의 아스텍 제국 침략과 1942년 일본의 오스트레일리아 다윈 공습 위기를 대조하며, 영토 소유권의 불안정성과 정복자들이 지배를 정당화하는 심리적·역사적 과정을 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정복의 메커니즘",
+        "value": "단순한 무력 점령을 넘어 법률적 주장, 이름 바꾸기, 이야기 만들기(역사 왜곡), 피정복민 말살 등을 통해 영토 소유권을 독점하려 함"
+      }
+    ],
+    "keyEntitiesText": "데이비드 데이, 에르난 코르테스, 몬테수마, 윈스턴 처칠, 에아킨, 칠라",
+    "settingText": "아스텍 제국의 테노치틀란, 오스트레일리아 다윈, 아일랜드, 그리스 북부 마케도니아"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RQJrO8OD3Vfm3BGNMU1fPj6jJPDfsAQg",
+    "filename": "데이비드 데이-정복의 법칙(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T20:49:20.000Z",
+    "size": "888087",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1RQJrO8OD3Vfm3BGNMU1fPj6jJPDfsAQg/view?usp=drivesdk",
+    "sourceSha256": "cd574bf97d94916755d9b6e62007b80e6c74da6edc2801c87f0c9731c3ecc2b8",
+    "textSha256": "f60f601fbc4874410851bbaf3e5da011fe77d19d78b36a1bf7a4fdbaac65fa4a",
+    "changeKey": "ad744addeb02b03f929e5503bc654402",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a047cbd5807c87429748",
+    "workId": "a047cbd5807c87429748",
+    "driveFileId": "1RQJrO8OD3Vfm3BGNMU1fPj6jJPDfsAQg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:23:12.173685+00:00",
+    "updatedAt": "2026-09-22T18:23:12.173701+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:23:12.173817+00:00"
+    }
+  }
+}

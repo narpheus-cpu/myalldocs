@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인간이란 무엇인가",
+    "author": "데이비드 흄",
+    "genre": "철학 / 고전",
+    "tags": [
+      "데이비드 흄",
+      "인성론",
+      "경험론",
+      "인상",
+      "관념"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "18세기 영국의 대표적인 경험론 철학자로, 인간 본성에 대한 과학적 탐구를 통해 모든 학문의 굳건한 바탕을 마련하고자 했다.",
+    "oneLineSummary": "인간의 오성, 정념, 도덕을 경험과 관찰이라는 실험적 방법을 통해 분석하여 인간 본성의 원리를 규명하고자 한 경험론 철학의 명저.",
+    "overallSummary": "기존 형이상학의 불확실성과 독단을 비판하며, 모든 학문의 기초가 되는 '인간학'을 수립하기 위해 경험과 관찰을 유일한 바탕으로 삼는다. 정신의 지각을 '인상'과 '관념'으로 구분하고, 단순 지각과 복합 지각의 관계를 통해 인간 인식의 한계와 원리를 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리글",
+        "summary": "철학적 논쟁의 불확실성을 지적하고, 인간 본성에 대한 탐구(인간학)가 수학, 자연학, 자연종교 등 모든 학문의 유일하고 굳건한 바탕임을 역설한다."
+      },
+      {
+        "sectionTitle": "1부 1장 관념의 기원에 대하여",
+        "summary": "정신의 모든 지각을 생동성에 따라 '인상'과 '관념'으로 나누고, 이를 다시 단순 지각과 복합 지각으로 구분하여 모든 단순 관념이 단순 인상에서 비롯된다는 원칙을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인식론적 구분",
+        "value": "인상(Impression)은 최고의 생동성을 가진 직접적 지각이며, 관념(Idea)은 인상이 정신 속에서 흐릿하게 반영된 사고의 도구임"
+      }
+    ],
+    "keyEntitiesText": "데이비드 흄, 김성숙, 탈레스, 소크라테스, 베이컨",
+    "settingText": "18세기 영국 철학계 및 경험론적 학문 탐구 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xxPn-QPVFHNXXrF0PzAku6U0EdBCBnCS",
+    "filename": "데이비드 흄-인간이란 무엇인가(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T15:38:28.000Z",
+    "size": "2192668",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1xxPn-QPVFHNXXrF0PzAku6U0EdBCBnCS/view?usp=drivesdk",
+    "sourceSha256": "c1115415fc16eca279e99de11c2d0bf5d90a2fd92f224646153464634f8156d2",
+    "textSha256": "90b6b32eb6f223829e595d95d5c850f41efa2231f40dc9ab594bf056b7f0f02a",
+    "changeKey": "3b1ca3728e9882176f5f2007fb633830",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "21eb89bb5484fb49a19a",
+    "workId": "21eb89bb5484fb49a19a",
+    "driveFileId": "1xxPn-QPVFHNXXrF0PzAku6U0EdBCBnCS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:24:10.919547+00:00",
+    "updatedAt": "2026-09-22T18:24:10.919565+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:24:10.919682+00:00"
+    }
+  }
+}

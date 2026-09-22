@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "철학에세이",
+    "author": "동녘 편집부",
+    "genre": "철학 / 교양",
+    "tags": [
+      "철학",
+      "변증법",
+      "일상생활",
+      "세계관",
+      "동녘"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction",
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도서출판 동녘 편집부는 삶의 나침반이 되는 대중적이고 과학적인 철학서를 보급하기 위해 노력해왔다.",
+    "oneLineSummary": "철학이 소수의 전유물이 아니라 일상생활의 문제를 해결하는 유용한 도구이자 세계관임을 밝히고, 사물의 연관성과 변화의 원리를 쉽게 풀어쓴 대중 철학서.",
+    "overallSummary": "1983년 초판 발행 이후 대중의 큰 호응을 얻은 책의 개정판 서문과 함께, 철학이 일상생활의 감상(感想)에서 출발하여 이를 체계화한 세계관임을 설명하고, \"나무는 보고 숲은 보지 못한다\"는 격언이나 \"닭이 먼저냐 알이 먼저냐\"의 논쟁을 통해 사물의 보편적 연관성을 쉽게 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "개정하며 및 책을 내면서",
+        "summary": "철학이 과시적 사치품이 아닌 생활의 곡괭이와 나침반이 되어야 한다는 출판 취지와 개정 경위를 밝힌다."
+      },
+      {
+        "sectionTitle": "첫째마당: 철학이란 무엇인가",
+        "summary": "철학과 일상생활의 밀접한 관계를 설명하고, 개인의 한정된 경험에서 나오는 '감상'과 보편적 타당성을 추구하는 '철학(세계관)'의 차이 및 상호 의존성을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학의 역할",
+        "value": "개인의 사회적·지역적 환경에 갇힌 단편적 감상을 넘어, 자연과 사회와 인간을 전체적·체계적으로 바라보는 과학적 세계관을 제공함"
+      }
+    ],
+    "keyEntitiesText": "동녘 편집부, 향락주의자, 염세주의자, 숙명론자, 현실주의자",
+    "settingText": "1980년대 한국 사회의 대중적 철학 갈구와 일상적 생활 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1frSVbxxfarW66nFHgpM3OpsIYONszGtb",
+    "filename": "동녘편집부-철학에세이(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T18:46:06.000Z",
+    "size": "426144",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1frSVbxxfarW66nFHgpM3OpsIYONszGtb/view?usp=drivesdk",
+    "sourceSha256": "57cf12dd9aaadcfa5c01739ba9143565e6bfdc63019d05a1fa65da183fa9a345",
+    "textSha256": "67b628e247b992314f1aff7c77d4edbe2f02553b51f7dac168eb31089b0e4d37",
+    "changeKey": "b4657e6b34fb75a0f12160545e8a96b0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "40bc05cdf744cf00fb9b",
+    "workId": "40bc05cdf744cf00fb9b",
+    "driveFileId": "1frSVbxxfarW66nFHgpM3OpsIYONszGtb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:25:34.004869+00:00",
+    "updatedAt": "2026-09-22T18:25:34.004886+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:25:34.004998+00:00"
+    }
+  }
+}

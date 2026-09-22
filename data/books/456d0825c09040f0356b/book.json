@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도올 논어 1",
+    "author": "김용옥",
+    "genre": "철학 / 동양고전",
+    "tags": [
+      "도올",
+      "김용옥",
+      "논어",
+      "공자",
+      "해석학"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "호는 도올. 고려대, 대만대, 동경대, 하버드대 등에서 수학한 철학자이자 한의사, 예술가로, 독창적인 저술과 대중 강연으로 유명하다.",
+    "oneLineSummary": "공자의 고향 곡부 기행과 인식론적 반성을 바탕으로, 공자라는 역사적 인간의 삶과 '논어'의 텍스트를 현대적 시각에서 명쾌하게 해설한 책.",
+    "overallSummary": "공자의 실존성에 대한 지적 방황과 곡부 여행을 통한 직관적 확신을 서술하고, 사마천의 '공자세가'가 지닌 역사적·신화적 성격을 성서의 케리그마와 비교 분석하며, 논어가 단순한 추상이 아닌 구체적 시공간 속 인간들의 상황적 대화임을 강조하는 독창적인 해석학적 입장을 밝힌다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "공자의 생애와 사상",
+        "summary": "과거 기억의 해석학적 성격을 짚고, 공자의 실존 여부에 대한 인식론적 질문을 던지며, 곡부 답사를 통해 공자의 실존을 확신하게 된 과정과 사마천 '공자세가'의 역사적 의미를 성서의 케리그마적 기술과 비교하여 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "해석학적 관점",
+        "value": "논어는 시공을 초월한 추상적 이론이 아니라, 공자라는 구체적 인물의 생물학적 '몸'과 역사적 상황성(Situationality) 속에서 읽어야 하는 대화록임"
+      }
+    ],
+    "keyEntitiesText": "김용옥, 공자, 사마천, 정약용, 이황, 예수, 누가",
+    "settingText": "중국 산동성 곡부(취후우) 및 현대 한국의 학문적 지평"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OtLkw41s3Fl6EPb9zuXlbAbVxuy_f84q",
+    "filename": "도올 논어 1.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.047Z",
+    "size": "408880",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1OtLkw41s3Fl6EPb9zuXlbAbVxuy_f84q/view?usp=drivesdk",
+    "sourceSha256": "c16fdacad4c943ee20fbe55a2516187617e610ffd4f7c0d07c307de6baf4227f",
+    "textSha256": "71ae48a6c8a514f07afbc6b3dd11120bd45dc690f7325c9d0a6f153daedd9081",
+    "changeKey": "157ea89f9b8c62a500b9330b9d468e42",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "456d0825c09040f0356b",
+    "workId": "456d0825c09040f0356b",
+    "driveFileId": "1OtLkw41s3Fl6EPb9zuXlbAbVxuy_f84q",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:25:26.583964+00:00",
+    "updatedAt": "2026-09-22T18:25:26.583980+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:25:26.584087+00:00"
+    }
+  }
+}

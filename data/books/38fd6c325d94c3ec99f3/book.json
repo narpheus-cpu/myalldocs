@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유럽문화사",
+    "author": "도널드 서순",
+    "genre": "역사 / 문화사",
+    "tags": [
+      "도널드 서순",
+      "유럽문화",
+      "문화소비",
+      "창조산업",
+      "대중문화"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이집트 카이로 태생으로 파리, 밀라노, 런던 등에서 공부했으며, 현재 런던 대학교 퀸 메리 칼리지에서 유럽 비교사 교수로 재직 중이다.",
+    "oneLineSummary": "1800년부터 2000년에 이르기까지 유럽인들의 문화 생산, 유통, 소비의 역사적 팽창과 대중화 과정을 추적한 방대한 문화사.",
+    "overallSummary": "200년 전 문해율이 낮고 문화적 혜택이 소수 엘리트에 국한되었던 시대에서, 현대의 지하철 승객들이 일상적으로 다양한 미디어와 책, 음악을 소비하는 '문화 과잉'의 시대로 변화한 과정을 분석하며, 문화 생산과 소비의 상호작용 및 혁신과 지속의 투쟁을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말: 문화가 흘러넘치고",
+        "summary": "2000년 런던 지하철 승객들의 일상적인 문화 소비 풍경을 1800년의 궁핍한 상황과 대조하며, 지난 200년간의 문화 소비 증가 역사를 소개한다."
+      },
+      {
+        "sectionTitle": "문화와 문화생산",
+        "summary": "문화의 인류학적·계몽주의적 정의를 검토하고, 고급문화와 대중문화의 경계가 유동적임을 설명하며, 문화가 시장을 창조하고 모방과 혁신을 통해 진화하는 메커니즘을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문화 시장의 특성",
+        "value": "문화는 모방을 통한 지속의 압력과 전위를 통한 혁신의 충동이 끊임없이 균형을 이루며 스스로의 시장을 창조함"
+      }
+    ],
+    "keyEntitiesText": "도널드 서순, 에릭 홉스봄, 제인 오스틴, 바버라 카틀랜드, 시스몽디",
+    "settingText": "1800년에서 2000년 사이의 유럽(특히 런던 등 대도시)의 사회적·기술적 변화"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11Vq9gvnJMsP4ZAjr4F5_Ss4Ty-Ggq1Gn",
+    "filename": "도널드 서순-유럽문화사(1-5)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T15:57:20.000Z",
+    "size": "5177609",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/11Vq9gvnJMsP4ZAjr4F5_Ss4Ty-Ggq1Gn/view?usp=drivesdk",
+    "sourceSha256": "7804beda725fb820f07d8d67a1314bb0690a75e78442f87ae0ca8a5338365bec",
+    "textSha256": "5bfc4027bb76908a2d6790bbdbb5aa5dea5202672d70aeae1e6b0e7bb4e2ccce",
+    "changeKey": "27fd852811d8b19be8b1894b8ca69123",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "38fd6c325d94c3ec99f3",
+    "workId": "38fd6c325d94c3ec99f3",
+    "driveFileId": "11Vq9gvnJMsP4ZAjr4F5_Ss4Ty-Ggq1Gn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:24:18.882229+00:00",
+    "updatedAt": "2026-09-22T18:24:18.882245+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:24:18.882363+00:00"
+    }
+  }
+}

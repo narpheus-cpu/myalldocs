@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "책의 소리를 들어라",
+    "author": "다카세 쓰요시",
+    "genre": "에세이 / 논픽션",
+    "tags": [
+      "하바 요시타카",
+      "북큐레이터",
+      "책장 편집",
+      "서점",
+      "독서"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 다카세 쓰요시는 북큐레이터 하바 요시타카의 독창적인 작업과 철학을 취재하여 기록했다.",
+    "oneLineSummary": "책과 사람을 연결하는 새로운 직업인 '북큐레이터' 하바 요시타카의 책장 편집 철학과 다양한 공간에서의 북큐레이션 사례를 다룬 책.",
+    "overallSummary": "인터넷 서점의 편리함 속에서도 사람들이 서점을 찾는 이유를 고찰하고, 북큐레이터 하바 요시타카가 병원, 은행, 미용실 등 다양한 일상 공간에서 책장을 편집하여 책의 매력을 극대화하고 사람들의 감정과 기억을 자극하는 과정을 소개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "시작하며",
+        "summary": "책이 먼저 말을 거는 서점의 매력과, 책을 자유자재로 다루어 책장을 빛나게 하는 북큐레이터 하바 요시타카를 소개한다."
+      },
+      {
+        "sectionTitle": "센리재활병원, 책으로 뇌 기능의 회복을 돕는다",
+        "summary": "오사카의 센리재활병원에서 환자들의 뇌 기능 회복과 동기부여를 위해 시집, 사진집 등을 활용한 라이브러리를 구축한 하바의 도전을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "북큐레이션의 정의",
+        "value": "단순한 도서 분류를 넘어 특정 콘셉트와 세계관을 책장 전체를 통해 표현하는 종합 예술이자 편집 작업"
+      }
+    ],
+    "keyEntitiesText": "하바 요시타카, 다카세 쓰요시, 하시모토 야스코, 사토 가시와, 다니카와 슌타로",
+    "settingText": "일본의 서점, 센리재활병원 등 책이 필요한 다양한 현대적 공간들"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1poo9LuukEqhJDtPUB5jSyL_mOy4COq0A",
+    "filename": "다카세 쓰요시-책의 소리를 들어라(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T18:30:24.000Z",
+    "size": "409631",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1poo9LuukEqhJDtPUB5jSyL_mOy4COq0A/view?usp=drivesdk",
+    "sourceSha256": "c23fd90758b76656a910a154de52284d07ac46f8c5b9f28262bf4ce35299ab7b",
+    "textSha256": "3a081a9d55fb26cf5d58fea956ac0b2f13ac1f1847beb860f8c49493246efdbe",
+    "changeKey": "872b5f07326ea0daed3801d4a4a72ed9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d06e009197b9279fdbed",
+    "workId": "d06e009197b9279fdbed",
+    "driveFileId": "1poo9LuukEqhJDtPUB5jSyL_mOy4COq0A",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:19:56.375748+00:00",
+    "updatedAt": "2026-09-22T18:19:56.375766+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:19:56.375866+00:00"
+    }
+  }
+}

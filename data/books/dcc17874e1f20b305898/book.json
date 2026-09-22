@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "1일 1페이지, 세상에서 가장 짧은 교양수업 365",
+    "author": "데이비드 S. 키더, 노아 D. 오펜하임",
+    "genre": "교양 / 인문학",
+    "tags": [
+      "교양",
+      "인문학",
+      "역사",
+      "문학",
+      "미술",
+      "과학",
+      "음악",
+      "철학",
+      "종교"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "essay_general_nonfiction",
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "데이비드 S. 키더는 기업가이자 CEO이며, 노아 D. 오펜하임은 하버드대를 졸업하고 NBC 뉴스 사장 및 각본가로 활동 중이다.",
+    "oneLineSummary": "역사, 문학, 미술, 과학, 음악, 철학, 종교의 7개 분야 핵심 교양 지식을 하루에 한 페이지씩 1년 동안 읽을 수 있도록 구성한 인문 교양서.",
+    "overallSummary": "인류가 쌓아온 고귀한 지혜와 지식을 일주일에 7개 분야씩 고루 탐색할 수 있도록 기획된 책으로, 알파벳의 기원, 제임스 조이스의 '율리시스', 라스코 동굴 벽화, 복제 양 돌리, 음악의 기본 요소, 겉모습과 실체의 철학적 구별, 유대교의 토라 등 다양한 주제를 간결하게 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "001~007일차 수업",
+        "summary": "이집트 상형문자에서 파생된 알파벳의 발달, 조이스의 소설 '율리시스', 라스코 동굴 벽화의 주술적 성격, 복제 양 돌리의 탄생과 한계, 음악의 기본 요소(음높이, 음계, 조), 소크라테스 이전 철학자들의 겉모습과 실체 구별, 유대교 경전 토라의 구성과 기원을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성 특징",
+        "value": "월요일부터 일요일까지 요일별로 역사, 문학, 미술, 과학, 음악, 철학, 종교 분야를 번갈아 가며 학습하도록 설계됨"
+      }
+    ],
+    "keyEntitiesText": "데이비드 S. 키더, 노아 D. 오펜하임, 제임스 조이스, 복제 양 돌리, 소크라테스, 모세",
+    "settingText": "인류 역사와 문화의 전반적인 시공간적 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KI9B_Vxd_-hfi2uH047y0_vWtEUf2Jk_",
+    "filename": "데이비드 키더 외-1일 1페이지, 세상에서 가장 짧은 교양수업 365(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T15:32:52.000Z",
+    "size": "1075847",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1KI9B_Vxd_-hfi2uH047y0_vWtEUf2Jk_/view?usp=drivesdk",
+    "sourceSha256": "e07a0a7ecd5921b5f78d8a1a2259f61f5e517955a988d833a9a6cd106369edd2",
+    "textSha256": "d77310964dab5a1aeb50790e88d631b855c48a5740a9772b839fd76234ac51b9",
+    "changeKey": "08bbe71b6463e245c69a37cf69ede00b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dcc17874e1f20b305898",
+    "workId": "dcc17874e1f20b305898",
+    "driveFileId": "1KI9B_Vxd_-hfi2uH047y0_vWtEUf2Jk_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:23:48.389138+00:00",
+    "updatedAt": "2026-09-22T18:23:48.389155+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:23:48.389268+00:00"
+    }
+  }
+}

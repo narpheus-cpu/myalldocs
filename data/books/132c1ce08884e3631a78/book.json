@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대논쟁! 철학 배틀",
+    "author": "하타케야마 소",
+    "genre": "철학 / 교양",
+    "tags": [
+      "철학",
+      "토론",
+      "소크라테스",
+      "아리스토텔레스",
+      "마르크스",
+      "롤스"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 하타케야마 소는 정치철학을 전공하고 일본 입시학원에서 윤리와 정치경제를 가르치는 강사로, 대화 형식으로 철학을 쉽게 풀어낸다.",
+    "oneLineSummary": "동서고금의 위대한 철학자들이 한자리에 모여 현대 사회의 민감한 시사 문제와 철학적 난제들에 대해 가상의 토론을 벌이는 교양 철학서.",
+    "overallSummary": "소크라테스의 진행 아래 아리스토텔레스, 마르크스, 롤스, 애덤 스미스 등 37명의 사상가들이 빈부격차, 인간 본성, 삶의 목적 등 15가지 주제를 두고 벌이는 열띤 가상 논쟁을 통해 철학적 사유의 즐거움을 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 및 추천사",
+        "summary": "철학이란 의문에 대한 근거를 생각하고 대화하는 행위 자체임을 밝히고, 이 책이 현실 문제를 고민하게 만드는 훌륭한 입문서임을 추천한다."
+      },
+      {
+        "sectionTitle": "1라운드: 빈부격차는 어디까지 허용될까?",
+        "summary": "아리스토텔레스의 배분적 정의, 마르크스의 계급투쟁론, 롤스의 공정함으로서의 정의(무지의 베일), 애덤 스미스의 보이지 않는 손이 충돌하며 복지와 경쟁의 문제를 논한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "토론 방식",
+        "value": "역사적 사상가들의 핵심 이론을 현대적 시사 이슈에 대입하여 가상의 대화(배틀) 형식으로 흥미롭게 풀어냄"
+      }
+    ],
+    "keyEntitiesText": "소크라테스, 아리스토텔레스, 마르크스, 존 롤스, 애덤 스미, 하타케야마 소",
+    "settingText": "시공간을 초월한 가상의 철학 토론장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VR8bASlhKpv780uk8ld9QPhpkTpXlbR6",
+    "filename": "하타케야마 소-대논쟁! 철학배틀.epub",
+    "format": "epub",
+    "mimeType": "application/epub+zip",
+    "modifiedTime": "2026-01-03T10:17:31.488Z",
+    "size": "4978209",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1VR8bASlhKpv780uk8ld9QPhpkTpXlbR6/view?usp=drivesdk",
+    "sourceSha256": "42a3bb8f600e3020364566646a4ff84e3f8870892a4e0b6730ffd2437b7fc103",
+    "textSha256": "8b468beaa5444fd83c2b02e2c17c882797eeae7e46a42d251d726e513626158e",
+    "changeKey": "7e56783ed83b911a20d290df5f0b9c9c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "132c1ce08884e3631a78",
+    "workId": "132c1ce08884e3631a78",
+    "driveFileId": "1VR8bASlhKpv780uk8ld9QPhpkTpXlbR6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:20:22.481044+00:00",
+    "updatedAt": "2026-09-22T18:20:22.481059+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:20:22.481156+00:00"
+    }
+  }
+}
