@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이야기 한국사",
+    "author": "송명호",
+    "genre": "아동 역사",
+    "tags": [
+      "한국사",
+      "단군신화",
+      "고조선",
+      "열국시대"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "송명호는 아동문학가이자 역사 저술가로, 어린이와 청소년을 위해 우리 민족의 역사를 쉽고 감동적으로 풀어내는 저작 활동을 해왔다.",
+    "oneLineSummary": "단군 조선부터 삼국 시대 이전까지의 우리 민족의 뿌리와 역사를 흥미로운 이야기로 엮어낸다.",
+    "overallSummary": "이 책은 선사 시대부터 고조선, 그리고 고구려, 백제, 신라로 이어지는 열국 시대까지의 한국사를 어린이와 청소년의 눈높이에 맞춰 쉽고 재미있게 서술한다. 단군의 건국 신화와 홍익인간의 이념, 고조선의 8조 법과 위만 조선, 그리고 부여와 삼한 등 초기 국가들의 풍속과 삶의 자취를 통해 우리 민족의 긍지와 자부심을 심어준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "민족 역사의 새벽",
+        "summary": "구석기, 신석기, 청동기 시대를 거쳐 단군 성조가 고조선을 건국한 신화와 역사를 다룬다."
+      },
+      {
+        "sectionTitle": "민족의 고향 고조선",
+        "summary": "고조선의 8조 법, 위만 조선의 성립과 한나라와의 전쟁, 그리고 한사군의 설치를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 방식",
+        "value": "정사와 신화, 전설을 조화시켜 청소년이 알기 쉽게 구성"
+      }
+    ],
+    "keyEntitiesText": "단군 성조, 환웅, 위만, 준왕, 우거왕",
+    "settingText": "고대 만주와 한반도 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OyeHChmyWUxZ3NHGOmOyxgGy7Trww3Ls",
+    "filename": "송명호-이야기 한국사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:27.238Z",
+    "size": "237279",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1OyeHChmyWUxZ3NHGOmOyxgGy7Trww3Ls/view?usp=drivesdk",
+    "sourceSha256": "7e79fd6152fc8d217737fa78c5603fef866c451d9bd59a85eab90253c01cdafc",
+    "textSha256": "1ac4a7852e169bd2545a4737e8ccf45ab0807a40daddf004ad218a27aaad2bc1",
+    "changeKey": "c99de43d5311b13db38cbfa0d731256b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d6cc4de6cc9c905e6158",
+    "workId": "d6cc4de6cc9c905e6158",
+    "driveFileId": "1OyeHChmyWUxZ3NHGOmOyxgGy7Trww3Ls",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:21:37.418723+00:00",
+    "updatedAt": "2026-09-22T20:21:37.418742+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:21:37.418816+00:00"
+    }
+  }
+}

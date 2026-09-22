@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어제의 세계",
+    "author": "슈테판 츠바이크 (옮긴이: 곽복록)",
+    "genre": "회고록 / 평전",
+    "tags": [
+      "슈테판 츠바이크",
+      "어제의 세계",
+      "유럽 회고록",
+      "합스부르크 제국"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오스트리아의 작가이자 휴머니스트인 슈테판 츠바이크는 유럽의 황금기와 두 차례의 세계대전을 몸소 겪으며 인간성과 이성의 몰락을 증언했다.",
+    "oneLineSummary": "제1차 세계대전 이전 안정의 황금기와 두 차례의 세계대전을 겪으며 붕괴된 유럽 정신의 역사를 증언한다.",
+    "overallSummary": "이 자서전적 회고록에서 슈테판 츠바이크는 자신이 자라난 합스부르크 제국의 안정과 평화로웠던 '어제의 세계'를 애도하며 회상한다. 안정과 확실성이 지배하던 문화적 황금기에서 출발하여, 광포한 국가주의와 나치즘의 발흥으로 인해 이성이 패배하고 유럽 문화가 자살적 파국으로 치달았던 비극적 몰락의 과정을 탁월한 문체로 증언한다. 망명지 브라질에서 삶을 마감하기 직전 집필된 유언과도 같은 기록이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "한 세대 전체의 비극적 운명과 이성의 몰락, 그리고 격동의 시대를 증언하는 회고록의 집필 배경을 밝힌다."
+      },
+      {
+        "sectionTitle": "01 안정의 세계",
+        "summary": "제1차 세계대전 이전 오스트리아 합스부르크 군주국의 평화롭고 안정되었던 황금기의 풍경을 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 가치",
+        "value": "개인의 기억을 넘어 한 시대의 영광과 비극을 기록한 위대한 역사적 증언"
+      }
+    ],
+    "keyEntitiesText": "슈테판 츠바이크, 셰익스피어, 괴테",
+    "settingText": "19세기 후반부터 제2차 세계대전까지의 유럽 (오스트리아 빈, 브라질 등)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ix6Prsx-ufNLrqbJJ4Uvqu5wAylAvZJZ",
+    "filename": "슈테판 츠바이크-어제의 세계(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T19:11:44.000Z",
+    "size": "1146264",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1ix6Prsx-ufNLrqbJJ4Uvqu5wAylAvZJZ/view?usp=drivesdk",
+    "sourceSha256": "4dddf21421b7d39afd282add7dd04add7728bb2fbc6fec26ac05aeb77157b36e",
+    "textSha256": "15f7bb798f03fffd1d2a2f70f2aa83e3f7c2c2c899de8667e4d324ced533e2ab",
+    "changeKey": "7775976d7dc007eb2344b16d27fd173c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6a74e47d0131c49ac0fa",
+    "workId": "6a74e47d0131c49ac0fa",
+    "driveFileId": "1ix6Prsx-ufNLrqbJJ4Uvqu5wAylAvZJZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:22:24.843800+00:00",
+    "updatedAt": "2026-09-22T20:22:24.843818+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:22:24.843894+00:00"
+    }
+  }
+}
