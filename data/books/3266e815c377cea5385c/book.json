@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "종교이론",
+    "author": "조르주 바타유",
+    "genre": "종교철학 / 인류학",
+    "tags": [
+      "동물성",
+      "내재성",
+      "도구",
+      "초월성",
+      "자아의식"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "인류학",
+        "사회학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 바타유(Georges Bataille)는 프랑스의 소설가이자 사상가로, 무신론적 입장에서 인간의 절대성, 죽음, 에로티즘, 성스러운 것 등을 탐구했다.",
+    "oneLineSummary": "동물의 내재적 세계와 인간이 도구를 사용하면서 구축한 외재적 사물의 세계를 대조하여 종교의 근원을 성찰한 철학서이다.",
+    "overallSummary": "바타유는 동물성을 '직접성' 또는 '내재성'으로 규정하며, 동물은 세상 속에 물이 물속에 있듯이 존재한다고 본다. 반면 인간은 도구를 제작하고 사용함으로써 대상에 외재성과 초월성을 도입하고, 이를 통해 '사물'의 지위를 성립시켰다. 이러한 도구적 유용성의 세계(속세)와 내밀한 연속성의 세계 사이의 갈등을 통해 종교적 성찰을 전개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "철학적 성찰의 미완성성과 불가능성의 원리를 설명하며 자아의식의 역할을 논한다."
+      },
+      {
+        "sectionTitle": "1부 기본 여건들 - 1. 동물성",
+        "summary": "먹고 먹히는 동물의 내재적 관계와 동물의 의존성, 그리고 동물성의 시적 허위를 다룬다."
+      },
+      {
+        "sectionTitle": "2. 속세의 성립과 인류",
+        "summary": "도구의 사용을 통해 수단과 목적이 분리되고 사물의 지위가 성립되는 과정을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인류학적 통찰",
+        "value": "도구의 유용성에 종속된 인간이 어떻게 종교적 내밀성과 연속성을 회복하고자 하는지 그 역설적 과정을 규명한다."
+      }
+    ],
+    "keyEntitiesText": "조르주 바타유, 조한경, 알렉상드르 코제브, 헤겔",
+    "settingText": "인간의 의식과 도구 사용이 시작된 선사시대부터 현대까지의 정신적 영역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SNdIFrYbOSOnXcPdZ3PCrPE-ACuJPf1k",
+    "filename": "종교이론-인간과 종교, 제사, 축제, 전쟁에 대한 성찰(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T19:09:04.000Z",
+    "size": "166886",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1SNdIFrYbOSOnXcPdZ3PCrPE-ACuJPf1k/view?usp=drivesdk",
+    "sourceSha256": "2928aec1dc451825d03e21a517d2d9b642a0252f4a49f317931d38666ecf9c06",
+    "textSha256": "39f2474b3392e4bca4a7977cb1266cfb3a432b2f5cfa4ed547f600eac1917d7c",
+    "changeKey": "23fbe4b1b2f3a4ddb089b6bbd579579d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3266e815c377cea5385c",
+    "workId": "3266e815c377cea5385c",
+    "driveFileId": "1SNdIFrYbOSOnXcPdZ3PCrPE-ACuJPf1k",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:01:52.737813+00:00",
+    "updatedAt": "2026-09-22T23:01:52.737830+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:01:52.737940+00:00"
+    }
+  }
+}

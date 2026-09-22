@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서양 고대 전쟁사 박물관",
+    "author": "존 워리",
+    "genre": "역사 / 군사학",
+    "tags": [
+      "고대전쟁사",
+      "그리스",
+      "로마",
+      "호메로스",
+      "미케네 문명"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "군사학",
+        "고고학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "존 워리(John Warry)는 고대 그리스와 로마의 군사 기술, 무기, 전술 및 전쟁의 정치적 배경을 연구한 역사학자이다.",
+    "oneLineSummary": "호메로스의 서사시와 고고학적 증거를 바탕으로 그리스와 로마를 중심으로 한 서양 고대 전쟁의 역사와 군사 기술을 복원한 개설서이다.",
+    "overallSummary": "이 책은 미케네 시대의 트로이 전쟁부터 제정 로마와 이민족의 도래에 이르기까지 고대 세계의 전쟁을 다룬다. 호메로스의 '일리아드'와 '오디세이아'에 나타난 영웅들의 불화와 정치적 배경을 분석하고, 고대 전사들의 무기, 갑옷, 방패 등의 군사 기술적 발전을 고고학적 유물과 함께 상세히 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "저자의 말",
+        "summary": "책의 구성 방식과 정치적 배경이 전쟁에 미치는 영향, 그리고 그리스·로마 역사의 연속성을 설명한다."
+      },
+      {
+        "sectionTitle": "호메로스와 미케네 시대의 전쟁",
+        "summary": "트로이 전쟁을 다룬 서사시들과 아킬레우스, 아가멤논, 헥토르 등 영웅들의 정치적 관계를 분석한다."
+      },
+      {
+        "sectionTitle": "무기와 갑옷",
+        "summary": "8자 모양 방패, 덴드라 갑옷, 청동검 등 미케네 시대의 구체적인 무기 체계를 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "군사사적 특징",
+        "value": "문학적 텍스트인 서사시와 실제 고고학적 발굴 유물을 대조하여 고대 전투 장비와 전술을 실증적으로 재구성한다."
+      }
+    ],
+    "keyEntitiesText": "존 워리, 아킬레우스, 아가멤논, 헥토르, 아이네아스",
+    "settingText": "기원전 2000년 후반부의 미케네 문명 및 고대 그리스·로마 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15w4wQpKVxExFjG1MXKPDnLrxmCJHVnWV",
+    "filename": "존 워리-서양 고대 전쟁사 박물관(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T07:56:46.000Z",
+    "size": "1256439",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/15w4wQpKVxExFjG1MXKPDnLrxmCJHVnWV/view?usp=drivesdk",
+    "sourceSha256": "4781e34fcf82c9088bb5d155ccf60061ebc58ba907a7585ee840d3168530ce4b",
+    "textSha256": "2ef11b8db111acfda3f4f416a6351b303bbc67a95993914ec5818f2e0cac8474",
+    "changeKey": "b29301f26882d6e0a3ab33dcb66c0650",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e56de1920f7b2aae9d94",
+    "workId": "e56de1920f7b2aae9d94",
+    "driveFileId": "15w4wQpKVxExFjG1MXKPDnLrxmCJHVnWV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:01:35.334480+00:00",
+    "updatedAt": "2026-09-22T23:01:35.334497+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:01:35.334608+00:00"
+    }
+  }
+}
