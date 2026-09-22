@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "호랑이 이빨",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "호랑이 이빨",
+      "유산",
+      "돈 루이스 페레나"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "억만장자의 막대한 유산을 둘러싸고 벌어지는 음모와 돈 루이스 페레나의 등장.",
+    "overallSummary": "경찰청에서 베로 형사가 정체 모를 독에 의해 의문의 죽음을 맞이하는 동안, 경찰청장은 억만장자 코스모 모닝톤의 유언장을 공개한다. 유언장에 따라 막대한 유산의 집행인으로 지정된 돈 루이스 페레나가 등장하고, 사건의 배후에는 복잡한 음모가아도사리고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "다르타냥, 포르토스, 몬테크리스토",
+        "summary": "경찰청 비서실에서 베로 형사가 의문의 죽음을 당하고, 이어서 억만장자의 유산을 둘러싼 이해관계자들이 모여 유언장이 공개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 비밀",
+        "value": "돈 루이스 페레나의 실체와 과거와의 연관성"
+      }
+    ],
+    "keyEntitiesText": "데말리옹, 베로 형사, 돈 루이스 페레나, 코스모 모닝톤, 르페르튀",
+    "settingText": "파리 경찰청 집무실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OLTPX9PYQUsrBZ5qjx8K-XE5agh1n0z2",
+    "filename": "아르센 뤼팽 전집 10 호랑이 이빨(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:05:24.000Z",
+    "size": "958555",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1OLTPX9PYQUsrBZ5qjx8K-XE5agh1n0z2/view?usp=drivesdk",
+    "sourceSha256": "cefb88c1b228b67d8ae024099c32113c0eade1def5a039fb305b34863b86c9c9",
+    "textSha256": "38f87fed5d66b25bc1aa91c73b15e44764d3e22514fc3cc3fb255708ee1f2808",
+    "changeKey": "a5b24dc442d34ce5f1c853e4df3bf59f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1e71be715432117f6b6d",
+    "workId": "1e71be715432117f6b6d",
+    "driveFileId": "1OLTPX9PYQUsrBZ5qjx8K-XE5agh1n0z2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:44:58.863139+00:00",
+    "updatedAt": "2026-09-22T05:44:58.863155+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:44:58.863266+00:00"
+    }
+  }
+}

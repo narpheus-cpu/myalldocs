@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아르센 뤼팽의 고백",
+    "author": "모리스 르블랑",
+    "genre": "단편 추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "단편",
+      "고백",
+      "추리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "빛 신호를 이용한 암호 해독과 렙스타인 남작 부인 실종 사건의 진실.",
+    "overallSummary": "뤼팽은 맞은편 건물에서 보내는 햇빛 반사 신호를 해석해 살해된 비서 라베르누의 메시지를 읽어낸다. 이를 바탕으로 렙스타인 남작의 저택으로 향해 남작부인 실종과 살인 사건에 얽힌 비밀을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "거울놀이",
+        "summary": "창문을 통해 전해지는 빛 신호를 숫자로 변환하여 암호를 풀어내고 사건 해결에 단서로 삼는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "시각적 신호(광신호)를 이용한 암호 해독"
+      }
+    ],
+    "keyEntitiesText": "아르센 뤼팽, 렙스타인 남작, 라베르누, 뒬라트르",
+    "settingText": "파리 시내와 렙스타인 남작의 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MTajXOXi6xpjb481a-3MdxfspzI2H-cZ",
+    "filename": "아르센 뤼팽 전집 06 아르센 뤼팽의 고백(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:58:50.000Z",
+    "size": "418015",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1MTajXOXi6xpjb481a-3MdxfspzI2H-cZ/view?usp=drivesdk",
+    "sourceSha256": "f71ec5450f7e4ee006f7e6e9c13970b708461ce6ceac692f75c262a004f4d60c",
+    "textSha256": "927159443e84f37f4b964ad3ae4db21b88c436d0dd83592b9255f31f9aadee09",
+    "changeKey": "30c8a638f2f7c3db07aa808d55c7dd9f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "320091e385a81c64f5ba",
+    "workId": "320091e385a81c64f5ba",
+    "driveFileId": "1MTajXOXi6xpjb481a-3MdxfspzI2H-cZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:44:29.304369+00:00",
+    "updatedAt": "2026-09-22T05:44:29.304385+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:44:29.304492+00:00"
+    }
+  }
+}

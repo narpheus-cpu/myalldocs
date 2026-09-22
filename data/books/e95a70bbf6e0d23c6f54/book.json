@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "황금 삼각형",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "황금 삼각형",
+      "부상병",
+      "간호사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "부상병 출신 대위 파트리스가 간호사 코랄리를 위협으로부터 구해내는 과정.",
+    "overallSummary": "1바리바 1915년 파리, 상이용사들로 구성된 무리가 교차로에서 간호사 코랄리를 납치하려는 무리들을 저지한다. 파트리스 벨발 대위는 코랄리를 자신의 거처로 데려와 보호하며 그녀를 노리는 음모의 정체를 파헤치려 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "코랄리 엄마",
+        "summary": "상이용사들의 도움으로 코랄리가 괴한들의 납치 위기에서 벗어나 파트리스의 거처로 피신한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 설정",
+        "value": "전쟁 상처를 지닌 참전용사들의 의리와 연대"
+      }
+    ],
+    "keyEntitiesText": "파트리스 벨발, 코랄리, 야봉, 무스타파 로발라이오프",
+    "settingText": "파리 샤이요가 교차로와 인근 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VrcX5VtTOSnPDqwg4orRmhvG9UBu9emY",
+    "filename": "아르센 뤼팽 전집 08 황금 삼각형(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:01:50.000Z",
+    "size": "619756",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1VrcX5VtTOSnPDqwg4orRmhvG9UBu9emY/view?usp=drivesdk",
+    "sourceSha256": "87b95bc21625777f539e38beca89c087bde33d9512004691d668266de0e72fbb",
+    "textSha256": "073e6c8640a366cfb301f748ae54dd8c481844d9ee659a784b02bdc1b2f19476",
+    "changeKey": "bf535f1d92a4a34179b8998effe34daf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e95a70bbf6e0d23c6f54",
+    "workId": "e95a70bbf6e0d23c6f54",
+    "driveFileId": "1VrcX5VtTOSnPDqwg4orRmhvG9UBu9emY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:44:43.457198+00:00",
+    "updatedAt": "2026-09-22T05:44:43.457216+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:44:43.457329+00:00"
+    }
+  }
+}

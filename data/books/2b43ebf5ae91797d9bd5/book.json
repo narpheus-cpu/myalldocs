@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "포탄 파편",
+    "author": "모리스 르블랑",
+    "genre": "미스터리 소설",
+    "tags": [
+      "뤼팽",
+      "로렌",
+      "비극",
+      "과거의 비밀"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "historical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "결혼식을 마치고 로렌 지방의 성으로 향한 폴 들로즈가 아내 엘리자벳에게 과거 아버지의 비극적 죽음을 털어놓는 이야기.",
+    "overallSummary": "폴 들로즈와 엘리자벳은 결혼식을 올린 후 코르비니를 거쳐 오르느캥의 성으로 향한다. 가는 도중 폴은 어린 시절 아버지를 따라 알자스-로렌 지방을 여행하다가 독일 황제 빌헬름 2세를 목격하고, 정체불명의 부인에게 아버지가 살해당했던 끔찍한 과거의 기억을 고백한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "살인사건",
+        "summary": "코르비니 역에 도착한 부부가 성으로 향하는 마차 안에서 과거의 비극적인 살인 사건에 대해 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "개인적 비극과 역사적 배경의 결합"
+      }
+    ],
+    "keyEntitiesText": "폴 들로즈, 엘리자벳, 제롬, 당드빌 백작, 빌헬름 2세",
+    "settingText": "로렌 지방 코르비니와 오르느캥 성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1g-LcBlOj3x-OCXlLkI3SfDSRvYjEEvdY",
+    "filename": "아르센 뤼팽 전집 07 포탄 파편(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:00:14.000Z",
+    "size": "507123",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1g-LcBlOj3x-OCXlLkI3SfDSRvYjEEvdY/view?usp=drivesdk",
+    "sourceSha256": "a5677c1d180344f30bd3effd19e224d6ba0b9ae2edef062e6b8654d06603c1a3",
+    "textSha256": "3255280b35a1921c527b0141ef54fd91f6b720e62f8a3299731840bb39e3683c",
+    "changeKey": "ae3e885c77a3e85485ecafed5e5881ae",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2b43ebf5ae91797d9bd5",
+    "workId": "2b43ebf5ae91797d9bd5",
+    "driveFileId": "1g-LcBlOj3x-OCXlLkI3SfDSRvYjEEvdY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:44:36.658803+00:00",
+    "updatedAt": "2026-09-22T05:44:36.658819+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:44:36.658946+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여덟 번의 시계 종소리",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "레닌 공작",
+      "단편",
+      "시계 종소리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "레닌 공작으로 변신한 뤼팽이 오르탕스와 함께 버려진 성에 잠입해 겪는 기이한 경험.",
+    "overallSummary": "오르탕스는 로시니와의 도망을 계획하지만 레닌 공작의 방해를 받는다. 레닌 공작은 오르탕스를 데리고 20년 동안 버려진 알랭그르 영지로 산책을 가고, 그곳에서 멈춰 있어야 할 괘종시계가 스스로 여덟 번 울리는 기이한 현상을 목격한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "망루 꼭대기에서",
+        "summary": "오르탕스가 로시니와의 도망을 준비하는 과정과 레닌 공작의 개입이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "모티프",
+        "value": "버려진 저택과 미스터리한 시간의 징후"
+      }
+    ],
+    "keyEntitiesText": "오르탕스 다니엘, 로시니, 레닌 공작, 애글로슈 백작",
+    "settingText": "라 마레즈 성과 알랭그르 영지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1U7N-TDAvjcNoogBmFscOb6w2QwaUCzt6",
+    "filename": "아르센 뤼팽 전집 11 여덟 번의 시계 종소리(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:06:44.000Z",
+    "size": "443266",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1U7N-TDAvjcNoogBmFscOb6w2QwaUCzt6/view?usp=drivesdk",
+    "sourceSha256": "56f0a99ec50548de403b99985ff65da81d5e0182ea96e5ed0f8b90e28fd5fe03",
+    "textSha256": "38bbe55017b386347da603683d42d2ba13a8b47ad05e631ebe8ff7fa6195d3a7",
+    "changeKey": "5dff9e5f2c40deabd62e16f58ee9d7f0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5db592311f51c57ed3ca",
+    "workId": "5db592311f51c57ed3ca",
+    "driveFileId": "1U7N-TDAvjcNoogBmFscOb6w2QwaUCzt6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:45:05.771941+00:00",
+    "updatedAt": "2026-09-22T05:45:05.771956+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:45:05.772066+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아르센 뤼팽 대 헐록 숌즈",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "헐록 숌즈",
+      "추리",
+      "대결"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "오래된 마호가니 책상과 100만 프랑 당첨 복권을 둘러싸고 수학 교사 제르부아와 아르센 뤼팽이 벌이는 치열한 두뇌 싸움.",
+    "overallSummary": "고물상에서 산 마호가니 책상을 도둑맞은 수학 교사 제르부아는 나중에 그 책상 서랍 속에 100만 프랑짜리 복권이 들어 있었다는 사실을 알게 된다. 아르센 뤼팽은 복권 상금을 차지하기 위해 제르부아와 대립하고, 급기야 수학 교사의 딸 쉬잔을 납치하기에 이른다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "23조 514번 복권",
+        "summary": "제르부아가 구입한 책상이 도난당하고, 이후 해당 책상에 100만 프랑 복권이 들어있었음이 밝혀지며 뤼팽과 제르부아 간의 갈등이 시작된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 구조",
+        "value": "개인 피해자와 괴도 간의 소유권 분쟁"
+      }
+    ],
+    "keyEntitiesText": "제르부아, 쉬잔, 아르센 뤼팽, 드티낭",
+    "settingText": "프랑스 베르사유와 파리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1p-ULhHXifDO5wSdNtii9Di8gsJS7C4yJ",
+    "filename": "아르센 뤼팽 전집 02 아르센 뤼팽 대 헐록 숌즈(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:53:04.000Z",
+    "size": "445844",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1p-ULhHXifDO5wSdNtii9Di8gsJS7C4yJ/view?usp=drivesdk",
+    "sourceSha256": "532dca925e2f7c55776b5a15dd24e40239e32738a7a460bd4ea13d9dc68257cb",
+    "textSha256": "5b6a1b67be7adc03c0e0586d01025836288c851f85c788dae9d4775ab4a293d5",
+    "changeKey": "cb403bd780bd07db113d27aa9a702c33",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "eb4ac28057e84f56c6e5",
+    "workId": "eb4ac28057e84f56c6e5",
+    "driveFileId": "1p-ULhHXifDO5wSdNtii9Di8gsJS7C4yJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:44:03.724747+00:00",
+    "updatedAt": "2026-09-22T05:44:03.724760+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:44:03.724858+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비밀의 저택",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "데느리스",
+      "비밀의 저택",
+      "다이아몬드"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "오페라극장 무대에서 다이아몬드 의상을 입은 여배우 레진이 납치당하고, 탐정 신사 데느리스가 사건에 개입하는 이야기.",
+    "overallSummary": "자선 행사의 일환으로 오페라극장 무대에서 다이아몬드로 장식된 의상을 선보이던 여배우 레진 오브리가 화재 소동 틈타 납치된다. 탐정 신사 장 데느리스는 범인들을 쫓아 레진을 구출하려 하지만, 레진은 비밀스러운 저택으로 끌려가 다이아몬드를 빼앗기는 경험을 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "여배우 레진",
+        "summary": "오페라극장에서 자선 패션쇼 도중 다이아몬드를 걸친 레진이 의문의 화재 소동과 함께 납치된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건 배경",
+        "value": "화려한 사교계와 치밀하게 계획된 보석 강탈"
+      }
+    ],
+    "keyEntitiesText": "장 데느리스, 레진 오브리, 반 우뱅, 베슈, 아를레트 마졸",
+    "settingText": "파리 오페라극장과 비밀의 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VvRo3y7bEaQc-Uix2_D4C3Yx4mHCtgUl",
+    "filename": "아르센 뤼팽 전집 15 비밀의 저택(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:12:00.000Z",
+    "size": "410726",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1VvRo3y7bEaQc-Uix2_D4C3Yx4mHCtgUl/view?usp=drivesdk",
+    "sourceSha256": "03a214f913640fd63fd4969b847d329ce00b4e9eacf42d4a2d7f553141517622",
+    "textSha256": "f6502e9b2010949a4384350616671b4fdd6ce5132f278ee77520e3a3b60965b5",
+    "changeKey": "3fc9123627689f37dd4d749664612668",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f7b9612a034c5d2960d7",
+    "workId": "f7b9612a034c5d2960d7",
+    "driveFileId": "1VvRo3y7bEaQc-Uix2_D4C3Yx4mHCtgUl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:45:31.739760+00:00",
+    "updatedAt": "2026-09-22T05:45:31.739776+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:45:31.739879+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "813",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "813",
+      "미스터리",
+      "음모"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "억만장자 케셀바흐의 죽음과 그를 둘러싼 거대한 음모와 뤼팽의 활약.",
+    "overallSummary": "팔라스 호텔에 묵고 있던 억만장자 루돌프 케셀바흐가 의문의 침입과 위협을 겪고, 그 뒤를 둘러싼 거대한 권력과 보물의 비밀이 얽혀들어간다. 뤼팽은 이 복잡한 사건의 중심에서 자신의 능력을 발휘한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "살인사건 1",
+        "summary": "케셀바흐가 자신의 방에 누군가 침입한다는 불안감을 느끼고 비서 채프먼과 함께 대응하려 하지만 결국 위기에 처한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건 성격",
+        "value": "거대 자본과 권력이 연루된 국제적 음모"
+      }
+    ],
+    "keyEntitiesText": "루돌프 케셀바흐, 채프먼, 에드바르, 구렐, 마르코",
+    "settingText": "파리 팔라스 호텔"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Y8etUAi6iR4zzLDFmoi7IrJBe1q7Ne-z",
+    "filename": "아르센 뤼팽 전집 04 813(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:55:58.000Z",
+    "size": "832149",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1Y8etUAi6iR4zzLDFmoi7IrJBe1q7Ne-z/view?usp=drivesdk",
+    "sourceSha256": "87b2c023e1a5b5cec5db63b6a5d53c5d87d6168fde01ea3c098565274d3a789f",
+    "textSha256": "03f0c6fcef659e46afb49106e05834979039022da6b92ce016750eee519dc470",
+    "changeKey": "d941d33fe2808e8ceebe5a454e2dcb08",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e99d231c4bdca81a27e8",
+    "workId": "e99d231c4bdca81a27e8",
+    "driveFileId": "1Y8etUAi6iR4zzLDFmoi7IrJBe1q7Ne-z",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:44:15.893445+00:00",
+    "updatedAt": "2026-09-22T05:44:15.893460+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:44:15.893566+00:00"
+    }
+  }
+}

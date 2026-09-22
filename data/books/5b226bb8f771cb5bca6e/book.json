@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "초록 눈동자의 아가씨 외",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "초록 눈동자의 아가씨",
+      "단편",
+      "여행"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "파리 시내에서 우연히 초록 눈동자의 아가씨를 목격한 라울 드 리메지가 파란 눈동자의 영국 여인을 쫓아 남프랑스로 향하는 여정.",
+    "overallSummary": "라울 드 리메지는 제과점 앞에서 초록 눈동자의 아가씨와 소동을 벌인 사내를 목격하고, 이어 파란 눈동자를 가진 영국 여인 베이크필드 부인의 뒤를 밟아 몬테카를로행 야간열차에 오른다. 기차 안에서 여인과 은밀한 대화를 나누며 서로의 정체를 추측한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그리고 파란 눈동자의 영국 여인",
+        "summary": "라울 드 리메지가 파리 시내에서 영국 여인의 뒤를 쫓아 리옹 역에서 남프랑스행 열차에 탑승한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "우연한 만남과 매혹적인 미지의 여성 추적"
+      }
+    ],
+    "keyEntitiesText": "라울 드 리메지, 베이크필드 부인, 초록 눈동자의 아가씨",
+    "settingText": "파리 시내와 몬테카를로행 열차 안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eX0Sjka8jCZk6GjKQlj4oUmmveqNix6t",
+    "filename": "아르센 뤼팽 전집 13 초록 눈동자의 아가씨 외(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:09:50.000Z",
+    "size": "543644",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1eX0Sjka8jCZk6GjKQlj4oUmmveqNix6t/view?usp=drivesdk",
+    "sourceSha256": "94c6ee1d511329ffd0e998de9abae363e2d88424d5d5e9f0ff119bc93bc0918d",
+    "textSha256": "639df0c2a0a09ed06634ec1569a07de46a43df26d4497529e284a78b616aabe3",
+    "changeKey": "6101068ebe1350e287cfecf64e5df27e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5b226bb8f771cb5bca6e",
+    "workId": "5b226bb8f771cb5bca6e",
+    "driveFileId": "1eX0Sjka8jCZk6GjKQlj4oUmmveqNix6t",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:45:19.490743+00:00",
+    "updatedAt": "2026-09-22T05:45:19.490759+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:45:19.490867+00:00"
+    }
+  }
+}

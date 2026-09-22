@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바리바",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "라울 다브낙",
+      "베슈",
+      "바리바"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "라울 다브낙의 아파트에 찾아온 의문의 여성과 베슈 형사의 연락으로 르아브르 인근 라디카텔에서 벌어지는 미스터리.",
+    "overallSummary": "연극을 보고 돌아온 라울 다브낙은 자신의 아파트에 몰래 들어와 두려움에 떨고 있는 젊은 여자를 발견한다. 그 직후 베슈 형사로부터 살인 사건과 실종 사건이 벌어진 노르망디 라디카텔로 와달라는 다급한 전화가 걸려오고, 라울은 그 여자를 태우고 사건 현장으로 향한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "밤에 찾아온 손님",
+        "summary": "라울 다브낙이 자신의 집에 몰래 들어온 미지의 여인과 만나고, 베슈 형사로부터 살인 사건 소식을 접한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 구조",
+        "value": "예기치 못한 방문으로 시작되는 지방 살인 미스터리"
+      }
+    ],
+    "keyEntitiesText": "라울 다브낙(아르센 뤼팽), 테오도르 베슈, 카트린",
+    "settingText": "파리 아파트와 노르망디 라디카텔"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CLr2VP80LtnYtX1DmKUDmcXH5J3UBcPF",
+    "filename": "아르센 뤼팽 전집 16 바리바 외(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:13:10.000Z",
+    "size": "386533",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1CLr2VP80LtnYtX1DmKUDmcXH5J3UBcPF/view?usp=drivesdk",
+    "sourceSha256": "b67a878cc7fbbaee2944f2a4d1723ed0d82ebfe81a374d7cfcbf177b7348d334",
+    "textSha256": "e8718540ea5940ec1838d63d49d0ef9eb78845917c5c589c35b813577226a6be",
+    "changeKey": "0d864f87c92235d09bdef698e0d06c19",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2538eb0332f85bde552a",
+    "workId": "2538eb0332f85bde552a",
+    "driveFileId": "1CLr2VP80LtnYtX1DmKUDmcXH5J3UBcPF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:45:38.410577+00:00",
+    "updatedAt": "2026-09-22T05:45:38.410592+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:45:38.410697+00:00"
+    }
+  }
+}

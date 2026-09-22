@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "괴도신사 아르센 뤼팽",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "추리",
+      "괴도",
+      "클래식 미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "대서양 횡단 여객선 프로방스호에서 일어난 절도 사건과 신출귀몰한 괴도 아르센 뤼팽의 활약상.",
+    "overallSummary": "프로방스호에 아르센 뤼팽이 승선했다는 전보가 전해진 후 여객선 내에서 기이한 절도 사건들이 연이어 발생하고, 승객들은 공포와 호기심에 사로잡힌다. 당드레지와 넬리 양의 로맨스가 싹트는 한편, 뤼팽의 정체를 밝히려는 승객들의 추리와 혼란이 이어지고 결국 목적지인 뉴욕에 도착하면서 이야기가 전개된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아르센 뤼팽, 체포되다",
+        "summary": "프로방스호 항해 중 아르센 뤼팽의 승선 소식이 전해지고, 승객들이 뤼팽을 찾아내기 위한 추리에 나서는 가운데 제를랑 부인의 보석 도난 사건이 발생한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "클래식 추리 소설"
+      },
+      {
+        "key": "핵심 반전",
+        "value": "뤼팽의 정체와 예측 불가능한 도둑질의 유머러스한 성격"
+      }
+    ],
+    "keyEntitiesText": "아르센 뤼팽, 당드레지, 넬리 언더다운, 가니마르, 로젠, 제를랑 부인",
+    "settingText": "대서양을 횡단하는 호화 여객선 프로방스호"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1570s6vHmcDDsP4HyPlb3z6TljtJXt9SZ",
+    "filename": "아르센 뤼팽 전집 01 괴도신사 아르센 뤼팽(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:52:00.000Z",
+    "size": "450294",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1570s6vHmcDDsP4HyPlb3z6TljtJXt9SZ/view?usp=drivesdk",
+    "sourceSha256": "bd11ebe22903df7ac997c8963f78e534d367156fff723064eaeb6330ea38a440",
+    "textSha256": "97ad2d1cc26ed8a99922c1b4947c00e1cf38fe347e06666a05f60fc11aca7bb3",
+    "changeKey": "2b220eb285508f39faecee0b77d3361d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bc45bc9a1486ce5823d6",
+    "workId": "bc45bc9a1486ce5823d6",
+    "driveFileId": "1570s6vHmcDDsP4HyPlb3z6TljtJXt9SZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:43:56.216608+00:00",
+    "updatedAt": "2026-09-22T05:43:56.216624+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:43:56.216807+00:00"
+    }
+  }
+}

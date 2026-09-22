@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "두 미소를 지닌 여인",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "볼니크 성",
+      "엘리자벳 오르냉",
+      "고르주레"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "볼니크 성의 테라스에서 노래를 부르던 여가수 엘리자벳이 의문의 총격을 받고 살해당한 비극적 사건.",
+    "overallSummary": "오베르뉴의 볼니크 성에 초대받은 손님들 앞에서 뛰어난 여가수 엘리자벳 오르냉이 아름다운 노래를 부르던 중, 아무런 전조도 없이 의문의 상처를 입고 사망하며 목걸이가 사라진다. 형사 고르주레 등이 수사에 나서지만 범인을 찾지 못하고 성은 매각된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: 기이한 상처",
+        "summary": "볼니크 성 테라스에서 손님들 앞에서 노래하던 여가수 엘리자벳이 의문의 살해를 당하고 보석이 사라진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 미스터리",
+        "value": "대낮에 공개된 장소에서 벌어진 소리 없는 암살과 보석 실종"
+      }
+    ],
+    "keyEntitiesText": "엘리자벳 오르냉, 드 주벨 부부, 장 데를르몽, 고르주레",
+    "settingText": "오베르뉴 볼니크 성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Z-YEXRleufuZAqUP74_lv8NhFrxY95Z7",
+    "filename": "아르센 뤼팽 전집 17 두 미소를 지닌 여인(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:14:22.000Z",
+    "size": "476067",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1Z-YEXRleufuZAqUP74_lv8NhFrxY95Z7/view?usp=drivesdk",
+    "sourceSha256": "cb72151fae0a544ce49678d855d6646aced8842acba6a306da7b4a4f394dc45b",
+    "textSha256": "461fdf074225e8a729fd0d98e3e1c30e3288290307a43300a64442a43561a31d",
+    "changeKey": "b19f3475b1ba58dc11513149d147049c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "339a4a91ea3a72f30ffc",
+    "workId": "339a4a91ea3a72f30ffc",
+    "driveFileId": "1Z-YEXRleufuZAqUP74_lv8NhFrxY95Z7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:45:49.846542+00:00",
+    "updatedAt": "2026-09-22T05:45:49.846557+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:45:49.846662+00:00"
+    }
+  }
+}

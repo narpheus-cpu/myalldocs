@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "수정마개",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "수정마개",
+      "잠입",
+      "누명"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "앙기앵의 별장에서 벌어진 절도와 살인 사건, 그리고 뤼팽의 탈출 작전.",
+    "overallSummary": "아르센 뤼팽은 동료들과 함께 도브레크 의원의 별장에 잠입해 물건을 훔치려 하지만, 하인 레오나르의 저항과 돌발적인 살인 사건으로 인해 경찰에 포위된다. 뤼팽은 위기 상황에서 기지를 발휘해 누명을 피하고 탈출을 도모한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "체포",
+        "summary": "뤼팽과 동료들이 도브레크 의원의 별장에 잠입하지만 하인의 저항과 전화 신고로 위기에 봉착한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "위기 탈출",
+        "value": "극한의 상황에서의 역발상과 기지"
+      }
+    ],
+    "keyEntitiesText": "아르센 뤼팽, 질베르, 보슈레이, 레오나르, 도브레크",
+    "settingText": "프랑스 앙기앵 호숫가 마리 테레즈 별장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1c7G6C2TM1cBSyHHteffI0eHx508yv2oL",
+    "filename": "아르센 뤼팽 전집 05 수정마개(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:57:22.000Z",
+    "size": "502649",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1c7G6C2TM1cBSyHHteffI0eHx508yv2oL/view?usp=drivesdk",
+    "sourceSha256": "a517de1bf6e1dc5a4a2c529714493bc707e379df5354ab9a321a839d21dfd766",
+    "textSha256": "b6c894941e0816abbd22e1018641c9c312b7aad39d47c37a9cf4d248cc807d10",
+    "changeKey": "5e3bf56d954706dba1b096e0f9335e06",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cdfa5730892e98e4c33c",
+    "workId": "cdfa5730892e98e4c33c",
+    "driveFileId": "1c7G6C2TM1cBSyHHteffI0eHx508yv2oL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:44:22.259004+00:00",
+    "updatedAt": "2026-09-22T05:44:22.259024+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:44:22.259129+00:00"
+    }
+  }
+}

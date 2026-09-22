@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서른 개의 관",
+    "author": "모리스 르블랑",
+    "genre": "미스터리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "서른 개의 관",
+      "브르타뉴",
+      "수수께끼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "과거의 비극적 상처를 안고 브르타뉴를 찾은 베로니크가 마주하게 되는 기이한 시체와 그림의 비밀.",
+    "overallSummary": "카르멜 수녀원을 나와 브장송에서 의상실 직원으로 일하던 베로니크는 영화 속에서 자신의 옛 서명을 발견하고 브르타뉴의 버려진 오두막을 찾아간다. 그곳에서 손이 잘린 남자의 시체와 자신이 십자가에 매달린 끔찍한 그림을 발견하면서 기이한 운명의 소용돌이에 휘말린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "버려진 오두막",
+        "summary": "베로니크가 편지를 받고 찾아간 버려진 오두막에서 시체와 기묘한 예언적 그림을 발견한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "음산하고 오컬트적인 전설 분위기를 띤 미스터리"
+      }
+    ],
+    "keyEntitiesText": "베로니크 데르주몽, 뒤트레이, 알렉시스 보르스키, 앙투안 데르주몽",
+    "settingText": "프랑스 브르타뉴 지방 파우에"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fjHQGQpUoqlUxAMd5FMNXGCz3_MOPFIT",
+    "filename": "아르센 뤼팽 전집 09 서른 개의 관(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:03:14.000Z",
+    "size": "640702",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1fjHQGQpUoqlUxAMd5FMNXGCz3_MOPFIT/view?usp=drivesdk",
+    "sourceSha256": "bf1725c8528ec636844ce13602922c607d573b254aec696e405c2e8e20b2ab82",
+    "textSha256": "fe16410a9a439b9a11d83471dfe0d5cb63268f58af83da72b4dc44d1af5223e6",
+    "changeKey": "724dad62a1b89a26e29a52ced9100476",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "45ce8c7544abc1649763",
+    "workId": "45ce8c7544abc1649763",
+    "driveFileId": "1fjHQGQpUoqlUxAMd5FMNXGCz3_MOPFIT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:44:50.338176+00:00",
+    "updatedAt": "2026-09-22T05:44:50.338192+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:44:50.338297+00:00"
+    }
+  }
+}

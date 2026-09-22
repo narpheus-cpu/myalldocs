@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바르네트 탐정 사무소",
+    "author": "모리스 르블랑",
+    "genre": "추리 소설",
+    "tags": [
+      "아르센 뤼팽",
+      "짐 바르네트",
+      "탐정",
+      "단편"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모리스 르블랑은 아르센 뤼팽 시리즈를 통해 전 세계 독자들에게 사랑받는 프랑스의 대표적인 대중소설 작가이다.",
+    "oneLineSummary": "아르센 뤼팽이 짐 바르네트라는 가명으로 사설탐정 사무소를 운영하며 아세르망 남작부인의 진주 목걸이 사건을 해결하는 과정.",
+    "overallSummary": "포부르 생제르맹의 아세르망 남작부인은 사라진 진주 목걸이 사건을 해결하기 위해 '바르네트 탐정 사무소'의 짐 바르네트를 찾는다. 바르네트는 특유의 오만하고 빈정거리는 태도로 사건의 진상이 단순한 절도가 아니라 남편에 의한 바꿔치기임을 밝혀낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "진주 목걸이의 행방",
+        "summary": "아세르망 남작부인이 바르네트에게 진주 목걸이 도난 사건을 의뢰하고, 바르네트는 가짜 목걸이와의 바꿔치기임을 간파한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "페르소나",
+        "value": "탐정으로 변장한 괴도의 역설적 범죄 해결"
+      }
+    ],
+    "keyEntitiesText": "짐 바르네트(아르센 뤼팽), 아세르망 남작부인, 아세르망 남작, 베슈",
+    "settingText": "파리 아세르망 남작부인의 대저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19gNBqbViIdFyNnsKjyX6j4THFEl8NP74",
+    "filename": "아르센 뤼팽 전집 14 바르네트 탐정 사무소(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:10:52.000Z",
+    "size": "378455",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/19gNBqbViIdFyNnsKjyX6j4THFEl8NP74/view?usp=drivesdk",
+    "sourceSha256": "63d64a213b362a7dbcc7c63d275708ae6ed9ec3922c7e924d33ddd3c078793dd",
+    "textSha256": "df89e902311e0a458447bbdc8ac27c3d9a4a0d6beffe8b8da72b5842eaade30e",
+    "changeKey": "9dc7f16c7a241e877a7997fe0cc540a9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "93771c43ba459172d40b",
+    "workId": "93771c43ba459172d40b",
+    "driveFileId": "19gNBqbViIdFyNnsKjyX6j4THFEl8NP74",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:45:25.510005+00:00",
+    "updatedAt": "2026-09-22T05:45:25.510026+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:45:25.510131+00:00"
+    }
+  }
+}
