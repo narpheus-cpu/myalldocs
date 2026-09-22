@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "골렘마스터",
+    "author": "플티큐",
+    "genre": "판타지",
+    "tags": [
+      "골렘마스터",
+      "판타지",
+      "드래곤",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 플티큐",
+    "oneLineSummary": "드래곤 로드의 선물로 새로운 세계에 발을 들인 소년 아투의 골렘 제작 여정.",
+    "overallSummary": "클라미디 대륙의 칼리어 산맥, 골드 드래곤 로드 그라디우스는 친구의 생일 선물을 고민하다 새로운 공간의 문을 연다. 한편, 드워프 마을에서 1년 동안 지내며 골렘술을 익힌 인간 소년 아투는 희귀한 목재를 구해 첫 골렘 창조에 도전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 골렘마스터 #1 ~ #2",
+        "summary": "골드 드래곤 그라디우스가 레어에서 친구의 선물을 위해 공간을 여는 이야기와, 드워프 마을에서 골렘술을 배우며 지내온 인간 소년 아투가 산중에서 목재를 구해 골렘 창조에 도전하는 과정이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정통 판타지",
+        "value": "드래곤, 드워프, 골렘술 등의 클래식한 판타지 설정과 주인공의 성장을 다룸."
+      }
+    ],
+    "keyEntitiesText": "그라디우스, 아투 판드리엘, 기스뮬, 테미르, 레프티",
+    "settingText": "클라미디 대륙 칼리어 산맥, 드워프 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hCNosXJO7ljUt5S60NME7Gtv2a8j2Tar",
+    "filename": "골렘마스터 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:35.828Z",
+    "size": "2138443",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1hCNosXJO7ljUt5S60NME7Gtv2a8j2Tar/view?usp=drivesdk",
+    "sourceSha256": "3c463602e75cccd4d158fcb548c449a8e30f4e8b350da4ed26951e4ba9360879",
+    "textSha256": "9dcd32bf6bc5c2d3c3833b4e2041a52e8570c60b86992106d3d234db83977544",
+    "changeKey": "b69613618080b8149ab2f2e0c896e02b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8afca7658a683fff9935",
+    "workId": "8afca7658a683fff9935",
+    "driveFileId": "1hCNosXJO7ljUt5S60NME7Gtv2a8j2Tar",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:35:38.381645+00:00",
+    "updatedAt": "2026-09-22T11:35:38.381660+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:35:38.381765+00:00"
+    }
+  }
+}

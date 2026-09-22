@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "검마전",
+    "author": "하주완",
+    "genre": "판타지",
+    "tags": [
+      "차원이동",
+      "판타지",
+      "생존",
+      "마법"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 하주완",
+    "oneLineSummary": "절벽에서 추락한 후 정체불명의 밀실과 화원에 떨어진 주인공의 생존기.",
+    "overallSummary": "절벽에서 떨어져 의식을 잃었던 주인공은 눈을 떠보니 문도 창도 없는 괴상한 밀실에 갇혀 있음을 알게 된다. 손바닥 모양의 홈에 손을 대어 비밀 통로를 열고 나가니 기괴한 꽃들과 물이 흐르는 아름다운 화원이 나타난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "001 ~ 003",
+        "summary": "추락 사고 후 낯선 밀실에서 깨어난 주인공이 손바닥 인증을 통해 밀실을 탈출하고, 신비로운 꽃밭과 연못이 있는 장소에서 생존을 위해 꽃잎을 먹는 과정이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서바이벌 판타지",
+        "value": "밀실 탈출과 미지의 공간 탐험이라는 흥미로운 오프닝."
+      }
+    ],
+    "keyEntitiesText": "주인공(하주완), 성호",
+    "settingText": "정체불명의 밀실, 꽃이 가득한 지하 화원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1c2jPj5GHNjPln8Zaq1EI4q0UOJYTxpY6",
+    "filename": "검마전 1부,2부.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:35.404Z",
+    "size": "5243190",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1c2jPj5GHNjPln8Zaq1EI4q0UOJYTxpY6/view?usp=drivesdk",
+    "sourceSha256": "a0f081cee7a22eccd3ea41335d0e7e31d87902b7df0e22017d79105dad2acdd9",
+    "textSha256": "cd5139a3a0495391851e0a7a3d2b6a2a0423245be22b1ce0da62458d4c662de0",
+    "changeKey": "623da9f04355950070ae9261a1ab2594",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bf20e73a267ce1ce18f6",
+    "workId": "bf20e73a267ce1ce18f6",
+    "driveFileId": "1c2jPj5GHNjPln8Zaq1EI4q0UOJYTxpY6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:34:42.626490+00:00",
+    "updatedAt": "2026-09-22T11:34:42.626505+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:34:42.626591+00:00"
+    }
+  }
+}

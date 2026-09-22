@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "검 끝에 걸린 물고기",
+    "author": "승빈군",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "마법사",
+      "모험",
+      "동료"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 승빈군",
+    "oneLineSummary": "지친 몸을 이끌고 마을에 도착한 루티에, 휴이, 쥬크 일행이 겪는 기묘한 야간 습격.",
+    "overallSummary": "그리폰 둥지 관련 임무를 마치고 지친 몸으로 목적지 마을에 도착한 루티에, 휴이, 쥬크 세 동료. 여관 방이 없어 빈집에서 하룻밤을 보내게 되는데, 밤중에 목각 인형들의 기괴한 습격을 받게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 - 인형놀이 #1 ~ #3",
+        "summary": "고생 끝에 마을에 도착한 루티에와 동료들은 빈집에서 휴식을 취하던 중, 마루가 흔들리고 나무 인형들의 공격을 받게 되며 탈출을 도모한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "모험 판타지",
+        "value": "유쾌한 동료 간의 티격태격함과 급작스러운 위기 상황의 조화."
+      }
+    ],
+    "keyEntitiesText": "루티에, 휴이, 쥬크",
+    "settingText": "산길, 마을의 낡은 빈집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AojAH_DkaVrhQc2p-Ml4dnWgVqP80mH4",
+    "filename": "검끝에걸린 물고기01권-05권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:35.347Z",
+    "size": "2074532",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1AojAH_DkaVrhQc2p-Ml4dnWgVqP80mH4/view?usp=drivesdk",
+    "sourceSha256": "c31c2d4abd7573d5414a7033e205225521ad282ef037094f7366e44f2182b1ff",
+    "textSha256": "a9888bef65767af8905227b239f514d98386c0b6df132cb4b52cc8893b9023e6",
+    "changeKey": "f4c63b61a68e60fc4951b329fb2c9649",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "86b9f90c6bbc5d2e9a84",
+    "workId": "86b9f90c6bbc5d2e9a84",
+    "driveFileId": "1AojAH_DkaVrhQc2p-Ml4dnWgVqP80mH4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:34:36.246753+00:00",
+    "updatedAt": "2026-09-22T11:34:36.246768+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:34:36.246868+00:00"
+    }
+  }
+}

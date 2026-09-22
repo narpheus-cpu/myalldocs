@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "드래곤 남매",
+    "author": "강명운",
+    "genre": "판타지",
+    "tags": [
+      "드래곤",
+      "쌍둥이",
+      "모험",
+      "코믹"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "코미디"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 강명운",
+    "oneLineSummary": "드래곤 역사상 전례 없는 쌍둥이 남매 테이와 티아의 유쾌하고 파란만장한 모험기.",
+    "overallSummary": "실버 드래곤 엄마와 레드 드래곤 아빠 사이에서 태어난 쌍둥이 드래곤 테이와 티아. 태어나자마자 걸어 다니는 괴력의 누나 티아에게 늘 당하는 순진한 동생 테이의 유년기와 모험 이야기를 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 1화 탄생",
+        "summary": "실버 드래곤 세이르아가 알에서 쌍둥이 해츨링 테이와 티아를 낳고, 태어나자마자 누나 티아에게 구박받는 테이의 일상이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "성격 대비",
+        "value": "온화하고 순진한 남동생과 난폭하고 급한 성격의 누나 간의 갈등이 유발하는 재미."
+      }
+    ],
+    "keyEntitiesText": "테이, 티아, 세이르아, 오스타인",
+    "settingText": "그리노 대륙 세이르아의 레어"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iPTIbEE1VfvKYCMOAWM2dMa3vc9N93lI",
+    "filename": "강명운-드래곤 남매.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:35.020Z",
+    "size": "2616101",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1iPTIbEE1VfvKYCMOAWM2dMa3vc9N93lI/view?usp=drivesdk",
+    "sourceSha256": "ec316f987ce104e6b237dd5e66796e3df809674d2a6efc71aec06a7606ef34e7",
+    "textSha256": "7427cec0e6c151a7c402234983bd7247ed482a29e8237ad84be4dba0e9811365",
+    "changeKey": "de655b48743c0b904f9309bfb9a55c33",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "617e68eccac52839de94",
+    "workId": "617e68eccac52839de94",
+    "driveFileId": "1iPTIbEE1VfvKYCMOAWM2dMa3vc9N93lI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:33:58.794676+00:00",
+    "updatedAt": "2026-09-22T11:33:58.794690+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:33:58.794778+00:00"
+    }
+  }
+}

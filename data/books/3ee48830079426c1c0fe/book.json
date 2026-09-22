@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "거울전쟁",
+    "author": "남택원",
+    "genre": "판타지",
+    "tags": [
+      "거울전쟁",
+      "악령군",
+      "언데드",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 남택원",
+    "oneLineSummary": "악령술사 카라드에 의해 유령도시가 된 그린우드와 그곳을 탈출하려는 사제들의 사투.",
+    "overallSummary": "불타는 유령도시 그린우드 성당의 사제들이 해골 전사와 좀비, 유령들의 습격을 받는다. 악령술사 카라드와 붉은 거인 사울리안이 이끄는 언데드 무리에 맞서 사제들은 생존을 위한 탈출을 시도한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "Chapter 4 불사의 유령도시",
+        "summary": "불타는 마을에서 해골과 좀비 군단이 등장하고, 그린우드 성당의 사제 5명이 탈출을 위해 북문으로 향하던 중 언데드 군단과 치열한 전투를 벌인다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "다크 판타지",
+        "value": "언데드와 악령술을 중심에 둔 어둡고 긴장감 넘치는 분위기."
+      }
+    ],
+    "keyEntitiesText": "카라드 하트세어, 사울리안, 자키프, 보스크, 큐셀드, 벨리프, 로네이어",
+    "settingText": "그린우드 성당, 리네크로 힐"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-kW5e0GA09lfwmFDMCBHot17hykqtHTh",
+    "filename": "거울전쟁 01권-02권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:35.245Z",
+    "size": "565846",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1-kW5e0GA09lfwmFDMCBHot17hykqtHTh/view?usp=drivesdk",
+    "sourceSha256": "5159f4fdd5f2e7efe77f6803ea332d977b2166f8534f2847e021833a93f1043b",
+    "textSha256": "cc329c12b36e3afc0120bc34c45d347ec8148f9cdd468a83fb229dbb0a7a1413",
+    "changeKey": "1e563fcebc0afcbf34087328c0d746b1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3ee48830079426c1c0fe",
+    "workId": "3ee48830079426c1c0fe",
+    "driveFileId": "1-kW5e0GA09lfwmFDMCBHot17hykqtHTh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:34:24.128454+00:00",
+    "updatedAt": "2026-09-22T11:34:24.128469+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:34:24.128568+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "거울의 길",
+    "author": "류승현",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "성장",
+      "기사",
+      "운명"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 류승현",
+    "oneLineSummary": "전쟁의 아픔을 간직한 소년 세렌에게 찾아온 뜻밖의 기회와 갈림길.",
+    "overallSummary": "드라킬스 공국의 침공으로 아버지를 잃은 세렌은 언덕 마을에서 킬츠와 함께 검술을 수련하며 살아간다. 어느 날 클라스라인 법국에서 세렌을 양자로 삼기 위해 집사가 찾아오고, 세렌은 새로운 운명 앞에서 갈등한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장. -갈림 길-",
+        "summary": "로케스트 언덕에서 수련하는 세렌과 킬츠의 모습, 과거 전쟁의 상처, 그리고 클라스라인 법국에서 온 사신으로 인해 세렌이 인생의 갈림길에 서게 되는 과정이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "성장 소설",
+        "value": "주인공이 과거의 상극을 딛고 새로운 운명과 선택의 기로에 놓이는 전개."
+      }
+    ],
+    "keyEntitiesText": "세렌, 킬츠, 레닉스, 도미니아 뤼센, 카름, 쿠슬리",
+    "settingText": "로케스트 언덕, 산노지방 언덕마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XlwaKrlsVn4oiIDkCVBy_Ym5nmpcPx2E",
+    "filename": "거울의 길 01권-04권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:35.206Z",
+    "size": "1320471",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1XlwaKrlsVn4oiIDkCVBy_Ym5nmpcPx2E/view?usp=drivesdk",
+    "sourceSha256": "5a048b1ed47d306e4ac27d2f4f74f9eae2f292632760bb64c0fcab1564225132",
+    "textSha256": "33e38445b80be0afb909c0b3c5a1f24eb067e6ae7edd00a856c7e6848a118fab",
+    "changeKey": "9aa9e10e3130dc9d51ec9c870fd52486",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b1ee0f7fc264ab73464f",
+    "workId": "b1ee0f7fc264ab73464f",
+    "driveFileId": "1XlwaKrlsVn4oiIDkCVBy_Ym5nmpcPx2E",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:34:17.915734+00:00",
+    "updatedAt": "2026-09-22T11:34:17.915750+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:34:17.915864+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "가이공주",
+    "author": "은영선",
+    "genre": "소설",
+    "tags": [
+      "동해",
+      "미술",
+      "추억",
+      "회상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "자전적"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "화가 은영선",
+    "oneLineSummary": "화가 은영선이 지나간 날의 아픈 사랑과 초라했던 시절을 회상하며 동해 바다로 떠나는 이야기.",
+    "overallSummary": "화가 은영선은 과거의 가난과 힘겨웠던 호텔 근무, 그리고 가슴 아팠던 연인 병와의 기억을 떠올린다. 동해에서의 전시회를 앞두고 잃어버린 사랑과 상처를 치유하기 위한 여정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 - 초라한 자의 고백",
+        "summary": "화가 은지예는 가난했던 어린 시절과 미국 유학의 동경, 호텔 종업원 시절과 연인 병와의 만남 및 그의 비극적인 죽음을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "회상",
+        "value": "주인공의 과거 기억과 현재의 감정이 교차하며 전개됨."
+      }
+    ],
+    "keyEntitiesText": "은지예(은영선), 병량, 상이, 성주, 정병석 이장",
+    "settingText": "경기도 양평, 서울, 동해바다"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pwBj8TKlW7JcQst3zkMQGlDsZDK3xeMN",
+    "filename": "가이공주01권-02권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.867Z",
+    "size": "577040",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1pwBj8TKlW7JcQst3zkMQGlDsZDK3xeMN/view?usp=drivesdk",
+    "sourceSha256": "cbd76ca6a60c0252a822602e2e9a57b0c7fcaba7018eab9f8db89b095db96744",
+    "textSha256": "23063197eb9b4a2ae0ab4a03c7fd84f06add8ed422f8822cafc1f2b79a80d9f5",
+    "changeKey": "f65a9910baf08ed310d267ec2d0fdcc7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "748ca1db7efe93833248",
+    "workId": "748ca1db7efe93833248",
+    "driveFileId": "1pwBj8TKlW7JcQst3zkMQGlDsZDK3xeMN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:33:45.480600+00:00",
+    "updatedAt": "2026-09-22T11:33:45.480615+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:33:45.480788+00:00"
+    }
+  }
+}

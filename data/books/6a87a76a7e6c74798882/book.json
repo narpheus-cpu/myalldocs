@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "강호신행기",
+    "author": "프란",
+    "genre": "무협, 판타지",
+    "tags": [
+      "차원이동",
+      "무협",
+      "판타지",
+      "마법"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 프란",
+    "oneLineSummary": "차원이동 마법의 실패로 무협 세계에 떨어진 마법사 주인공의 이야기.",
+    "overallSummary": "아스트랄 사이드에서 탈출하려다 마력 간섭으로 차원이동을 하게 된 주인공은 옷도 입지 못한 채 태행산 한복판에 떨어진다. 그곳에서 마교의 추격을 받던 소림의 불광선사 일행과 마주치게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "0. 序章 - 플레인 쉬프트",
+        "summary": "차원 이동 실패로 옷과 소지품을 잃어버린 채 무협의 세계인 태행산에 떨어진 주인공의 상황과 불광선사 일행의 만남이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르 융합",
+        "value": "정통 판타지의 마법 시스템과 무협 소설의 배경 및 인물이 결합됨."
+      }
+    ],
+    "keyEntitiesText": "주인공, 불광선사, 도옥기, 화태관, 조화령, 혈령사자",
+    "settingText": "태행산맥"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1u3I-8KAalYhBgabWKjosgZuh1QNfuWMg",
+    "filename": "강호신행기(판타지,무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:35.082Z",
+    "size": "1230661",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1u3I-8KAalYhBgabWKjosgZuh1QNfuWMg/view?usp=drivesdk",
+    "sourceSha256": "4c73bd6f081661ad2dd9618a9d6689105b21112283ccae29de0b1eb594d844e4",
+    "textSha256": "cc1772bab74cd9b97e68b82cc8b3ebe7b10eac46cfdd5da6b263dc356eed9a4e",
+    "changeKey": "b038718ce797548915104cca7725200f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6a87a76a7e6c74798882",
+    "workId": "6a87a76a7e6c74798882",
+    "driveFileId": "1u3I-8KAalYhBgabWKjosgZuh1QNfuWMg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:34:05.129029+00:00",
+    "updatedAt": "2026-09-22T11:34:05.129044+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-22T11:34:05.129134+00:00"
+    }
+  }
+}
