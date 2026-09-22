@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "문제적 캐릭터 심리 사전",
+    "author": "한민, 박성미, 유지현",
+    "genre": "심리학",
+    "tags": [
+      "성격 스펙트럼",
+      "방어기제",
+      "정신장애",
+      "캐릭터 설정",
+      "심리학"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "심리학",
+        "창작론"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "문화심리학자 한민, 문학치료를 공부하는 박성미, 프로파일러 유지현 등 세 명의 심리학 관련 종사자들이 모여 창작자들을 위한 캐릭터 심리 분석서를 집필하였다.",
+    "oneLineSummary": "심리학자들이 DSM-5 성격장애 분류와 방어기제를 바탕으로 창작자들을 위해 매력적이고 입체적인 '문제적 캐릭터' 설정 방법을 제시한다.",
+    "overallSummary": "K-콘텐츠의 도약 속에서 매력적인 인물을 창조하고자 하는 창작자들을 위한 심리학 가이드북이다. DSM-5의 성격장애 분류를 '성격 스펙트럼'으로 재해석하여 A군(자기 확신), B군(타인 통제), C군(불안 초조) 성격의 특징을 설명한다. 영화 쏘우의 직쏘, 적과의 동침의 마틴 등 대중문화 속 캐릭터를 예시로 들어 방어기제, 정신장애, 문화심리학적 요소를 어떻게 캐릭터 구축에 활용할 수 있는지 구체적으로 안내한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "시작하며",
+        "summary": "문제적 캐릭터가 서사에 부여하는 깊이와 성격 스펙트럼을 활용한 캐릭터 창조의 의의를 밝힌다."
+      },
+      {
+        "sectionTitle": "1장 A군 성격 스펙트럼",
+        "summary": "편집성, 조현성, 조현형 성격의 특징을 설명하고, 특히 끊임없이 의심하고 복수하는 '편집성 성격'을 영화 쏘우와 적과의 동침을 통해 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 분석 도구",
+        "value": "DSM-5 성격장애 분류, 방어기제, MBTI"
+      },
+      {
+        "key": "창작 팁",
+        "value": "부모의 양육 태도와 트라우마를 통한 캐릭터 서사 부여"
+      }
+    ],
+    "keyEntitiesText": "한민, 박성미, 유지현, 직쏘(쏘우), 마틴(적과의 동침)",
+    "settingText": "현대 K-콘텐츠(웹툰, 웹소설, 드라마 등) 창작 열풍과 플랫폼 확장기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1x0q-7PcM_u1gxit6Ag49W-4iV3fkDwJv",
+    "filename": "문제적 캐릭터 심리 사전(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T23:47:58.000Z",
+    "size": "437308",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1x0q-7PcM_u1gxit6Ag49W-4iV3fkDwJv/view?usp=drivesdk",
+    "sourceSha256": "202044cedf0c48c680dc499c22c7f636fbf153de3aae520bc055924d07b07a52",
+    "textSha256": "46d862828e6a7fb83917b5495f9808c4c4950ea7fc9da96ed59ca6f54f606e81",
+    "changeKey": "8ffaf2bfe347848fd57566fe507b8e8d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2ffd88aad2b1a6cf37d1",
+    "workId": "2ffd88aad2b1a6cf37d1",
+    "driveFileId": "1x0q-7PcM_u1gxit6Ag49W-4iV3fkDwJv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:00:31.798756+00:00",
+    "updatedAt": "2026-09-22T19:00:31.798771+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:00:31.798883+00:00"
+    }
+  }
+}

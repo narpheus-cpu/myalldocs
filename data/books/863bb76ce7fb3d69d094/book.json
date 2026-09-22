@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개인주의자 선언",
+    "author": "문유석",
+    "genre": "에세이",
+    "tags": [
+      "합리적 개인주의",
+      "집단주의 비판",
+      "판사의 일상",
+      "공존과 연대",
+      "행복"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "사회비평",
+        "자전적에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "문유석은 현직 판사이자 작가로, 개인주의자로서의 시선과 법관으로서의 경험을 결합하여 한국 사회의 다양한 단면을 날카롭고 따뜻하게 짚어내는 글을 쓰고 있다.",
+    "oneLineSummary": "현직 판사가 한국 사회의 전근대적인 집단주의 문화를 비판하고, 타인을 존중하며 연대하는 '합리적 개인주의'의 필요성을 역설한다.",
+    "overallSummary": "문유석 판사가 쓴 일상유감 에세이로, 저자 스스로를 '인간 혐오증이 있는 개인주의자'로 고백하며 시작한다. 한국 사회에 만연한 군대식 상명하복, 패거리 정서, 집단주의 문화를 꼬집고, 개인의 자유와 다양성을 존중하는 근대적 의미의 '합리적 개인주의'가 정착되어야 함을 주장한다. 또한 법정에서 마주한 인간 군상과 사회적 약자들의 고통을 통해 타인의 발견과 사회적 연대의 중요성을 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 인간 혐오",
+        "summary": "저자의 개인주의적 성향과 한국 사회의 집단주의 속에서 연기자로 살아가는 타협의 과정을 고백한다."
+      },
+      {
+        "sectionTitle": "타인의 발견",
+        "summary": "법정 안팎에서 목격한 타인들의 고통(송혜희 찾기 현수막, 세월호 참사 등)을 통해 개인주의자가 타인의 아픔에 공감하고 연대하게 되는 과정을 서술한다."
+      },
+      {
+        "sectionTitle": "1부 나라는 레고 조각",
+        "summary": "남에게 폐 끼치지 않고 자유롭게 살고자 하는 개인주의자의 소소한 행복과, 한국 사회를 불행하게 만드는 집단주의 굴레를 비판한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "합리적 개인주의 (Rational Individualism)"
+      },
+      {
+        "key": "사회적 대안",
+        "value": "타인의 자유를 존중하는 톨레랑스와 공정한 규칙 준수"
+      }
+    ],
+    "keyEntitiesText": "문유석, 로드니 킹, 한상궁 마마님, 장금",
+    "settingText": "현대 한국 사회, 군대식 조직 문화와 집단주의가 강한 사회적 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Bm0kckU1MK6gv4ufGu_SoKtLMkkmmBfz",
+    "filename": "문유석-개인주의자 선언(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T20:30:30.000Z",
+    "size": "402834",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1Bm0kckU1MK6gv4ufGu_SoKtLMkkmmBfz/view?usp=drivesdk",
+    "sourceSha256": "a76c9fdbaf3db2ef08d58a848032c4305427372e9be27530431d966561f1950a",
+    "textSha256": "c644e1d999d1f40f8d431c9e8c5a18f0f9d4f85c9fb6fa36bb1d0d0119fa4bc7",
+    "changeKey": "93b6a22f3e26c508d05214b7fe6d0a29",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "863bb76ce7fb3d69d094",
+    "workId": "863bb76ce7fb3d69d094",
+    "driveFileId": "1Bm0kckU1MK6gv4ufGu_SoKtLMkkmmBfz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:00:08.828960+00:00",
+    "updatedAt": "2026-09-22T19:00:08.828974+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:00:08.829084+00:00"
+    }
+  }
+}
