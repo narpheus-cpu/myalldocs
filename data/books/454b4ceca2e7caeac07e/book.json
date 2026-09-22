@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아발론 연대기 1",
+    "author": "장 마르칼",
+    "genre": "신화/역사",
+    "tags": [
+      "켈트",
+      "아더왕",
+      "신화",
+      "성배"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic",
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "장 마르칼은 켈트 역사와 문학 분야의 권위 있는 전문가이자 시인입니다.",
+    "oneLineSummary": "켈트 신화와 아더 왕 및 성배 전설의 뿌리를 추적하여 시간의 밤으로 거슬러 올라가는 이야기를 재구성합니다.",
+    "overallSummary": "이 책은 켈트 전승에 담긴 아더 왕과 성배의 기원을 그리스-로마 신화의 영향에서 분리하여 독자적인 북유럽 고대 전승의 관점에서 복원합니다. 로마 황제 막센의 꿈과 브리튼 섬의 정복, 그리고 보티건의 배반과 왕위 계승을 둘러싼 음모를 통해 아더 왕 신화의 역사적, 신화적 토대를 깊이 있게 탐구합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한국어판 서문",
+        "summary": "구비 전승을 통해 전해 내려온 켈트 문명과 아더 왕 신화의 역사적 의의를 설명합니다."
+      },
+      {
+        "sectionTitle": "보티건의 배반",
+        "summary": "로마 황제 막센의 꿈속 여인과의 결혼 이야기부터 브리튼 섬의 혼란, 그리고 콘스탄트 왕의 죽음과 보티건의 권력 찬탈 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 접근",
+        "value": "신화와 구비 전승을 종합하여 역사적 사실성과 판타지적 서사를 융합"
+      }
+    ],
+    "keyEntitiesText": "장 마르칼, 막센 황제, 엘렌, 코난, 콘스탄트, 보티건",
+    "settingText": "로마, 브리튼 섬, 아르모리크(브르타뉴)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "185e6NIxcrkiI5ORiEDAmPvYT8uWCKHSo",
+    "filename": "장 마르칼-아발론 연대기 1(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T04:27:52.000Z",
+    "size": "705014",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/185e6NIxcrkiI5ORiEDAmPvYT8uWCKHSo/view?usp=drivesdk",
+    "sourceSha256": "faba1609e452e2d5bb4c0311dff1d2b196c8ac1b304804aba46c7e75752d1fe4",
+    "textSha256": "bd247ac2ca12d19d04a7cc9f7f61bd3c91c54e7fdbea1f99f990341015ebca21",
+    "changeKey": "19db0ac7e37324ca801e5f601a45114d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "454b4ceca2e7caeac07e",
+    "workId": "454b4ceca2e7caeac07e",
+    "driveFileId": "185e6NIxcrkiI5ORiEDAmPvYT8uWCKHSo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:40:00.933754+00:00",
+    "updatedAt": "2026-09-22T13:40:00.933770+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:40:00.933868+00:00"
+    }
+  }
+}

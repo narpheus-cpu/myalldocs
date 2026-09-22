@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "해리 포터와 비밀의 방",
+    "author": "조앤 K. 롤링",
+    "genre": "판타지",
+    "tags": [
+      "해리포터",
+      "집요정",
+      "호그와트",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "youth"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조앤 K. 롤링은 해리 포터 시리즈를 집필한 세계적인 작가입니다.",
+    "oneLineSummary": "더즐리 집에서 우울한 여름 방학을 보내던 해리 포터에게 집요정 도비가 찾아와 위험한 경고를 전합니다.",
+    "overallSummary": "호그와트에서의 첫 학기를 마치고 더즐리 가로 돌아온 해리는 마법을 쓸 수 없는 암울한 방학을 보냅니다. 버논 이모부가 중요한 저녁 식사 파티를 준비하며 해리를 철저히 고립시키려 하는 그때, 집요정 도비가 나타나 호그와트에 돌아가면 큰 위험에 처할 것이라며 경고합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 최악의 생일",
+        "summary": "더즐리 가족의 구박과 중요 파티 준비로 괴로운 해리의 열두 번째 생일날의 풍경을 그립니다."
+      },
+      {
+        "sectionTitle": "제2장 도비의 경고",
+        "summary": "해리의 방에 몰래 찾아온 집요정 도비가 호그와트로 돌아가지 말라고 눈물로 호소하며 경고합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 요소",
+        "value": "머글 사회와 마법 세계의 격리, 그리고 가정 내 학대와 억압"
+      },
+      {
+        "key": "캐릭터",
+        "value": "새로운 종족인 집요정 '도비'의 등장으로 세계관 확장"
+      }
+    ],
+    "keyEntitiesText": "해리 포터, 도비, 버논 이모부, 페투니아 이모, 두들리 더즐리, 헤드위그",
+    "settingText": "프리벳가 4번지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CzXdjO7BnHYDHg1_6M8qs925dBpPpLqO",
+    "filename": "J.K.롤링-해리포터와 비밀의 방.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:54.533Z",
+    "size": "512521",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1CzXdjO7BnHYDHg1_6M8qs925dBpPpLqO/view?usp=drivesdk",
+    "sourceSha256": "06385aa6737595ce7b9140d0572336e61faf996574952ad495ee55ccbfd71fd5",
+    "textSha256": "2f36876c410f504eaacd274b7c46f9d971f89285d1b7a5a35e7df86c126eb8c4",
+    "changeKey": "0243d88059d3a615b5f56c66cdc69354",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1b16832b3d42746aa82d",
+    "workId": "1b16832b3d42746aa82d",
+    "driveFileId": "1CzXdjO7BnHYDHg1_6M8qs925dBpPpLqO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:39:36.205171+00:00",
+    "updatedAt": "2026-09-22T13:39:36.205188+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.853,
+      "updatedAt": "2026-09-22T13:39:36.205290+00:00"
+    }
+  }
+}

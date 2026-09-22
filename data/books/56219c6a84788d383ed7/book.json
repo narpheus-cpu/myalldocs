@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "라스트 새크리피스",
+    "author": "리첼 미드",
+    "genre": "판타지",
+    "tags": [
+      "뱀파이어",
+      "모로이",
+      "로즈",
+      "수호인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "리첼 미드는 뉴욕타임스 베스트셀러 작가로 뱀파이어 아카데미 시리즈 등으로 유명합니다.",
+    "oneLineSummary": "여왕 살해 누명을 쓰고 감옥에 갇힌 로즈가 2주일 후의 처형을 앞두고 진범을 찾기 위해 고군분투합니다.",
+    "overallSummary": "타티아나 여왕을 살해했다는 끔찍한 누명을 쓰고 지하 구치소에 갇힌 로즈 해서웨이는 사형을 선고받고 2주일 뒤로 다가온 재판과 처형을 기다리며 절망합니다. 영적 마법으로 연결된 리사는 밖에서 로즈의 무죄를 입증하기 위해 동분서주하고, 아버지 에이브는 로즈에게 촉박한 시간과 숨겨진 드래고미르 가문의 사생아에 대한 비밀을 전합니다. 로즈는 감방의 답답함을 견디며 진범을 찾기 위한 마지막 탈출과 싸움을 결심합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "암흑의 구렁텅이",
+        "summary": "구치소에 갇힌 로즈가 누명을 쓴 경위를 회상하고, 아버지 에이브의 면회를 통해 재판과 처형 날짜가 2주일 앞으로 당겨졌다는 충격적인 소식을 듣는 과정을 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "긴장감 조성",
+        "value": "제한된 시간(2주일) 속에서 누명을 벗어야 하는 타임리밋 스릴러 구조"
+      },
+      {
+        "key": "심리 묘사",
+        "value": "자유를 박탈당한 감금 상태에서의 극심한 폐쇄공포와 투지 묘사"
+      }
+    ],
+    "keyEntitiesText": "로즈 해서웨이, 리사(바실리사) 드래고미르, 에이브 마주르, 타티아나 여왕, 디미트리",
+    "settingText": "모로이 왕국 궁궐 구치소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Vp6Kkj-TjgmvG1UZ5ToxW55-BuZ8Ijyu",
+    "filename": "리첼 미드-라스트 새크리피스-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:51:54.000Z",
+    "size": "832243",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1Vp6Kkj-TjgmvG1UZ5ToxW55-BuZ8Ijyu/view?usp=drivesdk",
+    "sourceSha256": "9194c538e0b6d220ed5122109d5b222ff7e23b39b56d2de1a97bcbfeee0ebcf9",
+    "textSha256": "d0b667214b04889eff2c8aca5c4a6f1ebb263db992910978fe1c3161d40d18a1",
+    "changeKey": "c5f029c0eebc22075d2b44dd93395a58",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "56219c6a84788d383ed7",
+    "workId": "56219c6a84788d383ed7",
+    "driveFileId": "1Vp6Kkj-TjgmvG1UZ5ToxW55-BuZ8Ijyu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:41:04.934653+00:00",
+    "updatedAt": "2026-09-22T13:41:04.934670+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:41:04.934770+00:00"
+    }
+  }
+}

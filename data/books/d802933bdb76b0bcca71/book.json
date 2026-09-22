@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "해리 포터와 불의 잔",
+    "author": "조앤 K. 롤링",
+    "genre": "판타지",
+    "tags": [
+      "해리포터",
+      "마법사",
+      "트리위저드",
+      "볼드모트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조앤 K. 롤링은 영국의 판타지 소설가입니다.",
+    "oneLineSummary": "오랫동안 버려졌던 리들 하우스에서 볼드모트와 웜테일의 음기가 모여들며 새로운 위기의 서막이 열립니다.",
+    "overallSummary": "50년 전 끔찍한 살인 사건이 벌어진 후 황폐해진 리들 하우스를 배경으로 이야기가 시작됩니다. 정원사 프랭크 브라이스가 저택에서 볼드모트와 웜테일(피터 페티그루)의 음모를 엿듣게 되고, 해리 포터를 겨냥한 어둠의 세력이 다시 힘을 기르며 위험한 계획을 도모하는 상황이 그려집니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 리들 하우스",
+        "summary": "리틀 행글턴 마을의 흉가 리들 하우스의 역사와, 50년 전 리들 가족의 의문의 죽음, 그리고 정원사 프랭크가 겪은 사건을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "음산하고 미스터리한 저택을 배경으로 한 스릴러적 긴장감"
+      },
+      {
+        "key": "플롯 전개",
+        "value": "본격적인 마법학교 학기 시작 전 어둠의 세력의 부활 암시"
+      }
+    ],
+    "keyEntitiesText": "프랭크 브라이스, 웜테일(피터 페티그루), 볼드모트, 리들 가족, 해리 포터",
+    "settingText": "영국, 리들 하우스, 리틀 행글턴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IKZsNjeXZsWCTQ0_WP0gSnF-2M7pBc71",
+    "filename": "J.K.롤링-해리포터와 불의 잔.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:54.498Z",
+    "size": "1278932",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1IKZsNjeXZsWCTQ0_WP0gSnF-2M7pBc71/view?usp=drivesdk",
+    "sourceSha256": "e08d1b213b8a0581182be6457aef3107b971fa9fe4f0b2696e5391c306cef076",
+    "textSha256": "99dd63a8ce2ce3e1efd2851e892f713492c17893146c6769310d1abe2f32d5df",
+    "changeKey": "70636c5b0536d8dacf90034600f454e3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d802933bdb76b0bcca71",
+    "workId": "d802933bdb76b0bcca71",
+    "driveFileId": "1IKZsNjeXZsWCTQ0_WP0gSnF-2M7pBc71",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:39:29.448317+00:00",
+    "updatedAt": "2026-09-22T13:39:29.448333+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8549,
+      "updatedAt": "2026-09-22T13:39:29.448469+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "테메레르 1: 왕의 용",
+    "author": "나오미 노빅",
+    "genre": "대체역사 판타지",
+    "tags": [
+      "용",
+      "나폴레옹전쟁",
+      "대체역사",
+      "해군"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "나오미 노빅은 미국의 판타지 작가로, 데뷔작인 테메레르 시리즈로 큰 명성을 얻었습니다.",
+    "oneLineSummary": "나폴레옹 전쟁 시기, 영국 해군 대령 로렌스가 우연히 프랑스 군함에서 압수한 용알을 부화시켜 용의 비행사가 됩니다.",
+    "overallSummary": "나폴레옹 전쟁이 한창인 1805년, 영국 해군 렐리언트 호의 함장 윌리엄 로렌스는 프랑스 구축함 아미티에 호를 나포하고 그 안에서 비밀리에 운반되던 거대한 용알을 발견합니다. 알에서 깨어난 검은 용은 로렌스를 자신의 비행사로 지목하고 '테메레르'라는 이름을 얻습니다. 로렌스는 해군으로서의 명예를 포기하고 공군으로 전향하여 테메레르와 함께 국가를 위한 새로운 전투에 뛰어듭니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부",
+        "summary": "해군 대령 로렌스가 아미티에 호와의 전투에서 승리하고 정체 모를 거대한 용알을 발견하는 과정을 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "역사적 사실(나폴레옹 전쟁)에 용과 공중전이라는 판타지적 설정을 결합한 대체역사소설"
+      },
+      {
+        "key": "인간과 용의 관계",
+        "value": "주종 관계를 넘어선 깊은 유대와 교감 형성"
+      }
+    ],
+    "keyEntitiesText": "윌리엄 로렌스, 테메레르, 깁스 대위, 토머스 라일리 중위, 폴릿 군의관",
+    "settingText": "대서양, 영국 해군 함선 렐리언트 호"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vL8JbyMO4-4EwStj9Zr4gTzyeTW_sv7X",
+    "filename": "나오미 노빅-테메레르 1(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T11:21:42.000Z",
+    "size": "856647",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1vL8JbyMO4-4EwStj9Zr4gTzyeTW_sv7X/view?usp=drivesdk",
+    "sourceSha256": "e09baba7c65a51dc419156aacdd919d21887e577a4d27c879d51eac1c29cfb35",
+    "textSha256": "22800d9051111670f02a0a6fb3182c55350f54a4690f489f2e30a02049771b01",
+    "changeKey": "68a811f5257f725b026e9c1f11e50a08",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "458f023946045f5afddd",
+    "workId": "458f023946045f5afddd",
+    "driveFileId": "1vL8JbyMO4-4EwStj9Zr4gTzyeTW_sv7X",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:40:12.142805+00:00",
+    "updatedAt": "2026-09-22T13:40:12.142822+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.508,
+      "updatedAt": "2026-09-22T13:40:12.142920+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "호빗; 뜻밖의 여정",
+    "author": "J. R. R. 톨킨",
+    "genre": "판타지",
+    "tags": [
+      "호빗",
+      "빌보",
+      "간달프",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "youth"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "J. R. R. 톨킨은 저명한 영문학자이자 판타지 작가입니다.",
+    "oneLineSummary": "평화로운 호빗굴에 살던 빌보 배긴스가 마법사 갠달프와 난쟁이들의 모험에 휘말리게 됩니다.",
+    "overallSummary": "안락하고 평화로운 호빗굴에서 하루에 여섯 끼를 먹으며 살아가던 빌보 배긴스의 평화는 마법사 갠달프의 방문으로 깨집니다. 모험을 혐오하는 호빗이지만, 툭 가문의 피가 이끈 것인지 그는 난쟁이 원정대의 일원으로 예상치 못한 여정을 시작하게 되며, 이 과정에서 중간계의 거대한 모험가로 거듭나는 발판을 마련합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "텍스트에 관하여 및 서문",
+        "summary": "호빗의 출판 역사와 룬 문자, 종족 명칭 번역에 대한 저자의 지침을 설명합니다."
+      },
+      {
+        "sectionTitle": "제1장 뜻밖의 파티",
+        "summary": "안락한 삶을 즐기던 빌보가 갠달프를 만나고, 이어 불쑥 찾아온 난쟁이들과 함께 모험의 서막을 여는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 구조",
+        "value": "일상의 평화에서 예기치 못한 모험으로의 초대와 영웅의 탄생"
+      }
+    ],
+    "keyEntitiesText": "빌보 배긴스, 갠달프, 드왈린, 발린, 킬리, 필리, 툭 노인",
+    "settingText": "중간계, 샤이어, 호비튼"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jVrjbWUF-3SJxGiz0eouhdZdiSskvxJz",
+    "filename": "J.R.R.톨킨-호빗; 뜻밖의 여정(씨앗을 뿌리는 사람들)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T09:59:04.000Z",
+    "size": "694949",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1jVrjbWUF-3SJxGiz0eouhdZdiSskvxJz/view?usp=drivesdk",
+    "sourceSha256": "1afd79cf9647ef08946bad6dcd6ede25b36a525ae49d9c9db0600cb8076cd9e9",
+    "textSha256": "6b4468fac3712152481bc6b483458a08b8fa957295d2bcf04c50481fead49c66",
+    "changeKey": "da6f9adfe05da45078b782dcf3cbfaec",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e9934b52a111b10e4bac",
+    "workId": "e9934b52a111b10e4bac",
+    "driveFileId": "1jVrjbWUF-3SJxGiz0eouhdZdiSskvxJz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:39:52.717015+00:00",
+    "updatedAt": "2026-09-22T13:39:52.717031+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:39:52.717129+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "반지의 제왕",
+    "author": "J. R. R. 톨킨",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "모험",
+      "중간계",
+      "반지전쟁"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "epic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "J. R. R. 톨킨은 영국의 소설가이자 언어학자로, 현대 판타지 문학의 거장입니다.",
+    "oneLineSummary": "호빗 빌보가 우연히 손에 넣은 신비로운 절대반지로 인해 중간계 전역을 뒤흔드는 거대한 모험이 시작됩니다.",
+    "overallSummary": "중간계의 평화로운 마을 샤이어에 사는 호빗 빌보는 마법사 갠달프와 난쟁이들의 원정에 합류하여 보물을 찾고, 그 과정에서 소유자를 투명하게 만들어주는 마법의 반지를 얻게 됩니다. 이 반지는 나중에 암흑의 군주 사우론의 절대반지로 밝혀지며, 그의 양자 프로도와 동료들이 반지를 파괴하기 위한 대장정에 오르는 서사의 서막을 엽니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "호빗족의 기원, 특징, 그리고 빌보가 골룸의 동굴에서 우연히 절대반지를 얻게 된 경위를 설명합니다."
+      },
+      {
+        "sectionTitle": "제1장 오랫동안 기다려온 생일잔치",
+        "summary": "빌보의 성대한 111세 생일 파티를 배경으로 그의 기이한 젊음과 재산, 그리고 조카 프로도를 양자로 맞이하는 이야기가 전개됩니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관",
+        "value": "요정, 난쟁이, 인간, 호빗 등 다양한 종족이 공존하는 방대한 판타지 세계관을 가집니다."
+      },
+      {
+        "key": "핵심 소재",
+        "value": "모든 반지를 지배하는 힘을 가진 절대반지와 그로 인한 운명의 소용돌이"
+      }
+    ],
+    "keyEntitiesText": "빌보 배긴스, 프로도 배긴스, 갠달프, 골룸, 드린 오큰쉴드, 새크빌 배긴스 가문, 호비트족, 오르크",
+    "settingText": "중간계, 샤이어, 호비튼, 모르도르"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oHimworss7ZMVhq_zoPD9VIzQh2sS2et",
+    "filename": "J. R. R. 톨킨-반지의 제왕.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:54.423Z",
+    "size": "2374825",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1oHimworss7ZMVhq_zoPD9VIzQh2sS2et/view?usp=drivesdk",
+    "sourceSha256": "fe20bd1a3d63fc76314eeec3400506b78b875630a0367e4ff3e8cfce1cfa69b1",
+    "textSha256": "1b880a565d578e7316d792612004ab5b179229684f31330bad1aad7d7c95eeb1",
+    "changeKey": "7f9ad31e892ff79fc261373537166cf9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7d9d669061a52722f3a5",
+    "workId": "7d9d669061a52722f3a5",
+    "driveFileId": "1oHimworss7ZMVhq_zoPD9VIzQh2sS2et",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:39:12.879430+00:00",
+    "updatedAt": "2026-09-22T13:39:12.879481+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:39:12.879674+00:00"
+    }
+  }
+}

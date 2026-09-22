@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마계마인전 1권: 회색의 마녀",
+    "author": "미즈노 료",
+    "genre": "판타지",
+    "tags": [
+      "로도스도전기",
+      "마계마인전",
+      "판타지",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미즈노 료는 일본의 유명 판타지 작가입니다.",
+    "oneLineSummary": "환상의 섬 로도스를 구하기 위한 모험가들의 여정과 영웅전쟁의 서막을 그립니다.",
+    "overallSummary": "저주받은 섬으로 불리는 로도스 섬을 배경으로, 타바 마을의 신전 사제 니스와 드워프 기무의 이야기로 시작됩니다. 잭슨 마을에서는 고블린의 습격 위협에 맞서 젊은 전사 판과 신관 에트가 홀로 일어섭니다. 이들은 슬레인과 기무 등 동료들과 합류하여 로도스의 평화를 위협하는 어둠의 세력에 맞서는 거대한 모험의 길을 걷게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "Ⅰ. 모험자들",
+        "summary": "니스와 기무의 만남, 그리고 판과 에트가 고블린 퇴치를 위해 모험을 결심하는 과정을 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "출판 역사",
+        "value": "일본의 원작 《로도스도 전기》가 국내에 《마계마인전》이라는 제목으로 번역 소개된 판타지 소설"
+      }
+    ],
+    "keyEntitiesText": "니스, 기무, 판, 에트, 슬레인, 디드리트",
+    "settingText": "로도스 섬, 타바 마을, 잭슨 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Mg_dw0Dc1WTKOyrps7KfSVrJyiAj3pZ7",
+    "filename": "미즈노료-마계마인전 제1권 회색의 마녀.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:54.659Z",
+    "size": "427747",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1Mg_dw0Dc1WTKOyrps7KfSVrJyiAj3pZ7/view?usp=drivesdk",
+    "sourceSha256": "b99cf8ade59b67c7edcf8f1b5a6b1a116b5742efbc6c48a7cf63cf538f1b1a3f",
+    "textSha256": "13cc363823d4121994ceaa3d3a7894b911a19cc9d3dd06223c7865ae6d80764b",
+    "changeKey": "1ca187f3e4835d36a3f05432d2c46cf1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a99eda70f74251102da0",
+    "workId": "a99eda70f74251102da0",
+    "driveFileId": "1Mg_dw0Dc1WTKOyrps7KfSVrJyiAj3pZ7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:41:21.543758+00:00",
+    "updatedAt": "2026-09-22T13:41:21.543773+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8586,
+      "updatedAt": "2026-09-22T13:41:21.543871+00:00"
+    }
+  }
+}
