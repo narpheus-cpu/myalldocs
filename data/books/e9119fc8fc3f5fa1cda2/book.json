@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모든 일은 결국 벌어진다 (하)",
+    "author": "스티븐 킹",
+    "genre": "호러",
+    "tags": [
+      "단편집",
+      "공포",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 호러 소설가.",
+    "oneLineSummary": "스티븐 킹의 단편들을 모은 작품집.",
+    "overallSummary": "스티븐 킹의 다양한 단편 소설들을 모아 엮은 작품집으로, 공포와 판타지가 어우러진 이야기들.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "L.T.의 애완동물 이론",
+        "summary": "애완동물을 둘러싼 부부의 갈등과 비극."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "단편 소설의 정수"
+      }
+    ],
+    "keyEntitiesText": "스티븐 킹",
+    "settingText": "미국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1G2zpkdIhweqV4_SoPDGb6tyxFpKeMrol",
+    "filename": "스티븐 킹-모든 일은 결국 벌어진다(하(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T23:08:14.000Z",
+    "size": "512415",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1G2zpkdIhweqV4_SoPDGb6tyxFpKeMrol/view?usp=drivesdk",
+    "sourceSha256": "70600e24cafc76b8b37c957515845ee74b395fdd9d69e6209d700de580621b0c",
+    "textSha256": "5c5fb991eff6639b08e1a5c7c5946786bbda353ae1137d4db9dd8a8bcb368b5f",
+    "changeKey": "a07c1673d7a0b372e8e5b99765b90cd1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e9119fc8fc3f5fa1cda2",
+    "workId": "e9119fc8fc3f5fa1cda2",
+    "driveFileId": "1G2zpkdIhweqV4_SoPDGb6tyxFpKeMrol",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:14:52.980583+00:00",
+    "updatedAt": "2026-09-22T05:14:52.980599+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:14:52.980668+00:00"
+    }
+  }
+}

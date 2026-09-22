@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불을 가지고 노는 소녀 1",
+    "author": "스티그 라르손",
+    "genre": "스릴러",
+    "tags": [
+      "범죄",
+      "리스베트",
+      "과거"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스웨덴의 저널리스트이자 작가.",
+    "oneLineSummary": "리스베트 살란데르의 과거와 그녀를 옭아매는 사건들.",
+    "overallSummary": "리스베트 살란데르가 자신의 과거와 관련된 사건들에 휘말리며 벌어지는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "리스베트가 감금당한 상황과 그녀의 분노를 묘사."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "리스베트의 과거사 중심"
+      }
+    ],
+    "keyEntitiesText": "리스베트 살란데르, 미카엘 블롬크비스트",
+    "settingText": "스웨덴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uYHELZzFr1ASGndPJv4wwO9PxwFf36jq",
+    "filename": "스티그 라르손-불을 가지고 노는 소녀 1(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:46:00.000Z",
+    "size": "836960",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1uYHELZzFr1ASGndPJv4wwO9PxwFf36jq/view?usp=drivesdk",
+    "sourceSha256": "a00e78e8039ee069c41e6ba0031fdfaf4cac14113c24a24f51ece8084acdef14",
+    "textSha256": "fcc9e380052ec166465e7a7eff7679831c51261b747c29fef10dd55f0cf47eb4",
+    "changeKey": "89e949d38caf04827b2d35d28d8336c2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "eaee952fee25e58b52a8",
+    "workId": "eaee952fee25e58b52a8",
+    "driveFileId": "1uYHELZzFr1ASGndPJv4wwO9PxwFf36jq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:14:24.920806+00:00",
+    "updatedAt": "2026-09-22T05:14:24.920823+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:14:24.920899+00:00"
+    }
+  }
+}

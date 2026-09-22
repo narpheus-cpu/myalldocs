@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스켈레톤 크루 (하)",
+    "author": "스티븐 킹",
+    "genre": "호러",
+    "tags": [
+      "단편집",
+      "공포",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 호러 소설가.",
+    "oneLineSummary": "스티븐 킹의 단편들을 모은 작품집.",
+    "overallSummary": "스티븐 킹의 다양한 단편 소설들을 모아 엮은 작품집으로, 공포와 판타지가 어우러진 이야기들.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "신들의 워드프로세서",
+        "summary": "글을 쓰면 현실이 되는 워드프로세서 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "단편 소설의 정수"
+      }
+    ],
+    "keyEntitiesText": "스티븐 킹",
+    "settingText": "미국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10c-5U5yCsftYvRkIzD2zqia8Vz_gmLsn",
+    "filename": "스티븐 킹-스켈레톤 크루(하)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T23:14:56.000Z",
+    "size": "729385",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/10c-5U5yCsftYvRkIzD2zqia8Vz_gmLsn/view?usp=drivesdk",
+    "sourceSha256": "c474612bef00f423c57011766bd7109125ce34792c38b7ec7d0262e4a3cf5a67",
+    "textSha256": "2fa14f7ca1f037b19e211fd9baa6ed1899c68ea6a01fa33cda74fe0bc17efc63",
+    "changeKey": "285734fd8d3938c81c47bb9f008b7797",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "72f42ffaadf93b9744b1",
+    "workId": "72f42ffaadf93b9744b1",
+    "driveFileId": "10c-5U5yCsftYvRkIzD2zqia8Vz_gmLsn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:15:04.126682+00:00",
+    "updatedAt": "2026-09-22T05:15:04.126696+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:15:04.126769+00:00"
+    }
+  }
+}

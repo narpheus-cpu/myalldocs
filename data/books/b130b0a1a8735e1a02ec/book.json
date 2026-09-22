@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "죽음의 게임 3",
+    "author": "셜리 콘란",
+    "genre": "픽션",
+    "tags": [
+      "생존",
+      "정글",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "adventure",
+        "survival"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "런던 태생으로 데일리 메일 편집자를 거쳐 세계적인 베스트셀러 작가로 활동 중임.",
+    "oneLineSummary": "정글에 조난당한 여성들이 조나단의 죽음 이후 스스로 생존을 도모하며 뗏목을 만드는 이야기.",
+    "overallSummary": "조나단이 죽은 후, 정글에 남겨진 여성들은 슬픔을 딛고 스스로 생존하기 위해 뗏목을 만들기로 결심한다. 실바나의 사고 등 여러 위험을 겪으며 그들은 서로 의지하고 조나단의 가르침을 되새기며 섬을 탈출할 방법을 찾는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 4 부 위험",
+        "summary": "조나단의 죽음 이후 여성들이 겪는 심리적 고통과 생존을 위한 투쟁, 그리고 새로운 리더십의 필요성을 다룸."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "극한 상황에서의 여성 연대와 생존"
+      }
+    ],
+    "keyEntitiesText": "애니, 패티, 캘리, 수지, 실바나, 조나단, 러키 장군",
+    "settingText": "정글, 후미, 1985년 3월"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1o_ov_dKnChu4NOaCV6Jo7aGOe7kMujig",
+    "filename": "셜리 콘란-죽음의 게임 3 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.959Z",
+    "size": "510979",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1o_ov_dKnChu4NOaCV6Jo7aGOe7kMujig/view?usp=drivesdk",
+    "sourceSha256": "3fa1dc4e5e2eab266481d4916f0471f3db65005508f39d8754abddbfbac47377",
+    "textSha256": "0a94a4db205de320fc929e0ca6ec4732cbcb3f9e036386347552c790653cfeea",
+    "changeKey": "c8394e9efa65c674d24675de3b60d8a2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b130b0a1a8735e1a02ec",
+    "workId": "b130b0a1a8735e1a02ec",
+    "driveFileId": "1o_ov_dKnChu4NOaCV6Jo7aGOe7kMujig",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:13:49.671944+00:00",
+    "updatedAt": "2026-09-22T05:13:49.671960+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:13:49.672119+00:00"
+    }
+  }
+}

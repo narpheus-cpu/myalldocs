@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "링 1",
+    "author": "스즈키 코지",
+    "genre": "호러",
+    "tags": [
+      "공포",
+      "미스터리",
+      "저주"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 호러 소설가.",
+    "oneLineSummary": "의문의 돌연사 사건을 추적하는 기자 아사카와가 저주받은 비디오의 실체를 파헤치는 이야기.",
+    "overallSummary": "요코하마에서 발생한 의문의 돌연사 사건을 취재하던 기자 아사카와는, 죽은 이들이 공통적으로 저주받은 비디오를 보았다는 사실을 알게 되고 그 실체를 추적하기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "도모코의 죽음",
+        "summary": "도모코가 방에서 의문의 공포를 느끼며 죽음을 맞이하는 장면."
+      },
+      {
+        "sectionTitle": "기무라의 사건",
+        "summary": "택시 운전사 기무라가 목격한 오토바이 운전자의 돌연사 사건."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "불길하고 미스터리한 공포"
+      }
+    ],
+    "keyEntitiesText": "아사카와 가즈유키, 오이시 도모코, 기무라 미키오",
+    "settingText": "요코하마, 도쿄, 9월"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HwYuGQJv_XqlQW6WqTtQ2fOB5gTxN_g2",
+    "filename": "스즈키 코지-링.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.982Z",
+    "size": "1227393",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1HwYuGQJv_XqlQW6WqTtQ2fOB5gTxN_g2/view?usp=drivesdk",
+    "sourceSha256": "f5e3bd729aa661dd46ee13cee2e7f6202c7afe23797847630d5f89138e2676c8",
+    "textSha256": "0b83bcc6b6d8be95afda3cacc9e8822ace25ea6c507e276cc19893dd01cf7115",
+    "changeKey": "e37234c4b82f17e388f8649bb31d3107",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1e0be439e02e4919f764",
+    "workId": "1e0be439e02e4919f764",
+    "driveFileId": "1HwYuGQJv_XqlQW6WqTtQ2fOB5gTxN_g2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:13:55.633968+00:00",
+    "updatedAt": "2026-09-22T05:13:55.633981+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.385,
+      "updatedAt": "2026-09-22T05:13:55.634048+00:00"
+    }
+  }
+}

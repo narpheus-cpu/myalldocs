@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모든 일은 결국 벌어진다 (상)",
+    "author": "스티븐 킹",
+    "genre": "호러",
+    "tags": [
+      "단편집",
+      "공포",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 호러 소설가.",
+    "oneLineSummary": "스티븐 킹의 단편들을 모은 작품집.",
+    "overallSummary": "스티븐 킹의 다양한 단편 소설들을 모아 엮은 작품집으로, 공포와 판타지가 어우러진 이야기들.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제4호 부검실",
+        "summary": "부검실에서 깨어난 남자의 공포를 다룸."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "단편 소설의 정수"
+      }
+    ],
+    "keyEntitiesText": "스티븐 킹",
+    "settingText": "미국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15LhNjBHP_iFpYq23ql_jZTyk3f8fcIcl",
+    "filename": "스티븐 킹-모든 일은 결국 벌어진다(상)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T23:05:56.000Z",
+    "size": "660449",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/15LhNjBHP_iFpYq23ql_jZTyk3f8fcIcl/view?usp=drivesdk",
+    "sourceSha256": "c4ce52ef87568b43d8394bbe6f1a4f87af0bd3ee426ea6b45bb052f36a69f5a4",
+    "textSha256": "7dcffd2bcab32c59368cde6c3281541c1632a2fc3292b26ae0eed3e0b1101d21",
+    "changeKey": "60c9fa485b745e0130a8b3437fb7ba85",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2adbd18c9e14bcaea10b",
+    "workId": "2adbd18c9e14bcaea10b",
+    "driveFileId": "15LhNjBHP_iFpYq23ql_jZTyk3f8fcIcl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:14:47.211061+00:00",
+    "updatedAt": "2026-09-22T05:14:47.211078+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:14:47.211155+00:00"
+    }
+  }
+}

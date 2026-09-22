@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불을 가지고 노는 소녀 2",
+    "author": "스티그 라르손",
+    "genre": "스릴러",
+    "tags": [
+      "범죄",
+      "수사",
+      "반전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스웨덴의 저널리스트이자 작가.",
+    "oneLineSummary": "리스베트 살란데르 사건의 수사와 진실 규명.",
+    "overallSummary": "리스베트 살란데르를 둘러싼 살인 사건의 수사가 진행되며 진실이 드러나기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "합병",
+        "summary": "사건 수사가 진행되며 여러 인물들의 이해관계가 얽히는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "수사 과정의 치밀한 묘사"
+      }
+    ],
+    "keyEntitiesText": "리스베트 살란데르, 부블란스키, 드라간 아르만스키",
+    "settingText": "스웨덴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Qj-gHdvaviAIRN52HrZmClvcHijEZoRB",
+    "filename": "스티그 라르손-불을 가지고 노는 소녀 2(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:47:44.000Z",
+    "size": "797525",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1Qj-gHdvaviAIRN52HrZmClvcHijEZoRB/view?usp=drivesdk",
+    "sourceSha256": "9fac71fa3aeb5d7dd554711d6dcf2b4641a583cf597a61693d58566b249c8e36",
+    "textSha256": "e472e671d74934465d28b771b8d07fa29f67999a8cba3e1fb286c4cc869625ad",
+    "changeKey": "8fd08d78f0bfed28a21724128b0326f0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d8a60e1a56ebf464cf2e",
+    "workId": "d8a60e1a56ebf464cf2e",
+    "driveFileId": "1Qj-gHdvaviAIRN52HrZmClvcHijEZoRB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:14:30.017869+00:00",
+    "updatedAt": "2026-09-22T05:14:30.017883+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:14:30.017958+00:00"
+    }
+  }
+}

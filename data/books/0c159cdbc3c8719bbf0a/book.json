@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스탠드 4",
+    "author": "스티븐 킹",
+    "genre": "호러",
+    "tags": [
+      "다크맨",
+      "종말",
+      "생존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "apocalyptic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 호러 소설가.",
+    "oneLineSummary": "악의 세력 다크맨의 등장과 위협.",
+    "overallSummary": "악의 화신 다크맨이 생존자들을 위협하며 선과 악의 본격적인 대립이 시작된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "다크맨",
+        "summary": "악의 세력 다크맨의 등장과 위협."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "포스트 아포칼립스 호러"
+      }
+    ],
+    "keyEntitiesText": "스티븐 킹",
+    "settingText": "미국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zpvhqtGtl8hCvGxuKdO8nSqZt7mIp-hQ",
+    "filename": "스티븐 킹-스탠드4(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T23:26:24.000Z",
+    "size": "606593",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1zpvhqtGtl8hCvGxuKdO8nSqZt7mIp-hQ/view?usp=drivesdk",
+    "sourceSha256": "3f1da67571b6b284d3649b41ca7df5fff8f1441d8357e9048991cf724dfdb00b",
+    "textSha256": "1df2baa5997108c5c56f7faaec9d21848be5bc34fbfad04a9b3b590f3576f80f",
+    "changeKey": "9bbad35ce0f4e49c0833e04d2101121e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0c159cdbc3c8719bbf0a",
+    "workId": "0c159cdbc3c8719bbf0a",
+    "driveFileId": "1zpvhqtGtl8hCvGxuKdO8nSqZt7mIp-hQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:15:28.473076+00:00",
+    "updatedAt": "2026-09-22T05:15:28.473093+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:15:28.473173+00:00"
+    }
+  }
+}

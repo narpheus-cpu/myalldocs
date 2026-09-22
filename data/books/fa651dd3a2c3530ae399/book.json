@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스탠드 5",
+    "author": "스티븐 킹",
+    "genre": "호러",
+    "tags": [
+      "배신자",
+      "종말",
+      "생존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "apocalyptic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 호러 소설가.",
+    "oneLineSummary": "생존자들 내부의 배신과 갈등.",
+    "overallSummary": "생존자들 내부에서 배신자가 나타나고, 이로 인해 선의 세력이 위기에 처한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "배신자들",
+        "summary": "생존자들 내부의 배신과 갈등."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "포스트 아포칼립스 호러"
+      }
+    ],
+    "keyEntitiesText": "스티븐 킹",
+    "settingText": "미국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Y6MKnRoNTWMjgsfaNcyY1-nxBr4wFbbm",
+    "filename": "스티븐 킹-스탠드5(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T23:29:08.000Z",
+    "size": "580197",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1Y6MKnRoNTWMjgsfaNcyY1-nxBr4wFbbm/view?usp=drivesdk",
+    "sourceSha256": "f382103b9bafb1c5021599969a20a29caa9f7cfdd5620b16b1b18229d407f76c",
+    "textSha256": "b0c72572e096b061c9203177b330e88da89ceb548cabee4a98e596e45b74a2b1",
+    "changeKey": "54ebfc255ccd169e52b717374462b44c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fa651dd3a2c3530ae399",
+    "workId": "fa651dd3a2c3530ae399",
+    "driveFileId": "1Y6MKnRoNTWMjgsfaNcyY1-nxBr4wFbbm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:15:35.565182+00:00",
+    "updatedAt": "2026-09-22T05:15:35.565197+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:15:35.565259+00:00"
+    }
+  }
+}

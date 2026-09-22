@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스탠드 6",
+    "author": "스티븐 킹",
+    "genre": "호러",
+    "tags": [
+      "결말",
+      "종말",
+      "생존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "apocalyptic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 호러 소설가.",
+    "oneLineSummary": "선과 악의 최종 대결과 결말.",
+    "overallSummary": "선과 악의 세력이 최종적으로 대결하며 인류의 운명이 결정된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "끝의 시작",
+        "summary": "선과 악의 최종 대결과 결말."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "포스트 아포칼립스 호러"
+      }
+    ],
+    "keyEntitiesText": "스티븐 킹",
+    "settingText": "미국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1McclPYtjaQMGSkuCnJWuH16juHVi7yII",
+    "filename": "스티븐 킹-스탠드6(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T23:32:32.000Z",
+    "size": "740018",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1McclPYtjaQMGSkuCnJWuH16juHVi7yII/view?usp=drivesdk",
+    "sourceSha256": "de6442be68def2d7c4deb7035ea04ad1db2b23365f551f2868d5d095920c9743",
+    "textSha256": "25b9815c462266e659cdffe4bb48d45f87e452b2a4591f380e0e3eb604f1a8d2",
+    "changeKey": "a805101935e4521739bb8e1f24755bcb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6b38ea17d27f2128bdb9",
+    "workId": "6b38ea17d27f2128bdb9",
+    "driveFileId": "1McclPYtjaQMGSkuCnJWuH16juHVi7yII",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:15:41.037496+00:00",
+    "updatedAt": "2026-09-22T05:15:41.037514+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:15:41.037592+00:00"
+    }
+  }
+}

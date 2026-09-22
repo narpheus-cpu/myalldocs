@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스탠드 2",
+    "author": "스티븐 킹",
+    "genre": "호러",
+    "tags": [
+      "학살",
+      "종말",
+      "생존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "apocalyptic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 호러 소설가.",
+    "oneLineSummary": "바이러스 이후의 혼란과 생존자들의 이야기.",
+    "overallSummary": "바이러스로 인한 인류 멸망 후, 생존자들이 모여들며 새로운 사회를 형성하려는 과정.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "학살",
+        "summary": "바이러스 이후의 혼란과 죽음의 현장."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "포스트 아포칼립스 호러"
+      }
+    ],
+    "keyEntitiesText": "스티븐 킹",
+    "settingText": "미국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EGIZB8HxYfDtRtJZZHz7map7NHk2CmTL",
+    "filename": "스티븐 킹-스탠드2(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T23:20:56.000Z",
+    "size": "684148",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1EGIZB8HxYfDtRtJZZHz7map7NHk2CmTL/view?usp=drivesdk",
+    "sourceSha256": "4f2c5e133fca9a659b6f6d5292c9c0d7947e79d8444be44d87bd8228540e6fbd",
+    "textSha256": "aa382e778430449c1ddc9aab47bc0845af7b24e580d76c4b9e5e9afa819cd2f6",
+    "changeKey": "de12c99428f9f6e9c500c658d90270d4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f557abfdcc1d7256635b",
+    "workId": "f557abfdcc1d7256635b",
+    "driveFileId": "1EGIZB8HxYfDtRtJZZHz7map7NHk2CmTL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:15:16.703344+00:00",
+    "updatedAt": "2026-09-22T05:15:16.703361+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:15:16.703474+00:00"
+    }
+  }
+}

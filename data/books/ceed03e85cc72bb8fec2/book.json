@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "벌집을 발로 찬 소녀 2",
+    "author": "스티그 라르손",
+    "genre": "스릴러",
+    "tags": [
+      "범죄",
+      "수사",
+      "음모"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스웨덴의 저널리스트이자 작가.",
+    "oneLineSummary": "리스베트 살란데르 사건의 배후를 파헤치는 미카엘 블롬크비스트의 수사.",
+    "overallSummary": "미카엘 블롬크비스트가 리스베트 살란데르 사건의 배후에 있는 거대한 음모를 파헤치기 위해 고군분투한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "디스크 파손",
+        "summary": "미카엘이 해킹을 통해 사건의 증거를 수집하고 음모를 밝혀내는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "사회적 음모와 저널리즘의 결합"
+      }
+    ],
+    "keyEntitiesText": "미카엘 블롬크비스트, 리스베트 살란데르, 소니아 모디그",
+    "settingText": "스웨덴, 스톡홀름"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nS9HyWrjz8z9UTH1GjGYrYtWVbq8jIUM",
+    "filename": "스티그 라르손-벌집을 발로 찬 소녀 2(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T10:44:16.000Z",
+    "size": "835585",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1nS9HyWrjz8z9UTH1GjGYrYtWVbq8jIUM/view?usp=drivesdk",
+    "sourceSha256": "71a9666f9b1cd3e3dd2a6bb0a9e20ddbffddd4a2f1fb771f2677547926c6b7d3",
+    "textSha256": "2fa45f8d0eebe6a6d5750db757cc88de0157271d3b307c1b17b8d132cab38458",
+    "changeKey": "88cd8037542a96b30a4016d7353f475c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ceed03e85cc72bb8fec2",
+    "workId": "ceed03e85cc72bb8fec2",
+    "driveFileId": "1nS9HyWrjz8z9UTH1GjGYrYtWVbq8jIUM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:14:18.869898+00:00",
+    "updatedAt": "2026-09-22T05:14:18.869915+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:14:18.869991+00:00"
+    }
+  }
+}

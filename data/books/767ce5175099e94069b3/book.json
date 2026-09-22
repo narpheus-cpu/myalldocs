@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "햇빛 찬란한 바다",
+    "author": "스즈키 코지",
+    "genre": "미스터리",
+    "tags": [
+      "정신과",
+      "기억상실",
+      "심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "psychological",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스즈키 코지의 또 다른 미스터리 소설.",
+    "oneLineSummary": "기억을 잃은 임산부 환자를 진료하는 정신과 의사 모치즈키의 이야기.",
+    "overallSummary": "바다에서 구조된 신원 불명의 임산부 환자를 맡게 된 정신과 의사 모치즈키가 그녀의 기억을 되찾아주기 위해 노력하며 겪는 심리적 미스터리.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "거울 속",
+        "summary": "모치즈키가 기억상실증에 걸린 임산부 환자를 처음 진료하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "인간의 내면과 기억의 파편"
+      }
+    ],
+    "keyEntitiesText": "모치즈키 토시다카, 신원 불명의 임산부, 스나코 다케시",
+    "settingText": "마쓰이 병원, 하마마쓰"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vaDbBh9q6jmmUtiMBniBpcfNGjPqVUV5",
+    "filename": "스즈키 코지-햇빛 찬란한 바다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.018Z",
+    "size": "667813",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1vaDbBh9q6jmmUtiMBniBpcfNGjPqVUV5/view?usp=drivesdk",
+    "sourceSha256": "515c9380bc4e44667c71920c82a911e10d8a93102ede92312d9801a8e585ef8f",
+    "textSha256": "a237a1382087d7a4542441f278a9c781c8268b44b33a13bf2ee2f9c18d94cf49",
+    "changeKey": "23cffa989d0ddcffda2f5747839cef9f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "767ce5175099e94069b3",
+    "workId": "767ce5175099e94069b3",
+    "driveFileId": "1vaDbBh9q6jmmUtiMBniBpcfNGjPqVUV5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:14:00.890887+00:00",
+    "updatedAt": "2026-09-22T05:14:00.890903+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:14:00.890985+00:00"
+    }
+  }
+}

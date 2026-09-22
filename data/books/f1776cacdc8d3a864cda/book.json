@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스탠드 1",
+    "author": "스티븐 킹",
+    "genre": "호러",
+    "tags": [
+      "바이러스",
+      "종말",
+      "생존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "apocalyptic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 호러 소설가.",
+    "oneLineSummary": "치명적인 바이러스로 인해 인류가 멸망해가는 과정.",
+    "overallSummary": "치명적인 바이러스 '캡틴 트립스'가 퍼지면서 인류가 멸망하고 소수의 생존자들이 살아남기 위해 고군분투하는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "바이러스",
+        "summary": "바이러스가 퍼지며 사회가 붕괴되는 초기 상황."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "포스트 아포칼립스 호러"
+      }
+    ],
+    "keyEntitiesText": "스티븐 킹",
+    "settingText": "미국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jwOMBTGLeIyue3LIyxFktyOGNEGfSSG1",
+    "filename": "스티븐 킹-스탠드1(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T23:17:50.000Z",
+    "size": "613410",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1jwOMBTGLeIyue3LIyxFktyOGNEGfSSG1/view?usp=drivesdk",
+    "sourceSha256": "3e9a0e81d38970e78181e8956938f922deaffe9dc147aed9695a1f6f4daf562d",
+    "textSha256": "7753280fa75f5748de5c89c205ea67cdabdde7b2bc640fa9bbaf8e0b8d087dff",
+    "changeKey": "548e7008a9377c84e3038cd8e0a8269e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f1776cacdc8d3a864cda",
+    "workId": "f1776cacdc8d3a864cda",
+    "driveFileId": "1jwOMBTGLeIyue3LIyxFktyOGNEGfSSG1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:15:10.100480+00:00",
+    "updatedAt": "2026-09-22T05:15:10.100496+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:15:10.100575+00:00"
+    }
+  }
+}

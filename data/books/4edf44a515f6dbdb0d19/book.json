@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유혹하는 글쓰기",
+    "author": "스티븐 킹",
+    "genre": "에세이",
+    "tags": [
+      "글쓰기",
+      "창작론",
+      "자서전"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "writing",
+        "autobiography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 호러 소설가.",
+    "oneLineSummary": "스티븐 킹이 전하는 글쓰기에 대한 철학과 창작론.",
+    "overallSummary": "스티븐 킹이 자신의 경험을 바탕으로 글쓰기의 기술과 철학을 전하는 창작론이자 자서전적 에세이.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이력서",
+        "summary": "스티븐 킹의 어린 시절과 작가가 되기까지의 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "실용적인 글쓰기 지침"
+      }
+    ],
+    "keyEntitiesText": "스티븐 킹",
+    "settingText": "미국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zljNkZdwBkwc8Oq3h23CSWDwGBN2iOxz",
+    "filename": "스티븐 킹-유혹하는 글쓰기(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T23:35:18.000Z",
+    "size": "647513",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1zljNkZdwBkwc8Oq3h23CSWDwGBN2iOxz/view?usp=drivesdk",
+    "sourceSha256": "1df0dd0f02dfdaf9455ca77f3d85cfe42fccb3abe090461e4cc763ec85158871",
+    "textSha256": "09a00b66f482785a3aca98aecc2f19cf52ce74abfef65f36734e20bac44ad21e",
+    "changeKey": "729d40c8fff3360078244dd21553d7f4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4edf44a515f6dbdb0d19",
+    "workId": "4edf44a515f6dbdb0d19",
+    "driveFileId": "1zljNkZdwBkwc8Oq3h23CSWDwGBN2iOxz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:15:46.294672+00:00",
+    "updatedAt": "2026-09-22T05:15:46.294685+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:15:46.294749+00:00"
+    }
+  }
+}
