@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우주 대작전",
+    "author": "제임스 블리쉬",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "우주",
+      "스타트렉",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "우주 도시 시리즈로 유명한 SF 작가.",
+    "oneLineSummary": "엔터프라이즈 호의 커크 선장과 승무원들이 우주를 탐험하며 겪는 에피소드들.",
+    "overallSummary": "엔터프라이즈 호의 커크 선장, 스팍, 맥코이 박사가 우주를 항해하며 외계 행성에서 발생하는 다양한 사건들을 해결하고 평화를 지키는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "기묘한 방문객",
+        "summary": "찰리 소년이 엔터프라이즈 호에 탑승하며 발생하는 기묘한 사건들."
+      },
+      {
+        "sectionTitle": "전쟁은 끝났다",
+        "summary": "로뮬르스 성인과의 갈등을 해결하고 평화를 되찾는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "스페이스 오페라, 인간애 중심의 SF"
+      }
+    ],
+    "keyEntitiesText": "커크 선장, 스팍, 맥코이 박사, 찰리",
+    "settingText": "엔터프라이즈 호, 우주 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1n0_j-co9GXXRYXqhM_rKZljc0_mRjLet",
+    "filename": "제임스 블리시-우주대작전(Star Trek).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.266Z",
+    "size": "179407",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1n0_j-co9GXXRYXqhM_rKZljc0_mRjLet/view?usp=drivesdk",
+    "sourceSha256": "f04634bd527b907d2ce146d611cd5ce9c413a74aebd77fb4deaefd1b1a81054d",
+    "textSha256": "4313c0ccbae7c5d2dab6ee3e39f425db864f3536db9d073390cf918d63b75dbd",
+    "changeKey": "eda7839e03bec01cf9c108294055a515",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "12dc4996329ff4d97c64",
+    "workId": "12dc4996329ff4d97c64",
+    "driveFileId": "1n0_j-co9GXXRYXqhM_rKZljc0_mRjLet",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:00:51.173887+00:00",
+    "updatedAt": "2026-09-22T11:00:51.173896+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:00:51.174028+00:00"
+    }
+  }
+}

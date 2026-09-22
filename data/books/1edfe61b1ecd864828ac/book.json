@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "안드로메다 성운",
+    "author": "이반 에프레모프",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "우주",
+      "탐험",
+      "미래"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소련의 과학자이자 SF 작가.",
+    "oneLineSummary": "우주선 탠트라 호가 안드로메다 성운을 향해 떠나는 장대한 우주 탐험기.",
+    "overallSummary": "인류가 태양계를 넘어 안드로메다 성운으로 탐험을 떠난다. 그 과정에서 겪는 외계 문명과의 조우와 인류의 미래에 대한 철학적 고찰을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "행성 질다의 생물",
+        "summary": "탐험대가 행성 질다의 생태계를 조사하며 겪는 사건들."
+      },
+      {
+        "sectionTitle": "지구를 사랑하기 때문에",
+        "summary": "우주 탐험을 통해 인류가 지구를 더 깊이 이해하고 사랑하게 되는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "인류의 우주 진출과 문명 간의 소통"
+      }
+    ],
+    "keyEntitiesText": "엘그 놀, 니자 크리트, 폴 히스",
+    "settingText": "탠트라 호, 안드로메다 성운, 행성 질다"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jnE9vN1gPaKikOVEak7SP71HsbG3O_Sb",
+    "filename": "이반 에프레모프-안드로메다 성운(Andromeda Nebula).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.251Z",
+    "size": "174782",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1jnE9vN1gPaKikOVEak7SP71HsbG3O_Sb/view?usp=drivesdk",
+    "sourceSha256": "347b5bce024e51bca1608a8c32c30484ca963c2f7c2cf928faa371770e052b60",
+    "textSha256": "8a1bafa4f77cf8847468f8bdd9de6135db52c5ff2c52bb7d897617c05f136672",
+    "changeKey": "42cddff682f7e0b769f66ff82af7e755",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1edfe61b1ecd864828ac",
+    "workId": "1edfe61b1ecd864828ac",
+    "driveFileId": "1jnE9vN1gPaKikOVEak7SP71HsbG3O_Sb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:00:41.387969+00:00",
+    "updatedAt": "2026-09-22T11:00:41.387979+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:00:41.388084+00:00"
+    }
+  }
+}

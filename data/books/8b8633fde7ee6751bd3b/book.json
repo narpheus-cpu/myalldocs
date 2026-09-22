@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "강철 도시",
+    "author": "아이작 아시모프",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "추리",
+      "로봇",
+      "미래"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학자이자 SF 거장으로 로봇 3원칙을 정립한 작가.",
+    "oneLineSummary": "지구인 형사와 로봇 파트너가 우주인 살해 사건을 해결하는 SF 추리 소설.",
+    "overallSummary": "인류가 강철 도시(돔 도시)에 갇혀 사는 미래. 우주인 살해 사건이 발생하자 지구인 형사 베일리는 로봇 파트너 다니엘 올리버와 함께 사건을 수사하며 인간과 로봇의 관계를 재정립한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사건 발생",
+        "summary": "우주인이 살해당하는 사건이 발생하고, 베일리 형사가 수사를 맡게 된다."
+      },
+      {
+        "sectionTitle": "파트너",
+        "summary": "베일리는 로봇 다니엘 올리버와 파트너가 되어 수사를 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "로봇 3원칙, 인간과 로봇의 공존"
+      }
+    ],
+    "keyEntitiesText": "일라이저 베일리, 다니엘 올리버, 엔더비 국장, 패스톨프 박사",
+    "settingText": "미래의 뉴욕 강철 도시, 우주 도시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1U8kXVzHfYVivJrBU7hdpTRyjUOyMHfTz",
+    "filename": "아이작 아시모프-강철도시(The Caves of Steel).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:33.645Z",
+    "size": "186966",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1U8kXVzHfYVivJrBU7hdpTRyjUOyMHfTz/view?usp=drivesdk",
+    "sourceSha256": "8baccc8652a2c7e401446b135b212e246bc36a919b0d0e94b10606aa209a9af3",
+    "textSha256": "b9d9de77ec81e070fb62525a41b401582573728bb3243d244266b95573de5f77",
+    "changeKey": "cec53e5242a3437772fb63fe10a06104",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8b8633fde7ee6751bd3b",
+    "workId": "8b8633fde7ee6751bd3b",
+    "driveFileId": "1U8kXVzHfYVivJrBU7hdpTRyjUOyMHfTz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:59:42.365810+00:00",
+    "updatedAt": "2026-09-22T10:59:42.365825+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:59:42.365965+00:00"
+    }
+  }
+}

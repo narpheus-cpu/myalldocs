@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우주 괴인 자이로 박사",
+    "author": "에드먼드 해밀턴",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "우주",
+      "괴인",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스페이스 오페라의 거장.",
+    "oneLineSummary": "태양계의 멸망을 경고하며 권력을 찬탈하려는 자이로 박사에 맞서는 캡틴 퓨쳐의 활약.",
+    "overallSummary": "자이로 박사는 암흑성이 태양과 충돌할 것이라며 사람들을 선동하고 권력을 장악하려 한다. 캡틴 퓨쳐는 이 음모를 파헤치고 자이로 박사의 정체를 밝혀낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "가까워지는 암흑성",
+        "summary": "자이로 박사가 텔레비전 방송을 통해 태양계 멸망을 경고한다."
+      },
+      {
+        "sectionTitle": "자이로 박사의 정체",
+        "summary": "캡틴 퓨쳐가 자이로 박사의 음모를 밝히고 그의 정체를 드러낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "선동과 공포를 이용한 권력 찬탈 저지"
+      }
+    ],
+    "keyEntitiesText": "캡틴 퓨쳐, 자이로 박사, 사이먼, 오토, 클라크",
+    "settingText": "태양계, 우주 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rBWNz65h9Wsz-932G-NAOC_Q53EXQTOG",
+    "filename": "에드먼드 해밀턴-우주 괴인 자이로 박사(Calling Captain Future).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.227Z",
+    "size": "159860",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1rBWNz65h9Wsz-932G-NAOC_Q53EXQTOG/view?usp=drivesdk",
+    "sourceSha256": "60536d9830bbfe4a597c09d8c72fdb5bfd3b8ec0082276fc953361136b3d560f",
+    "textSha256": "d499f8a50f424fc0de3b2b87c74027749167104693592e4e6402a7ba468a1df8",
+    "changeKey": "ecb9e0d4bf69a55afd5588e8d2d2a817",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "357bbc555b14ce0f6acb",
+    "workId": "357bbc555b14ce0f6acb",
+    "driveFileId": "1rBWNz65h9Wsz-932G-NAOC_Q53EXQTOG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:00:27.779793+00:00",
+    "updatedAt": "2026-09-22T11:00:27.779803+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:00:27.779904+00:00"
+    }
+  }
+}

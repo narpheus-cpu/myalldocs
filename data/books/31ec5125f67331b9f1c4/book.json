@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "암흑 성운",
+    "author": "아이작 아시모프",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "우주",
+      "혁명",
+      "정치"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학적 지식과 통찰력을 겸비한 SF 작가.",
+    "oneLineSummary": "타이란 제국의 압제에 맞서 아버지를 구출하고 혁명에 뛰어드는 비론 파릴의 모험.",
+    "overallSummary": "네페로스별 대통령의 아들 비론 파릴은 타이란 제국의 음모에 휘말린다. 그는 아버지가 혁명 조직의 지도자임을 알게 되고, 동지들과 함께 제국에 맞서 싸우며 자유를 찾기 위한 여정을 떠난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "끊어진 텔레비전 전화",
+        "summary": "비론은 의문의 사고와 함께 자신의 목숨을 노리는 음모가 있음을 깨닫는다."
+      },
+      {
+        "sectionTitle": "중성자 폭탄",
+        "summary": "비론은 자신을 죽이려는 중성자 폭탄을 발견하고 존티어와 함께 위기를 모면한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "독재 정권에 대한 저항과 자유를 위한 투쟁"
+      }
+    ],
+    "keyEntitiesText": "비론 파릴, 존티어, 아르타, 알라타프",
+    "settingText": "네페로스별, 타이란 제국, 암흑 성운"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IFRKuGS4kzNL3AtfnwSPmR4G6NQPjXfT",
+    "filename": "아이작 아시모프-암흑성운(Dark Nebula).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.154Z",
+    "size": "162678",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1IFRKuGS4kzNL3AtfnwSPmR4G6NQPjXfT/view?usp=drivesdk",
+    "sourceSha256": "8dcfca23fce52fea3060f613fdd631d3ab1d802d9894937cdcbf74ae3c16ef38",
+    "textSha256": "3ddb0b4647142a73bd5423828d2f4a915a83b396d537e5d1b34e7c34e007b13b",
+    "changeKey": "95aef0045df2b8f8b58acfebe50e749f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "31ec5125f67331b9f1c4",
+    "workId": "31ec5125f67331b9f1c4",
+    "driveFileId": "1IFRKuGS4kzNL3AtfnwSPmR4G6NQPjXfT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:59:54.596850+00:00",
+    "updatedAt": "2026-09-22T10:59:54.596866+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:59:54.597024+00:00"
+    }
+  }
+}

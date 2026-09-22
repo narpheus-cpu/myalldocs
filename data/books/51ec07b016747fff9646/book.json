@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "싸우는 미래인",
+    "author": "에드먼드 해밀턴",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "우주",
+      "미래인",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스페이스 오페라의 거장.",
+    "oneLineSummary": "태양계 연합의 평화를 지키는 퓨쳐맨들이 1억 년 전 과거로 떠나 가데인 문명을 구하는 모험.",
+    "overallSummary": "퓨쳐맨들은 소행성 마마에서 온 구원 신호를 받고 1억 년 전 과거로 시간 여행을 떠난다. 그들은 가데인 문명을 멸망의 위기에서 구하기 위해 고군분투한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소행성 광산",
+        "summary": "광산가들이 소행성에서 이상한 신호를 발견하고 캡틴 퓨쳐에게 알린다."
+      },
+      {
+        "sectionTitle": "과거의 지구로",
+        "summary": "퓨쳐맨들이 타임 엔진을 이용해 1억 년 전 과거로 여행을 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "시간 여행, 퓨쳐맨(미래인)"
+      }
+    ],
+    "keyEntitiesText": "캡틴 퓨쳐, 사이먼 라이트, 오토, 클라크",
+    "settingText": "태양계, 1억 년 전 과거"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SdbyYkEWcyHoyHjw41NUXAZm7mbvg_oC",
+    "filename": "에드먼드 해밀턴-싸우는 미래인(The Lost World of Time).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.215Z",
+    "size": "73093",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1SdbyYkEWcyHoyHjw41NUXAZm7mbvg_oC/view?usp=drivesdk",
+    "sourceSha256": "4c8a59f2af9213228b827127eecd758c37b2b75d5a766a264b4b16fef453ba6b",
+    "textSha256": "15078a04e5df6f12baea9736d6e7eb810b49b906df6fb01db233b9eb868cbd18",
+    "changeKey": "3ce2ffbf7fba82c907581f1e3e2bb135",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "51ec07b016747fff9646",
+    "workId": "51ec07b016747fff9646",
+    "driveFileId": "1SdbyYkEWcyHoyHjw41NUXAZm7mbvg_oC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:00:21.410678+00:00",
+    "updatedAt": "2026-09-22T11:00:21.410690+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:00:21.410794+00:00"
+    }
+  }
+}

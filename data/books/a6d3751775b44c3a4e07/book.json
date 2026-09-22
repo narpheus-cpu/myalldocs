@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "관제탑을 폭파하라",
+    "author": "서광운",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "과학소설",
+      "기상",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국일보 과학부장을 역임한 한국 SF 작가 협회 회장.",
+    "oneLineSummary": "기상 위성의 데이터 변조와 예보국장의 실종 사건을 추적하며 밝혀지는 허력 에너지와 기상 조작의 음모.",
+    "overallSummary": "일본 기상 위성 카파 B9호가 금강산 상공에서 데이터를 변조하는 현상이 발생하고, 이를 조사하러 간 성하룡 예보국장이 실종된다. 예보과장 이기호가 이를 추적하며 기상 조작과 관련된 허력 에너지의 비밀을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이상한 징조",
+        "summary": "기상 위성 카파 B9호가 금강산 상공에서 데이터를 변조하는 현상이 발견된다."
+      },
+      {
+        "sectionTitle": "예보국장의 행방",
+        "summary": "조사를 위해 금강산으로 떠난 성하룡 예보국장이 실종되고, 이기호 예보과장이 추적에 나선다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 소재",
+        "value": "기상 위성, 식물 자력선, 허력 에너지"
+      }
+    ],
+    "keyEntitiesText": "성하룡 예보국장, 이기호 예보과장, 박상문 기상청장, 김민수 과학과원",
+    "settingText": "2018년의 한국, 금강산, 기상청"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1C8fYOIPfu4u8Z2gN76KyG3O9CiVtUE1W",
+    "filename": "서광운-관제탑을 폭파하라.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:33.325Z",
+    "size": "173346",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1C8fYOIPfu4u8Z2gN76KyG3O9CiVtUE1W/view?usp=drivesdk",
+    "sourceSha256": "bc70a9953097408f4a14d1299c764b0534afb99e67132b98ed26eb40cd0369f5",
+    "textSha256": "05ac1758f18b9e5d9511dab928751fa86417bb163421486f6f4a4b877fcc246a",
+    "changeKey": "c6560354bc4a19a30fb8a8f1605f38c8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a6d3751775b44c3a4e07",
+    "workId": "a6d3751775b44c3a4e07",
+    "driveFileId": "1C8fYOIPfu4u8Z2gN76KyG3O9CiVtUE1W",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:59:07.032108+00:00",
+    "updatedAt": "2026-09-22T10:59:07.032124+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:59:07.032221+00:00"
+    }
+  }
+}

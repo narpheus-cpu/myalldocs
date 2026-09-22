@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "북극성의 증언",
+    "author": "서광운",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "우주",
+      "식물학",
+      "외계인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국일보 과학부장을 역임한 한국 SF 작가 협회 회장.",
+    "oneLineSummary": "식물 자력선 연구 중 발생한 괴현상과 우주인의 납치 사건을 통해 은하계 탐험으로 이어지는 이야기.",
+    "overallSummary": "식물 자력선을 연구하던 권일송 박사와 연구소원들이 이상한 광체와 괴물을 목격한다. 이후 우주선의 출현과 함께 납치 사건이 발생하고, 화성 지하 기지를 거쳐 은하계 탐험으로 이야기가 전개된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "태풍 경보",
+        "summary": "태풍 속에서 권일송 박사가 식물 자력선 연구의 단서를 발견한다."
+      },
+      {
+        "sectionTitle": "우주선의 출현",
+        "summary": "연구소에 이상한 광체가 나타나고, 이후 우주선이 출현하여 납치 사건이 발생한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "식물 자력선과 우주 에너지의 결합"
+      }
+    ],
+    "keyEntitiesText": "권일송 박사, 김철수 조수, 우주인, 사무한",
+    "settingText": "식물 자력선 연구소, 화성 지하 기지, 은하계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1t5bgTGwNqqsdfP2dxlSUn1oesZA__mFa",
+    "filename": "서광운-북극성의 증언.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:33.339Z",
+    "size": "180821",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1t5bgTGwNqqsdfP2dxlSUn1oesZA__mFa/view?usp=drivesdk",
+    "sourceSha256": "d3e1682030160e7f00cee1bbf77c81fa8e59a7ac807f5c7b639554eb0d242db6",
+    "textSha256": "7c1165019a312087934f3508ed8875dedc0ba4adee30f23394e230346197fc59",
+    "changeKey": "adf0242a9a94dd7a336305635355f996",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7940d10c84a5e9ac45a3",
+    "workId": "7940d10c84a5e9ac45a3",
+    "driveFileId": "1t5bgTGwNqqsdfP2dxlSUn1oesZA__mFa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:59:12.987221+00:00",
+    "updatedAt": "2026-09-22T10:59:12.987235+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:59:12.987339+00:00"
+    }
+  }
+}

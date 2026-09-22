@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "4차원의 전쟁",
+    "author": "서광운",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "한국SF",
+      "우주전쟁",
+      "과학소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도쿄 대학 수학과를 수료하고 한국일보 과학부장을 역임한 한국 SF 작가 협회 회장.",
+    "oneLineSummary": "바닷물의 이상 증수와 금성 점령 사건을 계기로 지구를 침공한 성운인들과 한국 특공대의 우주 전쟁을 다룬 소설.",
+    "overallSummary": "전 세계적으로 바닷물이 불어나는 기이한 현상이 발생하고 금성이 정체불명의 우주인에게 점령당한다. 한국은 우주 특공대를 편성하여 우주 정찰에 나서고, 성운인들과의 교전 및 협상을 통해 지구를 지키기 위한 사투를 벌인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "바닷물이 불어온다",
+        "summary": "장홍팔 노인이 바닷물이 이상하게 불어나는 현상을 발견하고, 이후 전 세계적으로 해수면 상승이 확인된다."
+      },
+      {
+        "sectionTitle": "성운인의 내습",
+        "summary": "금성이 우주인에게 점령당했다는 소식이 전해지고, 한국은 우주 특공대를 편성하여 정찰 임무를 수행한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "SF적 요소",
+        "value": "우주인, 비행접시, 4차원 로봇, 핵무기, 우주 정찰"
+      }
+    ],
+    "keyEntitiesText": "장홍팔 노인, 김민수 박사, 고일동 사령관, 성운인, 한국 우주 특공대",
+    "settingText": "1970년대 이후의 미래, 바닷물이 불어나는 지구와 금성 및 우주 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OQNVayy6rN2l8VRoUQDhn2XnssIm-TDU",
+    "filename": "서광운-4차원의 전쟁.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:33.309Z",
+    "size": "163025",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1OQNVayy6rN2l8VRoUQDhn2XnssIm-TDU/view?usp=drivesdk",
+    "sourceSha256": "f46fda34a637b974322e53373d7a9683aae3399898fe06450672f0319cb905d2",
+    "textSha256": "5edfcae63b2908576b1d1d68efe94e4cb846d141d4be25d062566062ca0190a3",
+    "changeKey": "d894683169825d17125e3ecd71ac9fcb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "60c8eb075c6324c3c7f8",
+    "workId": "60c8eb075c6324c3c7f8",
+    "driveFileId": "1OQNVayy6rN2l8VRoUQDhn2XnssIm-TDU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:59:01.166428+00:00",
+    "updatedAt": "2026-09-22T10:59:01.166445+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:59:01.166653+00:00"
+    }
+  }
+}

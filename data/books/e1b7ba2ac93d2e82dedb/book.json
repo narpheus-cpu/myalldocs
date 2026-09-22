@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "화성의 프린세스",
+    "author": "에드거 라이스 버로우즈",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "화성",
+      "공주",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "타잔 시리즈로 유명한 작가.",
+    "oneLineSummary": "화성으로 이동한 존 카터가 헤리움의 공주 데저 소리스를 구하고 화성의 평화를 위해 싸우는 이야기.",
+    "overallSummary": "존 카터는 화성에서 다양한 종족과 문명을 경험한다. 그는 헤리움의 공주 데저 소리스와 사랑에 빠지고, 그녀를 구하기 위해 화성의 여러 세력과 맞서 싸운다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리글",
+        "summary": "저자가 존 카터의 원고를 발견하고 책으로 엮게 된 경위를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "이계에서의 영웅적 활약과 사랑"
+      }
+    ],
+    "keyEntitiesText": "존 카터, 데저 소리스, 타르스 타르카스",
+    "settingText": "화성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vJFGLolfeXj47jGwb2RmFJ1hMsnBLF0N",
+    "filename": "에드가 버로우즈-화성의 프린세스(A Princess Of Mars).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.199Z",
+    "size": "342635",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1vJFGLolfeXj47jGwb2RmFJ1hMsnBLF0N/view?usp=drivesdk",
+    "sourceSha256": "1f8f58ab34f4ecfce76421d2b5b4c62a41f9e232cc46d7b61386bc7a12f4bf2a",
+    "textSha256": "4b076446866c94e45efa29a8a556b6700bbff287cc3310cb34a3a4a424cb8018",
+    "changeKey": "ce24df16ab28c2a281eb9b7734433c12",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e1b7ba2ac93d2e82dedb",
+    "workId": "e1b7ba2ac93d2e82dedb",
+    "driveFileId": "1vJFGLolfeXj47jGwb2RmFJ1hMsnBLF0N",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:00:14.270599+00:00",
+    "updatedAt": "2026-09-22T11:00:14.270616+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:00:14.270741+00:00"
+    }
+  }
+}

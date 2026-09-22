@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "심해의 우주 괴물",
+    "author": "존 윈담",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "심해",
+      "괴물",
+      "재난"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 SF 작가로 재난 SF의 거장.",
+    "oneLineSummary": "심해에서 나타난 정체불명의 괴물들이 지구를 침공하며 발생하는 대홍수와 인류의 사투.",
+    "overallSummary": "바닷속에서 나타난 괴물들이 지구를 침공하고, 이로 인해 대홍수가 발생한다. 인류는 괴물들과 맞서며 새로운 생존의 길을 찾는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "불덩이의 습격",
+        "summary": "바다로 떨어진 불덩이들이 괴물들의 침공을 알리는 신호였음이 밝혀진다."
+      },
+      {
+        "sectionTitle": "대홍수다!",
+        "summary": "괴물들의 침공으로 인해 대홍수가 발생하고 지구가 위기에 처한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "외계 침공과 환경 재난"
+      }
+    ],
+    "keyEntitiesText": "마이크 왓슨, 필리스, 보커 박사",
+    "settingText": "심해, 대홍수 후의 지구"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WYEW9uPLV3TRJYeHXaupe4g2iX2SK1sf",
+    "filename": "존 윈담-심해의 우주괴물(Out of the Deeps).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.295Z",
+    "size": "155644",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1WYEW9uPLV3TRJYeHXaupe4g2iX2SK1sf/view?usp=drivesdk",
+    "sourceSha256": "335db661ee0895a4f5a86f8cf246c544926ed194d4f25bce1e32012f3be5cfd7",
+    "textSha256": "29bcc0a5c7fd5bb14ea63d8b8da6ba3181a420a20e4ef69aea842c8a26026c71",
+    "changeKey": "47993bdd2eda513927e5217ada28cb4a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "03ca3b874149f0a04557",
+    "workId": "03ca3b874149f0a04557",
+    "driveFileId": "1WYEW9uPLV3TRJYeHXaupe4g2iX2SK1sf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:01:05.337235+00:00",
+    "updatedAt": "2026-09-22T11:01:05.337246+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:01:05.337347+00:00"
+    }
+  }
+}

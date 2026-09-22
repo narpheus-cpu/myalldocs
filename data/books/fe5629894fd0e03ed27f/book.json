@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "걷는 식물 트리피드",
+    "author": "존 윈담",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "식물",
+      "재난",
+      "생존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 SF 작가로 재난 SF의 거장.",
+    "oneLineSummary": "유성우로 인해 인류 대부분이 실명한 뒤, 걸어 다니는 식물 트리피드의 습격을 받는 생존기.",
+    "overallSummary": "유성우를 본 인류가 대부분 실명한다. 이 혼란을 틈타 걸어 다니는 식물 트리피드가 인간을 습격하기 시작하고, 주인공 빌 메이슨은 살아남기 위해 사투를 벌인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "유성의 밤",
+        "summary": "유성우가 쏟아지고 이를 본 사람들이 실명하는 재난이 발생한다."
+      },
+      {
+        "sectionTitle": "걸어다니는 식물",
+        "summary": "트리피드가 인간을 습격하기 시작하며 인류의 생존이 위협받는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "인류 문명의 붕괴와 생존"
+      }
+    ],
+    "keyEntitiesText": "빌 메이슨, 트리피드, 간호원",
+    "settingText": "런던, 재난 후의 지구"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tUgOKt2WTS5cFBWs3OwHvwxaq9fx_pOz",
+    "filename": "존 윈담-걷는 식물 트리피드(The Day Of The Triffids).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.282Z",
+    "size": "180567",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1tUgOKt2WTS5cFBWs3OwHvwxaq9fx_pOz/view?usp=drivesdk",
+    "sourceSha256": "f557b3dcce23e673f6b5a91570eeb730c091c5309b7ceabeb31a12a50c18ab96",
+    "textSha256": "c71d2d4ac7698c08808212bfa7f3faba28a2a018f80c9e7863ae0196fa0889a6",
+    "changeKey": "8d5837fad80a9555cdd935dfb3555e12",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fe5629894fd0e03ed27f",
+    "workId": "fe5629894fd0e03ed27f",
+    "driveFileId": "1tUgOKt2WTS5cFBWs3OwHvwxaq9fx_pOz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:00:58.234812+00:00",
+    "updatedAt": "2026-09-22T11:00:58.234821+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:00:58.234939+00:00"
+    }
+  }
+}

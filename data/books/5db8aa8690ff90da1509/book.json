@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "타이거! 타이거!",
+    "author": "알프레드 베스터",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "복수",
+      "초능력",
+      "우주"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "SF의 고전적 걸작을 남긴 작가.",
+    "oneLineSummary": "우주 공간에 버려진 걸리버 포일이 복수를 위해 초능력을 얻고 거대 기업과 맞서는 이야기.",
+    "overallSummary": "우주선에서 버려진 걸리버 포일은 생존을 위해 초능력(조운트)을 익히고, 자신을 버린 자들에 대한 복수를 위해 거대 기업과 우주를 무대로 싸움을 벌인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 부",
+        "summary": "걸리버 포일이 우주선에서 살아남아 복수를 다짐하고 초능력을 얻는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "조운트(순간 이동), 복수극"
+      }
+    ],
+    "keyEntitiesText": "걸리버 포일, 플레스타인, 얀 요빌",
+    "settingText": "24세기 태양계, 우주 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1l0xCWreK2CBryoO5dXqal3hrwUsaxmfE",
+    "filename": "알프레드 베스터-타이거! 타이거! (The Stars My Destination).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.168Z",
+    "size": "413994",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1l0xCWreK2CBryoO5dXqal3hrwUsaxmfE/view?usp=drivesdk",
+    "sourceSha256": "3872b3d58bc1cdaf8360c5074e394bf336b1a67b9c1605bc161efa44e063f544",
+    "textSha256": "cd7a3daa314029a19db0df46c8193d65261dea4fb0b748a8247afd8e92c75164",
+    "changeKey": "c3d31daa60a6feb36a2ba37c8abebda5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5db8aa8690ff90da1509",
+    "workId": "5db8aa8690ff90da1509",
+    "driveFileId": "1l0xCWreK2CBryoO5dXqal3hrwUsaxmfE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:00:00.779091+00:00",
+    "updatedAt": "2026-09-22T11:00:00.779106+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:00:00.779195+00:00"
+    }
+  }
+}
