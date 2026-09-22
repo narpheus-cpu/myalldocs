@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "드래곤 라자 06",
+    "author": "이영도",
+    "genre": "판타지",
+    "tags": [
+      "드래곤 라자",
+      "판타지",
+      "이영도",
+      "이스트 그레이드",
+      "칸 아디움"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "모험"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 판타지 문학의 거장 이영도 작가.",
+    "oneLineSummary": "일행은 이스트 그레이드 평원을 거쳐 교역 도시 칸 아디움에 도착하여 휴식을 취한다.",
+    "overallSummary": "후치 일행은 광막한 이스트 그레이드 평원을 황소와 말을 타고 질주하며 마침내 중앙 도시인 칸 아디움에 도착한다. 먼지를 뒤집어쓴 채 지친 몸으로 여관에 들어선 일행은 맥주를 마시며 피로를 풀고, 지골레이드와 돌맨 할슈타일에 얽힌 정치적, 전략적 상황에 대해 논의한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제11부 앞을 보지만 뒤를 생각한다",
+        "summary": "이스트 그레이드 평원을 끝없이 질주하는 일행의 모습과 칸 아디움에 도착하는 여정이 그려진다."
+      },
+      {
+        "sectionTitle": "칸 아디움에서의 휴식과 논의",
+        "summary": "칸 아디움의 여관에 도착한 일행은 맥주로 목을 축이며 휴식을 취하고, 운차이의 제안으로 돌맨 할슈타일과 크라드메서, 지골레이드에 대한 심도 있는 대화를 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요장소",
+        "value": "칸 아디움의 여관"
+      }
+    ],
+    "keyEntitiesText": "후치, 샌슨, 길시언, 네리아, 레니, 제레인트, 아프나이델, 엑셀핸드, 운차이, 칼",
+    "settingText": "이스트 그레이드 평원 및 중앙 도시 칸 아디움"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19PQyd_9hY58TPgVbcQTTxuNny5MAQyef",
+    "filename": "이영도-드래곤 라자 06(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:20:46.000Z",
+    "size": "736439",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/19PQyd_9hY58TPgVbcQTTxuNny5MAQyef/view?usp=drivesdk",
+    "sourceSha256": "df6234de56ad4daecf4cb19fd59776131633a1a0d0ce93beec425d3c66ce755a",
+    "textSha256": "67efd87cbcd6574713776662cb792a0c80d8631ad724b14ad7a42953042d24fb",
+    "changeKey": "8f3b77961f9414e51e1f097549648b0e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "33e3678696e9b26d2470",
+    "workId": "33e3678696e9b26d2470",
+    "driveFileId": "19PQyd_9hY58TPgVbcQTTxuNny5MAQyef",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:41:42.796994+00:00",
+    "updatedAt": "2026-09-22T12:41:42.797010+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:41:42.797121+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "눈물을 마시는 새 제1권",
+    "author": "이영도",
+    "genre": "판타지",
+    "tags": [
+      "눈물을 마시는 새",
+      "판타지",
+      "이영도",
+      "나가",
+      "케이건 드라카"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "동양적 판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 판타지 문학의 거장 이영도 작가.",
+    "oneLineSummary": "사막의 마지막 주막에 케이건 드라카가 도착하고, 하텐그라쥬에서는 륜 페이가 심장 적출식을 앞두고 고뇌한다.",
+    "overallSummary": "푼텐 사막의 마지막 주막에 끔찍한 피의 자국을 끌며 거대한 쌍신검을 가진 사나이 케이건 드라카가 도착한다. 그는 남쪽의 키보렌 밀림을 가로질러 온 참이다. 한편, 키보렌의 냉혹한 도시 하텐그라쥬에서는 성인식을 맞아 심장 적출을 앞둔 나가 청년 륜 페이가 불사의 몸을 강요하는 사회적 규범과 심장 적출에 대해 깊은 회의와 거부감을 느낀다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 구출대",
+        "summary": "푼텐 사막의 마지막 주막에 케이건 드라카가 도착하여 주인과 대화를 나누며 자신이 키보렌을 거쳐 남쪽에서 왔음을 밝힌다."
+      },
+      {
+        "sectionTitle": "하텐그라쥬의 륜 페이",
+        "summary": "심장 적출식을 앞둔 나가 청년 륜 페이가 친구 화리트와 함께 심장을 꺼내는 것에 대한 두려움과 반감을 니름으로 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "종족특성",
+        "value": "나가의 심장 적출 및 니름 소통"
+      }
+    ],
+    "keyEntitiesText": "케이건 드라카, 륜 페이, 화리트 마케로우, 주막 주인",
+    "settingText": "푼텐 사막의 마지막 주막 및 키보렌의 도시 하텐그라쥬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12GtMP2SNEQiglSh-LAVLLilOUHNZy053",
+    "filename": "이영도-눈물을 마시는 새 제1권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:49.031Z",
+    "size": "963551",
+    "folderPath": [
+      "books",
+      "06 한국 판타지",
+      "이영도"
+    ],
+    "relativePath": "books/06 한국 판타지/이영도",
+    "webViewLink": "https://drive.google.com/file/d/12GtMP2SNEQiglSh-LAVLLilOUHNZy053/view?usp=drivesdk",
+    "sourceSha256": "1f8e4043728276d06a32d33f868c6cc2a884f4fd35b54f08ecf111dc0b13fcca",
+    "textSha256": "adac424aae48a866e9a5b24e429995aedf0a703ad0918774dd5791e8b15814b7",
+    "changeKey": "3c00f722af3eeeaa353f2aba309c1a45",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2a3fa5a379e17146fbb5",
+    "workId": "2a3fa5a379e17146fbb5",
+    "driveFileId": "12GtMP2SNEQiglSh-LAVLLilOUHNZy053",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:42:12.675845+00:00",
+    "updatedAt": "2026-09-22T12:42:12.675874+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:42:12.675994+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "자유인",
+    "author": "조항균 (허수애비)",
+    "genre": "판타지",
+    "tags": [
+      "자유인",
+      "조항균",
+      "판타지",
+      "아젝스",
+      "아레나 공주"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "정통 판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "판타지 소설가 조항균.",
+    "oneLineSummary": "정략결혼을 앞두고 불만을 품은 아젝스와 변방 틸라크 영지로 향하는 포러스 제국의 아레나 공주.",
+    "overallSummary": "18세의 아젝스는 대 포러스 제국의 제1공주 아레나와의 정략결혼을 앞두고 청년기의 자유를 빼앗긴 것에 분노하며 술잔을 기울인다. 한편, 황후의 음모로 변방의 보잘것없는 틸라크 공작가의 아젝스에게 시집을 가게 된 아레나 공주는 궁정마법사 나사스와 함께 험난한 산길을 따라 틸라크 영지로 향하고 있다. 틸라크 성문 앞에 마중 나온 틸라크 공작과 아젝스는 공주를 맞이하지만 첫만남부터 엇갈린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "정략결혼을 비관하며 술에 취해 주점을 떠나는 아젝스와 황후의 음모로 틸라크 공작가로 시집을 가며 불안해하는 아레나 공주의 여정이 대조적으로 그려진다."
+      },
+      {
+        "sectionTitle": "환영 행사의 첫만남",
+        "summary": "틸라크 영지에 도착한 아레나 공주를 맞이하는 틸라크 공작과 멍한 태도의 아젝스의 첫만남이 쌀쌀맞은 분위기 속에 이루어진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요갈등",
+        "value": "정략결혼에 대한 불만과 황후의 음모에 따른 정략적 이동"
+      }
+    ],
+    "keyEntitiesText": "아젝스, 한스 멕그리거, 앙리 베델, 아레나 공주, 나사스, 그라시스 틸라크 (공작), 지멘 이튼",
+    "settingText": "포러스 제국의 주점 및 틸라크 영지 성문 광장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1X498fwj_02HvwrKPZnKgy8y9B91izO8q",
+    "filename": "자유인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:50.221Z",
+    "size": "2782213",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1X498fwj_02HvwrKPZnKgy8y9B91izO8q/view?usp=drivesdk",
+    "sourceSha256": "60b4b04d3949533b70b5375a6ce7db86a6aa37788accb7cc98a5ce3bc12f31f0",
+    "textSha256": "fc02a70353d31bd14954a86634db237f2fb4c046fe0ca143d2641612f6dc1d76",
+    "changeKey": "79ceb665592b3c85add8010ed0a00915",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1eb937ff85bd53f1b82d",
+    "workId": "1eb937ff85bd53f1b82d",
+    "driveFileId": "1X498fwj_02HvwrKPZnKgy8y9B91izO8q",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:43:44.387655+00:00",
+    "updatedAt": "2026-09-22T12:43:44.387670+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:43:44.387781+00:00"
+    }
+  }
+}

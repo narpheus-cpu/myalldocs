@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무한대전",
+    "author": "이재현",
+    "genre": "판타지",
+    "tags": [
+      "무한대전",
+      "이재현",
+      "판타지",
+      "차원 이동",
+      "선악전쟁"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "게임판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "신조대협(이재현) 작가.",
+    "oneLineSummary": "고대 선악전쟁에서 비롯된 혼돈을 막기 위해 노인이 청년을 축지법 주문으로 다른 차원으로 이동시킨다.",
+    "overallSummary": "어두운 방에서 신급 노인과 청년이 대화를 나누며 차원 이동을 준비한다. 노인은 고대에 제우스와 대마왕 카오스 사이에 벌어진 선악전쟁과 카오스의 봉인 해제에 대해 설명한다. 카오스의 피조물들이 계속 부활하는 '리젠' 현상 때문에 고통받는 지상을 구하기 위해, 노인은 축지법 주문을 사용해 청년을 다른 차원의 세계로 떠나보낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "어두운 방에서 차원 이동을 앞둔 노인과 청년이 가벼운 농담과 함께 축지법 주문으로 사라진다."
+      },
+      {
+        "sectionTitle": "1장. 초보자",
+        "summary": "차원의 어둠을 날아가는 동안 노인은 청년에게 제우스와 카오스의 선악전쟁, 카오스 부하들의 '리젠' 특성, 그리고 직업 체계에 대해 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관설정",
+        "value": "선악전쟁, 리젠 특성, 8가지 직업과 무적/초인 등급"
+      }
+    ],
+    "keyEntitiesText": "신조대협 (양과), 청년 (주인공), 노인 (제우스측 신급 존재), 제우스, 카오스",
+    "settingText": "차원 이동의 공간 및 어두운 방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1l4L6G-veVPfE_jgtVzi1XyBlzFcZHVXH",
+    "filename": "이재현-무한대전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:49.517Z",
+    "size": "1078716",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1l4L6G-veVPfE_jgtVzi1XyBlzFcZHVXH/view?usp=drivesdk",
+    "sourceSha256": "7bf9f8a52ce3cfa469253e3cffd4490bae2f35ac64963151f08626fd8b7e4648",
+    "textSha256": "0ddb4a86751c44235c0920b2c0b89505bd5e4ac192267a716df46691d76e28c7",
+    "changeKey": "ba6c50ad7d28c7f14f671d1d7b49e8db",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "caf7bfba5e88b3c677f9",
+    "workId": "caf7bfba5e88b3c677f9",
+    "driveFileId": "1l4L6G-veVPfE_jgtVzi1XyBlzFcZHVXH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:43:11.476362+00:00",
+    "updatedAt": "2026-09-22T12:43:11.476377+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:43:11.476471+00:00"
+    }
+  }
+}

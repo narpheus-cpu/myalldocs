@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "눈물을 마시는 새 제2권",
+    "author": "이영도",
+    "genre": "판타지",
+    "tags": [
+      "눈물을 마시는 새",
+      "판타지",
+      "이영도",
+      "시구리아트",
+      "유료도로"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "동양적 판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 판타지 문학의 거장 이영도 작가.",
+    "oneLineSummary": "케이건 일행이 시구리아트 산맥의 유료도로를 거쳐 관문요새에 도착한다.",
+    "overallSummary": "갈로텍과 군령자들의 대화가 오가는 가운데, 케이건 드라카, 륜, 비형, 티나한 일행은 시구리아트 산맥의 유료도로를 통과한다. 산맥을 넘는 고된 행군 끝에 일행은 시구리아트 관문요새의 징수소에 도착하고, 징수소장은 딱정벌레 나늬와 륜의 존재 때문에 통행료 책정에 곤란을 겪는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제6장 길을 준비하는 자",
+        "summary": "갈로텍과 군령자들의 정신적 교감과 갈등이 그려진 후, 케이건 일행이 산악 지역을 걷기 시작한다."
+      },
+      {
+        "sectionTitle": "시구리아트 관문요새",
+        "summary": "혹독한 행군 끝에 시구리아트 관문요새의 징수소에 도착한 일행은 딱정벌레와 용의 통행료 문제로 징수소장과 설전을 벌인다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요세계관",
+        "value": "시구리아트 유료도로와 당원들의 규율"
+      }
+    ],
+    "keyEntitiesText": "갈로텍, 주퀘도, 륜 페이, 케이건 드라카, 비형 스라비, 티나한, 징수소장",
+    "settingText": "시구리아트 산맥 및 관문요새 징수소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Vtexd40emHzOiv4uHvjvZn2Cw6EqWh4J",
+    "filename": "이영도-눈물을 마시는 새 제2권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:49.076Z",
+    "size": "1028773",
+    "folderPath": [
+      "books",
+      "06 한국 판타지",
+      "이영도"
+    ],
+    "relativePath": "books/06 한국 판타지/이영도",
+    "webViewLink": "https://drive.google.com/file/d/1Vtexd40emHzOiv4uHvjvZn2Cw6EqWh4J/view?usp=drivesdk",
+    "sourceSha256": "1feab834dcbdb17c78912bab0c931e48048e08331005949fa2dc26a14e6c8cce",
+    "textSha256": "0fbacd6806c8afe1502777ccfe6766e488067bfa7e7e3db1e65ad6411e46c950",
+    "changeKey": "21572c18579dc11b85766b7565f3fba3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bf5ebf24d26e1f184e38",
+    "workId": "bf5ebf24d26e1f184e38",
+    "driveFileId": "1Vtexd40emHzOiv4uHvjvZn2Cw6EqWh4J",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:42:18.765621+00:00",
+    "updatedAt": "2026-09-22T12:42:18.765637+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:42:18.765748+00:00"
+    }
+  }
+}

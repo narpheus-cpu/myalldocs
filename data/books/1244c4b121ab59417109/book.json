@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "드래곤 라자 07",
+    "author": "이영도",
+    "genre": "판타지",
+    "tags": [
+      "드래곤 라자",
+      "판타지",
+      "이영도",
+      "바라크",
+      "하슬러와 에포닌"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "모험"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 판타지 문학의 거장 이영도 작가.",
+    "oneLineSummary": "산속 바라크에서 하슬러와 에포닌 부녀의 관계를 지켜보며 칼과 일행이 하슬러를 설득한다.",
+    "overallSummary": "절벽 위에 위치한 바라크에서 유숙하게 된 일행은 하슬러와 에포닌 부녀의 모습을 남몰래 관찰한다. 제레인트의 엉뚱한 난입으로 소동이 벌어진 후, 칼과 네리아 등은 하슬러에게 과거를 잊고 딸과 함께 조용히 살아가라고 설득한다. 그러나 하슬러는 할슈타일에 대한 깊은 증오와 넥슨에 대한 충성을 버리지 못한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제13부 대마법사의 만가",
+        "summary": "산속 바라크의 절벽가에서 하슬러와 에포닌이 함께 있는 모습을 일행이 은밀히 지켜본다."
+      },
+      {
+        "sectionTitle": "하슬러와의 대화",
+        "summary": "바라크 안에서 칼과 네리아는 하슬러에게 딸과의 정착을 권유하지만, 하슬러는 할슈타일에 대한 복수심과 넥슨에 대한 충성심을 드러내며 거부한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요갈등",
+        "value": "하슬러의 복수심과 주변 인물들의 설득"
+      }
+    ],
+    "keyEntitiesText": "후치, 샌슨, 엑셀핸드, 운차이, 네리아, 칼, 제레인트, 하슬러, 에포닌, 아프나이델",
+    "settingText": "산속 절벽 위에 위치한 바라크"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dHjfcqxNfLg1rjhaLq7YNHe5chl9xM_D",
+    "filename": "이영도-드래곤 라자 07(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:22:32.000Z",
+    "size": "712048",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1dHjfcqxNfLg1rjhaLq7YNHe5chl9xM_D/view?usp=drivesdk",
+    "sourceSha256": "4257559bf50b6356153b3d996d94e6098fc6233f18b7f35c9508b64a7efe5cd6",
+    "textSha256": "c7a1309eb64fbbd0221f896c75e3dfa79c56f3b057b423d0ae27ae5bd9d138f4",
+    "changeKey": "4d1c9685102b7665b6afeb753e41d914",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1244c4b121ab59417109",
+    "workId": "1244c4b121ab59417109",
+    "driveFileId": "1dHjfcqxNfLg1rjhaLq7YNHe5chl9xM_D",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:41:50.113223+00:00",
+    "updatedAt": "2026-09-22T12:41:50.113236+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:41:50.113330+00:00"
+    }
+  }
+}

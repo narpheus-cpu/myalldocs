@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이영도 피를 마시는 새(합본)",
+    "author": "이영도",
+    "genre": "판타지",
+    "tags": [
+      "피를 마시는 새",
+      "판타지",
+      "이영도",
+      "레콘",
+      "규리하"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "동양적 판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 판타지 문학의 거장 이영도 작가.",
+    "oneLineSummary": "판사이 호수의 레콘 지멘과 즈라더의 결투, 그리고 제국군과 규리하성의 공성전이 펼쳐진다.",
+    "overallSummary": "판사이 호수의 서쪽 기슭에서 레콘 지멘은 애꾸눈 소녀와 함께 즈라더와 마주한다. 두 레콘은 공터에서 치열한 결투를 벌이기 위해 준비한다. 한편, 제국의 수도 하늘누리 아래에서 엘시 에더리는 규리하성에 대한 공성전을 개시한다. 오뢰사수의 철시 사격이 성벽을 무너뜨리고 제국군이 성문과 틈새로 돌격하여 치열한 전투가 벌어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 잠든 불씨 - 1",
+        "summary": "판사이 호수 근처에서 레콘 지멘과 애꾸눈 소녀가 즈라더를 만나고, 두 레콘은 소박하지만 살벌한 대화 끝에 결투를 벌인다."
+      },
+      {
+        "sectionTitle": "규리하 공성전",
+        "summary": "엘시 에더리의 지휘 아래 제국군이 규리하성에 대한 총공세를 펼치며, 오뢰사수의 철시가 성벽을 파괴하고 치열한 공방전이 전개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요종족",
+        "value": "레콘, 인간"
+      }
+    ],
+    "keyEntitiesText": "지멘, 즈라더, 애꾸눈 소녀, 엘시 에더리, 오뢰사수",
+    "settingText": "판사이 호수 및 규리하성 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Y6WV0R-0bigiknVhLWv57OpuZAFRLg4d",
+    "filename": "이영도 피를 마시는 새(합본).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2016-05-16T04:30:36.000Z",
+    "size": "5610938",
+    "folderPath": [
+      "books",
+      "06 한국 판타지",
+      "이영도"
+    ],
+    "relativePath": "books/06 한국 판타지/이영도",
+    "webViewLink": "https://drive.google.com/file/d/1Y6WV0R-0bigiknVhLWv57OpuZAFRLg4d/view?usp=drivesdk",
+    "sourceSha256": "8bbc93117ead9efae50e631fd688f4708c14a7e1388f87ad1439f49ce174b8d8",
+    "textSha256": "fe9493568d1b963a7caa317dc9ca9474a57da8c034c35c3d4ddc8fa368019672",
+    "changeKey": "7e1c1d6652c671a1ff75de3b6b69ebea",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "573784456a2c33484869",
+    "workId": "573784456a2c33484869",
+    "driveFileId": "1Y6WV0R-0bigiknVhLWv57OpuZAFRLg4d",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:42:04.879479+00:00",
+    "updatedAt": "2026-09-22T12:42:04.879493+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:42:04.879605+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "퓨처워커",
+    "author": "이영도",
+    "genre": "판타지",
+    "tags": [
+      "퓨처워커",
+      "판타지",
+      "이영도",
+      "그란",
+      "운차이"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "모험"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 판타지 문학의 거장 이영도 작가.",
+    "oneLineSummary": "회색산맥을 돌파한 그란, 운차이, 그리고 붉은 머리 여자가 오래된 석비 앞에 도착한다.",
+    "overallSummary": "나흘에 걸쳐 험준한 회색산맥을 돌파한 그란, 운차이, 그리고 극심한 추위에 떨고 있는 붉은 머리 여자가 미쥬르산 아래 오래된 석비 앞에 도착한다. 50 큐빗 높이의 거대한 석비에는 '헤게모니아. 당신의 운명은 다시 쓰여진다.'라는 뜻의 문구가 새겨져 있다. 한편, 바이서스 임펠의 칼브린로에서는 카알(헬턴트)의 주도로 귀족들의 서커스단을 해방시키기 위한 대규모 시위가 벌어지고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "0. 그녀는 날지 않는다",
+        "summary": "나흘간의 회색산맥을 넘어선 그란, 운차이, 붉은 머리 여자가 미쥬르산 아래의 거대한 석비를 바라보며 운명에 대한 대화를 나눈다."
+      },
+      {
+        "sectionTitle": "바이서스 임펠의 시위",
+        "summary": "바이서스 임펠의 칼브린로에서 카알 헬턴트의 은밀한 배후 조종 아래 서커스단을 시민에게 돌려주기 위한 서커스 민영화 시위가 벌어진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요사건",
+        "value": "회색산맥 돌파와 카알의 정치적 음모(서커스 해방 시위)"
+      }
+    ],
+    "keyEntitiesText": "그란, 운차이, 카알 헬턴트, 샌슨 퍼시발, 리테들",
+    "settingText": "회색산맥 미쥬르산 아래의 석비 및 바이서스 임펠 칼브린로"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DweFBSIqeP6EYT_1LjzxpQHVLoDfULtg",
+    "filename": "이영도-퓨처워커(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:49.437Z",
+    "size": "1130606",
+    "folderPath": [
+      "books",
+      "06 한국 판타지",
+      "이영도"
+    ],
+    "relativePath": "books/06 한국 판타지/이영도",
+    "webViewLink": "https://drive.google.com/file/d/1DweFBSIqeP6EYT_1LjzxpQHVLoDfULtg/view?usp=drivesdk",
+    "sourceSha256": "ab540a985a39ed9b281a7a4ebe43bed92ef107805682f81adab9d9baf2c43016",
+    "textSha256": "d9bb15a5977de8a129c3fd9b6c83e311db6db1af92d57f02fbe0afc1ab10d56e",
+    "changeKey": "c9d8d239b63c6de35a5f45352cefb1b1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c40e68609d432e0f814d",
+    "workId": "c40e68609d432e0f814d",
+    "driveFileId": "1DweFBSIqeP6EYT_1LjzxpQHVLoDfULtg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:42:57.765256+00:00",
+    "updatedAt": "2026-09-22T12:42:57.765271+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:42:57.765379+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "드래곤 라자 05",
+    "author": "이영도",
+    "genre": "판타지",
+    "tags": [
+      "드래곤 라자",
+      "판타지",
+      "이영도",
+      "폭풍우",
+      "납치"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "모험"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 판타지 문학의 거장 이영도 작가.",
+    "oneLineSummary": "일스에서의 폭풍우 속에서 레니가 납치당하는 사건이 발생하고, 일행은 그녀를 구하기 위해 추격에 나선다.",
+    "overallSummary": "일스의 성에 머물던 후치 일행은 지독한 폭풍우를 맞이한다. 폭풍 속에서 스카일램은 고국을 향한 그리움과 분노로 무모한 행동을 하고, 후치는 그를 설득하여 성 안으로 들인다. 그러나 깊은 밤, 레니가 납치되는 사건이 발생하고 후치와 샌슨, 스카일램 등은 마구간에서 말을 빼내어 납치범을 추격한다. 시내에서 납치범들과 대치하던 중 넥슨 휴리첼의 모습이 드러난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제9부 별은 바라보는 자에게 빛을 준다",
+        "summary": "일스에서의 끔찍한 폭풍우 속에서 후치와 일행은 잠들지 못하고 거실에 모인다. 스카일램은 폭풍 속에서 고국을 그리며 비바람을 맞고 서 있고, 후치는 그를 설득해 안으로 데려온다."
+      },
+      {
+        "sectionTitle": "레니의 납치와 추격",
+        "summary": "한밤중 폭풍 속에서 레니가 납치당하고, 후치와 샌슨은 곧바로 말을 타고 납치범의 뒤를 쫓아 시내로 향한다. 스카일램도 합류하여 사거리에서 납치범들과 대치한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요사건",
+        "value": "폭풍우 속 레니 납치 사건 및 추격전"
+      }
+    ],
+    "keyEntitiesText": "후치 네드발, 샌슨 퍼시발, 네리아, 이루릴, 칼, 레니, 제레인트, 운차이, 스카일램 트리키, 넥슨 휴리첼",
+    "settingText": "일스의 해안 절벽에 위치한 성과 그 주변 시내"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BDbUieeGsYcWAL3HgemOgDLazhyl5MWz",
+    "filename": "이영도-드래곤 라자 05(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:18:54.000Z",
+    "size": "810728",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1BDbUieeGsYcWAL3HgemOgDLazhyl5MWz/view?usp=drivesdk",
+    "sourceSha256": "0c547154632e22ae33489718c88f73d1f0e1cd7ab7626029796816d290d55067",
+    "textSha256": "3d81f1723902493f73225afc76e43979341085e39cca2ef11b60d073dc61ac7d",
+    "changeKey": "c7bc2501e2cb5fa1d48801cf134c2d03",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "56b1499b5de0a0f74db5",
+    "workId": "56b1499b5de0a0f74db5",
+    "driveFileId": "1BDbUieeGsYcWAL3HgemOgDLazhyl5MWz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:41:36.629016+00:00",
+    "updatedAt": "2026-09-22T12:41:36.629033+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:41:36.629248+00:00"
+    }
+  }
+}

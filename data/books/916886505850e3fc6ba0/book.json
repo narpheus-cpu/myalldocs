@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이타라의 상자",
+    "author": "이재현",
+    "genre": "판타지",
+    "tags": [
+      "이타라의 상자",
+      "판타지",
+      "이타르시아 모두스",
+      "파비안"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "모험"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "판타지 소설가.",
+    "oneLineSummary": "하얀빵에 유인되어 대마법사 이타르시아 모두스의 제자가 된 파비안의 회고.",
+    "overallSummary": "대륙 역사상 가장 유명한 대마법사이자 음유시인인 '이타르시아 모두스'와 관련된 '상자'의 진실을 아는 유일한 제자 파비안이 자신의 과거를 회고한다. 4살 가난한 소작농의 아들이었던 파비안은 늦봄 시냇가에서 맛있는 냄새를 풍기는 냄비와 함께 하얀빵을 건네는 신비로운 노인(어르신)의 유인에 넘어가 가출하듯 그의 저택으로 들어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "대마법사 이타르시아 모두스의 유산인 '상자'에 얽힌 소문과 진실을 밝히려는 제자 파비안의 독백이 이어진다."
+      },
+      {
+        "sectionTitle": "1. 마법사의 손자 탄생",
+        "summary": "가난한 소작농 집안에서 태어나 호밀빵만 먹고 자란 4살의 파비안이 맛있는 하얀빵에 홀려 어르신을 따라 제국 최고의 마법사 가문 모두스가의 대저택으로 들어가게 된 사연이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요사건",
+        "value": "파비안의 유괴(?) 및 모두스가 입성"
+      }
+    ],
+    "keyEntitiesText": "이타르시아 모두스 (클로토 모두스), 파비안, 바트, 알트만, 클라인 모두스",
+    "settingText": "모두스가의 대저택 및 시냇가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bnG4Tyhg6EgjrVGDwLlT5qbLMWYeCgjR",
+    "filename": "이타라의 상자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:49.543Z",
+    "size": "2784194",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1bnG4Tyhg6EgjrVGDwLlT5qbLMWYeCgjR/view?usp=drivesdk",
+    "sourceSha256": "445730e1304a0e9481f4233dd9feeb56dcf9d0f1828e38e1260191b9f6c18505",
+    "textSha256": "1fe92a24052a79f2a105abb97cf4dd14d335f4e669ceced3ac0eb778946b4ba7",
+    "changeKey": "2f6401724a775a8298b63415172bcf35",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "916886505850e3fc6ba0",
+    "workId": "916886505850e3fc6ba0",
+    "driveFileId": "1bnG4Tyhg6EgjrVGDwLlT5qbLMWYeCgjR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:43:18.471600+00:00",
+    "updatedAt": "2026-09-22T12:43:18.471614+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:43:18.471707+00:00"
+    }
+  }
+}
