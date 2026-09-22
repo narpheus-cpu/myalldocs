@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영문학사",
+    "author": "유영",
+    "genre": "영문학사 / 문학 연구서",
+    "tags": [
+      "영문학",
+      "문학사",
+      "베오울프",
+      "앵글로색슨",
+      "영국문학"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "평생 영문학 강단을 지켜온 학자이자 저술가로, 정년과 고희 무렵 5년간의 집필을 통해 8~9세기에 걸친 영국 문학의 흐름을 정리하였다.",
+    "oneLineSummary": "영국 민족의 형성과 앵글로색슨 고대 문학부터 현대에 이르기까지 영국 문학의 통사와 예술적 전개를 체계적으로 조망한 학술서이다.",
+    "overallSummary": "선사시대 및 켈트족, 로마 점령기를 거쳐 앵글로색슨족의 정착과 기독교 수용 과정에서 태동한 영국 문학의 기원을 살피고, 최고(最古)의 서사시인 《베오울프》의 구조와 신화적·문학적 가치를 비롯하여 영문학의 발전 과정을 통사적으로 고찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "영국 문학 8~9세기의 방대한 역사를 토착적 사회, 민족성, 사상과 예술적 형상화 관점에서 집대성하고자 5년간 집필한 경위를 서술한다."
+      },
+      {
+        "sectionTitle": "제1부 제1장 국민의 성립",
+        "summary": "구석기·신석기 원주민, 켈트족의 드루이드 신앙과 언어적 영향, 로마의 정복과 철수, 앵글로색슨족의 침략과 4대 방언 형성, 기독교 도입이 문학에 미친 영향을 설명한다."
+      },
+      {
+        "sectionTitle": "제1부 제2장 Anglo-Saxon시대 - 영웅의 시대",
+        "summary": "운명론적 세계관과 자연관을 지닌 앵글로색슨 사회를 배경으로 성립된 게르만 최고(最古)의 서사시 《베오울프》의 줄거리와 문학적·사상적 의의를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학사적 접근법",
+        "value": "문학을 단순한 텍스트의 나열이 아니라 민족적 감성과 사회적 역사, 종교 및 언어 변천의 복합적 결실로 조망함"
+      }
+    ],
+    "keyEntitiesText": "유영, 켈트족, 앵글로색슨족, 율리우스 카이사르, 베오울프(Beowulf), 흐로스가르(Hrothgar), 그렌델(Grendel)",
+    "settingText": "고대 및 중세 초기 브리튼 섬(영국)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KhJbGvtDqCZ1wf_cvSIq_J3sHPjxCTdc",
+    "filename": "영문학사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.090Z",
+    "size": "1239209",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1KhJbGvtDqCZ1wf_cvSIq_J3sHPjxCTdc/view?usp=drivesdk",
+    "sourceSha256": "2c41f8888df0a52a0e09ea7d65ee639c9e0f71705b867a4467ac20368e257f84",
+    "textSha256": "53660a1cc641774dcf55ecbb4fb69ac80c4b8161d190cfa2b1a43669d0ad464a",
+    "changeKey": "2c05103ca6f996cfb01c17ef3ac04308",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b6c55dd69eb5486866ae",
+    "workId": "b6c55dd69eb5486866ae",
+    "driveFileId": "1KhJbGvtDqCZ1wf_cvSIq_J3sHPjxCTdc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:43:55.396078+00:00",
+    "updatedAt": "2026-09-22T21:43:55.396095+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:43:55.396215+00:00"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "열린책들 편집매뉴얼(OCR)",
+    "author": "열린책들 편집부",
+    "genre": "출판 실무 / 어문 규정 가이드북",
+    "tags": [
+      "편집매뉴얼",
+      "한글맞춤법",
+      "외래어표기법",
+      "출판제작",
+      "교열"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도서출판 열린책들의 도서 기획, 교열, 편집, 판면 디자인 및 출판 제작 전반의 실무를 담당하는 부서이다.",
+    "oneLineSummary": "출판 실무자와 필자를 위해 한글 맞춤법, 외래어 표기법, 판면 디자인 및 책 제작의 실무 원칙을 체계적으로 정리한 출판 편집 지침서이다.",
+    "overallSummary": "열린책들 편집부에서 오랜 실무 경험과 내부 세미나 논의를 거쳐 발전시켜 온 편집 지침서로, 국어 어문 규정의 실제 적용례와 외래어 표기법, 문장부호 사용법, 판면 디자인 원칙, 도서 제작 프로세스 및 개정 출판문화산업 진흥법 등 출판 전 과정을 망라하여 수록하고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 개정의 변 (2010년판/2009년판/2008년판)",
+        "summary": "내부용 지침에서 시작해 독자와 동종 업계의 호응으로 정기 개정 출간하게 된 배경을 밝히며, 전자책 흐름과 어문 규정 및 출판진흥법 개정 사항의 반영 내용을 소개한다."
+      },
+      {
+        "sectionTitle": "제1부 한글 맞춤법",
+        "summary": "총칙, 자모 체계, 소리에 관한 규정(된소리, 구개음화, 모음, 두음 법칙 등), 형태 및 띄어쓰기 규정과 틀리기 쉬운 교열 용례를 수록한다."
+      },
+      {
+        "sectionTitle": "제2부~제5부 및 부록",
+        "summary": "표준어 규정, 다국어 외래어 표기 세칙, 열린책들 고유의 편집 및 판면 디자인 원칙, 책 제작의 기초와 저작권 계약, 출판 관계 법령을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "실무적용성",
+        "value": "어문 규정뿐만 아니라 판면 디자인, 제작 단가 산정, 저작권 계약서 양식까지 포함하여 실무에 즉시 적용 가능한 원스톱 지침을 제공함"
+      }
+    ],
+    "keyEntitiesText": "열린책들 편집부, 국립국어원, 문교부",
+    "settingText": "2008~2010년 대한민국 출판계 및 출판문화산업 진흥법 개정 시기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jatrR-4b49W6vtErmzzlSLgDDhCD9dPi",
+    "filename": "열린책들 편집매뉴얼(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T02:40:38.000Z",
+    "size": "651162",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1jatrR-4b49W6vtErmzzlSLgDDhCD9dPi/view?usp=drivesdk",
+    "sourceSha256": "e7be24ad953c3dda1753e045f46e497975e9c78fc3c2e0b50682fdbd739adae6",
+    "textSha256": "3e81d1c505e2dfa662a1dab814ad861a32a96dca311712820e1006a85987f9cb",
+    "changeKey": "a144812135577e432a67a6543e139ee7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6dc65f3189558dfcf25b",
+    "workId": "6dc65f3189558dfcf25b",
+    "driveFileId": "1jatrR-4b49W6vtErmzzlSLgDDhCD9dPi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:43:48.356785+00:00",
+    "updatedAt": "2026-09-22T21:43:48.356799+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:43:48.356988+00:00"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "철학이야기(동서문화사)(epub ocr)",
+    "author": "윌 듀란트",
+    "genre": "철학사 / 인문교양",
+    "tags": [
+      "철학이야기",
+      "윌듀란트",
+      "플라톤",
+      "소크라테스",
+      "서양철학사"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "history_biography",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 문명사학자이자 철학자로, 방대한 지식을 대중적인 문체와 인간미 넘치는 시각으로 풀어낸 저술가이다.",
+    "oneLineSummary": "지혜를 사랑한 위대한 철학자들의 생애와 사상을 인간적 숨결을 담아 생생하게 엮어낸 불후의 철학 입문 고전이다.",
+    "overallSummary": "단순한 학설의 나열이나 난해한 인식론적 분석을 지양하고, 철학을 '경험에 대한 인간적 지혜의 종합'으로 되살린다. 고대 그리스의 지리적·사회적 격변기 속에서 등장한 소크라테스의 문답법과 파란만장한 생애, 그리고 그의 뒤를 이은 플라톤의 철학적 배경과 정치철학의 태동을 흥미진진한 일화와 함께 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이 책을 읽는 이에게 및 머리글 - 철학의 효용에 대하여",
+        "summary": "과학의 분석적 지식과 구별되는 철학의 종합적 지혜와 가치를 역설하고, 삶의 의미와 에너지 조절을 위한 철학적 사유의 본질을 설명한다."
+      },
+      {
+        "sectionTitle": "플라톤 - 1. 플라톤의 상황",
+        "summary": "에게 해를 둘러싼 그리스 도시국가들의 지리적 조건, 페르시아 전쟁 승리 후 상업과 민주정치로 번영한 아테네의 지적 토양과 과두파의 갈등을 묘사한다."
+      },
+      {
+        "sectionTitle": "소크라테스",
+        "summary": "추한 외모 뒤에 따뜻한 인간미와 날카로운 지혜를 지녔던 소크라테스의 일상과 문답법, 펠로폰네소스 전쟁기의 정치적 파란 속에서 보여준 그의 삶을 회고한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사적 철학사 서술",
+        "value": "철학 이론을 박제화된 논리 체계가 아니라 철학자의 삶의 궤적, 인간적 고뇌, 당대 사회의 정치·문화적 갈등과의 상호작용 속에서 입체화함"
+      }
+    ],
+    "keyEntitiesText": "윌 듀란트, 임헌영, 소크라테스, 플라톤, 크리티아스, 알키비아데스",
+    "settingText": "기원전 5세기 고대 그리스 아테네"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HE26GNv7NA3PB_8RcrTgR_GBYsrIlTG8",
+    "filename": "윌 듀란트-철학이야기(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T21:41:20.000Z",
+    "size": "1393006",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1HE26GNv7NA3PB_8RcrTgR_GBYsrIlTG8/view?usp=drivesdk",
+    "sourceSha256": "d8bacd7b2f25288341183f14afc547b61264dc25a6ae073eee832c90aad1e724",
+    "textSha256": "458f5e7026ced55daab4cd14d2232712252bcbceac6d315679d82a6359a07154",
+    "changeKey": "4f68b8b2c44154cc584af6a1c036aedc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "348ac1fab8364330a84d",
+    "workId": "348ac1fab8364330a84d",
+    "driveFileId": "1HE26GNv7NA3PB_8RcrTgR_GBYsrIlTG8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:45:21.685653+00:00",
+    "updatedAt": "2026-09-22T21:45:21.685669+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:45:21.685772+00:00"
+    }
+  }
+}

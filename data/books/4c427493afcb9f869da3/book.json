@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "책의 역습(ocr)",
+    "author": "우치누마 신타로",
+    "genre": "출판문화 / 서점론 / 비즈니스 에세이",
+    "tags": [
+      "책의미래",
+      "동네책방",
+      "북코디네이터",
+      "독립서점",
+      "출판유통"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도쿄 시모기타자와 서점 'B&B'를 공동 경영하는 북 코디네이터이자 크리에이티브 디렉터이다.",
+    "oneLineSummary": "출판업계의 위기론 속에서도 책의 정의와 공간을 재해석하여 책과 사람이 만나는 새로운 가능성과 밝은 미래를 역설한다.",
+    "overallSummary": "‘출판업계의 미래’와 ‘책의 미래’는 다르다는 통찰을 바탕으로, 종이책이라는 기존 유통 구조에 갇히지 않고 라이프스타일, 공간 기획, 디지털 및 커뮤니케이션과 융합하는 책의 확장을 이야기한다. 저자 자신의 밴드 활동 실패와 잡지 제작 좌절, 북 코디네이터로서의 창업 경험, 그리고 맥주와 가구를 함께 파는 신간 서점 B&B의 성공 사례를 통해 새로운 책 문화의 청사진을 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가는 말: 책의 미래는 밝다",
+        "summary": "출판 위기론의 비관적 담론을 반박하며, 출판업계 밖으로 확장되는 '책의 역습'과 가능성의 바다를 현장 플레이어의 시각으로 조망한다."
+      },
+      {
+        "sectionTitle": "제1장 책과 사람의 만남을 만들자",
+        "summary": "북 코디네이터라는 직함을 만들게 된 배경, 청년 시절 음악과 잡지 편집의 좌절, '젊은이의 글자 이탈'에 대한 반론과 '북 픽 오케스트라' 설립 과정을 회고한다."
+      },
+      {
+        "sectionTitle": "제2장~제4장 개요: 책의 확장과 서점의 미래",
+        "summary": "인터넷과 융합하는 책의 형태, 라이브 체험으로서의 독서, 신간 서점 'B&B'의 매일 열리는 이벤트와 이종 산업 결합 모델을 제시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "출판비즈니스 혁신 모델",
+        "value": "책을 종이 묶음의 물리적 상품에 국한하지 않고, 사람과 사람을 연결하는 '미디어이자 커뮤니케이션 도구'로 재정의함"
+      }
+    ],
+    "keyEntitiesText": "우치누마 신타로, B&B 서점, numabooks, 아쿠츠 사요시, 고토 시게오",
+    "settingText": "2000년대~2010년대 일본 도쿄의 출판 및 서점 생태계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ezBaHQbXPweWU4xh_EPDoEPh8E72mwzU",
+    "filename": "우치누마 신타로-책의 역습(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.200Z",
+    "size": "222334",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1ezBaHQbXPweWU4xh_EPDoEPh8E72mwzU/view?usp=drivesdk",
+    "sourceSha256": "02705af3dc031b5d7059411f1fec114f40b27d753f591d8b7ec755df9fe9ab11",
+    "textSha256": "5695058f528964619e09a00caa328e3ad7385c750fb351cccc5c3fc0d14d349f",
+    "changeKey": "fa2df1c4a61c34e45359e30dabe3e4e5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4c427493afcb9f869da3",
+    "workId": "4c427493afcb9f869da3",
+    "driveFileId": "1ezBaHQbXPweWU4xh_EPDoEPh8E72mwzU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:44:54.055727+00:00",
+    "updatedAt": "2026-09-22T21:44:54.055742+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T21:44:54.055860+00:00"
+    }
+  }
+}

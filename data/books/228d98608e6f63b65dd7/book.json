@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "철학이란 무엇인가 .txt",
+    "author": "오창환",
+    "genre": "철학 입문서",
+    "tags": [
+      "철학입문",
+      "변증법",
+      "탈레스",
+      "세계관",
+      "인식론"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "철학의 대중적 접근과 일상적 실천성을 추구하는 철학 저술가이다.",
+    "oneLineSummary": "박제된 학문이 아닌 삶의 문제를 해결하고 비판적 사고를 돕는 일상 속의 '들꽃 철학·밥그릇 철학'을 역설한 철학 입문서이다.",
+    "overallSummary": "철학이 난해한 밀교가 아니라 상식의 한계를 넘어 세계와 사회의 본질을 꿰뚫어 보게 하는 사고의 도구임을 강조한다. 최초의 철학자 탈레스의 자연철학적 시도, 아담 스미스의 보이지 않는 손, 헤겔의 이성의 간계, 불교의 돈오 사상 등을 비교하며 이성적이고 비판적인 세계관 확립의 중요성을 역설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 제1절 들꽃 철학, 밥그릇 철학",
+        "summary": "입시 위주 실용주의 교육에서 소외된 철학을 비판하고, 일상에서 언제든 밥을 담아 먹는 밥그릇과 모진 풍파를 견디는 들꽃처럼 실천적인 철학의 필요성을 제기한다."
+      },
+      {
+        "sectionTitle": "제1장 제2절 보이지 않는 손",
+        "summary": "단순 상식과 생활의 지혜만으로는 꿰뚫어 볼 수 없는 세계의 이면을 아담 스미스의 경제 이론과 헤겔의 사상을 통해 대조하며 세계관 확립의 학문으로서 철학을 규정한다."
+      },
+      {
+        "sectionTitle": "제1장 제3절~제5절 철학의 탄생과 종교와의 차이",
+        "summary": "신화적 사고에서 벗어나 합리적 이성으로 만물의 근원을 물었던 탈레스의 의의를 짚고, 신앙적 맹신이나 순간적 계시와 구별되는 철학의 지속적 사유 활동을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "입문서 특징",
+        "value": "일상적 언어와 친숙한 비유(밥그릇, 들꽃)를 활용하여 관념적이고 추상적인 철학의 벽을 낮추고 대중의 비판적 사유를 유도함"
+      }
+    ],
+    "keyEntitiesText": "오창환, 탈레스, 아담 스미스, 헤겔, 지눌, 성철 스님",
+    "settingText": "기원전 6세기 고대 지중해부터 현대 한국 사회에 이르는 지적 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EHay0A9u3vv11cjw4fsrLyML7nTdXcMb",
+    "filename": "오창환-철학이란 무엇인가 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.122Z",
+    "size": "221845",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1EHay0A9u3vv11cjw4fsrLyML7nTdXcMb/view?usp=drivesdk",
+    "sourceSha256": "9b6b28cac52bde363bec1c530f3f20934b9233be6b10fe3fe86669315b1d0b3b",
+    "textSha256": "dafab2f1795d97775f680f1d275730a5dac4e7f978609509255a697a549efd48",
+    "changeKey": "1abb9a068f9f36ea825edd3c2996ff47",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "228d98608e6f63b65dd7",
+    "workId": "228d98608e6f63b65dd7",
+    "driveFileId": "1EHay0A9u3vv11cjw4fsrLyML7nTdXcMb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T21:44:18.515962+00:00",
+    "updatedAt": "2026-09-22T21:44:18.515978+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7764,
+      "updatedAt": "2026-09-22T21:44:18.516110+00:00"
+    }
+  }
+}
