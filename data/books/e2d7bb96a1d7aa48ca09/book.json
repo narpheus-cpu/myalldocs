@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한국인의 탄생",
+    "author": "홍대선",
+    "genre": "역사",
+    "tags": [
+      "한국인",
+      "한국사",
+      "민족성",
+      "역사적 정체성"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "사회학",
+        "문화인류학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 저술가로, 한국인의 정체성과 민족적 특성을 역사적 맥락에서 분석합니다.",
+    "oneLineSummary": "단군, 현종, 정도전이라는 세 인물을 통해 한국인의 정체성과 민족적 특성을 분석한 역사 에세이입니다.",
+    "overallSummary": "한국인의 모순적이고 역동적인 민족성을 단군, 고려 현종, 정도전이라는 세 인물을 중심으로 분석합니다. 외부세력과 토착세력의 융합, 그리고 그 이후의 배타적 결속이라는 한국인의 정체성을 역사적 맥락에서 풀어냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "창세기",
+        "summary": "단군신화를 통해 외부세력과 토착세력의 융합이라는 한국 문명의 기원을 다룹니다."
+      },
+      {
+        "sectionTitle": "한국인의 정체성",
+        "summary": "현종과 정도전의 시대를 거치며 형성된 한국인의 민족적 특질을 분석합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 관점",
+        "value": "이질적인 외부인과 토착민의 융합을 통한 생성"
+      },
+      {
+        "key": "민족성 분석",
+        "value": "혼혈 민족이되 배타적 결속을 중시하는 이중적 속성"
+      }
+    ],
+    "keyEntitiesText": "홍대선, 단군, 현종, 정도전",
+    "settingText": "고조선부터 현대에 이르는 한국사의 전 과정을 배경으로 합니다."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fTTFvTm1ieGU7DOZpfGWeT_Dtmw5pPTe",
+    "filename": "홍대선-한국인의 탄생(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:31.901Z",
+    "size": "620373",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1fTTFvTm1ieGU7DOZpfGWeT_Dtmw5pPTe/view?usp=drivesdk",
+    "sourceSha256": "91fbca36de9edee8394ef392f2476d30c45dcc30c75590caa46b0162c8452d54",
+    "textSha256": "1f47da228de974b19e0f304c12cafd4820531112cb9f277bd1b00d22d34d0c9d",
+    "changeKey": "f83fb6034cf38c3d2200b78bdcb912eb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e2d7bb96a1d7aa48ca09",
+    "workId": "e2d7bb96a1d7aa48ca09",
+    "driveFileId": "1fTTFvTm1ieGU7DOZpfGWeT_Dtmw5pPTe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:44:37.735803+00:00",
+    "updatedAt": "2026-09-22T23:44:37.735819+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:44:37.735933+00:00"
+    }
+  }
+}

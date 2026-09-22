@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사회심리학",
+    "author": "홍성열",
+    "genre": "심리학",
+    "tags": [
+      "사회심리학",
+      "심리학",
+      "인간관계",
+      "사회생활"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "심리학",
+        "사회학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "심리학자로, 사회심리학적 관점에서 인간의 사회적 행동과 심리를 연구합니다.",
+    "oneLineSummary": "개인의 자아 형성부터 사회적 상호작용, 집단과 조직 내의 심리까지 다룬 사회심리학 개론서입니다.",
+    "overallSummary": "사회심리학의 기초부터 자아의 형성, 태도와 행동, 대인지각, 편견, 동조, 설득, 공격성, 스트레스, 희망심리, 집단과 조직에 이르기까지 인간의 사회생활 전반을 심리학적으로 분석합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "자기의 형성",
+        "summary": "사회적 상호작용 속에서 자아가 어떻게 형성되고 기능하는지 다룹니다."
+      },
+      {
+        "sectionTitle": "사회적 상호작용",
+        "summary": "편견, 동조, 설득, 공격성 등 타인과의 관계에서 나타나는 심리적 현상을 분석합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 방법론",
+        "value": "심리학적 사회심리학"
+      },
+      {
+        "key": "분석 대상",
+        "value": "개인의 자아와 사회적 상호작용"
+      }
+    ],
+    "keyEntitiesText": "홍성열, 제임스, 미드, 쿨리",
+    "settingText": "현대 사회의 다양한 인간관계와 사회적 장면을 배경으로 합니다."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cJaKS4Mk5nnInh9ToxRXRrM2Nr1dZXpf",
+    "filename": "홍성열-사회심리학(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T10:30:54.000Z",
+    "size": "1452693",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1cJaKS4Mk5nnInh9ToxRXRrM2Nr1dZXpf/view?usp=drivesdk",
+    "sourceSha256": "cced9219dea6262b46d440a95907b5582fe86b536f14f3059964e897f6ac2e4c",
+    "textSha256": "b82f6f73adb36e663a23395bd1eca18f76623481a6393bb66396bbed11c2752a",
+    "changeKey": "b14401df76ef354d3a1efabcbccdee2e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "93dc15383e4d238f4381",
+    "workId": "93dc15383e4d238f4381",
+    "driveFileId": "1cJaKS4Mk5nnInh9ToxRXRrM2Nr1dZXpf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:44:45.018945+00:00",
+    "updatedAt": "2026-09-22T23:44:45.018962+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:44:45.019051+00:00"
+    }
+  }
+}

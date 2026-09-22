@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서양철학사 (하)",
+    "author": "요하네스 힐쉬베르거",
+    "genre": "철학",
+    "tags": [
+      "서양철학사",
+      "철학사",
+      "근세철학",
+      "현대철학"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "역사",
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 철학자로, 서양 철학의 흐름을 체계적으로 정리한 철학사 저술가입니다.",
+    "oneLineSummary": "근세부터 현대에 이르는 서양 철학의 흐름을 체계적으로 정리한 철학사 입문서입니다.",
+    "overallSummary": "르네상스부터 현대 철학까지 서양 철학의 발전 과정을 사상가별, 시대별로 체계적으로 정리합니다. 각 철학자의 사상을 역사적 맥락 속에서 분석하여 서양 철학의 흐름을 한눈에 파악하게 합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "근세 철학",
+        "summary": "르네상스, 합리론, 경험론, 계몽주의, 칸트와 독일 관념론을 다룹니다."
+      },
+      {
+        "sectionTitle": "현대 철학",
+        "summary": "19세기 이후의 다양한 철학적 흐름과 현대 철학의 쟁점을 분석합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "체계적이고 방대한 서양 철학사 정리"
+      },
+      {
+        "key": "분석 방법",
+        "value": "사상가별, 시대별 체계적 분석"
+      }
+    ],
+    "keyEntitiesText": "요하네스 힐쉬베르거, 데카르트, 칸트, 헤겔, 쇼펜하우어",
+    "settingText": "근세부터 현대에 이르는 서양 사상사를 배경으로 합니다."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1u3T0u62R6tbxJngvB8_yqYCeSnIM5Ut3",
+    "filename": "힐쉬베르거-서양철학사(하)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T10:53:16.000Z",
+    "size": "2168919",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1u3T0u62R6tbxJngvB8_yqYCeSnIM5Ut3/view?usp=drivesdk",
+    "sourceSha256": "bd757cb6faf23a1b47e678b5b3e8609388a31e5de4658b6941dc02240ef574f1",
+    "textSha256": "61f86856f841dccba04efc2e033632b51593a88a49b47d48a50e3632377b1d3b",
+    "changeKey": "52b92673df249f186d988cfa446b93a5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "706725ca8e8f0172ef72",
+    "workId": "706725ca8e8f0172ef72",
+    "driveFileId": "1u3T0u62R6tbxJngvB8_yqYCeSnIM5Ut3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:45:11.544162+00:00",
+    "updatedAt": "2026-09-22T23:45:11.544177+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:45:11.544264+00:00"
+    }
+  }
+}

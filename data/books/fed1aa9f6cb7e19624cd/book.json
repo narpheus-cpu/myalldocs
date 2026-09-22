@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "역사",
+    "author": "헤로도토스",
+    "genre": "역사",
+    "tags": [
+      "역사",
+      "페르시아 전쟁",
+      "고대 그리스",
+      "헤로도토스"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "고전",
+        "지리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고대 그리스의 역사가로, '역사의 아버지'라 불리며 페르시아 전쟁을 중심으로 방대한 기록을 남겼습니다.",
+    "oneLineSummary": "페르시아 전쟁을 중심으로 고대 지중해 세계의 역사와 풍속을 기록한 인류 최초의 역사서입니다.",
+    "overallSummary": "그리스와 페르시아 사이의 전쟁을 중심으로, 당시 알려진 세계의 지리, 풍속, 전설을 종합적으로 기록했습니다. 신화적 서술에서 벗어나 인간의 행위를 역사적 관점에서 기록하려 노력한 인류 최초의 역사서입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1권 클레이오",
+        "summary": "페르시아 전쟁의 원인과 리디아의 역사, 크로이소스 왕의 몰락 등을 다룹니다."
+      },
+      {
+        "sectionTitle": "전쟁의 전개",
+        "summary": "페르시아의 팽창과 그리스와의 충돌, 그리고 각 민족의 풍속을 서술합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 가치",
+        "value": "인류 최초의 역사적 탐구와 기록"
+      },
+      {
+        "key": "서술 특징",
+        "value": "신화, 전설, 지리적 정보가 혼합된 서사적 역사"
+      }
+    ],
+    "keyEntitiesText": "헤로도토스, 크로이소스, 키루스, 다레이오스, 크세르크세스",
+    "settingText": "기원전 5세기경 고대 그리스와 페르시아 제국을 배경으로 합니다."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VKVB-kVRLudfPYygefh8wGdcA_2UboqA",
+    "filename": "헤로도토스-역사(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T23:38:08.000Z",
+    "size": "2120728",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1VKVB-kVRLudfPYygefh8wGdcA_2UboqA/view?usp=drivesdk",
+    "sourceSha256": "270a8ae4294b7d4806c2617e3cd6d83a55cd166518b718629b8713c2134097f1",
+    "textSha256": "2d8cece508d4c1488844c34c6ec4ac1d62c4eaa76defcc42b1b41a3a1b0fa2f4",
+    "changeKey": "9aa28d24a67099738f127246d8ed9977",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fed1aa9f6cb7e19624cd",
+    "workId": "fed1aa9f6cb7e19624cd",
+    "driveFileId": "1VKVB-kVRLudfPYygefh8wGdcA_2UboqA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:43:52.110056+00:00",
+    "updatedAt": "2026-09-22T23:43:52.110073+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:43:52.110165+00:00"
+    }
+  }
+}

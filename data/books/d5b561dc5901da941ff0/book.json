@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "역사철학강의",
+    "author": "헤겔",
+    "genre": "철학",
+    "tags": [
+      "역사철학",
+      "헤겔",
+      "변신론",
+      "정신"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "역사",
+        "정신현상학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일 관념론의 완성자로, 역사를 이성적인 정신의 전개 과정으로 파악한 철학자입니다.",
+    "oneLineSummary": "세계사를 이성적인 정신이 자유를 향해 나아가는 과정으로 해석한 역사철학 강의록입니다.",
+    "overallSummary": "역사 속에서 신의 섭리와 이성을 발견하려는 시도로, 역사를 단순히 우연한 사건의 나열이 아닌 정신의 필연적인 발전 과정으로 파악합니다. 동양에서 시작하여 그리스, 로마를 거쳐 근대에 이르는 정신의 자유 실현 과정을 체계적으로 서술합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서론",
+        "summary": "역사철학의 필요성과 이성적 파악의 중요성, 그리고 선구자들에 대한 비판적 고찰을 다룹니다."
+      },
+      {
+        "sectionTitle": "본론",
+        "summary": "세계정신의 행정과 민족사의 전개를 통해 자유의 이념이 어떻게 현실화되는지 설명합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사관",
+        "value": "역사는 자유의 의식이 진보하는 과정"
+      },
+      {
+        "key": "방법론",
+        "value": "논리적이고 사변적인 역사 파악"
+      }
+    ],
+    "keyEntitiesText": "헤겔, 비코, 헤르더, 프리드리히 폰 슐레겔, 라이프니쯔",
+    "settingText": "19세기 초 독일 대학에서의 강의를 바탕으로 하며, 서구 중심의 역사관을 반영합니다."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11InmZTtp8Yz0cjnse-VoCsxDnqm9784S",
+    "filename": "헤겔-역사철학강의(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T23:31:06.000Z",
+    "size": "1542355",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/11InmZTtp8Yz0cjnse-VoCsxDnqm9784S/view?usp=drivesdk",
+    "sourceSha256": "6955c30fa075ea76100d924c67dac697996e5aafc1d5814a12b8db5799611522",
+    "textSha256": "71676cd8082ed57540bc69373f459d883df7c4d8a433e66351ab9323da1482cc",
+    "changeKey": "f562789eb3ab4bcec409d379f6b790e8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d5b561dc5901da941ff0",
+    "workId": "d5b561dc5901da941ff0",
+    "driveFileId": "11InmZTtp8Yz0cjnse-VoCsxDnqm9784S",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:43:39.432319+00:00",
+    "updatedAt": "2026-09-22T23:43:39.432334+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:43:39.432426+00:00"
+    }
+  }
+}

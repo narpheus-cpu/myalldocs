@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "역사 (풀빛)",
+    "author": "헤로도토스",
+    "genre": "역사",
+    "tags": [
+      "역사",
+      "헤로도토스",
+      "페르시아 전쟁",
+      "청소년 고전"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "청소년 교육",
+        "고전"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고대 그리스의 역사가로, 페르시아 전쟁을 기록하여 역사학의 기초를 닦았습니다.",
+    "oneLineSummary": "페르시아 전쟁을 중심으로 고대 세계의 역사와 문화를 청소년 눈높이에서 재구성한 역사서입니다.",
+    "overallSummary": "헤로도토스의 원전을 청소년들이 이해하기 쉽게 재구성한 책으로, 페르시아 전쟁의 발단과 전개, 그리고 당시 고대 국가들의 풍속과 역사를 흥미롭게 서술합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 페르시아 제국, 서막을 열다",
+        "summary": "페르시아 전쟁의 배경과 리디아의 역사, 키루스 왕의 정복 활동을 다룹니다."
+      },
+      {
+        "sectionTitle": "고대 국가들의 역사",
+        "summary": "바빌로니아, 페니키아, 스키타이 등 당시 주변 국가들의 역사와 문화를 소개합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "편집 특징",
+        "value": "청소년을 위한 이야기식 재구성"
+      },
+      {
+        "key": "교육적 가치",
+        "value": "역사적 사고력과 고전 입문"
+      }
+    ],
+    "keyEntitiesText": "헤로도토스, 크로이소스, 키루스, 다레이오스",
+    "settingText": "기원전 5세기 고대 그리스와 오리엔트 세계를 배경으로 합니다."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15GJhBbZL1Ks96yW1D0TOtbQsPFZ1u-3W",
+    "filename": "헤로도토스-역사(풀빛)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T23:39:54.000Z",
+    "size": "593102",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/15GJhBbZL1Ks96yW1D0TOtbQsPFZ1u-3W/view?usp=drivesdk",
+    "sourceSha256": "9a036fe3c43420ae68d82d4561113abeaf3f34e6bfcc8a7b701da9c2e42cb568",
+    "textSha256": "12b65c66a3467c80f94de9e535d1f1a75cb26a4c540138d79ee0d62fd46d3ebc",
+    "changeKey": "44f9b3def115a8fbbf685b6c8651ac20",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fdab8239949659a86655",
+    "workId": "fdab8239949659a86655",
+    "driveFileId": "15GJhBbZL1Ks96yW1D0TOtbQsPFZ1u-3W",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:43:57.669957+00:00",
+    "updatedAt": "2026-09-22T23:43:57.669973+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:43:57.670065+00:00"
+    }
+  }
+}

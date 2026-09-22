@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "역사를 보는 눈",
+    "author": "호리고메 요조",
+    "genre": "역사",
+    "tags": [
+      "역사학",
+      "역사관",
+      "역사 방법론",
+      "호리고메 요조"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "철학",
+        "역사학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 역사학자로, 유럽 중세사 연구의 권위자이며 역사 대중화에 기여했습니다.",
+    "oneLineSummary": "역사학의 본질과 역사를 바라보는 올바른 시각을 제시하는 역사학 입문서입니다.",
+    "overallSummary": "역사란 무엇이며, 역사가로서 어떻게 과거를 해석해야 하는지에 대한 근본적인 질문을 던집니다. 역사적 사실과 해석의 관계, 시대 구분, 역사의 법칙성 등을 다루며 역사를 보는 눈을 길러줍니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "역사의 본질",
+        "summary": "역사란 위기 시에 나타나는 자각의 형태이며, 과거를 통해 미래를 전망하는 작업임을 설명합니다."
+      },
+      {
+        "sectionTitle": "역사 방법론",
+        "summary": "역사적 사실의 해석과 시대 구분, 역사의 과학성 등에 대해 논의합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 관점",
+        "value": "역사는 현재의 위기를 극복하기 위한 과거와의 대화"
+      },
+      {
+        "key": "방법론",
+        "value": "상대적이고 가설적인 진실을 쌓아가는 과정"
+      }
+    ],
+    "keyEntitiesText": "호리고메 요조, 헤로도투스, 투키디데스, 아우구스티누스",
+    "settingText": "역사학적 성찰이 필요한 현대 사회를 배경으로 합니다."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Tynaq4s65X3dLYW9Cvqqg0oB29iuvTpC",
+    "filename": "호미고메 요조-역사를 보는 눈.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:31.841Z",
+    "size": "250054",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1Tynaq4s65X3dLYW9Cvqqg0oB29iuvTpC/view?usp=drivesdk",
+    "sourceSha256": "7336f74ef07e5faccb3bd9f18053ac102b31c5b5fa2866ee994a9dc921d18b7f",
+    "textSha256": "19e7ea4d45e4ddc30a5b5d5d3678b8e63e19065c0db66d3c9553b6d60c2fec39",
+    "changeKey": "39595cc82e37e204fe5f6b92851eada2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "829999ef92432332527a",
+    "workId": "829999ef92432332527a",
+    "driveFileId": "1Tynaq4s65X3dLYW9Cvqqg0oB29iuvTpC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:44:24.068408+00:00",
+    "updatedAt": "2026-09-22T23:44:24.068425+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.875,
+      "updatedAt": "2026-09-22T23:44:24.068514+00:00"
+    }
+  }
+}
