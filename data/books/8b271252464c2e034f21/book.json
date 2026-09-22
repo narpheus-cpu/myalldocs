@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "러브크래프트 전집 2: 우주적 공포",
+    "author": "H. P. 러브크래프트",
+    "genre": "공포",
+    "tags": [
+      "SF공포",
+      "차원",
+      "괴기"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "sf"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "공포와 SF를 결합한 독창적인 작품 세계를 구축한 작가.",
+    "oneLineSummary": "과학적 실험을 통해 인간의 감각 너머에 존재하는 끔찍한 이 세계의 진실을 목격하는 이야기",
+    "overallSummary": "크로포드 틸링해스트는 특수한 전기 장치를 통해 인간의 감각을 확장시켜 눈에 보이지 않던 차원의 괴생물체들을 보게 되고, 그로 인해 파멸적인 결말을 맞이한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "저 너머에서",
+        "summary": "틸링해스트는 보이지 않는 차원을 보는 기계를 발명하고, 친구와 함께 그곳에 도사린 괴생물체들을 마주한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "인식의 한계와 공포"
+      }
+    ],
+    "keyEntitiesText": "크로포드 틸링해스트, 화자",
+    "settingText": "다락방 실험실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1REJsyt8RaY828EYt5CAhwNTSKPMcDqIv",
+    "filename": "러브크래프트 전집 2(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T12:34:00.000Z",
+    "size": "910011",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1REJsyt8RaY828EYt5CAhwNTSKPMcDqIv/view?usp=drivesdk",
+    "sourceSha256": "a43f8ac2b6f8bce005a4ea18cbe8fdeff3e8a892f41ff6f047ee4e7333e81f5b",
+    "textSha256": "aad00eea1a0abed200ed8496cbfe12ba17cb9624cba38f4466b9c84b156da087",
+    "changeKey": "c7e58e28b66e475be588e319791b1c13",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8b271252464c2e034f21",
+    "workId": "8b271252464c2e034f21",
+    "driveFileId": "1REJsyt8RaY828EYt5CAhwNTSKPMcDqIv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:29:03.873670+00:00",
+    "updatedAt": "2026-09-22T04:29:03.873685+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5415,
+      "updatedAt": "2026-09-22T04:29:03.873766+00:00"
+    }
+  }
+}

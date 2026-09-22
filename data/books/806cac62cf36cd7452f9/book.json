@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "최후의 도박",
+    "author": "로버트 B 파커",
+    "genre": "추리",
+    "tags": [
+      "스펜서",
+      "승부조작",
+      "하드보일드"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "hardboiled"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전통적 사립탐정소설에서 현대적 영웅소설로 영역을 확장한 하드보일드 작가.",
+    "oneLineSummary": "야구선수 마티 러브의 승부조작 연루 의혹을 극비리에 파헤치는 사립탐정 스펜서의 활약",
+    "overallSummary": "보스턴의 야구 구장에서 레드 삭스의 에이스 마티 러브가 도박조직과 내통하고 있다는 소문을 접한 구단 관계자 애스킨은 사립탐정 스펜서에게 극비 조사를 맡긴다. 스펜서는 야구 작가로 위장해 라커룸과 선수들에게 접근한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 ~ 제 2 장",
+        "summary": "스펜서는 펜웨이 파크에서 경기를 관람한 후 애스킨을 만나 러브의 승부조작 혐의를 조사해 달라는 부탁을 받고 야구장에 잠입할 계획을 세운다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "detective",
+        "value": "스펜서"
+      }
+    ],
+    "keyEntitiesText": "스펜서, 마티 러브, 해럴드 애스킨, 레이 패럴",
+    "settingText": "미국 보스턴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1h3LTk935VIE4tCU_tqoDHHi8R7HQXp_E",
+    "filename": "로버트 B 파커-최후의 도박 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.931Z",
+    "size": "421829",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1h3LTk935VIE4tCU_tqoDHHi8R7HQXp_E/view?usp=drivesdk",
+    "sourceSha256": "a4f91f55cc5ec1d81fd57ecd0dfb14082fc5576860a2cc22a549c6ad550a016f",
+    "textSha256": "eab0dc6c7170b001cdf8640c496d35674a681aed527cf6423172b6e0c4a24fc3",
+    "changeKey": "88f33e4f881569cc04e83b205d9b7414",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "806cac62cf36cd7452f9",
+    "workId": "806cac62cf36cd7452f9",
+    "driveFileId": "1h3LTk935VIE4tCU_tqoDHHi8R7HQXp_E",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:30:13.365624+00:00",
+    "updatedAt": "2026-09-22T04:30:13.365640+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:30:13.365720+00:00"
+    }
+  }
+}

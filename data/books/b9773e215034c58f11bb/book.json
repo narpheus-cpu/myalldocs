@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "르윈터의 망명",
+    "author": "로버트 리텔",
+    "genre": "추리",
+    "tags": [
+      "스파이",
+      "망명",
+      "MIRV"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "espionage"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "치밀한 심리 묘사와 현실감 있는 첩보 세계를 그려내어 영국 추리작가협회상 골든 대거상을 수상한 작가.",
+    "oneLineSummary": "미국의 극비 미사일 공식을 품고 소련 대사관을 찾아가 망명을 신청한 르윈터를 둘러싼 미·소 간의 치밀한 두뇌 싸움",
+    "overallSummary": "MIT 부교수인 르윈터는 미국의 극비 대소 MIRV 공식의 비밀을 암기한 채 도쿄의 소련 대사관을 찾아가 망명을 요청한다. CIA와 KGB는 그의 망명이 진실인지 가짜인지, 그리고 그 의도가 무엇인지를 파악하기 위해 사활을 건 첩보전을 벌인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 초반전",
+        "summary": "체이핀이 일본에서 미국인을 미행하다 놓치고, 르윈터는 도쿄의 소련 대사관에 나타나 포고딘에게 망명을 신청하며 MIRV 공식을 언급한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "스파이 첩보소설"
+      }
+    ],
+    "keyEntitiesText": "A. J. 르윈터, 체이핀, 예브게니 미하일로비치 포고딘, 다이아몬드, 스티브 페리",
+    "settingText": "일본 도쿄 및 미국, 소련"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gbTzylXlFTwjTi4UNirTuwW9qs-LIoKj",
+    "filename": "로버트 리텔-르윈터의 망명 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.948Z",
+    "size": "535023",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1gbTzylXlFTwjTi4UNirTuwW9qs-LIoKj/view?usp=drivesdk",
+    "sourceSha256": "727552b574b3601f14a7906c4e565c6ebf1b303f8592f473431d796062f133fe",
+    "textSha256": "19a03d6e5e10f465461addf15e3d1a287a7b61c142dd6b77f0340795b319b0dd",
+    "changeKey": "015e99abc777e860503831ec46af13bd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b9773e215034c58f11bb",
+    "workId": "b9773e215034c58f11bb",
+    "driveFileId": "1gbTzylXlFTwjTi4UNirTuwW9qs-LIoKj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:30:19.735106+00:00",
+    "updatedAt": "2026-09-22T04:30:19.735120+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:30:19.735199+00:00"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "붉은 고양이",
+    "author": "로버트 샘슨",
+    "genre": "과학소설",
+    "tags": [
+      "우주",
+      "고양이",
+      "광산"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "sf"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "기발한 상상력과 흥미진진한 전개의 SF 작품들을 집필한 작가.",
+    "oneLineSummary": "우주 화물선 베르다 안에서 우라늄 채굴 작업을 방해하며 소동을 일으키는 기괴한 붉은 우주 고양이들의 이야기",
+    "overallSummary": "우주 화물선 베르다의 기관실에는 정체 모를 양귀비 색깔의 작고 재빠른 우주 고양이들이 나타나 발전기와 기계 장치를 망가뜨리며 승무원들을 곤경에 빠뜨린다. 일등 항해사 스콧 저릴은 이 고양이들을 쫓아내며 우라늄 정제 작업을 서두르려 하지만, 경쟁사인 IP금속의 우주선 카스틸이 그들을 추격해 온다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "붉은 고양이",
+        "summary": "기관실에서 승무원들이 붉은 우주 고양이들을 소동 끝에 쫓아내려 하고, 스콧은 촉박한 채굴 마감 시간과 경쟁사 카스틸의 위협 속에서 고심한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "소행성 SF"
+      }
+    ],
+    "keyEntitiesText": "스콧 저릴, 듀발, 엘더버그 선장, 맥스 본, 랜덜",
+    "settingText": "우주 화물선 베르다 및 미지의 소행성 광산"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CynB4Obk4lS0n-KMsuMQlXJ6cwh-8ycM",
+    "filename": "로버트 샘슨-붉은 고양이-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T12:56:06.000Z",
+    "size": "50795",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1CynB4Obk4lS0n-KMsuMQlXJ6cwh-8ycM/view?usp=drivesdk",
+    "sourceSha256": "70a3140290d5af7fe7d11aac47310cf5defcba21ce3e94a901eac015cdc6aed5",
+    "textSha256": "f28d75ab2d85066c9f243155d405a26eed68c44b2e7869dc908e45cd9e4466cc",
+    "changeKey": "8f3eb07fcd70c494ffe67e5d7387a971",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "03ce6cfd997c2f8506d9",
+    "workId": "03ce6cfd997c2f8506d9",
+    "driveFileId": "1CynB4Obk4lS0n-KMsuMQlXJ6cwh-8ycM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:30:26.362694+00:00",
+    "updatedAt": "2026-09-22T04:30:26.362709+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:30:26.362787+00:00"
+    }
+  }
+}

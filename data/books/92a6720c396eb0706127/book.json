@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "러브크래프트 전집 3: 드림랜드",
+    "author": "H. P. 러브크래프트",
+    "genre": "환상",
+    "tags": [
+      "꿈",
+      "드림랜드",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "horror"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "환상과 꿈을 주제로 한 독창적인 판타지 및 호러 소설을 남긴 작가.",
+    "oneLineSummary": "꿈속에서 마주한 기이한 도시와 북극성에 얽힌 저주와 배신의 기억",
+    "overallSummary": "화자는 매일 밤 북극성이 비치는 꿈속의 대리석 도시 올라소에서 전사로서의 임무를 맡지만, 결국 잠과 현실의 경계에서 경고를 무시하고 도시를 배반하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "북극성",
+        "summary": "꿈속의 도시 로마르와 올라소를 배경으로 파국을 맞이하는 파수꾼의 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "꿈과 현실의 교차"
+      }
+    ],
+    "keyEntitiesText": "알로스, 화자",
+    "settingText": "꿈속의 대리석 도시 올라소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qHigJgaCH4cMk2F8oaS_8PNsbaI2Nfju",
+    "filename": "러브크래프트 전집 3(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T12:37:00.000Z",
+    "size": "911061",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1qHigJgaCH4cMk2F8oaS_8PNsbaI2Nfju/view?usp=drivesdk",
+    "sourceSha256": "d82e467e2f03dbc9ad1ecc7bf03e297a464e508010f5578995a42e5fcea69626",
+    "textSha256": "dd281e29d5d41fb0bb42646480c910992631326f6e0935b2c2e07dd352325cc6",
+    "changeKey": "fc959026474da062b7018e38decb4d1d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "92a6720c396eb0706127",
+    "workId": "92a6720c396eb0706127",
+    "driveFileId": "1qHigJgaCH4cMk2F8oaS_8PNsbaI2Nfju",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:29:09.833797+00:00",
+    "updatedAt": "2026-09-22T04:29:09.833812+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5585,
+      "updatedAt": "2026-09-22T04:29:09.833891+00:00"
+    }
+  }
+}

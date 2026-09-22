@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하이 윈도",
+    "author": "레이먼드 챈들러",
+    "genre": "추리",
+    "tags": [
+      "금화",
+      "도난",
+      "하드보일드"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "hardboiled"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "냉소적이고 매력적인 탐정 필립 말로를 탄생시킨 하드보일드의 거장.",
+    "oneLineSummary": "머독 부인의 의뢰로 사라진 희귀한 브라셔 더블룬 금화를 찾아나서는 필립 말로의 이야기",
+    "overallSummary": "파사디나의 부유한 저택에 사는 엘리자베스 브라이트 머독 부인은 남긴 수집품 중 희귀한 금화인 브라셔 더블룬이 도난당했다고 믿고 필립 말로를 고용한다. 말로는 며느리와 화폐상들을 조사하며 사건의 진실을 쫓는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 ~ 2장",
+        "summary": "말로가 파사디나의 머독 부인 저택을 방문해 비서 데이비스 양을 거쳐 부인으로부터 금화 도난 사건에 대해 듣고 의뢰를 수락한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "detective",
+        "value": "필립 말로"
+      }
+    ],
+    "keyEntitiesText": "필립 말로, 엘리자베스 브라이트 머독, 데이비스 양, 엘리샤 모닝스타",
+    "settingText": "미국 파사디나"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PD7dlOY0rYTsweupGCmcRlakX0OrRK49",
+    "filename": "레이먼드 챈들러-하이 윈도 - 필립 말로 3(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.875Z",
+    "size": "576966",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1PD7dlOY0rYTsweupGCmcRlakX0OrRK49/view?usp=drivesdk",
+    "sourceSha256": "c8e46d801914835cdee2fb4b23e69f1c73459f7007c10d4de80994802c3eb6f5",
+    "textSha256": "1a84572b94c70e0e5da6fcec6fdfc69060fced5156010d0c1f8521e029779b6b",
+    "changeKey": "8779da71b8f2e5b1652dfbf59035ec04",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7f8b5551a8604c6d9c44",
+    "workId": "7f8b5551a8604c6d9c44",
+    "driveFileId": "1PD7dlOY0rYTsweupGCmcRlakX0OrRK49",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:29:55.061762+00:00",
+    "updatedAt": "2026-09-22T04:29:55.061777+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:29:55.061856+00:00"
+    }
+  }
+}

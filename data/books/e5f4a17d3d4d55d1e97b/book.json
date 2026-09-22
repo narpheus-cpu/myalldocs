@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "레이먼드 챈들러 단편선: 밀고자 외",
+    "author": "레이먼드 챈들러",
+    "genre": "추리",
+    "tags": [
+      "하드보일드",
+      "탐정",
+      "느와르"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "hardboiled"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "대실 해밋, 로스 맥도널드와 함께 하드보일드 탐정소설의 시조로 꼽히는 미국 작가.",
+    "oneLineSummary": "사립탐정 필립 말로가 등장하여 어두운 도시의 범죄와 맞서는 하드보일드 단편",
+    "overallSummary": "대배심원 증언을 마친 필립 말로는 루 하거의 부탁과 카지노에서의 사건, 그리고 도시를 둘러싼 음과 양의 세력 간 갈등에 휘말린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "밀고자",
+        "summary": "필립 말로는 검사 펜웨더의 경고를 뒤로하고 루 하거와 얽힌 카지노 사건에 관여하게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "detective",
+        "value": "필립 말로"
+      },
+      {
+        "key": "style",
+        "value": "하드보일드"
+      }
+    ],
+    "keyEntitiesText": "필립 말로, 펜웨더, 루 하거, 카날레스",
+    "settingText": "미국 로스앤젤레스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YK05R0OOyltL6A9ffn4P3TgtKYbGexlM",
+    "filename": "레이먼드 챈들러-금붕어.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.768Z",
+    "size": "120643",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1YK05R0OOyltL6A9ffn4P3TgtKYbGexlM/view?usp=drivesdk",
+    "sourceSha256": "cb4db50e1eed9ed0d1bd52dc98f9176e356e581e1c593d274e03d2a4cae0c3e6",
+    "textSha256": "048c4d8e96ba3bd4372ecd1f53e96ec608c5683d2c8e48aa24b9896261dadb4f",
+    "changeKey": "66b38a7cea291f44a45ce68e1c3fe72a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e5f4a17d3d4d55d1e97b",
+    "workId": "e5f4a17d3d4d55d1e97b",
+    "driveFileId": "1YK05R0OOyltL6A9ffn4P3TgtKYbGexlM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:29:21.568587+00:00",
+    "updatedAt": "2026-09-22T04:29:21.568601+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.6583,
+      "updatedAt": "2026-09-22T04:29:21.568687+00:00"
+    }
+  }
+}

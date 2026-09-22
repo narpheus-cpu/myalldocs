@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어두운 포옹",
+    "author": "애거서 크리스티",
+    "genre": "로맨스",
+    "tags": [
+      "필명",
+      "메어리웨스트마콧",
+      "자전적"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세계적인 추리 소설의 대가이나, '메어리 웨스트마콧'이라는 필명으로 심리 묘사가 뛰어난 로맨스 소설을 남김.",
+    "oneLineSummary": "추리의 여왕 애거서 크리스티가 메어리 웨스트마콧이라는 필명으로 발표한 서정적이고 자전적인 로맨스 소설",
+    "overallSummary": "파리에 체재 중이던 주인공에게 못생기고 집요한 캐서린 유그비언 부인이 찾아와 죽어가는 옛친구 게이브리엘을 만나달라고 간청한다. 이를 거절하려던 주인공은 과거 세인트 루에서의 기억과 게이브리엘에 얽힌 복잡한 감정들을 회상하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "주인공은 하인 퍼핏트의 안내로 추녀이지만 집요한 캐서린 유그비언 부인을 만나고, 그녀로부터 옛친구이자 성자 클레멘트로 알려진 게이브리엘이 죽어가며 찾고 있다는 말을 듣는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "pseudonym",
+        "value": "메어리 웨스트마콧"
+      }
+    ],
+    "keyEntitiesText": "주인공, 퍼핏트, 캐서린 유그비언, 존 게이브리엘, 이사벨",
+    "settingText": "프랑스 파리 및 과거 세인트 루"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12yuw-r1zaixTMJeqUIeecMxJX_HMPjxD",
+    "filename": "로맨스 특선-애거서 크리스티-어두운 포옹.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.896Z",
+    "size": "485971",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/12yuw-r1zaixTMJeqUIeecMxJX_HMPjxD/view?usp=drivesdk",
+    "sourceSha256": "b0dde7a3c2aa0ccc875bd987f6df03b63536c6f6ffab64a0f4f28583a0511a22",
+    "textSha256": "c6951ecf9be6e77588c0c2d51bbec1f0416633102108aac1d839934a4ac11865",
+    "changeKey": "481caf4427ed17d959aa267b578c4329",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0ad17d25826f05ccb937",
+    "workId": "0ad17d25826f05ccb937",
+    "driveFileId": "12yuw-r1zaixTMJeqUIeecMxJX_HMPjxD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:30:01.421738+00:00",
+    "updatedAt": "2026-09-22T04:30:01.421753+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:30:01.421831+00:00"
+    }
+  }
+}

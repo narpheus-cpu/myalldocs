@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "리틀 시스터",
+    "author": "레이먼드 챈들러",
+    "genre": "추리",
+    "tags": [
+      "할리우드",
+      "실종",
+      "하드보일드"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "hardboiled"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "필립 말로 시리즈로 유명한 하드보일드 소설의 거장.",
+    "oneLineSummary": "캔자스에서 온 촌스러운 아가씨 오파메이 퀘스트가 실종된 오빠를 찾아달라며 필립 말로를 찾아오면서 벌어지는 이야기",
+    "overallSummary": "새침하고 결벽증이 있어 보이는 오파메이 퀘스트가 20달러를 들고 필립 말로의 사무실을 찾아와 베이시티에서 연락이 끊긴 오빠 오린을 찾아달라고 의뢰한다. 말로는 탐탁지 않아 하면서도 사건에 뛰어든다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 ~ 2장",
+        "summary": "오파메이가 말로의 사무실을 찾아와 오빠의 실종 사건을 의뢰하고, 말로는 그녀의 독특한 태도 속에서 조사를 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "detective",
+        "value": "필립 말로"
+      }
+    ],
+    "keyEntitiesText": "필립 말로, 오파메이 퀘스트, 오린 퀘스트",
+    "settingText": "미국 로스앤젤레스 및 베이시티"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18jpS3xeE6T-igNnBFpjAJJsRrFzp0WFO",
+    "filename": "레이먼드 챈들러-리틀 시스터 - 필립 말로 5(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.808Z",
+    "size": "655341",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/18jpS3xeE6T-igNnBFpjAJJsRrFzp0WFO/view?usp=drivesdk",
+    "sourceSha256": "94c5ad7bffb29c033ab29d1becc8dc910b7aaddac115442a410d07b1884a039d",
+    "textSha256": "17f103cd9aca7ed66c86304785e0b7fca18ade82490df35e51d83943c414e0d5",
+    "changeKey": "1acdf2a777674792adbf14adaabf68c3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4dbeaa26d2e6192f845f",
+    "workId": "4dbeaa26d2e6192f845f",
+    "driveFileId": "18jpS3xeE6T-igNnBFpjAJJsRrFzp0WFO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:29:37.003959+00:00",
+    "updatedAt": "2026-09-22T04:29:37.003975+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:29:37.004055+00:00"
+    }
+  }
+}

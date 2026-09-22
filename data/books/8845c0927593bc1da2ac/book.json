@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "죽음의 문서",
+    "author": "로버트 B 파커",
+    "genre": "추리",
+    "tags": [
+      "스펜서",
+      "야구",
+      "조사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "hardboiled"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 하드보일드 작가로 스펜서 시리즈를 통해 영웅소설의 새로운 지평을 엶.",
+    "oneLineSummary": "야구선수 마티 러브가 도박조직과 내통하고 있는지 조사해 달라는 의뢰를 받은 사립탐정 스펜서의 이야기",
+    "overallSummary": "레드 삭스의 경기를 관람한 스펜서는 구단 관계자 해럴드 애스킨의 의뢰를 받아 에이스 투수 마티 러브가 승부조작이나 도박조직과 연관되어 있는지 비밀리에 조사하기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 ~ 제 2 장",
+        "summary": "스펜서는 펜웨이 파크에서 야구 경기를 즐긴 뒤 애스킨을 만나 마티 러브에 대한 비밀 조사를 의뢰받고 작가로 위장해 팀에 접근할 준비를 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "detective",
+        "value": "스펜서"
+      }
+    ],
+    "keyEntitiesText": "스펜서, 마티 러브, 해럴드 애스킨, 레이 패럴",
+    "settingText": "미국 보스턴 펜웨이 파크"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Ll5UyHH_hxIO1icW_62vkCCRo7rqtojJ",
+    "filename": "로버트 B 파커-죽음의 문서 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.914Z",
+    "size": "428849",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1Ll5UyHH_hxIO1icW_62vkCCRo7rqtojJ/view?usp=drivesdk",
+    "sourceSha256": "bebc726397f0e6edcafdaa1a0f974723991076a52d2e70854d324a26fe2c3244",
+    "textSha256": "ebee6b4ef7fe89029910fc7c0994ee33d86200e728a9a23e69531f7256c8ad92",
+    "changeKey": "d574f46ed20a79acd4d7ee510dbdc111",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8845c0927593bc1da2ac",
+    "workId": "8845c0927593bc1da2ac",
+    "driveFileId": "1Ll5UyHH_hxIO1icW_62vkCCRo7rqtojJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:30:07.387773+00:00",
+    "updatedAt": "2026-09-22T04:30:07.387788+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:30:07.387867+00:00"
+    }
+  }
+}
