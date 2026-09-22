@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "버닝 크롬",
+    "author": "윌리엄 깁슨",
+    "genre": "SF",
+    "tags": [
+      "사이버펑크",
+      "사이버스페이스",
+      "매트릭스",
+      "해킹",
+      "콘솔카우보이"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "사이버펑크",
+        "누아르"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사이버스페이스라는 용어를 대중화하며 사이버펑크 장르를 개척한 대표적인 SF 작가.",
+    "oneLineSummary": "의수를 단 하드웨어 전문가 잭과 콘솔 카우보이 보비가 범죄조직의 실력자 크롬의 데이터 성채를 털기 위해 목숨을 건 해킹을 감행한다.",
+    "overallSummary": "신체 개조와 암흑가가 얽힌 도시의 밑바닥에서 하드웨어 조달 전문가인 의수의 잭과 천재적인 침입 해커(콘솔 카우보이) 보비 퀸이 파트너로 일한다. 보비는 새로운 연인 리키에게 매료되어 자신의 모든 기술과 운을 건 대규모 작업을 준비한다. 잭이 장물아비 핀에게서 구해온 정체불명의 러시아제 군용 의태 바이러스 프로그램을 이용해, 악명 높은 범죄 조직의 여성 거물 크롬의 난공불락의 데이터베이스 '얼음'을 녹이고 자금을 탈취하려는 목숨을 건 침투를 전개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문 (버닝 크롬)",
+        "summary": "보비와 잭이 로프트에서 러시아제 침투 무기로 크롬의 삼엄한 방어망 ICE를 공격하며, 보비가 사랑했던 여인 리키에 대한 회상과 해킹 과정의 긴박한 공방을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사이버펑크 미학",
+        "value": "매트릭스 3차원 격자 공간, 방어 프로그램 ICE, 신경 접속 해킹 등 현대 사이버펑크 문학의 시각적·개념적 토대 제시"
+      },
+      {
+        "key": "인물 심리와 욕망",
+        "value": "위험한 해킹의 동기가 돈이나 권력이 아닌, 여성을 이상화하고 자신의 존재 증명을 확인하려는 카우보이의 허무주의적 심리에 기반함"
+      }
+    ],
+    "keyEntitiesText": "오토매틱 잭(하드웨어 전문가/화자), 보비 퀸(콘솔 카우보이), 리키(보비의 연인), 크롬(해킹 대상 범죄 거물), 핀(장물아비)",
+    "settingText": "사이버스페이스 매트릭스 그리드, 도시의 스프롤 로프트 및 단골 술집 '젠틀맨 루저'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pueKiFRgmkFAVEFPSj8AHzk1OPKJuh_t",
+    "filename": "윌리엄 깁슨-버닝 크롬.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.287Z",
+    "size": "45110",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1pueKiFRgmkFAVEFPSj8AHzk1OPKJuh_t/view?usp=drivesdk",
+    "sourceSha256": "d4d5edacb6bd5a2f1963b5cb4808b9a75cfbbdbd646bafd5376b3073f163e962",
+    "textSha256": "f157b3ea9fadb5b58c49afc748c44893d4fc97947e5e0decf00752259a7cea24",
+    "changeKey": "ffbc6e0af055bdac46e163daf5431305",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a0212a28f3415f9ebb62",
+    "workId": "a0212a28f3415f9ebb62",
+    "driveFileId": "1pueKiFRgmkFAVEFPSj8AHzk1OPKJuh_t",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:30:04.061771+00:00",
+    "updatedAt": "2026-09-22T10:30:04.061787+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:30:04.061911+00:00"
+    }
+  }
+}

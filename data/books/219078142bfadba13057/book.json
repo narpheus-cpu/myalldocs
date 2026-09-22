@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어스시의 마법사",
+    "author": "어슐러 르 귄",
+    "genre": "판타지",
+    "tags": [
+      "어스시",
+      "게드",
+      "마법",
+      "성장소설",
+      "진정한이름"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "모험판타지",
+        "하이판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 세계적 판타지 문학 거장으로 어스시 마법사 연작을 통해 균형과 진정한 이름의 철학을 정립했다.",
+    "oneLineSummary": "곤트 섬의 시골 소년 더니가 자신의 숨겨진 마법 능력을 깨닫고 침략자들을 물리치며 위대한 마법사 게드로 성장해 가는 서막.",
+    "overallSummary": "곤트 섬 두메산골의 대장장이 아들 더니는 마녀 이모에게서 가벼운 주문을 배우며 마법의 재능을 드러낸다. 마을 사람들에게 새매라는 통칭으로 불리던 그는 카르그 제국의 야만인 전사들이 마을을 침략해 약탈하려 하자, 안개를 모으고 형상을 바꾸는 안개짜기 주문을 발휘하여 적군을 낭떠러지로 유인해 추락시키고 마을을 구해낸다. 이 사건을 통해 그의 잠재된 위대한 마법의 힘이 세상에 드러나게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "안개 속의 전사들",
+        "summary": "어머니를 일찍 여의고 자란 소년 더니가 이모에게서 마법을 배우며 새매라는 이름을 얻고, 카르그 침략군에 맞서 안개 마법으로 마을을 구하고 힘을 소진하는 과정을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "마법 철학",
+        "value": "사물의 진정한 이름과 침묵, 어둠과 빛의 균형에 기초한 마법 체계의 도입"
+      },
+      {
+        "key": "주인공의 성장",
+        "value": "미숙한 마법 사용에서 출발하여 위기 속에서 기지와 잠재력을 발휘해 영웅적 면모를 드러내는 서사"
+      }
+    ],
+    "keyEntitiesText": "더니(새매/게드), 대장장이(더니의 아버지), 마녀 이모, 카르그 제국 침략군",
+    "settingText": "군도 세계 어스시의 북동해에 위치한 곤트 섬, 열 그루 오리나무 마을 및 낭떠러지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "116Mo_yZ-Q0eczhaxo8-Fe5UY8EkiGz_0",
+    "filename": "금안의 마법사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:36.417Z",
+    "size": "1745095",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/116Mo_yZ-Q0eczhaxo8-Fe5UY8EkiGz_0/view?usp=drivesdk",
+    "sourceSha256": "0514df6ce795b4a6ba92bf8b2062321e984ea38be620b1acc4e0f5c1f3196b15",
+    "textSha256": "448fb01a72eefb23ab4f2ba27acd24a1290c8628a663594eb47f1ddbb851174a",
+    "changeKey": "1710b9a02c756b46cc949a5de128ab5e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "219078142bfadba13057",
+    "workId": "219078142bfadba13057",
+    "driveFileId": "116Mo_yZ-Q0eczhaxo8-Fe5UY8EkiGz_0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:29:00.920359+00:00",
+    "updatedAt": "2026-09-22T10:29:00.920373+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5046,
+      "updatedAt": "2026-09-22T10:29:00.920461+00:00"
+    }
+  }
+}

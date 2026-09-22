@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "또 다른 바람",
+    "author": "어슐러 르 귄",
+    "genre": "판타지",
+    "tags": [
+      "어스시",
+      "게드",
+      "오리나무",
+      "꿈",
+      "죽음의땅"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "하이판타지",
+        "철학판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "어스시 전집 완결부를 통해 인간과 자연, 생과 사의 경계를 완성한 미국의 대표 소설가.",
+    "oneLineSummary": "죽은 아내가 부르는 악몽에 시달리던 마술사 오리나무가 마법의 힘을 잃고 곤트 섬에서 평범하게 살아가는 전직 대현자 게드를 찾아온다.",
+    "overallSummary": "주술로 주전자를 고치는 타언 출신의 마술사 오리나무는 죽은 아내의 영혼이 죽음의 땅 돌담 너머에서 자신을 부르는 악몽에 시달리다 로크 섬의 조형사를 거쳐 곤트 섬의 은퇴한 게드(새매)를 찾아온다. 게드는 과거의 마법 권능을 모두 소진하고 아내 테나와 딸 테하누를 해브너로 보낸 뒤 홀로 텃밭을 일구며 살고 있다. 오리나무가 겪는 꿈의 고통과 죽음의 영역에 생긴 이상 징후는 게드 자신의 꿈과 공명하며, 세계의 근본적인 균형이 흔들리고 있음을 암시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "녹색 주전자 고치기",
+        "summary": "타언 출신의 나그네 오리나무가 곤트 항에 도착해 르 알비 절벽가의 오두막에서 자두를 따고 채소밭을 가꾸는 노인 게드를 찾아가 고통스러운 악몽에 대해 털어놓는 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "영웅의 노년과 일상",
+        "value": "한때 위대한 대현자였으나 모든 마법을 잃고 채소밭과 가축을 돌보며 평범한 인간으로서 슬픔을 감내하는 게드의 삶"
+      },
+      {
+        "key": "죽음의 세계의 균열",
+        "value": "죽은 자들이 산 자를 끌어당기는 악몽을 통해 삶과 죽음을 가르는 경계에 중대한 이변이 생겼음을 암시"
+      }
+    ],
+    "keyEntitiesText": "게드(새매/전직 대현자), 오리나무(타언 출신 마술사), 레반넨 왕, 조형사, 테나, 테하누",
+    "settingText": "곤트 섬의 곤트 항 및 르 알비 절벽 가에 있는 옛 현자 오지언의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1X4QLyd6SWHDW0tSkusERPLf7tzYmsExj",
+    "filename": "바람과 불.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:43.558Z",
+    "size": "839894",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1X4QLyd6SWHDW0tSkusERPLf7tzYmsExj/view?usp=drivesdk",
+    "sourceSha256": "58a282696c12e731416814574d320b61853021b62731f082c4886ab5faf6ecaf",
+    "textSha256": "3a9f87a6db87b0c37002e7ef1baf62a1ca07fd2b8a8d1e4deb042c13092694f3",
+    "changeKey": "c36501fe3ad719329e535f417dbb64dc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cc1078f3c3a8620ef2d0",
+    "workId": "cc1078f3c3a8620ef2d0",
+    "driveFileId": "1X4QLyd6SWHDW0tSkusERPLf7tzYmsExj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:29:32.936579+00:00",
+    "updatedAt": "2026-09-22T10:29:32.936594+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3644,
+      "updatedAt": "2026-09-22T10:29:32.936680+00:00"
+    }
+  }
+}

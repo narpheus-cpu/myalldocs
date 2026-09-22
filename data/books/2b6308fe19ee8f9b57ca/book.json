@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "테하누",
+    "author": "어슐러 르 귄",
+    "genre": "판타지",
+    "tags": [
+      "어스시",
+      "테나",
+      "고하",
+      "테루",
+      "오지언"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "여성서사",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "어스시 연작을 통해 마법과 영웅 중심 서사를 넘어 일상과 여성의 삶, 존재의 본질을 깊이 탐색한 작가.",
+    "oneLineSummary": "남편과 사별한 후 홀로 살아가던 테나가 끔찍한 학대를 당한 아이 테루를 거두고, 스승 오지언의 부름을 받아 길을 떠난다.",
+    "overallSummary": "아투안의 무덤을 탈출한 후 곤트 섬 가운뎃계곡 농부 부싯돌과 결혼해 살던 테나(고하)는 남편이 죽은 후 홀로 농장을 지키고 있다. 어느 날 부랑자들에게 끔찍하게 구타당하고 모닥불 속에 던져져 심한 화상을 입은 어린 소녀 테루를 만나 구출해 지극정성으로 돌본다. 1년 후 스승인 현자 오지언이 위독하다는 전갈을 받은 테나는 상처 입은 테루를 데리고 르 알비의 오지언을 찾아 길을 떠나며, 과거 오지언에게 들었던 인간과 용이 한 종족이었던 태초의 전설을 들려준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나쁜 일",
+        "summary": "친구 종달새의 부름을 받고 달려간 고하(테나)가 모닥불에 던져져 온몸에 심한 화상을 입은 부랑자의 아이를 구호하고 자신의 손으로 지켜내기로 결심한다."
+      },
+      {
+        "sectionTitle": "매의 둥지로 가다",
+        "summary": "1년 후 르 알비의 노현자 오지언이 병들었다는 소식을 들은 테나가 테루를 데리고 길을 떠나며, 변신술의 한계를 넘어선 용과 인간의 태초 분화 전설을 이야기해 준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "취약성과 돌봄",
+        "value": "영웅적 마법의 화려함 대신 신체적 폭력과 화상으로 파괴된 연약한 어린 생명을 감싸 안는 일상적 연대와 사랑"
+      },
+      {
+        "key": "인간과 용의 기원",
+        "value": "태초에 하나였으나 자유와 비행을 택한 용과 부와 건물을 택한 인간으로 나뉘었다는 신화적 재해석"
+      }
+    ],
+    "keyEntitiesText": "고하(테나), 테루(테하누), 부싯돌, 종달새, 담쟁이, 오지언, 케메이 여자",
+    "settingText": "곤트 섬 가운뎃계곡의 참나무 농장 및 르 알비로 이어지는 산길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HX-szHNs5C3TO7pPL37de4KqIsJPpYNQ",
+    "filename": "혈의 누.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:42.222Z",
+    "size": "147547",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1HX-szHNs5C3TO7pPL37de4KqIsJPpYNQ/view?usp=drivesdk",
+    "sourceSha256": "bcd147c3db3248abcd07f43760faee184f097928fd44eb8aec938dd990543b48",
+    "textSha256": "e8fd55f7f9f5c0bbae4b6a6022fc8d57572ebf1a52ada2fbb4bc0f99652d72fb",
+    "changeKey": "1a2741bfb6ac27606540cc7d1f2cd74c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2b6308fe19ee8f9b57ca",
+    "workId": "2b6308fe19ee8f9b57ca",
+    "driveFileId": "1HX-szHNs5C3TO7pPL37de4KqIsJPpYNQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:29:20.483477+00:00",
+    "updatedAt": "2026-09-22T10:29:20.483490+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.2733,
+      "updatedAt": "2026-09-22T10:29:20.483577+00:00"
+    }
+  }
+}

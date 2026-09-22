@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "머나먼 바닷가",
+    "author": "어슐러 르 귄",
+    "genre": "판타지",
+    "tags": [
+      "어스시",
+      "게드",
+      "아렌",
+      "마법상실",
+      "로크"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "모험판타지",
+        "철학판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "어스시 연작을 비롯해 인류학적 사유와 시적 언어로 독보적인 판타지 세계를 구축한 작가.",
+    "oneLineSummary": "어스시 전역에서 마법의 힘과 언어가 사라지는 위기가 닥치자 대현자 게드와 인라드의 어린 왕자 아렌이 문제의 근원을 찾아 떠나기 위해 만난다.",
+    "overallSummary": "어스시의 남원해와 서원해뿐만 아니라 모레드의 유서 깊은 혈통이 다스리는 인라드 섬에까지 주문을 잊어버리고 마법이 무력해지며 가축이 사산되는 등 마법의 원천이 말라붙는 괴변이 발생한다. 인라드의 대공은 외아들 아렌을 현자들의 본산인 로크 섬으로 파견한다. 로크의 대학당 분수의 뜰에서 대현자 게드를 만난 아렌은 충성을 맹세하고, 게드는 세계에 퍼진 기이한 악과 두려움의 실체를 파악하기 위해 로크의 현자들을 소집하고 내재의 숲으로 향한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "마가목",
+        "summary": "인라드의 대공 후계자 아렌이 로크 대학당에 도착해 대현자 게드를 알현하고 세계 각지에서 마법의 힘과 말이 사라지는 흉흉한 소식을 전하며, 게드가 조형사를 만나 사태의 심각성을 논의하는 장면."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "마법 상실의 위기",
+        "value": "마법의 진정한 언어와 창조력이 망각되고 인간 정신이 무기력해지는 전 세계적 위기 징후"
+      },
+      {
+        "key": "선과 악의 사유",
+        "value": "악을 인간 스스로 짜내는 거미줄로 규정하며 평화에 안주했던 시기에서 벗어나 근원적인 어둠을 마주하려는 태도"
+      }
+    ],
+    "keyEntitiesText": "게드(새매/대현자), 아렌(인라드의 왕자), 수문사, 조형사, 모레드",
+    "settingText": "어스시 마법 세계의 중심인 로크 섬 대학당 분수의 뜰과 내재의 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OnFYlipM8v6QnFYpi239K1PJMTvT6lV6",
+    "filename": "어슐러 르 귄-바람의 열 두 방향(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.007Z",
+    "size": "569329",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1OnFYlipM8v6QnFYpi239K1PJMTvT6lV6/view?usp=drivesdk",
+    "sourceSha256": "95cdaff6ac76cf895b841510fd948b4108d532af7c444084299c369342d5c33f",
+    "textSha256": "26acdad7f210ed5447704d7c5c817bd7359061cd6f89c6828932e9c9dd990f8f",
+    "changeKey": "28f501da8da7a105a57d49b4820e04a1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2ae7883c60b4087063a9",
+    "workId": "2ae7883c60b4087063a9",
+    "driveFileId": "1OnFYlipM8v6QnFYpi239K1PJMTvT6lV6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:29:13.717548+00:00",
+    "updatedAt": "2026-09-22T10:29:13.717563+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.2581,
+      "updatedAt": "2026-09-22T10:29:13.717647+00:00"
+    }
+  }
+}

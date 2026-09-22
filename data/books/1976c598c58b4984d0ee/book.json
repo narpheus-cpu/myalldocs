@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "백년법",
+    "author": "야마다 무네키",
+    "genre": "SF",
+    "tags": [
+      "백년법",
+      "불로화",
+      "생존제한법",
+      "근미래",
+      "사회SF"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "사회소설",
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1965년 일본 아이치현 출생 작가로 후쿠오카에 거주하며 SF 소설 백년법을 집필했다.",
+    "oneLineSummary": "인간 불로화 시술 후 100년이 지나면 기본 인권을 포기하고 죽어야 하는 법을 둘러싼 근미래 사회의 정치적 갈등과 인간 군상을 다룬 소설.",
+    "overallSummary": "원자폭탄 피폭 등으로 멸망 위기를 겪은 후 부흥한 가상의 일본을 배경으로 불로화 시술 보급에 따른 사회 붕괴를 막기 위해 시술 후 100년이 경과하면 생존권을 포기하도록 규정한 생존제한법(백년법) 시행을 둘러싼 정부 내무성 관료들과 정계의 대립을 그린다. 내무성 생존제한법 특별준비실 실장 유사 아키히토는 백년법 시행을 설득하려 하고, 내무장관 도모나리와 정계는 선거 및 여론 악화를 의식해 법 시행 동결을 모색한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "저자의 말",
+        "summary": "작가가 10여 년 전 착상했으나 집필을 단념했다가 편집자의 권유로 3년 반에 걸쳐 완성해 한국 독자들에게 선보이게 된 과정을 전한다."
+      },
+      {
+        "sectionTitle": "1부 1장 | 서기 2048년",
+        "summary": "서기 2048년 백년법 시행을 앞두고 대국민 홍보 영상 제작과 유명인 기용 방안을 논의하는 내무성 회의에서 유사 실장과 사사하라 차관, 도모나리 장관 사이의 대립 및 백년법 시행 동결 소문이 다루어진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 설정",
+        "value": "불로화 시술을 받은 국민은 치료 후 100년이 지나면 생존권을 비롯한 모든 권리를 포기해야 하는 생존제한법"
+      },
+      {
+        "key": "사회적 딜레마",
+        "value": "국민 대다수의 죽음에 대한 불안과 정재계 특권층의 법 적용 면제 의혹에 따른 정치적 대립"
+      }
+    ],
+    "keyEntitiesText": "유사 아키히토(내무성 특별준비실 실장), 사사하라 다쿠조(내무성 차관), 도모나리 야스타카(내무장관), 후카마치 신타로, 고노이케 총리, 공화당, 민권당",
+    "settingText": "서기 2048년의 일본, 공습과 원자폭탄으로 초토화된 후 불로화 시술을 도입해 재건된 가상의 근미래 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17WBoSrzv0nUbKC2ISrweOBuJlKr7k2Px",
+    "filename": "야마다 무네키-백년법1(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T02:25:32.000Z",
+    "size": "599732",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/17WBoSrzv0nUbKC2ISrweOBuJlKr7k2Px/view?usp=drivesdk",
+    "sourceSha256": "e2522d1143d12d328d8d60a244de7599e35b5c6a0c643c37beba8eeb93f9e15c",
+    "textSha256": "6a0dd55314c8bbb954864039531dfe0a9d53a320002ff98835006b9c945d505f",
+    "changeKey": "79fb3a09ce88c0274a11624eb5c54a28",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1976c598c58b4984d0ee",
+    "workId": "1976c598c58b4984d0ee",
+    "driveFileId": "17WBoSrzv0nUbKC2ISrweOBuJlKr7k2Px",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:28:38.533292+00:00",
+    "updatedAt": "2026-09-22T10:28:38.533307+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:28:38.533466+00:00"
+    }
+  }
+}

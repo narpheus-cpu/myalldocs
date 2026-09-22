@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "백년법 2",
+    "author": "야마다 무네키",
+    "genre": "SF",
+    "tags": [
+      "백년법",
+      "거부자",
+      "테러",
+      "센추리온",
+      "공화국"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF스릴러",
+        "정치소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1965년 일본 출생으로 백년법을 통해 제66회 일본추리작가협회상 대상을 수상한 SF 및 미스터리 작가.",
+    "oneLineSummary": "백년법 적용을 거부하고 은신한 거부자 공동체와 이를 진압하려는 국가 권력의 충돌 및 질병을 둘러싼 갈등을 그린다.",
+    "overallSummary": "폐교된 마을에 숨어 사는 백년법 거부자 공동체는 심각한 종양 질환을 앓는 지도자를 치료하기 위해 공화국병원의 가토 다로 의사를 납치한다. 가토는 거부자 환자가 말기 질환임을 직감하고 의사로서의 사명감으로 진료를 수락한다. 한편 공화국 경찰국과 대통령 직속 특수부대 센추리온의 기타자와 대령은 테러리스트 아나타 도진을 체포하고 거부자 마을을 소탕하기 위한 작전에 돌입한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "3부 2장 | 낯선 풍경 1",
+        "summary": "납치된 의사 가토 다로가 폐교에서 깨어나 노화된 남자 가이의 부탁을 받고 말기 질환에 걸린 소중한 환자를 진료하기로 결심한다."
+      },
+      {
+        "sectionTitle": "3부 2장 | 낯선 풍경 2",
+        "summary": "공화국 경찰국장 효도와 대테러 특수부 가가와, 센추리온의 기타자와 대령이 거부자 마을에 숨은 테러리스트 아나타 도진 진압 임무를 두고 작전 회의를 벌인다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "거부자 문제",
+        "value": "백년법(생존제한법) 강제 집행을 피해 사회 밖으로 숨어든 거부자들의 생활과 국가의 비인도적 탄압 정책"
+      },
+      {
+        "key": "군경 대립",
+        "value": "인도적 체포 및 전모 파악을 중시하는 경찰 조직과 가차 없는 섬멸을 주장하는 대통령 직속 부대 센추리온의 갈등"
+      }
+    ],
+    "keyEntitiesText": "가토 다로(공화국병원 종양과의사), 가이(거부자 마을 주민), 기타자와(센추리온 대령), 가가와 데쓰오(경찰국 대테러 특수부 부장), 효도 가쓰라(경찰국 국장), 다케스에, 아나타 도진",
+    "settingText": "지도상에 존재하지 않는 버려진 거부자 마을 및 공화국 정부 기관 회의실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1K2zoCCNg1lFuEMopDIrAnsX-e9tp4499",
+    "filename": "야마다 무네키-백년법2(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T02:27:48.000Z",
+    "size": "584503",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1K2zoCCNg1lFuEMopDIrAnsX-e9tp4499/view?usp=drivesdk",
+    "sourceSha256": "c5786788d8b40bf937ebca4b1c816e6dfb1a10669ddfe5a72598aa9a71d361ed",
+    "textSha256": "39f150ccda7abed81eccf82eef6e4087b32f28592a414d6ae367c2446554a6bc",
+    "changeKey": "02df4f5f61ee0a20d44d1cf6bcd3d0e9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "44e7cb83e3f67df3ee55",
+    "workId": "44e7cb83e3f67df3ee55",
+    "driveFileId": "1K2zoCCNg1lFuEMopDIrAnsX-e9tp4499",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:28:46.704279+00:00",
+    "updatedAt": "2026-09-22T10:28:46.704294+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:28:46.704383+00:00"
+    }
+  }
+}

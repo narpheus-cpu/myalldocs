@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세상을 가리키는 말은 숲",
+    "author": "어슐러 K. 르 귄",
+    "genre": "SF",
+    "tags": [
+      "헤인시리즈",
+      "식민주의비판",
+      "생태주의",
+      "외계행성",
+      "원주민"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "생태소설",
+        "반전소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 소설가로 헤인 세계관 및 어스시 시리즈를 통해 문명 비판과 생태적 사유를 탁월하게 그려냈다.",
+    "oneLineSummary": "지구의 자원 수탈을 위해 뉴타이티 행성을 파괴하고 토착민을 억압하는 인간 식민주의자들의 오만과 폭력을 다룬다.",
+    "overallSummary": "나무가 고갈된 지구에 목재를 공급하기 위해 외계 행성 뉴타이티(애스시)를 식민화하고 개간하는 군대와 노동자들의 정착지가 배경이다. 지휘관 돈 데이비드슨은 자연을 지배하고 정복하는 것을 당연시하며 토착민 크리치(애스시인)를 고통조차 느끼지 못하는 노예나 동물로 취급하며 착취한다. 생태학적 보존과 규약 준수를 요구하는 학자 키스 반 스텐과의 반목 속에서도 데이비드슨은 무자비한 벌목과 정복 정책을 밀어붙인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "스미스 기지의 데이비드슨 지휘관이 벌목 성과와 지구에서 온 여성 주민들의 도착 소식을 접하고, 생태계 파괴를 지적하는 키스 상사의 경고를 무시한 채 크리치에 대한 강압적 지배 방침을 고수하는 장면을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "식민주의적 오만",
+        "value": "토착 환경과 원주민을 미개한 착취 대상으로 보며 무자비하게 벌채하고 노예화하는 군벌주의적 시각 고발"
+      },
+      {
+        "key": "생태학적 대립",
+        "value": "생태계를 착취 대상으로 보는 데이비드슨과 균형 보존을 주장하는 과학자 키스의 대립 구조"
+      }
+    ],
+    "keyEntitiesText": "돈 데이비드슨(지휘관), 키스 반 스텐(전문가/상사), 오크내너위 나보(벌목 십장), 벤(크리치 하인), 류보프",
+    "settingText": "지구에서 27광년 떨어진 외계 행성 뉴타이티(아스시)의 스미스 기지와 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10BKGyO5cdRu9k7IUEJDQuG_keyiQDoPK",
+    "filename": "어슐러 르 귄-세상을 가리키는 말은 숲-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-05T13:31:14.000Z",
+    "size": "339119",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/10BKGyO5cdRu9k7IUEJDQuG_keyiQDoPK/view?usp=drivesdk",
+    "sourceSha256": "d847863b2fb7f8937176f386d64cc74a87d1a28f9a23e1de74bb804fb5c1ae2a",
+    "textSha256": "183dd9846f34a0553b6e3af9268497bab8b90653dfe0c22c8cbbf1d0c26e9e33",
+    "changeKey": "b5c531d337c9493527d748775cddc30f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ac4bc8ced7e42016f226",
+    "workId": "ac4bc8ced7e42016f226",
+    "driveFileId": "10BKGyO5cdRu9k7IUEJDQuG_keyiQDoPK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:28:54.533384+00:00",
+    "updatedAt": "2026-09-22T10:28:54.533400+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:28:54.533487+00:00"
+    }
+  }
+}
