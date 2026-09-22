@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "타이버 2 - 신들의 꿈",
+    "author": "버즈 앨드린, 존 반스 공저",
+    "genre": "SF 소설",
+    "tags": [
+      "타이버",
+      "신들의꿈",
+      "외계인",
+      "세트포스",
+      "지구탐사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "hard_sf",
+        "space_exploration"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "우주비행사 버즈 앨드린과 SF 작가 존 반스가 공동 집필하여 외계 문명의 사회 구조와 우주 탐사를 생생하게 묘사한 하드 SF 대작입니다.",
+    "oneLineSummary": "기원전 73세기, 모성 타이버를 떠나 새로운 행성 세트포스(지구)를 찾아 나선 타이버인 탐험대의 여정과 갈등을 그린 소설입니다.",
+    "overallSummary": "타이버 행성의 두 지적 종족인 팔라스인과 슐라스인은 모성의 위기를 극복하고 새로운 정착지를 찾기 위해 우주선 와코펨 조모스 호를 타고 세트포스(지구)로 향합니다. 어린 슐라스인 자메코시즈와 팔라스인 메족스 등 탐험대원들은 고향을 떠나 우주 항해를 시작하며, 두 종족 간의 미묘한 신분 차이와 갈등 속에서 새로운 행성에 도달하기 위한 여정을 이어갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "새로운 행성을 찾아라",
+        "summary": "어린 자메코시즈가 친구 메족스와 함께 바람섬의 훈련소를 떠나 우주선에 탑승하고, 고향 팔라스와 소사히 위성을 뒤로하며 우주 항해를 시작하는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "외계 생물학",
+        "value": "서로 다른 신체적 특징을 지닌 팔라스인과 슐라스인 두 종족의 공존과 사회적 계급 구조 묘사"
+      }
+    ],
+    "keyEntitiesText": "자메코시즈, 메족스, 프리캄, 오투스, 케콕스 선생님, 소이켄 선생님",
+    "settingText": "기원전 73세기, 타이버 행성계의 바람섬과 우주선 선착장, 그리고 광활한 우주 항로"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sM8b4G6cB7omFU4mFs1GHRPYw01jDgXo",
+    "filename": "버즈 앨드린, 존 반스 공저-타이버 2-신들의 꿈 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:30.623Z",
+    "size": "559622",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1sM8b4G6cB7omFU4mFs1GHRPYw01jDgXo/view?usp=drivesdk",
+    "sourceSha256": "fb394b92a378751423a17a02dc8ffa1529c2c31d631f353a3de316690c8d993b",
+    "textSha256": "27997c9ac15a739b807afba46a24c7d33dc2c48ca7f2c50ad1c110480680d1d9",
+    "changeKey": "90587b5db75cf6721fe1b5d3ede7dd88",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cf410e90de6f65bef9a8",
+    "workId": "cf410e90de6f65bef9a8",
+    "driveFileId": "1sM8b4G6cB7omFU4mFs1GHRPYw01jDgXo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:15:15.069933+00:00",
+    "updatedAt": "2026-09-22T10:15:15.069950+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:15:15.070066+00:00"
+    }
+  }
+}

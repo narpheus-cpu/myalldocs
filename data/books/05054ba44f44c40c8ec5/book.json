@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "윈터",
+    "author": "마리사 마이어",
+    "genre": "SF / 판타지 소설",
+    "tags": [
+      "루나크로니클",
+      "윈터",
+      "신더",
+      "레바나",
+      "동화재해석"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "young_adult",
+        "fairy_tale_retelling"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 베스트셀러 작가로, 고전 동화를 SF적 세계관과 결합한 '루나 크로니클' 시리즈로 세계적인 인기를 얻었습니다.",
+    "oneLineSummary": "루나의 선량한 공주 윈터가 사악한 여왕 레바나의 폭정에 맞서고, 신더 일행과 함께 혁명을 완수해 나가는 루나 크로니클의 최종장입니다.",
+    "overallSummary": "루나 제국의 공주 윈터는 자신의 마법 능력을 쓰지 않아 환각에 시달리면서도 아름다움과 선량함을 잃지 않습니다. 의붓어머니인 레바나 여왕은 그녀를 질투하고 억압하며, 윈터가 사랑하는 근위병 제이신을 반역죄로 처형하려 합니다. 윈터는 신더, 스칼렛, 크레스 등 동료들과 힘을 합쳐 레바나의 폭정을 무너뜨리기 위한 거대한 혁명에 동참합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 재판과 환각",
+        "summary": "윈터 공주가 알현실에서 레바나 여왕의 잔혹한 재판을 참관하며 극심한 추위와 환각에 시달리는 고통을 겪습니다."
+      },
+      {
+        "sectionTitle": "2장 제이신의 입정",
+        "summary": "반역 혐의로 끌려온 근위병 제이신이 레바나 여왕 앞에서 결백을 주장하며 지구의 마법 억제 장치에 대한 정보를 밝힙니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "동화적 모티브",
+        "value": "백설공주 이야기를 미래 우주 제국과 사이보그, 초능력 설정으로 재해석"
+      }
+    ],
+    "keyEntitiesText": "윈터 공주, 레바나 여왕, 제이신 클레이, 에이머리 파크, 신더",
+    "settingText": "지구를 내려다보는 달의 고도화된 인공 돔 도시 아르테미시아의 왕궁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1arKNZdSRI2nN_WcDz_E3jAZVc5bxSeum",
+    "filename": "마리사 마이어-윈터(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T22:19:28.000Z",
+    "size": "1652137",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1arKNZdSRI2nN_WcDz_E3jAZVc5bxSeum/view?usp=drivesdk",
+    "sourceSha256": "e495cbfe446004f343497060734363af19f9d07ad3fec63d1b581189dff68899",
+    "textSha256": "c00a5409b49c743e9ebb35639fe14ab4fa9eec235b119416ff01a6d82db45e82",
+    "changeKey": "360e3d622f68c5483df1a4591f2b8236",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "05054ba44f44c40c8ec5",
+    "workId": "05054ba44f44c40c8ec5",
+    "driveFileId": "1arKNZdSRI2nN_WcDz_E3jAZVc5bxSeum",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:14:51.285447+00:00",
+    "updatedAt": "2026-09-22T10:14:51.285463+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:14:51.285550+00:00"
+    }
+  }
+}

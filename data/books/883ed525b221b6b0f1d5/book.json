@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "타이버 3 - 우주의 문을 열다",
+    "author": "버즈 앨드린, 존 반스 공저",
+    "genre": "SF 소설",
+    "tags": [
+      "타이버",
+      "우주의문을열다",
+      "외계유적",
+      "화성",
+      "비밀의문"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "hard_sf",
+        "space_exploration"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "실제 우주 비행 지식과 풍부한 상상력을 결합하여 인류와 외계 문명의 조우를 장대하게 그려낸 SF 소설가들입니다.",
+    "oneLineSummary": "지구에 남겨진 타이버인들의 역사와, 21세기 화성 코로예프 분화구에서 타이버인의 거대한 유적과 비밀의 문을 발견하는 이야기입니다.",
+    "overallSummary": "기원전 72세기, 지구(세트포스)에 고립된 타이버인 노예 디에렌과 원시 지구인 셋은 숲속에서 작동 중인 타이버인의 탐사기와 낙하산을 발견합니다. 한편, 또 다른 타이버 우주선 이겔리테리언 리퍼블릭 호의 선원들은 고가속 항해의 고통을 견디며 지구로 향합니다. 세월이 흘러 21세기, 지구인 과학자들은 화성 코로예프 분화구에서 타이버인의 거대한 유적과 우주의 비밀을 담은 '비밀의 문'을 발견합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "희망의 빛",
+        "summary": "지구에 남겨진 타이버인 노예 디에렌과 원시 지구인 셋이 가시덤불 속에서 작동 중인 타이버인의 탐사기와 낙하산을 발견하고 경탄하는 이야기입니다."
+      },
+      {
+        "sectionTitle": "이겔리테리언 리퍼블릭 호의 항해",
+        "summary": "세타키서스 선장보의 보고를 통해, 타이버인 선원들이 10중력의 고가속 탱크 안에서 40일간 겪은 극심한 신체적 고통과 따분함을 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "우주 비행 의학",
+        "value": "초고속 우주 항해 시 인체가 겪는 중력 가속도(G-force)의 한계와 액체 탱크를 통한 충격 완화 기술 묘사"
+      }
+    ],
+    "keyEntitiesText": "디에렌, 셋, 메사라, 메노뭄, 세타키서스, 배제스 선장",
+    "settingText": "기원전 72세기의 원시 지구(세트포스)와 고가속 항해 중인 타이버 우주선 내부"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19Myxq3yEmRFRAm2M6I4_DNGNcC22P0Io",
+    "filename": "버즈 앨드린, 존 반스 공저-타이버 3-우주의 문을 열다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:30.842Z",
+    "size": "556521",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/19Myxq3yEmRFRAm2M6I4_DNGNcC22P0Io/view?usp=drivesdk",
+    "sourceSha256": "3b2537e07871f023896ea29d0c78c5d907ccbaba9a397e1981b7610d3ecfb71c",
+    "textSha256": "046fa13db4c2afae10684ec91e4487c6d26e871bac42eddc12c7be1a10aa74cc",
+    "changeKey": "1e936e189bd19606c6be2a03634bb6fa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "883ed525b221b6b0f1d5",
+    "workId": "883ed525b221b6b0f1d5",
+    "driveFileId": "19Myxq3yEmRFRAm2M6I4_DNGNcC22P0Io",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:15:21.075454+00:00",
+    "updatedAt": "2026-09-22T10:15:21.075471+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:15:21.075566+00:00"
+    }
+  }
+}

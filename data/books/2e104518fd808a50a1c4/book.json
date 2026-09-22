@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "보르코시건 시리즈 2 - 바라야 내전",
+    "author": "로이스 맥마스터 부졸드",
+    "genre": "SF 소설 / 스페이스 오페라",
+    "tags": [
+      "보르코시건",
+      "바라야내전",
+      "코델리아",
+      "아랄",
+      "마일즈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "space_opera",
+        "military_sf"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "장대한 우주 대하소설 보르코시건 시리즈를 통해 은하계의 정치, 군사, 생명공학적 갈등을 섬세하고 박진감 넘치게 그려낸 거장입니다.",
+    "oneLineSummary": "아랄 보르코시건이 바라야 제국의 섭정이 된 후, 임신한 코델리아가 독가스 테러를 당해 장애를 가진 아들 마일즈를 품고 내전의 위기를 헤쳐나가는 이야기입니다.",
+    "overallSummary": "에스코바 전쟁이 끝나고 아랄 보르코시건과 결혼한 코델리아는 바라야 제국에 정착합니다. 에자르 황제가 서거하고 어린 그레고르가 황위에 오르자 아랄은 제국의 섭정으로 임명됩니다. 그러나 보수 귀족들의 반발과 권력 투쟁으로 내전의 위기가 고조되고, 코델리아는 임신 중에 독가스 테러를 당해 태아(마일즈)가 심각한 뼈 장애를 입게 됩니다. 코델리아는 어머니로서 아들의 생명을 구하고, 섭정비로서 제국의 내전을 종식시키기 위해 강인하게 맞섭니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 섭정의 시작",
+        "summary": "코델리아가 바라야 저택에서 제국보안사의 일리얀 중령을 맞이하고, 남편 아랄과 함께 황궁 알현 및 섭정으로서 직면한 복잡한 정치적 음모와 경비 상황에 대해 논의합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "모성애와 정치",
+        "value": "야만적인 봉건 사회의 편견에 맞서 장애를 가진 아이를 지키려는 어머니의 강인한 모성애와 정치적 투쟁의 결합"
+      }
+    ],
+    "keyEntitiesText": "코델리아 네이스미스, 아랄 보르코시건, 마일즈, 보타리 중사, 쿠델카 대위, 사이먼 일리얀",
+    "settingText": "봉건적 귀족 계급(보르)과 군국주의적 전통이 지배하는 바라야 제국의 수도 보르바르 술타나와 황궁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ozOJdCbrf6ZfAfBLBTb3_NUYAkjQGXzy",
+    "filename": "보르코시건 시리즈 2-바라야 내전(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T13:08:42.000Z",
+    "size": "927718",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1ozOJdCbrf6ZfAfBLBTb3_NUYAkjQGXzy/view?usp=drivesdk",
+    "sourceSha256": "b3bb564bb755598d993781f92877edac16d0fd8252e86add42fe87a1fed0aa15",
+    "textSha256": "04192477f0b6ef345a3784d0b25ba98aec531c62c19c2fab62a95879ad18f89d",
+    "changeKey": "c059fc890d82fe2773c837a770858540",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e104518fd808a50a1c4",
+    "workId": "2e104518fd808a50a1c4",
+    "driveFileId": "1ozOJdCbrf6ZfAfBLBTb3_NUYAkjQGXzy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:15:45.697196+00:00",
+    "updatedAt": "2026-09-22T10:15:45.697213+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:15:45.697310+00:00"
+    }
+  }
+}

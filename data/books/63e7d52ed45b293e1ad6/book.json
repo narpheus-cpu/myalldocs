@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마니아를 위한 세계 SF 걸작선",
+    "author": "정영목, 홍인기 편역",
+    "genre": "SF 단편선",
+    "tags": [
+      "SF걸작선",
+      "단편소설",
+      "하인라인",
+      "아시모프"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "sf",
+        "short_stories"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "국내의 저명한 번역가 정영목과 SF 평론가 홍인기가 협력하여 세계적인 SF 거장들의 명작들을 엄선하여 편역했습니다.",
+    "oneLineSummary": "과학기술의 발전 속에서 인간의 조건과 미래 사회의 본질을 성찰하는 세계적인 SF 거장들의 대표 단편들을 모은 선집입니다.",
+    "overallSummary": "로버트 하인라인의 '지구의 푸른 산'을 비롯하여 아이작 아시모프, 필립 K. 딕, 어슐러 르 귄 등 SF 역사에 획을 그은 작가들의 단편들을 수록하였습니다. 단순한 기술적 상상력을 넘어 인간미와 사회적 메시지가 뚜렷한 작품들을 통해 독자들에게 깊은 성찰을 제공합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "지구의 푸른 산",
+        "summary": "우주 방사능으로 시력을 잃은 맹인 음유시인 라이슬링이 태양계를 떠돌며 아름다운 시와 노래를 남기고, 결국 고향 지구로 돌아가는 마지막 여정을 그린 하인라인의 단편입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 선정 기준",
+        "value": "차가운 기계적 묘사보다 인간의 냄새와 보편적인 감정이 진하게 풍기는 인본주의적 SF 단편 엄선"
+      }
+    ],
+    "keyEntitiesText": "라이슬링, 힉스 선장, 고샤와크호",
+    "settingText": "인류가 원자로 동력 우주선으로 태양계 전역을 개척하고 왕래하는 미래의 우주 시대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vk41NJARuH69pnYhZhaRxVSor_rGMtoT",
+    "filename": "마니아를 위한 세계 SF걸작선(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T19:59:04.000Z",
+    "size": "1577496",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1vk41NJARuH69pnYhZhaRxVSor_rGMtoT/view?usp=drivesdk",
+    "sourceSha256": "986b337aff70c3d6dbb77b4e0ff4a2a7cd506076384faadfb37ed0cdc48ffc34",
+    "textSha256": "dd84a10fe652bb6379c18bc201d2847c787f7727bafb6ac4a9d538141d3e66db",
+    "changeKey": "090c136db6e0d0bfc74b0f3422c396e7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "63e7d52ed45b293e1ad6",
+    "workId": "63e7d52ed45b293e1ad6",
+    "driveFileId": "1vk41NJARuH69pnYhZhaRxVSor_rGMtoT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:14:44.996379+00:00",
+    "updatedAt": "2026-09-22T10:14:44.996398+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:14:44.996499+00:00"
+    }
+  }
+}

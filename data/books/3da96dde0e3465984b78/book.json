@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "몽상가의 이야기",
+    "author": "로드 던세이니",
+    "genre": "판타지 소설",
+    "tags": [
+      "몽상가의이야기",
+      "판타지",
+      "단편소설",
+      "던세이니"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "short_stories"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아일랜드 출신의 귀족이자 작가로, 현대 판타지 문학의 기틀을 마련하고 러브크래프트, 톨킨 등 후대 작가들에게 깊은 영향을 주었습니다.",
+    "oneLineSummary": "꿈속의 세상을 보는 듯한 몽환적이고 시적인 분위기 속에서 인간의 운명과 신비로운 자연을 다룬 환상 단편 소설집입니다.",
+    "overallSummary": "내륙 국가의 젊은이들이 바다를 보기 위해 폴타니즈 산을 넘어간 뒤 돌아오지 않는 수수께끼를 풀기 위해, 아름다운 힐나릭 공주를 사랑하는 들소 사냥꾼 아셀보크가 바다로 떠나며 벌어지는 신비롭고 서정적인 이야기를 담고 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "바다를 지켜보는 자, 폴타니즈",
+        "summary": "아리짐의 사냥꾼 아셀보크가 힐나릭 공주와의 결혼과 내륙 국가의 구원을 위해 폴타니즈 산을 넘어 바다를 마주하고, 결국 그 경이로움에 매료되어 돌아가지 못하는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체적 특징",
+        "value": "성경과 신화적 어조를 차용한 고풍스럽고 시적이며 몽환적인 산문 스타일"
+      }
+    ],
+    "keyEntitiesText": "아셀보크, 힐나릭 공주, 폴타니즈, 아리짐, 톨디즈, 몬다스",
+    "settingText": "바다를 본 적 없는 평화롭고 아름다운 세 내륙 국가와 이를 가로막은 거대한 산 폴타니즈 너머의 신비로운 바다"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DOXMYwyxW9Vze847t700hpW6bXtKas_7",
+    "filename": "로드 던세이니-몽상가의 이야기-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T12:45:04.000Z",
+    "size": "92350",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1DOXMYwyxW9Vze847t700hpW6bXtKas_7/view?usp=drivesdk",
+    "sourceSha256": "51ea91f43123782440788c22eff6a7b4ea697bb5cf0b53d7ff8449e22a98b403",
+    "textSha256": "43699a4ca1992a4d8c60f6ee970cb8fd40468ac8ca27b9e6235a48efcc1c82b4",
+    "changeKey": "4b3eeb0161140afe4fd7aaa67a8dc182",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3da96dde0e3465984b78",
+    "workId": "3da96dde0e3465984b78",
+    "driveFileId": "1DOXMYwyxW9Vze847t700hpW6bXtKas_7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:14:24.079280+00:00",
+    "updatedAt": "2026-09-22T10:14:24.079298+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:14:24.079402+00:00"
+    }
+  }
+}

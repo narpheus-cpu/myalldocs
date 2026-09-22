@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "양서 인간",
+    "author": "알렉산드르 벨랴예프",
+    "genre": "SF 소설",
+    "tags": [
+      "양서인간",
+      "고전SF",
+      "벨랴예프",
+      "인체개조",
+      "로스모"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic_sf",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소련의 대표적인 초기 SF 작가로, 인체 개조, 뇌 의식 이식 등 선구적인 의학적 상상력을 담은 작품들을 발표했습니다.",
+    "oneLineSummary": "카디스 박사의 수술로 바다와 육지에서 모두 숨쉴 수 있게 된 양서인간 로스모가 인간 사회의 탐욕에 휘말리는 비극적인 이야기입니다.",
+    "overallSummary": "아르헨티나 해안에 '바다의 악마'라 불리는 괴물이 나타나 어부들을 공포에 빠뜨립니다. 그 실체는 천재 외과의 카디스 박사의 수술을 통해 아가미와 폐를 모두 갖게 된 청년 로스모였습니다. 진주잡이 선장 스리다는 로스모를 생포해 진주 채취 노예로 부리려는 음모를 꾸미고, 로스모는 물에 빠진 아름다운 처녀 루이제를 구해주며 인간 사회의 사랑과 탐욕, 음모의 소용돌이에 휘말리게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "바다의 악마",
+        "summary": "진주잡이 배 메두사 호의 선원들이 밤바다에서 '바다의 악마'라 불리는 괴물의 기괴한 피리 소리를 듣고 공포에 사로잡힙니다."
+      },
+      {
+        "sectionTitle": "돌고래를 타고",
+        "summary": "어부들이 바다 속에서 상어의 습격을 받던 중 은빛 비늘을 가진 괴물에게 구조되고, 돌고래를 타고 달리는 괴물의 실체를 목격합니다."
+      },
+      {
+        "sectionTitle": "스리다의 실패",
+        "summary": "탐욕스러운 선장 스리다가 바다의 악마를 사로잡아 무상으로 진주를 캐게 하겠다는 음모를 꾸미고 인디오들과 함께 생포 계획을 세웁니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "의학적 상상력",
+        "value": "인간에게 아가미를 이식하여 수중 호흡이 가능하게 한다는 선구적인 생체 개조 설정"
+      }
+    ],
+    "keyEntitiesText": "로스모, 루이제, 카디스 박사, 스리다, 아루바",
+    "settingText": "바다의 악마 소문으로 들끓는 아르헨티나 부에노스아이레스 인근의 해안과 바다"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-SpphKGuZ4w8wby-3zCoJzxXZJlt4A3K",
+    "filename": "베리야에프-양서 인간.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:31.034Z",
+    "size": "276589",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1-SpphKGuZ4w8wby-3zCoJzxXZJlt4A3K/view?usp=drivesdk",
+    "sourceSha256": "1f69a6cbf4a6b886ec95f991e70b9e60ed99da8536ae3de8908ba6d37f91fca4",
+    "textSha256": "15e561d8d1d97dd88ba44841179a40a2a813a9b8ad160e65f4cd34e25d973a8d",
+    "changeKey": "db6064d403f89d3705b2240109f5faac",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "77bbf2ddb6e762539f9d",
+    "workId": "77bbf2ddb6e762539f9d",
+    "driveFileId": "1-SpphKGuZ4w8wby-3zCoJzxXZJlt4A3K",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:15:26.419418+00:00",
+    "updatedAt": "2026-09-22T10:15:26.419433+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:15:26.419531+00:00"
+    }
+  }
+}

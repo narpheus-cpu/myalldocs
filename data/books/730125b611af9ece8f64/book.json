@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "은하수를 여행하는 히치하이커를 위한 안내서",
+    "author": "더글러스 애덤스",
+    "genre": "코믹 SF 소설",
+    "tags": [
+      "히치하이커",
+      "우주여행",
+      "아서덴트",
+      "포드프리펙트",
+      "안내서"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "comedy_sf",
+        "satire"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국 출신의 작가로, 라디오 드라마로 시작해 소설, TV, 게임 등으로 확장된 코믹 SF의 전설적인 걸작 시리즈를 창조했습니다.",
+    "oneLineSummary": "지구가 우주 고속도로 건설을 위해 파괴되기 직전, 외계인 친구와 함께 탈출한 평범한 지구인 아서 덴트의 황당한 우주 유랑기입니다.",
+    "overallSummary": "어느 목요일, 지구가 초공간 고속도로 건설을 위해 허무하게 파괴됩니다. 평범한 영국인 아서 덴트는 외계인 연구원인 친구 포드 프리펙트의 도움으로 극적으로 탈출하여, 우주를 여행하는 히치하이커들을 위한 지침서인 '안내서'를 지닌 채 기상천외한 우주를 모험하게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "안내서에 대한 안내",
+        "summary": "작가가 책의 탄생 배경과 라디오, 책, 레코드, TV 등 다양한 버전으로 제작되며 얽힌 복잡한 역사와 에피소드를 유쾌하게 소개합니다."
+      },
+      {
+        "sectionTitle": "은하계의 변두리",
+        "summary": "은하계 서쪽 변두리의 보잘것없는 행성 지구에서 인류가 겪는 불행과, 지구 파괴 직전 카페에 앉아 있던 한 여성이 깨달은 진실에 대해 언급합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "풍자적 요소",
+        "value": "관료주의, 우주의 본질, 인간의 실존적 고민을 유머러스하고 냉소적인 시각으로 풍자"
+      }
+    ],
+    "keyEntitiesText": "아서 덴트, 포드 프리펙트, 마빈, 안내서",
+    "settingText": "지구가 파괴된 직후의 광활하고 황당무계한 은하계 우주 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xEldhWAHZXZVmBZira13_WXRHeoghejd",
+    "filename": "더글러스 애덤스-은하수를 여행하는 히치하이커를 위한 안내서(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:30.305Z",
+    "size": "1586657",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1xEldhWAHZXZVmBZira13_WXRHeoghejd/view?usp=drivesdk",
+    "sourceSha256": "503ca5e18a37eaa9274e552de95c83f06ab4a0bbc6a18db233fb4a2082f16e6b",
+    "textSha256": "a78a90c913af94f18695f7da5e5d7e9cfe051e75dc08a45441ca17b832036b70",
+    "changeKey": "5d1d2e725d33a6227cc3a95db25fbcdc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "730125b611af9ece8f64",
+    "workId": "730125b611af9ece8f64",
+    "driveFileId": "1xEldhWAHZXZVmBZira13_WXRHeoghejd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:14:11.574683+00:00",
+    "updatedAt": "2026-09-22T10:14:11.574700+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:14:11.574796+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "칼리의 노래",
+    "author": "댄 시먼스",
+    "genre": "공포 소설",
+    "tags": [
+      "칼리의노래",
+      "인도",
+      "캘커타",
+      "공포",
+      "스릴러"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 저명한 장르 소설가로, SF뿐만 아니라 공포, 미스터리 등 다양한 분야에서 독창적인 걸작들을 발표했습니다.",
+    "oneLineSummary": "미국의 시인이 실종된 인도 시인의 신작을 확보하기 위해 캘커타로 떠났다가 도시를 지배하는 사악한 기운과 마주하는 이야기입니다.",
+    "overallSummary": "시인 로버트 루잭은 실종되어 사망한 것으로 알려진 인도 시인 M. 다스의 신작 시가 발견되었다는 소식을 듣고, 이를 취재하기 위해 아내 암리타, 딸 빅토리아와 함께 인도의 캘커타로 향합니다. 루잭은 친구 에이브의 경고에도 불구하고 캘커타에 발을 디디지만, 그곳에서 고대 여신 칼리를 숭배하는 광신 집단과 도시 전체를 감싸고 있는 불길하고 사악한 독기와 마주하게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 출장 준비",
+        "summary": "로버트 루잭이 에이브의 만류에도 불구하고 M. 다스의 신작을 찾기 위해 캘커타 출장을 결정하고 준비합니다."
+      },
+      {
+        "sectionTitle": "2. 출발 전야",
+        "summary": "출발 전날 밤, 루잭은 아내 암리타와 함께 인도 여행에 대한 기대와 불안을 나누며 시간을 보냅니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기 묘사",
+        "value": "도시 전체를 지배하는 미아즈마(독기)와 고대 종교적 광기를 통한 심리적 공포 극대화"
+      }
+    ],
+    "keyEntitiesText": "로버트 루잭, 암리타, 빅토리아, 에이브 브론스타인, M. 다스",
+    "settingText": "1977년 여름, 습하고 무더우며 기괴한 기운이 감도는 인도의 캘커타"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fNZtMTwpNqCr0dQdFjAxfUANzGsvJifi",
+    "filename": "댄 시먼스-칼리의 노래-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T11:51:04.000Z",
+    "size": "652856",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1fNZtMTwpNqCr0dQdFjAxfUANzGsvJifi/view?usp=drivesdk",
+    "sourceSha256": "e569b93bf4624bb53b365d47da217582cff599eee88e6ac1b8a04552fe9f7cae",
+    "textSha256": "f89baa16a302ad5017ed3aa659d17101dab3d014d77c960757e43e7d88962e22",
+    "changeKey": "b1a7dfb472bafa725f90ed985bef9e28",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d7bdc0abf6df120d890a",
+    "workId": "d7bdc0abf6df120d890a",
+    "driveFileId": "1fNZtMTwpNqCr0dQdFjAxfUANzGsvJifi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:14:05.709775+00:00",
+    "updatedAt": "2026-09-22T10:14:05.709791+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:14:05.709887+00:00"
+    }
+  }
+}

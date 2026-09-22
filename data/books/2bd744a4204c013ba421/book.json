@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "타이버 1 - 화성의 도시",
+    "author": "버즈 앨드린, 존 반스 공저",
+    "genre": "SF 소설",
+    "tags": [
+      "타이버",
+      "화성의도시",
+      "버즈앨드린",
+      "하드SF",
+      "외계문명"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "hard_sf",
+        "space_exploration"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아폴로 11호의 우주비행사 버즈 앨드린과 SF 작가 존 반스가 협력하여, 실제 우주 과학 지식을 바탕으로 극사실적인 SF 소설을 집필했습니다.",
+    "oneLineSummary": "인류의 우주 탐험 역사와 달 및 화성에서 발견된 외계 지적 생명체 '타이버인'의 유적을 발굴하며 우주의 비밀을 파헤치는 하드 SF 소설입니다.",
+    "overallSummary": "역사학자 클리오 트리고린을 중심으로 한 탐사대가 센타우루스 자리로 향하는 거대 우주선 터네시티 호에 탑승합니다. 이들은 과거 달과 화성에서 발견된 외계 지적 생명체 '타이버인'의 유적과 그들이 남긴 방대한 지식의 보고인 '인사이크러피디어'를 바탕으로, 인류의 우주 진출 역사와 외계 문명의 비밀을 추적해 나갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "테네시티호-클리오 트리고린의 기록",
+        "summary": "2069년 7월 20일, 역사학자 클리오가 지구를 떠나 외계 항성계로 향하는 터네시티 호에서 화성의 가족들과 마지막 통화를 나누며 인류 우주 탐사의 역사를 회상합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "과학적 사실성",
+        "value": "실제 우주 비행 경험을 바탕으로 한 궤도 역학, 우주선 추진력, 영점 에너지 등에 대한 정밀한 묘사"
+      }
+    ],
+    "keyEntitiesText": "클리오 트리고린, 제이슨 삼촌, 올가 숙모, 크리스 테렌스, 터네시티 호",
+    "settingText": "21세기 후반, 지구 궤도와 화성 코롤레브 분화구 기지, 그리고 외계 항성계로 향하는 우주 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-Dr7zUsH9Irl2mSn3e75Vi5riu7_XI6_",
+    "filename": "버즈 앨드린, 존 반스 공저-타이버 1-화성의 도시 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:30.504Z",
+    "size": "452643",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1-Dr7zUsH9Irl2mSn3e75Vi5riu7_XI6_/view?usp=drivesdk",
+    "sourceSha256": "b5581e75933db28823f7b81f85f103628603c113b07884561d033f90c84c1ce3",
+    "textSha256": "d7f471fcbb1d6da950ff56f0188133b8df5353853c686b5c137355bbcaa9d35f",
+    "changeKey": "12ff88dbb2dc7a603205cd9da0a46256",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2bd744a4204c013ba421",
+    "workId": "2bd744a4204c013ba421",
+    "driveFileId": "1-Dr7zUsH9Irl2mSn3e75Vi5riu7_XI6_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:15:08.537393+00:00",
+    "updatedAt": "2026-09-22T10:15:08.537410+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:15:08.537499+00:00"
+    }
+  }
+}
