@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시튼 동물기",
+    "author": "시튼",
+    "genre": "동물문학/자연",
+    "tags": [
+      "시튼",
+      "동물기",
+      "로보",
+      "자연"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "fiction",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 소설가이자 박물학자인 어니스트 톰슨 시튼은 캐나다 자연 속에서 동물들을 관찰하며 수많은 연구를 남겼고 후세 동물 문학에 지대한 영향을 끼쳤다.",
+    "oneLineSummary": "대자연 속에서 살아가는 야생 동물들의 삶과 생명의 소중함을 그린 관찰기.",
+    "overallSummary": "카람포의 이리 왕 로보를 비롯해 솜털꼬리토끼, 여우 부부, 야생마 등 거친 자연 속에서 힘겹게 살아가는 야생 동물들의 실제 관찰을 바탕으로 한 감동적인 동물 이야기 모음.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "카람포의 이리 왕 이야기",
+        "summary": "뉴멕시코 주 카람포 방목지를 무대로 목장 주인의 소를 사냥하며 불사신처럼 군림하는 거대한 회색 이리 왕 로보와 사냥꾼의 대결을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "genre",
+        "value": "클래식 동물문학 / 생태 관찰기"
+      },
+      {
+        "key": "coreMessage",
+        "value": "야생 동물의 존엄성과 생명의 소중함"
+      }
+    ],
+    "keyEntitiesText": "로보, 블랑카, 타나리, 랏그, 빙고, 스카 페이스, 빅센",
+    "settingText": "미국 뉴멕시코 주 카람포 방목지, 로키 산맥"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1O1Nqm-u3Z4wmKc8XdhRZN5X0kcUNW1mh",
+    "filename": "어니스트 톰슨 시튼-시튼동물기 1(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-08T16:05:02.000Z",
+    "size": "394446",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1O1Nqm-u3Z4wmKc8XdhRZN5X0kcUNW1mh/view?usp=drivesdk",
+    "sourceSha256": "204d49dc478f92e2e790594b92393776b85fd5e0ab3197dc1a462482e86231fc",
+    "textSha256": "46056d1b08e19f3008f80da14a230431596d59c4e1c322dd8e003a6d4c83cd91",
+    "changeKey": "313ee75034310b610a23ded3788e8010",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c2a8683472568f433ef3",
+    "workId": "c2a8683472568f433ef3",
+    "driveFileId": "1O1Nqm-u3Z4wmKc8XdhRZN5X0kcUNW1mh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:01:13.228727+00:00",
+    "updatedAt": "2026-09-22T01:01:13.228741+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:01:13.228829+00:00"
+    }
+  }
+}

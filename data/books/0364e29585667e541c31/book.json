@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셰익스피어 4대 비극집",
+    "author": "신정옥",
+    "genre": "희곡/고전",
+    "tags": [
+      "셰익스피어",
+      "4대비극",
+      "햄릿",
+      "희곡"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "fiction",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영문학자이자 번역가인 신정옥 교수가 독자들의 요청과 교육적 필요에 의해 셰익스피어의 4대 비극을 엄선하여 우리말 번역으로 엮은 고전 희곡집.",
+    "oneLineSummary": "인간 성격의 비극적 결함을 심오하게 그린 셰익스피어의 4대 비극 희곡집.",
+    "overallSummary": "윌리엄 셰익스피어가 남긴 수많은 희곡 중 인간성의 심오한 탐구와 비극적 운명을 가장 잘 보여주는 '햄릿', '오델로', '리어왕', '맥베드' 등 4대 비극 작품을 모은 고전 명작집.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "햄릿 제1막",
+        "summary": "덴마크 엘시노어 궁전 성벽 위에 선왕의 유령이 나타나고, 슬픔에 잠긴 햄릿 왕자가 친구 호레이쇼를 통해 아버지의 망령에 대한 소식을 접한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "literaryForm",
+        "value": "고전 희곡 (연극 대본)"
+      },
+      {
+        "key": "thematicConcept",
+        "value": "성격이 곧 운명 (Character is fate)"
+      }
+    ],
+    "keyEntitiesText": "햄릿, 클로디어스, 거트루드, 오필리어, 호레이쇼, 폴로니어스",
+    "settingText": "덴마크 엘시노어 궁전"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1x4EeL0pRrCkqRotJvX6CdQsPlQcezAvo",
+    "filename": "신정옥-세익스피어 4대 비극집.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.263Z",
+    "size": "655571",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1x4EeL0pRrCkqRotJvX6CdQsPlQcezAvo/view?usp=drivesdk",
+    "sourceSha256": "19ecc6196a0f927fcc4ece4d1f392a47d656050e56542b2f601b19de65376dab",
+    "textSha256": "856789760e2a5fb63a55fd712aa3a57e0bbced2108e282a4bd17e4ef39b62bd3",
+    "changeKey": "1a900661c4aedf08995075fd01410622",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0364e29585667e541c31",
+    "workId": "0364e29585667e541c31",
+    "driveFileId": "1x4EeL0pRrCkqRotJvX6CdQsPlQcezAvo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:01:26.628089+00:00",
+    "updatedAt": "2026-09-22T01:01:26.628104+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8217,
+      "updatedAt": "2026-09-22T01:01:26.628209+00:00"
+    }
+  }
+}

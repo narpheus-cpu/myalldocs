@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "특별한 이방인",
+    "author": "시드니 셀던",
+    "genre": "드라마/로맨스",
+    "tags": [
+      "시드니 셀던",
+      "할리우드",
+      "토비 템플",
+      "질 캐슬"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간의 탐욕과 야망, 증오와 복수를 파헤치는 이야기의 마술사 시드니 셀던의 대표작.",
+    "oneLineSummary": "할리우드 스타와 무명 여배우의 운명적인 만남과 파멸적인 복수극을 그린 소설.",
+    "overallSummary": "무명 시절을 딛고 코미디계의 황제로 우뚝 솟은 토비 템플과 실패를 거듭하던 단역 여배우 질 캐슬의 만남, 그리고 할리우드를 상대로 펼치는 피비린내 나는 복수와 파멸의 드라마.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "1969년 11월 뉴욕 항을 출항하려는 호화 여객선 '브르따뉴 호'에서 벌어지는 기괴하고 불가사의한 사건들과 질 템플을 둘러싼 미스터리를 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "야망과 허무, 그리고 복수"
+      },
+      {
+        "key": "metaphor",
+        "value": "정상을 향해 서로를 밟고 오르는 애벌레들의 기둥"
+      }
+    ],
+    "keyEntitiesText": "토비 템플, 질 캐슬, 끌로드 데사르, 폴 템플라우스, 프리다",
+    "settingText": "미국 할리우드, 대서양 호화 여객선 브르따뉴 호"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10ugZfvvevBLP2Hxrz8JGr0_BSHZxcbp3",
+    "filename": "시드니 셀던-특별한 이방인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.222Z",
+    "size": "460323",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/10ugZfvvevBLP2Hxrz8JGr0_BSHZxcbp3/view?usp=drivesdk",
+    "sourceSha256": "a2bb37f80791d1d6dd3500d51742a222a4a0960bd27c4db4a8e4a16a70fe07b5",
+    "textSha256": "2208b8787a05b309c1a72800e7cd42f3689d6e375d4aed09cd192205acff9d2b",
+    "changeKey": "bf65fa273c14737b77ae5a414813b498",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e6cd71ef27a1cbbbaed8",
+    "workId": "e6cd71ef27a1cbbbaed8",
+    "driveFileId": "10ugZfvvevBLP2Hxrz8JGr0_BSHZxcbp3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:00:52.932752+00:00",
+    "updatedAt": "2026-09-22T01:00:52.932768+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:00:52.932888+00:00"
+    }
+  }
+}

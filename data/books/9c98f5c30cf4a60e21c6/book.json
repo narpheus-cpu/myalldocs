@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "끝없는 도망자",
+    "author": "시드니 셀던",
+    "genre": "추리/모험",
+    "tags": [
+      "시드니 셀던",
+      "추리",
+      "모험",
+      "재벌",
+      "음모"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시드니 셀던은 세계 30여 개국에서 1억 부 이상 책이 팔린 초베스트셀러 작가이며 모든 작품이 영화화되었다. 시카고 태생으로 작곡가, 할리우드 시나리오 작가, 공군 조종사 등을 거쳐 첫 소설 '벌거벗은 얼굴'로 미국추리작가협회상을 받았다.",
+    "oneLineSummary": "세계적인 재벌 총수 부부의 비행기 추고 사고와 그 유산을 둘러싼 음모와 갈등을 그린 소설.",
+    "overallSummary": "세계적인 재벌 마쓰모토 그룹의 창업자 부부가 비행기 추고 사고로 사망하고, 18세의 외아들 마사오가 거대한 유산과 그룹을 상속받게 되면서 벌어지는 이야기이다. 고모부 데루오의 숨겨진 야욕과 음모가 서서히 드러나며 긴장감을 자아낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 1장",
+        "summary": "마쓰모토 요네오 부부가 탄 제트 여객기가 악천후 속에서 아팔라치아 산맥에 추락하여 사망하고, 도쿄에 있던 아들 마사오는 고모 부부로부터 부모의 사망 소식을 듣는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "plotType",
+        "value": "범죄/스릴러"
+      },
+      {
+        "key": "centralConflict",
+        "value": "거대한 재벌 유산을 둘러싼 탐욕과 배신"
+      }
+    ],
+    "keyEntitiesText": "마쓰모토 마사오, 마쓰모토 요네오, 에이코, 사토 데루오, 사치코, 히가시, 히다카 구니오, 와타나베 다다오",
+    "settingText": "미국 뉴욕 주 및 아팔라치아 산맥, 일본 도쿄 근교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PBaVIyPD-X_nI9cCPWUFG2TcCTYIVPR4",
+    "filename": "시드니 셀던-끝없는 도망자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.899Z",
+    "size": "185955",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/1PBaVIyPD-X_nI9cCPWUFG2TcCTYIVPR4/view?usp=drivesdk",
+    "sourceSha256": "dcad0b9efaab986e702a746017a1fc5987b52a6e9b2fe01cc3f0b55e3af4138b",
+    "textSha256": "73a408224a66cc1eb2b62f5cd38f8443d487cd09f4d409f55cc43d6241e94035",
+    "changeKey": "a1f760b36a3f0dc88bc3107e8e5b0769",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9c98f5c30cf4a60e21c6",
+    "workId": "9c98f5c30cf4a60e21c6",
+    "driveFileId": "1PBaVIyPD-X_nI9cCPWUFG2TcCTYIVPR4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:58:55.783118+00:00",
+    "updatedAt": "2026-09-22T00:58:55.783133+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:58:55.783347+00:00"
+    }
+  }
+}

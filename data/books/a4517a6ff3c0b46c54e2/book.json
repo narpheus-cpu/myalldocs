@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마이더스",
+    "author": "시드니 셀던",
+    "genre": "스릴러/미스터리",
+    "tags": [
+      "시드니 셀던",
+      "마이더스",
+      "야망",
+      "음모"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전 세계 수억 부의 판매고를 올린 현존하는 최고의 베스트셀러 작가 시드니 셀던의 소설.",
+    "oneLineSummary": "야망에 사로잡힌 여인과 그녀를 사랑한 의사의 파멸적인 운명을 그린 소설.",
+    "overallSummary": "그리스 신화의 마이더스 왕처럼 욕망에 사로잡혀 파멸을 향해 치달아가는 인물들의 음모와 사랑, 그리고 비극적인 결말을 다룬 서스펜스 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 제1장",
+        "summary": "감옥에 수감된 주인공이 과거를 회상하며 레베카와의 만남과 치명적인 사랑, 그리고 하버드 기숙사에서 벌어진 사건을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "motif",
+        "value": "그리스 신화의 마이더스 왕 (지나친 욕망의 상징)"
+      },
+      {
+        "key": "tone",
+        "value": "긴장감 넘치고 비극적인 서사"
+      }
+    ],
+    "keyEntitiesText": "앤소니, 레베카, 로라 해리슨, 메드닉 회장",
+    "settingText": "미국 바하마 구치소, 하버드 대학"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WdrY2SwS1QPQOH_EOpACndpcSbhg1DE9",
+    "filename": "시드니 셀던-마이더스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.955Z",
+    "size": "617542",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/1WdrY2SwS1QPQOH_EOpACndpcSbhg1DE9/view?usp=drivesdk",
+    "sourceSha256": "b7eae57f1f60aa25b16bc049d93dc0d2774aac21120addf78ad327de5f780669",
+    "textSha256": "5e9b554d2718152067fb5a63143f2cb14957e68399da6e25c5c7142ab4b31950",
+    "changeKey": "f73ec0a83a4081a8708a2db7b8a381ea",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a4517a6ff3c0b46c54e2",
+    "workId": "a4517a6ff3c0b46c54e2",
+    "driveFileId": "1WdrY2SwS1QPQOH_EOpACndpcSbhg1DE9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:59:15.350600+00:00",
+    "updatedAt": "2026-09-22T00:59:15.350615+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:59:15.350771+00:00"
+    }
+  }
+}

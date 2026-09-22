@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나를 찾아 떠나는 여행 3",
+    "author": "쌩 떽쥐베리",
+    "genre": "동화/철학",
+    "tags": [
+      "생텍쥐페리",
+      "어린 왕자",
+      "사색 노트",
+      "젊은 날의 편지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "하늘을 무대로 모험을 즐기며 인간의 순수함과 영혼의 진실을 노래한 시인이자 비행사 생텍쥐페리의 유산.",
+    "oneLineSummary": "젊은 날의 편지와 사색 노트, 그리고 어른들을 위한 동화 '어린 왕자'의 결합.",
+    "overallSummary": "생텍쥐페리가 친구이자 연인이었던 르네 드 쏘씬느에게 보낸 편지, 8년간 기록한 '사색 노트'의 핵심 구절, 그리고 세상에서 가장 유명한 철학 동화 '어린 왕자'를 함께 엮어 그의 내면 세계를 조명한 책.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "젊은 날의 편지 및 어린 왕자",
+        "summary": "비행 시절의 열정과 고독을 담은 편지와 함께, 소행성 B612를 떠나 지구를 방문한 어린 왕자가 여우와 사막의 조종사를 만나 진정한 사랑과 길들임의 의미를 깨닫는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "genre",
+        "value": "철학 동화 및 자서전적 에세이"
+      },
+      {
+        "key": "famousQuote",
+        "value": "가장 중요한 것은 눈에 보이지 않는다. 마음으로 봐야만 잘 볼 수 있다."
+      }
+    ],
+    "keyEntitiesText": "생텍쥐페리, 르네 드 쏘씬느, 어린 왕자, 여우, 조종사",
+    "settingText": "사막, 소행성 B612, 지구"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1t6DASR-3e7A5WT0pV818BEe8G0IQlubD",
+    "filename": "쌩 떽쥐베리-나를 찾아 떠나는 여행 3 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.433Z",
+    "size": "255171",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1t6DASR-3e7A5WT0pV818BEe8G0IQlubD/view?usp=drivesdk",
+    "sourceSha256": "b118ef8f38329e6de39669f30596526dc309771a7ea12daab28d4fae41d7583a",
+    "textSha256": "e295742d0ff645a523ce10f06b8477eaca63571499759cc2536b31e4b34d7c9a",
+    "changeKey": "846839c1cc05a1107229ce05706fdd34",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d279a99fb68387af1dbb",
+    "workId": "d279a99fb68387af1dbb",
+    "driveFileId": "1t6DASR-3e7A5WT0pV818BEe8G0IQlubD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:02:31.372857+00:00",
+    "updatedAt": "2026-09-22T01:02:31.372871+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:02:31.372962+00:00"
+    }
+  }
+}

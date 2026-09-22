@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "믿을 수 없는 이야기",
+    "author": "시드니 셀던",
+    "genre": "소설/종교·철학",
+    "tags": [
+      "시드니 셀던",
+      "성서",
+      "기적",
+      "풍자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전 세계 수억 부의 책을 판매한 베스트셀러 작가 시드니 셀던이 성서 속 기적과 인간의 본성을 독특한 시각으로 풀어낸 작품.",
+    "oneLineSummary": "성서 속의 유명한 기적 이야기들을 시드니 셀던 특유의 유머와 풍자로 재해석한 소설.",
+    "overallSummary": "아담과 이브, 노아의 방주, 홍해의 기적, 삼손과 델릴라 등 성서에 등장하는 기적적인 이야기들을 현대적이고 유쾌한 시각으로 풀어내며 인간의 모순과 계명을 다루는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 기적에 관하여",
+        "summary": "아담과 이브, 노아의 방주, 모세의 홍해 도하 등 성서 속 주요 기적 이야기를 흥미롭게 재구성한다."
+      },
+      {
+        "sectionTitle": "2장 계명을 어긴 자들",
+        "summary": "철저한 모범생 신부 조지의 사례를 통해 하느님의 계명과 인간의 위선에 대해 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "literaryStyle",
+        "value": "풍자적 재해석"
+      },
+      {
+        "key": "thematicFocus",
+        "value": "종교적 교리와 인간 본성"
+      }
+    ],
+    "keyEntitiesText": "아담, 이브, 노아, 모세, 삼손, 요나, 다니엘, 조지 신부",
+    "settingText": "에덴동산, 이집트, 성서 속 무대 및 버몬트 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WAUlgHFB4FTxfBxXgB77g8lIglAKkr5g",
+    "filename": "시드니 셀던-믿을수없는 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.102Z",
+    "size": "175921",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/1WAUlgHFB4FTxfBxXgB77g8lIglAKkr5g/view?usp=drivesdk",
+    "sourceSha256": "67c2140428967efce198f042f239769317f96fa3e49e5dbf923a3d24e0813438",
+    "textSha256": "41ddb493e12739cf38c77fe7875690ad5c9bfcf3fc11aa3de935173d23e86367",
+    "changeKey": "108fb632999e9bae55b0132aaf6d6da7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "65039d647f3930224e67",
+    "workId": "65039d647f3930224e67",
+    "driveFileId": "1WAUlgHFB4FTxfBxXgB77g8lIglAKkr5g",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:59:47.340201+00:00",
+    "updatedAt": "2026-09-22T00:59:47.340217+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:59:47.340327+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "작은 불씨는 어디에나",
+    "author": "실레스트 잉",
+    "genre": "소설/가족",
+    "tags": [
+      "실레스트 잉",
+      "셰이커하이츠",
+      "가족",
+      "비밀"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아마존, 뉴욕 타임스, BBC 등 세계적 언론들이 '올해의 책'으로 선정한 베스트셀러 작가 실레스트 잉의 장편소설.",
+    "oneLineSummary": "계획된 도시 셰이커하이츠에서 두 가족의 얽힌 삶과 비밀, 그리고 화재를 그린 소설.",
+    "overallSummary": "모든 것이 완벽하게 계획된 부유한 도시 셰이커하이츠를 배경으로, 리처드슨 가족과 신비로운 예술가 모녀 미아와 펄이 만나면서 벌어지는 갈등, 입양아 양육권 분쟁, 그리고 집을 태워버린 불화의 원인을 추적하는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 어디서",
+        "summary": "셰이커하이츠에서 리처드슨 씨네 집이 불타버린 사건이 발생하고, 막내 이저벨(이지)이 용의자로 지목된 가운데 소방차와 가족들이 화재 현장에 모여든다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "미아와 펄이 윈슬로가로 이사 오게 된 과정과 셰이커하이츠의 엄격한 도시 규칙들, 그리고 리처드슨 가족과의 첫 만남을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "settingMotif",
+        "value": "완벽하게 계획된 도시와 규칙의 한계"
+      },
+      {
+        "key": "centralMystery",
+        "value": "누가, 왜 리처드슨 부부의 집에 불을 질렀는가"
+      }
+    ],
+    "keyEntitiesText": "리처드슨 부인, 미아, 펄, 이저벨(이지), 트립, 렉시, 무디",
+    "settingText": "미국 오하이오 주 셰이커하이츠"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XC1hpoBukket0Vm05VF3Xfu7AG0qAmgK",
+    "filename": "실레스트 잉-작은 불씨는 어디에나(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T19:35:26.000Z",
+    "size": "792730",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1XC1hpoBukket0Vm05VF3Xfu7AG0qAmgK/view?usp=drivesdk",
+    "sourceSha256": "1badd9d34203e5f1f5c1eee6904545cfa7ed90bc6604fba430859b9086f1443a",
+    "textSha256": "6e1a5a83f16a6c4deee5a80f39c7efe869588f1c1f3368eeb2bd9e30c0203443",
+    "changeKey": "9283fc329a16f5c099f7862d235a2674",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6d6154c40b8876015107",
+    "workId": "6d6154c40b8876015107",
+    "driveFileId": "1XC1hpoBukket0Vm05VF3Xfu7AG0qAmgK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:01:39.000310+00:00",
+    "updatedAt": "2026-09-22T01:01:39.000325+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:01:39.000433+00:00"
+    }
+  }
+}

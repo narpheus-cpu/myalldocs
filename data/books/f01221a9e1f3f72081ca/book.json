@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내일이 오면",
+    "author": "시드니 셀던",
+    "genre": "모험/범죄",
+    "tags": [
+      "시드니 셀던",
+      "트레이시 휘트니",
+      "복수",
+      "사기꾼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세계적인 베스트셀러 작가 시드니 셀던의 대표작 중 하나로, 흡입력 있는 전개와 매력적인 여주인공 창조로 유명하다.",
+    "oneLineSummary": "억울한 누명을 쓰고 감옥에 갇힌 여주인공이 세계 제일의 사기꾼으로 변신하여 복수하는 이야기.",
+    "overallSummary": "아름답고 지적인 여주인공 트레이시 휘트니가 명문가 후계자와의 결혼을 앞두고 함정에 빠져 살인미수범으로 투옥된 뒤, 출소 후 사악한 인간 집단에게 통쾌한 복수를 펼치는 초베스트셀러 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 및 제2장",
+        "summary": "필라델피아 신탁은행에 근무하는 유능한 트레이시 휘트니가 찰스 스탠호프 3세를 만나 사랑에 빠지고 약혼하게 되는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "protagonist",
+        "value": "트레이시 휘트니 (지적이고 매력적인 여성)"
+      },
+      {
+        "key": "mainTheme",
+        "value": "시련을 극복한 복수와 성공"
+      }
+    ],
+    "keyEntitiesText": "트레이시 휘트니, 찰스 스탠호프 3세, 클라렌스 데스몬드",
+    "settingText": "미국 필라델피아, 런던, 파리 등 세계 각지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fE_FX5zWiaecE3rHjoZSQV_MZpe1y80o",
+    "filename": "시드니 셀던-내일이 오면.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.931Z",
+    "size": "476996",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/1fE_FX5zWiaecE3rHjoZSQV_MZpe1y80o/view?usp=drivesdk",
+    "sourceSha256": "1e1f7b7202d58527b01b78e7fdd2274ed85cfa4faab77079683325fa0edb4833",
+    "textSha256": "c6f0ecdef1bad9d79d4e1fcf95efed3e08fdbdbfb63c124b803b50397926c846",
+    "changeKey": "881381b8a9001fb48a37abc94562b0b0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f01221a9e1f3f72081ca",
+    "workId": "f01221a9e1f3f72081ca",
+    "driveFileId": "1fE_FX5zWiaecE3rHjoZSQV_MZpe1y80o",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:59:08.682195+00:00",
+    "updatedAt": "2026-09-22T00:59:08.682210+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:59:08.682320+00:00"
+    }
+  }
+}

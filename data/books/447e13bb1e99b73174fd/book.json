@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영원한 것은 없다",
+    "author": "시드니 셀던",
+    "genre": "메디컬/스릴러",
+    "tags": [
+      "시드니 셀던",
+      "메디컬",
+      "여의사",
+      "법정서스펜스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시세기 최고의 베스트셀러 작가 시드니 셀던이 의료계의 이면과 의사들의 삶을 생생하게 그려낸 메디컬 서스펜스 소설.",
+    "oneLineSummary": "병원에서 벌어진 살인 사건과 연루된 여의사의 재판과 진실을 그린 메디컬 스릴러.",
+    "overallSummary": "샌프란시스코의 한 병원에서 근무하는 세 여의사를 둘러싼 충격적인 사건과, 환자를 살해하고 백만 달러의 유산을 차지했다는 혐의로 기소된 닥터 페이지 테일러의 치열한 법정 공방을 다룬 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "검사장 칼 앤드루즈가 여의사 세 사람을 둘러싼 스캔들과 살인 사건에 대해 분노하며 수석검사 거스 베너블에게 유죄 판결을 지시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "genre",
+        "value": "메디컬 법정 스릴러"
+      },
+      {
+        "key": "coreConflict",
+        "value": "안락사와 살인 혐의를 둘러싼 법적 공방"
+      }
+    ],
+    "keyEntitiesText": "페이지 테일러, 거스 베너블, 알란 펜, 칼 앤드루즈, 바네싸 영, 제이슨 커티스",
+    "settingText": "미국 샌프란시스코 시립병원 및 고등법원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DXfUC3-ilCS8iKkWwIdeIT4Fq95ynAU-",
+    "filename": "시드니 셀던-영원한것은 없다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.173Z",
+    "size": "501639",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/1DXfUC3-ilCS8iKkWwIdeIT4Fq95ynAU-/view?usp=drivesdk",
+    "sourceSha256": "dc8dacf992924f55329a58fe02d74b455fb3143dd436022adcefc0a2f9f9b048",
+    "textSha256": "334c3eb3703301eb8daeb237cabd91d47dc630b74636f84f3f41121a2f8dd099",
+    "changeKey": "2f83e3c8ef6a5453077abdd98199e52d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "447e13bb1e99b73174fd",
+    "workId": "447e13bb1e99b73174fd",
+    "driveFileId": "1DXfUC3-ilCS8iKkWwIdeIT4Fq95ynAU-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:00:30.054333+00:00",
+    "updatedAt": "2026-09-22T01:00:30.054348+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:00:30.054454+00:00"
+    }
+  }
+}

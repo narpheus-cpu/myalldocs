@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마이더스 2",
+    "author": "시드니 셀던",
+    "genre": "스릴러/미스터리",
+    "tags": [
+      "시드니 셀던",
+      "마이더스",
+      "기업사냥꾼",
+      "레이더스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시카고 태생의 세계적인 베스트셀러 작가 시드니 셀던의 대표 장편소설 완결편.",
+    "oneLineSummary": "기업 사냥꾼들의 음모에 맞서 뉴월드 그룹을 지키기 위한 주인공들의 사투를 그린 소설.",
+    "overallSummary": "기업 사냥꾼(레이더스)들의 개입으로 위기에 처한 뉴월드 그룹의 실체를 파헤치고, 로라와 다니엘을 둘러싼 음모와 진실을 밝혀가는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제8장 레이더스",
+        "summary": "제임스 교수가 월 스트리트 중앙컴퓨터 시스템을 통해 기업 사냥꾼들이 뉴월드 그룹을 노리고 있다는 사실을 발견하고 로라에게 경고한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "경제/기업 스릴러"
+      },
+      {
+        "key": "plotTwist",
+        "value": "믿었던 연인이 기업 사냥꾼의 용의자로 지목되는 갈등"
+      }
+    ],
+    "keyEntitiesText": "로라 해리슨, 제임스 교수, 다니엘 블레이크, 메드닉, 앤소니 박사",
+    "settingText": "미국 월 스트리트, 바하마 아미보셤 호텔"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GXf6HhlxU-B3TAOQddqCyBNe0Fh1WO0i",
+    "filename": "시드니 셀던-마이더스2 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.074Z",
+    "size": "388532",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/1GXf6HhlxU-B3TAOQddqCyBNe0Fh1WO0i/view?usp=drivesdk",
+    "sourceSha256": "6a76a25f0ac293cd6c26a61f284314deb8e88e90c4488b2cdb0f51a19ff0cdfc",
+    "textSha256": "d2a63297549efc5008f94f73d3a55f5082bc9e72ca27cf91bec516c3b6d7b393",
+    "changeKey": "ae1a676b3c38effca08f3d516fa7e4d7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cbcca14c09004a38111c",
+    "workId": "cbcca14c09004a38111c",
+    "driveFileId": "1GXf6HhlxU-B3TAOQddqCyBNe0Fh1WO0i",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:59:27.417220+00:00",
+    "updatedAt": "2026-09-22T00:59:27.417234+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:59:27.417340+00:00"
+    }
+  }
+}

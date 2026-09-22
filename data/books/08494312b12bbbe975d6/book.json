@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마이더스 1",
+    "author": "시드니 셀던",
+    "genre": "스릴러/미스터리",
+    "tags": [
+      "시드니 셀던",
+      "마이더스",
+      "기업사냥꾼",
+      "음모"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시카고 태생으로 전 세계에 수많은 베스트셀러를 남긴 거장 시드니 셀던의 장편소설.",
+    "oneLineSummary": "백만장자의 유산과 기업의 경영권을 둘러싸고 벌어지는 음모와 서스펜스.",
+    "overallSummary": "거대 기업 뉴월드 그룹을 둘러싼 음모와 야망, 그리고 백만장자의 유산을 차지하려는 인간 군들의 각축전을 긴장감 있게 그린 작품.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 하버드 기숙사",
+        "summary": "주인공의 회상과 함께 하버드 대학 기숙사에서 벌어지는 사건을 통해 인물들의 숨겨진 면모가 드러난다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "genre",
+        "value": "기업 스릴러"
+      },
+      {
+        "key": "conflict",
+        "value": "개인의 야망과 기업의 지배권 다툼"
+      }
+    ],
+    "keyEntitiesText": "앤소니, 레베카, 로라 해리슨, 메드닉",
+    "settingText": "미국 하버드 대학, 바하마"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qhxzy0d7GWcgW747vAoAKwlERfkJbj2D",
+    "filename": "시드니 셀던-마이더스1 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.055Z",
+    "size": "473773",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/1qhxzy0d7GWcgW747vAoAKwlERfkJbj2D/view?usp=drivesdk",
+    "sourceSha256": "1ec239b61b2c08c46c14d7637a8d28cf3d373abed33ce340cf216bfc791addcc",
+    "textSha256": "c11e38be808e1445d069fd77e1a7a90245548545765468790b134b38f583c4af",
+    "changeKey": "8b124b7cf250c2ed2073d3f4cfa91bc3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "08494312b12bbbe975d6",
+    "workId": "08494312b12bbbe975d6",
+    "driveFileId": "1qhxzy0d7GWcgW747vAoAKwlERfkJbj2D",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:59:21.531836+00:00",
+    "updatedAt": "2026-09-22T00:59:21.531851+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:59:21.531957+00:00"
+    }
+  }
+}

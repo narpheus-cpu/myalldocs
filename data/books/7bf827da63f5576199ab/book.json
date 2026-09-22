@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "위험한 유혹",
+    "author": "시드니 셀던",
+    "genre": "스릴러/미스터리",
+    "tags": [
+      "시드니 셀던",
+      "런던",
+      "카지노",
+      "음모"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독자를 사로잡는 마성의 이야기꾼 시드니 셀던이 런던의 카지노를 배경으로 펼쳐내는 긴장감 넘치는 스릴러 소설.",
+    "oneLineSummary": "런던 출장 중 카지노에서 의문의 음모에 휘말린 부부의 이야기를 그린 서스펜스 소설.",
+    "overallSummary": "메인 그룹의 총수 리차드 메인과 그의 아내 저스틴이 사업 차 런던을 방문하고, 유명 카지노 클럽에서 남작과 닐 완슨 등 수상한 인물들을 만나면서 예기치 못한 위험과 함정에 빠져드는 과정을 그린 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "위험의 시작 및 사라진 남작",
+        "summary": "메인 부부가 런던에 도착해 켄싱턴 클럽에서 리차드가 회의를 하는 동안, 혼자 남은 저스틴이 카지노에서 룰렛 게임을 하다가 낯선 남자들과 엮이며 미묘한 사건에 휘말린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "settingAtmosphere",
+        "value": "안개 낀 런던과 화려한 도박장의 대비"
+      },
+      {
+        "key": "plotDevice",
+        "value": "우연한 도박과 음모의 시작"
+      }
+    ],
+    "keyEntitiesText": "리차드 메인, 저스틴 메인, 조지, 테스타브 남작, 닐 완슨",
+    "settingText": "영국 런던 켄싱턴 클럽 (카지노)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BymDXtENL_kCPDozZOGca0Iy6ov9CuKq",
+    "filename": "시드니 셀던-위험한 유혹.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.191Z",
+    "size": "311876",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/1BymDXtENL_kCPDozZOGca0Iy6ov9CuKq/view?usp=drivesdk",
+    "sourceSha256": "7bbd00c56ca28a5c305e70afc098f5aa04a7d706d715e291a2030b11bcf25867",
+    "textSha256": "886d63909fb84911e55c44e53d8d0f01a7882246f53bb29e192005651280a948",
+    "changeKey": "1651e86d2528d45ec5c9ba085327869c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7bf827da63f5576199ab",
+    "workId": "7bf827da63f5576199ab",
+    "driveFileId": "1BymDXtENL_kCPDozZOGca0Iy6ov9CuKq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:00:37.221185+00:00",
+    "updatedAt": "2026-09-22T01:00:37.221200+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:00:37.221306+00:00"
+    }
+  }
+}

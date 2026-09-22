@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "벌거벗은 얼굴",
+    "author": "시드니 셀던",
+    "genre": "추리/미스터리",
+    "tags": [
+      "시드니 셀던",
+      "데뷔작",
+      "정신분석의",
+      "추리소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세계적인 베스트셀러 작가 시드니 셀던의 등단작으로, 뉴욕 타임스 '올해의 최우수 추리소설'에 선정되었다.",
+    "oneLineSummary": "정신분석 의사가 살인 사건에 휘말리며 벌어지는 긴장감 넘치는 추리 소설.",
+    "overallSummary": "뉴욕의 유능한 정신분석 의사 주드 스티븐스가 환자의 죽음과 살인과의 형사들의 방문으로 인해 영문도 모른 채 위험한 사건과 음모에 휘말리게 되는 과정을 그린 시드니 셀던의 기념비적인 데뷔작.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 및 제2장",
+        "summary": "눈 내리는 맨해튼에서 한 남자가 살해당하고, 살인과 형사 맥그리비와 앤젤리가 주드 스티븐스 의사를 찾아오면서 긴장감이 고조된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "significance",
+        "value": "시드니 셀던의 첫 번째 소설이자 추리 문학 데뷔작"
+      },
+      {
+        "key": "genre",
+        "value": "심리 추리 서스펜스"
+      }
+    ],
+    "keyEntitiesText": "주드 스티븐스, 캐롤 로버츠, 앤드루 맥그리비, 앤젤리 형사, 치크",
+    "settingText": "미국 뉴욕 맨해튼"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "104bZFQiT4qSKCJxyhvMV9_Pr5rOxhXCv",
+    "filename": "시드니 셀던-벌거벗은 얼굴.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.115Z",
+    "size": "316514",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/104bZFQiT4qSKCJxyhvMV9_Pr5rOxhXCv/view?usp=drivesdk",
+    "sourceSha256": "0800a4154f35e888f2d97359dd57b7aa6df8a1902028ca1a1aa0f625d96fd412",
+    "textSha256": "969a9d6f2c240401e59492553563c29c3c69daf6b5384d1a4b8ae4094f08a9a2",
+    "changeKey": "c53ef4426990992dd32c03507f361acc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "181ff1925569f4e615d4",
+    "workId": "181ff1925569f4e615d4",
+    "driveFileId": "104bZFQiT4qSKCJxyhvMV9_Pr5rOxhXCv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:59:56.156790+00:00",
+    "updatedAt": "2026-09-22T00:59:56.156805+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:59:56.156912+00:00"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "낮과 밤",
+    "author": "시드니 셀던",
+    "genre": "스릴러/미스터리",
+    "tags": [
+      "시드니 셀던",
+      "유산",
+      "음모",
+      "서스펜스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시드니 셀던은 세계에서 가장 작품이 많이 번역된 작가 중 한 명으로 기네스북에 올랐으며, 오스카상, 에미상, 토니상, 에드거 앨런 포 상을 수상했다.",
+    "oneLineSummary": "막대한 유산을 둘러싼 비밀과 자식들의 각축전을 그린 시드니 셀던의 소설.",
+    "overallSummary": "세계적인 갑부 해리 스텐포드의 50억 달러 유산에 숨겨진 비밀과, 아버지가 파놓은 함정에 빠진 자식들이 벌이는 음모와 각축전을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "해리 스텐포드가 미행을 피해 프랑스의 작은 마을 세인트 폴 드 방스를 거쳐 요트를 타고 이동하는 과정을 긴장감 있게 그린다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "스텐포드가 전용기를 이용해 미행을 따돌리고 이탈리아 국경을 넘어 항구에서 요트에 승선하여 포르토피노로 향한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "genreStyle",
+        "value": "서스펜스 미스터리"
+      },
+      {
+        "key": "theme",
+        "value": "부와 권력을 향한 욕망과 음모"
+      }
+    ],
+    "keyEntitiesText": "해리 스텐포드, 드미트리 카민스키, 소피아 마테오, 바카로 선장",
+    "settingText": "프랑스 남부 세인트 폴 드 방스, 니스, 이탈리아 산 레모"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17ZjIqBUhZyDcU2Zfo7bAMeICK90dG8qA",
+    "filename": "시드니 셀던-낮과 밤 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.911Z",
+    "size": "503880",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/17ZjIqBUhZyDcU2Zfo7bAMeICK90dG8qA/view?usp=drivesdk",
+    "sourceSha256": "d19cdcab73731ba732e01ac4dc7a1f1c0ff358b6ce1aea4383a1ceadc8469795",
+    "textSha256": "0a4b91a78dc8561d665b780aca0ede2a7595cff0e035548caeea6a0857599641",
+    "changeKey": "b642b455d441b9f8fb47a84d373eac85",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b8fbf1796e90808490ab",
+    "workId": "b8fbf1796e90808490ab",
+    "driveFileId": "17ZjIqBUhZyDcU2Zfo7bAMeICK90dG8qA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:59:02.559519+00:00",
+    "updatedAt": "2026-09-22T00:59:02.559533+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:59:02.559666+00:00"
+    }
+  }
+}
