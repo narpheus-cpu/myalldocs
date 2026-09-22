@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "법철학 강요",
+    "author": "헤겔",
+    "genre": "철학",
+    "tags": [
+      "법철학",
+      "독일관념론",
+      "국가론",
+      "윤리"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "법철학",
+        "정치철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "게오르크 빌헬름 프리드리히 헤겔(Georg Wilhelm Friedrich Hegel, 1770-1831)은 독일 관념론을 집대성하고 변증법적 철학 체계를 세운 거장이다.",
+    "oneLineSummary": "이 책은 추상적 권리, 도덕, 그리고 윤리(가족·시민사회·국가)의 변증법적 발전 과정을 통해 자유의 현실화로서 법의 본질을 체계적으로 해명한다.",
+    "overallSummary": "헤겔이 베를린 대학 강의의 길잡이로 출간한 저작으로, 자유의 개념이 객관적 현실 속에서 실현되는 구조를 법철학적 차원에서 탐구한다. 책은 크게 세 부분으로 나누어져, 소유와 계약, 불법을 다루는 '추상적인 권리', 주관적 의도와 양심을 다루는 '도덕', 그리고 가족, 시민사회, 국가를 통하여 객관적 자유가 완성되는 '윤리'의 체계를 전개한다. 특히 국가를 단순한 계약의 소산이 아니라 이성의 현실태이자 자유의 최고 형태로 규정하여 큰 사상적 파장을 낳았다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서론 및 제1부: 추상적인 권리 내지 법",
+        "summary": "자유와 의지의 개념을 규정하고, 자기 것으로서의 소유, 계약, 그리고 불법과 강제의 문제를 다룬다."
+      },
+      {
+        "sectionTitle": "제2부: 도덕",
+        "summary": "주관적 의지와 책임, 의도와 복지, 그리고 선과 양심의 내면적 도덕성을 고찰한다."
+      },
+      {
+        "sectionTitle": "제3부: 윤리 (가족, 시민사회, 국가)",
+        "summary": "가족의 결합, 욕구의 체계와 사법·행정·직업단체를 품은 시민사회, 그리고 국내공법과 세계사를 아우르는 국가의 이성적 필연성을 체계화한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학적 방법",
+        "value": "사변적 인식과 변증법적 체계화에 기초한 자유의 실현 과정 해명"
+      },
+      {
+        "key": "국가관",
+        "value": "윤리적 실체이자 보편과 특수의 조화로서의 국가"
+      }
+    ],
+    "keyEntitiesText": "헤겔, 권응호, 야코비, 프리스, 칸트",
+    "settingText": "19세기 독일 베를린 대학 및 유럽 정치철학의 지평"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hjy18-W73h21kLhOuAuvJc6mTHJOlehq",
+    "filename": "헤겔-법철학 강요(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T10:19:26.000Z",
+    "size": "1259001",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1hjy18-W73h21kLhOuAuvJc6mTHJOlehq/view?usp=drivesdk",
+    "sourceSha256": "caf9e02993961d531ff7d500b72a51c2907d503dc7939db6e4dbab36533d9bc3",
+    "textSha256": "20b1a44e7a007eeec0d2af5f4ce40d579dfb236b9c8b54b8cb3c84316a8a69eb",
+    "changeKey": "631f80768a84c55814125dffbef80015",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5fe09d375f9d4d661a94",
+    "workId": "5fe09d375f9d4d661a94",
+    "driveFileId": "1hjy18-W73h21kLhOuAuvJc6mTHJOlehq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:31:42.333935+00:00",
+    "updatedAt": "2026-09-22T23:31:42.333945+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:31:42.334016+00:00"
+    }
+  }
+}
