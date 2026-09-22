@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "놀라운 발견들",
+    "author": "프랭크 애셜",
+    "genre": "과학사/과학교양",
+    "tags": [
+      "마이클패러데이",
+      "전기",
+      "자기",
+      "과학사의견인차"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "과학사",
+        "물리학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랭크 애셜은 과학사의 중요한 발견들과 과학자들의 업적을 알기 쉽게 풀어내는 저술가이다.",
+    "oneLineSummary": "마이클 패러데이의 전기와 자기에 관한 순수과학적 실험은 현대 전기 산업과 기술 문명의 기초를 놓았다.",
+    "overallSummary": "정전기 연구의 역사부터 알렉산드로 볼타의 전지 발명, 그리고 마이클 패러데이가 이뤄낸 전자기 유도와 전동기·변압기 발견의 과정을 생생하게 조명합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 전기의 아버지",
+        "summary": "마이클 패러데이의 생애와 전기·자기 연구의 역사적 배경 및 위대한 발견들을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "과학적의의",
+        "value": "순수과학의 발견이 가져온 현대 전자기술 혁명"
+      }
+    ],
+    "keyEntitiesText": "마이클 패러데이, 험프리 데이비, 윌리엄 길버트, 맥스웰",
+    "settingText": "18~19세기 유럽의 과학 실험실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1I81d_sIJSQ34P1MpVq13Epguhkih-lbI",
+    "filename": "프랭크 애셜-놀라운 발견들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:31.271Z",
+    "size": "352234",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1I81d_sIJSQ34P1MpVq13Epguhkih-lbI/view?usp=drivesdk",
+    "sourceSha256": "b1a757812805f702ee337c6d37f71aa0601c6cb080b6573ab8d1b353e1e349da",
+    "textSha256": "561feda7fd9d557846bbfda68995682d44af5f13bf89ac54bb766088576eb957",
+    "changeKey": "e1147c198f697251780cdc854c8fe17f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "67a7ffa4da6d11fdff7a",
+    "workId": "67a7ffa4da6d11fdff7a",
+    "driveFileId": "1I81d_sIJSQ34P1MpVq13Epguhkih-lbI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:22:05.687221+00:00",
+    "updatedAt": "2026-09-22T23:22:05.687239+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:22:05.687329+00:00"
+    }
+  }
+}

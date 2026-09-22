@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서양철학사",
+    "author": "프랭크 틸리",
+    "genre": "철학사",
+    "tags": [
+      "서양철학",
+      "고대철학",
+      "철학사",
+      "사상사"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "철학사",
+        "인문교양"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랭크 틸리는 미국의 철학자로 프린스턴 대학교에서 철학을 가르쳤다.",
+    "oneLineSummary": "서양철학사는 인간의 사유가 신화적 단계에서 고도의 체계적 철학으로 발전해 온 기록이다.",
+    "overallSummary": "고대 그리스부터 근현대에 이르기까지 서양 사상의 발전 과정을 철학자들의 인격, 기질, 문화적 상황과 결합하여 객관적이고 체계적으로 조명합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서론",
+        "summary": "철학사의 성격, 철학과 기질, 문화적 상황의 관계 및 비판적 연구 방법을 논의한다."
+      },
+      {
+        "sectionTitle": "제1장 자연 철학",
+        "summary": "그리스 철학의 역사적 기원과 정치·문화적 배경, 그리고 초기 그리스 자연철학자들을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "접근방법",
+        "value": "비판적 역사적 방법과 기질론적 해석"
+      }
+    ],
+    "keyEntitiesText": "프랭크 틸리, 탈레스, 호메로스, 헤시오도스",
+    "settingText": "고대 그리스 및 서양 철학사 전반"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ITyhRq89CoeNBCNcDmrc41K-4PfPNPqd",
+    "filename": "틸리 서양 철학사-소크라테스와 플라톤부터 니체와 러셀까지(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:31.159Z",
+    "size": "2014645",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1ITyhRq89CoeNBCNcDmrc41K-4PfPNPqd/view?usp=drivesdk",
+    "sourceSha256": "5162fa9278ebc1e3fd018c9e025c8d2729d35241831a041147134db6adbbf4b5",
+    "textSha256": "ac864b60fe1177480182e696e35ea982c932f925b8c3c1b6486c7c9221ae935f",
+    "changeKey": "6bcfe6df5f414164e2a3479d45a8b160",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "918bbc3d0f15c6922358",
+    "workId": "918bbc3d0f15c6922358",
+    "driveFileId": "1ITyhRq89CoeNBCNcDmrc41K-4PfPNPqd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:20:41.052046+00:00",
+    "updatedAt": "2026-09-22T23:20:41.052065+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8316,
+      "updatedAt": "2026-09-22T23:20:41.052162+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "디오게네스의 햇빛",
+    "author": "프랑수아즈 케리젤",
+    "genre": "철학/청소년교양",
+    "tags": [
+      "고대그리스철학",
+      "디오게네스",
+      "소크라테스",
+      "철학자에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "서양철학사",
+        "인문교양"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑수아즈 케리젤은 프랑스의 철학 연구자이자 에세이스트로 청소년과 대중을 위한 철학 도서를 집필했다.",
+    "oneLineSummary": "고대 그리스 철학자들의 삶과 일화를 통해 우주의 기원과 인간 삶의 가치를 되새긴다.",
+    "overallSummary": "헤시오도스부터 후파티아에 이르기까지 고대 그리스·로마의 위대한 철학자들의 생애와 사상의 핵심을 대화체와 흥미로운 일화로 풀어내어 서양 철학의 뿌리를 쉽게 안내합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "땅과 더불어 우주의 조화 속으로 녹아들다-헤시오도스",
+        "summary": "시인 헤시오도스의 신화적 우주관과 제우스의 법칙, 노동의 의미를 살펴본다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술방식",
+        "value": "대화체와 일화를 통한 친근한 철학 입문"
+      }
+    ],
+    "keyEntitiesText": "디오게네스, 알렉산더 대왕, 헤시오도스, 소크라테스, 플라톤",
+    "settingText": "고대 그리스 및 알렉산드리아"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19aaXoDYP9Y44cBm0BrXXxcUfKLR2zYIC",
+    "filename": "프랑수아즈 케리젤-디오게네스의 햇빛 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:31.254Z",
+    "size": "153092",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/19aaXoDYP9Y44cBm0BrXXxcUfKLR2zYIC/view?usp=drivesdk",
+    "sourceSha256": "c06d8141ef1f23c2f2b071c10df9381a6e501f6b628976b4fc8fd5e1e5d2dae9",
+    "textSha256": "dedbb8ebb8130d373d75536c78f92fcd286d7aea260f1a624c44671bf12b1b40",
+    "changeKey": "72c5c10ea01968fdcb46a26274777276",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b0192cfa3de59044637f",
+    "workId": "b0192cfa3de59044637f",
+    "driveFileId": "19aaXoDYP9Y44cBm0BrXXxcUfKLR2zYIC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:21:53.022904+00:00",
+    "updatedAt": "2026-09-22T23:21:53.022922+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:21:53.023013+00:00"
+    }
+  }
+}

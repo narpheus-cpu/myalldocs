@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "팡세",
+    "author": "블레즈 파스칼",
+    "genre": "철학/종교에세이",
+    "tags": [
+      "기하학적정신",
+      "섬세한정신",
+      "인간의참상",
+      "신앙"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "기독교철학",
+        "에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "블레즈 파스칼은 17세기 프랑스의 천재 수학자이자 물리학자이며 철학자이다.",
+    "oneLineSummary": "인간은 위대하면서도 비참한 존재이며, 이성과 논리만으로는 인생의 궁극적 진리를 찾을 수 없다.",
+    "overallSummary": "인간의 정신적 특성을 기하학적 정신과 섬세한 정신으로 나누고, 신 없는 인간의 참상과 비참함을 고찰하며 기독교 신앙의 필요성을 역설합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 정신과 문체에 관한 사상",
+        "summary": "기하학적 정신과 섬세한 정신의 차이 및 웅변과 문체의 원리에 대해 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사상적특징",
+        "value": "이성의 한계와 신앙의 결단(파스칼의 내기)"
+      }
+    ],
+    "keyEntitiesText": "블레즈 파스칼, 에피쿠로스, 몽테뉴",
+    "settingText": "17세기 프랑스 종교 및 철학계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FdJIM0QQ0ich748S3wza49ivnnF9mV8_",
+    "filename": "블레즈 파스칼-팡세(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:34:52.000Z",
+    "size": "935938",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1FdJIM0QQ0ich748S3wza49ivnnF9mV8_/view?usp=drivesdk",
+    "sourceSha256": "76f336da750590da35f45e1f4f9e023681b8068f6c7efd0910272fa13eabdaa8",
+    "textSha256": "2e2a0648cd0a88e2c00e52c5e0aa53e9da523ce6ceeda3ba7df2f94747dec3b6",
+    "changeKey": "b7309884c4c1a240d0aab6f4c0fc14f8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e0497327f87b2562d2d6",
+    "workId": "e0497327f87b2562d2d6",
+    "driveFileId": "1FdJIM0QQ0ich748S3wza49ivnnF9mV8_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:20:57.149852+00:00",
+    "updatedAt": "2026-09-22T23:20:57.149870+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:20:57.149962+00:00"
+    }
+  }
+}
