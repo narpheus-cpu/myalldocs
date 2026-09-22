@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "문과 남자의 과학 공부",
+    "author": "유시민",
+    "genre": "에세이",
+    "tags": [
+      "과학 공부",
+      "인문학",
+      "뇌과학",
+      "생물학",
+      "물리학"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "science_technical",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "대학에서 경제학을 공부하고 국회와 정부에서 일했으며, 현재는 책을 읽고 여행하며 글을 쓰는 인문학자.",
+    "oneLineSummary": "인문학자인 저자가 과학 교양서들을 읽으며 깨달은 지적 자극과 정서적 감동을 인문학적 시각과 결합해 풀어낸 에세이.",
+    "overallSummary": "평생 문과생으로 살아온 저자가 뇌과학, 생물학, 화학, 물리학, 수학 등 다양한 과학 분야의 교양서를 읽으며 겪은 인식의 변화를 다룬다. 과학적 사실을 바탕으로 인간, 사회, 역사에 대한 기존의 인문학적 관점을 교정하고 보완하는 과정을 흥미롭게 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "과학 공부를 시작하게 된 계기와 과학 공부가 가져다준 즐거움, 그리고 책의 성격을 소개한다."
+      },
+      {
+        "sectionTitle": "거만한 바보",
+        "summary": "리처드 파인만의 일화를 통해 물질세계와 과학에 무지하면서도 인간과 사회를 다 안다고 자만했던 인문학자들의 태도를 반성한다."
+      },
+      {
+        "sectionTitle": "운명적 문과의 슬픔",
+        "summary": "수학 공포증으로 인해 문과를 선택할 수밖에 없었던 경험과 과학과 인문학의 비대칭적 관계를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "융합적 시도",
+        "value": "인문학적 질문(나는 누구인가, 왜 존재하는가 등)에 대해 과학적 이론(뇌과학, 진화생물학 등)을 통해 답을 찾아가는 학제적 접근을 시도함."
+      }
+    ],
+    "keyEntitiesText": "유시민, 리처드 파인만, 한경혜, 최재천, 김상욱, 정재승",
+    "settingText": "현대 한국 사회와 과학 기술의 발전 속에서 인문학이 마주한 위기적 상황."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SVFjsTkadPJv0F8jk-oYRDT_EKZpUS-g",
+    "filename": "유시민-문과 남자의 과학 공부 -- 유시민 -- 2023 -- 돌베개(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:29.296Z",
+    "size": "454177",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1SVFjsTkadPJv0F8jk-oYRDT_EKZpUS-g/view?usp=drivesdk",
+    "sourceSha256": "aee5297fb4ed561f1a90d5bf707bdc752f249a354c3b1b4110d3474168b2c9b1",
+    "textSha256": "a98ba69b125f14cd8af19fa3b173e0560f01da9873e4d096fe1210242bce4424",
+    "changeKey": "12f9ff9bb0705ac6e75e14a4c395502e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4a71a27fa945b4c2ab85",
+    "workId": "4a71a27fa945b4c2ab85",
+    "driveFileId": "1SVFjsTkadPJv0F8jk-oYRDT_EKZpUS-g",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:00:28.168932+00:00",
+    "updatedAt": "2026-09-22T22:00:28.168947+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:00:28.169045+00:00"
+    }
+  }
+}

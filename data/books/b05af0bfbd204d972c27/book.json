@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나의 한국 현대사",
+    "author": "유시민",
+    "genre": "역사",
+    "tags": [
+      "한국현대사",
+      "현대사",
+      "개인사",
+      "세대 갈등"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1959년 경북 경주 출생. 서울대 경제학과 졸업. 정치가, 보건복지부 장관을 거쳐 저술가로 활동 중.",
+    "oneLineSummary": "저자가 태어난 1959년부터 2014년까지의 한국 현대사를 개인의 경험과 사회적 변화를 엮어 서술한 당대사.",
+    "overallSummary": "1959년부터 2014년까지 55년간의 대한민국 현대사를 객관적 서술에만 머물지 않고, 저자 개인의 성장 과정과 역사적 사건들을 연결하여 서술한다. 산업화와 민주화의 명암을 정직하게 대면하며, 세대 간의 갈등과 역사 전쟁의 본질을 분석하고 미래를 전망한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "현대사 서술의 주관성과 위험성을 언급하며, 대한민국 현대사 55년에 대한 제한적인 자부심과 책을 쓴 목적을 밝힌다."
+      },
+      {
+        "sectionTitle": "프티부르주아 리버럴의 역사체험",
+        "summary": "1959년 경주에서 태어난 저자의 유년 시절과 성장 배경을 소개하며, 자신의 출신 성분과 성향이 역사 서술에 미친 영향을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 방식",
+        "value": "개인의 미시적 경험과 국가의 거시적 역사를 결합하여 서술하는 자전적 역사 에세이 형식."
+      }
+    ],
+    "keyEntitiesText": "유시민, 박근혜, 문재인, 노무현, 박정희, 대한민국",
+    "settingText": "1959년부터 2014년까지의 격동의 대한민국 사회."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-HF0VlNGZpRoVMdGfDxqWe-96B0yOlzv",
+    "filename": "유시민-나의 한국 현대사(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T22:02:24.000Z",
+    "size": "774486",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1-HF0VlNGZpRoVMdGfDxqWe-96B0yOlzv/view?usp=drivesdk",
+    "sourceSha256": "c264a127b38159eef91e024f3de4ecb0908b05dc41cf0311e1932848104741c6",
+    "textSha256": "e3f38ceeb23ae6c0078d43fc55217cf64f1d6d948d9110c44fda15b0e399fe9b",
+    "changeKey": "40da7bdedc84398f43cdeaf4d2fe8279",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b05af0bfbd204d972c27",
+    "workId": "b05af0bfbd204d972c27",
+    "driveFileId": "1-HF0VlNGZpRoVMdGfDxqWe-96B0yOlzv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:00:21.112073+00:00",
+    "updatedAt": "2026-09-22T22:00:21.112088+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:00:21.112245+00:00"
+    }
+  }
+}
