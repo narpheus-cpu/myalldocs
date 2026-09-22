@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "난지사",
+    "author": "금시조",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "금시조",
+      "비응방",
+      "엽혼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "현대적_해석"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독창적인 시각과 깊이 있는 무협 세계관으로 정통 무협의 틀을 재구성하는 유명 무협 작가.",
+    "oneLineSummary": "병든 동생의 치료비를 마련하기 위해 천자급 고수를 암살하는 청부를 맡은 살수 엽혼의 이야기.",
+    "overallSummary": "비응방주 금사진은 잔인한 살인 능력으로 방파를 구대문파에 비견될 만큼 키워낸 인물이다. 한편, 병든 동생 엽평의 생명을 구할 황금 십만 냥을 벌기 위해 살수 엽혼은 위험천만한 천자급 고수 암살 청부를 받아들인다. 화선을 통해 선불로 백일소혼단을 복용한 엽혼은 닷새 안에 일을 해결하기 위해 동생의 친구를 찾으며 낙양으로 향한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "비응방주 금사진",
+        "summary": "잔인한 살인 재능으로 비응방을 사천의 거대 방파로 키워낸 금사진의 면모와 강호의 비정한 인과응보를 다룬다."
+      },
+      {
+        "sectionTitle": "살수 엽혼의 결심",
+        "summary": "불치병에 걸린 동생 엽평을 살리기 위해 황금 십만 냥이 필요한 엽혼은 목숨을 건 천자급 고수 암살 청부를 받아들이고 소혼단을 삼킨다."
+      },
+      {
+        "sectionTitle": "낙양의 진소백",
+        "summary": "살수업을 준비하며 엽혼은 동생을 돌봐줄 사람을 찾고, 한편 낙양에서는 해결사 진소백이 억울한 하인의 일을 해결하기 위해 움직인다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "80년대 정통 무협의 필체와 구성을 따르면서도 인간의 생존과 절박함을 현대적이고 입체적으로 재해석"
+      }
+    ],
+    "keyEntitiesText": "금사진, 엽혼, 엽평, 화선, 진소백, 안복",
+    "settingText": "사천 및 낙양"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1btF0MOQhTPnQfPdbga8kludwDgF2yQp6",
+    "filename": "난지사(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.540Z",
+    "size": "736676",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1btF0MOQhTPnQfPdbga8kludwDgF2yQp6/view?usp=drivesdk",
+    "sourceSha256": "2aa124ce7342b3a25571866dc16dc7d628ae6f023cda80860440d753eeaf462d",
+    "textSha256": "f6ff143099cb622f9c96540dd6586d77cbdcfb3dcb3e7496ce3a8647bed5e6bb",
+    "changeKey": "5cbf69eef2d9c2c6d756dc7cb284ad07",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "616c9276c39c09c2b37d",
+    "workId": "616c9276c39c09c2b37d",
+    "driveFileId": "1btF0MOQhTPnQfPdbga8kludwDgF2yQp6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:16:25.576987+00:00",
+    "updatedAt": "2026-09-22T15:16:25.577005+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:16:25.577100+00:00"
+    }
+  }
+}

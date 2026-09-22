@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅문3부2편",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "의천도룡기",
+      "빙화도",
+      "장취산"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 저명한 무협 소설가.",
+    "oneLineSummary": "장취산과 은소소가 사손과 함께 빙화도에 표류하여 고립된 채 살아가는 이야기.",
+    "overallSummary": "사손과의 격전 끝에 빙산에 고립된 장취산과 은소소는 사손의 눈을 멀게 한 후 바다를 표류하다가 북극의 무인도인 빙화도에 도착한다. 그곳에서 두 사람은 부부의 연을 맺고, 눈이 멀어 허약해진 사손과 함께 화산의 불씨를 이용해 원시적인 삶을 개척하며 살아가게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "빙산에서의 탈출과 표류",
+        "summary": "은소소의 기지로 사손의 눈이 멀게 되고, 장취산과 은소소는 사손을 피해 빙산과 얼음 조각을 타고 망망대해를 표류한다."
+      },
+      {
+        "sectionTitle": "빙화도 상륙과 정착",
+        "summary": "화산과 빙설이 공존하는 무인도인 빙화도에 도착한 두 사람은 곰을 사냥하고 화산의 열기로 불씨를 얻어 보금자리를 마련한다."
+      },
+      {
+        "sectionTitle": "사손과의 재회",
+        "summary": "섬에 표류해 온 장님 사손을 발견하고 장취산이 먹을 것을 제공하며 세 사람이 기이한 동거를 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "배경 설정",
+        "value": "문명의 이기가 없는 극지방 무인도에서 펼쳐지는 생존과 원수 간의 기묘한 화해와 결합"
+      }
+    ],
+    "keyEntitiesText": "장취산, 은소소, 금모사왕 사손",
+    "settingText": "북극의 무인도 빙화도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jb4Tp1M4gVHF8ic0L8olind9YQQ54i7U",
+    "filename": "김용-영웅문3부2편.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:02.962Z",
+    "size": "550548",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1jb4Tp1M4gVHF8ic0L8olind9YQQ54i7U/view?usp=drivesdk",
+    "sourceSha256": "fd56bff414f247f87c264d146e8f12d2392f61cb595b939d0e206babfc5aaae1",
+    "textSha256": "7579979c1ece3574ff5218280c56d7812d124be01c362c623dde1e41e1d5b9ab",
+    "changeKey": "a717431991fa3f2e4e0df024ea066b7e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "91d2a89460507804832c",
+    "workId": "91d2a89460507804832c",
+    "driveFileId": "1jb4Tp1M4gVHF8ic0L8olind9YQQ54i7U",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:14:27.707279+00:00",
+    "updatedAt": "2026-09-22T15:14:27.707296+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:14:27.707392+00:00"
+    }
+  }
+}

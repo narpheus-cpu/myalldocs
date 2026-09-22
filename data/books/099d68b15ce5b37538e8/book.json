@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅문3부3편",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "의천도룡기",
+      "호접곡",
+      "장무기"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 무협 소설가.",
+    "oneLineSummary": "호접곡에서 의선 호청우 부부의 독특한 삶과 장무기의 치료 과정을 다룬 이야기.",
+    "overallSummary": "호접곡에 머물며 환자들을 치료하는 의선 호청우는 독선인 아내 왕난고와의 기이한 부부 갈등과 철학을 가지고 있다. 장무기는 그곳에서 호청우로부터 의서를 받아 독학하며 자신의 음독을 치료할 방법을 찾으려 한다. 한편 금화파파가 호청우를 찾아오면서 긴장감이 고조된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "호청우와 왕난고의 비화",
+        "summary": "의선 호청우가 독선 왕난고와의 자존심 싸움과 독술, 의술에 얽힌 기이한 결혼 생활과 철학을 장무기에게 털어놓는다."
+      },
+      {
+        "sectionTitle": "부부의 자살 소동과 금화파파의 등장",
+        "summary": "왕난고가 스스로 극독을 복용하자 호청우도 따라 독을 먹고 쓰러지고, 장무기와 왕난고의 응급처치로 살아난 부부는 호접곡을 떠난다."
+      },
+      {
+        "sectionTitle": "금화파파의 방문",
+        "summary": "호청우 부부가 떠난 후 호접곡에 금화파파가 찾아와 장무기의 상태를 살피며 새로운 국면이 전개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 설정",
+        "value": "의술과 독술의 경합을 벌이는 괴짜 의사와 그의 아내를 통해 무협 속 의학 세계를 심도 있게 묘사"
+      }
+    ],
+    "keyEntitiesText": "장무기, 호청우, 왕난고, 기효부, 금화파파",
+    "settingText": "호접곡"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Q-tSw08rAnP6lX5BRlPt3mXCI_BAMfA1",
+    "filename": "김용-영웅문3부3편.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:02.982Z",
+    "size": "538841",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1Q-tSw08rAnP6lX5BRlPt3mXCI_BAMfA1/view?usp=drivesdk",
+    "sourceSha256": "5a2724c68c6821cd2cf3eeaef8f37f24f9425219d81bfe5e7c1afd1559b24f41",
+    "textSha256": "cfac8224c636f4687c70c46a68e9ad9181e4b7c91cd2f862beb324f2afabbf9d",
+    "changeKey": "d5df7d52975b2b53155e3bc87272dc22",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "099d68b15ce5b37538e8",
+    "workId": "099d68b15ce5b37538e8",
+    "driveFileId": "1Q-tSw08rAnP6lX5BRlPt3mXCI_BAMfA1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:14:35.948677+00:00",
+    "updatedAt": "2026-09-22T15:14:35.948695+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:14:35.948792+00:00"
+    }
+  }
+}

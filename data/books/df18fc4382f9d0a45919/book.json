@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천룡팔부",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "천룡팔부",
+      "단예",
+      "무량검파"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 역사와 불교적 사상을 결합한 거장 무협 작가.",
+    "oneLineSummary": "무량산의 검술 시합에 우연히 참석한 단예가 독사를 다루는 신비로운 소녀를 만나며 겪는 모험.",
+    "overallSummary": "운남 무량산에서 동종과 서종의 무량검파가 비무를 벌이는 연무청에 대리국의 세자이지만 무공을 전혀 모르는 단예가 구경꾼으로 참석한다. 검술 시합을 비웃었다가 시비가 붙은 단예는 위기에 처하지만, 독사와 담비를 부리는 신비로운 소녀의 난입으로 목숨을 건진다. 이후 소녀의 담비와 함께 기이한 사건들에 휘말리게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "무량검파의 비무",
+        "summary": "무량산 검호궁에서 무량검파 동서 양 종파가 5년마다 벌이는 검술 시합이 한창 진행된다."
+      },
+      {
+        "sectionTitle": "단예의 난입과 비웃음",
+        "summary": "구경하던 단예가 무사의 어설픈 동작을 보고 웃음을 터뜨렸다가 무량파 문인들과 시비가 붙고 무공을 모른다는 이유로 멸시를 당한다."
+      },
+      {
+        "sectionTitle": "독사를 다루는 소녀의 등장",
+        "summary": "위기에 처한 단예 앞에 독사와 영리한 담비를 거느린 신비로운 소녀가 나타나 무량파 무사들을 혼내준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "불교적 세계관과 불교 용어(사무량 등)가 초반부터 인물의 대사를 통해 깊이 있게 반영됨"
+      }
+    ],
+    "keyEntitiesText": "단예, 좌자목, 광걸, 마오덕, 쌍청",
+    "settingText": "운남 무량산 검호궁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RfCt7Rs6bKmTiF_QDz4MPscBXiVQ5WQS",
+    "filename": "김용-천룡팔부(天龍八部).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.181Z",
+    "size": "6035351",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1RfCt7Rs6bKmTiF_QDz4MPscBXiVQ5WQS/view?usp=drivesdk",
+    "sourceSha256": "db13c65b789ce72a11dc7a7cdd996bd815911697fc937f3f41c16795e4eb315e",
+    "textSha256": "64e3ca9487de6449f6d856d16bb2d829e8c883ba6028fe0ee346e976166e38d3",
+    "changeKey": "584bb5f828e54cd78f4743a0e6d4cc40",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "df18fc4382f9d0a45919",
+    "workId": "df18fc4382f9d0a45919",
+    "driveFileId": "1RfCt7Rs6bKmTiF_QDz4MPscBXiVQ5WQS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:15:38.149751+00:00",
+    "updatedAt": "2026-09-22T15:15:38.149768+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:15:38.149869+00:00"
+    }
+  }
+}

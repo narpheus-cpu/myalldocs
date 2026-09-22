@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "화산논검5 (중신통왕중양편)",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "사조영웅전",
+      "왕중양",
+      "화산논검"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 무협 거장으로 천하오절의 수장 왕중양의 이야기를 다룸.",
+    "oneLineSummary": "남송 말기 임안에서 미녀들이 집단으로 실종되는 기이한 사건을 조사하는 왕중양의 이야기.",
+    "overallSummary": "남송의 수도 임안은 혼란스럽고 향락에 빠져 있는 가운데, 청루인 회모루에서 십여 명의 미녀들이 순식간에 사라지는 기괴한 사건이 발생한다. 영준한무사 행색의 왕 공자(왕중양)가 이 사건의 실마리를 풀기 위해 회모루를 직접 찾아가 기생어미와 기생들을 상대하며 수사를 벌인다. 뒤이어 또 다른 무사 임 공자도 나타나 사건에 개입한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "임안의 풍경과 회모루의 실종 사건",
+        "summary": "향락에 젖은 남송의 수도 임안에서 회모루에 들어간 십여 명의 기생 미녀들이 감쪽같이 사라지는 사건이 소문으로 퍼진다."
+      },
+      {
+        "sectionTitle": "회모루를 찾은 왕중양",
+        "summary": "왕 공자(왕중양)가 사건의 진실을 파헤치기 위해 직접 회모루에 잠입해 기생어미를 만나고 방안을 수색한다."
+      },
+      {
+        "sectionTitle": "임 공자의 등장과 수사",
+        "summary": "비슷한 목적을 가진 또 다른 젊은 무사 임 공자가 나타나 함께 기생들을 심문하며 단서를 찾아 나선다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 조명",
+        "value": "천하오절 중 최고수로 꼽히는 중신통 왕중양의 젊은 시절 탐정물 형태의 모험을 그림"
+      }
+    ],
+    "keyEntitiesText": "왕 공자(왕중양), 기생어미, 임 공자",
+    "settingText": "남송 임안 회모루"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1t7hLWfYnvtfHtzChq-I21H3azsNOIh0Q",
+    "filename": "김용-화산논검5 (중신통왕중양편).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.504Z",
+    "size": "1472544",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1t7hLWfYnvtfHtzChq-I21H3azsNOIh0Q/view?usp=drivesdk",
+    "sourceSha256": "ba79306a36488cd394deb02307d3a9a933e2fdfa006f80959d2ec2a0fcdad609",
+    "textSha256": "1aef638fe64fea54f8c21dcff96f971fe135c1cdf4a095408c7d6a17103fa651",
+    "changeKey": "fcd93c06f5ed18d3fdf1afa4ef54d2aa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6d3d2d51fc5e29e3c8d4",
+    "workId": "6d3d2d51fc5e29e3c8d4",
+    "driveFileId": "1t7hLWfYnvtfHtzChq-I21H3azsNOIh0Q",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:16:18.012352+00:00",
+    "updatedAt": "2026-09-22T15:16:18.012370+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:16:18.012508+00:00"
+    }
+  }
+}

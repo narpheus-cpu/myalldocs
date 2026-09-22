@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "의천도룡기 제1권",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "의천도룡기",
+      "영웅문",
+      "곽양"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 무협 소설가로 명보의 사장 겸 주필을 역임했다.",
+    "oneLineSummary": "곽양이 양과의 소식을 찾아 소림사를 방문하고 각원대사, 장군보와 얽히는 의천도룡기의 서막.",
+    "overallSummary": "남송 말년, 대협 곽정과 황용의 딸 곽양은 양과 부부를 그리워하며 소림사를 찾는다. 소림사에서 쇠사슬에 묶인 채 물을 긷는 각원대사를 만나고, 소림사 승려들의 무례함에 맞서 사슬을 끊어준다. 각원의 제자인 소년 장군보와 함께 소림사 고수들의 추격을 받으며 사건이 전개된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소림사를 찾은 곽양",
+        "summary": "곽양은 양과의 행적을 수소문하기 위해 소림사로 향하고, 쇠사슬에 묶인 각원의 기이한 수행을 목격한다."
+      },
+      {
+        "sectionTitle": "소림사 승려들과의 충돌",
+        "summary": "각원을 학대하는 것으로 오해한 곽양은 승려들과 시비가 붙고, 단검의 위력으로 승려들을 제압한 뒤 각원의 사슬을 끊어준다."
+      },
+      {
+        "sectionTitle": "장군보와의 만남",
+        "summary": "각원의 제자인 장군보를 만나 함께 탈출을 시도하지만 소림사의 수많은 승려들이 몰려와 위기에 봉착한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 의의",
+        "value": "영웅문 3부작의 마지막 작품인 의천도룡기의 시작으로 전작의 인물과 후대 문파의 기원을 연결"
+      }
+    ],
+    "keyEntitiesText": "곽양, 각원대사, 장군보, 무색선사, 천명선사",
+    "settingText": "하남 소실산 소림사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BhZ8CvHL8pCDOrwLaZDn4xZQnLM2t4mT",
+    "filename": "김용-의천도룡기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.102Z",
+    "size": "2932806",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1BhZ8CvHL8pCDOrwLaZDn4xZQnLM2t4mT/view?usp=drivesdk",
+    "sourceSha256": "325bf49b98685758388dc503b235b7d07cdbfd49854f61f9948c984acd98d50a",
+    "textSha256": "b7402c9c40bf35827b7fc0a3b98fed3ac3180bcaf6aad003919b9d5f99d5f7ed",
+    "changeKey": "dfd4f14217ec9b1d7c9198d31e4d39bc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3d8f4b8d3d6ee9e269db",
+    "workId": "3d8f4b8d3d6ee9e269db",
+    "driveFileId": "1BhZ8CvHL8pCDOrwLaZDn4xZQnLM2t4mT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:15:26.788725+00:00",
+    "updatedAt": "2026-09-22T15:15:26.788742+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7267,
+      "updatedAt": "2026-09-22T15:15:26.788841+00:00"
+    }
+  }
+}

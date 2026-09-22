@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅문3부5편",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "의천도룡기",
+      "장삼봉",
+      "무당산"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 무협 소설가.",
+    "oneLineSummary": "조민 일당이 명교로 위장하여 무당산을 습격하고 장삼봉과 대립하는 이야기.",
+    "overallSummary": "조민은 명교의 교주로 위장하여 무당산의 장삼봉을 찾아가 몽고 조정에 투항할 것을 강요한다. 장삼봉이 이를 단호히 거절하고 제자들의 위기를 걱정하며 피를 토할 때, 위일소, 설불득, 은천정, 양소 등 명교의 고수들이 차례로 나타나 조민 일당의 정체를 폭로하고 무당파를 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "무당산의 위기와 조민의 등장",
+        "summary": "남장한 조민이 명교 교주 행세를 하며 무당파를 찾아와 장삼봉에게 몽고에 굴복할 것을 요구한다."
+      },
+      {
+        "sectionTitle": "장삼봉의 거절과 피투",
+        "summary": "장삼봉은 대의를 내세우며 조민의 요구를 거절하고 제자들의 피습 소식에 충격을 받아 피를 토한다."
+      },
+      {
+        "sectionTitle": "명교 고수들의 난입",
+        "summary": "위일소, 설불득, 은천정, 양소가 차례로 나타나 조민 일당이 명교를 사칭했음을 밝히고 무당파와 힘을 합친다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 반전",
+        "value": "적대 관계였던 명교와 무당파가 몽고의 음모에 맞서 연합하는 결정적 계기"
+      }
+    ],
+    "keyEntitiesText": "장삼봉, 조민, 위일소, 설불득, 은천정, 양소, 유대암",
+    "settingText": "무당산 삼청전"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1r35stw7fJ2likAAUtRYIn3vQXXrGrY8R",
+    "filename": "김용-영웅문3부5편.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.016Z",
+    "size": "582400",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1r35stw7fJ2likAAUtRYIn3vQXXrGrY8R/view?usp=drivesdk",
+    "sourceSha256": "fa741c9562f9dc5b90868509ec94a30468bd0196f905177473dd5ac31fa860ca",
+    "textSha256": "0892ab3bf1cbeb3f44d118ce46f8aba7ea55cceddca60e622f5543c6363d985b",
+    "changeKey": "621ed1a125cfd9cd3c65a99ca420e049",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "98f27b0f3e4cb7b867a9",
+    "workId": "98f27b0f3e4cb7b867a9",
+    "driveFileId": "1r35stw7fJ2likAAUtRYIn3vQXXrGrY8R",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:14:52.624033+00:00",
+    "updatedAt": "2026-09-22T15:14:52.624049+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:14:52.624148+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "협객행",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "협객행",
+      "석파천"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 무협 소설 거장.",
+    "oneLineSummary": "이태백의 시 <협객행>을 모티브로 하여, 순박한 청년 석파천이 강호의 음모와 의협 속에서 성장하는 이야기.",
+    "overallSummary": "춘추전국시대 신릉군의 식객 고사를 노래한 이태백의 시 <협객행>을 배경으로 개봉(변량) 일대에서 벌어지는 사건들을 다룬다. 금도채의 산적들이 후감집을 습격해 오도통이라는 인물을 쫓고, 그 과정에서 어린 거지가 시체로 변한 줄 알았던 오도통이 살아 움직이는 괴이한 사건이 벌어지며 흥미진진한 무협의 세계로 독자를 이끈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "후감집의 긴장감",
+        "summary": "변량 동문 밖 후감집에 금도채의 산적들이 몰려와 마을을 포위하고 사람들을 공포에 떨게 한다."
+      },
+      {
+        "sectionTitle": "오도통과 산적들의 혈투",
+        "summary": "호떡 장수로 변장해 숨어 살던 오도통이 산적들과 맞서 싸우다 치명상을 입고 쓰러진다."
+      },
+      {
+        "sectionTitle": "기괴한 부활",
+        "summary": "죽은 줄 알았던 오도통의 시체가 밤중에 일어나 호떡을 찢고 어린 거지를 쫓는 기괴한 현상이 벌어진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 모티브",
+        "value": "이태백의 동명 시 <협객행>의 구절을 서두에 인용하여 협객의 기개와 낭만을 강조"
+      }
+    ],
+    "keyEntitiesText": "오도통, 주목, 안 채주, 어린 거지",
+    "settingText": "개봉(변량) 후감집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AbBsk6RGdWRA3EwATieOR1lPhT3V3J1j",
+    "filename": "김용-협객행.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.396Z",
+    "size": "1491416",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1AbBsk6RGdWRA3EwATieOR1lPhT3V3J1j/view?usp=drivesdk",
+    "sourceSha256": "40d4e4126b82156baa378e0996acd6866fa40379c985b74cf6b9dbae37364da1",
+    "textSha256": "86a7225dedd0a1d0c61440a3dbb2b255ab401e8f30132b9d99c6510cfef993b0",
+    "changeKey": "987617e15442e6be977cb1b2d6bcb973",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3d23a2467435bacffedd",
+    "workId": "3d23a2467435bacffedd",
+    "driveFileId": "1AbBsk6RGdWRA3EwATieOR1lPhT3V3J1j",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:15:56.732204+00:00",
+    "updatedAt": "2026-09-22T15:15:56.732221+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:15:56.732315+00:00"
+    }
+  }
+}

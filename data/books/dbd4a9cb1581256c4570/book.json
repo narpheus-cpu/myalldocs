@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "월녀검",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "단편",
+      "월녀검",
+      "춘추전국시대"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 역사적 배경을 다룬 무협 소설가.",
+    "oneLineSummary": "춘추전국시대 오나라와 월나라의 갈등 속에서 양을 치던 소녀 아청이 신기한 검술을 깨달아 활약하는 이야기.",
+    "overallSummary": "오나라와 월나라가 대립하는 춘추전국시대, 월왕 구천과 대부 범려는 오나라의 뛰어난 검술에 맞설 방법을 고심한다. 그러던 중 완사계 가에서 산양을 치던 소녀 아청이 대나무 막대기 하나로 오나라의 무사들을 단숨에 제압하는 놀라운 검술을 목격한다. 범려는 아청의 검술을 익히기 위해 접근하고, 아청은 산속의 흰 원숭이와 싸우며 스스로 터득한 신기한 검술의 비결을 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "오나라와 월나라의 비검",
+        "summary": "월나라 왕궁에서 오나라와 월나라 검사들이 대련을 펼치고, 오나라 무사들의 뛰어난 단체 검술과 예리한 보검에 월나라 군신들은 위기를 느낀다."
+      },
+      {
+        "sectionTitle": "소녀 아청의 등장",
+        "summary": "범려는 거리를 거닐다 오나라 무사 여덟 명을 대나무 막대기 하나로 가볍게 제압하는 산양 치는 소녀 아청을 발견하고 놀란다."
+      },
+      {
+        "sectionTitle": "아청의 검술과 백공공",
+        "summary": "아청은 사부가 따로 없으며 산속에서 흰 원숭이인 백공공과 대나무 막대기로 싸우며 스스로 검술을 깨달았다고 말한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사 판타지",
+        "value": "역사적 고사(오월동주, 서시 등)에 무협적 상상력과 신비로운 검술을 가미한 단편"
+      }
+    ],
+    "keyEntitiesText": "아청, 범려, 구천, 서시, 백공공, 설촉",
+    "settingText": "춘추전국시대 월나라 수도 및 산속"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_uBYj4bzNC9wOAHiqcGJaoTvO6ew0rwW",
+    "filename": "김용-월녀검.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.092Z",
+    "size": "25005",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1_uBYj4bzNC9wOAHiqcGJaoTvO6ew0rwW/view?usp=drivesdk",
+    "sourceSha256": "3e63281dd6eef6f21520aaf7a8128386eca508b47564b179aefb3e38438f3d05",
+    "textSha256": "c6402a02f5b504f81c8973ceedf632a4310455daa6ddf912f873dcc2533cee94",
+    "changeKey": "e85e6088da1243d3ad97b96f170ceaa8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dbd4a9cb1581256c4570",
+    "workId": "dbd4a9cb1581256c4570",
+    "driveFileId": "1_uBYj4bzNC9wOAHiqcGJaoTvO6ew0rwW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:15:18.049155+00:00",
+    "updatedAt": "2026-09-22T15:15:18.049172+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:15:18.049268+00:00"
+    }
+  }
+}

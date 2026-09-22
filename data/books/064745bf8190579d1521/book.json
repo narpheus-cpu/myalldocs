@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅문2부6편",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "영웅문",
+      "신조협려"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 세계적인 무협 소설가로, 홍콩 명보의 사장 겸 주필을 지냈으며 역사적 사실과 무공을 조화시킨 다수의 걸작을 집필하였다.",
+    "oneLineSummary": "신조협 양과가 서산 일굴귀와 사씨 형제들의 다툼을 중재하고 구미영호를 잡기 위한 단서를 찾는 이야기이다.",
+    "overallSummary": "신조협이라는 명성으로 천하를 주유하며 의로운 일을 행하는 양과는 서산 일굴귀와 사씨 형제들의 싸움 현장에 나타난다. 압도적인 무공과 내공으로 맹수들과 고수들을 굴복시킨 양과는 번일옹의 정체를 알아내고, 사씨 형제들이 세째의 내상을 치료하기 위해 구미영호를 찾고 있는 사연을 듣게 된다. 곽양의 도움과 제안으로 양과는 구미영호를 잡기 위해 직접 나서기로 결심한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "신조협의 등장과 무공 과시",
+        "summary": "양과는 신조와 함께 나타나 맹수들의 공격 속에 위험에 처한 서산 일굴귀와 사씨 형제들의 다툼을 강제로 중재하고 압도적인 내공과 무공을 보여준다."
+      },
+      {
+        "sectionTitle": "번일옹과의 해후와 사연",
+        "summary": "서산 일굴귀의 우두머리인 장수귀가 절정곡주 공손지의 제자인 번일옹임을 알게 되고, 사씨 형제들과 서산 일굴귀가 구미영호를 찾게 된 내막을 전해 듣는다."
+      },
+      {
+        "sectionTitle": "구미영호와 흑룡담",
+        "summary": "사씨 형제들이 세째의 내상을 치료하기 위해 구미영호의 피가 필요하며 흑룡담 늪지대에 있는 그 여우를 잡기 위해 겪은 어려움을 설명하자 양과가 직접 나서기로 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "무협적 요소",
+        "value": "신조협 양과의 강력한 내공과 현철중검을 다루던 과거의 묘사, 그리고 다양한 무문과의 갈등과 해결"
+      }
+    ],
+    "keyEntitiesText": "양과, 신조협, 곽양, 사백위, 사숙강, 사중맹, 사계강, 사맹첩, 번일옹, 금륜법왕",
+    "settingText": "남송 말기, 험준한 산세와 눈이 쌓인 숲속, 서산, 흑룡담 인근"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10lWrlUyA_vUQ0g6xlbeKp9z4uxUxhZaS",
+    "filename": "김용-영웅문2부6편.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:02.815Z",
+    "size": "722409",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/10lWrlUyA_vUQ0g6xlbeKp9z4uxUxhZaS/view?usp=drivesdk",
+    "sourceSha256": "7aeec3f5daed7fda46b4273a81b9d791551593659a13f39edafeb466ee94a119",
+    "textSha256": "82605f401aa2ad5ca69b9a12e79d667ad13b9b8a4bce7f24e4face383c17a082",
+    "changeKey": "28f120b2864aa7d61cddb875da61b945",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "064745bf8190579d1521",
+    "workId": "064745bf8190579d1521",
+    "driveFileId": "10lWrlUyA_vUQ0g6xlbeKp9z4uxUxhZaS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:14:07.899490+00:00",
+    "updatedAt": "2026-09-22T15:14:07.899507+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:14:07.899695+00:00"
+    }
+  }
+}

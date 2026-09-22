@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅문3부6편",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "의천도룡기",
+      "조민",
+      "주지약"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 무협 소설가.",
+    "oneLineSummary": "조민의 배신으로 무인도에 고립된 장무기가 주지약, 사손과 함께 겪는 고난과 주아의 죽음.",
+    "overallSummary": "바다를 항해하던 중 조민이 십향연근산의 독을 사용해 파사선을 타고 도망치고, 도룡도와 의천검을 훔쳐간다. 남은 장무기, 사손, 주지약, 주아는 무인도에 고립된다. 주아는 얼굴에 깊은 상처를 입고 결국 사망하고, 장무기는 사손의 권유와 주지약과의 맹세를 통해 새로운 서사를 준비한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "조민의 배신과 고립",
+        "summary": "조민이 십향연근산으로 일행을 무력화시킨 뒤 도룡도와 의천검을 들고 도망치고, 장무기 일행은 작은 섬에 고립된다."
+      },
+      {
+        "sectionTitle": "주아의 최후",
+        "summary": "얼굴에 끔찍한 검상을 입고 상세가 악화된 주아는 장무기의 품에서 마지막 인사를 남긴 채 숨을 거둔다."
+      },
+      {
+        "sectionTitle": "사손의 중재와 맹세",
+        "summary": "사손의 적극적인 중재로 장무기는 주지약과 혼인을 약속하며 조민에 대한 복수를 다짐한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 심화",
+        "value": "여인들 간의 삼각관계와 조민에 대한 배신감, 복수심이 얽히며 극의 긴장감이 고조됨"
+      }
+    ],
+    "keyEntitiesText": "장무기, 조민, 주지약, 주아, 사손",
+    "settingText": "남해의 무인도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Ukke-z_YsS0h5NzPqlOvp1w3Jt2JEzeh",
+    "filename": "김용-영웅문3부6편.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.039Z",
+    "size": "569206",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1Ukke-z_YsS0h5NzPqlOvp1w3Jt2JEzeh/view?usp=drivesdk",
+    "sourceSha256": "648a66ec32377fe81dd544f3c9f5a246078f4925a97fda3c01d68e3ba730edcb",
+    "textSha256": "720064e233931a80e61cb41481acf0e1a2acf49eff882422af24e9b976be96c0",
+    "changeKey": "9877f18c7a89bd0f4e67eafef1167b1f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1df3def1420fee46d062",
+    "workId": "1df3def1420fee46d062",
+    "driveFileId": "1Ukke-z_YsS0h5NzPqlOvp1w3Jt2JEzeh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:15:02.233657+00:00",
+    "updatedAt": "2026-09-22T15:15:02.233674+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:15:02.233775+00:00"
+    }
+  }
+}

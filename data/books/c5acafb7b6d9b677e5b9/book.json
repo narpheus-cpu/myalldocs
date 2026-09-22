@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "청향비(서검은구록)",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "청향비",
+      "서검은구록",
+      "건륭제"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 무협 소설가로 명보의 주필이자 사장이다.",
+    "oneLineSummary": "청나라 건륭제 시대, 한실 재건을 위한 영웅들의 활약과 위구르족 여인들의 사랑을 그린 이야기.",
+    "overallSummary": "청나라 건륭제 18년, 섬서성 부풍연수진 총병의 딸 이원지는 글방 선생인 육고지에게 배움을 청한다. 육고지의 정체는 사실 청정에 반대하던 비밀 결사 조직의 고수였으며 관군의 추적을 피해 숨어든 인물이다. 이 소설은 건륭제와 한인 혈통의 비밀, 위구르족과의 전쟁, 그리고 진가락을 비롯한 영웅들의 의와 사랑을 웅장하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이원지와 글방 선생 육고지",
+        "summary": "총병의 딸 이원지는 평범해 보이는 글방 선생 육고지가 몰래 금침으로 파리를 잡는 고공을 목격하고 무공을 가르쳐 달라고 조른다."
+      },
+      {
+        "sectionTitle": "육고지의 정체와 추적",
+        "summary": "육고지의 정체는 청정에 대항하던 도룡방의 고수 육비청이었으며, 관군의 추격을 피해 이가수 부중에 숨어 지내던 중 발각되어 위기를 맞는다."
+      },
+      {
+        "sectionTitle": "건륭제와 위구르족의 배경",
+        "summary": "건륭제의 출생의 비밀과 위구르족을 정복하려는 청나라의 전쟁, 그리고 향향 공주를 둘러싼 애증과 의로운 영웅들의 활약이 펼쳐진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 배경",
+        "value": "건륭제의 한인 후예설이라는 야사와 청나라 초중기 정치적 갈등을 무협 장르와 결합"
+      }
+    ],
+    "keyEntitiesText": "이원지, 육고지(육비청), 건륭제, 향향 공주, 진가락",
+    "settingText": "섬서성 부풍, 청나라 궁궐 및 위구르 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lIsMGnMDdz-pN5NPLYKaPAfMLKf5QaOU",
+    "filename": "김용-청향비(서검은구록).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.361Z",
+    "size": "1819097",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1lIsMGnMDdz-pN5NPLYKaPAfMLKf5QaOU/view?usp=drivesdk",
+    "sourceSha256": "6ef0f41ef21c42ae5f141869922bcb7eefb24b9b319d43452fb562c807a85154",
+    "textSha256": "68f21f4420cde0b63489d0024d7300018c49241023f1160114cab68b389588a5",
+    "changeKey": "a434229bc9c6d9d78e36baae738f9041",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c5acafb7b6d9b677e5b9",
+    "workId": "c5acafb7b6d9b677e5b9",
+    "driveFileId": "1lIsMGnMDdz-pN5NPLYKaPAfMLKf5QaOU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:15:47.693014+00:00",
+    "updatedAt": "2026-09-22T15:15:47.693031+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:15:47.693129+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅문3부1편",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "의천도룡기",
+      "영웅문"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 무협 소설 거장.",
+    "oneLineSummary": "곽양이 소림사를 찾아가 겪는 사건들과 의천도룡기의 서막을 여는 이야기.",
+    "overallSummary": "곽양이 소림사에서 각원대사를 만나고 승려들과 충돌한 뒤 장군보와 함께 위기를 맞이하는 과정을 다룬다. 전작들의 인물들과 연결되면서 새로운 시대의 영웅들이 등장하는 기반을 마련한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소림사의 곽양",
+        "summary": "양과의 소식을 찾아 소림사에 방문한 곽양이 각원대사의 기행을 목격한다."
+      },
+      {
+        "sectionTitle": "계율승과의 충돌",
+        "summary": "각원을 돕기 위해 승려들과 무력 충돌을 벌이고 곽양이 단검으로 사슬을 끊는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈 연계성",
+        "value": "사조영웅전, 신조협려에 이어 원나라 말기 의천도룡기로 이어지는 교량 역할"
+      }
+    ],
+    "keyEntitiesText": "곽양, 각원대사, 장군보, 무색선사",
+    "settingText": "하남 소실산 소림사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uhPBqkc6U1vUsXQjIygXsL19IGKzmE1T",
+    "filename": "김용-영웅문3부1편.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:02.941Z",
+    "size": "559891",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1uhPBqkc6U1vUsXQjIygXsL19IGKzmE1T/view?usp=drivesdk",
+    "sourceSha256": "45beb5b9ad0a77a6dd29683e0c769fe35b12c311e32fefb1932c511938e6ff4d",
+    "textSha256": "07a120e0637c4aec7e3031d4ac2c0fd46d0513096d6871619c2fd2c96761fb35",
+    "changeKey": "1127fd684c0b89834889c3aecc03de22",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "267ee3293ee4abfff887",
+    "workId": "267ee3293ee4abfff887",
+    "driveFileId": "1uhPBqkc6U1vUsXQjIygXsL19IGKzmE1T",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:14:17.981929+00:00",
+    "updatedAt": "2026-09-22T15:14:17.981947+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:14:17.982041+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅문3부7편",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "의천도룡기",
+      "소림사",
+      "도사대회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 저장성 하이닝 출신의 무협 소설가.",
+    "oneLineSummary": "소림사에서 열린 도사대회에서 은천정의 죽음과 개방의 새로운 서사가 펼쳐지는 이야기.",
+    "overallSummary": "소림사에서 사손을 처단하기 위한 도사대회가 개최된다. 은천정은 금강복마권을 상대하려다 내력이 고갈되어 숨을 거두고, 무림 영웅들이 모인 자리에서 공지신승은 도룡도가 없음을 밝힌다. 이어 개방의 새로운 방주로 어린 사홍석이 등장하고 전공장로가 암기에 의해 살해당하는 사건이 발생한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "은천정의 죽음",
+        "summary": "금강복마권을 파괴할 방법을 고민하던 중 은천정이 기력을 소모해 숨을 거두고, 장례가 치러진다."
+      },
+      {
+        "sectionTitle": "소림사 도사대회 개최",
+        "summary": "수천 명의 무림 인물이 모인 가운데 도사대회가 열리고, 공지신승은 소림사에 도룡도가 없다고 선언한다."
+      },
+      {
+        "sectionTitle": "개방의 등장과 전공장로의 죽음",
+        "summary": "어린 사홍석을 새로운 방주로 내세운 개방이 소림사에 의문을 제기하는 도중 전공장로가 의문의 독침에 맞아 사망한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "음모와 갈등",
+        "value": "소림사와 개방을 이간질하려는 배후 세력의 암약과 무림의 혼란상 묘사"
+      }
+    ],
+    "keyEntitiesText": "장무기, 양소, 은천정, 공지신승, 전공장로, 사홍석, 유연주",
+    "settingText": "소림사 광장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FL7DHK6uKfF9zxfJv-yJg5BoTrkH8Eti",
+    "filename": "김용-영웅문3부7편.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:03.062Z",
+    "size": "547394",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1FL7DHK6uKfF9zxfJv-yJg5BoTrkH8Eti/view?usp=drivesdk",
+    "sourceSha256": "cb341327b3be563ed10abfa6b6cf7347c61b2ebc7f4672d59655d29aaa564192",
+    "textSha256": "1eb903eb0e18b07c4f5ef2ceef62f056e85123c8c6bfac90356df9d42ad5c3da",
+    "changeKey": "3d10742b2421618adffa1764553ffe8d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "02182e33e86ee6f7a777",
+    "workId": "02182e33e86ee6f7a777",
+    "driveFileId": "1FL7DHK6uKfF9zxfJv-yJg5BoTrkH8Eti",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:15:10.486154+00:00",
+    "updatedAt": "2026-09-22T15:15:10.486171+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:15:10.486266+00:00"
+    }
+  }
+}
