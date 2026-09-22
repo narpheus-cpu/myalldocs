@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "미스터리 작가를 위한 법의학 Q&A",
+    "author": "D. P. 라일",
+    "genre": "법의학/실용서",
+    "tags": [
+      "법의학",
+      "추리소설",
+      "과학수사",
+      "창작참고자료"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "science_technical",
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "의사이자 미스터리 스릴러 작가들의 자문가로 활동하며, 창작을 위한 정확하고 실용적인 의학 및 법의학 지식을 제공합니다.",
+    "oneLineSummary": "미스터리 작가들이 소설 속 범죄와 의학적 묘사를 정확하게 쓸 수 있도록 돕는 법의학 질답 백과입니다.",
+    "overallSummary": "외상, 독극물, 부검, 범죄 현장 분석 등 작가들이 소설을 쓸 때 자주 부딪히는 의학적·법의학적 의문들에 대해 전문 의사인 저자가 명쾌하고 정확한 과학적 해답을 제공하여 작품의 개연성을 높여줍니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I. 의사, 병원, 응급구조, 손상",
+        "summary": "외상성 손상, 화상, 응급처치, 약물 및 질병 치료에 관한 작가들의 의문을 다룹니다."
+      },
+      {
+        "sectionTitle": "II. 살인과 상해의 방법들",
+        "summary": "총상, 칼에 의한 상처, 독극물, 의학적 살인 방법 등 범죄 수법에 대한 과학적 타당성을 검토합니다."
+      },
+      {
+        "sectionTitle": "III. 경찰과 범죄 현장, 부검",
+        "summary": "사망시각 추정, 부검 절차, DNA 채취, 시체 부패 과정 등 수사 및 법의학적 절차를 설명합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "책의 목적",
+        "value": "작가의 상상력과 현실 세계의 과학적 법칙을 연결하여 오직 스토리텔링의 설득력을 높이기 위한 실용적 지식을 제공합니다."
+      }
+    ],
+    "keyEntitiesText": "D. P. 라일, 강동혁, 강다솔",
+    "settingText": "법의학 연구소 및 병원 (이론적 배경)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pfhRu2AhHLzsKtOq1TA9CeotDIKXG6Qq",
+    "filename": "미스터리 작가를 위한 법의학 QnA(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.233Z",
+    "size": "643662",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1pfhRu2AhHLzsKtOq1TA9CeotDIKXG6Qq/view?usp=drivesdk",
+    "sourceSha256": "1488866a5034bf265e3b5865e9714984500f0ce3a66c60dedef52d66c8d3cc92",
+    "textSha256": "3a5863335908c448a4792ec27da845ca8bd0e154715a90b3fbae4d6c78b711d6",
+    "changeKey": "7cb498d0f07e6e4e8d7ca5f1f624198d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "657f2e74fbc182c08653",
+    "workId": "657f2e74fbc182c08653",
+    "driveFileId": "1pfhRu2AhHLzsKtOq1TA9CeotDIKXG6Qq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:48:06.621048+00:00",
+    "updatedAt": "2026-09-22T04:48:06.621100+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7175,
+      "updatedAt": "2026-09-22T04:48:06.621187+00:00"
+    }
+  }
+}

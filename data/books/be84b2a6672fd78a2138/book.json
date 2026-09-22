@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사라진 여자들",
+    "author": "메리 쿠비카",
+    "genre": "심리 스릴러",
+    "tags": [
+      "실종",
+      "비밀",
+      "교외",
+      "서스펜스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery",
+        "suspense"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 베스트셀러 작가로, 교외의 평화로운 일상 이면에 숨겨진 어두운 비밀을 다룬 스릴러로 명성이 높습니다.",
+    "oneLineSummary": "평화로운 교외 마을에서 벌어진 여성의 의문의 실종 사건과 11년 뒤 드러나는 진실을 그린 심리 스릴러입니다.",
+    "overallSummary": "한밤중에 홀로 달리러 나간 후 감쪽같이 사라진 여성과 그 가족의 비밀, 그리고 11년이 지난 후 밝혀지는 충격적인 감금과 진실의 전말을 교차 서사를 통해 파헤칩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "11년 전",
+        "summary": "남편의 외도를 의심하며 불행한 결혼 생활을 보내던 여자가 한밤중에 외출하여 비밀스러운 만남을 가지러 가는 정황이 그려집니다."
+      },
+      {
+        "sectionTitle": "딜라일라 현재",
+        "summary": "지하실 같은 캄캄한 공간에 갇혀 공포와 습기에 시달리는 화자가 의문의 남녀와 거스의 존재를 느끼며 과거의 기억을 더듬습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "시점을 달리하며 과거와 현재의 단서를 짜 맞춰가는 탁월한 구성으로 독자를 충격적인 반전으로 이끕니다."
+      }
+    ],
+    "keyEntitiesText": "딜라일라, 샘, 거스",
+    "settingText": "미국 시카고 외곽 교외 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1spFvs0klT_we71erMhQCja8LFvxePbdz",
+    "filename": "메리 쿠비카-사라진 여자들-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T15:15:40.000Z",
+    "size": "699647",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1spFvs0klT_we71erMhQCja8LFvxePbdz/view?usp=drivesdk",
+    "sourceSha256": "078567e8bed7906513cd1985fec6dbdab0aa93e34e33a6fe3ece49568ed70bc0",
+    "textSha256": "422471046fe309079772ff658c3c1840a444d3d9be0756abe8660227344dc134",
+    "changeKey": "cdb8c31b874d4da630a54e6f4cf3082c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "be84b2a6672fd78a2138",
+    "workId": "be84b2a6672fd78a2138",
+    "driveFileId": "1spFvs0klT_we71erMhQCja8LFvxePbdz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:47:40.794825+00:00",
+    "updatedAt": "2026-09-22T04:47:40.794844+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:47:40.794921+00:00"
+    }
+  }
+}

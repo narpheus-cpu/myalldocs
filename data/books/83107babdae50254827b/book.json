@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 전설이다",
+    "author": "리처드 매드슨",
+    "genre": "공포/SF",
+    "tags": [
+      "뱀파이어",
+      "생존",
+      "포스트아포칼립스",
+      "로버트 네빌"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "science_fiction",
+        "apocalyptic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대 공포 문학과 SF 장르에 지대한 영향을 미친 미국의 소설가로, 영화화된 다수의 원작 소설을 집필했습니다.",
+    "oneLineSummary": "인류가 뱀파이어로 변해버린 세상에서 홀로 살아남은 로버트 네빌의 외로운 사투를 그린 SF 공포 소설입니다.",
+    "overallSummary": "정체불명의 박테리아로 인해 전 인류가 뱀파이어로 변해버린 세계에서, 유일하게 면역력을 가지고 살아남은 로버트 네빌은 낮에는 생존을 위해 집을 보수하고 밤에는 몰려드는 괴물들과 맞서 싸우며 고독한 일상을 보냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "로버트 네빌이 흐린 날씨 속에서 집 주변을 점검하고, 마늘과 말뚝을 만들며 밤의 공포를 대비하는 일상이 그려집니다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "다음 날 아침 시체들을 처리하고 필요한 물품을 구하기 위해 차를 몰고 도시로 나가는 로버트 네빌의 모습이 나타납니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제 의식",
+        "value": "극단적인 고독 속에서 인간성의 상실과 생존의 의미를 탐구하며, 후반부의 반전을 통해 선과 악의 경계를 뒤흔듭니다."
+      }
+    ],
+    "keyEntitiesText": "로버트 네빌, 벤 코트만",
+    "settingText": "미국 로스앤젤레스 시마론 거리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BrqI5CaFtpAk1cWK_ox_mmJrCotSSBSO",
+    "filename": "리처드 매드슨-나는 전설이다-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:49:02.000Z",
+    "size": "685345",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1BrqI5CaFtpAk1cWK_ox_mmJrCotSSBSO/view?usp=drivesdk",
+    "sourceSha256": "88ee223b4cf9f4220f3c3cafa6007265a04a2abf4a4a4322fa90ffe7b88973c4",
+    "textSha256": "4ae6b5c09afb80a60e12196108ed687a84cfbcbf40cd430a6e3600c8cb71053e",
+    "changeKey": "675d4ee64747f06d691b149798a92861",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "83107babdae50254827b",
+    "workId": "83107babdae50254827b",
+    "driveFileId": "1BrqI5CaFtpAk1cWK_ox_mmJrCotSSBSO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:46:21.089289+00:00",
+    "updatedAt": "2026-09-22T04:46:21.089307+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:46:21.089387+00:00"
+    }
+  }
+}

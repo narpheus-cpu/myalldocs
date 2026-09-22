@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무서운 소년",
+    "author": "모리무라 세이치",
+    "genre": "미스터리/심리 스릴러",
+    "tags": [
+      "어린이",
+      "잔혹성",
+      "심리",
+      "일본소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "psychological",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사회의 어두운 단면과 인간 내면의 잔인성을 예리하게 포착해내는 일본의 대표적인 사회파 미스터리 작가입니다.",
+    "oneLineSummary": "어린아이들의 순수함 이면에 감춘 섬뜩하고 잔인한 본성을 다룬 심리 미스터리 소설입니다.",
+    "overallSummary": "평화로운 주택가에서 국민학생들이 벌이는 위험천만한 '가로지르기 장난'과 동물 학대 등, 어른들의 시선이 닿지 않는 곳에서 자라나는 아이들의 잔인하고 음흉한 폭력성을 엄마의 시선을 통해 서늘하게 고발합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "사가라 마끼꼬가 우연히 아이들의 위험한 차도 가로지르기 장난을 목격하고, 오오노 소오이찌라는 아이의 음험한 태도와 과거 고양이 소각 사건을 떠올리며 불안감을 느끼는 과정이 전개됩니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제 의식",
+        "value": "어린이의 세계가 어른들의 사회보다 더 엄격하고 잔인할 수 있음을 보여주며 인간 본성의 어두운 그늘을 경고합니다."
+      }
+    ],
+    "keyEntitiesText": "사가라 마끼꼬, 사가라 마사오, 오오노 소오이찌, 나레이터",
+    "settingText": "일본 주택가 및 국민학교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yYOVkayscKjyTCZjI3xGAaLXVx1sfgPn",
+    "filename": "모리무라 세이치-무서운 소년 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:22.191Z",
+    "size": "63490",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1yYOVkayscKjyTCZjI3xGAaLXVx1sfgPn/view?usp=drivesdk",
+    "sourceSha256": "364d7f37832bd27d2898bf5b9c8743b69e8002a90abf532dc9fcc289422b43f4",
+    "textSha256": "b6b7a1455b512449728518bcb27995763ec8816eb148bd779b81086d1531b551",
+    "changeKey": "9e51be55f32f09506bea44f03822dee2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c13156af26402b2c1bf7",
+    "workId": "c13156af26402b2c1bf7",
+    "driveFileId": "1yYOVkayscKjyTCZjI3xGAaLXVx1sfgPn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:47:47.955108+00:00",
+    "updatedAt": "2026-09-22T04:47:47.955126+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:47:47.955207+00:00"
+    }
+  }
+}
