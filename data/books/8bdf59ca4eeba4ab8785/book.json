@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "미완의 초상",
+    "author": "애거서 크리스티",
+    "genre": "로맨스",
+    "tags": [
+      "로맨스",
+      "초상화",
+      "삶"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 로맨스 소설입니다.",
+    "oneLineSummary": "한 여인의 삶을 초상화처럼 그려낸 이야기입니다.",
+    "overallSummary": "시리아라는 여인의 삶을 통해 그녀의 내면과 사랑, 그리고 인생의 의미를 초상화처럼 그려냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고독의 섬",
+        "summary": "시리아의 삶과 그녀가 가진 고독을 다룹니다."
+      },
+      {
+        "sectionTitle": "캔버스",
+        "summary": "시리아의 삶을 캔버스에 담아내듯 상세히 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "인생의 초상"
+      },
+      {
+        "key": "작품 성격",
+        "value": "서정적인 로맨스"
+      }
+    ],
+    "keyEntitiesText": "시리아, 라라비",
+    "settingText": "외딴섬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-uEdVsA0QkYUylwd54kPD0uFiZu6wSIe",
+    "filename": "애거서 크리스티-로맨스 특선-미완의 초상 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.474Z",
+    "size": "650054",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)",
+      "애거서 크리스티 기타"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)/애거서 크리스티 기타",
+    "webViewLink": "https://drive.google.com/file/d/1-uEdVsA0QkYUylwd54kPD0uFiZu6wSIe/view?usp=drivesdk",
+    "sourceSha256": "e48af92213fe7da35101d2827466ca461c0eb8099fe32c29162c154309caf8b0",
+    "textSha256": "dd111be0d91feca9a775ea3d909fe546071a94451816a2344358f5430544a8be",
+    "changeKey": "76e8e054e50e78209d649d1c383c6f5e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8bdf59ca4eeba4ab8785",
+    "workId": "8bdf59ca4eeba4ab8785",
+    "driveFileId": "1-uEdVsA0QkYUylwd54kPD0uFiZu6wSIe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:30:43.888790+00:00",
+    "updatedAt": "2026-09-22T06:30:43.888806+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:30:43.888917+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "카이로엔 밤이 없다",
+    "author": "아카가와 지로",
+    "genre": "추리",
+    "tags": [
+      "추리",
+      "살인",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아카가와 지로의 대표적인 추리 소설입니다.",
+    "oneLineSummary": "트럭 운전사가 태워준 여인이 살인범임을 알게 되는 미스터리 이야기입니다.",
+    "overallSummary": "트럭 운전사가 빗속에서 태워준 여인이 사실은 살인범이었고, 그 여인과 얽힌 기묘한 사건들을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "저택",
+        "summary": "트럭 운전사가 빗속에서 빨간 레인코트를 입은 여인을 태워주지만, 그녀는 살인범이었습니다."
+      },
+      {
+        "sectionTitle": "사건의 전개",
+        "summary": "관우는 가정교사 일을 하러 가던 중 살인 사건과 관련된 인물들을 만나게 됩니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "미스터리 스릴러"
+      },
+      {
+        "key": "주요 소재",
+        "value": "빨간 레인코트, 살인 사건"
+      }
+    ],
+    "keyEntitiesText": "트럭 운전사, 빨간 레인코트 여인, 정관우, 현지수",
+    "settingText": "44번 국도와 휴게소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kYpG3okvrkPIprEFra7ND0Wllbzkdq-o",
+    "filename": "아카가와 지로-카이로엔 밤이 없다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.165Z",
+    "size": "316323",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1kYpG3okvrkPIprEFra7ND0Wllbzkdq-o/view?usp=drivesdk",
+    "sourceSha256": "45cda8215e94731ed58e6c87d5d124b3aecde4539cfb7e186ac61b86606b0fb9",
+    "textSha256": "36634c385cf814726b3e0890785fdd4df056c9c4f753ec99be14687de6581849",
+    "changeKey": "311306d865bf7b0fb583f1825eb5d204",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6e982965d947b2ae5087",
+    "workId": "6e982965d947b2ae5087",
+    "driveFileId": "1kYpG3okvrkPIprEFra7ND0Wllbzkdq-o",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:29:32.132364+00:00",
+    "updatedAt": "2026-09-22T06:29:32.132379+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:29:32.132533+00:00"
+    }
+  }
+}

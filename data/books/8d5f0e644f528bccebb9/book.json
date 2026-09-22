@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그리고 아무도 없었다",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "추리",
+      "연쇄살인",
+      "고립"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 가장 유명한 추리 소설 중 하나입니다.",
+    "oneLineSummary": "인디언 섬에 초대받은 사람들이 한 명씩 살해당하는 미스터리 이야기입니다.",
+    "overallSummary": "인디언 섬에 초대받은 10명의 사람들이 과거의 죄에 대한 심판으로 한 명씩 살해당하는 이야기입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "초대받은 사람들",
+        "summary": "다양한 인물들이 인디언 섬에 초대받아 도착합니다."
+      },
+      {
+        "sectionTitle": "첫번째 죽음",
+        "summary": "인디언 자장가에 맞춰 사람들이 한 명씩 살해당하기 시작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건의 핵심",
+        "value": "고립된 섬에서의 연쇄 살인"
+      },
+      {
+        "key": "장르적 특징",
+        "value": "심리 스릴러 추리"
+      }
+    ],
+    "keyEntitiesText": "워그레이브 판사, 베러 크레이슨, 필립 롬버드, 암스트롱 의사",
+    "settingText": "인디언 섬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Dzj4cTR9tK36nPsmqN9BaIvsp3ylA4xR",
+    "filename": "애거서 크리스티-그리고 아무도 없었다(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.920Z",
+    "size": "439091",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1Dzj4cTR9tK36nPsmqN9BaIvsp3ylA4xR/view?usp=drivesdk",
+    "sourceSha256": "124422e78326b929736786cc36d55fb3594d9454bc4d4973b50c1453a5e61cf1",
+    "textSha256": "6d200f84ecce05b74f53782acb2183a562e54ee33a2d404d6ac497ab9a4d1a54",
+    "changeKey": "9336cfd9e08d1ad506e210240ae7e538",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8d5f0e644f528bccebb9",
+    "workId": "8d5f0e644f528bccebb9",
+    "driveFileId": "1Dzj4cTR9tK36nPsmqN9BaIvsp3ylA4xR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:30:11.734555+00:00",
+    "updatedAt": "2026-09-22T06:30:11.734570+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:30:11.734661+00:00"
+    }
+  }
+}

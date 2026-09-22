@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비뚤어진 입술의 사나이",
+    "author": "코난 도일",
+    "genre": "추리",
+    "tags": [
+      "셜록 홈즈",
+      "추리",
+      "변장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아서 코난 도일의 셜록 홈즈 시리즈 중 하나입니다.",
+    "oneLineSummary": "아편굴에서 사라진 신사 사건을 홈즈가 변장한 거지를 통해 해결하는 이야기입니다.",
+    "overallSummary": "아편굴에 들어간 신사가 사라지는 사건이 발생합니다. 홈즈는 변장을 하고 아편굴을 조사하던 중, 앉은뱅이 거지로 위장한 인물이 사건의 핵심임을 밝혀냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아편 중독자",
+        "summary": "와트슨은 아편 중독에 빠진 휘트니를 구하러 아편굴에 갔다가 변장한 홈즈를 만납니다."
+      },
+      {
+        "sectionTitle": "사라진 신사",
+        "summary": "홈즈는 아편굴에서 사라진 센트클레어 신사 사건의 전말을 와트슨에게 설명합니다."
+      },
+      {
+        "sectionTitle": "앉은뱅이 거지",
+        "summary": "홈즈는 사건의 핵심 인물인 앉은뱅이 거지 휴 부운의 정체를 추적합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "변장과 신분 위장"
+      },
+      {
+        "key": "사건 해결 방식",
+        "value": "잠입 수사와 인물 추적"
+      }
+    ],
+    "keyEntitiesText": "셜록 홈즈, 와트슨, 센트클레어, 휴 부운, 휘트니",
+    "settingText": "런던의 아편굴과 리이시 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LRWVbBDTYZzI7TsK02ibMehTmUMOejg7",
+    "filename": "코난 도일-비뚤어진 입술의 사나이 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.994Z",
+    "size": "61595",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "아서 코난 도일"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/아서 코난 도일",
+    "webViewLink": "https://drive.google.com/file/d/1LRWVbBDTYZzI7TsK02ibMehTmUMOejg7/view?usp=drivesdk",
+    "sourceSha256": "39e7fbaa78375d5146d5c34e801f2a50ab553be7017aa00e96bc3c6ce9cd10a8",
+    "textSha256": "615bdf1da47d8a7b4bbf2d2f4d6ec6184c967d2fe69c4a7db9a7e59a1c122985",
+    "changeKey": "198992b45506909c2445d32c11343fc1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dc5bf9ed4f4bbb91176a",
+    "workId": "dc5bf9ed4f4bbb91176a",
+    "driveFileId": "1LRWVbBDTYZzI7TsK02ibMehTmUMOejg7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:28:56.312159+00:00",
+    "updatedAt": "2026-09-22T06:28:56.312175+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:28:56.312389+00:00"
+    }
+  }
+}

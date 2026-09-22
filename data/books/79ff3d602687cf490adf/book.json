@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "죽음의 키스",
+    "author": "아이라 레빈",
+    "genre": "추리",
+    "tags": [
+      "범죄",
+      "심리",
+      "스릴러"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "스릴러"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아이라 레빈은 서스펜스와 공포 소설로 유명한 미국의 작가입니다.",
+    "oneLineSummary": "한 남자가 자신의 야망을 위해 연인들을 살해하며 벌어지는 범죄 스릴러입니다.",
+    "overallSummary": "주인공은 자신의 야망을 위해 연인 도로시를 임신시키고 살해할 계획을 세웁니다. 그는 그녀를 유혹하고 조종하며 비극적인 결말을 향해 나아갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 도로시",
+        "summary": "주인공은 임신한 연인 도로시를 살해할 계획을 세우고 그녀를 심리적으로 압박합니다."
+      },
+      {
+        "sectionTitle": "주인공의 과거",
+        "summary": "주인공의 성장 과정과 군 복무 시절, 그리고 그가 가진 비정한 성격이 드러납니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "범죄 심리 스릴러"
+      },
+      {
+        "key": "주요 갈등",
+        "value": "주인공의 야망과 연인의 비극"
+      }
+    ],
+    "keyEntitiesText": "주인공, 도로시",
+    "settingText": "미국 메나세트와 뉴욕"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Du1USexc0DTciJemNMnzyIJ5LMhLm2El",
+    "filename": "아이라 레빈-죽음의 키스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.068Z",
+    "size": "433826",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1Du1USexc0DTciJemNMnzyIJ5LMhLm2El/view?usp=drivesdk",
+    "sourceSha256": "3b747ace854d6ff927fbddf7cf6ff40ea30ddb20e2872ea52097be20937ff110",
+    "textSha256": "c440f25f3d4ad8e8680f8359780325999232163fc14b9443c9f220b96cea2a31",
+    "changeKey": "6dfe312d017d38518a160281cfbf4aa4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "79ff3d602687cf490adf",
+    "workId": "79ff3d602687cf490adf",
+    "driveFileId": "1Du1USexc0DTciJemNMnzyIJ5LMhLm2El",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:29:05.420867+00:00",
+    "updatedAt": "2026-09-22T06:29:05.420883+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:29:05.420977+00:00"
+    }
+  }
+}

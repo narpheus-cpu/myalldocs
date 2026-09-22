@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 어린새를 죽였다",
+    "author": "안중호",
+    "genre": "심리",
+    "tags": [
+      "사형수",
+      "심리",
+      "고백"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "심리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "안중호의 심리 소설로 사형수의 내면을 다룹니다.",
+    "oneLineSummary": "사형수가 자신의 과거와 범죄를 고백하며 죽음을 기다리는 이야기입니다.",
+    "overallSummary": "사형수가 감옥에서 자신의 어린 시절부터 범죄에 이르기까지의 과정을 일기 형식으로 고백하며 죽음을 기다리는 심리적 과정을 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "2월 12일",
+        "summary": "사형수가 감옥에서 자신의 어린 시절과 생명에 대한 왜곡된 인식을 고백합니다."
+      },
+      {
+        "sectionTitle": "2월 13일",
+        "summary": "의대 시절의 경험과 지영과의 만남, 그리고 자신의 컴플렉스에 대해 이야기합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "죽음의 공포와 고독"
+      },
+      {
+        "key": "형식",
+        "value": "일기 형식의 고백"
+      }
+    ],
+    "keyEntitiesText": "사형수, 지영, 유모",
+    "settingText": "교도소 감방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10iItTgC1IexMOa_6OLyRW3W0loS5Nann",
+    "filename": "안중호-나는 어린새를 죽였다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.184Z",
+    "size": "73352",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/10iItTgC1IexMOa_6OLyRW3W0loS5Nann/view?usp=drivesdk",
+    "sourceSha256": "9e65337c69ea277baf3324284f479b3ac54e90b9a26c8fb0d211e001ed9383ba",
+    "textSha256": "1506e21343c232a6d714c3a602707666fc5285b72483fbac933d9f70a2cbe12b",
+    "changeKey": "93547dbce6d1e20aa4f4e43cc1bedd8d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "43c8e554d60b07a96a40",
+    "workId": "43c8e554d60b07a96a40",
+    "driveFileId": "10iItTgC1IexMOa_6OLyRW3W0loS5Nann",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:29:38.173186+00:00",
+    "updatedAt": "2026-09-22T06:29:38.173200+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:29:38.173292+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "딸과 딸",
+    "author": "애거서 크리스티",
+    "genre": "로맨스",
+    "tags": [
+      "로맨스",
+      "모녀",
+      "사랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 로맨스 소설입니다.",
+    "oneLineSummary": "어머니와 딸 사이의 갈등과 사랑을 다룬 이야기입니다.",
+    "overallSummary": "어머니와 딸 사이의 복잡한 감정과 갈등, 그리고 서로를 이해해가는 과정을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사라의 이별",
+        "summary": "앤은 딸 사라를 떠나보내며 고독감을 느낍니다."
+      },
+      {
+        "sectionTitle": "모녀의 갈등",
+        "summary": "앤과 사라 사이의 갈등과 서로에 대한 애정이 드러납니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "모녀 관계의 심리"
+      },
+      {
+        "key": "작품 성격",
+        "value": "감성적인 로맨스"
+      }
+    ],
+    "keyEntitiesText": "앤 프랜티스, 사라, 이디스",
+    "settingText": "런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17FwWFYTBxxHwflJlYaPR2HKyI1UcKhai",
+    "filename": "애거서 크리스티-딸과 딸 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.435Z",
+    "size": "449465",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)",
+      "애거서 크리스티 기타"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)/애거서 크리스티 기타",
+    "webViewLink": "https://drive.google.com/file/d/17FwWFYTBxxHwflJlYaPR2HKyI1UcKhai/view?usp=drivesdk",
+    "sourceSha256": "f78f0890ea5881d0cfe6457814a1cb0ab91414a4d499ad30b7838c1dce638b42",
+    "textSha256": "291c1f1ecfcc2192dea47cb07c137d6af3b68e6e762fe50a6b3d8b21b4876533",
+    "changeKey": "77fa4ea0e04b3001d06ad22e1b22f863",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "94470a423c9442eae737",
+    "workId": "94470a423c9442eae737",
+    "driveFileId": "17FwWFYTBxxHwflJlYaPR2HKyI1UcKhai",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:30:31.692356+00:00",
+    "updatedAt": "2026-09-22T06:30:31.692371+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:30:31.692528+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "조니 웨이벌리의 모험",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "추리",
+      "푸아로",
+      "유괴"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 에르퀼 푸아로 단편입니다.",
+    "oneLineSummary": "유괴 협박을 받은 소년 조니 웨이벌리 사건을 푸아로가 해결하는 이야기입니다.",
+    "overallSummary": "유괴 협박을 받은 소년 조니 웨이벌리 사건을 푸아로가 조사하여 진상을 밝힙니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사건의 시작",
+        "summary": "웨이벌리 부인이 푸아로에게 아들 조니의 유괴 협박 사건을 의뢰합니다."
+      },
+      {
+        "sectionTitle": "사건 해결",
+        "summary": "푸아로는 사건의 배후를 조사하여 진상을 밝혀냅니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건의 핵심",
+        "value": "유괴 협박 사건"
+      },
+      {
+        "key": "장르적 특징",
+        "value": "단편 추리물"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 조니 웨이벌리, 웨이벌리 부인",
+    "settingText": "웨이벌리 대저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1STzhVUktZEs_mT6xMQwF6t18Z8TPZDAj",
+    "filename": "애거서 크리스티-크리스마스 푸딩의 모험(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.576Z",
+    "size": "580710",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1STzhVUktZEs_mT6xMQwF6t18Z8TPZDAj/view?usp=drivesdk",
+    "sourceSha256": "bed70fcedfb09131c4b350f18c23ae752dd58705b2f67edf454f3f987d67c0b5",
+    "textSha256": "3f2437e4ec291d5cbc4d2a838e20b614515446e2f8c205f677ad0f8a2c428c06",
+    "changeKey": "7a8927a410b020edd5abb013f613ca69",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bea41978a0462fcff6b1",
+    "workId": "bea41978a0462fcff6b1",
+    "driveFileId": "1STzhVUktZEs_mT6xMQwF6t18Z8TPZDAj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:30:25.425174+00:00",
+    "updatedAt": "2026-09-22T06:30:25.425190+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3987,
+      "updatedAt": "2026-09-22T06:30:25.425294+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "0시를 향하여",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "추리",
+      "살인",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 대표적인 추리 소설입니다.",
+    "oneLineSummary": "살인 사건을 향해 모든 인물들이 모여드는 미스터리 이야기입니다.",
+    "overallSummary": "다양한 인물들이 한곳에 모이게 되고, 결국 살인 사건이 발생합니다. 모든 정황이 0시를 향해 모여드는 구조를 가집니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "법조계 인사들이 모여 살인 사건에 대해 토론하며 0시를 향한 운명을 이야기합니다."
+      },
+      {
+        "sectionTitle": "문을 열자 사람들이 있었다",
+        "summary": "살인 사건이 발생하고, 인물들이 사건의 진상을 파헤치기 시작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건의 핵심",
+        "value": "모든 인물들이 살인을 향해 모여드는 구조"
+      },
+      {
+        "key": "장르적 특징",
+        "value": "치밀한 구성의 추리물"
+      }
+    ],
+    "keyEntitiesText": "트레브스 씨, 루퍼스 로드, 재프 경감",
+    "settingText": "영국 법정과 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oQk5gM58ScYqgrREONtKcdiYBy6t5R9N",
+    "filename": "애거서 크리스티-0시를 향하여(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.248Z",
+    "size": "493826",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)",
+      "애거서 크리스티 기타"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)/애거서 크리스티 기타",
+    "webViewLink": "https://drive.google.com/file/d/1oQk5gM58ScYqgrREONtKcdiYBy6t5R9N/view?usp=drivesdk",
+    "sourceSha256": "c904f7bd024e7253102c29488bf3ee50293677f73190aa7f755b0258d052fa15",
+    "textSha256": "a019c862542261d0bea3d996900bf34f76b317abdbebf06eeb2f570a19920263",
+    "changeKey": "192c7b847ecc5084d6b1c06d5dc39f6d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bd534cea7111831a98a1",
+    "workId": "bd534cea7111831a98a1",
+    "driveFileId": "1oQk5gM58ScYqgrREONtKcdiYBy6t5R9N",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:29:57.829265+00:00",
+    "updatedAt": "2026-09-22T06:29:57.829279+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:29:57.829379+00:00"
+    }
+  }
+}

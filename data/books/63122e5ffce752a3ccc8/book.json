@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑의 선율 1",
+    "author": "애거서 크리스티",
+    "genre": "로맨스",
+    "tags": [
+      "로맨스",
+      "음악",
+      "사랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티가 메어리 웨스트마콧이라는 필명으로 쓴 로맨스 소설입니다.",
+    "oneLineSummary": "음악가 버논의 예술적 열정과 사랑 사이에서 갈등하는 이야기입니다.",
+    "overallSummary": "음악가 버논이 자신의 예술적 열정을 쫓으며 넬과 제인 사이에서 겪는 사랑과 갈등을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "애보트 퓨이션",
+        "summary": "버논의 어린 시절과 그의 세계를 형성하는 인물들에 대해 소개합니다."
+      },
+      {
+        "sectionTitle": "넬",
+        "summary": "버논과 넬의 사랑과 음악에 대한 버논의 열정이 충돌하기 시작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "예술적 열정과 사랑의 갈등"
+      },
+      {
+        "key": "작품 성격",
+        "value": "자전적 요소가 담긴 로맨스"
+      }
+    ],
+    "keyEntitiesText": "버논, 넬, 제인, 세바스찬 레빈",
+    "settingText": "런던과 애보트 퓨이션"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11n_A4IAUkTG4YZ1aa_0DZgYuG0Qt_W3e",
+    "filename": "애거서 크리스티 로맨스 특선-사랑의 선율 1 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.206Z",
+    "size": "417399",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)",
+      "애거서 크리스티 기타"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)/애거서 크리스티 기타",
+    "webViewLink": "https://drive.google.com/file/d/11n_A4IAUkTG4YZ1aa_0DZgYuG0Qt_W3e/view?usp=drivesdk",
+    "sourceSha256": "e3843d15492395bac7f78c2888f8261f36e7de9d2f72962bdc237f0db659a670",
+    "textSha256": "c9dfbec9e7e33468d9e2e9bf4133dabf320b529de776aca07c17aa5b170fc03b",
+    "changeKey": "8d0962066ee8305d133466f1f59134b9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "63122e5ffce752a3ccc8",
+    "workId": "63122e5ffce752a3ccc8",
+    "driveFileId": "11n_A4IAUkTG4YZ1aa_0DZgYuG0Qt_W3e",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:29:44.568758+00:00",
+    "updatedAt": "2026-09-22T06:29:44.568776+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:29:44.568886+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천사는 신이 아니다",
+    "author": "아카가와 지로",
+    "genre": "추리",
+    "tags": [
+      "추리",
+      "뺑소니",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아카가와 지로는 일본의 유명한 추리 소설가입니다.",
+    "oneLineSummary": "뺑소니 사고로 죽은 남자의 유품에서 발견된 협박장을 통해 사건을 해결하는 이야기입니다.",
+    "overallSummary": "뺑소니 사고로 죽은 남자의 주머니에서 협박장이 발견됩니다. 주인공은 이 편지를 단서로 유괴 사건의 진상을 밝히기 위해 모험을 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사건의 발단",
+        "summary": "진규가 뺑소니 사고를 내고, 죽은 남자의 주머니에서 협박장을 발견합니다."
+      },
+      {
+        "sectionTitle": "죽은 남자의 편지",
+        "summary": "진아는 동생의 사고를 돕기로 하고, 협박장의 내용을 분석하며 사건을 추적합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건의 핵심",
+        "value": "뺑소니와 유괴 사건의 연결"
+      },
+      {
+        "key": "주요 소재",
+        "value": "협박장, 명함"
+      }
+    ],
+    "keyEntitiesText": "유진아, 유진규, 문우성",
+    "settingText": "경기도 광주와 국도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1D-pzTOBPiCSvGlaS9lkEhoylz-OaPB2L",
+    "filename": "아카가와 지로-천사는 신이 아니다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.147Z",
+    "size": "300924",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1D-pzTOBPiCSvGlaS9lkEhoylz-OaPB2L/view?usp=drivesdk",
+    "sourceSha256": "4fc53d046627dc20c8e602499e6e596028d8bf8278e02349a8125b70daaf1026",
+    "textSha256": "c21e11a0ad22b953773767adcd1d24270661ef479ff4bab7222c460f7023954c",
+    "changeKey": "ddef9a297f61d21b6b2ab3f97f9822fa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c88eda353cfd36ca87f3",
+    "workId": "c88eda353cfd36ca87f3",
+    "driveFileId": "1D-pzTOBPiCSvGlaS9lkEhoylz-OaPB2L",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:29:25.519964+00:00",
+    "updatedAt": "2026-09-22T06:29:25.519979+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:29:25.520082+00:00"
+    }
+  }
+}

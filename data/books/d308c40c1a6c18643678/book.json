@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "ABC 살인사건",
+    "author": "애거서 크리스티",
+    "genre": "추리",
+    "tags": [
+      "추리",
+      "연쇄살인",
+      "푸아로"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "애거서 크리스티의 에르퀼 푸아로 시리즈 중 하나입니다.",
+    "oneLineSummary": "알파벳 순서대로 살인을 저지르는 범인을 푸아로가 추적하는 이야기입니다.",
+    "overallSummary": "알파벳 순서대로 살인을 저지르는 연쇄 살인범이 나타나고, 푸아로가 그 범인을 추적하여 사건을 해결합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "편지",
+        "summary": "푸아로에게 의문의 편지가 도착하고, 연쇄 살인의 예고가 시작됩니다."
+      },
+      {
+        "sectionTitle": "앤도버",
+        "summary": "첫 번째 살인이 발생하고, 푸아로는 사건의 진상을 파헤치기 시작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건의 핵심",
+        "value": "알파벳 순서에 따른 연쇄 살인"
+      },
+      {
+        "key": "홈즈의 분석",
+        "value": "범인의 심리와 패턴 분석"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 헤이스팅스, 재프 경감",
+    "settingText": "영국 전역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Re7ZEEb0Xs-u-dIZG6QK6wHdyd4nbFho",
+    "filename": "애거서 크리스티-ABC 살인 사건(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.765Z",
+    "size": "489396",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1Re7ZEEb0Xs-u-dIZG6QK6wHdyd4nbFho/view?usp=drivesdk",
+    "sourceSha256": "a2e5fb5c70af5968f6a95ad4e78fb86d76ac4ae043848e0abcaa4f687d86822b",
+    "textSha256": "f081c923ce4c7788e1365806652adce5652131f20bac7ab98983abd454b32a0f",
+    "changeKey": "70489f9b17e3a500039f1fd611efa6c6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d308c40c1a6c18643678",
+    "workId": "d308c40c1a6c18643678",
+    "driveFileId": "1Re7ZEEb0Xs-u-dIZG6QK6wHdyd4nbFho",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:30:05.257050+00:00",
+    "updatedAt": "2026-09-22T06:30:05.257066+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:30:05.257172+00:00"
+    }
+  }
+}
