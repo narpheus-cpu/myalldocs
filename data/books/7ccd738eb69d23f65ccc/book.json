@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내 마누라는 엘프",
+    "author": "박태희",
+    "genre": "판타지",
+    "tags": [
+      "엘프",
+      "여관",
+      "일상",
+      "몬스터"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "박태희(수박왕자) 작가의 판타지 소설.",
+    "oneLineSummary": "몬스터가 우글거리는 버려진 땅에서 엘프 아내와 함께 여관을 운영하며 살아가는 인간 남자의 이야기.",
+    "overallSummary": "인간과 엘프의 금기를 깨고 결혼한 주인공은 끝없이 펼쳐진 숲속의 2층 목조건물에서 엘프 아내 르네와 함께 여관을 운영한다. 찾아오는 여행자나 몬스터들을 상대로 평화롭고 달달한 일상을 보낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "Vol 01 ~ 02",
+        "summary": "아침을 맞이하는 부부의 일상과 리자드 맨들이 손님으로 찾아와 맥주를 마시며 교감하는 평화로운 하루가 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "모험 중심이 아닌 이종족 부부의 소소하고 다정한 일상을 다룬 힐링 판타지"
+      }
+    ],
+    "keyEntitiesText": "주인공(한), 르네, 리자드 맨 대장",
+    "settingText": "몬스터가 많은 울창한 숲속의 목조 여관"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jzm7PWsQqKLNkybn0Ht5sFzJZIZ6W9yi",
+    "filename": "내 마누라는 엘프.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:38.228Z",
+    "size": "1886086",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1jzm7PWsQqKLNkybn0Ht5sFzJZIZ6W9yi/view?usp=drivesdk",
+    "sourceSha256": "1f6ae50daa13650b31da1255a496c8de1987ae34c1daedf74911e932dcf1c833",
+    "textSha256": "f10fdf09c5ec38a91633af6f0ace75358d8e7cd20dbacd6f2818e07611b88f24",
+    "changeKey": "ab851fa76bf8d8daa247e0310434a0f2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7ccd738eb69d23f65ccc",
+    "workId": "7ccd738eb69d23f65ccc",
+    "driveFileId": "1jzm7PWsQqKLNkybn0Ht5sFzJZIZ6W9yi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:43:09.503353+00:00",
+    "updatedAt": "2026-09-22T11:43:09.503369+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:43:09.503472+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "꿈꾸는 자",
+    "author": "황성민",
+    "genre": "판타지",
+    "tags": [
+      "게임",
+      "가상현실",
+      "천룡문",
+      "무협"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "게임판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황성민 작가의 판타지 소설.",
+    "oneLineSummary": "14년 동안 악몽에 시달리던 대학생 한비화가 우연한 채팅을 통해 자신의 숨겨진 운명과 마주한다.",
+    "overallSummary": "전통 무예 천룡문의 제자이자 하루의 대부분을 잠으로 보내며 악몽에 시달리는 한비화는 어느 날 채팅을 통해 자신을 15년 동안 기다렸다는 '아시리아'를 만나게 되면서 평범한 일상에 변화를 맞이한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1~3회",
+        "summary": "강의실에서 잠을 자며 교수를 깨우는 사고를 친 한비화는 술과 PC방을 전전하다 채팅으로 아시리아라는 의문의 상대를 만나고 과거의 비밀과 마주한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "현대 현실과 가상/꿈의 세계가 연결되는 판타지 요소"
+      }
+    ],
+    "keyEntitiesText": "한비화, 지선대사, 한길이, 동호, 아시리아",
+    "settingText": "현대 대학가 및 PC방, 술집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uJ2w9BgEifeJxsNYFf0JLbzb0lb0MQ57",
+    "filename": "꿈꾸는 자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:37.972Z",
+    "size": "1826775",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1uJ2w9BgEifeJxsNYFf0JLbzb0lb0MQ57/view?usp=drivesdk",
+    "sourceSha256": "bc0cbd1c5e310e64c4853834c9e7d35abae7c8ed591d24272d30abaa4f7a3b4c",
+    "textSha256": "81743c3ff7d641339eb93de723057849a0a537637148deeb1c1a322282517f85",
+    "changeKey": "a95a54a54675ef6ae44c4cb81f7d9e27",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "42542cdcf8e09b308cdc",
+    "workId": "42542cdcf8e09b308cdc",
+    "driveFileId": "1uJ2w9BgEifeJxsNYFf0JLbzb0lb0MQ57",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:42:38.945154+00:00",
+    "updatedAt": "2026-09-22T11:42:38.945171+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-22T11:42:38.945277+00:00"
+    }
+  }
+}

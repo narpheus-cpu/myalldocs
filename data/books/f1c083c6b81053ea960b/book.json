@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하프 블러드",
+    "author": "김정율",
+    "genre": "판타지",
+    "tags": [
+      "반인반수",
+      "용병",
+      "복수",
+      "성장물"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성장물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김정율 작가는 인간미와 성장을 그리는 판타지 작품을 다수 집필했다.",
+    "oneLineSummary": "오우거의 피를 이어받은 하프 블러드 레온이 시련을 극복하고 진정한 강자로 성장하는 이야기.",
+    "overallSummary": "인간과 오우거의 피를 반씩 이어받아 몬스터의 외모를 가진 레온은 펜슬럿 공민의 서자로 태어나 온갖 차별과 멸시를 겪는다. 어머니의 죽음과 복수를 계기로 마루스로 향하며, 기구한 운명을 딛고 성장해 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장 위험한 거래",
+        "summary": "펜슬럿 공작가의 3공자이지만 마루스인 어머니 사이에서 태어나 천대받던 단테스는 복수를 위해 공주의 납치와 마루스로의 전향을 결심한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공 특징",
+        "value": "외형적 혐오감을 극복하고 성장하는 비주류 성장형 캐릭터"
+      }
+    ],
+    "keyEntitiesText": "레온, 단테스, 네리우스 공작, 크리스틴, 콘쥬러스, 레오니아",
+    "settingText": "대륙의 강대국 펜슬럿과 호전적인 신생 왕국 마루스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WL2v90o1CtyARhEeyrCVeU820Zxhq13A",
+    "filename": "김정률-하프블러드(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:37.293Z",
+    "size": "3439515",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1WL2v90o1CtyARhEeyrCVeU820Zxhq13A/view?usp=drivesdk",
+    "sourceSha256": "f8be77b341800ed2abed883963d805b67ab47bb4d19c94ed5417d35b84028590",
+    "textSha256": "ade6c8c0d2f95c99afdadad53b857152f9f7d1154aff0ad8b026b2facda89e9d",
+    "changeKey": "6928e83dc1b3f3edce46a9100686ca84",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f1c083c6b81053ea960b",
+    "workId": "f1c083c6b81053ea960b",
+    "driveFileId": "1WL2v90o1CtyARhEeyrCVeU820Zxhq13A",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:42:20.171464+00:00",
+    "updatedAt": "2026-09-22T11:42:20.171482+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:42:20.171574+00:00"
+    }
+  }
+}

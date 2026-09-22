@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뉴트럴",
+    "author": "김유나",
+    "genre": "fiction",
+    "tags": [
+      "슬레이어즈",
+      "패러디",
+      "소설",
+      "팬픽"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "팬픽션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김유나 작가의 슬레이어즈 패러디/팬픽션 소설.",
+    "oneLineSummary": "애니메이션 '슬레이어즈'의 세계관을 바탕으로 리나 일행이 겪는 새로운 모험과 '신의 지혜검'을 둘러싼 이야기.",
+    "overallSummary": "기본 설정 및 등장인물 소개와 함께, 리나가 과거 사일라그에서 기가 슬레이브를 발동했던 악몽을 꾸는 것으로 시작된다. 불안한 예감에 사로잡힌 리나는 가우리와 함께 저주받은 대지가 된 사일라그로 향하고, 그 과정에서 아멜리아 등 동료들과 재회하며 거대한 음모에 휘말린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "설정 및 제 1장",
+        "summary": "작품 설정 및 등장인물 소개 후, 악몽을 꾼 리나가 가우리와 함께 사일라그로 향하던 중 도적들을 만나고 아멜리아와 재회하는 과정이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "유명 애니메이션 '슬레이어즈'를 원작으로 한 오리지널 설정 포함 패러디 소설"
+      }
+    ],
+    "keyEntitiesText": "리나 인버스, 가우리, 아멜리아, 실피르, 제로스, 피리아, 유스틴",
+    "settingText": "슬레이어즈 세계관의 사일라그 및 인근 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fwgqaH4D4RhLt8w2dqY1sYBXSDlftnzo",
+    "filename": "뉴트럴.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:38.754Z",
+    "size": "982687",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1fwgqaH4D4RhLt8w2dqY1sYBXSDlftnzo/view?usp=drivesdk",
+    "sourceSha256": "058e09af6e12ae92510be68f2c65e9c8fc8c7446342ec9280f1a594c0c85b3c4",
+    "textSha256": "a5bde1122ff795a087d480f60dba107f1c64ba54b206edccaa47c0220f42bb44",
+    "changeKey": "cd26f72c1c80f55d1e3df1c1718a78e3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e23276c86f2f90c9a68b",
+    "workId": "e23276c86f2f90c9a68b",
+    "driveFileId": "1fwgqaH4D4RhLt8w2dqY1sYBXSDlftnzo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:44:17.754773+00:00",
+    "updatedAt": "2026-09-22T11:44:17.754788+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:44:17.754902+00:00"
+    }
+  }
+}

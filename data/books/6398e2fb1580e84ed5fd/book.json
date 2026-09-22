@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내 영혼은 야했다",
+    "author": "노재명",
+    "genre": "essay_general_nonfiction",
+    "tags": [
+      "현대소설",
+      "내면",
+      "의식의흐름",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "노재명 작가의 소설/에세이풍 작품.",
+    "oneLineSummary": "새벽의 단상과 술병, 기억의 조각들을 통해 주인공의 기묘하고 건조한 일상을 의식의 흐름으로 풀어낸 작품.",
+    "overallSummary": "새벽 시간에 개 짖는 소리에 깨어난 주인공은 방안의 빈 소주병들을 정리하며 어젯밤의 무미건조했던 만남을 회상한다. 개에게 밥을 주고 이웃 소녀와의 스쳐 지나가는 만남, 병원 방문 등 일상의 단면들을 독특한 시선으로 묘사한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "예정된 시간들 속으로 뛰어든 기묘함 1~4",
+        "summary": "새벽의 풍경, 술병 찾기, 개 밥 주기, 이웃 소녀와의 조우, 병원 진료 등 일상의 파편들이 기묘한 내레이션과 함께 전개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "일상의 사소한 대상들에 대한 집착과 해학, 의식의 흐름 기법 활용"
+      }
+    ],
+    "keyEntitiesText": "주인공(박민석), 왈와리(개), 소녀, 이 간호사",
+    "settingText": "주인공의 방과 마당, 인근 동네"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RCDbkDzpJHGWfa6TreSqo7FKMlL5dbCa",
+    "filename": "노재명-내 영혼은 야했다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:38.467Z",
+    "size": "466430",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1RCDbkDzpJHGWfa6TreSqo7FKMlL5dbCa/view?usp=drivesdk",
+    "sourceSha256": "a31609c62c81d1ab5f9e161881ec6c96b1f3bf5e07e9128059dc6f9a0a24a710",
+    "textSha256": "022dbacf77dedf3cd8d858f3d1d89dc67a7df6f59296301a3a996c3c9c1e8bdd",
+    "changeKey": "aab6f5190909cb0bb210289f22bf031e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6398e2fb1580e84ed5fd",
+    "workId": "6398e2fb1580e84ed5fd",
+    "driveFileId": "1RCDbkDzpJHGWfa6TreSqo7FKMlL5dbCa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:43:41.005709+00:00",
+    "updatedAt": "2026-09-22T11:43:41.005726+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:43:41.005829+00:00"
+    }
+  }
+}
