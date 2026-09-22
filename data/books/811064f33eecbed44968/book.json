@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천붕가",
+    "author": "권천",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "천붕가",
+      "십절사존",
+      "호괴승",
+      "천상검혼",
+      "유사정",
+      "좌천소",
+      "좌천패"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "액션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권천은 긴장감 넘치는 정사 대립과 전설의 무림 인물들을 다루는 무협 작가이다.",
+    "oneLineSummary": "마황전의 저주와 천붕가 예언 속에서 십절사존의 야망을 저지하려는 천상검혼 유사정과 포인산장 절대쌍소의 이야기.",
+    "overallSummary": "천 년 전 마황전을 무찌른 천붕성자의 전설과 '천붕가' 예언이 전해진다. 현학산에서 산적 현학육적에게 습격당한 모자를 신비한 도고와 유 선배가 구한다. 태산 천령봉에서는 정오를 기해 십절사존 호괴승이 정사양도의 신물을 빼앗고 천하를 굴복시키려 하자, 백 년 만에 천상검혼 유사정이 등장한다. 한편 형산 포인산장에서는 소문성 좌천소와 소무성 좌천패 형제가 평화롭게 성장하고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "序 一, 序 二. 어느 날",
+        "summary": "천붕가 시 구절 및 마황의 부활을 노리는 어둠 속 음모자들의 대화, 천붕성자의 전설 소개."
+      },
+      {
+        "sectionTitle": "一章. 혈풍의 시작 (1~3)",
+        "summary": "현학산에서 산적 현학육적에게 겁탈당할 뻔한 모자를 도고가 나타나 구하나, 살기를 품은 소년(천왕지체)을 유 선배가 거두어 감."
+      },
+      {
+        "sectionTitle": "一章. 혈풍의 시작 (4~5)",
+        "summary": "태산 천령봉에서 십절사존 호괴승이 구파일방 장문인들을 위협하며 굴복을 강요할 때 전설의 천상검혼 유사정이 나타남. 포인산장의 소문성 좌천소, 소무성 좌천패 형제의 소개."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예언적 구성",
+        "value": "천붕가 예언과 십절사존의 강림, 그리고 은거했던 고수와 신동들의 등장을 아우르는 다층 구조"
+      }
+    ],
+    "keyEntitiesText": "호괴승(십절사존), 유사정(천상검혼), 좌천소(소문성), 좌천패(소무성), 정소추, 축금심, 좌룡군, 포인산장, 태산 천령봉, 현학산",
+    "settingText": "태산 천령봉 정상 및 형산 축융봉 포인산장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xwVL6Isl0upC5-bvPAWjnw_KQOK8_Sbg",
+    "filename": "천붕가(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.618Z",
+    "size": "746193",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1xwVL6Isl0upC5-bvPAWjnw_KQOK8_Sbg/view?usp=drivesdk",
+    "sourceSha256": "d52772345b4a8fae8e2fc379b76efe62eb33776a4340d24c63e002f6eb590e11",
+    "textSha256": "043ccad9ed2e13cd1e86c7f8a3a1c92e97867673aecf043ab0be42d2caa32411",
+    "changeKey": "48482a04a2a51ec86199652dd1d70a6c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "811064f33eecbed44968",
+    "workId": "811064f33eecbed44968",
+    "driveFileId": "1xwVL6Isl0upC5-bvPAWjnw_KQOK8_Sbg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:18:19.629669+00:00",
+    "updatedAt": "2026-09-22T16:18:19.629689+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:18:19.629795+00:00"
+    }
+  }
+}

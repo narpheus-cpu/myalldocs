@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천년화도",
+    "author": "김용",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "옥천세가",
+      "화공준",
+      "만상촌",
+      "금릉"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "역사픽션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 무협 소설의 대가 김용의 이름을 빌린 무협 소설 작품.",
+    "oneLineSummary": "야망을 품은 옥천세가 천존 화공준의 아수라폐맥혈 재발과 금릉 만상촌에서 자라나는 비범한 청년의 이야기.",
+    "overallSummary": "밀실에서 천하 통일의 야망을 불태우던 옥천세가의 천존 화공준은 조상 대대로 유전되어 온 아수라폐맥혈이 재발하여 무공을 잃고 폐인이 된다. 화공준은 자신의 핏줄을 통해 야망을 계승시키기로 결심한다. 한편 명나라 초기 황도 금릉의 가장 가난하고 더러운 저자거리 만상촌에서는 수재라 불리는 수려한 용모의 스무 살 청년이 병석에서 깨어난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 천하무림을 향한 야망",
+        "summary": "밀실에서 중원대전도를 보며 천하 통일을 꿈꾸던 옥천세가 천존 화공준이 아수라폐맥혈 재발로 피를 토하고 무공을 잃자 핏줄을 통한 야망 계승을 다짐함."
+      },
+      {
+        "sectionTitle": "2. 작은 용의 탄생",
+        "summary": "명나라 초기 금릉의 역사와 화려함 뒤에 숨은 만상촌 빈민가의 풍경, 그리고 수려한 용모의 청년(수재)이 깨어나는 모습."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "대립 구조",
+        "value": "천년 절대쌍가(옥천세가와 환비세가) 간의 대립과 천년 저주에 맞서는 야망"
+      }
+    ],
+    "keyEntitiesText": "화공준(천존), 대사운(흑노인), 수재(청년), 옥천세가, 환비세가, 금릉, 만상촌",
+    "settingText": "명나라 초기 금릉(남경)의 밀실 및 만상촌 빈민가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TruJo_fC0-0d1g1-4ia_hoek1Yc52htU",
+    "filename": "천년화도 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.234Z",
+    "size": "1583312",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1TruJo_fC0-0d1g1-4ia_hoek1Yc52htU/view?usp=drivesdk",
+    "sourceSha256": "8c225266bbb176bbe406ca918d14c43eeb8f515a819f591c15438bc9000a07ea",
+    "textSha256": "dfc2a76cd00d35cb0052592bd65f4467312715f0607fcb1e84c1c26d467e2e2d",
+    "changeKey": "26786e294a3104acf4562a902e123210",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a73d101f3aba391d2540",
+    "workId": "a73d101f3aba391d2540",
+    "driveFileId": "1TruJo_fC0-0d1g1-4ia_hoek1Yc52htU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:16:08.581230+00:00",
+    "updatedAt": "2026-09-22T16:16:08.581247+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:16:08.581348+00:00"
+    }
+  }
+}

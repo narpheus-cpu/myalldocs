@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천사지인",
+    "author": "조진행",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "장염",
+      "장삼",
+      "무용의 용",
+      "진원청",
+      "태청단"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "성장",
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조진행은 도가적 사상과 따뜻한 인간미, 잔잔한 감동을 담아내는 대한민국 대표 무협 작가이다.",
+    "oneLineSummary": "호북성 장가촌의 허약한 아이 장염이 도가적 소박함 속에 살아가다 은거기인 진원청 도사를 만나 영약 태청단을 얻는 기연 이야기.",
+    "overallSummary": "당 현종과 종규에 관한 전설 소개 후, 호북성 장가촌 천주교 다리를 혼자 지으며 짚신을 파는 소박한 장삼과 그의 허약한 아들 장염의 일상이 그려진다. 노도사는 장염을 보고 '무용의 용(쓸모없음의 쓸모)'이라 평하며 장수할 상이라 한다. 장염이 와룡산에서 친구 장소, 이삼인과 놀다가 장난치던 은거기인 진원청 도사의 기운에 기절하자, 진원청은 자책감에 장염의 기혈을 잡아주고 무당파의 보물 태청단을 복용시킨다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "도입부 및 1. 무용(無用)의 용(用)",
+        "summary": "당 현종 꿈속 종규 전설 인용. 호북성 장가촌 천주교 다리의 장삼과 허약한 아들 장염의 내력, 노도사가 말하는 '무용의 용'의 의미."
+      },
+      {
+        "sectionTitle": "2. 그리고 인연(1)",
+        "summary": "와룡산에서 장염, 장소, 이삼인이 별호를 대며 칼싸움 장난을 치다 진원청 도사의 고함에 기절하고, 진원청이 장염에게 무당파 보물 태청단을 먹여 인연을 맺음."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "도가적 철학",
+        "value": "장자의 무위자연 사상과 '무용의 용' 개념을 주인공 장염의 삶과 기연에 녹여냄"
+      }
+    ],
+    "keyEntitiesText": "장염, 장삼, 이씨, 장소, 이삼인, 진원청(도문일검), 무극진인, 장가촌, 천주교, 와룡산, 무당산",
+    "settingText": "호북성 균현 장가촌의 천주교 다리 및 와룡산 기슭"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1l1UI-pWWslgAKZ2JTB0X6FsBSD9eJ6Pl",
+    "filename": "천사지인(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.646Z",
+    "size": "2857684",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1l1UI-pWWslgAKZ2JTB0X6FsBSD9eJ6Pl/view?usp=drivesdk",
+    "sourceSha256": "e7e01043bedf765c40942ed49fdfa8479e2efcaeec4cfb91316377f29260601f",
+    "textSha256": "bb9d30e0edd19f698fde9129d53e75a352057ab75178d49b1a377c5adc907ee5",
+    "changeKey": "93cf91303f1f76709d5a61ebcea1936f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1e962fb9e7044a71bb90",
+    "workId": "1e962fb9e7044a71bb90",
+    "driveFileId": "1l1UI-pWWslgAKZ2JTB0X6FsBSD9eJ6Pl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:18:55.846602+00:00",
+    "updatedAt": "2026-09-22T16:18:55.846621+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:18:55.846757+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천추군림지",
+    "author": "금강",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "환우칠대마존",
+      "좌룡군",
+      "좌천소",
+      "좌천패",
+      "포인산장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "액션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금강은 1980년대 한국 무협 소설의 전성기를 이끈 대표적인 1세대 무협 작가이다.",
+    "oneLineSummary": "환우칠대마존의 마도천하를 종식시킨 좌룡군의 포인산장에서 자라나는 소문성 좌천소와 소무성 좌천패 형제의 이야기.",
+    "overallSummary": "절대군림탑과 천겁마면 전설에 이어, 환우칠대마존(마왕천존 혁세기 등)이 피의 암흑시대를 만들었으나 인의무적대협 좌룡군이 이들을 격패시키고 포인산장에 은거한 역사가 소개된다. 좌룡군의 50세 생일을 앞두고 형산 포인산장으로 군웅들이 모여드는 가운데, 문학에 뛰어난 소문성 좌천소와 무공에 뛰어난 소무성 좌천패 형제가 정소추, 축금심과 함께 화기애애하게 지낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "천추군림지를 내놓으면서 및 序1 전설지장, 序2 영웅지장",
+        "summary": "1984년 공저 재간에 대한 작가의 글. 절대군림탑과 천겁마면 전설. 환우칠대마존의 암흑시대를 인의무적대협 좌룡군이 종식시킨 역사."
+      },
+      {
+        "sectionTitle": "1 장 포인산장의 절대쌍소 (1~2)",
+        "summary": "형산 포인산장의 천소헌에서 주역을 읽는 소문성 좌천소와 정소추의 달콤한 투정, 그리고 화원지기 노인과 좌룡군의 대화. 소무성 좌천패와 축금심의 합류."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 구도",
+        "value": "문무를 각각 대표하는 절대쌍소(소문성 좌천소와 소무성 좌천패) 형제의 대조적 인물상"
+      }
+    ],
+    "keyEntitiesText": "좌룡군(인의무적대협), 좌천소(소문성), 좌천패(소무성), 정소추, 축금심, 혁세기(마왕천존), 환우칠대마존, 포인산장, 축융봉, 형산",
+    "settingText": "10년 무림암흑시대 종식 후, 형산 축융봉 중턱의 포인산장 천소헌"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1P25O3kZasSn6PPZB-U0j6RNpecW7vw0v",
+    "filename": "천추군림지(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.758Z",
+    "size": "881021",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1P25O3kZasSn6PPZB-U0j6RNpecW7vw0v/view?usp=drivesdk",
+    "sourceSha256": "9a5e9180cac1167a36c9da77ab212c2b5a9109af3506a4cc84b877bf4b53a843",
+    "textSha256": "bb3e74fd1c0f34e9b811e1a897770c961bc13afd8cd62c35d13986ab903108bb",
+    "changeKey": "754cf0b3afacabbefaec18b8db2441c9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cbdbfe73368ad1f1f23a",
+    "workId": "cbdbfe73368ad1f1f23a",
+    "driveFileId": "1P25O3kZasSn6PPZB-U0j6RNpecW7vw0v",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:20:01.710589+00:00",
+    "updatedAt": "2026-09-22T16:20:01.710607+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:20:01.710740+00:00"
+    }
+  }
+}

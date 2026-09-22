@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천도검",
+    "author": "김홍연",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "창궁무림가",
+      "사대밀가",
+      "무산",
+      "철수무정도"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "액션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김홍연은 스펙터클한 대결과 신비로운 무림 전설을 그리는 무협 작가이다.",
+    "oneLineSummary": "창궁무림가의 전설 속 사대밀가의 은자 노인이 폭우 속 무산 계곡에서 습격자들과 치열한 사투를 벌이는 이야기.",
+    "overallSummary": "창궁무림가 서사시를 통해 무극신궁, 무극유협 독고웅풍, 마왕천, 사사혈교, 사대밀가(불, 도, 유, 환)의 전설이 소개된다. 폭우가 쏟아지는 무산 계곡에서 사대밀가의 후예인 회유노인이 천공의 명을 받은 거구의 중년인, 금빛 구룡포 사내, 철수무정도 엽상과 사투를 벌여 복부가 갈라지는 치명상을 입으면서도 악착같이 걸음을 옮긴다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 창궁무림가",
+        "summary": "창궁무림가 시 구절과 함께 무극신궁, 독고웅풍, 마왕천, 사사혈교, 사대밀가 등 중원 무림의 전설과 신비에 대한 상세한 설정을 설명."
+      },
+      {
+        "sectionTitle": "제1장 빗속의 혈투, 만남",
+        "summary": "무산 계곡에서 쏟아지는 장대비 속에 사대밀가의 마지막 생존자인 회유노인이 괴한들의 습격을 받아 격전을 벌이다 치명상을 입고 비틀거리며 이동함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관 설정",
+        "value": "일궁·일인·일천·일교·사비로 대표되는 신화적 창궁무림가 구도"
+      }
+    ],
+    "keyEntitiesText": "독고웅풍, 회의노인(호 늙은이), 엽상(철수무정도), 천공, 무극신궁, 사사혈교, 마왕천, 사대밀가, 무산",
+    "settingText": "폭우와 뇌성벽력이 작렬하는 밤의 무산 계곡"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19gHvApsN6hDtqf7ux8RI_OHiG_MoEE3a",
+    "filename": "천도검(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.300Z",
+    "size": "851264",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/19gHvApsN6hDtqf7ux8RI_OHiG_MoEE3a/view?usp=drivesdk",
+    "sourceSha256": "067440c0b7a79c77c4437cf46ec8f99c1364a09aeff632b5bcb93085e77a2034",
+    "textSha256": "ebf2f9224da8ea74ebeea6b12b3de763151646061eda5988a6fe06f0a78b52a5",
+    "changeKey": "de75caa69386578a6be8affc5603e174",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a51f55285972771f625e",
+    "workId": "a51f55285972771f625e",
+    "driveFileId": "19gHvApsN6hDtqf7ux8RI_OHiG_MoEE3a",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:16:32.962128+00:00",
+    "updatedAt": "2026-09-22T16:16:32.962144+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:16:32.962251+00:00"
+    }
+  }
+}

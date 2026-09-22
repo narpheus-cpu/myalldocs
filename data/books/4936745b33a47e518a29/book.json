@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천룡파황보",
+    "author": "와룡강",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "천외팔대무존",
+      "사마장현",
+      "만년삼왕",
+      "묵린혈망"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "기연"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "와룡강은 화려한 무공 연출과 파격적인 설정으로 인기를 끈 한국 대표 1세대 무협 작가이다.",
+    "oneLineSummary": "초탈한 청년문사 사마장현이 무이산에서 만년삼왕의 영정을 뜻밖에 복용하고 묵린혈망과 사투를 벌이는 이야기.",
+    "overallSummary": "천룡대법사와 천외팔대무존(자하존자, 철사대제 등), 천마대종사 등의 무림 전설을 소개한 서장에 이어, 초탈한 선인 같은 청년문사 사마장현이 무이산 옥계 근처에서 영물 묵린혈망에게 공격받던 만년삼왕의 영정(어린아이 형태)을 섭취하는 대기연을 얻는다. 묵린혈망의 공격으로 뼈가 부서지는 고통 속에 빠진 사마장현과 피를 토하며 죽어가는 천룡검황의 모습이 그려진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "천룡대법사, 천외팔대무존, 천마대종사의 대겁난과 암흑무림, 그리고 내려오는 예언 시구 소개."
+      },
+      {
+        "sectionTitle": "제1장 만년삼왕의 기우",
+        "summary": "무이산에 나타난 사마장현이 괴물 묵린혈망에게 당할 뻔한 만년삼왕(어린아이 형상)의 영정을 복용하고 엄청난 약력과 묵린혈망의 조여듦 속에 위기에 처함."
+      },
+      {
+        "sectionTitle": "제2장 천룡보전",
+        "summary": "수천 개의 자상으로 가슴과 복부가 갈라진 혈인 천룡검황이 분노와 한을 품고 피를 토하며 절규함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기연 모티프",
+        "value": "영물 만년삼왕의 영정을 실수로 흡수하여 엄청난 내공 잠력을 얻게 되는 신기한 기연"
+      }
+    ],
+    "keyEntitiesText": "사마장현, 천룡검황, 천외팔대무존, 천룡대법사, 천마대종사, 묵린혈망, 만년삼왕, 무이산",
+    "settingText": "봄날의 명산 무이산 옥계 및 음침한 절곡"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1I4CnztJDfFlClReGGKFMk5I0bxbiFJas",
+    "filename": "천룡파황보 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.327Z",
+    "size": "750768",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1I4CnztJDfFlClReGGKFMk5I0bxbiFJas/view?usp=drivesdk",
+    "sourceSha256": "3b913f82aaa2b7d43ee5ff70eaf6d5a458e0f51ebdbf2cbbf0b57cc9dd5957ba",
+    "textSha256": "7fbc748577a84d8687558bb5039c4620dfabc05b5830593a1645de564bce5e66",
+    "changeKey": "b2639a7f0199f93344b830c83b6b55ec",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4936745b33a47e518a29",
+    "workId": "4936745b33a47e518a29",
+    "driveFileId": "1I4CnztJDfFlClReGGKFMk5I0bxbiFJas",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:16:55.525563+00:00",
+    "updatedAt": "2026-09-22T16:16:55.525581+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:16:55.525733+00:00"
+    }
+  }
+}

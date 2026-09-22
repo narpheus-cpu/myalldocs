@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천부외경",
+    "author": "유하",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "천부외경",
+      "백사회",
+      "현무",
+      "항주"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "역사무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "유하(DARKAGE3)는 천부경 관련 전설과 강호 조직의 암투를 밀도 있게 연재한 무협 작가이다.",
+    "oneLineSummary": "단군왕검의 주해서 천부외경 전설과 대명 초 항주 암흑가의 젊은 회주 현무가 백사회를 이끌어가는 이야기.",
+    "overallSummary": "하늘의 이치를 담은 천부경과 단군왕검이 남겼으나 발해 멸망 후 실종된 주해서 '천부외경'의 전설이 서장에서 언급된다. 풍운일지 기록을 통해 1370년 중원무림맹의 천마무림련 괴멸 과정이 제시된다. 본문에서는 대명 홍무 4년(1374년), 항주 서호 근처의 삼류 건달 조직 백사회를 1년 만에 3대 조직으로 키워낸 학식과 무공을 겸비한 젊은 회주 현무의 무공 수련과 조직 관리가 그려진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "Ⅰ. 서장 (1.하늘의 장, 2.땅의 장, 3.인간의 장: 풍운일지, 4.잉태)",
+        "summary": "천부경과 천부외경의 유래, 황제와 강호의 이분법 구조, 1370년 천마무림련 괴멸과 풍운일지 기록, 오천우와 대씨장원의 소멸."
+      },
+      {
+        "sectionTitle": "Ⅱ. 인고지시 (1.폭설, 2.백사회)",
+        "summary": "1374년 폭설 속 복우산의 창박한 사내와 아이, 항주 서호의 아름다움 속에서 백사회를 이끄는 준수한 회주 현무의 호심지공 수련 및 이규 등 심복들과의 회의."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사 및 전설의 결합",
+        "value": "단군조선 천부외경 전설과 명초 강호 무림맹, 항주 암흑가 백사회의 서사를 교차 편집"
+      }
+    ],
+    "keyEntitiesText": "현무, 이규, 소백, 백현수, 단군왕검, 철나한, 악명흔, 백사회, 항주, 서호, 복우산",
+    "settingText": "대명 홍무 연간(1370년~1374년), 하남성 복우산 및 절강성 항주 서호 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HA7c6XxyWGxa3kUd4n0qbvR4wqiwcbxI",
+    "filename": "천부외경.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.585Z",
+    "size": "1492836",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1HA7c6XxyWGxa3kUd4n0qbvR4wqiwcbxI/view?usp=drivesdk",
+    "sourceSha256": "e105d6789f0d61922f42dfdeb703263b7e577fbcc37b2407a6551a9a7481eac2",
+    "textSha256": "0c70fe9eb8fb5082eb27d6747774a7f0e968e8edabd268749e345588dcfce814",
+    "changeKey": "929172b32d47415d87da576de9dd3346",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "985d85093b402ccf8843",
+    "workId": "985d85093b402ccf8843",
+    "driveFileId": "1HA7c6XxyWGxa3kUd4n0qbvR4wqiwcbxI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:18:06.411261+00:00",
+    "updatedAt": "2026-09-22T16:18:06.411279+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:18:06.411377+00:00"
+    }
+  }
+}

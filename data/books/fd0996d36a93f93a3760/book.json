@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천검월야행",
+    "author": "홍파",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "무제",
+      "백사담",
+      "도신",
+      "장안삼괴"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "액션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "홍파는 선이 굵은 무협 서사와 장엄한 대결을 그리는 무협 작가이다.",
+    "oneLineSummary": "무림의 평화를 위해 자신의 가문마저 희생하려는 무제 백사담의 결단과 장안 저잣거리에서 벌어지는 기인들의 이야기.",
+    "overallSummary": "평생 학문, 검, 무학, 복수, 그리고 천하대의에 미쳐 살아온 무제 백사담은 도신 옥천세와 태산 관일봉에서 만나 마교의 부활과 백년 후 절대마웅의 탄생에 대비해 고육지계로 자신의 가문(만세제일검가)을 미끼로 희생시키겠다고 선언한다. 한편 장안의 밤거리에서는 아내를 빼앗긴 어부 방추홍이 자칭 천하무불통지 점쟁이 노인과 도수를 만나 황금을 소두당하는 소동이 벌어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 무림을 위해 가노라",
+        "summary": "평생 다섯 번 미친 무제 백사담의 내력 소개. 태산 관일봉에서 도신 옥천세를 만나 적혈성의 기운과 마교의 재기를 경고하고 만세제일검가를 희생시킬 고육지계를 밝힘."
+      },
+      {
+        "sectionTitle": "제1장 장안삼괴",
+        "summary": "장안 시장통에서 기거하는 세 노인(점쟁이, 검 파는 노인, 도수)과 술 취해 아내를 찾으러 온 어부 방추홍, 이한상의 만남. 방추홍의 돈주머니가 소매치기당함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 갈등",
+        "value": "마교의 도래를 막기 위해 스스로의 가문을 희생시키는 정파 비장미"
+      }
+    ],
+    "keyEntitiesText": "백사담(무제), 옥천세(도신), 방추홍, 이한상, 장안삼괴, 탁무혼, 마교, 태산 관일봉, 장안",
+    "settingText": "태산 관일봉의 그믐밤 및 고도 장안의 자시 무렵 시장통"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1k3SEpky8IoDnXueJBQpAS-ysG-EtiH07",
+    "filename": "천검월야행(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.211Z",
+    "size": "694250",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1k3SEpky8IoDnXueJBQpAS-ysG-EtiH07/view?usp=drivesdk",
+    "sourceSha256": "74202d57aa06130f8c204373445209d8922dbde709113aec3299435cb88140f4",
+    "textSha256": "a4717771570b7633178dee7f1de507c522771b8440a9984313902760e062807b",
+    "changeKey": "3cff3dbf7706db56bf01df1e5cd44dc5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fd0996d36a93f93a3760",
+    "workId": "fd0996d36a93f93a3760",
+    "driveFileId": "1k3SEpky8IoDnXueJBQpAS-ysG-EtiH07",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:16:00.257708+00:00",
+    "updatedAt": "2026-09-22T16:16:00.257728+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:16:00.257832+00:00"
+    }
+  }
+}
