@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "룸메이트",
+    "author": "맥스 애플",
+    "genre": "소설",
+    "tags": [
+      "가족",
+      "룸메이트",
+      "세대차이",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성장소설",
+        "가족소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 라이스 대학 영문학과 교수이자 소설가.",
+    "oneLineSummary": "대학생 손자와 아흔세 살 할아버지의 기묘한 동거 이야기.",
+    "overallSummary": "대학에 진학한 손자가 아흔세 살의 할아버지와 룸메이트가 되어 함께 생활하며 겪는 세대 차이와 가족 간의 사랑을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1.우연한 만남",
+        "summary": "대학생인 주인공이 할아버지와 룸메이트가 되기까지의 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "세대 간의 소통과 가족애"
+      }
+    ],
+    "keyEntitiesText": "주인공, 할아버지(로키), 데비",
+    "settingText": "휴스턴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bYMcIiYIv3LFpxbQBMUR6Wg8AoBY6UtW",
+    "filename": "맥스 애플-룸메이트 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.119Z",
+    "size": "558728",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1bYMcIiYIv3LFpxbQBMUR6Wg8AoBY6UtW/view?usp=drivesdk",
+    "sourceSha256": "2ff7a7cb9c2cd52fb0212420602f84c15acfffad0f387fd84c99755643b6cf9c",
+    "textSha256": "56879894a9a6c0ce2aab6ac3eb099e8eb4d68fc45c0ef27b503cc1eb03f73175",
+    "changeKey": "e23c70807f327feae779b55ebbbdb895",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "516c4ce9943ac744949b",
+    "workId": "516c4ce9943ac744949b",
+    "driveFileId": "1bYMcIiYIv3LFpxbQBMUR6Wg8AoBY6UtW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:00:36.386531+00:00",
+    "updatedAt": "2026-09-22T00:00:36.386546+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:00:36.386658+00:00"
+    }
+  }
+}

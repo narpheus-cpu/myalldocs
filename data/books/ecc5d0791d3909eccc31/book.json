@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "악어클럽",
+    "author": "막스 폰 데어 그륀",
+    "genre": "동화",
+    "tags": [
+      "어린이",
+      "장애",
+      "우정",
+      "독일동화"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "동화",
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 작가로, 장애를 가진 아들을 둔 아버지로서 아이들의 우정과 성장을 다룬다.",
+    "oneLineSummary": "장애를 가진 친구와 함께 악어 클럽을 만들어가는 아이들의 우정 이야기.",
+    "overallSummary": "신체 장애를 가진 소년 하네스가 악어 클럽에 가입하기 위해 담력 시험을 치르고, 친구들과 함께 우정을 쌓아가는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이 책을 읽는 친구들에게",
+        "summary": "작가가 장애를 가진 아들을 위해 이 이야기를 썼음을 밝히며 아이들에게 친절과 도움을 당부한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "장애에 대한 이해와 우정"
+      }
+    ],
+    "keyEntitiesText": "하네스, 올라프, 마리아, 프랑크",
+    "settingText": "독일의 어느 주택 단지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nWuatCWQMq1R6xT90ZrcS6rLIzTsDm67",
+    "filename": "막스 폰 데어그륀-악어클럽(독일동화집).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.094Z",
+    "size": "186363",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1nWuatCWQMq1R6xT90ZrcS6rLIzTsDm67/view?usp=drivesdk",
+    "sourceSha256": "e0e12de5fe281449f2ec76461642364bfc9bcd986dd6745761bea559610392d2",
+    "textSha256": "51f34e5d8a55cdb75241430e43b26f6bdd5e4a0dfd54fff6c5048c8dc89a6faf",
+    "changeKey": "fcbf93c669f0ac5275efe644a7cba145",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ecc5d0791d3909eccc31",
+    "workId": "ecc5d0791d3909eccc31",
+    "driveFileId": "1nWuatCWQMq1R6xT90ZrcS6rLIzTsDm67",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:00:23.931331+00:00",
+    "updatedAt": "2026-09-22T00:00:23.931348+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:00:23.931449+00:00"
+    }
+  }
+}

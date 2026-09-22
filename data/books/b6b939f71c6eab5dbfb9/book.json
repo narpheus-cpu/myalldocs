@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "심장은 마지막 순간에(ocr)",
+    "author": "마거릿 애트우드",
+    "genre": "소설",
+    "tags": [
+      "디스토피아",
+      "경제붕괴",
+      "SF"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "캐나다의 거장 작가 마거릿 애트우드.",
+    "oneLineSummary": "경제 붕괴 후 생존을 위해 차에서 생활하는 부부의 이야기.",
+    "overallSummary": "경제적 파국으로 인해 삶의 터전을 잃은 부부가 겪는 고난과 그 이후의 실험적 공동체 참여를 암시하는 도입부.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I",
+        "summary": "차에서 생활하며 생존을 위해 고군분투하는 스탠과 샤메인의 절박한 상황을 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "절박하고 암울한 디스토피아"
+      }
+    ],
+    "keyEntitiesText": "스탠, 샤메인, 코너",
+    "settingText": "경제 붕괴 이후의 미래 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1v3WXgbazbtIJ1kzZP1zc3OtmsVsVvhea",
+    "filename": "마거릿 애트우드-심장은 마지막 순간에(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.917Z",
+    "size": "931929",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1v3WXgbazbtIJ1kzZP1zc3OtmsVsVvhea/view?usp=drivesdk",
+    "sourceSha256": "db0825ad02ab1071e8b64bea646a6eb9b75a366b9c41ab6e08d24ea00838d2c2",
+    "textSha256": "94ad84eb090fd70596de65ff2a3ef9bfc477ed70b01f4b5a54a3ddd7ef99d056",
+    "changeKey": "663e9c1026444a974ece1f1cc5321d9d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b6b939f71c6eab5dbfb9",
+    "workId": "b6b939f71c6eab5dbfb9",
+    "driveFileId": "1v3WXgbazbtIJ1kzZP1zc3OtmsVsVvhea",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:59:28.184632+00:00",
+    "updatedAt": "2026-09-21T23:59:28.184648+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:59:28.184751+00:00"
+    }
+  }
+}

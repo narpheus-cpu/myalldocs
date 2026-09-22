@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "글쓰기에 대하여",
+    "author": "마거릿 애트우드",
+    "genre": "에세이",
+    "tags": [
+      "글쓰기",
+      "작가론",
+      "문학",
+      "강연"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문학비평",
+        "자전적 에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "캐나다 출신의 세계적인 소설가이자 시인, 에세이스트로 부커상을 두 차례 수상했다.",
+    "oneLineSummary": "작가로서의 삶과 글쓰기의 본질에 대해 탐구하는 여섯 번의 강연록.",
+    "overallSummary": "작가가 글을 쓰는 이유와 과정, 그리고 작가라는 존재가 처한 위치와 갈등을 자전적 경험과 문학적 통찰을 통해 풀어낸 책.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가며",
+        "summary": "강연을 바탕으로 구성된 이 책의 기획 의도와 글쓰기에 대한 작가의 근본적인 질문들을 제시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 질문",
+        "value": "누구를 위해, 왜, 어디에서 글쓰기가 오는가?"
+      }
+    ],
+    "keyEntitiesText": "마거릿 애트우드, 윌리엄 엠프슨, 메이비스 갤런트",
+    "settingText": "케임브리지 대학(엠프슨 강의)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DMyhjLKhTCQ6c8crsvHhMqdRAFsS7mCj",
+    "filename": "마거릿 애트우드-글쓰기에 대하여 -- 마거릿 애트우드(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.852Z",
+    "size": "443396",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1DMyhjLKhTCQ6c8crsvHhMqdRAFsS7mCj/view?usp=drivesdk",
+    "sourceSha256": "99f037187856c4f31fe8d1a62ad48759136bba2ba4e68da281c1a70604206c22",
+    "textSha256": "65b2da1ff5b5ea14a92514a80a96199fbcd6d83a7ec87ba6e1f84806e58b75be",
+    "changeKey": "9009859fcf407be72f94d15e331945c3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3c7314e9c5db31c9f224",
+    "workId": "3c7314e9c5db31c9f224",
+    "driveFileId": "1DMyhjLKhTCQ6c8crsvHhMqdRAFsS7mCj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:59:08.457951+00:00",
+    "updatedAt": "2026-09-21T23:59:08.457967+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:59:08.458072+00:00"
+    }
+  }
+}

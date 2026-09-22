@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "백년동안의 고독",
+    "author": "가브리엘 가르시아 마르케스",
+    "genre": "소설",
+    "tags": [
+      "마술적 리얼리즘",
+      "부엔디아 가문",
+      "마콘도",
+      "노벨문학상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "마술적 리얼리즘",
+        "대서사시"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "콜롬비아 출신의 노벨문학상 수상 작가로, 라틴 아메리카 문학의 거장이다.",
+    "oneLineSummary": "부엔디아 가문의 100년에 걸친 영고성쇠와 마콘도 마을의 신화적 역사.",
+    "overallSummary": "마콘도라는 가상의 마을을 배경으로 부엔디아 가문 7대에 걸친 비극적이고 환상적인 역사를 통해 인간의 고독과 라틴 아메리카의 역사를 상징적으로 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "아우렐리아노 부엔디아 대령이 총살형을 앞두고 어린 시절 아버지를 따라 얼음을 보러 갔던 기억을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 특징",
+        "value": "마술적 리얼리즘의 정수"
+      }
+    ],
+    "keyEntitiesText": "아우렐리아노 부엔디아 대령, 호세 아르카디오 부엔디아, 우르슬라 이구아란, 멜키아데스",
+    "settingText": "마콘도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1u05TJMsf6iWIJ9ma6FRevFzF2hjkoBMu",
+    "filename": "마르케스-백년동안의 고독(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T20:03:10.000Z",
+    "size": "1143450",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1u05TJMsf6iWIJ9ma6FRevFzF2hjkoBMu/view?usp=drivesdk",
+    "sourceSha256": "1807a3e7f91e7b708fc3bc9e6a0fa0494c6654ce579ebf12687681a3ba2d23c0",
+    "textSha256": "880e854efe0907a5f460bd28e0e83c7c7afb55c4678e4be53385710d638e0236",
+    "changeKey": "020c603b731f651958db4dfaa2376fe8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cbb8f01b765eae3959a1",
+    "workId": "cbb8f01b765eae3959a1",
+    "driveFileId": "1u05TJMsf6iWIJ9ma6FRevFzF2hjkoBMu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:59:40.931153+00:00",
+    "updatedAt": "2026-09-21T23:59:40.931168+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:59:40.931262+00:00"
+    }
+  }
+}

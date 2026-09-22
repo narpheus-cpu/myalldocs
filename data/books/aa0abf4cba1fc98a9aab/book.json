@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "터미널 맨",
+    "author": "마이크 크라이튼",
+    "genre": "소설",
+    "tags": [
+      "의학",
+      "뇌수술",
+      "컴퓨터",
+      "SF"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "메디컬 스릴러"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "의학 지식과 과학적 상상력을 바탕으로 베스트셀러를 양산하는 작가.",
+    "oneLineSummary": "뇌에 전극을 이식받은 간질 환자가 통제력을 잃고 폭주하는 이야기.",
+    "overallSummary": "간질 발작을 치료하기 위해 뇌에 컴퓨터 전극을 이식받은 해리 벤슨이, 수술 후 오히려 통제 불능의 살인마로 변해가는 과정을 다룬 메디컬 스릴러.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1971년 3월 9일, 화요일 [입원]",
+        "summary": "해리 벤슨이 수술을 받기 위해 병원에 입원하는 과정을 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "과학 기술과 인간의 통제력"
+      }
+    ],
+    "keyEntitiesText": "해리 벤슨, 엘리스 박사, 모리스 박사",
+    "settingText": "1971년 병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KyLiiQccCxLYYPrnzh1VvMHhHlKF8PSw",
+    "filename": "마이클 클라이튼-터미널 맨 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.062Z",
+    "size": "532692",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1KyLiiQccCxLYYPrnzh1VvMHhHlKF8PSw/view?usp=drivesdk",
+    "sourceSha256": "72201c14de5882bf63f5a611bb91eae49bb2551c9e4723c142b2d33ff27d9c81",
+    "textSha256": "dd3c14d3ac7ce0b1444eeb24500117bf35a0289d7128ffe1582f05a8bd636a0a",
+    "changeKey": "09675de872977c289dd93584da35ba21",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aa0abf4cba1fc98a9aab",
+    "workId": "aa0abf4cba1fc98a9aab",
+    "driveFileId": "1KyLiiQccCxLYYPrnzh1VvMHhHlKF8PSw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:00:11.417516+00:00",
+    "updatedAt": "2026-09-22T00:00:11.417531+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:00:11.417636+00:00"
+    }
+  }
+}

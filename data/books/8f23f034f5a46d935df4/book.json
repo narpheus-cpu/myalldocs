@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "증언들",
+    "author": "마거릿 애트우드",
+    "genre": "소설",
+    "tags": [
+      "디스토피아",
+      "길리어드",
+      "여성",
+      "SF"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "사회비판"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "캐나다의 거장 작가 마거릿 애트우드의 『시녀 이야기』 후속작.",
+    "oneLineSummary": "길리어드 체제의 붕괴를 내부자의 시선으로 증언하는 이야기.",
+    "overallSummary": "전작 『시녀 이야기』의 배경인 길리어드 체제가 어떻게 내부로부터 무너져가는지를 리디아 아주머니를 포함한 세 여성의 증언을 통해 밝힌다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I 동상",
+        "summary": "자신을 기리는 동상이 세워진 상황에서 리디아 아주머니가 자신의 과거와 길리어드 체제에 대한 증언을 기록하기 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "증언 녹취록 및 기록물 형식"
+      }
+    ],
+    "keyEntitiesText": "리디아 아주머니, 비달라 아주머니, 에스테 아주머니",
+    "settingText": "길리어드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ngwvQ_iVyH0ZFNgPjYqcdN7wLhxuGh4w",
+    "filename": "마거릿 애트우드-증언들(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.948Z",
+    "size": "824664",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ngwvQ_iVyH0ZFNgPjYqcdN7wLhxuGh4w/view?usp=drivesdk",
+    "sourceSha256": "763d9544bd5fac3936729ac28b17812ba0d1b99d0c160a97ce5a61855c3e9fb0",
+    "textSha256": "1baf66eb635dc115d88994b9b98d939f2f558de7c579b6afc83e12dfd3f824e1",
+    "changeKey": "0dc16604815ac827ec00ce2c9305cf0b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8f23f034f5a46d935df4",
+    "workId": "8f23f034f5a46d935df4",
+    "driveFileId": "1ngwvQ_iVyH0ZFNgPjYqcdN7wLhxuGh4w",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:59:34.529253+00:00",
+    "updatedAt": "2026-09-21T23:59:34.529268+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:59:34.529374+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아침을 기다리는 사람들",
+    "author": "막심 고리키",
+    "genre": "소설",
+    "tags": [
+      "러시아",
+      "빈민",
+      "방랑",
+      "사회비판"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편소설",
+        "사회비판"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "러시아의 대표적인 작가로, 밑바닥 인생의 고통을 생생하게 묘사했다.",
+    "oneLineSummary": "가난과 방랑 속에서 살아가는 러시아 빈민들의 고통과 삶.",
+    "overallSummary": "러시아의 밑바닥 인생을 전전하며 겪는 가난과 고통, 그리고 그 속에서도 희망을 잃지 않으려는 사람들의 모습을 담은 단편 모음집.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 어느 가을날",
+        "summary": "가난과 굶주림에 시달리던 주인공이 우연히 만난 소녀와 함께 빵을 훔쳐 먹으며 겪는 하룻밤의 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "암울하고 비극적인 현실"
+      }
+    ],
+    "keyEntitiesText": "주인공, 나타샤, 파슈카",
+    "settingText": "러시아의 어느 나루터 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CzMcAagMtNbSGHMQxljS70XKdzgkURA9",
+    "filename": "막심 고리키-아침을 기다리는 사람들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.742Z",
+    "size": "132814",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1CzMcAagMtNbSGHMQxljS70XKdzgkURA9/view?usp=drivesdk",
+    "sourceSha256": "98d34ca4c2eecd7f5c3957bc6de77017435c38cb8e53c8249def851ef88f4883",
+    "textSha256": "1b4bc9e67ecec6654e8764e18447593f7af27349bfaceefe6de9d012dff8458c",
+    "changeKey": "f018ea586820d5794cb65ed7f7f82160",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4afe1d2bea4b4bfe39d5",
+    "workId": "4afe1d2bea4b4bfe39d5",
+    "driveFileId": "1CzMcAagMtNbSGHMQxljS70XKdzgkURA9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:00:29.820591+00:00",
+    "updatedAt": "2026-09-22T00:00:29.820606+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:00:29.820700+00:00"
+    }
+  }
+}

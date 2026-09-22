@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "키리냐가",
+    "author": "마이크 레스닉",
+    "genre": "SF",
+    "tags": [
+      "유토피아",
+      "키쿠유",
+      "전통",
+      "SF"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "우화"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "휴고상을 비롯해 60여 개의 상을 수상한 최고의 SF 작가.",
+    "oneLineSummary": "전통을 지키기 위해 소행성에 건설한 유토피아 키리냐가에서의 갈등.",
+    "overallSummary": "지구의 환경 파괴에 지친 키쿠유 부족이 소행성에 자신들만의 전통적인 유토피아를 건설하지만, 그 안에서 벌어지는 갈등과 변화를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "코리바가 아들 에드워드와 함께 지구를 떠나 키리냐가로 향하는 마지막 순간을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "유토피아 우화 SF"
+      }
+    ],
+    "keyEntitiesText": "코리바, 에드워드, 응가이",
+    "settingText": "소행성 키리냐가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KFzHSfu_QE1GQ89746CGpR5wvs4wksb_",
+    "filename": "마이크 레스닉-키리냐가 -- 마이크 레스닉 최용준 옮김 -- 2018 -열린책들 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.997Z",
+    "size": "703995",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1KFzHSfu_QE1GQ89746CGpR5wvs4wksb_/view?usp=drivesdk",
+    "sourceSha256": "676ee61afa2221c3e24a658032efd6ad515702539d0c8f578274f344f155e610",
+    "textSha256": "1c2b929d879bdb7900a17cebc366188ad75a7bb0bd2e3d4465c0c95a53a12ede",
+    "changeKey": "31100c14fbeca2dc38ef70c4b34bf51a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "41edd0b166c7276321f3",
+    "workId": "41edd0b166c7276321f3",
+    "driveFileId": "1KFzHSfu_QE1GQ89746CGpR5wvs4wksb_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:59:53.230101+00:00",
+    "updatedAt": "2026-09-21T23:59:53.230115+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:59:53.230206+00:00"
+    }
+  }
+}

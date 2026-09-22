@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아칸소는 깊은 생각에 잠겨",
+    "author": "마야 앤젤로",
+    "genre": "소설",
+    "tags": [
+      "성장소설",
+      "흑인",
+      "인종차별",
+      "자전적"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "자전적 소설",
+        "성장기"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 시인이자 작가, 인권 운동가로 흑인 여성의 삶을 깊이 있게 다루었다.",
+    "oneLineSummary": "인종차별과 고난 속에서 성장하는 흑인 소녀의 자전적 이야기.",
+    "overallSummary": "부모를 떠나 할머니 밑에서 자라며 겪는 인종차별과 성폭행 등 아픈 성장 과정을 통해 자아를 찾아가는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가며",
+        "summary": "성숙이라는 아픔과 어린 시절의 기억을 회상하며 성장 과정의 고통을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "흑인 여성의 정체성 확립"
+      }
+    ],
+    "keyEntitiesText": "마야 앤젤로, 베일리, 마마(할머니), 윌리 삼촌",
+    "settingText": "아칸소 주 스탬스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qDk7tGIBSQHRyGPCwd9NBN2fvKxj0Ope",
+    "filename": "마야 앤젤로-아칸소는 깊은 생각에 잠겨 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:12.974Z",
+    "size": "629538",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1qDk7tGIBSQHRyGPCwd9NBN2fvKxj0Ope/view?usp=drivesdk",
+    "sourceSha256": "c08a2a38b6782ea7210894e8f89f3555f9ca99f95c5541868f7a1c6262ed1d50",
+    "textSha256": "e508e0c4db9edefd8878ad004d848f5b2c62ed594367850a0d9d0023924b6977",
+    "changeKey": "9bb4fd1ff1c8c9b0b112de8c0b7bf725",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0e0ea3c59e3c24152fcf",
+    "workId": "0e0ea3c59e3c24152fcf",
+    "driveFileId": "1qDk7tGIBSQHRyGPCwd9NBN2fvKxj0Ope",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:59:46.876768+00:00",
+    "updatedAt": "2026-09-21T23:59:46.876784+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:59:46.876890+00:00"
+    }
+  }
+}

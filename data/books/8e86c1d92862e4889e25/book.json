@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "슬픔보다 깊은 사랑",
+    "author": "맷지 스윈델스",
+    "genre": "소설",
+    "tags": [
+      "사랑",
+      "시련",
+      "성장",
+      "로맨스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스",
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 작가로, 사랑과 시련을 다룬 대서사시를 집필했다.",
+    "oneLineSummary": "도버에서 시작된 두 남녀의 운명적인 사랑과 그들이 겪는 시련의 대서사시.",
+    "overallSummary": "도버에서 만난 마조리와 로버트, 그리고 해미쉬와의 관계를 통해 사랑과 시련, 운명을 다룬 대서사시.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 그대의 눈길",
+        "summary": "도버의 절벽에서 마조리와 로버트가 운명적으로 만나는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "낭만적이고 운명적인 로맨스"
+      }
+    ],
+    "keyEntitiesText": "마조리 하디, 로버트 맥라렌, 해미쉬 카메론",
+    "settingText": "도버"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FCAA_x9Gjlg17jNpNFHGqEgU0_-q9tTO",
+    "filename": "맷지 스윈델스-슬픔보다 깊은 사랑.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.205Z",
+    "size": "583783",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1FCAA_x9Gjlg17jNpNFHGqEgU0_-q9tTO/view?usp=drivesdk",
+    "sourceSha256": "fc4252dedc3921ac96263a2d44c85f82ed33cb26db8d5a99475b6fd8a9fcdb42",
+    "textSha256": "2ace3520258fea28d546fffd8fc3158a2aa4a41f49e1fc21e37b7c0d9b699e9d",
+    "changeKey": "c0da0ba91ab840fc1851d6e8789e3a5d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8e86c1d92862e4889e25",
+    "workId": "8e86c1d92862e4889e25",
+    "driveFileId": "1FCAA_x9Gjlg17jNpNFHGqEgU0_-q9tTO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:00:59.782697+00:00",
+    "updatedAt": "2026-09-22T00:00:59.782711+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:00:59.782797+00:00"
+    }
+  }
+}

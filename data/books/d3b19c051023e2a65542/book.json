@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대열차 강도 1",
+    "author": "마이크 크라이튼",
+    "genre": "소설",
+    "tags": [
+      "범죄",
+      "열차 강도",
+      "빅토리아 시대",
+      "스릴러"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "범죄소설",
+        "역사소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "의학 지식과 과학적 상상력을 바탕으로 베스트셀러를 양산하는 작가.",
+    "oneLineSummary": "빅토리아 시대 영국에서 벌어진 치밀한 대열차 금괴 강도 사건.",
+    "overallSummary": "1855년 영국에서 발생한 실제 열차 강도 사건을 바탕으로, 범죄자들이 어떻게 치밀하게 계획을 세우고 실행에 옮기는지를 긴박하게 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제I부 준비",
+        "summary": "에드워드 피어스가 강도 사건을 위해 공범자를 모으고 치밀한 계획을 세우는 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "범죄 스릴러"
+      }
+    ],
+    "keyEntitiesText": "에드워드 피어스, 에드가 트렌트",
+    "settingText": "1854년 영국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1be9Vb-daw4s1UNZ_OQgmKhsPhmmI00ja",
+    "filename": "마이클 크라이튼-대열차 강도 1 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.041Z",
+    "size": "356388",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1be9Vb-daw4s1UNZ_OQgmKhsPhmmI00ja/view?usp=drivesdk",
+    "sourceSha256": "03214e6c876aa990fbcadd10f24ac261ff19f65223860aaaa27339975f54254e",
+    "textSha256": "1716a5bda6e0318f89af0ac69b24c486b49274222848c822196342d392c8a28a",
+    "changeKey": "4e3255b03d1df5930b77f15b88c910ec",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d3b19c051023e2a65542",
+    "workId": "d3b19c051023e2a65542",
+    "driveFileId": "1be9Vb-daw4s1UNZ_OQgmKhsPhmmI00ja",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:00:05.511317+00:00",
+    "updatedAt": "2026-09-22T00:00:05.511333+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:00:05.511438+00:00"
+    }
+  }
+}

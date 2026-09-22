@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아서왕을 만난 사나이",
+    "author": "마크 트웨인",
+    "genre": "소설",
+    "tags": [
+      "시간여행",
+      "아서왕",
+      "풍자",
+      "코미디"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "풍자소설",
+        "시간여행"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 유머 작가이자 사회 비평가.",
+    "oneLineSummary": "현대인이 6세기 아서왕 시대로 시간여행을 떠나 벌어지는 소동.",
+    "overallSummary": "현대 문명을 가진 양키가 6세기 아서왕 시대로 떨어져, 자신의 지식과 기술을 이용해 중세 사회를 바꾸려 하며 벌어지는 풍자적 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이상한 사나이의 이야기",
+        "summary": "주인공이 워리크 성에서 이상한 사나이를 만나고, 그 사나이가 겪은 시간여행 이야기를 듣게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "중세 사회에 대한 날카로운 풍자"
+      }
+    ],
+    "keyEntitiesText": "주인공(양키), 아서왕, 멀린, 클라렌스",
+    "settingText": "6세기 영국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pQXUQCxiYb21M773B0gVzy_JQc_HR0qM",
+    "filename": "마크 트웨인-아서왕을 만난 사나이.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.081Z",
+    "size": "298212",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1pQXUQCxiYb21M773B0gVzy_JQc_HR0qM/view?usp=drivesdk",
+    "sourceSha256": "31cfcdeb0d08b73e15b9deef293cbdda6489a2a8161a72083ceed251c031b879",
+    "textSha256": "2161bcb7977295b3044cfc670e8fb0eff04a2e35cc77664ba78e832ae5aaf984",
+    "changeKey": "6156fe8fc4514420289d82fca9761d16",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e6025a7cfe8b6ab365f",
+    "workId": "2e6025a7cfe8b6ab365f",
+    "driveFileId": "1pQXUQCxiYb21M773B0gVzy_JQc_HR0qM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:00:17.264896+00:00",
+    "updatedAt": "2026-09-22T00:00:17.264912+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:00:17.265015+00:00"
+    }
+  }
+}

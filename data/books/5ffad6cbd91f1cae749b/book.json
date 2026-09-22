@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잉글리쉬 페이션트",
+    "author": "마이클 온다치",
+    "genre": "소설",
+    "tags": [
+      "제2차 세계대전",
+      "사막",
+      "사랑",
+      "기억"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "전쟁소설",
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스리랑카 태생의 캐나다 작가로 부커상을 수상한 대표작.",
+    "oneLineSummary": "전쟁의 폐허 속에서 기억을 잃은 환자와 그를 돌보는 사람들의 사랑과 상처.",
+    "overallSummary": "제2차 세계대전 말기, 이탈리아의 한 버려진 빌라에서 기억을 잃은 영국인 환자와 그를 간호하는 해나, 그리고 주변 인물들의 얽힌 운명과 사랑을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I. 빌라",
+        "summary": "전쟁의 상흔이 남은 이탈리아의 빌라에서 해나가 영국인 환자를 간호하며 겪는 일상을 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "시적인 문체와 파편화된 기억의 서사"
+      }
+    ],
+    "keyEntitiesText": "영국인 환자, 해나, 카라바조, 캐더린",
+    "settingText": "제2차 세계대전 말기, 이탈리아의 빌라"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kI2QN2QloTsvWAPnISAWfzoyRWLzeSCC",
+    "filename": "마이클 온다치-잉글리쉬 페이션트 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.021Z",
+    "size": "566599",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1kI2QN2QloTsvWAPnISAWfzoyRWLzeSCC/view?usp=drivesdk",
+    "sourceSha256": "51181dd1b566ae4f6bfc748ecaee1321e8b07884caf9ff35cdabce1413fe1cb1",
+    "textSha256": "8656454ffd6cf920dd6062fe3fdebf6cf37a36b80c6f60e6f2ebc1e4dfaf6729",
+    "changeKey": "5fc3821cb0e842234ef1c02532bcfce8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5ffad6cbd91f1cae749b",
+    "workId": "5ffad6cbd91f1cae749b",
+    "driveFileId": "1kI2QN2QloTsvWAPnISAWfzoyRWLzeSCC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-21T23:59:59.069929+00:00",
+    "updatedAt": "2026-09-21T23:59:59.069944+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-21T23:59:59.070054+00:00"
+    }
+  }
+}
