@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바른 마음",
+    "author": "조너선 하이트",
+    "genre": "심리학/도덕철학",
+    "tags": [
+      "도덕심리학",
+      "코끼리와기수",
+      "도덕성기반이론",
+      "진보와보수",
+      "집단선택"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "뉴욕 대학 스턴 경영대학원 교수로 도덕심리학 및 긍정심리학 분야에서 세계적 명성을 지닌 사회심리학자이다.",
+    "oneLineSummary": "도덕성이 이성적 추론이 아닌 직관에서 출발하며, 정치와 종교에서 진보와 보수가 왜 서로 다르게 반응하는지 심리학적으로 해명한다.",
+    "overallSummary": "이 책은 도덕심리학의 세 가지 핵심 원칙인 '직관이 먼저이고 추론은 사후에 온다(코끼리와 기수)', '도덕성은 피해와 공평성 외에도 다양한 차원(충성, 권위, 고귀함 등)이 있다', '도덕은 집단을 뭉치게도 하고 눈멀게도 한다'를 제기한다. 이를 통해 정치적·종교적 진영 간 양극화와 갈등의 도덕적 뿌리를 밝히고 서로에 대한 이해의 길을 찾는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부: 직관이 먼저이고 전략적 추론은 그다음이다",
+        "summary": "도덕적 판단은 직관(코끼리)에 의해 즉각 이루어지며 이성적 추론(기수)은 이를 사후 정당화하는 역할을 함을 설명한다."
+      },
+      {
+        "sectionTitle": "2부 & 3부: 도덕성의 6가지 기반 및 인간의 군집성",
+        "summary": "진보와 보수가 반응하는 도덕성 기반의 차이를 밝히고 인간이 이기적 개인이면서 동시에 벌집처럼 뭉치는 집단성(집단선택)을 가졌음을 증명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "도덕심리학적통찰",
+        "value": "상대방의 정치적·도덕적 입장을 비난하기 전에 그 배경에 존재하는 도덕적 직관의 차이와 생태적 뿌리를 양해해야 한다."
+      }
+    ],
+    "keyEntitiesText": "조너선 하이트, 로드니 킹, 코끼리와 기수, 도덕성 기반 이론",
+    "settingText": "현대 서구 및 글로벌 사회의 극심한 정치적·이념적 양극화 현상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Ud-s51PBcRkSlP0zkb7JsezjDJMLGEsK",
+    "filename": "조너선 하이트-바른 마음(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:30.573Z",
+    "size": "1004884",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1Ud-s51PBcRkSlP0zkb7JsezjDJMLGEsK/view?usp=drivesdk",
+    "sourceSha256": "5a5307193444ffd590feb6a6374036b7d257abe32ec21d0589e43d4b25150605",
+    "textSha256": "64d4dae85bc61b70a1bf5b6ff5472b559531b5fff414ae05afc7ca707271e141",
+    "changeKey": "71b18b1916838b14a0a69645f74118ae",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "eeb29ce0447ab5f67dff",
+    "workId": "eeb29ce0447ab5f67dff",
+    "driveFileId": "1Ud-s51PBcRkSlP0zkb7JsezjDJMLGEsK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:45:52.557815+00:00",
+    "updatedAt": "2026-09-22T22:45:52.557832+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:45:52.557936+00:00"
+    }
+  }
+}

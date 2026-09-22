@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도덕철학",
+    "author": "제임스 레이첼즈",
+    "genre": "철학/윤리학",
+    "tags": [
+      "도덕철학",
+      "문화적상대주의",
+      "공리주의",
+      "칸트윤리학",
+      "사회계약론"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적 윤리학자로 아라바마 대학교 등에서 가르치며 윤리학 분야의 도덕철학 교재 및 연구서를 저술한 철학자이다.",
+    "oneLineSummary": "도덕의 최소 개념을 바탕으로 문화적 상대주의, 공리주의, 칸트 존중 윤리, 사회계약론 등 주요 도덕철학 이론들을 명쾌하게 탐구한다.",
+    "overallSummary": "이 책은 소크라테스의 '우리가 어떻게 살아야 하는가'라는 질문을 바탕으로, 도덕철학의 기본 개념과 주요 윤리 이론들을 흥미로운 실화 예시(갓난아이 제인 도우 사건 등)를 통해 검토한다. 상대주의, 주관주의, 이기주의, 공리주의, 칸트의 의무론 및 사회계약론을 공정하게 평가하고 만족스러운 도덕 이론의 조건을 찾아간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "옮긴이·지은이의 말 & 제1장: 도덕이란 무엇인가?",
+        "summary": "제인 도우 치료 거부 논쟁을 예시로 이성적 논거와 공평성을 바탕으로 하는 도덕의 '최소 개념'을 논증한다."
+      },
+      {
+        "sectionTitle": "제2장~제12장: 도덕 이론들의 탐구",
+        "summary": "문화적 상대주의, 이기주의, 공리주의, 칸트 윤리, 사회계약설의 장단점을 다루고 최선의 도덕 이론의 방향을 제시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "도덕의최소개념",
+        "value": "도덕은 어떤 행위를 해야 할 최선의 이유를 이성에 따라 선택하고, 영향을 받는 모든 이의 이익에 공평한 무게를 두는 것이다."
+      }
+    ],
+    "keyEntitiesText": "제임스 레이첼즈, 소크라테스, 제인 도우, 에버레트 쿠프",
+    "settingText": "현대 미국 및 서구의 생명윤리 논쟁 및 윤리학적 사유 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_E_M6TIZMqwHnAuZsayF6O2orWJAG1IU",
+    "filename": "제임스 레이첼즈-도덕철학(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T05:53:20.000Z",
+    "size": "550555",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1_E_M6TIZMqwHnAuZsayF6O2orWJAG1IU/view?usp=drivesdk",
+    "sourceSha256": "50bc65762d6edd60a2f8c9a437912ea7c3eb9328c079b3b535577ab48a23d0c8",
+    "textSha256": "5831e58aef2282f2a88ef46600dae37f6326b6ee9af5cea6bba673d79b8eb924",
+    "changeKey": "bcd6aad9e41b47a44bbe3498eddcace9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "877edbb8861a3d0c3680",
+    "workId": "877edbb8861a3d0c3680",
+    "driveFileId": "1_E_M6TIZMqwHnAuZsayF6O2orWJAG1IU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:45:38.550326+00:00",
+    "updatedAt": "2026-09-22T22:45:38.550343+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:45:38.550443+00:00"
+    }
+  }
+}

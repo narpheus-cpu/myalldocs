@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "자유의 적들",
+    "author": "전원책",
+    "genre": "시사/정치/철학",
+    "tags": [
+      "보수주의",
+      "자유주의",
+      "좌파비판",
+      "지식인비판",
+      "마르크스주의"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "변호사이자 시사평론가, 시인으로 활동하며 독자적인 보수·자유주의적 가치관을 고수해 온 논객이다.",
+    "oneLineSummary": "마르크스주의적 위선과 가진 자들의 탐욕, 배운 자들의 거짓에 맞서 진정한 보수와 각인의 개성이 살아 숨 쉬는 자유를 주장한다.",
+    "overallSummary": "이 책은 좌파 지식인들의 위선, 교조적 집단주의, 거짓 선전을 신랄하게 비판하며 보수와 자유주의의 본질을 역설하는 정통 비판서이다. 국가의 폭력과 헌법적 조건, 쿠데타, 혁명, 자살, 신앙, 지식인의 비도덕성 등 다양한 주제를 역사적 고전과 인문학적 교양을 가로지르며 깊이 있게 논한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문: 자유를 위하여",
+        "summary": "마르크스주의의 몰락 이후에도 온상으로 남아 있는 탐욕스러운 지식인들을 비판하고 개성의 자유와 보수 가치를 밝힌다."
+      },
+      {
+        "sectionTitle": "1부: 누가 진실을 죽였는가 - 01 국가",
+        "summary": "국가의 조건인 폭력의 독점, 헌법, 명예의 요소를 짚고 국적의 선천성과 애국심의 본질, 재외국민 참정권 문제를 비판적으로 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "보수자유주의관점",
+        "value": "정의에 근거한다면 불평등할 권리가 있음을 인정하고, 개인의 자유를 위협하는 좌파적 집단주의와 독선을 경계한다."
+      }
+    ],
+    "keyEntitiesText": "전원책, 마르크스, 사르트르, 마키아벨리, 한스 켈젠",
+    "settingText": "현대 한국 사회의 이념 갈등 및 지성계 지형"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1f8t_r25m_vw80vN-VVOda1Wqej6RO8Iu",
+    "filename": "전원책-자유의 적들(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T05:41:52.000Z",
+    "size": "703052",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1f8t_r25m_vw80vN-VVOda1Wqej6RO8Iu/view?usp=drivesdk",
+    "sourceSha256": "e3aa057a33aae2a7c370604b6f39a7c7bd104cf45849f78786e7aef6c9ced64d",
+    "textSha256": "49f8c3cd234abc9b142e08535c0e4a68c5717d653aad9856fd9501aeb05dd2a8",
+    "changeKey": "e7181614c8e6f491e6ed44d4252ea55d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3cc91033640ab06b03f1",
+    "workId": "3cc91033640ab06b03f1",
+    "driveFileId": "1f8t_r25m_vw80vN-VVOda1Wqej6RO8Iu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:44:46.071309+00:00",
+    "updatedAt": "2026-09-22T22:44:46.071327+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:44:46.071429+00:00"
+    }
+  }
+}
