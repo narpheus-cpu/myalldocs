@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "카멜레온 (상권)",
+    "author": "윌리엄 딜",
+    "genre": "추리",
+    "tags": [
+      "테러리스트",
+      "스릴러",
+      "추리소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 소설가이자 전직 기자.",
+    "oneLineSummary": "세계 최고의 테러리스트 카멜레온을 뒤쫓는 스릴 넘치는 추격전.",
+    "overallSummary": "정체불명의 테러리스트 카멜레온과 그를 쫓는 전 CIA 첩보원 오하라 및 관련 인물들의 숨막히는 첩보 추리 스릴러.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "브루밍데일 백화점에서 암살이 벌어지고 콜린 브래들리가 살해당한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특성",
+        "value": "하드보일드 스릴러"
+      }
+    ],
+    "keyEntitiesText": "카멜레온, 오하라, 엘리자 건, 콜린 브래들리",
+    "settingText": "미국 뉴욕 및 세계 각지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kstOXMVAdC6IH-CPqOMBNZjCc34x3wYx",
+    "filename": "윌리엄 딜-카멜레온.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.069Z",
+    "size": "832174",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1kstOXMVAdC6IH-CPqOMBNZjCc34x3wYx/view?usp=drivesdk",
+    "sourceSha256": "a2408e50d24e4e5530f0d218b19652a77737a043a30fefede7504d7a72634621",
+    "textSha256": "409a416ab6d08094437ec49af2e62fc72854d439e32ec0ccd79d3f2373d1602f",
+    "changeKey": "44c121d4ec68117f33d4f54ae108d013",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e9b8669b117d26dc93ba",
+    "workId": "e9b8669b117d26dc93ba",
+    "driveFileId": "1kstOXMVAdC6IH-CPqOMBNZjCc34x3wYx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:44:00.894676+00:00",
+    "updatedAt": "2026-09-22T07:44:00.894694+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.6486,
+      "updatedAt": "2026-09-22T07:44:00.894786+00:00"
+    }
+  }
+}

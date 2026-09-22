@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "정예작가 정예추리",
+    "author": "김상헌 외",
+    "genre": "추리",
+    "tags": [
+      "단편집",
+      "추리소설",
+      "모음집"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 대표적인 추리작가들.",
+    "oneLineSummary": "국내 유명 추리 작가들의 단중편 소설을 모은 추리선집.",
+    "overallSummary": "김상헌, 김성종 등 국내 유수의 작가들이 집필한 중단편 추리소설들을 모아 인간의 심리와 범죄를 다룬 모음집.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "작전완료",
+        "summary": "항공기 테러를 계획하고 실행에 옮기는 사내의 치밀한 범죄 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성",
+        "value": "옴니버스 형식의 추리 단편집"
+      }
+    ],
+    "keyEntitiesText": "이범우, 세호",
+    "settingText": "서울과 나리타 공항을 잇는 항공기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Gzc_0wG0WPBVZgUiYYR-N1XBvAVsJXsi",
+    "filename": "이상우 외-정예작가 정예추리.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.152Z",
+    "size": "367930",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "이상우"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/이상우",
+    "webViewLink": "https://drive.google.com/file/d/1Gzc_0wG0WPBVZgUiYYR-N1XBvAVsJXsi/view?usp=drivesdk",
+    "sourceSha256": "6f2db1a477065b86e4665ba1a0c81f054051454804e27025d5edd20bf803247d",
+    "textSha256": "58cb7890b71c56ba80af005ca4597c408c73889f0868bb10178c49ef90dfbccc",
+    "changeKey": "b0b0a6581a43ac5d48acbf34d15c81aa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "37511f15ceebef764485",
+    "workId": "37511f15ceebef764485",
+    "driveFileId": "1Gzc_0wG0WPBVZgUiYYR-N1XBvAVsJXsi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:44:17.835819+00:00",
+    "updatedAt": "2026-09-22T07:44:17.835835+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:44:17.835932+00:00"
+    }
+  }
+}

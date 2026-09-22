@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "미스코리아 살인사건",
+    "author": "이승영",
+    "genre": "추리",
+    "tags": [
+      "미스코리아",
+      "살인사건",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "대한민국의 추리소설가.",
+    "oneLineSummary": "화려한 미스코리아 선발대회 뒤에 숨겨진 잔혹한 살인 사건의 진실을 쫓는 추리소설.",
+    "overallSummary": "미스코리아 선발대회가 열리는 S문화회관과 축하 파티가 벌어지는 별장을 배경으로, 화려함 뒤에 가려진 은밀한 음모와 살인 사건을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "죽음의 왕관",
+        "summary": "S문화회관에서 미스코리아 선발대회가 열려 후보들이 경연을 벌이고 진이 탄생한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "미인대회 이면의 미스터리"
+      }
+    ],
+    "keyEntitiesText": "박만하, 윤보혜, 나비향, 연성철",
+    "settingText": "S문화회관 및 용인의 별장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TRh1zCUbQeSHP5NrSMgjF8VtzzQLgufR",
+    "filename": "이승영-미스코리아 살인사건.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.309Z",
+    "size": "663789",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1TRh1zCUbQeSHP5NrSMgjF8VtzzQLgufR/view?usp=drivesdk",
+    "sourceSha256": "522250c61082de45d99cd9653d16c543557b9bcc3568b71e6255869f16b34f96",
+    "textSha256": "6e392d9bd9b30b5fa24dad7c85f727cfb82db9aa84b027dc6e751d689235a729",
+    "changeKey": "af30ab8063f34eb63713c9ecaaa473f1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f71942d045d9be6533b3",
+    "workId": "f71942d045d9be6533b3",
+    "driveFileId": "1TRh1zCUbQeSHP5NrSMgjF8VtzzQLgufR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:45:27.506526+00:00",
+    "updatedAt": "2026-09-22T07:45:27.506543+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:45:27.506631+00:00"
+    }
+  }
+}

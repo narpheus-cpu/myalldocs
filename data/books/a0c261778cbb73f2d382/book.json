@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "경성애사",
+    "author": "이선미",
+    "genre": "소설",
+    "tags": [
+      "역사소설",
+      "로맨스",
+      "경성"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 인기 로맨스 및 역사 소설가.",
+    "oneLineSummary": "일제강점기 경성을 배경으로 펼쳐지는 매혹적이고 애틋한 로맨스 소설.",
+    "overallSummary": "일제강점기 시절 경성을 배경으로, 권세가 집안의 막내아들 선우완과 기생 명빈관의 인연을 중심으로 벌어지는 시대극 로맨스.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "오프닝",
+        "summary": "비 내리는 밤, 경성의 화려한 전통 가옥과 별채에서 일어나는 남녀의 만남을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대적 배경",
+        "value": "일제강점기 경성"
+      }
+    ],
+    "keyEntitiesText": "선우완, 이강구",
+    "settingText": "일제강점기 경성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HTxDtWV9CneDQXycmkQ5TvU3Otkla0Iz",
+    "filename": "이선미-경성애사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.298Z",
+    "size": "201759",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1HTxDtWV9CneDQXycmkQ5TvU3Otkla0Iz/view?usp=drivesdk",
+    "sourceSha256": "3b893666099ce71aee7804ba2ce55bf4fa7d7de5e9c0ad5dafaa7b481a14f6d8",
+    "textSha256": "ff1e1ff5e2134019b3c4a28f42c06041e453552be0dacfba2c3b0fd7416fd4a9",
+    "changeKey": "4201d740117b8c8cd57d0fe6969cb700",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a0c261778cbb73f2d382",
+    "workId": "a0c261778cbb73f2d382",
+    "driveFileId": "1HTxDtWV9CneDQXycmkQ5TvU3Otkla0Iz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:45:19.983664+00:00",
+    "updatedAt": "2026-09-22T07:45:19.983681+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:45:19.983772+00:00"
+    }
+  }
+}

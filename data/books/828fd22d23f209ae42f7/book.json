@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바우돌리노 (하)",
+    "author": "움베르토 에코",
+    "genre": "소설",
+    "tags": [
+      "장편소설",
+      "중세",
+      "모험",
+      "완결"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이탈리아의 세계적인 소설가이자 미학자, 기호학자.",
+    "oneLineSummary": "동방의 요한 사제 왕국을 찾아 떠나는 바우돌리노의 기나긴 여정과 그 결말.",
+    "overallSummary": "바우돌리노가 비잔틴의 혼란을 겪고 동방으로 향하는 여정을 그리며, 진실과 거짓 사이의 경계를 넘나드는 모험을 완결 짓는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "바우돌리노와 비잔틴의 달콤함",
+        "summary": "카타바테 수도원에서 조시모스를 만나 비잔틴 제국의 혼란과 안드로니코스의 최후를 목격한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 구조",
+        "value": "연대기적 액자 구성"
+      }
+    ],
+    "keyEntitiesText": "바우돌리노, 조시모스, 안드로니코스, 이사키오스",
+    "settingText": "중세 비잔틴 제국과 콘스탄티노플"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YwcAqPkMeenIARmVERMxxm6xC_pUWugU",
+    "filename": "움베르토 에코-바우돌리노(하)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T02:56:24.000Z",
+    "size": "778691",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1YwcAqPkMeenIARmVERMxxm6xC_pUWugU/view?usp=drivesdk",
+    "sourceSha256": "70305d4bf489984405ad74d4ea39f88e81456ee20812c093e971125ee467d11d",
+    "textSha256": "e1c951ca696daac86b855d8429b47ecc031fd89ebd951813279a0bfe57b10101",
+    "changeKey": "922d3458539cedd5c36392c8a013fae6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "828fd22d23f209ae42f7",
+    "workId": "828fd22d23f209ae42f7",
+    "driveFileId": "1YwcAqPkMeenIARmVERMxxm6xC_pUWugU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:43:55.188087+00:00",
+    "updatedAt": "2026-09-22T07:43:55.188104+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:43:55.188231+00:00"
+    }
+  }
+}

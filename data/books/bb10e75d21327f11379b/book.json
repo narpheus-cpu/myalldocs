@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "밤에 뜨는 무지개",
+    "author": "이상우",
+    "genre": "추리",
+    "tags": [
+      "추리소설",
+      "미스터리",
+      "가정교사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저널리스트이자 한국추리작가협회 회장을 지낸 작가.",
+    "oneLineSummary": "변호사 집안의 가정교사로 들어간 대학생이 기이한 사건들에 휘말리는 추리소설.",
+    "overallSummary": "거액의 보수를 내건 변호사 집안에 가정교사로 들어간 주인공이 독특한 가족들과 엮이면서 벌어지는 비밀스러운 사건들을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아르바이트",
+        "summary": "주인공이 친구의 권유로 변호사 집안의 가정교사 하청을 맡아 첫 방문을 하게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구조",
+        "value": "1인칭 시점의 미스터리 추리"
+      }
+    ],
+    "keyEntitiesText": "허정화, 장을자, 조석호, 조윤호",
+    "settingText": "서울의 변호사 집 자택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "125KE_Kdft_X6rRG7ln0urqd1cb2crLsi",
+    "filename": "이상우-밤에뜨는 무지개.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.218Z",
+    "size": "270247",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "이상우"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/이상우",
+    "webViewLink": "https://drive.google.com/file/d/125KE_Kdft_X6rRG7ln0urqd1cb2crLsi/view?usp=drivesdk",
+    "sourceSha256": "3a9345f1979cbe530d4f9f96174ff1e778a488263b20659f29bc723b2ac9e54b",
+    "textSha256": "e851b9da9cda3a07b05c68560331299cb6ae1a88162ac1d358f7c50f1af63f08",
+    "changeKey": "c94de641af60dc00fd30dbc56ac3d056",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bb10e75d21327f11379b",
+    "workId": "bb10e75d21327f11379b",
+    "driveFileId": "125KE_Kdft_X6rRG7ln0urqd1cb2crLsi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:44:42.246499+00:00",
+    "updatedAt": "2026-09-22T07:44:42.246516+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:44:42.246609+00:00"
+    }
+  }
+}

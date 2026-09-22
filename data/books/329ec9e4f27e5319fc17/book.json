@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사이코 매직",
+    "author": "이상우",
+    "genre": "추리",
+    "tags": [
+      "초능력",
+      "마술",
+      "추리소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "언론인이자 한국을 대표하는 추리소설가.",
+    "oneLineSummary": "마술과 초능력을 둘러싼 기괴한 살인 사건을 추적하는 추리소설.",
+    "overallSummary": "마술 집단과 초능력을 연구하는 이들 사이에서 벌어지는 밀실 살인과 미스터리를 추적하는 수사 과정을 그린 작품.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "중년 사내가 탈출과 초능력에 대해 강연을 한 뒤, 밀실에서 칼에 맞아 죽은 채 발견된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "초능력과 마술의 허구성 및 범죄"
+      }
+    ],
+    "keyEntitiesText": "난승도사, 이지아, 최현덕, 박성철",
+    "settingText": "서울의 마술 회관과 연구소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dMQzqHpGsSx_-ufaxrlEARcsOaY5TaeA",
+    "filename": "이상우-사이코 매직.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.248Z",
+    "size": "160915",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "이상우"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/이상우",
+    "webViewLink": "https://drive.google.com/file/d/1dMQzqHpGsSx_-ufaxrlEARcsOaY5TaeA/view?usp=drivesdk",
+    "sourceSha256": "6afb207362a585f41b85a957628b6017fbafd731da6fb7da3f20138e0aa42401",
+    "textSha256": "c9d380389261252527a128280a99a40747bd70c5268fab132340f03dfb847b62",
+    "changeKey": "8b5bcedab2bd4f3515dfccb3a4652178",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "329ec9e4f27e5319fc17",
+    "workId": "329ec9e4f27e5319fc17",
+    "driveFileId": "1dMQzqHpGsSx_-ufaxrlEARcsOaY5TaeA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:44:54.528460+00:00",
+    "updatedAt": "2026-09-22T07:44:54.528476+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:44:54.528569+00:00"
+    }
+  }
+}

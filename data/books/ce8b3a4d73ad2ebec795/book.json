@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "달콤한 책",
+    "author": "이사남",
+    "genre": "소설",
+    "tags": [
+      "단편",
+      "소설집",
+      "현대소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 작가.",
+    "oneLineSummary": "컴퓨터 게임과 현실의 경계를 넘나들며 현대인의 일상을 풍자하는 소설.",
+    "overallSummary": "다양한 단편을 수록한 소설집으로, 주인공이 오락실 게임에 몰입하다 현실의 정치적 상황 및 일상과 오버랩되는 과정을 그리고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "암살자가 되고 싶다",
+        "summary": "주인공이 성인용 암살 게임에 빠져들며 게임 속 상황과 현실을 비교한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "현대인의 가상 현실 도피와 폭력성"
+      }
+    ],
+    "keyEntitiesText": "마이크, 페로, 민규",
+    "settingText": "현대 서울의 어느 방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1drP17Z6SOiu6lgkFdX4dEzejja8qsFFw",
+    "filename": "이사남-달콤한 책 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.101Z",
+    "size": "470553",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1drP17Z6SOiu6lgkFdX4dEzejja8qsFFw/view?usp=drivesdk",
+    "sourceSha256": "85d6518b36febda3215df403cf6342189843edac6829061fca904313184bb3bb",
+    "textSha256": "1ced3a0a4cc73e23a1c5a79f845cc6c2febc360a3a60a5c82e12b56ab980fe04",
+    "changeKey": "a30943558c9aa2071a1af5f9e578abe5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ce8b3a4d73ad2ebec795",
+    "workId": "ce8b3a4d73ad2ebec795",
+    "driveFileId": "1drP17Z6SOiu6lgkFdX4dEzejja8qsFFw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:44:12.060477+00:00",
+    "updatedAt": "2026-09-22T07:44:12.060495+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:44:12.060588+00:00"
+    }
+  }
+}

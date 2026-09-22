@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개와 시인",
+    "author": "이상우",
+    "genre": "추리",
+    "tags": [
+      "추리소설",
+      "미스터리",
+      "섬"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저널리스트이자 한국추리작가협회 회장을 역임한 작가.",
+    "oneLineSummary": "어느 외딴섬에서 갑자기 미쳐버린 개들과 주민들의 의문의 죽음을 파헤치는 추리소설.",
+    "overallSummary": "휴가를 맞아 찾은 섬에서 동네 개들이 집단으로 미쳐 사람들을 습격하고 참혹한 살해 현장이 발견되면서 벌어지는 공포와 미스터리.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "구란도의 비극",
+        "summary": "섬에서 잠을 깨운 민은수는 마을 개들이 미쳐서 사람들을 공격하는 기괴한 광경을 목격한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "서스펜스 미스터리"
+      }
+    ],
+    "keyEntitiesText": "민은수, 박봉순, 진환",
+    "settingText": "남해의 어느 외딴섬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zSZfJll8uytFyw9BCJpLDwqoLNTu98or",
+    "filename": "이상우-개와 시인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.177Z",
+    "size": "301602",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "이상우"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/이상우",
+    "webViewLink": "https://drive.google.com/file/d/1zSZfJll8uytFyw9BCJpLDwqoLNTu98or/view?usp=drivesdk",
+    "sourceSha256": "c6712b10e880aebffb2433a13d4ed0e56ad154e116e8d365e00a45f843edca49",
+    "textSha256": "0ec0f3de8090b5bab96bda4d5f2c2f56ea0d16bb1d4d2fc33593020b343c57ac",
+    "changeKey": "2d33aa1234eb7eb58ea90cd09c29367d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "224b6a30d58abb5c57a1",
+    "workId": "224b6a30d58abb5c57a1",
+    "driveFileId": "1zSZfJll8uytFyw9BCJpLDwqoLNTu98or",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:44:24.023606+00:00",
+    "updatedAt": "2026-09-22T07:44:24.023624+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:44:24.023717+00:00"
+    }
+  }
+}

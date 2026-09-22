@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "악녀 두 번 살다",
+    "author": "이상우",
+    "genre": "추리",
+    "tags": [
+      "무인도",
+      "치정",
+      "추리소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 추리문학을 대표하는 저널리스트 출신 작가.",
+    "oneLineSummary": "휴가 중 무인도에 고립된 남녀와 그들을 둘러싼 치정 및 미스터리.",
+    "overallSummary": "태안반도 근처 무인도에 폭풍우로 고립된 남녀의 심리 변화와 그들을 둘러싼 과거의 상처, 그리고 반전을 담은 추리소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "폭풍전야",
+        "summary": "휴가를 맞아 바다 낚시를 떠난 일행 중 지갑을 가지러 간 남편이 늦어지면서 주옥경과 박인구만 무인도에 남게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "배경",
+        "value": "고립된 공간 속 극한의 심리"
+      }
+    ],
+    "keyEntitiesText": "주옥경, 박인구, 변정애, 유현식",
+    "settingText": "태안반도의 어느 무인도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lZk5WP9cVtzGz3rkjxmUmIclpIdLSGBU",
+    "filename": "이상우-악녀 두번 살다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.239Z",
+    "size": "316648",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1lZk5WP9cVtzGz3rkjxmUmIclpIdLSGBU/view?usp=drivesdk",
+    "sourceSha256": "192d47f915577523dbe51d8029be5614fc56e656f1840c4cf0168a8ac618a9f3",
+    "textSha256": "ce89595a1e8d640a355c9ebc49fa04cf30705e0a0c6f6cd889ec7c2fe7b6d002",
+    "changeKey": "dd2788b9fc031dfe84e3d5f1b577406f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0e66e9461a18de8c4900",
+    "workId": "0e66e9461a18de8c4900",
+    "driveFileId": "1lZk5WP9cVtzGz3rkjxmUmIclpIdLSGBU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:45:06.842583+00:00",
+    "updatedAt": "2026-09-22T07:45:06.842600+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:45:06.842692+00:00"
+    }
+  }
+}

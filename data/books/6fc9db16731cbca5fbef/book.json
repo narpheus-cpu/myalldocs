@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바우돌리노 (상)",
+    "author": "움베르토 에코",
+    "genre": "소설",
+    "tags": [
+      "장편소설",
+      "중세",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이탈리아의 세계적인 소설가이자 미학자, 기호학자.",
+    "oneLineSummary": "거짓말쟁이 바우돌리노가 펼치는 중세 유럽의 환상적인 모험과 연대기.",
+    "overallSummary": "이탈리아의 작가 움베르토 에코의 장편소설로, 중세의 역사적 배경 속에서 주인공 바우돌리노가 겪는 파란만장한 모험과 기이한 이야기들을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "바우돌리노 글쓰기를 시작하다",
+        "summary": "바우돌리노는 프나스케타의 숲속에서 우연히 만난 독일 귀족에게 자신의 어린 시절과 유니콘에 얽힌 이야기를 들려준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대적 배경",
+        "value": "12세기 중세 유럽"
+      }
+    ],
+    "keyEntitiesText": "바우돌리노, 가이아우코, 프리드리히 황제, 조시모스",
+    "settingText": "서기 12세기 중세 유럽, 알레산드리아와 프나스케타의 숲속"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Lsk2NeJUNDjJ8_cy0Cl0IAfn7ifdzIqg",
+    "filename": "움베르토 에코-바우돌리노(상)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T02:53:32.000Z",
+    "size": "753477",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1Lsk2NeJUNDjJ8_cy0Cl0IAfn7ifdzIqg/view?usp=drivesdk",
+    "sourceSha256": "aaaaa44e74545e3aee240321c461cca378064b69e1768894a8511a6b9c40a214",
+    "textSha256": "a3ce5133898f1234d26c34ef171963ae1d4bb32c6ee198a73353761e42fe674e",
+    "changeKey": "9105bde94148990c5a542bbf3ca87589",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6fc9db16731cbca5fbef",
+    "workId": "6fc9db16731cbca5fbef",
+    "driveFileId": "1Lsk2NeJUNDjJ8_cy0Cl0IAfn7ifdzIqg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:43:48.754831+00:00",
+    "updatedAt": "2026-09-22T07:43:48.754849+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:43:48.755044+00:00"
+    }
+  }
+}

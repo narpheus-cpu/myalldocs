@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불새 밤에 죽다",
+    "author": "이상우",
+    "genre": "추리",
+    "tags": [
+      "추리소설",
+      "살인사건",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저널리스트이자 추리소설가.",
+    "oneLineSummary": "미국에서 귀국한 동생이 누나의 살해 현장을 목격한 후 시체가 사라지는 기괴한 사건.",
+    "overallSummary": "9년 만에 귀국한 광준이 누나 김을숙의 아파트에서 시체를 발견하지만, 경찰과 함께 돌아왔을 때 시체가 온데간데없이 사라져 버린 미스터리를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "여류명사 김을숙",
+        "summary": "미국에서 박사학위를 받고 귀국한 광준은 누나의 집에서 살해된 시체를 발견하나 곧 사라지는 황당한 일을 겪는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 장치",
+        "value": "밀실 및 실종된 시체 미스터리"
+      }
+    ],
+    "keyEntitiesText": "김광준, 김을숙, 추경감, 곽정자",
+    "settingText": "서울 방배동의 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lGQzZEcS1PWUifU3Qbw0-yOjQe7Av7xc",
+    "filename": "이상우-불새 밤에 죽다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.232Z",
+    "size": "350813",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "이상우"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/이상우",
+    "webViewLink": "https://drive.google.com/file/d/1lGQzZEcS1PWUifU3Qbw0-yOjQe7Av7xc/view?usp=drivesdk",
+    "sourceSha256": "fc0ec4c6dd1ba5c47fbddb91a0b1e2cbad83873f5e26cb6fedebe0c34645be70",
+    "textSha256": "99832a18ef8f43fbfbad8f926c06a36becf98dd80e092b6b985cede2ed48eee9",
+    "changeKey": "617dd4d81aac6402bc21c3cb9b00b8eb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cd84cebfe897e0c10b36",
+    "workId": "cd84cebfe897e0c10b36",
+    "driveFileId": "1lGQzZEcS1PWUifU3Qbw0-yOjQe7Av7xc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:44:48.441332+00:00",
+    "updatedAt": "2026-09-22T07:44:48.441347+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:44:48.441442+00:00"
+    }
+  }
+}

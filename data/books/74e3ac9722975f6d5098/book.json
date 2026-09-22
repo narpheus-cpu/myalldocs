@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마지막 숙녀",
+    "author": "이상우",
+    "genre": "추리",
+    "tags": [
+      "추리소설",
+      "불륜",
+      "살인사건"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 대표적인 저널리스트이자 추리작가.",
+    "oneLineSummary": "어느 날 갑자기 발생한 여인의 죽음과 그 주변 인물들의 숨겨진 비밀을 파헤치는 추리소설.",
+    "overallSummary": "건축가 아내의 의문의 죽음을 둘러싸고 남편의 제자와 주변 인물들의 얽히고설킨 관계와 살인 사건의 진실을 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이등 아내의 죽음",
+        "summary": "설성도와 정윤경이 드라이브를 다녀온 뒤, 정윤경이 시체로 발견되는 사건이 발생한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "치정 복합 미스터리"
+      }
+    ],
+    "keyEntitiesText": "손현식, 정윤경, 설성도, 오하영",
+    "settingText": "서울의 아파트와 설계사무실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Dk9MXsjqr1FP27BeJ27KXeIxVJcTYlFw",
+    "filename": "이상우-마지막 숙녀.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.204Z",
+    "size": "222527",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "이상우"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/이상우",
+    "webViewLink": "https://drive.google.com/file/d/1Dk9MXsjqr1FP27BeJ27KXeIxVJcTYlFw/view?usp=drivesdk",
+    "sourceSha256": "210653010b65c02346f08512a72927b2d49fb003eedaf24db3859a7d63cfc8b6",
+    "textSha256": "40b749e0c84172a2ee1e7f1f57e181350829ed779e71aaa9ff69d319876cffe0",
+    "changeKey": "1bad91ffd85ddfb5bad1e07be421850b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "74e3ac9722975f6d5098",
+    "workId": "74e3ac9722975f6d5098",
+    "driveFileId": "1Dk9MXsjqr1FP27BeJ27KXeIxVJcTYlFw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:44:36.180235+00:00",
+    "updatedAt": "2026-09-22T07:44:36.180256+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:44:36.180353+00:00"
+    }
+  }
+}
