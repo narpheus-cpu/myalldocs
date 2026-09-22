@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "청소년을 위한 서양문학사(하권)",
+    "author": "김계영",
+    "genre": "문학사/청소년교양",
+    "tags": [
+      "서양문학사",
+      "19세기문학",
+      "낭만주의",
+      "사실주의",
+      "상징주의"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김계영은 프랑스 문학을 전공하고 서양 문학 전반의 역사와 흐름을 연구해 온 학자이자 저자이다.",
+    "oneLineSummary": "프랑스혁명과 산업혁명의 격동기를 배경으로 전개된 19세기 낭만주의, 사실주의, 상징주의 문학의 흐름을 알기 쉽게 정리한 문학사.",
+    "overallSummary": "이 책은 청소년들이 서양 문학의 전체적인 흐름과 시대적 배경을 종합적으로 이해할 수 있도록 19세기와 20세기 문학사를 다룬다. 특히 19세기 전반의 낭만주의 문학에서 감성의 해방과 자아의 발견을 다루고, 19세기 후반 산업화와 혁명 속에서 태동한 사실주의와 자연주의, 상징주의로 이어지는 문예사조의 변천을 각국의 대표 작가와 작품을 통해 입체적으로 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 19세기 문학: 01 낭만주의 문학",
+        "summary": "프랑스혁명과 산업혁명 이후 이성 만능주의에 반발하여 나타난 낭만주의의 본질, 독일과 영국의 낭만주의 특성, 그리고 노발리스 등 주요 작가들의 세계를 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 특징",
+        "value": "역사적·사회적 맥락(혁명과 산업화) 속에서 문예사조의 변화를 유기적으로 설명."
+      },
+      {
+        "key": "목적",
+        "value": "청소년들이 단편적 지식을 넘어 서양 문학의 거대한 흐름을 통찰하도록 유도."
+      }
+    ],
+    "keyEntitiesText": "김계영, 빅토르 위고, 아우구스트 슐레겔, 노발리스, 횔덜린, 괴테",
+    "settingText": "19세기 유럽의 사회적, 역사적 변혁기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dNQb8ANx79b4AD2wNQHHzaghQ3FrQdtH",
+    "filename": "청소년을 위한 서양문학사(하)(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:30.972Z",
+    "size": "627210",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1dNQb8ANx79b4AD2wNQHHzaghQ3FrQdtH/view?usp=drivesdk",
+    "sourceSha256": "ddcb6e71c3c8e043a799d9e8dfcc679e3b30e318de7faae5f75dd0f8fb6675f8",
+    "textSha256": "349635135f8fcbeaf4f4baeb2a03237ccbf4efb01e4919bc57397dec9766c1aa",
+    "changeKey": "1f91a03f1938a182e1115e171844106b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "56a821bb2b4df2f89a31",
+    "workId": "56a821bb2b4df2f89a31",
+    "driveFileId": "1dNQb8ANx79b4AD2wNQHHzaghQ3FrQdtH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:09:09.990673+00:00",
+    "updatedAt": "2026-09-22T23:09:09.990689+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7029,
+      "updatedAt": "2026-09-22T23:09:09.990772+00:00"
+    }
+  }
+}

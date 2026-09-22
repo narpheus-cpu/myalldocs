@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지적 대화를 위한 넓고 얕은 지식: 현실 너머 편",
+    "author": "채사장",
+    "genre": "인문교양",
+    "tags": [
+      "채사장",
+      "인문학",
+      "철학",
+      "과학",
+      "종교",
+      "예술",
+      "진리"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "채사장은 복잡한 지식을 단순화하여 대중과 소통하는 지식 팟캐스트 진행자이자 베스트셀러 작가이다.",
+    "oneLineSummary": "철학, 과학, 예술, 종교, 신비의 영역을 진리에 대한 세 가지 태도로 구조화하여 설명한 현실 너머의 인문학 교양서.",
+    "overallSummary": "이 책은 현실 세계를 다룬 전작에 이어, 인간 정신의 영역인 현실 너머의 세계를 탐험한다. 진리의 속성(절대적, 보편적, 불변함)을 바탕으로 이에 대한 태도를 절대주의, 상대주의, 회의주의로 구분하고, 역사 속에서 철학, 과학, 예술, 종교가 어떻게 이 진리관에 따라 전개되어 왔는지를 명쾌하게 정리한다. 독자가 세계에 대한 거대한 지적 지도와 대화의 공통분모를 갖추도록 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "진리",
+        "summary": "진리의 속성과 이에 대한 네 가지 태도(절대주의, 상대주의, 불가지론, 실용주의)를 개념화하여 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분류 기준",
+        "value": "절대주의와 상대주의라는 두 가지 철학적 태도를 축으로 각 학문 영역을 구조화."
+      },
+      {
+        "key": "목적",
+        "value": "현실 너머의 정신 세계에 대한 체계적 이해와 지적 대화의 기반 마련."
+      }
+    ],
+    "keyEntitiesText": "채사장, 플라톤, 아리스토텔레스, 칸트, 니체, 비트겐슈타인, 아인슈타인",
+    "settingText": "인류 정신사와 진리 탐구의 여정"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-OQaOlKXMR-FBYRQFhclbGhMKRMFBl5l",
+    "filename": "채사장-지적 대화를 위한 넓고 얕은 지식_현실너머편(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T19:28:00.000Z",
+    "size": "475432",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1-OQaOlKXMR-FBYRQFhclbGhMKRMFBl5l/view?usp=drivesdk",
+    "sourceSha256": "031ecd2909ea45c00bc0c761e7ec9ac176d03852e87dc712a360d5af30ea4562",
+    "textSha256": "508080a8dc404916d1812022ae68d9c80485aac6b918707bdc2b4b1610a5cd7e",
+    "changeKey": "65c6dd0656d6ec377bb79b7697301a6f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3cbc68caa83d826d5629",
+    "workId": "3cbc68caa83d826d5629",
+    "driveFileId": "1-OQaOlKXMR-FBYRQFhclbGhMKRMFBl5l",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:08:42.608690+00:00",
+    "updatedAt": "2026-09-22T23:08:42.608707+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:08:42.608792+00:00"
+    }
+  }
+}

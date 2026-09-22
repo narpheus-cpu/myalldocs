@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시민의 교양",
+    "author": "채사장",
+    "genre": "인문교양",
+    "tags": [
+      "채사장",
+      "인문학",
+      "경제",
+      "정치",
+      "사회"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "채사장은 성균관대학교를 졸업하고 복잡한 지식을 단순하고 명쾌하게 구조화하여 대중에게 인문학을 전파하는 인기 저자이자 팟캐스트 진행자이다.",
+    "oneLineSummary": "세금, 국가, 자유, 직업, 교육, 정의 등 현실 사회의 핵심 쟁점들을 구조화하여 평범한 시민의 눈높이에서 풀어낸 인문학 교양서.",
+    "overallSummary": "이 책은 자본주의 사회를 살아가며 무수히 많은 선택을 마주하는 보통 사람들을 위한 현실 인문학 안내서이다. '시장의 자유'와 '정부의 개입'이라는 두 가지 상반된 축을 중심으로 세금과 복지의 관계를 설명하고, 국가의 형태, 자유의 의미, 자본주의 속 직업의 구조, 교육의 본질, 정의에 대한 견해를 일관된 틀로 정리한다. 독자가 사회의 거대한 구조를 이해하고 주체적이고 합리적인 선택을 내릴 수 있도록 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세금",
+        "summary": "세금의 인상과 인하, 그리고 누구의 세금을 높일 것인가의 문제를 통해 자본주의 사회의 방향성을 탐색한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구조화 방식",
+        "value": "시장의 자유 대 정부의 개입이라는 이원적 대립 구도를 통한 사회 현상 해부."
+      },
+      {
+        "key": "목표",
+        "value": "시민이 사회의 현안을 합리적으로 선택할 수 있는 지적 토대 제공."
+      }
+    ],
+    "keyEntitiesText": "채사장, 김 부장",
+    "settingText": "21세기 현대 자본주의 사회 및 대한민국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1A8-1qXLJj-uDSN_Af-ZppISWGHXtrpH6",
+    "filename": "채사장-시민의 교양(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T19:23:08.000Z",
+    "size": "443815",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1A8-1qXLJj-uDSN_Af-ZppISWGHXtrpH6/view?usp=drivesdk",
+    "sourceSha256": "bf247cdbe6633519c3fa388bbd127fc1eaec9814be6e81c435094e140ed6d13e",
+    "textSha256": "45d84a10aaa4c5c8e86211623fe3b21e7fac9b82cbea5a1ead5cda3c811d361e",
+    "changeKey": "6c6eaf9eea830305ce6a8120cc7575c1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f9a31c7f9270aa0c8480",
+    "workId": "f9a31c7f9270aa0c8480",
+    "driveFileId": "1A8-1qXLJj-uDSN_Af-ZppISWGHXtrpH6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:08:29.271964+00:00",
+    "updatedAt": "2026-09-22T23:08:29.271983+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:08:29.272066+00:00"
+    }
+  }
+}

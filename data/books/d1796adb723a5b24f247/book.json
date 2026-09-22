@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "종의 기원",
+    "author": "찰스 다윈",
+    "genre": "과학/생물학",
+    "tags": [
+      "다윈",
+      "종의기원",
+      "진화론",
+      "자연도태",
+      "자연과학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "찰스 다윈(Charles Robert Darwin)은 영국의 자연과학자로, 자연선택 이론을 통해 생물의 진화론을 확립하여 과학계와 인류의 사상에 혁명을 일으킨 인물이다.",
+    "oneLineSummary": "자연도태와 생존경쟁을 통해 생물이 진화한다는 사실을 과학적으로 밝혀낸 진화론의 고전.",
+    "overallSummary": "이 책은 모든 생명체가 신의 직접적인 창조에 의해 불변하게 존재해 온 것이 아니라, 오랜 세월 동안 환경에 적응하고 생존경쟁에서 유리한 형질이 선택되는 과정을 거쳐 변화해왔음을 방대한 관찰과 증거로 입증한다. 초판 간행에 앞서 진화론에 대한 선구자들의 학설을 정리하고, 변이, 유전, 자연도태 등의 개념을 통해 생물계의 다양성과 적응 현상을 설명함으로써 생물학의 패러다임을 바꿨다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "종의 기원에 대한 학설 그 진보의 역사 간추림",
+        "summary": "뷔퐁, 라마르크, 웰스, 매튜 등 다윈 이전에 종의 변화 가능성을 주장했던 선구자들의 학설과 그 역사적 흐름을 개관한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "자연도태(Natural Selection), 생존경쟁, 변이, 적응."
+      },
+      {
+        "key": "과학사적 의의",
+        "value": "목적론적 창조설을 배격하고 생물학을 인과적 법칙의 영역으로 끌어올림."
+      }
+    ],
+    "keyEntitiesText": "찰스 다윈, 라마르크, 조프루아 생틸레르, 윌리엄 허버트, 패트릭 매튜, 오언 교수",
+    "settingText": "19세기 영국의 과학계 및 자연사 연구 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MySKxoe3aHs8e8z2vsH61t5atPD4rj7X",
+    "filename": "찰스 다윈-종의 기원(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T19:21:18.000Z",
+    "size": "1740024",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1MySKxoe3aHs8e8z2vsH61t5atPD4rj7X/view?usp=drivesdk",
+    "sourceSha256": "94da96b53f8be05348fad89cdeb27c2359d3135a6a07cc5dcee4b3aa2525bb71",
+    "textSha256": "370a5df8c719b9fd671046140565b011eb2e597881395de910d9857b47359332",
+    "changeKey": "cadfbb0aec3c5a24a5b37ace88fd419d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d1796adb723a5b24f247",
+    "workId": "d1796adb723a5b24f247",
+    "driveFileId": "1MySKxoe3aHs8e8z2vsH61t5atPD4rj7X",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:08:08.665774+00:00",
+    "updatedAt": "2026-09-22T23:08:08.665791+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:08:08.665874+00:00"
+    }
+  }
+}

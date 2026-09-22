@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무기의 역사",
+    "author": "찰스 바우텔",
+    "genre": "역사/고고학",
+    "tags": [
+      "무기",
+      "갑옷",
+      "전쟁사",
+      "석기시대",
+      "중세"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "찰스 바우텔(Charles Boutell)은 영국의 고고학자이자 예술 연구가로, 중세 고고학과 무구 연구에 조예가 깊다.",
+    "oneLineSummary": "석기시대부터 근대에 이르기까지 인류가 사용해 온 무기와 갑옷의 변천 과정을 다룬 역사 교양서.",
+    "overallSummary": "이 책은 프랑스의 학자 P. 라콤의 원저를 바탕으로 영국의 박광순이 번역 및 재구성하여, 인류가 생존과 방어를 위해 발명한 무기와 갑옷의 발전사를 다룬다. 석기시대의 부싯돌 무기와 청동기, 철기를 거쳐 고대 그리스와 로마, 야만족들의 군사장비, 그리고 중세의 화려한 갑주와 근대의 총포류에 이르기까지 전투 장비의 변천을 통해 인류 문명의 기술적, 문화적 진화 과정을 고고학적 시각에서 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 석기시대",
+        "summary": "인류 최초의 무기인 돌칼, 도끼, 화살촉의 제작 방식과 석기시대 무기의 특징을 고고학적 자료를 바탕으로 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "접근 방식",
+        "value": "유물에 대한 시각적 묘사와 고고학적 발굴 성과를 바탕으로 한 역사적 기술."
+      },
+      {
+        "key": "주요 내용",
+        "value": "기술의 발전에 따른 무기와 방어구의 형태적, 재질적 변화."
+      }
+    ],
+    "keyEntitiesText": "찰스 바우텔, P. 라콤, 자크 부셰 드 페르테, 리처드 펨브리지",
+    "settingText": "원시 선사시대부터 고대, 중세를 거쳐 근대에 이르는 세계 전역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14_PI5QhxqS20tLGlGQoUYrxn0cVSFQDC",
+    "filename": "찰스 바우텔-무기의 역사(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T08:21:34.000Z",
+    "size": "720574",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/14_PI5QhxqS20tLGlGQoUYrxn0cVSFQDC/view?usp=drivesdk",
+    "sourceSha256": "c48b114467cacffd0640db951032aa14968be94aab64c0c58361542cad257681",
+    "textSha256": "bb3235d6e3cc06dbfd4ab20d65464cc6e1cd194d78364a80fc092c66aa19d1ff",
+    "changeKey": "2aa447cdcb19ffee26908bb56799dae1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "86f0acc1c9686387656e",
+    "workId": "86f0acc1c9686387656e",
+    "driveFileId": "14_PI5QhxqS20tLGlGQoUYrxn0cVSFQDC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:08:15.550296+00:00",
+    "updatedAt": "2026-09-22T23:08:15.550315+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:08:15.550400+00:00"
+    }
+  }
+}

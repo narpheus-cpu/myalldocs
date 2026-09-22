@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지적 대화를 위한 넓고 얕은 지식",
+    "author": "채사장",
+    "genre": "인문교양",
+    "tags": [
+      "채사장",
+      "인문학",
+      "역사",
+      "경제",
+      "정치",
+      "사회",
+      "윤리"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "채사장은 지식의 과잉 속에서 반드시 알아야 할 핵심 가치를 선별하여 쉽고 단순하게 전달하는 인문학 저자이다.",
+    "oneLineSummary": "역사, 경제, 정치, 사회, 윤리의 현실 세계를 하나의 거대한 구조로 엮어낸 필수 인문학 교양서.",
+    "overallSummary": "이 책은 현대인이 교양으로서 반드시 알아야 할 현실 세계의 지식을 역사적 시간관과 경제적 생산수단이라는 핵심 축을 바탕으로 명쾌하게 해부한다. 원시부터 현대까지의 역사를 경제적 구조 변화에 따라 다섯 단계로 나누고, 자본주의의 체제 속에서 보수와 진보, 개인주의와 전체주의, 윤리적 정의의 문제가 어떻게 유기적으로 연결되는지 보여준다. 복잡한 현실을 단순화하여 세상을 이해하는 눈을 길러준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "역사는 시간에서 출발한다",
+        "summary": "직선적 시간관과 원형적 시간관, 그리고 진보적 역사관의 개념을 바탕으로 인류 역사를 바라보는 시각을 제시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 특징",
+        "value": "독립적으로 보이던 역사, 경제, 정치, 사회, 윤리를 하나의 인과적 구조로 통합."
+      },
+      {
+        "key": "핵심 도구",
+        "value": "생산수단과 공급과잉이라는 경제적 개념을 통한 역사 발전 단계 설명."
+      }
+    ],
+    "keyEntitiesText": "채사장, 마르크스, 프랜시스 후쿠야마",
+    "settingText": "인류의 역사와 현대 자본주의 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oh9siv1CEl9-LTJYUprBlELEjHKIE-_c",
+    "filename": "채사장-지적 대화를 위한 넓고 얕은 지식(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T19:26:12.000Z",
+    "size": "499829",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1oh9siv1CEl9-LTJYUprBlELEjHKIE-_c/view?usp=drivesdk",
+    "sourceSha256": "8a46d6372dc7ba2247d0cf87cc17a3b60e6cd15332efc7cddda52a974af46fbc",
+    "textSha256": "acabf37cb0f1e1fbded357848dcf43f06a5ffe8058235bd130d72b02a213687c",
+    "changeKey": "33b92170a8fabf6b8d876210a66a87e6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6daab562dfca23a3f222",
+    "workId": "6daab562dfca23a3f222",
+    "driveFileId": "1oh9siv1CEl9-LTJYUprBlELEjHKIE-_c",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:08:48.769197+00:00",
+    "updatedAt": "2026-09-22T23:08:48.769248+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_segment",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:08:48.769340+00:00"
+    }
+  }
+}

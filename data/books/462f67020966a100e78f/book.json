@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "창덕궁의 모든 것",
+    "author": "미상",
+    "genre": "건축/역사",
+    "tags": [
+      "창덕궁",
+      "궁궐",
+      "조선왕조",
+      "한국건축",
+      "전통문화"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자는 명시되어 있지 않으며, 조선의 대표적 궁궐인 창덕궁의 역사와 건축 양식을 체계적으로 정리한 교양서이다.",
+    "oneLineSummary": "자연 지형과 조화를 이룬 한국적 궁궐인 창덕궁의 역사, 건축 구조, 주요 전각을 상세히 해설한 안내서.",
+    "overallSummary": "이 책은 조선 왕조의 이궁이자 세계문화유산인 창덕궁의 모든 것을 담고 있다. 궁궐의 일반적인 구성 원리인 '전조후침'과 '삼문삼조', 전통 목조건물의 구조(기단부, 몸체부, 지붕, 공포)를 먼저 설명한 뒤, 태종의 창덕궁 건립부터 임진왜란과 화재, 일제강점기를 거친 비운의 역사까지 상세히 다룬다. 정형화된 경복궁과 달리 자연 지세를 그대로 살린 창덕궁의 독창적인 배치와 주요 전각들의 의미를 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "궁궐 개관",
+        "summary": "궁과 전, 궐의 용어 정의와 도성 및 궁궐의 건축 구성 원리(전조후시, 좌묘우사, 전조후침 등)를 설명한다."
+      },
+      {
+        "sectionTitle": "창덕궁의 배치와 특징",
+        "summary": "경복궁의 대칭적 구성과 대비되는 창덕궁의 자연 친화적이고 자유로운 배치 기법과 주요 전각의 특징을 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "건축적 특징",
+        "value": "자연 지형을 거스르지 않는 비대칭적, 유기적 배치(평행축 기법 등)."
+      },
+      {
+        "key": "역사적 부침",
+        "value": "태종대 영건부터 임진왜란 소실, 광해군 재건, 일제강점기의 훼손과 복원 과정."
+      }
+    ],
+    "keyEntitiesText": "태종, 순종, 유진오, 전효숙",
+    "settingText": "조선시대 및 현대의 서울 창덕궁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18PGcn_7imrBn-f4dN4cRJzM_UUoauKgk",
+    "filename": "창덕궁의 모든 것.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:30.938Z",
+    "size": "51560",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/18PGcn_7imrBn-f4dN4cRJzM_UUoauKgk/view?usp=drivesdk",
+    "sourceSha256": "10c11f7d3e361c72152f9e17034959964262060ca3503f95d3e31151469dcc2a",
+    "textSha256": "072f26e124da55734aafaee2562645754abea2a3ea8ef9825afe69158240d83d",
+    "changeKey": "be2b585b42995b68b58b571d6902e6a8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "462f67020966a100e78f",
+    "workId": "462f67020966a100e78f",
+    "driveFileId": "18PGcn_7imrBn-f4dN4cRJzM_UUoauKgk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:08:21.374021+00:00",
+    "updatedAt": "2026-09-22T23:08:21.374036+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:08:21.374113+00:00"
+    }
+  }
+}

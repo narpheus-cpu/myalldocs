@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "철학사전",
+    "author": "철학사전편찬위원회",
+    "genre": "철학/사전",
+    "tags": [
+      "철학사전",
+      "백과사전",
+      "서양철학",
+      "동양철학",
+      "마르크스주의"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "철학사전편찬위원회는 국내의 유수한 철학 교수들과 학자들로 구성되어 철학 개념과 용어를 과학적 세계관에 입각해 집필한 집단 지성 그룹이다.",
+    "oneLineSummary": "동서양 철학의 개념, 범주, 학파, 인물, 문헌을 과학적 세계관과 역사적 합법칙성에 따라 해설한 전문 철학 백과사전.",
+    "overallSummary": "이 책은 고대부터 현대까지 동서양 철학의 전반적인 사항을 망라한 방대한 철학 사전이다. 관념론과 유물론의 대립 속에서 발전해온 세계관을 기준으로, 불가지론이나 비합리적 주관주의를 비판하고 절대다수를 위한 철학적 인식을 세우는 데 초점을 맞추었다. 한국 철학사, 마르크스주의 철학, 현대 실존철학 및 환경철학에 이르기까지 2,600여 개의 항목을 가나다순으로 정리하여 정확하고 체계적인 지식을 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "가능성",
+        "summary": "수학적 추측에서 유래한 확률적 의미와 아리스토텔레스의 고전적 정의, 칸트와 하이데거의 철학적 의미를 거쳐 변증법적 범주로서의 가능성과 현실성의 관계를 해설한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "편찬 원칙",
+        "value": "역사 발전의 과학적 합법칙성과 유물론적 세계관에 기반한 개념 해설."
+      },
+      {
+        "key": "범위",
+        "value": "한국, 중국, 인도 등 동양철학과 유럽, 러시아 등 서양철학의 주요 개념 및 인물 포괄."
+      }
+    ],
+    "keyEntitiesText": "임석진, 이정우, 레닌, 아리스토텔레스, 칸트, 하이데거, 가다머",
+    "settingText": "인류 철학사 전반 및 학술 연구 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nCWcXh8KfRBBf4KawLLp94bnstOkfHWi",
+    "filename": "철학사전편찬위원회-철학사전(중원문화)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T08:34:34.000Z",
+    "size": "4072820",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1nCWcXh8KfRBBf4KawLLp94bnstOkfHWi/view?usp=drivesdk",
+    "sourceSha256": "a788e8c1fb83c6e9817b02e3057d8d1e91bd972d08b23adb9ec715747a906e95",
+    "textSha256": "390f0d63aa57f80782000bcf19a10423605623c82644c03b87b4fa9952b8fb66",
+    "changeKey": "e41a5f7484b6a51933aeaaf77b2c0420",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "243d66ce523c900de5fe",
+    "workId": "243d66ce523c900de5fe",
+    "driveFileId": "1nCWcXh8KfRBBf4KawLLp94bnstOkfHWi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:09:03.372188+00:00",
+    "updatedAt": "2026-09-22T23:09:03.372230+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:09:03.372316+00:00"
+    }
+  }
+}
