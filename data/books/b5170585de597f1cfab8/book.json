@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "색황",
+    "author": "제갈천",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "제갈천",
+      "색황",
+      "마교"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "환판"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "십 년 후의 중원을 정복하기 위한 마교의 거대한 음모와 구기무존의 전설을 다룬 무협 소설.",
+    "overallSummary": "십만대산 무저곡에서 아수라와 부하가 나누는 십 년 기한의 중원 정복 음모, 철혈마강시를 만드는 비법을 연구하는 노인, 그리고 무림 역사상 최고의 경지에 오른 아홉 명의 기인인 구기무존의 전설을 소개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서1장",
+        "summary": "십만대산 무저곡에서 나누는 아수라의 음산한 대화와 묘족 원시림에서 철혈마강시 비법을 연구하는 노인의 모습."
+      },
+      {
+        "sectionTitle": "서2장",
+        "summary": "무림 역사상 각 방면에서 최고봉을 이룬 아홉 명의 전설적인 기인, 구기무존(검신, 도치, 장절 등)에 대한 상세한 소개."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 설정",
+        "value": "구기무존과 철혈마강시"
+      }
+    ],
+    "keyEntitiesText": "아수라, 구기무존(검신 황연설, 도치 팽진추 등)",
+    "settingText": "십만대산 무저곡, 운남성 원시림"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RyCkMoYifz4-V8qqxyztHV4dCGWJjTnK",
+    "filename": "천무색황.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.525Z",
+    "size": "988181",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1RyCkMoYifz4-V8qqxyztHV4dCGWJjTnK/view?usp=drivesdk",
+    "sourceSha256": "487d696bd02514cfe2422564a022abbcac321eb4171b4bf41166126174e2ce7d",
+    "textSha256": "868842e1634200b7a6695080a5e5559eba6b268240e8fd468832387f76fed8b0",
+    "changeKey": "0d057df5f15fa59d0fef634d34cb7623",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b5170585de597f1cfab8",
+    "workId": "b5170585de597f1cfab8",
+    "driveFileId": "1RyCkMoYifz4-V8qqxyztHV4dCGWJjTnK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:44:06.106497+00:00",
+    "updatedAt": "2026-09-22T15:44:06.106514+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8483,
+      "updatedAt": "2026-09-22T15:44:06.106602+00:00"
+    }
+  }
+}

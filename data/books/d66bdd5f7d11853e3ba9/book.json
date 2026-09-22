@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천애비검",
+    "author": "설봉",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "설봉",
+      "마인",
+      "일부절명"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "마인의 본질과 세상의 불안에 대한 성찰, 그리고 철장이 갈아준 도끼로 소를 잡는 도축꾼 소습의 이야기를 그린 무협 소설.",
+    "overallSummary": "세상이 마인을 두려워하고 처형하려는 이유에 대한 서장을 시작으로, 도끼질 한 번으로 생명을 끝내는 '일부절명' 소습이 신비로운 도축용 도끼를 갈아주는 철장과의 관계 속에서 겪는 일상과 고민을 다루고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "序",
+        "summary": "마인이라는 존재가 세상에 주는 불안감과 그들을 처형하는 세태에 대한 철학적 서문."
+      },
+      {
+        "sectionTitle": "第一章 무욕(無慾)의 삶 1",
+        "summary": "일부절명이라는 별호를 가진 도축꾼 소습이 철장이 갈아준 특별한 도끼로 황소를 평화롭게 도살하는 과정과 철장과의 관계."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "마인의 정의와 삶과 죽음의 경계"
+      }
+    ],
+    "keyEntitiesText": "소습, 철장, 해과월",
+    "settingText": "죽산, 소습의 도축장 및 철장의 방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wJoF6tPB-ffbPx9RLrMXwRZqth1XQA83",
+    "filename": "설봉-천애비검(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T04:02:08.000Z",
+    "size": "2681845",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1wJoF6tPB-ffbPx9RLrMXwRZqth1XQA83/view?usp=drivesdk",
+    "sourceSha256": "7bb721b595b778bbd05f757e38bcd666be0d4d8e7bb65169a2efca5c50ff14d2",
+    "textSha256": "3a6be0401ac4c6caf664bc936496ef22431f38fe61a96b3a06fabb9b1c6ddaea",
+    "changeKey": "cc8dd2c03e54ea3ba60283f4705b3d07",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d66bdd5f7d11853e3ba9",
+    "workId": "d66bdd5f7d11853e3ba9",
+    "driveFileId": "1wJoF6tPB-ffbPx9RLrMXwRZqth1XQA83",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:44:23.207319+00:00",
+    "updatedAt": "2026-09-22T15:44:23.207336+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:44:23.207430+00:00"
+    }
+  }
+}

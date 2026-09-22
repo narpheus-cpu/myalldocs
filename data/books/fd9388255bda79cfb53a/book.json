@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-무협",
+    "author": "문현선",
+    "genre": "인문교양",
+    "tags": [
+      "무협",
+      "중국문화",
+      "살림지식총서",
+      "교양"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "교양",
+        "문화사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이화여자대학교 중문과 석사 및 박사 과정 중. 동아시아 서사 및 대중문화 연구.",
+    "oneLineSummary": "중국 문화와 대중문화를 관통하는 핵심 코드인 '무협'과 '협'의 기원과 본질을 파헤친 인문 교양서.",
+    "overallSummary": "와호장룡과 김용의 소설 등 대중문화 속에서 무협이 가지는 위상을 살피고, 중국 문화의 특징인 짝짓기 문화, 음양의 원리, 문무쌍전과 간장의 검 전설을 통해 '협'의 진정한 의미를 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "무협이 뭐길래?",
+        "summary": "영화와 소설, 드라마 등 동아시아 대중문화를 휩쓴 무협의 폭발적인 인기와 그 문화적 존재감."
+      },
+      {
+        "sectionTitle": "쌍이 아니면 대 : 짝을 이루는 문화",
+        "summary": "중국문화 전반에 나타나는 짝짓기 성향과 음양의 원리."
+      },
+      {
+        "sectionTitle": "협, 당신은 누구십니까?",
+        "summary": "춘추전국시대 국사들로부터 기원한 역사 속 협의 이미지와 유교적 통치 이념 이면에 감추어진 무사의 도."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "도서 성격",
+        "value": "무협을 코드로 한 중국 문화 해설서"
+      }
+    ],
+    "keyEntitiesText": "김용, 사마천, 공자",
+    "settingText": "중국 역사 및 문화 전반"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1b89NgAR-YOaj8uO8JxTz2KeRmjR9hUt9",
+    "filename": "살림지식총서-무협(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:50:14.000Z",
+    "size": "157059",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1b89NgAR-YOaj8uO8JxTz2KeRmjR9hUt9/view?usp=drivesdk",
+    "sourceSha256": "3480d8c6b5db54cac37a7f80c0719dafd6b898f3a7efe8a7943a7c669d7c9f84",
+    "textSha256": "0433ef4e735651fb404693d6a730c1f42344f176a1034fcce520794fa74fbf66",
+    "changeKey": "7654f936a1a0c3856a9103341de060ad",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fd9388255bda79cfb53a",
+    "workId": "fd9388255bda79cfb53a",
+    "driveFileId": "1b89NgAR-YOaj8uO8JxTz2KeRmjR9hUt9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:43:13.015658+00:00",
+    "updatedAt": "2026-09-22T15:43:13.015675+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:43:13.015766+00:00"
+    }
+  }
+}

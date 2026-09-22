@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "색투",
+    "author": "제갈천",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "제갈천",
+      "색투",
+      "도둑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "코미디"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "2년여간 11개의 작품을 발표한 전업 무협 작가. 재미와 삼매경을 추구함.",
+    "oneLineSummary": "호남성 장사의 개방 소속 고아 아이들이 할당량을 채우기 위해 벌이는 일상과 왕린의 엉뚱한 수난을 그린 무협 소설.",
+    "overallSummary": "장사의 뒷골목에서 구걸과 심부름으로 하루를 버티는 고아 소년 왕린과 두삼, 진영 등의 개방 백의개 생활. 음식을 얻어오던 왕린이 반천우에게 벌을 받아 어둡고 음습한 토굴에 갇히게 되면서 벌어지는 지진과 우연한 지하 무덤 발견의 서막.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "장사 거리에서 구걸과 일로 할당량을 채우는 개방 소년들의 모습, 그리고 억울하게 토굴 벌을 받게 된 왕린이 지진 속에서 무덤으로 통하는 비밀 통로를 발견하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 문파",
+        "value": "개방"
+      }
+    ],
+    "keyEntitiesText": "왕린, 진영, 두삼, 반천우, 만취귀개",
+    "settingText": "호남성 장사 뒷골목, 관제묘 토굴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18TTfvXBD7fA8uZ4_5NPZZ1gnZtfwRw3x",
+    "filename": "색투(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.135Z",
+    "size": "996392",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/18TTfvXBD7fA8uZ4_5NPZZ1gnZtfwRw3x/view?usp=drivesdk",
+    "sourceSha256": "c8ebfcef53a29f68d8a912baf70733a2702d7669362086df36c2ab3c27859667",
+    "textSha256": "70962adcedb69cfb704b7446b7f16d13b7a43d2a6c12a9ed2615aa4f78215fb2",
+    "changeKey": "17652952cd4cc26eab53777f30757847",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e6981999262e13fcd23",
+    "workId": "2e6981999262e13fcd23",
+    "driveFileId": "18TTfvXBD7fA8uZ4_5NPZZ1gnZtfwRw3x",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:43:49.169291+00:00",
+    "updatedAt": "2026-09-22T15:43:49.169307+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:43:49.169394+00:00"
+    }
+  }
+}

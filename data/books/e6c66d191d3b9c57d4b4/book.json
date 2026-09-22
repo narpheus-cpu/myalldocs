@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "가인혈사록 3",
+    "author": "사마달",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "사마달",
+      "혈사신교",
+      "대현출판사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "혈사신교 교주의 독심과 무림 이십팔숙을 둘러싼 음모와 갈등을 다룬 무협 소설.",
+    "overallSummary": "혈사신교 대전 안에서 교주와 사심제갈의 음산한 대화가 오고 가고, 초해영과 교주 간의 갈등이 극에 달하며, 무림 이십팔숙과 십룡회 간의 대립이 그려진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "혈사신교 교주와 사심제갈의 밀담, 그리고 염라천과 신검주의 존재에 대한 보고."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "초해영과 교주 사이의 갈등과 비극적인 사건의 전개."
+      },
+      {
+        "sectionTitle": "3",
+        "summary": "십룡회와 무림 이십팔숙 원로들 사이의 회의와 마찰."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 단체",
+        "value": "혈사신교, 십룡회, 무림이십팔숙"
+      }
+    ],
+    "keyEntitiesText": "혈사교주, 사심제갈, 초해영, 혜정대사",
+    "settingText": "혈사신교 대전, 석부, 회의석상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kfuKU3dJ6VyvXVOBJnUtAQDAeIvINVHl",
+    "filename": "사마달-가인혈사록 3.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:06.659Z",
+    "size": "358382",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1kfuKU3dJ6VyvXVOBJnUtAQDAeIvINVHl/view?usp=drivesdk",
+    "sourceSha256": "aa690fed80ade379944d93713127a9b932d34f0efbd6a25241045cb2629464cf",
+    "textSha256": "3d36269eccaf16d2e6bbbd4d9e5d14041dd118707d18c72e60f0b95582e228d8",
+    "changeKey": "af03cbe4a6fbb5b37f222b01956d565a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e6c66d191d3b9c57d4b4",
+    "workId": "e6c66d191d3b9c57d4b4",
+    "driveFileId": "1kfuKU3dJ6VyvXVOBJnUtAQDAeIvINVHl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:42:28.462375+00:00",
+    "updatedAt": "2026-09-22T15:42:28.462391+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:42:28.462479+00:00"
+    }
+  }
+}

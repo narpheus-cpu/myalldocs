@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "가인혈사록 1",
+    "author": "사마달",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "개방",
+      "사마달",
+      "대현출판사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "액션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "대난봉후 백철린과 개방 낙양분타의 유쾌하고도 치열한 정보 거래와 밀고 당기기를 다룬 무협 소설.",
+    "overallSummary": "중원의 고도 낙양을 배경으로 개방 낙양분타의 거지들과 대난봉후 백철린 사이에 벌어지는 소동과, 서역 교역에서 막대한 이득을 올린 진대인을 둘러싼 황금 백만 냥의 비밀 정보를 다루고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "천진교 밑에 은신해 사방을 살피던 개방의 사신개와 취개, 그리고 분타주 걸개의 모습과 이들을 매번 찾아내어 괴롭히는 대난봉후 백철린의 등장."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "진수성찬을 눈앞에 두고 대난봉후 백철린의 기습으로 음식을 모조리 빼앗긴 개방 거지들의 슬픔과 분노, 그리고 백철린과의 팽팽한 신경전."
+      },
+      {
+        "sectionTitle": "3",
+        "summary": "걸개가 백철린에게 서역 교역으로 막대한 이득을 올린 진대인과 관련된 백만 냥짜리 비밀 정보를 풀며 수재민을 위한 기부를 제안하는 내용."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대적 배경",
+        "value": "가상의 무림 세계, 중원"
+      },
+      {
+        "key": "주요 문파",
+        "value": "개방 낙양분타"
+      }
+    ],
+    "keyEntitiesText": "백철린(대난봉후), 걸개(풍운장), 사신개, 취개, 진대인",
+    "settingText": "중원의 고도 낙양 및 황하 유역의 천진교 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1t-6l7P0mBDdRWZGuxNiDrsHnspnOBTR2",
+    "filename": "사마달-가인혈사록 1.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:06.621Z",
+    "size": "429958",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1t-6l7P0mBDdRWZGuxNiDrsHnspnOBTR2/view?usp=drivesdk",
+    "sourceSha256": "4adc6d6f6edec7f0585ce6f6a822316e74886269e4e871b1cd9cbf9bbbd599c8",
+    "textSha256": "6b1f10d87b702bb364644d0cc76f95cb3d6e2883d395c68a9cf3bed1ff1fcb7e",
+    "changeKey": "b5aed652420e5964a6d7f18100972723",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "53f457c5171de4d52007",
+    "workId": "53f457c5171de4d52007",
+    "driveFileId": "1t-6l7P0mBDdRWZGuxNiDrsHnspnOBTR2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:41:17.920735+00:00",
+    "updatedAt": "2026-09-22T15:41:17.920753+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:41:17.920926+00:00"
+    }
+  }
+}

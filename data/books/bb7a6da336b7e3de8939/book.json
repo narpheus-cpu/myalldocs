@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "색마혈세전",
+    "author": "제갈천",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "제갈천",
+      "사천당가",
+      "색마혈세전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "성장"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "영락제 시절 사천성 성도를 배경으로 사천당가의 후예와 하인 부부의 아이가 태어나며 벌어지는 운명적인 이야기.",
+    "overallSummary": "사천당가의 가주 당무천과 화원주 한우림 사이에서 아들 혁린이 태어나는 동시에, 마침 마구간지기 전삼과 홍아영 부부 사이에서도 아들 소추가 태어나며 이들의 평화롭고도 기이한 인연이 시작된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 탄생",
+        "summary": "사천성 무후사의 풍경과 사천당가 가주 당무천의 과거, 그리고 당가 내에서 당혁린과 전소추가 태어나는 경사스러운 날의 풍경."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "배경 시대",
+        "value": "명나라 영락제 시절"
+      }
+    ],
+    "keyEntitiesText": "당무천, 한우림, 당혁린, 전삼, 홍아영, 전소추",
+    "settingText": "사천성 성도, 무후사, 사천당가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1y_0kSMm1nZd5DJpZ8-BQfwjQUvJH08D9",
+    "filename": "색마혈세전(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.108Z",
+    "size": "958171",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1y_0kSMm1nZd5DJpZ8-BQfwjQUvJH08D9/view?usp=drivesdk",
+    "sourceSha256": "8b25658d1ee4e7460b5c5668ac6b512ab0d5d9d87d0e5fb43bdbd2b859371069",
+    "textSha256": "40d1a1a6ddf43da803f8c375fad74877e9c5032608161dd083b73e927c6fa623",
+    "changeKey": "25c070a3d268d2f69391470641ec5d2d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bb7a6da336b7e3de8939",
+    "workId": "bb7a6da336b7e3de8939",
+    "driveFileId": "1y_0kSMm1nZd5DJpZ8-BQfwjQUvJH08D9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:43:42.471160+00:00",
+    "updatedAt": "2026-09-22T15:43:42.471181+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:43:42.471265+00:00"
+    }
+  }
+}
