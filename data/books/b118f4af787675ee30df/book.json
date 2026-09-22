@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "갈릴레오",
+    "author": "히가시노 게이고",
+    "genre": "추리 소설",
+    "tags": [
+      "유가와 마나부",
+      "구사나기",
+      "플라스마",
+      "폭발 사건"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "미스터리",
+        "과학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "천재 물리학자 유가와 마나부가 의문의 폭발 및 화재 사건의 배후에 숨겨진 과학적 비밀을 파헤치는 이야기이다.",
+    "overallSummary": "한밤중 도로에서 오토바이를 타며 소음을 피우던 젊은이들 사이에서 갑작스러운 폭발과 화재가 발생하여 한 명이 사망하고 네 명이 중경상을 입는다. 형사 구사나기는 사건 현장 주변을 수사하던 중 피해자들과 소음 갈등을 겪던 이웃 주민들을 조사하게 된다. 구사나기는 초자연 현상이나 플라스마 현상으로 의심되는 이 사건의 과학적 규명을 위해 대학 동창이자 물리학 조교수인 유가와 마나부를 찾아가 도움을 요청한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소음과 의문의 폭발",
+        "summary": "젊은이들이 밤늦게 소음을 내며 모여 있던 중, 야마시타 료스케의 머리에서 불길이 솟구치고 석유통이 폭발하는 사건이 발생한다."
+      },
+      {
+        "sectionTitle": "구사나기 형사의 현장 수사",
+        "summary": "형사 구사나기가 현장에 도착해 수사를 시작하고, 소음 피해를 입던 이웃 주민 가네모리와 언어 장애가 있는 마에시마를 조사한다."
+      },
+      {
+        "sectionTitle": "물리학자 유가와의 자문",
+        "summary": "구사나기가 대학 동창인 물리학 조교수 유가와 마나부를 찾아가 사건의 원인으로 제기된 플라스마 현상에 대해 자문을 구한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건의 핵심 트릭",
+        "value": "석유통 폭발과 관련된 플라스마 현상 여부 규명"
+      }
+    ],
+    "keyEntitiesText": "구사나기 슌페이(형사), 마미야 경부, 가네모리 다쓰오, 마에시마 가즈유키, 유가와 마나부(물리학자), 데이토 대학",
+    "settingText": "일본의 한적한 주택가 도로, 데이토 대학 공학부 물리학과 제13연구실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ist-FBhoys-lBWRft5oFkrdXc5XEpwt5",
+    "filename": "히가시노 게이고-갈릴레오(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T13:38:16.000Z",
+    "size": "408201",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1ist-FBhoys-lBWRft5oFkrdXc5XEpwt5/view?usp=drivesdk",
+    "sourceSha256": "c374dd1ee0c83fd6a7357211b20cfd548eecaf52a1c9e7e97de0f3dcb1942769",
+    "textSha256": "c154d0eca74a30888e0419702e3a81f9bb5d548cc928861ffe63b2a06eb21fa0",
+    "changeKey": "e7343f61549aed35c97eda7384ed2138",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b118f4af787675ee30df",
+    "workId": "b118f4af787675ee30df",
+    "driveFileId": "1ist-FBhoys-lBWRft5oFkrdXc5XEpwt5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T09:13:59.646900+00:00",
+    "updatedAt": "2026-09-22T09:13:59.646919+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T09:13:59.647112+00:00"
+    }
+  }
+}

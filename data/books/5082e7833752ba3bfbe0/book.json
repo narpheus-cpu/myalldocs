@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "기린의 날개",
+    "author": "히가시노 게이고",
+    "genre": "추리 소설",
+    "tags": [
+      "가가 교이치로",
+      "니혼바시",
+      "살인 사건",
+      "마쓰미야 슈헤이",
+      "기린 조각상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "미스터리",
+        "형사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사회파 작가 히가시노 게이고가 전하는 감동의 휴먼스토리!",
+    "oneLineSummary": "도쿄 니혼바시 다리 한복판에서 칼에 찔린 남성이 사망하는 사건이 발생하고, 가가 형사와 마쓰미야 형사가 사건의 진실을 추적하는 이야기이다.",
+    "overallSummary": "니혼바시 파출소 순경은 다리 중간의 기린 조각상 아래에서 가슴에 칼이 꽂힌 채 쓰러진 남성을 발견하지만 남성은 결국 사망한다. 한편 가가 교이치로는 간호사 도키코와 아버지의 3주기 일정을 논의하던 중 긴급 출동 명령을 받는다. 가가의 사촌 동생이자 경시청 수사 1과 형사인 마쓰미야 슈헤이는 현장에 출동해 피해자가 칼에 찔린 채 지하도에서 니혼바시 다리까지 이동한 경로를 파악하며 본격적인 살인 수사에 착수한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "니혼바시 다리의 변사체",
+        "summary": "니혼바시 다리를 건너던 취객으로 보였던 남성이 기린 조각상 아래에서 가슴에 칼이 찔린 채 순경에게 발견된다."
+      },
+      {
+        "sectionTitle": "가가 형사의 호출",
+        "summary": "가가 교이치로가 간호사 도키코와 카페에서 만나 아버지 다카마사의 3주기 성묘 일정을 조율하던 중 사건 호출을 받고 현장으로 향한다."
+      },
+      {
+        "sectionTitle": "마쓰미야 형사의 현장 수사",
+        "summary": "수사 1과의 마쓰미야 슈헤이가 니혼바시 현장에 도착해 최초 발견자인 순경의 진술을 듣고, 지하도에서 시작된 범행 현장을 감식한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징적 오브제",
+        "value": "날개 달린 기린 조각상과 피해자가 죽어가며 그곳으로 향한 이유"
+      }
+    ],
+    "keyEntitiesText": "가가 교이치로(형사), 마쓰미야 슈헤이(형사), 도키코(간호사), 이시가키(계장), 야스다(순경), 니혼바시 다리, 에도바시 지하도",
+    "settingText": "도쿄 니혼바시 다리 및 인근 증권가, 에도바시 지하도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18yx7PHjeYFl7V3K5XZjD9cDELdgvLnyG",
+    "filename": "히가시노 게이고-기린의 날개(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T13:47:50.000Z",
+    "size": "529446",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/18yx7PHjeYFl7V3K5XZjD9cDELdgvLnyG/view?usp=drivesdk",
+    "sourceSha256": "743653f6cdd21685887ffde8c8cce952716da678e9339a0d60fba9cdbda88dac",
+    "textSha256": "f1ac67599def0d45887a8077f2be1d8c64e14d091f942f7cf65cb614466a3382",
+    "changeKey": "9fce615714638d5d701e0c22931477cc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5082e7833752ba3bfbe0",
+    "workId": "5082e7833752ba3bfbe0",
+    "driveFileId": "18yx7PHjeYFl7V3K5XZjD9cDELdgvLnyG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T09:14:53.072312+00:00",
+    "updatedAt": "2026-09-22T09:14:53.072330+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T09:14:53.072470+00:00"
+    }
+  }
+}

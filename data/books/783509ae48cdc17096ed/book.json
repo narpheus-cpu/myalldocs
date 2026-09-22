@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마구",
+    "author": "히가시노 게이고",
+    "genre": "추리 소설",
+    "tags": [
+      "스다 다케시",
+      "기타오카",
+      "고시엔",
+      "도자이 전기",
+      "폭탄 설치"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "스포츠",
+        "미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "고시엔 대회에서 비극적인 패배를 겪은 투수 스다 다케시의 이야기와 도자이 전기 본사 화장실에 설치된 의문의 모조 폭탄 사건을 다룬다.",
+    "overallSummary": "가이요 고등학교의 천재 투수 스다 다케시는 고시엔 9회 말 만루 위기에서 포수 기타오카와 정면 승부를 펼치지만, 마지막 투구가 빠지며 역전패를 당한다. 한편, 도자이 전기 자재부의 우스이 이치로는 본사 3층 남자 화장실에서 '고장' 종이가 붙은 칸에 방치된 검은 가방을 발견한다. 가방 안에는 다이너마이트와 정교한 시한장치가 들어 있었으나, 실제로는 폭발하지 않도록 천 조각이 끼워진 모조 폭탄임이 밝혀져 경찰이 수사에 나선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고시엔의 비극",
+        "summary": "가이요 고등학교 투수 스다 다케시가 고시엔 대회 9회 말 2사 만루 상황에서 4번 타자 쓰야마와 승부하다가 폭투로 허망하게 역전패하는 과정을 그린다."
+      },
+      {
+        "sectionTitle": "화장실의 검은 가방",
+        "summary": "도자이 전기 자재부 과장 우스이가 본사 화장실에서 수상한 검은 가방을 발견하고 폭탄 신고를 접수한다."
+      },
+      {
+        "sectionTitle": "경찰의 수사 착수",
+        "summary": "지바 현경 수사 1과의 우에하라와 시노다 형사가 우스이 과장과 수위들을 상대로 내부 사정에 밝은 범인의 행적을 조사한다."
+      },
+      {
+        "sectionTitle": "모조 폭탄의 비밀",
+        "summary": "구와나 반장이 감식 결과를 토대로 폭탄이 정교하게 만들어졌으나 작동하지 않도록 천 조각이 끼워진 모조 폭탄임을 밝혀낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건의 기묘한 점",
+        "value": "진짜 다이너마이트를 사용했음에도 폭발하지 않도록 설계된 모조 시한장치 트릭"
+      }
+    ],
+    "keyEntitiesText": "스다 다케시(투수), 기타오카(포수), 우스이 이치로(자재과장), 우에하라(형사), 시노다(형사), 구와나(반장), 도자이 전기 주식회사",
+    "settingText": "고시엔 야구장, 도자이 전기 주식회사 본사 건물 3층 화장실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wruVmFzMNZBZRAxYjuFZ-WeRnzVVwFha",
+    "filename": "히가시노 게이고-마구(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T13:49:26.000Z",
+    "size": "468484",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1wruVmFzMNZBZRAxYjuFZ-WeRnzVVwFha/view?usp=drivesdk",
+    "sourceSha256": "45bd841755e172e8fe4adc8ede34ec32ade6fb0e678af2e1b1e0a954f265f5ca",
+    "textSha256": "c92bd968f9aa7b4ae833187fb6d1d1f2a4d57fd0ec780c20e955f006b79f71e4",
+    "changeKey": "42bf5ee864123e6d65fdc5a40aa8cfe6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "783509ae48cdc17096ed",
+    "workId": "783509ae48cdc17096ed",
+    "driveFileId": "1wruVmFzMNZBZRAxYjuFZ-WeRnzVVwFha",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T09:15:31.651742+00:00",
+    "updatedAt": "2026-09-22T09:15:31.651760+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T09:15:31.651865+00:00"
+    }
+  }
+}

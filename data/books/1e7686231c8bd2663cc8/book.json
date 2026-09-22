@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "공허한 십자가",
+    "author": "히가시노 게이고",
+    "genre": "추리 소설",
+    "tags": [
+      "이구치 사오리",
+      "니시나 후미야",
+      "나카하라 미치마사",
+      "사요코",
+      "살인 사건"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "드라마",
+        "미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "전처 사요코의 갑작스러운 살해 소식을 들은 나카하라 미치마사가 과거의 비극과 얽힌 사건의 진실을 마주하는 이야기이다.",
+    "overallSummary": "이구치 사오리는 중학생 시절 육상부 선배 니시나 후미야와 첫사랑에 빠진다. 한편, 반려동물 장례업체 '엔젤보트'를 운영하는 나카하라 미치마사는 경시청 형사 사야마로부터 이혼한 전처 사요코가 길거리에서 칼에 찔려 살해당했다는 충격적인 전화를 받는다. 사야마 형사는 과거의 인연으로 나카하라를 찾아와 사요코의 인간관계와 살해 정황을 조사하기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사오리와 후미야의 첫사랑",
+        "summary": "어머니 없이 자란 이구치 사오리가 중학생 시절 육상부 선배 니시나 후미야와 비디오 대여점을 계기로 가까워지며 사랑에 빠지는 과정을 그린다."
+      },
+      {
+        "sectionTitle": "전처의 살해 소식",
+        "summary": "반려동물 장례업을 하는 나카하라 미치마사가 전처 사요코의 살해 소식을 전하는 형사 사야마의 전화를 받고 혼란에 빠진다."
+      },
+      {
+        "sectionTitle": "사야마 형사의 방문",
+        "summary": "사야마 형사가 나카하라를 찾아와 사요코가 고토 구 기바의 길거리에서 칼에 찔려 사망한 경위와 수사 상황을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 갈등",
+        "value": "과거의 상처를 공유한 부부의 이혼과 전처의 의문스러운 살인 사건"
+      }
+    ],
+    "keyEntitiesText": "이구치 사오리, 니시나 후미야, 나카하라 미치마사, 사요코(전처), 사야마(형사), 엔젤보트(반려동물 장례업체)",
+    "settingText": "후지 시, 고토 구 기바의 아파트 인근 길거리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GLO383cpZYzqpAq7O8P4XpioRgtOStLZ",
+    "filename": "히가시노 게이고-공허한 십자가(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T13:43:40.000Z",
+    "size": "558951",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1GLO383cpZYzqpAq7O8P4XpioRgtOStLZ/view?usp=drivesdk",
+    "sourceSha256": "eeab73e18753abf8425f5a874774ae6b837f93f622f2d838cdfd16a2fe634163",
+    "textSha256": "af35234790d07e6b56336334a15fd60182c3f0cf5b976b8a65f0a3286a938339",
+    "changeKey": "2b99725e71f20fdabfcdbfea50c495c2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1e7686231c8bd2663cc8",
+    "workId": "1e7686231c8bd2663cc8",
+    "driveFileId": "1GLO383cpZYzqpAq7O8P4XpioRgtOStLZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T09:14:38.900587+00:00",
+    "updatedAt": "2026-09-22T09:14:38.900606+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T09:14:38.900716+00:00"
+    }
+  }
+}

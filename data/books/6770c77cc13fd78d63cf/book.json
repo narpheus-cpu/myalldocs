@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "갈릴레오의 고뇌",
+    "author": "히가시노 게이고",
+    "genre": "추리 소설",
+    "tags": [
+      "우쓰미 가오루",
+      "구사나기",
+      "추락사",
+      "오카자키 미쓰야"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "미스터리",
+        "형사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "형사 우쓰미 가오루와 구사나기가 아파트에서 추락사한 여성 은행원 사건의 진상을 밝히기 위해 수사하는 이야기이다.",
+    "overallSummary": "피자 배달원 미쓰이는 아파트 옆 도로에 추락한 여성의 시체를 목격한다. 사망자는 서른 살의 은행원 에지마 치나쓰로, 머리에 냄비로 맞은 흔적이 발견되어 타살로 추정된다. 우쓰미 가오루 형사는 현장에 남겨진 속옷 택배 상자를 통해 피해자가 친밀한 인물과 만날 예정이었음을 직감한다. 피해자의 대학 선배이자 가구점 영업 사원인 오카자키 미쓰야가 용의선상에 오르며 수사가 진행된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "추락사 목격",
+        "summary": "피자 배달원 미쓰이가 아파트 근처에서 한 남성과 실랑이를 벌이던 중 위에서 떨어진 여성의 추락 시체를 목격한다."
+      },
+      {
+        "sectionTitle": "현장 감식과 타살 추정",
+        "summary": "우쓰미 가오루 형사와 구사나기 형사가 에지마 치나쓰의 아파트 현장을 감식하고, 냄비가 흉기로 사용된 타살 사건임을 확인한다."
+      },
+      {
+        "sectionTitle": "오카자키의 진술",
+        "summary": "피해자의 대학 선배이자 가구점 영업 사원인 오카자키 미쓰야가 경찰서에 나타나 알리바이와 목격 정황을 진술한다."
+      },
+      {
+        "sectionTitle": "택배 상자의 단서",
+        "summary": "우쓰미 가오루가 현관에 방치된 속옷 택배 상자를 근거로 오카자키가 피해자의 애인일 가능성을 제기하며 수사 방향을 논의한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "수사의 실마리",
+        "value": "현관 신발장 위에 치워지지 않은 속옷 택배 상자를 통한 피해자와 용의자의 관계 추리"
+      }
+    ],
+    "keyEntitiesText": "에지마 치나쓰(피해자), 우쓰미 가오루(형사), 구사나기 슌페이(형사), 마미야(계장), 오카자키 미쓰야(가구점 영업 사원), 미쓰이 레이지(피자 배달원)",
+    "settingText": "후카가와 경찰서 관할 구역 내 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BGsQqPIs-4YviLMefepYU7JBji-gauy-",
+    "filename": "히가시노 게이고-갈릴레오의 고뇌(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T13:40:58.000Z",
+    "size": "486435",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1BGsQqPIs-4YviLMefepYU7JBji-gauy-/view?usp=drivesdk",
+    "sourceSha256": "85a467dd5b90e381a4c82c4eac8d11ca6fc0b26b6e31a979f6b03281d3172597",
+    "textSha256": "5c402b76fdd6369c13991326a198fcc91b7cdea14bc2a2a56239bb72c8b348aa",
+    "changeKey": "10d680a522f5d39f2391ff2913defb46",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6770c77cc13fd78d63cf",
+    "workId": "6770c77cc13fd78d63cf",
+    "driveFileId": "1BGsQqPIs-4YviLMefepYU7JBji-gauy-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T09:14:32.814522+00:00",
+    "updatedAt": "2026-09-22T09:14:32.814538+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T09:14:32.814647+00:00"
+    }
+  }
+}
