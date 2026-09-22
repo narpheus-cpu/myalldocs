@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비차협혼",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "김용",
+      "종남산",
+      "마령수"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김용",
+    "oneLineSummary": "마령수 염소천의 장례 행렬을 가로막은 종남삼조와 복양혁, 그리고 환영신마 남궁수석의 등장을 그린 이야기.",
+    "overallSummary": "당금 무림에 명성이자자한 마령수 염소천이 세상을 떠나자, 기련쌍검 모용걸과 이불범은 그의 영구를 실은 마차를 호위하며 종남산 고도를 지나 남전 염가촌으로 향한다. 하지만 백장절벽 아래에서 종남삼조와 흑도 고수들이 가로막고, 칠 년 전 염소천에게 패해 은거했던 음풍수 복양혁이 나타나 영구를 확인하려 한다. 일촉즉발의 긴장 속에서 소나무 위에 숨어 있던 환영신마 남궁수석이 나타나 염소천이 사실은 죽지 않았고 복양혁을 속이기 위한 연극이라는 사실을 폭로한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "차 례 및 본문 요약",
+        "summary": "기련쌍검의 호위 속에 마령수 염소천의 관이 종남산을 지나는 도중 종남삼조와 음풍수 복양혁이 가로막고 시신을 확인하려 하자, 서풍취객 남궁수석이 나타나 염소천의 위장 사망극과 그 숨겨진 진실을 밝혀낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 인물",
+        "value": "기련쌍검, 음풍수 복양혁, 환영신마 남궁수석, 마령수 염소천"
+      },
+      {
+        "key": "사건 전개",
+        "value": "엄숙한 장례 행렬 속에서 벌어지는 고수들 간의 심리전과 반전"
+      }
+    ],
+    "keyEntitiesText": "모용걸, 이불범, 염소천, 복양혁, 남궁수석, 포양",
+    "settingText": "종남산 백장절벽 아래 고도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1mtt2YEhJDixj5cZLSRAcueiqiOp_oeAl",
+    "filename": "김용-비차협혼.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:01.272Z",
+    "size": "1432847",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1mtt2YEhJDixj5cZLSRAcueiqiOp_oeAl/view?usp=drivesdk",
+    "sourceSha256": "3a284f6147849f57d0e8d842ab1f36ff903f4007ab3b170c6bc2a8fb7b925dda",
+    "textSha256": "bc325bc2508e2768db42e54d11cf348ed4b80c8acae5583f67d237947014306b",
+    "changeKey": "a5736f38dd34db46e9647926bcecb1a4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "38c3efc34770de692663",
+    "workId": "38c3efc34770de692663",
+    "driveFileId": "1mtt2YEhJDixj5cZLSRAcueiqiOp_oeAl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:00:47.385632+00:00",
+    "updatedAt": "2026-09-22T15:00:47.385646+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:00:47.385744+00:00"
+    }
+  }
+}

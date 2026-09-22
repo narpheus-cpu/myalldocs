@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "기협만리",
+    "author": "검궁인",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "악동",
+      "무림맹주",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "comedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "검궁인",
+    "oneLineSummary": "다섯 살에 강호에 출도해 여덟 살에 정상을 밟고 은퇴했다가 다시 무림을 구한 12세 소년 백리웅천의 엉뚱하고 유쾌한 일상.",
+    "overallSummary": "정사양도 삼백여 방파로 이뤄진 중원무림맹의 맹주 백리웅천은 사패천의 위협 속에서도 무림인들의 자립심을 길러주기 위해 은퇴를 선언하고 유유히 떠난다. 군웅들과 여인들이 통곡하며 붙잡는 꿈을 꾸던 그는 알고 보니 남창 성내 최고의 명소인 진미객점의 12세 막내 점소이였다. 거친 청년 점소이 팽달과 티격태격하며 살아가는 백리웅천은 겉보기엔 평범한 꼬마이지만 비범한 과거와 성깔을 숨긴 공포의 악동이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 공포(恐怖)의 악동(惡童)",
+        "summary": "중원무림맹주 백리웅천은 무림의 자립을 위해 은퇴를 선언하고 홀연히 떠나려 하고, 군웅들과 수백 명의 여인들이 옷을 벗으며 애원하는 꿈을 꾸다 객점 점소이 팽달에게 얻어맞고 깬다."
+      },
+      {
+        "sectionTitle": "제 2 장~제 3 장 등",
+        "summary": "진미객점에서 점소이로 일하며 사고뭉치 악동으로 악명 높은 12세 소년 백리웅천의 과거 일화와 팽달과의 티격태격하는 일상이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공 반전",
+        "value": "천하를 호령하던 12세 무림맹주이자 진미객점의 말썽꾸러기 점소이"
+      },
+      {
+        "key": "주요 특징",
+        "value": "유머러스하고 능청스러운 성격 속 숨겨진 절대 고수의 면모"
+      }
+    ],
+    "keyEntitiesText": "백리웅천, 팽달, 청허대사, 단후상연, 유옥화",
+    "settingText": "남창 진미객점, 무림맹 계곡"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1abxcdKEHGITtgb1SpvQZczEsy-QlsGy_",
+    "filename": "기협만리(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.899Z",
+    "size": "864029",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1abxcdKEHGITtgb1SpvQZczEsy-QlsGy_/view?usp=drivesdk",
+    "sourceSha256": "0e380996a25b56341de40afd50ec355e3e08cadf8093b06bef4f3cee4448e740",
+    "textSha256": "ba5d0359bb7c24da096abf38d7ce36e8157171ce00f28ee1ebf6a07ebb93e5bb",
+    "changeKey": "0600bd4069dc41b3a038511ac15cff86",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7a820d2b51bf9b046088",
+    "workId": "7a820d2b51bf9b046088",
+    "driveFileId": "1abxcdKEHGITtgb1SpvQZczEsy-QlsGy_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:59:54.185644+00:00",
+    "updatedAt": "2026-09-22T14:59:54.185659+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:59:54.185761+00:00"
+    }
+  }
+}

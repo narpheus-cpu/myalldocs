@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "금검경혼",
+    "author": "금강",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "마교",
+      "왕옥산",
+      "은자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금강",
+    "oneLineSummary": "마교의 부활 조움 속에서 소요거사와 한운수 고구가 왕옥산의 젊은 은자 황보영을 찾아가 도움을 청한다.",
+    "overallSummary": "50년 전 끔찍한 잔인함과 사술로 천하무림의 연합공격을 받아 멸망했던 마교의 잔당들이 다시 움직일 조짐을 보인다. 수뇌부의 시체를 찾지 못한 무림은 공포에 떨고, 소요거사 공량과 한운수 고구는 다급한 사정을 안고 왕옥산 광명곡에 은거하는 약관의 청년 황보영을 찾아간다. 황보영은 연단에 매진하다가 그들을 맞이하고, 곧이어 들이닥친 마교 잔당의 자객을 제압하며 무림의 거대한 암류에 휘말리게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "50년 전 천하를 공포에 떨게 했던 마교의 실체와 멸망, 그리고 다시 다가오는 부활의 그림자에 대해 설명한다."
+      },
+      {
+        "sectionTitle": "왕옥산(王屋山)의 젊은 은자(隱者)",
+        "summary": "소요거사 공량과 한운수 고구는 위기에 처한 무림을 구하기 위해 왕옥산 광명곡에 은거하는 젊은 고수 황보영을 찾아가 도움을 요청하고, 뒤이어 들이닥친 마교의 자객 조충을 제압한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 세력",
+        "value": "마교 잔당, 구대문파, 왕옥산의 은자들"
+      },
+      {
+        "key": "핵심 소재",
+        "value": "마교의혹형(지옥음화심), 연단술"
+      }
+    ],
+    "keyEntitiesText": "황보영, 소요거사 공량, 한운수 고구, 조충",
+    "settingText": "산서성 왕옥산 광명곡"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pBviD75UtGIZ0CaPPnjiXWhANmEuJnAt",
+    "filename": "금검경혼(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.755Z",
+    "size": "1228158",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1pBviD75UtGIZ0CaPPnjiXWhANmEuJnAt/view?usp=drivesdk",
+    "sourceSha256": "305c8d1268f9f9f8fd8db247857b17aff326c81b66808a0826d8d845efe721a7",
+    "textSha256": "26392051aee2633f8472ddb004959c157495cba2e52f242f84f8d9e55d25a74a",
+    "changeKey": "d4035572cdee3ef216351b3e14ca04a5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "162d75a50170770f70c9",
+    "workId": "162d75a50170770f70c9",
+    "driveFileId": "1pBviD75UtGIZ0CaPPnjiXWhANmEuJnAt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:59:36.758170+00:00",
+    "updatedAt": "2026-09-22T14:59:36.758185+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:59:36.758292+00:00"
+    }
+  }
+}

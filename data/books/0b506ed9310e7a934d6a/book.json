@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "권왕무적",
+    "author": "초우",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "권왕",
+      "가출",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "comedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "초우",
+    "oneLineSummary": "공부가 싫어 가출한 고집불통 소년 하영운이 건덕의 뒷골목을 평정하고 진정한 주먹의 길로 들어선다.",
+    "overallSummary": "명문 하씨 문중의 장남 하영운은 책상머리에 앉아 공부하는 것이 싫어 무공을 배워 고대성에게 복수하겠다는 일념으로 알몸으로 가출한다. 절강성 건덕의 뒷골목으로 흘러들어간 그는 흑살당에 들어가 특유의 독기와 끈질긴 고집으로 당수가 되어 흑룡당으로 이름을 바꾸고 세력을 키운다. 그러던 중 진짜 무공을 알려주겠다는 모대건을 만나 새로운 운명적 도전에 나선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장(序章) 영운가출(嶺雲家出)",
+        "summary": "북경의 명문 하씨 가문의 장남 하영운은 학문을 강요하는 아버지와 갈등 끝에 알몸으로 집을 탈출하여 세상 밖으로 나간다."
+      },
+      {
+        "sectionTitle": "제1장 구권무적(九拳無敵)",
+        "summary": "건덕 뒷골목으로 흘러들어간 아운(하영운)은 흑살당을 장악해 흑룡당으로 만들고 탁월한 수단으로 세력을 확장한 뒤, 그를 찾아온 모대건을 따라 진짜 무공을 배우러 떠난다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공 특징",
+        "value": "대단한 고집, 철저한 보상 분배, 독종 같은 싸움 실력"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "주먹 하나로 세상에 맞서는 불굴의 의지"
+      }
+    ],
+    "keyEntitiesText": "아운(하영운), 하문영, 모대건, 황룡 배대근, 흑살당",
+    "settingText": "북경의 하씨 가문, 절강성 서부 소도시 건덕의 뒷골목"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Hvgn_CT7gcdq5J4L5iEI1AfNGHYwUFAE",
+    "filename": "권왕무적(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.589Z",
+    "size": "4372116",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1Hvgn_CT7gcdq5J4L5iEI1AfNGHYwUFAE/view?usp=drivesdk",
+    "sourceSha256": "4d97274d1e513613f873dda397ef00e57ce3a85442e1c20f2f88d66a44da2517",
+    "textSha256": "13d100f1758d1880e7e61b2543f44735d6a970921b22f9cef398d35bda3e0bb6",
+    "changeKey": "b1f1708130e8423a4071c3e20687e47b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0b506ed9310e7a934d6a",
+    "workId": "0b506ed9310e7a934d6a",
+    "driveFileId": "1Hvgn_CT7gcdq5J4L5iEI1AfNGHYwUFAE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:59:08.014597+00:00",
+    "updatedAt": "2026-09-22T14:59:08.014612+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:59:08.014817+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "녹정기",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "김용",
+      "청나라",
+      "천지회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical_fiction",
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김용",
+    "oneLineSummary": "청나라 초기 양주의 기루 여춘원에 천지회와 소금 밀매업자들이 들이닥치며 어린 소년 위소보의 파란만장한 이야기가 시작된다.",
+    "overallSummary": "명나라가 망하고 청나라가 들어선 혼란스러운 시기. 절강성 항주에서는 명사(明史) 사건으로 많은 선비들이 무고하게 체포되어 압송되는 비극이 벌어지고, 유생 여유량, 황종의, 고염무 등은 망국의 설움을 안고 대책을 논의한다. 한편, 양주의 명옥방에 위치한 기루 여춘원에서는 반청복명을 내세운 천지회와 지역 소금 밀매업자(염효)들이 충돌하고, 그곳에서 춘향의 아들이자 12세 소년인 위소보가 기지 발랄하게 등장하여 싸움에 휘말린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장. 천지회(天地會)",
+        "summary": "청나라 병사들이 무고한 선비들과 가족들을 압송하는 가운데, 유생 여유량, 황종의, 고염무가 모여 명사 사건을 탄식하며 반청복명을 위한 천지회와의 연대를 모색한다."
+      },
+      {
+        "sectionTitle": "1. 소년 위소보(少年 韋小寶)",
+        "summary": "양주 명옥방의 기루 여춘원에 천지회를 찾기 위해 염효들이 들이닥치고, 그곳에서 12세 소년 위소보가 영리하고 당돌하게 어머니를 지키며 염효와 마찰을 빚는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 배경",
+        "value": "명말청초의 혼란기, 반청복명 운동과 문자옥(명사 사건)"
+      },
+      {
+        "key": "주인공",
+        "value": "기루 출신의 악동이자 훗날 대활약을 펼칠 위소보"
+      }
+    ],
+    "keyEntitiesText": "위소보, 여유량, 황종의, 고염무, 강희제",
+    "settingText": "절강성, 양주성 명옥방 여춘원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WCIMKckbx0Cf7zeb6I3njO45iOSxKYTJ",
+    "filename": "김용-녹정기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.987Z",
+    "size": "12714822",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1WCIMKckbx0Cf7zeb6I3njO45iOSxKYTJ/view?usp=drivesdk",
+    "sourceSha256": "37a055e376e45a160b7a936bb41bb07646d1385317dae33d821a7e1d52fab9f1",
+    "textSha256": "2796332696fca77edcf72624181856c0ec2c44683d2cbc4251992d517b1884c1",
+    "changeKey": "1904c4e4b02088403c04da602d37c17b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1ef9b2e23e19c91d05c1",
+    "workId": "1ef9b2e23e19c91d05c1",
+    "driveFileId": "1WCIMKckbx0Cf7zeb6I3njO45iOSxKYTJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:00:15.529347+00:00",
+    "updatedAt": "2026-09-22T15:00:15.529362+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:00:15.529467+00:00"
+    }
+  }
+}

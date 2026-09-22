@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "권왕전설",
+    "author": "이창호",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "권왕",
+      "참사",
+      "복수"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "tragedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이창호",
+    "oneLineSummary": "평화롭던 마을에 일어난 참혹한 참상과 그 비밀을 풀기 위해 강호로 나서는 왕노인과 소아귀의 대장정.",
+    "overallSummary": "백화암에서 마권 백화로부터 무공을 배우며 지내던 소아귀(왕가)는 남창 근교 이화점에서 일어난 끔찍한 참상 소식을 듣게 된다. 정원삼노라 불리며 평온하게 살아가던 왕노야의 장원이 무참히 파괴되고 가족들이 살해당한 것이다. 금신의와 독수응 황포두가 수사했으나 흉수를 특정하지 못한 가운데, 왕노인은 진실을 밝히고 복수하기 위해 검각을 향해 기나긴 대장정을 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서",
+        "summary": "백화암에서 마권 백화와 청삼 청년이 나누는 대화와 함께 참사의 서막이 암시된다."
+      },
+      {
+        "sectionTitle": "제1장 참사(慘事)",
+        "summary": "정원현 이화점의 왕노야 장원이 참혹하게 습격당해 가족들이 살해당하고, 정원삼노인 왕노인, 금신의, 독수응이 슬픔과 분노 속에서 흉수를 추적한다."
+      },
+      {
+        "sectionTitle": "제2장 대장정(大長程)",
+        "summary": "왕노인은 과거의 기억을 떠올리며 복수를 결심하고, 금신의, 독수응의 만류에도 불구하고 소아귀와 함께 대설산맥으로 향하는 여정에 오른다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건 배경",
+        "value": "정원삼노의 평화가 깨지고 발생한 의문의 일가족 참살 사건"
+      },
+      {
+        "key": "주요 인물",
+        "value": "숨겨진 고수들의 과거와 비극적인 운명"
+      }
+    ],
+    "keyEntitiesText": "왕노인(왕기호), 소아귀(왕가), 금신의, 독수응 황혁, 마권 백화",
+    "settingText": "백화암, 남창 근교 정원현 이화점"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-g0UlWAn6shCCMuBrUFWubfKESGVZuHE",
+    "filename": "권왕전설(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.666Z",
+    "size": "431393",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1-g0UlWAn6shCCMuBrUFWubfKESGVZuHE/view?usp=drivesdk",
+    "sourceSha256": "2a2a06c2f1e3ebabbea14d5bd1893024e96e1b8aab6f63e4c6f1a0562f7fab37",
+    "textSha256": "c87096a2a0494a56cfabc1e6a86cab219d635c12c4796afbb611d956c1f41617",
+    "changeKey": "e0fb50ac1534010a613fc52dcab81902",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "19e41b8747d8a9bd7c0e",
+    "workId": "19e41b8747d8a9bd7c0e",
+    "driveFileId": "1-g0UlWAn6shCCMuBrUFWubfKESGVZuHE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:59:15.060253+00:00",
+    "updatedAt": "2026-09-22T14:59:15.060269+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:59:15.060379+00:00"
+    }
+  }
+}

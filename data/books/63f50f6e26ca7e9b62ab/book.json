@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "백마소서풍",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "김용",
+      "사막",
+      "비극"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "tragedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김용",
+    "oneLineSummary": "지도를 지키기 위해 사막에서 적들과 맞서 싸우다 목숨을 바친 백마 이삼 부부와 홀로 남겨진 딸의 비극적인 운명.",
+    "overallSummary": "회강의 광활한 대사막, 백마 이삼과 아내 상관홍은 고창미궁의 지도를 노리는 여랑삼걸의 끈질긴 추격 속에서 목숨을 건 도주를 한다. 남편 이삼은 적들의 칼에 비참하게 최후를 맞이하고, 상관홍 역시 자신을 사랑했던 사중준을 동반자살로 처단하며 남편의 뒤를 따른다. 부모는 어린 딸 수아에게 지도를 남기고 희생하고, 수아는 거대한 사풍(모래바람) 속에서 홀로 남겨져 카자흐족 부락의 은거 노인 계씨와 만나게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "일. 사막의 추격자들",
+        "summary": "백마 이삼 부부는 고창미궁의 지도를 차지하려는 여랑삼걸의 추격을 피해 사막을 달리다 끝내 목숨을 잃고, 부모의 희생 속에 어린 딸 수아만 홀로 살아남아 사막을 헤매다 카자흐족 오아시스에 도달한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "배경",
+        "value": "끝없이 펼쳐진 황량한 대사막과 거친 사풍"
+      },
+      {
+        "key": "주요 주제",
+        "value": "가혹한 운명 속에서 피어나는 부모의 희생과 비극적 사랑"
+      }
+    ],
+    "keyEntitiesText": "백마 이삼, 상관홍, 이수아, 사중준, 곽원룡, 진달해",
+    "settingText": "회강의 대사막, 카자흐족 부락"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1b5kkso3YF0PPggvXBH0KEkc6c5YOUW9g",
+    "filename": "김용-백마소서풍.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:01.213Z",
+    "size": "308043",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1b5kkso3YF0PPggvXBH0KEkc6c5YOUW9g/view?usp=drivesdk",
+    "sourceSha256": "3a10ff9bc38a7f263e04859d8dbd3782496d1138fbd0e3b48ac778d793d68fcd",
+    "textSha256": "de56ae37486912543728b30c39ad16f7962fff3466e4c7ba8c3e526c3696a8aa",
+    "changeKey": "785e3a397cea1038088bd268665cfc37",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "63f50f6e26ca7e9b62ab",
+    "workId": "63f50f6e26ca7e9b62ab",
+    "driveFileId": "1b5kkso3YF0PPggvXBH0KEkc6c5YOUW9g",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:00:32.364094+00:00",
+    "updatedAt": "2026-09-22T15:00:32.364108+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:00:32.364199+00:00"
+    }
+  }
+}

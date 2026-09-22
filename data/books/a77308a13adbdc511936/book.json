@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "설산비호",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "김용",
+      "장백산",
+      "천룡문"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김용",
+    "oneLineSummary": "장백산 눈밭에서 활로 기러기를 맞춘 정체불명의 도자안을 쫓아 천룡문 고수들이 추격에 나선다.",
+    "overallSummary": "건륭 45년 3월, 눈이 잔뜩 쌓인 장백산 부근에서 화살 하나가 날아와 기러기의 목을 꿰뚫는다. 그 화살의 주인공을 쫓기 위해 천룡문 북종의 조운기, 주운양, 완사중과 남종의 은길, 그리고 북종문인의 딸 전청문 등 다섯 사람이 말을 몰아 산을 오른다. 조운기는 전청문을 향한 연정 때문에 갈등하면서도, 도씨 부자(도자안)를 잡기 위해 은길, 완사중과 함께 험난한 산길을 기습하며 추격을 계속한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 장백산(長白山)에 모인 군웅들",
+        "summary": "장백산의 설원에서 화살로 기러기를 명중시킨 도자안을 잡기 위해 천룡문 남북 양종의 고수들인 완사중, 은길, 조운기, 주운양과 전청문이 험준한 산길을 따라 추격전을 벌인다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 세력",
+        "value": "천룡문 남종과 북종, 음마천 도씨 부자"
+      },
+      {
+        "key": "갈등 요소",
+        "value": "전청문을 둘러싼 조운기의 연정과 문파 간의 복수극"
+      }
+    ],
+    "keyEntitiesText": "조운기, 완사중, 은길, 주운양, 전청문, 도자안",
+    "settingText": "장백산의 설원과 험준한 산등성이"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1S9Hawp14brBzJzYLGUhXuCBzdqVuD-Tq",
+    "filename": "김용-설산비호.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:01.527Z",
+    "size": "624789",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1S9Hawp14brBzJzYLGUhXuCBzdqVuD-Tq/view?usp=drivesdk",
+    "sourceSha256": "db4b6c84def9dbb5377aadd6d6a2ae297709bf97b1588b276b4cc5849b9e4a77",
+    "textSha256": "df05840fff2d3d853acf14fe31dc77293453e21d7f9716d8b1ddfcf5118c4d69",
+    "changeKey": "7b846393b76b60969285e803b2dec05a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a77308a13adbdc511936",
+    "workId": "a77308a13adbdc511936",
+    "driveFileId": "1S9Hawp14brBzJzYLGUhXuCBzdqVuD-Tq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:01:15.130019+00:00",
+    "updatedAt": "2026-09-22T15:01:15.130034+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:01:15.130120+00:00"
+    }
+  }
+}

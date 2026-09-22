@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비호외전",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "김용",
+      "호비",
+      "표창"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김용",
+    "oneLineSummary": "호일도와 묘인봉의 원한을 품은 표창 연마 현장에서 비마표국 마행공 부녀와 어전시위 하사호의 갈등이 벌어진다.",
+    "overallSummary": "눈 내리는 어느 장원, 백발노파의 지도 아래 젊은이가 호일도와 묘인봉의 혈도를 새긴 목패를 향해 금표 표창을 던지는 수련을 하고 있다. 그 광경을 훔쳐보다 들킨 백승신권 마행공의 딸 마춘화와 제자 서쟁은 모닥불가에서 무례한 무관 하사호와 시비가 붙는다. 서쟁은 사부의 눈을 피해 하사호와 연무청에서 대결을 벌이고, 태극권을 구사하는 하사호를 사권으로 제압하며 뛰어난 실력을 발휘한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "백발노파의 원한 ~ 본문 요약",
+        "summary": "호일도와 묘인봉의 혈도를 겨냥한 표창 연마 현장을 구경한 마춘화와 서쟁은 비를 피하러 온 무관 하사호의 시시비비에 맞서고, 서쟁은 상보진의 연무청에서 하사호와 비무를 벌여 승리한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 인물",
+        "value": "대협 호비, 백승신권 마행공, 마춘화, 서쟁, 시위 하사호"
+      },
+      {
+        "key": "핵심 소재",
+        "value": "호일도와 묘인봉의 전설, 표창 수련, 무림의 비기"
+      }
+    ],
+    "keyEntitiesText": "호일도, 묘인봉, 마행공, 마춘화, 서쟁, 하사호, 상보진",
+    "settingText": "비가 내리는 어느 장원과 연무청"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-cT1R7dOXfZxwYudVgUBF_Xqw_FZAK5I",
+    "filename": "김용-비호외전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:01.333Z",
+    "size": "2404099",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1-cT1R7dOXfZxwYudVgUBF_Xqw_FZAK5I/view?usp=drivesdk",
+    "sourceSha256": "ce0da02807197788cddeac49e3dde8ff9e75b0a47a7c1e17551f6eaebefd77fd",
+    "textSha256": "085be185af631b214c923d2cf9a8065679e1f4a666f251481291a94d7208d8f3",
+    "changeKey": "cc07fd34fd1e0c40d2c6f1f4ac4efd69",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e8bea66c7811c4152721",
+    "workId": "e8bea66c7811c4152721",
+    "driveFileId": "1-cT1R7dOXfZxwYudVgUBF_Xqw_FZAK5I",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:00:55.673879+00:00",
+    "updatedAt": "2026-09-22T15:00:55.673895+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:00:55.673995+00:00"
+    }
+  }
+}

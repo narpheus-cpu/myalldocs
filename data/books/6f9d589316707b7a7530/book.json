@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "금검지",
+    "author": "와룡생",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "와룡생",
+      "장벽호",
+      "인연"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "tragedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "와룡생",
+    "oneLineSummary": "상강 장벽호에서 처참한 참변을 당한 배를 발견한 노인이 부인과 함께 중상을 입은 여인 운고를 구출하고 소영을 가르치게 된다.",
+    "overallSummary": "가을이 저물어가는 팔월의 밤, 장벽호에서 은퇴한 전직 어사 소대인과 부인, 그리고 어린 아들 소영이 탄 나룻배가 의문의 불타는 큰 배를 발견한다. 배 안에는 참혹하게 살해된 시신들과 함께 중상을 입은 여인 운고가 살아있었다. 소대인의 의술로 목숨을 건진 운고는 은혜에 보답하기 위해 어린 소영의 공부를 돌봐주며 무공의 비책을 전수한다. 그러나 동짓달에 운고는 홀연히 편 한 통만 남기고 떠나고, 소영은 그녀가 반드시 돌아올 것이라 믿으며 문 앞에서 기다린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 폭풍의 서?",
+        "summary": "장벽호에서 나룻배를 타던 소대인 부부는 불타는 큰 배 안에서 처참한 참상을 발견하고, 그곳에서 중상을 입은 여인 운고를 구조해 집으로 데려온다."
+      },
+      {
+        "sectionTitle": "후속 내용 요약",
+        "summary": "건강을 회복한 운고는 소영의 스승이 되어 비범한 가르침을 남기고 떠나고, 소영은 눈보라 속에서 운고가 다시 돌아오기를 기다리며 소녀를 맞이한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 인물",
+        "value": "운고(미스터리한 무예 고수), 소영(비범한 재질의 소년)"
+      },
+      {
+        "key": "분위기",
+        "value": "비극적이고 미스터리한 분위기 속에서 시작되는 인연과 성장"
+      }
+    ],
+    "keyEntitiesText": "소대인, 소부인, 소영, 운고, 소복",
+    "settingText": "단계촌 장벽호, 소대인의 은거지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1aH7EyCRj5LD9RzicY09t9bEYIFUt-ugS",
+    "filename": "금검지(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.795Z",
+    "size": "5002760",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1aH7EyCRj5LD9RzicY09t9bEYIFUt-ugS/view?usp=drivesdk",
+    "sourceSha256": "96b8f8c33b3d5ee1abdf6cfb9f07cf1057b53ad194558686670571f599ee0cb3",
+    "textSha256": "c2d220576d8f28efe3bca969ba6f6d5fe740bcad1f454bad4b7489c6af8d8813",
+    "changeKey": "f22bdd683ca0841a85c03d7463b04e88",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6f9d589316707b7a7530",
+    "workId": "6f9d589316707b7a7530",
+    "driveFileId": "1aH7EyCRj5LD9RzicY09t9bEYIFUt-ugS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:59:47.718073+00:00",
+    "updatedAt": "2026-09-22T14:59:47.718089+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:59:47.718202+00:00"
+    }
+  }
+}

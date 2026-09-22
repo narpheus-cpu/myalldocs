@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무예도보통지",
+    "author": "김병총",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "조선",
+      "무예",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical_fiction",
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김병총",
+    "oneLineSummary": "눈 내린 들판에서 우연히 만난 파립의 무사 사내와 소매치기 소년 동자가 신(信)을 찾아 동행하며 무예의 길을 떠난다.",
+    "overallSummary": "파립을 쓰고 호랑이털 조기를 걸친 괴상한 차림의 젊은 무사가 눈 쌓인 들판을 지나다 얼음 구멍에서 낚시를 하던 소매치기 소년을 만난다. 사내가 둔술과 파악술로 소년의 물고기를 훔치는 장난을 치고, 소년은 눈치채지 못한 사이 사내의 전대를 훔쳐내며 서로의 실력을 겨룬다. 맹랑하고 당돌하지만 선량한 눈빛을 지닌 12세 소년은 사내의 뛰어난 무예에 반해 그를 '나으리'라 부르며 홀로된 몸으로 무작정 뒤따라 동행을 청한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 편 - 1. 신(信)",
+        "summary": "눈 내린 들판에서 괴상한 차림의 무사와 소매치기 소년이 물고기와 전대를 서로 훔치는 내기를 통해 인연을 맺고, 소년은 홀로된 고아로서 무사를 쫓아 머나먼 동행길에 오른다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 주제",
+        "value": "믿음(信)과 인간 회복, 전통 무예의 정신"
+      },
+      {
+        "key": "문헌 배경",
+        "value": "조선 정조 때 편찬된 유일한 무예서 '무예도보통지'의 정신 반영"
+      }
+    ],
+    "keyEntitiesText": "파립의 무사, 소매치기 동자",
+    "settingText": "눈 덮인 설원과 계곡, 연못"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Ox1DLsrfRnCSVmAoiwNd_JXcXgga038V",
+    "filename": "김병총-무예도보통지 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.957Z",
+    "size": "1322972",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1Ox1DLsrfRnCSVmAoiwNd_JXcXgga038V/view?usp=drivesdk",
+    "sourceSha256": "803348e201cf48cda0bb169ee84dcdee70dd1f121e96a714b35915736650dd27",
+    "textSha256": "b0bc7e3f354de7c68ff3620a9939ae8e2af94234e54f68417b906a0de8bde735",
+    "changeKey": "3db24210a62cc329851bda0119e0ebe6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "47900e8ac652d7ef6205",
+    "workId": "47900e8ac652d7ef6205",
+    "driveFileId": "1Ox1DLsrfRnCSVmAoiwNd_JXcXgga038V",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:00:07.567436+00:00",
+    "updatedAt": "2026-09-22T15:00:07.567451+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:00:07.567600+00:00"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "금강부동신법",
+    "author": "김대산",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "신법",
+      "장백산",
+      "영약"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "family"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김대산",
+    "oneLineSummary": "가문의 염원을 이루기 위해 무리하게 영약을 복용해 위기에 빠진 아내를 구하기 위해 고행선이 장백산으로 향한다.",
+    "overallSummary": "보리달마와 혜능이 무의 궁극으로 칭한 금강부동신법 비급이 우연히 홍걸의 가문 비고에 들어가게 된다. 홍걸은 가문의 백 년 염원인 진정한 거룡의 혈손을 얻기 위해 딸 홍리화에게 사위 고행선의 아이를 임신시킨 후 천하의 온갖 희귀한 영약을 무리하게 복용시킨다. 그 부작용으로 홍리화의 몸이 터질 듯이 부풀어 오르고 위독해지자, 고행선은 장인과의 갈등을 무릅쓰고 부친이 계신 장백산으로 떠나기로 결심한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장~제2장",
+        "summary": "금강부동신법에 대한 달마와 혜능의 평가, 그리고 소림 장경각에서 비급을 훔쳐간 도둑의 기록이 소개된다."
+      },
+      {
+        "sectionTitle": "제3장 홍리화(弘梨花), 고행선(高行善)을 만나다.",
+        "summary": "거칠 것 없는 성격의 홍리화가 평범한 문사인 고행선에게 반해 결혼하고, 홍걸은 외손자를 얻기 위해 가문의 영약을 모조리 복용시키며 옥황심결을 운기하게 한다."
+      },
+      {
+        "sectionTitle": "제4장 장백산(長白山)",
+        "summary": "영약 과다 복용으로 홍리화의 몸이 심각하게 부풀어 오르자, 고행선은 처가의 반대를 무릅쓰고 부친 고진당이 있는 장백산으로 향하고, 홍걸은 불쏘시개로나 쓰려던 '금강부동신법' 비급을 챙겨 동행한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 요소",
+        "value": "영약 과다 복용으로 인한 부작용과 장인-사위 간의 가치관 대립"
+      },
+      {
+        "key": "핵심 아이템",
+        "value": "금강부동신법 비급, 각종 전설적 영약"
+      }
+    ],
+    "keyEntitiesText": "고행선, 홍리화, 홍걸, 고진당, 보리달마, 혜능",
+    "settingText": "북경, 장백산의 원시림과 분지 통나무집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tHb3ZWyzf9Ma-YVoG34H9v8nCCCuHUt5",
+    "filename": "금강부동신법 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.705Z",
+    "size": "2432635",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1tHb3ZWyzf9Ma-YVoG34H9v8nCCCuHUt5/view?usp=drivesdk",
+    "sourceSha256": "2863d9beef67a8d5517991f1603800b2382e539e011aa831645f949a400664b8",
+    "textSha256": "0b3c5a58658a555b849ca23ac76d96591c46e06c4d092b2d0521540f0a49d8b4",
+    "changeKey": "f6be5002872c7c1dec7431cd4b3bbef3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "939a5792e8dd7cbb5890",
+    "workId": "939a5792e8dd7cbb5890",
+    "driveFileId": "1tHb3ZWyzf9Ma-YVoG34H9v8nCCCuHUt5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:59:29.615649+00:00",
+    "updatedAt": "2026-09-22T14:59:29.615664+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:59:29.615774+00:00"
+    }
+  }
+}

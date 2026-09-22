@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사조영웅전",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "김용",
+      "송금전쟁",
+      "우가촌"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical_fiction",
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김용",
+    "oneLineSummary": "송·금 전쟁의 혼란 속에서 항주 우가촌에 의기투합해 살아가던 의형제 곽소천과 양철심에게 괴이한 도사가 찾아온다.",
+    "overallSummary": "송나라 고종이 금나라에 화의를 청하고 악비를 처형한 뒤 부패한 정권이 이어지던 시대. 항주성 밖 우가촌에는 수호지 곽성의 후예 곽소천과 양재흥의 후손 양철심 두 의형제가 아내들과 함께 은거하며 무예를 나누며 평화롭게 살아가고 있다. 어느 눈 내리는 날, 곽소천의 아내가 임신했다는 기쁜 소식을 나누던 중, 기이하고 오만한 도사 한 사람이 찾아와 술을 마시고 살점(염통과 간)을 먹어 치우는 괴이한 행동을 벌이며 훗날 불어닥칠 비극의 서막을 연다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 一 章. 한밤의 추적자들",
+        "summary": "송금 전쟁과 부패한 남송 조정의 배경 속에서 우가촌에 사는 의형제 곽소천과 양철심이 술잔을 기울이며 곽소천 아내의 임신을 축하하던 중, 기이한 도사가 찾아와 사람의 염통과 간을 날것으로 먹는 충격적인 광경을 연출한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 배경",
+        "value": "남송 시대 송·금 갈등과 진회의 화의, 악비의 죽음"
+      },
+      {
+        "key": "주요 인물",
+        "value": "곽소천, 양철심과 훗날 주인공들의 운명을 결정짓는 도사 구처기"
+      }
+    ],
+    "keyEntitiesText": "곽소천, 양철심, 포씨, 곽소천의 아내, 구처기(도사)",
+    "settingText": "항주성 밖 우가촌 양씨 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HfHUrMJRat7HWd8senxS6zjc2djPIkJm",
+    "filename": "김용-사조영웅전(한자제거)(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:01.379Z",
+    "size": "2825891",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1HfHUrMJRat7HWd8senxS6zjc2djPIkJm/view?usp=drivesdk",
+    "sourceSha256": "9707572cc475abd46c4e3fcb57017bb6b709593227ce33db766d8e9ad9a4a32e",
+    "textSha256": "4abc3aab3b46a3b3039b08c3cb9104ac535b247b99246ade295f948387f6cbfd",
+    "changeKey": "6ded2a50a730ba4b3fd6150ad7633193",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4d3b468523f7986651b8",
+    "workId": "4d3b468523f7986651b8",
+    "driveFileId": "1HfHUrMJRat7HWd8senxS6zjc2djPIkJm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:01:06.304968+00:00",
+    "updatedAt": "2026-09-22T15:01:06.304982+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:01:06.305082+00:00"
+    }
+  }
+}

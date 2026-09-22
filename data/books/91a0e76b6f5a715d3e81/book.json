@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대검자",
+    "author": "김병총",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "조선",
+      "고려 왕손",
+      "무예"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical_fiction",
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김병총",
+    "oneLineSummary": "이태조 3년 개경, 조선 왕조의 추격을 피해 도망치는 고려 왕손 왕천을 구하기 위해 하얀독수리 최동이 활약한다.",
+    "overallSummary": "이성계에 의해 고려가 멸망하고 조선이 건국된 지 3년이 지난 개경. 새 왕조의 권력 다툼과 혼란 속에서 왕씨 일족은 제거 대상이 된다. 늙은 관곽 장수(사실은 하얀독수리 최동)로 변장한 무사 최동은 추격해온 태조의 사병들을 무찌르고, 관짝 속에 숨어 있던 고려의 마지막 왕손 왕천을 구출하여 천마산으로 향한다. 왕천은 수많은 죽음의 고비를 넘기며 무술을 연마하고 전통 무예를 통합해 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 어둠 속의 불씨",
+        "summary": "이태조 3년 9월의 개경. 노인으로 변장한 하얀독수리 최동은 지게에 관곽을 짊어지고 개경을 빠져나오다 왕씨 왕손을 찾는 태조의 사병들과 맞닥뜨린다. 최동은 뛰어난 검술로 사병들을 처치하고 관곽 속에 숨어 있던 고려 왕손 왕천을 구출해 천마산으로 향한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 배경",
+        "value": "조선 건국 초기 고려 왕족의 수난과 혼란기"
+      },
+      {
+        "key": "주요 인물",
+        "value": "협사 하얀독수리 최동과 고려의 마지막 왕손 왕천"
+      }
+    ],
+    "keyEntitiesText": "하얀독수리 최동, 왕천, 빨간 두건 사내, 적두노사, 시각대사",
+    "settingText": "개경(송도), 박연폭포 오조천"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1h6fN4jJz3nO4pz9ZcrTEFcNtXyY62yOs",
+    "filename": "김병총-대검자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.930Z",
+    "size": "1060506",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1h6fN4jJz3nO4pz9ZcrTEFcNtXyY62yOs/view?usp=drivesdk",
+    "sourceSha256": "fe3ed71de4ff2b7027b9e00efe91cba435ab234865b5668230aa24e95eba623f",
+    "textSha256": "e80020e8790e17b8d606eb162b2cc0a638af691f17563b926f87927922a02180",
+    "changeKey": "d26bf956960c28412e0f4373ea2ccb1b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "91a0e76b6f5a715d3e81",
+    "workId": "91a0e76b6f5a715d3e81",
+    "driveFileId": "1h6fN4jJz3nO4pz9ZcrTEFcNtXyY62yOs",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:00:01.409080+00:00",
+    "updatedAt": "2026-09-22T15:00:01.409095+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:00:01.409201+00:00"
+    }
+  }
+}

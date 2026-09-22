@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "귀검행",
+    "author": "서효원",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "천하제일",
+      "검객",
+      "운명"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "tragedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서효원",
+    "oneLineSummary": "모든 천하제일을 살하라는 가혹한 조사지명을 받은 소년 양운비가 거대한 폭풍의 중심에 선다.",
+    "overallSummary": "천하삼기의 실종과 함께 무림은 사마외도가 창궐하는 거대한 암흑기로 접어들고, 동인마, 서마승 찰미랍, 남종사 포천붕, 북신녀 다비신녀 등 사인의 거마가 발호한다. 이 혼돈의 시대 속에서 낡고 허름한 신품서원에는 신품서생과 네 명의 제자 양운비, 남옥, 의림나, 이불검이 살고 있다. 묵묵히 글씨와 검술을 수련하던 양운비는 피할 수 없는 가혹한 운명의 소용돌이 속으로 휘말려 들어가게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 신품서원(神品書院)",
+        "summary": "천하삼기의 실종과 사인의 거마 발호로 무림이 혼란에 빠진 가운데, 상수 가의 낡은 신품서원에서 신품서생과 제자 양운비, 남옥, 의림나, 이불검이 각자의 길을 모색한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 설정",
+        "value": "모든 천하제일을 살하라는 조사지명과 대변수 양운비의 등장"
+      },
+      {
+        "key": "분위기",
+        "value": "음울하고 장엄한 분위기 속에서 고뇌하는 주인공의 여정"
+      }
+    ],
+    "keyEntitiesText": "양운비, 남옥, 의림나, 이불검, 신품서생, 찰미랍",
+    "settingText": "모니망기산, 신품서원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rXmHrEnF8rYjStojgg_wi_aMmRVtdXLE",
+    "filename": "귀검행(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:00.682Z",
+    "size": "870245",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1rXmHrEnF8rYjStojgg_wi_aMmRVtdXLE/view?usp=drivesdk",
+    "sourceSha256": "c9edd0687c60367bc188743769a05ff5ce24b1bbe1bb545d9ab4cf48c5f0571b",
+    "textSha256": "2efa4d3eb59a88ba32970c2d9d3c0c3a65a6c9ea5a789359218cd91fd0c761cf",
+    "changeKey": "e5094d350c22320f859dbdef7d0e42e1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "520a6570baf6dc4da027",
+    "workId": "520a6570baf6dc4da027",
+    "driveFileId": "1rXmHrEnF8rYjStojgg_wi_aMmRVtdXLE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:59:21.374956+00:00",
+    "updatedAt": "2026-09-22T14:59:21.374973+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:59:21.375085+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도룡기",
+    "author": "김용",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "김용",
+      "복수",
+      "기연"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "martial_arts",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김용",
+    "oneLineSummary": "부모의 원수를 갚기 위해 강호에 나선 동방영이 6년 만에 낙양으로 돌아와 조대를 만나고 비밀을 파헤친다.",
+    "overallSummary": "팔방표국의 총표두 동방명은 50세 생일에 가족들과 함께 용문산으로 놀러갔다가 정체불명의 괴한 세 명의 습격을 받는다. 부모님은 아들을 살리기 위해 동굴에 숨기고 맞서 싸우다 변을 당하고, 어린 영군은 석불동의 구멍을 통해 떨어져 좌화한 노승으로부터 신비한 내공과 기연을 얻어 6년 동안 무공을 연마한다. 누더기를 걸치고 난장이 같은 모습으로 낙양에 돌아온 그는 축골공을 풀어 건장한 사나이로 변모한 뒤, 표국의 옛 표졸 조대를 만나 부모의 원수를 갚기 위한 대장정에 나선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1권 남장 여인(男裝女人) - 아득한 날의 악몽",
+        "summary": "폐허가 된 팔방표국으로 돌아온 영군은 옛 표졸 조대를 만나 부모가 6년 전 복면 괴한들에게 살해당한 참상을 듣고, 자신이 겪었던 석불동의 기연과 축골공의 비밀을 밝힌다."
+      },
+      {
+        "sectionTitle": "석불동(石佛洞)의 비밀",
+        "summary": "6년 전 용문산 석불동에서 괴한들의 습격을 받아 부모와 헤어진 영군이 석불동 거대한 불상 귀 속에서 밀실로 떨어져 노승의 법상으로부터 절예를 익히게 된 경위가 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 능력",
+        "value": "축골공(신체 변형 기술), 석불동의 신비로운 내공"
+      },
+      {
+        "key": "주요 플롯",
+        "value": "부모의 원수(삼괴)를 찾기 위한 복수와 강호행"
+      }
+    ],
+    "keyEntitiesText": "동방영(영군), 동방명, 전운봉, 조대",
+    "settingText": "낙양 팔방표국, 용문산 석불동"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13sNnaaWW2H5jCGeUsWBU_LfOSTXgdu-G",
+    "filename": "김용-도룡기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:01.178Z",
+    "size": "1749453",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/13sNnaaWW2H5jCGeUsWBU_LfOSTXgdu-G/view?usp=drivesdk",
+    "sourceSha256": "96fa0d39ba7dfd53a781b0cc201c1a6f224f8257efe2b0ef5d6e4264e1c680fc",
+    "textSha256": "537b37670880ae79be903200fb47c0e2e7686862528d6b985802171fe41eaeb4",
+    "changeKey": "0e77d40420a51db5a7f6143c153ff843",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aea598fb9fa3ddacb008",
+    "workId": "aea598fb9fa3ddacb008",
+    "driveFileId": "13sNnaaWW2H5jCGeUsWBU_LfOSTXgdu-G",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:00:24.481627+00:00",
+    "updatedAt": "2026-09-22T15:00:24.481642+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:00:24.481739+00:00"
+    }
+  }
+}
