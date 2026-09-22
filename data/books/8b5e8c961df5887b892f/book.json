@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한대희 추리극장",
+    "author": "한대희",
+    "genre": "추리소설집",
+    "tags": [
+      "완전범죄",
+      "수출살인",
+      "인체골격",
+      "뼈모델",
+      "살인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한대희는 추리문학의 대중적 재미와 사회적 현실 반영을 추구하며 다양한 트릭과 인간 심리를 탐구해 온 한국의 추리작가이다.",
+    "oneLineSummary": "변심한 옛 연인을 살해한 후 시체를 해부용 인체 골격 모델로 가공하여 해외로 수출하는 기괴한 완전범죄를 다룬 추리 소설.",
+    "overallSummary": "작가의 말을 통해 추리소설의 본질적인 재미와 문학적 가치를 논한 뒤, 단편 '수출살인'이 전개된다. 주인공은 12년간 뒷바라지했으나 부유한 의사에게 떠나버린 연인 혜수를 납치해 끝내 살해한다. 의료기구 수출회사 과장인 주인공은 혜수의 시신을 인체 골격 표본(Bone Model)으로 위장 가공해 미국으로 수출하는 완벽한 범죄를 실행하지만, 얼마 후 경찰대학 지도실장 김석기 경정이 회사를 찾아와 인조뼈에 대해 캐묻기 시작하면서 집에 누군가 침입한 흔적을 발견하고 극도의 공포에 휩싸인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 작가의 말",
+        "summary": "추리문학의 엔터테인먼트적 가치와 재미, 장르의 다양한 갈래를 설명하며 독자에게 재미있는 작품을 선사하겠다는 작가의 포부를 밝힌다."
+      },
+      {
+        "sectionTitle": "수출살인 1 ~ 2",
+        "summary": "혜수의 배신에 복수하기 위해 그녀를 살해하고 뼈 모델로 가공해 화물선 마리아 그랜드호에 선적 수출한 과정과, 이후 성공을 만끽하던 주인공에게 경찰대학 김석기 경정이 찾아와 골격 모형을 탐문하고 집안이 수색당하는 위기를 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "범죄 트릭",
+        "value": "시체를 단순 암매장하거나 은닉하는 대신, 무역 상품인 '인체 골격 모델(Bone Model)'로 완벽히 가공하여 통관 절차를 거쳐 해외로 수출해 버리는 기발한 시체 유기 트릭."
+      }
+    ],
+    "keyEntitiesText": "나(주인공, 의료기구 수출회사 무역부 과장), 혜수(피해자, 전 연인), 사내(혜수의 약혼자, 의사), 김석기 경정(경찰대학 지도실장)",
+    "settingText": "부산항 하역 부두(화물선 마리아 그랜드호) 및 서울 변두리 야산 밑 독립가옥"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1p0kxb7OmqkEJnKiJEUBJfEzcvhO40Jxr",
+    "filename": "한대희-추리극장.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.243Z",
+    "size": "468879",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "한대희"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/한대희",
+    "webViewLink": "https://drive.google.com/file/d/1p0kxb7OmqkEJnKiJEUBJfEzcvhO40Jxr/view?usp=drivesdk",
+    "sourceSha256": "f4adb424b793f1111129039e8e2f93796410230c9eff6b268e22c57449e49652",
+    "textSha256": "b512549d287554019d89d2d4f432f37a9c716328ca82ad80a91fd146743d7f5f",
+    "changeKey": "4141ec886ba01cd0ea5610323067f3f7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8b5e8c961df5887b892f",
+    "workId": "8b5e8c961df5887b892f",
+    "driveFileId": "1p0kxb7OmqkEJnKiJEUBJfEzcvhO40Jxr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:59:49.141738+00:00",
+    "updatedAt": "2026-09-22T08:59:49.141750+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:59:49.141841+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "짐승의 성",
+    "author": "혼다 데쓰야",
+    "genre": "범죄/스릴러 소설",
+    "tags": [
+      "짐승의성",
+      "기타큐슈사건",
+      "감금",
+      "세뇌",
+      "사이코패스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "혼다 테쓰야는 인간의 잔혹성과 사회적 금기를 극한까지 밀어붙이는 농밀한 범죄 서스펜스 묘사로 정평이 난 일본의 작가이다.",
+    "oneLineSummary": "평온한 일상에 침입한 괴한과 한 맨션에서 벌어진 잔혹한 감금 세뇌 학대 범죄의 실체를 추적하는 스릴러.",
+    "overallSummary": "자동차 정비공으로 살아가는 신고의 안락한 보금자리에 세이코의 아버지라는 정체불명의 남자가 불쑥 찾아온다. 한편 경시청 마치다 경찰서의 기와다 에이이치는 온몸에 지독한 고문과 학대 상흔을 입은 17세 소녀 고다 마야의 탈출 사건을 계기로 선코트마치다 맨션 403호에 진입한다. 그곳에서 심각한 폭행과 썩은 쓰레기 악취 속에 방치되어 있던 아쓰코라는 여인을 발견하며 악마적인 감금 범죄의 문을 연다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "신고의 이야기",
+        "summary": "연인 세이코와 함께하는 평범한 일상을 보내던 정비공 신고가 집 식탁에서 자신의 숟가락으로 음식을 먹고 있는 노숙자 같은 낯선 남자를 발견하고 충격을 받는다."
+      },
+      {
+        "sectionTitle": "마치다 경찰서의 수사",
+        "summary": "발톱이 전부 뽑히고 화상을 입은 고다 마야의 신변보호 요청을 시작으로, 경찰이 마야가 탈출한 맨션 403호 현장에 출동하여 짓무른 손과 멍투성이 얼굴을 한 아쓰코를 확보하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리 묘사",
+        "value": "평화로운 일상에 서서히 침투하는 불길한 인물의 그림자와 고문 피해자의 해리 상태를 대조시켜 공포감을 극대화함."
+      }
+    ],
+    "keyEntitiesText": "신고, 세이코, 세이코의 아버지(우메키 요시오), 기와다 에이이치 형사, 고다 마야, 아쓰코, 고다 야스유키",
+    "settingText": "일본 도쿄도 마치다 시 기소히가시 단독 주택가 및 기소니시 선코트마치다 맨션 403호"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10wRL-MKE1twJOfYNUaScFB-1kHs96aln",
+    "filename": "혼다 데쓰야-짐승의 성-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:14:34.000Z",
+    "size": "577357",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/10wRL-MKE1twJOfYNUaScFB-1kHs96aln/view?usp=drivesdk",
+    "sourceSha256": "0d4bf091385c94d4ba72df1dc1483f66b9ce417efcec4c35a5d3b607114314e7",
+    "textSha256": "973910ff4aa51980dcb04c376761863027c18b6efec64e511d424549d09f7082",
+    "changeKey": "e321ae03962af45e688ec5cc021afa43",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6daf1dad418ac92dc724",
+    "workId": "6daf1dad418ac92dc724",
+    "driveFileId": "10wRL-MKE1twJOfYNUaScFB-1kHs96aln",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T09:00:07.312399+00:00",
+    "updatedAt": "2026-09-22T09:00:07.312414+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T09:00:07.312532+00:00"
+    }
+  }
+}

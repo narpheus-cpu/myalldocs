@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한국 추리 스릴러 단편선 2",
+    "author": "최혁곤 외",
+    "genre": "추리/스릴러 단편집",
+    "tags": [
+      "사물시점",
+      "휴대폰",
+      "택시미터기",
+      "살인사건",
+      "다중진술"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story",
+        "anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 역량 있는 추리·스릴러 작가들의 다채로운 실험성과 문제의식이 돋보이는 단편들을 모은 선집이다.",
+    "oneLineSummary": "새벽 도로에서 일어난 비극적인 살인 사건의 전말을 피해자의 휴대폰과 택시 미터기의 독특한 사물 시점으로 증언하는 이야기.",
+    "overallSummary": "어두컴컴한 새벽 도로 갓길에 세워진 택시 뒷좌석에서 목이 졸려 숨진 여자의 시체가, 차 밖에는 등에 칼이 꽂혀 죽어가는 젊은 택시 기사가 발견된다. 현장에 있던 여자의 중고 휴대폰과 택시의 미터기가 번갈아가며 진술자로 나서서, 가정폭력과 아이의 죽음으로 실어증을 앓다 목사관에서 겨우 치유되던 여자와 홀어머니의 병원비 마련을 위해 절박하게 운전대를 잡았던 기사의 기구한 삶과 충돌을 증언한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫 번째~다섯 번째 진술",
+        "summary": "여자의 미키마우스 스티커가 붙은 중고 휴대폰과 8년간 도로를 누빈 택시 미터기가 각각 주인의 불행했던 과거와 사건 당일의 절박한 사정(여자의 과거 가정폭력 비극과 기사 어머니의 병원 임종 및 진료비 갈등)을 교차 진술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 기법",
+        "value": "사건 현장에 남겨진 무생물(휴대폰, 미터기)을 관찰자이자 화자로 설정하여 비극적 사연을 다각도로 재구성하는 의인화 서술."
+      }
+    ],
+    "keyEntitiesText": "뒷좌석의 휴대폰(화자, 미키마우스 스티커 폰), 택시 미터기(화자, 68만km 주행 기계), 피해 여성(실어증을 겪던 여인), 청년 택시기사(바람 빠진 김 기사, 효자)",
+    "settingText": "새벽 3시가 넘은 서울 외곽의 한적한 도로 위 갓길 및 택시 내부"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SIydHqrpNsQzxGbX6OFDE4UfsZRjz9gL",
+    "filename": "한국 추리 스릴러 단편선 2 -- 최혁곤 외(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.128Z",
+    "size": "492442",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1SIydHqrpNsQzxGbX6OFDE4UfsZRjz9gL/view?usp=drivesdk",
+    "sourceSha256": "e15d631210d7e73d4ef85b007e14de8338bbe718aa0d9b18d0fe9ff6d0a64c4c",
+    "textSha256": "4d2ddc40f476a5a74427fd99ae074af85f1136946b93fc21d2282beaf9158e22",
+    "changeKey": "fa2ccdc788a0aa2f0ff2479f350271ff",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "01c2b248e34d7a1f8476",
+    "workId": "01c2b248e34d7a1f8476",
+    "driveFileId": "1SIydHqrpNsQzxGbX6OFDE4UfsZRjz9gL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:59:07.824175+00:00",
+    "updatedAt": "2026-09-22T08:59:07.824192+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:59:07.824371+00:00"
+    }
+  }
+}

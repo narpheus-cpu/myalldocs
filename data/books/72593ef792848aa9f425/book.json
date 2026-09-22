@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "29일간의 실종",
+    "author": "한대희",
+    "genre": "추리/스릴러 소설",
+    "tags": [
+      "실종",
+      "신혼여행",
+      "홍콩",
+      "큐팡",
+      "추리소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한대희는 1988년 한국추리문학 신인상, 1991년 대상을 수상한 소설가이자 한국추리작가협회 상임이사로 활동한 추리문학 작가이다.",
+    "oneLineSummary": "홍콩으로 신혼여행을 떠난 신혼부부가 첫날밤 호텔에서 남편의 돌연한 실종과 함께 의문의 음모에 휘말리는 미스터리 스릴러.",
+    "overallSummary": "윤필 사장의 외동딸 윤정님은 홍콩 지사에 근무하는 박동수와 결혼해 홍콩으로 신혼여행을 떠난다. 공항에서부터 정체불명의 포르셰 스포츠카에 미행을 당한 뒤 최고급 레팔르스 베이 호텔에 여장을 풀지만, 서울 부모님과의 통화 직후 박동수는 의문의 전화를 받고 잠깐 나갔다가 끝내 돌아오지 않는다. 홀로 남겨진 정님은 낯선 타국에서 깊은 공포와 외로움에 빠진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 불행의 서곡",
+        "summary": "김포공항 환송식 후 홍콩에 도착한 윤정님과 박동수가 지사 동료 오홍채의 차를 타고 이동하던 중 의문의 스포츠카에 미행당하고, 레팔르스 베이 호텔 투숙 직후 박동수가 걸려온 전화를 받고 나간 뒤 실종되는 사건의 서막을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 요소",
+        "value": "낯선 해외 여행지에서의 신혼 첫날밤 남편 실종이라는 극한 상황 설정과 배후의 국제 범죄 조직 암시."
+      }
+    ],
+    "keyEntitiesText": "윤정님(신부), 박동수(신랑, 홍콩지사 근무), 윤필 사장(정님의 부친), 송정숙 여사(정님의 모친), 오홍채(동수의 동료)",
+    "settingText": "7월 15일 김포국제공항, 홍콩 카이탁 국제공항, 해저 터널 및 레팔르스 베이 호텔"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VmkiomMG2-fK_P7QjyvYLFu8jLX5LlyC",
+    "filename": "한대희-29일간의 실종.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.178Z",
+    "size": "312716",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "한대희"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/한대희",
+    "webViewLink": "https://drive.google.com/file/d/1VmkiomMG2-fK_P7QjyvYLFu8jLX5LlyC/view?usp=drivesdk",
+    "sourceSha256": "6eafd8703695747602a4e72d18adc6bd056d9b0aec7fcd4b3485e7af8ab38b60",
+    "textSha256": "514e37eafe6dda7db56b1ecf3df7cdc8dff13b759d62aa7ef2a9f9934f0fc56d",
+    "changeKey": "016c6543ab6b095f2d77567cf21d5e7e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "72593ef792848aa9f425",
+    "workId": "72593ef792848aa9f425",
+    "driveFileId": "1VmkiomMG2-fK_P7QjyvYLFu8jLX5LlyC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:59:20.027420+00:00",
+    "updatedAt": "2026-09-22T08:59:20.027435+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:59:20.027540+00:00"
+    }
+  }
+}

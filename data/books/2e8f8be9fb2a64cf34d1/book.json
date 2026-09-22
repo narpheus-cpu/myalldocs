@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "경찰청 사람들",
+    "author": "한대희",
+    "genre": "범죄 실화 드라마/수사극",
+    "tags": [
+      "경찰청사람들",
+      "실화",
+      "제비족",
+      "히로뽕",
+      "보험살인",
+      "대본"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "crime",
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한대희는 한국추리문학 대상 수상 작가이자 방송 대본과 추리소설을 넘나들며 다수의 수사극 및 대중소설을 집필한 작가이다.",
+    "oneLineSummary": "가정을 파괴하는 제비족의 마약 범죄와 형의 사망을 열차 사고로 위장한 보험 살인극을 다룬 실화 기반 범죄 수사극.",
+    "overallSummary": "1부 '위기의 40대'에서는 무료함을 느끼던 주부 유혜영을 유혹해 밀회 장면으로 협박하며 금품 갈취와 히로뽕 투약을 일삼던 전과자 박무성과 마약 공급책 일당을 여형사 기동대가 일망타진하는 과정을 그린다. 2부 '위험한 선택'에서는 예산 장항선 철도 건널목에서 발생한 유창기의 열차 충돌 사고가 동생 유창석이 보험금을 노리고 저지른 위장 살인극임을 밝혀내는 경찰 수사의 전말을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 위기의 40대",
+        "summary": "운전기사 출신 전과자 박무성이 치과의사 부인 유혜영에게 접근해 밀회 후 비디오 협박과 히로뽕 투약으로 13개월간 시달리게 하다가, 피해자의 신고로 여형사팀에 의해 마약 조직원들과 함께 검거되는 과정을 시나리오 형태로 묘사한다."
+      },
+      {
+        "sectionTitle": "2. 위험한 선택",
+        "summary": "1983년 예산 효림리 건널목 열차 사고로 사망한 알코올 중독자 유창기 사건이 보험회사의 재조사 의뢰로 단순 사고가 아닌 동생 유창석의 보험 살인 범죄로 의심받게 되는 도입부를 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 양식",
+        "value": "실제 경찰 수사 사건을 방송용 시나리오(씬 넘버, 지문, 대사, 형사 증언 인터뷰) 형식으로 재구성한 수사 드라마."
+      }
+    ],
+    "keyEntitiesText": "박무성(전과 6범, 제비족), 유혜영(피해 주부), 이용희(히로뽕 공급책), 유창석(피의자 동생), 유창기(변사자 형), 김은상(기관사)",
+    "settingText": "1990년대 초 서울 강남 대림아파트 및 호텔 일대, 1983년 충남 예산 효림리 장항선 건널목"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DqnFDZltwseCzH07NkHeXdK-aKfdGmHb",
+    "filename": "한대희-경찰청사람들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.191Z",
+    "size": "62988",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "한대희"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/한대희",
+    "webViewLink": "https://drive.google.com/file/d/1DqnFDZltwseCzH07NkHeXdK-aKfdGmHb/view?usp=drivesdk",
+    "sourceSha256": "1bf36cadb0e45ac9522121b1f387589c8895ff2a62f145ea2b34539ebcef0513",
+    "textSha256": "d7c340bb49777da2a5f173e1d5a755c5a11e1c71a7e21f71c2c7180b26d1e9ae",
+    "changeKey": "d976c37abfd9893ad6118d194521d3b8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e8f8be9fb2a64cf34d1",
+    "workId": "2e8f8be9fb2a64cf34d1",
+    "driveFileId": "1DqnFDZltwseCzH07NkHeXdK-aKfdGmHb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:59:25.550964+00:00",
+    "updatedAt": "2026-09-22T08:59:25.550977+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:59:25.551083+00:00"
+    }
+  }
+}

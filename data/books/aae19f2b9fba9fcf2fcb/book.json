@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "광인전",
+    "author": "황세연",
+    "genre": "추리/스릴러 소설",
+    "tags": [
+      "광인전",
+      "연쇄살인",
+      "토막살인",
+      "방동저수지",
+      "최순석형사",
+      "법의학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황세연은 탄탄한 구성과 인간 내면의 광기를 날카롭게 포착하는 한국의 대표적인 추리소설 작가이다.",
+    "oneLineSummary": "대전 방동저수지에서 건져 올린 기괴한 토막 사체를 둘러싸고 과거 트라우마를 안은 형사 최순석이 연쇄살인의 진실을 파헤치는 스릴러.",
+    "overallSummary": "한밤중 방동저수지에서 낚시를 하던 김 대리 부부가 낚싯줄에 걸린 비닐자루를 터뜨렸다가 잘려진 사람의 손을 발견한다. 1년 전 연예인 연쇄살인범 강진숙 사건으로 화재 악몽과 트라우마에 시달리던 최순석 경위는 수사본부로 급파된다. 최순석은 예리한 후각과 관찰력으로 사체의 몸통(냉동 보관)과 손(포르말린에 6개월 이상 보관)이 서로 다른 두 사람의 것임을 밝혀내며 엽기적인 연쇄살인마의 뒤를 쫓는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사건 개요 & 우렁이 각시",
+        "summary": "작가 서문에 이어, 보름달 밤 대전 방동저수지에서 야간 낚시를 하던 김 대리 부부가 비닐자루에 걸려 올라온 잘려진 사람의 손을 목격하고 비명을 지르는 도입부."
+      },
+      {
+        "sectionTitle": "프로와 아마추어 (1)",
+        "summary": "과거 화재 참사의 악몽에 시달리던 최순석 형사가 경찰청 호출로 대전 방동저수지 현장에 도착하여, 훼손된 사체의 장기 적출 및 몸통과 손의 주인이 서로 다르다는 법의학적 사실을 규명하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "추리 및 감식 기법",
+        "value": "시체의 시반, 경직 상태, 방부액(포르말린) 냄새, 굳은살 등을 토대로 한 자루 안의 신체 부위가 서로 다른 두 피해자의 것임을 간파해 내는 고도의 법의학적 추리."
+      }
+    ],
+    "keyEntitiesText": "최순석 경위(형사), 이유석 수사본부장, 김 대리 부부(목격자), 강진숙(과거 방송국 방화 연쇄살인범), 이가은(강진숙의 사촌, 전 방송작가)",
+    "settingText": "4월의 밤, 대전 방동저수지 현장 및 서울 최순석의 자택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lL14P3QRhuBxe-t1ho-Y7xrhl58JnaGP",
+    "filename": "황세연-광인전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.326Z",
+    "size": "345741",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1lL14P3QRhuBxe-t1ho-Y7xrhl58JnaGP/view?usp=drivesdk",
+    "sourceSha256": "8fae9d605f35b650cc3f8d26152ef72a1b35a3c2239e7c93a30e0c69b31ea31a",
+    "textSha256": "c3bc8daec28dc32d29d0f36385425f71d2bfbf0678f1ab02fc86b6b06353a0af",
+    "changeKey": "5ebc1cbd96a3e22e259ff8348a1a99be",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aae19f2b9fba9fcf2fcb",
+    "workId": "aae19f2b9fba9fcf2fcb",
+    "driveFileId": "1lL14P3QRhuBxe-t1ho-Y7xrhl58JnaGP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T09:00:25.989938+00:00",
+    "updatedAt": "2026-09-22T09:00:25.989951+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T09:00:25.990064+00:00"
+    }
+  }
+}
