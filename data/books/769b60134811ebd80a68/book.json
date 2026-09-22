@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "맥락으로 읽는 새로운 한국사",
+    "author": "황경문",
+    "genre": "역사",
+    "tags": [
+      "한국사",
+      "살수대첩",
+      "고구려",
+      "갑오개혁",
+      "역사기술학"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황경문(Kyung Moon Hwang)은 서던캘리포니아대학교(USC) 역사학과 교수로 한국사 연구와 교육에 힘써온 학자이다.",
+    "oneLineSummary": "고구려 살수대첩부터 조선, 일제강점기, 한국전쟁, 민주화에 이르기까지 핵심 일화로 한국사의 흐름과 맥락을 짚어낸 역사서이다.",
+    "overallSummary": "고구려의 살수대첩, 신라의 삼국통일, 고려와 조선의 건국, 유교적 가족제도, 임진왜란, 1894년 갑오개혁, 일제강점기와 독립운동, 해방정국과 한국전쟁, 북한 체제, 박정희 정권과 6월항쟁, 새천년에 이르기까지 주요 역사적 사건(일화)을 고리로 한국사의 대외관계, 정치권력, 사회 계급, 종교, 민족 정체성의 맥락을 입체적으로 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고구려와 고대 한국 ~ 조선시대",
+        "summary": "살수대첩, 선덕여왕, 장보고, 왕건, 정도전, 신사임당, 이순신 등을 통해 고대부터 조선 후기까지의 정치·사회적 변화를 다룬다."
+      },
+      {
+        "sectionTitle": "근현대사 (1894년~새천년)",
+        "summary": "1894년 갑오개혁, 일제 강점과 독립운동, 한국전쟁, 김일성 주체사상, 6월 민주항쟁, 새천년 한국의 위상을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 방식",
+        "value": "대표적 일화(episodes)를 창으로 활용하여 정치, 종교, 계급, 대외관계의 맥락을 연결하는 역사기술학적 접근"
+      }
+    ],
+    "keyEntitiesText": "황경문, 박수철, 단군, 주몽, 장보고, 왕건, 정도전, 신사임당, 이순신, 박정희, 김일성",
+    "settingText": "고대 삼국시대부터 21세기 현대에 이르는 한반도 전역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18K05g--SyX3GUp-O0a7jSVNpehWUCj8-",
+    "filename": "황경문-맥락으로 읽는 새로운 한국사(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T10:38:40.000Z",
+    "size": "616812",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/18K05g--SyX3GUp-O0a7jSVNpehWUCj8-/view?usp=drivesdk",
+    "sourceSha256": "e421ff1459a260faa649b35d73471eb0fb7d1f98971c9cb719bda3e49f6b396b",
+    "textSha256": "b408c8d7688755fd09527fb980c7572c38db4143b95b2b9487cb45466740c69c",
+    "changeKey": "b693aef8471f8e8eeef0e0005791aea8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "769b60134811ebd80a68",
+    "workId": "769b60134811ebd80a68",
+    "driveFileId": "18K05g--SyX3GUp-O0a7jSVNpehWUCj8-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:46:20.285392+00:00",
+    "updatedAt": "2026-09-22T18:46:20.285408+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:46:20.285527+00:00"
+    }
+  }
+}

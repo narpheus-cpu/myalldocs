@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "말과 활 3",
+    "author": "홍세화 외",
+    "genre": "비평",
+    "tags": [
+      "말과활",
+      "민간인학살",
+      "보도연맹",
+      "한국전쟁",
+      "국가폭력"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "essay_general_nonfiction",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "홍세화와 여러 비평가, 예술가들이 현대 한국 사회의 역사적 비극과 정치를 규명하기 위해 모인 편집진이다.",
+    "oneLineSummary": "한국전쟁 시기 민간인 학살의 트라우마와 미래라는 이름으로 강요되는 망각을 예술적·비평적으로 파헤친 비평지이다.",
+    "overallSummary": "임민욱의 작품 〈가위의 볼륨_이대로는 눈을 감을 수 없소〉를 통해 함평, 산청, 대구, 금정굴 등 6·25전쟁 전후 국민보도연맹 및 민간인 학살 사건의 생생한 증언과 유족들의 한을 담아낸다. 공식적 망각과 국가 폭력의 역사, 박정희 체제와 반자유주의, 현대 한국 사회의 왜곡된 기억 구조를 비판적으로 검토한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "가위의 볼륨 - 이대로는 눈을 감을 수 없소",
+        "summary": "제야의 종 현장, 함평 민간인 학살, 보도연맹 사건의 증언들을 엮어 역사적 상처와 재현 불가능한 트라우마를 조명한다."
+      },
+      {
+        "sectionTitle": "역사 비평 및 정치 기고",
+        "summary": "박정희 없는 박정희 체제, 국가폭력과 역사적 기억, 한국 사회의 정체성을 비판적으로 검토한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 다룸",
+        "value": "보도연맹 및 한국전쟁 민간인 학살의 역사적 증언, 국가폭력과 기억/망각의 정치"
+      }
+    ],
+    "keyEntitiesText": "임민욱, 홍세화, 이청준, 한성훈, 이윤성, 정근욱",
+    "settingText": "함평, 산청, 대구, 금정굴 등 한국전쟁 민간인 학살 현장 및 현대 한국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1upQqtWkPtLXMGba-Csg2vp8KlGqQAPNW",
+    "filename": "말과 활 3(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T23:27:58.000Z",
+    "size": "930810",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1upQqtWkPtLXMGba-Csg2vp8KlGqQAPNW/view?usp=drivesdk",
+    "sourceSha256": "e9ed1ab9a81344ea1ffcb8439e8d8677db21b3c96dc820edcc3aefdc600bdf65",
+    "textSha256": "057e5dd793ce7bfdff0aafe46d71ded4a4df9e52f8c527f939b2b0c78421dd51",
+    "changeKey": "4ec5ffc817fbfba17c1d5c4a11377903",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "041f767b97f6482f34f5",
+    "workId": "041f767b97f6482f34f5",
+    "driveFileId": "1upQqtWkPtLXMGba-Csg2vp8KlGqQAPNW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:46:00.948430+00:00",
+    "updatedAt": "2026-09-22T18:46:00.948446+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:46:00.948559+00:00"
+    }
+  }
+}

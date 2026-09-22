@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "말과 활 2",
+    "author": "홍세화 외",
+    "genre": "비평",
+    "tags": [
+      "말과활",
+      "원자력비판",
+      "미디어비판",
+      "알랭바디우",
+      "위험사회"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "essay_general_nonfiction",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "홍세화를 비롯한 국내외 사회학자, 철학자, 예술가들이 참여한 비평지이다.",
+    "oneLineSummary": "원자력 체제의 위험성, 사회적 소통의 붕괴, 권력 스캔들과 미디어 조작을 다각도로 비판한 비평지이다.",
+    "overallSummary": "알랭 바디우와 홍세화의 철학적 대담, 송경동, 서동진, 엄기호의 기고문 및 임민욱의 사진에세이를 수록한다. 원자력 국가의 환상과 극단적 희생 시스템, 버로스의 컷업(Cut Up) 기법을 활용한 별장 성접대 의혹과 미디어 정보 조작 비판, 소통의 붕괴 속에서 논리적으로 봉기하는 철학의 역할을 규명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "도둑일기 - 내가 너를 위해 구걸해올게",
+        "summary": "컷업 기법과 장 주네의 문장을 접목하여 별장 성접대 의혹, 미디어의 정보 통제, 불결함과 숭고의 이중성을 비판적으로 재구성한다."
+      },
+      {
+        "sectionTitle": "철학적 대담 및 사회 비평",
+        "summary": "알랭 바디우와의 대담, 원자력 위험 사회, 소통 붕괴 및 전면화된 폭력 양상을 논의한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 기법 및 주제",
+        "value": "컷업(Cut Up) 기법을 통한 미디어·권력 비판, 원자력 체제 및 위험 사회 고찰"
+      }
+    ],
+    "keyEntitiesText": "홍세화, 알랭 바디우, 임민욱, 송경동, 서동진, 엄기호, 윌리엄 버로스, 장 주네",
+    "settingText": "핵발전소 주변, 밀양, 고위층 별장 스캔들이 불거진 현대 한국 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gi8KKyok_nJkP6WHFhruqGIslQjfRBUu",
+    "filename": "말과 활 2(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T23:25:50.000Z",
+    "size": "934879",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1gi8KKyok_nJkP6WHFhruqGIslQjfRBUu/view?usp=drivesdk",
+    "sourceSha256": "ebd31bebf12c20b6aa3ac4d742eea79139fb560d2a79e11049badd43d4258d0c",
+    "textSha256": "513c0aa7ac2f98cd667a471a6dc9ee70c36aa17865bd23d1e7fffcc9708a420d",
+    "changeKey": "691421527bb07364a0806471d7cc9fcd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4284895f53eec55fceb6",
+    "workId": "4284895f53eec55fceb6",
+    "driveFileId": "1gi8KKyok_nJkP6WHFhruqGIslQjfRBUu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:45:53.515746+00:00",
+    "updatedAt": "2026-09-22T18:45:53.515762+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:45:53.515877+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "말과 활 1",
+    "author": "홍세화 외",
+    "genre": "비평",
+    "tags": [
+      "말과활",
+      "노동운동",
+      "고공농성",
+      "자본主义비판",
+      "무크지"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "essay_general_nonfiction",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "홍세화 및 여러 진보적 지식인, 예술가, 학자들이 참여하여 창간한 비평 무크지이다.",
+    "oneLineSummary": "자본주의 체제의 모순과 배제된 노동자들의 고통에 대해 새로운 언어와 철학적 비판을 제시하는 무크지이다.",
+    "overallSummary": "발행인 홍세화의 머리글을 시작으로 강주룡부터 쌍용차, 한진중공업, 현대차 고공농성 노동자들의 절박한 현실을 사진에세이로 담아낸다. 슬라보예 지젝, 이택광, 서동진, 김상봉 등 여러 학자의 기고와 임민욱의 작품을 통해 체제의 범람하는 언어 속에서 존엄과 정의를 되찾기 위한 불온한 상상력과 새로운 주체의 형성을 논한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사진에세이 및 머리글",
+        "summary": "노순택·임민욱의 작업과 홍세화의 발행인 글을 통해 고공농성 노동자들의 고통과 거짓 자유 속에 갇힌 말들의 공백을 비판한다."
+      },
+      {
+        "sectionTitle": "도둑일기 및 기고문",
+        "summary": "별장 성접대 스캔들과 미디어 이미지 조작 비판, 그리고 지젝·김상봉 등의 기고를 통해 자본주의 너머의 철학적 상상을 전개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "매체 성격",
+        "value": "시대를 비판하고 노동과 삶의 존엄성을 되찾고자 도모하는 사회 비평지"
+      }
+    ],
+    "keyEntitiesText": "홍세화, 임민욱, 강주룡, 김진숙, 슬라보예 지젝, 김상봉, 이택광, 서동진",
+    "settingText": "쌍용차, 한진중공업, 기륭전자 고공농성 현장 등 2010년대 초반 한국 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1giDq8ST0EsdLLRUbdt6NckFC0qaeEULw",
+    "filename": "말과 활 1(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T23:23:36.000Z",
+    "size": "1067333",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1giDq8ST0EsdLLRUbdt6NckFC0qaeEULw/view?usp=drivesdk",
+    "sourceSha256": "d92a603ffd3266e7b96d42ee1fc15a08dbd2677047c14364793172561fa00bc4",
+    "textSha256": "b7ecae89a4283d26d4d8b6236f8ccee1bcc1f2771d02d02fc500a6739c5ab885",
+    "changeKey": "0ff70ce0b2885dc2dccae0bddcaccc8d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d3d39f9685cae135c2c2",
+    "workId": "d3d39f9685cae135c2c2",
+    "driveFileId": "1giDq8ST0EsdLLRUbdt6NckFC0qaeEULw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:45:45.674427+00:00",
+    "updatedAt": "2026-09-22T18:45:45.674442+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:45:45.674556+00:00"
+    }
+  }
+}
