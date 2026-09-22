@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "발리스",
+    "author": "필립 K. 딕",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "자전적",
+      "신학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "자전적"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "필립 K. 딕의 자전적 요소가 강한 SF 소설.",
+    "oneLineSummary": "주인공이 신비한 정보를 접하며 겪는 정신적 여정을 다룬다.",
+    "overallSummary": "주인공 호스러버 팻이 신비한 빛과 정보를 접하며 자신의 정신적 붕괴와 신학적 깨달음을 찾아가는 과정을 그린 자전적 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "초반부",
+        "summary": "호스러버 팻의 신경쇠약과 그를 둘러싼 주변 인물들의 이야기가 시작된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "작가의 실제 체험을 바탕으로 한 신학적 탐구"
+      }
+    ],
+    "keyEntitiesText": "호스러버 팻, 글로리아 커누드선",
+    "settingText": "1970년대의 미국."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1syO6i6B1dqWvarUsJF4d6D9y1RkeuZdX",
+    "filename": "필립.K.딕 걸작선 06 발리스 VALIS (epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-06T00:18:28.000Z",
+    "size": "804939",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "필립.K.딕 걸작선"
+    ],
+    "relativePath": "books/05 SF/필립.K.딕 걸작선",
+    "webViewLink": "https://drive.google.com/file/d/1syO6i6B1dqWvarUsJF4d6D9y1RkeuZdX/view?usp=drivesdk",
+    "sourceSha256": "9d281dfabc3d48e6f79c2acc75ef7d6e5757c469fc7840c26509ad005b5dad92",
+    "textSha256": "5e26c95d10a3a80108ae324cb882c6b33d2866713bfca43c28b6d664068ca527",
+    "changeKey": "01fc72523a9eede2e564307234e2ac44",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9112d12b8046cd4eb235",
+    "workId": "9112d12b8046cd4eb235",
+    "driveFileId": "1syO6i6B1dqWvarUsJF4d6D9y1RkeuZdX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:29:54.060732+00:00",
+    "updatedAt": "2026-09-22T11:29:54.060749+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:29:54.060852+00:00"
+    }
+  }
+}

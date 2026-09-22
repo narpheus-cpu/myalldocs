@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "가상현실",
+    "author": "크레아",
+    "genre": "게임소설",
+    "tags": [
+      "게임",
+      "판타지",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "게임소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "크레아 작가의 게임소설.",
+    "oneLineSummary": "가상현실게임 판타지아를 즐기는 주인공의 이야기.",
+    "overallSummary": "가상현실게임 판타지아에서 주인공 신예진이 씰 세이시아와 함께 성장해 나가는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "설정집",
+        "summary": "게임 판타지아의 직업, 대륙, 시간 개념 등이 소개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "게임 시스템과 씰(Seal) 설정"
+      }
+    ],
+    "keyEntitiesText": "신예진, 세이시아, 루오",
+    "settingText": "가상현실게임 판타지아 세계."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tG-QN6xuPqrYPBCrkwl6BGmry4bhlDIy",
+    "filename": "가상현실.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.792Z",
+    "size": "1087608",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1tG-QN6xuPqrYPBCrkwl6BGmry4bhlDIy/view?usp=drivesdk",
+    "sourceSha256": "fd54d153bf3408f6bdd143f6b1abbfc19765be2b212be5ce131b0210f3331ab4",
+    "textSha256": "bc5e1b5ebd3dd7f59319981e7cc7fcaaa83600fa7227abc0be3e81bb5ba0648c",
+    "changeKey": "f98cbad01aece665637f1f926cbd6584",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "78ec53e4dde02a60e48d",
+    "workId": "78ec53e4dde02a60e48d",
+    "driveFileId": "1tG-QN6xuPqrYPBCrkwl6BGmry4bhlDIy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:31:13.338309+00:00",
+    "updatedAt": "2026-09-22T11:31:13.338323+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:31:13.338410+00:00"
+    }
+  }
+}

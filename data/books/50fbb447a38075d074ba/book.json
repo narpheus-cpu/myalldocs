@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "황혼의 들판",
+    "author": "필립 리브",
+    "genre": "SF",
+    "tags": [
+      "견인도시",
+      "SF",
+      "판타지",
+      "전쟁",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "필립 리브는 영국의 작가로, 견인도시 연대기로 유명하다.",
+    "oneLineSummary": "견인도시 연대기의 마지막 편으로, 전쟁의 종식과 새로운 세상의 탄생을 다룬다.",
+    "overallSummary": "그린 스톰과 견인도시들 사이의 오랜 전쟁이 나가 장군의 등장과 휴전 협정으로 새로운 국면을 맞이한다. 테오와 렌은 각자의 여정 속에서 세상의 변화를 목격하고, 전쟁의 잔해 속에서 새로운 희망을 찾아 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "PART ONE",
+        "summary": "테오가 고향 자그와로 돌아와 비행을 즐기던 중, 트랙션슈타트의 공격을 목격하고 이를 막으려 한다."
+      },
+      {
+        "sectionTitle": "PART TWO",
+        "summary": "렌 내츠워디가 자신의 모험과 아빠의 근황, 그리고 세상의 변화를 테오에게 편지로 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "견인도시 연대기 4권"
+      }
+    ],
+    "keyEntitiesText": "테오, 렌 내츠워디, 나가 장군, 레이디 나가, 자그와, 그린 스톰",
+    "settingText": "견인도시들이 이동하며 전쟁을 벌이는 포스트 아포칼립스 세계."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IO7t-LZb4EViBEa99rOLmCoSs8CHAiYc",
+    "filename": "필립 리브-견인도시 연대기 04 황혼의 들판(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-06T00:02:58.000Z",
+    "size": "1094266",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1IO7t-LZb4EViBEa99rOLmCoSs8CHAiYc/view?usp=drivesdk",
+    "sourceSha256": "b410324c1e14ac20c0179fbf65a492f03ac4f33eae8c593e109c9211af7560a5",
+    "textSha256": "87dd0975616d5cab6f3fc2f861e70b00aa5fdac1bec5026fff77cbd171804c1c",
+    "changeKey": "19472b7cf02a367276bf3d0072ae38f6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "50fbb447a38075d074ba",
+    "workId": "50fbb447a38075d074ba",
+    "driveFileId": "1IO7t-LZb4EViBEa99rOLmCoSs8CHAiYc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:29:12.514171+00:00",
+    "updatedAt": "2026-09-22T11:29:12.514187+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:29:12.514398+00:00"
+    }
+  }
+}

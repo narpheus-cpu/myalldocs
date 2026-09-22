@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유빅",
+    "author": "필립 K. 딕",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "현실",
+      "죽음"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "필립 K. 딕의 현실의 본질을 다룬 SF 소설.",
+    "oneLineSummary": "죽음과 현실의 경계가 무너지는 과정을 그린 SF 소설.",
+    "overallSummary": "초능력자들이 활동하는 미래, 죽음과 현실의 경계가 무너지고 시간이 거꾸로 흐르는 기이한 현상 속에서 살아남으려는 사람들의 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "초반부",
+        "summary": "런시터 어소시에이츠의 직원들이 초능력자들을 추적하며 이야기가 시작된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "현실의 불확실성과 죽음의 의미"
+      }
+    ],
+    "keyEntitiesText": "글렌 런시터, 조 칩, 팻 콘리",
+    "settingText": "초능력자들이 존재하는 미래의 지구."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SmoaAn2-hORriE-kvr0oKJgQMrYPA8UU",
+    "filename": "필립.K.딕 걸작선 11 유빅 (epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-06T00:08:22.000Z",
+    "size": "634285",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "필립.K.딕 걸작선"
+    ],
+    "relativePath": "books/05 SF/필립.K.딕 걸작선",
+    "webViewLink": "https://drive.google.com/file/d/1SmoaAn2-hORriE-kvr0oKJgQMrYPA8UU/view?usp=drivesdk",
+    "sourceSha256": "c0ac29db8b0c6b6dc9390fe1600cfd41ca93cb1fc6248f7235bf4853e58376c4",
+    "textSha256": "df00e4ef61ea5575ba0951e251578a53be471b4fbd4c4afadc0fb3168f4669fd",
+    "changeKey": "f2c42244b24a4e254d7d780d58e8b588",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5bbd0e0c77a36e4c8ee1",
+    "workId": "5bbd0e0c77a36e4c8ee1",
+    "driveFileId": "1SmoaAn2-hORriE-kvr0oKJgQMrYPA8UU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:30:28.410542+00:00",
+    "updatedAt": "2026-09-22T11:30:28.410558+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:30:28.410655+00:00"
+    }
+  }
+}
