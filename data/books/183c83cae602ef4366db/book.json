@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "현실과 지향",
+    "author": "복거일",
+    "genre": "사회비평/에세이",
+    "tags": [
+      "자유주의",
+      "사회비평",
+      "경제",
+      "정치"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "복거일은 한국의 소설가이자 사회비평가로, 자유주의적 관점에서 한국 사회의 다양한 현상을 분석한다.",
+    "oneLineSummary": "자유주의자의 시각에서 한국 사회의 정치, 경제, 교육 등 다양한 현실 문제를 비판적으로 성찰한 에세이집이다.",
+    "overallSummary": "이 책은 1980년대 후반 한국 사회의 급격한 변화 속에서 자유주의적 가치를 옹호하며 사회적 현안들을 진단한다. 시장 경제의 원리, 노동조합, 민주화 과정 등 한국 사회의 구조적 문제들을 자유주의적 논리로 풀어내며 대안을 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "보수주의 논객을 기다리며",
+        "summary": "한국 사회에서 자유주의적 보수주의의 필요성을 역설하며 사회적 논의의 균형을 강조한다."
+      },
+      {
+        "sectionTitle": "시장 경제 속의 노동조합",
+        "summary": "시장 경제 체제 내에서 노동조합의 역할을 자유주의적 관점에서 재해석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 이념",
+        "value": "자유주의, 시장 경제"
+      },
+      {
+        "key": "비판적 시각",
+        "value": "정부 개입주의, 사회주의적 경제관"
+      }
+    ],
+    "keyEntitiesText": "복거일, 프리드리히 하이예크, 밀튼 프리드먼",
+    "settingText": "1980년대 후반 민주화와 경제 성장이 공존하던 한국 사회."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FMmXJyu7CwsxNUOf6zKCrhEn3Zu3JsUc",
+    "filename": "복거일-현실과 지향(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:12:54.000Z",
+    "size": "816738",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1FMmXJyu7CwsxNUOf6zKCrhEn3Zu3JsUc/view?usp=drivesdk",
+    "sourceSha256": "be060ab363f1be22235a6059450db12322ae4680577fe0d1f601f8b70557adc1",
+    "textSha256": "97b45cc5f08937fba186aa726ce486206647726d28db4a89c41b0bd3591b975f",
+    "changeKey": "9f86fb380d0755353b9ab48f9535015a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "183c83cae602ef4366db",
+    "workId": "183c83cae602ef4366db",
+    "driveFileId": "1FMmXJyu7CwsxNUOf6zKCrhEn3Zu3JsUc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:30:11.994180+00:00",
+    "updatedAt": "2026-09-22T19:30:11.994197+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:30:11.994278+00:00"
+    }
+  }
+}

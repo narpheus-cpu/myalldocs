@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "디지털시대의 글쓰기",
+    "author": "빌렘 플루서",
+    "genre": "미디어철학",
+    "tags": [
+      "디지털",
+      "글쓰기",
+      "미디어",
+      "철학"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "빌렘 플루서는 미디어 철학자로, 기술과 미디어의 변화가 인간의 사고와 문화에 미치는 영향을 분석한다.",
+    "oneLineSummary": "디지털 미디어의 등장으로 인한 글쓰기와 책 문화의 종말, 그리고 새로운 사고방식으로의 이행을 다룬 철학적 에세이다.",
+    "overallSummary": "이 책은 문자와 글쓰기가 주도해 온 근대적 사고방식이 디지털 코드와 텔레마틱 문화로 어떻게 변화하고 있는지 분석한다. 저자는 책의 종말을 예견하며, 선형적 역사관에서 벗어나 비선형적이고 순환적인 새로운 사고방식으로의 전환을 주장한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "메타문자",
+        "summary": "문자의 역사와 글쓰기 행위가 인간 의식에 미친 영향을 분석한다."
+      },
+      {
+        "sectionTitle": "디지털",
+        "summary": "디지털 코드의 등장과 그로 인한 사고방식의 변화를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주장",
+        "value": "선형적 사고에서 비선형적 사고로의 전환"
+      },
+      {
+        "key": "주요 개념",
+        "value": "메타문자, 디지털 코드, 텔레마틱 문화"
+      }
+    ],
+    "keyEntitiesText": "빌렘 플루서, 소크라테스, 플라톤",
+    "settingText": "디지털 미디어로의 전환기인 현대 사회."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hYhk5DKxGWDY1a88vu7ONxLliphWFvdx",
+    "filename": "빌렘 플루서-디지털시대의 글쓰기(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:26:20.000Z",
+    "size": "519068",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1hYhk5DKxGWDY1a88vu7ONxLliphWFvdx/view?usp=drivesdk",
+    "sourceSha256": "15cc87d172e1d5ef77b8131086994d7f2c467029d54bff68c06e8c91fd42e299",
+    "textSha256": "4c9fa323506e48f567a1c51c641fcb8660889c19db6d5f05083158cbc624ecee",
+    "changeKey": "ecaa8adc862d29d3d1a28fb63f1b5138",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9d5f9892e61a42831804",
+    "workId": "9d5f9892e61a42831804",
+    "driveFileId": "1hYhk5DKxGWDY1a88vu7ONxLliphWFvdx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:31:00.513091+00:00",
+    "updatedAt": "2026-09-22T19:31:00.513107+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:31:00.513188+00:00"
+    }
+  }
+}

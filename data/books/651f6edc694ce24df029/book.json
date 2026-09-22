@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "극지방을 향한 대도전",
+    "author": "베르트랑 앵베르",
+    "genre": "역사/탐험",
+    "tags": [
+      "탐험",
+      "극지방",
+      "역사",
+      "지리"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "베르트랑 앵베르는 극지방 탐험의 역사를 기록한 저술가이다.",
+    "oneLineSummary": "인류가 북극과 남극이라는 미지의 영역을 개척해 나간 탐험의 역사를 다룬 기록이다.",
+    "overallSummary": "이 책은 고대부터 현대에 이르기까지 인류가 지구의 끝인 극지방을 향해 나아간 탐험의 과정을 연대기적으로 서술한다. 북서항로와 북동항로 개척을 위한 시도, 남극대륙 발견을 위한 경쟁 등 인류의 도전 정신과 지리적 발견의 역사를 생생하게 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세계의 끝",
+        "summary": "고대인의 세계관과 15-17세기 북서항로 및 북동항로 개척을 위한 탐험가들의 시도를 다룬다."
+      },
+      {
+        "sectionTitle": "항해, 남쪽 끝으로",
+        "summary": "제임스 쿡의 항해부터 19세기 남극대륙 발견을 위한 각국 탐험대의 경쟁을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 주제",
+        "value": "인류의 탐험 정신, 지리적 발견의 역사"
+      },
+      {
+        "key": "탐험 경로",
+        "value": "북서항로, 북동항로, 남극 탐험"
+      }
+    ],
+    "keyEntitiesText": "제임스 쿡, 헨리 허드슨, 빌렘 바렌츠, 비투스 베링, 뒤몽 뒤르빌",
+    "settingText": "북극해와 남극대륙을 포함한 지구의 극지방."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1B9Ibbfy6LYcYv0X21QS8wKNPdl-r_8Qq",
+    "filename": "베르트랑 앵베르-극지방을 향한 대도전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.767Z",
+    "size": "166028",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1B9Ibbfy6LYcYv0X21QS8wKNPdl-r_8Qq/view?usp=drivesdk",
+    "sourceSha256": "d4052182b1be1c3de6cf05a5c7a7a13185a2f30d54206b4012ef86b944d93a1b",
+    "textSha256": "369e5683bbc5ab12f7f8f1caa77e24047977c2d257540c5566fa6e11f3842c93",
+    "changeKey": "055affaee156de5254b7e3b5a5d0eca9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "651f6edc694ce24df029",
+    "workId": "651f6edc694ce24df029",
+    "driveFileId": "1B9Ibbfy6LYcYv0X21QS8wKNPdl-r_8Qq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:29:22.316925+00:00",
+    "updatedAt": "2026-09-22T19:29:22.316943+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:29:22.317027+00:00"
+    }
+  }
+}

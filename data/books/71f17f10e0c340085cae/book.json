@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한국전쟁의 기원",
+    "author": "브루스 커밍스",
+    "genre": "역사",
+    "tags": [
+      "한국전쟁",
+      "역사",
+      "미군정",
+      "현대사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "브루스 커밍스는 미국의 역사학자로, 한국전쟁의 기원에 관한 수정주의적 해석을 제시한 대표적인 학자이다.",
+    "oneLineSummary": "한국전쟁의 기원을 해방 전후의 국내외 정치적 상황과 사회적 구조 속에서 분석한 역사서이다.",
+    "overallSummary": "이 책은 한국전쟁이 단순히 1950년 6월 25일의 기습 남침으로 시작된 것이 아니라, 해방 이후 미군정의 정책, 남북한의 사회적 갈등, 그리고 식민지 시대의 유산이 복합적으로 작용한 결과임을 방대한 자료를 통해 증명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "일제식민통치와 민족해방",
+        "summary": "식민지 시대의 사회 구조와 해방 직후의 정치적 혼란을 다룬다."
+      },
+      {
+        "sectionTitle": "미군 점령하의 중앙정치",
+        "summary": "미군정의 정책이 남한의 정치적 분열과 단독정부 수립에 미친 영향을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 관점",
+        "value": "수정주의적 해석, 구조적 분석"
+      },
+      {
+        "key": "주요 분석 요소",
+        "value": "식민지 유산, 미군정 정책, 사회적 갈등"
+      }
+    ],
+    "keyEntitiesText": "브루스 커밍스, 하지, 김일성, 이승만",
+    "settingText": "1945년 해방부터 1950년 한국전쟁 발발까지의 한반도."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wc4hkNQPLOKd2sHkEcZD4nvTlohjp4uv",
+    "filename": "브루스 커밍스-한국전쟁의 기원(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:19:14.000Z",
+    "size": "1604295",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1wc4hkNQPLOKd2sHkEcZD4nvTlohjp4uv/view?usp=drivesdk",
+    "sourceSha256": "9c77f73a1d90599bad3d18a89c6e18625edf3beff06ea287f196791c584b045e",
+    "textSha256": "3e9a32861acb7c2457c7d434c41248ff7ef804c04e7b262a8fc8825086400105",
+    "changeKey": "59fd55c0d056c0c71184cae48389e9ac",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "71f17f10e0c340085cae",
+    "workId": "71f17f10e0c340085cae",
+    "driveFileId": "1wc4hkNQPLOKd2sHkEcZD4nvTlohjp4uv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:30:38.530165+00:00",
+    "updatedAt": "2026-09-22T19:30:38.530183+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:30:38.530261+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "황금 파라오 투탕카멘",
+    "author": "보브 브라이어",
+    "genre": "고고학/역사",
+    "tags": [
+      "투탕카멘",
+      "이집트",
+      "고고학",
+      "파라오"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "보브 브라이어는 고대 이집트 고병리학 전문가로, 미라 연구와 고고학적 탐구에 정통한 학자이다.",
+    "oneLineSummary": "투탕카멘의 의문스러운 죽음과 그의 삶을 고고학적 증거와 법의학적 분석으로 추적한 탐정 같은 역사서이다.",
+    "overallSummary": "이 책은 투탕카멘의 무덤 발견 이후 그가 이집트 역사에서 차지하는 비중과 그의 죽음에 얽힌 미스터리를 파헤친다. 저자는 법의학적 분석을 통해 투탕카멘이 타살되었을 가능성을 제기하며, 당시 이집트의 정치적 혼란과 권력 다툼 속에서 범인을 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "투탕카멘의 부모와 선조들",
+        "summary": "18왕조의 역사와 아케나텐의 종교 혁명이 투탕카멘의 삶에 미친 영향을 설명한다."
+      },
+      {
+        "sectionTitle": "죽은 자는 말한다",
+        "summary": "미라의 X-레이 분석을 통해 투탕카멘의 사인과 살해 가능성을 법의학적으로 추론한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 가설",
+        "value": "투탕카멘 타살설"
+      },
+      {
+        "key": "분석 도구",
+        "value": "법의학, 고고학적 자료, 역사적 상상력"
+      }
+    ],
+    "keyEntitiesText": "투탕카멘, 하워드 카터, 아케나텐, 아이, 안케센아멘",
+    "settingText": "고대 이집트 18왕조 시대, 테베와 아마르나."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1L1U1RrwdDhF5Mv2VIuM9r3nfQgxk4bbI",
+    "filename": "보브 브라이어-황금 파라오 투탕카멘 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.776Z",
+    "size": "486883",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1L1U1RrwdDhF5Mv2VIuM9r3nfQgxk4bbI/view?usp=drivesdk",
+    "sourceSha256": "52de7ddebf80b28161e9038a103a0d26b536d90c8c9fe0f5f418f500b18ca83f",
+    "textSha256": "a977a140fb9493684e74fa114c8eddc9d15ae97e105e0fcac6bce8f16bcc3294",
+    "changeKey": "8cb5c2fa0942b299b3467cb2dd5dd5d6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "42a4a0a2615e15ce1fe8",
+    "workId": "42a4a0a2615e15ce1fe8",
+    "driveFileId": "1L1U1RrwdDhF5Mv2VIuM9r3nfQgxk4bbI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:30:04.894029+00:00",
+    "updatedAt": "2026-09-22T19:30:04.894045+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:30:04.894115+00:00"
+    }
+  }
+}

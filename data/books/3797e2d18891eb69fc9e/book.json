@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "거의 모든 것의 역사",
+    "author": "빌 브라이슨",
+    "genre": "과학/역사",
+    "tags": [
+      "과학",
+      "역사",
+      "우주",
+      "지구"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "빌 브라이슨은 여행가이자 저술가로, 복잡한 과학 지식을 대중에게 쉽고 재미있게 전달하는 능력이 탁월하다.",
+    "oneLineSummary": "우주의 탄생부터 인류의 진화까지, 과학의 역사를 흥미로운 에피소드와 함께 풀어낸 대중 과학서이다.",
+    "overallSummary": "이 책은 빅뱅부터 현대 과학의 성과까지, 인류가 우주와 지구, 그리고 생명에 대해 어떻게 알아냈는지 그 과정을 추적한다. 과학자들의 인간적인 면모와 발견의 뒷이야기를 통해 과학이 딱딱한 지식이 아니라 인류의 호기심이 빚어낸 거대한 모험임을 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "우주에서 잊혀진 것들",
+        "summary": "우주의 탄생과 태양계의 형성에 관한 과학적 발견의 역사를 다룬다."
+      },
+      {
+        "sectionTitle": "생명, 그 자체",
+        "summary": "생명의 기원과 진화, 그리고 세포와 유전학의 발전을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 방식",
+        "value": "대중적 과학 서술, 에피소드 중심"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "과학적 발견의 역사, 인류의 호기심"
+      }
+    ],
+    "keyEntitiesText": "빌 브라이슨, 아인슈타인, 다윈, 윌리엄 배핀",
+    "settingText": "우주의 탄생부터 현재까지의 전 시간과 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qP07k_kwZPhxnzXsh0cGQcVSJqkXhVTo",
+    "filename": "빌 브라이슨-거의 모든 것의 역사(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T01:41:48.000Z",
+    "size": "1387356",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1qP07k_kwZPhxnzXsh0cGQcVSJqkXhVTo/view?usp=drivesdk",
+    "sourceSha256": "a1be2d9bab969e1f37495ce274e50105035c7f46096abe1da6f254234460ac68",
+    "textSha256": "a96752569ee5c0f0197433c72089cd3e2568687d45a59f2cb3caf638004c9453",
+    "changeKey": "017c8d1cb6496cd9a350d90f5bd86fca",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3797e2d18891eb69fc9e",
+    "workId": "3797e2d18891eb69fc9e",
+    "driveFileId": "1qP07k_kwZPhxnzXsh0cGQcVSJqkXhVTo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:30:54.039608+00:00",
+    "updatedAt": "2026-09-22T19:30:54.039625+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:30:54.039705+00:00"
+    }
+  }
+}
