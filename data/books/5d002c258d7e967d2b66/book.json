@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모욕의 대가",
+    "author": "SKY",
+    "genre": "성인 소설",
+    "tags": [
+      "복수",
+      "성적 폭력",
+      "가족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인물",
+        "복수극"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "SKY",
+    "oneLineSummary": "운전기사 서만기의 재벌가에 대한 복수와 성적 폭력.",
+    "overallSummary": "재벌가 운전기사 서만기가 회장 아들 한상훈에게 당한 모욕에 대한 복수로, 그의 가족들을 성적으로 유린하는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "모욕의 대가",
+        "summary": "서만기가 한상훈에게 뺨을 맞은 후 복수를 계획하고, 그의 가족들을 유린하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "계급 간의 갈등과 복수"
+      }
+    ],
+    "keyEntitiesText": "서만기, 한상훈, 임정혜, 한유미",
+    "settingText": "골프장, 서초동 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1D0DJaMO6lQyNhp3xtQ9r93GhAEcApLCV",
+    "filename": "모욕의 대가.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.090Z",
+    "size": "444922",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19"
+    ],
+    "relativePath": "books/09 로맨스/19",
+    "webViewLink": "https://drive.google.com/file/d/1D0DJaMO6lQyNhp3xtQ9r93GhAEcApLCV/view?usp=drivesdk",
+    "sourceSha256": "57e9f351de83aecd472d218760aa7a23d8d525613139f6d7d4ffd649954ba0a3",
+    "textSha256": "b84deebeaedb0ab843a8080a925187d4c57e6c7b703ba81612bb12775154495b",
+    "changeKey": "f3d13b089beb1fda4534ba4f915886bd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5d002c258d7e967d2b66",
+    "workId": "5d002c258d7e967d2b66",
+    "driveFileId": "1D0DJaMO6lQyNhp3xtQ9r93GhAEcApLCV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:11:11.884880+00:00",
+    "updatedAt": "2026-09-22T17:11:11.884892+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:11:11.885000+00:00"
+    }
+  }
+}

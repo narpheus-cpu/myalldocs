@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "낙랑공주와 호동왕자",
+    "author": "anarchist",
+    "genre": "역사 픽션",
+    "tags": [
+      "고구려",
+      "호동왕자",
+      "성적 폭력",
+      "전쟁"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사물",
+        "성인물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "anarchist",
+    "oneLineSummary": "고구려 호동왕자의 잔혹한 전쟁과 성적 폭력을 다룬 픽션.",
+    "overallSummary": "고구려의 호동왕자가 북부 국경을 점검하며 말갈족을 잔혹하게 살륙하고 성적으로 유린하는 과정을 그린 자극적인 역사 픽션.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 왕자(王子) 호동(胡桐)",
+        "summary": "호동왕자가 말갈족 마을을 습격하여 살륙하고 여자들을 성적으로 유린하는 잔혹한 행위."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "역사적 인물을 차용했으나 매우 자극적이고 잔혹한 성인물"
+      }
+    ],
+    "keyEntitiesText": "호동왕자, 말갈족, 우민(여인)",
+    "settingText": "만주 북부, 고구려 국경 지대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11F-jvm_CpeF0r1pLVYs5dht8vc0iYE7H",
+    "filename": "낙랑공주와 호동왕자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:22.932Z",
+    "size": "519344",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19"
+    ],
+    "relativePath": "books/09 로맨스/19",
+    "webViewLink": "https://drive.google.com/file/d/11F-jvm_CpeF0r1pLVYs5dht8vc0iYE7H/view?usp=drivesdk",
+    "sourceSha256": "3177918fd06aec6f0d51bb9263fd3833e44ba3d038b5903d662c6d9e581ae64e",
+    "textSha256": "0b9a33b5f73d75a5993dda0ae8c2e503908e23b43cca411e2f801e229434c230",
+    "changeKey": "9d0bb7c1319224ddb163ac211d2b00b9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "957c804a10d58d87b541",
+    "workId": "957c804a10d58d87b541",
+    "driveFileId": "11F-jvm_CpeF0r1pLVYs5dht8vc0iYE7H",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:10:29.385113+00:00",
+    "updatedAt": "2026-09-22T17:10:29.385127+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:10:29.385387+00:00"
+    }
+  }
+}

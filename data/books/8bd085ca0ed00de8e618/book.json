@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도미시마 다케오-여인추억",
+    "author": "도미시마 다케오",
+    "genre": "성인 소설",
+    "tags": [
+      "불륜",
+      "질투",
+      "성적 경험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도미시마 다케오",
+    "oneLineSummary": "연인 사이의 질투와 그로 인한 성적 관계의 변화.",
+    "overallSummary": "가네스키와 아유코 커플이 과거의 일로 다투고, 마사키가 이들 사이를 중재하며 겪는 성적인 경험을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "가네스키와 아유코의 다툼, 마사키의 중재와 아유코와의 은밀한 관계."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "질투와 성적 관계"
+      }
+    ],
+    "keyEntitiesText": "마사키, 가네스키, 아유코",
+    "settingText": "아파트, 마사키의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qDKxiZiPxwNeRezwFj8ZjU5etEY8McQh",
+    "filename": "도미시마 다케오-여인추억.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.060Z",
+    "size": "1118319",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19"
+    ],
+    "relativePath": "books/09 로맨스/19",
+    "webViewLink": "https://drive.google.com/file/d/1qDKxiZiPxwNeRezwFj8ZjU5etEY8McQh/view?usp=drivesdk",
+    "sourceSha256": "e8ba28f2b5358fe4ca459b3cd92a465d64a75a35221ec4d2e5772c36fa50b0e3",
+    "textSha256": "ce6b4c24ce9e1d3ae732081368351f1fd7ad20ecc26b630f9d8da6d3e39a35dc",
+    "changeKey": "0c5d096efeb4bbe89de3eddd13887f71",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8bd085ca0ed00de8e618",
+    "workId": "8bd085ca0ed00de8e618",
+    "driveFileId": "1qDKxiZiPxwNeRezwFj8ZjU5etEY8McQh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:11:04.700220+00:00",
+    "updatedAt": "2026-09-22T17:11:04.700239+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:11:04.700364+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도미시마 다케오-성전",
+    "author": "도미시마 다케오",
+    "genre": "성인 소설",
+    "tags": [
+      "성장",
+      "첫경험",
+      "성적 호기심"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인물",
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도미시마 다케오",
+    "oneLineSummary": "소년의 성적 성장과 첫경험에 관한 이야기.",
+    "overallSummary": "주인공 신이찌가 어린 시절 요시꼬와의 첫키스, 나오꼬와의 성적 경험 등을 통해 성에 눈을 뜨고 성장해가는 과정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "성전 1-1",
+        "summary": "요시꼬와의 첫키스와 성적 호기심."
+      },
+      {
+        "sectionTitle": "성전 1-2",
+        "summary": "나오꼬와의 은밀한 경험과 성적 성장."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "소년의 성적 성장과 첫경험"
+      }
+    ],
+    "keyEntitiesText": "신이찌, 요시꼬, 나오꼬",
+    "settingText": "산, 나오꼬의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13rEPpRkrzKMpHB7KC_VeBtJb6etMpiEL",
+    "filename": "도미시마 다케오-성전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.046Z",
+    "size": "173817",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19"
+    ],
+    "relativePath": "books/09 로맨스/19",
+    "webViewLink": "https://drive.google.com/file/d/13rEPpRkrzKMpHB7KC_VeBtJb6etMpiEL/view?usp=drivesdk",
+    "sourceSha256": "46e4c9921432aebf923d956222a8a05df7fa8fcc375789022e513ccfdb2d84a1",
+    "textSha256": "eaea49f232e0de096970d79939f4f9b3b5c752199dae4da42faa1eecee601deb",
+    "changeKey": "224c61ce826de2d1091ca17212d564f6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bd5d7b18847cf47f3b5d",
+    "workId": "bd5d7b18847cf47f3b5d",
+    "driveFileId": "13rEPpRkrzKMpHB7KC_VeBtJb6etMpiEL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:10:58.258510+00:00",
+    "updatedAt": "2026-09-22T17:10:58.258525+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:10:58.258637+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아르바이트",
+    "author": "이진수",
+    "genre": "성인 소설",
+    "tags": [
+      "아르바이트",
+      "성적 폭력",
+      "대학생"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이진수",
+    "oneLineSummary": "아르바이트를 하던 여대생이 겪는 성적 폭력과 파멸.",
+    "overallSummary": "사회 경험을 위해 아르바이트를 시작한 여대생 주리가 직장에서 성적 폭력을 당하고 파멸해가는 과정을 그린 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "수모",
+        "summary": "주리가 김 대리에게 성적 폭력을 당하는 장면."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "여대생의 사회 경험과 성적 폭력"
+      }
+    ],
+    "keyEntitiesText": "주리, 김 대리",
+    "settingText": "매장, 사무실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TSWa7uShiUu4dsKhTzeaRO-7WJTIudsy",
+    "filename": "이외수-아르바이트.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.461Z",
+    "size": "1279131",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이외수"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이외수",
+    "webViewLink": "https://drive.google.com/file/d/1TSWa7uShiUu4dsKhTzeaRO-7WJTIudsy/view?usp=drivesdk",
+    "sourceSha256": "bebeb99d65d6caec91875ee4b892fcf31bb4eb09920e1d7c8e60591d902f9c0d",
+    "textSha256": "8d4a39bd1e4f1da0f6a3fbf69f5e32b17bfc4c869bfc4a89b0bbe473faebf054",
+    "changeKey": "21b3fede6922988ddefe8b108f700cc7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "899642f1e186a2a91018",
+    "workId": "899642f1e186a2a91018",
+    "driveFileId": "1TSWa7uShiUu4dsKhTzeaRO-7WJTIudsy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:11:31.204469+00:00",
+    "updatedAt": "2026-09-22T17:11:31.204485+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.856,
+      "updatedAt": "2026-09-22T17:11:31.204588+00:00"
+    }
+  }
+}

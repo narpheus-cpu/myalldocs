@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어떤 기다림",
+    "author": "戀歌",
+    "genre": "성인 소설",
+    "tags": [
+      "근친",
+      "모자",
+      "성적 관계"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성인물",
+        "근친"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "戀歌",
+    "oneLineSummary": "모자 사이의 금기된 성적 관계를 다룬 소설.",
+    "overallSummary": "변호사인 어머니 미나와 14살 아들 이사무 사이의 금기된 성적 관계와 그들의 심리를 다룬 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "미나와 이사무의 생일날 밤, 공원에서 벌어지는 은밀한 관계."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "근친상간적 요소"
+      }
+    ],
+    "keyEntitiesText": "미나, 이사무",
+    "settingText": "신주쿠, 공원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zURaxziYwbUjVTQ2GK5se_DiPtbHU4IU",
+    "filename": "어떤 기다림 (待ってたの by 戀歌 ).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.187Z",
+    "size": "74103",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19"
+    ],
+    "relativePath": "books/09 로맨스/19",
+    "webViewLink": "https://drive.google.com/file/d/1zURaxziYwbUjVTQ2GK5se_DiPtbHU4IU/view?usp=drivesdk",
+    "sourceSha256": "ffe888c67ee44757f33511c3d02626fb1a461d9c67ea47a60716f38da92fd3f1",
+    "textSha256": "e93cae6c47e22cfa8de9cf6108109b088f6ce0837ba5d10a087929cf2f903830",
+    "changeKey": "e2ecac12d8ecbca88348fa2c4d6c1344",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a20bcd9ce8a813a4827a",
+    "workId": "a20bcd9ce8a813a4827a",
+    "driveFileId": "1zURaxziYwbUjVTQ2GK5se_DiPtbHU4IU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:11:38.320443+00:00",
+    "updatedAt": "2026-09-22T17:11:38.320459+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:11:38.320566+00:00"
+    }
+  }
+}
