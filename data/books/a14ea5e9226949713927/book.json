@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "3막의 비극",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "추리",
+      "에르큘포와로",
+      "연극",
+      "독살",
+      "하우스파티"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전 세계적으로 널리 읽히는 영국의 대표적 미스터리 작가로 희곡과 연극적 연출 기법을 작품에 능숙하게 접목했다.",
+    "oneLineSummary": "유명 배우 찰스 카트라이트 경의 만찬 파티에 모인 열세 명의 손님 사이에서 독살 사건이 발생하며 3막의 비극이 시작된다.",
+    "overallSummary": "무대에서 은퇴하고 바닷가 절벽 위의 방갈로 '크로우스 네스트'에서 은둔 생활을 즐기던 유명 배우 찰스 카트라이트 경은 지인들과 이웃들을 초대해 만찬을 연다. 관찰자 새터스웨이트와 신경과 전문의 바솔로뮤 스트레인지 경, 명탐정 에르퀼 푸아로를 포함한 열세 명의 손님이 모인 자리에서 온화한 교구 목사가 칵테일을 마시고 급사하며 연극적인 살인 사건의 서막이 오른다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "크로우스 네스트",
+        "summary": "찰스 카트라이트 경의 바닷가 집에서 새터스웨이트와 바솔로뮤 경이 찰스의 연기적 기질과 다가올 만찬 손님 명단에 대해 대화를 나눈다."
+      },
+      {
+        "sectionTitle": "만찬 전에 일어난 일",
+        "summary": "앤젤라 서트클리프, 데이크리스 부부, 극작가 윌스 양, 푸아로 등 개성 강한 하우스파티 손님들이 모여 만찬 전 칵테일을 나누며 교류한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "연극적 구성",
+        "value": "책의 권두에 배역과 스태프를 명시하고 3막 구조의 희곡 형식을 차용하여 인생과 범죄가 하나의 잘 짜인 무대극처럼 전개되도록 설계함."
+      }
+    ],
+    "keyEntitiesText": "찰스 카트라이트 경, 새터스웨이트, 바솔로뮤 스트레인지 경, 에르퀼 푸아로, 에그(허마이온 리튼 고어), 앤젤라 서트클리프, 밀레이 양",
+    "settingText": "영국 루머스 항구가 내려다보이는 현대식 방갈로 저택 크로우스 네스트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZAPbPxayBM8w3rk5uJKqDvnNGfmh7pu_",
+    "filename": "애거서 크리스티-3막의 비극(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.742Z",
+    "size": "469353",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1ZAPbPxayBM8w3rk5uJKqDvnNGfmh7pu_/view?usp=drivesdk",
+    "sourceSha256": "077ff7e344c748be8edde41872df6ad795fbc434a43f993bb88f3493856d0cf4",
+    "textSha256": "77347560b7d53d1674def38c0572d3ab5cde2bcea8a3ec0cfaa5c4c428592fa6",
+    "changeKey": "1cd27cb4830617ebb0b92169beb8bdaa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a14ea5e9226949713927",
+    "workId": "a14ea5e9226949713927",
+    "driveFileId": "1ZAPbPxayBM8w3rk5uJKqDvnNGfmh7pu_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:45:16.368095+00:00",
+    "updatedAt": "2026-09-22T06:45:16.368111+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:45:16.368211+00:00"
+    }
+  }
+}

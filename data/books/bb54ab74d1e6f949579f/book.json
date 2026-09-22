@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비뚤어진 집",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "가족범죄",
+      "독살",
+      "대저택",
+      "비뚤어진집",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "20세기 최고의 추리소설가로 정교한 플롯과 인간 심리에 대한 날카로운 묘사로 세계적인 명성을 얻었다.",
+    "oneLineSummary": "외무부 직원 찰스가 사랑하는 소피아의 조부인 대부호 애리스티드 레오니데스의 독살 의혹 사건에 휘말리는 이야기이다.",
+    "overallSummary": "제2차 세계대전 말 이집트에서 소피아 레오니데스를 만나 사랑에 빠진 찰스는 전쟁 후 영국으로 돌아와 재회한다. 그러나 소피아의 조부이자 엄청난 부자인 애리스티드 레오니데스가 스리 게이블스 저택에서 돌연 사망하고, 자연사가 아닌 살인이라는 의혹이 일어난다. 경찰 고위 간부인 찰스의 아버지와 태버너 경감이 수사에 착수하고, 찰스는 비뚤어진 대가족 저택의 의혹 속으로 발을 들여놓는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "이집트에서 소피아와 만난 찰스가 사랑을 확인하고 영국에서 청혼할 것을 약속한 뒤 헤어진다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "영국으로 돌아온 찰스가 애리스티드 레오니데스의 부고를 보고 소피아를 만나 조부의 독살 살해 의혹을 전해 듣는다."
+      },
+      {
+        "sectionTitle": "제3장",
+        "summary": "경시청 부청장인 아버지와 사건 담당 태버너 경감을 만나 레오니데스 가문의 배경과 사건 조사의 시작을 공유한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "가족 드라마적 특성",
+        "value": "폐쇄적인 한 지붕 아래 3대가 모여 사는 대가족 공동체 내에서 발생한 살인 사건을 통해 가족 구성원 간의 기묘한 심리적 역학과 비밀을 조명함."
+      }
+    ],
+    "keyEntitiesText": "찰스, 소피아 레오니데스, 애리스티드 레오니데스, 브렌다 레오니데스, 찰스의 아버지(경시청 부청장), 태버너 경감",
+    "settingText": "영국 런던 외곽 스윈리 딘의 스리 게이블스 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16tn2bEDogskUraTXWNVcSWnXMqp-mBfd",
+    "filename": "애거서 크리스티-비뚤어진 집(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.793Z",
+    "size": "496133",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/16tn2bEDogskUraTXWNVcSWnXMqp-mBfd/view?usp=drivesdk",
+    "sourceSha256": "64001faab38651e53e574676cb69753a172ad89e5a9713930b94465033d20cba",
+    "textSha256": "6f1e8d0dc0cb3f93918db43dfd94278d1dcaef85b1bbc96ea145f773bf6f5f17",
+    "changeKey": "4e634772694f9ad8ec4fc60be4860e09",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bb54ab74d1e6f949579f",
+    "workId": "bb54ab74d1e6f949579f",
+    "driveFileId": "16tn2bEDogskUraTXWNVcSWnXMqp-mBfd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:44:37.700614+00:00",
+    "updatedAt": "2026-09-22T06:44:37.700629+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:44:37.700745+00:00"
+    }
+  }
+}

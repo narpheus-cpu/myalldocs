@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살인을 예고합니다",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "추리",
+      "미스마플",
+      "신문광고",
+      "예고살인",
+      "클로즈드서클"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 대표적인 추리작가로 미스 마플과 에르퀼 푸아로를 창조하여 세계적인 명성을 누렸다.",
+    "oneLineSummary": "마을 지역 신문 광고란에 특정 일시와 장소를 지정한 살인 예고가 실리며 마을 사람들이 호기심 속에 모여드는 추리극이다.",
+    "overallSummary": "치핑 클레그혼 마을의 지역 신문 《가제트》 광고란에 10월 29일 금요일 오후 6시 30분 리틀 패덕스에서 살인이 벌어질 것이라는 예고 광고가 실린다. 스웨트넘 모자, 이스터브룩 대령 부부, 힌클리프와 머거트로이드, 하먼 목사 부부 등 이웃 주민들은 호기심과 장난 섞인 흥분으로 시간 맞춰 리틀 패덕스로 갈 채비를 하고, 미스 블랙록 역시 손님맞이를 준비한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "살인을 예고합니다 I ~ V",
+        "summary": "신문 배달을 시작으로 치핑 클레그혼 주민들이 신문에 난 살인 예고 광고를 확인하고 저마다의 해석을 내리며 파티 참석을 결정한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "설정 기법",
+        "value": "신문 광고를 통한 살인 예고라는 참신한 설정으로 전 마을 공동체의 호기심을 유발해 인물들을 한자리에 모으는 뛰어난 미스터리 도입부 구성."
+      }
+    ],
+    "keyEntitiesText": "레티셔 블랙록, 스웨트넘 부인, 에드먼드 스웨트넘, 이스터브룩 대령 부부, 힌클리프 양, 머거트로이드 양, 번치(다이애나 하먼), 줄리언 하먼 목사",
+    "settingText": "영국의 조용한 시골 마을 치핑 클레그혼 및 리틀 패덕스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kydZn0RtIR1S1kTsPzA7VwEKwx6vF-FL",
+    "filename": "애거서 크리스티-살인을 예고합니다(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.930Z",
+    "size": "545788",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1kydZn0RtIR1S1kTsPzA7VwEKwx6vF-FL/view?usp=drivesdk",
+    "sourceSha256": "80869f60d71204562e86a6476767fb66d6d9d24fbaaa2ef1c39d9bf752666ca0",
+    "textSha256": "13491a9326fd34289a7d754200e88e9f7fb86644d97870e51594bf2ee4785c3c",
+    "changeKey": "3453ee4cef47f69033676064b1305541",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "702d04261dcaa28f9287",
+    "workId": "702d04261dcaa28f9287",
+    "driveFileId": "1kydZn0RtIR1S1kTsPzA7VwEKwx6vF-FL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:44:50.020551+00:00",
+    "updatedAt": "2026-09-22T06:44:50.020565+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:44:50.020657+00:00"
+    }
+  }
+}

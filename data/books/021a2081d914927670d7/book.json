@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "벙어리 목격자",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "추리",
+      "유산상속",
+      "의문의죽음",
+      "반려견",
+      "에르큘포와로"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "추리 문학의 대표적 작가로 수많은 명작 트릭과 서스펜스를 선보인 영국의 소설가이다.",
+    "oneLineSummary": "부유한 노부인 에밀리 애런델의 사망과 뜻밖의 유언장으로 인해 마을과 친척들이 술렁이며 벌어지는 미스터리이다.",
+    "overallSummary": "마켓 베이싱의 부유한 노부인 에밀리 애런델이 세상을 떠난 후 전 재산을 동거인인 로슨 양에게 남긴다는 유언장이 발표되자 온 마을과 친척들이 충격에 휩싸인다. 과거 부활절 연휴 동안 조카들인 찰스, 테레사, 벨라 부부가 저마다 돈을 목적으로 모여들었고, 찰스가 계단 위에 놓인 개 밥(Bob)의 공 때문에 미끄러질 뻔한 사건 등 가족 간의 갈등과 탐욕이 서서히 드러난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장 리틀그린 하우스의 여주인",
+        "summary": "에밀리 애런델의 죽음과 유언장을 둘러싼 소문, 그리고 부활절 연휴 동안 그녀가 친척들을 맞이하며 겪은 일상과 생각들을 서술한다."
+      },
+      {
+        "sectionTitle": "제 2장 친척들",
+        "summary": "에밀리에게 돈을 요구했다가 거절당한 찰스가 여동생 테레사와 함께 고모의 반응과 향후 유산 분배에 대해 대화를 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "복선 장치",
+        "value": "계단 위에 놓인 강아지의 공과 계단 낙하 위험, 탐욕스러운 친척들의 금전적 곤경이 노부인의 의문스러운 죽음과 직결되는 복선으로 작용함."
+      }
+    ],
+    "keyEntitiesText": "에밀리 애런델, 윌헬미나 로슨, 찰스, 테레사, 벨라 타니오스, 타니오스 의사, 반려견 밥",
+    "settingText": "영국의 소읍 마켓 베이싱의 리틀그린 하우스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1S4hF_Zcl_e6wUknB8zUthYmjkiRicBx5",
+    "filename": "애거서 크리스티-벙어리 목격자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.535Z",
+    "size": "356254",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)",
+      "애거서 크리스티 기타"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)/애거서 크리스티 기타",
+    "webViewLink": "https://drive.google.com/file/d/1S4hF_Zcl_e6wUknB8zUthYmjkiRicBx5/view?usp=drivesdk",
+    "sourceSha256": "dcff0fbbc6bfb3faea4aa93eec59992e87b4d643051dbfb526a9f9f9e9fc7358",
+    "textSha256": "a6e9a1e3858d66f053a69d7294fbd26a2388d592df5a067db257d0f8e3ec811e",
+    "changeKey": "0fefa226c901557eeb10bc5721431edf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "021a2081d914927670d7",
+    "workId": "021a2081d914927670d7",
+    "driveFileId": "1S4hF_Zcl_e6wUknB8zUthYmjkiRicBx5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:44:32.027558+00:00",
+    "updatedAt": "2026-09-22T06:44:32.027574+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:44:32.027682+00:00"
+    }
+  }
+}

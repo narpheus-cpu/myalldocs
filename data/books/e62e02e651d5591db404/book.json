@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비밀 서류를 노려라",
+    "author": "아가사 크리스티",
+    "genre": "첩보 모험 소설",
+    "tags": [
+      "첩보",
+      "모험",
+      "토미와터펜스",
+      "비밀서류",
+      "스파이"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "adventure",
+        "spy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "추리 소설의 대가로 탐정 콤비 토미와 터펜스를 등장시켜 경쾌하고 활력 넘치는 첩보 모험물을 발표했다.",
+    "oneLineSummary": "전후 무일푼이 된 토미와 터펜스가 '청년 모험가'로서 국제 스파이단과 비밀 서류를 추적하는 활약극이다.",
+    "overallSummary": "제1차 세계대전 초기 루시타니아 호 침몰 당시 미국 첩보원으로부터 연합군의 운명이 걸린 극비 서류를 넘겨받은 제인 핀이 실종된다. 전후 일자리를 잃고 재회한 토미와 터펜스는 돈을 벌기 위해 모험 대행업 광고를 내고, 수상한 인물 에드워드 위친튼에게 거액의 의뢰를 받으며 국제 스파이단의 음모 속으로 뛰어든다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 루시타니아 호 최후의 날",
+        "summary": "독일 잠수함의 공격으로 침몰하는 루시타니아 호에서 미국 요원이 제인 핀에게 중대한 비밀 서류를 맡긴다."
+      },
+      {
+        "sectionTitle": "2. 해후",
+        "summary": "전쟁 후 런던에서 재회한 실업자 신세의 토미와 터펜스가 의기투합하여 '청년 모험가' 사무실을 구상하고 신문 광고를 내기로 한다."
+      },
+      {
+        "sectionTitle": "3. 첫번째 일",
+        "summary": "터펜스가 공원에서 위친튼에게 접촉당해 파리 기숙사에 대역으로 가 달라는 거액의 수상한 제안을 받는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "첩보 및 모험 구조",
+        "value": "젊고 대담한 주인공 콤비가 잃어버린 국가 기밀 문서를 둘러싸고 정체불명의 악당 조직 '브라운'에 맞서는 전형적인 첩보 모험 활극의 도입부."
+      }
+    ],
+    "keyEntitiesText": "토미 베레스포드, 터펜스 카우리, 제인 핀, 에드워드 위친튼, 브라운, 줄리어스 하이세이머",
+    "settingText": "대서양 루시타니아 호 및 제1차 세계대전 직후의 영국 런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tZVDz4OyunLp8GKp7FyGJjDMWkDysB2R",
+    "filename": "애거서 크리스티-비밀 서류를 노려라.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.591Z",
+    "size": "122932",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)",
+      "애거서 크리스티 기타"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)/애거서 크리스티 기타",
+    "webViewLink": "https://drive.google.com/file/d/1tZVDz4OyunLp8GKp7FyGJjDMWkDysB2R/view?usp=drivesdk",
+    "sourceSha256": "be838bbea2ff57673e2199ae4b3dcc718a871693342aa1d7012cd4c04f2413fb",
+    "textSha256": "e7fd774b851958fd1600c6c0a4d64fbf04a7504f1454e1781de0e8468ba9a465",
+    "changeKey": "c04a890f2877c98e4152d2551ba69833",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e62e02e651d5591db404",
+    "workId": "e62e02e651d5591db404",
+    "driveFileId": "1tZVDz4OyunLp8GKp7FyGJjDMWkDysB2R",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:44:43.548496+00:00",
+    "updatedAt": "2026-09-22T06:44:43.548508+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:44:43.548610+00:00"
+    }
+  }
+}
