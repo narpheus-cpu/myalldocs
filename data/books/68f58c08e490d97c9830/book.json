@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "월야환담 창월야",
+    "author": "홍정훈",
+    "genre": "판타지",
+    "tags": [
+      "월야환담",
+      "창월야",
+      "흡혈귀",
+      "액션",
+      "도시판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "urban_fantasy",
+        "action"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "홍정훈은 한국의 대표적인 어반 판타지 소설 작가로 '월야환담' 시리즈로 큰 인기를 끌었다.",
+    "oneLineSummary": "달빛이 감도는 도시의 어둠 속에서 괴물들과 맞서 싸우는 소년 서린의 이야기.",
+    "overallSummary": "채월야의 뒤를 이어지는 월야환담 창월야는 전혀 다른 모티베이션을 가진 주인공 서린의 이야기를 다룬다. 새벽 2시, 차가운 달빛 아래서 일렉 기타 소리가 울려퍼지고, 도시의 어둠 속에서 악령과 괴물이 꿈틀거린다. 낮에는 가난한 고학생이자 신문 배달원이며 공인중개사를 꿈꾸는 소년 서린은, 밤이 되면 전혀 다른 모습으로 미친 달의 세계와 흡혈귀, 테러범들의 사건에 휘말리며 질주한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "초야 Downtown Legend",
+        "summary": "새벽 2시, 차가운 달빛 아래 바이크를 탄 청년이 거대한 젤리틴 형태의 괴물과 사투를 벌이며 도시의 어둠 속 전설을 드러낸다."
+      },
+      {
+        "sectionTitle": "제1야 Odd Eye #1",
+        "summary": "가난한 고학생 서린은 새벽 일찍 일어나 400부가 넘는 신문을 돌리고, 학교에 가서 공부와 아르바이트를 병행하며 고단하지만 치열한 일상을 살아간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "어반 판타지 / 액션 느와르"
+      },
+      {
+        "key": "주요 테마",
+        "value": "이중생활과 밤의 세계"
+      }
+    ],
+    "keyEntitiesText": "서린, 한세건(언급), 최혁진, 조성찬, 송지명 사장",
+    "settingText": "현대 도시, 신문배급소, 학교, 골목길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17bqhWQP1-6SzWc5nF9IgtRAigCKuSSia",
+    "filename": "월야환담 창월야 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:48.367Z",
+    "size": "3039556",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/17bqhWQP1-6SzWc5nF9IgtRAigCKuSSia/view?usp=drivesdk",
+    "sourceSha256": "9f6ca2bba83ae1e6e8527037bb05d5b296e116321d16800f7a733bafce5f577d",
+    "textSha256": "62f39d4b5797abd6d75e6f521a08de22f0524d6efc07cfdccbb0668b397131e6",
+    "changeKey": "066f539d2bc98829c5e8ed193213c951",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "68f58c08e490d97c9830",
+    "workId": "68f58c08e490d97c9830",
+    "driveFileId": "17bqhWQP1-6SzWc5nF9IgtRAigCKuSSia",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:35:06.558799+00:00",
+    "updatedAt": "2026-09-22T12:35:06.558814+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:35:06.558921+00:00"
+    }
+  }
+}

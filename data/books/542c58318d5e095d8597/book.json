@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대란",
+    "author": "야설록",
+    "genre": "소설",
+    "tags": [
+      "첩보",
+      "전쟁",
+      "북한",
+      "음모",
+      "정치"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "spy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "야설록은 다수의 무협 및 대중소설을 저술한 작가이다.",
+    "oneLineSummary": "한반도를 둘러싼 거대한 국제 음모와 북한의 남침 대란을 막기 위한 첩보원들의 사투.",
+    "overallSummary": "일본 정계와 무기상 연합체 유니콘 등이 주도하는 '쇼군 프로젝트'는 북한의 쿠데타와 남한 침공을 유도하여 한반도에 괴뢰 통일정부를 세우려는 음모이다. 북한 군부 강경파 김광신 차수와 이봉운 대장은 쿠데타에 성공하고 남침을 준비한다. 이에 맞서 한국의 민완 첩보원 최훈과 서방 진영의 합동 첩보 팀은 음모의 실체를 파악하고 전쟁을 저지하기 위해 목숨을 건 작전에 돌입한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "작가의 말과 쇼군 프로젝트",
+        "summary": "정보의 중요성과 부재를 지적하며, 일본과 무기상, 마피아가 연합하여 한반도 전쟁을 일으키려는 '쇼군 프로젝트'의 전모를 소개한다."
+      },
+      {
+        "sectionTitle": "압록강 국경의 탈출",
+        "summary": "오무광과 유혁은 북한의 엄중한 감시를 뚫고 탈출을 시도하다 발각되고, 유혁은 마이크로필름을 지키기 위해 최후를 맞이한다."
+      },
+      {
+        "sectionTitle": "평양 주석궁의 밀실",
+        "summary": "김도남 대장은 압록강에서 압수된 암호문과 마이크로필름을 최고 지도자에게 보고하고, 배신자를 색출하라는 엄명을 받는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "정치 군사 첩보 스릴러"
+      },
+      {
+        "key": "주요 테마",
+        "value": "한반도 냉전과 국제 음모"
+      }
+    ],
+    "keyEntitiesText": "최훈, 오무광, 유혁, 김광신, 이봉운, 아키오, 리처드 슐만",
+    "settingText": "1995년의 압록강 국경, 평양 주석궁, 서울 등 한반도와 주변국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-uWmH-h3uzeR6n9CDO8kt-mc60rkSw8Z",
+    "filename": "야설록-대란.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:47.669Z",
+    "size": "1609026",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1-uWmH-h3uzeR6n9CDO8kt-mc60rkSw8Z/view?usp=drivesdk",
+    "sourceSha256": "6ea7739d1efa11575368c65953d058dd4e13d1127dde0211694b49db4ec89575",
+    "textSha256": "481605f0b9f9447ba805d5534e2c25279a64d65d99f41dcba5e031883c64f7e4",
+    "changeKey": "3ecd3211bb7b74a27c27fed44175ec68",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "542c58318d5e095d8597",
+    "workId": "542c58318d5e095d8597",
+    "driveFileId": "1-uWmH-h3uzeR6n9CDO8kt-mc60rkSw8Z",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:33:03.672894+00:00",
+    "updatedAt": "2026-09-22T12:33:03.672910+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:33:03.673030+00:00"
+    }
+  }
+}

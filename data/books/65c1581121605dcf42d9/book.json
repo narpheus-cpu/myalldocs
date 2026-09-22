@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마이다스",
+    "author": "야설록",
+    "genre": "소설",
+    "tags": [
+      "군사",
+      "파병",
+      "소말리아",
+      "재벌",
+      "복수"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "야설록은 역동적인 전개와 거대한 스케일의 소설을 쓰는 작가이다.",
+    "oneLineSummary": "소말리아 파병 중 비극적인 사고를 겪은 후 재벌의 후계자로 위장하여 살아가는 오혜성의 이야기.",
+    "overallSummary": "소말리아 모가디슈 근교에 파병된 유엔군 한국군 병장 최윤호와 일병 오혜성은 반군 게릴라의 포격 세례를 받는다. 최윤호는 사망하고 오혜성은 전신 화상과 중상을 입은 채 구조된다. 그러나 신원이 뒤바뀌어 오혜성은 최윤호로 신분을 위장한 채 동해안의 호화 별장에서 치료를 받으며 재벌가의 삶을 흉내 내기 시작하고, 과거의 상처와 복수를 품는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소말리아의 비극",
+        "summary": "소말리아 파병 말년, 최윤호와 오혜성은 반군의 박격포 세례를 받고 치명적인 폭발 휘말린다."
+      },
+      {
+        "sectionTitle": "신원의 바뀜",
+        "summary": "구조 과정에서 최윤호는 사망하고 오혜성이 살아남으나, 끔찍한 부상 속에서 최윤호로 오인되어 치료받는다."
+      },
+      {
+        "sectionTitle": "재벌가의 삶과 위장",
+        "summary": "오혜성은 자신의 진짜 신분을 숨긴 채 용비그룹 회장의 아들 최윤호로서 호화로운 별장 생활을 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 설정",
+        "value": "신분 위장과 생존"
+      },
+      {
+        "key": "인물 관계",
+        "value": "오혜성과 최윤호의 운명 교차"
+      }
+    ],
+    "keyEntitiesText": "오혜성, 최윤호, 최대룡 회장, 엄지, 이창수, 명주",
+    "settingText": "소말리아 초원, 서울 용비그룹, 동해안 별장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ng8NNK_XnMuByRJcrG_2H0WdhedUhZ_r",
+    "filename": "야설록-마이다스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:47.754Z",
+    "size": "283353",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1ng8NNK_XnMuByRJcrG_2H0WdhedUhZ_r/view?usp=drivesdk",
+    "sourceSha256": "0d30f7fb6be8e729876fe8e7a90027ef51ce0e4b66c95b8c8cc8d24ef97224a3",
+    "textSha256": "eb5df3e67a31346912f251e5e1dde17fe8fb9e4739391773ce2447f4fbdb053c",
+    "changeKey": "127da92b5afeecf5b00298472f08ff18",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "65c1581121605dcf42d9",
+    "workId": "65c1581121605dcf42d9",
+    "driveFileId": "1ng8NNK_XnMuByRJcrG_2H0WdhedUhZ_r",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:33:18.267063+00:00",
+    "updatedAt": "2026-09-22T12:33:18.267079+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:33:18.267205+00:00"
+    }
+  }
+}

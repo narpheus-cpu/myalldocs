@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오 마이 갓!",
+    "author": "젖은고래",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "창조주",
+      "천계",
+      "여행",
+      "코미디"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "comedy",
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "젖은고래는 기발한 설정과 유머러스한 문체의 판타지 소설을 집필한 작가이다.",
+    "oneLineSummary": "세상을 다 부수고 새로 창조하려는 천계의 창조주 아테온이 지상으로 내려와 겪는 여정.",
+    "overallSummary": "천계의 중심 크리스탈 궁전에서 주신 아테온은 시험 삼아 만들었던 현재의 세상을 완전히 부수고 새로운 세상을 재창조하겠다는 계획을 발표한다. 수호신들과 천사들은 반발하며 뜯어말리고, 아테온은 마지못해 직접 지상으로 내려가 인간들의 삶을 둘러본 뒤 결정하기로 한다. 자비의 대천사 도미니엘과 함께 인간 남자의 모습으로 변해 변방의 마을 소울체이스로 향한 아테온은 늑대들에게 포위된 여사제를 우연히 목격한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 여행의 출발",
+        "summary": "주신 아테온은 현재의 세상을 멸망시키고 새로 창조하려 하고, 반발하는 천사와 수호신들의 성원에 못 이겨 직접 지상으로 내려가 세상을 둘러보기로 결정한다."
+      },
+      {
+        "sectionTitle": "2. 드래곤 길들이기 (1)",
+        "summary": "인간의 육신에 적응하며 산길을 걷던 아테온(테오)과 부엉이로 변한 도미니엘(도니)은 늑대 무리에게 포위당해 위기에 처한 여사제를 발견한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "코믹 무대뽀 판타지"
+      },
+      {
+        "key": "주요 설정",
+        "value": "세상을 리셋하려는 창조주의 지상 여행"
+      }
+    ],
+    "keyEntitiesText": "아테온(테오), 도미니엘(도니), 마니토우, 오비투스, 미카엘, 라파엘",
+    "settingText": "천계 크리스탈 궁전, 메이오드 왕국 소울체이스 산길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kpeu9gQs53FZcKWl1vkjAHgxfNjqr2QX",
+    "filename": "오 마이 갓.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:48.219Z",
+    "size": "1232525",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1kpeu9gQs53FZcKWl1vkjAHgxfNjqr2QX/view?usp=drivesdk",
+    "sourceSha256": "71a57d1a0a750385bdbf7310d9a38da7d8a6122cab66bea04774c3897a50957c",
+    "textSha256": "2ded500e72302fa4b4c2106a3837ca53a70c469fbee3e47efb2a3d51f34849a9",
+    "changeKey": "097fdf27af28c9e20cb21992a91e540f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "90eaa37817019d9dfbc4",
+    "workId": "90eaa37817019d9dfbc4",
+    "driveFileId": "1kpeu9gQs53FZcKWl1vkjAHgxfNjqr2QX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:34:44.050332+00:00",
+    "updatedAt": "2026-09-22T12:34:44.050346+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:34:44.050446+00:00"
+    }
+  }
+}

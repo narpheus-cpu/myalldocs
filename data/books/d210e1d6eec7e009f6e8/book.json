@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동풍",
+    "author": "야설록",
+    "genre": "소설",
+    "tags": [
+      "첩보",
+      "비밀작전",
+      "기억상실",
+      "안기부",
+      "CIA"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "spy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "야설록은 첩보와 액션 요소를 결합한 스릴러 소설을 다수 집필한 작가이다.",
+    "oneLineSummary": "기억을 잃은 채 숲에서 깨어난 최정예 침투조 요원들과 그들을 쫓는 정보기관의 이야기.",
+    "overallSummary": "강원도 정선 지역에서 모의 훈련인 '프로젝트 해모수'를 수행하던 암호명 온달과 평강 요원이 모든 기억을 잃은 채 알몸으로 숲에서 발견된다. 안기부장 정기수와 CIA 지부장 리처드 슐만, 그리고 김소혜 소령은 이들의 실종과 V-2 요원의 위험성을 인지하고 대책을 강구한다. 기억을 잃은 두 남녀는 자신들의 과거와 흔적을 찾아 움직이기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "숲속의 기억 상실",
+        "summary": "알몸으로 숲에서 깨어난 남녀는 자신들이 누구인지, 왜 이곳에 있는지 기억하지 못한 채 극한의 공포를 느낀다."
+      },
+      {
+        "sectionTitle": "안기부와 CIA의 회의",
+        "summary": "안기부장 정기수와 CIA 한국지부장 리처드 슐만, 국방장관이 모여 V-2 요원인 암살조의 실종 사태를 심각하게 논의한다."
+      },
+      {
+        "sectionTitle": "프로젝트 해모수의 진실",
+        "summary": "김소혜 소령은 프로젝트 해모수의 위험성과 대기조의 정체를 밝히며, 이들이 국가지도자를 암살하러 나타날 수 있음을 경고한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "기억상실과 정예 첩보원"
+      },
+      {
+        "key": "분위기",
+        "value": "긴장감 넘치는 첩보 스릴러"
+      }
+    ],
+    "keyEntitiesText": "온달(남주), 평강(여주), 리처드 슐만, 정기수, 김소혜",
+    "settingText": "대한민국 서울 안가, 강원도 정선의 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BP-ZXV5-NpSr9fClMuVkGfEG2fl6xo3S",
+    "filename": "야설록-동풍.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:47.731Z",
+    "size": "609644",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1BP-ZXV5-NpSr9fClMuVkGfEG2fl6xo3S/view?usp=drivesdk",
+    "sourceSha256": "a2884172791783f76baafdc397953b11bd16d2de2776bcf14a56f35488dd6644",
+    "textSha256": "cb83f52879a0e7a58d56622247a877d0d5ebd11fd99308281beac445bc2f9a9c",
+    "changeKey": "02776f8f26f06ca02bb5ba19e9f5ea57",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d210e1d6eec7e009f6e8",
+    "workId": "d210e1d6eec7e009f6e8",
+    "driveFileId": "1BP-ZXV5-NpSr9fClMuVkGfEG2fl6xo3S",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:33:11.102435+00:00",
+    "updatedAt": "2026-09-22T12:33:11.102450+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:33:11.102573+00:00"
+    }
+  }
+}

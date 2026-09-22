@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불꽃처럼 나비처럼",
+    "author": "야설록",
+    "genre": "역사소설",
+    "tags": [
+      "명성황후",
+      "무명",
+      "조선",
+      "역사",
+      "호위무사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "야설록은 역사적 사실을 바탕으로 새로운 시각의 인물 일대기를 그려내는 작가이다.",
+    "oneLineSummary": "혼란의 구한말, 명성황후와 그녀를 지키는 호위무사 무명의 애절한 운명을 그린 소설.",
+    "overallSummary": "1895년 을미사변 당시 경복궁은 일본 낭인들의 난입으로 불타고 있다. 조선의 국모 명성황후를 지키기 위해 홀로 건청궁을 지키는 무명은 늙은 검객이자 인간 백정으로서 살아온 자신의 삶을 되돌아본다. 천주교도 처형장인 새남터에서 목격했던 풍경들과 안동 김씨 집안의 식객 시절을 거쳐, 오직 한 여인이자 국모인 그녀를 향한 일편단심의 애욕과 검의 길을 묵묵히 걸어온 무명의 비극적 일대기가 펼쳐진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "불타는 경복궁의 밤",
+        "summary": "을미사변의 날, 경복궁이 불타는 가운데 무명은 궁궐을 침입한 일본 낭인들을 상대로 혈전을 벌인다."
+      },
+      {
+        "sectionTitle": "무명의 삶과 검의 길",
+        "summary": "새남터의 참수형 현장에서 푸른 족제비를 미행하며 과거 기억과 횡보 스님의 가르침, 그리고 검의 길을 회상한다."
+      },
+      {
+        "sectionTitle": "운명적인 사랑",
+        "summary": "평생 명성황후를 향한 애욕과 헌신을 품고 살아온 무명의 처절하고도 아름다운 순애보가 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "역사 팩션 로맨스"
+      },
+      {
+        "key": "주요 인물",
+        "value": "가상의 호위무사 무명과 역사적 인물 명성황후"
+      }
+    ],
+    "keyEntitiesText": "무명, 명성황후, 횡보 스님, 요오크 후작(원문 참고), 일본 낭인들",
+    "settingText": "구한말 조선, 경복궁, 새남터"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OE1ys0pE-2Aygqf9Xb_WfhRyK7wFI9Px",
+    "filename": "야설록-불꽃처럼 나비처럼.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:47.768Z",
+    "size": "869293",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1OE1ys0pE-2Aygqf9Xb_WfhRyK7wFI9Px/view?usp=drivesdk",
+    "sourceSha256": "da06d904a9288518b2ebb27c2c489916338eee7cf75b27d3ab227f23c3e151a4",
+    "textSha256": "e3454df54ccfa852e92d1fc7472e578b2a8072c0303cf2f7fb4503248553eebc",
+    "changeKey": "e1a3aa0d22eda8763ace722edede6cca",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "911b8ee84eeda927161d",
+    "workId": "911b8ee84eeda927161d",
+    "driveFileId": "1OE1ys0pE-2Aygqf9Xb_WfhRyK7wFI9Px",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:33:25.641184+00:00",
+    "updatedAt": "2026-09-22T12:33:25.641199+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:33:25.641322+00:00"
+    }
+  }
+}

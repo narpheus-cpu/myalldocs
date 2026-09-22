@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에티우",
+    "author": "최홍민",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "환생",
+      "드래곤",
+      "배신",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "최홍민은 탄탄한 설정과 몰입감 있는 전개의 판타지 소설을 집필한 작가이다.",
+    "oneLineSummary": "믿었던 동생의 배신으로 죽음을 맞이한 태자가 드래곤으로 환생하여 겪는 이야기.",
+    "overallSummary": "국가의 정점을 차지하려는 동생 마이티의 배신으로 심장을 찔려 비극적인 죽음을 맞이한 태자. 의식을 차렸을 때 그는 알 속에서 둥둥 떠 있는 자신을 발견하고, 곧 자신이 인간이 아니라 '드래곤'으로 환생했다는 사실을 깨닫는다. 알에서 깨어난 그는 붉은 눈의 실버 드래곤 어머니 실비젠과 주변의 거대한 드래곤들 속에서 좌충우돌하며 드래곤으로의 새로운 삶을 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "01. 환생 (01)",
+        "summary": "동생 마이티의 배신으로 칼에 찔려 죽은 태자는 사후 알 속에서 의식을 되찾고, 탈출을 감행해 알을 깨고 나와 자신이 드래곤이 되었다는 사실에 경악한다."
+      },
+      {
+        "sectionTitle": "01. 환생 (02) & (03)",
+        "summary": "드래곤의 모습에 패닉에 빠진 주인공은 어미 드래곤 실비젠과 조우하고, 공간이동을 통해 다른 드래곤들이 모여 있는 곳으로 이동해 온갖 소음과 호들갑 속에서 헤즐링으로 대우받는다."
+      },
+      {
+        "sectionTitle": "01. 환생 (04)",
+        "summary": "드래곤 로드가 난입하여 헤즐링의 화기를 조절해주고, 정신 없는 난리 속에서 태자였던 그의 정신은 점차 드래곤화되어 적응해 나간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "인간 태자의 드래곤 환생"
+      },
+      {
+        "key": "분위기",
+        "value": "진지한 시작과 유쾌한 환생 과정의 대비"
+      }
+    ],
+    "keyEntitiesText": "주인공(태자/베이비 드래곤), 마이티(동생), 실비젠(어미 드래곤), 드래곤 로드",
+    "settingText": "궁전(과거), 드래곤의 레어 및 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1exj7TZbEUVpuSe6-ZSdkaVuOkMsCN9J1",
+    "filename": "에티우.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:48.029Z",
+    "size": "1180347",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1exj7TZbEUVpuSe6-ZSdkaVuOkMsCN9J1/view?usp=drivesdk",
+    "sourceSha256": "2e8bf45d7cc8fab8aaf7367f392a13c024b9b818be039864b9bc34bf288b0c93",
+    "textSha256": "a714cfd80fc52e5511a73901565fd859beaeff3d8502ff78d75c2ca8fb767ad4",
+    "changeKey": "ec5ed817392dcf177645fff084f93958",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7c492cdc780573ffa7fc",
+    "workId": "7c492cdc780573ffa7fc",
+    "driveFileId": "1exj7TZbEUVpuSe6-ZSdkaVuOkMsCN9J1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:34:21.164645+00:00",
+    "updatedAt": "2026-09-22T12:34:21.164702+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:34:21.164833+00:00"
+    }
+  }
+}

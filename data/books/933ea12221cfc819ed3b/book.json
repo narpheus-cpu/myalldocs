@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서울 피터팬",
+    "author": "야설록",
+    "genre": "소설",
+    "tags": [
+      "오토바이",
+      "질주",
+      "폭주족",
+      "수사",
+      "오혜성"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "action",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "야설록은 속도감 있는 액션과 독창적인 캐릭터를 선보이는 소설가이다.",
+    "oneLineSummary": "오토바이를 타고 서울의 밤과 거리를 질주하는 오혜성과 폭주족들의 미스터리한 사건.",
+    "overallSummary": "하회탈 헬멧을 쓴 폭주족 집단이 은밀한 심판을 내리고, 알몸의 시체들이 발견되는 기이한 사건이 발생한다. 경찰청 소속의 엄지는 새로 산 야마하 오토바이를 타고 사건을 추적한다. 한편, 세계모터그랑프리에서 우승을 차지한 천재 라이더 오혜성(피터팬)이 귀국하고, 이들의 질주와 의문의 살인 사건이 서로 얽히며 서울의 밤을 뜨겁게 달군다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "하회탈 집단의 의식",
+        "summary": "산속 절벽에서 하회탈을 쓴 폭주족 무리가 규율을 어긴 소녀들을 처형하고 시체를 매달아 놓는 사건이 벌어진다."
+      },
+      {
+        "sectionTitle": "엄지의 질주와 수사",
+        "summary": "오토바이를 구입한 경찰 엄지는 난폭운전과 추격전을 벌이며 목매달려 죽은 시체들의 부검 결과를 바탕으로 수사를 시작한다."
+      },
+      {
+        "sectionTitle": "세계챔피언 오혜성의 귀국",
+        "summary": "모터사이클 그랑프리에서 우승한 오혜성이 귀국하여 차가운 태도를 보이고, 오토바이 폭주 집단의 실체가 서서히 드러난다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "모터사이클 레이싱과 폭주족 범죄"
+      },
+      {
+        "key": "분위기",
+        "value": "반항적이고 질주감 넘치는 액션"
+      }
+    ],
+    "keyEntitiesText": "오혜성(피터팬), 엄지, 백두산, 하경, 손병도 반장, 최준일",
+    "settingText": "서울 시내, 올림픽대로, 영종도, 깊은 산속 절벽"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XQ_o5gvbHSYVdYSwzulkyaH5ItDUKPQW",
+    "filename": "야설록-서울 피터팬.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:47.792Z",
+    "size": "123566",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1XQ_o5gvbHSYVdYSwzulkyaH5ItDUKPQW/view?usp=drivesdk",
+    "sourceSha256": "4eed72f75e05165ba2e45147021c18c740f633849554c4465217490a754aa60d",
+    "textSha256": "c50f69db0c2b8ef5aa505ca6c5d1ccf2f786e96d8a1b6f3b1f76ea7aaa7f17fb",
+    "changeKey": "bb4d18cf7a12054ad19d15ca232f34be",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "933ea12221cfc819ed3b",
+    "workId": "933ea12221cfc819ed3b",
+    "driveFileId": "1XQ_o5gvbHSYVdYSwzulkyaH5ItDUKPQW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:33:32.749118+00:00",
+    "updatedAt": "2026-09-22T12:33:32.749133+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:33:32.749256+00:00"
+    }
+  }
+}
