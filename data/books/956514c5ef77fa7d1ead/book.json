@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비밀 결사",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "토미와 터펜스",
+      "첩보",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "adventure",
+        "espionage",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모험과 스릴이 가득한 첩보 스릴러를 선보인 작가.",
+    "oneLineSummary": "루시타니아 호 침몰 당시 비밀 문서를 건네받은 소녀와 토미, 터펜스 콤비의 활약.",
+    "overallSummary": "1915년 루시타니아 호가 침몰하는 혼란 속에서 미국인 소녀는 연합군의 운명을 바꿀 중요한 비밀 문서를 건네받는다. 몇 년이 지난 후 일자리를 구하지 못해 고생하던 토미와 터펜스 콤비는 이 거대한 음모와 비밀 결사의 실체를 파헤치기 위해 뛰어든다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "1915년 루시타니아 호 침몰 직전, 한 남자로부터 연합군의 전세를 바꿀 중요한 문서를 건네받는 미국인 소녀의 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "모험 첩보소설"
+      }
+    ],
+    "keyEntitiesText": "토미 베레스퍼드, 터펜스, 미국인 소녀",
+    "settingText": "대서양 루시타니아 호 및 런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RCdDRk1jlF4lwFPiBL4SVpD2xlNZmpxZ",
+    "filename": "애거서 크리스티-비밀 결사(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.813Z",
+    "size": "601850",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1RCdDRk1jlF4lwFPiBL4SVpD2xlNZmpxZ/view?usp=drivesdk",
+    "sourceSha256": "b1a0f9916d5e8e423c97f9d35930d93b24a3a4d39a99ee049b6fab5483d67e3f",
+    "textSha256": "37c8f61873e7763f98e9446859b65b1bfd77bac18382566c7850077af86f04e2",
+    "changeKey": "9a34876046cb99c5ae041c32509e9c56",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "956514c5ef77fa7d1ead",
+    "workId": "956514c5ef77fa7d1ead",
+    "driveFileId": "1RCdDRk1jlF4lwFPiBL4SVpD2xlNZmpxZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:50:29.607160+00:00",
+    "updatedAt": "2026-09-22T06:50:29.607174+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:50:29.607266+00:00"
+    }
+  }
+}

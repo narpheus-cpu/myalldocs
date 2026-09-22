@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "다섯 마리 아기 돼지",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "에르퀼 푸아로",
+      "과거 사건",
+      "독살",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "치밀한 플롯과 뛰어난 심리 묘사로 유명한 작가.",
+    "oneLineSummary": "16년 전에 독살당한 화가 남편의 살인 누명을 벗기려는 딸의 의뢰를 받은 에르퀼 푸아로의 추리.",
+    "overallSummary": "칼라 레마챈트는 16년 전 아버지를 독살한 죄로 옥사한 어머니 캐롤라인의 결백을 증명하기 위해 에르퀼 푸아로를 찾아온다. 푸아로는 당시 사건에 연루되었던 다섯 명의 용의자를 차례로 만나 그들의 기억을 재구성하며 진실을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "칼라 레마챈트가 에르퀼 푸아로를 찾아와 16년 전 어머니가 유죄 판결을 받았던 독살 사건의 진실을 밝혀 달라고 의뢰한다."
+      },
+      {
+        "sectionTitle": "피고 측 변호사",
+        "summary": "푸아로는 당시 변호를 맡았던 몬태규 디플리치 경을 찾아가 사건 당시의 상황과 증거에 대해 듣는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "조사 방식",
+        "value": "과거 회상 및 5명의 용의자 인터뷰"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 칼라 레마챈트, 캐롤라인 크레일, 에이미어스 크레일, 몬태규 디플리치 경",
+    "settingText": "런던과 과거 16년 전의 시골 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10I2jt-8Vflg1oL1Qzx_dke_vNkfkZ3S_",
+    "filename": "애거서 크리스티-다섯 마리 아기 돼지(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.514Z",
+    "size": "527625",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/10I2jt-8Vflg1oL1Qzx_dke_vNkfkZ3S_/view?usp=drivesdk",
+    "sourceSha256": "6acb17b07cc882bfd163242138584e82d1d170c157906f093f629aaf77add690",
+    "textSha256": "1bc51f79ca62742e004c5e7505c93ae29b6274a225187d7abe0c1b07417d372f",
+    "changeKey": "0938fd14c72455e62d3a0f1a482b366d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8aac71f60ebc78c79343",
+    "workId": "8aac71f60ebc78c79343",
+    "driveFileId": "10I2jt-8Vflg1oL1Qzx_dke_vNkfkZ3S_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:49:05.786236+00:00",
+    "updatedAt": "2026-09-22T06:49:05.786251+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:49:05.786395+00:00"
+    }
+  }
+}

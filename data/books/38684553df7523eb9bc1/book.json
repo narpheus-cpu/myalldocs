@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "리스터데일 미스터리",
+    "author": "애거서 크리스티",
+    "genre": "단편소설집",
+    "tags": [
+      "단편",
+      "미스터리",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "다양한 반전과 흥미로운 단편들로 사랑받는 작가.",
+    "oneLineSummary": "경제적 어려움 속에서 우연히 저렴하게 임대하게 된 저택을 배경으로 벌어지는 신비로운 이야기.",
+    "overallSummary": "생활고에 시달리던 성 빈센트 부인은 우연한 기회로 런던 웨스트민스터에 있는 아름다운 앤 여왕조 양식의 저택을 아주 저렴한 가격에 임대하게 된다. 완벽한 하인들과 고풍스러운 가구가 갖춰진 그 집은 실종된 리스터데일 경의 소유였는데...",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I",
+        "summary": "가난에 허덕이던 성 빈센트 부인과 딸 바바라는 런던의 저택을 매우 싼 값에 임대할 수 있는 광고를 발견하고 체비엇 7번지로 향한다."
+      },
+      {
+        "sectionTitle": "II",
+        "summary": "완벽한 집사 퀜틴과 함께 체비엇 7번지에서의 생활이 시작되고, 가족들은 그곳에 얽힌 리스터데일 경의 실종 미스터리에 대해 이야기한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "단편 미스터리"
+      }
+    ],
+    "keyEntitiesText": "성 빈센트 부인, 바바라, 루퍼트, 퀜틴, 리스터데일 경",
+    "settingText": "런던 체비엇 7번지 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SfWklVnQhbBKpv6-olBBNOQuUKu2nOaG",
+    "filename": "애거서 크리스티-리스터데일 미스터리(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.534Z",
+    "size": "690804",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1SfWklVnQhbBKpv6-olBBNOQuUKu2nOaG/view?usp=drivesdk",
+    "sourceSha256": "1d7444599ae396251cff51f9fc32a5c9cd95bb30b9deca8c24fe5cf3948c438c",
+    "textSha256": "d2484a979ca8d774fe78a081a68adfa81dd3fd04844e3291d99c15cef02275b9",
+    "changeKey": "9d8ec2eda29565f9d7c88ad90089f02f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "38684553df7523eb9bc1",
+    "workId": "38684553df7523eb9bc1",
+    "driveFileId": "1SfWklVnQhbBKpv6-olBBNOQuUKu2nOaG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:49:12.438495+00:00",
+    "updatedAt": "2026-09-22T06:49:12.438508+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:49:12.438598+00:00"
+    }
+  }
+}

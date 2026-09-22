@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마술살인",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "에르퀼 푸아로",
+      "마플 양",
+      "스토니게이츠",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간의 본성과 범죄 심리를 탁월하게 그려낸 추리 작가.",
+    "oneLineSummary": "친구 캐리 루이즈가 걱정된 루스 반 라이독의 부탁으로 마플 양이 스토니게이츠 저택을 방문하는 이야기.",
+    "overallSummary": "루스 반 라이독은 이상주의자 남편과 함께 소년 범죄자 훈련 시설이 있는 스토니게이츠 저택에서 살고 있는 동생 캐리 루이즈를 걱정한다. 그녀는 오랜 친구인 제인 마플 양에게 그곳으로 가서 무슨 일이 있는지 살펴봐 달라고 부탁한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "루스 반 라이독은 마플 양을 만나 자신의 동생 캐리 루이즈가 처한 환경에 대해 불안감을 털어놓으며 스토니게이츠 저택에 가 달라고 설득한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 인물",
+        "value": "마플 양과 루스 반 라이독"
+      }
+    ],
+    "keyEntitiesText": "마플 양, 루스 반 라이독, 캐리 루이즈, 루이스 새러콜드, 스테파니",
+    "settingText": "런던의 고급 호텔과 스토니게이츠 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IfI80cMfdsmrQ9vx7qxBLIFF9HIOoWTQ",
+    "filename": "애거서 크리스티-마술살인(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.558Z",
+    "size": "429863",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1IfI80cMfdsmrQ9vx7qxBLIFF9HIOoWTQ/view?usp=drivesdk",
+    "sourceSha256": "3ece1692a06135f55eb8ed6b9d10b1a54340933328ef9fe2b5e43af36e233791",
+    "textSha256": "f5b87e5eb83410134e8ffc654a604573357843f414194ba052a69fa69f2600d0",
+    "changeKey": "cdd822152972f554d609532ec16ef95a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f26c642d2c86056d0137",
+    "workId": "f26c642d2c86056d0137",
+    "driveFileId": "1IfI80cMfdsmrQ9vx7qxBLIFF9HIOoWTQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:49:19.279761+00:00",
+    "updatedAt": "2026-09-22T06:49:19.279776+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:49:19.279882+00:00"
+    }
+  }
+}

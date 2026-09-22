@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "복수의 여신",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "마플 양",
+      "라피엘",
+      "유언",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "마플 양 시리즈의 후반부 명작을 쓴 추리 작가.",
+    "oneLineSummary": "고인이 된 부유한 사업가 라피엘이 남긴 마지막 수수께끼를 풀어나가는 마플 양의 이야기.",
+    "overallSummary": "신문의 부고란에서 과거 카리브 해에서 만났던 괴짜 백만장자 제이슨 라피엘의 부음을 접한 마플 양. 얼마 후 그녀는 라피엘의 변호사로부터 그가 남긴 수수께끼 같은 유언과 함께 여행을 떠나 달라는 부탁을 받게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "마플 양은 《타임스》 부고란에서 제이슨 라피엘의 이름을 발견하고, 과거 카리브 해에서의 추억을 떠올린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공",
+        "value": "마플 양"
+      }
+    ],
+    "keyEntitiesText": "제인 마플, 제이슨 라피엘, 에스더 월터스, 체리",
+    "settingText": "세인트 메리 미드 마플 양의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Z_Iicr2yYE7hlfOlpCESk1TivWghgDV9",
+    "filename": "애거서 크리스티-복수의 여신(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.712Z",
+    "size": "545057",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1Z_Iicr2yYE7hlfOlpCESk1TivWghgDV9/view?usp=drivesdk",
+    "sourceSha256": "1be637dc61b1fc187ccb04248949c969e864b5e18da1b7966d0e9c1cf929eee4",
+    "textSha256": "8da351e7ce48e6ba5e1ec1e0a0f401d1d9d0fe38b3acdeaa9bd591c45c3c7fb6",
+    "changeKey": "836190177a3607e6b50b2db7b9ba73b7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8223e0a6775b50f58671",
+    "workId": "8223e0a6775b50f58671",
+    "driveFileId": "1Z_Iicr2yYE7hlfOlpCESk1TivWghgDV9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:50:09.386588+00:00",
+    "updatedAt": "2026-09-22T06:50:09.386604+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:50:09.386705+00:00"
+    }
+  }
+}

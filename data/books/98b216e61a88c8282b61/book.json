@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "끝없는 밤",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "미스터리",
+      "저주",
+      "집시의 땅",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "20세기의 그 어떤 작가들보다 많이 팔린 대표적인 추리소설 작가.",
+    "oneLineSummary": "집시의 땅에 세워진 저택을 둘러싸고 벌어지는 기이하고 불길한 사건들을 그린 소설.",
+    "overallSummary": "주인공 마이클은 '집시의 땅'이라 불리는 저주받은 부지에 아름다운 집을 짓고 사랑하는 엘리와 행복한 삶을 꿈꾼다. 그러나 주변의 경고와 불길한 징조들 속에서 예기치 못한 비극적인 사건들이 벌어지기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "마이클은 경매 공고를 통해 '집시의 땅'이라 불리는 타워스 저택을 알게 되고, 리 부인으로부터 저주에 대한 경고를 들으며 미래에 대한 상상을 펼친다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "렌터카 기사로 일하던 마이클은 우연히 본드 가의 고급 화랑에서 묘한 매력을 풍기는 그림을 보게 되고 엄청난 가격에 놀란다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "저주받은 땅, 건축, 미스터리한 만남"
+      }
+    ],
+    "keyEntitiesText": "마이클, 산토닉스, 리 부인, 엘리, 필포트 소령",
+    "settingText": "영국 킹스턴 비숍의 집시의 땅과 타워스 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hc2kckDX9k_8oPngWVb6M1X2scwroz9S",
+    "filename": "애거서 크리스티-끝없는 밤(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.004Z",
+    "size": "424953",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1hc2kckDX9k_8oPngWVb6M1X2scwroz9S/view?usp=drivesdk",
+    "sourceSha256": "01ab467320600e72a1d5f80be6397332fe82bf75c7358cfdafb54f44a00673b1",
+    "textSha256": "bb4ed4af51b3f6ce4824f6a936faf91b45c13cf897fd673b6c920563c8195cf8",
+    "changeKey": "58c91770d81910a8c717ef335ab83cd9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "98b216e61a88c8282b61",
+    "workId": "98b216e61a88c8282b61",
+    "driveFileId": "1hc2kckDX9k_8oPngWVb6M1X2scwroz9S",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:48:49.665225+00:00",
+    "updatedAt": "2026-09-22T06:48:49.665241+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:48:49.665505+00:00"
+    }
+  }
+}

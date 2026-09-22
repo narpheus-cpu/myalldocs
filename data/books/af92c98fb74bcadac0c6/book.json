@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "빅토리 무도회 사건",
+    "author": "애거서 크리스티",
+    "genre": "단편소설집",
+    "tags": [
+      "에르퀼 푸아로",
+      "단편",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "짧지만 강렬한 반전을 선사하는 단편소설의 대가.",
+    "oneLineSummary": "버마 광산 주식과 연관된 중국인의 죽음과 그 뒤에 숨겨진 음모를 밝히는 에르퀼 푸아로.",
+    "overallSummary": "에르퀼 푸아로는 자신의 투자 성공담을 이야기하며 버마 광산 회사 주식을 얻게 된 사연을 풀어놓는다. 광산 지도를 가지고 영국으로 건너온 중국인 우 링이 변사체로 발견되고, 푸아로는 레스터와 피어슨 등 복잡하게 얽힌 인물들을 조사하며 사건의 진실을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사라진 광산",
+        "summary": "푸아로는 헤이스팅스에게 과거 자신이 버마 광산 주식을 보수로 받게 되었던 사건의 전말을 이야기해 준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "푸아로가 과거를 회상하며 들려주는 형식"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 헤이스팅스, 우 링, 피어슨, 찰스 레스터",
+    "settingText": "런던 푸아로의 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zFL1-NSrz-j8LrAaVX5mjjgJuJvApz-N",
+    "filename": "애거서 크리스티-빅토리 무도회 사건(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.858Z",
+    "size": "547620",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1zFL1-NSrz-j8LrAaVX5mjjgJuJvApz-N/view?usp=drivesdk",
+    "sourceSha256": "aeb0211e55b08f27dd53b6bad49b2fa57e807026b7dcff7ee67b3c5d782d6077",
+    "textSha256": "da15af074305cfd4b088fa9c1a96888bcee0cf1d7e1f6e7fe335f82e87ba34bc",
+    "changeKey": "96a8d4c2f22cdd4bf827516dd483e45a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "af92c98fb74bcadac0c6",
+    "workId": "af92c98fb74bcadac0c6",
+    "driveFileId": "1zFL1-NSrz-j8LrAaVX5mjjgJuJvApz-N",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:50:47.001441+00:00",
+    "updatedAt": "2026-09-22T06:50:47.001456+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:50:47.001559+00:00"
+    }
+  }
+}

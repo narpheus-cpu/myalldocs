@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뮤스가의 살인",
+    "author": "애거서 크리스티",
+    "genre": "단편소설집",
+    "tags": [
+      "에르퀼 푸아로",
+      "단편",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "단편에서도 뛰어난 추리력을 선보이는 에르퀼 푸아로의 작가.",
+    "oneLineSummary": "가이 포크스 데이 축제가 벌어지는 밤, 뮤스가에서 발생한 의문의 자살 사건.",
+    "overallSummary": "에르퀼 푸아로와 재프 경감은 축제 분위기로 시끌벅적한 밤거리를 지나다 14번지 뮤스가에서 발생한 젊은 미망인 앨런 부인의 자살 사건 현장을 조사하러 간다. 겉보기에는 완벽한 자살처럼 보이지만 총상을 입은 위치와 손 모양 등에서 타살의 흔적을 발견한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "푸아로와 재프 경감은 축제 밤거리를 걷다가 바슬리 가든스 뮤스가에서 발생한 사건 현장으로 향한다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "푸아로와 재프는 집안을 조사하고 사망자의 친구인 플렌더리스 양을 만나 사건 정황을 듣는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성",
+        "value": "단편 푸아로 시리즈"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 재프 경감, 앨런 부인, 제인 플렌더리스, 피어스 부인",
+    "settingText": "런던 바슬리 가든스 뮤스가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rWyT2UwBc0BOs_5V7Us_w8Hm9ncGTvEJ",
+    "filename": "애거서 크리스티-뮤스가의 살인(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.676Z",
+    "size": "534067",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1rWyT2UwBc0BOs_5V7Us_w8Hm9ncGTvEJ/view?usp=drivesdk",
+    "sourceSha256": "9550d43fddf34d29883a94859e96f5036a939d757ef1a6d243e67d27c571a209",
+    "textSha256": "844ddb19691b2fe156580020ab9535c4c80bb27e89b1226a6271f03e519d40a4",
+    "changeKey": "dfeac5653f9a338b3495e631a2b134b5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3fc8db474902cd8faec8",
+    "workId": "3fc8db474902cd8faec8",
+    "driveFileId": "1rWyT2UwBc0BOs_5V7Us_w8Hm9ncGTvEJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:49:56.037788+00:00",
+    "updatedAt": "2026-09-22T06:49:56.037802+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:49:56.037908+00:00"
+    }
+  }
+}

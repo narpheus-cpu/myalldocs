@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "누명",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "살인 누명",
+      "가족",
+      "캘거리",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "suspense"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간 심리의 깊은 이면을 포착하는 추리소설의 거장.",
+    "oneLineSummary": "살인 누명을 쓰고 감옥에서 죽은 아들의 무죄를 증명하기 위해 찾아온 아서 캘거리의 이야기.",
+    "overallSummary": "양친과 가족들에게 씻을 수 없는 상처를 남긴 살인 사건. 잭 아가일이 유죄 판결을 받고 감옥에서 사망한 지 한참이 지난 후, 아서 캘거리가 나타나 그의 알리바이를 증명하며 가족들을 큰 혼란에 빠뜨린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "아서 캘거리는 오랜 망설임 끝에 강을 건너 독사의 곶이라 불리는 '태양의 곶' 저택에 도착해 아가일 가족을 만난다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "누명, 진실, 가족 간의 비밀"
+      }
+    ],
+    "keyEntitiesText": "아서 캘거리, 레오 아가일, 헤스터 아가일, 잭 아가일",
+    "settingText": "스코틀랜드 호수 근처와 태양의 곶 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hDkroVh2bapMz15evLM8SKln5ytLaL-r",
+    "filename": "애거서 크리스티-누명(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.052Z",
+    "size": "568152",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1hDkroVh2bapMz15evLM8SKln5ytLaL-r/view?usp=drivesdk",
+    "sourceSha256": "d1035a46a87da3eea40d1cdc2cf32110d5e76875da069c3e824f505d6ca39e17",
+    "textSha256": "20b82ef952f1fbbafc3c8d473583a49a543ed81b1710db73daf98fab0f43c2fd",
+    "changeKey": "d278be68251713300f50e3f69c8f5d9b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "65ac11b5f0940523a68b",
+    "workId": "65ac11b5f0940523a68b",
+    "driveFileId": "1hDkroVh2bapMz15evLM8SKln5ytLaL-r",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:49:00.210251+00:00",
+    "updatedAt": "2026-09-22T06:49:00.210265+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:49:00.210428+00:00"
+    }
+  }
+}

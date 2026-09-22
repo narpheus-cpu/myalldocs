@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "빅 포",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "에르퀼 푸아로",
+      "헤이스팅스",
+      "빅 포",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세계적인 범죄 조직과의 대결을 그린 스릴러풍의 푸아로 소설.",
+    "oneLineSummary": "세계 정복을 노리는 거대 범죄 조직 '빅 포'에 맞서는 에르퀼 푸아로와 헤이스팅스의 모험.",
+    "overallSummary": "남미에서 성공을 거두고 런던으로 돌아온 헤이스팅스는 오랜 친구 에르퀼 푸아로를 깜짝 방문한다. 마침 남미로 떠나려던 푸아로는 뜻밖의 방문객을 맞이하고, 세계를 지배하려는 네 명의 천재 범죄 조직 '빅 포'의 음모를 알게 되어 출국을 미루고 수사에 착수한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "뜻밖의 손님",
+        "summary": "아르헨티나에서 돌아온 헤이스팅스는 푸아로를 찾아가고, 남미로 떠나기 직전의 푸아로와 감격적인 재회를 나눈다."
+      },
+      {
+        "sectionTitle": "정신병원에서 온 남자",
+        "summary": "정신병원에서 탈출해 푸아로를 찾아온 의문의 남자가 위협적인 말을 남긴 뒤 사망하고, 푸아로는 출국을 포기하고 사건에 뛰어든다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "전통적 추리를 넘어선 스릴러/모험물 성격"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 헤이스팅스, 리지웨이 선생, 재프 경감",
+    "settingText": "런던 푸아로의 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tHfj53TgwHaWXMvGwlQRh3_lR7tkDesO",
+    "filename": "애거서 크리스티-빅 포(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.839Z",
+    "size": "400403",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1tHfj53TgwHaWXMvGwlQRh3_lR7tkDesO/view?usp=drivesdk",
+    "sourceSha256": "9b6d9ec24969b269aa3a8db562f60a881f568c7260430134d356f6ed54f1b3bf",
+    "textSha256": "d1b520978003475a1501c950a2ba33f2d80f1af71a74beb9322ec1b10fff470e",
+    "changeKey": "93b5eb46a4d7de1a16747eeed9f14624",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "923f832051975eae94ea",
+    "workId": "923f832051975eae94ea",
+    "driveFileId": "1tHfj53TgwHaWXMvGwlQRh3_lR7tkDesO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:50:40.409850+00:00",
+    "updatedAt": "2026-09-22T06:50:40.409865+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:50:40.409972+00:00"
+    }
+  }
+}

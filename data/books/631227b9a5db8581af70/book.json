@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "블루 트레인의 수수께끼",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "블루 트레인",
+      "보석",
+      "에르퀼 푸아로",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "기차 안에서의 밀실 살인 등 독창적인 트릭을 선보인 작가.",
+    "oneLineSummary": "니스행 블루 트레인 안에서 발생한 보석 도난 및 살인 사건을 해결하는 에르퀼 푸아로.",
+    "overallSummary": "파리를 떠나 니스행 블루 트레인 안에서 미국인 백만장자의 딸이자 상속녀인 루스 캐터턴이 살해당하고, 그녀가 지니고 있던 전설적인 보석 '불의 심장'이 사라지는 사건이 발생한다. 우연히 기차에 타고 있던 에르퀼 푸아로가 사건 해결에 나선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "백발의 사나이",
+        "summary": "한 자그마한 남자가 파리의 빈민가를 찾아가 올가 드미로프를 만나고, 보석 거래와 관련된 음모가 암시된다."
+      },
+      {
+        "sectionTitle": "마키스",
+        "summary": "정체를 숨긴 마키스와 골동품 상점 주인 파포폴루스가 만나 사건과 관련된 대화를 나눈다."
+      },
+      {
+        "sectionTitle": "불의 심장",
+        "summary": "루퍼스 반 올딘이 사보이 호텔로 돌아와 비서 나이튼과 함께 편지를 확인하며 앞으로의 일을 준비한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "배경",
+        "value": "기차 여행 중 벌어진 사건"
+      }
+    ],
+    "keyEntitiesText": "에르퀼 푸아로, 루퍼스 반 올딘, 나이튼, 보리스 크라스닌, 파포폴루스",
+    "settingText": "파리 및 블루 트레인 열차 안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15X3b9NY4q3dUBCK5OakR17LXE9EccnWD",
+    "filename": "애거서 크리스티-블루 트레인의 수수께끼(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.769Z",
+    "size": "574605",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/15X3b9NY4q3dUBCK5OakR17LXE9EccnWD/view?usp=drivesdk",
+    "sourceSha256": "63b48f1867189039ae76b593b97024e0b121542907dba79fb9284c410a1063c8",
+    "textSha256": "3b8c0d3fb82577056b273539f39b9b8f90bade110ca202f0b58abb37aab19b6d",
+    "changeKey": "a3eed0d4c19de90f08a5a7d64268e339",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "631227b9a5db8581af70",
+    "workId": "631227b9a5db8581af70",
+    "driveFileId": "15X3b9NY4q3dUBCK5OakR17LXE9EccnWD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:50:22.244722+00:00",
+    "updatedAt": "2026-09-22T06:50:22.244737+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:50:22.244846+00:00"
+    }
+  }
+}

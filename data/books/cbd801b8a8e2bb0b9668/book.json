@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "목적지 불명",
+    "author": "애거서 크리스티",
+    "genre": "추리소설",
+    "tags": [
+      "첩보소설",
+      "실종",
+      "과학자",
+      "황금가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "espionage"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독창적인 미스터리와 스릴 넘치는 첩보소설을 쓴 작가.",
+    "oneLineSummary": "원자력 연구로 명성을 얻은 과학자가 연이어 실종되는 사건을 파헤치는 첩보 미스터리.",
+    "overallSummary": "유능한 과학자들이 행방을 감추는 미스터리한 사건이 발생하고, 정보부는 이 배후를 캐내기 위해 수사에 나선다. 혁신적인 이론을 발견한 과학자 토머스 찰스 베터튼마저 실종되자, 제솝은 그의 아내 올리브를 만나 단서를 찾으려 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "비밀스러운 사무실에서 와턴 대령과 제솝은 과학자들의 연쇄 실종 사건과 베터튼에 관한 보고서를 검토하며 대책을 논의한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "첩보 스릴러"
+      }
+    ],
+    "keyEntitiesText": "와턴 대령, 제솝, 토머스 찰스 베터튼, 올리브 베터튼",
+    "settingText": "런던 정보부 사무실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nMoBC6oidIJVUwz7EIqx7vyh5lRkWf9b",
+    "filename": "애거서 크리스티-목적지 불명(황금가지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:25.658Z",
+    "size": "493873",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)",
+    "webViewLink": "https://drive.google.com/file/d/1nMoBC6oidIJVUwz7EIqx7vyh5lRkWf9b/view?usp=drivesdk",
+    "sourceSha256": "93e42fed3804dd90e4db764d811de40a28fb0711a31ecf5a934d4684dd81b173",
+    "textSha256": "2a3c0a3bcab396077fa96f52abe03a9efb9d3b3ad4ca9290480f454380a3f303",
+    "changeKey": "5a180da1b486a49f6e65c394874c0a56",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cbd801b8a8e2bb0b9668",
+    "workId": "cbd801b8a8e2bb0b9668",
+    "driveFileId": "1nMoBC6oidIJVUwz7EIqx7vyh5lRkWf9b",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:49:49.680892+00:00",
+    "updatedAt": "2026-09-22T06:49:49.680906+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:49:49.681008+00:00"
+    }
+  }
+}
