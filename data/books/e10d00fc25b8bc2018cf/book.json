@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뱀파이어 아르망 1",
+    "author": "앤 라이스",
+    "genre": "판타지/고딕 소설",
+    "tags": [
+      "뱀파이어연대기",
+      "아르망",
+      "마리우스",
+      "레스타",
+      "뉴올리언스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "gothic",
+        "horror"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고딕 판타지 뱀파이어 연대기의 저자이다.",
+    "oneLineSummary": "뉴올리언스의 수녀원에서 잠든 레스타를 뒤로하고 창조주 마리우스와 재회하는 아르망의 이야기.",
+    "overallSummary": "소년의 모습으로 멈춘 뱀파이어 아르망은 레스타가 잠든 수녀원에서 자신의 창조주 마리우스와 만나 과거와 현재에 대해 대화를 나눈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "몸과 피 1",
+        "summary": "아르망의 정체성, 수녀원에서의 레스타 감상, 그리고 계단에서 마리우스와 나누는 대화 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "고딕 탐미주의 뱀파이어 소설"
+      }
+    ],
+    "keyEntitiesText": "아르망, 레스타, 벤지, 시벨, 마리우스",
+    "settingText": "뉴올리언스의 버려진 수녀원 건물"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sxlpt-BYRY9jhxSHdacwLdq6s90WyJ-_",
+    "filename": "앤 라이스-뱀파이어연대기-뱀파이어아르망1(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T01:59:54.000Z",
+    "size": "621128",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1sxlpt-BYRY9jhxSHdacwLdq6s90WyJ-_/view?usp=drivesdk",
+    "sourceSha256": "9ed62b00822809ee1dbb2913149863810edecf2932187054a574d4afcd681454",
+    "textSha256": "1138570e6c28bfb72f22028e31bc4d05afdcee086371c3cfcce3d54c346a906e",
+    "changeKey": "f5374f062c131e82f66e87be0a6d7be6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e10d00fc25b8bc2018cf",
+    "workId": "e10d00fc25b8bc2018cf",
+    "driveFileId": "1sxlpt-BYRY9jhxSHdacwLdq6s90WyJ-_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:51:01.132079+00:00",
+    "updatedAt": "2026-09-22T13:51:01.132093+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:51:01.132198+00:00"
+    }
+  }
+}

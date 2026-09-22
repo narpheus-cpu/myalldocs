@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "꿈꾸는 책들의 도시 1",
+    "author": "발터 뫼르스",
+    "genre": "판타지 소설",
+    "tags": [
+      "차모니아",
+      "부흐하임",
+      "힐데군스트폰미텐메츠",
+      "단첼로트",
+      "문학판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "satire"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "차모니아 세계관을 창조한 독일의 작가 겸 일러스트레이터이다.",
+    "oneLineSummary": "어린 공룡 작가 미텐메츠가 대부시인의 유언과 신비한 원고를 따라 부흐하임으로 여정을 떠나는 이야기.",
+    "overallSummary": "린트부름 요새의 공룡 작가 힐데군스트 폰 미텐메츠는 대부시인 단첼로트의 임종 때 위대한 미발표 원고 이야기를 듣고 그 출처인 꿈꾸는 책들의 도시 부흐하임으로 향한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 단첼로트의 유언장",
+        "summary": "독자에 대한 경고, 부흐하임 도시의 특성 소개, 린트부름 요새에서의 생활과 단첼로트 대부의 죽음 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "문학 패러디 판타지"
+      }
+    ],
+    "keyEntitiesText": "힐데군스트 폰 미텐메츠, 단첼로트 폰 질벤드레히슬러",
+    "settingText": "차모니아 대륙의 린트부름 요새 및 부흐하임 입구"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UXPbSwO9Rh3Oays8MXD1GwkQi6wDOzMI",
+    "filename": "발터 뫼르스-꿈꾸는 책들의 도시 1(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:03:40.000Z",
+    "size": "601048",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1UXPbSwO9Rh3Oays8MXD1GwkQi6wDOzMI/view?usp=drivesdk",
+    "sourceSha256": "d98507d765cc4d025d1313ec58e35560662752f97204237a729171853535cd17",
+    "textSha256": "7202acdb7fb6def4116fffbba3c47f030ef9b7f81d93b5fef53bf4ce39af39c6",
+    "changeKey": "13ade0201e4ee0ec36aa7952425f9100",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "369a1c9de87702edbc21",
+    "workId": "369a1c9de87702edbc21",
+    "driveFileId": "1UXPbSwO9Rh3Oays8MXD1GwkQi6wDOzMI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:46:42.051139+00:00",
+    "updatedAt": "2026-09-22T13:46:42.051156+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:46:42.051310+00:00"
+    }
+  }
+}

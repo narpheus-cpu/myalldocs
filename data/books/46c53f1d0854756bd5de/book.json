@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "꿈꾸는 책들의 도시 2",
+    "author": "발터 뫼르스",
+    "genre": "판타지 소설",
+    "tags": [
+      "차모니아",
+      "부흐링",
+      "오름",
+      "힐데군스트폰미텐메츠",
+      "지하묘지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "satire"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 판타지 작가이다.",
+    "oneLineSummary": "부흐하임 지하묘지에서 부흐링 족을 만난 미텐메츠가 작가 맞히기 의식인 오름에 참여하는 이야기.",
+    "overallSummary": "지하묘지에서 부흐링 족에게 구조된 미텐메츠는 그들의 문화인 '오름' 시 암송 테스트를 통해 작가 이름을 맞히며 그들의 인정을 받는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "오름에 취하기 및 외눈박이들의 음악",
+        "summary": "미텐메츠가 부흐링 족의 전통 의식인 작가 이름 맞히기 놀이에 참여해 지식을 증명하는 내용."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "상상력이 풍부한 문학 판타지"
+      }
+    ],
+    "keyEntitiesText": "힐데군스트 폰 미텐메츠, 골고, 단첼로트, 고피드, 부흐링 족",
+    "settingText": "부흐하임 지하묘지의 가죽 동굴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FFGNIN9FeJzPfymNWG3j4swEQoXBAlh4",
+    "filename": "발터 뫼르스-꿈꾸는 책들의 도시 2(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:06:58.000Z",
+    "size": "667618",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1FFGNIN9FeJzPfymNWG3j4swEQoXBAlh4/view?usp=drivesdk",
+    "sourceSha256": "5d0e8ceff38545b9c08205198b1fce2de2f962c982b29ee78e5059305630fca0",
+    "textSha256": "2a305f6d4cc51846a3a94870aab01a76d1c0cc0cff305c6115d7490d6c817faf",
+    "changeKey": "4df2bb2a058ae0f77b1a396b0e23fb5a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "46c53f1d0854756bd5de",
+    "workId": "46c53f1d0854756bd5de",
+    "driveFileId": "1FFGNIN9FeJzPfymNWG3j4swEQoXBAlh4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:47:03.887953+00:00",
+    "updatedAt": "2026-09-22T13:47:03.887971+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:47:03.888079+00:00"
+    }
+  }
+}

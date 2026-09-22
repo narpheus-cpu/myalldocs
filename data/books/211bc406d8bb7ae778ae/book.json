@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "위쳐3-불의 세례(상)",
+    "author": "안제이 사프콥스키",
+    "genre": "판타지 소설",
+    "tags": [
+      "위쳐",
+      "밀바",
+      "게롤트",
+      "브로킬론",
+      "에트나"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "위쳐 세계관을 만든 작가이다.",
+    "oneLineSummary": "부상당한 위쳐 게롤트를 돕기 위해 소식을 조사하기로 결심하는 명궁 밀바의 이야기.",
+    "overallSummary": "양궁에 뛰어난 밀바는 브로킬론 숲에서 치료받는 게롤트를 만나고, 드라이어드 여왕 에트나의 부탁을 받아 위험을 무릅쓰고 세상의 정보를 수집하기로 마음먹는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장",
+        "summary": "밀바의 사냥 실력과 활 소개, 브로킬론 숲에서의 위쳐 게롤트와의 만남 및 에트나 여왕의 부탁."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "다크 판타지 모험물"
+      }
+    ],
+    "keyEntitiesText": "밀바, 게롤트, 아글라이스, 에트나",
+    "settingText": "브로킬론 드라이어드 숲과 콜 세라이 분지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lwxuazTLZ-rU1NQq6ndp2YQ0Lt_y1lsH",
+    "filename": "안제이 사프콥스키-위쳐3-불의 세례(상)(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:54.889Z",
+    "size": "326983",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1lwxuazTLZ-rU1NQq6ndp2YQ0Lt_y1lsH/view?usp=drivesdk",
+    "sourceSha256": "ae6d727478fd07a414a994f35c0a95701b4d0cafadd95b67e5a205db1dc8899c",
+    "textSha256": "8b62f536b3948054fad61c7a9660c123166413abb90d22363a11410a8884946c",
+    "changeKey": "9f4fae2511c7083c1198b4032bdfb3ce",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "211bc406d8bb7ae778ae",
+    "workId": "211bc406d8bb7ae778ae",
+    "driveFileId": "1lwxuazTLZ-rU1NQq6ndp2YQ0Lt_y1lsH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:48:34.949349+00:00",
+    "updatedAt": "2026-09-22T13:48:34.949364+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:48:34.949463+00:00"
+    }
+  }
+}

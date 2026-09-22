@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뱀파이어 아르망 2",
+    "author": "앤 라이스",
+    "genre": "판타지/고딕 소설",
+    "tags": [
+      "뱀파이어연대기",
+      "아르망",
+      "베니스",
+      "마리우스",
+      "비앙카"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "gothic",
+        "horror"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "뱀파이어 소설의 거장이다.",
+    "oneLineSummary": "르네상스 베니스에서 마리우스의 엄격한 가르침을 받으며 예술과 욕망 사이에서 갈등하는 아르망의 회상.",
+    "overallSummary": "아르망은 마리우스와 함께 베니스로 돌아와 학문과 예술을 배우며, 아름다운 비앙카를 방문하여 인간 세계 속에서 자신을 가꾸는 법을 익힌다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "몸과 피 11-12",
+        "summary": "키예프에서 돌아온 후 마리우스에게 훈육받는 아르망, 그리고 비앙카의 저택을 방문하여 나눈 교류."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "고딕 로맨스 / 뱀파이어 회고록"
+      }
+    ],
+    "keyEntitiesText": "아르망, 마리우스, 비앙카",
+    "settingText": "르네상스 시대 이탈리아 베니스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RUE7ChQmf15S9nz5lYsRdghzwKRdyaAb",
+    "filename": "앤 라이스-뱀파이어연대기-뱀파이어아르망2(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T02:02:24.000Z",
+    "size": "530641",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1RUE7ChQmf15S9nz5lYsRdghzwKRdyaAb/view?usp=drivesdk",
+    "sourceSha256": "2e9c25227405ba63ad3d096b4fa0a483b16c890fc45dfd3413cc880ff925d500",
+    "textSha256": "c379b673e704d74bb2cb06ef0422f18ae4814e4c327e1b757a8d4f4447c5b06d",
+    "changeKey": "a44d6b8da204b253aa21d3785db296c4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4c0160d34502b6e4c200",
+    "workId": "4c0160d34502b6e4c200",
+    "driveFileId": "1RUE7ChQmf15S9nz5lYsRdghzwKRdyaAb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:51:10.296819+00:00",
+    "updatedAt": "2026-09-22T13:51:10.296834+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:51:10.296941+00:00"
+    }
+  }
+}

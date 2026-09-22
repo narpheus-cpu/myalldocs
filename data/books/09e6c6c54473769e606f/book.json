@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "끝없는 이야기",
+    "author": "미하엘 엔데",
+    "genre": "판타지 소설",
+    "tags": [
+      "끝없는이야기",
+      "바스티안",
+      "코레안더",
+      "책",
+      "환상세계"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "ya"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 대표적인 아동 및 청소년 판타지 문학 작가이다.",
+    "oneLineSummary": "괴롭힘을 당하던 소년 바스티안이 신비한 책을 훔쳐 학교 다락방에 숨어 읽기 시작하는 이야기.",
+    "overallSummary": "반 친구들에게 괴롭힘을 당하던 통통한 소년 바스티안 발타자르 북스는 코레안더의 서점에서 '끝없는 이야기'라는 책을 훔쳐 달아나 학교 창고 다락방에서 몰래 읽기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "바스티안이 서점에서 코레안더 씨와 대화한 후 책을 훔쳐 학교 다락방으로 도망쳐 독서를 시작하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "메타픽션적 환상 아동문학"
+      }
+    ],
+    "keyEntitiesText": "바스티안 발타자르 북스, 칼 콘라드 코레안더",
+    "settingText": "비 내리는 도시의 고서점 및 학교 잡동사니 창고 다락방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YnttHaHuAaWq1kFvLJlT07uH1kqsRbMT",
+    "filename": "미하엘 엔데-끝없는 이야기(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T20:40:36.000Z",
+    "size": "931752",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1YnttHaHuAaWq1kFvLJlT07uH1kqsRbMT/view?usp=drivesdk",
+    "sourceSha256": "c8f6c9c911d2c5616cf75cc5d035e95af64710814ab0d7858a0b7f983e4c0ac5",
+    "textSha256": "afa7050e87c07424f57e8c3dabb17627b4d0c98ab8204d0e57a43f6b4fb352be",
+    "changeKey": "038b3e3afc28beb67b9de210a2b78251",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "09e6c6c54473769e606f",
+    "workId": "09e6c6c54473769e606f",
+    "driveFileId": "1YnttHaHuAaWq1kFvLJlT07uH1kqsRbMT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:46:33.786828+00:00",
+    "updatedAt": "2026-09-22T13:46:33.786845+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:46:33.786952+00:00"
+    }
+  }
+}

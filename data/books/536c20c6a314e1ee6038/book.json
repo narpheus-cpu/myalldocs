@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "위쳐1",
+    "author": "안제이 사프콥스키",
+    "genre": "판타지 소설",
+    "tags": [
+      "위쳐",
+      "게롤트",
+      "시리",
+      "단델라이온",
+      "신트라"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "dark_fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "폴란드의 대표적인 다크 판타지 소설가이다.",
+    "oneLineSummary": "전쟁의 참상 속에서 악몽을 꾸는 시리와 그녀를 지키는 위쳐 게롤트, 음유시인 단델라이온의 이야기.",
+    "overallSummary": "신트라 멸망의 트라우마로 악몽을 꾸는 시리를 게롤트가 위로하고, 음유시인 단델라이온은 참나무 아래 모인 군중에게 게롤트와 예니퍼의 전설을 노래한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장",
+        "summary": "시리의 전쟁 악몽과 게롤트의 위로, 그리고 단델라이온의 발라드 연주 및 군중 간의 토론 장면."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "다크 판타지 서사"
+      }
+    ],
+    "keyEntitiesText": "시리, 게롤트, 단델라이온, 래드클리프, 쉘든 스켁스",
+    "settingText": "야영지 밤하늘 밑 및 드루이드의 참나무 블렙베리스 초원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1W81DThDxGlgujQObOwSzcgn0gW_zMNxL",
+    "filename": "안제이 사프콥스키-위쳐1(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:54.830Z",
+    "size": "561834",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1W81DThDxGlgujQObOwSzcgn0gW_zMNxL/view?usp=drivesdk",
+    "sourceSha256": "15df17e64e5270e69ab170c3e9e9069d29c26fe8111f3982bd050f4dd5f96433",
+    "textSha256": "f6dddd574f993ed1788a209211323db9dcc1017f91f70b7344c1cc0644c30e5c",
+    "changeKey": "09bf3088ad15dd1514d6e844d8520395",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "536c20c6a314e1ee6038",
+    "workId": "536c20c6a314e1ee6038",
+    "driveFileId": "1W81DThDxGlgujQObOwSzcgn0gW_zMNxL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:48:12.974245+00:00",
+    "updatedAt": "2026-09-22T13:48:12.974305+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:48:12.974415+00:00"
+    }
+  }
+}

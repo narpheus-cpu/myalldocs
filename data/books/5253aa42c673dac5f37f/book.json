@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "위쳐2-경멸의 시간(상)",
+    "author": "안제이 사프콥스키",
+    "genre": "판타지 소설",
+    "tags": [
+      "위쳐",
+      "아플가트",
+      "시리",
+      "예니퍼",
+      "게롤트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "위쳐 시리즈의 저자이다.",
+    "oneLineSummary": "전쟁의 긴장이 감도는 대륙에서 왕의 소식을 전하는 파발꾼 아플가트와 예니퍼, 시리의 여정.",
+    "overallSummary": "왕의 파발꾼 아플가트는 비밀 전갈을 전달하러 이동하던 중 이상한 예언을 하는 소녀 시리와 예니퍼를 만나고, 길을 막은 만티코어를 위쳐 게롤트가 퇴치했다는 소식을 듣는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장",
+        "summary": "파발꾼 아플가트의 여정과 마구간에서 만난 시리의 예언, 그리고 길을 막은 괴물을 처치한 게롤트 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "다크 판타지 서사 소설"
+      }
+    ],
+    "keyEntitiesText": "아플가트, 폴테스트 왕, 데머번드 왕, 시리, 예니퍼, 게롤트",
+    "settingText": "테메리아 및 엘란더 국경 가도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1q1FxCm7YuZAhOcgGOBRVHbXovPLlOTwJ",
+    "filename": "안제이 사프콥스키-위쳐2-경멸의 시간(상)(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:54.851Z",
+    "size": "268460",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1q1FxCm7YuZAhOcgGOBRVHbXovPLlOTwJ/view?usp=drivesdk",
+    "sourceSha256": "0019f90bc406151a496029580e42b1e00028c0faabcaf44114697b6b4fa2c2cf",
+    "textSha256": "48fe009703fc327e8cf7dfd30f5c67ba31f1720e29f7bbf474a4951a1f82f457",
+    "changeKey": "a6569144f4b55cdf05a0621a6e243e23",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5253aa42c673dac5f37f",
+    "workId": "5253aa42c673dac5f37f",
+    "driveFileId": "1q1FxCm7YuZAhOcgGOBRVHbXovPLlOTwJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:48:20.507539+00:00",
+    "updatedAt": "2026-09-22T13:48:20.507553+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:48:20.507667+00:00"
+    }
+  }
+}

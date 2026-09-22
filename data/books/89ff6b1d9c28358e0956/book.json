@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "북유럽 신화 (1-3권)",
+    "author": "안인희",
+    "genre": "인문/신화",
+    "tags": [
+      "북유럽신화",
+      "에다",
+      "오딘",
+      "이미르",
+      "아우둠라"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일어권 전문 번역가이자 인문학자이다.",
+    "oneLineSummary": "태초의 공무에서 생겨난 거인과 암소, 그리고 신들의 우주 창조 과정을 다룬 북유럽 신화 해설.",
+    "overallSummary": "니플하임의 추위와 무스펠하임의 열기가 만나 태초거인 이미르와 태초암소 아우둠라가 태어나고, 오딘 형제가 이미르를 쓰러뜨려 그 시체로 세상을 창조하는 신화를 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세상의 시작",
+        "summary": "기눙가가프에서의 생명 탄생, 거인 이미르와 신들의 조상 부리의 출생, 신들에 의한 우주 창조 및 해와 달의 운행 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "신화학 교양서"
+      }
+    ],
+    "keyEntitiesText": "이미르, 아우둠라, 부리, 뵈르, 오딘, 베르겔미르, 노트, 다그",
+    "settingText": "태초의 공무 기눙가가프, 니플하임, 무스펠하임"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IePvLC2ChMrh7HEOi662kgBWEuYEG08S",
+    "filename": "안인희-북유럽 신화(1-3권)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T20:08:28.000Z",
+    "size": "1353970",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1IePvLC2ChMrh7HEOi662kgBWEuYEG08S/view?usp=drivesdk",
+    "sourceSha256": "1f56b100be8fa00921e296329e3a477c2f0470f174f18878bcf826c04f7da115",
+    "textSha256": "fb85d0d275227d6df43ef006a7d5924acbb4c5cad0242c1f03718906efaf1afc",
+    "changeKey": "e6d7a87c88ec34dbd9ce7f76ded602cb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "89ff6b1d9c28358e0956",
+    "workId": "89ff6b1d9c28358e0956",
+    "driveFileId": "1IePvLC2ChMrh7HEOi662kgBWEuYEG08S",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:48:05.246616+00:00",
+    "updatedAt": "2026-09-22T13:48:05.246632+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:48:05.246735+00:00"
+    }
+  }
+}

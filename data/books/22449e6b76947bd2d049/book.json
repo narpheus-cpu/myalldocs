@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뱀파이어 레스타 2",
+    "author": "앤 라이스",
+    "genre": "판타지/고딕 소설",
+    "tags": [
+      "뱀파이어연대기",
+      "레스타",
+      "아르망",
+      "가브리엘",
+      "파리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "gothic",
+        "horror"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "뱀파이어 연대기 시리즈의 저자이다.",
+    "oneLineSummary": "18세기 파리 무도회에서 아르망을 만나 대립하고 갈등하는 레스타의 이야기.",
+    "overallSummary": "레스타는 18세기 파리 팔레 루아얄 무도회에서 아름답고 사악한 뱀파이어 아르망을 만나 그와 대립하며 피를 마시는 피비린내 나는 격투를 벌인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제5장 뱀파이어 아르망",
+        "summary": "무도회장에서 만난 아르망과의 유혹과 피의 대립, 그리고 전투 후 그를 살려두는 레스타의 복잡한 감정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "고딕 로맨스 판타지"
+      }
+    ],
+    "keyEntitiesText": "레스타, 아르망, 가브리엘, 니콜라",
+    "settingText": "18세기 프랑스 파리의 팔레 루아얄 및 거리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FRfS3DcTHELNz0EY71sDxfMOKCY0OM_m",
+    "filename": "앤 라이스-뱀파이어연대기-뱀파이어레스타2(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T01:57:00.000Z",
+    "size": "771224",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1FRfS3DcTHELNz0EY71sDxfMOKCY0OM_m/view?usp=drivesdk",
+    "sourceSha256": "334ec4d4e2f8de1bbbcbe2c924a93d2b6b68aaf0747d6dfa4056e091faabc835",
+    "textSha256": "8261ef5ae28b9f81d693247ef955c8ed3de35d4aaaa091b76162b309fa9e44ff",
+    "changeKey": "be8f1b8526644264af4bc62c22c1c7ca",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "22449e6b76947bd2d049",
+    "workId": "22449e6b76947bd2d049",
+    "driveFileId": "1FRfS3DcTHELNz0EY71sDxfMOKCY0OM_m",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:50:43.328494+00:00",
+    "updatedAt": "2026-09-22T13:50:43.328510+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:50:43.328618+00:00"
+    }
+  }
+}
