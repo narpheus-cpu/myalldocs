@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "파이로 매니악 1권",
+    "author": "이우혁",
+    "genre": "소설",
+    "tags": [
+      "파이로매니악",
+      "추리",
+      "폭발물",
+      "스릴러"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "crime_thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대학교 공과대학 기계설계학과 및 동대학원 졸업. 『퇴마록』 작가.",
+    "oneLineSummary": "특수 폭발물을 사용하여 사회적 악을 처단하는 정체불명의 집단 'P.M.'과 이를 쫓는 윤영대 검사의 수사 이야기.",
+    "overallSummary": "특수 폭발물을 이용해 범죄를 저지르고 현장에 거액의 돈을 기부하는 'P.M.'이라는 존재가 사회적 이슈로 떠오른다. 검사 윤영대는 경찰과 군 전문가와 함께 이 사건의 실마리를 풀기 위해 수사에 착수한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 탄생",
+        "summary": "지하 밀실에서 폭발물과 관련된 대화를 나누는 인물들의 모습과 암달러상의 죽음, 그리고 사건을 해결하기 위해 수사본부를 이끄는 윤영대 검사의 활약상을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요소재",
+        "value": "특수 폭발물, 연쇄 범죄"
+      }
+    ],
+    "keyEntitiesText": "윤영대, 김중위, P.M.",
+    "settingText": "서울 및 어딘가의 지하실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-Ybuns69buMuBIrqTfJc0kbVIJvGXT3c",
+    "filename": "이우혁-파이로 매니악.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.537Z",
+    "size": "860199",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "이우혁-퇴마록 등"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/이우혁-퇴마록 등",
+    "webViewLink": "https://drive.google.com/file/d/1-Ybuns69buMuBIrqTfJc0kbVIJvGXT3c/view?usp=drivesdk",
+    "sourceSha256": "348dcaa64be10d65610ef358f4c1477d13b376b77a1c6f238cd2e07a5104e9dc",
+    "textSha256": "5ea10d6ff3da31e5cccbab11e441213a507734cbe7f63ad64f8270af88853522",
+    "changeKey": "2f5e25a402a4b436d009c1020029a4d0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6cbb7df1ea537e4d1b02",
+    "workId": "6cbb7df1ea537e4d1b02",
+    "driveFileId": "1-Ybuns69buMuBIrqTfJc0kbVIJvGXT3c",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:59:06.572356+00:00",
+    "updatedAt": "2026-09-22T07:59:06.572372+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7588,
+      "updatedAt": "2026-09-22T07:59:06.572469+00:00"
+    }
+  }
+}

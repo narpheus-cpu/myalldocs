@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "솔로",
+    "author": "잭 하긴즈",
+    "genre": "소설",
+    "tags": [
+      "잭하긴즈",
+      "솔로",
+      "스릴러",
+      "테러리즘"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "crime_thriller",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1929년 영국 뉴캐슬 태생. 런던 대학교 졸업 후 육군 근무. 『독수리는 날아 내려왔다』로 베스트셀러 작가 등극.",
+    "oneLineSummary": "세계적인 피아니스트이자 수수께끼의 냉혹한 살인청부업자인 존 미카리와, 그에게 딸을 잃은 영국의 군인의 추적극.",
+    "overallSummary": "화려한 명성을 지닌 피아니스트 존 미카리의 이면은 치밀한 암살자 '크레타의 연인'이다. 어느 날 타겟을 제거하고 도주하던 중 실수로 한 소녀를 차로 치어 죽이게 되는데, 그 소녀는 영국 낙하산 연대 에이서 모건 대령의 딸이었다. 복수를 다짐한 모건은 살인마를 뒤쫓는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 제1장",
+        "summary": "맥스 코엔 저택에 숨어들어 그를 암살하고 도주하는 크레타인의 모습과, 도주 중 자전거를 탄 소녀를 치어 숨지게 한 후 태연하게 피아노 연주회 무대에 오르는 존 미카리의 이중생활을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공특징",
+        "value": "천재 피아니스트와 냉혹한 살인마의 이중생활"
+      }
+    ],
+    "keyEntitiesText": "존 미카리, 에이서 모건, 맥스 코엔, 퍼거슨 준장",
+    "settingText": "영국 런던, 그리스 이도라 섬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1drHo5P6ELZ0-5oIqzcpOmj76kqVTrHrn",
+    "filename": "잭 하긴스-솔로.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.740Z",
+    "size": "386488",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1drHo5P6ELZ0-5oIqzcpOmj76kqVTrHrn/view?usp=drivesdk",
+    "sourceSha256": "ac17401e38460ac658aa83aed1018fe53563ed0969faf8bf8723f612b9caab86",
+    "textSha256": "1f68ce882b4b1b5d665780f226014ecaed710d293c82fc7fca1811c2b2840589",
+    "changeKey": "d4cac4383b7cfbe354e8a608c22c3fd3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "076428b2df0b52b81ca7",
+    "workId": "076428b2df0b52b81ca7",
+    "driveFileId": "1drHo5P6ELZ0-5oIqzcpOmj76kqVTrHrn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:00:20.443424+00:00",
+    "updatedAt": "2026-09-22T08:00:20.443440+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8794,
+      "updatedAt": "2026-09-22T08:00:20.443545+00:00"
+    }
+  }
+}

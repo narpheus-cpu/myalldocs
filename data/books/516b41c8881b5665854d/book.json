@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하이드라",
+    "author": "이우혁",
+    "genre": "소설",
+    "tags": [
+      "하이드라",
+      "스릴러",
+      "심리추리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "crime_thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대학교 공과대학 기계설계학과 및 동대학원 졸업. 『퇴마록』 작가.",
+    "oneLineSummary": "평온한 일상을 보내던 여주인공이 남편에 대한 의심과 공포 속에서 점차 심리적 혼란에 빠져드는 이야기.",
+    "overallSummary": "결혼한 지 6개월 된 여주인공은 남편이 자신도 모르게 면도날과 칼을 침실로 가져오고 새를 죽였다는 의심을 품게 된다. 남편의 일기장과 숨겨진 면도칼 무더기를 발견하면서 남편이 이중인격자이거나 자신을 해치려 한다는 극심한 공포에 사로잡힌다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "의심",
+        "summary": "남편이 출근한 후 홀로 남은 아내가 집안에서 발견되는 기이한 물건들과 남편의 행동을 통해 남편을 의심하며 공포에 떠는 심리를 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요심리",
+        "value": "편집증, 심리적 압박, 의심"
+      }
+    ],
+    "keyEntitiesText": "나(주인공 아내), 남편",
+    "settingText": "주인공의 자택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GjH0E3vAtllTfXgPRQi_aQolGIvvEcvZ",
+    "filename": "이우혁-하이드라.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.570Z",
+    "size": "141087",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "이우혁-퇴마록 등"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/이우혁-퇴마록 등",
+    "webViewLink": "https://drive.google.com/file/d/1GjH0E3vAtllTfXgPRQi_aQolGIvvEcvZ/view?usp=drivesdk",
+    "sourceSha256": "7798b33bf74f18af494b1c9b3a264feb6f160b7c569931d3d3e013477aa99ef4",
+    "textSha256": "394945785353a7c40e129b6e667073e271fa600deedf39f8e80cad73fa96f9e6",
+    "changeKey": "25320e6a386be162fa754afbcf1a8015",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "516b41c8881b5665854d",
+    "workId": "516b41c8881b5665854d",
+    "driveFileId": "1GjH0E3vAtllTfXgPRQi_aQolGIvvEcvZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:59:12.921715+00:00",
+    "updatedAt": "2026-09-22T07:59:12.921731+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:59:12.921836+00:00"
+    }
+  }
+}

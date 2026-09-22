@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여자는 한번으로 죽지 않는다",
+    "author": "임춘남",
+    "genre": "소설",
+    "tags": [
+      "임춘남",
+      "추리소설",
+      "제주도",
+      "불륜"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "crime_thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "LUTHER RICE 신학대학원 졸업. 한국추리작가협회 회원. 다수의 장편추리소설 집필.",
+    "oneLineSummary": "제주도 여행에서 우연히 만난 젊은 여인과 중년 사내의 치명적인 사랑, 그리고 이후 불어닥치는 위험한 사건들.",
+    "overallSummary": "기도원 원장인 아내를 둔 김영섭 사장은 제주도 여행 중 우연히 젊고 아름다운 송미림을 만나게 된다. 평소 성적 기능 장애를 겪던 그는 미림과의 만남을 통해 강렬한 본능에 눈뜨고 그녀와 깊은 관계에 빠져들지만, 제주에서 돌아온 직후 미림으로부터 거액을 요구하는 편지를 받게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "여름의 유혹 및 이상한 편지",
+        "summary": "제주의 함덕 해수욕장에서 송미림과 김영섭이 나누는 격정적인 정사와, 서울로 돌아온 후 미림이 보낸 돈을 요구하는 속달 편지로 인해 혼란에 빠지는 김영섭의 심리를 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요갈등",
+        "value": "불륜, 협박, 심리적 압박"
+      }
+    ],
+    "keyEntitiesText": "김영섭, 송미림, 민신혜",
+    "settingText": "제주도, 서울"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "116M4gw5VIxV9bWiEuutjiUPg7BvH64kC",
+    "filename": "임춘남-여자는 한번으로 죽지 않는다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.728Z",
+    "size": "391568",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/116M4gw5VIxV9bWiEuutjiUPg7BvH64kC/view?usp=drivesdk",
+    "sourceSha256": "cde61e1de1bcfef8b7c13b2cc862ac300aa9ceb03c7b262ac4513197195ab388",
+    "textSha256": "ae68eb4357c961c281febdc41589494a537a0666252213f08c96a000fd093257",
+    "changeKey": "4bd6f40c6c098966a635610932f91fdb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b1ea6815e961272c590a",
+    "workId": "b1ea6815e961272c590a",
+    "driveFileId": "116M4gw5VIxV9bWiEuutjiUPg7BvH64kC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:00:06.739124+00:00",
+    "updatedAt": "2026-09-22T08:00:06.739141+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:00:06.739245+00:00"
+    }
+  }
+}

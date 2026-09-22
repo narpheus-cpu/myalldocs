@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마지막 희망을 훔친 남자",
+    "author": "임춘남",
+    "genre": "소설",
+    "tags": [
+      "임춘남",
+      "추리소설",
+      "히로시마",
+      "비극"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "crime_thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "LUTHER RICE 신학대학원 졸업. 한국추리작가협회 이사. 장편추리소설 작가.",
+    "oneLineSummary": "히로시마 원폭 피해자들의 한과 슬픈 역사를 바탕으로 펼쳐지는 비극적이고 잔인한 복수극.",
+    "overallSummary": "한성그룹 한달준 회장이 주말을 맞아 여비서 신미애와 함께 팔당의 별장으로 향하며 일어나는 일들을 그린다. 태평양 전쟁 당시 히로시마 원폭 피해를 입은 한국인들의 뼈아픈 역사와 배신의 세월이 소설의 이면에 깊게 깔려 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "여름날의 비가",
+        "summary": "장마비가 내리는 서울을 벗어나 팔당의 호수와 숲으로 둘러싸인 별장으로 향하는 한달준 회장과 여비서 신미애의 은밀한 관계와 일상이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적배경",
+        "value": "히로시마 원자폭탄 피해자들의 한"
+      }
+    ],
+    "keyEntitiesText": "한달준, 신미애, 최영구",
+    "settingText": "서울, 팔당 별장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fOh7CV78leEHnPorYSjkQcTgStniENhS",
+    "filename": "임춘남-마지막 희망을 훔친남자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.683Z",
+    "size": "446870",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1fOh7CV78leEHnPorYSjkQcTgStniENhS/view?usp=drivesdk",
+    "sourceSha256": "4523f199b946724530ea4eece2fe199603af1c95ad4c9b7e09ee1de2b43a2c4e",
+    "textSha256": "1ac9056e192f94523d5e3a69d16a6c4bb7f6010ab00603c963e585297d0d92a8",
+    "changeKey": "b32ade6f748a8a88a9c04d9aa0c05b8d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "48d60e8939f76c5ea76f",
+    "workId": "48d60e8939f76c5ea76f",
+    "driveFileId": "1fOh7CV78leEHnPorYSjkQcTgStniENhS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:59:53.353001+00:00",
+    "updatedAt": "2026-09-22T07:59:53.353019+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:59:53.353131+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "너여야만 해",
+    "author": "정해연",
+    "genre": "소설",
+    "tags": [
+      "정해연",
+      "스릴러",
+      "방화",
+      "가족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "crime_thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "장르물을 주로 집필하는 스릴러/추리 소설 작가.",
+    "oneLineSummary": "방화 전력이 있는 아들이 연쇄 방화 사건과 살인사건의 용의자로 체포되면서 벌어지는 부모의 절망과 진실 추적.",
+    "overallSummary": "새벽 3시, 땀에 젖어 불안한 얼굴로 귀가한 고등학생 아들 정모를 보며 엄마 수정은 불길한 예감에 사로잡힌다. 아니나 다를까 아침 일찍 경찰들이 찾아와 정모를 살인 및 현존건조물 방화 협의로 체포한다. 정모는 불은 질렀지만 사람은 죽이지 않았다고 절규한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그들 및 김재호",
+        "summary": "새벽에 수상한 모습으로 귀가한 아들 정모가 방화 및 살인 혐의로 경찰에 긴급 체포되고, 과거의 방화 전력과 가족의 불안감이 교차되는 상황을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "방화범, 가족 갈등, 살인 용의자"
+      }
+    ],
+    "keyEntitiesText": "정수정, 정재호, 정모, 민광배, 성윤준",
+    "settingText": "서울 망원동 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WNu3eaL-bZvPa6dYW4eDnzvs853t7d-b",
+    "filename": "정해연-너여야만 해(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:52:14.000Z",
+    "size": "278744",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1WNu3eaL-bZvPa6dYW4eDnzvs853t7d-b/view?usp=drivesdk",
+    "sourceSha256": "5d12d7107c5dfd590965de82876a034a4cbb94fd112424665601e63d2123d105",
+    "textSha256": "3fd7f075727d2f8909feba2b85e251d61a956b9036b939e3a5aeb4194d5e9755",
+    "changeKey": "483336ac33ff0e90a6c7eb85da0847cb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a32a649bdad6a6eaa5f4",
+    "workId": "a32a649bdad6a6eaa5f4",
+    "driveFileId": "1WNu3eaL-bZvPa6dYW4eDnzvs853t7d-b",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:00:39.785356+00:00",
+    "updatedAt": "2026-09-22T08:00:39.785373+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:00:39.785474+00:00"
+    }
+  }
+}

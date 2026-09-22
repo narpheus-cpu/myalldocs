@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "폭군의 아침",
+    "author": "이원두",
+    "genre": "소설",
+    "tags": [
+      "폭군의 아침",
+      "추리소설",
+      "홍수학",
+      "경찰"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "crime_thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "38년 경북 안동 출생. 경향신문 편집부국장 및 내외경제신문 논설위원 역임. 한국추리작가협회 이사.",
+    "oneLineSummary": "컴퓨터 홈즈라 불리는 수사재원 홍수학 총경이 마약 밀매자와 신흥종교의 자금원 등 복잡한 사건들을 추적하는 이야기.",
+    "overallSummary": "사법시험에 합격한 독특한 이력의 수사경찰이자 '컴퓨터 홈즈'로 불리는 홍수학 총경은 마약 밀매자 김강현의 잠입 첩보와 신흥종교의 자금원인 재벌 사모님 관련 보고서를 검토하며 사건의 실마리를 풀어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "홍수학 총경이 인터폴을 통해 접수된 마약 밀매자 추적과 신흥종교의 자금원 조사 등 두 가지 미션을 분석하고 수사를 지휘하는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공특징",
+        "value": "철저한 자료 분석과 추리력을 갖춘 경찰 간부"
+      }
+    ],
+    "keyEntitiesText": "홍수학, 마 경감, 김강현",
+    "settingText": "서울시경 수사관실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1t4TmmtJcKgGCA3oLJCJiTLSXPFulAtE6",
+    "filename": "이원두-폭군의 아침.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.598Z",
+    "size": "381403",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1t4TmmtJcKgGCA3oLJCJiTLSXPFulAtE6/view?usp=drivesdk",
+    "sourceSha256": "596fedad7467220420cd90256be1029e80ad72ec7c8c41a37c59f7bcc98733cb",
+    "textSha256": "9b5876483d168e1f216681bc9c0505b6841ef7f0aa490f81e08c3198dd2e8892",
+    "changeKey": "24a801c58e03cf249a3c794ab897b9ae",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7be08c743d2fe58cd86c",
+    "workId": "7be08c743d2fe58cd86c",
+    "driveFileId": "1t4TmmtJcKgGCA3oLJCJiTLSXPFulAtE6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:59:26.502630+00:00",
+    "updatedAt": "2026-09-22T07:59:26.502650+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:59:26.502755+00:00"
+    }
+  }
+}

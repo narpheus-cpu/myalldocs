@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "흉가",
+    "author": "이종호",
+    "genre": "소설",
+    "tags": [
+      "흉가",
+      "공포",
+      "미스터리",
+      "방송국"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "추리 및 미스터리 소설 작가. 《저주토끼》 등으로 유명한 작가들과 함께 한국 장르문학계에서 활동.",
+    "oneLineSummary": "강원도의 흉가에서 등산객 살인사건을 취재하던 기자가 카메라에 찍힌 기이한 형상과 마주하는 이야기.",
+    "overallSummary": "강원도의 오지 흉가 근처에서 등산객 세 명이 참혹하게 살해당하는 사건이 발생한다. QBS 보도국 김한수 기자는 현장을 취재하여 촬영해 온 테이프에서 사람의 눈에는 보이지 않던 기이한 푸른 빛과 인물 형상이 찍힌 것을 발견하고 공포에 휩싸인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "불길한 취재",
+        "summary": "김한수 기자와 카메라맨이 강원도 오지의 흉가 살인 현장을 찾아가 참혹한 시신을 목격하고, 서울로 돌아와 촬영된 테이프 속의 초자연적 형상을 PD 친구에게 보여주며 경악한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "흉가, 오컬트, 카메라에 찍힌 귀신"
+      }
+    ],
+    "keyEntitiesText": "김한수, 정해일, 이창수, 윤형사",
+    "settingText": "강원도 오지 흉가 및 서울 방송국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eUYjYTiTRaenhWNyDu-mfYA87mV6TTkK",
+    "filename": "이종호-흉가.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.612Z",
+    "size": "244580",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1eUYjYTiTRaenhWNyDu-mfYA87mV6TTkK/view?usp=drivesdk",
+    "sourceSha256": "8c493a05ccd84de3124e952aa9596bda890f02056de97f3b54512cb26bfc7ef8",
+    "textSha256": "25278499686a2e949eac9df2482188f44e455302d1862c95156b936316bfe5d3",
+    "changeKey": "32dc23ae4339bbc837510cc63e3ed677",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a8bebb6688cad8cffcdd",
+    "workId": "a8bebb6688cad8cffcdd",
+    "driveFileId": "1eUYjYTiTRaenhWNyDu-mfYA87mV6TTkK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:59:32.336976+00:00",
+    "updatedAt": "2026-09-22T07:59:32.336994+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:59:32.337106+00:00"
+    }
+  }
+}

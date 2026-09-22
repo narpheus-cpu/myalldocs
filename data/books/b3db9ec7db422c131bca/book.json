@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "깊은 골짜기 깊은 비밀",
+    "author": "임춘남",
+    "genre": "소설",
+    "tags": [
+      "임춘남",
+      "추리소설",
+      "지리산",
+      "비밀"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "crime_thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "LUTHER RICE 신학대학원 졸업. 한국추리작가협회 회원. 다수의 장편추리소설 집필.",
+    "oneLineSummary": "한국전쟁 전후의 비극적인 지리산 중산리를 배경으로 아버지와 소녀의 숨겨진 비밀을 다룬 추리소설.",
+    "overallSummary": "1950년 가을, 한국전쟁의 소용돌이 속에서 소녀 인희는 의사인 아버지를 따라 지리산 남서쪽 자락의 산골 마을 중산리로 잠입한다. 아버지는 입산을 결심하고 인희에게 홀로 하산할 것을 종용하지만, 인희는 아버지 곁에 남겠다고 고집을 피우며 숨겨진 아픔과 마주한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 식물인간",
+        "summary": "전쟁의 비극 속에서 지리산 중산리로 향한 아버지와 딸 인희의 대화, 그리고 수십 년 후 서울에서 발생한 의문의 뺑소니 사고와 식물인간이 된 홍보실장의 이야기가 이어진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "배경",
+        "value": "한국전쟁과 지리산 비극"
+      }
+    ],
+    "keyEntitiesText": "인희, 아버지, 류정현",
+    "settingText": "지리산 중산리, 서울"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15CDrz0RTEs9JpP_zrzpy9J1hNk0jAV4I",
+    "filename": "임춘남-깊은 골짜기 깊은 비밀 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.648Z",
+    "size": "494012",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/15CDrz0RTEs9JpP_zrzpy9J1hNk0jAV4I/view?usp=drivesdk",
+    "sourceSha256": "dd41ca926e9f05610eb2fa68abc6fbeeabb8dbcbf9b89824de2537421dc7767d",
+    "textSha256": "f3006955f3d1c990d3bbbea0f9657bc92aef17d1cef346d5f313708a65defcc7",
+    "changeKey": "3a9729b281d03dffc2d6ffe64c0d4e18",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b3db9ec7db422c131bca",
+    "workId": "b3db9ec7db422c131bca",
+    "driveFileId": "15CDrz0RTEs9JpP_zrzpy9J1hNk0jAV4I",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:59:46.338294+00:00",
+    "updatedAt": "2026-09-22T07:59:46.338311+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:59:46.338417+00:00"
+    }
+  }
+}

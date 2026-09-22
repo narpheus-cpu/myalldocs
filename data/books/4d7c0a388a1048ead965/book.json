@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "M",
+    "author": "이홍구",
+    "genre": "소설",
+    "tags": [
+      "M",
+      "미스터리",
+      "드라마",
+      "예언"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가 이홍구의 장편소설.",
+    "oneLineSummary": "불행을 미리 예언하는 특별한 소녀 박마리와 친구들 앞에 벌어지는 미스터리하고 파란만장한 이야기.",
+    "overallSummary": "발레를 배우는 여학생 박마리는 무용실에서 불길한 사고를 예언하고 그것이 현실화되자 주변을 놀라게 한다. 친구인 은희, 예지와 함께 경찰대학 축제에 몰래 다녀오는 등 청춘의 한 페이지를 즐기지만, 그녀들의 마음속에는 옆집 대학생 지석을 향한 묘한 연정이 자리 잡고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "불행을 예언하는 소녀 및 젊은 날의 축제",
+        "summary": "교통사고를 미리 예견하여 맞힌 박마리의 신기한 능력과, 친구들과 함께 위장하여 경찰대학 축제에 참석해 즐거운 한때를 보내는 여고생들의 이야기가 펼쳐진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요소재",
+        "value": "초능력, 예언, 청춘의 사랑과 우정"
+      }
+    ],
+    "keyEntitiesText": "박마리, 은희, 예지, 지석",
+    "settingText": "학교 무용실, 경찰대학"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-BZ_03XcGC_6HXB8iZ8ciUK-Qoo1-1JX",
+    "filename": "이홍구-M.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.625Z",
+    "size": "616565",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1-BZ_03XcGC_6HXB8iZ8ciUK-Qoo1-1JX/view?usp=drivesdk",
+    "sourceSha256": "d0a5d00711654947e060b99b3f9452f7f5b7baee3d8aabb4749c1694c740f1be",
+    "textSha256": "b588b81be4ece80ffc6b21b596d3a67ce7d9c9cfebaa013e921904c67b7508f8",
+    "changeKey": "968a255649ffbcc8d7b59c76221a92cd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4d7c0a388a1048ead965",
+    "workId": "4d7c0a388a1048ead965",
+    "driveFileId": "1-BZ_03XcGC_6HXB8iZ8ciUK-Qoo1-1JX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:59:39.910056+00:00",
+    "updatedAt": "2026-09-22T07:59:39.910071+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:59:39.910166+00:00"
+    }
+  }
+}

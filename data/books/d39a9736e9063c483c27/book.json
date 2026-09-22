@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "떠도는 섬은 바다를 꿈꾸지 않는다",
+    "author": "정형",
+    "genre": "소설",
+    "tags": [
+      "정형",
+      "페놀오염",
+      "환경",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "crime_thriller",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가 정형의 장편소설.",
+    "oneLineSummary": "대구 페놀 오염 사태를 배경으로 수돗물 악취 제보에서 시작된 기업의 환경 오염 범죄와 은폐 과정을 파헤치는 소설.",
+    "overallSummary": "겨울의 추위가 가시지 않은 대구, 상수도본부 당직실로 수돗물에서 크레졸 같은 이상한 냄새가 난다는 항의 전화가 빗발친다. 성분 검사 결과 다량의 클로로페놀이 검출되면서 식수 비상사태가 선포되고, 경찰은 구미공단의 PCB원단 생산업체인 세진전자를 향해 수사를 확대한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "불행은 예고없이",
+        "summary": "대구시 수돗물에서 심한 악취가 난다는 시민들의 제보 전화가 폭주하고, 관계당국이 성분 검사를 벌인 끝에 페놀 오염 사태가 터지며 구미공단 세진전자에 대한 수사가 시작된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "실화모티브",
+        "value": "낙동강 페놀 오염 사건"
+      }
+    ],
+    "keyEntitiesText": "김 형사, 민세진, 김홍락",
+    "settingText": "대구광역시, 구미공단 세진전자"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QHde0OMUpF7fwTnp6PlVvDPDgDbRC9ER",
+    "filename": "정형-떠도는 섬은 바다를 꿈꾸지 않는다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.755Z",
+    "size": "541979",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1QHde0OMUpF7fwTnp6PlVvDPDgDbRC9ER/view?usp=drivesdk",
+    "sourceSha256": "2393a26e7bdc88a247b4aec9aec57903a08fa0dfa021a41f2f22b72b4a3b0edc",
+    "textSha256": "8442e45a4a82a09d91f3a689af582f807e56235dcbe08fcc46993727e149c2d0",
+    "changeKey": "96c692534b35f426af4ae92858a63f93",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d39a9736e9063c483c27",
+    "workId": "d39a9736e9063c483c27",
+    "driveFileId": "1QHde0OMUpF7fwTnp6PlVvDPDgDbRC9ER",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:00:47.274513+00:00",
+    "updatedAt": "2026-09-22T08:00:47.274530+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:00:47.274623+00:00"
+    }
+  }
+}

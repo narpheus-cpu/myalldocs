@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "퇴마록 세계편 2권",
+    "author": "이우혁",
+    "genre": "소설",
+    "tags": [
+      "퇴마록",
+      "판타지",
+      "오컬트",
+      "미이라"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "occult"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1965년 서울 출생. 서울대학교 공과대학 기계설계학과 및 동대학원 졸업. 1994년 『퇴마록』 발표로 유명한 대중문학 작가.",
+    "oneLineSummary": "박물관에서 미이라와 세크메트의 분노를 막기 위해 사투를 벌이는 퇴마사들의 이야기.",
+    "overallSummary": "가짜 커크 교수로 위장한 이집트 주술사 우샤브티 티의 음모로 미이라가 부활하고 세크메트의 분노가 실현될 위기에 처한다. 현암, 박신부, 준후, 승희 등 일행은 주술을 깨고 미이라를 잠재우기 위해 치열한 전투를 벌인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세크멘트의 분노",
+        "summary": "현암과 승희 등이 주술사인 우샤브티 티를 심문하고, 이 과정에서 미이라가 부활하여 세크메트의 분노를 일으키자 일행이 퇴마진과 화력을 동원해 진압한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심사건",
+        "value": "미이라 부활과 세크메트의 분노 제압"
+      }
+    ],
+    "keyEntitiesText": "현암, 박신부, 준후, 승희, 연희, 우샤브티 티, 백호",
+    "settingText": "박물관 전시실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "189uhL1-y3tEfosUcxYdiQRsCALoL5vUF",
+    "filename": "이우혁-퇴마록 세계편 2권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.485Z",
+    "size": "583809",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "이우혁-퇴마록 등"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/이우혁-퇴마록 등",
+    "webViewLink": "https://drive.google.com/file/d/189uhL1-y3tEfosUcxYdiQRsCALoL5vUF/view?usp=drivesdk",
+    "sourceSha256": "ca5b0e0a5e4aeebb2072488399e6c992b09548cd6acea17124e5ca4307916409",
+    "textSha256": "dcfa6b159d51e7bd05d4a1298bf959db538f792f25565cb02519962c3f1a3e2b",
+    "changeKey": "cd0bd962e8104223092e81e14938647c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c545c2303892e81c1325",
+    "workId": "c545c2303892e81c1325",
+    "driveFileId": "189uhL1-y3tEfosUcxYdiQRsCALoL5vUF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:58:45.131575+00:00",
+    "updatedAt": "2026-09-22T07:58:45.131592+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:58:45.131700+00:00"
+    }
+  }
+}

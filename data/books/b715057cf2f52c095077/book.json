@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그 환자",
+    "author": "재스퍼 드윗",
+    "genre": "소설",
+    "tags": [
+      "그환자",
+      "스릴러",
+      "정신병원",
+      "오컬트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "의학 스릴러 소설을 집필한 작가.",
+    "oneLineSummary": "코네티컷 주의 열악한 주립 정신병원에서 의료진을 미치게 만든 금기된 환자를 치료하려는 젊은 정신과 의사의 이야기.",
+    "overallSummary": "과거 어머니의 조현병으로 정신의학의 이면을 목격한 젊은 정신과 의사 파커는 재정이 열악하고 음산한 코네티컷 주의 주립 정신병원에 자원하여 들어간다. 그곳에는 30년 넘게 진단조차 내리지 못한 채 병원 내의 공포의 대상이자 접근 금지된 환자 '조'가 수용되어 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 파트 1~2",
+        "summary": "주립 정신병원으로 면접을 보러 가는 주인공의 으스스한 여정과, 병원에 수용된 문제적 환자 '조'를 둘러싼 소문, 그리고 기록물 관리실에서 찾아낸 '조'의 충격적인 최초 입원 기록을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "메디컬 스릴러, 심리 공포"
+      }
+    ],
+    "keyEntitiesText": "파커, 조슬린, 네시, 브루스, 조",
+    "settingText": "코네티컷 주립 정신병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qi18phzVBR-_j1cQrs9FPkDGah8QNlLM",
+    "filename": "재스퍼 드윗-그 환자(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:46:48.000Z",
+    "size": "284971",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1qi18phzVBR-_j1cQrs9FPkDGah8QNlLM/view?usp=drivesdk",
+    "sourceSha256": "e4900a9e17ac57b7272b6d5acec44de11d2e803159e9925eadbb5950327c7376",
+    "textSha256": "7011919b12475a335f9e412df03ae306cd30a782b9bfa9f6fd4318da41ae4e72",
+    "changeKey": "348edb6437761572acc0fdde8a9b030a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b715057cf2f52c095077",
+    "workId": "b715057cf2f52c095077",
+    "driveFileId": "1qi18phzVBR-_j1cQrs9FPkDGah8QNlLM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:00:13.693693+00:00",
+    "updatedAt": "2026-09-22T08:00:13.693710+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:00:13.693813+00:00"
+    }
+  }
+}

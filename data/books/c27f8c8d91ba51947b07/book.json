@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "퇴마록 세계편 4권",
+    "author": "이우혁",
+    "genre": "소설",
+    "tags": [
+      "퇴마록",
+      "판타지",
+      "드라큘라",
+      "코제트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "occult"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1965년 서울 출생. 서울대학교 공과대학 기계설계학과 및 동대학원 졸업.",
+    "oneLineSummary": "코제트의 하수인인 난쟁이 그라쉬와 대립하며 그 배후의 음모를 파헤치는 현암의 이야기.",
+    "overallSummary": "현암은 코제트의 명령을 받고 자신을 공격했던 난쟁이 그라쉬를 제압하고 그와 대화를 나눈다. 그라쉬를 통해 드라큘라 성과 연관된 마을의 비극과 흡혈귀로 변해버린 마을 사람들의 사연, 그리고 코제트의 계략이 드러난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "왈라키아의 밤",
+        "summary": "현암이 거인 미르챠와 난쟁이 그라쉬를 상대로 승리한 후 그라쉬와의 대화를 통해 코제트와 마을의 어두운 진실을 알게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등",
+        "value": "현암 대 코제트의 세력"
+      }
+    ],
+    "keyEntitiesText": "현암, 연희, 그라쉬, 미르챠, 코제트",
+    "settingText": "드라큘라 성 및 인근 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rfvQlfauURF9axPk03PQXJHi4bRMF2Rh",
+    "filename": "이우혁-퇴마록 세계편 4권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.521Z",
+    "size": "510000",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "이우혁-퇴마록 등"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/이우혁-퇴마록 등",
+    "webViewLink": "https://drive.google.com/file/d/1rfvQlfauURF9axPk03PQXJHi4bRMF2Rh/view?usp=drivesdk",
+    "sourceSha256": "a10a3662ca37ec17c5334bf280ab3da2a5a3c83222851d77b621961e5b42b770",
+    "textSha256": "ff4f55fe6ea323aaa6d262dcf081af81c761d1927bc46c0a911190cf44758d2f",
+    "changeKey": "a043589d79605a62f244c80c12c5df75",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c27f8c8d91ba51947b07",
+    "workId": "c27f8c8d91ba51947b07",
+    "driveFileId": "1rfvQlfauURF9axPk03PQXJHi4bRMF2Rh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:58:58.193581+00:00",
+    "updatedAt": "2026-09-22T07:58:58.193597+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:58:58.193704+00:00"
+    }
+  }
+}
