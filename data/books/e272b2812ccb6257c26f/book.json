@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "리버티 바",
+    "author": "조르주 심농",
+    "genre": "추리 소설",
+    "tags": [
+      "매그레",
+      "추리",
+      "휴가지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농은 20세기를 대표하는 소설가 중 한 명입니다.",
+    "oneLineSummary": "남프랑스 앙티브에서 발생한 브라운 살인 사건을 해결하기 위해 매그레가 파견됩니다.",
+    "overallSummary": "햇살이 내리쬐는 앙티브의 별장에서 브라운이라는 인물이 살해당하는 사건이 발생하고, 용의자인 두 여자가 체포됩니다. 매그레는 사건의 진실을 파헤치기 위해 별장을 방문합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "매그레는 앙티브에 도착해 부티그 형사의 안내를 받으며 브라운이 살해된 별장을 방문하고 사건의 전말을 듣습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "메그레 시리즈 17"
+      }
+    ],
+    "keyEntitiesText": "매그레 반장, 부티그 형사, 브라운, 지나 마르티니",
+    "settingText": "프랑스 남부 앙티브와 카프 당티브의 별장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MUQvKTVDwV70G_IRYvRrglQJN_mowPZC",
+    "filename": "조르주 심농-메그레시리즈 17 리버티 바(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:57:22.000Z",
+    "size": "296567",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1MUQvKTVDwV70G_IRYvRrglQJN_mowPZC/view?usp=drivesdk",
+    "sourceSha256": "2605dc929e0b1ae8f79b1dfa876c1f64ed859f93e902633e4d87ab09eeb5b109",
+    "textSha256": "3d819212c42ef189b79d6611efa2b876bb29d49fc64e5795bc7ac9bd1f2e05b3",
+    "changeKey": "9f53253ebff753dd56981489e4322487",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e272b2812ccb6257c26f",
+    "workId": "e272b2812ccb6257c26f",
+    "driveFileId": "1MUQvKTVDwV70G_IRYvRrglQJN_mowPZC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:29:07.120936+00:00",
+    "updatedAt": "2026-09-22T08:29:07.120951+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:29:07.121061+00:00"
+    }
+  }
+}

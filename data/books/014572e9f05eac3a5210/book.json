@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "베르주라크의 광인",
+    "author": "조르주 심농",
+    "genre": "추리 소설",
+    "tags": [
+      "매그레",
+      "추리",
+      "프랑스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농은 벨기에 리에주 출신의 20세기 중요 소설가로, 매그레 반장 시리즈를 포함해 수많은 작품을 남겼습니다.",
+    "oneLineSummary": "휴가 차 이동하던 매그레 반장이 열차 안에서 우연히 총격을 당하고 사건에 휘말립니다.",
+    "overallSummary": "파리를 떠나 도르도뉴로 향하던 매그레는 기차 안에서 수상한 사내를 목격하고, 철로변에서 총상을 입습니다. 이후 베르주라크의 병원에서 깨어난 그는 사건의 진실을 파헤치기 위해 현지 경찰 및 관계자들과 대면하게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "매그레는 지인과의 만남을 기대하며 기차에 오르지만, 답답한 침대칸에서 이상한 행동을 하는 사내와 동행하다가 총상을 입고 병원에 실려 갑니다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "병원에서 의식을 차린 매그레는 자신을 찾아온 현지 수사 판사와 검사장 등 관계자들을 맞이하며 본격적인 조사를 준비합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "메그레 시리즈 15"
+      }
+    ],
+    "keyEntitiesText": "매그레 반장, 매그레 부인, 르뒤크, 수사 판사, 검사장, 법의학자",
+    "settingText": "프랑스 파리에서 출발하여 도르도뉴와 베르주라크로 이어지는 기차 안 및 병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LzxhfYYnwamz4kN_oMoCSPJxO2ESP8zj",
+    "filename": "조르주 심농-메그레시리즈 15 베르주라크의 광인(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:55:38.000Z",
+    "size": "256316",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1LzxhfYYnwamz4kN_oMoCSPJxO2ESP8zj/view?usp=drivesdk",
+    "sourceSha256": "d2907d39ca3e893ff58207eaf5cd4ef8874a6f05bf3aad5f1526e3855144e6b0",
+    "textSha256": "fe8c458aac3eaeadb1adf5ffdb43effd65304e8cbf84074187ad26ca73952cfb",
+    "changeKey": "65022e9dc547bf171bfbb897c12617ce",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "014572e9f05eac3a5210",
+    "workId": "014572e9f05eac3a5210",
+    "driveFileId": "1LzxhfYYnwamz4kN_oMoCSPJxO2ESP8zj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:28:53.640717+00:00",
+    "updatedAt": "2026-09-22T08:28:53.640731+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:28:53.640905+00:00"
+    }
+  }
+}

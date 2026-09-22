@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제1호 수문",
+    "author": "조르주 심농",
+    "genre": "추리 소설",
+    "tags": [
+      "매그레",
+      "추리",
+      "수문"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농은 수많은 대중 소설과 본격 문학을 집필한 작가입니다.",
+    "oneLineSummary": "운하의 수문 근처에서 발생한 익사 사건을 매그레가 조사합니다.",
+    "overallSummary": "밤중에 제1호 수문 근처에서 노인이 물에 빠지는 소동이 벌어지고, 이어 진짜 시체가 발견됩니다. 매그레는 현장을 방문하여 사건의 당사자인 에밀 뒤크로를 만나 조사를 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "밤늦은 시각, 수문 근처에서 술에 취한 노인이 물에 빠져 소동을 피우던 중 시체가 발견되는 사건이 일어납니다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "이틀 뒤 현장을 찾은 매그레는 부상을 입고도 하녀와 함께 있는 에밀 뒤크로를 만나 조사를 진행합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "메그레 시리즈 18"
+      }
+    ],
+    "keyEntitiesText": "매그레 반장, 에밀 뒤크로, 가생 노인",
+    "settingText": "프랑스 샤랑통의 제1호 수문 및 운하 주변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TACeHb_fz_8HU4rO2K68JHMw2E9jQrKO",
+    "filename": "조르주 심농-메그레시리즈 18 제1호 수문(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:58:06.000Z",
+    "size": "274398",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1TACeHb_fz_8HU4rO2K68JHMw2E9jQrKO/view?usp=drivesdk",
+    "sourceSha256": "e7e3a8e8d31710df0ae117140ac080c73f69b645e4df084c57f122b4dae0aa92",
+    "textSha256": "57195fad752fd388bff001880d58df496b9a4c5d513b0cf644e97f4f1f42c4e5",
+    "changeKey": "efb92a9cdefe513f017bc8b809f01b06",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b511667c1e4abc0eac3d",
+    "workId": "b511667c1e4abc0eac3d",
+    "driveFileId": "1TACeHb_fz_8HU4rO2K68JHMw2E9jQrKO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:29:13.404180+00:00",
+    "updatedAt": "2026-09-22T08:29:13.404193+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:29:13.404284+00:00"
+    }
+  }
+}

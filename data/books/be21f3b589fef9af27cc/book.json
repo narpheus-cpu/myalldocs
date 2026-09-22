@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "안개의 항구",
+    "author": "조르주 심농",
+    "genre": "추리 소설",
+    "tags": [
+      "매그레",
+      "추리",
+      "항구"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농은 벨기에 리에주 출신의 유명 추리 작가입니다.",
+    "oneLineSummary": "기억을 잃은 채 총상을 입었던 선장이 실종 후 다시 나타나면서 매그레가 수사에 착수합니다.",
+    "overallSummary": "파리 시내에서 발견된 기억 상실의 남자가 항만장 이브 조리스로 밝혀지고, 매그레는 그의 하녀 쥘리와 함께 안개가 자욱한 항구 도시 위스트르앙으로 향합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "매그레는 기억 상실과 머리에 총알 자국이 있는 조리스 선장, 그리고 그의 하녀 쥘리와 함께 기차를 타고 위스트르앙으로 이동합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "메그레 시리즈 16"
+      }
+    ],
+    "keyEntitiesText": "매그레 반장, 이브 조리스, 쥘리 르그랑",
+    "settingText": "프랑스 파리 및 안개가 자욱한 노르망디의 항구 도시 위스트르앙"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1w9ZvmiYLsMbZ4JhLluioJ-x9zkjCoZDp",
+    "filename": "조르주 심농-메그레시리즈 16 안개의 항구(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:56:34.000Z",
+    "size": "349514",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1w9ZvmiYLsMbZ4JhLluioJ-x9zkjCoZDp/view?usp=drivesdk",
+    "sourceSha256": "5aff15bf9229c336fb4d2c1378f36ea1a7c3db16022615aeda97199afa06c453",
+    "textSha256": "0b571206acfb728841884a916a8bac3d810eaf2b6d388a0d475f69d79e50a6e4",
+    "changeKey": "560591d9aef1775999fc550b577e41ae",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "be21f3b589fef9af27cc",
+    "workId": "be21f3b589fef9af27cc",
+    "driveFileId": "1w9ZvmiYLsMbZ4JhLluioJ-x9zkjCoZDp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:29:00.548977+00:00",
+    "updatedAt": "2026-09-22T08:29:00.548990+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:29:00.549079+00:00"
+    }
+  }
+}

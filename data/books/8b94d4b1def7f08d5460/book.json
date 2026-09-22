@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "매그레",
+    "author": "조르주 심농",
+    "genre": "추리 소설",
+    "tags": [
+      "매그레",
+      "추리",
+      "파리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 심농은 인간에 대한 깊은 이해를 담은 추리 소설을 다수 집필했습니다.",
+    "oneLineSummary": "은퇴한 매그레의 조카가 살인 사건에 연루되어 도움을 청하러 찾아옵니다.",
+    "overallSummary": "한밤중에 매그레의 시골집으로 조카 필리프가 찾아와 자신이 연루된 살인 사건을 털어놓습니다. 매그레는 조카를 구하기 위해 다시 파리로 향합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "새벽에 찾아온 조카 필리프는 페피토가 살해된 카바레 사건에 연루되어 체포될 위기에 처했다고 고백하고, 매그레 부부는 그를 데리고 파리로 향합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "메그레 시리즈 19"
+      }
+    ],
+    "keyEntitiesText": "매그레 반장, 매그레 부인, 필리프, 아마디외 반장, 페피토 팔레스트리노",
+    "settingText": "프랑스 시골집 및 파리 퐁텐 가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ijSIBgFTtajFNIk6qgHESiAlI3nmvK2K",
+    "filename": "조르주 심농-메그레시리즈 19 매그레(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:58:52.000Z",
+    "size": "264469",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1ijSIBgFTtajFNIk6qgHESiAlI3nmvK2K/view?usp=drivesdk",
+    "sourceSha256": "9ecfbe1674b9d0c6efe37080322d43d3399e83400b0944b77e82e52943ce03c8",
+    "textSha256": "962cc2d57887905f64d1aa2f6c92ebcfe8c691e7b2a3dcd38341c38710e2d710",
+    "changeKey": "ad4e99d4372d6d00840996cd9e786946",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8b94d4b1def7f08d5460",
+    "workId": "8b94d4b1def7f08d5460",
+    "driveFileId": "1ijSIBgFTtajFNIk6qgHESiAlI3nmvK2K",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:29:21.020814+00:00",
+    "updatedAt": "2026-09-22T08:29:21.020829+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:29:21.020931+00:00"
+    }
+  }
+}

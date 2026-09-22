@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "블랙베리 파이 살인사건",
+    "author": "조앤 플루크",
+    "genre": "코지 미스터리",
+    "tags": [
+      "한나 스웬슨",
+      "베이커리",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "cozy_mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조앤 플루크는 음식과 유머를 가미한 미스터리 소설로 사랑받는 작가입니다.",
+    "oneLineSummary": "결혼식 계획과 신문 기사로 인한 엄마의 소동, 그리고 폭풍 속 이동이 그려집니다.",
+    "overallSummary": "결혼식 계획을 두고 엄마와 갈등을 겪는 가운데, 마을 신문에 스웬슨가와 살인사건을 엮은 장난스러운 기사가 실려 엄마가 크게 분노합니다. 이후 비 오는 날 리사를 데리러 정비소로 향합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "스웬슨가와 살인사건을 풍자한 신문 기사 때문에 엄마가 크게 당황하고 화를 내지만, 쿠키로 겨우 진정시킵니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시리즈",
+        "value": "한나 스웬슨 시리즈 017"
+      }
+    ],
+    "keyEntitiesText": "한나 스웬슨, 딜로어 스웬슨, 안드레아 토드, 미셸 스웬슨, 리사 허먼",
+    "settingText": "미네소타주 레이크 에덴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yFMT6lRKl4-7SvQYVEPutjAvmfLREIB1",
+    "filename": "애거서 크리스티-애크로이드 살인 사건.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:24.681Z",
+    "size": "384610",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "애거서 크리스티(황금가지)",
+      "애거서 크리스티 기타"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/애거서 크리스티(황금가지)/애거서 크리스티 기타",
+    "webViewLink": "https://drive.google.com/file/d/1yFMT6lRKl4-7SvQYVEPutjAvmfLREIB1/view?usp=drivesdk",
+    "sourceSha256": "79fe28fbfc201781522de5bf0d54af629e24b5a1353f949b62c3dfcd05b51e00",
+    "textSha256": "374bbfa08fafb1b71b5b50057f81367854dd73e4a7d1ba606a8a731c0f8f2ca8",
+    "changeKey": "9ca17d646d0253fc350dc0c29fbef7ae",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "17ac3d6c909095d0e8a3",
+    "workId": "17ac3d6c909095d0e8a3",
+    "driveFileId": "1yFMT6lRKl4-7SvQYVEPutjAvmfLREIB1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:29:47.543250+00:00",
+    "updatedAt": "2026-09-22T08:29:47.543266+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3879,
+      "updatedAt": "2026-09-22T08:29:47.543372+00:00"
+    }
+  }
+}
