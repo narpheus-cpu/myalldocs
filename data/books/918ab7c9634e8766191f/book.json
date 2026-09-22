@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "좋은 문장 나쁜 문장",
+    "author": "송준호",
+    "genre": "문학/언어",
+    "tags": [
+      "글쓰기",
+      "문장",
+      "맞춤법",
+      "표준어",
+      "문장 교육"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "우석대학교 문예창작학과 교수. 소설가.",
+    "oneLineSummary": "올바른 문장 구사를 위한 맞춤법, 표준어, 문장 구조의 기초 지침서.",
+    "overallSummary": "글쓰기의 중요성을 강조하며, 일상에서 흔히 범하는 맞춤법, 띄어쓰기, 비문 등의 오류를 지적하고 올바른 문장 작성법을 제시한다. 단어 선택의 정확성부터 문장 성분의 조화까지, 좋은 문장을 쓰기 위한 실질적인 조언을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "정확한 단어 정확한 문장",
+        "summary": "맞춤법과 표준어 규정에 맞는 단어 선택의 중요성을 다룬다."
+      },
+      {
+        "sectionTitle": "첫말과 끝말의 조홧속",
+        "summary": "주어와 서술어의 호응 등 문장 구조의 올바른 구성법을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 지침",
+        "value": "많이 읽고 자주 쓰는 습관, 정확한 맞춤법 준수."
+      }
+    ],
+    "keyEntitiesText": "송준호",
+    "settingText": "현대 한국어 글쓰기 환경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13JWb6UJHsIg5tQgTET2Jt7cpLRKUB60G",
+    "filename": "살림지식총서-좋은 문장 나쁜 문장(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:17:14.000Z",
+    "size": "162749",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/13JWb6UJHsIg5tQgTET2Jt7cpLRKUB60G/view?usp=drivesdk",
+    "sourceSha256": "7f11c9a16ccd3c01569937b50a8d13723bf837fd3fa25c1ab30c028a39ab50c1",
+    "textSha256": "62166793bedcdbea598d19e388fca9be76482f61f6432d0014246f40b8ba7dc2",
+    "changeKey": "8bd95b61b43cf43faad40414a0470cf7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "918ab7c9634e8766191f",
+    "workId": "918ab7c9634e8766191f",
+    "driveFileId": "13JWb6UJHsIg5tQgTET2Jt7cpLRKUB60G",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:59:47.355978+00:00",
+    "updatedAt": "2026-09-22T19:59:47.355989+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:59:47.356086+00:00"
+    }
+  }
+}

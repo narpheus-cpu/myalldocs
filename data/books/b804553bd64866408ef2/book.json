@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "역사 속의 채식인",
+    "author": "이광조",
+    "genre": "역사/문화",
+    "tags": [
+      "채식",
+      "채식주의",
+      "역사",
+      "피타고라스",
+      "석가모니"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대학교 식품영양학과 대학원 재학 중. 푸른생명한국채식연합 공동대표.",
+    "oneLineSummary": "역사 속 주요 인물들의 채식 철학을 통해 채식의 의미와 가치를 재조명하는 책.",
+    "overallSummary": "채식의 역사적 기원과 의미를 탐구하며, 피타고라스, 석가모니 등 역사적으로 채식을 실천했던 인물들의 철학을 소개한다. '채식주의자'라는 용어의 한계를 지적하고 '채식인'이라는 새로운 관점을 제시하며, 채식이 단순한 식습관을 넘어 생명 존중과 철학적 실천임을 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "채식정명-왜 '채식주의자'가 문제인가",
+        "summary": "채식주의라는 용어의 어원과 한계, 그리고 '채식인'이라는 새로운 지칭의 필요성을 논한다."
+      },
+      {
+        "sectionTitle": "석가모니-산 풀도 밟지 않는 것이거늘",
+        "summary": "불교 사상에서의 살생 금지와 채식의 관계를 설명한다."
+      },
+      {
+        "sectionTitle": "피타고라스-내면의 언어는 사람과 동물이 같다",
+        "summary": "서구 채식의 뿌리인 피타고라스의 철학과 형제단에서의 채식 실천을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주장",
+        "value": "채식은 단순한 식단이 아닌 생명 존중의 철학적 실천이다."
+      }
+    ],
+    "keyEntitiesText": "이광조, 피타고라스, 석가모니, 도널드 왓슨",
+    "settingText": "고대 그리스부터 현대에 이르는 채식의 역사."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YcXylERE8xKLIxfUXHwgoyJxG1MywSmI",
+    "filename": "살림지식총서-역사 속의 채식인(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:09:22.000Z",
+    "size": "134576",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1YcXylERE8xKLIxfUXHwgoyJxG1MywSmI/view?usp=drivesdk",
+    "sourceSha256": "f9ac4c16203461cc38a8f3a98b26c5f2a25edd73282b552db46a604a98da7050",
+    "textSha256": "6299d8d658a268ee4bbcab695f672e8e89f2b402b2058cbd523d094abe2043de",
+    "changeKey": "1e710409702ad42a4d55cce3cb9b8900",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b804553bd64866408ef2",
+    "workId": "b804553bd64866408ef2",
+    "driveFileId": "1YcXylERE8xKLIxfUXHwgoyJxG1MywSmI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:58:50.800605+00:00",
+    "updatedAt": "2026-09-22T19:58:50.800613+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:58:50.800699+00:00"
+    }
+  }
+}

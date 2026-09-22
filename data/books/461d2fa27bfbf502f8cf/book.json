@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유럽왕실의 탄생",
+    "author": "김현수",
+    "genre": "역사",
+    "tags": [
+      "유럽왕실",
+      "영국왕실",
+      "프랑크 왕국",
+      "정통성",
+      "봉건제"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "단국대학교 역사학과 교수. 영국사 전공.",
+    "oneLineSummary": "유럽 왕실의 기원과 정통성, 그리고 영국 왕실의 탄생 과정을 역사적으로 추적한 책.",
+    "overallSummary": "유럽 왕실의 탄생 시기와 정통성의 근거를 탐구한다. 프랑크 왕국을 모체로 하여 봉건제와 가톨릭 중심의 정통성이 어떻게 형성되었는지 설명하고, 1066년 노르망디 윌리엄의 정복을 기점으로 하는 영국 왕실의 탄생과 그 역사적 의미를 분석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "영국왕실의 뿌리 찾기",
+        "summary": "영국 왕실의 기원에 대한 학계의 보편적 견해와 정통성 문제를 제기한다."
+      },
+      {
+        "sectionTitle": "유럽왕실 탄생의 개괄",
+        "summary": "프랑크 왕국과 카롤링거 왕조를 중심으로 유럽 왕실의 성립 배경과 봉건제도를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 분석",
+        "value": "왕실 정통성의 근거로서의 봉건제와 로만가톨릭의 역할."
+      }
+    ],
+    "keyEntitiesText": "김현수, 윌리엄 1세, 클로비스, 샤를마뉴, 피핀",
+    "settingText": "중세 유럽."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11lE1KSoPCwKnFEOkJMy1z3KOB039gsWI",
+    "filename": "살림지식총서-유럽왕실의 탄생(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:12:44.000Z",
+    "size": "150357",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/11lE1KSoPCwKnFEOkJMy1z3KOB039gsWI/view?usp=drivesdk",
+    "sourceSha256": "0ee3175165a5be29b86a885ddf07b2282b478fec5cefe9f949948b86587bc439",
+    "textSha256": "93855f11e819d2d097277b55a28f3efb86d0d0aa3ea055f06f911d84447aa013",
+    "changeKey": "dc412df4854679f18aa48cf583af095f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "461d2fa27bfbf502f8cf",
+    "workId": "461d2fa27bfbf502f8cf",
+    "driveFileId": "11lE1KSoPCwKnFEOkJMy1z3KOB039gsWI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:59:19.030259+00:00",
+    "updatedAt": "2026-09-22T19:59:19.030275+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:59:19.030385+00:00"
+    }
+  }
+}
