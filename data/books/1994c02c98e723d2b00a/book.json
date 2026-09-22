@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아요기",
+    "author": "미상",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "아요기",
+      "요리무협",
+      "성장무협"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "요리무협",
+        "성장무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보가 텍스트에 명시되어 있지 않다.",
+    "oneLineSummary": "어려서부터 할아버지에게 요리를 배워 완벽한 솜씨를 갖춘 소년 소진이 무당파의 속가제자로 입산하여 주방에서 일하게 되는 이야기이다.",
+    "overallSummary": "열여섯 살 소년 소진은 오랜 세월 요리를 가르쳐준 할아버지 소진명에게 돼지고기 소채볶음과 소면 요리를 대접하고, 마침내 트집을 잡을 수 없다는 극찬을 받아낸다. 과거 황실 수석 주방장이었던 할아버지의 과거 사연을 뒤로한 채, 소진은 무당파로 향해 장문인 진허도장과 사부 진류도장을 만나 속가제자 '무진'으로 입문한다. 무당파의 청죽원 주방에 배치된 그는 놀라운 칼질 솜씨로 주방장 왕평과 동료들을 경악시키며 요리사로서의 새로운 생활을 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아침 요리와 할아버지의 인정",
+        "summary": "소진은 1년간 갈고닦은 실력으로 만든 돼지고기 소채볶음과 소면을 할아버지 소진명에게 선보이고, 할아버지로부터 드디어 트집 잡을 곳 없는 훌륭한 요리라는 극찬을 이끌어낸다."
+      },
+      {
+        "sectionTitle": "무당파 입산과 주방 생활",
+        "summary": "할아버지의 과거 이야기를 들은 소진은 무당파로 가서 진류도장의 속가제자 '무진'으로 입문한다. 청죽원 주방에 배정된 그는 놀라운 감자 깎기 칼질 솜씨를 보여주며 장이와 왕평 주방장을 경악시킨다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "요리 성장 무협"
+      },
+      {
+        "key": "protagonistTalent",
+        "value": "어린 나이에도 고수급의 경지에 오른 뛰어난 요리 솜씨"
+      }
+    ],
+    "keyEntitiesText": "소진(무진), 소진명, 진허도장, 진류도장, 왕평, 장이, 고대호",
+    "settingText": "소진의 집 주방, 무당파 자소궁과 청죽원 주방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_4CGkaUoiXMTjJUsbmuCIZL-r9iWo6PE",
+    "filename": "아요기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.767Z",
+    "size": "1174847",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1_4CGkaUoiXMTjJUsbmuCIZL-r9iWo6PE/view?usp=drivesdk",
+    "sourceSha256": "0e7f811d3513db01a861b50d21398e30a1110fede300326744a86fc2e0b497c8",
+    "textSha256": "379664f0a0c35b73364e2962c716eda8dc31579e160b81dbda0cfece970ca3d2",
+    "changeKey": "3606e1bdf69c7b48e9014093e95fc413",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1994c02c98e723d2b00a",
+    "workId": "1994c02c98e723d2b00a",
+    "driveFileId": "1_4CGkaUoiXMTjJUsbmuCIZL-r9iWo6PE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:49:18.050178+00:00",
+    "updatedAt": "2026-09-22T15:49:18.050197+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:49:18.050292+00:00"
+    }
+  }
+}

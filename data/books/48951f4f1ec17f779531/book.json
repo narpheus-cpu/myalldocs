@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "십교종사 제1권",
+    "author": "미상",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "십교종사",
+      "정통무협"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보가 텍스트에 명시되어 있지 않다.",
+    "oneLineSummary": "신강성의 오지에 위치한 금마서림에서 천문서생 옥빈영과 귀재 소년 옥천 부자의 평화로운 일상을 그린 이야기이다.",
+    "overallSummary": "중원의 아홉 개 대서고인 '구대창천(구대서고)' 중 하나이자 가장 많은 서책을 비장한 신강성의 금마서림. 이곳에는 과거 천문삼태성으로 불렸던 대학자 천문서생 옥빈영이 거주하고 있다. 다가오는 폭우 속에서 옥빈영은 서책을 실은 마차의 도착을 기다리고, 그의 아들이자 영물인 혈마옥(홍옥)을 다루는 남다른 기재를 지닌 소년 옥천기가 등장하여 부자 간의 대화를 나눈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서(序). 문(文)의 아홉 개 하늘",
+        "summary": "역사 속에서 만들어진 모든 서책을 비장하고 있는 중원의 아홉 개 대서고인 '구대서고(황실대서고, 만고대서루, 금마서림 등)'의 신비와 그곳을 주유하는 소년의 이야기를 예고한다."
+      },
+      {
+        "sectionTitle": "제1장 밀림(密林) 속의 소년(少年)",
+        "summary": "신강성 오지의 금마서림 앞에서 천문서생 옥빈영이 서책을 실은 마차를 기다린다. 나무 위에는 영물인 혈마옥을 기르는 옥빈영의 천재적인 아들 옥천기가 머물고 있으며, 마침내 서천축의 자단목장경을 실은 마차가 도착한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "uniqueSetting",
+        "value": "무공 중심이 아닌 '서책과 문학'의 구대서고를 배경으로 한 독특한 설정"
+      },
+      {
+        "key": "protagonistTrait",
+        "value": "어려서부터 방대한 서책을 독파하고 영물을 다루는 천재 소년 옥천기"
+      }
+    ],
+    "keyEntitiesText": "옥빈영(천문서생), 옥천기, 사마웅풍, 홍옥(혈마옥), 황의노인",
+    "settingText": "신강성 신격탑리목분지의 금마서림과 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ODwhvxXaCDadN5GDxwJWKCciVLPao74b",
+    "filename": "십교종사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.694Z",
+    "size": "786297",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1ODwhvxXaCDadN5GDxwJWKCciVLPao74b/view?usp=drivesdk",
+    "sourceSha256": "dfbc43d557975555b67c2c5cea0e47764cec1785c7f39ec270003c2fc9029c9b",
+    "textSha256": "f484512ba1e3764c247e8e1a629611fe6b95906ffa93e39ec13c72e04c6a8632",
+    "changeKey": "cc2fe483d29e86721e24ae44d631c5c1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "48951f4f1ec17f779531",
+    "workId": "48951f4f1ec17f779531",
+    "driveFileId": "1ODwhvxXaCDadN5GDxwJWKCciVLPao74b",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:49:02.893801+00:00",
+    "updatedAt": "2026-09-22T15:49:02.893819+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5964,
+      "updatedAt": "2026-09-22T15:49:02.893915+00:00"
+    }
+  }
+}

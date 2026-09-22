@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅군림지 제1권",
+    "author": "금강, 해천인",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "금강",
+      "해천인",
+      "영웅군림지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금강과 해천인 두 작가가 공동으로 창작한 무협 소설이다.",
+    "oneLineSummary": "망혼흑옥의 두려움과 사천교의 멸망, 그리고 천하제일거부 석대헌의 아들이자 악동인 석송령의 이야기를 그린 서막이다.",
+    "overallSummary": "무림에 평화가 찾아온 듯했으나 사천교가 홀연히 일어나 구파일방을 위협한다. 전대 장문인들로 구성된 '정문십기'가 나타나 사천교를 일거에 절멸시키지만, 얼마 뒤 정문십기가 의문의 실종을 당하는 충격적인 사건이 벌어진다. 세월이 흘러 낙양의 만금전장 거부 석대헌은 천년화리의 정혈을 구해 아들 석송령에게 먹이려 하지만, 천하무쌍의 악동인 석송령은 이를 마다하며 엉뚱한 꿍꿍이를 꾸민다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인언 및 서이 (정문십기와 음모)",
+        "summary": "작가 금강이 해천인과의 합작 사연을 전하고, 무림에 공포를 안겼던 망혼흑옥과 사천교의 등장, 그리고 이들을 멸한 '정문십기'가 의문의 회동 후 실종된 미스터리한 과거를 다룬다."
+      },
+      {
+        "sectionTitle": "제 1 장 천하무쌍(天下無雙)의 악동(惡童)",
+        "summary": "낙양 만금전장의 거부 석대헌은 병약한 아들 석송령에게 천년화리의 정혈을 먹이려 한다. 하지만 천하무쌍의 말썽꾼이자 천재인 석송령은 비린 영약을 마다하며 또다시 골치 아픈 장난을 꾸밀 궁리를 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "plotStructure",
+        "value": "거대한 과거 무림의 미스터리(정문십기 실종)와 주인공 악동의 일상이 교차되는 서사"
+      },
+      {
+        "key": "protagonistPersona",
+        "value": "천재적인 재능을 가졌으나 낙양 전체를 골치 아프게 하는 천하무쌍의 악동 석송령"
+      }
+    ],
+    "keyEntitiesText": "광혜상인, 태허자, 종대선생, 심월상인, 석대헌, 석송령",
+    "settingText": "마천애 단애, 낙양 만금전장의 천부각"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WGIBA88c669Ww4r4ePAtCncrFLZsCnC5",
+    "filename": "영웅군림지(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.852Z",
+    "size": "705234",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1WGIBA88c669Ww4r4ePAtCncrFLZsCnC5/view?usp=drivesdk",
+    "sourceSha256": "12d537a666383ebc970b23cb8f8c2a850291eec5b9dabe60715d7c6bb422e982",
+    "textSha256": "10ce8f39170684b77cf1e9e10df2a028a5fef3884f55dbcd8d384b730e8e1994",
+    "changeKey": "33506cefa7bab8d7fe18021a448421bc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "75604a4b6ae9385a7398",
+    "workId": "75604a4b6ae9385a7398",
+    "driveFileId": "1WGIBA88c669Ww4r4ePAtCncrFLZsCnC5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:49:43.831286+00:00",
+    "updatedAt": "2026-09-22T15:49:43.831303+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5467,
+      "updatedAt": "2026-09-22T15:49:43.831396+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "수심결 제1권",
+    "author": "권천",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "권천",
+      "뫼",
+      "수심결"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권천은 무협 소설 <수심결>을 집필한 작가이다.",
+    "oneLineSummary": "천산의 동굴에서 홀로 자라나 바깥세상으로 하산하는 한 소년의 여정을 그린 이야기이다.",
+    "overallSummary": "일곱 살의 나이에 천산의 동굴 속에 홀로 남겨진 소년은 목노라는 늙은이의 죽음 이후 생존을 위해 시체의 구더기까지 먹으며 처절하게 살아남는다. 십오 년이 지난 후, 사냥꾼의 모습을 목격하고 세상에 대한 갈망을 품게 된 그는 동굴을 떠나기로 결심한다. 봄비가 내리는 험준한 천산의 길을 내려와 모래 벌판에 이르른 그는 마침내 낙타를 탄 중년의 사상을 만나며 세상과의 첫 조우를 하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "序. 일곱 살 때",
+        "summary": "일곱 살에 천산 동굴에 홀로 남겨진 소년이 목노의 시체에서 썩어 생겨난 구더기를 먹으며 처절하게 생존을 이어갔던 과거의 기억을 회상한다."
+      },
+      {
+        "sectionTitle": "第一回. 하산(下山)",
+        "summary": "십오 년 동안 산속에서 짐승처럼 살아온 소년이 세상에 대한 호기심과 사람을 만나고 싶은 갈망으로 천산을 내려온다. 거친 비바람을 뚫고 모래 벌판에 도달한 그는 낙타를 탄 상인과 마주치게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "protagonistNature",
+        "value": "야생에서 자라 동물적 감각을 지녔으나 인간의 말을 겨우 구사하는 소년"
+      },
+      {
+        "key": "mood",
+        "value": "고독하고 원시적인 생존의 분위기"
+      }
+    ],
+    "keyEntitiesText": "소년(주인공), 목노, 사냥꾼, 중년 상인(낙타 탄 이)",
+    "settingText": "만년설이 덮인 천산(天山)의 동굴과 기슭, 모래 벌판"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rQ88qD5cI_062nUw422FdxPnDI33kvzi",
+    "filename": "수심결(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.513Z",
+    "size": "865123",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1rQ88qD5cI_062nUw422FdxPnDI33kvzi/view?usp=drivesdk",
+    "sourceSha256": "e1cbf6d845c164ff581db31b0a6693d3af934c1000aa596cb22f63a32f2983f5",
+    "textSha256": "14d0da9bc52c4d792b4d4a42e4366322e825078f08b001746c295af01ed7dea4",
+    "changeKey": "177e71ad02903d4a11f2e82e1ae613b9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ea8c7bd3861fdc889471",
+    "workId": "ea8c7bd3861fdc889471",
+    "driveFileId": "1rQ88qD5cI_062nUw422FdxPnDI33kvzi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:48:27.019499+00:00",
+    "updatedAt": "2026-09-22T15:48:27.019517+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4473,
+      "updatedAt": "2026-09-22T15:48:27.019616+00:00"
+    }
+  }
+}

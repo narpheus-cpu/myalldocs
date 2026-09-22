@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "춘강만리정(春江萬里情) 3권",
+    "author": "소일",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "소일",
+      "동광출판사",
+      "춘강만리정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소일은 무협 소설을 집필한 작가이다.",
+    "oneLineSummary": "합사기서를 차지하기 위해 험난한 협도를 통과하며 고수들과 벌이는 치열한 무공 대결을 그린 이야기이다.",
+    "overallSummary": "만사동은 흑의 소녀와 위지단의 안내를 받아 합사기서가 숨겨진 위험한 협도로 향한다. 협도에는 목인과 각종 치명적인 함정이 도사리고 있으며, 그곳에서 일자검 상화 부부 등 다른 고수들과 마주치게 된다. 위지단과 흑의 소녀의 압도적인 무예 앞에 상화 부부가 패배하고, 만사동은 이들과의 동행 속에서 끊임없는 위기와 마주한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "협도에서 만난 노인",
+        "summary": "만사동은 위지단 및 흑의 소녀와 함께 기이한 협도로 진입한다. 사로 위지단은 이곳에 숨겨진 기관과 목인의 위험성을 경고하고, 만사동은 자존심을 걸고 그 뒤를 쫓는다."
+      },
+      {
+        "sectionTitle": "폭포 속에 감추어진 합사기서",
+        "summary": "협도를 지나던 만사동은 목인의 습격을 받아 사투를 벌이고, 일자검 상화 부부와 위지단, 흑의 소녀가 충돌하는 현장에 합류한다. 흑의 소녀와 위지단은 압도적인 무공으로 상화 부부를 제압하고 길을 재촉한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "정통 무협"
+      },
+      {
+        "key": "coreConflict",
+        "value": "합사기서를 차지하기 위한 무림 고수들의 암투와 무공 대결"
+      }
+    ],
+    "keyEntitiesText": "만사동, 위지단, 흑의 소녀, 상화, 연익표 단영, 목인",
+    "settingText": "진령 일대의 험준한 협도와 회랑, 음산한 수림"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1THggFWo9RpNhzGpP9wkrtd8lcpx9ejbA",
+    "filename": "소일-춘강만리정(春江萬里情) 3권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.363Z",
+    "size": "508845",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1THggFWo9RpNhzGpP9wkrtd8lcpx9ejbA/view?usp=drivesdk",
+    "sourceSha256": "e3650d336af2710fcca2500a6883e8eac4e24d06266ae6542580ed31316e1cce",
+    "textSha256": "4caac08ee40a338f2a8cc1f68ffeecf400afff2b4e308d676326d1d94df42e38",
+    "changeKey": "71580a87d4f2d0e25b03b5ed89223b77",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d9c58b98b24e3f6c4380",
+    "workId": "d9c58b98b24e3f6c4380",
+    "driveFileId": "1THggFWo9RpNhzGpP9wkrtd8lcpx9ejbA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:46:55.896026+00:00",
+    "updatedAt": "2026-09-22T15:46:55.896044+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:46:55.896147+00:00"
+    }
+  }
+}

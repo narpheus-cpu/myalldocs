@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "수호령",
+    "author": "미상",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "수호령",
+      "마교",
+      "전통무협"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보가 텍스트에 명시되어 있지 않다.",
+    "oneLineSummary": "마교 교주 유백명의 딸로 인해 벌어지는 운명의 서막과 주정뱅이 청송자가 소년 여운휘를 만나게 되는 이야기이다.",
+    "overallSummary": "마교의 전 교주 유백명은 딸이 태어나자 노옹에게 딸의 미래를 점치게 한다. 노옹은 아이의 참혹한 미래를 예언하며 운명을 바꿀 유일한 방법으로 자시정에 태어난 열 살 난 아이들 오백 명의 피가 필요하다고 말한다. 마교의 천무대원들이 아이들을 찾아 나서는 가운데, 술에 찌들어 살던 주정뱅이 마교 무인 청송자는 우연히 귀주성에서 자시정에 태어난 열 살 소년 여운휘를 만나 함께 마교로 향하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서(序) 및 탄생",
+        "summary": "성공했다고 믿었던 진린의 계획이 한 남자에 의해 무너지고, 그가 살아오면서 가장 중요하게 여긴 것은 '충(忠)'이었다는 사실이 밝혀진다. 이어 마교 제15대 교주 유백명의 딸이 태어난 경사와 함께 노옹이 아이의 비극적인 운명과 이를 구하기 위한 비밀스런 방법을 예언한다."
+      },
+      {
+        "sectionTitle": "청송자와 여운휘의 만남",
+        "summary": "마교 내에서 술독에 빠져 살며 무인으로서의 삶을 포기했던 청송자는 아이들을 잡아오라는 명령을 받고 귀주성으로 향한다. 술에 취해 있던 그는 우연히 목숨에 집착이 없는 냉소적인 열 살 소년 여운휘를 만나고, 그가 자시정에 태어난 아이임을 알게 되어 함께 마교로 향하게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "plotDriver",
+        "value": "운명을 바꾸기 위한 의식과 주인공들의 숙명적 만남"
+      },
+      {
+        "key": "characterContrast",
+        "value": "술에 찌든 무능한 무인 청송자와 삶의 의지가 없는 소년 여운휘의 조우"
+      }
+    ],
+    "keyEntitiesText": "진린, 유백명, 엄여홍, 노옹, 천대호, 청송자, 여운휘",
+    "settingText": "마교 본거지, 귀주성 모태주를 파는 거리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qMTl85qJDog6C3Y_t-nWnYA3CxfeVUQI",
+    "filename": "수호령 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.539Z",
+    "size": "2630889",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1qMTl85qJDog6C3Y_t-nWnYA3CxfeVUQI/view?usp=drivesdk",
+    "sourceSha256": "335dfcd35ce29113f966b800c51f023ac021f3c1579e21a2522f2ad0d29656f3",
+    "textSha256": "3ed2464cebb47da4b35582f8f66e8a75213957733c65a1e75e8a4115bab459c4",
+    "changeKey": "a8aeacfa9aafd4e79eaa5bd96c4aff61",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7149fa7ae622032afad4",
+    "workId": "7149fa7ae622032afad4",
+    "driveFileId": "1qMTl85qJDog6C3Y_t-nWnYA3CxfeVUQI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:48:33.756964+00:00",
+    "updatedAt": "2026-09-22T15:48:33.756983+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:48:33.757074+00:00"
+    }
+  }
+}

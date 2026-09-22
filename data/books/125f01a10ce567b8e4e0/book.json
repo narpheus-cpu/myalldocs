@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "악인무적 제1권",
+    "author": "권천",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "권천",
+      "뫼",
+      "악인무적"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권천은 무협 소설 <악인무적>을 집필한 작가이다.",
+    "oneLineSummary": "태백검문의 제자 편장운이 매일 아침 겪는 단조로우면서도 긴장감 넘치는 일상과 수련의 과정을 그린 이야기이다.",
+    "overallSummary": "태백검문의 제자 편장운은 매일 아침 뱀에 물렸다는 핑계나 과음의 여파로 피곤한 몸을 이끌고 아침을 맞이한다. 사형제들과 함께 대사형 장도종의 인솔하에 차가운 산바람을 맞으며 태백산 산행 수련을 시작한다. 편장운은 자신의 내공 실력을 감추기 위해 일부러 거친 숨을 내쉬며 꾀병을 부리기도 하고, 사형제들 사이에서 남의 눈에 띄지 않게 처신하며 살아남기 위한 자신만의 생존 방식을 유지한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "第一章 사형제(師兄弟)들의 아침",
+        "summary": "편장운은 간밤에 꾼 꿈과 과음의 여파로 피곤한 아침을 맞이한다. 땡중들의 종소리와 함께 대사형 장도종의 호령에 따라 사형제들이 일제히 일어나 산행 수련을 준비한다."
+      },
+      {
+        "sectionTitle": "산행 수련",
+        "summary": "장도종의 선두 지휘 아래 사형제들이 일렬로 태백산을 오르며 장흡신공으로 내공을 수련한다. 편장운은 남들에게 덜미를 잡히지 않기 위해 숨이 거친 척 연기하며 조심스럽게 산을 오른다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "protagonistPersona",
+        "value": "비밀을 숨긴 채 겉으로는 평범하고 뺀질거리는 태도를 취하는 인물"
+      },
+      {
+        "key": "atmosphere",
+        "value": "엄격한 문파 속에서 살아남으려는 제자들의 현실적이고 생생한 일상"
+      }
+    ],
+    "keyEntitiesText": "편장운, 홍우택, 장도종(대사형), 오기, 도진아",
+    "settingText": "태백검문의 공방(숙소)과 태백산 산행길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XQqBx19vPQQGUdIeHRhsuTo9-INv234J",
+    "filename": "악인무적(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.799Z",
+    "size": "847481",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1XQqBx19vPQQGUdIeHRhsuTo9-INv234J/view?usp=drivesdk",
+    "sourceSha256": "11130b567ec26f1474d32c7d36148258ef6baec58c4859666b2aa3e3944bab6a",
+    "textSha256": "65d6575e201822e62eafb2e8bd72afee1becdd10c0b258752ce0cc04ba78dd52",
+    "changeKey": "9d18614d01a657ac25e320eaa19fde48",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "125f01a10ce567b8e4e0",
+    "workId": "125f01a10ce567b8e4e0",
+    "driveFileId": "1XQqBx19vPQQGUdIeHRhsuTo9-INv234J",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:49:29.126628+00:00",
+    "updatedAt": "2026-09-22T15:49:29.126648+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5046,
+      "updatedAt": "2026-09-22T15:49:29.126764+00:00"
+    }
+  }
+}

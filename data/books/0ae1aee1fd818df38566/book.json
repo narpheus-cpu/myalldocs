@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오뢰신기 제1권",
+    "author": "미상",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "오뢰신기",
+      "정통무협"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보가 텍스트에 명시되어 있지 않다.",
+    "oneLineSummary": "거대한 음모를 꾸미는 어둠 속 세력의 회의와, 사천성 광안산 화포창에서 화약 실험을 하며 살아가는 청년 진원청의 일상을 그린 이야기이다.",
+    "overallSummary": "어두운 석실, 감정이 없는 건조한 목소리의 주재자와 인물들이 모여 무림을 뒤흔들 거대한 계획과 화약 조달 문제를 논의한다. 조정의 화약고라도 털라는 지시가 내려진 가운데 회의는 끝난다. 한편 사천성 중경 광안산 화포창에서는 진씨 가문의 둘째 공자이자 다리를 저는 불구인 진원청이 장인들과 함께 화약 폭발 실험을 하며 지낸다. 집사 심방섭이 찾아와 그의 형 진자명이 전시 장원에 급제했다는 소식을 전하고, 진원청은 복잡한 가족사와 과거의 상처를 회상한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "序章. 암(暗)..., 그리고 음모(陰謀)",
+        "summary": "밀폐된 어두운 석실에서 무명 인물들이 모여 무림을 겨냥한 거대한 음모와 필수 요소인 막대한 양의 화약 조달 계획을 은밀히 논의한다."
+      },
+      {
+        "sectionTitle": "第 一 章. 진원청(陳原靑)",
+        "summary": "사천성 광안산 화포창에서 화기 제작과 화약 실험에 몰두하는 다리 저는 청년 진원청의 모습이 그려진다. 집사 심방섭이 찾아와 형 진자명의 전시 장원 급제 소식을 전하고, 진원청은 새어머니가 된 임미령과 아버지에 대한 씁쓸한 기억을 떠올린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "plotParallel",
+        "value": "국가적 음모와 화약을 둘러싼 암투와, 변두리 화포창에서 화기에 집착하는 아웃사이더 청년의 일상이 대조적으로 전개"
+      },
+      {
+        "key": "protagonistBackground",
+        "value": "다리를 절고 아버지에게 소외받았으나 화기 제작에 천재적인 재능을 지닌 진원청"
+      }
+    ],
+    "keyEntitiesText": "고숭(병필태감), 양인(안영경 포정사), 진원청, 심방섭, 진자명, 임미령",
+    "settingText": "어두운 석실, 사천성 중경 광안산 화포창"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FovQIKZ_tLlQdBRlXmf5jB2wYHkwmBu5",
+    "filename": "오뢰신기(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.925Z",
+    "size": "1276676",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1FovQIKZ_tLlQdBRlXmf5jB2wYHkwmBu5/view?usp=drivesdk",
+    "sourceSha256": "9c391ab3ae949da9c8e5355ccda3afd37b80ed71e12c171e305f288ecbcb72fa",
+    "textSha256": "6995a03614d0320b7d82768a2388e6290cd4df62dbb547f400d85de2c5d299a6",
+    "changeKey": "84ff497e38eadd067adc1b1de5defd2f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0ae1aee1fd818df38566",
+    "workId": "0ae1aee1fd818df38566",
+    "driveFileId": "1FovQIKZ_tLlQdBRlXmf5jB2wYHkwmBu5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:50:06.915174+00:00",
+    "updatedAt": "2026-09-22T15:50:06.915191+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5046,
+      "updatedAt": "2026-09-22T15:50:06.915282+00:00"
+    }
+  }
+}

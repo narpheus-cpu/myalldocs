@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅독보행 제1권",
+    "author": "금강",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "금강",
+      "영웅독보행"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금강은 <영웅독보행>을 집필한 무협 소설가이다.",
+    "oneLineSummary": "천하영웅맹의 사대맹주가 암살당하고, 거대 세력 간의 치열한 암투와 혼란이 벌어지는 서막을 그린 이야기이다.",
+    "overallSummary": "백오십 년 전 대륙천궁의 힘으로 통일된 중원무림은 '천하영웅맹'이라는 거대한 체제 하에 정도, 마도, 사도, 녹림 사대세력이 힘의 균형을 이루며 평화를 유지해왔다. 특히 절대사인방인 백천극(절세검제), 구절생(녹림대종사), 적괴위(마종천자), 묵절영(암흑천사)의 존재로 맹의 힘은 최고조에 달했다. 그러나 중양회의 치밀한 암살 계획으로 인해 사대맹주가 모두 암살당하는 초유의 사건이 발생하고, 천하는 거대한 혼란과 붕괴의 소용돌이에 빠져든다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서막 및 연기(緣起)",
+        "summary": "대륙천궁이 이룩한 천하영웅맹의 성립 배경과, 정도·마도·사도·녹림 사대세력이 연합하여 천하를 다스려온 역사 및 절대사인방의 존재를 설명한다."
+      },
+      {
+        "sectionTitle": "제 1 막 난세는 영웅을 부른다 (대세)",
+        "summary": "중양회의 은밀한 음모로 인해 천하영웅맹의 사대맹주가 전원 암살당하는 대사건이 터진다. 후계자가 없는 상태에서의 갑작스러운 죽음은 내부의 권력 투쟁을 촉진하고, 천하영웅맹은 순식간에 붕괴 위기와 대혼돈 속으로 빠져든다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "narrativeFocus",
+        "value": "개인의 무공 대결보다 거대 세력 간의 정보전, 음모, 정치적 갈등"
+      },
+      {
+        "key": "coreConflict",
+        "value": "천하영웅맹과 신흥 음모 집단 중양회의 패권 다툼"
+      }
+    ],
+    "keyEntitiesText": "백천극(절세검제), 구절생(녹림대종사), 적괴위(마종천자), 묵절영(암흑천사)",
+    "settingText": "중원무림, 항주 서호 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ygXb05h54E2b0OpNceIJDHGrvZIJSpJ8",
+    "filename": "영웅독보행(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.873Z",
+    "size": "982329",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1ygXb05h54E2b0OpNceIJDHGrvZIJSpJ8/view?usp=drivesdk",
+    "sourceSha256": "938e2798adf95468a5c32371628b3c700c2750767c0134cf662357601e9ddb52",
+    "textSha256": "913dc426c5fff866f7d0a2934a871017e52dd206e059b5a6f7d72c0534648b4d",
+    "changeKey": "24c0d84ea76d5d2c050433fdcdf8c319",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f98e3fa2eddc3dad054d",
+    "workId": "f98e3fa2eddc3dad054d",
+    "driveFileId": "1ygXb05h54E2b0OpNceIJDHGrvZIJSpJ8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:49:50.781053+00:00",
+    "updatedAt": "2026-09-22T15:49:50.781073+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5467,
+      "updatedAt": "2026-09-22T15:49:50.781167+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "연록흔 1",
+    "author": "미상",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "연록흔",
+      "로맨스무협",
+      "정통무협"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스무협",
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보가 텍스트에 명시되어 있지 않다.",
+    "oneLineSummary": "황룡국 창주성에서 태수 금라한의 탐욕으로 인해 일가족이 끔찍하게 멸문당하는 비극을 그린 이야기이다.",
+    "overallSummary": "황룡국 창주성은 인심 좋고 살기 좋은 유향이다. 정월 초하루 축제가 벌어지는 거리에서 백면서생 연무한은 아내 백아연과 딸 연록흔과 함께 행복한 시간을 보낸다. 그러나 기루에서 이를 지켜본 탐욕스러운 창주성 태수 금라한은 아연의 미모에 욕정을 품고, 태부와 부하들을 동원해 연가장을 야습한다. 연부인과 유모, 시비들이 무참히 살해당하고 아연은 금라한에게 끔찍하게 능욕당한 뒤 살해된다. 산사에서 급히 돌아온 연무한은 잿더미가 된 집과 시신들 속에서 아내의 관인을 발견하며 복수를 맹세한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "낙화(洛花) 및 축제",
+        "summary": "창주성의 정월 초하루 축제 거리에서 연무한과 아내 백아연, 딸 연록흔이 행복한 한때를 보낸다. 한편 기루에서 이를 내려다본 태수 금라한은 아연을 품고자 음모를 꾸민다."
+      },
+      {
+        "sectionTitle": "연가장의 비극과 무한의 귀환",
+        "summary": "어느 날 밤, 태수 금라한의 부하들이 연가장을 습격해 연부인과 유모를 살해하고 아연을 능욕한 뒤 살해한다. 산사에서 불길한 예감에 급히 내려온 연무한은 처참하게 파괴된 집과 가족들의 주검을 목격하고 절분하며 복수를 다짐한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "incitingIncident",
+        "value": "탐관오리의 탐욕으로 인한 비극적인 멸문과 아내의 죽음"
+      },
+      {
+        "key": "protagonistVengeance",
+        "value": "선한 서생에서 복수의 화신으로 변모하는 남편의 절규"
+      }
+    ],
+    "keyEntitiesText": "연무한, 백아연, 연록흔(딸), 연부인, 유모, 금라한(창주성 태수), 태부",
+    "settingText": "황룡국 창주성 거리, 복륭사 산사, 연가장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1m2bPxuUPAVHKWn9o1h9i8HoNcqHscYjp",
+    "filename": "연록흔 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.822Z",
+    "size": "1265481",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1m2bPxuUPAVHKWn9o1h9i8HoNcqHscYjp/view?usp=drivesdk",
+    "sourceSha256": "f8da1e7a3562fe19f0d9caf7eec06f473fb07af661fb315a2d9bc21f937f808d",
+    "textSha256": "40d60a9ee8e15491c61667debc7f3ad68ad10aceac6d13d6f59d4b2fa3be4c0a",
+    "changeKey": "9571d5899f5b9f7c0dc3a7aa00cf9243",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "740dad628ef5c9c3c195",
+    "workId": "740dad628ef5c9c3c195",
+    "driveFileId": "1m2bPxuUPAVHKWn9o1h9i8HoNcqHscYjp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:49:36.410822+00:00",
+    "updatedAt": "2026-09-22T15:49:36.410840+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7029,
+      "updatedAt": "2026-09-22T15:49:36.410946+00:00"
+    }
+  }
+}

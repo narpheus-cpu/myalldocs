@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "수면신공 1",
+    "author": "ZEROS",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "수면신공",
+      "코믹무협",
+      "웹소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "코믹무협",
+        "패러디무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "ZEROS는 인터넷 연재를 통해 독창적인 코믹 무협 소설을 선보인 작가이다.",
+    "oneLineSummary": "바람둥이 아버지 밑에서 잠만 자는 기이한 호흡법을 익힌 주인공 이천운의 일상을 그린 코믹 무협 이야기이다.",
+    "overallSummary": "장가촌에 사는 이천운은 하루에 아홉 시진 이상을 잠만 자는 게으른 청년이다. 그의 아버지 이무결은 잘생긴 외모와 현란한 언변으로 동네 과부들의 사랑을 독차지하는 구제불능의 바람둥이다. 이천운은 7살 때 아버지가 가르쳐 준 건강법(일명 수면신공) 때문에 잠이 많아졌고, 10년 동안 기초 무공만 연마해왔다. 어느 날, 친구들의 성화에 못 이겨 옆 마을 소녀들과의 단체 만남에 나가게 되면서 황당하고 우스꽝스러운 해프닝을 겪게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 : 아버지(父)",
+        "summary": "바람둥이 아버지 이무결과 함께 사는 이천운의 일상이 그려진다. 아버지가 가르쳐 준 호흡법 때문에 잠이 많아진 천운은 하루의 대부분을 잠으로 보낸다."
+      },
+      {
+        "sectionTitle": "제 1 장 : 아버지를 찾아서 (단체 만남)",
+        "summary": "늦게 일어나는 버릇이 있는 천운은 친구들의 성화에 이끌려 옆 마을 소녀들과의 단체 만남에 참석하게 되고, 예상치 못한 개성 만점의 소녀들을 만나며 당황한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "tone",
+        "value": "유쾌하고 코믹함"
+      },
+      {
+        "key": "uniqueConcept",
+        "value": "잠을 많이 자야 강해지는 특이한 무공(수면신공)"
+      }
+    ],
+    "keyEntitiesText": "이천운, 이무결, 황대호, 장거한, 장국영, 장부귀",
+    "settingText": "평화로운 시골 마을 장가촌과 임가촌의 주루"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Z6biyLKkOh6AUlKDkKdqzap8DPPfzcyq",
+    "filename": "수면신공.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.478Z",
+    "size": "1655068",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1Z6biyLKkOh6AUlKDkKdqzap8DPPfzcyq/view?usp=drivesdk",
+    "sourceSha256": "7341e4e8eb05130c947c83fac95e38570ca70a95b41aaa118deb6953e3b1d164",
+    "textSha256": "861b63a059f4c73210928b32e19ec05a563e31a9ab90f5bcd900e06f1080c985",
+    "changeKey": "78a141308112d8161417548da44a6540",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a0acabc80bfe5a258970",
+    "workId": "a0acabc80bfe5a258970",
+    "driveFileId": "1Z6biyLKkOh6AUlKDkKdqzap8DPPfzcyq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:48:15.039183+00:00",
+    "updatedAt": "2026-09-22T15:48:15.039201+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7289,
+      "updatedAt": "2026-09-22T15:48:15.039305+00:00"
+    }
+  }
+}

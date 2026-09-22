@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "송백 1",
+    "author": "백준",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "백준",
+      "청어람",
+      "송백"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성장무협",
+        "복수무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "백준은 1978년 강원도 정선 출생으로, <초일>, <건곤권>, <송백> 등의 작품을 집필한 무협 소설가이다.",
+    "oneLineSummary": "마정회의 습격으로 가문이 몰락한 후 고아로 전락한 형제 송영과 송백의 비극적인 이사와 첫걸음을 그린 이야기이다.",
+    "overallSummary": "산서성의 평화로운 송가장은 어느 날 마정회의 갑작스러운 습격을 받아 멸문지화를 당한다. 가주 송부정과 아내 유소현은 살아남은 두 아들 송영과 송백에게 가문의 보도인 백옥도와 비급, 쌍두룡 환을 맡긴 채 피신시킨다. 유소현은 마정회 무사들의 손에 죽음을 맞이하고, 북경으로 도망친 형제는 극심한 배고픔과 추위 속에서 흩어지게 된다. 형을 찾아 헤매던 어린 송백은 비 내리는 거리에서 한 노인과 소녀를 만나 거둬진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "처음이었다 (序 및 제1장)",
+        "summary": "검은 옷을 입은 청년 송영이 죽은 형(또는 동생)의 묘소 앞에서 슬픔을 삼키며 회상에 잠긴다. 이어 과거 산서성 송가장이 마정회에게 습격당해 부모를 잃고, 어린 형제 송영과 송백이 북경으로 도망쳐 거지가 된 과정이 그려진다."
+      },
+      {
+        "sectionTitle": "비극과 이별",
+        "summary": "송가장의 멸문 속에서 어머니 유소현은 아이들을 살리기 위해 희생당하고, 북경으로 온 형제는 먹을 것을 구하다 고난을 겪는다. 배고픔에 지친 형 송영이 음식을 구하러 나간 사이, 혼자 남겨진 송백은 눈을 뜨고 형의 부재 속에서 차가운 거리를 떠돌다 인상 좋은 노인과 소녀의 마차에 오르게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "genreStyle",
+        "value": "성장형 복수 무협"
+      },
+      {
+        "key": "protagonistBackground",
+        "value": "비운의 몰락한 가문 출신의 고아 소년"
+      }
+    ],
+    "keyEntitiesText": "송백, 송영, 송부정, 유소현, 마정회, 노인, 소녀",
+    "settingText": "산서성 제공촌 송가장, 북경의 허름한 골목과 대궐 같은 거리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yQLsryqiEtjcmQcJ-khVjwoim2QbaBG-",
+    "filename": "송백(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.397Z",
+    "size": "2208579",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1yQLsryqiEtjcmQcJ-khVjwoim2QbaBG-/view?usp=drivesdk",
+    "sourceSha256": "51d16320aa16db8f45be4dd3b663fb9867380e06af637e97efa54c43bd9c3c20",
+    "textSha256": "d4d3c1af4c0fcca9f1da6605f49efe0fed17a80eb9e6c6ce936a83ca869f29ca",
+    "changeKey": "4e1a730d8eca1b183b89063291696944",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "579d01c0c8a255a97e3f",
+    "workId": "579d01c0c8a255a97e3f",
+    "driveFileId": "1yQLsryqiEtjcmQcJ-khVjwoim2QbaBG-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:48:07.883924+00:00",
+    "updatedAt": "2026-09-22T15:48:07.883946+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5016,
+      "updatedAt": "2026-09-22T15:48:07.884072+00:00"
+    }
+  }
+}

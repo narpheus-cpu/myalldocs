@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신검성 제1권",
+    "author": "미상",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "신검성",
+      "정통무협"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보가 텍스트에 명시되어 있지 않다.",
+    "oneLineSummary": "선천적으로 단명하는 저주받은 석씨 가문의 역사와 무명군도의 평화로운 장원에서 벌어진 참혹한 살육의 밤을 그린 이야기이다.",
+    "overallSummary": "서른 살을 넘기지 못하고 호호백발 노인으로 죽는 저주를 받은 석씨 가문은 삼백 년 전 중원을 떠났다. 그들이 예언한 대로 이백오십 년 전, 황금가면을 쓴 서른여섯 명의 천형삼십육벌이 나타나 무림을 초토화하는 참혹한 혈사가 벌어진다. 세월이 흘러 광동성 무명군도의 아름다운 섬마을 선유도(선유장)에서 평화롭게 살아가던 소년 엽소군은 폭풍우 치는 밤, 유모 벽서월과 어머니 임설정이 끔찍하게 살해당한 참혹한 현장을 목격하고 경악한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 하늘의 형벌(刑罰)",
+        "summary": "서른 살을 넘기지 못하는 저주받은 석씨 가문의 역사와, 이백오십 년 전 천하를 공포에 떨게 했던 서른여섯 명의 괴마인 '천형삼십육벌'의 끔찍한 혈살의 역사가 기록된다."
+      },
+      {
+        "sectionTitle": "제 2 장 살인광상곡(殺人狂想曲)",
+        "summary": "광동성 무명군도의 평화로운 선유장. 십이 세 소년 엽소군은 장난을 치기 위해 유모의 방을 찾았다가 뱀이 조각된 단검이 정수리에 꽂힌 채 죽은 유모 벽서월의 시신을 발견하고, 이어 어머니 임설정마저 참혹하게 살해된 시신을 발견하며 충격에 빠진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "narrativeStructure",
+        "value": "과거 무림의 거대한 전설과 비극적인 사건의 서사적 결합"
+      },
+      {
+        "key": "incident",
+        "value": "평화로운 낙원이 한순간에 지옥으로 변하는 참혹한 멸문"
+      }
+    ],
+    "keyEntitiesText": "석씨 가문, 천형삼십육벌, 무우대사, 엽장천, 엽소군, 벽서월, 임설정",
+    "settingText": "무명군도의 선유도(선유장)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fWI6z_1wJfiCRwn4S2kjZGD21IYFSyRe",
+    "filename": "신검성.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.634Z",
+    "size": "886276",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1fWI6z_1wJfiCRwn4S2kjZGD21IYFSyRe/view?usp=drivesdk",
+    "sourceSha256": "09d3a5349e01034d18f139991c811477efb044c44cc8ffc1b26a0e3890b6dc2e",
+    "textSha256": "44277a695c3e4e78bd5860480db31561c1828c9841f62cb487b1ea51703f4a77",
+    "changeKey": "c6fe34b4d3eacec2110d4130b55fdc36",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "09c2735d97e4a1e833cf",
+    "workId": "09c2735d97e4a1e833cf",
+    "driveFileId": "1fWI6z_1wJfiCRwn4S2kjZGD21IYFSyRe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:48:49.027996+00:00",
+    "updatedAt": "2026-09-22T15:48:49.028015+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5467,
+      "updatedAt": "2026-09-22T15:48:49.028114+00:00"
+    }
+  }
+}

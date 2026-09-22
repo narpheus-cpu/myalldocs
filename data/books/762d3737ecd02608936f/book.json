@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅천하 제1권",
+    "author": "금강",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "금강",
+      "영웅천하",
+      "정통무협"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금강은 <영웅천하>를 집필한 무협 소설가이다.",
+    "oneLineSummary": "천하칠대기서와 칠중기병의 출현으로 혼란에 빠진 무림 속에서, 폭우 속 도관에서 벌어지는 고수들의 피비린내 나는 혈투를 그린 이야기이다.",
+    "overallSummary": "고금의 최고 무공 비급인 '천하칠대기서'와 무서운 위력의 '천하칠중기병'이 한꺼번에 강호에 나타나자 무림은 거대한 난세와 혼란에 휩싸인다. 이 와중에 은거했던 구자영웅보의 인물들이 세상에 모습을 드러낸다. 폭우가 내리는 밤 개봉성 밖의 낡은 도관, 한쪽 팔이 잘린 채 중상을 입은 귀영신군 신무외가 도망쳐 들어오고, 그를 뒤쫓아온 혈수악부 진팽과 낭심제갈 원지성 등 현천방 무리들이 비진결을 빼앗기 위해 치열한 생사혈투를 벌인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "序章 (천하칠대무학기서와 구자영웅보)",
+        "summary": "천하의 운명을 흔들 '천하칠대무학기서'와 '천하칠중기병', 그리고 서곡에 숨어 있던 최절정고수 오십사 명의 '구자영웅보'에 대한 전설과 난세의 도래를 설명한다."
+      },
+      {
+        "sectionTitle": "第一章 暴雨 속의 生死鬪",
+        "summary": "폭우가 내리는 밤 개봉성 밖의 폐도관. 팔이 잘린 채 중상을 입은 귀영신군 신무외가 도망쳐 들어오고, 그를 뒤쫓아온 혈수악부 진팽과 낭심제갈 원지성이 진결을 차지하기 위해 음모와 살육이 난무하는 혈투를 벌인다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "genreStyle",
+        "value": "정통 고전 무협"
+      },
+      {
+        "key": "atmosphere",
+        "value": "비밀스러운 비급과 기병을 둘러싼 음모와 배신이 난무하는 음산한 분위기"
+      }
+    ],
+    "keyEntitiesText": "신무외(귀영신군), 진팽(혈수악부), 원지성(낭심제갈)",
+    "settingText": "개봉부 성 밖의 향화 끊긴 낡은 도관"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15BtS7t_o4YiLhiiHF6eyxONCkN5stNtk",
+    "filename": "영웅천하(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.898Z",
+    "size": "1090349",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/15BtS7t_o4YiLhiiHF6eyxONCkN5stNtk/view?usp=drivesdk",
+    "sourceSha256": "10471bdbc86a44789fc4108c1e5684fc241dcfdc0e15026081f6a72416f8ee99",
+    "textSha256": "428110afe45f6443a055f33f837db5608fb1e6a5592224d20f1bc60434919157",
+    "changeKey": "fdf578b7964b8e91b86bf330aec0733e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "762d3737ecd02608936f",
+    "workId": "762d3737ecd02608936f",
+    "driveFileId": "15BtS7t_o4YiLhiiHF6eyxONCkN5stNtk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:49:58.030619+00:00",
+    "updatedAt": "2026-09-22T15:49:58.030637+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5046,
+      "updatedAt": "2026-09-22T15:49:58.030775+00:00"
+    }
+  }
+}

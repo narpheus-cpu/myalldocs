@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신검무적 1권",
+    "author": "미상",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "신검무적",
+      "조아라",
+      "정통무협"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보가 텍스트에 명시되어 있지 않으나 인터넷 연재 및 출판된 무협 소설이다.",
+    "oneLineSummary": "곤륜산의 험준한 지형에서 적들의 추격을 받으며 부상을 입은 중년 고수 추풍의 사투를 그린 이야기이다.",
+    "overallSummary": "곤륜산 벽혈곡의 험한 지형, 온몸이 피투성이가 된 중년 무인 추풍은 일단의 무리들에게 쫓기며 절체절명의 위기에 빠진다. 사혈륜과 음혈오기의 끈질긴 추적과 가공할 공격을 받으면서도 추풍은 파천검과 무영신보, 파천검벽 등의 절기를 발휘하며 맞선다. 독침과 독무에 허벅지가 마비되고 내상을 입은 그는 끝내 까마득한 절벽 끝으로 몰리게 되고, 최후의 순간 검강을 발휘하여 적들과 동귀어진하려 절벽 아래로 떨어지게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1권 : 강호로 떨어지다 (1회)",
+        "summary": "피투성이가 된 중년 무인 추풍이 곤륜산 벽혈곡에서 적들의 추격을 피해 도망친다. 회전하는 사혈륜의 공격에 맞서 파천검과 파천검벽을 펼치며 적들의 공세를 격파해 나간다."
+      },
+      {
+        "sectionTitle": "1권 : 강호로 떨어지다 (2회)",
+        "summary": "음혈오기 중 맏형인 염사천을 상대로 혈투를 벌이던 추풍은 독침과 독무의 공격을 받아 부상을 입고 절벽 끝으로 몰린다. 최후의 발악으로 검강을 발휘해 적들을 쓰러뜨리지만 자신도 장풍에 밀려 절벽 아래로 추락한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "actionStyle",
+        "value": "화려한 초식과 내공 대결, 절체절명의 위기 탈출"
+      },
+      {
+        "key": "protagonistStatus",
+        "value": "부상을 입고 절벽으로 추락하는 비운의 고수"
+      }
+    ],
+    "keyEntitiesText": "추풍(파천신협), 음혈오기(염사천 외), 사혈륜, 파천검",
+    "settingText": "곤륜산 벽혈곡과 까마득한 절벽"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10UA1oyXlP-jAvwpjDpPSXL1hwdYumCWz",
+    "filename": "신검무적 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.594Z",
+    "size": "2079796",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/10UA1oyXlP-jAvwpjDpPSXL1hwdYumCWz/view?usp=drivesdk",
+    "sourceSha256": "494df3aff8fdea5c672f75c0120aec9d777e94bd13ac693646ffa252a41a521e",
+    "textSha256": "25aee6b88180bdbd40d3f4f976de2765af2be849dd05c0b3fbbfa664ac4bb41a",
+    "changeKey": "e1bacbc5d18adbe3c8bf99b16496404b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ecccd957062889cef3bb",
+    "workId": "ecccd957062889cef3bb",
+    "driveFileId": "10UA1oyXlP-jAvwpjDpPSXL1hwdYumCWz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:48:42.136185+00:00",
+    "updatedAt": "2026-09-22T15:48:42.136205+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.656,
+      "updatedAt": "2026-09-22T15:48:42.136313+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "십대천왕 제1부 제1권",
+    "author": "사마달, 일주향",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "사마달",
+      "일주향",
+      "십대천왕"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사마달과 일주향 두 작가가 공동으로 집필한 무협 소설이다.",
+    "oneLineSummary": "천왕전설의 예언 속에서 천하제일성주 금화성이 아들의 탄생 순간 배신을 당해 살해당하고, 15년 후 항주에서 소년 금소천으로 살아가게 되는 이야기이다.",
+    "overallSummary": "수천 년 무림사의 천라선옹 예언에 따라 오존의 저주를 막을 열 명의 '십대천왕'과 천왕지맥이 태어날 것이 예고된다. 천하제일성주 용천제군 금화성은 폭풍우 치는 밤 아들이 태어나자 격동하지만, 이마에 혈안이 된 면사괴인과 구대장로들의 배신으로 아들과 함께 심장을 꿰뚫리는 치명상을 입고 쓰러진다. 15년 후, 봄을 맞이한 항주의 진회하 강변에서 뚜렷한 개성이 없으면서도 항주성의 명물로 불리는 무법자 소년 금소천이 유유히 일상을 보낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 : 전설이 도래하다",
+        "summary": "천라선옹의 천왕전설을 통해 오존의 저주와 이를 구원할 십대천왕의 예언을 소개한다."
+      },
+      {
+        "sectionTitle": "1장 군림천하의 결심을 하다 및 2장",
+        "summary": "폭풍우 속에서 천하제일성주 금화성이 천왕지맥을 타고난 아들의 탄생에 기뻐하지만, 세 개의 눈을 가진 면사괴인과 천하제일성 구장로들의 배신으로 아들과 함께 살해당한다. 15년 뒤 항주에서 명물 소년 금소천으로 자란 그는 진회하에서 기녀를 놀리며 여유로운 하루를 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "narrativeHook",
+        "value": "태어난 날 밤 멸문당한 성주의 비극과 주인공의 미스터리한 생존"
+      },
+      {
+        "key": "protagonistPersona",
+        "value": "항주성의 유쾌하고 대담한 무법자 소년 금소천"
+      }
+    ],
+    "keyEntitiesText": "천라선옹, 금화성(용천제군), 면사괴인, 천하제일성 구장로, 금소천, 취접향",
+    "settingText": "천하제일성과 뇌성벽력이 치는 동굴, 항주 진회하 강변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1g6unnt_rx2Qy-hOrUWVb76pAQ3w08oQs",
+    "filename": "십대천왕.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:07.735Z",
+    "size": "1395492",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1g6unnt_rx2Qy-hOrUWVb76pAQ3w08oQs/view?usp=drivesdk",
+    "sourceSha256": "2aef6c091ec2f826a581cdf44f74df0e51a90c97ba49c053e3e54d68a57542d0",
+    "textSha256": "ee0b88b147541094334b7133b541b33d11f277c363e9bc686fa441fe9f653cdf",
+    "changeKey": "87553cd4f21ddaedeb32583ff89f3060",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "45b7b08d0d98bca4aab1",
+    "workId": "45b7b08d0d98bca4aab1",
+    "driveFileId": "1g6unnt_rx2Qy-hOrUWVb76pAQ3w08oQs",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:49:09.689211+00:00",
+    "updatedAt": "2026-09-22T15:49:09.689230+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4686,
+      "updatedAt": "2026-09-22T15:49:09.689327+00:00"
+    }
+  }
+}
