@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "문학이라는 놀이",
+    "author": "고종석",
+    "genre": "문학평론",
+    "tags": [
+      "시의운명",
+      "419혁명",
+      "김현",
+      "문학평론"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문학",
+        "비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "언론인이자 문필가로, 날카로운 정세 분석과 섬세한 언어 감수성으로 비평 활동을 해왔다.",
+    "oneLineSummary": "지하철 시를 통해 바라본 시의 서글픈 운명과 4·19 혁명이 남긴 시적 언어의 유산을 성찰한다.",
+    "overallSummary": "유럽에서 전통적 의미의 시가 박물관 속으로 사라지고 지하철 시나 노래 가사로 변모하는 현상을 포착하며 시의 운명을 진단한다. 아울러 4·19 혁명을 연료로 삼아 피어난 저항과 그리움의 시 세계를 신동엽의 능선 상상력을 중심으로 고찰하고, 문학평론가 김현을 되돌아본다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 시의 운명",
+        "summary": "유럽에서 사멸해가는 전통적 시의 처지와 파리 지하철 속 아마추어 시인들의 시를 통해 시의 미래를 전망한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시각",
+        "value": "대중사회 속에서 시의 위치와 역사적 기억을 묶어내는 문학적 성찰"
+      }
+    ],
+    "keyEntitiesText": "신동엽, 김수영, 김현, 이시영",
+    "settingText": "파리의 지하철과 한국의 현대 문학사."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jzFSs6a6Lw1a0AjXgaNNxWv7O5VmXaFY",
+    "filename": "고종석 선집-문학이라는 놀이(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T12:10:54.000Z",
+    "size": "562674",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1jzFSs6a6Lw1a0AjXgaNNxWv7O5VmXaFY/view?usp=drivesdk",
+    "sourceSha256": "106a1b277100f0e11b49ae492200b95fe548fb3460892d65c1933e6e2683f22f",
+    "textSha256": "90d89c1f45f20b4c3656429b94407376228e9ebb95e3b74711c2bc7064948b59",
+    "changeKey": "9585852df1d2cc8329787dfaf1ab0d3a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0a08406c83adbe6e16cc",
+    "workId": "0a08406c83adbe6e16cc",
+    "driveFileId": "1jzFSs6a6Lw1a0AjXgaNNxWv7O5VmXaFY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:30:51.412701+00:00",
+    "updatedAt": "2026-09-22T17:30:51.412717+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:30:51.412805+00:00"
+    }
+  }
+}

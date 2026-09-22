@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서양미술사",
+    "author": "E.H. 곰브리치",
+    "genre": "미술사",
+    "tags": [
+      "서양미술사",
+      "미술교양",
+      "예술사",
+      "회화"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "미술",
+        "역사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오스트리아 출신의 영국의 미술사학자로, 전 세계 미술 애호가들에게 가장 사랑받는 입문서를 집필했다.",
+    "oneLineSummary": "원시 미술부터 현대 미술까지 서양 미술의 거대한 흐름을 누구나 이해할 수 있는 평이한 언어로 풀어낸 명저.",
+    "overallSummary": "미술에 처음 입문하는 독자들을 위해 세부적인 암기를 강요하지 않고 미술사의 전체 지세를 조망할 수 있도록 엮은 최고의 미술 교양서이다. 진정으로 훌륭한 작품들을 역사적 배경과 미술가들의 의도 속에서 파악하며, 모방과 반대를 통해 끊임없이 변화해온 예술의 발자취를 생생한 이야기로 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한국어판 서문 및 서문",
+        "summary": "책의 기획 의도와 도판 선정 원칙, 미술을 역사적 배경 속에서 이해하는 방법론을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술방식",
+        "value": "명칭 나열을 피하고 예술가의 의도와 역사적 맥락에 초점을 맞춘 이야기 형식"
+      }
+    ],
+    "keyEntitiesText": "E.H. 곰브리치, 모차르트, 벨라 호로비츠, 루트비히 골트샤이더",
+    "settingText": "고대부터 현대에 이르는 서양 미술의 역사."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OWFrblTX65YpvIZRAeDeUt6sPIPp226g",
+    "filename": "곰브리치-서양미술사(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-20T04:53:13.606Z",
+    "size": "1132214",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1OWFrblTX65YpvIZRAeDeUt6sPIPp226g/view?usp=drivesdk",
+    "sourceSha256": "1bbcafe14aee6956f1c68239654f6fee73977a0f97cd414448cae72c6b9e8fa8",
+    "textSha256": "cd94443ca126f1fb231f82f0e9c1260951a819392dd91d0551a8c837cbac3ce2",
+    "changeKey": "636d2620980f8369d891b366cf387178",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cc195e7acc5ddc8d63ac",
+    "workId": "cc195e7acc5ddc8d63ac",
+    "driveFileId": "1OWFrblTX65YpvIZRAeDeUt6sPIPp226g",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:31:13.039873+00:00",
+    "updatedAt": "2026-09-22T17:31:13.039889+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.864,
+      "updatedAt": "2026-09-22T17:31:13.039980+00:00"
+    }
+  }
+}

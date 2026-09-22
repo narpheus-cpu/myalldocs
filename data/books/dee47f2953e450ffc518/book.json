@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바벨탑공화국",
+    "author": "강준만",
+    "genre": "도시사회비평",
+    "tags": [
+      "아파트",
+      "단지공화국",
+      "부동산",
+      "소셜믹스"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "도시사회학",
+        "문화비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전북대학교 신문방송학과 교수이자 한국 사회의 다양한 일상 문화 코드를 파헤치는 저술가이다.",
+    "oneLineSummary": "한국의 아파트 단지 문화와 '단지 공화국'이 낳은 배제와 각자도생의 공간적 병폐를 고발한다.",
+    "overallSummary": "한국 사회의 아파트 단지는 철저한 폐쇄성과 사적 공간에 대한 광적인 집착을 보여주는 공간이다. 이 책은 속전속결의 알고리즘과 공공 공간의 부재가 낳은 도시의 황폐함, 그리고 '휴거'와 같은 계급적 차별과 소셜 믹스의 허상을 비판한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아파트 단지와 소셜 믹스",
+        "summary": "아파트 단지의 이기주의와 단지화 전략, 그리고 임대아파트 거주민을 향한 차별과 소셜 믹스의 한계를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "공간정치",
+        "value": "사적 공간의 극대화와 공공 공간의 축소가 낳은 도시 정체성 혼란"
+      }
+    ],
+    "keyEntitiesText": "박철수, 박인석, 앙리 르페브르, 타워팰리스",
+    "settingText": "초고층 아파트와 게이티드 커뮤니티가 지배하는 서울 및 대도시."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1O7j0amJPXv6KItzLLG-2wZxekQIRYl1e",
+    "filename": "강준만-바벨탑공화국(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.863Z",
+    "size": "236066",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "강준만"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/강준만",
+    "webViewLink": "https://drive.google.com/file/d/1O7j0amJPXv6KItzLLG-2wZxekQIRYl1e/view?usp=drivesdk",
+    "sourceSha256": "beb8c92570109ddd787db67dd1d00dd99243f8bb2a69f0626e0ebcd593341ec9",
+    "textSha256": "d35f905d1eed757391cbef2221d9c29c445a152e7d47a8c2292adb64af00efb5",
+    "changeKey": "658d85fa6cf72c0104528f9acfe6fe46",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dee47f2953e450ffc518",
+    "workId": "dee47f2953e450ffc518",
+    "driveFileId": "1O7j0amJPXv6KItzLLG-2wZxekQIRYl1e",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:29:18.859758+00:00",
+    "updatedAt": "2026-09-22T17:29:18.859773+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:29:18.859870+00:00"
+    }
+  }
+}

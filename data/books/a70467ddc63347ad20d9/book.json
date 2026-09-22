@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한국인을 위한 교양사전",
+    "author": "강준만",
+    "genre": "교양사전",
+    "tags": [
+      "한국사회",
+      "일상문화",
+      "가족주의",
+      "지식정보"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문화",
+        "사전"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 사회의 현실과 일상적 삶을 인문학적 교양과 연결해 풀어내는 저술가이다.",
+    "oneLineSummary": "서구 중심의 추상적 교양 개념을 넘어, 한국의 구체적이고 복잡다단한 현실을 담아낸 한국인 맞춤형 교양 사전이다.",
+    "overallSummary": "한국 사회에 만연한 무교양주의와 서구 지향적 지식 편식을 비판하며, 한국적 현실에 발을 디딘 새로운 교양 개념을 제시한다. 가족주의, 가치 패러독스 등 한국인의 삶을 지배하는 일상적 문화 코드들을 압축적이고 공정하게 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "문화: 가족주의",
+        "summary": "한국 사회의 뿌리 깊은 가족주의와 가국체제, 기러기 아빠 신드롬 및 저출산 현상을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기획의도",
+        "value": "교양의 한국화와 현실화를 통한 상호 소외 극복"
+      }
+    ],
+    "keyEntitiesText": "디트리히 슈바니츠, 장준하, 앤서니 기든스",
+    "settingText": "2000년대 전후의 대한민국."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1O8p6tSqeGtUFJMltzoxPGa3eP7ub3Uel",
+    "filename": "강준만-한국인을 위한 교양사전(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.951Z",
+    "size": "1110870",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "강준만"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/강준만",
+    "webViewLink": "https://drive.google.com/file/d/1O8p6tSqeGtUFJMltzoxPGa3eP7ub3Uel/view?usp=drivesdk",
+    "sourceSha256": "f29cfb3e53224e06dd6c11c042ebb3f645b503773086c332bb01877ab6a70a9a",
+    "textSha256": "9f58a59819d8e5841f44de606e6f288a184aff3e6bb37d707973382ff4be3ed1",
+    "changeKey": "369fd3903e01d76469f56381be43386a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a70467ddc63347ad20d9",
+    "workId": "a70467ddc63347ad20d9",
+    "driveFileId": "1O8p6tSqeGtUFJMltzoxPGa3eP7ub3Uel",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:29:40.085615+00:00",
+    "updatedAt": "2026-09-22T17:29:40.085632+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:29:40.085736+00:00"
+    }
+  }
+}

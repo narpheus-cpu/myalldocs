@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고등학교 철학 교과서",
+    "author": "진교훈, 심재룡, 이종권",
+    "genre": "교과서",
+    "tags": [
+      "철학",
+      "고등학교",
+      "윤리",
+      "사유"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "교육",
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "국내의 대표적인 철학 및 윤리 전공 학자들이 공동 집필한 고등학교 철학 교과서이다.",
+    "oneLineSummary": "철학적 문제의 성격을 이해하고 스스로 사유할 수 있는 능력을 길러주는 고등학교 철학 교육서이다.",
+    "overallSummary": "철학의 기본 성격과 논리적 사고 방법을 시작으로 인식론, 형이상학, 윤리학, 정치철학, 미학에 이르기까지 철학의 주요 영역을 체계적으로 다룬다. 단순한 지식 전달을 넘어 학생 스스로 삶의 의미와 현실의 문제에 대해 철학적 사유를 하도록 안내한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I. 철학이란 무엇이며 어떻게 하는가?",
+        "summary": "철학을 하게 되는 동기인 지적 호기심과 현실에 대한 문제의식을 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "목표",
+        "value": "철학의 내용을 전달하는 것을 넘어 스스로 철학을 하도록 유도"
+      }
+    ],
+    "keyEntitiesText": "플라톤, 아리스토텔레스, 소크라테스, 마르크스",
+    "settingText": "학교 교육 현장과 인간의 삶."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1k0v9-0qmQjPYoEiceqgW5KVuvmH3t7gK",
+    "filename": "고등학교 철학 교과서(교학사)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T17:19:42.000Z",
+    "size": "514237",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1k0v9-0qmQjPYoEiceqgW5KVuvmH3t7gK/view?usp=drivesdk",
+    "sourceSha256": "7ce5d527b42600baaff4ad33de36d8b172e70864dea2971701867dcb6276c3ba",
+    "textSha256": "e9952feb5a3819ac5e37ea3834bc9017731ff67e02ba6740750dd8842ef5143c",
+    "changeKey": "8e9d0249c291928dcfea83a65858a65a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9a5c034dc60890952509",
+    "workId": "9a5c034dc60890952509",
+    "driveFileId": "1k0v9-0qmQjPYoEiceqgW5KVuvmH3t7gK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:30:08.162637+00:00",
+    "updatedAt": "2026-09-22T17:30:08.162653+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:30:08.162746+00:00"
+    }
+  }
+}

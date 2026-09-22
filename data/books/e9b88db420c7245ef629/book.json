@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "민란의 시대",
+    "author": "고성훈",
+    "genre": "역사교양",
+    "tags": [
+      "조선시대",
+      "민중운동",
+      "민란",
+      "변란"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "역사",
+        "사회사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "국사편찬위원회 연구원들이며 한국중세사료강독모임의 구성원들로 구성된 한국사 전공자들이다.",
+    "oneLineSummary": "조선시대 민중들이 생존과 권력 장악을 위해 벌였던 저항의 역사를 '민란'과 '변란'의 틀로 입체적으로 조명한다.",
+    "overallSummary": "조선 후기 사회변동과 중세 봉건체제의 해체 과정에서 발생한 수많은 민중운동을 경제투쟁인 '민란'과 정치투쟁인 '변란'으로 나누어 분석한다. 탐관오리의 수탈에 맞선 농민들의 거침없는 봉기와 몰락 지식인들의 정감록 사상 기반 권력 쟁취 시도를 통해 진정한 역사의 주체인 민중의 역동성을 복원한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "조선시대 민중운동, 어떻게 일어났나?",
+        "summary": "사회변동과 중세 해체의 맥락 속에서 민란과 변란의 개념과 유형별 특징을 개관한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석틀",
+        "value": "민란(경제투쟁)과 변란(정치투쟁)의 이원적 분석 모델"
+      }
+    ],
+    "keyEntitiesText": "홍경래, 민회행, 이필제, 최시형",
+    "settingText": "조선시대 왕조의 전개 과정."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QoD0s60ijJK-vjkZDXZxaJYGB3rX3lHH",
+    "filename": "고성훈-민란의 시대 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.049Z",
+    "size": "606598",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1QoD0s60ijJK-vjkZDXZxaJYGB3rX3lHH/view?usp=drivesdk",
+    "sourceSha256": "4b24e74ce1dcdedcd5e16e756ee5c86986f0f3dbdf23fef9a978eebe11f3e491",
+    "textSha256": "4b3c6fe084de0394ea505128258ce85dcbf4a93f3430f075f83b61efab9389dd",
+    "changeKey": "c8e05f10fc13823f0fc35b92fb10d618",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e9b88db420c7245ef629",
+    "workId": "e9b88db420c7245ef629",
+    "driveFileId": "1QoD0s60ijJK-vjkZDXZxaJYGB3rX3lHH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:30:43.055937+00:00",
+    "updatedAt": "2026-09-22T17:30:43.055953+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:30:43.056055+00:00"
+    }
+  }
+}

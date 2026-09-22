@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "논어",
+    "author": "공자",
+    "genre": "유교경전",
+    "tags": [
+      "논어",
+      "공자",
+      "유교",
+      "동양고전"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "철학",
+        "동양고전"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "춘추시대 말기의 사상가이자 유교의 시조로, 인류의 위대한 스승으로 꼽힌다.",
+    "oneLineSummary": "인간 공자의 체취와 삶의 지혜가 꾸밈없이 담겨 있는 유교의 최고 성전.",
+    "overallSummary": "공자와 제자들이 세상 사는 이치와 교육, 정치 등에 관해 나눈 대화와 언행을 기록한 동양 최고의 고전이다. 체계적인 단독 저작은 아니지만, 불안정한 춘추시대 속에서 주나라의 예와 인을 회복하고자 했던 공자의 치열한 삶과 인간적인 면모가 생생하게 살아 숨 쉬고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한 인간의 체취가 꾸밈없이 묻어나는 유교성전, 논어",
+        "summary": "논어의 성립 과정과 판본, 공자의 생애와 춘추시대의 역사적 배경을 해설한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "구어체의 생생한 문투를 통해 드러나는 인간 공자의 인격과 사상"
+      }
+    ],
+    "keyEntitiesText": "공자, 주희, 하안, 정약용",
+    "settingText": "춘추시대 말기의 제후국들."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TjJjASgj3C6rHwgYS4bkj92q0fp_VYLi",
+    "filename": "공자-논어(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T17:30:32.000Z",
+    "size": "540326",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1TjJjASgj3C6rHwgYS4bkj92q0fp_VYLi/view?usp=drivesdk",
+    "sourceSha256": "acaf5907cafc3422814269cf9e808f1118939f0a7f12dba6e447a525e1a38262",
+    "textSha256": "eef605d88bf8d164a9085ca44f385db0848a0cecf3c496db3203a2264ede275f",
+    "changeKey": "6d78a4d5d880c89d151615e06baa07ea",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3edc0c10b8be5c2e9f73",
+    "workId": "3edc0c10b8be5c2e9f73",
+    "driveFileId": "1TjJjASgj3C6rHwgYS4bkj92q0fp_VYLi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:31:20.038599+00:00",
+    "updatedAt": "2026-09-22T17:31:20.038614+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:31:20.038703+00:00"
+    }
+  }
+}
