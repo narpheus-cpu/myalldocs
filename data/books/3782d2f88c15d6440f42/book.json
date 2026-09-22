@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "정치적으로 올바른 베드타임 스토리",
+    "author": "제임스 핀 가너",
+    "genre": "풍자",
+    "tags": [
+      "풍자",
+      "정치적 올바름",
+      "동화"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "풍자",
+        "동화"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 작가이자 코미디언.",
+    "oneLineSummary": "고전 동화를 정치적으로 올바른 시각으로 재해석한 풍자집.",
+    "overallSummary": "빨간 모자, 벌거벗은 임금님 등 고전 동화를 현대의 정치적 올바름(PC) 관점에서 재해석하여 풍자한 작품.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "빨간 모자",
+        "summary": "늑대와 빨간 모자의 관계를 PC 관점에서 재해석."
+      },
+      {
+        "sectionTitle": "벌거벗은 임금님",
+        "summary": "임금님의 벌거벗은 모습을 PC 관점에서 재해석."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "정치적 올바름에 대한 날카로운 풍자"
+      }
+    ],
+    "keyEntitiesText": "빨간 모자, 늑대, 임금님",
+    "settingText": "동화 속 세상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VRe9RSdeIfSjm6GEVUzE4BYd_8WVp1MM",
+    "filename": "제임스 핀가너-정치적으로 올바른 베드 타임스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.316Z",
+    "size": "93469",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1VRe9RSdeIfSjm6GEVUzE4BYd_8WVp1MM/view?usp=drivesdk",
+    "sourceSha256": "501cb07872e68769c482b37a19c072312b981adee0bf716739fc00ffac08db4f",
+    "textSha256": "8b24f9088d2f0dc7a0b443106ccc6e4cc9c41508082e930b9beb0c188ed84b0d",
+    "changeKey": "f001752a594c5cd0c73df6a265222e0a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3782d2f88c15d6440f42",
+    "workId": "3782d2f88c15d6440f42",
+    "driveFileId": "1VRe9RSdeIfSjm6GEVUzE4BYd_8WVp1MM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:00:44.367276+00:00",
+    "updatedAt": "2026-09-22T02:00:44.367292+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8071,
+      "updatedAt": "2026-09-22T02:00:44.367397+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "너의 세계를 지나칠 때",
+    "author": "장자자",
+    "genre": "수필",
+    "tags": [
+      "사랑",
+      "기억",
+      "여행",
+      "인생"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "단편소설",
+        "수필"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국의 작가로, 감성적이고 따뜻한 시선으로 사람들의 이야기를 기록함.",
+    "oneLineSummary": "타인의 세계를 지나치며 겪는 사랑과 이별, 그리고 삶의 흔적들에 관한 이야기.",
+    "overallSummary": "저자가 만난 사람들의 다양한 삶의 단면들을 통해 사랑의 아픔, 우정, 그리고 앞으로 나아가야 할 삶의 태도를 담담하게 그려낸 에세이.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫사랑",
+        "summary": "과거의 기억과 사랑에 대한 회상."
+      },
+      {
+        "sectionTitle": "돼지대가리의 사랑",
+        "summary": "대학 시절 친구들의 우정과 사랑에 관한 에피소드."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "잠자리에 들기 전 읽는 이야기 형식의 감성적 문체"
+      }
+    ],
+    "keyEntitiesText": "저자, 마오시바, 리즈, 돼지대가리, 추이민",
+    "settingText": "중국 전역 및 다오청 등 여행지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KRzyAoZvtszUC6pFFjBVqRVmi_CSIIrv",
+    "filename": "장자자-너의 세계를 지나칠 때-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T13:01:18.000Z",
+    "size": "650648",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1KRzyAoZvtszUC6pFFjBVqRVmi_CSIIrv/view?usp=drivesdk",
+    "sourceSha256": "cf8f2302ef6fab6877b6c4131f02a26f94368ca5b9512ecdb237aafa4c579036",
+    "textSha256": "9fad49f4c4846e670b855676a2c53a559da3897e01ccb4700c61422e46a4849d",
+    "changeKey": "cb6ad540913bad9c64bfe83a7d64c408",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "72ca17efb41fad9858de",
+    "workId": "72ca17efb41fad9858de",
+    "driveFileId": "1KRzyAoZvtszUC6pFFjBVqRVmi_CSIIrv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:58:57.382586+00:00",
+    "updatedAt": "2026-09-22T01:58:57.382603+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:58:57.382714+00:00"
+    }
+  }
+}

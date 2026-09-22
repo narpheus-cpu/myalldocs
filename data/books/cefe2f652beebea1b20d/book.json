@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어젯밤",
+    "author": "제임스 설터",
+    "genre": "단편소설",
+    "tags": [
+      "사랑",
+      "이별",
+      "일상",
+      "관계"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1925년 미국 출생. 간결하고 아름다운 문체로 유명한 작가.",
+    "oneLineSummary": "사랑과 이별, 관계의 단면을 섬세하게 포착한 단편 모음집.",
+    "overallSummary": "일상 속에서 벌어지는 남녀 간의 사랑과 이별, 관계의 미묘한 변화를 간결하고 아름다운 문체로 그려낸 단편들.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "어젯밤",
+        "summary": "사랑의 끝과 이별의 순간을 다룬 단편."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "간결하고 절제된 아름다운 문체"
+      }
+    ],
+    "keyEntitiesText": "필립, 아델",
+    "settingText": "일상적 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Em2iqxeP9pfv95fR8PQf25C39_hqgZzl",
+    "filename": "제임스 설터-어젯밤-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:28:18.000Z",
+    "size": "259539",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Em2iqxeP9pfv95fR8PQf25C39_hqgZzl/view?usp=drivesdk",
+    "sourceSha256": "d5b0449c48c1b27d460bbb12dd788b7f5bd05dd2ae8db1f985ae2b9114ae9148",
+    "textSha256": "231a2ab28d0437e25581fe6f145e6c1c4c15a127ca1eaf28316f5f0a6ab7f209",
+    "changeKey": "1821c421facf5e6aa7e1a83f48e676ce",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cefe2f652beebea1b20d",
+    "workId": "cefe2f652beebea1b20d",
+    "driveFileId": "1Em2iqxeP9pfv95fR8PQf25C39_hqgZzl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:00:14.915193+00:00",
+    "updatedAt": "2026-09-22T02:00:14.915211+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:00:14.915316+00:00"
+    }
+  }
+}

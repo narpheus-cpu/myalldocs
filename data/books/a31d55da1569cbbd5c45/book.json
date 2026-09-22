@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "라이벌스 1",
+    "author": "쟈넷 데일리",
+    "genre": "로맨스",
+    "tags": [
+      "라이벌",
+      "사랑",
+      "야망",
+      "상류사회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스",
+        "기업드라마"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1944년 미국 출생. 세계적인 베스트셀러 로맨스 작가.",
+    "oneLineSummary": "야망을 가진 두 남녀가 비즈니스와 사랑에서 라이벌로 대립하는 이야기.",
+    "overallSummary": "광고회사 부사장 플레임과 부동산 사업가 챈스가 비즈니스 경쟁과 가문의 갈등 속에서 사랑을 키워가는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "운명적 만남",
+        "summary": "오페라 개막식에서 만난 플레임과 챈스."
+      },
+      {
+        "sectionTitle": "갈등의 시작",
+        "summary": "가문 간의 갈등과 비즈니스 경쟁이 시작됨."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "야망과 사랑 사이의 갈등"
+      }
+    ],
+    "keyEntitiesText": "플레임 모건 베네트, 챈스 스튜어트, 말콤 포웰",
+    "settingText": "샌프란시스코, 툴사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tQ-fYmyU3KkOK7_L66hYzub94FXGaEF8",
+    "filename": "쟈넷 데일리-라이벌스 1 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.140Z",
+    "size": "579910",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "쟈넷 데일리"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/쟈넷 데일리",
+    "webViewLink": "https://drive.google.com/file/d/1tQ-fYmyU3KkOK7_L66hYzub94FXGaEF8/view?usp=drivesdk",
+    "sourceSha256": "b406965ec17893478505f82b2cbb24ba25e3fad8d355c46a107c422bd5d4210d",
+    "textSha256": "fe6857ccf1f2cb1028b66d172fa1d3082cf0f0de0bca1e90fc0f819f1040d15d",
+    "changeKey": "1dca13a5e51b64669e7f600af8c63d95",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a31d55da1569cbbd5c45",
+    "workId": "a31d55da1569cbbd5c45",
+    "driveFileId": "1tQ-fYmyU3KkOK7_L66hYzub94FXGaEF8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:59:39.170092+00:00",
+    "updatedAt": "2026-09-22T01:59:39.170106+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:59:39.170198+00:00"
+    }
+  }
+}

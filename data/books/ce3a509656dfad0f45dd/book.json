@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "가면무도회",
+    "author": "쟈넷 데일리",
+    "genre": "로맨스",
+    "tags": [
+      "기억상실",
+      "음모",
+      "사랑",
+      "상류사회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스",
+        "미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1944년 미국 출생. 세계적인 베스트셀러 로맨스 작가.",
+    "oneLineSummary": "기억상실증에 걸린 여주인공이 자신의 신분을 찾고 음모를 파헤치는 로맨스 소설.",
+    "overallSummary": "가면무도회에서 사라진 후 기억을 잃은 여주인공 레미가 자신의 과거와 자신을 둘러싼 음모를 밝혀내며 진정한 사랑을 찾아가는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사건의 시작",
+        "summary": "가면무도회에서 사라진 후 병원에서 발견된 레미의 기억상실."
+      },
+      {
+        "sectionTitle": "진실 추적",
+        "summary": "자신의 신분과 자신을 가해한 음모 집단을 추적하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "기억상실을 소재로 한 로맨틱 미스터리"
+      }
+    ],
+    "keyEntitiesText": "레미, 콜",
+    "settingText": "니스, 상류사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1J3l2Wbv4uFZQbO_AsVto2Sy6aMl63Dd_",
+    "filename": "쟈넷 데일리-가면무도회.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.023Z",
+    "size": "828651",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "쟈넷 데일리"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/쟈넷 데일리",
+    "webViewLink": "https://drive.google.com/file/d/1J3l2Wbv4uFZQbO_AsVto2Sy6aMl63Dd_/view?usp=drivesdk",
+    "sourceSha256": "09f666aac7c28ddc26913e32d8cf1fe009edaf57aaf6a77a1c82fcd3317d8385",
+    "textSha256": "fa75794ed68ecde769f915582face875e56303dfe700a58c8eb6e9a133f43c29",
+    "changeKey": "09064adae173c1935bc836bd044a82de",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ce3a509656dfad0f45dd",
+    "workId": "ce3a509656dfad0f45dd",
+    "driveFileId": "1J3l2Wbv4uFZQbO_AsVto2Sy6aMl63Dd_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:59:11.603766+00:00",
+    "updatedAt": "2026-09-22T01:59:11.603782+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:59:11.603935+00:00"
+    }
+  }
+}

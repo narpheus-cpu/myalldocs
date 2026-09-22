@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제임스 조이스 전집 1",
+    "author": "제임스 조이스",
+    "genre": "소설",
+    "tags": [
+      "모더니즘",
+      "더블린",
+      "의식의 흐름"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "모더니즘",
+        "소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1882년 아일랜드 출생. 20세기 모더니즘 문학의 거장.",
+    "oneLineSummary": "더블린 사람들의 삶과 내면을 혁신적인 기법으로 그려낸 작품집.",
+    "overallSummary": "더블린 사람들의 일상과 내면을 의식의 흐름 등 혁신적인 기법으로 묘사한 작품들.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "더블린 사람들",
+        "summary": "더블린 시민들의 삶을 다룬 단편들."
+      },
+      {
+        "sectionTitle": "젊은 예술가의 초상",
+        "summary": "스티븐 데덜러스의 성장 과정을 다룬 소설."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기법",
+        "value": "의식의 흐름, 에피파니"
+      }
+    ],
+    "keyEntitiesText": "스티븐 데덜러스",
+    "settingText": "아일랜드 더블린"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JLkt2KI2H878hGaw_cfCzG8Baz1MyhAe",
+    "filename": "제임스 조이스 전집1(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T06:19:06.000Z",
+    "size": "3648210",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1JLkt2KI2H878hGaw_cfCzG8Baz1MyhAe/view?usp=drivesdk",
+    "sourceSha256": "973252040ca97befc1d134ccf9b8e77c6ea0909cef5da06b0cc5400362a4fd79",
+    "textSha256": "8916d2c413cd0bae7ce49f0a930249d1b7c6a5d9c6e98133ab5361506981ea38",
+    "changeKey": "2983986f06763ddd8d32e01ef248a3b5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2afc51ea8855056f7dae",
+    "workId": "2afc51ea8855056f7dae",
+    "driveFileId": "1JLkt2KI2H878hGaw_cfCzG8Baz1MyhAe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:00:27.785165+00:00",
+    "updatedAt": "2026-09-22T02:00:27.785180+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:00:27.785287+00:00"
+    }
+  }
+}

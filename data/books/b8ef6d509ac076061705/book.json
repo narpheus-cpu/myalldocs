@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한푼도 더도 말고 덜도 말고",
+    "author": "제프리 아처",
+    "genre": "소설",
+    "tags": [
+      "사기",
+      "복수",
+      "범죄",
+      "스릴러"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "스릴러",
+        "범죄"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1940년 영국 출생. 베스트셀러 작가이자 전직 정치인.",
+    "oneLineSummary": "사기를 당한 네 남자가 복수를 위해 벌이는 치밀한 사기극.",
+    "overallSummary": "한 사기꾼에게 재산을 잃은 네 남자가 힘을 합쳐 그에게 똑같이 복수하는 과정을 그린 스릴러.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사기",
+        "summary": "한 사기꾼에게 재산을 잃은 네 남자의 만남."
+      },
+      {
+        "sectionTitle": "복수",
+        "summary": "사기꾼에게 복수하기 위해 벌이는 치밀한 작전."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "치밀한 구성의 범죄 스릴러"
+      }
+    ],
+    "keyEntitiesText": "네 남자, 사기꾼",
+    "settingText": "영국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1p_Rxgwvm9GzMSlTbcWaoTPlGdMcgF96L",
+    "filename": "제프리아처-한푼도 더도말고 덜도말고.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.332Z",
+    "size": "407650",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1p_Rxgwvm9GzMSlTbcWaoTPlGdMcgF96L/view?usp=drivesdk",
+    "sourceSha256": "975a488988329c31b30386c4ee7812a678e9aea750b70c176fd2b32b2436f537",
+    "textSha256": "5e3dfeb3991584a78440c93c9dd5e27a29f31dea3d50bb122ea33b74f8812579",
+    "changeKey": "3ceba8b72bf7a0b772f22d79ffb1ad09",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b8ef6d509ac076061705",
+    "workId": "b8ef6d509ac076061705",
+    "driveFileId": "1p_Rxgwvm9GzMSlTbcWaoTPlGdMcgF96L",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:00:51.319736+00:00",
+    "updatedAt": "2026-09-22T02:00:51.319752+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:00:51.319857+00:00"
+    }
+  }
+}

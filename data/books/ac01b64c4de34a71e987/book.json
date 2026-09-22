@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "다시 만난 어린왕자",
+    "author": "장 피에르 다비트",
+    "genre": "소설",
+    "tags": [
+      "어린왕자",
+      "현대문명",
+      "비판",
+      "상징"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "현대우화",
+        "속편"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1950년 벨기에 출생. 번역가이자 작가로 어린이와 청소년을 위한 책을 주로 집필함.",
+    "oneLineSummary": "생텍쥐페리의 어린 왕자를 오마주하여 현대 문명을 비판적으로 성찰한 작품.",
+    "overallSummary": "무인도에 표류한 화자가 장미를 위협하는 호랑이를 잡으려는 어린 왕자를 다시 만나, 그와의 대화를 통해 현대 문명의 모순과 인간의 본질을 되돌아보는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "표류",
+        "summary": "화자가 항해 중 난파되어 작은 섬에 표류하게 됨."
+      },
+      {
+        "sectionTitle": "재회",
+        "summary": "섬에서 어린 왕자를 만나 호랑이 사냥에 대한 대화를 나누며 문명 비판적 성찰을 시작함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 기법",
+        "value": "생텍쥐페리의 어린 왕자 형식을 빌린 현대 문명 풍자"
+      }
+    ],
+    "keyEntitiesText": "화자, 어린 왕자, 양",
+    "settingText": "바다 한가운데의 작은 무인도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oplczQqY_bHbvb_D_IiKtoS725V2oq8R",
+    "filename": "장 피에르 다비트-다시 만난 어린왕자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.006Z",
+    "size": "83766",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1oplczQqY_bHbvb_D_IiKtoS725V2oq8R/view?usp=drivesdk",
+    "sourceSha256": "3e1ef7ef8a2bb11533cd6c2e720616ba685c1864ac368c01345d9cf7759cd61d",
+    "textSha256": "0c4cffeaa7d9ffe30a25138341ce825c4af3e624d42c3a634be40f428834ebc1",
+    "changeKey": "7bc4038259a0d909279ce68eae90197a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ac01b64c4de34a71e987",
+    "workId": "ac01b64c4de34a71e987",
+    "driveFileId": "1oplczQqY_bHbvb_D_IiKtoS725V2oq8R",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:58:48.784613+00:00",
+    "updatedAt": "2026-09-22T01:58:48.784628+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:58:48.784738+00:00"
+    }
+  }
+}

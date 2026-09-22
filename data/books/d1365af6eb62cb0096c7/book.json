@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "상속녀 2",
+    "author": "쟈넷 데일리",
+    "genre": "로맨스",
+    "tags": [
+      "상속녀",
+      "비밀",
+      "사랑",
+      "텍사스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1944년 미국 출생. 세계적인 베스트셀러 로맨스 작가.",
+    "oneLineSummary": "아버지의 죽음 후 비밀을 알게 된 상속녀의 이야기.",
+    "overallSummary": "가문의 비밀과 자신과 닮은 여자의 정체를 추적하며 진실을 밝혀내는 애비의 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "진실의 발견",
+        "summary": "가문의 비밀이 밝혀지고 갈등이 해소됨."
+      },
+      {
+        "sectionTitle": "결말",
+        "summary": "모든 진실을 받아들이고 새로운 삶을 시작함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "출생의 비밀을 다룬 로맨스"
+      }
+    ],
+    "keyEntitiesText": "애비 로슨, 레이첼 페르",
+    "settingText": "텍사스 휴스턴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yI7AkBPhJ4MaQgS-SMtBJCydOnGtfQBS",
+    "filename": "쟈넷 데일리-상속녀 2 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.228Z",
+    "size": "628571",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "쟈넷 데일리"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/쟈넷 데일리",
+    "webViewLink": "https://drive.google.com/file/d/1yI7AkBPhJ4MaQgS-SMtBJCydOnGtfQBS/view?usp=drivesdk",
+    "sourceSha256": "143942e77b7f020b90274cb65c2a584df1e4478d8a8e4871e3b2d679f4a18aa8",
+    "textSha256": "0fb4d0983bd553b90fee938cfc63f7a02f14c0581196731f7c29345fa7c0975d",
+    "changeKey": "7e16d1d721b255a6487821b0f5f20109",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d1365af6eb62cb0096c7",
+    "workId": "d1365af6eb62cb0096c7",
+    "driveFileId": "1yI7AkBPhJ4MaQgS-SMtBJCydOnGtfQBS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:00:01.892851+00:00",
+    "updatedAt": "2026-09-22T02:00:01.892867+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:00:01.893040+00:00"
+    }
+  }
+}

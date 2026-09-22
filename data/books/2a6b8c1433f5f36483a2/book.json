@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나무를 심은 사람",
+    "author": "장 지오노",
+    "genre": "소설",
+    "tags": [
+      "자연",
+      "희망",
+      "생태",
+      "헌신"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "생태주의",
+        "우화"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1895년 프랑스 프로방스 출생. 자연과 인간의 합일을 꿈꾸는 작품을 다수 남긴 작가.",
+    "oneLineSummary": "황무지에 40년간 묵묵히 나무를 심어 숲과 마을을 되살린 양치기의 숭고한 삶을 다룬 이야기.",
+    "overallSummary": "전쟁과 황폐함으로 죽어가는 고원 지대에 홀로 나무를 심는 양치기 엘제아르 부피에의 헌신적인 삶을 통해, 한 인간의 끈기 있는 노력이 어떻게 자연과 공동체를 부활시킬 수 있는지 보여주는 감동적인 우화.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "만남",
+        "summary": "황무지를 여행하던 화자가 우연히 나무를 심는 양치기 엘제아르 부피에를 만나게 됨."
+      },
+      {
+        "sectionTitle": "변화",
+        "summary": "전쟁의 소용돌이 속에서도 부피에는 묵묵히 나무를 심었고, 시간이 흐르며 황무지는 거대한 숲과 생명력이 넘치는 마을로 변모함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "생명의 소중함과 공동의 선을 위한 헌신"
+      }
+    ],
+    "keyEntitiesText": "엘제아르 부피에(양치기), 화자(여행자)",
+    "settingText": "프랑스 프로방스 알프스 산맥 인근의 황무지 고원 지대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1p1jD-SzMTUmitZCfI2pqSbH4QV3KheBG",
+    "filename": "장 지오노-나무를 심은 사람 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:16.980Z",
+    "size": "77240",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1p1jD-SzMTUmitZCfI2pqSbH4QV3KheBG/view?usp=drivesdk",
+    "sourceSha256": "3ae3684ff5e4f8a088415e6f63cf8b2c39658b0a9b8e3180d011ee24f76cce91",
+    "textSha256": "d5e35bf3bfbf9e7bc8eeac478643bab315aa803bf7f06289ee2396633962a99e",
+    "changeKey": "d25e44bc7640b99d4d5135b6e72baf67",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2a6b8c1433f5f36483a2",
+    "workId": "2a6b8c1433f5f36483a2",
+    "driveFileId": "1p1jD-SzMTUmitZCfI2pqSbH4QV3KheBG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:58:41.406005+00:00",
+    "updatedAt": "2026-09-22T01:58:41.406021+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:58:41.406224+00:00"
+    }
+  }
+}

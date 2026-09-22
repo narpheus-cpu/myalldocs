@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "두려움 없는 사랑",
+    "author": "쟈넷 데일리",
+    "genre": "로맨스",
+    "tags": [
+      "목장",
+      "사랑",
+      "자립",
+      "갈등"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1944년 미국 출생. 세계적인 베스트셀러 로맨스 작가.",
+    "oneLineSummary": "자립심 강한 여주인공이 목장장과 겪는 갈등과 사랑 이야기.",
+    "overallSummary": "목장에서 자라 자립심이 강한 다이애너가 새로 온 목장장 홀트 말로리와 겪는 갈등과 그 속에서 피어나는 사랑을 다룬 작품.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "만남",
+        "summary": "다이애너와 새로 온 목장장 홀트 말로리의 첫 만남."
+      },
+      {
+        "sectionTitle": "갈등과 사랑",
+        "summary": "목장 운영을 둘러싼 갈등과 그 속에서 서로에게 끌리는 감정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "전형적인 로맨스 구조와 목장 배경"
+      }
+    ],
+    "keyEntitiesText": "다이애너 소머즈, 홀트 말로리, 가이 말로리",
+    "settingText": "네바다의 목장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Wz_SYdVb4wbsVr2ZQT6hny0HiLaVZS4D",
+    "filename": "쟈넷 데일리-두려움 없는 사랑 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:17.116Z",
+    "size": "529681",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "쟈넷 데일리"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/쟈넷 데일리",
+    "webViewLink": "https://drive.google.com/file/d/1Wz_SYdVb4wbsVr2ZQT6hny0HiLaVZS4D/view?usp=drivesdk",
+    "sourceSha256": "1d1279d7f940639bde1433fa0e28e32fb51508cfa34a33c4baf30d93fea9e192",
+    "textSha256": "36568895e6920e813639c7f1d47506b2adff9225f74359fd9bec9ce8dfbb1340",
+    "changeKey": "55ee0acfe2f085dfefd1a7dac749fd7f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "17335c1257d92f8794eb",
+    "workId": "17335c1257d92f8794eb",
+    "driveFileId": "1Wz_SYdVb4wbsVr2ZQT6hny0HiLaVZS4D",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:59:32.182234+00:00",
+    "updatedAt": "2026-09-22T01:59:32.182251+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:59:32.182357+00:00"
+    }
+  }
+}

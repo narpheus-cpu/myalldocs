@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잭 런던 단편선",
+    "author": "잭 런던",
+    "genre": "단편소설",
+    "tags": [
+      "모험",
+      "야성",
+      "생존",
+      "클론다이크"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "모험소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1876년 미국 출생. 모험과 생존, 인간의 야성을 탐구한 작가.",
+    "oneLineSummary": "극한의 자연 환경 속에서 인간의 생존 본능과 야성을 다룬 단편 모음집.",
+    "overallSummary": "클론다이크 골드러시 등 극한의 상황에 처한 인간들이 자연과 맞서며 겪는 생존 투쟁과 그 속에서 드러나는 인간의 본성을 그린 작품들.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들길을 가는 사내에게 건배",
+        "summary": "극한의 추위 속에서 생존을 위해 고군분투하는 사내들의 이야기."
+      },
+      {
+        "sectionTitle": "백색 침묵",
+        "summary": "북극의 가혹한 자연 속에서 벌어지는 생존과 죽음의 경계."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "자연주의적 관점에서의 인간 생존 본능"
+      }
+    ],
+    "keyEntitiesText": "맬러뮤트 키드, 잭 웨스턴데일",
+    "settingText": "클론다이크, 북극 등 극한의 자연"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JhxkPeoWvTK8ZJff3pmsSO5x8gv9oWRO",
+    "filename": "잭 런던 단편선(현대문학 단편선)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:26:56.000Z",
+    "size": "1009394",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1JhxkPeoWvTK8ZJff3pmsSO5x8gv9oWRO/view?usp=drivesdk",
+    "sourceSha256": "6f106a8e128557f683ba111b06cda7ba17332370ed4542bbd854a64fb03a0b9c",
+    "textSha256": "6956350c01cbbfbb46caa7a4f814b545656cb488b96ce342e097cb2961dcf5db",
+    "changeKey": "a001d72f0feef717eebc8d28eb02804e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ce1e56d917118b816e03",
+    "workId": "ce1e56d917118b816e03",
+    "driveFileId": "1JhxkPeoWvTK8ZJff3pmsSO5x8gv9oWRO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:59:03.284031+00:00",
+    "updatedAt": "2026-09-22T01:59:03.284045+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:59:03.284137+00:00"
+    }
+  }
+}

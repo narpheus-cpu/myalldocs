@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제임스 서버 단편선",
+    "author": "제임스 서버",
+    "genre": "단편소설",
+    "tags": [
+      "유머",
+      "풍자",
+      "일상",
+      "공상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "유머",
+        "풍자"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1894년 미국 출생. 20세기 미국 최고의 유머 작가.",
+    "oneLineSummary": "일상의 부조리를 유머와 풍자로 그려낸 단편 모음집.",
+    "overallSummary": "평범한 일상 속에서 벌어지는 기발한 사건들과 인간의 나약함, 공상을 유머러스하고 풍자적으로 다룬 단편들.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "월터 미티의 이중생활",
+        "summary": "평범한 일상과 화려한 공상을 오가는 월터 미티의 이야기."
+      },
+      {
+        "sectionTitle": "유령소동",
+        "summary": "집안에서 벌어진 유령 소동을 다룬 유머러스한 단편."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "기발한 상상력과 날카로운 풍자"
+      }
+    ],
+    "keyEntitiesText": "월터 미티",
+    "settingText": "미국 일상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1T7ovvBYsnQ2elJ3gb7XhkbN3xRDRgpBV",
+    "filename": "제임스 서버 단편선(현대문학 단편선)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:42:10.000Z",
+    "size": "603436",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1T7ovvBYsnQ2elJ3gb7XhkbN3xRDRgpBV/view?usp=drivesdk",
+    "sourceSha256": "1c63e5d33f860014ca50a9eec984660dfc250f180f3011bba4bb202c3424c2b6",
+    "textSha256": "3b9adf1296af2fb3707372330fa0e4423e410dabe3cb64e629e1b64b76bf0b6a",
+    "changeKey": "c21e03f3be0febbe7764ba32edb6b474",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c357e5ca750f51bad55d",
+    "workId": "c357e5ca750f51bad55d",
+    "driveFileId": "1T7ovvBYsnQ2elJ3gb7XhkbN3xRDRgpBV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:00:08.827449+00:00",
+    "updatedAt": "2026-09-22T02:00:08.827464+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:00:08.827561+00:00"
+    }
+  }
+}
