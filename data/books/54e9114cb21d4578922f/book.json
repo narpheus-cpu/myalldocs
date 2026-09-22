@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "Z의 비극",
+    "author": "엘러리 퀸",
+    "genre": "추리 소설",
+    "tags": [
+      "드루리 레인",
+      "페이션스 섬",
+      "사설탐정",
+      "억울한 누명",
+      "정치 음모"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "엘러리 퀸이 드루리 레인 4부작 중 세 번째로 선보인 소설로, 섬 경감의 딸 페이션스 섬이 화자로 등장한다.",
+    "oneLineSummary": "섬 경감의 영리한 딸 페이션스 섬이 은퇴한 드루리 레인과 협력하여 대리석 채굴업자 살인 사건의 억울한 누명을 벗기기 위해 활약하는 이야기이다.",
+    "overallSummary": "10년이 흘러 노쇠해진 드루리 레인의 70세 생일에 섬 경감과 그의 딸 페이션스 섬, 브루노 주지사가 방문한다. 리즈 시의 대리석 채굴 회사 소유주 엘리후 클레이와 의문의 동업자 포셋 박사를 둘러싼 사건이 터지고, 억울하게 살인 누명을 쓴 아론 다우를 구하기 위해 페이션스 섬과 드루리 레인이 미궁의 사건을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 드루리 레인 씨와의 만남",
+        "summary": "화자인 페이션스 섬이 자신의 신상을 소개하고, 아버지 섬 경감과 함께 엘리후 클레이의 의뢰를 받은 뒤 브루노 주지사와 함께 70세가 된 드루리 레인을 찾아가는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "화자의 변화",
+        "value": "젊고 예리한 여성 사설탐정 페이션스 섬의 1인칭 시점을 통한 서사 전개와 드루리 레인과의 조화"
+      }
+    ],
+    "keyEntitiesText": "드루리 레인, 페이션스 섬, 섬 경감, 브루노 주지사, 엘리후 클레이, 아이라 포셋 박사, 조엘 포셋 상원의원, 아론 다우",
+    "settingText": "뉴욕주 틸덴 카운티 리즈 시 및 허드슨 강변의 햄릿 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kh5eta88GK8qPrTJaSU-R01mJtjBe7Cr",
+    "filename": "엘러리 퀸-Z의 비극-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-06T13:00:36.000Z",
+    "size": "655292",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1kh5eta88GK8qPrTJaSU-R01mJtjBe7Cr/view?usp=drivesdk",
+    "sourceSha256": "7a90963da100c10b164cf9946a83223608476f07c8058019059f30deacb6662f",
+    "textSha256": "5430ea546d5425b0ca11fc12edf733e2953f93fee9f80221ee254186a35e506d",
+    "changeKey": "12b7b5705d38e772cad9355c643158d2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "54e9114cb21d4578922f",
+    "workId": "54e9114cb21d4578922f",
+    "driveFileId": "1kh5eta88GK8qPrTJaSU-R01mJtjBe7Cr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:29:44.220860+00:00",
+    "updatedAt": "2026-09-22T07:29:44.220880+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:29:44.221019+00:00"
+    }
+  }
+}

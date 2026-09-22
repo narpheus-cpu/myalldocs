@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소문",
+    "author": "오기와라 히로시",
+    "genre": "미스터리 스릴러",
+    "tags": [
+      "입소문 마케팅",
+      "유언비어",
+      "도시전설",
+      "레인맨",
+      "반전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오기와라 히로시는 치밀한 구성과 유머, 독창적인 반전으로 일본 문단에서 많은 사랑을 받는 미스터리 작가이다.",
+    "oneLineSummary": "향수 브랜드 홍보를 위해 인위적으로 퍼뜨린 노란 레인코트 살인마 입소문이 실제 참혹한 엽기 살인 사건으로 현실화되는 이야기이다.",
+    "overallSummary": "광고기획자 니시자키 유즈루와 가토는 기획사 컴사이트의 쓰에무라 사야 사장을 찾아간다. 쓰에무라는 신제품 향수 '뮈리엘'을 홍보하기 위해 여고생 모니터들을 이용해 '레인맨 살인마가 발목을 자르지만 뮈리엘 향수를 뿌리면 건드리지 않는다'는 가짜 입소문 마케팅(WOM)을 펼친다. 그러나 이 인위적인 유언비어가 시부야와 메구로 일대에서 진짜 엽기적인 살인 사건으로 일어난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~2장",
+        "summary": "여고생들 사이에 퍼지는 '레인맨' 도시전설 소문이 제시되고, 도쿄에이전시 직원들과 컴사이트 쓰에무라 사야의 기발한 입소문 마케팅(WOM) 전략 회의 과정이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 메시지",
+        "value": "마케팅 목적으로 조작된 유언비어가 집단 공포 심리와 결합하여 현실의 참혹한 범죄로 전이되는 과정 추적"
+      }
+    ],
+    "keyEntitiesText": "니시자키 유즈루, 가토, 쓰에무라 사야(컴사이트 사장), 아소 이사, 유카와 비서, 뮈리엘 향수, 레인맨",
+    "settingText": "2000년대 초반 일본 도쿄 시부야, 메구로, 히몬야 공원 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GmiLsCKwLUQ3sFJDnLnyWyodRRijD9mO",
+    "filename": "오기와라 히로시-소문(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:44:08.000Z",
+    "size": "678545",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1GmiLsCKwLUQ3sFJDnLnyWyodRRijD9mO/view?usp=drivesdk",
+    "sourceSha256": "c717e2eb548d77d7d6604e66146f21c9f0dd0b14130b31812a6c5b228f5beb52",
+    "textSha256": "1e00a06d91e1b1e5457340f7b81f2dada03e0591fc54ddfe6bd16e8aed71e86b",
+    "changeKey": "3072cb7d515c05ed53492ea8a91af977",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7b96da42b280005402e0",
+    "workId": "7b96da42b280005402e0",
+    "driveFileId": "1GmiLsCKwLUQ3sFJDnLnyWyodRRijD9mO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:30:18.190168+00:00",
+    "updatedAt": "2026-09-22T07:30:18.190184+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:30:18.190291+00:00"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "19가지 키워드로 읽는 핑거스미스",
+    "author": "열린책들 디지털콘텐츠팀",
+    "genre": "문학 해설 / 가이드북",
+    "tags": [
+      "핑거스미스",
+      "세라 워터스",
+      "빅토리아 시대",
+      "문학 분석",
+      "키워드 가이드"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic",
+        "literary_criticism"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "열린책들 디지털콘텐츠팀은 세계문학 명작들의 깊이 있는 이해와 독서의 즐거움을 돕기 위해 디지털 독서 가이드를 기획 및 제작한다.",
+    "oneLineSummary": "세라 워터스의 대표작 '핑거스미스'를 런던, 빅토리아 시대, 장갑, 고아 등 19가지 키워드로 해설하는 독서 가이드북이다.",
+    "overallSummary": "세라 워터스의 소설 '핑거스미스'의 배경이 되는 빅토리아 시대 런던의 사회적 모순과 산업화, 찰스 디킨스의 리얼리즘 문학적 전통, 여성주의 및 동성애, 고아와 어머니의 비극적 서사 등 소설 속 핵심 주제와 오브제들을 19가지 테마 키워드로 정리하여 작품의 여운과 사회문화적 의미를 깊이 있게 음미할 수 있도록 안내한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "19가지 키워드 해설 (런던, 빅토리아시대, 이야기, 아가씨, 장갑, 리얼리즘, 드라마, 찰스 디킨스, 고아, 어머니 등)",
+        "summary": "핑거스미스의 공간적·시대적 배경인 런던과 빅토리아 조의 모순, 여성의 굴절된 위치, 디킨스적 고아 서사 등을 다양한 문화 콘텐츠 영상 및 사상과 연결해 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 방법론",
+        "value": "문학 작품을 19개의 사회·문화·역사적 키워드로 해체 및 재구성하여 입체적으로 독해하도록 돕는 가이드"
+      }
+    ],
+    "keyEntitiesText": "세라 워터스, 수전 트린더, 모드 릴리, 찰스 디킨스, 버지니아 울프, 빅토리아 여왕, 박찬욱 감독",
+    "settingText": "19세기 빅토리아 시대의 영국의 수도 런던 및 교외 시골 브라이어 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1m4z1IMeR9U2YWt3j_1vuOQDKMMuTN8XJ",
+    "filename": "열린책들-19가지 키워드로 읽는 핑거스미스(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T21:13:52.000Z",
+    "size": "63415",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1m4z1IMeR9U2YWt3j_1vuOQDKMMuTN8XJ/view?usp=drivesdk",
+    "sourceSha256": "4d3b516787941f7d5745974cf581ec3e1cd7979f153bddaaf7f3cc616e308adb",
+    "textSha256": "3f6ccba406582296c40ebab5119e379563e641efb6059c2dcb14bfec1364bff0",
+    "changeKey": "3a27f8ead463a90497f72c571b8b11d0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "21d9884e48aaffb28574",
+    "workId": "21d9884e48aaffb28574",
+    "driveFileId": "1m4z1IMeR9U2YWt3j_1vuOQDKMMuTN8XJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:30:11.923861+00:00",
+    "updatedAt": "2026-09-22T07:30:11.923876+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:30:11.923985+00:00"
+    }
+  }
+}

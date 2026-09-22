@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지옥의 인형",
+    "author": "오사와 아리마사",
+    "genre": "하드보일드 형사물",
+    "tags": [
+      "신주쿠 상어",
+      "나오키상 수상작",
+      "신종 마약",
+      "10대 범죄",
+      "사메지마"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "hardboiled",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오사와 아리마사는 대표작 '지옥의 인형(원제: 무간인형)'으로 제109회 나오키상을 수상했다.",
+    "oneLineSummary": "사메지마 형사가 신주쿠 야스쿠니도리 일대에서 신종 마약을 유통하는 10대 청소년 패거리를 추적하다 피습당하면서 범죄의 뿌리를 쫓는다.",
+    "overallSummary": "해질녘 신주쿠 야스쿠니도리 게임센터 근처에서 세 명의 청소년 패거리가 신종 불법 약물을 유통하는 현장을 포착한 사메지마 형사. 소년들을 추적해 체포하는 과정에서 잭나이프를 휘두르는 장발 소년에게 칼로 엉덩이를 가볍게 찔리는 부상을 입는다. 그러나 치밀하게 현장을 수색해 쓰레기통 속에 숨겨진 약물 시트를 찾아내고 나카야마 미치히로를 심문하며 거대한 마약 공급책을 뒤쫓는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "사메지마가 신주쿠 게임센터 밀매 현장에서 10대 소년 패거리를 추적하다 칼에 찔리는 상처를 입지만, 쓰레기통에서 약물을 찾아내고 나카야마 소년을 취조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "청소년 마약 범죄",
+        "value": "10대들의 냉소적이고 감각적인 범죄 양상과 경찰의 단속망을 피하는 지능적 수법 묘사"
+      }
+    ],
+    "keyEntitiesText": "사메지마 형사, 모모이 과장, 나카야마 미치히로(10대 피의자), 신주쿠 야스쿠니도리 게임센터",
+    "settingText": "도쿄 신주쿠 야스쿠니도리, 코마 극장 근처 유흥가 및 신주쿠 경찰서 심문실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1aVsfn0nQEHdwQho2UO9y5vYohF_OldR3",
+    "filename": "오사와 아리마사-지옥의 인형.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.053Z",
+    "size": "570683",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1aVsfn0nQEHdwQho2UO9y5vYohF_OldR3/view?usp=drivesdk",
+    "sourceSha256": "9418777767e251d4fccb4d4ba247bba5c86cd9f2310ca30aaf0ef256a387a1d1",
+    "textSha256": "b443cc961dd8a5751f849786e691c3edc68a9233d1e5f0aabe67dc24bd4c9642",
+    "changeKey": "5017e6fd8d27ae3c2afa96a4ac1c14c7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "93facdc772892a42ad50",
+    "workId": "93facdc772892a42ad50",
+    "driveFileId": "1aVsfn0nQEHdwQho2UO9y5vYohF_OldR3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:30:47.200784+00:00",
+    "updatedAt": "2026-09-22T07:30:47.200797+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:30:47.200915+00:00"
+    }
+  }
+}

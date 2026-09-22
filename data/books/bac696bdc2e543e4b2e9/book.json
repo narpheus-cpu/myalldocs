@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스노우맨",
+    "author": "요 네스뵈",
+    "genre": "범죄 스릴러",
+    "tags": [
+      "해리 홀레",
+      "눈사람",
+      "연쇄살인마",
+      "오슬로",
+      "북유럽 노아르"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "요 네스뵈는 반항적이고 독창적인 형사 해리 홀레 캐릭터를 통해 북유럽 노아르 스릴러의 열풍을 이끈 거장이다.",
+    "oneLineSummary": "첫눈이 내리면 유부녀를 노려 잔혹하게 살해한 뒤 현장에 눈사람을 남기는 연쇄살인마를 형사 해리 홀레가 추적한다.",
+    "overallSummary": "1980년 로메리케에서 불륜 관계에 있던 남녀가 정사를 나눈 직후 창밖의 눈사람을 목격하고 비극적 암시를 느끼는 사건으로 시작된다. 2004년 11월 오슬로, 첫눈이 내린 날 해리 홀레 반장은 곰팡이 감지업자의 방문과 편지를 받으며, 첫눈이 올 때마다 유부녀들이 사라지고 현장에 눈사람이 남겨지는 기괴한 연쇄 살인 사건의 시작을 직감한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1980년 11월 5일 수요일: 눈사람 / 2004년 11월 2일 1일째: 눈은 조약돌",
+        "summary": "1980년 비밀 정사 후 창밖의 기괴한 눈사람을 본 유부녀 사라의 비극과, 2004년 첫눈 내린 오슬로에서 해리 홀레 반장이 라디오 뉴스를 들으며 미스터리한 편지와 사건에 직면하는 기두."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시그니처 트릭",
+        "value": "아이들의 천진난만한 상징인 눈사람을 참혹한 연쇄 살인의 서막이자 범인의 시그니처로 반전시킨 북유럽 스릴러"
+      }
+    ],
+    "keyEntitiesText": "해리 홀레(강력반 반장), 사라 크비네슬란, 라켈, 스노우맨(연쇄살인마), 오슬로 경찰청",
+    "settingText": "1980년 로메리케 및 2004년 11월 첫눈이 내리는 노르웨이 오슬로 시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RqCIccYSm5cNUf-66eJlnAfoIidLiGdd",
+    "filename": "요 네스뵈-스노우맨-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-05T13:27:02.000Z",
+    "size": "1023087",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1RqCIccYSm5cNUf-66eJlnAfoIidLiGdd/view?usp=drivesdk",
+    "sourceSha256": "5618e728138c76eca01e2cdc57c174c8deb34316304655a1cd6e59f2aba0018b",
+    "textSha256": "b8367e6ca224dddf897f08ba6f2b4776ed75b414d9299de23871f14f05d67fbc",
+    "changeKey": "b80850abd10cd8644af488e9ac73bb74",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bac696bdc2e543e4b2e9",
+    "workId": "bac696bdc2e543e4b2e9",
+    "driveFileId": "1RqCIccYSm5cNUf-66eJlnAfoIidLiGdd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:31:01.372986+00:00",
+    "updatedAt": "2026-09-22T07:31:01.373002+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:31:01.373111+00:00"
+    }
+  }
+}

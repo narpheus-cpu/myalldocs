@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "Y의 비극",
+    "author": "엘러리 퀸",
+    "genre": "추리 소설",
+    "tags": [
+      "드루리 레인",
+      "해터 가문",
+      "독살",
+      "광기",
+      "밀실 살인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "엘러리 퀸이 바너비 로스라는 필명으로 집필한 드루리 레인 시리즈 두 번째 작품으로 미스터리 역사상 최고 명작 중 하나로 꼽힌다.",
+    "oneLineSummary": "실종되었던 화학자 요크 해터의 시신이 바다에서 청산가리 중독 상태로 발견된 후 해터 가문에 몰아치는 광기 어린 연속 살인을 드루리 레인이 파헤친다.",
+    "overallSummary": "실종된 괴짜 화학자 요크 해터의 시신이 뉴욕만에서 청산가리 독사 시신으로 낚여 오른다. 유서와 신원 확인으로 자살로 처리되는 듯했으나, 지독하게 비정상적이고 괴팍한 해터가 저택 안에서 독살 시도와 기괴한 살인 사건들이 연이어 발생한다. 섬 경감과 함께 드루리 레인이 참전하여 해터가 인물들의 복잡한 심리와 비극적 내막을 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장: 시체 안치소",
+        "summary": "바다에서 요크 해터의 시신이 발견되고, 실링 검시관과 섬 경감이 부검을 거쳐 독사 및 자살 유서를 확인하며 해터 부인과 가족들이 시신을 확인한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비극적 테마",
+        "value": "비정상적이고 병리적인 가문 내부의 갈등과 유전적 광기가 불러일으킨 연쇄 비극"
+      }
+    ],
+    "keyEntitiesText": "드루리 레인, 요크 해터, 에밀리 해터(노부인), 콘래드 해터, 루이자 캠피언, 섬 경감, 실링 검시관, 메리엄 박사, 트리벳 선장",
+    "settingText": "뉴욕 시 노스 워싱턴 스퀘어의 고풍스럽고 음울한 해터가 저택 및 브로드웨이 시체 안치소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "141tP2UqTovUjmo4pNONipN0lwn_WKzoM",
+    "filename": "엘러리 퀸-Y의 비극-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-06T12:58:40.000Z",
+    "size": "766959",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/141tP2UqTovUjmo4pNONipN0lwn_WKzoM/view?usp=drivesdk",
+    "sourceSha256": "10ee3bc5b010383af8dcf7466ea34ff63554a173ae9443d5892ab91942ec327f",
+    "textSha256": "fb9f59e9d40c3cf88ae344c9b6aaca994db91ca8dac5082cac94b4a49d9a01b4",
+    "changeKey": "d4efc252bb0d2a49c78c4286f1baff88",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5bc698c5a4af95637454",
+    "workId": "5bc698c5a4af95637454",
+    "driveFileId": "141tP2UqTovUjmo4pNONipN0lwn_WKzoM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:29:26.998842+00:00",
+    "updatedAt": "2026-09-22T07:29:26.998858+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:29:26.998966+00:00"
+    }
+  }
+}

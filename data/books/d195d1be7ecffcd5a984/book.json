@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "주검의 난",
+    "author": "오사와 아리마사",
+    "genre": "하드보일드 형사물",
+    "tags": [
+      "신주쿠 상어",
+      "사메지마",
+      "국세청 사찰관",
+      "장물아비",
+      "미모리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "hardboiled",
+        "crime"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오사와 아리마사는 신주쿠를 무대로 활동하는 독고다이 형사 사메지마의 활약을 그린 시리즈로 큰 인기를 얻었다.",
+    "oneLineSummary": "사메지마 형사가 대학 동창인 국세청 사찰관 타키자와와 공조하여 거형 장물아비 미모리의 뒤에 숨겨진 거대 탈세 및 범죄 망을 추적한다.",
+    "overallSummary": "신신주쿠의 호텔 라운지에서 사메지마 형사는 대학 동기이자 국세청 사찰관인 타키자와 켄이치를 만난다. 타키자와는 대규모 사무기기 장물 유통 및 탈세 사건을 쫓고 있으며, 수배 중인 거물 장물아비 미모리의 신원을 확인해달라고 부탁한다. 미모리 및 의문의 남성 미쓰즈카, 콜걸 포주 하마쿠라 등과 얽히며 사건은 복잡해진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "사메지마가 타키자와와 함께 호텔 라운지에서 장물아비 미모리를 감시하고, 이어서 과거 형사 출신인 미쓰즈카와 콜걸 포주 하마쿠라를 접촉하는 과정을 담고 있다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기관 간 알력 및 공조",
+        "value": "경찰 조직과 국세청 사찰부 간의 정보 불신, 비밀 공조 및 장물 유통망 추적 과정"
+      }
+    ],
+    "keyEntitiesText": "사메지마 형사, 타키자와 켄이치(국세청 사찰관), 미모리(장물아비), 하마쿠라(포주), 미쓰즈카(전직 형사), 니시신주쿠 고층 호텔",
+    "settingText": "도쿄 니시신주쿠의 고층 호텔 커피 라운지 및 아키하바라 중고 사무기기 유통가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ySGen8Z0xrS8Iy8Hqr3Foa3z9RJqIJWQ",
+    "filename": "오사와 아리마사-주검의난.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.030Z",
+    "size": "449222",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1ySGen8Z0xrS8Iy8Hqr3Foa3z9RJqIJWQ/view?usp=drivesdk",
+    "sourceSha256": "1ee0cc90960a92114c9aab5fea72c7b10307b16e4e2088ecb2d813af99e3ee4d",
+    "textSha256": "bbf38502c658aa9f00649b461cfd5306f7b56eca1dcaf824d9d7a0f283a22101",
+    "changeKey": "934cf49e370fb5e60d23f2537e08c2e8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d195d1be7ecffcd5a984",
+    "workId": "d195d1be7ecffcd5a984",
+    "driveFileId": "1ySGen8Z0xrS8Iy8Hqr3Foa3z9RJqIJWQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:30:39.619031+00:00",
+    "updatedAt": "2026-09-22T07:30:39.619045+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:30:39.619137+00:00"
+    }
+  }
+}

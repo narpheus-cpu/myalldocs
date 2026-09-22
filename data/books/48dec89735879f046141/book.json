@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뱀파이어와의 인터뷰",
+    "author": "앤 라이스",
+    "genre": "다크 판타지",
+    "tags": [
+      "뱀파이어",
+      "인터뷰",
+      "고딕",
+      "루이지애나",
+      "회상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "horror",
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "앤 라이스는 인간적인 번뇌와 영생의 비극을 담은 뱀파이어 소설로 고딕 스릴러의 거장으로 불린다.",
+    "oneLineSummary": "젊은 리포터와의 밤샘 인터뷰를 통해 뱀파이어 루이가 18세기 루이지애나에서 시작된 자신의 고통스러운 불사 삶을 고백하는 이야기이다.",
+    "overallSummary": "한 방에서 젊은 인터뷰어와 맞닿은 뱀파이어 루이는 테이프 녹음기를 통해 자신의 지난 삶을 이야기한다. 1791년 루이지애나 인디고 농장주였던 스물다섯 살 시절, 종교적 환영을 보던 동생의 비극적 죽음과 그로 인한 죄책감, 그리고 뱀파이어 레스타에게 습격당해 피를 빼앗기고 영생의 괴물이 되어버린 전말을 상세히 풀어놓는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장: 마지막 일출 이후",
+        "summary": "뱀파이어 루이가 젊은 청년과 만나 녹음기로 인터뷰를 시작하며, 1791년 루이지애나 농장주 시절 동생의 죽음과 자신이 뱀파이어가 되던 당시의 사건을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 구조",
+        "value": "현대의 인터뷰 프레임 속에서 과거 18세기의 비극적 사건들이 액자식 회상으로 펼쳐지는 구조"
+      }
+    ],
+    "keyEntitiesText": "루이(뱀파이어 고백자), 젊은 인터뷰어(리포터), 루이의 남동생, 신부, 뉴올리언스, 세인트루이스 공동묘지, 퐁듀락 농장",
+    "settingText": "18세기 후반(1791년) 프랑스 식민지 풍의 루이지애나 인디고 재배 농장 및 뉴올리언스 주변 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18G_H359idsDnYfVBP-tW8JwlO5z3_auB",
+    "filename": "앤 라이스-뱀파이어와의 인터뷰(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:26.797Z",
+    "size": "928954",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/18G_H359idsDnYfVBP-tW8JwlO5z3_auB/view?usp=drivesdk",
+    "sourceSha256": "9b8938e8af5ba4dda04e3b0111c9084436583f8e787e2f5bd50ffe05f94581d7",
+    "textSha256": "25e9334c2061f9b4ca2a4eade38d451c2a8adb7fb8e58ed8ebaf3b12112cff0b",
+    "changeKey": "651f93576654c7d7e4697ac25e47189f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "48dec89735879f046141",
+    "workId": "48dec89735879f046141",
+    "driveFileId": "18G_H359idsDnYfVBP-tW8JwlO5z3_auB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:28:39.065930+00:00",
+    "updatedAt": "2026-09-22T07:28:39.065945+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:28:39.066053+00:00"
+    }
+  }
+}

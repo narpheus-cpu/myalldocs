@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "X의 비극",
+    "author": "엘러리 퀸",
+    "genre": "추리 소설",
+    "tags": [
+      "드루리 레인",
+      "연역 추리",
+      "전차 살인",
+      "독순술",
+      "바너비 로스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "엘러리 퀸은 프레더릭 다네이와 맨프레드 리가 결성한 추리소설 작가 유닛으로 바너비 로스라는 필명으로 드루리 레인 4부작을 발표했다.",
+    "oneLineSummary": "귀머거리 원로 배우 드루리 레인이 놀라운 연역 추리력과 독순술로 붐비는 전차 안에서 벌어진 불가능 살인 사건을 해결해 나가는 이야기이다.",
+    "overallSummary": "뉴욕 시의 질주하는 전차 안에서 주식 중개인 할리 롱스트리트가 독침이 장착된 기괴한 무기에 의해 살해당한다. 브루노 지방 검사와 섬 경감은 비범한 추리력을 지닌 은퇴한 셰익스피어 노배우 드루리 레인을 찾아가 조언을 구한다. 드루리 레인은 햄릿 저택에서 거주하며 완벽한 독순술과 단서 분석을 통해 사건의 진상을 연역적으로 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1막 제1장: 햄릿 저택",
+        "summary": "브루노 검사와 섬 경감이 허드슨 강변의 중세풍 대저택 햄릿 저택을 방문하여 청각을 잃었으나 독순술과 지혜를 지닌 드루리 레인을 만난다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "탐정 캐릭터",
+        "value": "청각을 잃었으나 독순술과 연극적 변장술, 비범한 연역적 논리력을 겸비한 은퇴 노배우 탐정 드루리 레인"
+      }
+    ],
+    "keyEntitiesText": "드루리 레인, 섬 경감, 브루노 지방 검사, 퀘이시(분장사), 폴스태프, 할리 롱스트리트, 존 드위트, 햄릿 저택",
+    "settingText": "1930년대 대공황기 뉴욕 시 및 허드슨 강변의 중세 고성 양식 대저택 '햄릿 저택'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-8NqTPdIGUeMBhRCWCrwfNDi4HhFwcVQ",
+    "filename": "엘러리 퀸-X의 비극-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-06T12:55:54.000Z",
+    "size": "805571",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1-8NqTPdIGUeMBhRCWCrwfNDi4HhFwcVQ/view?usp=drivesdk",
+    "sourceSha256": "9bf1970f827bd815061320859bb65d805e424373dbfff147676ecda483f50fbd",
+    "textSha256": "d3d2e0fa5916014acf773bbea62ca76a19c4466dd40f6c44615241a353b68c72",
+    "changeKey": "bb94f95723ec34a66be09e34ac35bfae",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a14a00505421c7ccbee3",
+    "workId": "a14a00505421c7ccbee3",
+    "driveFileId": "1-8NqTPdIGUeMBhRCWCrwfNDi4HhFwcVQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T07:29:20.946762+00:00",
+    "updatedAt": "2026-09-22T07:29:20.946777+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T07:29:20.946888+00:00"
+    }
+  }
+}
