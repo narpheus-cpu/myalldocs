@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "포르투나의 선택 1",
+    "author": "콜린 매컬로",
+    "genre": "소설",
+    "tags": [
+      "로마사",
+      "마리우스",
+      "술라",
+      "역사소설"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오스트레일리아의 역사소설가.",
+    "oneLineSummary": "가이우스 마리우스와 루키우스 코르넬리우스 술라의 활약상을 다룬 로마 대하사극 시리즈 《포르투나의 선택》의 서두와 앞선 시리즈 요약.",
+    "overallSummary": "앞선 두 작품인 《로마의 일인자》와 《풀잎관》의 핵심 내용을 요약하여 독자의 이해를 돕고, 마리우스의 최하층민 모병 개혁, 게르만족과의 전쟁, 그리고 로마 공화정 말기의 권력 투쟁으로 이어지는 역사적 배경을 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1·2부 줄거리 요약",
+        "summary": "마리우스의 집정관 당선, 아프리카 전쟁, 게르만족의 침략과 베르켈라이 전투 등 이전 시리즈의 주요 사건 요약."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 구조",
+        "value": "방대한 로마 시리즈의 이전 역사적 사건들을 압축하여 제공하는 요약본"
+      }
+    ],
+    "keyEntitiesText": "가이우스 마리우스, 루키우스 코르넬리우스 술라, 율리아, 사투르니누스",
+    "settingText": "고대 로마, 아프리카, 갈리아"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JyE-muO74s92J7ORs9_83DcxnKqSFnSI",
+    "filename": "콜린 매컬로-포르투나의 선택(1-3권 세트).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.407Z",
+    "size": "2787117",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "콜린 매컬로-카이사르 등"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/콜린 매컬로-카이사르 등",
+    "webViewLink": "https://drive.google.com/file/d/1JyE-muO74s92J7ORs9_83DcxnKqSFnSI/view?usp=drivesdk",
+    "sourceSha256": "fbf95a92df94ae09363a8d04715244fdb2c57d1000612f4c283e1eeca243b829",
+    "textSha256": "4620793b33e32214b1da02bb2ebd086271c4de50df9e99432a4836a16818c5e5",
+    "changeKey": "d93387babb464f747f618f4a274a9b82",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "715eedecdf8083bb4bc5",
+    "workId": "715eedecdf8083bb4bc5",
+    "driveFileId": "1JyE-muO74s92J7ORs9_83DcxnKqSFnSI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:45:37.742086+00:00",
+    "updatedAt": "2026-09-22T02:45:37.742101+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:45:37.742210+00:00"
+    }
+  }
+}

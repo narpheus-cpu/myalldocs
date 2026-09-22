@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시월의 말 1",
+    "author": "콜린 매컬로",
+    "genre": "소설",
+    "tags": [
+      "로마사",
+      "카이사르",
+      "내전",
+      "이집트"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오스트레일리아의 역사소설가.",
+    "oneLineSummary": "파르살로스 전투 이후 이집트와 동방으로 향한 카이사르의 행보와 로마 공화정 말기의 정세를 다룬 소설.",
+    "overallSummary": "파르살로스에서 폼페이우스를 물리친 카이사르는 아시아 속주와 로도스를 거쳐 이집트로 향하는 과정에서 속주의 경제적 부담을 덜어주고 파르나케스의 침략 등 동방의 위기에 대처한다. 한편 브루투스와의 복잡한 관계도 그려진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 이집트의 카이사르",
+        "summary": "카이사르가 아시아 속주와 로도스에서 속주민들을 구제하고 폼페이우스의 이집트 도피 소식을 접한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정치적 묘사",
+        "value": "전쟁 후 수습 과정과 로마 지배층의 경제적·정치적 갈등"
+      }
+    ],
+    "keyEntitiesText": "가이우스 율리우스 카이사르, 마르쿠스 유니우스 브루투스, 칼비누스",
+    "settingText": "고대 로마, 로도스, 아시아 속주, 타르소스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1r6fn7DSzMM5gysUl-p2kg2_4m1Ogz3uK",
+    "filename": "콜린 매컬로-시월의 말(1-3권 세트).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.156Z",
+    "size": "2486694",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "콜린 매컬로-카이사르 등"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/콜린 매컬로-카이사르 등",
+    "webViewLink": "https://drive.google.com/file/d/1r6fn7DSzMM5gysUl-p2kg2_4m1Ogz3uK/view?usp=drivesdk",
+    "sourceSha256": "e4d57ae9a44c2036718d85eda61593f2855e15cb4907513a25ed22a1b47a6f9c",
+    "textSha256": "55ca34a58cbcfe325c87690671c38b16f6c4add7f24346615230ebc181f78a07",
+    "changeKey": "ba208ecbb00be874a1157244b2b5d794",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "22925f2877217bc49d54",
+    "workId": "22925f2877217bc49d54",
+    "driveFileId": "1r6fn7DSzMM5gysUl-p2kg2_4m1Ogz3uK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:45:15.122594+00:00",
+    "updatedAt": "2026-09-22T02:45:15.122609+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:45:15.122712+00:00"
+    }
+  }
+}

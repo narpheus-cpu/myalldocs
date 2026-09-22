@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "더 로드",
+    "author": "코맥 매카시",
+    "genre": "소설",
+    "tags": [
+      "디스토피아",
+      "부자",
+      "생존",
+      "멸망"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 거장 소설가로 《핏빛 자오선》, 《노인의 나라는 없다》 등을 집필함.",
+    "oneLineSummary": "모든 것이 잿더미가 된 종말 이후의 세계를 걸어가는 아버지와 아들의 처절하고도 감동적인 여정.",
+    "overallSummary": "지구에 닥친 대재앙으로 문명이 붕괴하고 모든 생명체가 죽어간 세상. 회색빛으로 물든 황폐한 길을 따라 남쪽을 향해 걷는 아버지와 아들은 추위, 배고픔, 그리고 식인을 하는 생존자들의 위협 속에서도 서로를 향한 인간성을 지켜나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "초반부",
+        "summary": "까만 숲에서 깨어난 남자가 아들과 함께 카트를 끌고 남쪽으로 향하는 여정을 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제 의식",
+        "value": "극한의 절망 속에서도 유지되는 부성애와 인간성에 대한 탐구"
+      }
+    ],
+    "keyEntitiesText": "남자, 아이",
+    "settingText": "문명이 파괴된 디스토피아의 미국 남부"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wCY9P_L3nh1maPtAASmjFc7Ym5ElRoXY",
+    "filename": "코맥 매카시-더 로드(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.995Z",
+    "size": "391845",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1wCY9P_L3nh1maPtAASmjFc7Ym5ElRoXY/view?usp=drivesdk",
+    "sourceSha256": "b5e96160499b8bdd5ae9c7f8d47296fd9a4cfff3b4571c9757d4a59512701a37",
+    "textSha256": "af5dc48509a3845a505d6be9685df1eabaca69058be07cdeea640cc0af50f182",
+    "changeKey": "3c2371890b764d7807d593b002395414",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c2b9931720e092ea1bc4",
+    "workId": "c2b9931720e092ea1bc4",
+    "driveFileId": "1wCY9P_L3nh1maPtAASmjFc7Ym5ElRoXY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:44:36.910666+00:00",
+    "updatedAt": "2026-09-22T02:44:36.910682+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:44:36.910785+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑과 슬픔의 여로",
+    "author": "코니 메이슨",
+    "genre": "소설",
+    "tags": [
+      "로맨스",
+      "중세",
+      "복수",
+      "역사소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 역사 로맨스 소설 작가.",
+    "oneLineSummary": "중세 영국의 혼란기를 배경으로 가문의 복수와 운명적인 사랑을 그린 로맨스 소설.",
+    "overallSummary": "누명을 쓰고 처형당한 아버지를 지켜본 소년 제이미 모티머가 성인이 되어 원수 가문에 복수하고자 하고, 원수의 약혼녀인 앨리타 서머셋과의 얽히고설킨 운명적 사랑과 갈등을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 1장",
+        "summary": "1403년 런던에서 모티머 경이 역모 누명을 쓰고 처형당하고, 어린 아들 제이미가 복수를 다짐하며 성장한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "중세 역사적 배경과 격정적인 로맨스의 결합"
+      }
+    ],
+    "keyEntitiesText": "제이미 모티머, 앨리타 서머셋, 게일로드, 에반 그레이",
+    "settingText": "15세기 중세 영국, 런던, 윈저 성, 북웨일스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OP_75zC01Dx-9oV-rGXOCZ1mVSoIr_3G",
+    "filename": "코니 메이슨-사랑과 슬픔의 여로.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.974Z",
+    "size": "578366",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1OP_75zC01Dx-9oV-rGXOCZ1mVSoIr_3G/view?usp=drivesdk",
+    "sourceSha256": "a5b2858303f369ae6f8eb1c1a17e0e7fbd60c31d4630b37175443d41c4744b85",
+    "textSha256": "bc43b85e8fcc8e0e7020ec1ea80fde18fd910c186b90d6064006892429219bcf",
+    "changeKey": "b8d66c14fd0878bdefba03e67c459918",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c1a1f68f397ee3f18a6e",
+    "workId": "c1a1f68f397ee3f18a6e",
+    "driveFileId": "1OP_75zC01Dx-9oV-rGXOCZ1mVSoIr_3G",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:44:30.580839+00:00",
+    "updatedAt": "2026-09-22T02:44:30.580854+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:44:30.580942+00:00"
+    }
+  }
+}

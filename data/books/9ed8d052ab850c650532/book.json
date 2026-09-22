@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "테오의 여행 3",
+    "author": "카트린 클레망",
+    "genre": "소설",
+    "tags": [
+      "인도",
+      "바라나시",
+      "힌두교",
+      "불교",
+      "요가"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 철학자이자 소설가.",
+    "oneLineSummary": "테오가 인도 바라나시를 방문해 힌두교와 불교의 교리와 전설을 접하며 명상과 삶의 진리를 배우는 이야기.",
+    "overallSummary": "인도의 바라나시에서 요가 스승 쿨카르니 선생의 지도 아래 요가를 익히고 힌두교의 신화와 부처의 생애, 불교의 사성제를 배우며 삶과 고통의 의미를 성찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "악마와 기적",
+        "summary": "바라나시에서 요가와 힌두교 신화, 불교의 기원에 대해 탐구한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "종교적 탐구",
+        "value": "힌두교의 신화 체계와 불교의 사성제 및 중도 사상"
+      }
+    ],
+    "keyEntitiesText": "테오, 마르트 고모, 쿨카르니 선생, 부처",
+    "settingText": "인도, 바라나시, 사르나스(녹야원)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qcE_TJ1sqVKx2rsDdoNLN6OUbdDqFoNX",
+    "filename": "카트린 클레망-테오의 여행 3.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.838Z",
+    "size": "408342",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1qcE_TJ1sqVKx2rsDdoNLN6OUbdDqFoNX/view?usp=drivesdk",
+    "sourceSha256": "24a7338f594c39f1052c08b73ce6ae53f522c8f33a54d5559857392903263663",
+    "textSha256": "b2772f44070f897546b183fbe371dc76008474831f0055957b0407d654109b22",
+    "changeKey": "a25137dee9a9a37f1a507dcf882c3b2e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9ed8d052ab850c650532",
+    "workId": "9ed8d052ab850c650532",
+    "driveFileId": "1qcE_TJ1sqVKx2rsDdoNLN6OUbdDqFoNX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:43:50.475880+00:00",
+    "updatedAt": "2026-09-22T02:43:50.475895+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:43:50.475986+00:00"
+    }
+  }
+}

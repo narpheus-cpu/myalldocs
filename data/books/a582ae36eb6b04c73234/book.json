@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "종이 동물원",
+    "author": "켄 리우",
+    "genre": "소설",
+    "tags": [
+      "SF",
+      "단편집",
+      "번역",
+      "은유",
+      "가족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "휴고상과 네뷸러상을 수상한 미국의 SF 및 판타지 작가이자 번역가.",
+    "oneLineSummary": "인간의 기억과 소통, 문화적 정체성의 문제를 은유적이고 감동적으로 그려낸 단편 소설집.",
+    "overallSummary": "표제작 '종이 동물원'을 포함하여 인간관계, 번역과 소통의 기적, 가족 간의 갈등과 화해를 다룬 다수의 단편 소설들이 수록되어 있다. 저자는 환상적인 설정을 통해 인간의 본질적인 감정을 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "종이 동물원 본문",
+        "summary": "종이로 만든 동물에 생명을 불어넣는 어머니와 자라면서 어머니와 멀어지는 아들의 가슴 아픈 갈등과 화해."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 특징",
+        "value": "SF적 상상력과 이민자 가정의 문화적 갈등을 결합한 서사"
+      }
+    ],
+    "keyEntitiesText": "잭, 어머니, 아빠, 라오후",
+    "settingText": "미국 코네티컷 주"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iT2SzbNR8P9wLJkXYvY0nXRxnJgcp3lU",
+    "filename": "켄 리우-종이동물원-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:26:22.000Z",
+    "size": "899019",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1iT2SzbNR8P9wLJkXYvY0nXRxnJgcp3lU/view?usp=drivesdk",
+    "sourceSha256": "d0f5d4094545e4234175702654d7ea8e5cc63e65f744f25796732bef50fb440b",
+    "textSha256": "54c15bd80371f569a40cb153bcd290de04026f5315e40ebee39ed463a3788f71",
+    "changeKey": "9f0d11d04cd0d4eb6277b37468fb8a01",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a582ae36eb6b04c73234",
+    "workId": "a582ae36eb6b04c73234",
+    "driveFileId": "1iT2SzbNR8P9wLJkXYvY0nXRxnJgcp3lU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:44:24.851542+00:00",
+    "updatedAt": "2026-09-22T02:44:24.851558+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:44:24.851663+00:00"
+    }
+  }
+}

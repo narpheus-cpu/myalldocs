@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마의 일인자 2권",
+    "author": "콜린 매컬로",
+    "genre": "소설",
+    "tags": [
+      "로마사",
+      "마리우스",
+      "술라",
+      "역사소설"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오스트레일리아의 역사소설가.",
+    "oneLineSummary": "가이우스 마리우스의 집정관 취임과 최하층민 모병 개혁, 그리고 로마 공화정의 권력 투쟁을 다룬 소설.",
+    "overallSummary": "마리우스는 집정관에 취임하여 병력 부족 문제를 해결하기 위해 파격적인 최하층민 모병 제도를 도입하고 평민회의 지지를 얻는다. 원로원 귀족들과 스카우루스는 이에 거세게 반발하며 공화정 내부의 갈등이 심화된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "원로원 연설과 모병 개혁",
+        "summary": "마리우스가 원로원에서 최하층민 모병의 필요성을 역설하고 평민회를 통해 법을 통과시킨다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 전환점",
+        "value": "로마 군대의 군사 개혁과 마리우스의 정치적 부상"
+      }
+    ],
+    "keyEntitiesText": "가이우스 마리우스, 루키우스 코르넬리우스 술라, 스카우루스, 유구르타",
+    "settingText": "고대 로마, 아프리카"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lLQYs6H8Y8Co6tRDKTHkKoRtRCy7bpQ6",
+    "filename": "콜린 매컬로-로마의 일인자 2권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.085Z",
+    "size": "612141",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "콜린 매컬로-카이사르 등"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/콜린 매컬로-카이사르 등",
+    "webViewLink": "https://drive.google.com/file/d/1lLQYs6H8Y8Co6tRDKTHkKoRtRCy7bpQ6/view?usp=drivesdk",
+    "sourceSha256": "6bd8e1fc42042e43331bdc84cf74504c4833f746070999855ef44714b1e50d0a",
+    "textSha256": "e8d70ccca2e2f128d11681ed1ba5ef54d583d358cbb6f60d230f4a21dcb6b066",
+    "changeKey": "9571e4ec0898db180a83cc827f152c27",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "137a397c24382833394d",
+    "workId": "137a397c24382833394d",
+    "driveFileId": "1lLQYs6H8Y8Co6tRDKTHkKoRtRCy7bpQ6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:44:54.892610+00:00",
+    "updatedAt": "2026-09-22T02:44:54.892626+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:44:54.892732+00:00"
+    }
+  }
+}

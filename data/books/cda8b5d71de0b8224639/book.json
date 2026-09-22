@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "카이사르의 여자들 1",
+    "author": "콜린 매컬로",
+    "genre": "소설",
+    "tags": [
+      "로마사",
+      "카이사르",
+      "정치",
+      "역사소설"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오스트레일리아의 역사소설가.",
+    "oneLineSummary": "기원전 68년 로마를 배경으로 카이사르의 정치적 도약과 귀족 사회의 복잡한 인간관계를 그린 역사소설.",
+    "overallSummary": "어린 브루투스와 그의 어머니 세르빌리아의 일상, 그리고 로마 귀족 사회의 사교 모임 속에서 카이사르를 비롯한 인물들이 권력을 향해 나아가는 과정과 정세의 변화를 세밀하게 포착한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 기원전 68년 6월부터 기원전 66년 3월까지",
+        "summary": "세르빌리아와 아들 브루투스가 아우렐리아의 집에 방문하고, 율리아와의 인연 및 로마 정계의 분위기가 묘사된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회상 묘사",
+        "value": "로마 상류층의 교육, 가문 간의 혼맥, 정치가들의 야망"
+      }
+    ],
+    "keyEntitiesText": "마르쿠스 유니우스 브루투스, 세르빌리아, 율리아, 아우렐리아",
+    "settingText": "고대 로마, 팔라티누스 언덕, 수부라"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Z8CTHxXn_bAnOaaAV--IMCjjByYpk7V-",
+    "filename": "콜린 매컬로-카이사르의 여자들(1-3권 세트).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.353Z",
+    "size": "2306833",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "콜린 매컬로-카이사르 등"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/콜린 매컬로-카이사르 등",
+    "webViewLink": "https://drive.google.com/file/d/1Z8CTHxXn_bAnOaaAV--IMCjjByYpk7V-/view?usp=drivesdk",
+    "sourceSha256": "70e12972e3b4098cf5c517423cbb6af9291ed3c189a92582ee606790feae5b76",
+    "textSha256": "b383da71058070ca3d88e9a5e505caa46258dff0527f8dcd3d722fd8ffe42ade",
+    "changeKey": "04b4317dff11355f9d943c6231b7d9e8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cda8b5d71de0b8224639",
+    "workId": "cda8b5d71de0b8224639",
+    "driveFileId": "1Z8CTHxXn_bAnOaaAV--IMCjjByYpk7V-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:45:28.906478+00:00",
+    "updatedAt": "2026-09-22T02:45:28.906493+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:45:28.906581+00:00"
+    }
+  }
+}

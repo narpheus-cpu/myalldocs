@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "카이사르",
+    "author": "콜린 매컬로",
+    "genre": "소설",
+    "tags": [
+      "로마사",
+      "카이사르",
+      "역사소설",
+      "정치"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오스트레일리아의 신경과학자이자 철저한 고증을 바탕으로 로마 시리즈를 집필한 역사소설가.",
+    "oneLineSummary": "갈리아 원정과 브리타니아 원정 등 로마의 정치가이자 장군인 카이사르의 생애와 정무를 다룬 대하 역사소설.",
+    "overallSummary": "기원전 54년부터 브리타니아 원정, 갈리아 평정, 로마 공화정 내부의 정치적 갈등과 폼페이우스와의 대립 등 카이사르를 중심으로 한 로마 공화정 말기의 격동적인 역사를 생생하게 복원한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "브리타니아 및 갈리아",
+        "summary": "카이사르의 브리타니아 원정 시기와 로마 본토 및 갈리아에서의 정치적 군사적 움직임."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 고증",
+        "value": "로마 군사 체제와 정치가들의 정치적 역학 관계에 대한 상세한 묘사"
+      }
+    ],
+    "keyEntitiesText": "가이우스 율리우스 카이사르, 폼페이우스 마그누스, 라비에누스, 만두브라키우스",
+    "settingText": "고대 로마, 갈리아, 브리타니아"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HsWbmLb8rkFKOx-SIEC2LGba0JSUXlvm",
+    "filename": "콜린 매컬로-카이사르(1-3).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.249Z",
+    "size": "2341972",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "콜린 매컬로-카이사르 등"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/콜린 매컬로-카이사르 등",
+    "webViewLink": "https://drive.google.com/file/d/1HsWbmLb8rkFKOx-SIEC2LGba0JSUXlvm/view?usp=drivesdk",
+    "sourceSha256": "57f06faa4b24b27dc0aa8d67d5254df2c38cf3daffcbdc46a3945ae047b65f1b",
+    "textSha256": "df3eda144f83358948b95c0a001ec458eba5849213c757f15317551332ce9d7c",
+    "changeKey": "06393bceaa3ff80e3288e7db2728833c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7162f39b60fde2800ac1",
+    "workId": "7162f39b60fde2800ac1",
+    "driveFileId": "1HsWbmLb8rkFKOx-SIEC2LGba0JSUXlvm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:44:43.262554+00:00",
+    "updatedAt": "2026-09-22T02:44:43.262570+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:44:43.262677+00:00"
+    }
+  }
+}

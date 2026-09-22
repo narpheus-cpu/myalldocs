@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마의 일인자 3권",
+    "author": "콜린 매컬로",
+    "genre": "소설",
+    "tags": [
+      "로마사",
+      "개선행진",
+      "유구르타",
+      "마리우스"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오스트레일리아의 역사소설가.",
+    "oneLineSummary": "마리우스의 아프리카 전쟁 승전 기념 개선행진과 포로 유구르타의 최후를 그린 역사소설.",
+    "overallSummary": "마리우스는 아프리카 전쟁을 승리로 이끌고 화려한 개선행진을 거행하며 로마의 영웅으로 자리 잡는다. 한편 패배한 누미디아의 왕 유구르타는 로마로 압송되어 감옥과 최후를 맞이할 준비를 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "개선행진과 유구르타의 최후",
+        "summary": "마리우스의 성대한 개선행진 준비 과정과 유구르타의 회고 및 술라와의 대화."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 대비",
+        "value": "마리우스와 술라의 서로 다른 군사적·정치적 성향 묘사"
+      }
+    ],
+    "keyEntitiesText": "가이우스 마리우스, 루키우스 코르넬리우스 술라, 유구르타, 누미디쿠스",
+    "settingText": "고대 로마"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17Vq84PZt7sADjtMAvJe9UOhDDE_d9dSo",
+    "filename": "콜린 매컬로-로마의 일인자 3권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:19.109Z",
+    "size": "1062557",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "콜린 매컬로-카이사르 등"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/콜린 매컬로-카이사르 등",
+    "webViewLink": "https://drive.google.com/file/d/17Vq84PZt7sADjtMAvJe9UOhDDE_d9dSo/view?usp=drivesdk",
+    "sourceSha256": "04cf6ee591053efe6b9de573682f0ad9635fb426c554ef77d5d0c49ad7f56fef",
+    "textSha256": "93cf2fb9793589972c6e314f1b9a901e124464763b523af573f76d3259bc8dff",
+    "changeKey": "f001efaae243c8341c4a2e762bca88ce",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e3364d2e8af15058f57",
+    "workId": "2e3364d2e8af15058f57",
+    "driveFileId": "17Vq84PZt7sADjtMAvJe9UOhDDE_d9dSo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:45:02.480800+00:00",
+    "updatedAt": "2026-09-22T02:45:02.480816+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:45:02.480920+00:00"
+    }
+  }
+}

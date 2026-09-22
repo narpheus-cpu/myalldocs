@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "캐릭터 공작소",
+    "author": "오슨 스콧 카드",
+    "genre": "실용서",
+    "tags": [
+      "소설창작",
+      "작법",
+      "캐릭터",
+      "작문노트"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "베스트셀러 SF 작가이자 소설 창작 이론가.",
+    "oneLineSummary": "생생하고 입체적인 소설 캐릭터를 창조하고 구성하는 방법을 다룬 창작 매뉴얼.",
+    "overallSummary": "소설 쓰기의 구성 단계와 집필 단계의 차이를 설명하고, 행동, 동기, 과거, 평판, 고정관념 등을 활용해 독자에게 깊은 인상을 남기는 캐릭터를 만드는 법을 안내한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "캐릭터란 무엇인가?",
+        "summary": "행동, 동기, 과거, 평판, 고정관념 등 소설 속 인물을 현실의 인간처럼 구축하는 요소들을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "창작 기법",
+        "value": "설계자와 집필자의 역할 분담 및 캐릭터 빌딩 원칙"
+      }
+    ],
+    "keyEntitiesText": "오슨 스콧 카드, 게르트 프램",
+    "settingText": "창작론 일반"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1samRY25XKOSrkdqgvMPQmZ_C1WslYnJF",
+    "filename": "오슨 스콧-캐릭터 공작소(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T02:43:24.000Z",
+    "size": "600305",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1samRY25XKOSrkdqgvMPQmZ_C1WslYnJF/view?usp=drivesdk",
+    "sourceSha256": "daef11da0e04ac3144cd324157d660290c0524b946842e4225871d2dc8a7f77d",
+    "textSha256": "2b9dc7196c52b0ac1347284b98a439d3df98929d0713c285bcf1ab9a78dc2b94",
+    "changeKey": "188fd3be23b57b68df010e24fd45243e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "16d20ab5ec84c347008e",
+    "workId": "16d20ab5ec84c347008e",
+    "driveFileId": "1samRY25XKOSrkdqgvMPQmZ_C1WslYnJF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:44:10.497955+00:00",
+    "updatedAt": "2026-09-22T02:44:10.497971+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8617,
+      "updatedAt": "2026-09-22T02:44:10.498073+00:00"
+    }
+  }
+}

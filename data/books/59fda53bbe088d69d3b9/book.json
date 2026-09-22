@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "테오의 여행 4",
+    "author": "카트린 클레망",
+    "genre": "소설",
+    "tags": [
+      "러시아",
+      "모스크바",
+      "정교회",
+      "역사",
+      "슬픔"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스의 철학자이자 소설가.",
+    "oneLineSummary": "러시아를 방문한 테오가 정교회의 역사와 러시아의 고통의 종교적 의미를 접하며 슬픔을 치유해 나가는 이야기.",
+    "overallSummary": "슬픔에 잠긴 테오는 마르트 고모와 함께 러시아 모스크바에 도착한다. 러시아 정교회의 역사, 니콘 총대주교의 전례 개혁과 복고신앙파의 분신 자살 사건 등을 통해 고통과 신앙의 관계를 고찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고통의 종교",
+        "summary": "러시아의 역사와 정교회 전통, 고난을 중시하는 종교적 정체성을 탐구한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "종교적 탐구",
+        "value": "러시아 정교회, 복고신앙파와 수용소 역사"
+      }
+    ],
+    "keyEntitiesText": "테오, 마르트 고모, 알렉세이, 니콘 총대주교",
+    "settingText": "러시아, 모스크바"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HelcoYPcOK9K28SfxuJdNia3JTNfQI69",
+    "filename": "카트린 클레망-테오의 여행 4.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:18.855Z",
+    "size": "358616",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1HelcoYPcOK9K28SfxuJdNia3JTNfQI69/view?usp=drivesdk",
+    "sourceSha256": "49649434993c7aa0a38a8bc1f7d4b1420c29319a1789721fd7d61c98d6830ac9",
+    "textSha256": "601d6deac97978698184abed2bf926e8b9d4719e318475677217a5ed8722a4b7",
+    "changeKey": "30df76f619e33d053e82d89b69c9235d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "59fda53bbe088d69d3b9",
+    "workId": "59fda53bbe088d69d3b9",
+    "driveFileId": "1HelcoYPcOK9K28SfxuJdNia3JTNfQI69",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T02:43:56.831170+00:00",
+    "updatedAt": "2026-09-22T02:43:56.831186+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T02:43:56.831290+00:00"
+    }
+  }
+}
