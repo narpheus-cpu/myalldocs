@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신 4",
+    "author": "베르나르 베르베르",
+    "genre": "프랑스 소설",
+    "tags": [
+      "프로메테우스",
+      "Y게임",
+      "돌고래족",
+      "유토피아",
+      "스파르타쿠스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "philosophical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설 《개미》와 《타나토노트》로 세계적 명성을 얻은 프랑스 소설가로 신화와 과학, 상상력을 융합한 작품 세계를 구축했다.",
+    "oneLineSummary": "프로메테우스의 강의 강평에서 미카엘 팽송은 굴복하지 않는 저항 정신을 인정받고 각자의 유토피아를 고민한다.",
+    "overallSummary": "18호 지구 문명 경영 게임인 Y게임에서 프로메테우스는 라울의 독수리족, 멜리에스의 호랑이족 등에 이어 체념하지 않고 저항하는 미카엘 팽송의 돌고래족을 12위로 평가한다. 탈락자들이 발생하는 가운데 프로메테우스는 미카엘에게 노예 반란의 흐름과 적극적 개입의 필요성을 충고하고, 후보생들에게 각자의 유토피아를 작성하게 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "62. 프로메테우스의 강평",
+        "summary": "프로메테우스가 문명 게임의 순위를 발표하고 노예제 폐지와 저항을 고수하는 미카엘의 태도를 칭찬하며 공격적 실천을 조언한다."
+      },
+      {
+        "sectionTitle": "63. 백과사전 (검치호랑이)",
+        "summary": "환경적 요인뿐 아니라 생물학적·문화적 특성이 종의 멸종을 가져오는 원인을 검치호랑이의 사례를 들어 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "저항과 유토피아 철학",
+        "value": "패배가 예상되더라도 부당한 압제에 굴복하지 않는 저항 정신과 '공포에서 해방된 세계'라는 유토피아 개념을 강조함."
+      }
+    ],
+    "keyEntitiesText": "미카엘 팽송, 프로메테우스, 라울 라조르박, 조르주 멜리에스, 마리 퀴리, 마타 하리, 조르주 클레망소",
+    "settingText": "신들의 학교 아에덴의 강의실 및 시뮬레이션 공간 18호 지구"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11FtLKOdxZ4SsBppDaIv09VqbKyNWOx7u",
+    "filename": "베르나르 베르베르-신 4권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.053Z",
+    "size": "432174",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/11FtLKOdxZ4SsBppDaIv09VqbKyNWOx7u/view?usp=drivesdk",
+    "sourceSha256": "6def8c08bfcfd4e1ef90ac52c9f63d5ad25ea209560e852e8e2cfd7b55cb250c",
+    "textSha256": "f38271080a9be2e26b2e88fa6f2da4d4a2f1e0d03ff6623beb5e9d5dd7aa6216",
+    "changeKey": "d9151dc4bcc70ba1215a32a06ae90001",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "10782b9693b32eb4766a",
+    "workId": "10782b9693b32eb4766a",
+    "driveFileId": "11FtLKOdxZ4SsBppDaIv09VqbKyNWOx7u",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:28:56.989759+00:00",
+    "updatedAt": "2026-09-22T00:28:56.989774+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:28:56.989886+00:00"
+    }
+  }
+}

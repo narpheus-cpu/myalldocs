@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신 2",
+    "author": "베르나르 베르베르",
+    "genre": "프랑스 소설",
+    "tags": [
+      "씨족시대",
+      "거북족",
+      "쥐족",
+      "문명형성",
+      "불의발견"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical_allegory",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1961년생 프랑스 작가로 《개미》, 《타나토노트》 등을 집필한 세계적 베스트셀러 소설가이다.",
+    "oneLineSummary": "원시 인류 집단인 거북족과 쥐족이 각자의 환경 속에서 생존 방식을 터득하며 원시 문명을 형성해 나가는 과정을 그린다.",
+    "overallSummary": "야수와 번개의 위협 속에서 거북의 껍데기를 모방하여 동굴로 피신하고 불을 다루며 정착 생활과 언어, 예술을 꽃피운 거북족과, 쥐들의 잔혹한 싸움에서 지배와 폭력의 원리를 학습하여 무기와 약탈을 통해 세력을 확장하는 쥐족의 상반된 원시 문명 발전 양상을 대조하여 묘사한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "65. 씨족시대 - 거북족",
+        "summary": "야수의 공격과 천재지변 속에서 한 소녀가 거북을 본보기로 삼아 동굴 정착과 불의 활용, 도구 및 동굴 벽화를 탄생시키며 문명을 발전시킨다."
+      },
+      {
+        "sectionTitle": "65. 씨족시대 - 쥐족",
+        "summary": "벼락으로 우두머리를 잃은 후 한 젊은이가 쥐들의 잔혹한 싸움을 목격하고 폭력과 복종, 무기 탈취를 통해 강력한 지배 체제를 확립해 나간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문명 발전 모델 비교",
+        "value": "방어와 정착, 학습을 바탕으로 한 평화적 발전(거북족)과 폭력, 정복, 지배를 기반으로 한 침략적 발전(쥐족)의 원형적 대립을 보여줌."
+      }
+    ],
+    "keyEntitiesText": "검은 눈의 소녀, 회색 눈의 젊은이, 거북족, 쥐족",
+    "settingText": "번개와 맹수가 위협하는 원시의 평원, 언덕, 동굴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1V7Jot030PvX-gOIXZYA6ooszl9OfsFqM",
+    "filename": "베르나르 베르베르-신 2권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.003Z",
+    "size": "333830",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/1V7Jot030PvX-gOIXZYA6ooszl9OfsFqM/view?usp=drivesdk",
+    "sourceSha256": "c69758f70654a9c64c27eb7cf68218f43ba7b597237cea92638dec012bd41fa3",
+    "textSha256": "4c8c6d4cd1256baa73fef58972041ff08e262697907b21d264278e469bf39e9a",
+    "changeKey": "7ef4998ba52fa9c25e13ccfe382b4db2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1062333e21535022b72f",
+    "workId": "1062333e21535022b72f",
+    "driveFileId": "1V7Jot030PvX-gOIXZYA6ooszl9OfsFqM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:28:45.283022+00:00",
+    "updatedAt": "2026-09-22T00:28:45.283037+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:28:45.283141+00:00"
+    }
+  }
+}

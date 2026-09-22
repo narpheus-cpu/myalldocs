@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "닥터 지바고 1",
+    "author": "보리스 파스테르나크",
+    "genre": "러시아 장편소설",
+    "tags": [
+      "유라 지바고",
+      "어머니의 죽음",
+      "니콜라이 아저씨",
+      "러시아 혁명 전야",
+      "역사와 기독교"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical_biography",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소련의 저명한 시인이자 소설가로 1958년 노벨 문학상 수상자로 선정되었던 러시아 현대 문학의 거장이다.",
+    "oneLineSummary": "어린 소년 유라 지바고가 어머니의 장례를 치르고 외삼촌과 함께 전원지대를 여행하며 삶과 죽음, 역사의 의미를 감각한다.",
+    "overallSummary": "부유했던 가문의 몰락과 어머니의 죽음을 겪은 열 살 소년 유라 지바고는 전직 신부인 외삼촌 니콜라이 베제나핀의 손에 이끌린다. 유라는 볼가강 유역의 두플랑카로 여행하며 자연의 풍경과 어머니의 부재를 깊이 체감하고, 니콜라이 신부는 동료 보스코보이니코프와 함께 그리스도교적 역사관과 인류애에 대한 사유를 나눈다. 한편 기차를 타고 모스크바로 향하던 미샤 고르돈 일행의 시선이 교차한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 장례식과 수도원의 밤",
+        "summary": "유라가 어머니 마리아 니콜라예브나의 장례를 치른 뒤 수도원에서 눈보라를 바라보며 어머니의 상실을 비통해한다."
+      },
+      {
+        "sectionTitle": "2~4. 몰락한 가문과 두플랑카 행",
+        "summary": "방탕한 아버지로 인해 몰락한 지바고 가문의 내력을 짚고, 유라가 외삼촌과 함께 마차를 타고 두플랑카 들판을 가로지른다."
+      },
+      {
+        "sectionTitle": "5~7. 니콜라이의 사상과 멈춰 선 열차",
+        "summary": "니콜라이 신부가 그리스도와 역사에 관한 철학을 설파하는 도중 5시 급행열차가 늪지대에 멈추어서고, 어린 미샤 고르돈의 여정이 소개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기독교적 인본주의와 자연주의",
+        "value": "죽음의 비극을 그리스도교적 부활과 역사의 연속성 안에서 극복하려는 사상적 모색을 러시아의 광활한 자연 풍경과 결합함."
+      }
+    ],
+    "keyEntitiesText": "유라 (유리 지바고), 마리아 니콜라예브나, 니콜라이 니콜라예비치 베제나핀, 파벨, 보스코보이니코프, 미샤 고르돈",
+    "settingText": "20세기 초 제정 러시아의 모스크바 근교 묘지, 수도원 및 두플랑카의 전원 들판"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16iN4Oe2NjM9_kc8yqJRwc6RkAlDf8kFT",
+    "filename": "보리스 파스테르나크-닥터 지바고-.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.116Z",
+    "size": "1347364",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/16iN4Oe2NjM9_kc8yqJRwc6RkAlDf8kFT/view?usp=drivesdk",
+    "sourceSha256": "c89de2d99532ef97f6832575aca732e2f38ea046c5ccb369e5b4c4344831b11b",
+    "textSha256": "e27bec66c597861e961ac43c18063e56d48b29387697c326c6c049b6cce841b0",
+    "changeKey": "896366c6a8bc7a0439ef7c227896a263",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9f428ca0d9d082f6849f",
+    "workId": "9f428ca0d9d082f6849f",
+    "driveFileId": "16iN4Oe2NjM9_kc8yqJRwc6RkAlDf8kFT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:30:02.813466+00:00",
+    "updatedAt": "2026-09-22T00:30:02.813482+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.59,
+      "updatedAt": "2026-09-22T00:30:02.813599+00:00"
+    }
+  }
+}

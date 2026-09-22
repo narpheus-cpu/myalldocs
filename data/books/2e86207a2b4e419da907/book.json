@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신 1",
+    "author": "베르나르 베르베르",
+    "genre": "프랑스 소설",
+    "tags": [
+      "신",
+      "미카엘 팽송",
+      "상상력",
+      "천사",
+      "영계"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1961년 툴루즈 출생으로 법학과 저널리즘을 전공하였으며, 1991년 소설 《개미》로 세계적인 주목을 받은 프랑스의 대표 작가이다.",
+    "oneLineSummary": "인간과 천사의 단계를 거친 미카엘 팽송이 외딴 행성 아에덴에서 신 후보생으로서 새로운 존재 양식과 세계를 마주하는 이야기이다.",
+    "overallSummary": "인간에서 천사를 거쳐 신 후보생의 단계로 진입한 미카엘 팽송은 해가 두 개 뜨고 달이 세 개 뜨는 외딴 행성 아에덴의 바다에 추락해 다시 육신을 얻는다. 섬의 해변에 도달한 그는 절벽 위에서 뛰어내리며 경고를 남긴 쥘 베른과 마주치고, 기이한 나비 소녀를 만나는 등 미지의 신세계에서 새로운 차원의 깨달음과 모험을 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "인류 역사의 승패와 배신을 관찰하는 숨겨진 증인으로서의 신의 존재를 고찰하며, 소설 집필 동기와 배경 사상을 밝힌다."
+      },
+      {
+        "sectionTitle": "제1부 우리는 신 (1~10)",
+        "summary": "미카엘 팽송이 영혼의 상태에서 새로운 행성의 바다로 떨어져 육신을 되찾고, 섬에서 쥘 베른의 추락과 나비 소녀를 겪으며 미지의 세계에 발을 들인다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관 연계",
+        "value": "전작 《타나토노트》와 《천사들의 제국》을 잇는 영혼 진화 3부작의 귀결로 인간, 천사를 거쳐 신의 영역으로 상승하는 구조를 지님."
+      }
+    ],
+    "keyEntitiesText": "미카엘 팽송, 에드몽 웰즈, 프레디 메예르, 쥘 베른, 라울 라조르박, 나비 소녀",
+    "settingText": "해가 두 개 뜨고 달이 세 개 있는 외딴 행성의 섬 아에덴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1g5d6i2oDijb0VsXlFjlANLBPbhGo2dSe",
+    "filename": "베르나르 베르베르-신 1권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:13.973Z",
+    "size": "353303",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/1g5d6i2oDijb0VsXlFjlANLBPbhGo2dSe/view?usp=drivesdk",
+    "sourceSha256": "677e9258d5cfee34deed0445f0f31cd3e50acf33db60c8045a6986d79449b8c9",
+    "textSha256": "4d33cf5cbca10cdc3777859099e072270ed98b649e65a4471573ef09595ccede",
+    "changeKey": "e3d7d285380c3062322a7b93142cf868",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e86207a2b4e419da907",
+    "workId": "2e86207a2b4e419da907",
+    "driveFileId": "1g5d6i2oDijb0VsXlFjlANLBPbhGo2dSe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:28:39.468844+00:00",
+    "updatedAt": "2026-09-22T00:28:39.468861+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:28:39.469096+00:00"
+    }
+  }
+}

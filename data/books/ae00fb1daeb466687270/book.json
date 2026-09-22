@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그 무덤에 침을 뱉어라",
+    "author": "보리스 비앙",
+    "genre": "프랑스 소설",
+    "tags": [
+      "하드보일드",
+      "인종 차별",
+      "복수",
+      "리 앤더슨",
+      "위장 백인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "crime_thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "버논 설리번이라는 가명으로 하드보일드 소설을 발표해 사회적 충격을 던졌던 프랑스의 작가이자 음악가, 엔지니어이다.",
+    "oneLineSummary": "흑인의 혈통을 숨기고 백인으로 위장한 리 앤더슨이 백턴 서점에 정착하여 백인 사회를 향한 복수를 계획한다.",
+    "overallSummary": "린치로 동생을 잃은 혼혈 흑인 리 앤더슨은 백인처럼 보이는 외모를 무기 삼아 남부 도시 백턴의 서점 관리인으로 부임한다. 전임자 한센을 통해 서점 업무와 동네 청소년들의 분위기를 파악한 그는 마을의 백인 처녀들과 교류를 트면서, 백인 사회의 인종적 위선에 대한 잔혹한 복수심을 차근차근 키워나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "버논 설리번이라는 가명 뒤에 숨겨진 작품의 배경, 미국의 인종 갈등과 문학적 특징(하드보일드, 에로티시즘)을 소개한다."
+      },
+      {
+        "sectionTitle": "1. 백턴으로의 부임",
+        "summary": "동생의 죽음 이후 백인 행세를 하며 백턴에 온 주인공이 전임자 한센에게 서점을 인계받고 바에서 대화를 나눈다."
+      },
+      {
+        "sectionTitle": "2. 일상과 욕망의 시동",
+        "summary": "서점 장사에 적응한 주인공이 권태와 욕망을 느끼며 건너편 편의점에서 젊은 백인 처녀와 춤을 추며 접근한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "경계인과 인종적 복수극",
+        "value": "백인의 외모를 지녔으나 내면은 학대받는 흑인에 속한 주인공의 심리를 하드보일드 문체로 서술하여 인종적 모순과 파괴적 충동을 드러냄."
+      }
+    ],
+    "keyEntitiesText": "나 (리 앤더슨 / 버논 설리번), 톰 (형), 클렘, 한센, 편의점의 금발 처녀",
+    "settingText": "미국 남부의 소도시 백턴, 펄 하버 스트리트 서점과 리카르도 바"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bskV_9lw03wWZAm7H8WJ43A5N9oI4xuL",
+    "filename": "보리스 비앙-그 무덤에 침을 뱉어라.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.327Z",
+    "size": "168848",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1bskV_9lw03wWZAm7H8WJ43A5N9oI4xuL/view?usp=drivesdk",
+    "sourceSha256": "113f9f3636a244754e76406c649131a8784f385022769bc07860788920a3d4a1",
+    "textSha256": "4be605f095cf024e2a106c08d017c3c4defed0c591447909605b0d34eba09f57",
+    "changeKey": "30a402901fff83dd7ef351d9d450c400",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ae00fb1daeb466687270",
+    "workId": "ae00fb1daeb466687270",
+    "driveFileId": "1bskV_9lw03wWZAm7H8WJ43A5N9oI4xuL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:29:56.006717+00:00",
+    "updatedAt": "2026-09-22T00:29:56.006732+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:29:56.006847+00:00"
+    }
+  }
+}

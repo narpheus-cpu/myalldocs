@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "7학년들의 비밀",
+    "author": "벳시 헤인즈",
+    "genre": "청소년 소설",
+    "tags": [
+      "성장소설",
+      "사춘기",
+      "태피 반대 클럽",
+      "비밀 결사",
+      "외모 콤플렉스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "young_adult"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 아동·청소년 문학 작가로 여성 청소년들의 성장과 우정을 다룬 인기 시리즈를 다수 발표하였다.",
+    "oneLineSummary": "7학년이 된 제너는 외모가 출중한 맞수 태피의 신체적 발달 소식에 자극받아 친구들과 함께 은밀한 대항 계획을 세운다.",
+    "overallSummary": "부모의 이혼 후 아빠의 편지를 상자에 모아두며 외로움을 달래던 제너는 개학을 앞두고 맞수인 태피의 가슴이 발달했다는 소식을 듣고 큰 충격을 받는다. 제너와 친구들(베스, 멜러니, 크리스티, 캐티)은 '태피 반대 클럽'을 소집하고, '밀로의 비너스'라는 가슴 확대 기구를 구매하기 위해 '람다 로'라는 비밀 결사를 결성하며 사춘기 특유의 혼란과 경쟁심을 겪는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 장화 상자 속의 편지와 태피 반대 클럽",
+        "summary": "방 청소를 하던 제너는 아빠의 옛 편지를 보며 슬픔에 잠겼다가, 태피가 신체적으로 성숙해져 돌아왔다는 소식을 듣고 긴급회의를 소집한다."
+      },
+      {
+        "sectionTitle": "2. '밀로의 비너스'를 위하여",
+        "summary": "제너와 친구들은 태피를 따라잡기 위해 잡지 광고에 나온 가슴 확대 기구를 사기로 결의하고 비밀 결사 '람다 로'를 결성한다."
+      },
+      {
+        "sectionTitle": "3. 내가 좋아하는 닐 선생님",
+        "summary": "개학 날, 제너는 엄마가 골라준 마음에 들지 않는 답답한 옷을 입고 등교하며 새로운 학기를 맞이한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사춘기 신체 변화와 심리 묘사",
+        "value": "2차 성징과 외모 경쟁이라는 사춘기 소녀들의 현실적 고민을 유머러스하면서도 생생한 내면 독백을 통해 포착함."
+      }
+    ],
+    "keyEntitiesText": "제너, 태피, 베스, 멜러니, 크리스티, 캐티, 모나, 닐 선생님",
+    "settingText": "미국의 평범한 가정집 제너의 방과 개학 날 학교 교실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CkTpC7Z6FbTtRvMZKLdchIrmQ5CsV9Ym",
+    "filename": "벳시 헤인즈-7학년들의 비밀.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.295Z",
+    "size": "263129",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1CkTpC7Z6FbTtRvMZKLdchIrmQ5CsV9Ym/view?usp=drivesdk",
+    "sourceSha256": "ee483de49ddcdb73e309848315298f58851b5f8599dbea28d43efa177b40762a",
+    "textSha256": "1ddac3b348434dabd6da7e1745862633fb3539308c340510a2463b3675fd6c8e",
+    "changeKey": "9712761121ffcfb1e2c99d1a0d6bf599",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d522082ad35142980d63",
+    "workId": "d522082ad35142980d63",
+    "driveFileId": "1CkTpC7Z6FbTtRvMZKLdchIrmQ5CsV9Ym",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:29:42.377693+00:00",
+    "updatedAt": "2026-09-22T00:29:42.377708+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:29:42.377822+00:00"
+    }
+  }
+}

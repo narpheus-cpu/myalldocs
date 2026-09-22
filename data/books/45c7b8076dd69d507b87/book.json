@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "거품처럼 사라진 젊은 나날들",
+    "author": "보리스 비앙",
+    "genre": "프랑스 소설",
+    "tags": [
+      "초현실주의",
+      "코랭",
+      "쉬크",
+      "니꼴라",
+      "피아노 칵테일"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "satire",
+        "avant_garde"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "제2차 세계대전 직후 활약하며 사르트르 등과 교유했던 프랑스의 다재다능한 지성인이자 포스트모더니즘의 선구적 작가이다.",
+    "oneLineSummary": "부유한 청년 코랭은 기발한 요리와 칵테일 피아노로 친구 쉬크를 대접하고, 알리스와의 연애담을 나누며 스케이트장으로 향한다.",
+    "overallSummary": "풍족한 삶을 누리는 청년 코랭은 세련된 몸단장을 마친 뒤 요리사 니꼴라를 시켜 뱀장어 파이와 칠면조 요리를 준비하게 하고, 친구 쉬크를 초대한다. 건반의 음률에 따라 술이 제조되는 '피아노 칵테일'을 시음하며 두 사람은 쉬크와 니꼴라의 조카 알리스의 기묘한 만남에 대해 이야기하고, 이튿날 스케이트장에서 다시 만나기로 약속한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 코랭의 일상과 준비",
+        "summary": "코랭이 기이하고 환상적인 방식으로 몸단장을 마친 뒤 새 요리사 니꼴라와 식사 메뉴를 상의하고 친구 쉬크를 맞이한다."
+      },
+      {
+        "sectionTitle": "1 (후반) ~ 2. 피아노 칵테일과 대화",
+        "summary": "코랭이 발명한 피아노 칵테일을 함께 마시며 쉬크가 장솔 파르트르의 강연회에서 알리스를 만나 사랑에 빠진 일화를 들려준다."
+      },
+      {
+        "sectionTitle": "3. 몰리토르 스케이트장",
+        "summary": "스케이트를 타지 못하는 코랭이 약속 장소인 스케이트장에 도착해 번잡한 소음 속에서 쉬크와 알리스를 찾아 헤맨다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "초현실주의적 사물관",
+        "value": "수도관에서 치약을 먹는 뱀장어, 연주에 반응해 음료를 만드는 칵테일 피아노 등 물질과 신체가 기발하게 왜곡된 시적 환상을 구축함."
+      }
+    ],
+    "keyEntitiesText": "코랭, 쉬크, 니꼴라, 알리스, 생쥐, 쟝-솔 파르트르 (패러디)",
+    "settingText": "루이-암스트롱 가에 위치한 코랭의 환상적인 아파트와 몰리토르 스케이트장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1a1B08iL16oPTf-tIGIFdTicV6eDdLC2I",
+    "filename": "보리스 비앙-거품처럼 사라진 젊은 나날들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.310Z",
+    "size": "260270",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1a1B08iL16oPTf-tIGIFdTicV6eDdLC2I/view?usp=drivesdk",
+    "sourceSha256": "4db60122aaa6e35f659b1a6b05f1b9628d469468d46169e224bc5a77ab1cda8f",
+    "textSha256": "3408cb696496e575bac9aee3b85536682aaa2ae5f6173ced59c67cf5f143401b",
+    "changeKey": "4033213ed89866c9db96fb6e5812c60b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "45c7b8076dd69d507b87",
+    "workId": "45c7b8076dd69d507b87",
+    "driveFileId": "1a1B08iL16oPTf-tIGIFdTicV6eDdLC2I",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:29:49.741032+00:00",
+    "updatedAt": "2026-09-22T00:29:49.741049+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:29:49.741162+00:00"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신 3",
+    "author": "베르나르 베르베르",
+    "genre": "프랑스 소설",
+    "tags": [
+      "신들의 숨결",
+      "Y게임",
+      "18호 지구",
+      "뮤즈",
+      "아에덴"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "mythology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스 툴루즈 출신으로 저널리스트를 거쳐 《개미》, 《타나토노트》, 《신》 시리즈 등을 발표한 프랑스의 대표적 상상력 작가이다.",
+    "oneLineSummary": "신 후보생들이 아에덴에서 인류 문명을 시뮬레이션하는 Y게임을 펼치며 하늘에 뜬 거대한 눈과 예술의 신전을 목도한다.",
+    "overallSummary": "올림포스 12신의 지도를 받는 144명의 신 후보생 중 절반이 탈락한 가운데, 미카엘 팽송과 동료들은 하늘에 나타난 거대한 눈의 환영에 경악한다. 감시자 켄타우로스들의 순찰을 피해 개양귀비 밭을 지나 아홉 뮤즈의 신전에 도달한 미카엘은 희극과 비극의 영감을 체험하며 백과사전의 가르침을 되새긴다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "'만약 인간이 신이라면 어떻게 하겠는가'라는 물음에서 출발한 신들의 학교 구상과 2부의 게임 전개 배경을 소개한다."
+      },
+      {
+        "sectionTitle": "1. 하늘에 떠 있는 눈 ~ 3. 아홉 신전",
+        "summary": "하늘에 나타난 거대한 눈을 목격하고 충격에 빠진 후보생들이 켄타우로스의 추격을 피해 개양귀비 밭 너머의 아홉 신전으로 숨어든다."
+      },
+      {
+        "sectionTitle": "4. 뮤즈 ~ 5. 연극 삼매경",
+        "summary": "아홉 뮤즈의 궁전에서 미카엘 팽송이 뮤즈와 만나 연극적 영감을 얻고 글쓰기와 문명 창조의 교훈을 얻는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "메타 창작적 은유",
+        "value": "뮤즈를 통한 연극 체험과 백과사전의 글쓰기 원칙을 통해 신의 세계 창조와 작가의 창작 과정을 병치함."
+      }
+    ],
+    "keyEntitiesText": "미카엘 팽송, 라울 라조르박, 프레디 메예르, 마타 하리, 마릴린 먼로, 귀스타브 에펠, 조르주 멜리에스, 아홉 뮤즈",
+    "settingText": "신들의 학교가 있는 행성 아에덴, 올림피아 도성과 아홉 신전"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oMwUx74iTK18EHX_l-BtXf-8jFQhMC1-",
+    "filename": "베르나르 베르베르-신 3권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.037Z",
+    "size": "441573",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "베르나르 베르베르"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/베르나르 베르베르",
+    "webViewLink": "https://drive.google.com/file/d/1oMwUx74iTK18EHX_l-BtXf-8jFQhMC1-/view?usp=drivesdk",
+    "sourceSha256": "1e9a65a3df91933f80f14f26998433e13dd146aac6092548138c1f6e4e135186",
+    "textSha256": "938e41d5f78190fd5291b6eecc0dd807aa7848ec8b5f68ed5fb3e42f0dc5c2aa",
+    "changeKey": "032ca31785b06311e404ebcea94fffa3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a8911417f2e4ef56dc9b",
+    "workId": "a8911417f2e4ef56dc9b",
+    "driveFileId": "1oMwUx74iTK18EHX_l-BtXf-8jFQhMC1-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:28:50.928774+00:00",
+    "updatedAt": "2026-09-22T00:28:50.928788+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:28:50.928889+00:00"
+    }
+  }
+}

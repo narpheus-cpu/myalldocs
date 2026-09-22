@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "집고양이",
+    "author": "벤조 패터슨",
+    "genre": "단편소설",
+    "tags": [
+      "집고양이",
+      "야생성",
+      "사냥",
+      "이중생활",
+      "동물 관찰"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "호주의 국민 시인이자 작가로 '월칭 마틸다' 등의 시와 다채로운 산문을 남긴 밴조 패터슨(Banjo Paterson)이다.",
+    "oneLineSummary": "낮에는 집안에서 게으르고 나약하게 굴던 집고양이가 해 질 녘이 되면 야생의 맹수로 변신하여 밤의 세계를 질주한다.",
+    "overallSummary": "사람들은 흔히 고양이를 게으르고 둔한 동물로 보지만, 사실 고양이는 사람보다 다채로운 개성과 열정을 지닌 존재다. 낮에는 식탁 밑에서 아양을 떨거나 발톱을 세워 음식을 얻어내던 고양이는 저녁이 되면 문명의 탈을 벗고 지붕과 공터를 무대 삼아 맹렬한 결투, 사냥, 연애를 펼치는 야생의 전사로 거듭난다. 또한 집을 사람보다 중시하여 이사하기보다 새 집주인에게 빌붙기를 택하는 고양이의 본성을 유쾌하게 포착한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문 전반부",
+        "summary": "낮 동안 집안에서 응석을 부리거나 손님의 다리를 긁어 생선을 얻어먹는 고양이의 영악하고 계산적인 면모를 그린다."
+      },
+      {
+        "sectionTitle": "본문 후반부",
+        "summary": "밤이 되면 퓨마처럼 변신하여 지붕 위 결투와 카나리아 사냥을 즐기고, 사람보다 영역과 집을 우선시하는 고양이의 진면목을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "의인화와 풍자적 시선",
+        "value": "집고양이의 행동 양식을 복서, 기사, 모험가 등에 비유하여 인간 중심적 편견을 뒤집고 고양이의 주체적 생명력을 해학적으로 묘사함."
+      }
+    ],
+    "keyEntitiesText": "집고양이 (톰), 식탁의 손님, 가족들, 영 그리포(비유)",
+    "settingText": "인간의 가정집 안방 및 밤의 지붕, 뒤뜰 공터"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1mAd36hoLDSTaNl0coEmwPhRahlkiUCWF",
+    "filename": "벤조 패터슨-집고양이(단편)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T11:58:12.000Z",
+    "size": "9963",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1mAd36hoLDSTaNl0coEmwPhRahlkiUCWF/view?usp=drivesdk",
+    "sourceSha256": "0cc1ae73e88de5f2b22f4d7fff4fba71bb036e9aed3b0668965b9bf414d666bb",
+    "textSha256": "58649b1807060de5be2ddf6729f4b31252e0ee13166cd64e9b5f4860ba8c8b03",
+    "changeKey": "4d0da43230653a0ffee082e4206725d1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "03035dbdf08b466cfd5e",
+    "workId": "03035dbdf08b466cfd5e",
+    "driveFileId": "1mAd36hoLDSTaNl0coEmwPhRahlkiUCWF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:29:34.736274+00:00",
+    "updatedAt": "2026-09-22T00:29:34.736290+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:29:34.736451+00:00"
+    }
+  }
+}
