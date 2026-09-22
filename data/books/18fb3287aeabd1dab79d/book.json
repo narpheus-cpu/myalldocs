@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "듄의 이단자들",
+    "author": "프랭크 허버트",
+    "genre": "SF 대서사시",
+    "tags": [
+      "듄의 이단자들",
+      "프랭크 허버트",
+      "오드레이드",
+      "던컨 아이다호",
+      "슈왕규"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "epic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "방대한 세계관과 깊은 철학적 주제를 다룬 '듄' 시리즈의 저자.",
+    "oneLineSummary": "폭군 사후 수천 년, 베네 게세리트 교단이 새로운 던컨 아이다호 골라를 부활시키며 겪는 위기와 갈등.",
+    "overallSummary": "레토 2세 사후 수천 년이 지난 시기, 베네 게세리트 교단은 우주를 유린하는 '명예의 어머니들'의 위협에 직면한다. 이에 맞서기 위해 교단은 새로운 던컨 아이다호 골라를 부활시키고, 대모 오드레이드와 슈왕규 등은 다가오는 파국에 대비한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "골라의 부활과 참모들의 갈등",
+        "summary": "새로운 던컨 아이다호 골라가 태어나고, 오드레이드와 슈왕규는 명예의 어머니들의 위협 속에서 교단의 미래를 걱정한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "던컨 아이다호 골라와 악소로틀 탱크"
+      },
+      {
+        "key": "주제",
+        "value": "조직의 생존과 다가오는 새로운 세력과의 충돌"
+      }
+    ],
+    "keyEntitiesText": "다르위 오드레이드, 슈왕규, 루실라, 타라자, 벨론다, 던컨 아이다호",
+    "settingText": "가무 성 및 베네 게세리트의 거점"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YuapaXwDYKZ1KXin5UavXpLUO8mxryoN",
+    "filename": "이상-단발(斷髮).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.133Z",
+    "size": "19825",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1YuapaXwDYKZ1KXin5UavXpLUO8mxryoN/view?usp=drivesdk",
+    "sourceSha256": "7dbfe6b87bb5fe42f11b8146800c2c064a8a6471d2c5e3237165f07acd964af8",
+    "textSha256": "a820180d0a28b489a6e37fad748f4b2d42f475b622174c1a01a4afd43f5d6d90",
+    "changeKey": "da15573693e8da4e639a2c8cd3b103b1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "18fb3287aeabd1dab79d",
+    "workId": "18fb3287aeabd1dab79d",
+    "driveFileId": "1YuapaXwDYKZ1KXin5UavXpLUO8mxryoN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:15:39.633518+00:00",
+    "updatedAt": "2026-09-22T11:15:39.633535+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.328,
+      "updatedAt": "2026-09-22T11:15:39.633652+00:00"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "베디안",
+    "author": "크리스 네빌",
+    "genre": "SF 판타지",
+    "tags": [
+      "베디안",
+      "크리스 네빌",
+      "초능력",
+      "우주인",
+      "아미오별"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "superpower"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "합성 수지 연구원이자 초인 과학을 다룬 단편 소설을 주로 쓴 미국 작가.",
+    "oneLineSummary": "눈보라 속 사고에서 기적적으로 살아난 소녀 베디안이 자신이 초능력을 가진 우주인임을 깨닫고 고향으로 돌아가는 이야기.",
+    "overallSummary": "심야의 눈보라 속에서 자동차 사고가 발생하고, 부모는 분자 변화로 소멸하지만 갓난아기였던 베디안만 살아남아 양부모에게 입양된다. 뛰어난 재능을 지니며 자란 베디안은 17년 후 진짜 동포인 아미오별의 우주인들을 만나 자신의 정체성을 깨닫는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "심야의 사고",
+        "summary": "눈 내리는 심야, 아기를 안은 부부가 탄 승용차가 절벽 아래로 추락하지만 부모의 시체는 사라지고 아기만 살아남는다."
+      },
+      {
+        "sectionTitle": "미소녀",
+        "summary": "베디안은 다친 왼쪽 팔을 제외하고는 그림, 음악, 공부 등 모든 면에서 천재적인 재능을 보이며 아름다운 소녀로 성장한다."
+      },
+      {
+        "sectionTitle": "우주인",
+        "summary": "어머니의 위암 말기 소식에 슬퍼하던 베디안 앞에 아미오별에서 온 우주인들이 나타나 그녀가 지구인이 아님을 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "사고로 소멸하는 우주인과 분자 재편성 능력"
+      },
+      {
+        "key": "주제",
+        "value": "인간 사회 속에서 이질감을 느끼는 우주인의 고독과 정체성"
+      }
+    ],
+    "keyEntitiesText": "베디안, 시르, 아미오별의 노인 우주인, 양부모, 의사",
+    "settingText": "눈 덮인 도로, 병원 및 기숙사 학교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FCHFIPjtlkAsc3BQ_T-TuSUaZ6pXbHTS",
+    "filename": "크리스 네빌-베디안 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.479Z",
+    "size": "28818",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1FCHFIPjtlkAsc3BQ_T-TuSUaZ6pXbHTS/view?usp=drivesdk",
+    "sourceSha256": "7d8762d8de66d5e3b7b0c5969bec15ef3db2401355f80fd65d9a21bd7b11fcc3",
+    "textSha256": "edb92e9afe399f8a1b02e8b1956c418fa26ecc6925aba47bd588eb081acb371b",
+    "changeKey": "d6d1a3b0a7c4d631f2ea1c391b4e1c4f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5ed9a40757fd18dcc9d5",
+    "workId": "5ed9a40757fd18dcc9d5",
+    "driveFileId": "1FCHFIPjtlkAsc3BQ_T-TuSUaZ6pXbHTS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:15:03.917498+00:00",
+    "updatedAt": "2026-09-22T11:15:03.917514+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:15:03.917619+00:00"
+    }
+  }
+}

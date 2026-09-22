@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "듄 1",
+    "author": "프랭크 허버트",
+    "genre": "SF 대서사시",
+    "tags": [
+      "듄",
+      "프랭크 허버트",
+      "폴 아트레이데스",
+      "아라키스",
+      "스파이스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "epic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 전설적인 SF 작가로 생태학과 종교를 결합한 대작 '듄' 시리즈로 유명함.",
+    "oneLineSummary": "사막의 행성 아라키스로 향한 폴 아트레이데스가 운명의 시련과 마주하는 대서사시의 서막.",
+    "overallSummary": "칼라단을 떠나 스파이스 멜란지의 유일한 산지인 사막 행성 아라키스로 가기 전, 폴 아트레이데스는 대모 가이우스 헬렌 모히암에게 고통과 인내를 시험하는 '곰 자바' 시험을 받는다. 아트레이데스 가문을 둘러싼 음모와 운명이 아라키스에서 펼쳐진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아라키스로 떠나기 전",
+        "summary": "대모 모히암이 칼라단 성을 찾아와 폴의 어머니 제시카를 만나고, 폴에게 곰 자바 시험을 예고한다."
+      },
+      {
+        "sectionTitle": "곰 자바 시험",
+        "summary": "폴은 대모의 지시에 따라 손을 상자 속에 넣고 극심한 통증을 견디는 시험을 통과해 인간임을 증명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "곰 자바 시험과 스파이스 멜란지"
+      },
+      {
+        "key": "주제",
+        "value": "운명에 맞서는 메시아의 탄생과 시련"
+      }
+    ],
+    "keyEntitiesText": "폴 아트레이데스, 레이디 제시카, 가이우스 헬렌 모히암, 레토 아트레이데스 공작, 투피르 하와트",
+    "settingText": "칼라단 성 및 사막 행성 아라키스(듄)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KBaZDaFViWOaXGWHAYqsY4FS4fSR1nBw",
+    "filename": "프랭크 허버트-듄1(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T23:37:42.000Z",
+    "size": "1750568",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1KBaZDaFViWOaXGWHAYqsY4FS4fSR1nBw/view?usp=drivesdk",
+    "sourceSha256": "82a4d57ad3fcdaa2aa9788fbea14cc2d7f2b0e3e6bd29eea557b4034a642e292",
+    "textSha256": "0e885b6a65806338960779db7f1a22824081fb47a260dfd9a3d95ba92e33ea48",
+    "changeKey": "a13c4d3a43d7184f5a6b89e3de178a31",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "10ab8b2ea3ed6438f078",
+    "workId": "10ab8b2ea3ed6438f078",
+    "driveFileId": "1KBaZDaFViWOaXGWHAYqsY4FS4fSR1nBw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:15:17.588110+00:00",
+    "updatedAt": "2026-09-22T11:15:17.588126+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:15:17.588248+00:00"
+    }
+  }
+}

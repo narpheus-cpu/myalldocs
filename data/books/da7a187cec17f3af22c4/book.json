@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "당신 인생의 이야기",
+    "author": "테드 창",
+    "genre": "SF 단편선",
+    "tags": [
+      "당신 인생의 이야기",
+      "테드 창",
+      "바빌론의 탑",
+      "힐라룸",
+      "지구라트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "mythology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대 최고의 SF 작가 중 한 명으로 깊이 있는 과학적·철학적 주제를 다룸.",
+    "oneLineSummary": "하늘의 천장에 닿기 위해 거대한 탑을 쌓아 올린 광부 힐라룸의 여정을 그린 SF 단편.",
+    "overallSummary": "엘람 출신의 광부 힐라룸은 하늘의 천장을 뚫기 위해 인류가 수세기에 걸쳐 쌓아 올린 거대한 바빌론의 탑에 오른다. 수레를 끌고 아득한 높이까지 올라간 그는 마침내 하늘의 천장에 도달해 곡괭이질을 할 준비를 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "바빌론의 탑",
+        "summary": "엘람에서 온 광부 힐라룸은 동료들과 함께 바빌론에 도착해 하늘의 천장을 파기 위해 끝없이 솟은 탑을 오르기 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "바빌론의 탑과 천장 채굴"
+      },
+      {
+        "key": "주제",
+        "value": "인간의 호기심과 우주적 질서에 대한 경외"
+      }
+    ],
+    "keyEntitiesText": "힐라룸, 난니, 루가툼, 쿠다, 벨리",
+    "settingText": "고대 바빌론과 하늘에 닿는 거대한 탑"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10Ee3cfxQC9_XPEJcxeZlMBb1DPOB_uRd",
+    "filename": "테드 창-당신 인생의 이야기-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-06T14:15:04.000Z",
+    "size": "761063",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/10Ee3cfxQC9_XPEJcxeZlMBb1DPOB_uRd/view?usp=drivesdk",
+    "sourceSha256": "96d305d86733a5ccc49d888656015f9e4e729884783d9f432604d889559c30d7",
+    "textSha256": "500deed40998fd0ec36b4db3650bd0946a0bcf6b3b1e02724c6bc849277a4f1b",
+    "changeKey": "b6c1aa35b9ba10b4b9b9602afc0484a8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "da7a187cec17f3af22c4",
+    "workId": "da7a187cec17f3af22c4",
+    "driveFileId": "10Ee3cfxQC9_XPEJcxeZlMBb1DPOB_uRd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:15:10.846775+00:00",
+    "updatedAt": "2026-09-22T11:15:10.846792+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:15:10.846906+00:00"
+    }
+  }
+}

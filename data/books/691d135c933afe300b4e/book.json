@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모털 엔진",
+    "author": "필립 리브",
+    "genre": "스팀펑크 SF",
+    "tags": [
+      "모털 엔진",
+      "필립 리브",
+      "견인 도시",
+      "런던",
+      "톰 내츠워디",
+      "헤스터 쇼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "steampunk",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국을 대표하는 판타지 및 SF 소설 작가이자 일러스트레이터.",
+    "oneLineSummary": "도시들이 거대한 바퀴로 서로를 잡아먹는 '견인 도시' 시대, 런던의 소년 톰이 흉터의 소녀 헤스터를 만나 겪는 모험.",
+    "overallSummary": "60분 전쟁으로 황폐화된 지 3천 년 후, 인류는 거대한 바퀴로 움직이는 '견인 도시'를 만들어 작은 도시를 사냥하며 살아간다. 런던의 역사학자 견습생 톰 내츠워디는 부하직원의 음모로 추방당한 소녀 헤스터 쇼와 함께 황무지로 내던져져 거대한 음모에 휘말린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "대 사냥터",
+        "summary": "견인 도시 런던이 북해를 가로질러 작은 광산 타운 솔트후크를 추격해 사냥하는 동안, 견습생 톰은 박물관에서 일한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "견인 도시와 도시진화론"
+      },
+      {
+        "key": "주제",
+        "value": "포식 도시의 잔혹함과 그 속에서 피어나는 모험과 연대"
+      }
+    ],
+    "keyEntitiesText": "톰 내츠워디, 헤스터 쇼, 처들리 포메로이, 허버트 멜리판트, 클라이티 포츠",
+    "settingText": "거대한 견인 도시 런던 및 북해의 대사냥터"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-RoI4V8ZxJz36wrOUq3uURpJaH46m8Fh",
+    "filename": "필립 리브-견인도시 연대기 01 모털엔진(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T23:56:52.000Z",
+    "size": "663904",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1-RoI4V8ZxJz36wrOUq3uURpJaH46m8Fh/view?usp=drivesdk",
+    "sourceSha256": "95ed3c69a7825b0a8b52ba3f49af6c960ef127522294d091931c592750525cbc",
+    "textSha256": "2e91d1040237e2d35cb9d1f7f9928594f970b5800fb72cb2ace45b0f1925ac79",
+    "changeKey": "fa5eb28cf2fdfe7861c0f8e16afdc3cf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "691d135c933afe300b4e",
+    "workId": "691d135c933afe300b4e",
+    "driveFileId": "1-RoI4V8ZxJz36wrOUq3uURpJaH46m8Fh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:16:00.958501+00:00",
+    "updatedAt": "2026-09-22T11:16:00.958517+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:16:00.958634+00:00"
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "해저 지진 도시",
+    "author": "프레데릭 폴",
+    "genre": "해저 SF",
+    "tags": [
+      "해저 지진 도시",
+      "프레데릭 폴",
+      "J. 윌리암슨",
+      "스튜어트 이든",
+      "인공 지진"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 유명 SF 작가로 우주와 해저를 배경으로 한 작품을 많이 썼다.",
+    "oneLineSummary": "해저 도시를 위협하는 인공 지진의 비밀과 발명가 숙부의 누명을 벗기기 위한 사관생도의 모험.",
+    "overallSummary": "버뮤다의 잠수 사관 학교 생도 짐 이든은 숙부인 스튜어트 이든 박사가 인공 지진을 일으킨 장본인으로 의심받는다는 소식을 듣는다. 인도양의 해저 화산 폭발과 인공 지진의 음모를 파헤치기 위해 해저 도시 그라카타우로 향한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "정 보",
+        "summary": "잠수 사관 후보생 짐 이든은 자유 시간에 수중 테니스를 즐기다 사령관실 출두 명령을 받는다."
+      },
+      {
+        "sectionTitle": "타이드 신부",
+        "summary": "타이드 신부는 짐에게 인도양 해저 화산에서 발견된 스튜어트 이든의 유품을 보여주며 인공 지진의 가능성을 경고한다."
+      },
+      {
+        "sectionTitle": "해저 박물관",
+        "summary": "숙부의 생사와 인공 지진 음모를 밝히기 위해 짐은 동료들과 함께 그라카타우로 향하는 여정에 오른다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "이든나이트 피막의 해저 도시와 인공 지진"
+      },
+      {
+        "key": "주제",
+        "value": "해저 문명 개척과 과학 기술을 악용한 음모"
+      }
+    ],
+    "keyEntitiesText": "스튜어트 이든, 짐 이든, 존 고에쓰 박사, 타이드 신부, 할리 단소프, 밥 에스코",
+    "settingText": "버뮤다 섬의 잠수 사관 학교와 대서양 및 인도양의 심해"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1p3rgu_E-dUpdFOMqtWeJHgCeNvJ_KUWI",
+    "filename": "프레데릭 폴-해저 지진 도시(Undersea City).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.424Z",
+    "size": "194800",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1p3rgu_E-dUpdFOMqtWeJHgCeNvJ_KUWI/view?usp=drivesdk",
+    "sourceSha256": "9abc2deef5420885b66df011a5dd0f298c10dd5faf76abe177195dece07c33a3",
+    "textSha256": "59d57e37360547db0b82ba10efd534d1aea69270809207beed54fb656dbacc78",
+    "changeKey": "ef2243eb5de550b14f00f57feed03bba",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fe4a7212006e6a3d093f",
+    "workId": "fe4a7212006e6a3d093f",
+    "driveFileId": "1p3rgu_E-dUpdFOMqtWeJHgCeNvJ_KUWI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:14:32.583802+00:00",
+    "updatedAt": "2026-09-22T11:14:32.583818+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:14:32.583937+00:00"
+    }
+  }
+}

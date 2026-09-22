@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동위원소인간",
+    "author": "찰스 에릭 메인",
+    "genre": "SF 추리",
+    "tags": [
+      "동위원소인간",
+      "찰스 에릭 메인",
+      "레이너 박사",
+      "방사성 동위원소",
+      "특종"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "SF 작가로서 방사능과 과학 기술을 소재로 한 작품을 다수 집필함.",
+    "oneLineSummary": "주간지 기자 델라니가 방사능과 연관된 레이너 박사의 음모를 파헤치는 이야기.",
+    "overallSummary": "주간지 '뷰'의 기자 델라니는 신원 불명의 부상자 사진 속 인물이 유명한 원자 물리학자 레이너 박사와 닮았음을 발견한다. 그는 가짜 레이너 박사와 진짜 환자 사이의 숨겨진 음모와 방사능의 비밀을 추적하기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사건 발생",
+        "summary": "델라니는 편집실에서 강에서 구조된 신원 불명의 중상자 사진을 보다가 유명한 원자 물리학자 레이너 박사를 떠올린다."
+      },
+      {
+        "sectionTitle": "레이너 박사",
+        "summary": "델라니와 사진 기자 데이는 노잔 병원을 찾아가고, 이어 프란드 연구소에서 진짜 레이너 박사를 만나 혼란에 빠진다."
+      },
+      {
+        "sectionTitle": "한 번 죽었다?",
+        "summary": "프레스튼 박사를 통해 환자가 수술 중 심장이 정지했다 살아났으며 기억상실에 걸렸다는 사실을 알게 된다."
+      },
+      {
+        "sectionTitle": "수수께끼의 회화",
+        "summary": "환자가 찍힌 사진이 방사능 때문에 희미하게 흐려졌음을 깨닫고, 프란드 연구소와 환자 사이의 연관성을 의심한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "방사성 동위원소와 도플갱어 음모"
+      },
+      {
+        "key": "주제",
+        "value": "과학적 비밀을 둘러싼 음모와 기자들의 추적"
+      }
+    ],
+    "keyEntitiesText": "델라니, 데이, 레이너 박사, 구레아리 경부, 프레스튼 박사, 올리베",
+    "settingText": "도시의 신문사, 노잔 병원 및 프란드 원자력 연구소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uxq_b3CSF3s09CkbIYTcYIuTmKop_4Ij",
+    "filename": "찰스 매인-동위원소인간(The Isotope Man).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.344Z",
+    "size": "64463",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1uxq_b3CSF3s09CkbIYTcYIuTmKop_4Ij/view?usp=drivesdk",
+    "sourceSha256": "099af6ba56869166b1366ae4dfc893fd1122cc0c91ec30a9b38e85084f82f1d9",
+    "textSha256": "20ed4b420b9563c4db75262428e20a36e3e33589748268ce04925978d1fd40c4",
+    "changeKey": "6db9f1501bc2724446e8f67e7b3a8940",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "be546b0da2baced274f5",
+    "workId": "be546b0da2baced274f5",
+    "driveFileId": "1uxq_b3CSF3s09CkbIYTcYIuTmKop_4Ij",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:14:07.840335+00:00",
+    "updatedAt": "2026-09-22T11:14:07.840352+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:14:07.840568+00:00"
+    }
+  }
+}

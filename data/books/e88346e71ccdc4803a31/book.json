@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "듄의 메시아",
+    "author": "프랭크 허버트",
+    "genre": "SF 대서사시",
+    "tags": [
+      "듄의 메시아",
+      "프랭크 허버트",
+      "무앗딥",
+      "알리아",
+      "사이테일"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "epic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독창적인 세계관과 철학적 깊이를 지닌 '듄' 시리즈의 저자.",
+    "oneLineSummary": "황제 무앗딥이 된 폴 아트레이데스와 그를 둘러싼 음모와 예언의 비극을 다룬 이야기.",
+    "overallSummary": "지하드를 통해 우주를 정복하고 황제가 된 무앗딥(폴 아트레이데스)은 자신의 예언적 시야와 종교적 권력의 무게에 짓눌린다. 베네 게세리트, 우주 조합, 그리고 틀레이랙스의 얼굴의 춤꾼 사이테일 등은 무앗딥을 무너뜨리기 위한 음모를 꾸민다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사형수 감방의 대화",
+        "summary": "익스의 브론소와 사제 사이의 대화를 통해 무앗딥의 통치와 프레멘의 지하드가 가져온 비극적 실상이 드러난다."
+      },
+      {
+        "sectionTitle": "음모자들의 모임",
+        "summary": "얼굴의 춤꾼 사이테일, 대모 모히암, 조합 조종사 에드릭, 이룰란 공주가 모여 무앗딥을 무너뜨릴 계획을 논의한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "예언의 함정과 종교적 독재"
+      },
+      {
+        "key": "주제",
+        "value": "메시아 신화의 허와 실, 그리고 권력의 비극"
+      }
+    ],
+    "keyEntitiesText": "폴 무앗딥 아트레이데스, 알리아, 사이테일, 가이우스 헬렌 모히암, 에드릭, 이룰란 공주",
+    "settingText": "우주 제국의 황실 및 왈락 제9행성의 돔"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1On-X546FyUbkTGLkK-2HbJvF26rEHEAG",
+    "filename": "달의 아이.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:38.930Z",
+    "size": "2969863",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1On-X546FyUbkTGLkK-2HbJvF26rEHEAG/view?usp=drivesdk",
+    "sourceSha256": "4ecd8b8f12b953f39c89acf58a47feb3f2d4e1ca6fcbfff102ef604c9b4c646c",
+    "textSha256": "875c6bc5ffc82ea0f4dbaa61c0f2930e719d90cd0b9cb027f503066f0ec1a23a",
+    "changeKey": "7820363f01db6019f494ab879781837b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e88346e71ccdc4803a31",
+    "workId": "e88346e71ccdc4803a31",
+    "driveFileId": "1On-X546FyUbkTGLkK-2HbJvF26rEHEAG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:15:24.583418+00:00",
+    "updatedAt": "2026-09-22T11:15:24.583433+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3644,
+      "updatedAt": "2026-09-22T11:15:24.583530+00:00"
+    }
+  }
+}

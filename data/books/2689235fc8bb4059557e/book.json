@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "27세기의 발명왕",
+    "author": "휴고 건즈벡",
+    "genre": "SF",
+    "tags": [
+      "27세기의 발명왕",
+      "휴고 건즈벡",
+      "랄프",
+      "빛의 탑",
+      "미래 도시"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "utopia"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 SF 작가이자 잡지 편집자로 SF 장르의 기틀을 마련함.",
+    "oneLineSummary": "전쟁이 사라진 평화로운 27세기 뉴욕을 배경으로 위대한 발명왕 랄프가 펼치는 활약.",
+    "overallSummary": "서기 2660년, 전쟁과 군비가 사라지고 과학이 고도로 발달한 세계 정부 시대. 발명왕 랄프 124C41 플러스는 모르모트를 부활시키는 생명 연장 실험에 성공하고, 텔레비전 전화 혼선을 통해 알프스에 갇힌 소녀 아리스의 위기를 구출한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "랄프 플러스",
+        "summary": "발명왕 랄프는 죽었던 모르모트를 24시간 만에 다시 살려내는 데 성공하고 에드워드와 통화한다."
+      },
+      {
+        "sectionTitle": "텔레비전 전화의 혼선",
+        "summary": "통화 중 혼선으로 스위스 알프스 산중에 눈보라 속으로 갇힌 아리스 아가씨와 우연히 연결된다."
+      },
+      {
+        "sectionTitle": "눈사태",
+        "summary": "알프스에 무서운 눈사태가 들이닥치자 랄프는 연구소의 초발전기를 이용해 강력한 전파로 눈사태를 녹여 아리스를 구한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "입체 텔레비전 전화, 모터코스터, 초전파 발전기"
+      },
+      {
+        "key": "주제",
+        "value": "과학 기술로 이상화된 미래 사회와 인류의 발전"
+      }
+    ],
+    "keyEntitiesText": "랄프, 에드워드, 아리스, 피트, 제임스",
+    "settingText": "서기 2660년의 평화로운 미래 도시 뉴욕 및 스위스 알프스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16pbkCb67pQN--Rzdy0oZmsC2HlMKjusM",
+    "filename": "휴고 건즈벡-27세기의 발명왕(Ralph 124C41+).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.469Z",
+    "size": "65198",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/16pbkCb67pQN--Rzdy0oZmsC2HlMKjusM/view?usp=drivesdk",
+    "sourceSha256": "94e0ec75e105e756bab1f4e03f5e3b37a5da644390ec47fcf457274ee5b3cd03",
+    "textSha256": "80b0fa45ace8e0ff0140582d4c6b7940f4d007975dbf1f30dba0f3f656f6b638",
+    "changeKey": "9df0dcb9e344243daf62107b4564f0a2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2689235fc8bb4059557e",
+    "workId": "2689235fc8bb4059557e",
+    "driveFileId": "16pbkCb67pQN--Rzdy0oZmsC2HlMKjusM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:14:57.624810+00:00",
+    "updatedAt": "2026-09-22T11:14:57.624824+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:14:57.624925+00:00"
+    }
+  }
+}

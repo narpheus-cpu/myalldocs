@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "듄의 신황제",
+    "author": "프랭크 허버트",
+    "genre": "SF 대서사시",
+    "tags": [
+      "듄의 신황제",
+      "프랭크 허버트",
+      "레토 2세",
+      "시오나",
+      "던컨 아이다호"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "epic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간의 진화와 생태학적 비전을 소설로 구현한 SF 거장.",
+    "oneLineSummary": "수천 년 동안 신황제로 군림하며 인류를 강제로 진화시키는 레토 2세와 반란군 시오나의 이야기.",
+    "overallSummary": "폴 무앗딥의 아들 레토 2세는 모래벌레와 융합하여 수천 년 동안 '신황제'로 군림하며 인류를 위한 '황금의 길'을 강요하고 있다. 그의 독재에 반발하는 시오나를 비롯한 반란군들은 그의 요새에서 비밀 문서를 훔쳐 달아나며 목숨을 건 추격전을 벌인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "일기의 발견과 숲의 추격",
+        "summary": "신황제의 일기가 발굴되는 한편, 폭군의 요새에서 도면과 책을 훔쳐 달아나는 시오나와 동료들이 D 늑대들의 추격을 받는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "레토 2세의 일기와 D 늑대의 추격"
+      },
+      {
+        "key": "주제",
+        "value": "천년 폭군 통치 아래의 자유를 향한 투쟁"
+      }
+    ],
+    "keyEntitiesText": "레토 2세, 시오나, 울로트, 쿠텍, 하디 베노토",
+    "settingText": "라키스 행성(아라키스)의 금지된 숲과 아이다호 강"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15N4kJGih7yoAyIg3pdTwTt_wQlHnRbgB",
+    "filename": "붉은황제 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:44.281Z",
+    "size": "1636745",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/15N4kJGih7yoAyIg3pdTwTt_wQlHnRbgB/view?usp=drivesdk",
+    "sourceSha256": "3a16b04cfb63c645b8e0bd04f654ebb2c19952c1f2a51e5f01bc8fcd5e066944",
+    "textSha256": "30b11f18518471aedb40b388210d46bc296715b99d9d6f750a040b41657646d5",
+    "changeKey": "49e3dbf73c941a8e8ca1b915e670f6bd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bccab84bf3f3539eadd6",
+    "workId": "bccab84bf3f3539eadd6",
+    "driveFileId": "15N4kJGih7yoAyIg3pdTwTt_wQlHnRbgB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:15:32.250536+00:00",
+    "updatedAt": "2026-09-22T11:15:32.250552+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3644,
+      "updatedAt": "2026-09-22T11:15:32.250664+00:00"
+    }
+  }
+}

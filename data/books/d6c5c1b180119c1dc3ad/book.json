@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "백설의 공포",
+    "author": "폭스 B. 홀덴",
+    "genre": "SF 스릴러",
+    "tags": [
+      "백설의 공포",
+      "폭스 B. 홀덴",
+      "데이비드",
+      "네이슨 교수",
+      "눈보라"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "SF 장르를 중심으로 활동한 작가.",
+    "oneLineSummary": "이상한 눈보라와 기괴한 연쇄 죽음의 비밀을 파헤치는 풋내기 기자 데이비드의 이야기.",
+    "overallSummary": "웨스트오버 근처의 케인필드에 10월에 때아닌 무서운 눈보라가 친다. 신문사 기자 데이비드는 이 현상이 화학자 네이슨 교수의 인공우 및 눈의 결정 실험과 관련이 있음을 의심하고 조사에 나선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이상한 눈보라",
+        "summary": "웨스트오버는 맑은 반면 가까운 케인필드에는 설명할 수 없는 무서운 눈보라가 몰아친다."
+      },
+      {
+        "sectionTitle": "크게 된 눈사람",
+        "summary": "데이비드는 네이슨 교수의 딸 카렌과 함께 케인필드로 향하고, 저절로 커졌다는 이상한 눈사람을 발견한다."
+      },
+      {
+        "sectionTitle": "눈보라가 그치지 않으면",
+        "summary": "네이슨 교수는 자신이 만든 눈의 결정을 인공우 약품에 섞었다고 고백하며 눈보라가 계속될까 봐 두려워한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "이상기후와 수분에 반응하는 눈의 결정"
+      },
+      {
+        "key": "주제",
+        "value": "과학 실험의 통제 불가능한 부작용과 공포"
+      }
+    ],
+    "keyEntitiesText": "데이비드, 드와이트, 네이슨 교수의 딸 카렌, 네이슨 교수, 로빈",
+    "settingText": "미국 웨스트오버와 케인필드 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1V41qJQA8to5oPG-88QS8rZIPFRGMcyNH",
+    "filename": "폭스 B. 홀덴-백설의 공포(The Snow Fairy).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.411Z",
+    "size": "84579",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1V41qJQA8to5oPG-88QS8rZIPFRGMcyNH/view?usp=drivesdk",
+    "sourceSha256": "ebdaec94056556c8cd0e40b98bb006c054f9790e9d548af7d2f1d8ea672f7432",
+    "textSha256": "51bdef43665e77ee4f22914f59b067213de35d50f6de97dd7864a3c77696b62c",
+    "changeKey": "e28fdde4762173520a95898c2b5dc97c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d6c5c1b180119c1dc3ad",
+    "workId": "d6c5c1b180119c1dc3ad",
+    "driveFileId": "1V41qJQA8to5oPG-88QS8rZIPFRGMcyNH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:14:27.346521+00:00",
+    "updatedAt": "2026-09-22T11:14:27.346537+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:14:27.346656+00:00"
+    }
+  }
+}

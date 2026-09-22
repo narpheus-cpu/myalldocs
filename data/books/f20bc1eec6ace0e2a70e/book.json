@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "행성에서 온 소년",
+    "author": "패트리샤 라이트슨",
+    "genre": "아동 SF",
+    "tags": [
+      "행성에서 온 소년",
+      "패트리샤 라이트슨",
+      "마틴",
+      "조지",
+      "유령의 집"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "children_literature"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대 오스트레일리아를 대표하는 아동문학가.",
+    "oneLineSummary": "혹성에서 지구로 온 초능력 소년 마틴과 호기심 많은 지구 소년소녀들의 우정과 모험 이야기.",
+    "overallSummary": "시드니의 철거 지역 근처에서 초능력을 가진 우주 소년 마틴이 발견된다. 조지와 캐시 등 아이들은 유령의 집으로 불리는 빈집에 사는 마틴과 얽히며 흥미진진한 사건들을 겪는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "버릇없는 소년",
+        "summary": "도시 재개발로 철거되는 건물 근처에서 조지와 루크가 대화를 나누던 중, 이상한 눈빛을 가진 소년 마틴이 나타난다."
+      },
+      {
+        "sectionTitle": "유령의 집 탐험",
+        "summary": "조지는 마틴이 달아난 방향을 쫓아가다 낡은 빈집을 발견하고 호기심에 탐험을 시작한다."
+      },
+      {
+        "sectionTitle": "수수께끼의 거주자",
+        "summary": "유령의 집에서 붉은 머리 소녀 캐시를 만나고, 그곳에 누군가 살고 있다는 흔적과 이상한 그림들을 발견한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "우주 소년과 초능력"
+      },
+      {
+        "key": "주제",
+        "value": "지구 아이들과 우주 소년의 교감과 우정"
+      }
+    ],
+    "keyEntitiesText": "마틴, 조지 애덤스, 루크 디, 캐시 브린불, 데이비드 게이트, 고양이 할멈",
+    "settingText": "오스트레일리아 시드니의 철거가 진행되는 도시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fq1L37NcM8ttBlVhy_wQim9gYPPwtQsT",
+    "filename": "패트리샤 라이트슨-행성에서 온 소년(DOWN TO EARTH).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:34.395Z",
+    "size": "174845",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1fq1L37NcM8ttBlVhy_wQim9gYPPwtQsT/view?usp=drivesdk",
+    "sourceSha256": "4b30d29d626b354dbd136e0fdd2d4b5553313398e93dcfc288a135f2bf343c77",
+    "textSha256": "4f033f6e69745710882d6496f39c920fffef6bd5a960bd0436a3423d78730940",
+    "changeKey": "4050d77ffe6594f15325c0f3f90735d2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f20bc1eec6ace0e2a70e",
+    "workId": "f20bc1eec6ace0e2a70e",
+    "driveFileId": "1fq1L37NcM8ttBlVhy_wQim9gYPPwtQsT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:14:20.265444+00:00",
+    "updatedAt": "2026-09-22T11:14:20.265459+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:14:20.265564+00:00"
+    }
+  }
+}

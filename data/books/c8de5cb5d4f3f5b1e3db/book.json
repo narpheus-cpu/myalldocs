@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "듄의 신전",
+    "author": "프랭크 허버트",
+    "genre": "SF 대서사시",
+    "tags": [
+      "듄의 신전",
+      "프랭크 허버트",
+      "오드레이드",
+      "명예의 어머니",
+      "베네 게세리트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "epic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간 사회와 생태계를 거대한 스케일로 그려낸 SF 거장.",
+    "oneLineSummary": "명예의 어머니들의 무자비한 공격에 맞서 생존을 위한 최후의 전쟁을 준비하는 베네 게세리트의 이야기.",
+    "overallSummary": "베네 게세리트의 행성들이 명예의 어머니들에 의해 연이어 파괴되는 절체절명의 상황. 최고 대모 오드레이드는 교단의 지식과 생존을 지키기 위해 사력을 다하고, 포로로 잡힌 대모 사반다는 적의 수장인 '거미 여왕' 위대한 명예의 어머니와 대면한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "최고 대모의 결단과 포로의 심문",
+        "summary": "오드레이드가 교단의 생존을 위해 고심하는 가운데, 포로로 잡힌 베네 게세리트 대모 사반다가 위대한 명예의 어머니 앞에 끌려간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "시거와이어로 속박된 포로와 베네 게세리트의 생존 전략"
+      },
+      {
+        "key": "주제",
+        "value": "문명의 충돌과 파국 속에서 이어지는 끈질긴 생명력"
+      }
+    ],
+    "keyEntitiesText": "다르위 오드레이드, 사반다, 위대한 명예의 어머니, 타말란, 벨론다, 무르벨라",
+    "settingText": "베네 게세리트의 은신처 및 명예의 어머니들의 환승점"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BRSHzT4TrOAQ2TTJcGKT70gVGmb14XXC",
+    "filename": "용의 신전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:48.285Z",
+    "size": "2056561",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1BRSHzT4TrOAQ2TTJcGKT70gVGmb14XXC/view?usp=drivesdk",
+    "sourceSha256": "43a8c1364afe2396fa6b5fd790cb19ec83b789919370033ed4fd25de54bad1a3",
+    "textSha256": "0762b8e1ed8fc4e7cb9460275e157bec4c0138603130b1c8bd2a23651c35a5ac",
+    "changeKey": "9d2f5cc2e8fe8831bd74b78c75aa0cd4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c8de5cb5d4f3f5b1e3db",
+    "workId": "c8de5cb5d4f3f5b1e3db",
+    "driveFileId": "1BRSHzT4TrOAQ2TTJcGKT70gVGmb14XXC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:15:47.140535+00:00",
+    "updatedAt": "2026-09-22T11:15:47.140550+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.615,
+      "updatedAt": "2026-09-22T11:15:47.140664+00:00"
+    }
+  }
+}

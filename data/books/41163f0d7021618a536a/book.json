@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사냥꾼의 현상금",
+    "author": "필립 리브",
+    "genre": "스팀펑크 SF",
+    "tags": [
+      "사냥꾼의 현상금",
+      "필립 리브",
+      "앵커리지",
+      "프레야",
+      "톰과 헤스터"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "steampunk",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독창적인 세계관과 박진감 넘치는 서사로 유명한 영국의 SF 작가.",
+    "oneLineSummary": "얼어붙은 북쪽 나라의 정착 도시 앵커리지와 사냥꾼 도시들의 위협 속에서 톰과 헤스터가 겪는 새로운 모험.",
+    "overallSummary": "도시들이 정착과 농사를 주장하는 반 견인 도시주의자들과 대립하는 가운데, 얼음 평원을 떠도는 앵커리지의 어린 마그라빈 프레야는 도시의 미래를 결정하려 한다. 한편 톰과 헤스터는 에어헤이븐에 머물며 아크에인절 같은 사냥꾼 도시들의 위협을 마주한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "얼어붙은 북쪽 나라",
+        "summary": "어린 마그라빈 프레야는 하이 아이스를 지나는 앵커리지에서 도시의 새로운 방향을 고민하고, 에어헤이븐에 있는 톰과 헤스터는 사냥꾼 도시들의 위협을 목격한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "얼음 평원의 앵커리지와 사냥꾼 도시의 현상금"
+      },
+      {
+        "key": "주제",
+        "value": "견인 도시와 정착 도시의 갈등 및 생존을 위한 선택"
+      }
+    ],
+    "keyEntitiesText": "프레야, 스뮤, 쇠렌 스캐비어스, 톰 내츠워디, 헤스터 쇼, 피오트르 마스가드",
+    "settingText": "얼어붙은 북쪽 나라의 앵커리지 및 자유 무역 도시 에어헤이븐"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1taJBZmLSSXvge6DC8gJ7BlN4ItESDEBo",
+    "filename": "필립 리브-견인도시 연대기 02 사냥꾼의 현상금(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T23:58:36.000Z",
+    "size": "668544",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1taJBZmLSSXvge6DC8gJ7BlN4ItESDEBo/view?usp=drivesdk",
+    "sourceSha256": "c64c49fd4b5ce4861bb7775cf967965834228a1cdda65b52aac75e38419c8565",
+    "textSha256": "663a3ef21733c596d28468be20ebe70b4066998b0480dfcb421e2e1426a5a369",
+    "changeKey": "392c6b0af7f2c6be51071e3ec189139b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "41163f0d7021618a536a",
+    "workId": "41163f0d7021618a536a",
+    "driveFileId": "1taJBZmLSSXvge6DC8gJ7BlN4ItESDEBo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:16:07.426335+00:00",
+    "updatedAt": "2026-09-22T11:16:07.426350+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:16:07.426462+00:00"
+    }
+  }
+}

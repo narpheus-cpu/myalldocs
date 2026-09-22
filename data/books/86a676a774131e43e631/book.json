@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "악마의 무기",
+    "author": "필립 리브",
+    "genre": "스팀펑크 SF",
+    "tags": [
+      "악마의 무기",
+      "필립 리브",
+      "슈라이크",
+      "닥터 위논 제로",
+      "그린 스톰"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_fiction",
+        "steampunk",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "견인 도시 연대기 시리즈로 세계적인 명성을 얻은 영국의 SF 작가.",
+    "oneLineSummary": "기억을 잃은 채 부활한 스토커 슈라이크와 반견인 도시 세력 그린 스톰을 둘러싼 거대한 음모.",
+    "overallSummary": "18년 동안 죽어 있던 스토커 슈라이크가 닥터 위논 제로와 부활군에 의해 기억을 잃은 채 다시 깨어난다. 그린 스톰의 요새에서 깨어난 그는 자신의 과거를 모른 채 새로운 기억을 강요받으며, 전 세계를 뒤흔드는 전쟁의 소용돌이에 말려든다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "잠자던 사자가 깨어나다",
+        "summary": "스토커 슈라이크가 닥터 위논 제로에 의해 기억을 잃은 채 기계 장치 속에서 부활하고, 그린 스톰의 요새에서 전투가 벌어진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "스토커 슈라이크의 부활과 틴 북"
+      },
+      {
+        "key": "주제",
+        "value": "기억의 상실과 기계 인간의 정체성 탐구"
+      }
+    ],
+    "keyEntitiesText": "슈라이크, 닥터 위논 제로, 렌 내츠워디, 톰 내츠워디, 헤스터 쇼",
+    "settingText": "그린 스톰의 늪지대 요새와 바인랜드의 앵커리지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_oEYI4cCUy3zEEv4utjygbZEnAwsP2zN",
+    "filename": "필립 리브-견인도시 연대기 03 악마의 무기(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-06T00:00:20.000Z",
+    "size": "702115",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1_oEYI4cCUy3zEEv4utjygbZEnAwsP2zN/view?usp=drivesdk",
+    "sourceSha256": "367ebf9e288ae3568beac6a905e3918a87ec5407b7719ea5f221cff892c5378d",
+    "textSha256": "79eb8ee6fca9d32f7e54371d83ffac663469bd8791ebcb656d21f8b6fc228962",
+    "changeKey": "14bfaeeb119ada9fb607c60b3f303211",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "86a676a774131e43e631",
+    "workId": "86a676a774131e43e631",
+    "driveFileId": "1_oEYI4cCUy3zEEv4utjygbZEnAwsP2zN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:16:14.517864+00:00",
+    "updatedAt": "2026-09-22T11:16:14.517880+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:16:14.517991+00:00"
+    }
+  }
+}
