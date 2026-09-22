@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "검객행 제1권",
+    "author": "고룡",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "연운오패천",
+      "여문표",
+      "전백",
+      "보검"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "대만의 유명 무협 작가로, 《초류항 전기》, 《절대쌍교》 등의 명작을 남김.",
+    "oneLineSummary": "가문을 멸망시킨 원수를 찾아 강호를 유랑하는 청년의 일대기를 다룬 정통 무협 소설.",
+    "overallSummary": "양하 일대에서 악명을 떨치는 녹림 패거리 '연운오패천'의 여문표 형제들은 관가의 표화물을 약탈하기 위해 숲속에서 대기한다. 그곳에서 잠을 자던 궁색한 젊은 선비를 만나 시비를 걸던 중, 표화물을 호송하던 반령관 정백상 일행이 도착한다. 이때 표화물을 지키던 연약해 보이는 젊은 표사 전백이 눈부신 보검을 뽑아들고 오패천에 맞선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 & 신비한 서생",
+        "summary": "작가와 역자 소개 및 연운오패천이 숲속에서 표화물을 기다리며 선비와 시비가 붙고, 전백이 보검을 뽑아 대치하는 상황을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "전백의 무기",
+        "value": "시골뜨기 같은 외양과 달리, 용트림 같은 검명과 눈부신 광채를 뿜어내는 신병이기 보검"
+      }
+    ],
+    "keyEntitiesText": "전백, 여문표, 여문호, 정백상, 궁색한 선비",
+    "settingText": "유월 황혼녘, 청원과 제남부를 잇는 관도 옆의 무성한 숲속"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sS28U1952IVYS9RZBSzUAVosa5l_-40l",
+    "filename": "검각행.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.201Z",
+    "size": "1992487",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1sS28U1952IVYS9RZBSzUAVosa5l_-40l/view?usp=drivesdk",
+    "sourceSha256": "7c4272cddce934f05e294c400e8071e86009a10d971866557016bbc5090b2a18",
+    "textSha256": "e16eea980c8258e3b2c47f73c4b6c2b7bd9722f2dd70ee72e4494ec84390b940",
+    "changeKey": "f4f2eb2767ea6d91eb2d8dadf7a2f72d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "13669af1357063dbedfc",
+    "workId": "13669af1357063dbedfc",
+    "driveFileId": "1sS28U1952IVYS9RZBSzUAVosa5l_-40l",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:46:17.181025+00:00",
+    "updatedAt": "2026-09-22T14:46:17.181040+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3644,
+      "updatedAt": "2026-09-22T14:46:17.181133+00:00"
+    }
+  }
+}

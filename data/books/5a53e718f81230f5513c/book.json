@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "섀도우 헌터스 2: 재의 도시",
+    "author": "카산드라 클레어",
+    "genre": "판타지 소설",
+    "tags": [
+      "섀도우 헌터",
+      "판타지",
+      "악마",
+      "마법사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1973년 이란 테헤란 출생. 유년기를 여러 나라에서 보내고 미국에서 기자로 일하다 2007년 《뼈의 도시》로 베스트셀러 작가가 됨.",
+    "oneLineSummary": "뉴욕 맨해튼을 배경으로 섀도우 헌터 제이스와 알렉, 이사벨이 악마와 맞서 싸우는 판타지 모험 이야기.",
+    "overallSummary": "맨해튼의 메트로폴 펜트하우스에서 발렌타인이 악마 애그러먼을 소환하여 복종시키는 프롤로그로 시작하며, 제이스, 알렉, 이사벨은 악마 사냥 후 돌아와 메이리스 라이트우드와 갈등을 겪는다. 한편 클라리는 사이먼과 함께 일상을 보내며 병원에 누워 있는 엄마와 제이스에 대한 복잡한 감정으로 고민한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "발렌타인이 마법사 일리아스를 이용해 악마 애그러먼을 소환하고, 죽음의 잔을 통해 악마를 복종시킨다."
+      },
+      {
+        "sectionTitle": "1. 발렌타인의 화살",
+        "summary": "제이스, 알렉, 이사벨은 악마 사냥 후 인스티튜트로 돌아와 메이리스 라이트우드와 대면하고, 클라리는 사이먼의 방에서 시간을 보내며 병원에 있는 엄마와 제이스를 걱정한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관",
+        "value": "인간 세상 이면에 존재하는 섀도우 헌터와 악마, 다운월더들의 대립을 다룬 어반 판타지 세계관"
+      }
+    ],
+    "keyEntitiesText": "제이스, 알렉, 이사벨, 메이리스 라이트우드, 맥스, 발렌타인, 일리아스, 애그러먼, 클라리, 사이먼, 조슬린, 루크",
+    "settingText": "현대 미국 뉴욕 맨해튼, 브루클린, 인스티튜트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ouErmahF8XbmY1qigdOf9pQ1pnxGMW0F",
+    "filename": "카산드라 클레어-셰도우 헌터스 02(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T22:57:28.000Z",
+    "size": "869810",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1ouErmahF8XbmY1qigdOf9pQ1pnxGMW0F/view?usp=drivesdk",
+    "sourceSha256": "2799359d2dd279678725e7c6568d2b98d775457ebc6aa74f37f174d0ce653826",
+    "textSha256": "9bf8ec5453ea753e7365f007c521399edd7157b5e9aaf85d0dbcc2120f2725f6",
+    "changeKey": "47a3f919188570b148eecca0aae23540",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5a53e718f81230f5513c",
+    "workId": "5a53e718f81230f5513c",
+    "driveFileId": "1ouErmahF8XbmY1qigdOf9pQ1pnxGMW0F",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:44:35.754589+00:00",
+    "updatedAt": "2026-09-22T14:44:35.754606+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4782,
+      "updatedAt": "2026-09-22T14:44:35.754838+00:00"
+    }
+  }
+}

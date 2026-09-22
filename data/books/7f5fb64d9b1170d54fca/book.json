@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개방서생 제1권",
+    "author": "유소백",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "개방서생",
+      "냉한웅",
+      "오음절맥",
+      "태검장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "본명 유광남. 1981년 데뷔하여 개방 관련 무협 소설과 만화 스토리 작가로 활발히 활동 중인 작가.",
+    "oneLineSummary": "오음절맥을 타고나 태검장에서 학대받던 소년 냉한웅이 팽지연의 계략으로 부영산 대국사로 향하며 새로운 운명을 맞이하는 이야기.",
+    "overallSummary": "동해의 불귀해와 천마존의 전설이 전해지는 무림 시대, 낙양 태검장의 잡부 냉한웅은 오음절맥을 지녀 허약하고 멍청하다는 이유로 남궁진악을 비롯한 사형제들에게 모진 학대와 매질을 당한다. 태검장의 금지옥엽 팽지연은 냉한웅을 미워하는 듯 사형제들의 폭력을 유도하지만, 한편으로는 그를 데리고 부영산 대국사로 향하는 계획을 세운다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "불귀해, 만보선, 동해무도, 천마존 등 강호 천 년 무림사의 신비로운 전설들을 소개한다."
+      },
+      {
+        "sectionTitle": "제1장 기동괴동",
+        "summary": "낙양 태검장에서 오음절맥을 지닌 냉한웅이 남궁진악 등 사형제들에게 괴롭힘을 당하고, 팽지연의 제안으로 부영산 대국사로 향하는 여정이 시작된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "냉한웅의 체질",
+        "value": "18세를 넘기지 못하고 요절한다는 극히 희귀한 병인 '오음절맥'을 타고남"
+      }
+    ],
+    "keyEntitiesText": "냉한웅, 남궁진악, 팽지연, 팽소환, 천우상, 장광우, 악빈, 서성구",
+    "settingText": "하남성 낙양의 태검장 후원, 가을 햇살이 비치는 약실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gD_ksemCIMz-RfZC6LynVqUPHfgII1o7",
+    "filename": "개방서생 01권-03권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:58.648Z",
+    "size": "736114",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1gD_ksemCIMz-RfZC6LynVqUPHfgII1o7/view?usp=drivesdk",
+    "sourceSha256": "67a297e60092f0a0df0c57ce321a0453fffbf56c1d20ab40bf9d4cdfe7ece7c4",
+    "textSha256": "ae5820f8fec01cb925b7500c38172239107f33fce8b76f754babc77df8edc2b4",
+    "changeKey": "1721d3cd5637f58f7a7bb663236f8274",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7f5fb64d9b1170d54fca",
+    "workId": "7f5fb64d9b1170d54fca",
+    "driveFileId": "1gD_ksemCIMz-RfZC6LynVqUPHfgII1o7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:46:03.113810+00:00",
+    "updatedAt": "2026-09-22T14:46:03.113829+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5788,
+      "updatedAt": "2026-09-22T14:46:03.113950+00:00"
+    }
+  }
+}

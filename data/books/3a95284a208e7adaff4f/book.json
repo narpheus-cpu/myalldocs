@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "걸인각성 1권",
+    "author": "김현영",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "걸인각성",
+      "표영",
+      "청안동자",
+      "만성지체"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "comedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "신무협 판타지 소설 작가.",
+    "oneLineSummary": "천고의 기재이자 세상에서 가장 게으른 체질인 '만성지체'를 타고난 청안동자 표영이 자신의 체질을 깨우기 위해 걸인의 길을 걷게 되는 이야기.",
+    "overallSummary": "청해성 표가장의 장주 표만석의 둘째 아들 표영은 눈에 푸른 청광이 서린 '청안동자'로 태어난다. 그는 자라면서 극심한 게으름과 변비 증세를 보이고, 의원 조언참의 주선으로 만난 천의 소공공으로부터 그가 천고의 기재이지만 가장 게으른 체질인 '만성지체'를 타고났다는 진단을 받는다. 소공공은 표영의 심령을 깨우기 위해 거지나 노숙자 같은 천한 생활을 통해 몸을 일깨워야 한다고 조언한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서 & 1장 청안동자",
+        "summary": "표가장에서 표영이 태어나고, 눈에 푸른 청광이 서려 조언참 의원에게 진찰을 받으며 자라는 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "2장 천의 소공공 & 3장",
+        "summary": "표영의 극심한 게으름을 고치기 위해 천의 소공공을 청해 진맥하고, 그가 '만성지체'임을 밝혀내며 해결책으로 천한 생활을 권유받는 내용을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "만성지체",
+        "value": "천 년에 한 번 날까 말까 한 천고의 기재이지만, 세상에서 가장 게으른 체질로 천한 생활을 통해 틀을 깨야만 능력을 발휘할 수 있음"
+      }
+    ],
+    "keyEntitiesText": "표영, 표만석, 화연실, 조언참, 소공공, 봉운",
+    "settingText": "청해성 서쪽 경원 지역의 표가장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ftExqmaEyWUYKsg6fbGVNRC-3oIlz2Hl",
+    "filename": "걸인각성(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.137Z",
+    "size": "3400821",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1ftExqmaEyWUYKsg6fbGVNRC-3oIlz2Hl/view?usp=drivesdk",
+    "sourceSha256": "8fb7f2b1f3129b0a1adeff772d4721f8c35a6bfe03eed9f9c9b71acabdae2bd4",
+    "textSha256": "a48714399963541e9d09b5105b286c587c72a474ae1c8ff48e5806aa181031db",
+    "changeKey": "f4c47b6bddb1ee2e4972be5df718045d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3a95284a208e7adaff4f",
+    "workId": "3a95284a208e7adaff4f",
+    "driveFileId": "1ftExqmaEyWUYKsg6fbGVNRC-3oIlz2Hl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:46:10.007673+00:00",
+    "updatedAt": "2026-09-22T14:46:10.007746+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5467,
+      "updatedAt": "2026-09-22T14:46:10.007862+00:00"
+    }
+  }
+}

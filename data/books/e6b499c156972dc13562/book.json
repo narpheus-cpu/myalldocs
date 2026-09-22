@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "건곤일척 제1권",
+    "author": "검궁인",
+    "genre": "역사 무협 소설",
+    "tags": [
+      "무협",
+      "방탕아",
+      "주천운",
+      "유향경",
+      "낙양"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1980년부터 다수의 장편무협소설과 방송 시나리오를 집필한 작가.",
+    "oneLineSummary": "낙양 거리에 나타난 고주망태 방탕아 소년 문사 주천운이 낙양 최고의 명기 유향경과 만나 얽히는 이야기를 다룬 역사 무협 소설.",
+    "overallSummary": "명나라 시대를 배경으로 사라진 황제 건문제의 비화를 다룬다. 낙양 거리에 지독한 술냄새를 풍기며 나타난 16~17세의 방탕아 소년 주천운은 대동루에서 점소이 아칠에게 황금을 주고 술을 마신다. 낙양 최고의 명기 유향경은 대동루에서 우연히 주천운을 만나 그의 묘한 매력과 시재에 반해 그를 자신의 정자로 초대하지만, 주천운은 술에 취해 그녀를 자극하고 조롱한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책 소개 & 머리에 부쳐",
+        "summary": "도서의 배경인 명대 건문제 실종 비화와 주인공 주천운의 캐릭터를 소개한다."
+      },
+      {
+        "sectionTitle": "제1장 방탕아",
+        "summary": "주천운이 낙양 대동루에 나타나 아칠에게 황금을 주고 술을 마신의 장면과, 명기 유향경이 주천운에게 반해 자신의 정자로 초대해 대화하는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주천운의 성격",
+        "value": "술을 목숨처럼 사랑하며 의관은 비뚤어지고 방탕해 보이지만, 내면에 깊은 한과 뛰어난 시재 및 무위를 감춘 인물"
+      }
+    ],
+    "keyEntitiesText": "주천운, 유향경, 아칠, 건문제, 화안봉",
+    "settingText": "명대 중국 하남성 낙양, 대동루, 유향경의 기원 화원 정자"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1g_pgNday1BdKg3sx6Ax28EgQsC0Z6ohU",
+    "filename": "검궁인-건곤일척(乾坤一擲) 1.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:59.255Z",
+    "size": "437256",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1g_pgNday1BdKg3sx6Ax28EgQsC0Z6ohU/view?usp=drivesdk",
+    "sourceSha256": "a32c89a479d99134c9b008dd0f9ed8ed8b5ff246a021bab059017c6ffcd88023",
+    "textSha256": "3e17e38c308ba259c4f8e8cf72665d1143168f1a8fb2e5726f162d3e5386157c",
+    "changeKey": "0c6e035073bad87f731b73a47e5879ff",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e6b499c156972dc13562",
+    "workId": "e6b499c156972dc13562",
+    "driveFileId": "1g_pgNday1BdKg3sx6Ax28EgQsC0Z6ohU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:46:24.933319+00:00",
+    "updatedAt": "2026-09-22T14:46:24.933336+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7267,
+      "updatedAt": "2026-09-22T14:46:24.933444+00:00"
+    }
+  }
+}

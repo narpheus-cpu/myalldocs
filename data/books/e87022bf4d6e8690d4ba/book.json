@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "헤르만 헤세 환상동화집",
+    "author": "헤르만 헤세",
+    "genre": "소설/동화",
+    "tags": [
+      "환상동화",
+      "난쟁이",
+      "베네치아",
+      "사랑",
+      "비극"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "poetry",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 대표적인 작가이자 시인으로, 자아를 찾아가는 마술적이고 환상적인 동화들을 집필함.",
+    "oneLineSummary": "베네치아의 도도한 미인 마르게리타와 그녀의 영리한 난쟁이 필리포, 그리고 젊은 기사 발다사레 사이에서 벌어지는 사랑과 비극의 이야기.",
+    "overallSummary": "베네치아 최고의 미녀 마르게리타 카도린은 오만하고 냉정하지만, 자신의 기이하고 영리한 난쟁이 필리포를 아낀다. 필리포는 이야기꾼이자 동물과 소통하는 능력을 지녔으며, 절름발이 강아지 피노와 깊은 우정을 나눈다. 마르게리타가 젊은 기사 발다사레 모로시니와 격렬한 사랑에 빠져 약혼하게 되면서, 이들의 삶에 불행의 그림자가 드리우기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "난쟁이",
+        "summary": "베네치아의 미녀 마르게리타와 그녀의 추하지만 재능 있는 난쟁이 필리포의 일상, 그리고 마르게리타가 기사 발다사레와 사랑에 빠져 약혼하기까지의 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "필리포의 능력",
+        "value": "3개 국어 구사, 역사와 발명에 정통함, 동양의 이야기 기술을 활용한 청중 매료, 동물과의 대화 및 날씨 예보 능력"
+      }
+    ],
+    "keyEntitiesText": "마르게리타 카도린, 필리포, 발다사레 모로시니, 피노, 바티스타 카도린, 지암바티스타 젠타리니",
+    "settingText": "중세 이탈리아 베네치아, 무라노 섬의 정원과 대운하 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yRpEZH72kUW46J0JJLr0oTq_B303AfLi",
+    "filename": "헤르만 헤세 환상동화집(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T10:23:30.000Z",
+    "size": "647392",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1yRpEZH72kUW46J0JJLr0oTq_B303AfLi/view?usp=drivesdk",
+    "sourceSha256": "74902ab95d31aab8172644b0288c4cde00c95d5494dcde2a866a3c67e763464d",
+    "textSha256": "d019e00bd622f5a4aa0724048bb3791bc67cb7357b496a3a04964d86bac5c477",
+    "changeKey": "a47df6c9ed43ecf6d5d58d79418bef18",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e87022bf4d6e8690d4ba",
+    "workId": "e87022bf4d6e8690d4ba",
+    "driveFileId": "1yRpEZH72kUW46J0JJLr0oTq_B303AfLi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:45:27.289038+00:00",
+    "updatedAt": "2026-09-22T14:45:27.289054+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:45:27.289160+00:00"
+    }
+  }
+}

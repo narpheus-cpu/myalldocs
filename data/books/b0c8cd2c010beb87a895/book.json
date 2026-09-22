@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "타락천사",
+    "author": "마노 다카야",
+    "genre": "인문/종교/신화",
+    "tags": [
+      "타락천사",
+      "악마",
+      "사탄",
+      "루시퍼",
+      "기독교 신화"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 마노 다카야는 다양한 신화와 전설 속 존재들을 분석하는 도서를 집필함.",
+    "oneLineSummary": "유일신 사상의 등장과 함께 기독교 신화 속에서 정립된 타락천사와 악마들의 기원, 역할, 그리고 역사적 변천사를 분석한 책.",
+    "overallSummary": "유대교와 기독교의 일신교 성립 이후 세상의 '악'을 설명하기 위해 탄생한 타락천사들의 개념을 다룬다. 천사들이 타락한 원인을 분석하고, 신의 그림자로서의 역할 및 고대 토착 신들이 타락천사로 격하된 과정을 설명한다. 사탄, 루시퍼, 벨재불 등 대표적인 악마들의 계보와 중세 예술 및 문학 속 악마의 매력을 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가는 말",
+        "summary": "일신교의 탄생과 함께 세상의 악을 설명하기 위해 타락천사 개념이 도입된 배경과 타락의 원인, 악마의 어원 및 숫자에 대해 설명한다."
+      },
+      {
+        "sectionTitle": "제1장 사탄 - 타락 천사들의 지배자",
+        "summary": "루시퍼를 비롯한 어둠의 지배자들의 기원과 단테의 『신곡』에 묘사된 루시퍼의 추락 및 지옥의 형성 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "타락의 4대 원인",
+        "value": "1. 오만(사탄의 반역), 2. 불순종(인간 창조 반대), 3. 욕정(그리고리 천사들의 일탈), 4. 자유 의지(제2계급 천사들의 은총 상실)"
+      }
+    ],
+    "keyEntitiesText": "사탄, 루시퍼, 벨재불, 아스모데우스, 벨리알, 아자젤, 단테, 예수",
+    "settingText": "고대 이스라엘, 중세 유럽, 단테의 신곡 속 지옥과 남반구"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1btUjpuvlNU8TkvbdepKQpOrph4EqTBQk",
+    "filename": "판타지라이브러리-타락천사(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:58.280Z",
+    "size": "456822",
+    "folderPath": [
+      "books",
+      "07 외국 판타지"
+    ],
+    "relativePath": "books/07 외국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1btUjpuvlNU8TkvbdepKQpOrph4EqTBQk/view?usp=drivesdk",
+    "sourceSha256": "11b8e6880102ac16dc1b57899ecb4466e07c03e28108d10d73c24ae9364dc7bf",
+    "textSha256": "ad8d728be236dd39d43c80d3897527a00f226dbb4373ec669ae915874db4634e",
+    "changeKey": "dfbe6a20b5c257507dbb528f36abce36",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b0c8cd2c010beb87a895",
+    "workId": "b0c8cd2c010beb87a895",
+    "driveFileId": "1btUjpuvlNU8TkvbdepKQpOrph4EqTBQk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T14:45:17.043227+00:00",
+    "updatedAt": "2026-09-22T14:45:17.043243+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T14:45:17.043353+00:00"
+    }
+  }
+}
