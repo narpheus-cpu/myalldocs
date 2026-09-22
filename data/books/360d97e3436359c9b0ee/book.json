@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마음가는대로",
+    "author": "수산나 타마로",
+    "genre": "소설",
+    "tags": [
+      "이탈리아 소설",
+      "편지 소설",
+      "가족",
+      "죽음",
+      "성찰"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "죽음을 앞둔 할머니가 미국으로 떠난 손녀에게 보내는 편지 형식의 글로, 가족의 역사와 사랑, 그리고 삶의 마지막 성찰을 담은 소설입니다.",
+    "overallSummary": "손녀가 떠난 지 두 달째 되는 날, 할머니는 정원의 장미와 늙은 개 벅을 바라보며 손녀의 어린 시절을 회상합니다. 최근 심각한 심장 질환으로 쓰러져 죽음이 가까워졌음을 직감한 할머니는 손녀에게 자신의 삶과 상처, 그리고 갑옷을 벗어던지고 진실하게 마주하는 법에 대해 편지를 쓰기 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1992년 11월 16일",
+        "summary": "손녀가 떠난 후 홀로 남은 할머니가 손녀의 어린 시절 장미와 개 벅을 키우게 된 일화를 회상하고, 최근 병으로 쓰러져 죽음을 직감한 후 손녀에게 편지를 쓰기로 결심한 경위를 밝힙니다."
+      },
+      {
+        "sectionTitle": "11월 18일",
+        "summary": "비 내리는 가을 아침, 할머니는 동물들의 꿈에 관한 다큐멘터리를 보며 노년의 고독과 청춘의 열정을 성찰하고, 손녀가 떠나던 날의 차가운 이별을 회상하며 편지를 이어갑니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "epistolary_style",
+        "value": "손녀에게 직접 말하듯 서술하는 따뜻하고 애절한 서간체 형식"
+      }
+    ],
+    "keyEntitiesText": "나(할머니, 화자), 너(손녀, 미국으로 떠남), 벅(늙은 개), 라츠만 부인(이웃), 발터 부인(열쇠를 맡긴 이웃)",
+    "settingText": "1992년 11월, 이탈리아의 어느 시골 주택과 정원, 쓸쓸하고 고요한 가을철 분위기."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1k_QPhYzQzoGpN5y-F2c0AyD9zJz0TRSR",
+    "filename": "수산나 타마로-마음가는대로.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.761Z",
+    "size": "231772",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1k_QPhYzQzoGpN5y-F2c0AyD9zJz0TRSR/view?usp=drivesdk",
+    "sourceSha256": "cb5458bf9f104641c2b9559346a4b69a6f4303c7b67dbd4eb30d48eaa5213a97",
+    "textSha256": "73a16c65e3e0c83c672abfabcb125d55ef60078ac1a4ac5075f0a27e9c2a8daa",
+    "changeKey": "f6e5bf652e35d3acdb85112f59c616b2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "360d97e3436359c9b0ee",
+    "workId": "360d97e3436359c9b0ee",
+    "driveFileId": "1k_QPhYzQzoGpN5y-F2c0AyD9zJz0TRSR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:44:56.648168+00:00",
+    "updatedAt": "2026-09-22T00:44:56.648183+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:44:56.648286+00:00"
+    }
+  }
+}

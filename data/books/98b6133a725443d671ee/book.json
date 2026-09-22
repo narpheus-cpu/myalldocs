@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "밤은 부드러워라",
+    "author": "스콧 피츠제럴드",
+    "genre": "소설",
+    "tags": [
+      "미국 소설",
+      "재즈 시대",
+      "리비에라",
+      "상실"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1896년 미네소타주 세인트폴에서 태어났다. 첫 장편 『낙원의 이쪽』이 1920년 출간되어 성공을 거두었고, 1925년 대표작 『위대한 개츠비』를 출간하며 문단의 격찬을 받았다. 1934년 장편소설 『밤은 부드러워라』를 펴냈다.",
+    "oneLineSummary": "프랑스 리비에라 해변을 배경으로, 젊은 여배우 로즈메리가 매력적이고 신비로운 다이버 부부와 그들의 사교계 무리를 만나며 겪는 이야기입니다.",
+    "overallSummary": "1925년 6월, 열여덟 살의 미국 여배우 로즈메리 호이트는 어머니와 함께 프랑스 리비에라의 고스에 있는 에트랑제 호텔에 도착합니다. 해변에서 수영을 즐기던 로즈메리는 그곳에서 특별한 아우라를 풍기는 미국인 무리(딕 다이버와 니콜 다이버 부부, 에이브 노스 등)를 발견합니다. 그녀는 사교계의 미묘한 역학과 갈등 속에서 그들의 매력에 이끌리게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 1장",
+        "summary": "프랑스 리비에라 해변의 아름다운 풍경과 에트랑제 호텔을 소개하고, 로즈메리 호이트가 어머니와 함께 이곳에 도착하여 해변의 이국적인 분위기를 만끽하는 모습을 묘사합니다."
+      },
+      {
+        "sectionTitle": "제1부 2장",
+        "summary": "로즈메리는 해변에서 매키스코 부부 등 덜 세련된 무리와 대화를 나누며 그들이 언급하는 '플롯'에 대해 듣고, 뗏목에서 다이버 부부와 에이브 노스의 매력적인 모습을 관찰합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "jazz_age_decadence",
+        "value": "1920년대 유럽에서 방황하는 미국 부유층의 화려함과 내면의 황량함 묘사"
+      }
+    ],
+    "keyEntitiesText": "로즈메리 호이트(젊은 여배우), 에이브 노스(음악가), 다이버 부인(니콜 다이버), 매키스코 부부, 캠피언, 고스의 에트랑제 호텔",
+    "settingText": "1925년 6월, 프랑스 남부 리비에라 해안의 고스(Gausse) 해변과 에트랑제 호텔."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AnhP4KBd6i_4NWsWBZKnz0eFYTYrC-RI",
+    "filename": "스콧 피츠제럴드-밤은 부드러워라 F 스콧 피츠제럴드 장편소설.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.780Z",
+    "size": "900260",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1AnhP4KBd6i_4NWsWBZKnz0eFYTYrC-RI/view?usp=drivesdk",
+    "sourceSha256": "a598ebcc4a1489a05ea0e347ef924c999207c3095604107ec8fc8bff85b1ad5b",
+    "textSha256": "7133869641843eb346744b5e494f38916f09cbd734e4416d543412a487220228",
+    "changeKey": "f0484b3b3fafb598953e82b4aad94270",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "98b6133a725443d671ee",
+    "workId": "98b6133a725443d671ee",
+    "driveFileId": "1AnhP4KBd6i_4NWsWBZKnz0eFYTYrC-RI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:45:01.975248+00:00",
+    "updatedAt": "2026-09-22T00:45:01.975262+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:45:01.975362+00:00"
+    }
+  }
+}

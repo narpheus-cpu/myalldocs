@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "야간 비행",
+    "author": "생 텍쥐페리",
+    "genre": "소설",
+    "tags": [
+      "프랑스 소설",
+      "비행",
+      "의무",
+      "인간 행동"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "생 텍쥐페리는 프랑스 출신의 비행사이자 작가로, 자신의 비행 경험을 바탕으로 『남방 우편기』, 『야간 비행』, 『인간의 대지』, 『어린 왕자』 등을 집필하였으며 1944년 정찰 비행 중 실종되었습니다.",
+    "oneLineSummary": "폭풍우 속에서 야간 우편 비행을 수행하는 조종사 파비앙과, 비행의 책임을 맡고 꿋꿋이 임무를 추진하는 소장 리비에르의 치열한 삶과 의지를 그린 소설입니다.",
+    "overallSummary": "부에노스아이레스 비행장을 중심으로 남쪽, 서쪽, 북쪽에서 우편기들이 야간 비행을 통해 돌아오고 있습니다. 야간 비행을 개척하고 책임지는 리비에르 소장은 대원들의 안전과 우편 배달의 의무 사이에서 고뇌합니다. 파타고니아 선을 조종하는 파비앙이 심한 폭풍우를 만나 실종 위기에 처하지만, 리비에르는 야간 비행의 숭고한 가치와 전진을 위해 유럽 행 우편기를 예정대로 이륙시킵니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "밤을 정복하는 사람들",
+        "summary": "파비앙은 파타고니아 선 우편기를 타고 부에노스아이레스를 향해 비행하던 중 폭풍우를 만나 어둠 속에서 사투를 벌입니다."
+      },
+      {
+        "sectionTitle": "하늘을 책임지는 사람",
+        "summary": "항공로 책임자인 리비에르는 부에노스아이레스 비행장에서 우편기들의 도착을 기다리며 무거운 책임감과 고뇌를 느낍니다."
+      },
+      {
+        "sectionTitle": "항구에 정박한 배",
+        "summary": "유럽 행 우편기 조종사는 아내와의 평온한 일상을 뒤로하고 밤의 정복을 위해 비행을 준비합니다."
+      },
+      {
+        "sectionTitle": "하늘의 4분의 3 흐림",
+        "summary": "파비앙은 사방이 폭풍우로 막힌 절망적인 상황에서 연료 부족에 직면하며 새벽을 갈망합니다."
+      },
+      {
+        "sectionTitle": "영원히 파묻히지 않을 돌기둥을 세우기 위해",
+        "summary": "리비에르는 파타고니아 선의 실종 위기 속에서도 야간 비행의 중단 없이 유럽 행 우편기의 이륙을 명령합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "existential_theme",
+        "value": "개인의 희생을 초월한 집단적 의무와 인간적 한계 극복의 숭고함"
+      }
+    ],
+    "keyEntitiesText": "파비앙(조종사), 리비에르(항공사 소장), 무전사, 유럽 행 조종사의 아내, 부에노스아이레스 비행장",
+    "settingText": "아르헨티나 부에노스아이레스 및 파타고니아 상공, 밤과 폭풍우가 몰아치는 하늘."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rkMF4_zkz750DLWM3BDXQJeicD5X02lq",
+    "filename": "생 텍쥐페리-야간 비행.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.596Z",
+    "size": "42971",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1rkMF4_zkz750DLWM3BDXQJeicD5X02lq/view?usp=drivesdk",
+    "sourceSha256": "99c2e44e7aa758828fd33de6e176e3a3d6c0e61c650693aa291be377d3d6eb3a",
+    "textSha256": "a4d2dedab1d35408ce218884e5313cc7824fa7e6c17e0cbfd20165a26170da9d",
+    "changeKey": "fa2194f924d2adaaf960d82da0273ebe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "71adc41edb3f9499825a",
+    "workId": "71adc41edb3f9499825a",
+    "driveFileId": "1rkMF4_zkz750DLWM3BDXQJeicD5X02lq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:44:19.840555+00:00",
+    "updatedAt": "2026-09-22T00:44:19.840569+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:44:19.840719+00:00"
+    }
+  }
+}

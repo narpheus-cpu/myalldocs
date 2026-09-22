@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "핑거스미스",
+    "author": "세라 워터스",
+    "genre": "소설",
+    "tags": [
+      "영국 소설",
+      "역사 소설",
+      "퀴어",
+      "도둑들"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "19세기 런던의 빈민가에서 도둑들의 손에 자란 고아 소녀 수전 트린더가 겪는 기묘한 운명과 사기극의 서막을 그린 소설입니다.",
+    "overallSummary": "버러의 랜트 스트리트에서 장물아비 입스 씨와 아기 위탁업을 하는 석스비 부인의 보살핌 속에 자란 수전 트린더(수)는 자신이 고아라고 믿습니다. 그녀의 어머니는 살인죄로 교수형을 당한 유명한 도둑이었습니다. 수전은 도둑과 사기꾼들이 가득한 환경에서 자라며 장물을 닦고 가짜 은화를 만드는 법을 배우며 성장합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "수전은 어린 시절 서리 극장에서 '올리버 트위스트'를 보며 겪은 공포와 석스비 부인의 따뜻한 보살핌을 회상합니다. 또한 랜트 스트리트의 장물 거래 방식과 교수형을 당한 어머니의 비극적인 과거를 소개합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "victorian_underworld",
+        "value": "빅토리아 시대 런던 하층민의 삶과 도둑들의 생태를 생생하게 재현"
+      }
+    ],
+    "keyEntitiesText": "수전 트린더(수, 주인공), 석스비 부인(양어머니 같은 존재), 입스 씨(장물아비), 플로라(도둑 여학생), 잭(집 개)",
+    "settingText": "19세기 영국 런던 남쪽 버러의 랜트 스트리트 빈민가, 어둡고 축축한 골목길과 강가 주변."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Dc0Wk3WYWVYT2gAOo0H9oOfPUlJrctGy",
+    "filename": "세라 워터스-핑거스미스(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.643Z",
+    "size": "1168528",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Dc0Wk3WYWVYT2gAOo0H9oOfPUlJrctGy/view?usp=drivesdk",
+    "sourceSha256": "2e444cbdef25158f52b91ef3286aa1fb67ae06810dbe40a4c72769d9259d800b",
+    "textSha256": "94154c516ba6629ac8816a5becfa74db4b34752dc4ff69331c035e5e5a048048",
+    "changeKey": "ca408c1d49d546042ee73276c5d067b6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ba703cf08968ae76abf3",
+    "workId": "ba703cf08968ae76abf3",
+    "driveFileId": "1Dc0Wk3WYWVYT2gAOo0H9oOfPUlJrctGy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:44:38.214262+00:00",
+    "updatedAt": "2026-09-22T00:44:38.214277+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:44:38.214373+00:00"
+    }
+  }
+}

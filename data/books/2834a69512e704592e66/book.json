@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셀 2",
+    "author": "스티븐 킹",
+    "genre": "소설",
+    "tags": [
+      "미국 소설",
+      "아포칼립스",
+      "좀비",
+      "생존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "'펄스' 재앙 이후 게이튼 아카데미에 모인 생존자들이 폰 사이코들의 집단 귀환에 맞서 프로판 가스 트럭을 폭파시키는 작전을 감행하는 이야기입니다.",
+    "overallSummary": "클레이튼, 톰, 앨리스, 아데이 교장, 조든은 게이튼 아카데미에서 생존을 도모합니다. 밤이 되면 집단으로 귀환하여 경기장에서 잠드는 폰 사이코들을 소탕하기 위해, 클레이와 톰은 경기장 중앙에 주차된 프로판 가스 트럭을 권총으로 저격하여 대폭발을 일으킵니다. 폭발의 엄청난 충격 속에서 간신히 탈출한 일행은 분노한 괴물들의 비명 소리를 뒤로하고 관사를 떠날 준비를 합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "게이튼 아카데미",
+        "summary": "아데이 교장과 조든, 앨리스는 폰 사이코들의 귀환을 감시하며 초조해합니다. 폰 사이코들이 경기장으로 돌아오자 클레이와 톰은 프로판 가스 트럭을 폭파시켜 대규모 소탕 작전을 성공시키고 탈출합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "survival_strategy",
+        "value": "집단 지성을 갖추기 시작한 변종 인류(폰 사이코)에 대항하는 생존자들의 폭파 작전"
+      }
+    ],
+    "keyEntitiesText": "클레이튼 리델(클레이), 톰, 앨리스, 아데이 교장, 조든(학생), 폰 사이코들(광인들)",
+    "settingText": "가을밤 10시, 미국 게이튼 아카데미 교정과 토니 필드 축구 경기장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NnhzGlEw2Dh25vyvFsRzmV4TVKyXXVve",
+    "filename": "스티븐 킹-셀2-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T06:28:04.000Z",
+    "size": "439843",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1NnhzGlEw2Dh25vyvFsRzmV4TVKyXXVve/view?usp=drivesdk",
+    "sourceSha256": "a9614ccb1ec4138b6037d2dac241b02910e700c2183f8cae123bad0977df80aa",
+    "textSha256": "8f8777b50dbe20a0429c2a9c713db98ffb204a960e0a2d5c469f187f4e709991",
+    "changeKey": "b9072ce8a9f4533b97379a29588b471f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2834a69512e704592e66",
+    "workId": "2834a69512e704592e66",
+    "driveFileId": "1NnhzGlEw2Dh25vyvFsRzmV4TVKyXXVve",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:45:19.123952+00:00",
+    "updatedAt": "2026-09-22T00:45:19.123967+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:45:19.124064+00:00"
+    }
+  }
+}

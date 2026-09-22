@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셀 1",
+    "author": "스티븐 킹",
+    "genre": "소설",
+    "tags": [
+      "미국 소설",
+      "아포칼립스",
+      "좀비",
+      "휴대폰"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "휴대폰 신호(펄스)를 통해 전 세계 사람들이 순식간에 미쳐버려 폭력적인 야수로 변하는 대재앙 속에서 살아남으려는 클레이튼 리델의 사투를 그린 소설입니다.",
+    "overallSummary": "10월 1일 오후 3시 3분, 보스턴 보일스턴 스트리트에서 만화가 클레이튼 리델은 자신의 만화 계약 성공을 자축하며 아내 섀런에게 줄 선물을 사고 아이스크림을 기다리던 중, 휴대폰을 사용하던 사람들이 갑자기 미쳐서 서로를 물어뜯고 파괴하는 '펄스' 현상을 목격합니다. 순식간에 도시는 아수라장이 되고, 클레이는 살아남기 위해 사투를 벌입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "펄스",
+        "summary": "클레이튼 리델은 보스턴 공원 근처에서 휴대폰 통화를 하던 사람들이 갑자기 이성을 잃고 폭력적인 괴물로 변해 서로를 공격하고 자동차 사고를 일으키는 대재앙의 시작을 목격하고 충격에 빠집니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "apocalyptic_trigger",
+        "value": "현대 문명의 필수품인 휴대폰 신호가 인류를 파멸시키는 무기가 된다는 설정"
+      }
+    ],
+    "keyEntitiesText": "클레이튼 리델(클레이, 만화가), 섀런(아내), 조니(아들), 파워슈트 여인, 블론드 삐삐머리 소녀, 미스터 소프티 주인",
+    "settingText": "10월 1일 오후 3시, 미국 보스턴의 보일스턴 스트리트와 보스턴 공원 주변."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yEIHNhkVxVSyT44uHDF1bDlLIvbzXbAK",
+    "filename": "스티븐 킹-셀1-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T06:26:00.000Z",
+    "size": "460027",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1yEIHNhkVxVSyT44uHDF1bDlLIvbzXbAK/view?usp=drivesdk",
+    "sourceSha256": "ab8c09180a4845d1f7862211ce0b1104edf3be123f4037323f3a23a632846b23",
+    "textSha256": "a85d5a6bcf59685d04f85dce26b9d6fa4f63ad0e2588192f900cccf376ef1bc2",
+    "changeKey": "6d0c73759f310be4cf48a01fdd38cf73",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "932c2f1e8cab772ce1c2",
+    "workId": "932c2f1e8cab772ce1c2",
+    "driveFileId": "1yEIHNhkVxVSyT44uHDF1bDlLIvbzXbAK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:45:13.179874+00:00",
+    "updatedAt": "2026-09-22T00:45:13.179889+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:45:13.179988+00:00"
+    }
+  }
+}

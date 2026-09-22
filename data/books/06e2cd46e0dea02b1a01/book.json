@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "쿠조",
+    "author": "스티븐 킹",
+    "genre": "소설",
+    "tags": [
+      "미국 소설",
+      "공포 소설",
+      "광견병",
+      "괴물"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "과거 연쇄살인마 프랭크 도드의 악몽이 서린 캐슬 록 마을에, 다섯 살 소년 태드가 벽장 속 괴물의 공포를 느끼며 새로운 비극이 시작되는 소설입니다.",
+    "overallSummary": "메인 주의 작은 마을 캐슬 록은 5년 전 연쇄살인마 경찰 프랭크 도드의 죽음으로 평화를 되찾은 듯했으나, 그의 악몽은 여전히 남아 있습니다. 다섯 살 소년 태드 트렌톤은 밤마다 자신의 벽장 속에서 황갈색 눈을 번뜩이는 괴물의 공포를 느끼며 잠 못 이룹니다. 부모인 빅과 도나는 아이를 달래려 하지만, 마을에는 30년 만의 기록적인 무더위와 함께 새로운 괴물의 등장이 예고됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "쿠조",
+        "summary": "캐슬 록의 과거 연쇄살인마 프랭크 도드의 역사와 그의 사후에도 지속되는 악몽을 소개하고, 소년 태드가 벽장 속 괴물의 공포에 시달리는 모습과 마을의 최고령 노인 에비 이모가 예고하는 기록적인 무더위의 전조를 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "psychological_horror",
+        "value": "어린아이의 벽장 속 괴물 공포와 마을을 덮치는 현실적 재앙의 교차"
+      }
+    ],
+    "keyEntitiesText": "태드 트렌톤(다섯 살 소년), 빅 트렌톤(아빠), 도나 트렌톤(엄마), 프랭크 도드(과거 연쇄살인마 경찰), 에블린 차머스(에비 이모, 최고령 주민), 조지 메라(우편배달부)",
+    "settingText": "1980년 여름, 미국 메인 주의 작은 시골 마을 캐슬 록(Castle Rock), 무더위가 시작되는 시기."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qiJ9nrh7T40dY6OSqmyJA0BK1XgLUT__",
+    "filename": "스티븐 킹-쿠조-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T06:30:38.000Z",
+    "size": "785699",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1qiJ9nrh7T40dY6OSqmyJA0BK1XgLUT__/view?usp=drivesdk",
+    "sourceSha256": "e1f3aafe8314919e76f8b15aca2dd7b757fc62b85de5cfbc326fc2347e2f161a",
+    "textSha256": "52eb545ea92244b95166bd2a9dbeb54c2ed0442728cfd9cdbbdff59eccc1956e",
+    "changeKey": "34f021c6a3472cdb5fa0bdd32e9e9d11",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "06e2cd46e0dea02b1a01",
+    "workId": "06e2cd46e0dea02b1a01",
+    "driveFileId": "1qiJ9nrh7T40dY6OSqmyJA0BK1XgLUT__",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:45:25.717273+00:00",
+    "updatedAt": "2026-09-22T00:45:25.717287+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:45:25.717384+00:00"
+    }
+  }
+}

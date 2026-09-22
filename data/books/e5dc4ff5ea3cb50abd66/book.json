@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "캑터스",
+    "author": "사라 헤이우드",
+    "genre": "소설",
+    "tags": [
+      "영국 소설",
+      "가족",
+      "성장",
+      "여성"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "어머니의 갑작스러운 죽음 이후 런던의 공무원 수잔이 남동생 에드워드와의 갈등 및 자신의 삶을 돌아보는 이야기입니다.",
+    "overallSummary": "런던에서 안정적인 공무원으로 살아가는 수잔은 어머니의 사망 소식을 듣고 냉정함을 유지하려 하지만, 철없는 남동생 에드워드와의 관계, 어머니의 유언장 존재, 그리고 자신의 임신 등으로 인해 삶의 변화를 겪기 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "수잔은 남동생 에드워드로부터 어머니의 사망 소식을 듣고, 슬픔을 억누르며 평소처럼 런던의 사무실로 출근해 일상을 유지하려 하지만 동료들과의 갈등과 어머니의 유언장 소식으로 복잡한 심경에 처합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "character_trait",
+        "value": "감정을 철저히 통제하고 선인장처럼 방어적인 성격을 지닌 주인공 수잔의 내면 묘사"
+      }
+    ],
+    "keyEntitiesText": "수잔 그린(주인공, 공무원), 에드워드(남동생), 패트리샤 그린(어머니), 톰(동료), 리디아(동료), 콘스탄타(청소부), 윈스턴(이웃집 고양이)",
+    "settingText": "현대 영국 런던 및 버밍엄, 무더운 한여름의 도시 사무실과 수잔의 1층 아파트."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1s4somIYAKYqB7BBPibQY7eCgjC7k0Hd5",
+    "filename": "사라 헤이우드-캑터스(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.471Z",
+    "size": "517902",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1s4somIYAKYqB7BBPibQY7eCgjC7k0Hd5/view?usp=drivesdk",
+    "sourceSha256": "325132f0c7b915bc604d849ea751ea71da2134006dc9e87aa7a71c6b78098f12",
+    "textSha256": "f4d2026193611208d69e0bc6a2cf7336fe185f2796a1923b5c6f2d20cd8c6511",
+    "changeKey": "71a13c37d05e7a1a3aa63896f86f3eac",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e5dc4ff5ea3cb50abd66",
+    "workId": "e5dc4ff5ea3cb50abd66",
+    "driveFileId": "1s4somIYAKYqB7BBPibQY7eCgjC7k0Hd5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:43:50.956188+00:00",
+    "updatedAt": "2026-09-22T00:43:50.956203+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:43:50.956394+00:00"
+    }
+  }
+}

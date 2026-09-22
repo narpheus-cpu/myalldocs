@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "러브",
+    "author": "수산나 타마로",
+    "genre": "소설",
+    "tags": [
+      "이탈리아 소설",
+      "가족의 비극",
+      "아동 학대",
+      "일기"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "입양아 도리를 키우는 여성의 일기를 통해, 겉으로는 평온해 보이지만 내면에는 아동 학대와 폭력의 어두운 그림자가 깔린 가족의 비극을 그린 소설입니다.",
+    "overallSummary": "'다시 월요일에'에서 화자는 남편 제프와 함께 쓰레기통에서 발견된 입양아 도리를 키우며 행복한 가정을 꾸리고 있다고 믿습니다. 그러나 화자의 일기 속에는 계단에서 굴러떨어지거나 냉장고 선반에 부딪혀 멍이 들고 피가 나는 의문의 사고들이 반복됩니다. 남편 제프는 도리에게 가혹한 식이요법을 강요하고 폭력적인 장난을 치며, 도리의 노트에는 아빠가 밤에는 괴물이라는 충격적인 진실이 적혀 있습니다. '러브'에서는 자루에 담겨 납치된 아이들이 소매치기 훈련을 받는 비극적인 상황이 묘사됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "다시 월요일에",
+        "summary": "화자는 입양아 도리와의 6주년을 기념하며 일기를 쓰기 시작합니다. 남편 제프와의 행복을 강조하지만, 화자와 도리가 겪는 의문의 부상과 제프의 가혹한 훈육, 그리고 도리가 남긴 '아빠는 괴물'이라는 메모를 통해 학대의 실상이 드러납니다."
+      },
+      {
+        "sectionTitle": "러브",
+        "summary": "한 아이가 잠든 사이에 자루에 담겨 트럭에 실려 가고, 드라고미르라는 남자 밑에서 가혹한 매질을 당하며 소매치기 기술을 배우는 비극적인 과정을 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "unreliable_narrator",
+        "value": "가정 폭력과 학대를 인지하지 못하거나 미화하는 신뢰할 수 없는 화자의 시선"
+      }
+    ],
+    "keyEntitiesText": "나(화자, 동화 전집 기획자), 제프(남편, 변호사), 도리(여섯 살 입양아), 로리(출판사 동료), 드라고미르(소매치기 교관)",
+    "settingText": "현대의 어느 도시, 화자의 아파트와 출판사 사무실, 그리고 소매치기 아이들이 감금된 아파트."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EDh6qKliVgmvKeyhngmOySXx_LdrUN23",
+    "filename": "수산나 타마로-러브.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.744Z",
+    "size": "285391",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1EDh6qKliVgmvKeyhngmOySXx_LdrUN23/view?usp=drivesdk",
+    "sourceSha256": "753ae854a42755ce08ade789d01a06885e237b331f95798ef17fff40bb7afdd1",
+    "textSha256": "62f7697fb83096ce4d20c3425af775110f7b62c6ddbbc46cf223dd4621de92b1",
+    "changeKey": "bcf3309134917521a216961296f1e549",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d5cdda0f75eb114b01bd",
+    "workId": "d5cdda0f75eb114b01bd",
+    "driveFileId": "1EDh6qKliVgmvKeyhngmOySXx_LdrUN23",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:44:51.414359+00:00",
+    "updatedAt": "2026-09-22T00:44:51.414374+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:44:51.414474+00:00"
+    }
+  }
+}

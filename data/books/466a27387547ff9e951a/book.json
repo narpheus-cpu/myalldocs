@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에덴으로 돌아오다",
+    "author": "시드니 샐던",
+    "genre": "소설",
+    "tags": [
+      "미국 소설",
+      "대중 소설",
+      "복수",
+      "재벌",
+      "배신"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "호주 최대 재벌의 상속녀 스테파니 하퍼가 매력적인 테니스 선수 그렉 마스던과 재혼하지만, 남편과 친구의 배신으로 비극적인 운명에 직면하는 소설입니다.",
+    "overallSummary": "하퍼 그룹의 상속녀 스테파니 하퍼는 남편과 사별한 후, 매력적인 연하의 테니스 선수 그렉 마스던과 재혼합니다. 그러나 그렉은 스테파니의 재산을 노리고 그녀의 절친한 친구인 질리 스튜어트와 불륜 관계를 맺습니다. 스테파니는 이들의 음모를 모른 채 행복한 재혼을 꿈꾸며 성대한 결혼식을 올리지만, 질리와 그렉 사이에는 이미 미묘한 기류가 흐르기 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 1장",
+        "summary": "하퍼 가문의 왕국인 '에덴'의 역사와 스테파니 하퍼의 과거를 소개하고, 그녀가 바람둥이 테니스 선수 그렉 마스던과 재혼을 결심하여 성대한 결혼식을 준비하는 과정을 묘사합니다."
+      },
+      {
+        "sectionTitle": "제1부 2장",
+        "summary": "스테파니의 절친한 친구 질리 스튜어트는 그렉을 보며 묘한 질투심과 이끌림을 느끼고, 결혼식장에 도착한 그렉과 질리 사이에 미묘한 시선이 오가며 비극적인 불륜의 전조를 알립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "betrayal_and_revenge",
+        "value": "가장 가까운 남편과 친구의 배신으로 인한 비극과 향후 전개될 복수극의 서막"
+      }
+    ],
+    "keyEntitiesText": "스테파니 하퍼(하퍼 그룹 상속녀), 그렉 마스던(재혼 남편, 테니스 선수), 질리 스튜어트(스테파니의 친구), 빌(그룹 총지배인), 케이티(늙은 하인), 크리스(흑인 하인)",
+    "settingText": "호주의 대저택 '에덴(Eden)' 및 하퍼 그룹의 본거지, 화려한 상류층 사교계."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WhAXButP100WOsjMy3m63G1pmy1VCwcD",
+    "filename": "시드니 샐던-에덴으로 돌아오다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.853Z",
+    "size": "1710055",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이",
+      "시드니 샐던"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이/시드니 샐던",
+    "webViewLink": "https://drive.google.com/file/d/1WhAXButP100WOsjMy3m63G1pmy1VCwcD/view?usp=drivesdk",
+    "sourceSha256": "517da9fec1db0ca8827727e6f1e6d27c1c3e6df0e2ee560a49ea8ccd81e00d7c",
+    "textSha256": "686882af8858cd45374e134dfa89ae8b7e1c78ae2053aee679f954dea945db46",
+    "changeKey": "b01019400e108253979f5242108a26d5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "466a27387547ff9e951a",
+    "workId": "466a27387547ff9e951a",
+    "driveFileId": "1WhAXButP100WOsjMy3m63G1pmy1VCwcD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:45:37.592050+00:00",
+    "updatedAt": "2026-09-22T00:45:37.592066+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:45:37.592165+00:00"
+    }
+  }
+}

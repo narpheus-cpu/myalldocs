@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사이트 파이크 아바스야느크 단편선",
+    "author": "사이트 파이크 아바스야느크",
+    "genre": "소설",
+    "tags": [
+      "터키 문학",
+      "단편 소설",
+      "인간 소외",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "터키의 대표적인 단편 작가 사이트 파이크 아바스야느크가 인간의 추함, 가난, 고독을 일상의 풍경 속에서 그려낸 단편선입니다.",
+    "overallSummary": "'해변의 거울'에서는 아무 이유 없이 해변의 거울을 깬 화자가 가난한 빨래방 여인의 사생아 소년과의 만남을 통해 인간의 욕정과 추함을 마주하는 과정을 그리며, '마을 카페'에서는 눈 내리는 겨울날 카페에서 죽어가는 아버지를 둔 젊은이와 그를 외면하는 마을 사람들의 차가운 정적을 묘사합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "해변의 거울",
+        "summary": "화자는 해변의 거울을 깬 미치광이로 취급받지만 실상은 아무 이유 없이 깬 것이라며, 올리브 나무 아래서 만난 가난한 소년과 그의 어머니와의 기묘한 만남을 회상합니다."
+      },
+      {
+        "sectionTitle": "마을 카페",
+        "summary": "눈보라 치는 겨울 저녁, 화자는 한적한 마을 카페에서 정적 속에 앉아 있다가, 아버지가 죽어가는 젊은이와 그를 차갑게 외면하는 마을 사람들의 비극적인 침묵을 목격합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "thematic_focus",
+        "value": "소외된 이웃들의 가난과 인간 내면의 위선 및 추함에 대한 성찰"
+      }
+    ],
+    "keyEntitiesText": "화자(나), 아흐메드(구두닦이 소년), 소년의 어머니, 카페 주인, 알리 할아버지, 마흐무트 아저씨",
+    "settingText": "터키의 해변 마을 및 겨울철 눈 내리는 한적한 시골 마을 카페."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WdwuWyc_2wOW95shYb4sThq1hZuwhdyz",
+    "filename": "사이트 파이크 아바스야느크 단편선(현대문학 단편선)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:36:32.000Z",
+    "size": "679233",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1WdwuWyc_2wOW95shYb4sThq1hZuwhdyz/view?usp=drivesdk",
+    "sourceSha256": "41705390d4a3718b04069888c3081cc0c9dfbec4890d6b15c226f68f8752e068",
+    "textSha256": "1fc4f723fb5e387a67a8e4db0ea7c63ddecbaac97e2ab1fdafbcd3d406bdd55b",
+    "changeKey": "9720e5b5d1f83cc9ed62df1c9cd9d4a0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b11cad71a5ec8329aea4",
+    "workId": "b11cad71a5ec8329aea4",
+    "driveFileId": "1WdwuWyc_2wOW95shYb4sThq1hZuwhdyz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:43:57.796631+00:00",
+    "updatedAt": "2026-09-22T00:43:57.796646+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:43:57.796753+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "투명인간",
+    "author": "세인트",
+    "genre": "소설",
+    "tags": [
+      "미국 소설",
+      "SF",
+      "투명인간",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 H.F.세인트는 현재 미국 뉴욕 시에 살고 있으며 <투명 인간>이 작가의 처녀작입니다. 투명인간의 긴박하고 박진감 넘치는 전개는 H.F세인트 소설의 특징이기도 합니다.",
+    "oneLineSummary": "뉴저지에서 발생한 기괴한 과학적 사고로 인해 하루아침에 투명인간이 되어버린 유가증권 분석가의 모험과 생존 투쟁을 그린 소설입니다.",
+    "overallSummary": "34세의 평범한 유가증권 분석가였던 화자는 뉴저지에서 일어난 과학적 실수로 인해 몸이 투명하게 재구성되는 사고를 겪습니다. 투명인간이 되기 전날 밤, 그는 짝사랑하던 동료 앤 앱스틴과 함께 프린스턴 행 기차를 타고 가며 그녀의 정치적, 경제적 대화에 귀를 기울이고 육체적 교감을 나눕니다. 사고 이후 그는 보이지 않는 존재로서 겪는 고독과 생존의 어려움을 회고합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "투명인간이 된 화자가 자신의 기괴한 상태와 글을 쓰는 상황을 설명하고, 사고가 일어나기 직전 앤 앱스틴과 함께 보냈던 황홀하고 평범했던 기차 여행을 회상합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "sci_fi_premise",
+        "value": "과학적 오류로 인해 분자 구조가 재구성되어 투명인간이 된다는 설정"
+      }
+    ],
+    "keyEntitiesText": "나(화자, 유가증권 분석가, 투명인간), 앤 앱스틴(뉴욕타임즈 경제부 기자), 피터(앤의 약혼자)",
+    "settingText": "미국 뉴욕 및 뉴저지, 프린스턴 행 기차 안, 4월의 봄날 아침."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-g7Y5K0SLl2bySLCfmeKdl_eGJ8Lsp0X",
+    "filename": "세인트-투명인간.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.701Z",
+    "size": "954505",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1-g7Y5K0SLl2bySLCfmeKdl_eGJ8Lsp0X/view?usp=drivesdk",
+    "sourceSha256": "217fc7aa722480d771b30691d794ac12355326fa87f974b430bdffd9f881bc01",
+    "textSha256": "22113d2e65646283c6096c876e984b2f02cc2965ac5990bf82f2046f4d3f990a",
+    "changeKey": "0a2d5d87249d4249811fc673cc46811e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "eee06dffbae54c401856",
+    "workId": "eee06dffbae54c401856",
+    "driveFileId": "1-g7Y5K0SLl2bySLCfmeKdl_eGJ8Lsp0X",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:44:44.232659+00:00",
+    "updatedAt": "2026-09-22T00:44:44.232673+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:44:44.232770+00:00"
+    }
+  }
+}

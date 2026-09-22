@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "달과 6펜스",
+    "author": "서머싯 몸",
+    "genre": "소설",
+    "tags": [
+      "영국 소설",
+      "예술가",
+      "천재성",
+      "광기"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "평범한 증권 브로커였으나 마흔의 나이에 예술적 천재성에 이끌려 가정을 버리고 화가의 길을 택한 찰스 스트릭랜드의 삶을 추적하는 소설입니다.",
+    "overallSummary": "화자(나)는 찰스 스트릭랜드라는 화가의 위대성과 천재성을 회고하며 이야기를 시작합니다. 스트릭랜드는 생전에는 무명이었으나 사후에 독창적인 개성으로 명성을 얻습니다. 화자는 런던 문단에 처음 등단했을 때의 위선적이고 세련된 사교계 풍경을 묘사하며, 그 속에서 평범한 인물로 보였던 스트릭랜드와의 첫 만남과 그의 예술적 비밀을 파헤치고자 합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "찰스 스트릭랜드의 사후 명성과 천재성을 언급하며, 예술가의 개성이 작품에 미치는 영향과 그의 전설이 형성된 과정을 설명합니다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "화자가 타히티에서 스트릭랜드의 말년을 추적하게 된 계기를 밝히고, 세대의 변화와 작가로서의 태도에 대해 성찰합니다."
+      },
+      {
+        "sectionTitle": "3장",
+        "summary": "화자가 젊은 시절 런던 문단에 소개되어 겪었던 사교계의 위선적이고 재치 있는 대화 풍경과 작가들의 이면을 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "artistic_obsession",
+        "value": "세속적 가치(6펜스)를 버리고 예술적 이상(달)을 쫓는 인간의 광기와 천재성 탐구"
+      }
+    ],
+    "keyEntitiesText": "찰스 스트릭랜드(천재 화가), 나(화자, 작가), 모리스 위레(비평가), 로버트 스트릭랜드 신부(아들), 바이트브레히트 로톨츠 박사(역사가)",
+    "settingText": "19세기 말에서 20세기 초의 영국 런던 사교계 및 예술가들의 아지트."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rFWeRQ0t8PzHlvboFX6om2ufOPox8H6r",
+    "filename": "서머싯 몸-달과 6펜스 -- 서머싯 몸 저, 송무 역(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.617Z",
+    "size": "607889",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1rFWeRQ0t8PzHlvboFX6om2ufOPox8H6r/view?usp=drivesdk",
+    "sourceSha256": "efec3ccad168733705f7bdf13bbabd7e648ed95da638860e18e3b503a666d5c2",
+    "textSha256": "4d143a3e5c3d7e97f405a6a3e4381e820b489bb72284722c6ffa84db30efa608",
+    "changeKey": "e7695ed7d90759964074aa482214fd32",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "399309fb698ab2c3dda1",
+    "workId": "399309fb698ab2c3dda1",
+    "driveFileId": "1rFWeRQ0t8PzHlvboFX6om2ufOPox8H6r",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:44:32.432268+00:00",
+    "updatedAt": "2026-09-22T00:44:32.432282+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:44:32.432384+00:00"
+    }
+  }
+}

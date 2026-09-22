@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "죽음보다 깊은 사랑",
+    "author": "산드라 브라운",
+    "genre": "소설",
+    "tags": [
+      "미국 소설",
+      "로맨스",
+      "스릴러",
+      "신분 위장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "성형수술로 다른 여자의 삶을 살게 된 애버리 다니엘즈가 남편 테이트와의 갈등 속에서 선거와 음모에 휘말리는 이야기입니다.",
+    "overallSummary": "사고 후 성형수술을 통해 테이트의 아내 '캐롤'로 오인받아 살아가게 된 애버리 다니엘즈는 테이트의 딸 맨디에게 진심 어린 애정을 쏟습니다. 그러나 테이트는 캐롤의 갑작스러운 변화를 위선적인 연극으로 의심하며 선거가 끝나면 이혼할 것이라고 협박합니다. 애버리는 테이트에게 이끌리며 육체적 관계를 맺으려 하지만 거절당하고, 캐롤을 둘러싼 거대한 음모와 위협 속에서 자신의 정체성을 숨긴 채 살아갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "16장",
+        "summary": "애버리는 맨디를 목욕시키며 엄마로서의 행복을 느끼지만, 테이트는 그녀의 변화를 가식으로 보며 분노하고 선거 후 헤어질 것을 경고합니다. 두 사람은 격정적인 키스를 나누지만 테이트는 그녀를 밀쳐내고 떠납니다."
+      },
+      {
+        "sectionTitle": "17장",
+        "summary": "애버리는 테이트의 법률사무소를 방문해 그의 스폰서 바니 브릿지즈를 만나고, 캐롤로서의 게으른 삶과 달리 적극적으로 대처하려 하지만 자신을 향한 보이지 않는 위협을 느낍니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "identity_swap",
+        "value": "사고와 성형수술로 타인의 아내 역할을 대행하며 겪는 정체성 혼란과 로맨스"
+      }
+    ],
+    "keyEntitiesText": "애버리 다니엘즈(캐롤로 위장한 주인공), 테이트 러트리지(남편, 상원의원 후보), 맨디(딸), 매리 크로우포트(비서), 바니 브릿지즈(스폰서)",
+    "settingText": "미국의 목장 주택 및 테이트의 법률 사무소, 상원의원 예비선거 운동 기간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1raBmrMHCD_g_7Z9g0ogXFSxMkikTapPe",
+    "filename": "산드라 브라운-죽음보다 깊은 사랑.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.567Z",
+    "size": "904021",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1raBmrMHCD_g_7Z9g0ogXFSxMkikTapPe/view?usp=drivesdk",
+    "sourceSha256": "67e9412135b75a05c5c038bf6164765c60489b88d140d9809a9202bc8d5f4b58",
+    "textSha256": "01f573fba46ecb7bfa44374f49ce47ca8e1dee848ed89ee54e9295926278df42",
+    "changeKey": "37cb9502cfb9af82e9851b6538ae747c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4f050204b354b4bd0ce9",
+    "workId": "4f050204b354b4bd0ce9",
+    "driveFileId": "1raBmrMHCD_g_7Z9g0ogXFSxMkikTapPe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:44:08.802219+00:00",
+    "updatedAt": "2026-09-22T00:44:08.802234+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:44:08.802335+00:00"
+    }
+  }
+}

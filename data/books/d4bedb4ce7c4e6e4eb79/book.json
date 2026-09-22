@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여명",
+    "author": "시도니가브리엘 콜레트",
+    "genre": "소설",
+    "tags": [
+      "프랑스 소설",
+      "여성 문학",
+      "어머니",
+      "노년",
+      "성찰"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "노년에 접어든 작가 콜레트가 어머니의 편지를 통해 삶과 사랑, 노년의 고독을 성찰하며 프로방스의 자연 속에서 평온을 찾아가는 자전적 소설입니다.",
+    "overallSummary": "작가 콜레트는 76세의 나이에도 붉은 선인장의 개화를 보기 위해 딸의 초대를 거절했던 어머니의 편지를 회고하며, 나이가 들수록 어머니를 닮아가는 자신을 발견합니다. 그녀는 프로방스의 작은 집에서 자연을 돌보고 글을 쓰며, 과거의 파란만장했던 사랑과 열정에서 벗어나 노년이 주는 평온함과 단순한 삶의 가치를 깨달아갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "어머니가 사위에 보낸 편지를 소개하며, 선인장의 개화를 기다리는 마음으로 딸의 초대를 거절했던 어머니의 생명력과 사랑을 기리고, 자신 또한 어머니를 닮아가고 있음을 성찰합니다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "프로방스의 작은 집에서 정원을 가꾸고 동물들과 교감하며 보내는 평온한 일상을 묘사하고, 과거의 사랑과 집착에서 벗어나 단순해진 삶의 행복을 노래합니다."
+      },
+      {
+        "sectionTitle": "3장",
+        "summary": "거센 북풍이 부는 밤, 불면의 시간 속에서 과거의 사랑과 관계를 돌아보고, 이제는 사랑의 열병에서 해방되어 프로방스의 자연에 복종하며 평온을 유지하려는 의지를 밝힙니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "maternal_influence",
+        "value": "어머니의 편지를 매개로 한 모성적 가치와 자연의 순리에 대한 깊은 성찰"
+      }
+    ],
+    "keyEntitiesText": "나(콜레트, 화자), 시도니 콜레트(어머니), 프로방스 아줌마(요리사), 르네 네레/레아(소설 속 캐릭터)",
+    "settingText": "프랑스 남부 프로방스 지방의 해변 마을, 건조하고 바람이 부는 지중해 연안의 시골 주택."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VgAyc9VmGIaJOE8zogbVSLtlLNHgBte4",
+    "filename": "시도니가브리엘 콜레트-여명(세계문학전집 27) -.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:14.830Z",
+    "size": "351140",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1VgAyc9VmGIaJOE8zogbVSLtlLNHgBte4/view?usp=drivesdk",
+    "sourceSha256": "1a5d3256b1ed53c52b91ecf724af6e2c41526dfb11d3a39e19162a1a9ba342ba",
+    "textSha256": "4d307cc2033bbd28f0e153d5af1b2f9e969191a715796981320ba8e3bafecd23",
+    "changeKey": "a5ef2d44ebc2b8164df495612d71f9fa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d4bedb4ce7c4e6e4eb79",
+    "workId": "d4bedb4ce7c4e6e4eb79",
+    "driveFileId": "1VgAyc9VmGIaJOE8zogbVSLtlLNHgBte4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T00:45:32.044627+00:00",
+    "updatedAt": "2026-09-22T00:45:32.044645+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T00:45:32.044755+00:00"
+    }
+  }
+}
