@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하렘 파이리츠",
+    "author": "타케우치 켄",
+    "genre": "판타지 / 성인소설",
+    "tags": [
+      "리카르도",
+      "시그레인",
+      "에트루리아",
+      "해군제독"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "erotica"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "바다를 제패하고자 하는 리카르도 왕자가 해군제독 시그레인에게 성인으로 인정받기 위해 관능적 입문식을 치르는 이야기.",
+    "overallSummary": "에트루리아 왕국의 리카르도 왕자는 바다로 나아가 국가의 미래를 열고자 해군제독 시그레인 백작을 찾아간다. 시그레인은 그를 한 남자로 인정해 주겠다며 관능적이고 유혹적인 성인식을 치러준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 일 장 순백의 귀부인",
+        "summary": "바다에 대한 리카르도 왕자의 포부와 시그레인 제독의 유혹적인 입문 제안 및 침실에서의 정사."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "성장 및 정치",
+        "value": "해양 정세와 왕자의 성적 입문"
+      }
+    ],
+    "keyEntitiesText": "리카르도 왕자, 시그레인(해군제독/백작), 비슈누 여왕, 세륜",
+    "settingText": "에트루리아 왕국 제독 집무실 및 침실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1r2JxqyvrkAtXPmSiHptPiSmoBBpoo0h8",
+    "filename": "하렘 파이리츠.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.465Z",
+    "size": "455228",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19"
+    ],
+    "relativePath": "books/09 로맨스/19",
+    "webViewLink": "https://drive.google.com/file/d/1r2JxqyvrkAtXPmSiHptPiSmoBBpoo0h8/view?usp=drivesdk",
+    "sourceSha256": "8bf7ab29532cd871a2efec13eabee6d2d2671db3c6eff26aa61cb29c456b4139",
+    "textSha256": "debd549147b86508132ea311426011f954092b15c72ba599ac8f7da251b16390",
+    "changeKey": "a0b4fd2b6b8253452bc8c84e50769e05",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fe95a432a5bd066cfe02",
+    "workId": "fe95a432a5bd066cfe02",
+    "driveFileId": "1r2JxqyvrkAtXPmSiHptPiSmoBBpoo0h8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:14:25.544822+00:00",
+    "updatedAt": "2026-09-22T17:14:25.544839+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:14:25.544942+00:00"
+    }
+  }
+}

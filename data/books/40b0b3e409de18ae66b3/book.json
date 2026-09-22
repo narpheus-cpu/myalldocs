@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하렘 시스터",
+    "author": "다케우치 켄",
+    "genre": "판타지 / 성인소설",
+    "tags": [
+      "힐크루스",
+      "유포리아",
+      "주작신전",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "erotica"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "반란 실패 후 추격대를 피해 도망치던 힐크루스 왕자가 주작신전 무녀장 유포리아의 대담한 구원으로 위기를 넘기는 이야기.",
+    "overallSummary": "이슈타르 왕국의 반란 사건으로 도망자가 된 힐크루스 왕자는 계곡 급류에 떠내려가다 주작신전 무녀장 유포리아에게 구조된다. 데크셀 장군의 추격대가 들이닥치자 유포리아는 목욕재계 의식을 핑계로 알몸으로 왕자를 안아 숨겨준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 목욕재계",
+        "summary": "급류에서 구출된 힐크루스 왕자, 추격대를 속이기 위한 유포리아 무녀장의 대담한 알몸 위장."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관",
+        "value": "이슈타르 왕국 및 주작신전 수녀원 설정"
+      }
+    ],
+    "keyEntitiesText": "힐크루스 왕자, 유포리아(무녀장), 베르벳트, 그레이센, 시긴, 데크셀 장군",
+    "settingText": "이슈타르 왕국 북쪽 미르크아 천, 주작신전 천막"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SciS4zwKsqAFZssPaEV9pOgjkQ9F2M8H",
+    "filename": "하렘 시스터.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.398Z",
+    "size": "232224",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19"
+    ],
+    "relativePath": "books/09 로맨스/19",
+    "webViewLink": "https://drive.google.com/file/d/1SciS4zwKsqAFZssPaEV9pOgjkQ9F2M8H/view?usp=drivesdk",
+    "sourceSha256": "484b5cefeecd79af2d3df2390d59e0e90d10fdb993294c907f939c71f83de1c8",
+    "textSha256": "631654ae96790d0efc582c109240fc967e320fb2cf4b621e4484be63fbf14dd9",
+    "changeKey": "2c120c66f6585a6678c61de3ab199a20",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "40b0b3e409de18ae66b3",
+    "workId": "40b0b3e409de18ae66b3",
+    "driveFileId": "1SciS4zwKsqAFZssPaEV9pOgjkQ9F2M8H",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:14:17.766777+00:00",
+    "updatedAt": "2026-09-22T17:14:17.766791+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:14:17.766882+00:00"
+    }
+  }
+}

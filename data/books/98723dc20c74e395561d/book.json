@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그레이의 50가지 그림자 1권",
+    "author": "E L 제임스",
+    "genre": "로맨스 / 소설",
+    "tags": [
+      "그레이",
+      "아나스타샤",
+      "50가지그림자",
+      "인터뷰"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance",
+        "erotica"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "친구 대신 억만장자 크리스천 그레이를 인터뷰하러 간 여대생 아나스타샤 스틸의 운명적 첫 만남.",
+    "overallSummary": "영문학도 아나스타샤 스틸은 아픈 룸메이트 케이트 대신 그레이 하우스를 찾아가 사장 크리스천 그레이를 인터뷰한다. 오만하고 유능하며 잘생긴 그레이의 눈빛과 존재감에 사로잡히며 둘 사이의 독특한 인연이 시작된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장",
+        "summary": "케이트 대신 시애틀 그레이 하우스를 방문하여 크리스천 그레이와 가진 첫 인터뷰."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "첫 만남",
+        "value": "아나스타샤와 크리스천 그레이의 첫 만남"
+      }
+    ],
+    "keyEntitiesText": "아나스타샤 스틸, 크리스천 그레이, 캐서린 캐버너(케이트), 올리비아",
+    "settingText": "시애틀 그레이 하우스 20층 사장실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vpVmoXgizVQyK3csM4Ls_cjoVz7baNkd",
+    "filename": "그레이의 50가지 그림자 1권(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:23.674Z",
+    "size": "460104",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1vpVmoXgizVQyK3csM4Ls_cjoVz7baNkd/view?usp=drivesdk",
+    "sourceSha256": "9548eb703d86004c84d1b0137357eac8587a7f72236bc64c385ad1e3a7da076c",
+    "textSha256": "6d5ee62088104a0c36511dbb71dd48ef45797a49fa5911d24cb93b65b575b097",
+    "changeKey": "49f62b6aa3f903c9292275c9aa9c8488",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "98723dc20c74e395561d",
+    "workId": "98723dc20c74e395561d",
+    "driveFileId": "1vpVmoXgizVQyK3csM4Ls_cjoVz7baNkd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:15:17.127955+00:00",
+    "updatedAt": "2026-09-22T17:15:17.127971+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:15:17.128077+00:00"
+    }
+  }
+}
