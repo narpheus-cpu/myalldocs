@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무당마검",
+    "author": "한백림",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "명경",
+      "조홍",
+      "무당파",
+      "영락제"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "역사소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한백림 작가의 무협 소설로, 영락제 시기의 역사적 격변 속에서 무당파의 절대고수로 성장하는 명경의 서사를 다룹니다.",
+    "oneLineSummary": "영락제의 소칙을 전하기 위해 무당파를 방문한 젊은 관리 조홍이 무당파의 검박하면서도 압도적인 위세와 장문인의 기품에 압도당하는 이야기입니다.",
+    "overallSummary": "영락제가 황위를 찬탈한 후 정국이 불안한 시기, 젊고 유능한 관리 조홍은 황제의 소칙을 무당파에 전하라는 명을 받고 호북성 무당산으로 향합니다. 조홍은 무당파의 소박하면서도 자연과 조화를 이룬 전경과 밭을 가는 도사들의 모습에 놀라고, 상청궁에서 장문인 현양진인을 알현하여 그의 압도적인 안목과 기품에 정신을 잃을 정도의 충격을 받습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소개",
+        "summary": "주인공 명경의 신상 명세와 무당산의 수려하고 진중한 산세를 소개합니다."
+      },
+      {
+        "sectionTitle": "조홍의 여정",
+        "summary": "영락제 시기의 정국 변화와 조홍 가문의 내력, 그리고 조홍이 위병들을 이끌고 무당산에 오르며 느끼는 심리적 압박감을 다룹니다."
+      },
+      {
+        "sectionTitle": "무당파 방문",
+        "summary": "조홍이 무당파의 검박한 산문과 밭을 가는 도사들을 지나 상청궁에서 현양진인을 만나 그의 도력에 압도당하고, 현양진인과 허상진인이 장차 다가올 난세를 우려하는 대화를 나눕니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 융합",
+        "value": "명나라 영락제의 황위 찬탈이라는 실제 역사적 사건과 무당파의 도가적 사상을 유기적으로 결합"
+      }
+    ],
+    "keyEntitiesText": "명경, 조홍, 현양진인, 허상진인, 탁무자, 강습, 영락제, 무당파",
+    "settingText": "호북성 무당산의 무당파 본거지와 상청궁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15CIV2IxkiYX1WDUEVFLZ_hyyr9kFbvUp",
+    "filename": "무당마검(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:04.892Z",
+    "size": "2288470",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/15CIV2IxkiYX1WDUEVFLZ_hyyr9kFbvUp/view?usp=drivesdk",
+    "sourceSha256": "5856d93386e8f47ba73996db2436b09f9e6e00f2f8214606eb50505da7c6cd05",
+    "textSha256": "cca52a48f472b6da30c009bc85cc6c747f40abeecdecd7fd1a784dcecceea7aa",
+    "changeKey": "b970cc5eb33281a0d0e99781c4003801",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4d3e78ca6a7ab6137ae8",
+    "workId": "4d3e78ca6a7ab6137ae8",
+    "driveFileId": "15CIV2IxkiYX1WDUEVFLZ_hyyr9kFbvUp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:31:03.296781+00:00",
+    "updatedAt": "2026-09-22T15:31:03.296797+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:31:03.296958+00:00"
+    }
+  }
+}

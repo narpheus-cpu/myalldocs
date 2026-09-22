@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무림제황",
+    "author": "권천",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "성무",
+      "남궁민",
+      "구태관",
+      "일심회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "음모"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권천 작가의 무협 소설로, 뛰어난 미모의 도공 성무와 일심회의 총감 남궁민을 둘러싼 오해와 음모를 다룹니다.",
+    "oneLineSummary": "경덕도예가의 뛰어난 미남 도공 성무가 천홍만밀루에 자기를 납품하던 중, 일심회의 총감 남궁민과 세풍사랑 일행과 얽히며 음모의 미끼가 되는 이야기입니다.",
+    "overallSummary": "경덕도예가의 미남 도공 성무는 천홍만밀루의 구태관 집사에게 자기를 납품하며 친분을 나눕니다. 한편, 일심회의 깐깐한 총감 남궁민에게 불만을 품은 세풍사랑 일행은 남궁민이 남색가일지도 모른다는 의혹을 품고, 황교의 잔당으로 의심받는 성무를 미끼로 삼아 남궁민을 함정에 빠뜨리려는 음모를 꾸밉니다. 성무는 납품 도중 남궁민 일행과 사소한 시비에 휘말립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 - 상",
+        "summary": "미남 도공 성무가 천홍만밀루의 구태관 집사에게 자기를 납품하고 요강을 선물하며 훈훈한 대화를 나누는 일상을 그립니다."
+      },
+      {
+        "sectionTitle": "제1장 - 중",
+        "summary": "일심회의 세풍사랑 일행이 깐깐한 총감 남궁민에게 불만을 품고, 미남 도공 성무를 미끼로 삼아 남궁민을 남색의 함정에 빠뜨리려는 음모를 모의합니다."
+      },
+      {
+        "sectionTitle": "제1장 - 하",
+        "summary": "성무가 대로에서 남궁민 일행과 첫 조우를 한 뒤, 천홍만밀루 봉황각에 자기를 납품하다가 안찬과 부딪치며 시비가 붙는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "음모의 핵심",
+        "value": "황교의 잔당 혐의와 남색이라는 오해를 결합하여 상관을 실각시키려는 부하들의 치밀한 계략"
+      }
+    ],
+    "keyEntitiesText": "성무, 남궁민, 구태관, 사호영, 제인국, 안찬, 독고연방",
+    "settingText": "강소성 항주의 번화한 기루 천홍만밀루와 낙양 위산의 일심회 총단"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TGJfOHCVZSLcZY3KSKhUN5scIEqp1lNB",
+    "filename": "무림제황(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:05.139Z",
+    "size": "820972",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1TGJfOHCVZSLcZY3KSKhUN5scIEqp1lNB/view?usp=drivesdk",
+    "sourceSha256": "4b7ce1b66bad35a647ece8cd4f3378d496774f91860327df7c4b9f28e95e9420",
+    "textSha256": "dc7d6b60b8409fd5477c2d008e289160775f7e0e992c752dcfee606afaa862fb",
+    "changeKey": "cd1f0bed1c401ee10432d9f781509341",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "95b4df7e04d1f03f7fa8",
+    "workId": "95b4df7e04d1f03f7fa8",
+    "driveFileId": "1TGJfOHCVZSLcZY3KSKhUN5scIEqp1lNB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:31:32.121355+00:00",
+    "updatedAt": "2026-09-22T15:31:32.121369+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:31:32.121463+00:00"
+    }
+  }
+}

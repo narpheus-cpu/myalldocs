@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무림천추",
+    "author": "금시조",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "진소백",
+      "제갈수",
+      "엽자문",
+      "천추학림"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "복수"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 무협의 대가 금시조의 대표작으로, 천년 흥륭기를 앞두고 벌어지는 정과 마의 거대한 대립과 음모를 다룹니다.",
+    "oneLineSummary": "천년 흥륭기를 앞두고 신마경을 통해 난세를 예견한 제갈수의 비사와, 18년 전 천추학림에서 음모로 몰락한 엽자문의 비극을 다룬 소설입니다.",
+    "overallSummary": "신조문의 제갈수느 천년 흥륭기를 맞아 신마경을 통해 정과 마의 세 갈래 기운이 대립하는 난세를 예견합니다. 한편, 18년 전 천추학림의 엽자문은 동료들의 음모에 빠져 공력을 잃고 기녀를 겁탈하려다 복상사했다는 누명을 쓴 채 가문이 몰락합니다. 세월이 흘러 엽자문의 아들로 추정되는 백의 청년이 낙양에서 개방 제자와 함께 복수를 준비합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 - 1",
+        "summary": "신조문의 제갈수가 신마경을 통해 천년 흥륭기의 도래와 정마의 세 갈래 기운이 대립하는 삼정지세를 예견하고 신마경이 깨지는 사건을 다룹니다."
+      },
+      {
+        "sectionTitle": "서장 - 2 & 3",
+        "summary": "소주의 만설자 노인이 천추학림의 역사를 소개하고, 18년 전 풍림에서 엽자문이 동료들의 음모로 공력을 잃고 누명을 쓴 채 몰락하는 비극을 그립니다."
+      },
+      {
+        "sectionTitle": "제1장",
+        "summary": "18년 후, 낙양의 객잔에서 백의 청년이 개방 제자와 함께 신년 축제를 바라보며 과거의 비극을 회상하고 복수를 다짐하는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관 설정",
+        "value": "1000년마다 하늘의 문이 열려 정기와 마기가 내려와 영웅들이 발흥한다는 천년흥륭기 설정"
+      }
+    ],
+    "keyEntitiesText": "제갈수, 엽자문, 종수, 종사원, 백의 청년(진소백), 만설자 노인, 벽하",
+    "settingText": "천도봉의 신조문 석실, 소주의 천추학림 풍림, 그리고 낙양의 객잔"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sHGsuBELABh7Ec5oorIpX8FCH0guP2YL",
+    "filename": "무림천추(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:05.164Z",
+    "size": "970259",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1sHGsuBELABh7Ec5oorIpX8FCH0guP2YL/view?usp=drivesdk",
+    "sourceSha256": "a147a42436d6734261475a5557913cfb111375c7930ee7c2c1127a5eb2bbf863",
+    "textSha256": "129877580f975ec020c4a826a612d984ebce4e50789b6cdcaf22ae1684849565",
+    "changeKey": "92fd630b1ff1075788b9b5e2dbf421cf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9836aef1171d36ea4996",
+    "workId": "9836aef1171d36ea4996",
+    "driveFileId": "1sHGsuBELABh7Ec5oorIpX8FCH0guP2YL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:31:38.975327+00:00",
+    "updatedAt": "2026-09-22T15:31:38.975342+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:31:38.975455+00:00"
+    }
+  }
+}

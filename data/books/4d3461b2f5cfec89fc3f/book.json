@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "만검조종",
+    "author": "한성수",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "추소산",
+      "단양",
+      "천지무상독존검법",
+      "삼존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한성수 작가의 무협 소설로, 스승의 엉터리 가르침을 자신만의 천재성으로 승화시킨 주인공의 이야기를 다룹니다.",
+    "oneLineSummary": "스승 단양의 허풍 섞인 가르침을 바탕으로 스스로 절대무공을 깨달은 천재 청년 추소산의 무림 여정을 그린 소설입니다.",
+    "overallSummary": "추소산은 어린 시절 거지로 떠돌다 단양을 만나 제자가 됩니다. 단양은 삼존을 능가한다는 허풍을 떨며 엉터리 검법을 가르치지만, 천재적인 자질을 지닌 추소산은 이를 진짜 절대무공으로 발전시킵니다. 이에 겁을 먹은 단양이 편지를 남기고 사라지자, 추소산은 스승을 찾기 위해 세 명의 무림 고령들과 함께 길을 나섭니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "스스로 문파를 세우기로 결심한 청년 추소산이 약속 장소에서 평생의 원수 관계인 세 명의 노인 고수들과 만나 사부를 찾아 떠날 준비를 합니다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "추소산이 사부 단양이 남긴 편지와 전낭을 발견하고, 과거 12세 때 단양을 만나 제자가 되어 엉터리 검법을 진짜 무공으로 발전시켰던 과거를 회상합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공의 천재성",
+        "value": "스승의 엉터리 구결과 초식을 스스로 뜯어고쳐 절대적인 검경을 뿜어내는 경지에 도달함"
+      }
+    ],
+    "keyEntitiesText": "추소산, 단양, 세 노인(묵포 노인, 백의 노인, 자의 노인), 삼존",
+    "settingText": "강서성 옥화산의 동굴 및 고택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YfxC2mmFeX9JX6rmDoLL-bfXFdl2HVOM",
+    "filename": "만검조종 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:04.602Z",
+    "size": "1095069",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1YfxC2mmFeX9JX6rmDoLL-bfXFdl2HVOM/view?usp=drivesdk",
+    "sourceSha256": "9a9c7d2cb4a4a4ec3a0df33656dc95d0438b6997616555f196fa3d05f0d1d412",
+    "textSha256": "a5ada20aa5e22a8acd4819d499452c02213bc9bde32fe56256468fddea94d99a",
+    "changeKey": "04d58515cfbafd1964e43e3fadb2a947",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4d3461b2f5cfec89fc3f",
+    "workId": "4d3461b2f5cfec89fc3f",
+    "driveFileId": "1YfxC2mmFeX9JX6rmDoLL-bfXFdl2HVOM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:30:03.557519+00:00",
+    "updatedAt": "2026-09-22T15:30:03.557535+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:30:03.557643+00:00"
+    }
+  }
+}

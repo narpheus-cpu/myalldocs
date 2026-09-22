@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무당제일검",
+    "author": "양우생",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "경경사",
+      "하옥연",
+      "과진군",
+      "무당파"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "비극"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 무협의 거장 양우생의 작품으로, 가문 och 사문의 규율을 어기고 도주한 연인의 비극적인 운명과 오해를 다룹니다.",
+    "oneLineSummary": "사사로이 정을 통해 도주했던 경경사와 하옥연이 아이를 위해 고향으로 돌아오던 중, 대사형 과진군과 마주쳐 어젯밤의 행적에 대한 추궁을 받는 이야기입니다.",
+    "overallSummary": "무당파 속가제자 양호대협의 딸 하옥연과 사형 경경사는 사사로이 정을 통해 도망쳤으나, 하옥연이 아이를 갖게 되자 용서를 구하기 위해 고향으로 향합니다. 폭우 속에서 비를 피하던 중 대사형 과진군과 노복 하량을 만나게 되는데, 과진군은 경경사가 어젯밤 저지른 의문의 사건을 추궁하며 차가운 태도를 보입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 - 여정",
+        "summary": "경경사와 하옥연이 폭우가 내리는 산길을 걸으며 과거의 실수와 다가올 부모님과의 만남에 대한 불안감을 나눕니다."
+      },
+      {
+        "sectionTitle": "서장 - 조우",
+        "summary": "비를 피하던 두 사람 앞에 대사형 과진군과 노복 하량이 나타나고, 과진군이 경경사를 향해 알 수 없는 분노와 차가운 시선을 보냅니다."
+      },
+      {
+        "sectionTitle": "서장 - 추궁",
+        "summary": "과진군과 하량이 경경사에게 어젯밤 객잔을 비운 사이 저지른 천인공노할 대죄에 대해 추궁하며 갈등이 극에 달합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 요소",
+        "value": "사랑을 위해 사문을 배반한 연인의 도덕적 갈등과 어젯밤 발생한 의문의 사건에 얽힌 오해"
+      }
+    ],
+    "keyEntitiesText": "경경사, 하옥연, 과진군, 하량, 양호대협",
+    "settingText": "폭우가 내리는 험준한 산길과 절벽 아래 피신처"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rbSl4uDOh_bj_nh7Gd78gKmGh8e7oteG",
+    "filename": "무당제일검.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:04.937Z",
+    "size": "1780029",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1rbSl4uDOh_bj_nh7Gd78gKmGh8e7oteG/view?usp=drivesdk",
+    "sourceSha256": "2d5f0609466d43216f5cee2a74b234745c7fb1b1c03154a4d2d8c22ba81038e0",
+    "textSha256": "6858a4a20a129cd3b6b93f62cb36e569b69db0adaef872701c8eed6c53df1d63",
+    "changeKey": "9ef39523c8eb28ec0d29f25272e23537",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "885697c61ae9840ef0ce",
+    "workId": "885697c61ae9840ef0ce",
+    "driveFileId": "1rbSl4uDOh_bj_nh7Gd78gKmGh8e7oteG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:31:10.155238+00:00",
+    "updatedAt": "2026-09-22T15:31:10.155253+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:31:10.155368+00:00"
+    }
+  }
+}

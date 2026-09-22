@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무림의 여신",
+    "author": "사신",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "아현류영",
+      "막지마",
+      "은평",
+      "규진"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "환생_빙의"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사신 작가의 무협 소설로, 현대의 평범한 여고생이 비극적인 사고 후 무림의 신비로운 여신으로 환생하여 겪는 이야기를 다룹니다.",
+    "oneLineSummary": "지루한 일상을 벗어나고 싶어 하던 여고생 은평이 교통사고로 사망한 후, 무림의 신비로운 귀빈 아현류영으로 환생하여 개봉에 도착하는 이야기입니다.",
+    "overallSummary": "현대의 평범한 여고생 은평은 지루하고 권태로운 일상에 회의를 느끼다 등교 길에 교통사고로 사망합니다. 저승사자 염화의 안배로 다시 세상에 내려가게 된 은평은 무림의 신비로운 여신 아현류영으로 환생합니다. 개봉에 도착한 그녀는 사소한 시비로 무사에게 뺨을 맞지만, 무림맹의 간부 막지마가 나타나 무사를 다그치며 그녀를 극진히 모십니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 & 도입",
+        "summary": "비목에 얽힌 슬픈 시와 함께, 삿갓을 쓴 신비로운 소녀 아현류영이 동료들과 함께 번화한 개봉에 도착하여 구경을 시작하는 과정을 다룹니다."
+      },
+      {
+        "sectionTitle": "개봉의 소동",
+        "summary": "대로에서 말을 타고 질주하던 무사들과 시비가 붙어 뺨을 맞은 소녀 앞에 무림맹 간부 막지마가 나타나 무사를 다그치며 소녀의 신분을 밝힙니다."
+      },
+      {
+        "sectionTitle": "1. 일상의 고리 & 2. 고리의 전환",
+        "summary": "현대의 여고생 은평이 지루한 일상을 보내다 등교 길에 교통사고로 사망하고, 저승에서 염화를 만나 다시 세상으로 내려가기로 결정하는 과거의 사건을 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "환생 설정",
+        "value": "현대의 여고생이 저승의 안배를 통해 무림의 절대적인 신비 여신으로 환생하는 독특한 퓨전 무협 구조"
+      }
+    ],
+    "keyEntitiesText": "아현류영(은평), 막지마, 규진, 염화, 염라대왕",
+    "settingText": "현대의 등교 길 및 저승의 재판장, 그리고 무림의 번화한 개봉성 대로"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xbSqyXBZnnJ3sPgpsWHLmH6375J3UHTJ",
+    "filename": "무림의 여신 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:05.098Z",
+    "size": "1361948",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1xbSqyXBZnnJ3sPgpsWHLmH6375J3UHTJ/view?usp=drivesdk",
+    "sourceSha256": "236a12ea7b827c3e7aa012e8a6875c775a7535f4a729388a9eddbee009deaaa5",
+    "textSha256": "0dd541644f4e391252fc46f478cfd504b8b831915b536b304885de5fc7f203cf",
+    "changeKey": "89632cd43d5f6164d56a83135b89d209",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "89109f696db6be475eb7",
+    "workId": "89109f696db6be475eb7",
+    "driveFileId": "1xbSqyXBZnnJ3sPgpsWHLmH6375J3UHTJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:31:25.131437+00:00",
+    "updatedAt": "2026-09-22T15:31:25.131453+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:31:25.131566+00:00"
+    }
+  }
+}

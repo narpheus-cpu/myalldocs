@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무극대도",
+    "author": "사마달",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "단호삼",
+      "단천목",
+      "사하립",
+      "장훈",
+      "백혼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사마달 작가의 무협 소설로, 비극적인 사건으로 천치가 된 형을 돌보며 절대무공을 익혀가는 동생의 이야기를 다룹니다.",
+    "oneLineSummary": "어린 시절 악동들의 폭력으로 천치가 된 형 단천목을 돌보며, 기인 사하립에게 무공을 전수받아 성장하는 단호삼의 이야기입니다.",
+    "overallSummary": "단호삼은 어린 시절 동네 악동 장훈 일당에게 괴롭힘을 당하다가, 형 단천목이 자신을 구하려다 낭떠러지에서 떨어져 천치가 되는 비극을 겪습니다. 10년 후, 단호삼은 형을 돌보며 기인 사하립(무면탈혼검)에게 운기토납과 무공을 전수받아 절대고수로 성장하고, 사하립으로부터 백철강으로 만든 보검 백혼을 받게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "어린 단호삼이 장훈 일당에게 폭행을 당하고, 형 단천목이 구하러 왔다가 장훈과 함께 낭떠러지로 떨어져 중상을 입는 비극적인 사건을 다룹니다."
+      },
+      {
+        "sectionTitle": "제1장 - 상",
+        "summary": "10년의 세월이 흐른 후, 단호삼이 매일 밤 악몽에 시달리며 깨어나 천치가 된 형 단천목을 돌보고 아침 수련을 위해 산으로 향하는 일상을 그립니다."
+      },
+      {
+        "sectionTitle": "제1장 - 하",
+        "summary": "단호삼이 조운반석에서 운기토납을 통해 깊은 내공을 쌓고, 석등 조각 일을 하던 중 돌아온 사 아저씨(사하립)로부터 보검 백혼을 전수받는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "보검 설정",
+        "value": "백철강이 7할이나 들어가 극도로 단단하고 무거운 백색 보검 백혼"
+      }
+    ],
+    "keyEntitiesText": "단호삼, 단천목, 사하립(사 아저씨), 장훈, 박기택",
+    "settingText": "청강현의 언덕 및 종남산의 조운반석과 조각장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BnN7-jcUQQEpqryoI29p7b_6ibdRjIVW",
+    "filename": "무극대도 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:04.871Z",
+    "size": "761609",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1BnN7-jcUQQEpqryoI29p7b_6ibdRjIVW/view?usp=drivesdk",
+    "sourceSha256": "fa74b0f4d3aaa89a4367999ad91d7660b537212f183e0a06f31f3e121cc391f4",
+    "textSha256": "cbd5d8a5b91fad8c85db273b53f0c5f89358ac3487c0596c051eb224d52935a0",
+    "changeKey": "69333d754c2851f20da7270883e07977",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3c864968cfce5c2f6093",
+    "workId": "3c864968cfce5c2f6093",
+    "driveFileId": "1BnN7-jcUQQEpqryoI29p7b_6ibdRjIVW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:30:55.908889+00:00",
+    "updatedAt": "2026-09-22T15:30:55.908905+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T15:30:55.909021+00:00"
+    }
+  }
+}
