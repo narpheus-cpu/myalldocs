@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천사의 향기",
+    "author": "귀여니",
+    "genre": "인터넷소설 / 학원드라마",
+    "tags": [
+      "인터넷소설",
+      "천린우",
+      "마사루",
+      "비극",
+      "상처"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "귀여니는 2000년대 초반 인기 인터넷 소설을 다수 집필한 작가이다.",
+    "oneLineSummary": "어머니의 비극적인 강간과 자살 상처를 안고 마음을 닫은 천린우(마사루)의 어두운 삶과 방황.",
+    "overallSummary": "푸른 눈을 가진 사내 천린우는 과거 어머니가 강도들에게 윤간당하고 결국 자살에 이른 참혹한 트라우마를 안고 산다. 여자의 나약함과 자신의 비극에 분노하며 마음을 닫은 그는 가명 '마사루'로 예술고등학교에 전학하며 새로운 환경에 들어선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 01~02 화",
+        "summary": "클럽에서 냉소적인 태도를 보이던 린우의 과거 비극적 가족사가 밝혀지고, 전학 간 예고 교무실에서 스스로를 마사루라고 칭한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리 모티프",
+        "value": "가족 비극으로 인한 여성 불신과 트라우마, 자아 은폐"
+      }
+    ],
+    "keyEntitiesText": "천린우(마사루), 린우의 어머니, 담임 교사, Temptation 클럽",
+    "settingText": "1992년 자택, 클럽 유흥가, 예술고등학교 교무실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IfwhJAMWkSBeUf1OK5lbTxG0rb8k_NeR",
+    "filename": "천사의 향기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.295Z",
+    "size": "479979",
+    "folderPath": [
+      "books",
+      "09 로맨스"
+    ],
+    "relativePath": "books/09 로맨스",
+    "webViewLink": "https://drive.google.com/file/d/1IfwhJAMWkSBeUf1OK5lbTxG0rb8k_NeR/view?usp=drivesdk",
+    "sourceSha256": "8a03b5a2751391a24c9080fe94237bab2707b48885b58d820c73e47c05e96afd",
+    "textSha256": "970b6a15190848f7a85b10b0a6c9f1493cdee963834d134f988ec6ec4bd41436",
+    "changeKey": "8bdea6246c885571b50294fcf620319f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "339efd78ee93ccaa883e",
+    "workId": "339efd78ee93ccaa883e",
+    "driveFileId": "1IfwhJAMWkSBeUf1OK5lbTxG0rb8k_NeR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:19:25.133993+00:00",
+    "updatedAt": "2026-09-22T17:19:25.134008+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:19:25.134113+00:00"
+    }
+  }
+}

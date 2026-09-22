@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "1917 러시아혁명(시공디스커버리 총서)",
+    "author": "니콜라 베르트",
+    "genre": "역사 / 서양사 / 학술",
+    "tags": [
+      "러시아혁명",
+      "니콜라베르트",
+      "볼셰비키",
+      "소비에트",
+      "1차세계대전"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "니콜라 베르트는 프랑스 현대사연구소(CNRS) 연구원으로 소련 및 러시아 현대사 전문 역사학자이다.",
+    "oneLineSummary": "제1차 세계대전 참전부터 1917년 2월 혁명과 10월 사회주의 대혁명에 이르는 러시아 혁명사의 전개 과정.",
+    "overallSummary": "300년 로마노프 왕조의 참전과 인플레이션, 식량 난으로 촉발된 제정 러시아의 허약함을 파헤친다. 1917년 2월 여성의 날 시위로부터 시작된 군대의 반란과 페트로그라드 소비에트의 형성, 그리고 볼셰비키의 정권 관장까지 역사적 흐름을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 전쟁에서 혁명으로",
+        "summary": "1914년 전쟁 참전으로 드러난 제정 러시아의 경제적 허약함과 라스푸틴에 의한 정권의 미신적 와해를 다룬다."
+      },
+      {
+        "sectionTitle": "제 2 장 2월: 영광의 5일",
+        "summary": "1917년 2월 페트로그라드의 빵 부족 시위가 군대의 반란으로 이어지며 차르 니콜라이 2세를 퇴위시키는 과정을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 분석",
+        "value": "전쟁에 따른 제정 체제의 와해와 민중 소비에트의 자생적 분출"
+      }
+    ],
+    "keyEntitiesText": "니콜라이 2세, 라스푸틴, 레닌, 트로츠키, 페트로그라드, 소비에트",
+    "settingText": "1914년~1917년 러시아 페트로그라드, 겨울궁전"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Clt7DuBQVdMHfax0m9LMrT2eziLOmhV5",
+    "filename": "1917 러시아혁명(시공디스커버리 총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:11:32.000Z",
+    "size": "238567",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1Clt7DuBQVdMHfax0m9LMrT2eziLOmhV5/view?usp=drivesdk",
+    "sourceSha256": "3a323920909b7e70caa7e7f9e5bad9208c621536137a16fd4f7fb14bf9c127ec",
+    "textSha256": "afac19699c7825ad01e02e9f6b46fb338539faf69fa1c02e4bdef0f36f5b96ba",
+    "changeKey": "3b05ba815e207adb6933462d6333966e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5b74962f1517d2c77ff9",
+    "workId": "5b74962f1517d2c77ff9",
+    "driveFileId": "1Clt7DuBQVdMHfax0m9LMrT2eziLOmhV5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:19:56.910891+00:00",
+    "updatedAt": "2026-09-22T17:19:56.910905+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:19:56.911018+00:00"
+    }
+  }
+}

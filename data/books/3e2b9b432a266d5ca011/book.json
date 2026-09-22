@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "공자의 철학",
+    "author": "H. 핑가레트",
+    "genre": "철학 / 동양철학 / 유학",
+    "tags": [
+      "공자",
+      "핑가레트",
+      "논어",
+      "예",
+      "인",
+      "언어분석"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "H. 핑가레트는 현대 서양 철학의 분석적 기법으로 공자 사상을 새롭게 재해석한 철학자이다.",
+    "oneLineSummary": "논어의 예(禮)와 인(仁)을 서구 심리학적·주관적 편견을 넘어 신성함과 세속의 조화라는 관점에서 재해석한 연구서.",
+    "overallSummary": "공자의 논어를 서구의 기독교적·심리학적 개념틀에서 벗어나 분석 철학 및 예식의 신성함이라는 관점에서 새로이 읽어낸다. 예(禮)를 통한 인간 공동체의 거룩함과 무리 없는 신묘한 다스림의 의미를 밝혀낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "서구 번역자들의 주관적·기독교적 편향을 지적하고 논어 원전에 충실한 철학적 재해석의 필요성을 밝힌다."
+      },
+      {
+        "sectionTitle": "제1장 신성한 예식을 통한 인간의 공동체",
+        "summary": "공자가 말하는 예의 신묘한 힘과 억지 없는 다스림, 세속적 삶 속에서의 신성함의 구현을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "개념 재해석",
+        "value": "예(禮)의 수행을 강제력 없는 신묘한 사회적 행위로 재조명"
+      }
+    ],
+    "keyEntitiesText": "H. 핑가레트, 공자, 순임금, 논어",
+    "settingText": "고대 중국 제자백가 시대 및 현대 서양 철학적 해석 맥락"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "179fXIzrsOW2fxezi4d9CxZgQssc2gkA7",
+    "filename": "H. 핑가레트-공자의 철학 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:24.483Z",
+    "size": "219268",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/179fXIzrsOW2fxezi4d9CxZgQssc2gkA7/view?usp=drivesdk",
+    "sourceSha256": "7af21bf162a42486323b02d165ad91d1896c9033ecadce12ba44ed33eedd0792",
+    "textSha256": "9b923a5466c84b58e8939e6cef4307fb90cf13a4b9572073ba0d09512a2006b1",
+    "changeKey": "33c626f5fb6cda9d15c6d22d377d5352",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3e2b9b432a266d5ca011",
+    "workId": "3e2b9b432a266d5ca011",
+    "driveFileId": "179fXIzrsOW2fxezi4d9CxZgQssc2gkA7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:22:27.850741+00:00",
+    "updatedAt": "2026-09-22T17:22:27.850764+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:22:27.850981+00:00"
+    }
+  }
+}
