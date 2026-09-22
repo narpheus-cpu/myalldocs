@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셜록 홈즈 전집 03 셜록 홈즈의 모험",
+    "author": "Arthur Conan Doyle",
+    "genre": "Detective fiction",
+    "tags": [
+      "보헤미아의 스캔들",
+      "아이린 애들러",
+      "단편집"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "Arthur Conan Doyle was a British physician and writer who created the immortal detective Sherlock Holmes.",
+    "oneLineSummary": "셜록 홈즈의 예리한 관찰력과 추리가 돋보이는 단편 모음집의 시작.",
+    "overallSummary": "결혼으로 홈즈와 잠시 멀어진 왓슨이 베이커 가를 다시 찾아오면서 보헤미안 국왕과 관련된 기묘한 스캔들 사건에 휘말린다. 홈즈는 지혜로운 여성 아이린 애들러를 상대로 사진을 찾기 위한 기민한 작전을 펼친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 보헤미아의 스캔들",
+        "summary": "보헤미안 국왕이 복면을 하고 홈즈를 찾아와 아이린 애들러와의 스캔들을 막아달라고 의뢰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "Genre",
+        "value": "Detective short stories"
+      },
+      {
+        "key": "Key Figure",
+        "value": "Irene Adler, the woman who outwitted Holmes"
+      }
+    ],
+    "keyEntitiesText": "Sherlock Holmes, Dr. John H. Watson, Irene Adler, Wilhelm Gottsreich Sigismond von Ormstein",
+    "settingText": "Baker Street, London"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JuN0tMieZUQuEDCjqOvvEJdk4cmNdCZi",
+    "filename": "아서 코난 도일-셜록 홈즈 전집 03 셜록 홈즈의 모험_ .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.689Z",
+    "size": "757622",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "아서 코난 도일"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/아서 코난 도일",
+    "webViewLink": "https://drive.google.com/file/d/1JuN0tMieZUQuEDCjqOvvEJdk4cmNdCZi/view?usp=drivesdk",
+    "sourceSha256": "6f1e2671c65340387c5880bfb63287ef53de9b698cc2181cd4639c80eef2e493",
+    "textSha256": "18bccc072fbc472b46e08723acbb8996001d4cb375e74c35dd43e55473bdc570",
+    "changeKey": "fef2ba6b9260e462a7505938e6d0f188",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "975e3ea3ba1e6c139287",
+    "workId": "975e3ea3ba1e6c139287",
+    "driveFileId": "1JuN0tMieZUQuEDCjqOvvEJdk4cmNdCZi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:14:11.851517+00:00",
+    "updatedAt": "2026-09-22T06:14:11.851536+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:14:11.851623+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셜록 홈즈 전집 02 네 개의 서명",
+    "author": "Arthur Conan Doyle",
+    "genre": "Detective fiction",
+    "tags": [
+      "네 개의 서명",
+      "메리 모스턴",
+      "코카인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "Arthur Conan Doyle is a British writer best known for creating the detective Sherlock Holmes.",
+    "oneLineSummary": "메리 모스턴이 매년 진주를 받게 된 사연을 들고 홈즈를 찾아와 새로운 사건이 시작된다.",
+    "overallSummary": "자극이 없어 코카인에 의존하던 홈즈 앞에 아름다운 여인 메리 모스턴이 찾아온다. 그녀는 실종된 아버지의 일과 매년 익명으로 배달된 진주에 대해 털어놓고, 사람들을 직접 만나자는 편지를 받았다고 하며 홈즈와 왓슨에게 도움을 요청한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 추리학",
+        "summary": "홈즈의 코카인 사용과 관찰 및 추리에 대한 철학적 대화가 오간다."
+      },
+      {
+        "sectionTitle": "2. 사건에 대한 진술",
+        "summary": "메리 모스턴이 베이커 가를 찾아와 자신의 기이한 과거와 진주 수령 사연을 털어놓는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "Character Development",
+        "value": "Holmes's reliance on cocaine due to boredom"
+      },
+      {
+        "key": "Plot Initiation",
+        "value": "Introduction of Mary Morstan and the mystery of the pearls"
+      }
+    ],
+    "keyEntitiesText": "Sherlock Holmes, John H. Watson, Mary Morstan",
+    "settingText": "Baker Street 221B, London"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hfd1ET5rSLNfW1MQOy4wAZATF_KJZTnG",
+    "filename": "아서 코난 도일-셜록 홈즈 전집 02 네 개의 서명 --.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.669Z",
+    "size": "317993",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "아서 코난 도일"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/아서 코난 도일",
+    "webViewLink": "https://drive.google.com/file/d/1hfd1ET5rSLNfW1MQOy4wAZATF_KJZTnG/view?usp=drivesdk",
+    "sourceSha256": "7dd56fdb9d8217d8a45e5a5e6ffb94effd2fda98f453dc3ab6a5b18e7eadd369",
+    "textSha256": "d7ca697271855ddc97265e9827e6d8fe51618a45a1bc38d74de67a7b851aa9d8",
+    "changeKey": "8a0b56b2dcbd40472e4f60045fc4681b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d7e74ceb81c2cff70fa0",
+    "workId": "d7e74ceb81c2cff70fa0",
+    "driveFileId": "1hfd1ET5rSLNfW1MQOy4wAZATF_KJZTnG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:14:05.974685+00:00",
+    "updatedAt": "2026-09-22T06:14:05.974703+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:14:05.974789+00:00"
+    }
+  }
+}

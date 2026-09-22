@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셜록 홈즈 전집 07 공포의 계곡",
+    "author": "Arthur Conan Doyle",
+    "genre": "Detective fiction",
+    "tags": [
+      "공포의 계곡",
+      "벌스톤",
+      "모리어티"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "novel"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "Arthur Conan Doyle authored this full-length novel blending British country house mystery with an American backstory.",
+    "oneLineSummary": "벌스톤 저택에서 일어난 기묘한 살인 사건과 모리어티 교수의 음모를 다룬 장편 소설.",
+    "overallSummary": "홈즈가 모리어티 조직의 암호문을 해독하고 경고하려던 찰나, 벌스톤 저택에서 더글러스가 참살당하는 사건이 발생한다. 홈즈는 현장의 수수께끼 같은 단서들을 파헤치며 사건의 실마리를 쫓아간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 벌스톤의 비극 - 경고",
+        "summary": "모리어티의 부하가 보낸 암호문을 홈즈와 왓슨이 연감으로 해독한다."
+      },
+      {
+        "sectionTitle": "제1부 벌스톤의 비극 - 홈즈의 추리",
+        "summary": "암호 해독 직후 맥도널드 경미가 찾아와 벌스톤의 살인 사건을 알린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "Structure",
+        "value": "Two-part novel featuring a British murder mystery and an American prequel"
+      },
+      {
+        "key": "Villain",
+        "value": "The criminal mastermind Professor Moriarty"
+      }
+    ],
+    "keyEntitiesText": "Sherlock Holmes, Dr. John H. Watson, Professor Moriarty, Douglas, MacDonald",
+    "settingText": "Baker Street and Birlstone Manor"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-JPfEiA2qb3StojDn3-LzzkZPUlbFSlx",
+    "filename": "아서 코난 도일-셜록 홈즈 전집 07 공포의 계곡_ .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.814Z",
+    "size": "424679",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "아서 코난 도일"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/아서 코난 도일",
+    "webViewLink": "https://drive.google.com/file/d/1-JPfEiA2qb3StojDn3-LzzkZPUlbFSlx/view?usp=drivesdk",
+    "sourceSha256": "3abcec8e25edf52b33842e17ceeb0b069195bbd060d1a180ce2ca1aca5b16ba7",
+    "textSha256": "c51877b687b6d886b270fee6d6afbb60f88806a8da49729bc65f9bb16ff2f145",
+    "changeKey": "8947fd99e3770ad0588ed88782aa9c13",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "826bdf65f7daab3eaf05",
+    "workId": "826bdf65f7daab3eaf05",
+    "driveFileId": "1-JPfEiA2qb3StojDn3-LzzkZPUlbFSlx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:14:37.401731+00:00",
+    "updatedAt": "2026-09-22T06:14:37.401748+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:14:37.401829+00:00"
+    }
+  }
+}

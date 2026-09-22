@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셜록 홈즈 전집 04 셜록 홈즈의 회상록",
+    "author": "Arthur Conan Doyle",
+    "genre": "Detective fiction",
+    "tags": [
+      "실버 블레이즈",
+      "회상록",
+      "경주마"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "Arthur Conan Doyle is renowned worldwide for his creation of Sherlock Holmes in this classic collection of mysteries.",
+    "oneLineSummary": "명마 실버 블레이즈의 실종과 조련사 살인 사건을 해결하는 홈즈와 왓슨의 활약.",
+    "overallSummary": "다트무어에서 유명한 경주마 실종과 조련사 살인 사건이 발생하자 홈즈는 왓슨과 함께 현장으로 향한다. 그는 현장의 세부적인 단서들을 논리적으로 분석하며 경찰의 섣부른 추측을 바로잡고 사건의 진실에 접근한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 경주마 은점박이",
+        "summary": "다트무어에서 일어난 은점박이(실버 블레이즈) 실종 및 조련사 살해 사건을 해결하기 위해 기차를 타고 떠나는 홈즈와 왓슨."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "Famous Clue",
+        "value": "The curious incident of the dog in the night-time"
+      },
+      {
+        "key": "Theme",
+        "value": "Logical deduction from trivial details"
+      }
+    ],
+    "keyEntitiesText": "Sherlock Holmes, Dr. John H. Watson, Silver Blaze, Colonel Ross, Inspector Gregory",
+    "settingText": "Dartmoor, King's Peland"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1K9FXuEy3BVkBAantN8Nj_lHfzdUiljg1",
+    "filename": "아서 코난 도일-셜록 홈즈 전집 04 셜록 홈즈의 회상록_ .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.714Z",
+    "size": "598918",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "아서 코난 도일"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/아서 코난 도일",
+    "webViewLink": "https://drive.google.com/file/d/1K9FXuEy3BVkBAantN8Nj_lHfzdUiljg1/view?usp=drivesdk",
+    "sourceSha256": "b357edfc21c62f27b2b2f4a9c6711bbdeee62da9899c93be710dedabeda85451",
+    "textSha256": "a8a757af2c65c85665f9bb2fadd2c490aeaca5266644d84085c015ac938d891e",
+    "changeKey": "fe44ee1e88050444e3ef57e44694578c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8802abbfb9218ab8a746",
+    "workId": "8802abbfb9218ab8a746",
+    "driveFileId": "1K9FXuEy3BVkBAantN8Nj_lHfzdUiljg1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:14:18.527779+00:00",
+    "updatedAt": "2026-09-22T06:14:18.527796+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:14:18.527874+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그리스어 시험지",
+    "author": "코난 도일",
+    "genre": "추리 소설",
+    "tags": [
+      "세 학생",
+      "그리스어 시험지",
+      "대학 도시"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아서 코난 도일은 옥스퍼드나 캠브리지 같은 대학 도시를 배경으로 명석한 추리 단편을 집필했습니다.",
+    "oneLineSummary": "대학 도시에서 시험 전날 발생한 그리스어 시험지 유출 사건을 홈즈가 기민하게 해결한다.",
+    "overallSummary": "1895년 대학 도시에 머물던 홈즈와 왓슨은 힐턴 소움즈 교수의 의뢰를 받는다. 시험 전날 교수의 방에 누군가 침입해 그리스어 시험지 교정쇄를 몰래 베끼고 달아났다는 것이다. 홈즈는 창문의 높이와 책상 위의 단서를 바탕으로 범인을 색출한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 그리이스어 시험지",
+        "summary": "소움즈 교수가 홈즈를 찾아와 방에 누군가 침입해 시험지 교정쇄를 훔쳐보았다고 털어놓는다."
+      },
+      {
+        "sectionTitle": "2. 책상위의 흙",
+        "summary": "홈즈가 교수의 방을 방문해 창가의 책상, 흙덩어리, 연필 심 부러진 흔적 등을 조사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 단서",
+        "value": "창문의 높이, 스파이크 자국, 책상 위의 흙"
+      },
+      {
+        "key": "범인",
+        "value": "키가 큰 학생 길크리스트와 사환 배니스터의 공조"
+      }
+    ],
+    "keyEntitiesText": "셜록 홈즈, 왓슨 박사, 힐턴 소움즈, 배니스터, 길크리스트",
+    "settingText": "영국의 어느 조용한 대학 도시 기숙사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vLm03MgtXaunBXomVZyW0FWzXE6Brxx6",
+    "filename": "코난 도일-그리스어 시험지 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.922Z",
+    "size": "30423",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "아서 코난 도일"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/아서 코난 도일",
+    "webViewLink": "https://drive.google.com/file/d/1vLm03MgtXaunBXomVZyW0FWzXE6Brxx6/view?usp=drivesdk",
+    "sourceSha256": "d453bb78a4e4f7fa6ab8f915b3ced6c9c286fd6286498730309e3e1a810d4451",
+    "textSha256": "c2e4ada6a391b81284b6897c761c57f0cd347cd931e101aaba337f1135538bd5",
+    "changeKey": "232621bee99c2dbc5fafca7de53147d8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "14e14b91dcff4847d8f9",
+    "workId": "14e14b91dcff4847d8f9",
+    "driveFileId": "1vLm03MgtXaunBXomVZyW0FWzXE6Brxx6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:15:08.553190+00:00",
+    "updatedAt": "2026-09-22T06:15:08.553206+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:15:08.553284+00:00"
+    }
+  }
+}

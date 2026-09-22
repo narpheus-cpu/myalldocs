@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셜록 홈즈 전집 10 부록 셜록 홈즈의 발자취",
+    "author": "편집부 엮음",
+    "genre": "부록 / 해설서",
+    "tags": [
+      "셜록 홈즈의 발자취",
+      "코난 도일 연보",
+      "퀴즈"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "biography",
+        "literary_criticism"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "문예춘추사 편집부에서 셜록 홈즈 시리즈를 완벽하게 이해할 수 있도록 엮은 종합 부록서입니다.",
+    "oneLineSummary": "작가 코난 도일의 생애와 홈즈의 탄생 배경, 시대적 배경을 다채롭게 정리한 부록.",
+    "overallSummary": "이 책은 셜록 홈즈 시리즈의 완결을 기념하여 작가 아서 코난 도일의 삶과 작품 세계, 홈즈와 왓슨의 캐릭터 분석, 19세기 대영제국의 사회·문화적 배경 등을 상세히 수록했다. 또한 독자들이 즐길 수 있는 퀴즈와 연보까지 함께 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 셜록 홈즈의 아버지, 아서 코난 도일 경",
+        "summary": "코난 도일의 생애와 의사 시절의 경험, 심령주의에 빠진 이력 등을 소개한다."
+      },
+      {
+        "sectionTitle": "2부 셜록 홈즈, 그 뒷이야기들",
+        "summary": "홈즈와 왓슨의 성격, 삽화가 시드니 파젯, 실제 모델인 조셉 벨 교수 등을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성",
+        "value": "작가 평전, 시대상 해설, 홈즈 퀴즈 및 연보"
+      },
+      {
+        "key": "추천사",
+        "value": "범죄과학연구소 대표 표창원의 프로파일링 관점 추천사 수록"
+      }
+    ],
+    "keyEntitiesText": "아서 코난 도일, 셜록 홈즈, 조셉 벨, 시드니 파젯, 표창원",
+    "settingText": "19세기 대영제국 및 에든버러"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19BUOpEnvKJOCakPgItCtH-UkvkdFXmki",
+    "filename": "아서 코난 도일-셜록 홈즈 전집 10 부록 셜록 홈즈의 발자취e.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.878Z",
+    "size": "98558",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "아서 코난 도일"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/아서 코난 도일",
+    "webViewLink": "https://drive.google.com/file/d/19BUOpEnvKJOCakPgItCtH-UkvkdFXmki/view?usp=drivesdk",
+    "sourceSha256": "6384684fe6b447e5dc5eba1059c8690abdba47646b2a97d29055d094c5d62932",
+    "textSha256": "3e5c0d15d29d808d5aa116c40b275081fd115ec259a8a5f9923cbce9006ad617",
+    "changeKey": "1c47bf214e3a9c2b3d8984b7db51e017",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d793f08a0513391c5b08",
+    "workId": "d793f08a0513391c5b08",
+    "driveFileId": "19BUOpEnvKJOCakPgItCtH-UkvkdFXmki",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:14:49.545675+00:00",
+    "updatedAt": "2026-09-22T06:14:49.545691+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:14:49.545771+00:00"
+    }
+  }
+}

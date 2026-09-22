@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셜록 홈즈 전집 01 진홍색 연구",
+    "author": "아서 코난 도일",
+    "genre": "추리 소설",
+    "tags": [
+      "진홍색 연구",
+      "왓슨 박사",
+      "베이커 가 221B"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아서 코난 도일은 셜록 홈즈 시리즈의 첫 작품인 이 책을 통해 세계적인 명탐정 캐릭터를 탄생시켰습니다.",
+    "oneLineSummary": "아프가니스탄 전쟁에서 부상당해 돌아온 왓슨 박사가 셜록 홈즈를 만나 베이커 가에서 동거를 시작한다.",
+    "overallSummary": "아프간전에서 부상을 입고 런던으로 돌아온 군의관 왓슨은 우연한 기회에 스탠퍼드의 소개로 셜록 홈즈를 만난다. 두 사람은 베이커 가 221B에 하숙집을 구하고 함께 살게 되며, 곧이어 로리스턴 가든에서 발생한 기괴한 살인 사건을 해결하기 위해 나선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 전 육군 군의관 존 H. 왓슨 박사의 회상록 - 셜록 홈즈 씨",
+        "summary": "왓슨이 런던에서 스탠퍼드를 통해 셜록 홈즈를 처음 만나고 함께 살 집을 구하는 과정이 그려진다."
+      },
+      {
+        "sectionTitle": "제1부 전 육군 군의관 존 H. 왓슨 박사의 회상록 - 추론의 과학",
+        "summary": "홈즈와 왓슨이 베이커 가에 정착하고 홈즈의 독특한 화학 실험과 추리 능력을 목격하게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 관계",
+        "value": "홈즈와 왓슨의 운명적인 첫 만남"
+      },
+      {
+        "key": "과학적 수사",
+        "value": "혈액 헤모글로빈 검출법 발견"
+      }
+    ],
+    "keyEntitiesText": "셜록 홈즈, 존 H. 왓슨, 스탠퍼드, 그렉슨 경감, 레스트레이드",
+    "settingText": "런던 베이커 가 221B 및 세인트 바솔로뮤 병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xUtZgTQY6yIu6sI_8fPTJf2lu68s2w7O",
+    "filename": "아서 코난 도일-셜록 홈즈 전집 01 진홍색 연구_.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.655Z",
+    "size": "298452",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "아서 코난 도일"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/아서 코난 도일",
+    "webViewLink": "https://drive.google.com/file/d/1xUtZgTQY6yIu6sI_8fPTJf2lu68s2w7O/view?usp=drivesdk",
+    "sourceSha256": "788eb40fa285d62db5447ff87013fa6305fa3c9c2fe99989ddc8ecddd402e75d",
+    "textSha256": "da07bca80c52677a1118b62b305a8b20c347481702169341dbe74481f25346b0",
+    "changeKey": "10aa69b3768e203fd8f43777806de7dd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bd4d5119a3718f252170",
+    "workId": "bd4d5119a3718f252170",
+    "driveFileId": "1xUtZgTQY6yIu6sI_8fPTJf2lu68s2w7O",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:13:59.062877+00:00",
+    "updatedAt": "2026-09-22T06:13:59.062895+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:13:59.062977+00:00"
+    }
+  }
+}

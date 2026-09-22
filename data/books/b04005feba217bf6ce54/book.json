@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "6개의 나폴레옹 흉상",
+    "author": "코난 도일",
+    "genre": "추리 소설",
+    "tags": [
+      "나폴레옹 흉상",
+      "레스트레이드",
+      "단편 추리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "short_story"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아서 코난 도일은 셜록 홈즈의 기기묘묘한 단편 추리 수사기를 통해 독자들을 매료시킨 영국의 소설가입니다.",
+    "oneLineSummary": "나폴레옹 흉상만 골라서 연쇄적으로 파괴하는 기괴한 사건을 셜록 홈즈가 파헤친다.",
+    "overallSummary": "레스트레이드가 홈즈를 찾아와 나폴레옹 흉상만 골라서 산산조각 내는 이상한 사건을 털어놓는다. 흉상이 부서진 곳에서 그치지 않고 살인 사건까지 발생하자, 홈즈는 흉상 도매상과 전과자 베포의 행적을 추적하며 사건의 실마리를 엮어 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1.",
+        "summary": "레스트레이드 경감이 홈즈를 찾아와 나폴레옹 흉상만 연이어 부서지는 기묘한 사건을 소개한다."
+      },
+      {
+        "sectionTitle": "2. 이상한 살인",
+        "summary": "나폴레옹 흉상 파괴 사건에 이어 피트 거리의 한 주택 앞에서 시체가 발견되는 살인 사건이 발생한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사건 동기",
+        "value": "흉상 속에 숨겨진 보물(흑진주)을 찾기 위한 집념"
+      },
+      {
+        "key": "수사 협력",
+        "value": "스콧야드 레스트레이드 경감과 홈즈의 공조"
+      }
+    ],
+    "keyEntitiesText": "셜록 홈즈, 왓슨 박사, 레스트레이드 경감, 호레이스 하커, 베포",
+    "settingText": "켄싱턴 거리 및 피트 거리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iiaE1qkAk3bf1NLIthZWEPvC-BdkuS08",
+    "filename": "코난 도일-6개의 나폴레옹 흉상.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.910Z",
+    "size": "47296",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "아서 코난 도일"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/아서 코난 도일",
+    "webViewLink": "https://drive.google.com/file/d/1iiaE1qkAk3bf1NLIthZWEPvC-BdkuS08/view?usp=drivesdk",
+    "sourceSha256": "6abbb0bd85e28f2e7b94a426a952d6a5f8a23d92fe690eec10004b290a513bd9",
+    "textSha256": "b01f7de4a391671d78bb05018248494f3094156766b469b9213fbdc7304e5ceb",
+    "changeKey": "c8eee9a9ea4de228e020333cbb1521aa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b04005feba217bf6ce54",
+    "workId": "b04005feba217bf6ce54",
+    "driveFileId": "1iiaE1qkAk3bf1NLIthZWEPvC-BdkuS08",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T06:15:02.367579+00:00",
+    "updatedAt": "2026-09-22T06:15:02.367595+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T06:15:02.367675+00:00"
+    }
+  }
+}
