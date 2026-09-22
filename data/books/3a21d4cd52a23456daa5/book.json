@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마인 이야기 12",
+    "author": "시오노 나나미",
+    "genre": "역사",
+    "tags": [
+      "카라칼라",
+      "안토니우스칙령",
+      "시민권",
+      "3세기위기",
+      "세제개혁"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시오노 나나미는 로마 제국의 3세기 위기를 초래한 정책적 오류를 카라칼라 시대를 통해 파헤친다.",
+    "oneLineSummary": "카라칼라 황제의 등극과 동생 살해, 그리고 전 제국에 시민권을 보편화한 '안토니우스 칙령'의 파장을 다룬다.",
+    "overallSummary": "카라칼라 황제가 212년 발령한 '안토니우스 칙령'을 통해 제국 내 모든 자유민에게 로마 시민권을 확대했으나, 이것이 로마 시민권의 가치를 떨어뜨리고 속주세를 파탄 내어 제국의 재정 및 정체성 위기를 가속화했음을 기술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 서기 211~217년 - 카라칼라 황제의 등극",
+        "summary": "북아프리카 혈통의 카라칼라의 출생, 카라칼라 목욕장, 동생 게타 살해와 권력 독점을 다룬다."
+      },
+      {
+        "sectionTitle": "제1장 서기 211~217년 - 누구나 로마 시민! 및 세제 개혁",
+        "summary": "212년 '안토니우스 칙령'의 발표와 상속세 인상, 그리고 이로 인한 제국 재정 구조의 파탄을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정책적 과오",
+        "value": "모든 이에게 시민권을 허용한 보편화 정책이 도리어 로마의 정체성과 군사/재정적 기반을 무너뜨림."
+      }
+    ],
+    "keyEntitiesText": "카라칼라, 게타, 셉티미우스 세베루스, 디오 카시우스, 안토니우스 칙령",
+    "settingText": "서기 211년~217년 카라칼라 치세의 로마 제국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MtHRI224Mh-2_vZhQpUpsU-pa2pFnrP8",
+    "filename": "시오노 나나미-로마인 이야기(~12 합본).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:27.904Z",
+    "size": "9148025",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "시오노 나나미-로마인 이야기 등"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/시오노 나나미-로마인 이야기 등",
+    "webViewLink": "https://drive.google.com/file/d/1MtHRI224Mh-2_vZhQpUpsU-pa2pFnrP8/view?usp=drivesdk",
+    "sourceSha256": "ccf158f8c1cac5f230a4424ea28d14946bbe581db12bbbe6f286ae5de2069e54",
+    "textSha256": "51b47b05d708761071e4b0e655f1fdadd0ac6c130bfb3a96738637cab14754cc",
+    "changeKey": "d79a67bf819780a652e28c3cba279748",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3a21d4cd52a23456daa5",
+    "workId": "3a21d4cd52a23456daa5",
+    "driveFileId": "1MtHRI224Mh-2_vZhQpUpsU-pa2pFnrP8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:29:55.355133+00:00",
+    "updatedAt": "2026-09-22T20:29:55.355148+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:29:55.355233+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살로메 유모의 이야기",
+    "author": "시오노 나나미",
+    "genre": "소설/문학",
+    "tags": [
+      "페넬로페",
+      "오디세우스",
+      "고전재해석",
+      "신화비틀기",
+      "시오노나나미"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시오노 나나미는 역사적 사실에 독창적 상상력을 더해 기존 통념을 깨는 짧은 에세이와 단편 소설들을 집필한 저자이다.",
+    "oneLineSummary": "고전 신화와 역사 속 유명 인물들의 서사를 여성이나 주변인의 시각에서 위트 있게 재구성한 단편집이다.",
+    "overallSummary": "「정숙한 아내의 주장」 편을 통해, 20년간 고국을 비우고 관능적인 지중해를 표류하다 돌아와 괴상한 표류기를 늘어놓는 남편 오디세우스와 그를 냉철하게 바라보는 총명한 아내 페넬로페의 입장을 위트 있게 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "정숙한 아내의 주장 (1)",
+        "summary": "페넬로페가 오디세우스의 트로이 출전 배경, 아킬레우스 설득 및 아들 텔레마코스를 키운 세월을 돌이켜본다."
+      },
+      {
+        "sectionTitle": "정숙한 아내의 주장 (2)",
+        "summary": "오디세우스의 목마 계략과 귀국 후 늘어놓은 표류기에 대해 페넬로페가 내리는 냉철하고 유쾌한 재해석."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시각의 전환",
+        "value": "남성 영웅 서시시의 대명사인 오디세우스의 영웅담을 현실적이고 총명한 아내 페넬로페의 시선에서 유쾌하게 비틂."
+      }
+    ],
+    "keyEntitiesText": "페넬로페, 오디세우스, 텔레마코스, 아가멤논, 아킬레우스, 칼립소, 키르케",
+    "settingText": "고대 그리스 신화 속 이타카 섬 및 지중해 방랑지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qm2nKZdjBkD0WR19U4tCTOwU4pYIJ91E",
+    "filename": "시오노 나나미-살로메 유모의 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:28.191Z",
+    "size": "212554",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "시오노 나나미-로마인 이야기 등"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/시오노 나나미-로마인 이야기 등",
+    "webViewLink": "https://drive.google.com/file/d/1qm2nKZdjBkD0WR19U4tCTOwU4pYIJ91E/view?usp=drivesdk",
+    "sourceSha256": "bbd7274bc5acb3e4fe8264da2346aa180762d5df5729d6682d9204775cfa05bb",
+    "textSha256": "939b590276fad3807f14d44e30fce0456d880cef7c3b66a9197ab89759ca7206",
+    "changeKey": "543dc7cb5f993c5038bf382dfbfecb57",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4d3e245e60d6909cf73a",
+    "workId": "4d3e245e60d6909cf73a",
+    "driveFileId": "1qm2nKZdjBkD0WR19U4tCTOwU4pYIJ91E",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:30:10.455447+00:00",
+    "updatedAt": "2026-09-22T20:30:10.455462+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:30:10.455546+00:00"
+    }
+  }
+}

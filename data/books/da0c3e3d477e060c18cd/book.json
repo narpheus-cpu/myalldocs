@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마인 이야기 03",
+    "author": "시오노 나나미",
+    "genre": "역사",
+    "tags": [
+      "그라쿠스형제",
+      "카르타고멸망",
+      "승자의혼미",
+      "로마공화정",
+      "개혁"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시오노 나나미는 로마 제국의 거대 역사 흐름을 개별 인물들의 행적과 연결짓는 저술가이다.",
+    "oneLineSummary": "카르타고의 파괴와 대외적 승리 이후, 로마 내부에서 번지는 사회적 진통과 그라쿠스 형제의 개혁 시대를 다룬다.",
+    "overallSummary": "제3차 포에니 전쟁에 의한 카르타고의 완전한 멸망 현장, 그리고 지중해의 승자가 되었으나 자작농의 몰락과 노예제 문제로 내부적 혼란('승자의 혼미')을 겪는 로마 사회에서 그라쿠스 형제가 개혁에 나서는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: 카르타고의 멸망",
+        "summary": "스키피오 아이밀리아누스의 카르타고 파괴와 승자로서 느낀 역사적 비애감을 서술한다."
+      },
+      {
+        "sectionTitle": "제1장 그라쿠스 형제의 시대",
+        "summary": "그라쿠스 가문의 내력, 티베리우스 그라쿠스의 성품과 그가 목도한 로마 자작농 해체 문제를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "내부적 모순",
+        "value": "대외 확장 성공이 가져온 토지 집중과 자작농 계층 몰락이라는 사회적 균열을 다룸."
+      }
+    ],
+    "keyEntitiesText": "스키피오 아이밀리아누스, 폴리비오스, 티베리우스 그라쿠스, 가이우스 그라쿠스, 코르넬리아",
+    "settingText": "기원전 146년 카르타고 함락 및 기원전 2세기 후반 로마 공화정 내부"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wKivWWKXe2w777qxxgBFV6Er4_z1QC-4",
+    "filename": "시오노 나나미-로마인 이야기 03.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:27.635Z",
+    "size": "531171",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "시오노 나나미-로마인 이야기 등"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/시오노 나나미-로마인 이야기 등",
+    "webViewLink": "https://drive.google.com/file/d/1wKivWWKXe2w777qxxgBFV6Er4_z1QC-4/view?usp=drivesdk",
+    "sourceSha256": "c0e3175acc1b94a1bba4bdb67b94d14fea9ecaf0590da85b9474c3716985b186",
+    "textSha256": "0bddfa027781a9b78d4e05cdfeff68c1f82a316fb74be2b49619a512852b7be5",
+    "changeKey": "dab47cf252250d99d9f6f05f763f59e8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "da0c3e3d477e060c18cd",
+    "workId": "da0c3e3d477e060c18cd",
+    "driveFileId": "1wKivWWKXe2w777qxxgBFV6Er4_z1QC-4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:28:44.376815+00:00",
+    "updatedAt": "2026-09-22T20:28:44.376830+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:28:44.376920+00:00"
+    }
+  }
+}

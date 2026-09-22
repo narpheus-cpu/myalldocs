@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "위기의 여자",
+    "author": "시몬느 드 보봐르",
+    "genre": "소설/문학",
+    "tags": [
+      "보부아르",
+      "위기의여자",
+      "실존주의",
+      "여성학",
+      "일기체소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시몬 드 보부아르(1908~1986)는 프랑스의 세계적인 실존주의 철학자이자 소설가, 여성주의 이론가이다.",
+    "oneLineSummary": "남편의 변심과 자녀들의 독립 속에서 중년 여성이 겪는 상실감과 실존적 고통을 일기 형식으로 담아낸 소설이다.",
+    "overallSummary": "주인공 모니크는 남편 모리스와의 관계가 멀어지고 딸들이 품을 떠나면서 혼자 남게 된다. 일기를 쓰며 자신이 신봉했던 행복한 가정이 한낱 환상이었음을 깨닫고 여성이 겪는 실존적 상황과 자아를 마주한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "9월 13일~9월 17일 일기",
+        "summary": "혼자만의 여행에서 느끼는 자유로움과 딸 꼴레뜨의 병간호, 가출 소녀 마르그리뜨를 도우려는 과정이 펼쳐진다."
+      },
+      {
+        "sectionTitle": "9월 22일~9월 25일 일기",
+        "summary": "연구에만 몰두하는 남편 모리스의 변화된 태도와 공허한 아파트 안에서 느껴지는 깊은 불안을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제 의식",
+        "value": "남성에 종속적인 삶을 살아온 전업주부가 맞닥뜨리는 사랑의 상실과 실존적 자각 과정을 일기체로 묘사."
+      }
+    ],
+    "keyEntitiesText": "모니크(나), 모리스(남편), 꼴레뜨(딸), 뤼시엔느(딸), 마르그리뜨",
+    "settingText": "1960년대 프랑스 파리 및 교외(레 싸린느)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FHQXt1-NqllTPVPtrRLInfzmuumZrvWY",
+    "filename": "시몬느 드 보봐르-위기의 여자 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:27.572Z",
+    "size": "835379",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1FHQXt1-NqllTPVPtrRLInfzmuumZrvWY/view?usp=drivesdk",
+    "sourceSha256": "fac36b9a5ac89c3dacedfc8db2a789137d8565f5242a81c27d05830d8e555536",
+    "textSha256": "c11a7269859fff6daa64ff8cc59ef8d279e4687413e64545225bbc09f79791e6",
+    "changeKey": "74a3acf96f03461ec2e1c382888ed038",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e1315fd554b2bf0f314d",
+    "workId": "e1315fd554b2bf0f314d",
+    "driveFileId": "1FHQXt1-NqllTPVPtrRLInfzmuumZrvWY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:28:15.588518+00:00",
+    "updatedAt": "2026-09-22T20:28:15.588533+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:28:15.588622+00:00"
+    }
+  }
+}

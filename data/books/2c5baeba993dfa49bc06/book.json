@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마인 이야기 10",
+    "author": "시오노 나나미",
+    "genre": "역사/교양",
+    "tags": [
+      "로마가도",
+      "인프라",
+      "하드인프라",
+      "수도교",
+      "모든길은로마로"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시오노 나나미는 로마 문명의 위대함을 전쟁뿐 아니라 인프라 구축이라는 관점에서 재조명한다.",
+    "oneLineSummary": "로마 제국을 떠받친 로마 가도, 다리, 수도 등 인프라스트럭처의 구축 철학과 구체적 양상을 다룬다.",
+    "overallSummary": "로마인이 만든 가도망을 중국의 만리장성과 비교하며, 차단이 아닌 교류와 왕래를 촉진한 로마인 특유의 '사람다운 생활을 위한 대사업(몰레스 네케사리에)' 정신과 인프라의 하드웨어적 실태를 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말: 로마의 인프라스트럭처 개념",
+        "summary": "인프라스트럭처의 라틴어 어원과 로마인이 본 인프라의 개념('필요한 대사업')을 정의한다."
+      },
+      {
+        "sectionTitle": "제1부 하드 인프라 - 1. 가도",
+        "summary": "로마 가도의 구조, 국고 및 군대 활용, 중국 만리장성과의 비교를 통해 소통의 철학을 규명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인프라 철학",
+        "value": "단순한 과시용 기념비가 아니라 시민 전체의 실용적 생활과 국가 혈맥을 위해 구축된 대사업."
+      }
+    ],
+    "keyEntitiesText": "로마 가도, 만리장성, 로마 원로원, 시오노 나나미",
+    "settingText": "고대 로마 제국 전역(기원전 3세기~서기 2세기)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1W7WWrvB5kC3if9d8rmuH6NbeqxtY8iPy",
+    "filename": "시오노 나나미-로마인 이야기 10.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:27.820Z",
+    "size": "428093",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "시오노 나나미-로마인 이야기 등"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/시오노 나나미-로마인 이야기 등",
+    "webViewLink": "https://drive.google.com/file/d/1W7WWrvB5kC3if9d8rmuH6NbeqxtY8iPy/view?usp=drivesdk",
+    "sourceSha256": "5a8fbf8ab05be9dc0d5babc2e31e85ae217ddd23bfc38861f61b55b2aa7950ed",
+    "textSha256": "b1534d7df0a154bd1a372bd5c085561dbd248fc97c55385befd8b382d799aa58",
+    "changeKey": "581209c9de337fc10fb776fd654725cb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2c5baeba993dfa49bc06",
+    "workId": "2c5baeba993dfa49bc06",
+    "driveFileId": "1W7WWrvB5kC3if9d8rmuH6NbeqxtY8iPy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:29:40.221735+00:00",
+    "updatedAt": "2026-09-22T20:29:40.221750+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:29:40.221835+00:00"
+    }
+  }
+}

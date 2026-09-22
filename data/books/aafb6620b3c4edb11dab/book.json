@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마인 이야기 01",
+    "author": "시오노 나나미",
+    "genre": "역사",
+    "tags": [
+      "로마",
+      "로물루스",
+      "에트루리아",
+      "건국신화",
+      "로마공화정"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시오노 나나미는 유럽 역사 현장을 발로 취재하며 창의적 역사 해석을 제공하는 저술가이다.",
+    "oneLineSummary": "트로이 유민 전설과 로물루스의 건국에서부터 초기 로마가 이탈리아 반도에서 성장하는 기틀을 다룬다.",
+    "overallSummary": "로마의 전설적 건국 과정과 지리적 이점, 당시 이탈리아 반도를 양분하던 에트루리아인 및 그리스인과의 비교 분석을 통해 개방성과 방어적 입지를 바탕으로 한 로마의 초기 성장 배경을 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 로마의 탄생 - 유민의 전설",
+        "summary": "아이네이아스의 탈출 전설부터 로물루스·레무스 형제의 탄생과 로마 건국 서사를 정리한다."
+      },
+      {
+        "sectionTitle": "제1장 로마의 탄생 - 기원전 8세기의 이탈리아",
+        "summary": "에트루리아와 그리스 민족의 문화적·지리적 성향을 분석하고 로마 일곱 언덕의 입지조건을 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "입지 조건과 미래",
+        "value": "방어에 연연하지 않고 외부로 확장하기 용이한 로마의 지리적 위치가 장차 제국 발전의 토대가 됨."
+      }
+    ],
+    "keyEntitiesText": "로물루스, 레무스, 아이네이아스, 에트루리아인, 그리스인, 비트루비우스",
+    "settingText": "기원전 8세기 고대 이탈리아 반도 및 테베레 강 연안 일곱 언덕"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LMrBKTzbBVtkKpfINWjmSPlR5cae1NCv",
+    "filename": "시오노 나나미-로마인 이야기 01.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:27.598Z",
+    "size": "485873",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "시오노 나나미-로마인 이야기 등"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/시오노 나나미-로마인 이야기 등",
+    "webViewLink": "https://drive.google.com/file/d/1LMrBKTzbBVtkKpfINWjmSPlR5cae1NCv/view?usp=drivesdk",
+    "sourceSha256": "4090fa98e645491552a00e66c244c29b6a7b9c9f129437f6a2f222891fe0ff53",
+    "textSha256": "5c2e22606cd60e59db0cb162c47cb1bf4af89b1d4b6714c1e4165e1852c03191",
+    "changeKey": "8388dfbe581ea086d096b57db184b8a1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aafb6620b3c4edb11dab",
+    "workId": "aafb6620b3c4edb11dab",
+    "driveFileId": "1LMrBKTzbBVtkKpfINWjmSPlR5cae1NCv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:28:30.324741+00:00",
+    "updatedAt": "2026-09-22T20:28:30.324756+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:28:30.324845+00:00"
+    }
+  }
+}

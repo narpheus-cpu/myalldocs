@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하버드 교양 강의",
+    "author": "스티븐 핑커 외",
+    "genre": "교양/인문학",
+    "tags": [
+      "하버드",
+      "교양교육",
+      "인간정신",
+      "학문"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스티븐 핑커, T. M. 스캔론, 찰스 메이어 등 하버드 대학교를 대표하는 세계적 석학들로 구성된 교수진이다.",
+    "oneLineSummary": "하버드 대학교의 개편된 교양 교과 과정을 바탕으로 현대 지성이 다루어야 할 다양한 핵심 주제를 제시하는 교양서이다.",
+    "overallSummary": "개편된 하버드 교양 강좌의 핵심 정수를 모아 인간 정신, 도덕, 진화, 종교, 환경 등 현대 사회의 중대한 문제들을 다각도로 분석한다. 21세기 세계 시민으로서 갖추어야 할 지적 자질과 올바른 삶의 방식을 탐구하도록 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "하버드 대학교 교과 과정 개편 역사와 21세기 교양 교육이 지향해야 할 방향성을 설명한다."
+      },
+      {
+        "sectionTitle": "Chapter 1: 인간 정신 (스티븐 핑커)",
+        "summary": "시각 지각과 운동 조절 등 인간 정신 및 뇌 기능의 경이로운 공학적 복잡성을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "교육적 의의",
+        "value": "단순 지식 전달을 넘어 실생활에 적용할 수 있는 비판적 사고와 지혜를 함양하도록 안내함."
+      }
+    ],
+    "keyEntitiesText": "스티븐 핑커, 해리 루이스, 하버드 대학교, 에드워드 아델슨, 로저 셰퍼드",
+    "settingText": "21세기 하버드 대학교 교양 교육 개편 및 현대 학문적 토론장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17DnY4Io7Rn4A6MSdPMUGqPxXol3ux-zd",
+    "filename": "스티븐 핑커 외-하버드 교양 강의(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T19:16:30.000Z",
+    "size": "722711",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/17DnY4Io7Rn4A6MSdPMUGqPxXol3ux-zd/view?usp=drivesdk",
+    "sourceSha256": "3b232bd356d63d6c34b62e2ad5e5f0deaf55c1dc15887a2dbf902a4ad52ed94b",
+    "textSha256": "0488c2f952f89136c31a0955a2c23c21718a855f84d2ad6a16d78d00894407cc",
+    "changeKey": "41f7e7c0b464dc45a5993832b0d654b8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d8ed161dce664e095cc2",
+    "workId": "d8ed161dce664e095cc2",
+    "driveFileId": "17DnY4Io7Rn4A6MSdPMUGqPxXol3ux-zd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:28:01.340519+00:00",
+    "updatedAt": "2026-09-22T20:28:01.340534+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:28:01.340621+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마인 이야기 07",
+    "author": "시오노 나나미",
+    "genre": "역사",
+    "tags": [
+      "티베리우스",
+      "게르마니쿠스",
+      "로마제정",
+      "프린켑스",
+      "군단봉기"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시오노 나나미는 제2대 황제 티베리우스의 현실주의와 인간적 고뇌를 다각도로 평가한다.",
+    "oneLineSummary": "제2대 황제 티베리우스의 승계 과정에서의 신중함과 즉위 직후 일어난 변경 군단의 봉기 대응을 다룬다.",
+    "overallSummary": "아우구스투스 사후 권력을 승계받은 티베리우스가 원로원과의 관계에서 보여준 신중함, '제일인자' 권력의 애매모호함, 그리고 판노니아 및 라인 강 군단에서 일어난 무력 봉기에 대처하는 과정을 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "티베리우스의 승계와 신중함",
+        "summary": "원로원 회의에서 권력 수락을 신중히 타진하며 원로원의 주도적 협력을 요구한 티베리우스의 자세를 다룬다."
+      },
+      {
+        "sectionTitle": "군단의 봉기",
+        "summary": "아우구스투스 사후 처우 개선과 불안감으로 판노니아 및 라인 강 군단에서 발생한 봉기 사태를 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "권력 구조 분석",
+        "value": "아우구스투스라는 거장이 남긴 1인 통치 체제를 계승하는 후계자의 현실적 제약과 과제."
+      }
+    ],
+    "keyEntitiesText": "티베리우스, 아우구스투스, 게르마니쿠스, 드루수스, 타키투스, 세야누스",
+    "settingText": "서기 14년 로마 수도 및 판노니아/라인 강 변경 군단 기지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iBqN6GgthStcJgTN-HrcOtyXmFvtcfqX",
+    "filename": "시오노 나나미-로마인 이야기 07.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:27.710Z",
+    "size": "1136787",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "시오노 나나미-로마인 이야기 등"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/시오노 나나미-로마인 이야기 등",
+    "webViewLink": "https://drive.google.com/file/d/1iBqN6GgthStcJgTN-HrcOtyXmFvtcfqX/view?usp=drivesdk",
+    "sourceSha256": "55e5eda94a0e677ba9f30d53e21b9beef6ca8eebb8c0ff41f229e13ff82ee791",
+    "textSha256": "a4a86bb2938a319893b18bd946d42337e0ab393edc35f200e2fc55ca6987d960",
+    "changeKey": "ea22c502ffa0b5494e4701a163c62b91",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6534cfa28f8a9870b6bb",
+    "workId": "6534cfa28f8a9870b6bb",
+    "driveFileId": "1iBqN6GgthStcJgTN-HrcOtyXmFvtcfqX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:29:18.275672+00:00",
+    "updatedAt": "2026-09-22T20:29:18.275687+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:29:18.275769+00:00"
+    }
+  }
+}

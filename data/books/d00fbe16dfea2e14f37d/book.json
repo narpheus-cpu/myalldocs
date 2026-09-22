@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에티카/정치론",
+    "author": "스피노자",
+    "genre": "철학",
+    "tags": [
+      "스피노자",
+      "에티카",
+      "기하학적증명",
+      "형이상학",
+      "신"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "베네딕투스 데 스피노자(1632~1677)는 17세기 네덜란드의 대표적인 합리주의 철학자이다.",
+    "oneLineSummary": "유클리드 기하학의 방식을 철학에 도입하여 신, 실체, 속성, 양태의 본질과 필연성을 명료하게 증명한 저작이다.",
+    "overallSummary": "제1부 신에 관하여에서는 자기원인, 실체, 속성, 양태 등의 기본 정의와 공리를 정립하고, 절대 무한한 존재로서 신의 필연적 존재와 유일성을 논리적·기하학적으로 증명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 정의 및 공리",
+        "summary": "자기원인, 유한, 실체, 속성, 양태, 신, 자유, 영원에 대한 정의와 7가지 철학적 공리를 제시한다."
+      },
+      {
+        "sectionTitle": "제1부 정리 1~12",
+        "summary": "실체의 선행성, 실체의 무한성, 그리고 신의 필연적 존재성과 분할 불가능성을 체계적으로 증명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학적 체계",
+        "value": "기하학적 서술 구조(정의-공리-정리-증명-주해)를 적용해 실체론적 범신론을 구축함."
+      }
+    ],
+    "keyEntitiesText": "베네딕투스 데 스피노자, 신(God/Deus), 실체, 속성, 양태",
+    "settingText": "17세기 유럽 서양 근대 철학적 형이상학 연구"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AUXGQwqY4kUY9LRtys7y4Z7kTipLA2OT",
+    "filename": "스피노자-에티카, 정치론(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T19:26:58.000Z",
+    "size": "1334244",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1AUXGQwqY4kUY9LRtys7y4Z7kTipLA2OT/view?usp=drivesdk",
+    "sourceSha256": "3c793901828e9075805c2f6df6209c991b2c2ae01b32fea5d01afe26738e5873",
+    "textSha256": "35a0aac6fe05f0ef0c0e2f0535314fbc78021b38516b868294708d6a5155bcf5",
+    "changeKey": "af62ec45fbb0b9497f5335a7d6e37f0d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d00fbe16dfea2e14f37d",
+    "workId": "d00fbe16dfea2e14f37d",
+    "driveFileId": "1AUXGQwqY4kUY9LRtys7y4Z7kTipLA2OT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:28:08.559463+00:00",
+    "updatedAt": "2026-09-22T20:28:08.559476+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:28:08.559563+00:00"
+    }
+  }
+}

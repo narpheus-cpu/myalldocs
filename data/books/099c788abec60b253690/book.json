@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마인 이야기 06",
+    "author": "시오노 나나미",
+    "genre": "역사",
+    "tags": [
+      "아우구스투스",
+      "팍스로마나",
+      "원수정",
+      "군비축소",
+      "국세조사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시오노 나나미는 로마 제국의 실질적 창시자인 아우구스투스의 정교한 체제 구축을 다룬다.",
+    "oneLineSummary": "아우구스투스가 내전을 끝내고 군비 축소와 제도 개혁을 거쳐 제정 로마('팍스 로마나')를 여는 과정을 서술한다.",
+    "overallSummary": "악티움 해전 승리 후 50만 대군의 감축 및 제대병 정착, 제국적 국세조사(켄수스) 실시, 원로원 정원 감축과 기원전 27년 공화정 복귀 선언을 통한 원수정 체제의 확립 노력을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 통치 전기 - 젊은 최고 권력자 및 군비 삭감",
+        "summary": "내전 종식 후 50만 명에 달하는 대군을 삭감하고 정착 자금을 마련하기 위한 노력을 설명한다."
+      },
+      {
+        "sectionTitle": "제1장 통치 전기 - 국세조사와 공화정 복귀 선언",
+        "summary": "전 제국 유권자 수 파악, 원로원 의원 재편성, 기원전 27년 공화정 복귀 선언의 본질을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "통치 메커니즘",
+        "value": "공화정의 형식을 유지하면서 실질적 1인 통치권(프린켑스)을 조화시킨 정치적 지혜."
+      }
+    ],
+    "keyEntitiesText": "아우구스투스(옥타비아누스), 아그리파, 안토니우스, 클레오파트라, 원로원",
+    "settingText": "기원전 31년~기원전 27년 로마 제국 전역 및 로마 수도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qENRqocOPGmSDA13I1hkD5-9RlPYyN1n",
+    "filename": "시오노 나나미-로마인 이야기 06.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:27.693Z",
+    "size": "676228",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "시오노 나나미-로마인 이야기 등"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/시오노 나나미-로마인 이야기 등",
+    "webViewLink": "https://drive.google.com/file/d/1qENRqocOPGmSDA13I1hkD5-9RlPYyN1n/view?usp=drivesdk",
+    "sourceSha256": "c0f783246b6fb754dc7d3e2f971a15f5062e7f2bfc13db095f0a77361ca8e143",
+    "textSha256": "cbf547288730c541c8bba936ce6f978112cd4a686df0b370811ea1de3eae8486",
+    "changeKey": "f29906aa3c59322b25b9ea0662ab49de",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "099c788abec60b253690",
+    "workId": "099c788abec60b253690",
+    "driveFileId": "1qENRqocOPGmSDA13I1hkD5-9RlPYyN1n",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:29:11.920963+00:00",
+    "updatedAt": "2026-09-22T20:29:11.920978+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:29:11.921082+00:00"
+    }
+  }
+}

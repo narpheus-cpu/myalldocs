@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마인 이야기 05",
+    "author": "시오노 나나미",
+    "genre": "역사",
+    "tags": [
+      "카이사르",
+      "루비콘강",
+      "폼페이우스",
+      "로마내전",
+      "전격작전"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시오노 나나미는 율리우스 카이사르의 군사적 결단과 정치적 통찰력을 깊이 있게 다룬다.",
+    "oneLineSummary": "루비콘 강을 도하한 카이사르의 전격전과 폼페이우스파의 수도 탈출 등 내전 전개 과정을 서술한다.",
+    "overallSummary": "기원전 49년 카이사르가 루비콘 강을 건넌 직후, 신속한 이탈리아 진격으로 주요 도시를 확보하는 과정과 폼페이우스 및 원로원파의 당황한 수도 철수, 오시모와 코르피니오에서의 포용적 대응을 기술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제6장 원숙기 - '루비콘' 직후",
+        "summary": "루비콘 도하 후 리미니 입성, 안토니우스 및 쿠리오의 분하 배치와 폼페이우스와의 친서 교환을 다룬다."
+      },
+      {
+        "sectionTitle": "제6장 원숙기 - 폼페이우스, 수도를 포기하다",
+        "summary": "카이사르의 허를 찌르는 속도전에 지레 겁을 먹고 수도 로마를 버리고 남하하는 폼페이우스 진영의 실책을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "군사 및 정치 전략",
+        "value": "신속한 행동과 투항자에 대한 관용을 조합하여 상대의 사기를 꺾고 주도권을 잡음."
+      }
+    ],
+    "keyEntitiesText": "율리우스 카이사르, 폼페이우스, 안토니우스, 쿠리오, 에노발부스, 코르피니오",
+    "settingText": "기원전 49년 1월~2월 이탈리아 반도 및 로마"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IOOeSbZx36VUpgRNsrMxR_Hv-bKUk5rE",
+    "filename": "시오노 나나미-로마인 이야기 05.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:27.672Z",
+    "size": "995293",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "시오노 나나미-로마인 이야기 등"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/시오노 나나미-로마인 이야기 등",
+    "webViewLink": "https://drive.google.com/file/d/1IOOeSbZx36VUpgRNsrMxR_Hv-bKUk5rE/view?usp=drivesdk",
+    "sourceSha256": "32a5046fe0a2cc16eacf36eec932b0eb7d0b4ef36ef6a4dca1f382882227b51d",
+    "textSha256": "0bb308134be528a94e44386ebae623f319b36effdc55fee76a8ea982e348944e",
+    "changeKey": "bc8a3dcea4a2f52cbf55c2ca49ab117a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "99d051008f9cc6d9dc30",
+    "workId": "99d051008f9cc6d9dc30",
+    "driveFileId": "1IOOeSbZx36VUpgRNsrMxR_Hv-bKUk5rE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:28:58.882191+00:00",
+    "updatedAt": "2026-09-22T20:28:58.882206+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:28:58.882294+00:00"
+    }
+  }
+}

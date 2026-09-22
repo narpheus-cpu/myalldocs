@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마인 이야기 04",
+    "author": "시오노 나나미",
+    "genre": "역사",
+    "tags": [
+      "카이사르",
+      "수부라",
+      "로마주거문화",
+      "청년시절",
+      "율리우스씨족"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시오노 나나미는 『로마인 이야기』 중 카이사르 편에 유독 큰 애정을 갖고 입체적으로 묘사한 저자이다.",
+    "oneLineSummary": "율리우스 카이사르의 출생과 유년기, 그리고 로마의 사회·주거 환경을 다룬 전기적 역사서이다.",
+    "overallSummary": "카이사르가 태어난 로마 수부라 지역의 입지 및 로마 단독주택 구조, 카이사르 가문의 역사와 가난하지만 명문인 가문 배경, 어머니 아우렐리아의 교육과 카이사르의 성격 형성 과정을 상술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 유년 시절 - 태어난 곳",
+        "summary": "로마 일곱 언덕의 지리, 고급 주택가와 서민촌 수부라의 대비 및 로마 단독주택 구조를 설명한다."
+      },
+      {
+        "sectionTitle": "제1장 유년 시절 - 집안 배경과 환경",
+        "summary": "율리우스 씨족의 오랜 역사는 물론, 카이사르 가정의 검소한 환경과 어머니 아우렐리아의 영향을 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "성장 배경의 영향",
+        "value": "서민 구역 수부라에서 유년기를 보낸 경험이 카이사르의 유연하고 낙천적인 기질에 기여함."
+      }
+    ],
+    "keyEntitiesText": "율리우스 카이사르, 아우렐리아, 마리우스, 술라, 수부라",
+    "settingText": "기원전 100년 로마 수도 수부라 및 공화정 말기의 로마 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FzvNjoRGe4wCnU_RlukY6LBA08Nveo3W",
+    "filename": "시오노 나나미-로마인 이야기 04.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:27.649Z",
+    "size": "992067",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "시오노 나나미-로마인 이야기 등"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/시오노 나나미-로마인 이야기 등",
+    "webViewLink": "https://drive.google.com/file/d/1FzvNjoRGe4wCnU_RlukY6LBA08Nveo3W/view?usp=drivesdk",
+    "sourceSha256": "86fba22ab621d51890c5f46ea8bc7d8f047495977d002aec031562665bf7c661",
+    "textSha256": "662abfcd5eea743fb2034a57157d2a998bb5f911035eb90b8cd5db3894610217",
+    "changeKey": "f8b4ec20d6f826b00bf465f82d263ce9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "875636e93b2e311f2e62",
+    "workId": "875636e93b2e311f2e62",
+    "driveFileId": "1FzvNjoRGe4wCnU_RlukY6LBA08Nveo3W",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:28:51.540478+00:00",
+    "updatedAt": "2026-09-22T20:28:51.540494+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:28:51.540580+00:00"
+    }
+  }
+}

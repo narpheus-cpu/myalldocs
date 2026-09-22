@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그리스인 이야기 3",
+    "author": "시오노 나나미",
+    "genre": "역사",
+    "tags": [
+      "그리스",
+      "아테네",
+      "펠로폰네소스전쟁",
+      "30인폭정",
+      "크세노폰"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시오노 나나미는 『로마인 이야기』 등으로 널리 알려진 일본의 대표적 역사 저술가이다.",
+    "oneLineSummary": "펠로폰네소스 전쟁 패배 후 아테네의 쇠락과 도시국가 그리스의 종언 과정을 인물과 정치적 혼란 중심으로 다룬다.",
+    "overallSummary": "아테네가 패전 후 과두정치인 30인 정권의 공포정치를 겪고 민주정을 회복하지만, 경제력 상실과 지식인·용병 등 인재 유출로 인해 도시국가로서의 한계와 내리막길을 걷는 과정을 기술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 아테네의 쇠락 - 자신감의 상실",
+        "summary": "펠로폰네소스 전쟁 패배 후 스파르타의 영향으로 세워진 30인 폭정 정권과 민주파 트라시불로스의 반격 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "1. 아테네의 쇠락 - 인재의 유출",
+        "summary": "아테네 내 혼란으로 크세노폰 등 엘리트 및 청년층이 용병이나 국외 망명으로 이탈하는 현상을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 분석",
+        "value": "도시국가(폴리스) 시스템의 한계와 패권 상실 이후 찾아온 장기적 혼란을 조명함."
+      }
+    ],
+    "keyEntitiesText": "크리티아스, 테라메네스, 트라시불로스, 소크라테스, 크세노폰, 아테네, 스파르타",
+    "settingText": "기원전 404년 패전 직후 고대 그리스 아테네 및 주변 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1lTTx14lZ0KQosdFj6GXdmDuALm4ZB3Mk",
+    "filename": "시오노 나나미-그리스인 이야기 3(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T19:29:16.000Z",
+    "size": "827035",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1lTTx14lZ0KQosdFj6GXdmDuALm4ZB3Mk/view?usp=drivesdk",
+    "sourceSha256": "f944e65203b1aebab9a9a06c24ff684dbe7404a3ed1229c82e5facaf5f6e4701",
+    "textSha256": "9bdd212a5ccf01ac1b23a444237315fa9bc3cb8d616c0fc15e80b5cabde53ee4",
+    "changeKey": "8c854573ef54eb131662b7fd85bbc56d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dc8a82bbbb178b2ed504",
+    "workId": "dc8a82bbbb178b2ed504",
+    "driveFileId": "1lTTx14lZ0KQosdFj6GXdmDuALm4ZB3Mk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:28:23.492417+00:00",
+    "updatedAt": "2026-09-22T20:28:23.492431+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:28:23.492516+00:00"
+    }
+  }
+}
