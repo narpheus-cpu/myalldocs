@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비련의 화인",
+    "author": "김성종",
+    "genre": "추리 소설",
+    "tags": [
+      "추리소설",
+      "유괴",
+      "홍상파",
+      "청미",
+      "협박전화"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김성종 작가의 장편 추리소설로 어린 딸의 유괴와 부모의 절박한 심리를 그린다.",
+    "oneLineSummary": "제양상사 홍상파 부장의 여덟 살 외동딸 청미가 유괴되고 범인의 기분 나쁜 전화 협박이 시작된다.",
+    "overallSummary": "비바람 치는 날, 홍상파 부장의 외동딸 청미가 학교가 끝난 후 돌아오지 않는다. 곧이어 음침한 목소리의 유괴범에게서 돈을 요구하는 전화가 걸려오고, 경찰 신고 여부를 두고 홍상파와 아내 송묘임 사이에 극한 대립이 일어난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아이가 없어졌다",
+        "summary": "홍상파의 8세 딸 청미가 하교 후 사라지고, 집으로 음침한 사나이의 유괴 협박 전화가 걸려온다."
+      },
+      {
+        "sectionTitle": "아이는 어디로 갔을까",
+        "summary": "범인의 반복되는 협박 전화 속에서 경찰 신고를 강력히 주장하는 남편 홍상파와 아이의 안전을 위해 반대하는 아내 송묘임의 갈등."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 요인",
+        "value": "외동딸을 되찾기 위한 범인과의 접촉 과정에서 경찰 신고 여부를 둘러싼 부부 간의 의견 대립."
+      }
+    ],
+    "keyEntitiesText": "홍상파(제양상사 부장), 송묘임(아내), 청미(8세 외동딸), 유괴범",
+    "settingText": "비바람 치는 겨울날, 서울 세종로 제양상사 건물 및 홍상파의 8층 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1y_1JC9FATwolWRJD6nsIRHOgbwotIYsz",
+    "filename": "김성종-비련의 화인 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.208Z",
+    "size": "572473",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/1y_1JC9FATwolWRJD6nsIRHOgbwotIYsz/view?usp=drivesdk",
+    "sourceSha256": "1899b8179c9c1a0a7e5b720104b066792f33257d1f44ecd40e97c3644cca15e7",
+    "textSha256": "8a6645be21694bfbe9e40988a8eb79222a6a8985091aee658069d69b7bfc582c",
+    "changeKey": "8512c410e6e8b72019187a7532b41f02",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3078a248de079ae34f87",
+    "workId": "3078a248de079ae34f87",
+    "driveFileId": "1y_1JC9FATwolWRJD6nsIRHOgbwotIYsz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:00:07.167510+00:00",
+    "updatedAt": "2026-09-22T04:00:07.167525+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:00:07.167690+00:00"
+    }
+  }
+}

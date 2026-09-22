@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불타는 여인 2",
+    "author": "김성종",
+    "genre": "추리 소설",
+    "tags": [
+      "추리소설",
+      "에이즈",
+      "찰스모겐도",
+      "박명희",
+      "연쇄감염"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김성종 작가의 추리소설로 에이즈 감염자의 등장과 복잡한 남녀관계 살인사건을 추적한다.",
+    "oneLineSummary": "미국인 찰스 모겐도가 에이즈 환자로 판명되면서 그와 관계를 맺었던 여성들의 연쇄 감염 공포가 퍼진다.",
+    "overallSummary": "뉴욕발 비행기로 입국한 GW자동차 간부 찰스 모겐도가 공항에서 쓰러져 에이즈 환자로 판정된다. 동거녀 박명희를 비롯해 그와 관계를 가졌던 오미애, 피살자 유밀라, 황개 등에게 에이즈 감염 공포가 확산되며 수사가 긴박하게 진행된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "AIDS 환자",
+        "summary": "찰스 모겐도가 김포공항 입국 중 의식을 잃고 병원으로 이송된 후 에이즈 양성 반응을 보이고, 동거녀 박명희 역시 격리 수용된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 파장",
+        "value": "에이즈 감염 확산 공포와 기존 살인 사건 피살자들 간의 복잡한 감염 관계."
+      }
+    ],
+    "keyEntitiesText": "찰스 모겐도, 박명희, 마형사, 남형사, 닥터 왕, 오미애",
+    "settingText": "7월 25일 밤~이튿날, 김포국제공항 및 시립병원 내과진료실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TPOGpHpb2U2FCQ7CaYCpgbY7RTySaWpN",
+    "filename": "김성종-불타는 여인 2.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.182Z",
+    "size": "607435",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/1TPOGpHpb2U2FCQ7CaYCpgbY7RTySaWpN/view?usp=drivesdk",
+    "sourceSha256": "960d266a411dd08e8152639931e803e4fdcb37f34029e8ece91cbf9d65efa76a",
+    "textSha256": "6aa308ddb4df167e541997f0b7f982c1da79ed97b227a87093930dbd39303f35",
+    "changeKey": "cbd79164257e48546af36491f3f6f698",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ece201363b46935d3782",
+    "workId": "ece201363b46935d3782",
+    "driveFileId": "1TPOGpHpb2U2FCQ7CaYCpgbY7RTySaWpN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:00:00.894151+00:00",
+    "updatedAt": "2026-09-22T04:00:00.894167+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:00:00.894263+00:00"
+    }
+  }
+}

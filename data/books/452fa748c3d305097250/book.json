@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제3의 정사",
+    "author": "김성종",
+    "genre": "소설",
+    "tags": [
+      "불륜",
+      "임신",
+      "조해주",
+      "오명희",
+      "갈등"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김성종 작가의 소설로 재벌가 사위인 주인공과 내연녀 여대생의 임신을 둘러싼 내면적 갈등을 다룬다.",
+    "oneLineSummary": "대아그룹 이사인 유부남 '나'가 내연녀 조해주로부터 임신 소식을 듣고 낙태를 권하지만 거부당한다.",
+    "overallSummary": "대아그룹 회장 조카딸과 정략결혼한 40세 이사 '나'는 경포대에서 만난 여대생 조해주와 내연 관계를 맺는다. 해주가 임신 3개월임을 알리고 낙태 요구를 거부하자 불안과 충격에 빠진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "임신",
+        "summary": "S호텔 스카이라운지에서 내연녀 조해주가 임신 3개월 소식을 전하고 낙태 권유를 거부하며 자리를 떠난다."
+      },
+      {
+        "sectionTitle": "불안",
+        "summary": "아내 오명희와의 욕망 없는 잠자리와 임신한 해주 사이에서 주인공이 느끼는 깊은 심리적 불안."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 갈등",
+        "value": "출세를 위한 정략결혼 아내와 내연 관계인 여대생의 돌발 임신 사이에서의 혼란."
+      }
+    ],
+    "keyEntitiesText": "'나'(대아그룹 기획이사, 40세), 조해주(S여대 무용과 2학년, 21세), 오명희(아내, 회장 조카딸)",
+    "settingText": "서울 S호텔 25층 스카이라운지 및 주인공의 아파트 침실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1F_Lv_yNIAYiE9xmZGJZj8w2VK1fVtBI8",
+    "filename": "김성종-제3의 정사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.335Z",
+    "size": "417084",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/1F_Lv_yNIAYiE9xmZGJZj8w2VK1fVtBI8/view?usp=drivesdk",
+    "sourceSha256": "4c3eec04cf1301a58ad24b89a3bcd44a7830ec5b5737e16442226247e2829489",
+    "textSha256": "4735f28daff4c1325aaa702b510a7b68d0c8028117723166a59a42be9503da5f",
+    "changeKey": "dc6d7aa594069f1c11329597acc40bc4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "452fa748c3d305097250",
+    "workId": "452fa748c3d305097250",
+    "driveFileId": "1F_Lv_yNIAYiE9xmZGJZj8w2VK1fVtBI8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:00:39.870289+00:00",
+    "updatedAt": "2026-09-22T04:00:39.870305+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:00:39.870413+00:00"
+    }
+  }
+}

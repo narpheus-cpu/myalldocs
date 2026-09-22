@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서울의 황혼",
+    "author": "김성종",
+    "genre": "소설",
+    "tags": [
+      "이동표",
+      "오애라",
+      "여배우",
+      "구원"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김성종 작가의 장편 소설로 해직 기자인 사나이와 자살 시도 여배우의 우연한 만남과 구원을 그린다.",
+    "oneLineSummary": "해직된 기자 이동표가 성탄 전야에 길가에 쓰러진 인기 여배우 오애라를 구하며 인연을 맺는다.",
+    "overallSummary": "K일보 교정부에서 감원당한 이동표는 크리스마스 이브 폭설 속에 수면제 중독으로 쓰러져 있던 여성을 구해 병원으로 옮긴다. 그 여성이 인기 여배우 오애라임을 알게 되고, 12월 31일 그녀로부터 감사의 전화를 받게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "크리스마스 이브",
+        "summary": "K일보에서 감원된 이동표가 눈 내리는 밤길에 쓰러진 여성을 들쳐업고 병원으로 이송한다."
+      },
+      {
+        "sectionTitle": "여배우",
+        "summary": "깨어난 여성이 인기 여배우 오애라임을 길거리 영화 포스터를 통해 확인한다."
+      },
+      {
+        "sectionTitle": "스카이라운지",
+        "summary": "12월 31일 아침, 여배우 오애라가 이동표에게 감사의 전화를 걸어온다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 간 구원",
+        "value": "해직으로 실의에 빠진 언론인과 삶의 절망에서 자살을 시도한 여배우의 우연한 만남."
+      }
+    ],
+    "keyEntitiesText": "이동표(전 K일보 교정부 기자, 40세), 오애라(인기 여배우)",
+    "settingText": "크리스마스 이브~12월 31일, 눈 내리는 서울 거리, 병원, 나이트클럽, 이동표의 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1j6ocdNiBh_f6i6zm6Haq5onMrXuTReME",
+    "filename": "김성종-서울의 황혼.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.304Z",
+    "size": "320540",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/1j6ocdNiBh_f6i6zm6Haq5onMrXuTReME/view?usp=drivesdk",
+    "sourceSha256": "52e9767716f6685006ead490e066108e0e10cd5eb807a255eba3e5da339e1c8d",
+    "textSha256": "29283b107b21151af774d3a8ceaacab1198be6eec96aa6f49c257dc41fe9b957",
+    "changeKey": "4ed4548bac28c731ca1dc31c2cf127ee",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5f90782a11cb81b0b70a",
+    "workId": "5f90782a11cb81b0b70a",
+    "driveFileId": "1j6ocdNiBh_f6i6zm6Haq5onMrXuTReME",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:00:27.016164+00:00",
+    "updatedAt": "2026-09-22T04:00:27.016181+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:00:27.016291+00:00"
+    }
+  }
+}

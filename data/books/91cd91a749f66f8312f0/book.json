@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제5열 1",
+    "author": "김성종",
+    "genre": "추리 소설",
+    "tags": [
+      "추리소설",
+      "대동회",
+      "최동희",
+      "정치스릴러"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김성종 작가의 대표 정치 추리스릴러로 거대 비공식 정치 단체와 납치 음모를 다룬다.",
+    "oneLineSummary": "군국주의 단체 '대동회'를 공박하는 사설을 쓴 K일보 최동희 논설위원이 자택에서 괴한들에게 납치당한다.",
+    "overallSummary": "K일보 최동희 논설위원은 군국주의적 성향의 비공식 단체 '대동회'와 이창성 위원장을 비판하는 사설을 게재한다. 그날 밤 최동희는 자택에서 수사기관을 사칭한 괴한들에게 강제 납치되고, 아들 최진이 부러진 안경을 들고 범인들을 추적하기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "大東會",
+        "summary": "최동희 논설위원이 대동회를 공격하는 사설을 게재한 후 자택에서 수사기관을 사칭한 괴한들에게 강제로 납치당한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정치적 갈등",
+        "value": "비공식 거대 정치 세력 '대동회'의 사상을 비판한 언론인의 자택 납치 사건."
+      }
+    ],
+    "keyEntitiesText": "최동희(K일보 논설위원, 56세), 최진(아들, 34세), 이창성(대동회 위원장), 윤학기(K일보 사장)",
+    "settingText": "1970~80년대 서울, 고층 아파트 및 K일보 사장실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14L_dX21CsCJokHLkmyY9xu6ScZHfjE5k",
+    "filename": "김성종-제5열 1.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.353Z",
+    "size": "576865",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/14L_dX21CsCJokHLkmyY9xu6ScZHfjE5k/view?usp=drivesdk",
+    "sourceSha256": "a81c478ac8a899def69504f1b8672f69bd062f48d6493ad31752b253c9d666a3",
+    "textSha256": "be21ddc5d03558949cc94d85184dd808f98a9c2c6c1a510b93a145756b2b6cd4",
+    "changeKey": "009f54906646507bea70a95c2d7d0810",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "91cd91a749f66f8312f0",
+    "workId": "91cd91a749f66f8312f0",
+    "driveFileId": "14L_dX21CsCJokHLkmyY9xu6ScZHfjE5k",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:00:46.427464+00:00",
+    "updatedAt": "2026-09-22T04:00:46.427479+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:00:46.427631+00:00"
+    }
+  }
+}

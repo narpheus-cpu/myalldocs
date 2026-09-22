@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제5열 2",
+    "author": "김성종",
+    "genre": "추리 소설",
+    "tags": [
+      "추리소설",
+      "요시다",
+      "극비회담",
+      "Z"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김성종 작가의 정치 스릴러 소설로 한국과 일본의 거대 공작 세력 간 밀회를 다룬다.",
+    "oneLineSummary": "일본 참의원 요시다 마사하루가 감시망을 뚫고 부산 해변에서 한국 측 보스 Z와 극비 회담을 가진다.",
+    "overallSummary": "S국 수사관들의 감시를 피하기 위해 김포공항 화장실에서 변장한 요시다 마사하루(R)는 부산으로 내려간다. 비바람 치는 밤 해변에서 한국 측 보스 Z 및 X(조남표)와 만나 거대 정치 자금 공작과 권력 야합을 논의한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "極秘會談",
+        "summary": "요시다 마사하루가 화장실에서 변장 후 부산으로 이동하여 비바람 치는 해변에서 한국 측 보스 Z와 정치 자금 및 공작 회담을 가진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "국제 음모",
+        "value": "1조 원대 거대 정치 자금과 국가 권력을 둘러싼 한일 간 거대 비공식 세력의 야합."
+      }
+    ],
+    "keyEntitiesText": "요시다 마사하루(R, 일본 참의원), Z(한국 측 보스), X(조남표), 김형사(S국 요원)",
+    "settingText": "김포공항 및 비바람 치는 부산 해변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pAqxwg3agKnbOSi6TtfZF2cgD9q31irR",
+    "filename": "김성종-제5열 2.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.374Z",
+    "size": "591278",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/1pAqxwg3agKnbOSi6TtfZF2cgD9q31irR/view?usp=drivesdk",
+    "sourceSha256": "2c096bd76a4c75c73c4cee74b49feae7b6bce1ee1d0458734b057799abdf9e7b",
+    "textSha256": "242fbecd6b151edb5795abc4a3a233d83f0cd658b9211598584598bdddbc5ed5",
+    "changeKey": "b9de5ea668ee1b8e00bd5b0c0f64c42f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "61abca2d1add54391a63",
+    "workId": "61abca2d1add54391a63",
+    "driveFileId": "1pAqxwg3agKnbOSi6TtfZF2cgD9q31irR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:00:53.338217+00:00",
+    "updatedAt": "2026-09-22T04:00:53.338232+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:00:53.338332+00:00"
+    }
+  }
+}

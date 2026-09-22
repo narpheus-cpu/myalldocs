@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "깊은 상처",
+    "author": "넬레 노이하우스",
+    "genre": "추리 소설",
+    "tags": [
+      "깊은상처",
+      "보덴슈타인",
+      "피아",
+      "홀로코스트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "넬레 노이하우스는 독일의 세계적인 미스터리 작가로 타우누스 시리즈로 유명하다.",
+    "oneLineSummary": "93세의 홀로코스트 생존자 다비드 골드베르크가 총상을 입고 숨진 채 발견되고 거울에 혈서 숫자가 남아있다.",
+    "overallSummary": "독일 켈크하임 자택에서 93세의 전 백악관 자문이자 홀로코스트 생존자인 다비드 요수아 골드베르크가 머리에 총상을 입고 숨진다. 보덴슈타인 반장과 피아 키르히호프 형사는 거울에 피로 적힌 '16145'라는 숫자 암호를 확인하며 수사에 들어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "93세의 홀로코스트 생존자 다비드 골드베르크가 독일 자택에서 의문의 방문객을 맞이한다."
+      },
+      {
+        "sectionTitle": "사건 발생",
+        "summary": "보덴슈타인 반장과 피아 형사가 골드베르크의 총상 피살 현장과 거울의 '16145' 피로 쓰인 숫자를 확인한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "암호 요소",
+        "value": "거울에 피로 적힌 다섯 자리 숫자 '16145'와 홀로코스트 생존자의 과거사."
+      }
+    ],
+    "keyEntitiesText": "다비드 요수아 골드베르크(93세 피살자), 올리버 폰 보덴슈타인(반장), 피아 키르히호프(형사), 에바 스트뢰벨(집사), 헤닝 키르히호프(법의관)",
+    "settingText": "독일 헤센 주 켈크하임 드로셀 가 39a번지 자택, 토요일 아침"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17egtV_jlanq0HDMW8G8oxUlX4lGEeL7g",
+    "filename": "넬레 노이하우스-깊은 상처-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T09:15:04.000Z",
+    "size": "866427",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/17egtV_jlanq0HDMW8G8oxUlX4lGEeL7g/view?usp=drivesdk",
+    "sourceSha256": "114b94f4ff53ae6a402e9cff4d4598154a699788798030f57107ba8c0f7a0c1c",
+    "textSha256": "cdf99196aab9d7c65a7554ea0d6eb7c4567ea2ba0e9ed3fd20c846d0b0d24ee9",
+    "changeKey": "3621ce23dd6faea30ecaff3138e7a57a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "276f6fdf74621ff0e732",
+    "workId": "276f6fdf74621ff0e732",
+    "driveFileId": "17egtV_jlanq0HDMW8G8oxUlX4lGEeL7g",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:01:19.802537+00:00",
+    "updatedAt": "2026-09-22T04:01:19.802552+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:01:19.802704+00:00"
+    }
+  }
+}

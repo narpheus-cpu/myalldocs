@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "99 올해의 추리 소설 - 아웃사이더 외",
+    "author": "김성종 외",
+    "genre": "추리 소설집",
+    "tags": [
+      "추리소설",
+      "한국추리작가협회",
+      "단편소설집",
+      "차가운복수"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국추리작가협회 회원 및 김성종, 노원, 이상우 등 한국 대표 추리작가들.",
+    "oneLineSummary": "한국추리작가협회 작가들의 미발표 창작 단편들을 모은 추리 소설집으로 첫 단편 '차가운 복수' 등을 수록하고 있다.",
+    "overallSummary": "한국추리작가협회 회원 작가 13인의 미발표 창작 단편을 모은 소설집이다. 수록작 중 황미영의 '차가운 복수'에서는 의사 가문의 강요로 아들을 잃은 박차옥이 이기적인 남편을 청산가리로 살해하고 자살로 위장하는 잔혹한 복수를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책머리에",
+        "summary": "한국추리작가협회 회장 이상우가 1999년도 전원 미발표 창작 추리소설집 출간 취지와 원로·중견 작가들의 참여를 설명한다."
+      },
+      {
+        "sectionTitle": "차가운 복수",
+        "summary": "의사 가문의 대를 잇기를 강요하다 아들을 자살로 몰아넣은 이기적인 남편을 청산가리로 살해하고 자살로 위장한 박차옥의 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "김성종, 노원, 이상우 등 한국 추리작가들의 순수 미발표 창작 단편 모음집."
+      }
+    ],
+    "keyEntitiesText": "박차옥, 정대인(남편), 우석(아들), 도경식 반장, 차옥의 어머니",
+    "settingText": "현대 한국, 아파트 단지 1305호, 절/사찰"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YYrO5ZQE76RoVq3KsinYznv-Iq3qsGSQ",
+    "filename": "김성종 외-99 올해의 추리 소설-아웃사이더 외 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.030Z",
+    "size": "443389",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/1YYrO5ZQE76RoVq3KsinYznv-Iq3qsGSQ/view?usp=drivesdk",
+    "sourceSha256": "8a3ea172f5bbb8852d8b5fff92b02f766847c4f10187e28fdcdda0dfa58c297d",
+    "textSha256": "eaa4314b155953212e01aa56ff380c52575833b4c914451501be07c1736a6846",
+    "changeKey": "6d2c8b3b732e25a51727c50fa84b6fb6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "71dca35115c5d9345731",
+    "workId": "71dca35115c5d9345731",
+    "driveFileId": "1YYrO5ZQE76RoVq3KsinYznv-Iq3qsGSQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:59:17.490054+00:00",
+    "updatedAt": "2026-09-22T03:59:17.490070+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:59:17.490271+00:00"
+    }
+  }
+}

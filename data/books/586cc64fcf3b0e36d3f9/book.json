@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개구리 남자",
+    "author": "나카야마 시치리",
+    "genre": "추리 소설",
+    "tags": [
+      "개구리남자",
+      "연쇄살인",
+      "사이코패스",
+      "와타세"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "나카야마 시치리는 일본의 대표적인 미스터리 소설가로 '개구리 남자'는 그의 대표작 중 하나이다.",
+    "oneLineSummary": "맨션 차양에 쇠갈고리로 매달린 나체 여성 시체와 엽기적인 '개구리 잡았다' 쪽지가 발견되며 연쇄살인 수사가 시작된다.",
+    "overallSummary": "12월 1일 새벽, 신문배달원 다치바나 시로는 맨션 13층 차양에 쇠갈고리로 입이 꿰여 매달린 나체 시체를 발견한다. 피살자는 아라오 레이코로 확인되고, 어린아이 글씨 같은 엽기적 범행 쪽지에 사이타마 현경 와타세 반장과 고테가와 가즈야 형사가 수사에 착수한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "12월 1일",
+        "summary": "신문배달원이 맨션 13층 차양에서 쇠갈고리에 걸린 아라오 레이코의 시체와 엽기 쪽지를 발견하고, 와타세와 고테가와가 수사에 나선다."
+      },
+      {
+        "sectionTitle": "12월 2일",
+        "summary": "피살자의 신원이 확인되고 법의학자 미쓰자키 교수의 부검을 통해 끈에 의한 질식사임이 드러난다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "엽기적 범행 수법",
+        "value": "피해자를 개구리로 비유하며 쇠갈고리에 꿰어 매달아 놓는 사이코패스적 잔혹 범행."
+      }
+    ],
+    "keyEntitiesText": "고테가와 가즈야(형사), 와타세(반장), 다치바나 시로(신문배달원), 미쓰자키 도지로(법의학 교수), 아라오 레이코(피살자)",
+    "settingText": "12월 초, 사이타마 현 한노 시 '스카이스테이지 다키미' 맨션 및 법의학 교실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oRDimrF1Mx628KG7fPAsWC7fcTIS0m3D",
+    "filename": "나타야마 시치리-개구리 남자(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:17:02.000Z",
+    "size": "586953",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1oRDimrF1Mx628KG7fPAsWC7fcTIS0m3D/view?usp=drivesdk",
+    "sourceSha256": "068bbc96efb6db4150d77fb93e0a9fa61519b75eed847c13701f09f9b7cf5a23",
+    "textSha256": "4b88a997c256ceb36382160002ef418eaefcc902477addccd94b4445ee96c391",
+    "changeKey": "90065a4c6f7885be9b9591ff2c046a7f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "586cc64fcf3b0e36d3f9",
+    "workId": "586cc64fcf3b0e36d3f9",
+    "driveFileId": "1oRDimrF1Mx628KG7fPAsWC7fcTIS0m3D",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:01:14.074868+00:00",
+    "updatedAt": "2026-09-22T04:01:14.074882+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:01:14.074990+00:00"
+    }
+  }
+}

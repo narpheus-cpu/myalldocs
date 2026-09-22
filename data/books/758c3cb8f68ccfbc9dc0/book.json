@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "Z의 비밀",
+    "author": "김성종",
+    "genre": "추리 소설",
+    "tags": [
+      "추리소설",
+      "스릴러",
+      "홍승표",
+      "연쇄살인",
+      "국제음모"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김성종은 1941년 전남 구례 출생으로 '최후의 증인', '여명의 눈동자' 등을 집필한 한국 추리문학의 대표 작가이다.",
+    "oneLineSummary": "R호텔 나체 여인 추락사와 투숙객의 총상 피살 사건을 파헤치는 기자와 형사의 추적극.",
+    "overallSummary": "K일보 사회부 홍승표 기자는 R호텔에서 나체로 추락한 여인을 구하려다 그녀의 마지막 유언을 듣는다. 뒤이어 해당 특실 투숙객 박상일이 총상을 입고 한강에서 시체로 발견되면서 연쇄 살인과 거대한 국제적 음모의 서막이 열린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "피투성이의 나녀",
+        "summary": "홍승표 기자가 R호텔에서 나체로 추락한 여인을 병원으로 이송하나, 여인은 '도쿄... 적...'이라는 유언을 남기고 사망한다."
+      },
+      {
+        "sectionTitle": "또 하나의 죽음",
+        "summary": "R호텔 1505호 투숙객 박상일로 변장했던 사내가 이틀 전 머리에 총상을 입고 한강 하류에서 시체로 발견된다."
+      },
+      {
+        "sectionTitle": "폭발",
+        "summary": "사망자의 신원이 재일교포 박상일로 확인되며 사건이 단순 살인이 아닌 거대한 음모와 연결되어 있음이 밝혀진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 단서",
+        "value": "피살된 여인의 임신 사실과 유언 '도쿄... 적...', 그리고 몽타주와 일치하는 재일교포 박상일의 총상 시신."
+      }
+    ],
+    "keyEntitiesText": "홍승표(K일보 기자), 박남구(강력계 형사), 박상일(재일교포 피살자), 추락사한 여인",
+    "settingText": "1980년대 서울, R호텔 1505호, 제2한강교 및 한강 하류"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16wzv25XuOQF6vmk4H5kUtz0-dIEn7rxA",
+    "filename": "김성종-Z의 비밀.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.052Z",
+    "size": "374744",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/16wzv25XuOQF6vmk4H5kUtz0-dIEn7rxA/view?usp=drivesdk",
+    "sourceSha256": "41430f28adc795ebb98be37eb88ad07bb8c1440b895a02a8692e620235da381a",
+    "textSha256": "532bc59b23af0c0b81302c7ae2a6867d1c2f396605baab4663bae4e4e11b7fe2",
+    "changeKey": "f5d8966747596adc8db136cd0efe7d96",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "758c3cb8f68ccfbc9dc0",
+    "workId": "758c3cb8f68ccfbc9dc0",
+    "driveFileId": "16wzv25XuOQF6vmk4H5kUtz0-dIEn7rxA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:59:24.221149+00:00",
+    "updatedAt": "2026-09-22T03:59:24.221165+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:59:24.221261+00:00"
+    }
+  }
+}

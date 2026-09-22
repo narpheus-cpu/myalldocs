@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제5열 3",
+    "author": "김성종",
+    "genre": "추리 소설",
+    "tags": [
+      "추리소설",
+      "장연기",
+      "킬리만자로",
+      "암살"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김성종 작가의 정치 스릴러로 대선 후보 암살 시도와 특수 기관의 경호 작전을 그린다.",
+    "oneLineSummary": "S국 엄과장의 킬리만자로 팀이 암살 위협에 노출된 장연기 대선 후보를 강제로 변장시켜 피신시킨다.",
+    "overallSummary": "부산 공설운동장 유세장에서 장연기 대선 후보가 압도적 연설을 펼치는 동안, S국 엄과장과 킬리만자로 팀은 암살자 다비드 킴의 공격을 막아낸다. 이어 엄과장은 거대 음모로부터 장후보를 보호하기 위해 그를 변장시켜 비밀 피신시킨다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "追蹟의 璧",
+        "summary": "부산 공설운동장 유세장에서 장연기 후보를 철저히 경호한 킬리만자로 팀이 엄과장의 주도로 장후보를 변장 피신시킨다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특수 경호 작전",
+        "value": "대선 후보를 저격하려는 다비드 킴의 암살 시도를 차단하기 위한 강제 변장 피신 작전."
+      }
+    ],
+    "keyEntitiesText": "장연기(대선 후보), 엄과장(S국 3과장), 킬리만자로 팀(샌드위치, 장의사 등), 다비드 킴(암살자)",
+    "settingText": "부산 공설운동장 및 오리엔트 호텔 6층"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1v6-bHp_BZwovOXen2m0irouwnCkoFKw7",
+    "filename": "김성종-제5열 3.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.394Z",
+    "size": "576644",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/1v6-bHp_BZwovOXen2m0irouwnCkoFKw7/view?usp=drivesdk",
+    "sourceSha256": "c0cb7ffdcff98cf1ea9654ecba40821f7926cf3219a208fc24dc7c50a2adc26c",
+    "textSha256": "13a7a49199ff5a8c43382805b165a99d084816ee121835ffb6e53be7416f784d",
+    "changeKey": "d60165a9b9e2969d42d14af54883e489",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0d90fcddeff580de3f3e",
+    "workId": "0d90fcddeff580de3f3e",
+    "driveFileId": "1v6-bHp_BZwovOXen2m0irouwnCkoFKw7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:01:00.634503+00:00",
+    "updatedAt": "2026-09-22T04:01:00.634519+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:01:00.634658+00:00"
+    }
+  }
+}

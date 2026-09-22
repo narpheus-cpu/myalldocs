@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서울의 만가 1",
+    "author": "김성종",
+    "genre": "추리 소설",
+    "tags": [
+      "추리소설",
+      "인신매매",
+      "장미",
+      "유괴"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김성종 작가의 소설로 순진한 여중생이 인신매매 범죄에 말려드는 비극을 그린다.",
+    "oneLineSummary": "K여중 3학년 장미가 길을 묻는 시골 아낙의 거짓 호소에 속아 유흥가 골목으로 유인되어 유괴당한다.",
+    "overallSummary": "여름방학식 날, 예쁜 외모의 장미는 길에서 등에 아기를 업고 주소를 찾는 시골 아낙을 돕게 된다. 아낙과 공중전화 속 동생의 연극에 속아 영등포 유흥가 골목까지 따라간 장미는 결국 유괴범들의 손에 빠지게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사라진 소녀",
+        "summary": "여름방학 날, K여중 3학년 장미가 시골 아낙의 거짓 길 안내 요청과 전화 속 여인의 수고비 제안에 속아 영등포 유흥가 골목으로 유인당한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "범죄 수법",
+        "value": "동정심 많은 여학생을 상대로 시골 아낙과 전화기 속 가짜 동생의 공모를 통한 영등포 유흥가 유인."
+      }
+    ],
+    "keyEntitiesText": "장미(K여중 3학년), 동희(친구), 시골 아낙, 전화 속 동생 여인",
+    "settingText": "여름방학식 날 오후, 학교 앞, 공중전화 부스, 영등포 로터리 여관 골목"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iqEYnIFslo5WpjM_QLz174HE7ehByAtV",
+    "filename": "김성종-서울의 만가 1 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.283Z",
+    "size": "492792",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/1iqEYnIFslo5WpjM_QLz174HE7ehByAtV/view?usp=drivesdk",
+    "sourceSha256": "3ce24986600156bbc1961ae2e2fca1423bc635f37b91d2d1db6ae584bfde1240",
+    "textSha256": "5afae786336dd16e5274fe3521cdbe7c7f8667676d75820833fcb2cac52b35f2",
+    "changeKey": "5932c37c9947b0f4aafc6ce2c35b1fe1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9a0bd7a7c4f84b491882",
+    "workId": "9a0bd7a7c4f84b491882",
+    "driveFileId": "1iqEYnIFslo5WpjM_QLz174HE7ehByAtV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T04:00:19.683130+00:00",
+    "updatedAt": "2026-09-22T04:00:19.683146+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T04:00:19.683248+00:00"
+    }
+  }
+}

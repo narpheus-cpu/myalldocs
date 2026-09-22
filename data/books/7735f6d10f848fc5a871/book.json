@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고독과 굴욕",
+    "author": "김성종",
+    "genre": "소설집",
+    "tags": [
+      "단편소설",
+      "지리산",
+      "심온달궁",
+      "생명구원"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김성종 작가의 창작집으로 지리산 등 다양한 인간군상의 삶과 고독을 다룬 작품들을 수록했다.",
+    "oneLineSummary": "지리산 깊은 골짜기 심온달궁 마을에서 길을 잃은 등산객이 할아버지를 잃고 농약을 마신 소녀를 구하는 이야기.",
+    "overallSummary": "지리산 심온달궁 마을에 들어선 오강현은 강판수 노인의 집에 묵게 된다. 그날 밤 할아버지의 갑작스러운 사망으로 농약을 먹고 자살을 시도한 어린 소녀를 응급처치와 인공호흡으로 살려내며 생명의 소중함을 체감한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "심온달궁(深溫達窮)",
+        "summary": "깊은 산골 심온달궁 마을에 묵던 오강현이 할아버지의 죽음 후 농약을 마시고 쓰러진 소녀를 정성껏 응급처치하여 생명을 건져낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "지명 의미",
+        "value": "깊고 따뜻하며 다다르고 궁하다는 뜻의 '심온달궁' 마을 배경의 휴머니즘 드라마."
+      }
+    ],
+    "keyEntitiesText": "오강현(39세 산행객), 강판수(70세 마을 노인), 농약을 마신 소녀(17~18세)",
+    "settingText": "지리산 심온달궁 마을(오막살이, 비 내리는 밤)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dySs3xD0votj0hyIe5z0AQiO3Ldq_eyD",
+    "filename": "김성종-고독과 굴욕 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.068Z",
+    "size": "384013",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/1dySs3xD0votj0hyIe5z0AQiO3Ldq_eyD/view?usp=drivesdk",
+    "sourceSha256": "8a191ef51c416a74cc6b264294827f115416dd1b9ad28e51bb9d6276575342f1",
+    "textSha256": "885081c71e07464f864d9e411259c666423a5aa174f908275941d833bdb3cd6b",
+    "changeKey": "a3285213b6b1951e9c827b0476debc16",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7735f6d10f848fc5a871",
+    "workId": "7735f6d10f848fc5a871",
+    "driveFileId": "1dySs3xD0votj0hyIe5z0AQiO3Ldq_eyD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:59:30.065280+00:00",
+    "updatedAt": "2026-09-22T03:59:30.065295+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:59:30.065397+00:00"
+    }
+  }
+}

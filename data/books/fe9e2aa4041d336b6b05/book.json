@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불타는 여인 1",
+    "author": "김성종",
+    "genre": "추리 소설",
+    "tags": [
+      "추리소설",
+      "유밀라",
+      "황개",
+      "청산가리",
+      "복수"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김성종 작가의 장편 추리소설로 재벌가 주변의 음모와 살인 사건을 그린다.",
+    "oneLineSummary": "약점을 잡혀 돈과 육체를 갈취당하던 유밀라가 황개를 청산가리로 살해하기 위해 호텔로 향하는 이야기.",
+    "overallSummary": "배미화의 올케 유밀라는 약점을 쥔 정력가 황개에게 지속적으로 돈과 육체를 빼앗긴다. 거머리 같은 황개에게 천만 원 수표를 전달한 유밀라는 그를 완전히 없애기 위해 청산가리 캡슐을 품고 S호텔 1924호실로 함께 들어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "배미화와 황개의 호텔 방에서의 관계와 갈등."
+      },
+      {
+        "sectionTitle": "下午의 情事",
+        "summary": "S호텔 스카이라운지에서 유밀라가 황개에게 천만 원 수표를 주고 청산가리로 그를 살해할 결심을 한 채 1924호실로 들어간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "살해 계획",
+        "value": "극약 청산가리가 든 녹색 용기를 품고 황개와의 관계 및 독살을 준비함."
+      }
+    ],
+    "keyEntitiesText": "유밀라, 황개, 배미화, S호텔 스카이라운지 웨이터",
+    "settingText": "1988년 7월 비 내리는 오후, 서울 S호텔(스카이라운지 및 1924호실)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Tt9rEozGrCa2NRTEOEh1klusotb3U22r",
+    "filename": "김성종-불타는 여인 1.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:21.155Z",
+    "size": "556491",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "김성종"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/김성종",
+    "webViewLink": "https://drive.google.com/file/d/1Tt9rEozGrCa2NRTEOEh1klusotb3U22r/view?usp=drivesdk",
+    "sourceSha256": "56d43774f6108db9fd5f515e8cdf0f1dc4444e7d0da004a3ff56d918df2c8320",
+    "textSha256": "536944dfa3b15420711b68f19427a5dd39f617d2a2f2dec51377e363207cb9f2",
+    "changeKey": "cf663c81369cb4bc4941f48326cc2929",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fe9e2aa4041d336b6b05",
+    "workId": "fe9e2aa4041d336b6b05",
+    "driveFileId": "1Tt9rEozGrCa2NRTEOEh1klusotb3U22r",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T03:59:54.941997+00:00",
+    "updatedAt": "2026-09-22T03:59:54.942011+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T03:59:54.942117+00:00"
+    }
+  }
+}
