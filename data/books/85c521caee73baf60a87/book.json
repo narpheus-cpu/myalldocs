@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "반마족 카인",
+    "author": "카르민",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "마계",
+      "반마족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "코미디"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "카르민",
+    "oneLineSummary": "마계 서열 3위 아이에드에게 거두어진 카레나의 눈동자를 가진 반마족 소년 칼레들린의 이야기.",
+    "overallSummary": "마계의 엄격한 규율 속에서 반마족을 거두겠다는 마계 서열 3위 아이에드의 파격적인 결정으로 성에서 자라나게 된 칼레들린은 학교에서 마족 아이들과 시비가 붙어 싸움을 벌이곤 한다. 보좌관 로시엔은 늘 사고를 치고 다치는 칼레들린을 걱정하며 눈물을 흘린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "마계 서열 3위 아이에드가 카레나의 눈동자를 가진 반마족 아이를 거두어 키우겠다고 선언하자 보좌관 로시엔은 경악하며 만류하지만 아이에드의 뜻을 꺾지 못한다."
+      },
+      {
+        "sectionTitle": "제 1장",
+        "summary": "마계에서 반마족이라는 이유로 괴롭힘을 당하던 칼레들린은 덩치 큰 마족들과 싸움을 벌이고 만신창이가 되어 돌아오고, 보좌관 로시엔은 그를 보며 눈물을 흘리며 걱정한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품분류",
+        "value": "판타지 소설"
+      }
+    ],
+    "keyEntitiesText": "칼레들린, 아이에드, 로시엔",
+    "settingText": "마계 아이에드의 성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_QLbJ2A-7dtw0QKu_86sCC7Uz3oWdgu_",
+    "filename": "반마족 카인 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:43.651Z",
+    "size": "2062840",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1_QLbJ2A-7dtw0QKu_86sCC7Uz3oWdgu_/view?usp=drivesdk",
+    "sourceSha256": "65b3f5b32794151d6de21f5b8cb11b2c0618431ec30082eff39666889acc25fd",
+    "textSha256": "d8b2090343623799e50f16a04f867cd62b9cafe3935a347901d759a21d8af7d6",
+    "changeKey": "371c728c6579409ec4304abb993afe35",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "85c521caee73baf60a87",
+    "workId": "85c521caee73baf60a87",
+    "driveFileId": "1_QLbJ2A-7dtw0QKu_86sCC7Uz3oWdgu_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:12:17.621382+00:00",
+    "updatedAt": "2026-09-22T12:12:17.621397+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:12:17.621527+00:00"
+    }
+  }
+}

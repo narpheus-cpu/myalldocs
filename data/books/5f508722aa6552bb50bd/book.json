@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무한의 진인",
+    "author": "김진환",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "퓨전판타지",
+      "이세계전생"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "차원이동"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김진환 (월화난영)",
+    "oneLineSummary": "대한민국에서 눈을 떠보니 이세계 에스테리아 왕국의 왕성이었다는 청년의 이야기.",
+    "overallSummary": "머리가 깨질 듯한 통증과 함께 눈을 뜬 주인공은 자신이 대한민국이 아닌 이세계 에스테리아 왕국의 화려한 왕성 침대 위에 누워 있음을 알게 된다. 하녀의 안내와 에이르나 공주의 방문을 통해 자신의 이마에 '무한의 진인'이라는 기묘한 문장이 새겨져 있음을 알게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "Part 1 - 눈 떠보니 그렇게 됐더라",
+        "summary": "대한민국의 평범한 청년이었던 주인공은 기억이 끊긴 채 에스테리아 왕국의 왕성 침대에서 깨어나고, 하녀와 에이르나 공주를 만나 자신의 이마에 새겨진 천족의 문장 '무한의 진인'에 대한 이야기를 듣게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품분류",
+        "value": "퓨전 판타지소설"
+      }
+    ],
+    "keyEntitiesText": "주인공, 에이르나 공주, 초현",
+    "settingText": "에스테리아 왕국 왕성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BqDJogipeG0gosvGaxI-nOY1Z2JAgkmK",
+    "filename": "무한진인.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:05.718Z",
+    "size": "1937649",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1BqDJogipeG0gosvGaxI-nOY1Z2JAgkmK/view?usp=drivesdk",
+    "sourceSha256": "3013fa017f03b87fe943f820b3e71b0f359ee89bdd0a3e36ba63b4684c8d397b",
+    "textSha256": "cc96b6ed6b7de2916ffe0dc69f73762c147074eed740959fe02140f9b97f9e3a",
+    "changeKey": "c203722fba85ee96c2eb58701016662d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5f508722aa6552bb50bd",
+    "workId": "5f508722aa6552bb50bd",
+    "driveFileId": "1BqDJogipeG0gosvGaxI-nOY1Z2JAgkmK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:11:40.701529+00:00",
+    "updatedAt": "2026-09-22T12:11:40.701545+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7572,
+      "updatedAt": "2026-09-22T12:11:40.701636+00:00"
+    }
+  }
+}

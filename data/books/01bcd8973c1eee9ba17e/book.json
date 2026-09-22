@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무적사신",
+    "author": "무영자",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "네크로맨서",
+      "사파"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "다크"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무영자",
+    "oneLineSummary": "지하 석실에 1년간 감금되어 온갖 극독 실험을 당하다 탈출한 사내가 힘을 찾아 세상으로 나오는 이야기.",
+    "overallSummary": "앞을 보지 못하는 사내는 1년 동안 노인에게 붙잡혀 지하 석실에서 죽음보다 더한 독 실험을 당한다. 불사지체를 지닌 그는 노인의 방심한 틈을 타 역습에 성공하고, 석실을 탈출하여 은습과 죽음을 통해 자신의 힘을 회복해 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "1년 동안 지하 석실에서 독 실험을 당해온 사내는 노인이 사사혈독을 주입하자 역습을 가해 석실을 탈출하고 노인을 죽음에 이르게 한다."
+      },
+      {
+        "sectionTitle": "1. 사신출두 (1)",
+        "summary": "지하석부를 탈출한 사내는 흑의장포와 묵봉을 챙기고, 전장과 무덤을 찾아 힘을 회복하기 위해 세상을 향해 걸음을 옮긴다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품분류",
+        "value": "다크 판타지/무협"
+      }
+    ],
+    "keyEntitiesText": "사내, 노인",
+    "settingText": "지하 석실, 호악산 산길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12ifEX7Ernq9FvyXbF98l0GRg7-qGhY52",
+    "filename": "무적사신 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:43.230Z",
+    "size": "1047285",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/12ifEX7Ernq9FvyXbF98l0GRg7-qGhY52/view?usp=drivesdk",
+    "sourceSha256": "a57889718fe03999cb0034bf528f6b1b8265f5810e2779e3bb3dd280f04d5bbf",
+    "textSha256": "08b7d19d18264cb1b4525bbbeeb803df79b39c812d60edf7b5753232f6855f0c",
+    "changeKey": "e6b390b6c48f3b6f6587cf81e465eef3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "01bcd8973c1eee9ba17e",
+    "workId": "01bcd8973c1eee9ba17e",
+    "driveFileId": "12ifEX7Ernq9FvyXbF98l0GRg7-qGhY52",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:11:28.681191+00:00",
+    "updatedAt": "2026-09-22T12:11:28.681208+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:11:28.681312+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바람의 마도사",
+    "author": "김근우",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "정통판타지",
+      "마법사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "성장"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김근우",
+    "oneLineSummary": "검술에 소질이 없지만 마음 따뜻한 소년 시몬 하이스와 그 주변 인물들의 이야기.",
+    "overallSummary": "유명한 검사 클라인 하이스의 막내아들 시몬은 검술에 소질이 없고 내성적인 성격이다. 아버지의 강압으로 검술 사부 루제트의 집에 보내져 그의 딸 디아나와 함께 검술 수련을 받지만, 싸움을 싫어하고 음악을 사랑하는 소년의 평화로운 일상과 내면의 갈등이 그려진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1회",
+        "summary": "유명한 검사 루제트의 밑에서 검술을 배우는 소년 시몬은 괄괄한 성격의 디아나와의 대련에서 늘 서툴러 놀림을 받지만, 싸움을 싫어하는 착한 성품을 지니고 있다."
+      },
+      {
+        "sectionTitle": "제 2회",
+        "summary": "밤중에 홀로 피리를 불며 돌아가신 어머니를 그리워하는 시몬에게 디아나가 다가가 위로를 건네고, 시몬은 아버지와 형들에 대한 복잡한 심정을 드러낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품분류",
+        "value": "정통 판타지소설"
+      }
+    ],
+    "keyEntitiesText": "시몬 하이스, 디아나 나이스만, 루제트 나이스만, 클라인 하이스, 라이딘 하이스",
+    "settingText": "테리스 왕국의 한적한 시골 숲속 초소와 초원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1x-X3GExSdi6qgPjBIGd6veK0UmxefP_O",
+    "filename": "바람의 마도사(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:43.584Z",
+    "size": "2828925",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1x-X3GExSdi6qgPjBIGd6veK0UmxefP_O/view?usp=drivesdk",
+    "sourceSha256": "806d8a66d337e1f968f1940d79e65c1affed353717d4e73eae160d1bacce6350",
+    "textSha256": "1324e76bb9962f7e54632cc31cfe6807fe9f132dcd3e33368763767550015a2f",
+    "changeKey": "22cf118c78d11c2b4028658a318d616d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b3cbe33fd37e17ad4dae",
+    "workId": "b3cbe33fd37e17ad4dae",
+    "driveFileId": "1x-X3GExSdi6qgPjBIGd6veK0UmxefP_O",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:12:09.704939+00:00",
+    "updatedAt": "2026-09-22T12:12:09.704956+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:12:09.705066+00:00"
+    }
+  }
+}

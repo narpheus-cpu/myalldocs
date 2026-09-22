@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무예",
+    "author": "이우형",
+    "genre": "무협",
+    "tags": [
+      "무협",
+      "정통무협",
+      "전생"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "무협",
+        "성장"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이우형",
+    "oneLineSummary": "몰락한 양반가의 고아 유성훈이 노의원을 만나 내면의 수련을 통해 참된 무예를 배워가는 이야기.",
+    "overallSummary": "아버지를 여의고 어머니마저 병으로 떠나보낸 고아 유성훈은 마을의 노의원에게 거두어져 산중턱에서 지내게 된다. 무예를 배우기를 갈망하는 성훈에게 노의원은 의술과 정좌 수련, 호흡법을 통해 진정한 무인으로서의 마음가짐과 내공을 기르도록 가르친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 1",
+        "summary": "몰락한 양반가의 아들로 부모를 모두 잃은 10세 소년 유성훈은 자신을 거둔 노의원 밑에서 묵묵히 정좌 수련과 의술의 기초를 익힌다."
+      },
+      {
+        "sectionTitle": "1부 2",
+        "summary": "한 달간의 고통스러운 정좌 수련을 마친 성훈은 노의원으로부터 용호결이라는 호흡법과 조식법을 전수받으며 본격적인 내공 수련에 들어간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품분류",
+        "value": "정통 무협소설"
+      }
+    ],
+    "keyEntitiesText": "유성훈, 노의원, 무운",
+    "settingText": "조선 시대 산중턱의 의원 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17ZxMglCy51kGpvbjeHpRDT1rizoKLjpY",
+    "filename": "무예.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:43.206Z",
+    "size": "658380",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/17ZxMglCy51kGpvbjeHpRDT1rizoKLjpY/view?usp=drivesdk",
+    "sourceSha256": "cf5b9a177bc6a74b136f01412447d72984b3378f4b047d3dbe910bb1acacbb27",
+    "textSha256": "a0b8064b604fde7b4fb6583d89f9c8c8197f815696734ea6f6908f43ed704ee8",
+    "changeKey": "b932d684b21a8a583b8a6db2fa9b5857",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9c2c29035db45e169339",
+    "workId": "9c2c29035db45e169339",
+    "driveFileId": "17ZxMglCy51kGpvbjeHpRDT1rizoKLjpY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:11:20.198890+00:00",
+    "updatedAt": "2026-09-22T12:11:20.198903+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-22T12:11:20.198992+00:00"
+    }
+  }
+}
