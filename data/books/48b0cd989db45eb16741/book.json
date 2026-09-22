@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개미지옥",
+    "author": "최지우",
+    "genre": "미스터리",
+    "tags": [
+      "단편집",
+      "미스터리",
+      "최지우"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "최지우 작가의 미스터리 단편집이다.",
+    "oneLineSummary": "다양한 미스터리 사건들을 다룬 단편들을 모은 책이다.",
+    "overallSummary": "일상 속에서 벌어지는 기묘하고 미스터리한 사건들을 다룬 단편들을 수록했다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "개미잡이",
+        "summary": "사건의 시작을 알리는 단편."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "format",
+        "value": "단편집"
+      }
+    ],
+    "keyEntitiesText": "이근우, 최민구, 이철우",
+    "settingText": "대한민국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1T3vYM031XZqV-QEqTt0Utf_XJs0sD24i",
+    "filename": "최지우-개미지옥 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.949Z",
+    "size": "474927",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1T3vYM031XZqV-QEqTt0Utf_XJs0sD24i/view?usp=drivesdk",
+    "sourceSha256": "a068d2c61f011317dd04057dbc31be5e14ef5e360cf4bd44d12cb0bb59ac3b65",
+    "textSha256": "661b2b740c0d3a094a7b8fd04ef4063ae525d75fc529eeb9147a94d668c5aeb2",
+    "changeKey": "a715e079a56db1ee2f3f1f9ed3b69ad9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "48b0cd989db45eb16741",
+    "workId": "48b0cd989db45eb16741",
+    "driveFileId": "1T3vYM031XZqV-QEqTt0Utf_XJs0sD24i",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:44:26.281287+00:00",
+    "updatedAt": "2026-09-22T08:44:26.281303+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:44:26.281388+00:00"
+    }
+  }
+}

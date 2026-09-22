@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "탐정을 찾아라",
+    "author": "패트리셔 매저",
+    "genre": "미스터리",
+    "tags": [
+      "미스터리",
+      "탐정",
+      "패트리셔 매저"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "패트리셔 매저는 미국의 미스터리 작가이다.",
+    "oneLineSummary": "범죄 사건을 해결하기 위해 탐정을 찾는 이야기이다.",
+    "overallSummary": "살인 사건이 발생하고, 범인을 잡기 위해 탐정을 찾아 나서는 사람들의 이야기이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사건과 탐정",
+        "summary": "살인 사건이 발생하고 탐정을 찾는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "subgenre",
+        "value": "미스터리"
+      }
+    ],
+    "keyEntitiesText": "필립 웨더비, 마거트 웨더비, 톰린슨 아주머니",
+    "settingText": "콜로라도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZQEwJiX_nwmIStxwCwsUVXtcW58D3y0a",
+    "filename": "패트리셔 매저-탐정을찾아라.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.054Z",
+    "size": "325044",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1ZQEwJiX_nwmIStxwCwsUVXtcW58D3y0a/view?usp=drivesdk",
+    "sourceSha256": "cb8854059b5b8852c33ca54122f334df9fe7719a22466f24b01484af30b487f2",
+    "textSha256": "8268bc0f701ed9520b4820b85a9de12d7fe20ab98d9c0535a3c1d424336dc930",
+    "changeKey": "1f21bf9fe3665132d4ef20a2ae2b713f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a49211fabb52422f8d1f",
+    "workId": "a49211fabb52422f8d1f",
+    "driveFileId": "1ZQEwJiX_nwmIStxwCwsUVXtcW58D3y0a",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:45:25.123920+00:00",
+    "updatedAt": "2026-09-22T08:45:25.123936+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:45:25.124038+00:00"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "최후의 도박",
+    "author": "R.파커",
+    "genre": "미스터리",
+    "tags": [
+      "미스터리",
+      "야구",
+      "R.파커"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "R.파커는 미국의 미스터리 작가이다.",
+    "oneLineSummary": "야구계의 승부 조작 의혹을 조사하는 탐정의 이야기이다.",
+    "overallSummary": "탐정 스펜서가 야구 선수의 승부 조작 의혹을 조사하며 진실을 밝혀내는 과정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "의뢰와 조사",
+        "summary": "탐정 스펜서가 야구 선수의 승부 조작 의혹을 조사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "야구와 도박"
+      }
+    ],
+    "keyEntitiesText": "스펜서, 해럴드 애스킨, 마티 러브",
+    "settingText": "보스턴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11MHkUVY-4d2Lqfs02yscjzlMLiy2vFOQ",
+    "filename": "파커-최후의 도박.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.039Z",
+    "size": "306917",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/11MHkUVY-4d2Lqfs02yscjzlMLiy2vFOQ/view?usp=drivesdk",
+    "sourceSha256": "e435f7a4c8c8bbf1892a0a843d7fd4a4a6e5e9f9ea96938b5d36ec547fae7acb",
+    "textSha256": "1669f80c4be4d887539f7f789e2d6bb012bbdef4c6e21459c2455726f00b5e41",
+    "changeKey": "b5cf1e0faa9253b777fa15d4a2b868e0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a36a8e09f1038604f667",
+    "workId": "a36a8e09f1038604f667",
+    "driveFileId": "11MHkUVY-4d2Lqfs02yscjzlMLiy2vFOQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:45:10.939843+00:00",
+    "updatedAt": "2026-09-22T08:45:10.939859+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8596,
+      "updatedAt": "2026-09-22T08:45:10.939959+00:00"
+    }
+  }
+}

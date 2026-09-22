@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "X 파일 2. 어둠의 악령",
+    "author": "크리스 카터",
+    "genre": "SF",
+    "tags": [
+      "X파일",
+      "SF",
+      "크리스 카터"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "sf",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "크리스 카터는 유명한 TV 시리즈 X 파일의 제작자이다.",
+    "oneLineSummary": "X 파일 시리즈의 두 번째 이야기로, 숲에서 벌어지는 미스터리한 사건을 다룬다.",
+    "overallSummary": "멀더와 스컬리 요원이 숲에서 벌어지는 벌목꾼들의 실종 사건을 조사하며 미스터리한 존재를 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "숲의 실종 사건",
+        "summary": "벌목꾼들이 숲에서 사라지는 사건이 발생한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "series",
+        "value": "X 파일 시리즈 2권"
+      }
+    ],
+    "keyEntitiesText": "멀더, 스컬리, 잭 다이어, 밥 퍼킨스",
+    "settingText": "워싱턴 주 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11VD6b2tkyrOrHGN0AKSoSiOLCDfzefda",
+    "filename": "크리스 카터-X 파일 2. 어둠의 악령.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.031Z",
+    "size": "115737",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/11VD6b2tkyrOrHGN0AKSoSiOLCDfzefda/view?usp=drivesdk",
+    "sourceSha256": "c3fb0a945f678a765530bf0ba701f0ca71278545e199eceebe270c3816638cc7",
+    "textSha256": "252df93e7fa74699d3a27964fb2ef9a39e42883a2e4f7204c529208ac91703c8",
+    "changeKey": "9e27fdbadb0e068f06b63bb93292bb01",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6c8bc72fb179bd818b5a",
+    "workId": "6c8bc72fb179bd818b5a",
+    "driveFileId": "11VD6b2tkyrOrHGN0AKSoSiOLCDfzefda",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:44:51.812034+00:00",
+    "updatedAt": "2026-09-22T08:44:51.812048+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:44:51.812137+00:00"
+    }
+  }
+}

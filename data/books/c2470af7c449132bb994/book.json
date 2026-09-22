@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "물 위의 하룻밤",
+    "author": "켄 폴리트",
+    "genre": "스릴러",
+    "tags": [
+      "스릴러",
+      "비행기",
+      "켄 폴리트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "켄 폴리트는 영국의 유명한 스릴러 작가이다.",
+    "oneLineSummary": "전쟁 직전, 대서양을 횡단하는 비행기 안에서 벌어지는 스릴러이다.",
+    "overallSummary": "1939년 전쟁 직전, 호화 비행정을 타고 대서양을 횡단하는 승객들이 각자의 목적과 위기 속에서 벌이는 긴박한 이야기이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "비행의 시작",
+        "summary": "다양한 승객들이 비행정에 탑승한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "전쟁 직전의 긴장감"
+      }
+    ],
+    "keyEntitiesText": "톰 루더, 헨리 페이버, 마거릿 옥선퍼드",
+    "settingText": "1939년, 대서양 횡단 비행정"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MZt5uTy2fZKNMOUj6L5pwGOUeDO6yeKJ",
+    "filename": "켄 폴리트-물위의 하룻밤.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.989Z",
+    "size": "891491",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1MZt5uTy2fZKNMOUj6L5pwGOUeDO6yeKJ/view?usp=drivesdk",
+    "sourceSha256": "72c0c0acbacf9e47aef5c41c7c1f912150c5268d230f6729e06b007792c04695",
+    "textSha256": "4ef348db324c21ce12b904c228e2829455ec11fccc3c2aaf20d50e1b08526eb8",
+    "changeKey": "e701a69433f71200848ee59fcbe3c700",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c2470af7c449132bb994",
+    "workId": "c2470af7c449132bb994",
+    "driveFileId": "1MZt5uTy2fZKNMOUj6L5pwGOUeDO6yeKJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:44:44.330949+00:00",
+    "updatedAt": "2026-09-22T08:44:44.330964+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:44:44.331056+00:00"
+    }
+  }
+}

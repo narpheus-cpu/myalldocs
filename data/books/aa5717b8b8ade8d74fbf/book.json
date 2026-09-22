@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "70일간의 추리여행",
+    "author": "캔 웨버",
+    "genre": "추리",
+    "tags": [
+      "추리",
+      "퀴즈",
+      "캔 웨버"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "puzzle"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "캔 웨버의 추리 퀴즈 모음집이다.",
+    "oneLineSummary": "독자가 직접 탐정이 되어 사건을 해결하는 추리 퀴즈 책이다.",
+    "overallSummary": "다양한 사건 현장을 제시하고 독자가 단서를 통해 범인을 추리하도록 구성된 책이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사건의 현장에서",
+        "summary": "다양한 사건 현장에서 범인을 찾는 퀴즈들."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "format",
+        "value": "추리 퀴즈"
+      }
+    ],
+    "keyEntitiesText": "호크, 켈리, 캠 린드시",
+    "settingText": "다양함"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IIpOOmvjR0wq0hkbl8g0ClEQ0W9hCzF-",
+    "filename": "캔 웨버-70일간의 추리여행.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:27.977Z",
+    "size": "180518",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1IIpOOmvjR0wq0hkbl8g0ClEQ0W9hCzF-/view?usp=drivesdk",
+    "sourceSha256": "e541cd90e39dcd19a223af3377e089e3aa69b8c0d34b3655f3c2c575e616e84a",
+    "textSha256": "1afaa2c43028b95b4d4925861f1a6fe782a8e5e67d8562ae51bade19b0cee0ad",
+    "changeKey": "e02ba70f1061535693bf2af2c5b31024",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aa5717b8b8ade8d74fbf",
+    "workId": "aa5717b8b8ade8d74fbf",
+    "driveFileId": "1IIpOOmvjR0wq0hkbl8g0ClEQ0W9hCzF-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:44:37.261255+00:00",
+    "updatedAt": "2026-09-22T08:44:37.261272+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:44:37.261381+00:00"
+    }
+  }
+}

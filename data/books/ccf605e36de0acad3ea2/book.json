@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스밀라의 눈에 대한 감각",
+    "author": "페터 회",
+    "genre": "미스터리",
+    "tags": [
+      "미스터리",
+      "스밀라",
+      "페터 회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "페터 회는 덴마크의 작가이다.",
+    "oneLineSummary": "한 소년의 죽음을 파헤치는 스밀라의 이야기이다.",
+    "overallSummary": "그린란드 출신의 스밀라가 한 소년의 죽음에 의문을 품고 그 진실을 파헤치는 과정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소년의 죽음",
+        "summary": "스밀라가 소년의 죽음에 의문을 품는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "눈과 얼음의 미스터리"
+      }
+    ],
+    "keyEntitiesText": "스밀라, 이사야, 율리아네",
+    "settingText": "코펜하겐"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TdBgmrfTXL3u9pM6qTSLnkZs2ThXDv_m",
+    "filename": "페터 회-스밀라의 눈에 대한 감각(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.066Z",
+    "size": "1148705",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1TdBgmrfTXL3u9pM6qTSLnkZs2ThXDv_m/view?usp=drivesdk",
+    "sourceSha256": "b903148f22040a377b73ba7441e725c82410b3ab1669f1f2b64a3621f533c25c",
+    "textSha256": "54062d8aacb7ab9d3121204719032fbf119120961f79f02a0c5e43894277cb15",
+    "changeKey": "8911275b9f77fa6398edae9aa47f1fca",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ccf605e36de0acad3ea2",
+    "workId": "ccf605e36de0acad3ea2",
+    "driveFileId": "1TdBgmrfTXL3u9pM6qTSLnkZs2ThXDv_m",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:45:30.686195+00:00",
+    "updatedAt": "2026-09-22T08:45:30.686211+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:45:30.686314+00:00"
+    }
+  }
+}

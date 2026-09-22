@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "종말문학걸작선 1권",
+    "author": "올슨 스콧 카드 외",
+    "genre": "SF",
+    "tags": [
+      "종말",
+      "SF",
+      "단편집"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "sf",
+        "post-apocalyptic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "SF 장르의 유명 작가들이 참여한 종말 문학 단편집이다.",
+    "oneLineSummary": "인류 멸망 이후의 세상을 다룬 SF 단편들을 모은 앤솔러지이다.",
+    "overallSummary": "인류가 멸망한 후의 황량한 세상에서 생존자들이 겪는 삶과 갈등을 다룬 SF 단편들을 수록했다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고물수집",
+        "summary": "종말 이후의 세상에서 고물을 수집하며 살아가는 사람들의 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "format",
+        "value": "단편집"
+      }
+    ],
+    "keyEntitiesText": "디버 티그, 레히 맥케이",
+    "settingText": "종말 이후의 세상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FvVEnQi2yp1Sc9fzIYQ8kcq_nzflckpb",
+    "filename": "오손 스캇 카드 외 -종말 문학 걸작선 1권-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-05T13:15:02.000Z",
+    "size": "504677",
+    "folderPath": [
+      "books",
+      "05 SF"
+    ],
+    "relativePath": "books/05 SF",
+    "webViewLink": "https://drive.google.com/file/d/1FvVEnQi2yp1Sc9fzIYQ8kcq_nzflckpb/view?usp=drivesdk",
+    "sourceSha256": "c4f786937d7f3d9fae3cdee746b91c7ff0262f10ef4db442d371cd65418d26f5",
+    "textSha256": "90108139b6a63b8405a005be0fe1b32a465a4279fab5fd9e57c7c9b580b4ae89",
+    "changeKey": "c22ea76d56d4d5b59be052bfc9b0d11a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e528cdeea68b96d61f74",
+    "workId": "e528cdeea68b96d61f74",
+    "driveFileId": "1FvVEnQi2yp1Sc9fzIYQ8kcq_nzflckpb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:44:13.947820+00:00",
+    "updatedAt": "2026-09-22T08:44:13.947835+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8464,
+      "updatedAt": "2026-09-22T08:44:13.947922+00:00"
+    }
+  }
+}

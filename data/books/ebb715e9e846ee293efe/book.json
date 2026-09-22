@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "조앤 플루크-한나스웬슨 시리즈 07(복숭아 파이 살인사건)",
+    "author": "조앤 플루크",
+    "genre": "코지 미스터리",
+    "tags": [
+      "베이커리",
+      "살인사건",
+      "레이크 에덴",
+      "한나 스웬슨"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "cozy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조앤 플루크는 미국의 인기 코지 미스터리 작가로, 한나 스웬슨 시리즈로 유명하다.",
+    "oneLineSummary": "레이크 에덴 마을에 새로 생긴 베이커리와 관련된 살인 사건을 베이커리 주인 한나 스웬슨이 해결해 나가는 이야기이다.",
+    "overallSummary": "한나 스웬슨이 운영하는 '쿠키단지' 카페 건너편에 새로운 베이커리가 생기며 마을에 디저트 전쟁이 일어난다. 이 과정에서 살인 사건이 발생하고, 한나는 주변 인물들과 함께 사건의 진상을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "디저트 전쟁의 시작",
+        "summary": "마을에 새로 생긴 베이커리로 인해 한나의 카페가 위기를 맞고, 경쟁이 치열해진다."
+      },
+      {
+        "sectionTitle": "살인 사건 발생",
+        "summary": "마을에서 살인 사건이 발생하고, 한나는 사건에 휘말리게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "series",
+        "value": "한나 스웬슨 시리즈 7권"
+      }
+    ],
+    "keyEntitiesText": "한나 스웬슨, 리사 허먼, 노먼 로드, 마이크 킹스턴, 쇼우나 리 퀸, 바네사 퀸",
+    "settingText": "미네소타주 레이크 에덴 마을, 겨울"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ACRHXLfZdFElc1kdws4s9TLtoPYFwuua",
+    "filename": "조앤 플루크-한나스웬슨 시리즈 07(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T22:09:34.000Z",
+    "size": "610495",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1ACRHXLfZdFElc1kdws4s9TLtoPYFwuua/view?usp=drivesdk",
+    "sourceSha256": "18ff33fa68b26d0fc1380eb34c73abf02ff3b41860929611a92b585173508740",
+    "textSha256": "1e725280c203baa1a298a68107b3fd8ddae7c7b24a9c3f5910cdda16d3e988ca",
+    "changeKey": "57420adff8b1d0551c1eace28866db25",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ebb715e9e846ee293efe",
+    "workId": "ebb715e9e846ee293efe",
+    "driveFileId": "1ACRHXLfZdFElc1kdws4s9TLtoPYFwuua",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:43:42.560982+00:00",
+    "updatedAt": "2026-09-22T08:43:42.560997+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7148,
+      "updatedAt": "2026-09-22T08:43:42.561178+00:00"
+    }
+  }
+}

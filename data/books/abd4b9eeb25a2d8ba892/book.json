@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "테라피스트",
+    "author": "B.A. 패리스",
+    "genre": "스릴러",
+    "tags": [
+      "스릴러",
+      "테라피스트",
+      "B.A. 패리스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "B.A. 패리스는 영국의 스릴러 작가이다.",
+    "oneLineSummary": "새로운 동네로 이사 온 부부와 그곳의 비밀을 다룬 스릴러이다.",
+    "overallSummary": "새로운 동네로 이사 온 부부가 그곳의 비밀을 알게 되며 벌어지는 긴장감 넘치는 이야기이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이사",
+        "summary": "부부가 새로운 동네로 이사 온다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "이웃의 비밀"
+      }
+    ],
+    "keyEntitiesText": "앨리스, 레오, 이브, 탐신",
+    "settingText": "런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1h5EYEiSGsQhn_A7_VD8tUjSoMAeEc1Ki",
+    "filename": "패리스-테라피스트-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:22:56.000Z",
+    "size": "613508",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1h5EYEiSGsQhn_A7_VD8tUjSoMAeEc1Ki/view?usp=drivesdk",
+    "sourceSha256": "10a352e441902c990e61126c7deb1985984b9437b71c113edeffcd6663085269",
+    "textSha256": "7b0beb5880a71c69d950cb59b9849d774c7c48fbce5d053c345fd95d1d289022",
+    "changeKey": "9cc8812f43c8ca1605a5c54c6b012fa0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "abd4b9eeb25a2d8ba892",
+    "workId": "abd4b9eeb25a2d8ba892",
+    "driveFileId": "1h5EYEiSGsQhn_A7_VD8tUjSoMAeEc1Ki",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T08:45:17.823116+00:00",
+    "updatedAt": "2026-09-22T08:45:17.823132+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T08:45:17.823232+00:00"
+    }
+  }
+}
