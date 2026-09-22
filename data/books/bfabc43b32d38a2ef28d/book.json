@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "데이몬",
+    "author": "김정률",
+    "genre": "판타지",
+    "tags": [
+      "데이몬",
+      "마왕",
+      "무림"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "무협"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김정률",
+    "oneLineSummary": "무림 출신으로 마계의 마왕이 된 데이몬이 사준환에 대한 복수와 율리아나를 구하기 위해 중원으로 돌아온 이야기입니다.",
+    "overallSummary": "중원의 거대 문파 배교 교주의 아들로 태어나 기형적인 외모와 꼭두각시 같은 삶을 살았던 데이몬은, 사준환의 배신과 음모로 인해 트루베니아로 건너가게 됩니다. 무공을 잃었으나 마법과 리치, 마왕의 권능을 차례로 획득하여 마계의 절대군주가 된 그는, 인간을 죽일 수 없는 '칠종단금술'의 제약 속에서도 사준환의 야망을 파괴하고 율리아나의 기구한 운명을 구하기 위해 중원으로 향하는 대도박을 감행합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서(序)",
+        "summary": "무림인 출신으로 트루베니아와 마계를 거쳐 마왕이 된 데이몬은, 자신을 짓밟고 인생을 농락한 사준환에 대한 복수심과 자신을 위해 희생한 율리아나의 기구한 윤회를 바로잡기 위해 중원으로의 귀환을 결심하고 실행에 옮깁니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 주제",
+        "value": "무협과 판타지의 융합, 그리고 마왕의 복수 여정"
+      }
+    ],
+    "keyEntitiesText": "데이몬, 사준환, 율리아나, 슈렉하이머, 나이델하르크",
+    "settingText": "중원 무림 및 트루베니아 대륙, 마계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HoSNPdtcp8D3gfUETk2T7R-GuhRQTfeQ",
+    "filename": "김정률-데이몬(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:37.150Z",
+    "size": "1779070",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1HoSNPdtcp8D3gfUETk2T7R-GuhRQTfeQ/view?usp=drivesdk",
+    "sourceSha256": "b648008b158c57e54d1e2c97650abd31f06c37fbb9aeca2def74c032100f230b",
+    "textSha256": "02cceb3acf66c90b2d13551245eeabeaa1f33d501085bb0a29e70cc16781f8b7",
+    "changeKey": "1533fab977d1ef4e8017e3c38b3cbd15",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bfabc43b32d38a2ef28d",
+    "workId": "bfabc43b32d38a2ef28d",
+    "driveFileId": "1HoSNPdtcp8D3gfUETk2T7R-GuhRQTfeQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:39:38.833807+00:00",
+    "updatedAt": "2026-09-22T11:39:38.833821+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:39:38.833922+00:00"
+    }
+  }
+}

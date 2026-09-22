@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "귀환병 이야기",
+    "author": "이수영",
+    "genre": "판타지",
+    "tags": [
+      "귀환병",
+      "마계",
+      "성검"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이수영",
+    "oneLineSummary": "10년 동안 마계에서 버텨낸 총사령관이자 황자 인안 스터커가 고국으로 돌아오며 벌어지는 이야기입니다.",
+    "overallSummary": "마계 토벌대의 총사령관으로 차출되어 10년 동안 마계에서 살아남은 이안 스터커가 황궁으로 돌아옵니다. 그러나 세상은 너무나 변해 있었고, 자신이 알던 부황 대신 증조부인 비오린 1세의 손자인 어린 황제가 즉위해 있었습니다. 낯선 현실에 혼란을 느끼는 이안은 검에 깃든 화룡의 황녀 커크와 함께 은거지를 찾아 떠나려 합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "10년 만에 황궁으로 돌아온 이안 스터커는 경비병들의 제지를 받으며 대전으로 향하고, 자신이 알던 황제가 아닌 어린 황제를 마주하며 충격을 받습니다."
+      },
+      {
+        "sectionTitle": "2. 귀환병",
+        "summary": "황궁 객실에서 우울해하던 이안은 화룡의 황녀이자 검에 깃든 존재인 커크와 대화를 나누며 위안을 얻고 평화로운 삶을 꿈꿉니다."
+      },
+      {
+        "sectionTitle": "3. 세 기 아",
+        "summary": "숲길을 걷다 불량배들에게 폭행당하던 음유시인 소년 슬렌을 구출한 이안은 마계에서의 기억과 현실의 괴리 속에서 복잡한 심경을 안고 달의 계곡으로 향합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 설정",
+        "value": "마계에서 귀환한 강력한 전사와 성검에 깃든 드래곤"
+      }
+    ],
+    "keyEntitiesText": "이안 스터커, 비오린, 커크, 키스토 헨릭, 슬렌",
+    "settingText": "오슬라인 제국의 황궁 및 중앙 대륙의 숲과 계곡"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KM0CVxv46s_Ew7R7Q7o2KHz6IpIZ-nyC",
+    "filename": "귀환병 이야기(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:36.174Z",
+    "size": "867975",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1KM0CVxv46s_Ew7R7Q7o2KHz6IpIZ-nyC/view?usp=drivesdk",
+    "sourceSha256": "47c306a4c5d72e1dde0be270d9870c3edffe32cf0a3252a165d3010fec4d0347",
+    "textSha256": "2521b1ea943e27d88230906c5b0fa8fb45742eec85111e7bb6c240e0f5a2b9c6",
+    "changeKey": "1feca02d4b181c1f1da0b74551d2a054",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2420249d58c4716e9497",
+    "workId": "2420249d58c4716e9497",
+    "driveFileId": "1KM0CVxv46s_Ew7R7Q7o2KHz6IpIZ-nyC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:38:12.026095+00:00",
+    "updatedAt": "2026-09-22T11:38:12.026110+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:38:12.026229+00:00"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불타는 눈물",
+    "author": "권호상",
+    "genre": "SF",
+    "tags": [
+      "워커",
+      "가상전투",
+      "SF"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "밀리터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권호상",
+    "oneLineSummary": "전직 군인이자 워커 조종사인 성준이 국가적 대항전인 '실 모의 전투'에 참가하게 되며 벌어지는 이야기입니다.",
+    "overallSummary": "전직 군인인 성준은 친구 승한의 권유로 국가 간 자존심이 걸린 '실 모의 전투(LSC)'의 워커 조종사 제의를 수락합니다. 2족 보행 전차인 워커를 조종하여 영종도 시가지에서 펼쳐지는 가상 전투에 참가하기 위해 훈련소에 입소한 성준은, 과거 부모의 원수이자 국적을 바꾼 동생 미끼 모토와의 피할 수 없는 대결을 예감하며 복잡한 심경에 잠깁니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1.",
+        "summary": "성준은 아침에 TV폰을 통해 승한으로부터 실 모의 전투 조종사 제의를 받고, 과거의 아픔과 동생에 대한 복수심을 떠올리며 수락합니다."
+      },
+      {
+        "sectionTitle": "2.",
+        "summary": "승한을 만난 성준은 이번에 조종하게 될 신형 워커의 제원과 특징, 그리고 오토 파일럿 시스템에 대한 설명을 듣습니다."
+      },
+      {
+        "sectionTitle": "3.",
+        "summary": "실 모의 전투의 규모와 영종도 시가전의 배경, 그리고 2000년대 들어 탄생한 LSC 훈련의 의의와 세계 정세에 대해 이야기합니다."
+      },
+      {
+        "sectionTitle": "4.",
+        "summary": "훈련용 섬에 도착한 성준은 군사 기지의 거대한 지하 시설을 둘러보며 본격적인 훈련 준비에 들어갑니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "2족 보행 전차 워커와 실 모의 전투(LSC)"
+      }
+    ],
+    "keyEntitiesText": "성준, 승한, 지은, 미끼 모토",
+    "settingText": "근미래의 대한민국 서울 및 영종도 인근의 군사 훈련용 섬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XWU4qcK_nqca_FfIMK1xBhhNCz78g0H3",
+    "filename": "권호상-불타는 눈물 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:36.158Z",
+    "size": "256738",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1XWU4qcK_nqca_FfIMK1xBhhNCz78g0H3/view?usp=drivesdk",
+    "sourceSha256": "b67cef6094eab4fa693a770bd84f8e018b515f00a25deba2a197977e954ca3d6",
+    "textSha256": "0247b54f513d4f992b5de82ee4687c0d5fad4a8626cef160575bbf4d5fa7eb4e",
+    "changeKey": "4a8072a0d5364f6ba8670cbea9380c11",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e053890dc574ce0d0002",
+    "workId": "e053890dc574ce0d0002",
+    "driveFileId": "1XWU4qcK_nqca_FfIMK1xBhhNCz78g0H3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:38:05.034120+00:00",
+    "updatedAt": "2026-09-22T11:38:05.034136+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:38:05.034262+00:00"
+    }
+  }
+}

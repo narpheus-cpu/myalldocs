@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "공포의 외인부대",
+    "author": "알 수 없음",
+    "genre": "판타지",
+    "tags": [
+      "외인부대",
+      "차이동",
+      "네오"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "문제아 소년 네오가 우연히 낡은 집에서 못을 박다가 이세계로 전이되면서 겪는 이야기입니다.",
+    "overallSummary": "미군부대 근처에서 술집을 하는 어머니와 얼굴 모를 아버지를 둔 17세 소년 네오는 거친 삶을 살아가고 있습니다. 유일한 친구 명석이와 비디오를 보던 중 집안의 액자를 고치기 위해 못질을 하다가 기묘한 공간 이동 현상에 휘말려 달이 세 개 떠 있는 이세계의 숲으로 떨어지게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "루이폰공국의 학회 부회장이 '외인열전'이라는 역사서를 야사로 규정하지 말고 재고해 줄 것을 왕에게 청합니다."
+      },
+      {
+        "sectionTitle": "1. 낡은집에서는 못을 함부로 박지 말라.",
+        "summary": "문제아로 살아가는 네오는 장애를 가졌지만 밝은 친구 명석이와 집에서 비디오를 보다가 못질을 하던 중 이세계로 사라집니다."
+      },
+      {
+        "sectionTitle": "2. 도마뱀과 소녀 그리고 네오",
+        "summary": "정신을 차린 네오는 하늘에 달이 세 개 떠 있는 숲속에서 부상을 입은 채 쓰러져 있다가 도마뱀 같은 종족과 소녀를 만나 기절합니다."
+      },
+      {
+        "sectionTitle": "3. 도마뱀과 미친소녀 그리고 네오",
+        "summary": "소녀 데프런과 수다스러운 모자, 그리고 노움 같은 디킬런이 부상당한 네오를 발견하고 그의 놀라운 회복력을 목격합니다."
+      },
+      {
+        "sectionTitle": "4. 디킬런과 데프런과 이계에서 온 소년",
+        "summary": "정신을 차린 네오가 통증에 발버둥 치며 돌을 던지자, 일행은 그의 괴력과 회복력에 놀라며 치료를 이어갑니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 사건",
+        "value": "못질을 통한 이세계 차원 이동"
+      }
+    ],
+    "keyEntitiesText": "네오, 명석, 데프런, 디킬런, 매드캡",
+    "settingText": "현대 지구의 낡은 자취방에서 달이 세 개 떠 있는 자베린의 숲속으로 이어짐"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18CSt-NGO9WfDjPQuoEp31o4ZSdu0qlLQ",
+    "filename": "공포의 외인부대.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:35.924Z",
+    "size": "3422559",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/18CSt-NGO9WfDjPQuoEp31o4ZSdu0qlLQ/view?usp=drivesdk",
+    "sourceSha256": "3feea1f0ac3101955fb61ec179dbfda1dd3f76aaa2acadf4eea2c6df5353b4d4",
+    "textSha256": "fb6b440ac899ec034acd736fbdc022ccc9f2c23861d36d6e8e6e997a8804b87f",
+    "changeKey": "24e1079e293b39d188ab5417d1ecc339",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "25c9da13be229c4e1bf7",
+    "workId": "25c9da13be229c4e1bf7",
+    "driveFileId": "18CSt-NGO9WfDjPQuoEp31o4ZSdu0qlLQ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:37:39.289233+00:00",
+    "updatedAt": "2026-09-22T11:37:39.289248+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:37:39.289365+00:00"
+    }
+  }
+}

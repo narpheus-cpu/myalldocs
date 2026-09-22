@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "남해",
+    "author": "김경진",
+    "genre": "역사_전기",
+    "tags": [
+      "임진왜란",
+      "명량해전",
+      "이순신"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "역사소설",
+        "전쟁소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김경진",
+    "oneLineSummary": "임진왜란 당시 명량해전을 치르기 직전의 치열한 정탐과 일본수군의 동태를 그린 역사 전쟁 소설입니다.",
+    "overallSummary": "임진왜란 중 명량해전을 배경으로 한 이 소설은, 어란포에 집결한 500척이 넘는 막대한 규모의 일본수군과 도도 다카도라, 구루지마 노가미 등의 적장 동태를 파악하기 위해 목숨을 걸고 탐에 나선 조선수군 탐망군관 임중형과 항왜 준사의 활약을 그립니다. 칠천량 해전의 패배로 공포에 질린 키잡이와 투철한 군인정신을 가진 임중형의 갈등 속에서 새벽 바다의 긴장감이 고조됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인사말 및 시놉시스",
+        "summary": "저자 김경진이 명량해전을 다루는 집필 의도와 고증 방향, 독자들과의 소통에 대해 밝힙니다."
+      },
+      {
+        "sectionTitle": "새벽 (1)",
+        "summary": "탐망군관 임중형과 항왜 준사, 그리고 겁에 질린 키잡이가 탄 탐망선이 어란포 앞바다에 정박한 구루지마 해적 등 수많은 왜선을 은밀히 정탐합니다."
+      },
+      {
+        "sectionTitle": "새벽 (2)",
+        "summary": "날이 밝아오면서 도도 다카도라 함대를 비롯한 500척이 넘는 왜선들이 어란포 일대를 가득 메운 광경이 드러나고, 임중형은 더 가까이 접근하며 적세를 살핍니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 특징",
+        "value": "철저한 역사적 고증을 바탕으로 한 임진왜란 명량해전 재조명"
+      }
+    ],
+    "keyEntitiesText": "임중형, 준사, 이순신, 도도 다카도라, 구루지마 노가미",
+    "settingText": "임진왜란 시기 전라남도 어란포 및 남해 바다"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yhqw-tX1wQFoIwBPb9oYy6nyjN1AWZDJ",
+    "filename": "김경진-남해.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:36.537Z",
+    "size": "1467218",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1yhqw-tX1wQFoIwBPb9oYy6nyjN1AWZDJ/view?usp=drivesdk",
+    "sourceSha256": "a6b530dcd649eb4bdf6c6fac87693fdf84eebdcbc14bc09231cf5d4c43bacc2f",
+    "textSha256": "d675474403b47a40a0a2455ce521b250b3121fd97485e7d2fe32391158b31286",
+    "changeKey": "d7cd45855416bcbc512b4581c5c4f534",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "92b67fe2c837649efd0c",
+    "workId": "92b67fe2c837649efd0c",
+    "driveFileId": "1yhqw-tX1wQFoIwBPb9oYy6nyjN1AWZDJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:38:49.618789+00:00",
+    "updatedAt": "2026-09-22T11:38:49.618804+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:38:49.618901+00:00"
+    }
+  }
+}

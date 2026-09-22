@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불의 지배나 두룬",
+    "author": "김정란",
+    "genre": "fantasy",
+    "tags": [
+      "신화",
+      "사로국",
+      "복숭아꽃"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "신화",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김정란",
+    "oneLineSummary": "사로국의 신성한 숲에서 유화 어머니 신을 모시는 여사제 복숭아꽃과 마룬왕 규진의 애절한 사랑을 그린 신화적 판타지 소설입니다.",
+    "overallSummary": "신들의 근원인 사로국의 신원림과 신원시에서 유화 어머니 신을 모시는 여사제 복숭아꽃은 복숭앗빛의 신비로운 피부와 함께 세상의 아픔을 온몸으로 받아들이며 살아갑니다. 어느 날, 불교로 개종한 왕실의 마룬왕 규진이 홀로 신원시를 찾아와 복숭아꽃에게 걷잡을 수 없는 사랑을 고백하고, 복숭아꽃은 신녀의 운명 때문에 이를 거절하면서도 왕의 영혼과 죽음을 넘어선 사랑을 약속하게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "01 왕의 사랑",
+        "summary": "사로국의 신원시에서 유화 어머니 신을 모시는 여사제 복숭아꽃은 세상의 슬픔을 짊어지며 살아가던 중, 홀로 찾아온 마룬왕 규진으로부터 신분을 초월한 절절한 사랑의 고백을 받습니다."
+      },
+      {
+        "sectionTitle": "두룬의 탄생",
+        "summary": "마룬왕의 죽음 이후 왕국을 둘러싼 권력 갈등과 소문 속에서, 죽은 왕의 영혼이 복숭아꽃을 찾아와 삶과 죽음을 초월한 깊은 사랑을 나누게 됩니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "신화적 비전과 서정적 판타지의 결합"
+      }
+    ],
+    "keyEntitiesText": "복숭아꽃, 규진(마룬왕), 지웅, 오미 부인, 마하왕",
+    "settingText": "아득한 옛날의 사로국 신원림과 신원시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "163Lp8PjLd9Prip8nUN8sicXrBvkPOeSI",
+    "filename": "김정란-불의 지배나 두룬(1-9)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T13:28:46.000Z",
+    "size": "1327207",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/163Lp8PjLd9Prip8nUN8sicXrBvkPOeSI/view?usp=drivesdk",
+    "sourceSha256": "a23d8dbe84780146b20d66c640579f18731b81bff3f1af318ee36ca97f7b921d",
+    "textSha256": "72b02d461c35329c63299688c67ccb9b91a6413e098f151123ac44416fb33dea",
+    "changeKey": "ec800c53ed89687fed36abd226a89ffc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "132868331b6476bf6630",
+    "workId": "132868331b6476bf6630",
+    "driveFileId": "163Lp8PjLd9Prip8nUN8sicXrBvkPOeSI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:39:25.525828+00:00",
+    "updatedAt": "2026-09-22T11:39:25.525843+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:39:25.525953+00:00"
+    }
+  }
+}

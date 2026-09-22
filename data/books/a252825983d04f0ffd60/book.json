@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "공녀(貢女)",
+    "author": "알 수 없음",
+    "genre": "판타지",
+    "tags": [
+      "마계",
+      "제국",
+      "공녀",
+      "마법"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "제국의 백작가 이상 가문의 영애들을 마계에 공물로 바쳐야 하는 칙령이 내려지면서 공작가의 영애 루피아가 겪게 되는 이야기입니다.",
+    "overallSummary": "흑마법사 길드를 통해 마계에서 백작가문 이상의 18세~25세 영애 500명을 공녀로 바치라는 통보가 황실에 전달됩니다. 법과 질서가 무너질 것을 우려하면서도 대륙의 존망을 위해 황제는 소환 명령을 내리고, 제국의 기둥이라 불리는 세 공작가 중 엘 세느안트 가문의 영애 루피아 역시 마계로 떠나기 위해 황성으로 향합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "Prologue",
+        "summary": "마법구를 통해 제국을 제외한 여섯 왕국과 황제가 마계의 요구 조건인 500명의 영애 상납 문제를 논의합니다."
+      },
+      {
+        "sectionTitle": "제1화 [마계의 공녀(貢女)로!]",
+        "summary": "엘 세느안트 공작가의 영애 루피아는 아버지로부터 마계의 공녀로 차출되었다는 청천벽력 같은 소식을 듣고, 복잡한 심경을 누르며 황성으로 향합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "배경",
+        "value": "가상의 제국과 마계"
+      },
+      {
+        "key": "주요 갈등",
+        "value": "인간 세계와 마계 간의 굴욕적인 공녀 상납 문제"
+      }
+    ],
+    "keyEntitiesText": "황제, 루블리츠, 루피아 엘 세느안트, 엘 세느안트 공작, 베키, 에리나 칼르니르, 세키라 에스베크",
+    "settingText": "제국 시리어스와 마계가 관련된 가상의 판타지 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Z8a1LrV3_SG9Hg0rtcruRPUQe0MfCrYv",
+    "filename": "공녀(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:35.881Z",
+    "size": "1587260",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1Z8a1LrV3_SG9Hg0rtcruRPUQe0MfCrYv/view?usp=drivesdk",
+    "sourceSha256": "de9f88cb1cf9bf9d73fdb5c762b98ee2dc1d30be3d9edd01a9136bea990d1300",
+    "textSha256": "9ab61134c1487deac5a8941702d9c51c4c9c1f4d68d7e53b50ed73a63fd9251b",
+    "changeKey": "712f58366f8a479a7282ef79faf12e13",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a252825983d04f0ffd60",
+    "workId": "a252825983d04f0ffd60",
+    "driveFileId": "1Z8a1LrV3_SG9Hg0rtcruRPUQe0MfCrYv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:37:32.471242+00:00",
+    "updatedAt": "2026-09-22T11:37:32.471256+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-22T11:37:32.471428+00:00"
+    }
+  }
+}

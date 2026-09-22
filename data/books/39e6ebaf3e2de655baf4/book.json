@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "궁극의 마스터",
+    "author": "황보세준",
+    "genre": "판타지",
+    "tags": [
+      "성장",
+      "무술",
+      "마스터"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황보세준",
+    "oneLineSummary": "괴물에게 쫓기다 은발의 사내에게 구출된 소년 진이 강함을 동경하며 뒷골목 아이들의 대장으로 살아가는 이야기입니다.",
+    "overallSummary": "깊은 산속에서 몬스터에게 쫓기던 어린 진은 은발의 사내의 도움으로 목숨을 건집니다. 13살이 된 진은 바이사카 시 토젠트 마을의 뒷골목 아이들 40여 명을 이끄는 대장으로 활약하며, 약한 자들을 지키고 정의감을 발휘합니다. 부모인 유리온과 아리오네는 진이 무술이나 싸움에만 몰두하고 정규 교육을 거부하는 것에 대해 걱정하면서도 아들을 믿어주고자 합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "산속에서 괴물에게 쫓기며 극도의 공포를 느끼던 어린 진은 은발의 사내의 도움으로 극적으로 목숨을 건집니다."
+      },
+      {
+        "sectionTitle": "1화. 바이사카 시의 대장 올슈레이 진 1",
+        "summary": "13살이 된 진은 가족들과 아침 식사를 하며 아버지의 중등교육 권유를 거절하고, 아이들의 대장으로서 자신의 길을 고수합니다."
+      },
+      {
+        "sectionTitle": "2화. 바이사카 시의 대장 올슈레이 진 2",
+        "summary": "진은 40여 명의 부하 아이들을 이끌고 인근 마을의 괴수를 무찌르기 위해 비장한 출정을 준비합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 주제",
+        "value": "소년의 성장과 강함에 대한 갈망"
+      }
+    ],
+    "keyEntitiesText": "올슈레이 진, 유리온, 아리오네, 리오스, 은발의 사내",
+    "settingText": "라크리나 제국 서쪽 변두리 바이사카 시의 토젠트 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10P5ha_Jjd1IAw_Eqt9ucblY5XTyMtzM6",
+    "filename": "궁극의 마스터.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:36.090Z",
+    "size": "2269733",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/10P5ha_Jjd1IAw_Eqt9ucblY5XTyMtzM6/view?usp=drivesdk",
+    "sourceSha256": "39b5077a486c365c2880b1cf1de561ab84d39d20338f433cafc532492546c4bf",
+    "textSha256": "35ece656a1e7c488ba458036602398551de4ef8a5871d2b8fafeb000b3a720d1",
+    "changeKey": "5b417f402d099273d73a6c4e2a775249",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "39e6ebaf3e2de655baf4",
+    "workId": "39e6ebaf3e2de655baf4",
+    "driveFileId": "10P5ha_Jjd1IAw_Eqt9ucblY5XTyMtzM6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:37:53.207447+00:00",
+    "updatedAt": "2026-09-22T11:37:53.207461+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:37:53.207552+00:00"
+    }
+  }
+}

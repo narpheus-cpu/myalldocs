@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "기가 슬렌더",
+    "author": "레스라",
+    "genre": "SF",
+    "tags": [
+      "SF",
+      "판타지",
+      "세느카"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "레스라",
+    "oneLineSummary": "데스 워 이후 세라곤 도시 티탄에서 악몽에 시달리던 소녀 세느카 아이리스가 얀 이반 소장을 만나며 겪는 이야기입니다.",
+    "overallSummary": "버튼 전쟁으로 종말을 맞은 1세기에 이어 2세기의 거대한 세라곤 도시 티탄. 생명공학과 대학원생인 세느카 아이리스는 매일 밤 의문의 괴물에게 쫓기는 악몽에 시달립니다. 현실로 닥쳐온 습격 속에서 의문의 목소리에 이끌려 정신과학 연구소의 얀 이반 소장을 찾아간 세느카는, 자신이 개발 중이던 유전자 모듈과 헤켈 종족, 그리고 쉐도우 프로젝트에 얽힌 거대한 비밀을 마주하게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "1세기 버튼 전쟁(Death War)의 종말과 2세기의 시작, 그리고 세느카에게 다가올 시련을 암시하는 수수께끼의 미소년의 모습이 그려집니다."
+      },
+      {
+        "sectionTitle": "1장. 용기의 장 (세느카 아이리스 - 연출된 만남)",
+        "summary": "세라곤 도시 티탄에서 악몽에 시달리던 세느카는 현실에서 엘리베이터 습격을 받고, 환청에 이끌려 정신과학 연구소의 얀 이반 소장을 찾아가 쉐도우 프로젝트와 헤켈 종족에 대한 진실을 듣게 됩니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "SF와 판타지, 무협적 요소를 결합한 복합 장르"
+      }
+    ],
+    "keyEntitiesText": "세느카 아이리스, 얀 이반",
+    "settingText": "세라곤으로 만들어진 미래 도시 티탄"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cFX-67_9S4Y8gf5mvNPqiWyEZDjfpzWV",
+    "filename": "기가슬렌더.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:36.460Z",
+    "size": "3193511",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1cFX-67_9S4Y8gf5mvNPqiWyEZDjfpzWV/view?usp=drivesdk",
+    "sourceSha256": "b4b3449e9581597d34b2729284a909ce600b796e28795ccc2807f3213306b67a",
+    "textSha256": "c03ff94e9f76076043eb1da4a700b6d6985714583bb05e1b07a0b87f531387bd",
+    "changeKey": "c4146923a358145d0fe8d6a1760e8de9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d7882be070822cc88f19",
+    "workId": "d7882be070822cc88f19",
+    "driveFileId": "1cFX-67_9S4Y8gf5mvNPqiWyEZDjfpzWV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:38:43.286468+00:00",
+    "updatedAt": "2026-09-22T11:38:43.286483+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:38:43.286588+00:00"
+    }
+  }
+}

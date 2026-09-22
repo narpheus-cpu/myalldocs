@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "다크 메이지",
+    "author": "김정률",
+    "genre": "판타지",
+    "tags": [
+      "다크메이지",
+      "마왕",
+      "데이몬"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "마왕"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김정률",
+    "oneLineSummary": "배교의 추종자들에게 쫓기다 트루베니아로 건너가 마왕에 오른 데이몬이 복수를 위해 다시 중원으로 돌아오는 이야기입니다.",
+    "overallSummary": "중원 무림 배교의 교주 독고성(데이몬)은 총사 사준환의 배신으로 천자혈마공이 깨어지고 사면초가의 위기에 몰립니다. 트루베니아로 차원이동을 한 그는 마법을 익히고 리치와 드래곤의 레어를 거쳐 마침내 마계의 군주인 '마왕 데이몬'으로 거듭납니다. 마왕의 권능을 얻은 그는 자신을 파멸로 몰아넣은 사준환에 대한 복수와 윤회하는 율리아나의 운명을 바꾸기 위해 험준한 천산을 통해 다시 중원으로 귀환합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "트루베니아 대륙의 창조와 종족 간의 분쟁, 그리고 드래곤의 개입에 대한 역사적 기록이 소개됩니다."
+      },
+      {
+        "sectionTitle": "본문 도입부",
+        "summary": "배교의 총사 사준환의 배신으로 쫓기던 독고성은 적미당을 몰살시키고, 서구의 마법사들과 사준환의 추격을 피해 차원이동을 겪게 됩니다."
+      },
+      {
+        "sectionTitle": "마왕 데이몬, 강림하시다",
+        "summary": "트루베니아와 마계에서 온갖 고난을 겪고 최강의 마왕이 된 데이몬은 자신을 배신한 사준환에게 복수하고 율리아나의 업을 구하기 위해 마침내 중원의 천산으로 화려하게 귀환합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 설정",
+        "value": "무협과 판타지를 넘나드는 주인공의 마왕 등극과 복수 여정"
+      }
+    ],
+    "keyEntitiesText": "데이몬(독고성), 사준환, 슈렉하이머, 율리아나, 나이델하르크",
+    "settingText": "중원 무림의 전장 및 트루베니아, 마계, 천산 고원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Z_S9reCiyNouKq2MFDG_Y_XOmwQjp-H-",
+    "filename": "김정률-다크메이지(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:36.969Z",
+    "size": "4819074",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1Z_S9reCiyNouKq2MFDG_Y_XOmwQjp-H-/view?usp=drivesdk",
+    "sourceSha256": "2a31a3477b2eb7131b6381e1daeb051c5248b1f4318f3a433fcc240aceca6709",
+    "textSha256": "98713c2e011c4cb2ce2f6f1b3cb5b81a7872c12aa8ea070c72d5d4baab3c95b2",
+    "changeKey": "714fa5bcd0ec238d6f935806dce26056",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e04b7f6356393a4c842",
+    "workId": "2e04b7f6356393a4c842",
+    "driveFileId": "1Z_S9reCiyNouKq2MFDG_Y_XOmwQjp-H-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:39:32.847196+00:00",
+    "updatedAt": "2026-09-22T11:39:32.847211+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:39:32.847315+00:00"
+    }
+  }
+}
