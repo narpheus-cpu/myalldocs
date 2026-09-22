@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "레기오스의 서",
+    "author": "임달영",
+    "genre": "SF판타지",
+    "tags": [
+      "초능력",
+      "렌져",
+      "차원이동",
+      "외계문명"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "액션 판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국의 만화 스토리 작가 겸 소설가로 '레기오스', '피의 보석' 등을 집필함.",
+    "oneLineSummary": "루미가라스 행성의 신비한 능력을 지닌 왕족 소녀 리셀이 지구의 도시에 떨어져 평범한 청년 민도교를 만나 구조받는 이야기.",
+    "overallSummary": "태초의 행성 레기오스가 루미가라스, 알테아마(지구), 미라이아 세 개로 나뉜 세계관 속에서 창조자에 맞선 초생명체 '렌져'들의 전설이 전해져 내려온다. 현대 지구의 복잡한 도로 한가운데에 긴 파란 머리카락을 가진 소녀 리셀(루미가라스의 왕녀)이 나타나 자동차 경적에 질려 공포에 떨고 있을 때, 평범한 모범생 청년 민도교가 그녀의 텔레파시 구조 신호를 감지하고 차도로 뛰어들어 구해낸다. 도교는 말도 잘 통하지 않고 캔맥주 한 모금에 취해 쓰러진 리셀을 업고 자신의 달동네 자취방으로 데려온다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세계관 및 설정",
+        "summary": "삼분된 레기오스 행성, 렌져의 전설, 등장인물들의 프로필과 각종 마법, 용어 체계(바실리온, 마더, 역귀 등)를 소개한다."
+      },
+      {
+        "sectionTitle": "# 001",
+        "summary": "도교가 찻길 한가운데서 패닉에 빠진 외계 소녀 리셀을 구출하고 공원에서 맥주를 마신 뒤 취해 잠든 그녀를 업어 집으로 간다."
+      },
+      {
+        "sectionTitle": "# 002",
+        "summary": "도교의 달동네 방 안에서 리셀이 어렴풋이 정신을 차린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "종족 및 기술 체계",
+        "value": "렌져, 마더(전사 컨트롤 능력), 바실리온(대지급 전사), 역귀, 광선기(오라, 브레스, 규라 등)"
+      }
+    ],
+    "keyEntitiesText": "민도교(19세 인간 소년), 리셀리아 네이 로리냐크(리셀, 루미가라스 왕녀/마더), 신규호(골드 렌져)",
+    "settingText": "현대 지구(알테아마)의 도시 및 달동네, 외계 행성 루미가라스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ff2LJGTg58M4lcrSAeKLJERFEsaLyfuo",
+    "filename": "레기오스의 서(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:40.419Z",
+    "size": "1765865",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1ff2LJGTg58M4lcrSAeKLJERFEsaLyfuo/view?usp=drivesdk",
+    "sourceSha256": "1a944fc50c2a9b2fea8b2fb465132dabda216ab30aaf7f31c3267f979cc3828a",
+    "textSha256": "819053d383e0d07afda94261edfd144b6e7e0dbda743a6c3bf52676d68de7705",
+    "changeKey": "3745b58e5f85e8c2d32027d1d3c8c4fa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7bf346c12201705557c4",
+    "workId": "7bf346c12201705557c4",
+    "driveFileId": "1ff2LJGTg58M4lcrSAeKLJERFEsaLyfuo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:59:57.131265+00:00",
+    "updatedAt": "2026-09-22T11:59:57.131323+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:59:57.131435+00:00"
+    }
+  }
+}
