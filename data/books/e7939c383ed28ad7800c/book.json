@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시간 초특급",
+    "author": "레이 커밍스",
+    "genre": "SF 시간여행",
+    "tags": [
+      "타임머신",
+      "미래소녀",
+      "과거와 미래"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 초기 SF 작가.",
+    "oneLineSummary": "직접 만든 컬러 텔레비전에 나타난 미래의 미소녀와 시간의 탑을 추적하는 청년들의 이야기",
+    "overallSummary": "두 젊은 청년 앨런과 에드워드가 정성껏 만든 텔레비전에 미래의 빛의 탑과 금발 소녀가 나타나고, 그 소녀가 악한 타버 박사에게 감금되자 시간을 초월해 구출하러 가는 모험을 그림.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "스크린의 미소녀",
+        "summary": "두 청년이 완성한 컬러 텔레비전 화면에 이상한 빛의 탑과 아름다운 소녀가 나타난다."
+      },
+      {
+        "sectionTitle": "타버 박사",
+        "summary": "신문 기사를 통해 그 소녀가 타버 병원에 입원해 있다는 사실을 알고 찾아간다."
+      },
+      {
+        "sectionTitle": "시간의 탑",
+        "summary": "밤중에 타버 병원에 침입해 감금된 소녀를 구출한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심소재",
+        "value": "시간 여행과 타임머신"
+      }
+    ],
+    "keyEntitiesText": "앨런, 에드워드, 나네트, 타버 박사, 찰리",
+    "settingText": "미국 뉴욕 센트랄 파크 및 타버 병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rljJdwcwuWXFQjVGH0yZD4E5ZvbZYUdF",
+    "filename": "레이먼드 커밍스-시간 초특급(The Shadow Girl).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.823Z",
+    "size": "86682",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1rljJdwcwuWXFQjVGH0yZD4E5ZvbZYUdF/view?usp=drivesdk",
+    "sourceSha256": "3a7ef5196023425b68fe44aa2cb00cde7c2c4f8763f183a4e2209edd329fc337",
+    "textSha256": "d645e194eb223891ac3b9e2c653945f3e2171229f76e5dd245d0de48988b6e89",
+    "changeKey": "e77f4e0ac8ce54e77dd8d0c4f26390a4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e7939c383ed28ad7800c",
+    "workId": "e7939c383ed28ad7800c",
+    "driveFileId": "1rljJdwcwuWXFQjVGH0yZD4E5ZvbZYUdF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:44:29.822110+00:00",
+    "updatedAt": "2026-09-22T10:44:29.822125+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:44:29.822217+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "합성 뇌의 반란",
+    "author": "레이먼드 존스",
+    "genre": "SF",
+    "tags": [
+      "인공두뇌",
+      "합성신경",
+      "반역"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "사고로 죽은 청년의 뇌가 기계 속에서 살아남아 부당한 권력에 맞서는 이야기",
+    "overallSummary": "교통사고로 죽은 존의 뇌가 정부의 인공 두뇌 센터에 의해 플래티나 상자에 담겨 기계의 일부로 사용되다가, 데밍 박사의 도움과 자신의 의지로 합성 신경을 만들어 부패한 정부와 맞서 싸우는 내용.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사고",
+        "summary": "신혼여행 중이던 존과 마사가 차 사고로 사망하고, 존의 뇌만 인공 두뇌 센터로 옮겨진다."
+      },
+      {
+        "sectionTitle": "데밍 박사",
+        "summary": "마사의 오빠인 데밍 박사는 인간의 뇌를 인공 두뇌로 사용하는 제도에 대해 의심하고 반발한다."
+      },
+      {
+        "sectionTitle": "존의 뇌",
+        "summary": "플래티나 상자에 갇힌 존은 수광판을 통해 자신이 기계의 노예가 되었음을 깨닫는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심소재",
+        "value": "살아 있는 인간의 뇌와 인공두뇌"
+      }
+    ],
+    "keyEntitiesText": "존, 마사, 데밍 박사, 헤닝거 부장, 제이슨 의장",
+    "settingText": "미합중국 정부 두뇌 센터"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1M9Ns-lKrcarOYcWLcwRDYep8QIjOo7c0",
+    "filename": "레이먼드 존스-합성 뇌의 반란(The Cybernetic Brains).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.810Z",
+    "size": "82890",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1M9Ns-lKrcarOYcWLcwRDYep8QIjOo7c0/view?usp=drivesdk",
+    "sourceSha256": "3e6e17174a9d51ed49b2243dd19a79f5a9a7c33250b3c9b7bec0dc1ca08c5129",
+    "textSha256": "61f15d263fe2125706219ddd857814215b347d697e448c39d917f4838b20ba22",
+    "changeKey": "9bcf5dc745b033f4ed5144de2e07a63f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d875251c5582b9505b0d",
+    "workId": "d875251c5582b9505b0d",
+    "driveFileId": "1M9Ns-lKrcarOYcWLcwRDYep8QIjOo7c0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:44:24.242902+00:00",
+    "updatedAt": "2026-09-22T10:44:24.242916+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:44:24.242998+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제4행성의 반란",
+    "author": "로버트 실버버그",
+    "genre": "SF 우주모험",
+    "tags": [
+      "우주정찰",
+      "알파켄타우루스",
+      "식민지 반란"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 SF 거장.",
+    "oneLineSummary": "지구의 사관학교를 졸업하고 실습차 제4행성에 간 소년이 식민지의 반란에 휘말리는 이야기",
+    "overallSummary": "지구 정찰 사관학교를 수석으로 졸업한 랠리 스타크가 우주 연습선 카르텐호를 타고 알파 켄타우루스의 제4행성으로 향하던 중, 공룡이 사는 그 행성에서 일어난 식민지 주민들의 반란 사건에 휘말려 모험을 겪는 내용.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "알파 C로의 출발",
+        "summary": "우주 연습선 카르텐호가 명왕성 기지를 떠나 알파 C의 제4행성을 향해 출발한다."
+      },
+      {
+        "sectionTitle": "공간 도약법",
+        "summary": "공간 도약법을 이용해 우주를 순식간에 가로지르는 항해의 원리를 배운다."
+      },
+      {
+        "sectionTitle": "우주의 노래",
+        "summary": "기관실에서 하급 선원 오헤어가 부르는 우주의 노래를 들으며 항해를 이어간다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "항성간 여행과 행성 반란"
+      }
+    ],
+    "keyEntitiesText": "랠리 스타크, 하르 엘리슨, 오헤어, 라인하르트 선장, 커터",
+    "settingText": "명왕성 우주 공항 및 알파 켄타우루스 제4행성"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1U_MXkrS7k2Q6tQPLSHyBuHu8jgK-ZLuA",
+    "filename": "로버트 실버버그-제4행성의 반란(Revolt On Alpha. C).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.971Z",
+    "size": "150680",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1U_MXkrS7k2Q6tQPLSHyBuHu8jgK-ZLuA/view?usp=drivesdk",
+    "sourceSha256": "45b8da3af809d6126a26ecbc63aa06a7f9195ab64b5529069038c00651807eb5",
+    "textSha256": "bb2cd6449946e22b093ef0eb12068ad3a3ae81889d86bc2c3479d9a82c9042a9",
+    "changeKey": "f146e4542eb458fbd4bf96092632bec7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "efb85dfd8f2e3e807bcf",
+    "workId": "efb85dfd8f2e3e807bcf",
+    "driveFileId": "1U_MXkrS7k2Q6tQPLSHyBuHu8jgK-ZLuA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:45:01.928251+00:00",
+    "updatedAt": "2026-09-22T10:45:01.928262+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:45:01.928341+00:00"
+    }
+  }
+}

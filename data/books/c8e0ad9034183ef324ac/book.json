@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "초인 부대",
+    "author": "로버트 하인라인",
+    "genre": "SF 초능력",
+    "tags": [
+      "초인",
+      "비밀공작",
+      "마이크로필름"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "SF계의 전설적인 거장 작가.",
+    "oneLineSummary": "지구를 지키기 위해 숨어 살아가는 초인들의 첩보전과 활약을 그린 이야기",
+    "overallSummary": "달세계에서 지구로 중요한 마이크로필름을 운반하던 초인 요원(길리아드 대위)이 적들의 추격과 음모 속에서 체포되고, 감옥 속에서 동료 초인인 꿀꿀이 볼드윈과 함께 트럼프 암호를 통해 탈출과 반격을 준비하는 모험을 다룸.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "수상한 사나이",
+        "summary": "달세계에서 지구로 온 요원이 변장을 하고 마이크로필름을 지키기 위해 우편 튜브로 보낸다."
+      },
+      {
+        "sectionTitle": "연락할 수가 없다",
+        "summary": "적들의 방해로 외부 연락이 차단된 상태에서 가짜 지폐 누명으로 경찰에 체포되어 냉동총을 맞는다."
+      },
+      {
+        "sectionTitle": "트럼프로 말하자",
+        "summary": "유치장에서 만난 볼드윈 박사와 트럼프 카드를 이용해 감시 속에서 암호로 대화하며 탈출을 모의한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심소재",
+        "value": "초능력자와 첩보전"
+      }
+    ],
+    "keyEntitiesText": "길리아드 대위(주인공), 그레고리 볼드윈(꿀꿀이)",
+    "settingText": "미래의 지구 도시 및 유치장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BW-yFW0j12JEdkPe_S7lLc2xvTdvJmOA",
+    "filename": "로버트 하인라인-초인부대(gulf).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:33.169Z",
+    "size": "80948",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1BW-yFW0j12JEdkPe_S7lLc2xvTdvJmOA/view?usp=drivesdk",
+    "sourceSha256": "86d61fdfecab68aa7e0afbddc1d443b0517da43be57b0dcdd23f63e1c0b49eb2",
+    "textSha256": "dd3b9b1f0bc2ce42a1ca76c932f6156ee01c15472514dfa8ab44e6736273ec51",
+    "changeKey": "46481475e884c59cb78c078e167a344b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c8e0ad9034183ef324ac",
+    "workId": "c8e0ad9034183ef324ac",
+    "driveFileId": "1BW-yFW0j12JEdkPe_S7lLc2xvTdvJmOA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:45:14.580705+00:00",
+    "updatedAt": "2026-09-22T10:45:14.580719+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:45:14.580801+00:00"
+    }
+  }
+}

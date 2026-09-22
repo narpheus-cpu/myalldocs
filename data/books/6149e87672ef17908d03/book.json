@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도망친 로봇",
+    "author": "델 레이",
+    "genre": "SF 아동소설",
+    "tags": [
+      "로봇",
+      "가니메데",
+      "이별과 재회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "지구로 떠나게 되면서 팔려간 가정용 로봇 렉스가 폴을 다시 만나기 위해 도망치는 이야기",
+    "overallSummary": "목성의 위성 가니메데에서 소년 폴과 함께 자란 가정용 로봇 렉스가 지구로 가는 비용 때문에 농장에 팔려간 후, 폴을 그리워하며 농장을 탈출해 우주 공항으로 향하는 모험을 다룸.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "지구에서의 뉴스",
+        "summary": "가니메데 총독의 아들 폴과 가정용 로봇 렉스가 지구로 돌아간다는 아버지의 소식을 듣는다."
+      },
+      {
+        "sectionTitle": "팔려간 로봇",
+        "summary": "운송 비용 문제로 폴의 아버지는 렉스를 농장 주인이자 농부인 헤닝스에게 팔아넘긴다."
+      },
+      {
+        "sectionTitle": "도망친 로봇",
+        "summary": "농장에서 노동 로봇으로 혹사당하던 렉스는 폴을 다시 보기 위해 농장을 탈출한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "로봇과 인간의 우정"
+      }
+    ],
+    "keyEntitiesText": "폴, 렉스(Q=5=7=356), 로저 심프슨, 헤닝스",
+    "settingText": "목성의 제3위성 가니메데의 산발레이"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dNRIem9aFeg5Qugy7X6RJNx8vNRgGWcN",
+    "filename": "레스터 레이-도망친 로봇(The Runaway Robot).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.776Z",
+    "size": "74578",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1dNRIem9aFeg5Qugy7X6RJNx8vNRgGWcN/view?usp=drivesdk",
+    "sourceSha256": "7981683f56ffb6604e95e0eaefdf077c35ba966f857c03da5631cf5b694e992e",
+    "textSha256": "f977f3468f63c8ebcf7f09cd732ae85eacd0b1e2f47962fef38ad7bfbff7a986",
+    "changeKey": "ad54ed2bb44a5f43bb5d935fdf9fbcd4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6149e87672ef17908d03",
+    "workId": "6149e87672ef17908d03",
+    "driveFileId": "1dNRIem9aFeg5Qugy7X6RJNx8vNRgGWcN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:44:11.796858+00:00",
+    "updatedAt": "2026-09-22T10:44:11.796870+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:44:11.796953+00:00"
+    }
+  }
+}

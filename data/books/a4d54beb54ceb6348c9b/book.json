@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "태양계 요새",
+    "author": "돌레짤",
+    "genre": "SF 우주탐험",
+    "tags": [
+      "토성",
+      "우주선",
+      "요새"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "토성 근처 전진기지의 청년들이 미지의 우주로 탐험을 떠나는 이야기",
+    "overallSummary": "태양계 정부가 토성 궤도 밖으로 나가는 것을 금지하고 요새를 구축한 가운데, 지루함을 견디지 못한 천문학자와 대원들이 토성의 테를 산책하고 미지의 물체와 접촉하는 모험을 그림.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "토성의 테를 산책하다",
+        "summary": "토성 제2위성 기지의 대원들이 지루함을 달래기 위해 토성의 테로 소풍을 나간다."
+      },
+      {
+        "sectionTitle": "대장의 이야기",
+        "summary": "대장이 과거 은하계 탐험대와 괴 우주선에 얽힌 비밀 이야기를 들려준다."
+      },
+      {
+        "sectionTitle": "방문객",
+        "summary": "기지에 미지의 물체가 접근하던 중 뮤리우스 제독이 전함 륀크스 호로 시찰을 온다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "배경",
+        "value": "미래의 태양계"
+      }
+    ],
+    "keyEntitiesText": "돌 큐르비, 페트 프리튼, 게르트 비디히, 알렉스 페드로프 대장, 뮤리우스 제독",
+    "settingText": "토성 제2위성 엥게라도스의 지하 기지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18zgVVr8y8b6V2fupzihrgUUIubQYiAcI",
+    "filename": "돌레짤-태양계 요새.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.763Z",
+    "size": "78914",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/18zgVVr8y8b6V2fupzihrgUUIubQYiAcI/view?usp=drivesdk",
+    "sourceSha256": "91cc5269278cd2f890115c42cce7e225b44b5c18db54760ba958fe750c224376",
+    "textSha256": "b99ed93c3f8b7dda7bd251e3d65aa27506c8a2e9df205d6dc3e54dc36353b1c8",
+    "changeKey": "f23c967099128651ec58db6d81a96f01",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a4d54beb54ceb6348c9b",
+    "workId": "a4d54beb54ceb6348c9b",
+    "driveFileId": "18zgVVr8y8b6V2fupzihrgUUIubQYiAcI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:44:05.895162+00:00",
+    "updatedAt": "2026-09-22T10:44:05.895177+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:44:05.895259+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "텔레파시의 비밀",
+    "author": "김학수",
+    "genre": "SF",
+    "tags": [
+      "텔레파시",
+      "우주",
+      "헤시코스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "부산대학교 문리과 대학 교수 및 한국 SF 작가협회 회원.",
+    "oneLineSummary": "외계 행성에서 온 소녀와 텔레파시를 둘러싼 음모와 모험 이야기",
+    "overallSummary": "해상우주연구소 베이스 K에 방문한 헤시코스의 공주 아사가 방송에 출연해 평화의 복음을 전한 후 괴한에게 납치되고, 이를 구출하기 위한 일행의 사투를 다룸.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "해상우주연구소 K기지",
+        "summary": "김영준 박사가 운영하는 해상 기지 베이스 K와 외계 소녀 아사의 소개가 방송된다."
+      },
+      {
+        "sectionTitle": "우주에서 온 소녀의 실종",
+        "summary": "방송을 마친 아사와 제송나가 괴한에게 유괴되는 사건이 발생한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심소재",
+        "value": "텔레파시와 외계 행성"
+      }
+    ],
+    "keyEntitiesText": "아사, 김영준 박사, 스파이크, 제송나, 사사키",
+    "settingText": "해상우주연구소 K기지 및 서울"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eN1qm_vhG4-LJ9ErrvyVQYMmRzosBER0",
+    "filename": "김학수-텔레파시의 비밀.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.748Z",
+    "size": "206976",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1eN1qm_vhG4-LJ9ErrvyVQYMmRzosBER0/view?usp=drivesdk",
+    "sourceSha256": "f94ef55fe96706965041b23fcae572d51388f387891be552420a5c4b5572ecec",
+    "textSha256": "4b7224eaa93271c960294570c56f81ec10548343e91c790ac4047067e7835870",
+    "changeKey": "ce36d8fb6693736e4c8187d9f90d0681",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "786593bcadca46503a03",
+    "workId": "786593bcadca46503a03",
+    "driveFileId": "1eN1qm_vhG4-LJ9ErrvyVQYMmRzosBER0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:43:59.699650+00:00",
+    "updatedAt": "2026-09-22T10:43:59.699668+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:43:59.699754+00:00"
+    }
+  }
+}

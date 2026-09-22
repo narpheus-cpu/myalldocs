@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우주방랑도시",
+    "author": "로버트 하인라인",
+    "genre": "SF",
+    "tags": [
+      "항성간비행",
+      "우주선",
+      "뮤탄트"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대 SF의 거장으로 치밀한 설정과 깊이 있는 주제의 작품을 남김.",
+    "oneLineSummary": "인류 최초의 항성간 비행 중 반란과 방사능 오염으로 과학을 잊어버린 거대 우주선 안의 이야기",
+    "overallSummary": "프록시마 켄타우리 탐험을 위해 출발한 거대 우주선 뱅거드 호에서 과거 반란으로 승무원의 대부분이 죽고, 과학 기술을 잊어버린 후손들이 미신을 믿으며 살아가는 세상을 배경으로 소년 휴 호일랜드가 우주선의 진실을 알아가는 모험을 다룸.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장. 괴물이다!",
+        "summary": "휴 호일랜드가 친구들과 함께 중력이 없는 윗계단으로 탐험을 갔다가 뮤탄트의 공격을 받는다."
+      },
+      {
+        "sectionTitle": "제 2 장. 과학자가 되다",
+        "summary": "숙부의 권유를 거치고 과학자 넬슨의 눈에 뗰 휴는 하급 과학자 후보생으로 들어가게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심소재",
+        "value": "세대 우주선과 문명의 퇴보"
+      }
+    ],
+    "keyEntitiesText": "휴 호일랜드, 앨런 마호니, 모트 타일러, 증인, 넬슨",
+    "settingText": "항성간 비행 중인 거대 우주선 뱅거드 호"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1c2k-KQJXcvxC9rcD_prEppf5pwO3_qK0",
+    "filename": "로버트 하인라인-우주방랑도시 (Orphans Of The Sky).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:33.155Z",
+    "size": "163920",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1c2k-KQJXcvxC9rcD_prEppf5pwO3_qK0/view?usp=drivesdk",
+    "sourceSha256": "54f434039b71a88a303c4a798e0dd62c23c8bb7ae9360bed5d5107876f659efe",
+    "textSha256": "97aafca8a8042cadcb93906b1298995d4663add1d93732772b2be2445e389dda",
+    "changeKey": "b79dbe7db19b1d8df6cf66dc63947165",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ecc16cdfee4c3261f8da",
+    "workId": "ecc16cdfee4c3261f8da",
+    "driveFileId": "1c2k-KQJXcvxC9rcD_prEppf5pwO3_qK0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:45:06.747594+00:00",
+    "updatedAt": "2026-09-22T10:45:06.747606+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:45:06.747682+00:00"
+    }
+  }
+}

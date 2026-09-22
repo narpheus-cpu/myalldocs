@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "추락한 달",
+    "author": "로버트 C. 쉐리프",
+    "genre": "SF 재난소설",
+    "tags": [
+      "달의 충돌",
+      "재난",
+      "세계의 종말"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "달이 지구의 궤도를 벗어나 다가오면서 벌어지는 대지질학적 재난 이야기",
+    "overallSummary": "천체 관측을 통해 달이 지구를 향해 무서운 속도로 다가오고 있다는 사실이 밝혀지고, 정부가 비밀리에 대피호를 파며 대비하는 가운데 결국 지구 전체가 파멸적 혼란에 빠지는 과정을 그림.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "기분 나쁜 저녁 하늘",
+        "summary": "주인공 에드거 홉킨스가 런던 교외에서 평소와 다른 기분 나쁜 황혼을 목격한다."
+      },
+      {
+        "sectionTitle": "무서운 밤",
+        "summary": "영국 달 연구회 긴급 회의에서 달이 궤도를 바꿔 지구에 다가오고 있으며 충돌할 예정이라는 사실이 밝혀진다."
+      },
+      {
+        "sectionTitle": "11월 밤의 달",
+        "summary": "시간이 흐를수록 달의 크기가 눈에 띄게 커지고 정부가 대피호 건설을 추진한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "천체 충돌과 인류의 종말"
+      }
+    ],
+    "keyEntitiesText": "에드거 홉킨스, 하틀리 박사, 존 버텔 경, 퍼시벌, 에드워드 목사",
+    "settingText": "영국 런던 및 햄프셔 주의 비들 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GjF36J39SBRKmXk4dg_N-LLcqrXDPig_",
+    "filename": "로버트 C. 쉐리프-추락한 달(The Hopkins Manuscrpipt).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.883Z",
+    "size": "158630",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1GjF36J39SBRKmXk4dg_N-LLcqrXDPig_/view?usp=drivesdk",
+    "sourceSha256": "487432ed5b800247f8de86abc13a637c404ad46bb9e490d55122be1181e6b045",
+    "textSha256": "9e67319a4db17189cf28de23edd8406362b7844fb5e8cc52174cb1f26b97f713",
+    "changeKey": "437575ac38d5e30f0e3ff822ed5b92ce",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "40aaf08ec3be9cf67d79",
+    "workId": "40aaf08ec3be9cf67d79",
+    "driveFileId": "1GjF36J39SBRKmXk4dg_N-LLcqrXDPig_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:44:45.323764+00:00",
+    "updatedAt": "2026-09-22T10:44:45.323777+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:44:45.323863+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "황혼의 타임머신",
+    "author": "강민",
+    "genre": "SF 타임머신",
+    "tags": [
+      "타임머신",
+      "과거",
+      "주문국과 솔본국"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "동국대학교 국문학과 수료, 편집국장 및 한국SF작가 협회 회원.",
+    "oneLineSummary": "고물상에서 산 의문의 통을 통해 과거의 세계로 시간 여행을 하게 된 소년의 이야기",
+    "overallSummary": "중학생 철민이가 고물상에서 정체를 알 수 없는 둥근 통을 산 뒤 우연히 타임머신을 작동시켜 과거의 주문국과 솔본국의 전쟁이 벌어지는 시대로 넘어가 겪는 모험을 그림.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이상한 통",
+        "summary": "철민은 친구 용재와 함께 고물상에서 정체불명의 둥근 통을 구입한다."
+      },
+      {
+        "sectionTitle": "여기는 어디냐?",
+        "summary": "둥근 통을 조작하자 시공간이 찢어지며 주문국의 불타는 마을로 이동하게 된다."
+      },
+      {
+        "sectionTitle": "주문국과 솔본국",
+        "summary": "마을을 습격한 솔본국과 주문국 사이의 갈등에 휘말린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "타임머신과 역사적 갈등"
+      }
+    ],
+    "keyEntitiesText": "철민, 용재, 솔솔이, 사또 정형룡",
+    "settingText": "현대 서울의 고물상 및 과거 주문국의 변방 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hGODmW_uqjxwbNCatnfyX3aBzXar7dAL",
+    "filename": "강민-황혼의 타임머신.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.717Z",
+    "size": "185038",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1hGODmW_uqjxwbNCatnfyX3aBzXar7dAL/view?usp=drivesdk",
+    "sourceSha256": "6b4868dd8da0730358dce94cf4e76f49a755fbdd5002807a6739be02dc62411a",
+    "textSha256": "dde1e4eef602618692f104cdfac7ff4e31811667919211e62ee037baf7115811",
+    "changeKey": "df2ffc268cdb4644d3d682953943ff90",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0df90619d3c25081d49d",
+    "workId": "0df90619d3c25081d49d",
+    "driveFileId": "1hGODmW_uqjxwbNCatnfyX3aBzXar7dAL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:43:53.626042+00:00",
+    "updatedAt": "2026-09-22T10:43:53.626059+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:43:53.626149+00:00"
+    }
+  }
+}

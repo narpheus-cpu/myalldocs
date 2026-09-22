@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "멜랑콜리의 묘약",
+    "author": "레이 브래드버리",
+    "genre": "SF 판타지 단편선",
+    "tags": [
+      "단편선",
+      "환상",
+      "예술"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독창적인 상상력으로 유명한 미국의 SF 및 환상문학 거장.",
+    "oneLineSummary": "프랑스 해변에서 피카소를 우연히 만난 관광객의 이야기 등을 담은 단편 소설집",
+    "overallSummary": "다양한 배경과 환상적인 상상력을 바탕으로 한 단편들로 구성되어 있으며, 첫 번째 작품 '온화한 하루'에서는 비아리츠 해변에서 모래 위에 그림을 그리는 피카소를 목격한 조지 스미드의 감동을 그림.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "온화한 하루",
+        "summary": "프랑스 해변으로 휴가를 온 조지 스미드가 해변에서 우연히 모래 위에 그림을 그리는 노신사(피카소를 연상시킴)를 발견한다."
+      },
+      {
+        "sectionTitle": "火 龍",
+        "summary": "밤의 황야를 달리는 기차를 고대의 용으로 착각하는 두 기사의 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "단편소설 모음"
+      }
+    ],
+    "keyEntitiesText": "조지 스미드, 앨리스 스미드",
+    "settingText": "프랑스 남부 비아리츠의 해수욕장 등"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ghvvvC92yniM-ISsreqblwHcH7v97WCX",
+    "filename": "레이 브래드버리-멜랑콜리의 묘약(A medicine for Melancholy).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.788Z",
+    "size": "335967",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1ghvvvC92yniM-ISsreqblwHcH7v97WCX/view?usp=drivesdk",
+    "sourceSha256": "61a33c3ce9a286f50f981f00a0296dbb05636d87c27bd9f36d7df2263d26c051",
+    "textSha256": "480194e653c47776e78ee5cdb7ad509b15203e3b1109f9ff2d059f2053b026ab",
+    "changeKey": "fdf1b7841a44d338dc2d1faf9ac41dd0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6a005b46324c047f6a07",
+    "workId": "6a005b46324c047f6a07",
+    "driveFileId": "1ghvvvC92yniM-ISsreqblwHcH7v97WCX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:44:17.477341+00:00",
+    "updatedAt": "2026-09-22T10:44:17.477356+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:44:17.477440+00:00"
+    }
+  }
+}

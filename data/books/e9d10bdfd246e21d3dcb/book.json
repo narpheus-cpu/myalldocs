@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아서왕을 만난 사람",
+    "author": "마크 트웨인",
+    "genre": "SF 판타지 시간여행",
+    "tags": [
+      "아서왕",
+      "타임슬립",
+      "중세영국"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 유머 작가이자 소설가로 '톰 소여의 모험' 등을 씀.",
+    "oneLineSummary": "공장에서 일하던 현대의 양키가 머리를 다친 후 6세기 아서왕 시대의 영국으로 시간 여행을 하게 된 이야기",
+    "overallSummary": "코네티컷의 공장장이었던 주인공이 불량배의 쇠망치에 맞고 기절했다가 눈을 떠보니 6세기 아서왕 시대의 카멜롯 성에 떨어지게 되고, 현대의 과학 기술과 지식을 이용해 그 시대의 국무대신이자 지도자가 되어 활약하는 과정을 그림.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이상한 사나이의 이야기",
+        "summary": "현대의 공장장이었던 주인공이 머리를 다친 뒤 6세기 영국의 숲에서 갑자기 기사 복장을 한 인물을 만난다."
+      },
+      {
+        "sectionTitle": "카멜롯에서",
+        "summary": "기사에게 이끌려 아서왕의 궁정이 있는 카멜롯 성에 도착해 자신이 과거로 시간 여행을 왔음을 깨닫는다."
+      },
+      {
+        "sectionTitle": "아서 왕의 궁정",
+        "summary": "원탁 기사들의 터무니없는 허풍과 중세의 무지한 관습을 목격하며 현대인의 지식으로 살아남을 결심을 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심소재",
+        "value": "타임슬립과 현대 기술의 중세 적용"
+      }
+    ],
+    "keyEntitiesText": "나(양키 공장장), 아서 왕, 멀린, 클라렌스, 케이 경",
+    "settingText": "6세기 영국의 카멜롯 성 및 원탁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17SJS_USi0vBCB6zNKUj5SET1S32NEnwG",
+    "filename": "마크 트웨인-아서왕을 만난 사람(A Connecticut Yankee in King Arthur_s Court).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:33.207Z",
+    "size": "209604",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/17SJS_USi0vBCB6zNKUj5SET1S32NEnwG/view?usp=drivesdk",
+    "sourceSha256": "17842a572d3d601a502ec13f12e6af9c8f09e8e16c2487dd3742df437a13ce48",
+    "textSha256": "6119f0f3fb9001f00c4fee1cbb80d8effa7576a1c7afce17c9cbc80272e8b531",
+    "changeKey": "aa2f36feb6fb5d12a3b06d4742c3cb78",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e9d10bdfd246e21d3dcb",
+    "workId": "e9d10bdfd246e21d3dcb",
+    "driveFileId": "17SJS_USi0vBCB6zNKUj5SET1S32NEnwG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:45:20.534611+00:00",
+    "updatedAt": "2026-09-22T10:45:20.534625+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:45:20.534714+00:00"
+    }
+  }
+}

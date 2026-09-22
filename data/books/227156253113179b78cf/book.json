@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "4차원 세계의 비밀",
+    "author": "L.P. 데이비스",
+    "genre": "SF 미스터리",
+    "tags": [
+      "4차원",
+      "실종",
+      "비밀"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국 태생의 미스터리 작가로 성인용 SF를 여러 권 발표함.",
+    "oneLineSummary": "사라진 교수와 조수를 찾아 4차원 세계의 비밀을 파헤치는 이야기",
+    "overallSummary": "호포드 마을의 농장에서 연구를 하던 메이버 교수와 조수가 갑자기 사라지고, 이를 조사하기 위해 조카인 리와 모튼, 레밍 교수가 모여 4차원 세계의 통로를 탐색하는 모험을 다룸.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사라진 교수와 조수",
+        "summary": "학생 리의 숙부인 메이버 교수가 연구소에서 흔적도 없이 사라진 사건이 발생한다."
+      },
+      {
+        "sectionTitle": "연구소 내부",
+        "summary": "레밍 교수와 모튼이 호포드 마을의 연구소를 찾아가 기계 장치를 조사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심개념",
+        "value": "4차원 세계"
+      }
+    ],
+    "keyEntitiesText": "메이버, 리, 레밍, 모튼, 아담 소케일",
+    "settingText": "영국 호포드 마을의 고립된 농장 연구소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ejFJBweoHLxrSs6W7VcjHDrf7S7tkTYN",
+    "filename": "L.P. 데이비스-4차원 세계의 비밀(Dimension A).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.676Z",
+    "size": "192871",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1ejFJBweoHLxrSs6W7VcjHDrf7S7tkTYN/view?usp=drivesdk",
+    "sourceSha256": "2f5da58d7841214647e7e1247b29c8198b6e0a0a363f7d82ec58e362ea355cc9",
+    "textSha256": "5dde5ba875b0164b0ebf4c1415f159d4fded5d5ddfa56bff8a255791622cbd85",
+    "changeKey": "6fe6d1610a4503069a34ba1b351d2c3f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "227156253113179b78cf",
+    "workId": "227156253113179b78cf",
+    "driveFileId": "1ejFJBweoHLxrSs6W7VcjHDrf7S7tkTYN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:43:47.697158+00:00",
+    "updatedAt": "2026-09-22T10:43:47.697174+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:43:47.697258+00:00"
+    }
+  }
+}

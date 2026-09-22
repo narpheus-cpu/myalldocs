@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로봇 스파이 전쟁",
+    "author": "K. 브루크너",
+    "genre": "SF",
+    "tags": [
+      "로봇",
+      "스파이",
+      "만국박람회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "미국과 소련의 만국 박람회 로봇 출품과 이를 둘러싼 스파이들의 첩보전 이야기",
+    "overallSummary": "미국과 소련이 최신 과학진을 동원해 만국 박람회 출품을 위한 로봇 윌리엄과 나타샤를 제조하는 과정에서 양국 스파이들이 비밀 설계도를 훔치기 위해 활약하고, 결국 두 로봇의 교제와 우정을 통해 평화를 찾아가는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "윌리엄 계획",
+        "summary": "미국의 로봇 윌리엄 제작 계획과 관련된 기밀 설계도가 스파이에게 도난당하는 사건이 발생한다."
+      },
+      {
+        "sectionTitle": "스파이 AE3호",
+        "summary": "소련 스파이 AE3호가 마이크로 필름을 이용해 첩보 활동을 벌이다가 위기에 처하지만 상부의 연락을 받는다."
+      },
+      {
+        "sectionTitle": "도둑맞은 설계도",
+        "summary": "연구원들이 로봇의 전자 두뇌와 설계도의 안전을 논의하며 소련의 기술력에 대해 경계한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소재",
+        "value": "로봇과 첩보전"
+      }
+    ],
+    "keyEntitiesText": "윌리엄, 나타샤, 하이드, 뻬벨 샤체이에프, 그레고리 리차쵸프, 찰리 빙클레",
+    "settingText": "미국과 소련의 대립이 있던 시대, 만국 박람회가 열리는 무대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LcqLMi8YRk9HV0Zvu17tIpA6Wq1wq96c",
+    "filename": "K. 브루크너-로봇 스파이 전쟁(The Hour of the Robots).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.663Z",
+    "size": "189627",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1LcqLMi8YRk9HV0Zvu17tIpA6Wq1wq96c/view?usp=drivesdk",
+    "sourceSha256": "c4e02d6388a35c872fa40b4c975ffbf911f123b4cc51559f5fa88e0923ed07be",
+    "textSha256": "9bf903afac8dd0a0c774d6b17619dbc982138af5d5d536fbd62bba9341215856",
+    "changeKey": "d549248a30e4c70b6e05ee26c83e43f2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0c4d681cde65524d6281",
+    "workId": "0c4d681cde65524d6281",
+    "driveFileId": "1LcqLMi8YRk9HV0Zvu17tIpA6Wq1wq96c",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:43:41.760809+00:00",
+    "updatedAt": "2026-09-22T10:43:41.760828+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:43:41.760997+00:00"
+    }
+  }
+}

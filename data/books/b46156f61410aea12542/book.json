@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "280세기의 세계",
+    "author": "레이 커밍스",
+    "genre": "SF 시간여행",
+    "tags": [
+      "시간여행",
+      "미래도시",
+      "타임머신"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "초기 SF 개척자로 에디슨의 비서로 일한 경력이 있으며 다양한 명작을 남김.",
+    "oneLineSummary": "타임머신을 타고 2만 8천 년 후의 미래 세계로 시간 여행을 떠난 청년의 이야기",
+    "overallSummary": "과학자 로저스와 아들 로트가 시간과 공간의 관계를 연구한 끝에 타임머신을 만들어 미래의 세계를 엿보게 되고, 그곳에서 붙잡혀 있는 소녀를 구하기 위해 모험을 떠나는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "시간이란 무엇인가?",
+        "summary": "과학자 모임에서 시간과 공간의 관계 및 운동에 대한 토론이 벌어진다."
+      },
+      {
+        "sectionTitle": "시간 여행으로 출발",
+        "summary": "로트가 타임머신을 통해 미래의 눈 덮인 황야와 갇혀 있는 소녀를 발견한 사실을 밝힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "시간과 공간을 초월한 모험"
+      }
+    ],
+    "keyEntitiesText": "로저스, 로트, 조지, 트로오, 아질라",
+    "settingText": "미국 뉴욕 및 2만 8천 년 후의 미래 도시 앵글리즈"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EhxRlKB41Ec7DhSbTfWZDGucfw_tjWSS",
+    "filename": "레이몬드 커밍스-280세기의 세계(The Man Who Mastered Time).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:32.836Z",
+    "size": "215022",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1EhxRlKB41Ec7DhSbTfWZDGucfw_tjWSS/view?usp=drivesdk",
+    "sourceSha256": "10a61cd9a41ffa2515f493395adfb8f2e3030285aae9a56f918fe6df7482b3a0",
+    "textSha256": "e8d43afa72d5f8886c33bbc2250e6167eb959e5aa7b23fc52f2d755fc864d3b8",
+    "changeKey": "dc110154540ccfdea7efe4f2a55c51e6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b46156f61410aea12542",
+    "workId": "b46156f61410aea12542",
+    "driveFileId": "1EhxRlKB41Ec7DhSbTfWZDGucfw_tjWSS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:44:36.273488+00:00",
+    "updatedAt": "2026-09-22T10:44:36.273500+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:44:36.273574+00:00"
+    }
+  }
+}

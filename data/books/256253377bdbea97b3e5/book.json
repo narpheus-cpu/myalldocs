@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "비글호의 모험",
+    "author": "반 보그트",
+    "genre": "SF 우주괴물",
+    "tags": [
+      "우주선",
+      "외계괴물",
+      "우주탐험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 SF 작가로 미래를 무대로 한 독창적인 작품을 많이 씀.",
+    "oneLineSummary": "거대한 우주선 비글 호가 광속을 넘어 우주를 항해하며 기괴한 외계 괴물들과 맞서 싸우는 이야기",
+    "overallSummary": "1,000명의 과학자와 승무원을 태운 초호화 우주선 비글 호가 미지의 우주를 탐험하던 중, 죽음의 별에서 상상조차 할 수 없는 초능력과 생명력을 가진 괴물 고양이 케얼을 만나게 되고, 종합 과학자 글로브너의 지혜로 위기를 헤쳐나가는 모험을 그림.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "죽음의 별에 착륙",
+        "summary": "비글 호가 900광년을 날아와 생명체가 살지 않는 죽음의 별 RX 1208에 착륙한다."
+      },
+      {
+        "sectionTitle": "이드를 찾아서",
+        "summary": "별의 폐허에 살고 있던 무서운 초능력의 괴물 고양이 케얼이 비글 호를 노리며 접근한다."
+      },
+      {
+        "sectionTitle": "위험한 승객",
+        "summary": "과학자들의 호기심으로 인해 케얼이 우주선 내부로 들어오게 되며 위험한 상황이 벌어진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심소재",
+        "value": "외계 괴물과 우주 탐사"
+      }
+    ],
+    "keyEntitiesText": "글로브너, 리스 대령, 모튼 사령관, 장현두 박사, 케얼",
+    "settingText": "미지의 우주 공간 및 우주선 비글 호"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1q3cNLwMeR8AvZ5_G62jYxLJFteBs7gat",
+    "filename": "반 보그트-비글호의 모험(The Voyage Of The Space Beagle) (2).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:33.255Z",
+    "size": "180779",
+    "folderPath": [
+      "books",
+      "05 SF",
+      "직지 SF"
+    ],
+    "relativePath": "books/05 SF/직지 SF",
+    "webViewLink": "https://drive.google.com/file/d/1q3cNLwMeR8AvZ5_G62jYxLJFteBs7gat/view?usp=drivesdk",
+    "sourceSha256": "be9c843602a3348942c64db4c459210b10c29d43f43102beb14e96954331281b",
+    "textSha256": "1ba19d79cce3300dcae07974cbfa10e3eebdff75209c7a6aa301a9636349cca1",
+    "changeKey": "89cfcba52ad3703fef204b58eddb700d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "256253377bdbea97b3e5",
+    "workId": "256253377bdbea97b3e5",
+    "driveFileId": "1q3cNLwMeR8AvZ5_G62jYxLJFteBs7gat",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T10:45:27.247870+00:00",
+    "updatedAt": "2026-09-22T10:45:27.247885+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T10:45:27.247965+00:00"
+    }
+  }
+}
