@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "페어리 테일 1",
+    "author": "스티븐 킹",
+    "genre": "다크 판타지 소설",
+    "tags": [
+      "시카모어 다리",
+      "가족비극",
+      "알코올중독",
+      "보디치",
+      "모험의 시작"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대 공포 및 환상 문학을 이끌며 다양한 장르적 스펙트럼을 과시하는 세계적 작가이다.",
+    "oneLineSummary": "시카모어 다리에서 어머니를 비극적으로 잃고 알코올에 빠진 아버지를 지키려던 소년 찰리 리드가 신비한 이세계의 모험에 발을 들이는 서막이다.",
+    "overallSummary": "센트리스 레스트의 위험한 강철 바닥 시카모어 다리에서 어머니가 트럭 사고로 처참하게 사망한 후, 손해사정사였던 아버지는 극심한 알코올중독에 빠져 파멸해 간다. 어린 찰리는 집안을 돌보며 절박하게 기도하고, 훗날 괴짜 노인 보디치 씨와 연결되는 기나긴 모험의 사슬을 회고한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장. 빌어먹을 다리. 기적. 하울링. (1~4절)",
+        "summary": "프랭크 엘스워스(시카모어) 다리의 내력과 2003년 11월 저녁 치킨을 사러 나갔다가 결빙된 다리에서 배관 트럭에 치여 사망한 어머니의 참사를 서술한다."
+      },
+      {
+        "sectionTitle": "1장. 빌어먹을 다리. 기적. 하울링. (5~7절)",
+        "summary": "어머니 사망 후 직장에서 해고되고 만취 상태로 무너져 내린 아버지와 이를 홀로 지탱하며 신에게 기도를 올린 찰리의 힘겨운 유년기를 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "동화적 비극의 현실적 토대",
+        "value": "어머니의 참혹한 죽음과 가족의 붕괴라는 무거운 현실적 트라우마를 환상 세계로 진입하기 위한 숙명적 동력으로 삼는다."
+      }
+    ],
+    "keyEntitiesText": "찰리 리드(화자), 조지 리드(아버지), 어머니, 보디치 씨, 지피 부부",
+    "settingText": "미국 센트리스 레스트, 시카모어가 및 시카모어 다리, 2003~2006년경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YmP0C19JLqO4aRdwMMFuV-P3FoBRNlvF",
+    "filename": "스티븐 킹-페어리 테일 1(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.417Z",
+    "size": "757306",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "스티븐 킹"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/스티븐 킹",
+    "webViewLink": "https://drive.google.com/file/d/1YmP0C19JLqO4aRdwMMFuV-P3FoBRNlvF/view?usp=drivesdk",
+    "sourceSha256": "aa8f73f9acc0227cb42219fcd1fff33510f64fa079017d824c89b6b9bd9d6bd9",
+    "textSha256": "efabdc5b401e6967e5392c8318a9b5d2a12e99e74774c5a8462115642eda25a1",
+    "changeKey": "b8403ef887161ec4f43a133f715d9953",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d5a6c586ae4c5524195b",
+    "workId": "d5a6c586ae4c5524195b",
+    "driveFileId": "1YmP0C19JLqO4aRdwMMFuV-P3FoBRNlvF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:29:28.239665+00:00",
+    "updatedAt": "2026-09-22T05:29:28.239682+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:29:28.239766+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "호러 만찬회",
+    "author": "신진오, 전건우",
+    "genre": "공포 소설",
+    "tags": [
+      "AI 장난감",
+      "마몬스",
+      "형제갈등",
+      "소원",
+      "질투"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 공포 문학 단편선과 장편소설을 통해 서스펜스와 심리 공포를 지속적으로 선보여 온 한국 호러 장르의 대표 작가들이다.",
+    "oneLineSummary": "부모의 관심을 독차지한 동생에게 질투를 느끼던 형이 소원을 들어주는 인공지능 장난감 '마몬스'와 맺은 기괴한 비밀을 다룬다.",
+    "overallSummary": "신진오의 단편 '헤이, 마몬스'를 비롯한 공포 소설들을 모은 책으로, 성인이 된 동생 규한과 술을 마시던 형 규남이 유년 시절 아버지에게 선물 받았던 AI 장난감 마몬스의 능력을 회상한다. 갓 태어난 동생에게 빼앗긴 부모의 사랑을 되찾기 위해 마몬스에게 소원을 빌고, 곤충을 이용해 동생을 달래려다 끔찍한 사고를 일으켰던 어린 날의 뒤틀린 집착이 드러난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "헤이, 마몬스 - 1절 (어른이 된 형제)",
+        "summary": "동생 규한이 형 규남의 집을 방문해 양주를 마시던 중 거실에 놓인 낡은 악마 모양 장난감 '마몬스'에 얽힌 사연을 듣게 된다."
+      },
+      {
+        "sectionTitle": "헤이, 마몬스 - 2~3절 (유년의 소원과 비극)",
+        "summary": "어린 규남이 생일날 부모의 관심이 아픈 동생에게 쏠리자 질투심에 휩싸여 마몬스에게 소원을 빌고, 동생에게 잘린 잠자리를 가져다주었다가 어머니에게 뺨을 맞는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기술적 주물화와 결핍된 애정",
+        "value": "아이의 소외감과 시기심이 AI 완구라는 매개체를 통해 사악한 악마적 충동으로 구체화되는 심리적 왜곡을 날카롭게 포착한다."
+      }
+    ],
+    "keyEntitiesText": "규남(형), 규한(동생), 마몬스(AI 장난감), 은영(어머니), 아버지",
+    "settingText": "현재 규남의 아파트 거실 및 수십 년 전 형제의 유년 시절 가정집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wB50DxFtH6lXf79RNM9TlEDPedLDoaax",
+    "filename": "신진오 전건우-호러 만찬회-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T06:32:58.000Z",
+    "size": "486867",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1wB50DxFtH6lXf79RNM9TlEDPedLDoaax/view?usp=drivesdk",
+    "sourceSha256": "900fac2e1e1c2f41615093bb3d297ceaf27707fe0616626b00e9616a9312fd16",
+    "textSha256": "6ad4305f57be2ccef2ac6a2d7fe8c07b1a30db720494db7fc824e473c8a96b3f",
+    "changeKey": "d05658f24ccca0384949c265f630807b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "34cddcd4b2b37beec513",
+    "workId": "34cddcd4b2b37beec513",
+    "driveFileId": "1wB50DxFtH6lXf79RNM9TlEDPedLDoaax",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:29:53.414548+00:00",
+    "updatedAt": "2026-09-22T05:29:53.414566+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:29:53.414650+00:00"
+    }
+  }
+}

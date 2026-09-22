@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로드워크",
+    "author": "스티븐 킹",
+    "genre": "스릴러",
+    "tags": [
+      "도시개발",
+      "총기구매",
+      "상실",
+      "고속도로",
+      "심리적 붕괴"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대 미국 문학의 거장 스티븐 킹이 리처드 바크먼이라는 필명으로 집필했던 작품을 포괄하는 저작물군에 속한다.",
+    "oneLineSummary": "고속도로 확장 공사로 삶의 터전을 잃게 된 주인공 바튼 도스가 총포점에서 총기를 구입하며 체제에 대한 저항을 준비하는 심리적 궤적을 그린다.",
+    "overallSummary": "베트남 전쟁 직후인 1970년대 초반, 784번 고속도로 연장 사업으로 인해 20년간 살아온 집과 직장이 수용당할 위기에 처한 블루 리본 세탁회사 직원 바튼 조지 도스는 공공 개발에 대한 깊은 환멸을 품고 하비 총포점을 방문해 정밀한 거짓말을 꾸며내며 강력한 매그넘 권총과 웨더비 소총을 사들인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서두 및 1972년 8월 웨스트게이트 행사",
+        "summary": "고속도로 연장 기념식에서 뉴스 기자의 길거리 인터뷰에 응한 바튼 도스가 공사를 비판하며 냉소적인 태도를 보인다."
+      },
+      {
+        "sectionTitle": "1973년 11월 20일 하비 총포점",
+        "summary": "바튼 도스가 총포점 주인 해리와 능숙하게 대화를 나누며 가상의 사촌 선물을 핑계로 고성능 총기와 탄약을 주문하고 신용카드로 결제한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소외와 내면 차단기",
+        "value": "토지 수용권이라는 공권력 앞에서 무력화된 개인이 현실 감각을 잃고 '회로 차단기' 같은 심리적 해리를 겪으며 파멸로 치닫는 과정을 묘사한다."
+      }
+    ],
+    "keyEntitiesText": "바튼 조지 도스, 데이브 앨버트, 해럴드 스위너튼(해리), 맥, 매리(도스의 아내)",
+    "settingText": "1972~1973년 미국, 784번 고속도로 공사가 진행 중인 도시 교외 지역 및 하비 총포점"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZMrEA9RVMURZ3Z88o0PbnGwKQ6sqfqr0",
+    "filename": "스티븐 킹-로드워크(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-02T22:22:00.000Z",
+    "size": "700756",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "스티븐 킹"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/스티븐 킹",
+    "webViewLink": "https://drive.google.com/file/d/1ZMrEA9RVMURZ3Z88o0PbnGwKQ6sqfqr0/view?usp=drivesdk",
+    "sourceSha256": "9318170868d6e1d0e3b534932ac25a3d7ba26d8482cef7322afebc9258e8ac62",
+    "textSha256": "98d1a8bfca0915e94770a1e4def54bc9eb889737e331f220e4aa2a39aa730ee7",
+    "changeKey": "511bb5614f99d5f6be638089b66ff0ce",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c27aa8fd2a3b462610a7",
+    "workId": "c27aa8fd2a3b462610a7",
+    "driveFileId": "1ZMrEA9RVMURZ3Z88o0PbnGwKQ6sqfqr0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:28:54.081511+00:00",
+    "updatedAt": "2026-09-22T05:28:54.081528+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:28:54.081611+00:00"
+    }
+  }
+}

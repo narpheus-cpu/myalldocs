@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "믿을 수 없는 이야기 (시드니 셀던의 추리와 모험이야기)",
+    "author": "시드니 셀던",
+    "genre": "청소년 교양 소설",
+    "tags": [
+      "기적",
+      "성서",
+      "십계명",
+      "조지 신부",
+      "풍자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시카고 출신의 세계적인 베스트셀러 작가로 오스카, 에미, 토니상 및 에드거 앨런 포 상을 수상하며 기네스북에 최다 번역 작가로 등재된 이야기꾼이다.",
+    "oneLineSummary": "성서의 유명한 기적들과 깨어진 십이 계명의 비밀을 설명하고, 첫 계명을 어긴 신부 조지의 이야기를 통해 도덕의 위선을 유쾌하게 파헤친다.",
+    "overallSummary": "어린 독자들을 위해 쓰인 이야기로, 아담과 이브, 노아의 방주, 홍해의 기적 등 성서 속 기적 이야기들을 흥미롭게 요약한 뒤, 모세가 깨뜨려 열 가지만 남았다는 십이 계명의 숨겨진 진실을 전제하며, 지나치게 엄격하고 편협하여 가족과 신자들을 경악하게 만든 신부 조지의 파행을 풍자적으로 소개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "기적",
+        "summary": "아담과 이브의 타락, 노아의 홍수, 모세의 홍해 도하, 삼손, 요나, 다니엘, 바벨탑 등 2천 년간 전해 내려온 기적과 잃어버린 두 계명을 포함한 십이 계명을 해설한다."
+      },
+      {
+        "sectionTitle": "첫 번째 및 세 번째 계명을 어긴 신부 조지",
+        "summary": "지나치게 결벽증적이고 융통성이 없어 모두를 숨막히게 하던 모범생 조지가 신부가 된 후, 첫 부임지 고백성사에서 신자들에게 호통을 치며 갈등을 빚는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "종교적 계명의 전복적 풍자",
+        "value": "외견상 완벽한 율법주의자가 도리어 사랑과 관용이라는 신앙의 본질을 훼손하고 타인을 파탄으로 몰아넣는 위선을 해학적으로 꼬집는다."
+      }
+    ],
+    "keyEntitiesText": "시드니 셀던, 조지 신부, 모세, 아담과 이브, 노아",
+    "settingText": "성서 속 고대 세계 및 미국 버몬트주의 작은 시골 마을 성당"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iFAc-0CEY9FEdSmurCgZ5mdm9Wlvq3DU",
+    "filename": "시드니 셀던-믿을 수 없는 이야기 (시드니 셀던의 추리와 모험이야기).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:23.468Z",
+    "size": "244071",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1iFAc-0CEY9FEdSmurCgZ5mdm9Wlvq3DU/view?usp=drivesdk",
+    "sourceSha256": "eda0c91ed01a8e52dad10d821b07de64f7cbfbc7b25b1cc2ac854c7153344239",
+    "textSha256": "d53a5ca8f584426461c5f7f803e7be7bd773c1cc039015243718da5090491852",
+    "changeKey": "34eb28f632b4c397330ee74a46c48f52",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b568c6f0f7287e51d28e",
+    "workId": "b568c6f0f7287e51d28e",
+    "driveFileId": "1iFAc-0CEY9FEdSmurCgZ5mdm9Wlvq3DU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T05:29:41.214572+00:00",
+    "updatedAt": "2026-09-22T05:29:41.214589+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T05:29:41.214671+00:00"
+    }
+  }
+}
