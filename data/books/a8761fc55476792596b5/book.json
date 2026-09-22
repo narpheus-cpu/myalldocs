@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소녀의 시간",
+    "author": "Jin-Woo, Jang",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "기사단",
+      "소녀",
+      "전쟁"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "위기의 키르케 왕국을 구하기 위해 적진을 돌파하는 16세 금발 미소녀 기사단장 아르베라제의 이야기.",
+    "overallSummary": "쥬다의 3만 대군에 포위된 키르케 왕국 군대 속에서, 16세의 금발 미소녀 기사단장 아르베라제는 500명의 황금룡 기사단을 이끌고 야간 기습 돌파 작전을 감행한다. 방심한 적의 본진을 순식간에 뚫고 지나간 그녀는 적장 질리온과 마주쳐 그의 투구를 떨어뜨리고 어깨에 상처를 입힌 뒤 무사히 포위망을 탈출한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "포위망 탈출 작전",
+        "summary": "적의 대군에 포위된 상황에서 아르베라제는 부관 루시푸아와 함께 과감한 야간 중앙돌파 작전을 지시한다."
+      },
+      {
+        "sectionTitle": "적진 돌파와 질리온과의 조우",
+        "summary": "황금룡기사단은 당황한 적의 본진을 유유히 돌파하고, 아르베라제는 적의 명검사 질리온을 순식간에 제압한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공 설정",
+        "value": "어려 보이지만 천재적인 무력을 지닌 전장의 마녀 아르베라제"
+      }
+    ],
+    "keyEntitiesText": "아르베라제, 루시푸아, 질리온, 그랜트, 비에리 국왕, 호르크 왕자",
+    "settingText": "키르케 왕국 대초원, 적 진영"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZKty_UpfGQCISc7Ecy_V8B84Vm67UPQM",
+    "filename": "소녀의 시간.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:45.333Z",
+    "size": "3357641",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1ZKty_UpfGQCISc7Ecy_V8B84Vm67UPQM/view?usp=drivesdk",
+    "sourceSha256": "487c6e6e68ccec23ecc36a7c5809d8dd646df2dc9692d7bf4f65daf3ffa547f9",
+    "textSha256": "d7a4bdf8ba8ff59890e850cd7129126762db4e93515389841e867ec550017238",
+    "changeKey": "3aac667a5bc00025fbefdc54569c5e44",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a8761fc55476792596b5",
+    "workId": "a8761fc55476792596b5",
+    "driveFileId": "1ZKty_UpfGQCISc7Ecy_V8B84Vm67UPQM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:22:24.716398+00:00",
+    "updatedAt": "2026-09-22T12:22:24.716414+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:22:24.716507+00:00"
+    }
+  }
+}

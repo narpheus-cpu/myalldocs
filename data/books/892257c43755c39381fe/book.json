@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소울러드라딘",
+    "author": "미상",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "마영의 기사",
+      "모험",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "어둠의 도시를 파괴했던 붉은 망토의 이슈엔과, 평화로운 촌락에서 살아가는 소년 데미의 이야기.",
+    "overallSummary": "신세기 1814년 겨울, 이슈엔이 이끄는 마영의 기사단은 어둠의 도시 레이간을 처참하게 괴멸시킨다. 한편, 시간이 흘러 평화로운 촌락 그레이든에서는 16세 소년 데미가 퍼브를 운영하는 아버지 라이언, 소꿉친구 레니와 함께 평범하고 유쾌한 일상을 보낸다. 레니의 부탁으로 고지산에 가기로 한 데미는 악몽과 마주한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "레이간의 비극",
+        "summary": "이슈엔이 이끄는 검은 갑옷의 기사단이 도시 레이간을 침략해 무참히 학살하고 괴멸시킨다."
+      },
+      {
+        "sectionTitle": "그레이든 마을의 데미",
+        "summary": "평화로운 시골 마을에서 아버지 라이언, 친구 레니와 함께 술과 장난을 즐기는 소년 데미의 일상이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 구조",
+        "value": "과거의 거대한 비극과 현재의 평화로운 일상의 교차"
+      }
+    ],
+    "keyEntitiesText": "이슈엔, 데미, 라이언 프로이드, 레니, 에미티 아줌마, 제미니",
+    "settingText": "레이간, 그레이든 촌락"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jWO4XPnl0ockTotSCiF82kAUO8DFZh5z",
+    "filename": "소울러드라딘.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:45.517Z",
+    "size": "1337856",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1jWO4XPnl0ockTotSCiF82kAUO8DFZh5z/view?usp=drivesdk",
+    "sourceSha256": "35774722e99404668fbb8807342591e9f2613cf3df974dc7d56793b6b029b43f",
+    "textSha256": "e061111c678497b150e6667809ca8ce87f1d088ff144eb6fb95f15a8b2ef36ce",
+    "changeKey": "4a9f2681b327fb7a505a58996f5d18e2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "892257c43755c39381fe",
+    "workId": "892257c43755c39381fe",
+    "driveFileId": "1jWO4XPnl0ockTotSCiF82kAUO8DFZh5z",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:22:39.169765+00:00",
+    "updatedAt": "2026-09-22T12:22:39.169779+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:22:39.169877+00:00"
+    }
+  }
+}

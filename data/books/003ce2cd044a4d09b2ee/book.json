@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "슬레이브",
+    "author": "미상",
+    "genre": "판타지",
+    "tags": [
+      "모험가",
+      "노예",
+      "마법사",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "모험가 콜트와 마법사 라이트가 위험한 사막에서 크림슨 앤트를 토벌하고 일상을 즐기는 이야기.",
+    "overallSummary": "콜트와 유쾌한 마법사 라이트는 황소만 한 크기의 개미 마물 크림슨 앤트를 사냥하고 모험가 길드에서 거금의 보상금을 받는다. 라이트는 비싼 값에 산 엘프 노예 아세트와 함께 살아가고 있으며, 콜트는 여관 주인의 딸 제미니의 적극적인 구애와 결혼 압박 속에서 유쾌한 고민을 이어간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "크림슨 앤트 토벌",
+        "summary": "사막에서 크림슨 앤트의 이빨을 채집하려다  쫓기게 된 콜트와 라이트는 화려한 마법과 와이번을 이용해 극적으로 탈출한다."
+      },
+      {
+        "sectionTitle": "노예 아세트와 여관에서의 일상",
+        "summary": "라이트는 엘프 노예 아세트를 고향으로 돌려보내려 함께 살고, 콜트는 여관에서 제미니의 결혼 협박을 피해 다닌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소설 분위기",
+        "value": "유쾌하고 가벼운 코믹 모험 판타지"
+      }
+    ],
+    "keyEntitiesText": "콜트, 라이트, 아세트, 세이라, 제미니, 벡터",
+    "settingText": "붉은 사막, 모험가 길드, 그랜퍼스 시내 여관"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RdujGw6QB-QcdTlF_u3tuefnSuLB3nYC",
+    "filename": "슬레이브.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:45.907Z",
+    "size": "1715817",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1RdujGw6QB-QcdTlF_u3tuefnSuLB3nYC/view?usp=drivesdk",
+    "sourceSha256": "8091a8980d817151612b32dcf37a9c5877d7e0b23fcfc38eeb9e7780e26ed49b",
+    "textSha256": "772d69f4b01b38a90636889a4b320052e28baa441042afc415778be46f85d2e3",
+    "changeKey": "b0ce7c382f58090a77ddef18478c1296",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "003ce2cd044a4d09b2ee",
+    "workId": "003ce2cd044a4d09b2ee",
+    "driveFileId": "1RdujGw6QB-QcdTlF_u3tuefnSuLB3nYC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:23:07.663724+00:00",
+    "updatedAt": "2026-09-22T12:23:07.663740+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:23:07.663839+00:00"
+    }
+  }
+}

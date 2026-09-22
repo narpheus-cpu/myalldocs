@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "성검전설 (내 이름은 요타)",
+    "author": "곽경주",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "성검",
+      "모험",
+      "이동"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "이리 사냥을 하다 깊은 지하 동굴에 빠진 소년 레아드가 신비로운 검을 얻게 되는 이야기.",
+    "overallSummary": "마을 친구 바크와의 내기 때문에 숲에서 이리를 사냥하던 레아드는 싸움 끝에 땅에 뚫린 깊은 구멍으로 떨어져 지하 동굴에 갇힌다. 탈출구를 찾던 중 밤이 되면 빛나는 벽 틈새를 발견하고 발차기로 벽을 부순 그는, 그곳에서 공중에 떠 있는 기묘하고 거대한 검과 정령을 만나게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "지하 동굴에 갇힌 레아드",
+        "summary": "친구와의 내기로 이리를 잡다 지하 깊은 동굴에 빠진 레아드는 출구를 찾아 헤매며 구조를 기다린다."
+      },
+      {
+        "sectionTitle": "신비로운 검과의 만남",
+        "summary": "밤에 빛나는 통로를 발견한 레아드는 벽을 부수고 들어가 공중에 떠 있는 거대한 검과 정령을 마주한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 모티브",
+        "value": "전설의 성검과 소년의 우연한 만남"
+      }
+    ],
+    "keyEntitiesText": "레아드, 바크, 정령",
+    "settingText": "로페로산 숲, 지하 동굴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zj1JFeSNciOSMlYOqPNtgK89nYUFMn4j",
+    "filename": "성검전설.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:45.264Z",
+    "size": "4120113",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1zj1JFeSNciOSMlYOqPNtgK89nYUFMn4j/view?usp=drivesdk",
+    "sourceSha256": "7350251500e3f9f24de11510c4dfd8683278d4e2cce44e85112296522b695ce2",
+    "textSha256": "bfcbf76fc13b81a407a35f2972d0e30e2ef3b54d7ddd988f0ef36645ec29b22b",
+    "changeKey": "3f0e9d57b3b3a3b34f06fef17bb127bd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e03bbd35e9d43636701d",
+    "workId": "e03bbd35e9d43636701d",
+    "driveFileId": "1zj1JFeSNciOSMlYOqPNtgK89nYUFMn4j",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:22:14.035901+00:00",
+    "updatedAt": "2026-09-22T12:22:14.035918+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4686,
+      "updatedAt": "2026-09-22T12:22:14.036091+00:00"
+    }
+  }
+}

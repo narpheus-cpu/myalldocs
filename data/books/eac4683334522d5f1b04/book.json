@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "슬레이어즈 스페셜",
+    "author": "칸사카 하지메",
+    "genre": "코믹 판타지",
+    "tags": [
+      "슬레이어즈",
+      "리나 인버스",
+      "세이룬",
+      "왕자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "comedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "로버스 킬러 리나 인버스가 우연히 세이룬의 독특한 왕자 필리오넬을 만나 마물 퇴치 의뢰를 맡게 되는 이야기.",
+    "overallSummary": "마도사 리나는 어느 작은 마을의 여관에서 밀행 중이던 세이룬의 제1왕위계승자 피리오넬 왕자와 신관 란디를 만난다. '백마술도시' 세이룬의 왕자라면 고귀하고 우아할 것이라는 기대와 달리, 바스타드 소드를 멘 산적 같은 외모와 무시무시한 평화주의를 가진 필 아저씨의 모습에 리나는 큰 충격을 받는다. 이들은 마을 근처 동굴의 마물을 소탕하기 위해 함께 길을 나선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세이룬 왕자님과의 만남",
+        "summary": "리나는 여관에서 전력 보강을 위해 자신을 찾던 사제 란디를 따라 세이룬의 왕자 피리오넬을 만나고 큰 충격을 받는다."
+      },
+      {
+        "sectionTitle": "동굴 탐사와 마물 퇴치",
+        "summary": "오크, 오우거 등 마물들을 상대로 필 아저씨의 황당한 평화주의 설득과 리나의 강력한 마법이 펼쳐진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "슬레이어즈 특유의 유머러스한 내면 독백과 코믹한 캐릭터 설정"
+      }
+    ],
+    "keyEntitiesText": "리나 인버스, 피리오넬(필), 란디",
+    "settingText": "작은 마을의 여관, 마물이 사는 지하 동굴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tSXm-x5drasXdi2SYNOD2t8GV31fX6aU",
+    "filename": "슬레이어즈 스페셜(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:45.952Z",
+    "size": "758726",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1tSXm-x5drasXdi2SYNOD2t8GV31fX6aU/view?usp=drivesdk",
+    "sourceSha256": "03a8a1785dce0411562a6446cc54705e62b6d69d2a84dd2793b28b73a31c74da",
+    "textSha256": "1e090342216d889b76de4caaf88aa7401c588e0dbdad63a8119eb82fbfee81dd",
+    "changeKey": "5e32c332df158e71d6380fbac7b6f1b0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "eac4683334522d5f1b04",
+    "workId": "eac4683334522d5f1b04",
+    "driveFileId": "1tSXm-x5drasXdi2SYNOD2t8GV31fX6aU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:23:14.140488+00:00",
+    "updatedAt": "2026-09-22T12:23:14.140504+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:23:14.140617+00:00"
+    }
+  }
+}

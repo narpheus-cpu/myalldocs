@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서기명지담",
+    "author": "미상",
+    "genre": "판타지 / 타임슬립",
+    "tags": [
+      "타임슬립",
+      "고려",
+      "중국",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "time_slip",
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "백화점 붕괴 사고로 1000년 전 중국으로 떨어진 중학생 서기명의 적응기.",
+    "overallSummary": "중학교 여름방학 숙제 때문에 누나들과 백화점에 갔던 서기명은 갑작스러운 붕괴 사고 속에서 정신을 잃는다. 눈을 떠보니 이곳은 1000년 전 송나라와 고려가 공존하던 시대의 중국. 은호표국의 노인 황노야 일행에게 구출된 기명은 언어가 통하지 않는 상황에서도 특유의 적응력으로 표사들과 어울리며 새로운 삶을 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "붕괴 사고와 시간 이동",
+        "summary": "누나들과 함께 백화점에 갔던 기명은 건물이 무너지는 순간 정신을 잃고 1000년 전으로 이동한다."
+      },
+      {
+        "sectionTitle": "은호표국과의 만남",
+        "summary": "표국 표사들의 수레 위에서 깨어난 기명은 황노야의 도움을 받아 표국 사람들과 함께 마을에 도착한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 설정",
+        "value": "현대 청소년의 과거 세계 생존 및 언어 장벽 극복"
+      }
+    ],
+    "keyEntitiesText": "서기명, 서미선, 황노야, 진가성, 소미",
+    "settingText": "현대 백화점, 1000년 전 중국 송나라 시대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fc9b_dCI-OsuJ3ZF2TSmhA-g8fDbAaDw",
+    "filename": "서기명지담.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:45.045Z",
+    "size": "3115616",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1fc9b_dCI-OsuJ3ZF2TSmhA-g8fDbAaDw/view?usp=drivesdk",
+    "sourceSha256": "7bf0f2200861b38990f7455365ce448ae936d5bdf3e09c7fc066fb73a5f64722",
+    "textSha256": "df805bd79ccccf379497c5f837f6292db0ca64a69b9d7147892a7ae115d09814",
+    "changeKey": "22c0f236c6fb6605f8bc4837ad09bfff",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "238189c95e4acccef1f7",
+    "workId": "238189c95e4acccef1f7",
+    "driveFileId": "1fc9b_dCI-OsuJ3ZF2TSmhA-g8fDbAaDw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:21:53.628759+00:00",
+    "updatedAt": "2026-09-22T12:21:53.628774+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:21:53.628878+00:00"
+    }
+  }
+}

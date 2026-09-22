@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서클 대마법사",
+    "author": "미상",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "저승사자",
+      "환생",
+      "영계"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "차원의 평균 수명을 맞추기 위해 태어나자마자 죽음을 반복하는 영혼의 이야기.",
+    "overallSummary": "관리하는 세계의 평균 수명이 너무 높아져 고민에 빠진 저승사자 수영은 친구 판테아의 조언대로 새로 태어나는 존재들을 일 년이 되기 전에 계속 소멸시키는 편법을 쓴다. 하루살이, 원숭이, 아기 등 수많은 생명체로 환생할 때마다 기이한 사고로 1년을 넘기지 못하고 죽음을 맞이하던 영혼은 묵주의 개입으로 새로운 국면을 맞이한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "저승사자들의 고민",
+        "summary": "차원의 평균 수명을 낮추기 위해 수영과 판테아는 태어난 생명체를 일 년 안에 죽이는 계획을 세운다."
+      },
+      {
+        "sectionTitle": "반복되는 죽음",
+        "summary": "주인공 영혼은 하루살이, 원숭이, 아기 등으로 태어나지만 온갖 기묘한 사고로 매번 돌을 넘기지 못하고 영계로 돌아온다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소설 특징",
+        "value": "반복되는 환생과 허무 개그가 섞인 독특한 오프닝"
+      }
+    ],
+    "keyEntitiesText": "수영, 판테아, 묵주, 주인공 영혼",
+    "settingText": "영계, 물질계 차원들"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1D9s4V0E-zHk4baHgdIHt7EgmdR0klUZT",
+    "filename": "서클 대마법사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:45.123Z",
+    "size": "2867236",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1D9s4V0E-zHk4baHgdIHt7EgmdR0klUZT/view?usp=drivesdk",
+    "sourceSha256": "feab70d59a1c11b406e525aaae1171ed75ed1ebcf1e45a8f8a587ad1e7283c2f",
+    "textSha256": "cca000818ed6fbec2baa50ae35b85bf6f75945c27465aac2f9986d8388ff22b1",
+    "changeKey": "e681dbc37a7daaa6b9e4b7753ea0c8bd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7daaf78a48d932e7b643",
+    "workId": "7daaf78a48d932e7b643",
+    "driveFileId": "1D9s4V0E-zHk4baHgdIHt7EgmdR0klUZT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:22:00.384201+00:00",
+    "updatedAt": "2026-09-22T12:22:00.384217+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:22:00.384323+00:00"
+    }
+  }
+}

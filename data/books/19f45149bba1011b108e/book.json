@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아침의 나라",
+    "author": "손중극",
+    "genre": "전쟁 소설",
+    "tags": [
+      "전쟁",
+      "대체역사",
+      "남북전쟁",
+      "군사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "war",
+        "military_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "잠수함용 소형 원자로 개발 성공과 동해상의 긴장감 넘치는 잠수함 작전을 다룬 군사 소설.",
+    "overallSummary": "1993년 8월, 진해 해군기지에서 대한민국 건국 이래 최초로 잠수함용 소형 원자로 개발 프로젝트가 성공을 거둔다. 이어 1994년 10월, 209형 장보고급 잠수함인 이천함은 동해상에서 미 해군 항모 전단의 삼엄한 대잠 소노부이망을 뚫고 은밀하게 기동하며 가상 적군과의 치열한 수중 첩보전을 벌인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프로젝트 K4000: 소형 원자로 개발",
+        "summary": "진해 해군기지 연구소에서 강박사의 지휘 아래 잠수함용 소형 원자로의 고출력 테스트가 성공적으로 완료된다."
+      },
+      {
+        "sectionTitle": "이천함의 동해 잠수함 작전",
+        "summary": "박동욱 대위가 지휘하는 장보고급 잠수함 이천함은 미 항모 인디펜던스 전단의 소노부이망을 피해 동해에서 은밀히 항해한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소설 특징",
+        "value": "현실적인 군사 장비 묘사와 정밀한 잠수함 전술 시뮬레이션"
+      }
+    ],
+    "keyEntitiesText": "강박사, 박동욱, 정중사, 로이 소령, 플레밍 중령",
+    "settingText": "진해 해군기지, 동해 바닷속, 미 항모 인디펜던스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nruV3OecApJq24f4Ut4CWaZSpHLueoMJ",
+    "filename": "손중극-아침의 나라(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:45.650Z",
+    "size": "990577",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1nruV3OecApJq24f4Ut4CWaZSpHLueoMJ/view?usp=drivesdk",
+    "sourceSha256": "8464a2e9a2bf7ee407e7ec54b598babf2dfa809977c8387a7a2fbe06dfbcfb4a",
+    "textSha256": "87819ed59d2d9c2305f418eeb991c94d74ea330c9ce2a7cd7f67b1a49e6ad656",
+    "changeKey": "6b09140264346f9c3618d34278a3505d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "19f45149bba1011b108e",
+    "workId": "19f45149bba1011b108e",
+    "driveFileId": "1nruV3OecApJq24f4Ut4CWaZSpHLueoMJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:22:47.733957+00:00",
+    "updatedAt": "2026-09-22T12:22:47.733972+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:22:47.734137+00:00"
+    }
+  }
+}

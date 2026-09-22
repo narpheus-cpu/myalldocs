@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스토리 오브 환타지",
+    "author": "흑염왕",
+    "genre": "판타지 / 환생",
+    "tags": [
+      "환생",
+      "마검사",
+      "코믹",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "reincarnation",
+        "comedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "파괴신을 봉인한 최강의 마검사 일리안이 친구의 배신으로 죽은 뒤 아기로 환생하여 겪는 코믹한 이야기.",
+    "overallSummary": "대륙 최강의 마검사 일리안은 친구 에릭의 배신으로 가슴에 칼을 맞고 사망한다. 그러나 눈을 떠보니 그는 한국의 거대 그룹 회장 부부 사이에서 갓난아기 아영이로 환생해 있다. 전생의 기억을 가진 채 아기로 자라나며 겪는 굴욕적인 첫키스와 젖먹이 육아의 해프닝들이 유쾌하게 펼쳐진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "마검사 일리안의 죽음",
+        "summary": "파괴신을 봉인한 일리안은 오랜 친구 에릭의 배신으로 치명상을 입고 목숨을 잃는다."
+      },
+      {
+        "sectionTitle": "아기로의 환생과 굴욕",
+        "summary": "일리안은 아영이라는 이름의 아기로 환생하지만, 부모님의 애정 표현과 젖먹이 생활 속에서 겪는 상황에 경악한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 개그 요소",
+        "value": "전생의 고위 마검사가 갓난아기 몸으로 겪는 문화 충격과 굴욕"
+      }
+    ],
+    "keyEntitiesText": "일리안(아영), 에릭, 실리스, 아영이의 부모님",
+    "settingText": "판타지 세계, 서울 강남의 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1r94sSPqM5u7F4x76UYz8f9nRFKsEwKTA",
+    "filename": "스토리 오브 환타지(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:45.712Z",
+    "size": "2219398",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1r94sSPqM5u7F4x76UYz8f9nRFKsEwKTA/view?usp=drivesdk",
+    "sourceSha256": "1299562403a15aed68d3df5a45d19dcfbabf94d267c1f67ae429c3ef4b2e56c3",
+    "textSha256": "a71cef525a516cb69fecbf3049111ea76df9e4a7818d7af78efa2d2e1fb13ba6",
+    "changeKey": "1f73e3d1e1c55069305749fcde95f332",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c7d7ce19d088e340f8be",
+    "workId": "c7d7ce19d088e340f8be",
+    "driveFileId": "1r94sSPqM5u7F4x76UYz8f9nRFKsEwKTA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:22:54.369672+00:00",
+    "updatedAt": "2026-09-22T12:22:54.369689+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-22T12:22:54.369809+00:00"
+    }
+  }
+}

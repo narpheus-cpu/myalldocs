@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "섀도우솔저",
+    "author": "미상",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "그림자부족",
+      "전설",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "전설 속 그림자 부족의 마지막 후손 로이엔이 세상에 나타나게 되는 이야기.",
+    "overallSummary": "아마게돈과 신들의 전쟁 역사를 거쳐, 암흑의 신의 저주로 멸망한 전설의 그림자 부족. 저주가 끝나는 시점에서 유일하게 살아남은 소년 로이엔은 죽음을 앞둔 아버지에게서 삼촌인 공작과의 만남과 섀도우 솔져의 힘을 이어받는다. 한편 로잔 왕국의 크레이븐 공작은 옛 부하 톨린을 만나며 과거의 회포를 푼다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아마게돈과 그림자 부족의 역사",
+        "summary": "주신 로딘의 소멸과 신들의 전쟁, 그리고 빛의 가호를 받아 탄생한 섀도우 솔져와 그림자 부족의 흥망성쇠를 다룬다."
+      },
+      {
+        "sectionTitle": "로이엔의 탄생과 유언",
+        "summary": "죽음을 앞둔 아버지는 아들 로이엔에게 삼촌과 함께할 것을 부탁하고, 저주가 끝난 후의 새로운 운명이 시작된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관",
+        "value": "천계, 마계, 중간계가 공존하는 판타지 세계"
+      }
+    ],
+    "keyEntitiesText": "로인엔, 톨린, 록시나, 크레이븐 공작, 아폴로니아",
+    "settingText": "툴리안 산, 로잔 왕국 수도 엘자르"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vOKclVAXnd6B1FjJxAlvt8dgY1VcAY6b",
+    "filename": "섀도우솔저(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:44.996Z",
+    "size": "1690764",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1vOKclVAXnd6B1FjJxAlvt8dgY1VcAY6b/view?usp=drivesdk",
+    "sourceSha256": "2ea7b8c53e588eb1275bac66bce3dfe393da5bf1e8743614ac1198dfb889ec93",
+    "textSha256": "620cde2728277b3cc482633ef29fc10374b174badb7a5fd1eb73898420b133b5",
+    "changeKey": "bc609600f03f5d75ff8663d859ed410e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "79f54d2d7e85964245e9",
+    "workId": "79f54d2d7e85964245e9",
+    "driveFileId": "1vOKclVAXnd6B1FjJxAlvt8dgY1VcAY6b",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:21:47.119752+00:00",
+    "updatedAt": "2026-09-22T12:21:47.119767+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:21:47.119901+00:00"
+    }
+  }
+}

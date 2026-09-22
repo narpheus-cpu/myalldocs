@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소드퀸",
+    "author": "미상",
+    "genre": "판타지 / 환생",
+    "tags": [
+      "환생",
+      "천재",
+      "저승",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "reincarnation"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "교통사고로 억울하게 저승에 간 천재 소녀 이한별이 다른 차원으로 환생하게 되는 이야기.",
+    "overallSummary": "아이큐 250의 천재이지만 부모의 죽음 이후 삶의 목표를 잃고 살아가던 15세 소녀 이한별은 크리스마스 이브에 교통사고로 사망한다. 저승사자의 실수로 수명이 한참 남은 그녀가 일찍 불려온 것을 알게 된 죽음의 신 카이란은 그녀의 운명을 다른 차원으로 옮겨 새롭게 태어나게 해 주기로 합의한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "천재 소녀의 죽음",
+        "summary": "부모를 잃고 무기력하게 살아가던 한별은 크리스마스 이브에 교통사고를 당해 목숨을 잃는다."
+      },
+      {
+        "sectionTitle": "저승에서의 실수와 새로운 제안",
+        "summary": "저승사자의 행정 실수로 억울하게 죽은 것을 알게 된 신 카이란은 한별의 기억을 유지한 채 다른 차원으로 환생시킨다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "저승사자의 행정 착오로 인한 이세계 환생"
+      }
+    ],
+    "keyEntitiesText": "이한별, 김병준, 카이란, 저승사자",
+    "settingText": "미국, 저승의 궁전"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Ye1WngkZhY8OgB8S6HA0bOKqOb4Ah-7V",
+    "filename": "소드퀸.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:45.403Z",
+    "size": "2062987",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1Ye1WngkZhY8OgB8S6HA0bOKqOb4Ah-7V/view?usp=drivesdk",
+    "sourceSha256": "9267e6021f41dc5cf8c834a8b9991acad7b5b8abfad6318cbfb1c5105b7aa567",
+    "textSha256": "27c503f3e29a5b62e6fba76e7a849877c150cdba5d044ab1761f44d109e57b35",
+    "changeKey": "2abba97b437c91069f22ddcbf1446365",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "af4be6e19761b4897d27",
+    "workId": "af4be6e19761b4897d27",
+    "driveFileId": "1Ye1WngkZhY8OgB8S6HA0bOKqOb4Ah-7V",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:22:32.412749+00:00",
+    "updatedAt": "2026-09-22T12:22:32.412765+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:22:32.412879+00:00"
+    }
+  }
+}

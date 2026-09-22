@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "섀도우 월드",
+    "author": "미상",
+    "genre": "가상현실 판타지",
+    "tags": [
+      "가상현실",
+      "게임",
+      "복권당첨",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "virtual_reality"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "복권 당첨으로 섀도우 월드 캡슐 세트를 얻은 청년 김현진의 가상현실 게임 도전기.",
+    "overallSummary": "부모를 잃고 아르바이트를 전전하며 고달픈 삶을 살던 20살 백수 김현진은 우연히 산 복권이 특별상에 당첨되어 15억 원의 상금과 최신 가상현실 게임 '섀도우 월드' 캡슐 세트를 손에 넣는다. 기쁨에 겨워 접속한 그는 게임 속에서 캐릭터를 설정하고 다양한 스킬을 배우며 새로운 모험을 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "복권 당첨의 행운",
+        "summary": "생활고에 시달리던 현진은 우연히 구입한 복권의 특별상에 당첨되어 거금과 게임 캡슐을 얻는다."
+      },
+      {
+        "sectionTitle": "섀도우 월드 접속",
+        "summary": "집에 설치된 캡슐을 통해 가상현실 게임에 접속한 현진은 캐릭터를 만들고 스킬을 선택한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소설 장르",
+        "value": "가상현실 게임 판타지"
+      }
+    ],
+    "keyEntitiesText": "김현진(세한), 수위 아저씨",
+    "settingText": "근미래의 아파트, 가상현실 세계 섀도우 월드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1w0jbdSegEKeRx-k0u_DXh5reZ2J35kW3",
+    "filename": "섀도우 월드 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:44.891Z",
+    "size": "2452101",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1w0jbdSegEKeRx-k0u_DXh5reZ2J35kW3/view?usp=drivesdk",
+    "sourceSha256": "ba2f2449b733e7151f77c0802fa7970bb9a0b5e159aae2b393ee0fc5e7698c54",
+    "textSha256": "0a7adc4f57db032bcaf0f74c531a856f27121f7520b7a7c2a7f3d84db5f46c82",
+    "changeKey": "7d4520ac3fda00744990ce429970457d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "58cf76590f297e550ab5",
+    "workId": "58cf76590f297e550ab5",
+    "driveFileId": "1w0jbdSegEKeRx-k0u_DXh5reZ2J35kW3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:21:40.760134+00:00",
+    "updatedAt": "2026-09-22T12:21:40.760150+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:21:40.760263+00:00"
+    }
+  }
+}
