@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하나에이야기[완결]",
+    "author": "sijob",
+    "genre": "성인 소설",
+    "tags": [
+      "학교 폭력",
+      "인신매매",
+      "윤간",
+      "비극"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "adult"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "나우콤 등 통신 동호회 게시판에 연재되었던 성인 웹소설.",
+    "oneLineSummary": "학교 폭력에 시달리던 여고생 하나에가 불량 학생들의 음모에 속아 사채업자들에게 팔려가 끔찍한 능욕을 당하는 비극적 이야기.",
+    "overallSummary": "우나바라고교 2학년 하나에는 아름다운 외모와 우수한 성적으로 인기가 많지만, 부모가 없고 가난하여 공장에서 일하며 장학금으로 살아가는 처지이다. 학교의 불량 여학생인 이시에, 사쿠라코, 아사꼬 무리는 하나 시기하며 상습적으로 폭행과 린치를 가한다. 어느 날 그들은 하나에를 완전히 괴롭히는 것을 넘어 아예 돈을 받고 사채업자들에게 팔아넘기기로 모의하고, 담력 시험을 핑계로 빈집으로 유인해 범죄 조직에게 넘긴다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "하나에를 향한 학교 폭력",
+        "summary": "뛰어난 외모와 성적을 가졌으나 부모가 없고 가난한 고등학생 하나에는 이시에 일진 무리로부터 끊임없는 구타와 괴롭힘에 시달린다."
+      },
+      {
+        "sectionTitle": "불량배들의 음모와 인신매매",
+        "summary": "하나에를 괴롭히는 것에 지친 이시에 무리는 그녀를 구제불능으로 여기고, 자신들이 아는 사채업자에게 돈을 받고 팔아넘길 계획을 세운다."
+      },
+      {
+        "sectionTitle": "빈집에서의 감금과 끔찍한 능욕",
+        "summary": "친구들과 화해한다는 거짓말에 속아 공사장 뒤 빈집으로 간 하나에는 사채업자 일당에게 붙잡혀 옷이 벗겨지고 끔찍한 윤간과 성적 학대를 당한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "극단적인 폭력과 능욕을 다룬 하드코어 성인 소설"
+      },
+      {
+        "key": "주제",
+        "value": "학교 폭력이 약자에게 가하는 잔혹한 파멸과 인신매매의 비극"
+      }
+    ],
+    "keyEntitiesText": "하나에(주인공, 여고생), 이시에(불량 학생 무리의 주동자), 사쿠라코, 아사꼬, 검은 안경의 사채업자 우두머리",
+    "settingText": "일본 우나바라 고등학교 및 공사장 빈집, 지하 지하실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uS7DqgmFEj1nJY-W5Jzz6tzYxyqrshLJ",
+    "filename": "하나에이야기[완결].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:22.848Z",
+    "size": "70794",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1uS7DqgmFEj1nJY-W5Jzz6tzYxyqrshLJ/view?usp=drivesdk",
+    "sourceSha256": "e4e1674b0a780e09d6ae2622ac4802b35709fbac4f6d5883375853dba582cec6",
+    "textSha256": "f5a55586d5b5e6b1980c21a586a02454264139a9648099fad520167eda599d60",
+    "changeKey": "67ae343cf90df9b0ac18568b9c194984",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8145ad034f7408de86ce",
+    "workId": "8145ad034f7408de86ce",
+    "driveFileId": "1uS7DqgmFEj1nJY-W5Jzz6tzYxyqrshLJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:08:10.139411+00:00",
+    "updatedAt": "2026-09-22T17:08:10.139427+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:08:10.139543+00:00"
+    }
+  }
+}
