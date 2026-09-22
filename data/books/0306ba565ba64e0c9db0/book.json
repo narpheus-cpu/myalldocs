@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "군자의 나라",
+    "author": "박원재, 최진덕",
+    "genre": "동양철학",
+    "tags": [
+      "공자",
+      "노자",
+      "유학",
+      "도가"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "동양철학과 고전을 연구하고 대중화하는 저자들.",
+    "oneLineSummary": "공자의 유학과 노자의 도가를 현대적 시각으로 재해석하여 동아시아 지성사의 두 흐름을 조명한 철학서.",
+    "overallSummary": "공자와 노자라는 동아시아 지성사의 두 라이벌을 통해 유가와 도가의 긴장 관계를 살피고, 사서오경과 예교, 인문주의적 세계관의 의미를 현대적으로 풀이한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "도덕경: 동아시아 지성사의 두 라이벌",
+        "summary": "맹자와 한유의 사상적 맥락을 통해 유학과 도가의 대립과 긴장을 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "유가와 도가의 비교 및 고전의 현대적 의미"
+      }
+    ],
+    "keyEntitiesText": "공자, 노자, 맹자, 한유, 주공",
+    "settingText": "고대 중국 및 동아시아 문화권"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1495ZVhvPJ8mNMExfGglszkFumtH8IQk_",
+    "filename": "박원재, 최진덕-군자의 나라 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.620Z",
+    "size": "262176",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1495ZVhvPJ8mNMExfGglszkFumtH8IQk_/view?usp=drivesdk",
+    "sourceSha256": "a335ffcd47477aa56d3af0295f2144e8f2929a0aca406647fd2a1e9972f52c21",
+    "textSha256": "e0eab245c0223573ab6976c4a53ede1dc0c937dcb6dd3793e94e8f0607382496",
+    "changeKey": "75ad0b74b3159c7000a6c7527ed153b5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0306ba565ba64e0c9db0",
+    "workId": "0306ba565ba64e0c9db0",
+    "driveFileId": "1495ZVhvPJ8mNMExfGglszkFumtH8IQk_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:16:21.709062+00:00",
+    "updatedAt": "2026-09-22T19:16:21.709077+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:16:21.709185+00:00"
+    }
+  }
+}

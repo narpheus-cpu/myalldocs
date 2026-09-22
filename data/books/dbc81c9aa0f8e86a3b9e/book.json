@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "철학과 사상",
+    "author": "박정옥",
+    "genre": "철학",
+    "tags": [
+      "서양철학",
+      "동양철학",
+      "철학사"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "철학 교재 편찬위원회 및 철학 연구자.",
+    "oneLineSummary": "고대부터 현대에 이르기까지 서양철학 과 동양철학의 핵심 흐름을 체계적으로 정리한 철학 입문서.",
+    "overallSummary": "보편적 세계시민의 사고틀을 기르기 위한 철학함의 필요성을 역설하며, 서양철학(고대~현대)과 동양철학(고대~현대)의 주요 사조와 철학자들의 사상을 개괄한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 서양철학 - 제1장 고대철학",
+        "summary": "소크라테스 이전의 자연철학부터 아테네기와 헬레니즘·로마시대의 철학을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성",
+        "value": "서양철학과 동양철학의 시대별 개관"
+      }
+    ],
+    "keyEntitiesText": "탈레스, 아낙시만드로스, 피타고라스, 소크라테스",
+    "settingText": "그리스 및 세계 철학사적 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1P09D8qKNludb9jPNmzmidalsSWH-wW6U",
+    "filename": "박정옥-철학과 사상 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.632Z",
+    "size": "938091",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1P09D8qKNludb9jPNmzmidalsSWH-wW6U/view?usp=drivesdk",
+    "sourceSha256": "adfa7d94d0cfa9aa9806784f273f2ce3c47baa63ae46858a898a31da28859c44",
+    "textSha256": "7d438255907a65942e73be7b7c0a0c11943476bf43478f46bd6d6d69abdd049b",
+    "changeKey": "d72a8e724ff5eb13c024889db028759d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dbc81c9aa0f8e86a3b9e",
+    "workId": "dbc81c9aa0f8e86a3b9e",
+    "driveFileId": "1P09D8qKNludb9jPNmzmidalsSWH-wW6U",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:16:28.741776+00:00",
+    "updatedAt": "2026-09-22T19:16:28.741792+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:16:28.741901+00:00"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한 권으로 읽는 조선왕조실록",
+    "author": "박영규",
+    "genre": "역사",
+    "tags": [
+      "조선왕조실록",
+      "조선사",
+      "왕실"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "역사 대중화의 기수로 다양한 왕조실록 시리즈를 집필한 소설가이자 역사 저술가.",
+    "oneLineSummary": "태조부터 순종까지 조선 27대 왕들의 치세와 500년 역사를 한 권으로 집대성한 역사 교양서.",
+    "overallSummary": "조선왕조실록을 바탕으로 태조의 개국부터 각 왕들의 즉위 과정, 당쟁과 사화, 제도 정비 및 문화적 성취까지 조선 5백 년 역사의 전모를 생생하게 복원하여 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1대 태조실록",
+        "summary": "이성계의 등장과 활약상, 역성혁명을 통한 조선의 개국과 경제정책을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "왕위 계승과 주요 사건 중심의 통사 서술"
+      }
+    ],
+    "keyEntitiesText": "이성계, 이방원, 세종대왕, 정도전",
+    "settingText": "조선 시대 한양 및 한반도 전역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QgfUWt5GE15pms_CjU_udl60cSN8wzAd",
+    "filename": "박영규-한 권으로 읽는 조선왕조실록(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T00:41:50.000Z",
+    "size": "1158806",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1QgfUWt5GE15pms_CjU_udl60cSN8wzAd/view?usp=drivesdk",
+    "sourceSha256": "6e8c526eea6ae519f0cc901f5fc9381f3c7bb0e85f7261096d8cdbfcd4446e97",
+    "textSha256": "e8f66bf21d649edb28bacb65ab1e1a06750a79081eba73abf2bef9e9489efb7a",
+    "changeKey": "9e50bd32a98c29fc41d042c6118d0b49",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cb1a05c66766dd012e2a",
+    "workId": "cb1a05c66766dd012e2a",
+    "driveFileId": "1QgfUWt5GE15pms_CjU_udl60cSN8wzAd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:15:54.554298+00:00",
+    "updatedAt": "2026-09-22T19:15:54.554315+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:15:54.554434+00:00"
+    }
+  }
+}

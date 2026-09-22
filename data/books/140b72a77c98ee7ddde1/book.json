@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "박자의 철학가게",
+    "author": "박상환",
+    "genre": "철학",
+    "tags": [
+      "중국철학",
+      "동양철학",
+      "철학사"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "성균관대학교 동양철학사 전공자",
+    "oneLineSummary": "전근대와 근현대를 아우르는 중국철학의 이야기와 사유 방식을 고쳐 읽는 인문학 도서.",
+    "overallSummary": "이 책은 철학적 사유의 조건과 중국철학의 형성과정, 성리학과 양명학, 그리고 서양과의 만남 속에서 전통과 근대가 충돌하고 변모해온 과정을 비판적이고 주체적인 시각에서 재해석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1강 철학적 사유의 조건",
+        "summary": "철학급수를 측정하고 철학과 질문, 이해, 보편과 특수, 부정의 개념을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "대상",
+        "value": "중국철학 및 동아시아 사상"
+      }
+    ],
+    "keyEntitiesText": "박자, 공자, 장자, 주자",
+    "settingText": "한국 및 동아시아적 맥락, 전근대와 근현대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1l2PN6W5obXqC9xX1OBIDXMRtdpd1dp8r",
+    "filename": "박상환-박자의 철학가게(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T20:48:22.000Z",
+    "size": "541925",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1l2PN6W5obXqC9xX1OBIDXMRtdpd1dp8r/view?usp=drivesdk",
+    "sourceSha256": "6db15efdfd27698c4cad1851390b58e010caff88d0d2cfb1fb656463842f4f8b",
+    "textSha256": "ef15e663fd1145deb4c07775de7eaa49ea3c7d48f71ca87c755f7d855c433826",
+    "changeKey": "b764fe9d19ddc7047c2fce34de807f61",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "140b72a77c98ee7ddde1",
+    "workId": "140b72a77c98ee7ddde1",
+    "driveFileId": "1l2PN6W5obXqC9xX1OBIDXMRtdpd1dp8r",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:14:11.050536+00:00",
+    "updatedAt": "2026-09-22T19:14:11.050554+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:14:11.050768+00:00"
+    }
+  }
+}

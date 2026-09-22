@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신약 성서 이야기",
+    "author": "헨드릭 W. 반룬",
+    "genre": "종교",
+    "tags": [
+      "신약성서",
+      "예수",
+      "기독교역사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "역사와 문화를 쉽고 재미있게 풀어낸 저술가.",
+    "oneLineSummary": "고대 그리스의 부상과 유대의 역사적 배경 속에서 태어난 나사렛 예수의 삶과 신약 성서의 이야기를 흥미롭게 풀어낸 교양서.",
+    "overallSummary": "그리스의 문명 발전과 알렉산더의 정복을 통한 유대 사회의 헬레니즘화 과정을 살피고, 서아시아의 작은 땅에서 인류 역사상 가장 깊은 울림을 준 예수의 삶과 가르침을 생생하게 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 그리스의 부상",
+        "summary": "고대 그리스의 탄생과 페르시아와의 충돌, 문화적 전성기를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "역사적 맥락을 결합한 성서 이야기"
+      }
+    ],
+    "keyEntitiesText": "헨드릭 W. 반 룬, 모세, 키루스 대왕, 알렉산더, 안티오쿠스 에피파네스",
+    "settingText": "고대 그리스, 팔레스타인, 서아시아"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Tano7ByOlmtL3sEbLHitOYWPvoxldshH",
+    "filename": "반룬-신약 성서 이야기(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:26.695Z",
+    "size": "189382",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1Tano7ByOlmtL3sEbLHitOYWPvoxldshH/view?usp=drivesdk",
+    "sourceSha256": "c02f2c275b4c15678a4d7217f5f374097a1c7b7c5d0c963cab790875e8c74deb",
+    "textSha256": "30c2b2d34c96ac421e7e8401c337b4e792edd86ae8b49690195c40b01139ce98",
+    "changeKey": "b9aa89f7c115f197296fa94d320258b6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e8505a1f41e9a409a2d7",
+    "workId": "e8505a1f41e9a409a2d7",
+    "driveFileId": "1Tano7ByOlmtL3sEbLHitOYWPvoxldshH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:17:35.787782+00:00",
+    "updatedAt": "2026-09-22T19:17:35.787798+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:17:35.787905+00:00"
+    }
+  }
+}

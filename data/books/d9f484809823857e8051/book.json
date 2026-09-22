@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서양의 지혜",
+    "author": "버트런드 러셀",
+    "genre": "철학사",
+    "tags": [
+      "서양철학사",
+      "철학의지혜",
+      "그리스철학"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "노벨 문학상 수상자이자 20세기 영국의 위대한 철학자.",
+    "oneLineSummary": "탈레스부터 비트겐슈타인까지 그리스 철학을 뿌리로 하여 발전해 온 서양 철학의 역사와 사상을 비판적으로 조명한 철학사.",
+    "overallSummary": "고대 그리스 문명의 발흥과 밀레토스학파의 탄생을 시작으로 서양 사상이 걸어온 길을 역사적 상황과 함께 해설하며, 철학적 탐구와 로고스의 전통이 어떻게 서양 문명의 기준이 되었는지 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: 철학자들은 어떤 일을 하는가?",
+        "summary": "철학과 과학의 차이, 그리스 문명의 발흥과 철학의 기원을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시각",
+        "value": "영국 분석철학자의 비판적 철학사 서술"
+      }
+    ],
+    "keyEntitiesText": "버트런드 러셀, 탈레스, 호머, 아리스토텔레스, 플라톤",
+    "settingText": "고대 그리스부터 현대에 이르는 서양"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1v3dueOQ42seQbih1tw3TSVqnMAX-o80y",
+    "filename": "버트런드 러셀-서양의 지혜, 철학이란 무엇인가(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T01:08:28.000Z",
+    "size": "2284808",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1v3dueOQ42seQbih1tw3TSVqnMAX-o80y/view?usp=drivesdk",
+    "sourceSha256": "4de11119207be431ce0c8b12ff3ab18ea53a65204a4f5f8d4e2a7a833c591db6",
+    "textSha256": "619e23e293300e41061dfd3ae27beef63b1fc5697809dc84a5487d702bfc8e5d",
+    "changeKey": "107f76f20d8be4be8dc492c7f3152861",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d9f484809823857e8051",
+    "workId": "d9f484809823857e8051",
+    "driveFileId": "1v3dueOQ42seQbih1tw3TSVqnMAX-o80y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:18:15.595392+00:00",
+    "updatedAt": "2026-09-22T19:18:15.595409+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:18:15.595513+00:00"
+    }
+  }
+}

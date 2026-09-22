@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "박태웅의 AI 강의",
+    "author": "박태웅",
+    "genre": "기술·컴퓨터",
+    "tags": [
+      "인공지능",
+      "챗GPT",
+      "인공일반지능"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한빛미디어 이사회 의장이자 IT 분야 전문가.",
+    "oneLineSummary": "챗GPT의 탄생부터 AI의 진화 과정, 그리고 인류가 마주한 위험과 대응 방안까지 알기 쉽게 풀어낸 인공지능 가이드.",
+    "overallSummary": "GPU와 딥러닝의 발전으로 촉발된 챗GPT 열풍의 실체를 해부하고, 생성형 AI가 가져올 미디어의 변화, 저작권 및 윤리적 문제와 함께 신뢰할 수 있는 인공지능을 위한 공론화의 필요성을 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1강 놀라움과 두려움 사이에서 등장하다",
+        "summary": "GPU의 병렬계산 능력과 딥러닝을 통한 인공지능의 패턴 인식, 챗GPT의 정체를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "대상",
+        "value": "인공지능 초보자와 전문가 모두를 위한 교양서"
+      }
+    ],
+    "keyEntitiesText": "박태웅, 제프리 힌턴, 토머스 왓슨, 게리 마커스",
+    "settingText": "현대 AI 기술 발전 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uruw6w8bE1ZVK2V3a24flfZBLHnEO7ps",
+    "filename": "박태웅-박태웅의 AI 강의(2023 한빛비즈).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-17T16:41:25.000Z",
+    "size": "252066",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1uruw6w8bE1ZVK2V3a24flfZBLHnEO7ps/view?usp=drivesdk",
+    "sourceSha256": "d208f40c6194a32ebf2eba2e9b722fce19340574a1e2fb11c91d92ea15757fda",
+    "textSha256": "11fb5713f2c4946e5a02444dbc6095d76b23fb49e394b33bd98b10617d4ecb5b",
+    "changeKey": "b064dda9cd9d7d886b11fc32af802a90",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e04bc654ca9527346ac4",
+    "workId": "e04bc654ca9527346ac4",
+    "driveFileId": "1uruw6w8bE1ZVK2V3a24flfZBLHnEO7ps",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:17:18.124630+00:00",
+    "updatedAt": "2026-09-22T19:17:18.124645+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:17:18.124749+00:00"
+    }
+  }
+}

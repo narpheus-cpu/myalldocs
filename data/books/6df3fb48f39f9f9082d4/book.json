@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한국현대사 열한가지 질문",
+    "author": "박세길",
+    "genre": "한국현대사",
+    "tags": [
+      "현대사",
+      "민주화",
+      "산업화"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "진보적 관점에서 현대사 교양 활동에 매진해 온 저자.",
+    "oneLineSummary": "절망의 시대를 지나 산업화와 민주화를 이뤄낸 한국 현대사의 명암과 미래의 과제를 던지는 열한 가지 질문.",
+    "overallSummary": "외환위기 이후 청년 세대의 고통과 진보개혁 세력의 추락이라는 절망의 시대를 진단하고, 분단과 전쟁, 한강의 기적과 민주화 투쟁 등 성공과 실패의 역사적 교훈을 통해 새로운 희망의 길을 모색한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 절망의 시대",
+        "summary": "청년 세대의 고통과 외환위기, 진보개혁 세력의 추락을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성",
+        "value": "역사적 질문과 사회 분석의 결합"
+      }
+    ],
+    "keyEntitiesText": "박세길, 서태지와 아이들, 김옥균",
+    "settingText": "근현대 대한민국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14wDpDqmqAWOvodI6Znboa6ARnpjDifV0",
+    "filename": "박세길-한국현대사 열한가지 질문(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T00:39:06.000Z",
+    "size": "533203",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/14wDpDqmqAWOvodI6Znboa6ARnpjDifV0/view?usp=drivesdk",
+    "sourceSha256": "bae70a12af18d445235cd54c7589fcce6f7f6521928ecfd61eedf356ea739c0c",
+    "textSha256": "a6e8c403a5d76706d05558b61f7e6ff27560d220f195a23b3d024776d5cfc065",
+    "changeKey": "4d6e327d229d86cf9ecb7451788a5dee",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6df3fb48f39f9f9082d4",
+    "workId": "6df3fb48f39f9f9082d4",
+    "driveFileId": "14wDpDqmqAWOvodI6Znboa6ARnpjDifV0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:15:19.471302+00:00",
+    "updatedAt": "2026-09-22T19:15:19.471318+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:15:19.471428+00:00"
+    }
+  }
+}

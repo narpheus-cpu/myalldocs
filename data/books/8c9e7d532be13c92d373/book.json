@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어쩌다 한국은",
+    "author": "박성호",
+    "genre": "사회",
+    "tags": [
+      "한국사회",
+      "시사",
+      "역사",
+      "정치"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세상사를 관찰해 의견을 내는 이승의 의견가이자 저자.",
+    "oneLineSummary": "노동, 역사, 정치, 언론, 종교, 교육, 국방 등 다양한 떡밥을 통해 한국 사회의 구조적 모순과 맥락을 파헤친 관찰기.",
+    "overallSummary": "인터넷상에서 화제가 된 여러 이슈와 사회적 떡밥들을 바탕으로 한국 사회가 어떻게 지금의 모습에 이르렀는지 노동, 역사, 정치, 언론, 종교, 교육, 국방, 미래의 8가지 주제로 나누어 통찰력 있게 분석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1강 노동",
+        "summary": "기술 발전과 노동환경의 변화, 기계에 빼앗긴 일자리와 러다이트 운동 등을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "한국 사회의 구조적 문제점과 대안"
+      }
+    ],
+    "keyEntitiesText": "박성호, 러다이트 운동, 차티스트 운동",
+    "settingText": "현대 대한민국 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BQjjJbNQ8aQvLPgQOgXxRRRk6QjvP95E",
+    "filename": "박성호-어쩌다 한국은(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T00:35:24.000Z",
+    "size": "591113",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1BQjjJbNQ8aQvLPgQOgXxRRRk6QjvP95E/view?usp=drivesdk",
+    "sourceSha256": "4ed977e757b56e63f9e31c7580562f423d6a3e6131faafc750e6fb7d79ea320b",
+    "textSha256": "85c02c2cce55c8a3536937310102d42de8f093640382cee25451392145e16af4",
+    "changeKey": "1d24e74f9bec6550a2ac533dc2b510bf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8c9e7d532be13c92d373",
+    "workId": "8c9e7d532be13c92d373",
+    "driveFileId": "1BQjjJbNQ8aQvLPgQOgXxRRRk6QjvP95E",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T19:14:17.605535+00:00",
+    "updatedAt": "2026-09-22T19:14:17.605549+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T19:14:17.605638+00:00"
+    }
+  }
+}
