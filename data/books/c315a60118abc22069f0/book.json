@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영어선생 미사꼬",
+    "author": "samuel",
+    "genre": "소설",
+    "tags": [
+      "학교",
+      "영어교사",
+      "불량학생",
+      "수영장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "erotica"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과거 일본 소설의 내용을 기억해 재구성한 번역/창작물.",
+    "oneLineSummary": "불량학생들에게 납치 및 결박당해 가학적인 관계를 맺게 된 미모의 영어 교사.",
+    "overallSummary": "명문 K고교에 부임한 25세의 미모와 늘씬한 몸매를 가진 영어 교사 미사꼬가 토요일 오후 수영장을 찾았다가 불량학생인 나까무라와 구로가와에게 탈의실에서 습격당해 결박당한 채 능욕당하고, 이후 학교에서도 이들에게 지배당하는 내용.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "탈의실의 습격",
+        "summary": "토요일 오후, 수영장을 찾은 미사꼬를 노리던 나까무라와 구로가와가 탈의실을 기습해 수영복을 찢고 묶어 강간한다."
+      },
+      {
+        "sectionTitle": "학교에서의 지배",
+        "summary": "이후 시험 시간에 감독으로 들어온 미사꼬는 두 학생에게 교실에서까지 은밀히 희롱당한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "설정",
+        "value": "과거의 트라우마와 학원 내 능욕물의 결합"
+      }
+    ],
+    "keyEntitiesText": "미사꼬(영어 교사), 나까무라(학생), 구로가와(학생)",
+    "settingText": "명문 K고교 수영장 탈의실, 교실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1J6AW7MLW1YQ2bc0Kj5Z6250BZvfiD7Al",
+    "filename": "[학교]영어선생 미사꼬.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:18.011Z",
+    "size": "6852",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1J6AW7MLW1YQ2bc0Kj5Z6250BZvfiD7Al/view?usp=drivesdk",
+    "sourceSha256": "fa823e30708d35927f6472a5afe3077755137ef99fde091518fb7518e1882b20",
+    "textSha256": "9d735ea25d884db33588ab6ec1edde30fa857eb2b7a4cf2cdd4933fd7a4f6d6d",
+    "changeKey": "db3c32b8481ec977aff0164d7c5bb21c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c315a60118abc22069f0",
+    "workId": "c315a60118abc22069f0",
+    "driveFileId": "1J6AW7MLW1YQ2bc0Kj5Z6250BZvfiD7Al",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:55:26.595131+00:00",
+    "updatedAt": "2026-09-22T16:55:26.595146+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:55:26.595226+00:00"
+    }
+  }
+}

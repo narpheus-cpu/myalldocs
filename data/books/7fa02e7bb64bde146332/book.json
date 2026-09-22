@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어느 여선생의 고백",
+    "author": "사이버펜",
+    "genre": "소설",
+    "tags": [
+      "학교",
+      "여교사",
+      "제자",
+      "고백체"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "erotica"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사이버펜 작가의 인터넷 게시판 연재 단편 소설.",
+    "oneLineSummary": "과거 중학교 교사 시절 제자와 나눴던 은밀하고 대담한 관계에 대한 고백.",
+    "overallSummary": "로리콘 성향을 가진 여교사가 20여 년 전 중학교 1학년 제자인 고토군을 상대로 남성호르몬 촉진 마사지라는 명목 아래 러브호텔과 학교에서 부적절한 관계를 맺고 이를 추억하는 내용.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "과거의 과오 고백",
+        "summary": "중학교 1학년 담임이자 보건체육 교사였던 주인공이 체구가 작은 제자 고토군을 유혹해 러브호텔로 데려간다."
+      },
+      {
+        "sectionTitle": "학교 내의 은밀한 관계",
+        "summary": "졸업할 때까지 호텔과 학교 내 물품보관실, 빈 교실 등을 오가며 제자와 육체적인 관계를 지속한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "인터넷 게시판 회고형 단편 소설"
+      }
+    ],
+    "keyEntitiesText": "여교사(나), 고토군(제자)",
+    "settingText": "중학교 교실 및 사무실, 러브호텔"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ydPuNgXbbgmlGChIRrPnBNreA6pHhFtY",
+    "filename": "[학교]어느 여선생의 고백.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:17.797Z",
+    "size": "17544",
+    "folderPath": [
+      "books",
+      "09 로맨스",
+      "19",
+      "iyagi"
+    ],
+    "relativePath": "books/09 로맨스/19/iyagi",
+    "webViewLink": "https://drive.google.com/file/d/1ydPuNgXbbgmlGChIRrPnBNreA6pHhFtY/view?usp=drivesdk",
+    "sourceSha256": "c347d62537746a4dd368517cbbb3437601e6bbb73a842f1dd64c401498e0ab1c",
+    "textSha256": "9f48f02804489f6ece3b4d2702164d998f41f5675cd2203a37389abb4325f146",
+    "changeKey": "1d9d8fc830e77d182c009e33f759c26d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7fa02e7bb64bde146332",
+    "workId": "7fa02e7bb64bde146332",
+    "driveFileId": "1ydPuNgXbbgmlGChIRrPnBNreA6pHhFtY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:53:33.480540+00:00",
+    "updatedAt": "2026-09-22T16:53:33.480557+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:53:33.480721+00:00"
+    }
+  }
+}

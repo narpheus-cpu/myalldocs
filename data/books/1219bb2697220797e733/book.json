@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에밀리",
+    "author": "다테영환",
+    "genre": "소설",
+    "tags": [
+      "학교",
+      "학생회장",
+      "노예",
+      "후배"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "erotica"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "다테영환의 원작을 번역한 소설.",
+    "oneLineSummary": "후배들의 계략으로 약점을 잡혀 노예가 된 학생회장 에밀리의 이야기.",
+    "overallSummary": "전교생에게 인기 있는 학생회장 에밀리가 카나코 일당에게 약점을 잡혀 알몸 사진을 찍히고, 친구를 구하기 위해 어쩔 수 없이 그들의 노예가 되어 학교 내에서 각종 수치스러운 조교와 체벌을 당하는 내용.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장~제2장",
+        "summary": "시청각 교실에서 카나코 일당에게 결박당한 채 강제로 처녀를 빼앗기고 노예 서약을 강요받는다."
+      },
+      {
+        "sectionTitle": "제3장~제5장",
+        "summary": "노예로서 치마 속 팬티를 검사받고, 보건교사 토모코에게도 약점을 잡히며 괴롭힘을 당한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "협박과 지배를 통한 복종"
+      }
+    ],
+    "keyEntitiesText": "에밀리(학생회장), 카나코, 기자, 이유미, 미키, 치하루, 토모코(양호교사)",
+    "settingText": "고등학교 시청각 교실, 학생회실, 보건실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OuKpWGEcmvSBEKfD4HTsVToQLHPnMzmA",
+    "filename": "에밀리 브론테-폭풍의 언덕(동서문화사)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T12:26:12.000Z",
+    "size": "1313530",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1OuKpWGEcmvSBEKfD4HTsVToQLHPnMzmA/view?usp=drivesdk",
+    "sourceSha256": "911af4abf2d965cf9030e345876801233203ff233560641c58309d1886cfcb3c",
+    "textSha256": "ccba0fb396c0f2c031f1369ee206fecb1e7007599d6fc6bdc0d603bba97a3d4b",
+    "changeKey": "fb9363ba53971985da944bbe3c351e5f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1219bb2697220797e733",
+    "workId": "1219bb2697220797e733",
+    "driveFileId": "1OuKpWGEcmvSBEKfD4HTsVToQLHPnMzmA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:53:45.282957+00:00",
+    "updatedAt": "2026-09-22T16:53:45.282972+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8273,
+      "updatedAt": "2026-09-22T16:53:45.283057+00:00"
+    }
+  }
+}
