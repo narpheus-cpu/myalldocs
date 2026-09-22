@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅도 1부 (영웅의 아들)",
+    "author": "김용",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "영웅도",
+      "장조당",
+      "양붕거",
+      "과거시험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "브루나이 출신의 장조당이 과거를 치르기 위해 중국에 왔다가 어지러운 세상에서 관리들의 습격을 받고 양붕거와 농부의 도움으로 위기를 모면하는 이야기입니다.",
+    "overallSummary": "명나라 말기, 브루나이에서 자란 장조당은 과거를 치르기 위해 중국 장주로 오지만 도적과 부패한 병사들의 약탈로 고초를 겪습니다. 광주로 향하던 중 탐욕스러운 관리들에게 노자를 빼앗길 위기에서 표두 양붕거의 도움으로 목숨을 건집니다. 병사들의 추격을 피해 도망치던 중 한 농부의 도움으로 비밀 동굴에 숨어 위기를 모면합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "영웅의 아들",
+        "summary": "장조당이 중국에 도착해 겪는 고초와 양붕거, 농부의 도움으로 위기를 탈출하는 과정"
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대적 배경",
+        "value": "명나라 말기 위충현 사후의 극심한 피폐와 군관들의 폭정"
+      }
+    ],
+    "keyEntitiesText": "장조당, 장신, 장강, 양붕거, 왕가, 농부, 목동",
+    "settingText": "명조 승정 6년(1633년), 복건성 장주, 광동성 경계, 농가의 비밀 동굴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zTB273H0F72anR58NN7oyaepYb5fucrc",
+    "filename": "김용-영웅도 1부.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:01.826Z",
+    "size": "1606612",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1zTB273H0F72anR58NN7oyaepYb5fucrc/view?usp=drivesdk",
+    "sourceSha256": "5b27b65bdd5e132d25b71657cab99c576a83197f2674158302878937629afcc5",
+    "textSha256": "903fef6038be29e1c5cc043188b7f861fb5861662b111ff0bed69fdd0f553fa5",
+    "changeKey": "7e4a05e89e694433a48a57fc010597fd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6784bd574065a0153840",
+    "workId": "6784bd574065a0153840",
+    "driveFileId": "1zTB273H0F72anR58NN7oyaepYb5fucrc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:04:00.802886+00:00",
+    "updatedAt": "2026-09-22T15:04:00.802902+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.6624,
+      "updatedAt": "2026-09-22T15:04:00.803005+00:00"
+    }
+  }
+}

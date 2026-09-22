@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "연성결 (1. 촌사람이 도시에 가다)",
+    "author": "김용",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "연성결",
+      "적운",
+      "척방",
+      "척장발",
+      "만진산"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "시골에서 검법을 배우던 적운과 척방이 사부 척장발과 함께 만진산의 생일 축하를 위해 형주에 갔다가 소동에 휘말리는 이야기입니다.",
+    "overallSummary": "상서 마계포에서 사부 척장발에게 당시검법을 배우던 적운과 척방은 만진산의 제자 복원의 초청을 받아 형주로 향합니다. 만진산의 생일 잔치에 태행산의 도적 여통이 나타나 소란을 피우자, 적운은 사부의 새 옷을 더럽힌 여통에게 변상을 요구하며 싸움을 벌입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 촌사람이 도시에 가다",
+        "summary": "적운과 척방이 형주에 도착하여 만진산의 생일 잔치에서 여통과 싸우는 과정"
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "무공 및 검법",
+        "value": "당시검법, 연성검법, 오운수, 철비공, 육합권"
+      }
+    ],
+    "keyEntitiesText": "적운, 척방, 척장발, 복원, 만진산, 여통, 주기",
+    "settingText": "상서 마계포, 형주 만진산의 저택"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XzQwPSkZ3mcAbf2qz7yUEHdk-tAydzEa",
+    "filename": "김용-연성결(連城訣).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:01.767Z",
+    "size": "659740",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1XzQwPSkZ3mcAbf2qz7yUEHdk-tAydzEa/view?usp=drivesdk",
+    "sourceSha256": "2368dc7f06a9e75814a5e2adbf6e3cd26ee07a4702f1da031e0cf2d27dd1e9a0",
+    "textSha256": "53d9e0c5a49295e0f235604d7473e24e38525067ab6ed369563c3fe6d7fdef63",
+    "changeKey": "201309a2da10ea1f964d4ee998af83cb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ada6683b78b281c1773d",
+    "workId": "ada6683b78b281c1773d",
+    "driveFileId": "1XzQwPSkZ3mcAbf2qz7yUEHdk-tAydzEa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:03:43.500610+00:00",
+    "updatedAt": "2026-09-22T15:03:43.500626+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4533,
+      "updatedAt": "2026-09-22T15:03:43.500732+00:00"
+    }
+  }
+}

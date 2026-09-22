@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영웅도 2부 (영웅의 길 / 죽음의 고을)",
+    "author": "김용",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "영웅도",
+      "오도통",
+      "안봉일",
+      "설산파",
+      "장락방"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설은 사람들의 성격과 감정을 중심으로 하며, 무협소설 역시 인간의 감정을 표현하는 하나의 방법입니다.",
+    "oneLineSummary": "금도채의 습격을 받은 후감집에서 빵 장수로 신분을 숨기고 살던 오도통이 정체가 탄로 나 결투 끝에 사망하는 이야기입니다.",
+    "overallSummary": "개봉현 동쪽 후감집에 금도채의 도적들이 들이닥쳐 마을을 포위합니다. 빵 장수로 변장해 살아가던 오도통(마천거사 사연객의 현철령을 가진 인물)은 금도채의 거한에게 정체가 탄로 납니다. 오도통은 필도를 사용해 도적들과 싸우지만, 갑자기 나타난 깡마른 노인의 공격에 갈비뼈가 부러져 쓰러지고 결국 거한의 쌍구에 찔려 사망합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "작가 서문",
+        "summary": "소설의 본질과 인간 감정의 표현, 무협소설의 가치에 대한 작가의 견해"
+      },
+      {
+        "sectionTitle": "죽음의 고을",
+        "summary": "후감집에서 신분을 숨기고 살던 오도통이 금도채의 습격을 받아 결투 끝에 사망하는 과정"
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 무공",
+        "value": "수도금래법, 환포육합, 벽괘도"
+      }
+    ],
+    "keyEntitiesText": "오도통, 안봉일, 금도채 거한, 깡마른 노인, 석청, 민유, 백만검, 백자재, 패해석, 사연객",
+    "settingText": "하남성 개봉현 후감집, 황혼 무렵"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GUhd82C07Cm9yWoBGoeKxKG1XOQjXPpw",
+    "filename": "김용-영웅도 2부.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:01.874Z",
+    "size": "1535373",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1GUhd82C07Cm9yWoBGoeKxKG1XOQjXPpw/view?usp=drivesdk",
+    "sourceSha256": "a61cabeba5ff8e5bcba56ce1b905feae9ecceebba85486bfd9d600253f95b01d",
+    "textSha256": "ce468626a15ece77e6baf9f5e6ab590c3f16521431e63b489f5a6d92caa171c9",
+    "changeKey": "cdc56df785999eb235c7442205cc08cf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7caac078629a9569b593",
+    "workId": "7caac078629a9569b593",
+    "driveFileId": "1GUhd82C07Cm9yWoBGoeKxKG1XOQjXPpw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:04:08.708533+00:00",
+    "updatedAt": "2026-09-22T15:04:08.708547+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5705,
+      "updatedAt": "2026-09-22T15:04:08.708640+00:00"
+    }
+  }
+}

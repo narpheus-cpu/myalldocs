@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소설 영웅문 제 2 부 신조협려 제 1 권 (그릇된 연정, 피를 부르다)",
+    "author": "김용",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "영웅문",
+      "신조협려",
+      "이막수",
+      "정영",
+      "육무쌍",
+      "육립정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "적련선자 이막수의 복수를 앞두고, 미친 괴한에게 납치되었다가 풀려난 정영과 육무쌍 자매가 육가장으로 돌아와 위기를 맞이하는 이야기입니다.",
+    "overallSummary": "남송 시절 가흥 남호에서 정영과 육무쌍은 미친 괴한(무삼통)에게 납치되었다가 그의 상처를 치료해주고 풀려납니다. 괴한은 육전원의 무덤을 파헤치고 사라지고, 아이들은 육가장으로 돌아옵니다. 육가장의 주인 육립정은 벽에 찍힌 9개의 혈수인을 보고 적련선자 이막수의 복수가 시작되었음을 직감하고 절망에 빠집니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그릇된 연정(戀情), 피를 부르다",
+        "summary": "정영과 육무쌍이 미친 괴한에게 납치되었다가 풀려나 육가장으로 돌아오고, 육립정이 이막수의 복수를 직감하는 과정"
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "갈등 요인",
+        "value": "이막수의 육가장에 대한 복수 예고(혈수인)"
+      }
+    ],
+    "keyEntitiesText": "정영, 육무쌍, 괴한(무삼통), 육전원, 하원군, 육립정, 이막수, 육가장",
+    "settingText": "남송 이종 황제년간, 가흥 남호, 육가장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Umd26tkQ7bTBVS4oArDxXPd4VDuhDkn8",
+    "filename": "김용-영웅문2부(신조협려).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:02.626Z",
+    "size": "4406171",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1Umd26tkQ7bTBVS4oArDxXPd4VDuhDkn8/view?usp=drivesdk",
+    "sourceSha256": "6c66471bc9f3c9072955b0c82a572f7a55967cf11a3d8812023d630887e66532",
+    "textSha256": "d8e53f9cc5e1c9c19f65dd49ac2a8cf8e182d5c0c4de2e8daec93e50c94b186e",
+    "changeKey": "62bea783efb992f7c5cefa4bc5d130cf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "01afff0fe6f5626fb2f1",
+    "workId": "01afff0fe6f5626fb2f1",
+    "driveFileId": "1Umd26tkQ7bTBVS4oArDxXPd4VDuhDkn8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T15:05:08.638973+00:00",
+    "updatedAt": "2026-09-22T15:05:08.638988+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.59,
+      "updatedAt": "2026-09-22T15:05:08.639094+00:00"
+    }
+  }
+}
