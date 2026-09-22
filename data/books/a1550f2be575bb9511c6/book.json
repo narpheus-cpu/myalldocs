@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대마법사",
+    "author": "미상",
+    "genre": "판타지",
+    "tags": [
+      "대마법사",
+      "마법실험",
+      "7서클"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통판타지",
+        "마법사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미상",
+    "oneLineSummary": "대미궁 속에서 10년 동안 마법 실험에 몰두한 7서클 마스터 엘 로크의 마나 분리 실험 성공기.",
+    "overallSummary": "과거 발록이 봉인되어 있던 대미궁의 지하 연구실에서 10년 동안 마법 실험에 매달려온 7서클 마스터 엘 로크. 스승 아슈날의 뜻을 이어 인간의 한계인 7서클을 극복하기 위해 마나의 성질에 대한 의문을 품고 연구를 지속해왔다. 마침내 막대한 최상급 마나석과 재료를 소모한 끝에 마나가 청색과 홍색 두 가지 기운으로 분리되는 역사적인 실험 성공을 이뤄낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "실험과 회상",
+        "summary": "엘 로크는 수많은 최상급 마나석을 소모하며 마법 실험에 몰두하고, 자신의 스승 아슈날과 대미궁에 얽힌 과거를 회상한다."
+      },
+      {
+        "sectionTitle": "마법사의 세계",
+        "summary": "세 대륙의 마법사를 지배하는 16지파와 마법사들의 성향, 그리고 오랜 세월 동안 은둔해 온 자신의 삶을 되돌아본다."
+      },
+      {
+        "sectionTitle": "실험의 성공",
+        "summary": "격렬한 진동 끝에 마나석의 마나가 청홍 두 가지 색으로 완벽하게 분리되며 10년 간의 노력이 결실을 맺는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "치밀한 마법 설정과 고독한 마법사의 탐구 과정"
+      }
+    ],
+    "keyEntitiesText": "엘 로크(주인공), 아슈날(스승), 에이슬란(마법사의 탑 마스터)",
+    "settingText": "대미궁의 지하 실험실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yR-fl706HLBifxJGiW6uHiFOnIE07p_X",
+    "filename": "대마법사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.164Z",
+    "size": "1517480",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1yR-fl706HLBifxJGiW6uHiFOnIE07p_X/view?usp=drivesdk",
+    "sourceSha256": "cb0ef8729f08c7b04785e1bcdac37964511e7726c1660c9a46080c27a3f28a35",
+    "textSha256": "7565abf3253b441183fa77bd7bc7a2036a592424249d69a0208a5b58ceab10fa",
+    "changeKey": "87050ce533451ec557fa4b3638eafd5a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a1550f2be575bb9511c6",
+    "workId": "a1550f2be575bb9511c6",
+    "driveFileId": "1yR-fl706HLBifxJGiW6uHiFOnIE07p_X",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:47:20.557504+00:00",
+    "updatedAt": "2026-09-22T11:47:20.557521+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-22T11:47:20.557609+00:00"
+    }
+  }
+}

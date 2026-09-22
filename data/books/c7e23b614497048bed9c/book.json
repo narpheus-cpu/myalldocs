@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "다크 프리스트",
+    "author": "엘",
+    "genre": "판타지",
+    "tags": [
+      "가상현실",
+      "게임",
+      "프리스트",
+      "개그"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "게임소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이 글의 저작권은 김원호 작가에게 있습니다.",
+    "oneLineSummary": "평범한 프리스트를 꿈꾸던 주인공이 사기에 휘말려 폭력적인 다크 프리스트로 전직하게 되는 이야기.",
+    "overallSummary": "가상현실 게임 '에피리 월드'를 시작한 주인공 김윤현은 친구의 무시에 욱해 프리스트 직업을 선택한다. 하지만 게임 속에서 수상한 사기꾼 NPC에게 속아 강제로 뱀 동굴에 갇히고, 험난한 사투 끝에 레벨을 올리며 다크 프리스트로 전직하게 되는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 다크프리스트",
+        "summary": "주인공 김윤현은 친구의 놀림에 격분하여 가상현실 게임 에피리 월드에서 프리스트를 선택하고 토끼 마운틴을 물리친다."
+      },
+      {
+        "sectionTitle": "전직",
+        "summary": "수상한 남자의 꾐에 넘어간 주인공은 강제로 뱀이글거리는 동굴에 갇혀 죽을 고생을 하며 레벨을 올린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "게임 판타지"
+      },
+      {
+        "key": "주요 소재",
+        "value": "가상현실, 직업 전직"
+      }
+    ],
+    "keyEntitiesText": "김윤현(주인공), 영현(친구), 정체불명의 남자(사기꾼)",
+    "settingText": "가상현실 게임 에피리 월드와 초보자 성 밖의 필드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15Q4Hj3BEojkZlcmVceIJxlHyYG2fSzoh",
+    "filename": "다크 프리스트(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:38.784Z",
+    "size": "1245380",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/15Q4Hj3BEojkZlcmVceIJxlHyYG2fSzoh/view?usp=drivesdk",
+    "sourceSha256": "9087abdf666312cdd8008f365f9d46f3ab403e64e4d86d87524df9ae95f5c451",
+    "textSha256": "f8ebab2579978d99278830d1f8499cd7bec4db5caff2290a963dc31b9bcdfbb8",
+    "changeKey": "ecdd52caf21e9898713f4a7222c17bb5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c7e23b614497048bed9c",
+    "workId": "c7e23b614497048bed9c",
+    "driveFileId": "15Q4Hj3BEojkZlcmVceIJxlHyYG2fSzoh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:46:31.558491+00:00",
+    "updatedAt": "2026-09-22T11:46:31.558508+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:46:31.558675+00:00"
+    }
+  }
+}

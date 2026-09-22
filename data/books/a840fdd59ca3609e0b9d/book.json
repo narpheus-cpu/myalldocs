@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "데로스 앤 데블랑",
+    "author": "신충 (광황)",
+    "genre": "판타지",
+    "tags": [
+      "검사",
+      "마법",
+      "복수"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통판타지",
+        "다크판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "신충 (광황)",
+    "oneLineSummary": "눈이 먼 채 배신자 스승을 처단하고 숲에 쓰러진 사내 란테르트와 그를 구한 두 마법사 자매의 이야기.",
+    "overallSummary": "눈이 멀고 온몸에 상처를 입은 채 나무 등에 기대어 있는 사내 란테르트. 그는 자신에게 검술과 마법을 가르치고 독을 먹여 눈을 멀게 만든 중년의 스승과 싸워 그를 자신의 검으로 관통해 죽인다. 사방에 눈발이 휘날리는 에카 숲속에서 만신창이가 된 란테르트는 마법사 자매인 라브ë와 언니에게 발견되고, 언니의 정령계 치료 마법으로 목숨을 건지게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "눈이 먼 청년 란테르트는 자신을 배신하고 목숨을 노린 스승과 대치 끝에 압도적인 일격으로 그를 살해한다."
+      },
+      {
+        "sectionTitle": "1. 세 번째와 네 번째",
+        "summary": "마법사 자매인 언니와 라브ë는 에카 숲에서 쓰러져 있는 피투성이의 란테르트를 발견하고, 언니가 정령계 마법으로 그의 상처를 치료해 준다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "아침이 밝고, 눈이 멀어 앞을 보지 못하는 란테르트는 자매가 건네주는 수프와 아침을 맞이하며 대화를 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "차갑고 진지하며 다크함"
+      }
+    ],
+    "keyEntitiesText": "란테르트 루렌드, 라브ë, 라브ë의 언니",
+    "settingText": "위다 남부 카타 평야 에카 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Xt6yn8y7ylkroqcmwXfyc59bST5l20GS",
+    "filename": "데로스 앤 데블랑(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.401Z",
+    "size": "4195065",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1Xt6yn8y7ylkroqcmwXfyc59bST5l20GS/view?usp=drivesdk",
+    "sourceSha256": "4c22093f749eac8115139d9dce5efbc498fe0fe1fcd4403cc49caee33ca7fd08",
+    "textSha256": "69bc3f09ffa72f2ee3e9f7cdb88c95a9610846208f34413c63a8924f63311267",
+    "changeKey": "37636322c27b0a1da2c489371cc89236",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a840fdd59ca3609e0b9d",
+    "workId": "a840fdd59ca3609e0b9d",
+    "driveFileId": "1Xt6yn8y7ylkroqcmwXfyc59bST5l20GS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:49:13.174423+00:00",
+    "updatedAt": "2026-09-22T11:49:13.174440+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:49:13.174524+00:00"
+    }
+  }
+}

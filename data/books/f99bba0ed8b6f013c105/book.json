@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대마왕전",
+    "author": "권지은",
+    "genre": "판타지",
+    "tags": [
+      "대마왕전",
+      "가출",
+      "마계"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "코믹판타지",
+        "이세계"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권지은 (fullup)",
+    "oneLineSummary": "마왕의 가업을 이어받기 싫어 데룬즈 왕국으로 가출한 마왕성 왕자 아스카의 모험.",
+    "overallSummary": "마왕의 아들이자 데룬즈 왕국의 위대한 현자를 꿈꾸는 아스카는 가업을 잇기 싫어 가출을 감행한다. 하지만 마계공작 씨브의 감시 속에서 돈도 없이 인간 세상에 발을 들여놓고, 첫날부터 반지를 팔려다 씨브에게 딱 걸리고 만다. 씨브가 화가 나서 휘파람을 불어 마수를 소환하는 바람에 마을에 몬스터들이 쳐들어오고, 아스카는 엉겁결에 용병 떡대(조안)와 함께 몬스터들을 소탕하게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "마왕 되기 싫어 가출한 왕자 아스카와 그의 뒤를 지키라는 마왕의 명을 받은 씨브."
+      },
+      {
+        "sectionTitle": "제 1장 가출소년",
+        "summary": "인간 세상의 소란스러움 속에서 돈이 없어 반지를 팔려던 아스카는 씨브에게 들키고, 씨브의 휘파람으로 인해 마을에 몬스터들이 떼거지로 몰려온다."
+      },
+      {
+        "sectionTitle": "몬스터 소탕과 사크와의 만남",
+        "summary": "용병 조안과 함께 몬스터를 무찌른 아스카는 오거의 공격에 기절한 뒤, 데룬즈 왕국의 기사대장 사크 드 로펜하르트의 별장에 눈을 뜨고 그의 양자 제안을 받는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "유쾌하고 코믹함"
+      }
+    ],
+    "keyEntitiesText": "아스카(주인공), 씨브(마계공작), 조안(떡대 용병), 사크 드 로펜하르트",
+    "settingText": "마왕성과 인간 세상의 데룬즈 왕국 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LREI084RuJWg6P3-YcKKPJnhBIavyvo4",
+    "filename": "대마왕전 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.203Z",
+    "size": "1728527",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1LREI084RuJWg6P3-YcKKPJnhBIavyvo4/view?usp=drivesdk",
+    "sourceSha256": "73553839a06708c1a4a008173708a09c28dd67699a77d6ccfb0abfdd8c7b47ad",
+    "textSha256": "59ba237bfc260eec40706a63f581ffafe27f258620ca5609d67b8e83c48d8ad2",
+    "changeKey": "38f57bf18a56f9378aa723e32419207d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f99bba0ed8b6f013c105",
+    "workId": "f99bba0ed8b6f013c105",
+    "driveFileId": "1LREI084RuJWg6P3-YcKKPJnhBIavyvo4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:47:36.023482+00:00",
+    "updatedAt": "2026-09-22T11:47:36.023499+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:47:36.023587+00:00"
+    }
+  }
+}

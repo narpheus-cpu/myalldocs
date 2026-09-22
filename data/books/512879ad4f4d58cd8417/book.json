@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "데프콘",
+    "author": "미상",
+    "genre": "판타지",
+    "tags": [
+      "대체역사",
+      "군사",
+      "전쟁"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "밀리터리",
+        "대체역사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미상",
+    "oneLineSummary": "중국 내전의 발발 원인과 남부중국의 승리, 그리고 통일 한국을 향한 잠재적 위협을 분석하는 정보사단의 회의.",
+    "overallSummary": "1999년 7월, 대전에 위치한 정보사단에서는 중국 내전의 결과와 향후 정세를 분석하는 화상 회의가 열린다. 정보사단장 이재영 중장의 사회로 진행된 회의에서 중국 전문가 신은정 교수는 광동성과 복건성 등 남부중국 연합이 중앙정부를 상대로 승리할 수 있었던 원인으로 경제적 불평등과 지방 군부 및 자본가들의 밀착을 지적한다. 나아가 신 교수는 남부중국이 주도권을 잡은 중국이 향후 대만과 베트남을 거쳐 통일을 이룬 한국을 위협할 가능성이 있다고 경고한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "정보사단의 회의와 중국 내전 분석",
+        "summary": "대전 정보사단에서 중국 내전의 원인과 남부중국 연합의 승리 요인에 대해 이재영 중장과 신은정 교수가 토론을 벌인다."
+      },
+      {
+        "sectionTitle": "남부중국의 부상과 향후 전망",
+        "summary": "홍콩과 대만의 자본, 광동·복건성의 경제적 분업과 군부의 유착 관계를 설명하며, 신 교수는 향후 중국의 팽창과 한국에 대한 위협 가능성을 제기한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "밀리터리 대체역사소설"
+      }
+    ],
+    "keyEntitiesText": "이재영(정보사단장), 신은정(교수), 나영찬(대령), 표인준(중령)",
+    "settingText": "1999년 대전 정보사단 본부 회의실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1s1ZgC7bv9yVp9Gjkpu0w2nZFcppRysaD",
+    "filename": "데프콘(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.617Z",
+    "size": "5123274",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1s1ZgC7bv9yVp9Gjkpu0w2nZFcppRysaD/view?usp=drivesdk",
+    "sourceSha256": "7720ba0d797f55fd1057cb09829c5971571ac2834ad648aecb8d7ce86ec2638f",
+    "textSha256": "eb8a3e88153de1517b77c3d8a7f2cb6bbe62cde030f42184d81a385af153aa7b",
+    "changeKey": "572b6e2c38e3afc973292dc0e133d84b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "512879ad4f4d58cd8417",
+    "workId": "512879ad4f4d58cd8417",
+    "driveFileId": "1s1ZgC7bv9yVp9Gjkpu0w2nZFcppRysaD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:49:41.323827+00:00",
+    "updatedAt": "2026-09-22T11:49:41.323844+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:49:41.323930+00:00"
+    }
+  }
+}

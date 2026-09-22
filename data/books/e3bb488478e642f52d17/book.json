@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "다크문",
+    "author": "윤현승",
+    "genre": "판타지",
+    "tags": [
+      "SF",
+      "판타지",
+      "여행자",
+      "전쟁"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "윤현승",
+    "oneLineSummary": "전쟁의 참혹함 속에서 국적 없는 나그네와 여행자들이 겪는 이야기.",
+    "overallSummary": "프론타몬 국과 제국 다트로피아의 치열한 전쟁터, 시체의 산이 된 곳에서 국적 없는 검은 머리의 나그네가 등장한다. 그는 맹목적인 죽음을 선택하는 병사들과 잔인한 제국 마법사 사이에서 개입하지 않으려 하지만, 결국 다트로피아의 마법사를 처단하게 된다. 이후 새로운 인물인 제일린이 용을 죽이기 위해 험한 산을 오르다 괴물에게 당할 위기에서 금발 청년과 마법사 시하라에게 구출되는 이야기가 이어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1편: 시체의 산",
+        "summary": "프론타몬 국과 다트로피아 제국의 전쟁터에서 검은 머리의 나그네가 참혹한 시체의 산을 지나며 마법사와 괴물들을 상대한다."
+      },
+      {
+        "sectionTitle": "제2편: 새로운 만남으로",
+        "summary": "용을 죽이러 떠났던 제일린은 괴물 곰에게 습격당해 위기에 처하지만 시드와 시하라에게 구출된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "어둡고 비장함"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "전쟁과 인간의 선택, 운명"
+      }
+    ],
+    "keyEntitiesText": "검은 머리의 나그네, 다트로피아 마법사, 제일린, 시드, 시하라",
+    "settingText": "전쟁으로 파괴된 전장과 용이 산다는 험준한 산"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bxTW6bNYeJ5GT-IiEyiaeEFBj5-5Mv4J",
+    "filename": "다크문 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:38.820Z",
+    "size": "3270583",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1bxTW6bNYeJ5GT-IiEyiaeEFBj5-5Mv4J/view?usp=drivesdk",
+    "sourceSha256": "5abcca019625b59df0a3419b67fb2dc97b2a6e702845ed36e3efbcd3145a6619",
+    "textSha256": "a60734d4a668e7384bdbc4c3cab075c5fa73f3f36552705f4875c9e84a4c0835",
+    "changeKey": "28cd7519609d79dc8c82da6893d86566",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e3bb488478e642f52d17",
+    "workId": "e3bb488478e642f52d17",
+    "driveFileId": "1bxTW6bNYeJ5GT-IiEyiaeEFBj5-5Mv4J",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:46:41.843153+00:00",
+    "updatedAt": "2026-09-22T11:46:41.843169+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:46:41.843255+00:00"
+    }
+  }
+}

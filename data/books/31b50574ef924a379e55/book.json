@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "데스퍼라도",
+    "author": "이광섭",
+    "genre": "판타지",
+    "tags": [
+      "검사",
+      "아폴립스",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통판타지",
+        "액션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이광섭",
+    "oneLineSummary": "파가논 제국의 변방에서 아폴립스 목검을 재료로 일어나는 아이들의 전쟁놀이와 소년 렉을 지켜보는 방랑자 헤수스의 이야기.",
+    "overallSummary": "2년간의 방랑 끝에 파가논 제국의 변방에 위치한 아폴립스 나무 자생지를 발견한 헤수스는 그 나무 위에 움막을 짓고 머물게 된다. 그곳은 가드린 마을과 팔튼 마을 아이들이 영역 확보를 위해 전쟁놀이를 벌이는 경계선이었다. 가드린의 카란 대장에게 매일같이 구박과 괴롭힘을 당하면서도 묵묵히 버티는 소년 렉을 흥미롭게 지켜보던 헤수스는, 아이들의 놀이가 점차 가혹한 사냥놀이로 변하자 렉에게 남다른 관심을 갖기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1화. 아폴립스의 목검",
+        "summary": "헤수스는 아폴립스 나무 위에 움막을 짓고, 가드린 마을과 팔튼 마을 아이들의 치열한 전쟁놀이를 관전한다."
+      },
+      {
+        "sectionTitle": "2화. 아폴립스의 목검",
+        "summary": "카란 대장은 말을 하지 않는 독종 소년 렉을 나무에 묶어놓고 가혹한 벌을 내리고, 팔튼 아이들까지 와서 렉에게 모욕을 준 뒤 떠난다."
+      },
+      {
+        "sectionTitle": "3화. 아폴립스의 목검",
+        "summary": "전쟁놀이가 렉을 찾는 '사냥놀이'로 바뀌고, 팔튼 아이들에게 붙잡혀 목에 밧줄이 묶인 채 끌려 다니는 렉을 헤수스가 지켜본다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "진중하고 몰입감 있음"
+      }
+    ],
+    "keyEntitiesText": "헤수스, 렉, 카란(가드린 대장), 빌로마(팔튼 대장)",
+    "settingText": "파가논 제국의 변방 아폴립스 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IX4-1mHjubsdJmCLkRIcvHi923uctgBI",
+    "filename": "데스퍼라도.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.555Z",
+    "size": "1715888",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1IX4-1mHjubsdJmCLkRIcvHi923uctgBI/view?usp=drivesdk",
+    "sourceSha256": "f6611754a3f9282ce7cab6ddbac38b9eefbe681fec89cb3bc35d0dd90cf31a62",
+    "textSha256": "cf82c371b735fa7d1376fe6d59e18f771cfa11f6e2cc0c79289c8378849d950c",
+    "changeKey": "6eed16ffc8ec9897f98cf9d8ac6bf8e5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "31b50574ef924a379e55",
+    "workId": "31b50574ef924a379e55",
+    "driveFileId": "1IX4-1mHjubsdJmCLkRIcvHi923uctgBI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:49:31.553210+00:00",
+    "updatedAt": "2026-09-22T11:49:31.553225+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:49:31.553309+00:00"
+    }
+  }
+}

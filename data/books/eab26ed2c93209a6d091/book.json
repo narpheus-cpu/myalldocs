@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "더 월드",
+    "author": "미상",
+    "genre": "판타지",
+    "tags": [
+      "가상현실",
+      "게임",
+      "더월드"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "게임판타지",
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미상",
+    "oneLineSummary": "경이로운 가상현실 시스템을 갖춘 게임 '더 월드'에서 심심증을 달래기 위해 초보 유저를 돕기로 한 주인공의 이야기.",
+    "overallSummary": "2051년 출시되어 전 세계를 매료시킨 실시간 가상현실 온라인 머드게임 '더 월드'. 현실보다 십여 배 빠른 시간 속에서 수억 명의 유저가 즐기는 이 게임에서 5년 동안 고수 경지에 오른 주인공은 최근 심심함과 따분함을 느낀다. 광주로 이사하기 전날, 게임 속에서 형을 만난 주인공은 형의 권유로 정체를 숨기고 순진한 초보 유저를 몰래 도와주는 '초보 키우기' 놀이를 시작하기로 결심한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 - The World의 탄생",
+        "summary": "한국의 신생 게임사 (주)신화가 개발한 혁신적인 가상현실 게임 '더 월드'의 탄생 과정과 전 세계적인 흥행."
+      },
+      {
+        "sectionTitle": "기막힌 우연",
+        "summary": "지방(광주)으로 이사를 앞둔 주인공은 게임 속에서 형을 만나 따분함을 토로하고, 형의 제안에 따라 초보 유저를 몰래 도와주는 재미를 찾아보기로 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "가상현실 게임 판타지"
+      }
+    ],
+    "keyEntitiesText": "주인공(유빈), 주인공의 형, 진호",
+    "settingText": "가상현실 게임 '더 월드'의 중원 세계와 현실의 광주"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1u34arcADB3vjgM4eRY9Z4w4540ru3wQA",
+    "filename": "더월드(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.372Z",
+    "size": "862889",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1u34arcADB3vjgM4eRY9Z4w4540ru3wQA/view?usp=drivesdk",
+    "sourceSha256": "36862d4f339f55597ad70bb4d1d13912af3fd3059e3832dca0d0f2fb171fae01",
+    "textSha256": "37feab261bcf21256bc080fa9f212b8a5f8b6f33138c6a6e24b602ce0ffac126",
+    "changeKey": "98c9f31a1c9e5bfd553cb7dac1e7abc0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "eab26ed2c93209a6d091",
+    "workId": "eab26ed2c93209a6d091",
+    "driveFileId": "1u34arcADB3vjgM4eRY9Z4w4540ru3wQA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:49:07.073546+00:00",
+    "updatedAt": "2026-09-22T11:49:07.073561+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:49:07.073643+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "둔갑 팬더",
+    "author": "원영 김 (Wonyoung Kim)",
+    "genre": "판타지",
+    "tags": [
+      "팬더",
+      "중국인",
+      "코믹"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "코믹",
+        "현대판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "원영 김 (Wonyoung Kim)",
+    "oneLineSummary": "카드회사 연체독촉 직원 봉근의 집에 둔갑한 팬더인 중국인 청년 진진이 세입자로 들어오며 벌어지는 코믹한 일상.",
+    "overallSummary": "신용카드 연체고객을 독촉하며 스트레스를 받는 추봉근은 어느 날 아침 셔츠에 씹다 뱉은 대나무 잎사귀가 묻어 있는 기괴한 꿈을 꾼다. 교통이 불편한 그의 반지하 투룸에 중국인 산업연수생이라는 청년 '진진'이 세입자로 들어오고, 진진은 배추 다섯 포기를 생으로 우물거리며 먹어치우거나 방바닥에서 뒹구는 등 팬더 같은 기벽을 보인다. 한편 진진을 쫓는 중국 공안과 무술가 부자의 추격전이 얽혀든다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "(1) 중국인 세입자",
+        "summary": "카드 연체 독촉 사원 봉근은 기괴한 꿈을 꾼 후, 대나무 잎을 먹는 수상한 중국인 청년 진진을 세입자로 들인다."
+      },
+      {
+        "sectionTitle": "(2) 수상한 두 남자",
+        "summary": "닭을 잡기 위해 오피스텔에서 난리를 피우는 중국인 부자와 봉근의 라면 먹기 일상, 그리고 진진의 야채 생식."
+      },
+      {
+        "sectionTitle": "(3) 공안 나타나다 & (4) 봉근의 데이트",
+        "summary": "직장동료 미스 송에게 무모한 대시를 하는 봉근과, 진진을 체포하기 위해 한국에 파견된 공안과 위씨 부자의 갈등."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "유쾌하고 엉뚱한 코믹 판타지"
+      }
+    ],
+    "keyEntitiesText": "추봉근, 진진(팬더), 미스 송, 위진번, 위노인",
+    "settingText": "서울의 한 반지하 투룸과 카드회사 사무실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eKLUvJvtqhg1jwrIGdO0A90juOmi5TP7",
+    "filename": "둔갑팬더 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.785Z",
+    "size": "1623850",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1eKLUvJvtqhg1jwrIGdO0A90juOmi5TP7/view?usp=drivesdk",
+    "sourceSha256": "d961ee797d09c658303f3dad19cb8b8fc9542083e64fd8adc3d3bc5a9f7a9015",
+    "textSha256": "0ca27e214e331ae4f90aee28276f3d0e5ee2c4a92a17ab730db251e7fcb018c4",
+    "changeKey": "0d12bc3e354a3b2908d472370afe3577",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ebd6cd08779559945001",
+    "workId": "ebd6cd08779559945001",
+    "driveFileId": "1eKLUvJvtqhg1jwrIGdO0A90juOmi5TP7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:50:08.480028+00:00",
+    "updatedAt": "2026-09-22T11:50:08.480044+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:50:08.480130+00:00"
+    }
+  }
+}

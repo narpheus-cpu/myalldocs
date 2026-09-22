@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "더 위자드",
+    "author": "미상",
+    "genre": "판타지",
+    "tags": [
+      "마법사",
+      "성장",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "정통판타지",
+        "마법사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미상",
+    "oneLineSummary": "괴팍한 대마법사 스승 밑에서 고생하는 두 제자와 웰던마을을 둘러싼 이야기.",
+    "overallSummary": "왕국 북부 오크들의 영역 인근에 위치한 웰던마을. 이 마을은 단 한 번도 몬스터의 습격을 받은 적이 없는데, 그 이유는 산속에 사는 괴팍한 대마법사 베르케르 경과 그의 두 제자 페이빈과 션 덕분이다. 사고뭉치 스승의 엉뚱한 마법 실험 뒷수습을 하느라 눈코 뜰 새 없이 바쁜 페이빈은 식료품을 사러 마을로 내려갔다가 주점의 바드 카리나와 풋풋한 만남을 가진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1화. 떠나는 사람을 기다리는 마음",
+        "summary": "대마법사 베르케르의 엉뚱한 마법 시전으로 탑 안이 난장판이 되고, 제자 페이빈은 스승과 티격태격하며 수습에 나선다."
+      },
+      {
+        "sectionTitle": "마을 방문과 만남",
+        "summary": "식료품이 떨어져 노새 마차를 몰고 웰던마을로 내려간 페이빈은 주점에서 바드 카리나를 만나 묘한 설렘을 느낀다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "유쾌하고 따뜻함"
+      }
+    ],
+    "keyEntitiesText": "베르케르 베르나스(스승), 페이빈 토르카스, 션 그린, 카리나, 시이란",
+    "settingText": "스위니아 왕국 북부 웰던마을과 숲속의 회색 탑"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GqfKFEMDfs_PqTyAeTivXgkSushATr5g",
+    "filename": "더 위저드.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.280Z",
+    "size": "2652083",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1GqfKFEMDfs_PqTyAeTivXgkSushATr5g/view?usp=drivesdk",
+    "sourceSha256": "b3d97301e5c9ddad659941c40176a3fb90e638dff109c6344a7f452d4b95b0c7",
+    "textSha256": "df7c1a51e69675fce7dbd70e9d96aef54578c6e310aab643c9b7f1e24ba39550",
+    "changeKey": "d3805f6485c27d35f62f1edd53c30704",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3ccccc21d273add13e57",
+    "workId": "3ccccc21d273add13e57",
+    "driveFileId": "1GqfKFEMDfs_PqTyAeTivXgkSushATr5g",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:48:30.272093+00:00",
+    "updatedAt": "2026-09-22T11:48:30.272111+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.615,
+      "updatedAt": "2026-09-22T11:48:30.272195+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대장장이",
+    "author": "미상",
+    "genre": "판타지",
+    "tags": [
+      "대장장이",
+      "귀족",
+      "신검"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "성장물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미상",
+    "oneLineSummary": "신검을 만든 가문의 후손이지만 허물어질 듯한 대장간에서 해머를 두드리는 천재 소년 플로의 일상.",
+    "overallSummary": "엘레바도 가문의 28대 계승자 플로. 대륙의 명검인 신검들을 배출한 명문가라 남작 작위가 있지만, 영토도 하인도 없이 삼류 대장장이 아버지와 함께 누추한 대장간에서 살고 있다. 아버지가 만들어주는 거대한 검을 매일같이 휘두르며 고생하는 플로는 천재적인 안목으로 아버지가 만든 검의 결점을 꿰뚫어 보면서도, 자신만의 자유 시간을 꿈꾸며 투덜거린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "오리하르콘 1",
+        "summary": "귀족 출신이지만 삼류 대장장이 아버지 밑에서 매일 검을 휘두르며 살아가는 플로의 불만 가득한 일상."
+      },
+      {
+        "sectionTitle": "오리하르콘 2",
+        "summary": "아버지가 건넨 거대한 클레이모어를 들고 공터에서 검을 휘두르며 아버지의 연마 과정에 대해 불만을 품는다."
+      },
+      {
+        "sectionTitle": "오리하르콘 3",
+        "summary": "아버지와 티격태격하다가 산을 내려와 시논 마을로 향하며 경비병들과 만난다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "유쾌하고 톡톡 튀는 주인공의 독백"
+      }
+    ],
+    "keyEntitiesText": "플로(주인공), 플로의 아버지, 한스, 유로",
+    "settingText": "엘레바도 가문의 낡은 대장간과 산 아래 시논 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1prnKu-HLFVgxbQUza98EpLbt6jL991RN",
+    "filename": "대장장이.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.250Z",
+    "size": "897344",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1prnKu-HLFVgxbQUza98EpLbt6jL991RN/view?usp=drivesdk",
+    "sourceSha256": "e436156421bcb86b055c9153aa2a59aaa3c34e039c87134d62721d4a8d5ab4b2",
+    "textSha256": "229344e86864d8fc2aee83f6beed39a1c6e5fef649fc7ec467bb11fc677f057d",
+    "changeKey": "7fec736c26c459bffb4227211286890e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "491878ff8c8447b01c99",
+    "workId": "491878ff8c8447b01c99",
+    "driveFileId": "1prnKu-HLFVgxbQUza98EpLbt6jL991RN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:48:14.307293+00:00",
+    "updatedAt": "2026-09-22T11:48:14.307308+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:48:14.307393+00:00"
+    }
+  }
+}

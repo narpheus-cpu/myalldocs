@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "독재자",
+    "author": "정민철",
+    "genre": "판타지",
+    "tags": [
+      "생체컴퓨터",
+      "미래",
+      "과학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "사이버펑크"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정민철",
+    "oneLineSummary": "제3차 대전 이후 기계와 전자 기술이 발달한 미래를 배경으로, 할아버지의 생체 컴퓨터 연구와 그 이식에 얽힌 이야기.",
+    "overallSummary": "3000년 1월 1일, 전자기술과 컴퓨터 기술이 극도로 발달한 대한민국. 할아버지는 불법 논란 속에서도 인간의 능력을 극대화할 수 있는 '생체 컴퓨터' 연구에 평생을 바친다. 손자 민철은 할아버지의 연구를 돕다가 결국 성공을 거두게 되고, 할아버지는 자신의 왼팔과 민철의 심장 뒤쪽에 생체 컴퓨터를 이식한다. 생체 컴퓨터로 인해 신체 통제와 능력 향상 등의 변화를 겪게 된 민철의 미래가 그려진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 죽음 - 1",
+        "summary": "생체 컴퓨터 연구에 매진하는 할아버지와 사춘기 손자 민철의 일상, 그리고 아버지와의 갈등."
+      },
+      {
+        "sectionTitle": "1. 죽음 - 2",
+        "summary": "할아버지의 연구가 마침내 성공을 거두어 자신의 왼팔과 민철의 심장 뒤쪽에 생체 컴퓨터가 이식되고, 그로 인한 신체적 변화와 편리함을 겪게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르",
+        "value": "SF 미래 소설"
+      }
+    ],
+    "keyEntitiesText": "정민철(주인공), 민철의 할아버지, 민철의 아버지",
+    "settingText": "3000년의 미래 대한민국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EuzRR1NImnb8TUYoUM9pWBy3ozS-WSTb",
+    "filename": "독재자(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.748Z",
+    "size": "1544805",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1EuzRR1NImnb8TUYoUM9pWBy3ozS-WSTb/view?usp=drivesdk",
+    "sourceSha256": "7733114570b76a8165c2c86ea23fc8b8e89f96d4b3dd357af5d53b653b5239b7",
+    "textSha256": "06b4ba170493d85486741d5e0b34be0804979e5cc074ca482c20728a429d48f0",
+    "changeKey": "21889f20d51d8eee590a42429762aebe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9336c37550044ce9a12a",
+    "workId": "9336c37550044ce9a12a",
+    "driveFileId": "1EuzRR1NImnb8TUYoUM9pWBy3ozS-WSTb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:49:59.583829+00:00",
+    "updatedAt": "2026-09-22T11:49:59.583844+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:49:59.583931+00:00"
+    }
+  }
+}

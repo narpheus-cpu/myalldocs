@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도부수",
+    "author": "KARMA99",
+    "genre": "판타지",
+    "tags": [
+      "망나니",
+      "도부수",
+      "다크판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "다크판타지",
+        "액션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "KARMA99 (북녘을 다스리는 검은 물의 가라한)",
+    "oneLineSummary": "귀족들의 오락거리인 도부수 투사로 살아가며 잔인하게 사형수를 처단하는 소년 망나니의 이야기.",
+    "overallSummary": "사람의 목을 베는 망나니이자 귀족들의 오락거리인 도부수 투사였던 아버지 밑에서 자란 소년. 아버지는 사형수들을 불쌍히 여겨 단칼에 목을 베었지만, 17살 소녀에게 자객의 칼을 맞아 사망한다. 아버지의 뒤를 이어 도부수가 된 소년은 아버지를 죽인 그 소녀를 첫 사형수로 베어버린다. 동정심 따위는 버리고 귀족들이 좋아하는 잔인한 방식으로 사형수들을 처단하며 장기를 팔아 돈을 벌어들이는 냉혹한 삶을 살아간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 : 독백",
+        "summary": "망나니였던 아버지의 죽음과 그를 죽인 소녀를 첫 번째 사형수로 처단한 소년의 냉혹한 세계관."
+      },
+      {
+        "sectionTitle": "일장. 소년 도부수 01, 02, 03",
+        "summary": "관중석의 귀족들이 열광하는 경기장에서 사형수들의 손을 자르고 피부를 벗기며 내장을 꺼내는 잔인한 처형을 수행하고 장기를 병원에 팔아넘기는 소년의 일상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "매우 잔인하고 어두운 다크 판타지"
+      }
+    ],
+    "keyEntitiesText": "소년 도부수(주인공), 아버지, 아버지를 죽인 소녀, 팡 라오",
+    "settingText": "사형수 처형이 오락으로 소비되는 경기장과 암울한 도시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DICOPthOzbSiTFT-7VBJIBNgsfyhO2IB",
+    "filename": "도부수.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.728Z",
+    "size": "430767",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1DICOPthOzbSiTFT-7VBJIBNgsfyhO2IB/view?usp=drivesdk",
+    "sourceSha256": "c1bb68cc95ac5259e6b1b2df077b3c0765d4e6944c83841f6933be388c3a0449",
+    "textSha256": "3524e6b267da96f71e87beefe49098655d1724f5b31279434ba994afafa8572b",
+    "changeKey": "a66f7b73ff6c229aef5427f4cf512271",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "412a0a991a085e7573ac",
+    "workId": "412a0a991a085e7573ac",
+    "driveFileId": "1DICOPthOzbSiTFT-7VBJIBNgsfyhO2IB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:49:51.405783+00:00",
+    "updatedAt": "2026-09-22T11:49:51.405800+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:49:51.405885+00:00"
+    }
+  }
+}

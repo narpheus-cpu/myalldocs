@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "더싱어",
+    "author": "미상",
+    "genre": "판타지",
+    "tags": [
+      "음악",
+      "꿈",
+      "청춘"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "현대소설",
+        "성장물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미상",
+    "oneLineSummary": "어릴 적 친구들과의 약속을 가슴에 묻고 동생을 위해 아르바이트를 하며 살아가던 수호가 우연히 무대에 오르게 되는 이야기.",
+    "overallSummary": "어릴 적 음인이, 인수와 함께 세계를 놀라게 할 음악을 하자며 약속했던 강수호. 하지만 어머니의 죽음과 친구들의 이민으로 꿈은 흩어지고, 지금은 남동생 지훈이를 위해 고생스럽게 아르바이트를 하며 살아가고 있다. 어느 날 레스토랑 일을 마치고 집으로 돌아가던 중 거리의 야외 무대에서 우연히 학교 짝이자 아이돌 가수인 김혜정의 짓궂은 장난으로 무대에 오르게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "어린 시절 세 소년이 나눴던 음악에 대한 꿈과 어머니의 죽음, 그리고 친구들의 이민으로 혼자 남게 된 수호의 과거 회상."
+      },
+      {
+        "sectionTitle": "현재의 일상",
+        "summary": "레스토랑에서 열심히 아르바이트를 한 수호는 월급을 받아 동생 지훈이에게 줄 생각에 흐뭇해하며 퇴근한다."
+      },
+      {
+        "sectionTitle": "무대 위로의 소환",
+        "summary": "거리의 공연을 구경하다가 진행을 맡은 학교 짝궁 김혜정에게 발탁되어 엉겁결에 무대 위로 올라가게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "지워졌던 꿈과 청춘의 재회"
+      }
+    ],
+    "keyEntitiesText": "강수호(주인공), 지훈(동생), 음인이, 인수, 김혜정",
+    "settingText": "서울 강남의 거리와 레스토랑 '피와 커피'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pm6811kVh5ngfZz_XAd_bLCLTdEuK3oy",
+    "filename": "더싱어(미완).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:39.341Z",
+    "size": "983733",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1pm6811kVh5ngfZz_XAd_bLCLTdEuK3oy/view?usp=drivesdk",
+    "sourceSha256": "78b91432b7c7f939993819aa35a3660d24a4b59ba7f5ea5482849d0d4c935a34",
+    "textSha256": "2ab6af14ff6ac356867dfc4d956a55c1f1bedccf5131f8b34116ff38a42f008a",
+    "changeKey": "2e2be9e6303fe1e2b81cd9d6393dd897",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "610527b71697cddbed02",
+    "workId": "610527b71697cddbed02",
+    "driveFileId": "1pm6811kVh5ngfZz_XAd_bLCLTdEuK3oy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T11:48:50.552008+00:00",
+    "updatedAt": "2026-09-22T11:48:50.552024+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T11:48:50.552108+00:00"
+    }
+  }
+}
