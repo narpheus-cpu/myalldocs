@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "역사속의 위대한 인물과의 대화",
+    "author": "기하라 부이치",
+    "genre": "철학/인물",
+    "tags": [
+      "소크라테스",
+      "철학",
+      "인물사"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 철학 연구가로 역사적 인물들의 삶과 사상을 대화 형식으로 풀어낸다.",
+    "oneLineSummary": "소크라테스의 생애와 철학을 통해 삶의 의미와 죽음을 성찰하는 철학적 대화이다.",
+    "overallSummary": "소크라테스의 재판과 죽음을 중심으로 그의 철학적 사유와 인간적 면모를 탐구하며, 현대인에게 필요한 철학적 메시지를 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "행복한 죽음을 선택한 철학자",
+        "summary": "소크라테스의 재판 과정과 죽음에 대한 태도를 다룬다."
+      },
+      {
+        "sectionTitle": "지성의 데모크라시",
+        "summary": "소크라테스의 문답법과 철학적 사유의 본질을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 철학",
+        "value": "무지함의 지, 너 자신을 알라"
+      },
+      {
+        "key": "대화 방식",
+        "value": "문답법을 통한 진리 탐구"
+      }
+    ],
+    "keyEntitiesText": "소크라테스, 플라톤, 크세노폰, 아리스토파네스",
+    "settingText": "고대 아테네"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Li9htcQ0w7Hq8C0cCgXNj2LmW5KMINy6",
+    "filename": "기하라 부이치-역사속의 위대한 인물과의 대화 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.408Z",
+    "size": "383052",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1Li9htcQ0w7Hq8C0cCgXNj2LmW5KMINy6/view?usp=drivesdk",
+    "sourceSha256": "b9a5dfc6406bac9488dcdfcdd6408f879ff6a539e6435d6ab95471977ddb4ba5",
+    "textSha256": "107e6bc0ba55d5fde152b4b76ebf47525ad1de46dcb01d2e38d7f5bbc162e4d3",
+    "changeKey": "b022e3c224a8189bb46d989690d35369",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c909f3befe31b078fce0",
+    "workId": "c909f3befe31b078fce0",
+    "driveFileId": "1Li9htcQ0w7Hq8C0cCgXNj2LmW5KMINy6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:47:04.980897+00:00",
+    "updatedAt": "2026-09-22T17:47:04.980916+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:47:04.981016+00:00"
+    }
+  }
+}

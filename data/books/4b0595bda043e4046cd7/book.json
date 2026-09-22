@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "국화와 칼",
+    "author": "루스 베네딕트",
+    "genre": "인류학/사회학",
+    "tags": [
+      "일본 문화",
+      "인류학",
+      "문화론"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 문화인류학자로 일본 문화를 연구하여 이 책을 저술했다.",
+    "oneLineSummary": "일본인의 행동 양식과 문화적 틀을 인류학적 관점에서 분석한 고전적 연구서이다.",
+    "overallSummary": "일본 문화의 모순적인 특성(국화와 칼)을 '수치 문화'와 '은혜' 등의 개념으로 설명하며, 일본인의 도덕관과 사회적 행동 원리를 분석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "연구 과제",
+        "summary": "일본 문화의 모순적 특성을 인류학적으로 연구하게 된 배경을 설명한다."
+      },
+      {
+        "sectionTitle": "덕의 딜레마",
+        "summary": "일본인의 의무와 은혜, 수치심에 기반한 도덕 체계를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "수치 문화, 은혜, 기리(의리)"
+      },
+      {
+        "key": "문화적 틀",
+        "value": "국화(탐미)와 칼(무사도)의 공존"
+      }
+    ],
+    "keyEntitiesText": "루스 베네딕트, 일본인",
+    "settingText": "제2차 세계대전 전후의 일본 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pcjXeAOch3grWxMidHKZ_7yBZsZAJ0-4",
+    "filename": "국화와 칼-일본문화의 틀.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.217Z",
+    "size": "705313",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1pcjXeAOch3grWxMidHKZ_7yBZsZAJ0-4/view?usp=drivesdk",
+    "sourceSha256": "d9adc1e48bfbbca6fb8b91366af911a05f6f90eb26e475bebb238fab703473e2",
+    "textSha256": "35bd19cd7e58395064947e3a7413733daba536da2ba12a8a63fc0ffe7edf28c1",
+    "changeKey": "f733a068198d8effb3b6547359ff3d2f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4b0595bda043e4046cd7",
+    "workId": "4b0595bda043e4046cd7",
+    "driveFileId": "1pcjXeAOch3grWxMidHKZ_7yBZsZAJ0-4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:44:42.337823+00:00",
+    "updatedAt": "2026-09-22T17:44:42.337840+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:44:42.337943+00:00"
+    }
+  }
+}

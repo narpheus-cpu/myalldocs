@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "문제적 텍스트 롤랑 바르트",
+    "author": "그레이엄 앨런",
+    "genre": "철학/비평",
+    "tags": [
+      "롤랑 바르트",
+      "비평이론",
+      "구조주의"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영문학자이자 비평이론가로 롤랑 바르트의 사상을 체계적으로 정리했다.",
+    "oneLineSummary": "롤랑 바르트의 사상적 궤적과 텍스트 이론을 구조주의에서 탈구조주의까지 분석한 입문서이다.",
+    "overallSummary": "바르트의 문학 비평, 기호학, 탈구조주의적 텍스트 이론을 시대별로 정리하며, 그가 현대 문화 이론에 끼친 영향과 사상적 변모를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "문학, 문제는 형식",
+        "summary": "바르트의 초기 문학 비평과 글쓰기 이론을 다룬다."
+      },
+      {
+        "sectionTitle": "탈구조주의와 저자의 죽음",
+        "summary": "바르트의 사상적 전환점과 텍스트 이론의 핵심을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 개념",
+        "value": "저자의 죽음, 상호텍스트성, 텍스트성, 푼크툼"
+      },
+      {
+        "key": "비평적 방법",
+        "value": "기호학적 분석과 탈구조주의적 해체"
+      }
+    ],
+    "keyEntitiesText": "롤랑 바르트, 사르트르, 소쉬르, 데리다, 크리스테바",
+    "settingText": "20세기 프랑스 지성사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1P4-GdO0GXLxpQiknDTgzlFsrUlzE4j7Y",
+    "filename": "그레이엄 앨런-문제적 텍스트, 롤랑바르트(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T17:34:44.000Z",
+    "size": "471444",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1P4-GdO0GXLxpQiknDTgzlFsrUlzE4j7Y/view?usp=drivesdk",
+    "sourceSha256": "2bd4cd4512031a6d114a33836ec563ca7a52a3bc4a3d26be3fa20ba8aae6a587",
+    "textSha256": "6dbcbe5e9084d641a155fec685870cd1d5d4f1aa21498132efe60dd0003e3aee",
+    "changeKey": "c77434c9d8718fa54545a924c38978ae",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "23ccb6ae17d38675d750",
+    "workId": "23ccb6ae17d38675d750",
+    "driveFileId": "1P4-GdO0GXLxpQiknDTgzlFsrUlzE4j7Y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:46:05.084319+00:00",
+    "updatedAt": "2026-09-22T17:46:05.084337+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:46:05.084443+00:00"
+    }
+  }
+}

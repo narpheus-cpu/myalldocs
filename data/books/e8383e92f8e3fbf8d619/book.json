@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인도 철학사",
+    "author": "길희성",
+    "genre": "철학/역사",
+    "tags": [
+      "인도 철학",
+      "불교",
+      "힌두교"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서강대학교 종교학과 교수로 비교종교학을 전공했다.",
+    "oneLineSummary": "인도 철학의 형성부터 체계화, 교파적 발전까지의 역사를 다룬 학술적 개설서이다.",
+    "overallSummary": "베다와 우파니샤드에서 시작하여 불교, 쟈이나교, 정통 육파철학, 베단타 철학에 이르기까지 인도 철학의 방대한 사상적 흐름을 체계적으로 정리한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인도철학의 형성",
+        "summary": "베다와 우파니샤드, 초기 불교의 사상적 배경을 다룬다."
+      },
+      {
+        "sectionTitle": "인도철학의 체계화",
+        "summary": "정통 육파철학과 대승불교의 철학적 체계를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "해탈, 윤회, 자아(아트만), 무아"
+      },
+      {
+        "key": "철학적 성격",
+        "value": "종교적 철학이자 형이상학적 사변의 체계"
+      }
+    ],
+    "keyEntitiesText": "용수, 세친, 샹카라, 라마누자, 오로빈도",
+    "settingText": "고대부터 현대에 이르는 인도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pxt-3eYFjgBd7Lfj2c90Uz01V5qWnQ8b",
+    "filename": "길희성-인도 철학사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.425Z",
+    "size": "536919",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1pxt-3eYFjgBd7Lfj2c90Uz01V5qWnQ8b/view?usp=drivesdk",
+    "sourceSha256": "9c3ee5befc874ce26ffc54d85eaab1ff7d63d2043a3e094fc3d8a636362161e1",
+    "textSha256": "6b85e2d233a66e329ce290eda52a248f2d19f577e787fb189f5d015ae7ea6bf0",
+    "changeKey": "01aee2c44d511649d213ede7717d7178",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e8383e92f8e3fbf8d619",
+    "workId": "e8383e92f8e3fbf8d619",
+    "driveFileId": "1pxt-3eYFjgBd7Lfj2c90Uz01V5qWnQ8b",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:47:10.776594+00:00",
+    "updatedAt": "2026-09-22T17:47:10.776611+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:47:10.776738+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "궁중비사",
+    "author": "김용제 외",
+    "genre": "역사/야사",
+    "tags": [
+      "한국사",
+      "궁중",
+      "야사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "여러 편저자가 참여하여 한국 역사의 궁중 비화를 정리한 책이다.",
+    "oneLineSummary": "고구려부터 조선까지 한국 역사의 궁중에서 벌어진 숨겨진 이야기들을 다룬 야사집이다.",
+    "overallSummary": "삼국시대부터 조선시대까지 왕실과 궁중을 둘러싼 권력 다툼, 사랑, 비극적 사건들을 흥미 위주로 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고구려편",
+        "summary": "주몽의 건국 설화와 왕실의 비극적 사건들."
+      },
+      {
+        "sectionTitle": "이조편",
+        "summary": "조선 왕조의 권력 투쟁과 궁중 여인들의 비화."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 성격",
+        "value": "역사적 사실에 기반한 흥미 위주의 야사"
+      },
+      {
+        "key": "주요 소재",
+        "value": "권력, 애정, 비극"
+      }
+    ],
+    "keyEntitiesText": "주몽, 유화부인, 선덕여왕, 장희빈, 민비",
+    "settingText": "한국 역사의 궁중 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ToEx-XKUKfdjBcfx8inWDkc7nbXztmmS",
+    "filename": "궁중비사(宮中秘史).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.250Z",
+    "size": "3222807",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1ToEx-XKUKfdjBcfx8inWDkc7nbXztmmS/view?usp=drivesdk",
+    "sourceSha256": "25c03577169d98a1063c3b12972f5c20f697de78280365769dcd3f71a2ab9cc6",
+    "textSha256": "97268b325e1c8d08a7e30a3dc5797872386819cfc9c373817a18fb0b37344064",
+    "changeKey": "d72e808915d85e073203f9cbcd970ee3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "297b171a5c6b6c590216",
+    "workId": "297b171a5c6b6c590216",
+    "driveFileId": "1ToEx-XKUKfdjBcfx8inWDkc7nbXztmmS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:44:51.375293+00:00",
+    "updatedAt": "2026-09-22T17:44:51.375311+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:44:51.375414+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유토피아 디스토피아",
+    "author": "김규항",
+    "genre": "사회비평",
+    "tags": [
+      "사회비평",
+      "칼럼",
+      "문화비평"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사회비평가이자 칼럼니스트로 한국 사회의 모순을 날카롭게 비판한다.",
+    "oneLineSummary": "현대 한국 사회의 정치, 경제, 문화적 현상을 비판적 시각으로 분석한 칼럼 모음집이다.",
+    "overallSummary": "재벌 문제, 파시즘, 교육, 문화 등 한국 사회의 다양한 이슈들을 진보적 관점에서 비판하며, 더 나은 사회를 위한 성찰을 촉구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사회비평 칼럼",
+        "summary": "현대 한국 사회의 모순과 부조리를 날카롭게 지적한다."
+      },
+      {
+        "sectionTitle": "문화비평",
+        "summary": "영화, 교육, 일상 문화 속에 숨겨진 이데올로기를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비평적 관점",
+        "value": "진보적 사회비평, 자본주의 비판"
+      },
+      {
+        "key": "주요 소재",
+        "value": "재벌, 파시즘, 교육, 일상 문화"
+      }
+    ],
+    "keyEntitiesText": "김규항, 김건, 김단, 엘리아 카잔, 찰리 채플린",
+    "settingText": "1990년대 후반 한국 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1I0tVdghdnkF2iTSNI8tpKwyy3uzwJ9mw",
+    "filename": "김규항-유토피아 디스토피아 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.528Z",
+    "size": "284969",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1I0tVdghdnkF2iTSNI8tpKwyy3uzwJ9mw/view?usp=drivesdk",
+    "sourceSha256": "e53b76dd73d18b3fa5ae2693577e406caede8153413c9174a6aad4c29abbec59",
+    "textSha256": "1a5d485640450b05e1e95c3444e944fd486dff61898c017d59d2782d5cf833bf",
+    "changeKey": "b60b3f24a107055c4eab5c2eb2cce073",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1258e34340e744885e55",
+    "workId": "1258e34340e744885e55",
+    "driveFileId": "1I0tVdghdnkF2iTSNI8tpKwyy3uzwJ9mw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:48:26.673383+00:00",
+    "updatedAt": "2026-09-22T17:48:26.673400+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:48:26.673499+00:00"
+    }
+  }
+}

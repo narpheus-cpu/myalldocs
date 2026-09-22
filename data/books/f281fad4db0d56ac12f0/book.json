@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고사성어 이야기",
+    "author": "김경선",
+    "genre": "인문/교양",
+    "tags": [
+      "고사성어",
+      "교양",
+      "한자"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고사성어를 엮어 대중에게 알기 쉽게 설명하는 저자이다.",
+    "oneLineSummary": "다양한 고사성어의 유래와 의미를 일화와 함께 풀이한 교양서이다.",
+    "overallSummary": "역사적 일화나 전설에서 유래한 고사성어들을 선정하여 그 배경과 교훈을 알기 쉽게 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고사성어 풀이",
+        "summary": "거안사위, 교토삼굴 등 주요 고사성어의 유래와 뜻을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 기능",
+        "value": "언어 학습 및 역사적 교훈 전달"
+      },
+      {
+        "key": "서술 방식",
+        "value": "일화 중심의 해설"
+      }
+    ],
+    "keyEntitiesText": "당 태종, 위징, 맹상군, 풍훤, 한신, 소하",
+    "settingText": "중국 고대 역사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fLjbN7n4_0LITMh6kmnIRig_siwaEp5o",
+    "filename": "김경선-고사성어 이야기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.450Z",
+    "size": "165152",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1fLjbN7n4_0LITMh6kmnIRig_siwaEp5o/view?usp=drivesdk",
+    "sourceSha256": "14d2f94bee450c7f5e4cc25d358939580a195ae249b50481d492cc7e7c7ba9e2",
+    "textSha256": "da48bfe6b7af010dfba8b7e30cd79cde386f709123d33b1b5837d0c27f6aedab",
+    "changeKey": "05812c33cf165715a9dde967f06cae5d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f281fad4db0d56ac12f0",
+    "workId": "f281fad4db0d56ac12f0",
+    "driveFileId": "1fLjbN7n4_0LITMh6kmnIRig_siwaEp5o",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:47:23.395386+00:00",
+    "updatedAt": "2026-09-22T17:47:23.395405+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:47:23.395502+00:00"
+    }
+  }
+}

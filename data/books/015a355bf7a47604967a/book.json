@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "공자가 죽어야 나라가 산다",
+    "author": "김경일",
+    "genre": "사회비평",
+    "tags": [
+      "유교",
+      "사회비평",
+      "한국 문화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "상명대학교 중문과 교수로 한국 사회의 유교적 폐해를 비판한다.",
+    "oneLineSummary": "한국 사회의 발전을 저해하는 유교적 이데올로기와 권위주의를 비판적으로 분석한 사회비평서이다.",
+    "overallSummary": "유교 문화가 한국인의 내면과 사회 구조에 미친 부정적 영향을 분석하며, 근대적 시민 사회로 나아가기 위해 유교적 가치관에서 탈피할 것을 주장한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한국인으로 사는 열가지 괴로움",
+        "summary": "유교적 관습이 한국인의 삶에 미치는 부정적 영향을 다룬다."
+      },
+      {
+        "sectionTitle": "공자가 죽어야 나라가 산다",
+        "summary": "유교 이데올로기의 기원과 폐해를 비판적으로 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주장",
+        "value": "유교적 권위주의와 위선이 한국 사회의 성숙을 저해한다"
+      },
+      {
+        "key": "비판 대상",
+        "value": "유교적 가치관, 가부장제, 혈연 중심주의"
+      }
+    ],
+    "keyEntitiesText": "김경일, 공자, 박정희",
+    "settingText": "현대 한국 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MDy8ksMyjp7WQlBw2ec9BQ-J-y9rf7T3",
+    "filename": "김경일-공자가 죽어야 나라가 산다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.484Z",
+    "size": "488231",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1MDy8ksMyjp7WQlBw2ec9BQ-J-y9rf7T3/view?usp=drivesdk",
+    "sourceSha256": "8962df8a961ba3decbda833e0275a337be6039a05f7558e2f56b37d0f6e33f04",
+    "textSha256": "9e3dda6c90e78eed4debd423031a159608dd4c1303c18b140af86167320f2131",
+    "changeKey": "d6482b010449ac9315bd3420b2a9d4a6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "015a355bf7a47604967a",
+    "workId": "015a355bf7a47604967a",
+    "driveFileId": "1MDy8ksMyjp7WQlBw2ec9BQ-J-y9rf7T3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:47:29.960836+00:00",
+    "updatedAt": "2026-09-22T17:47:29.960854+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:47:29.960955+00:00"
+    }
+  }
+}
