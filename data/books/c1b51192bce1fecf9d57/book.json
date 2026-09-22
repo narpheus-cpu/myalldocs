@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아주 사적인 독서",
+    "author": "이현우",
+    "genre": "문학강의",
+    "tags": [
+      "고전",
+      "독서",
+      "욕망",
+      "문학"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "문학평론",
+        "교양"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대학교 노어노문학과 및 동대학원 박사 출신으로, '로쟈'라는 필명으로 활동하는 인문학자이자 인터넷 서평가이다.",
+    "oneLineSummary": "서양문학 고전 7편을 통해 인간의 다양한 욕망을 아주 사적이고 주체적인 시각으로 읽어내는 고전 독서 가이드이다.",
+    "overallSummary": "이 책은 저자가 고전 애독자 모임인 '책사랑' 등에서 진행한 강의를 엮은 것으로, 《햄릿》, 《돈키호테》, 《파우스트》, 《석상 손님》, 《마담 보바리》, 《주홍 글자》, 《채털리 부인의 연인》 등 7편의 유명 고전을 '욕망'이라는 공통된 주제로 해부한다. 남을 위한 교양으로서의 독서가 아니라 철저히 자기 자신을 위한 사적인 독서를 제안하며, 작품 속 주인공들을 통해 근대인의 전형적 초상과 나의 욕망을 발견하도록 이끈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책머리에: 자기 스타일로 고전 읽기",
+        "summary": "고전을 읽어야 하는 이유와 잠재적 독서가를 위한 길잡이로서의 '아주 사적인 독서'의 개념을 설명한다."
+      },
+      {
+        "sectionTitle": "내 욕망은 정말로 내 것인가: 마담 보바리를 읽어버렸다는 것에 대하여",
+        "summary": "플로베르의 《마담 보바리》를 통해 소설 속 환상에 사로잡힌 엠마의 낭만적 욕망과 중산층의 권태를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "욕망과 고전의 현재성",
+        "value": "고전 속 주인공들의 고뇌와 욕망을 독자 자신의 내면과 연결시켜 필수적인 독서로 재해석한다."
+      },
+      {
+        "key": "사실주의 소설 분석",
+        "value": "플로베르의 일물일어설과 묘사 소설의 특징을 통해 리얼리즘 문학의 미학을 조명한다."
+      }
+    ],
+    "keyEntitiesText": "이현우(로쟈), 귀스타브 플로베르, 엠마 보바리, 샤를르 보바리, 도스토예프스키",
+    "settingText": "19세기 프랑스 부르주아 사회 및 현대의 독서 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10sZ7nas8DFmFepLXd02eJqW6Kamtkaer",
+    "filename": "이현우-아주 사적인 독서(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T04:16:12.000Z",
+    "size": "390025",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/10sZ7nas8DFmFepLXd02eJqW6Kamtkaer/view?usp=drivesdk",
+    "sourceSha256": "c08913c5a864be0a9e2cab998977ec7496cb25ea1f815f3730e81cb8b5d04a32",
+    "textSha256": "f0ef2622b1bd39d369e578430b21b2112165334170002ed4cbeb010c8b8a3866",
+    "changeKey": "1d25e4bd02d801f5a752a88c988d33a9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c1b51192bce1fecf9d57",
+    "workId": "c1b51192bce1fecf9d57",
+    "driveFileId": "10sZ7nas8DFmFepLXd02eJqW6Kamtkaer",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T22:29:13.578801+00:00",
+    "updatedAt": "2026-09-22T22:29:13.578816+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T22:29:13.578904+00:00"
+    }
+  }
+}
