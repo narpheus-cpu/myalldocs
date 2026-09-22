@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마인 이야기 13",
+    "author": "시오노 나나미",
+    "genre": "역사",
+    "tags": [
+      "디오클레티아누스",
+      "사두정치",
+      "콘스탄티누스",
+      "밀비우스 다리 전투",
+      "기독교 공인"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시오노 나나미는 원수정에서 절대군주정으로 이행하는 로마 제국 후기의 거대한 구조 개혁과 종교적 전환점을 다룬 작가이다.",
+    "oneLineSummary": "사두정치를 통해 제국의 혼란을 수습한 디오클레티아누스의 개혁과, 이를 무너뜨리고 유일 황제가 되어 기독교를 공인한 콘스탄티누스의 역사적 결단.",
+    "overallSummary": "서기 284년부터 337년까지의 시기를 다룬다. 하층민 출신으로 즉위해 제국을 동서로 나누고 사두정치를 확립한 디오클레티아누스의 관료·세금 대국화 개혁, 그리고 사두정치 붕괴 후 밀비우스 다리 전투에서 승리하여 기독교를 공인하고 콘스탄티노폴리스로 천도한 콘스탄티누스 대제의 치세를 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "디오클레티아누스 황제 시대",
+        "summary": "군단 관료 출신으로 즉위하여 제국을 동서로 분담하는 '양두정치'와 '사두정치'를 도입하고, 방위력 증강과 관료제 및 세제 개혁을 단행했으나 기독교 탄압을 남기고 은퇴한 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "콘스탄티누스 황제 시대와 기독교 공인",
+        "summary": "사두정치 붕괴 후 막센티우스와의 밀비우스 다리 전투에서 승리하여 기독교를 공인(밀라노 칙령)하고, 니케아 공의회를 주재하며 새로운 수도 콘스탄티노폴리스를 건설한 과정을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "종교와 권력",
+        "value": "콘스탄티누스가 기독교를 어떻게 '지배의 도구(instrumentum regni)'로 활용하여 제국의 통합을 꾀했는지 분석"
+      }
+    ],
+    "keyEntitiesText": "디오클레티아누스, 막시미아누스, 콘스탄티누스, 막센티우스, 밀비우스 다리, 콘스탄티노폴리스, 니코메디아",
+    "settingText": "서기 284년부터 서기 337년까지의 로마 제국, 절대군주정 시대로의 이행기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DKDb7w_IOLJftv5zK6er1LEcF3t50ys0",
+    "filename": "시오노 나나미-로마인 이야기 13(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T00:25:44.000Z",
+    "size": "613248",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술",
+      "시오노 나나미-로마인 이야기"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술/시오노 나나미-로마인 이야기",
+    "webViewLink": "https://drive.google.com/file/d/1DKDb7w_IOLJftv5zK6er1LEcF3t50ys0/view?usp=drivesdk",
+    "sourceSha256": "8f95a57cf7c9646772e6623215637ae8502592945f84e69b887318bd26a06ea7",
+    "textSha256": "d8158bdbc356c687c4bb1e654156dae1254585617a7b2a9f2d210aaf40e29524",
+    "changeKey": "835f59ad3fe3cf6392cd0ed74b656a0c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "28b538f9eb35c7c9cf32",
+    "workId": "28b538f9eb35c7c9cf32",
+    "driveFileId": "1DKDb7w_IOLJftv5zK6er1LEcF3t50ys0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T20:44:13.905507+00:00",
+    "updatedAt": "2026-09-22T20:44:13.905523+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T20:44:13.905622+00:00"
+    }
+  }
+}
