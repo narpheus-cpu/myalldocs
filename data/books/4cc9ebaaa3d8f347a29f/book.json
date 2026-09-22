@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인어가 잠든 집",
+    "author": "히가시노 게이고",
+    "genre": "추리/미스터리/소설",
+    "tags": [
+      "히가시노 게이고",
+      "인어가 잠든 집",
+      "뇌사",
+      "가족애",
+      "광기"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "suspense",
+        "medical_ethics"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 거장 베스트셀러 작가로, 인간의 심리와 사회적 문제를 깊이 있게 다룬 작품을 다수 집필함.",
+    "oneLineSummary": "뇌사에 빠진 딸을 지키려는 부모의 선택이 사랑인지 광기인지 묻는 소설.",
+    "overallSummary": "어느 날 갑자기 수영장 사고로 뇌사 판정을 받은 딸 미즈호를 둘러싼 가족의 갈등과 선택을 다룬 작품이다. 기계적인 생명 유지와 의식의 불확실성 속에서 부모가 겪는 슬픔과 광기를 섬세하게 묘사하고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "어린 소고가 우연히 저택 창문 틈으로 잠들어 있는 소녀를 목격하는 장면으로 시작된다."
+      },
+      {
+        "sectionTitle": "제1장",
+        "summary": "가오루코와 에노키다의 관계, 그리고 하리마 가즈마사가 참여하는 첨단 BMI 실험 현장의 모습이 교차로 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "뇌사 판정을 받은 자식을 향한 부모의 사랑과 집착, 생명 윤리에 대한 고찰"
+      }
+    ],
+    "keyEntitiesText": "하리마 가즈마사, 하리마 가오루코, 하리마 미즈호, 에노키다 히로키, 호시노 유야, 소고",
+    "settingText": "도쿄 및 주변 고급 주택가, 하리마 테크 연구소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1e_QNOJ2h3sW7WGdAUANj-AnwyxMHE8Lb",
+    "filename": "히가시노 게이고-인어가 잠든 집(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:09:20.000Z",
+    "size": "636078",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1e_QNOJ2h3sW7WGdAUANj-AnwyxMHE8Lb/view?usp=drivesdk",
+    "sourceSha256": "b3654fa80296519587f08b29fd253b4cf8e6cf55bdb2a80a7bf25bbe29229f72",
+    "textSha256": "f5a2b497fbb4df8b8e24d369d394a6d93f802ab0452793cc9d6a45bfc2d69a82",
+    "changeKey": "cdb48004b7dd757d49bcf99e02d7bedc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4cc9ebaaa3d8f347a29f",
+    "workId": "4cc9ebaaa3d8f347a29f",
+    "driveFileId": "1e_QNOJ2h3sW7WGdAUANj-AnwyxMHE8Lb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T09:29:13.381305+00:00",
+    "updatedAt": "2026-09-22T09:29:13.381321+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T09:29:13.381535+00:00"
+    }
+  }
+}

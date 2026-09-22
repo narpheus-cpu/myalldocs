@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "매스커레이드 나이트",
+    "author": "히가시노 게이고",
+    "genre": "추리/미스터리",
+    "tags": [
+      "매스커레이드 시리즈",
+      "야마기시 나오미",
+      "닛타 고스케",
+      "호텔"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "형사와 호텔리어의 환상적인 호흡을 그린 매스커레이드 시리즈의 저자.",
+    "oneLineSummary": "연말 카운트다운 파티가 열리는 호텔에서 벌어지는 밀실 살인 예고와 잠입 수사.",
+    "overallSummary": "새해맞이 카운트다운 파티로 북적이는 호텔에 살인범이 나타난다는 밀고가 접수되고, 닛타 고스케 형사와 야마기시 나오미가 다시 한번 손을 잡고 범인을 색출하기 위해 고군분투한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "야마기시 나오미가 고객의 클레임을 지혜롭게 해결하고 총지배인실에 불려가 경시청 형사들과 마주한다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "댄스교실에서 레슨을 받던 닛타 고스케가 모토미야의 급작스러운 연락을 받고 사쿠라다몬으로 출근한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "투숙객들의 가면 뒤에 숨겨진 비밀과 연쇄살인 저지"
+      }
+    ],
+    "keyEntitiesText": "야마기시 나오미, 요시오카 가즈타카, 아키야마 구미코, 후지키, 다쿠라, 닛타 고스케, 모토미야",
+    "settingText": "코르테시아도쿄 호텔, 경시청"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tT4qa1fT-jsiZCpuL2dMLZ1WjTp0zD6U",
+    "filename": "히가시노 게이고-매스커레이드 나이트 -- 히가시노 게이고 저 양윤옥 역(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.850Z",
+    "size": "826544",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1tT4qa1fT-jsiZCpuL2dMLZ1WjTp0zD6U/view?usp=drivesdk",
+    "sourceSha256": "cd7c6e08ab4e22de9172b87354f9c04ceb30dfb4f51d88f36a26fb42c3c7dd88",
+    "textSha256": "565ed05093eaca2c6081eb610d908cd903e43e0147837ec0c76c9b711801344c",
+    "changeKey": "9db74f9a2aa010f892f04dc392a13ba4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dc23756906bf2c3d0fcc",
+    "workId": "dc23756906bf2c3d0fcc",
+    "driveFileId": "1tT4qa1fT-jsiZCpuL2dMLZ1WjTp0zD6U",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T09:29:42.812565+00:00",
+    "updatedAt": "2026-09-22T09:29:42.812578+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T09:29:42.812702+00:00"
+    }
+  }
+}

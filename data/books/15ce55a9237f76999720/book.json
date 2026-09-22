@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "가공범",
+    "author": "히가시노 게이고",
+    "genre": "추리/소설",
+    "tags": [
+      "히가시노 게이고",
+      "가공범"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "다양한 장르를 넘나들며 독창적인 미스터리를 선사하는 일본의 대표 작가.",
+    "oneLineSummary": "예기치 못한 사건과 진실을 파헤쳐가는 과정을 그린 히가시노 게이고의 소설.",
+    "overallSummary": "제공된 텍스트 파편을 통해 사건의 실마리를 추적하는 인물들의 내면과 미스터리한 정황이 얽혀 전개되는 작품.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "인물들 간의 대화와 정황 조사가 단편적인 파편 형태로 제시된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "note",
+        "value": "인코딩 및 파편화된 텍스트 기반"
+      }
+    ],
+    "keyEntitiesText": "등장인물 다수",
+    "settingText": "일본 도시 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fdNAh5MxwW-0OK7bZqSIzxqpIBioMaUB",
+    "filename": "히가시노 게이고-가공범 -- 히가시노 게이고-(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:28.402Z",
+    "size": "22841060",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보",
+      "히가시노 게이고"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보/히가시노 게이고",
+    "webViewLink": "https://drive.google.com/file/d/1fdNAh5MxwW-0OK7bZqSIzxqpIBioMaUB/view?usp=drivesdk",
+    "sourceSha256": "051d2ed7e3de31f81e7a257e629eab70c9569c4c1c01d1d134dbd269e315d292",
+    "textSha256": "84980d80813b149d9a002b3906c1d2dabbc6653c91e8b5dc46df876fe27aeb7b",
+    "changeKey": "b05c4ce490191d3ba28197aa0c68868f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "15ce55a9237f76999720",
+    "workId": "15ce55a9237f76999720",
+    "driveFileId": "1fdNAh5MxwW-0OK7bZqSIzxqpIBioMaUB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T09:29:26.189251+00:00",
+    "updatedAt": "2026-09-22T09:29:26.189268+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T09:29:26.189370+00:00"
+    }
+  }
+}

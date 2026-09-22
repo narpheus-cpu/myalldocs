@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천공의 벌",
+    "author": "히가시노 게이고",
+    "genre": "사회파 미스터리/테러",
+    "tags": [
+      "원전 테러",
+      "헬리콥터",
+      "히가시노 게이고",
+      "긴박감"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "suspense",
+        "technology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본을 대표하는 베스트셀러 작가로 사회적 이슈와 미스터리를 결합한 작품에 능숙하다.",
+    "oneLineSummary": "원전을 인질로 삼은 테러범과 이를 저지하려는 기술자들의 절체절명의 10시간을 그린 소설.",
+    "overallSummary": "대형 헬리콥터가 탈취되어 원자력 발전소 상공에 정지하고, 전국민을 인질로 삼은 테러가 발생한다. 개발자와 관계자들이 얽혀 테러범의 요구에 맞서며 벌어지는 긴박한 10시간을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "이른 새벽 의문의 전화와 함께 테러를 암시하는 서막이 열리고, 주인공 유하라가 고마키 공장으로 출근한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "theme",
+        "value": "원자력 발전의 위험성과 국가적 위기 상황에서의 인간 군상"
+      }
+    ],
+    "keyEntitiesText": "유하라 가즈아키, 야마시타, 다카히코, 아쓰코",
+    "settingText": "니시키 중공업 고마키 공장, 시험 비행장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1O95SrTnww6ZiEIUn85a3039oCJWVOth_",
+    "filename": "히가시노 게이고-천공의 벌(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:12:08.000Z",
+    "size": "908617",
+    "folderPath": [
+      "books",
+      "04 추리 공포 미스터리 첩보"
+    ],
+    "relativePath": "books/04 추리 공포 미스터리 첩보",
+    "webViewLink": "https://drive.google.com/file/d/1O95SrTnww6ZiEIUn85a3039oCJWVOth_/view?usp=drivesdk",
+    "sourceSha256": "bf8cda2665528e6233370310d5d27218f2a79c2215e5b1f5a832b7ffcd4a0148",
+    "textSha256": "87f66761bf01c83954993d8467ac4088d3a920b58d7baf1ef29fa0d52bf29220",
+    "changeKey": "f6a2a2e455467156f991d11a57f98745",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "766395ab8fb1ee998167",
+    "workId": "766395ab8fb1ee998167",
+    "driveFileId": "1O95SrTnww6ZiEIUn85a3039oCJWVOth_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T09:29:19.388013+00:00",
+    "updatedAt": "2026-09-22T09:29:19.388028+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T09:29:19.388131+00:00"
+    }
+  }
+}
