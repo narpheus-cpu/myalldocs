@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "풍운대영호",
+    "author": "금강",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "운등룡",
+      "운씨세가",
+      "예운하",
+      "풍운회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금강 작가가 1984년 발표한 풍운 시리즈의 첫 번째 작품으로, 본격 미스터리 기법을 도입한 고전풍 정통 무협 소설.",
+    "oneLineSummary": "천마대종교를 멸망시킨 풍운회의 전설이 흐르는 무림에서, 실종된 아버지를 그리워하는 운씨세가의 천재 운등룡과 예운하의 만남.",
+    "overallSummary": "오십 년간 무림을 지배하던 천마대종교를 하루아침에 멸망시키고 사라진 신비의 방파 풍운회. 세월이 흘러 명나라의 심장 북경에서 황실의 두터운 신임을 받는 운씨세가의 장손 운등룡은 한림학사를 사직하고 동서대장군부로 돌아와 십 년 전 실종된 아버지 운장풍을 그리워한다. 눈 내리는 날, 사촌 여동생 운려빈과 북경제일미 예운하의 성화에 못 이겨 자하문 밖 난전 구경을 나선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "風雲大英豪를 始작하면서...",
+        "summary": "1984년 출간 당시의 서문으로, 미스터리 기법과 점진적인 사건 전개를 통해 독자들을 만족시키고자 한 작가의 다짐."
+      },
+      {
+        "sectionTitle": "序章 풍운회(風雲會)의 전설(傳說)",
+        "summary": "천하무림을 정복했던 천마대종교를 단 하루아침에 멸망시키고 역사 속으로 사라진 신비의 방파 풍운회의 전설."
+      },
+      {
+        "sectionTitle": "1 장 운씨세가(雲氏世家) - 1",
+        "summary": "명나라 황실의 보필 가문인 운씨세가의 위세와 한림학사를 사직하고 돌아와 실종된 아버지를 그리워하는 천재 운등룡의 모습."
+      },
+      {
+        "sectionTitle": "1 장 운씨세가(雲氏世가) - 2",
+        "summary": "운등룡이 사촌 여동생 운려빈과 예운하의 성화에 못 이겨 자하문 밖 난전 구경을 나섰다가 기이한 글귀가 적힌 점쟁이 노인을 발견하는 장면."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "가문의 특징",
+        "value": "삼대에 걸쳐 황실을 보필하며 병권을 장악한 충렬제일가 운씨세가"
+      }
+    ],
+    "keyEntitiesText": "운등룡, 예운하, 운려빈, 운장풍(대장군), 천마대종, 풍운회",
+    "settingText": "명나라 북경 동서대장군부 천추서재, 자하문 밖 난전"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11OQfXs16ukwMbOz6STXymWJEk0wrxcHu",
+    "filename": "풍운대영호(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.513Z",
+    "size": "761696",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/11OQfXs16ukwMbOz6STXymWJEk0wrxcHu/view?usp=drivesdk",
+    "sourceSha256": "20092343ff5819a4c6ac3e92c586d7a6095e1c6268f3a4a1b1b7423db709a053",
+    "textSha256": "55afe99de4b55e2daf77a8c357268bd6a8dbe20e8e1445ef7b0a8e04885365dd",
+    "changeKey": "626088c47a6bd890f2e685d278ff71e9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bf0d723daf069d33d657",
+    "workId": "bf0d723daf069d33d657",
+    "driveFileId": "11OQfXs16ukwMbOz6STXymWJEk0wrxcHu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:26:45.451093+00:00",
+    "updatedAt": "2026-09-22T16:26:45.451112+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:26:45.451197+00:00"
+    }
+  }
+}

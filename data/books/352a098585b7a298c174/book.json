@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "파천무",
+    "author": "권천",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "사검평",
+      "설아",
+      "궁장소녀",
+      "비천혈홍사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권천 작가의 무협 소설로, 백년 전 염라천존의 염라궁 멸망 비사와 장안의 수재 사검평이 겪는 기이한 인연을 다룬다.",
+    "oneLineSummary": "장안의 명문가 자제 사검평이 장군산 계곡에서 말하는 영금 설아를 구하고 신비로운 궁장소녀와 만나는 이야기.",
+    "overallSummary": "백년 전 천하를 공포에 떨게 한 염라천존의 염라궁이 의문의 금음(琴音)과 함께 하루아침에 멸망한다. 세월이 흘러 장안 상서부의 천재 소년 사검평은 장군산 계곡에서 말하는 영금 '설아'를 만난다. 설아가 괴사 비천혈홍사와 목숨을 건 혈전을 벌이자 사검평은 돌을 던져 설아를 돕고, 이후 설아의 주인인 신비롭고 아름다운 궁장소녀와 조우한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "序 章",
+        "summary": "백년 전 천하를 공포에 떨게 했던 염라천존과 그의 염라궁이 의문의 거문고 소리와 함께 멸망한 비사."
+      },
+      {
+        "sectionTitle": "第 一 章 소년(少年)과 영금(靈禽) - 1",
+        "summary": "장안 상서부의 둘째 공자 사검평이 장군산 계곡에서 말하는 흰 새 설아를 만나고, 설아가 괴사 비천혈홍사와 홍백 기류를 뿜으며 사투를 벌이는 것을 목격하여 돌을 던져 돕는 과정."
+      },
+      {
+        "sectionTitle": "第 一 章 소년(少年)과 영금(靈禽) - 2",
+        "summary": "부상당한 설아를 안고 가던 사검평이 오만한 청의소녀에게 뺨을 맞고 갈등하던 중, 설아의 진짜 주인인 아름다운 궁장소녀가 나타나 오해를 풀고 사검평에게 감사를 표하는 장면."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "영물의 종류",
+        "value": "천향신조 설아(흰 깃털에 빨간 눈을 가진 말하는 새), 비천혈홍사(선홍빛 괴사)"
+      }
+    ],
+    "keyEntitiesText": "사검평, 설아(영금), 궁장소녀(공주), 청아(청의소녀), 염라천존",
+    "settingText": "감숙과 섬서 경계의 장군산 계곡, 백년 전 태악산 염라궁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jzjYk_dQCWq0mjVJ5d4GQEJPlCSsG5xg",
+    "filename": "파천무 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.298Z",
+    "size": "773808",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1jzjYk_dQCWq0mjVJ5d4GQEJPlCSsG5xg/view?usp=drivesdk",
+    "sourceSha256": "13e20e1390cb0cc5c20eb19bc62e7213c7ba499e6f452c2ad5ba285bdcf8fbcc",
+    "textSha256": "537b06d671f9f8087da32a78938aa4b8e598ae962a888704d85f6af598b8bfde",
+    "changeKey": "a3fcec8baa9fe01c266bf8d6528b708a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "352a098585b7a298c174",
+    "workId": "352a098585b7a298c174",
+    "driveFileId": "1jzjYk_dQCWq0mjVJ5d4GQEJPlCSsG5xg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:25:19.914431+00:00",
+    "updatedAt": "2026-09-22T16:25:19.914447+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8596,
+      "updatedAt": "2026-09-22T16:25:19.914528+00:00"
+    }
+  }
+}

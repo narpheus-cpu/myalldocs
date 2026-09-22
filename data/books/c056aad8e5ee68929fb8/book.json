@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천추전기",
+    "author": "금강",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "신화궁",
+      "용류궁",
+      "곽천후",
+      "바다"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금강 작가가 11년 전(1987년) 발표했던 동명의 소설을 신진 현운학의 도움을 받아 재구성하여 새로이 내놓은 작품이다.",
+    "oneLineSummary": "신화궁의 붕괴와 배신, 그리고 바다를 배경으로 한 소년들의 새로운 운명을 그린 무협 소설.",
+    "overallSummary": "무림을 지배하던 신화궁이 곽천후와 복면인들의 음모로 잿더미가 되며 무너지고, 신화궁주 용류궁은 최후를 맞이한다. 한편, 고요한 바다 위에서 어부로 살아가는 수려한 소년 수빈과 엄청난 신력을 지닌 뇌향의 이야기가 시작된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "천추전기를 시작하며",
+        "summary": "작가가 11년 전 작품을 현운학의 도움으로 재간하게 된 소회를 밝힘."
+      },
+      {
+        "sectionTitle": "序1. 신화(神話)",
+        "summary": "천하무림을 지배하는 무적과 신비의 상징인 신화궁을 소개함."
+      },
+      {
+        "sectionTitle": "序2. 멸신화행(滅神話行)",
+        "summary": "신화궁을 무너뜨리기 위한 거대한 음모와 정보망 장악 과정이 전서구를 통해 보고됨."
+      },
+      {
+        "sectionTitle": "序3. 무너지는 신화(神話)",
+        "summary": "신화궁주 용류궁이 배신자 곽천후와 대적하며 신화궁이 붕괴하는 최후의 순간."
+      },
+      {
+        "sectionTitle": "제 1 장 바다, 그 영원한 신비(神秘)",
+        "summary": "바다에서 어부로 살아가는 수려한 소년 수빈과 괴력의 소년 뇌향의 평화롭지만 비범한 일상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "무공 및 단체",
+        "value": "신화궁, 신화비영, 일천영웅대, 육합검신"
+      }
+    ],
+    "keyEntitiesText": "용류궁(신화궁주), 곽천후, 문창, 무곡, 수빈, 뇌향, 신화궁",
+    "settingText": "태산 옥황정(신화궁), 망망대해(바다)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1l1-wxK8NU3OPu2SK7EuYHjK4sVcAe0Vg",
+    "filename": "천추전기(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.801Z",
+    "size": "713878",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1l1-wxK8NU3OPu2SK7EuYHjK4sVcAe0Vg/view?usp=drivesdk",
+    "sourceSha256": "900f8f1ada0dcea860914dbe87e86a2c2fefddbcf32bdadb8ffc2edee0a8ac10",
+    "textSha256": "7ff4ba8de2830587debc003e8aa6b514d7147c743a1c12561543386c8e5896e0",
+    "changeKey": "e8e36144fc675a037eacdf3b15cb3a91",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c056aad8e5ee68929fb8",
+    "workId": "c056aad8e5ee68929fb8",
+    "driveFileId": "1l1-wxK8NU3OPu2SK7EuYHjK4sVcAe0Vg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:22:39.242727+00:00",
+    "updatedAt": "2026-09-22T16:22:39.242745+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:22:39.242918+00:00"
+    }
+  }
+}

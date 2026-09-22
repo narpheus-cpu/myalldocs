@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "표류공주",
+    "author": "최후식",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "모진위",
+      "도학정",
+      "목선민",
+      "용무관"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "growth"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "최후식(필명 백수노계) 작가가 1997년부터 연재하여 3년 만에 완결한 기념비적인 무협 장편소설.",
+    "oneLineSummary": "허약한 체질을 극복하기 위해 용무권을 익힌 모진위와 용무관에 입문한 목선민의 각경권 대결을 그린 소설.",
+    "overallSummary": "용무관주 도학정은 은인 목연탁의 셋째 아들 목선민을 제자로 받아들인다. 입문 통과의례인 '각경권' 대련을 위해, 도학정은 가문 전래의 용무권을 완벽한 법로로 익혔으나 체질이 극히 허약한 모진위를 대련 상대로 내세운다. 모진위는 비록 약골이지만 6년간의 고지식한 수련을 통해 몸에 밴 용무권의 진수를 보여주려 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 각경권 (覺輕拳)",
+        "summary": "목가장의 목연탁이 아들 목선민을 데리고 용무관에 입문시키고, 입문 의식의 마지막 단계인 각경권 대련에서 허약하지만 용무권의 법도를 몸으로 익힌 모진위가 대련 상대로 나서는 과정과 도학정의 과거 회상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "용무권의 특징",
+        "value": "단순한 살상 무공이 아닌 호흡과 기의 흐름을 바로잡아 생명을 살리는 양생의 효과를 지님"
+      }
+    ],
+    "keyEntitiesText": "도학정(용무관주), 모진위, 목선민, 목연탁, 하상곤, 나해청",
+    "settingText": "신양성 동문 언저리의 용무관 연무장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-__FKToz_8OczGSAdc33ITw4d_7DGvnT",
+    "filename": "최후식-표류공주.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.018Z",
+    "size": "1876732",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1-__FKToz_8OczGSAdc33ITw4d_7DGvnT/view?usp=drivesdk",
+    "sourceSha256": "7eb28fb61896d83957432bbd5c53fe1284c19b3d10c693e6e04104d2a3954a1f",
+    "textSha256": "f6de71135c801d4f27f9627d3c4dcbc2740963e5447f07ace78bb611ebbcb960",
+    "changeKey": "c434e54fd440538f01efc86803552a4e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5c009f2f8748c7fd78cc",
+    "workId": "5c009f2f8748c7fd78cc",
+    "driveFileId": "1-__FKToz_8OczGSAdc33ITw4d_7DGvnT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:23:19.499264+00:00",
+    "updatedAt": "2026-09-22T16:23:19.499280+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:23:19.499359+00:00"
+    }
+  }
+}

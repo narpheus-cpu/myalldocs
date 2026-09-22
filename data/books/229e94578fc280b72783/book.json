@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "태극문",
+    "author": "용대운",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "화군악",
+      "태극문",
+      "섭보옥",
+      "위지혼",
+      "번우량"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "용대운 작가가 4년간의 공백을 깨고 1994년 PC통신 하이텔 무림동에 연재하며 집필을 재개한 대표작.",
+    "oneLineSummary": "천하무적의 검사 화군악의 독주에 맞서기 위해 태극문의 무공을 찾아 나서는 기재들의 이야기.",
+    "overallSummary": "화씨세가의 유일한 혈맥인 화군악은 녹슨 철검 하나로 우내십대고수들을 차례로 격파하며 무적의 초인으로 군림한다. 그에게 패배한 섬전창 섭자웅, 도절 우문황, 건존일수 번일악 등은 죽기 전 자식과 제자들에게 화군악의 무공을 깰 유일한 열쇠인 '태극문'의 무공을 배우라고 유언을 남긴다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서 장 폭풍(暴風)의 사나이",
+        "summary": "수라마검 손우곤, 무영마장 전무극, 혈화도 진궁을 단숨에 격파한 화군악의 무적 행보 소개."
+      },
+      {
+        "sectionTitle": "제1장 천하제일 (天下第一)",
+        "summary": "섬전창 섭자웅이 화군악과의 비무를 앞두고 딸 섭보옥에게 태극문의 동곽선생을 찾아가라 유언하는 장면, 천문서생 모용화린이 아들 모용수에게 태극문 입문을 권하는 장면, 도절 우문황의 패배를 지켜본 위지혼의 다짐, 번일악의 유서를 읽은 번우량의 결의 등."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "화군악의 무공 특징",
+        "value": "인간 무예의 허점을 전문적으로 노리는 화씨세가의 검술"
+      }
+    ],
+    "keyEntitiesText": "화군악, 섭자웅, 섭보옥, 모용화린, 모용수, 우문황, 위지혼, 번일악, 번우량",
+    "settingText": "산서성 비무지, 화산 태극동"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1X7jRoJA3ZMX1_-VXoEOSrrCFa65C6Szb",
+    "filename": "태극문 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.148Z",
+    "size": "1547509",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1X7jRoJA3ZMX1_-VXoEOSrrCFa65C6Szb/view?usp=drivesdk",
+    "sourceSha256": "2329c8e0af8145d4611279e902a478130b5153c4c05d34f48c214f0e76b1d82c",
+    "textSha256": "aad7dc45024e7adc1a192ed67926e95d98efdc2d23f2d490d21c2ed78c507d4c",
+    "changeKey": "0517bce30653481932b1523db60ac5d7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "229e94578fc280b72783",
+    "workId": "229e94578fc280b72783",
+    "driveFileId": "1X7jRoJA3ZMX1_-VXoEOSrrCFa65C6Szb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:24:01.480357+00:00",
+    "updatedAt": "2026-09-22T16:24:01.480375+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:24:01.480461+00:00"
+    }
+  }
+}

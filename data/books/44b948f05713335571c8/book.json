@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "초애몽",
+    "author": "권천",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "악산",
+      "설주황",
+      "도유희",
+      "냉모벽"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권천 작가의 무협 소설로, 사랑하는 여인을 찾아 중원으로 나선 청년 악산의 모험을 그린다.",
+    "oneLineSummary": "사랑하는 여인 도유희를 지키기 위해 불함산을 떠나 중원 무림의 혈전에 뛰어든 청년 악산의 이야기.",
+    "overallSummary": "불함산에서 아버지 설주황에게 기초적인 베기 무공만을 배운 악산은 첫눈에 반한 도유희를 만나기 위해 중원으로 떠난다. 도청방의 마차 행렬을 몰래 따르던 중, 철장각 복면인들의 기습을 받게 되자 악산은 뛰어난 몸놀림과 묵빛 검 '고구려'를 사용해 도유희를 구하고 철장각 고수들과 대적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장(序章)",
+        "summary": "주인공 악산이 불함산에서 하북 도청방의 도유희를 보고 첫눈에 반해 그녀를 인생의 목표로 삼게 된 계기."
+      },
+      {
+        "sectionTitle": "제 1 장 사랑을 찾아 세상 밖으로...",
+        "summary": "악산이 아버지 설주황에게 작별을 고하고 묵빛 검 '고구려'를 받아 떠난 후, 도청방 행렬을 추적하다가 철장각의 기습으로부터 도유희를 구출하는 전투."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 무기",
+        "value": "묵빛 검 '고구려' (검날은 무디나 무게로 예리함을 지님)"
+      }
+    ],
+    "keyEntitiesText": "악산, 설주황(아버지), 도유희, 냉모벽(일보쾌검), 강포(철추마), 미풍보(호랑객)",
+    "settingText": "불함산 모옥, 중원 하북으로 향하는 숲속 협곡"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13i2gpFPV-MlrkPVaBrPuLBlIURDBOEAr",
+    "filename": "초애몽(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.991Z",
+    "size": "901657",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/13i2gpFPV-MlrkPVaBrPuLBlIURDBOEAr/view?usp=drivesdk",
+    "sourceSha256": "4f36b3dfa83f9b9b11530c3d58192ac2e6ca768283cb9d59820a55ce8d270d4e",
+    "textSha256": "1623d9d67234fbb995a12744f3669f1506039b371deda240d18e72a4b1e61040",
+    "changeKey": "8f54e4afdf0b45f0e6340b1cb235f04f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "44b948f05713335571c8",
+    "workId": "44b948f05713335571c8",
+    "driveFileId": "13i2gpFPV-MlrkPVaBrPuLBlIURDBOEAr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:23:11.228449+00:00",
+    "updatedAt": "2026-09-22T16:23:11.228465+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:23:11.228551+00:00"
+    }
+  }
+}

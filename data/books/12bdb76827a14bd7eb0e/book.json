@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "청룡장",
+    "author": "석공",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "소천",
+      "단우백",
+      "마운룡",
+      "서왕",
+      "청룡장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "석공 작가의 데뷔작으로, 주변 지인들의 교정과 편집 도움을 받아 출간하게 된 무협 소설.",
+    "oneLineSummary": "청룡장의 사형제 간 갈등과 세력 다툼 속에서 총호법으로 승진한 막내 사제 소천의 이야기.",
+    "overallSummary": "청룡장의 창시자인 청룡노야가 자리를 비운 사이, 대사형 단우백이 장주가 되어 사제들을 견제하기 시작한다. 둘째 사제 마운룡과 셋째 사제 서왕 간의 갈등이 깊어지는 가운데, 막내 사제 소천은 청룡당주에서 총호법으로 승진한다. 소천은 새로 영입된 호법들과의 비무에서 압도적인 실력을 보여주며 자신의 가치를 증명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서 문",
+        "summary": "작가가 무협작가로서 당당히 책을 내게 된 기쁨과 교정 및 출판을 도와준 지인들에 대한 감사 인사."
+      },
+      {
+        "sectionTitle": "1. 청룡장",
+        "summary": "임무를 마치고 복귀한 소천이 사형제 간의 갈등(단우백의 견제, 마운룡의 분노, 서왕의 변절)을 목격하고, 대전에서 총호법 임명식 중 오익상과의 비무에서 승리하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 갈등 구조",
+        "value": "청룡노야의 부재 중 장주 단우백의 사제 견제 및 세력 개편으로 인한 사형제 간의 분열"
+      }
+    ],
+    "keyEntitiesText": "소천, 단우백, 마운룡, 서왕, 오익상, 홍균, 청룡노야",
+    "settingText": "청룡장 연무장 및 대전"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1thX7QJzuydgnHU0XFE9_ZHytgkQ_n0W0",
+    "filename": "청룡장 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.893Z",
+    "size": "2276285",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1thX7QJzuydgnHU0XFE9_ZHytgkQ_n0W0/view?usp=drivesdk",
+    "sourceSha256": "a145bb0bb7d4347c250ee7c147313bde7a25b2a45f1bb0f9c7908d96e557932e",
+    "textSha256": "5746b588a4755052c72eae91bab782f02be2af864d299ae1f6b3dce8067f1087",
+    "changeKey": "2c57c06022f163fdf1a8467efb10f92f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "12bdb76827a14bd7eb0e",
+    "workId": "12bdb76827a14bd7eb0e",
+    "driveFileId": "1thX7QJzuydgnHU0XFE9_ZHytgkQ_n0W0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:22:54.620122+00:00",
+    "updatedAt": "2026-09-22T16:22:54.620139+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:22:54.620227+00:00"
+    }
+  }
+}

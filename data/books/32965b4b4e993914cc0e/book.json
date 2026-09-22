@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "천하대종사",
+    "author": "권천",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "천마대조종",
+      "구파일방",
+      "사공세가",
+      "의학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "martial_arts"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권천 작가의 무협 소설로, 천마문의 독주와 이에 맞선 구파일방의 희생, 그리고 사공세가의 이야기를 다룬다.",
+    "oneLineSummary": "천마대조종의 무림 제패에 맞선 구파일방 장문인들의 희생과 사공세가의 비극적 운명을 다룬 무협 소설.",
+    "overallSummary": "천마대종교가 무림을 장악하자 구파일방 장문인들은 목숨을 건 십절파천황대진으로 그를 굴복시키고 강호 퇴출 약속을 받아내지만 모두 순직한다. 이후 사공승에 의해 무림이 재건되고, 사공세가의 사공후와 그의 세 아들(사공민, 사공관, 사공도)의 평화로운 일상과 의학 연구가 그려진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "序 章",
+        "summary": "천마문이 천하를 지배하고 구파일방이 와해된 무림의 상황을 설명함."
+      },
+      {
+        "sectionTitle": "第一章 마지막 일전(一戰)",
+        "summary": "무이산 천추봉에서 구파일방 장문인들이 천마대조종과 목숨을 건 대결을 벌여 승리하고 순직하는 과정."
+      },
+      {
+        "sectionTitle": "第二章 천하제일가(天下第一家)",
+        "summary": "운소산 부근 사공세가의 장주 사공후와 그의 세 아들, 그리고 천애유수 주무연과의 만남과 학문 토론."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 무공 및 진법",
+        "value": "십절파천황대진, 천라만겁신공, 환허마영신법, 상승토납지술"
+      }
+    ],
+    "keyEntitiesText": "천마대조종(용일평), 백계대사, 사공승, 사공후, 사공민, 사공관, 사공도, 주무연(천애유수)",
+    "settingText": "무이산 천추봉, 강서성과 호남성 경계의 운소산 사공세가 장원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1K7lffcC3GVSmHm85I3416D2tjm6kEAxc",
+    "filename": "천하대종사(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:10.828Z",
+    "size": "325045",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1K7lffcC3GVSmHm85I3416D2tjm6kEAxc/view?usp=drivesdk",
+    "sourceSha256": "193a5de5ccbf96a63019630836ed5c0528eca740ae3c4afeaeb830a1b26b8451",
+    "textSha256": "ff288b7a575f67c1ada6971b2f8ac023a28b78ce4ea2382636fe18cfcd8e9d6a",
+    "changeKey": "a39cad250f80464bf24756c925750d89",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "32965b4b4e993914cc0e",
+    "workId": "32965b4b4e993914cc0e",
+    "driveFileId": "1K7lffcC3GVSmHm85I3416D2tjm6kEAxc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:22:46.202734+00:00",
+    "updatedAt": "2026-09-22T16:22:46.202751+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:22:46.202839+00:00"
+    }
+  }
+}

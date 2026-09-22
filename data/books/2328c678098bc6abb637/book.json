@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "표사",
+    "author": "황규영",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "한민택",
+      "칠성표국",
+      "강대영",
+      "안상진"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "revenge"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황규영 작가의 무협 소설로, 10년 만에 고향으로 돌아와 아버지의 유언에 따라 표사가 된 한민택의 복수와 여정을 다룬다.",
+    "oneLineSummary": "아버지의 죽음 이후 유언에 따라 칠성표국의 표사가 된 한민택이 아버지에게 치명상을 입힌 산동패도 상우를 찾아 복수하는 이야기.",
+    "overallSummary": "한민택은 10년 만에 고향으로 돌아왔으나 아버지는 그에 대한 걱정으로 쇠약해져 임종을 맞이한다. 아버지는 칠성표국에서 표사로 일하라는 유언을 남기고, 민택은 칠성표국에 들어가 표사 생활을 시작한다. 아버지가 과거 녹림맹 산동지부의 부채주 산동패도 상우와의 대결에서 입은 상처로 죽었음을 알게 된 민택은 사흘간의 휴가를 얻어 산동지부로 가 상우를 처단한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "표사 - 1",
+        "summary": "한민택이 10년 만에 귀향하여 죽어가는 아버지의 유언(칠성표국에서 표사로 일할 것)을 듣고 아버지를 여읜 후, 안상진 대표두의 안내로 표국에 입성하여 동료 표사 장석민과 갈등을 빚는 과정."
+      },
+      {
+        "sectionTitle": "표사 - 2",
+        "summary": "민택이 첫 표행을 무사히 마치고 안상진으로부터 아버지가 산동패도 상우와의 대결로 상처를 입었다는 이야기를 들은 후, 총표두 강대영에게 사흘간의 휴가를 얻어 산동지부로 가 상우를 처단하는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주인공의 무공 수준",
+        "value": "총표두 강대영조차 감탄할 만큼 안정되고 튼실한 기세와 뛰어난 검술 실력 보유"
+      }
+    ],
+    "keyEntitiesText": "한민택, 강대영(총표두), 안상진(대표두), 장석민, 상우(산동패도), 주태",
+    "settingText": "북경 칠성표국, 산동 녹림맹 산동지부 산채"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1G5RuId8BdGXt6y3sbqgtiP0EKLv5l-Mb",
+    "filename": "표사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.371Z",
+    "size": "3031791",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1G5RuId8BdGXt6y3sbqgtiP0EKLv5l-Mb/view?usp=drivesdk",
+    "sourceSha256": "e293bd90fbfc9ee38d7815251690000ea959448fd06e0c584c80dbfd459d03e9",
+    "textSha256": "c9dacd2b02c87ae73e0866b0ab1f83bc742b9709111bf4f188284a515f2da1db",
+    "changeKey": "a99e2c72c92d7f46065c713dabee7ca2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2328c678098bc6abb637",
+    "workId": "2328c678098bc6abb637",
+    "driveFileId": "1G5RuId8BdGXt6y3sbqgtiP0EKLv5l-Mb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:26:01.057964+00:00",
+    "updatedAt": "2026-09-22T16:26:01.057980+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:26:01.058100+00:00"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "풍운고월조천하",
+    "author": "금강",
+    "genre": "무협 소설",
+    "tags": [
+      "무협",
+      "백리용아",
+      "절세모용가",
+      "소림사",
+      "청의노인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "wuxia",
+        "mystery"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "금강 작가의 대표작으로, 과거 '고월'로 발표되었던 서점용 정통 무협 소설을 원제인 '풍운고월조천하'로 재간한 작품.",
+    "oneLineSummary": "천하제일의 모용가문이 멸문한 후, 낙양의 영특한 마부 소년 백리용아가 청의노인으로부터 소림사 방장에게 전할 비밀 주머니를 받으며 시작되는 무림 기행.",
+    "overallSummary": "암흑마교와 천축 유가문을 격퇴하며 무림의 영웅으로 군림했으나 대가 끊겨 과부들만 남은 봉황곡 절세모용가. 세월이 흘러 낙양으로 향하는 관도에서 비를 피해 마차를 몰던 영특한 마부 소년 백리용아는 추격자들에게 쫓기며 부상을 입은 청의노인을 마차에 숨겨준다. 노인은 무림의 운명이 걸린 비밀 주머니를 소림사 방장에게 전해달라 부탁하고, 백리용아는 기지를 발휘해 추격자들을 따돌린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인언(引言)",
+        "summary": "한국 무협 소설의 역사와 침체기를 거쳐 서점용 무협으로 부흥하게 된 배경, 그리고 본서의 재간 소회."
+      },
+      {
+        "sectionTitle": "序章",
+        "summary": "암흑마교와 천축 유가문을 물리치고 무림을 구했으나 오대에 걸친 가주들의 희생으로 대가 끊긴 봉황곡 절세모용가의 비극적 역사."
+      },
+      {
+        "sectionTitle": "第一章 풍운지서(風雲지서)",
+        "summary": "낙양 관도에서 폭우 속 마차를 몰던 소년 백리용아가 부상당한 청의노인을 만나 소림사 방장에게 전할 봉서와 주머니를 받고, 추격해온 신비인들을 기지로 따돌리는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "가문의 역사",
+        "value": "암흑마교와 천축 유가문을 격퇴한 봉황곡 절세모용가"
+      }
+    ],
+    "keyEntitiesText": "백리용아, 청의노인, 신비인(검주), 절세모용가",
+    "settingText": "낙양으로 향하는 관도, 폭우 속 마차 안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UqVcvI32S2rtUDX5x7_ULLgHJeK_Yhe2",
+    "filename": "풍운고월조천하(무협).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.482Z",
+    "size": "1514678",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1UqVcvI32S2rtUDX5x7_ULLgHJeK_Yhe2/view?usp=drivesdk",
+    "sourceSha256": "a44a21c0f29d9089be22ba9338248315dab1df41b8524c5c4c3a3fc346f52117",
+    "textSha256": "40e541229dc3a0e3d56463f1c00b79a751d8f2d44667414197ba76b17394350d",
+    "changeKey": "f43d7795a0f22950937fdaaf20d0f774",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b98c11a45a2cb3991458",
+    "workId": "b98c11a45a2cb3991458",
+    "driveFileId": "1UqVcvI32S2rtUDX5x7_ULLgHJeK_Yhe2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T16:26:28.366805+00:00",
+    "updatedAt": "2026-09-22T16:26:28.366822+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T16:26:28.366906+00:00"
+    }
+  }
+}
