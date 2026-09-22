@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "제천대성",
+    "author": "박대광",
+    "genre": "퓨전판타지",
+    "tags": [
+      "손오공",
+      "우마왕",
+      "파초선",
+      "서유기",
+      "개그"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "코믹",
+        "무협",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "불경을 가져온 뒤 무료함을 견디지 못한 손오공이 용궁과 파초동을 휘저으며 파초선을 강탈하자 우마왕이 계략을 꾸미는 코믹 퓨전 소설.",
+    "overallSummary": "삼장법사와 함께 불경을 가져온 후 부처가 되기 직전의 손오공(제천대성)은 천계의 따분함을 견디지 못하고 외출에 나선다. 북해용궁에 들러 술을 마시려다 양심에 반응해 죄어드는 금고아 때문에 혼쭐이 난 손오공은 스트레스를 풀기 위해 우마왕을 찾아 파초동으로 향한다. 외출 중인 우마왕 대신 꽃을 구경하던 철선공주와 시비가 붙자, 손오공은 도술로 그녀를 마비시키고 보물인 파초선을 빼앗아 달아난다. 뒤늦게 돌아와 굳어 있던 아내를 구해낸 우마왕은 분노하여 충성스러운 부하 진호현을 불러 손오공이 절대 부처가 되지 못하도록 모종의 수단으로 '제거'하라는 지령을 내린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1화: 제천대성(齊天大聖) - 1",
+        "summary": "심심해하던 손오공이 북해용궁을 방문해 술을 마시려다 금고아의 조임에 고통받고, 화풀이 상대로 우마왕을 찾아가 파초동에서 철선공주의 파초선을 빼앗는다."
+      },
+      {
+        "sectionTitle": "제 2화: 제천대성(齊天大聖) - 2",
+        "summary": "우마왕이 굳어 있던 철선공주의 혈을 풀어주고 자초지종을 들은 뒤, 손오공을 처치하기 위해 심복 진호현에게 은밀한 암살/제거 명령을 하달한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "고전의 현대적 해학",
+        "value": "IMF, 금모으기 운동, 텔레파시를 문자메시지에 비유하는 등 서유기 캐릭터에 현대적 유머를 융합"
+      },
+      {
+        "key": "갈등 촉발 계기",
+        "value": "손오공의 파초선 강탈로 촉발된 우마왕의 복수와 이계 전이(판타지 세계 낙하)의 서막"
+      }
+    ],
+    "keyEntitiesText": "손오공(제천대성), 우마왕, 철선공주(암화), 북해용왕, 진호현(우마왕의 충직한 부하)",
+    "settingText": "천계의 대궐, 북해용궁, 파초동"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OBGmI6nS9fkt8mL4rjVbMuHhm65exi0L",
+    "filename": "제천대성 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:51.169Z",
+    "size": "305310",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1OBGmI6nS9fkt8mL4rjVbMuHhm65exi0L/view?usp=drivesdk",
+    "sourceSha256": "e727a8fbb29d796938fd74b73974f56ee5c3804099b0238939c813d02f9aff01",
+    "textSha256": "444ad7ef7451fbb1fbca47f50a59f5f6270261ca7137d2affb6328fbaf593f67",
+    "changeKey": "3690c3569ea2d5705f8517bd379973cc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "898bbfdb16f43b7e90e3",
+    "workId": "898bbfdb16f43b7e90e3",
+    "driveFileId": "1OBGmI6nS9fkt8mL4rjVbMuHhm65exi0L",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:04:26.270364+00:00",
+    "updatedAt": "2026-09-22T13:04:26.270378+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:04:26.270478+00:00"
+    }
+  }
+}
