@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시계태엽 오렌지",
+    "author": "앤서니 버지스",
+    "genre": "소설",
+    "tags": [
+      "디스토피아",
+      "사회소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "디스토피아",
+        "사회소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 작가로, 인간의 자유 의지와 폭력을 다룬다.",
+    "oneLineSummary": "폭력을 즐기던 소년 알렉스가 세뇌 치료를 통해 강제로 선해지는 과정을 다룬다.",
+    "overallSummary": "폭력을 일삼던 소년 알렉스는 체포되어 세뇌 치료를 받는다. 그는 강제로 선해지지만, 이는 진정한 선이 아닌 기계적인 반응일 뿐이다. 이 소설은 자유 의지의 중요성을 묻는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "알렉스의 폭력적인 일상과 체포 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "자유 의지, 폭력, 세뇌"
+      }
+    ],
+    "keyEntitiesText": "알렉스",
+    "settingText": "가상의 미래 사회."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1An4tJN7s-BLK1xGUslrewMaMBYQcaC6W",
+    "filename": "앤서니 버지스-시계태엽 오렌지 - 민음사 세계문학전집 112 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.769Z",
+    "size": "716382",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1An4tJN7s-BLK1xGUslrewMaMBYQcaC6W/view?usp=drivesdk",
+    "sourceSha256": "bf69250fb868eb26090af4053447cbf53b44c0ce7ee6bce0ce9b2d2b3883cca1",
+    "textSha256": "ad62142aa110e52591cac34c69da0c6b8eafad89d8b8388edabfc2a2ea86f9b3",
+    "changeKey": "f6c7282ef512905c8d5019401074e560",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cfacefc5d0db69a9740a",
+    "workId": "cfacefc5d0db69a9740a",
+    "driveFileId": "1An4tJN7s-BLK1xGUslrewMaMBYQcaC6W",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:15:28.376148+00:00",
+    "updatedAt": "2026-09-22T01:15:28.376158+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:15:28.376241+00:00"
+    }
+  }
+}

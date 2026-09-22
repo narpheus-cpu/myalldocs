@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "테히라, 한 덩어리의 빵",
+    "author": "아그논",
+    "genre": "소설",
+    "tags": [
+      "문학",
+      "단편",
+      "종교적 색채"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "종교적 색채",
+        "인도주의"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이스라엘의 노벨 문학상 수상 작가로, 인간의 선행과 종교적 삶을 다룬다.",
+    "oneLineSummary": "예루살렘의 경건한 노부인 테히라를 통해 선행과 인간의 도리를 깨닫는 화자의 이야기이다.",
+    "overallSummary": "화자는 예루살렘에서 경건하고 현명한 노부인 테히라를 만난다. 그녀는 가난한 이들을 돕고 길을 안내하는 등 선행을 베푸는 인물이다. 화자는 테히라를 통해 선행의 의미와 인간의 도리를 배우며, 랍비 미망인을 돕는 과정에서 그녀의 깊은 신앙심과 순종을 목격한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "화자가 예루살렘에서 테히라를 처음 만나 길 안내를 받는 장면을 그린다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "화자가 랍비 미망인을 방문하여 스토우브를 선물하고, 그곳에서 다시 테히라를 만나는 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "3",
+        "summary": "슬픔의 벽에서 테히라의 순종적인 신앙심과 그녀의 과거 이야기를 듣는 장면이다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "선행, 신앙, 인간의 도리"
+      }
+    ],
+    "keyEntitiesText": "화자, 테히라, 랍비 미망인",
+    "settingText": "예루살렘, 슬픔의 벽."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nYatVHc2a0uCXhWj8m-6gjKEgvZQ7hFo",
+    "filename": "아그논-테히라,한덩어리의 빵.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.490Z",
+    "size": "95922",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1nYatVHc2a0uCXhWj8m-6gjKEgvZQ7hFo/view?usp=drivesdk",
+    "sourceSha256": "4443b4aa5a6739287aef8cccd96dc1e0413c3ad720fe10918b72aeeb4186e00b",
+    "textSha256": "85e75e78b082b76ed040146f9b573481e06a5b242f57cef7dfe3e3d66e53d5a2",
+    "changeKey": "31b786478641c79f0604e9a4fcf8453d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6b330921b1100ab7b9af",
+    "workId": "6b330921b1100ab7b9af",
+    "driveFileId": "1nYatVHc2a0uCXhWj8m-6gjKEgvZQ7hFo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:14:06.949355+00:00",
+    "updatedAt": "2026-09-22T01:14:06.949365+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:14:06.949467+00:00"
+    }
+  }
+}

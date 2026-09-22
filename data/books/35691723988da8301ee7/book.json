@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내 친구 빙고",
+    "author": "A.L. 싱어",
+    "genre": "아동문학",
+    "tags": [
+      "아동문학",
+      "동물"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "아동문학",
+        "동물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아동문학 작가로, 동물과 인간의 우정을 다룬다.",
+    "oneLineSummary": "서커스단에서 잔심부름을 하던 개 빙고가 처키라는 소년을 만나 우정을 쌓는 이야기이다.",
+    "overallSummary": "서커스단에서 일하던 개 빙고는 주인의 학대를 견디다 못해 도망친다. 도망치던 중 빙고는 시냇물에 빠진 소년 처키를 구하고, 처키와 함께 우정을 쌓으며 새로운 삶을 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "서커스단에서 일하던 빙고의 일상과 도망치게 된 계기를 그린다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "빙고가 처키를 구하고 그와 우정을 쌓는 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "우정, 동물과 인간의 교감"
+      }
+    ],
+    "keyEntitiesText": "빙고, 처키, 치키, 스티브",
+    "settingText": "덴버 변두리."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pL76cN_tj9hnP7URzmy4w0wYdNwY27wY",
+    "filename": "아이작 싱어-내 친구 빙고.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.636Z",
+    "size": "156187",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1pL76cN_tj9hnP7URzmy4w0wYdNwY27wY/view?usp=drivesdk",
+    "sourceSha256": "15a2407cb79e80913796578e8b2291647cbc7e92125c7c8cb4bf6d1d130f44ce",
+    "textSha256": "95272b62581a98cb9f0dbec8a092a5a483a7ca35615fdffb5832073eaa9af3be",
+    "changeKey": "7f92ad5e1d081e1ae51c458e16223708",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "35691723988da8301ee7",
+    "workId": "35691723988da8301ee7",
+    "driveFileId": "1pL76cN_tj9hnP7URzmy4w0wYdNwY27wY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:14:41.894155+00:00",
+    "updatedAt": "2026-09-22T01:14:41.894163+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:14:41.894240+00:00"
+    }
+  }
+}

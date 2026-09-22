@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "왜 나는 너를 사랑하는가",
+    "author": "알랭 드 보통",
+    "genre": "소설",
+    "tags": [
+      "철학",
+      "로맨스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "철학",
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 작가로, 철학적 사유를 소설에 담아낸다.",
+    "oneLineSummary": "비행기에서 만난 클로이와 사랑에 빠진 화자가 사랑의 과정을 철학적으로 분석하는 이야기이다.",
+    "overallSummary": "화자는 비행기에서 만난 클로이와 사랑에 빠진다. 그는 사랑의 시작부터 이별까지의 과정을 철학적, 심리적으로 분석하며 사랑의 본질을 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "화자가 비행기에서 클로이를 만나 사랑에 빠지는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "사랑, 철학, 심리"
+      }
+    ],
+    "keyEntitiesText": "화자, 클로이",
+    "settingText": "런던, 파리."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eb0OOQ8XJCd0Zryl6lThvZ0EUX-ab-HB",
+    "filename": "알랭 드 보통-왜 나는 너를 사랑하는가(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.744Z",
+    "size": "401280",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1eb0OOQ8XJCd0Zryl6lThvZ0EUX-ab-HB/view?usp=drivesdk",
+    "sourceSha256": "7c11a5d03e866ee9d2f46334eee527f3b27ac227a40d5dd9de406de376b70696",
+    "textSha256": "1bde2915403355c6d2100a35331cc4808f51a4b494852844eb380f4382e9b07c",
+    "changeKey": "9a77d7c71b0f37a4d4761d3aaa00decf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "93242c887e1c8d2333b5",
+    "workId": "93242c887e1c8d2333b5",
+    "driveFileId": "1eb0OOQ8XJCd0Zryl6lThvZ0EUX-ab-HB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:15:06.329898+00:00",
+    "updatedAt": "2026-09-22T01:15:06.329908+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:15:06.330043+00:00"
+    }
+  }
+}

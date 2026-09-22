@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인어 공주",
+    "author": "안데르센",
+    "genre": "동화",
+    "tags": [
+      "동화",
+      "고전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "동화",
+        "고전"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "덴마크의 동화 작가로, 세계적인 고전 동화를 썼다.",
+    "oneLineSummary": "인간 왕자를 사랑하게 된 인어 공주가 영혼을 얻기 위해 겪는 희생과 사랑 이야기이다.",
+    "overallSummary": "바닷속 인어 공주는 인간 왕자를 사랑하게 되어 마녀에게 목소리를 주고 다리를 얻는다. 그녀는 왕자의 사랑을 얻지 못하면 거품이 되어 사라질 운명에 처한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "인어 공주가 인간 왕자를 사랑하게 되어 마녀를 찾아가는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "사랑, 희생, 영혼"
+      }
+    ],
+    "keyEntitiesText": "인어 공주, 왕자, 마녀",
+    "settingText": "바닷속 궁전, 인간의 나라."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1buGFXl2gfopDop1dXl342toLMvgiiTto",
+    "filename": "표류공주 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:11.344Z",
+    "size": "1349115",
+    "folderPath": [
+      "books",
+      "08 무협"
+    ],
+    "relativePath": "books/08 무협",
+    "webViewLink": "https://drive.google.com/file/d/1buGFXl2gfopDop1dXl342toLMvgiiTto/view?usp=drivesdk",
+    "sourceSha256": "71f7e0e0e48f6b2ccb91d9ab71cdc0226b27423055c8631ee39270acc8a9d9a2",
+    "textSha256": "eec353fa991b0a01800626c592682220f6b2c628dc09c4c0068209dc1d9dd257",
+    "changeKey": "a00aa9537550c6e3aeff492272da4915",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8b2019bba248d4156b58",
+    "workId": "8b2019bba248d4156b58",
+    "driveFileId": "1buGFXl2gfopDop1dXl342toLMvgiiTto",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:14:58.844684+00:00",
+    "updatedAt": "2026-09-22T01:14:58.844695+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.41,
+      "updatedAt": "2026-09-22T01:14:58.844791+00:00"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지니아의 사랑",
+    "author": "앤서니 버지스",
+    "genre": "로맨스",
+    "tags": [
+      "로맨스",
+      "소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "로맨스 소설 작가로, 흥미진진한 이야기와 캐릭터를 창조한다.",
+    "oneLineSummary": "닉 채스턴이 자신의 빚을 갚기 위해 결혼 상담자 호바트에게 아내를 구해달라고 거래하는 이야기이다.",
+    "overallSummary": "닉 채스턴은 카지노에서 빚을 진 호바트에게 아내를 구해달라는 거래를 제안한다. 호바트는 처음에는 당황하지만, 닉의 강압과 거래의 조건에 따라 아내를 찾기 시작한다. 이 과정에서 두 사람은 예상치 못한 사건들에 휘말린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "닉 채스턴이 호바트에게 아내를 구해달라는 거래를 제안하는 장면을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "결혼, 거래, 사랑"
+      }
+    ],
+    "keyEntitiesText": "닉 채스턴, 호바트 바트",
+    "settingText": "가상의 행성 세인트 헬렌."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MZJlUraYet-e34w8l2tg3C3ccUE4vVuG",
+    "filename": "아만다 퀵-지니아의 사랑.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.616Z",
+    "size": "447940",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1MZJlUraYet-e34w8l2tg3C3ccUE4vVuG/view?usp=drivesdk",
+    "sourceSha256": "171caf9be2c2ebeee6ab3f019e444824bae8c4b3869384e3dba1fd58b1276ad6",
+    "textSha256": "cb8885cbe3425eda36f3df6d1cf52e362ed0b375f791c9dbb1d4494df9b8f9d1",
+    "changeKey": "d7724097cf9f1eaa4b5c3c18578636dc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bf246413e04c5a134c7b",
+    "workId": "bf246413e04c5a134c7b",
+    "driveFileId": "1MZJlUraYet-e34w8l2tg3C3ccUE4vVuG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:14:36.137128+00:00",
+    "updatedAt": "2026-09-22T01:14:36.137138+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:14:36.137223+00:00"
+    }
+  }
+}

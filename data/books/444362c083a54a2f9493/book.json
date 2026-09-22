@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "정조의 맹서",
+    "author": "아그논",
+    "genre": "소설",
+    "tags": [
+      "문학",
+      "단편",
+      "성장소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성장소설",
+        "심리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이스라엘의 노벨 문학상 수상 작가로, 인간의 내면과 운명을 깊이 있게 다룬다.",
+    "oneLineSummary": "어린 시절의 맹서를 간직한 채 이스라엘로 떠나 해양 식물을 연구하는 야곱 레흐니츠의 삶과 사랑 이야기이다.",
+    "overallSummary": "야곱 레흐니츠는 박사 학위를 받은 후 이스라엘 야파로 떠나 교사로 일하며 해양 식물을 연구한다. 그는 어린 시절 영사의 딸 쇼샤나와 맺은 정조의 맹서를 마음속에 간직하고 있다. 성인이 된 후에도 그는 과거의 인연과 현재의 연구 사이에서 갈등하며 자신의 삶을 개척해 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "야곱 레흐니츠가 야파에 정착하여 교사로 일하며 해양 식물을 연구하는 일상을 보여준다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "레흐니츠가 해양학에 관심을 갖게 된 계기와 그의 학문적 열정을 다룬다."
+      },
+      {
+        "sectionTitle": "3",
+        "summary": "레흐니츠의 은인인 영사와 그의 딸 쇼샤나와의 어린 시절 추억과 맹서를 회상한다."
+      },
+      {
+        "sectionTitle": "4",
+        "summary": "영사 부인의 장례식과 그로 인해 쇼샤나와 다시 연결되는 감정의 변화를 그린다."
+      },
+      {
+        "sectionTitle": "5",
+        "summary": "레흐니츠가 이스라엘로 떠나게 된 배경과 은인에 대한 기억을 정리한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "과거의 맹서, 학문적 열정, 운명적 사랑"
+      }
+    ],
+    "keyEntitiesText": "야곱 레흐니츠, 에르리히 영사, 쇼샤나, 에르리히 부인",
+    "settingText": "19세기 말~20세기 초, 야파(이스라엘)."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1k57Gch-o6dOrA1NB901_IUj12pzFEMJo",
+    "filename": "아그논-정조의 맹서.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.464Z",
+    "size": "169041",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1k57Gch-o6dOrA1NB901_IUj12pzFEMJo/view?usp=drivesdk",
+    "sourceSha256": "83905ed714671d0498672eba57cbd2a90dbfd3e37da617a47a219670f8040d11",
+    "textSha256": "8233e851eabbf2714e068885b06a0b482649d37c770561e9a762d8edffac327d",
+    "changeKey": "88bc2fadeb2a833cf9962235cd4e2197",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "444362c083a54a2f9493",
+    "workId": "444362c083a54a2f9493",
+    "driveFileId": "1k57Gch-o6dOrA1NB901_IUj12pzFEMJo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:14:01.224203+00:00",
+    "updatedAt": "2026-09-22T01:14:01.224213+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:14:01.224324+00:00"
+    }
+  }
+}

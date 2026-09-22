@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인간의 대지",
+    "author": "쁘라무디아 아난따또르",
+    "genre": "소설",
+    "tags": [
+      "인도네시아 문학",
+      "역사소설",
+      "식민지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사소설",
+        "식민지 문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인도네시아의 작가로, 식민지 지배하의 민족적 각성을 다룬 대작을 썼다.",
+    "oneLineSummary": "네덜란드 식민지 시대 인도네시아에서 근대적 개인으로 각성해가는 청년 밍케의 이야기이다.",
+    "overallSummary": "19세기 말 네덜란드 식민지 인도네시아를 배경으로, 명문가 출신의 청년 밍케가 근대적 교육을 받으며 민족적 각성을 이루어가는 과정을 그린다. 그는 안네리스와의 사랑과 냐이 온트솔로의 강인한 삶을 통해 식민지 지배의 모순을 깨닫는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "주인공 밍케의 소개와 그가 근대적 개인으로 성장하는 배경을 다룬다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "쟝 마레와의 만남과 그를 통한 정신적 성장을 그린다."
+      },
+      {
+        "sectionTitle": "3",
+        "summary": "메레마 가족의 비밀과 그들과의 관계를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "민족적 각성, 식민지 지배, 근대적 개인"
+      }
+    ],
+    "keyEntitiesText": "밍케, 안네리스 메레마, 냐이 온트솔로, 쟝 마레",
+    "settingText": "19세기 말~20세기 초, 네덜란드 식민지 인도네시아."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LzHb6O7L1CAqRB8MnNgrjs72VGj4yrdr",
+    "filename": "프라무디아 아난다 토르-인간의 대지 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:20.448Z",
+    "size": "1009983",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1LzHb6O7L1CAqRB8MnNgrjs72VGj4yrdr/view?usp=drivesdk",
+    "sourceSha256": "3182a1f9e1fd6d10523fe4190b16470641ddbdfb1c00d9b8035599a902691edc",
+    "textSha256": "828d39761bdd648eea34f3644134344a9dcc58ce9e6ad25641d9457dceba2cde",
+    "changeKey": "a34d0276176c9f4cf3e160a153b740b2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4780fdbf34bd27d57c2b",
+    "workId": "4780fdbf34bd27d57c2b",
+    "driveFileId": "1LzHb6O7L1CAqRB8MnNgrjs72VGj4yrdr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:14:18.315313+00:00",
+    "updatedAt": "2026-09-22T01:14:18.315322+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8754,
+      "updatedAt": "2026-09-22T01:14:18.315428+00:00"
+    }
+  }
+}

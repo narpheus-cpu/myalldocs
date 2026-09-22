@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인간쓰레기",
+    "author": "아이작 싱어",
+    "genre": "소설",
+    "tags": [
+      "유대인 문학",
+      "사회소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "사회소설",
+        "유대인 문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "유대인 작가로, 유대인의 삶과 고뇌를 다룬다.",
+    "oneLineSummary": "아르헨티나에서 성공한 유대인 맥스 바라밴더가 폴란드를 방문하며 겪는 내면의 갈등과 과거와의 대면이다.",
+    "overallSummary": "아르헨티나에서 성공한 유대인 맥스 바라밴더는 아들의 죽음 이후 공허함을 느끼며 폴란드를 방문한다. 그는 과거의 기억과 현재의 삶 사이에서 갈등하며, 자신의 정체성을 찾아간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "맥스 바라밴더가 폴란드를 방문하여 과거의 기억을 떠올리는 장면을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "정체성, 과거, 갈등"
+      }
+    ],
+    "keyEntitiesText": "맥스 바라밴더, 로셸, 아르투로",
+    "settingText": "바르샤바."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UiOvJSyBk0iX00XqzSFhKsiQXEXccTX7",
+    "filename": "아이작 싱어-인간 쓰레기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.652Z",
+    "size": "325539",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1UiOvJSyBk0iX00XqzSFhKsiQXEXccTX7/view?usp=drivesdk",
+    "sourceSha256": "c2b602cec5fb3a77de84b42e5f7ea2b4dbcffbf0aae8f01cc99e8a44e418388c",
+    "textSha256": "7cafc77b8c909ab32861d1d6980e55975cb4819f06ec38c1e753201556cc4668",
+    "changeKey": "2845b5923c79f8a8fdc66fad4e44e781",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bc6196522810aa910961",
+    "workId": "bc6196522810aa910961",
+    "driveFileId": "1UiOvJSyBk0iX00XqzSFhKsiQXEXccTX7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:14:46.733806+00:00",
+    "updatedAt": "2026-09-22T01:14:46.733815+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:14:46.733911+00:00"
+    }
+  }
+}

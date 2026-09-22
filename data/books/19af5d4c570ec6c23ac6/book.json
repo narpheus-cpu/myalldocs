@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 데이빗",
+    "author": "안네 홀름",
+    "genre": "소설",
+    "tags": [
+      "아동문학",
+      "성장소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성장소설",
+        "아동문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "덴마크의 작가로, 아동과 청소년을 위한 소설을 썼다.",
+    "oneLineSummary": "수용소를 탈출한 소년 데이빗이 덴마크를 향해 떠나는 긴 여정과 성장을 다룬다.",
+    "overallSummary": "수용소에서 자란 소년 데이빗은 탈출을 감행한다. 그는 나침반 하나에 의지해 덴마크를 향해 긴 여정을 떠나며, 세상의 다양한 사람들을 만나고 자신의 정체성을 찾아간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "데이빗이 수용소를 탈출하여 덴마크를 향해 떠나는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "자유, 성장, 정체성"
+      }
+    ],
+    "keyEntitiesText": "데이빗, 요하네스",
+    "settingText": "유럽 전역."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18XX3-jBaBV9I2kvOUkNy8EfdxEsZEsjX",
+    "filename": "안네 홀름-나는 데이빗.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:15.711Z",
+    "size": "221029",
+    "folderPath": [
+      "books",
+      "03 외국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/03 외국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/18XX3-jBaBV9I2kvOUkNy8EfdxEsZEsjX/view?usp=drivesdk",
+    "sourceSha256": "a57e36bcd6bf612218e1869a0be60f18af4337026fa4d01fa7a41bdf1752928d",
+    "textSha256": "55a4a522cfa5fc8c70c8f9a590a4cb1265948648f2a9499eeb0b18e8bcbc7a4e",
+    "changeKey": "2dba623fd8f15436256502966eccb4a8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "19af5d4c570ec6c23ac6",
+    "workId": "19af5d4c570ec6c23ac6",
+    "driveFileId": "18XX3-jBaBV9I2kvOUkNy8EfdxEsZEsjX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T01:14:51.655069+00:00",
+    "updatedAt": "2026-09-22T01:14:51.655079+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T01:14:51.655179+00:00"
+    }
+  }
+}
