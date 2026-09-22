@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "돈의 역사",
+    "author": "김학은",
+    "genre": "금융사 교양서",
+    "tags": [
+      "화폐",
+      "돈",
+      "금융사",
+      "김학은",
+      "경제사"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "경제사",
+        "금융"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "화폐금융 분야의 연구와 번역을 해온 경제학자이다.",
+    "oneLineSummary": "원시 화폐부터 현대의 관리통화제도와 국제 금융기구에 이르기까지 돈의 기원과 발전 과정을 담은 역사서이다.",
+    "overallSummary": "돈의 본질과 어제, 화폐의 선사시대, 금, 신용과 지폐, 예금화폐와 중앙은행의 등장, 영국·미국·한국의 화폐와 은행 역사, 세계은행과 국제통화기금까지 돈을 둘러싼 인류의 역사를 흥미롭게 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "0~3장",
+        "summary": "돈의 개념과 원리, 화폐의 선사시대, 초기 화폐의 운명, 금의 역할을 다룬다."
+      },
+      {
+        "sectionTitle": "4~7장",
+        "summary": "현금과 신용, 지폐와 예금화폐의 등장, 화폐량의 관리와 인플레이션을 다룬다."
+      },
+      {
+        "sectionTitle": "8~11장",
+        "summary": "영국, 미국, 한국의 화폐와 은행 제도, 세계은행과 IMF를 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "책의 성격",
+        "value": "딱딱한 화폐금융론을 일반 독자들이 교양으로 쉽게 읽을 수 있도록 엮은 역사서"
+      }
+    ],
+    "keyEntitiesText": "김학은, 니체",
+    "settingText": "고대부터 현대에 이르는 세계 경제사"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Gf-MS94DkvpIfCv0JE5n_SxVaz2lXZpC",
+    "filename": "김학은-돈의 역사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.727Z",
+    "size": "332306",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1Gf-MS94DkvpIfCv0JE5n_SxVaz2lXZpC/view?usp=drivesdk",
+    "sourceSha256": "7a487d398e623b040a0da9bf8cae71fb139cf1455b738997031ac4a6b6c23c03",
+    "textSha256": "b47697220443175484466f8a589da2d5e097149fff9112de4d94f246ccaf6e86",
+    "changeKey": "bc2f72aa239634c74787f0849a5faf2f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7c56d449106b9b954348",
+    "workId": "7c56d449106b9b954348",
+    "driveFileId": "1Gf-MS94DkvpIfCv0JE5n_SxVaz2lXZpC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:59:56.481114+00:00",
+    "updatedAt": "2026-09-22T17:59:56.481131+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:59:56.481241+00:00"
+    }
+  }
+}

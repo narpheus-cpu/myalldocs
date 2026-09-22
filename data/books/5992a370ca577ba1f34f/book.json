@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "거꾸로 읽는 삼국지",
+    "author": "김진철 편역",
+    "genre": "역사 교양서",
+    "tags": [
+      "삼국지",
+      "역사",
+      "중국사",
+      "김진철"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "역사해설",
+        "중국고대사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고려대 중국어과를 졸업하고 교육계에 몸담으며 번역과 창작 활동을 하는 저자이다.",
+    "oneLineSummary": "소설 《삼국지연의》 속 허구와 왜곡을 바로잡고 실제 역사적 진실을 파헤친 책이다.",
+    "overallSummary": "도원결의, 관우의 청룡언월도, 장비의 외모 등 대중이 《삼국지연의》를 통해 진실로 믿어온 여러 이야기들이 역사적 사실과 어떻게 다른지 정사의 기록을 바탕으로 낱낱이 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "도원결의, 관우와 장비의 나이, 청룡언월도의 허구, 조조와 동탁의 관계 등을 다룬다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "유비, 관우, 장비의 행적과 제갈량의 등장 배경 등을 역사적 사실로 재조명한다."
+      },
+      {
+        "sectionTitle": "제3~6장",
+        "summary": "적벽대전, 관우의 죽음, 제갈량의 북벌 등 삼국지 주요 사건의 진실을 규명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "집필 의도",
+        "value": "소설 속 허구와 민간전설로 포장된 삼국지의 진실을 역사서에 근거해 바로잡음"
+      }
+    ],
+    "keyEntitiesText": "유비, 관우, 장비, 조조, 제갈량, 나관중, 진수",
+    "settingText": "중국 삼국시대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Ze7PfrCMsaYcI9mHSGkqyoVvztJaphkH",
+    "filename": "김진철 편역-거꾸로 읽는 삼국지 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.701Z",
+    "size": "328582",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1Ze7PfrCMsaYcI9mHSGkqyoVvztJaphkH/view?usp=drivesdk",
+    "sourceSha256": "0c874b3db9e942e41eb40783f1b0f1648b7e3e5bc640d46f8406d34079dde2dc",
+    "textSha256": "bd932064140371908d68770178b0afa4767bb472a6131fb5e696dffaef9d5b2c",
+    "changeKey": "1fb18d67253c70ddb3924b883c5f0d8f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5992a370ca577ba1f34f",
+    "workId": "5992a370ca577ba1f34f",
+    "driveFileId": "1Ze7PfrCMsaYcI9mHSGkqyoVvztJaphkH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:59:13.155124+00:00",
+    "updatedAt": "2026-09-22T17:59:13.155139+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:59:13.155247+00:00"
+    }
+  }
+}

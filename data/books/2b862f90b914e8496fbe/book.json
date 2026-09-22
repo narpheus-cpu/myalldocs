@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내가 아는 것이 진리인가",
+    "author": "김창호 엮음",
+    "genre": "철학 교양서",
+    "tags": [
+      "철학",
+      "인식론",
+      "과학철학",
+      "윤리학",
+      "논쟁"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "대학 교양",
+        "철학논쟁"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대 철학과에서 학사, 석사, 박사 학위를 받고 대학에서 철학을 강의해 온 철학자이자 언론인이다.",
+    "oneLineSummary": "현실의 다양한 쟁점을 철학적으로 사유하고 토론할 수 있도록 이끄는 대학인을 위한 철학교양서이다.",
+    "overallSummary": "인식론, 과학철학, 사회 및 역사 철학, 윤리학, 문화·환경·종교 등 5개 장으로 나누어 우리 사회의 현실적 쟁점들을 철학적 주제로 승화시키고 다양한 입장의 논쟁을 소개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 인식론",
+        "summary": "진리의 개념과 대응설, 정합설, 실용설 등 진리관의 쟁점을 다룬다."
+      },
+      {
+        "sectionTitle": "2~5장",
+        "summary": "과학철학, 사회철학, 윤리학, 문화 및 환경 등 현대의 다양한 철학적 논쟁을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "책의 특징",
+        "value": "지식 암기가 아닌 현실적 소재를 통한 '철학적 사유 능력' 배양에 초점"
+      }
+    ],
+    "keyEntitiesText": "김창호, 소크라테스, 플라톤, 아리스토텔레스",
+    "settingText": "현대 대학 및 지성계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1x78IQje-PFykqN8ae5YjX64kgbN_T8Cy",
+    "filename": "김창호 엮음-내가 아는것이 진리인가-대학인을 위한 철학논쟁 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.714Z",
+    "size": "509401",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1x78IQje-PFykqN8ae5YjX64kgbN_T8Cy/view?usp=drivesdk",
+    "sourceSha256": "83de69f7208ba84c0237b81f18e16be6b6d2422af3d772add0202b92c05185e5",
+    "textSha256": "4a84287045046112a67015a974fab8b5287c1b172435a66dd2802dca9d046190",
+    "changeKey": "d12345297f97ca0d2d8bd3207ca2906c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2b862f90b914e8496fbe",
+    "workId": "2b862f90b914e8496fbe",
+    "driveFileId": "1x78IQje-PFykqN8ae5YjX64kgbN_T8Cy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:59:19.945902+00:00",
+    "updatedAt": "2026-09-22T17:59:19.945918+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:59:19.946086+00:00"
+    }
+  }
+}

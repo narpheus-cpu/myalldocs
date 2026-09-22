@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "심리학의 이해",
+    "author": "김훈기",
+    "genre": "심리학 개론서",
+    "tags": [
+      "심리학",
+      "심리학의이해",
+      "김훈기",
+      "교양교재",
+      "이상행동"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "심리학",
+        "대학 교양"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "대학에서 심리학을 강의해 온 저자이다.",
+    "oneLineSummary": "인간의 마음과 행동을 과학적으로 탐구하는 심리학의 전반적인 이론과 응용 분야를 체계적으로 다룬 개론서이다.",
+    "overallSummary": "심리학의 본질과 역사, 생물학적 기초, 인간 발달, 동기, 정서, 스트레스, 학습, 사회심리, 성격, 노인심리, 이상행동과 치료에 이르기까지 심리학의 핵심 영역을 대학 교양 수준에 맞춰 알기 쉽게 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~3장",
+        "summary": "심리학의 본질, 생물학적 기초, 인간의 발달 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "4~7장",
+        "summary": "인간의 학습, 동기, 정서, 스트레스와 해소방법을 다룬다."
+      },
+      {
+        "sectionTitle": "8~11장 및 노인심리",
+        "summary": "사회심리, 성격, 노인심리, 이상행동 및 치료 방법을 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "편제 특징",
+        "value": "제한된 학기 내에 심리학의 전 분야를 효율적으로 학습할 수 있도록 구성된 교양 교재"
+      }
+    ],
+    "keyEntitiesText": "김훈기, W. James, Skinner, Wolpe",
+    "settingText": "현대 대학 및 일상생활"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xEVh1XmLdfh4_sRn0l2K-HsOp3aTPx-n",
+    "filename": "김훈기-심리학의 이해(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T18:19:06.000Z",
+    "size": "1522157",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1xEVh1XmLdfh4_sRn0l2K-HsOp3aTPx-n/view?usp=drivesdk",
+    "sourceSha256": "adf2d0491f37620104299e54ff6cc61f46f339950ce22218622ae4d02e274f33",
+    "textSha256": "76ccf4f439ec764429e72212bd03667704ac52a8c660b612828485575a5fe807",
+    "changeKey": "306b6987d66fa189a2f8e50644b4600f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7a623505473fbc4a0c21",
+    "workId": "7a623505473fbc4a0c21",
+    "driveFileId": "1xEVh1XmLdfh4_sRn0l2K-HsOp3aTPx-n",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:00:16.652997+00:00",
+    "updatedAt": "2026-09-22T18:00:16.653015+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:00:16.653133+00:00"
+    }
+  }
+}

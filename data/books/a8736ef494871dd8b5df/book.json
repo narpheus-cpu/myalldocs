@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "김헌의 그리스 로마 신화",
+    "author": "김헌",
+    "genre": "신화 인문서",
+    "tags": [
+      "그리스로마신화",
+      "김헌",
+      "인문학",
+      "서양고전",
+      "철학"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "신화",
+        "고전문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대에서 서양고전학을 가르치며 인문학 열풍을 이끌어온 고전학자이다.",
+    "oneLineSummary": "카오스에서 올륌피아, 영웅들의 투쟁과 불멸의 이야기까지 그리스 로마 신화의 세계를 철학적 시선으로 풀어낸 책이다.",
+    "overallSummary": "방대한 그리스 로마 신화의 핵심 이야기를 4개의 부로 나누어 담았다. 태초의 천지창조부터 올림포스 신들의 영광, 영웅들의 모험과 비극, 불멸과 필멸의 인간 군상을 통해 삶의 지혜와 인간 본성을 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 카오스에서 코스모스로",
+        "summary": "카오스의 탄생과 제우스의 권력 장악 등 우주와 신들의 기원을 다룬다."
+      },
+      {
+        "sectionTitle": "2부 신들의 영광",
+        "summary": "아테나, 아폴론, 헤르메스, 디오뉘소스 등 올림포스 신들의 활약과 신화적 사건들을 다룬다."
+      },
+      {
+        "sectionTitle": "3~4부 영웅의 투쟁 및 불멸과 필멸",
+        "summary": "프로메테우스, 헤라클레스, 오뒷세우스, 아이네아스 등 영웅들의 모험과 인간의 운명을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "접근 방식",
+        "value": "단순한 이야기 나열을 넘어 철학적 사유와 삶의 지혜를 이끌어내는 인문적 해석"
+      }
+    ],
+    "keyEntitiesText": "김헌, 제우스, 프로메테우스, 헤라클레스, 오뒷세우스, 아소크라테스, 플라톤",
+    "settingText": "고대 그리스 및 로마 신화의 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VK8vn-f4yzH6WFhDynlIn2b6_vaIVHyi",
+    "filename": "김헌의 그리스 로마 신화(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T13:41:32.000Z",
+    "size": "993359",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1VK8vn-f4yzH6WFhDynlIn2b6_vaIVHyi/view?usp=drivesdk",
+    "sourceSha256": "6da620fe31de5eeb2546b7c54bdb526e0dfdadb59d162a60bd8439bcd89f7964",
+    "textSha256": "06992f0368f4dcd5d473abb4d81e1d4ef729fff5350b7c246ffe068e7b9f8182",
+    "changeKey": "a587032a1a6a869d4171560766078ce3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a8736ef494871dd8b5df",
+    "workId": "a8736ef494871dd8b5df",
+    "driveFileId": "1VK8vn-f4yzH6WFhDynlIn2b6_vaIVHyi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:00:02.909718+00:00",
+    "updatedAt": "2026-09-22T18:00:02.909735+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:00:02.909846+00:00"
+    }
+  }
+}

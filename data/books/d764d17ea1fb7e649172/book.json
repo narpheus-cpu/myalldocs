@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서양철학사 100장면",
+    "author": "김형석",
+    "genre": "철학사 교양서",
+    "tags": [
+      "서양철학사",
+      "철학",
+      "김형석",
+      "철학자",
+      "인문교양"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "철학",
+        "서양사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "연세대 철학과 명예교수로 오랜 기간 철학 교육과 저술 활동을 해온 철학자이다.",
+    "oneLineSummary": "철학의 탄생부터 20세기 현대 사상까지 서양철학의 대표적 인물과 사상을 100가지 장면으로 에세이처럼 풀어낸 책이다.",
+    "overallSummary": "고대 그리스의 철학 탄생에서부터 중세 스콜라 철학, 근대 대륙 합리론과 영국 경험론, 독일 관념론을 거쳐 실존주의와 현대 분석철학·프래그머티즘에 이르기까지 핵심 철학자들의 생애와 사상을 시대순으로 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고대 철학",
+        "summary": "탈레스, 소크라테스, 플라톤, 아리스토텔레스 및 헬레니즘 철학을 다룬다."
+      },
+      {
+        "sectionTitle": "중세 및 근대 철학",
+        "summary": "아우구스티누스, 토마스 아퀴나스, 데카르트, 스피노자, 칸트, 헤겔 등을 다룬다."
+      },
+      {
+        "sectionTitle": "현대 철학",
+        "summary": "쇼펜하우어, 니체, 키에르케고르, 하이데거, 마르크스, 러셀, 듀이 등을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 방식",
+        "value": "역사적 흐름에 따라 철학자들의 생애와 중심 사상을 쉽고 친근한 에세이 형식으로 서술"
+      }
+    ],
+    "keyEntitiesText": "김형석, 소크라테스, 플라톤, 아리스토텔레스, 데카르트, 칸트, 헤겔, 니체, 하이데거",
+    "settingText": "고대부터 20세기까지의 서구 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LAYMKCj0qwklbYFvX1Cdpah7pk7-BNbw",
+    "filename": "김형석-서양철학사 100장면 (한권으로 보는)-철학의 탄생에서 20C 현대사상까지 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.739Z",
+    "size": "609000",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1LAYMKCj0qwklbYFvX1Cdpah7pk7-BNbw/view?usp=drivesdk",
+    "sourceSha256": "6dfae059027c4753d4179e866eb7cab68d4b0ec4880b19147b076319b410670b",
+    "textSha256": "ab1609636dc9073374fc5a8342cf9f4d33972b7952414c75400d3d0ad1f2118b",
+    "changeKey": "b71c8e57b5b31864cdef160c85d6045a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d764d17ea1fb7e649172",
+    "workId": "d764d17ea1fb7e649172",
+    "driveFileId": "1LAYMKCj0qwklbYFvX1Cdpah7pk7-BNbw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:00:09.396536+00:00",
+    "updatedAt": "2026-09-22T18:00:09.396553+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:00:09.396668+00:00"
+    }
+  }
+}

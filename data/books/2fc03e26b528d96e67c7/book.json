@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 그렇게 웹소설 작가가 되었다",
+    "author": "미상",
+    "genre": "에세이 / 작법서",
+    "tags": [
+      "웹소설",
+      "웹소설작가",
+      "글쓰기",
+      "지침서",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "에세이",
+        "창작안내"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "BL, 판타지, 로맨스 판타지, 현대 로맨스 등 모든 장르에서 활동해 온 6년 차 올라운더 웹소설 작가이다.",
+    "oneLineSummary": "6년 차 올라운더 웹소설 작가가 들려주는 현실적인 웹소설 작가 데뷔 및 생존 지침서이다.",
+    "overallSummary": "웹소설 시장의 변화와 현실, 전업 작가와 겸업 작가의 선택 기준, 악플 대처법, 집필 노하우 등 신인 작가들이 궁금해하는 실질적인 조언과 경험담을 진솔하게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "01 나는 어떻게 웹소설 작가가 되었는가?",
+        "summary": "웹소설 시장의 변화를 짚고, 쉽게 돈 벌 수 있다는 환상을 경고하며 작가로서의 태도를 전한다."
+      },
+      {
+        "sectionTitle": "02 웹소설 전업 작가는 언제 하면 좋을까?",
+        "summary": "취업과 전업, 겸업에서 전업으로 넘어가는 시점과 전업 작가의 명암을 현실적으로 조언한다."
+      },
+      {
+        "sectionTitle": "03~04 웹소설 악플 대처법 및 집필 노하우",
+        "summary": "악플러와 별점 테러에 대처하는 자세와 효율적인 글쓰기 방법에 대해 이야기한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "책의 성격",
+        "value": "환상을 깨고 냉혹한 웹소설 시장에서 살아남는 법을 알려주는 선배 작가의 현실적 조언"
+      }
+    ],
+    "keyEntitiesText": "웹소설 작가 지망생",
+    "settingText": "현대 웹소설 플랫폼 및 창작 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1mGth64cabmc5pS0GgFjLoBJ7LYYFCKfK",
+    "filename": "나는 그렇게 웹소설 작가가 되었다(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:25.755Z",
+    "size": "139473",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1mGth64cabmc5pS0GgFjLoBJ7LYYFCKfK/view?usp=drivesdk",
+    "sourceSha256": "f2a4500514bf25ecbe05852697039aa8a567f27367826952bff164a06bbf4ab4",
+    "textSha256": "421a60fed17e4814e1bd29908a6436303f1bbe186645825811d07b05f1adda28",
+    "changeKey": "dbf54fea14a062a42b6c4a90ce68e708",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2fc03e26b528d96e67c7",
+    "workId": "2fc03e26b528d96e67c7",
+    "driveFileId": "1mGth64cabmc5pS0GgFjLoBJ7LYYFCKfK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T18:00:36.912193+00:00",
+    "updatedAt": "2026-09-22T18:00:36.912212+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T18:00:36.912333+00:00"
+    }
+  }
+}

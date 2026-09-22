@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영혼의 역사",
+    "author": "김정란",
+    "genre": "평론집",
+    "tags": [
+      "문학평론",
+      "현대시",
+      "모성비평",
+      "김정란"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "문학",
+        "평론"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김정란은 시인이자 문학평론가로, 활발한 비평 및 사회적 발언 활동을 해왔다.",
+    "oneLineSummary": "한국 현대시와 프랑스 시를 아우르며 영혼의 깊이를 탐색하는 김정란의 평론집이다.",
+    "overallSummary": "이 책은 저자가 9년 만에 묶어낸 시평론집으로, 모성 비평의 태도를 바탕으로 한국 현대시의 상황과 주요 시인들의 세계, 그리고 프랑스 현대시를 꼼꼼하게 읽어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1부 한국현대시의 상황",
+        "summary": "시의 위기론을 반박하고 한국 현대시의 현실과 지향점을 고찰한다."
+      },
+      {
+        "sectionTitle": "제 2부 영혼의 빛을 찾아서",
+        "summary": "이상, 김춘수, 이승훈, 노혜경, 송찬호, 박용하, 허수경 등의 시 세계를 심층 분석한다."
+      },
+      {
+        "sectionTitle": "제 3부 프랑스 시인들을 찾아서",
+        "summary": "프랑스 현대시의 상황과 이브 본느프와, 랭보의 시 세계를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "평론 태도",
+        "value": "꼼꼼히 읽고 멀리 바라보고 크게 사랑하기를 지향하는 모성 비평"
+      }
+    ],
+    "keyEntitiesText": "김정란, 이상, 김춘수, 이승훈, 노혜경, 송찬호, 박용하, 허수경, 랭보 등",
+    "settingText": "2000년대 초반 한국 문단"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DzhVn686zj18B-zjjXV9-Jjywdt6ZovA",
+    "filename": "김정란-영혼의 역사(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T17:50:00.000Z",
+    "size": "639573",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1DzhVn686zj18B-zjjXV9-Jjywdt6ZovA/view?usp=drivesdk",
+    "sourceSha256": "338f1249061d41288af90e122c632ec6919c02d218f450b0d95d5b9dc45b7f17",
+    "textSha256": "2aa48ea8a1d94c1f210b619983034f4828fa50e49f992de8c8e91f0a53ad3372",
+    "changeKey": "db4e72e90a2e5c077283b49dc110ed47",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d51b4ef96ea8c4707594",
+    "workId": "d51b4ef96ea8c4707594",
+    "driveFileId": "1DzhVn686zj18B-zjjXV9-Jjywdt6ZovA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:58:46.858410+00:00",
+    "updatedAt": "2026-09-22T17:58:46.858425+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:58:46.858538+00:00"
+    }
+  }
+}

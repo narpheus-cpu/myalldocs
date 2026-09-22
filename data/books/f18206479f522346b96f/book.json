@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "트라우마 한국사회",
+    "author": "김태형",
+    "genre": "심리학 교양서",
+    "tags": [
+      "심리학",
+      "트라우마",
+      "한국사회",
+      "김태형",
+      "사회심리"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "심리",
+        "사회비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고려대 심리학과를 졸업하고 임상심리학을 공부한 심리학자이자 저술가이다.",
+    "oneLineSummary": "왜곡된 역사와 잘못된 사회 구조가 한국인의 마음에 남긴 집단 트라우마를 심리학적으로 분석한 보고서이다.",
+    "overallSummary": "힐링 열풍의 사회적 배경을 진단하고, 일제식민지, 한국전쟁, 군부독재, 신자유주의 세계화 등을 거치며 한국인이 겪어온 세대별·집단별 트라우마와 그 심리적 영향을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: 사회적 힐링이 필요한 때",
+        "summary": "한국사회의 힐링 열풍 원인을 짚고, 한국인의 마음이 아픈 근본 원인이 집단 트라우마에 있음을 밝힌다."
+      },
+      {
+        "sectionTitle": "제 1부 세대 트라우마",
+        "summary": "좌절세대(50년대생), 민주화세대, 세계화세대, 공포세대 등 세대별 유년기와 심리적 특징을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 관점",
+        "value": "개인의 성격이나 사유가 아닌 사회역사적 산물로서의 집단 트라우마 분석"
+      }
+    ],
+    "keyEntitiesText": "김태형, 홀거 하이데, 카를 만하임",
+    "settingText": "현대 한국 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RME5h9a-9CujCi0ggXzBl_tL5-BukmGT",
+    "filename": "김태형-트라우마 한국사회(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T13:39:28.000Z",
+    "size": "589657",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1RME5h9a-9CujCi0ggXzBl_tL5-BukmGT/view?usp=drivesdk",
+    "sourceSha256": "df1eeca6ec19118f25bcba2b9cef6f7cb83aef311faac795a33317d7e7d3cbdb",
+    "textSha256": "b371a31a671c92e07c92e6e1d9cf3ff692f44fe80faf3a56103da303a1762037",
+    "changeKey": "f9aab162ab0c48821231dd946be8228e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f18206479f522346b96f",
+    "workId": "f18206479f522346b96f",
+    "driveFileId": "1RME5h9a-9CujCi0ggXzBl_tL5-BukmGT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:59:50.304709+00:00",
+    "updatedAt": "2026-09-22T17:59:50.304725+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:59:50.304836+00:00"
+    }
+  }
+}

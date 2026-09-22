@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "김진애의 도시 이야기",
+    "author": "김진애",
+    "genre": "도시건축 에세이",
+    "tags": [
+      "도시건축",
+      "김진애",
+      "도시이야기",
+      "인문교양"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "건축",
+        "도시계획"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "건축가이자 도시계획가로, 다양한 저작 활동과 방송을 통해 대중과 소통해 온 저자이다.",
+    "oneLineSummary": "사람과 공간이 만나 만들어내는 다채로운 도시의 이야기를 12가지 콘셉트로 풀어낸 책이다.",
+    "overallSummary": "저자가 라디오 방송 등에서 펼쳐온 도시 이야기를 바탕으로, 익명성, 권력과 권위, 기억과 기록, 욕망과 탐욕 등 도시를 읽는 12가지 핵심 콘셉트를 흥미롭게 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: 사람이 들어오면 도시는 이야기가 된다",
+        "summary": "도시에 대한 무관심을 깨고, 도시가 우리의 삶과 밀접한 이야기임을 역설한다."
+      },
+      {
+        "sectionTitle": "열두 가지 도시적 콘셉트",
+        "summary": "익명성, 권력, 기억, 예찬, 대비, 스토리텔링, 코딩, 욕망, 부패 등 도시를 이해하는 12가지 개념을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "저자 태도",
+        "value": "세속적 허영심을 경계하고 도시에 대한 의미와 자존감을 높이고자 함"
+      }
+    ],
+    "keyEntitiesText": "김진애, 도시, 건축물",
+    "settingText": "현대 도시 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DLuPRR9gonCh6A30n_8Jo5ILMT7ynQgt",
+    "filename": "김진애의 도시 이야기(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T13:33:56.000Z",
+    "size": "464753",
+    "folderPath": [
+      "books",
+      "10 역사 철학 기타 학술"
+    ],
+    "relativePath": "books/10 역사 철학 기타 학술",
+    "webViewLink": "https://drive.google.com/file/d/1DLuPRR9gonCh6A30n_8Jo5ILMT7ynQgt/view?usp=drivesdk",
+    "sourceSha256": "7952267b9ab59e783ed92944a162cb02556739f4b610e6670aa7aacc1da1e51c",
+    "textSha256": "b55b0f1e3df950dfe2bc3b13717c020d19d8da4902a947219fb5e9924081c831",
+    "changeKey": "aa51a5705078e341bb92e1ef337c9bae",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a7b601e1b42af2f83d92",
+    "workId": "a7b601e1b42af2f83d92",
+    "driveFileId": "1DLuPRR9gonCh6A30n_8Jo5ILMT7ynQgt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T17:59:06.943420+00:00",
+    "updatedAt": "2026-09-22T17:59:06.943435+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T17:59:06.943540+00:00"
+    }
+  }
+}
