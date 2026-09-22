@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마왕의 육아일기",
+    "author": "치우",
+    "genre": "판타지 소설",
+    "tags": [
+      "마왕",
+      "용사",
+      "달의검",
+      "연금술사",
+      "도망자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "comedy_fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "용사에게 패배한 마왕 가베스의 아들 아힌샤르가 복수 대신 도망치려다, 심복 아이의 설득으로 '달의 검'을 완성하기 위해 악덕 연금술사 르망을 찾아가는 이야기입니다.",
+    "overallSummary": "마왕 가베스가 용사 라우진에게 쓰러진 후, 그의 앳된 아들 아힌샤르는 복수를 포기하고 세계 끝으로 도망치려 합니다. 그러나 유일하게 남은 심복 요괴 '아이'는 용사를 쓰러뜨리면 부귀영화를 누릴 수 있다고 설득하며, 가베스가 남긴 미완성의 '달의 검'이 아힌샤르의 귀걸이에 봉인되어 있음을 알려줍니다. 아힌샤르는 검을 완성하기 위해 악덕 연금술사 르망 아시트를 찾아가고, 르망은 보석 단추 세 개를 대가로 요구하며 달의 검의 치명적인 문제점을 언급합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 & 1장 상",
+        "summary": "마왕 가베스의 패배 전설과 도망치는 아들 아힌샤르, 요괴 아이의 등장"
+      },
+      {
+        "sectionTitle": "1장 하",
+        "summary": "아이의 설득과 귀걸이에 봉인된 '달의 검'의 존재 확인"
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "악덕 연금술사 르망 아시트와의 만남과 대가 지불 및 달의 검 분석"
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "magic_weapon",
+        "value": "태양의 검의 빛의 힘을 암흑의 힘으로 바꾸는 능력을 지닌 미완성의 '달의 검'"
+      }
+    ],
+    "keyEntitiesText": "아힌샤르, 가베스(선왕), 라우진(용사), 아이(눈알 요괴), 르망 아시트(연금술사)",
+    "settingText": "용사의 위협을 피해 도망치는 시골길 및 르망 아시트의 음습한 지하 연구소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1b95lNsarrfme000qYWGrQ-epEAym4HsO",
+    "filename": "마왕의 육아일기(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:42.215Z",
+    "size": "1474617",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1b95lNsarrfme000qYWGrQ-epEAym4HsO/view?usp=drivesdk",
+    "sourceSha256": "fddb5474bd515365692063d4329b0d8401820ae9da5daba52522d1624290f94d",
+    "textSha256": "83eabcd910a02391f2b9115b6d19d8d57bb9d2a5edcc6058914d2abd55b06959",
+    "changeKey": "5e3a0f14de8caa29fa8084eb17e634fd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "debcf65903e9563ff1be",
+    "workId": "debcf65903e9563ff1be",
+    "driveFileId": "1b95lNsarrfme000qYWGrQ-epEAym4HsO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:05:07.223984+00:00",
+    "updatedAt": "2026-09-22T12:05:07.223999+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-22T12:05:07.224109+00:00"
+    }
+  }
+}

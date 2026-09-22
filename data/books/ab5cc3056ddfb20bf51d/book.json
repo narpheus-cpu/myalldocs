@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마법의 검을 찾아서",
+    "author": "무영랑 (이현상)",
+    "genre": "판타지 소설",
+    "tags": [
+      "마법검",
+      "노예",
+      "사막",
+      "복수",
+      "현자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "dark_fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "누이의 비극적인 죽음 이후 복수를 다짐하며 사라진 현자 드레이크와 그의 제자 지그프리트, 그리고 노예로 팔려간 소녀 유나의 비정한 운명을 그린 이야기입니다.",
+    "overallSummary": "현자 드레이크는 누이의 억울한 죽음과 왕국의 비정함에 분노하여 빛의 기둥을 타고 사라집니다. 세월이 흘러 드레이크는 사막에서 제자 지그프리트와 검은 표범 칼리스와 함께 마법의 검 '아스트랄 블레이드'에 대한 정보를 찾기 위해 노예들의 도시 '자유의 샘'으로 향합니다. 한편, 17세의 몰락한 귀족 소녀 유나는 노예로 잡혀 사막을 건너 '자유의 샘' 경매장에 세워지고, 미녀 수집벽이 있는 거상 세르비오에게 금화 4000에 낙찰될 위기에 처합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장",
+        "summary": "현자 드레이크의 분노와 왕성에서의 실종"
+      },
+      {
+        "sectionTitle": "1장",
+        "summary": "사막에서의 드레이크와 지그프리트의 대화, 자유의 샘의 역사"
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "노예 소녀 유나의 슬픈 운명과 자유의 샘 경매장에서의 낙찰 위기"
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "legendary_weapon",
+        "value": "드레이크 일행이 쫓는 전설의 마법 검 '아스트랄 블레이드'"
+      }
+    ],
+    "keyEntitiesText": "드레이크, 지그프리트, 칼리스(검은 표범), 유나, 세르비오, 자유의 샘",
+    "settingText": "도망친 노예들이 세웠으나 현재는 거대한 노예 시장이 된 사막 도시 '자유의 샘'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jhL1yBcHYbXmRjKtwbjcU3GW_83lLcYM",
+    "filename": "마법의 검 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:41.496Z",
+    "size": "1468717",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1jhL1yBcHYbXmRjKtwbjcU3GW_83lLcYM/view?usp=drivesdk",
+    "sourceSha256": "a2bd96f14e11e83852eadbd1d7c2331d806ef9dca26f004b6f25b338a958d263",
+    "textSha256": "a7931cbb7d0cd4fdcdc6ad9856ed76fe6aabda970c6489ef2a80086a96ec1742",
+    "changeKey": "4dd800e21d50c695c0da5094a984c771",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ab5cc3056ddfb20bf51d",
+    "workId": "ab5cc3056ddfb20bf51d",
+    "driveFileId": "1jhL1yBcHYbXmRjKtwbjcU3GW_83lLcYM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:04:31.287813+00:00",
+    "updatedAt": "2026-09-22T12:04:31.287829+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5467,
+      "updatedAt": "2026-09-22T12:04:31.287939+00:00"
+    }
+  }
+}

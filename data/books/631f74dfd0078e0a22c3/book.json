@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "라이컨 슬로프",
+    "author": "유민수",
+    "genre": "판타지 소설",
+    "tags": [
+      "수인",
+      "라이컨슬로프",
+      "늑대인간",
+      "마경",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "dark_fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "마경에 사는 늑대 라이컨슬로프 소년 디켈이 어른이 되기 위한 사냥을 나섰다가 인간들과의 충돌 및 아버지의 비밀스러운 명령을 마주하는 이야기입니다.",
+    "overallSummary": "마경의 로무네크 마을에 사는 늑대 라이컨슬로프 소년 디켈은 어른의 이름인 '쿠'를 얻기 위해 호모로즈(인간) 사냥에 나섭니다. 사냥 중 인간 모험가 집단에게 습격당해 부상당한 동료 젠쿠를 구출하지만, 아버지 바타쿠는 인간들의 움직임에 심상치 않음을 느끼고 디켈에게 마을로 돌아가 사벨타이거 라이컨인 라무켈에게 '사슬이 풀렸다'는 메시지를 전하라고 명령합니다. 디켈은 마을로 돌아와 라무켈에게 메시지를 전하고, 라무켈은 숨겨둔 힘을 드러내며 디켈과 함께 아버지가 간 마신의 계곡으로 향합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1편",
+        "summary": "디켈의 사냥 준비와 라이컨슬로프 사회의 규칙 소개"
+      },
+      {
+        "sectionTitle": "2편",
+        "summary": "부상당한 젠쿠 구출과 아버지 바타쿠의 비밀스러운 명령"
+      },
+      {
+        "sectionTitle": "3편",
+        "summary": "마을로 돌아온 디켈과 라무켈의 각성 및 추적 시작"
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "species_lore",
+        "value": "라이컨슬로프는 낮에는 인간, 밤에는 수인의 모습을 하며 은 무기에 치명상을 입음"
+      },
+      {
+        "key": "naming_system",
+        "value": "나이에 따라 코(아이) -> 켈(시험 통과자) -> 쿠(어른 전사)로 이름이 바뀜"
+      }
+    ],
+    "keyEntitiesText": "디켈(디코), 바타쿠(아버지), 젠쿠, 라무켈, 미카쿠(촌장), 로무네크 마을, 마신의 계곡",
+    "settingText": "어둠의 생물과 텔레노아 나무가 가득한 기분 나쁜 어둠의 대지 '마경'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wbE0Woe6vc0zctfM3bRZArJLIKVFQ6cW",
+    "filename": "뉴라이프.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:38.667Z",
+    "size": "2351428",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1wbE0Woe6vc0zctfM3bRZArJLIKVFQ6cW/view?usp=drivesdk",
+    "sourceSha256": "b2740a161536ba2fc86f4c178b730b6ce97a3182685226158ef2ecba258f0e6f",
+    "textSha256": "47b3fb4461a633e17c1684805e11ec14453f3630c0b2130c1ece60597a5c6b52",
+    "changeKey": "48fa7ae4ed7ea7a6a4ade7c0e97133c8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "631f74dfd0078e0a22c3",
+    "workId": "631f74dfd0078e0a22c3",
+    "driveFileId": "1wbE0Woe6vc0zctfM3bRZArJLIKVFQ6cW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:04:07.469965+00:00",
+    "updatedAt": "2026-09-22T12:04:07.469979+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.492,
+      "updatedAt": "2026-09-22T12:04:07.470161+00:00"
+    }
+  }
+}

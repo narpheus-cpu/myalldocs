@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마족전기 세를리오즈",
+    "author": "PICACHOU",
+    "genre": "판타지 소설",
+    "tags": [
+      "마족",
+      "학원물",
+      "성인식",
+      "방향치",
+      "다혈질"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "school_fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "성인식을 치르기 위해 마계 유일의 학원에 입학한 주인공 세를리오즈가 까다로운 시험을 통과한 후, 방향치 하리스덴과 다혈질 게오르티스를 만나며 겪는 이야기입니다.",
+    "overallSummary": "마계의 어린 마족들은 성인식을 치르고 힘을 계승하기 위해 '학원'에 입학해야 합니다. 주인공 세를리오즈는 라누르 아이아드 기간에 치러진 혹독한 함정 시험을 통과하고 기숙사 방을 배정받습니다. 다음 날 아침, 게으른 룸메이트를 깨우고 교실로 향하던 중, 심각한 방향치인 신입생 하리스덴을 만나 동행하게 됩니다. 교실에 도착한 세를리오즈는 하리스덴의 친구이자 전날 석굴에서 자신과 시비가 붙었던 다혈질 마족 게오르티스와 재회하며 기묘한 인연을 맺게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "라누르 아이아드 기간의 학원 입학 시험과 세를리오즈의 석굴 대기"
+      },
+      {
+        "sectionTitle": "1편",
+        "summary": "시험 통과 후 기숙사에서의 기상과 게으른 룸메이트와의 첫 만남"
+      },
+      {
+        "sectionTitle": "2편",
+        "summary": "학원 교실로 가던 중 방향치 마족 하리스덴과의 만남과 동행"
+      },
+      {
+        "sectionTitle": "3편",
+        "summary": "3017 클래스 도착 및 하리스덴의 친구 게오르티스와의 재회"
+      },
+      {
+        "sectionTitle": "4편",
+        "summary": "3017 클래스 교관의 등장과 학원 생활의 시작"
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "demon_society",
+        "value": "성인식을 치르지 않은 마족은 힘의 계승과 행동에 제약이 따르며, 학원 과정을 거쳐야 함"
+      }
+    ],
+    "keyEntitiesText": "세를리오즈, 하리스덴, 게오르티스, 마계 학원, 3017 클래스",
+    "settingText": "100년에 한 번 신입생을 받는 마계 유일의 거대하고 복잡한 '학원' 내부"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rsAHhxbhKII1hrvLkY12uSJxW3bdB_MB",
+    "filename": "마족전기 세를리오즈 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:42.543Z",
+    "size": "2263507",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1rsAHhxbhKII1hrvLkY12uSJxW3bdB_MB/view?usp=drivesdk",
+    "sourceSha256": "155a3fcfc8712934f5cb1b3e3433ab8b5cfd7b420f8f297c0293077aed523156",
+    "textSha256": "1cf995b0cc82f43703ba3c7e7d7fb3b0326a84bab5df99e0cb1943d04ababb1b",
+    "changeKey": "4255e84278600cff5945426947a1efc0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "485d99da3a6e4c7ffe33",
+    "workId": "485d99da3a6e4c7ffe33",
+    "driveFileId": "1rsAHhxbhKII1hrvLkY12uSJxW3bdB_MB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:05:38.559375+00:00",
+    "updatedAt": "2026-09-22T12:05:38.559391+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:05:38.559512+00:00"
+    }
+  }
+}

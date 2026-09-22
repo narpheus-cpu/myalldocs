@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마신 소환사",
+    "author": "유지",
+    "genre": "판타지 소설",
+    "tags": [
+      "마신",
+      "소환",
+      "드래곤",
+      "차원이동",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "comedy_fantasy",
+        "adventure"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "뇌종양으로 시한부 판정을 받은 하연이 대마신 카이람을 소환하여 게임 CD를 대가로 계약을 맺고 이계의 실버 드레곤 레어에서 모험을 시작하는 이야기입니다.",
+    "overallSummary": "뇌종양으로 시한부 선고를 받고 절망하던 하연은 살려달라는 간절한 기도로 대마신 카이람을 소환합니다. 하연은 카이람에게 스타크래프트 등 게임 CD 5장을 대가로 제공하는 계약을 맺고 판타지 세계로 차원이동합니다. 실버 드레곤 칼링스타의 레어에 떨어진 하연은 카이람의 도움으로 드레곤의 보물인 '현자의 지팡이(갈루마의 영혼이 봉인됨)'와 금화, 사제 서클렛을 챙겨 탈출합니다. 한편, 레어로 돌아와 도난 사실을 안 칼링스타는 분노 대신 수다쟁이 갈루마를 가져간 도둑에 대해 호기심을 품습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 & 1장",
+        "summary": "하연의 시한부 판정과 대마신 카이람 소환 및 게임 CD 계약"
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "실버 드레곤 레어에서의 탈출, 현자의 지팡이 획득 및 칼링스타의 반응"
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "contract_terms",
+        "value": "영혼이나 피 대신 현대의 게임 CD 5장을 대가로 성립된 이색적인 마신 계약"
+      }
+    ],
+    "keyEntitiesText": "하연, 카이람(대마신), 칼링스타(실버 드레곤), 갈루마(현자의 지팡이 영혼), 혼 대륙",
+    "settingText": "현대 지구의 하연의 방 및 이계 '혼 대륙'의 실버 드레곤 레어와 숲속"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FqXbMBz5FHAigvmZ2DAJON3XHfSSzeCk",
+    "filename": "마신소환사(판타지).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:42.070Z",
+    "size": "1524135",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1FqXbMBz5FHAigvmZ2DAJON3XHfSSzeCk/view?usp=drivesdk",
+    "sourceSha256": "fa6b3e3bc46408ebf86e8152f50dc6d065e1c85d92b5c8a2f720ad548bb65ab4",
+    "textSha256": "073427e41c08a1f2d106ebf6ac34e4412ce2040b862f53e5b015aade687ab610",
+    "changeKey": "b5a327dd25ff6ee99f136483bcdcfb52",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4219546c3b744bc502e6",
+    "workId": "4219546c3b744bc502e6",
+    "driveFileId": "1FqXbMBz5FHAigvmZ2DAJON3XHfSSzeCk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:04:52.535825+00:00",
+    "updatedAt": "2026-09-22T12:04:52.535840+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8398,
+      "updatedAt": "2026-09-22T12:04:52.535947+00:00"
+    }
+  }
+}

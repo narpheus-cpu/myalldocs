@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마녀 밀레니어",
+    "author": "레인",
+    "genre": "판타지 소설",
+    "tags": [
+      "마녀",
+      "패밀리어",
+      "아크데몬",
+      "시골마을",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "cozy_fantasy",
+        "comedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "초보 마녀 밀레니어가 상급 악마 아크데몬과 패밀리어 계약을 맺고 시골 마을 사람들과 교류하며 겪는 따뜻한 이야기입니다.",
+    "overallSummary": "15세의 생기발랄한 초보 마녀 밀레니어 베아트리체는 스승을 떠나 시골 마을 언덕 위의 오두막에 정착합니다. 마녀의 지침에 따라 패밀리어를 소환하려던 중 실수로 상급 악마인 아크데몬을 불러내고, 그의 머리카락을 대가로 검은 고양이 '검둥이'로 만드는 계약을 맺습니다. 돈이 없던 밀레니어는 마을 빵집 주인 톰에게 마법 가루를 주며 협박하려 하지만, 오히려 톰의 친절에 감동하고 그가 준 빵으로 아침을 해결하며 마을 사람들과 따뜻한 관계를 맺어갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "밀레니어의 오두막 정착과 아크데몬과의 패밀리어 계약"
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "마을 빵집 주인 톰과의 만남과 따뜻한 아침 식사"
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "magic_item",
+        "value": "마법진을 그리는 붉은심 연필, 사람을 개구리로 만드는 회백색 가루약"
+      }
+    ],
+    "keyEntitiesText": "밀레니어 베아트리체, 검둥이(아크데몬), 톰(빵집 주인), 시골 마을 오두막",
+    "settingText": "평화롭고 한적한 시골 마을과 마녀가 정착한 숲속 오두막"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1z_UXxrnBm2DxTlpq-Z9sTNvgco6bk4ud",
+    "filename": "마녀밀레니어.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:41.341Z",
+    "size": "1058571",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1z_UXxrnBm2DxTlpq-Z9sTNvgco6bk4ud/view?usp=drivesdk",
+    "sourceSha256": "6d706f5410b9912dc3e686cb0502d93d2548926859acdcefdb1ff73e8b2298d8",
+    "textSha256": "a7fa97dad4330863032bb6d9ec1240485a3014efc215e481bab1c01d605dde19",
+    "changeKey": "04d7ce90579ed3d4da9f9f1ead4071da",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fdd8b5e0c0e49d2de8a6",
+    "workId": "fdd8b5e0c0e49d2de8a6",
+    "driveFileId": "1z_UXxrnBm2DxTlpq-Z9sTNvgco6bk4ud",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:04:15.679725+00:00",
+    "updatedAt": "2026-09-22T12:04:15.679741+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8448,
+      "updatedAt": "2026-09-22T12:04:15.679853+00:00"
+    }
+  }
+}
