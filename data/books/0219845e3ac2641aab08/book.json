@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세월의 돌 3",
+    "author": "전민희",
+    "genre": "판타지",
+    "tags": [
+      "모험",
+      "판타지",
+      "여행"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "adventure",
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전민희 작가",
+    "oneLineSummary": "파비안과 유리카가 아르나 강을 따라 여행하며 겪는 모험.",
+    "overallSummary": "파비안과 유리카는 아르나 강을 따라 여행하며 아르나 시로 향한다. 그 과정에서 산적들을 만나고, 그들을 속여 위기를 넘기는 등 다양한 모험을 경험한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "4장",
+        "summary": "아르나 강 여행과 산적들과의 대치, 그리고 아르나 시 도착."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 사건",
+        "value": "산적들을 속여 위기를 모면함"
+      },
+      {
+        "key": "여행지",
+        "value": "아르나 시로 향하는 여정"
+      }
+    ],
+    "keyEntitiesText": "파비안, 유리카, 산적들",
+    "settingText": "아르나 강, 장미꽃의 엠버 마을, 아르나 시."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AnUcogLcc38uXSVxo6by2avDrp3jblvn",
+    "filename": "전민희-세월의 돌 (3)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:30:50.000Z",
+    "size": "517780",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1AnUcogLcc38uXSVxo6by2avDrp3jblvn/view?usp=drivesdk",
+    "sourceSha256": "960398bd928bc77b40e0f3009cbf11fcfca45e4464d6183338ad9690e9e6fc9e",
+    "textSha256": "e5696aa26ae42a23ec84f7e198f98124599c92cc65e5acd5ba96fba75bd18104",
+    "changeKey": "2607469935e08a377e63ea2109df86b6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0219845e3ac2641aab08",
+    "workId": "0219845e3ac2641aab08",
+    "driveFileId": "1AnUcogLcc38uXSVxo6by2avDrp3jblvn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:59:13.363588+00:00",
+    "updatedAt": "2026-09-22T12:59:13.363603+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:59:13.363717+00:00"
+    }
+  }
+}

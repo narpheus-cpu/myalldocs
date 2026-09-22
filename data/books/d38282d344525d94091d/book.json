@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세월의 돌 2",
+    "author": "전민희",
+    "genre": "판타지",
+    "tags": [
+      "모험",
+      "판타지",
+      "여행"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "adventure",
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전민희 작가",
+    "oneLineSummary": "파비안이 나르디를 만나 여행을 떠나며 겪는 사건들.",
+    "overallSummary": "파비안은 나르디라는 검사를 만나 함께 여행을 떠난다. 그들은 여관에서 깡패들과의 싸움을 겪고, 여행 도중 다양한 사람들을 만나며 세상을 배워간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "2장",
+        "summary": "나르디와의 만남, 여관에서의 싸움, 그리고 여행의 시작."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 관계",
+        "value": "파비안과 나르디의 동료 관계 형성"
+      },
+      {
+        "key": "주요 사건",
+        "value": "여관에서의 전투와 여행 시작"
+      }
+    ],
+    "keyEntitiesText": "파비안, 나르디, 주아니",
+    "settingText": "들녘 여관, 황금 술통 여관."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DFqujCelW1JbAG_NVYHYWvHSYR7PMeUE",
+    "filename": "전민희-세월의 돌 (2)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:29:32.000Z",
+    "size": "468655",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1DFqujCelW1JbAG_NVYHYWvHSYR7PMeUE/view?usp=drivesdk",
+    "sourceSha256": "50c71cda2c3191dca2395fcf29142af89826fa546644f3c36e40ee438a4a4db3",
+    "textSha256": "c2d025b542a918ea8882d2fd3c3453d98e8b81f044ba1a71007156c66dcb1a87",
+    "changeKey": "5d9c091783278d408f1f07dcf66feae9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d38282d344525d94091d",
+    "workId": "d38282d344525d94091d",
+    "driveFileId": "1DFqujCelW1JbAG_NVYHYWvHSYR7PMeUE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:59:06.987789+00:00",
+    "updatedAt": "2026-09-22T12:59:06.987805+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:59:06.987912+00:00"
+    }
+  }
+}

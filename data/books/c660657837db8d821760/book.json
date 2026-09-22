@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세월의 돌 4",
+    "author": "전민희",
+    "genre": "판타지",
+    "tags": [
+      "모험",
+      "판타지",
+      "여행"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "adventure",
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전민희 작가",
+    "oneLineSummary": "파비안과 일행이 붉은 보석단과 대치하며 겪는 모험.",
+    "overallSummary": "파비안과 일행은 붉은 보석단이라는 산적 무리와 대치하게 된다. 그들은 지혜와 마법을 사용하여 위기를 극복하고, 보석에 얽힌 비밀을 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "5장",
+        "summary": "붉은 보석단과의 대치와 위기 극복."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 사건",
+        "value": "붉은 보석단과의 대치 및 지혜로운 해결"
+      },
+      {
+        "key": "마법 요소",
+        "value": "유리카의 마법과 성검의 힘"
+      }
+    ],
+    "keyEntitiesText": "파비안, 유리카, 나르디, 붉은 보석단",
+    "settingText": "골짜기, 산적들의 야영지."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RT27U4kQgttAZI9qVnU2pQ7s9tfTVHYz",
+    "filename": "전민희-세월의 돌 (4)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:32:10.000Z",
+    "size": "519405",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1RT27U4kQgttAZI9qVnU2pQ7s9tfTVHYz/view?usp=drivesdk",
+    "sourceSha256": "59d3b4b82448189786d686f516979c2471f40856c18cf476a599448fe26d8fe3",
+    "textSha256": "122074c4ca96c3f804399b9c193671881f391b20c4a099b236d6e0a9daabba92",
+    "changeKey": "8d870b91261e19f644bc8ad706a5e5ea",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c660657837db8d821760",
+    "workId": "c660657837db8d821760",
+    "driveFileId": "1RT27U4kQgttAZI9qVnU2pQ7s9tfTVHYz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:59:19.941037+00:00",
+    "updatedAt": "2026-09-22T12:59:19.941052+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:59:19.941157+00:00"
+    }
+  }
+}

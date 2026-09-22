@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세월의 돌 8",
+    "author": "전민희",
+    "genre": "판타지",
+    "tags": [
+      "모험",
+      "판타지",
+      "여행"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "adventure",
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전민희 작가",
+    "oneLineSummary": "파비안이 운명과 영원에 대해 깨닫는 이야기.",
+    "overallSummary": "파비안은 자신의 운명과 영원에 대해 깊이 깨닫게 된다. 그는 자신이 걸어야 할 길을 확인하고, 다가올 파국에 대비하기 위해 나아간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "11장",
+        "summary": "운명과 영원에 대한 깨달음, 그리고 새로운 여정의 시작."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 사건",
+        "value": "운명에 대한 깨달음과 새로운 여정"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "운명, 영원, 그리고 선택"
+      }
+    ],
+    "keyEntitiesText": "파비안, 유리카, 아스트라한, 스노이켈",
+    "settingText": "마음의 궁전, 타마리알."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1O_ggskIe0RFHWhmm5XcuSknmBX2nMuvj",
+    "filename": "전민희-세월의 돌 (8)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T20:37:00.000Z",
+    "size": "523081",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1O_ggskIe0RFHWhmm5XcuSknmBX2nMuvj/view?usp=drivesdk",
+    "sourceSha256": "850f7ed829991f2e96a7c06d646842e4d9294d35c9541b5c158682d3da40f970",
+    "textSha256": "29ef3c981b101bf4ed2201e0e45f2efeba6aabde92fb5aaa27ef9165fa633707",
+    "changeKey": "03803f1813783d1bd878aa4a3e99522a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7d0a76140cfe1fd456b2",
+    "workId": "7d0a76140cfe1fd456b2",
+    "driveFileId": "1O_ggskIe0RFHWhmm5XcuSknmBX2nMuvj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T12:59:51.112823+00:00",
+    "updatedAt": "2026-09-22T12:59:51.112837+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T12:59:51.112927+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "태양의 탑 2",
+    "author": "전민희",
+    "genre": "판타지",
+    "tags": [
+      "판타지",
+      "마법",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "magic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전민희 작가",
+    "oneLineSummary": "비의 왕 제전과 그 속에서 벌어지는 학생들의 이야기.",
+    "overallSummary": "비의 왕 제전을 앞두고 학생들은 비의 왕을 뽑는 모의 투표를 진행하며 다양한 사건을 겪는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "비의 왕 제전 준비와 모의 투표 사건."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 사건",
+        "value": "비의 왕 모의 투표"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "학생들의 일상과 갈등"
+      }
+    ],
+    "keyEntitiesText": "앙리오트, 두그포우, 키릴로차, 이스카시안",
+    "settingText": "멜헬디 학교."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1plMzDj4EMeY0eePvETc5X--vtogUxWzS",
+    "filename": "전민희-태양의 탑 2(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:50.638Z",
+    "size": "352005",
+    "folderPath": [
+      "books",
+      "06 한국 판타지",
+      "전민희"
+    ],
+    "relativePath": "books/06 한국 판타지/전민희",
+    "webViewLink": "https://drive.google.com/file/d/1plMzDj4EMeY0eePvETc5X--vtogUxWzS/view?usp=drivesdk",
+    "sourceSha256": "e7692f484975b6b46d6480b4d7eed4958ef101014029bd4c26b3c752d606439e",
+    "textSha256": "062a7ef5733c406d64a782c62ba9d0c3deec028c34dea84c8669f825d2bf536d",
+    "changeKey": "f96d526d61a490a9654e46f2700277fb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "27a3681e3d7d554ecb55",
+    "workId": "27a3681e3d7d554ecb55",
+    "driveFileId": "1plMzDj4EMeY0eePvETc5X--vtogUxWzS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:00:31.581086+00:00",
+    "updatedAt": "2026-09-22T13:00:31.581101+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:00:31.581272+00:00"
+    }
+  }
+}
