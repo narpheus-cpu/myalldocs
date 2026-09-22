@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "퍼펙트 메이드",
+    "author": "은빛",
+    "genre": "판타지",
+    "tags": [
+      "메이드",
+      "여신",
+      "기원",
+      "동대륙"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "은빛",
+    "oneLineSummary": "아들의 안전을 위해 매일 기원하는 어미와 그로 인해 골치 아픈 여신들의 이야기.",
+    "overallSummary": "동대륙 출신의 한 어미가 매일 밤 전쟁터로 나갈 아들의 안녕을 위해 끈질기게 기원을 올리자, 이를 견디다 못해 지친 서대륙의 여신 아르페이나가 동대륙의 삼신할미를 찾아가 최강의 하녀를 구해달라고 요청하는 판타지 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1 & 2",
+        "summary": "매일 밤 기도를 올리는 어머니와 그 기도를 해결하기 위해 분주한 여신들의 해프닝."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "여신과 최강의 하녀"
+      }
+    ],
+    "keyEntitiesText": "아르페이나, 삼신할미, 적호",
+    "settingText": "신계와 동대륙 및 서대륙."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12hWO-9-6fcXHV4vLeI0iLt6yuo_DQ_T1",
+    "filename": "퍼펙트 메이드 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:52.739Z",
+    "size": "2230791",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/12hWO-9-6fcXHV4vLeI0iLt6yuo_DQ_T1/view?usp=drivesdk",
+    "sourceSha256": "6fdc4032275cf5ca95f7d35a77fcd430e626bc96f512092aac6b797bfe4ab6ae",
+    "textSha256": "d7568ff7e2f7aff666e470453d4927176ddf1ed5c2eafbe9047c61f5916154b8",
+    "changeKey": "43404f1c2e28f948a1c82cbf2c40e2c3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b7d5d5c061786c6d67a6",
+    "workId": "b7d5d5c061786c6d67a6",
+    "driveFileId": "12hWO-9-6fcXHV4vLeI0iLt6yuo_DQ_T1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:11:45.450685+00:00",
+    "updatedAt": "2026-09-22T13:11:45.450702+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:11:45.450812+00:00"
+    }
+  }
+}

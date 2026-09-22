@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "팔란티어",
+    "author": "김민영",
+    "genre": "판타지",
+    "tags": [
+      "가상현실",
+      "옥스타칼니스의 아이들",
+      "프로그래머",
+      "친구"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김민영",
+    "oneLineSummary": "가상현실 게임 팔란티어의 로그를 분석하며 현실을 살아가는 프로그래머 원철의 이야기.",
+    "overallSummary": "프로그래머 원철이 게임 팔란티어 속 캐릭터들의 행동을 분석하며 여유를 즐기고, 친구 욱의 연애와 관련된 에피소드가 얽히는 현대 판타지 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 18 장 아모네 이실렌",
+        "summary": "원철이 팔란티어의 플레이 영상을 분석하며 게임 속 세계와 현실을 조율한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "가상현실 게임과 일상"
+      }
+    ],
+    "keyEntitiesText": "원철, 욱, 수정, 실바누스, 보로미어",
+    "settingText": "현실의 작업실과 카페."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1szpyzaxtIvw2Qsf9GNSMnhQdnd8oUYMg",
+    "filename": "팔란티어.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:52.544Z",
+    "size": "2106585",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1szpyzaxtIvw2Qsf9GNSMnhQdnd8oUYMg/view?usp=drivesdk",
+    "sourceSha256": "bd74952722c1e27ba71054a147fb821201c8c0530d61bf5dcb41fdba6d205243",
+    "textSha256": "5cc365d7c77d0ae3f17ebdb8307e181cc2835d3171666a6a9e91ab92b9987e41",
+    "changeKey": "b9d0ceda3a32823e916c8be8ce66620c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "db9004f625add701a701",
+    "workId": "db9004f625add701a701",
+    "driveFileId": "1szpyzaxtIvw2Qsf9GNSMnhQdnd8oUYMg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:11:23.287909+00:00",
+    "updatedAt": "2026-09-22T13:11:23.287924+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:11:23.288018+00:00"
+    }
+  }
+}

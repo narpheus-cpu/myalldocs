@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "패러렐 라이프",
+    "author": "작가 미상",
+    "genre": "판타지",
+    "tags": [
+      "정령사",
+      "엘프",
+      "운명",
+      "패러렐라이프"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "태어나면서 패러렐 라이프의 운명을 지닌 아이 카인의 이야기.",
+    "overallSummary": "역사 속 인물들의 평행 이론인 패러렐 라이프 현상에 대한 고찰과 함께, 크라이 숲의 정령사 네이브의 가정에서 태어난 아이 카인이 엘프 장로의 축복을 받던 중 벌어진 신비로운 사건을 그린 판타지 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 1",
+        "summary": "패러렐 라이프의 개념 설명과 함께 숲속 통나무집에서 새로운 아이 카인이 탄생한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "평행 이론과 정령술"
+      }
+    ],
+    "keyEntitiesText": "네이브, 아이네, 세레나, 카인",
+    "settingText": "카르시온 제국 최남단 크라이 숲."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cIa9yDNOiY1uwaa_oQg04nNUVPaBNuG-",
+    "filename": "패러렐 라이프 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:52.625Z",
+    "size": "1702384",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1cIa9yDNOiY1uwaa_oQg04nNUVPaBNuG-/view?usp=drivesdk",
+    "sourceSha256": "411a0aec9a44120bb640344f0cb9b477755f1fa90e8649d3b2633dab4fa030a7",
+    "textSha256": "b1e58c6f1fe303f9f297ef11284abcb294677b3a2b41b7d79ed46b236f896a9b",
+    "changeKey": "eb4d4c6fe7dcf63aa413d2450c5cacbb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bf7988fc0c64cb255e5b",
+    "workId": "bf7988fc0c64cb255e5b",
+    "driveFileId": "1cIa9yDNOiY1uwaa_oQg04nNUVPaBNuG-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:11:38.538054+00:00",
+    "updatedAt": "2026-09-22T13:11:38.538072+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:11:38.538194+00:00"
+    }
+  }
+}

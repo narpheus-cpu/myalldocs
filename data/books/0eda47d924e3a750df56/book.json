@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "프로메테우스의 딸",
+    "author": "작가 미상",
+    "genre": "판타지",
+    "tags": [
+      "수술",
+      "테러",
+      "공안",
+      "소녀조직"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "스릴러"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "비밀스러운 수술실에서의 살인 사건과 소녀 조직 '프로메테우스의 딸'의 이야기.",
+    "overallSummary": "인질로 잡힌 의사와 간호사가 진행하는 수술실에서 감시자 이구찌를 살해하는 사건이 발생하고, 이후 국가공안위원의 딸 니노미야 구니꼬가 일상 속에서 '프로메테우스의 딸'이라는 의문의 소녀 조직을 접하게 되는 SF 스릴러 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 계엄령",
+        "summary": "수술실에서 인질극과 배신으로 감시자가 살해되고, 구니꼬가 아버지의 회사에서 무장한 소녀 조직을 목격한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "음모와 무장 조직"
+      }
+    ],
+    "keyEntitiesText": "이구찌, 니노미야 구니꼬, 미나까미, 나가모또 교오꼬",
+    "settingText": "수술실과 도쿄의 마루노우치 빌딩가."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1y37jfIzZKDV0vY_uQq8qJtPFGfGFn2SJ",
+    "filename": "프로메테우스의 딸.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:52.936Z",
+    "size": "251685",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1y37jfIzZKDV0vY_uQq8qJtPFGfGFn2SJ/view?usp=drivesdk",
+    "sourceSha256": "5d7255a4a830f1c397c22302013a7c923d9a1f640ba88302bfacb15e49543000",
+    "textSha256": "5a5d9b7bf7ad97a3c2f66ce80c07efc79a36959e3507f63cc2efff284a9c714f",
+    "changeKey": "1d73108d9c5bf541e1555da20d81606e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0eda47d924e3a750df56",
+    "workId": "0eda47d924e3a750df56",
+    "driveFileId": "1y37jfIzZKDV0vY_uQq8qJtPFGfGFn2SJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:12:20.604793+00:00",
+    "updatedAt": "2026-09-22T13:12:20.604807+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:12:20.604923+00:00"
+    }
+  }
+}

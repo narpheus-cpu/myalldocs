@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하이어드",
+    "author": "김상현",
+    "genre": "판타지",
+    "tags": [
+      "우주",
+      "반군",
+      "어스",
+      "만티드레이스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "SF",
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김상현 (무원)",
+    "oneLineSummary": "왕가의 보물을 훔쳐 행성 어스로 달아나는 만티드 레이스 반군 시크사의 이야기.",
+    "overallSummary": "만티드 레이스의 반 왕정군 소속 시크사가 왕가의 보물을 훔쳐 추적을 따돌리고 행성 어스로 도망쳐 접선을 시도하는 SF 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "Blood line. - 1 & 2",
+        "summary": "시크사가 셔틀을 타고 왕정군의 추적을 피해 어스로 탈출하고, 한편 어스에서는 소년 메이런과 아이라가 노을을 바라보며 대화를 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "우주 탈출과 SF 배경"
+      }
+    ],
+    "keyEntitiesText": "시크사, 메이런, 아이라",
+    "settingText": "우주 공간과 행성 어스(EARTH)."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10QaoOPYhfxWlKdLfxyYVFu4YXp9f_pLk",
+    "filename": "하이어드 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:53.654Z",
+    "size": "1500384",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/10QaoOPYhfxWlKdLfxyYVFu4YXp9f_pLk/view?usp=drivesdk",
+    "sourceSha256": "472a6c785d1091666e59c28faa225782c979b619c667ad55f2d752d06109e823",
+    "textSha256": "c04d211d2a382545194113e685ae5fc8f440b474bdd0bdfccd94f3e70719131d",
+    "changeKey": "4e2b343383d9d6c258090c29f6590437",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4f63910695e27b95b8d0",
+    "workId": "4f63910695e27b95b8d0",
+    "driveFileId": "10QaoOPYhfxWlKdLfxyYVFu4YXp9f_pLk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:13:02.233982+00:00",
+    "updatedAt": "2026-09-22T13:13:02.233999+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:13:02.234114+00:00"
+    }
+  }
+}

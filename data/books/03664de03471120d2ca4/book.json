@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하이랜더",
+    "author": "스카이엘(박지훈)",
+    "genre": "판타지",
+    "tags": [
+      "드래곤",
+      "하이랜더",
+      "신계",
+      "전쟁"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스카이엘 (박지훈)",
+    "oneLineSummary": "신계 대전과 드래곤, 그리고 하이랜더들의 운명을 그린 판타지 이야기.",
+    "overallSummary": "엘더 휴먼과 드래곤, 그리고 신들의 전쟁인 신계 대전 이후 주신의 휘하에 들어간 하이랜더들과 용왕을 잃은 드래곤들의 갈등 속에서, 불의 가디언 에이드가 된 청년 카인의 여정을 그린 판타지 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 1장",
+        "summary": "화룡왕의 죽음과 왕자 아레트의 탈출, 그리고 하이랜더 간부 회의에서 카인이 불의 가디언 에이드로 임명된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "드래곤과 신계 전쟁"
+      }
+    ],
+    "keyEntitiesText": "안티스, 아레트, 킬린, 카인, 레이젤",
+    "settingText": "화룡의 성과 신계의 중립 지역."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1W3_rWUUaz56O6xf9ly_n3QD2hOiI3qc7",
+    "filename": "하이랜더 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:53.621Z",
+    "size": "1162150",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1W3_rWUUaz56O6xf9ly_n3QD2hOiI3qc7/view?usp=drivesdk",
+    "sourceSha256": "373e2dbc015bb2226288f3766a81a90c642b0f95436a9fc276dd1b0e753c35fc",
+    "textSha256": "7b532e0d0a6159ed4811b541acac891c3b208a1681e7c76ab48e9c3517faa1f2",
+    "changeKey": "76806c1e1f17bcfa52917e5512ebeb5a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "03664de03471120d2ca4",
+    "workId": "03664de03471120d2ca4",
+    "driveFileId": "1W3_rWUUaz56O6xf9ly_n3QD2hOiI3qc7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:12:55.405523+00:00",
+    "updatedAt": "2026-09-22T13:12:55.405541+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:12:55.405645+00:00"
+    }
+  }
+}

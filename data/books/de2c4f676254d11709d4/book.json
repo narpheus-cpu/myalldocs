@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하르마탄",
+    "author": "Agra",
+    "genre": "판타지",
+    "tags": [
+      "사막",
+      "도적",
+      "제도",
+      "타무슈람"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "Agra",
+    "oneLineSummary": "다노드 사막을 배경으로 잡혀간 도적 우실의 이야기.",
+    "overallSummary": "다노드 사막에서 사람을 죽이지 않는 독실한 타무슈람 도적 우실이 대상 습격 실패로 체포되어 제도의 수도 바슈다의 감옥에 갇히고, 그곳에서 기괴한 늙은 죄수와 만나게 되는 판타지 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 1장",
+        "summary": "사막에서 도적질을 하던 우실이 체포되어 바슈다의 감옥에 수감되고 감방 동료와 대화를 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "사막과 범죄자"
+      }
+    ],
+    "keyEntitiesText": "우실 구이만",
+    "settingText": "다노드 사막과 수도 바슈다의 감옥."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YKVI0Mgs5GcOwMUPnvhkZj182DEs-bE1",
+    "filename": "하르마탄 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:53.510Z",
+    "size": "3268985",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1YKVI0Mgs5GcOwMUPnvhkZj182DEs-bE1/view?usp=drivesdk",
+    "sourceSha256": "b9a0b29cb4e4eb08424c81605a0bfabc7246db213c113ccade7679cb5e7c4a2d",
+    "textSha256": "5ec616b579b4f75759ab0b0248de2e56109f0cd64b56842ee6ab59b580ee279e",
+    "changeKey": "3ff12b59b7beb0b65992ce90e2a9e268",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "de2c4f676254d11709d4",
+    "workId": "de2c4f676254d11709d4",
+    "driveFileId": "1YKVI0Mgs5GcOwMUPnvhkZj182DEs-bE1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:12:47.992930+00:00",
+    "updatedAt": "2026-09-22T13:12:47.992949+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:12:47.993049+00:00"
+    }
+  }
+}

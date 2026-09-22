@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "투마왕",
+    "author": "김운영",
+    "genre": "판타지",
+    "tags": [
+      "마족",
+      "투마왕",
+      "요마",
+      "전쟁"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김운영은 인간의 욕망과 노력, 세상을 살아가는 방법을 소설적 구분에 담아내고자 글을 쓴다.",
+    "oneLineSummary": "인간의 피가 섞인 반마이자 새로운 투마왕인 아론의 마계 정복기.",
+    "overallSummary": "마계에서 요마족과 대립하는 투마족의 왕 아론이 진마검 락샤샤의 주인이 되어 요마족과의 전쟁을 승리로 이끌며 마계의 균형을 깨트리는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "chap0 투마왕 탄생",
+        "summary": "반마인 아론이 진마검을 각성시키고 요마족의 대군을 격파하며 투마왕으로 자리잡는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "마족 간의 전쟁과 마신기"
+      }
+    ],
+    "keyEntitiesText": "아론, 무사크, 락샤샤, 다크리치",
+    "settingText": "마계의 대지와 강철의 도시, 흑사의 사막."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19NOB6yqe2Qnre8WYjr6A7r8ide1w5nWz",
+    "filename": "투마왕 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:52.496Z",
+    "size": "2452231",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/19NOB6yqe2Qnre8WYjr6A7r8ide1w5nWz/view?usp=drivesdk",
+    "sourceSha256": "f7fbebdcfb965d0cd115e2ba65ccee30714f5ec6586cfdee41435198a088c900",
+    "textSha256": "cfbc67bd2b27954fe53d8fd5f76b94355c7ca17d99fe2aea4a37366352f14190",
+    "changeKey": "d6b5b22765f83f50c34272c4c01f1fa9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "05ab2f5ca3c7cf1ab303",
+    "workId": "05ab2f5ca3c7cf1ab303",
+    "driveFileId": "19NOB6yqe2Qnre8WYjr6A7r8ide1w5nWz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:11:15.049627+00:00",
+    "updatedAt": "2026-09-22T13:11:15.049643+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:11:15.049757+00:00"
+    }
+  }
+}

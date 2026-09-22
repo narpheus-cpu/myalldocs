@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "페나인의 상인들",
+    "author": "안현일",
+    "genre": "판타지",
+    "tags": [
+      "상인",
+      "중개상",
+      "기사",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "안현일",
+    "oneLineSummary": "기사의 삶을 거부하고 상인이 되고픈 레온과 중개상 알의 이야기.",
+    "overallSummary": "페나인 왕국 최고의 검사 재능을 가졌지만 기사보다는 물건을 사고파는 상인이 되고 싶어 하는 공작가의 막내아들 레온 레스터와, 치즈를 취급하는 가난한 중개상 알 베자스가 우연히 만나 벌어지는 상인 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1 & 2",
+        "summary": "기사의 삶에 회의를 느끼는 레온과 거래처를 빼앗겨 열이 오른 중개상 알의 만남."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "상업과 모험"
+      }
+    ],
+    "keyEntitiesText": "레온 레스터, 카슨, 알 베자스",
+    "settingText": "페나인 왕국 레스터 공작 영지."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1732X2Fy_TRfzEki1KHMU9V279bsLA08U",
+    "filename": "페나인의 상인들 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:52.796Z",
+    "size": "2403222",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1732X2Fy_TRfzEki1KHMU9V279bsLA08U/view?usp=drivesdk",
+    "sourceSha256": "76555f63ba70bafd72e8200e0a54fe1c0d807b7e65e6d2b5f85919bd9b526ba1",
+    "textSha256": "d3cdf2aa7fe6d0cf9ee5d9dc7969b783156facf27a587df811021e68c71d5ff4",
+    "changeKey": "ab51cd7e06f57cbaf19c994d886a488f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b14a197717ed5844ad29",
+    "workId": "b14a197717ed5844ad29",
+    "driveFileId": "1732X2Fy_TRfzEki1KHMU9V279bsLA08U",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:11:53.882580+00:00",
+    "updatedAt": "2026-09-22T13:11:53.882597+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:11:53.882710+00:00"
+    }
+  }
+}

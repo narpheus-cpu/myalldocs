@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "페이트 할로우아타락시아",
+    "author": "TYPE-MOON",
+    "genre": "판타지",
+    "tags": [
+      "성배전쟁",
+      "마스터",
+      "서번트",
+      "기억상실"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지",
+        "액션"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "기억에 혼란을 겪으며 성배전쟁에 임하는 마스터 바제트의 이야기.",
+    "overallSummary": "어두운 저택에서 깨어난 마스터 바제트·프라가·마크레밋츠가 자신의 서번트와 만나고, 기억의 일부가 누락된 상태에서 성배전쟁을 수행하기 위해 거리로 나서는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "오프닝",
+        "summary": "바제트가 저택에서 깨어나 기억의 혼란을 겪으며 서번트와 함께 성배전쟁에 대해 논의한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "성배전쟁과 마법사"
+      }
+    ],
+    "keyEntitiesText": "바제트·프라가·마크레밋츠, 서번트",
+    "settingText": "후유키의 거리와 서양식 저택."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wVX0HzNZkGUE-CDKtoYM-oY3Jh0PDIcs",
+    "filename": "페이트 할로우아타락시아.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:52.857Z",
+    "size": "683480",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1wVX0HzNZkGUE-CDKtoYM-oY3Jh0PDIcs/view?usp=drivesdk",
+    "sourceSha256": "98667f476503373b6d0a39a64b5ce57a945c38c1f52ca50261551156f73b0103",
+    "textSha256": "b22159355647975f64e6a97e00e74863a16bfbf799e076e0d7ae7484a94ebed4",
+    "changeKey": "c8a786c8b380ab150c04afa3ec15aceb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "862cc7e7a97cbcf4a88d",
+    "workId": "862cc7e7a97cbcf4a88d",
+    "driveFileId": "1wVX0HzNZkGUE-CDKtoYM-oY3Jh0PDIcs",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:12:01.509745+00:00",
+    "updatedAt": "2026-09-22T13:12:01.509761+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:12:01.509873+00:00"
+    }
+  }
+}

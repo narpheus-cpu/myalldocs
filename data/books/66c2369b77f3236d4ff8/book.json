@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "패러노말 마스터",
+    "author": "Cigarette男",
+    "genre": "판타지",
+    "tags": [
+      "마법사",
+      "변방",
+      "괴물",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "변방의 작은 성에 방문한 기묘한 가면의 마법사와 소녀 카라의 만남.",
+    "overallSummary": "변방의 작은 성에서 외롭게 자란 소녀 카라가 거대해진 동물 괴물 사건을 계기로 성에 초빙된 가면을 쓴 마법사 이자드 루이를 만나게 되면서 벌어지는 이야기.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 가면의 마법사",
+        "summary": "음침한 영주 성에서 책을 읽으며 지내던 카라가 괴물 출몰 사건으로 마법사 루이를 만나게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "마법사와 괴물 사건"
+      }
+    ],
+    "keyEntitiesText": "카라, 코히마, 카트니, 이자드 루이",
+    "settingText": "추운 겨울 눈으로 둘러싸인 변방의 작은 성."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Y-d-aQoUw51mOu8DpOEMAGNVpIEJc2a6",
+    "filename": "패러노말 마스터 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:52.587Z",
+    "size": "1163561",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1Y-d-aQoUw51mOu8DpOEMAGNVpIEJc2a6/view?usp=drivesdk",
+    "sourceSha256": "8cac13fe35456535d45ba13b2c9455970503950acc2d47a1d234e785f966d48e",
+    "textSha256": "d09a04e0f90d841eda30869a445718f1eb4b49bda51009f71fa50240a23691d2",
+    "changeKey": "12e180b2cf52916dc740a4b52dc70308",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "66c2369b77f3236d4ff8",
+    "workId": "66c2369b77f3236d4ff8",
+    "driveFileId": "1Y-d-aQoUw51mOu8DpOEMAGNVpIEJc2a6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:11:30.537366+00:00",
+    "updatedAt": "2026-09-22T13:11:30.537382+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:11:30.537484+00:00"
+    }
+  }
+}

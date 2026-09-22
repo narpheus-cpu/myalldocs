@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하이엘프의 숲",
+    "author": "작가 미상",
+    "genre": "판타지",
+    "tags": [
+      "엘프",
+      "로도스",
+      "판디아",
+      "여행자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "저주받은 섬 로도스를 여행하는 하이엘프 디드릿트와 동료들의 이야기.",
+    "overallSummary": "전란이 끊이지 않는 로도스 섬에서 아라니아 왕국의 병사들과 충돌한 엘프 디드릿트가 하이엘프 동료 에스타스를 만나고, 북의 현자 슬레인과 전사 판이 있는 잭슨 마을 주변의 위기를 마주하는 판타지 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부 요정계에서의 여행자",
+        "summary": "디드릿트가 로도스를 여행하며 아라니아 병사들을 처치하고, 옛 동료 에스타스 및 판을 만나 잭슨 마을의 상황을 살핀다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "엘프와 로도스 전쟁 잔재"
+      }
+    ],
+    "keyEntitiesText": "디드릿트, 슬레인 스타시커, 레이리아, 판, 에스타스",
+    "settingText": "로도스 섬의 가도와 잭슨 마을."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UwFElYnjHlica-02Wr8OddD7sBiRv-Wi",
+    "filename": "하이엘프의 숲.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:53.690Z",
+    "size": "296581",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1UwFElYnjHlica-02Wr8OddD7sBiRv-Wi/view?usp=drivesdk",
+    "sourceSha256": "dff5269823437ffbe6a48f7c1736ac334663a854980bcb2bcc312312049417c6",
+    "textSha256": "dcde1792f8f00c2db6c88c5e4fccc04ea774bf94db120446b57b8153ca72ec11",
+    "changeKey": "5ba99bc670373982d96a4fe3c3f0b0cb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "32ae5d4919792720d94d",
+    "workId": "32ae5d4919792720d94d",
+    "driveFileId": "1UwFElYnjHlica-02Wr8OddD7sBiRv-Wi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:13:09.299779+00:00",
+    "updatedAt": "2026-09-22T13:13:09.299795+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:13:09.299882+00:00"
+    }
+  }
+}

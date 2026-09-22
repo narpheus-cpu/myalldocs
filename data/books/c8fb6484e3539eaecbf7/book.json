@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하늘이 되고 싶다",
+    "author": "작가 미상",
+    "genre": "판타지",
+    "tags": [
+      "이세계",
+      "엘프",
+      "토끼인간",
+      "판타지"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "부모를 잃은 슬픔에 잠긴 소년 윤수가 판타지 세계로 넘어가 '카이'로 살아가는 이야기.",
+    "overallSummary": "불우한 사고로 부모를 잃고 슬퍼하던 윤수가 눈물 속에서 엘프와 토끼종족이 사는 판타지 세계로 이동하게 되고, '카이'라는 이름으로 엘프 마을의 피엘, 지엘 자매와 함께 지내며 마법과 정령술을 접하게 되는 판타지 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~5회",
+        "summary": "윤수가 부모의 죽음을 슬퍼하다가 눈물 속에서 엘프의 숲으로 떨어져 마법을 통해 언어를 익히고 정착한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 소재",
+        "value": "이세계 전이와 판타지 적응"
+      }
+    ],
+    "keyEntitiesText": "윤수(카이), 지엘, 피엘, 오스엘, 슈리나",
+    "settingText": "카르디아 대륙 엘프의 숲."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zNGEkF0KMLNEG7fiV3EHu2hKX49Pei69",
+    "filename": "하늘이 되고 싶다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:53.433Z",
+    "size": "265986",
+    "folderPath": [
+      "books",
+      "06 한국 판타지"
+    ],
+    "relativePath": "books/06 한국 판타지",
+    "webViewLink": "https://drive.google.com/file/d/1zNGEkF0KMLNEG7fiV3EHu2hKX49Pei69/view?usp=drivesdk",
+    "sourceSha256": "5a3b28390ce08491e8ae31f288c078f969e548c5dbc8bec859b36a4b62d14066",
+    "textSha256": "1412df6f92222181aa2e0af8c82b3136c3e26d1ee21bef7b3aa633d8e5d236ab",
+    "changeKey": "add349c9e3219ec6e9aec1452db3ce36",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c8fb6484e3539eaecbf7",
+    "workId": "c8fb6484e3539eaecbf7",
+    "driveFileId": "1zNGEkF0KMLNEG7fiV3EHu2hKX49Pei69",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T13:12:33.403670+00:00",
+    "updatedAt": "2026-09-22T13:12:33.403687+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T13:12:33.403794+00:00"
+    }
+  }
+}
