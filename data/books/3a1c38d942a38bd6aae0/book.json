@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "저린 손끝",
+    "author": "권경희",
+    "genre": "추리/소설",
+    "tags": [
+      "추리소설",
+      "한국소설",
+      "미스터리",
+      "사건수사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "추리",
+        "미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권경희는 치밀한 구성과 심리 묘사가 돋보이는 장편추리소설 '저린 손끝'의 저자이다.",
+    "oneLineSummary": "시골 마을의 학교와 저수지를 배경으로 벌어지는 미스터리한 사건과 진실을 추적하는 추리소설이다.",
+    "overallSummary": "충청남도 송전면 송암리를 배경으로, 새로 부임한 순경 박민기가 고향의 아픔과 어머니의 병마를 치유하려는 과정 속에서 학교와 마을을 둘러싼 의문의 사건들을 마주하게 된다. 학교 교장의 독살 미수 사건 등 연이은 미스터리를 파헤치며 숨겨진 비밀에 다가간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~3장: 고향 부임과 봄가뭄, 독살 미수",
+        "summary": "송전 지서로 새로 부임한 박민기가 고향 마을의 풍경과 광인의 전설을 접하고, 송전 학교 교장실에서 발생한 보약차 독살 미수 사건을 수사하게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 유형",
+        "value": "한국 토속적 배경의 장편 미스터리 추리소설"
+      }
+    ],
+    "keyEntitiesText": "박민기, 김승만, 권태인, 원종일, 황정자, 오정식",
+    "settingText": "충청남도 청양군과 예산군 사이의 송전면 송암리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16Mu1zzOfRjdi7ioGo0UN2bfi6mdfQoXJ",
+    "filename": "저린 손끝.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:42.808Z",
+    "size": "515907",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/16Mu1zzOfRjdi7ioGo0UN2bfi6mdfQoXJ/view?usp=drivesdk",
+    "sourceSha256": "ae1064bf17001d64ff228e1c9ef01d7d4c70f5c0ff762ff290982c9132c5d6fa",
+    "textSha256": "3d34f23b16b33eefa7db6216f9548e51aa51cffb88fe7600de14aefd883796aa",
+    "changeKey": "524f240701522b3d391d4dbf1e849f4b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3a1c38d942a38bd6aae0",
+    "workId": "3a1c38d942a38bd6aae0",
+    "driveFileId": "16Mu1zzOfRjdi7ioGo0UN2bfi6mdfQoXJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:52:59.017456+00:00",
+    "updatedAt": "2026-09-23T01:52:59.017470+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:52:59.017558+00:00"
+    }
+  }
+}
