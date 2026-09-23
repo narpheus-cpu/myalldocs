@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "책 속의 책 1",
+    "author": "폴 임",
+    "genre": "교양 / 잡학백과",
+    "tags": [
+      "상식",
+      "잡학",
+      "기네스"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "교양",
+        "백과사전"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "폴 임은 미국 캘리포니아에서 응용심리학을, 조지아주에서 종교심리학을 전공하여 박사 학위를 취득한 저술가이다.",
+    "oneLineSummary": "인류 문명과 역사, 논리, 수학, 인체, 음식 등에 숨겨진 흥미롭고 놀라운 지식과 상식을 모은 백과사전.",
+    "overallSummary": "저자가 20년간 국회 도서관 등을 돌며 수집한 방대한 자료를 바탕으로, 지옥의 인구 계산 논리, 5달러 교환의 경우의 수, 구골의 개념, 불가사의한 숫자 7과 9의 비밀 등 일상에서 지나치기 쉬운 기이하고 유익한 지식을 풍부한 삽화와 함께 흥미진진하게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 논리",
+        "summary": "5달러 화폐 교환의 경우의 수, 소년의 임금 계산법, 체스판 밀알 전설, 천국의 인구론적 고찰 등 논리적이고 수학적인 퍼즐을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성 방식",
+        "value": "주제별 잡학 상식 모음"
+      }
+    ],
+    "keyEntitiesText": "폴 임, 밀턴 시로타, 에드워드 캔스너, 성 요한",
+    "settingText": "세계의 도서관 및 지식의 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1mibwdft5bh00sZkGLgftjBi8jAi4SiLX",
+    "filename": "폴 임-책속의 책 1 (1995)-인류문명과 역사 속에 담긴 영웅·왕·대통령 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:44.738Z",
+    "size": "478580",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1mibwdft5bh00sZkGLgftjBi8jAi4SiLX/view?usp=drivesdk",
+    "sourceSha256": "b05b66a359901f2fa0845c5557568c0811309d8231e4a52d5a31a26fdb3928bb",
+    "textSha256": "11d1d190db24c845e4a6d6b3b5252256e12665d173ffef5c02d97d3548a45160",
+    "changeKey": "16ce69ea8a41b97eb456717ee4494d38",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c042762d92ce7415df16",
+    "workId": "c042762d92ce7415df16",
+    "driveFileId": "1mibwdft5bh00sZkGLgftjBi8jAi4SiLX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:04:51.633062+00:00",
+    "updatedAt": "2026-09-23T02:04:51.633078+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:04:51.633176+00:00"
+    }
+  }
+}

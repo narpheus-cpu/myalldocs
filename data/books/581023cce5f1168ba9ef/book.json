@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세상에 홀로 서는 너를 위하여",
+    "author": "켄트 너번",
+    "genre": "에세이 / 삶의 지혜",
+    "tags": [
+      "아버지",
+      "성년",
+      "인생철학"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "철학",
+        "부성"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "켄트 너번은 1946년 출생하여 종교와 예술분야에서 철학박사 학위를 취득하였으며 조각가이자 작가이다.",
+    "oneLineSummary": "세상에 홀로 서는 아들에게 아버지가 전하는 삶의 진실과 성년에 대한 따뜻한 지혜와 통찰.",
+    "overallSummary": "저자는 아들이 세상에 홀로 서서 인생의 거친 파도를 헤쳐 나갈 때 길잡이가 되어 줄 도덕적 가치와 개인적 통찰을 자신의 경험과 주변 사람들의 삶을 통해 진솔하게 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "아버지가 아들에게 전하는 바람과 평범한 인간으로서의 고백을 담았다."
+      },
+      {
+        "sectionTitle": "1 아버지의 그림자",
+        "summary": "아버지라는 존재가 삶에 미치는 영향력과 자전거 사건 등의 일화를 통해 인간적인 교훈을 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "부모가 자식에게 보내는 조언 형식의 에세이"
+      }
+    ],
+    "keyEntitiesText": "켄트 너번, 아들, 아버지, 크리스",
+    "settingText": "일상 속의 삶의 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Oac2jdMtyElWYKJcnLJ1qb4ZHxsHW1LH",
+    "filename": "켄트 너번-세상에 홀로 서는 너를 위하여.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:44.466Z",
+    "size": "252207",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1Oac2jdMtyElWYKJcnLJ1qb4ZHxsHW1LH/view?usp=drivesdk",
+    "sourceSha256": "4382f7438ef4833a4c13858d69507d206427afec1e8dca55c3a43381f961a3cd",
+    "textSha256": "b327b372177783214047158b7db4c4d54653ee7dd0a09defbbe0fc527b84e496",
+    "changeKey": "a6a09577544eaece3f48e64e4a88bf57",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "581023cce5f1168ba9ef",
+    "workId": "581023cce5f1168ba9ef",
+    "driveFileId": "1Oac2jdMtyElWYKJcnLJ1qb4ZHxsHW1LH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:03:26.009378+00:00",
+    "updatedAt": "2026-09-23T02:03:26.009393+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:03:26.009499+00:00"
+    }
+  }
+}
