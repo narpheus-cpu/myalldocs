@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "당신의 몸 얼마나 아십니까",
+    "author": "J.D.래트클리프",
+    "genre": "의학/교양과학",
+    "tags": [
+      "인체구조",
+      "의학교양",
+      "세포",
+      "리더스다이제스트",
+      "장기"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 리더스 다이제스트의 대표 기고가로 인체 각 기관을 1인칭 화법으로 풀어낸 과학 칼럼니스트입니다.",
+    "oneLineSummary": "전형적 중년 부부인 조와 제인의 인체 기관들이 직접 1인칭으로 자신의 구조, 기능, 건강 관리법을 들려주는 교양 의학서입니다.",
+    "overallSummary": "리더스 다이제스트 잡지 역사상 가장 큰 호응을 얻은 시리즈를 묶은 책으로, 세포, 뇌, 감각기관, 내분비선, 순환계, 소화기, 생식기, 비뇨기, 골격 등 인체 주요 장기들이 '나는 조의 심장이다', '나는 조의 세포다'처럼 1인칭 화자가 되어 이야기합니다. 첨단 의학적 사실을 쉽고 흥미진진하게 전달하여 신체의 생명 현상과 질병 예방법을 이해하도록 돕습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 기본단위 - 세포",
+        "summary": "60조 개의 세포 내 발전소 미토콘드리아, ATP 생성, DNA와 RNA의 단백질 조립 과정을 흥미롭게 설명합니다."
+      },
+      {
+        "sectionTitle": "2. 중추신경계 - 뇌",
+        "summary": "1.36kg의 회백색 조직인 뇌가 산소와 피를 사용해 조의 감각, 호흡, 기억, 쾌감을 관장하는 메커니즘을 서술합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술적 특징",
+        "value": "의학 지식을 장기 고유의 1인칭 시점으로 의인화하여 인체의 신비와 건강 수칙을 고도의 재미와 함께 전달한다."
+      }
+    ],
+    "keyEntitiesText": "J. D. 래트클리프, 조(Joe), 제인(Jane), 로버트 J. 데머리스트, 하워드 A. 러스크",
+    "settingText": "47세 남성 조와 42세 여성 제인의 신체 내부 생명 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kj5rg2-3Z-6qjJOaDI5FaQEPuaxw0CVP",
+    "filename": "당신의 몸 얼마나 아십니까.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:34.458Z",
+    "size": "413569",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1kj5rg2-3Z-6qjJOaDI5FaQEPuaxw0CVP/view?usp=drivesdk",
+    "sourceSha256": "78c0a68f1c35bd3c2b1a1e71d7f03ebd7bce617c972b05b6b47a82ebc15075fc",
+    "textSha256": "b52e78c48db241a8035449c3311339aeeca268a6a8b7df75a6ca5b5c0ec35e6f",
+    "changeKey": "e8179eb13f59e9d68d237d128d72e7fa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2712970e60d9cf64f375",
+    "workId": "2712970e60d9cf64f375",
+    "driveFileId": "1kj5rg2-3Z-6qjJOaDI5FaQEPuaxw0CVP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:31:28.828713+00:00",
+    "updatedAt": "2026-09-23T00:31:28.828731+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:31:28.828812+00:00"
+    }
+  }
+}
