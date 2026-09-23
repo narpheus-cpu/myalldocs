@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "재즈가 좋다",
+    "author": "이종학",
+    "genre": "음악",
+    "tags": [
+      "재즈",
+      "영화음악",
+      "퓨전재즈",
+      "커피",
+      "블루스"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영화 애호가로 시작해 재즈광이 된 저술가로, 기분과 분위기에 맞춰 즐기는 재즈의 매력을 전파하고 있다.",
+    "oneLineSummary": "영화 속 재즈의 매력부터 록과의 차이점, 그리고 커피와 함께 즐기는 재즈 음반들을 소개한다.",
+    "overallSummary": "험프리 보가트, 로버트 드 니로 등 영화 속 재즈의 역할과 우디 앨런, 클린트 이스트우드 등 재즈를 사랑하는 감독들을 다루고, 록과 재즈의 리듬 및 악기 구성 차이, 마일즈 데이비스의 퓨전 재즈, 그리고 커피를 마시며 듣는 재즈의 낭만을 에세이로 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "영화로 만나는 재즈의 매력",
+        "summary": "영화와 재즈의 100년 동행을 다루며, '해리가 샐리를 만났을 때', '라운드 미드나이트' 등 영화 속 재즈의 감동을 설명한다."
+      },
+      {
+        "sectionTitle": "록과 재즈가 다른 이유",
+        "summary": "록과 재즈의 리듬 비트(오프비트) 차이, 악기 구성의 차이, 그리고 60년대 말 탄생한 퓨전 재즈의 흐름을 분석한다."
+      },
+      {
+        "sectionTitle": "커피를 마시며 즐기는 재즈",
+        "summary": "원두 커피에 얽힌 친구들의 일화와 함께, 검고 진한 커피 향에 어울리는 재즈 감상의 낭만을 노래한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "재즈와 록의 리듬 차이",
+        "value": "재즈는 2, 4번째 비트에 강조를 두는 오프비트인 반면, 록은 3번째 혹은 1번째 비트에 강조를 둠"
+      }
+    ],
+    "keyEntitiesText": "이종학, 클린트 이스트우드, 우디 앨런, 버드 파웰, 마일즈 데이비스",
+    "settingText": "영화와 재즈가 공존하는 현대 대중문화 및 카페 감상 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Amt7dLbuU__zQAjTeFKmfOe5o33VaR3l",
+    "filename": "이종학-재즈가 좋다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.212Z",
+    "size": "333991",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1Amt7dLbuU__zQAjTeFKmfOe5o33VaR3l/view?usp=drivesdk",
+    "sourceSha256": "c0a4cc579ca6f2ec77e314b583fe1daf05a0bef4b0ce1d3dd3825ee8fd3df6fe",
+    "textSha256": "af46483bbae96a44082c0ff298d335db142332e69f48ea38ecbe48cffeb164b6",
+    "changeKey": "ad75d4b4b5f7622e4bc53d85fe343b31",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "68eca507b46bb0f403e2",
+    "workId": "68eca507b46bb0f403e2",
+    "driveFileId": "1Amt7dLbuU__zQAjTeFKmfOe5o33VaR3l",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:30:03.438876+00:00",
+    "updatedAt": "2026-09-23T04:30:03.438893+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:30:03.438980+00:00"
+    }
+  }
+}

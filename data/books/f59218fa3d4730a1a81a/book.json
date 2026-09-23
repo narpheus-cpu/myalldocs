@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "음악의 숲에서",
+    "author": "유혜자",
+    "genre": "음악",
+    "tags": [
+      "클래식",
+      "에세이",
+      "보로딘",
+      "재클린 뒤 프레",
+      "쇤베르크"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "MBC 라디오에서 교양 및 음악 프로그램 프로듀서로 일하며 다수의 수필집을 출간하고 문학상을 수상한 수필가이다.",
+    "oneLineSummary": "친숙한 클래식 음악 55곡에 얽힌 사랑과 인생의 단상들을 서정적인 필치로 그려낸다.",
+    "overallSummary": "하이델베르크에서 싹튼 보로딘의 첫사랑과 녹턴, 재클린 뒤 프레와 바렌보임의 베토벤 첼로 소나타, 림스키 코르사코프의 셰에라자드, 쇤베르크의 정화된 밤, 글룩의 오르페우스와 유리디체 등 음악가들의 사랑 이야기와 명곡의 감흥을 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫사랑이 일렁이던 네카어 강",
+        "summary": "보로딘이 하이델베르크에서 에카테리나를 만나 사랑을 키우고 그녀를 위해 녹턴을 작곡한 배경을 서술한다."
+      },
+      {
+        "sectionTitle": "신록에 나부끼는 연가",
+        "summary": "천재 첼리스트 재클린 뒤 프레와 다니엘 바렌보임의 운명적 만남과 베토벤 첼로 소나타 3번 연주에 담긴 사랑을 다룬다."
+      },
+      {
+        "sectionTitle": "정화된 밤",
+        "summary": "데멜의 시에 매혹된 쇤베르크가 여인의 불륜 고백과 남성의 관용적 사랑을 숭고한 현악 6중주로 표현한 과정을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "에세이적 특징",
+        "value": "개인적 여행 경험과 문학 작품(주홍글씨, 아라비안 나이트)을 음악과 유기적으로 연결"
+      }
+    ],
+    "keyEntitiesText": "유혜자, 보로딘, 에카테리나, 재클린 뒤 프레, 다니엘 바렌보임, 쇤베르크",
+    "settingText": "하이델베르크, 런던 등 유럽의 낭만적 공간과 음악가들의 투병 및 사랑의 순간들"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-DJmsR2yhkGzVHo4o01HYqGI7mzAkxJm",
+    "filename": "유혜자-음악의 숲에서.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.198Z",
+    "size": "239899",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1-DJmsR2yhkGzVHo4o01HYqGI7mzAkxJm/view?usp=drivesdk",
+    "sourceSha256": "a89bbf9882ffde04cffe5f6bce7c9de5e19cad2d41b8603ae4c5a5af3665226e",
+    "textSha256": "5e55f252348ad68c3939a2677fd218bafa772c533eda531fe27f00d00cee3546",
+    "changeKey": "4ccb01d108851b8c0127b41d2d195590",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f59218fa3d4730a1a81a",
+    "workId": "f59218fa3d4730a1a81a",
+    "driveFileId": "1-DJmsR2yhkGzVHo4o01HYqGI7mzAkxJm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:29:50.208012+00:00",
+    "updatedAt": "2026-09-23T04:29:50.208027+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:29:50.208115+00:00"
+    }
+  }
+}

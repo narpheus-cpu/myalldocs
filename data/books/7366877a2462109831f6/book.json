@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "음악감상입문",
+    "author": "유판애언",
+    "genre": "음악",
+    "tags": [
+      "음악감상",
+      "입문서",
+      "음의특성",
+      "성악",
+      "기악"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "음악 애호가들이 편견 없이 자유롭게 음악을 즐기고 깊이 있게 이해할 수 있도록 돕는 가이드를 집필했다.",
+    "oneLineSummary": "음악의 본질과 감상 방법, 음의 특성 및 성악과 기악의 기초 지식을 친절하게 안내한다.",
+    "overallSummary": "음치에 대한 오해를 풀고 음악 자체의 아름다움을 느끼는 법을 설명하며, 기계 음악의 한계를 극복하는 감상자의 경험, 스스로 연주하는 즐거움, 그리고 고른음과 소음의 차이 등 음의 물리학적·미학적 특성을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "음악은 누구나 알 수 있다",
+        "summary": "음악의 의미는 음악 자체에 있으며, 감상자의 정신 구조와 경험을 통해 풍부하게 수용됨을 설명한다."
+      },
+      {
+        "sectionTitle": "음악 감상의 방법",
+        "summary": "실제 연주를 듣는 것의 가치와 기계 음악의 보완적 감상법, 그리고 직접 연주하는 활동의 중요성을 다룬다."
+      },
+      {
+        "sectionTitle": "음의 특성",
+        "summary": "고른음과 시끄런음(소음)의 개념 변화와 현대 음악에서의 음의 미적 구성에 대해 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "감상의 핵심",
+        "value": "음악 외적인 구체적 연상에 집착하기보다 음악 자체의 흐름에 집중하는 것"
+      }
+    ],
+    "keyEntitiesText": "유판애언, 오동일, 베토벤",
+    "settingText": "서양음악 수입 100년을 맞이한 한국 사회와 기계 음악이 범람하는 현대 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Mnq30EB68PWabNoMwSvgiIrSF8_DWBEl",
+    "filename": "유판애언-음악감상입문 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.180Z",
+    "size": "381218",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1Mnq30EB68PWabNoMwSvgiIrSF8_DWBEl/view?usp=drivesdk",
+    "sourceSha256": "e7fcc44c8e4d61f7ca3eb570a7c7c336abc9f55d5b9cf56eadece4ee6186eb5c",
+    "textSha256": "a88d6f40d92ac383cdaa7ef3ce285a2026a25c48c12510722799bf921c7569db",
+    "changeKey": "93087ebc6ad9ed43bc821016510e2e12",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7366877a2462109831f6",
+    "workId": "7366877a2462109831f6",
+    "driveFileId": "1Mnq30EB68PWabNoMwSvgiIrSF8_DWBEl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:29:41.508802+00:00",
+    "updatedAt": "2026-09-23T04:29:41.508820+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:29:41.508909+00:00"
+    }
+  }
+}

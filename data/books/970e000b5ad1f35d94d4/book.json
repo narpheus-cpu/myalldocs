@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나의 삶 나의 음악",
+    "author": "엘리제 마흐",
+    "genre": "음악",
+    "tags": [
+      "피아니스트",
+      "인터뷰",
+      "클래식",
+      "클라우디오 아라우",
+      "피아노교수법"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "피아니스트이자 저술가로, 세계적인 콘서트 피아니스트들과의 격의 없는 인터뷰를 통해 그들의 예술관을 기록했다.",
+    "oneLineSummary": "우리 시대 위대한 피아니스트들의 삶과 예술, 그리고 피아노에 대한 철학을 생생한 목소리로 전한다.",
+    "overallSummary": "게오르그 솔티의 서문을 시작으로, 클라우디오 아라우 등 거장 피아니스트들이 말하는 재능의 계발, 스승과의 관계, 테크닉과 해석의 조화, 그리고 음악을 넘어선 인성의 통합과 인문학적 교양의 중요성을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "콘서트 피아니스트에게 필요한 세 가지 요소인 재능, 확고한 결심(근면함), 그리고 끊임없는 연습을 설명한다."
+      },
+      {
+        "sectionTitle": "클라우디오 아라우",
+        "summary": "리스트의 제자인 마르틴 크라우제로부터 전수받은 전통, 비르투오시티의 가치, 그리고 독서와 심리학 등 인성 통합의 중요성을 강조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "아라우의 해석론",
+        "value": "작곡가의 의도에 대한 충실성과 연주자 자신의 상상력 간의 균형"
+      }
+    ],
+    "keyEntitiesText": "엘리제 마흐, 게오르그 솔티, 클라우디오 아라우, 마르틴 크라우제, 프란츠 리스트",
+    "settingText": "20세기 후반 클래식 음악계와 피아니스트들의 예술적 훈련 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1us9bKD3a-0hu_EqaDr090046oph8qfyG",
+    "filename": "엘리제 마흐-나의 삶 나의 음악(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.160Z",
+    "size": "583473",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1us9bKD3a-0hu_EqaDr090046oph8qfyG/view?usp=drivesdk",
+    "sourceSha256": "e8cf084413834af57af7857fa322ae5bc38d41f5eedb523fa1708d60768fa6db",
+    "textSha256": "9127c9706646d1adaaca504f820fe156d7e90affd11b52dd7cc15e88233653da",
+    "changeKey": "b015ff624df2db6aea1ea8c4cf5291c5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "970e000b5ad1f35d94d4",
+    "workId": "970e000b5ad1f35d94d4",
+    "driveFileId": "1us9bKD3a-0hu_EqaDr090046oph8qfyG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:29:35.261704+00:00",
+    "updatedAt": "2026-09-23T04:29:35.261719+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:29:35.261806+00:00"
+    }
+  }
+}

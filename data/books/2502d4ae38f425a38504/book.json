@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "숨겨진 영화, 살아있는 영화",
+    "author": "노영일",
+    "genre": "영화비평",
+    "tags": [
+      "영화비평",
+      "세계영화",
+      "고전영화",
+      "영화감상"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "원주에서 활동하는 영화 애호가이자 평론가로, 다양한 세계 고전 영화들을 수집하고 감상해왔다.",
+    "oneLineSummary": "세계 영화사의 걸작들을 통해 인간의 진실, 도시와 개인의 삶, 역사의 수레바퀴를 탐색한다.",
+    "overallSummary": "미켈란젤로 안토니오니의 '정사', 구로사와 아키라의 '라쇼몬' 등 제2차 세계대전 이후 등장한 현대 영화의 명작들을 주제별로 분류하여 깊이 있는 감상과 비평을 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인간은 아무도 진실을 말하지 않는다",
+        "summary": "영화 '정사'와 '라쇼몬'을 통해 인간 관계의 불투명성과 진실의 상대성을 분석한다."
+      },
+      {
+        "sectionTitle": "도시, 가정, 그리고 개인의 굴절된 삶",
+        "summary": "부르주아의 은밀한 매력, 4백 번의 매질 등을 통해 현대 사회 속 개인의 소외를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 대상 영화",
+        "value": "정사, 라쇼몬, 8과 1/2, 신의 분노 아귀레 등"
+      }
+    ],
+    "keyEntitiesText": "노영일, 미켈란젤로 안토니오니, 구로사와 아키라, 모니카 비티, 미후네 도시로",
+    "settingText": "제2차 세계대전 이후의 현대 세계와 다양한 국가의 영화적 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TJ7k1Esz_tv0r_cWH8KTf3zDwWD4EAKK",
+    "filename": "숨겨진 영화, 살아있는 영화.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.995Z",
+    "size": "354878",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1TJ7k1Esz_tv0r_cWH8KTf3zDwWD4EAKK/view?usp=drivesdk",
+    "sourceSha256": "4e0ce10a0f02d47cc71d29a54402027bdbcddd18074b4c60bb157d1213a79e56",
+    "textSha256": "f189395aeccb1627080a33b31b1a63e577cb74fde39303dd1b651e9cd959dabe",
+    "changeKey": "55bbd07f7ee30469596669632449bffa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2502d4ae38f425a38504",
+    "workId": "2502d4ae38f425a38504",
+    "driveFileId": "1TJ7k1Esz_tv0r_cWH8KTf3zDwWD4EAKK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:28:58.851224+00:00",
+    "updatedAt": "2026-09-23T04:28:58.851240+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:28:58.851322+00:00"
+    }
+  }
+}

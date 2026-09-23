@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계 영화사",
+    "author": "잭 C. 엘리스",
+    "genre": "영화사",
+    "tags": [
+      "영화사",
+      "미학",
+      "무성영화",
+      "발성영화",
+      "누벨바그"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영화의 미학적 진화와 기술적·경제적 배경을 통합적으로 연구한 세계적인 영화학자이다.",
+    "oneLineSummary": "1895년 이전의 발명부터 현대 미국 영화에 이르기까지 세계 이야기체 극영화의 미학적 진화를 서술한다.",
+    "overallSummary": "영화의 산업적·종합적·집단적 특성을 바탕으로, 무성영화 시대의 독일과 소련(몽따쥬 이론), 사운드의 도래, 프랑스 영화의 황금기, 이탈리아 네오리얼리즘, 아시아 영화(일본, 인도), 프랑스 누벨 바그와 작가주의, 그리고 제3세계 영화의 흐름을 미학적 관점에서 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "초판 이후의 역사적 연구 성과를 반영하고, 이 책이 근본적으로 미학의 역사이자 영화의 정황 배경을 확립하는 작업임을 밝힌다."
+      },
+      {
+        "sectionTitle": "서론: 영화사의 특징들",
+        "summary": "영화가 기술, 대량소비, 관객의 지지에 의존하는 산업적 예술이자 여러 예술을 구체화하는 종합예술임을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "영화의 종합적 특성",
+        "value": "사진의 공간적 편성과 문학·연극의 시간적 편성을 결합한 합성된 환상"
+      }
+    ],
+    "keyEntitiesText": "잭 C. 엘리스, 변재란, 장-뤽 고다르, 앙드레 바쟁, 미켈란젤로 안토니오니",
+    "settingText": "19세기 후반 기술적 발명기부터 20세기 후반까지의 글로벌 영화 산업 및 미학적 변천"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ACSfOuacGE2-G4LRjPjNWqfOFbiDuiAz",
+    "filename": "잭 C 엘리스-세계영화사(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T05:38:24.000Z",
+    "size": "1580537",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1ACSfOuacGE2-G4LRjPjNWqfOFbiDuiAz/view?usp=drivesdk",
+    "sourceSha256": "97e12bdb01a4f3fa24a2518b71f300977a589f02cd8aad429e81313b05b41877",
+    "textSha256": "8567267810e300949cf12fe8e47b201db4fd1eda7a9a73ea0d1101dc7e1d7258",
+    "changeKey": "af5fe596419f067cc06e8e594cac52af",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "64bda4d6fbac21b21550",
+    "workId": "64bda4d6fbac21b21550",
+    "driveFileId": "1ACSfOuacGE2-G4LRjPjNWqfOFbiDuiAz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:30:12.560528+00:00",
+    "updatedAt": "2026-09-23T04:30:12.560545+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:30:12.560638+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이 한장의 명반 3",
+    "author": "안동림",
+    "genre": "음악",
+    "tags": [
+      "클래식",
+      "명반",
+      "종교음악",
+      "쳄발로",
+      "성악곡"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "음악의 역사적 맥락과 연주자의 인간적 고뇌를 연결하여 명반의 가치를 설명하는 저술가이다.",
+    "oneLineSummary": "몬테베르디의 종교 음악부터 바하의 골드베르그 변주곡, 그리고 세기의 명가수들의 음반을 조명한다.",
+    "overallSummary": "존 엘리오트 가디너가 지휘한 몬테베르디의 '성모 마리아의 저녁 기도', 완다 란도프스카가 연주한 바하의 '골드베르그 변주곡', 멘겔베르그의 '마태 수난곡' 등 역사적 명반의 배경과 연주 기법을 깊이 있게 에세이 형식으로 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "몬테베르디 성모 마리아의 저녁 기도",
+        "summary": "르네상스에서 바로크로의 전환기에 탄생한 극적 종교 음악의 걸작과 가디너의 성 마르코 대성당 실황 녹음을 분석한다."
+      },
+      {
+        "sectionTitle": "바하 골드베르그 변주곡",
+        "summary": "카이절링 백작의 불면증 치료제로 탄생한 배경과 쳄발로의 거장 완다 란도프스카의 역사적 명연을 소개한다."
+      },
+      {
+        "sectionTitle": "멘겔베르그의 바하 마태 수난곡",
+        "summary": "그리스도의 수난을 인간적인 극적 음악으로 재현한 멘겔베르그의 1939년 역사적 실황 녹음을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "연주 악기 특징",
+        "value": "플레이에르 사가 특별 설계 제작한 완다 란도프스카의 쳄발로"
+      }
+    ],
+    "keyEntitiesText": "안동림, 클라우디오 몬테베르디, 존 엘리오트 가디너, 완다 란도프스카, 빌렘 멘겔베르그",
+    "settingText": "바로크 시대의 종교 음악 배경 및 20세기 전반기의 역사적 녹음 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DfHQgbFU65aKMuHtdr0eV1gQcvC8XAEY",
+    "filename": "안동림-이 한장의 명반 3 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.114Z",
+    "size": "724600",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1DfHQgbFU65aKMuHtdr0eV1gQcvC8XAEY/view?usp=drivesdk",
+    "sourceSha256": "40a60ec8104df341d70a72c31da385b115e5ef74f1e598c04951643a00d51af7",
+    "textSha256": "9f0f527432da11bfbd397aa14fb290b204c3300fb7921ebe63c9fa4c1ef7e4f5",
+    "changeKey": "a89bedd8f8475d5a40a88dd7d98789d8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5d2f030b4a847b7b0daf",
+    "workId": "5d2f030b4a847b7b0daf",
+    "driveFileId": "1DfHQgbFU65aKMuHtdr0eV1gQcvC8XAEY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:29:23.582444+00:00",
+    "updatedAt": "2026-09-23T04:29:23.582460+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:29:23.582561+00:00"
+    }
+  }
+}

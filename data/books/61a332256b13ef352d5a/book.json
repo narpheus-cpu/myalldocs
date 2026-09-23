@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영화는 두 번 시작된다",
+    "author": "이동진",
+    "genre": "영화비평",
+    "tags": [
+      "영화평론",
+      "이동진",
+      "기생충",
+      "봉준호",
+      "계급갈등"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "지난 20년간 곡진하게 영화와 동행해온 대한민국의 대표적인 영화평론가이다.",
+    "oneLineSummary": "극장 안과 극장 밖에서 두 번 시작되는 영화의 신비를 평론가의 사유와 문장으로 만져본다.",
+    "overallSummary": "1999년 '벨벳 골드마인'부터 2019년 '기생충'까지 20년간 써온 평문들을 엮었으며, 특히 봉준호 감독의 '기생충'을 중심으로 상승과 하강의 동선, 계급 대체 모티브, 하층 계급 간의 제로섬 게임과 가족 제도의 한계를 정교하게 분석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "작가의 말",
+        "summary": "극장 안에서의 경험과 극장 밖에서의 사유를 통해 영화가 두 번 시작된다는 평론의 본질을 밝힌다."
+      },
+      {
+        "sectionTitle": "기생충 분석",
+        "summary": "문광이 초인종을 누르는 변곡점을 기준으로 기택 가족과 문광 가족의 지하 투쟁, 동익의 계급적 오만, 기정의 죽음이 갖는 의미를 심층 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "봉준호 영화의 변곡점",
+        "value": "장르를 차용해 시작하고 장르를 배신하며 진짜 주제(계급, 시스템의 무계획성)를 드러내는 지점"
+      }
+    ],
+    "keyEntitiesText": "이동진, 봉준호, 기택, 동익, 문광, 근세, 기정",
+    "settingText": "1999년부터 2019년까지의 한국 영화계 및 현대 자본주의 사회의 계급 구조"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QNxMFUMDOnmTvgwyXdEd34v4h_xZ96Ea",
+    "filename": "이동진-영화는 두 번 시작된다(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T22:43:42.000Z",
+    "size": "1406375",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1QNxMFUMDOnmTvgwyXdEd34v4h_xZ96Ea/view?usp=drivesdk",
+    "sourceSha256": "27327662e817f6f4bb5189ce5219f32dd098c483fb41c5c393ad3720e046248e",
+    "textSha256": "6028fa9a6a4eb59e3089cc2e18b0a4ca5ebcc2a4def4b6924b1e85c81001a2c0",
+    "changeKey": "cf98f394da42b0f18dcd730c7bc7d192",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "61a332256b13ef352d5a",
+    "workId": "61a332256b13ef352d5a",
+    "driveFileId": "1QNxMFUMDOnmTvgwyXdEd34v4h_xZ96Ea",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:29:57.403708+00:00",
+    "updatedAt": "2026-09-23T04:29:57.403724+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:29:57.403806+00:00"
+    }
+  }
+}

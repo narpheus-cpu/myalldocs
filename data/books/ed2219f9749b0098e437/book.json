@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-한옥",
+    "author": "박명덕",
+    "genre": "건축",
+    "tags": [
+      "한옥",
+      "전통건축",
+      "살림지식총서",
+      "온돌",
+      "마루"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현재 동양공업전문대학 건축과 교수이며 홍익대학교에서 공학박사학위를 받았다. 조선시대 주거건축 등에 관한 다수의 논문을 집필했다.",
+    "oneLineSummary": "한옥의 역사적 변천과 구조적 특징을 통해 조상들의 지혜와 선비 정신을 조명한다.",
+    "overallSummary": "신석기시대의 움집부터 조선시대의 반가와 민가에 이르기까지 한옥의 역사적 발전 과정을 추적하고, 온돌과 마루의 결합, 신분 제도에 따른 가사 규제, 그리고 자연과의 조화를 중시하는 한옥의 구조적 특성과 철학을 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한옥에 대한 단상",
+        "summary": "고향집으로 귀향하는 여정을 통해 따뜻한 아랫목과 정겨운 한옥의 정취를 묘사한다."
+      },
+      {
+        "sectionTitle": "한옥의 역사",
+        "summary": "신석기시대 움집부터 삼국시대, 고려시대, 조선시대에 이르는 주거 형태의 변화와 신분별 가옥 규제를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 건축 요소",
+        "value": "온돌, 마루, 사랑채, 안채, 행랑채"
+      }
+    ],
+    "keyEntitiesText": "박명덕, 동양공업전문대학, 한양, 조선시대",
+    "settingText": "한반도 역사 전반, 특히 조선시대의 유교적 사회 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vgU-OOhjNhdFp-iSrf5dSn-0D7T7TtbC",
+    "filename": "살림지식총서-한옥(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:29:54.000Z",
+    "size": "133349",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1vgU-OOhjNhdFp-iSrf5dSn-0D7T7TtbC/view?usp=drivesdk",
+    "sourceSha256": "6138a231249ab3598fca0120bb0ba74cc6163e4a5c1e35c42ebc326a5687e766",
+    "textSha256": "760903f967c49d1281a76a77255a4ebf8c14decddc52ef015997fb04daff1569",
+    "changeKey": "1e4791594d5710b3fb1e3b806e6c5f97",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ed2219f9749b0098e437",
+    "workId": "ed2219f9749b0098e437",
+    "driveFileId": "1vgU-OOhjNhdFp-iSrf5dSn-0D7T7TtbC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:28:39.725728+00:00",
+    "updatedAt": "2026-09-23T04:28:39.725745+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:28:39.725916+00:00"
+    }
+  }
+}

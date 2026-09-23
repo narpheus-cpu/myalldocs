@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이 한장의 명반 2",
+    "author": "안동림",
+    "genre": "음악",
+    "tags": [
+      "클래식",
+      "명반",
+      "오페라",
+      "성악",
+      "현악"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "클래식 음악의 따뜻한 아날로그 감성과 역사적 명연주를 옹호하며, 독자들에게 깊이 있는 음반 가이드를 제공한다.",
+    "oneLineSummary": "캉틀루브의 오베르뉘의 노래부터 바하, 베토벤, 그리고 불멸의 오페라 명반들을 깊이 있게 소개한다.",
+    "overallSummary": "네타니아 다브라드가 부른 '오베르뉘의 노래', 스토코프스키의 바하 편곡집, 바하의 무반주 바이올린 소나타 등 기악 및 성악 명반을 다루고, 돈 조반니, 휘델리오 등 역사적인 오페라 명작들의 명반을 체계적으로 가이드한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이 한 장의 명반",
+        "summary": "캉틀루브, 바하, 베토벤, 슈베르트 등의 명곡과 스토코프스키, 시게티 등 거장들의 음반을 분석한다."
+      },
+      {
+        "sectionTitle": "오페라, 또 하나의 인생무대",
+        "summary": "모짜르트, 베토벤, 바그너, 베르디 등의 대표 오페라 작품과 그 역사적 명반들을 상세히 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 분석 음반",
+        "value": "캉틀루브 오베르뉘의 노래(다브라드), 스토코프스키 바하 편곡집, 바하 무반주 바이올린(시게티)"
+      }
+    ],
+    "keyEntitiesText": "안동림, 네타니아 다브라드, 레오폴드 스토코프스키, 요세프 시게티",
+    "settingText": "20세기 중후반의 클래식 음반 녹음 역사와 오페라 무대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Ko8VtpMX9R5jlyKTrm5t7XQWEqgCzxmH",
+    "filename": "안동림-이 한장의 명반 2 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.085Z",
+    "size": "1014068",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1Ko8VtpMX9R5jlyKTrm5t7XQWEqgCzxmH/view?usp=drivesdk",
+    "sourceSha256": "b045df82af1a086da587eb455482b3252a75e12ae63d885097f31704b37b056a",
+    "textSha256": "b54ad187d0a58e7eb4bd440b1e687bf866a324d4ce5ec363d8bb83af25a3dccb",
+    "changeKey": "e2f64596ae37982b00f748499048823c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a54013c15a6d30c41915",
+    "workId": "a54013c15a6d30c41915",
+    "driveFileId": "1Ko8VtpMX9R5jlyKTrm5t7XQWEqgCzxmH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:29:16.508772+00:00",
+    "updatedAt": "2026-09-23T04:29:16.508788+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:29:16.508871+00:00"
+    }
+  }
+}

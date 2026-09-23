@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계 영화 100",
+    "author": "안병섭 외",
+    "genre": "영화비평",
+    "tags": [
+      "영화100년",
+      "세계영화",
+      "영화평론",
+      "걸작영화",
+      "할리우드"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "안병섭, 김소영, 주진숙, 김홍준, 문혜주, 이효인 등 한국의 대표적인 영화평론가 5인이 공동 집필하였다.",
+    "oneLineSummary": "영화 탄생 100년을 기념하여 세계 영화사를 수놓은 불멸의 걸작 100편을 엄선하고 분석한다.",
+    "overallSummary": "데이비드 그리피스의 '인톨러런스'부터 로베르트 비네의 '칼리가리 박사의 밀실', 로버트 플라어티의 '북극의 나누크', 프리드리히 무르나우의 '마지막 웃음', 찰리 채플린의 '황금광 시대' 등 영화사의 기념비적인 작품들의 예술적 성취와 사회적 맥락을 평론한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인톨러런스",
+        "summary": "그리피스가 흑인 인권운동가들의 비판에 맞서 제작한 네 가지 에피소드의 평행 몽타주 스펙터클을 분석한다."
+      },
+      {
+        "sectionTitle": "칼리가리 박사의 밀실",
+        "summary": "독일 표현주의 영화의 모태로서 왜곡된 세트와 조명을 통해 광인의 심리와 사회적 불안을 묘사한 방식을 설명한다."
+      },
+      {
+        "sectionTitle": "북극의 나누크",
+        "summary": "극영화 기법을 도입하여 상업적 성공을 거둔 최초의 장편 다큐멘터리로서 플라어티의 업적과 한계를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "영화사적 의의",
+        "value": "그리피스의 평행 몽타주, 독일 표현주의의 공간 묘사, 플라어티의 다큐멘터리 기법"
+      }
+    ],
+    "keyEntitiesText": "안병섭, 데이비드 그리피스, 로베르트 비네, 로버트 플라어티, 프리드리히 무르나우, 찰리 채플린",
+    "settingText": "1910년대~1920년대 무성영화기부터 현대에 이르는 세계 영화사의 흐름"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oom0BrF-1IotUbCV7MMwGJBPze_B_RKw",
+    "filename": "안병섭외-세계영화100.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.144Z",
+    "size": "325039",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1oom0BrF-1IotUbCV7MMwGJBPze_B_RKw/view?usp=drivesdk",
+    "sourceSha256": "751657e204b1010d7f7b84fdf7c87e3a9802b5721a551d688d356672ce7a66f8",
+    "textSha256": "b82b1c6ddd9c6b40e0fd252bf47d4286657b8c176fdb7f33bcd6f5ef10cea6c9",
+    "changeKey": "61cc9686fc194982bbdfe87e65f4ffc9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "07fb59937ce5f4757476",
+    "workId": "07fb59937ce5f4757476",
+    "driveFileId": "1oom0BrF-1IotUbCV7MMwGJBPze_B_RKw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:29:29.435920+00:00",
+    "updatedAt": "2026-09-23T04:29:29.435935+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:29:29.436028+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이 한장의 명반 1",
+    "author": "안동림",
+    "genre": "음악",
+    "tags": [
+      "클래식",
+      "명반",
+      "음악감상",
+      "레코드",
+      "지휘자"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "음악 비평가가 아닌 순수한 애호가로서 수십 년간 레코드를 수집하고 감상하며 얻은 깊은 조예를 글로 나누고 있다.",
+    "oneLineSummary": "기계보다 음악 자체를 사랑하는 태도로 엄선한 클래식 명반들과 거장들의 세계를 소개한다.",
+    "overallSummary": "모짜르트 바이올린 소나타, 바하 마태 수난곡, 말러 대지의 노래 등 클래식 역사상 불멸의 명곡들과 하스킬, 그뤼미오, 브루노 발터 등 거장들의 연주가 담긴 명반들을 깊이 있는 에세이와 함께 안내한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이 한 장의 명반",
+        "summary": "모짜르트, 바하, 베토벤, 말러 등의 대표작과 역사적 명반들의 배경 및 연주자들을 소개한다."
+      },
+      {
+        "sectionTitle": "음악의 현장-거장들의 세계",
+        "summary": "후르트벵글러, 크나퍼츠부시, 카라얀 등 전설적인 지휘자들과 연주자들의 치열한 예술 세계를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "추천 명반 예시",
+        "value": "모짜르트 바이올린 소나타(하스킬/그뤼미오), 말러 대지의 노래(발터/훼리어)"
+      }
+    ],
+    "keyEntitiesText": "안동림, 클라라 하스킬, 아르투르 그뤼미오, 데이비드 먼로우, 브루노 발터",
+    "settingText": "레코드 녹음 기술의 발전과 현대 클래식 음악 감상 문화"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_pYMCdcHmmOk9X6T3f3feHCeYgTyCXVZ",
+    "filename": "안동림-이 한 장의 명반.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.006Z",
+    "size": "1843480",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1_pYMCdcHmmOk9X6T3f3feHCeYgTyCXVZ/view?usp=drivesdk",
+    "sourceSha256": "5d1e46ac3b0c09d82a60a3f782672a3bb46af404ae0ef92de12604cd52b61c36",
+    "textSha256": "43044d156a728041219149c511d29f8c4d48c8bf44656e5dcb368aa2c367ac1c",
+    "changeKey": "be91db559705702104ec211c37e95c10",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "92cd6ea56ef0bbe0cf77",
+    "workId": "92cd6ea56ef0bbe0cf77",
+    "driveFileId": "1_pYMCdcHmmOk9X6T3f3feHCeYgTyCXVZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:29:09.111762+00:00",
+    "updatedAt": "2026-09-23T04:29:09.111779+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.795,
+      "updatedAt": "2026-09-23T04:29:09.111864+00:00"
+    }
+  }
+}

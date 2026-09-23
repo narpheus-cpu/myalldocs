@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "혼자 읽는 세계 미술사 1",
+    "author": "조은령, 조은정",
+    "genre": "미술사",
+    "tags": [
+      "미술사",
+      "선사미술",
+      "그리스미술",
+      "로마미술",
+      "중세미술"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조은령은 동양화가이자 대학 강사이며, 조은정은 그리스·로마 미술을 전공한 미술학과 교수이다. 강응천이 기획을 맡았다.",
+    "oneLineSummary": "선사시대부터 중세 미술까지 동서양 미술사를 인간의 삶과 사회적 맥락 속에서 따뜻하게 풀어낸다.",
+    "overallSummary": "도식화된 미술사 서술을 넘어 미술품이 제작된 시대의 사회, 경제, 정치, 기술적 측면을 조명한다. 구석기시대의 주먹도끼와 빌렌도르프의 여인상부터 그리스·로마의 도시 생활, 동양의 청동제기와 고분 벽화, 그리고 중세 종교 미술까지의 역사적 의의를 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "prologue",
+        "summary": "미술사를 단순 암기 과목이 아닌, 과거 사람들의 삶의 흔적에 공감하고 세계를 바라보는 시야를 넓히는 경험으로 받아들여야 함을 강조한다."
+      },
+      {
+        "sectionTitle": "미술의 기원",
+        "summary": "구석기시대 주먹도끼의 기술적 진화와 빌렌도르프 여인상이 지닌 다산과 풍요의 기원적 의미를 사회사적으로 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "빌렌도르프 여인상의 특징",
+        "value": "11cm 크기로 발이 생략되어 손에 쥐기 적합하며, 외음부가 강조되어 다산과 풍요를 기원하는 부적의 성격을 띰"
+      }
+    ],
+    "keyEntitiesText": "조은령, 조은정, 강응천, 아르놀트 하우저",
+    "settingText": "문자가 발명되기 이전의 선사시대부터 종교가 지배하던 중세까지의 동서양 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OgZKz0O_gswU7Qc-Hm91Z3t1elh4WFt9",
+    "filename": "조은령 외-혼자 읽는 세계미술사 1(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T06:15:46.000Z",
+    "size": "341274",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1OgZKz0O_gswU7Qc-Hm91Z3t1elh4WFt9/view?usp=drivesdk",
+    "sourceSha256": "c45ec8f29abca9b7266ee84dec5821b4ca9b355237363f8638e930ea4fbf824f",
+    "textSha256": "417373b3dd9cac067e8dc3e6b2665be9905b38a0f3fd7a4fb6d4db3133923c11",
+    "changeKey": "a390a6b81679ef560c3a07babc771025",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4ceb9fd8973b4f7133a0",
+    "workId": "4ceb9fd8973b4f7133a0",
+    "driveFileId": "1OgZKz0O_gswU7Qc-Hm91Z3t1elh4WFt9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:30:19.352602+00:00",
+    "updatedAt": "2026-09-23T04:30:19.352618+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:30:19.352700+00:00"
+    }
+  }
+}

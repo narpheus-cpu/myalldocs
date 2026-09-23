@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "쇼팽의 음악과 사랑",
+    "author": "송숙영",
+    "genre": "전기",
+    "tags": [
+      "쇼팽",
+      "클래식음악",
+      "전기",
+      "폴란드",
+      "조르주 상드"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "쇼팽의 생애와 예술을 다각도로 조명하기 위해 다양한 역사적 자료와 평전을 참고하여 엮었다.",
+    "oneLineSummary": "피아노의 시인 프레데릭 쇼팽의 예술적 성취와 비극적인 사랑의 일대기를 그린다.",
+    "overallSummary": "폴란드에서 태어난 쇼팽의 유년 시절 천재적 데뷔부터 조국을 떠나 파리에서 활동한 시기, 조르주 상드와의 열정적인 사랑과 갈등, 그리고 병고 속에서 맞이한 최후까지의 삶과 음악적 배경을 상세히 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "출생의 배경 및 유년 시절",
+        "summary": "1810년 폴란드에서 태어나 여성적인 가정 환경에서 자라며 천재 소년 피아니스트로 데뷔하는 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "학창 시절과 향토음악",
+        "summary": "중고등학교 시절 연극적 재능을 보이고 스자파르니아에서 폴란드 향토음악을 체험하며 예술적 자양분을 얻은 시기를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "쇼팽에게 영향을 준 인물",
+        "value": "어머니 유스티나, 누나 루드비카, 첫사랑 콘스탄티아, 조르주 상드"
+      }
+    ],
+    "keyEntitiesText": "프레데릭 쇼팽, 니콜라스 쇼팽, 유스티나, 지브니, 조르주 상드, 바르샤바",
+    "settingText": "19세기 격동의 유럽과 러시아의 지배를 받던 폴란드의 역사적 상황"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kQDXo-x3wFcqes2Qr8hBOGkUl9f7uPOe",
+    "filename": "송숙영-쇼팽의 음악과 사랑.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.959Z",
+    "size": "261197",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1kQDXo-x3wFcqes2Qr8hBOGkUl9f7uPOe/view?usp=drivesdk",
+    "sourceSha256": "ba195e9c58a196d57415efb287047687cfe9d57baace30a1425ec158f12cf666",
+    "textSha256": "69c0c61d812c2ccd80dbff1a17b94b302d1c6bfbabbeb7ea02aedfb69a089d74",
+    "changeKey": "4db85b51e807160a1a3972185c3e0854",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f325cb9db23b53ebdb72",
+    "workId": "f325cb9db23b53ebdb72",
+    "driveFileId": "1kQDXo-x3wFcqes2Qr8hBOGkUl9f7uPOe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:28:51.810506+00:00",
+    "updatedAt": "2026-09-23T04:28:51.810522+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:28:51.810607+00:00"
+    }
+  }
+}
