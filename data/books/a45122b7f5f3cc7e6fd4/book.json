@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "즐거운 영어생활 1교시 일상생활 영어회화",
+    "author": "제이정",
+    "genre": "영어 학습 / 회화",
+    "tags": [
+      "일상영어",
+      "제이정",
+      "길벗이지톡",
+      "생활밀착"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "language_learning"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "10년 이상 경력의 영어 강사로, 학생들이 궁금해하는 현실 영어 데이터를 수집하여 교재를 집필했다.",
+    "oneLineSummary": "일상에서 매일 쓰는 현실적인 표현들을 재미있는 만화 형식과 대화문으로 배우는 생활밀착형 영어회화 교재.",
+    "overallSummary": "교과서적인 예문에서 벗어나 SNS, 인스타, 핸드폰 요금 등 일상생활에서 실제로 사용하는 생생한 표현들을 재미있는 대화와 롤플레이 형식으로 학습할 수 있도록 구성한 책이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 및 구성",
+        "summary": "10년 넘게 모은 현실 영어 빅데이터를 바탕으로 완독률 100%를 목표로 재미있게 구성한 책의 특징을 소개한다."
+      },
+      {
+        "sectionTitle": "SNS 및 일상 표현 학습 (1~5장)",
+        "summary": "인스타 감성, 자랑질, 오버하는 행동, 채팅 줄임말(LMAO, BRB 등), 핸드폰 요금 폭탄 등 실생활 밀착형 대화와 표현을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "교재 특징",
+        "value": "실제 SNS 줄임말 및 트렌디한 일상 표현 수록"
+      }
+    ],
+    "keyEntitiesText": "제이정, 길벗이지톡, 철수, 영희",
+    "settingText": "현대 일상생활 및 SNS 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KoJbzDvb75rgFNC_x4Mfy6w3i3hjLSc1",
+    "filename": "제이정-즐거운 영어생활 1교시 일상생활(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T01:37:08.000Z",
+    "size": "138993",
+    "folderPath": [
+      "books",
+      "영어공부"
+    ],
+    "relativePath": "books/영어공부",
+    "webViewLink": "https://drive.google.com/file/d/1KoJbzDvb75rgFNC_x4Mfy6w3i3hjLSc1/view?usp=drivesdk",
+    "sourceSha256": "ada7a93ec96583299f7143625ba3b7874a4612c121895b73b25ce29bfedff703",
+    "textSha256": "6f230cb390910bd2f13f30b69ee6b5c725328ef3bb59d9a9f577058255c2e23c",
+    "changeKey": "e5b08852c3d1c51382bb9ed2f38fca58",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a45122b7f5f3cc7e6fd4",
+    "workId": "a45122b7f5f3cc7e6fd4",
+    "driveFileId": "1KoJbzDvb75rgFNC_x4Mfy6w3i3hjLSc1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:29:27.943843+00:00",
+    "updatedAt": "2026-09-23T06:29:27.943857+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7267,
+      "updatedAt": "2026-09-23T06:29:27.943963+00:00"
+    }
+  }
+}
