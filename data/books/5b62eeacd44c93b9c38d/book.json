@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계를 움직인 맞수",
+    "author": "김남석",
+    "genre": "역사/교양",
+    "tags": [
+      "역사",
+      "라이벌",
+      "인물"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "역사적 라이벌 관계를 분석하는 저자.",
+    "oneLineSummary": "역사를 바꾼 위대한 라이벌들의 대결과 그 의미를 다룬 교양서.",
+    "overallSummary": "정치, 전쟁, 스포츠 등 다양한 분야에서 역사를 움직인 맞수들의 대결을 통해 경쟁의 의미를 조명함.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "뜨는 별 지는 별",
+        "summary": "전쟁과 정치적 대결 속의 라이벌들."
+      },
+      {
+        "sectionTitle": "인류의 미래를 위하여",
+        "summary": "과학과 기술 분야의 경쟁."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "경쟁을 통한 인류 발전"
+      }
+    ],
+    "keyEntitiesText": "만델라, 케네디, 나폴레옹, 김구",
+    "settingText": "전 세계 역사적 현장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tcnr4BogHGYz-yUl1LEexGQE4ph1DDCE",
+    "filename": "김남석-세계를 움직인 맞수 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:33.241Z",
+    "size": "354055",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1tcnr4BogHGYz-yUl1LEexGQE4ph1DDCE/view?usp=drivesdk",
+    "sourceSha256": "5b81923dd47281cee52a26cf43e448744c7e2eaa4f525d4c473af984389a7438",
+    "textSha256": "6883ee75b7c294bd5f8a0185e512bfc4a5ece0266ee6ff92b2588274ec324cea",
+    "changeKey": "c03f5d600bae5bcf0d9b8feafc0a4ade",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5b62eeacd44c93b9c38d",
+    "workId": "5b62eeacd44c93b9c38d",
+    "driveFileId": "1tcnr4BogHGYz-yUl1LEexGQE4ph1DDCE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:14:53.284309+00:00",
+    "updatedAt": "2026-09-23T00:14:53.284327+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:14:53.284421+00:00"
+    }
+  }
+}

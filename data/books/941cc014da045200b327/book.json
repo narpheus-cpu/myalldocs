@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "교실에서 세상 읽기",
+    "author": "김동훈",
+    "genre": "교육/문학",
+    "tags": [
+      "토론",
+      "문학",
+      "교육"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "국어 교사이자 교육자.",
+    "oneLineSummary": "문학 작품 토론을 통해 세상을 읽고 배우는 교육 현장의 기록.",
+    "overallSummary": "교실에서 소설 작품을 읽고 학생들과 토론하며 세상을 바라보는 안목을 기르는 교육 과정을 담음.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "토론의 과정",
+        "summary": "소설 작품을 통한 학생들과의 토론과 대화."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "교육 철학",
+        "value": "문학 토론을 통한 비판적 사고 함양"
+      }
+    ],
+    "keyEntitiesText": "김동훈",
+    "settingText": "대한민국 고등학교 교실."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1mfBfqzfCvcsm1jTFggDtEve83gtnyz_c",
+    "filename": "김동훈-교실에서 세상 읽기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:33.385Z",
+    "size": "586382",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1mfBfqzfCvcsm1jTFggDtEve83gtnyz_c/view?usp=drivesdk",
+    "sourceSha256": "6b8d6ffd19ef1e461f3929af3a0c9d4d84c16ad69c74e95e48f87b5091ea55f4",
+    "textSha256": "84c40ac94734711534337d9246b46e0c0a82f90fd342115aa50413d8467285e3",
+    "changeKey": "4b935f20a33f1bb0102e69036cfc0493",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "941cc014da045200b327",
+    "workId": "941cc014da045200b327",
+    "driveFileId": "1mfBfqzfCvcsm1jTFggDtEve83gtnyz_c",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:15:37.410764+00:00",
+    "updatedAt": "2026-09-23T00:15:37.410781+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:15:37.410909+00:00"
+    }
+  }
+}
