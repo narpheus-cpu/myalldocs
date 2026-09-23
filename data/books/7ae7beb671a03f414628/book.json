@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동정",
+    "author": "도미시마 다케오",
+    "genre": "일본 통속소설",
+    "tags": [
+      "성장",
+      "사춘기",
+      "성적 호기심",
+      "첫사랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "청춘소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대중소설 작가.",
+    "oneLineSummary": "중학교 2학년 소년 히로시가 겪는 육체적 성숙과 친척 누나 나미애 및 동급생 아유꼬 사이에서 느끼는 풋풋한 이성적 감정을 다룬 소설.",
+    "overallSummary": "어머니가 여관을 운영하는 집안의 중학교 2학년 히로시는 남다른 발육과 함께 급격한 성적 충동을 경험한다. 집안일을 돕고 자신을 돌봐주는 6촌 누나 나미애와의 목욕 과정에서 강한 신체적 각성을 겪는 한편, 가정 형편이 어려운 동네 친구 아유꼬의 집을 방문해 위로를 건네다 입맞춤을 나누며 소꿉친구를 넘어선 첫사랑의 감정에 눈뜨게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "히로시의 성장과 나미애 누나",
+        "summary": "조숙하게 성숙해진 중학 2학년 히로시의 배경과 여관을 돌보며 히로시를 챙겨주는 친척 나미애 누나와의 목욕 중 일어난 성적 흥분을 다룬다."
+      },
+      {
+        "sectionTitle": "아유꼬와의 만남과 첫 입맞춤",
+        "summary": "어머니의 요양 준비 중 심심해진 히로시가 친구 아유꼬의 집을 찾아가 형편 때문에 대학 진학을 포기해야 한다는 그녀를 위로하며 첫 키스를 나눈다."
+      },
+      {
+        "sectionTitle": "학교에서의 어색함과 혼자만의 번민",
+        "summary": "다음 날 학교에서 아유꼬와 마주치며 이성으로 의식하게 되고, 집으로 돌아와 나미애 누나의 목욕 소리를 들으며 성적 충동을 억제하지 못한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리 묘사",
+        "value": "사춘기 소년이 마주하는 미지의 육체적 변화, 성적 수치심과 호기심이 첫사랑의 정서와 뒤엉키는 순간을 사실적으로 그림"
+      }
+    ],
+    "keyEntitiesText": "히로시, 나미애, 아유꼬",
+    "settingText": "일본의 어느 여관 및 지방 주택가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vNYDfTLtVL9xyLsHAlLyXBgjzbLJ3aM5",
+    "filename": "도미시마 다케오-동정.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.719Z",
+    "size": "500210",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1vNYDfTLtVL9xyLsHAlLyXBgjzbLJ3aM5/view?usp=drivesdk",
+    "sourceSha256": "92523061e31c734eb9eb9771ac1ad589a457c99bfb4211ccf628c5564791984f",
+    "textSha256": "056761cf4923844ef0bd12b7e188d984e3299c144abfd2671b9521eebd42f7f2",
+    "changeKey": "747e49f54b96046afd6ef72491c397d8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7ae7beb671a03f414628",
+    "workId": "7ae7beb671a03f414628",
+    "driveFileId": "1vNYDfTLtVL9xyLsHAlLyXBgjzbLJ3aM5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:44:38.378317+00:00",
+    "updatedAt": "2026-09-23T18:44:38.378333+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:44:38.378443+00:00"
+    }
+  }
+}

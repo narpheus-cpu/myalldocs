@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "코인 로커 베이비스",
+    "author": "무라카미 류",
+    "genre": "일본 현대소설",
+    "tags": [
+      "코인로커",
+      "버려진아이",
+      "트라우마",
+      "자폐",
+      "다투라"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "현대소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대 도시의 파괴적 에너지를 문학으로 구현하는 작가.",
+    "oneLineSummary": "코인 로커에 버려졌다가 살아남은 두 소년 기쿠와 하시간의 깊은 유대와, 내재된 파괴적 생명 에너지를 다스리기 위한 치료 과정을 그린 소설.",
+    "overallSummary": "1972년 여름, 기차역 코인 로커에 버려졌다가 기적적으로 살아남은 두 갓난아기 기쿠(세키구치 기쿠유키)와 하시(미조우치 하시오)는 성모고아원에서 함께 자란다. 하시는 잡동사니로 정교한 모형 왕국을 쌓는 자폐적 성향을 보이고, 기쿠는 한곳에 머무르지 못하고 질주하는 정지공포증에 시달린다. 정신과 의사는 두 소년의 이상 행동이 코인 로커 속 사투에서 축적된 막대한 생명 에너지 탓이라 진단하고, 모태 속 심장 소리를 들려주는 특수 치료를 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "버려진 아기 기쿠와 고아원",
+        "summary": "폭염의 여름 코인 로커 상자 속에서 울음을 터뜨려 구조된 기쿠가 사쿠라노 성모고아원에 들어가 자라는 과정을 서술한다."
+      },
+      {
+        "sectionTitle": "하시와의 만남과 코인 로커의 진실",
+        "summary": "약 냄새가 나고 병약한 하시를 통해 자신들이 코인 로커의 생존자임을 알게 되고, 둘만의 깊은 공생 관계가 형성된다."
+      },
+      {
+        "sectionTitle": "두 소년의 신경증과 심장 소리 치료",
+        "summary": "모형 배열에 집착하는 하시와 가출 및 질주를 반복하는 기쿠를 진찰한 의사가 모태 심장음 치료를 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징 체계",
+        "value": "사회의 차가운 보관함(코인 로커)에서 태어난 아이들이 체내에 품은 폭력적이고 맹렬한 생명 에너지가 도시 문명과 맺는 긴장 관계"
+      }
+    ],
+    "keyEntitiesText": "세키구치 기쿠유키(기쿠), 미조우치 하시오(하시), 젊은 수녀, 정신과 의사",
+    "settingText": "1972년 이후 일본 요코하마시 사쿠라노 성모고아원 및 정신과 병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PA8MiuMbduG9wQbxnT4L4S3YAGPVIYrD",
+    "filename": "무라카미 류-코인 로커 베이비스(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:03.814Z",
+    "size": "782317",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1PA8MiuMbduG9wQbxnT4L4S3YAGPVIYrD/view?usp=drivesdk",
+    "sourceSha256": "e78030c2c727272bbbb5f8ca2d49a457e021a7b61df25cebc38ce78973ec9f03",
+    "textSha256": "eaafffec46e5ef7ad2b2837abf279f98036a71bea6768cde06a7652d579165d1",
+    "changeKey": "6149dcb039ab93f97403fa31fcc2d0d0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ad80401e1816bf479754",
+    "workId": "ad80401e1816bf479754",
+    "driveFileId": "1PA8MiuMbduG9wQbxnT4L4S3YAGPVIYrD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:46:11.516661+00:00",
+    "updatedAt": "2026-09-23T18:46:11.516676+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:46:11.516806+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 앞으로 몇 번의 보름달을 볼 수 있을까",
+    "author": "류이치 사카모토",
+    "genre": "자전적 에세이",
+    "tags": [
+      "암투병",
+      "음악",
+      "생애",
+      "시간",
+      "회고록"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "회고록"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세계적인 음악가이자 작곡가로 YMO 멤버 및 아카데미 음악상 수상자.",
+    "oneLineSummary": "암 투병 중 생의 유한함을 직면한 세계적인 음악가 사카모토 류이치가 돌아본 삶, 예술, 시간, 그리고 주변 사람들과의 연대 기록.",
+    "overallSummary": "중인두암 완치 후 직장암과 간·림프·폐 전이라는 시한부 선고를 받은 사카모토 류이치가 고희를 맞아 집필한 마지막 자전적 기록이다. 20시간에 걸친 대수술과 섬망 증세, 코로나 시국의 격리 속에서 병마와 싸우며 경험한 고통을 담담하게 전한다. 폴 볼스와 베르톨루치 감독의 인연, 오랜 친구 카스텐 니콜라이와의 우정, 음악의 본질이자 삶의 화두인 '시간'에 대한 철학적 성찰을 담았다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "베르톨루치와 볼스",
+        "summary": "영화 '마지막 사랑' 속 폴 볼스의 보름달 인용구를 되새기며 암 진단 후 앨범 'async'의 곡 'fullmoon'에 목소리를 담았던 기억을 회고한다."
+      },
+      {
+        "sectionTitle": "수술과 섬망 증상",
+        "summary": "암의 다발성 전이 판정과 20시간에 달하는 대수술을 겪은 뒤, 한국 병원에 있다는 착각 등 며칠간 이어진 기묘한 섬망 경험을 적나라하게 기술한다."
+      },
+      {
+        "sectionTitle": "사랑, 친구, 시간에 대한 의구심",
+        "summary": "파트너와의 애틋한 '로미줄리' 인사로 회복의 힘을 얻고, 예술적 동지 카스텐 니콜라이와의 우정 및 뉴턴의 절대 시간관을 넘어서는 시간 철학을 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학적 성찰",
+        "value": "죽음을 앞둔 예술가가 바라보는 생명의 유한성과, 직선적·절대적 시간 개념을 해체하고 주관적 시간의 의미를 되묻는 태도"
+      }
+    ],
+    "keyEntitiesText": "류이치 사카모토, 베르나르도 베르톨루치, 폴 볼스, 카스텐 니콜라이(알바 노토), 스즈키 마사후미",
+    "settingText": "2020년~2021년 도쿄 및 뉴욕"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xzV-elMLW7woYWv3tyfWiW9ssFAYv8IX",
+    "filename": "류이치 사카모토-나는 앞으로 몇 번의 보름달을 볼 수 있을까(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.993Z",
+    "size": "558592",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1xzV-elMLW7woYWv3tyfWiW9ssFAYv8IX/view?usp=drivesdk",
+    "sourceSha256": "d8427a9eb15c7b549930186dce3d505234c2021b0d60728c381b56a4bb4f067c",
+    "textSha256": "73e79670e9119a2ea19aad7780d06d2016199e0b0503edac6f0801933be48000",
+    "changeKey": "53a758ed07892edfb1faf3503b370437",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3fe2c4e460fd7c3af4b2",
+    "workId": "3fe2c4e460fd7c3af4b2",
+    "driveFileId": "1xzV-elMLW7woYWv3tyfWiW9ssFAYv8IX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:44:54.436410+00:00",
+    "updatedAt": "2026-09-23T18:44:54.436428+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:44:54.436595+00:00"
+    }
+  }
+}

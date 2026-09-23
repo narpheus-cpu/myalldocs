@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "파국",
+    "author": "도노 하루카",
+    "genre": "일본 순수문학",
+    "tags": [
+      "아쿠타가와상",
+      "대학생",
+      "럭비",
+      "자기통제",
+      "붕괴"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "현대소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "제163회 아쿠타가와상을 수상한 일본의 소설가.",
+    "oneLineSummary": "철저한 자기관리와 규칙으로 삶을 통제하려는 대학생 요스케의 내면과 관계의 균열을 건조한 문체로 포착한 소설.",
+    "overallSummary": "대학 럭비부 코치이자 공무원 시험을 준비하는 대학생 요스케는 신체 단련과 일상의 루틴을 기계적으로 철저하게 통제하며 살아간다. 전 고교 럭비부 고문 사사키와의 만남, 오랜 친구 히자의 개그 서클 은퇴 공연 방문, 캠퍼스 안팎의 인물들과의 건조한 상호작용 속에서 완벽해 보이던 그의 내면과 도덕적 규칙 이면에 도사린 왜곡된 욕망과 위태로운 균열이 드러난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "럭비 연습과 사사키 부부와의 식사",
+        "summary": "은퇴 후 럭비부 코치로 지도하며 후배들의 미흡함을 지적하고, 사사키 선생의 집에서 고기를 얻어먹으며 고교 시절 은퇴 경기를 회고한다."
+      },
+      {
+        "sectionTitle": "철저한 일과와 기묘한 기도",
+        "summary": "경찰관 체포 뉴스를 보며 충동적으로 기도를 올린 후 철저한 홈 트레이닝과 러닝을 소화하며 시험공부 일정을 챙긴다."
+      },
+      {
+        "sectionTitle": "히자의 전화와 신입생 환영 공연",
+        "summary": "개그맨 공쿠르에서 탈락하고 은퇴 공연을 앞둔 친구 히자의 장황한 전화를 받은 후, 히요시 캠퍼스 강당으로 가 자리를 잡는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체적 특징",
+        "value": "감정이 배제된 기계적이고 극도로 객관적인 시선으로 주인공의 편집증적 통제 욕구와 일상의 파국 징후를 담담하게 기술함"
+      }
+    ],
+    "keyEntitiesText": "요스케, 사사키 고문, 히자, 미야시타",
+    "settingText": "일본 도쿄(미타 및 히요시 캠퍼스 부근)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Wmw-ltmgSkqUSi0gllbMPFCss44nQkDP",
+    "filename": "도노 하루카-파국(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.708Z",
+    "size": "139165",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Wmw-ltmgSkqUSi0gllbMPFCss44nQkDP/view?usp=drivesdk",
+    "sourceSha256": "8c189835477108497fe8cb0d92a9f94108adcc453b1e922b23515ce3c1570cb8",
+    "textSha256": "9fa331c1daf76d976eebd2872815552651508929ca783bf35858027910fa3aa9",
+    "changeKey": "9eeb143ab8f6aa8ef05bc1add053188a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0e91ebfe9da82d10c1d1",
+    "workId": "0e91ebfe9da82d10c1d1",
+    "driveFileId": "1Wmw-ltmgSkqUSi0gllbMPFCss44nQkDP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:44:31.915059+00:00",
+    "updatedAt": "2026-09-23T18:44:31.915075+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:44:31.915189+00:00"
+    }
+  }
+}

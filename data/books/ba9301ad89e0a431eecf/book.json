@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "달콤한 악마가 내 안으로 들어왔다",
+    "author": "무라카미 류",
+    "genre": "미식/요리소설",
+    "tags": [
+      "누벨퀴진",
+      "자라",
+      "미식",
+      "감각",
+      "단편집"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "연작단편"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소설가이자 영화감독, 미식가로 알려진 다재다능한 작가.",
+    "oneLineSummary": "버블 경제기 세계 곳곳을 누비며 맛본 최고급 요리와 원초적 미각 경험을 인간의 심리적 강박 및 기이한 인연과 엮어낸 단편집.",
+    "overallSummary": "1980년대 후반 버블 경제의 절정기에 작가가 직접 경험한 호화로운 미식과 낭비를 배경으로 쓴 소설집이다. 소리에 대한 공포증으로 워크맨을 달고 살던 작곡가가 코트다쥐르 호텔 다이닝의 정적 속에서 누벨 퀴진의 소리에 매혹되는 '코트다쥐르의 밤은 요염하다', 뉴욕의 비밀 매춘굴에서 만난 치과의사가 썩은 어금니로 먹은 자라 요리를 통해 미래 예지 능력을 얻었다고 주장하는 '뉴욕에서 만난 초능력의 치과의사' 등의 에피소드가 이어진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한국어판 저자 서문",
+        "summary": "버블기 유럽과 세계를 누비며 스위트룸과 3스타 레스토랑에서 즐겼던 최고의 낭비와 미식 경험을 회고한다."
+      },
+      {
+        "sectionTitle": "코트다쥐르의 밤은 요염하다 (누벨 퀴진)",
+        "summary": "현실 소리를 두려워하는 작곡가와 함께 코트다쥐르의 최고급 호텔에 묵으며 호화 요리를 맛보고 다이닝룸의 비밀스러운 소리를 포착한다."
+      },
+      {
+        "sectionTitle": "뉴욕에서 만난 초능력의 치과의사 (자라 요리)",
+        "summary": "뉴욕 비밀 마사지 업소에서 만난 치과의사로부터 교토에서 먹은 자라의 원초적 고기 맛이 뇌를 자극해 미래를 보게 했다는 기괴한 경험담을 듣는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "미학적 테마",
+        "value": "원초적 육식 기억과 세련된 미식이 인간의 신경과 무의식, 신경증적 강박을 자극하는 과정을 감각적으로 직조함"
+      }
+    ],
+    "keyEntitiesText": "나, 신경증 작곡가, 초능력 치과의사",
+    "settingText": "프랑스 코트다쥐르 곶의 호텔 및 미국 뉴욕 그리니치 빌리지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18tA2RPQXzdihpcbRrpgBbkUDNORcOV2t",
+    "filename": "무라카미 류-달콤한 악마가 내 안으로 들어왔다(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:03.269Z",
+    "size": "242565",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/18tA2RPQXzdihpcbRrpgBbkUDNORcOV2t/view?usp=drivesdk",
+    "sourceSha256": "226c797dca7d7ec533f9e59025b0fccbcbb5f9599818ad95ad74a836516be6e5",
+    "textSha256": "cea74e09a5fdbb99dd0710bf807df274ec6b3c0bf580330b1a502da9b2fcf410",
+    "changeKey": "549335ef4eb1b4bbbcbac598d62cdfef",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ba9301ad89e0a431eecf",
+    "workId": "ba9301ad89e0a431eecf",
+    "driveFileId": "18tA2RPQXzdihpcbRrpgBbkUDNORcOV2t",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:45:57.205425+00:00",
+    "updatedAt": "2026-09-23T18:45:57.205440+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:45:57.205563+00:00"
+    }
+  }
+}

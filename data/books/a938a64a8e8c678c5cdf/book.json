@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마쓰모토 세이초 단편집 3 (종족동맹)",
+    "author": "마쓰모토 세이초",
+    "genre": "사회파 미스터리",
+    "tags": [
+      "법정",
+      "국선변호",
+      "강간살인",
+      "알리바이",
+      "단편"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "법정 미스터리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사회파 미스터리의 대가.",
+    "oneLineSummary": "계곡에서 발생한 바 호스테스 살인 사건의 피고인으로 몰린 전과자 고용인의 결백을 입증하려는 변호사의 추적을 다룬 단편.",
+    "overallSummary": "동료 변호사로부터 국선 변호 사건을 인계받은 화자는 유능한 조수 오카하시 유키코와 함께 T강 계곡에서 일어난 여성 살인 사건의 기록을 검토한다. 피해자인 바 호스테스 스기야마 찌즈코는 익사체로 발견되었고, 정액 혈액형과 20분의 시간적 공백, 피해자의 펜던트 소지 등을 근거로 전과자이자 인근 여관 잡역부인 아니 렌뻬이가 범인으로 체포되었다. 화자와 유키코는 정황 증거 뒤에 숨겨진 무죄의 단서를 찾기 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사건의 인수와 유키코의 조력",
+        "summary": "법원에서 동료 구스노다에게 급히 국선 사건을 넘겨받고, 조수 유키코와 함께 서류를 검토하며 피고인의 무죄 가능성에 흥미를 느낀다."
+      },
+      {
+        "sectionTitle": "T강 계곡의 변사체 발견",
+        "summary": "도쿄 외곽 T강 계곡에서 발견된 신원 미상의 젊은 여성 익사체 수사 과정과 목격자 증언을 통해 시간대를 추적한다."
+      },
+      {
+        "sectionTitle": "아니 렌뻬이의 체포와 의혹",
+        "summary": "피해자가 바 호스테스로 밝혀지고, 20분의 이동 공백과 피해자의 유품인 펜던트를 소지했다는 이유로 체포된 여관 고용인 아니의 혐의를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "추리 구조",
+        "value": "완벽해 보이는 정황 증거(혈액형, 이동 시간 계산, 유품 소지)에 가려진 수사기관의 확증 편향과 진실 규명 과정"
+      }
+    ],
+    "keyEntitiesText": "나(변호사), 오카하시 유키코, 구스노다 변호사, 아니 렌뻬이, 스기야마 찌즈코",
+    "settingText": "도쿄 지방법원 및 도쿄 서부 T강 유역 Y마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16jnerjvSrPxH0kphzC4fWMfQ0lI_NrMf",
+    "filename": "마쓰모토 세이초(松本淸張) 단편집 3.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:03.036Z",
+    "size": "538880",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/16jnerjvSrPxH0kphzC4fWMfQ0lI_NrMf/view?usp=drivesdk",
+    "sourceSha256": "270fc0870f98537c506ac511e6e7c7f30f3393868b4d48121c69a02bf8a78e13",
+    "textSha256": "74c296d0028159fcb313fd582232c672cb4eeb5461c8df51a3ef277556c289f3",
+    "changeKey": "b4671ae36f49eaf2aaa8c40c4aaadfd4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a938a64a8e8c678c5cdf",
+    "workId": "a938a64a8e8c678c5cdf",
+    "driveFileId": "16jnerjvSrPxH0kphzC4fWMfQ0lI_NrMf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:45:10.988761+00:00",
+    "updatedAt": "2026-09-23T18:45:10.988779+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8738,
+      "updatedAt": "2026-09-23T18:45:10.988904+00:00"
+    }
+  }
+}
