@@ -568,6 +568,61 @@ def test_reconciliation_queue_retries_a_transient_item_error(tmp_path):
     assert bundle.state["entries"][0]["status"] == "COMPLETE"
 
 
+def test_reconciliation_skips_existing_content_without_scanning_drive(tmp_path):
+    content = {
+        "oneLineSummary": "같은 한 줄 요약",
+        "overallSummary": "이미 공개 저장소에 반영된 전체 요약",
+        "adaptiveAnalysis": [{"key": "plot", "title": "플롯", "content": "동일한 분석"}],
+    }
+    existing = normalize_canonical({
+        "identity": {"title": "사용자가 고친 제목", "author": "사용자가 고친 작가"},
+        "content": content,
+        "source": {"driveFileId": "published-drive-file", "filename": "원본.txt"},
+        "system": {"driveFileId": "published-drive-file", "driveMatchStatus": "MATCHED", "libraryEntryId": "published-book-id"},
+    })
+    book_path = tmp_path / "data" / "books" / "published-book-id" / "book.json"
+    book_path.parent.mkdir(parents=True)
+    book_path.write_text(json.dumps(existing, ensure_ascii=False), encoding="utf-8")
+
+    old_upload = {
+        "identity": {"title": "수정 전 제목", "author": "수정 전 작가"},
+        "content": content,
+    }
+    bundle = QueueBundle(
+        "manifest-existing",
+        {
+            "kind": "canonical-json", "sourceRootFolderId": "root-folder", "originalFilename": "old.json",
+            "automaticImport": {"mode": "reconciliation", "reconciliationVersion": 1},
+        },
+        [old_upload],
+        {},
+    )
+
+    class NoScanDrive:
+        def __init__(self):
+            self.quota = SimpleNamespace(usage=SimpleNamespace(quota_units=0, downloaded_bytes=0))
+
+        def __getattr__(self, name):
+            raise AssertionError(f"Drive must not be called for a proven duplicate: {name}")
+
+    class PrivateDrive:
+        def load_bundle(self, _manifest_id):
+            return bundle
+
+        def save_state(self, target, state):
+            target.state = state
+
+    settings = SimpleNamespace(root=tmp_path, raw={"queue": {"maxBooksPerRun": 20}}, quota={})
+    progress = SimpleNamespace(emit=lambda *_args, **_kwargs: None)
+    status = QueueWorker(settings, NoScanDrive(), PrivateDrive(), NoGeminiClient({}), progress).run("manifest-existing")
+
+    assert status["status"] == "COMPLETE"
+    assert status["skipped"] == 1
+    assert status["driveQuotaUnits"] == 0
+    assert bundle.state["entries"][0]["matchBasis"] == "existing_content"
+    assert bundle.state["entries"][0]["driveFileId"] == "published-drive-file"
+
+
 def test_only_reconciliation_queues_get_automatic_item_retries():
     settings = {"reconciliationMaxRetries": 2}
     assert _automatic_reconciliation_retry_limit({}, settings) == 0

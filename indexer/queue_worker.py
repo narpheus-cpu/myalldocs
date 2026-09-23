@@ -235,6 +235,70 @@ def _catalog_by_drive(root: Path) -> dict[str, dict[str, Any]]:
     return {str(item.get("driveFileId")): item for item in values if item.get("driveFileId")}
 
 
+def _canonical_content_fingerprint(raw: dict[str, Any]) -> str:
+    """Return a stable fingerprint for user-authored analysis content.
+
+    Reconciliation only uses this to prove that an old completed upload is
+    already present in the public repository.  Source metadata and editable
+    title/author fields are intentionally excluded so later user corrections
+    do not make an already imported payload look new.
+    """
+
+    try:
+        content = normalize_canonical(raw, require_drive_match=False).get("content", {})
+    except (TypeError, ValueError):
+        return ""
+    encoded = json.dumps(content, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(encoded.encode("utf-8")).hexdigest()
+
+
+def _existing_content_fingerprints(root: Path) -> dict[str, dict[str, str]]:
+    fingerprints: dict[str, dict[str, str]] = {}
+    for path in (root / "data" / "books").glob("*/book.json"):
+        try:
+            book = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        fingerprint = _canonical_content_fingerprint(book)
+        if not fingerprint:
+            continue
+        source = book.get("source") if isinstance(book.get("source"), dict) else {}
+        system = book.get("system") if isinstance(book.get("system"), dict) else {}
+        fingerprints.setdefault(fingerprint, {
+            "driveFileId": str(source.get("driveFileId") or system.get("driveFileId") or ""),
+            "bookId": str(system.get("libraryEntryId") or path.parent.name),
+        })
+    return fingerprints
+
+
+def prefilter_reconciliation_duplicates(entries: list[dict[str, Any]], root: Path) -> dict[int, dict[str, Any]]:
+    """Find old completed uploads that are already durably published locally."""
+
+    existing = _existing_content_fingerprints(root)
+    duplicates: dict[int, dict[str, Any]] = {}
+    for index, entry in enumerate(entries):
+        found = existing.get(_canonical_content_fingerprint(entry))
+        if not found:
+            continue
+        identity = entry.get("identity") if isinstance(entry.get("identity"), dict) else {}
+        filename = str((entry.get("source") or {}).get("filename") or "").strip() if isinstance(entry.get("source"), dict) else ""
+        duplicates[index] = {
+            "queueIndex": index,
+            "filename": filename or " · ".join(filter(None, [str(identity.get("title") or "").strip(), str(identity.get("author") or "").strip()])),
+            "relativePath": "",
+            "status": "SKIPPED",
+            "driveFileId": found["driveFileId"],
+            "bookId": found["bookId"],
+            "candidateCount": 1,
+            "folderPath": [],
+            "matchBasis": "existing_content",
+            "matchScore": 1.0,
+            "sourceReviewRecommended": False,
+            "reason": "동일한 완성 인덱싱 내용이 GitHub 도서 목록에 이미 등록되어 있습니다.",
+        }
+    return duplicates
+
+
 def reconcile_completed_entries(entries: list[dict[str, Any]], catalog: dict[str, dict[str, Any]], root: Path) -> int:
     """Requeue items whose private checkpoint says COMPLETE but whose public result is absent.
 
@@ -318,24 +382,51 @@ class QueueWorker:
         root_id = str(bundle.manifest.get("sourceRootFolderId") or os.getenv("DRIVE_ROOT_FOLDER_ID") or "")
         if not root_id:
             raise ValueError("Drive 원본 루트 설정이 없습니다.")
-        self.source_drive.assert_descendant(root_id, os.getenv("DRIVE_ROOT_FOLDER_ID") or root_id)
-        root_meta = self.source_drive.folder_metadata(root_id)
         state = bundle.state if isinstance(bundle.state, dict) else {}
+        catalog = _catalog_by_drive(self.settings.root)
+        drive_books: list[DriveBook] = []
+        root_name = ""
         if not isinstance(state.get("entries"), list) or len(state["entries"]) != len(bundle.entries):
-            self.status = {"status": "RUNNING", "phase": "MATCHING", "message": "Drive 원본 목록을 한 번만 확인하고 있습니다.", "totalFiles": len(bundle.entries), "startedAt": _now(), **queue_context}
-            self._emit("MATCHING", self.status["message"], True)
-            drive_books = list(self.source_drive.iter_books(root_id, True))
-            state = {"schemaVersion": 1, "manifestId": manifest_id, "kind": bundle.manifest["kind"], "entries": match_entries(bundle.entries, drive_books, str(root_meta.get("name") or "")), "createdAt": _now(), "updatedAt": _now()}
+            known_duplicates = prefilter_reconciliation_duplicates(bundle.entries, self.settings.root) if reconciliation_mode else {}
+            if len(known_duplicates) == len(bundle.entries):
+                matched_entries = [known_duplicates[index] for index in range(len(bundle.entries))]
+            else:
+                self.status = {"status": "RUNNING", "phase": "MATCHING", "message": "누락 후보의 Drive 원본 목록을 한 번만 확인하고 있습니다.", "totalFiles": len(bundle.entries), "startedAt": _now(), **queue_context}
+                self._emit("MATCHING", self.status["message"], True)
+                self.source_drive.assert_descendant(root_id, os.getenv("DRIVE_ROOT_FOLDER_ID") or root_id)
+                root_meta = self.source_drive.folder_metadata(root_id)
+                root_name = str(root_meta.get("name") or "")
+                drive_books = list(self.source_drive.iter_books(root_id, True))
+                matched_entries = match_entries(bundle.entries, drive_books, root_name)
+                for index, duplicate in known_duplicates.items():
+                    matched_entries[index] = duplicate
+            state = {"schemaVersion": 1, "manifestId": manifest_id, "kind": bundle.manifest["kind"], "entries": matched_entries, "createdAt": _now(), "updatedAt": _now()}
             self.private_drive.save_state(bundle, state)
         else:
-            drive_books = list(self.source_drive.iter_books(root_id, True))
+            repaired = reconcile_completed_entries(state["entries"], catalog, self.settings.root)
+            if repaired:
+                state.update({"entries": state["entries"], "updatedAt": _now(), "recoveredMissingPublicResults": repaired})
+                self.private_drive.save_state(bundle, state)
+            needs_rematch = any(item.get("status") in {"NOT_FOUND", "AMBIGUOUS"} for item in state["entries"])
+            active_entries = [item for item in state["entries"] if item.get("status") in {"MATCHED", "IDENTIFYING", "INDEXING"}]
+            if needs_rematch:
+                self.source_drive.assert_descendant(root_id, os.getenv("DRIVE_ROOT_FOLDER_ID") or root_id)
+                root_meta = self.source_drive.folder_metadata(root_id)
+                root_name = str(root_meta.get("name") or "")
+                drive_books = list(self.source_drive.iter_books(root_id, True))
+            elif active_entries:
+                for item in active_entries:
+                    file_id = str(item.get("driveFileId") or "")
+                    if not file_id or file_id in catalog:
+                        continue
+                    metadata = self.source_drive.file_metadata(file_id)
+                    drive_books.append(DriveBook(**metadata, folderPath=list(item.get("folderPath") or [])))
 
         queue_entries = state["entries"]
-        rematched = refresh_unresolved_matches(queue_entries, bundle.entries, drive_books, str(root_meta.get("name") or ""))
+        rematched = refresh_unresolved_matches(queue_entries, bundle.entries, drive_books, root_name) if drive_books else 0
         if rematched:
             state.update({"entries": queue_entries, "updatedAt": _now(), "rematchedEntries": rematched})
             self.private_drive.save_state(bundle, state)
-        catalog = _catalog_by_drive(self.settings.root)
         repaired = reconcile_completed_entries(queue_entries, catalog, self.settings.root)
         if repaired:
             state.update({"entries": queue_entries, "updatedAt": _now(), "recoveredMissingPublicResults": repaired})
@@ -365,17 +456,17 @@ class QueueWorker:
                 pause = "PAUSED_SAFETY_BUDGET"
                 break
             file_id = str(item.get("driveFileId") or "")
+            if file_id in catalog:
+                item["status"] = "SKIPPED"
+                item["reason"] = "동일한 Drive 원본이 이미 등록되어 있습니다."
+                counts["skipped"] += 1
+                continue
             source = books_by_id.get(file_id)
             if not source:
                 item["status"] = "NOT_FOUND"
                 continue
             self.status.update({"currentFileName": source.name, "currentFileIndex": index + 1})
             self._emit("STARTING_BOOK", "대기열의 다음 도서를 확인합니다.", True)
-            if file_id in catalog:
-                item["status"] = "SKIPPED"
-                item["reason"] = "동일한 Drive 원본이 이미 등록되어 있습니다."
-                counts["skipped"] += 1
-                continue
             retry_number = int(item.get("automaticRetryCount") or 0)
             while True:
                 try:
