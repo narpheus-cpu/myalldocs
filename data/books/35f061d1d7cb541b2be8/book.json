@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한방의학백과",
+    "author": "이철호",
+    "genre": "의학/건강",
+    "tags": [
+      "한방의학",
+      "민간요법",
+      "건강관리"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "건강"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이철호 님은 한방의학에 대한 방대한 지식을 정리하여 백과사전 형태의 저서를 집필했습니다.",
+    "oneLineSummary": "한방의 역사부터 체질별 처방, 건강 장수 비법, 질환별 한방 및 민간요법을 집대성한 건강 지침서입니다.",
+    "overallSummary": "한방의 기본 원리와 생약의 효능, 침술의 신비는 물론, 질병별 한방 치료법과 민간요법, 미용과 지압법까지 일상생활에 유용한 한방 의학 상식을 총망라하여 안내합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한방이란 무엇인가?",
+        "summary": "한방의 역사, 생약의 특성, 침술과 체질 감별법을 설명합니다."
+      },
+      {
+        "sectionTitle": "건강, 장수비법",
+        "summary": "체질에 따른 식사법과 선인들의 장생법, 스트레스 관리법을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "실용성",
+        "value": "질환별 민간요법 및 한방 치료 안내"
+      }
+    ],
+    "keyEntitiesText": "이철호, 신농씨, 장중경, 허준",
+    "settingText": "한방 의료"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DkAlEgMKqE7w1dj_7TkbOeBnh2oZlrQo",
+    "filename": "이철호-한방의학백과 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.385Z",
+    "size": "668025",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1DkAlEgMKqE7w1dj_7TkbOeBnh2oZlrQo/view?usp=drivesdk",
+    "sourceSha256": "82228c268168d5dd12cef8b89926bf2eeffdbfb943f878d2be36a0bd164ce648",
+    "textSha256": "9f6a895bc4e9fe623fbb07d665b3c917d5c22a61110ae0e4dcb565fd5fe6c865",
+    "changeKey": "ecef87b414ec861a92d52ba8169d962b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "35f061d1d7cb541b2be8",
+    "workId": "35f061d1d7cb541b2be8",
+    "driveFileId": "1DkAlEgMKqE7w1dj_7TkbOeBnh2oZlrQo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:39:23.652301+00:00",
+    "updatedAt": "2026-09-23T01:39:23.652317+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:39:23.652420+00:00"
+    }
+  }
+}

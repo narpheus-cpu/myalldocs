@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "옆으로 읽는 세상",
+    "author": "이정훈",
+    "genre": "칼럼/에세이",
+    "tags": [
+      "신문칼럼",
+      "사회비평",
+      "인간관계"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "사회"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이정훈 님은 대구매일신문 편집국장과 논설주간을 역임한 언론인입니다.",
+    "oneLineSummary": "급변하는 시대의 흐름 속에서 사회와 인간 군상을 따뜻하고 비판적인 시선으로 읽어낸 칼럼집입니다.",
+    "overallSummary": "새 정부의 개혁과 부패 청산, 가족이기주의, 교육 제도, 금융실명제 등 1990년대 한국 사회의 주요 현안들을 고전의 지혜와 인문학적 성찰을 바탕으로 풀어냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "샘처럼 흘러야",
+        "summary": "개혁의 지속성과 인간 심리의 이중성에 대해 논합니다."
+      },
+      {
+        "sectionTitle": "가족이기주의에서 벗어나자",
+        "summary": "어버이날을 맞아 가족 관계의 변화와 이기주의를 성찰합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르특징",
+        "value": "언론인의 시각이 담긴 사회 비평 칼럼"
+      }
+    ],
+    "keyEntitiesText": "이정훈, 맹자, 노자",
+    "settingText": "대한민국 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1M2dv7Ne4x2_TJj8dLg9-KSeZNGWEgIEO",
+    "filename": "이정훈-옆으로 읽는 세상.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.253Z",
+    "size": "206746",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1M2dv7Ne4x2_TJj8dLg9-KSeZNGWEgIEO/view?usp=drivesdk",
+    "sourceSha256": "00664630d7b0ff10755437fc3bbbc00f828055aecd4e4c0316f22035c3b9878e",
+    "textSha256": "ed12ba605bbcc26137a6467eb494ac26cf884bdd02159c715c00c3b8d92acd28",
+    "changeKey": "d8b4f407b969234cd7d9f1dd0da12f8a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ca2b9cb6ff6240afb3d9",
+    "workId": "ca2b9cb6ff6240afb3d9",
+    "driveFileId": "1M2dv7Ne4x2_TJj8dLg9-KSeZNGWEgIEO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:38:49.265158+00:00",
+    "updatedAt": "2026-09-23T01:38:49.265177+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:38:49.265251+00:00"
+    }
+  }
+}

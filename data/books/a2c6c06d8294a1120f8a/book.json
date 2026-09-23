@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그래도 나는 가볍게 살고 싶다",
+    "author": "이주향",
+    "genre": "철학/에세이",
+    "tags": [
+      "자유",
+      "삶의방식",
+      "철학에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이주향 님은 철학자이자 대학교수로, 삶의 현장에서 철학적 의미를 찾는 에세이스트입니다.",
+    "oneLineSummary": "거대한 자본과 경쟁의 무게를 벗어던지고 가볍고 자유롭게 살아가는 삶의 풍경을 그립니다.",
+    "overallSummary": "서울, 일류대학, 대기업이라는 세상의 획일적인 기준에 저항하며, 자신만의 길을 묵묵히 걸어가는 소박하고 당당한 사람들의 이야기를 철학적 시선으로 담아냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "많이 보고 배우는 것이 능사가 아니며 적게 보고 깊이 보는 삶의 가치를 전합니다."
+      },
+      {
+        "sectionTitle": "작은 것이 아름답다",
+        "summary": "칭기즈칸의 일화와 주변 소외된 이들의 삶을 통해 진정한 책임과 사랑을 논합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "고정관념 탈피와 삶의 가벼움 추구"
+      }
+    ],
+    "keyEntitiesText": "이주향, 칭기즈칸",
+    "settingText": "일상 속의 삶의 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16SQc6iGsYKfz1UW5DuxrEN3Q6mo7V9n-",
+    "filename": "이주향-그래도 나는 가볍게 살고 싶다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.289Z",
+    "size": "222596",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/16SQc6iGsYKfz1UW5DuxrEN3Q6mo7V9n-/view?usp=drivesdk",
+    "sourceSha256": "31f3c6db6e4a4fd8168c35b187ccb6d9aa4df6f2796d5e440cf1d98fb361e9eb",
+    "textSha256": "f14f5c966a0f344da440f985dab5509c51751ce0f6d2ccdc2499daeed502150a",
+    "changeKey": "998dc422fb01bf6ac07e31e338c868a1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a2c6c06d8294a1120f8a",
+    "workId": "a2c6c06d8294a1120f8a",
+    "driveFileId": "16SQc6iGsYKfz1UW5DuxrEN3Q6mo7V9n-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:38:54.955602+00:00",
+    "updatedAt": "2026-09-23T01:38:54.955620+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:38:54.955695+00:00"
+    }
+  }
+}

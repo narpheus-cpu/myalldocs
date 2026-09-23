@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세상 사람은 나를 보고 웃고 나는 세상을 보고 웃는다",
+    "author": "이정석",
+    "genre": "한학/에세이",
+    "tags": [
+      "청학동",
+      "한학자",
+      "인생철학"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이정석 님은 낙안 읍성에서 태어나 한학을 수학하고 청학동에서 훈장으로 후학을 지도하고 있습니다.",
+    "oneLineSummary": "지리산 청학동 훈장의 눈으로 본 자연과 세상, 그리고 참된 삶의 멋에 대한 이야기입니다.",
+    "overallSummary": "지리산 능선의 아름다움과 사계절의 교훈, 연애와 궁합에 대한 동양적 시각, 각박한 현대 사회를 향한 따뜻한 해학의 메시지를 전합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "역설의 사랑법",
+        "summary": "지리산 능선을 바라보며 느끼는 삶의 무상함과 연애, 궁합에 대한 생각을 담았습니다."
+      },
+      {
+        "sectionTitle": "마음으로 그리는 인생",
+        "summary": "자연의 순리에 따라 살아가는 삶의 태도와 참된 즐거움을 이야기합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학",
+        "value": "동양 사상과 전통적 삶의 가치"
+      }
+    ],
+    "keyEntitiesText": "이정석",
+    "settingText": "지리산 청학동"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kZiBu4VlS4neB98QWYxfm7U9_FR8TEGh",
+    "filename": "이정석-세상 사람은 나를 보고 웃고 나는 세상을 보고 웃는다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.222Z",
+    "size": "368643",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1kZiBu4VlS4neB98QWYxfm7U9_FR8TEGh/view?usp=drivesdk",
+    "sourceSha256": "15276a63f23cf8c8ac4102698245066b8ded17fd6d23aa7a54e09917bb9e8ef2",
+    "textSha256": "99fd51c8dfa1b9abe6c4b106e3c3d777f503d2f31dd6e41216faa64f30b9ccc2",
+    "changeKey": "4833b1b496f3e9d10dd246a2e89ec2ef",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2f4a5ba47cd3b65a215d",
+    "workId": "2f4a5ba47cd3b65a215d",
+    "driveFileId": "1kZiBu4VlS4neB98QWYxfm7U9_FR8TEGh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:38:35.443864+00:00",
+    "updatedAt": "2026-09-23T01:38:35.443878+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:38:35.443956+00:00"
+    }
+  }
+}

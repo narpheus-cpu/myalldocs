@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "청춘초",
+    "author": "이케다 다이사쿠",
+    "genre": "자기계발/에세이",
+    "tags": [
+      "청춘",
+      "인생론",
+      "도전과극복"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "에세이"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이케다 다이사쿠는 사상가이자 평화운동가이며 SGI 회장입니다.",
+    "oneLineSummary": "고난을 이겨내고 청춘의 특권을 살려 미래를 개척하는 젊은이들을 위한 인생 지침서입니다.",
+    "overallSummary": "질병과 전쟁의 상흔 속에서도 절망하지 않고 신념과 성실함으로 인생의 겨울을 이겨낸 제자들의 일화와 함께, 실패를 두려워하지 않는 도전 정신과 서민의 편에 서는 삶의 태도를 역설합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서",
+        "summary": "가난과 병마를 극복하고 세계적 지도자로 성장한 제자의 일화를 소개하며 청춘을 격려합니다."
+      },
+      {
+        "sectionTitle": "I. 청년과 건설",
+        "summary": "고투를 이겨내는 법, 성실함의 가치, 실패를 보물로 만드는 청춘의 자세를 논합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심가치",
+        "value": "인간혁명과 청년의 도전 정신"
+      }
+    ],
+    "keyEntitiesText": "이케다 다이사쿠, 도다",
+    "settingText": "인생의 여로"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12EcrOtAk6zLX6Co1G0LWVgDNfz6kdjwh",
+    "filename": "이케다 다이사쿠-청춘초.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.440Z",
+    "size": "210526",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/12EcrOtAk6zLX6Co1G0LWVgDNfz6kdjwh/view?usp=drivesdk",
+    "sourceSha256": "6021e601410ae213584db8df3b0cf5592532b82cfa35530bceb9ba201ebb00bc",
+    "textSha256": "601e4865f161a917476213ba72f1c0fe76b129979418f9e343ac0eb6e5522646",
+    "changeKey": "9f7ab5c97f63505934f87ab2ea347aba",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2d3ed6cb7c09b88f5c9b",
+    "workId": "2d3ed6cb7c09b88f5c9b",
+    "driveFileId": "12EcrOtAk6zLX6Co1G0LWVgDNfz6kdjwh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:39:43.566271+00:00",
+    "updatedAt": "2026-09-23T01:39:43.566289+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:39:43.566394+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "웨이트 트레이닝",
+    "author": "이용훈",
+    "genre": "운동/건강",
+    "tags": [
+      "웨이트트레이닝",
+      "운동기본",
+      "근력증강"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "건강",
+        "스포츠"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이용훈(HAEMOSU)님은 웨이트 트레이닝에 관한 실용적인 지식과 오해를 정리하여 글을 남겼습니다.",
+    "oneLineSummary": "웨이트 트레이닝의 올바른 상식과 다양한 훈련 시스템을 체계적으로 설명합니다.",
+    "overallSummary": "웨이트 트레이닝에 대한 흔한 오해를 바로잡고, 최대 반복 횟수(RPM), 세트(SET), 점증 부하의 원리 등 기초 상식부터 피라미드 시스템, 서킷 트레이닝 등 실질적인 운동 방법을 상세히 안내합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "웨이트 트레이닝에 대해",
+        "summary": "웨이트 트레이닝에 대한 일반적인 오해들을 바로잡고 기본 원리를 설명합니다."
+      },
+      {
+        "sectionTitle": "실행시 반드시 지켜야 할 원칙",
+        "summary": "RPM, SET 개념과 함께 점증 부하의 원리, 휴식, 안전성, 복식호흡, 관절 보호 등을 설명합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "운동종목",
+        "value": "웨이트 트레이닝"
+      }
+    ],
+    "keyEntitiesText": "이용훈, 벤치프레스, 스쿼트",
+    "settingText": "헬스클럽 및 운동 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IPTFXrd9VFlbLe1QHn-ZOOdg4qBaroWd",
+    "filename": "이용훈-웨이트 트레이닝.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.169Z",
+    "size": "22739",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1IPTFXrd9VFlbLe1QHn-ZOOdg4qBaroWd/view?usp=drivesdk",
+    "sourceSha256": "c7ac852524b26c9376a70c65856ace1bf6e9e775f5039766a19afd3a161f1fab",
+    "textSha256": "b11d009482bcfc2f2dd48aa98cdb1580aa87d0b98fd0359b056bd7c66f237b03",
+    "changeKey": "ee2cd2698c8bfefb7de27682d7d792d9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "63a036161abfadcbe705",
+    "workId": "63a036161abfadcbe705",
+    "driveFileId": "1IPTFXrd9VFlbLe1QHn-ZOOdg4qBaroWd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:37:26.807637+00:00",
+    "updatedAt": "2026-09-23T01:37:26.807655+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:37:26.807808+00:00"
+    }
+  }
+}
