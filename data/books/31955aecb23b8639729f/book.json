@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "톰소여의 모험",
+    "author": "마크 트웨인",
+    "genre": "소설",
+    "tags": [
+      "미국소설",
+      "성장소설",
+      "모험",
+      "아동문학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 문학의 아버지로 불리는 유머리스트이자 소설가로, 미시시피강을 배경으로 한 명작들을 남겼습니다.",
+    "oneLineSummary": "장난꾸러기 소년 톰 소여가 친구들과 함께 겪는 유쾌하고 스릴 넘치는 모험 이야기입니다.",
+    "overallSummary": "폴리 이모의 엄격한 훈육 아래서도 기발한 장난을 멈추지 않는 톰 소여가 페인트칠 벌을 놀이로 바꾸고, 친구 허크와 함께 묘지에서 사건을 목격하는 등 마을을 배경으로 펼치는 흥미진진한 모험을 담고 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "장난꾸러기 톰과 페인트 칠",
+        "summary": "톰이 이모의 눈을 피해 도망치고, 토요일 벌로 맡은 울타리 칠하기를 다른 아이들에게 특권처럼 속여 대신하게 만드는 기발한 일화를 소개합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품의 가치",
+        "value": "유년 시절의 자유분방함과 순수함을 유머러스하게 그려내어 전 세계 독자들의 사랑을 받았습니다."
+      }
+    ],
+    "keyEntitiesText": "톰 소여, 폴리 이모, 시드, 허클베리 핀, 베키 대처",
+    "settingText": "미시시피강 연안의 작은 마을 세인트 피터스버그"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "143yxKt4XTqy1oOl9y-XPVvpunCFDQlPi",
+    "filename": "마크 트웨인-톰소여의 모험 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.636Z",
+    "size": "185425",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/143yxKt4XTqy1oOl9y-XPVvpunCFDQlPi/view?usp=drivesdk",
+    "sourceSha256": "76c7c30d07f6b382e187fe0d133e2bc904a9cacb7969c3802f2d42cfa7b56ab1",
+    "textSha256": "c6af10ab953cb3121b6fb251be7177a144fbde5aa99c6ec14214ad004343b64b",
+    "changeKey": "b85355fa59b30ee8b0da12162e2a02f3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "31955aecb23b8639729f",
+    "workId": "31955aecb23b8639729f",
+    "driveFileId": "143yxKt4XTqy1oOl9y-XPVvpunCFDQlPi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T23:18:19.425119+00:00",
+    "updatedAt": "2026-09-23T23:18:19.425133+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T23:18:19.425231+00:00"
+    }
+  }
+}

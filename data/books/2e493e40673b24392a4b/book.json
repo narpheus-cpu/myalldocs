@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "말테의 수기",
+    "author": "라이너 마리아 릴케",
+    "genre": "소설",
+    "tags": [
+      "독일문학",
+      "실존주의",
+      "고독",
+      "도시체험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "일기체소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "2세기 최고의 시인 중 한 명으로, 사물의 내면을 응시하는 깊이 있는 시와 소설을 남겼습니다.",
+    "oneLineSummary": "파리라는 거대 도시에서 젊은 시인이 겪는 고독과 불안, 죽음에 대한 성찰을 담은 소설입니다.",
+    "overallSummary": "덴마크 출신의 젊은 귀족이자 시인인 말테가 파리에서 생활하며 느끼는 극심한 고독과 도시의 황폐함, 그리고 어린 시절의 추억과 가족들의 죽음에 대한 기억을 감각적이고 성찰적인 언어로 기록한 수기입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "9월 11일 톨리에 거리에서",
+        "summary": "말테가 파리의 거리에서 목격한 병자들과 소음, 그리고 보는 법을 배우기 시작하며 느끼는 내면의 변화를 서술합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 의의",
+        "value": "현대 도시 문명 속에서 개인이 느끼는 실존적 불안과 고독을 선구적으로 묘사한 작품입니다."
+      }
+    ],
+    "keyEntitiesText": "말테, 브리게 시종관(할아버지)",
+    "settingText": "20세기 초의 파리와 덴마크의 옛 영지 울스가르"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KQ9Rcg_jNBkzgprk4vUcI7684HT_q07k",
+    "filename": "릴케-릴케-말테의 수기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.613Z",
+    "size": "490626",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1KQ9Rcg_jNBkzgprk4vUcI7684HT_q07k/view?usp=drivesdk",
+    "sourceSha256": "3b0664ac374a2f90c917f9da90cd0fc3f11c33e99e3c6919596d7ea8220460fb",
+    "textSha256": "89eb48b8675e519c3bd50a4696fa6830e1691e44f595592d4ace115cbd7319fa",
+    "changeKey": "7b28c108d54c74aa505ef164e9edc6b4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e493e40673b24392a4b",
+    "workId": "2e493e40673b24392a4b",
+    "driveFileId": "1KQ9Rcg_jNBkzgprk4vUcI7684HT_q07k",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T23:17:18.339814+00:00",
+    "updatedAt": "2026-09-23T23:17:18.339829+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T23:17:18.339917+00:00"
+    }
+  }
+}

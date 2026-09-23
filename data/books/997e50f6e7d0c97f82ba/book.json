@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "허클베리 핀의 모험 (문예출판사)",
+    "author": "마크 트웨인",
+    "genre": "소설",
+    "tags": [
+      "미국소설",
+      "사회풍자",
+      "인종문제",
+      "여정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "성장소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 독자적인 구어체 문학을 확립하여 현대 미국 소설의 기초를 닦은 위대한 작가입니다.",
+    "oneLineSummary": "소년 허크와 도망친 노예 짐이 뗏목을 타고 미시시피강을 내려가며 겪는 모험과 성장입니다.",
+    "overallSummary": "문명사회의 구속을 싫어하는 허크가 폭력적인 아버지를 피해 달아나고, 자유를 찾아 탈출한 흑인 노예 짐과 합류하여 강을 따라 여행하며 진정한 인간적 유대와 사회의 위선을 깨닫는 과정을 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "허크의 탈출과 갱단 조직",
+        "summary": "허크가 과부댁의 엄격한 교육에서 벗어나고 싶어 하던 중, 톰 소여와 함께 밤에 몰래 빠져나와 소년 갱단을 조직하고 비밀 맹세를 하는 과정을 묘사합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 메시지",
+        "value": "당시 미국 남부 사회의 종교적 위선과 노예제도의 비인간성을 날카롭게 풍자합니다."
+      }
+    ],
+    "keyEntitiesText": "허클베리 핀, 톰 소여, 짐, 미스 왓슨",
+    "settingText": "미시시피강과 그 연안의 자연 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wI3UC723PnpLq_HsEmbknPQbNUkxnRJP",
+    "filename": "마크 트웨인-허클베리 핀의 모험(문예출판사)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T15:13:12.000Z",
+    "size": "811155",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1wI3UC723PnpLq_HsEmbknPQbNUkxnRJP/view?usp=drivesdk",
+    "sourceSha256": "c477915ed359a44e3657e8717ec93d7a9073f573d296cd30758518e7472fcfc8",
+    "textSha256": "40bf6b6029ac2af99cefd4670ea29099f35005fccb0b44d39f59021619d85d8a",
+    "changeKey": "3264591d938042bfd2321c4b4d2714e4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "997e50f6e7d0c97f82ba",
+    "workId": "997e50f6e7d0c97f82ba",
+    "driveFileId": "1wI3UC723PnpLq_HsEmbknPQbNUkxnRJP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T23:18:26.016591+00:00",
+    "updatedAt": "2026-09-23T23:18:26.016611+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T23:18:26.016708+00:00"
+    }
+  }
+}

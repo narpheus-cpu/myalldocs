@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잃어버린 시간을 찾아서 (1~4권)",
+    "author": "마르셀 프루스트",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "추억",
+      "스완",
+      "콩브레"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "현대소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시간과 기억의 상호작용을 정교한 문체로 분석하여 문학사상 가장 위대한 작품 중 하나를 창조했습니다.",
+    "oneLineSummary": "유년 시절의 기억과 스완의 비극적인 사랑을 통해 인간 내면의 미묘한 감정을 탐구합니다.",
+    "overallSummary": "주인공이 잠자리에서 겪는 불안과 어머니의 입맞춤에 대한 갈망으로 시작하여, 시골 마을 콩브레에서의 추억, 그리고 예술적 감수성을 지닌 스완이 오데트라는 여인에게 빠져 겪는 집착과 질투의 과정을 세밀하게 묘사합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "콩브레 1장",
+        "summary": "불면증 속에서 과거의 방들을 회상하고, 마술 환등기를 보며 불안해하던 어린 시절의 기억을 떠올립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예술적 주제",
+        "value": "사랑과 질투의 감정을 현미경으로 들여다보듯 정밀하게 해부하여 인간 심리의 보편성을 보여줍니다."
+      }
+    ],
+    "keyEntitiesText": "나, 스완, 오데트, 프랑수아즈",
+    "settingText": "프랑스의 시골 마을 콩브레와 파리의 사교계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tObqtNVbG5ykf1NL31vm1oYSdt77HKWA",
+    "filename": "마르셸 프루스트-잃어버린 시간을 찾아서(1~4권)(민음사)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T08:20:14.000Z",
+    "size": "3136070",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1tObqtNVbG5ykf1NL31vm1oYSdt77HKWA/view?usp=drivesdk",
+    "sourceSha256": "29e648d0b2877f5558e51ec7424f5256523ee96af74c59ef7ebcf7ded06ccdcf",
+    "textSha256": "ea6447d95cc1620b66c6cf6b92f67c92e9acb9636cc6776ad8074583a77e6c2d",
+    "changeKey": "ced284015e14f93d8c297c809888579f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d79a27e4ec35d40a2e58",
+    "workId": "d79a27e4ec35d40a2e58",
+    "driveFileId": "1tObqtNVbG5ykf1NL31vm1oYSdt77HKWA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T23:17:57.510533+00:00",
+    "updatedAt": "2026-09-23T23:17:57.510555+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T23:17:57.510668+00:00"
+    }
+  }
+}

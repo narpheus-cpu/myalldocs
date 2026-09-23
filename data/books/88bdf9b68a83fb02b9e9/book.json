@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이상한 나라의 앨리스 (블루프린트)",
+    "author": "루이스 캐럴",
+    "genre": "소설",
+    "tags": [
+      "판타지",
+      "아동문학",
+      "고전",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "판타지"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "본명은 찰스 도지슨으로, 수학자이자 사진가였으며 아이들을 위한 환상적인 이야기를 창작했습니다.",
+    "oneLineSummary": "흰 토끼를 따라 신비로운 지하 세계로 모험을 떠난 앨리스의 환상적인 이야기입니다.",
+    "overallSummary": "지루한 일상에서 벗어나 환상적인 지하 세계로 들어간 앨리스가 겪는 기이한 사건들을 다룹니다. 논리와 비논리가 뒤섞인 세계에서 앨리스는 정체성에 대한 질문을 던지며 모험을 이어갑니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "눈물 웅덩이",
+        "summary": "키가 너무 커져서 흘린 눈물로 만들어진 웅덩이에 몸이 다시 작아진 앨리스가 빠져 생쥐와 함께 헤엄치는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제 의식",
+        "value": "어린이의 시선으로 바라본 어른들의 모순된 세계와 규범을 풍자합니다."
+      }
+    ],
+    "keyEntitiesText": "앨리스, 흰 토끼, 생쥐",
+    "settingText": "기묘한 규칙이 지배하는 지하 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1M0foBASsy_k6Rgo5hfDD2JlFGE5ZOozy",
+    "filename": "루이스 캐롤-이상한 나라의 앨리스(블루프린트)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:46:44.000Z",
+    "size": "172163",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1M0foBASsy_k6Rgo5hfDD2JlFGE5ZOozy/view?usp=drivesdk",
+    "sourceSha256": "fbf5a4d1fa0d32493f197d0245ec231803182b709838e210fe33c4208f81afd4",
+    "textSha256": "9069ceee26d8c0c3ba3fe504d49413e8b65a6eae59d9c73c5bd8e58756068c59",
+    "changeKey": "e11a3131626d16167fbe0e4d704561ba",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "88bdf9b68a83fb02b9e9",
+    "workId": "88bdf9b68a83fb02b9e9",
+    "driveFileId": "1M0foBASsy_k6Rgo5hfDD2JlFGE5ZOozy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T23:16:59.716117+00:00",
+    "updatedAt": "2026-09-23T23:16:59.716132+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T23:16:59.716232+00:00"
+    }
+  }
+}

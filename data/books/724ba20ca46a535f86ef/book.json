@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "독일인의 사랑",
+    "author": "막스 뮐러",
+    "genre": "소설",
+    "tags": [
+      "독일문학",
+      "낭만주의",
+      "순수사랑",
+      "영혼의교감"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "낭만주의소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일 출신의 세계적인 동양학자이자 비교언어학자로, 평생 단 한 편의 아름다운 소설을 남겼습니다.",
+    "oneLineSummary": "신분의 벽을 넘어 영혼의 깊은 교감을 나누는 두 남녀의 순수하고도 슬픈 사랑 이야기입니다.",
+    "overallSummary": "주인공이 어린 시절부터 겪은 기억의 회상을 통해, 성에서 만난 병약하고 고결한 마리아와의 영혼의 교감과 신분 차이를 극복하는 순수한 기독교적 사랑의 실체를 철학적이고 서정적인 필치로 그려냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫째 회상과 둘째 회상",
+        "summary": "어린 시절의 신비로운 기억과 성에서 후작 부인을 만나 겪은 일화, 그리고 인간을 향한 순수한 사랑의 본질에 대해 성찰합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학적 주제",
+        "value": "이기적인 남녀간의 사랑을 넘어 만인을 향한 보편적이고 신성한 사랑으로 승화되는 과정을 탐구합니다."
+      }
+    ],
+    "keyEntitiesText": "나, 마리아, 후작 부인",
+    "settingText": "독일의 고요하고 아름다운 성과 자연 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10WUQh3EjyEap4EX7tPk6jnGb4EklmABC",
+    "filename": "막스 뮐러- 독일인의 사랑 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.694Z",
+    "size": "214771",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/10WUQh3EjyEap4EX7tPk6jnGb4EklmABC/view?usp=drivesdk",
+    "sourceSha256": "55681aa99d6f7c168ab27a5418158242394a86224ba0c702e42927ae218c06c5",
+    "textSha256": "b0d3f95b0465843889308ba11f0c68ce8559adca090aa2d4f660f74649f071a7",
+    "changeKey": "3efa67d468a6a5f2d4d4a5b419e6bb4f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "724ba20ca46a535f86ef",
+    "workId": "724ba20ca46a535f86ef",
+    "driveFileId": "10WUQh3EjyEap4EX7tPk6jnGb4EklmABC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T23:18:39.550699+00:00",
+    "updatedAt": "2026-09-23T23:18:39.550714+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T23:18:39.550812+00:00"
+    }
+  }
+}
