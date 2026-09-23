@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "명언록",
+    "author": "리더스 다이제스트",
+    "genre": "명언/교양",
+    "tags": [
+      "명언",
+      "지혜",
+      "리더스다이제스트"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "명언집"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "다양한 분야의 명인들이 남긴 지혜로운 말들을 수집한 리더스 다이제스트 편집부.",
+    "oneLineSummary": "리더스 다이제스트에 실린 다양한 분야의 명언들을 가나다순으로 정리한 명언집.",
+    "overallSummary": "1978년부터 1988년까지 리더스 다이제스트에 게재된 명언들을 가나다순으로 분류하여 수록했다. 삶, 인간관계, 성공, 지혜 등 다양한 주제에 대한 명인들의 통찰을 짧은 문장으로 담아 독자들에게 교훈과 영감을 준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "가나다순 명언",
+        "summary": "숫자부터 ㅎ까지 가나다순으로 분류된 다양한 명언들을 수록함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성",
+        "value": "가나다순 인덱싱을 통해 독자가 원하는 주제나 키워드의 명언을 쉽게 찾을 수 있도록 구성됨."
+      }
+    ],
+    "keyEntitiesText": "리더스 다이제스트",
+    "settingText": "다양한 시대와 분야의 지혜"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10lfgf2x_Sv0KrvH4u0v8atmtJ8B0LYPN",
+    "filename": "리더스 다이제스트-명언록 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:35.457Z",
+    "size": "96692",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/10lfgf2x_Sv0KrvH4u0v8atmtJ8B0LYPN/view?usp=drivesdk",
+    "sourceSha256": "07a0c3161d8186344cbb7800017fe6c4c3d85a2814661c89a2ed624658a6b434",
+    "textSha256": "94b0dad39449fce7e4a4f162074bbb87de10b7af42eae4a04e871c672b275b42",
+    "changeKey": "2d0f7971283e8b7a2ecef8146b3f0ef1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f5eb9e3460f2b6f23422",
+    "workId": "f5eb9e3460f2b6f23422",
+    "driveFileId": "10lfgf2x_Sv0KrvH4u0v8atmtJ8B0LYPN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:40:30.073592+00:00",
+    "updatedAt": "2026-09-23T00:40:30.073609+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:40:30.073710+00:00"
+    }
+  }
+}
