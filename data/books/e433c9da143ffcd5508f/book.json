@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "조제는 언제나 그 책을 읽었다",
+    "author": "이하영",
+    "genre": "영화·독서 에세이",
+    "tags": [
+      "영화와책",
+      "에세이",
+      "콜레라시대의사랑",
+      "세렌디피티",
+      "두도시이야기"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이하영은 영화 속에 소품이나 대사로 등장하는 책들을 포착하여 인생과 사랑, 영혼의 성장을 따뜻한 시선으로 탐색하는 글을 써왔다.",
+    "oneLineSummary": "영화 속에 등장하는 다양한 책들을 매개로 인생과 운명, 소통과 성장의 의미를 탐색하는 감성적인 독서 에세이다.",
+    "overallSummary": "영화 속 주인공들이 들고 나오거나 언급하는 책을 길잡이 삼아 자신의 삶과 내면을 성찰하는 책이다. 영화 <세렌디피티>에서 두 남녀를 7년 동안 묶어둔 운명의 책 가르시아 마르케스의 『콜레라 시대의 사랑』을 통해 51년을 기다린 지고지순한 사랑과 운명의 주체성을 고찰하고, 영화 <친니친니>를 통해서는 찰스 디킨스의 『두 도시 이야기』와 엮어 사랑이란 본래 유치하며 소통과 고백을 필요로 한다는 진실을 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "영화 속 인물들이 읽는 책을 통해 위로와 영감을 얻고 책이라는 렌즈로 세상과 소통하게 된 연재의 배경과 감사를 밝힌다."
+      },
+      {
+        "sectionTitle": "당신은 나의 운명 (<세렌디피티>, 『콜레라 시대의 사랑』을 읽다)",
+        "summary": "우연한 장갑 구입으로 시작된 영화 <세렌디피티>의 사랑과 책 『콜레라 시대의 사랑』의 51년 순정을 비교하며 운명은 믿는 자의 편임을 역설한다."
+      },
+      {
+        "sectionTitle": "모든 사랑은 소통을 필요로 한다 (<친니친니>, 『두 도시 이야기』를 읽다)",
+        "summary": "영화 <친니친니>의 주인공 첸가후의 짝사랑과 디킨스의 『두 도시 이야기』를 통해 서툴고 유치하더라도 사랑은 마음을 표현해야 함을 이야기한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "매체 간 융합",
+        "value": "시각 예술인 영화와 텍스트 매체인 고전 문학을 결합하여 대중문화 텍스트의 깊이를 한 단계 끌어올림."
+      }
+    ],
+    "keyEntitiesText": "이하영, 조너선, 세라, 플로렌티노 아리사, 페르미나 다사, 첸가후, 유목연, 목만이",
+    "settingText": "영화 속 배경인 뉴욕, 홍콩 및 저자의 일상 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EbquKEmM8M6zLM7bsnsUF_rGyUKKvjXl",
+    "filename": "이하영-조제는 언제나 그 책을 읽었다(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T04:10:54.000Z",
+    "size": "365133",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1EbquKEmM8M6zLM7bsnsUF_rGyUKKvjXl/view?usp=drivesdk",
+    "sourceSha256": "8be970524749de9b5949570b4bd23aef9e757a22dfec17f9a23d183e5c625a89",
+    "textSha256": "7ab01e9dcc89fb06026ee9c319a3bef261d0167c0ca395db0fe48b0eedeb998d",
+    "changeKey": "0a8f1f50c5aa0ba5206fa69a0e4752cd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e433c9da143ffcd5508f",
+    "workId": "e433c9da143ffcd5508f",
+    "driveFileId": "1EbquKEmM8M6zLM7bsnsUF_rGyUKKvjXl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:15:39.209203+00:00",
+    "updatedAt": "2026-09-23T18:15:39.209215+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:15:39.209296+00:00"
+    }
+  }
+}

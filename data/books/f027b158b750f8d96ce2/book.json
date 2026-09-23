@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우리 문학의 뿌리",
+    "author": "이재인",
+    "genre": "고전문학 선집 및 해설",
+    "tags": [
+      "고전문학",
+      "수험교양",
+      "시화",
+      "야담",
+      "백운소설"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "essay_general_nonfiction",
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "엮은이 이재인은 1995년 현직 교사로서 학생들이 고전문학에 친숙하게 접근하고 시험과 교양에 대비할 수 있도록 주요 고전 작품을 가려 뽑아 엮었다.",
+    "oneLineSummary": "수험생과 학생들을 위해 시화, 야담, 비평문, 궁중수필 등 선조들의 지혜가 담긴 주요 한국 고전문학 작품들을 엄선해 해설과 함께 엮은 선집이다.",
+    "overallSummary": "이 책은 현대문학에 편중된 교육 현실을 극복하고 고전 문학 읽기의 중요성을 일깨우기 위해 기획된 선집이다. 시화와 야담, 비평문, 궁중수상, 일기 등 다양한 장르의 고전들을 수록하였으며, 첫 장에 실린 이규보의 '백운소설'을 통해 을지문덕, 진덕여왕, 최치원, 정지상, 김부식 등의 문학적 일화와 작가 자신의 시작(詩作) 경험, 시론을 폭넓게 소개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "고전 문학 읽기의 비중(고칠현삼제)을 강조하며 시험과 교양 대비를 위해 주요 고전문학을 시대별·장르별로 가려 뽑아 엮은 취지를 밝힌다."
+      },
+      {
+        "sectionTitle": "시화, 야담 - 백운소설 (이규보)",
+        "summary": "삼국시대부터 당대까지 시인들의 시와 일화를 평론하고 최치원, 정지상, 김부식의 설화 및 이규보 자신의 시에 얽힌 경험과 문학관을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "편찬 의도",
+        "value": "입시 위주 교육 현장에서 등한시되는 고전문학의 중요성을 일깨우고 수능과 논술, 교양에 도움을 주기 위해 기획됨."
+      },
+      {
+        "key": "백운소설의 성격",
+        "value": "현대적 의미의 소설이 아니라 '조그만 이야기'라는 뜻의 시화집이자 비평적 성격을 띤 산문."
+      }
+    ],
+    "keyEntitiesText": "이재인, 이규보, 을지문덕, 진덕여왕, 최치원, 정지상, 김부식, 오세재, 오덕진, 구양백호, 윤학록",
+    "settingText": "삼국시대부터 고려시대 및 편찬 당시인 1995년의 한국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XmBbzDJK-ENC8HM-XqjWsc8ZG0X-AL3s",
+    "filename": "이재인-우리 문학의 뿌리.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.114Z",
+    "size": "335551",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1XmBbzDJK-ENC8HM-XqjWsc8ZG0X-AL3s/view?usp=drivesdk",
+    "sourceSha256": "c39e3398820d709d8b9007ec8b4b7b6272e64b8b5da692c67e95023fecc0ab8b",
+    "textSha256": "67c61e1bcc9440919f83a7828c0b94a5f5b8473eb464026a66c6256ad7c863ed",
+    "changeKey": "34bcd42fd0c05f8dab85169a2a887a72",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f027b158b750f8d96ce2",
+    "workId": "f027b158b750f8d96ce2",
+    "driveFileId": "1XmBbzDJK-ENC8HM-XqjWsc8ZG0X-AL3s",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:14:08.509726+00:00",
+    "updatedAt": "2026-09-23T18:14:08.509741+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:14:08.509820+00:00"
+    }
+  }
+}

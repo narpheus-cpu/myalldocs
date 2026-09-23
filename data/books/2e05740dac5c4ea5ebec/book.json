@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "삼천도",
+    "author": "이호철",
+    "genre": "단편소설",
+    "tags": [
+      "풍자소설",
+      "공무원사회",
+      "관료주의",
+      "예산낭비",
+      "세태풍자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이호철(1932~2016)은 분단과 현대 사회의 속물적 세태를 날카로운 리얼리즘과 풍자적 필치로 그려낸 대표적인 현대 소설가이다.",
+    "oneLineSummary": "예산을 남겨 국고로 반납하려는 고지식한 이원영 주사와 이를 낭비하려는 능구렁이 관료들의 대비를 통해 공무원 사회의 타성을 꼬집은 풍자소설이다.",
+    "overallSummary": "정부 부처 사무실에서 서무 경리를 맡은 이원영 주사는 융통성이 전혀 없어 '고지식 주사' 혹은 '고문관'으로 불린다. 연말이 다가오자 남은 인쇄비 예산(공팔 예산)을 쓰지 못하고 국고로 반납하려는 이 주사 때문에 골머리를 앓던 김 계장은 소심한 김 주사를 다그친다. 대머리 과장과 두 계장은 퇴근 후 화식집 도궁으로 몰려가 술자리를 가지며 잡담을 나누고, 사무실에 홀로 남아 묵묵히 야근을 계속하는 이원영 주사를 따돌리며 예산 소모 방안을 모의한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "확보한 예산을 국고에 반납한다고 무능하다고 손가락질받는 고지식한 이원영 주사의 처지와 관료사회의 뒤틀린 현실을 서술한다."
+      },
+      {
+        "sectionTitle": "2-3",
+        "summary": "퇴근 무렵 남은 공팔 예산 소모 문제로 김 계장이 김 주사를 채근하고, 유유자적한 과장과 두 계장이 술자리를 마련해 나가는 동안 이 주사는 묵묵히 일한다."
+      },
+      {
+        "sectionTitle": "4",
+        "summary": "과장과 두 사무관이 단골 요정 도궁에 들어가 마담과 농을 주고받으며 자리를 잡는 모습을 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회 풍자",
+        "value": "국민의 세금인 공공 예산을 탕진하는 것이 '유능함'으로 둔갑하고 원칙을 지키는 관리가 왕따를 당하는 관료사회의 병폐를 사실적으로 비판함."
+      }
+    ],
+    "keyEntitiesText": "이원영 주사, 김 주사, 김 계장(김 사무관), 구 사무관, 과장",
+    "settingText": "1960년대 한국의 정부 관청 사무실 및 을지로 인근 술집 도궁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16X8GcJQDEXCQ-BYejmn8W0nf7lxpOnpE",
+    "filename": "이호철-삼천도.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.530Z",
+    "size": "273032",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/16X8GcJQDEXCQ-BYejmn8W0nf7lxpOnpE/view?usp=drivesdk",
+    "sourceSha256": "ae349fb5467be304b28e7966f1aaac6f9465177be2e99009e2f6216e6d7fcae6",
+    "textSha256": "c6b2d58115b78332dbe1dce9dd8f74e93d193e9348d7e324789a25e6a7a38028",
+    "changeKey": "a1c3bedd3c45fb2a3602d2a72f49aeb0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e05740dac5c4ea5ebec",
+    "workId": "2e05740dac5c4ea5ebec",
+    "driveFileId": "16X8GcJQDEXCQ-BYejmn8W0nf7lxpOnpE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:15:54.211587+00:00",
+    "updatedAt": "2026-09-23T18:15:54.211602+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:15:54.211683+00:00"
+    }
+  }
+}

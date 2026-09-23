@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "새디",
+    "author": "이지련",
+    "genre": "장편소설",
+    "tags": [
+      "느와르",
+      "킬러",
+      "도시야경",
+      "청춘",
+      "조폭"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이지련은 도시의 고독과 어두운 삶을 살아가는 청춘들의 비극적이고 낭만적인 사랑과 방황을 감각적으로 그려내는 작가이다.",
+    "oneLineSummary": "어둠의 세계에서 살아가는 킬러 지윤호와 유승휘, 그리고 젊은 조폭 보스 신지상 등이 얽혀드는 도시의 고독과 목숨을 건 사랑 이야기이다.",
+    "overallSummary": "작가는 도시의 밤거리와 고독 속에 버려진 청춘들이 겪는 비극적이고 거꾸로 뒤집힌 사랑을 전하고자 한다. 허리춤에 권총을 찬 채 스포츠카를 몰고 온 지윤호는 생일을 맞은 절친한 파트너 유승휘의 오피스텔을 찾아가 케이크를 나누며 우정을 확인한다. 한편 백색 50층 빌딩의 젊은 조폭 조직 영신회의 보스 신지상은 매경신문 사회부 기자 이해서와 접견하며 레지스탕스 보스 김완필의 저격 암살 사건과 전문 킬러 지윤호의 연루 가능성을 탐색한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "작가의 말 / 차례",
+        "summary": "어두운 삶을 살아가며 고독과 상처를 지닌 소년들의 사랑을 '새디'라는 제목으로 쓰게 된 배경과 집필 동기를 밝힌다."
+      },
+      {
+        "sectionTitle": "1. 어두운 그들",
+        "summary": "자정 무렵 스포츠카를 몰고 온 지윤호가 오피스텔에서 잠든 킬러 동료 유승휘를 깨워 케이크를 먹으며 둘만의 생일과 우정을 나누는 장면을 묘사한다."
+      },
+      {
+        "sectionTitle": "2. 회장실의 대화",
+        "summary": "영신회 보스 신지상이 매경신문 기자 이해서와 만나 조직의 현황, 레지스탕스 보스 김완필의 저격 사망 사건, 킬러 지윤호의 스타일과 행방에 대해 대화한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "스타일과 분위기",
+        "value": "화려한 고층빌딩 야경과 대비되는 청춘들의 무한한 고독, 총기와 조직 암살이 얽힌 감각적인 느와르 감성."
+      }
+    ],
+    "keyEntitiesText": "지윤호, 유승휘, 신지상, 이해서, 김완필",
+    "settingText": "현대 한국의 대도시 오피스텔 및 영신회 50층 빌딩 회장실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rtbQstZaqwJ4Bqy2H69PRqEry_ubTX4I",
+    "filename": "이지련-새디.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.356Z",
+    "size": "1269453",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1rtbQstZaqwJ4Bqy2H69PRqEry_ubTX4I/view?usp=drivesdk",
+    "sourceSha256": "84f2d93e7741af534b5a710dcb6048b9d67e92280fbed42cf4aeaaee9856655e",
+    "textSha256": "59c99d77c78b78398816a2e2385546c4b0b8466352d195fdeecb5ee682685891",
+    "changeKey": "51d076ef7e527f0fa9ada0551400c4f3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4eec4b91afd3471752cd",
+    "workId": "4eec4b91afd3471752cd",
+    "driveFileId": "1rtbQstZaqwJ4Bqy2H69PRqEry_ubTX4I",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:15:04.123039+00:00",
+    "updatedAt": "2026-09-23T18:15:04.123053+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:15:04.123133+00:00"
+    }
+  }
+}

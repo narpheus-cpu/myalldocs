@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "산인집",
+    "author": "이태수",
+    "genre": "장편소설",
+    "tags": [
+      "정치적야망",
+      "첫사랑",
+      "독학",
+      "성장소설",
+      "수선화"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이태수는 '산인'이라는 호를 사용하며 부친과 'L'에게 작품을 헌정하는 등 선비적 지조와 인간적 순정을 소설로 형상화했다.",
+    "oneLineSummary": "장차 대통령을 꿈꾸며 시골에서 독학하던 종손 소년이 전나무 숲에서 당돌하고 매력적인 소녀 이수선을 만나 겪는 풋풋하고 설레는 첫사랑의 기억이다.",
+    "overallSummary": "양녕대군의 후손으로 조광조를 사표 삼아 훗날 대통령과 국가전략가가 되겠다는 야심을 품고 경기도 양주 시골에서 독학하던 열여덟 살 소년. 그는 4월의 전나무 숲에서 강아지들과 놀던 중 근처 별장에 머무는 열여섯 살 음악도 이수선과 우연히 마주친다. 선이는 소년의 노트를 빼앗고 단추를 빌미로 사과를 요구하며 그를 당황하게 만들지만, 이내 그의 손톱을 다듬어주고 거문고 연주를 청하며 볼을 붉힌다. 소년은 정치적 야망과 선비의 몸가짐 사이에서 갈등하면서도 선이에게 점점 빠져든다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 종이 비행기 - chapter 1",
+        "summary": "케네디 연설을 흉내 내며 전나무 숲에서 강아지들과 놀던 소년이 별장에 머무는 당돌한 소녀 이수선과 마주치며 실랑이를 벌인다."
+      },
+      {
+        "sectionTitle": "제1부 종이 비행기 - chapter 2",
+        "summary": "선이가 소년의 손톱을 깎아주고 손등에 키스하자 도망친 소년은 결국 거문고를 들고 와 연주해주며 자신의 중퇴 사연과 상처를 털어놓고 함께 성당 길을 나선다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 성격의 이중성",
+        "value": "조선조 선비와 미래 정치가로서의 도덕적 결벽증을 지닌 소년이 첫사랑 소녀의 순수하고 도발적인 매력 앞에 무너지는 심리 묘사."
+      }
+    ],
+    "keyEntitiesText": "소년, 이수선(선이), 바둑이, 곰돌이",
+    "settingText": "경기도 양주 시골 마을의 전나무 숲과 고택 사랑채"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rLHWiMjf7msm5eG2jRPUjAq9M3J-EVb2",
+    "filename": "이태수-산인집.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.474Z",
+    "size": "386692",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1rLHWiMjf7msm5eG2jRPUjAq9M3J-EVb2/view?usp=drivesdk",
+    "sourceSha256": "2a303c693087bb7944a4bc6c1636409582a5766bc9543af135266077182f3164",
+    "textSha256": "85077c27391bdc94852aaec5e63c26c6134bb4d9e09e441d9aaa50fc60760dd9",
+    "changeKey": "4b849be8e9479ed10a8efa00618df1e2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a2c8f1cea1b30c967be7",
+    "workId": "a2c8f1cea1b30c967be7",
+    "driveFileId": "1rLHWiMjf7msm5eG2jRPUjAq9M3J-EVb2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:15:33.162595+00:00",
+    "updatedAt": "2026-09-23T18:15:33.162610+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:15:33.162690+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "민통선 사람들",
+    "author": "임동헌",
+    "genre": "장편소설",
+    "tags": [
+      "민통선",
+      "분단문학",
+      "가족사",
+      "이주",
+      "월남참전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "임동헌은 1957년 충남 서산 출생으로 월간문학 신인상으로 등단하여 분단 현실과 인간 소외의 문제를 깊이 파고든 소설들을 발표했다.",
+    "oneLineSummary": "월남전 제대 후 군복을 벗고 민간인출입통제선(민통선) 마을로 가족을 이끌고 이주해야 했던 아버지와 그 시절 가족의 삶을 회상한 소설이다.",
+    "overallSummary": "나이 마흔을 앞둔 화자가 어린 시절 부모를 따라 들어갔던 '갈 수 없는 나라' 민통선 마을에서의 삶을 시간 여행의 형식으로 회고한다. 월남전 보급기지 선임하사 출신인 아버지는 만기 제대 후 전우들과의 송별회를 열려 하지만 아무도 오지 않는다. 전재산을 날릴까 두려워한 아버지는 집과 땅을 준다는 정부의 조건에 끌려 가족의 반대에도 불구하고 민통선 마을로 이주를 결정한다. 낡은 이삿짐을 지고 바늘구멍을 통과하듯 살아가야 했던 아버지(낙타)와 가족의 애환이 쓸쓸하게 시작된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "카뮈의 시시포스 신화 서문을 인용하며 어린 시절 겪었던 민통선 마을의 고통과 진실을 형이상학적 왜곡 없이 기록하겠다는 결심을 밝힌다."
+      },
+      {
+        "sectionTitle": "1. 낙타네 식구들 (1-1 ~ 1-2)",
+        "summary": "무거운 짐을 지고 이주하는 아버지를 '낙타'에 비유하고, 마지막 이사 전날 전우들이 한 명도 나타나지 않은 쓸쓸한 송별회와 민통선 이주를 둘러싼 부모님의 갈등을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "낙타의 비유",
+        "value": "가난과 생존을 위해 무거운 짐을 진 채 민통선이라는 좁은 통로로 들어가야 했던 소외된 가장의 삶을 상징함."
+      }
+    ],
+    "keyEntitiesText": "나(병오), 아버지(황호탁), 어머니, 막내고모",
+    "settingText": "1970년대 초반 한국의 군부대 주둔지 및 민간인출입통제선(민통선) 이삿길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oOPUPu6HI4zve8N52wMB3xwgfEVxDAtM",
+    "filename": "임동헌-민통선 사람들 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.554Z",
+    "size": "699980",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1oOPUPu6HI4zve8N52wMB3xwgfEVxDAtM/view?usp=drivesdk",
+    "sourceSha256": "73eb74f2c6e041f28812b8dc97a7b84417d49e9a4281eeb1dfd2d23a63e335d6",
+    "textSha256": "ceee55f9200882f7b14471b03e5bfc0b533bd4fb11bb169a94881fa317c2ef21",
+    "changeKey": "44ba1927161f4826849bdd1d7b1cb5a5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "485d9af548ceb551b7c4",
+    "workId": "485d9af548ceb551b7c4",
+    "driveFileId": "1oOPUPu6HI4zve8N52wMB3xwgfEVxDAtM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:16:00.518622+00:00",
+    "updatedAt": "2026-09-23T18:16:00.518637+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:16:00.518717+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "자유의 문",
+    "author": "이청준",
+    "genre": "중·단편소설",
+    "tags": [
+      "한국문학",
+      "지리산",
+      "석밀",
+      "은거",
+      "자유와구원"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이청준은 인간의 내면적 자유와 구원, 예술적 집념과 윤리적 갈등을 탐구한 한국 현대문학의 거장이다.",
+    "oneLineSummary": "지리산 깊은 산중에 은거하는 백상도 노인에게 의문의 젊은이가 석밀을 구한다는 구실로 찾아오면서 시작되는 영혼의 긴장과 대결을 다룬다.",
+    "overallSummary": "천왕봉 서쪽 제석봉과 연하봉 줄기 바위틈 통나무 굴집에서 세속과 단절한 채 생식을 하며 은거하는 백상도 노인은 어느 여름 아침 골짜기를 올라오는 젊은 방문객을 맞는다. 사내는 화엄사 아랫마을에서 노인의 석밀(자연 돌꿀) 이야기를 듣고 찾아왔다고 하지만, 노인은 그가 단순한 꿀 수집자가 아니라 자신의 숨은 과거와 결말을 찾아온 존재일지 모른다는 예감에 사로잡힌다. 노인이 자리를 피하려 산행을 나서자 사내는 배낭을 메고 노인의 뒤를 끈질기게 쫓아온다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "산노인과 젊은 방문객",
+        "summary": "지리산 심산유곡에 은둔한 백상도 노인의 굴집에 등산복 차림의 젊은이가 찾아와 석밀을 요청하고, 노인이 의혹과 경계심 속에 길을 나서자 사내가 뒤따르는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "은둔과 대결",
+        "value": "세상과의 인연을 끊고 침묵 속에 머물던 노인과 그의 은신처를 파고든 젊은이 사이의 긴장감 넘치는 심리적 대치."
+      }
+    ],
+    "keyEntitiesText": "백상도 노인, 젊은 방문객",
+    "settingText": "지리산 주능선 제석봉과 연하봉 사이의 남쪽 기슭 심산유곡"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cw-HErltHFb9UedC5Q4xVAlZtVpksUj1",
+    "filename": "이청준-자유의 문.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.420Z",
+    "size": "388526",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1cw-HErltHFb9UedC5Q4xVAlZtVpksUj1/view?usp=drivesdk",
+    "sourceSha256": "2e2275d2157ccacab0bf4836e4ef5194621a99badb2ae58c6f4e1027852d2e77",
+    "textSha256": "fca250baefb634b6474a5543835827ce70540bac953542522d240f7f56505643",
+    "changeKey": "b1dab119fbb8f01767c1bf9a79103fa6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "752f73151b09db313dfb",
+    "workId": "752f73151b09db313dfb",
+    "driveFileId": "1cw-HErltHFb9UedC5Q4xVAlZtVpksUj1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:15:19.586136+00:00",
+    "updatedAt": "2026-09-23T18:15:19.586150+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:15:19.586229+00:00"
+    }
+  }
+}

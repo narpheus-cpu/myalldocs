@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불꽃 (상)",
+    "author": "이주희",
+    "genre": "장편소설",
+    "tags": [
+      "사내암투",
+      "백화점",
+      "관능소설",
+      "기업권력",
+      "비밀인맥"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이주희는 현대 기업 내부의 치열한 권력 다툼과 남녀 간의 에로틱한 관계를 결합한 '애프터 식스' 시리즈를 집필한 소설가이다.",
+    "oneLineSummary": "에메랄드 백화점 관리과장 강하영을 둘러싸고 경영권 내분과 관능적인 욕망이 교차하는 사내 권력 암투를 다룬 소설이다.",
+    "overallSummary": "에메랄드 그룹 본사 전무 이민우는 사장 자리를 노리고 비서 오혜정과 부적절한 관계를 유지하며 백화점의 핵심 정보를 장악한 관리과장 강하영을 포섭하려 한다. 강하영은 겉으로는 무난해 보이지만 백화점 내부에 독자적인 정보망을 구축한 인물이며 회장의 손녀 박지현과 깊은 연인 관계이다. 오혜정은 이민우에게 체인 스토어 운영권을 대가로 강하영을 유혹해 포섭하겠다고 나서고, 강하영은 백화점 여직원들과 은밀한 만남을 가지며 내부 분쟁의 중심에 선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 계약은 베드에서 1-2",
+        "summary": "호텔 객실에서 벌거벗은 채 정사를 마친 이민우 전무와 비서 오혜정이 백화점 관리과장 강하영의 배후와 독자 정보망에 대해 논의하며, 오혜정이 강하영을 포섭하기로 거래한다."
+      },
+      {
+        "sectionTitle": "2. 애프터 6의 정사 1",
+        "summary": "퇴근 후 강하영이 백화점 여직원 김화진과 강남의 러브호텔로 들어가 능숙하게 유혹하며 관계를 맺는 모습을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "권력과 성",
+        "value": "침실에서의 정사가 비즈니스 계약 및 사내 정치의 거래 수단으로 기능하는 냉혹한 욕망의 메커니즘을 드러냄."
+      }
+    ],
+    "keyEntitiesText": "강하영, 이민우, 오혜정, 박지현, 김화진, 진동현",
+    "settingText": "1990년대 서울의 특급 호텔, 러브호텔 및 에메랄드 백화점"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QEnCsB4YxGFnJS92t_41l8j3YkH5ujSj",
+    "filename": "이주희-불꽃.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.335Z",
+    "size": "447196",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1QEnCsB4YxGFnJS92t_41l8j3YkH5ujSj/view?usp=drivesdk",
+    "sourceSha256": "030fef6ab9501065d8dcd58a2d76152e576a30e6d8e75b2ba0f57560d6d5064b",
+    "textSha256": "40f6632ccac19f5428ee5f2622d34a792ffcbac5b8d3a07b0db1564c2d685d7b",
+    "changeKey": "634d800396c0f9262cd277cfbef5679a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "89acc557a0a87f043d49",
+    "workId": "89acc557a0a87f043d49",
+    "driveFileId": "1QEnCsB4YxGFnJS92t_41l8j3YkH5ujSj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:14:56.468013+00:00",
+    "updatedAt": "2026-09-23T18:14:56.468028+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.59,
+      "updatedAt": "2026-09-23T18:14:56.468108+00:00"
+    }
+  }
+}
