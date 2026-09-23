@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하루키는 이렇게 쓴다",
+    "author": "나카무라 구니오",
+    "genre": "작법서/에세이",
+    "tags": [
+      "무라카미하루키",
+      "글쓰기",
+      "문장작법",
+      "독서"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프리랜서 영상 디렉터이자 도쿄 오기쿠보의 북 카페 '로쿠지겐'을 운영하는 저자이다.",
+    "oneLineSummary": "무라카미 하루키의 작품 세계에서 건져 올린 맛있는 문장 쓰는 47가지 규칙을 다룬 작법서이다.",
+    "overallSummary": "하루키의 소설과 에세이에 등장하는 독특한 제목 짓기, 비유, 리듬감 있는 문체 등의 특징을 분석하여 누구나 매력적인 문장을 쓸 수 있도록 구체적인 규칙과 노하우를 전수한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 33가지 작법으로 무라카미 하루키 읽기",
+        "summary": "수수께끼 같은 제목 짓기, 강력한 키워드 활용, 언어유희 등 하루키 문체의 핵심 작법을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "책의 목적",
+        "value": "좋아하는 작가의 모방을 통해 실용적인 문장력 향상법 제시"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 오하시 아유미, 나카무라 구니오",
+    "settingText": "도쿄, 문학 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EN4k-ANC1iJcb-ZBxonHeCG5j3Q20kgL",
+    "filename": "나카무라 구니오-하루키는 이렇게 쓴다(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.651Z",
+    "size": "238035",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1EN4k-ANC1iJcb-ZBxonHeCG5j3Q20kgL/view?usp=drivesdk",
+    "sourceSha256": "aca4b88725a8681dd83a029839d6bb9a27dd13b1c7ab8925ea612be151f25708",
+    "textSha256": "28b3c17d3477bae04f9056b0bb6d5df668b814c519149560c099a64601b37b0f",
+    "changeKey": "9ff611a11819b623f572e7f8f8065d7d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e7f0e49c7990b84298e7",
+    "workId": "e7f0e49c7990b84298e7",
+    "driveFileId": "1EN4k-ANC1iJcb-ZBxonHeCG5j3Q20kgL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:29:17.503976+00:00",
+    "updatedAt": "2026-09-23T05:29:17.503992+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:29:17.504190+00:00"
+    }
+  }
+}
