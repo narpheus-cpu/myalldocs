@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그리스 미술 이야기",
+    "author": "노성두",
+    "genre": "예술/미술사",
+    "tags": [
+      "그리스",
+      "미술사",
+      "회화",
+      "조각"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "미술사",
+        "고고학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "노성두는 서양미술사와 고고학을 연구하는 학자입니다.",
+    "oneLineSummary": "고대 그리스 미술의 회화와 조각을 중심으로 그 이론적 배경과 역사적 진보를 다룬 미술사 입문서입니다.",
+    "overallSummary": "이 책은 고대 그리스 미술의 회화와 조각을 통해 서양 미술의 기원을 탐구합니다. 회화의 탄생 설화, 거장들의 일화, 조각의 비례법 등을 통해 그리스 미술이 어떻게 사실주의와 이상미를 추구하며 발전했는지 설명합니다. 미술을 감상하는 새로운 시각을 제공합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그리스 회화",
+        "summary": "회화의 기원 설화와 거장들의 일화, 미술의 진보 과정을 다룹니다."
+      },
+      {
+        "sectionTitle": "조각과 미학",
+        "summary": "그리스 조형론의 핵심인 폴뤼클레토스의 '카논'과 이상미를 추구한 조각 작품들을 분석합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "미술관",
+        "value": "그리스 미술은 사실주의와 이상미의 결합을 통해 서양 미술의 규범을 정립하였다."
+      }
+    ],
+    "keyEntitiesText": "제욱시스, 파라시오스, 아펠레스, 폴뤼클레토스, 플라톤, 아리스토텔레스",
+    "settingText": "고대 그리스와 로마 시대의 예술적 환경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cRAkzv0Jr9d9VxpTsfJzNnBhJXrQ6G1n",
+    "filename": "살림지식총서-그리스 미술 이야기(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:38:30.000Z",
+    "size": "147421",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1cRAkzv0Jr9d9VxpTsfJzNnBhJXrQ6G1n/view?usp=drivesdk",
+    "sourceSha256": "f8c4672c8628f35982e7d8a75878bda9d4d9368b4a5553ba0c2754aa03a3d3bd",
+    "textSha256": "426f0991912d35e0a3a69f109d404619fa7ab35a00effff9a6e39819e265b914",
+    "changeKey": "14dfa1c8bf59f848e0158f2d22a26d2b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "70c5f0d7232ce801b299",
+    "workId": "70c5f0d7232ce801b299",
+    "driveFileId": "1cRAkzv0Jr9d9VxpTsfJzNnBhJXrQ6G1n",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:15:27.571242+00:00",
+    "updatedAt": "2026-09-23T04:15:27.571257+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:15:27.571364+00:00"
+    }
+  }
+}

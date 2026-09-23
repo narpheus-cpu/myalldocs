@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "20세기의 위대한 지휘자",
+    "author": "김문경",
+    "genre": "음악/클래식",
+    "tags": [
+      "지휘자",
+      "클래식",
+      "음악가",
+      "음반"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "음악",
+        "인물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김문경은 클래식 음악 칼럼니스트이자 음악 해설가입니다.",
+    "oneLineSummary": "20세기를 대표하는 위대한 지휘자들의 삶과 음악적 스타일, 대표 음반을 소개합니다.",
+    "overallSummary": "이 책은 카라얀, 토스카니니, 브루노 발터, 클렘페러, 푸르트벵글러 등 20세기 클래식 음악계를 이끈 지휘자들의 생애와 지휘 철학을 다룹니다. 각 지휘자의 독특한 스타일과 인생의 굴곡을 조명하며, 초심자를 위한 추천 음반을 통해 그들의 음악 세계를 깊이 있게 감상할 수 있도록 돕습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "지휘자들의 세계",
+        "summary": "카라얀, 토스카니니, 브루노 발터 등 거장들의 지휘 스타일과 인생을 분석합니다."
+      },
+      {
+        "sectionTitle": "음악적 유산",
+        "summary": "각 지휘자의 대표적인 추천 음반을 통해 그들의 음악적 성취를 평가합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "지휘자의 역할",
+        "value": "지휘자는 오케스트라를 이끄는 독재자이자, 음악을 통해 자신의 철학을 구현하는 예술가이다."
+      }
+    ],
+    "keyEntitiesText": "헤르베르트 폰 카라얀, 아르투로 토스카니니, 브루노 발터, 오토 클렘페러, 빌헬름 푸르트벵글러",
+    "settingText": "20세기 클래식 음악계의 전성기."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SwTZETt1cYEeQ3BHxSOOt1yuNW7qfOZX",
+    "filename": "살림지식총서-20세기의 위대한 지휘자(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:34:12.000Z",
+    "size": "138202",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1SwTZETt1cYEeQ3BHxSOOt1yuNW7qfOZX/view?usp=drivesdk",
+    "sourceSha256": "141b3add9497c96df83f09b279e7099f55b28582cc9fbb59a998866e6832a64f",
+    "textSha256": "a7943820ec0c4352ff80986507a8eee7fa3ffd41ad39ca65f0a4c17510013074",
+    "changeKey": "88ef9c3f7271153402fd582f0e1c1f40",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "97c22a67728389d10b36",
+    "workId": "97c22a67728389d10b36",
+    "driveFileId": "1SwTZETt1cYEeQ3BHxSOOt1yuNW7qfOZX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:15:14.258769+00:00",
+    "updatedAt": "2026-09-23T04:15:14.258783+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:15:14.258872+00:00"
+    }
+  }
+}

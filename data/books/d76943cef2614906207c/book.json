@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영화로 보는 로큰롤",
+    "author": "김기범",
+    "genre": "음악/영화",
+    "tags": [
+      "로큰롤",
+      "영화",
+      "음악",
+      "대중문화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "음악",
+        "영화"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김기범은 록 음악과 공연을 즐기는 마니아이자 저술가입니다.",
+    "oneLineSummary": "영화라는 매체를 통해 로큰롤의 역사와 아티스트들의 삶을 조명하는 음악 에세이입니다.",
+    "overallSummary": "이 책은 로큰롤의 탄생부터 현대에 이르기까지의 역사를 관련 영화들을 통해 재구성합니다. 엘비스 프레슬리, 척 베리 등 전설적인 아티스트들의 삶과 음악적 성취를 영화적 시각에서 분석하며, 로큰롤이 대중문화에 끼친 영향과 그 시대의 트렌드를 생생하게 전달합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "로큰롤의 탄생",
+        "summary": "로버트 존슨의 신화와 엘비스 프레슬리, 척 베리 등 초기 로큰롤의 주역들을 다룹니다."
+      },
+      {
+        "sectionTitle": "로큰롤의 진화",
+        "summary": "블루스 브라더스 등 영화를 통해 로큰롤이 어떻게 대중문화의 핵심으로 자리 잡았는지 분석합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문화적 의의",
+        "value": "로큰롤은 20세기 청년 문화의 상징이며, 영화는 로큰롤의 성장을 돕고 그 역사를 기록하는 매체였다."
+      }
+    ],
+    "keyEntitiesText": "로버트 존슨, 엘비스 프레슬리, 척 베리, 제리 리 루이스",
+    "settingText": "20세기 중반 이후 미국을 중심으로 한 로큰롤의 역사."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VupUa2ybanM6-iLgn9emCfITeXMnjJcP",
+    "filename": "살림지식총서-영화로 보는 로큰롤(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:09:56.000Z",
+    "size": "135849",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1VupUa2ybanM6-iLgn9emCfITeXMnjJcP/view?usp=drivesdk",
+    "sourceSha256": "2af6abfce5404b4a1b79d023fa6c40a68c50cd41e60caba52a7dcc47c1d0bb49",
+    "textSha256": "f7fe1571ae8477eca2512df11448e26eb09efd01c47bb2ca975c8626c96ce05d",
+    "changeKey": "7c32759fa51a9d13e611091ba7ec14b6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d76943cef2614906207c",
+    "workId": "d76943cef2614906207c",
+    "driveFileId": "1VupUa2ybanM6-iLgn9emCfITeXMnjJcP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:15:54.470154+00:00",
+    "updatedAt": "2026-09-23T04:15:54.470170+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:15:54.470278+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "드가-무희의 화가",
+    "author": "드가",
+    "genre": "예술/전기",
+    "tags": [
+      "드가",
+      "화가",
+      "인상주의",
+      "예술가"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "예술",
+        "전기"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인상주의 화가 에드가 드가의 삶과 예술 세계를 다룬 전기입니다.",
+    "oneLineSummary": "인상주의의 거장 에드가 드가의 성장 배경과 예술적 형성 과정을 다룬 전기입니다.",
+    "overallSummary": "이 책은 에드가 드가의 가계 배경, 파리에서의 유년 시절, 그리고 그가 화가로서의 길을 선택하고 앵그르 등 거장들의 영향을 받으며 성장하는 과정을 추적합니다. 이탈리아 여행과 모사 작업을 통해 자신만의 독창적인 화풍을 구축해 나가는 예술적 여정을 상세히 기록하고 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "예술가의 교육",
+        "summary": "드가의 가문 배경과 루이 르 그랑 중학교 시절, 그리고 화가로서의 천직을 깨닫고 앵그르를 만나 모사 작업을 수행하는 과정을 다룹니다."
+      },
+      {
+        "sectionTitle": "이탈리아 여행과 자기 반성",
+        "summary": "이탈리아 체류 기간 동안 가족 초상화와 역사화 연구를 통해 예술적 기량을 쌓고 자신만의 독창성을 찾아가는 과정을 담았습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예술적 특징",
+        "value": "거장들의 작품 모사를 통해 기교를 익히고, 이를 바탕으로 독창적인 현대적 화풍을 구축함."
+      }
+    ],
+    "keyEntitiesText": "에드가 드가, 일레르 드가, 앵그르, 귀스타브 모로, 로라 벨렐리",
+    "settingText": "19세기 파리와 이탈리아의 예술적 환경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_JnaCL3CSkTdx3JZGfS0QZbekZIPkRWb",
+    "filename": "드가-무희의 화가.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.925Z",
+    "size": "87411",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1_JnaCL3CSkTdx3JZGfS0QZbekZIPkRWb/view?usp=drivesdk",
+    "sourceSha256": "8e491f83df944acdd6fda788ca889286392138aff6b832499bc228176033cf50",
+    "textSha256": "34e400ee18b3d3cd05015186e6e5a3ccdccb196b05ec229c8076b8a8b7f5e99a",
+    "changeKey": "0565f0ff659c3f965373e514911b2d21",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "50f870f2b7b7e48c324b",
+    "workId": "50f870f2b7b7e48c324b",
+    "driveFileId": "1_JnaCL3CSkTdx3JZGfS0QZbekZIPkRWb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:14:38.866472+00:00",
+    "updatedAt": "2026-09-23T04:14:38.866536+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:14:38.866650+00:00"
+    }
+  }
+}

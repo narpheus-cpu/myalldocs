@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대중가요가사모음",
+    "author": "김슬옹",
+    "genre": "음악/가사집",
+    "tags": [
+      "대중가요",
+      "가사",
+      "한국음악"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "가사집"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김슬옹이 엮은 한국 대중가요 가사 모음집입니다.",
+    "oneLineSummary": "1993년까지의 한국 대중가요 693곡의 가사를 수록한 자료집입니다.",
+    "overallSummary": "이 책은 한국의 전통적인 가요부터 1990년대 초반까지의 대중가요 가사를 가나다순으로 정리한 모음집입니다. 각 곡의 작사, 작곡, 노래 정보를 포함하고 있으며, 시대별로 한국인의 정서가 어떻게 가사에 투영되었는지 살펴볼 수 있는 아카이브적 성격을 띱니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "가사 수록",
+        "summary": "가고파, 가는 세월, 가슴 아프게 등 한국 대중가요의 가사를 수록하였습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "자료적 가치",
+        "value": "한국 대중가요의 시대적 정서와 노랫말의 변천사를 확인할 수 있는 기초 자료."
+      }
+    ],
+    "keyEntitiesText": "남진, 나훈아, 송창식, 패티김, 심수봉",
+    "settingText": "1993년 이전의 한국 대중문화 환경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1c4f0g2GEiMDv-mcnFN7bVWiMmZfCC0B8",
+    "filename": "대중가요가사모음.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.914Z",
+    "size": "356069",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1c4f0g2GEiMDv-mcnFN7bVWiMmZfCC0B8/view?usp=drivesdk",
+    "sourceSha256": "ba53d141ce329e1d8861e0a627a4a7be10cac84fd2d385b176beb3c0d51d7bde",
+    "textSha256": "10f7739e61c7037f7574a012dfec25fe57fe81d7662b5f06a1712d45f62e73d7",
+    "changeKey": "d5097731da1804bafa5c7fb5c63f530c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a4cabfb0e5e010d48065",
+    "workId": "a4cabfb0e5e010d48065",
+    "driveFileId": "1c4f0g2GEiMDv-mcnFN7bVWiMmZfCC0B8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:14:32.818615+00:00",
+    "updatedAt": "2026-09-23T04:14:32.818630+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:14:32.818732+00:00"
+    }
+  }
+}

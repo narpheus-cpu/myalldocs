@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "재즈 총론",
+    "author": "마크 그리들리",
+    "genre": "음악/재즈",
+    "tags": [
+      "재즈",
+      "음악사",
+      "즉흥연주",
+      "재즈음악가"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "음악사",
+        "재즈이론"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "마크 그리들리는 재즈의 역사와 스타일을 체계적으로 분석한 재즈 연구가입니다.",
+    "oneLineSummary": "재즈의 기원부터 현대까지의 스타일 변화와 즉흥 연주의 본질을 다룬 재즈 입문서입니다.",
+    "overallSummary": "이 책은 재즈의 기본 요소인 즉흥 연주와 스윙감을 중심으로 재즈의 역사를 서술합니다. 초기 재즈부터 스윙, 밥, 모던 재즈에 이르기까지 각 시대의 스타일과 대표적인 연주자들의 음악적 특성을 분석하며, 독자가 직접 음반을 감상하며 재즈를 이해할 수 있도록 안내합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "재즈의 기본",
+        "summary": "재즈의 정의와 즉흥 연주의 감상법, 캄보 연주에서의 악기별 역할을 설명합니다."
+      },
+      {
+        "sectionTitle": "재즈의 역사와 스타일",
+        "summary": "초기 재즈, 스윙, 밥, 모던 재즈 등 시기별 주요 스타일과 아티스트를 분석합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "재즈의 본질",
+        "value": "즉흥 연주(Improvisation)와 스윙감(Swing)은 재즈를 정의하는 핵심 요소이다."
+      }
+    ],
+    "keyEntitiesText": "듀크 엘링튼, 카운트 베이시, 마일즈 데이비스, 오네트 콜맨, 빌 에반스, 존 콜트레인",
+    "settingText": "20세기 미국을 중심으로 전 세계로 확산된 재즈의 역사."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19NZiAYZ_0h0Tp5JyFqghUVv4CnSrxuGH",
+    "filename": "마크 그리들리-재즈 총론.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.939Z",
+    "size": "530203",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/19NZiAYZ_0h0Tp5JyFqghUVv4CnSrxuGH/view?usp=drivesdk",
+    "sourceSha256": "2a3ee0dc2d602fe506880ee8ebc8fd28b16868b0ae5ffb16302c18aa363e049c",
+    "textSha256": "b5e5c2dae2e13d340a552838e452b91d079389b58edab57dcbf4543d277f8007",
+    "changeKey": "a97487b607f0da8f3a431073a7b7f1ba",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ee34b050ff483beb421a",
+    "workId": "ee34b050ff483beb421a",
+    "driveFileId": "19NZiAYZ_0h0Tp5JyFqghUVv4CnSrxuGH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:14:54.170532+00:00",
+    "updatedAt": "2026-09-23T04:14:54.170547+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:14:54.170669+00:00"
+    }
+  }
+}

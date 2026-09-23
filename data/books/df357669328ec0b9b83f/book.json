@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영화음악-불멸의 사운드트랙 이야기",
+    "author": "박신영",
+    "genre": "음악/영화",
+    "tags": [
+      "영화음악",
+      "사운드트랙",
+      "영화",
+      "음악"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "음악",
+        "영화"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "박신영은 음악과 대중문화를 연구하는 자유기고가입니다.",
+    "oneLineSummary": "영화음악의 기초 지식과 명작 영화 속 사운드트랙의 이야기를 다룬 음악 에세이입니다.",
+    "overallSummary": "이 책은 영화음악의 정의와 역사, 삽입곡과 스코어의 차이 등 기초 지식을 설명하고, '사운드 오브 뮤직', '시네마 천국' 등 명작 영화 속 음악이 어떻게 관객의 감성을 자극하는지 분석합니다. 영화와 음악의 공생 관계를 통해 사운드트랙이 가진 불멸의 가치를 조명합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "영화음악의 기초",
+        "summary": "영화음악의 정의, 역사, 삽입곡과 스코어의 차이 등 기초적인 개념을 설명합니다."
+      },
+      {
+        "sectionTitle": "명작 영화음악",
+        "summary": "사운드 오브 뮤직, 시네마 천국 등 명작 영화 속 음악의 연출과 감동을 분석합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "음악의 역할",
+        "value": "영화음악은 영화의 색을 뚜렷하게 표현하고 관객의 감정을 증폭시키는 공생 관계의 장르이다."
+      }
+    ],
+    "keyEntitiesText": "엔니오 모리꼬네, 줄리 앤드류스, 이병우",
+    "settingText": "영화와 음악이 결합된 대중문화의 역사."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pFrbeQC0nr-cHZXUxUqWBLIdutS1gxsr",
+    "filename": "살림지식총서-영화음악-불멸의 사운드트랙 이야기(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:10:26.000Z",
+    "size": "144116",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1pFrbeQC0nr-cHZXUxUqWBLIdutS1gxsr/view?usp=drivesdk",
+    "sourceSha256": "c0548e82e425347ae59083a5064bfbb01669ae510b4a2c23a8cb14318898d811",
+    "textSha256": "a59ea4299575fa45ebb7235a5db0a5cd8faca6596468802fe251599ec33527f5",
+    "changeKey": "a62e056cf257c66d56d658201b44a8ab",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "df357669328ec0b9b83f",
+    "workId": "df357669328ec0b9b83f",
+    "driveFileId": "1pFrbeQC0nr-cHZXUxUqWBLIdutS1gxsr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:16:02.496046+00:00",
+    "updatedAt": "2026-09-23T04:16:02.496062+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:16:02.496168+00:00"
+    }
+  }
+}

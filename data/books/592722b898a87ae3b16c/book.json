@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "김용호의 영상화두 와우",
+    "author": "김용호",
+    "genre": "영화 비평/에세이",
+    "tags": [
+      "영화",
+      "철학",
+      "영상",
+      "문화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "영화비평",
+        "문화비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김용호는 영화와 삶의 융합을 탐구하는 저자이자 비평가입니다.",
+    "oneLineSummary": "영화라는 텍스트를 통해 현대 사회의 모순과 인간의 삶, 그리고 동서양 철학의 융합을 성찰하는 에세이입니다.",
+    "overallSummary": "이 책은 다양한 영화들을 소재로 삼아 현대인이 직면한 기계와 인간의 관계, 시간의 문제, 지식의 위기 등을 철학적으로 고찰합니다. 저자는 영화를 단순한 예술 장르로 가두지 않고, 삶의 에너지로 활용하며 현실과 융합하는 '영상화두'를 던집니다. 노자의 도덕경과 영화적 상상력을 결합하여 분열된 현대인의 삶을 보듬는 방법을 제시합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "기계와 인간",
+        "summary": "스타트렉, 블레이드 러너 등 SF 영화를 통해 기술 문명 속에서 인간의 정체성과 창조자의 부재를 논합니다."
+      },
+      {
+        "sectionTitle": "영화로 말하는 삶",
+        "summary": "영화와 현실의 거리를 좁히고, 영화를 통해 삶의 의미를 찾고 변화를 춤추는 태도를 강조합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 메시지",
+        "value": "변화를 분석하는 것을 넘어 변화 그 자체가 되어 삶을 창조해야 한다."
+      }
+    ],
+    "keyEntitiesText": "커크 함장, 노자, 장일순, 김우중, 조병준",
+    "settingText": "1990년대 한국 사회의 급격한 변화와 영상 문화의 확산기."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17iuSOJ36w-imxQUdG7feXJjTU_s9G7ti",
+    "filename": "김용호의 영상화두 와우(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T17:41:44.000Z",
+    "size": "337475",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/17iuSOJ36w-imxQUdG7feXJjTU_s9G7ti/view?usp=drivesdk",
+    "sourceSha256": "fd4244c6eca21a5dd013b5b2147eed9fe62a75de9ada6c2c5a3c07dc28572da8",
+    "textSha256": "c2276a4f48ee41f3d6614df9667bb1eb61d52d19d8573eb063f488457462a2ae",
+    "changeKey": "e3ce354e07e6008482cb3867622698d9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "592722b898a87ae3b16c",
+    "workId": "592722b898a87ae3b16c",
+    "driveFileId": "17iuSOJ36w-imxQUdG7feXJjTU_s9G7ti",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:14:18.411564+00:00",
+    "updatedAt": "2026-09-23T04:14:18.411581+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:14:18.411697+00:00"
+    }
+  }
+}

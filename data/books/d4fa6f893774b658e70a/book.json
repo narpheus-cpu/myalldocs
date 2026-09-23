@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바로크",
+    "author": "신정아",
+    "genre": "예술/미술사",
+    "tags": [
+      "바로크",
+      "미술사",
+      "건축",
+      "문화"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "미술사",
+        "문화사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "신정아는 프랑스 문학과 예술을 연구하는 학자입니다.",
+    "oneLineSummary": "17세기 유럽을 지배한 바로크 양식의 기원과 특징, 그리고 현대적 의미를 다룬 입문서입니다.",
+    "overallSummary": "이 책은 바로크라는 개념이 어떻게 탄생하고 변천했는지, 그리고 미술, 건축, 음악, 문학 등 다양한 분야에서 바로크가 어떤 특징을 보이는지 설명합니다. 나보나 광장의 사례를 통해 바로크의 역동성과 과장, 역설의 미학을 분석하며, 바로크가 현대인에게 주는 매력을 조명합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "바로크의 이해",
+        "summary": "바로크 용어의 기원과 변천, 그리고 고전주의와의 대척점에서 바로크를 정의합니다."
+      },
+      {
+        "sectionTitle": "바로크 예술",
+        "summary": "베르니니와 보로미니의 건축을 중심으로 바로크 예술의 역동성과 조형적 특징을 분석합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "미학적 특징",
+        "value": "불안정성, 유동성, 변신, 장식의 지배를 통해 규범과 전통을 전복하는 창조성을 보여준다."
+      }
+    ],
+    "keyEntitiesText": "베르니니, 보로미니, 장 루세, 뵐플린",
+    "settingText": "17~18세기 유럽의 바로크 시대."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_4YUfpHK0dMbOIJ0uwyfpCeguNLj2pL8",
+    "filename": "살림지식총서-바로크(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:54:28.000Z",
+    "size": "148203",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1_4YUfpHK0dMbOIJ0uwyfpCeguNLj2pL8/view?usp=drivesdk",
+    "sourceSha256": "cee4bea42504dde7fc67debe313f8f526b67b2674357e899cc7f56a914126d92",
+    "textSha256": "1d3878ae39d6fa3e29da6ca1c9b14c050bcf9b1e4a61098da3fe4e091137f548",
+    "changeKey": "8d780e752f0d28e4bbdcba0cb2eae6f2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d4fa6f893774b658e70a",
+    "workId": "d4fa6f893774b658e70a",
+    "driveFileId": "1_4YUfpHK0dMbOIJ0uwyfpCeguNLj2pL8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:15:48.315011+00:00",
+    "updatedAt": "2026-09-23T04:15:48.315026+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:15:48.315132+00:00"
+    }
+  }
+}

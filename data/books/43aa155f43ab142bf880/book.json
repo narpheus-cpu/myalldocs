@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "피아노 연주기법",
+    "author": "하인리히 노이하우스",
+    "genre": "음악/예술",
+    "tags": [
+      "피아노",
+      "음악교육",
+      "연주법",
+      "예술"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "음악이론",
+        "교육"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "하인리히 노이하우스는 러시아의 위대한 피아니스트이자 교육자로, 리히테르와 길렐스 등을 가르쳤습니다.",
+    "oneLineSummary": "피아노 연주에 필요한 예술적 이미지, 리듬, 톤, 테크닉에 대한 깊이 있는 통찰을 담은 교육서입니다.",
+    "overallSummary": "이 책은 피아노 연주를 단순한 기술적 숙련이 아닌 예술적 이미지의 구현으로 정의합니다. 저자는 음악 작품에 대한 정신적 이해를 바탕으로 리듬, 톤, 테크닉을 어떻게 조화시킬지 설명하며, 선생과 학생의 관계, 음악회 활동 등 연주자의 전반적인 삶과 태도에 대해 조언합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "예술적 이미지와 테크닉",
+        "summary": "연주자가 작품의 본질을 이해하고 이를 기술적으로 어떻게 구현할 것인지에 대한 철학적 접근을 다룹니다."
+      },
+      {
+        "sectionTitle": "교육과 연주",
+        "summary": "스승으로서의 경험을 바탕으로 학생을 가르치는 방법과 연주자가 갖추어야 할 정신적 자세를 논합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 철학",
+        "value": "기술은 예술적 이미지를 표현하기 위한 수단이며, 무엇이 어떻게를 결정한다."
+      }
+    ],
+    "keyEntitiesText": "하인리히 노이하우스, 리히테르, 길렐스, 쇼팽, 베토벤",
+    "settingText": "20세기 중반 모스크바 음악원 중심의 피아노 교육 현장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MsQuuXRTYoYkkhvs2F4vGhpmGF-G36J1",
+    "filename": "노이하우스-피아노 연주기법(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T18:27:54.000Z",
+    "size": "703138",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1MsQuuXRTYoYkkhvs2F4vGhpmGF-G36J1/view?usp=drivesdk",
+    "sourceSha256": "3e2034248a9a597b5187ab282b7af1e6a2de706e2596424a7a07a14bebce2fe2",
+    "textSha256": "8974558763402a9b3b069babcf56dfb9655c10bf3ad23bc4db26f8397f82d451",
+    "changeKey": "4e30428fb88f13652c8569320f90b6c0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "43aa155f43ab142bf880",
+    "workId": "43aa155f43ab142bf880",
+    "driveFileId": "1MsQuuXRTYoYkkhvs2F4vGhpmGF-G36J1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:14:25.378427+00:00",
+    "updatedAt": "2026-09-23T04:14:25.378443+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:14:25.378618+00:00"
+    }
+  }
+}

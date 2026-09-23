@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "뮤지컬의 이해",
+    "author": "이동섭",
+    "genre": "예술/뮤지컬",
+    "tags": [
+      "뮤지컬",
+      "음악극",
+      "공연",
+      "예술"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "공연예술",
+        "음악"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이동섭은 예술과 공연을 연구하는 학자이자 비평가입니다.",
+    "oneLineSummary": "뮤지컬의 정의와 생성 역사, 주요 작품 분석을 통해 뮤지컬이라는 장르를 체계적으로 이해하는 입문서입니다.",
+    "overallSummary": "이 책은 한국에서 폭발적인 인기를 얻고 있는 뮤지컬의 정의와 기원을 오페레타와 오페라의 흐름 속에서 설명합니다. 뮤지컬의 3대 요소인 노래, 춤, 극을 중심으로 장르적 특성을 분석하고, 주요 명작들을 통해 뮤지컬 감상법을 제시하며 한국 뮤지컬 시장의 성장과 미래를 조망합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "뮤지컬의 정의와 역사",
+        "summary": "오페라와 오페레타에서 발전한 뮤지컬의 기원과 미국에서의 형성 과정을 다룹니다."
+      },
+      {
+        "sectionTitle": "뮤지컬 감상",
+        "summary": "주요 명작들을 통해 뮤지컬의 음악적, 극적 특성을 분석하고 감상하는 방법을 제시합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특성",
+        "value": "뮤지컬은 노래와 춤이 극의 플롯 전개에 긴밀하게 결합된 종합 무대 예술이다."
+      }
+    ],
+    "keyEntitiesText": "앤드류 로이드 웨버, 자크 오펜바흐, 플로렌츠 지그펠드, 장유정",
+    "settingText": "20세기 초 미국을 중심으로 한 뮤지컬의 탄생과 현대 한국의 뮤지컬 시장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EGCX5_C1jEhN2SctLg1uCW9LZCK9Z9zh",
+    "filename": "살림지식총서-뮤지컬의 이해(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:51:44.000Z",
+    "size": "151342",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1EGCX5_C1jEhN2SctLg1uCW9LZCK9Z9zh/view?usp=drivesdk",
+    "sourceSha256": "6ba0fab059282e6c0e8ad3666547540848a0bdeb8f3111b2de92d2de40d7ebb5",
+    "textSha256": "cd3b320989abdb91421b53d5fdbbbd9f4ab4e880fe879a2eed439643f3a8d8c5",
+    "changeKey": "36ff37584a09d18df63cbc69465b7306",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "414fdc62325af238dd3a",
+    "workId": "414fdc62325af238dd3a",
+    "driveFileId": "1EGCX5_C1jEhN2SctLg1uCW9LZCK9Z9zh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:15:41.522718+00:00",
+    "updatedAt": "2026-09-23T04:15:41.522733+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:15:41.522839+00:00"
+    }
+  }
+}

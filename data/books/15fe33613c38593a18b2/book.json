@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계의 정원 작은 에덴 동산",
+    "author": "가브리엘 반 쥘랑",
+    "genre": "인문/교양",
+    "tags": [
+      "정원",
+      "역사",
+      "조경",
+      "문화"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "인문학",
+        "조경사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "가브리엘 반 쥘랑은 정원과 조경의 역사를 연구하는 저술가입니다.",
+    "oneLineSummary": "고대부터 중세까지 인류가 낙원을 재창조하기 위해 가꾸어 온 정원의 역사와 그 속에 담긴 철학을 다룬 책입니다.",
+    "overallSummary": "이 책은 에덴 동산이라는 낙원의 개념이 메소포타미아, 이집트, 그리스, 로마를 거쳐 중세 유럽의 수도원 정원에 이르기까지 어떻게 변천하고 계승되었는지 탐구합니다. 각 문명권의 기후와 환경, 종교적 상징, 그리고 철학적 사유가 정원 디자인에 어떻게 반영되었는지를 상세히 설명하며, 정원이 단순한 공간을 넘어 인간의 이상향을 투영하는 장소임을 보여줍니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고대의 정원과 이슬람의 유산",
+        "summary": "메소포타미아, 이집트, 그리스, 로마의 정원 양식을 살펴보고, 이슬람 정원이 페르시아의 낙원 개념을 어떻게 계승하고 발전시켰는지 분석합니다."
+      },
+      {
+        "sectionTitle": "중세 정원",
+        "summary": "로마 제국 멸망 후 수도원을 중심으로 보존된 정원 전통과 기독교적 상징성이 담긴 '비밀의 정원' 및 문학적 환상 속의 낙원 정원을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정원 철학",
+        "value": "정원은 인간이 자연을 지배하거나 재현하려는 욕망과 낙원을 향한 향수가 결합된 공간임."
+      }
+    ],
+    "keyEntitiesText": "길가메시, 아슈르나시르팔 2세, 네부카드네자르 2세, 하체프수트 여왕, 에피쿠로스, 하드리아누스 황제, 샤를마뉴 대제",
+    "settingText": "고대 메소포타미아부터 중세 유럽에 이르는 광범위한 시대적 배경과 지리적 환경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1nJs_PFD3GkQwBcTlQ71tFqicFTMCq2DR",
+    "filename": "가브리엘 쥘랑-세계의 정원 작은 에덴 동산.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.900Z",
+    "size": "75504",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1nJs_PFD3GkQwBcTlQ71tFqicFTMCq2DR/view?usp=drivesdk",
+    "sourceSha256": "f9555e07dd6af0247d7a29547c703fb2366a4283f5e4ee097332518f5e823d2a",
+    "textSha256": "118a80405162f036488be3a06da3167ebb99c17411e2c0804d092f5635cb5145",
+    "changeKey": "68ff00c25cb97be914280d39b49caf9d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "15fe33613c38593a18b2",
+    "workId": "15fe33613c38593a18b2",
+    "driveFileId": "1nJs_PFD3GkQwBcTlQ71tFqicFTMCq2DR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:14:11.774577+00:00",
+    "updatedAt": "2026-09-23T04:14:11.774591+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:14:11.774765+00:00"
+    }
+  }
+}

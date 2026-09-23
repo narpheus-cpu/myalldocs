@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "20세기를 빛낸 극작가 20인",
+    "author": "백승무",
+    "genre": "인문/연극",
+    "tags": [
+      "극작가",
+      "연극",
+      "20세기",
+      "희곡"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "연극사",
+        "인문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "백승무는 연극과 희곡을 연구하는 학자이자 비평가입니다.",
+    "oneLineSummary": "20세기 연극사를 수놓은 20인의 극작가들의 삶과 작품 세계를 통해 시대정신을 조명합니다.",
+    "overallSummary": "이 책은 20세기의 영욕을 극적으로 표현해낸 20명의 극작가를 선정하여 그들의 생애와 극작 세계를 분석합니다. 부조리극, 사회적 리얼리즘 등 다양한 사조를 대표하는 작가들을 통해 지난 세기의 지성사적 윤곽을 그리고, 연극이 어떻게 인간의 상처와 통증을 기록했는지 보여줍니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "부조리의 순례자들",
+        "summary": "사무엘 베케트, 쟝 쥬네, 에우제네 이오네스코 등 부조리극 작가들의 작품 세계를 다룹니다."
+      },
+      {
+        "sectionTitle": "현대 연극의 거장들",
+        "summary": "해롤드 핀터 등 20세기 연극의 지평을 넓힌 주요 작가들을 소개합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작가의 관점",
+        "value": "극작가는 시대의 상처와 통증을 감지하는 촉수이며, 그들의 작품은 시대정신의 표상이다."
+      }
+    ],
+    "keyEntitiesText": "사무엘 베케트, 쟝 쥬네, 에우제네 이오네스코, 해롤드 핀터",
+    "settingText": "20세기 전반의 격동적인 역사적 배경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_AwKyNU4M6o3esrSEnwOHVl-A3zzBQTK",
+    "filename": "살림지식총서-20세기를 빛낸 극작가 20인(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:33:44.000Z",
+    "size": "151359",
+    "folderPath": [
+      "books",
+      "13 예술"
+    ],
+    "relativePath": "books/13 예술",
+    "webViewLink": "https://drive.google.com/file/d/1_AwKyNU4M6o3esrSEnwOHVl-A3zzBQTK/view?usp=drivesdk",
+    "sourceSha256": "50e6d23b4e8a4e3b8ab2c51b9e7a3084410543ede3c60c036a61b0fe62b348c6",
+    "textSha256": "3cbcf06b9c63ecf693e30c17c6132668952396f0f122a3a0df5d15f8bd7b07b6",
+    "changeKey": "ecc1d192e8724f0b18641fc0b7746e7f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d0bc129f41ed0f3901b8",
+    "workId": "d0bc129f41ed0f3901b8",
+    "driveFileId": "1_AwKyNU4M6o3esrSEnwOHVl-A3zzBQTK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:15:07.142043+00:00",
+    "updatedAt": "2026-09-23T04:15:07.142058+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:15:07.142162+00:00"
+    }
+  }
+}
