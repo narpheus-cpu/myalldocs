@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "몽구",
+    "author": "이한",
+    "genre": "교육서",
+    "tags": [
+      "동양고전",
+      "훈육서",
+      "지혜",
+      "인생",
+      "중국"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "education",
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 당나라 현종 때 사람으로, 고향 요주에서 후학을 가르치며 일생을 보냈다.",
+    "oneLineSummary": "중국 당나라 때부터 널리 읽힌 아동 교육서로, 옛 선현들의 고사를 통해 삶의 지혜를 전하는 책이다.",
+    "overallSummary": "이한이 지은 '몽구'는 어리석은 어린이가 스승에게 가르침을 구한다는 뜻을 담고 있다. 선과 악, 미와 추 등 다양한 인간군상의 모습을 고사를 통해 보여주며 올바른 삶의 좌표를 제시하는 인생 교과서이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫째 문, 사람을 부리는 지혜",
+        "summary": "성군과 폭군의 사례를 통해 인재를 대우하고 만 백성을 다스리는 통치자의 지혜를 다룬다."
+      },
+      {
+        "sectionTitle": "둘째 문, 아랫사람이 갖춰야 할 지혜",
+        "summary": "겸손과 예의를 통해 인재를 끌어안고 신뢰를 얻는 방법을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성 방식",
+        "value": "네 글자씩 이어지는 시구와 그에 대한 고사 이야기"
+      },
+      {
+        "key": "역사적 가치",
+        "value": "성리학 도덕주의 이전의 자유로운 삶의 세계를 보여줌"
+      }
+    ],
+    "keyEntitiesText": "이한, 서자광, 탕왕, 연나라 소왕, 곽외, 정당시, 평원군 조승, 초장왕",
+    "settingText": "중국 고대부터 당나라 시대까지의 역사적 배경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zlalBGudLhO_KQR8ey53gpSpucghUMp1",
+    "filename": "이한-몽구-지혜로 두드리는 인생의 아홉 가지 문 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.560Z",
+    "size": "496302",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1zlalBGudLhO_KQR8ey53gpSpucghUMp1/view?usp=drivesdk",
+    "sourceSha256": "76e00ae329d81539bf228ddce586806a8f1124efc9471ac53bbfeb684a901552",
+    "textSha256": "f6ba27752c31da33a86253844edac27e1032caa2d88473e138761bd839a04ca0",
+    "changeKey": "d2076bbe56dd451fdb2d0149c28e0dbd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "68b02a271c3a602db528",
+    "workId": "68b02a271c3a602db528",
+    "driveFileId": "1zlalBGudLhO_KQR8ey53gpSpucghUMp1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:43:50.802446+00:00",
+    "updatedAt": "2026-09-23T01:43:50.802461+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:43:50.802569+00:00"
+    }
+  }
+}

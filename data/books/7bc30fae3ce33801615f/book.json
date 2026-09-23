@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "꽃삽",
+    "author": "이해인",
+    "genre": "수필",
+    "tags": [
+      "수녀",
+      "산문집",
+      "일상",
+      "자연",
+      "사랑"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "religion",
+        "meditation"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "부산 광안리 성베네딕도 수녀원의 수녀이자 시인으로, 일상의 아름다움을 노래하는 글을 쓴다.",
+    "oneLineSummary": "수녀원 일상의 소소한 풍경과 자연, 이웃에 대한 사랑을 담은 산문집이다.",
+    "overallSummary": "일상의 평범하고 작은 이야기들을 통해 자연과 인간사의 미묘한 기미를 섬세하게 포착한 산문집이다. 작은 것의 아름다움에 눈뜨는 기쁨과 삶을 사랑하는 마음을 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고독을 위한 의자",
+        "summary": "홀로 있는 시간의 소중함과 고독을 길들이는 법에 대해 이야기한다."
+      },
+      {
+        "sectionTitle": "아름다운 순간들",
+        "summary": "일상 속에서 발견하는 아름다움과 기도, 우정의 소중함을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "섬세하고 따뜻하며 자연과 깊이 교감함"
+      },
+      {
+        "key": "주요 테마",
+        "value": "일상의 성찰, 작은 것의 아름다움, 사랑과 감사"
+      }
+    ],
+    "keyEntitiesText": "이해인, 박완서, 천상병, 성 프란치스코",
+    "settingText": "부산 광안리 성베네딕도 수녀원과 그 주변."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gKLvq12yq9OGZbgulGcr0p1lKkhRimsm",
+    "filename": "이해인-꽃삽.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.587Z",
+    "size": "287615",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1gKLvq12yq9OGZbgulGcr0p1lKkhRimsm/view?usp=drivesdk",
+    "sourceSha256": "8e518aa7e6c2bbc25b570a0ad30af55b706d67019a0e306e1c65875a80abfc46",
+    "textSha256": "4e4c558a753fba74ce65dcc56c797ea201ae38866d25738460880188f493c672",
+    "changeKey": "2a4bec11d03cb1bcd737f814bc0f83f5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7bc30fae3ce33801615f",
+    "workId": "7bc30fae3ce33801615f",
+    "driveFileId": "1gKLvq12yq9OGZbgulGcr0p1lKkhRimsm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:43:57.581915+00:00",
+    "updatedAt": "2026-09-23T01:43:57.581930+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:43:57.582071+00:00"
+    }
+  }
+}

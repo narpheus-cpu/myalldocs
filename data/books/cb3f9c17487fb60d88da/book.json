@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "삼국유사의 현장 기행",
+    "author": "이하석",
+    "genre": "답사기",
+    "tags": [
+      "삼국유사",
+      "역사",
+      "답사",
+      "신라",
+      "설화"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "travelogue",
+        "cultural_heritage"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "대구 매일신문 기자 출신으로, 삼국유사의 현장을 직접 답사하고 기록한 저자이다.",
+    "oneLineSummary": "삼국유사에 기록된 신화와 설화의 현장을 직접 찾아가 그 흔적과 의미를 되새기는 답사기이다.",
+    "overallSummary": "저자가 1982년 신문 연재를 위해 경주와 그 일대를 중심으로 삼국유사의 현장을 답사한 기록을 엮은 책이다. 산업화로 인해 사라져가는 유적과 설화의 현장을 확인하고, 과거의 흔적을 통해 오늘의 우리 존재 위치를 살피고자 했다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "군위 인각사",
+        "summary": "일연 스님이 만년에 머물며 삼국유사를 집필한 인각사의 유적과 일연의 업적을 소개한다."
+      },
+      {
+        "sectionTitle": "울산 처용바위",
+        "summary": "처용 설화의 현장인 처용암을 통해 신라인의 용 숭배와 열병 퇴치 신앙을 분석한다."
+      },
+      {
+        "sectionTitle": "울주 영취사지",
+        "summary": "문수산 일대의 영취사지를 찾아 신라인의 익살과 기행, 문수보살 설화를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "답사 대상",
+        "value": "삼국유사에 등장하는 신화, 설화, 역사적 사건의 현장"
+      },
+      {
+        "key": "집필 의도",
+        "value": "사라져가는 역사적 현장을 기록하고 오늘의 의미를 찾음"
+      }
+    ],
+    "keyEntitiesText": "일연, 헌강왕, 처용, 원효대사, 문무왕, 이차돈, 수로왕, 허황옥",
+    "settingText": "주로 경주와 그 주변 지역, 신라 시대의 역사적 현장들."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pUnS-iRdqaZU6t0AJ38D6x8NUAxbzm8u",
+    "filename": "이하석-삼국유사의 현장 기행.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.548Z",
+    "size": "232598",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1pUnS-iRdqaZU6t0AJ38D6x8NUAxbzm8u/view?usp=drivesdk",
+    "sourceSha256": "23617b226a94b6839bdf3672c3db0ef9131f1cd61c6e19154f6bff63577a9ad4",
+    "textSha256": "8a55f1576b0a46fa184a78cccb3feb895157713da34a96f88e6637ab74824d45",
+    "changeKey": "55b4409c3ea3bbb3cc0cebf729c440dd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cb3f9c17487fb60d88da",
+    "workId": "cb3f9c17487fb60d88da",
+    "driveFileId": "1pUnS-iRdqaZU6t0AJ38D6x8NUAxbzm8u",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:43:43.825645+00:00",
+    "updatedAt": "2026-09-23T01:43:43.825659+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:43:43.825858+00:00"
+    }
+  }
+}

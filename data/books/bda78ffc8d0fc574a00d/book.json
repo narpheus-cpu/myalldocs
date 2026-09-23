@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "임어당 에세이選",
+    "author": "임어당",
+    "genre": "수필",
+    "tags": [
+      "임어당",
+      "에세이",
+      "인생",
+      "철학",
+      "유머"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy",
+        "humor"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국의 대문호이자 언어학자로, 유머와 철학이 담긴 글을 썼다.",
+    "oneLineSummary": "중국의 대문호 임어당이 인생과 자연, 인간에 대해 쓴 에세이들을 엮은 책이다.",
+    "overallSummary": "인생에 대한 깊은 통찰과 유머가 담긴 임어당의 에세이들을 모았다. 동양적 지혜와 서구적 합리주의를 조화시켜 삶의 본질을 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나의 명상록",
+        "summary": "인생과 도덕, 정치 등에 대한 임어당의 철학적 사색을 담았다."
+      },
+      {
+        "sectionTitle": "방황과 고뇌의 언덕",
+        "summary": "현대 문명과 교육, 문화에 대한 비판적 시각을 보여준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "유머러스하고 철학적이며 현실주의적 휴머니즘"
+      }
+    ],
+    "keyEntitiesText": "임어당, 공자, 버나드 쇼오, 처칠",
+    "settingText": "중국과 세계."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10ccc2rkB7vl5n-is4nJYyw4W4UWdCH2x",
+    "filename": "임어당 에세이選.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.785Z",
+    "size": "442715",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/10ccc2rkB7vl5n-is4nJYyw4W4UWdCH2x/view?usp=drivesdk",
+    "sourceSha256": "391b08dd9902b79d6304f0bb2b9770b41144cf47b6a082bb49776ef9e17431e8",
+    "textSha256": "90abe72ffe1e3821caf62e76547475475305948b703c790ca684525a557e444b",
+    "changeKey": "1ec1c21a61de4c1dafd84b9ae6a089d4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bda78ffc8d0fc574a00d",
+    "workId": "bda78ffc8d0fc574a00d",
+    "driveFileId": "10ccc2rkB7vl5n-is4nJYyw4W4UWdCH2x",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:45:04.627303+00:00",
+    "updatedAt": "2026-09-23T01:45:04.627318+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:45:04.627419+00:00"
+    }
+  }
+}

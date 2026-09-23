@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바가바드기타",
+    "author": "미상",
+    "genre": "경전",
+    "tags": [
+      "인도",
+      "힌두교",
+      "철학",
+      "요가",
+      "경전"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "religion",
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인도의 고대 서사시 마하바라타의 일부로, 저자는 미상이다.",
+    "oneLineSummary": "전쟁터에서 고뇌하는 아르주나에게 크리슈나가 전하는 삶과 의무, 요가에 관한 가르침이다.",
+    "overallSummary": "쿠루크셰트라 전쟁 직전, 혈족을 죽여야 하는 상황에서 고뇌하는 아르주나에게 크리슈나가 참된 자아와 의무, 요가의 길을 설파하는 인도 최고의 경전이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "해설",
+        "summary": "아르주나의 고뇌와 크리슈나의 가르침을 통해 인간 내면의 갈등과 실천적 원리를 설명한다."
+      },
+      {
+        "sectionTitle": "요가의 길",
+        "summary": "지식의 길과 행위의 길을 통해 절대자와 하나가 되는 요가의 실천을 강조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 사상",
+        "value": "집착 없는 행위, 의무 수행, 신에 대한 헌신"
+      }
+    ],
+    "keyEntitiesText": "아르주나, 크리슈나, 유디슈트라, 두료다나",
+    "settingText": "쿠루크셰트라 전쟁터."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WDUOckQFOhAtrKdHN79IKoY26anit63r",
+    "filename": "인도경전-바가바드기타.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.636Z",
+    "size": "52717",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1WDUOckQFOhAtrKdHN79IKoY26anit63r/view?usp=drivesdk",
+    "sourceSha256": "fd20a2eb3b73ec7cd8e03ead47ce1d8338e122fd329993e877e65327c136b0d1",
+    "textSha256": "a2eb962c4aad9155157253692c51df9b33fd49334011e6ac6c0cecf8a442bbbd",
+    "changeKey": "2ffa6ef0c6ffdeb43e99369a9b5f89fd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4bc1b57bec2ac0d6e6e6",
+    "workId": "4bc1b57bec2ac0d6e6e6",
+    "driveFileId": "1WDUOckQFOhAtrKdHN79IKoY26anit63r",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:44:23.883430+00:00",
+    "updatedAt": "2026-09-23T01:44:23.883444+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:44:23.883545+00:00"
+    }
+  }
+}

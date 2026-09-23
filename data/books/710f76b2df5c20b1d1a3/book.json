@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑할 땐 별이 되고",
+    "author": "이해인",
+    "genre": "수필",
+    "tags": [
+      "수녀",
+      "산문집",
+      "기도",
+      "사랑",
+      "명상"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "religion",
+        "meditation"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "부산 광안리 성베네딕도 수녀원의 수녀이자 시인이다.",
+    "oneLineSummary": "일상 속에서 건져 올린 기도와 명상의 기록들을 담은 산문집이다.",
+    "overallSummary": "저자의 마음 하늘에 떠올랐던 생각들을 묶은 산문집으로, 일상 속에서 하느님과 이웃을 향한 사랑과 기도의 마음을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "기도일기",
+        "summary": "일상의 바쁨 속에서도 기쁨과 평화를 찾는 기도하는 마음을 다룬다."
+      },
+      {
+        "sectionTitle": "봄꽃들의 축제",
+        "summary": "수녀원 정원의 꽃들과 자연을 통해 느끼는 삶의 성찰을 담았다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 메시지",
+        "value": "일상의 작은 것에서 기쁨과 감사를 발견함"
+      }
+    ],
+    "keyEntitiesText": "이해인, 피천득, 진주, 아린",
+    "settingText": "부산 광안리 성베네딕도 수녀원."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1x3dzWeC52ToMZZ_gtJ8UhYzLyjsTLcKw",
+    "filename": "이해인-사랑할땐 별이 되고.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.600Z",
+    "size": "190815",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1x3dzWeC52ToMZZ_gtJ8UhYzLyjsTLcKw/view?usp=drivesdk",
+    "sourceSha256": "bbab09798bf7e262bdf9a62f09a1f0cdd5cb09a4807c8d80a1dc8b1ebc27e81d",
+    "textSha256": "d2c88bbe63bd61164789b52d3a38dd5e4ab2006b8e50c6fc405a40e472935062",
+    "changeKey": "39327dc7879985552303d6ab70c96e17",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "710f76b2df5c20b1d1a3",
+    "workId": "710f76b2df5c20b1d1a3",
+    "driveFileId": "1x3dzWeC52ToMZZ_gtJ8UhYzLyjsTLcKw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:44:06.175518+00:00",
+    "updatedAt": "2026-09-23T01:44:06.175533+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:44:06.175631+00:00"
+    }
+  }
+}

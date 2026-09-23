@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "증상으로 알 수 있는 신체의 이상",
+    "author": "일본 NHK",
+    "genre": "의학",
+    "tags": [
+      "건강",
+      "의학",
+      "증상",
+      "질병",
+      "가정의학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "health",
+        "reference"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 공영 방송국인 NHK의 건강 프로그램 제작진이다.",
+    "oneLineSummary": "신체 증상을 통해 질병의 가능성을 파악하고 대처법을 알려주는 가정의학 백과이다.",
+    "overallSummary": "중년과 노년층을 대상으로 신체의 이상 증상을 통해 어떤 병일 가능성이 있는지, 어느 과를 찾아야 하는지 등 건강 관리와 의료 이용법을 조언한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "미열이 계속된다",
+        "summary": "미열의 정의와 측정 방법, 병적 발열을 구분하는 법을 설명한다."
+      },
+      {
+        "sectionTitle": "나른하다",
+        "summary": "빈혈 등 나른함을 유발하는 질병의 원인과 증상을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "활용법",
+        "value": "진료 전 나침반 역할, 증상별 질병 가능성 확인"
+      }
+    ],
+    "keyEntitiesText": "일본 NHK, 히노하라 시게아끼, 아베 마사가즈",
+    "settingText": "가정 내 건강 관리."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gbKKCUqD0WlGoKRNMxvijxXesx0F9w48",
+    "filename": "일본 NHK-증상으로 알 수 있는 신체의 이상 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.673Z",
+    "size": "954343",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1gbKKCUqD0WlGoKRNMxvijxXesx0F9w48/view?usp=drivesdk",
+    "sourceSha256": "06263bf1167a2593b31fd5983bf28a83cb1a2b9309621c2a4a3c796f2df42acb",
+    "textSha256": "7a517083a762b8cb61ed29457e501cfd77cef5b311ff779a23ee851c6a6e09b3",
+    "changeKey": "4d2118cfb5c07d61e6b4903c0193960a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "695b3ee1c4c6e6417f47",
+    "workId": "695b3ee1c4c6e6417f47",
+    "driveFileId": "1gbKKCUqD0WlGoKRNMxvijxXesx0F9w48",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:44:37.114307+00:00",
+    "updatedAt": "2026-09-23T01:44:37.114321+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:44:37.114423+00:00"
+    }
+  }
+}
