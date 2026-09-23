@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "107개의 병원을 가진 남자",
+    "author": "도쿠다 도라오",
+    "genre": "자서전 / 의료 에세이",
+    "tags": [
+      "의료개혁",
+      "도쿠슈카이",
+      "환자중심",
+      "자서전"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도쿠다 도라오는 가고시마현 도쿠노시마 출신의 의사이자 도쿠슈카이 의료그룹의 설립자로, 환자 중심의 의료 개혁을 이끈 인물입니다.",
+    "oneLineSummary": "어린 시절 동생의 죽음을 계기로 의사가 되어 연중무휴 24시간 진료라는 환자 중심의 의료 이상을 실현해 나간 감동적인 일대기입니다.",
+    "overallSummary": "저자는 가난한 섬마을에서 제때 치료받지 못해 죽은 동생의 비극을 겪으며 의사가 되기로 결심합니다. 일본 의료계의 모순과 타성에 분노하며 '언제, 어디서나, 누구나 최선의 치료를 받을 수 있는 사회'를 만들기 위해 107개의 병원을 설립하고 헌신한 과정을 담고 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "분노와 슬픔에 사로잡혀",
+        "summary": "응급의료 제도의 불만과 동생의 죽음으로 의사가 되기를 결심한 계기."
+      },
+      {
+        "sectionTitle": "우리를 가르친 어머니의 생활태도",
+        "summary": "평생 묵묵히 일하며 자식들에게 인내와 절약을 몸소 보여준 어머니에 대한 존경과 영향."
+      },
+      {
+        "sectionTitle": "빈농의 아들로 의사가 되다",
+        "summary": "가난한 환경을 극복하고 오사카에서 고학하여 의대에 합격한 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "의료 철학",
+        "value": "의료의 기본은 응급의료에 있으며, 이를 위해 연중무휴 24시간 진료가 필수적이라는 신념."
+      }
+    ],
+    "keyEntitiesText": "도쿠다 도라오, 도쿠노시마, 도쿠슈카이 병원, 오사카 대학",
+    "settingText": "현대 일본, 가고시마현 도쿠노시마 및 오사카"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1spPXz0DkXiz7aWpOncVhAWitmtVGZ3cd",
+    "filename": "도쿠다 도라오-107개의 병원을 가진 남자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:34.540Z",
+    "size": "225804",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1spPXz0DkXiz7aWpOncVhAWitmtVGZ3cd/view?usp=drivesdk",
+    "sourceSha256": "75c011ab48441b901ec0e90fc7c16fea189d1b8d760721f693ce1462d7aea6bb",
+    "textSha256": "1ee487947a3ab8b40bbd16cc00e55f50e9ca0a16430b33697a72035154da0c53",
+    "changeKey": "3a6f50cedc81be2f76e46b2444875e3a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7e23bf66f3cd7845fe29",
+    "workId": "7e23bf66f3cd7845fe29",
+    "driveFileId": "1spPXz0DkXiz7aWpOncVhAWitmtVGZ3cd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:34:16.619713+00:00",
+    "updatedAt": "2026-09-23T00:34:16.619723+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:34:16.619832+00:00"
+    }
+  }
+}
