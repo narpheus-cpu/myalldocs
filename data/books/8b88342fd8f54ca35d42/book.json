@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사람만이 희망이다",
+    "author": "박노해",
+    "genre": "에세이",
+    "tags": [
+      "박노해",
+      "희망",
+      "삶",
+      "성찰"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "철학",
+        "문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "노동운동가이자 시인으로, 수감 생활 중 쓴 글들을 엮은 저자.",
+    "oneLineSummary": "수감 생활 중 깨달은 삶의 성찰과 희망에 대한 에세이.",
+    "overallSummary": "저자가 수감 생활 중 가족과 지인들에게 보낸 글들을 엮어, 투쟁의 삶에서 벗어나 인간 본연의 가치와 희망을 노래한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "序. 그 여자 앞에 무너져 내리다",
+        "summary": "수감 중 만난 한 여인을 통해 자신의 삶을 되돌아보고 참회하는 과정을 그린다."
+      },
+      {
+        "sectionTitle": "아직과 이미 사이",
+        "summary": "현실 속에서 희망을 발견하고 실천하는 삶의 태도를 강조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요테마",
+        "value": "성찰, 희망, 인간애"
+      },
+      {
+        "key": "형식",
+        "value": "에세이 및 산문시"
+      }
+    ],
+    "keyEntitiesText": "박노해, 김진주, 김수환 추기경",
+    "settingText": "경주교도소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1k3OJV6Hpi7ULJAiscZ0FnM_EoDk_dRdm",
+    "filename": "박노해-사람만이 희망이다-박노해의 새벽에 길어올린 한 생각 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:36.081Z",
+    "size": "269422",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1k3OJV6Hpi7ULJAiscZ0FnM_EoDk_dRdm/view?usp=drivesdk",
+    "sourceSha256": "4a699a4fe9048e15b240a0e202b76a91c241482196458a2e427fc9a1849663c3",
+    "textSha256": "b6316d8cd3778380895dff41a7a5ffd16eefa1382818465993d278c5644b8f96",
+    "changeKey": "49195bc39f5887cd2395ad4271bc740a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8b88342fd8f54ca35d42",
+    "workId": "8b88342fd8f54ca35d42",
+    "driveFileId": "1k3OJV6Hpi7ULJAiscZ0FnM_EoDk_dRdm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:48:18.823357+00:00",
+    "updatedAt": "2026-09-23T00:48:18.823376+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:48:18.823463+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "말년에 실수하지 맙시다",
+    "author": "박상영",
+    "genre": "정치/사회",
+    "tags": [
+      "정치",
+      "YS",
+      "DJ",
+      "비평"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "정치",
+        "사회"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정치 비평가.",
+    "oneLineSummary": "YS와 DJ의 과거 언행을 분석한 정치 비평서.",
+    "overallSummary": "YS와 DJ 두 정치인의 과거 발언과 약속, 행적을 정리하여 그들의 언행일치 여부를 비판적으로 분석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나의 취미는 승마",
+        "summary": "YS의 과거 취미와 언행을 통해 그의 정치적 행보를 비판한다."
+      },
+      {
+        "sectionTitle": "우리집 가훈은 부자가 안 되는 것",
+        "summary": "DJ의 과거 발언과 행적을 통해 그의 정치적 행보를 비판한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "성격",
+        "value": "정치 비평"
+      },
+      {
+        "key": "주요내용",
+        "value": "정치인 언행일치 분석"
+      }
+    ],
+    "keyEntitiesText": "김영삼(YS), 김대중(DJ), 손명순",
+    "settingText": "대한민국 정치 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CnrkrDEE0EK3FywdGQSyg17qQ6ORKKzy",
+    "filename": "박상영-말년에 실수하지 맙시다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:36.130Z",
+    "size": "291009",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1CnrkrDEE0EK3FywdGQSyg17qQ6ORKKzy/view?usp=drivesdk",
+    "sourceSha256": "36494027aef39e74d54567e442c0ec4da6df608524983e1baf15544da9f60ca6",
+    "textSha256": "a42a5412496a9c0864305fb188b10250ea52696a5cb23b545712ee8abbc27a5a",
+    "changeKey": "ab9dda25f4c59b78c69cc766565df1b4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bb2bc7184aea6cf4f4bc",
+    "workId": "bb2bc7184aea6cf4f4bc",
+    "driveFileId": "1CnrkrDEE0EK3FywdGQSyg17qQ6ORKKzy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:48:37.420256+00:00",
+    "updatedAt": "2026-09-23T00:48:37.420273+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:48:37.420361+00:00"
+    }
+  }
+}

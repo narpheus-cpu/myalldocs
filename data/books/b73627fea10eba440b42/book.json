@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "스님! 굴비맛 보셨습니까",
+    "author": "박삼중",
+    "genre": "에세이",
+    "tags": [
+      "스님",
+      "택시",
+      "인생",
+      "교화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "종교",
+        "수필"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "교도소 교화 활동을 하는 스님.",
+    "oneLineSummary": "택시 안에서 만난 사람들의 이야기를 통해 삶의 지혜를 전하는 에세이.",
+    "overallSummary": "저자가 택시를 이용하며 만난 기사들과 승객들의 이야기를 통해 인생의 애환과 깨달음을 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "달리는 부처 기사",
+        "summary": "택시 기사들과의 대화를 통해 마음의 중요성과 선행의 가치를 이야기한다."
+      },
+      {
+        "sectionTitle": "참는 자에게 복이 있나니",
+        "summary": "인욕의 중요성과 삶의 고난을 극복하는 지혜를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요테마",
+        "value": "인생의 깨달음, 자비"
+      },
+      {
+        "key": "특징",
+        "value": "택시 기사들의 실화 중심"
+      }
+    ],
+    "keyEntitiesText": "박삼중, 만공 선사, 전강 스님",
+    "settingText": "택시 안 및 일상 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IawVyVzncw9DNbySePWjs7X2dIR6pgJm",
+    "filename": "박삼중-스님! 굴비맛 보셨습니까-택시 안에서 바라본 37가지 이야기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:36.098Z",
+    "size": "406231",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1IawVyVzncw9DNbySePWjs7X2dIR6pgJm/view?usp=drivesdk",
+    "sourceSha256": "66da979a4a4db6a529cebcec302781897f323acba98d05479937a38fd46e83db",
+    "textSha256": "8d6e2a2af3c5d97b67f37bacd4463ef28becd00963be84f8613a56638cf22d5e",
+    "changeKey": "88aa056916103fc9ed8c0137d92eb06a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b73627fea10eba440b42",
+    "workId": "b73627fea10eba440b42",
+    "driveFileId": "1IawVyVzncw9DNbySePWjs7X2dIR6pgJm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:48:25.541855+00:00",
+    "updatedAt": "2026-09-23T00:48:25.541906+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:48:25.542002+00:00"
+    }
+  }
+}

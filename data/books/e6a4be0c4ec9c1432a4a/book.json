@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바빌론 탈무드",
+    "author": "이회영",
+    "genre": "종교/철학",
+    "tags": [
+      "탈무드",
+      "유대인",
+      "지혜",
+      "율법"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "종교",
+        "경제"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "유대인의 지혜서인 탈무드를 해설한 저자.",
+    "oneLineSummary": "유대인의 지혜와 경제관, 율법을 담은 탈무드 해설서.",
+    "overallSummary": "유대인의 성공 비결과 그들의 삶의 지침이 되는 탈무드의 가르침을 시대적 배경과 함께 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세상을 움직이는 유대인",
+        "summary": "유대인의 경제관과 그들이 돈을 대하는 태도를 설명한다."
+      },
+      {
+        "sectionTitle": "율법과 믿음의 민족",
+        "summary": "유대인이 율법을 중시하는 이유와 그들의 신앙적 배경을 다룬다."
+      },
+      {
+        "sectionTitle": "탈무드 지혜란 무엇인가",
+        "summary": "탈무드의 핵심 사상과 유대교의 가르침을 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심주제",
+        "value": "지혜, 율법, 경제관"
+      },
+      {
+        "key": "특징",
+        "value": "유대인의 삶의 철학 해설"
+      }
+    ],
+    "keyEntitiesText": "아브라함, 야훼, 랍비",
+    "settingText": "고대 이스라엘 및 유대인 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17FG7-E8zSW8DnbElxHkTq_jXaVH2hA93",
+    "filename": "바빌론 탈무드(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T00:06:34.000Z",
+    "size": "1454307",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/17FG7-E8zSW8DnbElxHkTq_jXaVH2hA93/view?usp=drivesdk",
+    "sourceSha256": "5171a0817c0a770ee58d8344397e050a6a8feced20fd1e615c589f2a0996dc16",
+    "textSha256": "9fe2348f9a9c98a535d520dd55aab8ddb35d8f4dd342254539811db950fbba6d",
+    "changeKey": "33d737237939b39ccecf97097b4a9ffe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e6a4be0c4ec9c1432a4a",
+    "workId": "e6a4be0c4ec9c1432a4a",
+    "driveFileId": "17FG7-E8zSW8DnbElxHkTq_jXaVH2hA93",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:48:04.393239+00:00",
+    "updatedAt": "2026-09-23T00:48:04.393255+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-23T00:48:04.393329+00:00"
+    }
+  }
+}

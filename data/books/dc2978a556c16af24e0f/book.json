@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "경제는 내 사랑",
+    "author": "박상률, 곽유리",
+    "genre": "경제/경영",
+    "tags": [
+      "경제",
+      "상식",
+      "입문서",
+      "청소년"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "경제",
+        "교육"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "경제학을 쉽게 풀이한 저자들.",
+    "oneLineSummary": "이야기를 통해 경제 원리를 쉽게 배우는 청소년 경제 입문서.",
+    "overallSummary": "다양한 인물들의 이야기를 통해 경제 생활의 시작, 가격 결정, 생산 활동 등 경제의 기본 원리를 알기 쉽게 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "경제 생활의 시작",
+        "summary": "원시인과 동물들의 이야기를 통해 경제 생활의 기본 개념을 설명한다."
+      },
+      {
+        "sectionTitle": "가격은 어떻게 정해질까요",
+        "summary": "수요와 공급의 원리를 장터 이야기를 통해 풀이한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "대상",
+        "value": "청소년 및 경제 입문자"
+      },
+      {
+        "key": "학습방식",
+        "value": "스토리텔링"
+      }
+    ],
+    "keyEntitiesText": "박상률, 곽유리",
+    "settingText": "동물나라 및 일상적인 경제 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1G8LbdfaG6g8Ap3m0iyT0giKJypITw-1e",
+    "filename": "박상률, 곽유리-경제는 내 사랑 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:36.116Z",
+    "size": "218678",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1G8LbdfaG6g8Ap3m0iyT0giKJypITw-1e/view?usp=drivesdk",
+    "sourceSha256": "fe381b020b395b6a0cb1166d303331db02b14a1f666f9634fb304f5d18ac9c4a",
+    "textSha256": "43800847759193656661e9527ce226dd4c2072d4266dea354aece649508ad25f",
+    "changeKey": "60e76a728be04a82ad99dff9cda8a443",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dc2978a556c16af24e0f",
+    "workId": "dc2978a556c16af24e0f",
+    "driveFileId": "1G8LbdfaG6g8Ap3m0iyT0giKJypITw-1e",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:48:31.422164+00:00",
+    "updatedAt": "2026-09-23T00:48:31.422182+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:48:31.422269+00:00"
+    }
+  }
+}
