@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "파브르 곤충기 2：용감한 사냥벌",
+    "author": "오쿠모토 다이사부로",
+    "genre": "과학/곤충학",
+    "tags": [
+      "곤충",
+      "파브르",
+      "사냥벌",
+      "생태"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오쿠모토 다이사부로가 파브르의 곤충기를 재구성하여 해설한 곤충 생태기.",
+    "oneLineSummary": "사냥벌들의 독특한 사냥 방식과 생태를 관찰하며 곤충의 본능을 탐구함.",
+    "overallSummary": "다양한 사냥벌들이 먹이를 사냥하고 마비시키는 과정을 관찰하며, 곤충의 정교한 본능과 생존 전략을 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사냥벌의 생태",
+        "summary": "노래기벌, 구멍벌, 나나니 등 사냥벌들의 사냥 방식과 습성을 다룸."
+      },
+      {
+        "sectionTitle": "본능의 신비",
+        "summary": "곤충이 먹이를 마비시키고 애벌레의 먹이로 삼는 본능적 과정을 분석함."
+      },
+      {
+        "sectionTitle": "관찰 기록",
+        "summary": "파브르의 관찰과 실험을 통해 사냥벌의 행동을 생생하게 기록함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "생태 관찰",
+        "value": "사냥벌의 사냥 및 마비 기술에 대한 상세한 관찰 기록."
+      }
+    ],
+    "keyEntitiesText": "파브르, 오쿠모토 다이사부로, 노래기벌, 구멍벌",
+    "settingText": "19세기 남프랑스 아비뇽 및 방투산."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qCLuL63RWFWkWsus8Q80aC-K_6hvSFv3",
+    "filename": "파브르 곤충기 2：용감한 사냥벌-오쿠모토 다이사부로.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.644Z",
+    "size": "266050",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1qCLuL63RWFWkWsus8Q80aC-K_6hvSFv3/view?usp=drivesdk",
+    "sourceSha256": "47d5a0bbd0daec4c9d0fa4e34378c26f59f7b38afe0f18ec536baf1293b9c8bd",
+    "textSha256": "50e30b853eef1df2f43043e816b7bb85fff17342b0235d12d2a28e3466e0926d",
+    "changeKey": "90a8218dbde5cf0e1129613a93ac3895",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "895c787d488dab5b902f",
+    "workId": "895c787d488dab5b902f",
+    "driveFileId": "1qCLuL63RWFWkWsus8Q80aC-K_6hvSFv3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:45:00.848720+00:00",
+    "updatedAt": "2026-09-23T03:45:00.848736+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:45:00.848880+00:00"
+    }
+  }
+}

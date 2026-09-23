@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "다윈의 미완성 교향곡",
+    "author": "케빈 랠런드",
+    "genre": "진화생물학",
+    "tags": [
+      "진화론",
+      "문화",
+      "인류",
+      "심리학"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "진화생물학자 케빈 랠런드가 인간 문화의 진화적 기원을 탐구한 저서.",
+    "oneLineSummary": "인간의 마음과 문화가 어떻게 진화의 과정을 통해 형성되었는지 밝히는 과학적 설명.",
+    "overallSummary": "인간의 지능, 언어, 문화가 자연선택과 문화적 진화의 상호작용(공진화)을 통해 어떻게 형성되었는지, 동물 행동과의 비교를 통해 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "문화의 기초",
+        "summary": "인간 문화의 기원과 진화론적 관점에서의 인간의 특이성을 다룸."
+      },
+      {
+        "sectionTitle": "진화적 되먹임",
+        "summary": "문화와 유전자의 공진화적 소용돌이가 인간의 인지 능력을 형성했음을 설명함."
+      },
+      {
+        "sectionTitle": "인간의 성취",
+        "summary": "기술, 과학, 예술 등 인간 문화의 복잡한 성취를 진화론적으로 분석함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "진화론적 관점",
+        "value": "유전자-문화 공진화론을 통한 인간 마음의 형성 과정 분석."
+      }
+    ],
+    "keyEntitiesText": "케빈 랠런드, 찰스 다윈, 제프 갈레프, 헨리 플로킨",
+    "settingText": "인류 진화의 역사 및 현대 진화생물학 연구 현장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kQf2iAfq4Z4bxwlC3SvSEvzkZhtA5BuO",
+    "filename": "캐빈 랠런드-다윈의 미완성 교향곡(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:57:04.000Z",
+    "size": "1241720",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1kQf2iAfq4Z4bxwlC3SvSEvzkZhtA5BuO/view?usp=drivesdk",
+    "sourceSha256": "b3eda753da40fa5b67f11b5353a00da8b1877ba8bc42ee3e3c5d03afae9675a1",
+    "textSha256": "fada676d62167b7381ab691c213bc5fe49e597426e04080a0ca5d72ec6dac544",
+    "changeKey": "165d3ef048d25a9cef641a42f070e4d3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6916fe743a2098760fc7",
+    "workId": "6916fe743a2098760fc7",
+    "driveFileId": "1kQf2iAfq4Z4bxwlC3SvSEvzkZhtA5BuO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:44:19.007172+00:00",
+    "updatedAt": "2026-09-23T03:44:19.007185+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:44:19.007281+00:00"
+    }
+  }
+}

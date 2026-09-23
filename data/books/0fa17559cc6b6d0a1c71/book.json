@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "파브르 곤충기 3：매미 노래의 비밀",
+    "author": "오쿠모토 다이사부로",
+    "genre": "과학/곤충학",
+    "tags": [
+      "곤충",
+      "파브르",
+      "매미",
+      "생태"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오쿠모토 다이사부로가 파브르의 곤충기를 재구성하여 해설한 곤충 생태기.",
+    "oneLineSummary": "매미의 노래와 생태, 그리고 다양한 곤충들의 습성을 관찰함.",
+    "overallSummary": "매미의 노래 원리와 생태를 탐구하고, 진딧물, 나비, 나방, 송충이 등 다양한 곤충들의 습성을 관찰하여 기록한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "매미 노래의 비밀",
+        "summary": "매미가 우는 이유와 원리를 파브르의 실험을 통해 설명함."
+      },
+      {
+        "sectionTitle": "다양한 곤충의 생태",
+        "summary": "진딧물, 나비, 나방, 송충이 등 여러 곤충의 습성을 다룸."
+      },
+      {
+        "sectionTitle": "본능과 습성",
+        "summary": "곤충들의 먹이 활동과 번식, 이동 습성을 관찰함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "생태 관찰",
+        "value": "매미의 발성 원리 및 다양한 곤충의 생태적 습성 관찰."
+      }
+    ],
+    "keyEntitiesText": "파브르, 오쿠모토 다이사부로, 매미, 큰배추흰나비",
+    "settingText": "19세기 남프랑스 아비뇽 및 세리냥."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PwcBKd6bk1ScIMtSmMyi967buTc_9X8A",
+    "filename": "파브르 곤충기 3：매미 노래의 비밀-오쿠모토 다이사부로.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.661Z",
+    "size": "295681",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1PwcBKd6bk1ScIMtSmMyi967buTc_9X8A/view?usp=drivesdk",
+    "sourceSha256": "5d6ec19f5fefc222b49690275383607983800be5fba15a7acac2ae56de0692ef",
+    "textSha256": "029bf37dddc5153233048aafdf5d4ec6780badb27f39aa3c5ad3591def7d5fda",
+    "changeKey": "6356b2e09c3aaf8532955103a179a13d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0fa17559cc6b6d0a1c71",
+    "workId": "0fa17559cc6b6d0a1c71",
+    "driveFileId": "1PwcBKd6bk1ScIMtSmMyi967buTc_9X8A",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:45:07.412100+00:00",
+    "updatedAt": "2026-09-23T03:45:07.412115+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:45:07.412222+00:00"
+    }
+  }
+}

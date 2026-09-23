@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도둑맞은 미래",
+    "author": "테오 콜본 외",
+    "genre": "환경/과학",
+    "tags": [
+      "환경호르몬",
+      "내분비계",
+      "화학물질",
+      "생태계"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "테오 콜본, 다이앤 듀마노스키, 존 피터슨 마이어가 환경호르몬의 위험성을 경고한 책.",
+    "oneLineSummary": "합성 화학물질이 야생동물과 인간의 내분비계를 교란하여 미래를 위협하고 있음을 밝히는 환경 보고서.",
+    "overallSummary": "환경호르몬(내분비 저해 화학물질)이 야생동물과 인간의 생식 기능, 행동, 건강에 미치는 치명적인 영향을 과학적 증거를 통해 추적하고 경고한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "저주와 대물림 독물",
+        "summary": "야생동물에게서 나타난 이상 현상과 화학물질의 연관성을 탐구함."
+      },
+      {
+        "sectionTitle": "호르몬 대참사",
+        "summary": "화학물질이 호르몬 체계를 어떻게 교란하는지 과학적 원리를 설명함."
+      },
+      {
+        "sectionTitle": "우리 자신을 보호하기",
+        "summary": "환경호르몬의 위험성을 알리고 사회적, 개인적 대응 방안을 모색함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "환경적 관점",
+        "value": "내분비계 교란 물질(환경호르몬)의 생태계 및 인체 영향 분석."
+      }
+    ],
+    "keyEntitiesText": "테오 콜본, 다이앤 듀마노스키, 존 피터슨 마이어, 찰스 브롤리",
+    "settingText": "20세기 후반, 전 세계적인 환경 오염 현장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1H-FdKAzrCsB0zrYkcj2ZCW7xxr5oKHmp",
+    "filename": "테오 콜본 외-도둑맞은 미래 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.544Z",
+    "size": "594346",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1H-FdKAzrCsB0zrYkcj2ZCW7xxr5oKHmp/view?usp=drivesdk",
+    "sourceSha256": "7e79b3352865b9d6ca1800e1a9ea00482b4b9d8d95ff227287870eafddbec5f2",
+    "textSha256": "b8f3a40ca2b1ad500a662f01c3a25e9c77862da115f7097a4fea1248dbdc3738",
+    "changeKey": "47b23d72f143e0e06b2a9bd4f46c95fd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "218947f437bdfd405774",
+    "workId": "218947f437bdfd405774",
+    "driveFileId": "1H-FdKAzrCsB0zrYkcj2ZCW7xxr5oKHmp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:44:32.688445+00:00",
+    "updatedAt": "2026-09-23T03:44:32.688459+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:44:32.688556+00:00"
+    }
+  }
+}

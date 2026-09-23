@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "루미놀",
+    "author": "최상규",
+    "genre": "범죄/과학수사",
+    "tags": [
+      "과학수사",
+      "루미놀",
+      "범죄",
+      "실화"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "국립과학수사연구소에서 오랫동안 근무한 저자가 경험한 과학수사 비화.",
+    "oneLineSummary": "국립과학수사연구소 전문가가 들려주는 미궁에 빠진 사건들의 과학적 해결 과정.",
+    "overallSummary": "저자가 국립과학수사연구소에서 근무하며 겪은 실제 사건들을 바탕으로, 루미놀 시약, DNA 지문, 모발 감정 등 과학적 증거를 통해 범인을 검거하는 과정을 생생하게 기록한 수사 비화이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아이가 아이를",
+        "summary": "루미놀 시약을 사용하여 사진관 내부의 미세 혈흔을 찾아내 강간 살인 사건을 해결한 사례."
+      },
+      {
+        "sectionTitle": "음모의 주인을 찾아라",
+        "summary": "모발 감정의 한계와 증거물 식별의 중요성에 대해 설명하며 사건 해결 과정을 다룸."
+      },
+      {
+        "sectionTitle": "사연 많은 친생자 감정",
+        "summary": "혈액형 및 유전학적 검사를 통한 친생자 감정의 과학적 원리와 실제 사례를 소개함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "수사 기법",
+        "value": "루미놀 반응, 모발 감정, 친생자 감정 등 과학적 증거 분석법."
+      }
+    ],
+    "keyEntitiesText": "최상규, 국립과학수사연구소, P씨(용의자), S(용의자)",
+    "settingText": "1994년 대한민국, 과학수사 현장 및 실험실."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10bGXaShorMzWJFZ_StqMaDEC8FempwaX",
+    "filename": "최상규-루미놀-미궁에 빠진 사건, 과학수사로 해결한다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.489Z",
+    "size": "354246",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/10bGXaShorMzWJFZ_StqMaDEC8FempwaX/view?usp=drivesdk",
+    "sourceSha256": "bbdab2a4a3298ce0d818210614b8546c402ae5248e3052925eccf9d981d8812a",
+    "textSha256": "138f4ecd905f43dcb8151c63e8b70aaf1828ad2a76421ef8f850cd05520439de",
+    "changeKey": "7edbdf37c7476a1d8bee81892d1e6d64",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5672c5f9b26e292fc40d",
+    "workId": "5672c5f9b26e292fc40d",
+    "driveFileId": "10bGXaShorMzWJFZ_StqMaDEC8FempwaX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:43:48.157525+00:00",
+    "updatedAt": "2026-09-23T03:43:48.157541+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:43:48.157653+00:00"
+    }
+  }
+}

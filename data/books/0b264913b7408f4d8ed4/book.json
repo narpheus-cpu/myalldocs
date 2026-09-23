@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "파브르 곤충기 4：전갈의 결투",
+    "author": "오쿠모토 다이사부로",
+    "genre": "과학/곤충학",
+    "tags": [
+      "곤충",
+      "파브르",
+      "거미",
+      "전갈"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오쿠모토 다이사부로가 파브르의 곤충기를 재구성하여 해설한 곤충 생태기.",
+    "oneLineSummary": "거미와 전갈, 사마귀 등 절지동물의 생태와 결투를 관찰함.",
+    "overallSummary": "거미와 전갈, 사마귀 등 절지동물들의 사냥 방식과 결투, 생태적 습성을 관찰하고 기록한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "거미의 생태",
+        "summary": "나르본늑대거미, 호랑거미 등 거미류의 사냥과 집 짓기 습성을 다룸."
+      },
+      {
+        "sectionTitle": "전갈의 결투",
+        "summary": "전갈의 독과 사냥 방식, 결투 습성을 관찰함."
+      },
+      {
+        "sectionTitle": "사마귀의 습성",
+        "summary": "사마귀의 사냥 방식과 기도하는 듯한 자세의 비밀을 다룸."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "생태 관찰",
+        "value": "절지동물의 사냥 및 결투 습성에 대한 상세한 관찰 기록."
+      }
+    ],
+    "keyEntitiesText": "파브르, 오쿠모토 다이사부로, 나르본늑대거미, 전갈",
+    "settingText": "19세기 남프랑스 아비뇽 및 아르마스 정원."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vWLWbq8CBogEd403KEhaFkZo9Q1Jf2Lx",
+    "filename": "파브르 곤충기 4：전갈의 결투-오쿠모토 다이사부로.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.680Z",
+    "size": "295016",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1vWLWbq8CBogEd403KEhaFkZo9Q1Jf2Lx/view?usp=drivesdk",
+    "sourceSha256": "69b09d85202da35eb28dec6e37577ddfcc03974bcb17a23aea2586883921857c",
+    "textSha256": "596ed6fa7cbbc7b5202ae26af517f4ebb3f329b8d47a7237e7168e8b6d500059",
+    "changeKey": "8105f8b0df6581cd6c40d6079bf3596c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0b264913b7408f4d8ed4",
+    "workId": "0b264913b7408f4d8ed4",
+    "driveFileId": "1vWLWbq8CBogEd403KEhaFkZo9Q1Jf2Lx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:45:14.092394+00:00",
+    "updatedAt": "2026-09-23T03:45:14.092410+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:45:14.092519+00:00"
+    }
+  }
+}

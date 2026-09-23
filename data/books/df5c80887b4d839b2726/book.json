@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "테마가 있는 20가지 과학 이야기",
+    "author": "B.E.짐머맨 & D.J.짐머맨",
+    "genre": "과학",
+    "tags": [
+      "과학",
+      "생물",
+      "천문",
+      "물리"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "B.E.짐머맨과 D.J.짐머맨이 저술하고 이충호가 번역한 과학 교양서이다.",
+    "oneLineSummary": "생물, 천문, 물리 등 다양한 과학적 주제를 흥미로운 테마로 엮어 설명하는 과학 이야기이다.",
+    "overallSummary": "이 책은 생물들의 성, 일식, 유전, 가상 현실, 카오스 이론 등 과학 전반에 걸친 20가지 주제를 다룬다. 각 장은 과학적 호기심을 자극하는 테마를 중심으로 구성되어 있으며, 복잡한 과학적 원리를 일반 독자가 이해하기 쉽게 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫째마당-참을 수 없는 과학에의 호기심",
+        "summary": "생물들의 성, 일식, 대체 의학, 유성우 등 자연 현상과 생물학적 호기심을 다룬다."
+      },
+      {
+        "sectionTitle": "둘째마당-아는 길도 물어 가라",
+        "summary": "기적의 분자, 지구 생물의 기원, 열대 우림 등 지구와 생명에 관한 주제를 다룬다."
+      },
+      {
+        "sectionTitle": "셋째마당-낯선 시간 속으로",
+        "summary": "가상 현실, 클론, 카오스 이론, 시간 여행, 화성 탐사 등 미래 과학과 이론 물리학을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "과학적 접근",
+        "value": "대중적인 과학 지식을 흥미로운 테마별로 분류하여 서술함."
+      }
+    ],
+    "keyEntitiesText": "짚신벌레, 아귀, 따개비, 옴벌레, 빈대, 수펄, 아이작 아시모프",
+    "settingText": "지구의 생태계부터 우주 공간, 그리고 미래의 과학적 가능성을 아우르는 광범위한 배경을 가진다."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1P96mHYlT7OpvovnLfcOy3eAge06DTOU6",
+    "filename": "짐머맨-테마가 있는 20가지 과학 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.471Z",
+    "size": "319842",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1P96mHYlT7OpvovnLfcOy3eAge06DTOU6/view?usp=drivesdk",
+    "sourceSha256": "79ce07ec1ab4eecbc9baff3c6d39195f36ac61047504ab779e961b065804c631",
+    "textSha256": "9556af3aae273ca3b2b9621ca1ac1bc81c948778cf5f4221dae84d99e056fbd2",
+    "changeKey": "cb0458fb669ace7c4dfc88d78b5f8bff",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "df5c80887b4d839b2726",
+    "workId": "df5c80887b4d839b2726",
+    "driveFileId": "1P96mHYlT7OpvovnLfcOy3eAge06DTOU6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:43:41.275489+00:00",
+    "updatedAt": "2026-09-23T03:43:41.275503+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:43:41.275708+00:00"
+    }
+  }
+}
