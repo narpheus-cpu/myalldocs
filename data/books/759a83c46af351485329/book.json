@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "연어",
+    "author": "안도현",
+    "genre": "우화소설 / 창작동화",
+    "tags": [
+      "연어",
+      "안도현",
+      "어른을위한동화",
+      "은빛연어",
+      "눈맑은연어",
+      "모천회귀",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1961년 경북 예천 출생. 원광대 국문과 졸업. 1981년 대구매일신문, 1984년 동아일보 신춘문예 당선. 시인이자 작가.",
+    "oneLineSummary": "모천으로 돌아가는 은빛연어의 여정을 통해 존재의 이유와 사랑, 성장의 아픔과 삶의 본질을 서정적으로 그린 어른을 위한 동화.",
+    "overallSummary": "다른 연어들과 달리 등 쪽이 은빛 비늘로 덮여 별종이라 불리며 외톨이가 된 은빛연어가 바다에서 누나연어를 물수리에게 잃는 슬픔을 겪는다. 이후 누나 대신 자신을 곰의 공격에서 구해준 눈맑은연어를 만나며 마음의 눈을 뜨고 사랑을 느낀다. 턱큰연어가 이끄는 무리와 함께 모천인 초록강으로 돌아가는 멀고 험난한 여정 속에서 은빛연어는 존재의 이유와 참된 자유, 그리고 사랑의 의미를 깨달아간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 바다에서의 슬픔",
+        "summary": "연어에 대한 무지와 상상력의 의미를 되새기며, 은빛 비늘을 가진 은빛연어가 누나연어의 희생과 이별을 겪으며 존재에 대해 고민하는 과정을 그린다."
+      },
+      {
+        "sectionTitle": "눈맑은연어와의 만남과 모천 회귀",
+        "summary": "은빛연어가 곰의 공격에서 자신을 던져 구해준 눈맑은연어를 만나 참된 사랑을 느끼고, 턱큰연어가 이끄는 무리와 함께 고향 강으로 거슬러 올라가는 여정을 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "모천 회귀 모티프와 존재론적 탐구",
+        "value": "연어의 모천 회귀라는 생태적 특성을 삶의 고통과 성숙, 사랑, 그리고 보이지 않는 가치를 추구하는 본질적 존재의 여정으로 승화"
+      }
+    ],
+    "keyEntitiesText": "은빛연어, 누나연어, 턱큰연어, 눈맑은연어, 물수리, 불곰",
+    "settingText": "알래스카 부근 차가운 바다에서 고향인 초록강(모천)으로 이어지는 물속 여정."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oOc-NtJELZ68vAFzYPI5rKGrxo-gLWQ_",
+    "filename": "안도현-연어.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:52.836Z",
+    "size": "110697",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1oOc-NtJELZ68vAFzYPI5rKGrxo-gLWQ_/view?usp=drivesdk",
+    "sourceSha256": "a11318048f22a75df5edf67583167ccd09c819d09b6e9a812d5fb01409c35e56",
+    "textSha256": "7bc6c8d4021f2098105783c37b0b21d9f19c74f7ef4253772e06de912a7eb4be",
+    "changeKey": "52f466d920372f24e190f1807cafaa3c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "759a83c46af351485329",
+    "workId": "759a83c46af351485329",
+    "driveFileId": "1oOc-NtJELZ68vAFzYPI5rKGrxo-gLWQ_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T17:47:17.775746+00:00",
+    "updatedAt": "2026-09-23T17:47:17.775761+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T17:47:17.775852+00:00"
+    }
+  }
+}

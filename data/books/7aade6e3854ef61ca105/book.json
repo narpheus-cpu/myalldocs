@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아무튼, 떡볶이",
+    "author": "요조",
+    "genre": "에세이 / 음식수필",
+    "tags": [
+      "아무튼떡볶이",
+      "요조",
+      "에세이",
+      "떡볶이",
+      "미미네",
+      "백기녀",
+      "부산여행"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "뮤지션이자 작가. 제주도에서 서점을 운영하며 다양한 산문집을 펴냄.",
+    "oneLineSummary": "뮤지션 요조가 떡볶이에 얽힌 개인적 추억과 단골 가게들, 가족과의 에피소드를 다정하고 유머러스하게 풀어낸 에세이.",
+    "overallSummary": "출판사 대표와의 계약 미팅을 떡볶이집에서 진행하기로 하며 찾아간 '떡정'과 '미미네 떡볶이'의 추억, 혼자만의 분위기를 즐기던 옛 공간에 대한 그리움을 담아낸다. 어린 시절 돈가스만 먹던 자신에게 불은 떡볶이를 환불받아주고 함께 먹어주었던 어머니(백기녀)와의 단란했던 기억, 그리고 부산 북토크 일정 중 친구들과 물회를 먹고 조개구이를 먹으며 보낸 다채로운 일상과 떡볶이 사랑을 따뜻하게 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "떡정, 미미네",
+        "summary": "출판 계약 미팅 날 문을 닫은 '떡정' 대신 찾아간 '미미네 떡볶이'에서 혼자만의 공간과 분위기를 누리던 옛 시절을 추억하고 미팅을 마치는 이야기."
+      },
+      {
+        "sectionTitle": "단란한 기쁨",
+        "summary": "외식을 배타시하는 부모님과 함께했던 어린 시절, 경양식 돈가스를 혼자 먹던 기억과 어머니 백기녀가 분식집에서 불은 떡볶이를 새로 받아 함께 먹어주었던 단란한 추억."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "음식 모티프와 기억의 재구성",
+        "value": "떡볶이라는 대중적 음식을 매개로 유년의 유대감, 공간에 대한 애착, 현대인의 외로움과 위로를 감각적으로 서술"
+      }
+    ],
+    "keyEntitiesText": "요조(신수진), 조소정(위고출판사 대표), 허세과, 제하, 백기녀(어머니), 신중택(아버지), 생선(작가), 이혜연, 문소라, 정예은",
+    "settingText": "서울 홍대 거리, 삼양동 분식집, 부산 해운대 및 청사포 등."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1eCYavcJYk3BW00GO-L11K-zV9EhjC9Sp",
+    "filename": "아무튼, 떡볶이(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:52.672Z",
+    "size": "160767",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1eCYavcJYk3BW00GO-L11K-zV9EhjC9Sp/view?usp=drivesdk",
+    "sourceSha256": "860985e011d137ee826defc80a404f5a54e0ef8346c36b620b29fef1df636801",
+    "textSha256": "21c3977203093767474cfe128970d2c3088275a9e65cdfe4c7b3e2e13a77f8cf",
+    "changeKey": "e75bd8583a5ccc077f1b5aa5dedb5bb5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7aade6e3854ef61ca105",
+    "workId": "7aade6e3854ef61ca105",
+    "driveFileId": "1eCYavcJYk3BW00GO-L11K-zV9EhjC9Sp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T17:46:43.288030+00:00",
+    "updatedAt": "2026-09-23T17:46:43.288044+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T17:46:43.288140+00:00"
+    }
+  }
+}

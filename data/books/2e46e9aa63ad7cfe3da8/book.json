@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "관계",
+    "author": "안도현",
+    "genre": "우화소설 / 창작동화",
+    "tags": [
+      "관계",
+      "안도현",
+      "도토리",
+      "낙엽",
+      "우화",
+      "갈참나무",
+      "구두"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1961년 경북 예천 출생. 원광대 국문과 졸업. 시인이자 우화소설 저자.",
+    "oneLineSummary": "땅에 떨어진 도토리가 낙엽들의 희생과 보살핌 속에서 갈참나무 싹을 틔우는 이야기 등을 통해 존재와 관계의 참된 의미를 그린 우화집.",
+    "overallSummary": "갈참나무에서 땅으로 떨어진 도토리가 자신을 껴안아주는 낙엽들의 따뜻한 보호를 받으며 자신의 몸속에 자라고 있는 갈참나무의 꿈을 깨닫고 싹을 틔우는 과정을 담은 표제작 「관계」, 양화점에서 산 검은 구두와 주인이 서로의 길듦과 상처를 통해 이해에 도달하는 「구두를 이해하는 법」, 아파트에 심어진 어린 자작나무와 교감하는 「내 마음의 자작나무」, 늙은 비행기와 고추잠자리의 대화인 「비행기와 잠자리」 등의 단편 우화를 수록하고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "관계",
+        "summary": "땅에 떨어진 도토리가 자신을 따뜻하게 감싸주는 낙엽들의 희생 속에 용기를 얻어 단단한 껍질을 깨고 갈참나무 싹을 틔우는 아름다운 상생 이야기."
+      },
+      {
+        "sectionTitle": "구두를 이해하는 법 & 내 마음의 자작나무",
+        "summary": "발뒤꿈치를 물어뜯던 새 검은 구두가 서로 길들어가는 과정을 이야기하는 우화와, 아파트 단지의 연약한 자작나무와 교감하며 존재의 이름을 부르는 따뜻한 서사."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "우화적 상징과 관계의 철학",
+        "value": "도토리, 구두, 자작나무 등 비인간 존재를 의인화하여 길듦, 미안함, 희생, 그리고 타자와의 참된 관계 맺음의 의미를 전달"
+      }
+    ],
+    "keyEntitiesText": "도토리, 낙엽들, 노인, 검은 구두, 양화점 점원, 나(주인공), 자작나무, 비행기, 고추잠자리",
+    "settingText": "가을~겨울~봄의 산속 숲(갈참나무 아래), 도시 아파트 단지 및 거리."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1efeCNxfrBcsDPh2iSwQEzRCWu7c32vKd",
+    "filename": "안도현-관계.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:52.815Z",
+    "size": "128895",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1efeCNxfrBcsDPh2iSwQEzRCWu7c32vKd/view?usp=drivesdk",
+    "sourceSha256": "ae27dfada68dff2808562f51de3daf4ca218803551276bca13b24b31284b559c",
+    "textSha256": "3270980ecf72bf5cf7cbb1523fa64863b822d690ac667cf26ac83f78f2c01e37",
+    "changeKey": "030165691d32b19ccf0a11ff15e8f6f2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e46e9aa63ad7cfe3da8",
+    "workId": "2e46e9aa63ad7cfe3da8",
+    "driveFileId": "1efeCNxfrBcsDPh2iSwQEzRCWu7c32vKd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T17:47:10.787298+00:00",
+    "updatedAt": "2026-09-23T17:47:10.787313+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T17:47:10.787476+00:00"
+    }
+  }
+}

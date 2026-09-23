@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아무튼, 여름",
+    "author": "김신회",
+    "genre": "에세이 / 계절수필",
+    "tags": [
+      "아무튼여름",
+      "김신회",
+      "에세이",
+      "여름",
+      "초당옥수수",
+      "플링",
+      "발리우붓"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "에세이작가. 『보노보노처럼 살다니 다행이야』, 『삼십 대엔 미처 몰랐던 것들』 등 다수의 베스트셀러 저자.",
+    "oneLineSummary": "뜨겁고 강렬한 계절 여름을 무작정 사랑하는 작가가 여름의 기억, 초당옥수수, 발리에서의 연애 등 여름 고유의 매력을 노래한 에세이.",
+    "overallSummary": "여름의 힘과 낙관적 에너지를 사랑하는 작가가 여름마다 벌어졌던 흑역사와 설렘을 고백한다. 발리 우붓의 라이브 펍 '래핑 부다'에서 만나 오토바이를 타고 짧은 연애(플링)를 했던 추억, 6월 한 달 동안 푹 빠져 지내는 제주 초당옥수수에 대한 애정, 편의점 수입 맥주 만 원에 네 캔이 가져다준 즐거움 등 여름이 선사하는 다채로운 순간들과 기억을 경쾌하고 솔직하게 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이야기의 시작 ~ 여름 한철 연애하기",
+        "summary": "영화 <기쿠지로의 여름> 음악을 통해 여름의 낙관적 에너지를 되새기고, 과거 여름마다 반복되었던 발리 우붓에서의 짧고 강렬했던 연애(플링)와 상사병의 기억을 회상한다."
+      },
+      {
+        "sectionTitle": "알중 아니고 옥중",
+        "summary": "6월 한 달 동안만 맛볼 수 있는 제주 초당옥수수의 달콤하고 아삭한 맛에 중독되어 여름을 기다리게 된 애정을 위트 있게 풀어낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "계절적 감수성과 기호 분석",
+        "value": "여름이라는 계절적 배경에 얽힌 개인적 경험, 휴가지에서의 로맨스, 여름 특유의 먹거리와 일상 소품에 부여하는 정서적 의미 분석"
+      }
+    ],
+    "keyEntitiesText": "김신회, 조카, 발리 우붓 플링남, 제주도 독립서점 동생",
+    "settingText": "서울 일상, 발리 우붓(래핑 부다 라이브 펍), 제주도 금능해변 독립서점."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OcDJcFMGIyZOqNzHzpbZl0UQMDpC7bLt",
+    "filename": "아무튼, 여름(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:52.802Z",
+    "size": "167806",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1OcDJcFMGIyZOqNzHzpbZl0UQMDpC7bLt/view?usp=drivesdk",
+    "sourceSha256": "511513d7ebaeb3b1f81f776055527a3cc58ccf63d6e81f3cca322d21e95e53b8",
+    "textSha256": "d365bb7fbc8649f536994b7e87b25e32584f0c67af6ce599cc84fdc1862cab1d",
+    "changeKey": "7517db570ff03e74f173e1dc5aa7ff53",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ece8178cbd5f18536a28",
+    "workId": "ece8178cbd5f18536a28",
+    "driveFileId": "1OcDJcFMGIyZOqNzHzpbZl0UQMDpC7bLt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T17:46:57.687745+00:00",
+    "updatedAt": "2026-09-23T17:46:57.687760+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T17:46:57.687868+00:00"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "전국구 1",
+    "author": "심경보",
+    "genre": "범죄소설 / 액션소설",
+    "tags": [
+      "전국구",
+      "심경보",
+      "박정국",
+      "김두룡",
+      "안묵호",
+      "건달",
+      "탄광촌"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작가 심경보. 고난과 역경을 인동초처럼 견디고 정상에 서는 인간 승리를 통해 독자들에게 위안과 용기를 주고자 함.",
+    "oneLineSummary": "동해안 항구도시 묵호의 이권을 둘러싼 조직 간의 기습과 보스 밀항, 사북 탄광촌으로 피신한 김두룡의 재기 모색을 그린 범죄 액션 소설.",
+    "overallSummary": "북평의 건달 보스 박정국은 황금어장이자 무연탄 수출항인 묵호 지역을 기습하여 묵호 조직을 일시에 평정한다. 묵호 보스 라승만은 일본으로 밀항해버리고, 행동대원 김두룡(돛대)과 불곰은 박정국의 추적을 피해 황지와 사북의 대성탄좌 굴진 작업장으로 피신한다. 김두룡과 불곰은 위험하고 혹독한 탄광 작업 속에서 자존심을 누르고 훗날 안묵호로 돌아가 재기할 의지를 다진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 기습",
+        "summary": "박정국 일당이 묵호 조직을 기습하여 장악하고, 보스 라승만이 일본으로 밀항하며 김두룡과 불곰이 피신하는 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "2. 도피",
+        "summary": "김두룡과 불곰이 사북의 대성탄좌 탄광에 취업하여 위험하고 고된 굴진 및 다이너마이트 발파 작업을 배우며 재기를 노리는 과정을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "건달 세계의 생리와 도피",
+        "value": "지역 이권을 둘러싼 조직 간의 기습과 도피, 탄광촌 지하 깊은 굴진 현장의 혹독한 노동 환경 묘사"
+      }
+    ],
+    "keyEntitiesText": "박정국, 사무라이, 김두룡(돛대), 라승만, 불곰, 호석, 김씨(고참 광부), 사끼야마(조장)",
+    "settingText": "1960~70년대 강원도 동해(묵호, 북평) 및 정선군 사북(대성탄좌 탄광 굴진 현장)."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ami0r_HquBlNVT4YJaojXhPTfcQ8FCib",
+    "filename": "심경보-전국구.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:52.492Z",
+    "size": "658565",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ami0r_HquBlNVT4YJaojXhPTfcQ8FCib/view?usp=drivesdk",
+    "sourceSha256": "3883fac43ce6e74bf824fdbd6b7a0470485b2e5aaab4b33fa6086d245b2fd0ea",
+    "textSha256": "b31cabd43bf5510deb2ba452ae7dc0b2a20d2942b49b463783e4c767820ff370",
+    "changeKey": "3dcf66ce9a0792f8ba3582fb0948968a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d1da57220c679fbcaf58",
+    "workId": "d1da57220c679fbcaf58",
+    "driveFileId": "1ami0r_HquBlNVT4YJaojXhPTfcQ8FCib",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T17:46:29.177725+00:00",
+    "updatedAt": "2026-09-23T17:46:29.177742+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.672,
+      "updatedAt": "2026-09-23T17:46:29.177851+00:00"
+    }
+  }
+}
