@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이야기 과학사",
+    "author": "박성래",
+    "genre": "과학사, 역사",
+    "tags": [
+      "과학사",
+      "과학의 역사",
+      "동서양 과학",
+      "과학기술"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국외국어대학교 사학과 교수이자 과학사 학자로 활동하며 한국 과학사 연구의 기틀을 다졌다.",
+    "oneLineSummary": "고대부터 현대까지 인류가 일궈낸 방대한 과학기술의 역사를 흥미롭고 알기 쉽게 풀어낸 과학사 교양서이다.",
+    "overallSummary": "이 책은 소년동아일보에 연재되었던 글을 엮은 것으로, 인류가 자연 현상을 이해하고 과학기술을 발전시켜 온 발자취를 연대기적, 주제별로 조명한다. 탈레스의 물 원소설, 지구의 모양에 대한 인식 변화, 숫자의 발달, 코페르니쿠스와 뉴턴의 혁명적 업적뿐만 아니라 동양의 천문학, 전통 의학, 인쇄술 등 동서양을 아우르는 다양한 과학적 발견과 사상의 변천사를 다루고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "옛사람들이 생각한 세상의 기본 물질",
+        "summary": "탈레스의 물 원소설을 시작으로 엠페도클레스의 4원소설과 아리스토텔레스의 자연관에 이르기까지 원소 개념의 변천을 설명한다."
+      },
+      {
+        "sectionTitle": "`지구는 둥글다`는 것을 알게 되기까지",
+        "summary": "평평한 땅에 대한 고대의 믿음에서 벗어나 지구가 둥글다는 사실을 깨닫게 되는 과정과 천체 관측의 역사를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "집필 의도",
+        "value": "청소년과 대중이 과학에 대한 이해를 넓히고 과학적 꿈을 키울 수 있도록 돕는 것"
+      }
+    ],
+    "keyEntitiesText": "박성래, 탈레스, 아리스토텔레스, 엠페도클레스, 피타고라스, 유클리드",
+    "settingText": "고대 그리스부터 근대에 이르기까지 동서양의 역사적 무대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "102DUzXqeBl8QuU9mCpIsEH9h0xbVnDOL",
+    "filename": "박성래-이야기 과학사 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.369Z",
+    "size": "465542",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/102DUzXqeBl8QuU9mCpIsEH9h0xbVnDOL/view?usp=drivesdk",
+    "sourceSha256": "934c851b5376c1b18d2ede9e228de4f83ab4111ffa0d3bd1e430f032ca84475e",
+    "textSha256": "aba60cc4fe26fccca896f73831dfb52541770589ed69560c00124cf3ff48803e",
+    "changeKey": "6803b92bd8bede5582e01260cb42fe1c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "12372b757f2cc5547bc7",
+    "workId": "12372b757f2cc5547bc7",
+    "driveFileId": "102DUzXqeBl8QuU9mCpIsEH9h0xbVnDOL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:59:19.911582+00:00",
+    "updatedAt": "2026-09-23T02:59:19.911600+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:59:19.911698+00:00"
+    }
+  }
+}

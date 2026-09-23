@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바디 - 우리 몸 안내서",
+    "author": "빌 브라이슨",
+    "genre": "과학, 의학, 인체탐구",
+    "tags": [
+      "인체",
+      "생물학",
+      "인체 탐구",
+      "세포",
+      "DNA"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "재치 있는 문체와 해박한 지식으로 과학과 역사를 대중에게 친숙하게 전달하는 세계적인 베스트셀러 작가이다.",
+    "oneLineSummary": "경이롭고 신비로운 인체의 구조와 작동 원리를 유쾌하고 깊이 있게 탐구한 인체 안내서이다.",
+    "overallSummary": "저자는 철물점에서 살 수 있는 푼돈어치 화학물질들의 조합에 불과해 보이는 인간이 어떻게 살아있는 경이로운 생명체가 되는지 추적한다. 피부, 뇌, 심장, 뼈대, 면역계, 소화 기관에 이르기까지 인체의 모든 부위를 넘나들며 원소와 세포, DNA가 빚어내는 생명의 기적을 생생한 통계와 유머러스한 비유로 풀어낸다. 완벽하지는 않지만 놀라운 자가 치유력으로 우리를 유지하는 인체의 신비를 경외감으로 찬미한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1 사람을 만드는 방법",
+        "summary": "인체를 이루는 화학 원소들과 구입 비용을 유쾌하게 따져보며, 불활성 원소들이 모여 생명을 이루는 기적과 인체의 경이로운 규모를 소개한다."
+      },
+      {
+        "sectionTitle": "2장 이후 인체 탐구",
+        "summary": "피부, 뇌, 심장, 뼈대, 면역계, 유전체(DNA) 등 인체 각 기관의 구조와 놀라운 작동 메커니즘을 상세히 해부한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 특징",
+        "value": "방대한 인체 통계 데이터와 유머러스한 서사적 접근"
+      }
+    ],
+    "keyEntitiesText": "빌 브라이슨, 베네딕트 컴버배치, 윌리엄 셰익스피어, 에바 비앙코니",
+    "settingText": "인간의 신체 내부 우주 및 의학·생물학 연구실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZuycE3mUeYeJL6OFdano4H5inymRmWTR",
+    "filename": "빌 브라이슨-바디-우리 몸 안내서(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T05:15:34.000Z",
+    "size": "1126153",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1ZuycE3mUeYeJL6OFdano4H5inymRmWTR/view?usp=drivesdk",
+    "sourceSha256": "164f0198bbe8537095690ba818691e2807bb75e96a5cf23720b1838f69495702",
+    "textSha256": "f82f66606ed3b1b99301f1c484391f3a89b2951df1c3da5f7c58513e375f5629",
+    "changeKey": "fcb5efbd0191358863706dcfc8002d80",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ac9d293636aeb760d45c",
+    "workId": "ac9d293636aeb760d45c",
+    "driveFileId": "1ZuycE3mUeYeJL6OFdano4H5inymRmWTR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:00:19.106775+00:00",
+    "updatedAt": "2026-09-23T03:00:19.106793+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:00:19.106895+00:00"
+    }
+  }
+}

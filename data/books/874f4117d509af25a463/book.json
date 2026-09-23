@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "부분과 전체",
+    "author": "베르너 하이젠베르크",
+    "genre": "자연과학, 과학철학, 회고록",
+    "tags": [
+      "양자역학",
+      "원자물리학",
+      "과학철학",
+      "하이젠베르크",
+      "대화"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대 양자역학의 창시자 중 한 명으로 불확정성 원리를 발견하고 1932년 노벨 물리학상을 수상한 이론물리학자이다.",
+    "oneLineSummary": "현대 원자물리학의 탄생과 발전 과정을 동료 과학자들과의 깊이 있는 대화를 통해 그려낸 과학적 자서전이다.",
+    "overallSummary": "이 책은 하이젠베르크가 지난 50년간 경험한 원자물리학의 역사와 그 과정에서 나누었던 대화들을 회고 형식으로 엮은 것이다. 자연과학이 실험과 논의, 즉 '대화를 통해 탄생한다'는 신념 아래, 보어, 아인슈타인, 플랑크 등 위대한 물리학자들과 함께 양자역학을 구축해 나간 지적 여정을 담고 있다. 원자물리학뿐만 아니라 철학, 윤리, 정치 등 인간 삶의 근본적인 문제들에 대한 성찰을 함께 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문 및 1장 원자 이론과의 첫 만남 (1919~1920)",
+        "summary": "과학의 탄생이 대화 속에서 이루어짐을 밝히고, 1차 대전 직후 혼란스러운 독일의 젊은 시절 슈타른베르크 호숫가에서 친구들과 처음으로 원자의 세계와 화학 결합에 대해 나누었던 대화를 회상한다."
+      },
+      {
+        "sectionTitle": "2장 이후 주요 대화들",
+        "summary": "양자역학의 성립, 아인슈타인과의 논쟁, 자연과학과 종교, 정치적 파국 속 과학자의 책임 등에 관한 철학적이고 역사적인 대화들이 이어진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "과학의 본질은 대화와 사유에 있으며, 자연과학은 철학 및 윤리 문제와 불가분의 관계에 있음"
+      }
+    ],
+    "keyEntitiesText": "베르너 하이젠베르크, 닐스 보어, 알베르트 아인슈타인, 막스 플랑크, 볼프강 파울리, 플라톤",
+    "settingText": "20세기 전반 유럽(독일, 덴마크 등), 학술 회의장 및 자연 속 도보 여행길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OrM8MDkS0b5Pq4Ap4oOp_CLl_U7_tlQw",
+    "filename": "베르너 하이젠베르크-부분과 전체(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.421Z",
+    "size": "792743",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1OrM8MDkS0b5Pq4Ap4oOp_CLl_U7_tlQw/view?usp=drivesdk",
+    "sourceSha256": "ba07cbd7ee91ffb3cf3cf3b78e725ccd110a1d5ecd426fbb82a9d9cafd9ca230",
+    "textSha256": "06a691482b7bc434a13cb9d469635050ac0d62d65c4ac63bd30d8207833c5ba7",
+    "changeKey": "39fcfa793e1e2f556ce4ed4b4cda6b03",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "874f4117d509af25a463",
+    "workId": "874f4117d509af25a463",
+    "driveFileId": "1OrM8MDkS0b5Pq4Ap4oOp_CLl_U7_tlQw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:59:42.276249+00:00",
+    "updatedAt": "2026-09-23T02:59:42.276267+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:59:42.276373+00:00"
+    }
+  }
+}
