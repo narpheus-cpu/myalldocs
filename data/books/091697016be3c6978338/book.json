@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모모",
+    "author": "미카엘 엔데",
+    "genre": "소설",
+    "tags": [
+      "판타지",
+      "시간",
+      "회색 신사",
+      "경청"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "unknown"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 환상문학 작가로, 모모와 끝없는 이야기 등의 명작을 남겼습니다.",
+    "oneLineSummary": "시간 도둑인 회색 신사들에게 빼앗긴 사람들의 시간을 되찾아 주기 위해 모험을 떠나는 꼬마 소녀 모모의 이야기입니다.",
+    "overallSummary": "원형극장 폐허에 살며 남의 이야기를 진심으로 들어주는 특별한 능력을 가진 소녀 모모가, 현대인들에게 바쁜 삶을 강요하며 시간을 훔쳐가는 회색 신사들의 음모를 깨닫고, 시간의 지배자 호라 박사와 거북 카시오페이아의 도움을 받아 시간을 되찾아오는 과정을 그린 철학적 동화입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1 어느 큰 도시와 꼬마 소녀",
+        "summary": "대도시 남쪽 끝 원형극장 폐허에 나타난 기묘한 차림의 고아 소녀 모모와, 그녀를 따뜻하게 맞이하고 보살펴 주기로 결심한 가난한 이웃들의 만남을 소개합니다."
+      },
+      {
+        "sectionTitle": "2 비범한 특성과 지극히 평범한 싸움",
+        "summary": "모모가 가진 특별한 능력인 '경청'을 통해 이웃들이 스스로 지혜를 얻고 갈등을 해결하는 과정을 보여주며, 미장이 니콜라와 주막 주인 니노의 싸움을 화해시키는 일화를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시간의 의미",
+        "value": "시간은 삶 자체이며, 마음으로 느끼는 것임을 모모의 경청을 통해 전달"
+      }
+    ],
+    "keyEntitiesText": "모모, 회색 신사들, 호라 박사, 카시오페이아, 니콜라, 니노",
+    "settingText": "현대의 대도시 변두리에 위치한 고대 원형극장 폐허"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19c2BpurBlt2T1JwBeki27cRV8K3QT6W2",
+    "filename": "미카엘 엔데-모모 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.840Z",
+    "size": "553214",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/19c2BpurBlt2T1JwBeki27cRV8K3QT6W2/view?usp=drivesdk",
+    "sourceSha256": "220e5a6251265143f806cf6b4118a857e2e4389b7fc296b70fd8c0a79cb565ba",
+    "textSha256": "d208d743ede1dfbd356a500f2c30d8d6d27a585cd56782da7eeb281740806fed",
+    "changeKey": "9326573bf82eede3c113d94a2beacbd9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "091697016be3c6978338",
+    "workId": "091697016be3c6978338",
+    "driveFileId": "19c2BpurBlt2T1JwBeki27cRV8K3QT6W2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:16:08.949843+00:00",
+    "updatedAt": "2026-09-23T16:16:08.949890+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T16:16:08.949993+00:00"
+    }
+  }
+}

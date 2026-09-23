@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "콜리마 이야기",
+    "author": "바를람 샬라모프",
+    "genre": "소설",
+    "tags": [
+      "수용소 문학",
+      "소련 소설",
+      "생존",
+      "인간성 상실"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소련의 시인이자 작가로, 콜리마 수용소에서의 17년간의 유배 생활을 바탕으로 작품을 썼습니다.",
+    "oneLineSummary": "소련의 악명 높은 콜리마 강제수용소에서 벌어지는 참혹한 생존 투쟁과 인간성 파괴를 담담하게 기록한 단편 소설집입니다.",
+    "overallSummary": "작가의 자전적 경험을 바탕으로, 영하 50도의 혹독한 추위와 굶주림 속에서 오직 생존만을 위해 도덕과 양심이 마비되고 오직 생존 본능만 남은 인간의 실상을 '외상으로', '밤에', '두 목수' 등의 단편을 통해 극도로 절제된 필치로 고발합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "설원을 걸으며",
+        "summary": "아무도 밟지 않은 설원에 길을 내기 위해 첫 발자국을 내딛는 선두의 고단함과, 그 뒤를 따르는 이들의 협동을 통해 독자와 작가의 관계를 비유적으로 표현합니다."
+      },
+      {
+        "sectionTitle": "외상으로",
+        "summary": "수용소 내 마부의 막사에서 벌어지는 깡패들의 카드 도박판을 배경으로, 판돈을 잃은 나우모프가 가르쿠노프의 털 스웨터를 강탈하는 과정과 그 속에서 벌어지는 잔혹한 폭력을 묘사합니다."
+      },
+      {
+        "sectionTitle": "밤에",
+        "summary": "굶주림에 지친 글레보프와 바그레초프가 밤중에 공동묘지에서 갓 묻힌 시체의 옷을 벗겨내어 내일 빵과 바꾸기 위해 도굴하는 참혹한 생존의 현장을 보여줍니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "수용소의 인간 군상",
+        "value": "극단적인 환경에서 도덕과 양심이 마비되고 오직 생존 본능만 남은 인간의 실상"
+      }
+    ],
+    "keyEntitiesText": "세보치카, 나우모프, 가르쿠노프, 글레보프, 바그레초프, 포타니시코프",
+    "settingText": "소련 시베리아의 혹독한 콜리마 강제수용소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dKbgpodhVw6j5_eiPLFxSCbeqzus6yBr",
+    "filename": "바를람 샬라모프-콜리마 이야기(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:17:40.000Z",
+    "size": "543846",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1dKbgpodhVw6j5_eiPLFxSCbeqzus6yBr/view?usp=drivesdk",
+    "sourceSha256": "63350cb8c2631beb148bd16b94a7993f715c80d584fa5809223c86ac10ccc199",
+    "textSha256": "f865b07fd0b4e1caac2ac0c5ad784dbd4ba1cf9b10c943ea88eaae9e97b8258d",
+    "changeKey": "abd9e65dc9091b79e1e62366a26bf02c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fd5eb0253d353042fe63",
+    "workId": "fd5eb0253d353042fe63",
+    "driveFileId": "1dKbgpodhVw6j5_eiPLFxSCbeqzus6yBr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:16:26.377767+00:00",
+    "updatedAt": "2026-09-23T16:16:26.377783+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T16:16:26.377949+00:00"
+    }
+  }
+}

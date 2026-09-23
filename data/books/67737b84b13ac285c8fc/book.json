@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "법구경 요약",
+    "author": "법구 편찬",
+    "genre": "종교",
+    "tags": [
+      "불교 경전",
+      "게송 요약",
+      "마음 수행",
+      "인과응보"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "poetry"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인도의 고대 승려이자 학자로, 부처님의 가르침을 모아 법구경을 편찬한 인물로 전해집니다.",
+    "oneLineSummary": "법구경의 핵심 게송들을 주제별로 요약하여 마음의 평화와 올바른 삶의 지침을 제공하는 해설서입니다.",
+    "overallSummary": "법구경에 수록된 주요 게송들을 바탕으로, 마음이 모든 행동의 중심이 됨을 밝히고, 원한을 용서로 극복하는 법, 탐욕과 집착을 버리고 자신을 절제하는 법, 그리고 생로병사의 고통 속에서 참된 열반에 이르는 길을 알기 쉽게 요약하여 설명합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "몸은 마음을 따른다 ~ 내 마음의 주인",
+        "summary": "마음이 삶의 중심이 되어 몸을 부리므로, 나쁜 생각을 하면 고통이 따르고 착한 생각을 하면 행복이 그림자처럼 따른다는 인과의 도리를 설명합니다."
+      },
+      {
+        "sectionTitle": "원한은 원한으로 갚지 말라 ~ 나를 보라",
+        "summary": "원한은 원한으로 갚을 수 없으며 오직 용서와 인내를 통해서만 멈춘다는 여래의 법과, 남의 허물 대신 자신의 잘못을 살필 것을 강조합니다."
+      },
+      {
+        "sectionTitle": "음욕의 불길 ~ 나의 허물",
+        "summary": "음욕과 성냄, 어리석음의 해독을 경계하고, 남의 허물은 쉽게 보면서 자신의 허물은 감추는 인간의 어리석음을 지적하며 스스로를 다스릴 것을 당부합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인과응보의 법칙",
+        "value": "선한 일에는 행복이 따르고 악한 일에는 고통이 따르는 우주의 법칙"
+      }
+    ],
+    "keyEntitiesText": "석가모니 부처님, 법구, 유기난",
+    "settingText": "고대 인도와 불교 전파 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "166zjvJ0HPc_jXET-xPKalml7C6ilkTTw",
+    "filename": "법구경(法句經) 요약.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.088Z",
+    "size": "19022",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/166zjvJ0HPc_jXET-xPKalml7C6ilkTTw/view?usp=drivesdk",
+    "sourceSha256": "a25be7ec7cfe34ad4756ff569ad7e646a024bc4a896cb42eb7d8d18539890b42",
+    "textSha256": "e3ffc6bba170bf30db4190a68854d558f80a68a457a0a5953b08dfba45b4f798",
+    "changeKey": "32f0fad24c1ed34e70de520999a492f7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "67737b84b13ac285c8fc",
+    "workId": "67737b84b13ac285c8fc",
+    "driveFileId": "166zjvJ0HPc_jXET-xPKalml7C6ilkTTw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:17:06.873500+00:00",
+    "updatedAt": "2026-09-23T16:17:06.873515+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T16:17:06.873614+00:00"
+    }
+  }
+}

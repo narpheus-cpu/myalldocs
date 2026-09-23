@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "프랑켄슈타인",
+    "author": "메리 셸리",
+    "genre": "소설",
+    "tags": [
+      "고딕 소설",
+      "SF",
+      "괴물",
+      "창조주"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "unknown"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 소설가로, 고딕 소설의 걸작이자 최초의 SF 소설로 평가받는 프랑켄슈타인의 저자입니다.",
+    "oneLineSummary": "과학적 야망으로 생명체를 창조한 빅터 프랑켄슈타인과 그가 버린 피조물의 비극적인 갈등을 다룬 소설입니다.",
+    "overallSummary": "북극 탐험가 월턴의 편지 형식으로 시작하여, 생명의 비밀을 밝혀내고 시체로 괴물을 창조했으나 그 흉측함에 공포를 느끼고 도망친 과학자 빅터 프랑켄슈타인의 고백을 담고 있습니다. 버림받은 괴물은 외로움과 분노 속에서 창조주에게 복수를 다짐합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1818년판 서문",
+        "summary": "소설의 창작 배경과 다윈 박사의 생리학적 가설, 그리고 인간 본성의 진실을 담아내고자 한 작가의 의도를 밝힙니다."
+      },
+      {
+        "sectionTitle": "편지 1 ~ 편지 4",
+        "summary": "북극 탐험을 떠난 로버트 월턴이 누나에게 보내는 편지들로, 빙원에 고립되었다가 극적으로 구조된 빅터 프랑켄슈타인과의 만남과 그의 기이한 행적을 소개합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 구조",
+        "value": "월턴의 편지글 속에 프랑켄슈타인의 고백이 담긴 액자식 구성"
+      }
+    ],
+    "keyEntitiesText": "빅터 프랑켄슈타인, 피조물(괴물), 로버트 월턴, 마거릿 새빌",
+    "settingText": "제네바, 런던, 그리고 북극의 빙원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13dq9WHUqIxUvanYbma0PEbPZ1ne-sDk7",
+    "filename": "메리 셸리-프랑켄슈타인(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:11:40.000Z",
+    "size": "533039",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/13dq9WHUqIxUvanYbma0PEbPZ1ne-sDk7/view?usp=drivesdk",
+    "sourceSha256": "024ec6b28a8a12e4b5ef778b76f9e1a2403828980a9ad24d7b9116c702da2908",
+    "textSha256": "6ac6b336c2ecb657f4c324fc20d564bc6100d75a9d481977dbff64dad6c1c435",
+    "changeKey": "6ac5692c7dd96bf3d720d1a53ce44091",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e2027fdaf24bcebb8863",
+    "workId": "e2027fdaf24bcebb8863",
+    "driveFileId": "13dq9WHUqIxUvanYbma0PEbPZ1ne-sDk7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:15:25.284310+00:00",
+    "updatedAt": "2026-09-23T16:15:25.284326+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T16:15:25.284442+00:00"
+    }
+  }
+}

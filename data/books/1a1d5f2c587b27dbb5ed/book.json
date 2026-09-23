@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모파상 단편선",
+    "author": "기 드 모파상",
+    "genre": "소설",
+    "tags": [
+      "프랑스 소설",
+      "단편소설",
+      "사실주의",
+      "인간 본성"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "19세기 프랑스의 대표적인 자연주의 소설가이자 단편 소설의 거장입니다.",
+    "oneLineSummary": "인간의 허영심, 위선, 그리고 운명의 아이러니를 날카롭고 사실적으로 묘사한 단편 소설집입니다.",
+    "overallSummary": "아내의 죽음 이후 그녀가 남긴 모조 보석들이 사실은 엄청난 가치의 진짜 보석이었음을 알게 되며 아내의 부정을 깨닫는 남편의 이야기를 다룬 '보석', 여행 중 달빛 아래서 겪은 찰나의 감정과 사랑의 본질을 성찰하는 '달빛' 등의 단편을 수록하고 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "보석",
+        "summary": "랑탱 씨는 아내의 사후 가난을 이기지 못해 그녀가 수집하던 모조 보석을 팔려다가 그것들이 모두 진짜 보석임을 알게 되고, 아내의 부정을 깨달은 뒤 부자가 되어 사직하지만 결국 불행한 재혼을 하게 됩니다."
+      },
+      {
+        "sectionTitle": "달빛",
+        "summary": "스위스 여행에서 돌아온 언니 앙리에트가 달빛에 취해 겪은 찰나의 탈선과 그로 인한 심적 변화를 동생에게 털어놓으며, 여성의 감수성과 사랑의 본질에 대해 이야기합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인간 본성의 폭로",
+        "value": "보석을 통해 드러나는 위선과 달빛을 통해 묘사되는 낭만적 환상"
+      }
+    ],
+    "keyEntitiesText": "랑탱 씨, 랑탱 부인, 레토레 부인, 루베르 부인",
+    "settingText": "19세기 프랑스 파리와 스위스 뤼세른 호수"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yEc7hyR32EiUlPejU3-sNbbyGZEkPnjM",
+    "filename": "기 드 모파상 단편선(현대문학 단편선)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T17:03:34.000Z",
+    "size": "1368207",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1yEc7hyR32EiUlPejU3-sNbbyGZEkPnjM/view?usp=drivesdk",
+    "sourceSha256": "567b25003dd9660e6aabee2b044dcb51809be9023b3340cc5f145b537a502ad8",
+    "textSha256": "9f569c8d2015b1391e07bbfe5ad397f6578ba91982227729e53c4142d77f6233",
+    "changeKey": "518a5a6b3d3dc6bed9488a0f4fca50cc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1a1d5f2c587b27dbb5ed",
+    "workId": "1a1d5f2c587b27dbb5ed",
+    "driveFileId": "1yEc7hyR32EiUlPejU3-sNbbyGZEkPnjM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:15:34.522245+00:00",
+    "updatedAt": "2026-09-23T16:15:34.522260+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T16:15:34.522357+00:00"
+    }
+  }
+}

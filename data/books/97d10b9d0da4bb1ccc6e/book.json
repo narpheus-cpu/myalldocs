@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무사도",
+    "author": "니토베 이나조, 미야모토 무사시",
+    "genre": "사상",
+    "tags": [
+      "일본 사상",
+      "무사도",
+      "도덕 체계",
+      "기사도"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 교육자이자 사상가로, 국제연맹 사무차장을 역임한 인물입니다.",
+    "oneLineSummary": "일본의 전통적인 무사 계급의 도덕적 규범과 정신적 뿌리를 서양의 기사도 및 철학과 비교하여 설명한 책입니다.",
+    "overallSummary": "저자 니토베 이나조는 서양인들에게 일본의 도덕적 기반을 설명하기 위해 무사도를 체계화하여 소개합니다. 무사도가 성문법은 아니지만 오랜 세월 동안 무사들의 생활 속에서 형성된 유기적 규범이며, 정의, 용기, 인의 등 동양적 덕목의 정수를 담고 있음을 역설합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "종교 교육 없이 도덕 교육을 하는 일본의 비결을 묻는 서양 학자의 질문에 답하기 위해, 일본 도덕 관념의 뿌리인 무사도를 서양의 역사와 문학에 빗대어 저술하게 된 동기를 밝힙니다."
+      },
+      {
+        "sectionTitle": "제 1장 도덕체계로서의 무사도",
+        "summary": "무사도가 일본의 상징인 벚꽃처럼 고유하게 피어난 도덕적 향기이며, 봉건제도의 유물로서 현대 일본인의 행동 양식을 규제하는 보이지 않는 율법으로 작용하고 있음을 설명합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "무사도의 현대적 의의",
+        "value": "일본의 전통 도덕 체계를 서양의 기사도 및 기독교 사상과 비교 분석"
+      }
+    ],
+    "keyEntitiesText": "니토베 이나조, 에드먼드 버크, 카를 마르크스, 존 러스킨",
+    "settingText": "메이지 시대의 일본과 서구 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gTY87WtS20eb-58IwRfeqdwYwAIWhmon",
+    "filename": "미야모토 무사시-무사도(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T23:54:26.000Z",
+    "size": "918306",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1gTY87WtS20eb-58IwRfeqdwYwAIWhmon/view?usp=drivesdk",
+    "sourceSha256": "4ffd646454699f855b8c0f8fc8c8d5c600791312b1474e7987e2ad90e435df72",
+    "textSha256": "9e962587b3475d758f7ae2229ea2acbe90cb0bdf347c417885e95eff40561da4",
+    "changeKey": "90faff7ae263d13a7b37658787ce1ed5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "97d10b9d0da4bb1ccc6e",
+    "workId": "97d10b9d0da4bb1ccc6e",
+    "driveFileId": "1gTY87WtS20eb-58IwRfeqdwYwAIWhmon",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:16:01.626396+00:00",
+    "updatedAt": "2026-09-23T16:16:01.626411+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T16:16:01.626523+00:00"
+    }
+  }
+}

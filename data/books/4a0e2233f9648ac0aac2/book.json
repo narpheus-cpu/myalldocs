@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "법구경",
+    "author": "법구 편찬",
+    "genre": "종교",
+    "tags": [
+      "불교 경전",
+      "게송",
+      "마음 수행",
+      "지혜"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "poetry"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인도의 고대 승려이자 학자로, 부처님의 가르침을 모아 법구경을 편찬한 인물로 전해집니다.",
+    "oneLineSummary": "부처님의 가르침 중 가장 핵심적이고 보편적인 진리를 아름다운 시의 형태로 엮은 불교의 대표적인 경전입니다.",
+    "overallSummary": "원어명 '담마파다(진리의 길)'로 알려진 경전으로, 인간의 마음가짐과 도덕적 실천을 강조하는 게송들을 모아놓았습니다. 무상함, 배움, 믿음, 자비 등 인간이 살아가면서 지켜야 할 마음의 자세와 지혜를 간결하고 아름다운 시어로 전달합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "법구경의 경명과 소개",
+        "summary": "법구경의 원어인 '담마파다'의 의미와 경전의 역사적 성립 배경, 그리고 동서양에 널리 번역되어 읽히게 된 과정을 설명합니다."
+      },
+      {
+        "sectionTitle": "1. 무상품 (無常品)",
+        "summary": "모든 것은 덧없고 변하며, 태어난 것은 반드시 죽는다는 우주의 무상한 법칙을 깨닫고 탐욕을 버릴 것을 권하는 게송들입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "마음의 중요성",
+        "value": "모든 행동과 운명은 마음가짐에서 비롯되므로 마음을 맑게 닦아야 함"
+      }
+    ],
+    "keyEntitiesText": "석가모니 부처님, 법구, 유기난, 파우스뵐, 막스 뮐러",
+    "settingText": "고대 인도와 불교 전파 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1E4SyrpPClsJGz6SDCTefxc4FE7Zex1jV",
+    "filename": "법구경(法句經).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.098Z",
+    "size": "113802",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1E4SyrpPClsJGz6SDCTefxc4FE7Zex1jV/view?usp=drivesdk",
+    "sourceSha256": "889419d343ceacfbd4075e84ca693b0719afc7eab0e35b4f91a2c4b02eba684c",
+    "textSha256": "42e99848202d2e459126e07f042fcbffeff4c84350516d35d41bbf94c928f66a",
+    "changeKey": "3680ca4a880028e026e53b857d86f797",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4a0e2233f9648ac0aac2",
+    "workId": "4a0e2233f9648ac0aac2",
+    "driveFileId": "1E4SyrpPClsJGz6SDCTefxc4FE7Zex1jV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:16:58.237284+00:00",
+    "updatedAt": "2026-09-23T16:16:58.237301+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8766,
+      "updatedAt": "2026-09-23T16:16:58.237397+00:00"
+    }
+  }
+}

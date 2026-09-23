@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동서고전 200선 해제 2",
+    "author": "박덕진 편저",
+    "genre": "학술",
+    "tags": [
+      "서울대 선정",
+      "고전 해제",
+      "서양사상",
+      "중국사상"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "우석대학교 보건학 교수로 재직하며, 고전의 대중화와 독서 운동에 앞장서고 있습니다.",
+    "oneLineSummary": "동서양 사상의 흐름을 정리하고, 문학과 사상 분야의 핵심 고전들을 깊이 있게 해설한 도서입니다.",
+    "overallSummary": "서양 사상, 중국 사상, 한국 사상의 역사적 흐름을 일목요약하게 정리하고, 정치학, 군주론, 유토피아 등 서양 사상 고전과 북학의, 동경대전 등 동양 사상 고전, 그리고 다양한 문학 작품들을 체계적으로 분석하여 해제한 학술 교양서입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1부 동, 서양 사상의 흐름과 고전",
+        "summary": "그리스 사상과 크리스트교 사상에 뿌리를 둔 서양 사상의 흐름, 제자백가부터 근대에 이르는 중국 사상의 흐름, 그리고 삼국 시대부터 실학에 이르는 한국 사상의 역사적 전개를 정리합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사상의 두 흐름",
+        "value": "이성을 중시하는 보편주의와 감각을 중시하는 상대주의의 대립과 발전"
+      }
+    ],
+    "keyEntitiesText": "박덕진, 소크라테스, 플라톤, 아리스토텔레스, 제논, 에피쿠로스",
+    "settingText": "고대 그리스부터 현대에 이르는 사상사적 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WQmY98mHx520L1gQ1CouAklS53UHG8iP",
+    "filename": "박덕진 편저- 동서고전 200선 해제 2 (서울대 선정) .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.910Z",
+    "size": "962438",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1WQmY98mHx520L1gQ1CouAklS53UHG8iP/view?usp=drivesdk",
+    "sourceSha256": "b9db44041cb843f058d9554b6e671f3a0e3011932c1a074722f10e2c1bc74170",
+    "textSha256": "ffb6d8697309a59a4945b2a206133acc6852f9390bcd9102ea8b6017b857a862",
+    "changeKey": "f431b3eaa2c40482125c6b9bd43fb984",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3fac4f2925b7cf960c21",
+    "workId": "3fac4f2925b7cf960c21",
+    "driveFileId": "1WQmY98mHx520L1gQ1CouAklS53UHG8iP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:16:34.692479+00:00",
+    "updatedAt": "2026-09-23T16:16:34.692494+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T16:16:34.692606+00:00"
+    }
+  }
+}

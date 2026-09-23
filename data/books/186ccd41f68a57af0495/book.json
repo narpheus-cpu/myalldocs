@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "목민심서",
+    "author": "정약용",
+    "genre": "고전",
+    "tags": [
+      "실학",
+      "지방 행정",
+      "청렴",
+      "애민 사상"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "philosophy",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조선 후기의 대표적인 실학자이자 사상가로, 일표이서 등 수많은 저술을 남겼습니다.",
+    "oneLineSummary": "조선 후기 실학자 다산 정약용이 지방 수령들이 지켜야 할 청렴과 애민의 도리를 체계적으로 정리한 행정 지침서입니다.",
+    "overallSummary": "정약용이 유배 생활 동안 저술한 책으로, 부임부터 해관에 이르기까지 지방 고을의 수령이 갖추어야 할 자질과 실무 지식을 12편 72조로 나누어 구체적이고 정확하게 제시하며, 관리의 청렴함과 백성을 사랑하는 마음을 강조합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "자서",
+        "summary": "저자가 유배지에서 고금의 역사서와 자신의 경험을 바탕으로 목민심서를 저술하게 된 동기와 책의 구성 방식을 밝힙니다."
+      },
+      {
+        "sectionTitle": "부임육조",
+        "summary": "수령에 임명되었을 때의 마음가짐, 행장을 꾸리는 법, 하직 인사 등 부임 과정에서 지켜야 할 검소함과 청렴의 도리를 설명합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "목민관의 덕목",
+        "value": "청렴, 봉공, 애민을 바탕으로 한 행정 개혁"
+      }
+    ],
+    "keyEntitiesText": "정약용, 정재원(선친), 이황, 해서",
+    "settingText": "조선 시대 지방 고을의 관아와 유배지 강진"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-IeETy67qhHhcXFnmwwQgyuKK2ubMaLq",
+    "filename": "목민심서-정약용.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.785Z",
+    "size": "990404",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1-IeETy67qhHhcXFnmwwQgyuKK2ubMaLq/view?usp=drivesdk",
+    "sourceSha256": "5d7730a7bad89e4f6b3fe53cc3fa4d7b7befa3ee84602b3cda53b9220cdeffdc",
+    "textSha256": "4f2e524db36be595244f1dbdf15eed4e37d0205141c343439ee1adfc1f79e3b1",
+    "changeKey": "7d9835333d8343853c0e65d611cb7cd4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "186ccd41f68a57af0495",
+    "workId": "186ccd41f68a57af0495",
+    "driveFileId": "1-IeETy67qhHhcXFnmwwQgyuKK2ubMaLq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:15:42.760357+00:00",
+    "updatedAt": "2026-09-23T16:15:42.760373+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T16:15:42.760487+00:00"
+    }
+  }
+}

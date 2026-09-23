@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동서고전 200선 해제 3",
+    "author": "박덕진 편저",
+    "genre": "학술",
+    "tags": [
+      "서울대 선정",
+      "고전 해제",
+      "서양문학",
+      "동양문학"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "우석대학교 보건학 교수로 재직하며, 고전의 대중화와 독서 운동에 앞장서고 있습니다.",
+    "oneLineSummary": "서양 문학의 흐름을 분석하고, 동서양의 대표적인 문학 및 사상 고전들을 해설한 도서입니다.",
+    "overallSummary": "서양 문학의 역사적 변천 과정을 헬레니즘과 헤브라이즘의 원류로부터 현대 문학까지 정리하고, 걸리버 여행기, 주홍글씨, 열하일기 등 동서양의 대표적인 문학 작품들과 역사, 의무론 등 사상 고전들을 체계적으로 요약 및 해설합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1부 서양 문학의 흐름과 고전",
+        "summary": "인간 중심의 헬레니즘과 신 중심의 헤브라이즘이라는 두 원류를 바탕으로, 고대, 중세, 르네상스, 고전주의, 낭만주의, 사실주의를 거쳐 현대 문학에 이르는 서양 문학의 사조를 정리합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학의 두 원류",
+        "value": "인간 중심의 헬레니즘과 신 중심의 헤브라이즘의 상호 작용"
+      }
+    ],
+    "keyEntitiesText": "박덕진, 호메로스, 사포, 아이스킬로스, 소포클레스, 에우리피데스",
+    "settingText": "고대 그리스 로마부터 현대에 이르는 문학사적 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hLQ6_dZCVB4iRUKpvGoRw10qiO8GzoMH",
+    "filename": "박덕진 편저- 동서고전 200선 해제 3 (서울대 선정) .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.941Z",
+    "size": "963869",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1hLQ6_dZCVB4iRUKpvGoRw10qiO8GzoMH/view?usp=drivesdk",
+    "sourceSha256": "3fc643e17cc882eed2577916d244609b72d017c9bb277792fb6016e77bf985d2",
+    "textSha256": "65ee2629f62766fa16fba93841fc8bddc6a522ee45904d895bb86e4893878324",
+    "changeKey": "a426db3276ab9da1762972aa12cee2d4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e217afd24affc6149cae",
+    "workId": "e217afd24affc6149cae",
+    "driveFileId": "1hLQ6_dZCVB4iRUKpvGoRw10qiO8GzoMH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:16:42.571982+00:00",
+    "updatedAt": "2026-09-23T16:16:42.571996+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T16:16:42.572089+00:00"
+    }
+  }
+}
