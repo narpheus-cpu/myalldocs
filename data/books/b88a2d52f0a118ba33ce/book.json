@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "당신이 어찌하여 이 세상에 있습니까",
+    "author": "강계순",
+    "genre": "에세이/문학",
+    "tags": [
+      "사랑편지",
+      "그리움",
+      "아벨라르",
+      "유치환",
+      "이영도"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "poetry"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "사랑의 순수함과 서간체 문학의 감성을 글로 담아내는 수필가이자 시인이다.",
+    "oneLineSummary": "영원한 연인을 향한 서간체 고백을 통해 사랑이 가진 정열과 슬픔, 고독과 영적 상승의 의미를 담아낸 서간 수필집이다.",
+    "overallSummary": "아벨라르와 엘로이즈, 청마 유치환과 이영도의 사랑 이야기 등을 교차시키며, 한 사람을 진심으로 사랑함으로써 얻게 되는 삶의 기쁨과 슬픔, 그리움의 고통, 예술과 사랑의 조화를 고백적 어조로 담아냈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책을 내면서",
+        "summary": "아벨라르와 엘로이즈의 편지에 감동받아 고백적 서간집을 집필하게 된 동기와 소회를 밝힌다."
+      },
+      {
+        "sectionTitle": "나, 그대를 만나 ~ 당신이 어찌하여 이 세상에 있습니까",
+        "summary": "첫만남의 충격과 사랑의 시작, 연인의 의미, 유치환과 이영도의 편지 구절을 인용하며 그리움을 노래한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 특징",
+        "value": "실제 인물과 문학적 모티브를 결합한 낭만적·서정적 서간체 수필"
+      }
+    ],
+    "keyEntitiesText": "강계순, 아벨라르, 엘로이즈, R.M.릴케, 이사도라 던컨, 유치환, 이영도",
+    "settingText": "1990년대 가을, 수신자 '아벨라르'에게 보내는 서간 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wsj1sLlOrv8mQjCyhto74zmLIZDYzEu1",
+    "filename": "강계순-당신이 어찌하여 이 세상에 있습니까 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:32.500Z",
+    "size": "180963",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1wsj1sLlOrv8mQjCyhto74zmLIZDYzEu1/view?usp=drivesdk",
+    "sourceSha256": "33917529dea505bccadad8497a941ebaf9eac5f269c098323a9379ad19bc7171",
+    "textSha256": "a65571d0fafe024546d87f1d4361552a2721855d0c985a1eda24c92698b465ee",
+    "changeKey": "c48a32326f22414d8d2367f4bec3a820",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b88a2d52f0a118ba33ce",
+    "workId": "b88a2d52f0a118ba33ce",
+    "driveFileId": "1wsj1sLlOrv8mQjCyhto74zmLIZDYzEu1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-22T23:59:15.843753+00:00",
+    "updatedAt": "2026-09-22T23:59:15.843768+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-22T23:59:15.843836+00:00"
+    }
+  }
+}
