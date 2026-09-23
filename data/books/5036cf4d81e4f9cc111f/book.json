@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "젊은이여 네 꿈을 펼쳐라",
+    "author": "서한샘",
+    "genre": "에세이 / 자기계발",
+    "tags": [
+      "청년",
+      "꿈",
+      "희망",
+      "자존심",
+      "인생관"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "자기계발",
+        "청소년"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "국어 강사이자 교육인, 기업인으로 활동하며 청소년과 젊은이들에게 꿈과 희망을 전파함.",
+    "oneLineSummary": "험난한 시대를 살아온 저자가 오늘날의 젊은이들에게 자존심을 지키며 꿈과 희망을 펼칠 것을 당부하는 에세이.",
+    "overallSummary": "저자의 가난하고 고통스러웠던 청소년 시절과 대학 입시의 기억, 제자 진숙이와의 일화 등을 통해 인생의 고난을 극복하는 자존심과 오기의 가치를 전하고, 새해를 맞아 청년들이 주도적으로 미래를 설계하고 실천할 것을 격려한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이제는 너희 차례다",
+        "summary": "성수대교 붕괴 직후 다리 골절로 입원한 경험을 계기로 삶을 정리하며 아들의 앞날과 이 시대 젊은이들을 격려하기 위해 책을 쓰게 된 동기를 밝힘."
+      },
+      {
+        "sectionTitle": "새해에는 네 꿈을 펼쳐라",
+        "summary": "가난으로 삼 일을 굶으면서도 구걸하지 않겠다는 자존심을 지켰던 일화를 소개하며, 젊은이들이 신념과 의지를 가지고 꿈을 실천할 것을 당부함."
+      },
+      {
+        "sectionTitle": "젊음이 지향하는 곳",
+        "summary": "치열했던 대학 입시와 합격자 발표날의 기억, 그리고 가난과 가정 붕괴로 자살을 기도했던 제자 진숙이의 아픔을 위로하고 도왔던 일화를 전함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "자존심과 오기",
+        "value": "극심한 빈곤 속에서도 구걸하지 않고 버틴 최후의 오기가 인생을 버티는 힘이 되었음을 강조함."
+      }
+    ],
+    "keyEntitiesText": "서한샘, 산이, 진숙이, 김춘수, 월트 디즈니, 암스트롱, 생떽쥐베리",
+    "settingText": "1950~1960년대 한국, 1994년 세모, 양화대교, 문래동, 일본 동경 디즈니랜드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NFmyGAFRT0gHsvMGS_SZhXHXlRpCw7pw",
+    "filename": "서한샘-젊은이여 네 꿈을 펼쳐라.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:37.206Z",
+    "size": "270712",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1NFmyGAFRT0gHsvMGS_SZhXHXlRpCw7pw/view?usp=drivesdk",
+    "sourceSha256": "efb038cffb2e1897977268f44559d0bb4e7411c15b49c3d56f757d5bdd7b2c4b",
+    "textSha256": "27b5eb3f52d404c7e86d590f16180c05b3832fe5b55a25708661c40497ba66a6",
+    "changeKey": "bfb9217173c876f35258ec189121dd17",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5036cf4d81e4f9cc111f",
+    "workId": "5036cf4d81e4f9cc111f",
+    "driveFileId": "1NFmyGAFRT0gHsvMGS_SZhXHXlRpCw7pw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:59:30.143172+00:00",
+    "updatedAt": "2026-09-23T00:59:30.143188+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:59:30.143300+00:00"
+    }
+  }
+}

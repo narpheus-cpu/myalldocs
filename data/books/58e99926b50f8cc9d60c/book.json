@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계 잡학사전",
+    "author": "좋은 책 만드는 사람들",
+    "genre": "교양 / 잡학",
+    "tags": [
+      "잡학",
+      "서양사",
+      "중국사",
+      "한국사",
+      "상식"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "역사",
+        "교양"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독자들에게 유익하고 재미있는 교양 도서를 기획하고 발행하는 편집 동인.",
+    "oneLineSummary": "서양, 중국, 한국의 역사, 신화, 문학 속에 담긴 흥미로운 상식과 유래를 정리한 잡학 사전.",
+    "overallSummary": "서양편(라 퐁텐 우화, 아틀라스, 기사도, 골리앗과 다윗, 갈릴레이의 지동설, 아담과 이브 등), 중국편(고사성어 등), 한국편(민속, 역사적 일화 등)으로 나누어 인류 문화유산 속에 깃든 다양한 상식과 용어의 기원을 알기 쉽게 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서양편 - 주요 일화",
+        "summary": "강자의 억지를 풍자한 라 퐁텐의 우화, 하늘을 버티는 거인 아틀라스, 유베나리스의 '건전한 신체에 건전한 정신', 예수의 겟세마네 기도와 검의 경고, 고다이바 부인의 희생, 알렉산더의 고르디우스 매듭, 이솝 우화의 고양이 목에 방울 달기, 미국의 골드 러시, 다윗과 골리앗의 결투, 갈릴레이의 종교재판과 지동설, 에덴동산의 금단의 열매 등 다양한 서양 문화의 유래를 설명함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상식의 유래",
+        "value": "일상적으로 사용하는 관용구와 명언들이 탄생하게 된 역사적, 신화적 배경을 고증함."
+      }
+    ],
+    "keyEntitiesText": "라 퐁텐, 제우스, 아틀라스, 유베나리스, 예수, 고다이바 부인, 알렉산더 대왕, 고르디우스, 다윗, 골리앗, 사울, 갈릴레오 갈리레이, 코페르니쿠스, 아담, 이브",
+    "settingText": "그리스 신화, 로마 교황청, 미국 캘리포니아, 에덴동산, 예루살렘 겟세마네"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1W_nZjmwrnpCqJyBNP5tXWmxvzgnL-rPk",
+    "filename": "세계 잡학사전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:37.348Z",
+    "size": "503194",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1W_nZjmwrnpCqJyBNP5tXWmxvzgnL-rPk/view?usp=drivesdk",
+    "sourceSha256": "911331c78fd4b198c0b9514d5bddc0021cfc4ee6c4a69bea3ac7258121095fa4",
+    "textSha256": "6a6581c5bae18739ee6abcf843585a02ce180f938bbe1b95455049a14c3ea847",
+    "changeKey": "24b5a07a3d336f076a8307f3e1e19a78",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "58e99926b50f8cc9d60c",
+    "workId": "58e99926b50f8cc9d60c",
+    "driveFileId": "1W_nZjmwrnpCqJyBNP5tXWmxvzgnL-rPk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:00:33.977419+00:00",
+    "updatedAt": "2026-09-23T01:00:33.977433+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:00:33.977522+00:00"
+    }
+  }
+}
