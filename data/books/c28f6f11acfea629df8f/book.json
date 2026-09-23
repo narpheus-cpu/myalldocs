@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신문 명칼럼 컬렉션 2",
+    "author": "장달중 외",
+    "genre": "시사/칼럼",
+    "tags": [
+      "칼럼",
+      "시사",
+      "정치",
+      "지방자치"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "국내 주요 일간신문에 글을 기고한 각 분야 전문가 및 교수진이다.",
+    "oneLineSummary": "급변하는 정세와 사회적 이슈를 예리하게 해부하여 시대의 흐름을 짚어주는 명칼럼 모음이다.",
+    "overallSummary": "정치, 경제, 사회, 문화, 교육, 환경 등 다양한 분야에서 1994년 한 해 동안 언론에 보도된 핵심 논제들을 전문가의 시각으로 분석하고 대책을 모색한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "정치",
+        "summary": "세계화를 위한 정치연합, 지자체 선거의 불가피성, 북미 회담에 따른 한반도 정세 변화 등을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "목적",
+        "value": "현대 사회의 전반적 흐름과 쟁점에 대한 비판적 사고력 증진"
+      }
+    ],
+    "keyEntitiesText": "장달중, 장을병, 김진애, 김학준",
+    "settingText": "1994년 무렵의 한국 사회와 국제 무대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1J83QiYIPST_yIioqH3iLGwhBqiWtRMXo",
+    "filename": "신문 명칼럼 콜렉션 2.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:38.073Z",
+    "size": "517132",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1J83QiYIPST_yIioqH3iLGwhBqiWtRMXo/view?usp=drivesdk",
+    "sourceSha256": "fe487e6809893d1811a35c6f7526bf0ac3940d89c544cdf8c3e705ae84056d22",
+    "textSha256": "fd8cffe6ba5b09e8d177d4a6143c12171362cba3c8ecbf32cb9c786768e29813",
+    "changeKey": "105fcba9c839ae2991a758a5dcb1bca5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c28f6f11acfea629df8f",
+    "workId": "c28f6f11acfea629df8f",
+    "driveFileId": "1J83QiYIPST_yIioqH3iLGwhBqiWtRMXo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:07:49.800176+00:00",
+    "updatedAt": "2026-09-23T01:07:49.800191+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7289,
+      "updatedAt": "2026-09-23T01:07:49.800293+00:00"
+    }
+  }
+}

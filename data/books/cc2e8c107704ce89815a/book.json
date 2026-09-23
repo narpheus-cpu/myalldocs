@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 한국인이야",
+    "author": "신세용",
+    "genre": "수필/유학기",
+    "tags": [
+      "유학",
+      "미국",
+      "정체성",
+      "성장소설"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "unknown"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "신세용은 중학교 1학년 때 미국 유학을 떠나 사립학교를 거치며 겪은 경험을 진솔하게 담아낸 저자이다.",
+    "oneLineSummary": "17세 소년이 미국 유학 생활을 통해 겪은 시련과 깨달음, 그리고 조국에 대한 사랑을 그린 자전적 이야기.",
+    "overallSummary": "미국에 대한 장밋빛 환상을 안고 유학길에 올랐으나 낯선 환경과 엄격한 사관학교 생활 속에서 좌절하고 방황하던 소년이, 끈기와 용기를 배우며 자신이 진정한 대한민국 사람임을 깨닫는 과정을 가감 없이 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 한여름밤의 꿈",
+        "summary": "방학을 맞아 그리운 고국 서울로 돌아오는 비행기 안에서 느낀 감격과 3년 전 어린 나이에 유학을 떠났던 기억을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "타국 생활을 통해 발견한 민족적 정체성과 조국에 대한 그리움"
+      }
+    ],
+    "keyEntitiesText": "신세용, 현구, 양호",
+    "settingText": "대한민국 서울과 미국의 기숙학교들"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Q1tGMxcOf2DoR7WM6-eRdNqOOCRUNQQ7",
+    "filename": "신세용-나는 한국인이야.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:38.129Z",
+    "size": "175864",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1Q1tGMxcOf2DoR7WM6-eRdNqOOCRUNQQ7/view?usp=drivesdk",
+    "sourceSha256": "ad527413f1d0280d0820618c6cbf8280cf0bb5b3219694bc6f7f3bfa2682783a",
+    "textSha256": "39d721044274768150c13700065e55ac3bdfa4db148a466d9f12f7ca84c8a424",
+    "changeKey": "42f48fb649573befc3606c23d862356b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cc2e8c107704ce89815a",
+    "workId": "cc2e8c107704ce89815a",
+    "driveFileId": "1Q1tGMxcOf2DoR7WM6-eRdNqOOCRUNQQ7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:08:10.765946+00:00",
+    "updatedAt": "2026-09-23T01:08:10.765960+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:08:10.766049+00:00"
+    }
+  }
+}

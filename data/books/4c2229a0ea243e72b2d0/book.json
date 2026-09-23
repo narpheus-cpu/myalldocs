@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "맥아더",
+    "author": "시드니 매이어",
+    "genre": "전기/역사",
+    "tags": [
+      "맥아더",
+      "군인",
+      "제2차세계대전",
+      "한국전쟁"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시드니 매이어는 맥아더 장군의 생애와 군사적 업적을 심도 있게 조명한 저자이다.",
+    "oneLineSummary": "파란만장한 생을 살았던 위대한 전략가이자 군인인 맥아더의 일대기를 그린다.",
+    "overallSummary": "남북전쟁에서 공훈을 세운 아버지의 가문에서 태어나 웨스트포인트를 수석 졸업하고, 필립핀과 제2차 세계대전, 한국전쟁에서 혁혁한 전공을 세운 맥아더의 삶과 트루만 대통령과의 해임 갈등을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소박하고 순수한 무장",
+        "summary": "한국전쟁 당시 해임되어 귀국한 맥아더 장군을 향한 대중의 열광적인 환호와 그의 군인으로서의 궤적을 소개한다."
+      },
+      {
+        "sectionTitle": "1.무훈의 가문에 부끄럽지 않게",
+        "summary": "남북전쟁부터 활약한 아버지 아더 맥아더의 영향 아래 자라난 다글라스 맥아더의 소년 시절과 육사 입학 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 평가",
+        "value": "탁월한 전략가이자 자기중심적이고 정치적 아마추어였던 군인"
+      }
+    ],
+    "keyEntitiesText": "더글러스 맥아더, 아더 맥아더, 트루만, 아귀날도",
+    "settingText": "미국, 필립핀, 일본 등 태평양 전선"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1u-H3s7LwVe9c9shJ2G59zc2HN7Z8DZtA",
+    "filename": "시드니 매이어-맥아더.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:37.848Z",
+    "size": "250050",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1u-H3s7LwVe9c9shJ2G59zc2HN7Z8DZtA/view?usp=drivesdk",
+    "sourceSha256": "feb0b6cae2ca10fe3e14c7b5708ed5ccab78880d7eddd1f59aab95a95e4fc4ac",
+    "textSha256": "2aef451dd9fa365d7c39ae32123cf8ed65d0a6bba3de956c108eb322bb2a5717",
+    "changeKey": "8d8876f307d522a6414704c76e78c46b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4c2229a0ea243e72b2d0",
+    "workId": "4c2229a0ea243e72b2d0",
+    "driveFileId": "1u-H3s7LwVe9c9shJ2G59zc2HN7Z8DZtA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:07:06.170768+00:00",
+    "updatedAt": "2026-09-23T01:07:06.170784+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:07:06.170899+00:00"
+    }
+  }
+}

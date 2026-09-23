@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시민생활의 법률지식",
+    "author": "오창수",
+    "genre": "법률/실용",
+    "tags": [
+      "법률",
+      "시민생활",
+      "손해배상",
+      "부동산"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오창수는 변호사로서 일상생활에서 부딪치는 법률문제를 알기 쉽게 풀어낸 저자이다.",
+    "oneLineSummary": "일상생활에서 발생할 수 있는 다양한 법적 분쟁과 해결 절차를 영역별로 체계적으로 안내한다.",
+    "overallSummary": "금전대차, 부동산거래, 주택임대차, 각종 사고와 손해배상, 가족생활, 어음 및 수표거래, 노사관계, 형사절차 등 시민생활과 밀접한 8가지 주제를 판례와 실무 관행 중심으로 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 금전대차(채권, 채무)의 법률관계",
+        "summary": "금전거래 시 유의사항, 채무의 이행기와 이행장소, 이자, 소멸시효, 채권담보제도 등을 상세히 다룬다."
+      },
+      {
+        "sectionTitle": "제2장 부동산거래의 법률관계",
+        "summary": "부동산 매매계약의 성립과 이행, 법적 규제, 등기제도 및 취득시효에 관한 법률문제를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "학설 대립보다는 판례와 실무 관행에 초점을 맞춘 실용적 지침서"
+      }
+    ],
+    "keyEntitiesText": "오창수, 청림출판",
+    "settingText": "현대 한국의 법적 일상생활 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10yaWdxd-DQ8gIlG6U2mQ9csViq9x3rfL",
+    "filename": "시민생활의 법률지식.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:37.899Z",
+    "size": "1104679",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/10yaWdxd-DQ8gIlG6U2mQ9csViq9x3rfL/view?usp=drivesdk",
+    "sourceSha256": "fbc4439a3978210db54d214c7a55be16dc58a578b38d760243d38345fc8f516f",
+    "textSha256": "c453977fc35e582807e201760ebb4dd1c7dd9f07cdb3d0da85f54a4859c741bc",
+    "changeKey": "9c5649cf417dadeda3cb1f1270ffc496",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e22baf46958d43a136be",
+    "workId": "e22baf46958d43a136be",
+    "driveFileId": "10yaWdxd-DQ8gIlG6U2mQ9csViq9x3rfL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:07:20.121766+00:00",
+    "updatedAt": "2026-09-23T01:07:20.121781+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:07:20.121889+00:00"
+    }
+  }
+}

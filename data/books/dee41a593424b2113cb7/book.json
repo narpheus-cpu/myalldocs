@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신문 명칼럼 컬렉션 3",
+    "author": "손봉숙 외",
+    "genre": "시사/칼럼",
+    "tags": [
+      "칼럼",
+      "지방선거",
+      "세대교체",
+      "민주주의"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "국내 주요 일간지에 수준 높은 칼럼을 기고해 온 각계 전문 필우들이다.",
+    "oneLineSummary": "지방선거와 세대교체론 등 시대적 과제를 예리한 논리로 분석한 시사 칼럼 모음이다.",
+    "overallSummary": "여성 유권자의 역할, 지방선거의 의미, 3김 시대와 세대교체론, 만델라가 남긴 교훈 등 한국 사회가 직면한 정치·사회적 과제를 깊이 있게 고찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "정치",
+        "summary": "지방선거에서 여성표의 중요성, 후보 경선 과정, 3김 시대와 세대교체론, 만델라의 화합정치 등을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "민주주의의 정착, 선거 문화의 혁신, 정치적 세대교체"
+      }
+    ],
+    "keyEntitiesText": "손봉숙, 신명순, 송복, 한완상",
+    "settingText": "1995년 지방선거 전후의 한국 정치 상황"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12yDw9cdUy31yeHmmL5oiOSqc8wSfVPrU",
+    "filename": "신문 명칼럼 콜렉션 3.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:38.093Z",
+    "size": "520652",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/12yDw9cdUy31yeHmmL5oiOSqc8wSfVPrU/view?usp=drivesdk",
+    "sourceSha256": "b549f4241e3d000a1e6208eda03eaba58ca27dea231dcb4bfb734b76b7ae514c",
+    "textSha256": "d6d8cb2597f4fc0a8c424668a246fe158a7b0b3c1ce609bb8e418b20b89ee2a9",
+    "changeKey": "f505a341a9b3dcbf545a42b4952c51bc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dee41a593424b2113cb7",
+    "workId": "dee41a593424b2113cb7",
+    "driveFileId": "12yDw9cdUy31yeHmmL5oiOSqc8wSfVPrU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:07:56.707663+00:00",
+    "updatedAt": "2026-09-23T01:07:56.707678+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7289,
+      "updatedAt": "2026-09-23T01:07:56.707767+00:00"
+    }
+  }
+}

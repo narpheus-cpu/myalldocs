@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "신문 명칼럼 컬렉션 4",
+    "author": "정운찬 외",
+    "genre": "시사/칼럼",
+    "tags": [
+      "칼럼",
+      "경제불황",
+      "M&A",
+      "노동법"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "주요 일간신문에서 활약한 각 분야의 최고 전문인들이다.",
+    "oneLineSummary": "경제 위기와 사회적 갈등 등 1996년 한 해의 주요 쟁점을 깊이 있게 분석한 칼럼 모음이다.",
+    "overallSummary": "1996년 한 해 동안 언론에 발표된 칼럼 중 정치, 경제, 사회, 문화, 교육, 환경 등 각 분야의 핵심 이슈를 엄선하여 당시의 사회적 맥락과 대안을 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "경제",
+        "summary": "경제 표류의 원인, 배타적 경제수역 논의, 임금인상 가이드라인, M&A와 기업사냥 등을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "활용 가치",
+        "value": "논리적 사고력과 시사 상식을 넓히기 위한 최적의 읽기 자료"
+      }
+    ],
+    "keyEntitiesText": "정운찬, 백진현, 김수행, 필상, 곽노현",
+    "settingText": "1996년의 대한민국 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wf4dE43pTI2RzWTDhuhNEaQycpqDNjc7",
+    "filename": "신문 명칼럼 콜렉션 4.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:38.111Z",
+    "size": "475063",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1wf4dE43pTI2RzWTDhuhNEaQycpqDNjc7/view?usp=drivesdk",
+    "sourceSha256": "294c0b0b6e05baf2fe57d196703c8a55d10035c1030689fde7826fd155e41fd0",
+    "textSha256": "ac1f3b782fe10a6fb8301c2244b90204a8ddc3310a856aacc364c5cc1fe8f80c",
+    "changeKey": "d0949f1f547f15783482a10e4cde0d24",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e71596ff30682309756e",
+    "workId": "e71596ff30682309756e",
+    "driveFileId": "1wf4dE43pTI2RzWTDhuhNEaQycpqDNjc7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:08:04.104032+00:00",
+    "updatedAt": "2026-09-23T01:08:04.104047+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7289,
+      "updatedAt": "2026-09-23T01:08:04.104147+00:00"
+    }
+  }
+}

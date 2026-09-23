@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "식단과 반찬 365일",
+    "author": "황혜성 외 12인",
+    "genre": "요리/생활",
+    "tags": [
+      "식단",
+      "레시피",
+      "요리",
+      "영양"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황혜성, 왕준련, 하숙정 등을 비롯한 요리 전문가들이 참여하여 한국인의 식생활을 위한 식단을 구성했다.",
+    "oneLineSummary": "일 년 365일 동안 온 가족의 건강과 영양을 챙길 수 있는 계절별 식단과 다양한 조리법을 안내한다.",
+    "overallSummary": "4인 가족을 기준으로 계절과 제철 식품에 맞춘 365일 식단을 제안하며, 조리별 요리법, 명절 상차림, 계절별 저장식품, 남은 재료 응용요리 및 영양 지식을 상세히 수록하였다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 장 식단 365일",
+        "summary": "1월부터 12월까지 월별, 주별 아침, 점심, 저녁 식단을 구성하고 대표 요리의 조리법을 소개한다."
+      },
+      {
+        "sectionTitle": "제 2 장 조리별 식단요리",
+        "summary": "죽, 탕, 찌개, 찜, 전, 조림, 볶음 등 조리 형태별 구체적인 요리법과 레시피를 제공한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "활용 목적",
+        "value": "영양학적으로 균형 잡힌 경제적 식생활 계획 수립"
+      }
+    ],
+    "keyEntitiesText": "황혜성, 왕준련, 하숙정, 한복려",
+    "settingText": "한국 가정의 주방과 식탁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10UtlXkxWllk1iwpW_Q7gqsfzIhek_-vE",
+    "filename": "식단과 반찬 365일.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:37.966Z",
+    "size": "668853",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/10UtlXkxWllk1iwpW_Q7gqsfzIhek_-vE/view?usp=drivesdk",
+    "sourceSha256": "cd27df5f916c0bd9b3fca3a80accf823361340164b75e54d5ed568d82a7b6871",
+    "textSha256": "6a210659dae5781fa624eca865f3ff979abb428825857f475ca0178a5be6ab5e",
+    "changeKey": "8c08bf738360b9215fc300db2cbb5c14",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3b7ca59827b6478d04dc",
+    "workId": "3b7ca59827b6478d04dc",
+    "driveFileId": "10UtlXkxWllk1iwpW_Q7gqsfzIhek_-vE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:07:32.950604+00:00",
+    "updatedAt": "2026-09-23T01:07:32.950619+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:07:32.950730+00:00"
+    }
+  }
+}
