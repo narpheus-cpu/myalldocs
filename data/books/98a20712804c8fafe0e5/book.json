@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "코끼리-세계의 기둥",
+    "author": "로베르 들로르",
+    "genre": "과학/자연",
+    "tags": [
+      "코끼리",
+      "동물",
+      "생태",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "생태학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "파리 제8대학과 제네바 대학에서 중세 역사를 가르친 교수이자 생태환경사 연구자이다.",
+    "oneLineSummary": "코끼리의 진화와 생태, 그리고 인간과의 관계를 다룬 자연사이다.",
+    "overallSummary": "매머드부터 현대의 아시아·아프리카 코끼리까지의 진화 과정과 그들의 생태, 그리고 인간에 의한 사냥과 보호의 역사를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "코끼리의 가계",
+        "summary": "모에리테리움에서 매머드, 그리고 현대 코끼리로 이어지는 진화 과정을 설명한다."
+      },
+      {
+        "sectionTitle": "아시아와 아프리카, 양면성을 띤 하나의 이미지",
+        "summary": "아시아와 아프리카 코끼리의 생태적 차이와 인간과의 관계를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "생태적 특징",
+        "value": "강력한 코의 기능과 사회적 무리 생활의 중요성"
+      }
+    ],
+    "keyEntitiesText": "매머드, 아시아코끼리, 아프리카코끼리",
+    "settingText": "선사시대~현재"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WJZb8rur5Sfp3QcYvmN2mTopa6HqJv-l",
+    "filename": "코끼리-세계의 기둥 [시공디스커버리총서 014].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.340Z",
+    "size": "236395",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1WJZb8rur5Sfp3QcYvmN2mTopa6HqJv-l/view?usp=drivesdk",
+    "sourceSha256": "d5cd9eef24101f31fcade93411fc7d6727b962e0740b9127fc6b5c4673a557df",
+    "textSha256": "b8338774b00346ab61f662dd98eff25573e6f56acbca505edbbb6b0ff6030c74",
+    "changeKey": "cfd4f4e316cb7a2cc64afb35c3a090bb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "98a20712804c8fafe0e5",
+    "workId": "98a20712804c8fafe0e5",
+    "driveFileId": "1WJZb8rur5Sfp3QcYvmN2mTopa6HqJv-l",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:00:10.362404+00:00",
+    "updatedAt": "2026-09-23T06:00:10.362419+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T06:00:10.362557+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아마존-상처받은 여전사의 땅",
+    "author": "알랭 게르브랑",
+    "genre": "지리/역사",
+    "tags": [
+      "아마존",
+      "탐험",
+      "역사",
+      "열대우림"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "지리학",
+        "탐험기"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시인이자 영화제작자, 탐험가인 알랭 게르브랑은 오리노코-아마존 탐사대를 조직하여 직접 탐험을 수행했다.",
+    "oneLineSummary": "아마존의 발견 역사와 그곳에 얽힌 전설, 그리고 개발과 보존의 갈등을 다룬다.",
+    "overallSummary": "아마존 탐험의 역사와 여전사 아마조네스 전설, 그리고 고무 산업과 인디오들의 삶을 통해 아마존의 과거와 현재를 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "천지에 널린 계피",
+        "summary": "곤살로 피사로와 오레야나의 아마존 탐험 과정을 상세히 기술한다."
+      },
+      {
+        "sectionTitle": "살아 있는 전설",
+        "summary": "아마조네스 전설과 엘도라도 신화가 어떻게 아마존 탐험의 동기가 되었는지 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 의의",
+        "value": "유럽 정복자들의 탐욕과 신화가 지리적 발견에 미친 영향"
+      }
+    ],
+    "keyEntitiesText": "곤살로 피사로, 프란시스코 데 오레야나, 가스파르 데 카르바할, 아마조네스",
+    "settingText": "16세기~20세기 아마존 열대우림"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1mRmPv-wfvYUexH7WxWSVWXudLSpnU1yd",
+    "filename": "아마존-상처받은 여전사의 땅 [시공디스커버리총서 022].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.160Z",
+    "size": "242199",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1mRmPv-wfvYUexH7WxWSVWXudLSpnU1yd/view?usp=drivesdk",
+    "sourceSha256": "4a8082b99094fef32d9b780f511131feb96045b96ce5dcf4f285396d8fa5d846",
+    "textSha256": "37fbed91d0fab473f3bfa1e9d52146a927bfd553a2840c4d76e7ff2ca552878f",
+    "changeKey": "ac434b665ccd7de5b639a39231bfcd2e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1915c7b6cbdc26155e3a",
+    "workId": "1915c7b6cbdc26155e3a",
+    "driveFileId": "1mRmPv-wfvYUexH7WxWSVWXudLSpnU1yd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:58:54.958403+00:00",
+    "updatedAt": "2026-09-23T05:58:54.958418+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:58:54.958549+00:00"
+    }
+  }
+}

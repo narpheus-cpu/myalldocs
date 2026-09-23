@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셰익스피어-비극의 연금술사",
+    "author": "프랑수아 라로크",
+    "genre": "문학/인물",
+    "tags": [
+      "셰익스피어",
+      "영국 문학",
+      "엘리자베스 시대",
+      "희곡"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "문학사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "파리 소르본 대학 영문학 교수이자 셰익스피어 전공자로, 엘리자베스 시대 연구소 정회원이다.",
+    "oneLineSummary": "셰익스피어의 생애와 그가 활동했던 엘리자베스 시대의 문화적 배경을 분석한 책이다.",
+    "overallSummary": "셰익스피어의 출생지 스트래트퍼드와 런던에서의 활동, 그리고 그의 작품에 녹아있는 당시의 민속, 신화, 사회적 환경을 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "스트래트퍼드 어펀 에이븐",
+        "summary": "셰익스피어의 유년 시절과 그가 농촌 세계에서 얻은 영감, 그리고 연극적 토양을 다룬다."
+      },
+      {
+        "sectionTitle": "런던",
+        "summary": "16세기 후반 런던의 모습과 그곳에서 꽃피운 연극계의 상황을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 배경",
+        "value": "농촌의 민속, 신화, 축제 문화가 셰익스피어 희곡의 사실성과 상징성에 미친 영향"
+      }
+    ],
+    "keyEntitiesText": "윌리엄 셰익스피어, 엘리자베스 1세, 앤 해서웨이",
+    "settingText": "16세기~17세기 영국 엘리자베스 시대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-jabNNlztCBqT9bwYKEkGnFnhshG3vgT",
+    "filename": "셰익스피어-비극의 연금술사 [시공디스커버리총서 023].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.144Z",
+    "size": "236554",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1-jabNNlztCBqT9bwYKEkGnFnhshG3vgT/view?usp=drivesdk",
+    "sourceSha256": "573d065e4c66af8d5cd44c7e7de84aa86c968bdfa04a386f66dad8eae94eae94",
+    "textSha256": "5a354aee38fa5c30eb6f90069f649c0b0648b3c791d79d20d4abcb8f10400c96",
+    "changeKey": "60c53e12584d14b79058a4565626ec3f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e31f0999aa683e27db80",
+    "workId": "e31f0999aa683e27db80",
+    "driveFileId": "1-jabNNlztCBqT9bwYKEkGnFnhshG3vgT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:58:48.709861+00:00",
+    "updatedAt": "2026-09-23T05:58:48.709877+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:58:48.710005+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세잔-사과 하나로 시작된 현대미술",
+    "author": "미셸 오",
+    "genre": "예술/미술",
+    "tags": [
+      "세잔",
+      "현대미술",
+      "인상주의",
+      "화가"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "예술사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "파리 로랑제리 미술관 수석 큐레이터이자 에콜 드루브르 교수인 미셸 오는 다수의 미술 서적을 집필한 전문가이다.",
+    "oneLineSummary": "현대 미술의 아버지라 불리는 폴 세잔의 생애와 예술적 성취를 다룬 평전이다.",
+    "overallSummary": "폴 세잔의 유년 시절부터 인상주의와의 교류, 그리고 독자적인 색채 논리와 공간 창출을 통해 현대 미술의 지평을 연 과정을 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "유년시절",
+        "summary": "엑상프로방스에서의 성장 과정과 에밀 졸라와의 우정, 그리고 화가가 되기까지의 갈등을 다룬다."
+      },
+      {
+        "sectionTitle": "인상주의 시대",
+        "summary": "파리 유학 시절과 인상파 화가들과의 교류, 살롱전 낙선 등 예술적 투쟁의 시기를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예술적 특징",
+        "value": "색채의 논리 규정과 새로운 공간 창출을 통한 현대 미술의 기초 마련"
+      }
+    ],
+    "keyEntitiesText": "폴 세잔, 에밀 졸라, 루이 오귀스트 세잔, 오르탕스 피케",
+    "settingText": "19세기 프랑스 엑상프로방스 및 파리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18mVi-4AW2dVtA-AvjotaR_zXB3LYGL2n",
+    "filename": "세잔-사과 하나로 시작된 현대미술 [시공디스커버리총서 033].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.131Z",
+    "size": "175304",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/18mVi-4AW2dVtA-AvjotaR_zXB3LYGL2n/view?usp=drivesdk",
+    "sourceSha256": "e601e1e39232d213f9956f0ac1699fc2b45b1dacb4445652363f46520d05bc93",
+    "textSha256": "dd867ca67470c2db95f69d6566330ce2ea8cceff21a2321487fbb42672c4d8fa",
+    "changeKey": "aff765d96b786b8c7008ce3604fb8b7a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5e4b2ebc9b716999441d",
+    "workId": "5e4b2ebc9b716999441d",
+    "driveFileId": "18mVi-4AW2dVtA-AvjotaR_zXB3LYGL2n",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:58:42.233372+00:00",
+    "updatedAt": "2026-09-23T05:58:42.233386+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:58:42.233515+00:00"
+    }
+  }
+}

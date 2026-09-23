@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아일랜드 대기근",
+    "author": "피터 그레이",
+    "genre": "역사",
+    "tags": [
+      "아일랜드",
+      "대기근",
+      "감자마름병",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "사회경제사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아일랜드 대기근의 정치학을 연구한 박사이며, 현재 '히스토리 아일랜드' 편집위원으로 활동 중이다.",
+    "oneLineSummary": "19세기 아일랜드 대기근의 원인과 전개, 그리고 그 사회적 유산을 분석한다.",
+    "overallSummary": "감자마름병으로 인한 대기근의 참상과 영국 정부의 부적절한 대응, 그리고 이로 인한 이민과 아일랜드 사회의 변화를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "거지의 나라? 1845년 이전의 아일랜드",
+        "summary": "대기근 이전의 빈곤, 인구과잉, 감자 의존도 등 구조적 문제점을 분석한다."
+      },
+      {
+        "sectionTitle": "감자마름병의 출현",
+        "summary": "마름병의 확산과 이로 인한 농작물 실패, 그리고 당시의 종교적 해석을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "경제적 요인",
+        "value": "자유방임주의와 식민지적 토지 소유 구조가 기근의 피해를 키운 원인"
+      }
+    ],
+    "keyEntitiesText": "대니얼 오코넬, 로버트 필, 아일랜드 소작농",
+    "settingText": "19세기 아일랜드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1aGngqpX0Z06o3wKf5DicjRh8PTneK-gi",
+    "filename": "아일랜드 대기근 [시공디스커버리총서 063].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.208Z",
+    "size": "274230",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1aGngqpX0Z06o3wKf5DicjRh8PTneK-gi/view?usp=drivesdk",
+    "sourceSha256": "e30caacf6a9a5d408191d5a260a4d946f3b730b707a99ccb101edf37262d1629",
+    "textSha256": "73386f162d9bfa56d8237c8a535c07a427f7e1e73050c22688e789fe9920e929",
+    "changeKey": "89c602b60c9f44bd31915a6af6dd570c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ce10b076a6e1413b3b23",
+    "workId": "ce10b076a6e1413b3b23",
+    "driveFileId": "1aGngqpX0Z06o3wKf5DicjRh8PTneK-gi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:59:09.442251+00:00",
+    "updatedAt": "2026-09-23T05:59:09.442266+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:59:09.442370+00:00"
+    }
+  }
+}

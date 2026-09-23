@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잉카-태양신의 후예들",
+    "author": "카르망 베르낭",
+    "genre": "역사",
+    "tags": [
+      "잉카",
+      "페루",
+      "정복",
+      "안데스"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "문명사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "파리 10대학 교수이며, 안데스 산지 사람들의 민족학 연구에 권위가 있는 인류학자이다.",
+    "oneLineSummary": "잉카 제국의 역사와 스페인 정복자들에 의한 몰락 과정을 다룬다.",
+    "overallSummary": "안데스 문명의 정점인 잉카 제국의 건설과 사회 구조, 그리고 피사로의 정복 이후의 변화를 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "엘도라도를 찾아서",
+        "summary": "스페인 정복자들이 황금의 나라를 찾아 페루로 진출하는 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "아타우알파의 열정",
+        "summary": "잉카 제국의 마지막 황제 아타우알파와 피사로의 만남 및 제국의 멸망을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회 구조",
+        "value": "태양신의 후예라는 신권 정치와 효율적인 관료 체제"
+      }
+    ],
+    "keyEntitiesText": "프랑시스코 피사로, 아타우알파, 우아이나 카팍",
+    "settingText": "16세기 안데스 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "189qkFCfvt40rERooGWlvfR8rDNZNqGeC",
+    "filename": "잉카-태양신의 후예들 [시공디스커버리총서 034].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.277Z",
+    "size": "233718",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/189qkFCfvt40rERooGWlvfR8rDNZNqGeC/view?usp=drivesdk",
+    "sourceSha256": "fde46e3d57e599640136f5574ac391eac1b292dd9ff5ee05ae19aff5284eec4c",
+    "textSha256": "c158f669b3a0fcb10b9a4e9cab250dbd85ebc779e3766ebdc00ce654faac7dbd",
+    "changeKey": "93baebecf94fce5cf34401df420979c9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b3fd678cd7fab993f40f",
+    "workId": "b3fd678cd7fab993f40f",
+    "driveFileId": "189qkFCfvt40rERooGWlvfR8rDNZNqGeC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:59:42.706939+00:00",
+    "updatedAt": "2026-09-23T05:59:42.706953+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:59:42.707038+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "성당：빛과 색이 있는 건축물",
+    "author": "알랭 에르랑드 브랑당뷔르",
+    "genre": "예술/건축",
+    "tags": [
+      "성당",
+      "건축",
+      "중세",
+      "고딕"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "건축사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "국립 중세박물관 책임자이자 프랑스 고고학회 회장으로, 예술사 분야의 권위자이다.",
+    "oneLineSummary": "중세 성당 건축의 발전 과정과 그 속에 담긴 기술적, 사회적 혁신을 다룬다.",
+    "overallSummary": "중세 유럽의 인구 증가와 도시 성장을 배경으로, 목조에서 석조로의 변화와 고딕 양식의 탄생 과정을 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "새로운 세계",
+        "summary": "중세의 인구폭발과 도시의 성장, 그리고 건축 기술의 비약적 발전을 다룬다."
+      },
+      {
+        "sectionTitle": "건축가",
+        "summary": "건축주와 건축가의 관계, 그리고 대형 건축 사업의 기획 과정을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기술적 혁신",
+        "value": "목조에서 석조로의 전환과 고딕 건축의 구조적 특징"
+      }
+    ],
+    "keyEntitiesText": "성 베르나르, 필리프 오귀스트, 쉬제",
+    "settingText": "10세기~14세기 유럽"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WZgKUYHD63e6dW9ngZqh8hqgJvjRdlEe",
+    "filename": "알랭 에르랑드 브랑당뷔르-성당：빛과 색이 있는 건축물 [시공디스커버리총서 045] .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.225Z",
+    "size": "201171",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1WZgKUYHD63e6dW9ngZqh8hqgJvjRdlEe/view?usp=drivesdk",
+    "sourceSha256": "efb70efe457a3ecdd06e075f248874b64d10ec59aaed1332d246a918187040c9",
+    "textSha256": "f6ae5f4b04c303ec211d96f6f7eaa1203f5ec2f079178d8cc52bb10657529d5f",
+    "changeKey": "20ca2a6a8bff531352ebae5a7d60f2e3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "53df90d4dae697566d34",
+    "workId": "53df90d4dae697566d34",
+    "driveFileId": "1WZgKUYHD63e6dW9ngZqh8hqgJvjRdlEe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:59:16.083253+00:00",
+    "updatedAt": "2026-09-23T05:59:16.083268+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:59:16.083371+00:00"
+    }
+  }
+}

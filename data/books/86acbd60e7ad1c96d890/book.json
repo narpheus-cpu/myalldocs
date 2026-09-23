@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "자금성：금지된 도시",
+    "author": "질 베갱, 도미니크 모렐",
+    "genre": "역사/건축",
+    "tags": [
+      "자금성",
+      "중국",
+      "명나라",
+      "청나라"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "건축사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "질 베갱은 세르뉘시 박물관장이며, 도미니크 모렐은 프티팔레 박물관의 예술품 관리자이다.",
+    "oneLineSummary": "중국 명·청 왕조의 황궁인 자금성의 역사와 건축적 의미를 다룬다.",
+    "overallSummary": "영락제에 의해 건설된 자금성의 역사적 배경과 황제들의 생활, 그리고 청 왕조의 몰락까지의 과정을 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "명나라 황제의 걸작품, 자금성",
+        "summary": "영락제의 베이징 천도와 자금성 건설 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "세계에서 가장 큰 궁궐에 사는 황제들",
+        "summary": "자금성 내에서의 황제의 역할과 궁궐 생활을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "건축적 특징",
+        "value": "남북 축을 중심으로 한 대칭적 구조와 우주적 질서의 반영"
+      }
+    ],
+    "keyEntitiesText": "영락제, 강희제, 옹정제, 푸이",
+    "settingText": "15세기~20세기 중국 베이징"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GECrL5pU1FT6WIelq8ZNaNRW3HjV5cM7",
+    "filename": "질 베갱, 도미니크 모렐-자금성：금지된 도시 [시공디스커버리총서 091] .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.309Z",
+    "size": "186262",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1GECrL5pU1FT6WIelq8ZNaNRW3HjV5cM7/view?usp=drivesdk",
+    "sourceSha256": "ebb70042725e91421d7e16cf9bb9b0add54b36a24b2acc0b8acf0fd144e220ce",
+    "textSha256": "926000925b3fbaaf15a65697e4b035e3410154f7d55bf8651c423290707ad209",
+    "changeKey": "85f9ae643af6d1f305a8eb025d85eb81",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "86acbd60e7ad1c96d890",
+    "workId": "86acbd60e7ad1c96d890",
+    "driveFileId": "1GECrL5pU1FT6WIelq8ZNaNRW3HjV5cM7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:59:55.571251+00:00",
+    "updatedAt": "2026-09-23T05:59:55.571267+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:59:55.571370+00:00"
+    }
+  }
+}

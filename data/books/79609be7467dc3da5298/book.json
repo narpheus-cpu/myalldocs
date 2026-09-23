@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "피카소-성스러운 어릿광대",
+    "author": "마리 로르 베르나다크, 폴 뒤 부셰",
+    "genre": "예술/미술",
+    "tags": [
+      "피카소",
+      "화가",
+      "입체주의",
+      "예술"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "예술사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "마리 로르 베르나다크는 피카소 미술관 관장을 역임했으며, 폴 뒤 부셰는 어린이 도서 저술가이다.",
+    "oneLineSummary": "20세기 현대 미술의 거장 파블로 피카소의 생애와 예술적 변천사를 다룬다.",
+    "overallSummary": "피카소의 스페인 유년 시절부터 파리 몽마르트르에서의 활동, 입체주의 혁명, 그리고 그의 예술적 고독을 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "스페인에서 보낸 유년기",
+        "summary": "피카소의 출생과 어린 시절의 재능, 그리고 미술학교 입학 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "몽마르트르에서의 광적인 시절",
+        "summary": "파리 바토라부아르에서의 보헤미안 생활과 청색시대의 시작을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예술적 특징",
+        "value": "입체주의 혁명과 인간 내면을 통찰하는 독창적 화풍"
+      }
+    ],
+    "keyEntitiesText": "파블로 피카소, 막스 자코브, 페르낭드 올리비에",
+    "settingText": "19세기 말~20세기 초 스페인 및 프랑스 파리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ie4KxtlhzVrGfeZMrVeI6o193XcriEIw",
+    "filename": "피카소-성스러운 어릿광대 [시공디스커버리총서 018].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.403Z",
+    "size": "173629",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1ie4KxtlhzVrGfeZMrVeI6o193XcriEIw/view?usp=drivesdk",
+    "sourceSha256": "18cb10e62d0625ea76ffe1b2b6863283adc6feb506fd25dc2ad58d1c3f3b72f7",
+    "textSha256": "123a23d182e0f532e1fcf8ce60260368f6c243c99156dc30827a4e324b38725e",
+    "changeKey": "084c031cfa9c0907233114bb4bd62140",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "79609be7467dc3da5298",
+    "workId": "79609be7467dc3da5298",
+    "driveFileId": "1ie4KxtlhzVrGfeZMrVeI6o193XcriEIw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:00:30.929218+00:00",
+    "updatedAt": "2026-09-23T06:00:30.929234+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T06:00:30.929337+00:00"
+    }
+  }
+}

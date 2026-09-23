@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "트로이：프리아모스의 보물",
+    "author": "에르베 뒤센",
+    "genre": "역사/고고학",
+    "tags": [
+      "트로이",
+      "슐리만",
+      "고고학",
+      "호메로스"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "고고학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "디종 브르고뉴 대학교 고대사 교수이며, 지중해 동안 교역사 전문가이다.",
+    "oneLineSummary": "하인리히 슐리만의 트로이 발굴과 그가 발견한 보물에 관한 이야기이다.",
+    "overallSummary": "호메로스의 서사시를 역사적 사실로 믿었던 슐리만의 집념과 트로이 유적 발굴, 그리고 그 과정에서의 논란을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "기원이 된 소설",
+        "summary": "슐리만의 생애와 그가 호메로스의 세계를 부활시키려 했던 동기를 설명한다."
+      },
+      {
+        "sectionTitle": "국제적 사업가로서의 성공",
+        "summary": "고고학자가 되기 전 슐리만의 사업가로서의 성공과 재산 형성 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "고고학적 논란",
+        "value": "슐리만의 발굴 방식과 유물 조작 의혹에 대한 비판적 시각"
+      }
+    ],
+    "keyEntitiesText": "하인리히 슐리만, 프리아모스, 호메로스",
+    "settingText": "19세기 아나톨리아 북서부"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1q909nrl1Qqw-SHRgN9XgHyLM2qVHEYtI",
+    "filename": "에르베 뒤센-트로이：프리아모스의 보물 [시공디스커버리총서 060].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.253Z",
+    "size": "145689",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1q909nrl1Qqw-SHRgN9XgHyLM2qVHEYtI/view?usp=drivesdk",
+    "sourceSha256": "f814a63c1e8730737bbf40bf035117ab6d8f6cc1829928b6f4b99c326e410c79",
+    "textSha256": "83e4bd7b98714e457209fbddcf92d6c1bb52cf186d370e3aa693e891a31dab0d",
+    "changeKey": "9ca47ca0010baad25c0be3cdfed4992e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "51c8e41de78f2af988b6",
+    "workId": "51c8e41de78f2af988b6",
+    "driveFileId": "1q909nrl1Qqw-SHRgN9XgHyLM2qVHEYtI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:59:29.708974+00:00",
+    "updatedAt": "2026-09-23T05:59:29.708990+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:59:29.709093+00:00"
+    }
+  }
+}

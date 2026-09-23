@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "책의 역사-문자에서 텍스트로",
+    "author": "브뤼노 블라셀",
+    "genre": "역사",
+    "tags": [
+      "책",
+      "인쇄술",
+      "역사",
+      "도서관"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "문화사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스 국립도서관 서적 간행물 부서의 총관리자이자 도서관 전문가이다.",
+    "oneLineSummary": "문자의 탄생부터 인쇄술의 발명, 그리고 근대까지 책의 발전 역사를 다룬다.",
+    "overallSummary": "파피루스에서 양피지, 종이로 이어지는 소재의 변화와 필사본에서 인쇄본으로의 기술적 진보를 통해 책의 역사를 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "손으로 만든 책",
+        "summary": "고대의 두루마리 책에서 중세 수도원의 필사본까지의 과정을 설명한다."
+      },
+      {
+        "sectionTitle": "구텐베르크, 논란의 발명자",
+        "summary": "인쇄술의 발명과 그로 인한 책의 대량 생산 시대를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기술적 진보",
+        "value": "필사본에서 인쇄술로의 전환이 지식 보급에 미친 영향"
+      }
+    ],
+    "keyEntitiesText": "구텐베르크, 베네딕트 수도회",
+    "settingText": "고대~근대 유럽"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1o_tSKHT2CgHwgJp7bvtJRT3DORF-UvX8",
+    "filename": "책의 역사-문자에서 텍스트로 [시공디스커버리총서 100].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.325Z",
+    "size": "170197",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1o_tSKHT2CgHwgJp7bvtJRT3DORF-UvX8/view?usp=drivesdk",
+    "sourceSha256": "53fbecd65a8b7a87166543832ad1302d23886bf4b4abc6a37df0f4ed0e233d9b",
+    "textSha256": "984300131de7486c7bfc0ef1f10204aad3f5ad545e6efd1303ef6fcc94197b1a",
+    "changeKey": "17341416171d516efb5386d19b9ae193",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "94969c124845ec59ce11",
+    "workId": "94969c124845ec59ce11",
+    "driveFileId": "1o_tSKHT2CgHwgJp7bvtJRT3DORF-UvX8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:00:03.265090+00:00",
+    "updatedAt": "2026-09-23T06:00:03.265105+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T06:00:03.265207+00:00"
+    }
+  }
+}

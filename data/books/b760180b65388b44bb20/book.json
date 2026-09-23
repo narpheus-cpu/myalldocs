@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "히브리 민족-끝나지 않은 경전",
+    "author": "미레유 하다스-르벨",
+    "genre": "역사/종교",
+    "tags": [
+      "히브리",
+      "유대인",
+      "성서",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "종교사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소르본 대학 종교사 교수이며, 고대 유대사 및 2차 성전시대의 전문가이다.",
+    "oneLineSummary": "아브라함부터 로마 지배기까지 히브리 민족의 역사와 성서적 배경을 다룬다.",
+    "overallSummary": "히브리 민족의 기원과 왕국 건설, 바빌론 유배와 성전 재건, 그리고 로마에 대항한 투쟁과 정신적 재건 과정을 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아브라함에서 모세까지",
+        "summary": "히브리 민족의 조상 아브라함과 이집트 탈출을 이끈 모세의 행적을 다룬다."
+      },
+      {
+        "sectionTitle": "판관과 왕의 시대",
+        "summary": "판관들의 시대와 다윗, 솔로몬 왕조의 건설 및 분열 과정을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "종교적 특징",
+        "value": "유일신 신앙과 율법(토라)을 통한 민족적 정체성 유지"
+      }
+    ],
+    "keyEntitiesText": "아브라함, 모세, 다윗, 솔로몬",
+    "settingText": "고대 근동 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17zuqp1y9myBFSBy-hWOhv2vJCUCrKqTn",
+    "filename": "히브리 민족-끝나지 않은 경전 [시공디스커버리총서 068].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.430Z",
+    "size": "181046",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/17zuqp1y9myBFSBy-hWOhv2vJCUCrKqTn/view?usp=drivesdk",
+    "sourceSha256": "1e7c48ca171ff7b7e998c05be00e4cf8a4d4550811a80842af5e81341d18809e",
+    "textSha256": "3dfb5b55af3de6305d215764fe98a4b94281625378576f73da325e83343c9673",
+    "changeKey": "3c969893a4bf2b025391f9dfbb08d078",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b760180b65388b44bb20",
+    "workId": "b760180b65388b44bb20",
+    "driveFileId": "17zuqp1y9myBFSBy-hWOhv2vJCUCrKqTn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:00:43.832638+00:00",
+    "updatedAt": "2026-09-23T06:00:43.832654+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T06:00:43.832755+00:00"
+    }
+  }
+}

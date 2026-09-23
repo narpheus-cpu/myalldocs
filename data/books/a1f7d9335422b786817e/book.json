@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "폼페이-최후의 날",
+    "author": "로베르 에티엔",
+    "genre": "역사/고고학",
+    "tags": [
+      "폼페이",
+      "베수비오",
+      "고고학",
+      "로마"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "고고학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "보르도 3대학 교수이며, 폼페이 유적을 정기적으로 연구하는 고고학자이다.",
+    "oneLineSummary": "베수비오 화산 폭발로 멸망한 폼페이의 발굴 역사와 일상생활을 다룬다.",
+    "overallSummary": "폼페이의 발굴 과정과 도시의 구조, 그리고 화산 폭발 직전 주민들의 삶을 고고학적 근거로 재구성한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "보물찾기",
+        "summary": "18세기부터 시작된 폼페이 발굴의 역사와 초기 약탈적 발굴을 다룬다."
+      },
+      {
+        "sectionTitle": "폼페이의 생활",
+        "summary": "폼페이의 도시 구조와 로마 지배 하의 일상생활을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "고고학적 가치",
+        "value": "화산재에 보존된 고대 로마 도시의 일상과 사회 구조 확인"
+      }
+    ],
+    "keyEntitiesText": "주세페 피오렐리, 베수비오, 술라",
+    "settingText": "고대 로마 폼페이"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1W7H4v24zX8XBjKalsLGk35XuqQ5Fcrgg",
+    "filename": "폼페이-최후의 날[시공디스커버리총서 013].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.367Z",
+    "size": "222467",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1W7H4v24zX8XBjKalsLGk35XuqQ5Fcrgg/view?usp=drivesdk",
+    "sourceSha256": "2e6826345fd8a228ed66485e7f881f9e67121bce86feed923433f16a90257918",
+    "textSha256": "05cb09592f2f9ba68c3e830b83c3c5a572152f37e0ba8d26b62e7f133da0ae72",
+    "changeKey": "a67cb5b8f06a5c95614c03d12d7f7376",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a1f7d9335422b786817e",
+    "workId": "a1f7d9335422b786817e",
+    "driveFileId": "1W7H4v24zX8XBjKalsLGk35XuqQ5Fcrgg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:00:24.787208+00:00",
+    "updatedAt": "2026-09-23T06:00:24.787224+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T06:00:24.787328+00:00"
+    }
+  }
+}
