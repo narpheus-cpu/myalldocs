@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "히틀러 평전 1권",
+    "author": "요아힘 C. 페스트",
+    "genre": "역사/전기",
+    "tags": [
+      "히틀러",
+      "제3제국",
+      "역사적 위대성",
+      "바이마르 공화국",
+      "권력 투쟁"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 저명한 언론인이자 역사학자로, 철저한 사료 분석과 깊이 있는 역사적 성찰을 통해 '히틀러 평전'의 고전을 남겼다.",
+    "oneLineSummary": "히틀러라는 인물이 어떻게 시대의 두려움과 동경을 흡수하여 권력을 장악하고 독일을 파국으로 이끌었는지 분석한 기념비적인 평전이다.",
+    "overallSummary": "히틀러를 단순한 기회주의자가 아니라 집요하게 자신의 이념(반유대주의와 생존 공간 정책)을 추구한 인물로 규정하고, 그의 출생, 빈에서의 좌절, 뮌헨 폭동과 감옥 수감, 그리고 합법적 수단을 가장해 수상 관저에 입성하기까지의 과정을 사회심리학적 배경과 결합하여 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "예비관찰 : 히틀러는 역사상 위대한 인물인가?",
+        "summary": "역사적 위대성의 개념을 검토하며, 히틀러가 시대의 주도적인 경향과 대중의 무의식적 욕구를 포착하여 엄청난 파괴적 에너지를 뿜어낸 과정을 논한다."
+      },
+      {
+        "sectionTitle": "욕망에 사로잡힌 소년",
+        "summary": "오스트리아 브라우나우에서의 출생과 유년 시절, 화가의 꿈이 무너진 빈에서의 고난, 그리고 제1차 세계대전 참전을 통해 구원을 얻었다고 믿은 청년기를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 관점",
+        "value": "히틀러는 시대의 흐름을 역행한 예외적 존재가 아니라, 당대 대중의 안전과 공동체적 보호 욕구를 대변한 인물임"
+      }
+    ],
+    "keyEntitiesText": "아돌프 히틀러, 요아힘 C. 페스트, 야콥 부르크하르트, 비스마르크, 토마스 만",
+    "settingText": "19세기 말 오스트리아에서 시작하여 제1차 세계대전과 바이마르 공화국 시기의 독일"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1I5ePgK78d3jyV84I0Zv7X8bS_fg-dWSl",
+    "filename": "요아힘 C. 페스트-히틀러 평전 1권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.504Z",
+    "size": "1367594",
+    "folderPath": [
+      "books",
+      "14 전기"
+    ],
+    "relativePath": "books/14 전기",
+    "webViewLink": "https://drive.google.com/file/d/1I5ePgK78d3jyV84I0Zv7X8bS_fg-dWSl/view?usp=drivesdk",
+    "sourceSha256": "bd33bd9618b62cf1a07afac41f5f468767121c77a15f0cc26a463eb0aa9087ef",
+    "textSha256": "ba8a83d2b058011bb954857f5cfa2c95dd4d23550b749b3ec9dac6e05d42db8c",
+    "changeKey": "42cdaf8283a09aa438d332074b1347ff",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c68061ab7ec45ed35896",
+    "workId": "c68061ab7ec45ed35896",
+    "driveFileId": "1I5ePgK78d3jyV84I0Zv7X8bS_fg-dWSl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:59:26.822133+00:00",
+    "updatedAt": "2026-09-23T04:59:26.822151+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:59:26.822254+00:00"
+    }
+  }
+}

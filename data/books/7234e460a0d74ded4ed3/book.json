@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "땅콩박사-조오지 워싱턴 카버 박사 전기",
+    "author": "L. 엘리오트",
+    "genre": "역사/전기",
+    "tags": [
+      "조지 카버",
+      "땅콩 박사",
+      "노예 해방",
+      "터스키기",
+      "농업 화학"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 전기 작가로, 노예 신분에서 세계적인 농업 화학자가 된 조지 워싱턴 카버의 감동적인 삶을 널리 알려왔다.",
+    "oneLineSummary": "남북전쟁 시기 흑인 노예의 몸으로 태어나, 온갖 차별과 고난을 극복하고 땅콩을 활용한 수백 가지 발명으로 미국 남부 농업을 구한 조지 카버의 전기이다.",
+    "overallSummary": "갓난아기 때 폭도들에게 납치되었다가 경마 한 마리와 교환되어 극적으로 구조된 조지 카버가, 배움에 대한 열정 하나로 고학 끝에 대학을 졸업하고 터스키기 연구소에서 평생을 바쳐 농업 화학 연구와 흑인 인권 향상에 기여한 일생을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "남부를 해방시킨 노예",
+        "summary": "식물 화학 작용을 인간 생활에 적용하여 새로운 식료품과 의약품을 만들고, 에디슨의 고액 연봉 제안도 거절하며 인류를 위해 봉사한 카버 박사의 위대성을 소개한다."
+      },
+      {
+        "sectionTitle": "한 마리의 경마가 그의 몸값이었다",
+        "summary": "남북전쟁기 미주리 주의 혼란 속에서 모세스 카버의 농장이 폭도들에게 습격당해 여종 매리와 아기 조지가 납치되었다가, 경마 한 마리를 몸값으로 지불하고 아기 조지만 극적으로 구조되는 과정을 상세히 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 의의",
+        "value": "면화 단일 재배로 황폐해진 남부 토양을 살리기 위해 땅콩과 고구마 재배를 장려하고 이를 산업적으로 활용함"
+      }
+    ],
+    "keyEntitiesText": "조오지 와싱턴 카아버, 모세스 카아버, 수잔, 매리, 존 벤틀리",
+    "settingText": "19세기 중반 남북전쟁 전후의 미국 미주리 주 및 남부 지방의 황폐한 농장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WZItf-4CsVE7SrSagSx6SAJfnZ-9ExET",
+    "filename": "엘리오트-땅콩박사-조오지 워싱턴 카버 박사 전기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.464Z",
+    "size": "410949",
+    "folderPath": [
+      "books",
+      "14 전기"
+    ],
+    "relativePath": "books/14 전기",
+    "webViewLink": "https://drive.google.com/file/d/1WZItf-4CsVE7SrSagSx6SAJfnZ-9ExET/view?usp=drivesdk",
+    "sourceSha256": "412aca3b68a15a675ac301758d1289864dbad6b2b74dabb11a98b0f7e0745077",
+    "textSha256": "2cf11e3ef020b83caa94882b4e920d3d3286c214912d4194ed494bd55b693597",
+    "changeKey": "b0272883a57a810512e7907c1ff5758c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7234e460a0d74ded4ed3",
+    "workId": "7234e460a0d74ded4ed3",
+    "driveFileId": "1WZItf-4CsVE7SrSagSx6SAJfnZ-9ExET",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:59:18.800042+00:00",
+    "updatedAt": "2026-09-23T04:59:18.800059+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:59:18.800164+00:00"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나의 은밀한 삶",
+    "author": "월터",
+    "genre": "문학/자서전",
+    "tags": [
+      "빅토리아 시대",
+      "성체험기",
+      "자서전",
+      "성 심리",
+      "영국 문학"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "poetry",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국 빅토리아 시대의 인물로, '월터'라는 필명 뒤에 숨어 자신의 성적 경험을 극도로 상세하게 기록한 일기를 남겼다.",
+    "oneLineSummary": "영국 빅토리아 시대의 억압적인 사회 분위기 속에서 한 남성이 청년기부터 중년기까지 겪은 방대한 성적 접촉을 집요하게 기록한 성체험 자서전이다.",
+    "overallSummary": "당시의 엄격한 도덕주의 이면에 존재했던 인간의 원초적인 성적 욕망과 행태를 가감 없이 보여주는 문헌으로, 하녀 샬롯과의 첫 경험 일화, 프랑스 상류층 여성의 고백, 그리고 니콜라스 코리어의 에로틱 유머집 등 다양한 성적 에피소드와 심리 묘사를 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나의 은밀한 삶 - 첫 경험의 기억",
+        "summary": "어머니의 하녀인 샬롯을 호텔로 유인하여 평생 처음으로 여성의 신체적 매력을 목격하고 성적 관계를 맺으며 느낀 경이로움과 흥분을 생생하게 기록한다."
+      },
+      {
+        "sectionTitle": "어떤 프랑스 상류층 여성의 아름다운 고백",
+        "summary": "소녀가 할머니 농장 정원에서 친척 아줌마 베르타와 약혼자 알프레드의 적나라한 정사 장면을 목격하고, 성적 호기심과 자위 행위에 눈뜨게 되는 과정을 묘사한다."
+      },
+      {
+        "sectionTitle": "니콜라스 코리어 및 아나이 닌의 일화",
+        "summary": "옥타비아의 첫 경험을 다룬 유머집 내용과, 아나이 닌의 심리 분석적 에로티시즘 소설 '엘레나'의 관능적인 묘사들을 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 가치",
+        "value": "빅토리아 시대의 공식적인 도덕관 이면에 숨겨진 실제 성생활과 성 심리를 엿볼 수 있는 귀중한 기록"
+      }
+    ],
+    "keyEntitiesText": "월터, 샬롯, 베르타, 알프레드, 카비체오, 옥타비아, 엘레나",
+    "settingText": "19세기 영국 빅토리아 시대의 억압적이고 위선적인 성문화 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ANooFqjL2yCJkXzfrop6d9eqU8NynFYx",
+    "filename": "월터-나의 은밀한 삶.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.556Z",
+    "size": "512838",
+    "folderPath": [
+      "books",
+      "14 전기"
+    ],
+    "relativePath": "books/14 전기",
+    "webViewLink": "https://drive.google.com/file/d/1ANooFqjL2yCJkXzfrop6d9eqU8NynFYx/view?usp=drivesdk",
+    "sourceSha256": "6ecbe9d25dd6bc3558060c622da79e29122dee6799ad64777b537013f9921f8b",
+    "textSha256": "d09bc9b5d4071cdda0697f3c0417ef17114d2f12eb7cad972e33d6aaeba7601d",
+    "changeKey": "8ad74c5863742bce8b59f424dc5a5953",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "79393fb7ef0db5f6f554",
+    "workId": "79393fb7ef0db5f6f554",
+    "driveFileId": "1ANooFqjL2yCJkXzfrop6d9eqU8NynFYx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T04:59:35.683990+00:00",
+    "updatedAt": "2026-09-23T04:59:35.684005+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T04:59:35.684123+00:00"
+    }
+  }
+}
