@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "다이고로야 고마워",
+    "author": "오타니 준코, 오타니 에이지",
+    "genre": "에세이/동물",
+    "tags": [
+      "원숭이",
+      "장애",
+      "가족",
+      "에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "동물",
+        "가족"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "장애를 가진 원숭이 다이고로를 입양해 가족으로 키운 부부.",
+    "oneLineSummary": "팔다리가 없는 장애 원숭이 다이고로를 가족으로 받아들여 함께 살아간 감동적인 기록.",
+    "overallSummary": "선천적 장애를 가진 원숭이 다이고로를 입양하여 가족의 일원으로 키우며 겪은 사랑, 이별, 그리고 생명의 소중함에 대한 이야기이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "중증 장애를 지닌 원숭이가 새 가족이 되다",
+        "summary": "다이고로를 처음 만나 입양하게 된 과정과 초기 적응기를 다룬다."
+      },
+      {
+        "sectionTitle": "갑자기 찾아온 이별",
+        "summary": "다이고로와의 갑작스러운 이별과 그 후의 슬픔을 담았다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "장애를 가진 생명체와의 공존과 가족애."
+      },
+      {
+        "key": "핵심 메시지",
+        "value": "생명은 그 모습이 어떻든 아름답고 소중하다."
+      }
+    ],
+    "keyEntitiesText": "다이고로, 오타니 준코, 오타니 에이지",
+    "settingText": "일본 도쿄 및 유후인."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vouEJeJGqo9QaRlIb38PqkCMYheFHr4W",
+    "filename": "오타니 준코 & 오타니 에이지-다이고로야 고마워 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:40.106Z",
+    "size": "106241",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1vouEJeJGqo9QaRlIb38PqkCMYheFHr4W/view?usp=drivesdk",
+    "sourceSha256": "4b0329bc95845051151e0fca95f0e0b1235e5bbca3b4b95a1e043b532dc905c1",
+    "textSha256": "d7280bb23b1785394172cb0b694bc474806734e9b7877019d2ef18e6a191bffd",
+    "changeKey": "ae5978c74a45de9db0e283a29bd1dde7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4bf364a62d335e31401a",
+    "workId": "4bf364a62d335e31401a",
+    "driveFileId": "1vouEJeJGqo9QaRlIb38PqkCMYheFHr4W",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:25:13.967508+00:00",
+    "updatedAt": "2026-09-23T01:25:13.967523+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:25:13.967685+00:00"
+    }
+  }
+}

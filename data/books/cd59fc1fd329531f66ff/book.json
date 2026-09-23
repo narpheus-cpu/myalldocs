@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내가 사랑한 책들",
+    "author": "오쇼 라즈니쉬",
+    "genre": "독서 에세이",
+    "tags": [
+      "독서",
+      "철학",
+      "명상",
+      "추천도서"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "독서",
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인도 출신의 정신적 지도자로, 다이내믹 명상법을 개발하고 전 세계 구도자들에게 영적 가르침을 전함.",
+    "oneLineSummary": "오쇼 라즈니쉬가 자신의 영적 성장에 영향을 준 책들을 소개하는 독서 에세이.",
+    "overallSummary": "노자, 니체, 도스토엡스키 등 저자가 깊이 사랑하고 영감을 얻은 책들을 소개하며, 그 책들이 가진 영적 가치와 의미를 자신의 관점에서 해석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부",
+        "summary": "니체의 짜라투스트라, 도스토엡스키의 카라마조프의 형제들 등 주요 도서들을 소개한다."
+      },
+      {
+        "sectionTitle": "제2부",
+        "summary": "수피의 더 북, 칼릴 지브란의 예언자 등 추가적인 추천 도서들을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "독서 철학",
+        "value": "책은 단순한 지식이 아니라 영혼의 울림과 깨달음을 주는 매개체임."
+      },
+      {
+        "key": "주요 추천 도서",
+        "value": "짜라투스트라는 이렇게 말했다, 카라마조프의 형제들, 도덕경, 예언자 등."
+      }
+    ],
+    "keyEntitiesText": "오쇼 라즈니쉬, 니체, 도스토엡스키, 노자, 칼릴 지브란",
+    "settingText": "저자의 서재 및 강연 현장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wnRz43S2qRxtlhOCeogMevJOrxIyWt3P",
+    "filename": "오쇼 라즈니쉬-내가 사랑한 책들 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:39.691Z",
+    "size": "448254",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1wnRz43S2qRxtlhOCeogMevJOrxIyWt3P/view?usp=drivesdk",
+    "sourceSha256": "f3eb199c4d2dde7341aba9c33318942021122d65a952ed98e3ca658e904110fe",
+    "textSha256": "b57504e5cddcf08e10673f8fc02c9187f2371f2c44a432112ac9f07b73dee917",
+    "changeKey": "42fc093606666597af3ecf438adb0de4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cd59fc1fd329531f66ff",
+    "workId": "cd59fc1fd329531f66ff",
+    "driveFileId": "1wnRz43S2qRxtlhOCeogMevJOrxIyWt3P",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:24:04.706683+00:00",
+    "updatedAt": "2026-09-23T01:24:04.706697+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:24:04.706789+00:00"
+    }
+  }
+}

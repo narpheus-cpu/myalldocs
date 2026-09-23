@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "너무 아까운 여자",
+    "author": "오숙희",
+    "genre": "여성학/에세이",
+    "tags": [
+      "여성학",
+      "성차별",
+      "에세이",
+      "사회"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "여성학",
+        "사회"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "여성학 강사, 방송인, 여성운동가로 활동하며 여성의 인권과 삶에 대해 이야기하는 저자.",
+    "oneLineSummary": "여성학적 관점에서 우리 사회의 성차별 현실을 짚어보고 여성의 자존감을 일깨우는 에세이.",
+    "overallSummary": "저자가 여성학을 공부하며 만난 다양한 여성들의 사례를 통해 우리 사회의 뿌리 깊은 성차별 구조를 분석하고, 여성들이 스스로의 가능성을 깨닫고 당당하게 살아가길 독려한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나는 왜 여성학을 하게 되었나",
+        "summary": "저자가 여성학을 만나게 된 계기와 그 과정에서의 깨달음을 서술한다."
+      },
+      {
+        "sectionTitle": "성차별은 살아 있다",
+        "summary": "일상 속에서 여전히 존재하는 성차별의 사례들을 구체적으로 제시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "여성학적 관점",
+        "value": "개인의 불행을 팔자 탓이 아닌 사회적 구조의 문제로 인식함."
+      },
+      {
+        "key": "핵심 메시지",
+        "value": "여성 스스로의 자존감 회복과 성차별 구조 개선의 필요성."
+      }
+    ],
+    "keyEntitiesText": "오숙희, 여성학",
+    "settingText": "1990년대 대한민국 사회."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17gT_6pbLL0hL8lgrIps0K1omhjr8ZKeE",
+    "filename": "오숙희-너무 아까운 여자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:40.094Z",
+    "size": "365745",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/17gT_6pbLL0hL8lgrIps0K1omhjr8ZKeE/view?usp=drivesdk",
+    "sourceSha256": "26584e587285cd587b21866f75d8d2d4cd792c888e4965cb34f34846309f7788",
+    "textSha256": "f63f3c515d589f7346505e15080f89d2884408b068553900a733266fa5147559",
+    "changeKey": "4f0801088a1a156901b7791a24ef497d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4b582ea40e72fb691d72",
+    "workId": "4b582ea40e72fb691d72",
+    "driveFileId": "17gT_6pbLL0hL8lgrIps0K1omhjr8ZKeE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:25:06.916471+00:00",
+    "updatedAt": "2026-09-23T01:25:06.916485+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:25:06.916633+00:00"
+    }
+  }
+}
