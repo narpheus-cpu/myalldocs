@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우리가 모르는 지식의 세계",
+    "author": "폴 임",
+    "genre": "지식 백과사전",
+    "tags": [
+      "비밀",
+      "역사적 사실",
+      "상식",
+      "인물 일화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "폴 임(Paul Im)은 종교심리학과 심리학을 전공한 박사로, 세계의 기이하고 흥미로운 사실들을 엮어내는 지식백과 작가이다.",
+    "oneLineSummary": "문학, 철학, 수학, 예술 등 여러 분야의 책을 참고하여 우리가 모르고 지나쳤던 역사적 기원과 기이한 일화들을 모은 지식 백과이다.",
+    "overallSummary": "역사적 사실의 기원, 기이한 인물의 행적, 문자와 숫자에 얽힌 숨겨진 이야기들을 발굴하여 독자들에게 일상 속 지적 즐거움을 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "주요 내용",
+        "summary": "성 베네딕트와 까마귀의 연유, 파이레나 물고기, 숫자 9의 비밀, 나폴레옹의 일화 등 일상에서 접하기 힘든 신비롭고 흥미로운 지식들을 단락별로 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기획 의도",
+        "value": "독자들에게 숨겨진 흥미로운 지식과 대화의 거리를 제공"
+      },
+      {
+        "key": "특징",
+        "value": "다양한 분야의 기이하고 유익한 트리비아 모음"
+      }
+    ],
+    "keyEntitiesText": "성 베네딕트, 아크웨이, 나폴레옹, 에머슨",
+    "settingText": "전 세계의 역사적 현장과 자연 속 기이한 장소들"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14Wmnrh2pLYbqadpvVG8Aize_p7AlTO5H",
+    "filename": "풀 임-우리가 모르는 지식의 세계 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:44.822Z",
+    "size": "287371",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/14Wmnrh2pLYbqadpvVG8Aize_p7AlTO5H/view?usp=drivesdk",
+    "sourceSha256": "b9b7ee293292b7e148fb171ac6d30a536e769b6de6b29b4d3986221a6440dd85",
+    "textSha256": "1415d68ac818e2fdb3a1790a8b9645b0d95fd8a8f5a9fdb4227489874c82d40d",
+    "changeKey": "b30620642ffe8f84ea54c51a9a5e7eed",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "232223ec9800210bab12",
+    "workId": "232223ec9800210bab12",
+    "driveFileId": "14Wmnrh2pLYbqadpvVG8Aize_p7AlTO5H",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:06:45.474307+00:00",
+    "updatedAt": "2026-09-23T02:06:45.474322+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:06:45.474431+00:00"
+    }
+  }
+}

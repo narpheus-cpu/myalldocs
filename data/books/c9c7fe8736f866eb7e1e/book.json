@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한겨레21 인물탐험",
+    "author": "한겨레21 기자들",
+    "genre": "인물 인터뷰 / 저널리즘",
+    "tags": [
+      "인물탐험",
+      "인터뷰",
+      "시사",
+      "다양한 삶"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시사 주간지 《한겨레21》의 기자들이 우리 사회 각계각층에서 자신만의 삶을 일구어가는 사람들을 심층 취재하여 엮은 인물탐험 모음이다.",
+    "oneLineSummary": "시대의 그늘과 양지를 가리지 않고 자신만의 신념과 열정으로 살아가는 다양한 인물들의 삶을 조명한 인터뷰집이다.",
+    "overallSummary": "축구 감독 차범근의 아내이자 매니저인 오은미, 버섯 재배에 인생을 건 '버섯 못난이' 정덕균, 신라 검법을 복원한 검객 이영식 등 각 분야에서 묵묵히 족적을 남기는 인물들의 진솔한 삶의 철학과 열정을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "주요 인물 탐험",
+        "summary": "한국 축구의 숨은 주역 오은미, 버섯 장인 정덕균, 전통 검객 이영식 등 독특한 삶의궤적을 지닌 사람들의 인터뷰를 수록하고 있다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "시사 저널리즘 인물 인터뷰 모음"
+      },
+      {
+        "key": "목적",
+        "value": "다양한 삶의 방식을 통한 시대 조명"
+      }
+    ],
+    "keyEntitiesText": "오은미, 차범근, 정덕균, 이영식",
+    "settingText": "대한민국 및 다양한 삶의 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LlpbB4Vd4Y1dBsRISUJ_0whz0OXh668f",
+    "filename": "한겨레21 인물탐험.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:45.030Z",
+    "size": "1207816",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1LlpbB4Vd4Y1dBsRISUJ_0whz0OXh668f/view?usp=drivesdk",
+    "sourceSha256": "62a58e35ff6d5e1318810fdd8a162efcb6de5c7a45c964c8ee3f5addf4832678",
+    "textSha256": "3bb0c8a13bd6e987ebbe3e91cd3043d543533e2f8f59ac8e8e8e7dead7299e37",
+    "changeKey": "2e4291a03d567442da6683d517801079",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c9c7fe8736f866eb7e1e",
+    "workId": "c9c7fe8736f866eb7e1e",
+    "driveFileId": "1LlpbB4Vd4Y1dBsRISUJ_0whz0OXh668f",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:07:36.258449+00:00",
+    "updatedAt": "2026-09-23T02:07:36.258464+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:07:36.258573+00:00"
+    }
+  }
+}
