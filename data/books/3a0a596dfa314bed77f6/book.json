@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "논리야, 놀자",
+    "author": "위기철",
+    "genre": "인문/논리학",
+    "tags": [
+      "논리",
+      "추리",
+      "연역추리",
+      "귀납추리"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "위기철은 논리학을 어린이의 눈높이에 맞춰 쉽고 재미있게 풀어내는 저자이다.",
+    "oneLineSummary": "판단의 종류와 추리의 개념을 다양한 이야기를 통해 친근하게 익히도록 돕는 논리 학습서이다.",
+    "overallSummary": "이 책은 주관적 판단과 객관적 판단, 개별 판단과 보편 판단, 상대적 진리와 절대적 진리의 차이를 비롯해 연역 추리와 귀납 추리의 개념을 흥미진진한 우화와 이야기를 통해 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "어떤 판단이 옳을까요?",
+        "summary": "주관 판단과 객관 판단, 개별 판단과 보편 판단, 상대적으로 옳은 판단과 절대적으로 옳은 판단의 차이를 다룬다."
+      },
+      {
+        "sectionTitle": "추리란 무엇일까요?",
+        "summary": "전제와 결론의 개념을 바탕으로 추리의 정의와 연역 추리, 귀납 추리의 기본 원리를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 내용",
+        "value": "판단과 추리에 대한 논리적 사고법"
+      },
+      {
+        "key": "학습 방식",
+        "value": "스토리텔링을 통한 개념 이해"
+      }
+    ],
+    "keyEntitiesText": "위기철, 김영종, 사계절출판사",
+    "settingText": "일상생활 및 친근한 우화 속 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WkJxgI5pnSeWLor2D_sgWCoH8O0_hwzi",
+    "filename": "위기철-논리야 놀자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:40.564Z",
+    "size": "92751",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1WkJxgI5pnSeWLor2D_sgWCoH8O0_hwzi/view?usp=drivesdk",
+    "sourceSha256": "e83131f439d75ddd425d4a56a842bd081a0cace966599f3e4a9c2cf0e3ad0e02",
+    "textSha256": "eb1d938649bf63fdaaf9f7b3b717fb789114d5970bef6faf1e13856d24e81092",
+    "changeKey": "43e4b65033a665dc7546a60598ca220a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3a0a596dfa314bed77f6",
+    "workId": "3a0a596dfa314bed77f6",
+    "driveFileId": "1WkJxgI5pnSeWLor2D_sgWCoH8O0_hwzi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:32:48.875198+00:00",
+    "updatedAt": "2026-09-23T01:32:48.875214+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:32:48.875430+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소중한 사람에게 주고 싶은 책",
+    "author": "윤영",
+    "genre": "에세이",
+    "tags": [
+      "에세이",
+      "인생",
+      "행복",
+      "오늘의책"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "윤영은 경기대학교 법정대학 행정학과를 졸업하고 회사에 재직 중인 에세이스트이다.",
+    "oneLineSummary": "짧은 인생을 슬기롭고 아름답게 살아가기 위한 따뜻한 성찰과 삶의 지혜를 담은 에세이.",
+    "overallSummary": "밤의 사색, 고독과 인생의 의미, 욕심을 버린 삶, 진실과 정의의 가치 등 일상의 단상들을 서정적인 문체로 풀어내어 독자에게 마음의 평안과 위안을 건네준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리 시 및 글머리에",
+        "summary": "아우렐리우스의 시를 인용하며 삶의 길을 찾아가는 여정과 사랑으로 이웃의 허물을 덮는 삶의 태도를 노래한다."
+      },
+      {
+        "sectionTitle": "본문 에세이 (1~49)",
+        "summary": "밤이 주는 위안, 인생의 허무함과 소중함, 미소와 욕심, 진실과 정의 등 삶의 여러 단면들을 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 주제",
+        "value": "인생의 의미, 고독, 진실, 미소와 사랑"
+      },
+      {
+        "key": "문체 특징",
+        "value": "차분하고 명상적인 산문 어조"
+      }
+    ],
+    "keyEntitiesText": "윤영, 아우렐리우스, 오늘의책",
+    "settingText": "일상의 사색 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1L3qTelvHaWukh948LO2qNCM2v86gZ9da",
+    "filename": "윤영-소중한 사람에게 주고 싶은 책 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:40.729Z",
+    "size": "129003",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1L3qTelvHaWukh948LO2qNCM2v86gZ9da/view?usp=drivesdk",
+    "sourceSha256": "5a4c43d93a2f8002752ca5aeb7a8767503be0f6d87d7669d0a21ab11fb758e8d",
+    "textSha256": "0731d3fc2c6d6534f3fa49d94d126330f247a7eb7d4060ff226f87fef1e30f29",
+    "changeKey": "27884481e81ad44f2a120344d28aee40",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6ce0fb053fa1063ecf98",
+    "workId": "6ce0fb053fa1063ecf98",
+    "driveFileId": "1L3qTelvHaWukh948LO2qNCM2v86gZ9da",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:35:02.221747+00:00",
+    "updatedAt": "2026-09-23T01:35:02.221763+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:35:02.221874+00:00"
+    }
+  }
+}

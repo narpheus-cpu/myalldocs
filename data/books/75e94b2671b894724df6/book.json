@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사노라면 잊을 날이",
+    "author": "윤형두",
+    "genre": "수필",
+    "tags": [
+      "수필집",
+      "윤형두",
+      "범우사",
+      "회상"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "윤형두는 수필가이자 종합출판 범우사의 대표로 오랜 세월 출판 문화계에 몸담아 왔다.",
+    "oneLineSummary": "처절한 삶의 굴곡과 어머니에 대한 절절한 그리움을 정직하고 온유한 필치로 담아낸 수필집.",
+    "overallSummary": "일제강점기와 해방 전후의 혼란스러운 시기, 그리고 출판인으로서 겪은 수난과 고뇌 속에서도 인간의 양심과 정직성을 지키고자 한 자서전적 회상과 주변 삶의 풍경들을 따뜻하고 깊이 있게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "윤형두론 (한승헌)",
+        "summary": "뜨겁고 정직한 고해로서 윤형두 수필의 문학적 가치와 삶의 자세를 조명한다."
+      },
+      {
+        "sectionTitle": "본문 수필 (연처럼, 인고의 주름 등)",
+        "summary": "소년 시절의 추억, 돌아가신 어머니에 대한 그리움, 병든 바다를 향한 안타까움 등을 진솔하게 고백한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 특징",
+        "value": "회상을 축으로 삼은 섬세한 정경 묘사와 강렬한 현실 투사"
+      },
+      {
+        "key": "작가 정신",
+        "value": "불의에 영합하지 않는 최소한의 양심과 정직한 고해"
+      }
+    ],
+    "keyEntitiesText": "윤형두, 한승헌, 범우사",
+    "settingText": "고오베, 바닷가 고향 마을, 서울 등"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CJmaeI8rQczYg37ZI-OIBIiPZoO4l5ef",
+    "filename": "윤형두-사노라면 잊을 날이.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:40.738Z",
+    "size": "139584",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1CJmaeI8rQczYg37ZI-OIBIiPZoO4l5ef/view?usp=drivesdk",
+    "sourceSha256": "c5e5feb72cda8e6604735000766ec62fc72f7bbe392db50912cbca1b27bef971",
+    "textSha256": "76e9a1257c6194d0a4a9f50574ae48fc3c88431817aaba22af55b8ae5220162b",
+    "changeKey": "6a3bd1d143f8fe975717100afc7e20dd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "75e94b2671b894724df6",
+    "workId": "75e94b2671b894724df6",
+    "driveFileId": "1CJmaeI8rQczYg37ZI-OIBIiPZoO4l5ef",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:35:09.423457+00:00",
+    "updatedAt": "2026-09-23T01:35:09.423521+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:35:09.423633+00:00"
+    }
+  }
+}

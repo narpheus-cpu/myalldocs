@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "너에게 마음편한 사람하나 없거든",
+    "author": "유현민",
+    "genre": "고전수필/일화",
+    "tags": [
+      "고전일화",
+      "김삿갓",
+      "처세",
+      "청담문학사"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "essay_general_nonfiction",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "유현민은 청담문학사에서 저서를 출간한 작가이다.",
+    "oneLineSummary": "옛 선조들의 지혜와 해학이 담긴 다양한 일화를 통해 삶의 지혜와 위안을 전한다.",
+    "overallSummary": "김삿갓의 방랑 일화, 조선 시대 어사들의 에피소드, 역사 속 인물들의 기지와 재치 넘치는 이야기들을 엮어 인간관계와 삶의 이면을 유쾌하고 깊이 있게 돌아보게 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "삼천리 넓은 땅 위에 발 뻗을 자리 없구나",
+        "summary": "고단한 방랑 길에 올랐던 김삿갓이 서당 훈장과의 일화와 추위를 피하던 일들을 그린다."
+      },
+      {
+        "sectionTitle": "노수진 어사의 후회",
+        "summary": "엄격하기로 소문난 노수진 어사가 장성의 기생 노화의 유혹에 넘어가 겪은 일과 후회를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "역사적 인물들의 일화를 통한 교훈과 해학"
+      },
+      {
+        "key": "주요 인물",
+        "value": "김삿갓, 어사, 기생 등"
+      }
+    ],
+    "keyEntitiesText": "유현민, 김삿갓, 노수진, 노화, 춘매",
+    "settingText": "조선 시대 팔도 강산 및 서당"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1u0S_hiV-ORybbP169mJOOvlsygGMF0Z3",
+    "filename": "유현민-너에게 마음편한 사람하나 없거든 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:40.646Z",
+    "size": "471998",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1u0S_hiV-ORybbP169mJOOvlsygGMF0Z3/view?usp=drivesdk",
+    "sourceSha256": "c9fb9c2a2dc113eadffb28b41e49279053406e1437b7004f3454abc305ba78ac",
+    "textSha256": "eff1fa979f0c262e3025dcae95b43818a19320fafc94031db37a13c2779c17a9",
+    "changeKey": "9c4c174777c9668feb05951c72e3309a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a479182d08cb244767a0",
+    "workId": "a479182d08cb244767a0",
+    "driveFileId": "1u0S_hiV-ORybbP169mJOOvlsygGMF0Z3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:34:40.933903+00:00",
+    "updatedAt": "2026-09-23T01:34:40.933919+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:34:40.934032+00:00"
+    }
+  }
+}
