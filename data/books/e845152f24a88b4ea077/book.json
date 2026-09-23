@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "주제가 있는 여행 - 여행작가 송일봉과 함께 떠나는",
+    "author": "송일봉",
+    "genre": "여행/기행",
+    "tags": [
+      "여행",
+      "국내여행",
+      "테마여행",
+      "여행기"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "다양한 매체에서 활동하며 우리 땅의 아름다움을 전하는 전문 여행작가",
+    "oneLineSummary": "꽃, 해돋이, 문학, 맛 등 다양한 주제별로 국내 방구석 구석의 명소를 소개하는 테마 여행 가이드.",
+    "overallSummary": "이 책은 일상에 지친 현대인들에게 낯설음과의 만남과 설렘을 선사하기 위해 기획된 테마 여행 에세이입니다. 선운사의 동백, 지리산 노고단의 원추리, 동해의 일출 등 계절과 취향에 맞는 다채로운 여행지를 추천하며, 찾아가는 법과 주변 명소, 알짜배기 실용 정보를 함께 제공합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "향기나는 여행: 꽃이 있던 자리",
+        "summary": "선운사 동백, 오동도, 지리산 노고단 원추리 등 꽃과 자연이 어우러진 명소를 소개합니다."
+      },
+      {
+        "sectionTitle": "해돋이 여행: 그 찬란한 새벽을 시작으로",
+        "summary": "낙산해수욕장, 경포도립공원, 추암해수욕장 등 장엄한 일출을 만날 수 있는 곳들을 안내합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "책의 구성",
+        "value": "주제별 명소 소개와 상세한 교통/숙박 정보 결합"
+      },
+      {
+        "key": "여행 철학",
+        "value": "낯설음과의 만남을 통한 삶의 활력 충전"
+      }
+    ],
+    "keyEntitiesText": "송일봉",
+    "settingText": "대한민국 전국의 아름다운 자연과 명소"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qFWw1RFEMKLqG0ulgN-s4bFgOH5IHjI_",
+    "filename": "주제가 있는 여행-여행작가 송일봉과 함께 떠나는.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:43.484Z",
+    "size": "337414",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1qFWw1RFEMKLqG0ulgN-s4bFgOH5IHjI_/view?usp=drivesdk",
+    "sourceSha256": "3174efc1be17feec5e2e683093d68778036e9234e644f1678aea584379778e96",
+    "textSha256": "953698f2b6f1ad795f63eedb1d593dbbe508360ba4f4cfcc3e7c4ed47c317549",
+    "changeKey": "3319263915bf764f0f5c3ec9a0673654",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e845152f24a88b4ea077",
+    "workId": "e845152f24a88b4ea077",
+    "driveFileId": "1qFWw1RFEMKLqG0ulgN-s4bFgOH5IHjI_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:56:43.112019+00:00",
+    "updatedAt": "2026-09-23T01:56:43.112034+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:56:43.112154+00:00"
+    }
+  }
+}
