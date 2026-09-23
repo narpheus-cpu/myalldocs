@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에드거 앨런 포 소설 전집 4 - 풍자 편 (사기술 외)",
+    "author": "에드거 앨런 포 (Edgar Allan Poe)",
+    "genre": "소설 / 풍자",
+    "tags": [
+      "에드거앨런포",
+      "사기술",
+      "풍자",
+      "인간본성",
+      "유머"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "날카로운 유머와 풍자 정신으로 인간 사회의 허영과 위선을 꼬집는 다양한 작품을 남겼습니다.",
+    "oneLineSummary": "인간만이 가진 독특한 본성이자 정밀과학의 한 분야로서의 '사기술'을 다양한 실례를 통해 유쾌하게 정의하고 풍자한 글.",
+    "overallSummary": "사기술(Diddling)을 섬세함, 흥미, 끈기, 대담함, 독창성 등을 갖춘 인간 고유의 특권으로 규정하고, 가구점 사기, 위조지폐 지갑 사기, 다리 통행료 사기 등 일상에서 벌어지는 기발하고 다양한 사기 수법들을 나열하며 인간 사회의 허영과 아둔함을 풍자합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "사기술",
+        "summary": "사기술의 본질을 정의하고, 가구점 점원 행세 사기, 잔돈 사기, 위조지폐 지갑 던지기 사기, 다리 통행료 사기, 구인 광고 보증금 사기 등 사회 곳곳에서 벌어지는 기발한 사기 수법들을 흥미롭게 소개합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "풍자의 대상",
+        "value": "겉으로는 도덕적이고 신앙심 깊은 척하면서도 탐욕과 허영에 쉽게 눈이 멀어 사기를 당하는 인간들의 위선적인 본성을 꼬집습니다."
+      }
+    ],
+    "keyEntitiesText": "제러미 벤담(공리주의 철학자), 사기꾼(점잖고 신앙심 깊은 척 위장하는 인물)",
+    "settingText": "19세기 미국의 번화한 도시 상점가와 하숙집, 사무실 주변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1x6m4KQaebHIaJXSs99FyZue9AqCz_Gf7",
+    "filename": "에드거 앨런 포 소설 전집 4-풍자편(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T14:44:16.000Z",
+    "size": "562697",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1x6m4KQaebHIaJXSs99FyZue9AqCz_Gf7/view?usp=drivesdk",
+    "sourceSha256": "e19d035408a3816e51b1c0776b8711388a5ad5b3c40c463b21fb0460e8983da7",
+    "textSha256": "6c3be7dfa893fa852eeff5ac470bd9d299924abb5c0da7f75e6818a4e37efaae",
+    "changeKey": "019151ae0b921bfa2d4001eb7ffe3077",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1b5a2f8ad1d18f4cbff2",
+    "workId": "1b5a2f8ad1d18f4cbff2",
+    "driveFileId": "1x6m4KQaebHIaJXSs99FyZue9AqCz_Gf7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:30:35.950730+00:00",
+    "updatedAt": "2026-09-23T16:30:35.950747+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.6283,
+      "updatedAt": "2026-09-23T16:30:35.950855+00:00"
+    }
+  }
+}

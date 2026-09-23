@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에드거 앨런 포 소설 전집 2 - 공포 편 (검은 고양이 외)",
+    "author": "에드거 앨런 포 (Edgar Allan Poe)",
+    "genre": "소설 / 공포",
+    "tags": [
+      "에드거앨런포",
+      "공포소설",
+      "검은고양이",
+      "광기",
+      "심리적파멸"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간 내면의 어두운 공포와 광기, 사악함을 섬세하고 심오한 통찰력으로 꿰뚫어 보여주는 미국의 천재 작가입니다.",
+    "oneLineSummary": "알코올 중독과 사악한 충동에 사로잡혀 아내와 고양이를 살해한 남자가 겪는 심리적 파멸과 공포의 기록.",
+    "overallSummary": "온순했던 주인공이 술의 악령에 지배당해 자신이 아끼던 검은 고양이 플루토의 눈을 도려내고 목매달아 죽인 후, 죄책감과 사악함의 충동 속에서 아내까지 살해하여 벽 속에 은닉했다가 또 다른 검은 고양이의 울음소리로 인해 범행이 발각되는 파멸의 과정을 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "검은 고양이",
+        "summary": "사형 집행을 앞둔 죄수가 자신의 온순했던 어린 시절부터 알코올 중독으로 인한 광기, 고양이 플루토 살해, 그리고 아내 살해와 벽 속 은닉, 결국 고양이의 울음소리로 인해 파멸에 이르는 과정을 담담하게 고백합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사악함(Perverseness)의 철학",
+        "value": "해서는 안 된다는 것을 알기 때문에 오히려 그 행동을 저지르고 마는 인간 내면의 원초적이고 파괴적인 충동을 예리하게 분석합니다."
+      }
+    ],
+    "keyEntitiesText": "나(알코올 중독과 사악함에 빠진 살인자), 아내(인내심 많고 동물을 사랑하는 피해자), 플루토(한쪽 눈을 잃고 목매달려 죽은 검은 고양이)",
+    "settingText": "주인공의 불타버린 옛집과 지하실이 있는 허름하고 낡은 새 거처"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cKZrB22zgAa_G4yzUwsEvvyDe6HD955F",
+    "filename": "에드거 앨런 포 소설 전집 2-공포편(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T14:28:38.000Z",
+    "size": "521607",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1cKZrB22zgAa_G4yzUwsEvvyDe6HD955F/view?usp=drivesdk",
+    "sourceSha256": "377dbdd3f08e4333e8e685678f03a88019ef68be3f59d78448af6f860ecda513",
+    "textSha256": "ea5b4f917514656077b4385eb3a8c263448a492db50f16a0e0aceaf83e564bc2",
+    "changeKey": "49ad40ff55f5cb84c0a68cf728f2f943",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5b09779075be80a54d12",
+    "workId": "5b09779075be80a54d12",
+    "driveFileId": "1cKZrB22zgAa_G4yzUwsEvvyDe6HD955F",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:30:21.071728+00:00",
+    "updatedAt": "2026-09-23T16:30:21.071743+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5996,
+      "updatedAt": "2026-09-23T16:30:21.071843+00:00"
+    }
+  }
+}

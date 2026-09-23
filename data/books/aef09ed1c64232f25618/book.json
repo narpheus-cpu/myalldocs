@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에드거 앨런 포 소설 전집 5 - 모험 편 (아서 고든 핌 이야기 외)",
+    "author": "에드거 앨런 포 (Edgar Allan Poe)",
+    "genre": "소설 / 모험",
+    "tags": [
+      "에드거앨런포",
+      "아서고든핌",
+      "해양모험",
+      "난파",
+      "남극"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "해양 모험과 미지의 세계에 대한 탐험을 기괴하고도 사실적인 필치로 그려낸 장편 소설을 남겼습니다.",
+    "oneLineSummary": "낸터킷 출신의 아서 고든 핌이 친구 어거스터스와 함께 바다로 나갔다가 겪게 되는 기괴하고 혹독한 해양 모험과 생존기.",
+    "overallSummary": "아서 고든 핌이 친구 어거스터스와 함께 에어리얼호를 타고 폭풍우 속에서 조난당했다가 고래잡이선 펭귄호에 극적으로 구조되는 초반부 모험을 시작으로, 이후 남태평양과 남극해를 향한 거대한 해양 탐험과 난파, 기아, 원주민과의 갈등 등 기괴한 여정을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "아서 고든 핌이 남반구 해양에서 겪은 이상한 사건들을 세상에 알리게 된 경위와 포 씨(작가 자신)의 권유로 소설 형식으로 발표하게 된 배경을 설명합니다."
+      },
+      {
+        "sectionTitle": "1장",
+        "summary": "핌과 친구 어거스터스가 술에 취해 에어리얼호를 타고 밤바다로 나갔다가 폭풍우를 만나 조난당하고, 고래잡이선 펭귄호에 부딪혀 죽을 위기에서 극적으로 구조되는 긴박한 모험을 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사실성과 허구의 경계",
+        "value": "실제 일기나 보고서를 읽는 듯한 정밀한 해양 묘사와 선박 용어 사용을 통해 허구의 모험담에 극도의 사실성을 부여합니다."
+      }
+    ],
+    "keyEntitiesText": "아서 고든 핌(낸터킷 출신의 모험가), 어거스터스 바너드(핌의 절친한 친구이자 선장의 아들), 헨더슨(펭귄호의 의로운 일등항해사)",
+    "settingText": "미국 낸터킷 섬의 항구와 폭풍우가 몰아치는 차가운 밤바다"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xsrkPm_qLISJGL-N8bnq-U7syHNDgQeD",
+    "filename": "에드거 앨런 포 소설 전집 5-모험편(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T14:50:38.000Z",
+    "size": "588579",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1xsrkPm_qLISJGL-N8bnq-U7syHNDgQeD/view?usp=drivesdk",
+    "sourceSha256": "d391eef33ba0aaf91003f6826155a73f623049c7a7a8f1ea18c8aaa30fa7c7e6",
+    "textSha256": "13d8c7cdfc36831819a7da318cfc701cd4a9efb5069bae8e8ed547aec1696673",
+    "changeKey": "1f4c76df207a48d613dd0d1acbe803c3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aef09ed1c64232f25618",
+    "workId": "aef09ed1c64232f25618",
+    "driveFileId": "1xsrkPm_qLISJGL-N8bnq-U7syHNDgQeD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:30:42.765968+00:00",
+    "updatedAt": "2026-09-23T16:30:42.765984+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5614,
+      "updatedAt": "2026-09-23T16:30:42.766140+00:00"
+    }
+  }
+}

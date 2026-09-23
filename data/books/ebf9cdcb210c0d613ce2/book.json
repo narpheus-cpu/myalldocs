@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "더 레이븐 (포 단편선)",
+    "author": "에드거 앨런 포 (Edgar Allan Poe)",
+    "genre": "시 / 소설",
+    "tags": [
+      "에드거앨런포",
+      "더레이븐",
+      "까마귀",
+      "상실",
+      "레노어"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간의 슬픔, 상실감, 그리고 멜랑콜리를 가장 아름답고 음악적인 언어로 표현한 미국의 대표 시인이자 소설가입니다.",
+    "oneLineSummary": "사랑하는 연인 레노어를 잃고 슬픔에 잠긴 사내에게 찾아와 \"다시는 아니야\"라고 속삭이는 불길한 까마귀와의 대화.",
+    "overallSummary": "쓸쓸한 밤, 잃어버린 연인 레노어에 대한 슬픔에 잠겨 있던 화자에게 위풍당당하고 불길한 까마귀 한 마리가 찾아와 방문 위 팔라스 흉상에 앉아, 화자의 절망적인 질문마다 오직 \"Nevermore(다시는 아니야)\"라는 절망의 대답만을 돌려주며 영원한 슬픔의 그림자를 드리우는 시입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "더 레이븐",
+        "summary": "12월의 쓸쓸한 밤, 레노어를 잃고 슬퍼하는 주인공의 방에 까마귀가 날아와 앉습니다. 주인공은 까마귀에게 연인을 다시 만날 수 있는지 묻지만, 까마귀는 오직 '다시는 아니야'라는 말만 반복하며 절망을 안겨줍니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "음악성과 멜랑콜리",
+        "value": "특유의 각운과 리듬감, 그리고 'Nevermore'라는 후렴구의 반복을 통해 인간의 영원한 상실감과 슬픔을 극대화합니다."
+      }
+    ],
+    "keyEntitiesText": "나(슬픔에 잠긴 화자), 레노어(죽은 아름다운 연인), 까마귀(지옥의 밤 기슭에서 온 불길한 새)",
+    "settingText": "음울한 12월의 깊은 밤, 등불이 비치는 자줏빛 벨벳 의자와 팔라스 흉상이 있는 서재"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1G4EsQzyoFBKS06okZhzl2h8WOh1yO8QU",
+    "filename": "에드거 앨런 포-더 레이븐(포단편선)(더클래식)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T14:55:34.000Z",
+    "size": "345716",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1G4EsQzyoFBKS06okZhzl2h8WOh1yO8QU/view?usp=drivesdk",
+    "sourceSha256": "0d9729ab577b38a3b4c683c85c08fef6f9b8c1e9cf505472225d94753c232402",
+    "textSha256": "9ec979b89fe4907a70c66f4551e75651787ab6cdb8bcc1e68214378d00204cd5",
+    "changeKey": "5e08e967d0b00eb139d9f6383ecb09cf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ebf9cdcb210c0d613ce2",
+    "workId": "ebf9cdcb210c0d613ce2",
+    "driveFileId": "1G4EsQzyoFBKS06okZhzl2h8WOh1yO8QU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:30:49.697330+00:00",
+    "updatedAt": "2026-09-23T16:30:49.697345+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T16:30:49.697451+00:00"
+    }
+  }
+}

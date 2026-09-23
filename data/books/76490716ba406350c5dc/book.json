@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에드거 앨런 포 소설 전집 3 - 환상 편 (한스 팔의 환상 모험 외)",
+    "author": "에드거 앨런 포 (Edgar Allan Poe)",
+    "genre": "소설 / SF / 환상",
+    "tags": [
+      "에드거앨런포",
+      "한스팔",
+      "우주여행",
+      "기구",
+      "환상소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미스터리와 공포뿐만 아니라 과학적 상상력을 결합한 초기 SF 소설의 선구자이기도 합니다.",
+    "oneLineSummary": "가난과 빚쟁이에 시달리던 풀무 수리공 한스 팔이 직접 제작한 신문지 기구를 타고 달로 여행을 떠나는 기상천외한 모험기.",
+    "overallSummary": "로테르담의 풀무 수리공 한스 팔이 가난과 빚쟁이들의 감시를 피해 비밀리에 거대한 기구를 제작하고, 폭발 사고를 일으키며 하늘로 날아올라 대기권을 돌파하고 달에 도달하기까지의 과정을 상세한 과학적 묘사와 환상적인 상상력으로 서술한 편지 형식의 소설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "한스 팔의 환상 모험",
+        "summary": "로테르담 광장에 신기한 신문지 기구가 나타나 시장에게 한스 팔의 편지를 떨어뜨립니다. 편지에는 한스 팔이 가난을 피해 기구를 타고 달로 여행을 떠난 5년간의 놀라운 기록이 적혀 있습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "초기 SF의 특징",
+        "value": "기압계, 공기 압축기, 가스 팽창 등 당시의 과학적 지식을 동원하여 달 여행 과정을 사실적이고 정교하게 묘사하려 노력했습니다."
+      }
+    ],
+    "keyEntitiesText": "한스 팔(풀무 수리공이자 기구 조종사), 수페르부스 폰 운데르두크(로테르담 시장), 두둥둥(천문과학대학 부총장)",
+    "settingText": "네덜란드 로테르담 광장과 지구 대기권을 넘어선 우주 공간 및 달"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wIoaZ1g5NiJxHBFm3QXUNln_xcG7NRmP",
+    "filename": "에드거 앨런 포 소설 전집 3-환상편(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T14:36:36.000Z",
+    "size": "473412",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1wIoaZ1g5NiJxHBFm3QXUNln_xcG7NRmP/view?usp=drivesdk",
+    "sourceSha256": "d1314ff3402312504fde299634fba265f38fc5c1390db15f00ff692388699f5f",
+    "textSha256": "09191d1e6200e6a689f49fafe678172255801a929003ee07befba7dd2fce9478",
+    "changeKey": "d2975c5a08321bcb53b4b6c440bcf51e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "76490716ba406350c5dc",
+    "workId": "76490716ba406350c5dc",
+    "driveFileId": "1wIoaZ1g5NiJxHBFm3QXUNln_xcG7NRmP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:30:28.604875+00:00",
+    "updatedAt": "2026-09-23T16:30:28.604891+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5614,
+      "updatedAt": "2026-09-23T16:30:28.605002+00:00"
+    }
+  }
+}

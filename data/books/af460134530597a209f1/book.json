@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에드거 앨런 포 소설 전집 1 - 미스터리 편 (모르그가의 살인 외)",
+    "author": "에드거 앨런 포 (Edgar Allan Poe)",
+    "genre": "소설 / 추리",
+    "tags": [
+      "에드거앨런포",
+      "추리소설",
+      "오귀스트뒤팽",
+      "모르그가의살인",
+      "밀실살인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1809년 보스턴 출생으로, 비범한 관찰력과 인간 심리를 꿰뚫는 탐정 캐릭터의 원형인 '오귀스트 뒤팽'을 창조한 추리 소설의 아버지입니다.",
+    "oneLineSummary": "비범한 분석력과 관찰력을 지닌 탐정 오귀스트 뒤팽이 파리의 기괴한 밀실 살인 사건을 해결하는 과정을 그린 추리 소설의 시초.",
+    "overallSummary": "파리 모르그가의 한 아파트에서 발생한 모녀의 잔혹하고 기괴한 살인 사건을 해결하기 위해, 탐정 오귀스트 뒤팽이 신문 기사와 증언들의 모순을 분석하고 현장을 과학적으로 조사하여 범인이 인간이 아닌 오랑우탄임을 밝혀내는 과정을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서론",
+        "summary": "체스나 체커, 휘스트 게임의 예시를 통해 단순한 계산과 진정한 '분석 능력'의 차이를 설명하며, 분석가가 지닌 통찰력의 본질을 규정합니다."
+      },
+      {
+        "sectionTitle": "모르그가의 살인",
+        "summary": "파리에서 만난 기이한 천재 뒤팽과 화자가 모르그가 모녀 살인 사건의 신문 보도를 접하고, 경찰이 갈피를 잡지 못하는 상황에서 뒤팽의 독창적인 추리로 진범(오랑우탄)을 찾아냅니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "추리 소설의 공식 확립",
+        "value": "안에서 잠긴 밀실, 기괴한 범행 방식, 경찰의 무능함과 안락의자 탐정의 논리적 추리 등 현대 추리 소설의 전형적인 공식을 최초로 확립한 작품입니다."
+      }
+    ],
+    "keyEntitiesText": "C. 오귀스트 뒤팽(비범한 분석력을 지닌 몰락한 귀족 가문의 청년), 레스파나예 부인(피해자 노부인), 카미유(부인의 딸)",
+    "settingText": "19세기 프랑스 파리의 포부르 생 제르맹의 외딴 저택과 모르그가의 4층 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PHSg28eoOwuH1oTdtMuVSr8z3sBITDar",
+    "filename": "에드거 앨런 포 소설 전집 1-미스터리편(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T14:25:50.000Z",
+    "size": "444681",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1PHSg28eoOwuH1oTdtMuVSr8z3sBITDar/view?usp=drivesdk",
+    "sourceSha256": "acc7b77dd4b2fc29a06f934e9659039791f124887fa623a9931446fe0ee13ea9",
+    "textSha256": "b6892624c9b4c43af1a35ccd3418ced91f0b205dfaf267ca2e5fb7aafb895b9d",
+    "changeKey": "4f5a28323c46a5621436ff46c84cbd41",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "af460134530597a209f1",
+    "workId": "af460134530597a209f1",
+    "driveFileId": "1PHSg28eoOwuH1oTdtMuVSr8z3sBITDar",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:30:13.719374+00:00",
+    "updatedAt": "2026-09-23T16:30:13.719390+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.596,
+      "updatedAt": "2026-09-23T16:30:13.719512+00:00"
+    }
+  }
+}

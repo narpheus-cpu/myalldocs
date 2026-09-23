@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어니스트 헤밍웨이 단편선 (현대문학 단편선)",
+    "author": "어니스트 헤밍웨이 (Ernest Hemingway)",
+    "genre": "소설",
+    "tags": [
+      "헤밍웨이",
+      "단편소설",
+      "하드보일드",
+      "인간실존",
+      "사파리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저널리스트 출신의 미국 작가로, 감정을 절제하고 사실 묘사에 충실한 '빙산 이론' 문체로 20세기 문학에 거대한 영향을 끼쳤습니다.",
+    "oneLineSummary": "인간의 나약함, 두려움, 그리고 죽음의 경계에서 마주하는 실존적 순간들을 절제된 문체로 담아낸 단편선.",
+    "overallSummary": "아프리카 사파리 사냥 중 사자 앞에서 겁을 먹고 도망쳤던 프랜시스 매컴버가 겪는 심리적 수치심과 두려움, 그리고 아내 마거릿과의 미묘한 갈등을 통해 인간의 나약함과 실존적 극복의 순간을 하드보일드 문체로 그려냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프랜시스 매컴버의 짧았던 행복",
+        "summary": "사자 사냥에서 겁쟁이처럼 도망쳐 아내와 사냥꾼 윌슨에게 멸시를 받던 매컴버는, 다음 날 물소 사냥에서 마침내 두려움을 극복하고 용기를 얻는 순간 아내의 총에 맞아 비극적인 죽음을 맞이합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "빙산 이론 (Iceberg Theory)",
+        "value": "표면적인 대화와 사실 묘사 아래에 인간의 심리적 긴장과 상징적 구조를 숨겨두어 독자가 스스로 느끼게 만드는 헤밍웨이 특유의 기법입니다."
+      }
+    ],
+    "keyEntitiesText": "프랜시스 매컴버(서른다섯 살의 부유한 미국인), 마거릿(매컴버의 아름답고 냉소적인 아내), 로보트 윌슨(영국인 전문 사냥꾼)",
+    "settingText": "아프리카의 뜨겁고 황량한 사파리 야영지와 사냥터"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Swq2GhOsrlfg43IvSbDADtCbRES6mWYO",
+    "filename": "어니스트 헤밍웨이 단편선(현대문학 단편선)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:04:52.000Z",
+    "size": "916110",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1Swq2GhOsrlfg43IvSbDADtCbRES6mWYO/view?usp=drivesdk",
+    "sourceSha256": "4f7f82a9ad7d58c86a94209ec2152494d30677ff5cacc030a564c054c50e3daa",
+    "textSha256": "3e4764ddfb986e8443aa390cc3cfbb2f4a2611fc84814ae03346ba2c8fce1e7a",
+    "changeKey": "af2fd0699f18f55c8d9dc1616e8db1db",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "258731af8aaa2d452551",
+    "workId": "258731af8aaa2d452551",
+    "driveFileId": "1Swq2GhOsrlfg43IvSbDADtCbRES6mWYO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T16:29:54.734595+00:00",
+    "updatedAt": "2026-09-23T16:29:54.734612+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T16:29:54.734717+00:00"
+    }
+  }
+}
