@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "법과 영화 사이",
+    "author": "안경환",
+    "genre": "법률/영화",
+    "tags": [
+      "법",
+      "영화",
+      "인권",
+      "사회"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "법률",
+        "영화"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대학교 법대 교수이자 미국법 및 역사 전문가이다.",
+    "oneLineSummary": "영화라는 영상 매체를 통해 법의 이념과 역사적 정의를 흥미롭게 조명한다.",
+    "overallSummary": "이 책은 영화 속에 담긴 법적, 역사적 의미를 서울대 법대 교수의 전문적 시각으로 풀어낸 에세이이다. 〈아미스타드〉의 흑인 노예 반란과 재판, 〈드라큘라〉에 담긴 구질서와 근대 법의 대립, 군대 내 갈등을 다룬 영화 등을 통해 영상 시대에 법과 정의가 어떻게 구현되는지 깊이 있게 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아미스타드",
+        "summary": "아프리카 노예들의 선상 반란과 미국 연방대법원의 역사적인 자유 판결을 법률적 시각으로 분석한다."
+      },
+      {
+        "sectionTitle": "드라큘라",
+        "summary": "브램 스토커의 원작 소설과 영화를 통해 병든 봉건 귀족 사회와 근대 지성인의 대결을 고찰한다."
+      },
+      {
+        "sectionTitle": "어 퓨어 굿맨 등",
+        "summary": "군대와 사회의 갈등, 인간의 권리와 정의를 다룬 다양한 영화 속 법적 의미를 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "융합적 접근",
+        "value": "영상 매체와 법철학의 결합"
+      }
+    ],
+    "keyEntitiesText": "저자 안경환, 씽케, 존 퀸시 애담스, 드라큘라 백작",
+    "settingText": "영화 속 역사적 배경 및 현대 법정"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16C8CqHvUft5I1GMtcPAhpdpgIAfceoeo",
+    "filename": "안경환-법과 영화 사이.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:38.403Z",
+    "size": "326801",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/16C8CqHvUft5I1GMtcPAhpdpgIAfceoeo/view?usp=drivesdk",
+    "sourceSha256": "029688b75dcd8f5fde9f0d1b8d145066fdf06b0d54eb89dc63b7a96d91a43c7c",
+    "textSha256": "8a9851a457b8ddf1052801cf70bf1e116fcae690b0f26a8b3ded5057ff75248c",
+    "changeKey": "aaf18df9a1a85bdfe86d358c2e155fb5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c82e965ce82f4f85eb23",
+    "workId": "c82e965ce82f4f85eb23",
+    "driveFileId": "16C8CqHvUft5I1GMtcPAhpdpgIAfceoeo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:14:29.744227+00:00",
+    "updatedAt": "2026-09-23T01:14:29.744242+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:14:29.744349+00:00"
+    }
+  }
+}
