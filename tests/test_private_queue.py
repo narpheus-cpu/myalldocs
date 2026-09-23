@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 from types import SimpleNamespace
+from unittest.mock import patch
 
 import pytest
 
@@ -10,7 +11,7 @@ from indexer.content_edit_worker import apply_content_edit
 from indexer.prior_knowledge import prior_knowledge_prompt, valid_prior_result
 from indexer.private_queue import CanonicalUploadFormatError, PrivateQueueDrive, QueueBundle, parse_canonical_upload, parse_jsonl
 from indexer.queue_context import service_account_email
-from indexer.queue_worker import QueueWorker, _validate_public_content, match_entries, reconcile_completed_entries, refresh_unresolved_matches
+from indexer.queue_worker import NoGeminiClient, QueueWorker, _automatic_reconciliation_retry_limit, _validate_public_content, match_entries, reconcile_completed_entries, refresh_unresolved_matches
 from indexer.source_link_worker import apply_source_link
 from indexer.storage import RepositoryStorage
 
@@ -422,7 +423,7 @@ def test_books_json_folder_is_imported_server_side_and_duplicates_are_skipped():
         'id="run-canonical-import"',
         'id="disable-canonical-import"',
         'id="canonical-import-folder"',
-        "약 15분마다 확인",
+        "약 15분마다 등록",
     ):
         assert phrase in html
     for phrase in (
@@ -483,6 +484,95 @@ def test_books_json_import_has_apps_script_clock_trigger_and_github_backup():
     assert 'cron: "7,37 * * * *"' in workflow
     assert 'id="canonical-import-trigger"' in html
     assert "작동 중 · 약" in script
+
+
+def test_books_json_import_runs_one_versioned_reconciliation_pass():
+    root = Path(__file__).resolve().parents[1]
+    relay = (root / "apps-script" / "Code.gs").read_text(encoding="utf-8")
+    script = (root / "js" / "app.js").read_text(encoding="utf-8")
+    html = (root / "index.html").read_text(encoding="utf-8")
+
+    for phrase in (
+        "CANONICAL_RECONCILIATION_VERSION = 1",
+        "previousReconciliationVersion < CANONICAL_RECONCILIATION_VERSION",
+        "reconciliationVersion: CANONICAL_RECONCILIATION_VERSION",
+        "importMode = reconciliationNeeded ? 'reconciliation' : 'new'",
+        "과거 누락 재검사",
+    ):
+        assert phrase in relay
+    assert 'id="canonical-import-reconciliation"' in html
+    assert "lastReconciliationQueued" in script
+    assert "과거 오류·누락 자동 구제" in script
+
+
+def test_reconciliation_queue_retries_a_transient_item_error(tmp_path):
+    drive_id = "drive-file-recovery-123"
+    source = DriveBook(drive_id, "복구할 책.txt", "text/plain", size="12", folderPath=["book", "소설"])
+
+    class FlakyDrive:
+        def __init__(self):
+            self.calls = 0
+            self.quota = SimpleNamespace(usage=SimpleNamespace(quota_units=0, downloaded_bytes=0))
+
+        def assert_descendant(self, *_args):
+            return None
+
+        def folder_metadata(self, *_args):
+            return {"name": "book"}
+
+        def iter_books(self, *_args):
+            return iter([source])
+
+        def download(self, *_args):
+            self.calls += 1
+            if self.calls == 1:
+                raise OSError("temporary Drive read failure")
+            return "복구 가능한 원문".encode("utf-8")
+
+    entry = {
+        "identity": {"title": "복구할 책", "author": "작가", "workProfile": {"primary": "fiction"}},
+        "content": {"oneLineSummary": "한 줄", "overallSummary": "전체 요약"},
+        "source": {"filename": source.name},
+    }
+    bundle = QueueBundle(
+        "manifest-recovery",
+        {
+            "kind": "canonical-json", "sourceRootFolderId": "root-folder", "originalFilename": "indexing_001.json",
+            "automaticImport": {"mode": "reconciliation", "reconciliationVersion": 1},
+        },
+        [entry],
+        {},
+    )
+
+    class PrivateDrive:
+        def load_bundle(self, _manifest_id):
+            return bundle
+
+        def save_state(self, target, state):
+            target.state = state
+
+    settings = SimpleNamespace(
+        root=tmp_path,
+        raw={"queue": {"maxBooksPerRun": 20, "reconciliationMaxRetries": 2}},
+        quota={},
+    )
+    progress = SimpleNamespace(emit=lambda *_args, **_kwargs: None)
+    source_drive = FlakyDrive()
+    with patch("indexer.queue_worker.time.sleep", lambda _seconds: None):
+        status = QueueWorker(settings, source_drive, PrivateDrive(), NoGeminiClient({}), progress).run("manifest-recovery")
+
+    assert status["status"] == "COMPLETE"
+    assert status["reconciliationMode"] is True
+    assert source_drive.calls == 2
+    assert bundle.state["entries"][0]["automaticRetryCount"] == 1
+    assert bundle.state["entries"][0]["status"] == "COMPLETE"
+
+
+def test_only_reconciliation_queues_get_automatic_item_retries():
+    settings = {"reconciliationMaxRetries": 2}
+    assert _automatic_reconciliation_retry_limit({}, settings) == 0
+    assert _automatic_reconciliation_retry_limit({"automaticImport": {"mode": "new"}}, settings) == 0
+    assert _automatic_reconciliation_retry_limit({"automaticImport": {"mode": "reconciliation"}}, settings) == 2
 
 
 def test_books_json_import_keeps_source_files_and_uses_private_queue_copy():

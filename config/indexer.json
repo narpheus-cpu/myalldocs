@@ -48,6 +48,7 @@
   },
   "queue": {
     "maxBooksPerRun": 20,
+    "reconciliationMaxRetries": 2,
     "identityThreshold": 0.82,
     "uploadMaxBytes": 104857600,
     "uploadPartBytes": 262144

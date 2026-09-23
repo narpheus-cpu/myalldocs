@@ -6,6 +6,7 @@ import logging
 import os
 import re
 import sys
+import time
 import unicodedata
 from difflib import SequenceMatcher
 from datetime import datetime, timezone
@@ -58,6 +59,13 @@ class NoGeminiClient:
 
 def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
+
+
+def _automatic_reconciliation_retry_limit(manifest: dict[str, Any], settings: dict[str, Any]) -> int:
+    automatic = manifest.get("automaticImport") if isinstance(manifest.get("automaticImport"), dict) else {}
+    if automatic.get("mode") != "reconciliation":
+        return 0
+    return max(0, min(3, int(settings.get("reconciliationMaxRetries", 2) or 0)))
 
 
 def _norm(value: Any) -> str:
@@ -294,10 +302,14 @@ class QueueWorker:
 
     def run(self, manifest_id: str) -> dict[str, Any]:
         bundle = self.private_drive.load_bundle(manifest_id)
+        automatic_import = bundle.manifest.get("automaticImport") if isinstance(bundle.manifest.get("automaticImport"), dict) else {}
+        reconciliation_mode = automatic_import.get("mode") == "reconciliation"
         queue_context = {
             "queueManifestId": manifest_id,
             "queueKind": str(bundle.manifest.get("kind") or ""),
             "uploadFilename": str(bundle.manifest.get("originalFilename") or ""),
+            "reconciliationMode": reconciliation_mode,
+            "reconciliationVersion": int(automatic_import.get("reconciliationVersion") or 0),
         }
         if bundle.manifest.get("kind") == "content-edit":
             return self._apply_content_edit(bundle)
@@ -335,9 +347,11 @@ class QueueWorker:
             "failed": sum(1 for item in queue_entries if item.get("status") == "ERROR"),
             "metadataReview": sum(1 for item in queue_entries if item.get("status") == "NEEDS_METADATA_REVIEW"),
         }
-        self.status = {"status": "RUNNING", "phase": "QUEUE_READY", "message": "비공개 대기열을 이어서 처리합니다.", "totalFiles": len(queue_entries), "startedAt": state.get("createdAt") or _now(), **queue_context, **counts}
+        ready_message = "과거 처리 오류와 누락 항목을 자동 대조합니다." if reconciliation_mode else "비공개 대기열을 이어서 처리합니다."
+        self.status = {"status": "RUNNING", "phase": "QUEUE_READY", "message": ready_message, "totalFiles": len(queue_entries), "startedAt": state.get("createdAt") or _now(), **queue_context, **counts}
         self._emit("QUEUE_READY", self.status["message"], True)
         max_books = int(self.settings.raw.get("queue", {}).get("maxBooksPerRun", 20) or 20)
+        automatic_retry_limit = _automatic_reconciliation_retry_limit(bundle.manifest, self.settings.raw.get("queue", {}))
         processed = 0
         pause = ""
         books_by_id = {book.id: book for book in drive_books}
@@ -362,61 +376,77 @@ class QueueWorker:
                 item["reason"] = "동일한 Drive 원본이 이미 등록되어 있습니다."
                 counts["skipped"] += 1
                 continue
-            try:
-                raw = self.source_drive.download(file_id, int(source.size) if source.size else None)
-                source_hash = hashlib.sha256(raw).hexdigest()
-                parsed = parse_epub(raw) if source.mimeType == "application/epub+zip" or source.name.casefold().endswith(".epub") else parse_txt(raw)
-                normalized_text_hash = text_sha256(parsed.text)
-                if self._duplicate_hash(source_hash, normalized_text_hash):
-                    item.update({"status": "SKIPPED", "sourceSha256": source_hash, "textSha256": normalized_text_hash, "reason": "동일한 원문 내용이 이미 등록되어 있습니다."})
-                    counts["skipped"] += 1
-                    continue
-                if bundle.manifest["kind"] == "canonical-json":
-                    item["status"] = "INDEXING"
-                    self.private_drive.save_state(bundle, {**state, "entries": queue_entries, "updatedAt": _now()})
-                    canonical = self._completed_upload(bundle.entries[index], source, source_hash, normalized_text_hash)
-                else:
-                    item["status"] = "IDENTIFYING"
-                    self.private_drive.save_state(bundle, {**state, "entries": queue_entries, "updatedAt": _now()})
-                    self._emit("IDENTIFYING", "발췌문으로 작품을 식별하고 사전지식 인덱스를 생성합니다.", True)
-                    result = self.gemini.generate_json(prior_knowledge_prompt(bundle.entries[index]), expected_type=dict)
-                    valid, reason = valid_prior_result(result, float(self.settings.raw.get("queue", {}).get("identityThreshold", 0.82)))
-                    if not valid:
-                        item.update({"status": "NEEDS_METADATA_REVIEW", "reason": reason, "identityDecision": _public_identity(result)})
-                        counts["metadataReview"] += 1
-                        processed += 1
+            retry_number = int(item.get("automaticRetryCount") or 0)
+            while True:
+                try:
+                    raw = self.source_drive.download(file_id, int(source.size) if source.size else None)
+                    source_hash = hashlib.sha256(raw).hexdigest()
+                    parsed = parse_epub(raw) if source.mimeType == "application/epub+zip" or source.name.casefold().endswith(".epub") else parse_txt(raw)
+                    normalized_text_hash = text_sha256(parsed.text)
+                    if self._duplicate_hash(source_hash, normalized_text_hash):
+                        item.update({"status": "SKIPPED", "sourceSha256": source_hash, "textSha256": normalized_text_hash, "reason": "동일한 원문 내용이 이미 등록되어 있습니다."})
+                        counts["skipped"] += 1
+                        break
+                    if bundle.manifest["kind"] == "canonical-json":
+                        item["status"] = "INDEXING"
                         self.private_drive.save_state(bundle, {**state, "entries": queue_entries, "updatedAt": _now()})
+                        canonical = self._completed_upload(bundle.entries[index], source, source_hash, normalized_text_hash)
+                    else:
+                        item["status"] = "IDENTIFYING"
+                        self.private_drive.save_state(bundle, {**state, "entries": queue_entries, "updatedAt": _now()})
+                        self._emit("IDENTIFYING", "발췌문으로 작품을 식별하고 사전지식 인덱스를 생성합니다.", True)
+                        result = self.gemini.generate_json(prior_knowledge_prompt(bundle.entries[index]), expected_type=dict)
+                        valid, reason = valid_prior_result(result, float(self.settings.raw.get("queue", {}).get("identityThreshold", 0.82)))
+                        if not valid:
+                            item.update({"status": "NEEDS_METADATA_REVIEW", "reason": reason, "identityDecision": _public_identity(result)})
+                            counts["metadataReview"] += 1
+                            processed += 1
+                            break
+                        item["status"] = "INDEXING"
+                        canonical = self._generated(result, source, source_hash, normalized_text_hash)
+                    canonical.setdefault("system", {})["sourceConnection"] = {
+                        "status": "auto",
+                        "reviewRecommended": bool(item.get("sourceReviewRecommended")),
+                        "matchBasis": str(item.get("matchBasis") or ""),
+                        "matchScore": float(item.get("matchScore") or 0),
+                        "updatedAt": _now(),
+                    }
+                    self.storage.save_canonical(canonical)
+                    item.update({"status": "COMPLETE", "bookId": canonical["system"]["libraryEntryId"], "sourceSha256": source_hash, "textSha256": normalized_text_hash})
+                    counts["complete"] += 1
+                    catalog[file_id] = {"bookId": canonical["system"]["libraryEntryId"]}
+                    processed += 1
+                    break
+                except ServiceUnavailablePaused as exc:
+                    pause = "PAUSED_SERVICE_UNAVAILABLE"; item["reason"] = str(exc); break
+                except (RateLimitPaused, BudgetExceeded, DriveQuotaPaused) as exc:
+                    pause = "PAUSED_RATE_LIMIT"; item["reason"] = str(exc); break
+                except NoSupportedModel as exc:
+                    pause = "NO_SUPPORTED_MODEL"; item["reason"] = str(exc); break
+                except Exception as exc:
+                    LOG.exception("Queue item failed: %s", source.name)
+                    if retry_number < automatic_retry_limit:
+                        retry_number += 1
+                        item.update({
+                            "status": "MATCHED", "automaticRetryCount": retry_number,
+                            "reason": f"과거 누락 복구 중 오류가 발생해 자동 재시도합니다 ({retry_number}/{automatic_retry_limit}): {str(exc)[:300]}",
+                        })
+                        state.update({"entries": queue_entries, "updatedAt": _now()})
+                        self.private_drive.save_state(bundle, state)
+                        self._emit("RECONCILIATION_RETRY", item["reason"], True)
+                        time.sleep(min(4, 2 ** (retry_number - 1)))
                         continue
-                    item["status"] = "INDEXING"
-                    canonical = self._generated(result, source, source_hash, normalized_text_hash)
-                canonical.setdefault("system", {})["sourceConnection"] = {
-                    "status": "auto",
-                    "reviewRecommended": bool(item.get("sourceReviewRecommended")),
-                    "matchBasis": str(item.get("matchBasis") or ""),
-                    "matchScore": float(item.get("matchScore") or 0),
-                    "updatedAt": _now(),
-                }
-                self.storage.save_canonical(canonical)
-                item.update({"status": "COMPLETE", "bookId": canonical["system"]["libraryEntryId"], "sourceSha256": source_hash, "textSha256": normalized_text_hash})
-                counts["complete"] += 1
-                catalog[file_id] = {"bookId": canonical["system"]["libraryEntryId"]}
-                processed += 1
-            except ServiceUnavailablePaused as exc:
-                pause = "PAUSED_SERVICE_UNAVAILABLE"; item["reason"] = str(exc); break
-            except (RateLimitPaused, BudgetExceeded, DriveQuotaPaused) as exc:
-                pause = "PAUSED_RATE_LIMIT"; item["reason"] = str(exc); break
-            except NoSupportedModel as exc:
-                pause = "NO_SUPPORTED_MODEL"; item["reason"] = str(exc); break
-            except Exception as exc:
-                LOG.exception("Queue item failed: %s", source.name)
-                item.update({"status": "ERROR", "reason": str(exc)[:500]})
-                counts["failed"] += 1
-                processed += 1
-            finally:
-                state.update({"entries": queue_entries, "updatedAt": _now()})
-                self.private_drive.save_state(bundle, state)
-                self.status.update(counts)
-                self._emit("BOOK_FINISHED", str(item.get("reason") or "도서 처리가 끝났습니다."), True)
+                    item.update({"status": "ERROR", "reason": str(exc)[:500], "automaticRetryCount": retry_number})
+                    counts["failed"] += 1
+                    processed += 1
+                    break
+                finally:
+                    state.update({"entries": queue_entries, "updatedAt": _now()})
+                    self.private_drive.save_state(bundle, state)
+                    self.status.update(counts)
+            self._emit("BOOK_FINISHED", str(item.get("reason") or "도서 처리가 끝났습니다."), True)
+            if pause:
+                break
 
         unresolved = [item for item in queue_entries if item.get("status") not in {"COMPLETE", "SKIPPED"}]
         terminal_review = unresolved and all(item.get("status") in {"NOT_FOUND", "AMBIGUOUS", "NEEDS_METADATA_REVIEW", "ERROR"} for item in unresolved)

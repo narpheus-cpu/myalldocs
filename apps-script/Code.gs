@@ -5,6 +5,8 @@
  * GITHUB_TOKEN is optional. Without a valid token, the scheduled queue worker
  * picks up persisted uploads instead of failing the upload.
  */
+var CANONICAL_RECONCILIATION_VERSION = 1;
+
 function doGet() {
   return json_({ok: true, service: 'book-indexer-relay'});
 }
@@ -246,8 +248,12 @@ function canonicalImportStatus_() {
     lastScanAt: String(last.scannedAt || ''),
     lastScanned: Number(last.scanned || 0),
     lastQueued: Number(last.queued || 0),
+    lastNewQueued: Number(last.newQueued || 0),
+    lastReconciliationQueued: Number(last.reconciliationQueued || 0),
+    lastReconciliationPending: Number(last.reconciliationPending || 0),
     lastSkipped: Number(last.skipped || 0),
     lastErrors: Number(last.errors || 0),
+    reconciliationVersion: CANONICAL_RECONCILIATION_VERSION,
     lastMessage: String(last.message || '')
   };
 }
@@ -370,7 +376,10 @@ function restoreIdleQueueLiveStatus_(scan) {
 function publicCanonicalImportResult_(result) {
   return {
     scannedAt: result.scannedAt, scanned: result.scanned, queued: result.queued,
-    skipped: result.skipped, errors: result.errors, message: result.message
+    newQueued: result.newQueued, reconciliationQueued: result.reconciliationQueued,
+    reconciliationPending: result.reconciliationPending,
+    skipped: result.skipped, errors: result.errors,
+    reconciliationVersion: CANONICAL_RECONCILIATION_VERSION, message: result.message
   };
 }
 
@@ -412,17 +421,42 @@ function importCanonicalFolder_(options) {
 
     var history = loadCanonicalImportHistory_();
     var files = listCanonicalJsonFiles_(folderId);
-    var result = {scannedAt: new Date().toISOString(), scanned: files.length, queued: 0, skipped: 0, errors: 0, queuedManifestIds: [], message: ''};
+    var result = {
+      scannedAt: new Date().toISOString(), scanned: files.length, queued: 0,
+      newQueued: 0, reconciliationQueued: 0, reconciliationPending: 0,
+      skipped: 0, errors: 0, queuedManifestIds: [], message: ''
+    };
     for (var index = 0; index < files.length && result.queued < limit; index++) {
       var file = files[index];
       var fingerprint = canonicalImportFingerprint_(file);
       var previous = history.byFileId[String(file.id)] || null;
       var sameChecksum = file.md5Checksum && history.byChecksum[String(file.md5Checksum)] || null;
-      if ((previous && previous.fingerprint === fingerprint) || sameChecksum) {
+      var previousMatches = Boolean(previous && previous.fingerprint === fingerprint);
+      var previousReconciliationVersion = Number(previous && previous.reconciliationVersion || 0);
+      var checksumReconciliationVersion = Number(sameChecksum && sameChecksum.reconciliationVersion || 0);
+      var checksumBelongsToOtherFile = Boolean(sameChecksum && String(sameChecksum.driveFileId || '') !== String(file.id));
+      var reconciliationNeeded = previousMatches && previousReconciliationVersion < CANONICAL_RECONCILIATION_VERSION;
+
+      // A byte-identical copy only needs one reconciliation pass.  Wait for
+      // the original checksum record to finish, then mirror its version here.
+      if (reconciliationNeeded && checksumBelongsToOtherFile && checksumReconciliationVersion >= CANONICAL_RECONCILIATION_VERSION) {
+        previous.reconciliationVersion = CANONICAL_RECONCILIATION_VERSION;
+        previous.reconciledAsDuplicateOf = String(sameChecksum.driveFileId || '');
         result.skipped++;
-        if (!previous) history.byFileId[String(file.id)] = {
-          fingerprint: fingerprint, manifestId: sameChecksum.manifestId || '', filename: String(file.name || ''),
-          importedAt: sameChecksum.importedAt || result.scannedAt, duplicateOf: sameChecksum.driveFileId || ''
+        continue;
+      }
+      if (previousMatches && !reconciliationNeeded) {
+        result.skipped++;
+        continue;
+      }
+      if (!previousMatches && sameChecksum) {
+        result.skipped++;
+        history.byFileId[String(file.id)] = {
+          driveFileId: String(file.id), fingerprint: fingerprint,
+          manifestId: sameChecksum.manifestId || '', filename: String(file.name || ''),
+          importedAt: sameChecksum.importedAt || result.scannedAt,
+          duplicateOf: sameChecksum.driveFileId || '',
+          reconciliationVersion: checksumReconciliationVersion
         };
         continue;
       }
@@ -431,25 +465,40 @@ function importCanonicalFolder_(options) {
         continue;
       }
       try {
-        var manifestId = createCanonicalQueueFromDriveFile_(folderId, file, fingerprint);
+        var importMode = reconciliationNeeded ? 'reconciliation' : 'new';
+        var manifestId = createCanonicalQueueFromDriveFile_(folderId, file, fingerprint, importMode);
         var record = {
           driveFileId: String(file.id), fingerprint: fingerprint, manifestId: manifestId,
           filename: String(file.name || ''), size: Number(file.size || 0), modifiedTime: String(file.modifiedTime || ''),
-          importedAt: result.scannedAt
+          importedAt: previous && previous.importedAt || result.scannedAt,
+          reconciliationVersion: CANONICAL_RECONCILIATION_VERSION,
+          reconciliationQueuedAt: result.scannedAt,
+          importMode: importMode
         };
         history.byFileId[String(file.id)] = record;
         if (file.md5Checksum) history.byChecksum[String(file.md5Checksum)] = record;
         saveCanonicalImportHistory_(history);
         result.queued++;
+        if (reconciliationNeeded) result.reconciliationQueued++;
+        else result.newQueued++;
         result.queuedManifestIds.push(manifestId);
       } catch (error) {
         result.errors++;
         console.error('books-json import failed for ' + String(file.name || file.id) + ': ' + String(error && error.stack || error));
       }
     }
+    result.reconciliationPending = files.filter(function(file) {
+      var value = history.byFileId[String(file.id)] || null;
+      return value && value.fingerprint === canonicalImportFingerprint_(file) &&
+        Number(value.reconciliationVersion || 0) < CANONICAL_RECONCILIATION_VERSION;
+    }).length;
     if (result.skipped) saveCanonicalImportHistory_(history);
-    result.message = result.queued ? result.queued + '개 JSON을 새 대기열에 등록했습니다.' :
-      (result.errors ? '일부 JSON을 등록하지 못했습니다. 최근 결과를 확인하세요.' : '새 JSON이 없습니다. 이미 등록한 파일은 건너뛰었습니다.');
+    result.message = result.queued ? [
+      result.newQueued ? '새 JSON ' + result.newQueued + '개' : '',
+      result.reconciliationQueued ? '과거 누락 재검사 ' + result.reconciliationQueued + '개' : ''
+    ].filter(Boolean).join(' · ') + '를 대기열에 등록했습니다.' :
+      (result.errors ? '일부 JSON을 등록하지 못했습니다. 최근 결과를 확인하세요.' :
+        (result.reconciliationPending ? '과거 누락 재검사가 순차적으로 진행 중입니다.' : '새 JSON과 남은 누락 재검사 대상이 없습니다.'));
     properties.setProperty('CANONICAL_IMPORT_LAST_RESULT', JSON.stringify(publicCanonicalImportResult_(result)));
     return result;
   } catch (error) {
@@ -489,7 +538,7 @@ function canonicalImportFingerprint_(file) {
     ['drive', String(file.id || ''), String(file.modifiedTime || ''), String(file.size || 0)].join(':');
 }
 
-function createCanonicalQueueFromDriveFile_(sourceFolderId, sourceFile, fingerprint) {
+function createCanonicalQueueFromDriveFile_(sourceFolderId, sourceFile, fingerprint, importMode) {
   var parentId = ensureManagementFolderId_();
   var session = driveCreateMetadata_({name: 'auto-json-' + Utilities.getUuid(), mimeType: 'application/vnd.google-apps.folder', parents: [parentId]});
   driveEnsureEditor_(session.id, requiredProperty_('SERVICE_ACCOUNT_EMAIL').trim());
@@ -501,7 +550,10 @@ function createCanonicalQueueFromDriveFile_(sourceFolderId, sourceFile, fingerpr
     sourceRootFolderId: requiredProperty_('DRIVE_ROOT_FOLDER_ID'), sessionFolderId: session.id,
     parts: [{index: 0, fileId: part.id, size: Number(part.size || sourceFile.size || 0)}],
     stateFileId: initialState.id, createdAt: createdAt,
-    automaticImport: {folderId: String(sourceFolderId), driveFileId: String(sourceFile.id), fingerprint: fingerprint}
+    automaticImport: {
+      folderId: String(sourceFolderId), driveFileId: String(sourceFile.id), fingerprint: fingerprint,
+      mode: String(importMode || 'new'), reconciliationVersion: CANONICAL_RECONCILIATION_VERSION
+    }
   };
   var manifestFile = driveCreateFile_({name: 'queue-manifest.json', parents: [session.id]}, Utilities.newBlob(JSON.stringify(manifest, null, 2)).getBytes(), 'application/json');
   appendQueueManifest_(manifestFile.id);
@@ -535,7 +587,7 @@ function loadCanonicalImportHistory_() {
 }
 
 function saveCanonicalImportHistory_(history) {
-  history.schemaVersion = 1;
+  history.schemaVersion = 2;
   history.updatedAt = new Date().toISOString();
   driveUpdateFileContent_(canonicalImportHistoryFile_(), JSON.stringify(history, null, 2), 'application/json');
 }
@@ -864,6 +916,8 @@ function queueAdmin_(options) {
       }
       return {
         manifestId: id, kind: manifest.kind, originalFilename: manifest.originalFilename,
+        importMode: manifest.automaticImport && String(manifest.automaticImport.mode || ''),
+        reconciliationVersion: manifest.automaticImport && Number(manifest.automaticImport.reconciliationVersion || 0),
         createdAt: manifest.createdAt, scope: activeMap[id] ? 'active' : 'review',
         lastRunStatus: String(state.lastRunStatus || ''), entries: entries
       };
@@ -1306,7 +1360,7 @@ function handleRuntimeKey_(body) {
 function handleProgress_(body) {
   assertCallbackSecret_(body);
   var source = body.progress || {};
-  var names = ['status','phase','message','model','folderId','folderName','runId','runUrl','queueManifestId','queueKind','uploadFilename','currentFileName','currentFileIndex','totalFiles',
+  var names = ['status','phase','message','model','folderId','folderName','runId','runUrl','queueManifestId','queueKind','uploadFilename','reconciliationMode','reconciliationVersion','currentFileName','currentFileIndex','totalFiles',
     'currentChunk','totalChunks','complete','skipped','failed','metadataReview','processedChunks',
     'apiRequests','apiSuccessfulRequests','apiRequestAttempts','apiFailedAttempts','inputTokens','outputTokens','driveQuotaUnits','driveDownloadedBytes',
     'attemptedModels','modelSwitchCount','lastModelError',
