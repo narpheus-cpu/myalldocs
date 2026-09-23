@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한국의 교양을 읽는다 - 2 과학편",
+    "author": "김보일",
+    "genre": "인문학",
+    "tags": [
+      "교양",
+      "논술",
+      "과학 윤리",
+      "황우석",
+      "배아의 발생 반복설"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "과학철학",
+        "교육",
+        "인문학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김보일은 인문학적 시각으로 과학을 읽어내며, 학문 간의 연결을 시도하는 링커로서 활동하는 저술가이자 교육자이다.",
+    "oneLineSummary": "한국 대학의 논술 기출 문제를 통해 시대가 요구하는 과학적 논제들을 분석하고, 과학 윤리와 진실, 그리고 성찰의 필요성을 인문학적 관점에서 성찰한다.",
+    "overallSummary": "이 책은 한국의 대학 논술 문제를 바탕으로 한국적 교양의 표준을 탐색한다. 저자는 과학사 속의 사기극들을 소개하며, 2005년 황우석 교수의 논문 조작 사건을 통해 드러난 애국주의적 과학 담론과 국익을 핑계로 진실을 은폐하려는 태도를 날카롭게 비판한다. 과학은 절대적 진리가 아니라 늘 열려 있는 성찰의 대상이어야 함을 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "시리즈 머리말",
+        "summary": "대학 논술 문제를 통해 한국 사회의 가치와 교양의 표준을 읽어내려는 기획 취지를 밝힌다."
+      },
+      {
+        "sectionTitle": "과학편 머리말",
+        "summary": "인문학도에게 낯선 과학을 반성의 재료로 삼아 사유를 확장하려는 의도를 설명한다."
+      },
+      {
+        "sectionTitle": "01 과학적 진리는 공익을 위해 은폐되어도 좋은가?",
+        "summary": "헤켈의 조작, 서머린의 사기극, 그리고 황우석 교수의 논문 조작 사태를 통해 국익과 진리의 갈등을 다루며, 언론의 맹목적 보도 태도와 성찰 없는 과학 열광을 비판한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "과학사 속의 조작 수법",
+        "value": "위조, 다듬기, 요리하기, 표절"
+      }
+    ],
+    "keyEntitiesText": "김보일, 하인리히 찬클, 헤켈, 다윈, 윌리엄 서머린, 황우석, 이충웅, 갈릴레이",
+    "settingText": "2005~2006년 대한민국, 현대 한국의 대입 논술 교육 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1aslfix-aTORO1wXQVOfpR9cqWgo_HgER",
+    "filename": "김보일-한국의 교양을 읽는다-2 과학편(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T17:40:12.000Z",
+    "size": "492054",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1aslfix-aTORO1wXQVOfpR9cqWgo_HgER/view?usp=drivesdk",
+    "sourceSha256": "a4948fe79e03429161ac644146c0a04716f1c02a921589ccb8d4a84ff3a73f72",
+    "textSha256": "3227bfb6ec76fbefba3440f884b295386fd6f24ac6852d0d1ce6a1fdd2caace9",
+    "changeKey": "7c0828777766db30c053af63a73af1f0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3dd00667b94b9201f278",
+    "workId": "3dd00667b94b9201f278",
+    "driveFileId": "1aslfix-aTORO1wXQVOfpR9cqWgo_HgER",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:44:44.284657+00:00",
+    "updatedAt": "2026-09-23T02:44:44.284675+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:44:44.284798+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "생물은 모두 시계를 갖고 있다",
+    "author": "과학세대",
+    "genre": "생물학",
+    "tags": [
+      "생물 시계",
+      "자연의 리듬",
+      "미모사",
+      "드메랑",
+      "뒤아멜"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "생물학",
+        "자연과학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학세대는 과학 대중화를 위해 다양한 과학 도서를 저술하는 단체이다.",
+    "oneLineSummary": "지구상의 모든 생명체가 대자연의 주기적 리듬에 맞추어 살아갈 수 있도록 몸속에 지니고 있는 '생물 시계'의 발견과 역사적 실험들을 소개한다.",
+    "overallSummary": "지구의 자전과 공전, 달의 운동 등으로 발생하는 낮과 밤, 사계절, 조수 간만의 리듬 속에서 생물들은 이에 적응하며 진화해 왔다. 이 책은 미모사 잎의 개폐 운동 실험을 통해 외부 자극 없이도 스스로 작동하는 내재적 '생물 시계'의 존재를 밝혀낸 드메랑과 뒤아멜의 실험을 소개하고, 20세기 초 생물 시계 연구의 흐름을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책 머리에",
+        "summary": "대자연의 리듬과 생물 속에 들어 있는 생물 시계의 신비를 소개한다."
+      },
+      {
+        "sectionTitle": "1. 생물 시계의 발견",
+        "summary": "지구 환경의 주기적 변화와 이에 적응한 생물들의 행동, 그리고 미모사 실험을 통해 내재적 생물 시계의 존재를 증명한 드메랑과 뒤아멜의 연구 역사를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "드메랑의 현상",
+        "value": "햇빛이 들지 않는 어두운 곳에서도 미모사 잎이 일정한 주기로 열리고 닫히는 내재적 리듬 현상"
+      }
+    ],
+    "keyEntitiesText": "과학세대, 드메랑, 뒤아멜, 미모사",
+    "settingText": "프랑스 (18세기 초 포도주 저장고 등 실험실 환경), 지구 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GJaCPAdLOvpR9MgTDG-akEf4ZLG30RFz",
+    "filename": "과학세대-생물은 모두 시계를 갖고 있다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:46.127Z",
+    "size": "240643",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1GJaCPAdLOvpR9MgTDG-akEf4ZLG30RFz/view?usp=drivesdk",
+    "sourceSha256": "1650657676cb3473772eecff39e9589052d4d05d1db9dcb4d99e53902e564654",
+    "textSha256": "932b055e3e4b65586950ca9d83ca101c142457885d859b7eae6c3b1af5fb4333",
+    "changeKey": "b10b01ca8edbf88e17d9c691d26de26c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fff1258388a52f019aaa",
+    "workId": "fff1258388a52f019aaa",
+    "driveFileId": "1GJaCPAdLOvpR9MgTDG-akEf4ZLG30RFz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:44:08.548055+00:00",
+    "updatedAt": "2026-09-23T02:44:08.548073+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:44:08.548180+00:00"
+    }
+  }
+}

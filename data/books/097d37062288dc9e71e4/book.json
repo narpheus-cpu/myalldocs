@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하늘을 나는 달팽이 - 생물의 모듬살이",
+    "author": "권오길",
+    "genre": "생물학 에세이",
+    "tags": [
+      "생물학",
+      "모듬살이",
+      "인간",
+      "진화",
+      "우주선"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "생물학",
+        "인류학",
+        "우주과학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권오길은 경남 산청 출생으로 서울대 생물학과 및 동대학원을 졸업하고 강원대 생물학과 교수로 재직 중인 생물학자이다.",
+    "oneLineSummary": "달팽이의 우화를 시작으로 외래종의 유입, 인류의 기원과 진화, 인간의 생물학적 특징, 그리고 무중력 우주선 속 생물 실험까지 다양한 생명 현상을 탐구한다.",
+    "overallSummary": "이 책은 자연과 인간의 관계를 '모듬살이'라는 키워드로 풀어낸다. 안락함을 포기하지 못해 날지 못하는 달팽이의 우화에서 시작하여, 미더덕과 재첩 등 국경을 넘어 번식하는 생물들의 이동을 다룬다. 또한 지구의 탄생과 산소의 형성 과정, 인간의 직립보행과 손놀림 등 생물학적 특징을 설명하고, 무중력 우주선 속에서 벌어지는 메추리알 부화와 밀 성장 실험을 소개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "하늘을 나는 달팽이",
+        "summary": "침대의 안락함을 포기하지 못해 밭고랑을 기어 다니는 달팽이의 우화를 통해 분수를 지키는 삶의 태도를 보여준다."
+      },
+      {
+        "sectionTitle": "세균에서 태어난 사람",
+        "summary": "45억 년 전 지구의 탄생부터 35억 년 전 생명의 기원, 미토콘드리아의 공생 진화, 산소의 발생과 다세포 생물의 등장을 설명한다."
+      },
+      {
+        "sectionTitle": "치질에 걸리는 유일한 동물",
+        "summary": "인간의 학명과 인종의 구분, 직립보행으로 인한 질병, 그리고 손놀림과 지능의 관계를 다룬다."
+      },
+      {
+        "sectionTitle": "우주선 속에서 벌어지는 일",
+        "summary": "무중력 우주선 미르호에서의 생활 환경과 메추리알 부화 실험, 밀 성장 실험 등 우주 공간에서의 생물학적 변화를 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인간의 생물학적 특징",
+        "value": "두 다리로 서서 걷는 직립보행, 큰 뇌용량, 정밀한 손놀림(젓가락 문화)"
+      }
+    ],
+    "keyEntitiesText": "권오길, 린네, 폴리아코프, 밀러",
+    "settingText": "지구, 우주선 미르호, 미국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dvEfhBdWLlYI_2GgWS52z2rH1GUPKugA",
+    "filename": "권오길-하늘을 나는 달팽이-생물의 모듬살이 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:46.168Z",
+    "size": "357559",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1dvEfhBdWLlYI_2GgWS52z2rH1GUPKugA/view?usp=drivesdk",
+    "sourceSha256": "a2657a4901c274c44ca030c5c0a2d4006f36ee710ad2f97065239cc337c1b3ee",
+    "textSha256": "6d593c4968b328b331855780c65f28c101bd7690aa420698725ad24118697077",
+    "changeKey": "9ef9339e90e54d620f286bcf05a1465c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "097d37062288dc9e71e4",
+    "workId": "097d37062288dc9e71e4",
+    "driveFileId": "1dvEfhBdWLlYI_2GgWS52z2rH1GUPKugA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:44:27.818967+00:00",
+    "updatedAt": "2026-09-23T02:44:27.818985+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:44:27.819095+00:00"
+    }
+  }
+}

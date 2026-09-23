@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "생물의 다살이",
+    "author": "권오길",
+    "genre": "생물학 에세이",
+    "tags": [
+      "생물학",
+      "다살이",
+      "공생",
+      "학명",
+      "박쥐"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "생물학",
+        "자연과학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권오길은 경남 산청 출생으로 서울대 생물학과 및 동대학원을 졸업하고 강원대 생물학과 교수로 재직하며 과학 대중화에 힘쓰고 있다.",
+    "oneLineSummary": "자연 생태계 속 생물들이 서로 어울려 공존하고 기생하는 '다살이'의 모습을 통해 인간 삶의 지혜를 배우는 생물학 에세이이다.",
+    "overallSummary": "'다살이'란 모조리 함께 더불어 살아간다는 의미로, 저자는 미물인 바퀴벌레부터 동굴 속 박쥐, 다슬기, 부추 등 다양한 생물들의 생태를 따뜻하고 유머러스한 시선으로 관찰한다. 생물의 올바른 우리말 이름과 학명의 중요성을 설명하고, 박쥐의 반향탐지 및 동굴 생태계에서의 역할 등을 통해 생명체들이 맺고 있는 끈끈한 연대와 공존의 가치를 역설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "다같이 함께 더불어 어울려 산다는 '다살이'의 의미를 밝히고 책의 집필 취지를 설명한다."
+      },
+      {
+        "sectionTitle": "1. 생물의 이름에도 바른 표기법이 있다.",
+        "summary": "패류의 구분, 다슬기의 방언과 표준어, 학명의 명명 규칙 및 우리말 생물 이름의 접두어 의미를 다룬다."
+      },
+      {
+        "sectionTitle": "2. 박쥐의 두 마음",
+        "summary": "유일하게 날 수 있는 포유류인 박쥐의 신체적 특징, 동굴 생태계에서의 공생 관계, 흡혈박쥐의 이타적 행동, 그리고 초음파를 이용한 반향탐지 능력을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "학명 표기 규칙",
+        "value": "속명은 대문자로 시작, 종명은 소문자로 쓰며, 라틴어로 작성하고 이탤릭체로 표기하거나 밑줄을 그어야 함"
+      }
+    ],
+    "keyEntitiesText": "권오길, 원병오, Gmelin, Reeve",
+    "settingText": "한국, 동굴 생태계, 멕시코 동굴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HO4qap8hIF7jF0wkmnXFbShsuwimWSJS",
+    "filename": "권오길-생물의 다살이 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:46.152Z",
+    "size": "424480",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1HO4qap8hIF7jF0wkmnXFbShsuwimWSJS/view?usp=drivesdk",
+    "sourceSha256": "602ca5733bd015768ad731b9f1fba50d2c1ff5bba4d3502ff98095210c06b419",
+    "textSha256": "cc3c0242ec518e30b3c9f039b4de75b6faef3b6d81f9fb5006e03d1b17738088",
+    "changeKey": "4975af0641a2689ef6bd75cbdd211d5c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f31f88870e238bb6588c",
+    "workId": "f31f88870e238bb6588c",
+    "driveFileId": "1HO4qap8hIF7jF0wkmnXFbShsuwimWSJS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:44:21.271574+00:00",
+    "updatedAt": "2026-09-23T02:44:21.271591+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:44:21.271702+00:00"
+    }
+  }
+}

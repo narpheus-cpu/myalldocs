@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "재미있는 나무이야기",
+    "author": "권영한",
+    "genre": "식물 에세이",
+    "tags": [
+      "나무",
+      "매화나무",
+      "난초",
+      "국화",
+      "대나무",
+      "가로수"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "식물학",
+        "전설",
+        "문화"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "권영한은 1931년 경북 안동 출생으로 연세대학교 이공대를 졸업하고 교직에 몸담았으며, 우리 주변의 나무와 자연, 사찰 등을 소재로 한 저술과 방송 활동을 활발히 해왔다.",
+    "oneLineSummary": "우리 주변에서 쉽게 접할 수 있는 매화, 난초, 국화, 대나무 등 다양한 나무와 식물에 얽힌 생태적 특징, 역사, 전설을 친근하게 소개한다.",
+    "overallSummary": "이 책은 저자가 안동방송국에서 진행한 '나무이야기' 방송 자료를 바탕으로 엮은 책으로, 사군자를 비롯한 다양한 나무들의 생장 특성, 재배 방법, 그리고 이와 관련된 역사적 인물들의 일화와 애절한 전설들을 담고 있다. 또한 도시 환경에서 가로수가 가지는 보건 위생적 기능과 구비 조건에 대해서도 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 매화나무",
+        "summary": "이른 봄에 피는 매화의 고고한 기상과 퇴계 이황 선생의 백매화 일화, 그리고 용래 청년과 휘파람새에 얽힌 슬픈 전설을 소개한다."
+      },
+      {
+        "sectionTitle": "2. 난초",
+        "summary": "동양란과 서양란의 특징 및 차이점, 그리고 난을 기르기 위한 네 가지 입지 조건을 설명한다."
+      },
+      {
+        "sectionTitle": "3. 국화",
+        "summary": "가을을 대표하는 국화의 역사와 서정주의 시 '국화 옆에서', 그리고 불로장생과 액운을 막아주는 국화주에 얽힌 중국의 전설들을 다룬다."
+      },
+      {
+        "sectionTitle": "4. 대나무",
+        "summary": "사시사철 푸른 대나무의 절개와 생태적 특징, 맹종죽순에 얽힌 효자 맹종의 전설, 그리고 방랑시인 김삿갓의 해학시를 소개한다."
+      },
+      {
+        "sectionTitle": "5. 가로수",
+        "summary": "가로수의 역사와 도시에서 가로수가 가지는 기능 및 가로수로서 적합한 나무의 구비 조건을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "난초 재배의 4대 조건",
+        "value": "온도, 습도, 햇빛, 통풍"
+      }
+    ],
+    "keyEntitiesText": "권영한, 퇴계 이황, 임화정, 용래, 맹종, 아소카왕, 김삿갓",
+    "settingText": "한국(도산서원 등), 중국, 인도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1T5_jHFQNFF6tlD1E-5UbIdLBCAF1hsXB",
+    "filename": "권영한-재미있는 나무이야기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:46.137Z",
+    "size": "323038",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1T5_jHFQNFF6tlD1E-5UbIdLBCAF1hsXB/view?usp=drivesdk",
+    "sourceSha256": "ccc47d3de638eab50b30e4d2b155dfe170e7d0c7a406c092266b161890c6d9ab",
+    "textSha256": "ed52349554f623cbf42750c8286bf0a99f84fbdf7f76626ec23f6a9b4f03d283",
+    "changeKey": "7a2a247662a1e61555ea0ed4eccbaeeb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3e8b2ae3c9817d66e1df",
+    "workId": "3e8b2ae3c9817d66e1df",
+    "driveFileId": "1T5_jHFQNFF6tlD1E-5UbIdLBCAF1hsXB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:44:15.082334+00:00",
+    "updatedAt": "2026-09-23T02:44:15.082353+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:44:15.082468+00:00"
+    }
+  }
+}
