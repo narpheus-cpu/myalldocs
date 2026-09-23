@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "24명의 과학자가 들려주는 생생한 과학 이야기",
+    "author": "경북대 자연과학대 교수들",
+    "genre": "과학/교양",
+    "tags": [
+      "과학",
+      "자연과학",
+      "교양",
+      "지식"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "교양",
+        "교육"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "경북대학교 자연과학대학 교수들이 일반인과 청소년을 위해 공동 집필한 과학 교양서.",
+    "oneLineSummary": "경북대 교수들이 들려주는 물리, 화학, 생물 등 자연과학의 핵심 분야에 대한 쉽고 재미있는 과학 이야기.",
+    "overallSummary": "이 책은 일상생활과 밀접한 자연과학의 여러 분야를 교수들이 직접 설명한다. 화학, 유전공학, 지질학, 미생물학, 천문학, 수학, 물리학 등 다양한 분야의 핵심 주제를 다루며, 과학이 어렵고 딱딱한 학문이 아니라 우리 삶의 기초가 되는 흥미로운 학문임을 보여준다. 과학적 사고의 중요성을 강조하며 미래 사회에 적응할 수 있는 능력을 키우도록 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "과학 이야기들",
+        "summary": "화학, 유전공학, 지질학 등 다양한 자연과학 분야의 핵심 주제를 쉽고 재미있게 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "교육적 목적",
+        "value": "일반인과 청소년들에게 과학의 흥미와 가치를 전달함"
+      },
+      {
+        "key": "주요 내용",
+        "value": "자연과학의 기초 분야별 핵심 지식과 생활 속의 과학"
+      }
+    ],
+    "keyEntitiesText": "경북대 교수들",
+    "settingText": "자연과학의 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qU_v-bhkG_w9XC-Xtp4bl46IoKX7bRBo",
+    "filename": "24명의 과학자가 들려주는 생생한 과학 이야기 [경북대 자연과학대 교수들].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:46.043Z",
+    "size": "279341",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1qU_v-bhkG_w9XC-Xtp4bl46IoKX7bRBo/view?usp=drivesdk",
+    "sourceSha256": "d96d782d0e58f5bf1f0049fc004f9692482d04ba7eafb1a007e077705619768a",
+    "textSha256": "54e0b33ffed0d1ccf7d84e5f539a284207a80c6b8ec7d615282a8163ad2baa45",
+    "changeKey": "8b994c73336cee81d57b08318c03346d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "95839399591e797f6431",
+    "workId": "95839399591e797f6431",
+    "driveFileId": "1qU_v-bhkG_w9XC-Xtp4bl46IoKX7bRBo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:35:04.299387+00:00",
+    "updatedAt": "2026-09-23T02:35:04.299403+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:35:04.299561+00:00"
+    }
+  }
+}

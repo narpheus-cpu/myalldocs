@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나의 투쟁",
+    "author": "아돌프 히틀러",
+    "genre": "정치/자서전",
+    "tags": [
+      "나치즘",
+      "정치",
+      "히틀러",
+      "사상"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "정치",
+        "사상"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일 나치당의 지도자 아돌프 히틀러가 란츠베르크 요새 구치소에서 집필한 정치적 자서전이자 사상서.",
+    "oneLineSummary": "아돌프 히틀러의 정치적 사상과 나치즘의 이념을 담은 정치적 자서전.",
+    "overallSummary": "이 책은 히틀러의 성장 과정과 정치적 사상 형성을 기술하며, 나치즘의 핵심 이념인 민족주의, 반유대주의, 국가사회주의 등을 주장한다. 독일의 재흥을 위한 정치적 청사진을 제시하며, 대중 선동을 위한 논리를 펼친다. 역사적 연구 자료로서 나치즘의 광기와 정치적 술책을 파악하는 데 중요한 가치를 지닌다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "성장과 사상",
+        "summary": "히틀러의 어린 시절과 정치적 사상이 형성되는 과정을 기술한다."
+      },
+      {
+        "sectionTitle": "나치즘의 이념",
+        "summary": "민족주의, 반유대주의 등 나치즘의 핵심 이념과 정치적 목표를 제시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 가치",
+        "value": "나치즘의 이념과 히틀러의 정치적 사상을 이해하는 핵심 자료"
+      },
+      {
+        "key": "비판적 시각",
+        "value": "광기 어린 천재의 정치적 선동과 대중 심리 조작의 실체를 파악해야 함"
+      }
+    ],
+    "keyEntitiesText": "아돌프 히틀러, 나치당",
+    "settingText": "20세기 초 독일"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cxVogTounSnYdvfKEyehxbonTvHeDCBd",
+    "filename": "아돌프 히틀러-나의 투쟁 (상) [아돌프 히틀러].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.412Z",
+    "size": "923173",
+    "folderPath": [
+      "books",
+      "14 전기"
+    ],
+    "relativePath": "books/14 전기",
+    "webViewLink": "https://drive.google.com/file/d/1cxVogTounSnYdvfKEyehxbonTvHeDCBd/view?usp=drivesdk",
+    "sourceSha256": "2cd84c679bb2e995813bf7b53e991fd831d0a8f5c76985cdf861627033334805",
+    "textSha256": "cddb6011259f12d5b4c24561758b69131fd7a165c5b7fa7ba060b3fe95939a21",
+    "changeKey": "425d02dedb25dc0ed981c72f3d92a88e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b0056d831403c51db03d",
+    "workId": "b0056d831403c51db03d",
+    "driveFileId": "1cxVogTounSnYdvfKEyehxbonTvHeDCBd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:34:57.379052+00:00",
+    "updatedAt": "2026-09-23T02:34:57.379067+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:34:57.379162+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "과학이란 무엇인가",
+    "author": "A F 차머스",
+    "genre": "과학철학",
+    "tags": [
+      "과학철학",
+      "과학방법론",
+      "인식론",
+      "지식"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "과학",
+        "인식론"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학철학 분야의 입문서로 널리 읽히는 저자 A F 차머스의 대표작.",
+    "oneLineSummary": "과학적 지식의 본성과 과학적 방법론을 철학적으로 탐구하는 과학철학 입문서.",
+    "overallSummary": "이 책은 과학적 지식이 무엇이며, 과학적 방법론이 어떻게 구성되는지를 철학적으로 분석한다. 귀납주의, 반증주의, 패러다임, 연구 프로그램 등 과학철학의 주요 이론들을 다루며, 과학이 객관적인 진리에 도달하는 과정과 그 한계를 고찰한다. 과학에 대한 신뢰와 비판적 시각을 동시에 제시하며, 과학적 사고의 본질을 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "과학적 방법론",
+        "summary": "귀납주의, 반증주의 등 과학적 지식을 정당화하는 다양한 방법론을 분석한다."
+      },
+      {
+        "sectionTitle": "과학의 구조와 변화",
+        "summary": "쿤의 패러다임, 라카토슈의 연구 프로그램 등 과학의 발전 과정을 철학적으로 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학적 분석",
+        "value": "과학적 지식의 정당성과 과학적 방법론의 한계를 철학적으로 탐구함"
+      },
+      {
+        "key": "주요 이론",
+        "value": "귀납주의, 반증주의, 패러다임, 연구 프로그램 등"
+      }
+    ],
+    "keyEntitiesText": "A F 차머스, 포퍼, 쿤, 라카토슈",
+    "settingText": "과학철학의 학문적 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zOlcOhS6p_jrBCHVWqWSpxB_YlzaUbnE",
+    "filename": "A F 차머스-과학이란 무엇인가(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T16:16:10.000Z",
+    "size": "693206",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1zOlcOhS6p_jrBCHVWqWSpxB_YlzaUbnE/view?usp=drivesdk",
+    "sourceSha256": "37a43ff74bb7c915ae8ef3fad7ab73f77a41f6b52839c5a940eacf1f4efc8a44",
+    "textSha256": "80307430e1d52a1646760075586fab366c4b35a9bb747bbadb6e02910fb9fc1d",
+    "changeKey": "b512db99232788f813b64bb7ef27a444",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0e2448ff7cf54a45502a",
+    "workId": "0e2448ff7cf54a45502a",
+    "driveFileId": "1zOlcOhS6p_jrBCHVWqWSpxB_YlzaUbnE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:35:12.332985+00:00",
+    "updatedAt": "2026-09-23T02:35:12.333001+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:35:12.333114+00:00"
+    }
+  }
+}

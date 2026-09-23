@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일상적이지만 절대적인 생물학지식 50",
+    "author": "J V 샤마리",
+    "genre": "과학/생물학",
+    "tags": [
+      "생물학",
+      "진화",
+      "유전학",
+      "세포"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "생물학",
+        "교양"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "생물학자이자 과학 기자인 저자 J V 샤마리가 생물학의 핵심 개념 50가지를 알기 쉽게 설명한다.",
+    "oneLineSummary": "진화에서 유전자, 세포까지 생명에 관한 핵심적인 생물학 지식 50가지를 다룬 교양서.",
+    "overallSummary": "이 책은 생물학의 방대한 지식을 50가지 핵심 개념으로 정리하여 독자들에게 전달한다. 진화론, 유전학, 세포 생물학, 생태학 등 생명 현상을 이해하는 데 필요한 필수 지식들을 다루며, 생명의 기원부터 인간의 지능, 노화에 이르기까지 생물학의 전반을 조망한다. 복잡한 생물학적 개념을 일상적인 언어로 풀어내어 누구나 쉽게 이해할 수 있도록 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "생물학의 핵심 개념",
+        "summary": "진화, 유전자, 세포 등 생명 현상을 이해하는 50가지 핵심 지식을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "지식 전달",
+        "value": "복잡한 생물학적 개념을 50가지 핵심 지식으로 체계화함"
+      },
+      {
+        "key": "주요 내용",
+        "value": "진화, 유전, 세포, 생태계 등 생명 현상의 전반"
+      }
+    ],
+    "keyEntitiesText": "J V 샤마리, 다윈, 멘델",
+    "settingText": "생물학의 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1L6C9sIdHNkei7fKGPAv2OgLmMiPSQ8MS",
+    "filename": "J.V. 샤마리-일상적이지만 절대적인 생물학지식 50(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T11:55:46.000Z",
+    "size": "494355",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1L6C9sIdHNkei7fKGPAv2OgLmMiPSQ8MS/view?usp=drivesdk",
+    "sourceSha256": "2f248b8ea13be8650af6fe2044a25ca91536cd5afb7720ed196931c3a4b5e9f2",
+    "textSha256": "e8d1c11aef3256bad87a2ff382dc25482d3efe9bf6ae13ac08b176e038a3e2ab",
+    "changeKey": "aa275bb8d25d917addecf28948e45f24",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "65c4141c78c407e96924",
+    "workId": "65c4141c78c407e96924",
+    "driveFileId": "1L6C9sIdHNkei7fKGPAv2OgLmMiPSQ8MS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:35:19.615372+00:00",
+    "updatedAt": "2026-09-23T02:35:19.615388+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:35:19.615537+00:00"
+    }
+  }
+}
