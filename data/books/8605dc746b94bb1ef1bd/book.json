@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "주제가 있는 여행",
+    "author": "송일봉",
+    "genre": "여행/기행 에세이",
+    "tags": [
+      "국내여행",
+      "테마여행",
+      "답사",
+      "자연"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "여행",
+        "지역문화"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "송일봉은 1959년 경기도 양주에서 태어나 관동대 경영학과를 졸업한 여행 작가로, 전문지 편집장 및 방송 출연 등 다양한 활동을 해왔다.",
+    "oneLineSummary": "발길 닿는 대로 새로운 풍물을 찾아 떠나는 여행길에서 만나는 낯설음과 잔잔한 감동을 담은 테마 여행 에세이이다.",
+    "overallSummary": "저자가 그동안 세상 곳곳을 돌아다니며 틈틈이 메모해 두었던 기록과 사진들을 모아 엮은 책으로, 향기나는 여행, 해돋이 여행, 깊은 여행, 신비한 여행, 물소리 여행, 바닷길 여행, 혼자만의 여행, 사색 여행, 문학 여행, 꾼들만의 여행, 따뜻하고 건강한 여행, 맛있는 여행, 핑계 있는 여행, 자투리 여행, 보너스 여행, 해외 여행 등 다양한 주제별 여행지를 소개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "향기나는 여행",
+        "summary": "선운사, 오동도, 노고단, 쌍계사, 화왕산, 한라산, 재약산 등 꽃과 자연의 정취를 느낄 수 있는 여행지를 소개한다."
+      },
+      {
+        "sectionTitle": "해돋이 여행",
+        "summary": "낙산해수욕장, 경포도립공원, 무릉계곡과 추암해수욕장, 금오산 향일암 등 찬란한 새벽의 일출을 볼 수 있는 곳을 안내한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "주제별 국내외 여행지 소개 및 기행문"
+      },
+      {
+        "key": "집필 목적",
+        "value": "여행을 통해 얻는 낯설음과의 만남과 감동 전달"
+      }
+    ],
+    "keyEntitiesText": "선운사, 오동도, 노고단, 쌍계사, 화왕산, 한라산, 재약산, 낙산해수욕장, 경포도립공원, 송일봉",
+    "settingText": "한국의 산사, 섬, 해수욕장, 계곡 등 전국 각지의 명소 및 해외 주요 여행지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_cuckcZ3uIkyP9C0ka1_Gwfd6WhIVjh2",
+    "filename": "송일봉-주제가 있는 여행.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:37.441Z",
+    "size": "240965",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1_cuckcZ3uIkyP9C0ka1_Gwfd6WhIVjh2/view?usp=drivesdk",
+    "sourceSha256": "f7f778c34f657e7c5831a080e91556bae01ae346a0523ba7656c3548e90fd871",
+    "textSha256": "9bfa9f2125085de9e5fd054817a42f8070f5322f58e7db30c1a2c7646934071b",
+    "changeKey": "a1946cb613dcfab04e5703f9ceee1ba5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8605dc746b94bb1ef1bd",
+    "workId": "8605dc746b94bb1ef1bd",
+    "driveFileId": "1_cuckcZ3uIkyP9C0ka1_Gwfd6WhIVjh2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:02:56.470485+00:00",
+    "updatedAt": "2026-09-23T01:02:56.470500+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:02:56.470710+00:00"
+    }
+  }
+}
