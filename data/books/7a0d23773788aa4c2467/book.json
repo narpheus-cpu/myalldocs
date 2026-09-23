@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나를 움직인 그 한마디",
+    "author": "현대정공 홍보실",
+    "genre": "에세이/인생",
+    "tags": [
+      "명언",
+      "인생의 전환점",
+      "자서전적 에세이",
+      "사보 칼럼"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대정공 홍보실이 사보의 인기 칼럼을 엮어 출간한 책으로, 다양한 필자들이 삶을 바꾼 한마디의 기억을 풀어놓는다.",
+    "oneLineSummary": "평범하지만 삶의 고비마다 자신을 깨우치고 움직이게 만들었던 소중한 한마디에 관한 진솔한 에세이집이다.",
+    "overallSummary": "화려한 명언이나 거창한 잠언이 아닌, 일상 속에서 누군가의 따뜻한 말 한마디가 방황하던 청춘을 바로잡고 인생의 항로를 바꾸어 놓은 경험들을 모았다. 김동선, 정성수, 송기원 등 필진들이 각자의 삶에서 겪은 치열한 고뇌와 극복의 과정을 담담하게 고백한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 오메, 내 새끼야아",
+        "summary": "탈선과 방황의 시기를 겪던 고교 시절, 친구의 한마디로 정신을 차리게 된 일화 등을 담았다."
+      },
+      {
+        "sectionTitle": "제2부 땅에 넘어진 사람은 그 땅을 짚고 일어서라",
+        "summary": "어려운 역경 속에서도 어머니의 가르침과 묵묵한 실천을 통해 삶을 지탱해 온 기억들을 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "책의 의도",
+        "value": "평범한 말 한마디가 지니는 삶의 치유와 갱생의 힘 전달"
+      },
+      {
+        "key": "형식",
+        "value": "사보 칼럼을 엮은 옴니버스식 수필"
+      }
+    ],
+    "keyEntitiesText": "김동선, 정성수, 송기원, 차범석",
+    "settingText": "한국의 다양한 삶의 현장과 작가들의 유년·청년 시절"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dq_lzBi7PoNjVV2ho54iZy_PoUVAFkOC",
+    "filename": "현대정공 홍보실-나를 움직인 그 한마디 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:45.633Z",
+    "size": "281804",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1dq_lzBi7PoNjVV2ho54iZy_PoUVAFkOC/view?usp=drivesdk",
+    "sourceSha256": "dd46ff0517ce5f871f3d72a6a709071c968c316c36d2b562d3f4dd1f9b54fcbc",
+    "textSha256": "f879c86497653953b749aa637562c8d6b202e8e91752e3adcc638198c87d5966",
+    "changeKey": "0e73a27e3e080b23242a8936a5241ec0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7a0d23773788aa4c2467",
+    "workId": "7a0d23773788aa4c2467",
+    "driveFileId": "1dq_lzBi7PoNjVV2ho54iZy_PoUVAFkOC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:17:06.538021+00:00",
+    "updatedAt": "2026-09-23T02:17:06.538038+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:17:06.538138+00:00"
+    }
+  }
+}

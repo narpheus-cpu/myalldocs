@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어느 등대지기 이야기",
+    "author": "헨리크 센키에비츠 외",
+    "genre": "세계문학단편/에세이",
+    "tags": [
+      "등대지기",
+      "가족애",
+      "슬픔과 극복",
+      "따뜻한 이야기"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "헨리크 센키에비츠를 비롯한 작가들의 작품을 통해 삶의 깊은 애환과 따뜻한 감동을 전하는 단편 모음집이다.",
+    "oneLineSummary": "거친 삶의 바다를 항해하는 이들에게 사랑과 인내, 일상의 소중한 기쁨을 일깨워 주는 따뜻한 이야기 모음이다.",
+    "overallSummary": "인생의 험난한 바다를 건너는 인간의 고독과 헌신, 그리고 가족을 잃는 슬픔 속에서도 삶의 깊은 의미를 건져 올리는 감동적인 기록들을 담고 있다. 특히 아내를 떠나보낸 아버지가 아이들에게 남기는 편지 형식을 통해, 상실의 아픔을 견디며 서로에게 등대가 되어주는 삶의 자세를 잔잔하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책머리에",
+        "summary": "인생의 거친 바다를 항해하는 인간에게 사랑이라는 등대가 지니는 의미를 전한다."
+      },
+      {
+        "sectionTitle": "어린것들에게 (아리시마 다케오)",
+        "summary": "사랑하는 아내를 결핵으로 떠나보낸 아버지가 어린 아이들에게 남기는 절절하고도 숭고한 회고와 당부를 담았다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 정서",
+        "value": "상실의 슬픔, 부성애, 삶에 대한 깊은 성찰"
+      },
+      {
+        "key": "문학적 가치",
+        "value": "평범한 일상과 이별 속에서 발견하는 인간혼의 숭고함"
+      }
+    ],
+    "keyEntitiesText": "어린 아이들, 아내, 아버지",
+    "settingText": "혹독한 추위의 북쪽 지방, 도쿄, 해안가 병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_89aB5MfDC3dxe2sEtxDzxa8Qsf0gAVh",
+    "filename": "헨리크 센키에비츠-어느 등대지기 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:45.575Z",
+    "size": "148354",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1_89aB5MfDC3dxe2sEtxDzxa8Qsf0gAVh/view?usp=drivesdk",
+    "sourceSha256": "39278869ea798772d2c835252f119e1a4dba20921fdcca32434d837611f6638e",
+    "textSha256": "6324e1561d9ca0c0792e9089e016337d799887f05f657e52d9904f341992cd72",
+    "changeKey": "fce3b5463fd0a0328e5a147298fb7397",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4b0d2c18d50dbb191ce7",
+    "workId": "4b0d2c18d50dbb191ce7",
+    "driveFileId": "1_89aB5MfDC3dxe2sEtxDzxa8Qsf0gAVh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:16:37.816092+00:00",
+    "updatedAt": "2026-09-23T02:16:37.816109+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:16:37.816251+00:00"
+    }
+  }
+}

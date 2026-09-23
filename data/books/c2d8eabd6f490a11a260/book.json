@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오래된 미래 (중복 도서)",
+    "author": "헬레나 노르베리호지",
+    "genre": "생태/문화인류학",
+    "tags": [
+      "라다크",
+      "전통 사회",
+      "생태학",
+      "대안적 삶"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "헬레나 노르베리호지는 라다크의 전통과 현대화의 충격을 연구하며 생태 운동을 이끌어온 학자이다.",
+    "oneLineSummary": "라다크의 전통 문화와 현대화의 충격을 통해 인류가 나아갈 지속 가능한 미래의 방향을 제시한다.",
+    "overallSummary": "앞서 제공된 도서 9와 동일한 텍스트로, 척박한 자연 환경 속에서 자급자족하며 깊은 내면적 평화를 누리던 라다크 사회가 서구식 개발과 화폐 경제의 도입으로 어떻게 균열을 겪는지를 고찰한다. 물질적 풍요가 가져다준 허망함을 넘어 자연과 인간, 공동체 간의 균형을 회복해야 함을 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "산업 단일문화의 확산과 그로 인한 생태적·사회적 위기를 지적한다."
+      },
+      {
+        "sectionTitle": "제1부 전통",
+        "summary": "라다크의 계절별 삶과 똥, 보리, 가축을 중심으로 한 자급적 경제 구조를 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 논지",
+        "value": "진정한 발전은 외형적 성장이 아니라 내면적 만족과 생태적 균형에 있다."
+      }
+    ],
+    "keyEntitiesText": "헬레나 노르베리호지, 달라이 라마, 타시 랍기아스",
+    "settingText": "히말라야 고원 라다크 지역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-2nEqI80DCIF9SMq__ooZM2VfZCr6nG6",
+    "filename": "헬레나 노르베리호지-오래된 미래.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:45.612Z",
+    "size": "593111",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1-2nEqI80DCIF9SMq__ooZM2VfZCr6nG6/view?usp=drivesdk",
+    "sourceSha256": "70e665d964155368229636e114882de5ae8e749c14f2607468066f0857716bbe",
+    "textSha256": "6da589d4cad637197b2b1868c5d33446da629108c74457b0fddccef6c01c6d8f",
+    "changeKey": "1eff5681799d971973311d7c38748f3d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c2d8eabd6f490a11a260",
+    "workId": "c2d8eabd6f490a11a260",
+    "driveFileId": "1-2nEqI80DCIF9SMq__ooZM2VfZCr6nG6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:16:52.461677+00:00",
+    "updatedAt": "2026-09-23T02:16:52.461694+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5365,
+      "updatedAt": "2026-09-23T02:16:52.461793+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영원한 리베로",
+    "author": "홍명보",
+    "genre": "자서전/축구",
+    "tags": [
+      "홍명보",
+      "월드컵",
+      "축구 국가대표",
+      "J리그"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "홍명보는 대한민국 축구의 전설적인 수비수이자 '동양의 베켄바우어'로 불리는 4회 연속 월드컵 출전의 주역이다.",
+    "oneLineSummary": "한국 축구의 영웅 홍명보가 겪은 네 번의 월드컵 도전기와 일본 J리그 생활, 그리고 축구 인생의 진솔한 기록이다.",
+    "overallSummary": "이 책은 화려한 스타 축구선수의 이면에 감춰진 치열한 노력과 땀, 그리고 부상의 위기를 극복해 나가는 과정을 그린다. 히딩크 감독과의 첫 만남, 4년 7개월간의 일본 J리그 생활, 친정팀 포항으로의 복귀, 그리고 2002 한일월드컵을 준비하는 국가대표로서의 책임감과 축구 철학을 생생하게 담아냈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 월드컵 히스토리",
+        "summary": "정강이 피로골절이라는 생애 최대의 부상 위기를 딛고 히딩크 감독의 신임을 얻으며 대표팀 주전을 굳히기까지의 과정을 서술한다."
+      },
+      {
+        "sectionTitle": "2장 J리그통신",
+        "summary": "일본 J리그의 선진 클럽 시스템과 선수 관리 문화를 전한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "부상의 시련 극복, 프로페셔널한 자기관리, 한국 축구의 발전 방향"
+      },
+      {
+        "key": "사료적 가치",
+        "value": "2002년 한일월드컵 직전 국가대표팀 내부의 생생한 기록"
+      }
+    ],
+    "keyEntitiesText": "홍명보, 히딩크, 박항서, 최순호, 박정우",
+    "settingText": "한국, 일본 가시와 및 포항, 유럽 전지훈련지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19PHASZn5qA4P8xsqfAbkpZijAGzb5Bx9",
+    "filename": "홍명보-영원한 리베로.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:45.698Z",
+    "size": "202222",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/19PHASZn5qA4P8xsqfAbkpZijAGzb5Bx9/view?usp=drivesdk",
+    "sourceSha256": "653901e47342a211f3048bf87b0b6c8f6c25ffb86d2dd30d9d6d21139610cdf1",
+    "textSha256": "a6cd9338780e2227ce221930a0a635ce9ff67e8fa69b5a28471c91c944a1b1f0",
+    "changeKey": "5596d6c379d3a1ffe211b5bf4e963be5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "37dda3267088bb302076",
+    "workId": "37dda3267088bb302076",
+    "driveFileId": "19PHASZn5qA4P8xsqfAbkpZijAGzb5Bx9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:17:26.834073+00:00",
+    "updatedAt": "2026-09-23T02:17:26.834090+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:17:26.834189+00:00"
+    }
+  }
+}

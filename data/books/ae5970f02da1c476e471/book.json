@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도시를 걷는 낙타",
+    "author": "허성도",
+    "genre": "인문교양/고전산책",
+    "tags": [
+      "중국 고전",
+      "장자",
+      "한비자",
+      "인생 지혜"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "허성도는 중국의 옛이야기와 고전 속에서 삶의 지혜와 교훈을 발굴하여 현대적 의미로 풀어내는 저술가이다.",
+    "oneLineSummary": "중국의 옛이야기와 고전 속에서 건져 올린 지혜를 통해 삶의 성찰을 전하는 에세이이다.",
+    "overallSummary": "사막을 묵묵히 걷는 낙타의 모습처럼 인고와 침착함으로 인생의 길을 가는 저자가 중국의 고전 속 일화들을 재해석하여 담았다. 장자, 한비자 등에 나오는 친숙하고도 깊이 있는 이야기를 통해 마음의 주인, 겸손, 지혜로운 삶의 태도 등을 일깨워 준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 늙은 말의 지혜",
+        "summary": "붕어의 소원, 마음의 주인, 늙은 말의 지혜 등 미물에게도 배움을 얻는 지혜를 다룬다."
+      },
+      {
+        "sectionTitle": "2. 당신에게 없는 것",
+        "summary": "활쏘기를 아끼는 양유기의 일화 등을 통해 힘과 재주를 아끼고 갈무리를 하는 태도의 중요성을 강조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 특징",
+        "value": "고전 원전의 단순 번역이 아닌 저자의 시각으로 재편집한 우화와 단상"
+      },
+      {
+        "key": "핵심 메시지",
+        "value": "사소한 미물과 일상 속에서 배우는 겸손과 지혜"
+      }
+    ],
+    "keyEntitiesText": "장자, 관중, 습붕, 양유기, 장석",
+    "settingText": "중국 고대의 역사적 공간 및 고전 속 우화의 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12OdRLFKleN83j5GjAjKQI6JeG6q8X1P_",
+    "filename": "허성도-도시를 걷는 낙타.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:45.508Z",
+    "size": "222242",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/12OdRLFKleN83j5GjAjKQI6JeG6q8X1P_/view?usp=drivesdk",
+    "sourceSha256": "c377a81f1fc3f40e658fa6409d2e7ad992eeecceb27cf3342c87658a04e0427c",
+    "textSha256": "a1abd29ec100bc4878d3a6396ac0a3066af0fbe265eb74e7ba118b65616dc976",
+    "changeKey": "1be46bc879438ff73fd09d5d2292ff53",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ae5970f02da1c476e471",
+    "workId": "ae5970f02da1c476e471",
+    "driveFileId": "12OdRLFKleN83j5GjAjKQI6JeG6q8X1P_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:15:49.265659+00:00",
+    "updatedAt": "2026-09-23T02:15:49.265676+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:15:49.265777+00:00"
+    }
+  }
+}
