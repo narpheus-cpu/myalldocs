@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "재미있는 수학 이론 Ⅰ",
+    "author": "길주형",
+    "genre": "과학/수학",
+    "tags": [
+      "공업수학",
+      "수학이론",
+      "기초수학",
+      "음악과수학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "수학",
+        "공학기초"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "길주형은 수질분석센서 기구설계사이자 공학 수학을 현장 실무에 맞게 풀어내는 저자이다.",
+    "oneLineSummary": "어렵게만 느껴지는 수학을 역사와 실무, 음악 등의 흥미로운 사례를 통해 쉽고 재미있게 접근하도록 돕는 수학 교양서이다.",
+    "overallSummary": "이 책은 현장 실무자와 개발자들이 공학 수학을 거부감 없이 복습할 수 있도록 수학의 역사, 과학의 밑거름이 된 업적, 연산기호의 탄생, 수학의 아름다움 등을 친근한 산수 개념부터 차근차근 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 / 1. 수학은 어디에 쓰여지나?",
+        "summary": "수학의 정의와 아르키메데스의 일화를 통해 실생활과 과학 속에서 수학이 지니는 쓰임새를 조명한다."
+      },
+      {
+        "sectionTitle": "2. 수학, 그 위대한 학문",
+        "summary": "과학의 밑거름, 소인수분해, 푸리에 이론, 미분방정식과 날씨 등 현대 사회 전반에 미치는 수학의 공헌을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "도서 성격",
+        "value": "실무 공학 및 교양 수학 입문서"
+      }
+    ],
+    "keyEntitiesText": "길주형, 아르키메데스, 에라토스테네스, 푸리에, 섀논",
+    "settingText": "산업 현장 및 일상생활 속의 과학적 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Txd5nstVdH7lR9LG5bWDTKs3_-RB2fBp",
+    "filename": "재미있는 수학 이론Ⅰ.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:42.286Z",
+    "size": "23841",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1Txd5nstVdH7lR9LG5bWDTKs3_-RB2fBp/view?usp=drivesdk",
+    "sourceSha256": "c703052ba928a885e7295322a02e12ed1da80f770accf4d07dba449a9e4e95c1",
+    "textSha256": "9777d54d8a1288b594c0a8ffa8f030cc51ee51e1c189bb2296e3ccf33e2938a5",
+    "changeKey": "951b2c5f62c1c6cd26ae5664ff03d05b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e5aa581fb3ba185bf5bf",
+    "workId": "e5aa581fb3ba185bf5bf",
+    "driveFileId": "1Txd5nstVdH7lR9LG5bWDTKs3_-RB2fBp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:48:59.213737+00:00",
+    "updatedAt": "2026-09-23T01:48:59.213754+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-23T01:48:59.213850+00:00"
+    }
+  }
+}

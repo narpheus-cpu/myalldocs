@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "재미있는 수학 이론 Ⅲ",
+    "author": "길주형",
+    "genre": "과학/수학",
+    "tags": [
+      "수",
+      "소수",
+      "완전수",
+      "수학이론"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "수학",
+        "수론"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "길주형은 수질분석센서 기구설계사이자 실무자를 위한 수학 연재를 집필하는 저자이다.",
+    "oneLineSummary": "수의 본질과 소수, 완전수의 신비로운 성질을 탐구하며 수학의 재미를 전하는 수학 교양서이다.",
+    "overallSummary": "이 책은 '수란 무엇인가?'라는 근본적 질문에서 출발하여, 소수의 개념과 무한성, 에라토스테네스의 체, 암호 이론에서의 쓰임새, 그리고 자신을 제외한 약수의 합이 자신과 같은 완전수의 신비와 성질을 흥미롭게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 수란 무엇인가?",
+        "summary": "어린이의 당돌한 질문을 통해 수의 정체와 기호로서의 야누스적 양면성을 고찰한다."
+      },
+      {
+        "sectionTitle": "2. 소수란 무엇인가?",
+        "summary": "소수의 개수와 유클리드의 증명, 쌍둥이 소수, 소수가 암호 체계와 소주병 잔수 마케팅에 쓰이는 원리를 설명한다."
+      },
+      {
+        "sectionTitle": "3. 완전수",
+        "summary": "완전수의 정의와 유클리드의 공식, 역사적·문화적 의미를 지닌 완전수와 친화수의 세계를 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "도서 성격",
+        "value": "수론 및 수의 신비 교양서"
+      }
+    ],
+    "keyEntitiesText": "길주형, 유클리드, 에라토스테네스, 오일러, 페르마, 피타고라스",
+    "settingText": "수의 신비와 논리적 규칙이 펼쳐지는 지적 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1L-NTRijWd40ZqzZcqP2o_Jx_EZhCRMWv",
+    "filename": "재미있는 수학 이론Ⅲ.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:42.305Z",
+    "size": "28518",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1L-NTRijWd40ZqzZcqP2o_Jx_EZhCRMWv/view?usp=drivesdk",
+    "sourceSha256": "9e537b36cc1766f18884e35ff11347adf84ca7774403908686816d002e289f96",
+    "textSha256": "316e43442bb0301fbcda8d827dd89d0bb6fbc3135157b4d7aa01a3d9429da076",
+    "changeKey": "f85b9e38a83cd94263ff7b812746a71a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "db8a56cb4608990843e3",
+    "workId": "db8a56cb4608990843e3",
+    "driveFileId": "1L-NTRijWd40ZqzZcqP2o_Jx_EZhCRMWv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:49:14.441831+00:00",
+    "updatedAt": "2026-09-23T01:49:14.441847+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:49:14.441949+00:00"
+    }
+  }
+}

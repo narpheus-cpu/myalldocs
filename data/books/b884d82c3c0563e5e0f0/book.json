@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잠들 때 하나씩 들려주는 이야기 (4-7세)",
+    "author": "보물섬",
+    "genre": "어린이/동화",
+    "tags": [
+      "전래동화",
+      "잠자리동화",
+      "유아동화"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "아동문학",
+        "동화"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "보물섬은 아이들이 신나게 읽고 생각하고 꿈꿀 수 있는 책을 만들기 위해 모인 어린이책 창작 모임이다.",
+    "oneLineSummary": "잠들기 전 아이들에게 따뜻한 상상력과 꿈을 심어주는 세계 각국의 30가지 이야기 모음이다.",
+    "overallSummary": "이 책은 잠들지 못하는 아이들을 위해 항아리 집 이야기, 은혜 갚은 생쥐, 동물들이 꼬리를 갖게 된 이야기 등 친근하고 재미있는 우리 나라 및 세계의 전래동화를 수록하고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "작은 집",
+        "summary": "떨어진 항아리 집에 여러 동물들이 모여 살다 곰이 들어가며 깨지는 이야기이다."
+      },
+      {
+        "sectionTitle": "은혜 갚은 생쥐",
+        "summary": "농부가 구해 준 생쥐가 집이 무너질 것을 미리 알려 주어 은혜를 갚는 이야기이다."
+      },
+      {
+        "sectionTitle": "동물들이 꼬리를 갖게 된 이야기",
+        "summary": "사자 임금이 동물들에게 꼬리를 나누어 준 유래를 담은 이야기이다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 독자층",
+        "value": "4-7세 유아 및 아동"
+      }
+    ],
+    "keyEntitiesText": "보물섬, 허은미",
+    "settingText": "상상력과 동심이 가득한 전래동화의 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1B8wjsJppac78-91HI90gBfvRRh-auYAx",
+    "filename": "잠들때 하니씩 들려주는 이야기 (4-7세).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:41.960Z",
+    "size": "112194",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1B8wjsJppac78-91HI90gBfvRRh-auYAx/view?usp=drivesdk",
+    "sourceSha256": "97518c8b8c5fb71795d5cd4e9d04d4b0d181090c8718cf17b38d365322442758",
+    "textSha256": "0ba12925bb2fc5c057e3e9fde1b8199b35def66fdd7e0c5c23ac07dd3e4ebae4",
+    "changeKey": "92ddf376eeaf72b508efd5efe2218680",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b884d82c3c0563e5e0f0",
+    "workId": "b884d82c3c0563e5e0f0",
+    "driveFileId": "1B8wjsJppac78-91HI90gBfvRRh-auYAx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:47:50.256279+00:00",
+    "updatedAt": "2026-09-23T01:47:50.256296+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7687,
+      "updatedAt": "2026-09-23T01:47:50.256397+00:00"
+    }
+  }
+}

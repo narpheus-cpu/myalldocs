@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "재미있는 수학 이론 Ⅱ",
+    "author": "길주형",
+    "genre": "과학/수학",
+    "tags": [
+      "집합",
+      "무한대",
+      "칸토어",
+      "수학이론"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "수학",
+        "집합론"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "길주형은 수질분석센서 기구설계사이자 현장 실무자를 위한 공학 수학 연재 저자이다.",
+    "oneLineSummary": "집합론과 무한의 세계를 개척한 칸토어의 업적을 통해 수학적 사고의 깊이를 흥미롭게 탐구한다.",
+    "overallSummary": "이 책은 수학의 기초가 되는 집합의 탄생 배경과 가산집합, 무한집합의 정의, 무한의 성질을 규명한 수학자 칸토어의 생애와 업적을 알기 쉽게 해설한다. 수학이 지닌 추상적이고 심오한 개념을 친근하게 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 / 1. 집합",
+        "summary": "대홍수의 수증기 계산 우화를 시작으로, 집합이 만들어진 이유와 큰 집합과 작은 집합의 비교를 다룬다."
+      },
+      {
+        "sectionTitle": "(3) 가산집합 ~ (8) 쓸쓸히 생을 마친 칸토어",
+        "summary": "가산집합의 개념, 무한집합의 정의, 무한을 셈한 칸토어의 혁신적 이론과 그가 겪은 시련 및 생애를 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "도서 성격",
+        "value": "수학 집합론 및 무한 개념 교양서"
+      }
+    ],
+    "keyEntitiesText": "길주형, 칸토어, 갈릴레이, 아리스토텔레스, 크로네커",
+    "settingText": "수학적 사유와 무한의 개념을 탐구하는 지적 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10jjy2FJBLZ1olj4PpmAdUtlK4qhz2-5P",
+    "filename": "재미있는 수학 이론Ⅱ.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:42.293Z",
+    "size": "30131",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/10jjy2FJBLZ1olj4PpmAdUtlK4qhz2-5P/view?usp=drivesdk",
+    "sourceSha256": "013c7f08079aa0ae95fd30de3f23515942e6c33488dbcf5ad307454faea4eeeb",
+    "textSha256": "5bbab546813c4fe795ad2c247a12b1547d6281133cd526a8c308c33e5dc75031",
+    "changeKey": "95e55c49059bed328316a83c5cc75cf9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1d53964e00c952fda5bb",
+    "workId": "1d53964e00c952fda5bb",
+    "driveFileId": "10jjy2FJBLZ1olj4PpmAdUtlK4qhz2-5P",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:49:06.613087+00:00",
+    "updatedAt": "2026-09-23T01:49:06.613105+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-23T01:49:06.613202+00:00"
+    }
+  }
+}
