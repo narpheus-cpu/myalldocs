@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "불교성전",
+    "author": "동국역경원",
+    "genre": "불교 성전",
+    "tags": [
+      "동국역경원",
+      "불교성전",
+      "초기경전",
+      "대승경전",
+      "조사어록"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "philosophy",
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "불교 경전의 한글 번역과 대중화를 위해 불교 성전을 편찬하고 보급하는 동국대학교 역경원.",
+    "oneLineSummary": "부처님의 생애부터 초기 경전, 대승 경전, 교단의 규범, 조사 어록까지 불교의 핵심 사상을 체계적으로 엮은 성전이다.",
+    "overallSummary": "부처님의 출가, 성도, 열반에 이르는 생애를 서술한 1편, 아함경과 법구경 등 초기 경전의 지혜를 담은 2편, 금강경과 유마경 등 대승 경전의 사상을 담은 3편, 사분율과 범망경 등 교단의 규범을 담은 4편, 보조국사와 달마 등 조사들의 어록을 담은 5편으로 구성되어 불교 사상의 전모를 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1편 부처님의 생애",
+        "summary": "싯다르타 태자의 탄생, 명상과 사문유관을 통한 출가, 고행 끝의 성도, 그리고 열반에 이르기까지의 일대기."
+      },
+      {
+        "sectionTitle": "2편 초기경전",
+        "summary": "장아함, 중아함, 잡아함, 법구경, 백유경 등 초기 경전에 나타난 지혜와 자비, 효행, 최후의 교훈."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "성전 구성",
+        "value": "부처님의 생애, 초기경전, 대승경전, 교단의 규범, 조사어록의 5편 체제"
+      }
+    ],
+    "keyEntitiesText": "석가모니 부처님, 숫도다나왕, 마야 왕비, 야쇼다라, 동국역경원",
+    "settingText": "고대 인도에서부터 중국, 한국으로 이어지는 불교 역사와 사상적 흐름"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jJU8bT3pL4w930kpCwZIMDyVZzu4Lmoc",
+    "filename": "불교성전(동국역경원).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:36.654Z",
+    "size": "1002396",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1jJU8bT3pL4w930kpCwZIMDyVZzu4Lmoc/view?usp=drivesdk",
+    "sourceSha256": "3e2bec5a3c2eb79c34246e93da6b221d6345e06fe7606f44d354c982b81bcd06",
+    "textSha256": "e97224489c8186df20bebf0323cce802b417c5b7b9ce7cb0028a5dcbe968b287",
+    "changeKey": "3b97c44b96c2aba6864834029ace6798",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f4369bac556039a86398",
+    "workId": "f4369bac556039a86398",
+    "driveFileId": "1jJU8bT3pL4w930kpCwZIMDyVZzu4Lmoc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:53:57.944747+00:00",
+    "updatedAt": "2026-09-23T00:53:57.944759+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:53:57.944869+00:00"
+    }
+  }
+}

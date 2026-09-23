@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무소유",
+    "author": "법정 스님",
+    "genre": "수필",
+    "tags": [
+      "무소유",
+      "법정스님",
+      "수필",
+      "비움"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "강원도 산골 오두막에서 청빈과 무소유의 삶을 실천하며 맑고 향기로운 글로 대중의 영혼을 맑힌 승려이자 수필가.",
+    "oneLineSummary": "아무것도 갖지 않을 때 비로소 온 세상을 갖게 된다는 무소유의 지혜를 담은 대표 수필집이다.",
+    "overallSummary": "난초를 기르며 집착의 괴로움을 깨닫고 이를 선물한 뒤 느낀 해방감을 통해 무소유의 역리를 설명한다. 일상 속의 사소한 일화, 자연의 변화, 사회적 현상에 대한 지적 통찰을 통해 현대인들에게 비움과 단순함의 가치를 일깨운다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "법정론",
+        "summary": "평론가 김병익이 분석한 법정 스님의 불교적 지성과 현대적 사랑, 모순과 역리의 사상적 근저."
+      },
+      {
+        "sectionTitle": "복원 불국사",
+        "summary": "복원된 불국사를 방문하여 옛 가람의 그윽한 분위기와 여백이 사라진 것에 대한 아쉬움을 토로함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "무소유의 역리",
+        "value": "소유는 집착과 얽매임을 낳으므로, 크게 버리는 사람만이 크게 얻을 수 있다."
+      }
+    ],
+    "keyEntitiesText": "법정 스님, 김병익, 불국사, 간디",
+    "settingText": "1970년대 대한민국, 급격한 산업화와 도시화가 진행되던 시기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xxhwgP8B1-bpetD9Ornz255PTKC2ud5F",
+    "filename": "법정스님-무소유 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:36.422Z",
+    "size": "197015",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1xxhwgP8B1-bpetD9Ornz255PTKC2ud5F/view?usp=drivesdk",
+    "sourceSha256": "c243e05349627ab72b28c114a564724b564cb560a0755a45a7ea785e7f3f7d61",
+    "textSha256": "076b7b3985dc3107625edbf3121b510d2b88a57fd4d86dc8a1bda137804db710",
+    "changeKey": "94f1c2d0d03f6ffc3ca11f1a9a019abe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4e07c8e0e93e51d767ad",
+    "workId": "4e07c8e0e93e51d767ad",
+    "driveFileId": "1xxhwgP8B1-bpetD9Ornz255PTKC2ud5F",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:52:46.602843+00:00",
+    "updatedAt": "2026-09-23T00:52:46.602856+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:52:46.602963+00:00"
+    }
+  }
+}
