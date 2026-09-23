@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "큰 삶을 위한 작은 지혜",
+    "author": "문무학",
+    "genre": "교양 / 아포리즘 / 인문",
+    "tags": [
+      "문무학",
+      "명언해설",
+      "인생지혜",
+      "자연과인간",
+      "삶의태도"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy",
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시인이자 수필가로 동서양의 명언을 모아 인생과 자연에 관한 해설을 엮어 제공한 편저자이다.",
+    "oneLineSummary": "인간 본성과 자연, 삶의 철학에 관한 동서양 명언과 유려한 해설을 통해 바른 삶의 이정표를 제시하는 인문 지혜서.",
+    "overallSummary": "인간의 출발과 본성(성선설과 성악설), 생각하는 갈대로서의 존엄성, 대자연의 위대함과 생명력, 그리고 자기 구제의 원리와 바로 사는 삶의 가치를 명언과 섬세한 해설로 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 출발의 장 - 인간 본성과 생각하는 갈대",
+        "summary": "맹자의 성선설과 순자의 성악설 비교, 소크라테스와 파스칼의 생각하는 존재로서의 인간관, 미움과 무관심에 대한 경구 해설."
+      },
+      {
+        "sectionTitle": "제1장 출발의 장 - 자기 구제와 대자연의 교훈",
+        "summary": "스스로에 의해 구제되는 독립적 인간관, 대자연이 주는 신비와 순응의 필요성, 바로 사는 삶의 가치에 대한 탐구."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성 방식",
+        "value": "동서양 명언 제시 후 그에 담긴 인문학적·삶의 철학적 가치를 친절하게 해석함"
+      }
+    ],
+    "keyEntitiesText": "문무학, 맹자, 순자, 소크라테스, 파스칼, 루소, 톨스토이, 안병욱",
+    "settingText": "동서양 사상사 및 현대인의 인문학적 사유 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KRBl8PYWbD7H_1Qc8XRfCh3EGGgSVIGd",
+    "filename": "문무학-큰 삶을 위한 작은 지혜.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:35.907Z",
+    "size": "342628",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1KRBl8PYWbD7H_1Qc8XRfCh3EGGgSVIGd/view?usp=drivesdk",
+    "sourceSha256": "a35826a06a671f3fb9d2cd432d1de0981440e3fa10d0905a15f8404648b0c32e",
+    "textSha256": "f1700341728ef1f89b82231fb6b5a060b5bced5dbf0a68b09cfcbdf15bd7ec5c",
+    "changeKey": "3675c8b97e02ad9b59b283d0390cc228",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1ddccabee0d882bd518a",
+    "workId": "1ddccabee0d882bd518a",
+    "driveFileId": "1KRBl8PYWbD7H_1Qc8XRfCh3EGGgSVIGd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:44:38.782098+00:00",
+    "updatedAt": "2026-09-23T00:44:38.782114+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:44:38.782223+00:00"
+    }
+  }
+}

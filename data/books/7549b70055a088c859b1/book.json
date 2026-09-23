@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바이블 코드",
+    "author": "마이클 드로스닌",
+    "genre": "교양 / 예언 / 종교 비소설",
+    "tags": [
+      "바이블코드",
+      "성경암호",
+      "예언",
+      "마이클드로스닌",
+      "엘리야후립스"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy",
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국 조사기자 출신으로 <워싱턴 포스트>와 <월 스트리트 저널> 등에서 일한 저널리스트이다.",
+    "oneLineSummary": "성경 구약 원전에 등거리 문자 배열 방식으로 수천 년 후의 과거와 미래 사건들이 암호화되어 있음을 취재한 보고서.",
+    "overallSummary": "저자는 이스라엘의 수학자 엘리야후 립스 박사가 발견한 성경 암호(바이블 코드)의 존재를 5년간 취재 및 검증하였다. 이스라엘 라빈 총리 암살 예언의 실제 적중 과정, 걸프전 날짜, 케네디 암살 등 구약 토라 속에 새겨진 과거와 미래의 인류 역사 기록 및 전우주적 경고를 객관적 기자의 시각으로 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "감사의 말 및 머리말",
+        "summary": "립스 박사와의 만남 및 지인들의 도움에 감사를 표하며, 종교적 믿음이 아닌 조사기자의 시각과 컴퓨터 프로그램으로 성경 암호를 입증했음을 밝힘."
+      },
+      {
+        "sectionTitle": "제1장 바이블 코드",
+        "summary": "1994년 라빈 총리에게 전달한 암살 경고 편지와 1995년 실제 암살 사건의 적중, 립스 박사의 등거리 문자 배열 발견 및 아이자크 뉴턴의 성경 암호 연구 역사 소개."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "암호 해독 방식",
+        "value": "등거리 문자 배열(ELS) 수학적 통계 모델 및 컴퓨터 프로그램 활용"
+      }
+    ],
+    "keyEntitiesText": "마이클 드로스닌, 엘리야후 립스 박사, 이츠하크 라빈 총리, 아미르, 아이자크 뉴턴, 존 M. 케인즈, 도론 위츠툼",
+    "settingText": "1990년대 이스라엘(예루살렘, 텔아비브) 및 3200년 전 모세 오경 성경 기록 시기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1E50XuZaeCETGNnat1-IEHC9BtAE0NWA9",
+    "filename": "마이클 드로스닌-바이블 코드.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:35.685Z",
+    "size": "332968",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1E50XuZaeCETGNnat1-IEHC9BtAE0NWA9/view?usp=drivesdk",
+    "sourceSha256": "22cbb4907d18d89260a0697f14f10fd0dff6dcafa9c7663b2cde60fa3c9d0ff7",
+    "textSha256": "31b437b355fd0a91305e28267b37f60f49db4041a8ff679327de93ea5a3c0cd4",
+    "changeKey": "5e76c834a11eb2524e9787bdb1383bee",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7549b70055a088c859b1",
+    "workId": "7549b70055a088c859b1",
+    "driveFileId": "1E50XuZaeCETGNnat1-IEHC9BtAE0NWA9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:43:38.223103+00:00",
+    "updatedAt": "2026-09-23T00:43:38.223119+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:43:38.223300+00:00"
+    }
+  }
+}

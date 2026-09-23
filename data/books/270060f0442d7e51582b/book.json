@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "많은 시간이 흐른 뒤 우리는 무엇을 이야기할 수 있을까",
+    "author": "남지심",
+    "genre": "수필 / 에세이",
+    "tags": [
+      "남지심",
+      "수필집",
+      "에세이",
+      "사랑과고독",
+      "추억"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1944년생, 이화여대 졸업 후 교직에 종사하다 장편소설 《솔바람 물결소리》, 《우담바라》 등을 발표한 작가이다.",
+    "oneLineSummary": "삶과 사랑, 이별의 아픔과 청춘의 아련한 추억에 관한 감성적인 명상을 담은 수필집.",
+    "overallSummary": "어머니와 아들의 따뜻한 호떡 장사 일상부터 연인의 갑작스러운 죽음이 가져온 가을의 공포, 외사촌 오빠와의 애틋하고 금기된 감정, 학창 시절 스승과 캠퍼스에 대한 아련한 동경 등 인간 관계와 내면의 서정을 섬세하게 담아냈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고독한 나무 - 어머니와 아들",
+        "summary": "눈 내리는 시장 어귀에서 호떡을 구우며 장학금을 받을 정도로 착하게 자란 아들과 어머니의 따뜻하고 눈물겨운 이웃 사랑 일상."
+      },
+      {
+        "sectionTitle": "고독한 나무 - 고독한 가을은 공포로 다가오고",
+        "summary": "입대를 앞두고 양평 강가에서 사랑을 확인했으나 설악산 조난 사고로 연인 욱을 잃은 뒤 느끼는 가을의 서늘한 공포와 그리움."
+      },
+      {
+        "sectionTitle": "고독한 나무 - 그대 이름은 오빠",
+        "summary": "오대산 적멸보궁 눈길에서 외사촌 오빠 영훈과 나눈 뜨겁고도 절망적인 사랑의 아픔과 세월에 대한 명상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 문체",
+        "value": "서정적·비가적 어조로 순수했던 사랑과 이별, 고독의 미학을 성찰함"
+      }
+    ],
+    "keyEntitiesText": "남지심, 상길이와 어머니, 욱, 영훈이 오빠",
+    "settingText": "1980~1990년대 서울 시장 골목, 양평 강가, 오대산 상원사 등 자연 및 일상 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1veUo0wtSuVbVFTfTWvpsO7tRDpaPsrjA",
+    "filename": "많은 시간이 흐른 뒤 우리는 무엇을 이야기할 수 있을까.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:35.717Z",
+    "size": "427777",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1veUo0wtSuVbVFTfTWvpsO7tRDpaPsrjA/view?usp=drivesdk",
+    "sourceSha256": "16e392abe15929e328884753fe8d46a2ae60c5fbf8b95029f2b77c57b307ef48",
+    "textSha256": "022248f6576ac9648c6628b6e5a698c2c10cee14b9d4147042f33ceb94344467",
+    "changeKey": "5d7592023160efb670e271ee5d56af25",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "270060f0442d7e51582b",
+    "workId": "270060f0442d7e51582b",
+    "driveFileId": "1veUo0wtSuVbVFTfTWvpsO7tRDpaPsrjA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:43:51.757663+00:00",
+    "updatedAt": "2026-09-23T00:43:51.757678+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:43:51.757773+00:00"
+    }
+  }
+}
