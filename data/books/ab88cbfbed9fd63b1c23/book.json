@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "재미있는 인간이야기",
+    "author": "도이 이찌로오",
+    "genre": "과학",
+    "tags": [
+      "인체",
+      "생물학",
+      "인간과학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "교양과학",
+        "의학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인체의 메커니즘과 신체 원리를 알기 쉽게 풀어내는 저자이다.",
+    "oneLineSummary": "인간 신체의 불가사의한 메커니즘과 생물학적 원리를 흥미롭게 설명한다.",
+    "overallSummary": "인간의 진화, 신체 구조, 공학적 디자인, 정밀 로봇 같은 인체의 생리적 기능과 뇌의 작동 방식을 어린이와 일반 독자의 눈높이에 맞춰 세밀하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 인간의 몸이란 이렇게까지 불가사의하다",
+        "summary": "인간의 진화 과정과 직립보행, 언어 사용, 유전 등 신체의 기초적인 불가사의를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심주제",
+        "value": "인체의 메커니즘과 생물학적 원리 탐구"
+      }
+    ],
+    "keyEntitiesText": "도이 이찌로오, 멘델, 아리스토텔레스",
+    "settingText": "인간의 신체 및 생물학적 탐구 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bn2s-G5RNoN61mdq08w8pcXPq0X2nGyZ",
+    "filename": "도이 이찌로오-재미있는 인간이야기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:46.281Z",
+    "size": "319867",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1bn2s-G5RNoN61mdq08w8pcXPq0X2nGyZ/view?usp=drivesdk",
+    "sourceSha256": "e0712998ebf2a56ed9daf3d6bdd0001df102811cf534f0498e04991466a68dca",
+    "textSha256": "5d2d71d7b4c5e996bf2108556b4872fa0969d48f53e4c3edb21a2cb4cdbf50cb",
+    "changeKey": "9e4b604fd539c54bb20e19f98facd53f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ab88cbfbed9fd63b1c23",
+    "workId": "ab88cbfbed9fd63b1c23",
+    "driveFileId": "1bn2s-G5RNoN61mdq08w8pcXPq0X2nGyZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:47:56.303848+00:00",
+    "updatedAt": "2026-09-23T02:47:56.303859+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:47:56.303961+00:00"
+    }
+  }
+}

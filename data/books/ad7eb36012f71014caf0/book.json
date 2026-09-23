@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "미라 - 영원으로의 여행",
+    "author": "로제르 리슈탕베르",
+    "genre": "역사/고고학",
+    "tags": [
+      "미라",
+      "고대이집트",
+      "고고학"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "고고학",
+        "역사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고대 이집트의 역사와 미라에 대한 풍부한 고고학적 지식을 전달하는 저자이다.",
+    "oneLineSummary": "고대 이집트의 미라 제작 기술과 발굴의 역사를 통해 불멸을 향한 인간의 갈증을 조명한다.",
+    "overallSummary": "나폴레옹의 이집트 원정 이후 본격화된 고고학적 발굴 과정, 파라오들의 무덤 발견, 그리고 사후 생존을 믿으며 수세기에 걸쳐 발전한 정교한 미라 방부처리 및 붕대 감기 기술을 상세히 소개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장 미라의 부활",
+        "summary": "유럽 탐험가들의 미라 발견과 샹폴리옹의 상형문자 해독 등 이집트학의 성립 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심주제",
+        "value": "고대 이집트의 미라 제작 역사와 고고학적 발굴"
+      }
+    ],
+    "keyEntitiesText": "로제르 리슈탕베르, 헤로도토스, 나폴레옹 보나파르트, 샹폴리옹, 가스통 마스페로, 하워드 카터",
+    "settingText": "고대 이집트 및 나일강 유역의 무덤과 유적지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13McS-xLb_uARAIHcpjEvQbmqoZufpSWp",
+    "filename": "미라-영원으로의 여행 [시공디스커버리총서 032].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.026Z",
+    "size": "127411",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/13McS-xLb_uARAIHcpjEvQbmqoZufpSWp/view?usp=drivesdk",
+    "sourceSha256": "d236324c260c84ffe123162d33f25bce75267a6797d74b1e959ffbb984436ba5",
+    "textSha256": "369c046e430fc77753b7d68590253f78cf46486b4cb2a9e50e8a2a10a2e59758",
+    "changeKey": "dd13341c192d43c10699208a1897bf37",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ad7eb36012f71014caf0",
+    "workId": "ad7eb36012f71014caf0",
+    "driveFileId": "13McS-xLb_uARAIHcpjEvQbmqoZufpSWp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:48:55.331989+00:00",
+    "updatedAt": "2026-09-23T02:48:55.331998+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:48:55.332096+00:00"
+    }
+  }
+}

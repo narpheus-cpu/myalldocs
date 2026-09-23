@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지식",
+    "author": "루이스 다트넬",
+    "genre": "과학/생존",
+    "tags": [
+      "문명재건",
+      "과학기술",
+      "생존가이드"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "과학",
+        "교양과학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국 우주국 연구원이자 레스터대학교 우주연구센터의 우주생물학자로 과학 대중화에 힘쓰고 있다.",
+    "oneLineSummary": "문명이 붕괴된 종말 이후의 세계에서 인류가 다시 문명을 재건하기 위해 필요한 핵심 과학기술 지식을 전달한다.",
+    "overallSummary": "핵전쟁이나 팬데믹 등으로 현대문명이 붕괴한 후 생존자들이 농업, 의학, 화학, 건축, 동력 등 인류의 핵심 테크놀로지를 신속하게 되살려 문명을 리부팅할 수 있도록 체계적인 지침을 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문: 우리가 지금 알고 있는 세상의 종말",
+        "summary": "현대문명의 취약성을 지적하고 종말 이후 살아남은 생존자들이 문명을 재건하는 데 필요한 지식과 과학적 방법의 중요성을 강조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심주제",
+        "value": "대재앙 이후 문명 재건을 위한 필수 과학기술 지식"
+      }
+    ],
+    "keyEntitiesText": "루이스 다트넬, 제임스 러브록, 드니 디드로, 리처드 파인만",
+    "settingText": "현대문명이 붕괴한 이후의 지구 종말 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rUXoYPmdFAEWRTT4ElfbwpoVDV7E_ZBf",
+    "filename": "루이스 다트넬-지식(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-11T21:37:04.000Z",
+    "size": "730113",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1rUXoYPmdFAEWRTT4ElfbwpoVDV7E_ZBf/view?usp=drivesdk",
+    "sourceSha256": "9aa0c3eb24ec5ba37e1455335638347c82b0c1f2a7fd620177f67762c035adb4",
+    "textSha256": "764d01484077964dd41521ac3cec8ae0ba3b624b8ec74f48d13bdb4dde3c670e",
+    "changeKey": "7ec4b74cc02e1a3083fa8096538c5048",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3c765096d7eae4f7f774",
+    "workId": "3c765096d7eae4f7f774",
+    "driveFileId": "1rUXoYPmdFAEWRTT4ElfbwpoVDV7E_ZBf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T02:49:09.938446+00:00",
+    "updatedAt": "2026-09-23T02:49:09.938456+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T02:49:09.938587+00:00"
+    }
+  }
+}
