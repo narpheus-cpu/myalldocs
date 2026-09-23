@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "문자의 역사",
+    "author": "조르주 장",
+    "genre": "인문/언어학",
+    "tags": [
+      "문자",
+      "설형문자",
+      "상형문자",
+      "메소포타미아"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "문자사",
+        "인류학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조르주 장은 맹 대학에서 언어학과 음운론을 강의한 언어학자이자 기호학자이다.",
+    "oneLineSummary": "메소포타미아의 설형문자부터 이집트의 상형문자에 이르기까지 6천 년 인류 문자의 역사를 탐구한다.",
+    "overallSummary": "인류가 의사소통과 기록을 위해 문자를 발명한 배경을 추적하며, 메소포타미아의 쐐기문자(설형문자)와 이집트의 신성문자(상형문자)의 탄생, 발전, 그리고 그 문화적 파급 효과를 총체적으로 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 초라한 출발",
+        "summary": "수메르 지역에서 농축산물 수확량을 기록하기 위해 탄생한 최초의 설형문자와 그 발달 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "제2장 신의 발명품",
+        "summary": "이집트의 아름다운 상형문자와 파피루스, 필경사의 역할, 그리고 다양한 필기체 문자의 발달을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 내용",
+        "value": "설형문자와 상형문자의 구조, 필기구와 기록 매체의 발달"
+      }
+    ],
+    "keyEntitiesText": "조르주 장, 샹폴리옹, 길가메시",
+    "settingText": "메소포타미아, 이집트, 중동 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ukV4_QUcLvyExVIWaa0q2FTx9y3EXsHB",
+    "filename": "문자의 역사 [시공디스커버리총서 001].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.006Z",
+    "size": "166766",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1ukV4_QUcLvyExVIWaa0q2FTx9y3EXsHB/view?usp=drivesdk",
+    "sourceSha256": "77a653ebf57ede3c0d567021360b2edf34559b97caf9c919843ad6711f3cce20",
+    "textSha256": "751f0d98dd698d23baab61daafd5b6941ee029c230c239a0f3d9003079c5b78b",
+    "changeKey": "1aede1856a9b2161aee588db8868c0ff",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f196376e861a85abf923",
+    "workId": "f196376e861a85abf923",
+    "driveFileId": "1ukV4_QUcLvyExVIWaa0q2FTx9y3EXsHB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:45:12.211436+00:00",
+    "updatedAt": "2026-09-23T05:45:12.211452+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:45:12.211551+00:00"
+    }
+  }
+}

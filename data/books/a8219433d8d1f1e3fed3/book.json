@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그리스문명의 탄생",
+    "author": "피에르 레베크",
+    "genre": "역사",
+    "tags": [
+      "그리스",
+      "청동기",
+      "미노아",
+      "미케네"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "고대사",
+        "문명사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "피에르 레베크는 프랑슈 콩테 대학의 그리스 교수로 다수의 대중적 역사 및 종교 서서를 집필했다.",
+    "oneLineSummary": "청동기 시대 크레타와 미케네 문명을 중심으로 고대 그리스 문명의 탄생 과정을 조명한다.",
+    "overallSummary": "이 책은 신석기 시대의 유입부터 청동기 시대 크레타의 미노아 문명, 그리고 미케네 왕조의 성립과 해상 진출에 이르기까지 고대 그리스 문명의 형성과 발전 과정을 다각도로 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 화려한 청동기시대",
+        "summary": "그리스의 신석기 및 청동기 유입 과정과 크레타의 미노아 문명, 본토의 아카이아인이 이룩한 미케네 문명의 발전을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대적 배경",
+        "value": "B.C. 6000년경부터 미케네 시대까지의 청동기 및 선사 시대"
+      }
+    ],
+    "keyEntitiesText": "피에르 레베크, 크레타, 미케네, 미노스, 헤라클레스, 야손",
+    "settingText": "고대 그리스 반도, 크레타섬, 동지중해 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NPV9Q1Sg73C4_MHG4i6mDMTKMMcLaDxn",
+    "filename": "그리스문명의 탄생 [시공디스커버리총서 005].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.744Z",
+    "size": "180937",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1NPV9Q1Sg73C4_MHG4i6mDMTKMMcLaDxn/view?usp=drivesdk",
+    "sourceSha256": "448e0ee5025fb88e607728cf9b896307592702663d90105d0c933639e44b83ea",
+    "textSha256": "4f22bcccc4411074411366724733bdc33ed04c3907a1129c75f8191d2bb12923",
+    "changeKey": "1d74ccf08df19807842e709be03073c2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a8219433d8d1f1e3fed3",
+    "workId": "a8219433d8d1f1e3fed3",
+    "driveFileId": "1NPV9Q1Sg73C4_MHG4i6mDMTKMMcLaDxn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:43:50.119467+00:00",
+    "updatedAt": "2026-09-23T05:43:50.119484+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:43:50.119667+00:00"
+    }
+  }
+}

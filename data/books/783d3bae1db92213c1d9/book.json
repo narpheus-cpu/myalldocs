@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "베이컨-회화의 괴물",
+    "author": "크리스토프 도미노",
+    "genre": "예술/미술사",
+    "tags": [
+      "프란시스베이컨",
+      "구상화",
+      "현대미술",
+      "불안과공포"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "미술사",
+        "현대미술"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "크리스토프 도미노는 미술 비평가이자 에세이스트로 퐁피두 센터 컬렉션 등에 관한 저술이 있다.",
+    "oneLineSummary": "인간의 분노와 공포, 위기를 기괴하고 강렬한 형상으로 화폭에 담아낸 20세기 최고의 구상화가 프란시스 베이컨을 조명한다.",
+    "overallSummary": "아일랜드 유년 시절의 불안정한 가정 환경과 방황, 베를린과 파리 체류를 통한 예술적 눈뜸, 그리고 런던 소호의 보헤미안적 삶 속에서 변형과 해체를 통해 인간의 고통을 시각화해 낸 그의 독창적 작품 세계를 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장 그림을 향한 얼굴",
+        "summary": "아일랜드에서의 유년기, 가족과의 불화와 추방, 베를린과 파리 체류를 통한 유럽 현대 미술과의 조우를 다룬다."
+      },
+      {
+        "sectionTitle": "제 2장 독창성의 발견",
+        "summary": "전쟁 이후 런던에서의 작업 환경, 소호의 사교 클럽과 친우들, 그리고 자신만의 독창적인 화법을 벼려낸 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "화풍의 특징",
+        "value": "인체의 변형과 해체, 속박된 공간 속의 고통스러운 존재 표현"
+      }
+    ],
+    "keyEntitiesText": "크리스토프 도미노, 프란시스 베이컨, 데이비드 실베스터, 그레이엄 서덜랜드",
+    "settingText": "20세기 아일랜드, 독일 베를린, 프랑스 파리, 영국 런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PobP5hkL78eiFffk7F3ehiw7wMXcvZL0",
+    "filename": "베이컨-회화의 괴물 [시공디스커버리총서 084].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.094Z",
+    "size": "164699",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1PobP5hkL78eiFffk7F3ehiw7wMXcvZL0/view?usp=drivesdk",
+    "sourceSha256": "b7e967b5f520b6601b163b002a70db37acdb63e5afcfd08ee78ef4dc5318cb45",
+    "textSha256": "c73de4b745a1d6a82cf1f8699fe04219b432c4774f1c6df897409ba3c1675d25",
+    "changeKey": "9f50372e163524ed6dd0da9a4596ed0e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "783d3bae1db92213c1d9",
+    "workId": "783d3bae1db92213c1d9",
+    "driveFileId": "1PobP5hkL78eiFffk7F3ehiw7wMXcvZL0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:45:33.113609+00:00",
+    "updatedAt": "2026-09-23T05:45:33.113626+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:45:33.113723+00:00"
+    }
+  }
+}

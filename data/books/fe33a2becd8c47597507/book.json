@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바이킹-바다의 정복자들",
+    "author": "이브 코아",
+    "genre": "역사",
+    "tags": [
+      "바이킹",
+      "스칸디나비아",
+      "항해",
+      "약탈과정복"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "중세사",
+        "해양사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이브 코아는 역사학과 민족학을 공부하고 프랑스 국립 중앙 해양과학연구소에서 연구원으로 활동했다.",
+    "oneLineSummary": "9~11세기 유럽 전역을 공포에 떨게 하며 바다를 지배했던 스칸디나비아의 전사들, 바이킹의 역사를 다룬다.",
+    "overallSummary": "바이킹의 선사시대 조상들로부터 출발해 인구 증가와 부에 대한 갈망을 원동력 삼아 잉글랜드, 아일랜드, 프랑스, 그리고 동방으로 진출하고 아이슬란드와 그린란드, 북아메리카까지 개척한 그들의 대장정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 바이킹의 선조들",
+        "summary": "바이킹 시대의 개막을 알린 수도원 습격 사건과 그 조상들의 선사시대 정주 및 야금술 발달 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "제2장 노르웨이인들이 세계를 정복할 수 있을까?",
+        "summary": "노르웨이계 바이킹의 아일랜드와 서유럽 침략, 그리고 아이슬란드와 그린란드, 북아메리카로의 대이주를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대적 배경",
+        "value": "9세기부터 11세기에 걸친 중세 초기 바이킹 시대"
+      }
+    ],
+    "keyEntitiesText": "이브 코아, 붉은 털 에리크, 레이프 에릭손, 롤로",
+    "settingText": "스칸디나비아, 북대서양, 영국, 아일랜드, 서유럽 해안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uUT01c9GvCKfSQ5LIXZpjGqEK-5GmJyp",
+    "filename": "바이킹-바다의 정복자들 [시공디스커버리총서 053].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.082Z",
+    "size": "150264",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1uUT01c9GvCKfSQ5LIXZpjGqEK-5GmJyp/view?usp=drivesdk",
+    "sourceSha256": "c4556c4dd714085fbb524ef2e4fb2e9901607d1e341876e64c90ccd7a2173aa9",
+    "textSha256": "fce8629b0c0c1a17821763ea1cbb0ea91e5c7ab58154c82b472fb8bbefb8a56b",
+    "changeKey": "edf020e6f9a32b8c79604e6354d378b0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fe33a2becd8c47597507",
+    "workId": "fe33a2becd8c47597507",
+    "driveFileId": "1uUT01c9GvCKfSQ5LIXZpjGqEK-5GmJyp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:45:26.733125+00:00",
+    "updatedAt": "2026-09-23T05:45:26.733141+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:45:26.733247+00:00"
+    }
+  }
+}

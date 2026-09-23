@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로마인의 삶-축복받은 제국의 역사",
+    "author": "존 셰이드, 로제르 아눈",
+    "genre": "역사",
+    "tags": [
+      "로마",
+      "로마제국",
+      "고대사",
+      "시민권"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "고대사",
+        "문화사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "존 셰이드는 프랑스 고등교육원의 로마 종교사 교수이며, 로제르 아눈은 로마 예술과 고고학 전문가이다.",
+    "oneLineSummary": "작은 마을에서 출발해 세계 제국을 건설한 로마인의 역사와 일상의 삶을 다룬다.",
+    "overallSummary": "BC 8세기 라틴의 도시국가로 시작해 포에니 전쟁과 영토 확장을 거쳐 제정으로 이행한 로마의 역사와 함께 노예와 자유시민, 시민권 제도로 대변되는 로마인의 복잡한 사회 구조를 탐구한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 라틴의 도시국가에서 세계의 제국으로",
+        "summary": "로마의 건국부터 공화정과 제정의 이행, 그리고 지중해 세계 정복의 역사를 서술한다."
+      },
+      {
+        "sectionTitle": "제2장 로마인의 일상",
+        "summary": "노예와 자유시민, 시민권의 획득 과정과 불평등한 사회 계층 구조를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 기간",
+        "value": "BC 8세기부터 AD 5세기까지의 12세기 이상"
+      }
+    ],
+    "keyEntitiesText": "존 셰이드, 로제르 아눈, 로물루스, 한니발, 키케로, 옥타비아누스",
+    "settingText": "고대 이탈리아 반도 및 로마 제국 영토 전역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1v74KCeTMNzfZCDtWzQUH0R4s95iMCbF5",
+    "filename": "로마인의 삶-축복받은 제국의 역사 [시공디스커버리총서 058].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.905Z",
+    "size": "109320",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1v74KCeTMNzfZCDtWzQUH0R4s95iMCbF5/view?usp=drivesdk",
+    "sourceSha256": "87bd79aceabd0915356f6178a8ed04cadcc7feba970ceb7bbd4d31a443fd367b",
+    "textSha256": "08b2e34f238d861ecc31da8c43beb2f3f41ad395e2c1450fe03fff44e04f8393",
+    "changeKey": "1065decafe92f87767c2a4eec142a75c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "44daef0aa897f687ba65",
+    "workId": "44daef0aa897f687ba65",
+    "driveFileId": "1v74KCeTMNzfZCDtWzQUH0R4s95iMCbF5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:44:36.713322+00:00",
+    "updatedAt": "2026-09-23T05:44:36.713339+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:44:36.713440+00:00"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로댕-신의 손을 지닌 인간",
+    "author": "엘렌 피네",
+    "genre": "예술/미술사",
+    "tags": [
+      "로댕",
+      "조각",
+      "예술가",
+      "근대미술"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "미술사",
+        "조각사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "엘렌 피네는 로댕 박물관의 사진부 큐레이터로 로댕에 관한 다수의 논문을 발표했다.",
+    "oneLineSummary": "차가운 조각에 인간의 고뇌와 열정을 불어넣은 천재 조각가 오귀스트 로댕의 생애를 조명한다.",
+    "overallSummary": "파리의 가난한 집안에서 태어나 프티트 에콜에서 데생을 익히고 조각의 세계에 눈을 뜬 로댕의 배고픈 시절, 벨기에 체류, 그리고 '청동의 시대'를 둘러싼 논란과 예술적 도약을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 타고난 예술가",
+        "summary": "로댕의 유년 시절과 프티트 에콜에서의 미술 교육, 조각과의 운명적인 만남을 그린다."
+      },
+      {
+        "sectionTitle": "제2장 배고픈 시절",
+        "summary": "첫 화실을 마련하고 로즈 뵈레를 만난 이후, 가난 속에서 일감을 찾아 전전했던 시기를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "조각 스타일",
+        "value": "자연주의에 기반한 인체의 사실적 묘사와 감정 표현"
+      }
+    ],
+    "keyEntitiesText": "엘렌 피네, 오귀스트 로댕, 로즈 뵈레, 미켈란젤로, 카리에 벨뢰즈",
+    "settingText": "19세기 파리와 벨기에 브뤼셀"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DhkLUopYm7ZSZ0UPG0nqFNMo_qJjd6FX",
+    "filename": "로댕-신의 손을 지닌 인간 [시공디스커버리총서 031].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.891Z",
+    "size": "141365",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1DhkLUopYm7ZSZ0UPG0nqFNMo_qJjd6FX/view?usp=drivesdk",
+    "sourceSha256": "b7f1606233e25730527d5b17cd7f33def0b8eca4da7179c5b8299cb535e8a674",
+    "textSha256": "09ea45fc6274b1acad8d64f96ef3764cbd149c2314d6db92b43031dd89477922",
+    "changeKey": "7ad41e2fececf57fdb2927563a360d98",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1f62492e72dc20794498",
+    "workId": "1f62492e72dc20794498",
+    "driveFileId": "1DhkLUopYm7ZSZ0UPG0nqFNMo_qJjd6FX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:44:30.129508+00:00",
+    "updatedAt": "2026-09-23T05:44:30.129525+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:44:30.129624+00:00"
+    }
+  }
+}

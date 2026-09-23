@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마야-잃어버린 도시들",
+    "author": "클로드 보데, 시드네이 피카소",
+    "genre": "고고학/역사",
+    "tags": [
+      "마야",
+      "유적",
+      "고고학",
+      "중앙아메리카"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "고고학",
+        "문명사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "클로드 보데는 고고학자이자 프랑스 국립중앙 과학연구소 소장이다.",
+    "oneLineSummary": "중앙아메리카 열대림 속에 잠들어 있던 웅장하고 신비로운 마야 문명의 발굴과 역사를 다룬다.",
+    "overallSummary": "스페인 정복자들의 침략과 선교사들의 기록부터 19세기 모험가들과 고고학자들이 밀림 속에서 마야의 잃어버린 도시들을 발견하고 연구해 나가는 과정을 생생하게 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 정복자와 선교사",
+        "summary": "콜럼버스의 항해와 스페인 정복자들의 마야 침략, 그리고 선교사 디에고 데 란다의 기록을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문명 특징",
+        "value": "정교한 피라미드 건축, 상형문자, 천체관측 등 고대 아메리카 문명"
+      }
+    ],
+    "keyEntitiesText": "클로드 보데, 시드네이 피카소, 에르난 코르테스, 디에고 데 란다, 알프레드 퍼시벌 모슬레이",
+    "settingText": "유카탄 반도, 과테말라, 온두라스 등 중앙아메리카 밀림"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KvP3fENbuQ5-slkn00HsLo1FXqLBdxyp",
+    "filename": "마야-잃어버린 도시들 [시공디스커버리총서 006].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.931Z",
+    "size": "196229",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1KvP3fENbuQ5-slkn00HsLo1FXqLBdxyp/view?usp=drivesdk",
+    "sourceSha256": "ed1b65c181a395e9cf2c12ce6b673f8794349294c9dd07628b3fe1c369e28a92",
+    "textSha256": "eba5e94a14de2dcb7ca34f36a10539617a3fe1609ca9aece18764594208084df",
+    "changeKey": "0aa495eeb0eefd73c1702c1e28a91b8a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b46a23b5379cfa2dece8",
+    "workId": "b46a23b5379cfa2dece8",
+    "driveFileId": "1KvP3fENbuQ5-slkn00HsLo1FXqLBdxyp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:44:49.776437+00:00",
+    "updatedAt": "2026-09-23T05:44:49.776455+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:44:49.776553+00:00"
+    }
+  }
+}

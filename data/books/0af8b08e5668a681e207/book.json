@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "드가-무희의 화가",
+    "author": "앙리 루아레트",
+    "genre": "예술/미술사",
+    "tags": [
+      "드가",
+      "인상주의",
+      "발레리나",
+      "화가"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "미술사",
+        "예술가전기"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "앙리 루아레트는 파리 오르세 미술관의 수석 큐레이터이자 19세기 프랑스 미술 전문가이다.",
+    "oneLineSummary": "움직이는 인체의 묘사와 무희들의 모습을 탁월하게 포착한 화가 에드가 드가의 생애와 예술 세계를 조명한다.",
+    "overallSummary": "드가의 가계 배경과 유년 시절, 에콜 데 보자르와 루브르 박물관에서의 모사 작업, 앵그르와의 만남, 그리고 이탈리아 여행을 통한 예술적 자양분 축적 과정을 상세히 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 예술가의 교육",
+        "summary": "드가의 집안 내력과 학창 시절, 법대를 거쳐 화가의 길로 들어서며 앵그르를 만나고 이탈리아를 여행한 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예술적 특징",
+        "value": "선에 대한 집착, 거장들의 작품 모사, 전통과 현대적 감각의 결합"
+      }
+    ],
+    "keyEntitiesText": "앙리 루아레트, 에드가 드가, 앵그르, 루이 라모트, 오귀스트 드 가",
+    "settingText": "19세기 파리와 이탈리아(나폴리, 로마, 피렌체)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Q7j2NmjPHGjJ3UJ8FXKWDDm6MB3F5yB5",
+    "filename": "드가-무희의 화가 [시공디스커버리총서 065].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.826Z",
+    "size": "123214",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1Q7j2NmjPHGjJ3UJ8FXKWDDm6MB3F5yB5/view?usp=drivesdk",
+    "sourceSha256": "c6169a3373b9e7b8e9ffface0bcd29f3691ef86f9cfc582aaf8a2e6760aa3801",
+    "textSha256": "3d48a258886451b9a413ba663e51840f2f26d802ba89e71698c7891d9d684edf",
+    "changeKey": "64a6a2ff63dbf47431ecb494aea0927f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0af8b08e5668a681e207",
+    "workId": "0af8b08e5668a681e207",
+    "driveFileId": "1Q7j2NmjPHGjJ3UJ8FXKWDDm6MB3F5yB5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:44:03.721795+00:00",
+    "updatedAt": "2026-09-23T05:44:03.721811+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8279,
+      "updatedAt": "2026-09-23T05:44:03.721918+00:00"
+    }
+  }
+}

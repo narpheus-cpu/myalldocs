@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마호메트-알라의 메신저",
+    "author": "안 마리 델캉브르",
+    "genre": "종교/역사",
+    "tags": [
+      "마호메트",
+      "이슬람",
+      "코란",
+      "종교사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "종교사",
+        "중동사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "안 마리 델캉브르는 법학과 이슬람학을 전공하고 이슬람 문명과 법조문을 연구한 학자이다.",
+    "oneLineSummary": "아라비아의 사막에서 이슬람교를 창시하고 알라의 말씀을 전파한 선지자 마호메트의 생애를 다룬다.",
+    "overallSummary": "6세기 말 메카의 쿠라이시족 가문에서 태어나 고난 어린 유년기를 거치고 하디자와의 결혼을 통해 안정을 찾은 뒤, 신의 계시를 받아 이슬람의 선지자가 되기까지의 역사를 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 선지자의 뿌리",
+        "summary": "아라비아 사막의 환경과 베두인족의 삶, 메카의 사회적 배경과 카바 성전의 유래를 다룬다."
+      },
+      {
+        "sectionTitle": "제2장 메카 사람",
+        "summary": "유복자로 태어나 할아버지와 숙부의 손에 자란 마호메트의 유년기와 하디과의 만남을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "종교적 의의",
+        "value": "유일신 알라의 가르침 전파 및 이슬람 공동체의 태동"
+      }
+    ],
+    "keyEntitiesText": "안 마리 델캉브르, 마호메트, 아브드 알무탈리브, 하디자, 바히라",
+    "settingText": "6세기 아라비아 반도, 메카, 야스리브(메디나)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sQg1akY2Dmpk8KOMc9OvI7ZN5mjIr445",
+    "filename": "마호메트-알라의 메신저 [시공디스커버리총서 049].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.959Z",
+    "size": "266227",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1sQg1akY2Dmpk8KOMc9OvI7ZN5mjIr445/view?usp=drivesdk",
+    "sourceSha256": "bbf480da1c8b226ea1ef09e7b0e0203ac7d023d88f5cd4b9695093f5129352fc",
+    "textSha256": "b039e2d2dafe628c60a4fa0e18d093769244be91bc031dd0ad0a52d66edb32e2",
+    "changeKey": "a74d5376e4b1c6578900a7172cbc9774",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "36e15dc633c433c01c44",
+    "workId": "36e15dc633c433c01c44",
+    "driveFileId": "1sQg1akY2Dmpk8KOMc9OvI7ZN5mjIr445",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:44:58.430603+00:00",
+    "updatedAt": "2026-09-23T05:44:58.430620+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:44:58.430719+00:00"
+    }
+  }
+}

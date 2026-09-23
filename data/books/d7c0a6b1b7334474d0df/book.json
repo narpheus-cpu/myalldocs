@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모네-순간에서 영원으로",
+    "author": "실비 파탱",
+    "genre": "예술/미술사",
+    "tags": [
+      "모네",
+      "인상주의",
+      "빛",
+      "화가"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "미술사",
+        "인상주의"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "실비 파탱은 오르세 미술관 회화부의 큐레이터로 인상주의 미술 전문가이다.",
+    "oneLineSummary": "변화하는 빛과 색채를 포착하여 순간을 영원으로 남긴 인상주의 거장 클로드 모네의 생애를 다룬다.",
+    "overallSummary": "노르망디 르아브르에서의 유년기와 외젠 부댕과의 만남, 파리 아카데미 쉬스에서의 수학, 살롱전 낙선의 시련을 거쳐 제1회 인상파전을 주도하고 아르장퇴유와 지베르니에서 불멸의 작품을 남긴 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장 살롱전의 낙선자",
+        "summary": "모네의 르아브르 시절, 부댕과의 만남, 파리에서의 미술 공부와 초기 살롱전 낙선의 아픔을 다룬다."
+      },
+      {
+        "sectionTitle": "제 2장 인상주의의 전성기",
+        "summary": "아르장퇴유에서의 작업과 제1회 인상파전의 개최, 그리고 화상 뒤랑 뤼엘과의 만남을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "화풍의 특징",
+        "value": "야외 사생을 통한 빛과 대기의 순간적 변화 포착"
+      }
+    ],
+    "keyEntitiesText": "실비 파탱, 클로드 모네, 외젠 부댕, 카미유 피사로, 뒤랑 뤼엘",
+    "settingText": "19세기 프랑스 파리, 노르망디, 아르장퇴유"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gvPFIhTN5jLK-FCeLPO-vfsX8eH-e4S6",
+    "filename": "모네-순간에서 영원으로 [시공디스커버리총서 036].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.972Z",
+    "size": "97140",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1gvPFIhTN5jLK-FCeLPO-vfsX8eH-e4S6/view?usp=drivesdk",
+    "sourceSha256": "4e6d9fd69524d5a8b98a2f1586dedcb4d6776df582b3cdc4240035ad28727480",
+    "textSha256": "159022b2adf36a3aa87816a3b35332cc229e288beea555f59c828855a34a84fa",
+    "changeKey": "701545a0b11b9d83fe60f90884dd63f0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d7c0a6b1b7334474d0df",
+    "workId": "d7c0a6b1b7334474d0df",
+    "driveFileId": "1gvPFIhTN5jLK-FCeLPO-vfsX8eH-e4S6",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:45:05.774311+00:00",
+    "updatedAt": "2026-09-23T05:45:05.774328+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:45:05.774432+00:00"
+    }
+  }
+}

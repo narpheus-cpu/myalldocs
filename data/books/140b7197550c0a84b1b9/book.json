@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "레오나르도 다빈치-조화와 비례의 미학",
+    "author": "알레산드로 베초시",
+    "genre": "예술/미술사",
+    "tags": [
+      "레오나르도다빈치",
+      "르네상스",
+      "예술가",
+      "과학"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "미술사",
+        "르네상스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "알레산드로 베초시는 미술평론가이자 레오나르도 다 빈치 박물관의 관장이다.",
+    "oneLineSummary": "과학과 예술을 통합한 르네상스의 거장 레오나르도 다 빈치의 생애와 창조적 업적을 탐구한다.",
+    "overallSummary": "빈치에서의 유년기와 피렌체 베로키오의 공방 시절을 중심으로, 그의 독창적인 소묘 기법, 과학적 관찰, 그리고 르네상스 문화의 용광로 속에서 탄생한 걸작들의 배경을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 옛날에 빈치에",
+        "summary": "레오나르도의 출생과 빈치에서의 유년기, 공증인과 도공 집안의 환경을 다룬다."
+      },
+      {
+        "sectionTitle": "제2장 메디치가가 주름잡던 피렌체에서",
+        "summary": "안드레아 델 베로키오의 공방 시절과 초기 풍경화, 청년기의 다양한 실험을 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 역량",
+        "value": "예술과 과학의 융합, 독창적인 소묘 및 관찰력"
+      }
+    ],
+    "keyEntitiesText": "알레산드로 베초시, 레오나르도 다 빈치, 세르 피에로, 안드레아 델 베로키오, 바사리",
+    "settingText": "15세기 토스카나, 빈치, 피렌체"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "172sAdmwFdbv2kpg-bYEuBi4_DED9VTq9",
+    "filename": "레오나르도 다빈치-조화와 비례의 미학 [시공디스커버리총서 093].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.852Z",
+    "size": "195244",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/172sAdmwFdbv2kpg-bYEuBi4_DED9VTq9/view?usp=drivesdk",
+    "sourceSha256": "576f5c0f37897c30ada5fda68f4b24f4db10d890148a06533824577f327af456",
+    "textSha256": "9e51073fe236ab4454fb126bc4d8b1ef2f15e7ec52b99ffc8d237a05685a4869",
+    "changeKey": "9611db84523784ded6610924f80807a6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "140b7197550c0a84b1b9",
+    "workId": "140b7197550c0a84b1b9",
+    "driveFileId": "172sAdmwFdbv2kpg-bYEuBi4_DED9VTq9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:44:17.448415+00:00",
+    "updatedAt": "2026-09-23T05:44:17.448431+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:44:17.448530+00:00"
+    }
+  }
+}

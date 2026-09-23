@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "르누아르-빛과 색채의 조형화가",
+    "author": "안 디스텔",
+    "genre": "예술/미술사",
+    "tags": [
+      "르누아르",
+      "인상파",
+      "화가",
+      "빛과색채"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "미술사",
+        "인상주의"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "안 디스텔은 파리 오르세 미술관의 선임 큐레이터이자 인상파 그림 전문가이다.",
+    "oneLineSummary": "여름날의 햇살과 생기 넘치는 색채로 행복의 세계를 그린 인상파 화가 르누아르의 생애를 다룬다.",
+    "overallSummary": "도자기 화공 견습공 시절부터 에콜 데 보자르와 글레르 화실에서의 수학, 모네와의 교우, 카페 게르부아에서의 예술가들과의 만남, 그리고 제1회 인상파전에 이르기까지의 과정을 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 입선이냐, 낙선이냐?",
+        "summary": "르누아르의 유년기와 견습공 시절, 글레르의 화실에서의 친구들 교류와 살롱전 낙선의 아픔을 다룬다."
+      },
+      {
+        "sectionTitle": "제2장 인상파 화가 르누아르",
+        "summary": "모네와의 공동 작업, 라 그르누예르에서의 야외작업, 그리고 제1회 인상파전의 개최를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "화풍의 특징",
+        "value": "풍부한 색채, 빛에 대한 예리한 지각, 인물의 생동감 있는 묘사"
+      }
+    ],
+    "keyEntitiesText": "안 디스텔, 피에르 오귀스트 르누아르, 모네, 시슬레, 샤를 글레르",
+    "settingText": "19세기 파리와 프랑스 센강변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iWzEx9FAu7LnBPNsz5bs_XTJ3hZqLE9N",
+    "filename": "르누아르-빛과 색채의 조형화가 [시공디스커버리총서 052].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.917Z",
+    "size": "206353",
+    "folderPath": [
+      "books",
+      "시공디스커버리 총서"
+    ],
+    "relativePath": "books/시공디스커버리 총서",
+    "webViewLink": "https://drive.google.com/file/d/1iWzEx9FAu7LnBPNsz5bs_XTJ3hZqLE9N/view?usp=drivesdk",
+    "sourceSha256": "186fda5d7ee2a9bc54f9aff32bee5ac3c09116f4a8c455530bf106b8d1785e47",
+    "textSha256": "2a62a69963e0bee92cfc706d6753f96d271e00ca2cf2fd8c63e815a38dae096e",
+    "changeKey": "98dc69355869d4a23a01185ec7fc14ac",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ac087e92a13dda2e7dbf",
+    "workId": "ac087e92a13dda2e7dbf",
+    "driveFileId": "1iWzEx9FAu7LnBPNsz5bs_XTJ3hZqLE9N",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:44:42.894967+00:00",
+    "updatedAt": "2026-09-23T05:44:42.894986+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:44:42.895086+00:00"
+    }
+  }
+}
