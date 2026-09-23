@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "정암 조광조",
+    "author": "이종호",
+    "genre": "역사/인물",
+    "tags": [
+      "조광조",
+      "왕도정치",
+      "중종",
+      "도학",
+      "조선사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조선 시대 사상과 역사 인물에 천착하여 조광조의 개혁 사상과 생애를 집중 연구한 저자이다.",
+    "oneLineSummary": "조선 중종 대에 도학적 이상주의를 바탕으로 왕도정치를 실현하려다 순교한 개혁가 정암 조광조의 생애와 정치철학을 다룬 평전이다.",
+    "overallSummary": "중종조 국경 야인 속고내 체포 논쟁에서 드러난 왕도론자로서의 원칙주의와 이상주의, 조광조의 가문적 배경과 도학적 형성과정을 입체적으로 서술하며 개혁의 본질과 한계를 살핀다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 국방을 논하는 왕도론자",
+        "summary": "중종 13년 야인 속고내 체포 문제를 둘러싸고 대신들의 현실론적 기습 작전에 맞서 정정당당한 왕도와 인의의 원칙을 주장하여 왕의 결정을 번복시킨 조광조의 원칙주의를 조명한다."
+      },
+      {
+        "sectionTitle": "2. 태어난 세계",
+        "summary": "조광조가 출생한 한양 조씨 가문의 문무 결합적 학문적 내력과 사화의 소용돌이 속에서 형성된 도학적 배경을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정치철학적 조명",
+        "value": "패도적 현실주의와 타협하지 않는 공맹 및 주자학적 도학(지치) 이상주의의 특징과 정치적 긴장을 분석함."
+      }
+    ],
+    "keyEntitiesText": "조광조, 중종, 정광필, 유담년, 속고내, 이지방, 조원기",
+    "settingText": "16세기 초 조선 중종 대의 궁중 및 한양"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tGqmav2408DDPf5BtKo8Klg1ZfcOOdgm",
+    "filename": "이종호-정암 조광조.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:49.592Z",
+    "size": "344470",
+    "folderPath": [
+      "books",
+      "14 전기"
+    ],
+    "relativePath": "books/14 전기",
+    "webViewLink": "https://drive.google.com/file/d/1tGqmav2408DDPf5BtKo8Klg1ZfcOOdgm/view?usp=drivesdk",
+    "sourceSha256": "6707ca56e78dd2512a4f253c571ff32b90900238c3293b2bf1c2ecb209b0c171",
+    "textSha256": "0de8c6f00fb1812ea331aa6630e30bb6b16a1fcdd43811258b7d3d577a6558de",
+    "changeKey": "571ccf74ea2f6d95ad7560306e7fd9b0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "05763d05b0b84b4e7ae4",
+    "workId": "05763d05b0b84b4e7ae4",
+    "driveFileId": "1tGqmav2408DDPf5BtKo8Klg1ZfcOOdgm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:13:48.159601+00:00",
+    "updatedAt": "2026-09-23T05:13:48.159617+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:13:48.159725+00:00"
+    }
+  }
+}

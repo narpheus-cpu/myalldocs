@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "맑스 엥겔스 평전",
+    "author": "하인리히 겜코브",
+    "genre": "역사/사상/평전",
+    "tags": [
+      "칼 맑스",
+      "프리드리히 엥겔스",
+      "공산당선언",
+      "사회주의",
+      "프롤레타리아"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "philosophy",
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일 마르틴 루터 대학교에서 독문학과 역사를 전공하고 맑스·레닌주의연구소 부소장을 지낸 독일의 대표적인 마르크스주의 역사가이다.",
+    "oneLineSummary": "부르주아 출신에서 프롤레타리아 혁명사상가로 거듭나 평생 학문과 실천을 함께했던 칼 맑스와 프리드리히 엥겔스의 생애와 우정을 다룬 평전이다.",
+    "overallSummary": "1815년 빈 회의 체제의 반동적 암흑기 속에서 태어난 맑스와 엥겔스가 김나지움 시절 휴머니즘적 소명을 자각하고, 청년헤겔파와 '라이니셰 짜이퉁'을 거쳐 유물론적 세계관과 과학적 사회주의를 정립해 나간 위대한 삶의 여정을 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말: 우리는 헛되이 살지 않았다",
+        "summary": "부유한 계급적 기득권을 버리고 가난과 망명 속에서도 전 세계 노동자 계급의 해방을 위해 헌신한 두 거인의 진정한 인간적 면모와 우정을 밝힌다."
+      },
+      {
+        "sectionTitle": "1부 1장 유망한 시민 계급으로 태어나다",
+        "summary": "트리어와 바르멘의 역사적 배경, 맑스의 김나지움 졸업 논문 '직업 선택을 앞둔 한 젊은이의 성찰'에 드러난 숭고한 휴머니즘과 사회적 불평등에 대한 초기 인식을 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사상 형성사 분석",
+        "value": "단순한 교조적 추종이 아닌, 고전 철학과 계몽주의의 자양분을 흡수하며 변혁적 실천가로 발전해가는 내적 논리를 추적함."
+      }
+    ],
+    "keyEntitiesText": "칼 맑스, 프리드리히 엥겔스, 하인리히 겜코브, 하인리히 맑스, 요한 후고 비텐바흐",
+    "settingText": "19세기 프로이센 왕국(트리어, 바르멘) 및 유럽"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rMpGd6kLs68-4QtOr3NE0lqngt4o8lO8",
+    "filename": "하인리히 겜코브-맑스 엥겔스 평전(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T10:05:02.000Z",
+    "size": "994550",
+    "folderPath": [
+      "books",
+      "14 전기"
+    ],
+    "relativePath": "books/14 전기",
+    "webViewLink": "https://drive.google.com/file/d/1rMpGd6kLs68-4QtOr3NE0lqngt4o8lO8/view?usp=drivesdk",
+    "sourceSha256": "6552623cda8aa5c3e07130a3b45e2e03aa6847fb4272505422205b0e00979893",
+    "textSha256": "7dced69b132385443fe766b863eb0f8f9c9de842647b62455433aa1d5672b292",
+    "changeKey": "ac9ea1a7129e81a54419e81d83ee7661",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7c01af0ba36e51749890",
+    "workId": "7c01af0ba36e51749890",
+    "driveFileId": "1rMpGd6kLs68-4QtOr3NE0lqngt4o8lO8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:14:24.079555+00:00",
+    "updatedAt": "2026-09-23T05:14:24.079579+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:14:24.079685+00:00"
+    }
+  }
+}

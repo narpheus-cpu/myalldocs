@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "레이먼드 카버 평전 (문고/텍스트판)",
+    "author": "캐롤 스클레니카",
+    "genre": "문학/전기/평전",
+    "tags": [
+      "레이먼드 카버",
+      "미니멀리즘",
+      "소설가",
+      "알코올중독",
+      "미국문학"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 문학 전기 작가로, 방대한 취재와 인터뷰를 거쳐 레이먼드 카버의 생애를 입체적으로 복원해 냈다.",
+    "oneLineSummary": "미국 현대 미니멀리즘 문학의 거장 레이먼드 카버의 곤궁한 삶과 파산, 알코올중독 극복과 문학적 영광을 치밀하게 추적한 평전이다.",
+    "overallSummary": "아칸소와 오리건을 오가던 가난한 노동자 집안 출신 레이먼드 카버가 첫 책 출간과 파산, 심각한 알코올중독의 나락에서 벗어나 '두 번째 삶(그레이비)'을 얻고 '미국의 체호프'로 우뚝 서기까지의 치열했던 문학적 행로를 추적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "첫 책 출판 다음 날 파산과 실업수당 사기 혐의로 법정에 서야 했던 절망적 상황과, 치명적 알코올중독을 이겨내고 단편문학의 거장으로 부활한 카버의 단일한 삶을 조명한다."
+      },
+      {
+        "sectionTitle": "1부 시작: 레이먼드 주니어",
+        "summary": "1938년 오리건주 클래츠케이니에서 태어난 카버의 유년기와 가난 속에서도 일자리를 찾아 서부로 떠돌았던 스코틀랜드-아일랜드계 조상들의 내력을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학 평전의 깊이",
+        "value": "작가의 일상적 고뇌, 가정의 파탄, 중독의 위기를 그의 절제된 미니멀리즘 단편 미학과 밀접하게 연결하여 해석함."
+      }
+    ],
+    "keyEntitiesText": "레이먼드 카버, 메리앤 카버, C. R. 카버, 엘라 카버, 캐롤 스클레니카",
+    "settingText": "20세기 중후반 미국 서북부(오리건, 워싱턴주) 및 캘리포니아"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Zh7t1id5PiA5Jkr5u-jLObe7XYmXVJuY",
+    "filename": "캐롤 스클레니카-레이먼드 카버 평전(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T08:59:20.000Z",
+    "size": "2101664",
+    "folderPath": [
+      "books",
+      "14 전기"
+    ],
+    "relativePath": "books/14 전기",
+    "webViewLink": "https://drive.google.com/file/d/1Zh7t1id5PiA5Jkr5u-jLObe7XYmXVJuY/view?usp=drivesdk",
+    "sourceSha256": "a7f955255a03f57f67acf8831da5f4e239ad8e9746fded28a0fda3a87e7f04ef",
+    "textSha256": "f52dd75b0c85c3817394ad13e95119a784afb2967234a6ddd0d148867274420c",
+    "changeKey": "62ef0bb84de8fb5a9bcf1a81ba1b7157",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e0c864e51924601b34b1",
+    "workId": "e0c864e51924601b34b1",
+    "driveFileId": "1Zh7t1id5PiA5Jkr5u-jLObe7XYmXVJuY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:14:15.185716+00:00",
+    "updatedAt": "2026-09-23T05:14:15.185730+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.59,
+      "updatedAt": "2026-09-23T05:14:15.185823+00:00"
+    }
+  }
+}

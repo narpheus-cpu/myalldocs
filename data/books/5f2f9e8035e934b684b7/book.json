@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도서관 인물 평전",
+    "author": "이용재",
+    "genre": "인문/도서관학/평전",
+    "tags": [
+      "도서관",
+      "문헌정보학",
+      "평전",
+      "가브리엘 노데",
+      "도서관사상"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대학교 불어불문학과를 졸업하고 부산대학교 대학원에서 문헌정보학 박사학위를 취득하였으며, 현재 부산대학교 문헌정보학과 교수로 재직 중이다.",
+    "oneLineSummary": "국내외 주요 도서관 인물 20인의 생애와 실천을 통해 도서관 사상의 형성과 전개 궤적을 추적한 평전이다.",
+    "overallSummary": "이 책은 동서양의 대표적인 도서관 인물 20인의 행적과 사상을 출생, 성장, 역경, 조우, 운동, 정립, 유산 등의 키워드로 교차 분석하여 근대 도서관 사상의 뿌리를 성찰하고 현장과 학문의 역사적 지평을 넓히고자 한 저작이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "추천사 및 머리말",
+        "summary": "기능과 기술 위주의 현실에서 벗어나 도서관의 근본 사상과 역사를 되짚어봄으로써 전문직의 자부심과 성찰을 유도하고 국내외 인물 연구의 지평을 열고자 집필 의의를 밝힌다."
+      },
+      {
+        "sectionTitle": "근대 도서관사상과 도서관학의 시조: 가브리엘 노데",
+        "summary": "프랑스대혁명 이전 1627년 '도서관 설립을 위한 의견서'를 통해 도서관은 특권층의 전유물이 아닌 대중에게 개방되어야 한다고 역설하며 마자랭 도서관 구축에 기여한 노데의 생애와 업적을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "연구사적 의의",
+        "value": "문헌정보학계의 도서관사 및 사상가 연구의 공백을 메우고 국내외 인물을 통합적으로 조명함."
+      }
+    ],
+    "keyEntitiesText": "가브리엘 노데, 쥘 마자랭, 앙리 드 메스므, 이용재, 부산대학교",
+    "settingText": "17세기 유럽 및 근현대 도서관계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ExOl8ZXHn2Y2yy0HadeFNkLo09v4MRpa",
+    "filename": "이용재-도서관 인물 평전(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T23:02:08.000Z",
+    "size": "424054",
+    "folderPath": [
+      "books",
+      "14 전기"
+    ],
+    "relativePath": "books/14 전기",
+    "webViewLink": "https://drive.google.com/file/d/1ExOl8ZXHn2Y2yy0HadeFNkLo09v4MRpa/view?usp=drivesdk",
+    "sourceSha256": "849c9f20bcb9be58dd2d8f370b4c3037a6343878d39b9c03f40eb9c458b2bf76",
+    "textSha256": "969cd27a2b6c3045fabec27934958daab983f7b6183345cc55702846995b303b",
+    "changeKey": "d0d2c58a07b558613b2d80df403af065",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5f2f9e8035e934b684b7",
+    "workId": "5f2f9e8035e934b684b7",
+    "driveFileId": "1ExOl8ZXHn2Y2yy0HadeFNkLo09v4MRpa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T05:13:40.255667+00:00",
+    "updatedAt": "2026-09-23T05:13:40.255684+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T05:13:40.255900+00:00"
+    }
+  }
+}
