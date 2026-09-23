@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "거위벌레의 요람",
+    "author": "오쿠모토 다이사부로",
+    "genre": "곤충기",
+    "tags": [
+      "파브르",
+      "곤충",
+      "생태"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오쿠모토 다이사부로는 파브르 곤충기를 재해석하고 알기 쉽게 고쳐 쓴 저자이다.",
+    "oneLineSummary": "프랑스의 곤충학자 파브르의 관찰을 바탕으로 거위벌레와 꽃무지 등 곤충의 신비한 생태를 다룬 책.",
+    "overallSummary": "이 책은 장 앙리 파브르의 곤충기를 바탕으로, 라일락꽃 축제에 모여드는 곤충들의 모습과 꽃무지의 사계절, 애벌레의 성장과 고치 만드는 과정 등을 생생하게 전달한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I. 봄을 단장하는 꽃무지",
+        "summary": "파브르의 정원 아르마스에서 라일락꽃과 함께 나타나는 다양한 곤충들과 꽃무지의 식욕 및 계절에 따른 변화를 관찰한다."
+      },
+      {
+        "sectionTitle": "2. 꽃무지의 애벌레 시절",
+        "summary": "낙엽 더미 속에서 살아가는 꽃무지 애벌레의 산란, 먹이활동, 등으로 기어가는 독특한 이동 방식 및 고치 형성 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "곤충 관찰",
+        "value": "꽃무지의 생태와 애벌레의 특성에 대한 상세한 관찰 기록"
+      }
+    ],
+    "keyEntitiesText": "파브르, 안나, 꽃무지, 띠호박벌, 꿀벌, 산호랑나비",
+    "settingText": "남프랑스 오랑주 교외의 세리냥 근처 황무지 '아르마스' 정원."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HIRIgMXiisWKAvAvBNNkKWEQcpB4CcT0",
+    "filename": "오쿠모토 다이사부로-거위벌레의 요람.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.947Z",
+    "size": "187232",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1HIRIgMXiisWKAvAvBNNkKWEQcpB4CcT0/view?usp=drivesdk",
+    "sourceSha256": "b27016081856637b69d1dfd93927a8ed10a5c4a9079687d3398d92f44ba0e464",
+    "textSha256": "8b1476ba4ddf41d9849708438b8ab5df13694092bbce897fc197be7a9b1ee78f",
+    "changeKey": "26aa9425d54c45371aca1d102fc23cff",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c0b08c0926e2e2411cd8",
+    "workId": "c0b08c0926e2e2411cd8",
+    "driveFileId": "1HIRIgMXiisWKAvAvBNNkKWEQcpB4CcT0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:28:46.444273+00:00",
+    "updatedAt": "2026-09-23T03:28:46.444288+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:28:46.444381+00:00"
+    }
+  }
+}

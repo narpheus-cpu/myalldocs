@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "매미 노래의 비밀",
+    "author": "오쿠모토 다이사부로",
+    "genre": "곤충기",
+    "tags": [
+      "파브르",
+      "매미",
+      "곤충기"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오쿠모토 다이사부로는 파브르 곤충기를 새롭게 엮어 대중에게 소개하는 저자이다.",
+    "oneLineSummary": "라 퐁텐의 우화 속 오해를 바로잡고, 매미의 실제 울음과 땅속 생활의 신비를 밝힌 파브르 곤충기.",
+    "overallSummary": "이 책은 라 퐁텐의 우화 '매미와 개미'에 담긴 오해를 비판하며, 남프랑스의 실제 매미 생태와 나무 즙을 빠는 습성, 개미와의 관계, 그리고 오랜 땅속 생활 끝에 지상으로 나와 성충이 되기까지의 과정을 상세히 전한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I. 매미 노래의 비밀",
+        "summary": "매미의 종류와 라 퐁텐 우화의 오류를 지적하고, 매미와 개미의 실제 관계 및 매미의 식생활을 설명한다."
+      },
+      {
+        "sectionTitle": "2. 땅 위로 나오기까지",
+        "summary": "매미 애벌레가 땅속 터널을 만들고 바깥 날씨를 살피며 지상으로 나오는 과정을 관찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 내용",
+        "value": "매미의 생태 관찰 및 우화 속 오류 수정"
+      }
+    ],
+    "keyEntitiesText": "파브르, 라 퐁텐, 레오뮈르, 개미, 매미",
+    "settingText": "남프랑스 세리냥 지방."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1W7XE-HwBZQ_QY2lNFfV9pFn5teAn8pxD",
+    "filename": "오쿠모토 다이사부로-매미 노래의 비밀.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.975Z",
+    "size": "206239",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1W7XE-HwBZQ_QY2lNFfV9pFn5teAn8pxD/view?usp=drivesdk",
+    "sourceSha256": "27b407c87030ec7336d018f72a8c3ada4067bc642e67352bbcf0e61a9393fc27",
+    "textSha256": "15e8473c57f362cec45c56256ca32b893dcd736dfc8df5cfdef655af6de6bb18",
+    "changeKey": "047e7de88db5db7dfd5b6b211a7db1fc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "99cf2e65822a3e626edd",
+    "workId": "99cf2e65822a3e626edd",
+    "driveFileId": "1W7XE-HwBZQ_QY2lNFfV9pFn5teAn8pxD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:28:59.990737+00:00",
+    "updatedAt": "2026-09-23T03:28:59.990753+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:28:59.990859+00:00"
+    }
+  }
+}

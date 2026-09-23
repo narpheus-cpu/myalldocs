@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "남가뢰의 비밀",
+    "author": "오쿠모토 다이사부로",
+    "genre": "곤충기",
+    "tags": [
+      "파브르",
+      "곤충",
+      "남가뢰"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오쿠모토 다이사부로는 파브르의 곤충기를 청소년과 일반 대중이 읽기 쉽게 풀어쓴 저자이다.",
+    "oneLineSummary": "파브르의 삶과 코르시카 섬의 자연 속에서 발견한 남가뢰의 신비로운 과변태를 다룬 곤충기.",
+    "overallSummary": "이 책은 교육부 장관의 부름으로 파리에 갔던 파브르가 나폴레옹 3세를 만난 일화와 코르시카 섬의 자연 환경, 그리고 남가뢰의 복잡하고 신비로운 애벌레 생활사를 추적하는 과정을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "I. 박물학자의 탄생",
+        "summary": "파브르가 장관의 부름으로 파리를 방문해 나폴레옹 3세를 만나고 코르시카 섬에서 박물학의 길을 걷게 된 배경을 그린다."
+      },
+      {
+        "sectionTitle": "II. 흰줄벌살이가뢰의 수수께끼",
+        "summary": "길앞잡이와 알락가뢰, 남가뢰 등의 특이한 생태와 과변태의 수수께끼를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 생물",
+        "value": "알락가뢰, 남가뢰, 길앞잡이 등 갑충류"
+      }
+    ],
+    "keyEntitiesText": "파브르, 빅토르 뒤루이, 나폴레옹 3세, 르키앙, 모칸 당통, 마테오 팔코네",
+    "settingText": "남프랑스 아비뇽 및 코르시카 섬."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1THL2fjiGZ9jeE1PnaA6RU2ZPAel6idSa",
+    "filename": "오쿠모토 다이사부로-남가뢰의 비밀.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.960Z",
+    "size": "197170",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1THL2fjiGZ9jeE1PnaA6RU2ZPAel6idSa/view?usp=drivesdk",
+    "sourceSha256": "07e91a9f4eb15e4dccb88040b671372a120a647bd7d104652a085c06128fcdc1",
+    "textSha256": "63b154e36c862658396f0954dfaf13c7ed57456b483a904867be3bc69f003dcc",
+    "changeKey": "7c4c47024430deb8c192640ba6bb5b4d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "24abe84fa73f635b53b7",
+    "workId": "24abe84fa73f635b53b7",
+    "driveFileId": "1THL2fjiGZ9jeE1PnaA6RU2ZPAel6idSa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:28:52.249693+00:00",
+    "updatedAt": "2026-09-23T03:28:52.249709+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:28:52.249820+00:00"
+    }
+  }
+}

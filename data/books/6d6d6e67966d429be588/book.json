@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "파토의 호모 사이언티피쿠스",
+    "author": "원종우",
+    "genre": "과학에세이",
+    "tags": [
+      "과학",
+      "우주",
+      "칼세이건"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "원종우(필명 파토)는 팟캐스트 진행자이자 과학 저술가로 대중에게 과학의 재미를 전파하고 있다.",
+    "oneLineSummary": "괴상하고 신비로운 우주와 생명의 진실을 유쾌하고 친근한 언어로 풀어낸 대중 과학 에세이.",
+    "overallSummary": "이 책은 저자가 어린 시절 칼 세이건의 《코스모스》를 접하고 과학에 매료되었던 경험을 바탕으로, 우주와 과학이 주는 경이로움을 전달한다. 복잡한 수식에 기죽지 않고 과학을 '대충 재미있게' 즐기며 세상을 새로운 눈으로 바라보게 안내한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책을펴내며: 호모 사이언티피쿠스의 특별함",
+        "summary": "과학이 우주와 인간의 기괴하고 신비로운 진실을 다루며 주는 압도적인 재미와 경이로움을 이야기한다."
+      },
+      {
+        "sectionTitle": "칼세이건 코스모스 ~ 지구 최후의 날",
+        "summary": "어린 시절 《코스모스》와 예언서 《지구 최후의 날》을 읽었던 기억을 회상하며 과학과 유사과학의 경계를 유쾌하게 풀어낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 태도",
+        "value": "대중적 과학 소통, 경이로움과 비판적 사고의 조화"
+      }
+    ],
+    "keyEntitiesText": "원종우, 칼 세이건, 에드워드 위튼, 조경철, 고도우 벤",
+    "settingText": "저자의 유년 시절 추억 및 우주를 향한 상상의 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Hm8RLheRqyTkrPg3-aMxFOAySoD-jEPF",
+    "filename": "원종우-파토의 호모 사이언티피쿠스(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T21:35:08.000Z",
+    "size": "387237",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1Hm8RLheRqyTkrPg3-aMxFOAySoD-jEPF/view?usp=drivesdk",
+    "sourceSha256": "d205788e6a6d2263ea9953c6d5f560ed9bf9baf7c5a181bcd837c895c68ac243",
+    "textSha256": "9bf8462b9701fb1dd80d709ff0c220b866a82d954d114d39ed636162af98ba62",
+    "changeKey": "4a1e213b4f5308716b937b29988c65b0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6d6d6e67966d429be588",
+    "workId": "6d6d6e67966d429be588",
+    "driveFileId": "1Hm8RLheRqyTkrPg3-aMxFOAySoD-jEPF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:29:44.950349+00:00",
+    "updatedAt": "2026-09-23T03:29:44.950365+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:29:44.950469+00:00"
+    }
+  }
+}

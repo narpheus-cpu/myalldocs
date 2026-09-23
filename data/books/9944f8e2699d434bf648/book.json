@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우연의 과학",
+    "author": "이야마 히로유키",
+    "genre": "과학사",
+    "tags": [
+      "우연",
+      "과학사",
+      "필연"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이야마 히로유키는 니가타대 교수이자 과학의 역사와 우연의 상관관계를 탐구하는 저자이다.",
+    "oneLineSummary": "인류 역사와 과학 발견의 이면에 숨겨진 '우연'과 '필연'의 관계를 추적한 교양 과학서.",
+    "overallSummary": "이 책은 아이스킬로스의 황당한 죽음, 프랭클린의 벼락, 갈바니의 개구리 다리, 뉴턴의 사과 등 역사 속 유명한 사건과 과학적 발견들이 단순한 우연인지, 아니면 시대상과 맞물린 필연인지 인문학적이고 과학적인 시선으로 파헤친다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 아이스킬로스의 비극",
+        "summary": "독수리가 떨어뜨린 거북이에 맞아 사망한 고대 그리스 비극시인 아이스킬로스의 일화를 통해 우연과 낙하의 의미를 고찰한다."
+      },
+      {
+        "sectionTitle": "하늘로부터의 선물-만나",
+        "summary": "성경 속 만나의 유래를 과학적 현상 및 베리코프스키의 혜성 충돌 가설과 연계하여 살펴본다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "우연과 필연의 관계, 과학적 발견의 배경"
+      }
+    ],
+    "keyEntitiesText": "이야마 히로유키, 아이스킬로스, 나츠메 소세끼, 모세, 이마뉴엘 베리코프스키",
+    "settingText": "고대 그리스부터 현대에 이르는 역사적 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-ZkmYb2Vd01pl8FQck7lEBCj_DkWEQVU",
+    "filename": "우연의 과학.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.032Z",
+    "size": "373034",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1-ZkmYb2Vd01pl8FQck7lEBCj_DkWEQVU/view?usp=drivesdk",
+    "sourceSha256": "ae1c8705783a25a681a2fc672f0fead23480bc23d1d056df745d8b691d16a630",
+    "textSha256": "d7b5f900148db221ae27a32117b8dd14ee69fcbe6bd9b632c842e173e9002876",
+    "changeKey": "4fbc1b7e037730dd147949394582822c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9944f8e2699d434bf648",
+    "workId": "9944f8e2699d434bf648",
+    "driveFileId": "1-ZkmYb2Vd01pl8FQck7lEBCj_DkWEQVU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:29:31.256703+00:00",
+    "updatedAt": "2026-09-23T03:29:31.256719+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:29:31.256827+00:00"
+    }
+  }
+}

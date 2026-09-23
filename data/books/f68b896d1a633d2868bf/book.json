@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나와 너의 사회과학",
+    "author": "우석훈",
+    "genre": "사회과학",
+    "tags": [
+      "사회과학",
+      "경제학",
+      "생태경제학"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "우석훈은 생태경제학을 전공하고 환경과 경제, 젊은 세대의 삶에 주목하는 저자이자 교수이다.",
+    "oneLineSummary": "복잡한 현대 사회를 자신의 눈으로 읽고 해석할 수 있는 힘을 길러주는 사회과학 입문서.",
+    "overallSummary": "이 책은 경제 근본주의에 치우친 한국 사회에서 이성과 공감의 언어인 사회과학의 기초를 되살리고자 쓰였다. 데카르트와 공자의 철학에서 출발해 이기주의와 이타주의, 환원주의, 시간과 공간을 다루는 법 등 사회과학의 핵심 방법론을 쉽고 실용적으로 안내한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 지금, 우리에게는 사회과학이 필요하다",
+        "summary": "데카르트의 코기토 선언과 공자의 깨달음을 통해 사회과학이 무엇이며 왜 필요한지 고찰한다."
+      },
+      {
+        "sectionTitle": "2. 착해지기 vs 똑똑해지기",
+        "summary": "이기주의와 이타주의 가설을 바탕으로 인간 본성과 집단지식의 힘을 다룬다."
+      },
+      {
+        "sectionTitle": "3. 학문이란 무엇인가?:백과사전형 지식의 귀환",
+        "summary": "분과학문 체계의 한계를 넘어 백과사전형 지식과 기획자 시대로의 전환을 논한다."
+      },
+      {
+        "sectionTitle": "4~13장 (요약)",
+        "summary": "실존과 선택, 경제적/사회적 인간, 과학주의와 해석학, 환원주의, 균질성, 선형과 비선형, 시간과 공간, 스토리라인, 사회과학의 연구 방법에 대해 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "학문적 대상",
+        "value": "사회과학 방법론, 생태경제학, 한국 사회의 구조적 문제"
+      }
+    ],
+    "keyEntitiesText": "우석훈, 데카르트, 공자, 김수영, 소크라테스",
+    "settingText": "한국 사회 및 학문적 현장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sq_qFbCWE2NVVumayPgMSAEn6mAxkgD2",
+    "filename": "우석훈-나와 너의 사회과학(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T21:31:16.000Z",
+    "size": "323868",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1sq_qFbCWE2NVVumayPgMSAEn6mAxkgD2/view?usp=drivesdk",
+    "sourceSha256": "ea88c773487bdcecf8fd8eed534a0292c55c0d55e1242377c66e227e707fe4da",
+    "textSha256": "2de8b749cb92baf647210cce513cc1e2de24d290f5bf1f3af4aaf39f461be429",
+    "changeKey": "34158c9f51a7d3fdd2a4dbde18fdf946",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f68b896d1a633d2868bf",
+    "workId": "f68b896d1a633d2868bf",
+    "driveFileId": "1sq_qFbCWE2NVVumayPgMSAEn6mAxkgD2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:29:25.302170+00:00",
+    "updatedAt": "2026-09-23T03:29:25.302220+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:29:25.302345+00:00"
+    }
+  }
+}

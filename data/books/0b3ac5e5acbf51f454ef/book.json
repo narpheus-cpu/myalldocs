@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "수업시간에 못다한 신나는 과학 이야기",
+    "author": "오오츠키 요시히코",
+    "genre": "과학",
+    "tags": [
+      "과학이야기",
+      "물리학",
+      "자연현상"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오오츠키 요시히코는 과학적 원리를 쉽고 재미있게 풀어내는 저자이다.",
+    "oneLineSummary": "일상 속 신비한 자연 현상과 과학적 원리를 알기 쉽게 설명한 과학 이야기.",
+    "overallSummary": "이 책은 침대의 압력, 높은 곳의 체감 온도와 단열 팽창, 자연 발화의 조건, 바닷물과 민물의 응고점 차이, 열 팽창과 레일의 이음새, 엔트로피 증대의 법칙 등 일상에서 접할 수 있는 다양한 현상 속의 과학적 원리를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "과학적으로 보아 가장 쾌적한 침대란?",
+        "summary": "파스칼의 원리를 통해 물침대와 압박감의 관계를 설명한다."
+      },
+      {
+        "sectionTitle": "'높은 곳일수록 춥다'고 느끼는 진짜 이유는?",
+        "summary": "공기의 단열 팽창이 체감 온도와 기온에 미치는 영향을 다룬다."
+      },
+      {
+        "sectionTitle": "'불씨'도 없이 화재가 일어난다?",
+        "summary": "인체 자연 발화와 전기 에너지의 집중에 의한 발화 현상을 설명한다."
+      },
+      {
+        "sectionTitle": "왜 북해도의 유빙은 소금물이 아니고 민물인가",
+        "summary": "응고점의 차이와 염분이 얼음에 미치는 영향을 다룬다."
+      },
+      {
+        "sectionTitle": "철도의 '이음새 없는' 레일을 만드는 기술이란?",
+        "summary": "열 팽창으로 인한 레일 변형과 이를 방지하는 기술을 설명한다."
+      },
+      {
+        "sectionTitle": "왜 열은 반드시 높은 곳에서 낮은 곳으로 흐를까?",
+        "summary": "엔트로피 증대의 법칙과 불가역적 과정에 대해 다룬다."
+      },
+      {
+        "sectionTitle": "왜 아주 미시적으로 보면 '전생은 있다'고 말할 수 있는 것일까?",
+        "summary": "엔트로피와 분자의 확산을 미시적 관점에서 해석한다."
+      },
+      {
+        "sectionTitle": "왜 아주 작은 세계에는 '홀더 가이스터(유령)'가 존재하는 걸까?",
+        "summary": "열 에너지와 미세한 분자 운동의 관점에서 현상을 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "과학적 주제",
+        "value": "역학, 열역학, 기상 현상, 화학적 원리 등 일상 과학"
+      }
+    ],
+    "keyEntitiesText": "오오츠키 요시히코, K군",
+    "settingText": "다양한 일상 공간 및 과학적 실험 현장."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vvP0rnSN1AzhPiIlt-AKBEhWNLSUUE9W",
+    "filename": "오오츠키 요시히코-수업시간에 못다한 신나는 과학이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.932Z",
+    "size": "142699",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1vvP0rnSN1AzhPiIlt-AKBEhWNLSUUE9W/view?usp=drivesdk",
+    "sourceSha256": "b6ded7b17c489b6e049e37e61444bb56259c94c485e0324ae30b39c6ac975c2b",
+    "textSha256": "d95fd4d0499df9c4cac2f825e6885e4056825e691e010b95621f96ac09e2e3c3",
+    "changeKey": "8b8df61f85db7c02a00d44158972963f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0b3ac5e5acbf51f454ef",
+    "workId": "0b3ac5e5acbf51f454ef",
+    "driveFileId": "1vvP0rnSN1AzhPiIlt-AKBEhWNLSUUE9W",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:28:39.760030+00:00",
+    "updatedAt": "2026-09-23T03:28:39.760043+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:28:39.760256+00:00"
+    }
+  }
+}
