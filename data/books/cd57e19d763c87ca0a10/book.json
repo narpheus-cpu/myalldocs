@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-블랙홀",
+    "author": "이충환",
+    "genre": "과학",
+    "tags": [
+      "블랙홀",
+      "천문학",
+      "우주론",
+      "상대성이론"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "천문학",
+        "물리학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학동아 부편집장이며 천문학(우주론) 석사학위를 가진 과학전문기자이다.",
+    "oneLineSummary": "블랙홀의 정의와 역사, 그리고 별의 진화 과정과 블랙홀의 관계를 설명한다.",
+    "overallSummary": "블랙홀의 어원과 개념을 설명하고, 아인슈타인의 일반상대성이론을 통해 블랙홀의 이론적 근거를 제시한다. 별의 일생과 진화 과정을 통해 블랙홀이 어떻게 탄생하는지, 그리고 사건 지평선과 특이점 등 블랙홀의 구조적 특징을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "검은 구멍",
+        "summary": "블랙홀의 어원과 탈출속도 개념을 통해 빛조차 빠져나올 수 없는 블랙홀의 특성을 설명한다."
+      },
+      {
+        "sectionTitle": "일반상대성이론에서 나온 검은 구멍",
+        "summary": "아인슈타인의 일반상대성이론과 슈바르츠실트의 해를 통해 블랙홀의 이론적 가능성을 다룬다."
+      },
+      {
+        "sectionTitle": "별의 일생과 무거운 별의 마지막 모습",
+        "summary": "별의 진화 과정과 찬드라세카르의 한계를 통해 블랙홀의 탄생 과정을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "블랙홀의 구조",
+        "value": "특이점(singularity)과 사건 지평선(event horizon)"
+      },
+      {
+        "key": "블랙홀 탄생 조건",
+        "value": "태양 질량의 3.2배 이상인 별의 중력 붕괴"
+      }
+    ],
+    "keyEntitiesText": "존 휠러, 알베르트 아인슈타인, 카를 슈바르츠실트, 아서 에딩턴",
+    "settingText": "우주 공간 및 천체 물리학 연구실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15-mDEzRAu_lraaRRb4_AM63qbvU_0pdL",
+    "filename": "살림지식총서-블랙홀(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:59:08.000Z",
+    "size": "150547",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/15-mDEzRAu_lraaRRb4_AM63qbvU_0pdL/view?usp=drivesdk",
+    "sourceSha256": "f9a883dea58f9f84b76a2c6a4051bab741397434e8e96a151075fbbc712627b2",
+    "textSha256": "c4bbb9b6e7d71febe4c874fcd87967fd2fea969448e16e0aa867c9f2d26f26d5",
+    "changeKey": "2cd36d0b20beddc640020be47bd229a8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cd57e19d763c87ca0a10",
+    "workId": "cd57e19d763c87ca0a10",
+    "driveFileId": "15-mDEzRAu_lraaRRb4_AM63qbvU_0pdL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:14:41.353960+00:00",
+    "updatedAt": "2026-09-23T03:14:41.353977+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:14:41.354082+00:00"
+    }
+  }
+}

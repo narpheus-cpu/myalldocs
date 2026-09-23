@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-미사일 이야기",
+    "author": "박준복",
+    "genre": "과학기술",
+    "tags": [
+      "미사일",
+      "로켓",
+      "현대전",
+      "국방과학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "군사기술",
+        "역사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "국방과학연구소에서 37년간 로켓과 미사일을 개발한 전문가이다.",
+    "oneLineSummary": "미사일의 역사와 구성 원리, 현대전에서의 역할 및 한국의 미사일 개발 현황을 다룬다.",
+    "overallSummary": "제2차 세계대전부터 현대전까지 미사일이 전쟁의 승패에 미친 영향을 분석하고, 미사일의 기본 구성과 로켓과의 차이점을 설명한다. 또한 국가 안보를 위한 미사일 기술의 중요성을 강조하며 한국의 미사일 개발 역사를 소개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "미사일과 로켓 없이 전쟁에서 이길 수 있을까?",
+        "summary": "제2차 세계대전, 포클랜드전, 이란-이라크전, 걸프전 등 주요 전쟁에서의 미사일 활용 사례를 분석한다."
+      },
+      {
+        "sectionTitle": "미사일, 어떻게 생겼지?",
+        "summary": "미사일과 로켓의 개념적 차이와 미사일의 기본 구성 요소를 설명한다."
+      },
+      {
+        "sectionTitle": "관리와 훈련",
+        "summary": "미사일의 신뢰성 평가와 효율적인 관리 및 훈련의 중요성을 강조한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "미사일의 정의",
+        "value": "군사용 탑재물을 장착하고 목표물로 유도되는 로켓"
+      },
+      {
+        "key": "핵심 관리 요소",
+        "value": "저장탄약신뢰성평가(ASRP)"
+      }
+    ],
+    "keyEntitiesText": "카츄사 로켓, V-1/V-2 미사일, 엑조세 미사일, 스커드 미사일, 토마호크, 패트리엇",
+    "settingText": "현대 전쟁터 및 국방과학 연구 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZfsPY-hnNxlaH7YIffoB7VCUfLlbZoeM",
+    "filename": "살림지식총서-미사일 이야기(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:53:12.000Z",
+    "size": "121207",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1ZfsPY-hnNxlaH7YIffoB7VCUfLlbZoeM/view?usp=drivesdk",
+    "sourceSha256": "f4cba8e2a0a3e8cef60ae99bb41a1247c734e0f2f896ff34a3c7b0737bc5ad73",
+    "textSha256": "0d9ed948dbdd6b95a59785523b88b2d4435e06247ade7b4ab62c49625feacf19",
+    "changeKey": "1e38eb15d2c2ced18ace6a757064fce2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fefe84b2d9e44b4c3965",
+    "workId": "fefe84b2d9e44b4c3965",
+    "driveFileId": "1ZfsPY-hnNxlaH7YIffoB7VCUfLlbZoeM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:14:20.584981+00:00",
+    "updatedAt": "2026-09-23T03:14:20.585000+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:14:20.585165+00:00"
+    }
+  }
+}

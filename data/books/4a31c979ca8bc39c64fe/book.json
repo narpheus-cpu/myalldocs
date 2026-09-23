@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-한국무기의 역사",
+    "author": "이내주",
+    "genre": "역사/군사",
+    "tags": [
+      "한국무기",
+      "전쟁사",
+      "활",
+      "기병",
+      "무예"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "군사사",
+        "한국사"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "육군사관학교 군사사학과 교수이며 서양 무기의 역사와 군사사를 연구한다.",
+    "oneLineSummary": "고대부터 근대까지 우리 민족이 사용한 전통 무기의 역사와 그 운용술을 다룬다.",
+    "overallSummary": "인류 역사를 전쟁의 역사로 보고, 무기체계의 발달이 전쟁의 승패에 미친 영향을 분석한다. 우리 민족의 대표 무기인 활(각궁)과 화살, 그리고 고구려 철갑기병의 무장과 마상무예를 중심으로 한국 전통 무기의 역사적 위상과 기술적 특징을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "우리 민족의 전통 무기, 활과 무예",
+        "summary": "각궁의 제작 기술과 위력, 그리고 활쏘기 훈련의 중요성을 다룬다."
+      },
+      {
+        "sectionTitle": "전통 기병의 무기와 무예",
+        "summary": "고구려 철갑기병의 무장과 마구류, 그리고 기사술과 기창술을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "무기체계의 핵심",
+        "value": "무기 자체의 성능과 인간의 운용술(무예)의 결합"
+      },
+      {
+        "key": "전통 무기의 특징",
+        "value": "지형적 특성과 전술적 요구에 최적화된 기술적 진보"
+      }
+    ],
+    "keyEntitiesText": "각궁, 편전, 찰갑, 등자, 고구려 철갑기병",
+    "settingText": "한반도 및 주변 지역의 전쟁터"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14dHOVauBcPhgz34li2-2Ek0JrwzG7DkM",
+    "filename": "살림지식총서-한국무기의 역사(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:29:00.000Z",
+    "size": "151863",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/14dHOVauBcPhgz34li2-2Ek0JrwzG7DkM/view?usp=drivesdk",
+    "sourceSha256": "5314492e26875930a3dfa290336cfe40bad006b420005fb72678fc0bc988536b",
+    "textSha256": "2c43e4a173d98e8321c0efd2a403558873ccf830dc03bd41437f87412dba080d",
+    "changeKey": "5a4ced6d50639f70c227c0121fced814",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4a31c979ca8bc39c64fe",
+    "workId": "4a31c979ca8bc39c64fe",
+    "driveFileId": "14dHOVauBcPhgz34li2-2Ek0JrwzG7DkM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:15:13.698420+00:00",
+    "updatedAt": "2026-09-23T03:15:13.698437+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:15:13.698539+00:00"
+    }
+  }
+}

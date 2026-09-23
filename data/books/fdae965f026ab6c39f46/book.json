@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-생물의 섹스 이야기",
+    "author": "권오길",
+    "genre": "생물학",
+    "tags": [
+      "생물",
+      "번식",
+      "섹스",
+      "진화",
+      "생태"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "생물학",
+        "생태학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "강원대학교 명예교수이며, 생물학 대중화에 힘쓰는 저술가이다.",
+    "oneLineSummary": "다양한 생물들의 번식 전략과 섹스에 관한 생물학적 이야기를 다룬다.",
+    "overallSummary": "생물들이 자손을 남기기 위해 벌이는 처절한 번식 투쟁과 다양한 전략을 소개한다. 식물의 꽃가루받이부터 미생물, 세균, 동물의 번식 방식까지 다루며, 유성생식이 진화적으로 유리한 이유와 생물들의 번식 본능을 생태학적 관점에서 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "자손을 남기려는 것은 생물의 본능",
+        "summary": "생물들이 DNA를 남기기 위해 벌이는 번식 투쟁의 본질을 설명한다."
+      },
+      {
+        "sectionTitle": "꽃도 섹스를!",
+        "summary": "식물의 생식기인 꽃의 구조와 다양한 꽃가루받이 전략을 다룬다."
+      },
+      {
+        "sectionTitle": "현미경 속 생물들의 섹스",
+        "summary": "바이러스와 세균의 번식 방식과 그들의 생존 전략을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "번식의 목적",
+        "value": "자신의 DNA(유전자)를 후대에 남기기 위한 본능"
+      },
+      {
+        "key": "유성생식의 장점",
+        "value": "유전자 혼합을 통한 변화된 환경에 대한 적응력 강화"
+      }
+    ],
+    "keyEntitiesText": "큰가시고기, 린네, 바이러스, 세균, 박테리오파지",
+    "settingText": "자연 생태계 및 미시 생물 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-o0AKxa9qJ-F_dwN51rQ1CXTXX0PB6zJ",
+    "filename": "살림지식총서-생물의 섹스 이야기(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:03:18.000Z",
+    "size": "158879",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1-o0AKxa9qJ-F_dwN51rQ1CXTXX0PB6zJ/view?usp=drivesdk",
+    "sourceSha256": "4260414fab2aea81c96e82bae7e5f7d65cfd9090d02f6c839f81c80ba8600599",
+    "textSha256": "f2a6e985fc2934bd61bf81588b5648797011a59c559b3cf848ea264040a24c66",
+    "changeKey": "b2d21fae38de99125e957aeb8e170aeb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fdae965f026ab6c39f46",
+    "workId": "fdae965f026ab6c39f46",
+    "driveFileId": "1-o0AKxa9qJ-F_dwN51rQ1CXTXX0PB6zJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:14:47.046628+00:00",
+    "updatedAt": "2026-09-23T03:14:47.046646+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:14:47.046757+00:00"
+    }
+  }
+}

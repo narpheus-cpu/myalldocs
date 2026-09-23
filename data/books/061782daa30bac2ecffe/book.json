@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "완전히 새로운 공룡의 역사",
+    "author": "스티브 브루사테",
+    "genre": "과학/고생물학",
+    "tags": [
+      "공룡",
+      "고생물학",
+      "진화",
+      "멸종"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "고생물학",
+        "진화생물학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스코틀랜드 에든버러 대학교 교수이며 세계적인 공룡 연구자이다.",
+    "oneLineSummary": "최신 고생물학 연구를 바탕으로 공룡의 기원부터 멸종까지의 역사를 새롭게 재구성한다.",
+    "overallSummary": "공룡의 기원과 번성, 그리고 멸종에 이르는 과정을 최신 화석 발견과 과학 기술을 통해 재해석한다. 공룡이 단순히 실패한 동물이 아니라 환경에 탁월하게 적응한 성공적인 생명체였음을 강조하며, 새의 조상으로서의 공룡의 진화적 의미를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "최초의 등장",
+        "summary": "페름기 대멸종 이후 공룡이 어떻게 등장하게 되었는지 다룬다."
+      },
+      {
+        "sectionTitle": "공룡 왕국의 번성",
+        "summary": "공룡이 지구의 지배자가 된 과정과 다양한 공룡의 생태를 설명한다."
+      },
+      {
+        "sectionTitle": "최후의 그날",
+        "summary": "백악기 말 대멸종 사건과 공룡의 멸종 원인을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "공룡에 대한 새로운 시각",
+        "value": "진화의 실패작이 아닌 환경에 탁월하게 적응한 성공적인 생명체"
+      },
+      {
+        "key": "연구 방법론",
+        "value": "최신 화석 발견과 컴퓨터 모델링, CT 촬영 등 첨단 과학 기술 활용"
+      }
+    ],
+    "keyEntitiesText": "첸유안롱, 벨로키랍토르, 파레이아사우르, 고르고놉스",
+    "settingText": "중생대 지구"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SujKTQIMKVyYlbyuUM5bXoFfKEL9-JvB",
+    "filename": "스티브 브루사테-완전히 새로운 공룡의 역사(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T05:31:54.000Z",
+    "size": "777257",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1SujKTQIMKVyYlbyuUM5bXoFfKEL9-JvB/view?usp=drivesdk",
+    "sourceSha256": "b4992942c03198a586633c968a907a5260d6d6e0ca494492a2f772c003127568",
+    "textSha256": "38a2e4ba553e80b7001b487f5f91685056efb3def0130ecb51cadc926da79703",
+    "changeKey": "421d1ce2eb860b79be4e4391b0c79a64",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "061782daa30bac2ecffe",
+    "workId": "061782daa30bac2ecffe",
+    "driveFileId": "1SujKTQIMKVyYlbyuUM5bXoFfKEL9-JvB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:16:07.040790+00:00",
+    "updatedAt": "2026-09-23T03:16:07.040807+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:16:07.040911+00:00"
+    }
+  }
+}

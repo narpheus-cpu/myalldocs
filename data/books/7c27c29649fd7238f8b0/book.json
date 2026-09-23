@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-로봇이야기",
+    "author": "김문상",
+    "genre": "과학기술",
+    "tags": [
+      "로봇",
+      "지능형 로봇",
+      "미래기술",
+      "휴머노이드"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "로봇공학",
+        "미래학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국과학기술연구원(KIST)에서 지능형 로봇을 연구하는 전문가이다.",
+    "oneLineSummary": "지능형 로봇의 역사와 현재, 그리고 인간과 로봇이 공존할 미래 사회를 전망하는 책이다.",
+    "overallSummary": "로봇의 어원과 역사적 기원부터 산업용 로봇의 발전, 그리고 미래의 지능형 로봇과 소프트웨어 로봇까지 폭넓게 다룬다. 인간의 기능을 모방한 휴머노이드 로봇의 발전과 유비쿼터스 컴퓨팅 환경에서의 로봇의 역할을 설명하며, 인간과 로봇이 공존하는 미래 사회의 변화를 예측한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "로봇 인간세계로 들어오다",
+        "summary": "로봇의 어원과 역사적 기원, 그리고 산업용 로봇의 발전 과정을 소개한다."
+      },
+      {
+        "sectionTitle": "소프트웨어 로봇",
+        "summary": "유비쿼터스 컴퓨팅 환경에서 인간과 상호작용하는 소프트웨어 로봇의 개념을 설명한다."
+      },
+      {
+        "sectionTitle": "지능형 로봇의 상용화",
+        "summary": "아이보 등 지능형 로봇의 상용화 사례와 휴대폰, 자동차 등 다양한 분야로의 응용 가능성을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "로봇의 정의",
+        "value": "체코어 'robota'(일한다)에서 유래한 작업자"
+      },
+      {
+        "key": "미래 전망",
+        "value": "인간과 감정적 교류가 가능한 지능형 로봇의 시대"
+      }
+    ],
+    "keyEntitiesText": "카렐 카페크, 아이작 아시모프, 소니(아이보), 혼다(아시모), 마크 와이저",
+    "settingText": "21세기 미래 사회 및 산업 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1B1FePHiGPhEgt54fvPFSAQlFPleQLTFT",
+    "filename": "살림지식총서-로봇이야기(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:47:04.000Z",
+    "size": "126013",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1B1FePHiGPhEgt54fvPFSAQlFPleQLTFT/view?usp=drivesdk",
+    "sourceSha256": "3b5702665963436c42cd4ce60cc535abcab8e11e4e7efe45740ba38f4e320b62",
+    "textSha256": "1590942e0dee305f2d8fb4c745e559a3ab0f86623023086c523d4dd1d3f890a9",
+    "changeKey": "05cbdcf4cd95562ec1c91f49863dbcf6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7c27c29649fd7238f8b0",
+    "workId": "7c27c29649fd7238f8b0",
+    "driveFileId": "1B1FePHiGPhEgt54fvPFSAQlFPleQLTFT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:14:06.112275+00:00",
+    "updatedAt": "2026-09-23T03:14:06.112293+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:14:06.112400+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-법의학의 세계",
+    "author": "이윤성",
+    "genre": "의학/법학",
+    "tags": [
+      "법의학",
+      "검시",
+      "부검",
+      "법의병리학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "의학",
+        "법학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "서울대학교 의과대학 법의학교실 교수이며, 대한법의학회 부회장을 역임했다.",
+    "oneLineSummary": "법의학의 정의와 분야, 그리고 사망 사건에서 법의학적 검시와 부검의 중요성을 설명한다.",
+    "overallSummary": "법의학이 법률과 의학을 잇는 사회의학의 한 분야임을 밝히고, 법의병리학, 법의독물학 등 다양한 법의학 분야를 소개한다. 특히 사망 사건에서 검시와 부검이 왜 필요한지, 과학적 증거 확보를 위해 법의학적 전문성이 어떻게 사회정의 구현에 기여하는지를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "왜 법의학이 필요한가?",
+        "summary": "법의학의 정의와 의학 내에서의 위치, 그리고 법치국가에서 법의학의 중요성을 설명한다."
+      },
+      {
+        "sectionTitle": "부검을 해야 하나?",
+        "summary": "부검의 필요성과 과학적 판단의 중요성을 실제 사례를 통해 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "법의학의 목적",
+        "value": "인권 옹호, 공중 보건 및 안전 증진, 사회정의 구현"
+      },
+      {
+        "key": "검시의 핵심",
+        "value": "사망원인 및 종류 결정, 증거물 확보를 통한 사건 재구성"
+      }
+    ],
+    "keyEntitiesText": "법의병리학, 법의독물학, 법의유전학, 법치의학, 법인류학",
+    "settingText": "법정 및 수사 현장, 부검실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JPEpuk9NO6pqkAeJuW9gqTU_tEOtVee1",
+    "filename": "살림지식총서-법의학의 세계(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:58:00.000Z",
+    "size": "142650",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1JPEpuk9NO6pqkAeJuW9gqTU_tEOtVee1/view?usp=drivesdk",
+    "sourceSha256": "0821d1eed68835804cd08e998d9b8d09e85667f6901ba82e744f2f2f7148e12f",
+    "textSha256": "b383e14ed9c07cb9b9ef7437d6006ad6ff2b5fb897ddd9f6a659f9d691f73f47",
+    "changeKey": "e2e3fdb2a282d63f4098bd2636c7afa0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "030c54d86f1afac759fc",
+    "workId": "030c54d86f1afac759fc",
+    "driveFileId": "1JPEpuk9NO6pqkAeJuW9gqTU_tEOtVee1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:14:34.034897+00:00",
+    "updatedAt": "2026-09-23T03:14:34.034913+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:14:34.035018+00:00"
+    }
+  }
+}

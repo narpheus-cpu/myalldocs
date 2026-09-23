@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-동물행동학",
+    "author": "임신재",
+    "genre": "과학",
+    "tags": [
+      "동물행동학",
+      "생태학",
+      "동물복지",
+      "각인",
+      "학습"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "생물학",
+        "동물행동학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중앙대학교 동물자원과학과 교수이며, 동물행동 및 생태학을 전공한 전문가이다.",
+    "oneLineSummary": "동물의 다양한 행동 유형과 의미를 탐구하고 사람과 동물의 합리적인 공존 방안을 모색하는 책이다.",
+    "overallSummary": "동물의 행동을 개체유지 행동과 사회 행동으로 분류하고, 선천적 행동, 학습 행동, 조정 행동, 공격 행동, 이상 행동 등 다양한 관점에서 동물의 행동을 분석한다. 각인과 초기 경험이 동물의 일생에 미치는 영향을 설명하며, 인간과 동물의 합리적인 공존과 동물 복지의 중요성을 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "동물도 행동을 할까?",
+        "summary": "동물행동학의 정의와 현대 동물행동학의 시작인 로렌츠의 각인 연구를 소개한다."
+      },
+      {
+        "sectionTitle": "동물행동의 분류",
+        "summary": "개체유지 행동과 사회 행동의 개념을 설명하고, 선천적 행동, 학습 행동, 조정 행동, 공격 행동, 이상 행동으로 세분화하여 분석한다."
+      },
+      {
+        "sectionTitle": "세 살 버릇 여든 간다",
+        "summary": "유전, 각인, 초기 경험이 동물의 행동 발달에 미치는 영향을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심주제",
+        "value": "동물행동학의 기초 이론과 인간-동물 공존"
+      },
+      {
+        "key": "연구방법론",
+        "value": "관찰 및 기록을 통한 행동 의미 규명"
+      }
+    ],
+    "keyEntitiesText": "콘라트 로렌츠, 회색기러기, 침팬지, 뻐꾸기, 반달가슴곰",
+    "settingText": "동물들의 서식지(숲, 강, 바다, 사막 등) 및 인간과 동물이 공존하는 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ni8q95TKDCGNU5ZaRDN7FVluKQpe6f5B",
+    "filename": "살림지식총서-동물행동학(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:44:46.000Z",
+    "size": "138719",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1ni8q95TKDCGNU5ZaRDN7FVluKQpe6f5B/view?usp=drivesdk",
+    "sourceSha256": "8e8d9ded26f526eebd52cad403be406491bbccb7c834573160b9b4308e95f3cc",
+    "textSha256": "51484cca4a148628a0f7ff550216eafc7f8697b9dca3e8133b3e1432d8af819f",
+    "changeKey": "b44f1238e3e7ec3478256640feb5f231",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "15af662db8c046cf92ff",
+    "workId": "15af662db8c046cf92ff",
+    "driveFileId": "1ni8q95TKDCGNU5ZaRDN7FVluKQpe6f5B",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:13:58.286858+00:00",
+    "updatedAt": "2026-09-23T03:13:58.286874+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:13:58.287065+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "생물들의 신비한 초능력",
+    "author": "리츠네스키",
+    "genre": "과학",
+    "tags": [
+      "미생물",
+      "생물",
+      "초능력",
+      "생물공학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "생물학",
+        "생물공학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소비에트 아카데미 회원이며 자연의 신비와 생물의 초능력을 연구했다.",
+    "oneLineSummary": "미생물을 비롯한 생물들이 가진 놀라운 능력과 이를 활용한 생물공학적 가능성을 다룬다.",
+    "overallSummary": "미생물이 가진 화학적 합성 능력과 빠른 번식력을 소개하고, 이를 활용한 식량 생산, 비료 제조, 광물 형성 등 생물공학적 응용 사례를 다룬다. 인간의 편에 선 미생물의 역할을 강조하며, 미래 식량 문제 해결을 위한 미생물의 가능성을 전망한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "일하는 미생물",
+        "summary": "미생물의 화학적 능력과 인간에게 이로운 미생물의 역할을 설명한다."
+      },
+      {
+        "sectionTitle": "바이오닉스와 식량문제",
+        "summary": "미생물을 이용한 단백질 생산과 미래 식량 확보 방안을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "미생물의 가치",
+        "value": "살아있는 화학공장으로서의 생산성과 효율성"
+      },
+      {
+        "key": "미래 기술",
+        "value": "바이오닉스(생물공학)를 통한 화학적 공정의 혁신"
+      }
+    ],
+    "keyEntitiesText": "세균, 효모, 뿌리혹박테리아, 혐기성 균, 철박테리아",
+    "settingText": "자연 생태계 및 생물공학 연구실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ynX3-JlAAPFzoHIQhjFk8pMkzaQeMWIU",
+    "filename": "생물들의 신비한 초능력.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.516Z",
+    "size": "496567",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1ynX3-JlAAPFzoHIQhjFk8pMkzaQeMWIU/view?usp=drivesdk",
+    "sourceSha256": "96e1f7ee53ae665e5a722adb6c05c5a8f4450c389694ff04290f133884c72bc5",
+    "textSha256": "247cc23f8c8c8da0eb913bf12178a0c22d83814d14275112eff2c4c546a25491",
+    "changeKey": "c83b69f37310cf063e9cb055e4525c89",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6dbbbcf53daea999e1fe",
+    "workId": "6dbbbcf53daea999e1fe",
+    "driveFileId": "1ynX3-JlAAPFzoHIQhjFk8pMkzaQeMWIU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:15:19.682609+00:00",
+    "updatedAt": "2026-09-23T03:15:19.682627+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:15:19.682728+00:00"
+    }
+  }
+}

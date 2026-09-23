@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-미생물의 세계",
+    "author": "이재열",
+    "genre": "과학",
+    "tags": [
+      "미생물",
+      "세균",
+      "바이러스",
+      "생명공학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "생물학",
+        "미생물학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "경북대학교 생명공학부 교수이며, 바이러스 연구로 박사학위를 받은 미생물학자이다.",
+    "oneLineSummary": "눈에 보이지 않는 미생물의 세계를 이해하기 쉽게 설명하고 그들의 역할과 중요성을 다룬다.",
+    "overallSummary": "미생물의 정의와 크기, 종류를 설명하고 우리 생활 속에서 미생물이 하는 다양한 역할을 다룬다. 이로운 미생물과 해로운 미생물을 구분하고, 자연계의 물질 순환에서 미생물이 수행하는 분해자로서의 역할을 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "생활 속의 내 친구, 미생물",
+        "summary": "미생물의 크기와 존재를 확인하는 방법, 그리고 우리 곁에 항상 존재하는 미생물의 특성을 설명한다."
+      },
+      {
+        "sectionTitle": "미생물 가족의 족보",
+        "summary": "곰팡이, 세균, 바이러스 등 미생물의 종류와 분류 체계를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "미생물의 역할",
+        "value": "물질 순환의 분해자 및 인간 생활에의 이로움과 해로움"
+      },
+      {
+        "key": "연구의 가치",
+        "value": "보이지 않는 세계를 이해하여 자연의 순환을 파악함"
+      }
+    ],
+    "keyEntitiesText": "세균, 바이러스, 곰팡이, 원생동물, 리케치아, 마이코플라스마",
+    "settingText": "우리 주변의 일상 환경 및 자연 생태계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12fppNtDHSkl0CdiQHiRxHa1a7VdWHiOx",
+    "filename": "살림지식총서-미생물의 세계(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T21:53:38.000Z",
+    "size": "158148",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/12fppNtDHSkl0CdiQHiRxHa1a7VdWHiOx/view?usp=drivesdk",
+    "sourceSha256": "cb3dddafb2d6fdb48bbae143c5f8ddfea3cf134c8a1fd7835df25155f2c41271",
+    "textSha256": "0a2f89368d89b988be66233cba99109eafa82661a02b857459ee626bcaa328c4",
+    "changeKey": "adf98b2018d98c5ee09e866343048e83",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "db8fd62dddbbbd6e75ee",
+    "workId": "db8fd62dddbbbd6e75ee",
+    "driveFileId": "12fppNtDHSkl0CdiQHiRxHa1a7VdWHiOx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:14:26.900945+00:00",
+    "updatedAt": "2026-09-23T03:14:26.900962+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:14:26.901067+00:00"
+    }
+  }
+}

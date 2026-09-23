@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "살림지식총서-파이온에서 힉스 입자까지",
+    "author": "이강영",
+    "genre": "과학",
+    "tags": [
+      "입자물리학",
+      "가속기",
+      "힉스 입자",
+      "기본입자"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "물리학",
+        "입자물리학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "경상대학교 물리교육과 교수이며 입자물리학을 연구한다.",
+    "oneLineSummary": "입자가속기를 통해 발견된 기본입자들의 역사와 물질의 근본 원리를 설명한다.",
+    "overallSummary": "입자가속기를 이용해 물질의 근본을 탐구해 온 물리학자들의 지적 모험을 다룬다. 러더퍼드의 산란실험부터 사이클로트론의 발명, 그리고 파이온과 힉스 입자에 이르기까지 가속기에서 발견된 입자들의 역사를 소개하며 현대 물리학의 표준 모델을 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "E=mc2",
+        "summary": "에너지와 물질의 등가성을 설명하고 진공과 입자 생성의 원리를 다룬다."
+      },
+      {
+        "sectionTitle": "가속기의 탄생",
+        "summary": "러더퍼드의 실험과 콕크로프트-월튼 가속기, 로렌스의 사이클로트론 발명 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "중성 파이온 - 가속기에서 발견된 첫 입자",
+        "summary": "원자핵 연구의 역사와 양성자 발견, 그리고 파이온 입자의 발견 과정을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "가속기의 역할",
+        "value": "입자의 운동에너지를 높여 물질의 근본 구조를 탐구함"
+      },
+      {
+        "key": "현대 물리학의 목표",
+        "value": "물질을 이루는 기본입자와 근본적인 상호작용의 이해"
+      }
+    ],
+    "keyEntitiesText": "어니스트 러더퍼드, 콕크로프트, 월튼, 어니스트 로렌스, 제임스 채드윅",
+    "settingText": "입자가속기 연구소 및 미시 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MY7rqV4x_3usBTNEWYh-sD7irtMzstMh",
+    "filename": "살림지식총서-파이온에서 힉스 입자까지(살림지식총서)(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T22:24:40.000Z",
+    "size": "165470",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1MY7rqV4x_3usBTNEWYh-sD7irtMzstMh/view?usp=drivesdk",
+    "sourceSha256": "97a77071b3999849afb3d56aa22efd7a358be4bd9e408de986744e13e4811efb",
+    "textSha256": "10a93af0acaa336cb72c4a631f587dee8bc5fad35a0655bfe7b70752f9202915",
+    "changeKey": "5811e0f91dbd497e2496e17057693017",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "35521d55257e7ebbbf5c",
+    "workId": "35521d55257e7ebbbf5c",
+    "driveFileId": "1MY7rqV4x_3usBTNEWYh-sD7irtMzstMh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:15:06.620323+00:00",
+    "updatedAt": "2026-09-23T03:15:06.620341+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:15:06.620446+00:00"
+    }
+  }
+}
