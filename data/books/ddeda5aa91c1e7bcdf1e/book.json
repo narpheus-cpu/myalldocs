@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "느낌 - 멍에벗던 날",
+    "author": "우희태",
+    "genre": "소설",
+    "tags": [
+      "소설",
+      "단편",
+      "인생",
+      "느낌"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간의 삶과 감정을 섬세하게 그려내는 소설가.",
+    "oneLineSummary": "삶의 다양한 순간과 감정을 담은 단편 소설집.",
+    "overallSummary": "작은 생명들의 고통, 인간의 내면, 미래에 대한 꿈 등 삶의 여러 단면을 서정적이고 감각적인 문체로 그려낸 단편 소설 모음집.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "우리들의 연가",
+        "summary": "작은 생명들의 고통과 생명력을 다룬 이야기들."
+      },
+      {
+        "sectionTitle": "메아리 없는 소리들",
+        "summary": "인간 내면의 고독과 소통의 부재를 다룬 이야기들."
+      },
+      {
+        "sectionTitle": "미래여행",
+        "summary": "이상과 꿈을 향한 여정을 담은 이야기들."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 특징",
+        "value": "서정적이고 감각적인 문체, 인간 삶에 대한 깊은 통찰"
+      },
+      {
+        "key": "주요 테마",
+        "value": "생명, 고독, 꿈, 인간의 내면"
+      }
+    ],
+    "keyEntitiesText": "우희태",
+    "settingText": "다양한 일상 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jq800ZXHEz2nM1ZIHd6EPOfYxq-atix7",
+    "filename": "우희태-느낌 (멍에벗던 날).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:53.197Z",
+    "size": "268846",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1jq800ZXHEz2nM1ZIHd6EPOfYxq-atix7/view?usp=drivesdk",
+    "sourceSha256": "ff052e5ea4c4c42c2473888a1dd42615664bcc716533885b2ad30369e3ae9423",
+    "textSha256": "a651a905ef0b163d5ffd7ddc441470f71cc91b7ee5019206653112f63706a716",
+    "changeKey": "84024d55085db6a759b11ca1a217717a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ddeda5aa91c1e7bcdf1e",
+    "workId": "ddeda5aa91c1e7bcdf1e",
+    "driveFileId": "1jq800ZXHEz2nM1ZIHd6EPOfYxq-atix7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:29:58.555947+00:00",
+    "updatedAt": "2026-09-23T01:29:58.555963+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:29:58.556074+00:00"
+    }
+  }
+}

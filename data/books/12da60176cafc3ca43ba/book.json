@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "도연초",
+    "author": "요시다 겐코",
+    "genre": "수필",
+    "tags": [
+      "일본 고전",
+      "수필",
+      "인생관",
+      "철학"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "가마쿠라 말기에서 남북조 초기에 활동한 와카 작가이자 승려.",
+    "oneLineSummary": "일본 중세의 미의식과 인생관을 담은 일본 수필 문학의 고전.",
+    "overallSummary": "작가의 감상, 취미, 일화, 교훈 등 243편의 단상을 통해 무상함의 미학과 삶의 지혜를 서술한 일본 수필 문학의 대표작.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서단 및 제1단~",
+        "summary": "인생의 무상함과 고귀한 삶의 태도, 자연과 인간의 조화에 대한 단상들."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "철학적 배경",
+        "value": "불교적 무상관과 노장 사상의 조화"
+      },
+      {
+        "key": "문학적 가치",
+        "value": "간결한 함축과 정제된 문체로 일본 수필의 전형을 제시"
+      }
+    ],
+    "keyEntitiesText": "요시다 겐코",
+    "settingText": "일본 중세 시대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qJLVq37ZovvzqSJAi4GkIgMZk_YpltUD",
+    "filename": "요시다 겐코-도연초.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:40.252Z",
+    "size": "202493",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1qJLVq37ZovvzqSJAi4GkIgMZk_YpltUD/view?usp=drivesdk",
+    "sourceSha256": "0552d85018113a0cd93bb9179b3017a0287723572e19b2e26a1fea4adda608e6",
+    "textSha256": "d57e9124b9989596cca867276c26d0a5bc99e32ed4bb634afcc93abcfd94f5a8",
+    "changeKey": "88e2fc0d8647b07ffba65773ed3c7f93",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "12da60176cafc3ca43ba",
+    "workId": "12da60176cafc3ca43ba",
+    "driveFileId": "1qJLVq37ZovvzqSJAi4GkIgMZk_YpltUD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:29:09.747002+00:00",
+    "updatedAt": "2026-09-23T01:29:09.747018+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:29:09.747127+00:00"
+    }
+  }
+}

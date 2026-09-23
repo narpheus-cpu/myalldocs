@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "요리대백과 21",
+    "author": "주부생활 편집부",
+    "genre": "요리책",
+    "tags": [
+      "요리",
+      "레시피",
+      "가정",
+      "생활"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "주부생활 잡지 편집부에서 엮은 실용적인 요리 지침서.",
+    "oneLineSummary": "가정에서 필요한 다양한 요리법과 조리 기본 테크닉을 담은 요리 백과사전.",
+    "overallSummary": "매일 해 먹는 반찬부터 손님 초대 음식, 이유식, 해장국까지 21가지 주제로 나누어 가정 요리의 기초와 레시피를 상세히 설명함.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "조리 기본 테크닉",
+        "summary": "씻기, 조리기, 구이, 튀기기 등 요리의 기초 기술 설명."
+      },
+      {
+        "sectionTitle": "요리 레시피",
+        "summary": "반찬, 찌개, 국, 고기/채소 요리 등 다양한 상황별 요리법 제시."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "실용성",
+        "value": "초보자부터 숙련자까지 활용 가능한 단계별 레시피"
+      },
+      {
+        "key": "구성",
+        "value": "주제별 분류를 통한 체계적인 요리 정보 제공"
+      }
+    ],
+    "keyEntitiesText": "주부생활 편집부",
+    "settingText": "가정 주방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rv3e4HRNnaof_rQViwDFD_1RxYmQgXuT",
+    "filename": "요리대백과 21.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:40.182Z",
+    "size": "1296054",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1rv3e4HRNnaof_rQViwDFD_1RxYmQgXuT/view?usp=drivesdk",
+    "sourceSha256": "908270a882f95332c777d83f0c39bda840a0a0ec0d9b2577db423965225a5a4e",
+    "textSha256": "e634205eb4c9d26e51fe64a5ce06f6fdde0a10a44751010a5837c6d53e65ce19",
+    "changeKey": "a4f557cc340226b56418bc83d55f6b2a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "64206a5277de83df3b03",
+    "workId": "64206a5277de83df3b03",
+    "driveFileId": "1rv3e4HRNnaof_rQViwDFD_1RxYmQgXuT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:29:02.918968+00:00",
+    "updatedAt": "2026-09-23T01:29:02.918984+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:29:02.919094+00:00"
+    }
+  }
+}

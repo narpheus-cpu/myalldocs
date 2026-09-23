@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그러니까 당신도 살아",
+    "author": "오히라 미쓰요",
+    "genre": "자전적 에세이",
+    "tags": [
+      "비행청소년",
+      "갱생",
+      "변호사",
+      "희망"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중학교 시절 왕따와 자살 시도, 야쿠자 세계를 거쳐 변호사가 된 일본의 법조인.",
+    "oneLineSummary": "왕따와 비행, 야쿠자 생활을 딛고 변호사가 된 저자의 파란만장한 인생 역정.",
+    "overallSummary": "중학교 시절 왕따로 인해 자살을 시도하고 비행 청소년의 길을 걸었던 저자가 야쿠자 세계를 거쳐, 인생의 전환점을 맞이한 뒤 사법고시에 합격하여 변호사가 되기까지의 처절한 시련과 극복 과정을 담은 자전적 기록.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "어둠의 시절",
+        "summary": "왕따와 배신으로 인해 자살을 기도하고 비행 청소년이 되어 야쿠자 세계에 발을 들임."
+      },
+      {
+        "sectionTitle": "새로운 출발",
+        "summary": "야쿠자 세계를 떠나 호스티스 생활을 하던 중 인생의 전환점을 만나 공부를 시작하고 변호사가 됨."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "인간의 가능성과 운명을 헤쳐 나가는 의지"
+      },
+      {
+        "key": "사회적 메시지",
+        "value": "비행 청소년 갱생과 왕따 문제에 대한 경각심"
+      }
+    ],
+    "keyEntitiesText": "오히라 미쓰요, 야쿠자 보스, 소년원 소년들",
+    "settingText": "일본 효고 현 니시노미야 시 등"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19qJe-tFioWM9EoyqU3tUQT5Rj0fCIxIJ",
+    "filename": "오히라 미쓰요-그러니까 당신도 살아 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:40.153Z",
+    "size": "294669",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/19qJe-tFioWM9EoyqU3tUQT5Rj0fCIxIJ/view?usp=drivesdk",
+    "sourceSha256": "64b262ac9f28726268419d6f5314c073ba01d7f86feb77c0701f50db3f8b5c1f",
+    "textSha256": "a1398cb32099cf0f23603b75c294c76a4a54ada756b01dfcf646b202ce465281",
+    "changeKey": "7be83bb46429ab39e91144a7c9dbb645",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7cea474e147ab669006a",
+    "workId": "7cea474e147ab669006a",
+    "driveFileId": "19qJe-tFioWM9EoyqU3tUQT5Rj0fCIxIJ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:28:43.171382+00:00",
+    "updatedAt": "2026-09-23T01:28:43.171397+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:28:43.171659+00:00"
+    }
+  }
+}
