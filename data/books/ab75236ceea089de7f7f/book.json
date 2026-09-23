@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아름다움 찾기",
+    "author": "김백겸",
+    "genre": "시집",
+    "tags": [
+      "시",
+      "도시인",
+      "고독",
+      "자연",
+      "사랑"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1983년 서울신문 '기상예보'로 데뷔하였으며 한국원자력연구소 재무관리실장으로 재직 중인 시인.",
+    "oneLineSummary": "도시인의 일상과 고독, 자연의 아름다움과 사랑을 시적 언어로 노래한 시집.",
+    "overallSummary": "도시 속 소시민의 권태와 적막, 현대 문명 속에서의 상실감을 표현하는 동시에 자연과 사랑, 세월의 흐름 속에서 진정한 아름다움과 삶의 암호를 해독하고자 하는 시인의 성찰이 담긴 시들을 수록하고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "가. 도시인의 일기",
+        "summary": "80년대의 질주, 운전연습, 사라진 언덕 등 도시인의 고독과 일상을 노래함."
+      },
+      {
+        "sectionTitle": "나. 무대",
+        "summary": "무대 위의 인형 같은 삶과 적막, 안개 속의 도시 풍경을 시적으로 묘사함."
+      },
+      {
+        "sectionTitle": "다. 사랑은 어떻게 오는지",
+        "summary": "소리굽쇠, 후리지아 등 사랑의 공명과 아픔을 노래함."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시적 경향",
+        "value": "도시 문명에 대한 성찰과 자연의 고요함을 통한 자아 성찰이 두드러짐."
+      }
+    ],
+    "keyEntitiesText": "김백겸, 하림, 재림, 현대시, 초록배카툰즈",
+    "settingText": "1980~90년대 한국의 도시와 자연"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AswNUg5CRnla_uibXk6spJjLAaCFGOVm",
+    "filename": "김백겸 詩집-아름다움 찾기 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:33.435Z",
+    "size": "76937",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1AswNUg5CRnla_uibXk6spJjLAaCFGOVm/view?usp=drivesdk",
+    "sourceSha256": "ef8c858669a89e38d9eb2e2c06e1911ca730552c85399749724ff059da787224",
+    "textSha256": "137e17e7b935d7945592251da18d894473cd06d56230a517ac732d5a1001f1ff",
+    "changeKey": "e6e36c7feb5fcd4fb8d905430d6723ef",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ab75236ceea089de7f7f",
+    "workId": "ab75236ceea089de7f7f",
+    "driveFileId": "1AswNUg5CRnla_uibXk6spJjLAaCFGOVm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:17:43.439218+00:00",
+    "updatedAt": "2026-09-23T00:17:43.439236+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:17:43.439335+00:00"
+    }
+  }
+}
