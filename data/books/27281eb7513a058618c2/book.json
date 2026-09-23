@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아메리칸 조크",
+    "author": "양치석",
+    "genre": "유머",
+    "tags": [
+      "영어",
+      "유머",
+      "조크",
+      "문화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "유머",
+        "문화"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영어 조크를 통해 영어 학습과 문화 이해를 돕는 저자이다.",
+    "oneLineSummary": "미국식 유머(조크)를 통해 영어의 뉘앙스와 서구 문화를 재미있게 배우는 책이다.",
+    "overallSummary": "이 책은 인터넷 등에서 수집한 다양한 미국식 조크를 번역하여 소개한다. 조크 속에 담긴 언어적 유희와 문화적 배경을 설명하여 독자들이 영어의 뉘앙스를 자연스럽게 익히고, 서구인들의 사고방식을 이해하도록 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "조크 모음",
+        "summary": "어린이, 노인, 부부 등 다양한 주제별로 조크를 분류하여 소개한다."
+      },
+      {
+        "sectionTitle": "문화적 해설",
+        "summary": "조크의 재미를 살리기 위해 필요한 문화적 배경과 언어적 유희를 해설한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "학습 방식",
+        "value": "유머를 통한 언어 학습"
+      },
+      {
+        "key": "핵심 가치",
+        "value": "문화적 이해, 언어적 뉘앙스 습득"
+      }
+    ],
+    "keyEntitiesText": "양치석",
+    "settingText": "미국 문화권"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cPgXSdUubHHC4otZjLP_3cWOkQV1mqVu",
+    "filename": "양치석-아메리칸 조크(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.645Z",
+    "size": "658721",
+    "folderPath": [
+      "books",
+      "영어공부"
+    ],
+    "relativePath": "books/영어공부",
+    "webViewLink": "https://drive.google.com/file/d/1cPgXSdUubHHC4otZjLP_3cWOkQV1mqVu/view?usp=drivesdk",
+    "sourceSha256": "0848a0e412de736f9ffbb1d9ab79ba68bb9f9d7212c7e1e47ff28637afa037ae",
+    "textSha256": "5f3b742b9f68d8cb86a10bf3e7c63af0ffd91ab59498812e2e74c2f8a26aa77a",
+    "changeKey": "de84ad082225fc1e8e819fe76f496338",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "27281eb7513a058618c2",
+    "workId": "27281eb7513a058618c2",
+    "driveFileId": "1cPgXSdUubHHC4otZjLP_3cWOkQV1mqVu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:15:03.032355+00:00",
+    "updatedAt": "2026-09-23T06:15:03.032370+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T06:15:03.032478+00:00"
+    }
+  }
+}

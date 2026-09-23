@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소설보다 더 재미있는 영어 연수 여행",
+    "author": "임병현",
+    "genre": "수필",
+    "tags": [
+      "유학",
+      "영국",
+      "영어",
+      "체험기"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "수필",
+        "여행"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국 유학 경험을 바탕으로 유학 생활의 고충과 영어 학습의 중요성을 기록한 저자이다.",
+    "oneLineSummary": "영국 유학 생활 중 겪은 다양한 에피소드를 통해 영어 학습의 필요성과 실전 영어를 다룬다.",
+    "overallSummary": "저자가 6년 5개월간의 영국 유학 생활 동안 겪은 시행착오와 경험을 일기 형식으로 담았다. 말이 통하지 않아 겪었던 실수들을 영어 대화와 함께 서술하여, 유학이나 여행을 준비하는 이들에게 실질적인 도움과 교훈을 주고자 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "유학 준비와 출발",
+        "summary": "유학을 결심하고 준비하는 과정에서 겪은 어려움과 영국으로 떠나는 설렘을 다룬다."
+      },
+      {
+        "sectionTitle": "영국 생활과 영어",
+        "summary": "영국 도착 후 겪은 언어 장벽과 생활 속에서 영어를 익혀가는 과정을 에피소드 중심으로 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 내용",
+        "value": "유학 생활 체험기, 실전 영어 회화"
+      },
+      {
+        "key": "특징",
+        "value": "상황별 영어 대화 수록"
+      }
+    ],
+    "keyEntitiesText": "임병현",
+    "settingText": "영국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rG3s4VJPhbiaLK07f7kMGPGV263aLzQh",
+    "filename": "소설보다 더 재미있는 영어 연수 여행.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.608Z",
+    "size": "361638",
+    "folderPath": [
+      "books",
+      "영어공부"
+    ],
+    "relativePath": "books/영어공부",
+    "webViewLink": "https://drive.google.com/file/d/1rG3s4VJPhbiaLK07f7kMGPGV263aLzQh/view?usp=drivesdk",
+    "sourceSha256": "70ad20090bad66816330bf6ae0007e068e08fc2d35ee611435280b6d61e9c7cc",
+    "textSha256": "88d0717ca73fa1a257726006ea9886ddfeb82ff8e23d1e2eef252a21811ebe2c",
+    "changeKey": "247420eba4497f9e7fbc6773baca9e16",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2d5fc7f9a891901fb43f",
+    "workId": "2d5fc7f9a891901fb43f",
+    "driveFileId": "1rG3s4VJPhbiaLK07f7kMGPGV263aLzQh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:14:48.379809+00:00",
+    "updatedAt": "2026-09-23T06:14:48.379825+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T06:14:48.379972+00:00"
+    }
+  }
+}

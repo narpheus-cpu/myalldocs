@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "번역 문장 만들기",
+    "author": "김보원",
+    "genre": "학습서",
+    "tags": [
+      "번역",
+      "영어",
+      "작문",
+      "언어"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "교육",
+        "언어학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "통사론 전공자이자 전문 번역가로, 번역의 기술과 원리를 체계적으로 정리한 저자이다.",
+    "oneLineSummary": "영어와 한국어의 어법 차이를 이해하고 자연스러운 번역 문장을 만들기 위한 기술을 다룬다.",
+    "overallSummary": "이 책은 영한번역에서 번역자가 갖추어야 할 기본 요령과 기술을 기초편과 응용편으로 나누어 설명한다. 무생물 주어 처리, 대명사 생략, 수동태 뒤집기 등 기초적인 문법 구문부터 비유적 표현, 리듬과 운율의 번역까지 다양한 예문을 통해 자연스러운 한국어 문장으로 옮기는 법을 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "기초편",
+        "summary": "무생물 주어, 대명사, 수동태, 일치 등 한국어와 대조적인 구문의 번역 요령을 다룬다."
+      },
+      {
+        "sectionTitle": "응용편",
+        "summary": "보충과 압축, 반전 번역, 비유 살리기 등 번역자의 재량을 발휘하는 창조적 기술을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "번역 철학",
+        "value": "원전에 대한 충실성과 가독성의 균형"
+      },
+      {
+        "key": "주요 기술",
+        "value": "품사 전환, 순차 번역, 반전 번역"
+      }
+    ],
+    "keyEntitiesText": "김보원, 박동우",
+    "settingText": "번역 실무 및 학습 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Jo3QR3nAdRf2dqc1acTDA1-tvsojqkMa",
+    "filename": "김보원-번역문장 만들기(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.463Z",
+    "size": "294873",
+    "folderPath": [
+      "books",
+      "영어공부"
+    ],
+    "relativePath": "books/영어공부",
+    "webViewLink": "https://drive.google.com/file/d/1Jo3QR3nAdRf2dqc1acTDA1-tvsojqkMa/view?usp=drivesdk",
+    "sourceSha256": "01e70cce7531e689a47305dc9fe3df4cc276359b3e0e6fb0470ce471de0d1185",
+    "textSha256": "7692d07bcc7994d7440cf981f9d6a7efa77eabc83f99db569c720f49bfb877af",
+    "changeKey": "77f35ceac7f3a646bd9b543fa296e3bf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "047458051962f6585a29",
+    "workId": "047458051962f6585a29",
+    "driveFileId": "1Jo3QR3nAdRf2dqc1acTDA1-tvsojqkMa",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:13:59.643454+00:00",
+    "updatedAt": "2026-09-23T06:13:59.643469+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T06:13:59.643566+00:00"
+    }
+  }
+}

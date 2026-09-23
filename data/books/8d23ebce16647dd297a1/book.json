@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영어순해",
+    "author": "김영로",
+    "genre": "학습서",
+    "tags": [
+      "영어",
+      "독해",
+      "학습법"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "교육"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영어 교육 전문가로, 영어식 사고방식에 기반한 독해 학습법을 제시하는 저자이다.",
+    "oneLineSummary": "영어 문장의 구조를 파악하고 영어식 사고방식으로 독해하는 방법을 체계적으로 설명한다.",
+    "overallSummary": "이 책은 영어를 우리말 어순으로 거꾸로 해석하는 방식에서 벗어나, 영어의 구조를 파악하고 정보 결합 방식을 이해하여 영어식 사고로 독해하는 법을 가르친다. 문장의 기본 구조부터 문맥 파악, 표현의 미학까지 단계별로 구성되어 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "구조와 정보",
+        "summary": "문장의 기본 구조와 영어식 정보 결합 장치인 동격, 관계사, 분사구문 등을 다룬다."
+      },
+      {
+        "sectionTitle": "사고방식과 문맥",
+        "summary": "영어식 사고방식과 문맥 파악을 통해 독해력을 높이는 구체적인 방법론을 제시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "학습 철학",
+        "value": "영어식 사고방식, 순차 독해"
+      },
+      {
+        "key": "핵심 방법",
+        "value": "구조 파악, 정보 결합 장치 활용"
+      }
+    ],
+    "keyEntitiesText": "김영로",
+    "settingText": "영어 독해 학습 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EWhbvjrun7LsHL7xDpXirMTkxiUJRfF8",
+    "filename": "김영로-영어순해(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.500Z",
+    "size": "961268",
+    "folderPath": [
+      "books",
+      "영어공부"
+    ],
+    "relativePath": "books/영어공부",
+    "webViewLink": "https://drive.google.com/file/d/1EWhbvjrun7LsHL7xDpXirMTkxiUJRfF8/view?usp=drivesdk",
+    "sourceSha256": "77deee2787911ce8fbc44e3470d3141e1821ce7f2de9af528d46c43ed65cf826",
+    "textSha256": "74b1c933c2a08849fac943281466d3cbcd0af055e59519f433c4a7cb9bc74241",
+    "changeKey": "3f5da24df205e67c5925510da9ffcdfe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8d23ebce16647dd297a1",
+    "workId": "8d23ebce16647dd297a1",
+    "driveFileId": "1EWhbvjrun7LsHL7xDpXirMTkxiUJRfF8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:14:12.969200+00:00",
+    "updatedAt": "2026-09-23T06:14:12.969216+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T06:14:12.969322+00:00"
+    }
+  }
+}

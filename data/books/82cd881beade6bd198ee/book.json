@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영단어 훈련노트 1",
+    "author": "심재경",
+    "genre": "학습서",
+    "tags": [
+      "영어",
+      "어휘",
+      "이미지",
+      "훈련"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "교육"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영어 학습서 작가이자 일러스트레이터로, 이미지와 훈련을 결합한 학습법을 제시한다.",
+    "oneLineSummary": "그림과 다양한 훈련 문제를 통해 영단어를 직관적으로 이해하고 기억하는 학습서이다.",
+    "overallSummary": "이 책은 영단어를 텍스트로만 외우는 것이 아니라 이미지와 결합하여 직관적으로 기억하도록 돕는다. 감정, 행동 등 주제별로 단어를 분류하고, 실전 훈련 문제를 통해 단어의 쓰임새와 뉘앙스를 익히도록 구성되어 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "감정 표현",
+        "summary": "기쁨, 슬픔, 화 등 다양한 감정을 나타내는 단어들을 이미지와 함께 학습한다."
+      },
+      {
+        "sectionTitle": "실전 훈련",
+        "summary": "다양한 문장과 상황 문제를 통해 학습한 단어를 실제로 활용하는 연습을 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "학습 방식",
+        "value": "이미지 연상 학습, 실전 훈련"
+      },
+      {
+        "key": "핵심 철학",
+        "value": "직관적 이해, 활용 중심 학습"
+      }
+    ],
+    "keyEntitiesText": "심재경",
+    "settingText": "영어 학습 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zIGK9Nl-Xt8gn9Q74T5Gv3J5LybMfCFL",
+    "filename": "심재경-영단어 훈련노트1(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T19:37:02.000Z",
+    "size": "560831",
+    "folderPath": [
+      "books",
+      "영어공부"
+    ],
+    "relativePath": "books/영어공부",
+    "webViewLink": "https://drive.google.com/file/d/1zIGK9Nl-Xt8gn9Q74T5Gv3J5LybMfCFL/view?usp=drivesdk",
+    "sourceSha256": "2fd3d3a4d7744afaf0ad99d6fe79196f6b6f47dc9f5d5479d04f9c801a100b71",
+    "textSha256": "b27110b2ad9e7ea149ee0d36b55b417f7957101f2d6dc3ae85340d23eeb31308",
+    "changeKey": "9a20050be1446437bc54de2babc8ba97",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "82cd881beade6bd198ee",
+    "workId": "82cd881beade6bd198ee",
+    "driveFileId": "1zIGK9Nl-Xt8gn9Q74T5Gv3J5LybMfCFL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:14:54.362396+00:00",
+    "updatedAt": "2026-09-23T06:14:54.362410+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T06:14:54.362518+00:00"
+    }
+  }
+}

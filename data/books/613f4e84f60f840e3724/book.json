@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "문맥 순해",
+    "author": "김영로",
+    "genre": "학습서",
+    "tags": [
+      "영어",
+      "독해",
+      "문맥"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "교육"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영어 교육 전문가로, 문맥 파악을 통한 독해력 향상 방법을 제시하는 저자이다.",
+    "oneLineSummary": "지시어와 관련어 등 문맥적 단서를 활용하여 영어 문장을 정확하게 해석하는 방법을 다룬다.",
+    "overallSummary": "이 책은 영어 독해 시 모르는 단어나 구절을 만났을 때 문맥을 통해 의미를 유추하는 비결을 제시한다. 지시어, 관련어, 논리적 관계 등을 활용하여 문장 내에서 단어의 의미를 찾아내는 훈련을 통해 독해력을 근본적으로 향상시킨다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "문맥 파악 비결",
+        "summary": "지시어, 관련어, 자리(문장 성분) 등을 활용하여 모르는 단어의 의미를 파악하는 방법을 설명한다."
+      },
+      {
+        "sectionTitle": "실전 훈련",
+        "summary": "다양한 예문을 통해 문맥적 단서를 찾고 전체적인 의미를 파악하는 연습을 수행한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "학습 철학",
+        "value": "문맥 중심 독해"
+      },
+      {
+        "key": "핵심 방법",
+        "value": "지시어 활용, 관련어 유추"
+      }
+    ],
+    "keyEntitiesText": "김영로",
+    "settingText": "영어 독해 학습 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vHRXGOGN21vodV-5xviVkiD5pvcNLkmo",
+    "filename": "문맥순해(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:50.592Z",
+    "size": "325588",
+    "folderPath": [
+      "books",
+      "영어공부"
+    ],
+    "relativePath": "books/영어공부",
+    "webViewLink": "https://drive.google.com/file/d/1vHRXGOGN21vodV-5xviVkiD5pvcNLkmo/view?usp=drivesdk",
+    "sourceSha256": "57b395a373b1b1089d668589f7c5d1f67439296119943b1fdf032b5fdca89706",
+    "textSha256": "9906bef5600b9eb764c3ea01b5593a14b31dca87ae514a1ee835fc4224cab4dc",
+    "changeKey": "ffe2973e92151166bf7fc734999138d2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "613f4e84f60f840e3724",
+    "workId": "613f4e84f60f840e3724",
+    "driveFileId": "1vHRXGOGN21vodV-5xviVkiD5pvcNLkmo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T06:14:41.861812+00:00",
+    "updatedAt": "2026-09-23T06:14:41.861827+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T06:14:41.861971+00:00"
+    }
+  }
+}
