@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "쇼코의 미소",
+    "author": "최은영",
+    "genre": "현대소설",
+    "tags": [
+      "한국소설",
+      "성장",
+      "우정",
+      "가족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1984년 경기 광명 출생. 고려대 국문과 졸업. 2013년 작가세계 신인상 당선으로 등단, 젊은작가상 수상.",
+    "oneLineSummary": "한국인 여고생 소유와 일본인 교환학생 쇼코가 성장 과정에서 겪는 교감과 소원해짐, 그리고 세월의 흐름을 그린 소설.",
+    "overallSummary": "고등학교 시절 문화 교류 프로그램으로 만난 일본 여학생 쇼코와 한국인 주인공 소유는 서로 편지를 주고받으며 인연을 이어간다. 쇼코는 소유의 할아버지와도 깊은 감정적 유대를 맺는다. 세월이 흐르며 각자의 삶에 지치고 상처받으며 서먹해지기도 하지만, 서로에 대한 아련한 그리움과 이해를 찾아가는 과정을 차분하게 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "쇼코의 방문",
+        "summary": "일본 자매학교 견학생으로 한국에 온 쇼코가 소유의 집에 머물며 소유의 가족, 특히 할아버지와 뜻밖의 친밀한 유대를 형성한다."
+      },
+      {
+        "sectionTitle": "서신 주고받기와 균열",
+        "summary": "쇼코가 일본으로 돌아간 뒤 편지를 주고받지만, 현실의 벽과 각자의 서운함 때문에 교류가 소원해진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "타인과의 미묘한 감정적 거리에 대한 성찰 및 관계의 성숙"
+      }
+    ],
+    "keyEntitiesText": "소유(나), 쇼코, 할아버지, 엄마, 하나",
+    "settingText": "한국의 작은 읍내 마을 및 서울, 일본 A시의 바닷가 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "14JrIC_F-07D5g7bblpRg-OnprwEo8DUI",
+    "filename": "최은영-쇼코의 미소-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T13:43:06.000Z",
+    "size": "459267",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/14JrIC_F-07D5g7bblpRg-OnprwEo8DUI/view?usp=drivesdk",
+    "sourceSha256": "1f25ee103c8c6a8267de342a7f735b68be3340414e487a375b9d5dada59c3a5e",
+    "textSha256": "ded195be813bc112c4de48cd91d11f68e798e7a469f4f113f26f24fd8350d765",
+    "changeKey": "f0bb1eb32ddab1181070e092d5542c00",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fc44b999553b04569e19",
+    "workId": "fc44b999553b04569e19",
+    "driveFileId": "14JrIC_F-07D5g7bblpRg-OnprwEo8DUI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:29:09.149112+00:00",
+    "updatedAt": "2026-09-23T18:29:09.149128+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:29:09.149202+00:00"
+    }
+  }
+}

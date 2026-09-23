@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "블루스 하우스",
+    "author": "하재봉",
+    "genre": "현대소설",
+    "tags": [
+      "포스트모던",
+      "1999년",
+      "전화",
+      "환각"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "poetry"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1957년 전북 정읍 출생. 시인이자 소설가, 문화비평가, 테크노아트 퍼포머.",
+    "oneLineSummary": "1999년 세기말적 분위기 속에서 새벽 3시 강물 속에서 걸려온 의문의 전화를 받으며 시작되는 허무와 환상의 포스트모던 소설.",
+    "overallSummary": "1999년 12월, 신해철의 N.E.X.T 노래처럼 세기말의 암울한 예감이 감도는 가운데, 주인공은 강물 속 깊은 곳에서 걸려온 낯선 전화를 받는다. 카페 '블루스 하우스'와 세기말의 고독, TV 광고, 피카소의 청색 시대 그림들이 교차하며 현대 문명과 존재의 허무를 포착한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 사람들 사이에 전화가 있다",
+        "summary": "1999년 12월 새벽 3시, 강물 속에서 걸려온 전화를 받은 일화와 넥스트 공연, 시카고 미술관의 기억, TV 광고 묘사가 감각적으로 전개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 기법",
+        "value": "미디어 텍스트, 노래 가사, 미술 작품을 해체적으로 결합한 대중문화적 글쓰기"
+      }
+    ],
+    "keyEntitiesText": "나, 미리, 신해철, 미셸, 김벌래",
+    "settingText": "1999년 12월 세기말의 서울 아파트 및 미디어 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "11c-rCXQnLzOOKhPcLDm61v7JcF_R6HU8",
+    "filename": "하재봉-블루스 하우스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.130Z",
+    "size": "411950",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/11c-rCXQnLzOOKhPcLDm61v7JcF_R6HU8/view?usp=drivesdk",
+    "sourceSha256": "56f6d5c58153cb3f5d3608f85aa07736b06eb143c38556b7660a1bf8b2e3c6a5",
+    "textSha256": "375ba7a87b514dc79ef97ac21d81e3624a90fd24c34e662019b94155ea4bfd86",
+    "changeKey": "eb9bfd94a054a08e98f483125a5fff6e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6aa35b52b9d6cf8c0f34",
+    "workId": "6aa35b52b9d6cf8c0f34",
+    "driveFileId": "11c-rCXQnLzOOKhPcLDm61v7JcF_R6HU8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:30:36.820222+00:00",
+    "updatedAt": "2026-09-23T18:30:36.820238+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:30:36.820319+00:00"
+    }
+  }
+}

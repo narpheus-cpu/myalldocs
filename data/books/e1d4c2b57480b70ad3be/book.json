@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "들국화",
+    "author": "하병무",
+    "genre": "현대소설",
+    "tags": [
+      "재회",
+      "실종",
+      "케냐",
+      "오피스텔"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "3년 전 떠났던 첫사랑 유희의 갑작스러운 전화를 받고 오피스텔에서 재회하여 그녀 남편의 해외 행방불명 비극을 전해 듣는 이야기.",
+    "overallSummary": "주인공 창희는 3년 전 다른 남자와 결혼하며 떠났던 유희에게서 연락을 받는다. 영등포구청 앞 장미 오피스텔에서 재회한 유희는 아프리카 케냐로 파견된 남편이 갑자기 소식이 끊겼고 회사 측에서 진상을 은폐하며 자신을 외면한 고통스러운 사연을 털어놓는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "재회1~3",
+        "summary": "유희의 호출 메시지를 받고 장미 오피스텔 912호에서 만나 술을 마시며 남편의 케냐 현장 실종과 회사의 비정한 태도를 듣는 진솔한 재회 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 구조",
+        "value": "희망 없는 오랜 단념과 느닷없는 재회가 불러일으키는 감정적 파동"
+      }
+    ],
+    "keyEntitiesText": "창희, 유희, 유희의 남편, 김창중 이사",
+    "settingText": "서울 지하철 2호선 영등포구청역 및 장미 오피스텔 912호"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DT3-5H_-Hry5x3MtbyPM8GyOLUn_dit7",
+    "filename": "하병무-들국화.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.096Z",
+    "size": "411929",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1DT3-5H_-Hry5x3MtbyPM8GyOLUn_dit7/view?usp=drivesdk",
+    "sourceSha256": "82ae26ee0b6bafc6ea7e5edf18a2c8fb8b85421a27c9bf5b9589835f066424b1",
+    "textSha256": "9afbaeece68c162db2171f383d8a5f96757913f1d3409d37e59e60739c77fa8b",
+    "changeKey": "7e3f9067d8847dd1eda3c7be578d8281",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e1d4c2b57480b70ad3be",
+    "workId": "e1d4c2b57480b70ad3be",
+    "driveFileId": "1DT3-5H_-Hry5x3MtbyPM8GyOLUn_dit7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:30:23.962585+00:00",
+    "updatedAt": "2026-09-23T18:30:23.962600+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:30:23.962683+00:00"
+    }
+  }
+}

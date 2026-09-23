@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑아 나는 통곡한다",
+    "author": "최인호",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "인생관",
+      "추억",
+      "청년문화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1970년대 청년 문학을 대표하는 작가로 대표작으로 '별들의 고향', '상도' 등이 있다.",
+    "oneLineSummary": "작가 최인호가 청년 시절의 추억, 삶에 대한 치열한 열정과 사랑에 대한 고백을 담아낸 수필집.",
+    "overallSummary": "소설가 최인호가 그동안 여러 매체에 기고했던 칼럼과 에세이를 모아 출간한 수상집으로, 대표작 '별들의 고향'을 쓰던 젊은 날의 초상과 가난했던 유년 시절의 기억, 그리고 대충 살지 않고 모든 것에 열정적으로 '통곡하며' 살고 싶다는 삶의 철학을 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책머리에",
+        "summary": "모든 삶의 관점과 사랑, 만남에 열정을 다해 통곡하는 인생을 살고 싶다는 소회를 밝힌다."
+      },
+      {
+        "sectionTitle": "1장 젊은날의 초상",
+        "summary": "서울 중구 예관동과 평동에서 보낸 유년 시절과 가난했던 학창 시절, '별들의 고향' 발표 당시의 회상을 담았다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 문체",
+        "value": "솔직하고 열정적인 어조의 회고적 수필"
+      }
+    ],
+    "keyEntitiesText": "최인호, 경아, 문오, 해인당, 홍주약국",
+    "settingText": "1950~1970년대 서울(예관동, 평동, 북아현동)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1K7XoExNhxikLfg2_qc-PJcdpKDy_FvLy",
+    "filename": "최인호-사랑아 나는 통곡한다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:59.873Z",
+    "size": "366767",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1K7XoExNhxikLfg2_qc-PJcdpKDy_FvLy/view?usp=drivesdk",
+    "sourceSha256": "bd51a61d9fa88c6a74831c0586bf01bff7d30f2696e5c6f731b525362fdf27c7",
+    "textSha256": "5646860c48b9f103572e530072aefb4ccc2e56678f0ef0968fe51e8dd6e2b031",
+    "changeKey": "1239710a2b1844ef40de70f36c890318",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ce2d8b3fce0fc043af41",
+    "workId": "ce2d8b3fce0fc043af41",
+    "driveFileId": "1K7XoExNhxikLfg2_qc-PJcdpKDy_FvLy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:29:15.880436+00:00",
+    "updatedAt": "2026-09-23T18:29:15.880451+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:29:15.880533+00:00"
+    }
+  }
+}

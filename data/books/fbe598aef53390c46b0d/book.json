@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우리와 가까운 곳에",
+    "author": "편혜영",
+    "genre": "현대소설",
+    "tags": [
+      "비밀",
+      "시신발견",
+      "외면",
+      "친구들"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "다양한 수상 경력을 보유한 편혜영 작가의 단편소설.",
+    "oneLineSummary": "친구 수만의 시골 집에 놀러 가던 중 개울가에서 의문의 시신을 발견하고도 모른 척 외면한 채 모임을 갖는 한 남자의 이야기.",
+    "overallSummary": "여행사에 다니는 주인공은 아내 영주와 함께 수만이 지방 소백산맥 자락에 지은 집을 방문한다. 도착 직전 개울가 다리 밑에서 물에 떠 있는 시신을 발견하지만 영주와 친구들에게 끝내 밝히지 않고, 시신을 외면한 채 친구들과 평온하게 식사하며 속으로 갈등한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "개울에서 시신을 목격하는 주인공, 이를 숨긴 채 수만의 근사한 전원주택에서 친구들(나주, 유미, 영주)과 나눈 어색한 대화와 위선."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리 묘사",
+        "value": "비극적 진실을 외면하는 인간의 방관자적 이기심과 위선"
+      }
+    ],
+    "keyEntitiesText": "나, 영주, 수만, 나주, 유미",
+    "settingText": "소백산맥 자락의 사과밭과 개울이 있는 호젓한 시골 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1x7ztMv6I9vWBh1B_zjlORXB-r92ZF6in",
+    "filename": "편혜영-우리와 가까운 곳에(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.037Z",
+    "size": "57137",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1x7ztMv6I9vWBh1B_zjlORXB-r92ZF6in/view?usp=drivesdk",
+    "sourceSha256": "99f78dda2bc77117e61c308eccd386074369e79bf872eac543f466c65edb4dae",
+    "textSha256": "07edfa29c17056c6c18b0a22068a325b59fc60abd7c74079006d0bdbc8122fcc",
+    "changeKey": "98c6b58024c2e1cb87a2a0210f338f17",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fbe598aef53390c46b0d",
+    "workId": "fbe598aef53390c46b0d",
+    "driveFileId": "1x7ztMv6I9vWBh1B_zjlORXB-r92ZF6in",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:30:05.546676+00:00",
+    "updatedAt": "2026-09-23T18:30:05.546692+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:30:05.546772+00:00"
+    }
+  }
+}

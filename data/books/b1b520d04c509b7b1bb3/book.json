@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홀",
+    "author": "편혜영",
+    "genre": "현대소설",
+    "tags": [
+      "사지마비",
+      "기억",
+      "아내의죽음",
+      "회상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "2016년 미국의 셜리 잭슨상을 수상한 편혜영의 대표 장편소설.",
+    "oneLineSummary": "참혹한 교통사고로 아내를 잃고 사지마비가 된 오기가 병상에서 깨어나 자신의 과거와 아내와의 관계를 복기하는 소설.",
+    "overallSummary": "대학 교수인 오기는 아내와 함께 차를 타고 가다 벽에 부딪히는 참혹한 사고를 당한다. 아내는 사망하고 오기는 온몸이 마비된 채 겨우 눈만 깜박일 수 있는 상태로 깨어난다. 의사와 간호사의 무의미한 응원 속에서 오기는 어머니의 자살, 아내와의 만남과 갈등, 사고 전의 참담한 기억들을 하나씩 반추해나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장",
+        "summary": "병원 침대에서 눈을 뜬 오기가 감각이 없는 상태를 깨닫고 의사, 간호사와 눈짓으로 소통하며 현실의 잔인함을 인식한다."
+      },
+      {
+        "sectionTitle": "2장",
+        "summary": "오기의 유년 시절 어머니의 약물 중독 자살과 대학원 시절 만난 아내와의 연애, 아내의 번번이 실패한 집필과 출판 계약 파기 과정을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사적 밀도",
+        "value": "신체적 정폐(靜廢) 상태에서 펼쳐지는 밀실 공포와 기억의 죄의식"
+      }
+    ],
+    "keyEntitiesText": "오기(박오기), 아내, 어머니, 아버지, 의사, 간호사",
+    "settingText": "병원 응급 중환자실 및 오기의 과거 신혼집, 대학 연구실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KpGWO6-so2U6Sh_1DP1iY0hMgCjI1nCw",
+    "filename": "편혜영-홀(2016)(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.046Z",
+    "size": "273482",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1KpGWO6-so2U6Sh_1DP1iY0hMgCjI1nCw/view?usp=drivesdk",
+    "sourceSha256": "82eeb810f6f73ccac571697cfba2623e87e25e196337299c646efb0711b60734",
+    "textSha256": "9cb6ce210fea0f6e884926aa3afd5d4dc6f620a3aaf146753bd340d9594b36f3",
+    "changeKey": "b02016e80d525044097100409915a10d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b1b520d04c509b7b1bb3",
+    "workId": "b1b520d04c509b7b1bb3",
+    "driveFileId": "1KpGWO6-so2U6Sh_1DP1iY0hMgCjI1nCw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:30:11.678121+00:00",
+    "updatedAt": "2026-09-23T18:30:11.678137+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:30:11.678224+00:00"
+    }
+  }
+}

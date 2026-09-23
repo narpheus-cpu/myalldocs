@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "황금동굴",
+    "author": "하재봉",
+    "genre": "현대소설",
+    "tags": [
+      "2000년",
+      "돌고래사육사",
+      "VJ",
+      "밀레니엄"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "시, 소설, 영화비평 등 다방면에서 활동하는 문화 예술가.",
+    "oneLineSummary": "2000년 새해 밀레니엄을 맞이하여 돌고래 사육사인 연인과의 만남과 이별, VJ 주인공의 도시적 삶을 다룬 소설.",
+    "overallSummary": "새해 1월 1일 공항 근처 클럽 하바나에서 술을 마시며 손금을 보는 주인공은 케이블 TV VJ로 일한다. 1년 전 원룸 아파트에 찾아와 함께 살았던 돌고래 사육사 여자와의 기이하고 환상적인 동거 및 그녀의 떠남, 방송국 VJ들의 치열한 경쟁을 포착한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "0. 이 세상 끝까지 ~ 1. 그녀",
+        "summary": "클럽 하바나의 풍경과 몽유병이 있는 돌고래 사육사 여자와의 1년간의 동거 및 스물다섯 번째 생일에 홀로 남겨진 고독."
+      },
+      {
+        "sectionTitle": "2. 나",
+        "summary": "생방송 뮤직비디오 프로그램을 진행하는 VJ로서의 일상, 2기 VJ 채용에 따른 불안과 한국 국적 재취득 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "감각적 문체",
+        "value": "팝 음악, 영화, 트렌디한 도시적 감각을 결합한 스타일리시 서사"
+      }
+    ],
+    "keyEntitiesText": "나(VJ), 그녀(돌고래 사육사), 바텐더, 류, 제인, 수지",
+    "settingText": "2000년 새해 서울의 방송국 스튜디오, 영종도 공항 근처 클럽 하바나, 원룸 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1afHe8iGpRaH7cdL6AtunpQ4oWdkzL52W",
+    "filename": "하재봉-황금동굴.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.157Z",
+    "size": "375667",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1afHe8iGpRaH7cdL6AtunpQ4oWdkzL52W/view?usp=drivesdk",
+    "sourceSha256": "d49815137f6c46d324d856bfcbdd429fbd8d943ad4fe78707e079cc36863704d",
+    "textSha256": "c91065cd7a5bbefe22a8941bcd47713d5bf15ce777b808d5a8ff4e7dbbfbb4a6",
+    "changeKey": "2b905689eaa57c2c1d84db0598ab789c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ead78dbeaf440fad70fd",
+    "workId": "ead78dbeaf440fad70fd",
+    "driveFileId": "1afHe8iGpRaH7cdL6AtunpQ4oWdkzL52W",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:30:49.143436+00:00",
+    "updatedAt": "2026-09-23T18:30:49.143452+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:30:49.143534+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소년이로",
+    "author": "편혜영",
+    "genre": "현대소설",
+    "tags": [
+      "성장",
+      "집안의 몰락",
+      "비밀",
+      "우정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "2000년 등단 이후 독자적인 서사 스타일을 구축한 한국의 대표 소설가.",
+    "oneLineSummary": "친구 유준의 크고 조용한 집을 자주 찾던 소진이 유준 집안의 기우는 몰락과 병든 아버지, 서재의 비밀을 목격하는 이야기.",
+    "overallSummary": "소진은 엄격하고 냉랭한 어머니와 병든 아버지가 있는 친구 유준의 큰 집에 드나드는 것을 좋아한다. 하지만 유준 아버지가 갑자기 거실에서 쓰러지고 집안의 공장 사정이 나빠지면서 유준네 집은 급격히 몰락해 가고, 소진은 그 과정에서 서재의 비밀 서랍이 텅 비어버린 것을 발견한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "유준 집의 엄격한 원칙들, 유준 아버지의 쓰러짐, 집안의 경제적 몰락과 비밀스러운 서재 탐색 과정이 개질된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "소년 시절 목격한 타인 가문의 몰락과 인물의 심리적 균열"
+      }
+    ],
+    "keyEntitiesText": "소진, 유준, 유준 어머니, 유준 아버지, 손님 노인",
+    "settingText": "소도시의 지방 자동차 부품 공장주 거택(회랑과 서재가 있는 큰 한옥/양옥)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Knz0NsVepBnMmWpCRO8-QTIGjk3L8QQj",
+    "filename": "편혜영-소년이로(2019)(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.007Z",
+    "size": "309255",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Knz0NsVepBnMmWpCRO8-QTIGjk3L8QQj/view?usp=drivesdk",
+    "sourceSha256": "98043cfd424fcca862767bd4abf8c9eac3e872061bfe891cd94f888e57fba7b5",
+    "textSha256": "3e9708b6a9dcdcb814d6fb8848aa07cf7ad5a3b54c4f4b14998a84bf28bf9aaa",
+    "changeKey": "fee6ebc0213a099d036d393b3020d66d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "702e9c1bdb3935dc107d",
+    "workId": "702e9c1bdb3935dc107d",
+    "driveFileId": "1Knz0NsVepBnMmWpCRO8-QTIGjk3L8QQj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:29:52.836649+00:00",
+    "updatedAt": "2026-09-23T18:29:52.836664+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:29:52.836744+00:00"
+    }
+  }
+}

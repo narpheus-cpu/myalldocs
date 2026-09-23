@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "크리스마스 바이러스",
+    "author": "터너",
+    "genre": "SF 소설",
+    "tags": [
+      "가상현실",
+      "미래사회",
+      "통신망",
+      "우주관광"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "NewTurn Association 소속 저자.",
+    "oneLineSummary": "2020년 미래 통신망과 우주 관광지 '제너드'를 배경으로 가상체험과 우주 여행을 즐기려는 한 독신 노동자의 이야기.",
+    "overallSummary": "구시대적인 통신망 로우텔을 거쳐 정지궤도 우주스테이션 '제너드'에 도착한 독신 감독관의 이야기이다. 주식 투자로 모은 돈으로 크리스마스 휴가를 맞아 최첨단 가상체험 시설과 우주 호텔을 방문하며 기술이 고도로 발전한 미래 사회의 면면을 경험한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "로우텔 통신 접속 과정과 인스트사의 제너드 우주정거장에 도착하여 가상체험기에 들어가는 준비 과정을 상세히 묘사한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "세계관 설정",
+        "value": "가상세계, 우주스테이션, 정전식 키보드 등 미래 테크놀로지 묘사"
+      }
+    ],
+    "keyEntitiesText": "로우텔, 만리안, 인스트사, 제너드, 오시리스 광컴퓨터",
+    "settingText": "서기 2020년 근미래, 정지궤도 우주스테이션 제너드 및 네트워크 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gtv52egOSFZcJJ44XGyrA5hdZvKsMTEq",
+    "filename": "터너-크리스마스 바이러스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:59.958Z",
+    "size": "125362",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1gtv52egOSFZcJJ44XGyrA5hdZvKsMTEq/view?usp=drivesdk",
+    "sourceSha256": "de8d9c04cffb57ed9ba5c06494db044c18c4c0fb5e054e9ef18c8c789e1fa507",
+    "textSha256": "a2538f76eb92fe0370785c182bd08935dde0552524e5afce36617bb078106861",
+    "changeKey": "1413807ee2bdcd9b157c8c0c12f0d179",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e9828a18d9aa54cd16ae",
+    "workId": "e9828a18d9aa54cd16ae",
+    "driveFileId": "1gtv52egOSFZcJJ44XGyrA5hdZvKsMTEq",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:29:40.993833+00:00",
+    "updatedAt": "2026-09-23T18:29:40.993848+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:29:40.993930+00:00"
+    }
+  }
+}

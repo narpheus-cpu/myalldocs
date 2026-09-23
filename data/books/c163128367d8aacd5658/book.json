@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "검은 사슴",
+    "author": "한강",
+    "genre": "장편소설",
+    "tags": [
+      "상처",
+      "의선",
+      "황곡",
+      "탄광"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국을 대표하는 문학가 한강의 첫 장편소설.",
+    "oneLineSummary": "정체불명의 여인 의선의 실종을 계기로 그녀의 흔적을 찾아 폐광 도시 황곡으로 떠나는 명윤과 인영의 여정을 그린 소설.",
+    "overallSummary": "인영과 명윤은 알몸으로 방파제에 기대어 있던 기이한 여인 의선의 기억과 흔적을 안고 있다. 의선이 갑자기 사라진 후, 명윤과 인영은 그녀가 열네 살 때 기차를 탔다는 탄광 소도시 황곡으로 향하기로 한다. 인영은 상처와 꿈, 기괴한 프라이팬 속 노른자위 태아 환영 속에서 황곡 취재 일정을 잡는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "꿈",
+        "summary": "인영이 꾼 방파제와 의선이 등장하는 기괴한 꿈, 명윤으로부터의 전화, 황곡으로 떠나기 위한 기차표 매표와 취재 준비 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "원형적 모티프",
+        "value": "검은 사슴(지하 굶주린 짐승의 전설)과 인간 내면의 근원적 고독 및 상처"
+      }
+    ],
+    "keyEntitiesText": "인영, 명윤, 의선, 부장, 총무과장",
+    "settingText": "서울의 자취방, 출판사 사무실, 청량리역 및 강원도 탄광 도시 황곡"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1InD7QUqafhePIwtThL3P24V0D_-QOhIb",
+    "filename": "한강-검은 사슴(문학동네 한국문학전집 24)(양장본 HardCover)(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.180Z",
+    "size": "820888",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "한강"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/한강",
+    "webViewLink": "https://drive.google.com/file/d/1InD7QUqafhePIwtThL3P24V0D_-QOhIb/view?usp=drivesdk",
+    "sourceSha256": "59c5d8f4579f553feafcdddba3d5bd27a3c45ca5fc95cb10dfa17ecbb6909afb",
+    "textSha256": "4fe127545b3ef9083905c55729602597008482753ff1e9cfc44d069741f39143",
+    "changeKey": "b2f0e8fd303ef2f563d5247375febc32",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c163128367d8aacd5658",
+    "workId": "c163128367d8aacd5658",
+    "driveFileId": "1InD7QUqafhePIwtThL3P24V0D_-QOhIb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:31:02.169740+00:00",
+    "updatedAt": "2026-09-23T18:31:02.169756+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:31:02.169835+00:00"
+    }
+  }
+}

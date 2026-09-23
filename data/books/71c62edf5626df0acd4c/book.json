@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사육장 쪽으로",
+    "author": "편혜영",
+    "genre": "현대소설",
+    "tags": [
+      "소풍",
+      "안개",
+      "불안",
+      "관계"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대 한국 문학을 대표하는 소설가로, 일상의 불안과 기괴함을 차갑고 정밀한 문체로 다룬다.",
+    "oneLineSummary": "짙은 안개 속 고속도로를 타고 W시로 여행을 떠나는 남녀의 멀미와 답답함, 그리고 소원해진 관계를 다룬 소설.",
+    "overallSummary": "글짓기 강사 여자인 나와 건설 현장 노동자인 남자는 짙은 안개 속 고속도로를 지나 W시로 여행을 떠난다. 답답한 차 안, 멀미, 소통되지 않는 대화, 안개 속 휴게소에서의 뜻밖의 사내와의 만남 등을 통해 두 사람 사이의 불투명한 미래와 권태로운 관계를 서늘하게 묘사한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "소풍",
+        "summary": "안개가 짙게 낀 고속도로를 달리며 느체되는 멀미와 피로 속에서 두 사람이 겪는 심리적 거리감과 갑작스러운 토사물 사건을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징적 매개체",
+        "value": "안개(소통의 부재와 불확실성), 멀미(관계의 피로와 거부감)"
+      }
+    ],
+    "keyEntitiesText": "여자(나), 남자, 탱크로리 사내",
+    "settingText": "짙은 안개가 내린 야간 고속도로 및 휴게소, W시로 향하는 길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HsjGeGgWzo3YxUfFDUMB_JyV3odwovRY",
+    "filename": "편혜영-사육장 쪽으로(2007)(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:59.974Z",
+    "size": "371798",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1HsjGeGgWzo3YxUfFDUMB_JyV3odwovRY/view?usp=drivesdk",
+    "sourceSha256": "0645760745a8e03d87d8147c9890aaa30777031d2f5b722a6de5560d7806901c",
+    "textSha256": "367d2a90beb67766d17844e1515204ae60c6bf49d716864442c4ea0b5ac8704b",
+    "changeKey": "62194212174ef8f163705cba69cbc000",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "71c62edf5626df0acd4c",
+    "workId": "71c62edf5626df0acd4c",
+    "driveFileId": "1HsjGeGgWzo3YxUfFDUMB_JyV3odwovRY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T18:29:46.610464+00:00",
+    "updatedAt": "2026-09-23T18:29:46.610479+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T18:29:46.610562+00:00"
+    }
+  }
+}
