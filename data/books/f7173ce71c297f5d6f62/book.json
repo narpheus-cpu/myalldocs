@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "화석, 지질학 이야기",
+    "author": "장순근",
+    "genre": "과학/지질학",
+    "tags": [
+      "화석",
+      "지질학",
+      "고생물",
+      "지구과학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "남극과학연구단 월동조사대장을 지낸 해양학자이다.",
+    "oneLineSummary": "화석과 바위를 통해 지구 45억 년의 역사와 신비로운 지질학의 세계를 흥미롭게 탐구한다.",
+    "overallSummary": "고생물의 탄생과 화석의 용도, 생명의 대멸종, 인류의 조상, 공룡과 찰스 다윈의 생애를 다룬 전편의 화석 이야기와, 지질학의 특성, 동굴, 해양탐사, 광물과 보석, 판구조론을 다룬 후편의 지질학 이야기로 구성되어 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "화석 이야기 제1장",
+        "summary": "지질시대의 구분과 화석의 정의, 지질학적·생물학적 용도, 그리고 고비 사막의 화석 탐사를 다룬다."
+      },
+      {
+        "sectionTitle": "지질학 이야기 제1장",
+        "summary": "지질학의 특성과 신비로운 지구의 현상들, 기후변화와 빙하기의 도래를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "저자 전문 분야",
+        "value": "해양학 및 지질학"
+      },
+      {
+        "key": "핵심 주제",
+        "value": "지구 역사, 화석, 판구조론"
+      }
+    ],
+    "keyEntitiesText": "장순근, 찰스 다윈, 도비니, 리키 가족",
+    "settingText": "남극 세종기지, 고비 사막, 그랜드캐니언 등 전 세계 지질 조사 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1C_0l5OdtTTlcn0GKSCr9R9X01SSvxqqk",
+    "filename": "화석, 지질학 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.878Z",
+    "size": "676742",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1C_0l5OdtTTlcn0GKSCr9R9X01SSvxqqk/view?usp=drivesdk",
+    "sourceSha256": "c79fc8194e64f80c586820cef73e519be2ddaef6390c215f2d5f76607526aa68",
+    "textSha256": "9b77a4eb612690b3ddcf97e8cc7bf43c8d0686b7ef3b620dea4f7698426c0f0d",
+    "changeKey": "1b28f582a31e0b6a27995199c221911b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f7173ce71c297f5d6f62",
+    "workId": "f7173ce71c297f5d6f62",
+    "driveFileId": "1C_0l5OdtTTlcn0GKSCr9R9X01SSvxqqk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:59:40.289477+00:00",
+    "updatedAt": "2026-09-23T03:59:40.289492+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:59:40.289583+00:00"
+    }
+  }
+}

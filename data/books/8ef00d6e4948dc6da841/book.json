@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "빅 아이디어",
+    "author": "이언 크로프턴",
+    "genre": "인문/철학",
+    "tags": [
+      "철학",
+      "사상",
+      "역사",
+      "인문학"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "철학, 정치, 과학, 예술 등 인류 역사상 가장 위대한 사상과 아이디어들을 핵심만 요약해 소개한다.",
+    "overallSummary": "플라톤의 형상, 아리스토텔레스의 논리학, 인문주의, 인간의 본성, 형이상학, 실존주의에 이르기까지 인류의 지적 유산을 형성한 거대한 사상적 흐름들을 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "철학과 사상",
+        "summary": "철학의 정의와 소크라테스, 플라톤, 아리스토텔레스의 철학적 개념, 그리고 이성과 윤리학의 기원을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 학문",
+        "value": "철학, 역사, 정치, 형이상학"
+      }
+    ],
+    "keyEntitiesText": "소크라테스, 플라톤, 아리스토텔레스, 토머스 홉스, 장자크 루소, 프리드리히 니체",
+    "settingText": "인류 사상사 전반"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_cpFy3BIrx7fIWF9EU7zE2YZ2fiG7nhG",
+    "filename": "한 장의 지식-빅아이디어(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T22:41:30.000Z",
+    "size": "335746",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1_cpFy3BIrx7fIWF9EU7zE2YZ2fiG7nhG/view?usp=drivesdk",
+    "sourceSha256": "860cb03fe4451b2df327ed1b107f7b9f803e2ba6abe34c7da0ecd86e0471884b",
+    "textSha256": "3ecaafdf5c5c011d5769c7a48bd2cdd4281bb1e3574a30e3cc6ff3344ddee869",
+    "changeKey": "17d6bf0a2db882486374330ebc13b291",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8ef00d6e4948dc6da841",
+    "workId": "8ef00d6e4948dc6da841",
+    "driveFileId": "1_cpFy3BIrx7fIWF9EU7zE2YZ2fiG7nhG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:59:07.977997+00:00",
+    "updatedAt": "2026-09-23T03:59:07.978010+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:59:07.978093+00:00"
+    }
+  }
+}

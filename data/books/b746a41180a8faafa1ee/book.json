@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일상적이지만 절대적인 화학지식 50",
+    "author": "헤일리 버치",
+    "genre": "과학",
+    "tags": [
+      "화학",
+      "원소",
+      "주기율표",
+      "과학상식"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학 작가 겸 편집자로 왕립학회 화학잡지 등에 기고하고 있다.",
+    "oneLineSummary": "맥주에서 핫팬츠까지 우리 삶을 이루는 화학의 핵심 원리와 50가지 매혹적인 주제를 소개한다.",
+    "overallSummary": "원자와 원소, 동위원소, 주기율표의 비밀부터 생명의 기원과 최신 나노 기술에 이르기까지 화학이 어떻게 세상 모든 물질의 바탕이 되는지 흥미롭게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "원자와 원소",
+        "summary": "우주 만물의 기본 구성 단위인 원자의 구조와 전자, 그리고 멘델레예프의 주기율표와 원소의 패턴을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "화학의 기초 구성요소와 응용"
+      }
+    ],
+    "keyEntitiesText": "헤일리 버치, 드미트리 멘델레예프, 헨리히 브란트",
+    "settingText": "화학 실험실 및 자연계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QFf_pi6h5XcsZv3UzFAKSBP_1GfabRqt",
+    "filename": "해리치 버치-일상적이지만 절대적인 화학지식 50(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T23:28:20.000Z",
+    "size": "424535",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1QFf_pi6h5XcsZv3UzFAKSBP_1GfabRqt/view?usp=drivesdk",
+    "sourceSha256": "20ff4af1f5e245df2eb8d8d4635543f64862bad7d8d32853025027c042f2b4a4",
+    "textSha256": "c7b1755852f86085bee3fd4697e0a7dacf8a43cb507bf4e4caf38e3534cc33c5",
+    "changeKey": "d8ed334879228aa064873a84db9cae7b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b746a41180a8faafa1ee",
+    "workId": "b746a41180a8faafa1ee",
+    "driveFileId": "1QFf_pi6h5XcsZv3UzFAKSBP_1GfabRqt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:59:18.570203+00:00",
+    "updatedAt": "2026-09-23T03:59:18.570219+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:59:18.570300+00:00"
+    }
+  }
+}

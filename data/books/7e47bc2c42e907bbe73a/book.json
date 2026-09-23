@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "100개의 미생물, 우주와 만나다",
+    "author": "플로리안 프라이슈테터, 헬무트 융비르트",
+    "genre": "과학",
+    "tags": [
+      "미생물",
+      "우주",
+      "생물학",
+      "천문학"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "플로리안 프라이슈테터는 천문학자이며, 헬무트 융비르트는 분자생물학자이다.",
+    "oneLineSummary": "천문학자와 생물학자의 대화를 통해 지구와 우주를 뒤흔들어온 100가지 미생물의 흥미로운 세계를 탐구한다.",
+    "overallSummary": "눈에 보이지 않는 미세한 존재인 미생물이 생명의 진화, 인류의 역사, 그리고 우주 탐사에 이르기까지 어떻게 깊은 연관을 맺고 있는지 100가지 미생물을 통해 유쾌하게 풀어낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가며 및 분류",
+        "summary": "천문학자와 생물학자의 대담을 통해 미생물 연구의 중요성을 소개하고 분열균 등 기초 미생물 개념을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "공동 저자",
+        "value": "천문학자와 분자생물학자"
+      },
+      {
+        "key": "다루는 소재",
+        "value": "세균, 고세균, 진핵미생물, 바이러스 등 100개"
+      }
+    ],
+    "keyEntitiesText": "플로리안 프라이슈테터, 헬무트 융비르트, 안톤 판 레이우엔훅",
+    "settingText": "지구 및 우주 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Sg0awXo7k13Oux8k_KPzqYigrKGfGkGM",
+    "filename": "플로리안 프라이슈테터 외-100개의 미생물, 우주와 만나다(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-15T17:02:02.000Z",
+    "size": "565175",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1Sg0awXo7k13Oux8k_KPzqYigrKGfGkGM/view?usp=drivesdk",
+    "sourceSha256": "31c6940721013116b19866b63a530b0eee7f94e125ec40e979d57965641df5f6",
+    "textSha256": "6fe995df79f487f637e914c3a4d5d15a9a48fb288371c42d56ad1eee4a73e1f5",
+    "changeKey": "d95bbba036c190c91061894436e8effe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7e47bc2c42e907bbe73a",
+    "workId": "7e47bc2c42e907bbe73a",
+    "driveFileId": "1Sg0awXo7k13Oux8k_KPzqYigrKGfGkGM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:58:51.035651+00:00",
+    "updatedAt": "2026-09-23T03:58:51.035665+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:58:51.035751+00:00"
+    }
+  }
+}

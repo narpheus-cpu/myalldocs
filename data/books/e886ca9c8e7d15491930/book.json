@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우주의 신비",
+    "author": "폴 할펀",
+    "genre": "과학",
+    "tags": [
+      "우주론",
+      "천문학",
+      "역사",
+      "과학사"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "인류가 우주를 바라보는 관점의 변천사와 천문학적 발견들의 역사적 과정을 탐구한다.",
+    "overallSummary": "고대 점성술과 철학적 우주관에서 시작하여 갈릴레오, 케플러, 뉴턴, 그리고 현대의 허블 우주 망원경에 이르기까지 인류가 우주의 구조와 나이, 행성의 운동을 밝혀내며 우주관을 변화시켜 온 과정을 다루고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "행성들의 행진",
+        "summary": "고대인들의 행성 관측과 점성술적 믿음, 그리스 철학자들의 지구 중심 모델, 그리고 코페르니쿠스의 태양 중심설과 브루노의 사상을 다룬다."
+      },
+      {
+        "sectionTitle": "갈릴레오의 재판",
+        "summary": "갈릴레오의 망원경을 통한 천문학적 발견과 종교재판, 그리고 케플러와 뉴턴에 이르는 물리 법칙과 행성 궤도의 발견을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "우주관의 역사적 변혁"
+      },
+      {
+        "key": "주요 과학자",
+        "value": "갈릴레오, 코페르니쿠스, 케플러, 뉴턴"
+      }
+    ],
+    "keyEntitiesText": "폴 할펀, 갈릴레오 갈릴레이, 코페르니쿠스, 요하네스 케플러, 뉴턴, 아리스토텔레스, 플라톤, 브루노",
+    "settingText": "고대 그리스부터 20세기 현대 천문학 발전기에 이르는 역사적 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1020E--neR7eisnacF6LxKlJonH0jCUWx",
+    "filename": "폴 할펀-우주의 신비.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:48.752Z",
+    "size": "138964",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1020E--neR7eisnacF6LxKlJonH0jCUWx/view?usp=drivesdk",
+    "sourceSha256": "75c5b0ad96c98dc971569f13f0af68f480cd25afc6a8e57ca2725ebc34f1e1cc",
+    "textSha256": "2ba7082a546a27c7a3c19b2a213c6db94f1e911802c82f03ffb1219159e1077d",
+    "changeKey": "6e4574853364f9dce65d5911d7ce485b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e886ca9c8e7d15491930",
+    "workId": "e886ca9c8e7d15491930",
+    "driveFileId": "1020E--neR7eisnacF6LxKlJonH0jCUWx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:58:34.387129+00:00",
+    "updatedAt": "2026-09-23T03:58:34.387144+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:58:34.387302+00:00"
+    }
+  }
+}

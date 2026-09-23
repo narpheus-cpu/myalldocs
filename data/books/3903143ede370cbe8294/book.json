@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "물리학",
+    "author": "자일스 스패로",
+    "genre": "과학",
+    "tags": [
+      "물리학",
+      "고전역학",
+      "상대성이론",
+      "우주"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "우주가 작동하는 근본적인 법칙을 파헤치는 물리학의 역사와 핵심 개념들을 다룬다.",
+    "overallSummary": "고전역학에서부터 속력, 가속도, 질량, 마찰력, 운동량, 에너지, 궤도 운동, 케플러 법칙에 이르기까지 일상적인 현상부터 우주적 규모의 물리 법칙까지 알기 쉽게 설명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고전역학과 운동 법칙",
+        "summary": "고전역학의 정의와 속력, 속도, 가속도, 질량, 관성, 무게 등 역학의 기본 요소를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 분야",
+        "value": "고전역학, 천체물리학"
+      }
+    ],
+    "keyEntitiesText": "아이작 뉴턴, 요하네스 케플러, 갈릴레오 갈레이",
+    "settingText": "물리학적 우주 및 실험 환경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PjLut2uKUh7BNW0Go0oMPKWd_dF9A_Q7",
+    "filename": "한 장의 지식-물리학(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T22:38:50.000Z",
+    "size": "316163",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1PjLut2uKUh7BNW0Go0oMPKWd_dF9A_Q7/view?usp=drivesdk",
+    "sourceSha256": "a98ed1df28a3e7ec7501d2060192cb98885d2cffffd9bcdc7989fda8f64a834c",
+    "textSha256": "6a0ad10772ecfe4649d86c454fafd7f2293d9643c59507a11ff96745426d0f6b",
+    "changeKey": "ab1e58dd99e82a9ac1d441f42858c96a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3903143ede370cbe8294",
+    "workId": "3903143ede370cbe8294",
+    "driveFileId": "1PjLut2uKUh7BNW0Go0oMPKWd_dF9A_Q7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:59:00.370116+00:00",
+    "updatedAt": "2026-09-23T03:59:00.370132+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:59:00.370213+00:00"
+    }
+  }
+}

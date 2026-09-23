@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "착한 인류",
+    "author": "프란스 드 발",
+    "genre": "과학/동물학",
+    "tags": [
+      "영장류학",
+      "도덕성",
+      "진화",
+      "무신론"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "세계적인 영장류학자로, 동물들의 공감 능력과 도덕성 진화를 연구해왔다.",
+    "oneLineSummary": "인류의 도덕성은 종교적 가르침이 아니라 영장류의 오랜 계통 속에서 진화한 생물학적 특질이다.",
+    "overallSummary": "침팬지와 보노보 등 영장류와 다른 포유류 동물들의 이타적 행동과 공감 능력을 관찰함으로써, 인간의 도덕성이 종교가 발생하기 훨씬 이전부터 자연 상태에서 진화해왔음을 밝힌다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1장 세속적인 쾌락",
+        "summary": "종교 없이도 도덕적일 수 있음을 주장하며, 영장류와 동물들에게서 관찰되는 이타주의와 공감 능력을 다양한 사례를 통해 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 논지",
+        "value": "도덕의 생물학적 기원"
+      },
+      {
+        "key": "연구 대상",
+        "value": "보노보, 침팬지 등 영장류"
+      }
+    ],
+    "keyEntitiesText": "프란스 드 발, 달라이 라마, 히에로니무스 보스, 피오니",
+    "settingText": "에모리대학교, 동물원 등 영장류 관찰 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YBjGbocMMornS_hrTNubi36MXadJxPov",
+    "filename": "프란스 드 발-착한 인류(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T21:39:38.000Z",
+    "size": "643100",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1YBjGbocMMornS_hrTNubi36MXadJxPov/view?usp=drivesdk",
+    "sourceSha256": "37f978e5b524eb6a7186cf69be7d8378e9e4b05091161aed546948c6ac2ab6c7",
+    "textSha256": "9e715f5358b71751cbbd5dcb9a6b49a84ce3f4fbf244d32feb9c83711ea8682d",
+    "changeKey": "d8570bc3eb3d527ab359cb2cf98eecda",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "709458b77ee4f9133c9f",
+    "workId": "709458b77ee4f9133c9f",
+    "driveFileId": "1YBjGbocMMornS_hrTNubi36MXadJxPov",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:58:42.801279+00:00",
+    "updatedAt": "2026-09-23T03:58:42.801294+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:58:42.801377+00:00"
+    }
+  }
+}
