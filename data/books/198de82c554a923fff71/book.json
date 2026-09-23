@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 간첩이 아닙니다",
+    "author": "서어리",
+    "genre": "사회·르포",
+    "tags": [
+      "간첩조작",
+      "국정원",
+      "국가폭력",
+      "인권",
+      "탈북자"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "언론협동조합 프레시안의 기자이며 '나는 간첩이 아닙니다' 시리즈로 국제앰네스티 한국지부 언론상을 받았다.",
+    "oneLineSummary": "대한민국 국가기관에 의해 자행된 평범한 이들의 간첩 조작 사건과 끔찍한 인권 유린의 진실을 고발한다.",
+    "overallSummary": "이 책은 2013년 유우성 사건을 비롯해 수십 년간 국가정보원 등 정보기관이 탈북자들과 평범한 시민들을 상대로 가해온 구타, 고문, 협박 등 끔찍한 간첩 조작 만행의 역사를 심층 취재하여 대한민국 민주주의의 어두운 이면을 고발한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "\"대한민국이 나를 고문했다\"",
+        "summary": "1974년 북한을 떠나 남한으로 귀순한 보수단체 간부 김관섭 할아버지가 대성공사와 중앙정보부에서 겪었던 끔찍한 고문과 간첩 누명의 피해를 증언한다."
+      },
+      {
+        "sectionTitle": "\"오줌에서 나던 고춧가루 냄새를 어찌 잊겠습니까\"",
+        "summary": "살기 위해 남한에 내려왔으나 정보기관의 강압에 못 이겨 허위 자백을 하고 끔찍한 물고문과 가혹 행위에 시달렸던 처참한 과거의 기억을 상세히 파헤친다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "탐사보도적 분석",
+        "value": "국가 폭력과 간첩 조작 사건의 피해자 증언을 통해 한국 사회의 인권 현실을 고발함."
+      }
+    ],
+    "keyEntitiesText": "서어리, 김관섭, 유우성, 유가려, 장경욱",
+    "settingText": "대한민국, 대성공사, 중앙정보부"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1d0qJGGL9zVa6JD88e-sU5ByYtXUuoDkv",
+    "filename": "서어리-나는 간첩이 아닙니다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:37.138Z",
+    "size": "138143",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1d0qJGGL9zVa6JD88e-sU5ByYtXUuoDkv/view?usp=drivesdk",
+    "sourceSha256": "5966e256493d6b99fb5c346261e215118df38a53302f3450696adf1c04d62daf",
+    "textSha256": "fdc8f9a470dda2d5a62d5ed174feb47c0a12cb3ff1526d1862706bc497463179",
+    "changeKey": "a348854d482d2919d74ad109128e165b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "198de82c554a923fff71",
+    "workId": "198de82c554a923fff71",
+    "driveFileId": "1d0qJGGL9zVa6JD88e-sU5ByYtXUuoDkv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T00:57:37.373380+00:00",
+    "updatedAt": "2026-09-23T00:57:37.373396+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T00:57:37.373501+00:00"
+    }
+  }
+}
