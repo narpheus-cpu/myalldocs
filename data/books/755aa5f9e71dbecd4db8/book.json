@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "자연의 길과 인간의 길",
+    "author": "차윤근",
+    "genre": "역사/인문",
+    "tags": [
+      "조선",
+      "단종",
+      "조윤",
+      "정절",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "역사",
+        "인물"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "조선 건국과 단종 비극 속에서 굳은 절개를 지킨 역사 속 인물들의 삶을 조명한다.",
+    "overallSummary": "이 책은 조선 건국 당시 새로운 왕조에 협력하지 않고 고려에 대한 절개를 지킨 조윤과, 세조의 수유로 비극적인 죽음을 맞이한 어린 단종, 그리고 그의 시신을 수습한 엄흥도의 이야기를 통해 진정한 의리와 인간의 길이 무엇인지 되돌아보게 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 부끄럽지 않은 마음과 예(藝)",
+        "summary": "이성계의 회유에도 불구하고 고려에 대한 절개를 지키기 위해 이름을 조견으로 바꾸고 은둔한 조윤의 일화를 다룬다."
+      },
+      {
+        "sectionTitle": "2. 저항과 자적",
+        "summary": "영월로 유배되어 비극적 최후를 맞이한 단종과, 그의 시신을 거둬 장사 지낸 호장 엄흥도의 굳은 충절을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 사건",
+        "value": "조선 건국기 및 단종 복위 사건"
+      },
+      {
+        "key": "주요 인물 태도",
+        "value": "왕조 교체기 속 지조와 절개의 실천"
+      }
+    ],
+    "keyEntitiesText": "이성계, 조준, 조윤(조견), 단종, 세조, 왕방연, 엄흥동",
+    "settingText": "조선시대 초기의 두류산, 청계산, 영월 등지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1amaeHU-KS8SlU1F86pnBENjwtcNkiuoj",
+    "filename": "차윤근-자연의 길과 인간의 길 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:43.900Z",
+    "size": "294394",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/1amaeHU-KS8SlU1F86pnBENjwtcNkiuoj/view?usp=drivesdk",
+    "sourceSha256": "4ba699d0a6d77a62875e49da19919885a025ced17b4bbf17d09a6014d6b1fba8",
+    "textSha256": "1f5275fb809de89bca538c05c40389af0a49a4e4ebf2430e3b55e37b09e92cc5",
+    "changeKey": "bf77abcbd4defe476346b8d4e61bb82d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "755aa5f9e71dbecd4db8",
+    "workId": "755aa5f9e71dbecd4db8",
+    "driveFileId": "1amaeHU-KS8SlU1F86pnBENjwtcNkiuoj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:59:50.100295+00:00",
+    "updatedAt": "2026-09-23T01:59:50.100312+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:59:50.100531+00:00"
+    }
+  }
+}
