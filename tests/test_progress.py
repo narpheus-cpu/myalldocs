@@ -348,6 +348,9 @@ def test_current_folder_and_stale_queue_are_recovered_after_refresh():
     relay = (ROOT / "apps-script" / "Code.gs").read_text(encoding="utf-8")
     for phrase in ("syncFolderFromStatus", "setSelectedFolder", "reconcileQueuedStatus", "githubRepository", "folderName:state.selectedFolder.name"):
         assert phrase in script or phrase in (ROOT / "config" / "public-config.js").read_text(encoding="utf-8")
+    assert 'run.status==="completed"&&run.conclusion==="success"' in script
+    assert 'status:"WAITING",phase:"QUEUE_EMPTY"' in script
+    assert 'QUEUE_EMPTY:"새 파일 없음"' in script
     for phrase in ("folderId","folderName","latestIndexRun_","previous[name]"):
         assert phrase in relay
 

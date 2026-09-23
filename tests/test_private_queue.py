@@ -474,6 +474,9 @@ def test_books_json_import_has_apps_script_clock_trigger_and_github_backup():
         "importCanonicalFolder_({limit: 5})",
         "function scheduledCanonicalImportSoon_()",
         "dispatchQueueWorkflow_(preferred)",
+        "function restoreIdleQueueLiveStatus_(scan)",
+        "status: 'WAITING', phase: 'QUEUE_EMPTY'",
+        "if (!nextManifestId)",
     ):
         assert phrase in relay
     assert "https://www.googleapis.com/auth/script.scriptapp" in manifest["oauthScopes"]

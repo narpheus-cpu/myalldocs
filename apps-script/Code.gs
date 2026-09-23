@@ -304,6 +304,7 @@ function scheduledCanonicalImportTick_() {
       var preferred = scan.queuedManifestIds && scan.queuedManifestIds.length ? scan.queuedManifestIds[0] : active[0];
       dispatch = dispatchQueueWorkflow_(preferred);
     }
+    if (!active.length) restoreIdleQueueLiveStatus_(scan);
     var status = scan.errors ? 'WARNING' : 'SUCCESS';
     var message = scan.message || (active.length ? '등록된 대기열을 확인했습니다.' : '새 JSON이 없습니다.');
     if (busy && active.length) message += ' 기존 대기열이 실행 중이므로 완료 후 차례로 이어집니다.';
@@ -320,6 +321,50 @@ function scheduledCanonicalImportTick_() {
     });
     throw error;
   }
+}
+
+/**
+ * A token check or an old manual request can leave LIVE_STATUS_JSON at QUEUED
+ * even though the worker correctly found an empty queue.  The periodic Drive
+ * scan is the authoritative point that knows there is no active work.  Restore
+ * the newest review item when one exists; otherwise show a normal idle state.
+ */
+function restoreIdleQueueLiveStatus_(scan) {
+  var properties = PropertiesService.getScriptProperties();
+  var reviews = queueIds_('PRIVATE_REVIEW_MANIFEST_IDS');
+  var now = new Date().toISOString();
+  if (reviews.length) {
+    try {
+      var id = reviews[reviews.length - 1];
+      var snapshot = queueManifestSnapshot_(id);
+      var state = snapshot.state || {};
+      var entries = Array.isArray(state.entries) ? state.entries : [];
+      var pending = entries.filter(function(item) {
+        return ['COMPLETE', 'SKIPPED'].indexOf(String(item.status || '')) < 0;
+      });
+      properties.setProperty('LIVE_STATUS_JSON', JSON.stringify({
+        status: 'NEEDS_USER_REVIEW', phase: 'NEEDS_USER_REVIEW',
+        message: '새 JSON은 없으며 자동으로 확정할 수 없는 ' + Math.max(1, pending.length) + '개 항목이 사용자 확인을 기다립니다.',
+        queueManifestId: id, queueKind: String(snapshot.manifest.kind || ''),
+        uploadFilename: String(snapshot.manifest.originalFilename || ''),
+        currentFileName: '', currentFileIndex: entries.length, totalFiles: entries.length,
+        complete: entries.filter(function(item) { return String(item.status || '') === 'COMPLETE'; }).length,
+        skipped: entries.filter(function(item) { return String(item.status || '') === 'SKIPPED'; }).length,
+        failed: pending.length, metadataReview: entries.filter(function(item) { return String(item.status || '') === 'NEEDS_METADATA_REVIEW'; }).length,
+        startedAt: String(state.startedAt || snapshot.manifest.createdAt || ''), updatedAt: now
+      }));
+      return;
+    } catch (ignored) {
+      // A temporary Drive read error must not turn an empty queue into ERROR.
+    }
+  }
+  properties.setProperty('LIVE_STATUS_JSON', JSON.stringify({
+    status: 'WAITING', phase: 'QUEUE_EMPTY',
+    message: String(scan && scan.message || '새 JSON이 없습니다. 이미 등록한 파일은 건너뛰었습니다.'),
+    currentFileName: '', currentFileIndex: 0, totalFiles: 0,
+    complete: 0, skipped: 0, failed: 0, metadataReview: 0,
+    updatedAt: now
+  }));
 }
 
 function publicCanonicalImportResult_(result) {
@@ -1424,6 +1469,10 @@ function dispatchQueueWorkflow_(preferredManifestId) {
   var active = queueIds_('PRIVATE_QUEUE_MANIFEST_IDS');
   var preferred = String(preferredManifestId || '');
   var nextManifestId = preferred && active.indexOf(preferred) >= 0 ? preferred : (active.length ? active[0] : '');
+  if (!nextManifestId) {
+    restoreIdleQueueLiveStatus_({message: '실행할 새 업로드 대기열이 없습니다. 이미 등록한 파일은 건너뛰었습니다.'});
+    return {requested: false, scheduledFallback: false, empty: true, message: '실행할 새 업로드 대기열이 없습니다.'};
+  }
   var result = requestQueueWorkflow_(owner, repo, token, nextManifestId);
   if (!result.ok) return queueScheduledFallback_(result.reason, result.code);
   var nextKind = '';
