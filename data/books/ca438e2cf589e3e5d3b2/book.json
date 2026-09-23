@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "역사로 읽는 우리 과학",
+    "author": "과학사랑",
+    "genre": "과학/역사",
+    "tags": [
+      "한국과학사",
+      "과학기술",
+      "역사",
+      "전통과학",
+      "과학사랑"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학사랑 지음으로, 한국의 전통 과학 기술을 역사적 맥락에서 재조명하고 그 가치를 알리는 책이다.",
+    "oneLineSummary": "한국의 전통 과학 기술을 역사적 흐름에 따라 정리하여 우리 과학의 뿌리와 발전 과정을 조명한 책이다.",
+    "overallSummary": "이 책은 한국의 과학 기술이 서구의 기계적 철학과는 다른 독자적인 맥락에서 발전해 왔음을 보여준다. 고대부터 근대까지 농업, 제철, 천문, 의학 등 다양한 분야에서 우리 조상들이 이룩한 과학적 성과를 역사적 인물과 사건을 통해 설명한다. 한국 과학 기술의 자주성과 독창성을 강조하며, 전통 과학에 대한 자부심을 고취하고 21세기 과학 한국의 미래를 모색한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고대와 중세의 과학",
+        "summary": "고대와 중세 한국의 농업, 제철, 천문 등 기초 과학 기술의 성립과 발전 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "근대의 과학과 미래",
+        "summary": "조선 후기부터 근대에 이르기까지 과학 지식의 정리와 서구 문물 도입 과정을 통해 한국 과학의 변화를 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 관점",
+        "value": "한국 과학 기술은 독자적인 역사적 맥락과 자주성을 가지고 발전해 왔다."
+      },
+      {
+        "key": "학문적 의의",
+        "value": "전통 과학 기술의 재조명을 통한 한국 과학의 정체성 확립."
+      }
+    ],
+    "keyEntitiesText": "과학사랑, 장영실, 허준, 정약용, 김정호",
+    "settingText": "고대부터 근대에 이르기까지 한국의 역사적 배경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wBxVS_Mji6m7qb9hNokZDDOTqBRgyxw9",
+    "filename": "역사로 읽는 우리 과학 [과학사랑].txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.910Z",
+    "size": "293289",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1wBxVS_Mji6m7qb9hNokZDDOTqBRgyxw9/view?usp=drivesdk",
+    "sourceSha256": "d91eda94e4c52ad117feb09ac193a47025fb85c5518e309ec6fea4364ddfd37e",
+    "textSha256": "42f2b348888c0808597c5cbf8d8ffb457f41e8dbdb20e9492c39942ab9a80f53",
+    "changeKey": "c002c0d5f4a204b1105d8ea8bb05e144",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ca438e2cf589e3e5d3b2",
+    "workId": "ca438e2cf589e3e5d3b2",
+    "driveFileId": "1wBxVS_Mji6m7qb9hNokZDDOTqBRgyxw9",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:20:41.474572+00:00",
+    "updatedAt": "2026-09-23T03:20:41.474588+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:20:41.474706+00:00"
+    }
+  }
+}

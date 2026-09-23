@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "21세기 과학, 어떻게 오는가",
+    "author": "아서 S. 그레고르",
+    "genre": "과학/역사",
+    "tags": [
+      "과학사",
+      "과학기술",
+      "미래",
+      "우주",
+      "발전"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "science_technical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과학의 역사를 고대부터 21세기까지 통시적으로 정리하여 과학적 사고의 발전 과정을 보여주는 책이다.",
+    "oneLineSummary": "고대부터 현대에 이르기까지 과학적 발견과 기술의 발전 과정을 통해 과학 정신의 탄생과 미래를 조망하는 과학사 책이다.",
+    "overallSummary": "이 책은 인류가 자연의 신비를 합리적으로 파헤치기 위해 노력해 온 역사를 다룬다. 고대, 중세, 르네상스, 근대, 현대에 이르기까지 과학적 발견이 어떻게 인류의 삶을 변화시켰는지 설명한다. 특히 20세기 과학의 비약적 발전과 미래 과학의 방향성을 제시하며, 과학 정신이 고정된 관점을 거부하고 진리를 탐구하는 과정임을 강조한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "과학의 역사적 발전",
+        "summary": "고대부터 19세기까지 과학적 사고와 기술이 어떻게 발전해 왔는지를 시대별로 정리한다."
+      },
+      {
+        "sectionTitle": "20세기 과학과 미래",
+        "summary": "20세기의 비약적인 과학 발전과 미래 과학 기술이 인간에게 미칠 영향과 가능성을 논한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 가치",
+        "value": "과학의 위대함은 고정된 관점을 거부하고 끊임없이 진리를 탐구하는 데 있다."
+      },
+      {
+        "key": "역사적 관점",
+        "value": "과학 기술은 인류의 행복과 발전을 위한 도구로서 발전해 왔다."
+      }
+    ],
+    "keyEntitiesText": "아서 S. 그레고르, 아리스토텔레스, 갈릴레이, 뉴턴, 아인슈타인",
+    "settingText": "인류가 자연의 비밀을 밝히기 위해 노력해 온 전 역사적 배경."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Lug3VNGYXBbLNR3Q2qvMkFGc07bjujot",
+    "filename": "아서 S. 그레고르-21세기 과학, 어떻게 오는가.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:47.786Z",
+    "size": "437093",
+    "folderPath": [
+      "books",
+      "12 기술 과학 IT"
+    ],
+    "relativePath": "books/12 기술 과학 IT",
+    "webViewLink": "https://drive.google.com/file/d/1Lug3VNGYXBbLNR3Q2qvMkFGc07bjujot/view?usp=drivesdk",
+    "sourceSha256": "1664dd8fb68d6438b1d0ed321d802eb72e4ff53ba696e95a469043a6461215df",
+    "textSha256": "554d02e0e0692c1f63b43a571cbbbebe080a2945481e1b2ab02a33a76f1a017b",
+    "changeKey": "3afe31c6e48b1aa5808e77133001093d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a880574eee349215ca87",
+    "workId": "a880574eee349215ca87",
+    "driveFileId": "1Lug3VNGYXBbLNR3Q2qvMkFGc07bjujot",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T03:19:14.802850+00:00",
+    "updatedAt": "2026-09-23T03:19:14.802864+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T03:19:14.802959+00:00"
+    }
+  }
+}
