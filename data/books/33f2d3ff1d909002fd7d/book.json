@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우리는 누구인가",
+    "author": "엄정식",
+    "genre": "철학/에세이",
+    "tags": [
+      "자아 정체성",
+      "철학 기행",
+      "현대인",
+      "한국인"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "인문 에세이",
+        "문화철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "지은이 엄정식은 철학과 현실사를 통해 인간의 정체성과 사상의 흐름을 탐구하는 철학자이다.",
+    "oneLineSummary": "세계 여러 철학적 연고지를 순례하며 인간, 현대인, 그리고 한국인으로서 '우리는 누구인가'를 묻는 철학 에세이다.",
+    "overallSummary": "저자가 지난 10여 년간 세계 곳곳의 철학적 현장을 여행하며 보고 느낀 사유를 정리한 책이다. 소크라테스의 고향 델피부터 스피노자의 집, 사르트르의 무덤까지 서양 철학의 고향들을 방문하고 사상가들과 교감한다. 이를 통해 인간이란 무엇이며, 현대 과학 기술 문명 속에서 분단된 조국을 살아가는 한국인으로서 우리는 과연 누구인가라는 근원적 질문을 던진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 우리는 누구인가 ~ 제5장 현대철학의 행방",
+        "summary": "자아를 찾는 정신적 방황과 서양 철학의 유적지 기행을 통해 인간과 현대 사회, 한국인의 정체성을 철학적으로 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 주제",
+        "value": "철학적 순례를 통한 자아와 '우리'의 정체성 탐구"
+      }
+    ],
+    "keyEntitiesText": "엄정식, 소크라테스, 스피노자, 사르트르, 포퍼, 혜초",
+    "settingText": "아테네, 로마, 암스테르담, 서울 등 세계 여러 도시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16BWdtMmQ1OgdAUI_AcX6Whu1N7xLfC8Z",
+    "filename": "엄정식-우리는 누구인가.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:17:38.723Z",
+    "size": "292759",
+    "folderPath": [
+      "books",
+      "11 실용 종교 자기계발 르포 초자연 등"
+    ],
+    "relativePath": "books/11 실용 종교 자기계발 르포 초자연 등",
+    "webViewLink": "https://drive.google.com/file/d/16BWdtMmQ1OgdAUI_AcX6Whu1N7xLfC8Z/view?usp=drivesdk",
+    "sourceSha256": "02fbb18f477d5706ff086b2975c0c2003f2667de61ed845b290826a86009c6b8",
+    "textSha256": "6dd1ab7ef673561a45cc45ac44d540b066a8adcade0c97f36bb41f582bda0936",
+    "changeKey": "2fa37194d5a2ffad7a43996a4c596202",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "33f2d3ff1d909002fd7d",
+    "workId": "33f2d3ff1d909002fd7d",
+    "driveFileId": "16BWdtMmQ1OgdAUI_AcX6Whu1N7xLfC8Z",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-23T01:19:14.296538+00:00",
+    "updatedAt": "2026-09-23T01:19:14.296563+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-23T01:19:14.296667+00:00"
+    }
+  }
+}
