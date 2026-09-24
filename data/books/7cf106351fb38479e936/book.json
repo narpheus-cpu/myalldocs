@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "결투",
+    "author": "안톤 체호프",
+    "genre": "중편소설",
+    "tags": [
+      "러시아문학",
+      "결투",
+      "인생",
+      "철학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "러시아의 사실주의 작가 안톤 체호프의 원숙기 작품.",
+    "oneLineSummary": "서로 다른 가치관을 가진 두 인물의 갈등과 결투를 통해 삶의 진실을 탐구하는 소설.",
+    "overallSummary": "우유부단한 몽상가 라에프스키와 확고한 신념의 소유자 폰 코렌의 대립을 중심으로, 인간의 본성과 삶의 의미를 묻는 작품이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "결투",
+        "summary": "라에프스키와 폰 코렌의 갈등이 결투로 이어지며, 그 과정에서 인물들의 내면이 변화하는 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제 의식",
+        "value": "진실에 대한 갈망과 인간 의지의 탐구"
+      }
+    ],
+    "keyEntitiesText": "라에프스키, 폰 코렌, 사모이렌코",
+    "settingText": "카프카즈의 휴양지."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1I4VjyTtopa-ZA5_o_weqitpHIVUjM3VZ",
+    "filename": "체호프-결투.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.819Z",
+    "size": "339031",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1I4VjyTtopa-ZA5_o_weqitpHIVUjM3VZ/view?usp=drivesdk",
+    "sourceSha256": "ec06d0f27d8b3d463934197e55ebadfab2bfb5c43f73d8f4b72f00b6c2dd02c8",
+    "textSha256": "2ada54cc5f9587d4bcc5678a88dbf469dfb5d1b844b479ac8b255f67395ca58f",
+    "changeKey": "e648fb460c3d3d9478cb467c1d9f9966",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7cf106351fb38479e936",
+    "workId": "7cf106351fb38479e936",
+    "driveFileId": "1I4VjyTtopa-ZA5_o_weqitpHIVUjM3VZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:25:58.328854+00:00",
+    "updatedAt": "2026-09-24T04:25:58.328871+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8794,
+      "updatedAt": "2026-09-24T04:25:58.328974+00:00"
+    }
+  }
+}

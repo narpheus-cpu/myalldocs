@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "변신",
+    "author": "프란츠 카프카",
+    "genre": "중편소설",
+    "tags": [
+      "실존주의",
+      "소외",
+      "현대문학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "오스트리아-헝가리 제국의 소설가로, 현대인의 소외와 불안을 다룸.",
+    "oneLineSummary": "어느 날 아침 벌레로 변해버린 한 남자의 비극을 통해 현대인의 소외를 그린 작품.",
+    "overallSummary": "가족의 생계를 책임지던 그레고르가 벌레로 변하면서 겪는 가족들의 냉대와 자신의 소외를 다룬 실존주의 문학의 걸작.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "변신",
+        "summary": "벌레로 변한 그레고르와 그를 외면하는 가족들의 비정한 현실."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "현대인의 소외, 가족 관계의 비정함"
+      }
+    ],
+    "keyEntitiesText": "그레고르 잠자, 아버지, 어머니, 누이동생",
+    "settingText": "20세기 초 프라하의 어느 가정집."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19lhv2lZBa2RZ4RICqLOyzuNm-31VdOyC",
+    "filename": "프란츠 카프카-변신(블루프린트)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-06T13:07:10.000Z",
+    "size": "153489",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/19lhv2lZBa2RZ4RICqLOyzuNm-31VdOyC/view?usp=drivesdk",
+    "sourceSha256": "c5dec1410fb1de49ee8c0b13a0983872dc0e7b5f302f4069e370f49192993962",
+    "textSha256": "9b861e567b3733ae2cc885ec97e8688ceaff33b5689e822cc77bc5a325377ee9",
+    "changeKey": "e7003218a5140fae81eb6d701ac2fc37",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dfdf6d0954759f5f6244",
+    "workId": "dfdf6d0954759f5f6244",
+    "driveFileId": "19lhv2lZBa2RZ4RICqLOyzuNm-31VdOyC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:26:27.231589+00:00",
+    "updatedAt": "2026-09-24T04:26:27.231606+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:26:27.231680+00:00"
+    }
+  }
+}

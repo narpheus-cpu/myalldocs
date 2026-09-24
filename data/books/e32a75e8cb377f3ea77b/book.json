@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그라알 이야기",
+    "author": "크레티앵 드 트루아",
+    "genre": "중세 기사도 문학",
+    "tags": [
+      "중세",
+      "기사도",
+      "성배",
+      "전설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "12세기 프랑스의 시인으로, 아서 왕 전설을 문학화한 인물.",
+    "oneLineSummary": "순진한 소년 페르스발이 기사가 되어 성배를 찾아가는 모험담.",
+    "overallSummary": "시골 소년 페르스발이 기사가 되기 위해 떠나고, 성배(그라알)의 성에서 겪는 신비로운 사건과 그 의미를 찾아가는 과정을 그린 중세 기사도 문학의 정수.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그라알 이야기",
+        "summary": "페르스발의 기사 수업과 성배의 신비."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 가치",
+        "value": "성배 전설의 기원이 되는 작품"
+      }
+    ],
+    "keyEntitiesText": "페르스발, 아서 왕, 성배",
+    "settingText": "아서 왕 전설 속의 중세 유럽."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ujLH7K8hcv8Te6TRhGaRxLKnjjSYd5Vf",
+    "filename": "크레티앵 드 트루아-그라알 이야기(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T23:09:58.000Z",
+    "size": "495649",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1ujLH7K8hcv8Te6TRhGaRxLKnjjSYd5Vf/view?usp=drivesdk",
+    "sourceSha256": "e3192388e9d448f0a2aaaac3dd8b18d5b288efa5505d46d1beb2f051c2bf67bb",
+    "textSha256": "a7d590b307870fc3668dae65cc1b62d347e91fc55ac657fb28ab81dd14ae0979",
+    "changeKey": "252a9d79eec61e5ec86702d289cdb378",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e32a75e8cb377f3ea77b",
+    "workId": "e32a75e8cb377f3ea77b",
+    "driveFileId": "1ujLH7K8hcv8Te6TRhGaRxLKnjjSYd5Vf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:26:39.520732+00:00",
+    "updatedAt": "2026-09-24T04:26:39.520751+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:26:39.520824+00:00"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이상한 물질",
+    "author": "테레지아 모라",
+    "genre": "소설",
+    "tags": [
+      "독일문학",
+      "이민",
+      "현대소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "헝가리 출신의 독일어권 작가.",
+    "oneLineSummary": "이민자의 삶과 소외, 그리고 정체성을 다룬 현대적 서사.",
+    "overallSummary": "독일로 이주한 이민자들의 삶을 통해 낯선 땅에서의 소외감, 언어의 장벽, 그리고 정체성을 찾아가는 과정을 다룬 작품.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이상한 물질",
+        "summary": "이민자들의 삶과 그들이 겪는 정체성의 혼란."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "이민, 소외, 정체성"
+      }
+    ],
+    "keyEntitiesText": "이민자들",
+    "settingText": "독일의 현대 사회."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17Nvv4qE7P9B9Y_EGzKccM6-y8hJNwqlT",
+    "filename": "테레지아 모라-이상한 물질(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T23:21:38.000Z",
+    "size": "543656",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/17Nvv4qE7P9B9Y_EGzKccM6-y8hJNwqlT/view?usp=drivesdk",
+    "sourceSha256": "199bf13918c6cfd2a4665ab76f8bdb57cc89d7a77dd7a571ff22ef6bafff3f00",
+    "textSha256": "66bb26942d9c421cce6a7e72a94d3a50a27aa36c6e9035973410efb24a6f76b0",
+    "changeKey": "0b37463386d9dd13cd573e895b95dcaf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e58ee74561bf23c7e12d",
+    "workId": "e58ee74561bf23c7e12d",
+    "driveFileId": "17Nvv4qE7P9B9Y_EGzKccM6-y8hJNwqlT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:26:55.502118+00:00",
+    "updatedAt": "2026-09-24T04:26:55.502134+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:26:55.502208+00:00"
+    }
+  }
+}

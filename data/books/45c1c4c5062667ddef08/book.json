@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마의 산 (상)",
+    "author": "토마스 만",
+    "genre": "장편소설",
+    "tags": [
+      "독일문학",
+      "철학",
+      "교양소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 소설가로, 20세기 문학의 거장.",
+    "oneLineSummary": "요양원에 머물며 삶과 죽음, 정신과 육체를 성찰하는 한 청년의 이야기.",
+    "overallSummary": "평범한 청년 한스 카스토르프가 사촌을 방문하러 다보스의 요양원에 갔다가 폐결핵 진단을 받고 7년간 머물며 겪는 정신적 성장을 다룸.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "도착",
+        "summary": "한스 카스토르프의 요양원 방문과 입원."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "삶과 죽음, 정신과 육체의 대립"
+      }
+    ],
+    "keyEntitiesText": "한스 카스토르프, 요아힘, 세템브리니, 쇼샤",
+    "settingText": "다보스의 요양원 베르크호프."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Of9EYC3TfKrIC2FsMw2GQPCNMEemqDwE",
+    "filename": "토마스 만-마의 산-상(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T23:25:18.000Z",
+    "size": "1214464",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1Of9EYC3TfKrIC2FsMw2GQPCNMEemqDwE/view?usp=drivesdk",
+    "sourceSha256": "a4553d1b8fa9cdfe594fc83ae7bd66db97b0d71a4f56f44ebbaa7b1629a79c32",
+    "textSha256": "c79739c2ae6a0733d91b3912102c98e1db6ea9368199d2b1b7beb12f2bbb8945",
+    "changeKey": "5ce55c059e8c6667e2cb6f055d4274a6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "45c1c4c5062667ddef08",
+    "workId": "45c1c4c5062667ddef08",
+    "driveFileId": "1Of9EYC3TfKrIC2FsMw2GQPCNMEemqDwE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:27:26.295824+00:00",
+    "updatedAt": "2026-09-24T04:27:26.295841+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:27:26.295947+00:00"
+    }
+  }
+}

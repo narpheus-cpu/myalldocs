@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "성",
+    "author": "프란츠 카프카",
+    "genre": "장편소설",
+    "tags": [
+      "실존주의",
+      "관료주의",
+      "소외"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "현대인의 불안과 부조리를 예리하게 파헤친 작가.",
+    "oneLineSummary": "성에 들어가려 하지만 끝내 도달하지 못하는 측량 기사의 좌절을 그린 소설.",
+    "overallSummary": "측량 기사 K가 성의 부름을 받고 마을에 도착하지만, 성의 관료주의와 폐쇄성 때문에 성에 접근하지 못하고 방황하는 부조리한 상황을 묘사.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "성",
+        "summary": "성에 도달하려는 K의 무의미한 노력과 관료주의의 벽."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "관료주의의 부조리, 인간의 실존적 방황"
+      }
+    ],
+    "keyEntitiesText": "K, 성의 관리들, 마을 사람들",
+    "settingText": "눈 덮인 마을과 그 위에 우뚝 솟은 성."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1iIvPVbtuPdHy1RO0qyIU9oASR2LZlDJM",
+    "filename": "프란츠 카프카-성(城) .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:41.566Z",
+    "size": "985241",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1iIvPVbtuPdHy1RO0qyIU9oASR2LZlDJM/view?usp=drivesdk",
+    "sourceSha256": "04220bca6934aefe9d81aa1b9af99cba0b155ff895b4a5cb86a398dd0886aa36",
+    "textSha256": "831af1854e87451f65f277a83baade103aff8c2cb7b78fdf524a6f83321af295",
+    "changeKey": "5acfe4f114c70d6902da911f5d8b3fe0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "529ff1ce46c8fb16fd98",
+    "workId": "529ff1ce46c8fb16fd98",
+    "driveFileId": "1iIvPVbtuPdHy1RO0qyIU9oASR2LZlDJM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:26:33.337229+00:00",
+    "updatedAt": "2026-09-24T04:26:33.337246+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:26:33.337319+00:00"
+    }
+  }
+}

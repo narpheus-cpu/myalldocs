@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "테스",
+    "author": "토마스 하디",
+    "genre": "장편소설",
+    "tags": [
+      "영국문학",
+      "비극",
+      "운명",
+      "사회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 소설가이자 시인.",
+    "oneLineSummary": "가혹한 운명과 사회적 편견에 희생되는 한 여인의 비극적 삶.",
+    "overallSummary": "몰락한 귀족 가문의 딸 테스가 가혹한 운명과 사회적 편견, 그리고 남성들의 이기심으로 인해 비극적인 삶을 살다 가는 과정을 그린 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "우유빛 처녀",
+        "summary": "테스의 순수함과 그녀에게 닥친 불행의 시작."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "운명과 사회적 편견에 대한 비판"
+      }
+    ],
+    "keyEntitiesText": "테스 더비필드, 알렉 더버빌, 엔젤 클레어",
+    "settingText": "19세기 영국 웨섹스 지방."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SsZ2fpqMe64OLVhZ08GqHR2GeD4NLdaY",
+    "filename": "토마스 하디-테스 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.961Z",
+    "size": "1221424",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1SsZ2fpqMe64OLVhZ08GqHR2GeD4NLdaY/view?usp=drivesdk",
+    "sourceSha256": "6c3935fd9dbc5a257672cd168e7a5edea1014cdb8116dbd882320234d9502178",
+    "textSha256": "399fa7d57f8ffcb9a68562f0a24801af172bc51b6b8d3b092da126add187ac96",
+    "changeKey": "995c7072fc86688afd59a54f7e5b7d5d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "14cad387ce147e5d6f11",
+    "workId": "14cad387ce147e5d6f11",
+    "driveFileId": "1SsZ2fpqMe64OLVhZ08GqHR2GeD4NLdaY",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:27:47.784475+00:00",
+    "updatedAt": "2026-09-24T04:27:47.784493+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:27:47.784566+00:00"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마의 산",
+    "author": "토마스 만",
+    "genre": "장편소설",
+    "tags": [
+      "독일문학",
+      "철학",
+      "교양소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 소설가로, 20세기 문학의 거장.",
+    "oneLineSummary": "요양원에서의 7년, 삶과 죽음의 경계에서 인간의 본질을 탐구하다.",
+    "overallSummary": "한스 카스토르프가 다보스의 요양원에서 7년간 머물며 겪는 정신적 성장을 통해 삶과 죽음, 정신과 육체, 시대의 가치를 탐구하는 교양소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "도착",
+        "summary": "한스 카스토르프의 요양원 입원."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "인간의 실존과 정신적 성장"
+      }
+    ],
+    "keyEntitiesText": "한스 카스토르프, 요아힘, 세템브리니, 쇼샤",
+    "settingText": "다보스의 요양원 베르크호프."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1t1RzsMieC6PNPvZtVZ5QCu3EQTdPOirZ",
+    "filename": "토마스 만-마의 산(동서문화사)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T12:57:54.000Z",
+    "size": "2533450",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1t1RzsMieC6PNPvZtVZ5QCu3EQTdPOirZ/view?usp=drivesdk",
+    "sourceSha256": "9b22b9eb9b50b12dcf3984f9ab908f6d54804c2efc5898feff237337889b3397",
+    "textSha256": "1df767aa06d1050428e294d8718c89c79149d8f8dd880bdcfb1ff45523d36ee6",
+    "changeKey": "d41205127b2ff96a40484a88ad4e6d83",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1685e87dd695b5000849",
+    "workId": "1685e87dd695b5000849",
+    "driveFileId": "1t1RzsMieC6PNPvZtVZ5QCu3EQTdPOirZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:27:40.881038+00:00",
+    "updatedAt": "2026-09-24T04:27:40.881055+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:27:40.881128+00:00"
+    }
+  }
+}

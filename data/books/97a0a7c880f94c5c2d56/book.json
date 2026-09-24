@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "첫 번째 주머니 속 이야기",
+    "author": "카렐 차페크",
+    "genre": "단편소설",
+    "tags": [
+      "체코문학",
+      "추리",
+      "단편",
+      "철학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "체코의 작가이자 극작가로, SF와 추리 소설 등 다양한 장르를 개척함.",
+    "oneLineSummary": "일상 속의 미스터리와 인간의 본성을 탐구하는 단편 모음집.",
+    "overallSummary": "경찰관 메이즐리크 박사의 사건 해결 과정을 중심으로, 우연과 필연, 인간의 직관과 본능을 다룬 추리적 요소가 가미된 단편들.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "메이즐리크 박사의 경우",
+        "summary": "경찰관이 우연한 단서로 사건을 해결하며 느끼는 직관과 운에 대한 고뇌."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 특징",
+        "value": "추리 형식을 빌린 인간 심리 탐구"
+      }
+    ],
+    "keyEntitiesText": "메이즐리크 박사, 다스티흐 씨",
+    "settingText": "20세기 초 체코 프라하."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hj-Nig3imRbOhFYgFyQsqCVQuYYiWDgx",
+    "filename": "카렐 차페크-첫 번째 주머니 속 이야기(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T22:53:08.000Z",
+    "size": "472619",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1hj-Nig3imRbOhFYgFyQsqCVQuYYiWDgx/view?usp=drivesdk",
+    "sourceSha256": "89c9b45f9de8daaff07a7b235c865ff1af2fb56106eacac98fd1c9cdf3d37674",
+    "textSha256": "c868bb7b1f350bb82d71bcab4ca189e379048eb67ac47cdb2f5411828acb1017",
+    "changeKey": "158830f12e19d9823417e7c276462d88",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "97a0a7c880f94c5c2d56",
+    "workId": "97a0a7c880f94c5c2d56",
+    "driveFileId": "1hj-Nig3imRbOhFYgFyQsqCVQuYYiWDgx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:26:10.807559+00:00",
+    "updatedAt": "2026-09-24T04:26:10.807576+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:26:10.807647+00:00"
+    }
+  }
+}

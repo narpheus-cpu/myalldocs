@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "톨스토이 인생론",
+    "author": "레프 톨스토이",
+    "genre": "철학/수양",
+    "tags": [
+      "인생",
+      "철학",
+      "사랑",
+      "지혜"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "러시아의 대문호이자 사상가.",
+    "oneLineSummary": "인생의 의미와 선, 사랑에 대한 톨스토이의 철학적 성찰.",
+    "overallSummary": "인생의 근본적인 모순을 해결하고, 이성적인 사랑을 통해 선을 실천하며 살아가는 것이 참된 행복임을 역설하는 사상서.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인간생활의 근본적 모순",
+        "summary": "육체적 생존과 정신적 의식 사이의 갈등."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 가치",
+        "value": "사랑, 이성, 선의 실천"
+      }
+    ],
+    "keyEntitiesText": "레프 톨스토이",
+    "settingText": "인생의 본질에 대한 사색의 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VN5CsxvSDn7SK67nDvd3h-X_ky6GhydB",
+    "filename": "톨스토이-인생론.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:41.178Z",
+    "size": "413657",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1VN5CsxvSDn7SK67nDvd3h-X_ky6GhydB/view?usp=drivesdk",
+    "sourceSha256": "d1fd52c74e2cd6904f2d903b4f70dfc8df3ee1599a186d75030c5dd492e21c98",
+    "textSha256": "c510b6797f4228c43f783f04f3ea6dc649fc223f2ac836dda3111fdfa2192092",
+    "changeKey": "bead92563c859e1b25efc28e7a5db422",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "31aa1df032be756e1556",
+    "workId": "31aa1df032be756e1556",
+    "driveFileId": "1VN5CsxvSDn7SK67nDvd3h-X_ky6GhydB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:27:54.068840+00:00",
+    "updatedAt": "2026-09-24T04:27:54.068857+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8809,
+      "updatedAt": "2026-09-24T04:27:54.068963+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잠 못 이루는 밤을 위하여",
+    "author": "카를 힐티",
+    "genre": "철학/수양",
+    "tags": [
+      "수양",
+      "행복",
+      "철학",
+      "불면"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스위스의 법학자이자 철학자, 종교 사상가.",
+    "oneLineSummary": "불면의 밤을 통해 삶의 의미와 행복을 성찰하는 철학적 에세이.",
+    "overallSummary": "불면증이라는 고통스러운 상황을 신의 선물로 받아들이고, 그 시간을 자기 성찰과 신앙적 고양의 기회로 삼는 방법을 제시한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "잠 못 이루는 밤을 위하여",
+        "summary": "불면의 고통을 극복하고 영적인 성장을 이루는 지혜."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 메시지",
+        "value": "고통을 통한 영적 성숙과 신에 대한 신뢰"
+      }
+    ],
+    "keyEntitiesText": "카를 힐티",
+    "settingText": "개인적인 고뇌와 성찰의 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19HC1pKdiJII1jjqkN8wojRHtgtk637qr",
+    "filename": "카를 힐티-잠 못 이루는 밤을 위하여 등(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T20:12:50.000Z",
+    "size": "2190080",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/19HC1pKdiJII1jjqkN8wojRHtgtk637qr/view?usp=drivesdk",
+    "sourceSha256": "25947ddd4a32e1093f9560df867144ed8b6f62a7a9002ca2f3183aa92aabac40",
+    "textSha256": "669ecca1afe89ae69b9f8fe7bc1fe8858cd79b48a85c70758c620ce897c8985b",
+    "changeKey": "52f5fdb941102aecace91a1883e0af9a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6a0f8900f5f68f764e82",
+    "workId": "6a0f8900f5f68f764e82",
+    "driveFileId": "19HC1pKdiJII1jjqkN8wojRHtgtk637qr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:26:17.596180+00:00",
+    "updatedAt": "2026-09-24T04:26:17.596197+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:26:17.596268+00:00"
+    }
+  }
+}
