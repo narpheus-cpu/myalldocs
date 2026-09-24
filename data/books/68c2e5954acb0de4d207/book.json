@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍루몽 12",
+    "author": "조설근, 고악",
+    "genre": "고전소설",
+    "tags": [
+      "홍루몽",
+      "중국고전",
+      "대관원"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조설근과 고악은 중국 청대의 대표적인 장편소설 홍루몽을 집필한 작가이다.",
+    "oneLineSummary": "대부인의 장례를 치르는 영국부에서 원앙의 순사와 하인들의 도둑질 등 크고 작은 사건이 일어난다.",
+    "overallSummary": "대부인이 세상을 떠난 뒤 영국부와 녕국부는 슬픔 속에 장례를 치른다. 대부인의 충실한 시녀였던 원앙은 슬픔을 이기지 못하고 순사하여 태허환경으로 돌아가고, 집안이 어수선한 틈을 타 불량한 하인들이 도둑질을 모의한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "원앙의 순사와 하인들의 음모",
+        "summary": "원앙은 대부인의 뒤를 따라 목숨을 끊고, 하인 하삼은 집안이 어수선한 틈을 타 도둑질을 모의한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시련과 죽음",
+        "value": "주요 인물들의 죽음과 가문의 몰락 조짐이 비극적으로 그려짐"
+      }
+    ],
+    "keyEntitiesText": "원앙, 보옥, 희봉, 가련, 가정, 하삼",
+    "settingText": "청나라 말기 영국부와 녕국부"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1M-CnQwbIk-VWh3OguYBNDbW_BTMLQPC_",
+    "filename": "조설근 외-홍루몽 012(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T21:04:28.000Z",
+    "size": "452331",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1M-CnQwbIk-VWh3OguYBNDbW_BTMLQPC_/view?usp=drivesdk",
+    "sourceSha256": "ec7b2f73d1dd3b9f0a8a7a608fda4affaeb4e96435196e868a822cee3ff8c44e",
+    "textSha256": "b796620d7d67843f419b5d4a2b0d2b2d490c7ea67bc9de30b489710f9a937d6a",
+    "changeKey": "daba3dbd710afd2d71a48b01d11ccbf4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "68c2e5954acb0de4d207",
+    "workId": "68c2e5954acb0de4d207",
+    "driveFileId": "1M-CnQwbIk-VWh3OguYBNDbW_BTMLQPC_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:01:46.258413+00:00",
+    "updatedAt": "2026-09-24T04:01:46.258424+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3997,
+      "updatedAt": "2026-09-24T04:01:46.258515+00:00"
+    }
+  }
+}

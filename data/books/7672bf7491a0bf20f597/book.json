@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍루몽 8",
+    "author": "조설근, 고악",
+    "genre": "고전소설",
+    "tags": [
+      "홍루몽",
+      "대부인생신",
+      "귀빈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조설근, 고악 공저의 대표적 고전 소설.",
+    "oneLineSummary": "대부인의 팔순 생신을 맞아 성대한 잔치가 열리고 왕공 귀족들이 방문한다.",
+    "overallSummary": "대부인의 팔순 생신을 맞아 영국부와 녕국부는 거창한 연회를 베풀고, 남안태비와 북정왕비 등 높은 신분의 귀부인들이 참석해 자매들을 칭찬하며 선물을 나눈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "대부인의 팔순 잔치",
+        "summary": "황실과 귀족들의 축하 속에서 대부인의 생신 연회가 성대하게 거행된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 배경",
+        "value": "청대 상류층 가문의 거대한 인맥과 화려한 연회 문화 묘사"
+      }
+    ],
+    "keyEntitiesText": "대부인, 남안태비, 북정왕비, 희봉, 우씨, 보옥",
+    "settingText": "영국부와 가음당"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19wmYLg9igRYpH7TUy3X9ymVUhyonU_BA",
+    "filename": "조설근 외-홍루몽 08(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T21:14:32.000Z",
+    "size": "527091",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/19wmYLg9igRYpH7TUy3X9ymVUhyonU_BA/view?usp=drivesdk",
+    "sourceSha256": "cc38dac370cbceabbaea28440fe3dea3a29e845d5c1c54ac00d89aac957b4cfd",
+    "textSha256": "34a6e50c8a3bb496444696a0cd0c665271753889583ff6f091d887b39c06209a",
+    "changeKey": "1dd478f8f8dd1ce21a8622e07e431d28",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7672bf7491a0bf20f597",
+    "workId": "7672bf7491a0bf20f597",
+    "driveFileId": "19wmYLg9igRYpH7TUy3X9ymVUhyonU_BA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:02:33.866336+00:00",
+    "updatedAt": "2026-09-24T04:02:33.866346+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3563,
+      "updatedAt": "2026-09-24T04:02:33.866441+00:00"
+    }
+  }
+}

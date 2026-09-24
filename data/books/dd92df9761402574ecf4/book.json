@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "동물농장",
+    "author": "조지 오웰",
+    "genre": "우화소설",
+    "tags": [
+      "소련풍자",
+      "혁명",
+      "권력"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조지 오웰은 권력의 부패와 전체주의를 날카롭게 비판한 영국의 작가이다.",
+    "oneLineSummary": "메이너 농장의 동물들이 인간을 쫓아내고 스스로 농장을 운영하지만, 돼지들의 권력 독점으로 또 다른 압제를 겪게 된다.",
+    "overallSummary": "메이너 농장의 동물들은 메이저 영감의 가르침에 따라 반란을 일으켜 인간 주인 존스를 쫓아내고 동물농장을 세운다. 그러나 영리한 돼지 나폴레옹과 스노우볼을 중심으로 권력 다툼이 벌어지고, 동물주의의 이상은 점차 변질된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "메이저 영감의 연설과 반란",
+        "summary": "메이저 영감은 동물들에게 혁명의 필요성을 설파하고, 이후 동물들은 주인을 몰아내고 농장을 차지한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "우화적 풍자",
+        "value": "러시아 혁명과 스탈린주의의 타락 과정을 동물 우화를 통해 신랄하게 풍자"
+      }
+    ],
+    "keyEntitiesText": "메이저 영감, 나폴레옹, 스노우볼, 복서, 존스",
+    "settingText": "메이너 농장 (동물농장)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pCLLGTuUsz3yuh6VHl6Yg5xhsllLv8p_",
+    "filename": "조지 오웰-동물농장(블루프린트)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T13:28:36.000Z",
+    "size": "197650",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1pCLLGTuUsz3yuh6VHl6Yg5xhsllLv8p_/view?usp=drivesdk",
+    "sourceSha256": "b8130d848190b4f62e11597cfadd5e9866a4e6d0b6934cdcffed4b578a0fa0e2",
+    "textSha256": "686d12f647dd31c1a7defb3ad2a38567394459781fb9383ac327322ef4c9d2ec",
+    "changeKey": "53371d9e2710bfa382336a245acff95e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dd92df9761402574ecf4",
+    "workId": "dd92df9761402574ecf4",
+    "driveFileId": "1pCLLGTuUsz3yuh6VHl6Yg5xhsllLv8p_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:03:06.038293+00:00",
+    "updatedAt": "2026-09-24T04:03:06.038303+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:03:06.038399+00:00"
+    }
+  }
+}

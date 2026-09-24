@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍루몽 9",
+    "author": "조설근, 고악",
+    "genre": "고전소설",
+    "tags": [
+      "홍루몽",
+      "마법",
+      "가정"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조설근, 고악 공저의 고전 장편소설.",
+    "oneLineSummary": "보옥과 희봉을 해치려던 저주의 실체가 드러나고 가문이 충격을 받는다.",
+    "overallSummary": "과거 보옥과 희봉을 앓게 만들었던 저주와 사악한 주술의 실체가 관아의 수사를 통해 밝혀진다. 범인인 수양어미의 정체와 악행이 드러나면서 집안은 큰 충격에 휩싸인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "저주 사건의 전말",
+        "summary": "과거 보옥과 희봉을 괴롭혔던 주술과 저주의 전모가 밝혀져 사람들을 경악게 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사적 반전",
+        "value": "미스터리한 질병의 원인이 주술적 음모였음을 밝히는 극적인 전개"
+      }
+    ],
+    "keyEntitiesText": "보옥, 희봉, 대부인, 왕부인, 가정",
+    "settingText": "영국부"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OCi5Mzv9WChGCftuv4Vk_cKoqRpFE-b7",
+    "filename": "조설근 외-홍루몽 09(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T21:15:50.000Z",
+    "size": "419399",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1OCi5Mzv9WChGCftuv4Vk_cKoqRpFE-b7/view?usp=drivesdk",
+    "sourceSha256": "549bdcc2ffd94f7cfe77dcd5371564cb8bc9175a0af957cd44dc463a833e6d9a",
+    "textSha256": "996bc331cd20dafb16f78afc7e649c7da93bef99906831309f4177dace9ed49a",
+    "changeKey": "a42ba0dda2fd4d9ab5308072186bdbfe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f44b73b0858d760606be",
+    "workId": "f44b73b0858d760606be",
+    "driveFileId": "1OCi5Mzv9WChGCftuv4Vk_cKoqRpFE-b7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:02:40.298183+00:00",
+    "updatedAt": "2026-09-24T04:02:40.298192+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3563,
+      "updatedAt": "2026-09-24T04:02:40.298286+00:00"
+    }
+  }
+}

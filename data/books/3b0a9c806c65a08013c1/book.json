@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "1984년",
+    "author": "조지 오웰",
+    "genre": "디스토피아 소설",
+    "tags": [
+      "감시사회",
+      "전체주의",
+      "빅 브러더"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "academic",
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조지 오웰은 영국의 소설가이자 정치 평론가로, 전체주의의 폭력을 고발하는 작품을 남겼다.",
+    "oneLineSummary": "빅 브러더가 모든 것을 감시하는 오세아니아에서 윈스턴 스미스는 진실을 갈구하며 은밀한 저항을 시작한다.",
+    "overallSummary": "모든 행동과 생각이 통제되는 전체주의 국가 오세아니아. 주인공 윈스턴 스미스는 텔레스크린의 감시 속에서 과거의 기억과 진실을 찾아내기 위해 몰래 일기를 쓰며 당에 대한 의심을 키워간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부",
+        "summary": "빅 브러더가 지배하는 감시 사회 속에서 윈스턴은 두려움을 무릅쓰고 몰래 일기를 쓰기 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정치적 비판",
+        "value": "전체주의 체제가 개인의 자유와 사고를 통제하는 메커니즘을 경고"
+      }
+    ],
+    "keyEntitiesText": "윈스턴 스미스, 빅 브러더, 오브라이언, 골드스타인",
+    "settingText": "오세아니아 공국의 런던 (1984년)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MP9PRE2KE3Cmo1zpjKMMAS-BkitYoc8w",
+    "filename": "조지 오웰-1984(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T22:39:48.000Z",
+    "size": "725249",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1MP9PRE2KE3Cmo1zpjKMMAS-BkitYoc8w/view?usp=drivesdk",
+    "sourceSha256": "c0e2e20e0709c017f7ff5956de740bccf24fe06175b12b5a70fca8f5904ba58e",
+    "textSha256": "f66f50266d10db50d51881a15000fa99778b3fc523e2ad993fb244aab551d4ef",
+    "changeKey": "b6fde4a13fd17db35c50a14050fe29de",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3b0a9c806c65a08013c1",
+    "workId": "3b0a9c806c65a08013c1",
+    "driveFileId": "1MP9PRE2KE3Cmo1zpjKMMAS-BkitYoc8w",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:03:00.022031+00:00",
+    "updatedAt": "2026-09-24T04:03:00.022040+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.4143,
+      "updatedAt": "2026-09-24T04:03:00.022140+00:00"
+    }
+  }
+}

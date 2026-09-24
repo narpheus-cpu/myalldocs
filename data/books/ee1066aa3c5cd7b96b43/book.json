@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "해저 2만리 2",
+    "author": "쥘 베른",
+    "genre": "모험소설",
+    "tags": [
+      "해저여행",
+      "노틸러스호",
+      "모험"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "쥘 베른은 SF 소설의 선구자로 불리는 프랑스의 작가이다.",
+    "oneLineSummary": "노틸러스호와 함께 인도양, 홍해, 남극 등을 거치며 환상적인 해저 세계를 탐험하는 일행의 여정이 계속된다.",
+    "overallSummary": "아로낙스 교수 일행은 네모 선장과 함께 노틸러스호를 타고 인도양의 진주 채취장, 홍해, 지중해, 그리고 미지의 남극점까지 도달한다. 해저 산책과 수중 사냥 등 경이로운 경험을 하는 한편, 인간 사회를 향한 네모 선장의 깊은 복수심과 비밀을 점차 알게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인도양",
+        "summary": "노틸러스호를 타고 인도양의 투명한 바다와 다양한 해양 생물들을 관찰하는 일행."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "환상과 과학의 결합",
+        "value": "방대한 해양 지식과 모험 서사를 결합하여 독자에게 미지의 세계를 선사"
+      }
+    ],
+    "keyEntitiesText": "네모 선장, 아로낙스 교수, 콩세유, 네드 랜드",
+    "settingText": "인도양, 홍해, 남극 등 전 세계 대양의 해저"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1YO5n98TwJTO6DGYnxHW9dUv1hVGqtS2C",
+    "filename": "쥘 베른-해저 2만리 2-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T13:35:10.000Z",
+    "size": "603971",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1YO5n98TwJTO6DGYnxHW9dUv1hVGqtS2C/view?usp=drivesdk",
+    "sourceSha256": "6f77d1f4dbfd1357426e969464c0bb46bada9eaac1fb0a3fb01533d0b6d5b9b6",
+    "textSha256": "30772cd34f43966ff1dddfe797f301e23866406006eb78bfceb0e61f85250d76",
+    "changeKey": "5d0f8913892af22f56fc3e608fa413c6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ee1066aa3c5cd7b96b43",
+    "workId": "ee1066aa3c5cd7b96b43",
+    "driveFileId": "1YO5n98TwJTO6DGYnxHW9dUv1hVGqtS2C",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:03:45.098107+00:00",
+    "updatedAt": "2026-09-24T04:03:45.098118+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:03:45.098211+00:00"
+    }
+  }
+}

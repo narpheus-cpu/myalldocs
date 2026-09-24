@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍루몽 2",
+    "author": "조설근, 고악",
+    "genre": "고전소설",
+    "tags": [
+      "홍루몽",
+      "가족사",
+      "녕국부"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조설근과 고악은 중국 청대 가문 소설인 홍루몽을 지었다.",
+    "oneLineSummary": "가경의 생일 잔치가 벌어진 녕국부에서 가서는 왕희봉을 보고 음탕한 마음을 품는다.",
+    "overallSummary": "녕국부에서 가경의 생일 잔치가 열려 일가친척들이 모이고 연극 구경과 문병 등이 이어진다. 그 자리에서 가서는 희봉을 보고 음흉한 마음을 품게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "가경의 생일과 가서의 음심",
+        "summary": "녕국부의 생일 잔치에 참석한 가서는 우연히 만난 왕희봉에게 접근하여 음탕한 마음을 드러낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 갈등",
+        "value": "가문 내부의 겉치레와 그 이면에 숨겨진 부도덕한 욕망의 대립"
+      }
+    ],
+    "keyEntitiesText": "가경, 왕희봉, 가서, 보옥, 우씨, 형부인",
+    "settingText": "녕국부와 대관원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1PQUtopBD6HYgjcmyFULIHnZG6XAvN_7k",
+    "filename": "조설근 외-홍루몽 02(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T21:05:50.000Z",
+    "size": "418779",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1PQUtopBD6HYgjcmyFULIHnZG6XAvN_7k/view?usp=drivesdk",
+    "sourceSha256": "d4016c95a861ed6fc4feef1bc4f38a08eb3966fa902fc803d7891f139c6b52eb",
+    "textSha256": "84f7b9b1fd7d1b044661ccf136da00427b4f5b2381239876755c165d9d4dcebe",
+    "changeKey": "4b528b67599e9e53fbb438ce06462ae1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "07c2582d0dad375b4f19",
+    "workId": "07c2582d0dad375b4f19",
+    "driveFileId": "1PQUtopBD6HYgjcmyFULIHnZG6XAvN_7k",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:01:52.771562+00:00",
+    "updatedAt": "2026-09-24T04:01:52.771572+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3563,
+      "updatedAt": "2026-09-24T04:01:52.771668+00:00"
+    }
+  }
+}

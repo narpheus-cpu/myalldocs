@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍루몽 3",
+    "author": "조설근, 고악",
+    "genre": "고전소설",
+    "tags": [
+      "홍루몽",
+      "보옥과 시녀들",
+      "대관원"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조설근과 고악의 대표적인 중국 고전 소설.",
+    "oneLineSummary": "습인의 따끔한 훈계와 보옥의 일탈 행동이 대조를 이룬다.",
+    "overallSummary": "습인은 보옥의 방탕하고 분별없는 행동을 바로잡기 위해 의도적으로 차갑게 대하고, 당황한 보옥은 혼란을 겪는다. 한편 가련은 아내가 없는 틈을 타 부정한 마음을 품는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "습인의 훈계와 보옥의 방황",
+        "summary": "습인은 보옥에게 충고하기 위해 의도적으로 거리를 두고, 보옥은 괴로워하며 장자 독서 등을 통해 소일한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 심리",
+        "value": "보옥을 향한 시녀들의 충정과 도덕적 훈계의 갈등"
+      }
+    ],
+    "keyEntitiesText": "보옥, 습인, 대옥, 보채, 사월, 가련",
+    "settingText": "영국부 이홍원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1r-bbL78rlI5pbhINECMuLLsqyR8HpQIm",
+    "filename": "조설근 외-홍루몽 03(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T21:07:12.000Z",
+    "size": "436721",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1r-bbL78rlI5pbhINECMuLLsqyR8HpQIm/view?usp=drivesdk",
+    "sourceSha256": "54d181ffe30634a1e191c4832836607a5fb29dadfa3cc8171b6e4d06993cee9f",
+    "textSha256": "11edca74f3187caa5035af855aae2f5f4e8be36860d70135f0d54bf53e3a078e",
+    "changeKey": "1888cec1a3ed3d611c9637882369e7ef",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0855a8abb6aa6a1af5e9",
+    "workId": "0855a8abb6aa6a1af5e9",
+    "driveFileId": "1r-bbL78rlI5pbhINECMuLLsqyR8HpQIm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:01:58.959482+00:00",
+    "updatedAt": "2026-09-24T04:01:58.959492+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3563,
+      "updatedAt": "2026-09-24T04:01:58.959587+00:00"
+    }
+  }
+}

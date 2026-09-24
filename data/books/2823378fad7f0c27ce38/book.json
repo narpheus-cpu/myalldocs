@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "열정적 고전 읽기 1",
+    "author": "조중걸",
+    "genre": "인문교양",
+    "tags": [
+      "고전",
+      "인문학",
+      "사회철학"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "philosophy",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조중걸은 인류의 위대한 고전을 통해 삶의 의미와 지혜를 탐구하는 저자이다.",
+    "oneLineSummary": "인간의 사회적 삶과 관련된 에리히 프롬, 에드워드 카 등의 고전을 깊이 있게 해설한다.",
+    "overallSummary": "저자는 소유냐 존재냐, 역사와 개인의 관계, 자유와 교육 등 인간의 사회적 삶을 다룬 대표적 고전들을 선정하여 그 시대적 배경과 철학적 의미를 알기 쉽게 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인간의 사회적 삶에 대하여",
+        "summary": "에리히 프롬의 소유와 존재, 에드워드 카의 역사와 개인 등 사회적 쟁점을 다룬 고전들을 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "교육적 가치",
+        "value": "논술과 깊이 있는 인문학적 독해를 위한 고전 안내서 역할"
+      }
+    ],
+    "keyEntitiesText": "에리히 프롬, 에드워드 카, 존 듀이, 플라톤, 존 스튜어트 밀",
+    "settingText": "현대 사회와 인문학 강좌 배경"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1--GhjyxMjXmyJzZXQ4pEHFhn3KRqd0LK",
+    "filename": "조중걸-열정적 고전읽기-사회1(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T07:10:20.000Z",
+    "size": "333958",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1--GhjyxMjXmyJzZXQ4pEHFhn3KRqd0LK/view?usp=drivesdk",
+    "sourceSha256": "8c96fe07321197b6f919009d30676d03dcfb59fbdea058aaf8fd89b8fa9f0a9b",
+    "textSha256": "66cd74cdf069d8a0bc107175b5ac6be2831f401200a415508233e0e7854b8f2f",
+    "changeKey": "662998ace1b7d4505cf09d00ee09d082",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2823378fad7f0c27ce38",
+    "workId": "2823378fad7f0c27ce38",
+    "driveFileId": "1--GhjyxMjXmyJzZXQ4pEHFhn3KRqd0LK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:02:46.783074+00:00",
+    "updatedAt": "2026-09-24T04:02:46.783084+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7267,
+      "updatedAt": "2026-09-24T04:02:46.783181+00:00"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍루몽 7",
+    "author": "조설근, 고악",
+    "genre": "고전소설",
+    "tags": [
+      "홍루몽",
+      "도난사건",
+      "평아"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조설근, 고악 공저의 고전 장편소설.",
+    "oneLineSummary": "대관원 내에서 벌어진 도난 사건과 평아의 지혜로운 해결 과정이 그려진다.",
+    "overallSummary": "주방의 복령분과 매괴즙 분실 사건으로 인해 오아가 범인으로 몰려 곤경에 처한다. 평아는 사건의 내막을 살피며 억울한 이들이 과도한 벌을 받지 않도록 지혜롭게 수습한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "주방의 도난 사건",
+        "summary": "복령분 사건으로 오아가 억울하게 범인으로 몰리자 평아가 이를 지혜롭게 해결하려 한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 역할",
+        "value": "가문 내부의 갈등 속에서 중재자 역할을 하는 평아의 지혜"
+      }
+    ],
+    "keyEntitiesText": "평아, 희봉, 오아, 연화, 임지효의 아내, 보옥",
+    "settingText": "대관원 주방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_BqKKasA_FPHpk74jMTso1r8GFEIw1FU",
+    "filename": "조설근 외-홍루몽 07(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T21:12:58.000Z",
+    "size": "532167",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1_BqKKasA_FPHpk74jMTso1r8GFEIw1FU/view?usp=drivesdk",
+    "sourceSha256": "2386617c8d71e855cdced762162811b833d2607d562b9218d5acc4021bea4fb5",
+    "textSha256": "a417c20ba0e370beaa8d1c192c0f43eb4cad902f1c0421b74d76f64fc21906ce",
+    "changeKey": "d9e95d9c9a8e49a710b45b00a4fc6908",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cab0e63ed76091882269",
+    "workId": "cab0e63ed76091882269",
+    "driveFileId": "1_BqKKasA_FPHpk74jMTso1r8GFEIw1FU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:02:27.362933+00:00",
+    "updatedAt": "2026-09-24T04:02:27.362944+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3563,
+      "updatedAt": "2026-09-24T04:02:27.363041+00:00"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "키다리 아저씨",
+    "author": "진 웹스터",
+    "genre": "서간체소설",
+    "tags": [
+      "성장소설",
+      "로맨스",
+      "편지글"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "진 웹스터는 미국의 소설가로, 소외된 이들에 대한 애정을 밝고 유머러스한 문체로 그렸다.",
+    "oneLineSummary": "고아원에서 자란 주디는 후원자인 '키다리 아저씨' 덕분에 대학에 진학하고, 그에게 보낸 편지를 통해 밝고 주체적인 성장기를 보여준다.",
+    "overallSummary": "고아원의 최고 연장자였던 저루샤(주디) 애벗은 글 솜씨를 알아본 익명의 후원자(키다리 아저씨)의 도움으로 대학에 입학하게 된다. 주디는 매달 아저씨에게 자신의 대학 생활과 학업, 친구들에 대한 이야기를 유머러스하고 사랑스러운 편지로 써서 보낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "우울한 수요일",
+        "summary": "고아원에서 온갖 잡일을 도맡아 하던 주디가 익명의 후원자로부터 대학 진학 후원을 받게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서간체 형식",
+        "value": "편지글 형식을 통해 주인공의 심리 변화와 성장 과정을 생생하고 친근하게 전달"
+      }
+    ],
+    "keyEntitiesText": "저루샤 애벗 (주디), 키다리 아저씨 (존 스미스), 리펫 원장, 샐리, 줄리아",
+    "settingText": "존 그리어 고아원 및 퍼거슨 기숙사 (대학)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wDLnN743nfCSmsTKQGcF38hgu3qbsbhF",
+    "filename": "진 웹스터-키다리 아저씨 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.768Z",
+    "size": "315543",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1wDLnN743nfCSmsTKQGcF38hgu3qbsbhF/view?usp=drivesdk",
+    "sourceSha256": "c5882c6074702b471a514043c318566569c4f8a96406fdb04cd316e8be9f8d40",
+    "textSha256": "aeb671bdc91ee396e13a4226d63f90db8c7fa3de4b80c3f271a74da2b713ad44",
+    "changeKey": "d87c8b1362e2220e5f95a7342c0d2d98",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "55a52cb34d2b39afabdb",
+    "workId": "55a52cb34d2b39afabdb",
+    "driveFileId": "1wDLnN743nfCSmsTKQGcF38hgu3qbsbhF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:03:51.091862+00:00",
+    "updatedAt": "2026-09-24T04:03:51.091871+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:03:51.091966+00:00"
+    }
+  }
+}

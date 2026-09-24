@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍루몽 4",
+    "author": "조설근, 고악",
+    "genre": "고전소설",
+    "tags": [
+      "홍루몽",
+      "단오절",
+      "시회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조설근과 고악 공저의 장편 고전 소설.",
+    "oneLineSummary": "단오 명절을 맞아 모인 자매들과 보옥의 갈등 및 해소 과정이 그려진다.",
+    "overallSummary": "단오절을 맞아 친척들이 모이지만 분위기는 어색하고 무겁다. 보옥은 청문과 사소한 일로 다투고 부채를 찢으며 화를 풀고, 상운이 방문하여 자매들과 회포를 푼다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "단오 명절과 청문과의 갈등",
+        "summary": "보옥은 시무룩한 상태에서 시녀 청문과 다투게 되고, 화를 풀기 위해 부채를 찢는 장난을 친다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "소설적 장치",
+        "value": "인물 간의 감정 대립과 해소를 통한 심리 묘사"
+      }
+    ],
+    "keyEntitiesText": "보옥, 청문, 습인, 대옥, 보채, 상운",
+    "settingText": "영국부와 대관원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1v9KCKn1n_Y0sgSAZfFIIVtggYAr_pd0e",
+    "filename": "조설근 외-홍루몽 04(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T21:08:36.000Z",
+    "size": "420044",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1v9KCKn1n_Y0sgSAZfFIIVtggYAr_pd0e/view?usp=drivesdk",
+    "sourceSha256": "543c7d79634082fe0117c407cefeda793c2778e1bd8338148b61e5aebd74937f",
+    "textSha256": "ed9b2376ef0c5d458ab1fb3a60fbe796c718f43ad06c0e46322a0bd142db259e",
+    "changeKey": "8e05ebde4d8c8e4b2c454149c0d4091f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "71f642970c88e8b41de1",
+    "workId": "71f642970c88e8b41de1",
+    "driveFileId": "1v9KCKn1n_Y0sgSAZfFIIVtggYAr_pd0e",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:02:05.945097+00:00",
+    "updatedAt": "2026-09-24T04:02:05.945108+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3563,
+      "updatedAt": "2026-09-24T04:02:05.945202+00:00"
+    }
+  }
+}

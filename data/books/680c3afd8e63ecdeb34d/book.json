@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍루몽 5",
+    "author": "조설근, 고악",
+    "genre": "고전소설",
+    "tags": [
+      "홍루몽",
+      "농취암",
+      "묘옥"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "classic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조설근, 고악 공저의 대표적 중국 고전.",
+    "oneLineSummary": "농취암을 방문한 대부인 일행과 묘옥이 차 맛을 논하는 장면이 그려진다.",
+    "overallSummary": "대부인과 일행은 농취암을 방문하여 여승 묘옥의 대접을 받는다. 묘옥은 보채와 대옥, 보옥에게 특별한 차를 대접하고, 보옥은 차 맛과 다구의 우열을 평한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "농취암의 다례",
+        "summary": "대부인 일행이 농취암을 찾아 유모의 실수와 묘옥의 고결한 차 대접을 경험한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 성격",
+        "value": "결벽증에 가까울 정도로 고결함을 추구하는 묘옥의 성격 묘사"
+      }
+    ],
+    "keyEntitiesText": "묘옥, 대부인, 보옥, 보채, 대옥, 유노파",
+    "settingText": "농취암"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yo5yrFAYu8ZdYOSSvXph_xH0yOc74tTO",
+    "filename": "조설근 외-홍루몽 05(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T21:09:56.000Z",
+    "size": "435968",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1yo5yrFAYu8ZdYOSSvXph_xH0yOc74tTO/view?usp=drivesdk",
+    "sourceSha256": "5bc9596cf09e83f254a652f49298c2b91ad8e65cc407e2701740ff421d092cb7",
+    "textSha256": "58323da3091009ea5e789e622b360bd771d10ef59103d2662dd461d1409b559c",
+    "changeKey": "46f1fd54071b871ef6c6d114b81f6615",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "680c3afd8e63ecdeb34d",
+    "workId": "680c3afd8e63ecdeb34d",
+    "driveFileId": "1yo5yrFAYu8ZdYOSSvXph_xH0yOc74tTO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:02:14.595987+00:00",
+    "updatedAt": "2026-09-24T04:02:14.595997+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.3563,
+      "updatedAt": "2026-09-24T04:02:14.596087+00:00"
+    }
+  }
+}
