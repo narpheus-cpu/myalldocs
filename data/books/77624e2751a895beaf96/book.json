@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "가시고기",
+    "author": "조창인",
+    "genre": "소설",
+    "tags": [
+      "부성애",
+      "백혈병",
+      "가족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조창인은 따뜻한 사랑 이야기를 주로 쓰는 작가입니다.",
+    "oneLineSummary": "백혈병에 걸린 아들을 살리기 위해 헌신하는 아버지의 지독한 사랑 이야기입니다.",
+    "overallSummary": "백혈병에 걸린 어린 아들을 살리기 위해 자신의 모든 것을 희생하는 아버지의 헌신적인 사랑과, 아픔을 주지 않기 위해 아이를 멀리 떠나보내는 아버지의 마음을 그린 슬픈 소설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "가시고기",
+        "summary": "백혈병 아들을 위한 아버지의 헌신적인 사랑과 희생을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "부성애의 헌신과 희생"
+      }
+    ],
+    "keyEntitiesText": "다움, 아빠",
+    "settingText": "현대 한국, 병원 및 가정"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MgtI3t-Fk8HBL2HXr1laZHyxab5-FDwS",
+    "filename": "조창인-가시고기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:59.511Z",
+    "size": "475269",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1MgtI3t-Fk8HBL2HXr1laZHyxab5-FDwS/view?usp=drivesdk",
+    "sourceSha256": "56c382e1c308a7bb0b9a2b430501f37bf09b82218d21acea817bbe2e84083534",
+    "textSha256": "562e8288374dcf660061f57c92a9a5961de1240783243df59083c4f598dcae41",
+    "changeKey": "074549dfd2b4ea6b82709383b38e5e4c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "77624e2751a895beaf96",
+    "workId": "77624e2751a895beaf96",
+    "driveFileId": "1MgtI3t-Fk8HBL2HXr1laZHyxab5-FDwS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:16:34.082373+00:00",
+    "updatedAt": "2026-09-24T08:16:34.082390+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:16:34.082473+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "혼불 10권",
+    "author": "최명희",
+    "genre": "대하소설",
+    "tags": [
+      "역사",
+      "전통",
+      "가족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "최명희는 한국의 전통과 정서를 대하소설로 그려낸 작가입니다.",
+    "oneLineSummary": "양반가의 삶과 전통, 그리고 그 속에서 살아가는 사람들의 이야기를 다룹니다.",
+    "overallSummary": "양반가의 삶과 전통, 그리고 그 속에서 살아가는 사람들의 이야기를 통해 한국인의 정신과 풍속을 깊이 있게 그려낸 대하소설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "거기서는 사람들이",
+        "summary": "양반가의 삶과 전통, 그리고 그 속에서 살아가는 사람들의 이야기를 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문화적 가치",
+        "value": "한국의 전통 문화와 민속 관념을 치밀하게 형상화함"
+      }
+    ],
+    "keyEntitiesText": "강모, 효원",
+    "settingText": "1930년대 전라북도 남원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NK59sysMRCh7k09k8uJyvBg9jltxk8Y7",
+    "filename": "최명희-혼불 10권-5부 거기서는 사람들이 2.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:59.790Z",
+    "size": "464686",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "최명희-혼불"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/최명희-혼불",
+    "webViewLink": "https://drive.google.com/file/d/1NK59sysMRCh7k09k8uJyvBg9jltxk8Y7/view?usp=drivesdk",
+    "sourceSha256": "1d499fb56ce3950465c66264b914c680d5f5f09755f4271c86d85ce3a5e59c6e",
+    "textSha256": "45711157d76a61c1a45e0f973381f04f3752c6897827c3b3c92b5a20d58ef10d",
+    "changeKey": "63282a3f83eb112e7795f5ad83da612e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "df87832d70d968ac1acf",
+    "workId": "df87832d70d968ac1acf",
+    "driveFileId": "1NK59sysMRCh7k09k8uJyvBg9jltxk8Y7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:21:48.401407+00:00",
+    "updatedAt": "2026-09-24T08:21:48.401428+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:21:48.401526+00:00"
+    }
+  }
+}

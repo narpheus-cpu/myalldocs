@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "태백산맥 07권",
+    "author": "조정래",
+    "genre": "역사소설",
+    "tags": [
+      "분단",
+      "전쟁",
+      "인민위원회",
+      "보복"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조정래는 한국 현대사의 비극을 대하소설로 그려낸 대표적인 작가입니다.",
+    "oneLineSummary": "인민군 진주와 함께 벌어지는 보복의 악순환과 새로운 사회 질서의 모색을 다룹니다.",
+    "overallSummary": "태백산맥 7권은 인민군이 진주하기 전후의 치안 공백기에 벌어지는 보복 살인과, 인민위원회 결성 및 농지개혁 등 새로운 사회 질서를 구축하려는 시도와 그 과정에서의 갈등을 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "살아서 돌아온 그들",
+        "summary": "인민군 진주 전후의 혼란 속에서 예비검속 피해자 가족들의 보복과 인민위원회의 조직화가 이루어집니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 변화",
+        "value": "무상몰수 무상분배를 골자로 하는 농지개혁과 인민위원회 조직화"
+      }
+    ],
+    "keyEntitiesText": "안창민, 염상진, 하대치, 강동기, 호산댁",
+    "settingText": "1950년 전후, 전라남도 보성군 벌교 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QpcY71rey3O1QfN4mnPrsJdXuUewPgR1",
+    "filename": "조정래-태백산맥 07.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:59.420Z",
+    "size": "559937",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "조정래-아리랑 등",
+      "조정래-태백산맥"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/조정래-아리랑 등/조정래-태백산맥",
+    "webViewLink": "https://drive.google.com/file/d/1QpcY71rey3O1QfN4mnPrsJdXuUewPgR1/view?usp=drivesdk",
+    "sourceSha256": "f2b5d5bd9cf605197d63ea040fa5d2b1d3bb2eac911ba7d176a3b2260748c3e1",
+    "textSha256": "d3234711422fa8ca5deef79acc327c3466d21cc20fd9eef1d7568a48226878b4",
+    "changeKey": "cd2cc2a24ea3ec42f36a392ecf4779c4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "107f7078e51b12acd75a",
+    "workId": "107f7078e51b12acd75a",
+    "driveFileId": "1QpcY71rey3O1QfN4mnPrsJdXuUewPgR1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:15:05.996750+00:00",
+    "updatedAt": "2026-09-24T08:15:05.996768+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.795,
+      "updatedAt": "2026-09-24T08:15:05.996861+00:00"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "푸른 코끼리 1",
+    "author": "최양숙",
+    "genre": "소설",
+    "tags": [
+      "범죄",
+      "비정",
+      "도시"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "최양숙은 도시의 비정한 삶을 다루는 작가입니다.",
+    "oneLineSummary": "비정한 도시에서 살아가는 사람들의 갈등과 운명을 다룹니다.",
+    "overallSummary": "비정한 도시에서 살아가는 사람들의 갈등과 운명, 그리고 그 속에서 벌어지는 범죄와 사랑을 다룬 소설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "비정의 거리",
+        "summary": "비정한 도시에서 살아가는 사람들의 갈등과 운명을 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "도시의 비정함과 범죄를 다루는 하드보일드 스타일"
+      }
+    ],
+    "keyEntitiesText": "강영신, 최양숙",
+    "settingText": "현대 한국 도시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QV_d3Auv8Ep3gweik93_ergGyxf4m5YB",
+    "filename": "최양숙-푸른 코끼리 1-비정의거리.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:59.805Z",
+    "size": "600273",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1QV_d3Auv8Ep3gweik93_ergGyxf4m5YB/view?usp=drivesdk",
+    "sourceSha256": "8df859cdf812a3fb9f76cad768f67336871f555b87b2221d0eae0075fc8f6bc7",
+    "textSha256": "b445b16044260bd74fba74562f78c045274ba6d36f87c9ed1529644bdc8bad2d",
+    "changeKey": "d968f9f8a56a364b29c07b2013fbfb64",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "aebc2524d2e038ae9c6c",
+    "workId": "aebc2524d2e038ae9c6c",
+    "driveFileId": "1QV_d3Auv8Ep3gweik93_ergGyxf4m5YB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:22:06.562504+00:00",
+    "updatedAt": "2026-09-24T08:22:06.562522+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:22:06.562609+00:00"
+    }
+  }
+}

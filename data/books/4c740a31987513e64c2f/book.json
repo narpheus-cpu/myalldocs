@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "혼불 01권",
+    "author": "최명희",
+    "genre": "대하소설",
+    "tags": [
+      "역사",
+      "전통",
+      "가족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "최명희는 한국의 전통과 정서를 대하소설로 그려낸 작가입니다.",
+    "oneLineSummary": "1930년대 남원을 배경으로 몰락해가는 양반가의 이야기를 다룹니다.",
+    "overallSummary": "1930년대 전라북도 남원을 배경으로, 몰락해가는 양반가의 며느리 3대의 이야기를 통해 한국의 전통과 풍속, 그리고 역사를 그려낸 대하소설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "흔들리는 바람",
+        "summary": "몰락해가는 양반가의 이야기를 통해 한국의 전통과 풍속을 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문화적 가치",
+        "value": "한국의 전통 문화와 민속 관념을 치밀하게 형상화함"
+      }
+    ],
+    "keyEntitiesText": "허담, 연일정씨, 이기채",
+    "settingText": "1930년대 전라북도 남원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1phut0VjQhn7TxtEjmYiGpcaFm-gpmPR-",
+    "filename": "최명희-혼불 01권-1부 흔들리는 바람 1.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:59.612Z",
+    "size": "457692",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "최명희-혼불"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/최명희-혼불",
+    "webViewLink": "https://drive.google.com/file/d/1phut0VjQhn7TxtEjmYiGpcaFm-gpmPR-/view?usp=drivesdk",
+    "sourceSha256": "3e647a453e16dbbedd66cbdf769d225b7941391590301b9600ca66968455182d",
+    "textSha256": "9467357245d61b64825b5857bbddb31f4b33c2fe732ef6200259c4f56e3d4b74",
+    "changeKey": "9169cfe5cb71e35419d05cf0df783477",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4c740a31987513e64c2f",
+    "workId": "4c740a31987513e64c2f",
+    "driveFileId": "1phut0VjQhn7TxtEjmYiGpcaFm-gpmPR-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:18:59.151633+00:00",
+    "updatedAt": "2026-09-24T08:18:59.151650+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:18:59.151738+00:00"
+    }
+  }
+}

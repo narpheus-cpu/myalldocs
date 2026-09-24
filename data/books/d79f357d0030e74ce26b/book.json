@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고래",
+    "author": "천명관",
+    "genre": "소설",
+    "tags": [
+      "환상",
+      "역사",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "천명관은 독특한 상상력과 서사로 주목받는 작가입니다.",
+    "oneLineSummary": "한 여인의 파란만장한 삶과 그를 둘러싼 기이한 인물들의 이야기를 다룹니다.",
+    "overallSummary": "한 여인의 파란만장한 삶과 그를 둘러싼 기이한 인물들의 이야기를 환상적인 서사로 풀어낸 소설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "고래",
+        "summary": "한 여인의 파란만장한 삶과 기이한 인물들의 이야기를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "환상적이고 독특한 서사 방식"
+      }
+    ],
+    "keyEntitiesText": "춘희, 금복",
+    "settingText": "한국의 가상 마을 평대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Qj3HdiFjN6QypsK11pITVSNa8G9hmXlD",
+    "filename": "천명관-고래-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T13:38:06.000Z",
+    "size": "860637",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Qj3HdiFjN6QypsK11pITVSNa8G9hmXlD/view?usp=drivesdk",
+    "sourceSha256": "4116b0e542517cb85b362eadb99fad601356f28769677051e21de656015f93aa",
+    "textSha256": "7d671346438783652c855c57a9c213e3b3a784137ab3c0d85003fa991bbd7476",
+    "changeKey": "1d2a4415af0495c6136dbb8d7308eea6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d79f357d0030e74ce26b",
+    "workId": "d79f357d0030e74ce26b",
+    "driveFileId": "1Qj3HdiFjN6QypsK11pITVSNa8G9hmXlD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:18:29.791216+00:00",
+    "updatedAt": "2026-09-24T08:18:29.791241+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:18:29.791354+00:00"
+    }
+  }
+}
