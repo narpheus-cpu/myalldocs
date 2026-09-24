@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "7년의 밤",
+    "author": "정유정",
+    "genre": "소설",
+    "tags": [
+      "세령호",
+      "살인마의 아들",
+      "복수",
+      "기억",
+      "잠수"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정유정은 치밀한 취재와 압도적인 묘사력으로 인간의 본성과 악의 실체를 추적하는 대한민국 대표 스릴러 소설가입니다.",
+    "oneLineSummary": "세령호의 재앙으로 미치광이 살인마의 아들이라는 낙인이 찍힌 최서원이 7년 동안 도망치며 겪은 고통과 진실을 찾아가는 이야기.",
+    "overallSummary": "세령호에서 벌어진 참혹한 사건 이후 아버지는 사형수가 되고, 열두 살의 최서원은 '살인마의 아들'이라는 낙인이 찍혀 친척 집을 전전하며 비참한 삶을 삽니다. 결국 친척들에게 버림받은 서원은 과거 세령호에서 인연이 있었던 아저씨(승환)와 극적으로 재회하여 안산과 등대마을에서 함께 살아가며, 과거의 끔찍한 기억과 마주하게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "세령호의 재앙 직후 경찰에 연행되어 조사를 받고 언론의 플래시 세례를 받으며 살인마의 아들로 낙인찍히는 열두 살 서원의 기억."
+      },
+      {
+        "sectionTitle": "등대 마을 1",
+        "summary": "7년 후, 약국 점원으로 일하는 서원이 등대마을 민박집에서 아저씨와 청년회장을 괴롭히는 무모한 스쿠버다이버 팀과 갈등을 겪는 일상."
+      },
+      {
+        "sectionTitle": "등대 마을 2",
+        "summary": "친척들의 학대와 방임 속에서 도망치듯 살아온 서원의 과거 회상과, 눈보라 속에서 아저씨와 극적으로 재회하여 후견인 관계가 되기까지의 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사적 긴장감의 원천",
+        "value": "과거의 비극적 사건(세령호의 재앙)이 남긴 상처와 낙인이 현재의 삶에 끊임없이 유령처럼 출몰하며 만들어내는 심리적 서스펜스"
+      }
+    ],
+    "keyEntitiesText": "최서원, 아저씨(안승환), 청년회장, 라이방(다이버), 작은아버지, 영주이모, 세령호, 등대마을(신성리)",
+    "settingText": "안개 낀 세령호와 외딴 바닷가 절벽 끝에 위치한 소멸해가는 '등대마을'의 적막하고 고립된 분위기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "12yCXNKLZscsVZ1XGmEWoBOhRNnIn9XxX",
+    "filename": "정유정-7년의 밤-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T13:07:34.000Z",
+    "size": "957027",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/12yCXNKLZscsVZ1XGmEWoBOhRNnIn9XxX/view?usp=drivesdk",
+    "sourceSha256": "9d8f3e427138f308626d5e143306db64f2fa91e573f4dbccb78613c8ff487634",
+    "textSha256": "7689ffb857d89f08f6fd5131789b4368aeda6683f7bfc5e2b2f83836eefc9eb8",
+    "changeKey": "7b88c04fc40d46fa18a2167b6f459890",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "acb5ec4e688ed2ced6a6",
+    "workId": "acb5ec4e688ed2ced6a6",
+    "driveFileId": "12yCXNKLZscsVZ1XGmEWoBOhRNnIn9XxX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:44:48.345607+00:00",
+    "updatedAt": "2026-09-24T07:44:48.345623+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:44:48.345702+00:00"
+    }
+  }
+}

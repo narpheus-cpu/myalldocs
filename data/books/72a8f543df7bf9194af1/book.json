@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "마루타 4",
+    "author": "정현웅",
+    "genre": "소설",
+    "tags": [
+      "결투",
+      "할복",
+      "미군 포로",
+      "폭동",
+      "학살"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정현웅은 전쟁의 광기 속에서도 꺾이지 않는 인간의 양심과, 그로 인해 파멸해가는 인물들의 비극을 극적으로 그려내는 소설가입니다.",
+    "oneLineSummary": "이시이 대위와의 결투에서 승리한 요시다 대위가 미군 포로들의 폭동과 참혹한 학살 과정을 목격하며 겪는 인도주의적 절망.",
+    "overallSummary": "요시다 대위는 안개 낀 제2실험장에서 이시이 나가데 대위와 목숨을 건 결투를 벌여 승리합니다. 패배한 이시이 대위는 수치심에 할복자살을 택합니다. 이후 부대로 복귀한 요시다는 특별반 감옥에서 미군 해병대 포로들이 일으킨 폭동 현장에 통역으로 불려갑니다. 미군 대위는 생체실험의 야만성을 규탄하며 저항하지만, 특별반장 이시이 지로와 나카루 중좌의 명령으로 감옥 안의 모든 마루타들이 참혹하게 총살당하는 비극이 발생합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 마루타 제 16 장 (1)",
+        "summary": "제2실험장 안개 속에서 이시이 나가데 대위와 치열한 결투 끝에 그의 칼을 떨어뜨리고 승리하는 요시다 대위."
+      },
+      {
+        "sectionTitle": "이시이 대위의 할복과 죽음",
+        "summary": "패배를 견디지 못하고 할복한 이시이 대위를 이토오 중위가 권총으로 쏘아 고통을 끝내주는 비극적인 장면."
+      },
+      {
+        "sectionTitle": "미군 포로들의 폭동",
+        "summary": "특별반 12호동 감옥에서 미군 해병대 포로들이 생체실험에 저항하며 폭동을 일으키고, 요시다가 통역으로 나서 설득하려는 상황."
+      },
+      {
+        "sectionTitle": "참혹한 학살",
+        "summary": "설득이 실패하자 이시이 지로 반장과 나카루 중좌의 명령으로 경비원들이 총을 난사하여 감옥 안의 모든 마루타들을 학살하는 현장."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사무라이 정신의 허구성과 광기",
+        "value": "에도 시대를 동경하며 할복을 택하는 이시이 대위의 헛된 명예욕과, 무고한 포로들을 가차 없이 학살하는 군부의 잔혹함을 대조하여 일제 군국주의의 광기를 비판함"
+      }
+    ],
+    "keyEntitiesText": "요시다 대위, 이시이 나가데(대위), 이시이 지로(반장), 나카루(중좌), 이토오(중위), 미군 해병 대위(778번), 후미코, 미요시",
+    "settingText": "새벽 안개가 자욱하게 낀 731부대 제2실험장과, 삼엄한 경비와 철망으로 둘러싸인 특별반 12호동 감옥"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1x53gU2CpKKSYvY_5rrV_hMpkDFusHHLR",
+    "filename": "정현웅-마루타 4.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:58.106Z",
+    "size": "492032",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "정현웅-다라니 등",
+      "정현웅-마루타"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/정현웅-다라니 등/정현웅-마루타",
+    "webViewLink": "https://drive.google.com/file/d/1x53gU2CpKKSYvY_5rrV_hMpkDFusHHLR/view?usp=drivesdk",
+    "sourceSha256": "b7df22ee7d576fa3bb849137a405e83be2eedced79d8fb1521af2614c549b28f",
+    "textSha256": "a1df104b8b5ce7d3536e49b1e99284ee3842ae11c1c048dd4438e46bb0710c12",
+    "changeKey": "ceabdc6fdd145ca869e974ce7bae442c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "72a8f543df7bf9194af1",
+    "workId": "72a8f543df7bf9194af1",
+    "driveFileId": "1x53gU2CpKKSYvY_5rrV_hMpkDFusHHLR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:47:12.642141+00:00",
+    "updatedAt": "2026-09-24T07:47:12.642158+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:47:12.642236+00:00"
+    }
+  }
+}

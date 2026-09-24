@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "28",
+    "author": "정유정",
+    "genre": "소설",
+    "tags": [
+      "재난",
+      "인수공통전염병",
+      "화양",
+      "생존",
+      "개썰매"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정유정은 선 굵은 서사와 압도적인 서스펜스, 인간 내면의 어둠을 치밀하게 파헤치는 한국의 대표적인 베스트셀러 소설가입니다.",
+    "oneLineSummary": "알래스카 개썰매 경주에서의 생존 투쟁과, 가상의 도시 화양에서 발생한 의문의 전염병 재난 속에서 살아남으려는 이들의 극한 드라마.",
+    "overallSummary": "알래스카 아이디타로드 개썰매 경주 도중 화이트아웃과 늑대 무리의 습격을 받아 사투를 벌이는 재형의 이야기와, 폭설이 내리는 가상의 도시 화양에서 의문의 전염병 재난이 발생하여 소방서 구조대원 한기준이 붉은 눈을 가진 개와 피를 토하며 죽어가는 남자를 발견하는 긴박한 상황을 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "알래스카 아이디타로드 개썰매 경주 중 화이트아웃과 늑대 무리를 만나 부상을 입고 극적으로 구조되는 썰매꾼 재형의 이야기."
+      },
+      {
+        "sectionTitle": "1장 그들이 온다",
+        "summary": "화양 동부소방서 구조3팀장 한기준이 화양맨션에서 늑대 같은 짐승의 습격을 피하고, 온몸에 피멍이 든 채 피를 토하며 쓰러진 남자와 죽은 개들을 발견하는 긴박한 상황."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "재난 소설로서의 특징",
+        "value": "인간과 동물 간의 전염병(인수공통전염병)을 매개로 하여, 극한 상황에 처한 인간 군상의 이기심과 생존 본능을 생생하게 묘사함"
+      }
+    ],
+    "keyEntitiesText": "재형, 누콘, 마야, 후크, 한기준, 윤문식, 박동해, 은호, 강혜영, 홍천수, 링고(개), 화양시, 화양맨션",
+    "settingText": "알래스카의 극한 설원 및 폭설이 내리는 가상의 도시 '화양'의 음산하고 긴박한 재난 상황"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1F-ZYIklgXncBo0t2U-K_3pmNLslpJt-W",
+    "filename": "정유정-28-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-07T13:10:16.000Z",
+    "size": "901654",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1F-ZYIklgXncBo0t2U-K_3pmNLslpJt-W/view?usp=drivesdk",
+    "sourceSha256": "5af64e5d8fca11a24fc6f08ff0beb857ebb2d6665c2cb16d3e60c8bb2b10c1ee",
+    "textSha256": "eea7aad5aee37fc8c60874a286487646d540c3972a4d3fd89bbeede0bbdd920f",
+    "changeKey": "ac516d95ce0e0813e984b288a6480cd0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f74215fb9cadc57c44c6",
+    "workId": "f74215fb9cadc57c44c6",
+    "driveFileId": "1F-ZYIklgXncBo0t2U-K_3pmNLslpJt-W",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:44:24.343245+00:00",
+    "updatedAt": "2026-09-24T07:44:24.343261+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:44:24.343340+00:00"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "패키지",
+    "author": "정해연",
+    "genre": "소설",
+    "tags": [
+      "패키지여행",
+      "손승욱",
+      "김석일",
+      "실종",
+      "미끼상품"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정해연은 일상적인 공간에서 벌어지는 미스터리와 인간의 이기심, 숨겨진 진실을 속도감 있게 파헤치는 스릴러 작가입니다.",
+    "oneLineSummary": "단돈 8만 원짜리 싸구려 대마도 패키지여행 도중, 의문의 부자(父子) 여행객이 휴게소에서 흔적도 없이 사라지며 벌어지는 미스터리.",
+    "overallSummary": "계승 여행사의 신입사원 손승욱은 회사에서 관심도 없는 저가 대마도 패키지여행의 가이드를 맡게 됩니다. 버스 출발 직전 탑승한 음침한 분위기의 남자 김석일과 그의 아들 도현은 다른 여행객들과 거리를 두며 수상한 행동을 보입니다. 첫 번째 휴게소인 근목 휴게소에 도착한 후, 이들 부자는 모든 짐을 챙겨 내린 뒤 감쪽같이 사라지고, 가이드 손승욱은 멘탈 붕괴에 빠집니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 수상한 부자의 탑승",
+        "summary": "청량리역에서 출발하는 8만 원짜리 대마도 패키지 버스에 마지막으로 탑승한 차가운 인상의 김석일 부자와, 이들을 바라보는 가이드 손승욱의 시선."
+      },
+      {
+        "sectionTitle": "2. 승객들의 불쾌한 경험",
+        "summary": "버스 안에서 김석일 부자에게 말을 걸었다가 거절당하는 신옥자와 최미숙의 불쾌한 경험, 그리고 김석일 부자의 수상한 행동 묘사."
+      },
+      {
+        "sectionTitle": "3. 휴게소에서의 실종",
+        "summary": "근목 휴게소 도착 후 김석일 부자가 모든 짐을 들고 내린 뒤 집합 시간에 나타나지 않아 본사에 보고하고 홀로 휴게소에 남게 되는 손승욱의 위기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "미스터리 설정의 묘사",
+        "value": "저가 패키지여행이라는 지극히 일상적이고 세속적인 공간에서 갑작스러운 인물들의 실종을 통해 긴장감을 고조시킴"
+      }
+    ],
+    "keyEntitiesText": "손승욱(가이드), 미나, 김석일, 김도현, 신옥자, 최미숙, 반종섭, 김 기사, 근목 휴게소",
+    "settingText": "서울 청량리에서 출발하여 부산으로 향하는 고속도로와 음산한 분위기가 감도는 '근목 휴게소'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15kWHZ0S521L-3CXSg-p2hD9PFhLiOEN_",
+    "filename": "정해연-패키지-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T09:31:24.000Z",
+    "size": "379824",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/15kWHZ0S521L-3CXSg-p2hD9PFhLiOEN_/view?usp=drivesdk",
+    "sourceSha256": "d58ccae46d6f63ebddb9926dd1e480e47c323eafbad81fe1e96ab6f33a8d77e0",
+    "textSha256": "98face9036d3fc4dacd5e79de3e69b86dbbeeca41b7790b82eea5e67cd525e96",
+    "changeKey": "4129e32281582d50cb3f1f6f13e38c5c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "02a4c41f310d666db5d0",
+    "workId": "02a4c41f310d666db5d0",
+    "driveFileId": "15kWHZ0S521L-3CXSg-p2hD9PFhLiOEN_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:45:47.780834+00:00",
+    "updatedAt": "2026-09-24T07:45:47.780850+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:45:47.780924+00:00"
+    }
+  }
+}

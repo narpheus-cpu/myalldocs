@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "완전한 행복",
+    "author": "정유정",
+    "genre": "소설",
+    "tags": [
+      "지유",
+      "엄마",
+      "오리 먹이",
+      "반달늪",
+      "가스라이팅"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정유정은 인간 내면의 가장 깊은 어둠과 나르시시즘, 비정상적인 집착이 만들어내는 파멸을 서늘하게 그려내는 소설가입니다.",
+    "oneLineSummary": "자신의 행복을 위해 타인의 삶을 가차 없이 파괴하는 엄마와, 그 곁에서 기괴한 오리의 비밀을 지키며 살아가는 어린 딸 지유의 이야기.",
+    "overallSummary": "어린 딸 지유는 엄마를 따라 시골집에 올 때마다 엄마가 만드는 특별한 '오리 먹이(돼지고기)'의 비밀을 공유합니다. 이혼한 아빠가 시골집을 찾아온 다음 날 아침, 아빠와 그의 물건들은 흔적도 없이 사라지고 엄마는 손에 피 묻은 붕대를 감은 채 지유에게 아빠는 다시 오지 않을 것이라 말합니다. 지유는 엄마의 통제 속에서 기괴한 불안감을 느끼며 하루를 보냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 오리 먹이의 비밀",
+        "summary": "엄마가 반달늪의 오리들을 위해 돼지고기를 뼈째 손질하고 삶아 민서기에 갈아 먹이를 만드는 과정과, 이를 비밀로 간직하는 지유의 이야기."
+      },
+      {
+        "sectionTitle": "2. 사라진 아빠와 엄마의 상처",
+        "summary": "시골집을 찾아왔던 아빠가 사라진 새벽, 지유가 아래층으로 내려가 손에 피를 흘리며 붕대를 감고 있는 엄마를 발견하고 기괴한 대화를 나누는 장면."
+      },
+      {
+        "sectionTitle": "3. 고립된 하루",
+        "summary": "엄마의 규칙에 따라 2층 방에 갇혀 고립된 채 창밖의 습지를 바라보며 불안하고 긴 하루를 보내는 지유의 심리 묘사."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리적 공포의 묘사",
+        "value": "어린아이의 순진한 시선을 통해 엄마의 잔혹한 범죄 행위와 가스라이팅을 대조적으로 보여줌으로써 극대화된 심리적 공포를 유발함"
+      }
+    ],
+    "keyEntitiesText": "지유(차지유/서지유), 엄마, 아빠(서준영), 새아빠, 반달늪, 시골집",
+    "settingText": "해질 무렵 안개가 피어오르고 되강오리가 비명 지르듯 우는 음산한 '반달늪' 습지와 고립된 이층 시골집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1D0paFgjP7QFvmdWQeiJMq_szchv8WFbG",
+    "filename": "정유정-완전한 행복(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.938Z",
+    "size": "827938",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1D0paFgjP7QFvmdWQeiJMq_szchv8WFbG/view?usp=drivesdk",
+    "sourceSha256": "c598a07022042dbc5eecebdcb78d330c7c0546ae53f540b115bb795a69f3ddac",
+    "textSha256": "2db079f43e4d9b59a04d83b0a4ca1f38ff72ceea81789e7cdcc2de64c5b66893",
+    "changeKey": "bc09a6594b1c7bee0dc6bf4feca7b075",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3decd9f93649cc265a46",
+    "workId": "3decd9f93649cc265a46",
+    "driveFileId": "1D0paFgjP7QFvmdWQeiJMq_szchv8WFbG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:45:23.972032+00:00",
+    "updatedAt": "2026-09-24T07:45:23.972048+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:45:23.972126+00:00"
+    }
+  }
+}
