@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑이 있는 곳에 신도 있다",
+    "author": "톨스토이",
+    "genre": "단편소설",
+    "tags": [
+      "사랑",
+      "신앙",
+      "구두장이",
+      "선행",
+      "교훈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "러시아의 대문호 레프 니콜라예비치 톨스토이는 민중을 위한 애정과 숭고한 정신을 바탕으로 교훈적이고 감동적인 작품들을 남겼다.",
+    "oneLineSummary": "지하 방에서 구두를 고치는 마르틴이 성경을 읽고 이웃을 사랑하며 신을 만나는 이야기.",
+    "overallSummary": "아들을 잃고 실의에 빠졌던 구두장이 마르틴은 노인의 조언으로 성경을 읽으며 신을 위한 삶이 이웃을 사랑하는 것임을 깨닫는다. 어느 날 밤 내일 찾아오겠다는 신의 음성을 듣고, 다음 날 늙은 병사, 가난한 어머니와 아기 등 주변의 어려운 이웃들에게 사랑과 온정을 베풀면서 그들 속에 신이 함께 있음을 깨닫게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~2장",
+        "summary": "아들을 잃고 슬픔에 잠겼던 마르틴이 순례자 노인의 가르침으로 성경을 읽으며 마음의 위안을 얻고 어느 날 밤 신의 음성을 듣는다."
+      },
+      {
+        "sectionTitle": "3~4장",
+        "summary": "다음 날 창밖을 내다보며 기다리던 마르틴은 눈을 치우는 늙은 병사와 아이를 안은 가난한 여인에게 차와 음식을 대접하며 사랑을 실천한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "이웃에 대한 사랑이 곧 신에 대한 사랑임"
+      }
+    ],
+    "keyEntitiesText": "마르틴 아브제이치, 스체파누이치, 가난한 여인",
+    "settingText": "어느 도시의 작고 비좁은 지하 방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tdJJ89PkgnCC64r-Yw4LarK9zkEmQCCz",
+    "filename": "톨스토이-사랑이 있는 곳에 신도 있다 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:41.164Z",
+    "size": "165577",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1tdJJ89PkgnCC64r-Yw4LarK9zkEmQCCz/view?usp=drivesdk",
+    "sourceSha256": "e04e90652c66cbacfa1a8ce9b461dc80c08530ab85d513fd081dd9bb013b1a7d",
+    "textSha256": "2cf4a31772296b8d4fc9f89c48df103230f788e42939e7f06aaedee62012f61f",
+    "changeKey": "785fa9e5a5c6618ff76ddc6f4efed25e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e94b128e1edb621fa99c",
+    "workId": "e94b128e1edb621fa99c",
+    "driveFileId": "1tdJJ89PkgnCC64r-Yw4LarK9zkEmQCCz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:30:16.385373+00:00",
+    "updatedAt": "2026-09-24T04:30:16.385389+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:30:16.385475+00:00"
+    }
+  }
+}

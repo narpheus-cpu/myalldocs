@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "전쟁과 평화",
+    "author": "똘스또이",
+    "genre": "역사소설",
+    "tags": [
+      "나폴레옹",
+      "러시아",
+      "전쟁",
+      "상류사회",
+      "역사관"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "19세기 러시아 리얼리즘 문학의 거장 톨스토이가 방대한 자료와 체험을 바탕으로 쓴 역사적 대작.",
+    "oneLineSummary": "19세기 초 나폴레옹의 러시아 침공을 배경으로 수많은 인물의 삶과 역사의 거대한 흐름을 그린 대서사시.",
+    "overallSummary": "1805년 상류사회의 살롱 풍경에서 시작하여 나폴레옹 전쟁이라는 거대한 역사적 사건 속에서 살아가는 러시아 귀족들과 민중들의 삶, 사랑, 그리고 역사의 필연성을 방대하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1부",
+        "summary": "안나 셰레르의 살롱에 모인 뻬쩨르부르그 상류사회의 인물들의 대화와 당시의 정치적 분위기를 보여준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사철학",
+        "value": "개인의 자유의지와 거대한 역사적 필연성 간의 관계 고찰"
+      }
+    ],
+    "keyEntitiesText": "안나 셰레르, 바씰리 공작, 삐에르 베주호프, 볼꼰스끼 공작 부인",
+    "settingText": "1805년 7월 뻬쩨르부르그 상류사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cLb_GU2oDLAOUcOIEeR4pAJ_YTLwR-lL",
+    "filename": "톨스토이-전쟁과 평화 1(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-04T13:16:40.000Z",
+    "size": "2154169",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1cLb_GU2oDLAOUcOIEeR4pAJ_YTLwR-lL/view?usp=drivesdk",
+    "sourceSha256": "0861c8b8fd3f01096f215832bf9034fbbd328a980147a08d00b81acff5285167",
+    "textSha256": "a7cb76ed7d2f4e8f69fa899ef6424bc1efcfbbe95def79c5caaf055e6e88d62d",
+    "changeKey": "9a67db36af6a8523b198db053c7152b4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5bb6c152369fb562f68c",
+    "workId": "5bb6c152369fb562f68c",
+    "driveFileId": "1cLb_GU2oDLAOUcOIEeR4pAJ_YTLwR-lL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:30:36.453727+00:00",
+    "updatedAt": "2026-09-24T04:30:36.453743+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8352,
+      "updatedAt": "2026-09-24T04:30:36.453830+00:00"
+    }
+  }
+}

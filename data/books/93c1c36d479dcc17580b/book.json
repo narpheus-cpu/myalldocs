@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "결혼",
+    "author": "톨스토이",
+    "genre": "중편소설",
+    "tags": [
+      "결혼",
+      "사랑",
+      "질투",
+      "부부",
+      "여성해방"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도스토예프스키와 함께 19세기 러시아 리얼리즘 문학을 대표하는 레프 니콜라예비치 톨스토이는 야스나야 폴라냐에서 태어났으며, 후기에는 초기 기독교 사상에 몰두하여 도덕가이자 사상가로 변모했다.",
+    "oneLineSummary": "한 남자의 불타는 질투와 아내 살해를 통해 사랑은 없다고 선언하며 사랑, 결혼, 남녀평등의 길에 대해 묻는 이야기.",
+    "overallSummary": "기차 안에서 우연히 만난 한 신경쇠약에 걸린 남자의 고백을 통해, 질투심에 아내를 살해한 비극적 사건의 이면에 담긴 남녀 간의 사랑과 결혼, 여성 해방에 대한 근본적인 물음을 다룬 소설이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장",
+        "summary": "기차 안의 승객들이 이혼과 교육, 남녀의 역할에 대해 논쟁을 벌인다."
+      },
+      {
+        "sectionTitle": "제2장",
+        "summary": "신경이 날카롭고 머리가 희끗한 신사가 끼어들어 진정한 사랑과 결혼에 대한 기존의 통념을 신랄하게 반박한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품주제",
+        "value": "사랑과 결혼에 대한 비판적 성찰과 남녀평등에 대한 물음"
+      }
+    ],
+    "keyEntitiesText": "나, 신경이 날카롭고 눈이 번들거리는 신사(주인공), 변호사, 나이든 부인, 상인 노인",
+    "settingText": "이른 봄, 여행 중인 기차 객실 안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sODQV3M4SsjXKJPyQXFG_Uza0I9v2ZFA",
+    "filename": "톨스토이-결혼 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:41.039Z",
+    "size": "246885",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1sODQV3M4SsjXKJPyQXFG_Uza0I9v2ZFA/view?usp=drivesdk",
+    "sourceSha256": "2f709ee04725ff21da19898430eace83032900ac959f12d75f3af2fe36436bc4",
+    "textSha256": "f9d6421f98c6964c6d9ff484e478e6d93f5262251fc19be927b4d6231dc9e0fd",
+    "changeKey": "0fc699ad23b20f4458ce93381df43f71",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "93c1c36d479dcc17580b",
+    "workId": "93c1c36d479dcc17580b",
+    "driveFileId": "1sODQV3M4SsjXKJPyQXFG_Uza0I9v2ZFA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:29:46.106824+00:00",
+    "updatedAt": "2026-09-24T04:29:46.106840+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:29:46.106917+00:00"
+    }
+  }
+}

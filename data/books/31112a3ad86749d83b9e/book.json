@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아샤",
+    "author": "투르게네프",
+    "genre": "중편소설",
+    "tags": [
+      "독일",
+      "라인강",
+      "사랑",
+      "청춘",
+      "방랑"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "19세기 러시아의 서정적 리얼리즘을 대표하는 작가 이반 투르게네프.",
+    "oneLineSummary": "독일 라인강변의 아름다운 풍경 속에서 우연히 만난 러시아 청년 남매, 특히 감수성 예민한 소녀 아샤와의 풋풋하고도 애틋한 사랑 이야기.",
+    "overallSummary": "젊은 시절 방랑 여행 중이던 '나'는 독일 라인강변의 Z 거리에서 우연히 유쾌한 청년 가긴과 그의 여동생 아샤를 만난다. 변덕스럽고 감정이 풍부한 아샤에게 점차 이끌리게 되면서 벌어지는 청춘의 사랑과 안타까운 이별의 회고.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~2장",
+        "summary": "스물다섯 살의 '나'가 Z 거리에 머물며 라인강변을 거닐다 가긴 남매를 우연히 만나 그들의 독채 숙소를 방문하는 과정."
+      },
+      {
+        "sectionTitle": "3~4장",
+        "summary": "가긴의 그림을 구경하고 성터 주변을 산책하며 아샤의 독특한 성격과 매력을 발견하는 '나'."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문체",
+        "value": "서정적이고 감수성이 짙은 회고체 서사"
+      }
+    ],
+    "keyEntitiesText": "나(N씨), 가긴, 아샤(안나)",
+    "settingText": "독일 라인강변 Z 거리와 포도밭 주변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "101kjrxceJA227FUMmLwnGNbcJ5IMpE28",
+    "filename": "투르게네프-아샤.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:41.296Z",
+    "size": "104345",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/101kjrxceJA227FUMmLwnGNbcJ5IMpE28/view?usp=drivesdk",
+    "sourceSha256": "83ae90a50bb9f3cb8e3a43df94842631225d0eda0a92b7ad0b0b927b35e585c2",
+    "textSha256": "9f73470e1b4f5981d7aca7fac8ce64427652fe14b3fd730197020665d86c4f8b",
+    "changeKey": "7e5daa830c326769b253993a955b19f8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "31112a3ad86749d83b9e",
+    "workId": "31112a3ad86749d83b9e",
+    "driveFileId": "101kjrxceJA227FUMmLwnGNbcJ5IMpE28",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:31:00.324051+00:00",
+    "updatedAt": "2026-09-24T04:31:00.324068+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:31:00.324152+00:00"
+    }
+  }
+}

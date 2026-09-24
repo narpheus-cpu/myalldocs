@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사람은 무엇으로 사는가",
+    "author": "똘스또이",
+    "genre": "단편소설",
+    "tags": [
+      "사랑",
+      "선행",
+      "구두장이",
+      "종교",
+      "교훈"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "러시아의 위대한 대문호 레프 니콜라예비치 톨스토이는 인간의 영혼과 도덕적 삶을 주제로 한 주옥같은 단편들을 남겼다.",
+    "oneLineSummary": "가난한 구두장이 세묜이 교회 앞에서 벌거벗은 청년 미하일을 거두어들이며 인간이 무엇으로 사는가 깨달아가는 이야기.",
+    "overallSummary": "가난하지만 마음 착한 구두장이 세묜이 날이 추운 어느 날 교회 뒤에 쓰러져 있던 벌거숭이 미하일을 데려다 키우게 되고, 나중에 그가 사실은 인간의 마음속에 사랑을 깨닫게 하기 위해 내려온 천사였다는 것을 알게 되며 '사람은 사랑으로 산다'는 진리를 깨닫는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~3장",
+        "summary": "세묜이 외투를 사러 나갔다가 교회 근처에서 벌거숭이 미하일을 발견하고 집으로 데려와 아내 마뜨료나의 불평 속에도 옷을 입혀준다."
+      },
+      {
+        "sectionTitle": "4~6장",
+        "summary": "미하일은 세묜의 집에서 구두 짓는 기술을 배워 훌륭한 솜씨를 발휘하며 묵묵히 일하고, 어느 날 찾아온 오만한 손님을 통해 삶의 비밀을 드러낸다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "교훈",
+        "value": "인간 안에는 무엇이 허락되었는가, 인간에게 주어지지 않은 것은 무엇인가, 사람은 무엇으로 사는가에 대한 깨달음"
+      }
+    ],
+    "keyEntitiesText": "세묜, 마뜨료나, 미하일",
+    "settingText": "러시아의 어느 농가와 구둣방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19SWbXWBzm9i7jCg7BiLyATFeJQARvXXC",
+    "filename": "똘스또이-사람은 무엇으로 사는가.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:38.536Z",
+    "size": "206341",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/19SWbXWBzm9i7jCg7BiLyATFeJQARvXXC/view?usp=drivesdk",
+    "sourceSha256": "a1d3bed8e4a589bc0d6d575357362833318e3f00ba2a57bc7f860179350f9a67",
+    "textSha256": "6bc20768b69d4a9c6fadd3ba045cda8776e28d2062490d0554aea12838b141bd",
+    "changeKey": "062e5348a6c8632a79dff98578189d30",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d8577cc89c50765132bf",
+    "workId": "d8577cc89c50765132bf",
+    "driveFileId": "19SWbXWBzm9i7jCg7BiLyATFeJQARvXXC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:30:10.852137+00:00",
+    "updatedAt": "2026-09-24T04:30:10.852153+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:30:10.852241+00:00"
+    }
+  }
+}

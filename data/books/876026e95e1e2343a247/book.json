@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "부활",
+    "author": "톨스토이",
+    "genre": "장편소설",
+    "tags": [
+      "부활",
+      "구원",
+      "사랑",
+      "사회비판",
+      "법률"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "러시아 야스나야 폴랴나에서 태어난 톨스토이는 귀족 출신이면서도 농민과 민중의 삶에 깊은 관심을 갖고 당대 사회의 모순을 고발했다.",
+    "oneLineSummary": "한 귀족과 창녀가 정신적으로 부활하는 과정을 통해 당대 러시아 사회의 불합리성을 비판하고 인간애를 그린 만년의 역작.",
+    "overallSummary": "네흘류도프 공작이 배심원으로 참여한 재판에서 살인 혐의로 기소된 창녀가 과거 자신이 버렸던 카튜사임을 알게 되고, 자신의 도덕적 책임을 깨달으며 정신적으로 부활해가는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1 부",
+        "summary": "법정에 선 카튜사 마슬로바의 모습과 그녀가 창녀로 전락하게 된 과거의 평범하면서도 비극적인 삶이 드러난다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제의식",
+        "value": "사회적 위선에 대한 고발과 영혼의 도덕적 정화"
+      }
+    ],
+    "keyEntitiesText": "네흘류도프 공작, 카추샤 마슬로바",
+    "settingText": "현청 소재지 교도소 및 법정, 19세기 러시아"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1y9HPyZ2ovVuz5igxM7frwmW609gP4EQ5",
+    "filename": "톨스토이-부활.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:41.110Z",
+    "size": "1169198",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1y9HPyZ2ovVuz5igxM7frwmW609gP4EQ5/view?usp=drivesdk",
+    "sourceSha256": "49c8da323150bb71565f8b53b95053521602dcfdecb54a22c359f0d0693f0def",
+    "textSha256": "fb80d835a1b3ab8b9b15a8d9994a3751140aa50d70d02387b8c044a2469b7592",
+    "changeKey": "32a18b73c4f9ba416103182f0add3e2e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "876026e95e1e2343a247",
+    "workId": "876026e95e1e2343a247",
+    "driveFileId": "1y9HPyZ2ovVuz5igxM7frwmW609gP4EQ5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:30:05.553932+00:00",
+    "updatedAt": "2026-09-24T04:30:05.553949+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:30:05.554037+00:00"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인생이란 무엇인가",
+    "author": "똘스또이",
+    "genre": "잠언집",
+    "tags": [
+      "지혜",
+      "잠언",
+      "독서",
+      "종교",
+      "철학"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "러시아의 위대한 문학가이자 사상가인 똘스또이가 세계의 수많은 위대한 작품과 사상서에서 삶의 지혜를 가려 엮은 책.",
+    "oneLineSummary": "세계 위인들의 지혜와 똘스또이의 통찰을 모아 인생의 참된 의미와 지침을 전하는 잠언집.",
+    "overallSummary": "독서의 중요성, 참된 종교와 신앙, 이웃에 대한 사랑, 욕망의 절제 등 삶의 다양한 측면에 관한 현인들의 금언을 월별, 일별로 구성하여 독자들이 일상에서 삶의 지혜를 얻도록 돕는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1월",
+        "summary": "독서법, 신앙, 타인과의 관계, 말 조심, 자제심, 이웃 사랑에 대한 격언과 가르침을 담고 있다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "편집방식",
+        "value": "세계 사상가들의 명언과 똘스또이의 해설을 날짜별로 엮음"
+      }
+    ],
+    "keyEntitiesText": "똘스또이, 에머슨, 쇼펜하우어, 칸트, 마르쿠스 아우렐리우스",
+    "settingText": "야스나야 뽈랴나"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uXnnnm7FRr3ZDuVirJ2bmUKacb1-zIeF",
+    "filename": "톨스토이-인생이란 무엇인가(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T21:12:08.000Z",
+    "size": "2269833",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1uXnnnm7FRr3ZDuVirJ2bmUKacb1-zIeF/view?usp=drivesdk",
+    "sourceSha256": "2598886f736bae6c623523b1f33afeeb5993d7cbf926272104aa0e0d4cd43f68",
+    "textSha256": "68bd9c5e0f150bbe7f0ac9b90065b4e91b3faa8e060270ab0e12d259c3336295",
+    "changeKey": "a3ef2c771047cd506a24d7e77ae4c787",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ce7b2ae2dabc7876778b",
+    "workId": "ce7b2ae2dabc7876778b",
+    "driveFileId": "1uXnnnm7FRr3ZDuVirJ2bmUKacb1-zIeF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:30:30.448254+00:00",
+    "updatedAt": "2026-09-24T04:30:30.448270+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:30:30.448353+00:00"
+    }
+  }
+}

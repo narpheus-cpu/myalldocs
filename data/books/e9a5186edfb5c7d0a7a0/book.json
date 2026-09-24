@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "연기",
+    "author": "투르게네프",
+    "genre": "장편소설",
+    "tags": [
+      "바덴바덴",
+      "러시아인",
+      "사랑",
+      "방황",
+      "풍자"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "러시아의 명작소설가 이반 투르게네프는 유럽에 체류하며 러시아 지식인의 방황과 애국주의, 허영심을 비판적으로 그렸다.",
+    "oneLineSummary": "독일 바덴바덴의 온천장에서 과거의 연인과 재회하며 흔들리는 러시아 지식인의 내면을 그린 소설.",
+    "overallSummary": "약혼녀 타치야나를 기다리며 바덴바덴에 머물고 있던 리토비노프는 우연히 사교계의 무리들과 구바료프 같은 사상가들을 접한다. 그러던 중 과거에 깊이 사랑했으나 자신을 버렸던 매력적인 여인 이리나와 재회하면서 강렬한 옛사랑의 감정에 다시 흔들리게 된다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~3장",
+        "summary": "1862년 바덴바덴의 화려한 풍경과 러시아 사교계 인사들의 허영을 묘사하고, 주인공 리토비노프의 과거와 방문 목적, 그리고 반바에프와의 재회를 그림."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "러시아 상류사회의 허위성과 인간 감정의 나약함"
+      }
+    ],
+    "keyEntitiesText": "그리고리 미하일로비치 리토비노프, 이로스치스라프 반바에프, 보로시로프",
+    "settingText": "1862년 8월 독일 바덴바덴"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kmixPBJsUYxHpQPcqFaM8TApFv4lu6_1",
+    "filename": "투르게네프-연기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:41.310Z",
+    "size": "415356",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1kmixPBJsUYxHpQPcqFaM8TApFv4lu6_1/view?usp=drivesdk",
+    "sourceSha256": "3d3cdd2ddd9c4d80519449f471e91102e5f43127f77d201c995c0d2160b12df2",
+    "textSha256": "cf2bd211756cf261aab22ad36283d7baf517a2bf70e54da406100dd2bb79dd37",
+    "changeKey": "bebdfd7c8d529e786787f991b473265a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e9a5186edfb5c7d0a7a0",
+    "workId": "e9a5186edfb5c7d0a7a0",
+    "driveFileId": "1kmixPBJsUYxHpQPcqFaM8TApFv4lu6_1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:31:06.309548+00:00",
+    "updatedAt": "2026-09-24T04:31:06.309564+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:31:06.309670+00:00"
+    }
+  }
+}

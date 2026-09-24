@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "문명의 열매",
+    "author": "톨스토이",
+    "genre": "희곡",
+    "tags": [
+      "희곡",
+      "어둠의 힘",
+      "풍자",
+      "농민",
+      "도덕"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "모스크바 남쪽 야스나야 폴랴나에서 태어난 19세기 러시아의 세계적인 대문호이자 사상가.",
+    "oneLineSummary": "인간의 욕망과 위선을 다룬 대표적 희곡 '어둠의 힘'과 '문명의 열매'를 수록한 작품집.",
+    "overallSummary": "톨스토이의 대표적인 희곡 두 편을 통해 인간의 탐욕, 허영심, 위선 등 변하지 않는 인간의 본성과 사회적 불합리를 생생하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "어둠의 힘",
+        "summary": "농촌 사회의 도덕적 타락과 범죄, 그리고 그에 따른 참회와 구원의 과정을 다룬다."
+      },
+      {
+        "sectionTitle": "문명의 열매",
+        "summary": "귀족 사회와 농민들 사이의 갈등과 풍자적인 상황을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "다막 구성의 극본 형식"
+      }
+    ],
+    "keyEntitiesText": "표트르, 아니시야, 아쿨리나, 니키타, 아킴",
+    "settingText": "가을, 유복한 농부 표트르의 널찍한 집 안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1K23RRUt_LE28jBgOK-GziHuPLRbBo6o4",
+    "filename": "톨스토이-문명의 열매 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:41.057Z",
+    "size": "442327",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1K23RRUt_LE28jBgOK-GziHuPLRbBo6o4/view?usp=drivesdk",
+    "sourceSha256": "e0146a95ef023e27497ead76a373f502eda26cedab6028a1800dff3fe2a20503",
+    "textSha256": "92e4b99e365117161b8cd853e7ce71876006ec4241aaaadf001139e1eb0a78f3",
+    "changeKey": "65bb0d3c67fc05a598b316099f9eb34f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a34694b42b0148b9962b",
+    "workId": "a34694b42b0148b9962b",
+    "driveFileId": "1K23RRUt_LE28jBgOK-GziHuPLRbBo6o4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:29:59.657282+00:00",
+    "updatedAt": "2026-09-24T04:29:59.657297+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:29:59.657385+00:00"
+    }
+  }
+}

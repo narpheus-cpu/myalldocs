@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아버지와 아들",
+    "author": "투르게네프",
+    "genre": "장편소설",
+    "tags": [
+      "니힐리즘",
+      "세대갈등",
+      "러시아",
+      "과학",
+      "바자로프"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "러시아의 거장 이반 투르게네프는 19세기 러시아 사회의 변화와 세대 간의 사상적 갈등을 예리하게 포착해냈다.",
+    "oneLineSummary": "니힐리스트 청년 바자로프와 구세대 지주들 사이의 사상적 대립과 세대 갈등을 그린 명작.",
+    "overallSummary": "대학을 졸업한 아르카디가 모든 권위와 전통을 부정하는 급진적 니힐리스트 친구 바자로프를 고향 집에 데려오면서, 낭만적 구세대인 아버지 니콜라이와 삼촌 파벨 간에 벌어지는 날카로운 사상적 대립과 젊은이들의 사랑과 삶을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1~3장",
+        "summary": "니콜라이 페트로비치가 대학을 졸업한 아들 아르카디와 그의 친구 바자로프를 여인숙에서 만나 마리노 마을로 돌아오는 여정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대상",
+        "value": "19세기 중반 러시아의 구세대와 신흥 세대(니힐리스트) 간의 충돌"
+      }
+    ],
+    "keyEntitiesText": "니콜라이 페트로비치 키르사노프, 아르카디, 예브게니 바실리예비치 바자로프, 피오트르",
+    "settingText": "1859년 5월 러시아 시골과 마리노 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QzK0MwJLr8UyfYpcDaJqOBmVnKoRY1Zk",
+    "filename": "투르게네프-아버지와 아들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:41.279Z",
+    "size": "427545",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1QzK0MwJLr8UyfYpcDaJqOBmVnKoRY1Zk/view?usp=drivesdk",
+    "sourceSha256": "8140973df95b590b75b147abce491aa036a810ac723491dca122bf9011328f46",
+    "textSha256": "f16896a9822cc4e8ab326bcb2e9997515b35ba7dd2650fdeffbfcfa9bcb2d4ae",
+    "changeKey": "077504dbc0e4039fb7b2bcb59acc98cb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "255d3de77d343559c8d5",
+    "workId": "255d3de77d343559c8d5",
+    "driveFileId": "1QzK0MwJLr8UyfYpcDaJqOBmVnKoRY1Zk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:30:54.517098+00:00",
+    "updatedAt": "2026-09-24T04:30:54.517114+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:30:54.517198+00:00"
+    }
+  }
+}

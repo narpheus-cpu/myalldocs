@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "안나 카레니나",
+    "author": "레프 니콜라예비치 톨스토이",
+    "genre": "장편소설",
+    "tags": [
+      "불륜",
+      "사랑",
+      "가족",
+      "상류사회",
+      "러시아문학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "19세기 러시아 리얼리즘 문학의 거장인 톨스토이는 인간 심리의 예리한 통찰과 광범위한 사회 묘사로 명작들을 남겼다.",
+    "oneLineSummary": "행복한 가정은 비슷하지만 불행한 가정은 저마다 다른 이유가 있다는 명제 아래 펼쳐지는 인간 관계와 사랑의 이야기.",
+    "overallSummary": "가정교사와의 부정으로 위기를 맞은 오블론스키 가문과, 그의 여동생이자 매력적인 안나 카레니나가 브론스키와의 사랑에 빠져들며 겪게 되는 상류사회의 갈등과 비극을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1부",
+        "summary": "오블론스키의 외도로 가정에 위기가 닥치고, 스테판 아르카지치가 이를 해결하기 위해 노력하는 한편 안나 카레니나의 방문이 예고된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "오프닝 명언",
+        "value": "행복한 가정은 모습이 다들 비슷비슷하지만 불행한 가정은 저마다 다른 이유가 있다."
+      }
+    ],
+    "keyEntitiesText": "스테판 아르카지치 오블론스키(스티바), 다리야 알렉산드로브나(돌리), 마트베이",
+    "settingText": "19세기 러시아 상류 사교계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_E59VcBANVn0b2WCLn5N1w2t7f2hOdTv",
+    "filename": "톨스토이-안나 카레니나(더클래식)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-06T13:12:42.000Z",
+    "size": "2551698",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1_E59VcBANVn0b2WCLn5N1w2t7f2hOdTv/view?usp=drivesdk",
+    "sourceSha256": "4081458c1f272656cba5bca2f095242402fe265805b13f61ad4ca2b74a3a08f7",
+    "textSha256": "18abf90f27a24081dbe5d12ccf8ac23a8aa5d169eb7e52c160e40672d37b999b",
+    "changeKey": "9d95eaf802d0bb757d06b5981dbbffbb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a7d6ea517b2fbb2d55be",
+    "workId": "a7d6ea517b2fbb2d55be",
+    "driveFileId": "1_E59VcBANVn0b2WCLn5N1w2t7f2hOdTv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:30:24.000499+00:00",
+    "updatedAt": "2026-09-24T04:30:24.000513+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:30:24.000599+00:00"
+    }
+  }
+}

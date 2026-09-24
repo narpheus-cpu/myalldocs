@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나의 참회/인생의 길",
+    "author": "똘스또이",
+    "genre": "사상서",
+    "tags": [
+      "참회",
+      "인생",
+      "종교",
+      "도덕",
+      "사랑"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "러시아의 대문호이자 사상가인 레프 똘스또이는 후기에 사유재산과 러시아 정교에 비판을 가하고 인도주의적 원시 기독교 사상을 체계화했다.",
+    "oneLineSummary": "선한 삶을 살기 위해 자기가 해야 할 일과 죄악, 미신에 대해 고찰하고 신적 근원과 사랑을 찾는 인생의 지침.",
+    "overallSummary": "인간이 평생 선하게 살기 위해 이 우주와 자신을 이해해야 하며, 영혼이 신과 사랑으로 결합하는 것을 방해하는 온갖 죄악과 유혹, 미신을 극복하고 현재에 충실해야 함을 역설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인생의 길",
+        "summary": "인간의 본질과 신, 영혼, 그리고 죄악과 미신에 대한 똘스또이의 철학적 가르침을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심사상",
+        "value": "폭력에 대한 불항거, 사랑에 의한 악의 근절, 정신적 가치의 추구"
+      }
+    ],
+    "keyEntitiesText": "똘스또이",
+    "settingText": "야스나야 뽈랴나"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XDxUwL4J3GLQuuO4JCwlLkw2ZVV3t1MG",
+    "filename": "톨스토이-나의 참회, 인생의 길(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T21:01:04.000Z",
+    "size": "2557902",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1XDxUwL4J3GLQuuO4JCwlLkw2ZVV3t1MG/view?usp=drivesdk",
+    "sourceSha256": "d88c9754451d767f2268ef0df478338ca05c352131b93d437b1a3aa5396c0d0a",
+    "textSha256": "bbd3a88775c684c52475a6dcba01292ed90d7b21141ecae4e417aba625fcbcd5",
+    "changeKey": "294d4e3b646652e66a494eaf643557d4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "99104d834f25e7512e63",
+    "workId": "99104d834f25e7512e63",
+    "driveFileId": "1XDxUwL4J3GLQuuO4JCwlLkw2ZVV3t1MG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T04:29:53.948388+00:00",
+    "updatedAt": "2026-09-24T04:29:53.948402+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T04:29:53.948485+00:00"
+    }
+  }
+}
