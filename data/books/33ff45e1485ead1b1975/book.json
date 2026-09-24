@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "8월의 크리스마스",
+    "author": "허수정",
+    "genre": "현대소설",
+    "tags": [
+      "소설화",
+      "시한부",
+      "사랑",
+      "사진관",
+      "일상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance",
+        "human_drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "허수정은 1963년 부산 출생으로 1989년 실천문학을 통해 등단하여 다양한 장편소설과 시나리오 작업을 병행한 작가이다.",
+    "oneLineSummary": "생의 마지막 여름을 맞이한 변두리 사진사 정원과 당돌하고 맑은 주차단속원 다림의 애틋한 만남을 그린 소설.",
+    "overallSummary": "변두리 작은 사진관을 운영하는 서른다섯의 정원은 시한부 판정을 받고 인생의 마지막 반환점에 서 있다. 무더위가 시작되던 어느 여름날, 톡톡 쏘는 당돌한 성격의 주차단속원 아가씨 다림이 사진 현상을 맡기러 찾아오며 정원의 잔잔한 일상에 설렘이 깃든다. 늙어가는 아버지에 대한 미안함, 죽마고우 철구와의 추억, 그리고 병원 검진을 오가며 정원은 담담히 자신의 영정 사진을 준비한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "무더운 여름날 제복을 입고 사진관에 들어온 주차단속원 아가씨와의 첫 만남과, 친구에게 자신의 영정 사진을 부탁하던 정원의 모습."
+      },
+      {
+        "sectionTitle": "인생의 반환점에 서서",
+        "summary": "아침에 일어나 아버지와 식사를 하고 스쿠터를 타고 병원 진료를 다녀온 뒤, 초등학교 벤치에서 인생의 반환점을 사색하는 정원의 일상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "죽음의 탈신파화",
+        "value": "죽음을 비극적 절망으로 그리기보다 담담한 일상의 질서와 주변 사람들에 대한 배려 속에서 수용하는 태도를 보여줌."
+      },
+      {
+        "key": "소설적 변용",
+        "value": "영화 '8월의 크리스마스'의 정서를 문학적 텍스트로 풀어내며, 무라카미 하루키 소설 구절 등을 인용해 인물의 내면적 깊이를 더함."
+      }
+    ],
+    "keyEntitiesText": "유정원, 주차단속원 아가씨(다림), 아버지, 정숙(여동생), 철구(죽마고우), 민호(조카), 서술자(나)",
+    "settingText": "1990년대 후반 무더운 여름날, 서울 변두리 동네의 초등학교 앞 작은 사진관 및 종합병원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19PEuI0QKQBTH7Z72rDO4plUU1VvDLkq4",
+    "filename": "허수정-8월의 크리스마스.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.912Z",
+    "size": "196472",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/19PEuI0QKQBTH7Z72rDO4plUU1VvDLkq4/view?usp=drivesdk",
+    "sourceSha256": "e671151bc73ae69981b4b5ddde4dac1f015fc90840691f0ab9ed66e8d9f92ab8",
+    "textSha256": "89fccab67b3d38fff30c2390c1460b30a89f11ace921e4011ee2177ea1c1fbd2",
+    "changeKey": "d1d3bdd6fe1e6209b619596caf2782b4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "33ff45e1485ead1b1975",
+    "workId": "33ff45e1485ead1b1975",
+    "driveFileId": "19PEuI0QKQBTH7Z72rDO4plUU1VvDLkq4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:31:29.392942+00:00",
+    "updatedAt": "2026-09-24T08:31:29.392955+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:31:29.393051+00:00"
+    }
+  }
+}

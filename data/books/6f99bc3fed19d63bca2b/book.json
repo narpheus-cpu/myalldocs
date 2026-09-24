@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사람, 발자국에 머물다",
+    "author": "한웅규",
+    "genre": "현대소설",
+    "tags": [
+      "가족사",
+      "가난",
+      "도시빈민",
+      "판잣집",
+      "성장소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "novel",
+        "realism"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 한웅규는 가난과 가족의 굴레를 겪는 소시민의 삶을 사실적으로 형상화하는 소설가이다.",
+    "oneLineSummary": "사업 실패와 빈곤으로 해체되어 가는 가족의 비극과 어린 소년 진우의 유랑을 그린 소설.",
+    "overallSummary": "선철권은 간장가게 사업을 동업자의 사기로 날리고 가족을 방치한 채 빚과 사기꾼을 쫓아다닌다. 남은 식구들은 서울 창신동 돌산 판잣집에서 풀빵과 밀가루 빵을 팔며 극심한 가난에 시달린다. 철권의 가정폭력과 생활고를 견디지 못한 어머니는 끝내 집을 나가고, 큰아들 인국과 딸 미진마저 흩어진다. 막내 진우는 아버지의 손에 이끌려 시골 외가와 전주 고모 집으로 전전하며 유랑의 삶을 시작한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "귀향",
+        "summary": "사업에 실패한 아버지와 함께 빚쟁이를 찾아간 진우의 어린 눈에 비친 풍경과, 빵 장사로 연명하는 가족의 참상 및 폭력과 결핍 속에 흩어지는 가족의 모습."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 배경",
+        "value": "전쟁과 정변 직후 도시 빈민으로 전락한 민초들의 비참한 생계와 판잣집 거주 현실을 고발함."
+      },
+      {
+        "key": "인물 심리",
+        "value": "가난 속에서도 서로를 배려하는 어린 남매의 애틋함과 폭력적인 아버지 밑에서의 원초적 공포가 교차됨."
+      }
+    ],
+    "keyEntitiesText": "진우, 선철권(아버지), 어머니, 인국(형), 미진(누나), 외삼촌, 할머니, 영옥이",
+    "settingText": "1960년대 초 4.19 및 5.16 전후, 서울 창신동 돌산 판잣집 및 전라도 시골 외가, 전주"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LJCVTvZ5Wnly1bEYMRSujyI_FPbJE7xj",
+    "filename": "한웅규-사람, 발자국에 머물다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.797Z",
+    "size": "444299",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1LJCVTvZ5Wnly1bEYMRSujyI_FPbJE7xj/view?usp=drivesdk",
+    "sourceSha256": "190334d944950adb28e900faa5835fed06c0998f0f77a1fa3bad7920971ac3ae",
+    "textSha256": "855cf080cd29935a1d88647b3f97c1e85be8153107dc2e13a3f561b3bb1971b1",
+    "changeKey": "d4535b20338c6b41bebc57cd765d6da9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6f99bc3fed19d63bca2b",
+    "workId": "6f99bc3fed19d63bca2b",
+    "driveFileId": "1LJCVTvZ5Wnly1bEYMRSujyI_FPbJE7xj",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:29:51.068636+00:00",
+    "updatedAt": "2026-09-24T08:29:51.068652+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:29:51.068744+00:00"
+    }
+  }
+}

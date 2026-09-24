@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "행복",
+    "author": "함정임",
+    "genre": "현대소설",
+    "tags": [
+      "여성서사",
+      "기억",
+      "상실",
+      "글쓰기",
+      "자전소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "novella",
+        "autofiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "함정임은 섬세한 문체와 깊은 내면 응시를 통해 여성의 실존, 기억과 상실의 상처를 탐구해 온 중견 소설가이다.",
+    "oneLineSummary": "젊은 나이에 암으로 세상을 떠난 남편의 부재와 노모와의 오랜 갈등을 마주하며 소설 쓰기를 통해 상처를 응시하는 여성 작가의 이야기.",
+    "overallSummary": "주인공 '나(현정은)'는 요절한 소설가 남편 채민서의 1주기를 앞두고 휴직한 채 소설 '행복'을 집필하려 한다. 오랜만에 찾아온 칠순 노모는 딸과의 사소한 오해로 기차표를 내던지며 매몰차게 떠나고, 나는 어머니와의 해묵은 콤플렉스와 가족사, 남편 민서와의 첫 만남과 그의 옛 여자로 인한 불길했던 기억들을 천천히 복기한다. 꽃과 기억을 매개로 상실의 고통을 통과하며 자유로워지고자 하는 글쓰기의 내면이 펼쳐진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 바람이 불고, 꽃을 보다가",
+        "summary": "아파트 베란다에서 화초를 바라보며 화를 내고 떠난 늙은 어머니와의 불화, 요절한 남편 민서에 대한 회한을 떠올리는 과정."
+      },
+      {
+        "sectionTitle": "2. 날 사랑하지마, 절대로",
+        "summary": "남편 채민서와의 첫 만남과 출판사 편집장 시절의 기억, 남편을 둘러싼 과거 여성의 존재와 기억에 맞서는 글쓰기의 결심."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "식물적 메타포",
+        "value": "제라늄, 금잔화, 서양란 등의 꽃을 통해 인물들의 운명, 덧없는 생명력, 그리고 모녀 간의 얽힌 정서를 은유함."
+      },
+      {
+        "key": "메타픽션적 성격",
+        "value": "상실과 애도의 과정을 소설 '행복'을 집필하는 과정과 일치시키며 기억을 언어화하는 고통을 심도 있게 조명함."
+      }
+    ],
+    "keyEntitiesText": "나(현정은), 어머니, 채민서(남편), 유선 언니, 이준(평론가 후배), 채민서의 옛 여자",
+    "settingText": "현대 한국, 일산/능곡 인근 아파트 베란다 및 잡지사 출판사, 카페 '내 마음의 풍차'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19r6if-zu9ZZCj4vKFn9a5cx7UtuPK80i",
+    "filename": "함정임-행복.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.856Z",
+    "size": "202588",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/19r6if-zu9ZZCj4vKFn9a5cx7UtuPK80i/view?usp=drivesdk",
+    "sourceSha256": "2f933ea95efb41a1079fe585e08845b1ee08995d0402b0e9cfef2d866d43ea5d",
+    "textSha256": "5ef2f19d921a39aebe607a10d241ee4109356a242bc83a783ccb263ba3e3c442",
+    "changeKey": "b7b4c006f47aea8d0777952bdc9e0ba4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e7a8fda90ae293238cc6",
+    "workId": "e7a8fda90ae293238cc6",
+    "driveFileId": "19r6if-zu9ZZCj4vKFn9a5cx7UtuPK80i",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:30:46.142298+00:00",
+    "updatedAt": "2026-09-24T08:30:46.142312+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:30:46.142425+00:00"
+    }
+  }
+}

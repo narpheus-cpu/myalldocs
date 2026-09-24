@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한국 3대 문학상 수상소설집",
+    "author": "손창섭 외",
+    "genre": "현대소설 선집",
+    "tags": [
+      "전후문학",
+      "혈서",
+      "손창섭",
+      "무기력",
+      "잉여인간"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mixed_anthology",
+        "short_story_collection"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "손창섭은 1950년대 전후 한국 사회의 붕괴된 인간성과 병적이고 무기력한 인간 군상을 독특한 냉소적 문체로 포착한 전후 문학의 대표 작가이다.",
+    "oneLineSummary": "전후 폐허 속에서 친구의 하숙방에 얹혀사는 불구자와 실업자들의 무위와 부조리한 말다툼을 통해 전후의 절망을 그린 소설.",
+    "overallSummary": "한국의 주요 문학상 수상작을 집대성한 선집. 손창섭의 1955년 현대문학상 수상작 「혈서」가 수록되어 있다. 6.25 전쟁 직후, 충청도 부유한 집안 출신이지만 국문과에서 시를 쓰며 남포불 아래 '혈서'를 다듬는 규홍의 방에 다리 하나를 잃은 상이군인 준석, 매일 일자리를 찾아 헤매다 굶주려 돌아오는 고학생 달수, 간질병을 앓는 소녀 창애가 얹혀산다. 준석과 달수는 매일 밤 대학 진학과 규홍과 창애의 결혼 여부를 두고 맹랑하고 소모적인 언쟁을 벌이며 무의미한 시간을 흘려보낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "혈서 (지은이: 손창섭)",
+        "summary": "취직에 실패하고 돌아온 무턱 달수와 이불을 뒤집어쓴 외다리 준석의 소모적인 말다툼, 시를 쓰는 규홍과 간질을 앓는 창애 등 폐허의 방에 모여 사는 병적 인간 군상의 풍경."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "전후 실존의 불구화",
+        "value": "신체적 절단(준석), 정신적 발작(창애), 사회적 무능(달수), 관념적 도피(규홍)를 통해 전쟁이 남긴 총체적 불구성을 상징함."
+      },
+      {
+        "key": "소통 불능의 부조리극",
+        "value": "인물들 간의 대화가 서로의 고통을 위로하지 못하고 겉도는 무의미한 말꼬리 잡기로 이어지는 부조리극적 구도를 취함."
+      }
+    ],
+    "keyEntitiesText": "달수(무턱), 준석, 규홍, 창애, 박 노인(창애 부친)",
+    "settingText": "1950년대 6.25 전쟁 직후의 서울 변두리 무너진 하숙집 방 안"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OMuOwLHBSZ3pHvc6P3139mPghjTentgc",
+    "filename": "손창섭 외-한국3대문학상 수상소설집.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:01.173Z",
+    "size": "1727363",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "현대소설 111편 모음 등"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/현대소설 111편 모음 등",
+    "webViewLink": "https://drive.google.com/file/d/1OMuOwLHBSZ3pHvc6P3139mPghjTentgc/view?usp=drivesdk",
+    "sourceSha256": "153668f2251f3f57089b2a993115c02df9afa03d0734ffbe4f1448579c501240",
+    "textSha256": "21fff5778de818f3becfcd07e03555e3edd5a2cefa5203321570fc2a91b2c667",
+    "changeKey": "d96e795921fc0b296ac275a7930eba97",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ca4af2efda839b61fc07",
+    "workId": "ca4af2efda839b61fc07",
+    "driveFileId": "1OMuOwLHBSZ3pHvc6P3139mPghjTentgc",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:33:09.911431+00:00",
+    "updatedAt": "2026-09-24T08:33:09.911444+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:33:09.911555+00:00"
+    }
+  }
+}
