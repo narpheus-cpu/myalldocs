@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잡문집",
+    "author": "무라카미 하루키",
+    "genre": "에세이집",
+    "tags": [
+      "일본문학",
+      "에세이",
+      "잡문집",
+      "무라카미하루키"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "비평",
+        "인사말"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "무라카미 하루키가 작가 생활 30여 년 동안 다양한 매체에 발표했던 미수록 글들을 모은 에세이집입니다.",
+    "oneLineSummary": "작가 데뷔 이래 작성한 서문, 수상 소감, 음악 비평, 번역론 등 다채로운 잡글을 모아 저자의 정신 세계를 보여주는 에세이집입니다.",
+    "overallSummary": "소설가로서 판단을 배제하고 가설을 쌓아 올리는 작업에 대한 고찰부터 '굴튀김 이론', 예루살렘상 수상 소감('벽과 알'), 음악과 번역에 관한 깊이 있는 산문까지 무라카미 하루키의 솔직하고 잡다한 심경과 문학관을 모아 담았습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "어디까지나 잡다한 심경(머리말)",
+        "summary": "30여 년간 다양한 목적으로 쓴 미발표작 및 원고들을 10개 범주로 묶어 출간하게 된 경위를 밝힙니다."
+      },
+      {
+        "sectionTitle": "자기란 무엇인가 혹은 맛있는 굴튀김 먹는 법",
+        "summary": "소설가의 역할은 결론 대신 가설을 만드는 것이며, 자기 자신을 설명하기보다 굴튀김을 묘사함으로써 도리어 자기가 드러난다는 관점을 설명합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학관",
+        "value": "가설을 쌓아 올리는 작업으로서의 소설, 굴튀김 이론"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 오바 다케시, 와다 마코토, 안자이 미즈마루",
+    "settingText": "2011년 작가의 서재 및 지난 30년간의 문학적 여정"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZJXpRv8W0Xtw0eMOk6hb2ZbfLHwKQ6z3",
+    "filename": "무라카미 하루키-잡문집(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T15:26:34.000Z",
+    "size": "657364",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ZJXpRv8W0Xtw0eMOk6hb2ZbfLHwKQ6z3/view?usp=drivesdk",
+    "sourceSha256": "0414f785e6d5a811694d59b1a6d4d507c96efe7916ca9660257a863929366e68",
+    "textSha256": "b37cf9f14417a8ba02f80fee6d112ea983aed0a12b65dcf8b4a92f660f8bc789",
+    "changeKey": "4ddbe95457281525506a77075592a97b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "49b8538f76556e690630",
+    "workId": "49b8538f76556e690630",
+    "driveFileId": "1ZJXpRv8W0Xtw0eMOk6hb2ZbfLHwKQ6z3",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:59:34.310336+00:00",
+    "updatedAt": "2026-09-24T08:59:34.310352+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:59:34.310455+00:00"
+    }
+  }
+}

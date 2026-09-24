@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "하루키 문학수첩",
+    "author": "문학사상사 자료조사연구실",
+    "genre": "문학비평/가이드북",
+    "tags": [
+      "무라카미하루키",
+      "문학수첩",
+      "작품해설",
+      "문학비평"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "연구",
+        "해설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "문학사상사 자료조사연구실에서 무라카미 하루키의 작품 세계와 인터뷰, 국내외 평론을 종합 정리한 탐험 길잡이 서적입니다.",
+    "oneLineSummary": "무라카미 하루키 문학의 수수께끼와 비밀, 한국 내 수용 과정 및 작품 세계 전체를 다각도로 해설하고 안내하는 연구 가이드입니다.",
+    "overallSummary": "하루키 소설의 수수께끼를 풀기 위해 작가의 메시지, 독자 반응, 일본 및 세계 문단에서의 위치, 메타포와 스타일 분석, 작품별 종합 해설을 수록하여 하루키 현상의 본질과 문학적 깊이를 탐구하도록 돕습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 및 한국 독자에게 보내는 메시지",
+        "summary": "<상실의 시대> 한국 출간에 즈음하여 하루키가 보낸 서한과 사람이 사람을 사랑하는 의미에 대한 창작 의도를 소개합니다."
+      },
+      {
+        "sectionTitle": "세계 무대에 오른 하루키 문학",
+        "summary": "하루키 현상이 일어난 원인, 특유의 어휘와 은유, 타 작가와의 비교 분석을 통해 하루키 문학의 독창성을 조명합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분석 특징",
+        "value": "작가 메시지/인터뷰와 국내외 비평을 씨줄과 날줄로 결합한 해설"
+      }
+    ],
+    "keyEntitiesText": "무라카미 하루키, 문학사상사 편집진, 와타나베, 나오코",
+    "settingText": "1980년대~1990년대 한국과 일본의 출판계 및 문학 비평계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BXaCrJ_7pdVhJMXw_aGh0b1tuTEKw935",
+    "filename": "무라카미 하루키-문학수첩.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:04.138Z",
+    "size": "512273",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이",
+      "무라카미 하루키",
+      "기타"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이/무라카미 하루키/기타",
+    "webViewLink": "https://drive.google.com/file/d/1BXaCrJ_7pdVhJMXw_aGh0b1tuTEKw935/view?usp=drivesdk",
+    "sourceSha256": "b37af2ff3e7e039b152a4674f030404ecc22782ea597ac955d25c6d5b2d0c106",
+    "textSha256": "62674377ba1abce95e3825b1b367621f4e514978c78b51f3dba13ffbca5fef26",
+    "changeKey": "59ef1ec6b73144b1181a7d89963c9cab",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a9166b3a0f162dd9e3c7",
+    "workId": "a9166b3a0f162dd9e3c7",
+    "driveFileId": "1BXaCrJ_7pdVhJMXw_aGh0b1tuTEKw935",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T09:00:01.508282+00:00",
+    "updatedAt": "2026-09-24T09:00:01.508297+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T09:00:01.508409+00:00"
+    }
+  }
+}
