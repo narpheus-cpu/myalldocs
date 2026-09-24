@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한국고전 베스트 30 (하)",
+    "author": "한국 소설문학 연구회",
+    "genre": "한국 고전소설 선집",
+    "tags": [
+      "한국고전",
+      "고전소설",
+      "장화홍련전"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 소설문학 연구회에서 엮은 한국 고전소설 대표작 모음집이다.",
+    "oneLineSummary": "한국 고전소설 대표작 목록과 함께 계모의 음해로 억울하게 죽은 자매의 원한 극복을 다룬 장화홍련전을 수록하고 있다.",
+    "overallSummary": "본 도서는 한국 고전소설 베스트 30 하권으로, 장화홍련전, 계축일기, 산성일기, 홍길동전, 한중록, 춘향전 등 다양한 고전 작품들의 목록을 제시한다. 대표적으로 수록된 장화홍련전은 평안도 철산의 배좌수 가문에서 계모 허씨의 간계로 낙태 누명을 쓰고 연못에 빠져 죽은 장화와 홍련 자매가 원혼이 되어 신임 부사 정동호에게 억울함을 아뢰고 설원한 뒤 환생하여 부귀를 누리는 과정을 상세히 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "차례",
+        "summary": "한국고전 베스트 30 하권에 포함된 주요 고전 소설 및 일기 문학 작품 목록을 보여준다."
+      },
+      {
+        "sectionTitle": "장화홍련전",
+        "summary": "배좌수의 두 딸 장화와 홍련이 계모 허씨의 음해로 목숨을 잃었으나 신임 부사를 통해 진상을 밝히고 계모를 처벌한 후 다시 쌍둥이 자매로 환생하여 행복을 찾는 이야기이다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 주제",
+        "value": "권선징악과 원한의 설원, 자매의 효성과 우애"
+      }
+    ],
+    "keyEntitiesText": "배무용(배좌수), 장화, 홍련, 계모 허씨, 장쇠, 정동호(철산 부사), 철산군",
+    "settingText": "조선 세종대왕 시절 평안도 철산군"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MaEF52m1wmF5Sd2ODn354K67MOuAAtdy",
+    "filename": "한국고전 베스트 30 (하).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:01.375Z",
+    "size": "434085",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "현대소설 111편 모음 등"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/현대소설 111편 모음 등",
+    "webViewLink": "https://drive.google.com/file/d/1MaEF52m1wmF5Sd2ODn354K67MOuAAtdy/view?usp=drivesdk",
+    "sourceSha256": "9b6d31383d083597c34b508d45f1dbafb952be887a1794828573f011ede3fda4",
+    "textSha256": "1a86c396effbda858d8867564cfe872bc5905a4612a2246186f1f4af9453c9b9",
+    "changeKey": "1c8f46eb033aeddf99a94f966217a765",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c6ee09f6d637f2c9d28f",
+    "workId": "c6ee09f6d637f2c9d28f",
+    "driveFileId": "1MaEF52m1wmF5Sd2ODn354K67MOuAAtdy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:43:39.394448+00:00",
+    "updatedAt": "2026-09-24T08:43:39.394462+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:43:39.394547+00:00"
+    }
+  }
+}
