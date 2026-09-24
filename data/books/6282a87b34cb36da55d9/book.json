@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "안데르센 동화전집 (완역본)",
+    "author": "한스 크리스티안 안데르센",
+    "genre": "동화",
+    "tags": [
+      "인어공주",
+      "덴마크문학",
+      "사랑",
+      "영혼"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한스 크리스티안 안데르센(1805-1875)은 덴마크의 세계적인 동화 작가로, 서정적이고 아름다운 문체 속에 인간 영혼에 대한 깊은 통찰과 슬픔을 담아냈습니다.",
+    "oneLineSummary": "인간의 영혼을 갈구하는 인어공주의 슬프고도 아름다운 사랑을 그린 세계적인 명작 동화집.",
+    "overallSummary": "바다 왕의 막내딸인 인어 공주가 인간 세상의 왕자를 사랑하게 되어 자신의 아름다운 목소리를 마녀에게 주고 다리를 얻었으나, 결국 왕자의 사랑을 얻지 못하고 물거품이 되어 사라지는 비극적이고 숭고한 사랑 이야기를 상세히 담고 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인어 공주",
+        "summary": "깊은 바닷속 궁전에 살던 막내 인어 공주가 15세가 되어 바다 위로 올라갔다가 폭풍우 속에서 왕자를 구하고 그를 사랑하게 되어, 영혼을 얻기 위해 마녀를 찾아가 꼬리를 다리로 바꾸는 마법을 부리는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "인어 공주(막내 공주), 왕자(인어 공주가 구한 인간), 바다 왕(공주의 아버지), 할머니(공주의 조력자), 마녀(목소리를 가져간 인물)",
+    "settingText": "깊은 바닷속 산호 궁전 및 인간 세상의 해변 궁전"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qgeh30nU_W8pS2JmSiLXNahPoVh1NeOw",
+    "filename": "안데르센 동화전집(완역본).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.554Z",
+    "size": "427768",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1qgeh30nU_W8pS2JmSiLXNahPoVh1NeOw/view?usp=drivesdk",
+    "sourceSha256": "dd9f83f6f887a0bdeeb7e23ad8431bed8066f85e4a531ddab787f5df5dd6937f",
+    "textSha256": "9a81f464878e143fa0ed0a1f34b14b810b409ef4bce92d16899ab4642c11f397",
+    "changeKey": "4f7ba1752dedd477aa5ea8a61823af87",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6282a87b34cb36da55d9",
+    "workId": "6282a87b34cb36da55d9",
+    "driveFileId": "1qgeh30nU_W8pS2JmSiLXNahPoVh1NeOw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:05:49.416479+00:00",
+    "updatedAt": "2026-09-24T00:05:49.416497+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:05:49.416625+00:00"
+    }
+  }
+}

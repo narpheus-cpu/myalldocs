@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "체벤구르",
+    "author": "안드레이 플라토노프",
+    "genre": "소설",
+    "tags": [
+      "러시아문학",
+      "유토피아",
+      "혁명",
+      "공산주의"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "안드레이 플라토노프(1899-1951)는 소비에트 연방 시절의 독창적인 작가로, 혁명의 이상과 현실의 괴리, 인간과 기계의 교감을 독특한 언어적 미학으로 그려냈습니다.",
+    "oneLineSummary": "혁명 이후 유토피아적 공동체를 꿈꾸는 민초들의 동심 어린 사랑과 고독한 방랑을 그린 소설.",
+    "overallSummary": "러시아 혁명기를 배경으로, 기계와 만물을 살아있는 유기체처럼 사랑하는 자하르 파블로비치와 그의 양아들 사샤 드바노프가 자본주의적 근대성에 저항하며 이상적인 공산주의 공동체 '체벤구르'를 건설하려다 겪는 비극과 고독을 독창적인 문체로 묘사합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 장인의 기원",
+        "summary": "가난과 흉년으로 황폐해진 마을에서 온갖 도구를 나무로 만들며 자연과 교감하는 자하르 파블로비치의 삶과, 죽음에 대한 호기심으로 호수에 몸을 던진 어부 드미트리의 비극적인 이야기를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "자하르 파블로비치(나무로 기계를 만드는 장인), 사샤 드바노프(그의 양아들), 드미트리 이바노비치(죽음을 확인하려 물에 빠진 어부), 은자(자하르의 친구)",
+    "settingText": "러시아 혁명 전후의 가난하고 황량한 시골 마을 및 무테보 호수"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1J8RFJFvsYa4Gap1y8I3xQAIt_lIlwLTS",
+    "filename": "안드레이 플라토노프-체벤구르(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:50:42.000Z",
+    "size": "1336295",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1J8RFJFvsYa4Gap1y8I3xQAIt_lIlwLTS/view?usp=drivesdk",
+    "sourceSha256": "9337a273de7b5d012eebf0d83e348e5b548f5c6c0bf7c01c594706b8be66afa8",
+    "textSha256": "092ed5a6c2a749678f983628d9687e9fb46a12b2d5250d51dbe39c1916e2d546",
+    "changeKey": "0550eb1da983817a8ff023775d19e49b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d66e62eabbb9d2ebdd35",
+    "workId": "d66e62eabbb9d2ebdd35",
+    "driveFileId": "1J8RFJFvsYa4Gap1y8I3xQAIt_lIlwLTS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:06:14.810341+00:00",
+    "updatedAt": "2026-09-24T00:06:14.810359+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:06:14.810445+00:00"
+    }
+  }
+}

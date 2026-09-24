@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "프랑스어의 실종",
+    "author": "아시아 제바르",
+    "genre": "소설",
+    "tags": [
+      "알제리문학",
+      "식민주의",
+      "정체성",
+      "모국어"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아시아 제바르(1936-2015)는 알제리 출신의 여성 작가이자 영화감독으로, 아랍 여성 최초로 아카데미 프랑세즈 회원으로 선출되었으며 식민지 역사와 여성의 목소리를 대변해 왔습니다.",
+    "oneLineSummary": "알제리 독립 전쟁의 상흔 속에서 모국어와 식민지 언어 사이의 갈등과 정체성을 탐구하는 소설.",
+    "overallSummary": "1991년 가을, 오랜 타향 생활 끝에 고향 알제리로 돌아온 주인공 베르칸이 사진을 찍으며 자신의 정체성을 되찾아가는 과정과, 식민지 시절 프랑스어 교육을 받으며 겪었던 문화적 충돌 및 모국어에 대한 기억을 회상하는 소설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 귀환",
+        "summary": "베르칸이 고향 해변 마을로 돌아와 고독 속에서 사진을 찍으며 평화를 느끼는 한편, 파리에 두고 온 연인 마리즈에 대한 열망과 어린 시절 카스바에서 목격했던 독립 시위의 폭력적 기억을 회상하는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "베르칸(주인공, 알제리로 귀환한 인물), 마리즈(베르칸의 파리 연인), 라시드(어부 친구), 음마 할리마(베르칸의 어머니)",
+    "settingText": "1991년 가을 알제리의 해변 마을 및 고대 카스바 거리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BAL1MiDSb_5hsswZNN60lwXf1ZlRep0G",
+    "filename": "아시아 제바르-프랑스어의 실종(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:47:40.000Z",
+    "size": "457116",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1BAL1MiDSb_5hsswZNN60lwXf1ZlRep0G/view?usp=drivesdk",
+    "sourceSha256": "fededdda13e5296f6984a6761f6a82ba4f1291e03c65c6fabbd3a0e67a45469f",
+    "textSha256": "5ab50ef3de7deb55bab0535f10264b4054532aad25ae31643017a4e3e7d2d301",
+    "changeKey": "d521ff48ff64b0ca84cbdcf8498dd893",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c2785f89bbe2a837d9de",
+    "workId": "c2785f89bbe2a837d9de",
+    "driveFileId": "1BAL1MiDSb_5hsswZNN60lwXf1ZlRep0G",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:05:24.150048+00:00",
+    "updatedAt": "2026-09-24T00:05:24.150064+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:05:24.150154+00:00"
+    }
+  }
+}

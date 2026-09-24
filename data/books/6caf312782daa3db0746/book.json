@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "눈의 여왕",
+    "author": "한스 크리스티안 안데르센",
+    "genre": "동화",
+    "tags": [
+      "눈의여왕",
+      "우정",
+      "모험",
+      "순수함"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한스 크리스티안 안데르센(1805-1875)은 아동문학의 아버님으로 불리며, 어린이뿐만 아니라 어른들의 마음도 치유하는 수많은 창작 동화를 남겼습니다.",
+    "oneLineSummary": "악마의 거울 조각이 심장에 박혀 차가워진 카이를 구하기 위한 게르다의 순수하고 용감한 여정.",
+    "overallSummary": "악마의 거울 조각이 눈과 심장에 박혀 차갑고 심술궂게 변한 소년 카이가 눈의 여왕에게 납치되자, 그의 단짝 친구인 소녀 게르다가 온갖 역경과 마법을 극복하고 순수한 사랑의 힘으로 카이를 구출해내는 감동적인 동화입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫 번째 이야기: 거울과 거울 조각",
+        "summary": "아름다운 것을 추하게 보이게 만드는 악마의 마법 거울이 깨져 세상에 퍼지면서, 사람들의 눈과 심장에 박혀 사악함을 심어주게 된 기원을 설명합니다."
+      },
+      {
+        "sectionTitle": "두 번째 이야기: 어린 남자아이와 어린 여자아이",
+        "summary": "다락방 정원에서 친남매처럼 지내던 카이와 게르다의 우정, 그리고 카이의 눈과 심장에 거울 조각이 박혀 차갑게 변한 뒤 눈의 여왕에게 이끌려 사라지는 과정을 다룹니다."
+      },
+      {
+        "sectionTitle": "세 번째 이야기: 마법을 알고 있는 노파의 화단",
+        "summary": "카이를 찾아 길을 떠난 게르다가 강물에 신발을 바치고 배를 타다 마법을 부리는 노파의 정원에 갇혀 카이를 잊을 뻔했다가, 장미꽃을 보고 다시 기억을 되찾아 모험을 계속하는 이야기입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "카이(심장이 얼어붙은 소년), 게르다(카이를 구하러 떠난 소녀), 눈의 여왕(카이를 데려간 존재), 마법 노파(게르다를 붙잡아둔 인물)",
+    "settingText": "북유럽의 어느 도시 다락방 및 마법의 정원, 눈의 여왕의 얼음 궁전"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qzqwnftPG1WRTVsR_pVbMfjYpNqoz8VB",
+    "filename": "안데르센-눈의 여왕(더클래식)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-06T12:53:20.000Z",
+    "size": "263884",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1qzqwnftPG1WRTVsR_pVbMfjYpNqoz8VB/view?usp=drivesdk",
+    "sourceSha256": "f2be8a93806a3f56c98a9cb79f236ae5271ebbaef945b65f7beae0142ee1b8b6",
+    "textSha256": "9d3d1e1fbe9d6dd0ef5a2c56c4da489e4ad73efd307520f49ebe4516b618d3d8",
+    "changeKey": "520eb3153ef923c786323f1397632c4f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6caf312782daa3db0746",
+    "workId": "6caf312782daa3db0746",
+    "driveFileId": "1qzqwnftPG1WRTVsR_pVbMfjYpNqoz8VB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:05:56.357933+00:00",
+    "updatedAt": "2026-09-24T00:05:56.357950+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:05:56.358046+00:00"
+    }
+  }
+}

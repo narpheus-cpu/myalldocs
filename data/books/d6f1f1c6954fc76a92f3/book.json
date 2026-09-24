@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "라이겐",
+    "author": "아르투어 슈니츨러",
+    "genre": "희곡",
+    "tags": [
+      "세기말빈",
+      "성적욕망",
+      "위선",
+      "인간관계"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "아르투어 슈니츨러(1862-1931)는 오스트리아의 극작가이자 소설가로, 프로이트의 정신분석학과 유사하게 인간의 무의식과 성적 욕망, 세기말 빈 사회의 위선을 날카롭게 해부했습니다.",
+    "oneLineSummary": "세기말 빈 사회의 신분과 계급을 초월한 성적 욕망과 위선을 10개의 연쇄적 대화로 파헤친 희곡.",
+    "overallSummary": "창녀, 군인, 하녀, 젊은 주인, 젊은 부인, 남편, 귀여운 아가씨, 시인, 여배우, 백작 등 다양한 계층의 인물들이 꼬리를 물고 이어지는 성적 관계와 대화를 통해, 인간 관계의 허무함과 성적 본능 앞에서의 위선을 날카롭게 풍자하는 10개의 연쇄 대화극입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "창녀와 군인",
+        "summary": "늦은 밤 아우가르텐 다리 옆에서 창녀 레오카디아가 군인을 유혹하여 도나우강 근처에서 관계를 맺은 후, 군인이 돈을 주지 않고 무정하게 떠나는 대화입니다."
+      },
+      {
+        "sectionTitle": "군인과 하녀",
+        "summary": "토요일 밤 프라터 공원에서 군인 프란츠가 하녀 마리를 유혹하여 관계를 맺은 후, 그녀를 무시하고 다시 춤을 추러 가버리는 대화입니다."
+      },
+      {
+        "sectionTitle": "하녀와 젊은 주인",
+        "summary": "부모가 자리를 비운 여름날 오후, 하녀 마리가 젊은 주인 알프레트의 방에 물을 가져다주었다가 그의 유혹에 넘어가 관계를 맺는 대화입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "레오카디아(창녀), 프란츠(군인), 마리(하녀), 알프레트(젊은 주인), 엠마(젊은 부인)",
+    "settingText": "19세기 말 오스트리아 빈의 거리, 공원, 저택의 방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ZVy9x9OTr8M1EHgOoSPG919R65oqqHAN",
+    "filename": "아르투어 슈니츨러-라이겐(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:46:44.000Z",
+    "size": "470456",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1ZVy9x9OTr8M1EHgOoSPG919R65oqqHAN/view?usp=drivesdk",
+    "sourceSha256": "c02f897bc28aa2c044245810b8a49adc926a3cfdbf1b62795206e94185dd95e2",
+    "textSha256": "1cf23ca125dbf0b471d1e6da2fc2d90e7c61883be458edfb1881c39a5539f7de",
+    "changeKey": "9eb23c5d351bcb802e29cca573514306",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d6f1f1c6954fc76a92f3",
+    "workId": "d6f1f1c6954fc76a92f3",
+    "driveFileId": "1ZVy9x9OTr8M1EHgOoSPG919R65oqqHAN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:05:16.370023+00:00",
+    "updatedAt": "2026-09-24T00:05:16.370040+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:05:16.370133+00:00"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "안데르센 동화전집 (동서문화사)",
+    "author": "한스 크리스티안 안데르센",
+    "genre": "동화",
+    "tags": [
+      "창작비화",
+      "덴마크동화",
+      "어른을위한동화",
+      "문학론"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mixed_anthology",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한스 크리스티안 안데르센(1805-1875)은 자신의 가난했던 유년 시절의 추억과 민간 전설을 바탕으로 독창적인 동화의 세계를 개척한 작가입니다.",
+    "oneLineSummary": "안데르센이 자신의 창작 배경과 동화의 기원을 밝히며 엮은 깊이 있는 동화 및 이야기 선집.",
+    "overallSummary": "안데르센이 어른과 아이 모두를 위해 집필한 동화들의 창작 비화와 기원을 직접 설명하는 서문과 함께, '미운 오리새끼', '성냥팔이 소녀', '어느 어머니 이야기' 등 그의 대표작들이 지닌 문학적 가치와 창작 과정을 소개합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나의 동화에 대하여",
+        "summary": "안데르센이 자신의 동화들이 어린이뿐만 아니라 어른들을 위한 심오한 의미를 담고 있음을 밝히고, '인어 공주', '벌거벗은 임금님' 등의 창작 배경과 스페인 우화 등에서 얻은 영감을 설명하는 서문입니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "안데르센(저자), 하이베아 부인(안데르센을 격려한 예술가), 에어스테즈(과학자이자 친구)",
+    "settingText": "19세기 덴마크 코펜하겐 및 작가의 서재"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gvbhBs29oWud1GkxSrCXEipZW2K6KnTh",
+    "filename": "안데르센-동화전집(동서문화사)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-06T12:50:22.000Z",
+    "size": "2840842",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1gvbhBs29oWud1GkxSrCXEipZW2K6KnTh/view?usp=drivesdk",
+    "sourceSha256": "750f745a6386830562ace5eed5caff67fccfa3ab7597799545c42b6a452157c2",
+    "textSha256": "b68590109b0794405f191c0cebb59e8777462e8e1575680154098ae77aca4daf",
+    "changeKey": "1431ad9bfb1652c7ca30269bc0da943d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ca12763c56757f61add3",
+    "workId": "ca12763c56757f61add3",
+    "driveFileId": "1gvbhBs29oWud1GkxSrCXEipZW2K6KnTh",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:06:05.545706+00:00",
+    "updatedAt": "2026-09-24T00:06:05.545722+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:06:05.545814+00:00"
+    }
+  }
+}

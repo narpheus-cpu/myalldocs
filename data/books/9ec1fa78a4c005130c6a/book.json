@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에다 이야기",
+    "author": "스노리 스툴루손",
+    "genre": "신화",
+    "tags": [
+      "북유럽신화",
+      "오딘",
+      "토르",
+      "게르만신화"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스노리 스툴루손(1179-1241)은 아이슬란드의 정치가, 역사학자이자 시인으로, 구전되던 북유럽 신화와 시학을 체계적으로 정리하여 '신 에다(산문 에다)'를 저술했습니다.",
+    "oneLineSummary": "북유럽 신화의 기원과 신들의 전쟁, 세상의 창조와 종말을 체계적으로 정리한 게르만 신화의 보고.",
+    "overallSummary": "스웨덴의 귈피 왕이 아시아에서 온 신비로운 아스(Ass) 신족의 힘의 원천을 알아내기 위해 노인으로 변장하고 아스가르드를 방문하여, 세 명의 지배자(하르, 야픈하르, 트리디)와 문답을 나누며 세상의 창조, 거인 위미르의 탄생, 신들의 계보를 전해 듣는 형식의 신화집입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "인류의 기원과 대홍수 이후 신의 이름을 잊은 인간들이 자연의 이치를 깨닫고 신적 존재를 추측하게 된 과정, 그리고 오딘 일행이 아시아에서 북유럽으로 이동하여 정착한 역사를 설명합니다."
+      },
+      {
+        "sectionTitle": "제1부 귈피의 홀림",
+        "summary": "귈피 왕이 강글레리라는 이름으로 변장하여 신들의 궁전에 들어가 세상의 창조, 거인 위미르의 탄생, 서리 거인들과의 투쟁에 대해 질문하고 답을 얻는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "귈피 왕(강글레리), 오딘(알푀드, 신들의 아버지), 토르(트로르), 위미르(최초의 거인), 게퓬(셀란드 섬을 만든 여인)",
+    "settingText": "북유럽 신화 속 신들의 궁전 발할(아스가르드) 및 고대 스칸디나비아 영토"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Umr4k_yfOyQGwNYMo_13Sc-3RFpxHlbe",
+    "filename": "스노리 스툴루손-에다 이야기(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T18:44:22.000Z",
+    "size": "394873",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1Umr4k_yfOyQGwNYMo_13Sc-3RFpxHlbe/view?usp=drivesdk",
+    "sourceSha256": "06e28a337cd374b46ae14a31e2747217d8d047deeaa0aaa605f16bc40f8d619a",
+    "textSha256": "b034f7f95575d5666dd3afe50c3a50ad761715055a2b6db0e0ec2f4287c6ee92",
+    "changeKey": "bda14ebde6319013ad232fb2a5063bc5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9ec1fa78a4c005130c6a",
+    "workId": "9ec1fa78a4c005130c6a",
+    "driveFileId": "1Umr4k_yfOyQGwNYMo_13Sc-3RFpxHlbe",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:04:38.858514+00:00",
+    "updatedAt": "2026-09-24T00:04:38.858531+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:04:38.858657+00:00"
+    }
+  }
+}

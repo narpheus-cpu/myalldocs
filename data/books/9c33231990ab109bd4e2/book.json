@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "손자병법",
+    "author": "손무",
+    "genre": "병법/전략",
+    "tags": [
+      "손자",
+      "군사전략",
+      "처세술",
+      "동양고전"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "philosophy",
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "손무는 중국 춘추시대 오나라의 장군이자 군사 전략가로, 전쟁의 본질과 승리의 법칙을 다룬 불후의 명저 '손자병법'을 남겼습니다.",
+    "oneLineSummary": "싸우지 않고 적을 굴복시키는 것을 최선으로 삼는 동양 최고의 군사 전략 및 처세 지침서.",
+    "overallSummary": "전쟁의 승패를 결정하는 다섯 가지 조건(도·천·지·장·법)과 일곱 가지 계교, 상대방을 속이는 기만술, 그리고 전쟁에 따르는 국가 재정적 영향과 속전속결의 중요성을 다룬 병법서입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1편 시계편(始計篇)",
+        "summary": "전쟁은 국가의 대사로 신중히 살펴야 하며, 오사(五事)와 칠계(七計)를 통해 승산을 비교 분석하고 기만술(궤도)을 활용해 승리를 쟁취해야 함을 역설합니다."
+      },
+      {
+        "sectionTitle": "제2편 작전편(作戰篇)",
+        "summary": "전쟁에 소요되는 막대한 비용과 물자를 분석하고, 전쟁이 장기화될 때의 폐해를 경고하며, 적의 물자를 탈취해 조달하는 속전속결의 전술을 강조합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "손무(저자), 조조(82편의 손자병법을 13편으로 정리한 인물), 유비와 제갈량(융중대책을 통해 손자병법의 전략을 실천한 인물들)",
+    "settingText": "중국 춘추전국시대의 전쟁터 및 조정"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QACwoas-l_bW92Xuui7w470HJKztscDM",
+    "filename": "손무-손자병법(매월당)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T18:56:26.000Z",
+    "size": "259368",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1QACwoas-l_bW92Xuui7w470HJKztscDM/view?usp=drivesdk",
+    "sourceSha256": "00751a06615db164eb6fff3d17fc31bc93993e53a9ae2aa5be32539da2448eab",
+    "textSha256": "3cd2af4e7bb8a86848a131c1d8bf7495aec5f57c3432aa635ccea1fcd43a8641",
+    "changeKey": "4845ce03a678eceaa7e1d2f0a7b53844",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9c33231990ab109bd4e2",
+    "workId": "9c33231990ab109bd4e2",
+    "driveFileId": "1QACwoas-l_bW92Xuui7w470HJKztscDM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:04:20.561613+00:00",
+    "updatedAt": "2026-09-24T00:04:20.561630+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:04:20.561723+00:00"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "상록수",
+    "author": "심훈",
+    "genre": "소설",
+    "tags": [
+      "농촌계몽",
+      "일제강점기",
+      "브나로드",
+      "희생"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "심훈(1901-1936)은 일제강점기의 소설가, 시인, 영화감독으로, 민족주의적 열정과 농촌 계몽 운동을 주제로 한 소설 '상록수'를 통해 큰 반향을 일으켰습니다.",
+    "oneLineSummary": "일제강점기 농촌 계몽 운동에 헌신하는 두 청춘 남녀의 뜨거운 열정과 희생적 사랑을 그린 소설.",
+    "overallSummary": "신문사 주최 학생계몽운동 다과회에서 만난 박동혁과 채영신이 각각 한곡리와 청석골이라는 농촌으로 내려가 문맹 퇴치와 농민들의 삶의 질 향상을 위해 헌신하며, 온갖 고초 속에서도 꺾이지 않는 상록수 같은 의지를 보여주는 농촌 계몽 소설입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "쌍두취 행진곡",
+        "summary": "여름 동안 농촌 계몽 운동을 마치고 돌아온 대원들을 위로하는 다과회에서 박동혁과 채영신이 농민들의 비참한 현실을 고발하고 지식인들의 헌신을 촉구하는 열변을 토한 뒤, 우연히 전차에서 만나 인연을 맺게 되는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "박동혁(고농 학생, 한곡리 계몽가), 채영신(신학교 학생, 청석골 계몽가), 백현경(여자기독교연합회 총무)",
+    "settingText": "일제강점기 서울의 신문사 강당 및 서대문행 전차 안, 그리고 금화산 인근"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bDasahEsT8F16X2wMHYTaQNRrWpPhRs0",
+    "filename": "심훈-상록수.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.517Z",
+    "size": "427858",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1bDasahEsT8F16X2wMHYTaQNRrWpPhRs0/view?usp=drivesdk",
+    "sourceSha256": "2303fe13a807332aa5234783e945a94aa1895745b1c260f6e3a1196215a04be3",
+    "textSha256": "2fc922e80dc7acbfbf34499ecd472a8956bc6c1f9e22a9d829e3e5919ad6ad82",
+    "changeKey": "dff31bf2b321f9e5b52839e3dc5eb399",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "710bbc883534d4c1ac6a",
+    "workId": "710bbc883534d4c1ac6a",
+    "driveFileId": "1bDasahEsT8F16X2wMHYTaQNRrWpPhRs0",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:05:09.334863+00:00",
+    "updatedAt": "2026-09-24T00:05:09.334881+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:05:09.334971+00:00"
+    }
+  }
+}

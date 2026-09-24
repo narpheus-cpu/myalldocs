@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "셰익스피어가 들려주는 이야기",
+    "author": "찰스 램, 메리 램",
+    "genre": "소설/희곡 각색",
+    "tags": [
+      "셰익스피어",
+      "영국문학",
+      "고전각색",
+      "아동문학"
+    ],
+    "workProfile": {
+      "primary": "mixed_anthology",
+      "secondary": [
+        "fiction",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "찰스 램(1775-1834)과 메리 램(1764-1847) 남매는 영국의 수필가이자 작가로, 어린이들이 고전에 친숙해질 수 있도록 셰익스피어의 희곡들을 동화 형식으로 재구성하였습니다.",
+    "oneLineSummary": "셰익스피어의 위대한 희곡들을 어린이와 대중이 읽기 쉽게 소설 형식으로 재구성한 명작 선집.",
+    "overallSummary": "찰스 램과 메리 램 남매가 셰익스피어의 희극과 비극 중 20편을 엄선하여 동화 형식으로 각색한 책으로, 본문에서는 마법의 섬을 배경으로 한 '템페스트'와 요정들의 장난을 다룬 '한여름 밤의 꿈'의 줄거리를 상세히 소개합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "템페스트",
+        "summary": "밀라노의 성주였으나 동생 안토니오의 음모로 쫓겨나 외딴섬에 살게 된 프로스페로가 마법과 요정 아리엘을 이용해 폭풍을 일으켜 원수들을 섬으로 유인하고, 결국 그들을 용서하며 딸 미란다와 나폴리 왕자 페르디난드를 결혼시키는 이야기입니다."
+      },
+      {
+        "sectionTitle": "한여름 밤의 꿈",
+        "summary": "아테네의 엄격한 결혼법을 피해 숲으로 도망친 연인들과 요정 왕 오베론, 여왕 티타니아의 갈등 및 사랑의 묘약으로 인해 벌어지는 소동을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "프로스페로(밀라노의 전 성주이자 마법사), 미란다(그의 딸), 페르디난드(나폴리 왕자), 아리엘(공기의 요정), 칼리반(괴물 하인), 오베론(요정 왕), 티타니아(요정 여왕)",
+    "settingText": "마법이 지배하는 외딴섬 및 아테네 인근의 요정들이 사는 신비로운 숲"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1C9BOme5rzq5tQx48QI_3twB-JG7lsb5h",
+    "filename": "셰익스피어가 들려주는 이야기-찰스 램, 메리 램.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.466Z",
+    "size": "596382",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1C9BOme5rzq5tQx48QI_3twB-JG7lsb5h/view?usp=drivesdk",
+    "sourceSha256": "e1588b43254c54ddb215a7a511a3cbbb4d3df95f6fe15b430b78bd301e3a9190",
+    "textSha256": "12f4ac07be4dd3e4fb85864325ee905b87447bd8ad16822bb6cd211386685305",
+    "changeKey": "129e6bfc4aee7c8fd74ee7718e1a45b7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b3e17d07fa19ad5114fc",
+    "workId": "b3e17d07fa19ad5114fc",
+    "driveFileId": "1C9BOme5rzq5tQx48QI_3twB-JG7lsb5h",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:03:56.298120+00:00",
+    "updatedAt": "2026-09-24T00:03:56.298137+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:03:56.298221+00:00"
+    }
+  }
+}

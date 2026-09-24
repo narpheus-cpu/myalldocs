@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그리스 비극",
+    "author": "아이스퀼로스, 소포클레스, 에우리피데스",
+    "genre": "희곡",
+    "tags": [
+      "그리스비극",
+      "프로메테우스",
+      "운명",
+      "신화"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고대 그리스를 대표하는 3대 비극 시인들로, 인간 존재의 한계와 신의 정의, 그리고 운명에 맞서는 인간의 존엄성을 극적으로 묘사했습니다.",
+    "oneLineSummary": "고대 그리스 3대 비극 작가들의 대표작들을 통해 인간의 운명과 신의 정의를 탐구하는 희곡 선집.",
+    "overallSummary": "아이스퀼로스의 '결박당한 프로메테우스'와 '오레스테이아' 3부작을 비롯하여 고대 그리스 비극의 정수들을 수록한 책으로, 신의 권력에 대항하는 프로메테우스의 고결한 투쟁과 인간 존재의 한계를 깊이 있게 다룹니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "결박당한 프로메테우스",
+        "summary": "인간에게 불을 가져다준 죄로 제우스의 분노를 사 카우카소스 바위에 쇠사슬로 묶이게 된 프로메테우스가, 제우스의 전령 헤르메스의 협박에도 굴하지 않고 자신의 신념을 지키는 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "프로메테우스(인간을 사랑한 티탄 신), 헤파이스토스(대장장이 신), 이오(제우스의 사랑을 받아 암소로 변한 여인), 헤르메스(제우스의 전령)",
+    "settingText": "카우카소스 산맥의 황량한 바위산 낭떠러지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DXUCzAo-o1Athf1HG2SXF-7_cUZgx6pp",
+    "filename": "아이스킬로스-그리스 비극(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T19:59:24.000Z",
+    "size": "1403047",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1DXUCzAo-o1Athf1HG2SXF-7_cUZgx6pp/view?usp=drivesdk",
+    "sourceSha256": "2001fbe90bb191e6474e09a500756b079402738928127fd61058067203518621",
+    "textSha256": "119bbcd120159b9be9c18990c063160dff6c9c74b5fbfb98e4eb7fb34912baaa",
+    "changeKey": "0da3c3b41106aa60d3f827ce13a46137",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "167a9f55e5a2271c1694",
+    "workId": "167a9f55e5a2271c1694",
+    "driveFileId": "1DXUCzAo-o1Athf1HG2SXF-7_cUZgx6pp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:05:42.293924+00:00",
+    "updatedAt": "2026-09-24T00:05:42.293941+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:05:42.294027+00:00"
+    }
+  }
+}

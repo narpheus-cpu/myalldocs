@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "심청전",
+    "author": "미상",
+    "genre": "고전소설",
+    "tags": [
+      "효도",
+      "판소리계소설",
+      "인당수",
+      "환생"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "작자와 저작 시기를 정확히 알 수 없는 조선 후기의 대표적인 국문 소설이자 판소리계 소설로, 오랜 구전 설화를 바탕으로 정착되었습니다.",
+    "oneLineSummary": "눈먼 아버지를 위해 인당수에 몸을 던진 효녀 심청의 지극한 효심과 환생을 다룬 한국 고전 소설.",
+    "overallSummary": "황주 도화동의 심학규 봉사가 아내 곽씨 부인을 잃고 젖동냥으로 키운 딸 심청이 아버지의 눈을 뜨게 하기 위해 공양미 삼백 석에 뱃사람들에게 팔려가 인당수에 빠진 후, 용왕의 도움으로 환생하여 왕후가 되고 아버지와 재회하여 눈을 뜨게 하는 감동적인 효행 이야기입니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "심청전 상권",
+        "summary": "심학규 봉사와 곽씨 부인의 지성 어린 불공으로 태어난 심청이 어머니를 여의고 아버지의 극진한 보살핌과 이웃의 도움으로 성장하는 과정, 그리고 곽씨 부인의 비극적인 죽음과 장례 과정을 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "심청(효녀 주인공), 심학규(심봉사, 심청의 아버지), 곽씨 부인(심청의 어머니), 귀덕어미(심청을 도운 이웃)",
+    "settingText": "송나라 말년 황주 도화동 및 인당수, 용궁"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16b6Dn58vBxNH30lWtUblDO6AuiII38By",
+    "filename": "심청전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.504Z",
+    "size": "147354",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/16b6Dn58vBxNH30lWtUblDO6AuiII38By/view?usp=drivesdk",
+    "sourceSha256": "76904763a87c7fd5f688d0222597811b7cf40493a50ccad7f957b8f2bf3edce3",
+    "textSha256": "64df38d94ff9a45dd94aa37c3d501bc9b4d940605de3283800611ceb82fe7665",
+    "changeKey": "fef7cf4eb03ac10d5008ff742ce518ef",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1542d60351b4e3ce914b",
+    "workId": "1542d60351b4e3ce914b",
+    "driveFileId": "16b6Dn58vBxNH30lWtUblDO6AuiII38By",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T00:05:01.608662+00:00",
+    "updatedAt": "2026-09-24T00:05:01.608680+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T00:05:01.608769+00:00"
+    }
+  }
+}
