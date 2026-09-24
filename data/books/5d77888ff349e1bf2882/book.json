@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이문열-변경(합본)",
+    "author": "이문열",
+    "genre": "현대소설",
+    "tags": [
+      "이문열",
+      "변경",
+      "불임의세월",
+      "한국소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "대한민국 대표 소설가 이문열.",
+    "oneLineSummary": "기차를 타고 밀양으로 내려가는 어머니, 철, 옥경의 여정과 소년 철의 불안한 유년기 회상.",
+    "overallSummary": "서울을 떠나 밀양으로 가던 기차 안에서 철은 조봉암 사형에 관한 어른들의 수군거림을 듣고 두려움을 느끼며, 밀양역에 내려 새로운 삶과 아버지에 관한 형사와의 기억을 회상한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 분홍 무지개",
+        "summary": "철은 가족과 함께 밀양으로 가는 기차 안에서 남천강과 영남루를 보며 설레지만 역전에서 형사와 만났던 과거의 공포를 떠올린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "유년의 기억",
+        "value": "전후 가난과 연좌제의 그늘 속에서 겪는 소년의 불안과 미학적 감수성"
+      }
+    ],
+    "keyEntitiesText": "철, 어머니, 옥경, 공손찬, 이승만, 조봉암",
+    "settingText": "1950년대 말, 서울발 밀양행 기차 및 밀양역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1s4RtWIT6nqrsBnY7lIQNOZmZsV_JKs3L",
+    "filename": "이문열-변경(합본).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:54.572Z",
+    "size": "4409024",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이문열-삼국지 등",
+      "이문열-변경"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이문열-삼국지 등/이문열-변경",
+    "webViewLink": "https://drive.google.com/file/d/1s4RtWIT6nqrsBnY7lIQNOZmZsV_JKs3L/view?usp=drivesdk",
+    "sourceSha256": "3064a9ec2562d32e5873a88a4eb835673995f0a73d3ec762c979cd6bd6197166",
+    "textSha256": "9432916060acebcd9fc1016fa0a9f3e77b6eecedc81c3e465d119fdf5c9c5f6f",
+    "changeKey": "b2736d09d23cbe1d77c06691a033d244",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5d77888ff349e1bf2882",
+    "workId": "5d77888ff349e1bf2882",
+    "driveFileId": "1s4RtWIT6nqrsBnY7lIQNOZmZsV_JKs3L",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:17:33.825456+00:00",
+    "updatedAt": "2026-09-24T06:17:33.825473+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:17:33.825567+00:00"
+    }
+  }
+}
