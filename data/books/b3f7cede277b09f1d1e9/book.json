@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일리아드",
+    "author": "호메로스",
+    "genre": "서사시",
+    "tags": [
+      "그리스신화",
+      "영웅서사시",
+      "트로이아전쟁",
+      "아킬레우스"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "아킬레우스의 분노와 트로이아 전쟁의 비극적 영웅 서사시.",
+    "overallSummary": "고대 그리스의 시인 호메로스가 지은 대서사시로, 트로이아 전쟁 10년째를 배경으로 그리스 연합군의 영웅 아킬레우스와 총사령관 아가멤논의 갈등, 파트로클로스의 죽음, 그리고 트로이아의 영웅 헥토르의 전사와 장례식을 웅장하게 그린다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "아킬레우스, 아가멤논, 헥토르, 파트로클로스",
+    "settingText": "트로이아 전쟁터"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1FPLYTa-3KynUVkm03DJe1dlk3nqpcIRZ",
+    "filename": "일리아드(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T04:19:36.000Z",
+    "size": "1084829",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1FPLYTa-3KynUVkm03DJe1dlk3nqpcIRZ/view?usp=drivesdk",
+    "sourceSha256": "102b63375afea3f183ab0837e9bd7bed3ae1f441451a486da07fe44e3fc383f9",
+    "textSha256": "79965d5084ccadecd742143374f09d03f107f1738d092859de33707c7b2d46ea",
+    "changeKey": "7e885cf9dab9f979b765af0ea09b78fa",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b3f7cede277b09f1d1e9",
+    "workId": "b3f7cede277b09f1d1e9",
+    "driveFileId": "1FPLYTa-3KynUVkm03DJe1dlk3nqpcIRZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T02:48:32.459888+00:00",
+    "updatedAt": "2026-09-24T02:48:32.459903+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T02:48:32.459977+00:00"
+    }
+  }
+}

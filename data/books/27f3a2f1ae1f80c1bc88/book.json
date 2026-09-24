@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "귀의 성",
+    "author": "이인직",
+    "genre": "소설",
+    "tags": [
+      "한국문학",
+      "신소설",
+      "가부장제",
+      "신분질서"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "신분 질서의 해체와 가부장적 모순 속에서 고통받는 여성의 비극을 그린 신소설.",
+    "overallSummary": "춘천의 상민 딸 길순이가 서울 양반 김승지의 첩이 되면서 겪는 집안의 갈등과 가부장적 억압, 그리고 신분 상승을 꿈꾸는 부모의 허욕과 그로 인해 파멸해가는 여성의 비극적 운명을 그린 이인직의 대표 신소설이다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "길순, 강동지, 김승지",
+    "settingText": "춘천 솔개 동내 및 서울"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MvfXnIJSoqIw9ZOGDyiu1THSklSCKfg_",
+    "filename": "이인직-귀의성.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.531Z",
+    "size": "255065",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1MvfXnIJSoqIw9ZOGDyiu1THSklSCKfg_/view?usp=drivesdk",
+    "sourceSha256": "d61b04e09814c0aa9919d403b3054163c7e510de43e7a79654ae6c0ba440e216",
+    "textSha256": "6e66a73da94dd050731502e98b1560002daac46eb0151b9125a64006a7eaa149",
+    "changeKey": "ffd0de60e182fdeabb1c052a45c10b42",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "27f3a2f1ae1f80c1bc88",
+    "workId": "27f3a2f1ae1f80c1bc88",
+    "driveFileId": "1MvfXnIJSoqIw9ZOGDyiu1THSklSCKfg_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T02:48:04.174972+00:00",
+    "updatedAt": "2026-09-24T02:48:04.174986+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T02:48:04.175060+00:00"
+    }
+  }
+}

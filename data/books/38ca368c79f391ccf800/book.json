@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "이솝우화전집",
+    "author": "이솝",
+    "genre": "우화",
+    "tags": [
+      "그리스우화",
+      "교훈",
+      "동물이야기",
+      "지혜"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "동물들의 이야기를 통해 인간 사회의 지혜와 교훈을 전달하는 우화집.",
+    "overallSummary": "개미와 매미, 까마귀와 여우, 늑대와 개 등 친숙한 동물 캐릭터들을 등장시켜 인간의 어리석음을 풍자하고, 도덕적 교훈과 삶의 지혜를 쉽고 재미있게 전달하는 고대 그리스의 우화 모음집이다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "개미, 매미, 여우, 까마귀, 늑대, 개",
+    "settingText": "자연 및 동물들의 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1P-y3KLIkfxpSa4mawRuuVDFBqYDbu4ch",
+    "filename": "이솝우화전집(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T22:53:08.000Z",
+    "size": "1070005",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1P-y3KLIkfxpSa4mawRuuVDFBqYDbu4ch/view?usp=drivesdk",
+    "sourceSha256": "5e6d9ab2c9c9dc74efe577e26fae342ba224fd21b535fdb18b3703064d269778",
+    "textSha256": "502849ed4aa834d050cfdb83a2f4dc4111927c169136c7e5e75c23d20dd14eaa",
+    "changeKey": "ae811653756b0511c1795dbdc9a37d7e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "38ca368c79f391ccf800",
+    "workId": "38ca368c79f391ccf800",
+    "driveFileId": "1P-y3KLIkfxpSa4mawRuuVDFBqYDbu4ch",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T02:47:50.217619+00:00",
+    "updatedAt": "2026-09-24T02:47:50.217632+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T02:47:50.217705+00:00"
+    }
+  }
+}

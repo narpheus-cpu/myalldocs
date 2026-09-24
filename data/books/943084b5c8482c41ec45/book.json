@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지주회시(會豕)",
+    "author": "이상",
+    "genre": "소설",
+    "tags": [
+      "한국문학",
+      "모더니즘",
+      "인간소외",
+      "자본주의"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "돈과 성을 매개로 한 현대 사회의 타락과 인간 소외를 그린 소설.",
+    "overallSummary": "무기력한 남편과 카페 여급으로 일하며 돈을 벌어오는 아내, 그리고 그들을 둘러싼 인물 오(吳)와 마유미 등의 관계를 통해 자본주의 사회에서의 인간 소외와 도덕적 타락을 거미의 이미지로 형상화한 작품이다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "남편, 아내, 오(吳), 마유미",
+    "settingText": "서울의 셋방 및 카페"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WsP62CYT-lrreX8I4pW-pWppHu6lkBZO",
+    "filename": "이상-지주회시(會豕) .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.485Z",
+    "size": "44083",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1WsP62CYT-lrreX8I4pW-pWppHu6lkBZO/view?usp=drivesdk",
+    "sourceSha256": "f0f7935da34ba816587c42dc539fca0d02facb35908b25a4cd108aa79a3714fc",
+    "textSha256": "9d6bc3a6a5010290c1eb1e9604cb4767caa0fb532a38a03356f277da417666d7",
+    "changeKey": "004e8e2e1f7be05642712f3bdf4aab12",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "943084b5c8482c41ec45",
+    "workId": "943084b5c8482c41ec45",
+    "driveFileId": "1WsP62CYT-lrreX8I4pW-pWppHu6lkBZO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T02:47:34.967382+00:00",
+    "updatedAt": "2026-09-24T02:47:34.967398+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T02:47:34.967472+00:00"
+    }
+  }
+}

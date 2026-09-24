@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "돼지",
+    "author": "이효석",
+    "genre": "소설",
+    "tags": [
+      "한국문학",
+      "농촌소설",
+      "서정소설",
+      "상실감"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "가난한 농촌 청년의 삶과 애정의 상실을 돼지라는 매개체를 통해 그린 소설.",
+    "overallSummary": "가난한 농가 청년 식이가 집안의 유일한 재산이자 희망인 암퇘지를 지극정성으로 기르며 겪는 애환과, 사랑하던 처녀 분이의 가출로 인한 상실감, 그리고 결국 기차 사고로 돼지를 잃게 되는 농촌의 비극적 현실을 사실적으로 묘사한 단편 소설이다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "식이, 분이, 박초시",
+    "settingText": "일제강점기 한국의 농촌"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13-0sSgmSp9VV15qqbLGgTOJ0OMggdkYp",
+    "filename": "이효석- 돼지 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.559Z",
+    "size": "11828",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/13-0sSgmSp9VV15qqbLGgTOJ0OMggdkYp/view?usp=drivesdk",
+    "sourceSha256": "47e142ae053c2f9226cb386195b6a8dca26d2206a1d7b3559417098c21d4e95f",
+    "textSha256": "28485df88782e60857735fdaf8d64f658792f6654f1470178116847f8fe3a907",
+    "changeKey": "2c937b577e28d842fa5d65256b29b84f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0679412f622b2d4cfd88",
+    "workId": "0679412f622b2d4cfd88",
+    "driveFileId": "13-0sSgmSp9VV15qqbLGgTOJ0OMggdkYp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T02:48:17.802957+00:00",
+    "updatedAt": "2026-09-24T02:48:17.802971+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T02:48:17.803043+00:00"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "날개 외",
+    "author": "이상",
+    "genre": "소설",
+    "tags": [
+      "한국문학",
+      "모더니즘",
+      "초현실주의",
+      "자아분열"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": []
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "자아 분열과 현대인의 고독을 상징적으로 그린 이상의 대표 단편 소설.",
+    "overallSummary": "주인공인 '나'와 그의 아내 사이의 기이하고 단절된 부부 관계를 통해, 식민지 지식인의 무기력함과 자아 분열, 현대 사회의 소외와 고독을 실험적인 기법으로 묘사한 한국 모더니즘 소설의 걸작이다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "나, 아내",
+    "settingText": "33번지 18가구의 침침한 방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1MSwq8PE73ESCMtIOXhdACA3OQGmCf1sm",
+    "filename": "이상-날개 외.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.460Z",
+    "size": "143815",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1MSwq8PE73ESCMtIOXhdACA3OQGmCf1sm/view?usp=drivesdk",
+    "sourceSha256": "3a8cfb6a8274a197803b7d4bd050b44b9dcbe06188f084e26358a9d1fa246cdc",
+    "textSha256": "c5d35bdb5189889db70c21258010d6680464be1c87a0c8192bf83ce902299ed4",
+    "changeKey": "e903228627b2a81f7aa2cb50cac4aecf",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "557256bede516c711030",
+    "workId": "557256bede516c711030",
+    "driveFileId": "1MSwq8PE73ESCMtIOXhdACA3OQGmCf1sm",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T02:47:20.443488+00:00",
+    "updatedAt": "2026-09-24T02:47:20.443502+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T02:47:20.443605+00:00"
+    }
+  }
+}
