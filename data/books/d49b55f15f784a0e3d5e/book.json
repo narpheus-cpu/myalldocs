@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "교과서 시 정본 해설",
+    "author": "이숭원",
+    "genre": "문학평론/해설서",
+    "tags": [
+      "현대시",
+      "시해설",
+      "교과서시",
+      "김소월",
+      "진달래꽃",
+      "정본해설"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "academic",
+        "literary_criticism"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1955년 서울 출생. 서울대 국어교육과 및 동 대학원 국문과 졸업. 서울여자대학교 국어국문학과 교수이자 문학평론가.",
+    "oneLineSummary": "도식적 해석과 오독을 바로잡고 발표 당시 정본 시집 표기를 바탕으로 한국 현대시 99편을 명쾌하게 해설한다.",
+    "overallSummary": "중·고교 교과서와 참고서의 상투적인 시 해석과 불일치하는 표기 문제를 비판하며, 김소월의 '진달래꽃', '왕십리' 등 대표 시편들의 시어와 문맥을 세밀하게 분석하여 시 본연의 서정성과 미학적 가치를 규명한 현대시 안내서이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 시를 공부하는 사람들에게",
+        "summary": "교과서 시 해석의 도식성과 판본 오류를 지적하고 시인의 첫 시집 정본에 기초한 올바른 감상의 원칙을 제시한다."
+      },
+      {
+        "sectionTitle": "진달래꽃 / 김소월",
+        "summary": "가정 어법과 영변 약산 진달래꽃의 상징성을 통해 떠남이 아닌 진정한 사랑의 결실을 노래한 역설의 미학을 분석한다."
+      },
+      {
+        "sectionTitle": "왕십리 / 김소월",
+        "summary": "비 내리는 왕십리의 유폐된 공간을 통해 인간의 실존적 고독과 한계 상황을 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비평 관점",
+        "value": "정본 텍스트 확정 및 도식적 상징 해석 탈피를 통한 시 본질 규명"
+      }
+    ],
+    "keyEntitiesText": "이숭원, 김소월, 김억, 정지용, 윤동주, 이육사",
+    "settingText": "한국 근현대 문학사 및 국어 교육 현장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WbvuolAFv5klAEOSKVjURs48CynmbXnG",
+    "filename": "이숭원-교과서 시 정본 해설(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T22:57:06.000Z",
+    "size": "671735",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1WbvuolAFv5klAEOSKVjURs48CynmbXnG/view?usp=drivesdk",
+    "sourceSha256": "4ba2bb582b69857cbac23ef75d09787a05d4d2e447eceb178ffe4add0c100d4c",
+    "textSha256": "cb49a117ef4af7a404ba10cbec68e68b2e9e8a7a12112e7405e2ba7fd5385267",
+    "changeKey": "3d7cd4f85059b563b908ee73f7eba9fe",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d49b55f15f784a0e3d5e",
+    "workId": "d49b55f15f784a0e3d5e",
+    "driveFileId": "1WbvuolAFv5klAEOSKVjURs48CynmbXnG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:46:56.190512+00:00",
+    "updatedAt": "2026-09-24T06:46:56.190528+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:46:56.190643+00:00"
+    }
+  }
+}

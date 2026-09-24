@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내 안의 노랑나비",
+    "author": "이수광",
+    "genre": "추리소설",
+    "tags": [
+      "사이코패스",
+      "연쇄살인",
+      "오득렬 형사",
+      "강간살인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "crime",
+        "detective"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1983년 중앙일보 신춘문예 당선, 1994년 한국추리문학 대상 수상. '사자의 얼굴', '나는 조선의 국모다' 등 집필.",
+    "oneLineSummary": "비 오는 날 여성을 사냥하는 연쇄살인범의 광기와 장미원 인육 훼손 사건을 수사하는 오득렬 형사의 추적을 다룬다.",
+    "overallSummary": "어린 시절의 트라우마로 비 오는 밤마다 여성을 납치해 범행을 저지르는 연쇄살인범의 심리와, 강서구 미수동 장미원에서 발생한 여대생 사체 훼손 및 인육 의혹 사건을 맡아 수사하는 베테랑 형사 오득렬의 추적 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 노랑나비",
+        "summary": "가을비 속에서 남성들에게 유린당한 뒤 복수심으로 여성들을 사냥하여 납치하는 인물의 뒤틀린 심리를 다룬다."
+      },
+      {
+        "sectionTitle": "2. 인육 사건",
+        "summary": "오득렬 형사가 서초서에서 강서 미수동 파출소 수사본부로 파견되어 장미원 여대생 살해 및 가슴 부위 훼손 사체를 검시한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "수사 기법",
+        "value": "연쇄 살인 현장 감식과 프로파일링을 통한 범인 추적"
+      }
+    ],
+    "keyEntitiesText": "태희, 오득렬 형사, 이정희, 정재길 형사, 김동수 강력계장",
+    "settingText": "비 내리는 시골 국도 및 서울 강서구 미수동 장미원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RzC-jUpH-8tqzh02frl5AiH6pdKtUMAK",
+    "filename": "이수광-내안의 노랑나비.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.509Z",
+    "size": "312351",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이수광"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이수광",
+    "webViewLink": "https://drive.google.com/file/d/1RzC-jUpH-8tqzh02frl5AiH6pdKtUMAK/view?usp=drivesdk",
+    "sourceSha256": "4e7c05efdc4e432540e19b117983927f3ea71d9b6b921e0fd589f43517d4823c",
+    "textSha256": "c3d008b70a9deb748ad34bc3a72f7a290bd669029447b6486148ff7206c699c6",
+    "changeKey": "6da7fc889683100fd327d4e403ed3c9a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c934eadb1ef1eca94863",
+    "workId": "c934eadb1ef1eca94863",
+    "driveFileId": "1RzC-jUpH-8tqzh02frl5AiH6pdKtUMAK",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:45:47.193165+00:00",
+    "updatedAt": "2026-09-24T06:45:47.193180+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:45:47.193277+00:00"
+    }
+  }
+}

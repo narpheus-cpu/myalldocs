@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "다시 읽는 한국시",
+    "author": "이어녕",
+    "genre": "시 해설 에세이",
+    "tags": [
+      "한국시",
+      "시화전",
+      "정지용",
+      "김상용",
+      "김영랑",
+      "문학에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "literary_criticism",
+        "art_essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "한국 대표 현대시들의 감각적 언어와 문화적 깊이를 인문학적 상상력으로 새롭게 풀어낸 에세이 시화전이다.",
+    "overallSummary": "정지용의 '향수'와 '춘설', 김상용의 '남으로 창을 내겠소', 김영랑의 '모란이 피기까지는' 등의 작품을 공감각적 기법, 시간과 공간의 대칭적 균형, 농경 문화와 도시 문명의 대립, 동사로서의 꽃이라는 독창적인 시선으로 재해석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1 정지용 향수",
+        "summary": "황소 울음의 금빛 시각화와 밤바람 소리의 역동적 리듬, 수평과 수직의 대칭적 공간 구성을 분석한다."
+      },
+      {
+        "sectionTitle": "2 정지용 春雪",
+        "summary": "봄눈과 꽃샘추위가 주는 놀라움을 통해 겨울과 봄의 경계에서 살아나는 감각과 시간 되감기의 역설을 규명한다."
+      },
+      {
+        "sectionTitle": "3 김상용 南으로 窓을 내겠소",
+        "summary": "도시 산업 문명과 대립하는 농경적 삶의 양식과 '왜 사냐건 웃지요'에 담긴 삶의 다의적 미소를 해설한다."
+      },
+      {
+        "sectionTitle": "4 김영랑 모란이 피기까지는",
+        "summary": "꽃을 정적인 형용사가 아닌 피고 지며 변화하는 동사로서의 생명력으로 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "비평적 특징",
+        "value": "공감각적 이미지 분석과 문화기호학을 결합한 한국 현대시 재해석"
+      }
+    ],
+    "keyEntitiesText": "이어녕, 정지용, 김상용, 김영랑",
+    "settingText": "한국 현대시 텍스트 및 도시 문명과 전통 농경 사회"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BX9mgvdHfWzfuGedVAyjUnZTfdxkO5qn",
+    "filename": "이어녕-다시 읽는 한국시.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.100Z",
+    "size": "184340",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1BX9mgvdHfWzfuGedVAyjUnZTfdxkO5qn/view?usp=drivesdk",
+    "sourceSha256": "7b4b35d5c0837d0591db47070e1fa30c4fa5d22f493f1ea03fef5e60bb25cb40",
+    "textSha256": "0d55e421c006100635421c3fba0b00e4ad6024a3e7629c1cb94baf8452dc0351",
+    "changeKey": "08d5ea436249bef123ced40e7708e94d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5aebaf583e74e7df8f79",
+    "workId": "5aebaf583e74e7df8f79",
+    "driveFileId": "1BX9mgvdHfWzfuGedVAyjUnZTfdxkO5qn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:47:13.837933+00:00",
+    "updatedAt": "2026-09-24T06:47:13.837949+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:47:13.838059+00:00"
+    }
+  }
+}

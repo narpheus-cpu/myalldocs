@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "대륙의 북소리(상권)",
+    "author": "이수광",
+    "genre": "역사소설",
+    "tags": [
+      "발해",
+      "대조영",
+      "천문령",
+      "거란",
+      "역사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical",
+        "epic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1954년 충북 제천 출생. 1983년 중앙일보 신춘문예 당선, 제10회 한국추리문학 대상 수상.",
+    "oneLineSummary": "대조영이 천문령 전투에서 당군을 대파하고 발해를 개국한 웅혼한 북방 대륙사를 복원한다.",
+    "overallSummary": "당나라의 강제 이주와 탄압에 맞선 고구려 유민들이 대조영의 지휘 아래 천문령에서 당군을 격멸하고 발해국을 세운 역사적 대장정과, 이후 거란의 야율 아보기가 세력을 확장하며 다가오는 위기를 조명한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 프롤로그",
+        "summary": "서기 698년 대조영의 계책과 우부인의 과감한 유인으로 천문령 협곡에서 당나라 이해고 군대를 전멸시킨다."
+      },
+      {
+        "sectionTitle": "2. 발해를 꿈꾼다",
+        "summary": "아프리카에서 시작된 인간족의 이동부터 배달족의 고대 왕국 건설과 발해의 흥망성쇠에 이르는 상고사를 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사적 구도",
+        "value": "발해의 흥망성쇠를 대륙적 스케일로 형상화한 대하역사소설"
+      }
+    ],
+    "keyEntitiesText": "대조영, 우부인, 이해고, 걸사비우, 야율 아보기, 측천무후",
+    "settingText": "서기 698년 요동반도 천문령 및 만주 벌판"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1AsOn7BtvE5Ts_Bc_k5WA4wuN-hCS-Mmy",
+    "filename": "이수광-대륙의 북소리.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.865Z",
+    "size": "666261",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이수광"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이수광",
+    "webViewLink": "https://drive.google.com/file/d/1AsOn7BtvE5Ts_Bc_k5WA4wuN-hCS-Mmy/view?usp=drivesdk",
+    "sourceSha256": "57c96a65f834c3cfd5b17635c16b74af9f4e936b73c727e1e817405c191d63ca",
+    "textSha256": "f708a005d40a6d9d3c0f4883ac7e0211b51e22572fb6c201ae219ebccb46fc71",
+    "changeKey": "72b694bd05cb649aeece39d2af072356",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5e66a540906638f506db",
+    "workId": "5e66a540906638f506db",
+    "driveFileId": "1AsOn7BtvE5Ts_Bc_k5WA4wuN-hCS-Mmy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:46:08.813794+00:00",
+    "updatedAt": "2026-09-24T06:46:08.813809+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7588,
+      "updatedAt": "2026-09-24T06:46:08.813901+00:00"
+    }
+  }
+}

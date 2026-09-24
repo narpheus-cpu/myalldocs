@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 조선의 국모다 1권",
+    "author": "이수광",
+    "genre": "역사소설",
+    "tags": [
+      "명성황후",
+      "조선말기",
+      "을미사변",
+      "고종",
+      "역사소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "1895년 10월 을미사변 전야, 일본의 침략 야욕과 조선 황실의 위기 상황을 긴박하게 그린다.",
+    "overallSummary": "일본군과 낭인들이 조선 왕비를 제거하기 위해 한성으로 침투하는 가운데, 불길한 흉몽에 시달리는 고종과 정세를 날카롭게 직시하는 민비의 고뇌를 다룬 역사소설이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제 1장. 여우사냥",
+        "summary": "일본군과 낭인들이 한성으로 잠입하고 미우라 공사가 작전을 지시하는 한편, 고종과 민비가 대궐 밖의 심상치 않은 동태를 파악하며 대비한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "을미사변 전야의 긴장감과 일본의 침략 야욕"
+      }
+    ],
+    "keyEntitiesText": "고종, 민비, 미우라 고로, 스기무라 후카시, 정병하, 현흥택, 시위대",
+    "settingText": "1895년 10월 7일 조선 한성 및 경복궁 곤령각"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LD0ExJpPmN_VPrMkkIeeofwAsIl6sKbg",
+    "filename": "이수광-나는 조선의 국모다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.367Z",
+    "size": "2034038",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이수광"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이수광",
+    "webViewLink": "https://drive.google.com/file/d/1LD0ExJpPmN_VPrMkkIeeofwAsIl6sKbg/view?usp=drivesdk",
+    "sourceSha256": "1d13ca11e1e3b760005c1191fd1b372618dcee20a8f356343640fcc28fa7a8a4",
+    "textSha256": "d04c0aed79af30ad71c08b68917fa9b0ceeb9ec89197e1d988e1b934cc45b3aa",
+    "changeKey": "38dc264cd3067e21ab5967cb635e263a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0a997dd9b8d581bef976",
+    "workId": "0a997dd9b8d581bef976",
+    "driveFileId": "1LD0ExJpPmN_VPrMkkIeeofwAsIl6sKbg",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:44:58.132518+00:00",
+    "updatedAt": "2026-09-24T06:44:58.132535+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.8048,
+      "updatedAt": "2026-09-24T06:44:58.132638+00:00"
+    }
+  }
+}

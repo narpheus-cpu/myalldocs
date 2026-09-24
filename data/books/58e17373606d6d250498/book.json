@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "에덴에 그를 보낸다",
+    "author": "이순원",
+    "genre": "소설",
+    "tags": [
+      "소설",
+      "압구정동",
+      "이득지",
+      "테러리스트",
+      "협박전화"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "literary",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "소설 '압구정동'을 읽고 살의를 품은 인물 T가 작가 이득지에게 협박 메시지를 남기며 긴장을 고조시킨다.",
+    "overallSummary": "소설 '압구정동'을 읽고 부패한 자본 계급에 격분하여 살인을 결심한 익명의 인물 T가 작가 이득지에게 전화를 걸어 협박성 메시지를 남기는 과정과, 폭설로 설악산 산장에 고립되어 눈 속의 평온을 누리는 작가 부부의 모습을 대조적으로 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "그날 그는 여러번의 망설임 끝에",
+        "summary": "T가 전철역 공중전화에서 작가 이득지에게 전화를 걸지만 부재중 자동응답기 음성만 듣고 끊는다."
+      },
+      {
+        "sectionTitle": "여전히 저희들의 여행기간은",
+        "summary": "T가 도서관에서 이득지에 관한 자료를 조사한 뒤 다시 전화를 걸어 자신을 T라 칭하며 의미심장한 메시지를 남긴다."
+      },
+      {
+        "sectionTitle": "언제나 그랫듯이 / 눈속에서 사랑을 하고",
+        "summary": "이득지 작가 부부는 설악산 산장에서 기록적인 폭설에 갇혀 외부와 단절된 채 눈 속의 고요와 사랑을 즐긴다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 장치",
+        "value": "작가의 텍스트에 자극받은 독자의 위협과 설국 산장의 고립 대비"
+      }
+    ],
+    "keyEntitiesText": "이득지, T, 정은주, 김이형 주간, 박형우, 구인서",
+    "settingText": "서울 전철역 공중전화 부스 및 폭설이 쏟아진 설악산 산장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1piYcQEfStqc_kUdAp06NESFsuOOorPmE",
+    "filename": "이순원-에덴에 그를 보낸다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.019Z",
+    "size": "647741",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1piYcQEfStqc_kUdAp06NESFsuOOorPmE/view?usp=drivesdk",
+    "sourceSha256": "affcb23b8af75d4bc2bebdde318d4431e94c613f244f31e5cf0c3300f566f9bf",
+    "textSha256": "553635bf5b22810501b77f81010a8ab5c51ae76ad6a2626a198050829725356f",
+    "changeKey": "70daf89de66989ea9c3ce91d398ef12c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "58e17373606d6d250498",
+    "workId": "58e17373606d6d250498",
+    "driveFileId": "1piYcQEfStqc_kUdAp06NESFsuOOorPmE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:46:47.803947+00:00",
+    "updatedAt": "2026-09-24T06:46:47.803965+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:46:47.804084+00:00"
+    }
+  }
+}

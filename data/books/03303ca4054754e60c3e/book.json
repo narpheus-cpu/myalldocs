@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서울 무지개",
+    "author": "이승영",
+    "genre": "장편소설",
+    "tags": [
+      "패션계",
+      "모델",
+      "유라",
+      "준",
+      "욕망",
+      "서울무지개"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama",
+        "urban_romance"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "화려한 패션계 이면에 도사린 음모와 톱 모델 유라, 사진작가 준의 위태로운 갈등과 고독을 그린다.",
+    "overallSummary": "국내 굴지의 패션회사 샤넬 라인의 톱 모델 유라가 후배 종미에게 밀려나며 겪는 갈등, 그녀를 노리는 패션계 실세 '붉은 잠바' 표 전무와 재미교포 자니 홍의 알력, 그리고 유라를 소유하려는 사진작가 준의 도시적 방황과 외로움을 묘사한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 불그림자",
+        "summary": "패션쇼 무대에서 갑작스럽게 교체되어 분노한 유라가 자니 홍과 사라지고, 준은 밤늦게 유라의 아파트에서 그녀를 기다리며 번민한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 배경",
+        "value": "80년대 서울의 환락과 상업화된 패션 모델계의 이면"
+      }
+    ],
+    "keyEntitiesText": "준(존), 유라(금례), 표 전무(붉은 잠바), 자니 홍, 종미, 나형, 표 사장",
+    "settingText": "서울 금성호텔 패션쇼장, 유라의 아파트, 하야리식품 지하방"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uojIVEmWkNECmuRSYNIz8_4QpAPYIdFs",
+    "filename": "이승영-서울무지개.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.044Z",
+    "size": "520247",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1uojIVEmWkNECmuRSYNIz8_4QpAPYIdFs/view?usp=drivesdk",
+    "sourceSha256": "e8582ca91979742531f45cc461178a4ad6e2300af19564acade85751832e8b96",
+    "textSha256": "61cadd3e9003d0bf8a1b9d20f49ba1e900701717f25c4f039c0cbbbbc7905f1e",
+    "changeKey": "ac4236142886fb05eb21ae73e214c751",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "03303ca4054754e60c3e",
+    "workId": "03303ca4054754e60c3e",
+    "driveFileId": "1uojIVEmWkNECmuRSYNIz8_4QpAPYIdFs",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:47:03.859941+00:00",
+    "updatedAt": "2026-09-24T06:47:03.859956+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:47:03.860049+00:00"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내 안의 악마",
+    "author": "이수광",
+    "genre": "추리소설",
+    "tags": [
+      "추리소설",
+      "살인사건",
+      "범죄",
+      "사이코패스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mystery",
+        "thriller"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "외딴집 여성에게 침입했다가 살해당하는 사내와 제야의 종 인파 속에서 벌어지는 남자의 일탈적 욕망을 그린다.",
+    "overallSummary": "배관 견습공 출신 사내가 혼자 사는 여자의 집에 침입했다가 역으로 살해되어 암매장당하는 사건과, 연말 보신각 제야의 종 행사 인파 속에서 타인의 여성에게 성적 충동을 느끼는 사내의 일그러진 내면을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "내 안의 악마",
+        "summary": "사내가 여자의 침실에 침입했다가 기괴하게 살해당해 마당에 매장되고, 보신각 타종 인파 속에서 한 사내가 관음적 욕망에 사로잡힌다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 모티프",
+        "value": "왜곡된 성적 충동과 내면의 파괴적 본능"
+      }
+    ],
+    "keyEntitiesText": "침입한 사내, 기괴한 여자, 보신각 사내, 미스 홍",
+    "settingText": "가을밤 외딴 주택 및 12월 31일 서울 종로 보신각 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1HVB-ODgSR2gJDQ2kvsy2H1jGgi7ddD9h",
+    "filename": "이수광-내 안의 악마.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.422Z",
+    "size": "416928",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이수광"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이수광",
+    "webViewLink": "https://drive.google.com/file/d/1HVB-ODgSR2gJDQ2kvsy2H1jGgi7ddD9h/view?usp=drivesdk",
+    "sourceSha256": "a929516be18c22bb86112a575e36df95d56f8877f95d4eb641863287fbfceb31",
+    "textSha256": "fde5ef6f2e6bdedbbaba340e5346b78171d639971844fc23e62c021de73652fb",
+    "changeKey": "aca2250fef4364b582cd8cd23ad43a9f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "92b158144cc359953e29",
+    "workId": "92b158144cc359953e29",
+    "driveFileId": "1HVB-ODgSR2gJDQ2kvsy2H1jGgi7ddD9h",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:45:22.874163+00:00",
+    "updatedAt": "2026-09-24T06:45:22.874181+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:45:22.874294+00:00"
+    }
+  }
+}
