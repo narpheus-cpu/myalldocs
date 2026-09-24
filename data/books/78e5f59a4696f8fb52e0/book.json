@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한국 소설이 좋아서",
+    "author": "장강명 외",
+    "genre": "서평집",
+    "tags": [
+      "서평집",
+      "한국소설",
+      "문학추천",
+      "장강명"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "literary_criticism"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "장강명은 신문기자 출신의 소설가로 동시대 재미있는 한국 소설을 알리기 위해 다독가들과 서평집을 기획했다.",
+    "oneLineSummary": "대중적으로 잘 알려지지 않은 숨은 한국 소설들을 소개해 독서의 재미를 전하는 서평집이다.",
+    "overallSummary": "오늘의작가상 상금을 의미 있게 쓰고자 기획된 무료 서평집으로 다독가 50명이 모여 장르와 주제별로 다채로운 최근 한국 소설의 매력을 소개한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "기획자의 말",
+        "summary": "장강명이 기획 취지 및 베스트셀러 제외 등의 작품 선정 기준을 설명한다."
+      },
+      {
+        "sectionTitle": "숨겨두었던 촉",
+        "summary": "다양한 미스터리와 추리 및 스릴러 소설의 서평을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기획의도",
+        "value": "동시대 한국 소설의 독서 흥미 유발 및 대중적 홍보"
+      }
+    ],
+    "keyEntitiesText": "장강명, 윤승일, 윤성근, 남궁인, 방현희",
+    "settingText": "2010년대 한국 문단 및 출판 시장"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_-hV4ewgraQGMthR-7p4qgnTAXfsmlQi",
+    "filename": "장강명 외-한국 소설이 좋아서(서평집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T00:51:00.000Z",
+    "size": "340313",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1_-hV4ewgraQGMthR-7p4qgnTAXfsmlQi/view?usp=drivesdk",
+    "sourceSha256": "3fbd1758ac331cc37ace3f0049f3e25bdf21f7d62355d1ef750f90a70e8d882c",
+    "textSha256": "33120d26fffdbdda70d7424b232c895a079428822ed8a04c3d6d678416b62b7b",
+    "changeKey": "e92e846a1e7a42577d951bf88b4a12a2",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "78e5f59a4696f8fb52e0",
+    "workId": "78e5f59a4696f8fb52e0",
+    "driveFileId": "1_-hV4ewgraQGMthR-7p4qgnTAXfsmlQi",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:28:47.230566+00:00",
+    "updatedAt": "2026-09-24T07:28:47.230580+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:28:47.230666+00:00"
+    }
+  }
+}

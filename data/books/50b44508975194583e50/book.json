@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "발칸의 장미를 내게 주었습니다",
+    "author": "정미경",
+    "genre": "소설",
+    "tags": [
+      "소설집",
+      "전쟁",
+      "상처",
+      "이식"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story_collection"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정미경은 일상 속 허위와 상처, 비극을 감각적인 문체로 풀어내는 소설가이다.",
+    "oneLineSummary": "전쟁터의 비극을 취재한 카메라맨과 타인의 신장을 이식받은 상처를 지닌 이야기이다.",
+    "overallSummary": "팔루자 전쟁터의 참상을 찍고 돌아온 '나'가 신장 이식 수술과 인도의 비극적인 기억, 수명과의 이별을 되짚으며 생존의 쓸쓸함과 무력감을 마주하는 과정을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "무화과나무 아래 1",
+        "summary": "요르단 암만에서 팔루자 참상과 저항군 아부의 슬픈 눈을 회상한다."
+      },
+      {
+        "sectionTitle": "무화과나무 아래 2",
+        "summary": "서울로 돌아와 신장 이식의 기억과 인도 취재 당시 마주한 비극을 떠올린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "모티프",
+        "value": "장기 이식, 전쟁의 비극적 기록, 그리고 삶의 허무"
+      }
+    ],
+    "keyEntitiesText": "나(킴), 수명, 강 국장, 아부, 닥터 문, 비제이",
+    "settingText": "암만, 팔루자, 인도 갠지스 강변, 서울"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1N4orQ6EqoGHPhsqU6Mo4RF4mrN3zsNZl",
+    "filename": "정미경-발칸의 장미를 내게 주었네(단편)(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.677Z",
+    "size": "131149",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1N4orQ6EqoGHPhsqU6Mo4RF4mrN3zsNZl/view?usp=drivesdk",
+    "sourceSha256": "2678e6123923033877df768420d8ef4960827282474029910b145fa46d37ad93",
+    "textSha256": "35b48e0c6f07c8ba5fa21cc1f5a998ee99e35913851d20ea7c6e6b83a9ec434c",
+    "changeKey": "3f188462f201b46083258c1edf97036e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "50b44508975194583e50",
+    "workId": "50b44508975194583e50",
+    "driveFileId": "1N4orQ6EqoGHPhsqU6Mo4RF4mrN3zsNZl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:30:06.879888+00:00",
+    "updatedAt": "2026-09-24T07:30:06.879904+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.6925,
+      "updatedAt": "2026-09-24T07:30:06.880009+00:00"
+    }
+  }
+}

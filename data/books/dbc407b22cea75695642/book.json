@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "언젠가 내가 돌아오면",
+    "author": "전경린",
+    "genre": "소설",
+    "tags": [
+      "장편소설",
+      "고향",
+      "자아찾기",
+      "가족"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "emotional_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전경린은 인간 내면의 깊은 상처와 방황, 그리고 연대를 섬세한 문체로 그리는 소설가이다.",
+    "oneLineSummary": "상처 입은 주인공이 고향 소읍으로 돌아와 가족의 역사와 스스로의 원형을 마주하는 이야기이다.",
+    "overallSummary": "7년 만에 고향 소읍으로 돌아온 혜규가 병든 엄마와 오빠 혜도, 어린 조카 문기를 만나며 지나온 상처와 고모할머니의 구전 이야기들을 되새기고 자기 자신에게로 되돌아오는 과정을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "눈 내리는 소읍 역에 도착한 혜규가 혜도 부자와 만나 고향 거리로 이동한다."
+      },
+      {
+        "sectionTitle": "2-3",
+        "summary": "옛 집에서 노파가 된 엄마와 고모할머니를 마주하고, 낙태와 절연의 상처를 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사모티프",
+        "value": "구전 설화와 자아 귀환 및 상처 치유의 과정"
+      }
+    ],
+    "keyEntitiesText": "혜규, 혜도, 문기, 엄마, 고모할머니, 형주",
+    "settingText": "눈 내리는 지방 소읍의 옛 벽돌 양옥집 및 거리"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1rl6uY6n9gSscgDC2rcpkKDeIWx_WIGI2",
+    "filename": "전경린-언젠가 내가 돌아오면(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.631Z",
+    "size": "313888",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1rl6uY6n9gSscgDC2rcpkKDeIWx_WIGI2/view?usp=drivesdk",
+    "sourceSha256": "5febbf5628d275550487636b6956a6d41f82e9c3a5a69cbecf91b8de082e69b6",
+    "textSha256": "e47e843c220e9800366894ea10e136c017c9a951d2829ec3ecf45d22af0b0ede",
+    "changeKey": "913598ea29f76b6fdf412df155d6905c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dbc407b22cea75695642",
+    "workId": "dbc407b22cea75695642",
+    "driveFileId": "1rl6uY6n9gSscgDC2rcpkKDeIWx_WIGI2",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:29:32.550265+00:00",
+    "updatedAt": "2026-09-24T07:29:32.550279+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:29:32.550370+00:00"
+    }
+  }
+}

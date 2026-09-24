@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내 생애 단 한번",
+    "author": "장영희",
+    "genre": "수필",
+    "tags": [
+      "에세이",
+      "장영희",
+      "희망",
+      "삶의태도"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "personal_essay"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "장영희는 영문학자이자 수필가로 신체적 장애와 시련 속에서도 삶을 향한 따뜻한 희망을 전했다.",
+    "oneLineSummary": "신체적 신산함과 일상의 소소함 속에서 발견하는 사랑과 희망을 담은 산문집이다.",
+    "overallSummary": "목발을 짚고 살아가는 자신의 장애와 약점들을 인정하면서도, 타인에 대한 용서와 생명의 약속, 그리고 단 한 번뿐인 삶을 향한 무조건적인 희망을 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "하필이면",
+        "summary": "운명의 불공평함 속에서도 하필이면을 감사와 행복의 이유로 재해석한다."
+      },
+      {
+        "sectionTitle": "약속",
+        "summary": "어린 시절의 기억과 생명의 찬란함, 인간으로 태어난 약속의 의미를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "삶의 가치",
+        "value": "장애와 시련을 넘어선 희망과 사랑의 진정성"
+      }
+    ],
+    "keyEntitiesText": "장영희, 장왕록, 아름, 서강대학교",
+    "settingText": "서강대학교 교정 및 일상 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1CirGSOy4wMbmdvRhgVuY3N6phDrIfdZM",
+    "filename": "장영희-내 생애 단 한번(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T05:15:48.000Z",
+    "size": "329954",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1CirGSOy4wMbmdvRhgVuY3N6phDrIfdZM/view?usp=drivesdk",
+    "sourceSha256": "e5a8bacb777df00287e3987afb0f746e0c180300c7b29c622282de022bc6f1a3",
+    "textSha256": "57abc5fcfb107ea51803557d5e9548de909d09c2f9d736d5bfc642e9778466e9",
+    "changeKey": "5190ef5fbcc91d94767735333f5fb296",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4b8356e35acd61e82c89",
+    "workId": "4b8356e35acd61e82c89",
+    "driveFileId": "1CirGSOy4wMbmdvRhgVuY3N6phDrIfdZM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:29:25.768275+00:00",
+    "updatedAt": "2026-09-24T07:29:25.768290+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:29:25.768399+00:00"
+    }
+  }
+}

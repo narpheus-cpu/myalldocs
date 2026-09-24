@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소설 명성황후 (상)",
+    "author": "정비석",
+    "genre": "역사소설",
+    "tags": [
+      "역사소설",
+      "명성황후",
+      "정비석",
+      "구한말"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "historical_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정비석은 자유부인, 소설 손자병법 등 대중성과 문학성을 겸비한 역사소설의 거장이다.",
+    "oneLineSummary": "구한말 여걸 명성황후의 탄생과 왕비 간택, 대원군과의 권력 대립 전야를 그린 소설이다.",
+    "overallSummary": "감고당에서 태어난 민자영이 비범한 유년기를 거쳐 왕비로 간택된 후, 대원군의 독재에 맞서 고종의 마음을 사로잡고 정권 장악의 기틀을 다져가는 과정을 그린 상권이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "여걸의 탄생",
+        "summary": "철종 2년 감고당 지붕에 자운이 감돌며 민치록의 딸 민자영이 태어난 내력이다."
+      },
+      {
+        "sectionTitle": "쾌활한 여장부",
+        "summary": "사내처럼 괄괄하고 큰 포부를 지닌 민자영의 어린 시절을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 의미",
+        "value": "세도정치의 몰락과 대원군의 섭정 속에서 피어난 명성황후의 정치적 야망"
+      }
+    ],
+    "keyEntitiesText": "민자영(명성황후), 민치록, 한산 이씨, 흥선 대원군, 고종, 조봉희",
+    "settingText": "19세기 중엽 서울 안국동 감고당, 운현궁, 대궐"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ghC0ipk7pCAY8Ihoo0UwxcrNcTJ9Tsd-",
+    "filename": "정비석-소설 명성황후 (상)-.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.822Z",
+    "size": "374094",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ghC0ipk7pCAY8Ihoo0UwxcrNcTJ9Tsd-/view?usp=drivesdk",
+    "sourceSha256": "e455dbf48f569b01c9e724ec1ebfa4150b28aca64e5db312a72285315124f6fb",
+    "textSha256": "154aafe9f53cdc854d5707da5dd0e604ee8a7fc808c8b5bf6c55382a3b3f3a88",
+    "changeKey": "d534b9371a06e84ba39fd2233c9a341f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9e7b8364d63a64856aab",
+    "workId": "9e7b8364d63a64856aab",
+    "driveFileId": "1ghC0ipk7pCAY8Ihoo0UwxcrNcTJ9Tsd-",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:30:19.117735+00:00",
+    "updatedAt": "2026-09-24T07:30:19.117750+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:30:19.117854+00:00"
+    }
+  }
+}

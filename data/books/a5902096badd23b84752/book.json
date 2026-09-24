@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "새떼들에게로의 망명",
+    "author": "장석남",
+    "genre": "시집",
+    "tags": [
+      "시집",
+      "현대시",
+      "서정시",
+      "장석남"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": [
+        "modern_poetry"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "장석남은 순수한 언어와 섬세한 감각으로 삶의 아픔과 자연을 노래하는 시인이다.",
+    "oneLineSummary": "자연 모티프와 내면의 통증을 통해 정적과 영혼의 자유를 찾아 망명하는 시적 고백이다.",
+    "overallSummary": "별, 눈, 새, 불 등 섬세한 자연 상징을 활용하여 세속의 고통과 가책을 벗어나 영혼의 조용한 안식처를 찾아가는 서정적 세계를 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부",
+        "summary": "별의 감옥, 맨발로 걷기, 새떼들에게로의 망명 등 내면의 가책과 고독을 그린다."
+      },
+      {
+        "sectionTitle": "2부",
+        "summary": "진흙별, 모란의 누설 등 자연과 일상 속에서 피어나는 슬픔을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시적상징",
+        "value": "망명, 찌르라기, 별, 연기, 눈보라"
+      }
+    ],
+    "keyEntitiesText": "장석남, 찌르라기, 덕적도, 명동",
+    "settingText": "시인의 내면적 풍경과 자연 공간"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UA-3FVYBkW3I-fJxonKgA8wiAtxEmaWT",
+    "filename": "장석남-새떼들에게로의 망명(OCR).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-16T05:13:24.000Z",
+    "size": "62305",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1UA-3FVYBkW3I-fJxonKgA8wiAtxEmaWT/view?usp=drivesdk",
+    "sourceSha256": "35e9058e2cc4234eadaffed75e7582ddfa11f29afacd00c105f6b384c2f0b3f6",
+    "textSha256": "0498039813d583de383aed936acf5ffcef4a38cbacd41a65e1d2a90d10051e32",
+    "changeKey": "535374355e9e6e5bf9ce307a6218daba",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a5902096badd23b84752",
+    "workId": "a5902096badd23b84752",
+    "driveFileId": "1UA-3FVYBkW3I-fJxonKgA8wiAtxEmaWT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:29:08.231181+00:00",
+    "updatedAt": "2026-09-24T07:29:08.231196+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:29:08.231291+00:00"
+    }
+  }
+}

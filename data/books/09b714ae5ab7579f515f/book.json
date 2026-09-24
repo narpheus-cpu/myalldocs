@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "표백",
+    "author": "장강명",
+    "genre": "소설",
+    "tags": [
+      "장편소설",
+      "청년세대",
+      "자살",
+      "사회의식"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "social_novel"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "장강명은 사회의 허위의식과 청년 세대의 좌절을 날카롭게 고찰하는 작가이다.",
+    "oneLineSummary": "모든 것이 완성되어 더 이상 도전할 것이 없는 사회에서 청년들이 선택하는 기괴한 자살과 메시지를 그린 소설이다.",
+    "overallSummary": "더 이상 바꿀 것이 없는 사회 구조 속에서 청년들이 삶의 목표를 잃고 좌절하다가 세상에 강렬한 메시지를 남기기 위해 자살을 계획하고 수행하는 과정을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "재벌가 장남 박선우의 사망 소식과 함께 주인공의 유년 시절 및 청년기의 열패감을 서술한다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "취업 행사 뒤풀이에서의 논쟁과 예언자 같은 정세연과의 첫 만남 및 대화를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회비판",
+        "value": "완벽히 정체된 사회가 청년 세대에게 주는 열패감과 허무주의"
+      }
+    ],
+    "keyEntitiesText": "나, 정세연, 박선우, 재키, 소크라테스, 적그리스도, 재프루더",
+    "settingText": "2000년대 대한민국 서울의 대학가"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_WFguoZtvWhelOJ98w6SvCjXFkRkhAVI",
+    "filename": "장강명-표백(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.590Z",
+    "size": "480809",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1_WFguoZtvWhelOJ98w6SvCjXFkRkhAVI/view?usp=drivesdk",
+    "sourceSha256": "76283d5b9b7453ba03b5a436c1e06c0259545af8c849591a3754e05b0ae11d54",
+    "textSha256": "d296a9ad796e60b9b069cdb3a00526de7c29e0c20e8b6a62721265f85cecca2a",
+    "changeKey": "ce98657d71aa4ed15bee5e56e886d4a8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "09b714ae5ab7579f515f",
+    "workId": "09b714ae5ab7579f515f",
+    "driveFileId": "1_WFguoZtvWhelOJ98w6SvCjXFkRkhAVI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:29:01.244116+00:00",
+    "updatedAt": "2026-09-24T07:29:01.244131+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:29:01.244222+00:00"
+    }
+  }
+}

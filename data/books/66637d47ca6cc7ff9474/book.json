@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내 아들의 연인",
+    "author": "정미경",
+    "genre": "소설",
+    "tags": [
+      "단편소설",
+      "자본주의",
+      "현대사회",
+      "타협"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "modern_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정미경은 현대 사회의 세속적 욕망과 이면의 쓸쓸함을 날카롭게 그려낸 작가이다.",
+    "oneLineSummary": "경제적 자금 압박에 몰린 남자와 대학 강사 자리를 노리는 Y가 현실과 타협하는 이야기이다.",
+    "overallSummary": "칠 년간 교제해온 Y에게 자산가 회장의 비위를 맞추기 위한 만남을 제안하는 남자의 시선을 통해, 돈과 자본이 지배하는 사회에서 사랑과 가족, 삶의 가치가 어떻게 왜곡되는지 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "산낙지 전골집에서 Y에게 회장과의 6개월간 만남을 제안하는 장면이다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "회장의 부와 우울증, 그리고 남자의 경제적 위기 상황을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 맥락",
+        "value": "자본의 위계 속에서 타협하고 변질되는 현대인의 인간관계"
+      }
+    ],
+    "keyEntitiesText": "나, Y, 영감(회장), 미스 장",
+    "settingText": "낙지전골 식당, 회장의 사무실, 남자의 원룸"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Fcwb5DG2cYpC1zDEX4ePp4A5r1ZGzZYy",
+    "filename": "내 아들의 연인-정미경(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:46.669Z",
+    "size": "328549",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1Fcwb5DG2cYpC1zDEX4ePp4A5r1ZGzZYy/view?usp=drivesdk",
+    "sourceSha256": "b729ea4d786f9ffc982bbe12b2c42659bcbc7c667cba2d051c288e5b5cb06daa",
+    "textSha256": "1c33e2bd2b873d000898bafd479ffdf3365ea990702174b930260231a49d0f75",
+    "changeKey": "aad4b0f998cccf613e035f8f5de28e70",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "66637d47ca6cc7ff9474",
+    "workId": "66637d47ca6cc7ff9474",
+    "driveFileId": "1Fcwb5DG2cYpC1zDEX4ePp4A5r1ZGzZYy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:29:59.421904+00:00",
+    "updatedAt": "2026-09-24T07:29:59.421918+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:29:59.422010+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시선으로부터,",
+    "author": "정세랑",
+    "genre": "소설",
+    "tags": [
+      "장편소설",
+      "정세랑",
+      "가족사",
+      "제사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "family_saga"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정세랑은 독창적인 상상력과 따뜻한 시선으로 한국 현대 문학을 이끄는 작가이다.",
+    "oneLineSummary": "시대의 모순에 맞섰던 심시선의 10주기를 맞아 하와이에서 제사를 지내는 가족들의 이야기이다.",
+    "overallSummary": "화가이자 글쟁이였던 심시선의 10주기를 맞아, 딸 명혜의 제안으로 온 가족이 하와이로 떠나 전통 제사 대신 삶에서 가장 아름다운 사물과 경험을 바치는 특별한 제사를 지내며 심시선의 삶을 복원해나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "명혜가 가족들에게 하와이에서 심시선 여사의 10주기 제사를 지내자고 선언한다."
+      },
+      {
+        "sectionTitle": "2-4",
+        "summary": "화수, 난정 등 가족들이 기억하는 심시선의 인용문과 유산, 그리고 저마다의 일상을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요모티프",
+        "value": "가부장적 제사의 재해석과 여성들의 연대 및 삶의 정체성 복원"
+      }
+    ],
+    "keyEntitiesText": "심시선, 명혜, 명은, 명준, 경아, 화수, 지수, 우윤, 난정, 마티아스 마우어",
+    "settingText": "한국 서울(부암동 등) 및 미국 하와이"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UrYmgv49JUXEga-Z_HjmU0quXwWuW4rb",
+    "filename": "정세랑-시선으로부터,(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.864Z",
+    "size": "436011",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1UrYmgv49JUXEga-Z_HjmU0quXwWuW4rb/view?usp=drivesdk",
+    "sourceSha256": "d5f803011554c0cde0389f9e12583cc5bb279aa28affb3f018311519c82b2157",
+    "textSha256": "843026ca25241ab3c2b4c56e0cd434f9c4b67f5b0b6eb681215662ea64041deb",
+    "changeKey": "275b3c34ff87ccaf41dce34a657e674d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cf68ab355cbb1977bb57",
+    "workId": "cf68ab355cbb1977bb57",
+    "driveFileId": "1UrYmgv49JUXEga-Z_HjmU0quXwWuW4rb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:30:32.517129+00:00",
+    "updatedAt": "2026-09-24T07:30:32.517145+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:30:32.517256+00:00"
+    }
+  }
+}

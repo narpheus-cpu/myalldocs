@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "풀밭 위의 식사",
+    "author": "전경린",
+    "genre": "소설",
+    "tags": [
+      "소설",
+      "섬",
+      "매혹",
+      "고독"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "emotional_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전경린은 인물의 감정선과 미묘한 미감을 서정적으로 그려내는 작가이다.",
+    "oneLineSummary": "우연히 만난 여인 이누경에게 매혹된 기현이 그녀와 서해의 섬으로 여행을 떠나는 소설이다.",
+    "overallSummary": "고독하게 살아가던 사보 편집자 기현이 미스터리한 매력을 지닌 이누경을 만나, 꿈속 풍경과 같은 서해의 섬으로 떠나며 존재의 정적과 실현을 경험하는 과정을 묘사한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "술집에서 이누경을 처음 마주치고 매혹되어 합석하는 장면이다."
+      },
+      {
+        "sectionTitle": "2-3",
+        "summary": "누경을 아파트에 바래다준 뒤 섬 여행을 계획하고 5월의 서해 섬 해변을 거니는 과정을 담는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징성",
+        "value": "압생트 빛 바다와 섬이 주는 정적 및 영혼의 휴식"
+      }
+    ],
+    "keyEntitiesText": "기현, 이누경, 도훈, 상미, 인서 형",
+    "settingText": "합정동, 신도시 아파트 단지, 5월의 서해 섬 해변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pFIjdb_J1fHoBcvvdbWIGu3Kx75zVTWb",
+    "filename": "전경린-풀밭 위의 식사(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.661Z",
+    "size": "256847",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1pFIjdb_J1fHoBcvvdbWIGu3Kx75zVTWb/view?usp=drivesdk",
+    "sourceSha256": "556864619054679153c0af94bc7ed9ece7ce6a88b12324ac50f8ed827a260bd6",
+    "textSha256": "627278c74c18107ba7a9f92ac24a12e1ae567bcd37625e9a10f1b09907bddbd6",
+    "changeKey": "446298b4e279d3db988d3830c81a5e94",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "334b0cab01a7b8219a1c",
+    "workId": "334b0cab01a7b8219a1c",
+    "driveFileId": "1pFIjdb_J1fHoBcvvdbWIGu3Kx75zVTWb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:29:51.784370+00:00",
+    "updatedAt": "2026-09-24T07:29:51.784386+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:29:51.784552+00:00"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "새벽까지 희미하게",
+    "author": "정미경",
+    "genre": "소설",
+    "tags": [
+      "소설집",
+      "해고",
+      "고독",
+      "길고양이"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "short_story_collection"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "정미경은 현대인의 미세한 상처와 내면의 고독을 치밀하게 포착해낸 소설가이다.",
+    "oneLineSummary": "해고의 상처를 가진 공과 마트 직원 금희, 그리고 길고양이 점순이가 만드는 일상이다.",
+    "overallSummary": "갑작스러운 해고 후 소비 행위로 평화를 찾으려 하는 공과, 이름의 상처를 지닌 금희가 길고양이 점순이를 함께 치료하며 지내다가 희미해져 가는 인연을 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "겨울의 끝",
+        "summary": "금희의 얼굴과 집 벽에 박혀 있던 하얗게 칠해진 못을 회상한다."
+      },
+      {
+        "sectionTitle": "지난여름",
+        "summary": "금희의 자취방에 찾아온 공이 상처 입은 고양이 점순이를 보살피는 일상을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징물",
+        "value": "벽에 박힌 하얀 못과 고양이의 틱 행동이 상징하는 내면의 상처"
+      }
+    ],
+    "keyEntitiesText": "공, 금희(이영기), 점순이(길고양이), 강",
+    "settingText": "낡은 원룸텔, 마트 가전 코너, 여름 골목길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1S29UI9rVKclr9W9MRapSpoZ3qlwf-rrG",
+    "filename": "정미경-새벽까지 희미하게(ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.734Z",
+    "size": "263035",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1S29UI9rVKclr9W9MRapSpoZ3qlwf-rrG/view?usp=drivesdk",
+    "sourceSha256": "671e67b94c67e970caf961a77e34a0c98860c5de65435268a51b76814f73e5b7",
+    "textSha256": "142e640dc5175bf0fdde1efdc27a0fa44693cf0dd1270229b9c8b15146a4aeb3",
+    "changeKey": "5234c30e7664d9b83f21d7596982a84c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "090d96a72d69ab10715c",
+    "workId": "090d96a72d69ab10715c",
+    "driveFileId": "1S29UI9rVKclr9W9MRapSpoZ3qlwf-rrG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:30:13.182179+00:00",
+    "updatedAt": "2026-09-24T07:30:13.182193+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:30:13.182284+00:00"
+    }
+  }
+}
