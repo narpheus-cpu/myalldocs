@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "파우스트",
+    "author": "요한 볼프강 폰 괴테",
+    "genre": "희곡",
+    "tags": [
+      "괴테",
+      "희곡",
+      "악마",
+      "메피스토펠레스",
+      "구원"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "tragedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "괴테가 평생에 걸쳐 완성한 필생의 대작 희곡.",
+    "oneLineSummary": "학문적 한계에 부딪힌 파우스트 박사가 악마 메피스토펠레스와 영혼을 건 계약을 맺고 벌이는 인간 구원의 대서사시.",
+    "overallSummary": "천상의 서곡에서 시작하여 파우스트와 메피스토펠레스의 내기, 그레트헨과의 비극적 사랑, 그리고 끊임없이 노력하는 인간의 구원을 다룬 괴테의 대표 희곡.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "파우스트, 메피스토펠레스, 그레트헨, 주님",
+    "settingText": "중세 독일 및 천상과 지상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1S7mQcJB-f_gcyt9GjchXB8AF607hKdzw",
+    "filename": "요한 볼프강 폰 괴테-파우스트(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:50:38.000Z",
+    "size": "971901",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1S7mQcJB-f_gcyt9GjchXB8AF607hKdzw/view?usp=drivesdk",
+    "sourceSha256": "b0b1d1b5e4cfd0d4d2c1c99dd7cdde339305c22b475f51388bc601d46d6c4927",
+    "textSha256": "99716b27e910944a9b4575242692f48c097b8478776fefe702bd269b23e5ca4d",
+    "changeKey": "32d27991857d55a6869e9f196f0086ad",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "3527cd89c71ba10a4c6a",
+    "workId": "3527cd89c71ba10a4c6a",
+    "driveFileId": "1S7mQcJB-f_gcyt9GjchXB8AF607hKdzw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:47:14.134459+00:00",
+    "updatedAt": "2026-09-24T01:47:14.134467+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:47:14.134525+00:00"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "무정",
+    "author": "이광수",
+    "genre": "소설",
+    "tags": [
+      "이광수",
+      "근대소설",
+      "이형식",
+      "박영채",
+      "김선형"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "modern"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 최초의 근대 장편 소설 '무정'을 집필한 이광수.",
+    "oneLineSummary": "개화기 지식인 이형식과 두 여인 영채, 선형의 사랑과 갈등을 통해 근대적 계몽 사상을 고취한 한국 최초의 근대 장편 소설.",
+    "overallSummary": "영어 교사 이형식이 김장로의 딸 선형의 가정교사가 되면서 겪는 설렘과, 과거 은인의 딸이자 기생이 된 영채와의 재회를 통해 개인의 애정과 민족적 계몽의 과제를 다룬 소설.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "이형식, 박영채, 김선형, 김장로, 신우선",
+    "settingText": "개화기 경성(서울)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ujT_3cy7RfElbmSRnZwJmVrCWfOPsg5l",
+    "filename": "이광수-무정.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.143Z",
+    "size": "552747",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1ujT_3cy7RfElbmSRnZwJmVrCWfOPsg5l/view?usp=drivesdk",
+    "sourceSha256": "9d954a79080fd65d19d8161a55c5930e10a9780b44a682cdd4965a3aac90ef5a",
+    "textSha256": "5808d8ce58ad79ab9d82acb3eeb51aa8bd0fc98ffe34bcb58fb8cef3b152450f",
+    "changeKey": "2ebf93b627fb4353f161b8066f60ca96",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d19d1b7c9aa20e35db95",
+    "workId": "d19d1b7c9aa20e35db95",
+    "driveFileId": "1ujT_3cy7RfElbmSRnZwJmVrCWfOPsg5l",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:48:14.386102+00:00",
+    "updatedAt": "2026-09-24T01:48:14.386111+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:48:14.386168+00:00"
+    }
+  }
+}

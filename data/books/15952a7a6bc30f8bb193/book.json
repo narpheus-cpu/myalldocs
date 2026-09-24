@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "괴테와의 대화",
+    "author": "요한 페터 에커만",
+    "genre": "대화록",
+    "tags": [
+      "에커만",
+      "괴테",
+      "대화록",
+      "독일문학"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "memoir"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "괴테의 비서이자 조력자였던 요한 페터 에커만의 기록.",
+    "oneLineSummary": "에커만이 노년의 괴테와 나누었던 예술, 학문, 인생에 대한 방대한 대화 기록.",
+    "overallSummary": "에커만이 괴테의 조력자이자 친구로서 9년 동안 괴테와 나눈 대화를 꼼꼼히 기록하여 괴테의 다면적인 사상과 인간적 면모를 생생하게 복원한 책.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "괴테, 에커만",
+    "settingText": "19세기 초반 독일 바이마르"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1aDdGKCDD__nShtt1oJrqs-CD1i376mgA",
+    "filename": "요한 페터 에커만-괴테와의 대화(동서문화사)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T21:30:06.000Z",
+    "size": "2070757",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1aDdGKCDD__nShtt1oJrqs-CD1i376mgA/view?usp=drivesdk",
+    "sourceSha256": "113bce3502c4527d92a55f364cca5da665c74bd2ff841f63958d243bbd1c7964",
+    "textSha256": "e64272455f396ff31b3e677b54f5440aa56781d74a86dc403bb23de861f9fdb9",
+    "changeKey": "9c5934b619c1ef665263b3105fbb1f81",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "15952a7a6bc30f8bb193",
+    "workId": "15952a7a6bc30f8bb193",
+    "driveFileId": "1aDdGKCDD__nShtt1oJrqs-CD1i376mgA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:47:21.088487+00:00",
+    "updatedAt": "2026-09-24T01:47:21.088496+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:47:21.088556+00:00"
+    }
+  }
+}

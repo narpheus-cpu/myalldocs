@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "플랜더스의 개",
+    "author": "위다",
+    "genre": "소설",
+    "tags": [
+      "넬로",
+      "파트라슈",
+      "우정",
+      "루벤스",
+      "벨기에"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "childrens_literature"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국 작가 위다(마리 루이즈 드 라 라메)의 대표 아동 문학.",
+    "oneLineSummary": "가난하지만 순수한 소년 넬로와 충직한 개 파트라슈의 슬프고도 아름다운 우정과 예술에 대한 동경.",
+    "overallSummary": "벨기에 플랜더스 지방을 배경으로, 학대받던 개 파트라슈를 구해준 넬로와 할아버지의 가난한 삶, 그리고 루벤스의 그림을 보고 싶어 하던 넬로의 비극적인 결말을 그린다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "넬로, 파트라슈, 예한 다스(할아버지), 루벤스",
+    "settingText": "벨기에 안트베르펜 인근 플랜더스 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1JHCJ9-N5p7fxzWRf6QKP44lhAkStzRMS",
+    "filename": "위다-플랜더스의 개.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.063Z",
+    "size": "242341",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1JHCJ9-N5p7fxzWRf6QKP44lhAkStzRMS/view?usp=drivesdk",
+    "sourceSha256": "8c3c193086c221c98a2928bc089e6993f856f78151f75f6256230aaeee21b8e7",
+    "textSha256": "cbee8075fa70746ac2daa36e18e695fcf1a6ff2c7147edc5bfd42a87e8a7e7aa",
+    "changeKey": "843dd46321f610db240e0eea91d8d820",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a592f4ba123178b7e5c8",
+    "workId": "a592f4ba123178b7e5c8",
+    "driveFileId": "1JHCJ9-N5p7fxzWRf6QKP44lhAkStzRMS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:47:27.342306+00:00",
+    "updatedAt": "2026-09-24T01:47:27.342314+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:47:27.342374+00:00"
+    }
+  }
+}

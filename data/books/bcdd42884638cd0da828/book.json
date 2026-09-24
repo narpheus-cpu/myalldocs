@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "로미오와 줄리엣",
+    "author": "윌리엄 셰익스피어",
+    "genre": "희곡",
+    "tags": [
+      "셰익스피어",
+      "비극",
+      "로미오",
+      "줄리엣",
+      "베로나"
+    ],
+    "workProfile": {
+      "primary": "drama",
+      "secondary": [
+        "tragedy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국이 낳은 세계 최고의 극작가 윌리엄 셰익스피어.",
+    "oneLineSummary": "원수 집안인 몬터규 가문과 캐풀렛 가문의 두 남녀가 벌이는 비극적이고 열정적인 사랑 이야기.",
+    "overallSummary": "베로나의 오랜 원수 가문에서 태어난 로미오와 줄리엣이 첫눈에 반해 비밀리에 결혼하지만, 가문 간의 갈등과 오해로 인해 결국 비극적인 죽음을 맞이하는 과정을 그린 희곡.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "로미오, 줄리엣, 몬터규, 캐풀렛, 티볼트, 벤볼리오",
+    "settingText": "이탈리아 베로나"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1VOxgIbPdB_B7pXdjCLFN0bV-hzfSg39c",
+    "filename": "윌리엄 셰익스피어-로미오와 줄리엣(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:51:32.000Z",
+    "size": "329227",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1VOxgIbPdB_B7pXdjCLFN0bV-hzfSg39c/view?usp=drivesdk",
+    "sourceSha256": "5f02925ab3e8e8aafdfb679c235b3735cc74066776625414767d72c6fd9bffcd",
+    "textSha256": "073749fe87b724ed44a9c970821d38d37e183465b8dab6dd494143ce10d1fa5d",
+    "changeKey": "0cc9fc7bad90cc8fe0ecf8cfdcfc7779",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bcdd42884638cd0da828",
+    "workId": "bcdd42884638cd0da828",
+    "driveFileId": "1VOxgIbPdB_B7pXdjCLFN0bV-hzfSg39c",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:47:41.124225+00:00",
+    "updatedAt": "2026-09-24T01:47:41.124240+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:47:41.124312+00:00"
+    }
+  }
+}

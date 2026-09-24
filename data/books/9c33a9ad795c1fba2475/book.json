@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나의 인생 '시와 진실'",
+    "author": "요한 볼프강 폰 괴테",
+    "genre": "자서전",
+    "tags": [
+      "괴테",
+      "자서전",
+      "독일문학",
+      "성장기"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "autobiography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "독일의 대문호 요한 볼프강 폰 괴테가 만년에 집필한 자서전적 기록.",
+    "oneLineSummary": "괴테가 자신의 유년 시절부터 청년기까지의 삶과 문학적 성장을 기록한 자서전.",
+    "overallSummary": "괴테가 친구의 권유로 집필한 자서전으로, 프랑크푸르트에서의 유년 시절, 가족 관계, 개축 공사 소동, 그리고 도시의 풍경과 문학적 영감의 원천을 서술한다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "괴테, 요한 볼프강 텍스토르(외조부), 요한 가스파르 괴테(아버지), 카탈리나 엘리자베타 괴테(어머니)",
+    "settingText": "18세기 중반 독일 프랑크푸르트암마인"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "16NDZXxe9C-FPUwkNwqVOtpmU_xGbN85L",
+    "filename": "요한 볼프강 폰 괴테-나의 인생 '시와 진실'(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-12T21:24:54.000Z",
+    "size": "2305329",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/16NDZXxe9C-FPUwkNwqVOtpmU_xGbN85L/view?usp=drivesdk",
+    "sourceSha256": "6dcbce5c71c783ab3e4f0180731711ef9e87a9ee1b6f9fef06ce1280d11b103d",
+    "textSha256": "1bfa425958adcd51713fe2b86484509e03a8ded9361f3dacb89f5e8f57bbf2ee",
+    "changeKey": "8ff8f86b14e021e34183f274c0a5403d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9c33a9ad795c1fba2475",
+    "workId": "9c33a9ad795c1fba2475",
+    "driveFileId": "16NDZXxe9C-FPUwkNwqVOtpmU_xGbN85L",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:46:58.637107+00:00",
+    "updatedAt": "2026-09-24T01:46:58.637120+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:46:58.637181+00:00"
+    }
+  }
+}

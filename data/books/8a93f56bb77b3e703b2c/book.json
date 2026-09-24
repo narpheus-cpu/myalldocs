@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "노인",
+    "author": "유리 트리포노프",
+    "genre": "소설",
+    "tags": [
+      "러시아문학",
+      "내전",
+      "기억",
+      "역사",
+      "실존"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "소비에트 연방 시절 인간의 도덕성과 역사적 기억을 탐구한 작가 유리 트리포노프.",
+    "oneLineSummary": "러시아 내전을 겪은 노인 파벨이 과거의 연인 아샤의 편지를 받고 역사적 진실과 개인의 기억을 되짚어보는 소설.",
+    "overallSummary": "노인 파벨 예브그라포비치가 과거 내전 시기의 영웅 미굴린과 연인 아샤 이굼노바에 대한 기억을 떠올리며, 현재 가족들과의 갈등 속에서 역사적 양심과 실존의 문제를 성찰한다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "파벨 예브그라포비치, 아샤 이굼노바, 세르게이 미굴린, 루슬란, 베라",
+    "settingText": "소련 모스크바 인근 주택 단지 및 과거 내전기 바실리옙스키 섬"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wD6bFL0YvUGKcwaJflYH2e7xyeF_BP9J",
+    "filename": "유리 트리포노프-노인(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:58:18.000Z",
+    "size": "698997",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1wD6bFL0YvUGKcwaJflYH2e7xyeF_BP9J/view?usp=drivesdk",
+    "sourceSha256": "e0538dd464884a7e3e9b267de631975c307a16e95624446a4af42e4d8d313f51",
+    "textSha256": "5d23f099bcea3f9d59c073f2710751939dd8332936d9b4955b2adf7b51ded422",
+    "changeKey": "07e8569ffd049c800e34f157d138e584",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8a93f56bb77b3e703b2c",
+    "workId": "8a93f56bb77b3e703b2c",
+    "driveFileId": "1wD6bFL0YvUGKcwaJflYH2e7xyeF_BP9J",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:47:47.269494+00:00",
+    "updatedAt": "2026-09-24T01:47:47.269505+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:47:47.269567+00:00"
+    }
+  }
+}

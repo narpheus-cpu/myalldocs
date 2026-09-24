@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "단종애사",
+    "author": "이광수",
+    "genre": "소설",
+    "tags": [
+      "이광수",
+      "역사소설",
+      "단종",
+      "세조",
+      "사육신"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "historical"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 근대 문학의 개척자이자 논란의 인물인 춘원 이광수.",
+    "oneLineSummary": "조선 왕조 단종대왕의 비극적인 왕위 찬탈 과정과 사육신의 충의를 그린 역사 소설.",
+    "overallSummary": "세종대왕의 원손 탄생 축복에서 시작하여 문종의 승하, 수양대군의 왕위 찬탈 음모, 그리고 단종의 유배와 사육신의 비장한 죽음을 통해 조선 역사상 가장 비극적인 사건을 소설화했다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "단종대왕, 세종대왕, 문종대왕, 수양대군, 신숙주, 성삼문",
+    "settingText": "조선 초기 한양 경복궁 및 영월"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1o7sDF11TFxX5Qyuv9WcAgeKy8sTKy6hT",
+    "filename": "이광수-단종애사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.119Z",
+    "size": "643026",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1o7sDF11TFxX5Qyuv9WcAgeKy8sTKy6hT/view?usp=drivesdk",
+    "sourceSha256": "e8f89412142605005556346e4f1416eb489091c0a6972ef5017a977bad160fd7",
+    "textSha256": "2e3270ba86b39c71ed5a9a59361a943972f592e927328a5e6c02299867a72428",
+    "changeKey": "d3f3a192b09f3d4ab79d43b8443ab888",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "17b619e200b2bf0fd60a",
+    "workId": "17b619e200b2bf0fd60a",
+    "driveFileId": "1o7sDF11TFxX5Qyuv9WcAgeKy8sTKy6hT",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:48:07.435584+00:00",
+    "updatedAt": "2026-09-24T01:48:07.435600+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:48:07.435669+00:00"
+    }
+  }
+}
