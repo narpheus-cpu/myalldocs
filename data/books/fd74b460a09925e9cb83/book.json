@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아리랑 07권",
+    "author": "조정래",
+    "genre": "대하소설",
+    "tags": [
+      "간척사업",
+      "소작료인상",
+      "불이흥업",
+      "농민수탈"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "대하소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 현대사의 구조적 모순과 민중의 수난을 깊이 있게 파헤친 대하소설가이다.",
+    "oneLineSummary": "일제의 산미증식계획과 대규모 간척사업 속에서 착취당하는 농민들의 비참한 삶을 그린다.",
+    "overallSummary": "군산과 옥구 해변을 중심으로 불이흥업이 벌이는 대규모 간척사업에 모여든 농민들과 날품팔이꾼들은 개간비와 임금을 착취당하며 중노동에 시달린다. 이동만은 일본인 지주들의 충견 노릇을 하며 소작농들의 고혈을 짜내어 자신의 부를 축적한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 또 하나의 음모",
+        "summary": "요시다와 이동만이 기생집에서 회합을 갖고 소작료 인상과 간척사업의 박차를 결의한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "경제적 수탈",
+        "value": "산미증식계획과 간척사업을 통한 일제의 농민 수탈 고발"
+      }
+    ],
+    "keyEntitiesText": "이동만, 요시다, 남상명, 김장섭",
+    "settingText": "일제강점기 군산 및 옥구 간척지"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "18eZz-lIv9dBQSB5s3EprS_1oG5KaBeif",
+    "filename": "조정래-아리랑 07권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:58.546Z",
+    "size": "692101",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "조정래-아리랑 등",
+      "조정래-태백산맥"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/조정래-아리랑 등/조정래-태백산맥",
+    "webViewLink": "https://drive.google.com/file/d/18eZz-lIv9dBQSB5s3EprS_1oG5KaBeif/view?usp=drivesdk",
+    "sourceSha256": "a12241bcb0abf0d70bfd688f66919e65c592673c8fb132ca8e9af7dee685a0d2",
+    "textSha256": "6b0733147518fbed15bff4b9d3e91ca9f5e8f290372efc62f25206c7b6dfe1cc",
+    "changeKey": "5de0140902717ccd6dcc5021806e41e0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fd74b460a09925e9cb83",
+    "workId": "fd74b460a09925e9cb83",
+    "driveFileId": "18eZz-lIv9dBQSB5s3EprS_1oG5KaBeif",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:59:59.573837+00:00",
+    "updatedAt": "2026-09-24T07:59:59.573853+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:59:59.573949+00:00"
+    }
+  }
+}

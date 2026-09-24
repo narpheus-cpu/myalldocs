@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아리랑 01권",
+    "author": "조정래",
+    "genre": "대하소설",
+    "tags": [
+      "일제강점기",
+      "역사소설",
+      "호남평야",
+      "민족수난"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "대하소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "전남 승주군에서 태어나 한국 현대사의 굴곡과 민족의 수난을 깊은 역사 인식으로 탐구해 온 대표적인 대하소설가이다.",
+    "oneLineSummary": "일제강점기 벼랑 끝에 몰린 우리 민족의 삶과 수난의 역사를 김제와 군산 지역을 중심으로 생생하게 그린다.",
+    "overallSummary": "을사늑약 전후부터 일제의 본격적인 토지 침탈과 수탈이 시작되는 시기를 배경으로, 호남평야의 농민들이 왜놈들의 빚과 올가미에 걸려 고향을 떠나 이민길에 오르는 비극적 운명을 그린다. 역부의 길을 떠나는 방영근의 삶을 통해 뼈아픈 식민지 초기의 실상을 고발한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 역부의 길",
+        "summary": "김제 만경 들판을 지나 군산으로 향하는 방영근과 어머니 감골댁의 슬픈 이별과 일제의 수탈상이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 의의",
+        "value": "식민지 시대 민중의 삶을 생생하게 복원한 기념비적 대하소설"
+      }
+    ],
+    "keyEntitiesText": "방영근, 감골댁, 지삼출, 장칠문, 김정호",
+    "settingText": "일제강점기 전라북도 김제 및 군산 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uhXDFP0IZKfskvwFDLPhvkh0Wo2V_mcN",
+    "filename": "조정래-아리랑 01권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:58.365Z",
+    "size": "701552",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "조정래-아리랑 등",
+      "조정래-태백산맥"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/조정래-아리랑 등/조정래-태백산맥",
+    "webViewLink": "https://drive.google.com/file/d/1uhXDFP0IZKfskvwFDLPhvkh0Wo2V_mcN/view?usp=drivesdk",
+    "sourceSha256": "f79e6ab02b543e8b4a9d53fc0517d40731bc8bf2dc8150debdca0c4a55d523bc",
+    "textSha256": "3083e9e512771a4dba0eb1a4ede214c5578e754e2ac94d2093e6d7fd89f51046",
+    "changeKey": "b0f287e654966f7280e4acfa9ff27401",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "727ae23cdb84285208c5",
+    "workId": "727ae23cdb84285208c5",
+    "driveFileId": "1uhXDFP0IZKfskvwFDLPhvkh0Wo2V_mcN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:59:03.887315+00:00",
+    "updatedAt": "2026-09-24T07:59:03.887330+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:59:03.887424+00:00"
+    }
+  }
+}

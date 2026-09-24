@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아리랑 03권",
+    "author": "조정래",
+    "genre": "대하소설",
+    "tags": [
+      "토지조사사업",
+      "소작쟁의",
+      "친일파",
+      "한일합방"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "대하소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "철저한 역사적 자료 조사를 바탕으로 식민지 시대의 굴욕과 저항을 형상화한 작가이다.",
+    "oneLineSummary": "한일합방 이후 일본 농장의 수탈과 이동만 같은 변질된 인물의 탐욕이 소작농들을 절망으로 몰아넣는 과정을 그린다.",
+    "overallSummary": "합방 이후 본격화된 일본의 토지 수탈과 이주민들의 농지 장악 속에서, 과거 가난했던 처지를 벗어나 일본 헌병대와 결탁해 악랄한 마름 노릇을 하는 이동만의 변신을 그린다. 소작인들은 땅을 빼앗기고 만주로의 이주나 화전을 고민하는 비참한 처지로 전락한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "27. 뻘밭",
+        "summary": "농장 주임 요시다의 충견이 되어 소작농들을 쥐어짜는 이동만의 권세와 절망하는 작인들의 모습이 그려진다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 분석",
+        "value": "민족을 배신하고 부를 축적하는 전형적인 친일 마름의 등장"
+      }
+    ],
+    "keyEntitiesText": "이동만, 요시다, 박씨, 박건식",
+    "settingText": "일제강점기 전라도 김제·군산 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1S-Y97cNq6aozJnbeLvmKdHAbDhAHITYl",
+    "filename": "조정래-아리랑 03권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:58.420Z",
+    "size": "745373",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "조정래-아리랑 등",
+      "조정래-태백산맥"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/조정래-아리랑 등/조정래-태백산맥",
+    "webViewLink": "https://drive.google.com/file/d/1S-Y97cNq6aozJnbeLvmKdHAbDhAHITYl/view?usp=drivesdk",
+    "sourceSha256": "5e114d9f68cdb89e9890e750e2bfbbece93c195c2dc511ddf5e3f6d74415a8b2",
+    "textSha256": "45a72c9056b96d80930f68ccded26cbb26a91e71580465ebfce875d471e08a23",
+    "changeKey": "e96b24aef2c70430dfc759660983c734",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "a1290d1b68ca6911f26f",
+    "workId": "a1290d1b68ca6911f26f",
+    "driveFileId": "1S-Y97cNq6aozJnbeLvmKdHAbDhAHITYl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:59:31.983694+00:00",
+    "updatedAt": "2026-09-24T07:59:31.983710+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:59:31.983819+00:00"
+    }
+  }
+}

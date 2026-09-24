@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "태백산맥 02권",
+    "author": "조정래",
+    "genre": "대하소설",
+    "tags": [
+      "벌교",
+      "청년단",
+      "국회의원",
+      "우익과 좌익"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "대하소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "철저한 역사적 사실에 기반하여 분단의 상처와 민중의 삶을 총체적으로 복원하는 소설가이다.",
+    "oneLineSummary": "지주 계급의 정치적 야욕과 경찰 및 우익 청년단의 횡포 속에서 갈등이 증폭되는 벌교의 상황을 그린다.",
+    "overallSummary": "국회의원 최익승이 경찰서장 남인태와 결탁하여 정치적 반대자를 제거하고 우익 청년단을 장악하려는 음모를 꾸민다. 지주와 권력자들의 억압이 거세질수록 민중의 삶은 피폐해지고, 이념의 대립은 양측 모두 물러설 수 없는 극한의 대치로 치닫는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "11. 체포",
+        "summary": "최익승 국회의원과 경찰서장 남인태가 밀실에서 벌이는 권력 야합과 탄압 음모."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "정치적 야합",
+        "value": "권력자와 경찰, 우익 청년단의 결탁을 통한 민중 억압"
+      }
+    ],
+    "keyEntitiesText": "최익승, 남인태, 염상구, 김범우, 심재모",
+    "settingText": "해방 직후 전라남도 벌교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1mhXkW5_8ptlRS7R2_KHOxRCgaoCoBsV8",
+    "filename": "조정래-태백산맥 02.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:59.316Z",
+    "size": "502536",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "조정래-아리랑 등",
+      "조정래-태백산맥"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/조정래-아리랑 등/조정래-태백산맥",
+    "webViewLink": "https://drive.google.com/file/d/1mhXkW5_8ptlRS7R2_KHOxRCgaoCoBsV8/view?usp=drivesdk",
+    "sourceSha256": "ac1c722ae4702c191cc985f453d96a2880ce919967b27766eff25e9cc58744bc",
+    "textSha256": "892d2c930155c280f6d46db4ab7f5dee569d84d38b2dbd548e1ae4af97db90bc",
+    "changeKey": "71b34e010cd6b25c89ff67b0906c9718",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "37a7c80e80ca8c9c8cc5",
+    "workId": "37a7c80e80ca8c9c8cc5",
+    "driveFileId": "1mhXkW5_8ptlRS7R2_KHOxRCgaoCoBsV8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:00:46.755328+00:00",
+    "updatedAt": "2026-09-24T08:00:46.755345+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.795,
+      "updatedAt": "2026-09-24T08:00:46.755458+00:00"
+    }
+  }
+}

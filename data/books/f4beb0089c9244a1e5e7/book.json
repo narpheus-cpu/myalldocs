@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "특별한 영웅",
+    "author": "조일환",
+    "genre": "액션 스릴러",
+    "tags": [
+      "느와르",
+      "홍콩",
+      "삼합회",
+      "범죄수사"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "액션",
+        "범죄"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "긴장감 넘치는 전개와 거대 조직 간의 암투를 그리는 장르소설 작가이다.",
+    "oneLineSummary": "홍콩을 배경으로 거대 범죄 조직과 국가 기관이 얽히고설킨 음모와 대결을 그린 액션 소설.",
+    "overallSummary": "대만계 최대 삼합회 조직인 츄리엔팡의 소두목 방민걸의 암살을 신호탄으로 홍콩의 범죄 세계와 국제적 무기 밀수 세력 간의 피비린내 나는 전쟁이 벌어진다. 한편 한국 경찰청 국제범죄수사국은 러시아 마피아의 무기 밀수 정보를 입수하고 사건 해결에 나선다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 풍운아의 꿈",
+        "summary": "홍콩에서 활동하던 츄리엔팡의 소두목 방민걸이 의문의 킬러에게 살해당하면서 조직 간의 전면전이 예고된다."
+      },
+      {
+        "sectionTitle": "2. 경찰청 국제범죄 수사국",
+        "summary": "러시아 마피아의 무기 밀수 정보로 인해 긴급회의가 열리고 백창현 경감이 사건의 중심에서 수사를 지휘한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품 성격",
+        "value": "정치, 범죄, 첩보가 결합된 남성적 액션 누와르"
+      }
+    ],
+    "keyEntitiesText": "방민걸, 장안러(하얀 늑대), 이헌, 백창현, 류수열",
+    "settingText": "범죄가 판치는 홍콩과 한국의 경찰청"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1r4ZwQWFNQZ42fFvfcj02kW0YpPa9unG7",
+    "filename": "조일환-특별한 영웅 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:58.297Z",
+    "size": "2530644",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1r4ZwQWFNQZ42fFvfcj02kW0YpPa9unG7/view?usp=drivesdk",
+    "sourceSha256": "5b385a03d7220b9b375858dcb274c8c0e0a6bc28baf6b635ac5765a08afd7a75",
+    "textSha256": "94bd66d685cb7ca9b0a5d931edb2352b6ec771bc561bb18627b3f42d68fec99e",
+    "changeKey": "a25e338191ebfc6cdaa9c218e1cbf6d1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f4beb0089c9244a1e5e7",
+    "workId": "f4beb0089c9244a1e5e7",
+    "driveFileId": "1r4ZwQWFNQZ42fFvfcj02kW0YpPa9unG7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:58:56.012268+00:00",
+    "updatedAt": "2026-09-24T07:58:56.012285+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:58:56.012408+00:00"
+    }
+  }
+}

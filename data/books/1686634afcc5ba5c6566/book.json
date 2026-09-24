@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아리랑 09권",
+    "author": "조정래",
+    "genre": "대하소설",
+    "tags": [
+      "원산파업",
+      "유행성독감",
+      "농민수탈",
+      "만주침략"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "대하소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "광범위한 역사적 자료를 바탕으로 수난의 현대사를 승리의 대서사시로 펼쳐 보이는 작가이다.",
+    "oneLineSummary": "원산 파업의 실패와 혹독한 가난, 전염병으로 쓰러지는 민중의 슬픔과 만주 침략의 서막을 그린다.",
+    "overallSummary": "3개월간 치러진 원산 부두노동자들의 총파업이 결국 실패로 끝나고, 농민들과 노동자들은 가혹한 수탈과 유행성 독감으로 아이들을 잃는 등 극심한 고통에 시달린다. 일본의 만주 침략 야욕이 본격화되면서 한반도와 만주 전역에는 어두운 전운이 감돈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "32. 서러운 넋들",
+        "summary": "원산 파업 실패 소식과 함께 전염병과 가난으로 자식을 잃는 소작농 손판석의 비극."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "민중의 비극",
+        "value": "파업 좌절과 질병으로 파탄 난 민중의 삶 조명"
+      }
+    ],
+    "keyEntitiesText": "손판석, 부안댁, 남상명, 죽림댁",
+    "settingText": "일제강점기 군산 및 한반도 전역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1tt3kCdyCk9RwNuFCimN9yQtQDnC9_J9Y",
+    "filename": "조정래-아리랑 09권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:58.682Z",
+    "size": "653739",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "조정래-아리랑 등",
+      "조정래-태백산맥"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/조정래-아리랑 등/조정래-태백산맥",
+    "webViewLink": "https://drive.google.com/file/d/1tt3kCdyCk9RwNuFCimN9yQtQDnC9_J9Y/view?usp=drivesdk",
+    "sourceSha256": "d081515442484253844f173d757dcfede1fe187d705a7ca5a472d3ace74de89c",
+    "textSha256": "42a785d76cc6205897f2c48a3f06d64eb2c972feeed0ce03eaa2059645cfed8d",
+    "changeKey": "462e791d3915f918c9fcb91b3e95fbba",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1686634afcc5ba5c6566",
+    "workId": "1686634afcc5ba5c6566",
+    "driveFileId": "1tt3kCdyCk9RwNuFCimN9yQtQDnC9_J9Y",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:00:14.043280+00:00",
+    "updatedAt": "2026-09-24T08:00:14.043294+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:00:14.043386+00:00"
+    }
+  }
+}

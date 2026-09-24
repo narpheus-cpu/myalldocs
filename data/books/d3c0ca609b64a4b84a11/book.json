@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아리랑 05권",
+    "author": "조정래",
+    "genre": "대하소설",
+    "tags": [
+      "만주",
+      "부민단",
+      "독립군",
+      "대종교"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "대하소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "수많은 인물과 사건을 웅장한 서사로 엮어내어 한국 문학의 지평을 넓힌 작가이다.",
+    "oneLineSummary": "만주로 이주한 동포들이 자치 조직인 부민단을 중심으로 터전을 잡고 독립운동의 기반을 다지는 이야기.",
+    "overallSummary": "만주땅에 정착한 조선인들이 황무지를 개간해 논을 일구지만 중국 지주들의 횡포와 마적떼, 그리고 일본 밀정들의 위협에 시달린다. 송수익은 대종교와 결합하여 동포들을 결속시키고, 부민단을 통해 자치와 무장 항쟁의 기틀을 다져 나간다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "11. 어둠 저편의 새벽",
+        "summary": "필녀의 당당한 활약과 함께 만주 동포들의 고된 삶 속에서 대종교를 통한 민족혼 고취 운동이 전개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 사실",
+        "value": "만주 이주 동포들의 자치 조직과 민족 종교의 역할"
+      }
+    ],
+    "keyEntitiesText": "송수익, 필녀, 배두성, 솜리댁, 양치성",
+    "settingText": "만주 간도 및 서간도 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1wLKCijBJJufFW41vL8F7UkSRr8zpD88c",
+    "filename": "조정래-아리랑 05권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:58.484Z",
+    "size": "728348",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "조정래-아리랑 등",
+      "조정래-태백산맥"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/조정래-아리랑 등/조정래-태백산맥",
+    "webViewLink": "https://drive.google.com/file/d/1wLKCijBJJufFW41vL8F7UkSRr8zpD88c/view?usp=drivesdk",
+    "sourceSha256": "29f40dce5aba227fc4c20875ca1bebc7a2b05a6119cd4dfcfe93ea70b47cb2a0",
+    "textSha256": "6962110a94672934abdf84c049129dbe0b9d8dc0e4333a4772af2944bf87228a",
+    "changeKey": "883d5d0eab140dc411686f61aa2e63a0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d3c0ca609b64a4b84a11",
+    "workId": "d3c0ca609b64a4b84a11",
+    "driveFileId": "1wLKCijBJJufFW41vL8F7UkSRr8zpD88c",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:59:45.376692+00:00",
+    "updatedAt": "2026-09-24T07:59:45.376707+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:59:45.376824+00:00"
+    }
+  }
+}

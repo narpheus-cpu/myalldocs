@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아리랑 10권",
+    "author": "조정래",
+    "genre": "대하소설",
+    "tags": [
+      "사회주의운동",
+      "원산",
+      "적색노조",
+      "만주침략"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "대하소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "수난과 굴욕의 현대사를 투쟁과 승리의 대서사시로 승화시킨 민족 문학의 거장이다.",
+    "oneLineSummary": "원산을 중심으로 전개되는 사회주의 노동·농민 운동과 일제의 가혹한 탄압, 그리고 탈출하는 혁명가의 여정.",
+    "overallSummary": "코민테른의 지령에 따라 국내에 잠입해 적색노조와 적색농조를 조직하며 혁명의 불길을 지피려는 윤철훈 등의 활동이 일제의 무자비한 검거 선풍에 부딪친다. 수많은 사회주의 운동가들이 체포되는 가운데 윤철훈은 동지들의 도움으로 탈출을 도모한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 탈출하는 땅",
+        "summary": "원산 명사십리를 배경으로 탈출을 준비하는 사회주의 특파원 윤철훈과 안내원 최현옥의 갈등과 연대."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "이념적 지향",
+        "value": "사회주의 계열의 노동·농민 야합 투쟁과 일제의 탄압"
+      }
+    ],
+    "keyEntitiesText": "윤철훈, 최현옥, 이주하",
+    "settingText": "일제강점기 원산 및 동해안 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1B88wQ-q-6UMBShcJcP4P_Jkt8lDYH9aI",
+    "filename": "조정래-아리랑 10권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:58.750Z",
+    "size": "646588",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "조정래-아리랑 등",
+      "조정래-태백산맥"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/조정래-아리랑 등/조정래-태백산맥",
+    "webViewLink": "https://drive.google.com/file/d/1B88wQ-q-6UMBShcJcP4P_Jkt8lDYH9aI/view?usp=drivesdk",
+    "sourceSha256": "324d1f4527f3618c720a4aba7a8341a499ff4ac4c33be476899e84b310863239",
+    "textSha256": "c7b30e8858eb90ad97c95069664973bec3a0db64bc9f99a549645de1adc513dd",
+    "changeKey": "0412024970af18641af4d54f4b894de4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d59ed73d1c040ad99081",
+    "workId": "d59ed73d1c040ad99081",
+    "driveFileId": "1B88wQ-q-6UMBShcJcP4P_Jkt8lDYH9aI",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:00:20.552538+00:00",
+    "updatedAt": "2026-09-24T08:00:20.552554+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:00:20.552669+00:00"
+    }
+  }
+}

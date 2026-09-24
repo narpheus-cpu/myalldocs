@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아리랑 11권",
+    "author": "조정래",
+    "genre": "대하소설",
+    "tags": [
+      "고문",
+      "밀정",
+      "위장전향",
+      "중일전쟁"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "대하소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "철저한 역사 인식과 세밀한 묘사로 식민지 시대의 굴욕과 저항을 형상화한 작가이다.",
+    "oneLineSummary": "일제의 악랄한 고문과 변절 속에서도 조직을 지키려는 독립운동가들의 처절한 투쟁과 고뇌를 그린다.",
+    "overallSummary": "원산 경찰서 지하 지하실에서 최현옥은 악랄한 친일 밀정 출신 양치성에게 체포되어 끔찍한 고문을 당한다. 끝내 조직의 비밀을 지키기 위해 처절하게 버텨내는 최현옥의 모습과 함께, 일제의 혹독한 탄압에 맞서기 위해 위장전향 전략을 세우는 혁명가들의 고뇌가 그려진다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "18. 위장전향",
+        "summary": "소작인들의 고된 노동 속에서 토하알젓을 강요하는 지주 정상규의 횡포와 위장전향을 논의하는 혁명가들."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인간의 한계",
+        "value": "가혹한 고문 앞에서도 꺾이지 않는 독립투사들의 숭고한 정신"
+      }
+    ],
+    "keyEntitiesText": "최현옥, 양치성, 정상규, 정도규, 이현상",
+    "settingText": "일제강점기 원산 경찰서 지하실 및 한반도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QDAYvxrctjNRWKmCEib3F1ZWA7LxUYUw",
+    "filename": "조정래-아리랑 11권.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:59.256Z",
+    "size": "597495",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "조정래-아리랑 등",
+      "조정래-태백산맥"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/조정래-아리랑 등/조정래-태백산맥",
+    "webViewLink": "https://drive.google.com/file/d/1QDAYvxrctjNRWKmCEib3F1ZWA7LxUYUw/view?usp=drivesdk",
+    "sourceSha256": "64f8422728e699617d2656f205a41045e9b966483d6a9ee33c9a224251821a7b",
+    "textSha256": "ed9091bc772141c23b23a0a56b842b5cfb903d89ed7202a5e902ab16d7ecf471",
+    "changeKey": "3890dbc2a18ea172462726d810130ead",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "27ccfd7506b560e6ef07",
+    "workId": "27ccfd7506b560e6ef07",
+    "driveFileId": "1QDAYvxrctjNRWKmCEib3F1ZWA7LxUYUw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:00:27.005626+00:00",
+    "updatedAt": "2026-09-24T08:00:27.005643+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:00:27.005761+00:00"
+    }
+  }
+}
