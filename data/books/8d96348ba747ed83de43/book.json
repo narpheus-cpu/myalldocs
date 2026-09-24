@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그날이 오면 1",
+    "author": "이재운",
+    "genre": "재난스릴러소설",
+    "tags": [
+      "바이러스",
+      "열차",
+      "재난",
+      "군산"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "스릴러",
+        "SF"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1996년 봄 기준 석사학위 소지 및 다수의 장편소설 집필 작가",
+    "oneLineSummary": "정체불명의 바이러스로 인해 승객 전원 이 사망한 채 질주하는 유령 열차의 미스터리와 재난의 위기를 그린 스릴러 소설입니다.",
+    "overallSummary": "논산과 서대전 역을 거치며 정지 신호를 무시한 채 전속력으로 질주하는 97호 우등 열차 안에서 승객 전원이 외상 없이 사망한 채 발견됩니다. 헬기와 특수부대가 투입되어 열차를 강제로 정차시키고 내부를 수색하지만, 피비린내 없는 죽음의 정체와 바이러스의 공포가 대한민국 전역을 위협하기 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 / 유령 열차",
+        "summary": "익산과 논산역을 무정차로 통과하며 통제를 벗어난 97호 우등 열차와, 이를 저지하기 위해 분주히 움직이는 역장 및 경찰 특수부대의 긴박한 작전이 펼쳐집니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "예기치 못한 재난 상황 속에서 벌어지는 급박한 서사와 과학적 공포의 결합"
+      }
+    ],
+    "keyEntitiesText": "논산역장, 서대전역장, 김 경사, 김태웅, 이승연",
+    "settingText": "논산, 서대전, 변산반도 등 대한민국 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1RRFL98ecxBjlI_4_PFdH_gG4RVQE_adF",
+    "filename": "이재운-그날이 오면.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.034Z",
+    "size": "378082",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1RRFL98ecxBjlI_4_PFdH_gG4RVQE_adF/view?usp=drivesdk",
+    "sourceSha256": "76409584c4f8a163eabb50f7f2cb7497188a85efc20d5ebfc5e5dcbc08b57842",
+    "textSha256": "847f4ed3e38a98414382e5d2d7a1c7a777f31e9a82f22e0c44aeebebef5bed12",
+    "changeKey": "be006e024237c1cd0ffca6cefd0aa721",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8d96348ba747ed83de43",
+    "workId": "8d96348ba747ed83de43",
+    "driveFileId": "1RRFL98ecxBjlI_4_PFdH_gG4RVQE_adF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:15:37.577055+00:00",
+    "updatedAt": "2026-09-24T07:15:37.577073+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.7657,
+      "updatedAt": "2026-09-24T07:15:37.577171+00:00"
+    }
+  }
+}

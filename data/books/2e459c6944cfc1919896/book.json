@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "영원한 제국",
+    "author": "이인화",
+    "genre": "역사추리소설",
+    "tags": [
+      "정조",
+      "규장각",
+      "취성록",
+      "미스터리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사",
+        "추리"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이인화",
+    "oneLineSummary": "정조 말년 규장각을 배경으로 벌어지는 의문의 살인사건과 권력 다툼을 그린 역사 추리 소설입니다.",
+    "overallSummary": "1800년 정월, 규장각 대교 이인몽이 겪은 하룻동안의 미스터리한 사건을 다룹니다. 검서관 장종오의 의문사, 사라진 책 '시경천견록', 그리고 시경의 해석을 둘러싼 노론 시파와 벽파 간의 치열한 정치적 갈등이 팽팽하게 전개됩니다. 정조의 개혁 정치와 이를 저지하려는 세력 간의 암투가 숨 가쁘게 펼쳐집니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 승경도놀이",
+        "summary": "정조 24년 정월 19일 새벽, 규장각 직원 이인몽이 아내 상아와의 아픈 기억이 서린 꿈에서 깨어나며 운명적인 하루를 시작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "사료에 대한 철저한 고증과 치밀한 추리적 기법을 결합한 역사 미스터리"
+      }
+    ],
+    "keyEntitiesText": "이인몽, 정조, 장종오, 상아, 배행검",
+    "settingText": "1800년 정월 조선 창덕궁 후원 규장각"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1W0kyvqsj9zJdX9HBopr23CM7kbrz0W6H",
+    "filename": "이인화-영원한 제국.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.917Z",
+    "size": "486398",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1W0kyvqsj9zJdX9HBopr23CM7kbrz0W6H/view?usp=drivesdk",
+    "sourceSha256": "995d46a343f791e8f6a33def670a96f651b0afbfe6a42ed61d2f180a10382fc9",
+    "textSha256": "3de5d9fbcbf313cbec634092fcae916ce7117d5397ffd97f1aab8227d20fb3ca",
+    "changeKey": "593150b4164e0f2ded8e7046a659e9b3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2e459c6944cfc1919896",
+    "workId": "2e459c6944cfc1919896",
+    "driveFileId": "1W0kyvqsj9zJdX9HBopr23CM7kbrz0W6H",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:15:18.597570+00:00",
+    "updatedAt": "2026-09-24T07:15:18.597587+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:15:18.597671+00:00"
+    }
+  }
+}

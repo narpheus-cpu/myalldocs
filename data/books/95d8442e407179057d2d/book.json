@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소설 토정비결",
+    "author": "이재운",
+    "genre": "역사소설",
+    "tags": [
+      "토정비결",
+      "이지함",
+      "조선",
+      "역학"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사",
+        "전기"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이재운",
+    "oneLineSummary": "조선 중기의 기인이자 경제학자, 역학자였던 토정 이지함의 파란만장한 생애와 사상을 그린 역사 소설입니다.",
+    "overallSummary": "해마다 정초면 민중들이 운수를 점치기 위해 펼쳐보는 '토정비결'의 저자 이지함의 진면목을 조명합니다. 그는 단순한 점술가가 아니라 최초의 자본주의적 경제 유통을 구상하고 토굴 속에 살며 빈민을 구제한 위대한 빈민운동가이자 과학자였습니다. 혼란스러운 조선 중기, 국운을 걱정하며 민중과 함께 숨 쉬었던 그의 구도와 삶의 여정을 담습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 사즉생 생즉사(死卽生 生卽死)",
+        "summary": "금강산 암자에 머물던 정휴가 임종을 앞둔 스승이자 도반인 토정 이지함을 찾아 아산현으로 향하는 발걸음과 깊은 사색을 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "운명의 예지를 넘어 실천적 삶으로 민중의 고통을 구제하려 한 조선 지식인의 정신"
+      }
+    ],
+    "keyEntitiesText": "토정 이지함, 정휴, 용우, 화담",
+    "settingText": "조선 중기 금강산 및 아산현 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1XfoZ2FjhTDSDNlT4GQ_J26DfxvggGdR1",
+    "filename": "이재운-소설 토정비결.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.084Z",
+    "size": "1007600",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1XfoZ2FjhTDSDNlT4GQ_J26DfxvggGdR1/view?usp=drivesdk",
+    "sourceSha256": "df506899e40229ace819ef9572e41bc5766133dd108236bd5c3962b2b7039a24",
+    "textSha256": "abddcc86d5925ccd7f8268d827cd08e56e1ba199710f357dd6f4783fbc2e1529",
+    "changeKey": "5af016aae4047908903b6a718957bc4e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "95d8442e407179057d2d",
+    "workId": "95d8442e407179057d2d",
+    "driveFileId": "1XfoZ2FjhTDSDNlT4GQ_J26DfxvggGdR1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:15:50.526359+00:00",
+    "updatedAt": "2026-09-24T07:15:50.526376+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:15:50.526464+00:00"
+    }
+  }
+}

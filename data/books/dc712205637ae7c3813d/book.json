@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소설 동의보감(상)",
+    "author": "이은성",
+    "genre": "역사소설",
+    "tags": [
+      "허준",
+      "동의보감",
+      "신분차별",
+      "한방"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사",
+        "전기"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이은성",
+    "oneLineSummary": "천첩의 자식으로 태어나 조선 최고의 의학서 '동의보감'을 편찬한 허준의 불꽃같은 생애를 그린 역사 소설입니다.",
+    "overallSummary": "선조 즉위 초, 평안도 용천에서 신분 제도의 서글픈 벽에 부딪히며 방황하던 허준의 청년기를 그립니다. 양반과 상놈의 엄혹한 차별 속에서 천첩의 아들로 태어난 설움과 분노를 딛고, 의술을 통해 생명을 구원하는 위대한 의사로 거듭나기 전의 파란만장한 탈출과 내면적 갈등을 묵직하게 담아냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 용천 탈출",
+        "summary": "과거를 보러 떠나는 양반 친구들을 부러움과 분노 섞인 눈으로 배웅하며, 자신의 천한 신분적 한계를 절감하고 방황하는 허준의 모습이 그려집니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "신분제의 철창을 깨고 인류애와 의술의 길로 나아가는 인간 허준의 탄생"
+      }
+    ],
+    "keyEntitiesText": "허준, 손씨, 허륜, 정실 추씨, 심진사",
+    "settingText": "16세기 말 조선 선조 시대 평안도 용천 오도곶"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KPCSKKBjNDMEufeKLsSyemeei_uL-ier",
+    "filename": "이은성-소설 동의보감.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.884Z",
+    "size": "1199350",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1KPCSKKBjNDMEufeKLsSyemeei_uL-ier/view?usp=drivesdk",
+    "sourceSha256": "2ffb71865a51b99cab5db892fa27bdf8fc4f3f386337472dcae816ea83d4a6ed",
+    "textSha256": "2ed8c79fdf852fe11692904aaae75b9a7b16ceab5f6d1111f5c5f7fd7ff7255c",
+    "changeKey": "8a8441150624379f7e5545c068ba9981",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dc712205637ae7c3813d",
+    "workId": "dc712205637ae7c3813d",
+    "driveFileId": "1KPCSKKBjNDMEufeKLsSyemeei_uL-ier",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:15:12.465808+00:00",
+    "updatedAt": "2026-09-24T07:15:12.465824+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.795,
+      "updatedAt": "2026-09-24T07:15:12.465904+00:00"
+    }
+  }
+}

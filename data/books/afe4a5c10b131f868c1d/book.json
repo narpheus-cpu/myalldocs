@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "소설 금강경",
+    "author": "이재운",
+    "genre": "종교소설",
+    "tags": [
+      "금강경",
+      "붓다",
+      "불교",
+      "공"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "종교",
+        "철학"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이재운",
+    "oneLineSummary": "석가모니 붓다의 생애와 설법 과정을 통해 '금강경'의 심오한 공(空)과 깨달음의 세계를 쉽게 풀어낸 종교 소설입니다.",
+    "overallSummary": "노쇠한 붓다가 제자 수보리를 불러 영추산에서 마침내 설파하게 되는 '금강경'의 탄생 배경과 그 가르침을 감동적으로 그려냅니다. 붓다가 거지와 어울리며 길거리에서 탁발하는 일화, 수제자들의 출가와 갈등, 그리고 세상 모든 집착과 번뇌를 끊어내는 금강 같은 지혜의 진수를 소설적 서사로 풀어냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "일흔다섯이 된 붓다가 제자 수보리를 불러모아 반야부 설법의 마무이자 마지막 재산이 될 '금강경'을 설파할 것을 예고합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "형상에 얽매이지 않고 모든 집착을 비워낼 때 비로소 드러나는 진정한 진리의 세계"
+      }
+    ],
+    "keyEntitiesText": "붓다, 수보리, 아난, 수달다 장자",
+    "settingText": "고대 인도 기원정사 및 영추산 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1t6xYJoPLHfQz36yBuGRfyxZazUqhcXHl",
+    "filename": "이재운-소설 금강경.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:57.054Z",
+    "size": "838089",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1t6xYJoPLHfQz36yBuGRfyxZazUqhcXHl/view?usp=drivesdk",
+    "sourceSha256": "05722f03517a0c2f5cd7d4ca0b7bdd5fe1a26e43cad33ce75bc1c99c2f8dd518",
+    "textSha256": "1b2252b69c86495c5be6641f93b9dc62307a9e8a5a202ab7f24124644a113335",
+    "changeKey": "0783fa508cf02b8d6d9a7ab8205521d8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "afe4a5c10b131f868c1d",
+    "workId": "afe4a5c10b131f868c1d",
+    "driveFileId": "1t6xYJoPLHfQz36yBuGRfyxZazUqhcXHl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:15:43.827161+00:00",
+    "updatedAt": "2026-09-24T07:15:43.827178+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:15:43.827275+00:00"
+    }
+  }
+}

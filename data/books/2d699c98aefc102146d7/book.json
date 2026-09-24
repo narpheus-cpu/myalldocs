@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "암살자",
+    "author": "이원호",
+    "genre": "서스펜스 소설",
+    "tags": [
+      "테러",
+      "복수",
+      "해병대",
+      "중동"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "액션",
+        "서스펜스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이원호",
+    "oneLineSummary": "테러로 약혼자를 잃은 해병 대위가 군복을 벗고 암살자로 변신하여 복수를 위해 중동과 유럽을 누비는 서스펜스 소설입니다.",
+    "overallSummary": "이집트 룩소르에서 발생한 관광버스 폭파 사건으로 약혼녀 오경미를 잃은 해병 대위 이준석은 군을 사직하고 홀로 이집트로 건너갑니다. 사건의 진실을 은폐하려는 정부와 정보기관에 맞서며, 그는 약혼자의 흔적을 쫓는 동시에 복수를 위해 암살자로 거듭나는 과정을 긴장감 있게 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "실종",
+        "summary": "이집트 룩소르에서 관광버스 폭발 사고가 일어나고, 한국인 오경미가 실종됩니다. 해병 대위 이준석은 휴가를 거부당하자 제대를 결심하고 카이로로 향합니다."
+      },
+      {
+        "sectionTitle": "추적",
+        "summary": "이준석은 카이로 한국대사관 영사와 갈등을 빚은 끝에 협력을 얻어내고, 사건의 진실과 목격자의 행방을 쫓기 시작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특징",
+        "value": "빠른 전개와 이국적인 배경을 바탕으로 한 킬링타임용 서스펜스 액션 소설"
+      }
+    ],
+    "keyEntitiesText": "이준석, 오경미, 홍영식, 조남훈, 김호성, 버트, 요시에",
+    "settingText": "이집트 룩소르 및 카이로, 1990년대 말 혹서기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NAN-aH8dujWn5rOKdp1HH1G_d-QIqBjF",
+    "filename": "이원호-암살자.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.567Z",
+    "size": "650242",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1NAN-aH8dujWn5rOKdp1HH1G_d-QIqBjF/view?usp=drivesdk",
+    "sourceSha256": "12bc3bd91e5e102515e3adabf7ca4279a5e5df1ca177f2448d4b2f7f5cf2239f",
+    "textSha256": "3240b8cd226f93db232d29da03ebb9a07a952c6c59ee20dff110111a38a512f8",
+    "changeKey": "8dcead2ede6dbbef8244b4f2a75ae339",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2d699c98aefc102146d7",
+    "workId": "2d699c98aefc102146d7",
+    "driveFileId": "1NAN-aH8dujWn5rOKdp1HH1G_d-QIqBjF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:14:02.442192+00:00",
+    "updatedAt": "2026-09-24T07:14:02.442208+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:14:02.442297+00:00"
+    }
+  }
+}

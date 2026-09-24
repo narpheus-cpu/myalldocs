@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "어른의 학교",
+    "author": "이윤기",
+    "genre": "에세이",
+    "tags": [
+      "삶의 지혜",
+      "일상",
+      "기억",
+      "독서"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "수필",
+        "인문"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이윤기",
+    "oneLineSummary": "머리띠에 얽힌 일화부터 소리북, 탱자나무 도벌, 그리고 기억과 독서에 대한 사유까지 일상의 단상을 깊이 있게 담아낸 에세이입니다.",
+    "overallSummary": "작가가 일상에서 건져 올린 소소한 물건과 에피소드를 통해 삶의 이면을 통찰합니다. 광화문 육교에서 산 낡은 머리띠에 대한 애착, 판소리와 고수들의 세계, 김명곤과의 미국 여행에서 얻은 '보아야 보인다'는 깨달음, 기억의 표절과 독서의 방식(금비와 퇴비) 등 삶을 걸우는 지혜들을 잔잔하게 풀어냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리띠, 내머리띠 외",
+        "summary": "오랫동안 아껴온 머리띠를 통해 물건과 사람의 관계를 돌아보고, 소리꾼과 고수의 삶, 보아야 보이는 세상의 이치 등을 성찰합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "일상의 사소한 경험 속에서 건져 올린 삶의 깨달음과 교양"
+      }
+    ],
+    "keyEntitiesText": "저자, 김명곤, 장인",
+    "settingText": "한국과 미국 중서부 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1KpbsCN68FpwPOW5MIjdwCL9j0fwt8qBR",
+    "filename": "이윤기-어른의 학교.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.789Z",
+    "size": "111235",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이윤기"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이윤기",
+    "webViewLink": "https://drive.google.com/file/d/1KpbsCN68FpwPOW5MIjdwCL9j0fwt8qBR/view?usp=drivesdk",
+    "sourceSha256": "6d1aa17492c1ece4d77371c2b27e439f6ef54df3f631efe0a3d989f946f9309e",
+    "textSha256": "3ca635935b1e169dadbe853944f7162b4c4703f18b33aec97552266c6316f2b6",
+    "changeKey": "5dbd133a95f9163dfd8b93d15f16be54",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7d3418bd0247839fa265",
+    "workId": "7d3418bd0247839fa265",
+    "driveFileId": "1KpbsCN68FpwPOW5MIjdwCL9j0fwt8qBR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:14:44.925416+00:00",
+    "updatedAt": "2026-09-24T07:14:44.925432+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:14:44.925515+00:00"
+    }
+  }
+}

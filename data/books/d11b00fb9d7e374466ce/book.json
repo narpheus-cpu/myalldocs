@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나비 넥타이",
+    "author": "이윤기",
+    "genre": "소설",
+    "tags": [
+      "동창",
+      "추억",
+      "가족",
+      "시대상"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "자서전적",
+        "회고"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이윤기",
+    "oneLineSummary": "시대의 변화 속에서 독특한 삶의궤적을 그려낸 친구 박노수와 그의 가족 이야기를 통해 인간과 세상을 회고하는 소설입니다.",
+    "overallSummary": "초등학교부터 대학까지 줄곧 함께한 희귀한 동창 박노수의 유학 후 귀국과 파격적인 변모를 계기로 과거의 기억을 더듬습니다. 자동차와 문명을 두려워하던 할머니, 유행의 소용돌이에 휩쓸렸던 누이동생 노민이, 그리고 나비 넥타이를 트레이드마크로 삼았던 박 교수의 모습 등을 통해 격동기의 한국 사회와 가족사, 그리고 인간의 내면을 섬세하게 포착합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "주인공은 김포공항에서 콧수염을 기르고 중절모를 쓴 채 세련된 모습으로 돌아온 친구 박노수를 만나고, 그와 얽힌 어린 시절의 기억과 가족들의 사연을 회상합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 특징",
+        "value": "개인사와 시대사를 유기적으로 엮어내는 섬세한 서술과 성찰"
+      }
+    ],
+    "keyEntitiesText": "박노수(노오스 파아크), 나우, 노수 할머니, 노민이, 박 교수",
+    "settingText": "한국의 시골 고향 마을부터 대구, 서울, 그리고 김포공항"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19B-9VRAqc3cI76Vc_IcXHMEXcEAJkIgu",
+    "filename": "이윤기-나비넥타이.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.727Z",
+    "size": "274665",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이윤기"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이윤기",
+    "webViewLink": "https://drive.google.com/file/d/19B-9VRAqc3cI76Vc_IcXHMEXcEAJkIgu/view?usp=drivesdk",
+    "sourceSha256": "0c9275132138f1d6828d5b71341f14d4b2a5e1647974a6016a743bdbf438daf9",
+    "textSha256": "18ab30af0c1100d02384eb098f3e990d0ea9405375081e41831e53e66b17873e",
+    "changeKey": "1c24e44e8fca08a54a750577648d8625",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d11b00fb9d7e374466ce",
+    "workId": "d11b00fb9d7e374466ce",
+    "driveFileId": "19B-9VRAqc3cI76Vc_IcXHMEXcEAJkIgu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:14:28.804027+00:00",
+    "updatedAt": "2026-09-24T07:14:28.804043+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:14:28.804133+00:00"
+    }
+  }
+}
