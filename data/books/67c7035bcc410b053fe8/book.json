@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "선택",
+    "author": "이문열",
+    "genre": "장편소설",
+    "tags": [
+      "페미니즘",
+      "정부인 장씨",
+      "조선시대 여성"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1948년 경북 영양 출생으로 서울대학교 사범대학을 수학한 한국의 대표 중견 작가이다.",
+    "oneLineSummary": "조선시대 정부인 장씨의 삶을 통해 현대 페미니즘과 여성의 삶을 되돌아보는 장편소설.",
+    "overallSummary": "조선 선조 때의 실존 인물인 정부인 장씨의 넋을 빌려 유교적 가치관 속에서의 여성의 삶을 조명하고, 현대 여성들의 이혼과 출산 기피 등 세태를 비판한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 비구름 걷힌 뒤의 달을 보며",
+        "summary": "현대 여성들의 과장된 주장과 페미니즘적 세태를 비판하며 주인공의 넋두리로 이야기를 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "논쟁성",
+        "value": "출간 당시 격렬한 페미니즘 논쟁을 불러일으킴"
+      }
+    ],
+    "keyEntitiesText": "정부인 장씨, 이문열",
+    "settingText": "조선시대 안동 검제 및 현대적 시각"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TdgM-amCeR00S3QsgQlO0DzYatCekpPU",
+    "filename": "이문열-선택 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:54.936Z",
+    "size": "328460",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이문열-삼국지 등"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이문열-삼국지 등",
+    "webViewLink": "https://drive.google.com/file/d/1TdgM-amCeR00S3QsgQlO0DzYatCekpPU/view?usp=drivesdk",
+    "sourceSha256": "8349efeb6b1e14e0cc0412380932b68e6c7de1c97ad9b1ff9a6314610b6b6692",
+    "textSha256": "e692dd7c023ea9a9428ba117663695de421dc44b591b71efb248d35e8ef2bbdd",
+    "changeKey": "545f6a15b026194757f909d79416a535",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "67c7035bcc410b053fe8",
+    "workId": "67c7035bcc410b053fe8",
+    "driveFileId": "1TdgM-amCeR00S3QsgQlO0DzYatCekpPU",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:29:58.681026+00:00",
+    "updatedAt": "2026-09-24T06:29:58.681042+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:29:58.681126+00:00"
+    }
+  }
+}

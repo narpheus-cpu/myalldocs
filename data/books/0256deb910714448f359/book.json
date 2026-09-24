@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우리들의 일그러진 영웅",
+    "author": "이문열",
+    "genre": "중편소설",
+    "tags": [
+      "권력",
+      "독재",
+      "초등학교"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 현대 소설의 거장 이문열의 대표적인 중편소설.",
+    "oneLineSummary": "시골 초등학교 반장의 독재와 이에 맞서는 서울 전학생의 싸움을 통해 권력의 속성을 파헤친 작품.",
+    "overallSummary": "자유당 정권 말기 시골 학교를 배경으로, 절대적인 권력을 휘두르는 반장 엄석대와 이에 저항하다 동조하게 되는 전학생 한병태의 시선을 통해 집단과 권력의 메커니즘을 고발한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "서울에서 시골로 전학 온 병태가 엄석대의 절대적인 권력과 부딪히며 겪는 갈등을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 주제",
+        "value": "소집단 내의 권력 구조와 대중의 권력 복종 심리"
+      }
+    ],
+    "keyEntitiesText": "엄석대, 한병태, 담임 선생님",
+    "settingText": "시골의 한 초등학교 교실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Z1K1l-1TurAstSWkMeCRMyc7N32md5FC",
+    "filename": "이문열-우리들의 일그러진 영웅.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.045Z",
+    "size": "154321",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이문열-삼국지 등"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이문열-삼국지 등",
+    "webViewLink": "https://drive.google.com/file/d/1Z1K1l-1TurAstSWkMeCRMyc7N32md5FC/view?usp=drivesdk",
+    "sourceSha256": "a73866eddab1f80f260c5ff849cdd4778f1f82e2a46e0b2edeb221520f6433a7",
+    "textSha256": "9ceb70f4f630d96d8f4e6c68045cea5b371193d715aaaa6b65af4cb3eb9b52f8",
+    "changeKey": "abbc0533173018506d71e46356201f60",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0256deb910714448f359",
+    "workId": "0256deb910714448f359",
+    "driveFileId": "1Z1K1l-1TurAstSWkMeCRMyc7N32md5FC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:31:43.742069+00:00",
+    "updatedAt": "2026-09-24T06:31:43.742083+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:31:43.742162+00:00"
+    }
+  }
+}

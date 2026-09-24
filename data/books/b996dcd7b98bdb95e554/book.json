@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "바이러스 임진왜란",
+    "author": "이성수",
+    "genre": "SF소설",
+    "tags": [
+      "SF",
+      "생물테러",
+      "가상역사"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "스릴 넘치는 설정과 탄탄한 과학적 상상력을 바탕으로 글을 쓰는 작가 이성수.",
+    "oneLineSummary": "설악산에서 발견된 의문의 나비와 도쿄 대지진, 그리고 인류를 위협하는 바이러스의 음모를 다룬 SF 소설.",
+    "overallSummary": "설악산 생태계 탐사반이 미지의 나비 접촉으로 참혹하게 사망하는 사건이 발생하고, 이어서 도쿄에서 초대형 지진이 일어나며, 바이러스와 관련된 거대한 음모의 실체가 서서히 드러난다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "Part I 프롤로그: 죽음을 부르는 독나비",
+        "summary": "1999년 설악산에서 대학생 탐사반이 미지의 외래 나비로 인해 끔찍하게 죽음을 맞이하는 오프닝."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적 특성",
+        "value": "과학적 미스터리와 재난 스릴러가 결합된 SF"
+      }
+    ],
+    "keyEntitiesText": "박민영, 윤경, 한정훈 교수, 아오끼 히데요",
+    "settingText": "설악산, 도쿄"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LCb3ksSOY_whk5rlZbi9mFRbqNnFifzb",
+    "filename": "이성수-바이러스 임진왜란.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.254Z",
+    "size": "350932",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1LCb3ksSOY_whk5rlZbi9mFRbqNnFifzb/view?usp=drivesdk",
+    "sourceSha256": "5541f9e2a860c1bfd30a84978f1e4c4f4061b839037df79b059e7b4922da13d5",
+    "textSha256": "ebeccf9e16fbc39896ef531824d2176577dc8c178e0814d4b81cf58e94daeb56",
+    "changeKey": "701b3833a801309d89fe1c184dd60be4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b996dcd7b98bdb95e554",
+    "workId": "b996dcd7b98bdb95e554",
+    "driveFileId": "1LCb3ksSOY_whk5rlZbi9mFRbqNnFifzb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:34:33.965234+00:00",
+    "updatedAt": "2026-09-24T06:34:33.965249+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:34:33.965327+00:00"
+    }
+  }
+}

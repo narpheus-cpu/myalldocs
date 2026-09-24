@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑한다면 이들처럼",
+    "author": "이상민",
+    "genre": "수필",
+    "tags": [
+      "사랑",
+      "프로포즈",
+      "로맨스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일상 속의 따뜻한 연애 에피소드와 기발한 프로포즈 일화를 유쾌하게 풀어내는 작가.",
+    "oneLineSummary": "친구들의 좌충우돌 연애담과 기발한 프로포즈 성공기를 유쾌하게 그려낸 에세이 소설.",
+    "overallSummary": "오랜 연인인 상호와 경미의 20년 사랑 이야기, 스키장에서 눈사람을 만들어 한여름에 프로포즈한 사연, 10원짜리 동전과 초코파이로 자취방에서 이뤄진 감동적인 프로포즈 등 다양한 커플의 사랑 사연을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "화이트 크리스마스",
+        "summary": "냉전 중인 친구 커플을 위해 스키장에서 눈을 퍼와 눈사람 프로포즈를 성사시킨 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "특징",
+        "value": "유쾌하고 실용적인 로맨틱 이벤트 아이디어 제공"
+      }
+    ],
+    "keyEntitiesText": "상호, 경미, 병윤 선배, 이상민",
+    "settingText": "서울, 스키장, 대학가 기차역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TuCeCEHPYyyoA1mE42DTYSOAClTyxS08",
+    "filename": "이상민-사랑한다면 이들처럼.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.165Z",
+    "size": "143293",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1TuCeCEHPYyyoA1mE42DTYSOAClTyxS08/view?usp=drivesdk",
+    "sourceSha256": "107a57b12a1c5551582faa81653424aa98e6704f4bf6f817d36a2b146d045d97",
+    "textSha256": "8637a843b78b0737be4beba6b1283edf64f922d8dcd451f66c49c06960e7aa5c",
+    "changeKey": "7a56d8720b46291c1c117778fa153b1e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c9a76ee0bacf213beaf3",
+    "workId": "c9a76ee0bacf213beaf3",
+    "driveFileId": "1TuCeCEHPYyyoA1mE42DTYSOAClTyxS08",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:33:36.948415+00:00",
+    "updatedAt": "2026-09-24T06:33:36.948431+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:33:36.948508+00:00"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "익명의 섬",
+    "author": "이문열",
+    "genre": "단편소설",
+    "tags": [
+      "익명성",
+      "시골학교",
+      "군중심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간의 본성과 사회적 관계를 깊이 있게 다루는 소설가 이문열의 작품.",
+    "oneLineSummary": "폐쇄적인 시골 마을에 떠도는 정체 모를 사내 '깨철이'를 통해 인간 집단의 속성과 익명성을 조명한 소설.",
+    "overallSummary": "모든 것이 혈연으로 얽힌 폐쇄적인 산골 마을에서 아무 일도 하지 않으면서도 묵인되는 반편이 '깨철이'의 존재를 통해, 인간 사회의 성적 억압과 감시, 그리고 익명성의 의미를 되짚어본다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "익명의 섬",
+        "summary": "도시의 익명성과 대조되는 산골 마을의 독특한 질서와 '깨철이'에 대한 기억을 회고한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "폐쇄적 공동체와 인간의 본능적 욕망의 충돌"
+      }
+    ],
+    "keyEntitiesText": "깨철이, 화천이, 여선생(나)",
+    "settingText": "첩첩산중의 오지 시골 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Kr-YjxL_ilsAzUjCJRPUDClNpStcDrLx",
+    "filename": "이문열-익명의 섬 (외) .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.058Z",
+    "size": "667874",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이문열-삼국지 등"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이문열-삼국지 등",
+    "webViewLink": "https://drive.google.com/file/d/1Kr-YjxL_ilsAzUjCJRPUDClNpStcDrLx/view?usp=drivesdk",
+    "sourceSha256": "3f91c370ae165027e73b4554f408dca7e18bba215e1b67c7a7ab6fb055df5725",
+    "textSha256": "028aeb7234f6bbce5ee9d9f7c116587e43bfb199198b1f9c1b9a92bdc7325abc",
+    "changeKey": "7fa74cbb367b2a9957731f06727e1c80",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9ea3a8c8965ad30b9f22",
+    "workId": "9ea3a8c8965ad30b9f22",
+    "driveFileId": "1Kr-YjxL_ilsAzUjCJRPUDClNpStcDrLx",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:32:19.340677+00:00",
+    "updatedAt": "2026-09-24T06:32:19.340692+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:32:19.340774+00:00"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "남자에 대한 한 보고서",
+    "author": "이성우",
+    "genre": "장편소설",
+    "tags": [
+      "성찰",
+      "고백록",
+      "남성심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1956년 서울 출생으로 신인상을 받으며 문단에 나와 신문사 기자 생활을 거쳐 창작에 몰두한 작가.",
+    "oneLineSummary": "가난한 인턴 시절의 유혹과 결혼, 그리고 은밀한 일탈과 갈등을 날것 그대로 고백하는 한 남자의 보고서.",
+    "overallSummary": "의사 인턴 시절 부유한 집안의 아내를 만나 결혼하며 신분 상승을 이루었으나, 그 이면에 숨겨진 욕망과 배신, 그리고 돌이킬 수 없는 사건들 속에서 방황하는 한 남자의 솔직하고 난감한 고백을 담았다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 혹은 고백록",
+        "summary": "돌이킬 수 없는 저질러진 일 앞에서 아내와 가족의 곁에서 난감해하며 사건의 전말을 고백하기 시작한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "기법",
+        "value": "1인칭 고백 시점을 통한 위선적 남성 심리의 적나라한 해부"
+      }
+    ],
+    "keyEntitiesText": "주인공(나), 아내(현애), 장모, 민혜수, 유태연 변호사",
+    "settingText": "서울, 병원, 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jV_TjzN7PPCtNFvwnlhaSKWZNhHZofx1",
+    "filename": "이성우-남자에 대한 한 보고서 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.270Z",
+    "size": "636383",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1jV_TjzN7PPCtNFvwnlhaSKWZNhHZofx1/view?usp=drivesdk",
+    "sourceSha256": "0cb40e19fdbb939b246142be7a3eb806c2988352d58514acf9f135eb3a0f4f87",
+    "textSha256": "fa7d84093a5ee8c992db9675f7e10a88b28d47097e369e6dcb74e5314ecf62e6",
+    "changeKey": "4a0a048c3b0df3c4f5f503fe58d04ab9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ff342b3bd349caf6ad8b",
+    "workId": "ff342b3bd349caf6ad8b",
+    "driveFileId": "1jV_TjzN7PPCtNFvwnlhaSKWZNhHZofx1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:34:41.060134+00:00",
+    "updatedAt": "2026-09-24T06:34:41.060148+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:34:41.060226+00:00"
+    }
+  }
+}

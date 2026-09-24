@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "시인과 도둑",
+    "author": "이문열",
+    "genre": "중단편소설",
+    "tags": [
+      "시인",
+      "도둑",
+      "이념"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 현대문학을 대표하는 작가 이문열의 중단편 소설.",
+    "oneLineSummary": "자연을 찾아 길을 떠난 시인이 화적패의 우두머리를 만나 이념과 시의 효용에 대해 대립하는 이야기.",
+    "overallSummary": "세상의 시비와 이념의 대립을 넘어 자연으로 향하던 시인이 구월산에서 무장한 큰 도둑(제세선생)을 만나, 예술과 혁명, 사회적 효용에 대한 깊은 대화를 나눈다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "본문",
+        "summary": "시인이 구월산을 지나다 화적패에게 붙잡혀 제세선생과 사상적 논쟁을 벌인다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 갈등",
+        "value": "예술의 순수성과 사회적 혁명성 간의 대립"
+      }
+    ],
+    "keyEntitiesText": "시인, 제세선생",
+    "settingText": "가을 단풍이 든 구월산과 산채"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pFqN0jyKzRQop1IBzOBCbuxa3XOMtDCV",
+    "filename": "이문열-시인과 도둑.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.015Z",
+    "size": "39268",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이문열-삼국지 등"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이문열-삼국지 등",
+    "webViewLink": "https://drive.google.com/file/d/1pFqN0jyKzRQop1IBzOBCbuxa3XOMtDCV/view?usp=drivesdk",
+    "sourceSha256": "27bbc5294c823dd34959e46d4c045f2eb886fa7fdd0ca90e80ae39dc5ecdcc5a",
+    "textSha256": "2205277975b2db3a081a37a58a975c231de4a733de7f00e7843d1e87b50b7d05",
+    "changeKey": "f2df8f9e344200ceffba7386d0b622dd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "79567a9386cfc6ef9115",
+    "workId": "79567a9386cfc6ef9115",
+    "driveFileId": "1pFqN0jyKzRQop1IBzOBCbuxa3XOMtDCV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:30:41.510724+00:00",
+    "updatedAt": "2026-09-24T06:30:41.510739+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:30:41.510818+00:00"
+    }
+  }
+}

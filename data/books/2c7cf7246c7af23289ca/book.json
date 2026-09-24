@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "압록강은 흐른다",
+    "author": "이미륵",
+    "genre": "자전소설",
+    "tags": [
+      "독일문학",
+      "유년기",
+      "평북 정주"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일제강점기 독일로 망명하여 독일어로 한국의 아름다운 유년 시절을 그려낸 작가 이미륵.",
+    "oneLineSummary": "평북 정주의 전통적인 가정에서 자란 저자의 유년 시절과 성장 과정을 담은 자전적 소설.",
+    "overallSummary": "사촌 형 수암과의 어린 시절 장난과 훈육, 한문 서당에서의 일화 등 한국의 전통적인 정취가 묻어나는 유년기의 기억을 따뜻하고 서정적인 시선으로 회고한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "수암",
+        "summary": "사촌 형 수암과의 어린 시절 유년기 추억과 공부에 얽힌 일화를 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 의의",
+        "value": "독일어권에 한국의 전통문화를 알린 대표적인 자전적 서사"
+      }
+    ],
+    "keyEntitiesText": "수암, 아버지, 어머니, 구월이, 이미륵(나)",
+    "settingText": "평안북도 정주 고향 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1oJTdEcSI5dX5KPUsD1OGMrVqfBKLssrF",
+    "filename": "이미륵-압록강은 흐른다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:55.093Z",
+    "size": "608129",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1oJTdEcSI5dX5KPUsD1OGMrVqfBKLssrF/view?usp=drivesdk",
+    "sourceSha256": "7883d5b506efeab1a3b9d68cdc30fddf942317bc3af353960a616c9addcbd295",
+    "textSha256": "5fe52c70a8a178049bf747d27d85c811f6debd3063a32f30609188ca9a234a6b",
+    "changeKey": "5b6f2d823071cee98a42810c149459dc",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2c7cf7246c7af23289ca",
+    "workId": "2c7cf7246c7af23289ca",
+    "driveFileId": "1oJTdEcSI5dX5KPUsD1OGMrVqfBKLssrF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:33:00.222878+00:00",
+    "updatedAt": "2026-09-24T06:33:00.222893+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:33:00.222970+00:00"
+    }
+  }
+}

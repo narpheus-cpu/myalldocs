@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "삼국지 10 오장원에 지는 별",
+    "author": "나관중 지음 / 이문열 평역",
+    "genre": "역사소설",
+    "tags": [
+      "삼국지",
+      "이문열",
+      "중국고전"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "중국 명나라 시절의 소설가 나관중의 원작을 한국의 중견작가 이문열이 평역한 작품이다.",
+    "oneLineSummary": "제갈량이 위나라를 상대로 마지막 북벌을 감행하며 오장원에서 생을 마감하는 과정을 그린 삼국지 10권.",
+    "overallSummary": "제갈공명이 위나라의 진창을 공격하고 왕쌍과 맞서는 등 거듭되는 북벌 작전을 펼치지만, 결국 건강이 악화되어 오장원에서 장렬한 죽음을 맞이하는 과정을 담고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "왕쌍을 베어 진창의 한은 씻었으나",
+        "summary": "제갈량이 진창성을 공격하나 학소의 철저한 방어로 고전하고, 위나라의 구원병인 왕쌍과 전투를 벌인다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "시대적 배경",
+        "value": "삼국시대 말기 촉한과 조위의 대립 시기"
+      }
+    ],
+    "keyEntitiesText": "제갈량, 학소, 왕쌍, 조진, 강유, 비요",
+    "settingText": "중국 삼국시대, 진창성과 오장원 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NKaS6C_G53fApUwyLl9aN0CI7Vf9nxdD",
+    "filename": "이문열-삼국지 10 오장원에 지는 별.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:54.889Z",
+    "size": "598429",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이문열-삼국지 등",
+      "이문열-삼국지"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이문열-삼국지 등/이문열-삼국지",
+    "webViewLink": "https://drive.google.com/file/d/1NKaS6C_G53fApUwyLl9aN0CI7Vf9nxdD/view?usp=drivesdk",
+    "sourceSha256": "e8bc47e67941f0e865c9e709865b1afb5935cc29ca735c19baa81c3f9e5aead8",
+    "textSha256": "5230a6dec315c90c67f2f9daaea5f2f107e5a4735b5bdea53bb8a89f4e44601e",
+    "changeKey": "a5dc2acb6e6c23e69cb3bce7178960c7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "43f7ebc66b1113150447",
+    "workId": "43f7ebc66b1113150447",
+    "driveFileId": "1NKaS6C_G53fApUwyLl9aN0CI7Vf9nxdD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:29:23.537706+00:00",
+    "updatedAt": "2026-09-24T06:29:23.537719+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:29:23.537794+00:00"
+    }
+  }
+}
