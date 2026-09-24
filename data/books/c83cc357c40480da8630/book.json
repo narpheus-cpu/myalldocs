@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "벽오금학도",
+    "author": "이외수",
+    "genre": "현대소설 / 환상소설",
+    "tags": [
+      "이외수",
+      "벽오금학도",
+      "오학동",
+      "선계"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이외수는 동양적 도가 사상과 환상적 세계관을 바탕으로 미학적 장편소설을 쓴 작가이다.",
+    "oneLineSummary": "백발동안의 대학생이 탑골공원에서 거렁뱅이 노파를 만나 선계 마을 '오학동'과 그림 속에 관한 신비한 이야기를 나누는 소설.",
+    "overallSummary": "백발동안의 대학생은 금빛 비단통에 든 그림을 메고 휴교령이 내려진 현실을 뒤로한 채 탑골공원 팔각정을 사수한다. 그곳에서 200살이 넘었다는 거렁뱅이 노파를 만나 자신이 아홉 살 때 다녀온 신비의 마을 '오학동'과 모든 사물과 합일되는 '편재'의 미학, 그림 속을 드나드는 비밀에 대해 이야기한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "가을 탑골공원 팔각정에 앉아 있는 백발동안의 대학생과 최루탄 연기 속에 휩싸인 공원 풍경."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "대학생이 거렁뱅이 노파를 만나 시계를 주고 자신이 경험한 선계 마을 '오학동'과 편재의 개념, 농월당 전설을 들려준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "환상적 모티프",
+        "value": "선계 오학동, 만물과의 합일(편재), 그림 속 드나들기"
+      }
+    ],
+    "keyEntitiesText": "백발동안 대학생, 거렁뱅이 노파, 농월당선생",
+    "settingText": "가을 탑골공원 팔각정, 원각사지십층석탑, 무영강 도로무기소, 농월당"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_RSyceBSaCyXK2qSaDOPo6vdxtswIacA",
+    "filename": "이외수-벽오금학도.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.439Z",
+    "size": "422408",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이외수"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이외수",
+    "webViewLink": "https://drive.google.com/file/d/1_RSyceBSaCyXK2qSaDOPo6vdxtswIacA/view?usp=drivesdk",
+    "sourceSha256": "c98d5a5cba342a596adeea9ad1562d1ef4b04615f3f97152f0969caae2f1d0e3",
+    "textSha256": "f25d3947fd6252d90ad45f28e102f2439e9f1b9d2ae07bb227357f8d42b24f7d",
+    "changeKey": "fe7955dd50e758974f6758be63e6b77c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c83cc357c40480da8630",
+    "workId": "c83cc357c40480da8630",
+    "driveFileId": "1_RSyceBSaCyXK2qSaDOPo6vdxtswIacA",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:01:37.372213+00:00",
+    "updatedAt": "2026-09-24T07:01:37.372230+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:01:37.372330+00:00"
+    }
+  }
+}

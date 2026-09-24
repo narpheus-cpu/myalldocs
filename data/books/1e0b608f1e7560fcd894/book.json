@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "봄이 왔다",
+    "author": "이영도",
+    "genre": "현대소설 / SF소설",
+    "tags": [
+      "이영도",
+      "봄씨",
+      "단편소설",
+      "한국소설"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "fantasy",
+        "humor"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이영도는 독창적인 세계관과 위트 있는 문체로 한국 판타지 소설을 대표하는 작가이다.",
+    "oneLineSummary": "체불 임금과 미래에 대해 고민하던 주혁이 인터넷으로 주문한 '봄씨'를 야적장에 심으러 가면서 벌어지는 이야기.",
+    "overallSummary": "주인공과 친구 팽주혁은 공단 근처 허름한 실비집에서 술을 마시며 이야기를 나눈다. 6개월째 임금이 체불된 공장 엔지니어 주혁은 인터넷 사은 행사를 통해 택배로 받은 '봄씨'와 약 설명서를 보여주며 봄을 심으러 가자고 제안한다. 두 사람은 불황과 겨울만 반복되는 현실 속에서 새로운 시작으로서의 '봄'을 갈망하며 공장 원료 야적장으로 향한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 택배가 왔습니다.",
+        "summary": "실비집에서 친구 주혁이 택배로 받은 '봄씨' 상자와 약 설명서를 보여주며, 진짜 봄이 사라진 시대에 대한 이야기를 나눈다."
+      },
+      {
+        "sectionTitle": "2. 봄을 심었습니다.",
+        "summary": "주혁의 임금 체불 문제와 부모 세대의 탯줄, 새로운 시작으로서의 '봄'의 의미를 나누며 공장 원료 야적장으로 봄씨를 심으러 이동한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 상징",
+        "value": "봄씨(계절의 변화와 현실적 고난 극복 및 새로운 시작을 의미)"
+      }
+    ],
+    "keyEntitiesText": "나(주인공), 팽주혁, (유)봄 한국계절산업진흥단지",
+    "settingText": "공단 근처 허름한 실비집 및 공장 원료 야적장, 밤"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sMCCx1wezLehH07MWDH1KJmJG20XgaoB",
+    "filename": "이영도-봄이 왔다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.136Z",
+    "size": "29378",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1sMCCx1wezLehH07MWDH1KJmJG20XgaoB/view?usp=drivesdk",
+    "sourceSha256": "9e0213e28a2d47246e13965a77ec93d2e6be9f6e62466c510989836c1645fea5",
+    "textSha256": "d9f8278bbd8e01308479506c586b4f6d6082ab5dfc1326c16bf099a142f85b0c",
+    "changeKey": "be553c7600220d73510e772500e38ace",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1e0b608f1e7560fcd894",
+    "workId": "1e0b608f1e7560fcd894",
+    "driveFileId": "1sMCCx1wezLehH07MWDH1KJmJG20XgaoB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:59:25.660539+00:00",
+    "updatedAt": "2026-09-24T06:59:25.660557+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:59:25.660653+00:00"
+    }
+  }
+}

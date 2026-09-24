@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "내 잠 속에 비 내리는데",
+    "author": "이외수",
+    "genre": "에세이 / 수필",
+    "tags": [
+      "이외수",
+      "내잠속에비내리는데",
+      "산문집",
+      "자전적에세이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "autobiography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이외수는 춘천에서의 혹독한 습작기를 거쳐 등단한 뒤 독보적인 예술가적 수필과 소설을 집필했다.",
+    "oneLineSummary": "춘천 시절 극심한 가난과 굶주림 속에서도 문학을 향한 집념을 버리지 않았던 청년 이외수의 자전적 기록.",
+    "overallSummary": "대학 중퇴 후 춘천에서 20원으로 겨우 허기를 때우고, 벽돌공장이나 냉방에서 밤을 새우며 소설을 썼던 혹독한 시절을 회상한다. 고향 함양에 대한 그리움과 젊은 날 함께 고생했던 문우들에 대한 애정, 문학에 대한 숭고한 집념을 진솔하게 적었다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인생의 빚",
+        "summary": "춘천에서 굶주림과 극심한 생활고를 견디며 소설 습작에 매달렸던 젊은 날의 가난과 치열했던 글쓰기 회고."
+      },
+      {
+        "sectionTitle": "내 고향 내 친구들",
+        "summary": "경남 함양 수동면 상백리 고향 마을과 그리운 옛 친구들에 대한 추억과 회상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "자전적 의미",
+        "value": "작가 이외수의 극심했던 가난과 습작 시절의 실화 기록"
+      }
+    ],
+    "keyEntitiesText": "이외수, 이흥모(시인), 아버님, 문우들",
+    "settingText": "춘천, 공지천, 벽돌공장, 경남 함양 수동면"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TxK5b2jMwH1auJ90qm1FrqiU96NtwxZ1",
+    "filename": "이외수-내 잠속에 비내리는데.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.422Z",
+    "size": "311544",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이외수"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이외수",
+    "webViewLink": "https://drive.google.com/file/d/1TxK5b2jMwH1auJ90qm1FrqiU96NtwxZ1/view?usp=drivesdk",
+    "sourceSha256": "bab1e74ea2bd34ae221af20ba16bd3ede281164ffab907438da202def9787941",
+    "textSha256": "36643d126a6ad021d01d85d80425e635ffc96925ecfed33e5001eb70a7b6b6bc",
+    "changeKey": "b57fb15a70b52d6b4d4c2c0aafac74e3",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "39b8f6cdc33a0c3d6a8c",
+    "workId": "39b8f6cdc33a0c3d6a8c",
+    "driveFileId": "1TxK5b2jMwH1auJ90qm1FrqiU96NtwxZ1",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:01:30.238268+00:00",
+    "updatedAt": "2026-09-24T07:01:30.238285+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:01:30.238381+00:00"
+    }
+  }
+}

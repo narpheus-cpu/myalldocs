@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "훈장",
+    "author": "이외수",
+    "genre": "현대소설 / 단편소설",
+    "tags": [
+      "이외수",
+      "훈장",
+      "세대신인문학상",
+      "등단작"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "family_drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이외수는 1975년 중편소설 《훈장》으로 《세대》 신인문학상을 받으며 등단하였다.",
+    "oneLineSummary": "6·25 참전 훈장을 유일한 자랑으로 아는 외팔이 노름꾼 아버지 밑에서 성장한 원일의 유년 시절 회상.",
+    "overallSummary": "원일의 아버지는 외팔이 상의군인이자 폭력적인 노름꾼으로 '미친개'라 불린다. 아버지는 훈장을 자랑하며 박치기와 화투 속임수를 일삼고, 원일에게 뱀을 잡게 하거나 검사가 되라고 강요한다. 계모와 의붓동생 인영이 들어온 후 교회 신앙 강요와 아동 학대 수준의 폭력 속에서 원일이 겪은 비극적이고 씁쓸한 성장 기록.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "훈장 본문",
+        "summary": "외팔이 아버지의 훈장 자랑과 박치기, 노름판 속임수, 계모 입동 후 교회의 강요와 매질 속에서 자란 원일의 회상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 의의",
+        "value": "1975년 작가 이외수의 문단 등단작"
+      }
+    ],
+    "keyEntitiesText": "원일(나), 아버지(임성수), 계모, 인영(계집애)",
+    "settingText": "원일의 집, 엄마 무덤, 교회, 노름판"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1IuCxxPtTyJVp1w4b9xkE7nBYRXYosAM4",
+    "filename": "이외수-훈장.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.522Z",
+    "size": "90894",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이외수"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이외수",
+    "webViewLink": "https://drive.google.com/file/d/1IuCxxPtTyJVp1w4b9xkE7nBYRXYosAM4/view?usp=drivesdk",
+    "sourceSha256": "1a7856ed7a84a6c64daa69407fc0560cae2a32b721b147d7402b1751c33c9dc1",
+    "textSha256": "abcc9b1aaec01bcf2668f2cb17a234b8709584326296dc714ae085463aa78988",
+    "changeKey": "ae388d89b164d693e8e6d78a340ac84a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "356112f8e946b4b3379d",
+    "workId": "356112f8e946b4b3379d",
+    "driveFileId": "1IuCxxPtTyJVp1w4b9xkE7nBYRXYosAM4",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:01:45.152942+00:00",
+    "updatedAt": "2026-09-24T07:01:45.152960+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:01:45.153055+00:00"
+    }
+  }
+}

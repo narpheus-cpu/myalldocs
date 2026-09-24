@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "감성사전",
+    "author": "이외수",
+    "genre": "에세이 / 수필",
+    "tags": [
+      "이외수",
+      "감성사전",
+      "에세이",
+      "단어풀이"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이외수는 경남 함양 출생으로 소설, 시, 에세이 등 다양한 장르에서 특유의 감성과 재치로 많은 독자의 사랑을 받은 작가이다.",
+    "oneLineSummary": "일상의 어휘 200여 개를 작가 특유의 재치 있는 풍자와 감성적 시각으로 풀어낸 산문집.",
+    "overallSummary": "원고지, 겨울, 방랑, 바람, 아침, 천재, 걸레, 문, 시계, 자물쇠 등 일상에서 흔히 접하는 단어와 사물에 대해 기존 사전적 정의를 벗어나 철학적이고 유머러스한 해석을 제공한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "감성사전 본문",
+        "summary": "겨울, 아침, 조간신문, 가짜, 천재, 고문, 문, 자물쇠 등 단어 하나하나에 대한 풍자적이고 시적인 작가의 독창적 정의."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식적 특징",
+        "value": "표제어별 감성 에세이 및 풍자적 재정의"
+      }
+    ],
+    "keyEntitiesText": "이외수",
+    "settingText": "작가의 주관적 사색과 현대 사회의 일상 어휘"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EqtewHfE-SIFqr8GyT625-MkcGRPisfO",
+    "filename": "이외수-감성사전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.299Z",
+    "size": "86170",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1EqtewHfE-SIFqr8GyT625-MkcGRPisfO/view?usp=drivesdk",
+    "sourceSha256": "6f66b4b78e1004df8928281927cf6d8aeb980c90dbb29bb7cec964c7740a3ab0",
+    "textSha256": "2efabc0077ebc215ad87803b538827303cbe59f616626625b03fb95f2f74717b",
+    "changeKey": "4a82acf4d3755ca25743afde6694fa5c",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "47c50d4433e0730939a4",
+    "workId": "47c50d4433e0730939a4",
+    "driveFileId": "1EqtewHfE-SIFqr8GyT625-MkcGRPisfO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:00:46.218278+00:00",
+    "updatedAt": "2026-09-24T07:00:46.218295+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:00:46.218390+00:00"
+    }
+  }
+}

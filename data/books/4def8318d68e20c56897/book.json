@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "겨울나기",
+    "author": "이외수",
+    "genre": "현대소설 / 단편소설",
+    "tags": [
+      "이외수",
+      "겨울나기",
+      "단편소설",
+      "방황",
+      "고독"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "existential_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이외수는 1980년대 청춘의 고독과 방황, 생의 허무를 묵직하게 그려낸 소설가이다.",
+    "oneLineSummary": "눈 내리는 겨울 밤, 실체 없는 노란 옷의 여인을 찾아 정처 없이 헤매는 주인공의 절망과 고독.",
+    "overallSummary": "주인공은 허무와 자살 충동 속에서 노란 옷을 입은 여인을 찾아 도립 의료원, 밤거리, 다방, 역 대합실을 방황한다. 냉방뿐인 하숙집과 자살에 대한 궁리, 타인들과의 소통 불능 속에서 혹독한 겨울을 버텨내고자 헤매는 청춘의 비극을 담았다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "겨울나기 본문",
+        "summary": "주인공이 병원에서 노란 옷의 여인을 찾다 실패하고 눈 내리는 밤 다방과 역 대합실에서 외로움과 환멸을 겪으며 방황한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 정서",
+        "value": "실존적 고독, 현대 도시인의 소외와 방황"
+      }
+    ],
+    "keyEntitiesText": "나(주인공), 간호원들, 다방의 남자, 역 대합실의 자주색 코트 여자",
+    "settingText": "겨울, 눈 내리는 도시의 도립 의료원, 다방, 역 대합실, 만덕동 하숙집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13QFEG2gzkaKs_fT1_glZiXd7h4zy_D58",
+    "filename": "이외수-겨울나기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.360Z",
+    "size": "80291",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이외수"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이외수",
+    "webViewLink": "https://drive.google.com/file/d/13QFEG2gzkaKs_fT1_glZiXd7h4zy_D58/view?usp=drivesdk",
+    "sourceSha256": "2966edb7953893d18e078b1b5df056c594574ccad557f87aa3baefce40c8e9ce",
+    "textSha256": "c95416521b8ed293d1aeae27e6402dd137eb38321225f1da8e068efc4d9082e7",
+    "changeKey": "b11d3c2b26bee206adfb56f361559bee",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4def8318d68e20c56897",
+    "workId": "4def8318d68e20c56897",
+    "driveFileId": "13QFEG2gzkaKs_fT1_glZiXd7h4zy_D58",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:01:14.987111+00:00",
+    "updatedAt": "2026-09-24T07:01:14.987128+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:01:14.987224+00:00"
+    }
+  }
+}

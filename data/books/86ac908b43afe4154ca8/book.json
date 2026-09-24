@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "황금비늘",
+    "author": "이외수",
+    "genre": "현대소설",
+    "tags": [
+      "이외수",
+      "황금비늘",
+      "성장소설",
+      "김동명"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "coming_of_age"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이외수는 고독과 생의 미학, 구원을 탐구하며 다수의 시와 소설을 집필한 작가이다.",
+    "oneLineSummary": "자신만의 수리법을 가진 고아 김동명이 영아원과 보육원에서 겪는 불우한 성장 과정.",
+    "overallSummary": "영아원 출신 김동명은 자신만의 셈법을 가졌으나 어른들에게 이해받지 못하고 마지막 양부모 입양 면담마저 거절당한다. 창생보육원으로 이적한 뒤 규칙적인 신앙 생활과 양계 일, 학교에서의 '김땅콩'이라는 놀림과 괴롭힘을 겪는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 수리법",
+        "summary": "어른들의 수리법과 전혀 다른 자신만의 독특한 셈법을 쓰는 김동명의 어린 시절."
+      },
+      {
+        "sectionTitle": "2. 마지막 면담자들",
+        "summary": "영아원에서 입양을 희망하지만 작은 체구와 셈법 문제 등으로 입양이 결렬된다."
+      },
+      {
+        "sectionTitle": "3. 보육원 일지",
+        "summary": "창생보육원에서의 일과와 학교에서의 괴롭힘, 담임선생님의 지도 등 수난사를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "세상의 규범과 불화하는 소외된 아이의 유년기"
+      }
+    ],
+    "keyEntitiesText": "김동명, 원장, 면담자 부부, 담임선생님, 강인탁",
+    "settingText": "영아원, 창생보육원, 초등학교"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1QtemTyE_3VYIfXAMjWHcqyKpIowTLY_x",
+    "filename": "이외수-황금비늘.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.500Z",
+    "size": "634011",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이외수"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이외수",
+    "webViewLink": "https://drive.google.com/file/d/1QtemTyE_3VYIfXAMjWHcqyKpIowTLY_x/view?usp=drivesdk",
+    "sourceSha256": "f5f13bca1520103445eabed818ab69b2a37dee09571b6d60ea4324daf536a35b",
+    "textSha256": "ef92b8c2b816c8bcaa758c4b763540a1e624a1de0dc8d98446f24afcd263dd9a",
+    "changeKey": "fb2e2494ea20f8356701f57e27c73d51",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "86ac908b43afe4154ca8",
+    "workId": "86ac908b43afe4154ca8",
+    "driveFileId": "1QtemTyE_3VYIfXAMjWHcqyKpIowTLY_x",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:01:00.463591+00:00",
+    "updatedAt": "2026-09-24T07:01:00.463608+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:01:00.463709+00:00"
+    }
+  }
+}

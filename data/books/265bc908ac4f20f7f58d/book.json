@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "과학원 아이들",
+    "author": "이영섭",
+    "genre": "현대소설 / 성장소설",
+    "tags": [
+      "KAIST",
+      "과학원",
+      "이영섭",
+      "대학원생"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "campus_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이영섭은 KAIST 산업공학과 출신으로 컨설팅 회사 근무 및 경영정책학과 박사과정을 거쳤다.",
+    "oneLineSummary": "KAIST(한국과학기술원) 대학원생들의 살인적인 학업 중압감, 연구실 고뇌, 이별의 아픔과 청춘을 다룬 소설.",
+    "overallSummary": "과학원 석사 1년차 이윤재는 서영에게 완벽주의자라는 이유로 이별 통보를 받고 괴로워한다. 도서관 자리 추첨에서 일명 '깡통 건물' 5층에 배정되는 악재 속에서도 과제물 폭탄, 퀴즈, 연구실(LAB) 선택의 스트레스를 겪는다. 체육대회를 앞두고 박경태 등 과 동기들과 어울리며 대학원생들의 인간적인 희노애락을 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 잃어버린 아침",
+        "summary": "숙취 속에서 깬 윤재가 도서관 배정 결과를 확인하고 서영과의 이별 상처, 과제물과 퀴즈에 시달리는 과학원 생활을 조명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "배경 및 소재",
+        "value": "KAIST 대학원 생들의 살인적인 과제, 도서관 자리 추첨, 랩(LAB) 문화"
+      }
+    ],
+    "keyEntitiesText": "이윤재(나), 박경태, 서영, 희종형, 동하, 조철우",
+    "settingText": "1980~90년대 한국과학기술원(KAIST) 기숙사, 도서관 깡통건물, 휴게실, 식당"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1crCdfIVZ0RtD_IxfcL5wxFYsgUyCEPmf",
+    "filename": "이영섭-과학원 아이들 .txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.171Z",
+    "size": "764031",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1crCdfIVZ0RtD_IxfcL5wxFYsgUyCEPmf/view?usp=drivesdk",
+    "sourceSha256": "18248f628ea47020cc796553d148b6725f407a4b382692d9bd2f893310886d4a",
+    "textSha256": "fcc5ca701e3508082c4f4b1cb08446b44a5845430d2c585e56c9f31c19de5d96",
+    "changeKey": "57ec258aa28a6797aea014b7ce666101",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "265bc908ac4f20f7f58d",
+    "workId": "265bc908ac4f20f7f58d",
+    "driveFileId": "1crCdfIVZ0RtD_IxfcL5wxFYsgUyCEPmf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T06:59:39.035167+00:00",
+    "updatedAt": "2026-09-24T06:59:39.035184+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T06:59:39.035284+00:00"
+    }
+  }
+}

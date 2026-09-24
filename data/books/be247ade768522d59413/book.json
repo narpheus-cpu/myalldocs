@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "흐린 세상 건너기",
+    "author": "이외수",
+    "genre": "에세이 / 수필",
+    "tags": [
+      "이외수",
+      "흐린세상건너기",
+      "명언집",
+      "지혜"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "philosophy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이외수는 감성적인 시, 소설, 산문집을 통해 대중과 깊이 소통해온 작가이다.",
+    "oneLineSummary": "사랑, 청춘, 연애, 행복, 친구 등에 관한 동서양 명언과 에피소드에 작가의 시와 노트를 더한 에세이집.",
+    "overallSummary": "흐린 세상을 살아가는 데 필요한 인생의 지혜를 전하고자 동서양 철학자 및 문학가들(톨스토이, 지드, 카뮈, 쇼펜하우어 등)의 명언, 관련 에피소드, 그리고 이외수 작가의 신작 시와 사색 노트를 엮은 산문집.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 내 인생은 갈망으로 시작됐다",
+        "summary": "가로수의 일기 시와 함께 사랑, 청춘, 연애, 결혼, 가정, 행복, 친구에 관한 명언과 에피소드를 모음."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "책의 형식",
+        "value": "동서양 명언과 에피소드, 작가 노트의 옴니버스 구성"
+      }
+    ],
+    "keyEntitiesText": "이외수, 톨스토이, 카뮈, 지드, 쇼펜하우어 등",
+    "settingText": "인생과 철학, 삶의 가치관 영역"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1epgAx9SF0fVdg79VBeoJP2Xmf-3tTDNZ",
+    "filename": "이외수-흐린 세상 건너기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.533Z",
+    "size": "362976",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이외수"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이외수",
+    "webViewLink": "https://drive.google.com/file/d/1epgAx9SF0fVdg79VBeoJP2Xmf-3tTDNZ/view?usp=drivesdk",
+    "sourceSha256": "0f00e8d3f0f36790e82613f566dd9ab1bb4eb0895ea77b7972978b9e9bb5a8ea",
+    "textSha256": "1f5a77b09d0c793aca5f8687e4560ba0a6f22ac961783bcc8ee711dfff1043a6",
+    "changeKey": "765f7c201b347bc2848f72e5289f5420",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "be247ade768522d59413",
+    "workId": "be247ade768522d59413",
+    "driveFileId": "1epgAx9SF0fVdg79VBeoJP2Xmf-3tTDNZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:01:52.035853+00:00",
+    "updatedAt": "2026-09-24T07:01:52.035870+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:01:52.035995+00:00"
+    }
+  }
+}

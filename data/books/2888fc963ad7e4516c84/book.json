@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개미귀신",
+    "author": "이외수",
+    "genre": "현대소설 / 단편소설",
+    "tags": [
+      "이외수",
+      "개미귀신",
+      "단편소설",
+      "명주잠자리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "symbolic_fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이외수는 등단 이후 한국 소설계에서 영혼과 미학, 소외된 존재를 특유의 문체로 묘사해온 소설가이다.",
+    "oneLineSummary": "말더듬이이자 절름발이 화가인 삼촌이 그림과 곤충 우화를 통해 구원의 날개를 꿈꾸다 자살하는 비극적 이야기.",
+    "overallSummary": "화자의 삼촌은 신체적 장애와 불우한 성장 배경을 가졌지만 예술적 재능으로 그림에 몰두한다. 어느 날 찾아온 염세적인 여인과 사랑에 빠지지만 여인에 대한 불안과 슬럼프 속에서 괴로워한다. 개미귀신이 우화하여 명주잠자리가 되는 것처럼 날개를 열망하던 삼촌은 결국 여인이 준 승홍 주사로 자살에 이른다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "개미귀신 본문",
+        "summary": "불우한 삼촌이 한 여인을 만나고 개미귀신이 명주잠자리로 우화하는 것에 비유해 날개를 꿈꾸다 결국 자살에 이르는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징적 의미",
+        "value": "개미귀신의 우화(명주잠자리)와 구원으로서의 날개"
+      }
+    ],
+    "keyEntitiesText": "삼촌, 나(조카), 화실을 찾아온 여인",
+    "settingText": "사석동 변두리 개인 화실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "140wAUeVVphwt3P4ga2-yT072YUhoRoLE",
+    "filename": "이외수-개미귀신.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:56.348Z",
+    "size": "43612",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "이외수"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/이외수",
+    "webViewLink": "https://drive.google.com/file/d/140wAUeVVphwt3P4ga2-yT072YUhoRoLE/view?usp=drivesdk",
+    "sourceSha256": "917c03081928f39b094c1f69c1a224ea657e1fef636b4bba4585042828a13b13",
+    "textSha256": "42499a55246841d171ae84b471bf5343f0ca28ab127dd3cfdcc02fe03998500f",
+    "changeKey": "66eb133a58f4028bd82de259132b946e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2888fc963ad7e4516c84",
+    "workId": "2888fc963ad7e4516c84",
+    "driveFileId": "140wAUeVVphwt3P4ga2-yT072YUhoRoLE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T07:01:07.624014+00:00",
+    "updatedAt": "2026-09-24T07:01:07.624030+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T07:01:07.624129+00:00"
+    }
+  }
+}
