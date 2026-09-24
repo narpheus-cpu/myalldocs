@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "멋진 신세계",
+    "author": "올더스 헉슬리",
+    "genre": "소설",
+    "tags": [
+      "영국문학",
+      "디스토피아",
+      "SF소설",
+      "통제사회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 소설가이자 비평가로, 과학 기술의 남용이 가져올 미래의 디스토피아를 예견한 '멋진 신세계'를 통해 문명 비판적 메시지를 던졌습니다.",
+    "oneLineSummary": "유전자 조작과 세뇌, 마약 '소마'를 통해 고통 없이 인위적인 행복이 유지되는 미래 통제 사회의 비극.",
+    "overallSummary": "포드 기원 632년, 인류는 시험관에서 계급별(알파, 베타, 감마, 델타, 엡실론)로 맞춤 생산되고, 수면 학습과 세뇌를 통해 자신의 계급에 만족하도록 조절됩니다. 노화와 질병, 고통이 사라지고 마약 '소마'로 가짜 행복을 누리는 이 문명 사회에, 인디언 보호구역에서 자란 야만인 존(새비지)이 들어오면서 문명과 인간 존엄성 사이의 극심한 가치관 충돌이 발생하고 결국 존은 파멸에 이릅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "인공부화 및 조절국",
+        "summary": "런던 중앙 인공부화국에서 국장이 학생들에게 난자의 인공 수정과 계급별 맞춤형 인간 생산 과정을 설명합니다."
+      },
+      {
+        "sectionTitle": "보카노프스키 절차",
+        "summary": "하나의 난자에서 수십 개의 쌍둥이를 복제해내는 보카노프스키 절차를 통해 사회적 안정을 위한 표준화된 노동력을 대량 생산합니다."
+      },
+      {
+        "sectionTitle": "세뇌와 조건반사 교육",
+        "summary": "태어난 아기들에게 전기 충격과 수면 학습을 가하여 각자의 계급에 맞는 행동 양식과 가치관을 무의식적으로 주입합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심 경고",
+        "value": "과학 기술의 극대화가 인간의 자유의지와 영혼을 말살하고 노예적 삶을 행복으로 착각하게 만드는 디스토피아적 경고"
+      }
+    ],
+    "keyEntitiesText": "인공부화국장(런던 부화국의 책임자), 존(새비지, 야만인 주인공), 포드(문명 사회의 신적 존재)",
+    "settingText": "포드 기원 632년(미래), 고도로 과학화된 통제 사회인 세계국가의 수도 런던"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10GSowUns5fGS9-WfH6yLzkXuIBVR4uqr",
+    "filename": "올더스 헉슬리-멋진 신세계.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.039Z",
+    "size": "585703",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/10GSowUns5fGS9-WfH6yLzkXuIBVR4uqr/view?usp=drivesdk",
+    "sourceSha256": "7fd7790958e6a6342c6e7a871096104db390d3ad207bea31b9d02eb6e6c84293",
+    "textSha256": "8bb904898a480adaef1e6e80da8ddc8913f6508a2105358b99196259342039d8",
+    "changeKey": "fce95a34e1a47f731b8160fe8b7ad405",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "849dc338970fd9482741",
+    "workId": "849dc338970fd9482741",
+    "driveFileId": "10GSowUns5fGS9-WfH6yLzkXuIBVR4uqr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:05:12.320689+00:00",
+    "updatedAt": "2026-09-24T01:05:12.320706+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:05:12.320820+00:00"
+    }
+  }
+}

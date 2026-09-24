@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "고리오 영감",
+    "author": "오노레 드 발자크",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "사실주의",
+      "인간극",
+      "비극"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스 사실주의 문학의 거장으로, 19세기 프랑스 사회의 모든 계층을 총망라한 방대한 연작 소설 '인간극'을 집필했습니다.",
+    "oneLineSummary": "두 딸에게 모든 것을 바치고 버림받은 고리오 영감의 비극과 청년 라스티냐크의 출세욕을 그린 사실주의 걸작.",
+    "overallSummary": "1819년 파리의 음침한 보케르 하숙집을 배경으로, 제면업으로 모은 전 재산을 두 딸의 결혼 지참금으로 주고 정작 자신은 다락방에서 비참하게 늙어가는 고리오 영감의 맹목적인 부성애와, 사교계 진출을 꿈꾸며 파리 사회의 비정함과 타락을 목격하는 가난한 법대생 외젠 드 라스티냐크의 성장과 환멸을 그립니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "보케르 하숙집의 풍경",
+        "summary": "파리의 가장 음침한 구역에 위치한 보케르 하숙집의 구질구질한 외관과 그곳에 모여 사는 하숙인들의 비참한 몰골을 묘사합니다."
+      },
+      {
+        "sectionTitle": "하숙인들의 면면",
+        "summary": "미망인 쿠튀르 부인, 정체불명의 보트랭, 늙은 처녀 미쇼노, 그리고 제면업자 출신의 고리오 영감과 학생 라스티냐크가 소개됩니다."
+      },
+      {
+        "sectionTitle": "파리 사회의 축소판",
+        "summary": "하숙비 액수에 따라 대우가 달라지는 하숙집의 생리를 통해 자본주의적 이기주의가 지배하는 파리 사회의 단면을 보여줍니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "사회적 메시지",
+        "value": "돈이 지배하는 자본주의 사회에서 도덕과 가족적 유대가 어떻게 파괴되는지 폭로함"
+      }
+    ],
+    "keyEntitiesText": "고리오 영감(전직 제면업자), 외젠 드 라스티냐크(가난한 법대생), 보케르 부인(하숙집 여주인), 보트랭(탈옥수이자 음모가)",
+    "settingText": "1819년 프랑스 파리의 라탱 구와 포부르 생마르소 사이, 뇌브생트주느비에브 가의 보케르 하숙집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-FLGtVdoLuql2_i5VNacUVeYhaVITqne",
+    "filename": "오노레 드 발자크-고리오 영감(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:17:02.000Z",
+    "size": "775739",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1-FLGtVdoLuql2_i5VNacUVeYhaVITqne/view?usp=drivesdk",
+    "sourceSha256": "738ddf81b3dead42157bbd4756dab9a7c5b2cbc02faf3bdce02ba4b99b086ab5",
+    "textSha256": "8a2d5b88d0f34076e1a11895ffdd9d9dd4a0ee386e2ec2adfe881c71fbb4ece2",
+    "changeKey": "ae8d5ceb91151993c17e82e0d8ee56e8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c7ae72d7f28372196b79",
+    "workId": "c7ae72d7f28372196b79",
+    "driveFileId": "1-FLGtVdoLuql2_i5VNacUVeYhaVITqne",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:04:19.981564+00:00",
+    "updatedAt": "2026-09-24T01:04:19.981580+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:04:19.981694+00:00"
+    }
+  }
+}

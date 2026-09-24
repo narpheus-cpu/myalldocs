@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "오 헨리 단편선",
+    "author": "오 헨리",
+    "genre": "소설",
+    "tags": [
+      "미국문학",
+      "단편소설",
+      "반전",
+      "휴머니즘"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "unknown"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "미국의 대표적인 단편 소설 작가로, 뉴욕 서민들의 삶을 따뜻한 유머와 극적인 반전으로 그려내어 큰 사랑을 받았습니다.",
+    "oneLineSummary": "가난한 연인들의 눈물겨운 사랑과 희생을 그린 '동방박사의 선물'을 비롯한 오 헨리의 대표 단편선.",
+    "overallSummary": "가난하지만 서로를 깊이 사랑하는 젊은 부부 짐과 델라가 크리스마스를 맞아 서로에게 줄 선물을 사기 위해 자신들의 가장 소중한 보물인 금시계와 머리카락을 각각 팔아 선물을 마련하지만, 결국 서로 쓸모없어진 선물을 주고받으며 진정한 사랑의 의미를 깨닫는 '동방박사의 선물' 등의 명작 단편들이 수록되어 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "동방박사의 선물",
+        "summary": "델라는 남편 짐의 시계 사슬을 사기 위해 머리카락을 팔고, 짐은 아내의 빗핀을 사기 위해 시계를 팔아 서로에게 헌신적인 선물을 합니다."
+      },
+      {
+        "sectionTitle": "카페의 세계시민",
+        "summary": "자신을 온 세계의 시민이라 자처하며 편견 없는 태도를 보이던 코글런이 결국 사소한 고향 자랑 때문에 싸움을 벌이는 아이러니를 그립니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예술적 특징",
+        "value": "따뜻한 인간애와 날카로운 아이러니, 그리고 마지막 순간의 극적인 반전"
+      }
+    ],
+    "keyEntitiesText": "델라(아내), 짐(남편), 마담 소프로니(모발 상인), 코글런(세계시민 자처자)",
+    "settingText": "20세기 초 미국 뉴욕의 가난한 아파트와 번화가 카페"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-oHbASeclnYIuDO8tm7zbMeYBmpwMJFz",
+    "filename": "오 헨리 단편선(현대문학 단편선)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:11:50.000Z",
+    "size": "1093283",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1-oHbASeclnYIuDO8tm7zbMeYBmpwMJFz/view?usp=drivesdk",
+    "sourceSha256": "b428eef71232762752a02ec4ed01e6383d62d09841a1b071c2c6dfeda2b0588a",
+    "textSha256": "7c9dc12324a94d11d4c78c90312a5f94e551a54870f3866caaab2d6cbd73872a",
+    "changeKey": "12569751bf01e26c411b9774d81ddc2b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c77caa1bc57079a1bcc3",
+    "workId": "c77caa1bc57079a1bcc3",
+    "driveFileId": "1-oHbASeclnYIuDO8tm7zbMeYBmpwMJFz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:03:48.368222+00:00",
+    "updatedAt": "2026-09-24T01:03:48.368238+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:03:48.368346+00:00"
+    }
+  }
+}

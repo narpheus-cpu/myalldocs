@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유림외사 상",
+    "author": "오경재",
+    "genre": "소설",
+    "tags": [
+      "중국문학",
+      "풍자소설",
+      "과거제도",
+      "위선"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "청나라의 소설가로, 과거 제도에 얽매여 타락하고 위선적인 지식인 사회를 날카롭게 풍자한 명작 '유림외사'를 집필했습니다.",
+    "oneLineSummary": "과거 시험과 명리에 눈이 먼 청나라 유생들의 위선적인 삶을 고결한 은사 왕면의 삶과 대비하여 풍자한 소설.",
+    "overallSummary": "원나라 말기, 가난한 환경 속에서도 스스로 학문과 그림을 익혀 명성을 얻은 왕면은 지현의 초청과 세속적 명리를 거절하고 자연 속에서 고결하게 살아갑니다. 이와 대비되게 청나라 시기 과거 시험에 집착하며 부귀와 권세만을 쫓는 유생들의 위선과 아전들의 횡포를 사실적으로 폭로합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "왕면의 소몰이 시절",
+        "summary": "가난한 과부의 아들 왕면은 이웃집 소를 치며 스스로 책을 사고 그림을 배워 몰골화의 대가가 됩니다."
+      },
+      {
+        "sectionTitle": "세속 유생들의 대화",
+        "summary": "호숫가에서 수재들이 모여 고관대작 위소 선생의 권세와 집값에 대해 세속적인 대화를 나누는 모습을 왕면이 목격합니다."
+      },
+      {
+        "sectionTitle": "지현의 초청 거절",
+        "summary": "왕면의 그림에 반한 지현이 아전 적씨를 보내 초청하지만, 왕면은 세속의 벼슬길을 거부하고 은거를 택합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "풍자 대상",
+        "value": "팔고문에 얽매여 인간성을 상실하고 명리만을 쫓는 유림 사회의 타락상"
+      }
+    ],
+    "keyEntitiesText": "왕면(고결한 화가이자 은사), 진씨(왕면을 아끼는 이웃), 적씨(현의 아전), 시인(제기현의 지현)",
+    "settingText": "원나라 말기 및 청나라 시기, 중국 제기현의 칠묘호 주변 시골 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1GS_M0KQOv6R3wPxvsN5ZewjGDC6x3ERN",
+    "filename": "오경재-유림외사-상(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:14:02.000Z",
+    "size": "1147554",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1GS_M0KQOv6R3wPxvsN5ZewjGDC6x3ERN/view?usp=drivesdk",
+    "sourceSha256": "294272747f652b434b08335c270ced56d7ccf683cb2788571faa8a1ab9735af4",
+    "textSha256": "07bb6a68b94f6c7bb39b1b04e3eee72ed952404e4fc92440c663f7facdda4b77",
+    "changeKey": "279c8b56d5c814167111028208b6c1d4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "35bbd7b29931786b84ef",
+    "workId": "35bbd7b29931786b84ef",
+    "driveFileId": "1GS_M0KQOv6R3wPxvsN5ZewjGDC6x3ERN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:03:55.534064+00:00",
+    "updatedAt": "2026-09-24T01:03:55.534081+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:03:55.534202+00:00"
+    }
+  }
+}

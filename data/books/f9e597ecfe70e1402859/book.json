@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "요시카와 에이지 삼국지",
+    "author": "요시카와 에이지",
+    "genre": "소설",
+    "tags": [
+      "일본문학",
+      "역사소설",
+      "삼국지",
+      "유비현덕"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 대중 역사 소설가로, 삼국지연의를 현대적이고 서정적인 필치로 재해석하여 동양권에서 가장 널리 읽히는 삼국지 평역을 남겼습니다.",
+    "oneLineSummary": "후한 말 황건적의 난이 몰아치는 혼란 속에서, 어머니를 향한 효심을 지키며 대망을 품는 청년 유비의 등장.",
+    "overallSummary": "후한 말 영제 시절, 십상시의 부패와 황건적의 난으로 천하가 도탄에 빠집니다. 탁현 누상촌에서 어머니와 함께 가난하게 살며 멍석을 짜던 청년 유비(유현덕)는 2년 동안 모은 돈으로 어머니가 좋아하는 귀한 차를 사기 위해 황하 강변에서 낙양선을 기다립니다. 차를 구하는 데 성공하지만 황건적의 습격을 받아 도망치던 중, 황건적의 대방 마원의에게 붙잡혀 짐꾼이 되는 위기를 맞이합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "황하 강변의 청년",
+        "summary": "스물여섯의 청년 유비는 황하 강변에 앉아 대지의 역사와 한족의 미래를 생각하며 도읍에서 오는 낙양선을 기다립니다."
+      },
+      {
+        "sectionTitle": "어머니를 위한 차",
+        "summary": "유비는 2년 동안 모은 전 재산과 검의 옥구슬을 주고 낙양 상인에게서 어머니에게 선물할 귀한 차를 구입합니다."
+      },
+      {
+        "sectionTitle": "황건적의 습격과 위기",
+        "summary": "강촌 마을이 황건적의 습격을 받아 불타자 유비는 도망치지만, 산속 공자묘에서 황건적의 대방 마원의 일당에게 붙잡혀 강제로 짐꾼이 됩니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 묘사",
+        "value": "단순한 영웅이 아닌, 가난 속에서도 효심이 깊고 인간미 넘치는 청년 유비의 모습을 서정적으로 그림"
+      }
+    ],
+    "keyEntitiesText": "유비(유현덕, 한실의 후예), 마원의(황건적의 대방), 감홍(마원의의 부하), 장각(황건적의 총대장)",
+    "settingText": "후한 말 건녕 원년(168년 무렵), 중국 황하 강변의 강촌 마을과 탁현 누상촌 주변 산길"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UKW4Cw7mVNVkFAYwYH8NuncZJVmTsu8D",
+    "filename": "요시카와 에이지 삼국지(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:46:38.000Z",
+    "size": "4662965",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1UKW4Cw7mVNVkFAYwYH8NuncZJVmTsu8D/view?usp=drivesdk",
+    "sourceSha256": "2ade2a1bf2445c875f768c489c4dc88cc37a709f1b1b7ba491c9e2267f6a8962",
+    "textSha256": "b05a8d2030cfba09926173e2e2d86af8f7f11d7d4a48798e58a1332930e69684",
+    "changeKey": "104e4526eff69706b0550f042b697213",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f9e597ecfe70e1402859",
+    "workId": "f9e597ecfe70e1402859",
+    "driveFileId": "1UKW4Cw7mVNVkFAYwYH8NuncZJVmTsu8D",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:05:20.419276+00:00",
+    "updatedAt": "2026-09-24T01:05:20.419292+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:05:20.419406+00:00"
+    }
+  }
+}

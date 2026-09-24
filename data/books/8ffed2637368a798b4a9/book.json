@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "개인적인 체험",
+    "author": "오에 겐자부로",
+    "genre": "소설",
+    "tags": [
+      "일본문학",
+      "노벨문학상",
+      "실존주의",
+      "장애아동"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "일본의 대표적인 지성이자 노벨문학상 수상 작가로, 개인적인 고통을 인류 보편의 실존적 문제와 평화주의로 승화시켰습니다.",
+    "oneLineSummary": "장애를 가지고 태어난 아들의 죽음을 방치하려던 '버드'가 고뇌와 도피 끝에 아버님으로서 책임을 받아들이는 실존적 여정.",
+    "overallSummary": "아프리카 여행을 꿈꾸며 현실에서 도피하고 싶어 하는 27세의 학원 강사 '버드'는 아내가 뇌 탈출증이라는 심각한 장애를 가진 아이를 출산하자 절망에 빠집니다. 아이의 죽음을 방조하려는 유혹과 알코올, 과거의 연인과의 도피 속에서 방황하던 버드는, 결국 자신의 비겁함을 깨닫고 도망치지 않고 아이를 살려 아버지로서의 책임을 다하기로 결심합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "아프리카 지도와 출산의 불안",
+        "summary": "버드는 서점에서 아프리카 지도를 사며 현실 도피를 꿈꾸지만, 동시에 병원에서 고통스럽게 출산 중인 아내를 떠올리며 불안해합니다."
+      },
+      {
+        "sectionTitle": "남창과의 조우와 방황",
+        "summary": "길거리에서 여장한 남창을 만나 기묘한 동질감을 느끼고, 자신의 내면적 불안과 알코올 중독의 기억을 떠올립니다."
+      },
+      {
+        "sectionTitle": "장모의 전화와 현실의 무게",
+        "summary": "오락실에서 전화를 걸어 아내가 아직 아이를 낳지 못했다는 소식을 듣고, 다가올 현실의 무게에 짓눌려 부질없음을 느낍니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "자전적 요소",
+        "value": "실제 지적 장애를 가진 아들을 얻은 작가 자신의 개인적인 체험을 바탕으로 한 실존적 구원의 서사"
+      }
+    ],
+    "keyEntitiesText": "버드(27세 학원 강사), 장모(버드의 장모), 남창(길에서 만난 여장 남자)",
+    "settingText": "초여름 6월의 어느 저녁, 일본 도쿄의 혼잡한 번화가와 오락실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BsA87dc5rQEpTprdgwtWJspzq1p3H3mF",
+    "filename": "오에 겐자부로-개인적인 체험(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:36:44.000Z",
+    "size": "532416",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1BsA87dc5rQEpTprdgwtWJspzq1p3H3mF/view?usp=drivesdk",
+    "sourceSha256": "6ded945ca7f17b808c5761a07bbe594e553c53c7562bb6874a193f028d8cc7e6",
+    "textSha256": "ba3cd8773b8e11bcd891446efaef08aad5c4137a0e92baf0246fc4a24a4fd488",
+    "changeKey": "2f10227e5b2ae9a3b141d95f5769eaa5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8ffed2637368a798b4a9",
+    "workId": "8ffed2637368a798b4a9",
+    "driveFileId": "1BsA87dc5rQEpTprdgwtWJspzq1p3H3mF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:04:58.695397+00:00",
+    "updatedAt": "2026-09-24T01:04:58.695411+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:04:58.695518+00:00"
+    }
+  }
+}

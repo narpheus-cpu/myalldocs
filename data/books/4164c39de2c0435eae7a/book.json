@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "변신이야기",
+    "author": "오비디우스",
+    "genre": "시",
+    "tags": [
+      "로마문학",
+      "그리스로마신화",
+      "서사시",
+      "천지창조"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": [
+        "academic"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고대 로마의 시인으로, 그리스·로마 신화 속 변신 모티브를 집대성한 서사시 '변신이야기'를 통해 서양 문학에 지대한 영향을 미쳤습니다.",
+    "oneLineSummary": "우주의 혼돈(카오스)에서 시작된 천지창조, 인류의 네 시대, 그리고 대홍수 속에서 살아남은 인간의 이야기.",
+    "overallSummary": "우주가 질서 없는 혼돈(카오스) 상태에서 신에 의해 하늘, 땅, 바다로 분리되고 인간이 창조되는 과정으로 시작합니다. 이후 인류는 황금, 은, 청동, 철의 시대를 거치며 타락해 가고, 분노한 유피테르(제우스)가 대홍수로 인류를 멸망시키지만, 의로운 데우칼리온과 퓌라 부부만이 살아남아 새로운 인류의 조상이 되는 신화적 변신 과정을 노래합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "천지창조",
+        "summary": "형상도 질서도 없던 카오스 상태에서 조물주 신이 요소들을 분리하고 정돈하여 우주와 지구, 그리고 인간을 창조합니다."
+      },
+      {
+        "sectionTitle": "인류의 네 시대",
+        "summary": "평화롭던 황금의 시대부터 은, 청동을 거쳐 전쟁과 탐욕이 지배하는 철의 시대에 이르기까지 인류의 타락 과정을 묘사합니다."
+      },
+      {
+        "sectionTitle": "대홍수와 생존자",
+        "summary": "유피테르가 폭우와 홍수로 인류를 쓸어버리지만, 파르나소스 산에 도달한 의로운 데우칼리온과 퓌라 부부만이 살아남습니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 가치",
+        "value": "서양 문학과 예술의 마르지 않는 원천이 된 그리스·로마 신화의 집대성"
+      }
+    ],
+    "keyEntitiesText": "유피테르(제우스, 신들의 왕), 프로메테우스(인간의 창조자), 데우칼리온(홍수의 생존자), 퓌라(데우칼리온의 아내)",
+    "settingText": "우주 개벽의 시기부터 고대 그리스·로마 신화 속의 대지와 천상"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1alQyNbNdOGRWFUQpV8NfqlMnWrXxTW_n",
+    "filename": "오비디우스-변신이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.978Z",
+    "size": "816418",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1alQyNbNdOGRWFUQpV8NfqlMnWrXxTW_n/view?usp=drivesdk",
+    "sourceSha256": "21cf0f28fb8988f7269770d07dafe7f790560c0ffe711ceac5da8720f08f1be9",
+    "textSha256": "b68b218dd9a969ffcfcd6aab67da09c4271dee20eae5941c915e54c398ab1664",
+    "changeKey": "494397b024a67ea0d1f2cfc5f88049a0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4164c39de2c0435eae7a",
+    "workId": "4164c39de2c0435eae7a",
+    "driveFileId": "1alQyNbNdOGRWFUQpV8NfqlMnWrXxTW_n",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:04:42.100501+00:00",
+    "updatedAt": "2026-09-24T01:04:42.100517+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:04:42.100630+00:00"
+    }
+  }
+}

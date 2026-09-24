@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "유림외사 하",
+    "author": "오경재",
+    "genre": "소설",
+    "tags": [
+      "중국문학",
+      "고전소설",
+      "사회풍자",
+      "지식인"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "과거 제도의 폐해와 유생들의 허위의식을 예리하게 해부하여 중국 풍자 문학의 최고봉으로 평가받는 작가입니다.",
+    "oneLineSummary": "포정새와 위천이 천장현의 호탕한 선비 두의를 찾아가며 벌어지는 유림들의 교류와 세태 풍자.",
+    "overallSummary": "극단을 다시 운영하고 싶어 하는 포정새는 남경의 두천에게서 천장현에 사는 재종동생 두의(두소경)를 소개받고 그를 찾아갑니다. 두의는 남들에게 베풀기를 좋아하고 명리를 멀리하는 호탕한 인물로, 위천, 장준민 등 다양한 인물들과 사서루에서 술을 마시며 예악과 인생을 논하고 세속적 관직을 거절하는 모습을 보여줍니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "두천의 조언",
+        "summary": "포정새는 극단 자금을 마련하기 위해 두천에게 도움을 청하고, 두천은 천장현의 호탕한 사촌 두의를 찾아가라고 조언합니다."
+      },
+      {
+        "sectionTitle": "천장현으로 가는 길",
+        "summary": "포정새는 길에서 우연히 두씨 집안과 친분이 깊은 오의진의 노인 위천을 만나 동행하게 됩니다."
+      },
+      {
+        "sectionTitle": "사서루의 연회",
+        "summary": "두의는 위천, 장준민, 포정새를 사서루로 모셔 정갈한 안주와 오래 묻어둔 술을 나누며 즐거운 시간을 보냅니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "인물 대비",
+        "value": "돈을 아끼지 않고 베푸는 두의의 호탕함과 세속적 아첨꾼들의 대비를 통한 풍자"
+      }
+    ],
+    "keyEntitiesText": "두의(두소경, 호탕한 선비), 포정새(극단 사부), 위천(오의진의 노인), 장준민(의원)",
+    "settingText": "청나라 시기, 중국 천장현의 장원부 사서루와 정원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pcaJylw39sKtmGclu0BDDfR0-zA2grxn",
+    "filename": "오경재-유림외사-하(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:15:46.000Z",
+    "size": "942655",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1pcaJylw39sKtmGclu0BDDfR0-zA2grxn/view?usp=drivesdk",
+    "sourceSha256": "cf759dbb6345911c824cc3172d07e8b37c8a3cd5ed757a3680ad4950bf2fe64f",
+    "textSha256": "ae8d8ed37111699341277d1ea43127790edfb7af4ae5f4811b6d7fb74d6e8d0d",
+    "changeKey": "7986fbee3f010694e8597d0a2c9feece",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "57aa1dd109c7d170a7be",
+    "workId": "57aa1dd109c7d170a7be",
+    "driveFileId": "1pcaJylw39sKtmGclu0BDDfR0-zA2grxn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:04:12.556236+00:00",
+    "updatedAt": "2026-09-24T01:04:12.556249+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:04:12.556343+00:00"
+    }
+  }
+}

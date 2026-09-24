@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "워더링 하이츠",
+    "author": "에밀리 브론테",
+    "genre": "소설",
+    "tags": [
+      "영국문학",
+      "고딕소설",
+      "복수와사랑",
+      "폭풍의언덕"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영국의 소설가이자 시인으로, 단 한 편의 소설 '워더링 하이츠'를 통해 세계 문학사에 불멸의 이름을 남겼습니다.",
+    "oneLineSummary": "새로운 세입자 록우드가 괴팍한 집주인 히스클리프가 사는 워더링 하이츠를 방문하여 겪는 기괴한 일들.",
+    "overallSummary": "스러시크로스 그레인지를 임대한 록우드는 이웃이자 집주인인 히스클리프를 만나기 위해 황량한 언덕 위의 저택 '워더링 하이츠'를 방문합니다. 그곳에서 히스클리프의 무뚝뚝하고 비사교적인 태도, 사나운 개들의 공격, 그리고 저택에 함께 사는 아름답지만 냉랭한 며느리와 거친 젊은이 헤어튼을 만나며 기묘한 긴장감을 느낍니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫 번째 방문",
+        "summary": "록우드는 집주인 히스클리프를 방문하여 그의 비사교적이고 무뚝뚝한 성격을 관찰하고 묘한 호기심을 느낍니다."
+      },
+      {
+        "sectionTitle": "두 번째 방문과 폭설",
+        "summary": "안개와 추위 속에서 다시 워더링 하이츠를 찾은 록우드는 갑작스러운 폭설로 저택에 갇히게 됩니다."
+      },
+      {
+        "sectionTitle": "기괴한 인물들과의 조우",
+        "summary": "저택 안에서 냉랭한 젊은 안주인과 거친 청년 헤어튼, 그리고 히스클리프의 야만적인 태도를 보며 가문의 복잡한 내력을 짐작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "분위기",
+        "value": "황량한 자연환경과 인물들의 거칠고 격정적인 감정이 어우러진 고딕적 분위기"
+      }
+    ],
+    "keyEntitiesText": "록우드(세입자이자 관찰자), 히스클리프(워더링 하이츠의 주인), 조지프(늙은 하인), 헤어튼 언쇼(거친 젊은이)",
+    "settingText": "1801년 겨울, 영국 요크셔의 황량한 언덕 위에 위치한 저택 '워더링 하이츠'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gzPZJLxGVyKIEs5auoaft-kovxhd5ROV",
+    "filename": "에밀리 브론테-워더링 하이츠(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:09:16.000Z",
+    "size": "941759",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1gzPZJLxGVyKIEs5auoaft-kovxhd5ROV/view?usp=drivesdk",
+    "sourceSha256": "2017a1750690c289482d61b0b3531f6e78137860db0fa28a90de46f78fe1112a",
+    "textSha256": "c94fdf72e2bedf8576319f44b0b394c2ef87a6feeeda718ee73e7e5e17a32005",
+    "changeKey": "6e4b43065d6c80fc4e5a4ae043dbc844",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2af46a719ee1f2caf531",
+    "workId": "2af46a719ee1f2caf531",
+    "driveFileId": "1gzPZJLxGVyKIEs5auoaft-kovxhd5ROV",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:03:20.584983+00:00",
+    "updatedAt": "2026-09-24T01:03:20.585003+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:03:20.585127+00:00"
+    }
+  }
+}

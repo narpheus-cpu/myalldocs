@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑의 한 페이지",
+    "author": "에밀 졸라",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "자연주의",
+      "루공마카르",
+      "사랑과질투"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스 자연주의 문학의 거장으로, 인간의 유전과 환경의 영향력을 탐구한 루공 마카르 총서를 집필했습니다.",
+    "oneLineSummary": "미망인 엘렌느와 이웃집 의사 드베를르의 사랑, 그리고 이를 병적으로 질투하는 딸 쟌느의 갈등을 그린 소설.",
+    "overallSummary": "루공 마카르 총서의 여덟 번째 작품으로, 파리 변두리에서 딸 쟌느와 외롭게 살아가던 미망인 엘렌느가 딸의 갑작스러운 발작 치료를 계기로 이웃집 의사 드베를르와 사랑에 빠지게 되지만, 신경증을 앓는 딸 쟌느의 병적인 질투와 감시 속에서 겪는 심리적 갈등을 서정적으로 묘사합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "쟌느의 발작",
+        "summary": "한밤중에 열 살 딸 쟌느가 갑작스러운 경련 발작을 일으키자, 엘렌느는 당황하여 이웃집 의사 드베를르를 불러옵니다."
+      },
+      {
+        "sectionTitle": "의사의 헌신적인 치료",
+        "summary": "드베를르 의사는 침착하게 쟌느를 치료하고 안심시키며, 엘렌느와 깊은 신뢰를 쌓기 시작합니다."
+      },
+      {
+        "sectionTitle": "미묘한 감정의 싹",
+        "summary": "치료 과정에서 두 사람 사이에 미묘한 감정이 흐르고, 엘렌느는 의사에게 깊은 감사와 애정을 느끼게 됩니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "작품의 의의",
+        "value": "자연주의 소설 특유의 추악한 현실 묘사에서 벗어나 서정적이고 감미로운 사랑을 다룬 이색작"
+      }
+    ],
+    "keyEntitiesText": "엘렌느(미망인), 쟌느(엘렌느의 병약한 딸), 드베를르(이웃집 의사)",
+    "settingText": "겨울철 프랑스 파리의 트로카데로 언덕 부근"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Gflbd3hXxYoUarUxETab0iBxiYHLQ3ie",
+    "filename": "에밀 졸라-사랑의 한 페이지.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.866Z",
+    "size": "544625",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1Gflbd3hXxYoUarUxETab0iBxiYHLQ3ie/view?usp=drivesdk",
+    "sourceSha256": "cbb8cf9c6aee9e045008a1e394be3291395db103dee51b34a9fd4b95fa5cdfb6",
+    "textSha256": "a7594c92778fb8f6c3d519b16ff77f9702af010d3363d3a242d83d4a499f9052",
+    "changeKey": "c962e364cbca55fce8198f6100133fbd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "8acc83dca76966b1706b",
+    "workId": "8acc83dca76966b1706b",
+    "driveFileId": "1Gflbd3hXxYoUarUxETab0iBxiYHLQ3ie",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:03:05.416625+00:00",
+    "updatedAt": "2026-09-24T01:03:05.416642+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:03:05.416757+00:00"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사촌 퐁스",
+    "author": "오노레 드 발자크",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "사실주의",
+      "수집가",
+      "인간극"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스 사실주의의 거장으로, 자본주의 사회의 물욕과 인간의 집착을 예리하게 묘사한 수많은 걸작을 남겼습니다.",
+    "oneLineSummary": "가난한 늙은 음악가이자 위대한 수집가인 실뱅 퐁스의 애환과 그의 예술품을 둘러싼 인간들의 탐욕.",
+    "overallSummary": "1844년 파리, 제정기 시절의 낡은 스펜서 외투를 입고 다니는 괴상한 외모의 늙은 음악가 실뱅 퐁스는 사실 엄청난 가치를 지닌 골동품과 미술품을 모은 위대한 수집가입니다. 그는 뛰어난 미식가이기도 하여 부유한 친척들의 집을 돌며 식객 노릇을 하지만, 점차 사교계에서 소외당하고 결국 그가 모은 수집품들의 가치를 알아챈 탐욕스러운 인간들의 음모에 휘말리게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "이탈리앵 대로의 노인",
+        "summary": "1844년 가을, 제정기 유행이 지난 스펜서 외투를 입고 기묘한 걸음걸이로 걷는 늙은 음악가 실뱅 퐁스가 소개됩니다."
+      },
+      {
+        "sectionTitle": "위대한 수집가 퐁스",
+        "summary": "퐁스는 가난한 형편에도 불구하고 40년 동안 뛰어난 안목으로 1,900여 점에 달하는 인류의 걸작 미술품과 골동품을 헐값에 수집해 왔습니다."
+      },
+      {
+        "sectionTitle": "식도락의 노예",
+        "summary": "예술가로서 명성이 쇠퇴한 퐁스는 고급 요리를 맛보고 싶어 하는 식도락적 욕구 때문에 부유한 친척들의 집에서 식객으로 살아갑니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 갈등",
+        "value": "예술을 순수하게 사랑하는 수집가와 그것을 돈으로만 환산하는 세속적 인간들의 탐욕의 대비"
+      }
+    ],
+    "keyEntitiesText": "실뱅 퐁스(늙은 음악가이자 수집가), 소바조(퐁스의 분신 같은 수집가), 이아생트(배우)",
+    "settingText": "1844년 프랑스 파리의 이탈리앵 대로와 죄네르가의 퐁스의 아파트"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BErsxMECbEeKJfCSPbJTctA4kA6k639X",
+    "filename": "오노레 드 발자크-사촌 퐁스(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:19:30.000Z",
+    "size": "761113",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1BErsxMECbEeKJfCSPbJTctA4kA6k639X/view?usp=drivesdk",
+    "sourceSha256": "9a50cc646b15f98162e593536471ddc0d918a969267e820a338cb77a5fe54898",
+    "textSha256": "c70889e6174ae4f83973660d85b1794489791e9b2017984793353aaefb2686fd",
+    "changeKey": "ba562f743d01cc007015dae867f6f9b5",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b40f3fceced752244734",
+    "workId": "b40f3fceced752244734",
+    "driveFileId": "1BErsxMECbEeKJfCSPbJTctA4kA6k639X",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:04:34.956572+00:00",
+    "updatedAt": "2026-09-24T01:04:34.956590+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:04:34.956707+00:00"
+    }
+  }
+}

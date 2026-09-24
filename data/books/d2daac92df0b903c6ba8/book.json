@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "꿈",
+    "author": "에밀 졸라",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "자연주의",
+      "루공마카르",
+      "고아소녀"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "프랑스 자연주의 문학의 대가로, 사회적 현실과 인간의 유전적 요인을 과학적으로 분석하여 소설로 묘사한 작가입니다.",
+    "oneLineSummary": "혹독한 겨울날 성당 문 앞에서 구조된 고아 소녀 앙젤리크가 사제복 제조 장인 부부의 보살핌을 받으며 성장하는 이야기.",
+    "overallSummary": "1860년 혹독한 겨울, 보몽 시의 성 아그네스 성당 문 아래에서 추위에 떨며 쓰러진 아홉 살 고아 소녀 앙젤리크가 사제복 제조 장인 위베르 부부에게 구조됩니다. 자식이 없어 늘 슬픔에 잠겨 있던 위베르 부부는 앙젤리크를 따뜻하게 맞이하고, 그녀의 출생 기록과 과거의 고난을 알게 되면서 그녀를 보살피기로 결심합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "성당 문 앞의 소녀",
+        "summary": "혹독한 겨울날, 아홉 살 고아 소녀 앙젤리크가 성당 문 아래에서 추위와 배고픔에 떨며 쓰러집니다."
+      },
+      {
+        "sectionTitle": "위베르 부부의 구조",
+        "summary": "사제복 제조 장인 위베르 부부가 쓰러진 소녀를 발견하고 집으로 데려와 따뜻한 음식을 대접하며 간호합니다."
+      },
+      {
+        "sectionTitle": "소녀의 과거와 상처",
+        "summary": "앙젤리크의 소지품에서 구호 대상 아동 기록부가 발견되고, 그녀가 겪은 고아원 생활과 가죽 제조공 집안에서의 학대 등 비참한 과거가 밝혀집니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 테마",
+        "value": "구원과 사랑, 그리고 가난한 고아 소녀의 실존적 자존심"
+      }
+    ],
+    "keyEntitiesText": "앙젤리크(고아 소녀), 위베르(사제복 제조 장인), 위베르틴(위베르의 아내)",
+    "settingText": "1860년 겨울, 프랑스 피카르디 지방의 보몽 시와 성 아그네스 성당 주변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "15QUYEgsm38X2DRV12R2uPnND0FTAIklE",
+    "filename": "에밀 졸라-꿈(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:05:58.000Z",
+    "size": "602034",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/15QUYEgsm38X2DRV12R2uPnND0FTAIklE/view?usp=drivesdk",
+    "sourceSha256": "51fec5ef988ed5b3da4c9a5865c80d20f2eefbb02878cfbc125365a8bc3af622",
+    "textSha256": "eedbd261288f0e97a7df20b6a5bb31e6bd0a0e186fa2df3569b33c9aac19c11d",
+    "changeKey": "991ccfdf0fec36e60b2d278ff7ea79c9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d2daac92df0b903c6ba8",
+    "workId": "d2daac92df0b903c6ba8",
+    "driveFileId": "15QUYEgsm38X2DRV12R2uPnND0FTAIklE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:02:58.446768+00:00",
+    "updatedAt": "2026-09-24T01:02:58.446785+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:02:58.446875+00:00"
+    }
+  }
+}

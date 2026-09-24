@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "삼대",
+    "author": "염상섭",
+    "genre": "소설",
+    "tags": [
+      "한국문학",
+      "리얼리즘",
+      "가족소설",
+      "일제강점기"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "한국 근대 리얼리즘 소설의 개척자로, 객관적인 묘사와 치밀한 구성으로 식민지 조선의 세태를 사실적으로 그렸습니다.",
+    "oneLineSummary": "일제강점기 서울의 만석꾼 조씨 가문의 3대에 걸친 가치관의 충돌과 몰락 과정을 그린 사실주의 소설.",
+    "overallSummary": "조씨 가문의 3대인 할아버지 조의관(봉건적 가치관), 아버지 조상훈(과도기적 위선자), 아들 조덕기(식민지 지식인)를 중심으로, 가문의 유산을 둘러싼 암투와 사회주의 운동가 김병화, 홍경애 등 주변 인물들의 삶을 통해 1920-30년대 서울의 세태와 계급 갈등을 사실적으로 묘사합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "두 친구의 만남",
+        "summary": "일본 유학 중 방학을 맞아 귀국한 덕기는 가난한 사회주의자 친구 병화를 만나 세태를 비꼬는 대화를 나눕니다."
+      },
+      {
+        "sectionTitle": "선술집 바커스에서의 조우",
+        "summary": "병화의 안내로 선술집 바커스에 간 덕기는 그곳에서 일하는 과거의 연인 홍경애를 발견하고 충격을 받습니다."
+      },
+      {
+        "sectionTitle": "세대와 사상의 갈등",
+        "summary": "조의관은 텁수룩한 병화의 행색을 못마땅해하고, 덕기는 조부의 보수성과 부친의 방탕함 사이에서 갈등합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 갈등",
+        "value": "봉건적 유교 사상, 기독교적 위선, 그리고 근대 사회주의 사상의 충돌"
+      }
+    ],
+    "keyEntitiesText": "조덕기(유학생, 3대째), 김병화(사회주의자 친구), 조의관(덕기의 조부), 조상훈(덕기의 부친), 홍경애(상훈의 첩이자 덕기의 동창)",
+    "settingText": "1920년대 후반 일제강점기 서울(경성)의 중산층 가정과 진고개 주변"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jFp50h6AySUOcUjMYgUAEwgIuIrTiPWv",
+    "filename": "염상섭-삼대.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.949Z",
+    "size": "737534",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1jFp50h6AySUOcUjMYgUAEwgIuIrTiPWv/view?usp=drivesdk",
+    "sourceSha256": "5fbc539be00f8d2413e805e6eb206a7f8b4b69289b693c6c69de9d09d46e9cc8",
+    "textSha256": "755dd6a53497c748cf3532da828f9ec69e8edc17747a3b448612ef7ce2227572",
+    "changeKey": "d3a67724fa43f1c000b1092f77dfe38a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1efb8f2d9ab4f3d3e81b",
+    "workId": "1efb8f2d9ab4f3d3e81b",
+    "driveFileId": "1jFp50h6AySUOcUjMYgUAEwgIuIrTiPWv",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:03:41.463653+00:00",
+    "updatedAt": "2026-09-24T01:03:41.463668+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:03:41.463778+00:00"
+    }
+  }
+}

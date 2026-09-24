@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계 단편 문학선",
+    "author": "오 헨리 외",
+    "genre": "소설",
+    "tags": [
+      "세계문학",
+      "단편소설",
+      "고전선집",
+      "인간심리"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "mixed_anthology"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "호손, 포, 마크 트웨인, 하디, 오 헨리, 톨스토이 등 19-20세기 세계 문학을 빛낸 거장들의 대표 단편들을 모은 선집입니다.",
+    "oneLineSummary": "인간의 원죄와 심리적 심연, 해학과 감동을 담은 세계 최고 문호들의 단편 소설 모음집.",
+    "overallSummary": "나다니엘 호손의 '목사의 검은 베일'(인간의 숨겨진 죄악과 고독), 에드거 앨런 포의 '검은 고양이'(광기와 죄책감), 마크 트웨인의 '일백만 파운드의 은행 어음'(자본주의 사회의 해학), 오 헨리의 '마지막 잎새'(희생과 예술적 구원) 등 인간의 본성과 사회적 단면을 예리하게 해부한 명작 단편들이 수록되어 있습니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "목사의 검은 베일",
+        "summary": "후퍼 목사가 어느 날 갑자기 얼굴에 검은 베일을 쓰고 나타나 평생 벗지 않음으로써, 인간이 서로에게 숨기는 비밀과 죄악을 상징적으로 보여줍니다."
+      },
+      {
+        "sectionTitle": "베일이 가져온 파장",
+        "summary": "목사의 검은 베일은 신도들에게 극심한 공포와 경이감을 안겨주고, 약혼녀 엘리자베드마저 그를 떠나게 만들지만 목사는 끝내 베일을 고수합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징성",
+        "value": "검은 베일은 인간이 타인과 신, 심지어 자기 자신에게도 숨기고자 하는 '비밀스러운 죄악'을 상징함"
+      }
+    ],
+    "keyEntitiesText": "후퍼 목사(검은 베일을 쓴 성직자), 엘리자베드(후퍼 목사의 약혼녀), 그레이 씨(신도)",
+    "settingText": "미국 뉴잉글랜드의 보수적인 청교도 마을 밀포드"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1y_QfPZcUShWlrJMhsp0vr7ekigddRRmM",
+    "filename": "오헨리 외-세계 단편 문학선.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:40.010Z",
+    "size": "757362",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1y_QfPZcUShWlrJMhsp0vr7ekigddRRmM/view?usp=drivesdk",
+    "sourceSha256": "8446fcf74908f77daa795b648bc3a775d3a700fe3f5381de74efd5fdd7637d30",
+    "textSha256": "297579462a847282a3bcf7ab1d7cc473eca2fba135f92061ba02a524e523af09",
+    "changeKey": "8ef14e86d7ac6ae03d37fbbd17902520",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7139b37bad7cabdbaa0d",
+    "workId": "7139b37bad7cabdbaa0d",
+    "driveFileId": "1y_QfPZcUShWlrJMhsp0vr7ekigddRRmM",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:05:05.949823+00:00",
+    "updatedAt": "2026-09-24T01:05:05.949841+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:05:05.949993+00:00"
+    }
+  }
+}

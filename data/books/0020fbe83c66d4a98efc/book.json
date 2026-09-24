@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "작품",
+    "author": "에밀 졸라",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "예술가소설",
+      "인상파",
+      "창작의고통"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "인간의 유전과 환경을 과학적으로 분석한 루공 마카르 총서로 유명한 프랑스의 대표적인 자연주의 작가입니다.",
+    "oneLineSummary": "화가 클로드가 폭우 속에서 만난 젊은 여성 크리스틴을 아틀리에에 재워주고 그녀의 자는 모습에서 예술적 영감을 얻는 이야기.",
+    "overallSummary": "밤의 파리를 산책하던 화가 클로드는 갑작스러운 폭우 속에서 길을 잃고 헤매던 젊은 여성 크리스틴을 발견하고 자신의 아틀리에로 데려와 하룻밤을 재워줍니다. 다음 날 아침, 클로드는 그녀가 무방비하게 잠든 아름다운 알몸을 보게 되고, 자신이 구상하던 대작의 영감을 얻어 열정적으로 스케치하기 시작합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "폭우 속의 만남",
+        "summary": "7월의 무더운 밤, 소나기를 피해 달리던 화가 클로드는 대문 앞에서 비에 젖어 떨고 있는 크리스틴을 만납니다."
+      },
+      {
+        "sectionTitle": "아틀리에에서의 하룻밤",
+        "summary": "클로드는 크리스틴을 자신의 다락방 아틀리에로 데려와 침대를 양보하고 자신은 소파에서 잠을 청합니다."
+      },
+      {
+        "sectionTitle": "예술적 영감과 스케치",
+        "summary": "다음 날 아침, 클로드는 더위로 이불을 걷어찬 크리스틴의 아름다운 나체를 발견하고 예술적 열정에 사로잡혀 그림을 그리기 시작합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예술적 모티브",
+        "value": "실제 인상파 화가들의 삶과 창작 과정을 모델로 하여 예술가의 집념과 고뇌를 묘사함"
+      }
+    ],
+    "keyEntitiesText": "클로드(젊은 화가), 크리스틴(길을 잃은 젊은 여성)",
+    "settingText": "7월의 무더운 여름밤, 프랑스 파리 센강 변의 오래된 마르투아 저택 꼭대기 아틀리에"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dO6HU4t6fkbKvZPxXNTfWmMvmypFpICt",
+    "filename": "에밀 졸라-작품(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:07:46.000Z",
+    "size": "1153294",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1dO6HU4t6fkbKvZPxXNTfWmMvmypFpICt/view?usp=drivesdk",
+    "sourceSha256": "94cdcdd76e499ef0a88de78314a9e64d692b338b6ba8793ebfd00ebbf2c8d09c",
+    "textSha256": "810ab4be3cbcba8c75525feeb4855345de3f900bc6e47a96122f978f4daec155",
+    "changeKey": "a67aa3ca15a2e61953c0a63684ce07a8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0020fbe83c66d4a98efc",
+    "workId": "0020fbe83c66d4a98efc",
+    "driveFileId": "1dO6HU4t6fkbKvZPxXNTfWmMvmypFpICt",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:03:12.980649+00:00",
+    "updatedAt": "2026-09-24T01:03:12.980665+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:03:12.980777+00:00"
+    }
+  }
+}

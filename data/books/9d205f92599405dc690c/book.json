@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "열녀춘향수절가",
+    "author": "미상",
+    "genre": "소설",
+    "tags": [
+      "고전소설",
+      "판소리계소설",
+      "춘향전",
+      "백년가약"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "조선 시대 구전되던 판소리가 소설로 정착된 작품으로, 작자는 미상이나 민중의 정서와 사랑을 생생하게 담고 있습니다.",
+    "oneLineSummary": "남원 부사의 아들 이몽룡과 기생의 딸 성춘향이 광한루에서 만나 백년가약을 맺고 사랑을 나누다 이별하는 이야기.",
+    "overallSummary": "숙종 대왕 시절, 남원 부사로 부임한 이한림의 아들 이도령(이몽룡)은 단오를 맞아 광한루에 구경을 나갔다가 그네를 타는 아름다운 처녀 춘향을 보고 첫눈에 반합니다. 방자를 통해 그녀를 불러낸 이도령은 춘향의 집을 찾아가 백년가약의 맹세를 맺고 깊은 사랑을 나누지만, 부친의 서울 이임으로 인해 눈물의 이별을 맞이하게 됩니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "광한루의 만남",
+        "summary": "단오날 광한루에 오른 이도령은 그네를 타는 춘향의 아름다운 자태를 보고 방자를 시켜 그녀를 불러오게 합니다."
+      },
+      {
+        "sectionTitle": "사랑의 맹세와 동침",
+        "summary": "춘향의 집을 찾아간 이도령은 춘향과 어머니 월매 앞에서 변치 않는 사랑을 맹세하고 첫날밤을 보냅니다."
+      },
+      {
+        "sectionTitle": "사랑의 노래와 이별",
+        "summary": "두 사람은 온갖 사랑 노래를 부르며 행복한 시간을 보내지만, 사또의 서울 이임 소식에 청천벽력 같은 이별을 맞이합니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적 특징",
+        "value": "해학과 판소리 특유의 운율감이 살아 있는 풍부한 사설과 사랑의 묘사"
+      }
+    ],
+    "keyEntitiesText": "이도령(이몽룡), 성춘향(월매의 딸), 방자(이도령의 하인), 월매(춘향의 어머니)",
+    "settingText": "조선 숙종 시절, 전라도 남원의 광한루와 오작교, 그리고 춘향의 집"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1OffdpHfBbgQs5Ba6EOn2c4pzyfP_doNw",
+    "filename": "열녀춘향수절가.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:39.928Z",
+    "size": "88827",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1OffdpHfBbgQs5Ba6EOn2c4pzyfP_doNw/view?usp=drivesdk",
+    "sourceSha256": "3d153c62261f40e251bc46196273a41e398a5d05d62776bbddc43fa52f72d613",
+    "textSha256": "4f29662c70521759a3908cb09f1ec4466d81a7d58e4b0081471acd0653fb9da8",
+    "changeKey": "3939a35eafc4bdd38bca9fd7235d2542",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9d205f92599405dc690c",
+    "workId": "9d205f92599405dc690c",
+    "driveFileId": "1OffdpHfBbgQs5Ba6EOn2c4pzyfP_doNw",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:03:34.201753+00:00",
+    "updatedAt": "2026-09-24T01:03:34.201769+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:03:34.201881+00:00"
+    }
+  }
+}

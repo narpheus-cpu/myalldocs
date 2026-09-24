@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "골짜기의 백합",
+    "author": "오노레 드 발자크",
+    "genre": "소설",
+    "tags": [
+      "프랑스문학",
+      "인간극",
+      "사랑과비극",
+      "회상록"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "19세기 프랑스 사회를 정밀하게 해부한 '인간극'의 작가로, 인간의 정념과 사회적 역학 관계를 탁월하게 묘사했습니다.",
+    "oneLineSummary": "주인공 펠릭스가 자신의 불우했던 어린 시절과 고독했던 기숙학교 생활을 나탈리에게 고백하는 편지 형식의 소설.",
+    "overallSummary": "주인공 펠릭스 드 방드네스는 연인 나탈리 드 마네르빌의 요청에 따라 자신의 과거를 고백합니다. 어머니의 냉대와 형제들의 차별 속에서 외롭게 자란 유년 시절, 기숙학교에서의 극심한 궁핍과 동료들의 멸시, 그리고 파리 사교계에 진출하기 전까지 겪었던 정신적 고통과 고독을 생생하게 회상합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "불우한 유년 시절",
+        "summary": "펠릭스는 어머니의 무관심과 냉대 속에서 자라며, 사소한 장난의 범인으로 몰려 정원에서 별을 보던 유일한 낙마저 빼앗깁니다."
+      },
+      {
+        "sectionTitle": "기숙학교의 궁핍",
+        "summary": "투르의 기숙학교와 퐁르부아 학교에서 용돈 없이 생활하며 동료들의 풍족함과 대비되는 자신의 처지에 깊은 상처를 받습니다."
+      },
+      {
+        "sectionTitle": "파리에서의 억압",
+        "summary": "파리의 학교로 옮긴 후에도 부모의 엄격한 감시와 경제적 통제 속에서 자유를 박탈당한 채 고독한 청소년기를 보냅니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "심리 묘사",
+        "value": "사랑받지 못한 아이가 겪는 내면의 상처와 자존심의 형성 과정을 섬세하게 추적함"
+      }
+    ],
+    "keyEntitiesText": "펠릭스 드 방드네스(주인공이자 화자), 나탈리 드 마네르빌(펠릭스의 연인), 카를린(가정부), 샤를(펠릭스의 형)",
+    "settingText": "19세기 초 프랑스 투르와 퐁르부아의 학교, 그리고 파리의 기숙학교와 저택들"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1-eTeU-7O75WMaUR8qi1wlpWXJBTuM8gE",
+    "filename": "오노레 드 발자크-골짜기의 백합(을유세계문학전집)(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-05T19:18:14.000Z",
+    "size": "760857",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1-eTeU-7O75WMaUR8qi1wlpWXJBTuM8gE/view?usp=drivesdk",
+    "sourceSha256": "b141db7e5beebea5282044e3d3e45bfd2b2630fc504eeac17388dd015d41bbae",
+    "textSha256": "46a9471bc8072694ac13d72b593bc0feaf98428951c752df3d2b394ffc5adf97",
+    "changeKey": "890ca5c5fe1df74629269bf55a606aee",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fe6e0360ad5c9ddef116",
+    "workId": "fe6e0360ad5c9ddef116",
+    "driveFileId": "1-eTeU-7O75WMaUR8qi1wlpWXJBTuM8gE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T01:04:28.084172+00:00",
+    "updatedAt": "2026-09-24T01:04:28.084188+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T01:04:28.084301+00:00"
+    }
+  }
+}
