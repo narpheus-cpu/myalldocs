@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "디디의 우산",
+    "author": "황정은",
+    "genre": "소설",
+    "tags": [
+      "디디의 우산",
+      "세월호",
+      "용산참사",
+      "상실",
+      "기억"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황정은은 2005년 등단한 이후 예리하고 깊이 있는 시선으로 인간의 고통과 사회적 상처를 그려내어 문학루이 및 여러 문학상을 수상한 소설가이다.",
+    "oneLineSummary": "사소한 일상의 기억에서 출발해 사회적 참사와 상실의 아픔을 투명하게 그려낸 소설이다.",
+    "overallSummary": "어릴 적 교실에서 낙뢰를 보았던 기억과 사물들이 미열을 품기 시작한 기이한 현상에서 출발한다. 목수인 아버지 밑에서 자란 과거, 동창회에서 재회한 dd와의 사랑과 반지하 생활, 그리고 버스 사고로 dd를 잃어버린 막막한 상실감을 그린다. 사물을 버리며 슬픔을 견뎌내는 과정과 함께, 거대한 사회적 재난과 폭력이 개인의 삶을 어떻게 무너뜨리는지 침착하고 서정적인 문장으로 담아내고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1",
+        "summary": "어릴 적 교실에서 낙뢰를 본 기억과 함께, 어느 날부터 집 안의 사물들이 미지근한 온기를 품기 시작하면서 겪는 혼란과 목수인 아버지와의 기억을 회상한다."
+      },
+      {
+        "sectionTitle": "2",
+        "summary": "동창회에서 dd를 다시 만나 우산을 주고받으며 사랑에 빠지고, 반지하 방에서 가난하지만 소박하게 살아가다 버스 사고로 dd를 잃게 된 상실의 전말을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "참사와 상실을 겪은 이들의 트라우마와 일상의 균열"
+      }
+    ],
+    "keyEntitiesText": "d, dd, 이승근(아버지), 김귀자",
+    "settingText": "양천구 목동 빌라 반지하 방, 김포공항 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SAI1UYYKa8VRUieRYb25dBT5Hrby7OuX",
+    "filename": "황정은-디디의 우산(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.539Z",
+    "size": "434506",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1SAI1UYYKa8VRUieRYb25dBT5Hrby7OuX/view?usp=drivesdk",
+    "sourceSha256": "709a31c02c185cf49a4b36369ec73cfe783ca3b421aaf0bf7a983957b66e3813",
+    "textSha256": "dafe83f9b36f294c39f46e78e2c38355e7d97b129448e1319c0c781302c6b570",
+    "changeKey": "69a29d85c7f56a9e10e3ec24fea68e9b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5a2b75275ac38d8f75b7",
+    "workId": "5a2b75275ac38d8f75b7",
+    "driveFileId": "1SAI1UYYKa8VRUieRYb25dBT5Hrby7OuX",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:52:31.154825+00:00",
+    "updatedAt": "2026-09-24T08:52:31.154841+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:52:31.154955+00:00"
+    }
+  }
+}

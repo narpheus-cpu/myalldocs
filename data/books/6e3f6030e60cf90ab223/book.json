@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "임꺽정",
+    "author": "홍명희",
+    "genre": "역사소설",
+    "tags": [
+      "임꺽정",
+      "조선",
+      "명종",
+      "민중",
+      "사화"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "홍명희는 1888년 충북 괴산에서 태어났다. 3·1운동을 주도하고 신간회 창립에 참여하는 등 항일 독립운동을 하였으며, 조선 3대 천재 중 한 명으로 꼽히는 문학가이자 독립운동가이다.",
+    "oneLineSummary": "조선 명종 시대 백정의 아들로 태어난 의적 임꺽정의 일대기와 당대 민중의 삶을 웅장하게 그린 대하소설이다.",
+    "overallSummary": "연산군 시대부터 명종 시대에 이르기까지 폭정고 사화로 얼룩진 조선의 혼란스러운 시대상을 배경으로 한다. 양주 백정의 아들로 태어난 임꺽정이 의형제들을 모아 화적이 되어 관권에 저항하고 민중의 편에 서서 활약하는 과정을 생생한 우리말과 풍부한 민속 자료를 바탕으로 방대하게 그려낸 한국 현대 문학의 거탑이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말씀",
+        "summary": "조선 건국 이후 연산군의 폭정과 기묘사화, 인종과 명종 시대에 이르는 역사적 배경과 임꺽정 이야기를 시작하게 된 동기를 밝힌다."
+      },
+      {
+        "sectionTitle": "제1장 이교리 귀양",
+        "summary": "연산군 시대의 폭정에 직언하다 거제로 귀양을 가게 되는 홍문관 교리 이장곤의 이야기이다."
+      },
+      {
+        "sectionTitle": "제2장 왕의 무도",
+        "summary": "폐비 윤씨 사건과 관련된 옥사 및 김처선의 충간과 비극적인 죽음 등 연산군의 폭정이 극에 달하는 상황을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "문학적의의",
+        "value": "풍부한 조선어휘와 순우리말, 민중사관에 입각한 생생한 생활 묘사"
+      }
+    ],
+    "keyEntitiesText": "임꺽정, 이장곤, 정회량, 연산군, 김처선",
+    "settingText": "조선 시대 한양, 풍덕, 거제도 등 팔도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BPS1XgT171lKOi1DIPizoXbQuq9QacS5",
+    "filename": "홍명희-임꺽정(전집).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.077Z",
+    "size": "5133598",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1BPS1XgT171lKOi1DIPizoXbQuq9QacS5/view?usp=drivesdk",
+    "sourceSha256": "9eee096047dac77e2862cfa02dc1eb50f3107eef29ca04db55b2b3c9b9f7fcdb",
+    "textSha256": "4312440692c653c3c72925c77b01fc5042d3ed4cafee8dacfe887aed710add3d",
+    "changeKey": "45f232542fd7cafce9b25332035b478e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6e3f6030e60cf90ab223",
+    "workId": "6e3f6030e60cf90ab223",
+    "driveFileId": "1BPS1XgT171lKOi1DIPizoXbQuq9QacS5",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:51:37.806828+00:00",
+    "updatedAt": "2026-09-24T08:51:37.806843+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:51:37.806961+00:00"
+    }
+  }
+}

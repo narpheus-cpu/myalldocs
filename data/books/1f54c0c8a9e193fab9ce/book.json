@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "창가의 토토",
+    "author": "구로야나기 테츠코",
+    "genre": "자전적 소설",
+    "tags": [
+      "도모에",
+      "대안학교",
+      "전철교실",
+      "고바야시",
+      "교육"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "구로야나기 테츠코는 일본의 유명한 방송인이자 유니세프 친선대사이며, 자신의 어린 시절 경험을 담은 이 책으로 세계적인 명성을 얻었다.",
+    "oneLineSummary": "문제아로 낙인찍혀 퇴학당한 토토가 전철 교실이 있는 자유롭고 따뜻한 도모에 학원에서 보낸 감동적인 학창 시절 이야기이다.",
+    "overallSummary": "산만한 행동으로 일반 학교에서 쫓겨난 토토(저자 본인)는 전철 여섯 량을 교실로 삼은 독특한 대안학교인 도모에 학원으로 전학을 간다. 그곳에서 아이들의 개성과 인격을 온전히 존중해 주는 교장 선생님 고바야시 덴사쿠를 만나 자연 속에서 마음껏 뛰어놀며 치유와 성장을 경험한다. 전쟁의 아픔과 이별 속에서도 사랑과 배려를 배우며 진정한 교육의 의미를 일깨워주는 세계적인 명작이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "처음 가보는 전철역과 창가의 토토",
+        "summary": "산만한 행동으로 기존 학교에서 퇴학을 당한 토토가 엄마의 손을 잡고 전철이 교실인 도모에 학원으로 향하는 과정이다."
+      },
+      {
+        "sectionTitle": "도모에 학교의 일상",
+        "summary": "움직이는 전철 안에서 수업을 받고, 교장 선생님의 따뜻한 지도 아래 산과 들을 누비며 자유롭게 공부하는 다채로운 에피소드들이 펼쳐진다."
+      },
+      {
+        "sectionTitle": "이별과 성장",
+        "summary": "친구 야스아키의 죽음과 전쟁의 그늘 속에서도 토토가 아이들과 스승의 사랑 속에서 씩씩하게 성장해 나가는 모습이다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "아이의 개성을 존중하는 참된 대안 교육과 인간애"
+      }
+    ],
+    "keyEntitiesText": "토토(테츠코), 교장 선생님(고바야시 덴사쿠), 엄마, 야스아키",
+    "settingText": "일본 도쿄 도모에 학원"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bTHkn623nhrT6nnp0NVCUOmP7EvsI9kk",
+    "filename": "구로야나기 테츠코-창가의 토토.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.600Z",
+    "size": "382940",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1bTHkn623nhrT6nnp0NVCUOmP7EvsI9kk/view?usp=drivesdk",
+    "sourceSha256": "bbf05e701cd181b8637b3770e17bd75ed17c743bedf980d7bb2707254cdf30af",
+    "textSha256": "54cca991c57755e749986bbe12c2df124130194bf0d3920aa1d0a86bd23928b0",
+    "changeKey": "3700d092962e8646538bd918b0afaf1e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1f54c0c8a9e193fab9ce",
+    "workId": "1f54c0c8a9e193fab9ce",
+    "driveFileId": "1bTHkn623nhrT6nnp0NVCUOmP7EvsI9kk",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:52:49.795738+00:00",
+    "updatedAt": "2026-09-24T08:52:49.795753+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:52:49.795868+00:00"
+    }
+  }
+}

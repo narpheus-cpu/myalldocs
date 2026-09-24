@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나는 없다",
+    "author": "황충상",
+    "genre": "소설",
+    "tags": [
+      "토굴",
+      "명상",
+      "중년",
+      "일탈",
+      "아카풀코"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황충상은 인간 존재의 본질과 일상으로부터의 탈출, 삶의 허무를 깊이 있게 파고드는 소설가이다.",
+    "oneLineSummary": "오십의 나이에 직장과 가정을 떠나 토굴에서 명상과 방황을 이어가는 중년 소설가의 삶과 기억을 그린 소설이다.",
+    "overallSummary": "IMF 환란 무렵, 나이 오십에 스스로 퇴직을 감행하고 북한산 백화사 앞 토굴로 들어와 홀로 생활하는 주인공의 이야기이다. 차를 마시고 명상을 하며 자신을 돌아보던 중, 문학을 하는 두 후배가 찾아와 술판을 벌인다. 후배들과의 대화 속에서 과거 해군 순항훈련 당시 아카풀코 항에서 만났던 이국적인 여인 베로니카와의 강렬했던 기억과, 아내와의 별거 생활이 오버랩되며 진정한 자아를 찾아가는 과정을 그린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "토굴에서의 일상",
+        "summary": "오십에 집을 나와 북한산 토굴에서 신문과 TV도 없이 차를 마시며 자신이라는 지도 속 길을 명상하는 주인공의 모습이다."
+      },
+      {
+        "sectionTitle": "후배들의 방문과 술자리",
+        "summary": "시인인 후배 정오와 상희가 찾아와 술을 마시며 삶과 문학, 그리고 쌩떽스의 별거에 빗댄 주인공의 별거 생활에 대해 이야기한다."
+      },
+      {
+        "sectionTitle": "아카풀코의 기억",
+        "summary": "후배들과의 대화 도중 과거 천지함을 타고 갔던 아카풀코 항에서 만난 메스티조 처녀 베로니카와의 애절했던 추억을 회상한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "중년의 일탈과 존재의 본질 탐구, 그리고 과거의 추억"
+      }
+    ],
+    "keyEntitiesText": "주인공(나), 상희, 정오, 베로니카",
+    "settingText": "북한산 백화사 앞 토굴, 과거 아카풀코 항"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "13iQWGed1gmQ_M5Alnd3Ho4u44TEiJ2LB",
+    "filename": "황충상-나는 없다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.568Z",
+    "size": "168633",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/13iQWGed1gmQ_M5Alnd3Ho4u44TEiJ2LB/view?usp=drivesdk",
+    "sourceSha256": "a71bb7193adede511228530ab9446a6c08415b304ce7947a96d19392f069d4e1",
+    "textSha256": "e5aa5b90dec63672fdc4d0f79a0dc68b6440ade0baa72addf1eb19a2be32cefd",
+    "changeKey": "c3f6ec992bcce08cb4bc0f7a8696f0c9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "556040ac0e42d7a21004",
+    "workId": "556040ac0e42d7a21004",
+    "driveFileId": "13iQWGed1gmQ_M5Alnd3Ho4u44TEiJ2LB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:52:38.069342+00:00",
+    "updatedAt": "2026-09-24T08:52:38.069357+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:52:38.069453+00:00"
+    }
+  }
+}

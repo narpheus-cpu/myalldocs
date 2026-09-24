@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "종이달",
+    "author": "가쿠다 미쓰요",
+    "genre": "소설",
+    "tags": [
+      "횡령",
+      "주부",
+      "태국",
+      "치앙마이",
+      "서스펜스"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "가쿠다 미쓰요는 일본의 대표적인 여성 작가로, 인간의 어두운 내면과 일상의 파탄을 섬세하고 집요하게 그려내는 작가이다.",
+    "oneLineSummary": "평범한 주부에서 은행 돈 1억 엔을 횡령하고 도주하여 태국에 체류하는 여인의 심리를 그린 서스펜스 소설이다.",
+    "overallSummary": "유복한 가정에서 자라 평범한 주부로 살아가던 우메자와 리카는 삶에 회의를 느끼고 계약직으로 일하던 은행에서 1억 엔을 횡령한 채 태국 치앙마이로 도주한다. 낯선 이국땅의 그늘진 풍경 속에서 과거의 평범했던 삶과 철저하게 대비되는 해방감과 스릴을 느끼며 은둔 생활을 이어간다. 한편 고교 시절 친구였던 유코는 리카의 뉴스를 접하고 그녀의 과거와 현재를 떠올린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그",
+        "summary": "태국 치앙마이에 도착해 은둔하며 모든 것을 가질 수 있다는 기묘한 흥분과 해방감을 느끼는 우메자와 리카의 모습이다."
+      },
+      {
+        "sectionTitle": "오카자키 유코의 시선",
+        "summary": "전단지를 보며 절약하는 주부로 살아가는 유코가 옛동창 리카의 1억 엔 횡령 뉴스 소식을 접하고 학창 시절을 회상한다."
+      },
+      {
+        "sectionTitle": "리카의 과거와 도피",
+        "summary": "방콕과 카오산로드를 거쳐 누추한 게스트하우스에 숨어 지내며 가짜 평화와 질주를 즐기는 리카의 내면을 그린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "평범한 일상의 지뢰밭에서 일탈해 1억 엔을 횡령한 여성의 심리 추적"
+      }
+    ],
+    "keyEntitiesText": "우메자와 리카, 오카자키 유코, 히라바야시 고타",
+    "settingText": "일본, 태국 방콕 및 치앙마이"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bdTzwwt3zCNT9hP1H65gafzR2_EZnORS",
+    "filename": "가쿠다 미쓰요-종이달-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-06-29T12:38:02.000Z",
+    "size": "553894",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1bdTzwwt3zCNT9hP1H65gafzR2_EZnORS/view?usp=drivesdk",
+    "sourceSha256": "a80cf24e123d05ec99cdb54c8729672d07f6d23dd29861f88b5d659fecf4ccc9",
+    "textSha256": "f2f3d73c5dcacd89293450a2cca549fcfafd4f2a3e2d0ed0ed2589e6e7abf55d",
+    "changeKey": "629bea2528aca6558b06380cba9e03d0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f66d920edc67923ca7dd",
+    "workId": "f66d920edc67923ca7dd",
+    "driveFileId": "1bdTzwwt3zCNT9hP1H65gafzR2_EZnORS",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:52:43.869089+00:00",
+    "updatedAt": "2026-09-24T08:52:43.869104+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:52:43.869222+00:00"
+    }
+  }
+}

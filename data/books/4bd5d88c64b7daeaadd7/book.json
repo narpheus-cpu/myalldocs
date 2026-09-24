@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모랫말 아이들",
+    "author": "황석영",
+    "genre": "동화",
+    "tags": [
+      "모랫말",
+      "피난민",
+      "아이들",
+      "전후",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황석영은 1962년 단편 '입석부근'으로 등단하였으며, '무기의 그늘', '오래된 정원으로' 등 한국 현대 문학을 대표하는 굵직한 작품들을 다수 집필한 작가이다.",
+    "oneLineSummary": "한국전쟁 직후 모랫말이라는 변두리 동네에서 살아가는 아이들의 순수하고 아픈 성장담을 그린 동화집이다.",
+    "overallSummary": "비행장 시동 소리와 성에 낀 유리창이 있는 모랫말이라는 판잣집 동네를 배경으로, 가난하고 상처 입은 어른들과 그 속에서 살아가는 아이들의 일상을 아이의 눈으로 그려낸다. 거지 춘근이와 그의 아내의 비극, 푸른 눈의 혼혈 소녀 귀남이와의 만남, 전선에 감긴 아이를 구하려다 벌어진 참혹한 사고 등 전쟁의 상흔이 남아 있는 시대의 풍경을 진솔하게 담아낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "꼼배 다리",
+        "summary": "오른쪽 팔목이 구부러진 거지 춘근이와 함경도 출신 아내가 비극적인 화재로 아이를 잃고 다리를 놓은 뒤 사라진 이야기이다."
+      },
+      {
+        "sectionTitle": "금단추",
+        "summary": "미군 부대 주변의 양색시 엄마를 둔 푸른 눈의 혼혈 소녀 귀남이가 우리 집에 맡겨졌다가 선교사 집으로 떠나며 금단추를 남기고 간 기억이다."
+      },
+      {
+        "sectionTitle": "지붕 위의 전투",
+        "summary": "방앗간 지붕에 얹힌 공을 꺼내려다 고압 전깃줄에 감전된 아이와, 그를 구하려다 함께 변을 당한 노인의 참혹한 사고를 목격한 소동이다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "전후 가난한 시절의 슬픔과 순수한 아이들의 시선으로 본 세상"
+      }
+    ],
+    "keyEntitiesText": "춘근이(꼼배), 귀남이, 국원이, 고문관",
+    "settingText": "한국전쟁 직후의 판잣집 동네 모랫말"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "17o6nPZQTUxs8LzmyyXhe6ziScoEG3lwW",
+    "filename": "황석영-모랫말 아이들.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.246Z",
+    "size": "98266",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/17o6nPZQTUxs8LzmyyXhe6ziScoEG3lwW/view?usp=drivesdk",
+    "sourceSha256": "d7461654b3758cfa859b1bf892aa642be8bff79b2ba396e774a670fbf3fb6554",
+    "textSha256": "31bf385c06d63554e41d3081849dea522bc7440791039cb933e171cd0c58ed98",
+    "changeKey": "1d757e2e340d0e6bbd918fc0a24771ba",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4bd5d88c64b7daeaadd7",
+    "workId": "4bd5d88c64b7daeaadd7",
+    "driveFileId": "17o6nPZQTUxs8LzmyyXhe6ziScoEG3lwW",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:51:58.857694+00:00",
+    "updatedAt": "2026-09-24T08:51:58.857710+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:51:58.857826+00:00"
+    }
+  }
+}

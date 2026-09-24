@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "결혼기념일",
+    "author": "황세원",
+    "genre": "소설",
+    "tags": [
+      "결혼기념일",
+      "하와이",
+      "마피아",
+      "총격전",
+      "부부"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황세원은 긴장감 넘치는 전개와 유머를 섞어 독특한 재미를 선사하는 소설가이다.",
+    "oneLineSummary": "신혼여행지 하와이에서 우연히 마피아의 범죄를 목격하고 쫓기게 된 신혼부부의 소동극을 그린 소설이다.",
+    "overallSummary": "결혼식 직후 하와이로 신혼여행을 온 정일휘와 황세원 부부. 남편 일휘가 결혼 첫날부터 바람을 피우겠다고 선언하자 화가 난 세원은 샴페인 병과 스탠드로 일휘를 응징한다. 호텔 화장실에서 우연히 마피아의 살인 현장을 목격하게 된 세원은 졸지에 마피아 조직원들의 살벌한 추격을 받게 되고, 부부는 총알이 빗발치는 하와이 호텔에서 목숨을 건 도주극을 벌인다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "시작과 부부싸움",
+        "summary": "결혼 기념 여행지 객실에서 바람 피우겠다는 남편 일휘의 말에 분노한 세원이 스탠드와 샴페인 병으로 남편을 기절시킨다."
+      },
+      {
+        "sectionTitle": "마피아의 추격",
+        "summary": "정신을 차린 일휘가 창밖을 구경하던 중 마피아의 살인과 총격전을 발견하고, 화장실에서 시체를 목격하고 도망치는 세원과 마주쳐 함께 도망친다."
+      },
+      {
+        "sectionTitle": "호텔 속의 도주극",
+        "summary": "마피아 조직원들의 소음총 세례를 피해 호텔 복도와 계단을 오르내리며 목숨을 건 코믹하고 아슬아슬한 도주가 이어지다 결국 위기를 맞이한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "장르적특징",
+        "value": "블랙 코미디와 액션 스릴러의 결합"
+      }
+    ],
+    "keyEntitiesText": "정일휘, 황세원, 제이미, 하데스(셰인)",
+    "settingText": "하와이의 한 호텔"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1EYlo6l5KgaIS7sigOaus9t7ol6pL-ugp",
+    "filename": "황세원-결혼기념일.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.453Z",
+    "size": "631010",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1EYlo6l5KgaIS7sigOaus9t7ol6pL-ugp/view?usp=drivesdk",
+    "sourceSha256": "e1e1179c411e4b0d9a35eb4b7f306a14e4f284df7199aacc2733fdd4f4cbde4e",
+    "textSha256": "3b3923d67a6a489a301a014c23fe1f032057275ef466229b9033c2479c50d703",
+    "changeKey": "014aadb9a24ad08d3268d972595d6b19",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e54ce379903750275860",
+    "workId": "e54ce379903750275860",
+    "driveFileId": "1EYlo6l5KgaIS7sigOaus9t7ol6pL-ugp",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:52:12.957238+00:00",
+    "updatedAt": "2026-09-24T08:52:12.957253+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:52:12.957365+00:00"
+    }
+  }
+}

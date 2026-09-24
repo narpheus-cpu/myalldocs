@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "우동 한그릇",
+    "author": "구리 료헤이",
+    "genre": "동화",
+    "tags": [
+      "우동",
+      "북해정",
+      "송년",
+      "가족",
+      "감동"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "구리 료헤이는 따뜻한 휴머니즘과 가슴 뭉클한 감동을 주는 이야기를 통해 전 세계 독자들에게 깊은 울림을 준 작가이다.",
+    "oneLineSummary": "섣달 그믐날 밤 우동 한 그릇을 나누며 꿋꿋이 살아간 세 모자와 우동집 주인 부부의 훈훈한 감동을 담은 이야기이다.",
+    "overallSummary": "매년 섣달 그믐날 밤, 자정이 가까운 시간에 우동집 '북해정'에 가난한 어머니와 두 아들이 찾아와 1인분의 우동을 시켜 나눠 먹는다. 주인 부부는 몰래 양을 더 많이 주며 이들을 따뜻하게 맞이한다. 세 모자는 빚을 갚기 위해 악착같이 일해 마침내 빚을 청산하고, 수년 뒤 훌륭하게 성장하여 의사와 은행원이 된 두 아들과 어머니가 떳떳하게 3인분의 우동을 주문하러 다시 북해정을 찾아온다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫 번째 섣달 그믐날",
+        "summary": "추운 섣달 그믐날 밤, 어머니와 두 아들이 북해정에 들어와 조심스럽게 우동 1인분을 주문하고 주인 부부는 몰래 양을 얹어준다."
+      },
+      {
+        "sectionTitle": "성장과 예약석",
+        "summary": "해마다 그믐날이면 찾아와 2인분을 시키는 세 모자의 사연을 알게 된 주인 부부는 2번 테이블을 '예약석'으로 비워두고 이들을 기다린다."
+      },
+      {
+        "sectionTitle": "14년 만의 재회",
+        "summary": "세월이 흘러 의사와 은행원으로 성장한 두 아들과 어머니가 떳떳하게 찾아와 3인분의 우동을 시키며 눈물의 재회를 이룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "역경을 이겨내는 가족의 사랑과 타인을 향한 따뜻한 배려"
+      }
+    ],
+    "keyEntitiesText": "엄마, 형(형아), 동생(쥰), 우동집 주인 부부",
+    "settingText": "일본 홋카이도 우동집 '북해정'"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1TOS6PAPAg5s88tNABkGHLtZIMGYb_e4b",
+    "filename": "구리 료헤이-우동 한그릇.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.642Z",
+    "size": "58239",
+    "folderPath": [
+      "books",
+      "02 일본 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/02 일본 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1TOS6PAPAg5s88tNABkGHLtZIMGYb_e4b/view?usp=drivesdk",
+    "sourceSha256": "4f9d7d9951729acff5eef9164a8f9ee10e970ac8ab28548496fb9e28e8027bf0",
+    "textSha256": "853f42487c7c42b7039590ee521923ca20754093d2a99c2333c9da7abc104ef7",
+    "changeKey": "4ab4f18805a22930d81a3a730ca4ae46",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7ddc84294d52c8efdd56",
+    "workId": "7ddc84294d52c8efdd56",
+    "driveFileId": "1TOS6PAPAg5s88tNABkGHLtZIMGYb_e4b",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:52:55.663369+00:00",
+    "updatedAt": "2026-09-24T08:52:55.663385+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:52:55.663501+00:00"
+    }
+  }
+}

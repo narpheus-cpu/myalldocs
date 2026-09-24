@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "별",
+    "author": "황순원",
+    "genre": "단편소설",
+    "tags": [
+      "어머니",
+      "누이",
+      "성장",
+      "추억",
+      "별"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황순원은 '소나기', '목넘이 마을의 개' 등으로 잘 알려진 한국 현대 단편소설의 거장으로, 인간의 순수성과 정서를 섬세하게 포착하는 작가이다.",
+    "oneLineSummary": "어머니의 부재 속에서 누이를 향한 애증과 그리움을 통해 성장해 가는 소년의 내면을 그린 소설이다.",
+    "overallSummary": "주인공 소년은 동네 노파의 말로 인해 이복누이의 얼굴에서 돌아간 어머니의 모습을 찾으려 하지만, 누이의 외모가 기대에 미치지 못하자 실망하고 누이에게 냉정하게 대한다. 누이가 자신을 감싸주거나 옥수수를 건네도 거칠게 거부한다. 누이가 연애 사건으로 아버지에게 매질을 당하고 결국 시집간 뒤 죽음을 맞이하자, 소년은 비로소 누이를 이해하고 눈물을 흘리며 밤하늘의 별에서 어머니와 누이를 떠올린다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "누이에 대한 반발",
+        "summary": "노파의 말을 듣고 누이에게서 어머니의 모습을 찾으려다 실망하고, 인형을 묻어버리며 누이에게 마음을 닫는 소년의 모습이다."
+      },
+      {
+        "sectionTitle": "마음의 갈등과 누이의 희생",
+        "summary": "자기를 감싸주는 누이의 거짓말과 옥수수 호의를 거부하면서도, 의붓어머니가 누이를 아끼는 모습을 보며 복잡한 감정을 느낀다."
+      },
+      {
+        "sectionTitle": "누이의 죽음과 깨달음",
+        "summary": "연애 사건으로 집안의 박해를 받다 시집간 누이가 비극적인 죽음을 맞이하자, 소년은 비로소 누이를 향한 그리움과 슬픔을 깨닫고 눈물 흘린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "어머니에 대한 그리움과 누이를 향한 사춘기 소년의 애증, 그리고 성장"
+      }
+    ],
+    "keyEntitiesText": "소년, 누이, 의붓어머니, 과수 노파",
+    "settingText": "평안남도 평양 부근의 시골 마을"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xhvBm5mwnJ0mJrmOIb97B65Va2scFZzD",
+    "filename": "황순원-별.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.493Z",
+    "size": "19956",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1xhvBm5mwnJ0mJrmOIb97B65Va2scFZzD/view?usp=drivesdk",
+    "sourceSha256": "db06e05c328f6f96a5acc1f52bf3952891a33c75b359935b65de52cf4e562055",
+    "textSha256": "7a312dfa2be0bf49b8c7d846f90bd086d83bedffcd733a72f1a9f1080a69ce58",
+    "changeKey": "9afc2e5670fe8fcbfb9424aafcbb0be8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "41d939f892b8ab5b90cd",
+    "workId": "41d939f892b8ab5b90cd",
+    "driveFileId": "1xhvBm5mwnJ0mJrmOIb97B65Va2scFZzD",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:52:19.428461+00:00",
+    "updatedAt": "2026-09-24T08:52:19.428477+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:52:19.428592+00:00"
+    }
+  }
+}

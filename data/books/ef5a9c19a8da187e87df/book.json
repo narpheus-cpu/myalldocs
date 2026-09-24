@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "할머니가 있는 풍경",
+    "author": "홍현숙",
+    "genre": "자전적 소설",
+    "tags": [
+      "이민",
+      "가족",
+      "정체성",
+      "한국",
+      "미국"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "essay_general_nonfiction",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "홍현숙은 한국에서 태어나 미국으로 이민하여 자란 작가로, 자신의 정체성을 찾아 고국을 방문하고 가족의 역사를 되짚는 이야기를 집필했다.",
+    "oneLineSummary": "미국에서 자란 한국계 이민 2세가 정체성의 혼란을 겪다 한국과 중국을 거치며 할머니와 어머니의 삶의 무게와 애국심을 깨닫는 이야기이다.",
+    "overallSummary": "스물다섯 살의 혜리는 미국 문화에 동화되어 한국적인 전통을 지닌 할머니와 어머니를 답답하게 여기며 반항한다. 하지만 자신의 뿌리와 정체성에 대한 의문으로 홀로 한국을 찾고, 이어 중국 상하이까지 여행하며 할머니가 겪었던 파란만장한 삶과 강인한 신념을 알게 된다. 가족의 희생과 한국인으로서의 자부심을 깨달아가는 과정을 그리고 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "스물다섯, 썩은 과일",
+        "summary": "결혼과 전통적 삶을 강요하는 어머니와 할머니에게 반발하며 미국식 삶을 추구하는 주인공의 모습과 이민 당시의 기억을 회상한다."
+      },
+      {
+        "sectionTitle": "한국 방문과 외당숙네",
+        "summary": "자신을 찾기 위해 편도 항공권을 끊고 홀로 서울에 도착하여 겪는 문화적 충격과 외당숙으로부터 할머니의 파란만장한 과거 이야기를 듣는다."
+      },
+      {
+        "sectionTitle": "중국과 상하이의 노부부",
+        "summary": "홍콩을 거쳐 중국으로 건너가 상하이에 사는 디아스포라 노부부를 만나고, 가족의 숨겨진 비극과 역사를 마주하게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "이민자의 정체성 탐구와 세대를 잇는 가족의 역사"
+      }
+    ],
+    "keyEntitiesText": "혜리, 할머니, 어머니, 외당숙",
+    "settingText": "미국 로스앤젤레스, 서울, 중국 상하이"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1cA4jkUs93xZ8aXO0QlG8EJvsIfLMsYI_",
+    "filename": "홍현숙-할머니가 있는 풍경.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.190Z",
+    "size": "566101",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1cA4jkUs93xZ8aXO0QlG8EJvsIfLMsYI_/view?usp=drivesdk",
+    "sourceSha256": "4b6f925ec4704f38d031533286c8900c5f736b2d214ee187fff217783809d107",
+    "textSha256": "faad12a0bed41dbc3f03830c50c79181ca015662fb904376dcbe4e9d2b9c62b6",
+    "changeKey": "b24ddebb32d648ef8688d7b84e755405",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ef5a9c19a8da187e87df",
+    "workId": "ef5a9c19a8da187e87df",
+    "driveFileId": "1cA4jkUs93xZ8aXO0QlG8EJvsIfLMsYI_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:51:44.543317+00:00",
+    "updatedAt": "2026-09-24T08:51:44.543331+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:51:44.543428+00:00"
+    }
+  }
+}

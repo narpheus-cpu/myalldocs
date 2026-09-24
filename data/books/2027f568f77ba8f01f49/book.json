@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "11월의 비",
+    "author": "황명화",
+    "genre": "소설",
+    "tags": [
+      "사랑",
+      "이별",
+      "교통사고",
+      "회상",
+      "카르마"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "romance",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황명화는 감성적인 문체로 인간 내면의 사랑과 고통, 인연의 깊이를 그려내는 작가이다.",
+    "oneLineSummary": "교통사고로 의식불명에 빠진 연인을 두고 과거의 아픈 기억과 사랑을 회상하는 여인의 이야기이다.",
+    "overallSummary": "어느 날 새벽, 작가로 일하는 영은은 연인 현규가 교통사고로 의식불명 상태에 빠졌다는 전화를 받고 병원으로 급히 달려간다. 수술실 앞에서 사경을 헤매는 현규를 기다리며, 그와 처음 만났던 무례하고 강렬했던 첫 만남부터 서로에게 상처를 주며 사랑했던 고통스러운 시간들을 되짚어 본다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "Prologue",
+        "summary": "건즈 앤 로지스의 노래 'November November Rain'을 떠올리며 현규를 향한 복잡하고 애절한 사랑의 감정을 고백한다."
+      },
+      {
+        "sectionTitle": "1. 바르도(Bardo) - 응급실 앞에서",
+        "summary": "새벽에 걸려온 전화를 받고 영동 사거리의 병원으로 달려가 수술 중인 현규를 기다리며 절망하는 현재의 상황을 그린다."
+      },
+      {
+        "sectionTitle": "2. 바르도 - 첫 만남",
+        "summary": "대학 교정에서 친구를 기다리다 공중전화 부스 앞에서 무례한 사내인 현규를 처음 만나 겪었던 당혹스러운 일화를 회상한다."
+      },
+      {
+        "sectionTitle": "3. 바르도 - 카페에서의 대화",
+        "summary": "현규에게 이끌려 카페로 가서 겪은 기분 나쁘면서도 묘한 카리스마를 느꼈던 첫 대화의 기억을 떠올린다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "모티브",
+        "value": "티베트 사자의 서의 바르도(중간 상태) 개념과 팝송 인용"
+      }
+    ],
+    "keyEntitiesText": "영은, 현규, 성민",
+    "settingText": "오피스텔, 대학 캠퍼스, 병원 응급실"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1UdpC0FSsSuJnVmmuuoAhFMSwmtOkFXIu",
+    "filename": "황명화-11월의 비.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.213Z",
+    "size": "356878",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1UdpC0FSsSuJnVmmuuoAhFMSwmtOkFXIu/view?usp=drivesdk",
+    "sourceSha256": "d6b94240d7d2218fc0c0d9d8f0bcca68484c3b1e4d94770b66c57a44e1abfc35",
+    "textSha256": "fe8563a1eaac383d3a192cbfb74fbe166c1e4de8d5838ab5dd2969a42a539465",
+    "changeKey": "38631257b0942acb1d5c7f90a53ab356",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2027f568f77ba8f01f49",
+    "workId": "2027f568f77ba8f01f49",
+    "driveFileId": "1UdpC0FSsSuJnVmmuuoAhFMSwmtOkFXIu",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:51:52.716081+00:00",
+    "updatedAt": "2026-09-24T08:51:52.716096+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:51:52.716219+00:00"
+    }
+  }
+}

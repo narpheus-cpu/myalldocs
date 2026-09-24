@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "돈황의 불빛",
+    "author": "황인경",
+    "genre": "역사소설",
+    "tags": [
+      "백제",
+      "부흥운동",
+      "신라",
+      "이백",
+      "피아골"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황인경은 역사적 사실을 바탕으로 박진감 넘치고 웅장한 서사의 역사소설을 집필해 온 작가이다.",
+    "oneLineSummary": "백제 멸망 후 남악 피아골을 거점으로 항쟁을 벌인 백제 유민 장군 이백과 부대의 비장한 투쟁을 그린 역사소설이다.",
+    "overallSummary": "8세기 초, 백제가 망한 지 수십 년이 지난 시기. 남악 피아골의 원시림 동굴을 근거지 삼아 백제 부흥운동을 이어가는 노장군 이백의 부대가 신라 점령군의 간교한 계략과 전투 속에서 치열하게 싸우는 과정을 그린다. 신라군이 백제 청년들을 서라벌로 끌고 가려 한다는 정보를 접한 이백은 역습을 감행하지만, 적의 함정에 빠져 부대는 전멸 위기에 처하고 이백은 중상을 입는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 장군의 피",
+        "summary": "남악 피아골 노송 아래 은밀한 동굴에서 부상을 입고 돌아온 노장군 이백을 부하 여노가 극진히 치료하는 장면으로 시작된다."
+      },
+      {
+        "sectionTitle": "이백의 과거와 작전",
+        "summary": "사자성 함락 당시 가족을 잃었던 이백의 비극적 과거와 신라군의 청년 이송 작전을 저지하기 위해 출동하는 과정이 그려진다."
+      },
+      {
+        "sectionTitle": "전투의 패배",
+        "summary": "호송 부대를 습격했으나 이는 신라군의 위장 전술이었고, 수적 열세 속에서 아달의 부대가 전멸하고 손자 부용의 도움으로 이백이 도주하는 비극적 전투가 전개된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "망국의 한을 품고 끝까지 저항한 백제 유민들의 비장한 항전"
+      }
+    ],
+    "keyEntitiesText": "이백, 여노, 부용, 아달",
+    "settingText": "지리산 피아골, 남악, 합포 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1SEl4jVRvjUTZTVRpjYij62OkiqL8nOMH",
+    "filename": "황인경-돈황의 불빛.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.506Z",
+    "size": "689733",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1SEl4jVRvjUTZTVRpjYij62OkiqL8nOMH/view?usp=drivesdk",
+    "sourceSha256": "a3d94ce4ceb700581657d8f7f0e421c5c92bcd55e2c85831fa5606561dcb1ffa",
+    "textSha256": "764d6b16aea384509861e5f92c662fbd85c25074cdd945b29e57bae999b008c5",
+    "changeKey": "116544dfc0f17c9c5efadb50980a6086",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "5c80c502720fee3b9bcc",
+    "workId": "5c80c502720fee3b9bcc",
+    "driveFileId": "1SEl4jVRvjUTZTVRpjYij62OkiqL8nOMH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:52:25.195292+00:00",
+    "updatedAt": "2026-09-24T08:52:25.195308+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:52:25.195423+00:00"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "장길산",
+    "author": "황석영",
+    "genre": "역사소설",
+    "tags": [
+      "장길산",
+      "조선",
+      "숙종",
+      "활빈도",
+      "민중항쟁"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "fiction",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "황석영은 한국의 거장 작가로, 역사와 사회의 모순을 뚫고 살아가는 민중의 생명력을 대하소설 속에 담아내는 데 탁월하다.",
+    "oneLineSummary": "조선 숙종 시대를 배경으로 천민 출신의 의적 장길산의 파란만장한 삶과 민중들의 저항을 그린 대하소설이다.",
+    "overallSummary": "황해도 장산곶의 전설적인 매의 이야기로 서장을 열며 시작된다. 조선 후기 봉건 체제의 모순과 가혹한 수탈 속에서 천민으로 태어난 장길산이 광대, 백정, 노비 등 사회 밑바닥 사람들과 규합하여 의적패를 형성하고 관권에 맞서 민중의 영웅으로 성장해 나가는 과정을 방대하고 생생하게 그려낸 대작이다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서장 노상",
+        "summary": "장산곶의 매가 발목의 매듭 때문에 죽은 전설을 통해 민중의 한계와 저항의 의미를 암시하며 시작된다."
+      },
+      {
+        "sectionTitle": "서장 로상",
+        "summary": "벽란나루의 번잡한 풍경 속에서 도망친 사비를 쫓는 포교와 겸인의 모습, 그리고 시대의 뒤를 살아가는 민중들의 다양한 군상을 보여준다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "봉건사회 타파를 향한 민중의 열망과 의적 장길산의 일대기"
+      }
+    ],
+    "keyEntitiesText": "장길산, 기찰포교, 겸인, 어부들",
+    "settingText": "조선 시대 황해도 장산곶, 벽란나루, 개성 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pm538MGepJVSWOTutlbFUbfVbvjJ5LdF",
+    "filename": "황석영-장길산(전집).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:02.257Z",
+    "size": "7141651",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1pm538MGepJVSWOTutlbFUbfVbvjJ5LdF/view?usp=drivesdk",
+    "sourceSha256": "e2ade23fec81a93b9e4c611f150cdcdbc360235c6cf15cd857850a319009a064",
+    "textSha256": "e73f4561ef407c23cd533902d5c884b9769296c4c2c3b24b3862f71ed4786c26",
+    "changeKey": "1eba6a62dcb04bdc56037821cf32d07a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e2428dec74e782269872",
+    "workId": "e2428dec74e782269872",
+    "driveFileId": "1pm538MGepJVSWOTutlbFUbfVbvjJ5LdF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:52:06.366465+00:00",
+    "updatedAt": "2026-09-24T08:52:06.366480+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:52:06.366577+00:00"
+    }
+  }
+}
