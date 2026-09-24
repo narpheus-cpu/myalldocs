@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나의 이솝우화",
+    "author": "홍사중",
+    "genre": "인문 에세이",
+    "tags": [
+      "이솝우화",
+      "처세술",
+      "인생교훈",
+      "우화"
+    ],
+    "workProfile": {
+      "primary": "essay_general_nonfiction",
+      "secondary": [
+        "fiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "이솝우화에 담긴 어른들을 위한 처세와 인생의 지혜를 현대적 관점에서 재해석한 에세이.",
+    "overallSummary": "노예 출신 이솝이 남긴 우화들을 통해 인간의 이성과 본성, 사회적 관계 속에서 살아남기 위한 현실적인 지혜와 교훈을 유머러스하게 풀어낸다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "이솝, 제우스, 프로메테우스",
+    "settingText": "고대 그리스"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1jVUaDx2VbPHTHNDn6VOj9h1J7Z_S7V06",
+    "filename": "홍사중-나의 이솝우화(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T23:52:10.000Z",
+    "size": "708550",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1jVUaDx2VbPHTHNDn6VOj9h1J7Z_S7V06/view?usp=drivesdk",
+    "sourceSha256": "5bbba7488c67e4181c73bf024f63d10c37160773c837dd0444bbf5de1f80a5a9",
+    "textSha256": "a072c29e52c0c8f4d57fba61beed13c3c0e5b979b1b197c58e165a6bf9f964e6",
+    "changeKey": "ec01b5444aef682453fb275edb0e022a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "45b71b712d6897ce6d28",
+    "workId": "45b71b712d6897ce6d28",
+    "driveFileId": "1jVUaDx2VbPHTHNDn6VOj9h1J7Z_S7V06",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T03:18:06.521205+00:00",
+    "updatedAt": "2026-09-24T03:18:06.521221+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T03:18:06.521312+00:00"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나의 논어",
+    "author": "홍사중",
+    "genre": "인문 에세이",
+    "tags": [
+      "논어",
+      "공자",
+      "동양철학",
+      "인생지혜"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "공자의 인간적인 면모와 논어의 가르침을 현대적 시각에서 재해석한 인문 에세이.",
+    "overallSummary": "성인으로만 추앙받던 공자를 고뇌하고 슬퍼하는 평범한 인간으로 끌어내려, 현대인들이 논어의 지혜에 보다 친근하게 다가갈 수 있도록 돕는다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "공자, 자로, 자공",
+    "settingText": "춘추시대 중국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uTgTUw3NoF0iUItN_ftXnBOVCTjulqQ8",
+    "filename": "홍사중-나의 논어(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T23:48:08.000Z",
+    "size": "891250",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1uTgTUw3NoF0iUItN_ftXnBOVCTjulqQ8/view?usp=drivesdk",
+    "sourceSha256": "979f2fb647517e18de7c2b3edc38d397b92aac2f8908fb25a2d53f0ae8679686",
+    "textSha256": "8455e36cac0da22ee40851fe6bb3330ef247040ab950bee27a98d3a993d78287",
+    "changeKey": "8ce74b4b6b3d2364f0a8261ef8758ca4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "02234bac1e2671bf6b8a",
+    "workId": "02234bac1e2671bf6b8a",
+    "driveFileId": "1uTgTUw3NoF0iUItN_ftXnBOVCTjulqQ8",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T03:17:30.655782+00:00",
+    "updatedAt": "2026-09-24T03:17:30.655799+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T03:17:30.655892+00:00"
+    }
+  }
+}

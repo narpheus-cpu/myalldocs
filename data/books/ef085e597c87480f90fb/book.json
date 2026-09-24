@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "홍길동전",
+    "author": "허균",
+    "genre": "고전소설",
+    "tags": [
+      "최초의한글소설",
+      "의적",
+      "신분제도극복",
+      "율도국"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "조선 시대 서자 출신의 홍길동이 사회적 모순에 저항하며 활빈당을 이끌고 최종적으로 율도국을 건설하는 이야기.",
+    "overallSummary": "아버지를 아버지라 부르지 못하는 서자의 한을 품은 홍길동이 도술을 배워 활빈당을 조직하고 탐관오리를 징벌한 뒤, 조선을 떠나 율도국을 정벌하여 왕이 되는 이상향을 그린다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "홍길동, 홍판서, 초낭, 특자",
+    "settingText": "조선 및 율도국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "19F_eLqaHNeQKH5xBYxGFHrVXIFf09jgl",
+    "filename": "홍길동전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:15:42.267Z",
+    "size": "97582",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/19F_eLqaHNeQKH5xBYxGFHrVXIFf09jgl/view?usp=drivesdk",
+    "sourceSha256": "a6ca339d236033b9e4bad0606d89f2b69eb39100ce3b3832ba796767ffdd2299",
+    "textSha256": "2f46ba56a2742bf62d573f2848dd64aeebd5c97d1dd2dfd477e1b194ffb1584a",
+    "changeKey": "43f3dcee57172d392059bd30bf7083f8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "ef085e597c87480f90fb",
+    "workId": "ef085e597c87480f90fb",
+    "driveFileId": "19F_eLqaHNeQKH5xBYxGFHrVXIFf09jgl",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T03:17:16.573538+00:00",
+    "updatedAt": "2026-09-24T03:17:16.573558+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.82,
+      "updatedAt": "2026-09-24T03:17:16.573651+00:00"
+    }
+  }
+}

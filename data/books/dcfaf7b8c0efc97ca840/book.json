@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "나의 장자",
+    "author": "홍사중",
+    "genre": "철학 에세이",
+    "tags": [
+      "장자",
+      "도가사상",
+      "소요유",
+      "자유"
+    ],
+    "workProfile": {
+      "primary": "philosophy",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "장자의 우화와 사상을 통해 세속적 속박에서 벗어나 절대적 자유를 누리는 삶의 태도를 제시하는 책.",
+    "overallSummary": "대붕과 메추라기, 달팽이 뿔 위의 싸움 등 장자의 기상천외한 우화들을 통해 인간의 왜소함과 세속적 집착의 덧없음을 깨닫고 자연에 순응하는 삶을 권한다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "장자, 혜자, 대붕",
+    "settingText": "전국시대 중국"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "162YACu9yAZcxBE4QVL2OoQIj2Z6i9_4g",
+    "filename": "홍사중-나의 장자(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-13T23:53:44.000Z",
+    "size": "622479",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/162YACu9yAZcxBE4QVL2OoQIj2Z6i9_4g/view?usp=drivesdk",
+    "sourceSha256": "82dbb018377f5b0ac6b42c4bda65c8a7357d111bbb644f677cf22555645ff93f",
+    "textSha256": "321b4c26eb05afc00e235d80bedda7125451991be7243ebfeabe4403c01afc5e",
+    "changeKey": "05f7656d1d08a9f10d2367d460b26bd7",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "dcfaf7b8c0efc97ca840",
+    "workId": "dcfaf7b8c0efc97ca840",
+    "driveFileId": "162YACu9yAZcxBE4QVL2OoQIj2Z6i9_4g",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T03:18:25.839913+00:00",
+    "updatedAt": "2026-09-24T03:18:25.839928+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T03:18:25.840018+00:00"
+    }
+  }
+}

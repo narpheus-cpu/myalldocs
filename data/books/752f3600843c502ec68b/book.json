@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "일리아스/오디세이아",
+    "author": "호메로스",
+    "genre": "고전 서사시",
+    "tags": [
+      "그리스신화",
+      "트로이전쟁",
+      "아킬레우스",
+      "서사시"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": [
+        "fiction",
+        "drama"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "",
+    "oneLineSummary": "아킬레우스의 분노와 트로이 전쟁을 둘러싼 인간과 신들의 갈등을 다룬 고대 그리스의 대표 서사시.",
+    "overallSummary": "아가멤논과의 갈등으로 분노한 아킬레우스가 전투를 거부하면서 아카이아군이 위기에 처하고, 신들과 영웅들이 얽히며 트로이 전쟁의 비극이 심화되는 과정을 그린다.",
+    "sectionSummaries": [],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [],
+    "keyEntitiesText": "아킬레우스, 아가멤논, 아폴론, 헥토르, 파리스, 헬레네",
+    "settingText": "고대 그리스 및 트로이"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1T0slKLT-8LiMyFuLMnNobVJDOOBzn-cZ",
+    "filename": "호메로스-일리아스, 오디세이아(동서문화사)-(epub ocr).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2023-07-02T14:20:26.000Z",
+    "size": "2452700",
+    "folderPath": [
+      "books",
+      "00 동서양 고전"
+    ],
+    "relativePath": "books/00 동서양 고전",
+    "webViewLink": "https://drive.google.com/file/d/1T0slKLT-8LiMyFuLMnNobVJDOOBzn-cZ/view?usp=drivesdk",
+    "sourceSha256": "28c931c530af4c5fd420359a95a17f72e638b15a1d0fb5003f5b0c603f9d60ef",
+    "textSha256": "b28a5780f67cc39aa0fc5d3faf0eb11b2f161a0b4d28557f76fbbbcdb6e5f024",
+    "changeKey": "748b0ddf4866e67f0c52531833ed8fdd",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "752f3600843c502ec68b",
+    "workId": "752f3600843c502ec68b",
+    "driveFileId": "1T0slKLT-8LiMyFuLMnNobVJDOOBzn-cZ",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T03:16:56.050869+00:00",
+    "updatedAt": "2026-09-24T03:16:56.050885+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T03:16:56.050961+00:00"
+    }
+  }
+}
