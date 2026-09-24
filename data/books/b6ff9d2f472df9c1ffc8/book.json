@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "사랑의 이름으로",
+    "author": "한수산",
+    "genre": "장편소설",
+    "tags": [
+      "사랑",
+      "운명",
+      "비극",
+      "인생"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "로맨스"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보 없음.",
+    "oneLineSummary": "사랑의 이름으로 겪는 운명과 비극적인 인생 이야기.",
+    "overallSummary": "사랑이라는 이름으로 겪게 되는 운명적인 만남과 비극적인 인생의 여정을 다루며, 사랑의 본질을 묻는다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "전반부",
+        "summary": "주인공이 운명적인 사랑을 만나게 되는 과정."
+      },
+      {
+        "sectionTitle": "후반부",
+        "summary": "사랑으로 인해 겪게 되는 비극과 그 속에서 깨닫는 인생의 의미."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "사랑의 이름으로 겪는 운명과 비극."
+      },
+      {
+        "key": "특징",
+        "value": "운명적인 사랑을 다룬 로맨스적 요소."
+      }
+    ],
+    "keyEntitiesText": "주인공, 그녀",
+    "settingText": "현대 한국의 도시."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1z5tPNie2-c8UVhhyYU8CaxkG882AP87c",
+    "filename": "한수산-사랑의 이름으로.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.661Z",
+    "size": "396718",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1z5tPNie2-c8UVhhyYU8CaxkG882AP87c/view?usp=drivesdk",
+    "sourceSha256": "f20596482949ee4a7f876bf4ea3181695fd0cc08512fd1e028ab2e6d7f856216",
+    "textSha256": "44a912803a2b59e9893e7188a517077f4d9c768ae6cd65a56817ab5db849e74a",
+    "changeKey": "7c87b619f6a8a30c335f5a6cd3afd8d9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b6ff9d2f472df9c1ffc8",
+    "workId": "b6ff9d2f472df9c1ffc8",
+    "driveFileId": "1z5tPNie2-c8UVhhyYU8CaxkG882AP87c",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:26:53.503660+00:00",
+    "updatedAt": "2026-09-24T08:26:53.503676+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:26:53.503781+00:00"
+    }
+  }
+}

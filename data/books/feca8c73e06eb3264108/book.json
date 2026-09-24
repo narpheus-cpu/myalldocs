@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "노랑무늬영원",
+    "author": "한강",
+    "genre": "소설집",
+    "tags": [
+      "상처",
+      "치유",
+      "고통",
+      "기억"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1970년 광주 출생. 2024년 노벨문학상 수상 작가.",
+    "oneLineSummary": "발목의 화상과 언니의 죽음이라는 고통을 통해 삶의 의미를 되새기는 이야기.",
+    "overallSummary": "발목에 입은 화상이라는 신체적 고통과 언니의 죽음이라는 정신적 상처를 겪는 주인공이, 고통의 시간을 통과하며 삶의 의미를 찾아가는 과정을 담담하게 서술한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "전반부",
+        "summary": "주인공은 발목에 심한 화상을 입고 치료를 받으며, 자신의 고통과 언니의 죽음을 회상한다."
+      },
+      {
+        "sectionTitle": "후반부",
+        "summary": "고통 속에서도 자전거를 타며 생의 기쁨을 느끼고, 상처가 치유되는 과정을 통해 삶을 긍정하려 노력한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "고통을 통해 삶의 본질을 직시하고 치유로 나아가는 과정."
+      },
+      {
+        "key": "상징",
+        "value": "발목의 화상은 지울 수 없는 삶의 상처를 상징함."
+      }
+    ],
+    "keyEntitiesText": "주인공, 언니, 의사",
+    "settingText": "병원, 원룸, 도시의 일상 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "171T_Gk9BM7YjcYZ1OWv8cFB_-kIVkIbH",
+    "filename": "한강-노랑 무늬 영원 한 강 소설집 (epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.250Z",
+    "size": "384452",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "한강"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/한강",
+    "webViewLink": "https://drive.google.com/file/d/171T_Gk9BM7YjcYZ1OWv8cFB_-kIVkIbH/view?usp=drivesdk",
+    "sourceSha256": "29755d7acf0192261f7e5a723104fa040db6ddd86ee15bb97b393b1b46033a6a",
+    "textSha256": "e075196fcf4a4849c39188429c31cc376d01594415291b06b13684bb1775a74e",
+    "changeKey": "67bcf5ce71ddb6d44eabdb66a642affb",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "feca8c73e06eb3264108",
+    "workId": "feca8c73e06eb3264108",
+    "driveFileId": "171T_Gk9BM7YjcYZ1OWv8cFB_-kIVkIbH",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:25:14.672533+00:00",
+    "updatedAt": "2026-09-24T08:25:14.672550+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:25:14.672662+00:00"
+    }
+  }
+}

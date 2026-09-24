@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "먼 그날 같은 오늘",
+    "author": "한수산",
+    "genre": "장편소설",
+    "tags": [
+      "이별",
+      "기억",
+      "시간",
+      "여행"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "심리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보 없음.",
+    "oneLineSummary": "과거의 기억과 이별을 통해 현재를 살아가는 이야기.",
+    "overallSummary": "과거의 기억과 이별을 통해 현재를 살아가는 인물들의 심리를 다루며, 시간의 흐름 속에서 변해가는 삶의 모습을 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "겨울안개는 깊지 않다",
+        "summary": "과거의 기억과 이별을 마주하는 주인공의 심리."
+      },
+      {
+        "sectionTitle": "밤기차",
+        "summary": "여행을 통해 과거를 정리하고 현재를 살아가는 이야기."
+      },
+      {
+        "sectionTitle": "사막에서 쓴 편지",
+        "summary": "사막이라는 공간에서 과거를 회상하며 현재를 성찰하는 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "과거의 기억과 이별을 통한 현재의 성찰."
+      },
+      {
+        "key": "특징",
+        "value": "시간의 흐름에 따른 인물의 심리 변화 묘사."
+      }
+    ],
+    "keyEntitiesText": "주인공, 경미, 신애",
+    "settingText": "현대 한국과 여행지."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1ciwvy-GZfZBLqG7aOTeeKCYEHojePPYd",
+    "filename": "한수산-먼 그날 같은 오늘.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.580Z",
+    "size": "471370",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1ciwvy-GZfZBLqG7aOTeeKCYEHojePPYd/view?usp=drivesdk",
+    "sourceSha256": "9ca4d0e8b5d4b78c4ead53e6eddaf21e6cd97b2c59ef556f86a29f78a8ee7e63",
+    "textSha256": "63c44350b461a56992b73ff002b80091d5b40120c4d241c61df72504726ad73a",
+    "changeKey": "45e07bc5cc8d21c60d6468774dbee499",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "176d1cd8a9cc9f35f208",
+    "workId": "176d1cd8a9cc9f35f208",
+    "driveFileId": "1ciwvy-GZfZBLqG7aOTeeKCYEHojePPYd",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:26:39.740077+00:00",
+    "updatedAt": "2026-09-24T08:26:39.740093+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:26:39.740238+00:00"
+    }
+  }
+}

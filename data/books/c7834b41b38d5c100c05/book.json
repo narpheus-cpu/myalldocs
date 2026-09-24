@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "잘돼갑니다",
+    "author": "한운사",
+    "genre": "장편소설",
+    "tags": [
+      "정치",
+      "권력",
+      "현대사",
+      "풍자"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "정치소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보 없음.",
+    "oneLineSummary": "이승만 정권 시절의 정치적 상황을 풍자적으로 다룬 소설.",
+    "overallSummary": "이승만 정권 시절의 정치적 상황과 권력의 속성을 풍자적으로 다루며, 당시의 사회상을 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "전반부",
+        "summary": "이승만 정권의 권력 구조와 그 속에서 살아가는 사람들의 모습."
+      },
+      {
+        "sectionTitle": "후반부",
+        "summary": "권력의 속성과 그로 인한 사회적 갈등과 풍자."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "권력의 속성과 정치적 풍자."
+      },
+      {
+        "key": "특징",
+        "value": "정치적 상황을 풍자적으로 묘사함."
+      }
+    ],
+    "keyEntitiesText": "이대통령, 왕비서실장, 조용한(이발사)",
+    "settingText": "경무대, 서울."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1bAiu7DUU_eTHIXsJ1CJtJlIwSrAX-_tB",
+    "filename": "한운사-잘돼갑니다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.780Z",
+    "size": "357927",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1bAiu7DUU_eTHIXsJ1CJtJlIwSrAX-_tB/view?usp=drivesdk",
+    "sourceSha256": "0d9af260cee9e5054cf4f35c6a38839da140a85dba93a439a6cc79951a53a20d",
+    "textSha256": "1547366b896b336f9d6042da88926e1908f8bbe9559efca1987d5e79eb2e8d76",
+    "changeKey": "01302c27a67ac228161392ec2ceb7ed6",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c7834b41b38d5c100c05",
+    "workId": "c7834b41b38d5c100c05",
+    "driveFileId": "1bAiu7DUU_eTHIXsJ1CJtJlIwSrAX-_tB",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:27:08.412074+00:00",
+    "updatedAt": "2026-09-24T08:27:08.412090+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:27:08.412236+00:00"
+    }
+  }
+}

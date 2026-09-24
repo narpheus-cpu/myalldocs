@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "흰",
+    "author": "한강",
+    "genre": "장편소설",
+    "tags": [
+      "흰색",
+      "상처",
+      "기억",
+      "치유"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "에세이",
+        "산문"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1970년 광주 출생. 2024년 노벨문학상 수상 작가.",
+    "oneLineSummary": "세상의 모든 흰 것들을 통해 삶과 죽음, 상처를 성찰하는 이야기.",
+    "overallSummary": "세상의 모든 흰 것들을 소재로 하여, 작가 자신의 내면적 상처와 삶과 죽음에 대한 성찰을 담담하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "나",
+        "summary": "흰 것들에 대한 목록을 만들며 자신의 내면을 들여다본다."
+      },
+      {
+        "sectionTitle": "그녀",
+        "summary": "어머니의 첫 아기였던 언니의 죽음을 통해 삶과 죽음을 성찰한다."
+      },
+      {
+        "sectionTitle": "모든 흰",
+        "summary": "세상의 모든 흰 것들을 통해 상처를 치유하고 삶을 긍정한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징",
+        "value": "흰색은 삶과 죽음, 상처와 치유를 동시에 상징함."
+      },
+      {
+        "key": "주제",
+        "value": "상처를 안고 살아가는 삶에 대한 성찰과 긍정."
+      }
+    ],
+    "keyEntitiesText": "작가 본인, 언니",
+    "settingText": "도시의 일상 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1gzZii4oYQFb5NVoQ7rHyFLChV_OPPbuF",
+    "filename": "한강-흰(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.418Z",
+    "size": "131509",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "한강"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/한강",
+    "webViewLink": "https://drive.google.com/file/d/1gzZii4oYQFb5NVoQ7rHyFLChV_OPPbuF/view?usp=drivesdk",
+    "sourceSha256": "3bb7904c6c8201df6adbc9553de51df4be8723e89bbd991f29579e34b83f3c4c",
+    "textSha256": "425d5b576c236afc07ee5581427a357014cf398bf9d3a6445f861c8404e9b1df",
+    "changeKey": "6083d247dec43ebde366054302d1fa49",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "e0bb5f29976840347ce3",
+    "workId": "e0bb5f29976840347ce3",
+    "driveFileId": "1gzZii4oYQFb5NVoQ7rHyFLChV_OPPbuF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:25:58.206031+00:00",
+    "updatedAt": "2026-09-24T08:25:58.206047+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:25:58.206162+00:00"
+    }
+  }
+}

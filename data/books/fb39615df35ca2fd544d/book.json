@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "모든 것에 이별을",
+    "author": "한수산",
+    "genre": "장편소설",
+    "tags": [
+      "이별",
+      "상실",
+      "기억",
+      "성장"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "심리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보 없음.",
+    "oneLineSummary": "모든 것에 이별을 고하며 성장해가는 한 여자의 이야기.",
+    "overallSummary": "모든 것에 이별을 고하며 상실을 겪고 성장해가는 한 여자의 심리를 다루며, 삶의 의미를 되새긴다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "겨울바다에서",
+        "summary": "이별을 앞두고 겨울바다에서 자신의 삶을 성찰하는 주인공."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "이별과 상실을 통한 인간의 성장."
+      },
+      {
+        "key": "특징",
+        "value": "인물의 내면 심리를 섬세하게 묘사함."
+      }
+    ],
+    "keyEntitiesText": "주인공(혜련), 경미",
+    "settingText": "현대 한국의 도시와 바다."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1dMI7OSh7s0LfOCNc6UbkJX6g3ie7UVid",
+    "filename": "한수산-모든 것에 이별을.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.600Z",
+    "size": "594862",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1dMI7OSh7s0LfOCNc6UbkJX6g3ie7UVid/view?usp=drivesdk",
+    "sourceSha256": "b30c3792da90e04e2e1beaa1feada6f7f765bf0b8e9b941774eadc955eb76d87",
+    "textSha256": "f2619358a073758ffb6ba36908d5a3196d2a54107ff93f25cc4401d42309bcb1",
+    "changeKey": "7f1a9be00f709f5013472d2d297f4be0",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fb39615df35ca2fd544d",
+    "workId": "fb39615df35ca2fd544d",
+    "driveFileId": "1dMI7OSh7s0LfOCNc6UbkJX6g3ie7UVid",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:26:46.610240+00:00",
+    "updatedAt": "2026-09-24T08:26:46.610256+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:26:46.610373+00:00"
+    }
+  }
+}

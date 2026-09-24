@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "먼 데서 온 손님",
+    "author": "한석청",
+    "genre": "소설집",
+    "tags": [
+      "신앙",
+      "일상",
+      "가족",
+      "고독"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보 없음.",
+    "oneLineSummary": "일상 속에서 신앙과 가족의 의미를 되새기는 이야기들.",
+    "overallSummary": "일상적인 삶 속에서 신앙을 실천하려는 인물들의 모습과 가족 간의 갈등, 그리고 그 속에서 느끼는 고독과 치유를 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "위대한 술꾼",
+        "summary": "가톨릭 신앙을 가진 남편이 술과 신앙 사이에서 겪는 갈등과 가족들의 시선."
+      },
+      {
+        "sectionTitle": "제사",
+        "summary": "부친의 제사를 둘러싸고 가족 간에 벌어지는 종교적 갈등과 화해."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "일상 속의 신앙과 가족 간의 갈등, 그리고 화해."
+      },
+      {
+        "key": "특징",
+        "value": "가톨릭 신앙을 배경으로 한 인물들의 내면 묘사."
+      }
+    ],
+    "keyEntitiesText": "희영, 사비나, 샘플 1, 샘플 2",
+    "settingText": "현대 한국의 가정과 사회."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1B6KGGnL0_i15AVNBoXabfvZu6IrF2j6W",
+    "filename": "한석청-먼데서 온 손님.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.564Z",
+    "size": "380323",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1B6KGGnL0_i15AVNBoXabfvZu6IrF2j6W/view?usp=drivesdk",
+    "sourceSha256": "9d34e85224678e86476ed2925fb4dbef3a055aeb23eb62a819bb5f44f2c0f803",
+    "textSha256": "7396a6a041363cf327db3e6d197e501db27a0903c4d9aee2f50f936afff1e28e",
+    "changeKey": "dbb3af3bde3b229f7b85e30edfbabe2a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "9e7136e49a1fe2267205",
+    "workId": "9e7136e49a1fe2267205",
+    "driveFileId": "1B6KGGnL0_i15AVNBoXabfvZu6IrF2j6W",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:26:33.115364+00:00",
+    "updatedAt": "2026-09-24T08:26:33.115378+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:26:33.115472+00:00"
+    }
+  }
+}

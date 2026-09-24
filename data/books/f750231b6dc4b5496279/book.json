@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "희랍어 시간",
+    "author": "한강",
+    "genre": "장편소설",
+    "tags": [
+      "언어",
+      "상실",
+      "교감",
+      "희랍어"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "심리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1970년 광주 출생. 2024년 노벨문학상 수상 작가.",
+    "oneLineSummary": "언어를 잃어가는 여자와 시력을 잃어가는 남자가 희랍어 수업에서 만나 교감하는 이야기.",
+    "overallSummary": "언어를 잃어가는 여자와 시력을 잃어가는 남자가 희랍어 수업에서 만나, 언어와 빛이 사라져가는 세상 속에서 서로의 고통을 이해하고 교감하는 과정을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "전반부",
+        "summary": "언어를 잃어가는 여자가 희랍어 수업을 듣기 시작하고, 시력을 잃어가는 남자인 강사를 만난다."
+      },
+      {
+        "sectionTitle": "후반부",
+        "summary": "두 사람은 서로의 상실을 이해하며, 언어와 빛을 넘어선 깊은 교감을 나눈다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "상징",
+        "value": "언어와 시력의 상실은 인간 존재의 근원적 고립을 상징함."
+      },
+      {
+        "key": "주제",
+        "value": "상실을 겪는 두 존재가 언어를 넘어선 교감을 통해 치유로 나아가는 과정."
+      }
+    ],
+    "keyEntitiesText": "여자, 남자(강사)",
+    "settingText": "희랍어 학원."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BGy6-4dTkNEMz6Afwlz8xTrp7ZQx-cEr",
+    "filename": "한강-희랍어 시간(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.404Z",
+    "size": "245770",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "한강"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/한강",
+    "webViewLink": "https://drive.google.com/file/d/1BGy6-4dTkNEMz6Afwlz8xTrp7ZQx-cEr/view?usp=drivesdk",
+    "sourceSha256": "60bd446d0e6434276130ca3b66028aa69ab5c82df9aec4f710a2842c0d8660bb",
+    "textSha256": "c0477f95918a50ae5b162e0742d5f1777673760b1191ca940ef7449c074c51bc",
+    "changeKey": "730faccd82e2a87e4a0687940af11c78",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f750231b6dc4b5496279",
+    "workId": "f750231b6dc4b5496279",
+    "driveFileId": "1BGy6-4dTkNEMz6Afwlz8xTrp7ZQx-cEr",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:25:51.884755+00:00",
+    "updatedAt": "2026-09-24T08:25:51.884771+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:25:51.884886+00:00"
+    }
+  }
+}

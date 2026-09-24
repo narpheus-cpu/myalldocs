@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "그대의 차가운 손",
+    "author": "한강",
+    "genre": "장편소설",
+    "tags": [
+      "예술",
+      "조각",
+      "실종",
+      "인간의 내면"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "미스터리",
+        "심리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1970년 광주 출생. 1994년 서울신문 신춘문예로 등단. 노벨문학상 수상 작가.",
+    "oneLineSummary": "실종된 조각가 장운형의 흔적을 쫓으며 인간의 껍데기와 그 속의 어둠을 탐구하는 이야기.",
+    "overallSummary": "조각가 장운형의 실종 사건을 중심으로, 그의 작품 세계와 그를 둘러싼 인물들의 심리를 추적한다. 라이프캐스팅이라는 기법을 통해 인간의 육체를 석고로 떠내는 작가의 행위는 껍데기 뒤에 숨겨진 인간의 본질과 내면의 공동(空洞)을 드러내며, 예술과 인간 존재의 관계를 깊이 있게 성찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 및 1~2장",
+        "summary": "화자인 '나'는 우연히 K시와 인사동에서 기이한 조각들을 보게 되고, 그 작가 장운형의 작품이 가진 섬뜩한 매혹에 사로잡힌다."
+      },
+      {
+        "sectionTitle": "3~4장",
+        "summary": "대학 후배의 연극 소품으로 장운형의 작품을 다시 마주한 '나'는 뒤풀이 자리에서 작가 본인을 만나고, 그에게 모델 제안을 받는다."
+      },
+      {
+        "sectionTitle": "5장",
+        "summary": "장운형의 여동생으로부터 그가 실종되었다는 연락을 받고, 그가 남긴 글을 통해 그의 내면과 실종의 비밀에 다가서게 된다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "예술관",
+        "value": "라이프캐스팅을 통해 인간의 껍데기와 그 속의 어둠을 시각화함."
+      },
+      {
+        "key": "주제 의식",
+        "value": "인간 존재의 본질과 껍데기, 내면의 고독과 상처에 대한 탐구."
+      }
+    ],
+    "keyEntitiesText": "나(화자), 장운형(조각가), 선영(대학 후배), 장운형의 여동생",
+    "settingText": "K시, 인사동, 대학로 등 현대 한국의 도시 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1K3Feqjsrsbhrejlf3y8AvKD__bb16-TC",
+    "filename": "한강-그대 의 차가운 손 한 강 장편 소설- A(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.206Z",
+    "size": "526854",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "한강"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/한강",
+    "webViewLink": "https://drive.google.com/file/d/1K3Feqjsrsbhrejlf3y8AvKD__bb16-TC/view?usp=drivesdk",
+    "sourceSha256": "7d758dcd5a189cf5bfcbcea63030a1d22b3ec248312c0af353708d54d9955457",
+    "textSha256": "130fe991c283f13c2e9ead8fceb649b64d04121279db349903f145aafdce207b",
+    "changeKey": "79fe7621a5d52e72ebbde994a6373b2d",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6e4cad8eb22fad8d02ae",
+    "workId": "6e4cad8eb22fad8d02ae",
+    "driveFileId": "1K3Feqjsrsbhrejlf3y8AvKD__bb16-TC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:24:58.279713+00:00",
+    "updatedAt": "2026-09-24T08:24:58.279728+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:24:58.279838+00:00"
+    }
+  }
+}

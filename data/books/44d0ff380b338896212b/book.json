@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "욕망의 게임",
+    "author": "한만수",
+    "genre": "장편소설",
+    "tags": [
+      "욕망",
+      "성공",
+      "도시",
+      "현대사회"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "현대소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보 없음.",
+    "oneLineSummary": "비정한 도시에서 성공을 향해 질주하는 한 남자의 욕망과 사랑 이야기.",
+    "overallSummary": "현대 사회의 비정한 도시를 배경으로, 성공과 야망을 위해 질주하는 주인공 박찬호의 삶과 그를 둘러싼 사랑과 욕망의 게임을 다룬다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부",
+        "summary": "박찬호가 성공을 위해 야망을 불태우며 오수미를 만나게 되는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "현대 사회에서의 성공과 야망, 그 이면의 욕망."
+      },
+      {
+        "key": "특징",
+        "value": "비정한 도시를 배경으로 한 인물의 심리 묘사."
+      }
+    ],
+    "keyEntitiesText": "박찬호, 오수미, 김 부장",
+    "settingText": "현대 한국의 도시 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1WYA2whLIyjGAOQ5lDo-iuz1kTSYgrded",
+    "filename": "한만수-욕망의 게임.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.541Z",
+    "size": "698533",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1WYA2whLIyjGAOQ5lDo-iuz1kTSYgrded/view?usp=drivesdk",
+    "sourceSha256": "b7867942762f1eeb18956c992675ef8f8779913800c4e83e4584778c771109c4",
+    "textSha256": "88cc0b993bb433e706fda72cfd006a680aa24982f14a08e4a96c6c1566bdb3a0",
+    "changeKey": "f7c2fa79d58ea94f8cf2e941de7c0020",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "44d0ff380b338896212b",
+    "workId": "44d0ff380b338896212b",
+    "driveFileId": "1WYA2whLIyjGAOQ5lDo-iuz1kTSYgrded",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:26:26.427008+00:00",
+    "updatedAt": "2026-09-24T08:26:26.427021+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:26:26.427117+00:00"
+    }
+  }
+}

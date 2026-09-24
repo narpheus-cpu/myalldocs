@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "아제아제 바라아제",
+    "author": "한승원",
+    "genre": "장편소설",
+    "tags": [
+      "구도",
+      "불교",
+      "자유",
+      "수행"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "구도소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1939년 전남 장흥 출생. 소설가.",
+    "oneLineSummary": "두 여승의 삶을 통해 참다운 자유와 깨달음의 길을 찾는 구도 소설.",
+    "overallSummary": "이상 세계를 좇는 진성과 세속을 떠도는 청화, 두 여승의 삶을 통해 참다운 자유와 깨달음의 길을 모색하는 구도 소설.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부",
+        "summary": "진성과 청화의 출가와 수행 과정."
+      },
+      {
+        "sectionTitle": "제2부",
+        "summary": "세속을 떠도는 청화의 방황과 깨달음."
+      },
+      {
+        "sectionTitle": "제3부",
+        "summary": "두 여승의 삶이 교차하며 참다운 자유를 찾아가는 과정."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주제",
+        "value": "참다운 자유와 깨달음의 길."
+      },
+      {
+        "key": "특징",
+        "value": "불교적 사상을 바탕으로 한 구도 소설."
+      }
+    ],
+    "keyEntitiesText": "진성, 청화(순녀)",
+    "settingText": "사찰, 세속의 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "174c34y83O0z4seQW4skwkfuAJNbrzUtF",
+    "filename": "한승원-아제아제 바라아제.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.706Z",
+    "size": "2382107",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/174c34y83O0z4seQW4skwkfuAJNbrzUtF/view?usp=drivesdk",
+    "sourceSha256": "cf0118f2a30da302e1b1eb70b68973a432c5caa9fc9352fc02bc5b8ccf6182ab",
+    "textSha256": "2e129d312890cf5e09b551a0f93df91780b2b57a342e0e85e94e320f6da92a85",
+    "changeKey": "e5c1bfbed4245f61ebd822dba4ddf120",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4a08ca32ca13ef98b86f",
+    "workId": "4a08ca32ca13ef98b86f",
+    "driveFileId": "174c34y83O0z4seQW4skwkfuAJNbrzUtF",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:27:01.332365+00:00",
+    "updatedAt": "2026-09-24T08:27:01.332381+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:27:01.332490+00:00"
+    }
+  }
+}

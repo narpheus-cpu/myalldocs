@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한라산의 노을",
+    "author": "한림화",
+    "genre": "장편소설",
+    "tags": [
+      "제주4.3",
+      "역사",
+      "비극",
+      "항쟁"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "역사소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1950년 제주 출생. 1973년 등단.",
+    "oneLineSummary": "제주 4.3 항쟁의 비극적 역사를 다룬 장편소설.",
+    "overallSummary": "제주 4.3 항쟁을 배경으로, 그 비극적 역사 속에서 고통받고 저항했던 제주 사람들의 삶을 생생하게 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "상권",
+        "summary": "제주 4.3 항쟁의 전개 과정과 그 속에서 고통받는 사람들의 모습."
+      },
+      {
+        "sectionTitle": "중권",
+        "summary": "항쟁이 격화되면서 벌어지는 비극적 사건들."
+      },
+      {
+        "sectionTitle": "하권",
+        "summary": "항쟁의 결말과 그 이후의 상처를 안고 살아가는 사람들의 이야기."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 배경",
+        "value": "제주 4.3 항쟁이라는 한국 현대사의 비극을 다룸."
+      },
+      {
+        "key": "주제",
+        "value": "역사의 비극 속에서 인간의 존엄과 삶을 지키려는 노력."
+      }
+    ],
+    "keyEntitiesText": "이덕구, 함종민, 김성보",
+    "settingText": "제주도."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1H1txHsUD4eV8FnI1M0D-ISoJFohx6oaO",
+    "filename": "한림화-한라산의 노을.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.508Z",
+    "size": "932620",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1H1txHsUD4eV8FnI1M0D-ISoJFohx6oaO/view?usp=drivesdk",
+    "sourceSha256": "6e5acd31412acf2d052ebdf9e302fa32a3a8710d9e44d796d55e048f1de0d170",
+    "textSha256": "a255b1fdb40befe804b171d83f72ee37f65408c0dc4dd49a35ebc38514f66287",
+    "changeKey": "ee3b2a952e91baaa47faca96e3e21a61",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b624c80ace7569d4015f",
+    "workId": "b624c80ace7569d4015f",
+    "driveFileId": "1H1txHsUD4eV8FnI1M0D-ISoJFohx6oaO",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:26:20.043369+00:00",
+    "updatedAt": "2026-09-24T08:26:20.043385+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:26:20.043502+00:00"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "작별하지 않는다",
+    "author": "한강",
+    "genre": "장편소설",
+    "tags": [
+      "제주4.3",
+      "역사",
+      "기억",
+      "상처"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "역사소설",
+        "심리소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1970년 광주 출생. 2024년 노벨문학상 수상 작가.",
+    "oneLineSummary": "제주 4.3 사건의 비극적 기억을 통해 인간의 존엄과 작별하지 않는 법을 다룬 이야기.",
+    "overallSummary": "제주 4.3 사건이라는 역사적 비극을 배경으로, 그 기억을 안고 살아가는 인물들의 고통과 그들이 어떻게 서로를 위로하며 작별하지 않는지를 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1부",
+        "summary": "주인공은 제주 4.3 사건과 관련된 꿈을 꾸며, 그 비극적 기억 속으로 빠져든다."
+      },
+      {
+        "sectionTitle": "2~3부",
+        "summary": "제주라는 공간에서 인물들은 역사의 상처를 마주하고, 서로의 고통을 공유하며 작별하지 않는 삶의 방식을 찾는다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사적 배경",
+        "value": "제주 4.3 사건이라는 한국 현대사의 비극을 다룸."
+      },
+      {
+        "key": "주제",
+        "value": "역사의 상처를 기억하고, 고통받는 이들과 연대하며 작별하지 않는 존엄한 삶."
+      }
+    ],
+    "keyEntitiesText": "주인공, 인선, 정심",
+    "settingText": "제주도."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1DbHj0fT1iqKzLP7DKCivsSukB-uO0P9F",
+    "filename": "한강-작별하지 않는다- 문학 동네2(epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.342Z",
+    "size": "410493",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "한강"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/한강",
+    "webViewLink": "https://drive.google.com/file/d/1DbHj0fT1iqKzLP7DKCivsSukB-uO0P9F/view?usp=drivesdk",
+    "sourceSha256": "b189f7a8754306b0e750162aca3641eb7bdeb549c3e37ee4212c20c430ab4dab",
+    "textSha256": "0a98b8bc265852fdfa513fe26a0bf91f96ec1f37faed8dc6fb07a2aafde83c95",
+    "changeKey": "7edabb7266b614bd8093a0ab409c022a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fd47dd8f7349339d3a5e",
+    "workId": "fd47dd8f7349339d3a5e",
+    "driveFileId": "1DbHj0fT1iqKzLP7DKCivsSukB-uO0P9F",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:25:44.339973+00:00",
+    "updatedAt": "2026-09-24T08:25:44.339990+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:25:44.340104+00:00"
+    }
+  }
+}

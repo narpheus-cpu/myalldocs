@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한국 현대시 189편",
+    "author": "알 수 없음",
+    "genre": "시집",
+    "tags": [
+      "시",
+      "감상",
+      "한국시"
+    ],
+    "workProfile": {
+      "primary": "poetry",
+      "secondary": [
+        "문학비평"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 정보 없음.",
+    "oneLineSummary": "한국 현대시 189편을 선정하여 감상을 덧붙인 시집.",
+    "overallSummary": "한국 현대시 189편을 선정하고, 각 시에 대한 감상을 덧붙여 독자들이 시를 더 깊이 이해할 수 있도록 구성하였다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "시 감상",
+        "summary": "김현승의 '가을의 기도', 박목월의 '가정', 프로스트의 '가지 않은 길', 윤동주의 '간', 신경림의 '갈대', 박두진의 '강2', 이상의 '거울', 김남조의 '겨울 바다' 등 189편의 시와 감상."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성",
+        "value": "시 전문과 그에 대한 감상으로 구성됨."
+      },
+      {
+        "key": "특징",
+        "value": "다양한 시인들의 작품을 통해 한국 현대시의 흐름을 보여줌."
+      }
+    ],
+    "keyEntitiesText": "김현승, 박목월, 프로스트, 윤동주, 신경림, 박두진, 이상, 김남조",
+    "settingText": "한국 현대시의 세계."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1F3cJ9Qkdg63U6bhiQKk_4DiBhTwq28IG",
+    "filename": "한국현대시189편.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.465Z",
+    "size": "411091",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이",
+    "webViewLink": "https://drive.google.com/file/d/1F3cJ9Qkdg63U6bhiQKk_4DiBhTwq28IG/view?usp=drivesdk",
+    "sourceSha256": "efcb0b50d72c2d2c7ff6fb96c863697cbd3f57cdb463f21301b905fca5fac331",
+    "textSha256": "56431b0559fc489d203bd4e50cda2434237a2e62fb913b74372d6a053764119a",
+    "changeKey": "fb3e2b4d6b02b15a29995966aa2e2974",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "432891511c9e6539f532",
+    "workId": "432891511c9e6539f532",
+    "driveFileId": "1F3cJ9Qkdg63U6bhiQKk_4DiBhTwq28IG",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:26:12.914678+00:00",
+    "updatedAt": "2026-09-24T08:26:12.914694+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:26:12.914805+00:00"
+    }
+  }
+}

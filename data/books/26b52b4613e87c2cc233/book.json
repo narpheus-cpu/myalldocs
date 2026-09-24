@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "여수의 사랑",
+    "author": "한강",
+    "genre": "소설집",
+    "tags": [
+      "상처",
+      "여수",
+      "기억",
+      "소외"
+    ],
+    "workProfile": {
+      "primary": "fiction",
+      "secondary": [
+        "단편소설"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "1970년 광주 출생. 2024년 노벨문학상 수상 작가.",
+    "oneLineSummary": "상처 입은 사람들이 여수라는 공간을 통해 자신의 아픔을 마주하는 이야기.",
+    "overallSummary": "여수라는 공간적 배경을 통해 인물들이 가진 내면의 상처와 소외감을 다루며, 그들이 어떻게 자신의 아픔을 견디고 살아가는지를 보여준다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "표제작 여수의 사랑",
+        "summary": "여수로 향하는 기차 안에서 주인공은 자신의 상처와 기억을 되새기며 여수라는 공간이 주는 의미를 생각한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "공간의 의미",
+        "value": "여수는 상처 입은 인물들이 자신의 아픔을 투영하고 치유를 갈망하는 공간."
+      },
+      {
+        "key": "주제",
+        "value": "개인의 내면적 상처와 그것을 견디는 삶의 태도."
+      }
+    ],
+    "keyEntitiesText": "주인공, 자흔",
+    "settingText": "여수, 기차 안."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "10MmCxllClyURZhzWZ0YieHA_DFPStYEN",
+    "filename": "한강-여수의 사랑 한 강 소설집 (epub).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-03T10:16:00.325Z",
+    "size": "482390",
+    "folderPath": [
+      "books",
+      "01 한국 현대 소설 및 에세이",
+      "한강"
+    ],
+    "relativePath": "books/01 한국 현대 소설 및 에세이/한강",
+    "webViewLink": "https://drive.google.com/file/d/10MmCxllClyURZhzWZ0YieHA_DFPStYEN/view?usp=drivesdk",
+    "sourceSha256": "18e9ff746ebf0fdd0ff5fa6642cd982ae1231ee1d9af08bd6e1ebb2084bdae58",
+    "textSha256": "70c92d2bdbe0d5b82fcc24384624a28bd47fb6ad277e219e2399b9bd022bf713",
+    "changeKey": "a66320f2063772cdca9667be471ff9ea",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "26b52b4613e87c2cc233",
+    "workId": "26b52b4613e87c2cc233",
+    "driveFileId": "10MmCxllClyURZhzWZ0YieHA_DFPStYEN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-24T08:25:36.488062+00:00",
+    "updatedAt": "2026-09-24T08:25:36.488077+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-24T08:25:36.488169+00:00"
+    }
+  }
+}
