@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계 경제사",
+    "author": "로버트 C. 앨런",
+    "genre": "경제_경영",
+    "tags": [
+      "세계경제사",
+      "대분기",
+      "산업혁명",
+      "실질임금",
+      "로버트앨런"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "economic_history",
+        "global_economy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "로버트 C. 앨런은 옥스퍼드대학교 경제사 교수이자 미국경제사학회 회장을 역임한 세계적인 경제사학자로, 글로벌 시야에서 산업혁명과 경제 발전을 연구해왔다.",
+    "oneLineSummary": "인류 역사상 가장 중요한 질문인 ‘왜 어떤 나라는 부자이고 어떤 나라는 가난한가’를 경제사의 동적 과정을 통해 명쾌하게 해부한다.",
+    "overallSummary": "이 책은 500년 간의 세계 경제사를 중상주의 시대, 19세기 추격의 시대, 20세기 빅푸시 산업화 등 세 시기로 나누어 조망한다. 유럽과 비서구 세계의 소득 격차가 벌어진 ‘대분기’의 원인을 추적하며, 영국의 높은 임금과 저렴한 석탄이 산업혁명을 낳았음을 실질임금 데이터로 입증한다. 지리, 제도, 문화론의 허실을 짚어내며 기술 변화와 세계화, 경제 정책이 불균등 발전에 미친 영향을 분석한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "1. 대분기",
+        "summary": "국가 간 부의 격차가 벌어진 역사적 궤적과 일인당 GDP, 제조업 비중의 변화를 살펴본다."
+      },
+      {
+        "sectionTitle": "실질임금",
+        "summary": "최저생계비를 기준으로 한 노동자들의 실질임금 데이터가 경제 발전과 신장에 미친 함의를 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "접근방식",
+        "value": "정량적 데이터(GDP, 실질임금, 최저생계비)에 기반한 경제사 분석"
+      },
+      {
+        "key": "핵심주장",
+        "value": "산업혁명은 영국의 높은 임금과 저렴한 에너지(석탄)라는 경제적 조건의 산물이다."
+      }
+    ],
+    "keyEntitiesText": "애덤 스미스, 바스코 다 가마, 콜럼버스, 프란시스코 펠사트, 프레더릭 에덴",
+    "settingText": "글로벌 경제 무대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_d1scYYu5RyBX69miE1wC76LufDGVQDL",
+    "filename": "로버트 C 앨런-세계 경제사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "339805",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1_d1scYYu5RyBX69miE1wC76LufDGVQDL/view?usp=drivesdk",
+    "sourceSha256": "4739c66b1103e2026196e6ab1263b7ae39b14b41ecf4cc18953d44961c451381",
+    "textSha256": "8c35fe411f46b90f112cd31268c4bc2e93dc43426ca39b17c838a4c237d0b549",
+    "changeKey": "a8980cf46568c10c231da8924f0de933",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "cca0419742da64f7e61d",
+    "workId": "cca0419742da64f7e61d",
+    "driveFileId": "1_d1scYYu5RyBX69miE1wC76LufDGVQDL",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:17:48.656206+00:00",
+    "updatedAt": "2026-09-25T18:17:48.656221+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:17:48.656334+00:00"
+    }
+  }
+}

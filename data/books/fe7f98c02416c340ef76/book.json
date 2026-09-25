@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "교양인을 위한 바이블 키워드",
+    "author": "J. 스티븐 랭",
+    "genre": "종교_인문",
+    "tags": [
+      "성서",
+      "바이블키워드",
+      "서양문화",
+      "역사",
+      "교양"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "religion",
+        "reference"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "J. 스티븐 랭은 성서 및 인문 교양 관련 도서를 다수 집필한 저술가이다.",
+    "oneLineSummary": "성서에 등장하는 키워드를 통해 서양 문화와 역사의 뿌리를 흥미롭고 쉽게 이해할 수 있도록 안내한다.",
+    "overallSummary": "이 책은 서구 문화와 역사의 깊은 뿌리인 성서 속 인물, 장소, 생각, 사건, 문구 등을 가나다순으로 정리하여 소개한다. 일상 속에서 무심코 사용하는 표현들의 성서적 기원을 밝히고, 문학, 예술, 정치적 갈등의 배경을 이해하는 데 도움을 준다. 독자들이 부담 없이 들춰보며 유용한 지식을 얻을 수 있도록 구성되어 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책머리에",
+        "summary": "성서가 서양 문화와 역사, 일상 언어 및 예술에 미친 깊은 영향력을 설명한다."
+      },
+      {
+        "sectionTitle": "본문 항목 (ㄱ~ㅎ)",
+        "summary": "가나안부터 예루살렘까지 성서와 관련된 다양한 인물, 사건, 개념들을 알파벳 또는 가나다순으로 해설한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성방식",
+        "value": "가나다순 항목 배열을 통한 백과사전식 교양서"
+      },
+      {
+        "key": "활용가치",
+        "value": "서양 문학, 예술, 영화 감상 시 배경지식 제공"
+      }
+    ],
+    "keyEntitiesText": "아브라함, 모세, 예수, 다윗, 바울, 베드로",
+    "settingText": "고대 중동 지역 및 서구 문화권"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1xYpyWi88IliKW0-uLap2fY-gxR7adVDf",
+    "filename": "J 스티븐 랭-바이블 키워드(교양인을 위한).txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "1119741",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1xYpyWi88IliKW0-uLap2fY-gxR7adVDf/view?usp=drivesdk",
+    "sourceSha256": "04f420faa34befa8b7e3d74391e7c2c84a7da4c849c837860d9350939bce18b6",
+    "textSha256": "2b3ece9675913a13d42595cebca2fa6e4f23bb8cf3be1b8e955cde8fc622ab6b",
+    "changeKey": "18062b213a3d039cf41baa1728715a75",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "fe7f98c02416c340ef76",
+    "workId": "fe7f98c02416c340ef76",
+    "driveFileId": "1xYpyWi88IliKW0-uLap2fY-gxR7adVDf",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:15:49.513928+00:00",
+    "updatedAt": "2026-09-25T18:15:49.513944+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": true,
+      "matchBasis": "best_effort",
+      "matchScore": 0.5193,
+      "updatedAt": "2026-09-25T18:15:49.514063+00:00"
+    }
+  }
+}

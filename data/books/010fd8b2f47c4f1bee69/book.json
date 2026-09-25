@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "궁금해서 밤새 읽는 유럽사",
+    "author": "김상엽, 김소정",
+    "genre": "역사",
+    "tags": [
+      "유럽사",
+      "그리스",
+      "로마",
+      "중세",
+      "근현대"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "education",
+        "european_history"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김상엽과 김소정은 유럽의 역사와 문화를 대중이 알기 쉽고 흥미롭게 풀어내는 저술가이다.",
+    "oneLineSummary": "고대 그리스부터 현대 유럽연합에 이르기까지 유럽 역사의 거대한 흐름과 핵심 사건을 흥미롭게 조망한다.",
+    "overallSummary": "이 책은 선사 시대부터 제2차 세계대전을 거쳐 현대 유럽연합에 이르는 유럽 역사의 전 과정을 일목요연하게 정리한다. 크레타·미케네 문명과 고대 그리스의 폴리스, 로마 제국의 흥망성쇠를 거쳐 중세의 봉건제와 르네상스, 종교개혁을 다룬다. 나아가 근대 시민혁명과 산업혁명, 양차 세계 대전의 비극을 딛고 평화와 통합을 모색하는 유럽의 오늘날까지 입체적으로 그려낸다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말",
+        "summary": "유럽의 어원과 통합의 근본적인 이유인 평화와 역사적 공통점을 설명한다."
+      },
+      {
+        "sectionTitle": "1장 고대 그리스 시대",
+        "summary": "크레타·미케네 문명부터 아테네와 스파르타의 대립, 페르시아 전쟁과 알렉산드로스 대왕의 동방원정까지 다룬다."
+      },
+      {
+        "sectionTitle": "2장 고대 로마 시대",
+        "summary": "로마의 건국과 공화정의 발전, 포에니 전쟁, 팍스 로마나와 제국의 분할 및 게르만족의 이동을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성특징",
+        "value": "고대부터 현대까지 유럽사의 핵심 장면을 체계적으로 통닉"
+      },
+      {
+        "key": "시사점",
+        "value": "갈등을 극복하고 평화와 통합을 이루려는 유럽의 역사적 노력 강조"
+      }
+    ],
+    "keyEntitiesText": "에우로페, 페리클레스, 레오니다스, 다리우스 1세, 크세르크세스",
+    "settingText": "유럽 대륙 및 지중해 일대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1qm6_LoG9N0bThVo_4q6detDBhbsCxf8c",
+    "filename": "김상엽, 김소정-궁금해서 밤새 읽는 유럽사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "486168",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1qm6_LoG9N0bThVo_4q6detDBhbsCxf8c/view?usp=drivesdk",
+    "sourceSha256": "32dfdce8ef1cc9db89e0805a745be6ad4c27f2dec5630a8fa32e6818af248bcd",
+    "textSha256": "202199c839c67ca4be8f842f86b32ae943af004546e887282de8b551d239308e",
+    "changeKey": "f83b2364507df7284188b956a720e5e1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "010fd8b2f47c4f1bee69",
+    "workId": "010fd8b2f47c4f1bee69",
+    "driveFileId": "1qm6_LoG9N0bThVo_4q6detDBhbsCxf8c",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:16:18.134187+00:00",
+    "updatedAt": "2026-09-25T18:16:18.134201+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:16:18.134304+00:00"
+    }
+  }
+}

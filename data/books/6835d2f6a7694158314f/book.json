@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "서양사 개념어 사전",
+    "author": "김응종",
+    "genre": "인문",
+    "tags": [
+      "서양사",
+      "개념어",
+      "사전",
+      "가격혁명",
+      "계몽사상"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "history",
+        "reference"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "김응종은 서울대학교 서양사학과를 졸업하고 프랑스 프랑쉬 콩테 대학에서 박사학위를 받았으며, 충남대학교 사학과 교수이자 인문대학장을 역임했다.",
+    "oneLineSummary": "서양사 이해의 초석이 되는 135개의 핵심 개념어를 어원과 사실에 근거해 체계적으로 해설한다.",
+    "overallSummary": "이 저서는 고등학교 세계사 교과서 및 현대 사회 이해에 필수적인 135개의 서양사 개념어를 선정하여 정확한 사실과 어원적 배경을 바탕으로 설명한다. 포스트모던 시대의 허구적 역사관에 맞서 구도자의 자세로 ‘사실’을 밝히고 체계적으로 기술하려 노력했다. 가격혁명, 계몽사상, 고등법원 등 역사적 사건과 사상의 실마리를 풀어주며 독자들의 지적 호기심을 충족시킨다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가는 글",
+        "summary": "역사학에서 ‘사실’ 인식의 중요성과 객관적 진실에 다가가려는 역사가의 노력을 강조한다."
+      },
+      {
+        "sectionTitle": "001 가격혁명",
+        "summary": "16세기 중반부터 1세기 동안 일어난 물가 급등 현상의 원인과 가격혁명이 사회·경제적 구조에 미친 영향을 분석한다."
+      },
+      {
+        "sectionTitle": "002 계몽사상",
+        "summary": "18세기 이성의 빛으로 몽매와 독단을 타파하려 한 계몽사상의 본질과 프랑스 혁명과의 관계를 고찰한다."
+      },
+      {
+        "sectionTitle": "003 고등법원",
+        "summary": "프랑스 절대왕정 시기 최고법원이자 행정·입법적 기능을 일부 담당했던 파를르망의 역사적 역할을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "형식",
+        "value": "사전 형식을 빌려 필수 역사 개념을 깊이 있게 해설"
+      },
+      {
+        "key": "의의",
+        "value": "소문과 괴담에 맞서는 객관적 역사 사실과 해석 제공"
+      }
+    ],
+    "keyEntitiesText": "페르낭 브로델, 데카르트, 볼테르, 디드로, 루이 9세",
+    "settingText": "유럽 역사 무대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Oaf89eLmDHUuUe6dAQpRQoUXpX9QSvlb",
+    "filename": "김응종-서양사 개념어 사전.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "622076",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1Oaf89eLmDHUuUe6dAQpRQoUXpX9QSvlb/view?usp=drivesdk",
+    "sourceSha256": "919853bf81ab4d95aadab4942a4ba5229c4d66618dbaf7efad9ab98f4064bc62",
+    "textSha256": "536e02ad0ebdc5cee4add92a2c2ef6469a18543b1fb10d66d825f5c62ff93389",
+    "changeKey": "126bbba39aec56dad9040f1c2244f35f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "6835d2f6a7694158314f",
+    "workId": "6835d2f6a7694158314f",
+    "driveFileId": "1Oaf89eLmDHUuUe6dAQpRQoUXpX9QSvlb",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:16:33.908318+00:00",
+    "updatedAt": "2026-09-25T18:16:33.908333+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:16:33.908452+00:00"
+    }
+  }
+}

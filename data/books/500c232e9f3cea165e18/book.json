@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지중해 세계사",
+    "author": "데이비드 아불라피아 외",
+    "genre": "역사",
+    "tags": [
+      "지중해사",
+      "해양사",
+      "문명교류",
+      "아불라피아",
+      "페르낭브로델"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "mediterranean_history",
+        "world_history"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "데이비드 아불라피아는 케임브리지대학교 지중해사 교수이자 세계적인 역사학자로, 거대한 바다를 중심으로 한 인류의 문화 교류와 해양사를 연구해왔다.",
+    "oneLineSummary": "고대부터 현대까지 지중해라는 거대한 바다를 매개로 물건과 사상, 문명이 교류하고 충돌해 온 역사를 입체적으로 조명한다.",
+    "overallSummary": "이 책은 단순히 지중해 연안 국가들의 역사를 모아놓은 것을 넘어 바다를 건너는 징검다리였던 섬들과 세 대륙(유럽, 아프리카, 아시아)이 만난 교류의 공간으로서 지중해의 역사를 그린다. 페르낭 브로델의 지리적 시각을 바탕으로 하되, 상인, 함대, 이주민, 종교 사상의 이동 등 인간의 능동적 상호작용에 주목한다. 유대교, 기독교, 이슬람교 등 아브라함계 종교의 발흥과 대결, 세계화된 현대 지중해까지 통찰한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "지중해사가 단순한 연안 지역의 총합을 넘어 바다를 통한 교류와 섬들의 역할을 담아야 함을 역설한다."
+      },
+      {
+        "sectionTitle": "서론: 지중해란 무엇인가",
+        "summary": "페르낭 브로델의 시각을 검토하고, 투키디데스의 해상 제국 개념부터 현대의 세계화된 지중해에 이르기까지 역사 서술의 다양한 방식을 고찰한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "핵심주제",
+        "value": "지중해라는 공간을 통한 문명 간의 이동, 교류, 그리고 충돌"
+      },
+      {
+        "key": "역사적의의",
+        "value": "단일한 바다를 중심으로 유기적으로 연결된 광역 지중해 세계의 재발견"
+      }
+    ],
+    "keyEntitiesText": "데이비드 아불라피아, 페르낭 브로델, 투키디데스, 미노스, 펠리페 2세",
+    "settingText": "지중해 및 그 주변 세 대륙"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1uem3HIIJlPc2Dr0xY_hBR1J1Af9rgS69",
+    "filename": "데이비드 아불라피아 외-지중해 세계사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "780678",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1uem3HIIJlPc2Dr0xY_hBR1J1Af9rgS69/view?usp=drivesdk",
+    "sourceSha256": "823f10475c54bf943c6fad689c4be37806c0954df323f615623787cbe83c94b3",
+    "textSha256": "d065b330006b1ef14208066d1b86297dd66c4885284fbc8de97799819953b3ef",
+    "changeKey": "6e5c1f9f893f91e40a093afc94473c89",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "500c232e9f3cea165e18",
+    "workId": "500c232e9f3cea165e18",
+    "driveFileId": "1uem3HIIJlPc2Dr0xY_hBR1J1Af9rgS69",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:16:54.642429+00:00",
+    "updatedAt": "2026-09-25T18:16:54.642445+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:16:54.642558+00:00"
+    }
+  }
+}

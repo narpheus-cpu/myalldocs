@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한 권으로 읽는 세계사",
+    "author": "다마키 도시아키",
+    "genre": "역사",
+    "tags": [
+      "세계사",
+      "역사의급소",
+      "알렉산드로스",
+      "바이킹",
+      "면산업"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "education",
+        "world_history"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "다마키 도시아키는 세계사의 중심부를 관통하는 통찰력 있는 시각으로 역사의 흐름을 명쾌하게 정리하는 역사 저술가이다.",
+    "oneLineSummary": "역사의 치명적인 급소를 찌르는 13가지 통찰을 통해 방대하고 복잡한 세계사를 한 번에 정리한다.",
+    "overallSummary": "이 책은 물소를 한 방에 쓰러뜨리는 무림고수처럼 역사에도 치명적인 ‘급소’가 존재한다는 전제 아래 세계사의 중심부를 관통하는 13개의 명장면을 엄선했다. 알렉산드로스 대왕의 페르시아 정복과 교통망의 비밀, 바이킹의 아메리카 발견, 예수회와 일본 전국시대의 무기 거래, 영국의 면 산업 발전 등 흥미로운 질문과 명쾌한 답변을 통해 역사의 본질을 꿰뚫어 보게 한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문",
+        "summary": "13가지 역사의 급소를 통찰하면 복잡한 세계사를 한번에 정리할 수 있음을 역설한다."
+      },
+      {
+        "sectionTitle": "VITAL POINT #1 알렉산드로스 대왕이 오래 살았다면...",
+        "summary": "마케도니아가 광대한 제국을 정복할 수 있었던 배경과 오리엔트의 교역망 및 교통망의 역할을 분석한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성방식",
+        "value": "핵심 질문과 통찰력 있는 답변을 통한 주제별 세계사 정리"
+      },
+      {
+        "key": "특징",
+        "value": "거대한 역사적 흐름을 결정지은 숨은 요인을 명쾌하게 해부"
+      }
+    ],
+    "keyEntitiesText": "알렉산드로스 대왕, 필리포스 2세, 아리스토텔레스, 투탕카멘, 한니발",
+    "settingText": "고대부터 근현대에 이르는 세계 무대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vxMUItJSh_KW2RnEPfEUTH4xu2Zz-XYo",
+    "filename": "다마키 도시아키-한 권으로 읽는 세계사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "269562",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1vxMUItJSh_KW2RnEPfEUTH4xu2Zz-XYo/view?usp=drivesdk",
+    "sourceSha256": "901dbee1ad5f31e67c7bbd361163c37e8ca91f8a0bce2726ba022d32b7e8b55e",
+    "textSha256": "a6de24da85854fbc457e042939d77d3bc8595f29478ab5bbd2fc7ca40fb56bd0",
+    "changeKey": "bf7a85795061f72111f15433a1af98f8",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "70219fb83daf579b8f99",
+    "workId": "70219fb83daf579b8f99",
+    "driveFileId": "1vxMUItJSh_KW2RnEPfEUTH4xu2Zz-XYo",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:16:40.514794+00:00",
+    "updatedAt": "2026-09-25T18:16:40.514807+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:16:40.514928+00:00"
+    }
+  }
+}
