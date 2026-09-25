@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계사 아는 척하기",
+    "author": "후쿠다 토모히로",
+    "genre": "역사 교양",
+    "tags": [
+      "세계사",
+      "지리",
+      "지명",
+      "상식",
+      "역사교양"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "geography",
+        "education"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고등학교 교사로 재직하며 교과서 집필 및 다양한 방송 강좌 활동을 펼친 미야자키 마사카츠가 감수한 교양 역사서입니다.",
+    "oneLineSummary": "지리와 지명, 지도에 얽힌 흥미로운 수수께끼를 통해 세계사의 핵심을 쉽고 재미있게 파헤친 도서입니다.",
+    "overallSummary": "이 책은 4대 문명부터 제2차 세계대전 이후까지의 방대한 세계사를 지리적 배경과 지명의 유래, 지도 속 상식과 연결하여 설명합니다. 미국의 멤피스와 이집트 멤피스의 관계, 한니발의 알프스 횡단, 중앙아시아의 ‘~스탄’ 지명 등 일상적인 호기심에서 출발해 고대 제국의 멸망과 유럽, 아시아의 재편 과정을 유쾌하게 풀어냅니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 4대 문명에서 시작된 세계의 변천",
+        "summary": "이집트, 메소포타미아 등 4대 문명의 발생과 지명에 얽힌 흥미로운 유래를 다룹니다."
+      },
+      {
+        "sectionTitle": "제2장 고대 제국의 멸망과 유럽, 아시아의 재편",
+        "summary": "그리스 문명, 페르시아 전쟁, 로마 제국의 발전과 헬레니즘 문화를 설명합니다."
+      },
+      {
+        "sectionTitle": "제3장 몽골 제국, 그리고 변천하는 아시아와 유럽",
+        "summary": "유라시아 대륙을 뒤흔든 몽골 제국의 팽창과 각 지역의 변화를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "학습 요소",
+        "value": "각 장마다 지도와 도표를 삽입하여 독자가 지리와 역사를 직관적으로 이해할 수 있도록 돕습니다."
+      }
+    ],
+    "keyEntitiesText": "알렉산더 대왕, 한니발, 카이사르, 클레오파트라",
+    "settingText": "고대 4대 문명 발상지, 지중해, 유럽, 아시아"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Sop30Q1TfdVpj-xLbz_A3NroFOmZWJ63",
+    "filename": "후쿠다 토모히로-세계사 아는 척하기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:30.000Z",
+    "size": "202904",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1Sop30Q1TfdVpj-xLbz_A3NroFOmZWJ63/view?usp=drivesdk",
+    "sourceSha256": "abf6c9ddf80012daa781c8d4fb1686c116a25394223b6d8e77d8f0338b3fb89d",
+    "textSha256": "a38739c0ac5a0eaf3f6cf58565588c141ccc65931a6b164399f81c5773cbcc1b",
+    "changeKey": "f03b3e7fefdacbdb67af5f425b6e142f",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2ea3670eec15d99e359d",
+    "workId": "2ea3670eec15d99e359d",
+    "driveFileId": "1Sop30Q1TfdVpj-xLbz_A3NroFOmZWJ63",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:59:19.513298+00:00",
+    "updatedAt": "2026-09-25T18:59:19.513314+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:59:19.513402+00:00"
+    }
+  }
+}

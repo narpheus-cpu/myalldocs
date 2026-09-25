@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "자원쟁탈의 세계사",
+    "author": "히라누마 히카루",
+    "genre": "경제/역사 교양",
+    "tags": [
+      "자원",
+      "에너지",
+      "향신료",
+      "석유",
+      "기후변화"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "economics",
+        "energy"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도쿄재단정책연구소의 자원에너지 프로젝트 리더로 활동하며 자원과 에너지 정책을 연구하는 전문가입니다.",
+    "oneLineSummary": "향신료 전쟁부터 현대의 에너지 전환과 순환경제에 이르기까지 자원을 둘러싼 인류의 쟁탈전과 역사의 변천을 다룬 도서입니다.",
+    "overallSummary": "이 책은 인류가 생존과 번영을 위해 자원을 확보하고자 벌여온 역사의 궤적을 추적합니다. 중세 유럽의 향신료 쟁탈전에서 시작해 산업혁명을 이끈 석탄, 현대의 석유와 천연가스, 그리고 기후변화 시대의 재생에너지와 순환경제에 이르기까지 자원의 성격 변화가 세계 정세와 국가 간 패권에 미친 영향을 분석합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1장 향신료 전쟁-자원쟁탈의 대항해시대",
+        "summary": "금과 동등하게 취급받던 향신료를 차지하기 위한 대항해시대의 탐험가들과 쟁탈전을 다룹니다."
+      },
+      {
+        "sectionTitle": "제2장 근대화의 문을 연 석탄",
+        "summary": "목재 고갈 위기를 극복하고 영국의 산업혁명을 이끈 석탄의 역할을 설명합니다."
+      },
+      {
+        "sectionTitle": "제3장 자원 쟁탈전을 가속시킨 석유와 천연가스",
+        "summary": "내연기관의 발달과 함께 전략적 자원으로 부상한 석유와 천연가스의 쟁탈 역사를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "자원사 접근",
+        "value": "화석연료 중심의 고정관념에서 벗어나 향신료, 데이터, 폐기물까지 포괄하는 광범위한 자원사 패러다임을 제시합니다."
+      }
+    ],
+    "keyEntitiesText": "마르코 폴로, 콜럼버스, 바스코 다 가마, 페르디난드 마젤란",
+    "settingText": "유럽, 대서양, 인도양, 인도네시아 몰루카 제도 등 전 세계 무역로"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1vCOR44Ve5xaYk6LeL8M6_zbXkQ0pSp2a",
+    "filename": "히라누마 히카루-자원쟁탈의 세계사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:30.000Z",
+    "size": "380931",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1vCOR44Ve5xaYk6LeL8M6_zbXkQ0pSp2a/view?usp=drivesdk",
+    "sourceSha256": "3b347a423fcf363e7063ec475bcb34ce7795b79e6bfe45c9f6b93bf215e5ca0b",
+    "textSha256": "03c1147361578d54cee6250a3e270ed6ec1c4b4a9f545eb967eaca136715e4a6",
+    "changeKey": "064a5dc6f8dacedecf125e874e3f9581",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0c675beb43ce1b56c349",
+    "workId": "0c675beb43ce1b56c349",
+    "driveFileId": "1vCOR44Ve5xaYk6LeL8M6_zbXkQ0pSp2a",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:59:25.953137+00:00",
+    "updatedAt": "2026-09-25T18:59:25.953153+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:59:25.953241+00:00"
+    }
+  }
+}

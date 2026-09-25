@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "청소년을 위한 친절한 세계사",
+    "author": "헨드릭 빌렘 반 룬",
+    "genre": "역사 교양",
+    "tags": [
+      "세계사",
+      "청소년",
+      "인류사",
+      "문명",
+      "역사교육"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "education",
+        "juvenile"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "네덜란드 로테르담 출신의 역사가이자 저널리스트로, 하버드대와 코넬대에서 공부하고 다수의 역사 교양서를 저술했습니다.",
+    "oneLineSummary": "선사 시대부터 현대까지 인류가 걸어온 방대한 역사의 발자취를 청소년의 눈높이에 맞춰 친절하게 풀어낸 세계사 입문서입니다.",
+    "overallSummary": "이 책은 저자가 자신의 아들에게 성당 탑에서 세상을 조망하듯 들려주는 형식으로 인류 역사의 거대한 흐름을 통찰합니다. 태초의 지구 탄생과 생명체의 진화, 인류 최초의 조상의 출현을 시작으로 고대 동방 문명, 그리스와 로마, 중세, 르네상스와 혁명의 시대를 거쳐 현대에 이르기까지 역사의 탑을 쌓아온 인류의 웅대한 경험을 생생하게 전달합니다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "선사 시대",
+        "summary": "지구의 탄생과 생명체의 진화, 공룡의 멸종과 포유류의 등장, 인류 최초 조상의 삶을 다룹니다."
+      },
+      {
+        "sectionTitle": "고대 동방 문명",
+        "summary": "이집트, 메소포타미아, 페니키아 등 인류 초기 문명의 발생과 발전 과정을 설명합니다."
+      },
+      {
+        "sectionTitle": "고대 그리스 문명",
+        "summary": "그리스 도시국가들의 발전과 페르시아 전쟁, 알렉산더 대왕의 동방 원정과 헬레니즘 문화를 다룹니다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서사 방식",
+        "value": "은유와 비유를 활용하여 복잡한 역사적 사건을 독자가 친근하게 이해할 수 있도록 구성했습니다."
+      }
+    ],
+    "keyEntitiesText": "알렉산더 대왕, 아리스토텔레스, 찰스 다윈, 한니발",
+    "settingText": "고대 이집트, 메소포타미아, 그리스, 로마 등 전 세계 역사적 무대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1BVGVNmoro02HFOB7RbG5-7FaE-YncT1M",
+    "filename": "헨드릭 빌렘 반 룬-청소년을 위한 친절한 세계사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:30.000Z",
+    "size": "786888",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1BVGVNmoro02HFOB7RbG5-7FaE-YncT1M/view?usp=drivesdk",
+    "sourceSha256": "2e2421e4b2737903669ac9986106b6966685c03d063ea5746e0caf9ca2ed6310",
+    "textSha256": "ecf10a03544a6ed9872799d00ee79b47519bc3091c36ba2a44d55e157e773558",
+    "changeKey": "6e88522704fb4c47dfd358e804263588",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "b9fd9c1e2112aeef3b5e",
+    "workId": "b9fd9c1e2112aeef3b5e",
+    "driveFileId": "1BVGVNmoro02HFOB7RbG5-7FaE-YncT1M",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:59:06.014540+00:00",
+    "updatedAt": "2026-09-25T18:59:06.014557+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:59:06.014646+00:00"
+    }
+  }
+}
