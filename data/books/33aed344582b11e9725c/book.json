@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "흐름을 꿰뚫는 세계사 독해",
+    "author": "사토 마사루",
+    "genre": "세계사",
+    "tags": [
+      "세계사",
+      "아날로지",
+      "신제국주의",
+      "국제정세",
+      "사토마사루"
+    ],
+    "workProfile": {
+      "primary": "academic",
+      "secondary": [
+        "history_biography",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도시샤대학교 대학원 신학연구과 석사, 전 일본 외무성 주임분석관으로 저명한 시사평론가이자 저술가.",
+    "oneLineSummary": "과거와 현재를 연결하는 '아날로지(유추)' 사고법을 이용해 전쟁의 위험과 신제국주의 시대로 접어든 현대 국제 정세를 해독한다.",
+    "overallSummary": "에릭 홉스봄의 단기 20세기 관점을 바탕으로, 지속되는 전쟁의 위기와 구제국주의/신제국주의의 구조, 내셔널리즘과 민족 문제, 기독교 및 이슬람교 등 자본주의·민족·종교라는 세 축을 통해 현대 사회를 통찰하는 방법을 제시함.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "서문: 아날로지로 역사를 이해하기",
+        "summary": "현재 정세를 독해하기 위한 아날로지 사고의 중요성, 단기 20세기 이후 여전히 지속되는 전쟁 위기와 거대한 서사의 재구축 필요성 서술."
+      },
+      {
+        "sectionTitle": "제1장: 제국주의는 어떻게 탄생했는가",
+        "summary": "구제국주의와 신제국주의의 차이, 현대 국제사회의 제국주의적 경향(중국, 러시아 등)과 자본주의 구조의 고찰."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "방법론",
+        "value": "과거 역사적 구조와 현대 정세의 유사성을 포착하는 '아날로지(Analogy)' 독해법 적용"
+      }
+    ],
+    "keyEntitiesText": "사토 마사루, 에릭 홉스봄, 프랜시스 후쿠야마, 카를 마르크스, 앨리스터 맥그래스",
+    "settingText": "현대 국제 정세, 우크라이나, 중동, 일본, 19세기 말~20세기 초"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1hoW9N23nIObufwwPXykGGrkU_uO-0sU7",
+    "filename": "사토 마사루-흐름을 꿰뚫는 세계사 독해.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "286511",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1hoW9N23nIObufwwPXykGGrkU_uO-0sU7/view?usp=drivesdk",
+    "sourceSha256": "cd5739922a2782fef0bf28c271dcdd9341a8ed13332f1318f49ab7837a818548",
+    "textSha256": "a81814747c1b626dac27e6b82b59c6f9bcdbb26383939a533f80b0a819e06ff1",
+    "changeKey": "74333dd71b92e94ee5339ec5e448dc5b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "33aed344582b11e9725c",
+    "workId": "33aed344582b11e9725c",
+    "driveFileId": "1hoW9N23nIObufwwPXykGGrkU_uO-0sU7",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:33:37.002506+00:00",
+    "updatedAt": "2026-09-25T18:33:37.002524+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:33:37.002629+00:00"
+    }
+  }
+}

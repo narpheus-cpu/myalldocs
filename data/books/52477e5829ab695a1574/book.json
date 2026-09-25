@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "10시간 만에 배우는 세계사",
+    "author": "미야자키 마사카츠",
+    "genre": "세계사",
+    "tags": [
+      "세계사",
+      "10시간",
+      "역사개요",
+      "문명"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "20여 년간 고등학교 세계사 교과서를 편집·집필하고 NHK 방송 등에서 활동해온 역사 교육가.",
+    "oneLineSummary": "세계사의 큰 흐름을 20개 장으로 압축하여 10시간 만에 전체적인 변화상을 파악하도록 돕는다.",
+    "overallSummary": "인류의 동아프리카 지구대 탈출 및 농업·도시 혁명부터 건조 지대 4대 문명, 페르시아/로마/중국 제국, 대항해시대, 시민·산업혁명, 20세기 세계대전, 냉전 및 글로벌 경제까지 세계사의 큰 틀을 쉬운 문체와 지도로 정리한 안내서.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "제1부 1장~2장: 인류 탄생과 건조지대 문명",
+        "summary": "동아프리카 지구대에서의 진화 및 이동, 농업·도시 혁명의 성립, 농경민과 목축민의 대립, 4대 문명의 발생 과정을 서술한다."
+      },
+      {
+        "sectionTitle": "제2부~제6부 목차 개요",
+        "summary": "유라시아 제국들, 해양 세계 확장과 유럽 발흥, 19세기 제국주의, 두 차례 세계대전 및 현대 글로벌 경제까지의 흐름을 개관한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "학습 방식",
+        "value": "동양의학적 전체 관조 방식으로 20개 장(각 30분 읽기) 총 10시간 구성"
+      }
+    ],
+    "keyEntitiesText": "미야자키 마사카츠, 라미두스 원인, 오스트랄로피테쿠스, 호모 사피엔스, 수메르인, 함무라비 왕",
+    "settingText": "동아프리카 지구대, 건조지대, 나일강, 메소포타미아, 인더스강, 황하"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kZlsOvhds3lveshF1qrjhiTzD1wjTHhR",
+    "filename": "미야자키 마스카츠-10시간 만에 배우는 세계사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "201553",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1kZlsOvhds3lveshF1qrjhiTzD1wjTHhR/view?usp=drivesdk",
+    "sourceSha256": "de7aa5d67d7690650ac43f519b16e93c22fcfb2819ab219fe1ff8cf9fda828a7",
+    "textSha256": "caeb157280a867026b784d2851f5952771b9219ce0bd04915bab3e9fba68bdfe",
+    "changeKey": "352d3bbb4fcefd90bbf1bff464d83774",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "52477e5829ab695a1574",
+    "workId": "52477e5829ab695a1574",
+    "driveFileId": "1kZlsOvhds3lveshF1qrjhiTzD1wjTHhR",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:31:41.754791+00:00",
+    "updatedAt": "2026-09-25T18:31:41.754810+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:31:41.754916+00:00"
+    }
+  }
+}

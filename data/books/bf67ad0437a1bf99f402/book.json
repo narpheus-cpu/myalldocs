@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "물건으로 읽는 세계사",
+    "author": "미야자키 마사카츠",
+    "genre": "문화사",
+    "tags": [
+      "물건",
+      "세계사",
+      "생활사",
+      "문명",
+      "도구"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도쿄교육대학 사학과 졸업 후 교사 및 교수를 역임하고 NHK 등에서 세계사 교육에 힘써온 역사 저술가.",
+    "oneLineSummary": "일상의 도구와 물건들이 거친 역사를 거쳐 인류의 생활 체계와 사회 공간을 어떻게 변화시켰는지 추적한다.",
+    "overallSummary": "큰 강, 대초원, 대양, 산업 도시, 지구라는 5단계 공간 확장 과정과 더불어 관개 수로, 달력, 문자 등 인류가 정립해온 도구와 물건의 체계가 만들어낸 '또 하나의 세계사'를 다룬 책.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가며 & 큰 역사의 흐름",
+        "summary": "공작인(호모 파베르)으로서의 인류와 역사의 무대 공간이 확장된 5단계를 제시한다."
+      },
+      {
+        "sectionTitle": "01 수로와 제방: 도시의 출현",
+        "summary": "사막 및 건조 지대의 대규모 관개 농업과 물 관리를 중심으로 탄생한 도시 국가 시스템을 설명한다."
+      },
+      {
+        "sectionTitle": "02 달력, 03 문자",
+        "summary": "농업의 공통 리듬을 위한 달력의 제정과 광역 사회 통합 및 정보 기록을 위한 문자의 발명 과정을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "공간 단계 프레임",
+        "value": "큰 강 → 대초원 → 대양 → 산업 도시 → 지구"
+      }
+    ],
+    "keyEntitiesText": "미야자키 마사카츠, 앙리 베르그송, 고든 차일드, 차탈 휘육, 예리코, 상형문자, 설형문자",
+    "settingText": "4대 문명 하천 유역, 건조 지대, 대초원, 대양, 산업 도시"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1Dvk_Yj6dk76E43Oaj11lEEOv2BonMzL_",
+    "filename": "미야자키 마사카츠-물건으로 읽는 세계사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "226052",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1Dvk_Yj6dk76E43Oaj11lEEOv2BonMzL_/view?usp=drivesdk",
+    "sourceSha256": "fe0e4e165e96c2492985ca64bd3c2b6b7170319e299e0679ecfcf352bb89ad5d",
+    "textSha256": "9a905a4dd8ec187362e7e486a06f08104101aa6de6e649e92a78b75af4ac354c",
+    "changeKey": "bc08a7b699b8d38e433fdaf129bd8b00",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "bf67ad0437a1bf99f402",
+    "workId": "bf67ad0437a1bf99f402",
+    "driveFileId": "1Dvk_Yj6dk76E43Oaj11lEEOv2BonMzL_",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:30:42.096515+00:00",
+    "updatedAt": "2026-09-25T18:30:42.096533+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:30:42.096639+00:00"
+    }
+  }
+}

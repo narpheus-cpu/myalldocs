@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "한번 읽으면 절대로 잊지 않는 세계사 공부",
+    "author": "신진희",
+    "genre": "세계사",
+    "tags": [
+      "세계사",
+      "국가",
+      "종교",
+      "혁명",
+      "제국"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "역사 교사이자 저술가로, 청소년과 성인이 세계사의 맥락을 쉽게 이해할 수 있도록 돕는 도서를 작성함.",
+    "oneLineSummary": "국가, 종교, 혁명, 제국, 도시, 과학, 법 등 7가지 핵심 주제로 세계사의 거시적 방향성과 삶의 기준을 살핀다.",
+    "overallSummary": "제4차 산업혁명 등 격변하는 현대에서 역사 속 기준을 찾고자, 시공간 함수 축을 이용해 국가의 성립 조건(영토, 국민, 주권)과 구석기·신석기·청동기(관개, 잉여, 전쟁)를 거친 지배자 및 국가 형태의 변천을 다룬 입문서.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "지은이의 말 & 1장 국가: 국가란 무엇인가?",
+        "summary": "불안한 미래를 살아가는 인문학적 기준으로서의 역사 의미와 자판기/함수(x-시간, y-공간) 비유를 통한 역사 독해법 설명."
+      },
+      {
+        "sectionTitle": "국가의 성립 (세로축 공간, 가로축 시간)",
+        "summary": "국가의 3요소(영토, 국민, 주권)와 청동기 농업생산력 발달, 치수 및 잉여재산, 전쟁에 의해 지배자와 주권이 형성된 과정 서술."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "개념적 프레임",
+        "value": "역사를 함수식y=f(x)에 비유하고 7개 인문 주제(국가/종교/혁명/제국/도시/과학/법)로 체계화"
+      }
+    ],
+    "keyEntitiesText": "신진희, 구텐베르크, 예수, 이승만, 박정희, 전두환",
+    "settingText": "한반도, 중국, 유럽, 구석기~현대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1LnqoC2n6TmKL6iAnNhNL6hTcf-1cIZxz",
+    "filename": "신진희-한번 읽으면 절대로 잊지 않는 세계사 공부.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "448598",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1LnqoC2n6TmKL6iAnNhNL6hTcf-1cIZxz/view?usp=drivesdk",
+    "sourceSha256": "d4405cb8414b6a59a452c4352a20eca0f7b0b22153c12364b2bd24f7ca311529",
+    "textSha256": "0fa142b4c35312d3125676ec06ae367a4b90adb0e8c5ddc6be7f3baa5d572249",
+    "changeKey": "3096ef008cbe14b4dc80dca5ecab3d2a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7e0f37664cf562f5f366",
+    "workId": "7e0f37664cf562f5f366",
+    "driveFileId": "1LnqoC2n6TmKL6iAnNhNL6hTcf-1cIZxz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:34:23.740908+00:00",
+    "updatedAt": "2026-09-25T18:34:23.740926+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:34:23.741028+00:00"
+    }
+  }
+}

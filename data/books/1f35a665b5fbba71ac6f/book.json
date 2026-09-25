@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지리로 읽는 세계사 지식 55",
+    "author": "세키 신코",
+    "genre": "세계사",
+    "tags": [
+      "지리",
+      "세계사",
+      "지형",
+      "역사지리",
+      "문명"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도쿄대학교 문학부 졸업, 역사 연구가 및 입시학원 강사로 다수의 세계사 도서를 저술·감수함.",
+    "oneLineSummary": "지리와 지형이 세계사의 거대한 전환점과 현대 분쟁의 배경에 어떻게 작용했는지 55가지 질문으로 선명하게 밝힌다.",
+    "overallSummary": "아프리카의 인류 탄생, 큰 강 주변의 4대 문명, 지중해 폴리스, 알렉산드로스 원정, 로마 제국의 분할 통치와 수송망, 만리장성과 장안, 바이킹과 십자군 등 지리·지형 환경이 역사적 결정과 분쟁을 이끈 과정을 서술한 책.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "Q1 인류는 왜 아프리카에서 탄생했을까?",
+        "summary": "온난 기후와 직립 이족 보행, 다지역기원설과 아프리카 단일기원설(미토콘드리아 이브)을 비교 설명한다."
+      },
+      {
+        "sectionTitle": "Q2 고대문명은 왜 큰 강 주변에서 발달했을까?",
+        "summary": "농경에 필수적인 수량과 토지를 가진 큰 강 유역에서 관개 기술과 도시·문명이 발달한 원인을 분석한다."
+      },
+      {
+        "sectionTitle": "Q4 지중해 폴리스 ~ Q6 로마 대제국 유지 비결",
+        "summary": "산악/해안 지형에 따른 폴리스 발전, 알렉산드로스의 동방 진출, 로마의 '분할 통치' 및 도로 수송망 구축을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "지리적 접근법",
+        "value": "역사적 사건의 발생 원인을 공간 지리, 기후, 수수·교통망 등 환경 조건과 연계하여 해석"
+      }
+    ],
+    "keyEntitiesText": "세키 신코, 다윈, 오스트랄로피테쿠스, 수메르인, 히타이트, 알렉산드로스 대왕, 한니발",
+    "settingText": "아프리카, 메소포타미아, 이집트, 지중해, 로마, 발칸반도"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1kQjyDeXEMTWZIibFq-EvWkNl4jI2iK7T",
+    "filename": "세키 신코-지리로 읽는 세계사 지식 55.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "209494",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1kQjyDeXEMTWZIibFq-EvWkNl4jI2iK7T/view?usp=drivesdk",
+    "sourceSha256": "f3b0f8bba30c7f406effe61766c8af2cb02f56c82064690f6cea5395710aa095",
+    "textSha256": "327f5ab4ddab152c94765c5d8d2edb640aca843917b7b5b9173da8a7fc0b656f",
+    "changeKey": "f3ab01cc147fcdb825d57602ab6805c1",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1f35a665b5fbba71ac6f",
+    "workId": "1f35a665b5fbba71ac6f",
+    "driveFileId": "1kQjyDeXEMTWZIibFq-EvWkNl4jI2iK7T",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:33:52.122167+00:00",
+    "updatedAt": "2026-09-25T18:33:52.122186+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:33:52.122293+00:00"
+    }
+  }
+}

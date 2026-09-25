@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계사 속 중국사 도감",
+    "author": "오카모토 다카시",
+    "genre": "중국사",
+    "tags": [
+      "중국사",
+      "세계사",
+      "유목민",
+      "농경민",
+      "유라시아"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "교토부립대학 교수, 동아시아 근대 외교사 및 청나라 해관 연구 전문가인 일본의 동양사학자.",
+    "oneLineSummary": "건조 지역(유목)과 습윤 지역(농경)의 생태·경제적 상호작용을 통해 5,000년 중국사를 세계사의 흐름과 연결하여 해설한다.",
+    "overallSummary": "중국사를 고립된 단일체로 보는 관각을 배제하고, 유라시아의 자연 환경(건조 초원 vs 습윤 농경)에서 유래한 유목민과 농경민의 풍습 차이, 《사기》 흉노열전 분석, 실크로드 시장과 문명지도 4분할을 통해 세계사적 맥락 속에서 중국 통사를 정돈한 도감 서적.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가는 글 & 추천하는 글 (조영헌)",
+        "summary": "세계사와 연결된 중국 경제사 집필 취지와 기후·생태 환경에 기반한 중국 통사 파악의 중요성을 제시한다."
+      },
+      {
+        "sectionTitle": "건조 지역과 습윤 지역이 인류의 삶을 양분했다",
+        "summary": "유라시아의 자연조건(습윤 농경 vs 건조 초원 유목)과 풍습·복장 차이, 《사기》 흉노열전에 나타난 한나라 사신과 중항열의 논쟁을 분석한다."
+      },
+      {
+        "sectionTitle": "문명은 농경과 유목의 교류 지대에서 태어났다 ~ 문명지도",
+        "summary": "접경 지대의 '시장'과 문자 발생, 우메사오 다다오의 '문명지도'를 통한 유라시아 4분할 및 오리엔트 문명의 동방 전파를 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "생태사관 프레임",
+        "value": "건조(유목)와 습윤(농경)의 생태적 대립 및 시장 교류를 축으로 중국사를 세계사에 통합"
+      }
+    ],
+    "keyEntitiesText": "오카모토 다카시, 사마천, 중항열, 흉노, 한나라 문제, 우메사오 다다오, 조영헌",
+    "settingText": "중국, 유라시아 대륙(몽골고원, 황하, 장강, 실크로드), 초원/농경 접경지대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1f-_8cwFdrqGa9jpx8T8GlzulFQuKHvQN",
+    "filename": "오카모토 다카시-세계사 속 중국사 도감.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:26.000Z",
+    "size": "325736",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1f-_8cwFdrqGa9jpx8T8GlzulFQuKHvQN/view?usp=drivesdk",
+    "sourceSha256": "8094158e16a7afb58e26fa7491f7dda4ce476b5647123b279805e612fc67c956",
+    "textSha256": "04a57c6b4a5dff31dd7b8b3f5304e7c9f29f81a5a387de036cd8712fb7cf1597",
+    "changeKey": "01fb955dd81dd61ee2274eab942d37f9",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "1e835c7e263c2b93d4d0",
+    "workId": "1e835c7e263c2b93d4d0",
+    "driveFileId": "1f-_8cwFdrqGa9jpx8T8GlzulFQuKHvQN",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:35:28.171068+00:00",
+    "updatedAt": "2026-09-25T18:35:28.171085+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:35:28.171215+00:00"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "돈의 흐름으로 보는 세계사",
+    "author": "미야자키 마사카츠",
+    "genre": "경제사",
+    "tags": [
+      "화폐",
+      "통화",
+      "세계사",
+      "금융",
+      "달러"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "academic",
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도쿄교육대학 사학과를 졸업하고 쓰쿠바대학 부속고교 교사, 홋카이도교육대학 교수를 역임한 역사가.",
+    "oneLineSummary": "약 2,500년에 걸친 화폐와 통화 시스템의 변천사를 통해 현대의 불안정한 세계 정세와 경제의 흐름을 밝힌다.",
+    "overallSummary": "은덩이와 주화에서 출발해 어음 혁명, 종이 지폐, 금본위제와 파운드 및 달러 패권, 닉슨 쇼크에 이르는 화폐의 역사와 현대 전자화폐·암호화폐의 과제를 다룬 세계 경제사 서적.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가며: 통화가 움직이는 세상",
+        "summary": "닉슨 쇼크 이후 불환지폐 시대의 불안정성과 돈의 역사를 통한 국제 정세 이해의 필요성을 논한다."
+      },
+      {
+        "sectionTitle": "화폐의 역사 ①~③",
+        "summary": "주화 혁명, 장기 어음 혁명, 달러 패권 및 비트코인 등 전자화폐의 등장 과정을 개관한다."
+      },
+      {
+        "sectionTitle": "제1장~제2장: 화폐의 처음 유통과 주화 혁명",
+        "summary": "서아시아의 은덩이 화폐 정착 배경과 메소포타미아의 토큰, 페르시아와 로마의 주화 유통을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "주요 개념",
+        "value": "물품화폐, 통화, 불환지폐, 브레턴우즈 체제, 어음 혁명"
+      }
+    ],
+    "keyEntitiesText": "미야자키 마사카츠, 리처드 닉슨, J.P. 모건, 잉글랜드은행, 페르시아, 비트코인",
+    "settingText": "고대 메소포타미아, 서아시아, 유럽, 미국, B.C. 4000년~현대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1zPuIQcejo-auP3VG4e1xmJN4dUATINLz",
+    "filename": "미야자키 마사카츠-돈의 흐름으로 보는 세계사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "263781",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1zPuIQcejo-auP3VG4e1xmJN4dUATINLz/view?usp=drivesdk",
+    "sourceSha256": "9eeb4df8bd7e553a2ffbf270893402d3856fe6e11e1dfb0187141464c41e322a",
+    "textSha256": "c09a2062b76aeda645875282ad5bd3af78ae57335774fb9c0274cddbb4701fe3",
+    "changeKey": "3385ed1861be376092498efb0da65a1e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "f2f3cb384253277a8bda",
+    "workId": "f2f3cb384253277a8bda",
+    "driveFileId": "1zPuIQcejo-auP3VG4e1xmJN4dUATINLz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:30:17.994509+00:00",
+    "updatedAt": "2026-09-25T18:30:17.994528+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:30:17.994645+00:00"
+    }
+  }
+}

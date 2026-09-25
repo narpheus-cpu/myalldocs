@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "인물로 읽는 세계사 교양 수업 365",
+    "author": "미즈노 하루히코 외",
+    "genre": "인물사",
+    "tags": [
+      "인물사",
+      "세계사",
+      "교양",
+      "365인"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "감수를 맡은 사토 마사루는 저명한 작가 및 저술가로 다수의 역사·사상 도서를 저술 및 감수함.",
+    "oneLineSummary": "정치, 군사, 철학, 예술 등 다방면에서 역사의 발자취를 남긴 365명의 인물을 통해 세계사의 전체 모습을 부각한다.",
+    "overallSummary": "쿠푸 왕, 함무라비 왕, 람세스 2세, 키루스 2세, 다리우스 1세, 클레이스테네스, 페리클레스 등 선선시대부터 시대를 구획해온 핵심 인물 365명의 삶과 업적을 1일 1인 형식으로 엮은 인물 사전식 세계사 교양서.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "감수의 말 (사토 마사루)",
+        "summary": "세계사 학습을 통한 타문화 이해와 리버럴 아츠 교양의 필요성, 365명 인물 수록의 의의를 강조한다."
+      },
+      {
+        "sectionTitle": "001 쿠푸 왕 ~ 003 람세스 2세",
+        "summary": "대피라미드를 세운 쿠푸 왕, 함무라비 법전을 제정한 바빌로니아의 함무라비, 최초의 국제 평화 조약을 맺은 람세스 2세의 업적을 설명한다."
+      },
+      {
+        "sectionTitle": "004 키루스 2세 ~ 007 페리클레스",
+        "summary": "페르시아의 키루스 2세와 다리우스 1세의 제국 통치, 아테네 민주제의 기반을 닦은 클레이스테네스와 최전성기를 이끈 페리클레스를 소개한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성 형식",
+        "value": "하루 한 명씩 365명의 중요한 역사적 인물을 다루는 인물 중심 교양 구성"
+      }
+    ],
+    "keyEntitiesText": "사토 마사루, 쿠푸 왕, 함무라비 왕, 람세스 2세, 키루스 2세, 다리우스 1세, 클레이스테네스, 페리클레스",
+    "settingText": "고대 이집트, 바빌로니아, 페르시아 제국, 고대 아테네"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1V4l24LIVvof5rjdUbm94Z316y3gerFWy",
+    "filename": "미즈노 하루히코 외-인물로 읽는 세계사 교양 수업 365.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "1272733",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1V4l24LIVvof5rjdUbm94Z316y3gerFWy/view?usp=drivesdk",
+    "sourceSha256": "840cad6ca8823dc77e96d8e4218443d48346496775cb3f66fab06c6f67850b26",
+    "textSha256": "413f96bc659c813dfd629a328f3738fb27f21a9ee87e81c3259a701a6dc6fd8f",
+    "changeKey": "55fb337f99e04c432adafba34918dab4",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "2732d2bc89af12dfafb4",
+    "workId": "2732d2bc89af12dfafb4",
+    "driveFileId": "1V4l24LIVvof5rjdUbm94Z316y3gerFWy",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:31:58.127550+00:00",
+    "updatedAt": "2026-09-25T18:31:58.127568+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:31:58.127670+00:00"
+    }
+  }
+}

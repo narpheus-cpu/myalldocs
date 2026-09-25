@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "당신에게 들려주고 싶은 세계사",
+    "author": "박은봉",
+    "genre": "세계사",
+    "tags": [
+      "세계사",
+      "베토벤",
+      "도스토예프스키",
+      "역사뒷이야기",
+      "인간사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "고려대학교 사학과 및 동 대학원을 졸업하고 《한국사편지》, 《한국사 상식 바로잡기》 등 대중 역사서를 써온 대표적 역사 작가.",
+    "oneLineSummary": "역사 속 거장과 인물들이 겪은 사랑, 고뇌, 실망 등 숨겨진 43가지 뒷이야기를 친근하고 깊이 있게 전한다.",
+    "overallSummary": "베토벤이 '불멸의 연인' 안토니 브렌타노에게 남긴 편지와 청각 상실의 고통, 도스토예프스키가 시베리아 유형지와 옴스크 감옥에서 경험한 사형 연극과 첫사랑 마리아 이야기 등 인간 중심의 시선으로 역사 속 극적 사건들을 재조명한 에피소드 역사서.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "첫 번째 이야기: 베토벤의 '불멸의 연인'",
+        "summary": "베토벤 사후 발견된 편지 속 '불멸의 연인' 안토니 브렌타노와의 안타까운 사랑과 청력 상실 속에서도 피어난 예술적 인간미를 그린다."
+      },
+      {
+        "sectionTitle": "두 번째 이야기: 도스토예프스키의 첫사랑 마리아",
+        "summary": "사형 연극 체험과 시베리아 감옥생활을 거치며 인간애를 깨달은 도스토예프스키와 하급관리 아내 마리아에 대한 정열적인 사랑을 서술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "초점",
+        "value": "역사적 사건의 인간적 비하인드 스토리와 개인의 내면적 고뇌 조명"
+      }
+    ],
+    "keyEntitiesText": "박은봉, 루트비히 판 베토벤, 안토니 브렌타노, 표도르 도스토예프스키, 마리아 드미트리예브나",
+    "settingText": "19세기 유럽(빈, 프랑크푸르트), 러시아 시베리아 유형지(세미팔라틴스크, 옴스크)"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1er_60jtzn-4Ih0N2YsjU0Ruc8w6EBe4q",
+    "filename": "박은봉-당신에게 들려주고 싶은 세계사 우리가 알지 못했던 43가지 역사 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "473340",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1er_60jtzn-4Ih0N2YsjU0Ruc8w6EBe4q/view?usp=drivesdk",
+    "sourceSha256": "07e4966981084e347299097671431aea8130c3e2655b3ffd6bc6fde122b5a35f",
+    "textSha256": "530a3650271cdec5490247ecfa0b58b610d5969a879806a7b01c2da19bed84d7",
+    "changeKey": "289bf1261d3ef105126bac41f5200d4e",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7d481aefbcdbcc912d87",
+    "workId": "7d481aefbcdbcc912d87",
+    "driveFileId": "1er_60jtzn-4Ih0N2YsjU0Ruc8w6EBe4q",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:32:32.381254+00:00",
+    "updatedAt": "2026-09-25T18:32:32.381271+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:32:32.381377+00:00"
+    }
+  }
+}

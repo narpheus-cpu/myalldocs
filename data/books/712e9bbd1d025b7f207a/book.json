@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계사를 움직인 100대 사건",
+    "author": "박영흠 외",
+    "genre": "세계사",
+    "tags": [
+      "세계사",
+      "100대사건",
+      "호모사피엔스",
+      "크로마뇽인",
+      "신석기혁명"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "역사적 주요 사건의 배경과 맥락을 균형 잡힌 시각으로 전달하기 위해 집필에 참여한 저자진.",
+    "oneLineSummary": "호모 사피엔스의 등장부터 현대의 9·11 테러까지 인류 역사에 큰 영향을 미친 100가지 사건을 끈 밀도 있게 파헤친다.",
+    "overallSummary": "현생 인류의 출현, 동굴 벽화를 남긴 크로마뇽인의 예술 활동, 정착과 계급을 만든 농경의 시작, 함무라비 법전, 세계대전과 현대 분쟁에 이르기까지 인류사의 핵심 전환점이 된 100대 사건의 배경과 의미를 종합 정리한 서적.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "호모 사피엔스의 등장",
+        "summary": "현생 인류 호모 사피엔스의 등장 과정과 아프리카 기원설, 네안데르탈인과의 비교 및 추상적 사고·예술 능력의 의의를 밝힌다."
+      },
+      {
+        "sectionTitle": "크로마뇽 인의 동굴 벽화",
+        "summary": "크로마뇽인의 출현과 알타미라·라스코 동굴 벽화에 담긴 구석기 예술 및 주술적 추상 능력을 서술한다."
+      },
+      {
+        "sectionTitle": "농경의 시작 (신석기 혁명)",
+        "summary": "수렵채집에서 농경으로의 이행이 정착, 잉여생산물, 계급 및 문명을 탄생시킨 과정을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 방식",
+        "value": "단순 나열이 아닌 사건의 배경, 맥락, 연관 관계 중심의 사건사 구성"
+      }
+    ],
+    "keyEntitiesText": "호모 사피엔스, 네안데르탈인, 루시, 크로마뇽인, 고든 차일드, 구학서",
+    "settingText": "아프리카, 유럽(알타미라, 라스코), 비옥한 초승달 지대"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yG4fckw3nhDvI8QaEFX_tFG2ljMwBxTE",
+    "filename": "박영흠 외-세계사 를 움직인 100대 사건 호모 사피엔스 의 출현 부터 9 11 테러 까지.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "876191",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1yG4fckw3nhDvI8QaEFX_tFG2ljMwBxTE/view?usp=drivesdk",
+    "sourceSha256": "97d4561ba58bd1610f7829edd7b8886aeaa56034f0fc336083c21659f2084d59",
+    "textSha256": "30dc8ffc50ee58bfee72fda2af58774d9461fff6679246b11d181a35a15da844",
+    "changeKey": "dc99bebce62f3d3cabcba9254f6f3d47",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "712e9bbd1d025b7f207a",
+    "workId": "712e9bbd1d025b7f207a",
+    "driveFileId": "1yG4fckw3nhDvI8QaEFX_tFG2ljMwBxTE",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:32:11.087993+00:00",
+    "updatedAt": "2026-09-25T18:32:11.088012+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:32:11.088155+00:00"
+    }
+  }
+}

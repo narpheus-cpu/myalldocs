@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "세계사를 바꾼 12가지 신소재",
+    "author": "사토 겐타로",
+    "genre": "과학사",
+    "tags": [
+      "신소재",
+      "화학",
+      "세계사",
+      "금",
+      "재료"
+    ],
+    "workProfile": {
+      "primary": "science_technical",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도쿄공업대학 대학원 유기합성화학 전공, 제약회사 연구원을 거쳐 저술가 및 과학 커뮤니케이터로 활동 중.",
+    "oneLineSummary": "인류 문명을 획기적으로 바꾼 12가지 재료의 화학적 특성과 역사적 파급력을 통해 '재료가 역사를 움직인다'는 사실을 증명한다.",
+    "overallSummary": "변혁의 속도결정단계로서 신소재의 역할을 제시하고, 녹슬지 않는 금의 화학적 성질과 미다스 신화, 세계 최초 금속 화폐의 탄생, 올림픽 메달 원소(금·은·동) 및 일본의 금 역사 등을 다루며 역사의 결정타가 된 재료들의 파급 효과를 설명함.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: '새로운 재료'가 역사를 움직인다",
+        "summary": "변혁의 속도결정단계로서 재료의 개념을 제시하고 셸락에서 폴리염화비닐로의 전환이 음악 산업을 일군 사례를 서술한다."
+      },
+      {
+        "sectionTitle": "인간을 유혹한 최초의 빛 ~ 화폐의 시작",
+        "summary": "변하지 않는 금의 화학 성질과 미다스 왕 신화, 리디아 왕국에서 최초의 화폐가 탄생하여 물품 거래와 분업을 유도한 과정을 설명한다."
+      },
+      {
+        "sectionTitle": "세계 경제를 움직이는 세 자매 ~ 지팡구",
+        "summary": "금·은·동 원소의 물리적/화학적 성질, 도다이지 대불 도금 등 일본의 금 역사와 마르크 폴로의 '지팡구' 전설을 규명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "화학-역사 융합 프레임",
+        "value": "원소적·화학적 특성과 역사적 대전환의 인과관계를 '속도결정단계' 개념으로 분석"
+      }
+    ],
+    "keyEntitiesText": "사토 겐타로, 미다스 왕, 투탕카멘, 마르코 폴로, 도다이지 대불",
+    "settingText": "고대 리디아, 로마 제국, 일본(나라/헤이안 시대), 전 세계"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1sNsh8OAEcTI5z82YC5R5b_zK_eKC9e33",
+    "filename": "사토 겐타로-세계사 를 바꾼 12가지 신소재 문명의 기반이 된 철부터 미래를 이끌 메타물질까지.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "332571",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1sNsh8OAEcTI5z82YC5R5b_zK_eKC9e33/view?usp=drivesdk",
+    "sourceSha256": "fba6ea9a8851aab6350c19cd4bd7fddc106990afb88b8976ea4276fc3e94f440",
+    "textSha256": "25347cade86cf1a364cc8a68533cc77531efd4bab7a569c617f3c838e53f0cf1",
+    "changeKey": "212c2d596b777b37c888408878748340",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4de9485ca088d4bc2ff1",
+    "workId": "4de9485ca088d4bc2ff1",
+    "driveFileId": "1sNsh8OAEcTI5z82YC5R5b_zK_eKC9e33",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:33:26.502538+00:00",
+    "updatedAt": "2026-09-25T18:33:26.502555+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:33:26.502658+00:00"
+    }
+  }
+}

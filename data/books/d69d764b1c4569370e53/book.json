@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "학교에서 가르쳐주지 않는 세계사: 일본, 유럽을 만나다",
+    "author": "신상목",
+    "genre": "동아시아사",
+    "tags": [
+      "일본사",
+      "유럽",
+      "대항해시대",
+      "동서교류",
+      "세계사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "연세대학교 법학과 졸업, 제30회 외무고시 합격 후 주일대사관 등에서 근무한 전직 외교관이자 저술가.",
+    "oneLineSummary": "대항해시대 유럽과 일본이 만난 교류의 역사 현장을 파노라마처럼 펼쳐 보이며 세계사와 동아시아사의 연결고리를 제시한다.",
+    "overallSummary": "폐쇄적인 자국 중심 역사 인식에서 벗어나, 16세기 대항해시대 유럽의 동방 진출 동기('료·금·신')와 실행 수단, 마르코 폴로의 『동방견문록』 속 황금 섬 '치팡구(Cipangu)' 전설 및 지도가 유럽과 일본의 첫 만남을 유인한 과정을 조망함.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "책머리에: 왜 역사를 공부하는가?",
+        "summary": "한국의 폐쇄적 역사관 극복을 위해, 일본과 유럽의 농밀한 근세 교류사를 가상현실적 트레이닝 모델로 제시한다."
+      },
+      {
+        "sectionTitle": "제1장: 환상의 황금섬 - 『동방견문록』과 <카탈루냐 지도첩>",
+        "summary": "14세기 유럽 지도에 등장한 동방 지명, 마르코 폴로의 『동방견문록』과 전설의 황금 나라 '치팡구(Cipangu)'에 매료된 유럽인들의 동방 진출 욕망을 기술한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사 인식 전환",
+        "value": "동아시아사와 근대 유럽사의 접점을 '자기 연관성'과 문명 교류의 연쇄 반응(나비효과)으로 독해"
+      }
+    ],
+    "keyEntitiesText": "신상목, 아브라함 크레스케스, 마르코 폴로, 쿠빌라이 칸, 콜럼버스, 이븐 쿠르다지바",
+    "settingText": "지중해 마요르카, 베네치아, 몽골 원나라, 일본(치팡구), 14~16세기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1pK7U__3priuGNqYJzI_RaGblqUh5_rfz",
+    "filename": "신상목-학교에서 가르쳐주지 않는 세계사 일본, 유럽을 만나다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "588293",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1pK7U__3priuGNqYJzI_RaGblqUh5_rfz/view?usp=drivesdk",
+    "sourceSha256": "f0e6b630b8165f086fd0a34da0f2dd02b06f172ded9e5e8d80af34522abe07e7",
+    "textSha256": "f701c2f1e6139d9f5dbd301ba32b0c71911768f82d63d51a371e89a3bfa1c471",
+    "changeKey": "074eb9741d6ceb65254c364c80357c1b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d69d764b1c4569370e53",
+    "workId": "d69d764b1c4569370e53",
+    "driveFileId": "1pK7U__3priuGNqYJzI_RaGblqUh5_rfz",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:34:06.561130+00:00",
+    "updatedAt": "2026-09-25T18:34:06.561149+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:34:06.561252+00:00"
+    }
+  }
+}

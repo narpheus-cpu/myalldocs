@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "썬킴의 거침없는 세계사",
+    "author": "썬킴",
+    "genre": "전쟁사",
+    "tags": [
+      "세계사",
+      "1차세계대전",
+      "2차세계대전",
+      "태평양전쟁",
+      "중국근대사"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "영화 제작 현장 경험을 바탕으로 팟캐스트 및 방송에서 인기를 얻은 대표적 역사 스토리텔러.",
+    "oneLineSummary": "1차·2차 세계대전, 태평양 전쟁, 중국 근대사 등 현대 세계를 만든 4대 전쟁사를 긴밀한 인과관계 스토리텔링으로 해설한다.",
+    "overallSummary": "우연히 일어난 사건이 없듯, 비스마르크의 철혈정책과 프로이센 통일에서 비롯된 1차 세계대전, 히틀러의 대두와 2차 세계대전, 일본의 진주만 기습과 태평양 전쟁, 아편전쟁에서 국공내전에 이르는 중국 근대사까지 역사의 나비효과를 파헤친 서적.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그 & 1장: 인류 최초 대량 살육전 1차 대전",
+        "summary": "역사에 우연은 없다는 전제와 1차 대전의 지루한 참호전 성격, 3,000만 명 사상자가 발생한 살육전의 배경을 소개한다."
+      },
+      {
+        "sectionTitle": "독일은 왜 괴물 국가가 되었는가? ~ 비스마르크 등장",
+        "summary": "1815년 38개국 독일 연방 상태, 프로이센과 오스트리아의 주도권 싸움, 비스마르크의 연방 의회 맞담배 사건과 철혈 연설을 서술한다."
+      },
+      {
+        "sectionTitle": "프로이센, 오스트리아를 꺾다",
+        "summary": "1866년 프로이센-오스트리아 전쟁에서 프로이센의 승리와 오스트리아를 동맹국으로 배려한 비스마르크의 신의 한 수를 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "스토리텔링 특징",
+        "value": "영화적 인과관계 구조와 입체적 구어체를 통해 단편적 역사 지식을 유기적 연쇄로 재구성"
+      }
+    ],
+    "keyEntitiesText": "썬킴, 오토 판 비스마르크, 빌헬름 1세, 빌헬름 4세, 페르디난트 대공, 히틀러",
+    "settingText": "독일 연방, 프로이센, 오스트리아, 사라예보, 유럽 서부전선"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "105GnhsLiJNZOPMqDo64O9XHJ_HoZ3IXP",
+    "filename": "썬킴의 거침 없는 세계사 세계 대전 부터 태평양 전쟁, 중국 근대사 까지 전쟁 으로 읽는 역사 이야기.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "392245",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/105GnhsLiJNZOPMqDo64O9XHJ_HoZ3IXP/view?usp=drivesdk",
+    "sourceSha256": "de3c79281092073f6173f822ccd00595f4966fa5c1d866450677f997edabe826",
+    "textSha256": "76318b2f4abe38952480a7221d8cbcb01d9d9641b0c7e1987c4ad13230da220e",
+    "changeKey": "2d3cd6ddb92f5c09b64da294e4468e0b",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "0cabdef694cbe9649e4a",
+    "workId": "0cabdef694cbe9649e4a",
+    "driveFileId": "105GnhsLiJNZOPMqDo64O9XHJ_HoZ3IXP",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:34:31.124247+00:00",
+    "updatedAt": "2026-09-25T18:34:31.124265+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:34:31.124369+00:00"
+    }
+  }
+}

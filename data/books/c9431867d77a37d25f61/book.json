@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "썬킴의 세계사 완전 정복",
+    "author": "썬킴",
+    "genre": "세계사",
+    "tags": [
+      "세계사",
+      "미국사",
+      "러시아사",
+      "제임스타운",
+      "청교도"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "방송 및 네이버 오디오클립 등에서 입담을 검증받은 인기 역사 스토리텔러.",
+    "oneLineSummary": "한국 근현대사에 절대적 영향을 미친 미국과 러시아의 건국 및 발전 과정을 상관관계 중심으로 쉽고 거침없이 풀어낸다.",
+    "overallSummary": "미국의 진짜 시작점인 1607년 제임스타운 건설과 담배 농사, 포카혼타스 전설의 실상, 1619년 첫 흑인 노예 도입, 1620년 메이플라워호 청교도 정착과 퀘이커 교도 윌리엄 펜의 펜실베이니아 개척 등 미국 건국 초기사를 흥미진진하게 살핀 책.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "프롤로그: 미국과 러시아를 알아야 하는 이유",
+        "summary": "한국 근현대사(을미사변, 아관파천, 러일전쟁, 미군정 등)와 밀접하게 연관된 미국 및 러시아 역사를 이해할 필요성 서술."
+      },
+      {
+        "sectionTitle": "미국의 진정한 시작 ~ 포카혼타스",
+        "summary": "1607년 제임스타운 정착, 담배 재배 성공과 포카혼타스의 실화 및 원주민 분쟁의 전말을 밝힌다."
+      },
+      {
+        "sectionTitle": "흑인 노예 무역 ~ 펜실베이니아의 탄생",
+        "summary": "1619년 흑인 유입과 노예제 명분, 1620년 청교도의 메이플라워호 도착, 퀘이커 교도 윌리엄 펜의 펜실베이니아 및 필라델피아 건설."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "국가 중심적 구도",
+        "value": "한국 근현대사의 백그라운드가 되는 미국과 러시아의 건국·성장사를 대중적 언어로 완정 해설"
+      }
+    ],
+    "keyEntitiesText": "썬킴, 월터 롤리, 존 스미스, 존 롤프, 포카혼타스, 헨리 8세, 윌리엄 펜",
+    "settingText": "북미 대륙(제임스타운, 매사추세츠, 펜실베이니아), 영국, 17세기"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1NWfdhbdEgZ57T9CDi_RjNl7MqayeU3bn",
+    "filename": "썬킴의 세계사 완전 정복.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "263708",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1NWfdhbdEgZ57T9CDi_RjNl7MqayeU3bn/view?usp=drivesdk",
+    "sourceSha256": "323c347683fcbc2526f57b10b17188d37ecd09a1d99737fb4375c6aa62b21f57",
+    "textSha256": "cf556d369f887e004116fc3dd27666a36f6b1248d61450c88136607f6c1b1726",
+    "changeKey": "e202478fb9eac00c31e75a90cddeba64",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "c9431867d77a37d25f61",
+    "workId": "c9431867d77a37d25f61",
+    "driveFileId": "1NWfdhbdEgZ57T9CDi_RjNl7MqayeU3bn",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:34:47.138811+00:00",
+    "updatedAt": "2026-09-25T18:34:47.138828+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:34:47.138935+00:00"
+    }
+  }
+}

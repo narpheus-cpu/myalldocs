@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "처음부터 다시 읽는 친절한 세계사",
+    "author": "미야자키 마사카츠",
+    "genre": "세계사",
+    "tags": [
+      "세계사",
+      "역사입문",
+      "유라시아",
+      "문명"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "도쿄교육대학 사학과 졸업, 고교 교사 및 대학 교수를 거쳐 역사 저술가 및 강사로 활동 중인 역사 교육 전문가.",
+    "oneLineSummary": "35개의 핵심 키포인트를 이정표 삼아 인류의 출발점부터 현대의 글로벌 시대까지의 세계사를 역동적이고 간결하게 풀어낸다.",
+    "overallSummary": "아프리카 대지구대의 인류 탄생에서부터 건조 지대의 4대 문명, 지역 제국의 등장, 유라시아 일체화, 대항해시대, 대서양 자본주의와 국민국가, 영국의 세기를 거쳐 현대 세계로 이어지는 흐름을 한눈에 파악하도록 정돈한 입문서.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "머리말 및 전체 목차 구조",
+        "summary": "복잡한 세부 사실 나열을 피하고 35개 키포인트를 통해 역사의 역동적 궤적을 명쾌하게 파악하는 틀을 소개한다."
+      },
+      {
+        "sectionTitle": "1장~2장: 세계사의 기원과 4대 하천 문명",
+        "summary": "동아프리카 대지구대에서의 호모 사피엔스 출현, 대건조지대 농업혁명, 관개에 따른 도시·국가 형성 및 이집트·메소포타미아 문명 특성을 비교한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "구성적 특징",
+        "value": "35개 핵심 키포인트와 간단한 도판을 통한 빠른 세계사 체계 구축"
+      }
+    ],
+    "keyEntitiesText": "미야자키 마사카츠, 레베카 칸, 라미두스 원인, 호모 사피엔스, 수메르인, 파라오",
+    "settingText": "동아프리카 대지구대, 대건조지대, 나일강, 메소포타미아"
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1axRiXX21K6kSjeK-MQDFGDyBQWlQa2Al",
+    "filename": "미야자키 마사카츠-처음부터 다시 읽는 친절한 세계사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "488397",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1axRiXX21K6kSjeK-MQDFGDyBQWlQa2Al/view?usp=drivesdk",
+    "sourceSha256": "71d726a45a26df07f8aebdb4d25b5bbf76a4bd3082517b6346f732aa7914a1e6",
+    "textSha256": "c1ab28257eca176d28d3483d2b798360bb3e2be01a54056741d4d060d0504275",
+    "changeKey": "fe5ac1b439ef2c9db97f05c1bb496c58",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "4f04c93f0dd181221b0e",
+    "workId": "4f04c93f0dd181221b0e",
+    "driveFileId": "1axRiXX21K6kSjeK-MQDFGDyBQWlQa2Al",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:31:04.057542+00:00",
+    "updatedAt": "2026-09-25T18:31:04.057560+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:31:04.057660+00:00"
+    }
+  }
+}
