@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "지도로 읽는 땅따먹기 세계사",
+    "author": "이와타 슈젠",
+    "genre": "역사/교양",
+    "tags": [
+      "세계사",
+      "세력지도",
+      "영토분쟁",
+      "역사교양"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "practical_manual"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "이 책의 감수자인 이와타 슈젠은 독자들이 세계사를 쉽고 흥미롭게 이해할 수 있도록 세력지도를 활용한 시각적 역사 해설을 제공하는 전문가이다.",
+    "oneLineSummary": "고대부터 현대까지 세계사의 주요 패권 다툼과 영토 변화를 텍스트가 아닌 직관적인 세력지도로 시각화하여 생생하게 전달하는 역사 교양서.",
+    "overallSummary": "이 책은 인류 역사상 중요한 영토, 경제권, 권력, 종교적 세력 관계의 변화를 '세력지도'라는 시각적 도구를 통해 설명한다. 고대 오리엔트 제국의 탄생과 헬레니즘 문명, 로마 제국의 성립부터 중세, 근세, 근대, 현대에 이르기까지 동서양의 충돌과 교류, 제국들의 흥망성쇠를 게임을 하듯 흥미진진하게 살펴볼 수 있도록 구성되어 있다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가며",
+        "summary": "커피 한 잔에 담긴 범지구적 세계사를 예로 들며, 세계사 속 세력관계를 지도로 시각화하여 현장감 있게 배우는 즐거움을 소개한다."
+      },
+      {
+        "sectionTitle": "고대 제국, 세계사에 등장하다",
+        "summary": "아시리아와 아케메네스 왕조의 오리엔트 통일, 페르시아 전쟁과 알렉산드로스의 동방원정, 로마 제국의 성립과 포에니 전쟁, 중국 진·한 제국의 번영 등 고대 패권의 이동을 다룬다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "서술 특징",
+        "value": "역사적 사건을 텍스트 나열이 아닌 영토와 세력의 변화를 보여주는 지도를 중심으로 시각화하여 설명함."
+      }
+    ],
+    "keyEntitiesText": "이와타 슈젠, 아시리아, 아케메네스 왕조, 알렉산드로스 대왕, 로마 제국, 마우리아 왕조",
+    "settingText": "기원전 7세기 오리엔트 세계부터 현대에 이르는 전 세계 영토 및 세력 판도."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1fyN4MKbz4eyD1iPfZ2yH6u8r7-NaolnC",
+    "filename": "이와타 슈젠-지도로 읽는 땅따먹기 세계사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:26.000Z",
+    "size": "135863",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1fyN4MKbz4eyD1iPfZ2yH6u8r7-NaolnC/view?usp=drivesdk",
+    "sourceSha256": "26e25b80ca33d595ba635d72c5cc70c3d92ad5054a76096cae295a376a901646",
+    "textSha256": "d5c712faaae387c9da8f773ca285a66e5b3c40de8c5b77db7c92672cf9c0951d",
+    "changeKey": "579ba89acd08d0b9516a6d3d35f7608a",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "7755cdb193c7ce73a667",
+    "workId": "7755cdb193c7ce73a667",
+    "driveFileId": "1fyN4MKbz4eyD1iPfZ2yH6u8r7-NaolnC",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:44:00.455201+00:00",
+    "updatedAt": "2026-09-25T18:44:00.455217+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:44:00.455305+00:00"
+    }
+  }
+}

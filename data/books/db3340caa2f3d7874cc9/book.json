@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "중국 도감 - 지도로 읽는다",
+    "author": "모방푸",
+    "genre": "지리/역사",
+    "tags": [
+      "중국지리",
+      "행정구역",
+      "베이징",
+      "톈진",
+      "중관촌"
+    ],
+    "workProfile": {
+      "primary": "practical_manual",
+      "secondary": [
+        "history_biography"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 모방푸는 중국의 역사, 지리, 경제, 문화적 특성을 다각도로 분석하여 대중에게 소개하는 저술가이자 언론인이다.",
+    "oneLineSummary": "중국의 34개 성·시·자치구·특별행정구 각각의 지도를 퍼즐처럼 연결하며 역사, 정치, 문화, 산업의 최신 정보를 한눈에 보여주는 중국 지리 도감.",
+    "overallSummary": "이 책은 광활한 중국을 제대로 이해하기 위해 22개 성, 4개 직할시, 5개 자치구, 타이완, 홍콩·마카오 등 34개 행정단위를 지도로 시각화하여 해설한다. 각 지역의 역사적 배경, 전통문화(예: 베이징의 쓰허위안과 후퉁), 그리고 현대 산업의 변화(예: 베이징 중관촌의 IT 산업, 톈진의 경제 개발)를 풍부한 정보와 함께 입증한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "들어가는 말",
+        "summary": "중국을 하나의 문명으로 이해하기 위해 34개 행정단위를 퍼즐처럼 연결하고, 동부·중부·서부의 경제권역 구분을 설명한다."
+      },
+      {
+        "sectionTitle": "베이징시",
+        "summary": "올림픽을 계기로 세련된 도시로 변모한 수도 베이징의 전통가옥 쓰허위안과 후퉁의 보존 노력, 자금성과 만리장성 등 역사 유적, 그리고 중관촌(IT)과 798예술구의 탄생을 다룬다."
+      },
+      {
+        "sectionTitle": "톈진시",
+        "summary": "개항 이후 조계지의 역사와 근대 공업도시로서의 번영, 그리고 베이징과의 인접성으로 인한 경제적 딜레마를 극복하기 위한 빈하이 신구 개발 등 현대적 성장을 설명한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "산업적 변화",
+        "value": "베이징이 과거의 중화학공업 도시에서 중관촌을 중심으로 한 IT 및 798예술구 중심의 문화산업 도시로 체질을 개선했음을 분석함."
+      }
+    ],
+    "keyEntitiesText": "모방푸, 서태후, 푸이, 린뱌오, 달라이 라마 7세",
+    "settingText": "현대 중국의 수도 베이징과 직할시 톈진을 비롯한 34개 성급 행정구역의 지리적·경제적 공간."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1_h5yJ6XiSfQoj_28osXogJ6d3DMmS72z",
+    "filename": "중국 도감-지도로 읽는다.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:26.000Z",
+    "size": "413474",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1_h5yJ6XiSfQoj_28osXogJ6d3DMmS72z/view?usp=drivesdk",
+    "sourceSha256": "009d0075a719b13d5a6c61cbd6b80f18b7723368798121e6e7054cf2e2f27591",
+    "textSha256": "8699b868f0bae495f1970c9dc82abcd3615cf2c445c0890ba07bdadb0c0e069e",
+    "changeKey": "9b024d26459ab1c36e912edfa7611ead",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "db3340caa2f3d7874cc9",
+    "workId": "db3340caa2f3d7874cc9",
+    "driveFileId": "1_h5yJ6XiSfQoj_28osXogJ6d3DMmS72z",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:44:34.229605+00:00",
+    "updatedAt": "2026-09-25T18:44:34.229620+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:44:34.229710+00:00"
+    }
+  }
+}

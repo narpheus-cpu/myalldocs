@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "title": "너무 재밌어서 잠 못 드는 세계사",
+    "author": "우야마 다쿠에이",
+    "genre": "역사/교양",
+    "tags": [
+      "세계사",
+      "역사교양",
+      "경제사",
+      "계급투쟁"
+    ],
+    "workProfile": {
+      "primary": "history_biography",
+      "secondary": [
+        "essay_general_nonfiction"
+      ]
+    },
+    "aliases": {
+      "titles": [],
+      "authors": []
+    }
+  },
+  "content": {
+    "authorIntroduction": "저자 우야마 다쿠에이는 세계사의 본질을 일반 독자들에게 알기 쉽고 재미있게 전달하고자 하는 역사 저술가이다.",
+    "oneLineSummary": "역사 용어 암기에서 벗어나 부에 대한 인간의 욕망과 계급투쟁이라는 경제적 관점으로 세계사의 본질을 흥미롭게 풀어낸 역사 교양서.",
+    "overallSummary": "이 책은 단순한 연표나 인명 암기 위주의 역사 공부에서 벗어나, 역사의 심층에 존재하는 '부의 획득과 분배를 둘러싼 인간의 욕망' 및 '계급투쟁'이라는 경제적 하부구조를 중심으로 세계사를 설명한다. 고대 오리엔트와 그리스·로마부터 중세, 근세, 근대, 현대에 이르기까지 지배 계급의 변동과 시대 구분을 통해 역사의 거대한 흐름과 본질을 알기 쉽게 해설한다.",
+    "sectionSummaries": [
+      {
+        "sectionTitle": "세계사를 시작하기 전에",
+        "summary": "역사를 과대평가하여 구체적인 미래 예측에 바로 적용하려 하기보다, 역사 자체를 세상에서 가장 재미있는 리얼리티 엔터테인먼트로 즐길 것을 권한다."
+      },
+      {
+        "sectionTitle": "역사의 구조",
+        "summary": "마르크스의 계급투쟁 테제를 바탕으로, 인간 사회의 파벌과 세력 형성의 기준이 경제력(빈부 격차)이며 역사의 본질은 부를 둘러싼 다툼과 욕망의 누적에 있음을 설명한다."
+      },
+      {
+        "sectionTitle": "다섯 가지 시대 구분",
+        "summary": "서양사에서 지배 계급의 변동을 기준으로 고대, 중세, 근세, 근대, 현대의 다섯 시대로 구분하는 기준과 그 변화 양상을 개괄한다."
+      }
+    ],
+    "keyEntities": {
+      "type": "mixed",
+      "items": []
+    },
+    "setting": {
+      "internal": {},
+      "external": {}
+    },
+    "adaptiveAnalysis": [
+      {
+        "key": "역사관",
+        "value": "역사의 하부구조인 경제적 요인이 상부구조인 정치를 규정한다는 유물사관적 관점을 취함."
+      }
+    ],
+    "keyEntitiesText": "우야마 다쿠에이, 칼 마르크스, 나폴레옹, 루이 14세, 부르주아",
+    "settingText": "고대 그리스·로마부터 현대에 이르는 전 세계 역사적 공간과 사회적 계급 구조."
+  },
+  "source": {
+    "provider": "google-drive",
+    "driveFileId": "1yiGIP2b5uGDonF7SqStHAKgrEqVwxp1e",
+    "filename": "우야마 다쿠에이-너무 재밌어서 잠 못 드는 세계사.txt",
+    "format": "txt",
+    "mimeType": "text/plain",
+    "modifiedTime": "2026-01-22T10:52:28.000Z",
+    "size": "407546",
+    "folderPath": [
+      "books",
+      "추가",
+      "세계사 관련"
+    ],
+    "relativePath": "books/추가/세계사 관련",
+    "webViewLink": "https://drive.google.com/file/d/1yiGIP2b5uGDonF7SqStHAKgrEqVwxp1e/view?usp=drivesdk",
+    "sourceSha256": "c0cebeaf6b8eca22b7fdc20f4205c25f9e99d33fc9280015c0b2e2f6ee963a17",
+    "textSha256": "e9202c8989a1ad1f07ebe1c131173821595cadece764c54e6885bc6a2bc60651",
+    "changeKey": "8c204ac26eefe8e4a5cc43763bf6f291",
+    "chunking": {
+      "targetCharacters": 5000,
+      "overlapCharacters": 0
+    }
+  },
+  "system": {
+    "libraryEntryId": "d82d2c3b9c92eb3a389f",
+    "workId": "d82d2c3b9c92eb3a389f",
+    "driveFileId": "1yiGIP2b5uGDonF7SqStHAKgrEqVwxp1e",
+    "driveMatchStatus": "MATCHED",
+    "identityConfidence": 0.0,
+    "identityStatus": "CONFIRMED",
+    "indexStatus": "COMPLETE",
+    "schemaVersion": 2,
+    "promptVersion": 1,
+    "createdAt": "2026-09-25T18:43:40.851751+00:00",
+    "updatedAt": "2026-09-25T18:43:40.851767+00:00",
+    "generation": {
+      "source": "user_authored",
+      "model": ""
+    },
+    "edited": true,
+    "sourceConnection": {
+      "status": "auto",
+      "reviewRecommended": false,
+      "matchBasis": "title_author",
+      "matchScore": 1.0,
+      "updatedAt": "2026-09-25T18:43:40.851933+00:00"
+    }
+  }
+}
